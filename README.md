@@ -18,7 +18,7 @@ cd dokuwiki2wikijs && ./dokuwiki2wikijs.py ../../GDevelop-wiki/dokuwiki/ ../docs
 TODO:
 - ~~Add a page at the root~~
 - Finish the sidebar to reorder files in sub categories
-- Fix size of extension icons
+~~- Fix size of extension icons~~
 - Remove old files or do redirect (example: http://localhost:8000/gdevelop5/all-features/functions/). For example:
   ~~- draft-optimization~~
   ~~- gdevelop5/objects/how-to-rotate-objects/~~
@@ -51,4 +51,11 @@ Manual TODO before replacing the old wiki:
 - Remove draft-optimization page: `rm -rf docs/gdevelop5/events/draft-optimization.md` (redirection done already)
 - Fix the table in `docs/gdevelop5/behaviors/physics2.md` once this replaces the old wiki.
 - ~~Fix the generation of tables of extensions/expressions reference (in GDevelop GitHub)~~
-  - Fix the size of SVG images
+  ~~- Fix the size of SVG images~~
+
+- Do a last pull from the existing wiki.
+- Set up GitHub pages for this repo.
+- Redirect Cloudflare to the new GH pages.
+- Remove the old GDevelop-documentation repo.
+- Change the branch to master in CircleCI.
+- Change Cloudflare to point to vercel.
