@@ -1,9 +1,6 @@
----
-title: Flexbox
----
 # Flexbox
 
-![](https://resources.gdevelop-app.com/assets/Icons/page-layout-body.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/page-layout-body.svg" class="extension-icon"></img>
 Allows using flexbox for positioning objects.
 
 **Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555).

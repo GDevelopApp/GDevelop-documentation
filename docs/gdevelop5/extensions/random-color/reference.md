@@ -1,9 +1,6 @@
----
-title: Random Color Generator
----
 # Random Color Generator
 
-![](https://resources.gdevelop-app.com/assets/Icons/format-color-fill.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/format-color-fill.svg" class="extension-icon"></img>
 Create a random color for a scene, an object, or any other color input.
 
 **Authors and contributors** to this community extension: [MrJeje](https://gd.games/MrJeje).

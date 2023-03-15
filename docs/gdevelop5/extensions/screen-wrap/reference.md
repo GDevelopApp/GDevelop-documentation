@@ -1,9 +1,6 @@
----
-title: Screen Wrap
----
 # Screen Wrap
 
-![](https://resources.gdevelop-app.com/assets/Icons/monitor-screenshot.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/monitor-screenshot.svg" class="extension-icon"></img>
 Teleport object when it moves off the screen and immediately appear on the opposite side while maintaining speed and trajectory.
 
 **Authors and contributors** to this community extension: [Entropy](https://gd.games/Entropy), [VictrisGames](https://gd.games/VictrisGames).

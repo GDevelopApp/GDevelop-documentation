@@ -1,9 +1,6 @@
----
-title: Make objects orbit around a center object
----
 # Make objects orbit around a center object
 
-![](https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Space/Space_earth_moon_orbit.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Space/Space_earth_moon_orbit.svg" class="extension-icon"></img>
 Make objects orbit around a center object. You can customize the number of objects, speed, etc...
 
 **Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames), [VegeTato](https://gd.games/VegeTato).
@@ -15,7 +12,6 @@ The extension will take care of creating/deleting orbiting objects to match the 
 Use the delete function or set the quantity to 0 to remove orbiting objects.
 
 The customizable parameters include:
-
 - Which center object to use
 - Orbiting object (cannot be the same object used for the Center object)
 - Quantity of orbiting objects
@@ -24,7 +20,6 @@ The customizable parameters include:
 - Speed to rotate each orbiting object (in degrees per second).  Use negative numbers to rotate counter-clockwise.
 
 Example uses:
-
 - Make shield objects around the player to protect from enemies
 - Weapons that can damage enemies when they collide
 - Can be used on both player and NPC objects 

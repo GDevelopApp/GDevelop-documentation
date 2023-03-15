@@ -1,9 +1,6 @@
----
-title: Multitouch joystick and buttons (sprite)
----
 # Multitouch joystick and buttons (sprite)
 
-![](https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Videogames/Videogames_controller_joystick_arrows_direction.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Videogames/Videogames_controller_joystick_arrows_direction.svg" class="extension-icon"></img>
 Joysticks or buttons for touchscreens.
 
 **Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames), [AstroCookie](https://gd.games/AstroCookie), [xellix](https://gd.games/xellix), [D8H](https://gd.games/D8H).
@@ -11,7 +8,6 @@ Joysticks or buttons for touchscreens.
 ---
 
 Multitouch joysticks can be used the same way as physical gamepads:
-
 - 4 or 8 directions
 - Analogus pads
 - Player selection

@@ -1,22 +1,17 @@
----
-title: Pause when losing focus
----
 # Pause when losing focus
 
-![](https://resources.gdevelop-app.com/assets/Icons/play-pause.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/play-pause.svg" class="extension-icon"></img>
 Pauses when focus is lost, restarts when focus is regained.
 
 **Authors and contributors** to this community extension: [Telstarboy](https://gd.games/Telstarboy).
 
 !!! warning
-    
-        
     This is an extension made by a community member — but not reviewed
     by the GDevelop extension team. As such, we can't guarantee it
     meets all the quality standards of official extensions. In case of
     doubt, contact the author to know more about what the extension
     does or inspect its content before using it.
-    
+
 
 ---
 

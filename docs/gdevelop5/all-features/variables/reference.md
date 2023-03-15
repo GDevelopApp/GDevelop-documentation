@@ -1,6 +1,3 @@
----
-title: Variables
----
 # Variables
 
 Actions, conditions and expressions to handle variables, from simple variables like the player score, the number of remaining lives to complex variables containing arbitrary data like an inventory or the result of a web request. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/variables)
@@ -109,35 +106,37 @@ Check if the specified child of the scene structure variable exists.
 
 ## Expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `GlobalVariable(globalvar)` | Number value of a global variable ||
-|:::| _globalvar_ | Name of the global variable |
+| | _globalvar_ | Name of the global variable |
 | `GlobalVariableChildCount(globalvar)` | Number of children in a global array or structure variable ||
-|:::| _globalvar_ | Array or structure variable |
+| | _globalvar_ | Array or structure variable |
 | `GlobalVariableFirstNumber(globalvar)` | Value of the first element of a global array variable, if it is a number variable ||
-|:::| _globalvar_ | Array variable |
+| | _globalvar_ | Array variable |
 | `GlobalVariableFirstString(globalvar)` | Value of the first element of a global array variable, if it is a text (string) variable. ||
-|:::| _globalvar_ | Array variable |
+| | _globalvar_ | Array variable |
 | `GlobalVariableLastNumber(globalvar)` | Value of the last element of a global array variable, if it is a number variable ||
-|:::| _globalvar_ | Array variable |
+| | _globalvar_ | Array variable |
 | `GlobalVariableLastString(globalvar)` | Value of the last element of a global array variable, if it is a text (string) variable. ||
-|:::| _globalvar_ | Array variable |
+| | _globalvar_ | Array variable |
 | `GlobalVariableString(globalvar)` | Text of a global variable ||
-|:::| _globalvar_ | Variable |
+| | _globalvar_ | Variable |
 | `SceneVariableFirstNumber(scenevar)` | Get the value of the first element of a scene array variable, if it is a number. ||
-|:::| _scenevar_ | Array variable |
+| | _scenevar_ | Array variable |
 | `SceneVariableFirstString(scenevar)` | Get the value of the first element of a scene array variable, if it is a text (string). ||
-|:::| _scenevar_ | Array variable |
+| | _scenevar_ | Array variable |
 | `SceneVariableLastNumber(scenevar)` | Get the value of the last element of a scene array variable, if it is a number. ||
-|:::| _scenevar_ | Array variable |
+| | _scenevar_ | Array variable |
 | `SceneVariableLastString(scenevar)` | Get the value of the last element of a scene array variable, if it is a text (string). ||
-|:::| _scenevar_ | Array variable |
+| | _scenevar_ | Array variable |
 | `Variable(scenevar)` | Number value of a scene variable ||
-|:::| _scenevar_ | Variable |
+| | _scenevar_ | Variable |
 | `VariableChildCount(scenevar)` | Number of children in a scene array or structure variable ||
-|:::| _scenevar_ | Array or structure variable |
+| | _scenevar_ | Array or structure variable |
 | `VariableString(scenevar)` | Text of a scene variable ||
-|:::| _scenevar_ | Variable |
+| | _scenevar_ | Variable |
 
 ---
 *This page is an auto-generated reference page about the **Variables** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

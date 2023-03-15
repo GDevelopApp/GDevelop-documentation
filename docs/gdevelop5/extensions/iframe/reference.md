@@ -1,9 +1,6 @@
----
-title: Iframe
----
 # Iframe
 
-![](https://resources.gdevelop-app.com/assets/Icons/iframe-array-outline.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/iframe-array-outline.svg" class="extension-icon"></img>
 Create or delete an iframe to embed websites.
 
 **Authors and contributors** to this community extension: [Bouh](https://gd.games/Bouh), [DHsw](https://gd.games/DHsw).
@@ -13,7 +10,6 @@ Create or delete an iframe to embed websites.
 This extension allows you to set up and create Iframes to show websites on your game.
 
 New action in this extension:
-
 - Create an iFrame
 - Delete an iFrame
 

@@ -1,9 +1,6 @@
----
-title: Boids movement (experimental)
----
 # Boids movement (experimental)
 
-![](https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Restaurant/Restaurant_restaurant_seafood_animal_fish.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Restaurant/Restaurant_restaurant_seafood_animal_fish.svg" class="extension-icon"></img>
 Simulates flocks movement.
 
 **Authors and contributors** to this community extension: [planktonfun](https://gd.games/planktonfun), [D8H](https://gd.games/D8H).

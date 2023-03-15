@@ -1,9 +1,6 @@
----
-title: Array tools
----
 # Array tools
 
-![](https://resources.gdevelop-app.com/assets/Icons/code-array.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/code-array.svg" class="extension-icon"></img>
 A collection of utilities and tools for working with arrays.
 
 **Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555).
@@ -13,7 +10,6 @@ A collection of utilities and tools for working with arrays.
 > Note: This extension is currently made in JavaScript instead of the event sheet as variables cannot be passed to events based functions yet. Due to this hack, the extension **only works on root scene variables**, not on child variables or non-scene variables.
 
 This extension adds features like:
-
 - Combining arrays (concatenate into new array, append all children to another array)
 - Finding a value in an array (find index expression, contains condition)
 - Reversing arrays

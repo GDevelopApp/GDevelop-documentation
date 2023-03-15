@@ -1,9 +1,6 @@
----
-title: Magnetic Effect
----
 # Magnetic Effect
 
-![](https://resources.gdevelop-app.com/assets/Icons/magnet.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/magnet.svg" class="extension-icon"></img>
 Attract an object to another object, with customisable speed and distance.
 
 **Authors and contributors** to this community extension: [Entropy](https://gd.games/Entropy).

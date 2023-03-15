@@ -1,9 +1,6 @@
----
-title: Repeat every X seconds
----
 # Repeat every X seconds
 
-![](https://resources.gdevelop-app.com/assets/Icons/repeat.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/repeat.svg" class="extension-icon"></img>
 This allows to trigger an event every X seconds.
 
 **Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555), [VegeTato](https://gd.games/VegeTato).

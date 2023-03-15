@@ -1,6 +1,3 @@
----
-title: Debugger Tools
----
 # Debugger Tools
 
 Allow to interact with the editor debugger from the game. 

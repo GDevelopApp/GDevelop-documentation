@@ -1,9 +1,6 @@
----
-title: Swipe Gesture
----
 # Swipe Gesture
 
-![](https://resources.gdevelop-app.com/assets/Icons/gesture-swipe-right.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/gesture-swipe-right.svg" class="extension-icon"></img>
 Detect swipe gestures based on their distance and duration.
 
 **Authors and contributors** to this community extension: [E1e5en](https://gd.games/E1e5en), [VictrisGames](https://gd.games/VictrisGames).
@@ -16,7 +13,6 @@ Note: This extension does NOT support multitouch.
 
 Expressions:
 
-
 - `StartX`, `StartY`: Position where the swipe started
 - `EndX`, `EndY`: Position where the swipe ended
 - `Distance`: Length of the swipe, in pixels
@@ -25,7 +21,6 @@ Expressions:
 - `Layer`: Layer used to detect swipe gestures
 
 Conditions:
-
 
 - `Is swipe detection enabled`
 - `Is swipe in progress?` - A swipe starts when the mouse click or touch begins

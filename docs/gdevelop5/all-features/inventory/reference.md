@@ -1,6 +1,3 @@
----
-title: Inventories
----
 # Inventories
 
 Provides actions and conditions to add an inventory to your game, with items in memory. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/inventory)
@@ -44,10 +41,12 @@ Check if an item has reached its maximum number allowed in the inventory.
 
 ## Expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `Inventory::Count(string, string)` | Get the number of an item in the inventory ||
-|:::| _string_ | Inventory name |
-|:::| _string_ | Item name |
+| | _string_ | Inventory name |
+| | _string_ | Item name |
 
 ---
 *This page is an auto-generated reference page about the **Inventories** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

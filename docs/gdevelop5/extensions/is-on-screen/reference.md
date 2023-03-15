@@ -1,9 +1,6 @@
----
-title: Object "Is On Screen" Detection
----
 # Object "Is On Screen" Detection
 
-![](https://resources.gdevelop-app.com/assets/Icons/monitor-screenshot.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/monitor-screenshot.svg" class="extension-icon"></img>
 This adds a condition to detect if an object is on screen based off its current layer.
 
 **Authors and contributors** to this community extension: [Bouh](https://gd.games/Bouh), [Silver-Streak](https://gd.games/Silver-Streak), [VictrisGames](https://gd.games/VictrisGames).

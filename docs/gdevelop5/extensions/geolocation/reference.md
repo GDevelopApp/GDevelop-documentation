@@ -1,22 +1,17 @@
----
-title: GPS
----
 # GPS
 
-![](https://resources.gdevelop-app.com/assets/Icons/crosshairs-gps.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/crosshairs-gps.svg" class="extension-icon"></img>
 Adds a way to locate the player.
 
 **Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555).
 
 !!! warning
-    
-        
     This is an extension made by a community member — but not reviewed
     by the GDevelop extension team. As such, we can't guarantee it
     meets all the quality standards of official extensions. In case of
     doubt, contact the author to know more about what the extension
     does or inspect its content before using it.
-    
+
 
 ---
 

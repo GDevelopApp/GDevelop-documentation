@@ -1,9 +1,6 @@
----
-title: Console (commands handler for Text Entry objects)
----
 # Console (commands handler for Text Entry objects)
 
-![](https://resources.gdevelop-app.com/assets/Icons/console.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/console.svg" class="extension-icon"></img>
 A console behavior that allows parsing simple commands inputed via a Text Entry object.
 
 **Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555).

@@ -1,9 +1,6 @@
----
-title: Slider
----
 # Slider
 
-![](https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/UI Essentials/1678c39a3b2bd3df4f82a8a293770db4986a6bcfd3f78e738ddfc86e39176423_UI Essentials_sliders_options.svg)
+<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/UI Essentials/1678c39a3b2bd3df4f82a8a293770db4986a6bcfd3f78e738ddfc86e39176423_UI Essentials_sliders_options.svg" class="extension-icon"></img>
 A draggable slider that users can move to select a numerical value.
 
 **Authors and contributors** to this community extension: [D8H](https://gd.games/D8H), [VictrisGames](https://gd.games/VictrisGames).

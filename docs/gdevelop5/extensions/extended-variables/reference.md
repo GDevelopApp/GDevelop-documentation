@@ -1,9 +1,6 @@
----
-title: Extended variables support
----
 # Extended variables support
 
-![](https://resources.gdevelop-app.com/assets/Icons/variable-box.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/variable-box.svg" class="extension-icon"></img>
 Add conditions, actions and expressions to check for the existence of a variable, copy variables, delete existing ones from memory, and create dynamic variables.
 
 **Authors and contributors** to this community extension: [Bouh](https://gd.games/Bouh), [D8H](https://gd.games/D8H).
@@ -11,7 +8,6 @@ Add conditions, actions and expressions to check for the existence of a variable
 ---
 
 This extension provides: 
-
 - Conditions to check if a global/scene/object variable exists.
 - Actions to copy object variables, global and scene variables.
 - Actions to delete an existing global/scene variable from memory.

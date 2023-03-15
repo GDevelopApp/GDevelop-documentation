@@ -1,6 +1,3 @@
----
-title: Scene
----
 # Scene
 
 Actions and conditions to manipulate the scenes during the game. 
@@ -37,7 +34,9 @@ The scene has just resumed after being paused.
 
 ## Expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `CurrentSceneName()` | Name of the current scene ||
 
 ---

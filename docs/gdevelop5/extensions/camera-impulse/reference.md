@@ -1,9 +1,6 @@
----
-title: Camera impulse
----
 # Camera impulse
 
-![](https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Arrows/Arrows_thin_arrow_up_down_directions.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Arrows/Arrows_thin_arrow_up_down_directions.svg" class="extension-icon"></img>
 Move the camera following an impulse trajectory.
 
 **Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).

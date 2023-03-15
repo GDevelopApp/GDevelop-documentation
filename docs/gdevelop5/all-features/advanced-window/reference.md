@@ -1,6 +1,3 @@
----
-title: Advanced window management
----
 # Advanced window management
 
 Provides advanced features related to the game window positioning and interaction with the operating system. 
@@ -110,7 +107,9 @@ Checks if the window is enabled.
 
 ## Expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `AdvancedWindow::WindowOpacity()` | Returns the current window opacity (a number from 0 to 1, 1 being fully opaque). ||
 | `AdvancedWindow::WindowX()` | Returns the current window X position. ||
 | `AdvancedWindow::WindowY()` | Returns the current window Y position. ||

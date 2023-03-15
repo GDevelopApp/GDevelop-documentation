@@ -1,9 +1,6 @@
----
-title: Stick objects to others
----
 # Stick objects to others
 
-![](https://resources.gdevelop-app.com/assets/Icons/sticker-outline.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/sticker-outline.svg" class="extension-icon"></img>
 Make objects follow the position and rotation of the object they are stuck to.
 
 **Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).
@@ -11,7 +8,6 @@ Make objects follow the position and rotation of the object they are stuck to.
 ---
 
 This extension can be useful to:
-
 * Stick accessories to moving objects,
 * Animate a skeleton.
 

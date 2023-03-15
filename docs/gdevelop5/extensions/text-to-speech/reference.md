@@ -1,9 +1,6 @@
----
-title: Text-to-Speech
----
 # Text-to-Speech
 
-![](https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Users/Users_user_chat_talk.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Users/Users_user_chat_talk.svg" class="extension-icon"></img>
 An extension to enable the use of Text-to-Speech features.
 
 **Authors and contributors** to this community extension: [jugule](https://gd.games/jugule).

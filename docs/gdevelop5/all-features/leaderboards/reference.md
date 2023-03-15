@@ -1,6 +1,3 @@
----
-title: Leaderboards
----
 # Leaderboards
 
 Allow your game to send scores to your leaderboards. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/leaderboards)
@@ -44,11 +41,13 @@ Check if a score is currently being saved in leaderboard.
 
 ## Expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `Leaderboards::FormatPlayerName(string)` | Formats a name so that it can be submitted to a leaderboard. ||
-|:::| _string_ | Raw player name |
+| | _string_ | Raw player name |
 | `Leaderboards::LastSaveError(leaderboardId)` | Get the error of the last save attempt. ||
-|:::| _leaderboardId_ | Leaderboard If no leaderboard is specified, will return the value related to the last leaderboard save action. _Optional_. |
+| | _leaderboardId_ | Leaderboard If no leaderboard is specified, will return the value related to the last leaderboard save action. _Optional_. |
 
 ---
 *This page is an auto-generated reference page about the **Leaderboards** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

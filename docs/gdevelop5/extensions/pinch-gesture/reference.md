@@ -1,9 +1,6 @@
----
-title: Pinching gesture
----
 # Pinching gesture
 
-![](https://resources.gdevelop-app.com/assets/Icons/gesture-pinch.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/gesture-pinch.svg" class="extension-icon"></img>
 Move the camera or objects with pinching gestures.
 
 **Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).
@@ -11,13 +8,11 @@ Move the camera or objects with pinching gestures.
 ---
 
 This extension allows to:
-
 * Move, rotate and/or zoom the camera according to pinch gestures
 * Move, rotate and optionally scale objects according to pinch gestures
 * Handle more specific needs with various expressions
 
 Limitations:
-
 * Only one pinching gesture is detected at a time
 
 ---

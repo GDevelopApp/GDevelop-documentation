@@ -1,9 +1,6 @@
----
-title: Back button
----
 # Back button
 
-![](https://resources.gdevelop-app.com/assets/Icons/keyboard-backspace.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/keyboard-backspace.svg" class="extension-icon"></img>
 Adds interactions with the back button.
 
 **Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555).

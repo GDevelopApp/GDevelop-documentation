@@ -1,9 +1,6 @@
----
-title: Smooth Camera
----
 # Smooth Camera
 
-![](https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Computers and Hardware/Computers and Hardware_camcoder_gopro_go_pro_camera.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Computers and Hardware/Computers and Hardware_camcoder_gopro_go_pro_camera.svg" class="extension-icon"></img>
 Smoothly scroll to follow an object.
 
 **Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).
@@ -11,7 +8,6 @@ Smoothly scroll to follow an object.
 ---
 
 The camera follows an object according to:
-
 - a frame rate independent catch-up speed to make the scrolling from smooth to strong
 - a maximum speed to do linear following ([open the project online](https://editor.gdevelop.io/?project=example://platformer-with-tilemap)) or slow down the camera when teleporting the object
 - a follow-free zone to avoid scrolling on small movements

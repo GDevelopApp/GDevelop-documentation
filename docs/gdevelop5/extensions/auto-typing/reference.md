@@ -1,9 +1,6 @@
----
-title: Auto typing animation for text ("typewriter" effect)
----
 # Auto typing animation for text ("typewriter" effect)
 
-![](https://resources.gdevelop-app.com/assets/Icons/typewriter.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/typewriter.svg" class="extension-icon"></img>
 Animate text to simulate it being written one character at at time (a "typewriter" effect).
 
 **Authors and contributors** to this community extension: [Bouh](https://gd.games/Bouh), [VictrisGames](https://gd.games/VictrisGames).
@@ -13,11 +10,9 @@ Animate text to simulate it being written one character at at time (a "typewrite
 Animate text to simulate it being written one character at at time (a "typewriter" effect), with a customizable time between each character. Useful for dialogue scenes or visual novels.
 
 How to use:
-
 - Add the behavior to a Text object (BBText, Bitmap Text object) and choose the interval between characters.
 
 Tips:
-
 - Change the typing speed with the "Change interval" action.
 - Pause the typing and resume it at any time.
 - Use the "Skip to end of text" action to give users a way to skip text they don't want to read 

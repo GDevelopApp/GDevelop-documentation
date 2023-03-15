@@ -1,22 +1,17 @@
----
-title: Multitouch joystick and buttons (deprecated)
----
 # Multitouch joystick and buttons (deprecated)
 
-![](https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Videogames/Videogames_controller_joystick_arrows_direction.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Videogames/Videogames_controller_joystick_arrows_direction.svg" class="extension-icon"></img>
 Activate a joystick or buttons that can be controlled by interacting with a touchscreen.
 
 **Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames), [AstroCookie](https://gd.games/AstroCookie), [xellix](https://gd.games/xellix).
 
 !!! warning
-    
-        
     This is an extension made by a community member — but not reviewed
     by the GDevelop extension team. As such, we can't guarantee it
     meets all the quality standards of official extensions. In case of
     doubt, contact the author to know more about what the extension
     does or inspect its content before using it.
-    
+
 
 ---
 
@@ -28,14 +23,12 @@ This extension is deprecated. Please install the new extension with the same nam
 
 How to use:
 
-
 - Add the joystick behavior to a sprite that will be the joystick 
 - Place the joystick object on the scene
 - Run the "Activate joystick" action on every frame and specify the thumb object
 - The joystick thumb object will automatically be created and moved
 
 Tips:
-
 
 - Use "Simulate a touch" functions to provide mouse and gamepad controls
 - More than one joystick or button can be used at the same time

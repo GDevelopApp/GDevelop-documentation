@@ -1,6 +1,3 @@
----
-title: Particle system
----
 # Particle system
 
 A particle emitter allows to create various effects by showing a lot of tiny images called particles. It's ideal for fires, smoke, explosions, magical effects, etc... [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/particles_emitter)
@@ -205,7 +202,9 @@ Test creation radius of particles.
 
 ### Object expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `Object.ConeSprayAngle()` | Angle of the spray cone ||
 | `Object.CurrentParticleCount()` | Number of particles currently displayed. ||
 | `Object.EmitterAngle()` | Emission angle of the particles. ||

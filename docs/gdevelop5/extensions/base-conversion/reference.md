@@ -1,9 +1,6 @@
----
-title: Base conversion
----
 # Base conversion
 
-![](https://resources.gdevelop-app.com/assets/Icons/hexadecimal.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/hexadecimal.svg" class="extension-icon"></img>
 Provides conversion expressions for numbers in different bases.
 
 **Authors and contributors** to this community extension: [Ahnaf30e](https://gd.games/Ahnaf30e).

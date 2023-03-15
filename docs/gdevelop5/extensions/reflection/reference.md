@@ -1,9 +1,6 @@
----
-title: Reflection
----
 # Reflection
 
-![](https://resources.gdevelop-app.com/assets/Icons/reflect-vertical.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/reflect-vertical.svg" class="extension-icon"></img>
 Add a reflection to a selected object.
 
 **Authors and contributors** to this community extension: [VegeTato](https://gd.games/VegeTato).
@@ -12,7 +9,6 @@ Add a reflection to a selected object.
 
 Reflection extension is useful when it comes to reflecting objects, like a player walking on water/glass/beach.
 An action let you set the reflection for specific objects with a lot of options:
-
 
 - The reflection opacity
 - Reflective surface object

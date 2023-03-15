@@ -1,6 +1,3 @@
----
-title: External layouts
----
 # External layouts
 
 Provides actions and conditions related to external layouts. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/external-layouts)

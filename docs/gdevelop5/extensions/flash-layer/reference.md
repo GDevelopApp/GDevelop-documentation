@@ -1,9 +1,6 @@
----
-title: Flash layer
----
 # Flash layer
 
-![](https://resources.gdevelop-app.com/assets/Icons/flash-outline.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/flash-outline.svg" class="extension-icon"></img>
 Make a layer visible for a specified duration, and then hide the layer.
 
 **Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames).

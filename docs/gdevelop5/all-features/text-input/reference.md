@@ -1,6 +1,3 @@
----
-title: Text Input
----
 # Text Input
 
 A text field the player can type text into. 
@@ -95,7 +92,9 @@ Compare the text.
 
 ### Object expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `Object.BorderOpacity()` | Return the border opacity, between 0 (fully transparent) and 255 (opaque). ||
 | `Object.BorderWidth()` | Return the border width. ||
 | `Object.FillOpacity()` | Return the fill opacity, between 0 (fully transparent) and 255 (opaque). ||

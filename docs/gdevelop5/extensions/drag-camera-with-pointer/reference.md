@@ -1,9 +1,6 @@
----
-title: Drag camera with the mouse (or touchscreen)
----
 # Drag camera with the mouse (or touchscreen)
 
-![](https://resources.gdevelop-app.com/assets/Icons/drag-variant.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/drag-variant.svg" class="extension-icon"></img>
 Move a camera by dragging the mouse (or touchscreen).
 
 **Authors and contributors** to this community extension: [ddabrahim](https://gd.games/ddabrahim), [VictrisGames](https://gd.games/VictrisGames).
@@ -13,14 +10,12 @@ Move a camera by dragging the mouse (or touchscreen).
 Move a camera by dragging the mouse (or touchscreen). 
 
 How to use:
-
 - Run this action on every frame that you want the camera to be movable by the mouse (or touchscreen)
 - Select the mouse button to use (choose "left" for touchscreen)
 - Select which directions the camera will move (vertical, horizontal, or both) 
 - Select the layer that will be moved
 
 Tips:
-
 - If no parameters are selected, the camera will move in both directions when the left mouse button (or touchscreen) are dragged.
 
 ---

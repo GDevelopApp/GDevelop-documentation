@@ -1,9 +1,6 @@
----
-title: Linked Objects Tools
----
 # Linked Objects Tools
 
-![](https://resources.gdevelop-app.com/assets/Icons/graph-outline.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/graph-outline.svg" class="extension-icon"></img>
 Conditions to use Linked Objects as a graph and a path finding movement behavior.
 
 **Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).
@@ -11,12 +8,10 @@ Conditions to use Linked Objects as a graph and a path finding movement behavior
 ---
 
 This provides:
-
 * "Can reach through links" conditions, useful to check if an object is linked to another through one or more other linked objects.
 * a path finding movement behavior that uses objects links (instead of obstacles for the other behavior)
 
 For instance, it can be helpful for grid-based games like:
-
 * Match-3 ([open the project online](https://editor.gdevelop.io/?project=example://bim-bam))
 * Tactical ([open the project online](https://editor.gdevelop.io/?project=example://tactical-game-grid-movement))
 * City builders ([open the project online](https://editor.gdevelop.io/?project=example://city-builder))

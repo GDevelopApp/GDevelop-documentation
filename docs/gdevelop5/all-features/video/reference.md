@@ -1,6 +1,3 @@
----
-title: Video
----
 # Video
 
 Provides an object to display a video on the scene. The recommended file format is MPEG4, with H264 video codec and AAC audio codec, to maximize the support of the video on different platform and browsers. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/video)
@@ -71,7 +68,9 @@ Compare the current volume of a video object.
 
 ### Object expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `Object.CurrentTime()` | Return the current time of a video object (in seconds). ||
 | `Object.Duration()` | Return the duration of a video object (in seconds). ||
 | `Object.Opacity()` | Return the opacity of a video object ||

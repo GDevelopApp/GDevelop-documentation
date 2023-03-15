@@ -1,9 +1,6 @@
----
-title: Ellipse movement
----
 # Ellipse movement
 
-![](https://resources.gdevelop-app.com/assets/Icons/sine-wave.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/sine-wave.svg" class="extension-icon"></img>
 Move objects on ellipses or smoothly back and forth in one direction.
 
 **Authors and contributors** to this community extension: [4ian](https://gd.games/4ian), [VictrisGames](https://gd.games/VictrisGames), [D8H](https://gd.games/D8H).
@@ -11,13 +8,11 @@ Move objects on ellipses or smoothly back and forth in one direction.
 ---
 
 It allows objects to move:
-
 - on an ellipsis or arcs
 - smoothly vertically or horizontally (by setting one radius to 0)
 - on a sine wave (by adding a force)
 
 It can be used for:
-
 - Making objects float, such as powerups or coins
 - Moving platforms
 - Enemy movement patterns

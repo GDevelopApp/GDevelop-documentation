@@ -1,9 +1,6 @@
----
-title: Pixel perfect movement
----
 # Pixel perfect movement
 
-![](https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Graphic Design/Graphic Design_grid.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Graphic Design/Graphic Design_grid.svg" class="extension-icon"></img>
 Grid-based or pixel perfect platformer and top-down movements.
 
 **Authors and contributors** to this community extension: [D8H](https://gd.games/D8H), [MikeSheldon](https://gd.games/MikeSheldon), [Mistafixxa069](https://gd.games/Mistafixxa069).
@@ -15,7 +12,6 @@ Games with pixel art usually use pixels bigger than actual pixels of the screen.
 This extension allows to seamlessly keep big pixels aligned when the object is stopped and still beneficiate from the high resolution of the screen to have smooth movements.
 
 It can be used for:
-
 * Pixel-perfect platformers ([open the project online](https://editor.gdevelop.io/?project=example://platformer-with-tilemap))
 * Align top-down characters on a grid ([open the project online](https://editor.gdevelop.io/?project=example://top-down-grid-movement))
 

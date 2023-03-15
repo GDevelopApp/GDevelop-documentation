@@ -1,9 +1,6 @@
----
-title: Health points and damage
----
 # Health points and damage
 
-![](https://resources.gdevelop-app.com/assets/Icons/heart-half-full.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/heart-half-full.svg" class="extension-icon"></img>
 Manage health points and damage, including a protective shield and armor.
 
 **Authors and contributors** to this community extension: [4ian](https://gd.games/4ian), [Mixen](https://gd.games/Mixen), [VictrisGames](https://gd.games/VictrisGames).
@@ -18,7 +15,6 @@ Incoming Damage -> Is Damage Cooldown active? -> Chance to Dodge -> Flat Damage 
 
 How to use:
 
-
 - Set desired values in behavior properties
 - To apply damage use “Apply damage to an object”
 - To heal health, use “Heal object” action
@@ -27,13 +23,11 @@ How to use:
  
 Tips:
 
-
 - While damage cooldown is active, no damage will be applied to health or shield (the object is invincible)
 - Try using the “Blink” extension while damage cooldown is active
 - Use the “Is just damaged” or "Is just healed" conditions to trigger sound and visual effects
 
 Health properties:
-
 
 - Starting health points
 - Maximum health points. Use "0" for no maximum
@@ -43,7 +37,6 @@ Health properties:
 - Allow heals to increase health above max health (regen will never exceed max health)
 
 Shield properties:
-
 
 - Max shield points. Use "0" for no maximum
 - Duration of shield (seconds) Use "0" to make shield permanent

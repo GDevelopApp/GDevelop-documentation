@@ -1,9 +1,6 @@
----
-title: Sprite Snapshot
----
 # Sprite Snapshot
 
-![](https://resources.gdevelop-app.com/assets/Icons/camera-enhance.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/camera-enhance.svg" class="extension-icon"></img>
 Renders an object, layer, scene or an area of a scene and puts the resulting image into a sprite.
 
 **Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555), [RamiNiemi](https://gd.games/RamiNiemi).

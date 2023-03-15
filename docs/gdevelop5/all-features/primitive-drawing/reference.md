@@ -1,6 +1,3 @@
----
-title: Shape painter
----
 # Shape painter
 
 This provides an object that can be used to draw arbitrary shapes on the screen using events. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/shape_painter)
@@ -146,7 +143,9 @@ Test the size of the outline.
 
 ### Object expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `Object.FillColorBlue()` | Filing color blue component ||
 | `Object.FillColorGreen()` | Filing color green component ||
 | `Object.FillColorRed()` | Filing color red component ||
@@ -159,17 +158,17 @@ Test the size of the outline.
 | `Object.ScaleX()` | Return the width's scale of an object. ||
 | `Object.ScaleY()` | Return the height's scale of an object. ||
 | `Object.ToDrawingX(number, number)` | X drawing coordinate of a point from the scene ||
-|:::| _number_ | X scene position |
-|:::| _number_ | Y scene position |
+| | _number_ | X scene position |
+| | _number_ | Y scene position |
 | `Object.ToDrawingY(number, number)` | Y drawing coordinate of a point from the scene ||
-|:::| _number_ | X scene position |
-|:::| _number_ | Y scene position |
+| | _number_ | X scene position |
+| | _number_ | Y scene position |
 | `Object.ToSceneX(number, number)` | X scene coordinate of a point from the drawing ||
-|:::| _number_ | X drawing position |
-|:::| _number_ | Y drawing position |
+| | _number_ | X drawing position |
+| | _number_ | Y drawing position |
 | `Object.ToSceneY(number, number)` | Y scene coordinate of a point from the drawing ||
-|:::| _number_ | X drawing position |
-|:::| _number_ | Y drawing position |
+| | _number_ | X drawing position |
+| | _number_ | Y drawing position |
 
 ---
 *This page is an auto-generated reference page about the **Shape painter** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

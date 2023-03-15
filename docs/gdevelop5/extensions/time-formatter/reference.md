@@ -1,9 +1,6 @@
----
-title: Time formatting
----
 # Time formatting
 
-![](https://resources.gdevelop-app.com/assets/Icons/clock-digital.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/clock-digital.svg" class="extension-icon"></img>
 Converts seconds into standard time formats, such as HH:MM:SS. 
 
 **Authors and contributors** to this community extension: [Bouh](https://gd.games/Bouh).
@@ -13,7 +10,6 @@ Converts seconds into standard time formats, such as HH:MM:SS.
 Ideal for displaying timers on screen.
 
 Formats included:
-
 * HH:MM:SS
 * HH:MM:SS.000 (displays milliseconds)
 

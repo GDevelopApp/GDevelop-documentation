@@ -1,9 +1,6 @@
----
-title: Webpage URL tools (Web browser)
----
 # Webpage URL tools (Web browser)
 
-![](https://resources.gdevelop-app.com/assets/Icons/web.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/web.svg" class="extension-icon"></img>
 Allows to read URL on Web browser exports of the game and manipulate URLs generally.
 
 **Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555).
@@ -11,7 +8,6 @@ Allows to read URL on Web browser exports of the game and manipulate URLs genera
 ---
 
 This extension allows to 
-
 - Get the URL of the game page
 - Reload the page
 - Redirect to another page

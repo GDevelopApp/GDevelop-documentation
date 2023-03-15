@@ -1,9 +1,6 @@
----
-title: Discord rich presence (Windows, Mac, Linux)
----
 # Discord rich presence (Windows, Mac, Linux)
 
-![](https://resources.gdevelop-app.com/assets/Icons/discord.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/discord.svg" class="extension-icon"></img>
 Adds discord rich presence to your games.
 
 **Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555).

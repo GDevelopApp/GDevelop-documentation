@@ -1,9 +1,6 @@
----
-title: FPS
----
 # FPS
 
-![](https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/SEO/SEO_board_performance_profit.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/SEO/SEO_board_performance_profit.svg" class="extension-icon"></img>
 Adds expressions and a behavior to get and display the game FPS.
 
 **Authors and contributors** to this community extension: [Ahnaf30e](https://gd.games/Ahnaf30e).

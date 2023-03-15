@@ -1,9 +1,6 @@
----
-title: Object Stack
----
 # Object Stack
 
-![](https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Videogames/Videogames_cards_game_solitaire_poker_blackjack_casino.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Videogames/Videogames_cards_game_solitaire_poker_blackjack_casino.svg" class="extension-icon"></img>
 An ordered list of objects and a shuffle action.
 
 **Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).
@@ -11,18 +8,15 @@ An ordered list of objects and a shuffle action.
 ---
 
 It provides:
-
 * Actions to modify a stack of objects
 * Conditions to access the objects of a stack
 * A shuffle action
 
 It can be helpful for:
-
 * Card games
 * Fair randomness (for instance, to create a stack of predetermined bonus and randomize the order they appear)
 
 2 examples use it:
-
 * A card system demonstration ([open the project online](https://editor.gdevelop.io/?project=example://card-system))
 * A Klondike solitaire ([open the project online](https://editor.gdevelop.io/?project=example://klondike-solitaire))
 

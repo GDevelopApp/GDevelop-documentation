@@ -1,6 +1,3 @@
----
-title: Pathfinding behavior
----
 # Pathfinding behavior
 
 Pathfinding allows to compute an efficient path for objects, avoiding obstacles on the way. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/behaviors/pathfinding)
@@ -101,7 +98,9 @@ Compare the speed of the object on its path.
 
 ### Behavior expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `Object.Pathfinding::Acceleration()` | Acceleration of the object on the path ||
 | `Object.Pathfinding::AngleOffset()` | Rotation offset applied the object on the path ||
 | `Object.Pathfinding::AngularMaxSpeed()` | Angular maximum speed of the object on the path ||
@@ -111,9 +110,9 @@ Compare the speed of the object on its path.
 | `Object.Pathfinding::DestinationY()` | Destination Y position ||
 | `Object.Pathfinding::ExtraBorder()` | Extra border applied the object on the path ||
 | `Object.Pathfinding::GetNodeX(number)` | Get next waypoint X position ||
-|:::| _number_ | Node index (start at 0!) |
+| | _number_ | Node index (start at 0!) |
 | `Object.Pathfinding::GetNodeY(number)` | Get next waypoint Y position ||
-|:::| _number_ | Node index (start at 0!) |
+| | _number_ | Node index (start at 0!) |
 | `Object.Pathfinding::GridOffsetX()` | Return X offset of the virtual grid. ||
 | `Object.Pathfinding::GridOffsetY()` | Return Y offset of the virtual grid. ||
 | `Object.Pathfinding::LastNodeX()` | Last waypoint X position ||
@@ -148,7 +147,9 @@ Check if the obstacle is impassable
 
 ### Behavior expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `Object.PathfindingObstacle::Cost()` | Obstacle cost ||
 
 ---

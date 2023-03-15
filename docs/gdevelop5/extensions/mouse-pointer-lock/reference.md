@@ -1,9 +1,6 @@
----
-title: Mouse Pointer Lock
----
 # Mouse Pointer Lock
 
-![](https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Virtual Reality/Virtual Reality_360_rotate_vr_movement.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Virtual Reality/Virtual Reality_360_rotate_vr_movement.svg" class="extension-icon"></img>
 This behavior removes the limit on the distance the mouse can move and hides the cursor.
 
 **Authors and contributors** to this community extension: [PANDAKO](https://gd.games/PANDAKO).

@@ -1,6 +1,3 @@
----
-title: Linked objects
----
 # Linked objects
 
 These actions and conditions allow to virtually link two objects. It's then useful in the events to quickly retrieve one or more objects attached to another. For example, this can be used to link some equipment objects with the character holding them. More generally, this can be used to store and retrieve objects in a way that is more efficient than using variables. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/linked-objects)

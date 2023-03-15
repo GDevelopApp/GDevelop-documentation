@@ -1,6 +1,3 @@
----
-title: Player Authentication
----
 # Player Authentication
 
 Allow your game to authenticate players. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/player-authentication)
@@ -32,7 +29,9 @@ Check if the player is authenticated.
 
 ## Expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `PlayerAuthentication::Username()` | Get the username of the authenticated player. ||
 
 ---

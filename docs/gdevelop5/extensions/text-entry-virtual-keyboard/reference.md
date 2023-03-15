@@ -1,9 +1,6 @@
----
-title: Mobile virtual keyboard for Text Entry
----
 # Mobile virtual keyboard for Text Entry
 
-![](https://resources.gdevelop-app.com/assets/Icons/keyboard-close.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/keyboard-close.svg" class="extension-icon"></img>
 Allow to open and close the virtual keyboard on mobile (iOS, Android). To be used with Text Entry objects.
 
 **Authors and contributors** to this community extension: [Bouh](https://gd.games/Bouh).

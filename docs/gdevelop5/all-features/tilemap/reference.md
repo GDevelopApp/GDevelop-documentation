@@ -1,6 +1,3 @@
----
-title: Tilemap
----
 # Tilemap
 
 The Tilemap object can be used to display tile-based objects. It's a good way to create maps for RPG, strategy games or create objects by assembling tiles, useful for platformer, retro-looking games, etc... [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/tilemap)
@@ -50,7 +47,9 @@ Check the tileset JSON file being used.
 
 ### Object expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `Object.ScaleX()` | Return the width's scale of an object. ||
 | `Object.ScaleY()` | Return the height's scale of an object. ||
 
@@ -124,7 +123,9 @@ Check the tileset JSON file being used.
 
 ### Object expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `Object.AnimationFps()` | Get the animation speed (in frames per second) ||
 | `Object.AnimationSpeedScale()` | Get the Animation speed scale ||
 | `Object.LayerIndex()` | Get the layer index being displayed ||

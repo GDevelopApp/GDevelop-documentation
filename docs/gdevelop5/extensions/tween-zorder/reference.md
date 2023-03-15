@@ -1,22 +1,17 @@
----
-title: Tween Z-Order
----
 # Tween Z-Order
 
-![](https://asset-resources.gdevelop.io/public-resources/Icons/aa16433aab812cfb1e558bb1a8ccca399b07a10ea097f3ac81095141fe3f56a7_layers-triple.svg)
+<img src="https://asset-resources.gdevelop.io/public-resources/Icons/aa16433aab812cfb1e558bb1a8ccca399b07a10ea097f3ac81095141fe3f56a7_layers-triple.svg" class="extension-icon"></img>
 Smoothly animate Z order of objects.
 
 **Authors and contributors** to this community extension: [PANDAKO](https://gd.games/PANDAKO).
 
 !!! warning
-    
-        
     This is an extension made by a community member — but not reviewed
     by the GDevelop extension team. As such, we can't guarantee it
     meets all the quality standards of official extensions. In case of
     doubt, contact the author to know more about what the extension
     does or inspect its content before using it.
-    
+
 
 ---
 

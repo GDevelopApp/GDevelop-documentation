@@ -1,9 +1,6 @@
----
-title: Emojis
----
 # Emojis
 
-![](https://resources.gdevelop-app.com/assets/Icons/sticker-emoji.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/sticker-emoji.svg" class="extension-icon"></img>
 Display emoji characters in text objects and store them in strings.
 
 **Authors and contributors** to this community extension: [Add00](https://gd.games/Add00).
@@ -13,7 +10,6 @@ Display emoji characters in text objects and store them in strings.
 Display emoji characters in text objects and store them in strings. Emojis will look different deppending on the platform/device due do default font faces.
 
 This extension provide:
-
 - An string expression for get the emoji by name
 - An string expression for get the emoji by hexadecimal code
 

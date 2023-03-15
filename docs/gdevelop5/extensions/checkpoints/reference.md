@@ -1,9 +1,6 @@
----
-title: Checkpoints
----
 # Checkpoints
 
-![](https://resources.gdevelop-app.com/assets/Icons/flag-variant.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/flag-variant.svg" class="extension-icon"></img>
 A position checkpoint for instances.
 
 **Authors and contributors** to this community extension: [Elairyx](https://gd.games/Elairyx), [Bouh](https://gd.games/Bouh).

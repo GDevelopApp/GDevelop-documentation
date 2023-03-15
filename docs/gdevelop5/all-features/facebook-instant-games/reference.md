@@ -1,6 +1,3 @@
----
-title: Facebook Instant Games
----
 # Facebook Instant Games
 
 Allow your game to send scores and interact with the Facebook Instant Games platform. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/publishing/publishing-to-facebook-instant-games)
@@ -44,7 +41,9 @@ Check if the rewarded video requested from Facebook is loaded and ready to be sh
 
 ## Expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `FacebookInstantGames::PlayerId()` | Get the player unique identifier ||
 | `FacebookInstantGames::PlayerName()` | Get the player name ||
 

@@ -1,9 +1,6 @@
----
-title: Cursor object
----
 # Cursor object
 
-![](https://asset-resources.gdevelop.io/public-resources/Icons/8f81db7cf269c88bf0b13f816ee501ae786b3f15526d59c9d0005da09c13a18d_cursor-default-outline.svg)
+<img src="https://asset-resources.gdevelop.io/public-resources/Icons/8f81db7cf269c88bf0b13f816ee501ae786b3f15526d59c9d0005da09c13a18d_cursor-default-outline.svg" class="extension-icon"></img>
 Turn any object into a cursor.
 
 **Authors and contributors** to this community extension: (not specified).
@@ -13,7 +10,6 @@ Turn any object into a cursor.
 This extension allows to replace the cursor with an object.
 
 Breaking change of the version 2.0.0:
-
 - The button behavior has been removed. The button object can be used instead. Some ready to use buttons can be downloaded from the [Buttons pack](https://editor.gdevelop.io/?initial-dialog=asset-store&asset-pack=menu-buttons-menu-buttons) of the asset store.
 
 ---

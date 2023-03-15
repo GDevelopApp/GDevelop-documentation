@@ -1,9 +1,6 @@
----
-title: Unicode
----
 # Unicode
 
-![](https://resources.gdevelop-app.com/assets/Icons/dice-d10.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/dice-d10.svg" class="extension-icon"></img>
 Provides conversion tools for Ascii and Unicode characters.
 
 **Authors and contributors** to this community extension: [Ahnaf30e](https://gd.games/Ahnaf30e).

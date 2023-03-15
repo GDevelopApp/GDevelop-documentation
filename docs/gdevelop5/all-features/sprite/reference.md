@@ -1,6 +1,3 @@
----
-title: Sprite
----
 # Sprite
 
 Sprite are animated object which can be used for most elements of a game. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/sprite)
@@ -108,16 +105,18 @@ Compare the width of a Sprite object.
 
 ### Object expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `Object.Animation()` | Animation of the object ||
 | `Object.AnimationFrameCount()` | Number of frames in the current animation of the object ||
 | `Object.AnimationName()` | Name of the animation of the object ||
 | `Object.AnimationSpeedScale()` | Animation speed scale ||
 | `Object.Opacity()` | Opacity ||
 | `Object.PointX(objectPointName)` | X position of a point ||
-|:::| _objectPointName_ | Name of the point |
+| | _objectPointName_ | Name of the point |
 | `Object.PointY(objectPointName)` | Y position of a point ||
-|:::| _objectPointName_ | Name of the point |
+| | _objectPointName_ | Name of the point |
 | `Object.ScaleX()` | Scale of the width of an object ||
 | `Object.ScaleY()` | Scale of the height of an object ||
 | `Object.Sprite()` | Current frame of the animation of the object ||

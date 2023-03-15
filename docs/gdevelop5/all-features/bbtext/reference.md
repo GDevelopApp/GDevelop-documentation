@@ -1,6 +1,3 @@
----
-title: BBCode Text Object
----
 # BBCode Text Object
 
 A BBText is an object displaying on the screen a rich text formatted using BBCode markup (allowing to set parts of the text as bold, italic, use different colors and shadows). [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/bbtext)
@@ -62,7 +59,9 @@ Compare the width, in pixels, after which the text is wrapped on next line.
 
 ### Object expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `Object.GetAlignment()` | Get the text alignment ||
 | `Object.GetBBText()` | Get BBCode text ||
 | `Object.GetFontFamily()` | Get the base font family ||

@@ -1,9 +1,6 @@
----
-title: Internet Connectivity
----
 # Internet Connectivity 
 
-![](https://resources.gdevelop-app.com/assets/Icons/access-point-network.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/access-point-network.svg" class="extension-icon"></img>
 Checks if the device running the game is connected to the internet.
 
 **Authors and contributors** to this community extension: [TheGemDev](https://gd.games/TheGemDev).
@@ -18,4 +15,4 @@ Checks if the device running the game is connected to the internet.
 
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
-*This page is an auto-generated reference page about the **Internet Connectivity** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Internet Connectivity ** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

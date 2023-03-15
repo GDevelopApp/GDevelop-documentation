@@ -1,9 +1,6 @@
----
-title: Values of multiple objects
----
 # Values of multiple objects
 
-![](https://resources.gdevelop-app.com/assets/Icons/dots-hexagon.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/dots-hexagon.svg" class="extension-icon"></img>
 Values of picked object instances (including position, size, force and angle).
 
 **Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames), [Bouh](https://gd.games/Bouh).
@@ -16,30 +13,25 @@ Useful for camera tracking, flocking behaviors, and more.
 Included expressions
 
 Center points:
-
 - X center point (absolute) 
 - Y center point (absolute)
 - X center point (average) 
 - Y center point (average)
 
 Position expressions (based on AABB of objects):
-
 - Minimum X position
 - Minimum Y position
 - Maximum X position
 - Maximum Y position
 
 Force expressions:
-
 - Average horizontal force (X)
 - Average vertical force (Y)
 
 Angle expressions:
-
 - Average angle of rotation
 
 Size expressions:
-
 - Width (min/max/average)
 - Height (min/max/average)
 

@@ -1,9 +1,6 @@
----
-title: Checkbox (for Shape Painter)
----
 # Checkbox (for Shape Painter)
 
-![](https://resources.gdevelop-app.com/assets/Icons/checkbox-marked.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/checkbox-marked.svg" class="extension-icon"></img>
 Checkbox that can be toggled by a left-click or touch.
 
 **Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames), [D8H](https://gd.games/D8H).
@@ -13,12 +10,10 @@ Checkbox that can be toggled by a left-click or touch.
 Users can click on the checkbox to add and remove the checkmark. 
 
 How to use:
-
 - Add this extension to a shape painter object
 - Use condition "Is checked" to find out the state of the checkbox
 
 Tips:
-
 - Checkbox state can also be changed by an action.
 - Checkbox can be disabled so that users cannot interact with it 
 - To remove halo, Set "halo hover" and "halo pressed" opacity to 0

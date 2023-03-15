@@ -1,9 +1,6 @@
----
-title: Camera shake
----
 # Camera shake
 
-![](https://resources.gdevelop-app.com/assets/Icons/vector-difference-ab.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/vector-difference-ab.svg" class="extension-icon"></img>
 Shake layer cameras with translation, rotation and zoom.
 
 **Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames), [D8H](https://gd.games/D8H), [fuzzy](https://gd.games/fuzzy).
@@ -11,14 +8,12 @@ Shake layer cameras with translation, rotation and zoom.
 ---
 
 Shake layer cameras with translation, rotation and zoom.
-
 - Short shaking can be used to give impact (explosion, hit)
 - Shaking can go indefinitely to set an ambiance (engine vibration, earthquake, pulsing)
 - Low frequency shaking allows to simulate slow moving objects (ship rocking back and forth)
 - Setting amplitudes per layer make it possible to respect the parallax and give more depth
 
 Release notes:
-
 - Version 3.0.0
   - No adaptation of the game events is needed.
   - It fixes an issue when used with scrolling, the amplitude will feel bigger in this case.

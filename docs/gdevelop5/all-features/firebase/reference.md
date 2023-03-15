@@ -1,6 +1,3 @@
----
-title: Firebase
----
 # Firebase
 
 Use Google Firebase services (database, functions, storage...) in your game. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/firebase)
@@ -220,18 +217,20 @@ You should always use this before actions requiring authentications.
 
 ## Expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `Firebase::GetAccountCreationTime()` | Gets the accounts creation time. ||
 | `Firebase::GetAuthToken(string)` | Get the user authentififcation token. The token is the proof of authentication. ||
-|:::| _string_ | Setting Name |
+| | _string_ | Setting Name |
 | `Firebase::GetLastLoginTime()` | Gets the user last login time. ||
 | `Firebase::GetPhoneNumber()` | Gets the user phone number. ||
 | `Firebase::GetPhotoURL()` | Gets an URL to the user profile picture. ||
 | `Firebase::GetRefreshToken()` | Gets the user refresh token. For advanced usage only. ||
 | `Firebase::GetRemoteConfigNumber(string)` | Get a setting from Firebase Remote Config as Number. ||
-|:::| _string_ | Setting Name |
+| | _string_ | Setting Name |
 | `Firebase::GetRemoteConfigString(string)` | Get a setting from Firebase Remote Config as a string. ||
-|:::| _string_ | Setting Name |
+| | _string_ | Setting Name |
 | `Firebase::GetTenantID()` | Gets the user tenant ID. For advanced usage only. ||
 | `Firebase::GetUserDisplayName()` | Gets the user display name. ||
 | `Firebase::GetUserEmail()` | Gets the user email address. ||

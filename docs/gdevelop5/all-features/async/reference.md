@@ -1,6 +1,3 @@
----
-title: Asynchronous functions
----
 # Asynchronous functions
 
 Functions that defer the execution of the events after it. 

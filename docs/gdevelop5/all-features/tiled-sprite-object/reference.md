@@ -1,6 +1,3 @@
----
-title: Tiled Sprite Object
----
 # Tiled Sprite Object
 
 Displays an image in a repeating pattern over an area. Useful for making backgrounds, including background that are scrolling when the camera moves. This is more performant than using multiple Sprite objects. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/tiled_sprite)
@@ -53,7 +50,9 @@ Test the offset used on the Y axis when displaying the image.
 
 ### Object expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `Object.Opacity()` | Opacity ||
 
 ---

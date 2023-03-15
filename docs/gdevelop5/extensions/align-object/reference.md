@@ -1,32 +1,25 @@
----
-title: Align object on the screen
----
 # Align object on the screen
 
-![](https://resources.gdevelop-app.com/assets/Icons/format-vertical-align-center.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/format-vertical-align-center.svg" class="extension-icon"></img>
 Align objects on the scene relatively to the window (or screen size).
 
 **Authors and contributors** to this community extension: [grymmjack](https://gd.games/grymmjack).
 
 !!! warning
-    
-        
     This is an extension made by a community member — but not reviewed
     by the GDevelop extension team. As such, we can't guarantee it
     meets all the quality standards of official extensions. In case of
     doubt, contact the author to know more about what the extension
     does or inspect its content before using it.
-    
+
 
 ---
 
 Align objects on the scene relatively to the window (or screen size).
 
-
 **Be sure to put your object on a layer for which the camera position was not moved.**
 
 Actions provided are:
-
 
 * ToSceneCentered: horizontally and vertically centered in scene
 * ToSceneTop: vertically to the top in scene

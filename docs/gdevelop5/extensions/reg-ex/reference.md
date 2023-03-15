@@ -1,9 +1,6 @@
----
-title: Regular Expressions
----
 # Regular Expressions
 
-![](https://resources.gdevelop-app.com/assets/Icons/regex.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/regex.svg" class="extension-icon"></img>
 Functions for using regular expressions to manipulate strings.
 
 **Authors and contributors** to this community extension: [Add00](https://gd.games/Add00).
@@ -11,7 +8,6 @@ Functions for using regular expressions to manipulate strings.
 ---
 
 Adds function to use regular expressions with strings, such as  
-
 - Find the position of pattern in a string 
 - Find a pattern in a string
 - Split a string by a pattern

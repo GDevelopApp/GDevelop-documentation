@@ -1,6 +1,3 @@
----
-title: Text object
----
 # Text object
 
 An object that can be used to display any text on the screen: remaining life counter, some indicators, menu buttons, dialogues... [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/text)
@@ -108,7 +105,9 @@ Test the word wrapping width of a Text object.
 
 ### Object expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `Object.Angle()` | Angle ||
 | `Object.FontSize()` | Return the font size of a text object. ||
 | `Object.Opacity()` | Opacity of a Text object ||

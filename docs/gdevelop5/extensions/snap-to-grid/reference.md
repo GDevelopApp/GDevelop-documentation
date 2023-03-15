@@ -1,9 +1,6 @@
----
-title: Rectangular grid
----
 # Rectangular grid
 
-![](https://resources.gdevelop-app.com/assets/Icons/view-grid-plus-outline.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/view-grid-plus-outline.svg" class="extension-icon"></img>
 Snap objects on a virtual grid.
 
 **Authors and contributors** to this community extension: (not specified).
@@ -13,7 +10,6 @@ Snap objects on a virtual grid.
 It allows to snap objects on a *virtual grid*.
 
 It's useful for:
-
 - level editors
 - building systems
 

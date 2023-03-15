@@ -1,9 +1,6 @@
----
-title: WebSocket client
----
 # WebSocket client
 
-![](https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Communication/Communication_pc_server_sync_sharing.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Communication/Communication_pc_server_sync_sharing.svg" class="extension-icon"></img>
 A WebSocket client for fast client-server networking.
 
 **Authors and contributors** to this community extension: (not specified).
@@ -14,7 +11,6 @@ This extension allows to use WebSocket based networking.
 You can use it to interact with a WebSocket based API, or a server for your multiplayer game.
 
 Features:
-
  - Connection and disconnection from a server
  - Receiving strings from the server
  - Sending strings to the server
@@ -22,7 +18,6 @@ Features:
  - Handling more than 1 event per frame
 
 Doesn't contain:
-
  - Sending or receiving binary data
  - A WebSocket server
 

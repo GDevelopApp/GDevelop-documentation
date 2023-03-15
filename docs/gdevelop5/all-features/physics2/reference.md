@@ -1,6 +1,3 @@
----
-title: Physics Engine 2.0
----
 # Physics Engine 2.0
 
 The physics engine simulates realistic object physics, with gravity, forces, joints, etc. It's perfect for games that need to have realistic behaving objects and a gameplay centered around it. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/behaviors/physics2)
@@ -348,43 +345,45 @@ Test if a wheel joint motor is enabled.
 
 ### Behavior expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `Object.Physics2::AngularDamping()` | Get the angular damping of an object. ||
 | `Object.Physics2::AngularVelocity()` | Get the angular velocity of an object. ||
 | `Object.Physics2::Density()` | Get the density of an object. ||
 | `Object.Physics2::DistanceJointDampingRatio(number)` | Distance joint damping ratio ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::DistanceJointFrequency(number)` | Distance joint frequency ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::DistanceJointLength(number)` | Distance joint length ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::Friction()` | Get the friction of an object. ||
 | `Object.Physics2::FrictionJointMaxForce(number)` | Friction joint maximum force ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::FrictionJointMaxTorque(number)` | Friction joint maximum torque ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::GearJointFirstJoint(number)` | Gear joint first joint ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::GearJointRatio(number)` | Gear joint ratio ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::GearJointSecondJoint(number)` | Gear joint second joint ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::GravityScale()` | Get the gravity scale of an object. ||
 | `Object.Physics2::GravityX()` | World gravity on X axis ||
 | `Object.Physics2::GravityY()` | World gravity on Y axis ||
 | `Object.Physics2::Inertia()` | Return the rotational inertia of the object (in kilograms * meters * meters) ||
 | `Object.Physics2::JointFirstAnchorX(number)` | Joint first anchor X ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::JointFirstAnchorY(number)` | Joint first anchor Y ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::JointReactionForce(number)` | Joint reaction force ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::JointReactionTorque(number)` | Joint reaction torque ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::JointSecondAnchorX(number)` | Joint second anchor X ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::JointSecondAnchorY(number)` | Joint second anchor Y ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::LinearDamping()` | Get the linear damping of an object. ||
 | `Object.Physics2::LinearVelocity()` | Get the linear velocity of an object. ||
 | `Object.Physics2::LinearVelocityAngle()` | Get the linear velocity angle of an object. ||
@@ -394,101 +393,101 @@ Test if a wheel joint motor is enabled.
 | `Object.Physics2::MassCenterX()` | Mass center X ||
 | `Object.Physics2::MassCenterY()` | Mass center Y ||
 | `Object.Physics2::MotorJointAngularOffset(number)` | Motor joint angular offset ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::MotorJointCorrectionFactor(number)` | Motor joint correction factor ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::MotorJointMaxForce(number)` | Motor joint maximum force ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::MotorJointMaxTorque(number)` | Motor joint maximum torque ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::MotorJointOffsetX(number)` | Motor joint offset X ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::MotorJointOffsetY(number)` | Motor joint offset Y ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::MouseJointDampingRatio(number)` | Mouse joint damping ratio ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::MouseJointFrequency(number)` | Mouse joint frequency ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::MouseJointMaxForce(number)` | Mouse joint maximum force ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::MouseJointTargetX(number)` | Mouse joint target X ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::MouseJointTargetY(number)` | Mouse joint target Y ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::PrismaticJointAxisAngle(number)` | Prismatic joint axis angle ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::PrismaticJointMaxMotorForce(number)` | Prismatic joint maximum motor force ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::PrismaticJointMaxTranslation(number)` | Prismatic joint maximum translation ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::PrismaticJointMinTranslation(number)` | Prismatic joint minimum translation ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::PrismaticJointMotorForce(number)` | Prismatic joint motor force ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::PrismaticJointMotorSpeed(number)` | Prismatic joint motor speed ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::PrismaticJointReferenceAngle(number)` | Prismatic joint reference angle ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::PrismaticJointSpeed(number)` | Prismatic joint speed ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::PrismaticJointTranslation(number)` | Prismatic joint current translation ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::PulleyJointFirstGroundAnchorX(number)` | Pulley joint first ground anchor X ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::PulleyJointFirstGroundAnchorY(number)` | Pulley joint first ground anchor Y ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::PulleyJointFirstLength(number)` | Pulley joint first length ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::PulleyJointRatio(number)` | Pulley joint ratio ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::PulleyJointSecondGroundAnchorX(number)` | Pulley joint second ground anchor X ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::PulleyJointSecondGroundAnchorY(number)` | Pulley joint second ground anchor Y ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::PulleyJointSecondLength(number)` | Pulley joint second length ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::Restitution()` | Get the restitution of an object. ||
 | `Object.Physics2::RevoluteJointAngle(number)` | Revolute joint current angle ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::RevoluteJointMaxAngle(number)` | Revolute joint maximum angle ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::RevoluteJointMaxMotorTorque(number)` | Revolute joint maximum motor torque ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::RevoluteJointMinAngle(number)` | Revolute joint minimum angle ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::RevoluteJointMotorSpeed(number)` | Revolute joint motor speed ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::RevoluteJointMotorTorque(number)` | Revolute joint motor torque ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::RevoluteJointReferenceAngle(number)` | Revolute joint reference angle ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::RevoluteJointSpeed(number)` | Revolute joint angular speed ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::RopeJointMaxLength(number)` | Rope joint maximum length ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::TimeScale()` | World time scale ||
 | `Object.Physics2::WeldJointDampingRatio(number)` | Weld joint damping ratio ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::WeldJointFrequency(number)` | Weld joint frequency ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::WeldJointReferenceAngle(number)` | Weld joint reference angle ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::WheelJointAxisAngle(number)` | Wheel joint axis angle ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::WheelJointDampingRatio(number)` | Wheel joint damping ratio ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::WheelJointFrequency(number)` | Wheel joint frequency ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::WheelJointMaxMotorTorque(number)` | Wheel joint maximum motor torque ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::WheelJointMotorSpeed(number)` | Wheel joint motor speed ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::WheelJointMotorTorque(number)` | Wheel joint motor torque ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::WheelJointSpeed(number)` | Wheel joint speed ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 | `Object.Physics2::WheelJointTranslation(number)` | Wheel joint current translation ||
-|:::| _number_ | Joint ID |
+| | _number_ | Joint ID |
 
 ---
 *This page is an auto-generated reference page about the **Physics Engine 2.0** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

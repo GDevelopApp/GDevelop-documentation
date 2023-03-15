@@ -1,6 +1,3 @@
----
-title: System information
----
 # System information
 
 Get information about the system and device running the game. 

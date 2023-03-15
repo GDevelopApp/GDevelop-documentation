@@ -1,9 +1,6 @@
----
-title: Current game version
----
 # Current game version
 
-![](https://resources.gdevelop-app.com/assets/Icons/numeric.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/numeric.svg" class="extension-icon"></img>
 Get the current game version from GDevelop game properties.
 
 **Authors and contributors** to this community extension: [UlisesFreitas](https://gd.games/UlisesFreitas).

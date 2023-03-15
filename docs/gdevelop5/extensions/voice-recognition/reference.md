@@ -1,22 +1,17 @@
----
-title: Voice Recognition API
----
 # Voice Recognition API
 
-![](https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Music/Music_microphone_sing_voice_studio_record_vintage.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Music/Music_microphone_sing_voice_studio_record_vintage.svg" class="extension-icon"></img>
 Converts voice to text.
 
 **Authors and contributors** to this community extension: [planktonfun](https://gd.games/planktonfun).
 
 !!! warning
-    
-        
     This is an extension made by a community member — but not reviewed
     by the GDevelop extension team. As such, we can't guarantee it
     meets all the quality standards of official extensions. In case of
     doubt, contact the author to know more about what the extension
     does or inspect its content before using it.
-    
+
 
 ---
 
@@ -25,22 +20,18 @@ Listens from the browser microphone then returns a text
 Limitations: Voice recognition is only supported in https for security reasons
 
 Can be used for:
-
    - Voice Based Games
    - Voice Mobile App
 
 Features:
 	Conditions:
-
 		- OnSuccess
 		- OnError
 
 	Actions:
-
 		- Start listening
 
 	StringExpressions:
-
 		- RetrieveResultText
 		- RetrieveStatus
 		- RetrieveError

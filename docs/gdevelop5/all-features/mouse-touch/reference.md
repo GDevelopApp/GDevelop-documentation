@@ -1,6 +1,3 @@
----
-title: Mouse and touch
----
 # Mouse and touch
 
 Conditions and actions to handle either the mouse or touches on touchscreen. By default, conditions related to the mouse will also handle the touches - so that it's easier to handle both in your game. You can disable this behavior if you want to handle them separately in different events. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/mouse-touch)
@@ -60,25 +57,27 @@ Compare the Y position of a specific touch.
 
 ## Expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `CursorX(layer, number)` | Return the X position of the cursor or of a touch. ||
-|:::| _layer_ | Layer (base layer if empty) _Optional_. |
-|:::| _number_ | Camera number (default : 0) _Optional_. |
+| | _layer_ | Layer (base layer if empty) _Optional_. |
+| | _number_ | Camera number (default : 0) _Optional_. |
 | `CursorY(layer, number)` | Return the Y position of the cursor or of a touch. ||
-|:::| _layer_ | Layer (base layer if empty) _Optional_. |
-|:::| _number_ | Camera number (default : 0) _Optional_. |
+| | _layer_ | Layer (base layer if empty) _Optional_. |
+| | _number_ | Camera number (default : 0) _Optional_. |
 | `MouseWheelDelta()` | Mouse wheel displacement ||
 | `StartedTouchOrMouseCount()` | The number of touches (including the mouse) that have just started on this frame. The touch identifiers can be accessed using StartedTouchOrMouseId(). ||
 | `StartedTouchOrMouseId(number)` | The identifier of the touch or mouse that has just started on this frame. The number of touches can be accessed using StartedTouchOrMouseCount(). ||
-|:::| _number_ | Touch index |
+| | _number_ | Touch index |
 | `TouchX(number, layer, number)` | Return the X position of a specific touch. ||
-|:::| _number_ | Touch identifier |
-|:::| _layer_ | Layer (base layer if empty) _Optional_. |
-|:::| _number_ | Camera number (default : 0) _Optional_. |
+| | _number_ | Touch identifier |
+| | _layer_ | Layer (base layer if empty) _Optional_. |
+| | _number_ | Camera number (default : 0) _Optional_. |
 | `TouchY(number, layer, number)` | Return the Y position of a specific touch. ||
-|:::| _number_ | Touch identifier |
-|:::| _layer_ | Layer (base layer if empty) _Optional_. |
-|:::| _number_ | Camera number (default : 0) _Optional_. |
+| | _number_ | Touch identifier |
+| | _layer_ | Layer (base layer if empty) _Optional_. |
+| | _number_ | Camera number (default : 0) _Optional_. |
 
 ---
 *This page is an auto-generated reference page about the **Mouse and touch** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

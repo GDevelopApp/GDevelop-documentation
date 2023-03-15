@@ -1,9 +1,6 @@
----
-title: Bounce (using forces)
----
 # Bounce (using forces)
 
-![](https://resources.gdevelop-app.com/assets/Icons/volleyball.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/volleyball.svg" class="extension-icon"></img>
 Provides an action to make the object bounce from another object it just touched. Add a permanent force to the object and, when in collision with another one, use the action to make it bounce realistically.
 
 **Authors and contributors** to this community extension: [4ian](https://gd.games/4ian).

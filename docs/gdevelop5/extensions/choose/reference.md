@@ -1,9 +1,6 @@
----
-title: Choose a random value
----
 # Choose a random value
 
-![](https://resources.gdevelop-app.com/assets/Icons/dice-multiple.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/dice-multiple.svg" class="extension-icon"></img>
 Choose a random value in a list of strings or numbers.
 
 **Authors and contributors** to this community extension: [UlisesFreitas](https://gd.games/UlisesFreitas).

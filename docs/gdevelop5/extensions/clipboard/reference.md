@@ -1,9 +1,6 @@
----
-title: Clipboard
----
 # Clipboard
 
-![](https://resources.gdevelop-app.com/assets/Icons/clipboard-text-multiple-outline.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/clipboard-text-multiple-outline.svg" class="extension-icon"></img>
 Read and write the clipboard.
 
 **Authors and contributors** to this community extension: [Bouh](https://gd.games/Bouh), [arthuro555](https://gd.games/arthuro555).

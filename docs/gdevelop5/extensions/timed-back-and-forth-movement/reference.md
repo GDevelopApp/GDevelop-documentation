@@ -1,9 +1,6 @@
----
-title: Timed Back and Forth Movement
----
 # Timed Back and Forth Movement
 
-![](https://resources.gdevelop-app.com/assets/Icons/repeat.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/repeat.svg" class="extension-icon"></img>
 This behavior moves objects back and forth for a chosen time or distance, vertically or horizontally.
 
 **Authors and contributors** to this community extension: [Greench](https://gd.games/Greench).

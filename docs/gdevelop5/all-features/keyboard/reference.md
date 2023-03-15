@@ -1,6 +1,3 @@
----
-title: Keyboard
----
 # Keyboard
 
 Allows your game to respond to keyboard input. Note that this does not work with on-screen keyboard on touch devices: use instead conditions related to touch when making a game for mobile/touchscreen devices. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/keyboard)
@@ -27,7 +24,9 @@ Check if a key was just released
 
 ## Expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `LastPressedKey()` | Get the name of the latest key pressed on the keyboard ||
 
 ---

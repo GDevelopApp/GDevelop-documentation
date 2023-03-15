@@ -1,27 +1,21 @@
----
-title: Make it rain
----
 # Make it rain
 
-![](https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Weather/Weather_forecast_umbrella_weather_rain_water_drop.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Weather/Weather_forecast_umbrella_weather_rain_water_drop.svg" class="extension-icon"></img>
 Makes an object rain from a selected direction.
 
 **Authors and contributors** to this community extension: [VegeTato](https://gd.games/VegeTato).
 
 !!! warning
-    
-        
     This is an extension made by a community member — but not reviewed
     by the GDevelop extension team. As such, we can't guarantee it
     meets all the quality standards of official extensions. In case of
     doubt, contact the author to know more about what the extension
     does or inspect its content before using it.
-    
+
 
 ---
 
 - User can select the rain object.
-
 - User can select to rain object from a selected direction.
 - User can set condition to check if the rain object collides with another object.
 - User can set action to Stop/Start the rain object.

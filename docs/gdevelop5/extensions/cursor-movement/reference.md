@@ -1,9 +1,6 @@
----
-title: Cursor movement conditions
----
 # Cursor movement conditions
 
-![](https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Computers and Hardware/Computers and Hardware_mouse_pc.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Computers and Hardware/Computers and Hardware_mouse_pc.svg" class="extension-icon"></img>
 Conditions to check the cursor movement (still or moving).
 
 **Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).
@@ -11,7 +8,6 @@ Conditions to check the cursor movement (still or moving).
 ---
 
 Provides two conditions:
-
 * The cursor is moving
 * The cursor has stayed still for a given duration
 

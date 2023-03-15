@@ -1,6 +1,3 @@
----
-title: Objects
----
 # Objects
 
 Common features that can be used for all objects in GDevelop. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/base_object/events)
@@ -68,11 +65,13 @@ Test if the cursor is over an object, or if the object is being touched.
 
 ## Expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `PickedInstancesCount(objectListOrEmptyWithoutPicking)` | Return the number of instances picked by the previous conditions (or actions). ||
-|:::| _objectListOrEmptyWithoutPicking_ | Object |
+| | _objectListOrEmptyWithoutPicking_ | Object |
 | `SceneInstancesCount(objectListOrEmptyWithoutPicking)` | Return the number of instances of the specified objects living on the scene. ||
-|:::| _objectListOrEmptyWithoutPicking_ | Object |
+| | _objectListOrEmptyWithoutPicking_ | Object |
 
 ### Object actions
 
@@ -299,21 +298,23 @@ Compare the overall speed of an object
 
 ### Object expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `Object.Angle()` | Current angle, in degrees, of the object ||
 | `Object.AngleToObject(object)` | Compute the angle between two objects (in degrees). If you need the angle to an arbitrary position, use AngleToPosition. ||
-|:::| _object_ | Object |
+| | _object_ | Object |
 | `Object.AngleToPosition(number, number)` | Compute the angle between the object center and a "target" position (in degrees). If you need the angle between two objects, use AngleToObject. ||
-|:::| _number_ | Target X position |
-|:::| _number_ | Target Y position |
+| | _number_ | Target X position |
+| | _number_ | Target Y position |
 | `Object.ArrayVariableFirstNumber(objectvar)` | Get the value of the first element of an object array variable, if it is a number variable. ||
-|:::| _objectvar_ | Array variable |
+| | _objectvar_ | Array variable |
 | `Object.ArrayVariableFirstString(objectvar)` | Get the value of the first element of an object array variable, if it is a text (string) variable. ||
-|:::| _objectvar_ | Array variable |
+| | _objectvar_ | Array variable |
 | `Object.ArrayVariableLastNumber(objectvar)` | Get the value of the last element of an object array variable, if it is a number variable. ||
-|:::| _objectvar_ | Array variable |
+| | _objectvar_ | Array variable |
 | `Object.ArrayVariableLastString(objectvar)` | Get the value of the last element of an object array variable, if it is a text (string) variable. ||
-|:::| _objectvar_ | Array variable |
+| | _objectvar_ | Array variable |
 | `Object.BoundingBoxBottom()` | Return the bounding box (the area encapsulating the object) bottom position. ||
 | `Object.BoundingBoxCenterX()` | Return the bounding box (the area encapsulating the object) center X position. ||
 | `Object.BoundingBoxCenterY()` | Return the bounding box (the area encapsulating the object) center Y position. ||
@@ -323,10 +324,10 @@ Compare the overall speed of an object
 | `Object.CenterX()` | Return the X position of the center of rotation. ||
 | `Object.CenterY()` | Return the Y position of the center of rotation. ||
 | `Object.Distance(object)` | Distance between two objects ||
-|:::| _object_ | Object |
+| | _object_ | Object |
 | `Object.DistanceToPosition(number, number)` | Distance between an object and a position ||
-|:::| _number_ | Target X position |
-|:::| _number_ | Target Y position |
+| | _number_ | Target X position |
+| | _number_ | Target Y position |
 | `Object.ForceAngle()` | Angle of the sum of forces (in degrees) ||
 | `Object.ForceLength()` | Length of the sum of forces ||
 | `Object.ForceX()` | X coordinate of the sum of forces ||
@@ -335,27 +336,27 @@ Compare the overall speed of an object
 | `Object.Layer()` | Return the name of the layer the object is on ||
 | `Object.ObjectName()` | Return the name of the object ||
 | `Object.ObjectTimerElapsedTime(identifier)` | Value of an object timer ||
-|:::| _identifier_ | Timer's name |
+| | _identifier_ | Timer's name |
 | `Object.SqDistance(object)` | Square distance between two objects ||
-|:::| _object_ | Object |
+| | _object_ | Object |
 | `Object.SqDistanceToPosition(number, number)` | Square distance between an object and a position ||
-|:::| _number_ | Target X position |
-|:::| _number_ | Target Y position |
+| | _number_ | Target X position |
+| | _number_ | Target Y position |
 | `Object.Variable(objectvar)` | Number value of an object variable ||
-|:::| _objectvar_ | Variable |
+| | _objectvar_ | Variable |
 | `Object.VariableChildCount(objectvar)` | Number of children in an object array or structure variable ||
-|:::| _objectvar_ | Array or structure variable |
+| | _objectvar_ | Array or structure variable |
 | `Object.VariableString(objectvar)` | Text of an object variable ||
-|:::| _objectvar_ | Variable |
+| | _objectvar_ | Variable |
 | `Object.Width()` | Width of the object ||
 | `Object.X()` | X position of the object ||
 | `Object.XFromAngleAndDistance(number, number)` | Compute the X position when given an angle and distance relative to the starting object. This is also known as getting the cartesian coordinates of a 2D vector, using its polar coordinates. ||
-|:::| _number_ | Angle, in degrees |
-|:::| _number_ | Distance |
+| | _number_ | Angle, in degrees |
+| | _number_ | Distance |
 | `Object.Y()` | Y position of the object ||
 | `Object.YFromAngleAndDistance(number, number)` | Compute the Y position when given an angle and distance relative to the starting object. This is also known as getting the cartesian coordinates of a 2D vector, using its polar coordinates. ||
-|:::| _number_ | Angle, in degrees |
-|:::| _number_ | Distance |
+| | _number_ | Angle, in degrees |
+| | _number_ | Distance |
 | `Object.ZOrder()` | Z-order of an object ||
 
 ---

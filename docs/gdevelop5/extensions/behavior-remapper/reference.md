@@ -1,9 +1,6 @@
----
-title: Behavior Remapper
----
 # Behavior Remapper
 
-![](https://resources.gdevelop-app.com/assets/Icons/alpha-w-box-outline.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/alpha-w-box-outline.svg" class="extension-icon"></img>
 Quickly remap Behavior controls to different keys. 
 
 **Authors and contributors** to this community extension: [Add00](https://gd.games/Add00).
@@ -17,7 +14,6 @@ Actions have two versions. `custom` allow the movement keys to be changed to wha
 ### Available Presets:
 
 ##### `WASD`
-
 -	W: Up
 -	A: Left
 -	S: Down
@@ -25,7 +21,6 @@ Actions have two versions. `custom` allow the movement keys to be changed to wha
 -	Space: Jump
 
 ##### `ZQSD`
-
 -	Z: Up
 -	Q: Left
 -	S: Down
@@ -33,7 +28,6 @@ Actions have two versions. `custom` allow the movement keys to be changed to wha
 -	Space: Jump
 
 ##### `Numpad` (Num lock must be disabled)
-
 -	Numpad Up: Up
 -	Numpad Left: Left
 -	Numpad Down: Down
@@ -41,7 +35,6 @@ Actions have two versions. `custom` allow the movement keys to be changed to wha
 -	Numpad Return/Enter: Jump
 
 ##### `IJKL`
-
 -	I: Up
 -	J: Left
 -	K: Down

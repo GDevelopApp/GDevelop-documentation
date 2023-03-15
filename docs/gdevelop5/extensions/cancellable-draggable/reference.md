@@ -1,9 +1,6 @@
----
-title: Cancellable draggable object
----
 # Cancellable draggable object
 
-![](https://resources.gdevelop-app.com/assets/Icons/step-backward.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/step-backward.svg" class="extension-icon"></img>
 Allow to cancel the drag of an object (having the Draggable behavior) and return it smoothly to its previous position.
 
 **Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).

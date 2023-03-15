@@ -1,9 +1,6 @@
----
-title: Explosion force
----
 # Explosion force
 
-![](https://resources.gdevelop-app.com/assets/Icons/bomb.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/bomb.svg" class="extension-icon"></img>
 Simulate an explosion with physics forces on target objects.
 
 **Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames).
@@ -14,16 +11,13 @@ Apply explosion-like physics forces to target objects that are inside the explos
 
 Requirements:
 
-
 - Target Objects must have physics behavior
 
 Tips:
 
-
 - Use the "__ExplosionForce.Exploded" object variable to detect when target objects are affected by an explosion.  For instance, start an opacity tween that fades away and deletes the objects.
 
 Variables given to Target Objects:
-
 
 - "__ExplosionForce.Exploded" (boolean)
 - "__ExplosionForce.Magnitude" (number)

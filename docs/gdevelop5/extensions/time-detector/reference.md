@@ -1,27 +1,21 @@
----
-title: TimeDetector
----
 # TimeDetector
 
-![](https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Space/Space_sun_star.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Space/Space_sun_star.svg" class="extension-icon"></img>
 Detects the current time of the day, week and month.
 
 **Authors and contributors** to this community extension: [TheMime](https://gd.games/TheMime).
 
 !!! warning
-    
-        
     This is an extension made by a community member — but not reviewed
     by the GDevelop extension team. As such, we can't guarantee it
     meets all the quality standards of official extensions. In case of
     doubt, contact the author to know more about what the extension
     does or inspect its content before using it.
-    
+
 
 ---
 
 1. Detects one of the following parts of the day : 
-
 
 - Morning.
 - Dusk.
@@ -30,11 +24,9 @@ Detects the current time of the day, week and month.
 
 2. Detects current day : 
 
-
 - Saturday, sunday, etc..
 
 3. Detects current month of the year : 
-
 
 - January, February, etc..
 

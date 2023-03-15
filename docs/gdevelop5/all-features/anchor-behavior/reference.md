@@ -1,6 +1,3 @@
----
-title: Anchor
----
 # Anchor
 
 Anchor objects to the window's bounds. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/behaviors/anchor)

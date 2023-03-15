@@ -1,6 +1,3 @@
----
-title: Bitmap Text
----
 # Bitmap Text
 
 Displays a text using a "Bitmap Font" (an image representing characters). This is more performant than a traditional Text object and it allows for complete control on the characters aesthetic. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/bitmap_text)
@@ -65,7 +62,9 @@ Check if word wrap is enabled.
 
 ### Object expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `Object.Alignment()` | Return the text alignment. ||
 | `Object.FontName()` | Return the font name (defined in the Bitmap font). ||
 | `Object.FontSize()` | Return the font size, defined in the Bitmap Font. ||

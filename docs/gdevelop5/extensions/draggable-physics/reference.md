@@ -1,9 +1,6 @@
----
-title: Draggable (for physics objects)
----
 # Draggable (for physics objects)
 
-![](https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Virtual Reality/Virtual Reality_hand_vr_ar_360.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Virtual Reality/Virtual Reality_hand_vr_ar_360.svg" class="extension-icon"></img>
 Drag a physics object with the mouse (or touch).
 
 **Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames).
@@ -13,7 +10,6 @@ Drag a physics object with the mouse (or touch).
 Enables users to click and drag on objects to move them.  The object will retain velocity when the click is released, which can allow users to fling objects across the screen.
 
 Note:
-
 - The standard "draggable" behavior will not work on objects that have the physics behavior. This extension should be used instead.
 - This extension will only work on objects that have the physics behavior.
 - Kinematic physics mode is incompatible with this extension. The object will be changed to dynamic mode.

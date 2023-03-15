@@ -1,9 +1,6 @@
----
-title: Resource bar (separated units)
----
 # Resource bar (separated units)
 
-![](https://asset-resources.gdevelop.io/public-resources/Icons/063e9152cf65bc0f3be2a828afd950c3ecf1b1fc72feefdc2467252fe987dc0f_dots-horizontal.svg)
+<img src="https://asset-resources.gdevelop.io/public-resources/Icons/063e9152cf65bc0f3be2a828afd950c3ecf1b1fc72feefdc2467252fe987dc0f_dots-horizontal.svg" class="extension-icon"></img>
 A bar that represents a resource in the game (health, mana, ammo, etc).
 
 **Authors and contributors** to this community extension: [D8H](https://gd.games/D8H), [VictrisGames](https://gd.games/VictrisGames), [Entropy](https://gd.games/Entropy).

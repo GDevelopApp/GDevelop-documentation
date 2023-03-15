@@ -1,6 +1,3 @@
----
-title: Top-down movement
----
 # Top-down movement
 
 Allows to move objects in either 4 or 8 directions, with the keyboard or using events. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/behaviors/topdown)
@@ -112,7 +109,9 @@ Compare the velocity of the top-down movement of the object on the Y axis.
 
 ### Behavior expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `Object.TopDownMovement::Acceleration()` | Acceleration of the object ||
 | `Object.TopDownMovement::Angle()` | Angle, in degrees, of the movement ||
 | `Object.TopDownMovement::AngleOffset()` | Rotation offset applied to the object ||

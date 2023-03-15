@@ -1,22 +1,17 @@
----
-title: Sine (or ellipsis) Movement (deprecated)
----
 # Sine (or ellipsis) Movement (deprecated)
 
-![](https://resources.gdevelop-app.com/assets/Icons/sine-wave.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/sine-wave.svg" class="extension-icon"></img>
 Allow an object to move smoothly on the X and/or Y axis following a sine wave, or an ellipsis.
 
 **Authors and contributors** to this community extension: [4ian](https://gd.games/4ian), [VictrisGames](https://gd.games/VictrisGames).
 
 !!! warning
-    
-        
     This is an extension made by a community member — but not reviewed
     by the GDevelop extension team. As such, we can't guarantee it
     meets all the quality standards of official extensions. In case of
     doubt, contact the author to know more about what the extension
     does or inspect its content before using it.
-    
+
 
 ---
 
@@ -24,13 +19,11 @@ Allow an object to move smoothly on the X and/or Y axis following a sine wave, o
 
 
 Example uses:
-
 - Floating objects, such as powerups or coins
 - Moveable platforms
 - Enemy movement patterns
 
 Properties:
-
 - Horizontal distance
 - Vertical distance
 - Horizontal speed
@@ -39,7 +32,6 @@ Properties:
 - Center of movement, Y position
 
 Tips:
-
 - For circular or elliptical movement, the horizontal and vertical speed need to be the same
 - For horizontal movement only, set vertical distance to 0
 - For vertical movement only, set horizontal distance to 0

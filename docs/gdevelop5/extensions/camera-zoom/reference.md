@@ -1,9 +1,6 @@
----
-title: Camera Zoom
----
 # Camera Zoom
 
-![](https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/UI Essentials/UI Essentials_zoom_in_plus.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/UI Essentials/UI Essentials_zoom_in_plus.svg" class="extension-icon"></img>
 Allows to zoom camera on a layer with a speed (factor per second).
 
 **Authors and contributors** to this community extension: [D8H](https://gd.games/D8H), [Elairyx](https://gd.games/Elairyx).
@@ -15,7 +12,6 @@ Allows to zoom camera on a layer with a speed (factor per second).
 This extension allows to zoom a camera on a layer at a given speed. The zoom speed is configurable and allows a constant as well as a variable zoom speed. An anchor point can be defined, for instance, to keep what is under the cursor at the same place on screen.
 
 ### Actions
-
 
 - Zoom at a given speed
 - Change the zoom with an anchor point

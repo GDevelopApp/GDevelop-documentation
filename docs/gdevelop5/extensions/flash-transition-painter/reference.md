@@ -1,9 +1,6 @@
----
-title: Flash and transition painter
----
 # Flash and transition painter
 
-![](https://resources.gdevelop-app.com/assets/Icons/movie-filter.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/movie-filter.svg" class="extension-icon"></img>
 Behavior for shape painter allows you to paint a color all over the screen for period of time with an effect (useful for simulate flash and transition effect).
 
 **Authors and contributors** to this community extension: (not specified).
@@ -12,12 +9,10 @@ Behavior for shape painter allows you to paint a color all over the screen for p
 
 * __Paint effect:__Action to paint a color all over the screen for a period of time with specific effect.
 effect type:
-
   * __Flash:__ is a monochrome color appear with fade then disappear with fade out.
   * __Vertical:__ is a monochrome color comes from right side then comes back.
   * __Horizontal:__ is a monochrome color come from top side then comes back.
   * __Circular:__ is a circle which increases from the center and narrows.
-
 * __Paint effect ended:__ event when the paint effect ends.
 
 ---

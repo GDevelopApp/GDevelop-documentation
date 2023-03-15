@@ -1,6 +1,3 @@
----
-title: Device sensors
----
 # Device sensors
 
 Allow the game to access the sensors of a mobile device. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/device-sensors)
@@ -56,7 +53,9 @@ Compare the value of rotation gamma. (Note: few devices support this sensor)
 
 ## Expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `DeviceSensors::AccelerationX()` | Get the devices acceleration on the X-axis (m/s²) ||
 | `DeviceSensors::AccelerationY()` | Get the devices acceleration on the Y-axis (m/s²) ||
 | `DeviceSensors::AccelerationZ()` | Get the devices acceleration on the Z-axis (m/s²) ||

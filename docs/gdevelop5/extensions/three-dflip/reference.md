@@ -1,9 +1,6 @@
----
-title: 3D Flip
----
 # 3D Flip
 
-![](https://resources.gdevelop-app.com/assets/Icons/flip-horizontal.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/flip-horizontal.svg" class="extension-icon"></img>
 Flip sprites with a 3D effect.
 
 **Authors and contributors** to this community extension: [D8H](https://gd.games/D8H), [VegeTato](https://gd.games/VegeTato).

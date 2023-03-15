@@ -1,9 +1,6 @@
----
-title: Platformer trajectory
----
 # Platformer trajectory
 
-![](https://resources.gdevelop-app.com/assets/Icons/chart-bell-curve.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/chart-bell-curve.svg" class="extension-icon"></img>
 Platformer character jump easy configuration and platformer AI tools.
 
 **Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).
@@ -11,7 +8,6 @@ Platformer character jump easy configuration and platformer AI tools.
 ---
 
 This extension allows to:
-
 * Configure the height of a jump by automatically choosing the right jump speed ([open the project online](https://editor.gdevelop.io/?project=example://platformer-jump-evaluator)).
 * Know when to jump to reach a platform (can be useful for AI).
 * Draw jump trajectories to check a level design.

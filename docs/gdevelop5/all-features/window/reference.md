@@ -1,6 +1,3 @@
----
-title: Game window and resolution
----
 # Game window and resolution
 
 Provides actions and conditions to manipulate the game window. Depending on the platform on which the game is running, not all of these features can be applied. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/window)
@@ -38,7 +35,9 @@ Check if the game is currently in fullscreen.
 
 ## Expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `SceneWindowHeight()` | Height of the scene window (or scene canvas for HTML5 games) ||
 | `SceneWindowWidth()` | Width of the scene window (or scene canvas for HTML5 games) ||
 | `ScreenHeight()` | Height of the screen (or the page for HTML5 games in browser) ||

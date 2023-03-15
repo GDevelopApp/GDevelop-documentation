@@ -1,22 +1,17 @@
----
-title: Crypto Api
----
 # Crypto Api
 
-![](/)
+<img src="" class="extension-icon"></img>
 Random number generator for integers and floats using the Crypto API.
 
 **Authors and contributors** to this community extension: (not specified).
 
 !!! warning
-    
-        
     This is an extension made by a community member — but not reviewed
     by the GDevelop extension team. As such, we can't guarantee it
     meets all the quality standards of official extensions. In case of
     doubt, contact the author to know more about what the extension
     does or inspect its content before using it.
-    
+
 
 ---
 
@@ -24,7 +19,6 @@ This uses the Crypto API to create a random number see help for more details.
 
 You might ask how this differs from the built-in random functions in GDevelop like RandomInRange. In basic terms, it provides a more random number than Math.random() which is what the built-in functions use.
 That randomness does come at a cost of performance so be aware of your usage of this. 
-
 
 **This has nothing to do with crypto currency**
 

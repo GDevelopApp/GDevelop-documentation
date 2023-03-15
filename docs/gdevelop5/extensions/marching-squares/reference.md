@@ -1,9 +1,6 @@
----
-title: Marching Squares (experimental)
----
 # Marching Squares (experimental)
 
-![](https://resources.gdevelop-app.com/assets/Icons/peanut-outline.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/peanut-outline.svg" class="extension-icon"></img>
 Allow to build a "scalar field" and draw contour lines of it: useful for fog of wars, liquid effects, paint the ground, etc...
 
 **Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).
@@ -11,7 +8,6 @@ Allow to build a "scalar field" and draw contour lines of it: useful for fog of 
 ---
 
 It can be helpful for:
-
   * Liquid effects like water, blobs or lava ([open the project online](https://editor.gdevelop.io/?project=example://marching-squares-liquids))
   * Fog of wars ([open the project online](https://editor.gdevelop.io/?project=example://marching-squares-fog-of-war))
   * Platformer with destructible platforms ([open the project online](https://editor.gdevelop.io/?project=example://marching-squares-platforms-painter))

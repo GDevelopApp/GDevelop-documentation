@@ -1,6 +1,3 @@
----
-title: Physics Engine (deprecated)
----
 # Physics Engine (deprecated)
 
 This is the old, deprecated physics engine. Prefer to use the Physics Engine 2.0. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/behaviors/physics)
@@ -124,7 +121,9 @@ Compare the linear velocity on the Y axis of the object.
 
 ### Behavior expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `Object.Physics::AngularDamping()` | Angular damping ||
 | `Object.Physics::AngularVelocity()` | Angular speed ||
 | `Object.Physics::LinearDamping()` | Linear damping ||

@@ -1,9 +1,6 @@
----
-title: Dungeon generator
----
 # Dungeon generator
 
-![](https://resources.gdevelop-app.com/assets/Icons/sitemap.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/sitemap.svg" class="extension-icon"></img>
 Create a procedurally generated dungeon.  Includes two layouts: "rooms and hallways" and "dungeon cave".
 
 **Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames), [oscuridad666](https://gd.games/oscuridad666).
@@ -11,11 +8,9 @@ Create a procedurally generated dungeon.  Includes two layouts: "rooms and hallw
 ---
 
 How to use:
-
 - Run the "Generate Dungeon Cave" or "Generate Dungeon with Rooms" action at the beginning of a scene.
 
 Tips:
-
 - Keep the amount of space used by room objects to less than ~25% of the total map.  If you add too many rooms, they will not be placed correctly and might collide with other rooms.
 - Try using top-down controls combined with physics behavior (with no gravity) on the player and wall objects
 - Use external layouts to place pre-designed rooms on randomly created room objects

@@ -1,9 +1,6 @@
----
-title: Star Rating
----
 # Star Rating
 
-![](https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/UI Essentials/UI Essentials_star.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/UI Essentials/UI Essentials_star.svg" class="extension-icon"></img>
 A rating system indicated by stars using the shape painter.
 
 **Authors and contributors** to this community extension: [Entropy](https://gd.games/Entropy).

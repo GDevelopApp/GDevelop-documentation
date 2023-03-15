@@ -1,9 +1,6 @@
----
-title: Turret movement
----
 # Turret movement
 
-![](https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Cleaning/Cleaning_cleaning_clean_plunger.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Cleaning/Cleaning_cleaning_clean_plunger.svg" class="extension-icon"></img>
 A turret movement with customizable speed, acceleration and stop angles.
 
 **Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).

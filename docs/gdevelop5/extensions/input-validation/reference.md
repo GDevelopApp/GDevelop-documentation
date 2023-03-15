@@ -1,9 +1,6 @@
----
-title: Input Validation
----
 # Input Validation
 
-![](https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Education and Learning/Education and Learning_education_book_library_search.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Education and Learning/Education and Learning_education_book_library_search.svg" class="extension-icon"></img>
 Conditions and expressions to check, sanitize and manipulate strings.
 
 **Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555), [Add00](https://gd.games/Add00).

@@ -1,9 +1,6 @@
----
-title: Game properties data
----
 # Game properties data
 
-![](https://resources.gdevelop-app.com/assets/Icons/numeric.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/numeric.svg" class="extension-icon"></img>
 Get Version, Title, Publisher name, PackageName from properties tab.
 
 **Authors and contributors** to this community extension: [UlisesFreitas](https://gd.games/UlisesFreitas).
@@ -11,7 +8,6 @@ Get Version, Title, Publisher name, PackageName from properties tab.
 ---
 
 * Add an string expression that returns the current game version from game properties tab.
-
 * Add an string expression that returns the game title from game properties tab.
 * Add an string expression that returns the game publisher name from game properties tab.
 * Add an string expression that returns the package name from game properties tab.

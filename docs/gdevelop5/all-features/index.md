@@ -1,6 +1,3 @@
----
-title: All features
----
 # All features
 
 This page lists **all the features** that are provided in GDevelop. These can be objects, behaviors but also features that can be used directly using actions, conditions or expressions (without requiring an object to be existing on the scene).

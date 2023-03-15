@@ -1,9 +1,6 @@
----
-title: Read pixels
----
 # Read pixels
 
-![](https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Computers and Hardware/Computers and Hardware_screen_computer_image.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Computers and Hardware/Computers and Hardware_screen_computer_image.svg" class="extension-icon"></img>
 Read the values of pixels on the screen.
 
 **Authors and contributors** to this community extension: [Bouh](https://gd.games/Bouh).

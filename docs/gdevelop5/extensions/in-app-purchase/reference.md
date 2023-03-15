@@ -1,9 +1,6 @@
----
-title: Mobile In-App Purchase (experimental)
----
 # Mobile In-App Purchase (experimental)
 
-![](https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Shopping and Ecommerce/Shopping and Ecommerce_wallet_money_cash.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Shopping and Ecommerce/Shopping and Ecommerce_wallet_money_cash.svg" class="extension-icon"></img>
 Add items to buy directly in your game ("In-App Purchase"), for games published on Android or iOS.
 
 **Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555), [4ian](https://gd.games/4ian).
@@ -17,7 +14,6 @@ It's highly recommended to **read the [help page](http://wiki.compilgames.net/do
 > ⚠️ In-App Purchase **will only work after you exported your game and uploaded it to Google Play Console or Apple App Store Connect**, at least in a testing track.
 
 The general worflow is the following:
-
 
 - Register your products on the Google Play Console or App Store Connect,
 - In your game, register the same products using the action *"Register an item"*,

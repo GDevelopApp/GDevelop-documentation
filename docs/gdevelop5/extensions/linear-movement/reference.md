@@ -1,9 +1,6 @@
----
-title: Linear Movement
----
 # Linear Movement
 
-![](https://resources.gdevelop-app.com/assets/Icons/ray-start-arrow.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/ray-start-arrow.svg" class="extension-icon"></img>
 Move the object linearly, according to the speed configured on X and Y axis. Useful for simple enemies, bullets or objects following a straight line on the screen.
 
 **Authors and contributors** to this community extension: [4ian](https://gd.games/4ian).

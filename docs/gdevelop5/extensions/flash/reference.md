@@ -1,9 +1,6 @@
----
-title: Flash (blink)
----
 # Flash (blink)
 
-![](https://resources.gdevelop-app.com/assets/Icons/flash-outline.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/flash-outline.svg" class="extension-icon"></img>
 Make the object flash (blink) for a period of time, so that it is alternately visible and invisible.
 Trigger the effect by using the Flash action.
 

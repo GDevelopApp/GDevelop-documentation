@@ -1,9 +1,6 @@
----
-title: Compressor
----
 # Compressor
 
-![](https://resources.gdevelop-app.com/assets/Icons/folder-zip-outline.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/folder-zip-outline.svg" class="extension-icon"></img>
 Compress and decompress strings.
 
 **Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555).

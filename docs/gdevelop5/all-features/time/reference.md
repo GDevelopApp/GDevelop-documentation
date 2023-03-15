@@ -1,6 +1,3 @@
----
-title: Timers and time
----
 # Timers and time
 
 Actions and conditions to run timers, get the current time or modify the time scale (speed at which the game is running - useful for slow motion effects). [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/timers-and-time)
@@ -38,14 +35,16 @@ Test if the specified scene timer is paused.
 
 ## Expressions
 
-^ Expression ^ Description ^  ^
+| Expression | Description |  |
+|-----|-----|-----|
+
 | `Time(string)` | Current time ||
-|:::| _string_ | Hour: hour - Minutes: min - Seconds: sec - Day of month: mday - Months since January: mon - Year since 1900: year - Days since Sunday: wday - Days since Jan 1st: yday - Timestamp (ms): timestamp" |
+| | _string_ | Hour: hour - Minutes: min - Seconds: sec - Day of month: mday - Months since January: mon - Year since 1900: year - Days since Sunday: wday - Days since Jan 1st: yday - Timestamp (ms): timestamp" |
 | `TimeDelta()` | Time elapsed since the last frame rendered on screen ||
 | `TimeFromStart()` | Time elapsed since the beginning of the scene ||
 | `TimeScale()` | Returns the time scale of the scene. ||
 | `TimerElapsedTime(identifier)` | Value of a scene timer ||
-|:::| _identifier_ | Timer's name |
+| | _identifier_ | Timer's name |
 
 ---
 *This page is an auto-generated reference page about the **Timers and time** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

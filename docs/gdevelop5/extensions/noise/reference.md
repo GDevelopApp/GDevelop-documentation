@@ -1,9 +1,6 @@
----
-title: Noise generator
----
 # Noise generator
 
-![](https://resources.gdevelop-app.com/assets/Icons/sprinkler.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/sprinkler.svg" class="extension-icon"></img>
 Expressions for generating Simplex noise values. Useful for procedural generation.
 
 **Authors and contributors** to this community extension: [Add00](https://gd.games/Add00), [VictrisGames](https://gd.games/VictrisGames), [D8H](https://gd.games/D8H).
@@ -11,7 +8,6 @@ Expressions for generating Simplex noise values. Useful for procedural generatio
 ---
 
 Noise can be useful for many procedural generation cases such as:
-
 - Terrain, top down or side view ([open the project online](https://editor.gdevelop.io/?project=example://marching-squares-island-generator))
 - Object positioning (tree, stars...)
 - Curves (roads, rivers...)
@@ -22,7 +18,6 @@ Noise can be useful for many procedural generation cases such as:
 This extension contains expressions to generate Simplex noise values in 1, 2, 3 and 4 dimensions. A *"seed"* allows to generate the same world again later on instead of having to save the whole generated world.
 
 Version 2.0.0 compatibility break:
-
 - Seeds doesn't give the same result as with version 1.x.x
 
 [Read more...](https://wiki.gdevelop.io/gdevelop5/tutorials/procedural-generation)

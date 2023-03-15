@@ -1,9 +1,6 @@
----
-title: Hexagonal grid
----
 # Hexagonal grid
 
-![](https://resources.gdevelop-app.com/assets/Icons/hexagon-multiple-outline.svg)
+<img src="https://resources.gdevelop-app.com/assets/Icons/hexagon-multiple-outline.svg" class="extension-icon"></img>
 Snap objects to an hexagonal grid.
 
 **Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).
@@ -13,7 +10,6 @@ Snap objects to an hexagonal grid.
 It allows to snap objects on an hexagonal grid.
 
 It's useful for:
-
 - level editors
 - building systems ([open the city builder example online](https://editor.gdevelop.io/?project=example://city-builder))
 
