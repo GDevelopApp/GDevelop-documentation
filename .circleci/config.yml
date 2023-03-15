@@ -53,8 +53,8 @@ jobs:
           command: |
             rsync -r GDevelop/docs-wiki/ docs/gdevelop5
             git add docs/gdevelop5
-            git commit -m "Automatic update of the reference pages [skip-ci]"
-            git push origin main
+            git commit -m "Automatic update of the reference pages [skip-ci]" || echo "Nothing to commit (or error during commit?)"
+            git push origin main || echo "Nothing to push (or error during commit or push?)"
 
 workflows:
   version: 2
