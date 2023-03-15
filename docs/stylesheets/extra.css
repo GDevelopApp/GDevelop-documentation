@@ -19,4 +19,9 @@ nav.md-tabs {
 .extension-icon {
   width: 48px;
   height: 48px;
+
+  /* Mimic the styling used in the app. */
+  background: linear-gradient(45deg, #FFFFFF33, #FFFFFF);
+  border-radius: 4px;
+  padding: 4px;
 }
