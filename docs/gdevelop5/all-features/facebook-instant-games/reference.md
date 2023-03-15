@@ -43,7 +43,6 @@ Check if the rewarded video requested from Facebook is loaded and ready to be sh
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `FacebookInstantGames::PlayerId()` | Get the player unique identifier ||
 | `FacebookInstantGames::PlayerName()` | Get the player name ||
 

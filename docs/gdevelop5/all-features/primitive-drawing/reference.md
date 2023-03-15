@@ -145,7 +145,6 @@ Test the size of the outline.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.FillColorBlue()` | Filing color blue component ||
 | `Object.FillColorGreen()` | Filing color green component ||
 | `Object.FillColorRed()` | Filing color red component ||

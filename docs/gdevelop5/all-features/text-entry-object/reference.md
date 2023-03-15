@@ -28,7 +28,6 @@ Test the text of a Text Entry object.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.String()` | Text entered with keyboard ||
 
 ---

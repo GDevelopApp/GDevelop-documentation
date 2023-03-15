@@ -64,7 +64,6 @@ Check if word wrap is enabled.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.Alignment()` | Return the text alignment. ||
 | `Object.FontName()` | Return the font name (defined in the Bitmap font). ||
 | `Object.FontSize()` | Return the font size, defined in the Bitmap Font. ||

@@ -59,7 +59,6 @@ Compare the Y position of a specific touch.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `CursorX(layer, number)` | Return the X position of the cursor or of a touch. ||
 | | _layer_ | Layer (base layer if empty) _Optional_. |
 | | _number_ | Camera number (default : 0) _Optional_. |

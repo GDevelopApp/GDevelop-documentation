@@ -43,7 +43,6 @@ Check if an item has reached its maximum number allowed in the inventory.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Inventory::Count(string, string)` | Get the number of an item in the inventory ||
 | | _string_ | Inventory name |
 | | _string_ | Item name |

@@ -347,7 +347,6 @@ Test if a wheel joint motor is enabled.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.Physics2::AngularDamping()` | Get the angular damping of an object. ||
 | `Object.Physics2::AngularVelocity()` | Get the angular velocity of an object. ||
 | `Object.Physics2::Density()` | Get the density of an object. ||

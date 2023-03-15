@@ -36,7 +36,6 @@ The scene has just resumed after being paused.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `CurrentSceneName()` | Name of the current scene ||
 
 ---

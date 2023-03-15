@@ -107,7 +107,6 @@ Test the word wrapping width of a Text object.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.Angle()` | Angle ||
 | `Object.FontSize()` | Return the font size of a text object. ||
 | `Object.Opacity()` | Opacity of a Text object ||

@@ -101,7 +101,6 @@ Check if a branch has been visited
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `DialogueTree::BranchTag(number)` | Get a tag of the current branch of the running dialogue via its index ||
 | | _number_ | Tag Index Number |
 | `DialogueTree::BranchTags()` | Get the tags of the current branch of the running dialogue ||

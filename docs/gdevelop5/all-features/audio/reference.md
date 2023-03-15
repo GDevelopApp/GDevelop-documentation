@@ -123,7 +123,6 @@ Test if the sound on the specified channel is stopped.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `GlobalVolume()` | Global volume value ||
 | `MusicChannelPitch(number)` | Music's pitch ||
 | | _number_ | Channel |

@@ -31,7 +31,6 @@ Check if the player is authenticated.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `PlayerAuthentication::Username()` | Get the username of the authenticated player. ||
 
 ---

@@ -67,7 +67,6 @@ Triggers once when a connected client sends the event
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `P2P::GetEventData(string)` | Returns the data received when the specified event was last triggered ||
 | | _string_ | Event name |
 | `P2P::GetEventSender(string)` | Returns the id of the peer that triggered the event ||

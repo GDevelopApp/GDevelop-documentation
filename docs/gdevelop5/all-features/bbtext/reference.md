@@ -61,7 +61,6 @@ Compare the width, in pixels, after which the text is wrapped on next line.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.GetAlignment()` | Get the text alignment ||
 | `Object.GetBBText()` | Get BBCode text ||
 | `Object.GetFontFamily()` | Get the base font family ||

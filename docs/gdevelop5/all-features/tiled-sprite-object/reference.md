@@ -52,7 +52,6 @@ Test the offset used on the Y axis when displaying the image.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.Opacity()` | Opacity ||
 
 ---

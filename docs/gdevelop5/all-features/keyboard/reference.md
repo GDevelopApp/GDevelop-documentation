@@ -26,7 +26,6 @@ Check if a key was just released
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `LastPressedKey()` | Get the name of the latest key pressed on the keyboard ||
 
 ---

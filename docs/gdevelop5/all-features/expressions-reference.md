@@ -20,7 +20,6 @@ Common features that can be used for all objects in GDevelop. [Read more explana
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `PickedInstancesCount(objectListOrEmptyWithoutPicking)` | Return the number of instances picked by the previous conditions (or actions). ||
 | | _objectListOrEmptyWithoutPicking_ | Object |
 | `SceneInstancesCount(objectListOrEmptyWithoutPicking)` | Return the number of instances of the specified objects living on the scene. ||
@@ -28,7 +27,6 @@ Common features that can be used for all objects in GDevelop. [Read more explana
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.Angle()` | Current angle, in degrees, of the object ||
 | `Object.AngleToObject(object)` | Compute the angle between two objects (in degrees). If you need the angle to an arbitrary position, use AngleToPosition. ||
 | | _object_ | Object |
@@ -97,7 +95,6 @@ Animated object which can be used for most elements of a game [Read more explana
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.Animation()` | Animation of the object ||
 | `Object.AnimationFrameCount()` | Number of frames in the current animation of the object ||
 | `Object.AnimationName()` | Name of the animation of the object ||
@@ -120,7 +117,6 @@ Expressions to convert number, texts and quantities. [Read more explanations abo
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `GlobalVarToJSON(globalvar)` | Convert a global variable to JSON ||
 | | _globalvar_ | The global variable to be stringified |
 | `LargeNumberToString(number)` | Convert the result of the expression to text, without using the scientific notation ||
@@ -148,7 +144,6 @@ Actions, conditions and expressions to handle variables, from simple variables l
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `GlobalVariable(globalvar)` | Number value of a global variable ||
 | | _globalvar_ | Name of the global variable |
 | `GlobalVariableChildCount(globalvar)` | Number of children in a global array or structure variable ||
@@ -187,7 +182,6 @@ Conditions and actions to handle either the mouse or touches on touchscreen. By 
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `CursorX(layer, number)` | Return the X position of the cursor or of a touch. ||
 | | _layer_ | Layer (base layer if empty) _Optional_. |
 | | _number_ | Camera number (default : 0) _Optional_. |
@@ -216,7 +210,6 @@ Allows your game to respond to keyboard input. Note that this does not work with
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `LastPressedKey()` | Get the name of the latest key pressed on the keyboard ||
 
 ---
@@ -228,7 +221,6 @@ Actions and conditions to manipulate the scenes during the game.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `CurrentSceneName()` | Name of the current scene ||
 
 ---
@@ -240,7 +232,6 @@ Actions and conditions to run timers, get the current time or modify the time sc
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Time(string)` | Current time ||
 | | _string_ | Hour: hour - Minutes: min - Seconds: sec - Day of month: mday - Months since January: mon - Year since 1900: year - Days since Sunday: wday - Days since Jan 1st: yday - Timestamp (ms): timestamp" |
 | `TimeDelta()` | Time elapsed since the last frame rendered on screen ||
@@ -258,7 +249,6 @@ A set of mathematical functions that can be used in expressions.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `AngleBetweenPositions(number, number, number, number)` | Compute the angle between two positions (in degrees). ||
 | | _number_ | First point X position |
 | | _number_ | First point Y position |
@@ -400,7 +390,6 @@ Each scene can be composed of multiple layers. These conditions and actions allo
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `CameraAngle(layer, number)` | Return the angle of rotation of a camera (in degrees). ||
 | | _layer_ | Layer (base layer if empty) _Optional_. |
 | | _number_ | Camera number (default : 0) _Optional_. |
@@ -445,7 +434,6 @@ GDevelop provides several conditions and actions to play audio files. They can b
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `GlobalVolume()` | Global volume value ||
 | `MusicChannelPitch(number)` | Music's pitch ||
 | | _number_ | Channel |
@@ -469,7 +457,6 @@ Provides actions and conditions to manipulate the game window. Depending on the 
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `SceneWindowHeight()` | Height of the scene window (or scene canvas for HTML5 games) ||
 | `SceneWindowWidth()` | Width of the scene window (or scene canvas for HTML5 games) ||
 | `ScreenHeight()` | Height of the screen (or the page for HTML5 games in browser) ||
@@ -485,7 +472,6 @@ Provides expressions to manipulate strings (also called texts).
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `FromCodePoint(number)` | Get character from code point ||
 | | _number_ | Code point |
 | `NewLine()` | Insert a new line ||
@@ -529,7 +515,6 @@ Advanced control features for functions made with events.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `GetArgumentAsNumber(functionParameterName)` | Get function parameter (also called "argument") value. ||
 | | _functionParameterName_ | Parameter name |
 | `GetArgumentAsString(functionParameterName)` | Get function parameter (also called "argument") text. ||
@@ -552,7 +537,6 @@ Jump and run on platforms. [Read more explanations about it.](https://wiki.gdeve
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.PlatformerObject::Acceleration()` | Return the horizontal acceleration of the object (in pixels per second per second). ||
 | `Object.PlatformerObject::CurrentFallSpeed()` | Return the current fall speed of the object (in pixels per second). Its value is always positive. ||
 | `Object.PlatformerObject::CurrentJumpSpeed()` | Current jump speed ||
@@ -586,7 +570,6 @@ Displays an image repeated over an area. [Read more explanations about it.](http
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.Opacity()` | Opacity ||
 
 ---
@@ -610,7 +593,6 @@ Move objects left, up, right, and down (and, optionally, diagonally). [Read more
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.TopDownMovement::Acceleration()` | Acceleration of the object ||
 | `Object.TopDownMovement::Angle()` | Angle, in degrees, of the movement ||
 | `Object.TopDownMovement::AngleOffset()` | Rotation offset applied to the object ||
@@ -633,7 +615,6 @@ Displays a text on the screen. [Read more explanations about it.](https://wiki.g
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.Angle()` | Angle ||
 | `Object.FontSize()` | Return the font size of a text object. ||
 | `Object.Opacity()` | Opacity of a Text object ||
@@ -652,7 +633,6 @@ Displays a large number of small particles to create visual effects. [Read more 
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.ConeSprayAngle()` | Angle of the spray cone ||
 | `Object.CurrentParticleCount()` | Number of particles currently displayed. ||
 | `Object.EmitterAngle()` | Emission angle of the particles. ||
@@ -694,7 +674,6 @@ An image with edges and corners that are stretched separately from the full imag
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.Opacity()` | Opacity ||
 
 ---
@@ -718,7 +697,6 @@ Allows you to draw simple shapes on the screen using the events. [Read more expl
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.FillColorBlue()` | Filing color blue component ||
 | `Object.FillColorGreen()` | Filing color green component ||
 | `Object.FillColorRed()` | Filing color red component ||
@@ -753,7 +731,6 @@ Invisible object used to get the text entered with the keyboard. [Read more expl
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.String()` | Text entered with keyboard ||
 
 ---
@@ -765,7 +742,6 @@ Provides actions and conditions to add an inventory to your game, with items in 
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Inventory::Count(string, string)` | Get the number of an item in the inventory ||
 | | _string_ | Inventory name |
 | | _string_ | Item name |
@@ -780,7 +756,6 @@ Move objects to a target while avoiding all objects that are flagged as obstacle
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.Pathfinding::Acceleration()` | Acceleration of the object on the path ||
 | `Object.Pathfinding::AngleOffset()` | Rotation offset applied the object on the path ||
 | `Object.Pathfinding::AngularMaxSpeed()` | Angular maximum speed of the object on the path ||
@@ -811,7 +786,6 @@ Flag objects as being obstacles for pathfinding. [Read more explanations about i
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.PathfindingObstacle::Cost()` | Obstacle cost ||
 
 ---
@@ -824,7 +798,6 @@ Make objects move as if they are subject to the laws of physics. If you're creat
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.Physics::AngularDamping()` | Angular damping ||
 | `Object.Physics::AngularVelocity()` | Angular speed ||
 | `Object.Physics::LinearDamping()` | Linear damping ||
@@ -843,7 +816,6 @@ Provides advanced features related to the game window positioning and interactio
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `AdvancedWindow::WindowOpacity()` | Returns the current window opacity (a number from 0 to 1, 1 being fully opaque). ||
 | `AdvancedWindow::WindowX()` | Returns the current window X position. ||
 | `AdvancedWindow::WindowY()` | Returns the current window Y position. ||
@@ -858,7 +830,6 @@ Displays a rich text label using BBCode markup (allowing to set parts of the tex
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.GetAlignment()` | Get the text alignment ||
 | `Object.GetBBText()` | Get BBCode text ||
 | `Object.GetFontFamily()` | Get the base font family ||
@@ -876,7 +847,6 @@ Displays a text using a "Bitmap Font" (an image representing characters). This i
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.Alignment()` | Return the text alignment. ||
 | `Object.FontName()` | Return the font name (defined in the Bitmap font). ||
 | `Object.FontSize()` | Return the font size, defined in the Bitmap Font. ||
@@ -894,7 +864,6 @@ Allow the game to access the sensors of a mobile device. [Read more explanations
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `DeviceSensors::AccelerationX()` | Get the devices acceleration on the X-axis (m/s²) ||
 | `DeviceSensors::AccelerationY()` | Get the devices acceleration on the Y-axis (m/s²) ||
 | `DeviceSensors::AccelerationZ()` | Get the devices acceleration on the Z-axis (m/s²) ||
@@ -915,7 +884,6 @@ Handle dialogue trees, made using Yarn Spinner. Useful to make complex dialogues
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `DialogueTree::BranchTag(number)` | Get a tag of the current branch of the running dialogue via its index ||
 | | _number_ | Tag Index Number |
 | `DialogueTree::BranchTags()` | Get the tags of the current branch of the running dialogue ||
@@ -949,7 +917,6 @@ Allow your game to send scores and interact with the Facebook Instant Games plat
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `FacebookInstantGames::PlayerId()` | Get the player unique identifier ||
 | `FacebookInstantGames::PlayerName()` | Get the player name ||
 
@@ -962,7 +929,6 @@ Access the filesystem of the operating system. [Read more explanations about it.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `FileSystem::DesktopPath()` | Get the path to the desktop folder. ||
 | `FileSystem::DirectoryName(string)` | Returns the portion of the path that represents the directories, without the ending file name. ||
 | | _string_ | File or folder path |
@@ -988,7 +954,6 @@ Use Google Firebase services (database, functions, storage...) in your game. [Re
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Firebase::GetAccountCreationTime()` | Gets the accounts creation time. ||
 | `Firebase::GetAuthToken(string)` | Get the user authentififcation token. The token is the proof of authentication. ||
 | | _string_ | Setting Name |
@@ -1015,7 +980,6 @@ Allow your game to send scores to your leaderboards. [Read more explanations abo
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Leaderboards::FormatPlayerName(string)` | Formats a name so that it can be submitted to a leaderboard. ||
 | | _string_ | Raw player name |
 | `Leaderboards::LastSaveError(leaderboardId)` | Get the error of the last save attempt. ||
@@ -1048,7 +1012,6 @@ Allow game instances to communicate remotely using messages sent via WebRTC (P2P
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `P2P::GetEventData(string)` | Returns the data received when the specified event was last triggered ||
 | | _string_ | Event name |
 | `P2P::GetEventSender(string)` | Returns the id of the peer that triggered the event ||
@@ -1068,7 +1031,6 @@ Simulate realistic object physics with gravity, forces, joints, etc. [Read more 
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.Physics2::AngularDamping()` | Get the angular damping of an object. ||
 | `Object.Physics2::AngularVelocity()` | Get the angular velocity of an object. ||
 | `Object.Physics2::Density()` | Get the density of an object. ||
@@ -1219,7 +1181,6 @@ Allow your game to authenticate players. [Read more explanations about it.](http
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `PlayerAuthentication::Username()` | Get the username of the authenticated player. ||
 
 ---
@@ -1232,7 +1193,6 @@ A text field the player can type text into.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.BorderOpacity()` | Return the border opacity, between 0 (fully transparent) and 255 (opaque). ||
 | `Object.BorderWidth()` | Return the border width. ||
 | `Object.FillOpacity()` | Return the fill opacity, between 0 (fully transparent) and 255 (opaque). ||
@@ -1253,7 +1213,6 @@ Invisible object handling collisions with parts of a tilemap. [Read more explana
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.ScaleX()` | Return the width's scale of an object. ||
 | `Object.ScaleY()` | Return the height's scale of an object. ||
 
@@ -1263,7 +1222,6 @@ Displays a tiled-based map, made with the Tiled editor (https://www.mapeditor.or
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.AnimationFps()` | Get the animation speed (in frames per second) ||
 | `Object.AnimationSpeedScale()` | Get the Animation speed scale ||
 | `Object.LayerIndex()` | Get the layer index being displayed ||
@@ -1280,7 +1238,6 @@ Animate object properties over time. This allows smooth transitions, animations 
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Tween::Ease(string, number, number, number)` | Tween between 2 values according to an easing function. ||
 | | _string_ | Easing |
 | | _number_ | From value |
@@ -1293,7 +1250,6 @@ Smoothly animate position, angle, scale and other properties of objects. [Read m
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.Tween::Progress(identifier)` | Progress of a tween (between 0.0 and 1.0) ||
 | | _identifier_ | Tween Identifier |
 
@@ -1307,7 +1263,6 @@ Displays a video. [Read more explanations about it.](https://wiki.gdevelop.io/gd
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.CurrentTime()` | Return the current time of a video object (in seconds). ||
 | `Object.Duration()` | Return the duration of a video object (in seconds). ||
 | `Object.Opacity()` | Return the opacity of a video object ||

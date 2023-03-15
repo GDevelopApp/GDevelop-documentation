@@ -107,7 +107,6 @@ Compare the width of a Sprite object.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.Animation()` | Animation of the object ||
 | `Object.AnimationFrameCount()` | Number of frames in the current animation of the object ||
 | `Object.AnimationName()` | Name of the animation of the object ||

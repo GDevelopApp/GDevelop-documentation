@@ -6,7 +6,6 @@ Provides expressions to manipulate strings (also called texts).
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `FromCodePoint(number)` | Get character from code point ||
 | | _number_ | Code point |
 | `NewLine()` | Insert a new line ||

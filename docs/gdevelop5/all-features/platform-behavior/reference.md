@@ -168,7 +168,6 @@ A control was applied from a default control or simulated by an action.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.PlatformerObject::Acceleration()` | Return the horizontal acceleration of the object (in pixels per second per second). ||
 | `Object.PlatformerObject::CurrentFallSpeed()` | Return the current fall speed of the object (in pixels per second). Its value is always positive. ||
 | `Object.PlatformerObject::CurrentJumpSpeed()` | Current jump speed ||

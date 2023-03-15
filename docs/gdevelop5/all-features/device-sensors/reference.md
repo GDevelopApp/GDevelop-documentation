@@ -55,7 +55,6 @@ Compare the value of rotation gamma. (Note: few devices support this sensor)
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `DeviceSensors::AccelerationX()` | Get the devices acceleration on the X-axis (m/s²) ||
 | `DeviceSensors::AccelerationY()` | Get the devices acceleration on the Y-axis (m/s²) ||
 | `DeviceSensors::AccelerationZ()` | Get the devices acceleration on the Z-axis (m/s²) ||

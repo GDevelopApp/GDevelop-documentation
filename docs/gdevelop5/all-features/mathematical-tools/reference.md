@@ -6,7 +6,6 @@ A set of mathematical functions that can be used in expressions.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `AngleBetweenPositions(number, number, number, number)` | Compute the angle between two positions (in degrees). ||
 | | _number_ | First point X position |
 | | _number_ | First point Y position |
