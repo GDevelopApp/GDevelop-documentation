@@ -11,7 +11,7 @@ jobs:
 
       - add_ssh_keys:
           fingerprints:
-            - 'SHA256:ABdlerHpZTmu47+e6pYMSbDVVZu4PWWqF42+JbZWUrI'
+            - 'cb:c2:ba:0e:db:5e:13:66:09:12:9a:04:af:3b:61:d2'
 
       # Install dependencies
       - run:
@@ -25,7 +25,7 @@ jobs:
       # Generate the reference docs
       - run:
           name: Get GDevelop sources (master branch)
-          command: git clone https://github.com/4ian/GDevelop.git --depth 1
+          command: git clone -b refactor/new-wiki-markdown https://github.com/4ian/GDevelop.git --depth 1
 
       - run:
           name: Launch docs generation
@@ -43,6 +43,7 @@ jobs:
           command: |
             cp reference-docs-template/index.html GDevelop/docs
             cp reference-docs-template/CNAME GDevelop/docs
+
       # - run:
       #     name: Deploy docs to gh-pages branch
       #     command: cd GDevelop && gh-pages --dist docs --repo 'https://github.com/GDevelopApp/GDevelop-documentation.git' --message "Update documentation [ci skip]"
@@ -50,17 +51,19 @@ jobs:
       - run:
           name: Copy documentation reference to the wiki documentation.
           command: |
-            rsync -r GDevelop/docs-wiki/ docs/
+            rsync -r GDevelop/docs-wiki/ docs/gdevelop5
+            git add docs/gdevelop5
             git commit -m "Automatic update of the reference pages [skip-ci]"
+            git push origin main
 
 workflows:
   version: 2
-  # main-build:
-  #   jobs:
-  #     - docs-build-and-deploy:
-  #         filters:
-  #           branches:
-  #             only: main
+  main-build:
+    jobs:
+      - docs-build-and-deploy:
+          filters:
+            branches:
+              only: main
   nightly:
     jobs:
       - docs-build-and-deploy

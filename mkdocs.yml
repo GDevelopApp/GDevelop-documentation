@@ -57,6 +57,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  # For tables:
+  - tables
 plugins:
     - search
     # Allow to customize navigation with `.pages` files:

@@ -50,5 +50,5 @@ Manual TODO before replacing the old wiki:
 - Remove light page: `rm -rf docs/gdevelop5/tutorials/piksel-sprite-sheets.md` (redirection done already)
 - Remove draft-optimization page: `rm -rf docs/gdevelop5/events/draft-optimization.md` (redirection done already)
 - Fix the table in `docs/gdevelop5/behaviors/physics2.md` once this replaces the old wiki.
-- Fix the generation of tables of extensions/expressions reference (in GDevelop GitHub)
+- ~~Fix the generation of tables of extensions/expressions reference (in GDevelop GitHub)~~
   - Fix the size of SVG images
