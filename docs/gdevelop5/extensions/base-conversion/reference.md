@@ -1,0 +1,21 @@
+---
+title: Base conversion
+---
+# Base conversion
+
+![](https://resources.gdevelop-app.com/assets/Icons/hexadecimal.svg)
+Provides conversion expressions for numbers in different bases.
+
+**Authors and contributors** to this community extension: [Ahnaf30e](https://gd.games/Ahnaf30e).
+
+---
+
+Adds expressions to convert numbers to a different base and back. Can be used to convert hexadecimal / binary representations of numbers to decimal numbers and vice-versa.
+
+---
+
+!!! tip
+
+    Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+*This page is an auto-generated reference page about the **Base conversion** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

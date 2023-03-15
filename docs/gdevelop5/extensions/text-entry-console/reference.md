@@ -1,0 +1,22 @@
+---
+title: Console (commands handler for Text Entry objects)
+---
+# Console (commands handler for Text Entry objects)
+
+![](https://resources.gdevelop-app.com/assets/Icons/console.svg)
+A console behavior that allows parsing simple commands inputed via a Text Entry object.
+
+**Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555).
+
+---
+
+A behavior that makes a Text Entry behave like a console. Whenever Return is pressed, the Text Entry is cleared and the entered text parsed, and the first word is stored as the command name, and the rest as arguments. Each word is one argument, and you can get them with the expression `GetArg`. When a command is triggered, it triggers the condition bound to this command. Example:  
+If you have entered `hello foo bar` and Return, then the condition `Entered command "hello"` will trigger, `Object::Console.GetArg(0)` will return `"foo"`, and `Object::Console.GetArg(1)` will return `"bar"`.
+
+---
+
+!!! tip
+
+    Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+*This page is an auto-generated reference page about the **Console (commands handler for Text Entry objects)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

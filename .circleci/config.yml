@@ -1,0 +1,73 @@
+version: 2
+jobs:
+  docs-build-and-deploy:
+    docker:
+      - image: circleci/node:lts
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+
+      - add_ssh_keys:
+          fingerprints:
+            - 'SHA256:ABdlerHpZTmu47+e6pYMSbDVVZu4PWWqF42+JbZWUrI'
+
+      # Install dependencies
+      - run:
+          name: Prepare apt
+          command: sudo apt update -y
+
+      - run:
+          name: Install Doxygen and rsync
+          command: sudo apt install -y doxygen rsync
+
+      # Generate the reference docs
+      - run:
+          name: Get GDevelop sources (master branch)
+          command: git clone https://github.com/4ian/GDevelop.git --depth 1
+
+      - run:
+          name: Launch docs generation
+          command: cd GDevelop/scripts && ./GenerateAllDocs.sh
+
+      # Publish the reference docs
+      - run:
+          name: Install and configure dependencies
+          command: |
+            npm install --prefix=$HOME/.local -g --silent gh-pages@2.0.1
+            git config --global user.email "ci-builder@gdevelop.io"
+            git config --global user.name "GDevelop documentation CI"
+      - run:
+          name: Copy GitHub pages specific files
+          command: |
+            cp reference-docs-template/index.html GDevelop/docs
+            cp reference-docs-template/CNAME GDevelop/docs
+      # - run:
+      #     name: Deploy docs to gh-pages branch
+      #     command: cd GDevelop && gh-pages --dist docs --repo 'https://github.com/GDevelopApp/GDevelop-documentation.git' --message "Update documentation [ci skip]"
+
+      - run:
+          name: Copy documentation reference to the wiki documentation.
+          command: |
+            rsync -r GDevelop/docs-wiki/ docs/
+            git commit -m "Automatic update of the reference pages [skip-ci]"
+
+workflows:
+  version: 2
+  # main-build:
+  #   jobs:
+  #     - docs-build-and-deploy:
+  #         filters:
+  #           branches:
+  #             only: main
+  nightly:
+    jobs:
+      - docs-build-and-deploy
+    triggers:
+      - schedule:
+          cron: '0 0 * * *'
+          filters:
+            branches:
+              only:
+                - main

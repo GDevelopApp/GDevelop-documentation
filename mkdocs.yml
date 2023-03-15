@@ -1,0 +1,75 @@
+site_name: GDevelop documentation
+repo_url: https://github.com/GDevelopApp/GDevelop-documentation
+edit_uri: edit/main/docs/
+copyright: "GDevelop is a full-featured, no-code, open-source game engine. Except where otherwise noted, content on this wiki is licensed under the following license: CC Attribution-Share Alike 4.0 International"
+theme:
+  logo: assets/logo.svg
+  features:
+    - content.action.edit
+    # Allow section index pages:
+    - navigation.indexes
+    # Make navigation faster using XHR:
+    - navigation.instant
+    - navigation.tracking
+    # Show tabs for the "first level" which are languages,
+    # and we hide them (see the extra css).
+    - navigation.tabs
+    # Display previous/next links in the footer.
+    - navigation.footer
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+extra:
+  homepage: https://gdevelop.io
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: Français
+      link: /fr/
+      lang: fr
+extra:
+  analytics:
+    provider: google
+    property: G-X8HPPE6EPT
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  # For buttons:
+  - attr_list
+  # For admonitions (callouts):
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+plugins:
+    - search
+    # Allow to customize navigation with `.pages` files:
+    - awesome-pages
+    # Redirect old pages:
+    - redirects:
+        redirect_maps:
+            'gdevelop5/extending-gdevelop.md': 'gdevelop5/extensions/extend-gdevelop.md'
+            'gdevelop5/all-features/functions.md': 'gdevelop5/all-features/expressions-reference.md'
+            'gdevelop5/all-features/timers.md': 'gdevelop5/all-features/timers-and-time/index.md'
+            'gdevelop5/objects/how-to-rotate-objects.md': 'gdevelop5/tutorials/how-to-rotate-objects.md'
+            'gdevelop5/objects/admob.md': 'gdevelop5/all-features/admob/index.md'
+            'gdevelop5/objects/light.md': 'gdevelop5/all-features/lighting/reference.md'
+            'gdevelop5/objects/base_object/events.md': 'gdevelop5/objects/index.md'
+            'gdevelop5/objects/base_object/index.md': 'gdevelop5/objects/index.md'
+            'gdevelop5/extensions/list.md': 'gdevelop5/extensions/index.md'

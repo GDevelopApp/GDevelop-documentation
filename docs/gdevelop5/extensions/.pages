@@ -1,0 +1,8 @@
+nav:
+    - index.md
+    - search.md
+    - share.md
+    - extend-gdevelop.md
+    - best-practices.md
+    - tiers.md
+    - ...

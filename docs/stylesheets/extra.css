@@ -1,0 +1,17 @@
+/* Hide the Github link in the header */
+.md-header__source {
+  display: none;
+}
+
+/**
+ * Hide the tabs as we hihacked the "first level" of the navigation to
+ * server for languages instead.
+ */
+nav.md-tabs {
+  display: none;
+}
+
+/** Helper class for buttons */
+.full-width {
+  width: 100%;
+}
