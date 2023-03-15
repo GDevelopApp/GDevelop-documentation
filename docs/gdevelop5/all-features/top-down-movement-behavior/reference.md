@@ -111,7 +111,6 @@ Compare the velocity of the top-down movement of the object on the Y axis.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.TopDownMovement::Acceleration()` | Acceleration of the object ||
 | `Object.TopDownMovement::Angle()` | Angle, in degrees, of the movement ||
 | `Object.TopDownMovement::AngleOffset()` | Rotation offset applied to the object ||

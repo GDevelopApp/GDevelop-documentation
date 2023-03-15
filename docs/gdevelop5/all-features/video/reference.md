@@ -70,7 +70,6 @@ Compare the current volume of a video object.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.CurrentTime()` | Return the current time of a video object (in seconds). ||
 | `Object.Duration()` | Return the duration of a video object (in seconds). ||
 | `Object.Opacity()` | Return the opacity of a video object ||

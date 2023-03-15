@@ -49,7 +49,6 @@ Check the tileset JSON file being used.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.ScaleX()` | Return the width's scale of an object. ||
 | `Object.ScaleY()` | Return the height's scale of an object. ||
 
@@ -125,7 +124,6 @@ Check the tileset JSON file being used.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.AnimationFps()` | Get the animation speed (in frames per second) ||
 | `Object.AnimationSpeedScale()` | Get the Animation speed scale ||
 | `Object.LayerIndex()` | Get the layer index being displayed ||

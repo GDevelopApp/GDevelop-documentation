@@ -28,7 +28,6 @@ Check if the specified function parameter (also called "argument") is set to Tru
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `GetArgumentAsNumber(functionParameterName)` | Get function parameter (also called "argument") value. ||
 | | _functionParameterName_ | Parameter name |
 | `GetArgumentAsString(functionParameterName)` | Get function parameter (also called "argument") text. ||

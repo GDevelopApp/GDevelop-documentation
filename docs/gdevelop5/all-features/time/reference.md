@@ -37,7 +37,6 @@ Test if the specified scene timer is paused.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Time(string)` | Current time ||
 | | _string_ | Hour: hour - Minutes: min - Seconds: sec - Day of month: mday - Months since January: mon - Year since 1900: year - Days since Sunday: wday - Days since Jan 1st: yday - Timestamp (ms): timestamp" |
 | `TimeDelta()` | Time elapsed since the last frame rendered on screen ||

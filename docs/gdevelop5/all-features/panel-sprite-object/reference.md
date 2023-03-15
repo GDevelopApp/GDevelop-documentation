@@ -40,7 +40,6 @@ Check the width of a Panel Sprite.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.Opacity()` | Opacity ||
 
 ---

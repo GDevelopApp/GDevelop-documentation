@@ -94,7 +94,6 @@ Compare the text.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.BorderOpacity()` | Return the border opacity, between 0 (fully transparent) and 255 (opaque). ||
 | `Object.BorderWidth()` | Return the border width. ||
 | `Object.FillOpacity()` | Return the fill opacity, between 0 (fully transparent) and 255 (opaque). ||

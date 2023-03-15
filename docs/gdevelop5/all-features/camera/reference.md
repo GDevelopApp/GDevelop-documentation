@@ -100,7 +100,6 @@ Test if a layer is set as visible.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `CameraAngle(layer, number)` | Return the angle of rotation of a camera (in degrees). ||
 | | _layer_ | Layer (base layer if empty) _Optional_. |
 | | _number_ | Camera number (default : 0) _Optional_. |

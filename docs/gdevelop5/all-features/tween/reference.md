@@ -43,7 +43,6 @@ Check if the scene tween is currently playing.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Tween::Ease(string, number, number, number)` | Tween between 2 values according to an easing function. ||
 | | _string_ | Easing |
 | | _number_ | From value |
@@ -125,7 +124,6 @@ Check if the tween animation is currently playing.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.Tween::Progress(identifier)` | Progress of a tween (between 0.0 and 1.0) ||
 | | _identifier_ | Tween Identifier |
 

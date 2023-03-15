@@ -219,7 +219,6 @@ You should always use this before actions requiring authentications.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Firebase::GetAccountCreationTime()` | Gets the accounts creation time. ||
 | `Firebase::GetAuthToken(string)` | Get the user authentififcation token. The token is the proof of authentication. ||
 | | _string_ | Setting Name |

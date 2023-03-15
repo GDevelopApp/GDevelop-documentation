@@ -108,7 +108,6 @@ Check if the specified child of the scene structure variable exists.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `GlobalVariable(globalvar)` | Number value of a global variable ||
 | | _globalvar_ | Name of the global variable |
 | `GlobalVariableChildCount(globalvar)` | Number of children in a global array or structure variable ||

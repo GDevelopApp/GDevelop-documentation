@@ -17,7 +17,6 @@ Parse a JSON object and store it into a scene variable
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `GlobalVarToJSON(globalvar)` | Convert a global variable to JSON ||
 | | _globalvar_ | The global variable to be stringified |
 | `LargeNumberToString(number)` | Convert the result of the expression to text, without using the scientific notation ||

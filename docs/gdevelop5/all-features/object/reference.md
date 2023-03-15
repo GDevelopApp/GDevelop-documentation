@@ -67,7 +67,6 @@ Test if the cursor is over an object, or if the object is being touched.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `PickedInstancesCount(objectListOrEmptyWithoutPicking)` | Return the number of instances picked by the previous conditions (or actions). ||
 | | _objectListOrEmptyWithoutPicking_ | Object |
 | `SceneInstancesCount(objectListOrEmptyWithoutPicking)` | Return the number of instances of the specified objects living on the scene. ||
@@ -300,7 +299,6 @@ Compare the overall speed of an object
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.Angle()` | Current angle, in degrees, of the object ||
 | `Object.AngleToObject(object)` | Compute the angle between two objects (in degrees). If you need the angle to an arbitrary position, use AngleToPosition. ||
 | | _object_ | Object |

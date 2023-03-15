@@ -37,7 +37,6 @@ Check if the game is currently in fullscreen.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `SceneWindowHeight()` | Height of the scene window (or scene canvas for HTML5 games) ||
 | `SceneWindowWidth()` | Width of the scene window (or scene canvas for HTML5 games) ||
 | `ScreenHeight()` | Height of the screen (or the page for HTML5 games in browser) ||

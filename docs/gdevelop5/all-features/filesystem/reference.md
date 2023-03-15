@@ -46,7 +46,6 @@ Check if the file or directory exists.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `FileSystem::DesktopPath()` | Get the path to the desktop folder. ||
 | `FileSystem::DirectoryName(string)` | Returns the portion of the path that represents the directories, without the ending file name. ||
 | | _string_ | File or folder path |

@@ -100,7 +100,6 @@ Compare the speed of the object on its path.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.Pathfinding::Acceleration()` | Acceleration of the object on the path ||
 | `Object.Pathfinding::AngleOffset()` | Rotation offset applied the object on the path ||
 | `Object.Pathfinding::AngularMaxSpeed()` | Angular maximum speed of the object on the path ||
@@ -149,7 +148,6 @@ Check if the obstacle is impassable
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.PathfindingObstacle::Cost()` | Obstacle cost ||
 
 ---

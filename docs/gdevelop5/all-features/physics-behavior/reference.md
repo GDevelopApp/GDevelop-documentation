@@ -123,7 +123,6 @@ Compare the linear velocity on the Y axis of the object.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Object.Physics::AngularDamping()` | Angular damping ||
 | `Object.Physics::AngularVelocity()` | Angular speed ||
 | `Object.Physics::LinearDamping()` | Linear damping ||

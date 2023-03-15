@@ -43,7 +43,6 @@ Check if a score is currently being saved in leaderboard.
 
 | Expression | Description |  |
 |-----|-----|-----|
-
 | `Leaderboards::FormatPlayerName(string)` | Formats a name so that it can be submitted to a leaderboard. ||
 | | _string_ | Raw player name |
 | `Leaderboards::LastSaveError(leaderboardId)` | Get the error of the last save attempt. ||
