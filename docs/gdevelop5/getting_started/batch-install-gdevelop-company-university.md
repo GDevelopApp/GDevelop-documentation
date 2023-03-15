@@ -10,7 +10,7 @@ Here are a few tips from the community.
 
 !!! note
 
-    If you're a regular, single user of GDevelop, read the[Getting Started page instead](/gdevelop5/getting_started) to begin using GDevelop.
+    If you're a regular, single user of GDevelop, read the [Getting Started page instead](/gdevelop5/getting_started) to begin using GDevelop.
 
 ## On Windows
 

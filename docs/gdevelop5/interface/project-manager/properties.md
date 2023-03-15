@@ -13,7 +13,7 @@ It is in these properties, you can find:
 * **Game description:** The description for your game that will be used if you upload to GDevelop's game hosting platform, [gd.games](https://gd.games/).
 * **Author name:** Enter your name, or the name of your company. This field can be used for applications generated on Windows, macOS or Linux. As well as when publishing to GDevelop's game hosting platform, [gd.games](https://gd.games/).
 * **Device orientation (for iOS and Android):** Choose if the game should run in portrait or landscape mode on mobile devices.
-* **Package name (for iOS and Android):** [read about this here](/gdevelop5/publishing/android_and_ios#make_sure_that_your_game_is_ready_for_packaging).
+* **Package name (for iOS and Android):** [Read about this here](/gdevelop5/publishing/android_and_ios#make_sure_that_your_game_is_ready_for_packaging).
 * **Version number:** Each time you're releasing a new version, you should incrementally increase this version number. This is mandatory to do on some stores, like the Google Play Store or the App Store.
 * **Publisher name:** The name that will be used when packaging and submitting your application to stores.
 * **Game resolution width:** The width of the game area and default window width.
@@ -24,7 +24,7 @@ It is in these properties, you can find:
 * **Scale mode (also called "Sampling"):** when set to linear, textures will be antialiased, meaning that their edges will be smoothed and the image will render well even if resized. Set to "nearest" to keep pixels visible, without any interpolation. This is the setting for games that use pixel art, or games are pixel perfect.
 * **Project file type:** By default, your game is saved in a single file. You can also choose to save it as multiple files: each scene, external layout, and external event sheet will be saved in a different file. This is perfect for working on a large game in a team and sharing your game in a version control system like Github or Mercurial.
 * **AdMob application ID (for iOS and Android):** ID number used to connect your game with your AdMob account. Only required if you're running ads in your game. [Read more about AdMob](/gdevelop5/all-features/admob).
-* **Firebase configuration string:** The mandatory authentication key for use with Firebase events. Only required if you're using Firebase in your project. Learn more about [Firebase](https://wiki.gdevelop.io/gdevelop5/all-features/firebase/quickstart).
+* **Firebase configuration string:** The mandatory authentication key for use with Firebase events. Only required if you're using Firebase in your project. [Read more about Firebase](https://wiki.gdevelop.io/gdevelop5/all-features/firebase/quickstart).
 
 
 ## Branding and Loading screen

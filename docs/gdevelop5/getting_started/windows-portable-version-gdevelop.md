@@ -3,7 +3,7 @@ title: Use a portable version of GDevelop on Windows
 ---
 # Use a portable version of GDevelop on Windows
 
-The installer you can download on gdevelop.io/download for Windows is an executable created with "NSIS".
+The installer you can download on [gdevelop.io/download](https://gdevelop.io/download) for Windows is an executable created with "NSIS".
 
 If you want to have a portable version of GDevelop (that you can paste in any folder and run), just extract the .exe file you downloaded with [7-zip](https://www.7-zip.org/).
 

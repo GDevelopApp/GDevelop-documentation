@@ -88,4 +88,4 @@ You can also change the value of the children variables like any other.
 
 ## Profile the performance of your game.
 
-The *Profiler* is a tool that measures the time spent on different aspects of your game while it is running. It then shows a breakdown of each section, including events. [Read more about using the profiler here!](/gdevelop5/interface/debugger/profile-your-game) 
+The *Profiler* is a tool that measures the time spent on different aspects of your game while it is running. It then shows a breakdown of each section, including events. [Read more about using the profiler.](/gdevelop5/interface/debugger/profile-your-game) 

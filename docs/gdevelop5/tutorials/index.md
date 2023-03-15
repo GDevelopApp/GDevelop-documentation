@@ -51,6 +51,7 @@ The following guides provide explanations for certain parts of GDevelop. They al
   * [How to add realtime leaderboards to your game](/gdevelop5/tutorials/leaderboards)
   * [How to align text](/gdevelop5/tutorials/aligning-text)
   * [How to follow the player (or an object) with the camera?](/gdevelop5/tutorials/follow-player-with-camera)
+  * [How to rotate objects?](/gdevelop5/tutorials/how-to-rotate-objects)
 ----
 
 # GDevelop video tutorials

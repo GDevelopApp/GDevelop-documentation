@@ -1,15 +1,25 @@
 ---
-title: For Each events
+title: For Each event
 ---
-# For Each events
+# For Each event
 
-A "For Each" event is a special [event](/gdevelop5/events) that takes an object as a parameter. Then, during the game, for every instance of the object, the conditions and actions will be repeated.
+A "For Each" event is a special [event](/gdevelop5/events) that takes an object as a parameter. While the game is running, all of the conditions and actions located inside this event will be repeated for every instance of the object.
 
-In many cases, you don't need to use "For Each" events. This is because conditions and actions automatically run on all instances of an object.  However, if you need to make sure that your conditions and actions are run independently on every instance, you should use a "For Each" event.
+!!! tip
+
+    If an object group is used, then the "For Each" event will repeat for every instance of every object in the group. 
 
 ## When to use it
 
-Consider the example below. When the player is in a collision with an object called "KillAllEnemyBonus", we set the "life" variable of all enemies to 0. We also want to create a special kind of explosion at the position of each enemy. We need a "For Each" event to accomplish this. Otherwise, a single explosion would be created at the position of only the first enemy:
+Most of the time, a "For Each" event is not required because conditions and actions automatically run on all instances of an object. Using a "For Each" when it is not required will cause the computer to do extra work and may lower the performance of a game.
+
+There are specific circumstances that do require using a "For Each" event, including:
+
+- [Collisions](https://wiki.gdevelop.io/gdevelop5/all-features/collisions) that need to be handled individually, even if they happen at the same time (such as keeping score or picking up resources)
+- Actions that use an object property or [variable](https://wiki.gdevelop.io/gdevelop5/all-features/variables/object-variables) that is different for each instance
+- When using [linked objects](https://wiki.gdevelop.io/gdevelop5/all-features/linked-objects)
+
+In the example below, the goal is to create an explosion at the position of every enemy.  When the player is in a collision with an object called "KillAllEnemyBonus", a "For Each" event is used to create a new object located at the position of each enemy.  If a "For Each" event is not used, a single explosion would be created at the position of the first enemy only.
 
 ![](/gdevelop5/events/for-each-example.png)
 
@@ -29,6 +39,6 @@ This event will store the value of each child variable (as a string or number) a
 
 ![](/gdevelop5/events/foreverchildevents.png)
 
-- The game preview will shows the correct values
+- The game preview will show the correct values
 
 ![](/gdevelop5/events/foreverchildouput.png)

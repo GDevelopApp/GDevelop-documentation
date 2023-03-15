@@ -64,4 +64,4 @@ You can launch the debugger from the same drop-down menu beside the preview butt
 
 ![](/gdevelop5/interface/preview/pasted/20230313-210917.png)
 
-[See this page](/gdevelop5/interface/debugger) to learn more about the Debugger and the Profiler usage.
+[Read more about the Debugger and the Profiler](/gdevelop5/interface/debugger)  usage.

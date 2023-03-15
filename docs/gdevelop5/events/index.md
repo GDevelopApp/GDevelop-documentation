@@ -17,19 +17,19 @@ In GDevelop, **events** define the logic of a game. You can use events to create
 
 Events are made up of **conditions** and **actions**.
 
-**Conditions** are used to trigger when an action should happen and also select which objects or instances of an object are affected by the **actions** of the event. For instance, a **condition** can check when the player is colliding with another object.  In this case, the **actions** in the event will only take place when the objects are touching each other and they will only affect the objects that are colliding.
+**Conditions** are used to trigger when an action should happen and also select which objects or instances of an object are affected by the actions of the event. For instance, a condition can check when the player is colliding with another object.  In this case, the actions in the event will only take place when the objects are touching each other and they will only affect the objects that are colliding.
  
 !!! note
 
-    If an event does not have any **conditions**, the associated actions will run every frame of the game (usually 60 times per second).
+    If an event does not have any conditions, the associated actions will run every frame of the game (usually 60 times per second).
 
-**Actions** are the things that happen when all **conditions** are true. Some examples of **actions** include deleting an object or incrementing the value of a variable. Without **actions**, events don't do anything.
+**Actions** are the things that happen when all conditions are true. Some examples of actions include deleting an object or incrementing the value of a variable. Without actions, events don't do anything.
 
-**Events** can have multiple **conditions** and multiple actions. For example, an **event** might have a **condition** that checks if the player is jumping and is colliding with an enemy object and an action that deletes the enemy object and increments the player's score.
+Events can have multiple conditions and multiple actions. For example, an event might have a condition that checks if the player is jumping and is colliding with an enemy object and an action that deletes the enemy object and increments the player's score.
 
 !!! note
 
-    You can use events to create custom **conditions**, **actions**, and **[expressions](/gdevelop5/all-features/expressions)**. For more information, refer to **[Functions](/gdevelop5/events/functions)**.
+    You can use events to create custom conditions, actions, and [expressions](/gdevelop5/all-features/expressions). For more information, refer to [Functions](/gdevelop5/events/functions).
 
 ## Event Execution Logic
 ### Execution order
@@ -40,9 +40,9 @@ If an event is causing an unintended side-effect, verify that events listed high
 
 ### Object Picking
 
-When an event or condition which refers to objects is executed, it will have to make a decision about which objects are selected. This process is called [object picking](/gdevelop5/events/object-picking). 
+When a condition refers to objects, the game must decide which objects instances will be affected by any following actions and subevents. This process is called [object picking](/gdevelop5/events/object-picking). 
 
-The essential idea is that an action or condition will, by default, apply to all instances of the object in the scene. Conditions (as well as certain actions) can then be used to "filter" (or "pick") which objects the next actions or condition will apply to.
+By default, actions and conditions will apply to all instances of the object in the scene.  Conditions (and a small number of actions) can then be used to "filter" (or "pick") which objects the following actions or conditions will apply to.
 
 !!! note
 

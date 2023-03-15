@@ -29,7 +29,7 @@ In order to finish the creation of an external events sheet, you must select a s
 
 The external event editor is identical to the [events editor](/gdevelop5/interface/events-editor).
 
-You can use an external events sheet by linking to it with the [Link](/gdevelop5/events/link) event type.
+You can use an external events sheet by linking to it with the [Link event type](/gdevelop5/events/link).
 
 ## Use Cases
 
