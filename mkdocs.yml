@@ -17,6 +17,7 @@ theme:
     # Display previous/next links in the footer.
     - navigation.footer
   name: material
+  custom_dir: overrides
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"

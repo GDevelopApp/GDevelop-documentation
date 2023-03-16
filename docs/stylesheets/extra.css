@@ -11,6 +11,14 @@ nav.md-tabs {
   display: none;
 }
 
+/** Docsearch integration: reset the base font size. */
+.DocSearch-Container {
+  font-size: 16px;
+}
+.DocSearch-Button-Container .DocSearch-Button-Placeholder {
+  font-size: 16px;
+}
+
 /** Helper class for buttons */
 .full-width {
   width: 100%;
