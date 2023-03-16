@@ -21,7 +21,31 @@ nav.md-tabs {
   height: 48px;
 
   /* Mimic the styling used in the app. */
-  background: linear-gradient(45deg, #FFFFFF33, #FFFFFF);
+  background: linear-gradient(45deg, #ffffff33, #ffffff);
   border-radius: 4px;
   padding: 4px;
+}
+
+/**
+ * Fix the performance of the sidebar menu on mobile/tablets:
+ * Use `display: none` to ensure submenus are not rendered at all and so don't take
+ * time to be calculated by the browser when the menu is open.
+ * By default, the submenus are just hidden with a `opacity: 0` which implies the browser has
+ * to render them.
+ *
+ * This is especially important because we have a lot of nested menus, some with 100+ elements,
+ * each have their own submenus (even if they don't have a lot of elements).
+ * All of these DOM elements add up, and create a huge "Recalculate style" bottleneck (visible
+ * in the Chrome profiler with a 6x CPU slowdown, or just on a low-end device) when the menu
+ * is opened or closed.
+ */
+@media screen and (max-width: 76.1875em) {
+  .md-nav__toggle ~ .md-nav {
+    /* We lose the animation but that's better than a menu taking multiple seconds to open. */
+    display: none !important;
+  }
+
+  .md-nav__toggle:checked ~ .md-nav {
+    display: flex !important;
+  }
 }
