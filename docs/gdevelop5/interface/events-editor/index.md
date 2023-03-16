@@ -24,7 +24,8 @@ When you click this button a blank event will appear on the screen below in the 
 ![](/gdevelop5/interface/events-editor/pasted/20230313-175502.png)
 
 You can add any number of event blocks to the Event editor. Each event can have various conditions and actions. 
-Once you add an event, you can use the conditions and actions to create the game's logic. Learn more about conditions and actions on this page: [events](/gdevelop5/events).
+Once you add an event, you can use the conditions and actions to create the game's logic.
+[Read more about conditions and actions](/gdevelop5/events).
 
 ## Add a sub-event
 
@@ -84,13 +85,13 @@ Allows you to add other event blocks like a comment, group, while, repeat for ea
 
 Extracts the selected event and it's sub-events into a function. 
 
-Read [extract events](/gdevelop5/events/functions/extract-events) to learn more.
+Read more about how to [extracts events](/gdevelop5/events/functions/extract-events).
 
 ###Move events into a group
 
 Makes a new group and moves the selected event and it's sub-events into that group.
 
-Read [group](/gdevelop5/events/group) to learn about groups.
+Read more about [groups](/gdevelop5/events/group).
 
 ###Analyse Objects Used in this Event
 

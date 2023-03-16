@@ -42,20 +42,27 @@ TODO:
 - ~~Fix title of http://localhost:8000/gdevelop5/objects/custom-objects-prefab-template/ and http://localhost:8000/gdevelop5/objects/panel_sprite/~~
 
 Manual TODO before replacing the old wiki:
-- Remove functions page: `rm -rf docs/gdevelop5/all-features/functions.md` (redirection done already)
-- Remove timers page: `rm -rf docs/gdevelop5/all-features/timers.md` (redirection done already)
-- Remove admob page: `rm -rf docs/gdevelop5/objects/admob.md` (redirection done already)
-- Remove light page: `rm -rf docs/gdevelop5/objects/light.md` (redirection done already)
-- Remove light page: `rm -rf docs/gdevelop5/objects/how-to-rotate-objects.md` (redirection done already)
-- Remove light page: `rm -rf docs/gdevelop5/tutorials/piksel-sprite-sheets.md` (redirection done already)
-- Remove draft-optimization page: `rm -rf docs/gdevelop5/events/draft-optimization.md` (redirection done already)
+- Remove pages:
+```
+rm -rf ../docs/gdevelop5/all-features/functions.md
+rm -rf ../docs/gdevelop5/all-features/timers.md
+rm -rf ../docs/gdevelop5/objects/admob.md
+rm -rf ../docs/gdevelop5/objects/light.md
+rm -rf ../docs/gdevelop5/objects/how-to-rotate-objects.md
+rm -rf ../docs/gdevelop5/tutorials/piksel-sprite-sheets.md
+rm -rf ../docs/gdevelop5/events/draft-optimization.md
+git co ../docs/gdevelop5/extensions/**/reference.md
+git co ../docs/gdevelop5/extensions/index.md
+git co ../docs/gdevelop5/all-features/**/reference.md
+git co ../docs/gdevelop5/all-features/index.md ../docs/gdevelop5/all-features/expressions-reference.md
+git co ../docs/gdevelop5/index.md
+git co ../docs/index.md
+```
 - Fix the table in `docs/gdevelop5/behaviors/physics2.md` once this replaces the old wiki.
-- ~~Fix the generation of tables of extensions/expressions reference (in GDevelop GitHub)~~
-  ~~- Fix the size of SVG images~~
-
 - Do a last pull from the existing wiki.
 - Set up GitHub pages for this repo.
 - Redirect Cloudflare to the new GH pages.
 - Remove the old GDevelop-documentation repo.
 - Change the branch to master in CircleCI.
+- Update vercel
 - Change Cloudflare to point to vercel.
