@@ -45,7 +45,6 @@ extra:
     - name: Français
       link: /fr/
       lang: fr
-extra:
   analytics:
     provider: google
     property: G-X8HPPE6EPT
