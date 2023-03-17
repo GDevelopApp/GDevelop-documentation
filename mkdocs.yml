@@ -17,6 +17,7 @@ theme:
     # Display previous/next links in the footer.
     - navigation.footer
   name: material
+  favicon: assets/favicon.ico
   custom_dir: overrides
   palette:
     # Palette toggle for light mode
