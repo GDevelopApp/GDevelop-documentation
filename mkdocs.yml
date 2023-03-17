@@ -76,3 +76,5 @@ plugins:
             'gdevelop5/objects/base_object/events.md': 'gdevelop5/objects/index.md'
             'gdevelop5/objects/base_object/index.md': 'gdevelop5/objects/index.md'
             'gdevelop5/extensions/list.md': 'gdevelop5/extensions/index.md'
+watch:
+- 'overrides'
