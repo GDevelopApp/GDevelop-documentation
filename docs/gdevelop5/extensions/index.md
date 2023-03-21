@@ -2,7 +2,7 @@
 
 GDevelop is built in a flexible way. In addition to [core features](/gdevelop5/all-features), new capabilities are provided by extensions. Extensions can contain objects, behaviors, actions, conditions, expressions or events.
 
-[Directly from GDevelop](/gdevelop5/extensions/search), you have access to a collection of community created extensions, [listed below](#extensions-list).
+[Directly from GDevelop](/gdevelop5/extensions/search), you have access to a collection of community created extensions, [listed here](/gdevelop5/extensions/extensions-list).
 You can also [create](/gdevelop5/extensions/create) directly in your project new behaviors, actions, conditions or expressions for your game.
 
 Read more about this:
@@ -293,6 +293,7 @@ does or inspect its content before using it.
 ||Name|Description||
 |---|---|---|---|
 |<img src="" class="extension-icon"></img>|**CrazyGamesAds Extension**|Enable developer to use CrazyGamesAds SDK.|[Read more...](https://docs.crazygames.com/sdk/html5/) ([reference](https://wiki.gdevelop.io/gdevelop5/extensions/crazy-games-ad-api))|
+|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Glyphster Pack/Master/SVG/Graphic Design/7e88b8d233e2643ac7abf20c1c7373e93ab9d8b42236b431709fa910883c818a_Graphic Design_flash_light_on_bolt_lightning.svg" class="extension-icon"></img>|**Gamejolt**|Support the complete Gamejolt API.|[Read more...](https://gamejolt.com/game-api/doc) ([reference](https://wiki.gdevelop.io/gdevelop5/extensions/gamejolt-api))|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/api.svg" class="extension-icon"></img>|**Newgrounds API**|Allows developers to use newgrounds API.
 
 Limitations: only works with browser games.|[Read more...](https://bitbucket.org/newgrounds/newgrounds.io-for-javascript-html5/src/master/) ([reference](https://wiki.gdevelop.io/gdevelop5/extensions/newgrounds-api))|
