@@ -6,5 +6,5 @@
   <h1>This page was not found (404)</h1>
   <p>The link you followed seems broken or the page does not exist.</p>
 
-  <p>If you want to create a new page at this address, <a href="{{ page.edit_url }}">click here</a>.
+  <p>If you want to create a new page at this address, <a href="#" onclick="window.open('https://github.com/GDevelopApp/GDevelop-documentation/new/main/docs/' + location.pathname.substring(0,location.pathname.lastIndexOf('/', location.pathname.length - 2)) +'?filename=' +location.pathname.substring(location.pathname.lastIndexOf('/', location.pathname.length - 2) + 1,location.pathname.length - 1) +'.md')">click here</a>.
 {% endblock %}
