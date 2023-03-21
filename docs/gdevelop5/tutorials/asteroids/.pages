@@ -1,0 +1,9 @@
+nav:
+    - Getting Started: index.md
+    - Ship and Movement Controls: ship_and_movement_controls.md
+    - Firing Mechanic: firing_bullet.md
+    - Setting Scene: setting_scene.md
+    - Splitting Asteroids: splitting_asteroids.md
+    - Screen Wrap: screen_wrap.md
+    - Fail State: fail_state.md
+    - End Result: end_result.md

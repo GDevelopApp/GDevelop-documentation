@@ -1,0 +1,7 @@
+nav:
+    - sprite
+    - tiled_sprite.md
+    - panel_sprite.md
+    - text.md
+    - ...
+    - custom-objects-prefab-template.md

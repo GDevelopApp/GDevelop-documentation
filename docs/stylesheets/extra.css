@@ -1,0 +1,86 @@
+/* Hide the Github link in the header */
+.md-header__source {
+  display: none;
+}
+
+/**
+ * Hide the tabs as we hijacked the "first level" of the navigation to
+ * server for languages instead.
+ */
+nav.md-tabs {
+  display: none;
+}
+
+/** Docsearch integration: reset the base font size. */
+.DocSearch-Container {
+  font-size: 16px;
+}
+.DocSearch-Button-Container .DocSearch-Button-Placeholder {
+  font-size: 16px;
+}
+
+/** Helper class for buttons */
+.full-width {
+  width: 100%;
+}
+
+/** Hide search button */
+.md-header__button[for="__search"] {
+  display: none;
+}
+
+.extension-icon {
+  width: 48px;
+  height: 48px;
+
+  /* Mimic the styling used in the app. */
+  background: linear-gradient(45deg, #ffffff33, #ffffff);
+  border-radius: 4px;
+  padding: 4px;
+}
+
+/**
+ * Fix the performance of the sidebar menu on mobile/tablets:
+ * Use `display: none` to ensure submenus are not rendered at all and so don't take
+ * time to be calculated by the browser when the menu is open.
+ * By default, the submenus are just hidden with a `opacity: 0` which implies the browser has
+ * to render them.
+ *
+ * This is especially important because we have a lot of nested menus, some with 100+ elements,
+ * each have their own submenus (even if they don't have a lot of elements).
+ * All of these DOM elements add up, and create a huge "Recalculate style" bottleneck (visible
+ * in the Chrome profiler with a 6x CPU slowdown, or just on a low-end device) when the menu
+ * is opened or closed.
+ */
+@media screen and (max-width: 76.1875em) {
+  .md-nav__toggle ~ .md-nav {
+    /* We lose the animation but that's better than a menu taking multiple seconds to open. */
+    display: none !important;
+  }
+
+  .md-nav__toggle:checked ~ .md-nav {
+    display: flex !important;
+  }
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:        #4F28CD;
+  --md-primary-fg-color--light: #7046EC;
+  --md-primary-fg-color--dark:  #37238F;
+  --md-accent-fg-color:         #37238F;
+}
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        #7046EC;
+  --md-primary-fg-color--light: #9979F1;
+  --md-primary-fg-color--dark:  #4F28CD;
+  --md-accent-fg-color:         #9979F1;
+  --md-typeset-a-color:         #9979F1;
+}
+
+/* Allow to change images center */
+.align-center {
+  text-align: center;
+}
+.align-right {
+  text-align: right;
+}

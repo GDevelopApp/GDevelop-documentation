@@ -1,0 +1,11 @@
+nav:
+    - index.md
+    - search.md
+    - tiers.md
+    - extend-gdevelop.md
+    - Create your own extensions:
+        - create.md
+        - best-practices.md
+        - share.md
+    - Extensions list:
+        - ...

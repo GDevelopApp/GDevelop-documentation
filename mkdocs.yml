@@ -1,0 +1,241 @@
+site_name: GDevelop documentation
+repo_url: https://github.com/GDevelopApp/GDevelop-documentation
+edit_uri: edit/main/docs/
+copyright: "GDevelop is a full-featured, no-code, open-source game engine. Except where otherwise noted, content on this wiki is licensed under the following license: CC Attribution-Share Alike 4.0 International"
+theme:
+  logo: assets/logo.svg
+  features:
+    - content.action.edit
+    # Allow section index pages:
+    - navigation.indexes
+    # Make navigation faster using XHR:
+    - navigation.instant
+    - navigation.tracking
+    # Show tabs for the "first level" which are languages,
+    # and we hide them (see the extra css).
+    - navigation.tabs
+    # Display previous/next links in the footer.
+    - navigation.footer
+    - toc.follow
+    - navigation.top
+  name: material
+  favicon: assets/favicon.ico
+  custom_dir: overrides
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+extra:
+  homepage: https://gdevelop.io
+  analytics:
+    provider: google
+    property: G-X8HPPE6EPT
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascript/autoScrollNavigation.js
+markdown_extensions:
+  # For buttons:
+  - attr_list
+  # For admonitions (callouts):
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  # For tables:
+  - tables
+watch:
+- 'overrides'
+plugins:
+    - search
+    # Allow to customize navigation with `.pages` files:
+    - awesome-pages
+    # Redirect old pages:
+    - redirects:
+        redirect_maps:
+            'gdevelop5/extending-gdevelop.md': 'gdevelop5/extensions/extend-gdevelop.md'
+            'gdevelop5/all-features/functions.md': 'gdevelop5/all-features/expressions-reference.md'
+            'gdevelop5/all-features/timers.md': 'gdevelop5/all-features/timers-and-time/index.md'
+            'gdevelop5/objects/how-to-rotate-objects.md': 'gdevelop5/tutorials/how-to-rotate-objects.md'
+            'gdevelop5/objects/admob.md': 'gdevelop5/all-features/admob/index.md'
+            'gdevelop5/objects/light.md': 'gdevelop5/all-features/lighting/reference.md'
+            'gdevelop5/objects/base_object/events.md': 'gdevelop5/objects/index.md'
+            'gdevelop5/objects/base_object/index.md': 'gdevelop5/objects/index.md'
+            'gdevelop5/extensions/list.md': 'gdevelop5/extensions/index.md'
+            'gdevelop5/extensions/advanced-jump/reference.md': 'gdevelop5/extensions/advanced-jump/index.md'
+            'gdevelop5/extensions/advanced-p2pevent-handling/reference.md': 'gdevelop5/extensions/advanced-p2pevent-handling/index.md'
+            'gdevelop5/extensions/align-object/reference.md': 'gdevelop5/extensions/align-object/index.md'
+            'gdevelop5/extensions/animated-back-and-forth-movement/reference.md': 'gdevelop5/extensions/animated-back-and-forth-movement/index.md'
+            'gdevelop5/extensions/animation-system/reference.md': 'gdevelop5/extensions/animation-system/index.md'
+            'gdevelop5/extensions/array-tools/reference.md': 'gdevelop5/extensions/array-tools/index.md'
+            'gdevelop5/extensions/authorized-platforms-validation/reference.md': 'gdevelop5/extensions/authorized-platforms-validation/index.md'
+            'gdevelop5/extensions/auto-typing/reference.md': 'gdevelop5/extensions/auto-typing/index.md'
+            'gdevelop5/extensions/back-button/reference.md': 'gdevelop5/extensions/back-button/index.md'
+            'gdevelop5/extensions/base-conversion/reference.md': 'gdevelop5/extensions/base-conversion/index.md'
+            'gdevelop5/extensions/behavior-remapper/reference.md': 'gdevelop5/extensions/behavior-remapper/index.md'
+            'gdevelop5/extensions/boids-movement/reference.md': 'gdevelop5/extensions/boids-movement/index.md'
+            'gdevelop5/extensions/boomerang/reference.md': 'gdevelop5/extensions/boomerang/index.md'
+            'gdevelop5/extensions/bounce/reference.md': 'gdevelop5/extensions/bounce/index.md'
+            'gdevelop5/extensions/camera-impulse/reference.md': 'gdevelop5/extensions/camera-impulse/index.md'
+            'gdevelop5/extensions/camera-shake/reference.md': 'gdevelop5/extensions/camera-shake/index.md'
+            'gdevelop5/extensions/camera-zoom/reference.md': 'gdevelop5/extensions/camera-zoom/index.md'
+            'gdevelop5/extensions/cancellable-draggable/reference.md': 'gdevelop5/extensions/cancellable-draggable/index.md'
+            'gdevelop5/extensions/chat-bubble/reference.md': 'gdevelop5/extensions/chat-bubble/index.md'
+            'gdevelop5/extensions/checkbox/reference.md': 'gdevelop5/extensions/checkbox/index.md'
+            'gdevelop5/extensions/checkpoints/reference.md': 'gdevelop5/extensions/checkpoints/index.md'
+            'gdevelop5/extensions/choose/reference.md': 'gdevelop5/extensions/choose/index.md'
+            'gdevelop5/extensions/clipboard/reference.md': 'gdevelop5/extensions/clipboard/index.md'
+            'gdevelop5/extensions/clock/reference.md': 'gdevelop5/extensions/clock/index.md'
+            'gdevelop5/extensions/color-conversion/reference.md': 'gdevelop5/extensions/color-conversion/index.md'
+            'gdevelop5/extensions/compressor/reference.md': 'gdevelop5/extensions/compressor/index.md'
+            'gdevelop5/extensions/copy-camera-settings/reference.md': 'gdevelop5/extensions/copy-camera-settings/index.md'
+            'gdevelop5/extensions/crazy-games-ad-api/reference.md': 'gdevelop5/extensions/crazy-games-ad-api/index.md'
+            'gdevelop5/extensions/create-multiple-copies-of-object/reference.md': 'gdevelop5/extensions/create-multiple-copies-of-object/index.md'
+            'gdevelop5/extensions/crypto-api/reference.md': 'gdevelop5/extensions/crypto-api/index.md'
+            'gdevelop5/extensions/current-game-version/reference.md': 'gdevelop5/extensions/current-game-version/index.md'
+            'gdevelop5/extensions/cursor-movement/reference.md': 'gdevelop5/extensions/cursor-movement/index.md'
+            'gdevelop5/extensions/cursor-type/reference.md': 'gdevelop5/extensions/cursor-type/index.md'
+            'gdevelop5/extensions/curved-movement/reference.md': 'gdevelop5/extensions/curved-movement/index.md'
+            'gdevelop5/extensions/depth-effect/reference.md': 'gdevelop5/extensions/depth-effect/index.md'
+            'gdevelop5/extensions/dialog-box/reference.md': 'gdevelop5/extensions/dialog-box/index.md'
+            'gdevelop5/extensions/discord-rich-presence/reference.md': 'gdevelop5/extensions/discord-rich-presence/index.md'
+            'gdevelop5/extensions/double-click/reference.md': 'gdevelop5/extensions/double-click/index.md'
+            'gdevelop5/extensions/drag-camera-with-pointer/reference.md': 'gdevelop5/extensions/drag-camera-with-pointer/index.md'
+            'gdevelop5/extensions/draggable-physics/reference.md': 'gdevelop5/extensions/draggable-physics/index.md'
+            'gdevelop5/extensions/draggable-slider-control/reference.md': 'gdevelop5/extensions/draggable-slider-control/index.md'
+            'gdevelop5/extensions/draw-pathfinding/reference.md': 'gdevelop5/extensions/draw-pathfinding/index.md'
+            'gdevelop5/extensions/draw-shock-wave-effect/reference.md': 'gdevelop5/extensions/draw-shock-wave-effect/index.md'
+            'gdevelop5/extensions/dungeon-generator/reference.md': 'gdevelop5/extensions/dungeon-generator/index.md'
+            'gdevelop5/extensions/dynamic-water/reference.md': 'gdevelop5/extensions/dynamic-water/index.md'
+            'gdevelop5/extensions/edge-scroll-camera/reference.md': 'gdevelop5/extensions/edge-scroll-camera/index.md'
+            'gdevelop5/extensions/ellipse-movement/reference.md': 'gdevelop5/extensions/ellipse-movement/index.md'
+            'gdevelop5/extensions/emojis/reference.md': 'gdevelop5/extensions/emojis/index.md'
+            'gdevelop5/extensions/explosion-force/reference.md': 'gdevelop5/extensions/explosion-force/index.md'
+            'gdevelop5/extensions/extended-math/reference.md': 'gdevelop5/extensions/extended-math/index.md'
+            'gdevelop5/extensions/extended-variables/reference.md': 'gdevelop5/extensions/extended-variables/index.md'
+            'gdevelop5/extensions/extra-inventory/reference.md': 'gdevelop5/extensions/extra-inventory/index.md'
+            'gdevelop5/extensions/face-forward/reference.md': 'gdevelop5/extensions/face-forward/index.md'
+            'gdevelop5/extensions/fire-bullet/reference.md': 'gdevelop5/extensions/fire-bullet/index.md'
+            'gdevelop5/extensions/flash/reference.md': 'gdevelop5/extensions/flash/index.md'
+            'gdevelop5/extensions/flash-layer/reference.md': 'gdevelop5/extensions/flash-layer/index.md'
+            'gdevelop5/extensions/flash-transition-painter/reference.md': 'gdevelop5/extensions/flash-transition-painter/index.md'
+            'gdevelop5/extensions/flex-box/reference.md': 'gdevelop5/extensions/flex-box/index.md'
+            'gdevelop5/extensions/flip-gravity/reference.md': 'gdevelop5/extensions/flip-gravity/index.md'
+            'gdevelop5/extensions/follow-objects-with-camera/reference.md': 'gdevelop5/extensions/follow-objects-with-camera/index.md'
+            'gdevelop5/extensions/fps/reference.md': 'gdevelop5/extensions/fps/index.md'
+            'gdevelop5/extensions/gamepads/reference.md': 'gdevelop5/extensions/gamepads/index.md'
+            'gdevelop5/extensions/geolocation/reference.md': 'gdevelop5/extensions/geolocation/index.md'
+            'gdevelop5/extensions/get-properties-data/reference.md': 'gdevelop5/extensions/get-properties-data/index.md'
+            'gdevelop5/extensions/has-landed/reference.md': 'gdevelop5/extensions/has-landed/index.md'
+            'gdevelop5/extensions/hash/reference.md': 'gdevelop5/extensions/hash/index.md'
+            'gdevelop5/extensions/health/reference.md': 'gdevelop5/extensions/health/index.md'
+            'gdevelop5/extensions/hexagonal-grid/reference.md': 'gdevelop5/extensions/hexagonal-grid/index.md'
+            'gdevelop5/extensions/homing-projectile/reference.md': 'gdevelop5/extensions/homing-projectile/index.md'
+            'gdevelop5/extensions/idle-tracker/reference.md': 'gdevelop5/extensions/idle-tracker/index.md'
+            'gdevelop5/extensions/iframe/reference.md': 'gdevelop5/extensions/iframe/index.md'
+            'gdevelop5/extensions/in-app-purchase/reference.md': 'gdevelop5/extensions/in-app-purchase/index.md'
+            'gdevelop5/extensions/input-validation/reference.md': 'gdevelop5/extensions/input-validation/index.md'
+            'gdevelop5/extensions/internet-connectivity/reference.md': 'gdevelop5/extensions/internet-connectivity/index.md'
+            'gdevelop5/extensions/is-on-screen/reference.md': 'gdevelop5/extensions/is-on-screen/index.md'
+            'gdevelop5/extensions/jsonresource-loader/reference.md': 'gdevelop5/extensions/jsonresource-loader/index.md'
+            'gdevelop5/extensions/konami-code/reference.md': 'gdevelop5/extensions/konami-code/index.md'
+            'gdevelop5/extensions/language/reference.md': 'gdevelop5/extensions/language/index.md'
+            'gdevelop5/extensions/linear-movement/reference.md': 'gdevelop5/extensions/linear-movement/index.md'
+            'gdevelop5/extensions/link-tools/reference.md': 'gdevelop5/extensions/link-tools/index.md'
+            'gdevelop5/extensions/load-image-from-url/reference.md': 'gdevelop5/extensions/load-image-from-url/index.md'
+            'gdevelop5/extensions/magnetic-effect/reference.md': 'gdevelop5/extensions/magnetic-effect/index.md'
+            'gdevelop5/extensions/make-it-rain/reference.md': 'gdevelop5/extensions/make-it-rain/index.md'
+            'gdevelop5/extensions/marching-squares/reference.md': 'gdevelop5/extensions/marching-squares/index.md'
+            'gdevelop5/extensions/mouse-helper/reference.md': 'gdevelop5/extensions/mouse-helper/index.md'
+            'gdevelop5/extensions/mouse-pointer-lock/reference.md': 'gdevelop5/extensions/mouse-pointer-lock/index.md'
+            'gdevelop5/extensions/mqtt/reference.md': 'gdevelop5/extensions/mqtt/index.md'
+            'gdevelop5/extensions/multitouch-joystick/reference.md': 'gdevelop5/extensions/multitouch-joystick/index.md'
+            'gdevelop5/extensions/nav-mesh-pathfinding/reference.md': 'gdevelop5/extensions/nav-mesh-pathfinding/index.md'
+            'gdevelop5/extensions/newgrounds-api/reference.md': 'gdevelop5/extensions/newgrounds-api/index.md'
+            'gdevelop5/extensions/noise/reference.md': 'gdevelop5/extensions/noise/index.md'
+            'gdevelop5/extensions/object-picking-tools/reference.md': 'gdevelop5/extensions/object-picking-tools/index.md'
+            'gdevelop5/extensions/object-slicer/reference.md': 'gdevelop5/extensions/object-slicer/index.md'
+            'gdevelop5/extensions/object-spawner/reference.md': 'gdevelop5/extensions/object-spawner/index.md'
+            'gdevelop5/extensions/object-stack/reference.md': 'gdevelop5/extensions/object-stack/index.md'
+            'gdevelop5/extensions/orbiting-objects/reference.md': 'gdevelop5/extensions/orbiting-objects/index.md'
+            'gdevelop5/extensions/panel-sprite-button/reference.md': 'gdevelop5/extensions/panel-sprite-button/index.md'
+            'gdevelop5/extensions/panel-sprite-continuous-bar/reference.md': 'gdevelop5/extensions/panel-sprite-continuous-bar/index.md'
+            'gdevelop5/extensions/panel-sprite-slider/reference.md': 'gdevelop5/extensions/panel-sprite-slider/index.md'
+            'gdevelop5/extensions/parallax/reference.md': 'gdevelop5/extensions/parallax/index.md'
+            'gdevelop5/extensions/pause-focus-lost/reference.md': 'gdevelop5/extensions/pause-focus-lost/index.md'
+            'gdevelop5/extensions/pinch-gesture/reference.md': 'gdevelop5/extensions/pinch-gesture/index.md'
+            'gdevelop5/extensions/pixel-perfect-movement/reference.md': 'gdevelop5/extensions/pixel-perfect-movement/index.md'
+            'gdevelop5/extensions/platform-ledge-grabber/reference.md': 'gdevelop5/extensions/platform-ledge-grabber/index.md'
+            'gdevelop5/extensions/platformer-character-animator/reference.md': 'gdevelop5/extensions/platformer-character-animator/index.md'
+            'gdevelop5/extensions/platformer-trajectory/reference.md': 'gdevelop5/extensions/platformer-trajectory/index.md'
+            'gdevelop5/extensions/point-and-orbit/reference.md': 'gdevelop5/extensions/point-and-orbit/index.md'
+            'gdevelop5/extensions/pop-up/reference.md': 'gdevelop5/extensions/pop-up/index.md'
+            'gdevelop5/extensions/pushable-and-pullable-box/reference.md': 'gdevelop5/extensions/pushable-and-pullable-box/index.md'
+            'gdevelop5/extensions/pushable-box/reference.md': 'gdevelop5/extensions/pushable-box/index.md'
+            'gdevelop5/extensions/random-color/reference.md': 'gdevelop5/extensions/random-color/index.md'
+            'gdevelop5/extensions/read-pixels/reference.md': 'gdevelop5/extensions/read-pixels/index.md'
+            'gdevelop5/extensions/recolorizer/reference.md': 'gdevelop5/extensions/recolorizer/index.md'
+            'gdevelop5/extensions/record/reference.md': 'gdevelop5/extensions/record/index.md'
+            'gdevelop5/extensions/record-movements/reference.md': 'gdevelop5/extensions/record-movements/index.md'
+            'gdevelop5/extensions/rectangle-movement/reference.md': 'gdevelop5/extensions/rectangle-movement/index.md'
+            'gdevelop5/extensions/rectangular-flood-fill/reference.md': 'gdevelop5/extensions/rectangular-flood-fill/index.md'
+            'gdevelop5/extensions/rectangular-movement/reference.md': 'gdevelop5/extensions/rectangular-movement/index.md'
+            'gdevelop5/extensions/references/reference.md': 'gdevelop5/extensions/references/index.md'
+            'gdevelop5/extensions/reflection/reference.md': 'gdevelop5/extensions/reflection/index.md'
+            'gdevelop5/extensions/reg-ex/reference.md': 'gdevelop5/extensions/reg-ex/index.md'
+            'gdevelop5/extensions/render-to-sprite/reference.md': 'gdevelop5/extensions/render-to-sprite/index.md'
+            'gdevelop5/extensions/repeat-every-xseconds/reference.md': 'gdevelop5/extensions/repeat-every-xseconds/index.md'
+            'gdevelop5/extensions/room-based-camera-movement/reference.md': 'gdevelop5/extensions/room-based-camera-movement/index.md'
+            'gdevelop5/extensions/rotate13/reference.md': 'gdevelop5/extensions/rotate13/index.md'
+            'gdevelop5/extensions/rtsunit-selection/reference.md': 'gdevelop5/extensions/rtsunit-selection/index.md'
+            'gdevelop5/extensions/screen-wrap/reference.md': 'gdevelop5/extensions/screen-wrap/index.md'
+            'gdevelop5/extensions/shadow-clones/reference.md': 'gdevelop5/extensions/shadow-clones/index.md'
+            'gdevelop5/extensions/shake-object/reference.md': 'gdevelop5/extensions/shake-object/index.md'
+            'gdevelop5/extensions/sine-movement/reference.md': 'gdevelop5/extensions/sine-movement/index.md'
+            'gdevelop5/extensions/smooth-camera/reference.md': 'gdevelop5/extensions/smooth-camera/index.md'
+            'gdevelop5/extensions/snap-to-grid/reference.md': 'gdevelop5/extensions/snap-to-grid/index.md'
+            'gdevelop5/extensions/sound-volume-based-on-distance/reference.md': 'gdevelop5/extensions/sound-volume-based-on-distance/index.md'
+            'gdevelop5/extensions/speed-restrictions/reference.md': 'gdevelop5/extensions/speed-restrictions/index.md'
+            'gdevelop5/extensions/sprite-based-lighting/reference.md': 'gdevelop5/extensions/sprite-based-lighting/index.md'
+            'gdevelop5/extensions/sprite-masking/reference.md': 'gdevelop5/extensions/sprite-masking/index.md'
+            'gdevelop5/extensions/sprite-multitouch-joystick/reference.md': 'gdevelop5/extensions/sprite-multitouch-joystick/index.md'
+            'gdevelop5/extensions/sprite-sheet/reference.md': 'gdevelop5/extensions/sprite-sheet/index.md'
+            'gdevelop5/extensions/sprite-toggle-switch/reference.md': 'gdevelop5/extensions/sprite-toggle-switch/index.md'
+            'gdevelop5/extensions/star-rating/reference.md': 'gdevelop5/extensions/star-rating/index.md'
+            'gdevelop5/extensions/stay-on-screen/reference.md': 'gdevelop5/extensions/stay-on-screen/index.md'
+            'gdevelop5/extensions/sticker/reference.md': 'gdevelop5/extensions/sticker/index.md'
+            'gdevelop5/extensions/sway/reference.md': 'gdevelop5/extensions/sway/index.md'
+            'gdevelop5/extensions/swipe-gesture/reference.md': 'gdevelop5/extensions/swipe-gesture/index.md'
+            'gdevelop5/extensions/text-entry-console/reference.md': 'gdevelop5/extensions/text-entry-console/index.md'
+            'gdevelop5/extensions/text-entry-virtual-keyboard/reference.md': 'gdevelop5/extensions/text-entry-virtual-keyboard/index.md'
+            'gdevelop5/extensions/text-to-speech/reference.md': 'gdevelop5/extensions/text-to-speech/index.md'
+            'gdevelop5/extensions/three-dflip/reference.md': 'gdevelop5/extensions/three-dflip/index.md'
+            'gdevelop5/extensions/tiled-units-bar/reference.md': 'gdevelop5/extensions/tiled-units-bar/index.md'
+            'gdevelop5/extensions/time-detector/reference.md': 'gdevelop5/extensions/time-detector/index.md'
+            'gdevelop5/extensions/time-formatter/reference.md': 'gdevelop5/extensions/time-formatter/index.md'
+            'gdevelop5/extensions/timed-back-and-forth-movement/reference.md': 'gdevelop5/extensions/timed-back-and-forth-movement/index.md'
+            'gdevelop5/extensions/toggle-switch/reference.md': 'gdevelop5/extensions/toggle-switch/index.md'
+            'gdevelop5/extensions/top-down-corner-sliding/reference.md': 'gdevelop5/extensions/top-down-corner-sliding/index.md'
+            'gdevelop5/extensions/trampoline-platform/reference.md': 'gdevelop5/extensions/trampoline-platform/index.md'
+            'gdevelop5/extensions/travel-to-random-positions/reference.md': 'gdevelop5/extensions/travel-to-random-positions/index.md'
+            'gdevelop5/extensions/turret/reference.md': 'gdevelop5/extensions/turret/index.md'
+            'gdevelop5/extensions/tween-zorder/reference.md': 'gdevelop5/extensions/tween-zorder/index.md'
+            'gdevelop5/extensions/unicode-conversion/reference.md': 'gdevelop5/extensions/unicode-conversion/index.md'
+            'gdevelop5/extensions/update-checker/reference.md': 'gdevelop5/extensions/update-checker/index.md'
+            'gdevelop5/extensions/upload-download-text-file/reference.md': 'gdevelop5/extensions/upload-download-text-file/index.md'
+            'gdevelop5/extensions/urltools/reference.md': 'gdevelop5/extensions/urltools/index.md'
+            'gdevelop5/extensions/uuid/reference.md': 'gdevelop5/extensions/uuid/index.md'
+            'gdevelop5/extensions/values-of-multiple-objects/reference.md': 'gdevelop5/extensions/values-of-multiple-objects/index.md'
+            'gdevelop5/extensions/voice-recognition/reference.md': 'gdevelop5/extensions/voice-recognition/index.md'
+            'gdevelop5/extensions/web-socket-client/reference.md': 'gdevelop5/extensions/web-socket-client/index.md'
+            'gdevelop5/extensions/ygame-sdk/reference.md': 'gdevelop5/extensions/ygame-sdk/index.md'
+            'gdevelop5/extensions/ysort/reference.md': 'gdevelop5/extensions/ysort/index.md'

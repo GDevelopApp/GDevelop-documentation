@@ -1,0 +1,11 @@
+nav:
+    - Mobile (Android and iOS): android_and_ios
+    - Desktop (Windows, macOS, Linux): windows-macos-linux.md
+    - Web (gd.games): web.md
+    - Manual exports:
+      - HTML5: html5_game_in_a_local_folder.md
+      - Mobile (with Cordova): android_and_ios_with_cordova.md
+      - Desktop (with Electron): windows-macos-linux-with-electron.md
+    - Stores and more:
+        - Instant Games (Facebook): publishing-to-facebook-instant-games.md
+        - ...

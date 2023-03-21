@@ -1,0 +1,14 @@
+nav:
+    - "Install and setup": 1-install-and-setup.md
+    - "Creating the first scene": 2-creating-first-scene.md
+    - "Introducing main character": 3-introducing-main-character.md
+    - "Desktop and mobile controls": 4-desktop-and-mobile-controls.md
+    - "Adding and moving shapes": 5-adding-and-moving-shapes.md
+    - "Collision detection": 6-collision-detection.md
+    - "Sounds fun": 7-sounds-fun.md
+    - "Tracking the score": 8-tracking-score.md
+    - "Adding bombs": 9-adding-bombs.md
+    - "More lives": 10-more-lives.md
+    - "Game over": 11-game-over.md
+    - "Main menu": 12-main-menu.md
+    - "Juice it!": 13-juice-it.md

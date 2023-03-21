@@ -1,0 +1,14 @@
+{% extends "base.html" %} {% block extrahead %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3" />
+<script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3"></script>
+{% endblock %} {% block scripts %}
+{{ super() }}
+<script>
+  docsearch({
+    appId: 'RC2XAJAUNE',
+    apiKey: '99faf69cae196db15d6916f2ed0116b9',
+    indexName: 'gdevelop',
+    container: '#docsearch',
+  });
+</script>
+{% endblock %}

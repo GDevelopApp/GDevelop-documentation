@@ -1,0 +1,10 @@
+nav:
+    - project-manager
+    - scene-editor
+    - events-editor
+    - preview.md
+    - debugger
+    - profile.md
+    - games-dashboard
+    - command-pallete-and-shortcuts.md
+    - ...
