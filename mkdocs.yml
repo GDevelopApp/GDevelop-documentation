@@ -36,7 +36,7 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 extra:
-  homepage: https://gdevelop.io
+  homepage: https://wiki.gdevelop.io
   analytics:
     provider: google
     property: G-X8HPPE6EPT
