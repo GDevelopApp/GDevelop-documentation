@@ -1,4 +1,4 @@
-# GDevelop-documentation
+# GDevelop Documentation repository
 
 ![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png)
 
