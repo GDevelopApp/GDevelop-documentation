@@ -1,57 +1,53 @@
 ---
-title: Storage action explained
+title: Storage actions
 ---
-# Storage action explained
+# Storage actions
 
-When you want to save and load anything in your game you need to use the storage events. Here I explain what each option is for when you want to read and write values in order to help you get started. After reading this I recommend to check out the Save-Load example included with GDevelop.
+Everytime a game loads, variables are created with their initial values. This means that variables cannot be used to store data between game sessions.
+Instead, storage actions can be used to save data and then load it when the game starts.
+
+To see this in action, review the *Save-Load* example included with GDevelop.
 
 !!! note
 
     Storage actions will store all the data into **internal storage**. If you want to write or read from files, read [the page about File system](/gdevelop5/all-features/filesystem) (only for Windows, macOS, Linux).
 
-### Write value
+## Write value
 
-**Storage:** "storagename"
+### **Storage:** "storagename"
 
-    Name of the storage you want to write a value in to. For example, you may want to store player information in a storage called "player" and game settings in a storage called "settings" or you can just use a single storage to save everything and call it "save" it is up to you how would you like to organize this. If the storage with the name does not exist, GDevelop will create the storage. \<note important\>In case of HTML5, GDevelop is not using the local file system, instead, it uses the web storage to store data
+Name of the storage you want to write a value in to. For example, you may want to store player information in a storage called "player" and game settings in a storage called "settings" or you can just use a single storage to save everything and call it "save" it is up to you how would you like to organize this. If the storage with the name does not exist, GDevelop will create the storage. \<note important\>In case of HTML5, GDevelop is not using the local file system, instead, it uses the web storage to store data
 
-**Group:** "Group name"
+### **Group:** "Group name"
 
-can be anything, this is basically a name that you're going to assign to the value, inside the storage. By using groups, you can store multiple values in the same storage. For example, the position of the player can be stored within a group and the life of the player can be stored within another group inside the same storage, so:
+Group name can be used to organize the data that is being saved. This makes it easier to understand when there is a lot of data being stored in the same storage. For example, the position of the player can be stored within a group name and the life of the player can be stored within another group name inside the same storage:
 
-Group: "PlayerPositionX" to store the X position of the player
+- Group: "PlayerPositionX" to store the X position of the player
+- Group: "PlayerLife" to store the life of the player
 
-Group: "PlayerLife" to store the life of the player
+### **Expression:** the value you want to write into the storage
 
-When you load the value from the storage, you can use the group name to specify, what value you want to read from the storage - in the above case, it can be the X Position of the player or the life or some other value stored in the storage.
-
-**Expression:** the value you want to write into the storage
-
-can be anything, a number such as 12345 or text such as "this is text" or even a variable.
-
+Expression is used to specify the value of the data.  For instance, the number 12345, a string "this is text", or even the value of a variable.
 To get the value stored in a variable we need to use *variable expressions* in the field:
 
-**Object variable:**
+#### **Object variable:**
 
-object_name.Variable(variable_name)
+- object_name.Variable(variable_name)
+- object_name.VariableString(variable_name)
 
-object_name.VariableString(variable_name)
+#### **Scene variable:**
 
-**Scene variable:**
+- Variable(variable_name)
+- VariableString(variable_name)
 
-Variable(variable_name)
+#### **Global variable:**
 
-VariableString(variable_name)
+- GlobalVariable(variable_name)
+- GlobalVariableString(variable_name)
 
-**Global variable:**
+Be aware that **"Write Value" can be used only to write numbers** and **"Write Text" can be used only to write text** into the storage. Be sure that the variable type matches the type used in the storage action. 
 
-GlobalVariable(variable_name)
-
-GlobalVariableString(variable_name)
-
-An important thing you need to keep in mind is that **"Write Value" can be used only to write number** and **"Write Text" can be used only to write text** into the storage, and you need to keep this in mind even when you're using the expressions. The ones with a "String" in the expressions are for calling text variables and the ones without it are for calling number variables.
-
-### Read value
+## Read value
 
 To Read a value from a storage, you need to do basically the same thing:
 
@@ -63,7 +59,7 @@ To Read a value from a storage, you need to do basically the same thing:
 
 And again, **"Read Value" is to read number only** and **"Read Text" is to read text only**. You also need to remember this when you select the scene variable, to read the value into. The variable has to be a number variable to store a number and text variable to store a text.
 
-#### Examples
+## Examples
 
 !!! note
     
