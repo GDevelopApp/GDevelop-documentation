@@ -108,6 +108,6 @@ For instance, a terrain can be forced into an island. To do so, 2 constraints ca
 
 One scalar field can be used for the lower bound and another the upper bounds. They will define a range of value for every point of the surface and the noise will be stretched in between. They can be built with hills like in the following illustration to give the general shape of the island.
 
-![](islandspositioning.png) ![](islandwithnoisea.png)
+| ![](islandspositioning.png) | ![](islandwithnoisea.png) |
 |---|---|
 | Island shape | Island with noise |
