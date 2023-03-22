@@ -84,3 +84,25 @@ nav.md-tabs {
 .align-right {
   text-align: right;
 }
+
+/* Modifiers for dark mode */
+/* Change link colors in content of the page */
+body[data-md-color-scheme="slate"] article a {
+  color: #C9B6FC;
+}
+body[data-md-color-scheme="slate"] article a:hover {
+  color: #DDD1FF;
+}
+
+/* Change color of the highlighted part of the navigation and the table of content */
+body[data-md-color-scheme="slate"] div[data-md-component="sidebar"] a.md-nav__link--active,
+body[data-md-color-scheme="slate"] div[data-md-component="sidebar"] div.md-nav__link--active > a,
+body[data-md-color-scheme="slate"] div[data-md-component="sidebar"] div.md-nav__link--active > label {
+  color: #C9B6FC;
+}
+/* Change color of the hovered items of the navigation and the table of content */
+body[data-md-color-scheme="slate"] div[data-md-component="sidebar"] a:hover,
+body[data-md-color-scheme="slate"] div[data-md-component="sidebar"] div.md-nav__link--index:hover,
+body[data-md-color-scheme="slate"] div[data-md-component="sidebar"] label:hover {
+  color: #DDD1FF;
+}
