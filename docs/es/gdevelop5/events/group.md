@@ -20,8 +20,9 @@ Además, en el editor de eventos, puede hacer clic en la flecha pequeña ubicada
 ## Ejemplos
 
 !!! note
-    
-        **Véalo en acción!** 🎮  
+
+        **Véalo en acción!** 🎮
+
     Abra estos ejemplos Online.
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://space-shooter){ .md-button .md-button--primary }

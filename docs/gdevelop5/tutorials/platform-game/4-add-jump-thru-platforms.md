@@ -15,7 +15,7 @@ Create a new `Sprite` object, add an animation and choose the image called `brid
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-26_at_22.40.34.png)
 
-You can rename the object so that it's called `SmallBridge`: 
+You can rename the object so that it's called `SmallBridge`:
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-26_at_22.42.01.png)
 
@@ -35,7 +35,7 @@ Also, as usual, don't forget to save your game!
 
 ## Next step: add backgrounds objects
 
-The level is still quite empty. Let's add some background objects to make it more pretty.  
+The level is still quite empty. Let's add some background objects to make it more pretty.
 We'll then add coins to collect and enemies!
 
-➡️ Read **[4 add backgrounds objects](/gdevelop5/tutorials/platform-game/4-add-backgrounds-objects)**! 
+➡️ Read **[4 add backgrounds objects](/gdevelop5/tutorials/platform-game/4-add-backgrounds-objects)**!

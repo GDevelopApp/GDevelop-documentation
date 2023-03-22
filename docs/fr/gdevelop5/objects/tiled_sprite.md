@@ -1,15 +1,15 @@
 ---
 title: tiled_sprite
 ---
-FIXME **This page is not fully translated, yet. Please help completing the translation.**  
+FIXME **This page is not fully translated, yet. Please help completing the translation.**
 *(remove this paragraph once the translation is finished)*
 
 # Les objets Tiled Sprite
 
 !!! note
-    
-        **Voir en action !** 🎮  
-    [Je préférerais examiner des exemples d'objet Tiled Sprite ! S'il vous plaît, faites-les moi voir maintenant.](#Examples) 
+
+        **Voir en action !** 🎮
+    [Je préférerais examiner des exemples d'objet Tiled Sprite ! S'il vous plaît, faites-les moi voir maintenant.](#Examples)
 
 Un objet **tiled sprite** (que l'on pourrait traduire par_mosaïque de spirites_ ou *mosaïque de tuiles*) permet d'afficher une image sous la forme d'une mosaïque de sprites. Vous pouvez augmenter et diminuer la taille de la mosaïque en redimensionnant l'objet dans la scène.
 
@@ -68,8 +68,8 @@ L'éditeur de scène (Events) peut également être utilisé pour modifier la ta
 ## Exemples
 
 !!! note
-    
-        **Voir en action !** 🎮  
+
+        **Voir en action !** 🎮
     Ouvrir cet exemple en ligne.
 
 [![](/gdevelop5/behaviors/platformerbehavior.png)](https://editor.gdevelop-app.com/?project=example://platformer)

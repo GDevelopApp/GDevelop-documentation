@@ -1,7 +1,7 @@
 ---
 title: Check for Updates
 ---
-# Check for Updates 
+# Check for Updates
 
 When started, GDevelop automatically search for new updates. You can see the progress by clicking on `About GDevelop` in the [start page](/gdevelop5/interface) or in the menu.
 

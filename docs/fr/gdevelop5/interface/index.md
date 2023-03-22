@@ -28,21 +28,21 @@ Vous pouvez plier et déplier chaque catégorie en cliquant sur la petite flèch
 
    * **Scènes:**  Les scènes sont les différents niveaux de votre jeu mais pas seulement car dans GDevelop tout est une question de scène, le menu principal, écran de démarrage, écran de crédits, tous sont des scènes.
 
-  *** Événements externes:** Pour rendre le développement de notre jeu plus flexible, nous pouvons rendre externes des événements souvent utilisés et les lier à des scènes quand nous en avons besoin. Considérez-les comme des méthodes de programmation, mais si vous n'êtes pas familier avec le terme méthode, rappelez-vous simplement que si vous avez souvent besoin d'utiliser un des événements, vous pouvez le rendre externe et l'appeler quand vous en avez besoin. 
+  *** Événements externes:** Pour rendre le développement de notre jeu plus flexible, nous pouvons rendre externes des événements souvent utilisés et les lier à des scènes quand nous en avons besoin. Considérez-les comme des méthodes de programmation, mais si vous n'êtes pas familier avec le terme méthode, rappelez-vous simplement que si vous avez souvent besoin d'utiliser un des événements, vous pouvez le rendre externe et l'appeler quand vous en avez besoin.
 
   *** Agencements externes:** Comme pour les événements, vous pouvez décider que des agencements utilisés à diverses reprises méritent d'être conçus comme des agencements externes qui pourront être chargés à de multiples endroits de vos scènes.
 
-Dans la version **bureau**, le menu Fichier vous permet de sauvegarder votre jeu, d'en ouvrir un autre ou de le fermer. Vous pouvez aussi [exporter votre jeu](/gdevelop5/publishing). 
-![](/gdevelop5/file-menu.png) 
+Dans la version **bureau**, le menu Fichier vous permet de sauvegarder votre jeu, d'en ouvrir un autre ou de le fermer. Vous pouvez aussi [exporter votre jeu](/gdevelop5/publishing).
+![](/gdevelop5/file-menu.png)
 Dans la version navigateur de GDevelop5, ces options sont en haut du gestionnaire de projet.
 ![](/gdevelop5/web-project-manager-tab.png)
 
-# Éditeur de scènes  
+# Éditeur de scènes
 
 Lorsque vous ouvrez une scène (ou un agencement externe), un éditeur de scène s'ouvre.
 C'est ici que vous pouvez concevoir et construire vos niveaux et menus de jeu en créant et ajoutant des objets à la scène.
- 
-Nous avons une sélection d'outils et d'éditeurs disponibles dans l'éditeur de scènes: 
+
+Nous avons une sélection d'outils et d'éditeurs disponibles dans l'éditeur de scènes:
 ![](/gdevelop5/scene-editor-toolset.png)
 
 [Pour en apprendre plus sur l'utilisation de l'éditeur de scènes](/fr/gdevelop5/interface/scene-editor).
@@ -55,7 +55,7 @@ Si vous avez fermé cette barre, vous pouvez l'ouvrir à nouveau en utilisant le
 
 ## Propriétés de l'objet
 Vous trouverez les propriétés de l'objet à gauche, sous le gestionnaire de projet. Fermez le gestionnaire de projet si vous ne pouvez pas le voir.
-![](/gdevelop5/object-properties-bar.png) 
+![](/gdevelop5/object-properties-bar.png)
 Ici, vous pouvez modifier les propriétés des objets sélectionnés tels que la position, la rotation, l'échelle, l'ordre Z, etc.
 
 Si vous avez fermé cette barre, vous pouvez l'ouvrir en cliquant sur le bouton en haut.
@@ -64,12 +64,12 @@ Si vous avez fermé cette barre, vous pouvez l'ouvrir en cliquant sur le bouton 
 Dans ce cas, la barre peut s'ouvrir sur le côté droit, vous pouvez déplacer et mettre à l'échelle via les bords n'importe quel élément de l'écran en faisant glisser et en déplaçant.
 
 ## Éditeur des Groupes d'objets
-Dans l'éditeur des Groupes d'objets nous pouvons trouver la liste des groupes que nous avons dans notre scène et nous pouvons en créer de nouveaux. 
+Dans l'éditeur des Groupes d'objets nous pouvons trouver la liste des groupes que nous avons dans notre scène et nous pouvons en créer de nouveaux.
 ![](/gdevelop5/objects-groups-editor.png)
 Pour ouvrir l'éditeur, il faut cliquer sur le bouton en haut.
 ![](/gdevelop5/objects-groups-editor-button.png)
 
-Les groupes d'objets nous permettent de rassembler des objets dans des groupes, puis d'y faire appel à l'intérieur de nos événements. Cela sert à faire appel à un groupe plutôt qu' à des objets individuels. 
+Les groupes d'objets nous permettent de rassembler des objets dans des groupes, puis d'y faire appel à l'intérieur de nos événements. Cela sert à faire appel à un groupe plutôt qu' à des objets individuels.
 
 ## Éditeur d'instances
 L'éditeur d'instances affiche une liste de toutes les instances présentes dans notre scène et nous pouvons sélectionner n'importe quelle instance de la liste et voir sa position, angle, couche et ordre Z dans notre scène.
@@ -104,9 +104,9 @@ En cliquant sur le bouton Modifier le zoom, on peut changer le niveau de zoom da
 En cliquant sur le bouton Prévisualiser, nous pouvons lancer un aperçu de notre jeu et le tester avant de l'exporter.
 ![](/gdevelop5/preview-button.png)
 
-##  Éditeur d'événements 
+##  Éditeur d'événements
 
-Lors de l'ouverture d'une scène (ou lors de l'ouverture d'événements externes), un éditeur d'événements est également ouvert. C'est ici que vous pouvez utiliser les événements pour créer le gameplay réel et permettre aux joueurs d'interagir avec votre jeu et de le jouer. 
+Lors de l'ouverture d'une scène (ou lors de l'ouverture d'événements externes), un éditeur d'événements est également ouvert. C'est ici que vous pouvez utiliser les événements pour créer le gameplay réel et permettre aux joueurs d'interagir avec votre jeu et de le jouer.
 L'éditeur d'événements est un outil qui vous permet de programmer visuellement votre jeu sans aucune connaissance de programmation ou d'expérience requise afin que n'importe qui avec n'importe quel niveau puisse faire un jeu dans GDevelop.
 
 Pour basculer entre l'éditeur de scène et l'éditeur d'événements, vous pouvez utiliser les onglets en haut de l'écran.
@@ -134,7 +134,7 @@ Après avoir cliqué sur le bouton, un sous-événement vide apparaît en dessou
 Les sous-événements ne sont exécutés que si l'événement parent est exécuté, de cette façon nous pouvons freiner nos événements et déclencher des événements seulement quand/si c'est nécessaire et ne pas les déclencher si ce n'est pas le cas.
 
 ## Ajouter un commentaire
-En cliquant sur le bouton ajouter un commentaire, nous pouvons ajouter des commentaires à nos événements afin que nous puissions nous rappeler quels événements correspondent à quel but. 
+En cliquant sur le bouton ajouter un commentaire, nous pouvons ajouter des commentaires à nos événements afin que nous puissions nous rappeler quels événements correspondent à quel but.
 ![](/gdevelop5/add-comment-button.png)
 Bien sûr, la plupart des événements s'expliquent d'eux-mêmes, mais dans les jeux gigantesques et complexes, il est toujours utile d'ajouter des commentaires pour nous rappeler ce que fait exactement cette partie. Dans un projet à plusieurs mettre des commentaires est utile pour que vos collègues comprennent la logique des évènements plus simplement.
 ![](/gdevelop5/comment-in-editor.png)

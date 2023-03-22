@@ -12,9 +12,9 @@ GDevelop provides several different ways to handle collisions. You can detect co
 
 You can use the "**Separate objects**" action to move objects manually. The "Separate objects" action can also move objects with "forces" or set the object's position.
 
-"**Separate objects.**" This action takes two object names as the argument. 
+"**Separate objects.**" This action takes two object names as the argument.
 
-  * The first object name is the _object moving_ (the player, enemy, etc.). 
+  * The first object name is the _object moving_ (the player, enemy, etc.).
   * The second object name is an _object (or a group of objects) that are solid_. For example, these objects can be the walls.
 
 The action will then iterate over all of the objects given. It will ensure that if an object of the first kind is colliding with an object of the second kind, the object will be moved away. This is done using an algorithm called the _SAT algorithm_.
@@ -25,12 +25,12 @@ This action will be launched in every frame. In an event without conditions, the
 
 ### Detect collisions
 
-Using "Separate objects" is a good way to ensure that your objects can't move into other solid objects. This action checks collisions between objects. For example, if the game object "player" is touching a wall, this action, when used with the condition called "**Collision,**" will trigger damages to the player. 
+Using "Separate objects" is a good way to ensure that your objects can't move into other solid objects. This action checks collisions between objects. For example, if the game object "player" is touching a wall, this action, when used with the condition called "**Collision,**" will trigger damages to the player.
 
-**The sequence is important.** 
+**The sequence is important.**
 
-  - Run the condition called "**Collision.**" 
-  - Add appropriate actions. 
+  - Run the condition called "**Collision.**"
+  - Add appropriate actions.
   - Add the "Separate Objects" action.
 
 After running the "Separate objects" action, objects are moved. _Collisions between objects will no longer be able to be checked._
@@ -38,8 +38,8 @@ After running the "Separate objects" action, objects are moved. _Collisions betw
 You can find usage of these conditions and actions in the examples:
 
 !!! tip
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
     Open this example online: [Bomb the Crate Example](https://editor.gdevelop.io?project=example://bomb-the-crate)
 
 [![](/gdevelop5/all-features/checkccollisionbetweenobjectsnew.png)](https://editor.gdevelop.io?project=example://bomb-the-crate)
@@ -59,13 +59,13 @@ In a platformer game with the "Platformer character" behavior, collisions with p
 ![](/gdevelop5/all-features/playerisonfloorevents.png)
 
 !!! tip
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
     Open this example online: [Platformer Example](https://editor.gdevelop.io?project=example://platformer)
 
 ## Game with physics? Use the Physics behavior
 
-Use [Physics behavior](/gdevelop5/behaviors/physics) in order to achieve realistic physical behavior in your game. Attach "Physics" behavior to your objects. The objects will then behave as though they are alive in the game world. Some examples of real-world behavior include bouncing balls, falling, jumping, etc. 
+Use [Physics behavior](/gdevelop5/behaviors/physics) in order to achieve realistic physical behavior in your game. Attach "Physics" behavior to your objects. The objects will then behave as though they are alive in the game world. Some examples of real-world behavior include bouncing balls, falling, jumping, etc.
 
 Configure game walls or solid objects that should not move with "static" behavior.
 
@@ -73,15 +73,15 @@ Configure game walls or solid objects that should not move with "static" behavio
 
 When you're using the **Physics** behavior, _do not use_ the **Collision** condition that is in the **Features for all objects** category. _The physics engine will manage all collisions by itself._  The Collision condition won't correctly detect when objects are touching.
 
-Instead, use the Collision condition _inside the_ **Physics** _behavior category_, which properly uses the physics engine to simulate the collisions. 
+Instead, use the Collision condition _inside the_ **Physics** _behavior category_, which properly uses the physics engine to simulate the collisions.
 
 ![](/gdevelop5/all-features/usephysicsbehaviornotcollisionconditionnew.png)
 
 Additionally, objects with the **Physics** behavior ignore the object's Collision Masks and instead use the collision information on the **BEHAVIORS** tab of the object itself. This defaults to a box that is the full dimension of the object. In most cases, there will be a need to change these settings from within the **BEHAVIORS** tab.
 ![](/gdevelop5/all-features/physics_hitbox.png)
 !!! tip
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
     Open this example online: [Physics Example](https://editor.gdevelop.io?project=example://physics)
 
 ![](/gdevelop5/behaviors/hingeleverdemo.png)

@@ -16,7 +16,7 @@ Let's add another event to have the camera follow the player. There are multiple
 The new event looks like this:
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-26_at_22.26.20.png)
 
-You can launch a preview to see that the camera is now centered on the player: 
+You can launch a preview to see that the camera is now centered on the player:
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-26_at_22.27.31.png)
 
@@ -29,4 +29,4 @@ It can be useful for platform games where you can't go up/down but just go throu
 
 It's kind of boring to have a single type of platform. Let's add another with a different image and that is not solid so you can jump on it from below!
 
-➡️ Read **[the next part of the tutorial here](/gdevelop5/tutorials/platform-game/4-add-jump-thru-platforms)**! 
+➡️ Read **[the next part of the tutorial here](/gdevelop5/tutorials/platform-game/4-add-jump-thru-platforms)**!

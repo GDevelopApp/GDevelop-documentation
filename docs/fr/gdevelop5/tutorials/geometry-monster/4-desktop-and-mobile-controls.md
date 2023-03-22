@@ -30,10 +30,10 @@ Dans la fenêtre contextuelle, vous voyez que notre monstre figure dans la liste
 ![](/gdevelop5/tutorials/geometry-monster/33.png)
 
 !!! note
-    
+
         Vous n'avez pas l'onglet **OTHER CONDITIONS** ? Pas de panique ! Allez dans les préférences de GDevelop (cliquez sur le menu **File**, ou **GDevelop 5** sur macOS, puis sur **Preferences**). Activez **Use the new action/condition editor** (Utiliser le nouvel éditeur d'action/condition). Vous pouvez ensuite revenir au didacticiel.
-    
-    ![](/gdevelop5/tutorials/geometry-monster/activate_new_editor.png) 
+
+    ![](/gdevelop5/tutorials/geometry-monster/activate_new_editor.png)
 
 Les conditions incluent entre autres les collisions, les opérations sur les variables, la souris et les commandes tactiles. Cliquez sur l'option **Keyboard** (Clavier) pour développer la liste, puis sélectionnez **Key pressed** (Touche pressée).
 

@@ -3,7 +3,7 @@ title: Integrating ads using Google AdMob
 ---
 # Integrating ads using Google AdMob
 
-GDevelop supports integrating ads into your game using **Google AdMob**, on *Android* and *iOS*. 
+GDevelop supports integrating ads into your game using **Google AdMob**, on *Android* and *iOS*.
 
 Follow the [Google official documentation](https://support.google.com/admob/answer/6128738?hl=en&ref_topic=7384409) to learn more about the different types of ads.
 
@@ -11,7 +11,7 @@ Ads can be loaded and displayed in your game at any time. They can be displayed 
 
  * **App open** that opens while your app starts
  * **Banners** at the top or bottom of the screen
- * **Interstitials**.  that cover the entire screen. 
+ * **Interstitials**.  that cover the entire screen.
  * **Rewarded videos** that show a video to the user rewarding them something at the end.
  * **Rewarded interstitials** that are similar to videos, but that the user can skip
 
@@ -45,7 +45,7 @@ You will now see the app id and the ad unit identifier.
 
 !!! warning
 
-    The first identifier is the **app id**. The second is the **ad unit identifier**. You need to know these identifiers to insert them in the game properties and actions parameters to display the ads. Copy them or leave the screen open. 
+    The first identifier is the **app id**. The second is the **ad unit identifier**. You need to know these identifiers to insert them in the game properties and actions parameters to display the ads. Copy them or leave the screen open.
 
 ## Setup Payments in Admob
 
@@ -67,7 +67,7 @@ Ads should now be able to be shown.
 
     After your account has been approved, use the test mode when testing your game by yourself. If you use your app with the ads in production mode, your account will be blocked because AdMob prohibits the consumption of advertisements for your own applications. If you really want to try production mode, **while we heavily advise against it**, you can diminish the risks of getting banned by having the phone you test the game on on a different network, preferably a the phone's 4G, and use a phone that is logged into a different Google account than the one you use to publish your game to the Google Play Store. In general though, you should rather use the test mode or ask a friend to try the game for you from their home.
 
-## Setting up your game 
+## Setting up your game
 
 Once you have created your AdMob account and have the app id and the ad unit identifier, open your game properties. Open the **Project Manager**, then click on Game settings and **Properties**.
 
@@ -91,7 +91,7 @@ Once your game is set up with the *app id*, you can add an event with an action 
 
 Choose the actions adapted to your ad unit:
 
-  * If you created a **banner**, use the action to 1) *Configure the banner* and 2) *Show the banner*. 
+  * If you created a **banner**, use the action to 1) *Configure the banner* and 2) *Show the banner*.
   * For **interstitials** and **rewarded videos**, use the action to first load them (during the gameplay) and then the action to show them whenever you're ready (the player just finished a level for example).
 
 In the action, paste the **ad unit id** in the parameters (one for Android and one for iOS). Because parameters are string expressions, you must put the *ad unit identifier between quotes*.

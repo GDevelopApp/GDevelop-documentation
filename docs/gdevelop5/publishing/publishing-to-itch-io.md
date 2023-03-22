@@ -61,7 +61,7 @@ After clicking the button, you can setup your project, I go through only the mos
 
 You can choose if the file you have just uploaded is an executable, a book, source code or a mod. But the most important option for us "This file will be played in the browser". ![](/gdevelop5/itchio-play-in-browser-option.png) By ticking the box we mark our file to be played in the browser.
 
-    You can also set a platform, the price for each file you upload if you want. \<note tip\>Don't forget to set the engine in the metadata of your game by adding the **GDevelop** tag! It will appear in this page on Itch.io, the [games made with GDevelop.](https://itch.io/games/made-with-gdevelop) 
+    You can also set a platform, the price for each file you upload if you want. \<note tip\>Don't forget to set the engine in the metadata of your game by adding the **GDevelop** tag! It will appear in this page on Itch.io, the [games made with GDevelop.](https://itch.io/games/made-with-gdevelop)
 
 ![](/gdevelop5/publishing/tag.gif)
 

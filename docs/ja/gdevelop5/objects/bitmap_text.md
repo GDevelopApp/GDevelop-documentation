@@ -1,7 +1,7 @@
 ---
 title: bitmap_text
 ---
-FIXME **This page is not fully translated, yet. Please help completing the translation.**  
+FIXME **This page is not fully translated, yet. Please help completing the translation.**
 *(remove this paragraph once the translation is finished)*
 
 # ビットマップテキストオブジェクト
@@ -12,7 +12,7 @@ It's especially useful for scores, titles, button labels, pixel-art games...
 
 !!! note
 
-    As all characters are designed in an external editor, and a texture is generated with these characters, a Bitmap Text is more performant to render but also way less flexible, in particular if you want to display a text entered by a user in any language. If that's the case, take a look at the [Text object](/gdevelop5/objects/text) or at the [BBtext object](/gdevelop5/objects/bbtext). 
+    As all characters are designed in an external editor, and a texture is generated with these characters, a Bitmap Text is more performant to render but also way less flexible, in particular if you want to display a text entered by a user in any language. If that's the case, take a look at the [Text object](/gdevelop5/objects/text) or at the [BBtext object](/gdevelop5/objects/bbtext).
 
 ![20210510-003631.png](/gdevelop5/objects/bitmap_text/pasted/20210510-003631.png)
 

@@ -37,7 +37,7 @@ Ces instructions créent une nouvelle minuterie qui engendre une bombe indépend
 
 !!! note
 
-    N'hésitez pas à modifier cette valeur pour rendre le jeu plus difficile. Nous verrons dans un prochain chapitre comment accélérer les bombes au fil du temps – pour rendre le jeu plus difficile. Vous pouvez également utiliser une variable au lieu d'un nombre, de sorte que vous pouvez changer pendant le jeu le temps écoulé entre la création des bombes ! 
+    N'hésitez pas à modifier cette valeur pour rendre le jeu plus difficile. Nous verrons dans un prochain chapitre comment accélérer les bombes au fil du temps – pour rendre le jeu plus difficile. Vous pouvez également utiliser une variable au lieu d'un nombre, de sorte que vous pouvez changer pendant le jeu le temps écoulé entre la création des bombes !
 
 Maintenant, passons à l'action ! Sélectionnez **Obstacle** dans l'onglet **OBJECTS** puis **Create an object** (Créer un objet) dans la liste à droite, et réglez la position X (**X position**) sur `RandomInRange(80, 640-80)` et la position Y (**Y position**) sur `-100`. C'est exactement la même approche que celle utilisée pour les formes.
 

@@ -15,7 +15,7 @@ This tutorial will explain to you how to add different animations and how to use
 
 At the moment, the player is always displaying the same standing animation but we're going to change that using events.
 
-But first, we need to add the appropriate animations to the Player object. 
+But first, we need to add the appropriate animations to the Player object.
 
 ### Jumping animation
 
@@ -66,7 +66,7 @@ An event is composed of a list of conditions (e.g. to check if a collision is ha
 For now the event is empty:
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-26_at_20.41.32.png)
 
-In this first event, we're going to check if the player is jumping, and change its animation accordingly. 
+In this first event, we're going to check if the player is jumping, and change its animation accordingly.
 First Click on `Add condition`.
 
 In the new window, you can see all the conditions available to make your game. We want to check if the Player object, which has the Platformer character behavior, is jumping. Open the category called `Platform behavior` and then choose `Is jumping`.
@@ -75,7 +75,7 @@ The right part of the window displays the parameters that are needed to configur
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-26_at_20.45.29.png)
 
-The condition is ready! Click on Ok in the bottom right corner to close the window and see the condition added in the event: 
+The condition is ready! Click on Ok in the bottom right corner to close the window and see the condition added in the event:
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-26_at_20.47.17.png)
 
@@ -130,7 +130,7 @@ Select the event we created by clicking on an empty area near `Add condition` or
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-26_at_21.59.36.png)
 
-Then, click twice on the button to add a sub-event: 
+Then, click twice on the button to add a sub-event:
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-26_at_22.05.49.png)
 
@@ -138,7 +138,7 @@ Two "child" events are added under the event which is considered the parent even
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-26_at_22.07.02.png)
 
-You can now add conditions inside these events! For the first, add a condition to check if the player is running: 
+You can now add conditions inside these events! For the first, add a condition to check if the player is running:
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-26_at_22.08.06.png)
 
@@ -150,7 +150,7 @@ Here are our events so far:
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-26_at_22.10.03.png)
 
-We're almost done, let's finish by adding the required actions to each event. Use the first event to set the animation of the character to `"Running"` and the second event to set the animation of the character `to "Idle"`. 
+We're almost done, let's finish by adding the required actions to each event. Use the first event to set the animation of the character to `"Running"` and the second event to set the animation of the character `to "Idle"`.
 
 You can add these actions the same way we did before for the jumping animation. Don't forget the quotes (`" "`) when you enter the animation names.
 
@@ -167,4 +167,4 @@ A small improvement we can do is to set the animation to Jumping when the player
 
 For now, it's hard to build a large level to explore because the player can quickly walk outside of the screen! The next part of the tutorial will show how to make the camera follow the player. It's really simple, a single event will be enough!
 
-➡️ Read **[the next part of the tutorial here](/gdevelop5/tutorials/platform-game/3-have-camera-follow-player)**! 
+➡️ Read **[the next part of the tutorial here](/gdevelop5/tutorials/platform-game/3-have-camera-follow-player)**!

@@ -4,9 +4,9 @@ title: Comportamientos de Plataforma y de Personaje de plataforma
 # Comportamientos de Plataforma y de Personaje de plataforma
 
 !!! note
-    
-        **Véalos en acción!** 🎮  
-    [¡Prefiero ver los ejemplos de comportamiento de plataforma y de personajes de plataforma! Por favor, llévame allí ahora.](#Examples) 
+
+        **Véalos en acción!** 🎮
+    [¡Prefiero ver los ejemplos de comportamiento de plataforma y de personajes de plataforma! Por favor, llévame allí ahora.](#Examples)
 
 ¡Con el simple clic de un botón, puedes configurar el comportamiento de "Plataforma" de tu juego, así como el control de un personaje de plataforma!
 
@@ -71,8 +71,8 @@ Todas las opciones de aquí también se pueden cambiar usando eventos en cualqui
 # Ejemplos
 
 !!! note
-    
-        **Véalo en acción** 🎮  
+
+        **Véalo en acción** 🎮
     Abre los ejemplos Online.
 
 **Comportamiento de plataformas (Platformer Behavior)**
@@ -81,7 +81,7 @@ Todas las opciones de aquí también se pueden cambiar usando eventos en cualqui
 
 [![](/gdevelop5/behaviors/platformerbehavior.png)](https://editor.gdevelop-app.com/?project=example://platformer)
 
-  
+
 **Comportamiento de desplazamiento de paralaje (Parallax Scrolling Behavior)**
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://parallax-scrolling){ .md-button .md-button--primary }

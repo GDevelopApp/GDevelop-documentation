@@ -11,7 +11,7 @@ If you want to directly dive into it, 3 examples are using tile maps:
   * a more advanced platformer ([open the project online](https://editor.gdevelop.io/?project=example://not-a-vania))
   * various tile maps ([open the project online](https://editor.gdevelop.io/?project=example://tilemaps-made-with-tiled-editor))
 
-For now, this object is meant for advanced users as it requires Tilemaps to be authored in an **external editor**:  [LDtk (Level Designer Toolkit)](https://ldtk.io/) or [Tiled](https://www.mapeditor.org/).  
+For now, this object is meant for advanced users as it requires Tilemaps to be authored in an **external editor**:  [LDtk (Level Designer Toolkit)](https://ldtk.io/) or [Tiled](https://www.mapeditor.org/).
 
 !!! note
 
@@ -51,7 +51,7 @@ This object is still experimental and will be improved in the future
   - Click the **Tilesets** button or press **T** on the keyboard. The **Project Tilesets** window will display.
   - Click the plus **+** button to add a new tileset. A file browser will popup.
   - Navigate to the tileset image file.
-  - Select the desired image, then click **Open**. The tileset will be displayed. 
+  - Select the desired image, then click **Open**. The tileset will be displayed.
   - Modify the **Tiles layout** section as needed for the respective tile size (e.g. 16x16, 32x32, etc) and any needed spacing.
 ![](/gdevelop5/objects/tilemap/pasted/20221229-111205.png)
 ### Create the tile layer
@@ -72,7 +72,7 @@ This object is still experimental and will be improved in the future
   - Ensure **Use .ldtk extension** is checked.
   - Leave all other settings as default.
   - Click **Save as**. A file browser will display.
-  - Browse to somewhere to save the map. 
+  - Browse to somewhere to save the map.
   - Name the map file and click **Save**.
     * Note, while the main ldtk project file can be used as a map file in GDevelop, it is safer to save a copy separately so the map can keep revisions, especially if a version control system like Github is being used.
 
@@ -82,11 +82,11 @@ This object is still experimental and will be improved in the future
   - Ensure the **New object from scratch** tab is currently selected.
   - Select the **Tilemap** object from the list.
   - Within the **Object Name** field, name the map object.
-  - Within the **LDtk and Tiled: Tilemap** field, click **Choose a file**. 
+  - Within the **LDtk and Tiled: Tilemap** field, click **Choose a file**.
   - Select **Choose a file** if using the desktop client, or **File(s) on your device** If using the web app and then **Choose file**, A file browser will display.
   - Browse to the .ldtk tilemap file created above.
   - Click open. If using the web app, click **Add selected file**.
-  - All other settings can be left at default. 
+  - All other settings can be left at default.
   - Click **Apply**. The tilemap object is now created, and can be dragged to the scene.
 ![](/gdevelop5/objects/tilemap/pasted/20221229-112838.png)
 
@@ -169,7 +169,7 @@ Objects can be created manually to act as invisible obstacle or platforms. Here 
 
 ![](/gdevelop5/objects/tilemap/pasted/20210104-122010.png)
 
-Create objects with placeholder images (probably just a colored rectangle), then add to them the Platform behavior: 
+Create objects with placeholder images (probably just a colored rectangle), then add to them the Platform behavior:
 ![](/gdevelop5/objects/tilemap/pasted/20210104-115630.png)
 
 Hide the invisible obstacles/platforms at the start of the scene using events:
@@ -179,7 +179,7 @@ You can also put these objects on a separate layer in GDevelop and hide the laye
 
 ## Choose between a bundled or external tileset
 
-Tiled allows to embed the tileset data in the Tilemap JSON file. This is done by default when **Embed in map** is checked when creating a new tileset in Tiled, when editing a map. This is well supported by GDevelop, which will detect that there is a tileset in the Tilemap JSON file and load it. 
+Tiled allows to embed the tileset data in the Tilemap JSON file. This is done by default when **Embed in map** is checked when creating a new tileset in Tiled, when editing a map. This is well supported by GDevelop, which will detect that there is a tileset in the Tilemap JSON file and load it.
 
 If your intention is to have **different maps share a tileset**, it is recommended to instead save the tileset as a separate tileset JSON file. That will give you a small optimization, as the tileset is now being parsed only once by GDevelop. It is also more manageable for big projects.
 
@@ -198,13 +198,13 @@ Internally, GDevelop will work as follow:
 
 ## Animate tiles
 
-If you have **animated tiles**, they will need to be arranged in the right order in a single row on the atlas to work. 
+If you have **animated tiles**, they will need to be arranged in the right order in a single row on the atlas to work.
 
 !!! danger
 
-    Tiled will let you put tile frames from any places of the atlas and repeat some frames - but the GDevelop object will not be able to properly interpret the animation if you do that. 
+    Tiled will let you put tile frames from any places of the atlas and repeat some frames - but the GDevelop object will not be able to properly interpret the animation if you do that.
 
-Tiled also lets you put a different duration for each frame - this extension only supports uniform duration for all frames. You can configure how fast the animation is played, but you can't go granular on a per frame basis. 
+Tiled also lets you put a different duration for each frame - this extension only supports uniform duration for all frames. You can configure how fast the animation is played, but you can't go granular on a per frame basis.
 
 ![](/gdevelop5/objects/tilemap/pasted/20210104-112051.png)
 

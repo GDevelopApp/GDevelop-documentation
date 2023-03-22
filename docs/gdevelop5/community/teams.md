@@ -4,26 +4,26 @@ title: GDevelop teams
 # GDevelop teams
 
 !!! note
-    
-        
-    This is a proposal that is being tried currently. It may change or be retracted in the future if it doesn't meet the expectations.
-    
 
-GDevelop has multiple areas where users can contribute. GDevelop teams allow a contributor to specialize in one or more sectors of GDevelop's development and maintenance. This document explains the rules and concepts associated with a GDevelop team.  
+
+    This is a proposal that is being tried currently. It may change or be retracted in the future if it doesn't meet the expectations.
+
+
+GDevelop has multiple areas where users can contribute. GDevelop teams allow a contributor to specialize in one or more sectors of GDevelop's development and maintenance. This document explains the rules and concepts associated with a GDevelop team.
 
 !!! tip
-    
-        
+
+
     Team membership is not required when contributing to GDevelop, but it is recommended to ultimately join one if you contribute a lot to one field of development.
-    
+
 
 ## Concepts
 
 ### Team
 
-A team is a group of contributors focused on a specific contribution type for GDevelop. People that want to contribute to GDevelop can join a team to get help and guidance for that contribution type, additional permissions to allow them to contribute effectively, peer review, and discuss the future development of that field. 
+A team is a group of contributors focused on a specific contribution type for GDevelop. People that want to contribute to GDevelop can join a team to get help and guidance for that contribution type, additional permissions to allow them to contribute effectively, peer review, and discuss the future development of that field.
 
-Anyone can join and leave a team whenever they want to, unless the team's leader has a good reason not to accept someone in (for example, the moderation team can refuse someone shady from joining since moderation permissions are dangerous). 
+Anyone can join and leave a team whenever they want to, unless the team's leader has a good reason not to accept someone in (for example, the moderation team can refuse someone shady from joining since moderation permissions are dangerous).
 
 A team usually has multiple leaders, but may also have only one. If all team leaders of a team leave the team, the GDevelop company is in charge of the team until a new leader is found.
 
@@ -40,7 +40,7 @@ The main goals of a team are to:
 
 ### Team leaders
 
-A team leader is a very high position in the GDevelop community, and should therefore only be appointed to the well-known and trusted community members. 
+A team leader is a very high position in the GDevelop community, and should therefore only be appointed to the well-known and trusted community members.
 
 A team leader is responsible for administrating access and permissions for the resources the team has access to (for example, an extensions team leader would have administrative access to the [extensions repository](https://github.com/GDevelopApp/GDevelop-extensions)). The team leader is also responsible for organizing the work between the members and posting updates on the work done by the team.
 
@@ -48,9 +48,9 @@ A team leader can only be appointed by the GDevelop company. If a team leader ge
 
 ### Team members
 
-Anyone can ask at any time a team leader to join a team. A team leader can reach out to propose to someone to join as well. The team leader is free to refuse the request if they have a valid reason not to want that person in their team. To join, a team member needs to have an account on the GDevelop discord and forum. 
+Anyone can ask at any time a team leader to join a team. A team leader can reach out to propose to someone to join as well. The team leader is free to refuse the request if they have a valid reason not to want that person in their team. To join, a team member needs to have an account on the GDevelop discord and forum.
 
-Once a team member joins, the GDevelop company is responsible for giving them the team's role on discord and adding them to the team's group on the forum. The team leader that accepted the request to join should contact a member of it for the roles to be assigned. 
+Once a team member joins, the GDevelop company is responsible for giving them the team's role on discord and adding them to the team's group on the forum. The team leader that accepted the request to join should contact a member of it for the roles to be assigned.
 
 As a team member, you have no direct responsibilities, but you are expected to
 
@@ -70,7 +70,7 @@ A team leader may give additional permissions or kick a team member out of the t
 
 #### 🖼️ Description
 
-GDevelop has a lot of downloadable semi-official extensions made with events. This team takes care of creating those extensions, peer reviewing community submissions and maintaining the extensions. 
+GDevelop has a lot of downloadable semi-official extensions made with events. This team takes care of creating those extensions, peer reviewing community submissions and maintaining the extensions.
 
 #### 🙋 Requirements for contributing/joining
 

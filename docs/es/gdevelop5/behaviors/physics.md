@@ -46,8 +46,9 @@ La restitución se utiliza para hacer rebotar objetos. El valor de restitución 
 #Ejemplos
 
 !!! note
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
+
     Open these examples online.
 
 **Física (Physics):**

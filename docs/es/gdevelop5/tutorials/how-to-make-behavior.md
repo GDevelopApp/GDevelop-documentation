@@ -1,7 +1,8 @@
 ---
 title: how-to-make-behavior
 ---
-FIXME **This page is not fully translated, yet. Please help completing the translation.**  
+FIXME **This page is not fully translated, yet. Please help completing the translation.**
+
 *(remove this paragraph once the translation is finished)*
 
 # Cómo crear un comportamiento para un objeto Cuando tu juego comienza a crecer, o incluso al principio al comenzar la creación de tu juego, es una buena idea organizar tanto como sea posible la lógica de tu juego en **[comportamientos personalizados](/gdevelop5/behaviors/events-based-behaviors)**. Esto ayuda a reducir el número de eventos en las hojas de eventos de escena y hace que sea más fácil razonar sobre tu juego.

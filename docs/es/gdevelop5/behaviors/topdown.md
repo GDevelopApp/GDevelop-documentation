@@ -4,9 +4,9 @@ title: Comportamiento de movimiento de arriba hacia abajo (Top Down Movement beh
 ## Comportamiento de movimiento de arriba hacia abajo (Top Down Movement behavior)
 
 !!! note
-    
-        **Vélo en acción!** 🎮  
-    [¡Prefiero ver los ejemplos de comportamiento del movimiento de arriba hacia abajo! Por favor, llévame allí ahora.](#Examples) 
+
+        **Vélo en acción!** 🎮
+    [¡Prefiero ver los ejemplos de comportamiento del movimiento de arriba hacia abajo! Por favor, llévame allí ahora.](#Examples)
 
 ![](/gdevelop5/behaviors/topdownmovementbehavioricon.jpg) El comportamiento "Movimiento de arriba abajo" permite la funcionalidad adicional de mover un objeto en 4 u 8 direcciones.
 
@@ -51,8 +51,8 @@ También podemos cambiar cualquiera de estas opciones utilizando los eventos que
 # Ejemplos
 
 !!! note
-    
-        **SVéalo en acción!** 🎮  
+
+        **SVéalo en acción!** 🎮
     Abre estos ejemplos en línea.
 
 **Space Shooter**
@@ -61,7 +61,7 @@ También podemos cambiar cualquiera de estas opciones utilizando los eventos que
 
 [![](/gdevelop5/behaviors/spaceshooter.png)](https://editor.gdevelop-app.com/?project=example://space-shooter)
 
-  
+
 **Juego Isométrico (Isometric Game)** (crea una ilusión de gráficos 3D dentro de un juego de gráficos 2D)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://isometric-game){ .md-button .md-button--primary }

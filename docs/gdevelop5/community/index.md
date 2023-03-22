@@ -7,7 +7,7 @@ GDevelop is an open-source project. You can get involved in the community to imp
 
 ## How to help
 
-First, thanks for taking part in the GDevelop community! 
+First, thanks for taking part in the GDevelop community!
 We have written various *guides* that allow everyone to improve and submit quality content to the wiki, the assets store, and even help to develop the GDevelop application itself.
 
 ## I would like to help on...

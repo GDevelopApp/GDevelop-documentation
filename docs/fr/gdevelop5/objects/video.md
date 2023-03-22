@@ -14,13 +14,13 @@ Un objet vidéo affiche une vidéo à l'écran. Ce qui est parfait pour l'intég
     Avant de pouvoir lire une vidéo, vous devez vous assurer que le joueur a d'abord interagi avec le jeu (un simple clic / toucher sur l'écran permet d'autoriser la lecture des vidéos).
 
 !!! warning
-    
-        
-    Le fichier doit être de format **.mp4** avec les codecs suivant  :  
 
-      * **H264** pour la vidéo 
+
+    Le fichier doit être de format **.mp4** avec les codecs suivant  :
+
+      * **H264** pour la vidéo
       * **AAC** pour l'audio
-    
+
 
 Les vidéos peuvent être contrôlées à l'aide d'événements : minutage, état (lecture / pause), volume audio ...
 
@@ -40,13 +40,13 @@ Cliquez sur le champ **Video resource** (Ressource vidéo), puis sur **Choose a 
 
 
 !!! warning
-    
-        
-    Le fichier doit être de format **.mp4** avec les codecs suivant  :  
 
-      * **H264** pour la vidéo 
+
+    Le fichier doit être de format **.mp4** avec les codecs suivant  :
+
+      * **H264** pour la vidéo
       * **AAC** pour l'audio
-    
+
 
 Vous pouvez aussi choisir entre :
 

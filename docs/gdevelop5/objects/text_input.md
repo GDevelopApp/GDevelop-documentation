@@ -31,14 +31,14 @@ The field can be:
 
 * A **single line** text input (default)
 * A **multiline** text input (also called a "text area")
-* Or a special single line text input: *password, email, search field, number, phone number, url*. 
+* Or a special single line text input: *password, email, search field, number, phone number, url*.
 
 According to the type, some devices might display visual helps or **a different keyboard** to the user (especially on mobile). Password inputs will also hide the character that the user is writing.
 
 ## Reading the text entered by the player
 
 After adding a Text Input object, put an instance on the scene. You can then use the expression `Text` on the object in the events to read the text. For example, this event copies the content of the field into a [Text object](/gdevelop5/objects/text) (to display it somewhere else on the screen):
-![](/gdevelop5/objects/text_input/pasted/20220310-010309.png) 
+![](/gdevelop5/objects/text_input/pasted/20220310-010309.png)
 
 ## Read-only and disabled fields
 

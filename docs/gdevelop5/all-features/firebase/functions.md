@@ -4,12 +4,12 @@ title: Firebase Functions
 # Firebase Functions
 
 !!! danger
-    
-        
-    This feature is intended for experimented JavaScript developers. 
-    
+
+
+    This feature is intended for experimented JavaScript developers.
+
     [Also note that this feature requires the Blaze plan as of March 15 2021](https://firebase.google.com/support/faq#expandable-13).
-    
+
 
 Firebase is meant to replace a whole backend server by itself. Sometimes though, you need to code some server logic yourself: that's where firebase functions come in.
 

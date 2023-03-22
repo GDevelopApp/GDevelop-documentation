@@ -15,5 +15,6 @@ GDevelop igre temeljijo na objektih, ki so prikazani na sceni. Mogoče jih je an
 * [Shape Painter objects](/gdevelop5/objects/shape_painter)
 * [Video objects](/gdevelop5/objects/video) (experimental)
 
-Obstajajo tudi funkcionalnosti, ki delujejo brez objektov, kot npr. AdMob, ki omogoča prikazovanje oglasov na Android ali iOS napravi. Več o AdMob si lahko preberete [tukaj](/gdevelop5/all-features/admob).  
+Obstajajo tudi funkcionalnosti, ki delujejo brez objektov, kot npr. AdMob, ki omogoča prikazovanje oglasov na Android ali iOS napravi. Več o AdMob si lahko preberete [tukaj](/gdevelop5/all-features/admob).
+
 O ostalih funkcijah [si več preberite tukaj](/gdevelop5/all-features).

@@ -7,7 +7,7 @@ Nous avons terminé notre tutoriel précédent en supprimant le joueur quand il 
 
 Enregistrer la totalité de l'état du jeu et la situation du joueur est peut-être un peu trop avancé pour le moment. Donc, ce que nous allons faire en cas de rencontre avec un objet « point de contrôle », consiste à stocker la position de l’objet dans des variables et au lieu de supprimer le joueur, nous enregistrons sa position dans les variables. Passons à la réalisation… .
 
-####  Créer un objet point de contrôle 
+####  Créer un objet point de contrôle
 
 Commencez par créer un nouvel objet **sprite** dans le jeu et appelez-le `checkpoint`. Son image peut être n'importe quoi. Ici, nous allons utiliser un  cactus pour représenter le ou les points de contrôle.
 
@@ -15,7 +15,7 @@ Commencez par créer un nouvel objet **sprite** dans le jeu et appelez-le `check
 
 Ajoutez maintenant l'objet à votre scène, là où nous aimeriez avoir un point de contrôle. Vous pouvez ajouter l'objet à plusieurs endroits dans la scène.
 
-####  Ajouter des événements 
+####  Ajouter des événements
 
 Maintenant que nos objets point de contrôle sont placés dans la scène, ajoutons les événements qui y sont liés. Commençons avec une condition pour vérifier la collision entre le joueur `player` et le point de contrôle `checkpoint` et, si la collision se produit, stockons la position X et Y du point de contrôle dans deux variables de scène appelées `checkpointX` et `checkpointY`.
 
@@ -35,7 +35,7 @@ Nous avons maintenant stocké les positions X et Y de l’objet `checkpoint` ave
 
 Nous utilisons ici un autre ensemble d'expressions pour obtenir la valeur des variables.
 
-####  Résolution de bogues 
+####  Résolution de bogues
 
 Au cas où vous avez suivi scrupuleusement et que vous avez également choisi le cactus comme point de contrôle, vous remarquerez peut-être que nous venons de créer un bogue. Puisque le personnage du joueur est plus grand que le cactus, nous définissons la position du joueur trop bas et le joueur reste coincé dans le sol lorsque nous définissons sa coordonnée Y :
 
@@ -57,7 +57,7 @@ Peut-être que vous vous demandez maintenant pourquoi je soustrais cette différ
 
 ![](/gdevelop5/tutorials/platform-game/2d-coordinates.png)
 
-Les coordonnées de la scène de jeu de la plupart des moteurs 2D sont définies de la manière suivante : 
+Les coordonnées de la scène de jeu de la plupart des moteurs 2D sont définies de la manière suivante :
 
 L'origine est placée dans le coin supérieur droit de la scène, de cordonnées (0,0). La valeur de l'abscisse (coordonnée horizontale X le long de l'axe du même nom) augment de gauche à droite et celle de l'ordonnée (coordonnée verticale Y le long de l'axe du même nom) augmente de haut en bas, comme vous pouvez le voir sur l'image ci-dessus.
 
@@ -70,7 +70,7 @@ Nous pouvons facilement résoudre ce problème en définissant des valeurs par d
 ![](/gdevelop5/tutorials/platform-game/checkpoint-bug2-fix.png)
 
 Donc, lorsque la scène commence, le  joueur doit normalement être déjà en position de départ ce qui fait que nous obtenons simplement la position du joueur, position que nous stockons comme position du point de contrôle. Si le joueur meurt avant d'entrer en collision avec l'un des points de contrôle, nous le positionnons au début de la scène.
-####  Améliorer le système 
+####  Améliorer le système
 
 En utilisant ce que vous avez appris jusqu'ici, vous pouvez aller de l'avant et ajouter un texte pour afficher un message lorsque le joueur a atteint un point de contrôle et peut-être jouer une animation, faire sauter le cactus ou quelque chose de plus intéressant.
 

@@ -26,7 +26,7 @@ Click on `Empty game` (you might have to scroll down to find this option) in the
 
 `Scene` is the area where we'll work for most of our time while creating the game. A scene is basically a level in your game (or a menu, inventory, etc...). It contains objects that can be put on the screen.
 
-As soon as we click on Empty game we see a panel on the left side of our screen. This is the `Project Manager`. Click on the `Scenes` option in the Project Manager. 
+As soon as we click on Empty game we see a panel on the left side of our screen. This is the `Project Manager`. Click on the `Scenes` option in the Project Manager.
 
 Create a new scene using the `Click to add a scene` option from the drop-down that appears. Our new scene has been created.  Go to your new scene by clicking on `NewScene`.
 
@@ -44,7 +44,7 @@ Choose `Sprite` from the `Add a new object` pop-up. This will be followed by the
 
 The object is called NewObject by default - you can see the name at the top of the dialog. It's a good idea to give a descriptive name to each object so that you can understand what they are when dealing with them in events. In our case, use the field to set the name to _Car_.
 
-Let's add an animation to the object. Animations are containing images that are displayed on screen for Sprite objects. 
+Let's add an animation to the object. Animations are containing images that are displayed on screen for Sprite objects.
 
 To add an animation to the object, click on the **+** symbol beside `Click to add an animation`.
 
@@ -72,7 +72,7 @@ Create a new Sprite object _Tree_ which has 'tree.png' for its animation. This o
 
 ![](/gdevelop5/tutorials/screenshot_from_2019-05-22_00-57-11.png)
 
-Create a new Sprite object _Explosion_ and select all the images from 'Explosion1.png' to 'Explosion8.png'. 
+Create a new Sprite object _Explosion_ and select all the images from 'Explosion1.png' to 'Explosion8.png'.
 
 ![](/gdevelop5/screenshot_from_2019-05-20_14-14-45.png)
 
@@ -81,7 +81,7 @@ Your scene by the end of this step should contain 8 objects.
 ![](/gdevelop5/tutorials/screenshot_from_2019-05-30_21-22-38.png)
 
 ## Adding top-down movement to the car
-Adding a top-down movement behavior to the car will allow us to set its maximum speed as well as the acceleration and deceleration of the car. This will allow the car to slowly gain the speed rather than starting with the maximum speed. For this, we will have to open the `Object Editor`. 
+Adding a top-down movement behavior to the car will allow us to set its maximum speed as well as the acceleration and deceleration of the car. This will allow the car to slowly gain the speed rather than starting with the maximum speed. For this, we will have to open the `Object Editor`.
 
 To do this, you can either double-click on the _Car_ object from the object side panel or click on the three-dot-menu beside the object and click on edit object.
 
@@ -102,7 +102,7 @@ This opens a wide variety of options to alter. You can see the default values fo
 ## Creating a new event
 An event is a pair of conditions and actions. When a given set of conditions is true, the corresponding action or set of actions is performed.
 
-While making this game we will encounter a few events with no conditions and one or more actions assigned to them. In such a case, the action is performed on every frame created. 
+While making this game we will encounter a few events with no conditions and one or more actions assigned to them. In such a case, the action is performed on every frame created.
 
 To add a new event, open the `NEWSCENE (EVENTS)` tab from the top
 
@@ -148,12 +148,12 @@ We see a few problems:
   * The _Highway_ is too far away from the center of the screen.
 
 ### Making the car visible
-To make the car visible, we need to know the reason for it being hidden under the _Highway_. The answer is, `Z Order`. 
+To make the car visible, we need to know the reason for it being hidden under the _Highway_. The answer is, `Z Order`.
 
 !!! note
-    
+
         Z Order of an object is the property which decides whether the object should be displayed on the front or the back. An object with a certain Z Order assigned to it will always be shown in front of the objects with lower Z Order value and behind the objects with higher Z Order value.
-    
+
 
 In our case, we can assign a Z Order of 1 to the _Highway_ and 2 to the _Car_.
 
@@ -362,7 +362,7 @@ To create object _Tree_ we use another timer _TreeTimer_, similar to how we used
 We will set their Y coordinates such that they are created above the screen and for better viewing experience, you can create them at different Y positions so that they are not perfectly aligned.
 
 We will set the X coordinates for both trees on both the sides such that the trees are right beside the _Highway_. The dimensions of the tree are 150×150 pixels.
- 
+
 For the left side of the _Highway_ we will set the X position to -150 pixels and the Y position to -400 pixels.
 
 ![](/gdevelop5/screenshot_from_2019-06-05_17-01-40.png)
@@ -523,7 +523,7 @@ You can choose the color of your choice and click `OK` in the `Scene properties`
 ## Displaying score in the scene
 To display the score, we will make an event such that when any object in the group _Traffic_ passes a predefined position, the value of the score is updated. To do this, we need to use the help of a scene variable.
 
-Let's start with creating an object _Score_. 
+Let's start with creating an object _Score_.
 
 For this, you need to go to the Scene Editor and create a new object and choose `Text` from the `Add a new object` table.
 
@@ -559,7 +559,7 @@ Our action will be to create and change the value of a scene variable. Create a 
 
 ![](/gdevelop5/tutorials/screenshot_from_2019-06-06_19-55-23.png)
 
-Now, we will add an action `Value of a scene variable`. Enter the variable you created in the `Variable` field. 
+Now, we will add an action `Value of a scene variable`. Enter the variable you created in the `Variable` field.
 
 Every time the _Traffic_ passes the Y-position of 700, we will add 100 to the _Score_. Therefore, we set the `Modification's sign` to **+ (add)** and the `Value` to 100.
 

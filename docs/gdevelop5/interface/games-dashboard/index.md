@@ -3,7 +3,7 @@ title: Games Dashboard
 ---
 # Games Dashboard
 
-Creating a game with GDevelop is only one step of making a successful game! After you've [exported and published](/gdevelop5/publishing) a game, it's important to understand **how many players are playing to your game, for how long and if they come back to play to it again**. 
+Creating a game with GDevelop is only one step of making a successful game! After you've [exported and published](/gdevelop5/publishing) a game, it's important to understand **how many players are playing to your game, for how long and if they come back to play to it again**.
 
 GDevelop helps by offering a games dashboard. Register your game in one click and get access to various metrics - **without** intrusive trackers, third party applications or compromising your players privacy.
 
@@ -11,7 +11,7 @@ GDevelop helps by offering a games dashboard. Register your game in one click an
 
     Depending on the terms and conditions under which your game is distributed, you may want to inform and give a way to your players to not send any data. This can be done using an action to enable or disable the metrics.
 
-## Registering a game 
+## Registering a game
 
 The first step to get access to metrics of your game is to register your game online. Be sure to have an [account created](/gdevelop5/interface/profile) (it's free). After exporting your game, GDevelop will ask if you wish to register your game on GDevelop online services:
 
@@ -29,7 +29,7 @@ When you've opened a game dashboard, navigate to the Analytics tab. This shows v
 ![](/gdevelop5/interface/games-dashboard/pasted/20201125-192056.png)
 
 You'll find:
- 
+
   * the number of **sessions** (number of time the game was launched),
   * the number of **players** for the selected day, and the number of new players (that never launched the game before - unless they have uninstalled the game),
   * how many players are playing again for for up to 7 days after the first time they played (this is what is called the "**retention**").

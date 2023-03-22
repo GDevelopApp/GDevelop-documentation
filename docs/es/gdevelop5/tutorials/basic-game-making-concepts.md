@@ -131,7 +131,8 @@ Las acciones y condiciones comprueban o cambian el *valor* de una variable.
 
 El *ámbito* o *alcance* de una variable determina el lugar desde el que se puede acceder una variable. En GDevelop, hay tres ámbitos de variable disponibles:
 
-* **Variables Globales**, que son accesibles desde todas las escenas del juego. Por ejemplo, se pueden usar para almacenar la puntuación del jugador en diferentes niveles/escenas. * **Variables de Escena**, que solo son accesibles desde la escena en la que se crean. Se pueden usar para datos que solo conciernen a una escena. Una variable de escena podría acceder al tiempo restante para completar el nivel/escena.  
+* **Variables Globales**, que son accesibles desde todas las escenas del juego. Por ejemplo, se pueden usar para almacenar la puntuación del jugador en diferentes niveles/escenas. * **Variables de Escena**, que solo son accesibles desde la escena en la que se crean. Se pueden usar para datos que solo conciernen a una escena. Una variable de escena podría acceder al tiempo restante para completar el nivel/escena.
+
 * **Variables de Objeto**, que solo se refieren a un objeto. Por ejemplo, un héroe puede tener una variable "Salud" o "Munición".
 
 ![](/gdevelop5/tutorials/gif_for_wiki_showing_where_the_variables_are.gif)

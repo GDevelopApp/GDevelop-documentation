@@ -3,7 +3,7 @@ title: Preferences
 ---
 # Preferences
 
-You can change how GDevelop looks and acts to your liking. 
+You can change how GDevelop looks and acts to your liking.
 
 ##Opening Preferences
 
@@ -35,13 +35,13 @@ There are multiple themes you can choose from. You can also create your own them
 
 ![](/gdevelop5/properties-dialogue.png)
 
-This allows you to choose what will happen when the backdrop (The faded part outside a window) is clicked. 
+This allows you to choose what will happen when the backdrop (The faded part outside a window) is clicked.
 
 If **No changes** is selected, clicking the backdrop won't close the window
 
 If **Cancel changes** is selected, the changes done in the current window will be **abandoned** (Only happens in some windows)
 
-If **Apply changes**(Default) is selected, the changes done in the current window will be **applied**(Only happens in some windows) 
+If **Apply changes**(Default) is selected, the changes done in the current window will be **applied**(Only happens in some windows)
 
 
 ##Hints and Explanations

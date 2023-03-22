@@ -1,7 +1,8 @@
 ---
 title: basic-game-making-concepts
 ---
-FIXME **This page is not fully translated, yet. Please help completing the translation.**  
+FIXME **This page is not fully translated, yet. Please help completing the translation.**
+
 *(remove this paragraph once the translation is finished)*
 
 # Основные концепции создания игр: что нужно знать, чтобы начать с GDevelop
@@ -116,7 +117,8 @@ Actions and conditions test or change a variable *value*.
 
 The *scope* of a variable determines the place a variable can be accessed. In GDevelop, there are three variable scopes are available:
 
-* **Global** variables are accessible from all the game scenes. For instance, they can be used to store the player's score across different levels/scenes. * **Scene** variables are only accessible from the scene they are created in. They can be used for data that only concerns one scene. A Scene variable would be able to access the time remaining to complete the level/scene.  
+* **Global** variables are accessible from all the game scenes. For instance, they can be used to store the player's score across different levels/scenes. * **Scene** variables are only accessible from the scene they are created in. They can be used for data that only concerns one scene. A Scene variable would be able to access the time remaining to complete the level/scene.
+
 * **Object** variables only concern one object. For example, a hero can have a "Health" or "Ammo" variable.
 
 !!! note

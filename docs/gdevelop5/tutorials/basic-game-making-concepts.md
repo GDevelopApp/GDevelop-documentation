@@ -27,7 +27,7 @@ The X-coordinate _decreases_ as you go to the left and _increases_ as you go to 
 
 ## Angles
 
-In order to move or rotate objects, you will need to specify the desired angle in degrees. The illustration below demonstrates how GDevelop understands the angle of rotation:  
+In order to move or rotate objects, you will need to specify the desired angle in degrees. The illustration below demonstrates how GDevelop understands the angle of rotation:
 
 !!! tip
 
@@ -43,16 +43,16 @@ The video below shows both of these concepts inside GDevelop.  The position of t
 
 ## Events
 
-Events are used to create the logic of your game. They are composed of conditions and actions. Conditions can be thought of as "if" statements and actions can be thought of as "then" statements. "If" the conditions are true/met, "then" the actions will happen. Most conditions and actions refer to objects: 
+Events are used to create the logic of your game. They are composed of conditions and actions. Conditions can be thought of as "if" statements and actions can be thought of as "then" statements. "If" the conditions are true/met, "then" the actions will happen. Most conditions and actions refer to objects:
 
-* Conditions run a **test** on the objects. 
+* Conditions run a **test** on the objects.
 * Actions **affect** the objects that matched the conditions. They can change the object's position, appearance, etc...
 
 An event without any conditions will always perform the actions. In the video below, the ship object will continuously rotate at the speed set in the **Rotate Ship** action.
 
 ![](/gdevelop5/tutorials/gifs_for_wiki_showing_conditionless_event.gif)
 
-If a condition is added to the event, the actions will only be performed when the condition is true.  
+If a condition is added to the event, the actions will only be performed when the condition is true.
 
 
 In this example, a condition for **The cursor/touch is on Ship** is added.  Now the **Rotate Ship** action will only happen "if" the mouse cursor is on the ship object.
@@ -63,19 +63,19 @@ Read more about [Events](https://wiki.gdevelop.io/gdevelop5/events#events).
 
 ## How objects are selected
 
-If an event has no conditions, the actions will apply to all objects listed in the action.  
+If an event has no conditions, the actions will apply to all objects listed in the action.
 For example, this event has no conditions so it will delete all objects called "Ship".
 
 ![](/gdevelop5/tutorials/basic-game-making-concepts/pasted/20220123-200759.png)
 
-Once a condition has been added that mentions an object, all following actions will affect only objects that matched the previous conditions.  
+Once a condition has been added that mentions an object, all following actions will affect only objects that matched the previous conditions.
 
 
 The event below has a condition that checks the horizontal (X) position of the Ship.  The action will delete **only** the "Ship" objects with an X position that is less than (to the left of) the mouse cursor.
 
 !!! tip
-    
-        The list of objects that match conditions is also used by all subevents.  
+
+        The list of objects that match conditions is also used by all subevents.
     Read more about [Object Picking](https://wiki.gdevelop.io/gdevelop5/events/object-picking).
 
 ![](/gdevelop5/tutorials/gifs_for_wiki_deleting_ships_by_mouse_position.gif)
@@ -97,21 +97,21 @@ Events are processed from the top down. so events at the top are executed first.
 ![](/gdevelop5/tutorials/basic-game-making-concepts/pasted/20220123-203822.png)
 
 * In the top example, the first event creates a "Ship" object at coordinates X: 100. Y: 200 (100;200) on the base layer. Then the next event deletes that created ship immediately. This pair of events **will not** display a ship on the screen, because the ship is deleted right after being created.
-* In the bottom example, the first event deletes all the "Ship" objects from the scene/screen. It then creates one "Ship" at the coordinates X: 100, Y: 200 (100;200) on the base layer.  This pair of events **will** display a single ship on the screen. 
+* In the bottom example, the first event deletes all the "Ship" objects from the scene/screen. It then creates one "Ship" at the coordinates X: 100, Y: 200 (100;200) on the base layer.  This pair of events **will** display a single ship on the screen.
 (Behind the scenes, the ship is being deleted and recreated on every frame, which is not something you would want to do in a real game.)
 
 !!! tip
-    
-        Events are processed about 60 times per second.  
+
+        Events are processed about 60 times per second.
     Each iteration through the events is called a **frame**, **tick**, or **game loop**.
-    
+
 
 
 ## Behaviors: Game logic for objects
 
-**Behaviors** enhance an object with some *pre-defined logic*. They can be used to automate simple tasks, but they also have the power to perform much more advanced tasks. For example: 
+**Behaviors** enhance an object with some *pre-defined logic*. They can be used to automate simple tasks, but they also have the power to perform much more advanced tasks. For example:
 
-* A behavior can be used to *automatically* remove an object from the game when it *goes out of the screen* (limiting the game memory usage). 
+* A behavior can be used to *automatically* remove an object from the game when it *goes out of the screen* (limiting the game memory usage).
 * Another behavior can be used to *move objects on the screen with the keyboard arrows*.
 * Yet another behavior can be used to allow the object to be *dragged on screen* with the mouse or by touching the object.
 * The *Physics* behavior is an example of an advanced behavior which make your objects move in a realistic way, following the laws of physics.
@@ -130,7 +130,7 @@ The wiki page associated with behaviors can be found [here](https://wiki.gdevelo
 
 Moving objects can be achieved with **forces**. Forces are used to "push" objects.
 
-You can specify: 
+You can specify:
 
 * The speed of movement on both the X (horizontal) and Y (vertical) axis, in pixels per second
 * The angle to move towards and the speed, in pixels per second
@@ -147,7 +147,7 @@ To move the ship to the right, add a permanent force with a speed of 50 pixels p
 
 !!! note
 
-    This example applies permanent forces over multiple frames, which causes the ship to accelerate and decelerate when changing directions. 
+    This example applies permanent forces over multiple frames, which causes the ship to accelerate and decelerate when changing directions.
 
 ![](/gdevelop5/tutorials/gifs_for_wiki_applying_permanent_forces.gif)
 
@@ -172,19 +172,19 @@ Variables are used to store **data** in the format of a **number** or **text**. 
 ![](/wiki/pres_variable.png)
 
 !!! tip
-    
-        
+
+
     Conditions are used to **check** the value of a variable.
-    
+
     Actions are used to **change** the value of a variable.
-    
+
 
 #### Where are variables stored? (variable "scope")
 
 The _scope_ of a variable determines the place a variable can be accessed. In GDevelop, there are three variable scopes are available:
 
 * **Global** variables are accessible from all the game scenes. For instance, they can be used to store the player's score across different levels/scenes.
-* **Scene** variables are only accessible from the scene they are created in. They can be used for data that only concerns one scene.  A Scene variable would be able to access the time remaining to complete the level/scene.  
+* **Scene** variables are only accessible from the scene they are created in. They can be used for data that only concerns one scene.  A Scene variable would be able to access the time remaining to complete the level/scene.
 * **Object** variables only concern one object. For example, a hero can have a "Health" or "Ammo" variable.
 
 

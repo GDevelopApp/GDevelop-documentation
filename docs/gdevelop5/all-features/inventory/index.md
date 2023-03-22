@@ -28,15 +28,15 @@ For example, you can use the condition "Item equipped" to check to see if a "Mag
 
 If an item reaches the count of 0 (i.e: the inventory is empty of items), it is not marked as equipped.
 
-## How to display the items of an inventory in the game. 
+## How to display the items of an inventory in the game.
 
 Different games can display inventories in different ways. Inventories can't be rendered directly on the screen, but you can use [Sprites](/gdevelop5/objects/sprite) and [Text objects](/gdevelop5/objects/text) to create your own display.
 
-To use Sprites and Text objects to create a display: 
+To use Sprites and Text objects to create a display:
 
   - use the condition "Has an item" in order to check to see if an item is "owned"
-  - display or hide the associated object on the screen 
-  - use the expression "Item count" (for example, `InventoryTools::Count("PlayerInventory", "Gold")` **or now** `Inventory::Count("PlayerInventory", "Gold")`) to access the count of a given item 
+  - display or hide the associated object on the screen
+  - use the expression "Item count" (for example, `InventoryTools::Count("PlayerInventory", "Gold")` **or now** `Inventory::Count("PlayerInventory", "Gold")`) to access the count of a given item
   - use the "Item count" to set the text of a "Text" object that is displayed on the screen
 
 ## Saving/loading inventories
@@ -45,6 +45,6 @@ Use [storage actions](/gdevelop5/all-features/storage) to save the progress of t
 
 The actions "Save an inventory in a variable" and "Load an inventory from a variable", allow you to dump the contents of an inventory into a variable. These actions will be set as a structured variable. The information will be contained as children. The actions can also be used to restore an inventory from a variable.
 
-When your inventory is saved to a variable, you can then save this variable using the storage actions and actions related to JSON: 
+When your inventory is saved to a variable, you can then save this variable using the storage actions and actions related to JSON:
 
 ![](/gdevelop5/all-features/inventory-serialization.png)

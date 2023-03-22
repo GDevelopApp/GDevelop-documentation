@@ -4,9 +4,9 @@ title: OBJETO DE TEXTO (Text object)
 # OBJETO DE TEXTO (Text object)
 
 !!! note
-    
-        **Véalo en acción!** 🎮  
-    [Prefiero ver los ejemplos de objetos de texto! Por favor, llévame allí ahora.](#Examples) 
+
+        **Véalo en acción!** 🎮
+    [Prefiero ver los ejemplos de objetos de texto! Por favor, llévame allí ahora.](#Examples)
 
 Como su nombre lo sugiere, un objeto de texto nos permite mostrar texto en la pantalla / escena.
 
@@ -41,8 +41,8 @@ Además, el texto se puede cambiar utilizando eventos. A continuación, el objet
 ## Ejemplos
 
 !!! note
-    
-        **Véalo en acción!** 🎮  
+
+        **Véalo en acción!** 🎮
     Abra ejemplos Online.
 
 Manipular un objeto de texto

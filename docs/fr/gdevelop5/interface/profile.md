@@ -17,7 +17,7 @@ Si vous n'avez pas de compte, vous pouvez en créer un gratuitement:
 
 ![](/gdevelop5/interface/create-account.png)
 
-Cliquez sur **Créer mon compte**, puis entrez votre adresse email et choisissez un mot de passe: 
+Cliquez sur **Créer mon compte**, puis entrez votre adresse email et choisissez un mot de passe:
 
 ![](/gdevelop5/interface/login.png)
 
@@ -48,6 +48,6 @@ Le prochain paiement sera automatiquement adapté à votre nouvel abonnement!
 
 ## Annulation de votre abonnement
 
-Il est facile d'annuler votre abonnement à tout moment: ouvrez à nouveau votre profil et cliquez sur **Mettre à jour/Modifier**. Choisissez l'abonnement Gratuit et votre abonnement actuel sera arrêté, et aucun nouveau paiement ne sera requis. 
+Il est facile d'annuler votre abonnement à tout moment: ouvrez à nouveau votre profil et cliquez sur **Mettre à jour/Modifier**. Choisissez l'abonnement Gratuit et votre abonnement actuel sera arrêté, et aucun nouveau paiement ne sera requis.
 
 Si vous le souhaitez, vous pouvez vous réabonner ultérieurement à un autre abonnement. En tout cas, vous ne perdrez rien de votre jeu ou de votre travail!

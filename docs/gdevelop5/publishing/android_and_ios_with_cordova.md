@@ -50,10 +50,10 @@ You need to install:
 To be able to build the exported Cordova project, you also need to have **[Node.js](/[[https///nodejs.org/en/)** installed on your system. Finally, you need to install Cordova by typing on the command prompt or terminal:
 
 ```
-npm install -g cordova 
+npm install -g cordova
 ```
 
-After that, navigate to your Cordova project's directory and type this on the command prompt or terminal: 
+After that, navigate to your Cordova project's directory and type this on the command prompt or terminal:
 
   * `cordova platform add ios` if you want to export your game to iOS.
   * `cordova platform add android@11` if you want to export your game to Android.
@@ -70,12 +70,12 @@ Once you have specified what platform you want your game to be exported to, you 
   * `cordova build android`: this will only build your project into an Android executable (apk), that can be used to install your game on Android devices.
 
 !!! tip
-    
-        
+
+
     ![](/gdevelop5/publishing/android-build-tool.png)
     Cordova may need a specific version of the Android build tool. It can be installed with the SDK Manager.
     Ensure you have the Android SDKs of version 30 and 31.
-    
+
 
 ## Testing on emulators or Android/iOS devices
 

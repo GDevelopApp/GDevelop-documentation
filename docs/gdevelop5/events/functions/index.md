@@ -94,7 +94,7 @@ This is a really simple and not really useful example of a function (you could a
 
 !!! note
 
-    If your function is a condition or an expression, [use the actions in "Functions" category to set the expression/condition value](/gdevelop5/events/functions/return) (also called the "return value"). 
+    If your function is a condition or an expression, [use the actions in "Functions" category to set the expression/condition value](/gdevelop5/events/functions/return) (also called the "return value").
 
 #### Other types of parameters
 
@@ -121,8 +121,8 @@ Simply create a new action (or condition) and find in the list the name of your 
 That's it! The function is used like any other condition, action or expression in the [Events Editor](/gdevelop5/interface/events-editor).
 
 !!! tip
-    
-        
+
+
     The **Object Groups** feature, while creating functions, helps grouping similar object parameters. This way you can apply an action/condition to a group of object parameters (parameters pointing at objects) at once.
 
 ## Advanced usages
@@ -138,7 +138,7 @@ A function can call itself! In the events of a function, you can use the same ac
 
     Be very careful when writing a recursive function. If you don't add conditions, the function could call itself infinitely, blocking your game.
 
-You can [use the actions in "Functions" category to return expression/condition values](/gdevelop5/events/functions/return). 
+You can [use the actions in "Functions" category to return expression/condition values](/gdevelop5/events/functions/return).
 
 ### Sharing functions
 

@@ -5,7 +5,7 @@ title: How to create a behavior for an object
 
 When your game starts to grow, or even at the beginning when starting the creation of your game, it's a good idea to organise as much as possible of the logic of your game in **[custom behaviors](/gdevelop5/behaviors/events-based-behaviors)**. This helps to reduce the number of events in the scene event sheet(s) and make your game easier to reason about.
 
-Making custom behaviors for your game objects might seem at the beginning more complicated than making events directly in the events sheet. 
+Making custom behaviors for your game objects might seem at the beginning more complicated than making events directly in the events sheet.
 Behaviors are more constrained and need you to think more carefully about how your object works and what actions/conditions should the behavior expose. But custom behaviors are also a very powerful tool, allowing you to *encapsulate* your logic inside your objects, and keep the events sheet of your scene as minimal as possible.
 
 !!! tip
@@ -58,20 +58,20 @@ Of course, changing the background color of the scene is unusual and should prob
 
     In a work complex "real" behavior, you could use the behavior properties or some variables to update your object. For example, you can make the object move in this "doStepPreEvents" function.
 
-Finally, we now go back our game scene and add the behavior to an object. 
+Finally, we now go back our game scene and add the behavior to an object.
 First, we find the object to add the behavior to:
 
 ![](/gdevelop5/tutorials/how-to-make-behavior/pasted/20200329-162441.png)
 
 Edit the object and in the "Behaviors" tab, choose *Add a Behavior to the Object*:
-![](/gdevelop5/tutorials/how-to-make-behavior/pasted/20200329-162720.png) 
+![](/gdevelop5/tutorials/how-to-make-behavior/pasted/20200329-162720.png)
 
 and in the list choose the behavior with the name you've previously entered. You can see that there is no description for the behavior - we could add one by clicking *Edit Behaviors Properties* in the extension editor. It's in fact a good idea to give a good name and description to make clear what your behavior is made for.
 
 ![](/gdevelop5/tutorials/how-to-make-behavior/pasted/20200329-163332.png)
 
-You can try to run the game. 
-Verify that the scene background color is changed when you press *Space*, or that the sound is played when you press the *P* key. 
+You can try to run the game.
+Verify that the scene background color is changed when you press *Space*, or that the sound is played when you press the *P* key.
 
 For example, in the platformer starter game, the background color changed to green, after Space was pressed:
 ![](/gdevelop5/tutorials/how-to-make-behavior/pasted/20200329-164012.png)
@@ -86,7 +86,7 @@ Add a new function in the behavior and choose "Custom (action, condition or expr
 
 ![](/gdevelop5/tutorials/how-to-make-behavior/pasted/20200329-175353.png)
 
-We can see it added in the list of behavior functions: 
+We can see it added in the list of behavior functions:
 
 ![](/gdevelop5/tutorials/how-to-make-behavior/pasted/20200329-175548.png)
 
@@ -95,7 +95,7 @@ Let's rename it according to what it will do:
 ![](/gdevelop5/tutorials/how-to-make-behavior/pasted/20200329-175724.png)
 
 Then in this function, let's add **a parameter**: the objects that are our enemies.
-For this, we add a new parameter of type "Object". Then, we'll be able to use this object in the events. 
+For this, we add a new parameter of type "Object". Then, we'll be able to use this object in the events.
 
 Navigate to the function "Parameters" tab and in the bottom choose "Add a parameter". Then, enter "Enemy" for the parameter name, then "Objects" for the type. You can enter "Enemy" as the label too (this is what will be displayed when you add the action in the scene events sheet).
 
@@ -118,7 +118,7 @@ Now the last step is to call the function in the scene events sheet.
 We need to use the action. You'll find it in the scene events sheet, in the Player actions, as we previously added the behavior to the player.
 
 In the scene, add an action for Player (or the object you added the behavior to).
-Then choose "Handle enemies", our new action: 
+Then choose "Handle enemies", our new action:
 
 ![](/gdevelop5/tutorials/how-to-make-behavior/pasted/20200329-182405.png)
 
@@ -174,7 +174,7 @@ And now the function knows that the enemies have a behavior called "Blink"! Let'
 
 (Note the third parameter). Alas if you don't do this, the action will be missing the last parameter and the game won't work.
 
-Now you should be able to run the game and when the player touches a enemy, this enemy is blinking! 
+Now you should be able to run the game and when the player touches a enemy, this enemy is blinking!
 
 ## Final note
 

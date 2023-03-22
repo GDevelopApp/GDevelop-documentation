@@ -24,7 +24,7 @@ That way, we can query documents by score and then get the username bound to eac
 
 ### 2.1 Why security rules?
 
-Now that we have a data structure defined, we need to write security rules to make sure your database is not abused. Without rules, anyone can read and write anything to it and use your database quota to store their data, and anyone can write wrong values with the intent to crash the game or hack all users. 
+Now that we have a data structure defined, we need to write security rules to make sure your database is not abused. Without rules, anyone can read and write anything to it and use your database quota to store their data, and anyone can write wrong values with the intent to crash the game or hack all users.
 
 ### 2.2 The security rules
 
@@ -38,9 +38,9 @@ service cloud.firestore {
       allow create: if
       	  request.resource.data.keys().hasOnly(["name", "score"]) &&
           request.resource.data.keys().hasAll(["name", "score"]) &&
-          request.resource.data.score is number && 
-          request.resource.data.score > 1 && 
-          request.resource.data.name is string && 
+          request.resource.data.score is number &&
+          request.resource.data.score > 1 &&
+          request.resource.data.name is string &&
           request.resource.data.name.size() > 1 &&
           request.resource.data.name.size() < 15;
     }
@@ -53,17 +53,17 @@ To set security rules, navigate to the editor via the [Firebase console](https:/
 
 ### 2.3 Walking through the security rules
 
-  *  **match /scores/{document}**: Only add rules for documents inside scores. This already makes it more secure, as all rules are false by default so this makes sure only the collection and the documents we need are accessible.  
+  *  **match /scores/{document}**: Only add rules for documents inside scores. This already makes it more secure, as all rules are false by default so this makes sure only the collection and the documents we need are accessible.
 
-  * **allow read;**: We always want the database to be readable. Therefore, we do not add any condition.  
+  * **allow read;**: We always want the database to be readable. Therefore, we do not add any condition.
 
-  * **allow create: if**: We only allow creation, not writing, as this would allow users to change their score later.  
+  * **allow create: if**: We only allow creation, not writing, as this would allow users to change their score later.
 
-  * **request.resource.data.keys().hasOnly(["name", "score"]) && request.resource.data.keys().hasAll(["name", "score"])**: This is making sure that the data has the shape we defined in 1: it has all the properties a score needs and not any extra properties.  
+  * **request.resource.data.keys().hasOnly(["name", "score"]) && request.resource.data.keys().hasAll(["name", "score"])**: This is making sure that the data has the shape we defined in 1: it has all the properties a score needs and not any extra properties.
 
-  * **request.resource.data.score is number && request.resource.data.score > 1**: We make sure the score is a number and in the range of scores possible. Here, a score can be any number higher than 1.  
+  * **request.resource.data.score is number && request.resource.data.score > 1**: We make sure the score is a number and in the range of scores possible. Here, a score can be any number higher than 1.
 
-  * **request.resource.data.name is string && request.resource.data.name.size() > 1 && request.resource.data.name.size() < 15;**: And finally, we make sure the name is a text with at least 1 character, and up to 14 characters.  
+  * **request.resource.data.name is string && request.resource.data.name.size() > 1 && request.resource.data.name.size() < 15;**: And finally, we make sure the name is a text with at least 1 character, and up to 14 characters.
 
 !!! tip
 
@@ -71,7 +71,7 @@ To set security rules, navigate to the editor via the [Firebase console](https:/
 
 ## 3. Adding scores to the database from GDevelop
 
-To add a score, it is pretty simple. All you need to do is put the data in a structure with the shape chosen and upload it!  
+To add a score, it is pretty simple. All you need to do is put the data in a structure with the shape chosen and upload it!
 ![](/gdevelop5/tutorials/leaderboards/pasted/20210530-213318.png)
 
 ## 4. Fetching the scores from the database with GDevelop
@@ -80,12 +80,12 @@ Fetching the scores requires making a query to only download a few scores, and o
 
 ### 4.1 Creating a query
 
-For the sake of this tutorial, we will load the 50 best scores. This can be achieved by adding the "Order by descending" and "Limit to 50 first" query filters. Then, we will watch the query to download the scores and have them update in real time.  
+For the sake of this tutorial, we will load the 50 best scores. This can be achieved by adding the "Order by descending" and "Limit to 50 first" query filters. Then, we will watch the query to download the scores and have them update in real time.
 ![](/gdevelop5/tutorials/leaderboards/pasted/20210530-213842.png)
 
 ### 4.2 Awaiting the data
 
-Now, we need to await the data fetching, as Firebase is asynchronous. This can be simply done using this event:  
+Now, we need to await the data fetching, as Firebase is asynchronous. This can be simply done using this event:
 ![](/gdevelop5/tutorials/leaderboards/pasted/20210530-214148.png)
 
 It will trigger once Firebase marked the operation as complete by putting "ok" inside the status variable, and we will set it back to 0. This last step is done to trigger the event once each time Firebase finishes fetching new scores, to allow processing the realtime updates.

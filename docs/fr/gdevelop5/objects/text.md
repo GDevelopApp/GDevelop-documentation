@@ -4,9 +4,9 @@ title: L'objet Text
 # L'objet Text
 
 !!! note
-    
-        **Voir en action !** 🎮  
-    [Je préférerais examiner des exemples de l'objet Text ! SVP, faites-les moi voir maintenant.](#Examples) 
+
+        **Voir en action !** 🎮
+    [Je préférerais examiner des exemples de l'objet Text ! SVP, faites-les moi voir maintenant.](#Examples)
 
 Comme son nom l'indique, un objet texte permet d'afficher du texte à l'écran.
 
@@ -53,8 +53,8 @@ En outre, le texte peut être modifié à l'aide d'événements. Dans l'exemple 
 ## Exemples
 
 !!! note
-    
-        **Voir en action !** 🎮  
+
+        **Voir en action !** 🎮
     Ouvrez ces exemples en ligne.
 
 Manipuler un object Text

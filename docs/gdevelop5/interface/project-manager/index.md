@@ -7,11 +7,11 @@ When a project is opened, you can click on the top-left button on the toolbar to
 
 ![](/gdevelop5/interface/project-manager/pasted/20230309-185213.png)
 
-The project manager shows the structure of your entire game. 
+The project manager shows the structure of your entire game.
 
 ![](/gdevelop5/interface/project-manager/pasted/20230309-185441.png)
 
-You can fold and unfold each category by clicking on the small arrow next to each category. 
+You can fold and unfold each category by clicking on the small arrow next to each category.
 
   * **Game settings:** This is where you can customize the global settings of the game. For example, the default size of the game window or the package name for Android and iOS. You can see [all settings in "Properties"](/gdevelop5/interface/project-manager/properties). You can also [set the icons for your game](/gdevelop5/interface/project-manager/icons) and [manage the resources](/gdevelop5/interface/project-manager/resources) from the game.
 

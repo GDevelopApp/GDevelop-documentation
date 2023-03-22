@@ -103,4 +103,4 @@ Voilà, c'est terminé ! Tout le monde est à présent en mesure de trouver et j
 
 !!! note
 
-    N'oubliez pas de renseigner GDevelop comme moteur utilisé dans les métadonnées. Il apparaitra sur [la page "made with GDevelop"](https://itch.io/games/made-with-gdevelop) 
+    N'oubliez pas de renseigner GDevelop comme moteur utilisé dans les métadonnées. Il apparaitra sur [la page "made with GDevelop"](https://itch.io/games/made-with-gdevelop)

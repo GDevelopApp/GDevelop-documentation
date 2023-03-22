@@ -7,10 +7,10 @@ Le profileur est un outil qui mesure le temps passé dans les différentes parti
 
 Le profiler fait partie du [Debugger](/fr/gdevelop5/interface/debugger).
 !!! tip
-    
-        
+
+
     [Lisez ici comment ouvrir le Debugger pour votre jeu](/fr/gdevelop5/interface/debugger).
-    
+
 Lorsque le débogueur est ouvert, le profileur est affiché dans la partie inférieure de l'écran :
 
 ![](/gdevelop5/interface/debugger/profiler-open.png)
@@ -30,7 +30,7 @@ Les sections sont :
 * Événements - Le temps passé à exécuter les événements. Si vous avez ajouté *groupes* à vos événements, ils seront affichés sous forme de sous-sections. C'est une bonne façon de voir comment chaque partie de vos événements se déroule.
 * Objets (post-événements) - Le temps passé à exécuter des comportements après les événements (selon les comportements, ils peuvent être exécutés avant ou après les événements).
 * Objets (visibilité) - Le temps passé à vérifier quels objets seront rendus à l'écran.
-* Rendu - Le temps passé par le processeur (CPU) pour émettre des appels de rendu vers la carte graphique (GPU). 
+* Rendu - Le temps passé par le processeur (CPU) pour émettre des appels de rendu vers la carte graphique (GPU).
 
 Notez que le rendu réel sur le GPU n'est pas mesuré ici.
 

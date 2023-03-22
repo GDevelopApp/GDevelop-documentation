@@ -18,7 +18,7 @@ In GDevelop, **events** define the logic of a game. You can use events to create
 Events are made up of **conditions** and **actions**.
 
 **Conditions** are used to trigger when an action should happen and also select which objects or instances of an object are affected by the actions of the event. For instance, a condition can check when the player is colliding with another object.  In this case, the actions in the event will only take place when the objects are touching each other and they will only affect the objects that are colliding.
- 
+
 !!! note
 
     If an event does not have any conditions, the associated actions will run every frame of the game (usually 60 times per second).
@@ -40,7 +40,7 @@ If an event is causing an unintended side-effect, verify that events listed high
 
 ### Object Picking
 
-When a condition refers to objects, the game must decide which objects instances will be affected by any following actions and subevents. This process is called [object picking](/gdevelop5/events/object-picking). 
+When a condition refers to objects, the game must decide which objects instances will be affected by any following actions and subevents. This process is called [object picking](/gdevelop5/events/object-picking).
 
 By default, actions and conditions will apply to all instances of the object in the scene.  Conditions (and a small number of actions) can then be used to "filter" (or "pick") which objects the following actions or conditions will apply to.
 

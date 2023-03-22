@@ -14,11 +14,11 @@ Con este tutorial, aprenderá algunas tareas básicas en GDevelop mientras crea 
 ------------------------------------------------------------------------
 
 !!! note
-    
+
         El juego creado en este tutorial se puede encontrar en Gdevelop 5 como ejemplo.
-    
+
     Véalo en acción:
-    
+
     <https://editor.gdevelop-app.com/?project=https://resources.gdevelop-app.com/examples/breakout/breakout.json>
 
 ## Crear un nuevo juego
@@ -27,7 +27,7 @@ Haz clic en **Crear un nuevo proyecto** en la página de inicio. Desplázate hac
 
 !!! note
 
-    Se encontrará con el término "assets" (recursos) a menudo mientras trabaja con GDevelop. En el lenguaje de desarrollo de juegos de computadora, los _recursos_ son los archivos que componen el contenido del juego, como personajes, plataformas, archivos de audio, etc. 
+    Se encontrará con el término "assets" (recursos) a menudo mientras trabaja con GDevelop. En el lenguaje de desarrollo de juegos de computadora, los _recursos_ son los archivos que componen el contenido del juego, como personajes, plataformas, archivos de audio, etc.
 
 Para un juego de breakout, necesitará los siguientes recursos:
 
@@ -123,7 +123,7 @@ Deberá agregar tres instancias de su objeto de barrera a su escena: una barrera
 
 !!! note
 
-    Mueva y cambie el tamaño de los objetos con precisión mediante el **panel de propiedades** que se abre cuando hace clic en una instancia de objeto. 
+    Mueva y cambie el tamaño de los objetos con precisión mediante el **panel de propiedades** que se abre cuando hace clic en una instancia de objeto.
 
 - Arrastre y suelte la primera instancia de la barrera en la escena.
 - Haga clic en la barrera. Cambie su tamaño a 15 x 585 con el panel Propiedades o arrastrando el controlador en la parte inferior derecha. Colóquelo en el lado izquierdo de la pantalla en (15, 15).
@@ -156,7 +156,7 @@ Ahora necesita agregar una acción correspondiente a la condición. La pala debe
 
 !!! note
 
-    Para mover objetos con una fuerza aplicada, deberá especificar un ángulo. La siguiente imagen ilustra cómo GDevelop entiende el ángulo de rotación. En un eje horizontal, la izquierda es 180°, la derecha es 0°. ![](/gdevelop5/tutorials/breakout-game/angles.png) 
+    Para mover objetos con una fuerza aplicada, deberá especificar un ángulo. La siguiente imagen ilustra cómo GDevelop entiende el ángulo de rotación. En un eje horizontal, la izquierda es 180°, la derecha es 0°. ![](/gdevelop5/tutorials/breakout-game/angles.png)
 
 - Haga clic en **Agregar acción**.
 
@@ -176,7 +176,7 @@ Ahora necesita agregar una acción correspondiente a la condición. La pala debe
 
 !!! note
 
-     Es un buen momento para guardar tu trabajo. Adquiera el hábito de ahorrar con frecuencia. Puede presionar **Ctrl+S** para guardar su juego, o usar su mouse e ir a **Archivo\>Guardar**. 
+     Es un buen momento para guardar tu trabajo. Adquiera el hábito de ahorrar con frecuencia. Puede presionar **Ctrl+S** para guardar su juego, o usar su mouse e ir a **Archivo\>Guardar**.
 
 ------------------------------------------------------------------------
 
@@ -277,7 +277,7 @@ Para hacer que la pelota se mueva cuando el jugador presiona la barra espaciador
 
 !!! note
 
-     No es necesario memorizar todas las expresiones. Puede abrir el **Editor de expresiones** para ayudarlo a completar los campos. ![](/gdevelop5/tutorials/breakout-game/expression_editor_button.jpg) En este caso, podría escribir **-45** en el campo **Ángulo**, luego hacer clic en **Editor de expresiones** y buscar por **Random**. La expresión **Entero aleatorio en rango** con un valor mínimo de -5 y un valor máximo de 5 generará RandomInRange(-5, 5) en su campo. Puede usarlo en su cálculo de velocidad como desee. 
+     No es necesario memorizar todas las expresiones. Puede abrir el **Editor de expresiones** para ayudarlo a completar los campos. ![](/gdevelop5/tutorials/breakout-game/expression_editor_button.jpg) En este caso, podría escribir **-45** en el campo **Ángulo**, luego hacer clic en **Editor de expresiones** y buscar por **Random**. La expresión **Entero aleatorio en rango** con un valor mínimo de -5 y un valor máximo de 5 generará RandomInRange(-5, 5) en su campo. Puede usarlo en su cálculo de velocidad como desee.
 
 * En el campo **Velocidad (en píxeles por segundo)**, escriba **300**. Ajuste esto como desee; cuanto mayor sea el número, más rápido será el objeto. * Haz clic en **Permanente**, ya que quieres que la pelota siga moviéndose durante todo el juego. * Haga clic en **Aceptar**.
 
@@ -333,7 +333,7 @@ Ahora debe hacer exactamente lo mismo para que la pelota rebote en la pala. Cree
 
 !!! note
 
-     Puede hacer clic con el botón derecho y copiar una condición o acción anterior, y luego hacer clic con el botón derecho para pegarla en un nuevo evento. Es una manera fácil de ahorrar tiempo y esfuerzo, ¡especialmente cuando se trata de eventos similares! 
+     Puede hacer clic con el botón derecho y copiar una condición o acción anterior, y luego hacer clic con el botón derecho para pegarla en un nuevo evento. Es una manera fácil de ahorrar tiempo y esfuerzo, ¡especialmente cuando se trata de eventos similares!
 
 Guarda y previsualiza tu juego. Empieza a ser divertido...
 
@@ -373,10 +373,10 @@ Para crear un diseño externo:
      * Agregue ladrillos en cualquier configuración que elija. Diviértete con esta parte, ¡sé creativo!
 
 !!! note
-    
+
         Para acelerar las cosas, haga clic o seleccione objetos, luego mantenga presionada la tecla Ctrl, haga clic y arrastre para replicar instancias en la pantalla. Mantener presionadas las teclas Ctrl+Shift mantiene las nuevas instancias en el mismo eje X o Y.
-    
-    ![](/gdevelop5/tutorials/breakout-game/duplicating_objects.gif) 
+
+    ![](/gdevelop5/tutorials/breakout-game/duplicating_objects.gif)
 
 - Cree dos o más diseños nuevos y asígneles el nombre Layout1, Layout2, etc.
 
@@ -412,10 +412,10 @@ Para comenzar, cree una nueva variable de escena llamada Random_layout:
 ![](/gdevelop5/tutorials/breakout-game/modify_scene_variable_value.jpg)
 
 !!! note
-    
+
         Intente usar el Editor de expresiones para crear sus expresiones. ![](/gdevelop5/tutorials/breakout-game/expression_editor_button.jpg)
-    
-    Cuanto más juegues con las expresiones, más entenderás la lógica detrás de ellas. ¡No tengas miedo de experimentar! 
+
+    Cuanto más juegues con las expresiones, más entenderás la lógica detrás de ellas. ¡No tengas miedo de experimentar!
 
 ------------------------------------------------------------------------
 

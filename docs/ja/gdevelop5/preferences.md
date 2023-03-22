@@ -1,7 +1,8 @@
 ---
 title: preferences
 ---
-FIXME **This page is not fully translated, yet. Please help completing the translation.**  
+FIXME **This page is not fully translated, yet. Please help completing the translation.**
+
 *(remove this paragraph once the translation is finished)*
 
 # 環境設定

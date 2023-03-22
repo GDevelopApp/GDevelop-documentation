@@ -37,11 +37,11 @@ Particles will be emitted in the direction represented by the angle of the emitt
 
 You can also change the maximum number of particles rendered by the object on the screen. Note that this number changes the memory taken by the emitter. //If this number is too big, it can cause the game to crash.//
 
-## Examples 
+## Examples
 
 !!! tip
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
     Open these examples online.
 
 

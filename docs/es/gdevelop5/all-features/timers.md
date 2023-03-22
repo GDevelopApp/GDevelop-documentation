@@ -14,8 +14,9 @@ Aquí hay un ejemplo de Timer más avanzado. El temporizador se utiliza para pro
 ![](/gdevelop5/all-features/timer-and-variable.png)
 
 !!! note
-    
-        **Véalo en acción!** 🎮  
+
+        **Véalo en acción!** 🎮
+
     Abra este ejemplo Online: <https://editor.gdevelop-app.com?project=example://asteroids>
 
 ## Temporizadores de objetos (Object timers)
@@ -33,8 +34,9 @@ La condición anterior verifica si el tiempo transcurrido en el temporizador "` 
 Usar variables de objeto para verificar los temporizadores de objetos es útil. Por ejemplo, puedes tener varias instancias de enemigos disparando balas con diferentes velocidades de disparo. Se puede ver otro uso de los temporizadores de objetos cuando se usa con un enemigo que colisiona con un "aumento de velocidad de disparo". Puede configurar la variable "` fire_rate_time` "para que sea menor que el valor normal, lo que significa que el tiempo entre cada viñeta disminuirá.
 
 !!! note
-    
-        **Véalo en acción!** 🎮  
+
+        **Véalo en acción!** 🎮
+
     Abra este ejemplo Online: <https://editor.gdevelop-app.com?project=example://objects-timers>
 
 ![](/gdevelop5/all-features/fireratetimerexample.png)

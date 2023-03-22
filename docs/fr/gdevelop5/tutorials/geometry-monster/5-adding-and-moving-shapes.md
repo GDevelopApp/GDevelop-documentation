@@ -87,7 +87,7 @@ Dans l'onglet **OTHER CONDITIONS** (Autres conditions), recherchez **Timers and 
 
 !!! note
 
-    Vous n'avez pas l'onglet **OTHER CONDITIONS** ? Pas de panique ! Allez dans les préférences de GDevelop (cliquez sur le menu **File**, ou **GDevelop 5** sur macOS, puis sur **Preferences**). Activez **Use the new action/condition editor** (Utiliser le nouvel éditeur d'action/condition). Vous pouvez ensuite revenir au didacticiel. ![](/gdevelop5/tutorials/geometry-monster/activate_new_editor.png) 
+    Vous n'avez pas l'onglet **OTHER CONDITIONS** ? Pas de panique ! Allez dans les préférences de GDevelop (cliquez sur le menu **File**, ou **GDevelop 5** sur macOS, puis sur **Preferences**). Activez **Use the new action/condition editor** (Utiliser le nouvel éditeur d'action/condition). Vous pouvez ensuite revenir au didacticiel. ![](/gdevelop5/tutorials/geometry-monster/activate_new_editor.png)
 
 Ensuite, dans la liste déroulante, sélectionnez **Value of a scene timer** (Valeur d'un chronomètre de scène) et entrez deux valeurs. La première est `1,3` dans le champ **Time in seconds** (Temps en secondes) qui spécifie la durée de la minuterie en secondes. Autrement dit, toutes les 1,3 secondes, nous déposons une nouvelle forme sur la scène.
 

@@ -1,7 +1,7 @@
 ---
 title: 10. Sound Effects & Music
 ---
-# 10. Sound Effects & Music 
+# 10. Sound Effects & Music
 
 ## Series
 
@@ -23,7 +23,7 @@ You are reading **Part 10** of the [Space Shooter Tutorial](/gdevelop5/tutorials
 
 !!! tip
 
-     In this chapter, we will learn how to add sound effects and music to our game. 
+     In this chapter, we will learn how to add sound effects and music to our game.
 
 ## Determine the beginning of the scene
 

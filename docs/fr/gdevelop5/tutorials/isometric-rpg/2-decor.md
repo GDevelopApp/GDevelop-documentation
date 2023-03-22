@@ -39,7 +39,7 @@ Une erreur ? Aucune importance, ctrl+Z permet bien sûr de revenir en arrière, 
 
 Et n'oubliez pas :
 
-> 
+>
 > Sauvegardez avec Ctrl + s
 warning
 

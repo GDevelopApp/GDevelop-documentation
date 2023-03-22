@@ -29,7 +29,7 @@ In the popup, you will notice there's our Monster on the list of objects, but we
 
 !!! note
 
-    Don't have the "Other conditions" tab? Don't panic! Go to GDevelop preferences (click on the "File" menu, or "GDevelop 5" on macOS, then "Preferences"). Activate "Use the new action/condition editor". You can then go back to the tutorial. ![](/gdevelop5/tutorials/geometry-monster/activate_new_editor.png) 
+    Don't have the "Other conditions" tab? Don't panic! Go to GDevelop preferences (click on the "File" menu, or "GDevelop 5" on macOS, then "Preferences"). Activate "Use the new action/condition editor". You can then go back to the tutorial. ![](/gdevelop5/tutorials/geometry-monster/activate_new_editor.png)
 
 ![](/gdevelop5/tutorials/geometry-monster/34.png)
 

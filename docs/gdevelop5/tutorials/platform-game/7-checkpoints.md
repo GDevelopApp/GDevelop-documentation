@@ -9,7 +9,7 @@ title: Add checkpoints to your game
 
 We finished the previous tutorial by deleting the player when it collides with the enemy.  This is not the way that it works in most games. Generally, instead of deleting the player, a game will have a "checkpoint". The "checkpoint" saves  the state of the game and the state of the player into  variables. Then, if the player dies, the game and/or player restarts from the "checkpoint".
 
-For this tutorial, saving the state of the entire game and the player's state may be a bit too advanced. Instead, when a player collides with a "checkpoint" object, we are going to store the position of the "checkpoint" object inside variables. Also, instead of deleting the player, we are going to re-set its position to whatever is stored inside the variables. 
+For this tutorial, saving the state of the entire game and the player's state may be a bit too advanced. Instead, when a player collides with a "checkpoint" object, we are going to store the position of the "checkpoint" object inside variables. Also, instead of deleting the player, we are going to re-set its position to whatever is stored inside the variables.
 
 ## Create a checkpoint object
 
@@ -29,22 +29,22 @@ We start with a condition to check to see if there is a collision between the "p
 
 ![](/gdevelop5/tutorials/platform-game/checkpoint_event.png)
 
-Above, we are using _expressions_ to get the X and Y position of the "checkpoint" object sprite. This is done in a similar manner to the way that we updated the score text. 
+Above, we are using _expressions_ to get the X and Y position of the "checkpoint" object sprite. This is done in a similar manner to the way that we updated the score text.
 
 !!! note
 
     If you're confused between the difference between `checkpointX` and `checkpoint.X()`, remember that the first one is the _name_ of the variable where we're storing the position. The second, `checkpoint.X()` is an expression where we're getting the current position of the object called "checkpoint".
 
 !!! tip
-    
+
         You can find more _expressions_ in the _expression editor_ by clicking on the blue icon next to the value fields:
-    
+
     ![](/gdevelop5/tutorials/platform-game/expression-icon.png)
-    
+
     When you click the blue icon, you can search all the available expressions sorted into categories.
-    
+
     ![](/gdevelop5/tutorials/platform-game/expression-editor.png)
-    
+
 
 The condition now stores the X and Y position of the "checkpoint" object with which our "Player" object has collided. So, instead of deleting the "Player" sprite object, we set its X and Y positions using the variables.
 
@@ -52,7 +52,7 @@ The condition now stores the X and Y position of the "checkpoint" object with wh
 
 ![](/gdevelop5/tutorials/platform-game/checkpoint-event2.png)
 
-In the example above, that we are using another set of expressions to get the value of the stored variables and pass them to the "Player" position. 
+In the example above, that we are using another set of expressions to get the value of the stored variables and pass them to the "Player" position.
 
 ## Solving a positioning glitch
 
@@ -80,7 +80,7 @@ Most 2D engines work in this manner. We start at the top left corner which is co
 
 ## Solving another bug
 
-Now, if we run a preview, and our player dies, its position is going to be set to the last saved "checkpoint" values. 
+Now, if we run a preview, and our player dies, its position is going to be set to the last saved "checkpoint" values.
 But there is one more bug! If our player dies before we collide with any "checkpoint", the variables have never been set. By default, variables have a value of 0, so our player is going to respawn/reappear at position 0,0 which is the top left corner as noted in the graph above.
 
 We can easily fix this problem by setting the default values for the checkpoint values to be the starting position of the player at the beginning of the scene.

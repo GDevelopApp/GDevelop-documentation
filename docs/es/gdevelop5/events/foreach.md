@@ -10,8 +10,9 @@ Por lo general, no es necesario utilizar eventos "para cada uno". Las condicione
 ## Ejemplo
 
 !!! note
-    
-        **Véalo en acción!** 🎮  
+
+        **Véalo en acción!** 🎮
+
     Abra estos ejemplos Online.
 
 [![](/gdevelop5/events/shootingbulletsexplanationexample.png)](https://editor.gdevelop-app.com/?project=example://shooting-bullets-explanation)

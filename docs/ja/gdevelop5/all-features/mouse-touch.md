@@ -30,6 +30,7 @@ GDevelop はタッチとマウス入力に標準で対応しています。
 ![](/gdevelop5/all-features/mulititoucheventexample.png)
 
 !!! tip
-    
-        **やってみよう！** 🎮  
+
+        **やってみよう！** 🎮
+
     Open this example online: https://editor.gdevelop-app.com?project=example://multitouch

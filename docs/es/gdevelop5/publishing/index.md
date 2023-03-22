@@ -1,7 +1,7 @@
 ---
 title: Publicacion de juegos
 ---
-# Publicacion de juegos 
+# Publicacion de juegos
 
 ¡GDevelop te permite publicar tus juegos en cualquier plataforma moderna! Sin embargo, el juego necesita ser exportado primero.
 

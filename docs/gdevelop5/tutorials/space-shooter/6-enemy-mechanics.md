@@ -23,11 +23,11 @@ You are reading **Part 6** of the [Space Shooter Tutorial](/gdevelop5/tutorials/
 
 !!! tip
 
-    In this chapter, we will learn how to give different mechanics to enemies. 
+    In this chapter, we will learn how to give different mechanics to enemies.
 
 ## Shooting the player
 
-We will add **a new bullet** object and give the shooting ability to **Enemy2**, so our enemies can also shoot the player. Add a new object called **"BulletEnemy"** and select the image as **laser_enemy.png** from the assets folder. 
+We will add **a new bullet** object and give the shooting ability to **Enemy2**, so our enemies can also shoot the player. Add a new object called **"BulletEnemy"** and select the image as **laser_enemy.png** from the assets folder.
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-add-enemy-bullet.png)
 
@@ -35,11 +35,11 @@ Then, add **Destroy when outside of the screen** behavior to this object. In the
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-enemy-bullet-destroy.png)
 
-We need to give fire ability to **Enemy2**. Hence, follow the same steps to add the **Fire Bullet** behavior to **Enemy2**. 
+We need to give fire ability to **Enemy2**. Hence, follow the same steps to add the **Fire Bullet** behavior to **Enemy2**.
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-enemy-2-fire-ability-min.gif)
 
-Now, we are ready to prepare our conditions and actions. Open the **Events** page and copy-paste the condition in which we determine the enemies' position. Then, drag and drop to the under of the original condition to make **a condition in a sub-event**. 
+Now, we are ready to prepare our conditions and actions. Open the **Events** page and copy-paste the condition in which we determine the enemies' position. Then, drag and drop to the under of the original condition to make **a condition in a sub-event**.
 
 !!! tip
 
@@ -97,7 +97,7 @@ Repeat the same process for the condition below. Just change the angle to **90**
 
 ## Testing out
 
-Now we are ready to play our game. Hit the run button. 
+Now we are ready to play our game. Hit the run button.
 
 !!! tip
 

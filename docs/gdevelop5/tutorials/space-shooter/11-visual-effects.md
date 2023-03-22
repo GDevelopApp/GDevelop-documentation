@@ -1,7 +1,7 @@
 ---
 title: 11. Visual Effects
 ---
-# 11. Visual Effects 
+# 11. Visual Effects
 
 ## Series
 
@@ -23,7 +23,7 @@ You are reading **Part 11** of the [Space Shooter Tutorial](/gdevelop5/tutorials
 
 !!! tip
 
-     In this chapter, we will learn how to add visual effects to our game objects. 
+     In this chapter, we will learn how to add visual effects to our game objects.
 
 ## Making the player blink
 
@@ -83,7 +83,7 @@ Repeat the same process for **BasicExplosion**. This time, choose **Glow.png** f
 
 ## Creating the explosion when an enemy is destroyed
 
-Open the **Events** tab and go to the **Enemies is dead** event. 
+Open the **Events** tab and go to the **Enemies is dead** event.
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-add-explosion-events-here.png)
 
 Add a new action to create these explosion objects. Select **BasicExplosionSharp** and choose **create an object**. Fill X position with **Enemies.X()** and Y position with **Enemies.Y()**.

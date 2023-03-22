@@ -2,7 +2,7 @@
 title: Resources
 ---
 # Resources
-List of websites where you can find sprites, music, sound effects for your games and game examples, templates, 3rd party libraries and tools to help you with game development. 
+List of websites where you can find sprites, music, sound effects for your games and game examples, templates, 3rd party libraries and tools to help you with game development.
 
 ## Game Examples and Templates
 
@@ -11,7 +11,7 @@ List of websites where you can find sprites, music, sound effects for your games
   * [State machine Combo](https://github.com/UlisesFreitas/GamesIgniter/tree/master/StateMachineCombo) (Template Free)State Machine combo
   * [ulisesfreitas.itch.io](https://ulisesfreitas.itch.io/) (Free)(GDevelop templates for download)
 
-## Sprites 
+## Sprites
 
   * [Kenney.nl](http://kenney.nl/) (Free)
   * [Lospec](https://lospec.com) (Free and Paid)
@@ -99,7 +99,7 @@ List of websites where you can find sprites, music, sound effects for your games
   * [Pixatool](https://kronbits.itch.io/pixatool) (Paid)
   * [Libresprite](https://libresprite.github.io/) (Open source) (Like a free version of Aseprite)
 
-## Other graphics and animation tools  
+## Other graphics and animation tools
 
   * [Sprite Sheet Splitter](https://github.com/Entr0py404/Sprite-Sheet-Splitter) (Sprite Sheet Splitter)
   * [SpriteCutter](http://spritecutter.sourceforge.net/) (Spritesheet cutter)

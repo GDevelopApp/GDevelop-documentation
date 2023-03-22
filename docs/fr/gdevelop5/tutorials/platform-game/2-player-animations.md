@@ -5,7 +5,7 @@ title: Comment faire un jeu de plateforme  - animations du joueur
 
 Ce tutoriel explique comment ajouter différentes animations et comment utiliser les événements pour changer les animations lorsque l'état du joueur change.
 
-[Cliquez ici pour lire l'étape précédente](/fr/gdevelop5/tutorials/platform-game) si vous ne l'avez par encore accomplie. 
+[Cliquez ici pour lire l'étape précédente](/fr/gdevelop5/tutorials/platform-game) si vous ne l'avez par encore accomplie.
 
 ## Ajouter des animations
 
@@ -21,7 +21,7 @@ Cliquez ensuite sur le gros bouton portant un signe **+** dans la nouvelle zone 
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-26_at_00.56.03.png)
 
-Il est recommandé de donner un nom significatif  à chaque animation afin de pouvoir différencier facilement les diverses animations et les référencer sans ambiguïté dans les événements.   
+Il est recommandé de donner un nom significatif  à chaque animation afin de pouvoir différencier facilement les diverses animations et les référencer sans ambiguïté dans les événements.
 Il suffit de cliquer à la suite de **Animation #0** et d'écrire le nom que vous voulez.
 
 Entrez `Idle` pour l'animation n° 0 et `Jumping` pour l'animation  n°2.
@@ -45,7 +45,7 @@ Notre objet étant terminé, cliquez le bouton **APPLY** situé dans le coin inf
 
 ### Le premier événement : animation du saut
 
-Nous devons maintenant changer l'animation montrée par l'objet en fonction de ce que fait le joueur. À cet effet, nous allons nous servir des **_événements_**, qui sont utilisés pour décrire les règles du jeu ainsi que pour spécifier comment les objets sont animés, se déplacent et répondent aux sollicitations du joueur.   
+Nous devons maintenant changer l'animation montrée par l'objet en fonction de ce que fait le joueur. À cet effet, nous allons nous servir des **_événements_**, qui sont utilisés pour décrire les règles du jeu ainsi que pour spécifier comment les objets sont animés, se déplacent et répondent aux sollicitations du joueur.
 Pour décrire ces règles, GDevelop met à notre disposition une « programmation visuelle » dont l'apprentissage est rapide et accessible à tous.
 
 Ouvrez l'éditeur des événements de la scène en cliquant l'onglet **NEWSCENE (EVENTS)**.
@@ -68,8 +68,8 @@ Dans le premier événement, nous allons tester si le joueur saute, et dans ce c
 
 Commencez par cliquer sur **Add condition** dans le coin supérieur gauche de la fenêtre.
 
-La fenêtre qui vient de s'ouvrir présente dans sa partie gauche une liste de toutes les conditions disponibles pour programmer votre jeu.  
-Nous voulons tester si l'objet `Player`, qui possède le comportement de personnage de plateforme, est en train de sauter.  
+La fenêtre qui vient de s'ouvrir présente dans sa partie gauche une liste de toutes les conditions disponibles pour programmer votre jeu.
+Nous voulons tester si l'objet `Player`, qui possède le comportement de personnage de plateforme, est en train de sauter.
 Ouvrez la catégorie **Platform Behavior** puis sélectionnez **Is jumping**.
 
 La partie droite de la fenêtre affiche les paramètres qui sont nécessaires à la configuration de la condition. Ici, comme nous voulons tester si l'objet `Player` saute, sélectionnez `Player` pour le premier paramètre (intitulé **Object**). Le second paramètre est rempli automatiquement.
@@ -88,7 +88,7 @@ La fenêtre qui s'ouvre est semblable à celle ouverte avec **Add condition**, �
 
 Nous allons changer l'animation de l'objet `Player`, qui est un objet de type **Sprite**.
 
-Ouvrez la catégorie **Sprite**, puis **Animations and images** et sélectionnez finalement **Change the animation (by name)**. 
+Ouvrez la catégorie **Sprite**, puis **Animations and images** et sélectionnez finalement **Change the animation (by name)**.
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-26_at_20.52.28.png)
 
@@ -96,7 +96,7 @@ Dans la fenêtre de droite, sélectionnez l'objet `Player` pour le premier param
 
 !!! warning
 
-    **Attention !** Vous devez entourer le nom de guillemets anglais doubles car tout texte dans les actions ou les conditions de GDevelop peut aussi être généré par une formule. Il est donc nécessaire d'utiliser ces guillemets pour indiquer à GDevelop qu'il s'agit d'un texte et pas d'une formule quelconque. 
+    **Attention !** Vous devez entourer le nom de guillemets anglais doubles car tout texte dans les actions ou les conditions de GDevelop peut aussi être généré par une formule. Il est donc nécessaire d'utiliser ces guillemets pour indiquer à GDevelop qu'il s'agit d'un texte et pas d'une formule quelconque.
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-26_at_20.54.51.png)
 
@@ -116,7 +116,7 @@ Mais lorsque le joueur retourne sur le sol, vous pouvez voir que l'animation n'a
 
 Ajoutez un nouvel événement vide en cliquant le bouton **Add a new empty event** dans la barre d'outils.
 
-Cliquez **Add condition** et sélectionnez cette fois la condition **Is on floor** dans la catégorie **Platform Behavior**. Notez que vous pouvez utiliser l'outil de recherche **Search** dans le haut de la liste pour trouvez rapidement la condition désirée si vous connaissez son nom. 
+Cliquez **Add condition** et sélectionnez cette fois la condition **Is on floor** dans la catégorie **Platform Behavior**. Notez que vous pouvez utiliser l'outil de recherche **Search** dans le haut de la liste pour trouvez rapidement la condition désirée si vous connaissez son nom.
 
 Remplissez le premier paramètre en sélectionnant l'objet `Player`.
 
@@ -197,4 +197,4 @@ Vous avez peut-être remarqué un petit bug quand vous avez essayé de sauter d'
 
 Pour le moment, il est difficile de construire un grand niveau à explorer car le joueur quitte rapidement l'écran ! L'étape suivante de ce tutoriel vous montrera comment faire que la caméra suive le joueur. C'est très simple : un seul événement suffira.
 
-➡️ Lisez **[l'étape suivante de ce tutoriel ici !](/fr/gdevelop5/tutorials/platform-game/3-have-camera-follow-player)** 
+➡️ Lisez **[l'étape suivante de ce tutoriel ici !](/fr/gdevelop5/tutorials/platform-game/3-have-camera-follow-player)**

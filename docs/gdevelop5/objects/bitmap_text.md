@@ -8,9 +8,9 @@ A Bitmap Text displays a text using a "Bitmap Font" (an image representing chara
 It's especially useful for scores, titles, button labels, pixel-art games...
 
 !!! note
-    
+
         As all characters are designed in an external editor, and a texture is generated with these characters, a Bitmap Text is more performant to render but also way less flexible, in particular if you want to display a text entered by a user in any language. If that's the case, take a look at the [Text object](/gdevelop5/objects/text) or at the [BBtext object](/gdevelop5/objects/bbtext).
-    
+
 
 ![](/gdevelop5/objects/bitmap_text/pasted/20210510-003631.png)
 
@@ -21,7 +21,7 @@ A font is represented by two files:
 - **Bitmap Atlas image** : This file is the image which contains all characters that can be draw. File format must be PNG.
 - **Bitmap Font** : This file contains the data related to characters that can be draw, the engine use these data for knowing which characters render on screen. File format must be FNT or XML.
 
-These two file can be created with an external editor to generate bitmap fonts, for example: 
+These two file can be created with an external editor to generate bitmap fonts, for example:
 
 * **[snowb](https://snowb.org/)** (Web) Export with  **.fnt (BMFont TEXT)**
 

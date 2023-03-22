@@ -42,8 +42,9 @@ Al utilizar el "comportamiento del obstáculo de búsqueda de caminos", podemos 
 ## Ejemplo
 
 !!! note
-    
-        **Véalo en acción!** 🎮  
+
+        **Véalo en acción!** 🎮
+
     Abre estos ejemplos Online.
 
 **Comportamiento general del pathfinding (General Path Finding Behavior)**
@@ -52,7 +53,7 @@ Al utilizar el "comportamiento del obstáculo de búsqueda de caminos", podemos 
 
 [![](/gdevelop5/behaviors/pathfindinggeneral.png)](https://editor.gdevelop-app.com/?project=example://pathfinding)
 
-  
+
 **Conceptos básicos de la ruta de acceso (Path Finding Basics)**
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://pathfinding-basics){ .md-button .md-button--primary }

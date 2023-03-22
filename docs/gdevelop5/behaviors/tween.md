@@ -225,8 +225,9 @@ This expression returns the tween's current progress between the start value (0)
 ## Examples
 
 !!! note
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
+
     Open these examples online.
 
 **Tween Test**
@@ -235,7 +236,7 @@ This expression returns the tween's current progress between the start value (0)
 
 [![](/gdevelop5/behaviors/tweentest.png)](https://editor.gdevelop.io/?project=example://tween-test)
 
-  
+
 
 **Tween Animations**
 
@@ -243,7 +244,7 @@ This expression returns the tween's current progress between the start value (0)
 
 [![](/gdevelop5/behaviors/tweenanimations.png)](https://editor.gdevelop.io/?project=example://tween-animations)
 
-  
+
 **Pairs**
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://pairs){ .md-button .md-button--primary }

@@ -43,21 +43,21 @@ After we add the behavior to the object, we can customize a number of options:
 
 ### Add an action to move the Pathfinding object
 
-To initiate a pathfinding move, add the action "Move to a position" and specify the location you want the object to move to. 
-It will move using the characteristics defined in the behavior properties. 
+To initiate a pathfinding move, add the action "Move to a position" and specify the location you want the object to move to.
+It will move using the characteristics defined in the behavior properties.
 If you want to change how the object moves during the game, these properties can be changed using actions.
 
 ![](/gdevelop5/behaviors/pathfindingmoveactionwithcondition.jpg)
 
 !!! warning
 
-    The "Move to a position" action only needs to be run once.  If you run this action with no conditions, it will try to recalculate the path at every frame. You object will *not* move and this will generate a lot of intensive computation for your device. Instead, add a condition that makes sure the object pathfinder speed is 0 or that a path was not found already. 
+    The "Move to a position" action only needs to be run once.  If you run this action with no conditions, it will try to recalculate the path at every frame. You object will *not* move and this will generate a lot of intensive computation for your device. Instead, add a condition that makes sure the object pathfinder speed is 0 or that a path was not found already.
 
-## Examples 
+## Examples
 
 !!! tip
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
     Open these examples online.
 
 **General Path Finding Behavior**
@@ -66,7 +66,7 @@ If you want to change how the object moves during the game, these properties can
 
 [![](/gdevelop5/behaviors/pathfindinggeneral.png)](https://editor.gdevelop.io/?project=example://pathfinding)
 
-  
+
 
 **Path Finding Basics**
 

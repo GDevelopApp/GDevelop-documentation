@@ -7,9 +7,9 @@ title: Google Summer of Code 2020 results
 
 ##### Student: Harsimran Virk
 
-The original proposal to this project focused on implementing pixi libraries (pixi-layers, pixi-lights and pixi-shadows), 
-but we decided to implement our own ray casting algorithm using the existing data structures in the codebase (b-trees). 
-It was decided like this because the libraries weren’t well maintained and they would’ve had a lot of performance issues 
+The original proposal to this project focused on implementing pixi libraries (pixi-layers, pixi-lights and pixi-shadows),
+but we decided to implement our own ray casting algorithm using the existing data structures in the codebase (b-trees).
+It was decided like this because the libraries weren’t well maintained and they would’ve had a lot of performance issues
 as well.
 
 ### Light Runtime Object
@@ -18,28 +18,28 @@ We've defined a new gdjs.RuntimeObject for lighting, it uses [PIXI.Mesh](https:/
 rendering. The idea is really simple, keep track of all the objects in the area of light, ray cast against them to define a geometry
  for the mesh, and render them using a shader that has some fading property.
 
-1. [PR: GDevelop#1783](https://github.com/4ian/GDevelop/pull/1783): This is the first draft PR where we started 
+1. [PR: GDevelop#1783](https://github.com/4ian/GDevelop/pull/1783): This is the first draft PR where we started
 experimenting with ray casting and rendering. We needed Pixi v5 for rendering and the master branch was still at v4.8.6.
 
-2. [PR: GDevelop#1825](https://github.com/4ian/GDevelop/pull/1825): This is the second draft PR. Pixi v5 was 
-merged in the code base, (still not in the master branch), we had a working algorithm. We had to add new features to the 
+2. [PR: GDevelop#1825](https://github.com/4ian/GDevelop/pull/1825): This is the second draft PR. Pixi v5 was
+merged in the code base, (still not in the master branch), we had a working algorithm. We had to add new features to the
 existing layer system so that it could support lighting. Added a bit of new UI as well.
 
-3. [PR: GDevelop#1881](https://github.com/4ian/GDevelop/pull/1881): This is the final PR which was merged 
-into master, opened after we had upgraded to pixi v5. Also, we added some documentation and tests. There were still 
+3. [PR: GDevelop#1881](https://github.com/4ian/GDevelop/pull/1881): This is the final PR which was merged
+into master, opened after we had upgraded to pixi v5. Also, we added some documentation and tests. There were still
 some issues, however.
 
-4. [PR: GDevelop#1929](https://github.com/4ian/GDevelop/pull/1929): This PR addressed some issues and 
+4. [PR: GDevelop#1929](https://github.com/4ian/GDevelop/pull/1929): This PR addressed some issues and
 we tried to fix a particular problem related to the bounding box of the light objects.
 
 ### Normal Maps
 
 In the original proposal, we also planned to introduce normal maps for rendering "depth-based" effects using pixi-lights. As we
-decided not to use the library, we have to implement our own solution here. Now, the idea is to use another gdjs.RuntimeObject 
-for normal-map based lights, we'll render the lights in a single pass using a render texture of all the normal maps. 
+decided not to use the library, we have to implement our own solution here. Now, the idea is to use another gdjs.RuntimeObject
+for normal-map based lights, we'll render the lights in a single pass using a render texture of all the normal maps.
 
-1. [PR: GDevelop#1932](https://github.com/4ian/GDevelop/pull/1932): This is a draft PR for experimenting and 
-making a working prototype of diffused rendering which would work with normal maps (to add depth effects). It is still 
+1. [PR: GDevelop#1932](https://github.com/4ian/GDevelop/pull/1932): This is a draft PR for experimenting and
+making a working prototype of diffused rendering which would work with normal maps (to add depth effects). It is still
 work in progress and we’ll be able to add this feature post-GSoC.
 
 ### Challenges
@@ -48,7 +48,7 @@ work in progress and we’ll be able to add this feature post-GSoC.
 the use of functions like map and filter since they create a new array, and increase pressure on the GC. We've also tried to use
 single instances for other objects like Float32Array.
 
-  * Debugging the code for rendering was the hardest part, since it was all visual. It's really hard to use the "text-based" 
+  * Debugging the code for rendering was the hardest part, since it was all visual. It's really hard to use the "text-based"
 debugging techniques (such as breakpoints, console logs, etc) for code which is meant to render something on screen, and
 it becomes even harder to debug off-screen elements (framebuffers, render textures, etc). Therefore, it was always challenging
 to find a bug related to rendering glitches.

@@ -80,8 +80,9 @@ N'oubliez pas : **L'action Lire une valeur est réservé aux nombres** et **L'ac
 #### Exemples
 
 !!! note
-    
-        **Testez le stockage interne par vous même !** 🎮  
+
+        **Testez le stockage interne par vous même !** 🎮
+
     Ouvrez cet exemple dans l'éditeur en ligne !
 
 - <https://editor.gdevelop-app.com/?project=example://save-load>

@@ -21,7 +21,7 @@ La configuration distante requiert une action pour fonctionner. Elle permet de p
 
 ### Préparer Firebase
 
-    Maintenant ajoutons une valeur a ces variables sur Firebase. Pour ce faire cliques sur "Configuration Distante" depuis le tableau de bord Firebase: ![](/gdevelop5/all-features/firebase/rc5.png) Maintenant il suffit de mettre les mêmes variables et valeurs: ![](/gdevelop5/all-features/firebase/rc6.png) \<note warning\> N'oublie pas d'enregistrer les modifications ! ![](/gdevelop5/all-features/firebase/rc7.png) 
+    Maintenant ajoutons une valeur a ces variables sur Firebase. Pour ce faire cliques sur "Configuration Distante" depuis le tableau de bord Firebase: ![](/gdevelop5/all-features/firebase/rc5.png) Maintenant il suffit de mettre les mêmes variables et valeurs: ![](/gdevelop5/all-features/firebase/rc6.png) \<note warning\> N'oublie pas d'enregistrer les modifications ! ![](/gdevelop5/all-features/firebase/rc7.png)
 
 ### Ajouter un mécanisme de synchronisation
 

@@ -5,7 +5,7 @@ title: Crea monedas y muestra la cantidad de monedas recolectadas.
 
 !!! note
 
-     Esta página es parte del tutorial. [](/gdevelop5/ tutorials/ platform-game/ start), pero también se puede reutilizar para cualquier otro juego, solo reproduce los elementos. 
+     Esta página es parte del tutorial. [](/gdevelop5/ tutorials/ platform-game/ start), pero también se puede reutilizar para cualquier otro juego, solo reproduce los elementos.
 
 En el juego de plataformas que hemos creado hasta ahora, el jugador tiene mucho que hacer: vamos a poner monedas para que el jugador las recoja.
 

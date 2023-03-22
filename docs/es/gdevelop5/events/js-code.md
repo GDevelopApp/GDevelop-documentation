@@ -18,8 +18,8 @@ Si hace clic en "Haga clic aquí para elegir objetos para pasar a Javascript" ju
 ## Ejemplos
 
 !!! note
-    
-        **Véalo en acción!** 🎮  
+
+        **Véalo en acción!** 🎮
     Abrir los ejemplos Online.
 
 [![400](/ gdevelop5/events/javascripttexttospeechexample.png)](https://editor.gdevelop.io/?project=example://text-to-speech)
@@ -117,7 +117,7 @@ Equivalent events would be: ![](/gdevelop5/events/change-animation-according-to-
 ### Establecer la posición de la cámara en la posición de un objeto.
 
 ``` javascript
-if (!objects.length) return; 
+if (!objects.length) return;
 
 // Aquí, "objetos" se refieren a una lista de "Jugador", que debe seleccionarse
 // en la configuración de la función.

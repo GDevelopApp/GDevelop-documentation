@@ -4,9 +4,9 @@ title: Objetos Sprite (Sprite object)
 # Objetos Sprite (Sprite object)
 
 !!! note
-    
-        **Vélo en acción!** 🎮  
-    [¡Prefiero ver los ejemplos de objetos de Sprite! Por favor, llévame allí ahora.](#Examples) 
+
+        **Vélo en acción!** 🎮
+    [¡Prefiero ver los ejemplos de objetos de Sprite! Por favor, llévame allí ahora.](#Examples)
 
 Los objetos Sprite son los objetos más utilizados en GDevelop.
 
@@ -93,8 +93,8 @@ Para más detalles del evento, siga los [tutoriales](http://wiki.compilgames.net
 ## Ejemplos
 
 !!! note
-    
-        **Véalo en acción!** 🎮  
+
+        **Véalo en acción!** 🎮
     Abra estos ejemplos en línea.
 
 [![](/gdevelop5/objects/createasprite.png)](https://editor.gdevelop-app.com/?project=example://change-scale-of-sprites)

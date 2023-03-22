@@ -31,7 +31,7 @@ The offset of the grab can also be changed on the Y-axis.
 ![](/gdevelop5/behaviors/grab-offset-option.png)
 The offset option allows us to change the position of the grab to fit the animation of our character.
 
-### Create platforms with tilemaps 
+### Create platforms with tilemaps
 
 The platform behavior can be added to tilemap collision mask objects. Learn more about it on the [tilemap](/gdevelop5/objects/tilemap#handle_collisions) page.
 
@@ -46,13 +46,13 @@ There are a lot of options - you may need to scroll to see them all.
 
 !!! note
 
-    If a platformer character uses a custom collision mask, only the rectangular box around the collision mask will be used to keep the platformer away from platforms. This was done to optimize the performance of games that use this behavior. 
+    If a platformer character uses a custom collision mask, only the rectangular box around the collision mask will be used to keep the platformer away from platforms. This was done to optimize the performance of games that use this behavior.
 
 ### Controls
 
 #### Move a character with the keyboard
 
-The Platformer character behavior comes with default keys set to control the character. These keys are the **arrow keys** and the **Shift or Space** keys. If you don't want to use the default controls, you need to turn off the default controls by unticking/unchecking the "Default controls" box under the "Platform character" options and use [keyboard conditions](/gdevelop5/all-features/keyboard) instead. 
+The Platformer character behavior comes with default keys set to control the character. These keys are the **arrow keys** and the **Shift or Space** keys. If you don't want to use the default controls, you need to turn off the default controls by unticking/unchecking the "Default controls" box under the "Platform character" options and use [keyboard conditions](/gdevelop5/all-features/keyboard) instead.
 ![](/gdevelop5/behaviors/platformer-defaultcontrols-box.png)
 
 #### Move characters with a gamepad
@@ -77,11 +77,11 @@ Again, as with the "Platform Behavior", we can set the grab offset on the Y axis
 
 By changing the grab tolerance value, we can set how close the character needs to be to the platform in order to allow the character to grab the platform object.
 
-### Slope max angle 
+### Slope max angle
 
 By changing this value, we can set the maximum angle of a slope that the player can climb. The default is 0. 0 default means the character can move only on a flat surface.
 
-### Change the character speed 
+### Change the character speed
 
 The walking speed of a character is configured with:
 
@@ -91,7 +91,7 @@ The walking speed of a character is configured with:
 
 Choosing a low acceleration and deceleration will make the character slide.
 
-### Change characters jump height 
+### Change characters jump height
 
 ![](/gdevelop5/behaviors/platformer/pasted/20230304-153334.png)
 
@@ -116,7 +116,7 @@ It's not easy to know how these values change the jump trajectory. The best is t
 
 [![](/gdevelop5/behaviors/platformer-jump-evaluator.png)](https://editor.gdevelop.io/?project=example://platformer-jump-evaluator)
 
-####  Make characters wall jump 
+####  Make characters wall jump
 
 The [advanced platformer movements](/gdevelop5/extensions/advanced-jump/reference) extension contains behaviors for:
 
@@ -125,11 +125,11 @@ The [advanced platformer movements](/gdevelop5/extensions/advanced-jump/referenc
 * Coyote time (also known as ledge tolerance)
 * Dashes
 
-## Examples 
+## Examples
 
 !!! tip
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
     Open these examples online.
 
 **Platformer Behavior**
@@ -139,7 +139,7 @@ The [advanced platformer movements](/gdevelop5/extensions/advanced-jump/referenc
 [![](/gdevelop5/behaviors/platformer-example.png)](https://editor.gdevelop.io/?project=example://platformer)
 
 
-  
+
 
 **Parallax Scrolling Behavior**
 

@@ -9,11 +9,11 @@ While events are a special kind of [event](/gdevelop5/events): as long as the *"
 
 While events are usually not needed, but these events can be used to repeat actions as long as a given set of conditions is true. The While event is useful for algorithms that you may want to create in your game.
 
-## Examples 
+## Examples
 
 !!! tip
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
     Open these examples online.
 
 [![](/gdevelop5/events/spaceshooternew.png)](https://editor.gdevelop.io/?project=example://asteroids)

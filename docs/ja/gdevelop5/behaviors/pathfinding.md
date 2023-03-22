@@ -42,8 +42,9 @@ title: 経路探索
 ## サンプル
 
 !!! note
-    
-        **やってみよう！** 🎮  
+
+        **やってみよう！** 🎮
+
     サンプルをオンラインで実行できます
 
 **一般的な経路探索ビヘイビア**
@@ -52,7 +53,7 @@ title: 経路探索
 
 [![](/gdevelop5/behaviors/pathfindinggeneral.png)](https://editor.gdevelop-app.com/?project=example://pathfinding)
 
-  
+
 **経路探索の基本**
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://pathfinding-basics){ .md-button .md-button--primary }

@@ -23,7 +23,7 @@ You are reading **Part 2** of the [Space Shooter Tutorial](/gdevelop5/tutorials/
 
 !!! tip
 
-    In this chapter, we will learn how to control our spaceship with the arrow buttons. 
+    In this chapter, we will learn how to control our spaceship with the arrow buttons.
 
 Click on the **"Base Scene (Events)"** tab to open the events editor, where we define the rules of the game using conditions and actions. Click on the event icon to add an empty event.
 
@@ -38,11 +38,11 @@ Then, click on **Add Action** in the same event and select **Player** since we w
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-add-action.gif)
 
-If you click the Run button on the upper left, you can try pressing the **right arrow** and see that **the player moves right**! Now, we will add other buttons to move the player in every direction. 
+If you click the Run button on the upper left, you can try pressing the **right arrow** and see that **the player moves right**! Now, we will add other buttons to move the player in every direction.
 
 !!! tip
 
-    Please do the same steps or click and copy the condition by **CTRL+C/Command+C** and paste it by clicking **CTRL+V/Command+V.** 
+    Please do the same steps or click and copy the condition by **CTRL+C/Command+C** and paste it by clicking **CTRL+V/Command+V.**
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-copy-action.gif)
 

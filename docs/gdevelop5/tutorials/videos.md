@@ -25,7 +25,7 @@ title: Video Tutorials
   * [GDevelop 5 Starter Tutorial : The basics](https://www.youtube.com/watch?v=PA6JYYl--OA)
   * [GDevelop Javascript tutorial](https://youtu.be/vflsEWHxXtc)
 
-## GDevelop editor features explained 
+## GDevelop editor features explained
 
   * **[GDevelop Intro Tutorial: General Layout](https://www.youtube.com/watch?v=bR2BjT7JG0k)**
   * **[GDevelop Intro Tutorial: Event System](https://www.youtube.com/watch?v=rBZ3kuvr9G0)**
@@ -77,7 +77,7 @@ title: Video Tutorials
   * [How to create a professional installer for your game with InstallSimple](https://youtu.be/8qbgpJkmy6g)
   * [How to export your game on GDevelop 5 for Windows - No errors!](https://youtu.be/za-PtWFrTjE)
 
-## Short game making guides ("how to") 
+## Short game making guides ("how to")
      *[How to create a Sokoban Game in GDevelop 5](https://youtu.be/zfhnXdu8m9U)
     *[Character animation](https://www.youtube.com/playlist?list=PLRwRR3G4X_Nyn1IA4v0mcDcaQ8Kf1Mnjb)
     *[How to Create Fight Combos in GDevelop 5](https://youtu.be/-Fn86lBeDHc)

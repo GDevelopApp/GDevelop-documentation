@@ -28,6 +28,7 @@ Se pueden hacer múltiples toques al mismo tiempo. Debe almacenar el identificad
 ![](/gdevelop5/all-features/mulititoucheventexample.png)
 
 !!! note
-    
-        **Vélo en acción!** 🎮  
+
+        **Vélo en acción!** 🎮
+
     Abra este ejemplo Online: <https://editor.gdevelop-app.com?project=example://multitouch>

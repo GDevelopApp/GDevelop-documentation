@@ -4,7 +4,7 @@ title: Za začetek
 # Za začetek
 ## Preizkusite GDevelop na spletu ali prenesite namizno različico
 
-* Za začetek lahko [preizkusite GDevelop na spletu](https://editor.gdevelop-app.com). 
+* Za začetek lahko [preizkusite GDevelop na spletu](https://editor.gdevelop-app.com).
 * Da bi ustvarili svojo igro, jo shranili in objavili, [prenesite namizno različico s spletne strani GDevelop](https://gdevelop-app.com/sl/).
 
 Ko ste GDevelop prenesli, odprite namestitveni program in namestite programsko opremo.:
@@ -33,9 +33,9 @@ Na dnu okna lahko izberete lokacijo, kamor boste shranili svoj nov projekt.
 Ko ste izbrali privzeto lokacijo za svoj projekt, kliknite na ime začetne predloge ali primer, da odprete igro.
 
 !!! note
-    
+
         Privzeto se nove igre shranjujejo v imenik, ki se imenuje "GDevelop Projects", ki se nahaja v vašem imeniku "Dokumenti".
-    
+
 
 ## Odpiranje obstoječega projekta
 

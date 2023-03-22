@@ -7,7 +7,7 @@ In dit deel van de tutorial wordt uitgelegd hoe je munten aan de game kunt toevo
 
 Je leert het volgende:
 
-- Verwijder een object(en speel een geluid af) wanneer de speler er tegen botst 
+- Verwijder een object(en speel een geluid af) wanneer de speler er tegen botst
 - Hou data bij met variabelen
 - Voeg tekst toe aan de scène.
 
@@ -128,15 +128,15 @@ Wanneer je een voorbeeld van de game bekijkt wordt nu het aantal verzamelde munt
 ![](/gdevelop5/tutorials/platformer/05-06-score-preview.gif)
 
 !!! tip
-    
+
         Je vind meer _expressions_ in de _expression editor_ door op het blauwe icoon naast het value veld te klikken:
-    
+
     ![](/gdevelop5/tutorials/platform-game/expression-icon.png)
-    
+
     Wanneer je op het blauwe icoon klikt kun je zoeken op  de beschikbare expressions gesorteerd op categorie.
-    
+
     ![](/gdevelop5/tutorials/platform-game/expression-editor.png)
-    
+
 
 ### Verplaats de tekst naar een andere layer
 

@@ -15,7 +15,7 @@ Crea el nuevo objeto`Sprite` , añade la animación y elige la imgen denominada`
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-26_at_22.40.34.png)
 
-Renombra el objeto a `SmallBridge`: 
+Renombra el objeto a `SmallBridge`:
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-26_at_22.42.01.png)
 
@@ -35,7 +35,7 @@ No olvides guardar los cambios!!
 
 ## Next step: add backgrounds objects
 
-The level is still quite empty. Let's add some background objects to make it more pretty.  
+The level is still quite empty. Let's add some background objects to make it more pretty.
 We'll then add coins to collect and enemies!
 
-➡️ Lee **[Añadir objetos de fondo](/gdevelop5/tutorials/platform-game/4-add-backgrounds-objects)**! 
+➡️ Lee **[Añadir objetos de fondo](/gdevelop5/tutorials/platform-game/4-add-backgrounds-objects)**!

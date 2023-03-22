@@ -8,7 +8,7 @@ When opening a scene (or an external layout), the Scene Editor opens.
 ![](/gdevelop5/interface/scene-editor/pasted/20230310-185143.png)
 
 The Scene Editor is where you can design and build the game levels, menus,  inventories, or any other screen in the game. The Scene Editor allows you to create and add objects to the scene. The gameplay and rules of the game can be created using events in the [Events Editor](/gdevelop5/interface/events-editor).
- 
+
 On the right side of the toolbar in the scene editor, you have options to open panels used for different parts of your game, as well as some other tools.
 
 ![](/gdevelop5/interface/scene-editor/pasted/20230310-185534.png)
@@ -33,7 +33,7 @@ You can find the **Instance Properties panel** on the left side of the Scene Edi
 
 An object that you put on the scene _is called **an instance**_. The Properties panel allows you to change the properties of the selected instance(s):
 
-* This can be the instance coordinates on the scene, scale, and Z-order. All objects share common properties (as well as common actions and conditions in events). **You can [learn about these here](/gdevelop5/objects/base_object)**. 
+* This can be the instance coordinates on the scene, scale, and Z-order. All objects share common properties (as well as common actions and conditions in events). **You can [learn about these here](/gdevelop5/objects/base_object)**.
 * Some objects can also have special properties. For example, a [Sprite object](/gdevelop5/objects/sprite) allow you to set the initial animation of each instance on the scene (the default animation being the first). Read about [objects](/gdevelop5/objects) to see all the objects that you can use in GDevelop.
 
 !!! tip

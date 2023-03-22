@@ -18,8 +18,9 @@ title: リンクイベント
 ## 例
 
 !!! tip
-    
-        **やってみよう！** 🎮  
+
+        **やってみよう！** 🎮
+
     オンラインでサンプルを実行
 
 [![](/gdevelop5/events/asteroidexternalexamplenew.png)](https://editor.gdevelop-app.com/?project=example://asteroids)

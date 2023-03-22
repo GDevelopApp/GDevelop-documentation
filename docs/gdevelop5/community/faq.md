@@ -18,7 +18,7 @@ The goal with GDevelop is to have an engine that is both easy to use, with an in
 
 GD “1.0.8504202 Beta” in 11 Aug 2008
 You can download it and try it !
-[Original Link](http://www.compilgames.net/dl/gdbeta5.exe) | [Mirror #1](https://drive.google.com/open?id=1iqUsXVzJjavWhgGUzINrFowIfv3xt2zR) 
+[Original Link](http://www.compilgames.net/dl/gdbeta5.exe) | [Mirror #1](https://drive.google.com/open?id=1iqUsXVzJjavWhgGUzINrFowIfv3xt2zR)
 
 ## What is the first release of GD5 beta ?
 
@@ -47,7 +47,7 @@ Such concepts can then have been integrated into other game engines, or the othe
 ## Why are GDevelop and my games flagged by my antivirus?
 
 There is no virus, it's because the app is new and not yet signed by Microsoft.
-If you want to be sure, you can go on Github and make your own review of the source code. 
+If you want to be sure, you can go on Github and make your own review of the source code.
 It's open source, meaning you can check all the code online.
 
 ## When 3D will be supported in GDevelop?
@@ -58,7 +58,7 @@ If you're looking for a 3D game engine here's a list: https://en.wikipedia.org/w
 
 ## I saw an update being announced, but GDevelop isn't auto-updating.
 
-When an update is published, we do not directly mark it as latest for the auto-updater, as we don't want to make everyone update in case the new version has an important issue. 
+When an update is published, we do not directly mark it as latest for the auto-updater, as we don't want to make everyone update in case the new version has an important issue.
 Note that it sometimes happen that the auto-updater breaks, you'll need to manually download the next version in that case.
 To download a new version that just got published, download it on GDevelop's GitHub releases page:
 https://github.com/4ian/GDevelop/releases/

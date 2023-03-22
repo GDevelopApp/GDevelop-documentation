@@ -58,7 +58,7 @@ The following guides provide explanations for certain parts of GDevelop. They al
 Check out the [official GDevelop Channel here](https://www.youtube.com/channel/UCmoHIfIerKCZkOOt6zr9inw)!
 
   * See the [full list of video tutorials](/gdevelop5/tutorials/videos)
- 
+
 
 ----
 
@@ -75,6 +75,6 @@ The guides below provide game development related explanations. They are not spe
 ----
 
 # Resources
-Links to 3rd party websites where you can find sprites, music and sound effects for your games and game examples, templates and software to help you with game development. 
+Links to 3rd party websites where you can find sprites, music and sound effects for your games and game examples, templates and software to help you with game development.
 
   * [resources](/gdevelop5/tutorials/resources)

@@ -37,14 +37,14 @@ Learn more about [the content of the project manager here](/gdevelop5/interface/
 When opening a scene (or an external layout), the scene editor associated with that scene opens.
 This is where you can design and build your game levels and menus by creating and adding objects to the scene.
 The first scene in the list is the first scene loaded when the game is launched.
- 
+
 [Learn more about using scene editors](/gdevelop5/interface/scene-editor).
 
 ## Events editor
 
-When opening a scene (or when opening external events), the events editor associated with that scene is also opened. This is where you set up your game's logic, using GDevelop's visual no-code system to program your game without any specific programming knowledge or experience. 
+When opening a scene (or when opening external events), the events editor associated with that scene is also opened. This is where you set up your game's logic, using GDevelop's visual no-code system to program your game without any specific programming knowledge or experience.
 
-Learn more about [its usage on this page](/gdevelop5/interface/events-editor) or check [the help about events](/gdevelop5/events). 
+Learn more about [its usage on this page](/gdevelop5/interface/events-editor) or check [the help about events](/gdevelop5/events).
 
 ## Top menu
 

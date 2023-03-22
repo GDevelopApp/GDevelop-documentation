@@ -39,7 +39,7 @@ The [Ellipse movement behavior](/gdevelop5/extensions/ellipse-movement/reference
 
 ## Compare angles
 
-Angles could be compared as any other number but we often want to consider 90° and -270° as the same for instance. The **AngleDifference(number, number)** expression give the difference using the shortest way. To go back to the previous example, `AngleDifference(90, -270)` equals `0`. The `Compare two numbers` condition can be used with `AngleDifference` to check if 2 angles are the same. 
+Angles could be compared as any other number but we often want to consider 90° and -270° as the same for instance. The **AngleDifference(number, number)** expression give the difference using the shortest way. To go back to the previous example, `AngleDifference(90, -270)` equals `0`. The `Compare two numbers` condition can be used with `AngleDifference` to check if 2 angles are the same.
 
 !!! note
 

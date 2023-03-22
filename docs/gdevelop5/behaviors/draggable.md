@@ -4,16 +4,16 @@ title: Draggable Object Behavior
 # Draggable Object Behavior
 
 !!! tip
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
     [I would rather see the Draggable object behavior examples! Please take me there now.](/#Examples)
-    
+
 
 The draggable object [behavior](/gdevelop5/behaviors) will make the [object](/gdevelop5/objects) draggable with the mouse or by touching it on a touchscreen.
 
 ## Add the Draggable behavior to an object
 
-To add the Draggable behavior to an object, start with creating an object or open the object's properties by accessing the object in the Scene Objects list. Select "Edit object" from the popup list. Then select "Behaviors" and click the add behavior button. 
+To add the Draggable behavior to an object, start with creating an object or open the object's properties by accessing the object in the Scene Objects list. Select "Edit object" from the popup list. Then select "Behaviors" and click the add behavior button.
 
 ![](/gdevelop5/behaviors/addbehavior.jpg)
 
@@ -31,11 +31,11 @@ Using events, you can also check if an object is being dragged:
 ![](/gdevelop5/behaviors/eventcondtiondraggableobject.png)
 
 
-# Examples 
+# Examples
 
 !!! tip
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
     Open these examples online.
 
 **Snap to Grid**
@@ -44,7 +44,7 @@ Using events, you can also check if an object is being dragged:
 
 [![](/gdevelop5/behaviors/snaptogrid.png)](https://editor.gdevelop.io/?project=example://snap-object-to-grid)
 
-  
+
 
 **Shoot Bullet in Parabola Pattern** (A parabola is a plane curve which is mirror-symmetrical and is approximately U-shaped. Basically, an object that shoots toward an object in a curved trajectory.)
 
@@ -52,7 +52,7 @@ Using events, you can also check if an object is being dragged:
 
 [![](/gdevelop5/behaviors/shootbulletparabolapattern.png)](https://editor.gdevelop.io/?project=example://shoot-bullet-in-parabola)
 
-  
+
 
 **Save and Load**
 
@@ -60,7 +60,7 @@ Using events, you can also check if an object is being dragged:
 
 [![](/gdevelop5/behaviors/saveandloadexample.png)](https://editor.gdevelop.io/?project=example://save-load)
 
-  
+
 
 **Path Finding Basics**
 

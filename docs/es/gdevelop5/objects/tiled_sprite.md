@@ -4,9 +4,9 @@ title: OBJETO SPRITE DE AZULEJOS (Tiled Sprite object)
 # OBJETO SPRITE DE AZULEJOS (Tiled Sprite object)
 
 !!! note
-    
-        **Véalo en acción!** 🎮  
-    [¡Prefiero ver los ejemplos de objetos de Tiled Sprite! Por favor, llévame allí ahora.](#Examples) 
+
+        **Véalo en acción!** 🎮
+    [¡Prefiero ver los ejemplos de objetos de Tiled Sprite! Por favor, llévame allí ahora.](#Examples)
 
 Un objeto sprite de mosaico nos permite mostrar una imagen en un conjunto de mosaicos. Puede aumentar y disminuir el tamaño del conjunto de azulejos al escalar el objeto en la escena.
 
@@ -51,8 +51,8 @@ El editor de escenas (eventos) también se puede usar para cambiar el tamaño de
 ## Ejemplos
 
 !!! note
-    
-        **Véalo en acción!** 🎮  
+
+        **Véalo en acción!** 🎮
     Abre los ejemplos Online.
 
 [![](/gdevelop5/behaviors/platformerbehavior.png)](https://editor.gdevelop-app.com/?project=example://platformer)

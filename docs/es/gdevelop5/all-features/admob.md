@@ -37,7 +37,7 @@ Ahora podrá ver el app id (id de la aplicación) y el ad unit identifier (id de
 
 !!! note
 
-    El primer identificador es el **app id (id de la aplicación)**. El segundo es el **ad unit identifier (identificador del bloque de anuncio)**. Necesitas saber esto para luego insertarlo en los parámetro del juego y los parámetros de la acción para mostrar los anuncios. Cópielos o deje la ventana abierta. 
+    El primer identificador es el **app id (id de la aplicación)**. El segundo es el **ad unit identifier (identificador del bloque de anuncio)**. Necesitas saber esto para luego insertarlo en los parámetro del juego y los parámetros de la acción para mostrar los anuncios. Cópielos o deje la ventana abierta.
 
 ## Añadir un método de pago en AdMob
 
@@ -81,7 +81,7 @@ En la sección AdMob, introduzca su **app id**, uno para Android y otro para iOS
 
 Elija las opciones adaptadas a su bloque de anuncio:
 
-    *Si has creado un **banner**, usa las acciones 1) *Configurar el banner* y 2) *Mostrar el banner*. 
+    *Si has creado un **banner**, usa las acciones 1) *Configurar el banner* y 2) *Mostrar el banner*.
 
     * Para **intersticiales** y **vídeos recompenssados**, use la acción para primero cargarlo (durante la partida) y luego la acción para mostrarlo (el jugador ha terminado el nivel, por ejemplo).
 

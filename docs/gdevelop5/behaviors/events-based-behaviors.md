@@ -80,7 +80,7 @@ The custom behavior that you created is then displayed in the list of the behavi
 
 ![](/gdevelop5/behaviors/events-based-behaviors/pasted/20210907-000202.png)
 
-You can run the game and see that the events in "doStepPreEvents" function (or "doStepPostEvents") will be executed. In the example of the Destructible behavior that was created, if the "Damage" variable is set to a number greater or equal to 100, the object will be destroyed automatically. 
+You can run the game and see that the events in "doStepPreEvents" function (or "doStepPostEvents") will be executed. In the example of the Destructible behavior that was created, if the "Damage" variable is set to a number greater or equal to 100, the object will be destroyed automatically.
 
 To test this, we've added the "Destructible" behavior to object "Platform". Then, when using the debugger, we can inspect "Platform" instances and see that they have a "Damage" variable (set to 0). If we use the debugger (or an event) to set it to 100, the object is removed from the scene:
 
@@ -99,9 +99,9 @@ As you can see, this allows creating very expressive and easy-to-read events. Yo
 
 ## Add and use properties in a behavior
 
-What is interesting with behaviors is that they can hold information inside of them, much like variables of an object. These information are called properties. They can be a number, a string (text) or a boolean (which is like a virtual checkbox, either checked or unchecked). 
+What is interesting with behaviors is that they can hold information inside of them, much like variables of an object. These information are called properties. They can be a number, a string (text) or a boolean (which is like a virtual checkbox, either checked or unchecked).
 
-You can use these properties to make your behavior customizable (for example, you can have the speed, an amount of damage, the life points, the power points, the mana, etc... as properties of your behavior - depending on what your behavior is doing). 
+You can use these properties to make your behavior customizable (for example, you can have the speed, an amount of damage, the life points, the power points, the mana, etc... as properties of your behavior - depending on what your behavior is doing).
 
 To show and add properties to your behavior, edit it and click on the "Properties" tab. In this example, you can see a behavior called "Health", that has properties to store the health of the object and the minimum time between two hits on the object:
 
@@ -109,7 +109,7 @@ To show and add properties to your behavior, edit it and click on the "Propertie
 
 Properties can be:
 
-* Number, string (including a color or a choice from a list of options) or booleans (will be displayed as a checkbox). 
+* Number, string (including a color or a choice from a list of options) or booleans (will be displayed as a checkbox).
 * They can also be another required behavior - in which case the behavior you're editing will ensure the other specified behavior is present on objects using it. There is a dedicated section later on this page about this.
 * They have a default value, that will be used if the value is not changed when adding the behavior to an object.
 * They can be visible in the editor, when added to an object, or invisible.
@@ -158,7 +158,7 @@ You can imagine tons of different behaviors. Here are a few examples:
 
 * A behavior to **manage the health of an enemy or a boss**.
 
-  * There can be an action "Hit the object", a condition "Is the object dead?". The behavior will take care of updating the object variables to track the life of the enemy (for example, when the enemy is hit, you remove some life. 
+  * There can be an action "Hit the object", a condition "Is the object dead?". The behavior will take care of updating the object variables to track the life of the enemy (for example, when the enemy is hit, you remove some life.
   * Then, life is regenerated progressively at each frame of the game) and the condition "Is the object dead?" will be able to check if the life reached 0 or not.
 
 * Another idea can be to put the events to make **an enemy move following a complex pattern** on the screen inside a behavior.
@@ -166,7 +166,7 @@ You can imagine tons of different behaviors. Here are a few examples:
   * You can add actions/conditions to change the movement, change the speed, etc... All of this will be in a behavior that can be added to any other object in a few clicks.
 
 
-* A behavior can **automatically update the Score** in your game when enemies are destroyed, or items collected. 
+* A behavior can **automatically update the Score** in your game when enemies are destroyed, or items collected.
 
   * You can create a behavior that increases the "Score" variable when the object is destroyed. You can then create items, collectibles or enemies that have this behavior, and when they are collected or killed, the score will automatically increase.
 

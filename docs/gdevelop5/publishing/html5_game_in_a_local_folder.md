@@ -29,7 +29,7 @@ If your goal is sharing the application, though, then you will either need to up
 
 ## Upload the game to a host
 
-To upload your game to a host you have two options. You can either set up your own web hosting with a hosting company or you can use 3rd party hosting sites to host your game for you. 
+To upload your game to a host you have two options. You can either set up your own web hosting with a hosting company or you can use 3rd party hosting sites to host your game for you.
 
 ### 3rd party hosting sites
 

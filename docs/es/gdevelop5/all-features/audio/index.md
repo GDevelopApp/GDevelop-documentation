@@ -9,7 +9,7 @@ Reproducir música y o sonidos es una parte escencial de un juego. GDevelop le p
 
 !!! warning
 
-     Antes de que se pueda reproducir un sonido/música, primero debes asegurarte de que el jugador interactuó con tu juego (un simple clic/toque en la pantalla está bien para desbloquear el audio). Esta es una limitación de los navegadores y no se puede solucionar. En tu juego final, se recomienda tener en tu primera escena un mensaje "Presiona cualquier tecla o toca la pantalla para continuar". 
+     Antes de que se pueda reproducir un sonido/música, primero debes asegurarte de que el jugador interactuó con tu juego (un simple clic/toque en la pantalla está bien para desbloquear el audio). Esta es una limitación de los navegadores y no se puede solucionar. En tu juego final, se recomienda tener en tu primera escena un mensaje "Presiona cualquier tecla o toca la pantalla para continuar".
 
 La forma más sencilla de reproducir un archivo de audio es usar la acción "**Reproducir un sonido**" o "**Reproducir un archivo de música**".
 Elija el archivo que se reproducirá para el primer parámetro de ambas acciones.
@@ -18,22 +18,22 @@ La diferencia entre sonido y música es que los archivos de música suelen ser a
 
 !!! note
 
-     Los archivos Ogg pueden ser contenedores para múltiples tipos de audio, más comúnmente Vorbis y Opus. Los archivos Ogg Vorbis son mucho más compatibles con diferentes navegadores y sistemas operativos, por lo que se recomienda utilizar la codificación Ogg Vorbis si se utilizan archivos ogg. 
+     Los archivos Ogg pueden ser contenedores para múltiples tipos de audio, más comúnmente Vorbis y Opus. Los archivos Ogg Vorbis son mucho más compatibles con diferentes navegadores y sistemas operativos, por lo que se recomienda utilizar la codificación Ogg Vorbis si se utilizan archivos ogg.
 
 Todos estos formatos se pueden utilizar para música o efectos de sonido, aunque se recomienda encarecidamente utilizar mp3 u ogg para música debido al tamaño del archivo wav. Un archivo mp3, ogg o AAC de 320 kbps tendrá una calidad de audio casi idéntica a un archivo wav de máxima calidad, pero ocupará 1/4 del tamaño del archivo.
 
 Si distribuye su juego vía web, algunos navegadores también admiten otros formatos de archivo. Por ejemplo, `ogg`; `ogg` es una alternativa superior a `mp3` para la música. Desafortunadamente, no todos los navegadores lo admiten [Para más información puede consltar Wikipedia](https://en.wikipedia.org/wiki/HTML5_audio#Supported_audio_coding_formats).
 
 !!! tip
-    
+
          Puede utilizar la herramienta de creación de efectos de sonido incorporada llamada jfxr para crear efectos de sonido (esta herramienta solo está disponible para la versión de escritorio)
     [Aprenda a usar jfxr aquí](/gdevelop5/ all-features/ audio/ using-jfxr)
-    
+
 !!! note
-    
+
          Cuando eliges un archivo de audio, se agrega a los recursos del juego para que se cargue durante el inicio del juego.
     Para minimizar el tamaño de su juego, asegúrese de eliminar los archivos de audio que ya no están en uso por las acciones de su juego.
-    
+
 
 
 

@@ -57,7 +57,7 @@ The multitouch button behavior allows to choose a button name. The same name mus
 
 !!! note
 
-     Learn more about the [Platform Character behavior](/gdevelop5/behaviors/platformer). 
+     Learn more about the [Platform Character behavior](/gdevelop5/behaviors/platformer).
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://platformer){ .md-button .md-button--primary }
 

@@ -12,12 +12,12 @@ title: Google Season of Docs 2020 results
 I prepared a new game tutorial to guide people to develop a level-based space-shooter game using GDevelop. This tutorial will help new-comers to begin to use GDevelop. It is a simple space shooter game where the player controls a spaceship and has to shoot enemies and avoid meteors in space. During the GSoD period, I developed the game on GDevelop and wrote the chapters of the tutorial by providing as much as visuals.
 
 The chapters in the tutorial covers:
- 
+
   * Creating a project on GDevelop
-  * Adding objects to the game 
+  * Adding objects to the game
   * Moving these objects with/without user input
   * Moving camera and background according to the objects’ movements
-  * Detecting collisions between objects 
+  * Detecting collisions between objects
   * Using behaviors to simplify some events like calculating the health
   * Adding UI elements to show some details
   * Adding sound effects/music to the game

@@ -4,9 +4,9 @@ title: EMISOR DE PARTÍCULAS (Particles emitters)
 # EMISOR DE PARTÍCULAS (Particles emitters)
 
 !!! note
-    
-        **Véalo en acción!** 🎮  
-    [Preferiría ver los ejemplos de objetos emisores de partículas! Por favor, llévame allí ahora.](#Examples) 
+
+        **Véalo en acción!** 🎮
+    [Preferiría ver los ejemplos de objetos emisores de partículas! Por favor, llévame allí ahora.](#Examples)
 
 Los emisores de partículas se utilizan para mostrar un gran número de partículas pequeñas. Simulan efectos en un juego. Algunos ejemplos de emisores de partículas son el fuego, las explosiones, el humo y el polvo.
 
@@ -49,8 +49,8 @@ También puede cambiar el número máximo de partículas renderizadas por el obj
 ## Ejemplos
 
 !!! note
-    
-        **Véalo en acción!** 🎮  
+
+        **Véalo en acción!** 🎮
     Ábre los ejemplos Online.
 
 [![](/gdevelop5/objects/particleemitterexplosions.png)](https://editor.gdevelop-app.com/?project=example://particles-explosions)

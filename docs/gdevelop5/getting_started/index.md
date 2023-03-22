@@ -17,10 +17,10 @@ GDevelop is available for all major operating systems, including the latest vers
 
 The installation instructions depend on the operating system.
 
-**Windows**: 
+**Windows**:
 
-  *  Double-click on the executable. 
-  *  Click on the Next button several times, until the installation begins. This installs GDevelop, launches the app, and adds an icon to the Desktop. 
+  *  Double-click on the executable.
+  *  Click on the Next button several times, until the installation begins. This installs GDevelop, launches the app, and adds an icon to the Desktop.
 
 **macOS**:
 
@@ -29,12 +29,12 @@ The installation instructions depend on the operating system.
 
 **Linux (flatpak)**:
 
-  *  Open a terminal. 
-  *  Follow the command line instructions at the bottom of the [GDevelop Flathub page](https://flathub.org/apps/details/io.gdevelop.ide)  
+  *  Open a terminal.
+  *  Follow the command line instructions at the bottom of the [GDevelop Flathub page](https://flathub.org/apps/details/io.gdevelop.ide)
 
 **Linux (AppImage)**:
 
-  *  Open a terminal. 
+  *  Open a terminal.
   *  Make the AppImage file executable by typing `chmod a+x GDevelop*.AppImage`.
   *   Run it: `./GDevelop*.AppImage` (or double-click on the file).
 
@@ -57,11 +57,11 @@ The installation instructions depend on the operating system.
 
 ## Step 3: Preview the game
 
-A **Preview** button is available via the toolbar. This button launches a preview of the game in a new window.  
+A **Preview** button is available via the toolbar. This button launches a preview of the game in a new window.
 
 !!! tip
 
-    To preview your game from a mobile device, click the down arrow and select **Start Network Preview**.  Then use a browser on your mobile device to visit the address that is displayed. **Alternatively**, you can click the publish button and generate a private web link for the game through GDevelop's games hosting platform [gd.games](https://gd.games/). 
+    To preview your game from a mobile device, click the down arrow and select **Start Network Preview**.  Then use a browser on your mobile device to visit the address that is displayed. **Alternatively**, you can click the publish button and generate a private web link for the game through GDevelop's games hosting platform [gd.games](https://gd.games/).
 
 ![](/gdevelop5/getting_started/pasted/20230309-173456.png)
 

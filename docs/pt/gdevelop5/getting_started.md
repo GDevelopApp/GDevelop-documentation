@@ -5,7 +5,7 @@ title: Começando
 
 ## Experimente o GDevelop online ou faça o download da versão desktop
 
-* Para começar, você pode [experimentar o GDevelop online](https://editor.gdevelop-app.com). 
+* Para começar, você pode [experimentar o GDevelop online](https://editor.gdevelop-app.com).
 * Para criar seu próprio jogo, salvar e publicar [faça o download da versão para desktop no site do GDevelop](https://gdevelop-app.com).
 
 Após você baixar o GDevelop, abra o instalador e instale o software:

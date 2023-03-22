@@ -8,11 +8,11 @@ title: インスタンスごとに繰り返しイベント
 
 通常は「インスタンスごとに繰り返し」イベントを使用する必要はありません。条件とアクションは、オブジェクトの全インスタンスで自動的に実行されます。それらは条件によって定義されます。ただしオブジェクトの各インスタンスに依存するアクションを実行するには、「インスタンスごとに繰り返し」イベントが役立つ場合があります。
 
-## 例 
+## 例
 
 !!! tip
-    
-        **やってみよう！** 🎮  
+
+        **やってみよう！** 🎮
     オンラインで下記のサンプルを実行できます。
 
 [![](/gdevelop5/events/shootingbulletsexplanationexample.png)](https://editor.gdevelop-app.com/?project=example://shooting-bullets-explanation)

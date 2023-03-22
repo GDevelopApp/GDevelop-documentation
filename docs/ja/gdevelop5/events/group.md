@@ -5,8 +5,8 @@ title: イベントのグループ
 
 グループは、特に何もしないイベントです。これらは、イベントをグループにまとめ、および構成するために使用されます。
 
-イベントパネル内からグループを追加できます。右上の[イベントを選択して追加]アイコンを選択します。 
- ![](/gdevelop5/events/chooseaddeventiconnew.png)  
+イベントパネル内からグループを追加できます。右上の[イベントを選択して追加]アイコンを選択します。
+ ![](/gdevelop5/events/chooseaddeventiconnew.png)
 
 ドロップダウンメニューが表示されます。メニューから「グループ」を選択します。
 
@@ -22,8 +22,8 @@ title: イベントのグループ
 ## 例
 
 !!! tip
-    
-        **やってみよう！** 🎮  
+
+        **やってみよう！** 🎮
     オンラインでサンプルを実行
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://space-shooter){ .md-button .md-button--primary }

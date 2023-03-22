@@ -1,15 +1,15 @@
 ---
 title: sprite
 ---
-FIXME **This page is not fully translated, yet. Please help completing the translation.**  
+FIXME **This page is not fully translated, yet. Please help completing the translation.**
 *(remove this paragraph once the translation is finished)*
 
 # Les objets sprite
 
 !!! note
-    
-        **Voir en action !** 🎮  
-    [Je préférerais examiner des exemples d'objet Sprite ! S'il vous plaît, faites-les moi voir maintenant.](#Examples) 
+
+        **Voir en action !** 🎮
+    [Je préférerais examiner des exemples d'objet Sprite ! S'il vous plaît, faites-les moi voir maintenant.](#Examples)
 
 Les objets Sprite sont les objets les plus souvent utilisés dans GDevelop.
 
@@ -74,9 +74,9 @@ En haut de la section animation de la fenêtre, vous avez un champ à côté de 
 ![](/gdevelop5/objects/name-animation.png)
 
 !!! note
-    
+
         Dans les objets comportant plusieurs animations, il peut être difficile de différencier les animations sans noms. Il est généralement recommandé d'utiliser des noms d'animation significatifs pour les objets comportant plusieurs animations.
-    
+
     Si nous n'entrons pas de nom, nous devons utiliser le numéro d'animation pour faire référence à cette animation.
 
 ### Ajouter plusieurs images dans une animation
@@ -122,9 +122,9 @@ Votre nouveau sprite est maintenant terminé, mais vous devez toujours l'ajouter
 Après avoir créé plusieurs animations, chacune avec son propre ensemble d'images, vous pouvez utiliser des événements pour basculer entre les diverses animations. Régler la vitesse d'animation entre 0 et 1 garantira qu'elle reste active lors de l'utilisation d'événements.
 
 !!! note
-    
+
         L'utilisation d'une durée d'animation négative désactive les actions d'événement.
-    
+
     _Ne pas utiliser de valeurs négatives._
 
 Lorsque vous avez défini plusieurs animations pour un objet, vous pouvez utiliser l'onglet événements pour **Change the animation (by name)** (Modifier l'animation (par le nom)). Ceci est contrôlé dans la section **Add action** (Ajouter une action) de la condition. Cela permet de passer à l'animation correcte chaque fois que la condition utilisée dans la section**Add condition**(Ajouter une condition) est vraie.
@@ -144,8 +144,8 @@ Pour plus de détails, suivez [les tutoriaux ici](http://wiki.compilgames.net/do
 ## Exemples
 
 !!! note
-    
-        **Voir en action !** 🎮  
+
+        **Voir en action !** 🎮
     Cliquez sur les images pour ouvrir les exemples en ligne.
 
 [![](/gdevelop5/objects/createaspritenew.png)](https://editor.gdevelop-app.com/?project=example://change-scale-of-sprites)

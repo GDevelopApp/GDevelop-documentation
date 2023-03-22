@@ -4,9 +4,9 @@ title: OBJETO DE FORMA PINTOR (Shape painter object)
 # OBJETO DE FORMA PINTOR (Shape painter object)
 
 !!! note
-    
-        **Véalo en acción!** 🎮  
-    [Prefiero ver los ejemplos de objetos de Shape Painter! Por favor, llévame allí ahora.](#Examples) 
+
+        **Véalo en acción!** 🎮
+    [Prefiero ver los ejemplos de objetos de Shape Painter! Por favor, llévame allí ahora.](#Examples)
 
 Un objeto pintor de formas nos permite dibujar formas en nuestro juego. Puede ser útil para hacer elementos simples de interfaz de usuario (UI). El pintor de formas incluso se puede utilizar para crear un cuadro de selección.
 
@@ -57,8 +57,8 @@ Usando eventos también podemos cambiar cualquier propiedad de una forma sobre l
 ## Ejemplos
 
 !!! note
-    
-        **Véalo en acción!** 🎮  
+
+        **Véalo en acción!** 🎮
     Abra estos ejemplos Online.
 
 [![](/gdevelop5/objects/shapepainterobject.png)](https://editor.gdevelop-app.com/?project=example://advanced-shape-based-painter)

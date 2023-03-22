@@ -1,7 +1,7 @@
 ---
 title: アップデートのチェック
 ---
-# アップデートのチェック 
+# アップデートのチェック
 
 GDevelopは起動時に新しい更新を自動的に検索します。[開始ページ](/ja/gdevelop5/interface) のヘルプメニューから`GDevelopについて` のウインドウで、更新がダウンロードされているかを確認できます。
 ![](/gdevelop5/interface/update-being-downloaded.png)

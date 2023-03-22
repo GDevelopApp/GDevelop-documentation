@@ -29,7 +29,7 @@ It is in these properties, you can find:
 
 ## Branding and Loading screen
 
-In the top right corner of the game properties window, you can select **Branding and Loading Screen** which will show you options for customizing the loading screen at the beginning of your game. From this tab you will be able to pick if your game has the GDevelop watermark, logo on startup, or both. As well as some other customization options. 
+In the top right corner of the game properties window, you can select **Branding and Loading Screen** which will show you options for customizing the loading screen at the beginning of your game. From this tab you will be able to pick if your game has the GDevelop watermark, logo on startup, or both. As well as some other customization options.
 
 To remove both the watermark and GDevelop logo from your game, please [get a subscription](/gdevelop5/interface/profile) to help supporting GDevelop.
 

@@ -21,7 +21,8 @@ You are reading Part 1 of the Top-Down Shooter Tutorial.
 5.  [Part 5](/gdevelop5/tutorials/topdown-shooter/topdown-shooterPart5)
 6.  [Part 6](/gdevelop5/tutorials/topdown-shooter/topdown-shooterPart6)
 
-This tutorial will help you to begin to use **GDevelop**. You will create a **Top-Down Shooter** game where the player shoots and kills the enemy. Note that you can read the [Getting Started](/gdevelop5/getting_started/) page to get an overview of the software. It explains the main concepts and describes the interface of **GDevelop**.  
+This tutorial will help you to begin to use **GDevelop**. You will create a **Top-Down Shooter** game where the player shoots and kills the enemy. Note that you can read the [Getting Started](/gdevelop5/getting_started/) page to get an overview of the software. It explains the main concepts and describes the interface of **GDevelop**.
+
 You can get the completed project ![here](/gdevelop5/tutorials/topdownexample.zip). You can get all assets ![here](/gdevelop5/tutorials/assets.zip).
 
 ---

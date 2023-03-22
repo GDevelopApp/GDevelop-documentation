@@ -15,7 +15,7 @@ Bienvenue dans le didacticiel du jeu **Geometry Monster**. Dans cette suite de c
 
 !!! note
 
-    Ce tutoriel utilise le nouvel éditeur d'action/condition ! Si vous avez déjà installé GDevelop, allez dans les préférences de GDevelop (cliquez sur le menu "Fichier" ou "GDevelop 5" sur macOS), puis "Préférences". Activez «Utiliser le nouvel éditeur d'action/condition» (Use the new action/condition editor). Vous pouvez ensuite revenir au didacticiel. ![](/gdevelop5/tutorials/geometry-monster/activate_new_editor.png) 
+    Ce tutoriel utilise le nouvel éditeur d'action/condition ! Si vous avez déjà installé GDevelop, allez dans les préférences de GDevelop (cliquez sur le menu "Fichier" ou "GDevelop 5" sur macOS), puis "Préférences". Activez «Utiliser le nouvel éditeur d'action/condition» (Use the new action/condition editor). Vous pouvez ensuite revenir au didacticiel. ![](/gdevelop5/tutorials/geometry-monster/activate_new_editor.png)
 
 ## Table des matières
 

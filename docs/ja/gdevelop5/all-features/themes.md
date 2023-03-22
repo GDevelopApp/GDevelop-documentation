@@ -1,7 +1,7 @@
 ---
 title: themes
 ---
-FIXME **This page is not fully translated, yet. Please help completing the translation.**  
+FIXME **This page is not fully translated, yet. Please help completing the translation.**
 *(remove this paragraph once the translation is finished)*
 
 # Creating Themes in GDevelop
@@ -51,7 +51,7 @@ In order for the new theme to be recognized and displayed in GDevelop Preference
 
 The code below demonstrates what the main index.js file should look like after adding the Sunrise theme:
 
-` //imports and exports the new Sunrise theme 
+` //imports and exports the new Sunrise theme
  import Sunrise from './Sunrise';
  import DarkTheme from './DarkTheme';
  import DefaultTheme from './DefaultTheme';
@@ -63,7 +63,7 @@ export const themes = {
 };
 
 export const getTheme = themeName =>
-  themes[themeName] || themes['GDevelop default']; 
+  themes[themeName] || themes['GDevelop default'];
   ` Now, when you run GDevelop, you will see your new theme referenced in "Preferences": ![](/gdevelop5/all-features/preferencessunrise.png) For additional information check out the link that is included in GDevelop: ![](/gdevelop5/all-features/gdpreferencesthemehelp.png)
 
 Read **[Part 2 of Creating Themes here](gdevelop5/all-features//2-themes.txt)**!

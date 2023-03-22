@@ -23,11 +23,11 @@ This array is exactly like what an action or a condition would use. For example,
 
 ![](/gdevelop5/events/javascript-code-with-objects-example.png)
 
-## Examples 
+## Examples
 
 !!! tip
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
     Open these examples online. You can do this with the links given below. There is a number of more examples available when you ask GDevelop to create a new project, then click the examples button.
 
 [![](/gdevelop5/events/javascripttexttospeechexample.png)](https://editor.gdevelop.io/?project=example://text-to-speech)
@@ -40,7 +40,7 @@ This array is exactly like what an action or a condition would use. For example,
 
 ## Documentation 📚
 
-  * Read **[the game engine documentation](https://docs.gdevelop-app.com/GDJS%20Runtime%20Documentation/)** to get started. 
+  * Read **[the game engine documentation](https://docs.gdevelop-app.com/GDJS%20Runtime%20Documentation/)** to get started.
   * You can also browse directly the **[GDJS game engine source code](https://github.com/4ian/GD/tree/master/GDJS/Runtime)**.
 
 
@@ -90,7 +90,7 @@ Equivalent events would be:
 
 By writing the **annotation** `/** @type {gdjs.XXX} */` just before the declaration of a variable in JavaScript, you let the code editor know that the variable has the type gdjs.XXX. The editor will be able to assist you by providing **autocompletion** while you type (or when you hover over a word).
 
-Most of the time annotations are not needed. The methods that you are using are already setup with [type annotations](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/modules/gdjs.html). But when you use a list of objects, you may want to access this object specific method (for example, methods to modify the animation of a sprite object). In this case, you could write `/** @type {gdjs.SpriteRuntimeObject} */`. 
+Most of the time annotations are not needed. The methods that you are using are already setup with [type annotations](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/modules/gdjs.html). But when you use a list of objects, you may want to access this object specific method (for example, methods to modify the animation of a sprite object). In this case, you could write `/** @type {gdjs.SpriteRuntimeObject} */`.
 
 If you don't do this, the code will still work, but the editor will only be able to provide you with the methods of `gdjs.RuntimeObject` (the base class).
 
@@ -131,7 +131,7 @@ Equivalent events would be:
 
 ### Set the position of the camera to the position of an object
 ```javascript
-if (!objects.length) return; 
+if (!objects.length) return;
 
 // Here, "objects" refer to a list of "Player", which should be selected
 // in the configuration of the function.

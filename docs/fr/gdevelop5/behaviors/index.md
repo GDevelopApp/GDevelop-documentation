@@ -5,7 +5,7 @@ title: Comportements
 
 Les comportements ajoutent des capacités supplémentaires aux objets. Tous les objets peuvent avoir un ou plusieurs comportements.
 
-####  Ajouter un comportement à un objet. 
+####  Ajouter un comportement à un objet.
 
 Pour ajouter un comportement à un objet, vous devez ouvrir les propriétés de l'objet en cliquant avec le bouton droit de la souris sur l'objet et sélectionner Edit object dans la liste.
 Ensuite, vous devriez voir les propriétés de l'objet sélectionné que vous devez ignorer pour le moment et sélectionner l'options Behaviors en haut de la fenêtre.
@@ -20,7 +20,7 @@ Ensuite vous devriez voir une liste des comportements disponibles
 Il se peut que vous deviez faire défiler vers le bas pour les voir tous.
 Enfin, il suffit de cliquer sur un comportement pour ajouter le comportement à l'objet.
 
-####  En savoir plus 
+####  En savoir plus
 
 Vous pouvez en apprendre plus sur chaque comportement en cliquant sur les liens suivants:
 

@@ -1,7 +1,8 @@
 ---
 title: project-manager
 ---
-FIXME **Cette page contient peut-être des erreurs, vous pouvez contribuer pour les corriger.**  
+FIXME **Cette page contient peut-être des erreurs, vous pouvez contribuer pour les corriger.**
+
 *(Enlevez ce paragraphe si vous pensez qu'il n'y a plus d'erreurs.)*
 
 # Gestion des projets

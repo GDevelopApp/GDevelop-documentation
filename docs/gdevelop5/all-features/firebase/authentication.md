@@ -1,14 +1,14 @@
 ---
 title: Authentication
 ---
-# Authentication 
+# Authentication
 
-Authentication is the process of verifying the identity of an individual. People often call it the "account login", or something similar. 
-Firebase gives tools to help you create user accounts, authenticate (log into) an account using popular strategies (email-password, google auth, email link, etc), 
+Authentication is the process of verifying the identity of an individual. People often call it the "account login", or something similar.
+Firebase gives tools to help you create user accounts, authenticate (log into) an account using popular strategies (email-password, google auth, email link, etc),
 and linking their account to data using Firestore.
 
-## Authenticating 
-The first and most important thing is the authentication process. That is the part where the user proves who he is. You usually do that through a _login screen_.  
+## Authenticating
+The first and most important thing is the authentication process. That is the part where the user proves who he is. You usually do that through a _login screen_.
 
 Firebase provides a few ways to authenticate:
 
@@ -21,12 +21,12 @@ Firebase provides a few ways to authenticate:
     For now, external providers only work on the browser, it won't work on PC exports or previews.
 
 ## Identifying the user
-Once you are sure about the identity of the user, Firebase provides you a handy user ID that links your user to their data. 
+Once you are sure about the identity of the user, Firebase provides you a handy user ID that links your user to their data.
 Everything related to this user should be stored with this ID to be able to track their ownership of the data back and provide it to them
 once they need it.
 
-For example, if you make a leaderboard, try to not only store the score and name of the user but also their user ID. That way, 
-people can verify that indeed **that person** got the high score, as people could have the same display name, 
+For example, if you make a leaderboard, try to not only store the score and name of the user but also their user ID. That way,
+people can verify that indeed **that person** got the high score, as people could have the same display name,
 or to be able to exclude a user from the leaderboards if he turned out to be cheating.
 
 That ID will stay unique to each user and never change for a user. That is why it is ideal to identify the user.
@@ -52,7 +52,7 @@ To use an authentication provider, you first need to enable it on the Firebase d
 
 ## Dangerous actions
 
-Some actions are called dangerous actions: those can make the account inaccessible to the user if misused. 
+Some actions are called dangerous actions: those can make the account inaccessible to the user if misused.
 For example, changing the email or password of the account is dangerous as if the user loses one of them, it will be hard for them to gain access back to their account.
 Those actions will require therefore re-authenticating to be sure the user is indeed requesting the action and not some peer trying to hijack the account.
 Please actually make the user log in again and don't store their credentials in a variable to reauthenticate them without their knowledge, as this can lead to account hijack.
