@@ -10,7 +10,7 @@ title: ゲームパッド
 !!! tip
 
         **やってみよう！** 🎮
-    [このサンプルをオンライン](https://editor.gdevelop-app.com/?project=example://multiplayer-platformer-with-gamepads)で開きます。
+    [このサンプルをオンライン](https://editor.gdevelop.io/?project=example://multiplayer-platformer-with-gamepads)で開きます。
 
 ## ゲームパッド拡張機能をインストールする
 

@@ -28,7 +28,3 @@ También hay exportaciones para usuarios avanzados:
   * **[iOS & android (manual)](/gdevelop5/publishing/android_and_ios_with_cordova):** esta opción va a exportar tu juego listo para ser utilizado como un proyecto de Cordova. Luego puedes usar las herramientas de la línea de comandos de Cordova para construir tu juego para Android e iOS.
 
   * **[Windows, macOS and Linux (manual)](/gdevelop5/publishing/windows-macos-linux-with-electron):** Esta opción va a exportar tu juego listo para ser utilizado como un proyecto de Electron. Luego puedes usar las herramientas de la línea de comandos para construir tu juego para Windows, macOS o Linux.
-
-Finalmente, también puede mostrar exportaciones experimentales, solo para usuarios avanzados:
-
-  * **[Cocos2d-JS](/gdevelop5/publishing/android_and_ios_with_cocos2d-js)**: esta opción va a exportar tu juego, utilizando Cocos2d-JS como el motor de renderizado del juego. Luego, puede usar las herramientas de línea de comandos de Cocos2d-JS para construir su juego para Android, iOS o como un juego de escritorio.

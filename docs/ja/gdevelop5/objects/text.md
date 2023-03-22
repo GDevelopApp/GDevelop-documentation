@@ -78,18 +78,18 @@ title: テキストオブジェクト
 
 テキストオブジェクトを操作する
 
-[![](/gdevelop5/objects/changetextexample1.png)](https://editor.gdevelop-app.com/?project=example://manipulate-text-object)
+[![](/gdevelop5/objects/changetextexample1.png)](https://editor.gdevelop.io/?project=example://manipulate-text-object)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://manipulate-text-object){ .md-button .md-button--primary }
 
 テキストのフェードインとフェードアウト
 
-[![](/gdevelop5/objects/textfadeoutinexample.png)](https://editor.gdevelop-app.com/?project=example://text-fade-in-out)
+[![](/gdevelop5/objects/textfadeoutinexample.png)](https://editor.gdevelop.io/?project=example://text-fade-in-out)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://text-fade-in-out){ .md-button .md-button--primary }
 
 テキストのタイピング表示
 
-[![](/gdevelop5/objects/type-ontexteffectexample.png)](https://editor.gdevelop-app.com/?project=example://type-on-text-effect)
+[![](/gdevelop5/objects/type-ontexteffectexample.png)](https://editor.gdevelop.io/?project=example://type-on-text-effect)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://type-on-text-effect){ .md-button .md-button--primary }

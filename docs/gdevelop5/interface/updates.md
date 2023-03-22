@@ -21,4 +21,4 @@ You can now close GDevelop and open it again: the new update will be installed. 
 
 ## Got a problem? Download again GDevelop from the website
 
-If the update can't be applied for any reason, or if you think that GDevelop is not working after an update, just [download again GDevelop from the website](https://gdevelop-app.com). Your preferences won't be lost.
+If the update can't be applied for any reason, or if you think that GDevelop is not working after an update, just [download again GDevelop from the website](https://gdevelop.io). Your preferences won't be lost.

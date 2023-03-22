@@ -33,4 +33,4 @@ GDevelop はタッチとマウス入力に標準で対応しています。
 
         **やってみよう！** 🎮
 
-    Open this example online: https://editor.gdevelop-app.com?project=example://multitouch
+    Open this example online: https://editor.gdevelop.io?project=example://multitouch

@@ -7,9 +7,9 @@ title: 1-install-and-setup
 
 **GDevelop** es un motor de juego multiplataforma de código abierto y gratuito para todos - no necesitas saber cómo codificar para crear tu primer juego. Se puede usar tanto para proyectos de pasatiempo como para la creación de juegos con fines de lucro..
 
-Para obtener su copia de GDevelop puede visitar la [Página de descarga](https://gdevelop-app.com/download/) en donde están disponibles las distribuciones para Windows, Mac OS, and Linux.
+Para obtener su copia de GDevelop puede visitar la [Página de descarga](https://gdevelop.io/download/) en donde están disponibles las distribuciones para Windows, Mac OS, and Linux.
 
-También puedes probar un [Editor online](https://editor.gdevelop-app.com/) directamente en tu navegador si no quieres instalar nada. Para este tutorial, aún se recomienda descargar la versión completa.
+También puedes probar un [Editor online](https://editor.gdevelop.io/) directamente en tu navegador si no quieres instalar nada. Para este tutorial, aún se recomienda descargar la versión completa.
 
 ![](/gdevelop5/tutorials/geometry-monster/01_5.png)
 

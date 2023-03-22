@@ -42,7 +42,7 @@ Firebase предоставляет несколько способов ауте
 Чтобы хранить больше данных, вам нужно будет использовать что-то вроде [Firestore](/gdevelop5/all-features/firebase/firestore).
 !!! tip
 
-    Чтобы использовать URL-адрес фотографии, взгляните на пример [загрузки изображения из URL в спрайт](https://editor.gdevelop-app.com/?project=example://load-image-from-url).
+    Чтобы использовать URL-адрес фотографии, взгляните на пример [загрузки изображения из URL в спрайт](https://editor.gdevelop.io/?project=example://load-image-from-url).
 
 ## Опасные действия
 

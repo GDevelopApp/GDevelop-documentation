@@ -7,7 +7,7 @@ title: 1-install-and-setup
 
 **GDevelop** is a free, open-source, cross-platform game engine for everyone - you don't need to know how to code to create your first game. It can be used for both hobby projects and for profit game making as well.
 
-To get your copy of GDevelop you can visit the [Download page](https://gdevelop-app.com/download/) where distributions for Windows, Mac OS, and Linux are available.
+To get your copy of GDevelop you can visit the [Download page](https://gdevelop.io/download/) where distributions for Windows, Mac OS, and Linux are available.
 
 You can also try an [online editor](https://editor.gdevelop.io/) right in your browser if you don't want to install anything. For this tutorial, it's still recommended to download the full version.
 

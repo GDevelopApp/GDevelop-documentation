@@ -23,10 +23,10 @@ title: リンクイベント
 
     オンラインでサンプルを実行
 
-[![](/gdevelop5/events/asteroidexternalexamplenew.png)](https://editor.gdevelop-app.com/?project=example://asteroids)
+[![](/gdevelop5/events/asteroidexternalexamplenew.png)](https://editor.gdevelop.io/?project=example://asteroids)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://asteroids){ .md-button .md-button--primary }
 
-[![](/gdevelop5/events/platformerbehaviornew.png)](https://editor.gdevelop-app.com/?project=example://platformer)
+[![](/gdevelop5/events/platformerbehaviornew.png)](https://editor.gdevelop.io/?project=example://platformer)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://platformer){ .md-button .md-button--primary }

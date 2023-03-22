@@ -37,9 +37,9 @@ Puede encontrar el uso de estas condiciones y acciones en los ejemplos:
 
 !!! note
 
-    **Véalo en acción!** 🎮 Abre el ejemplo Online: <https://editor.gdevelop-app.com?project=example://bomb-the-crate>
+    **Véalo en acción!** 🎮 Abre el ejemplo Online: <https://editor.gdevelop.io?project=example://bomb-the-crate>
 
-[![](/undefined/checkccollisionbetweenobjects.png)](https://editor.gdevelop-app.com?project=example://bomb-the-crate)
+[![](/undefined/checkccollisionbetweenobjects.png)](https://editor.gdevelop.io?project=example://bomb-the-crate)
 
 ## Juegos de Plataformas: usa el personaje de Plataformas y los comportamientos de Plataforma.
 
@@ -57,7 +57,7 @@ En un juego de plataformas con el comportamiento del "personaje de Platformer", 
 
         **Véalo en acción!** 🎮
 
-    Abre los ejemplos Online: <https://editor.gdevelop-app.com?project=example://platformer>
+    Abre los ejemplos Online: <https://editor.gdevelop.io?project=example://platformer>
 
 ## ¿Juego con la física? Usa el comportamiento de la física.
 
@@ -75,6 +75,6 @@ En su lugar, use la Condición de colisión **dentro de la categoría de comport
 
 !!! note
 
-    **Véalo en acción!** 🎮 Abra el ejemplo Online: <https://editor.gdevelop-app.com?project=example://physics>
+    **Véalo en acción!** 🎮 Abra el ejemplo Online: <https://editor.gdevelop.io?project=example://physics>
 
 ![](/gdevelop5/behaviors/hingeleverdemo.png)

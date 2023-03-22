@@ -21,10 +21,5 @@ Ensuite, de multiples options vous seront proposées:
 
 Il y a aussi des exportations pour les utilisateurs avancés:
 
-  * **[Exportation vers un dossier local](/fr/gdevelop5/publishing/html5_game_in_a_local_folder):**  Cette option vous permet d'exporter votre jeu dans un dossier et de le télécharger manuellement vers n'importe quel hôte que vous voulez ou de l'envelopper dans un bureau ou une application mobile manuellement en utilisant n'importe quel outil que vous préférez, comme peut le faire Electron.
+  * **[Exportation vers un dossier local](/gdevelop5/publishing/html5_game_in_a_local_folder):**  Cette option vous permet d'exporter votre jeu dans un dossier et de le télécharger manuellement vers n'importe quel hôte que vous voulez ou de l'envelopper dans un bureau ou une application mobile manuellement en utilisant n'importe quel outil que vous préférez, comme peut le faire Electron.
   * **[iOS & android (manuel)](/fr/gdevelop5/publishing/android_and_ios_with_cordova):** cette option va exporter votre jeu prêt à être utilisé comme un projet Cordova. Vous pouvez ensuite utiliser les outils de ligne de commande Cordova pour créer votre jeu pour Android et iOS.
-
-
-Finalement, vous pouvez également afficher les exportations expérimentales, seulement pour les utilisateurs avancés:
-
-  * **[Cocos2d-JS](/fr/gdevelop5/publishing/android_and_ios_with_cocos2d-js)**: cette option va exporter votre jeu, en utilisant Cocos2d-JS comme moteur de rendu du jeu. Vous pouvez ensuite utiliser les outils en ligne de commande Cocos2d-JS pour construire votre jeu pour Android, iOS ou en tant que jeu de bureau.

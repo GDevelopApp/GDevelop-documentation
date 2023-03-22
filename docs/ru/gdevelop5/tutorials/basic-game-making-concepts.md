@@ -7,7 +7,7 @@ FIXME **This page is not fully translated, yet. Please help completing the trans
 
 # Основные концепции создания игр: что нужно знать, чтобы начать с GDevelop
 
-Основные концепции создания игр в GDevelop просты. Для начала прочитайте ниже следующую информацию. Если у вас нет GDevelop, [скачайте последнюю версию здесь](https://gdevelop-app.com/download).
+Основные концепции создания игр в GDevelop просты. Для начала прочитайте ниже следующую информацию. Если у вас нет GDevelop, [скачайте последнюю версию здесь](https://gdevelop.io/download).
 
 ## Отображение вещей на экране: Объекты
 
@@ -45,9 +45,9 @@ The event below has a condition. It will delete **only** the "Square" objects wi
 
 !!! note
 
-    **See it in action!** 🎮Open this example online: <https://editor.gdevelop-app.com/?project=example://object-selection>
+    **See it in action!** 🎮Open this example online: <https://editor.gdevelop.io/?project=example://object-selection>
 
-[![](/gdevelop5/tutorials/objectselection-pickobject.png)](https://editor.gdevelop-app.com/?project=example://object-selection)
+[![](/gdevelop5/tutorials/objectselection-pickobject.png)](https://editor.gdevelop.io/?project=example://object-selection)
 
 ## Events: the order is important
 
@@ -97,9 +97,9 @@ Some "behaviors", like the Physics engine or Pathfinding, may move the objects b
 
 !!! note
 
-    **See it in action!** 🎮Open this example online: <https://editor.gdevelop-app.com/?project=example://move-object-with-physics>
+    **See it in action!** 🎮Open this example online: <https://editor.gdevelop.io/?project=example://move-object-with-physics>
 
-[![](/gdevelop5/tutorials/moveobjectwithphysics.png)](https://editor.gdevelop-app.com/?project=example://move-object-with-physics)
+[![](/gdevelop5/tutorials/moveobjectwithphysics.png)](https://editor.gdevelop.io/?project=example://move-object-with-physics)
 
 !!! note
 

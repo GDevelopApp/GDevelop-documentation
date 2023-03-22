@@ -80,7 +80,7 @@ L'utilisation des événements permet de modifier les propriétés d’une forme
         **Voir en action !** 🎮
     Ouvrez cet exemple en ligne.
 
-[![](/gdevelop5/objects/shapepainterobject.png)](https://editor.gdevelop-app.com/?project=example://advanced-shape-based-painter)
+[![](/gdevelop5/objects/shapepainterobject.png)](https://editor.gdevelop.io/?project=example://advanced-shape-based-painter)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://advanced-shape-based-painter){ .md-button .md-button--primary }
 

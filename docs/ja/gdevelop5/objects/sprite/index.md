@@ -146,16 +146,16 @@ title: スプライトオブジェクト
         **やってみよう！** 🎮
     画像をクリックすると、オンラインでサンプルを実行できます。
 
-[![](/gdevelop5/objects/createaspritenew.png)](https://editor.gdevelop-app.com/?project=example://change-scale-of-sprites)
+[![](/gdevelop5/objects/createaspritenew.png)](https://editor.gdevelop.io/?project=example://change-scale-of-sprites)
 
 ----
 
-[![](/gdevelop5/objects/changespriteanimationexamplenew.png)](https://editor.gdevelop-app.com/?project=example://change-sprite-animation)
+[![](/gdevelop5/objects/changespriteanimationexamplenew.png)](https://editor.gdevelop.io/?project=example://change-sprite-animation)
 
 ----
 
-[![](/gdevelop5/objects/changespritecolorexamplenew.png)](https://editor.gdevelop-app.com/?project=example://change-sprite-color)
+[![](/gdevelop5/objects/changespritecolorexamplenew.png)](https://editor.gdevelop.io/?project=example://change-sprite-color)
 
 ----
 
-[![](/gdevelop5/objects/changespriteanimationexample2new.png)](https://editor.gdevelop-app.com/?project=example://play-stop-sprite-animation)
+[![](/gdevelop5/objects/changespriteanimationexample2new.png)](https://editor.gdevelop.io/?project=example://play-stop-sprite-animation)

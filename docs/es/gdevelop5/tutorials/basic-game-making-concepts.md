@@ -3,7 +3,7 @@ title: Conceptos básicos de creación de juegos - lo que necesitas saber para c
 ---
 # Conceptos básicos de creación de juegos: lo que necesitas saber para comenzar con GDevelop
 
-Los conceptos básicos de GDevelop son simples. Lee la siguiente información para comenzar con el software. Si no tienes GDevelop, descarga la última versión aquí: <https://gdevelop-app.com/download/>
+Los conceptos básicos de GDevelop son simples. Lee la siguiente información para comenzar con el software. Si no tienes GDevelop, descarga la última versión aquí: <https://gdevelop.io/download/>
 
 ## Mostrar cosas en la pantalla: los Objetos
 

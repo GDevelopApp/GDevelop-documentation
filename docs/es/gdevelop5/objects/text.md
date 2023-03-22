@@ -47,16 +47,16 @@ Además, el texto se puede cambiar utilizando eventos. A continuación, el objet
 
 Manipular un objeto de texto
 
-[![](/gdevelop5/objects/changetextexample1.png)](https://editor.gdevelop-app.com/?project=example://manipulate-text-object)
+[![](/gdevelop5/objects/changetextexample1.png)](https://editor.gdevelop.io/?project=example://manipulate-text-object)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://manipulate-text-object){ .md-button .md-button--primary }
 
-Fade texto dentro y fuera. [![](/gdevelop5/objects/textfadeoutinexample.png)](https://editor.gdevelop-app.com/?project=example://text-fade-in-out)
+Fade texto dentro y fuera. [![](/gdevelop5/objects/textfadeoutinexample.png)](https://editor.gdevelop.io/?project=example://text-fade-in-out)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://text-fade-in-out){ .md-button .md-button--primary }
 
 Escriba en efecto de texto.
 
-[![](/gdevelop5/objects/type-ontexteffectexample.png)](https://editor.gdevelop-app.com/?project=example://type-on-text-effect)
+[![](/gdevelop5/objects/type-ontexteffectexample.png)](https://editor.gdevelop.io/?project=example://type-on-text-effect)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://type-on-text-effect){ .md-button .md-button--primary }

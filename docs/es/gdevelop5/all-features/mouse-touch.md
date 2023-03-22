@@ -31,4 +31,4 @@ Se pueden hacer múltiples toques al mismo tiempo. Debe almacenar el identificad
 
         **Vélo en acción!** 🎮
 
-    Abra este ejemplo Online: <https://editor.gdevelop-app.com?project=example://multitouch>
+    Abra este ejemplo Online: <https://editor.gdevelop.io?project=example://multitouch>

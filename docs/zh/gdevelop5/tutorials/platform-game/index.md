@@ -10,7 +10,7 @@ title: 如何制作一个平台游戏
 
 ## 下载 GDevelop
 
-如果您还没有安装 **GDevelop 5**, 从以下网址下载 [official website](https://gdevelop-app.com). 它适用于Windows、macOS和Linux。
+如果您还没有安装 **GDevelop 5**, 从以下网址下载 [official website](https://gdevelop.io). 它适用于Windows、macOS和Linux。
 
 请始终从该页面下载GDevelop，以确保具有最新版本。安装（或提取）GDevelop并启动它。
 

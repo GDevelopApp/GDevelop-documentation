@@ -17,7 +17,7 @@ Aquí hay un ejemplo de Timer más avanzado. El temporizador se utiliza para pro
 
         **Véalo en acción!** 🎮
 
-    Abra este ejemplo Online: <https://editor.gdevelop-app.com?project=example://asteroids>
+    Abra este ejemplo Online: <https://editor.gdevelop.io?project=example://asteroids>
 
 ## Temporizadores de objetos (Object timers)
 
@@ -37,7 +37,7 @@ Usar variables de objeto para verificar los temporizadores de objetos es útil. 
 
         **Véalo en acción!** 🎮
 
-    Abra este ejemplo Online: <https://editor.gdevelop-app.com?project=example://objects-timers>
+    Abra este ejemplo Online: <https://editor.gdevelop.io?project=example://objects-timers>
 
 ![](/gdevelop5/all-features/fireratetimerexample.png)
 

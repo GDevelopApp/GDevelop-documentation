@@ -29,7 +29,7 @@ You can get the completed project ![here](/gdevelop5/tutorials/topdownexample.zi
 
 ### Step 1. Install GDevelop
 
-If you haven't already installed [GDevelop](https://gdevelop-app.com), you can download and install it. After you open GDevelop, you will see the following interface: ![20211206-115208.png](/gdevelop5/tutorials/topdown-shooter/pasted/20211206-115208.png)
+If you haven't already installed [GDevelop](https://gdevelop.io), you can download and install it. After you open GDevelop, you will see the following interface: ![20211206-115208.png](/gdevelop5/tutorials/topdown-shooter/pasted/20211206-115208.png)
 
 ### Step 2. Create a new project
 

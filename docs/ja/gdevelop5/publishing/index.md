@@ -22,10 +22,6 @@ GDevelopを使用すると、最新のプラットフォームにゲームを公
   * **[iOS & android (手動l)](/gdevelop5/publishing/android_and_ios_with_cordova):** このオプションは、Cordovaプロジェクトとして使用する準備ができたゲームをエクスポートします。その後、Cordovaコマンドラインツールを使用して、AndroidおよびiOS用のゲームを構築できます。
   * **[Windows, macOS and Linux (手動)](/gdevelop5/publishing/windows-macos-linux-with-electron):** このオプションは、Electronプロジェクトとして使用する準備ができたゲームをエクスポートします。その後、コマンドラインツールを使用して、Windows、macOS、またはLinux用のゲームを構築できます。
 
-ベータ版のエクスポートオプションを表示することもできますが、上級ユーザーのみが対象です
-
-  * **[Cocos2d-JS](/gdevelop5/publishing/android_and_ios_with_cocos2d-js)**: このオプションは、Cocos2d-JSをゲームレンダリングエンジンとして使用して、ゲームをエクスポートします。その後、Cocos2d-JSコマンドラインツールを使用して、Android、iOS、またはデスクトップゲームとしてゲームをビルドできます。
-
 その他のリリースオプション:
 
   *  **[Ubuntu Touch (モバイル版)](/gdevelop5/publishing/ubuntu-touch-packaging):** このガイドでは、Ubuntu Touchのクリックパッケージとしてゲームをパッケージ化するプロセスについて説明します。

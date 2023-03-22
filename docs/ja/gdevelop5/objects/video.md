@@ -30,13 +30,13 @@ title: ビデオオブジェクト
 \[ビデオリソース\]フィールドをクリックしてから、\[新しいビデオファイルを選択\]をクリックします。ほとんどのブラウザとの互換性については、ビデオ形式に関する以下のアドバイスに従ってください。
 
 !!! note
-    
+
         ファイルは、次のようにエンコードされた.mp4形式である必要があります 。
-    
+
     - **H264** ビデオ,
     - **AAC** オーディオ.
-    
-    
+
+
 
 以下も選択できます。
 
@@ -106,4 +106,4 @@ GDevelopを使用してビデオの音量を設定することもできます。
 
 ## ビデオ再生のサンプル
 
-- Video player: <https://editor.gdevelop-app.com/?project=example://video-player>
+- Video player: <https://editor.gdevelop.io/?project=example://video-player>

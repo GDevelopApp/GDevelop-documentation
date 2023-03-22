@@ -30,4 +30,4 @@ Are you doing any training for GDevelop? Please add a link to your workshop here
 
 ## Education
 
-Discover how [GDevelop is used in education](https://gdevelop-app.com/education).
+Discover how [GDevelop is used in education](https://gdevelop.io/education).

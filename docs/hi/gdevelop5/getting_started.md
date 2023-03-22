@@ -13,7 +13,7 @@ This guide explains how to get up and running with GDevelop.
 
 ## Step 1: Install GDevelop
 
-GDevelop is available for all major operating systems, including the latest versions of Windows, macOS, and Linux. To download GDevelop, visit \[gdevelop-app.com/download\](<https://gdevelop-app.com/download/>).
+GDevelop is available for all major operating systems, including the latest versions of Windows, macOS, and Linux. To download GDevelop, visit \[gdevelop.io/download\](<https://gdevelop.io/download/>).
 
 The installation instructions depend on the operating system.
 
@@ -30,7 +30,7 @@ The installation instructions depend on the operating system.
 
 !!! note
 
-    There's an online version of GDevelop available at \[editor.gdevelop-app.com\](<https://editor.gdevelop-app.com/>). In general though, we recommend using the desktop version.
+    There's an online version of GDevelop available at \[editor.gdevelop.io\](<https://editor.gdevelop.io/>). In general though, we recommend using the desktop version.
 
 ## Step 2: Create a new project
 

@@ -3,7 +3,7 @@ title: ゲーム作りの基本コンセプト：GDevelop を使うために知�
 ---
 # ゲーム作りの基本コンセプト：GDevelop を使うために知っておきたいこと
 
-GDevelop の基本コンセプトはシンプルです。ソフトを使いはじめるにあたって、この後の説明を読んでおいてください。GDevelop をまだ入手していない場合は、[ここから最新バージョンをダウンロードしてください](https://gdevelop-app.com/download)。
+GDevelop の基本コンセプトはシンプルです。ソフトを使いはじめるにあたって、この後の説明を読んでおいてください。GDevelop をまだ入手していない場合は、[ここから最新バージョンをダウンロードしてください](https://gdevelop.io/download)。
 
 ## 画面に表示されるもの：オブジェクト
 
@@ -46,9 +46,9 @@ X 座標は、左に行くと_減少_し、右に行くと_増加_します。Y 
 
 !!! tip
 
-    **やってみよう！** 🎮次のサンプルをオンラインで実行してみましょう: https://editor.gdevelop-app.com/?project=example://object-selection
+    **やってみよう！** 🎮次のサンプルをオンラインで実行してみましょう: https://editor.gdevelop.io/?project=example://object-selection
 
-[![](/gdevelop5/tutorials/objectselection-pickobject.png)](https://editor.gdevelop-app.com/?project=example://object-selection)
+[![](/gdevelop5/tutorials/objectselection-pickobject.png)](https://editor.gdevelop.io/?project=example://object-selection)
 
 ## イベント：順番が重要
 
@@ -102,9 +102,9 @@ X 座標は、左に行くと_減少_し、右に行くと_増加_します。Y 
 
 !!! tip
 
-    **やってみよう！** 🎮次のサンプルをオンラインで実行してみましょう: https://editor.gdevelop-app.com/?project=example://move-object-with-physics
+    **やってみよう！** 🎮次のサンプルをオンラインで実行してみましょう: https://editor.gdevelop.io/?project=example://move-object-with-physics
 
-[![](/gdevelop5/tutorials/moveobjectwithphysics.png)](https://editor.gdevelop-app.com/?project=example://move-object-with-physics)
+[![](/gdevelop5/tutorials/moveobjectwithphysics.png)](https://editor.gdevelop.io/?project=example://move-object-with-physics)
 
 !!! note
 

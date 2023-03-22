@@ -11,7 +11,7 @@ title: Un tutoriel pour débutants de jeu de course infinie
 
 ## Télécharger GDevelop
 
-Si vous n'avez pas encore installé GDevelop, téléchargez-le depuis le site officiel : [GDevelop App](https://gdevelop-app.com/fr/download/).
+Si vous n'avez pas encore installé GDevelop, téléchargez-le depuis le site officiel : [GDevelop App](https://gdevelop.io/fr-fr/download/).
 
 Il est conseillé de toujours vérifier la page ci-dessus pour les dernières versions de GDevelop et de garder le logiciel à jour à tout moment. Une fois que vous avez téléchargé et installé le logiciel, lorsque vous lancez le programme, vous serez accueilli par un écran "Start".
 

@@ -13,7 +13,7 @@ Note que você poderá ler a página [Getting Started](/gdevelop5/getting_starte
 
 ## Baixar GDevelop
 
-Se você não tiver o **GDevelop 5**, faça o download do \[website oficial\](<https://gdevelop-app.com>). Está disponível para Windows, macOS e Linux.
+Se você não tiver o **GDevelop 5**, faça o download do \[website oficial\](<https://gdevelop.io>). Está disponível para Windows, macOS e Linux.
 
 Sempre baixe o GDevelop desta página para ter certeza de ter a versão mais recente. Instale (ou extraia) o GDevelop e inicie-o.
 

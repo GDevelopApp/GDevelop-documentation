@@ -42,7 +42,7 @@ title: ドラッグ対応オブジェクトビヘイビア
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://snap-object-to-grid){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/snaptogrid.png)](https://editor.gdevelop-app.com/?project=example://snap-object-to-grid)
+[![](/gdevelop5/behaviors/snaptogrid.png)](https://editor.gdevelop.io/?project=example://snap-object-to-grid)
 
 
 
@@ -50,7 +50,7 @@ title: ドラッグ対応オブジェクトビヘイビア
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://shoot-bullet-in-parabola){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/shootbulletparabolapattern.png)](https://editor.gdevelop-app.com/?project=example://shoot-bullet-in-parabola)
+[![](/gdevelop5/behaviors/shootbulletparabolapattern.png)](https://editor.gdevelop.io/?project=example://shoot-bullet-in-parabola)
 
 
 
@@ -58,7 +58,7 @@ title: ドラッグ対応オブジェクトビヘイビア
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://save-load){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/saveandloadexample.png)](https://editor.gdevelop-app.com/?project=example://save-load)
+[![](/gdevelop5/behaviors/saveandloadexample.png)](https://editor.gdevelop.io/?project=example://save-load)
 
 
 
@@ -66,4 +66,4 @@ title: ドラッグ対応オブジェクトビヘイビア
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://pathfinding-basics){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/pathfindingbasics.png)](https://editor.gdevelop-app.com/?project=example://pathfinding-basics)
+[![](/gdevelop5/behaviors/pathfindingbasics.png)](https://editor.gdevelop.io/?project=example://pathfinding-basics)

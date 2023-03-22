@@ -7,7 +7,7 @@ title: ロードライダー - エンドレスカーゲームチュートリア�
 ![](/gdevelop5/tutorials/peek_2019-05-30_19-46.gif)
 
 ## GDevelopのダウンロード
-GDevelopをまだお持ちでない場合は、[GDevelopの公式Webサイト](https://gdevelop-app.com/download/)からダウンロードできます。Windows、macOS、Linuxで利用できます。
+GDevelopをまだお持ちでない場合は、[GDevelopの公式Webサイト](https://gdevelop.io/download/)からダウンロードできます。Windows、macOS、Linuxで利用できます。
 
 GDevelopをダウンロードした後、インストールが終了するとDevelopを起動できます。
 

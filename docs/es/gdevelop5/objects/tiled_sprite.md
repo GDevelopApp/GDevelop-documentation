@@ -55,6 +55,6 @@ El editor de escenas (eventos) también se puede usar para cambiar el tamaño de
         **Véalo en acción!** 🎮
     Abre los ejemplos Online.
 
-[![](/gdevelop5/behaviors/platformerbehavior.png)](https://editor.gdevelop-app.com/?project=example://platformer)
+[![](/gdevelop5/behaviors/platformerbehavior.png)](https://editor.gdevelop.io/?project=example://platformer)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://platformer){ .md-button .md-button--primary }

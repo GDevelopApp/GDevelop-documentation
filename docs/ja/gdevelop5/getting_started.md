@@ -9,7 +9,7 @@ GDevelop はフリーでオープンソース、そしてクロスプラット�
 
 ## ステップ 1: GDevelop のインストール
 
-GDevelop は Windows、macOS、Linux の最新版を含む主要な OS すべてで利用できます。まずは [gdevelop-app.com/download](https://gdevelop-app.com/download/) から GDevelop をダウンロードしましょう。
+GDevelop は Windows、macOS、Linux の最新版を含む主要な OS すべてで利用できます。まずは [gdevelop.io/download](https://gdevelop.io/download/) から GDevelop をダウンロードしましょう。
 
 インストール手順は、OS に応じて下記を参照してください。
 
@@ -24,7 +24,7 @@ GDevelop は Windows、macOS、Linux の最新版を含む主要な OS すべて
 
 !!! note
 
-    インストールをせずに [editor.gdevelop-app.com](https://editor.gdevelop.io/) でオンライン版の GDevelop を利用することもできます。ただし通常はデスクトップ版の使用をおすすめします。
+    インストールをせずに [editor.gdevelop.io](https://editor.gdevelop.io/) でオンライン版の GDevelop を利用することもできます。ただし通常はデスクトップ版の使用をおすすめします。
 
 ## ステップ 2: プロジェクトの新規作成
 

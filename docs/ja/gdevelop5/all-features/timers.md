@@ -17,7 +17,7 @@ title: タイマー
 !!! tip
 
         **やってみよう！** 🎮
-    次のサンプルをオンラインで実行してみましょう：https://editor.gdevelop-app.com?project=example://asteroids
+    次のサンプルをオンラインで実行してみましょう：https://editor.gdevelop.io?project=example://asteroids
 
 ## オブジェクトタイマー
 
@@ -41,7 +41,7 @@ title: タイマー
 !!! tip
 
         **やってみよう！** 🎮
-    次のサンプルをオンラインで実行してみましょう：https://editor.gdevelop-app.com?project=example://objects-timers
+    次のサンプルをオンラインで実行してみましょう：https://editor.gdevelop.io?project=example://objects-timers
 
 ![](/gdevelop5/all-features/fireratetimerexamplenew.png)
 

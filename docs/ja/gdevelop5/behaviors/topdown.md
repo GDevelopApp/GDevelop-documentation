@@ -77,7 +77,7 @@ title: トップダウン移動ビヘイビア
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://space-shooter){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/spaceshooter.png)](https://editor.gdevelop-app.com/?project=example://space-shooter)
+[![](/gdevelop5/behaviors/spaceshooter.png)](https://editor.gdevelop.io/?project=example://space-shooter)
 
 
 
@@ -85,4 +85,4 @@ title: トップダウン移動ビヘイビア
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://isometric-game){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/isometricgame.png)](https://editor.gdevelop-app.com/?project=example://isometric-game)
+[![](/gdevelop5/behaviors/isometricgame.png)](https://editor.gdevelop.io/?project=example://isometric-game)

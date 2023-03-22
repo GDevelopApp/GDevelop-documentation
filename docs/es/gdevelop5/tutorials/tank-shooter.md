@@ -9,7 +9,7 @@ Para obtener una descripción general del software, le recomiendo que lea primer
 
 ### Descargar GDevelop
 
-Si no tiene GDevelop, descárguelo del sitio web oficial: [gdevelop-app.com](/http/ //gdevelop-app.com)
+Si no tiene GDevelop, descárguelo del sitio web [oficial](https://gdevelop.io)
 
 Siempre descargue GD desde esta página para asegurarse de que tiene la última versión. Una vez que haya instalado GDevelop, ejecútelo. Se mostrará la página "Inicio" de la interfaz: ![](/gdevelop5/start_page.png)
 

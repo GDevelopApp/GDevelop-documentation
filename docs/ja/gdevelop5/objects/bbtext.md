@@ -66,6 +66,6 @@ GDevelop が対応する追加スタイルは次の通りです。
 
     オンラインで下記のサンプルを実行できます。
 
-[![](/gdevelop5/objects/bbtext-example.jpg)](https://editor.gdevelop-app.com/?project=example://bbtext-object-demo)
+[![](/gdevelop5/objects/bbtext-example.jpg)](https://editor.gdevelop.io/?project=example://bbtext-object-demo)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://bbtext-object-demo){ .md-button .md-button--primary }

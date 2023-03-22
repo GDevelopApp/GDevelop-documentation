@@ -3,7 +3,7 @@ title: Conceitos básicos de criação de jogos - O que você precisa saber para
 ---
 # Conceitos básicos de criação de jogos: O que você precisa saber para começar com o GDevelop
 
-Os conceitos básicos do GDevelop são simples. Leia as seguintes informações para começar a usar o software. Se você não possui o GDevelop, [baixe a última versão aqui](https://gdevelop-app.com/download)!
+Os conceitos básicos do GDevelop são simples. Leia as seguintes informações para começar a usar o software. Se você não possui o GDevelop, [baixe a última versão aqui](https://gdevelop.io/download)!
 
 ## Mostrando coisas na tela: os objetos
 
@@ -44,9 +44,9 @@ O evento abaixo tem uma condição. Ele excluirá apenas os objetos "Square" com
 
 !!! tip
 
-    **Veja em ação!** 🎮 Abra este exemplo online: https://editor.gdevelop-app.com/?project=example://object-selection
+    **Veja em ação!** 🎮 Abra este exemplo online: https://editor.gdevelop.io/?project=example://object-selection
 
-[![](/gdevelop5/tutorials/objectselection-pickobject.png)](https://editor.gdevelop-app.com/?project=example://object-selection)
+[![](/gdevelop5/tutorials/objectselection-pickobject.png)](https://editor.gdevelop.io/?project=example://object-selection)
 
 ## Eventos: a ordem é importante
 
@@ -95,9 +95,9 @@ Alguns "comportamentos", como o mecanismo de física ou o _Pathfinding_ (Pesquis
 
 !!! tip
 
-    **Veja em ação!** 🎮Abra o exemplo online: https://editor.gdevelop-app.com/?project=example://move-object-with-physics
+    **Veja em ação!** 🎮Abra o exemplo online: https://editor.gdevelop.io/?project=example://move-object-with-physics
 
-[![](/gdevelop5/tutorials/moveobjectwithphysics.png)](https://editor.gdevelop-app.com/?project=example://move-object-with-physics)
+[![](/gdevelop5/tutorials/moveobjectwithphysics.png)](https://editor.gdevelop.io/?project=example://move-object-with-physics)
 
 ## Armazenando qualquer informação na memória: Variáveis
 
@@ -112,7 +112,7 @@ Ações e condições testam ou alteram uma variável de _valor_.
 O _escopo_ de uma variável determina o local em que uma variável pode ser acessada. No GDevelop, existem três variáveis escopos disponíveis:
 
 * As variáveis **Globais** são acessíveis em todas as cenas do jogo. Por exemplo, eles podem ser usados para armazenar a pontuação do jogador em diferentes níveis / cenas.
-* As variáveis de **Cena** são acessíveis apenas a partir da cena em que foram criadas. Elas podem ser usadas para dados que dizem respeito apenas a uma cena. Uma variável de cena poderia acessar o tempo restante para concluir o nível / cena.   
+* As variáveis de **Cena** são acessíveis apenas a partir da cena em que foram criadas. Elas podem ser usadas para dados que dizem respeito apenas a uma cena. Uma variável de cena poderia acessar o tempo restante para concluir o nível / cena.
 * As variáveis **Objeto** dizem respeito apenas a um objeto. Por exemplo, um herói pode ter uma variável "Saúde" ou "Munição".
 
 !!! note

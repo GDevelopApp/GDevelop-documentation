@@ -61,6 +61,6 @@ Usando eventos también podemos cambiar cualquier propiedad de una forma sobre l
         **Véalo en acción!** 🎮
     Abra estos ejemplos Online.
 
-[![](/gdevelop5/objects/shapepainterobject.png)](https://editor.gdevelop-app.com/?project=example://advanced-shape-based-painter)
+[![](/gdevelop5/objects/shapepainterobject.png)](https://editor.gdevelop.io/?project=example://advanced-shape-based-painter)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://advanced-shape-based-painter){ .md-button .md-button--primary }

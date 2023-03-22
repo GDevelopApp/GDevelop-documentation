@@ -5,12 +5,12 @@ title: 시작하기
 
 ## GDevelop 온라인을 사용하거나 데스크탑 버젼을 다운로드 하세요.
 
-* 시작하기 위해, [GDevelop 온라인 체험]을 할 수 있습니다. (https://editor.gdevelop-app.com).
+* 시작하기 위해, [GDevelop 온라인 체험]을 할 수 있습니다. (https://editor.gdevelop.io).
 * 자신만의 게임을 만들려면, [GDevelop 웹사이트의 데스크탑 버젼]을
 ## GDevelop 온라인을 사용하거나 데스크탑 버젼을 다운로드 하세요.
 
-* 시작하기 위해, [GDevelop 온라인 체험]을 할 수 있습니다. (https://editor.gdevelop-app.com).
-* 자신만의 게임을 만들려면, [GDevelop 웹사이트의 데스크탑 버젼]을 저장하고 게시하세요. (https://gdevelop-app.com).
+* 시작하기 위해, [GDevelop 온라인 체험]을 할 수 있습니다. (https://editor.gdevelop.io).
+* 자신만의 게임을 만들려면, [GDevelop 웹사이트의 데스크탑 버젼]을 저장하고 게시하세요. (https://gdevelop.io).
 
 GDevelop을 다운로드했으면, 설치 프로그램을 열고 소프트웨어를 설치하세요.
 
