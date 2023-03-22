@@ -1,6 +1,7 @@
 ---
 title: start
 ---
+
 ![](/logocompleteeffecttranparent400x100.png)
 
 # GDevelop Wiki
@@ -9,18 +10,13 @@ GDevelop é um ambiente para jogos multiplataforma de código aberto que pode se
 
 Esta wiki foi criada para solucionar dúvidas e ajudar no uso do GDevelop: Sinta-se livre para contribuir!
 
->  \<WRAP half column\>
->
-> ## Tutoriais e Vídeos
->
+## Tutoriais e Vídeos
+
 Aprenda a utilizar o Game Develop com os **[tutoriais](/pt/gdevelop/tutorials)**.
 
->
->
-> ## Documentação Completa
->
-Leia a **[documentação do GDevelop](/pt/gdevelop/documentation)** para uma referência completa.
+## Documentação Completa
 
+Leia a **[documentação do GDevelop](/pt/gdevelop/documentation)** para uma referência completa.
 
 ===== Wiki em outros Idiomas ===== ![](/fr.png)[⇒ Wiki em Francês](/fr/start)
 

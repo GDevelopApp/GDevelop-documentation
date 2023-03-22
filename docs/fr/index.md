@@ -1,6 +1,7 @@
 ---
 title: start
 ---
+
 ![](/logocompleteeffecttranparent400x100.png)
 
 # Wiki de GDevelop
@@ -10,14 +11,10 @@ Si vous n'avez pas encore installé GDevelop, téléchargez le depuis [le site o
 
 Si vous avez besoin d'aide pour débuter, consultez la [page de mise en route](/fr/gdevelop/documentation/manual/edit_getstart).
 
->  \<WRAP half column\>
->
-> ## Aide en ligne
->
+## Aide en ligne
+
 L'aide est disponible intégralement en ligne sur [cette page](/fr/gdevelop/documentation).
 
->
->
-> ## Tutoriels
->
+## Tutoriels
+
 Accédez aux [tutoriels](/fr/gdevelop/tutorials) et [articles](/fr/gdevelop/articles) pour GDevelop.
