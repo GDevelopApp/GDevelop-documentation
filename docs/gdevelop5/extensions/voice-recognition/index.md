@@ -20,18 +20,18 @@ Listens from the browser microphone then returns a text
 Limitations: Voice recognition is only supported in https for security reasons
 
 Can be used for:
-- Voice Based Games
-- Voice Mobile App
+   - Voice Based Games
+   - Voice Mobile App
 
 Features:
-- Conditions:
+	Conditions:
 		- OnSuccess
 		- OnError
 
-- Actions:
+	Actions:
 		- Start listening
 
-- StringExpressions:
+	StringExpressions:
 		- RetrieveResultText
 		- RetrieveStatus
 		- RetrieveError

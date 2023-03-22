@@ -15,10 +15,10 @@ Shake layer cameras with translation, rotation and zoom.
 
 Release notes:
 - Version 3.0.0
-    - No adaptation of the game events is needed.
-    - It fixes an issue when used with scrolling, the amplitude will feel bigger in this case.
-    - The shaking relies on noise which could feel a bit different.
-    - This extension can no longer do impulses. For this, another extension "Camera impulse" can be used.
+  - No adaptation of the game events is needed.
+  - It fixes an issue when used with scrolling, the amplitude will feel bigger in this case.
+  - The shaking relies on noise which could feel a bit different.
+  - This extension can no longer do impulses. For this, another extension "Camera impulse" can be used.
 
 ---
 

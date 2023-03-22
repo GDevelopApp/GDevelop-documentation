@@ -22,22 +22,22 @@ Allows developers to use newgrounds API for their games
 Features:
 
 Conditions:
-- UserIsLoggedIn
+   -UserIsLoggedIn
 
 Actions:
-- LoadNewgroundsAPI
-- PostScoreOnScoreBoard
-- UnlockMedal
-- LogInToNewGrounds
-- LogOutFromNewGrounds
+  - LoadNewgroundsAPI
+  - PostScoreOnScoreBoard
+  - UnlockMedal
+  - LogInToNewGrounds
+  - LogOutFromNewGrounds
 
 StringExpressions:
-- RetrievePlayerName
-- RetrieveDateTime
-- RetrieveVersion
-- RetrieveMedalList
-- RetrieveScoreBoardList
-- RetrieveScoreOnScoreBoard
+  - RetrievePlayerName
+  - RetrieveDateTime
+  - RetrieveVersion
+  - RetrieveMedalList
+  - RetrieveScoreBoardList
+  - RetrieveScoreOnScoreBoard
 
 [Example link](https://gdevelop.io/game-example/newgrounds-api).
 
