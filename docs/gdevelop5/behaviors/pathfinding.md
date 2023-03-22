@@ -51,7 +51,7 @@ If you want to change how the object moves during the game, these properties can
 
 !!! warning
 
-    The "Move to a position" action only needs to be run once.  If you run this action with no conditions, it will try to recalculate the path at every frame. You object will *not* move and this will generate a lot of intensive computation for your device. Always check that the action is only runs once. For example, add a condition that makes sure the object pathfinder speed is 0 or that a path was not found already. 
+    The "Move to a position" action only needs to be run once.  If you run this action with no conditions, it will try to recalculate the path at every frame. You object will *not* move and this will generate a lot of intensive computation for your device. Instead, add a condition that makes sure the object pathfinder speed is 0 or that a path was not found already. 
 
 ## Examples 
 
