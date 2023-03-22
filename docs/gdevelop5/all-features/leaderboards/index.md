@@ -66,7 +66,7 @@ In some games, you may want to pause the scene while the leaderboard is displaye
 
 - Suppose you have a scene that is named "Level 1"
 - Create a new scene "LeaderboardBackground"
-  - This scene will run in background when the leaderboard is displayed
+    - This scene will run in background when the leaderboard is displayed
 - In the events sheet of scene "Level 1", add this event:
 
 ![](/gdevelop5/all-features/leaderboards/pasted/20220414-154529.png)

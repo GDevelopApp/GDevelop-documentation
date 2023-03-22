@@ -23,9 +23,8 @@ You are reading **Part 6** of the [Platformer Tutorial](/gdevelop5/tutorials/pla
 
 1. Create a Sprite object named "Slime".
 2. Add an animation to the object that uses the following assets:
-
-   - slimeWalk1.png
-   - slimeWalk2.png
+    - slimeWalk1.png
+    - slimeWalk2.png
 3. Enable the **Loop** option.
 4. Drag an instance of the object into the scene.
 

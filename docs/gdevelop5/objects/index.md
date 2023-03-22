@@ -14,27 +14,27 @@ Objects can have [behaviors](/gdevelop5/behaviors) attached to them, adding to o
 This section lists the different types of objects, each of which serves a unique purpose.
 
 - General:
-  - [Sprite](/gdevelop5/objects/sprite)
-  - [Tiled sprite](/gdevelop5/objects/tiled_sprite)
-  - [Panel Sprite ("9-patch")](/gdevelop5/objects/panel_sprite)
+    - [Sprite](/gdevelop5/objects/sprite)
+    - [Tiled sprite](/gdevelop5/objects/tiled_sprite)
+    - [Panel Sprite ("9-patch")](/gdevelop5/objects/panel_sprite)
 - Display a text (score, name, explanation):
-  - [Text](/gdevelop5/objects/text)
-  - [Bitmap text](/gdevelop5/objects/bitmap_text)
-  - [BBText](/gdevelop5/objects/bbtext)
+    - [Text](/gdevelop5/objects/text)
+    - [Bitmap text](/gdevelop5/objects/bitmap_text)
+    - [BBText](/gdevelop5/objects/bbtext)
 - Build user interfaces:
-  - [Text input](/gdevelop5/objects/text_input)
-  - [Button](/gdevelop5/objects/button)
-  - [Multi-touch joystick](/gdevelop5/objects/multitouch-joystick)
-  - [Slider](/gdevelop5/objects/slider)
-  - [Toggle switch](/gdevelop5/objects/toggle-switch)
-  - [Resource bar](/gdevelop5/objects/resource-bar)
-  - [Video](/gdevelop5/objects/video)
+    - [Text input](/gdevelop5/objects/text_input)
+    - [Button](/gdevelop5/objects/button)
+    - [Multi-touch joystick](/gdevelop5/objects/multitouch-joystick)
+    - [Slider](/gdevelop5/objects/slider)
+    - [Toggle switch](/gdevelop5/objects/toggle-switch)
+    - [Resource bar](/gdevelop5/objects/resource-bar)
+    - [Video](/gdevelop5/objects/video)
 - Make visual effects:
-  - [Particles emitter](/gdevelop5/objects/particles_emitter)
-  - [Light](/gdevelop5/all-features/lighting/reference#lights)
-  - [Shape painter](/gdevelop5/objects/shape_painter)
+    - [Particles emitter](/gdevelop5/objects/particles_emitter)
+    - [Light](/gdevelop5/all-features/lighting/reference#lights)
+    - [Shape painter](/gdevelop5/objects/shape_painter)
 - Advanced effects or rendering:
-  - [Tilemap](/gdevelop5/objects/tilemap)
+    - [Tilemap](/gdevelop5/objects/tilemap)
 
 ## Learn about some objects with this video tutorial
 

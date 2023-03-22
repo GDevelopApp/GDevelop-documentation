@@ -3,21 +3,21 @@ title: Analytics
 ---
 # Analytics
 
-Firebase Analytics enables collecting and processing user information. Analytics for a day takes usually about 24h to get shown on the dashboard. 
+Firebase Analytics enables collecting and processing user information. Analytics for a day takes usually about 24h to get shown on the dashboard.
 
-To get started with the Firebase analytics, use the action **Activate analytics** in an event. 
+To get started with the Firebase analytics, use the action **Activate analytics** in an event.
 
 ## Logging Custom Events
 
-To send custom data, such as a player finishing a level, a "log event" can be used. Here is an example: 
+To send custom data, such as a player finishing a level, a "log event" can be used. Here is an example:
 
-  - When the players exits the level, before switching scenes:
-     - Create a new event or update an existing event with the **log event action** 
-     - Ensure that "level1_finished" is listed as the event name. 
-  - The users who have beaten level 1 will now show on the dashboard. 
+- When the players exits the level, before switching scenes:
+    - Create a new event or update an existing event with the **log event action**
+    - Ensure that "level1_finished" is listed as the event name.
+- The users who have beaten level 1 will now show on the dashboard.
 
 !!! tip
-    
+
         Scores can also be transmitted by sending an event called "score", with as additional data, the value of the variable containing the score. The additional data must be formatted like so:
     // "{\"score\":\"" + ToString(Variable(totalscore)) + "\"}"//
 

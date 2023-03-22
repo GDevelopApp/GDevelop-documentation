@@ -16,8 +16,8 @@ Animate images from a sprite sheet by using a tiled sprite.
 2. Set the tiled sprite image to the sprite sheet image.
 3. Add the behavior (horizontal, vertical, or JSON animator) to the tiled sprite.
 4. Set up the behaviors:
-  - For directional animators: Edit the object "Default width" and "Default height" to match the size of a frame.
-  - For the JSON animator: Set the sprite sheet JSON data in the behavior properties.
+    - For directional animators: Edit the object "Default width" and "Default height" to match the size of a frame.
+    - For the JSON animator: Set the sprite sheet JSON data in the behavior properties.
 5. Use the behaviors action to start the animation (only needs to be run once, like sprite animations).
 
 ## Vertical and horizontal spritesheet animators

@@ -13,7 +13,7 @@ You can see the latest version [here](https://github.com/4ian/GDevelop/releases)
 
 !!! warning
 
-    If you are on a version older than beta98, you might have to reinstall GDevelop as it might not update 
+    If you are on a version older than beta98, you might have to reinstall GDevelop as it might not update
 
 Also, check if the bug/crash was already reported on the [official forum](https://forum.gdevelop-app.com/). If it was already reported, reply to the thread/report and you can help out by giving more info.
 
@@ -30,11 +30,11 @@ A great bug report conveys the problem clearly and easily. It should also have c
 Here are some things that you will most likely need in a report. Do remember that not all bugs/crashes are the same. So, do add more info if needed.
 
 #### Version of GDevelop
- 
+
 First see if you are using the web version or the desktop version (you will have to add that info to the report).
 
 * if you are using the desktop version:
-  * On the top toolbar, go to Help→About GDevelop 
+  * On the top toolbar, go to Help→About GDevelop
 
 A window will open showing the version. It should go something like GDevelop-beta110.
 
@@ -43,12 +43,12 @@ A window will open showing the version. It should go something like GDevelop-bet
 
 This might not be applicable to all the bugs or crashes, but it would help a lot in identifying the problem and fixing it.
 
-* If you are using a _Windows_ OS, you can use the snipping tool that comes with it or press **Alt+PrtScn** (It will take a 
+* If you are using a _Windows_ OS, you can use the snipping tool that comes with it or press **Alt+PrtScn** (It will take a
 screenshot of the active window).
 
 * If you are using a _MacOS_, press **Shift+Command+3**
 
-* If you are using a _Linux_ distro, it should come with a screenshot tool built-in or press **Alt+PrtScn** (It will take a 
+* If you are using a _Linux_ distro, it should come with a screenshot tool built-in or press **Alt+PrtScn** (It will take a
 screenshot of the active window)
 
 
@@ -57,7 +57,7 @@ screenshot of the active window)
 
 #### Instructions to reproduce the bug
 
-If possible, add proper instructions to reproduce the bug. So that the developers can easily know what the problem that 
+If possible, add proper instructions to reproduce the bug. So that the developers can easily know what the problem that
 might be causing the bug.
 
 For example:
@@ -73,7 +73,7 @@ For example:
 
 #### What you were doing when the issue occured
 
-If it was a crash, you will have to describe what you were doing when it happened. 
+If it was a crash, you will have to describe what you were doing when it happened.
 
 #### Errors or call stack
 
@@ -81,7 +81,7 @@ Some errors logs can hint the problem. So, do check (If possible) if there was a
 
 - Press **Ctrl+Shift+I**, a tab should open
 
-  - Open the **Console** tab and check if there was any error shown
+- Open the **Console** tab and check if there was any error shown
 
 
 * Also, check the **sources** for call stacks
@@ -123,7 +123,7 @@ Steps to reproduce the behavior:
 
 **Here is an example of a decent report**
 
-> 
+>
 > ![](/gdevelop5/community/exampleofgoodreport.png)
 
 
@@ -131,7 +131,7 @@ Steps to reproduce the behavior:
 
 ## Where to report a bug?
 
-A bug can be reported on the [official forum](https://forum.gdevelop-app.com/) or on [GDevelop's Github repo as an issue](https://github.com/4ian/GDevelop/issues). 
+A bug can be reported on the [official forum](https://forum.gdevelop-app.com/) or on [GDevelop's Github repo as an issue](https://github.com/4ian/GDevelop/issues).
 
 !!! tip
 
@@ -162,7 +162,7 @@ You can also report it on [GDevelop's Github repo as an issue](https://github.co
 
 ![](/gdevelop5/community/rb2.png)
 
-Now you will be given a space where you can describe your bug. There will be some text already written . Some asking you to write something, replace them with what the sentence asked. 
+Now you will be given a space where you can describe your bug. There will be some text already written . Some asking you to write something, replace them with what the sentence asked.
 
 Ex: if there is a sentence "A clear and concise description of what the bug is.", remove that sentence and add a description about the bug.
 

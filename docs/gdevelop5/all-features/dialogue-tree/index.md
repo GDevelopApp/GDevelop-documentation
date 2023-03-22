@@ -4,14 +4,14 @@ title: The Dialogue Tree extension
 # The Dialogue Tree extension
 
 !!! tip
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
     [I would rather see the Dialogue Tree example! Please take me there now.](/#Examples)
-    
+
 
 The Dialogue Tree extension can be used to quickly create a dynamic dialogue tree behaviour. It comes with actions, conditions and expressions that make it extremely easy to set such a system with text scrolling, animated avatars and conditional dialogues. The example demo project does that in only 16 events.
 
-If you want to make a game that is heavy on the story - be it an RPG, a Visual Novel or something else altogether, this extension will help you get there very fast and let you focus on your story. 
+If you want to make a game that is heavy on the story - be it an RPG, a Visual Novel or something else altogether, this extension will help you get there very fast and let you focus on your story.
 
 GDevelop not only provides the extension but it also gets bundled with a popular story editor called [YARN](https://github.com/YarnSpinnerTool/YarnEditor) to author the data the extension uses.
 
@@ -19,7 +19,7 @@ Yarn has been battle-tested on a number of commercial and indie games. If you co
 
 ## Getting started
 
-Yarn uses a special JSON file format to store its dialogue data. 
+Yarn uses a special JSON file format to store its dialogue data.
 To create or edit an existing yarn JSON file, you need to first add an action to the event sheet in GD that requires it.
 That action is called "Load dialogue data from JSON file". Under the resource dropdown - regardless if you have any JSON resources yet - you will find a little brush button, which will let you open yarn and create/edit one.
 
@@ -27,12 +27,12 @@ That action is called "Load dialogue data from JSON file". Under the resource dr
 
 ## About Yarn: the anatomy of interactive story syntax
 
-The Dialogue Tree extension is built on top of a javascript library called [bondagejs](https://github.com/hylyh/bondage.js). 
-Yarn and that library follow a syntax that is similar to [twine](https://twinery.org). 
+The Dialogue Tree extension is built on top of a javascript library called [bondagejs](https://github.com/hylyh/bondage.js).
+Yarn and that library follow a syntax that is similar to [twine](https://twinery.org).
 
 It has a very easy to learn, but also very powerful syntax which can be used to create complex story events based on user choices or other events the user has visited.
 
-Yarn Dialogue syntax is designed to be accessible to writers who have little or no programming knowledge. It makes no assumptions about how your game presents dialogue to the player, or about how the player chooses their responses. 
+Yarn Dialogue syntax is designed to be accessible to writers who have little or no programming knowledge. It makes no assumptions about how your game presents dialogue to the player, or about how the player chooses their responses.
 
 Yarn files are built of **nodes** - those little square notes that are connected by arrows between them. When you have a bunch of them linked with arrows - that forms a **dialogue tree**. We refer to each node of that tree as a **branch**.
 You can have more than one tree in a single file and for example have the dialogues of an entire village worth of NPCs laid down in front of you, with each villager being one of the trees.
@@ -42,7 +42,7 @@ When you edit a node, you are writing in Yarn syntax.
 Writing stories in Yarn is just like writing dialogue, but also sprinkling it with behind the scenes hidden to the player instructions wrapped in special tags. These instructions can be used to drive what happens in the game. Depending on <<the>> \[\[wrapping\]\] tags, there are three types of data that yarn understands - these three types are called "Dialogue line types" in my extension:
 
 ### 1. Text line type
-The text is what the user will see displayed when they reach the dialogue branch it is on. If you don't put any special wrappers of the other type around your text - it will remain ordinary text. Yarn will give you a hint when that is not the case by changing its colour. 
+The text is what the user will see displayed when they reach the dialogue branch it is on. If you don't put any special wrappers of the other type around your text - it will remain ordinary text. Yarn will give you a hint when that is not the case by changing its colour.
 
 !!! note
 
@@ -50,13 +50,13 @@ The text is what the user will see displayed when they reach the dialogue branch
 
 ### 2. <<Command>> line type
 Remember the magic Yarn syntax we mentioned earlier - the words we place between the ordinary text the player reads to make things happen in the game?
-We call them commands. They are wrapped between **<<** and **>>**. Anything you place between these two symbols is a  **<<hidden message>>** that the player will not see, but the Gdevelop will. These messages can be used to trigger events for you. If you are using the extension's built in scrolling logic, these commands will be triggered whenever the text scrolling has reached the <<command>>. 
+We call them commands. They are wrapped between **<<** and **>>**. Anything you place between these two symbols is a  **<<hidden message>>** that the player will not see, but the Gdevelop will. These messages can be used to trigger events for you. If you are using the extension's built in scrolling logic, these commands will be triggered whenever the text scrolling has reached the <<command>>.
 
 Commands can also take parameters that the engine can use to decide on how to trigger something. To pass parameters to a command, just type them after the first word which is the command,  using spaces like this:
 
 **<<mycommand parameter0 parameter1 parameter2>>** and so on.
 
-An example of that in the demo project is the way the animated avatar is changed: 
+An example of that in the demo project is the way the animated avatar is changed:
 
 ![](/gdevelop5/all-features/yarncommandsexample.png)
 
@@ -73,19 +73,19 @@ This lets you tell Yarn that if the player has seen that item, the npc will say 
 
 ![](/gdevelop5/all-features/ifelsecommandsyarn.png)
 
-(1) **<<set $myYarnVariable to aValue>>** will tell yarn to store your value in $myYarnVariable. You can put that after the player reads that the item has been seen or taken or whatever the story requires. 
+(1) **<<set $myYarnVariable to aValue>>** will tell yarn to store your value in $myYarnVariable. You can put that after the player reads that the item has been seen or taken or whatever the story requires.
 
-(2)  **<<if $myYarnVariable == aValue>>** 
+(2)  **<<if $myYarnVariable == aValue>>**
 
 _blah blah blah_
 
-** <<elseif $myYarnVariable == anotherValue>> ** 
+** <<elseif $myYarnVariable == anotherValue>> **
 
 _more blah_
 
-** <<else>>** 
+** <<else>>**
 
-_other blah_ 
+_other blah_
 
 **<<endif>>**
 
@@ -96,32 +96,32 @@ _other blah_
 - if all fails, the  **<<else>>** will trigger  _other blah_ to happen. The **<<elseif ...>>** and **<<else>>** are optional. Don't forget to close it with the **<<endif>>**
 
 !!! note
-    
-        
+
+
     __Example:__
-    
-    You found a weird rock **<<set $hasRandomRock to true>>** 
-    
-    
+
+    You found a weird rock **<<set $hasRandomRock to true>>**
+
+
 
 !!! note
-    
-        
+
+
     __Example at another node tree:__
-    
+
     There is a strange well.  Peering down, you can only see darkness...
-    
-    **<<if $hasRandomRock == true>>** 
-    
+
+    **<<if $hasRandomRock == true>>**
+
     Would you like throw the weird rock you found in the well?
-    
+
     \[putRockNode\](/yes do it)
-    
+
      \[otherNode\](/I rather not)
-    
+
     **<<endif>>**
-    
-    
+
+
 
 Don't forget that you can put anything inside this **<<if ...>>**...**<<endif>>**  block -  be it other commands or dialogue choices leading to other branches.
 
@@ -134,22 +134,22 @@ Don't forget that you can put anything inside this **<<if ...>>**...**<<endif>>*
 
 This is the type that creates arrows between the nodes. It is what yarn uses to display to the user what choices they can make. The syntax is as follows:
 
-**\[\[player choice|otherNodeTitle\]\]** 
+**\[\[player choice|otherNodeTitle\]\]**
 
-**\[\[another choice|anotherNodeTitle\]\]** 
+**\[\[another choice|anotherNodeTitle\]\]**
 
 The text of the left side of the **|** is what the player will see. The text on the right side is what you use to tell yarn  the title of the node that the player will be sent to if they take that choice.
 
 You can also do
 
-**\[\[anotherNodeTitle\]\]** 
+**\[\[anotherNodeTitle\]\]**
 
 This will simply tell yarn to continue to that node, without any user input. Useful when nested in an if statement..
 
 !!! note
-    
+
         Yarn will autocomplete it for you when you start **\[\[**, but if you wonder how to write a **|**, on most english keyboards its **shift + \ **
-    
+
 !!! warning
 
      Please note that as of now node titles can not contain spaces, dashes or any strange characters. Just letters a-Z and numbers 0-9
@@ -160,11 +160,11 @@ This will simply tell yarn to continue to that node, without any user input. Use
 **Gotchas to watch out for:
 **
 If you try to do conditional options like this:
- <code>
+```
 Ok kids we're gonna go with...
 [NotSure](/Actually, I'm not sure yet...)
 <<if $robot_head_0_done == 1>>
-[PickRobotMascot0](/Frog Head)
+    [PickRobotMascot0](/Frog Head)
 <<endif>>
 ```
 
@@ -174,11 +174,11 @@ The correct way to do this would be:
 ```
 Ok kids we're gonna go with...
 <<if $robot_head_0_done == 1>>
-[NotSure](/Actually, I'm not sure yet...)
-[PickRobotMascot0](/Frog Head)
+    [NotSure](/Actually, I'm not sure yet...)
+    [PickRobotMascot0](/Frog Head)
 <<else>>
-[NotSure](/Actually, I'm not sure yet...)
-[PickBirdMascot0](/Bird Head)
+    [NotSure](/Actually, I'm not sure yet...)
+    [PickBirdMascot0](/Bird Head)
 <<endif>>
 ```
 
@@ -186,10 +186,10 @@ If you want to just send the player to another node (PickRobotMascot0) without d
 ```
 Ok kids we're gonna go with...
 <<if $robot_head_0_done == 1>>
-[PickRobotMascot0](/Frog)
+    [PickRobotMascot0](/Frog)
 <<else>>
-[NotSure](/Actually, I'm not sure yet...)
-[PickBirdMascot0](/Bird Head)
+    [NotSure](/Actually, I'm not sure yet...)
+    [PickBirdMascot0](/Bird Head)
 <<endif>>
 ```
 
@@ -208,8 +208,8 @@ Ok kids we're gonna go with...
 * I encountered a problem while using Yarn to edit my dialogue - If that happens, unless you have encountered the problem when opening or saving your dialogue - it's likely a bug in Yarn, not Gdevelop.
 
 !!! warning
-    
-        To report Yarn editor bugs, please use the Yarn bug tracker, where more developers working on Yarn will see it. 
+
+        To report Yarn editor bugs, please use the Yarn bug tracker, where more developers working on Yarn will see it.
     [https://github.com/YarnSpinnerTool/YarnEditor](https://github.com/YarnSpinnerTool/YarnEditor)
 
 * I encountered a problem with the styling of the text coming from the Dialogue Tree - If that happens, it's likely a bug with another extension. If you are using the BBcode extension, and for example underlined text style does not work or some combination of styles does not work, the problem more than likely lies with the pixi-multistyle-text library that it is using. It is also worth noting that **pixi currently does not support __text underlining__ style in general. So while you can see it in Yarn editor, it will not work in your game**.
