@@ -15,7 +15,7 @@ Siempre descargue GD desde esta página para asegurarse de que tiene la última 
 
 ### Descargar la fuente
 
-Puede descargar el proyecto terminado desde aquí ![](/ gdevelop5/ tutorials/ beginner-tutorial.zip). Descargar el proyecto terminado te ayuda a ver cómo se ha creado el juego. Tenerlo como ejemplo en caso de que te quedes atascado o no entiendas algo, es una buena manera de verificar tu progreso.
+Puede descargar el proyecto terminado desde aquí ![](/gdevelop5/tutorials/beginner-tutorial.zip). Descargar el proyecto terminado te ayuda a ver cómo se ha creado el juego. Tenerlo como ejemplo en caso de que te quedes atascado o no entiendas algo, es una buena manera de verificar tu progreso.
 
 ### Crear un nuevo proyecto
 
@@ -63,7 +63,9 @@ Finalmente, queremos añadir una animación al objeto. Haga clic / seleccione el
 
 Ahora verá las propiedades de animación del objeto. ![](/gdevelop5/objects/animation-properties.png)
 
-Es necesario agregar la imagen de la torreta como una animación. Haga clic en el símbolo más grande ![](/ gdevelop5/ tutorials/ plusaddobject.png). Busque la carpeta del proyecto. Encuentra la imagen aaguntopdown.png. La imagen se mostrará en la ventana. ![](/gdevelop5/tutorials/turret-animation-window.png)
+Es necesario agregar la imagen de la torreta como una animación. Haga clic en el símbolo más grande ![](/gdevelop5/tutorials/plusaddobject.png). Busque la carpeta del proyecto. Encuentra la imagen aaguntopdown.png. La imagen se mostrará en la ventana.
+
+![](/gdevelop5/tutorials/turret-animation-window.png)
 
 Por último, haga clic en "Aplicar" para guardar los cambios.
 

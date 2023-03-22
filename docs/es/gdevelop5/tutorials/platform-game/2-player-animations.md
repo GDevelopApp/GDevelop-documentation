@@ -158,4 +158,4 @@ Una pequeña mejora que podemos hacer es configurar la animación en Salto cuand
 
 Por ahora, es difícil construir un gran nivel para explorar porque el jugador puede caminar rápidamente fuera de la pantalla. La siguiente parte del tutorial mostrará cómo hacer que la cámara siga al jugador. Es realmente simple, un solo evento será suficiente!
 
-Read️ Read **[la próxima parte del tutorial aquí](/es/gdevelop5/ tutorials/ platform-game/ 3-have-camera-follow-player)**!
+Read️ Read **[la próxima parte del tutorial aquí](/es/gdevelop5/tutorials/platform-game/3-have-camera-follow-player)**!

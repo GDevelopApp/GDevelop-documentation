@@ -7,7 +7,7 @@ FIXME **Cette page est entièrement traduite. Veuillez cependant corriger toutes
 
 # 2. Création de la première scène
 
-Maintenant, quand nous avons [installé l'éditeur GDevelop](/fr/gdevelop5/ tutoriels/ geometry-monster/ 1-install-and-setup) et que la configuration de base est terminée, nous pouvons commencer à créer. Pour ajouter des composants au jeu, nous devons commencer par une scène - celle-ci fonctionnera comme un panier contenant divers objets et fera en sorte de les montrer à l'écran.
+Maintenant, quand nous avons [installé l'éditeur GDevelop](/fr/gdevelop5/tutorials/geometry-monster/1-install-and-setup) et que la configuration de base est terminée, nous pouvons commencer à créer. Pour ajouter des composants au jeu, nous devons commencer par une scène - celle-ci fonctionnera comme un panier contenant divers objets et fera en sorte de les montrer à l'écran.
 
 Pour ajouter une nouvelle scène, cliquez sur le menu déroulant **Scenes** dans le panneau de gauche et lorsque son contenu est développé, cliquez le bouton **Click to add a scene** (Cliquez pour ajouter une scène), qui est suffisamment explicite puis cliquez sur les trois points à gauche et sélectionnez **Rename**.
 

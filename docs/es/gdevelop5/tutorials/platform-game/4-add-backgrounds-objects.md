@@ -5,7 +5,7 @@ title: Añadir un objeto de fondo (Add a background objects)
 
 !!! note
 
-     Este tutorial es parte del tutorial [](/gdevelop5/ tutorials/ platform-game/ start), ¡pero también puedes usarlo para cualquier otro juego!
+     Este tutorial es parte del [tutorial de plataformas](/gdevelop5/tutorials/platform-game/start), ¡pero también puedes usarlo para cualquier otro juego!
 
 En este momento el nivel es bastante simple sin las cosas elegantes. Vamos a añadir algunos objetos estáticos en el fondo.
 
@@ -47,4 +47,4 @@ Ahora tenemos el resultado visual que queríamos:
 
 Agreguemos un objetivo para el jugador: ¡recoger tantas monedas como sea posible! Para hacer esto, usaremos eventos para recordar la puntuación del jugador, reproducir sonidos y eliminar las monedas recolectadas.
 
-Lea **[la siguiente parte del tutorial aquí](/es/gdevelop5/ tutorials/ platform-game/5-add-coins-and-number-of-collected-coins)**!
+Lea **[la siguiente parte del tutorial aquí](/es/gdevelop5/tutorials/platform-game/5-add-coins-and-number-of-collected-coins)**!

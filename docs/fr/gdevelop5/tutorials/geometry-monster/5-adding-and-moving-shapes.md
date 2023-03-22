@@ -7,7 +7,7 @@ FIXME **Cette page est entièrement traduite. Veuillez cependant corriger toutes
 
 # 5. Ajout et déplacement de formes
 
-Après avoir réussi [l'implementation des déplacements](/fr/gdevelop5/ tutorials/ geometry-monster/ 4-desktop-and-mobile-controls) du monstre, il serait bien d'ajouter les formes qui vont tomber et de les déplacer vers le bas de le scène.
+Après avoir réussi [l'implementation des déplacements](/fr/gdevelop5/tutorials/geometry-monster/4-desktop-and-mobile-controls) du monstre, il serait bien d'ajouter les formes qui vont tomber et de les déplacer vers le bas de le scène.
 
 !!! note
 
@@ -169,6 +169,6 @@ C'est fait ! Non seulement less formes sont générées de manière aléatoire e
 
 ![](/gdevelop5/tutorials/geometry-monster/94.png)
 
-Lancez le jeu pour voir tout cela en action : les formes devraient tomber sur la scène. Mais on dirait que quelque chose manque, non ? Les formes passent sur le monstre. Nous devons donc introduire [la détection des collisions](/gdevelop5/ tutoriels/ geometry-monster/ 6-collision-detection) pour pouvoir les collecter.
+Lancez le jeu pour voir tout cela en action : les formes devraient tomber sur la scène. Mais on dirait que quelque chose manque, non ? Les formes passent sur le monstre. Nous devons donc introduire [la détection des collisions](/gdevelop5/tutorials/geometry-monster/6-collision-detection) pour pouvoir les collecter.
 
 ⬅️ **[Étape précédente : 4. Commandes pour ordinateurs et téléphones mobiles](/fr/gdevelop5/tutorials/geometry-monster/4-desktop-and-mobile-controls)** ➡️ **[Étape suivante : 6. Détection des collisions](/fr/gdevelop5/tutorials/geometry-monster/6-collision-detection)**
