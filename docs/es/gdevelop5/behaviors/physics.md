@@ -53,18 +53,18 @@ La restitución se utiliza para hacer rebotar objetos. El valor de restitución 
 
 **Física (Physics):**
 
-[![](/gdevelop5/behaviors/hingeleverdemo.png)](https://editor.gdevelop-app.com/?project=example://physics)
+[![](/gdevelop5/behaviors/hingeleverdemo.png)](https://editor.gdevelop.io/?project=example://physics)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://physics){ .md-button .md-button--primary }
 
 **Física de Carro (Car Physics)**
 
-[![](/gdevelop5/behaviors/carphysics.png)](https://editor.gdevelop-app.com/?project=example://car-physics)
+[![](/gdevelop5/behaviors/carphysics.png)](https://editor.gdevelop.io/?project=example://car-physics)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://car-physics){ .md-button .md-button--primary }
 
 **Objeto de Gravedad (Object Gravity)**
 
-[![](/gdevelop5/behaviors/objectgravity.png)](https://editor.gdevelop-app.com/?project=example://object-gravity)
+[![](/gdevelop5/behaviors/objectgravity.png)](https://editor.gdevelop.io/?project=example://object-gravity)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://object-gravity){ .md-button .md-button--primary }

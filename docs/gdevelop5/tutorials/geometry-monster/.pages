@@ -1,4 +1,5 @@
 nav:
+    - index.md
     - "Install and setup": 1-install-and-setup.md
     - "Creating the first scene": 2-creating-first-scene.md
     - "Introducing main character": 3-introducing-main-character.md

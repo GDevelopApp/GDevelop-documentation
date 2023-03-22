@@ -97,18 +97,18 @@ Para más detalles del evento, siga los [tutoriales](http://wiki.compilgames.net
         **Véalo en acción!** 🎮
     Abra estos ejemplos en línea.
 
-[![](/gdevelop5/objects/createasprite.png)](https://editor.gdevelop-app.com/?project=example://change-scale-of-sprites)
+[![](/gdevelop5/objects/createasprite.png)](https://editor.gdevelop.io/?project=example://change-scale-of-sprites)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://change-scale-of-sprites){ .md-button .md-button--primary }
 
-[![](/gdevelop5/objects/changespriteanimationexample.png)](https://editor.gdevelop-app.com/?project=example://change-sprite-animation)
+[![](/gdevelop5/objects/changespriteanimationexample.png)](https://editor.gdevelop.io/?project=example://change-sprite-animation)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://change-sprite-animation){ .md-button .md-button--primary }
 
-[![](/gdevelop5/objects/changespritecolorexample.png)](https://editor.gdevelop-app.com/?project=example://change-sprite-color)
+[![](/gdevelop5/objects/changespritecolorexample.png)](https://editor.gdevelop.io/?project=example://change-sprite-color)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://change-sprite-color){ .md-button .md-button--primary }
 
-[![](/gdevelop5/objects/changespriteanimationexample2.png)](https://editor.gdevelop-app.com/?project=example://play-stop-sprite-animation)
+[![](/gdevelop5/objects/changespriteanimationexample2.png)](https://editor.gdevelop.io/?project=example://play-stop-sprite-animation)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://play-stop-sprite-animation){ .md-button .md-button--primary }

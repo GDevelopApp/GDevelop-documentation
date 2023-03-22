@@ -5,7 +5,7 @@ title: Crea monedas y muestra la cantidad de monedas recolectadas.
 
 !!! note
 
-     Esta página es parte del tutorial. [](/gdevelop5/ tutorials/ platform-game/ start), pero también se puede reutilizar para cualquier otro juego, solo reproduce los elementos.
+     Esta página es parte del [tutorial de plataformas](/gdevelop5/tutorials/platform-game/start), pero también se puede reutilizar para cualquier otro juego, solo reproduce los elementos.
 
 En el juego de plataformas que hemos creado hasta ahora, el jugador tiene mucho que hacer: vamos a poner monedas para que el jugador las recoja.
 
@@ -193,4 +193,4 @@ Ahora ejecute el juego y verá que si reúne dos monedas al mismo tiempo, la pun
 
 Todos los juegos de plataformas vienen con enemigos que debes evitar o matar al saltar sobre ellos. Agreguemos algunos y veamos cómo podemos hacer que se muevan.
 
-Leer **[Agregar enemigos](/es/gdevelop5/ tutorials/ platform-game/ 6-add-enemies)**!
+Leer **[Agregar enemigos](/es/gdevelop5/tutorials/platform-game/6-add-enemies)**!

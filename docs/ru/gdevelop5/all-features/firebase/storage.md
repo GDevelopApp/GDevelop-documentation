@@ -10,4 +10,4 @@ title: Firebase Хранилище
 Вы можете получить URL-адрес загрузки онлайн-файла и позволить пользователю загрузить его, что может быть полезно, например, для размещения и загрузки обновлений.
 !!! tip
 
-     Вы также можете комбинировать его с [the load image from url](https://editor.gdevelop-app.com/?project=example://load-image-from-url) примером.
+     Вы также можете комбинировать его с [the load image from url](https://editor.gdevelop.io/?project=example://load-image-from-url) примером.

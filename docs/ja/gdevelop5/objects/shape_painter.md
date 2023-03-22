@@ -65,6 +65,6 @@ title: シェイプペインタオブジェクト
         **やってみよう！** 🎮
     サンプルをオンラインで実行できます
 
-[![](/gdevelop5/objects/shapepainterobject.png)](https://editor.gdevelop-app.com/?project=example://advanced-shape-based-painter)
+[![](/gdevelop5/objects/shapepainterobject.png)](https://editor.gdevelop.io/?project=example://advanced-shape-based-painter)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://advanced-shape-based-painter){ .md-button .md-button--primary }

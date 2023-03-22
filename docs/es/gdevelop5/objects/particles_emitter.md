@@ -53,10 +53,10 @@ También puede cambiar el número máximo de partículas renderizadas por el obj
         **Véalo en acción!** 🎮
     Ábre los ejemplos Online.
 
-[![](/gdevelop5/objects/particleemitterexplosions.png)](https://editor.gdevelop-app.com/?project=example://particles-explosions)
+[![](/gdevelop5/objects/particleemitterexplosions.png)](https://editor.gdevelop.io/?project=example://particles-explosions)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://particles-explosions){ .md-button .md-button--primary }
 
-[![](/gdevelop5/objects/particleemitervarious.png)](https://editor.gdevelop-app.com/?project=example://particles-various-effects)
+[![](/gdevelop5/objects/particleemitervarious.png)](https://editor.gdevelop.io/?project=example://particles-various-effects)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://particles-various-effects){ .md-button .md-button--primary }

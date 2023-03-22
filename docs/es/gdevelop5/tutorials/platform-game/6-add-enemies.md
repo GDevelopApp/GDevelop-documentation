@@ -5,7 +5,7 @@ title: Agrega enemigos a tu juego de plataformas
 
 !!! note
 
-     Este tutorial es parte del tutorial [](/gdevelop5/ tutorials/ platform-game/ start), ¡pero también puedes reutilizarlo para cualquier otro juego donde tengas enemigos!
+     Este tutorial es parte del [tutorial de plataformas](/gdevelop5/tutorials/platform-game/start), ¡pero también puedes reutilizarlo para cualquier otro juego donde tengas enemigos!
 
 Añadamos un enemigo que se moverá hacia la izquierda y hacia la derecha en las plataformas. El jugador puede destruirlo saltando sobre él.
 
@@ -147,4 +147,4 @@ Ahora, si ejecuta una vista previa, el objeto izquierdo y derecho con la flecha 
 
 Por ahora, la "muerte" del jugador es un poco brutal: simplemente la eliminamos. Hagamos que vuelva a aparecer en el último punto de control que cruzó. Los puntos de control son esenciales en un juego de plataformas si no quieres forzar a tu jugador a comenzar de nuevo desde el principio cuando muera (lo que puede ser interesante, ¡pero también frustrante!).
 
-Lee el siguiente tutorial **[Puntos de control](/es/gdevelop5/ tutorials/ platform-game/ 7-checkpoints)**!
+Lee el siguiente tutorial **[Puntos de control](/es/gdevelop5/tutorials/platform-game/7-checkpoints)**!

@@ -7,9 +7,9 @@ title: GDevelop Season of Docs
 
 Season of Docs is an initiative to bring the open source and technical writer communities together. In 2019, for the first edition, [GDevelop was one of the project to take part into it](https://developers.google.com/season-of-docs/docs/participants).
 
-GDevelop is an *open-source* **game development** software allowing anyone to create games. What makes GDevelop unique and so easy to use are the [events](https://gdevelop-app.com/). Events are a powerful way to express the logic of your game, without having to learn a programming language. Want to give it a try? [Try the online version](https://editor.gdevelop-app.com) or [download the full software](https://gdevelop-app.com/download/)!
+GDevelop is an *open-source* **game development** software allowing anyone to create games. What makes GDevelop unique and so easy to use are the [events](https://gdevelop.io/). Events are a powerful way to express the logic of your game, without having to learn a programming language. Want to give it a try? [Try the online version](https://editor.gdevelop.io) or [download the full software](https://gdevelop.io/download/)!
 
-*Tens of thousands of users* are creating games with GDevelop each month. Many users are discovering game creation for the first time. Others are more experienced users creating [impressive games](https://gdevelop-app.com/games-showcase/) with the engine.
+*Tens of thousands of users* are creating games with GDevelop each month. Many users are discovering game creation for the first time. Others are more experienced users creating [impressive games](https://gdevelop.io/games-showcase/) with the engine.
 
 ## Ideas for the 2021 edition
 
@@ -72,7 +72,7 @@ The 2019 edition resulted in the *writing of a [new tutorial](/gdevelop5/tutoria
 
 ## About GDevelop open-source project, organization and mentors
 
-GDevelop repository is available on **[GitHub](https://github.com/4ian/GDevelop)**.  You can also browse the **[website](https://gdevelop-app.com/)** to learn more about the software and download it.
+GDevelop repository is available on **[GitHub](https://github.com/4ian/GDevelop)**.  You can also browse the **[website](https://gdevelop.io/)** to learn more about the software and download it.
 
 📣 Participation in Season of Docs 2019 was announced on [Twitter](https://twitter.com/GDevelopApp/status/1260181527280975873) (2019 edition too on [Twitter](https://twitter.com/GDevelopApp/status/1120410655675359234) and [Facebook](https://www.facebook.com/GDevelopApp/posts/10157106427160768)).
 

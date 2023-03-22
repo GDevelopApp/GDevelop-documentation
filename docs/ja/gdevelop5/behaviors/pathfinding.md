@@ -51,11 +51,11 @@ title: 経路探索
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://pathfinding){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/pathfindinggeneral.png)](https://editor.gdevelop-app.com/?project=example://pathfinding)
+[![](/gdevelop5/behaviors/pathfindinggeneral.png)](https://editor.gdevelop.io/?project=example://pathfinding)
 
 
 **経路探索の基本**
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://pathfinding-basics){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/pathfindingbasics.png)](https://editor.gdevelop-app.com/?project=example://pathfinding-basics)
+[![](/gdevelop5/behaviors/pathfindingbasics.png)](https://editor.gdevelop.io/?project=example://pathfinding-basics)

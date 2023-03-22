@@ -19,7 +19,7 @@ Con este tutorial, aprenderá algunas tareas básicas en GDevelop mientras crea 
 
     Véalo en acción:
 
-    <https://editor.gdevelop-app.com/?project=https://resources.gdevelop-app.com/examples/breakout/breakout.json>
+    <https://editor.gdevelop.io/?project=https://resources.gdevelop-app.com/examples/breakout/breakout.json>
 
 ## Crear un nuevo juego
 

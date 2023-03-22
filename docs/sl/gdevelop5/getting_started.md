@@ -4,8 +4,8 @@ title: Za začetek
 # Za začetek
 ## Preizkusite GDevelop na spletu ali prenesite namizno različico
 
-* Za začetek lahko [preizkusite GDevelop na spletu](https://editor.gdevelop-app.com).
-* Da bi ustvarili svojo igro, jo shranili in objavili, [prenesite namizno različico s spletne strani GDevelop](https://gdevelop-app.com/sl/).
+* Za začetek lahko [preizkusite GDevelop na spletu](https://editor.gdevelop.io).
+* Da bi ustvarili svojo igro, jo shranili in objavili, [prenesite namizno različico s spletne strani GDevelop](https://gdevelop.io/sl/).
 
 Ko ste GDevelop prenesli, odprite namestitveni program in namestite programsko opremo.:
 

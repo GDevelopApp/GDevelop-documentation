@@ -19,4 +19,4 @@ Aquí hay un evento que destruirá el objeto "Cuadrado" cuya posición X es infe
 
 ![](/gdevelop5/tutorials/delete-square-condition.png)
 
-Si aún no está seguro de cómo funcionan los eventos, eche un vistazo a [](/gdevelop5/ tutorials/ basic-game-making-concepts).
+Si aún no está seguro de cómo funcionan los eventos, eche un vistazo a [esta página](/gdevelop5/tutorials/basic-game-making-concepts).

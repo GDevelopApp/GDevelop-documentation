@@ -30,4 +30,4 @@ GDevelop のトレーニングを企画していますか？ワークショッ�
 
 ## 教育
 
-[GDevelop が教育現場でどのように使われているか](https://gdevelop-app.com/ja/education)をご覧ください。
+[GDevelop が教育現場でどのように使われているか](https://gdevelop.io/ja/education)をご覧ください。

@@ -7,7 +7,7 @@ FIXME **This page is not fully translated, yet. Please help completing the trans
 
 # 기본적인 게임 제작: GDevelop을 시작하기 위해 알아야 할 사항
 
-GDevelop의 기본 원리는 간단합니다. 프로그램을 시작하기 위해 아래의 내용을 읽어 봅시다. GDevelop를 설치하지 않으셨다면 [최신 버전](https://gdevelop-app.com/download)을 설치하세요.
+GDevelop의 기본 원리는 간단합니다. 프로그램을 시작하기 위해 아래의 내용을 읽어 봅시다. GDevelop를 설치하지 않으셨다면 [최신 버전](https://gdevelop.io/download)을 설치하세요.
 
 ## 화면에 물체를 나타내기: 오브젝트
 
@@ -45,9 +45,9 @@ X 좌표는 왼쪽으로 갈수록 *감소*하고, 오른쪽으로 갈수록 *�
 
 !!! note
 
-    **액션을 넣어줍시다!** 🎮아래의 예제를 온라인으로 열어봅시다: <https://editor.gdevelop-app.com/?project=example://object-selection>
+    **액션을 넣어줍시다!** 🎮아래의 예제를 온라인으로 열어봅시다: <https://editor.gdevelop.io/?project=example://object-selection>
 
-[![](/gdevelop5/tutorials/objectselection-pickobject.png)](https://editor.gdevelop-app.com/?project=example://object-selection)
+[![](/gdevelop5/tutorials/objectselection-pickobject.png)](https://editor.gdevelop.io/?project=example://object-selection)
 
 ## 이벤트: 순서가 중요하다
 
@@ -97,9 +97,9 @@ Some "behaviors", like the Physics engine or Pathfinding, may move the objects b
 
 !!! note
 
-    **See it in action!** 🎮Open this example online: <https://editor.gdevelop-app.com/?project=example://move-object-with-physics>
+    **See it in action!** 🎮Open this example online: <https://editor.gdevelop.io/?project=example://move-object-with-physics>
 
-[![](/gdevelop5/tutorials/moveobjectwithphysics.png)](https://editor.gdevelop-app.com/?project=example://move-object-with-physics)
+[![](/gdevelop5/tutorials/moveobjectwithphysics.png)](https://editor.gdevelop.io/?project=example://move-object-with-physics)
 
 !!! note
 

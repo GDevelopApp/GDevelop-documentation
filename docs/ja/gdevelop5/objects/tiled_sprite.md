@@ -69,6 +69,6 @@ title: タイルスプライトオブジェクト
         **やってみよう！** 🎮
     サンプルをオンラインで実行できます
 
-[![](/gdevelop5/behaviors/platformerbehavior.png)](https://editor.gdevelop-app.com/?project=example://platformer)
+[![](/gdevelop5/behaviors/platformerbehavior.png)](https://editor.gdevelop.io/?project=example://platformer)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://platformer){ .md-button .md-button--primary }

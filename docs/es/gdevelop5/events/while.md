@@ -17,10 +17,10 @@ Mientras que los eventos generalmente no son necesarios, pero estos eventos se p
 
     Abra estos ejemplos Online.
 
-[![](/gdevelop5/behaviors/spaceshooter.png)](https://editor.gdevelop-app.com/?project=example://asteroids)
+[![](/gdevelop5/behaviors/spaceshooter.png)](https://editor.gdevelop.io/?project=example://asteroids)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://asteroids){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/pathfindinggeneral.png)](https://editor.gdevelop-app.com/?project=example://pathfinding)
+[![](/gdevelop5/behaviors/pathfindinggeneral.png)](https://editor.gdevelop.io/?project=example://pathfinding)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://pathfinding){ .md-button .md-button--primary }

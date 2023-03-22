@@ -5,7 +5,7 @@ title: documentation
 
 # GDevelop 5
 
-O GDevelop é um criador de jogos de código aberto e multiplataforma, projetado para ser usado por todos - não são necessárias habilidades de programação para usar o programa Se você nunca usou o GDevelop, [experimente online](https://editor.gdevelop-app.com) ou [baixar a versão desktop](http://gdevelop-app.com/baixar)!
+O GDevelop é um criador de jogos de código aberto e multiplataforma, projetado para ser usado por todos - não são necessárias habilidades de programação para usar o programa Se você nunca usou o GDevelop, [experimente online](https://editor.gdevelop.io) ou [baixar a versão desktop](http://gdevelop-app.com/baixar)!
 
 Este **Wiki **está aqui para lhe ensinar sobre o software e fornecer tutoriais sobre como usá-lo: você pode contribuir!
 

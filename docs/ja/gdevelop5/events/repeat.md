@@ -18,12 +18,12 @@ title: 指定回数繰り返しイベント
 
 **対角線**
 
-[![](/gdevelop5/events/diagonals.png)](https://editor.gdevelop-app.com/?project=example://find-diagonals)
+[![](/gdevelop5/events/diagonals.png)](https://editor.gdevelop.io/?project=example://find-diagonals)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://find-diagonals){ .md-button .md-button--primary }
 
 **レーザー**
 
-[![](/gdevelop5/events/lasernew.png)](https://editor.gdevelop-app.com/?project=example://zombie-laser)
+[![](/gdevelop5/events/lasernew.png)](https://editor.gdevelop.io/?project=example://zombie-laser)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://zombie-laser){ .md-button .md-button--primary }

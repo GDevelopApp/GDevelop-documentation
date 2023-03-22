@@ -62,6 +62,15 @@ plugins:
     # Redirect old pages:
     - redirects:
         redirect_maps:
+            'gdevelop5/start.md': 'gdevelop5/index.md'
+            'fr/gdevelop5/start.md': 'fr/gdevelop5/index.md'
+            'es/gdevelop5/start.md': 'es/gdevelop5/index.md'
+            'ru/gdevelop5/start.md': 'ru/gdevelop5/index.md'
+            'pt/gdevelop5/start.md': 'pt/gdevelop5/index.md'
+            'de/gdevelop5/start.md': 'de/gdevelop5/index.md'
+            'zh/gdevelop5/start.md': 'zh/gdevelop5/index.md'
+            'pl/gdevelop5/start.md': 'pl/gdevelop5/index.md'
+            'sl/gdevelop5/start.md': 'sl/gdevelop5/index.md'
             'gdevelop5/extending-gdevelop.md': 'gdevelop5/extensions/extend-gdevelop.md'
             'gdevelop5/all-features/functions.md': 'gdevelop5/all-features/expressions-reference.md'
             'gdevelop5/all-features/timers.md': 'gdevelop5/all-features/timers-and-time/index.md'
@@ -71,6 +80,16 @@ plugins:
             'gdevelop5/objects/base_object/events.md': 'gdevelop5/objects/index.md'
             'gdevelop5/objects/base_object/index.md': 'gdevelop5/objects/index.md'
             'gdevelop5/extensions/list.md': 'gdevelop5/extensions/index.md'
+            # Tutorials
+            'gdevelop5/tutorials/platformer/start.md': 'gdevelop5/tutorials/platformer/index.md'
+            'gdevelop5/tutorials/asteroids/start.md': 'gdevelop5/tutorials/asteroids/index.md'
+            'gdevelop5/tutorials/platform-game/start.md': 'gdevelop5/tutorials/platform-game/index.md'
+            'fr/gdevelop5/tutorials/platform-game/start.md': 'fr/gdevelop5/tutorials/platform-game/index.md'
+            'pt/gdevelop5/tutorials/platform-game/start.md': 'pt/gdevelop5/tutorials/platform-game/index.md'
+            'fr/gdevelop5/tutorials/isometric-rpg/start.md': 'fr/gdevelop5/tutorials/isometric-rpg/index.md'
+            'es/gdevelop5/tutorials/platformer/start.md': 'es/gdevelop5/tutorials/platformer/index.md'
+            'ja/gdevelop5/tutorials/platformer/start.md': 'ja/gdevelop5/tutorials/platformer/index.md'
+            # Extensions reference pages from old wiki were transferred to index pages
             'gdevelop5/extensions/advanced-jump/reference.md': 'gdevelop5/extensions/advanced-jump/index.md'
             'gdevelop5/extensions/advanced-p2pevent-handling/reference.md': 'gdevelop5/extensions/advanced-p2pevent-handling/index.md'
             'gdevelop5/extensions/align-object/reference.md': 'gdevelop5/extensions/align-object/index.md'

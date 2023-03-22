@@ -123,4 +123,4 @@ Mire como los anuncios funcionan en un juego abriendo el ejemplo **AdMob**. Remp
 
 !!! note
 
-    ¡Pruébelo online! **[Click aquí para abrir el ejemplo de Admob](https://editor.gdevelop-app.com/?project=example://admob)**. Debe exportalo a Android usando el editor de Gdevelop descargado en su pc para probar el ejemplo en un teléfono real.
+    ¡Pruébelo online! **[Click aquí para abrir el ejemplo de Admob](https://editor.gdevelop.io/?project=example://admob)**. Debe exportalo a Android usando el editor de Gdevelop descargado en su pc para probar el ejemplo en un teléfono real.

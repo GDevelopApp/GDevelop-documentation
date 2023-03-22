@@ -77,11 +77,11 @@ title: プラットフォーム型のビヘイビア
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://platformer){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/platformerbehavior.png)](https://editor.gdevelop-app.com/?project=example://platformer)
+[![](/gdevelop5/behaviors/platformerbehavior.png)](https://editor.gdevelop.io/?project=example://platformer)
 
 
 **平行スクロール型ビヘイビアのサンプル**
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://parallax-scrolling){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/parallaxscrollingbehavior.png)](https://editor.gdevelop-app.com/?project=example://parallax-scrolling)
+[![](/gdevelop5/behaviors/parallaxscrollingbehavior.png)](https://editor.gdevelop.io/?project=example://parallax-scrolling)

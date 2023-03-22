@@ -59,11 +59,11 @@ También podemos cambiar cualquiera de estas opciones utilizando los eventos que
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://space-shooter){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/spaceshooter.png)](https://editor.gdevelop-app.com/?project=example://space-shooter)
+[![](/gdevelop5/behaviors/spaceshooter.png)](https://editor.gdevelop.io/?project=example://space-shooter)
 
 
 **Juego Isométrico (Isometric Game)** (crea una ilusión de gráficos 3D dentro de un juego de gráficos 2D)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://isometric-game){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/isometricgame.png)](https://editor.gdevelop-app.com/?project=example://isometric-game)
+[![](/gdevelop5/behaviors/isometricgame.png)](https://editor.gdevelop.io/?project=example://isometric-game)

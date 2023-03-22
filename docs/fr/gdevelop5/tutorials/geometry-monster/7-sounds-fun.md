@@ -31,6 +31,6 @@ Si vous l'avez sélectionné correctement, vous devriez voir le nom du fichier s
 
 ![](/gdevelop5/tutorials/geometry-monster/105.png)
 
-Maintenant que le bruitage est programmé, nous pouvons commencer à penser à [suivre le score](/fr/gdevelop5/ tutoriels/ geometry-monster/ 8-tracking-score).
+Maintenant que le bruitage est programmé, nous pouvons commencer à penser à [suivre le score](/fr/gdevelop5/tutorials/geometry-monster/8-tracking-score).
 
 ⬅️ **[\|Étape précédente : 6. Détection des collisions](/fr/gdevelop5/tutorials/geometry-monster/6-collision-detection)** ➡️ **[Étape suivante : 8. Suivi du score](/fr/gdevelop5/tutorials/geometry-monster/8-tracking-score)**

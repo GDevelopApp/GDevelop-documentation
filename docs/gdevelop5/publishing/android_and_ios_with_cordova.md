@@ -47,7 +47,7 @@ You need to install:
 
 ## Build Cordova project
 
-To be able to build the exported Cordova project, you also need to have **[Node.js](/[[https///nodejs.org/en/)** installed on your system. Finally, you need to install Cordova by typing on the command prompt or terminal:
+To be able to build the exported Cordova project, you also need to have **[Node.js](https://nodejs.org/en/)** installed on your system. Finally, you need to install Cordova by typing on the command prompt or terminal:
 
 ```
 npm install -g cordova

@@ -51,11 +51,11 @@ Al utilizar el "comportamiento del obstáculo de búsqueda de caminos", podemos 
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://pathfinding){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/pathfindinggeneral.png)](https://editor.gdevelop-app.com/?project=example://pathfinding)
+[![](/gdevelop5/behaviors/pathfindinggeneral.png)](https://editor.gdevelop.io/?project=example://pathfinding)
 
 
 **Conceptos básicos de la ruta de acceso (Path Finding Basics)**
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://pathfinding-basics){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/pathfindingbasics.png)](https://editor.gdevelop-app.com/?project=example://pathfinding-basics)
+[![](/gdevelop5/behaviors/pathfindingbasics.png)](https://editor.gdevelop.io/?project=example://pathfinding-basics)

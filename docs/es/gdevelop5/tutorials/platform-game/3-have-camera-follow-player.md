@@ -5,7 +5,7 @@ title: Sigue al jugador con la cámara (Follow the player with the camera)
 
 !!! note
 
-     Este tutorial es parte del tutorial [](/gdevelop5/ tutorials/ platform-game/ start), ¡pero también puedes reutilizarlo para cualquier otro juego!
+     Este tutorial es parte del tutorial [tutorial de plataformas](/gdevelop5/tutorials/platform-game/start), ¡pero también puedes reutilizarlo para cualquier otro juego!
 
 Por ahora, es difícil construir un gran nivel para explorar porque el jugador puede salir rápidamente de la pantalla.
 
@@ -25,4 +25,4 @@ Eso fue fácil ¿verdad? Hay otras acciones que pueden ser útiles. Por ejemplo,
 
 Es un poco aburrido tener un solo tipo de plataforma. ¡Agreguemos otra con una imagen diferente y eso no es sólido, así que puedes saltar sobre ella desde abajo!
 
-Lee **[la siguiente parte del tutorial](/es/gdevelop5/ tutorials/ platform-game/ 4-add-jump-thru-platforms)**!
+Lee **[la siguiente parte del tutorial](/es/gdevelop5/tutorials/platform-game/4-add-jump-thru-platforms)**!

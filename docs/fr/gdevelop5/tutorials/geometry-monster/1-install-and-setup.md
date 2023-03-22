@@ -9,9 +9,9 @@ FIXME **Cette page est entièrement traduite. Veuillez cependant corriger toutes
 
 **GDevelop** est un moteur de jeu multiplateforme gratuit et open source pour tout le monde - vous n'avez pas besoin de savoir comment coder pour créer votre premier jeu. Il peut être utilisé à la fois pour des projets de loisirs et pour la création de jeux à but lucratif.
 
-Pour obtenir une copie de GDevelop, il vous suffit de vous rendre sur la [page de téléchargement](https://gdevelop-app.com/download/) où les versions pour Windows, Mac OS et Linux sont disponibles.
+Pour obtenir une copie de GDevelop, il vous suffit de vous rendre sur la [page de téléchargement](https://gdevelop.io/download/) où les versions pour Windows, Mac OS et Linux sont disponibles.
 
-Vous pouvez également essayer [l'éditeur en ligne](https://editor.gdevelop-app.com/) directement dans votre navigateur si vous ne souhaitez pas installer le logiciel. Pour ce tutoriel, il est cependant recommandé de télécharger la version complète.
+Vous pouvez également essayer [l'éditeur en ligne](https://editor.gdevelop.io/) directement dans votre navigateur si vous ne souhaitez pas installer le logiciel. Pour ce tutoriel, il est cependant recommandé de télécharger la version complète.
 
 Continuons avec l'installation de la version pour Windows - cliquez sur le bouton "**Windows**" pour commencer à télécharger le programme d'installation pour ce système d'exploitation.
 

@@ -7,7 +7,7 @@ FIXME **Cette page est entièrement traduite. Veuillez cependant corriger toutes
 
 # 11. Jeu terminé
 
-Avec le monstre ayant [plus de vies](/fr/gdevelop5/tutoriels/geometry-monster/10-more-lives), capable de [détecter les collisions](/fr/gdevelop5/tutorials/geometry-monster/6-collision-detection) et devant faire au danger de [bombes](/fr/gdevelop5/tutoriels/geometry-monster/9-add-bombs) tombant avec les formes, nous arrivons à un point où le joueur peut perdre toutes les vies : qu'advient-il alors ? C'est **Jeu terminé** !
+Avec le monstre ayant [plus de vies](/fr/gdevelop5/tutorials/geometry-monster/10-more-lives), capable de [détecter les collisions](/fr/gdevelop5/tutorials/geometry-monster/6-collision-detection) et devant faire au danger de [bombes](/fr/gdevelop5/tutorials/geometry-monster/9-add-bombs) tombant avec les formes, nous arrivons à un point où le joueur peut perdre toutes les vies : qu'advient-il alors ? C'est **Jeu terminé** !
 
 Ajoutons un nouvel objet, qui sera à nouveau un sprite.
 

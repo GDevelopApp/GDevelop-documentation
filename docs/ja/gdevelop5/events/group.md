@@ -28,4 +28,4 @@ title: イベントのグループ
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://space-shooter){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/spaceshooter.png)](https://editor.gdevelop-app.com/?project=example://space-shooter)
+[![](/gdevelop5/behaviors/spaceshooter.png)](https://editor.gdevelop.io/?project=example://space-shooter)

@@ -33,18 +33,18 @@ Una vez que haya seleccionado el comportamiento de destrucción de la lista, eli
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://space-shooter){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/outsidescreenbehaviorspaceshooter.png)](https://editor.gdevelop-app.com/?project=example://space-shooter)
+[![](/gdevelop5/behaviors/outsidescreenbehaviorspaceshooter.png)](https://editor.gdevelop.io/?project=example://space-shooter)
 
 
 **Destruye balas fuera de pantalla / escena**
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://shoot-bullets){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/outsidescreendestroybullets.png)](https://editor.gdevelop-app.com/?project=example://shoot-bullets)
+[![](/gdevelop5/behaviors/outsidescreendestroybullets.png)](https://editor.gdevelop.io/?project=example://shoot-bullets)
 
 
 **Disparando balas Explicación**
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://shooting-bullets-explanation){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/bulletshootingexplanationexample.png)](https://editor.gdevelop-app.com/?project=example://shooting-bullets-explanation)
+[![](/gdevelop5/behaviors/bulletshootingexplanationexample.png)](https://editor.gdevelop.io/?project=example://shooting-bullets-explanation)

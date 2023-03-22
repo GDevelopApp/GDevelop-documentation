@@ -7,7 +7,7 @@ FIXME **Cette page est entièrement traduite. Veuillez cependant corriger toutes
 
 # 8. Suivi du score
 
-C'est génial d'avoir déjà [des bruitages](/fr/gdevelop5/tutorials/geometry-monster/7-sounds-fun), mais la partie la plus importante est en fait de compter le nombre de formes que le monstre a pu collecter. Nous allons profiter de la [détection des collisions](/fr/gdevelop5/ tutorials/ geometry-monster/ 6-collision-detection) de la même manière : lorsque une forme est collectée, non seulement nous jouons un son, mais nous augmentons également le ***score***.
+C'est génial d'avoir déjà [des bruitages](/fr/gdevelop5/tutorials/geometry-monster/7-sounds-fun), mais la partie la plus importante est en fait de compter le nombre de formes que le monstre a pu collecter. Nous allons profiter de la [détection des collisions](/fr/gdevelop5/tutorials/geometry-monster/6-collision-detection) de la même manière : lorsque une forme est collectée, non seulement nous jouons un son, mais nous augmentons également le ***score***.
 
 Pour commencer, ajoutons une action après les actions servant à supprimer une forme et jouer un son, que nous avions ajoutées dans les chapitres précédents. Choisissez **Add an action** (Ajouter une action).
 

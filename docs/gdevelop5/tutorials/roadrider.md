@@ -7,7 +7,7 @@ This tutorial will help you get more familiar with GDevelop. Our primary focus i
 ![](/gdevelop5/tutorials/peek_2019-05-30_19-46.gif)
 
 ## Download GDevelop
-If you do not have GDevelop yet, you can download it from [GDevelop's official website.](https://gdevelop-app.com/download/) It is available for Windows, macOS as well as Linux.
+If you do not have GDevelop yet, you can download it from [GDevelop's official website.](https://gdevelop.io/download/) It is available for Windows, macOS as well as Linux.
 
 After downloading GDevelop you can proceed with the installation/extraction followed by the launching of GDevelop.
 

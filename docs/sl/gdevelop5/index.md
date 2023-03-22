@@ -5,7 +5,7 @@ title: start
 
 # GDevelop 5
 
-Develop je odprtokodni, večplatformski igralni pogon, oblikovan za vsakogar - za uporabo ne zahteva znanja programiranja. Če ga še niste uporabljali [ga preizkusite na spletu](https://editor.gdevelop-app.com) ali [prenesite namizno različico](http://gdevelop-app.com/sl/download)!
+Develop je odprtokodni, večplatformski igralni pogon, oblikovan za vsakogar - za uporabo ne zahteva znanja programiranja. Če ga še niste uporabljali [ga preizkusite na spletu](https://editor.gdevelop.io) ali [prenesite namizno različico](http://gdevelop.io/download)!
 
 Ta wiki je namenjen učenju o programski opremi in ponuja vodnike za njeno rabo: Vaši prispevki so dobrodošli!
 

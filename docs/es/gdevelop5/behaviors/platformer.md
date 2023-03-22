@@ -79,11 +79,11 @@ Todas las opciones de aquí también se pueden cambiar usando eventos en cualqui
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://platformer){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/platformerbehavior.png)](https://editor.gdevelop-app.com/?project=example://platformer)
+[![](/gdevelop5/behaviors/platformerbehavior.png)](https://editor.gdevelop.io/?project=example://platformer)
 
 
 **Comportamiento de desplazamiento de paralaje (Parallax Scrolling Behavior)**
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://parallax-scrolling){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/parallaxscrollingbehavior.png)](https://editor.gdevelop-app.com/?project=example://parallax-scrolling)
+[![](/gdevelop5/behaviors/parallaxscrollingbehavior.png)](https://editor.gdevelop.io/?project=example://parallax-scrolling)

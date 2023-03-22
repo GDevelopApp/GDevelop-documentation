@@ -153,7 +153,7 @@ Si l'objet existe et que sa visibilité est désactivée, toutes les actions et 
 
 # Dans l'éditeur d'événements
 
-Vous pouvez modifier et manipuler les propriétés d'une instance d'objet ou de plusieurs instances à l'aide d'événements au cours du jeu. C’est même ce qu’est le gameplay dans GDevelop : manipuler des objets en temps réel pendant que nous jouons. Comme les événements et l’éditeur d’événements sortent du cadre de cette page, reportez-vous à la page [Concepts de base du jeu](/fr/gdevelop5/ tutoriels/ basic-game-making-concepts) pour commencer.
+Vous pouvez modifier et manipuler les propriétés d'une instance d'objet ou de plusieurs instances à l'aide d'événements au cours du jeu. C’est même ce qu’est le gameplay dans GDevelop : manipuler des objets en temps réel pendant que nous jouons. Comme les événements et l’éditeur d’événements sortent du cadre de cette page, reportez-vous à la page [Concepts de base du jeu](/fr/gdevelop5/tutorials/basic-game-making-concepts) pour commencer.
 
 * Tous les objets partagent les mêmes caractéristiques communes (comme la position, l'angle et tout ce qui est décrit sur cette page). De nombreuses conditions et actions peuvent être utilisées pour tous les objets. Vous pouvez [en savoir plus sur les conditions / actions communes pour tous les objets ici.](/gdevelop5/ objects/ base_object/ events)
 * Les objets peuvent également vous fournir une fonctionnalité spécifique. Par exemple, [les objets sprite](/[gdevelop5/ objects/ sprite) peuvent avoir des animations et l'animation en cours de lecture peut être modifiée à l'aide d'une action.

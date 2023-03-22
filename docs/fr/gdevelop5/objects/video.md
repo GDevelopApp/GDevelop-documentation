@@ -120,4 +120,4 @@ Pour régler le volume d'une vidéo, utilisez la condition **Set volume** (Régl
 
 ## Exemple
 
-  * Video player: https://editor.gdevelop-app.com/?project=example://video-player
+  * Video player: https://editor.gdevelop.io/?project=example://video-player

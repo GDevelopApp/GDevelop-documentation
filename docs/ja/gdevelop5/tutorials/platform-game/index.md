@@ -9,7 +9,7 @@ title: プラットフォーム型ゲームの作り方
 
 ## GDevelopのダウンロード
 
-**GDevelop5**を お持ちでない場合は [公式サイト](https://gdevelop-app.com)からダウンロードできます。Windows、macOS、Linuxで利用できます。
+**GDevelop5**を お持ちでない場合は [公式サイト](https://gdevelop.io)からダウンロードできます。Windows、macOS、Linuxで利用できます。
 
 必ずこのページからGDevelopをダウンロードして、最新バージョンを入手してください。GDevelopをインストール（または圧縮ファイルを展開）して起動します。
 

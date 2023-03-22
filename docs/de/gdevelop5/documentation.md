@@ -7,7 +7,7 @@ FIXME **This page is not fully translated, yet. Please help completing the trans
 
 ![](/logocompleteeffecttranparent400x100.png)
 
-# GDevelop 5 GDevelop ist ein quelloffener, plattformübergreifende **Spieleentwicklungssoftware**,. Die Verwendung ist für jedermann entwickelt worden – es sind keine Programmierkenntnisse erforderlich, um die Software zu verwenden. Wenn Sie GDevelop noch nie verwendet haben, [versuchen Sie es online](https://editor.gdevelop-app.com) oder [laden Sie die Desktop-Version herunter](http://gdevelop-app.com/download)!
+# GDevelop 5 GDevelop ist ein quelloffener, plattformübergreifende **Spieleentwicklungssoftware**,. Die Verwendung ist für jedermann entwickelt worden – es sind keine Programmierkenntnisse erforderlich, um die Software zu verwenden. Wenn Sie GDevelop noch nie verwendet haben, [versuchen Sie es online](https://editor.gdevelop.io) oder [laden Sie die Desktop-Version herunter](http://gdevelop.io/download)!
 
 Dieses **Wiki** ist da, um Sie über die Software zu unterrichten und Tutorials zu ihrer Verwendung bereitzustellen: Sie sind herzlich eingeladen, dazu beizutragen! \# Einstieg
 

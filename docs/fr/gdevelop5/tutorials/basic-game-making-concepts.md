@@ -3,7 +3,7 @@ title: Concepts de base pour créer un jeu  - ce dont vous avez besoin pour dém
 ---
 # Concepts de base pour créer un jeu : ce dont vous avez besoin pour démarrer avec GDevelop
 
-Les concepts de base de GDevelop sont simples. Lisez les informations suivante pour commencer sereinement avec cette application. Si vous n'avez pas encore GDevelop, [Téléchargez le depuis le site](https://gdevelop-app.com/download)!
+Les concepts de base de GDevelop sont simples. Lisez les informations suivante pour commencer sereinement avec cette application. Si vous n'avez pas encore GDevelop, [Téléchargez le depuis le site](https://gdevelop.io/download)!
 
 ## Coordonnées
 
@@ -39,7 +39,7 @@ Tandis que l’événement suivant supprimera **seulement** les objets "Square"(
 
 !!! tip
 
-    **À voir en action!** 🎮Ouvrez cet exemple en ligne et allez observer les événements: https://editor.gdevelop-app.com/?project=example://object-selection
+    **À voir en action!** 🎮Ouvrez cet exemple en ligne et allez observer les événements: https://editor.gdevelop.io/?project=example://object-selection
 
 ## Événement: L'importance de l'ordre
 
@@ -80,7 +80,7 @@ Certains comportements, comme le comportement Physique ou le Détecteur de chemi
 
 !!! tip
 
-    **À voir!** 🎮Ouvrez et décortiquez cet exemple en ligne: https://editor.gdevelop-app.com/?project=example://move-object-with-physics
+    **À voir!** 🎮Ouvrez et décortiquez cet exemple en ligne: https://editor.gdevelop.io/?project=example://move-object-with-physics
 
 ## Les variables
 

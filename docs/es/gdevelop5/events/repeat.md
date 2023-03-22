@@ -19,12 +19,12 @@ Tenga en cuenta que este recuento puede ser una expresión. Eso significa que pu
 
 **Diagonales (Diagonals)**
 
-[![](/gdevelop5/events/diagonals.png)](https://editor.gdevelop-app.com/?project=example://find-diagonals)
+[![](/gdevelop5/events/diagonals.png)](https://editor.gdevelop.io/?project=example://find-diagonals)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://find-diagonals){ .md-button .md-button--primary }
 
 **Laser**
 
-[![](/gdevelop5/events/laser.png)](https://editor.gdevelop-app.com/?project=example://zombie-laser)
+[![](/gdevelop5/events/laser.png)](https://editor.gdevelop.io/?project=example://zombie-laser)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://zombie-laser){ .md-button .md-button--primary }

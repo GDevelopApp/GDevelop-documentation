@@ -85,4 +85,4 @@ N'oubliez pas : **L'action Lire une valeur est réservé aux nombres** et **L'ac
 
     Ouvrez cet exemple dans l'éditeur en ligne !
 
-- <https://editor.gdevelop-app.com/?project=example://save-load>
+- <https://editor.gdevelop.io/?project=example://save-load>

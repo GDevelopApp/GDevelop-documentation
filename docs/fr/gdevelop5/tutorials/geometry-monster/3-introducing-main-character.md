@@ -25,7 +25,7 @@ Après lui avoir donné un nom, ajoutons quelques images qui le représenteront 
 
 ![](/gdevelop5/tutorials/geometry-monster/20.png)
 
-Accédez au dossier où se trouvent les images (vous pouvez les télécharger à partir de ![ici](/ gdevelop5/ tutorials/ geometry-monster-sources.zip)), sélectionnez tout ce que vous souhaitez ajouter (Ici` **monster-idle1.png**` à `monster-idle11.png`), puis cliquez sur **Ouvrir**.
+Accédez au dossier où se trouvent les images (vous pouvez les télécharger à partir de ![ici](/gdevelop5/tutorials/geometry-monster-sources.zip)), sélectionnez tout ce que vous souhaitez ajouter (Ici` **monster-idle1.png**` à `monster-idle11.png`), puis cliquez sur **Ouvrir**.
 
 ![](/gdevelop5/tutorials/geometry-monster/21.png)
 

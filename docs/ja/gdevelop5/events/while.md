@@ -15,10 +15,10 @@ title: 条件が真のあいだ繰り返しイベント
         **やってみよう！** 🎮
     オンラインで下記のサンプルを実行できます。
 
-[![](/gdevelop5/events/spaceshooternew.png)](https://editor.gdevelop-app.com/?project=example://asteroids)
+[![](/gdevelop5/events/spaceshooternew.png)](https://editor.gdevelop.io/?project=example://asteroids)
 
-* [Asteriods Example](https://editor.gdevelop-app.com/?project=example://asteroids)
+* [Asteriods Example](https://editor.gdevelop.io/?project=example://asteroids)
 
-[![](/gdevelop5/events/pathfindinggeneralnew.png)](https://editor.gdevelop-app.com/?project=example://pathfinding)
+[![](/gdevelop5/events/pathfindinggeneralnew.png)](https://editor.gdevelop.io/?project=example://pathfinding)
 
-* [Pathfinding Example](https://editor.gdevelop-app.com/?project=example://pathfinding)
+* [Pathfinding Example](https://editor.gdevelop.io/?project=example://pathfinding)

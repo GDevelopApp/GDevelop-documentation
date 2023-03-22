@@ -9,7 +9,7 @@ Tenga en cuenta que puede leer la página [Empezando](/es/gdevelop5/ getting_sta
 
 ## Descargar GDevelop
 
-Si no tiene **GDevelop 5**, descárguelo del \[sitio web oficial\](<https://gdevelop-app.com/download/>). Está disponible para Windows, macOS y Linux.
+Si no tiene **GDevelop 5**, descárguelo del \[sitio web oficial\](<https://gdevelop.io/download/>). Está disponible para Windows, macOS y Linux.
 
 Siempre descargue GDevelop desde esta página para asegurarse de tener la última versión. Instalar (o extraer) GDevelop y lanzarlo.
 
@@ -105,7 +105,7 @@ Cierre el editor haciendo clic en el botón "Aplicar" en la esquina inferior der
 
 El objeto se agrega a nuestra escena pero es muy pequeño. Haga clic en él y use los controladores para cambiar el tamaño para que se vea como una plataforma:
 
-![](/gdevelop5/ tutorials/ platform-game/ screen_shot_2017-09-25_at_00.00.01.png)
+![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-25_at_00.00.01.png)
 
 Además, no olvide cambiar el nombre del objeto para que se llame "GrassPlatform" en lugar del nombre predeterminado.
 
@@ -143,7 +143,7 @@ También hay algunas opciones que puedes cambiar. Por ejemplo, la opción "Puede
 
 En este punto, deberías poder probar tu juego presionando el botón "Vista previa" en la parte superior de la pantalla en la barra de herramientas.
 
-![](/gdevelop5/ tutorials/ platform-game/ screen_shot_2017-09-25_at_00.13.25.png)
+![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-25_at_00.13.25.png)
 
 Cuando presiona el botón, se genera una vista previa y, justo después, se abre una nueva ventana.
 
@@ -151,7 +151,7 @@ Debes poder caminar y saltar usando las teclas predeterminadas: mueve el persona
 
 Por ahora, el objeto no tiene animaciones, las añadiremos más tarde.
 
-![](/gdevelop5/ tutorials/ platform-game/ screen_shot_2017-09-25_at_00.14.18.png)
+![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-25_at_00.14.18.png)
 
 Si el objeto no se está moviendo, asegúrese de haber agregado los comportamientos adecuados.
 
@@ -159,14 +159,14 @@ Si el objeto no se está moviendo, asegúrese de haber agregado los comportamien
 
 El fondo gris es un poco aburrido. Más tarde podemos agregar una imagen, pero por ahora, seamos sencillos. En el editor, haga clic derecho en el fondo gris y elija "Propiedades de escena":
 
-![](/gdevelop5/ tutorials/ platform-game/ screen_shot_2017-09-25_at_00.16.03.png)
+![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-25_at_00.16.03.png)
 
 En la nueva ventana que se abrió, haga clic en `Color de fondo de la escena` y seleccione un buen color para el fondo:
 
-![](/gdevelop5/ tutorials/ platform-game/ screen_shot_2017-09-25_at_00.18.08.png)
+![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-25_at_00.18.08.png)
 
 ## Siguiente paso: animar el jugador
 
 Nuestro juego es muy básico por ahora: el jugador no está animado cuando salta o corre. La siguiente parte del tutorial mostrará cómo agregar diferentes animaciones y cómo usar eventos para cambiar las animaciones cuando el estado del jugador cambia.
 
-Lea**[la siguiente parte del tutorial aquí](/es/gdevelop5/ tutorials/ platform-game/ 2-player-animations)**!
+Lea **[la siguiente parte del tutorial aquí](/es/gdevelop5/tutorials/platform-game/2-player-animations)**!
