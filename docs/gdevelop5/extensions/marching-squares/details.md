@@ -36,8 +36,9 @@ Liquids or blob effects can be made using contour lines. In the liquids example,
 
 The spikes are merged using the "Addition" operation. This is important because when 2 spikes are next to each other, their values add up and can go over value chosen for the contour line. This is what does the feeling of attraction between 2 drops.
 
-![](diskadditionnear.png) ![](diskaddition.png)
 
+| ![](diskadditionnear.png) | ![](diskaddition.png) |
+|---|---|
 
 ### Draw a fog of war
 
