@@ -5,7 +5,7 @@ title: start
 
 # Wiki GDevelop
 
-GDevelop es un creador de juegos de código abierto, multiplataforma, diseñado para ser usado por todos - no se requieren conocimientos de programación. Si aún no tienes GDevelop, ¡[puedes descargarlo ahora](http://www.compilgames.net)!
+GDevelop es un creador de juegos de código abierto, multiplataforma, diseñado para ser usado por todos - no se requieren conocimientos de programación. Si aún no tienes GDevelop, ¡[puedes descargarlo ahora](https://gdevelop.io/download)!
 
 La wiki está aquí para buscar ayuda sobre el software y tutoriales de cómo usarlo: ¡tus aportes son bienvenidos!
 

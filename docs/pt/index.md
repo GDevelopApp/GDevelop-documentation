@@ -5,7 +5,7 @@ title: start
 
 # GDevelop Wiki
 
-GDevelop é um ambiente para jogos multiplataforma de código aberto que pode ser utilizado por qualquer um, mesmo que não tenha conhecimentos de programação, se você ainda não tem o GDevelop, [baixe-o](http://www.compilgames.net)!
+GDevelop é um ambiente para jogos multiplataforma de código aberto que pode ser utilizado por qualquer um, mesmo que não tenha conhecimentos de programação, se você ainda não tem o GDevelop, [baixe-o](https://gdevelop.io/download)!
 
 Esta wiki foi criada para solucionar dúvidas e ajudar no uso do GDevelop: Sinta-se livre para contribuir!
 

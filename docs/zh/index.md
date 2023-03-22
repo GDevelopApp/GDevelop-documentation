@@ -5,7 +5,7 @@ title: start
 
 # GDevelop 百科
 
-GDevelop 是一个开源、跨平台的游戏制作器，专为所有人设计 — — 不需任何编程技能。如果你还没有安装GDevelop，[现在下载](http://www.compilgames.net)!
+GDevelop 是一个开源、跨平台的游戏制作器，专为所有人设计 — — 不需任何编程技能。如果你还没有安装GDevelop，[现在下载](https://gdevelop.io/download)!
 
 在这篇wiki可以找到与GDevelop有关的帮助与教程，欢迎您的贡献！
 
