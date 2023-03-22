@@ -62,6 +62,7 @@ plugins:
     # Redirect old pages:
     - redirects:
         redirect_maps:
+            'gdevelop5/start.md': 'gdevelop5/index.md'
             'gdevelop5/extending-gdevelop.md': 'gdevelop5/extensions/extend-gdevelop.md'
             'gdevelop5/all-features/functions.md': 'gdevelop5/all-features/expressions-reference.md'
             'gdevelop5/all-features/timers.md': 'gdevelop5/all-features/timers-and-time/index.md'
@@ -75,6 +76,7 @@ plugins:
             'gdevelop5/tutorials/platformer/start.md': 'gdevelop5/tutorials/platformer/index.md'
             'gdevelop5/tutorials/asteroids/start.md': 'gdevelop5/tutorials/asteroids/index.md'
             'gdevelop5/tutorials/platform-game/start.md': 'gdevelop5/tutorials/platform-game/index.md'
+            'fr/gdevelop5/tutorials/platform-game/start.md': 'fr/gdevelop5/tutorials/platform-game/index.md'
             # Extensions reference pages from old wiki were transferred to index pages
             'gdevelop5/extensions/advanced-jump/reference.md': 'gdevelop5/extensions/advanced-jump/index.md'
             'gdevelop5/extensions/advanced-p2pevent-handling/reference.md': 'gdevelop5/extensions/advanced-p2pevent-handling/index.md'
