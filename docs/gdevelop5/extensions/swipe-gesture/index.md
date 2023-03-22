@@ -13,6 +13,7 @@ Note: This extension does NOT support multitouch.
 
 Expressions:
 
+
 - `StartX`, `StartY`: Position where the swipe started
 - `EndX`, `EndY`: Position where the swipe ended
 - `Distance`: Length of the swipe, in pixels
@@ -21,6 +22,7 @@ Expressions:
 - `Layer`: Layer used to detect swipe gestures
 
 Conditions:
+
 
 - `Is swipe detection enabled`
 - `Is swipe in progress?` - A swipe starts when the mouse click or touch begins

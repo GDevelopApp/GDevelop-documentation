@@ -10,6 +10,7 @@ A collection of utilities and tools for working with arrays.
 > Note: This extension is currently made in JavaScript instead of the event sheet as variables cannot be passed to events based functions yet. Due to this hack, the extension **only works on root scene variables**, not on child variables or non-scene variables.
 
 This extension adds features like:
+
 - Combining arrays (concatenate into new array, append all children to another array)
 - Finding a value in an array (find index expression, contains condition)
 - Reversing arrays

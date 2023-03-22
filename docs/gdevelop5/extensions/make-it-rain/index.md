@@ -16,6 +16,7 @@ Makes an object rain from a selected direction.
 ---
 
 - User can select the rain object.
+
 - User can select to rain object from a selected direction.
 - User can set condition to check if the rain object collides with another object.
 - User can set action to Stop/Start the rain object.

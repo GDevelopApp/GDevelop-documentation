@@ -13,6 +13,7 @@ effect type:
   * __Vertical:__ is a monochrome color comes from right side then comes back.
   * __Horizontal:__ is a monochrome color come from top side then comes back.
   * __Circular:__ is a circle which increases from the center and narrows.
+
 * __Paint effect ended:__ event when the paint effect ends.
 
 ---

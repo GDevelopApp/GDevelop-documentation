@@ -8,6 +8,7 @@ Add conditions, actions and expressions to check for the existence of a variable
 ---
 
 This extension provides: 
+
 - Conditions to check if a global/scene/object variable exists.
 - Actions to copy object variables, global and scene variables.
 - Actions to delete an existing global/scene variable from memory.

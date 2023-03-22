@@ -10,9 +10,11 @@ Copy the camera settings of a layer and apply them to another layer.
 Useful when multiple layers need to use the same camera values.
 
 How to use:
+
 - Run the "Copy camera settings" action after all other camera actions have been performed
 
 Tips:
+
 - Do not use on layers that implement a parallax effect
 
 ---

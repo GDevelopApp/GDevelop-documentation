@@ -10,10 +10,12 @@ Limit the maximum movement and rotation speed of an object from forces or the ph
 Limit the maximum movement and rotation speed of an object from forces or the physics behavior.
 
 How to use:
+
 - Add the behavior that matches the method used to move the object (forces or physics)
 - Set the maximum speed value in the behavior properties
 
 Tips:
+
 - This only affects movement caused by forces or physics behavior
 - This may not affect movement caused by other behaviors (platformer, top-down, draggable, etc)
 

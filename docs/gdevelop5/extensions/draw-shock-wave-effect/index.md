@@ -20,12 +20,14 @@ Shock wave shape can be a circle or star pattern.
 
 How to use:
 
+
 - Assign behavior to a shape-painter object
 - Create the shape-painter object where you want the shock wave to appear
 - Shock wave animation will start automatically
 - Shape-painter will delete itself after the animation is finished
 
 Tips:
+
 
 - Appearance of the shock wave can be changed by editing the behavior properties
 - Properties can be edited in the scene editor or by using actions after the shape-painter object is created

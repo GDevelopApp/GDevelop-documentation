@@ -18,12 +18,14 @@ Create chat bubbles dynamically.
 Create chat bubbles dynamically
 
 currently support:
+
 - auto adjustments for text width
 - auto adjustments for text height
 - chat bubble colors
 - name tags
 
 future support:
+
 - different positions for the chat bubble tail
 - adjustable paddings.
 

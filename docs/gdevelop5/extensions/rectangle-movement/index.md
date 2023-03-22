@@ -10,6 +10,7 @@ Move objects in a rectangular pattern.
 Move objects in a rectangular pattern with easing functions from the Tween extension.
 
 It can be used for:
+
 - Moveable platforms
 - Enemy movement patterns
 

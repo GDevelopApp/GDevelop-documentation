@@ -11,13 +11,16 @@ Apply explosion-like physics forces to target objects that are inside the explos
 
 Requirements:
 
+
 - Target Objects must have physics behavior
 
 Tips:
 
+
 - Use the "__ExplosionForce.Exploded" object variable to detect when target objects are affected by an explosion.  For instance, start an opacity tween that fades away and deletes the objects.
 
 Variables given to Target Objects:
+
 
 - "__ExplosionForce.Exploded" (boolean)
 - "__ExplosionForce.Magnitude" (number)

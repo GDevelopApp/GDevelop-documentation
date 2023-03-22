@@ -8,6 +8,7 @@ Allows to read URL on Web browser exports of the game and manipulate URLs genera
 ---
 
 This extension allows to 
+
 - Get the URL of the game page
 - Reload the page
 - Redirect to another page

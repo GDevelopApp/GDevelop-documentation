@@ -16,6 +16,7 @@ Flip platformer character gravity up side down.
 ---
 
 - Easily make VVVV games.
+
 - Easily Flip platformer character gravity upside down.
 - Set the flip gravity key.
 - Set the jump while flipped key.
@@ -29,6 +30,7 @@ Flip platformer character gravity up side down.
 - 2 actions included:  
 1- You have 1 object at the top and bottom.  
 2- You have 2 objects, one at the bottom (floor), one at the top (roof).
+
 
 *Note: this extension must run in every frame, so make sure to leave the event condition empty.  
 Recommended: Set the platformer character sprite Origin and Center points to sprite center for the best experience.*

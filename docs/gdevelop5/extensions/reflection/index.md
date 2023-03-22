@@ -10,6 +10,7 @@ Add a reflection to a selected object.
 Reflection extension is useful when it comes to reflecting objects, like a player walking on water/glass/beach.
 An action let you set the reflection for specific objects with a lot of options:
 
+
 - The reflection opacity
 - Reflective surface object
 - Z order of the reflection

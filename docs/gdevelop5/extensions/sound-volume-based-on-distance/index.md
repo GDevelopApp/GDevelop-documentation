@@ -16,6 +16,7 @@ Make any sound volume on any channel increase and decrease based on distance.
 ---
 
 # User can
+
 - Set any channel volume based on the distance betwen 2 objects.
 - Use the extension action multi times on different objects.
 - Set the Sound range.

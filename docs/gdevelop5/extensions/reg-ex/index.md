@@ -8,6 +8,7 @@ Functions for using regular expressions to manipulate strings.
 ---
 
 Adds function to use regular expressions with strings, such as  
+
 - Find the position of pattern in a string 
 - Find a pattern in a string
 - Split a string by a pattern

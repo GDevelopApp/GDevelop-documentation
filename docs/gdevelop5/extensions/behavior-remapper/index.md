@@ -14,6 +14,7 @@ Actions have two versions. `custom` allow the movement keys to be changed to wha
 ### Available Presets:
 
 ##### `WASD`
+
 -	W: Up
 -	A: Left
 -	S: Down
@@ -21,6 +22,7 @@ Actions have two versions. `custom` allow the movement keys to be changed to wha
 -	Space: Jump
 
 ##### `ZQSD`
+
 -	Z: Up
 -	Q: Left
 -	S: Down
@@ -28,6 +30,7 @@ Actions have two versions. `custom` allow the movement keys to be changed to wha
 -	Space: Jump
 
 ##### `Numpad` (Num lock must be disabled)
+
 -	Numpad Up: Up
 -	Numpad Left: Left
 -	Numpad Down: Down
@@ -35,6 +38,7 @@ Actions have two versions. `custom` allow the movement keys to be changed to wha
 -	Numpad Return/Enter: Jump
 
 ##### `IJKL`
+
 -	I: Up
 -	J: Left
 -	K: Down

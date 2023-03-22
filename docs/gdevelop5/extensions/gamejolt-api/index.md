@@ -19,6 +19,7 @@ Support for Gamejolt API.
 
 It features the complete API:
 
+
 * Trophies and leaderboards
 * Sessions and server time
 * User connection and friends

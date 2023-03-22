@@ -8,6 +8,7 @@ Platformer character jump easy configuration and platformer AI tools.
 ---
 
 This extension allows to:
+
 * Configure the height of a jump by automatically choosing the right jump speed ([open the project online](https://editor.gdevelop.io/?project=example://platformer-jump-evaluator)).
 * Know when to jump to reach a platform (can be useful for AI).
 * Draw jump trajectories to check a level design.

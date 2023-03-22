@@ -18,6 +18,7 @@ Grab platforms ledges within reach automatically.
 Platforms ledges are grabbed automatically when they are within reach.
 
 Additional constraints can be added to:
+
 - make the grabbing range smaller
 - only grab ledges the character is facing
 

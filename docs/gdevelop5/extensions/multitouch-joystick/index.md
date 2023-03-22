@@ -23,12 +23,14 @@ This extension is deprecated. Please install the new extension with the same nam
 
 How to use:
 
+
 - Add the joystick behavior to a sprite that will be the joystick 
 - Place the joystick object on the scene
 - Run the "Activate joystick" action on every frame and specify the thumb object
 - The joystick thumb object will automatically be created and moved
 
 Tips:
+
 
 - Use "Simulate a touch" functions to provide mouse and gamepad controls
 - More than one joystick or button can be used at the same time

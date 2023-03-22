@@ -16,12 +16,14 @@ Move objects on curved paths.
 ---
 
 This extension allows to move objects on Bézier curve paths.
+
 - Paths can be built dynamically or from predetermined paths in SVG format.
 - A behavior moves objects in a given duration a bit like the Tween extension does.
 - Another behavior moves objects using a speed and an acceleration.
 - Expressions give access to the path trajectory values for more complex movements.
 
 This extension can be used to:
+
 - Move enemies that follow a pattern
 - Animate decorations
 

@@ -26,6 +26,7 @@ This extension adds Dialog Box functionality that can be used for RPGs, visual n
 1. After that, execute the "Open Dialog Box" action, "Close Dialog Box" action, etc.
 
 ## This extension add:
+
 **Dialog Box** - behavior
 **Setup Dialog Box** - action
 **Open Dialog Box** - action

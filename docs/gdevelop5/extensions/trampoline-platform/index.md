@@ -16,6 +16,7 @@ Convert object to trampoline platform.
 ---
 
 # User can
+
 - Use the extension action multi times on multi objects.
 - Set the trampoline force.
 - Set multi forces for each trampoline.
@@ -24,16 +25,20 @@ Convert object to trampoline platform.
 - Set the boolean (On/Off) to trigger the trampoline:
  1. On: Trigger if player is on top of it.  
  2. Off: Trigger if player collided with it.
+
 - Check if a trampoline has been triggered (for animations).
 
 # Actions
+
 - Extension action.
 
 # Conditions
+
 - Check if a trampoline has been triggered.
 
 # Example
 ![](https://i.imgur.com/XIYBQB9.png)
+
 *-Recommended to use platform behavior (Jump through) on the trampoline.*  
 *-Extension action must run in every frame.*
 

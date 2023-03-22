@@ -16,11 +16,13 @@ Expressions:
  - ToFixed: (Deprecated) Formats a number to use the specified number of decimal places
 
 Conditions:
+
 - IsEven: Check if the number is even (divisible by 2)
 
 Release Notes:
 
 Version 1.0.7
+
 - Added ToFixedString()
 - Deprecated ToFixed() because it does not show any trailing zeros for whole numbers. Prefer using ToFixedString() to set values in text objects.
 
