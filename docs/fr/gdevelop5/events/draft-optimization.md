@@ -1,7 +1,7 @@
 ---
 title: draft-optimization
 ---
-FIXME **This page is not fully translated, yet. Please help completing the translation.**  
+FIXME **This page is not fully translated, yet. Please help completing the translation.**
 *(remove this paragraph once the translation is finished)*
 
 !!! note
@@ -44,10 +44,10 @@ Les sprites ont deux aspects important, leur poids en Ko, Mo, Go et les dimensio
 Notamment à cause des images dépassant 2048 pixels de côté. Les images lourde en poids quand à elle ralentirons les temps de chargement.
 
 !!! note
-    
+
          **Pourquoi il ne faut pas dépasser 2048 pixels de côté ?**
-    
-    Les images plus grande peuvent ne pas s'afficher correctement sur certains téléphones. Sachez aussi que plus une image est grande, plus elle prendra de la place en mémoire, se qui est important à prendre en compte car les téléphones ne sont pas aussi performant qu'un ordinateur. 
+
+    Les images plus grande peuvent ne pas s'afficher correctement sur certains téléphones. Sachez aussi que plus une image est grande, plus elle prendra de la place en mémoire, se qui est important à prendre en compte car les téléphones ne sont pas aussi performant qu'un ordinateur.
 
 Il est recommandé de découper les images dépassant cette taille. Il existe aussi [un type d'objet permettant de répété votre image](/fr/gdevelop5/objects/tiled_sprite) sur de longue distance.
 

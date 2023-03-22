@@ -17,7 +17,7 @@ Para usar el Panel Sprite, cree un nuevo objeto desde el panel / lista Objetos a
 
 &nbsp;
 
-    - 
+    -
 
 ![](/gdevelop5/objects/panelspriteselector.png)
 

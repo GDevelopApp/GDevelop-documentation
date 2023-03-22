@@ -1,7 +1,7 @@
 ---
 title: 12. Levels
 ---
-# 12. Levels 
+# 12. Levels
 
 ## Series
 
@@ -23,11 +23,11 @@ You are reading **Part 12** of the [Space Shooter Tutorial](/gdevelop5/tutorials
 
 !!! tip
 
-     In this chapter, we will learn how to design different levels and use them. 
+     In this chapter, we will learn how to design different levels and use them.
 
 ## Finishing the levels
 
-We will add an object called **FinishLine** to determine the end of the level. Use a transparent image **finish_line.png** from the assets folder as a sprite. 
+We will add an object called **FinishLine** to determine the end of the level. Use a transparent image **finish_line.png** from the assets folder as a sprite.
 
 !!! tip
 
@@ -35,7 +35,7 @@ We will add an object called **FinishLine** to determine the end of the level. U
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-finish-line-object.png)
 
-Then, **drag and drop** the **FinishLine** to **the end of the level**. 
+Then, **drag and drop** the **FinishLine** to **the end of the level**.
 
 !!! warning
 
@@ -47,7 +47,7 @@ Open the **Events** tab, and add a new condition to determine the collision betw
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-current-level-global-variable.png)
 
-In the action, increment **CurrentLevel** by **1**. 
+In the action, increment **CurrentLevel** by **1**.
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-increase-current-level.png)
 
 In the end, your event should look like this:

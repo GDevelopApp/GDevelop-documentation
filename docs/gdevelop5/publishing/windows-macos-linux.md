@@ -18,7 +18,7 @@ It is important to verify that your game is ready to be exported as an executabl
 
 ## Launch export
 
-In the File menu, choose Export. Choose then **Publish your game**, followed by **Desktop**. 
+In the File menu, choose Export. Choose then **Publish your game**, followed by **Desktop**.
 
 ![](/gdevelop5/publishing/publish-desktop-locate.gif)
 

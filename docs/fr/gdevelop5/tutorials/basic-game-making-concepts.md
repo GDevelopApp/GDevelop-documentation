@@ -24,11 +24,11 @@ Si vous utilisez des fonctions trigonométriques comme le **sinus** ou le **cosi
 Les événements, que vous utilisez pour créer les règles et interaction de votre jeu, sont composés de conditions et d’actions.
 La majorité des conditions et actions se réfèrent à des objets. Les conditions effectuent des tests sur les objets et les actions les manipulent, les transforment.
 
-  * Une action sans condition s’appliquera à tous les objets. 
+  * Une action sans condition s’appliquera à tous les objets.
   * Si vous utilisez un objet pour la première fois dans un événement, GDevelop testera et modifiera **tous les objets** qui portent le même nom dans la scène.
   * Si vous ré-utilisez cet objet dans le même événement, GDevelop ne testera et ne modifiera que les objets qui ont été affectés par la condition initiale.
 
-Ce processus est au cœur de la logique de l’application. 
+Ce processus est au cœur de la logique de l’application.
 Ainsi l’exemple suivant supprimera **tous** les objets nommés "Square" (Carré):
 
 ![](/gdevelop5/tutorials/delete-square.png)
@@ -54,7 +54,7 @@ Les exemples suivantes ne sont pas équivalents:
 * La seconde paire d'événements supprimera tous les objets "Square" de la scène et en créera un à la position  200;100. Ainsi un carré sera visible sur la scène (avant d'être effacé et recréé immédiatement lors du prochain affichage de la vue)
 
 !!! note
-    
+
         Par exemple: Un jeu tournant à 60 images par seconde, si vous avez un seul événement, sans condition à l'intérieur et juste une action pour créer un objet sur la scène, alors cette action sera exécuté 60 fois en une seconde.
     Vous aurez donc à chaque seconde 60 objets de plus sur la scène.
 
@@ -95,7 +95,7 @@ La _valeur_ d’une variable pourra donc être testée par des conditions ou mod
 Il existe plusieurs types de variable qui différencient leur rayon d’utilisation. Il y a trois types de variable dans  GDevelop qui détermineront quand et comment elles sont utilisables.:
 
 * **Globale**: variable accessible par toutes les scènes d’un jeu. Typiquement on les utilisera pour stocker le score du joueur d’un niveau à l’autre ou encore son pseudo tout au long de la partie.
-* **Scène** : variable qu’on utilisera uniquement au sein d’une scène (ou d’un niveau). Par exemple pour compter le nombre d’ennemis encore présents dans le niveau, pour gérer le temps qu’il reste pour sortir de la scène.;  
+* **Scène** : variable qu’on utilisera uniquement au sein d’une scène (ou d’un niveau). Par exemple pour compter le nombre d’ennemis encore présents dans le niveau, pour gérer le temps qu’il reste pour sortir de la scène.;
 * **Objet**: chaque objet peut contenir ses propres variables. Par exemple un compteur de "santé" pour un objet qui à chaque fois qu’il sera touché diminuera. Ainsi si on génère automatiquement une horde d’ennemis, chacun aura sa propre variable "Santé".
 
 !!! note
@@ -121,7 +121,7 @@ Mais plutôt :
 
 !!! tip
 
-    Comme GDevelop exécute votre jeu à un maximum de 60 images par seconde, vous ne remarquerez généralement pas de problème si vous utilisez le premier événement. C'est toujours une bonne idée de garder un oeil sur cela et d'utiliser la version avec `TimeDelta()` à la place. 
+    Comme GDevelop exécute votre jeu à un maximum de 60 images par seconde, vous ne remarquerez généralement pas de problème si vous utilisez le premier événement. C'est toujours une bonne idée de garder un oeil sur cela et d'utiliser la version avec `TimeDelta()` à la place.
 
 **Règle de base : ** Utilisez _TimeDelta()_ lorsque vous souhaitez ajouter continuellement un certain montant à une valeur. Si votre action est censée être lancée une seule fois (par exemple, lors d'une collision où vous effacez ensuite l'objet), vous pouvez utiliser une valeur discrète sans TimeDelta - car elle ne dépend pas de la vitesse du jeu.
 

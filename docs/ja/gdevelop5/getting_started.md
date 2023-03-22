@@ -18,7 +18,7 @@ GDevelop は Windows、macOS、Linux の最新版を含む主要な OS すべて
   *  DMG ファイルを開きます。
   *  "GDevelop.app" を「アプリケーション」フォルダーにドラッグします。
 * **Linux**:
-  *  ターミナルを開きます。 
+  *  ターミナルを開きます。
   *  `chmod a+x GDevelop*.AppImage` と入力して、AppImage ファイルに実行権限を付けます。
   *   `./GDevelop*.AppImage` と入力して実行します（またはファイルをダブルクリック）。
 

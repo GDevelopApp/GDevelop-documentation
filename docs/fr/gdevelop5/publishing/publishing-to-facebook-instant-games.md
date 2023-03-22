@@ -7,7 +7,7 @@ Les jeux Facebook Instant Games sont des jeux auxquels vous pouvez jouer avec vo
 
 ## Créez un compte et une application sur Facebook Developers.
 
-Allez sur [Facebook Developers](https://developers.facebook.com/apps/) et créez une application : 
+Allez sur [Facebook Developers](https://developers.facebook.com/apps/) et créez une application :
 ![](/gdevelop5/publishing/facebook-add-new-app.png)
 
 Entrez le nom de votre jeu et votre email de contact :

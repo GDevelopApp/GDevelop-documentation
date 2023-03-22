@@ -28,7 +28,7 @@ Om het "Player" object te verwijderen als het botst met een vijand:
 
 1. Maak een nieuw event.
 2. Voeg een **Collision** conditie toe die kijkt of het "Player" object botst met het "Slime" object.
-3. Voeg de **Is on floor** conditie toe aan het "Player" object. Dit zorgt ervoor dat de speler alleen dood gaat wanneer die op een platform staat (bijv. niet aan het springen is) 
+3. Voeg de **Is on floor** conditie toe aan het "Player" object. Dit zorgt ervoor dat de speler alleen dood gaat wanneer die op een platform staat (bijv. niet aan het springen is)
 4. Voeg de **Delete an object** actie toe aan het event dat het"Player" object verwijderd.
 
 ![](/gdevelop5/tutorials/platformer/07-01-kill-player.jpg)

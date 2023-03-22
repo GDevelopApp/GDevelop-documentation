@@ -11,7 +11,7 @@ Dans le jeu de plateforme que nous avons créé jusqu'ici, le joueur n'a pas gra
 
 ## Ajouter des pièces de monnaie
 
-Commencez par créer un nouvel objet **Sprite** et donnez-lui une animation contenant une image `coinGold.png`. 
+Commencez par créer un nouvel objet **Sprite** et donnez-lui une animation contenant une image `coinGold.png`.
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-28_at_23.29.30.png)
 
@@ -33,7 +33,7 @@ Créer un nouvel événement et ajoutez-y une nouvelle condition (**Add conditio
 
 Cliquez **OK** pour confirmer.
 
-Il faut maintenant ajouter une action pour supprimer la pièce touchée. Seuls les objets `Coin` qui ont rempli la première condition seront utilisés par cette action, ce qui fait que seule la pièce touchée par le joueur sera effacée. 
+Il faut maintenant ajouter une action pour supprimer la pièce touchée. Seuls les objets `Coin` qui ont rempli la première condition seront utilisés par cette action, ce qui fait que seule la pièce touchée par le joueur sera effacée.
 
 Activez les actions **Add action** et sélectionnez dans la liste de gauche **Common action for all objects**, **Objects** et **Delete an object**. Sélectionnez `Coin` dans le premier paramètre pour spécifier l'objet à détruire.
 
@@ -74,7 +74,7 @@ GDevelop utilise différents types de variables.
 
 * __**Les variables globales**__  sont, comme leur nom l'indique, globales (c'est à dire visibles et atteignables) dans l'ensemble du jeu. Leurs valeurs sont partagées entre toutes les scènes et les objets de l'ensemble du jeu. Elles sont utiles pour stocker des informations que nous voulons partager entre plusieurs ou toutes les scènes du jeu, par exemple la quantité de balles ou la somme d'argent accumulée par le joueur.
 
-La variable que nous allons utiliser est une variable **Scene** que nous appellerons `Score`. 
+La variable que nous allons utiliser est une variable **Scene** que nous appellerons `Score`.
 
 Ajoutons une action dans le dernier événement que nous avons créé. Sélectionnez l'action **Variables > Value of a variable**. Cette action sera utilisée pour ajouter 100 à la variable `Score`.
 
@@ -94,11 +94,11 @@ La liste qui s'affiche est vide car aucune variable n'a encore été déclarée.
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-30_at_17.55.27.png)
 
-Vous pouvez cliquez sur le bouton **+** pour ajouter une variable et entrer `Score` pour son nom. 
+Vous pouvez cliquez sur le bouton **+** pour ajouter une variable et entrer `Score` pour son nom.
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-30_at_17.56.23.png)
 
-Rappelez-vous que ceci est facultatif, ce n'est qu'une bonne pratique fortement recommandée ! 
+Rappelez-vous que ceci est facultatif, ce n'est qu'une bonne pratique fortement recommandée !
 
 ## Afficher un score à l'aide d'un objet texte
 
@@ -158,7 +158,7 @@ Pour le premier paramètre, sélectionnez l'objet `Score` car c'est cet objet qu
 
 Pour le deuxième paramètre, sélectionnez l'opérateur `= (set to)` dans la liste `Modification's sign` (nous voulons donner une autre valeur au texte).
 
-Finalement, le dernier paramètre représente le nouveau contenu du texte. Ce contenu est une expression de type chaîne de caractères qui sera évaluée par GDevelop pendant le jeu lorsque l'action sera exécutée. 
+Finalement, le dernier paramètre représente le nouveau contenu du texte. Ce contenu est une expression de type chaîne de caractères qui sera évaluée par GDevelop pendant le jeu lorsque l'action sera exécutée.
 
 Nous pouvons spécifier un texte en le plaçant entre guillemets (comme ceci `"Hello World"`). Mais nous pouvons aussi utiliser quelque chose appelée **_expression_**, qui est une fonction qui retourne une certaine valeur que nous pouvons utiliser d'une manière ou d'une autre.
 
@@ -166,7 +166,7 @@ Dans notre cas, nous avons besoin de la valeur de la variable `Score` que nous v
 
 Les expressions étant un sujet quelque peu avancé, je ne pense pas que ce soit le bon moment pour s'y atteler.
 
-Tout ce que vous devez savoir pour le moment est que, pour obtenir la valeur d'une variable de scène, nous devons utiliser l'expression `Variable(nom_de_la_variable)`. Mais la variable obtenue est une valeur numérique (ici un nombre entier)  alors que nous voulons une valeur de type texte. C'est pourquoi nous devons convertir la valeur retournée par cette expression en une chaîne de caractères, conversion qui sera faite en utilisant une autre expression appelée `ToString(valeur_a_convertir)`.  
+Tout ce que vous devez savoir pour le moment est que, pour obtenir la valeur d'une variable de scène, nous devons utiliser l'expression `Variable(nom_de_la_variable)`. Mais la variable obtenue est une valeur numérique (ici un nombre entier)  alors que nous voulons une valeur de type texte. C'est pourquoi nous devons convertir la valeur retournée par cette expression en une chaîne de caractères, conversion qui sera faite en utilisant une autre expression appelée `ToString(valeur_a_convertir)`.
 
 Ce qui fait que l'expression finale dont nous avons besoin est `ToString(Variable(Score))`.
 
@@ -210,7 +210,7 @@ Tapez `coin` dans le champ qui apparaît et cliquez sur l'objet.
 
 ![](/gdevelop5/tutorials/platform-game/click-to-choose2.png)
 
-Maintenant que l'objet a été ajouté au sous-événement, déplaçons les actions vers ce sous-événement. Sélectionnez la première action avec la souris, cliquez ave son bouton droit et coupez la sélection. Placez le curseur dans l'action du sous-événement et collez avec le bouton droit (il s'agit donc d'un banal couper-coller). 
+Maintenant que l'objet a été ajouté au sous-événement, déplaçons les actions vers ce sous-événement. Sélectionnez la première action avec la souris, cliquez ave son bouton droit et coupez la sélection. Placez le curseur dans l'action du sous-événement et collez avec le bouton droit (il s'agit donc d'un banal couper-coller).
 Faites la même chose pour les eux autres actions
 
 ![](/gdevelop5/tutorials/platform-game/move-to-sub1.png)
@@ -225,4 +225,4 @@ Lancez le jeu, et vous verrez que si vous récoltez deux pièces en même temps,
 
 Chaque jeu de plateforme comporte des ennemis qu'il faut éviter ou tuer en leur sautant dessus ! Ajoutons-en et voyons comment nous pouvons les faire bouger.
 
-➡️ Pour continuer **[6 add enemies](/fr/gdevelop5/tutorials/platform-game/6-add-enemies)**! 
+➡️ Pour continuer **[6 add enemies](/fr/gdevelop5/tutorials/platform-game/6-add-enemies)**!

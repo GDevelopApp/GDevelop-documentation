@@ -58,11 +58,11 @@ For showing a reward video ad, do the same as the interstitial but use the actio
     If things are not working, double check that you've loaded the interstitial or video, using the proper placement id (with double quotes around it).
 
 
-## Examples 
+## Examples
 
 !!! tip
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
     Open this example online.
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://facebook-instant-game){ .md-button .md-button--primary }

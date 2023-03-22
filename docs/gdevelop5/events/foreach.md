@@ -7,7 +7,7 @@ A "For Each" event is a special [event](/gdevelop5/events) that takes an object 
 
 !!! tip
 
-    If an object group is used, then the "For Each" event will repeat for every instance of every object in the group. 
+    If an object group is used, then the "For Each" event will repeat for every instance of every object in the group.
 
 ## When to use it
 
@@ -27,7 +27,7 @@ In the example below, the goal is to create an explosion at the position of ever
 
 There is a special version of "For Each" that can be used to loop through the [child variables](/gdevelop5/all-features/variables/) of a structure variable.  The "For Each Child Variable" event enables conditions and actions to be run on all of the child variables under a structure variable (or an array).
 
-This event will store the value of each child variable (as a string or number) and the name of the child variable (as a string) into scene variables.  The names of these scene variables are defined in the event parameters.  
+This event will store the value of each child variable (as a string or number) and the name of the child variable (as a string) into scene variables.  The names of these scene variables are defined in the event parameters.
 
 ## Example
 
@@ -35,7 +35,7 @@ This event will store the value of each child variable (as a string or number) a
 
 ![](/gdevelop5/events/foreverchildvariables.png)
 
-- Loop through the child objects and change the text to show the name and value of the child object. 
+- Loop through the child objects and change the text to show the name and value of the child object.
 
 ![](/gdevelop5/events/foreverchildevents.png)
 

@@ -28,7 +28,7 @@ The object automatically shows the right image according to taps on a touchscree
 
     The same image can be used for the 3 states. The button won't be animated but it will still work.
 
-### Handle clicks or taps on the button 
+### Handle clicks or taps on the button
 
 Button clicks/taps can be checked with a condition in events:
 

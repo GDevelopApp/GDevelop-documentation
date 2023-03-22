@@ -11,7 +11,7 @@ Games can store data, such as the player progress. See [this guide](/gdevelop5/t
 
 ## Clear the storage during a preview
 
-Data is stored permanently in the internal storage of the preview window, which is persisted across previews and even after GDevelop is closed (like in an exported game). 
+Data is stored permanently in the internal storage of the preview window, which is persisted across previews and even after GDevelop is closed (like in an exported game).
 
 When we preview our game it can be sometimes useful to have the data reset, like if it's the first time the game is launched. To do this, you can clear the storage:
 
@@ -42,6 +42,6 @@ This will vary by Windows version and settings, but can normally be accessed by 
 **home/<UserName>/.config/<Game Name>/Local Storage/leveldb**
 
 ### HTML5 Export
-If the game has been exported to an HTML5 build, and uploaded to a host such as Itch.io, local storage will be maintained with the //browser's// local storage. 
+If the game has been exported to an HTML5 build, and uploaded to a host such as Itch.io, local storage will be maintained with the //browser's// local storage.
 
 This will mean that each browser will have a unique location, and users will need to refer to that documentation if they want to locate it. This will also mean that most browsers will delete the save data if their local stored data is cleared.

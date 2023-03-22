@@ -68,7 +68,7 @@ We're going to use a variable to update and remember the score of the player.
 
 Variables are containers that we can use to store and remember certain information such as numbers and strings (text). In GDevelop there are different types of variables:
 
-  * __**Object variables**__ are private variables, specific to each instance of an object. This means that each instance can store its very own values, without them being shared with the other instances. It can, for example, be useful if we want to change the life of each enemy. 
+  * __**Object variables**__ are private variables, specific to each instance of an object. This means that each instance can store its very own values, without them being shared with the other instances. It can, for example, be useful if we want to change the life of each enemy.
   * __**Scene variables**__ (the most used ones) are variables attached to a scene. This means that their values are not shared with other scenes in our game. It is useful to store information only relevant to the currently played scene. For example, the life of the player or a score.
   * __**Global variables**__, as the name suggests, are global in the whole game. Values are shared with all scenes in the entire game. It is useful if we would like to store information that we want to share between all scenes such as the amount of bullet or amount of money the player has.
 
@@ -78,14 +78,14 @@ Let's add an action in the latest event we've made. Choose action `Variables > V
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-30_at_17.52.43.png)
 
-In GDevelop we don't need to declare variables before using them, we can use any variable without declaring it by just naming it in an action or a condition. In case we are using an action on a variable that is not declared, GDevelop will create it automatically for us, with the default value of '0' (or an empty text) after executing the action on the variable to save us from any trouble. 
+In GDevelop we don't need to declare variables before using them, we can use any variable without declaring it by just naming it in an action or a condition. In case we are using an action on a variable that is not declared, GDevelop will create it automatically for us, with the default value of '0' (or an empty text) after executing the action on the variable to save us from any trouble.
 
-But, to have a better organization of your game, it's a good practice to declare variables before using them. This way, it's easier to find what variables you are using in your game. You can also change their default value if you want it to be something other than 0. 
+But, to have a better organization of your game, it's a good practice to declare variables before using them. This way, it's easier to find what variables you are using in your game. You can also change their default value if you want it to be something other than 0.
 To declare a variable, click on the button "`...`" on the right of the variable name. This displays the list of variables:
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-30_at_17.54.46.png)
 
-The list is shown and is empty, as no variable was declared yet: 
+The list is shown and is empty, as no variable was declared yet:
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-30_at_17.55.27.png)
 
 You can click on the `+` button to add a variable, and enter "Score" as its name:
@@ -113,7 +113,7 @@ You can then place the object on the scene:
 ### Changing the text layer
 
 If you launch the game, you can see that the Score text is displayed with the rest of the objects and its position is not fixed on the screen.
-We can easily solve this problem by using a layer on top of the base layer. Open the layer editor using this button: 
+We can easily solve this problem by using a layer on top of the base layer. Open the layer editor using this button:
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-30_at_18.34.33.png)
 
@@ -155,7 +155,7 @@ Lots of other functions and expressions are available in GDevelop. When combined
 
 ![](/gdevelop5/tutorials/platform-game/expression-icon.png)
 
-Here is the final event: 
+Here is the final event:
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-30_at_18.59.31.png)
 
 You can preview the game, see that the score is shown and updated when you collect a coin!
@@ -174,7 +174,7 @@ Select "for each object":
 
 ![](/gdevelop5/tutorials/platform-game/2018-05-30_11-33-09.png)
 
-This will add an event at the bottom of the event page. Drag it up and make it a sub-event of the player collision with the coin: 
+This will add an event at the bottom of the event page. Drag it up and make it a sub-event of the player collision with the coin:
 
 ![](/gdevelop5/tutorials/platform-game/click-to-choose-4.png)
 
@@ -182,13 +182,13 @@ Click to choose an object, and choose the Coin object.
 
 ![](/gdevelop5/tutorials/platform-game/click-to-choose2.png)
 
-Now that you've added the object to the sub-event, let's move the actions down to the sub-event (so that the actions will be repeated for each coin that is picked by conditions). 
+Now that you've added the object to the sub-event, let's move the actions down to the sub-event (so that the actions will be repeated for each coin that is picked by conditions).
 
 Hover over the first action, right-click and cut it, then hover over the action in the sub-event, right-click, and paste. Do this for the other two actions. You can also drag'n'drop actions, which is faster than cut-pasting them.
 
 ![](/gdevelop5/tutorials/platform-game/move-to-sub1.png)
 
-This is what the final event should look like: 
+This is what the final event should look like:
 
 ![](/gdevelop5/tutorials/platform-game/move-to-sub2.png)
 
@@ -203,4 +203,4 @@ Now run the game, and you will see that if you gather two coins at the same time
 
 Every platform game comes with enemies that you have to avoid or kill by jumping on them! Let's add some and see how we can make them move.
 
-➡️ Read **[6 add enemies](/gdevelop5/tutorials/platform-game/6-add-enemies)**! 
+➡️ Read **[6 add enemies](/gdevelop5/tutorials/platform-game/6-add-enemies)**!

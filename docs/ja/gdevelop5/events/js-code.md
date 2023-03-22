@@ -23,11 +23,11 @@ runtimeScene パラメーターの隣にある「ここをクリックして Jav
 
 ![](/gdevelop5/events/javascript-code-with-objects-example.png)
 
-## サンプル 
+## サンプル
 
 !!! tip
-    
-        **やってみよう！** 🎮  
+
+        **やってみよう！** 🎮
     オンラインで下記のサンプルを実行できます。下記で示すリンクを開いてください。GDevelop で新規プロジェクトを作成する画面で例タブをクリックすると、もっとたくさんの例を利用できます。
 
 [![400](https://editor.gdevelop.io/?project=example://text-to-speech)](/ gdevelop5/events/javascripttexttospeechexample.png)
@@ -40,7 +40,7 @@ runtimeScene パラメーターの隣にある「ここをクリックして Jav
 
 ## ドキュメント 📚
 
-  * **[ゲームエンジンのドキュメント](https://docs.gdevelop-app.com/GDJS%20Runtime%20Documentation/)** を参考にしてください。 
+  * **[ゲームエンジンのドキュメント](https://docs.gdevelop-app.com/GDJS%20Runtime%20Documentation/)** を参考にしてください。
   * **[GDJS ゲームエンジンのソースコード](https://github.com/4ian/GD/tree/master/GDJS/Runtime)**も直接ブラウズできます。
 
 
@@ -90,7 +90,7 @@ players[0].setY(playerHitBoxes[0].getY());
 
 JavaScript の変数宣言の直前に**アノテーション** `/** @type {gdjs.XXX} */` を 記述することで、変数の型が gdjs.XXX であることをコードエディターに知らせます。このおかげで、エディターは入力中（または単語にカーソルを合わせたとき）に**オートコンプリート**を表示できます。
 
-ほとんどの場合、アノテーションは必要ありません。ここで使うメソッドは、すでに型アノテーションによって[ドキュメント化](http://4ian.github.io/GD-Documentation/GDJS%20Runtime%20Documentation/)済みだからです。しかし、オブジェクトリストを使うときに、そのオブジェクト特有のメソッドにアクセスしたいと思うかもしれません（たとえばスプライトオブジェクトのアニメーションを変更するメソッドとか）。そこでアノテーション `/** @type {gdjs.SpriteRuntimeObject} */` を使うと、エディターが固有メソッドを認識できるようになります。 
+ほとんどの場合、アノテーションは必要ありません。ここで使うメソッドは、すでに型アノテーションによって[ドキュメント化](http://4ian.github.io/GD-Documentation/GDJS%20Runtime%20Documentation/)済みだからです。しかし、オブジェクトリストを使うときに、そのオブジェクト特有のメソッドにアクセスしたいと思うかもしれません（たとえばスプライトオブジェクトのアニメーションを変更するメソッドとか）。そこでアノテーション `/** @type {gdjs.SpriteRuntimeObject} */` を使うと、エディターが固有メソッドを認識できるようになります。
 
 アノテーションを使わなくてもコードは実行できますが、その場合エディターは基本クラス `gdjs.RuntimeObject` のメソッドしか表示できません。
 
@@ -131,7 +131,7 @@ if (runtimeScene.getGame().getInputManager().isKeyPressed(LEFTKEY)) {
 
 ### カメラの位置をオブジェクトに合わせる
 ```javascript
-if (!objects.length) return; 
+if (!objects.length) return;
 
 // ここで使う objects は、関数の設定時に指定した「Player」のリスト
 // を指します。
@@ -199,7 +199,7 @@ const angle = eventsFunctionContext.getArgument("degrees");
 
 タイプが文字列やそれ以外の場合でも、コードは同様です。
 
-ちなみに、次の関数を思い出した人もいるかもしれませんが。 
+ちなみに、次の関数を思い出した人もいるかもしれませんが。
 ```
 GetArgumentAsString()
 GetArgumentAsNumber()

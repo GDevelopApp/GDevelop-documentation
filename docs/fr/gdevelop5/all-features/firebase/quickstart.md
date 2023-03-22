@@ -1,7 +1,7 @@
 ---
 title: Démarrer avec Firebase
 ---
-##  Démarrer avec Firebase 
+##  Démarrer avec Firebase
 
 Firebase n'est pas une fonctionnalité a proprement parler mais une *intégration*. Cela veut dire qu'il faut *connecter* une application Firebase a GDevelop pour utiliser des fonctionnalités de Firebase.
 

@@ -4,10 +4,10 @@ title: L'objet Text entry
 # L'objet Text entry
 
 !!! tip
-    
-        **Voir en action !** 🎮  
+
+        **Voir en action !** 🎮
     [Je préférerais examiner des exemples d'objet Text entry ! SVPt, faites-les moi voir maintenant.](/#Examples)
-    
+
 
 L'objet **Text entry** (Saisie de texte) capture le texte entré (tapé) par le joueur et le stocke en mémoire. Vous pouvez utiliser cet objet pour simuler des champs de saisie de texte. Par exemple, vous pouvez utiliser l'objet de saisie de texte pour permettre au joueur d'entrer son nom ou toute autre information.
 
@@ -41,11 +41,11 @@ En utilisant des événements, il est possible d'activer ou de désactiver l'obj
 
 ![](/gdevelop5/objects/textentryobjectevents.png)
 
-## Exemple 
+## Exemple
 
 !!! tip
-    
-        **Voir en action !** 🎮  
+
+        **Voir en action !** 🎮
     Ouvrez cet exemple en ligne.
 
 ![](/gdevelop5/objects/textexample.png)

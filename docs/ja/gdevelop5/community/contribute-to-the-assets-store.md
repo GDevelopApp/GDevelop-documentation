@@ -1,7 +1,7 @@
 ---
 title: contribute-to-the-assets-store
 ---
-FIXME **This page is not fully translated, yet. Please help completing the translation.**  
+FIXME **This page is not fully translated, yet. Please help completing the translation.**
 *(remove this paragraph once the translation is finished)*
 
 # アセットストアへの貢献
@@ -14,7 +14,7 @@ The main idea is that assets are grouped into folders and sub folders. Images, a
 
 !!! note
 
-    Note that tilesheets **are not supported**! Each image of an object must **be in a separate file** (using the rules to name the files below). It's also recommended that all images of a single object have the same size (with transparent margins), because for now we can't specify the origin of an image. 
+    Note that tilesheets **are not supported**! Each image of an object must **be in a separate file** (using the rules to name the files below). It's also recommended that all images of a single object have the same size (with transparent margins), because for now we can't specify the origin of an image.
 
 ## For images (to make sprite, tiled sprite or panel sprite objects):
 

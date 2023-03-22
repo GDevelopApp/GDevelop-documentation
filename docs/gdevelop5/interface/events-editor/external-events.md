@@ -3,9 +3,9 @@ title: External Events
 ---
 # External Events
 
-External Events, like normal [events](/gdevelop5/events), define the logic of the game. They are edited in the exact same way as they are in the [event editor](/gdevelop5/interface/events-editor). Unlike a normal event sheet though, external events can be reused throughout your game through [links](/gdevelop5/events/link). 
+External Events, like normal [events](/gdevelop5/events), define the logic of the game. They are edited in the exact same way as they are in the [event editor](/gdevelop5/interface/events-editor). Unlike a normal event sheet though, external events can be reused throughout your game through [links](/gdevelop5/events/link).
 
-External Events help keep event sheets clean, and prevent the need to repeat the same events in multiple places. 
+External Events help keep event sheets clean, and prevent the need to repeat the same events in multiple places.
 
 !!! warning
 

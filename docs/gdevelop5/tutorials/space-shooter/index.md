@@ -26,7 +26,7 @@ This tutorial will help you to begin to use **GDevelop**. You will create a simp
 
 ## Create a new game
 
-Click on **Create a new project** on the start page. 
+Click on **Create a new project** on the start page.
 
 ![](/gdevelop5/tutorials/space-shooter-create-project.png)
 
@@ -36,7 +36,7 @@ In the next window, choose a folder for your project and select **Empty project*
 
 ## Create the first scene
 
-We will create a new scene to put your objects and set up your game. 
+We will create a new scene to put your objects and set up your game.
 
 To add a scene, you should select the **Scenes** section on the left panel and a **Click to add a scene** button.
 

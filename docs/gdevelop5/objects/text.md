@@ -4,10 +4,10 @@ title: Text
 # Text
 
 !!! tip
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
     [I would rather see the Text object examples! Please take me there now.](/#Examples)
-    
+
 
 Text objects display text on screen. You can customize text properties (for example, size or colour) upon creation. You can also modify text object properties during gameplay using events.
 
@@ -40,10 +40,10 @@ File format must be TTF or OFT.
 ### Additional effects
 
 * You can create **gradients** using the events
-![](/gdevelop5/objects/textgradient.png)  
+![](/gdevelop5/objects/textgradient.png)
 
-Choose an available gradient type from the list and select up to four colors.  
-  
+Choose an available gradient type from the list and select up to four colors.
+
 * You can set a **Shadow** using events:
 
 ![](/gdevelop5/objects/showtextshadow.png)
@@ -80,11 +80,11 @@ You can manipulate most properties of a text during the game using events. For e
 
 ![](/gdevelop5/objects/changetextsizeviaevents.png)
 
-## Examples 
+## Examples
 
 !!! tip
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
     Open these examples online.
 
 Manipulate a Text Object

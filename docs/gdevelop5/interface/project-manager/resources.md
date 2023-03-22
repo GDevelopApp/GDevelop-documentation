@@ -10,7 +10,7 @@ You can find the resource manager at **Project manager** â†’ **Game settings** â
 
 ## Interface
 
-When you click on **Resources**, a new tab is opened where you can edit and control the resources in your game, all the resources in this new tab will be exported during the export of the game. 
+When you click on **Resources**, a new tab is opened where you can edit and control the resources in your game, all the resources in this new tab will be exported during the export of the game.
 
 This tab has a **properties panel**, with options based on the type of resource selected, will be displayed on the left side of the screen. And a list of resources in the project on the right side of the screen.
 

@@ -14,9 +14,9 @@ The "Physics" behavior allows objects to behave according to the laws of physics
 
 
 ## Add behavior to object
-To add physics behavior to an object, open the object properties by right clicking on the created object in the Objects Editor. Then, select "Edit object" from the popup list that appears. Finally, select the Behaviors tab and click the "add behavior" button. 
+To add physics behavior to an object, open the object properties by right clicking on the created object in the Objects Editor. Then, select "Edit object" from the popup list that appears. Finally, select the Behaviors tab and click the "add behavior" button.
 Choose the "Physics engine":
-![](/gdevelop5/behaviors/physics-behavior-inlist.png) 
+![](/gdevelop5/behaviors/physics-behavior-inlist.png)
 
 ## Properties
 Once the behavior is added to the object, there is a number of options to customize:
@@ -38,7 +38,7 @@ This setting prevents the object from rotating. It ignores the angular damping v
 
 **Damping**
 
-Damping is used to reduce the velocity of objects. Damping is different from friction. 
+Damping is used to reduce the velocity of objects. Damping is different from friction.
 Friction only occurs with contact. Damping is not a replacement for friction. //The two effects should
 be used together.// Damping parameters should be between 0 and infinity, with 0 meaning no damping, and infinity meaning full damping. Normally you will use a damping value between 0 and 0.1
 
@@ -60,11 +60,11 @@ _inelastic collision._ A value of one means the ball's velocity will be exactly 
 _perfectly elastic collision_.
 
 
-# Examples 
+# Examples
 
 !!! tip
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
     Open these examples online.
 
 **Physics:**
@@ -73,7 +73,7 @@ _perfectly elastic collision_.
 
 [![](/gdevelop5/behaviors/hingeleverdemo.png)](https://editor.gdevelop.io/?project=example://physics)
 
-  
+
 
 **Car Physics**
 
@@ -81,7 +81,7 @@ _perfectly elastic collision_.
 
 [![](/gdevelop5/behaviors/carphysics.png)](https://editor.gdevelop.io/?project=example://car-physics)
 
-  
+
 
 **Object Gravity**
 

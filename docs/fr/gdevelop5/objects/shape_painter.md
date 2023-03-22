@@ -4,27 +4,27 @@ title: L'objet Shape painter
 # L'objet Shape painter
 
 !!! tip
-    
-        **Voir en action !** 🎮  
+
+        **Voir en action !** 🎮
     [Je préférerais examiner des exemples de l'objet Shape painter ! SVP, faites-les moi voir maintenant.](/#Examples)
-    
+
 
 Un objet **Shape painter** (peintre de formes) permet de dessiner des formes dans le  jeu. Ce qui peut être utile pour créer des éléments d'interface utilisateur simples. Le **Shape painter** peut même être utilisé pour créer une boîte de sélection.
 
-####  Ajouter un objet Shape Painter 
+####  Ajouter un objet Shape Painter
 
 Pour ajouter un objet **Shape painter**, créez un nouvel objet à partir de la liste **Properties Editor** (Editeur de propriétés) à droite de l'interface de l'Éditeur de scène. Sélectionnez-cliquez ensuite sur le nouvel objet, sélectionnez **Edit object** et dans la liste qui s'affiche, cliquez sur ** Shape painter**.
 Vous devrez peut-être faire défiler la liste pour le trouver.
 
 ![](/gdevelop5/objects/add-shape-painter-object.png)
 
-####  Éditer les propriétés 
+####  Éditer les propriétés
 
 Il s'agit ensuite d'éditer les propriétés de l'objet pour le faire correspondre à ce que nous voulons. De nouveau, cliquez sur l’objet créé dans la liste des propriétés à droite. Sélectionnez **Edit object** dans la liste déroulante qui s'affiche. Une nouvelle fenêtre s'ouvre. Elle affiche les propriétés de l'objet **Shape painter**.
 
 ![](/gdevelop5/objects/shape-painter-properties.png)
 
-####  Changer la couleur et l'opacité 
+####  Changer la couleur et l'opacité
 
 La fenêtre des propriétés du **Shape painter** présente des options permettant de changer
 
@@ -36,7 +36,7 @@ La fenêtre des propriétés du **Shape painter** présente des options permetta
 
 ![](/gdevelop5/objects/change-color-of-shape-painter.png)
 
-####  Position relative de l'object 
+####  Position relative de l'object
 
 La position par défaut des formes que nous dessinons à l'écran est relative à la positon de l'objet **Shape painter** dans la scène.
 
@@ -46,7 +46,7 @@ Dans le cas d'une position relative activée (case cochée dans la figure ci-des
 
 Lorsque la case est décochée, la position 0 sur les axes X et Y se trouve dans le coin supérieur gauche de la scène, quelle que soit la position de l'objet.
 
-####  Dessiner une forme 
+####  Dessiner une forme
 
 Pour dessiner une forme, créez comme d'habitude un nouvel objet à l'aide de l'Éditeur d'objets. Ajoutez ensuite l'objet **Shape painter** à la scène. Si nous lançons l'aperçu maintenant, nous ne verrons rien. L'objet **Shape painter** ajoute simplement la fonctionnalité pour l'objet. Pour l'instant, il ne contient que les propriétés / paramètres du **Shape painter**. Pour dessiner une forme, nous devons utiliser l'Éditeur de scènes (**Scene Events Editor**). // Si vous n'êtes pas familier avec les événements, je vous recommande de consulter la page des événements sur le wiki .//
 
@@ -73,11 +73,11 @@ L'utilisation des événements permet de modifier les propriétés d’une forme
 
 ![](/gdevelop5/objects/shapepaintereventsexample.png)
 
-## Exemple 
+## Exemple
 
 !!! tip
-    
-        **Voir en action !** 🎮  
+
+        **Voir en action !** 🎮
     Ouvrez cet exemple en ligne.
 
 [![](/gdevelop5/objects/shapepainterobject.png)](https://editor.gdevelop-app.com/?project=example://advanced-shape-based-painter)
@@ -85,4 +85,3 @@ L'utilisation des événements permet de modifier les propriétés d’une forme
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://advanced-shape-based-painter){ .md-button .md-button--primary }
 
 
- 

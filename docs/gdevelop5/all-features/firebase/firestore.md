@@ -7,48 +7,48 @@ Firestore is a realtime database, it let you store data online fast and reliably
 
 !!! note
 
-    If you aren't sure whether you should use Firestore or the old Realtime Database, read [the official comparison](https://firebase.google.com/docs/firestore/rtdb-vs-firestore). In case of doubt, we recommend you stick with the Cloud Firestore Database, as it is faster, cheaper, more modern, more scalable, and generally more powerful. 
+    If you aren't sure whether you should use Firestore or the old Realtime Database, read [the official comparison](https://firebase.google.com/docs/firestore/rtdb-vs-firestore). In case of doubt, we recommend you stick with the Cloud Firestore Database, as it is faster, cheaper, more modern, more scalable, and generally more powerful.
 
 ## Documents and collections
 
-A Firestore database is ordered in documents and collections. A document contains data, and a collection contains documents. 
+A Firestore database is ordered in documents and collections. A document contains data, and a collection contains documents.
 Documents can also contain collections, named sub collections.
 
-The advantage of collections is that they don't require you to download it entirely when accessing them. 
-For example, if you wanted to store for each user a structure containing his friends, 
-you could either structure the database by putting the structure into the document or 
-turning it into a sub-collection (where each child is a document). 
-If you put it into the document, you make the document bigger, and each time you want to take some data 
-from the document you have download the whole data again just for one field, and you make it also longer 
-to get other data from the document. If you put it as a sub collection, you can get each friend of 
+The advantage of collections is that they don't require you to download it entirely when accessing them.
+For example, if you wanted to store for each user a structure containing his friends,
+you could either structure the database by putting the structure into the document or
+turning it into a sub-collection (where each child is a document).
+If you put it into the document, you make the document bigger, and each time you want to take some data
+from the document you have download the whole data again just for one field, and you make it also longer
+to get other data from the document. If you put it as a sub collection, you can get each friend of
 the friend list individually and you can get the player data without getting all the friends each time you do so.
 
 !!! tip
-    
-        
-    The other advantage of collections is that they are very good and fast at filtering/ordering data before sending it to the player. 
-    Sadly, GDevelop doesn't yet supports sending queries to collections.
-    
 
-For more informations on the data model of Firestore, read 
-[the data model guide](https://firebase.google.com/docs/firestore/data-model) and 
+
+    The other advantage of collections is that they are very good and fast at filtering/ordering data before sending it to the player.
+    Sadly, GDevelop doesn't yet supports sending queries to collections.
+
+
+For more informations on the data model of Firestore, read
+[the data model guide](https://firebase.google.com/docs/firestore/data-model) and
 [the data structuring guide](https://firebase.google.com/docs/firestore/manage-data/structure-data).
 
 ## Regulating access
 
-You may not want to allow everyone to write everything. 
-Else, everyone could modify the data of the others! To choose who can access what and how, Firebase has the rules system. 
-It interoperates with [firebase authentication](/gdevelop5/all-features/firebase/authentication), so that you can write this rule to only let 
+You may not want to allow everyone to write everything.
+Else, everyone could modify the data of the others! To choose who can access what and how, Firebase has the rules system.
+It interoperates with [firebase authentication](/gdevelop5/all-features/firebase/authentication), so that you can write this rule to only let
 authenticated players access the database:
 ![](/gdevelop5/all-features/firebase/firestore/pasted/20201205-202545.png)
 
-You could also have a collection of users, and in each document (named after the user uid) have their permissions. 
-Here for example, you could allow every user with the permission verified to access their own document in the `userdata` collection, 
+You could also have a collection of users, and in each document (named after the user uid) have their permissions.
+Here for example, you could allow every user with the permission verified to access their own document in the `userdata` collection,
 and every admin to access documents in the `globaldata` collection:
 ![](/gdevelop5/all-features/firebase/firestore/pasted/20201205-203628.png)
 
-To learn in details how to write rules, read 
-[the syntax guide](https://firebase.google.com/docs/rules/rules-language) and 
+To learn in details how to write rules, read
+[the syntax guide](https://firebase.google.com/docs/rules/rules-language) and
 [the authentication integration guide](https://firebase.google.com/docs/rules/rules-and-auth).
 
 # Queries
@@ -129,7 +129,7 @@ Then only the first document would be kept. If we take the same example as in th
 
 Once you have built your query (or just created an empty one to target all documents in a collection), you can watch the query or execute it once. When you watch it, it will *replace the content of the passed variable with the query results each time a document matching the query is added, modified or removed from the collection*. If you execute it, it will just fetch the documents matching the query *once* and put the result in the passed variable.
 
-### The query result 
+### The query result
 
 When a query finishes, it stores its result in the passed structure variable. It will look like this:
 ```
@@ -154,14 +154,14 @@ For example, if you want to get the data of the first document as JSON, you can 
 
 #### Query result description
 
-`size`: The amount of documents matching the query  
-`empty`: A boolean value that is true if no documents matched the query  
-`docs`: An array of all documents that matched the query (ordered by the filters)  
+`size`: The amount of documents matching the query
+`empty`: A boolean value that is true if no documents matched the query
+`docs`: An array of all documents that matched the query (ordered by the filters)
 
 #### Document result description
 
-`exists`: A boolean value that is false if the document doesn't actually exist in the collection.  
-`id`: The ID (name) of the document in the collection.  
-`data`: A structure containing the data inside the document.  
+`exists`: A boolean value that is false if the document doesn't actually exist in the collection.
+`id`: The ID (name) of the document in the collection.
+`data`: A structure containing the data inside the document.
 
 For example, if you want to get the amount of documents

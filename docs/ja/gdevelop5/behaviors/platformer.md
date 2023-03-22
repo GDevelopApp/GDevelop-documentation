@@ -4,9 +4,9 @@ title: プラットフォーム型のビヘイビア
 # プラットフォーム型のビヘイビア
 
 !!! note
-    
-        **やってみよう!** 🎮  
-    [プラットフォームのビヘイビアのサンプルをすぐに見たいですか？](#Examples) 
+
+        **やってみよう!** 🎮
+    [プラットフォームのビヘイビアのサンプルをすぐに見たいですか？](#Examples)
 
 ボタンをクリックするだけで、ゲームのプラットフォームタイプ（２Dマリオゲームタイプ)のビヘイビア(動作)とキャラクターコントロールを設定できます。
 
@@ -69,8 +69,8 @@ title: プラットフォーム型のビヘイビア
 # サンプル
 
 !!! note
-    
-        **やってみよう！** 🎮  
+
+        **やってみよう！** 🎮
     これらのサンプルはオンラインで実行できます
 
 **プラットフォーム型ビヘイビアのサンプル**
@@ -79,7 +79,7 @@ title: プラットフォーム型のビヘイビア
 
 [![](/gdevelop5/behaviors/platformerbehavior.png)](https://editor.gdevelop-app.com/?project=example://platformer)
 
-  
+
 **平行スクロール型ビヘイビアのサンプル**
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://parallax-scrolling){ .md-button .md-button--primary }

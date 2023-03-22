@@ -5,7 +5,7 @@ title: Publier des jeux
 
 De GDevelop vous pouvez publier vos jeux sur toutes les plateformes modernes! Tout d'abord, elle doit être exportée.
 
-Pour exporter votre jeu, cliquez sur Fichier en haut de la page et sélectionnez l'option Exporter. 
+Pour exporter votre jeu, cliquez sur Fichier en haut de la page et sélectionnez l'option Exporter.
 ![](/gdevelop5/file-export-menu.png)
 
 Ensuite, de multiples options vous seront proposées:

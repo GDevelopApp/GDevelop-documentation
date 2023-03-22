@@ -4,10 +4,10 @@ title: Leaderboard Administration
 # Leaderboard Administration
 
 !!! note
-    
+
         Once you created a leaderboard, you can configure it. See more below on how to achieve that.
     To learn about how to send a score to a leaderboard and then display it, see [leaderboards](/gdevelop5/all-features/leaderboards).
-    
+
 
 To manage leaderboards, start by opening the GDevelop application and clicking on "File" -> "Games Dashboard".  Find the game you want to manage and click "Manage game".  Next, click on the tab named "Leaderboards".
 
@@ -90,7 +90,7 @@ There are a few settings that you can change to customize a leaderboard. You can
 
 ### Choose the number of displayed entries
 
-You can choose to display between one (the top score) and 25 entries in the leaderboard. 
+You can choose to display between one (the top score) and 25 entries in the leaderboard.
 
 ![](/gdevelop5/interface/games-dashboard/leaderboard-administration/pasted/20220429-163717.png)
 

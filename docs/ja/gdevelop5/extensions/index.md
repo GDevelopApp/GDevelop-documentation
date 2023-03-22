@@ -69,7 +69,7 @@ RGB 形式の色をさまざまな他形式の色（HSV、HSL、名前付き色�
 
 ## Draggable Slider Control
 ![](https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/UI Essentials/UI Essentials_sliders_options.svg)
-Use a shape-painter object to draw a horizontal slider that can be dragged by the users. 
+Use a shape-painter object to draw a horizontal slider that can be dragged by the users.
 
 ## Extended math support
 ![](https://resources.gdevelop-app.com/assets/Icons/function-variant.svg)
@@ -100,7 +100,7 @@ Use a shape-painter object to draw a horizontal slider that can be dragged by th
 ![](https://resources.gdevelop-app.com/assets/Icons/heart-half-full.svg)
 オブジェクトのライフ値を管理するアクションと条件を追加します。オブジェクトがダメージを受けると、体力値が減少します。条件で死亡をチェックできます。
 
-## Internet Connectivity 
+## Internet Connectivity
 ![](https://resources.gdevelop-app.com/assets/Icons/access-point-network.svg)
 実行中のデバイスがインターネットに接続しているかどうかをチェックします。
 

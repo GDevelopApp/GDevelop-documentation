@@ -13,7 +13,7 @@ Notez que vous pouvez lire la page [Commencer](/fr/gdevelop5/getting_started) po
 
 Si vous n'avez pas **GDevelop 5**, téléchargez-le à partir du [site officiel](https://gdevelop-app.com). Il est disponible pour Windows, MacOS et Linux.
 
-Téléchargez toujours GDevelop à partir de cette page pour être sûr d'avoir la dernière version.  
+Téléchargez toujours GDevelop à partir de cette page pour être sûr d'avoir la dernière version.
 Installez ou extrayez GDevelop et lancez-le.
 
 ![](/fr/gdevelop5/tutorials/platform-game/capture_du_2020-06-06_10-32-46.png)
@@ -46,7 +46,7 @@ Une nouvelle scène, appelée **New Scene** est ajoutée à la liste. Cliquez de
 
 ![](/fr/gdevelop5/tutorials/platform-game/capture_du_2020-06-06_10-45-50.png)
 
-Pour renommer la scène comme vous le souhaitez, vous pouvez revenir au **gestionnaire de projet** en cliquant sur 
+Pour renommer la scène comme vous le souhaitez, vous pouvez revenir au **gestionnaire de projet** en cliquant sur
 ![](/fr/gdevelop5/tutorials/platform-game/gestionnaire-projet.png)
  en haut à gauche. Faire clic-droit sur  **New Scene** puis **rename** pour lui choisir un nouveau nom (dans notre exemple : **scene1**).
 
@@ -82,16 +82,16 @@ Vous pouvez maintenant fermer les propriétés en cliquant sur le bouton **APPLI
 
 ##Mettre l'objet dans la scène
 
-Pour ajouter le joueur dans notre niveau, nous devons récupérer l'objet et le placer dans la scène. 
+Pour ajouter le joueur dans notre niveau, nous devons récupérer l'objet et le placer dans la scène.
 Chaque objet ajouté à la scène est une **_instance_** de l'objet.
 
 Nous n'avons besoin que d'une seule instance du joueur car nous n'aurons qu'un seul joueur dans ce niveau. Les autres objets (comme les plateformes, pièces, ennemis, ...) pourront avoir plusieurs instances dans la scène.
 
-Pour ajouter l'objet, il faut cliquer dans la liste à gauche : 
+Pour ajouter l'objet, il faut cliquer dans la liste à gauche :
 
-![](/fr/gdevelop5/tutorials/platform-game/objets-volet.png) 
+![](/fr/gdevelop5/tutorials/platform-game/objets-volet.png)
 
-puis sans relacher la souris, le faire glisser vers la scène et relacher pour le déposer : 
+puis sans relacher la souris, le faire glisser vers la scène et relacher pour le déposer :
 
 ![](/fr/gdevelop5/tutorials/platform-game/instance-sprite-depose.png)
 
@@ -141,7 +141,7 @@ Ouvrez l'éditeur d'objet de `perso_principal` en cliquant-droit sur le joueur d
 
 ![](/fr/gdevelop5/tutorials/platform-game/editer_perso.png)
 
-Dans la fenêtre qui vient de s'ouvrir, sélectionnez le panneau **Comportement** (en haut à droite de **Propriétés**) et cliquez le bouton **+ Ajouter un comportement à l'objet**. Sélectionnez **Objet se déplaçant sur des plateformes** dans la liste des comportements disponibles.   
+Dans la fenêtre qui vient de s'ouvrir, sélectionnez le panneau **Comportement** (en haut à droite de **Propriétés**) et cliquez le bouton **+ Ajouter un comportement à l'objet**. Sélectionnez **Objet se déplaçant sur des plateformes** dans la liste des comportements disponibles.
 L'éditeur affiche maintenant les comportements avec toute une série de paramètres que vous pouvez modifier.
 
 ![](/fr/gdevelop5/tutorials/platform-game/comportement-plateforme.png)
@@ -173,7 +173,7 @@ Vous pouvez maintenant faire bouger le personnage avec les touches par défaut, 
 
 Si le personnage ne se déplace pas, assurez-vous d'avoir activé les comportements adéquats. Assurez-vous aussi d'avoir ajouté le comportement **Platform** aux objets `GrassPlatform`, sinon le joueur les traversera et sortira de l'écran par le bas.
 
-## Changer la couleur de l'arrière-plan 
+## Changer la couleur de l'arrière-plan
 
 Un arrière-plan gris est un peu ennuyeux. Nous pourrons y ajouter une image par la suite, mais ne nous compliquons pas les choses pour le moment. Faites un clic-droit dans l'éditeur de la scène et sélectionnez **Scene properties** :
 
@@ -185,6 +185,6 @@ Dans la fenêtre qui s'est ouverte, cliquez sur **Couleurs d'arrière plan de la
 
 ## Étape suivante : animer le joueur
 
-Pour le moment, notre jeu est très basique : le joueur n'est pas animé lorsqu'il saute ou qu'il marche. L'étape suivante de ce tutoriel vous montrera comment ajouter différentes animations et comment utiliser des événements pour changer les animations lorsque l'état du joueur change. 
+Pour le moment, notre jeu est très basique : le joueur n'est pas animé lorsqu'il saute ou qu'il marche. L'étape suivante de ce tutoriel vous montrera comment ajouter différentes animations et comment utiliser des événements pour changer les animations lorsque l'état du joueur change.
 
-➡️ Lisez **[la suite du tutoriel se trouve ici !](/fr/gdevelop5/tutorials/platform-game/2-player-animations)** 
+➡️ Lisez **[la suite du tutoriel se trouve ici !](/fr/gdevelop5/tutorials/platform-game/2-player-animations)**

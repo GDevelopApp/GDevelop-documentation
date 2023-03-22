@@ -72,13 +72,13 @@ All of the descriptions, names, and sentences should be filled out. They should 
 
 #### Write extension descriptions
 
-The short description should describe your extension in a short (one or two sentences) yet straightforward way.  
+The short description should describe your extension in a short (one or two sentences) yet straightforward way.
 For the extension long description, Markdown syntax can be used.
 
 - Backticks should be surrounding expression names so that they appear in a monospaced font.
 - The description should include a list of functionality added by your extension.
 - If your extension needs a special setup to work, it should be described.
-- You can also add screenshots, by uploading an image to a site and using the markdown image syntax to include the image, for example: 
+- You can also add screenshots, by uploading an image to a site and using the markdown image syntax to include the image, for example:
 
 ```
 ![Image description](https://link.to/the/image.png)
@@ -101,8 +101,8 @@ Use `PascalCase` for actions, conditions, expression, function and parameter **n
 * For example, name your action: "SetRangeOfAttack", and the expression: "RangeOfAttack".
 
 !!! tip
-    
-        
+
+
     You might wonder if you should rather make a condition or an expression. While a condition is a good idea to have, an expression is more flexible. In the future, we'll introduce expressions that are automatically generated as conditions too.
 
 ### Don't use abbreviations
@@ -115,7 +115,7 @@ Action and condition sentences are always in the affirmative tense. Conditions a
  * For example: don't name a condition _"The ad is displayed to the user"_. Instead name it _"Ad displayed"_ or _"Ad is displayed"_ (or maybe _"Ad displayed on-screen"_ but prefer to stay concise).
 
 ### Be oriented toward everyone not just programmers
-For descriptions of conditions, **don't write** "Return true if ...", because this is heavily oriented toward programmers. Instead in GDevelop, we use the more generic "Check if ...". 
+For descriptions of conditions, **don't write** "Return true if ...", because this is heavily oriented toward programmers. Instead in GDevelop, we use the more generic "Check if ...".
 
   * For example: instead of *"Return TRUE if the race is finished"*, write *"Check if the race is finished."*
   * For example: instead of *"This will return false if the player is not jumping."*, write *"Check if the player is jumping."*
@@ -144,7 +144,7 @@ Be sure to return **the proper value** (return a text for a string expression) -
 
 ### Write custom Behaviors
 
-  * Describe how to use them (including any requirement on the object). 
+  * Describe how to use them (including any requirement on the object).
   * For the properties:
     * If they are booleans, use for the name a description of what they do when true. **Don't write** "If true, activate the power-up". Instead, just write "Activate power-up".
     * Add units, when required, e.g:   `Timer (in second) ` or `Offset X (in pixel) `.
@@ -164,9 +164,9 @@ When an operation with an object needs to be done over more than one frame., you
     * Bad example: `x`, `ComCan2`, `MyVar`
     * Good example: `CommunicationChannel2`, `TemporaryObjectName`
   * Store variables in a structure variable.  This simply means that you name all of your variables using the `__ExtensionName.VariableName` format.
-  * For example, a "Camera zoom" extension would use the prefix `__CameraZoom`.  If you want to use a variable named "ZoomValue", it should be named like this:   
+  * For example, a "Camera zoom" extension would use the prefix `__CameraZoom`.  If you want to use a variable named "ZoomValue", it should be named like this:
 
-> 
+>
 > `__CameraZoom.ZoomValue`
 
 
@@ -183,7 +183,7 @@ Hidden properties should be used in behavior events in place of variables. Varia
 
 For example, a timer named "DoorDuration" in the "Door Management" extension would be named:
 
-> 
+>
 > `__DoorManagement_DoorDuration`
 
 
@@ -238,7 +238,7 @@ If you do, add the tag "`DOM apis`" (exactly written as this) on the extension.
 
 #### No usage of private methods or variables (starting with _)
 
-Any method that has an underscore in front of its name, like `runtimeScene._updateLayersCameraCoordinates` or `runtimeScene._layersCameraCoordinates`, can **not** be used. 
+Any method that has an underscore in front of its name, like `runtimeScene._updateLayersCameraCoordinates` or `runtimeScene._layersCameraCoordinates`, can **not** be used.
 The underscore denotes a private variable/method. It can change in the next version, be renamed, be changed, or be suppressed. It **will** happen and if an extension using this is becoming incompatible, it will need to be fixed in a few days or **deleted**.
 
 In all cases, this will create a bad user experience for GDevelop users.

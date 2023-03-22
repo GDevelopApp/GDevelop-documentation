@@ -23,11 +23,11 @@ You are reading **Part 7** of the [Space Shooter Tutorial](/gdevelop5/tutorials/
 
 !!! tip
 
-    In this chapter, we will learn how to add meteors to the game. 
+    In this chapter, we will learn how to add meteors to the game.
 
 ## Adding Meteors
 
-We will add four meteor objects. Add a new object called **"Meteor1"**, and select the **"meteor_1.png"** from the assets folder. 
+We will add four meteor objects. Add a new object called **"Meteor1"**, and select the **"meteor_1.png"** from the assets folder.
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-add-meteor-min.gif)
 
@@ -49,11 +49,11 @@ Open the **Events** tab and copy the condition and the action (Player collision 
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-copy-action-collision-with-meteors-min.gif)
 
-Add a new condition to detect the collision between **Bullet** and the **Meteors**. 
+Add a new condition to detect the collision between **Bullet** and the **Meteors**.
 
 !!! tip
 
-    Our bullets will be gone when they hit meteors. 
+    Our bullets will be gone when they hit meteors.
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-bullet-collision-with-meteors.png)
 
@@ -67,7 +67,7 @@ Before testing out the meteors, we should **put some meteor objects on the scene
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-drag-adn-drop-meteors-min.gif)
 
-Run the game. Now you can see the meteors on the scene. If you hit some meteors, the player will get some damages. 
+Run the game. Now you can see the meteors on the scene. If you hit some meteors, the player will get some damages.
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-chapter-7-demo-min.gif)
 

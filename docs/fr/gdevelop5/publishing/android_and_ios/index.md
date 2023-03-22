@@ -33,7 +33,7 @@ Quand tout est prêt, exportez le jeu en **AAB** (*Android App Bundle*) pour And
 
 À la fin, vous pourrez **Télécharger** l'APK ou le fichier AAB qui pourra être installé sur Android ou être [publié sur Google Play](/gdevelop5/publishing/android_and_ios/play-store).
 
-    \## Installez le jeu sur votre appareil Android (APK) \<note\> Pour tester un jeu sur votre téléphone vous devez avoir exporté le jeu en APK. Si vous voulez distribuer votre jeu sur Google Play, [lisez plutôt cette page](/gdevelop5/publishing/android_and_ios/play-store). 
+    \## Installez le jeu sur votre appareil Android (APK) \<note\> Pour tester un jeu sur votre téléphone vous devez avoir exporté le jeu en APK. Si vous voulez distribuer votre jeu sur Google Play, [lisez plutôt cette page](/gdevelop5/publishing/android_and_ios/play-store).
 
 Branchez l'appareil android en USB sur votre ordinateur et mettez l'APK quelque part dans un dossier de votre appareil Anrdoid
 

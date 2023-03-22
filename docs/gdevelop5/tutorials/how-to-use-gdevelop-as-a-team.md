@@ -9,8 +9,8 @@ As a team of multiple developers, you probably want to activate the option to sa
 
 Organize then your project to ensure that as many things as possible can be saved in these different files:
 
-* Make sure to separate your scene events into external events for a good organization. 
-* Try if possible to make your events into custom extension actions/conditions or custom behaviors. 
+* Make sure to separate your scene events into external events for a good organization.
+* Try if possible to make your events into custom extension actions/conditions or custom behaviors.
 * Use external layouts for the levels (load them with a scene that serves as the main game scene).
 
 !!! note

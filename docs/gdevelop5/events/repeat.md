@@ -7,11 +7,11 @@ Repeat events work like standard [events](/gdevelop5/events), but they are repea
 
 Note that this count can be an expression. That means that you can make the number of repetitions vary according to something that the player does. For example, you can create a different number of enemies according to an object's life count, position, etc. You can also create a random number of objects on the scene (see the example below).
 
-## Examples 
+## Examples
 
 !!! tip
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
     Open these examples online.
 
 **Diagonals**

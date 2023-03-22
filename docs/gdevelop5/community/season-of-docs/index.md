@@ -32,7 +32,7 @@ GDevelop is an *open-source* **game development** software allowing anyone to cr
 **A tutorial about making custom behaviors in GDevelop**
 
    * Write a new step-by-step tutorial explaining how to make a "behavior". What's a behavior? It's a way to create new logic for game objects! There is a [page already about it](/gdevelop5/tutorials/how-to-make-behavior), but it's quite basic.
-  * Behaviors are important in GDevelop because they allow to quickly prototype and give ability to objects. As part of this new tutorial, you can create your own behaviors, using the easy-to-learn events system that is used in GDevelop. 
+  * Behaviors are important in GDevelop because they allow to quickly prototype and give ability to objects. As part of this new tutorial, you can create your own behaviors, using the easy-to-learn events system that is used in GDevelop.
 
 > This project is a good way to learn more about game making!
 
@@ -50,15 +50,15 @@ GDevelop is an *open-source* **game development** software allowing anyone to cr
 
 > It will be important to find a fairly small game so that a tutorial can cover it from start to finish - but it needs to look good and be interesting (there are asset packs on websites like *itch.io* or *opengameart.org* that we can use)!
 
-**Improved extension developer guide ** 
+**Improved extension developer guide **
 
   * Extensions are an important part of GDevelop. They provide the most features that users use in their games. Improve the documentation on [GitHub](https://github.com/4ian/GDevelop/blob/master/newIDE/README-extensions.md) to explain how to create a new extension for the software.
   * Also see this [wiki page](http://wiki.compilgames.net/doku.php/gdevelop5/extending-gdevelop). This will help encourage new people to contribute to the game engine.
 
-**Documentation and tutorial for publishing games on various platforms 🌍** 
+**Documentation and tutorial for publishing games on various platforms 🌍**
 
-  * Create more documentation about publishing games on marketplaces, gaming websites and app stores. This is a very important topic. Users like to create games, but a game is not finished if it's not published! 
-  * There is already some [documentation on the wiki](http://wiki.compilgames.net/doku.php/gdevelop5/publishing), but more step-by-step tutorials and detailed explanations about marketplaces (Kongregate, Itch.io, Facebook Instant Games...) or app stores would be very useful! 
+  * Create more documentation about publishing games on marketplaces, gaming websites and app stores. This is a very important topic. Users like to create games, but a game is not finished if it's not published!
+  * There is already some [documentation on the wiki](http://wiki.compilgames.net/doku.php/gdevelop5/publishing), but more step-by-step tutorials and detailed explanations about marketplaces (Kongregate, Itch.io, Facebook Instant Games...) or app stores would be very useful!
 
 
 > These articles/documentation can even be tightly integrated into the GDevelop app itself. Mentors will be able to do updates in GDevelop.

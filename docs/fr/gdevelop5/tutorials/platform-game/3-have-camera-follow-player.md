@@ -12,7 +12,7 @@ Pour l'instant, il est difficile de construire un grand niveau à explorer car l
 Ajoutons un autre événement pour que la caméra suive le joueur. Il y a plusieurs façons d'y parvenir. Le plus simple est d'ajouter un événement sans condition et de mettre l'action appelée **Center the camera on an object** :
 
   * Créez un nouvel événement vide ; n'y ajoutez aucune condition et cliquez sur **Add action**.
-  * Dans la liste des actions, sélectionnez **Layers and cameras** puis **Center the camera on an object**.  
+  * Dans la liste des actions, sélectionnez **Layers and cameras** puis **Center the camera on an object**.
   *Laissez les paramètres par défaut et cliquez sur **OK**.
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-26_at_22.25.53.png)
@@ -21,7 +21,7 @@ Le nouvel événement ressemble à ceci :
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-26_at_22.26.20.png)
 
-Vous pouvez lancer un aperçu pour voir que la caméra est désormais centrée sur le joueur : 
+Vous pouvez lancer un aperçu pour voir que la caméra est désormais centrée sur le joueur :
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-26_at_22.27.31.png)
 
@@ -33,4 +33,4 @@ C'était facile, non ? D'autres actions peuvent être utiles. Par exemple, des a
 
 C'est assez ennuyeux d'avoir un seul type de plateforme. Ajoutons une autre plateforme sur laquelle nous pourrons monter  en arrivant d'en dessous en sautant pour la traverser.
 
-➡️ Lisez  **[la suite par ici](/fr/gdevelop5/tutorials/platform-game/4-add-jump-thru-platforms)**! 
+➡️ Lisez  **[la suite par ici](/fr/gdevelop5/tutorials/platform-game/4-add-jump-thru-platforms)**!

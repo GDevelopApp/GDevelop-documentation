@@ -11,7 +11,7 @@ El *generador de perfies (profiler)* es una herramienta que mide el tiempo emple
 
 !!! note
 
-     Esta es una característica avanzada de GDevelop. Si lo usa, nos gustaría que muestre su soporte para GDevelop al [obtener una suscripción](/gdevelop5/interface/profile)! 
+     Esta es una característica avanzada de GDevelop. Si lo usa, nos gustaría que muestre su soporte para GDevelop al [obtener una suscripción](/gdevelop5/interface/profile)!
 
 ![](/gdevelop5/interface/gdevelop-debugger_2x.png)
 

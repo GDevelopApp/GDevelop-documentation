@@ -43,7 +43,7 @@ We'll now create an object group called **"Enemies"**. This will be useful in ev
 
     [Read this page](/gdevelop5/objects) to learn more about object groups.
 
-Click on the **object groups editor** button on the upper right. Then, click to** add a new group**, and add the enemy objects one by one. 
+Click on the **object groups editor** button on the upper right. Then, click to** add a new group**, and add the enemy objects one by one.
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-create-object-group-min.gif)
 
@@ -75,11 +75,11 @@ Open the behavior page of **Enemy3** and change **Health** & **Maximum Health** 
 
 ## Shooting enemies
 
-We will add a few actions to shoot the enemies. Firstly, open the **Events** tab. Then, add a new condition, choose the **Enemies** object group that we created before. Select action as **Collision** and the object as **Bullet**; by doing that, we can track the collision between our bullet objects and the enemies. 
+We will add a few actions to shoot the enemies. Firstly, open the **Events** tab. Then, add a new condition, choose the **Enemies** object group that we created before. Select action as **Collision** and the object as **Bullet**; by doing that, we can track the collision between our bullet objects and the enemies.
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-collision-with-bullet.png)
 
-If the collision happens between bullets and enemies, we need to remove the **Bullet** objects. Hence, we will add a new action next to the previous condition. Pick **Bullet** object and select **Delete an object**. 
+If the collision happens between bullets and enemies, we need to remove the **Bullet** objects. Hence, we will add a new action next to the previous condition. Pick **Bullet** object and select **Delete an object**.
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-delete-bullet.png)
 
@@ -103,7 +103,7 @@ Finally, we need to give **a force to move enemies**. However, we should provide
 
 !!! warning
 
-    You can ask why we are using **450** because it is **half of the screen width**. Remember, our **width** is set to **900**. If you use any other resolution, you need to change it. 
+    You can ask why we are using **450** because it is **half of the screen width**. Remember, our **width** is set to **900**. If you use any other resolution, you need to change it.
 
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-camera-position-for-enemies.png)
@@ -122,7 +122,7 @@ We will start adding a new condition to determine the collision between the **pl
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-player-collision-enemies.png)
 
-This time, we do not directly give the player damage because there will be different scenarios to damage the player. Hence, we are going to use the **Scene variable**. 
+This time, we do not directly give the player damage because there will be different scenarios to damage the player. Hence, we are going to use the **Scene variable**.
 
 !!! tip
 
@@ -169,7 +169,7 @@ For this chapter, the player's actions are ready.
 
 ## Small enemies
 
-We already made the player smaller, but we did not make it for the enemies. Please copy and paste the same action for making it small and change the **Player** with **Enemies**. 
+We already made the player smaller, but we did not make it for the enemies. Please copy and paste the same action for making it small and change the **Player** with **Enemies**.
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-change-enemy-size-min.gif)
 
@@ -183,7 +183,7 @@ Before testing out new mechanics, we need to put some enemies on the scene. **Dr
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-drag-and-drop-enemies-min.gif)
 
-Now, we are ready to play our game. We can shoot the enemies, and the player can get damage due to the enemy's collision. 
+Now, we are ready to play our game. We can shoot the enemies, and the player can get damage due to the enemy's collision.
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-chapter-5-demo-min.gif)
 

@@ -24,7 +24,7 @@ The time spent on different aspects of your game is displayed in sections:
 * Events - The time spent running the events. If you have added *groups* to your events, you will see them displayed as sub-sections. Which is a good way to see how each part of your events are performing.
 * Objects (post-events) - The time spent running behaviors after the events (behaviors can be run after events, if set up that way).
 * Objects (visibility) - The time spent checking which objects will be rendered on the screen
-* Render - The time spent for the CPU issuing rendering calls to the GPU. 
+* Render - The time spent for the CPU issuing rendering calls to the GPU.
 
 Note that actual rendering on the GPU is not measured here.
 

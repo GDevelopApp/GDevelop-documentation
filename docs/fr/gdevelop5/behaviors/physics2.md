@@ -3,20 +3,20 @@ title: Comportement Physique
 ---
 # Comportement Physique
 
-Le moteur (comportement) physique peut être ajouté aux objets pour les faire bouger de manière réaliste, en suivant les lois de la physique. En arrière-plan, l'extension utilise Box2D, une bibliothèque de simulation physique des corps rigides rapide et très complète.   
-  
+Le moteur (comportement) physique peut être ajouté aux objets pour les faire bouger de manière réaliste, en suivant les lois de la physique. En arrière-plan, l'extension utilise Box2D, une bibliothèque de simulation physique des corps rigides rapide et très complète.
+
 Le comportement physique est basé sur trois grands concepts : le **_monde_** qui contient les corps, les **_corps_** eux-mêmes et les **_joints_** qui relient les corps. Tous sont expliqués en détail dans ce texte.
-  
+
 !!! warning
 
     **Limite** : Comme indiqué ci-dessus, l'extension simule la physique des **_corps rigides_**, ce qui signifie que les corps ne peuvent pas être déformés. Des objets comme les formes molles, les vêtements et les liquides ne sont pas pris en charge.
 
 ##Le monde
 
-Le **_monde_** est l'endroit où se déroulent les simulations, les corps et les contacts sont rattachés à un monde pour pouvoir interagir avec d'autres entités.   
-Vous n'avez pas à vous soucier de placer des objets dans le monde, les objets utilisant le comportement Physique sont automatiquement ajoutés au monde. De plus, il ne peut y avoir qu'un seul monde à la fois, vous ne pouvez pas exécuter deux simulations indépendantes en même temps.   
-La taille du monde, comme celle de GDevelop, est infinie. Vous n'avez donc pas à vous soucier de l'emplacement de vos objets, ils suivront toujours les lois de la physique.   
-  
+Le **_monde_** est l'endroit où se déroulent les simulations, les corps et les contacts sont rattachés à un monde pour pouvoir interagir avec d'autres entités.
+Vous n'avez pas à vous soucier de placer des objets dans le monde, les objets utilisant le comportement Physique sont automatiquement ajoutés au monde. De plus, il ne peut y avoir qu'un seul monde à la fois, vous ne pouvez pas exécuter deux simulations indépendantes en même temps.
+La taille du monde, comme celle de GDevelop, est infinie. Vous n'avez donc pas à vous soucier de l'emplacement de vos objets, ils suivront toujours les lois de la physique.
+
 Le monde comporte 3 propriétés :
 
    * **Gravity** (la gravité) : elle est constituée de deux composantes (**X** et **Y**), et fonctionne comme la gravité terrestre. Elle ajoute une force à chaque objet, le poussant dans la direction donnée. Les objets supportent également un facteur d'échelle de gravité, plus à ce sujet dans la section des corps.
@@ -29,9 +29,9 @@ Le monde comporte 3 propriétés :
 
 ## Les corps
 
-Les **_corps_** sont la _vie_ de l'extension **Physics**, ils définissent le mouvement de l'objet, sa forme, son rebond, sa capacité de rotation ou de déplacement.   
-  
-Lorsque vous ajoutez le comportement **Physics** à un objet, vous pouvez définir la configuration du corps directement à partir de l'EDI.   
+Les **_corps_** sont la _vie_ de l'extension **Physics**, ils définissent le mouvement de l'objet, sa forme, son rebond, sa capacité de rotation ou de déplacement.
+
+Lorsque vous ajoutez le comportement **Physics** à un objet, vous pouvez définir la configuration du corps directement à partir de l'EDI.
 
 Vous pouvez "jouer" avec les nombreuses options de **Physics** pour modéliser le monde physique selon vos besoin. Ces options sont décrites ci-dessous.
 
@@ -49,14 +49,14 @@ Et quelques paramètres liés à la dynamique :
 
 !!! danger
 
-     Utilisez cette option sur les objets qui en ont vraiment besoin. L'impact sur les performances lorsqu'il est utilisé dans chaque objet déplacé n'est pas * léger *. 
+     Utilisez cette option sur les objets qui en ont vraiment besoin. L'impact sur les performances lorsqu'il est utilisé dans chaque objet déplacé n'est pas * léger *.
 
   * **Fixed Rotation** (Rotation bloquée) : Si la valeur est **true**, l'objet ne pourra pas pivoter. Imaginez que votre joueur tourne à chaque fois qu’il heurte un mur ou en descendant une pente.
   * **Can Sleep** (Peut dormir) : Si défini à **true**, le moteur peut améliorer les performances des objets qui ne sont pas déplacés depuis un moment, ce qui les met en veille. C'est juste un paramètre de performance qui ne devrait pas avoir d'impact sur la simulation elle-même.
-  
+
 !!! note
 
-     Vous pouvez vérifier si un corps "dort" en utilisant les conditions d'événements. Si un objet dort, cela signifie qu'il est dans un état d'équilibre depuis un moment, utile pour créer des jeux d'équilibre. 
+     Vous pouvez vérifier si un corps "dort" en utilisant les conditions d'événements. Si un objet dort, cela signifie qu'il est dans un état d'équilibre depuis un moment, utile pour créer des jeux d'équilibre.
 
 ###La forme du corps (Body shape)
 
@@ -76,35 +76,35 @@ Outre le type et la dimension personnalisés de la forme, **Body shape** prend e
 
 Outre le type et la forme, les corps physiques disposent de paramètres supplémentaires qui déterminent le comportement du corps en cas de collision, l'impact de la gravité sur celui-ci et l'énergie perdue en raison du frottement de l'air. Chaque réglage est expliqué ci-dessous.
 
-  * **Density** (Densité) : La densité détermine la masse corporelle. La formule générale est `densité = masse/volume`, mais comme il n’y a pas de troisième dimension, nous pouvons partir du fait qu’il s’agit de `densité = masse/surface`. Deux corps ayant la même densité mais des aires/tailles différentes auront une masse différente, vous devez donc en tenir compte lors du redimensionnement des objets.  
-  
- __La densité ne peut pas être négative !__  
-  
-  * **Friction** (Frottement) : Le frottement ajoute une force aux corps en contact, dans le sens opposé à celui de leur mouvement. Plus le frottement est élevé, plus les objets ralentissent au contact. Pour mieux le comprendre, une plate-forme en sable aura un frottement proche de 1 (très haut), alors qu'une plate-forme en glace aura un facteur de frottement proche de zéro.  
-  
- __Le frottement ne peut être négatif ! __  
-  
-Lorsque deux objets sont en contact, le frottement total est calculé à partir des frottement des objets en contact par la formule : `friction = sqrt (frictionA * frictionB)`  
-  
-* **Restitution** : Détermine la quantité d'énergie que l'objet garde ou perd à chaque collision. Une valeur de **0** signifie que les collisions seront parfaitement inélastiques et que l'objet ne rebondira pas du tout. Alors qu'une restitution valant **1** signifie que les collisions seront parfaitement élastiques et que l'objet rebondira avec la même énergie à chaque fois. Imaginez une balle qui rebondit sur le sol et qui atteint toujours la même hauteur. Les valeurs de restitution supérieures à 1 sont valides, mais l'objet gagne de l'énergie à chaque collision et la simulation risque de ne plus être maîtrisée.   
-  
- __La restitution ne peut pas être négative! __   
-  
-Lorsque deux objets entrent en contact. , la restitution totale est calculée à l'aide de la restitution des objets en collision via la formule : `restitution = max (restitutionA, restitutionB)`  
-  
-* **Linear Damping** (Amortissement linéaire) : L'amortissement linéaire réduit la vitesse de l'objet à tout moment. Plus la valeur est élevée, plus les objets sont ralentis. Vous pouvez vous la représenter en comparant la viscosité de l’air (qui est faible) à cette de l'eau (plus élevée) et à celle de la mélasse (qui est encore plus élevée. Autrement dit, un objet lancé dans l'air va plus loin que s'il était lancé dans l'eau.   
-   
- __Bien que vous puissiez utiliser n’importe quelle valeur, l’amortissement négatif fait que l’objet gagne en vélocité à chaque étape, générant un comportement non-physique.__  
-  
-* **Angulaire Damping** (Amortissement angulaire) : Analogue à l'amortissement linéaire, mais plutôt que de ralentir la vitesse linéaire de l'objet, il ralentit la vitesse angulaire, autrement dit la vitesse de rotation de l'objet à chaque étape.   
-  
-__Bien que vous puissiez utiliser n'importe quelle valeur, un amortissement négatif fait que l’objet gagne en vitesse angulaire à chaque étape, générant un comportement non-physique.__  
-  
-* **Gravity Scale** (Échelle de gravité) : Ce facteur est multiplié par la gravité du monde pour déterminer la gravité appliquée à l'objet. Notez qu'il s'agit d'un nombre et non d'un vecteur, vous ne pouvez pas modifier l'orientation de la gravité, mais uniquement sa magnitude et son sens. Tout nombre est valide, par exemple si **Gravity Scale** vaut `1`, la gravité appliquée sera la gravité du monde, si elle vaut `2`, la gravité sera deux fois plus forte pour cet objet et si elle est égale à `0,5`, elle sera deux fois plus faible. Avec une valeur de `0`, l'objet ne sera pas affecté par la gravité, et si elle vaut `-1`, la gravité sera inversée.  
-  
+  * **Density** (Densité) : La densité détermine la masse corporelle. La formule générale est `densité = masse/volume`, mais comme il n’y a pas de troisième dimension, nous pouvons partir du fait qu’il s’agit de `densité = masse/surface`. Deux corps ayant la même densité mais des aires/tailles différentes auront une masse différente, vous devez donc en tenir compte lors du redimensionnement des objets.
+
+ __La densité ne peut pas être négative !__
+
+  * **Friction** (Frottement) : Le frottement ajoute une force aux corps en contact, dans le sens opposé à celui de leur mouvement. Plus le frottement est élevé, plus les objets ralentissent au contact. Pour mieux le comprendre, une plate-forme en sable aura un frottement proche de 1 (très haut), alors qu'une plate-forme en glace aura un facteur de frottement proche de zéro.
+
+ __Le frottement ne peut être négatif ! __
+
+Lorsque deux objets sont en contact, le frottement total est calculé à partir des frottement des objets en contact par la formule : `friction = sqrt (frictionA * frictionB)`
+
+* **Restitution** : Détermine la quantité d'énergie que l'objet garde ou perd à chaque collision. Une valeur de **0** signifie que les collisions seront parfaitement inélastiques et que l'objet ne rebondira pas du tout. Alors qu'une restitution valant **1** signifie que les collisions seront parfaitement élastiques et que l'objet rebondira avec la même énergie à chaque fois. Imaginez une balle qui rebondit sur le sol et qui atteint toujours la même hauteur. Les valeurs de restitution supérieures à 1 sont valides, mais l'objet gagne de l'énergie à chaque collision et la simulation risque de ne plus être maîtrisée.
+
+ __La restitution ne peut pas être négative! __
+
+Lorsque deux objets entrent en contact. , la restitution totale est calculée à l'aide de la restitution des objets en collision via la formule : `restitution = max (restitutionA, restitutionB)`
+
+* **Linear Damping** (Amortissement linéaire) : L'amortissement linéaire réduit la vitesse de l'objet à tout moment. Plus la valeur est élevée, plus les objets sont ralentis. Vous pouvez vous la représenter en comparant la viscosité de l’air (qui est faible) à cette de l'eau (plus élevée) et à celle de la mélasse (qui est encore plus élevée. Autrement dit, un objet lancé dans l'air va plus loin que s'il était lancé dans l'eau.
+
+ __Bien que vous puissiez utiliser n’importe quelle valeur, l’amortissement négatif fait que l’objet gagne en vélocité à chaque étape, générant un comportement non-physique.__
+
+* **Angulaire Damping** (Amortissement angulaire) : Analogue à l'amortissement linéaire, mais plutôt que de ralentir la vitesse linéaire de l'objet, il ralentit la vitesse angulaire, autrement dit la vitesse de rotation de l'objet à chaque étape.
+
+__Bien que vous puissiez utiliser n'importe quelle valeur, un amortissement négatif fait que l’objet gagne en vitesse angulaire à chaque étape, générant un comportement non-physique.__
+
+* **Gravity Scale** (Échelle de gravité) : Ce facteur est multiplié par la gravité du monde pour déterminer la gravité appliquée à l'objet. Notez qu'il s'agit d'un nombre et non d'un vecteur, vous ne pouvez pas modifier l'orientation de la gravité, mais uniquement sa magnitude et son sens. Tout nombre est valide, par exemple si **Gravity Scale** vaut `1`, la gravité appliquée sera la gravité du monde, si elle vaut `2`, la gravité sera deux fois plus forte pour cet objet et si elle est égale à `0,5`, elle sera deux fois plus faible. Avec une valeur de `0`, l'objet ne sera pas affecté par la gravité, et si elle vaut `-1`, la gravité sera inversée.
+
 !!! note
 
-     Vous pouvez utiliser une échelle de gravité négative pour inverser la gravité d'un objet spécifique. 
+     Vous pouvez utiliser une échelle de gravité négative pour inverser la gravité d'un objet spécifique.
 
 ### Calques et  masques
 
@@ -115,7 +115,7 @@ Il n'y a qu'une seule règle :
 
 !!! warning
 
-     Deux objets `A` et `B` peuvent entrer en collision si n'importe quel calque de `A` correspond à n’importe quel masque de `B` **et** que n'importe quel calque de `B` correspond à n’importe quel masque de `A` 
+     Deux objets `A` et `B` peuvent entrer en collision si n'importe quel calque de `A` correspond à n’importe quel masque de `B` **et** que n'importe quel calque de `B` correspond à n’importe quel masque de `A`
 
 Voici une solution possible au problème des zombies évoqué ci-dessus :
 
@@ -137,18 +137,18 @@ Après avoir configuré vos objets, il est temps de commencer la simulation : la
 
 !!! danger
 
-     Les forces intégrées de GDevelop ne conviennent pas au comportement **Physics**. Pour définir la vitesse linéaire, utilisez les forces spécifiques à la physique ou aux actions de la physique. 
+     Les forces intégrées de GDevelop ne conviennent pas au comportement **Physics**. Pour définir la vitesse linéaire, utilisez les forces spécifiques à la physique ou aux actions de la physique.
 
-* **Forces** : Les forces modifient le mouvement d'un objet et sont destinées à être utilisées pendant un certain temps pour générer un effet appréciable. La vitesse que l'objet gagne lorsque vous lui appliquez une force dépend de la magnitude de la force et de la masse de l'objet. Un objet lourd se déplacera plus lentement qu'un objet plus léger si la même force est appliquée sur les deux masses.   
-  
-__Il faut définir un point d'application pour ajouter et utiliser une force.__   
-  
-* **Torques** (Couples) : Analogues aux forces mais pour la rotation. Un couple générera une accélération angulaire sur l'objet, le faisant tourner plus vite ou plus lentement dans le temps.  
-  
-* **Impulses** (Impulsions) : Semblables aux forces, mais ne dépendent pas du temps, elles ajoutent instantanément une "quantité" de vélocité. Elles sont censées être utilisées une seule fois. Une utilisation courante pourrait être de simuler des sauts : chaque fois que vous appuyez sur le bouton de saut, vous ajoutez une impulsion vers le haut.   
-  
-__Il faut définir un point d'application pour ajouter une impulsion.__   
-  
+* **Forces** : Les forces modifient le mouvement d'un objet et sont destinées à être utilisées pendant un certain temps pour générer un effet appréciable. La vitesse que l'objet gagne lorsque vous lui appliquez une force dépend de la magnitude de la force et de la masse de l'objet. Un objet lourd se déplacera plus lentement qu'un objet plus léger si la même force est appliquée sur les deux masses.
+
+__Il faut définir un point d'application pour ajouter et utiliser une force.__
+
+* **Torques** (Couples) : Analogues aux forces mais pour la rotation. Un couple générera une accélération angulaire sur l'objet, le faisant tourner plus vite ou plus lentement dans le temps.
+
+* **Impulses** (Impulsions) : Semblables aux forces, mais ne dépendent pas du temps, elles ajoutent instantanément une "quantité" de vélocité. Elles sont censées être utilisées une seule fois. Une utilisation courante pourrait être de simuler des sauts : chaque fois que vous appuyez sur le bouton de saut, vous ajoutez une impulsion vers le haut.
+
+__Il faut définir un point d'application pour ajouter une impulsion.__
+
 * **Angular Impulses** (Impulsions angulaires) : Analogues aux impulsions mais pour la rotation. Change la vitesse de rotation d'un objet instantanément.
 
 * **Velocity** (Vélocité) : Vous permet de modifier directement la vélocité d'un objet. Par exemple, vous pouvez faire marcher votre personnage à vitesse constante, puis modifier la vélocité tant que vous appuyez sur un bouton de mouvement.
@@ -157,20 +157,20 @@ __Il faut définir un point d'application pour ajouter une impulsion.__
 
 !!! warning
 
-     Vous pouvez modifier directement la position des objets, mais cela générera des comportements non physiques, du moins jusqu'à ce que la nouvelle position soit corrigée. Après tout, les objets ne se téléportent pas dans la vie réelle. 
+     Vous pouvez modifier directement la position des objets, mais cela générera des comportements non physiques, du moins jusqu'à ce que la nouvelle position soit corrigée. Après tout, les objets ne se téléportent pas dans la vie réelle.
 
-Notez que les forces et les impulsions ont besoin d’un //point d’application//. C’est important car c n'est pas pareil de pousser un verre à la base (pour déplacer le verre) que de le pousser dans le haut (le verre va probablement tomber), ni de pousser une porte vers sa poignée ou vers ses charnières.   
+Notez que les forces et les impulsions ont besoin d’un //point d’application//. C’est important car c n'est pas pareil de pousser un verre à la base (pour déplacer le verre) que de le pousser dans le haut (le verre va probablement tomber), ni de pousser une porte vers sa poignée ou vers ses charnières.
 Si le point d'application est différent du centre de gravité de l'objet, il générera une sorte de couple/rotation.
 
 !!! note
 
-     Vous pouvez obtenir le centre de gravité d'un objet en utilisant les expressions de comportement **Physics** `MassCenterX ()` et `MassCenterY ()` 
+     Vous pouvez obtenir le centre de gravité d'un objet en utilisant les expressions de comportement **Physics** `MassCenterX ()` et `MassCenterY ()`
 
 ##Les joints (Joints)
 
 Les joints sont des restrictions données aux objets pour leur faire suivre des règles de mouvement supplémentaires. Certains joints font pivoter les objets autour d’un point fixe, d’autres maintiennent deux objets ensemble, les plus complexes simulent les roues du véhicule, limitant la distance entre les corps tout en leur permettant de tourner librement.
 
-** Joint ID ** (ID du joint) :   
+** Joint ID ** (ID du joint) :
 Lorsque vous créez un joint, vous pouvez lui transmettre un nom de variable. Si vous le faites, GD stockera le numéro d'identification unique (**ID**) du joint dans la variable donnée. En vous servant de **Joint ID**, vous pourrez le modifier après sa création, vérifier ses valeurs et le supprimer. Imaginez que vous créez un joint pour attacher une clé à une ficelle fixée au toit. Si vous enregistrez l'ID du joint dans une variable, vous pourrez vérifier si un objet entre en collision avec la ficelle et supprimer le joint à l'aide de l'ID enregistrée pour faire tomber la clé.
 !!! note
 
@@ -189,7 +189,7 @@ Il existe de nombreux types de joint, chacun avec des comportements et des propr
 
 !!! warning
 
-     Assurez-vous de créer les joints dans les événements qui ne s'exécutent qu'une seule fois (par exemple, au début de la scène). La créations de joints à chaque image créera des centaines de de joints en quelques secondes, ce qui entraînera des performances médiocres, des comportements non physiques, voire faire planer la machine en raison de l'énorme consommation de mémoire. 
+     Assurez-vous de créer les joints dans les événements qui ne s'exécutent qu'une seule fois (par exemple, au début de la scène). La créations de joints à chaque image créera des centaines de de joints en quelques secondes, ce qui entraînera des performances médiocres, des comportements non physiques, voire faire planer la machine en raison de l'énorme consommation de mémoire.
 
 ### Distance Joint
 
@@ -203,7 +203,7 @@ Paramètres :
 
 !!! note
 
-     Les valeurs d'amortissement et de fréquence faibles généreront des joints souples, avec de nombreuses oscillations avant de se rapprocher de la distance cible, tandis que des valeurs élevées pour les deux réglages génèrent des joints très rigides. 
+     Les valeurs d'amortissement et de fréquence faibles généreront des joints souples, avec de nombreuses oscillations avant de se rapprocher de la distance cible, tandis que des valeurs élevées pour les deux réglages génèrent des joints très rigides.
 
 ### Revolute Joint
 
@@ -215,7 +215,7 @@ Il existe deux types de joints **Revolute**, qui sont presque les mêmes, mais a
 
 !!! note
 
-     Notez que, dans la version du joint à objet unique, l'objet est ajouté en tant que deuxième objet du joint, le premier objet est un corps statique masqué, ce qui permet d'utiliser ce type de joint dans les engrenages (expliqué dans la section joint d'engrenage). 
+     Notez que, dans la version du joint à objet unique, l'objet est ajouté en tant que deuxième objet du joint, le premier objet est un corps statique masqué, ce qui permet d'utiliser ce type de joint dans les engrenages (expliqué dans la section joint d'engrenage).
 
 Voici la liste des paramètres spécifiques aux joints **Revolute** :
 
@@ -226,7 +226,7 @@ Voici la liste des paramètres spécifiques aux joints **Revolute** :
 
 !!! tip
 
-     Vous pouvez utiliser des joints **Revolute** avec des limites d’angle pour simuler des articulations charnières 
+     Vous pouvez utiliser des joints **Revolute** avec des limites d’angle pour simuler des articulations charnières
 
 * **Motor** : Si activé, ce joint ajoutera du couple au second objet pour le faire tourner sans avoir besoin d'une force externe ... comme un moteur. Si vous l'activez, pensez à définir une vitesse de moteur et un couple moteur maximal !
 * **Motor speed** (Vitesse du moteur) : La vitesse du moteur cible, en degrés par seconde. Il s’agit de la vitesse que le deuxième objet essaiera d’atteindre en tournant autour du premier objet. La vitesse du moteur peut être positive pour faire tourner l'objet dans le sens des aiguilles d'une montre ou négative pour le faire tourner dans le sens contraire des aiguilles d'une montre.
@@ -240,7 +240,7 @@ Vous pouvez de plus accéder aux valeurs suivantes pendant la simulation :
 
 !!! note
 
-     Les joints tournants peuvent également être utilisés pour : des leviers de flipper, des portes de type store, des machines tournantes automatiques en tant ponts levis ou tournants. 
+     Les joints tournants peuvent également être utilisés pour : des leviers de flipper, des portes de type store, des machines tournantes automatiques en tant ponts levis ou tournants.
 
 
 
@@ -258,7 +258,7 @@ Paramètres  spécifiques aux joints prismatiques
 
 !!! warning
 
-     La plage des limites de translation doit inclure le zéro. Une tranlation minimale de 5 et maximale de 10 (plage [5, 10]) sera convertie en plage [0, 10] pour inclure le zéro. 
+     La plage des limites de translation doit inclure le zéro. Une tranlation minimale de 5 et maximale de 10 (plage [5, 10]) sera convertie en plage [0, 10] pour inclure le zéro.
 
 * **Motor** : Si activé, le joint appliquera une force au second objet pour que le moteur atteigne une vitesse donnée. Si vous l'activez, pensez à définir une vitesse et une force maximales pour le moteur !
 * **Motor speed** (Vitesse du moteur) : La vitesse finale que le moteur essaiera d'atteindre. Si positif, le second objet se déplace dans la direction de l'axe et dans la direction opposée si elle est négative.
@@ -275,18 +275,18 @@ Vous pouvez en plus accéder aux paramètres ci-dessous pendant la simulation.
 
 Un joint simple avec un nom simple. Ce joint rend la somme des distances de chaque objet à leur position par rapport au sol (point d'ancrage) constante. Il est beaucoup plus facile à comprendre en utilisant d'autres mots : il simule une poulie).
 
-Imaginez que vous ayez une boîte suspendue à 3 mètres sous un point fixe A et un cercle suspendu à 2 mètres sous un point fixe B, les deux objets étant fixés aux extrémités de la même corde passant par une poulie. La corde a une longueur constante. Ainsi,  si vous déplacez la boîte vers le haut de 2 mètres, donc maintenant suspendue à seulement 1 mètre sous A, le cercle doit descendre de la même distance, donc maintenant être à 4 mètres sous B. Il en résulte que la distance entre la boîte et le point A plus la distance entre le cercle et le point B est toujours de 5 mètres:   
-  
+Imaginez que vous ayez une boîte suspendue à 3 mètres sous un point fixe A et un cercle suspendu à 2 mètres sous un point fixe B, les deux objets étant fixés aux extrémités de la même corde passant par une poulie. La corde a une longueur constante. Ainsi,  si vous déplacez la boîte vers le haut de 2 mètres, donc maintenant suspendue à seulement 1 mètre sous A, le cercle doit descendre de la même distance, donc maintenant être à 4 mètres sous B. Il en résulte que la distance entre la boîte et le point A plus la distance entre le cercle et le point B est toujours de 5 mètres:
+
 `distance (boîte, A) + distance (cercle, B) = constante`
 
 
-**Ratio** :  
+**Ratio** :
 Facile, non ? Maintenant la partie un peu folle : ce joint supporte un paramètre supplémentaire : **ratio** (rapport). **Ratio** rend la corde plus extensible d'un côté que de l'autre. Par exemple, 1 mètre de corde du côté de la boîte peut être équivalent à 2 mètres de corde du côté cercle (rapport = 1/2 = 0,5).
 
-Revenons à notre exemple initial : la boîte à 3 mètres sous A, le cercle à 2 mètres sous B, mais avec un rapport de 0,5. Si vous déplacez la boîte de 2 mètres vers le haut, le cercle se déplace de 4 mètres vers le bas. La longueur de la corde n’est clairement plus constante, mais :   
-  
-`distance (boîte, A) + rapport * distance (cercle, B) = constante`  
-  
+Revenons à notre exemple initial : la boîte à 3 mètres sous A, le cercle à 2 mètres sous B, mais avec un rapport de 0,5. Si vous déplacez la boîte de 2 mètres vers le haut, le cercle se déplace de 4 mètres vers le bas. La longueur de la corde n’est clairement plus constante, mais :
+
+`distance (boîte, A) + rapport * distance (cercle, B) = constante`
+
 (Notez que la première équation est un cas particulier de celle-ci, avec **ratio** = 1).
 
 Veuillez également noter qu'il n'y a véritablement pas de "corde" du tout, le joint fonctionne uniquement avec la distance entre les objets et les points d'ancrage !
@@ -301,15 +301,15 @@ Voici les paramètres courants :
 
 ###Gear Joint (joint engrenage)
 
-Ce joint est très spécial car, au lieu de joindre deux corps directement, les engrenages joignent deux autres joints. Ces joints enfants doivent être de type **revolute** ou **prismatic**.   
+Ce joint est très spécial car, au lieu de joindre deux corps directement, les engrenages joignent deux autres joints. Ces joints enfants doivent être de type **revolute** ou **prismatic**.
 Lorsque deux joints sont reliés par un joint **Gear**, le mouvement de l'un des joints provoque le déplacement de l'autre joint. Par exemple, le déplacement d'un objet le long de l'axe d'un joint **prismatic** entraîne la rotation du joint **revolute** qui lui est liée, et inversement.
 
-Mais ce joint est aussi très délicat à manier ! Pour faire fonctionner un engrenage, le premier corps du joint de chaque enfant doit être _statique_ et le second _dynamique_.   
+Mais ce joint est aussi très délicat à manier ! Pour faire fonctionner un engrenage, le premier corps du joint de chaque enfant doit être _statique_ et le second _dynamique_.
 Vous pouvez assembler deux joints **revolute**, deux joints **prismatic** ou un joint **revolute** et un joint **prismatic**, mais le premier corps de chaque joint doit toujours être **_statique_** !
 
 !!! note
 
-     Le premier corps des joints enfants de l'engrenage doit être statique. C'est pourquoi la version à objet unique du joint **revolute** précise que le premier corps est un objet statique masqué 
+     Le premier corps des joints enfants de l'engrenage doit être statique. C'est pourquoi la version à objet unique du joint **revolute** précise que le premier corps est un objet statique masqué
 
 Les paramètres du joint **Gear** :
 
@@ -319,7 +319,7 @@ Les paramètres du joint **Gear** :
 
 !!! warning
 
-     La condition nécessaire à l'existence d'un engrenage est l'existence des deux joints enfants. Si l'un des deux joints est supprimé, l'engrenage est automatiquement supprimé. 
+     La condition nécessaire à l'existence d'un engrenage est l'existence des deux joints enfants. Si l'un des deux joints est supprimé, l'engrenage est automatiquement supprimé.
 
 
 ###Mouse Joint (joint souris)
@@ -335,7 +335,7 @@ Paramètres pour le joint souris :
 .
 !!! warning
 
-     La position initiale de la cible (au moment de la création du joint) est également utilisée comme point d'ancrage de l'objet. Veillez donc à la définir ! 
+     La position initiale de la cible (au moment de la création du joint) est également utilisée comme point d'ancrage de l'objet. Veillez donc à la définir !
 
 * **Maximum force** (Force maximale) : La force maximale que le joint peut appliquer à l’objet pour atteindre la position de  la cible. Plus la force est grande, plus l’objet se déplace rapidement. Ce paramètre doit être positif.
 * **Frequency** (Fréquence) : Fonctionne comme la fréquence du joint distance. Il déterminant la vitesse à laquelle l'objet oscille autour de la cible.
@@ -343,13 +343,13 @@ Paramètres pour le joint souris :
 
 !!! note
 
-     **Mouse Joint** n'est pas limité à son utilisation avec la souris, il accepte n'importe quel point du monde comme cible. 
+     **Mouse Joint** n'est pas limité à son utilisation avec la souris, il accepte n'importe quel point du monde comme cible.
 
 
 ###Wheel Joint
 
-**Wheel Joint** (joint de roue) est  un joint très spécifique. Vous aurez besoin de ce joint lorsque vous voulez utiliser une ou des roues, et il est difficile de penser à un cas différent de celui d'une roue de véhicule pour laquelle le meilleur joint est **Wheel Joint**.   
-  
+**Wheel Joint** (joint de roue) est  un joint très spécifique. Vous aurez besoin de ce joint lorsque vous voulez utiliser une ou des roues, et il est difficile de penser à un cas différent de celui d'une roue de véhicule pour laquelle le meilleur joint est **Wheel Joint**.
+
 Conçu pour simuler les roues de véhicules, ce joint ne fait que cela, mais le fait très bien !
 
 Vous pouvez vous représenter le joint **Wheel** comme une combinaison du joint **Revolute** et du joint **Prismatic** :
@@ -359,7 +359,7 @@ Vous pouvez vous représenter le joint **Wheel** comme une combinaison du joint 
 
 !!! warning
 
-     Le corps qui fera office de roue doit être le deuxième objet de l'articulation. 
+     Le corps qui fera office de roue doit être le deuxième objet de l'articulation.
 
 Voici les paramètres du joint **Wheel**
 
@@ -383,7 +383,7 @@ Ce joint (soudure en français) est super basique, il essaye juste de coller deu
 
 !!! warning
 
-     Vous pouvez l'utiliser pour fabriquer des objets cassables, mais n'abusez pas ! Si presque tous les objets sont attachés par des joints souples et que de nombreux objets sont collés ou ont densités très différentes, des résultats physiquement inexacts peuvent se produire 
+     Vous pouvez l'utiliser pour fabriquer des objets cassables, mais n'abusez pas ! Si presque tous les objets sont attachés par des joints souples et que de nombreux objets sont collés ou ont densités très différentes, des résultats physiquement inexacts peuvent se produire
 
 Paramètres spécifiques du joint **Weld** :
 
@@ -391,7 +391,7 @@ Paramètres spécifiques du joint **Weld** :
 
 !!! note
 
-     Pour coller les objets dans l'angle qu'ils ont au moment de la création du joint, utilisez l'angle relatif entre les objets comme angle de référence : \\ `SecondObject.Angle () - FirstObject.Angle ()` 
+     Pour coller les objets dans l'angle qu'ils ont au moment de la création du joint, utilisez l'angle relatif entre les objets comme angle de référence : \\ `SecondObject.Angle () - FirstObject.Angle ()`
 
  * **Frequency** : Fonctionne comme la fréquence du joint **Distance**. Il déterminant la vitesse à laquelle les objets vont osciller pour atteindre la position de repos.
 * **Damping ratio** (Rapport d'amortissement) : Fonctionne comme le rapport d'amortissement du joint **Distance**, en ralentissant les objets au cours du temps.
@@ -414,7 +414,7 @@ Le joint de friction simule le frottement selon un axe Z, il ralentit la vitesse
 
 !!! tip
 
-     Si l'un des objets est statique, vous pouvez utiliser le joint de friction pour simuler correctement la friction dans un jeu "top-down", comme une table de billard ou des jeux de course "top-down". 
+     Si l'un des objets est statique, vous pouvez utiliser le joint de friction pour simuler correctement la friction dans un jeu "top-down", comme une table de billard ou des jeux de course "top-down".
 
 Paramètres du joint **Friction**
 
@@ -438,7 +438,7 @@ Revenons à l'exemple du sac de frappe : si vous le poussez avec un gros objet p
 
 !!! note
 
-     Notez que ce joint n'utilise pas de points d'ancrage, la position de décalage doit être définie à l'aide des décalages linéaires et angulaires uniquement. L'accès aux points d'ancrage de ce joint renvoie les positions des objets. 
+     Notez que ce joint n'utilise pas de points d'ancrage, la position de décalage doit être définie à l'aide des décalages linéaires et angulaires uniquement. L'accès aux points d'ancrage de ce joint renvoie les positions des objets.
 
 Les paramètres spécifiques du joint **Motor** :
 

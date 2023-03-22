@@ -1,7 +1,7 @@
 ---
 title: contribute-to-the-assets-store
 ---
-FIXME **This page is not fully translated, yet. Please help completing the translation.**  
+FIXME **This page is not fully translated, yet. Please help completing the translation.**
 *(remove this paragraph once the translation is finished)*
 
 # Contributing to the assets store
@@ -14,7 +14,7 @@ L'idée principal est que les assets (ressources) soient groupé dans les dossie
 
 !!! note
 
-    Notez que les tilesheets **ne sont pas supporté**! Chaque images d'une animation doit être un fichier unique (en utilisaant les régles de nommage ci-dessous il sera possible de créer une animation. Il est également recommandé que toutes les images d'une animation aient les même dimensions. (avec des marges transparente au besoin), car il n'est pas possible de spécifié de point d'origine d'une image. 
+    Notez que les tilesheets **ne sont pas supporté**! Chaque images d'une animation doit être un fichier unique (en utilisaant les régles de nommage ci-dessous il sera possible de créer une animation. Il est également recommandé que toutes les images d'une animation aient les même dimensions. (avec des marges transparente au besoin), car il n'est pas possible de spécifié de point d'origine d'une image.
 
 ## For images (to make sprite, tiled sprite or panel sprite objects):
 

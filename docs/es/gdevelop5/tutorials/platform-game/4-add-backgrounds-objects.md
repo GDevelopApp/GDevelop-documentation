@@ -5,7 +5,7 @@ title: Añadir un objeto de fondo (Add a background objects)
 
 !!! note
 
-     Este tutorial es parte del tutorial [](/gdevelop5/ tutorials/ platform-game/ start), ¡pero también puedes usarlo para cualquier otro juego! 
+     Este tutorial es parte del tutorial [](/gdevelop5/ tutorials/ platform-game/ start), ¡pero también puedes usarlo para cualquier otro juego!
 
 En este momento el nivel es bastante simple sin las cosas elegantes. Vamos a añadir algunos objetos estáticos en el fondo.
 

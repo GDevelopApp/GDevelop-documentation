@@ -9,7 +9,7 @@ This category helps the user to do angle conversions and number to/from text con
 
 Angles can either be expressed in degrees or in radians. A circle describes an angle of 360 degrees or 2π radians. Similarly, a semicircle describes an angle of 180 degrees or π radians.
 
-If you use trigonometric functions like the **sine** or the **cosine**,  you will need to express the angles in **radians**. 
+If you use trigonometric functions like the **sine** or the **cosine**,  you will need to express the angles in **radians**.
 Use `ToRad` or `ToDeg` in numerical expressions to convert degrees to radians or radians to degrees.
 
 !!! tip

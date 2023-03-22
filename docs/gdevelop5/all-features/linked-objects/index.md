@@ -3,17 +3,17 @@ title: Linked Objects
 ---
 # Linked Objects
 
-Actions and conditions of "Linked Objects" category allow us to make virtual connections between objects. We can later reference them by their links to each other. Typically, you can only link two objects when creating them. 
+Actions and conditions of "Linked Objects" category allow us to make virtual connections between objects. We can later reference them by their links to each other. Typically, you can only link two objects when creating them.
 
 !!! tip
 
     You can also use a “For each object” event to take each instance of an object individually, and create links to other objects. Learn more about the "For each object" event by visiting [this page about For each event](/gdevelop5/events/foreach).
 
 !!! tip
-    
-        
+
+
     Some of the conditions of Linked Objects are available as both, conditions as well as actions. Conditions will be considered as false if no object is picked. If you don't want this behavior, use their action counterparts.
-    
+
 
 #### Link two objects
 
@@ -37,13 +37,13 @@ This action removes the links between the given pair of objects.
 
 ### Examples
 
-In this example, for every existing "Pathfinder" object, a new "Terrain" object is created.  This creation and linking step only needs to be performed one time.  The bottom event is run every frame and will cause the "Terrain" objects to always follow the "Pathfinder" object they are linked to. 
+In this example, for every existing "Pathfinder" object, a new "Terrain" object is created.  This creation and linking step only needs to be performed one time.  The bottom event is run every frame and will cause the "Terrain" objects to always follow the "Pathfinder" object they are linked to.
 
 ![](/gdevelop5/all-features/linkobjectsandfollowposition.png)
 
 !!! tip
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
     Open these examples online.
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://magnet){ .md-button .md-button--primary }
@@ -51,7 +51,6 @@ In this example, for every existing "Pathfinder" object, a new "Terrain" object 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://pin-object-to-another-multiple-parents){ .md-button .md-button--primary }
 
 !!! tip
-    
-        
+
+
     To see more advance usages, take a look at the [Linked Objects Tools extension page](/gdevelop5/all-features/extensions/linked-objects-tools)
-    

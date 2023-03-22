@@ -23,7 +23,7 @@ You are reading **Part 8** of the [Space Shooter Tutorial](/gdevelop5/tutorials/
 
 !!! tip
 
-     In this chapter, we will learn how to add two different powerups to the game. 
+     In this chapter, we will learn how to add two different powerups to the game.
 
 ## Adding powerups
 
@@ -51,11 +51,11 @@ We are ready to open the **"Events"** page. We will add a new condition to check
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-player-collision-with-powerup-health.png)
 
-Now, we are going you use a new scene variable for the shield object. Create a new scene variable called **"PowerupShield"** to prevent getting any damage while using this powerup. Enter **0** as a default value. 
+Now, we are going you use a new scene variable for the shield object. Create a new scene variable called **"PowerupShield"** to prevent getting any damage while using this powerup. Enter **0** as a default value.
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-powerup-shield-variable-min.gif)
 
-Go to the **"IsDamaged"** condition and add a new condition to check if the **PowerupShield** variable is **equal to 0**. 
+Go to the **"IsDamaged"** condition and add a new condition to check if the **PowerupShield** variable is **equal to 0**.
 
 !!! tip
 

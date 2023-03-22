@@ -5,7 +5,7 @@ title: Agrega enemigos a tu juego de plataformas
 
 !!! note
 
-     Este tutorial es parte del tutorial [](/gdevelop5/ tutorials/ platform-game/ start), ¡pero también puedes reutilizarlo para cualquier otro juego donde tengas enemigos! 
+     Este tutorial es parte del tutorial [](/gdevelop5/ tutorials/ platform-game/ start), ¡pero también puedes reutilizarlo para cualquier otro juego donde tengas enemigos!
 
 Añadamos un enemigo que se moverá hacia la izquierda y hacia la derecha en las plataformas. El jugador puede destruirlo saltando sobre él.
 

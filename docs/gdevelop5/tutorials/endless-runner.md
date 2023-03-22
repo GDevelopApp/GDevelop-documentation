@@ -4,8 +4,8 @@ title: A Beginner's Tutorial to an Endless Runner Game
 # A Beginner's Tutorial to an Endless Runner Game
 
 >  ![](/gdevelop5/tutorials/endlessrunnergame_intro.png) This tutorial will help you get familiar with the way GDevelop works. In this tutorial, we are going to create a very basic endless runner game where the **platforms are generated randomly** and the player has to move to prevent being pushed outside the screen. There is also a **score system** which updates the score when the player is in action.
-> 
-To know the basics of how the software works, you can refer [](/gdevelop5/getting_started) for more information. 
+>
+To know the basics of how the software works, you can refer [](/gdevelop5/getting_started) for more information.
 
 ![](/gdevelop5/tutorials/gdevelopstartscreen.png)
 
@@ -29,10 +29,10 @@ It is advised to always check the above page for the latest versions of GDevelop
 
 This block of text updates and displays the score while the Player Sprite is in action.
 
-> 
-> 
+>
+>
 > #### Download the Resources
-> 
+>
 You will be needing game assets that you can use to make the characters, platforms, and backgrounds for the game. Find all the resources you need for this game right ![here](/gdevelop5/tutorials/endless_runner_resources.rar).
 
 ## Step 1: Creating a New Project

@@ -48,4 +48,4 @@ Cuando haya terminado, verá un botón de descarga para cada plataforma que se s
 
 !!! note
 
-     Al iniciar el juego en Windows y macOS, puede recibir un aviso sobre la seguridad. Elige ejecutar el juego de todos modos. En macOS, es posible que deba abrir la pestaña * Seguridad y privacidad * en * Preferencias del sistema *. 
+     Al iniciar el juego en Windows y macOS, puede recibir un aviso sobre la seguridad. Elige ejecutar el juego de todos modos. En macOS, es posible que deba abrir la pestaña * Seguridad y privacidad * en * Preferencias del sistema *.

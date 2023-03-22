@@ -13,7 +13,7 @@ Ce sera également une bonne occasion d'utiliser des ***des extensions***, qui o
 
 !!! note
 
-    Saviez-vous que les extensions sont également faites d'événements ? Vous pouvez inspecter la façon dont elles sont construites et fonctionnent en cliquant sur l'une d'entre-elles dans le gestionnaire de projets et en inspectant ses comportements, qui sont composés d'événements pour créer les conditions et les actions du comportement. 
+    Saviez-vous que les extensions sont également faites d'événements ? Vous pouvez inspecter la façon dont elles sont construites et fonctionnent en cliquant sur l'une d'entre-elles dans le gestionnaire de projets et en inspectant ses comportements, qui sont composés d'événements pour créer les conditions et les actions du comportement.
 
 Cliquez sur l'icône **Project manager** (Gestionnaire de projet) qui se trouve dans le coin supérieur gauche de l'éditeur.
 
@@ -33,7 +33,7 @@ Cette extension contient un **behavior** (comportement) appelé **Health** (Sant
 
 !!! note
 
-    Les comportements (behaviors) permettent d'ajouter de nouvelles fonctionnalités et de la logique aux objets. Elles sont utiles pour créer des objets en assemblant quelques comportements que l'on peut ensuite manipuler avec des événements. 
+    Les comportements (behaviors) permettent d'ajouter de nouvelles fonctionnalités et de la logique aux objets. Elles sont utiles pour créer des objets en assemblant quelques comportements que l'on peut ensuite manipuler avec des événements.
 
 Pendant que nous y sommes, ajoutons une autre extension utile : **Flash**. Lorsque le monstre est touché par une bombe et perd une vie, nous le faisons cligner des yeux pendant une courte période pour donner au joueur des informations supplémentaires sur ce qui s'est passé.
 

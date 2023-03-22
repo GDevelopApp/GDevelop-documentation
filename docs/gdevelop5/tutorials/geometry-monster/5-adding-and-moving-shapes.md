@@ -85,7 +85,7 @@ In the "Other conditions" tab, find "Timers and time", and click it.
 
 !!! note
 
-    Don't have the "Other conditions" tab? Don't panic! Go to GDevelop preferences (Click on the "File" (or "GDevelop 5" on macOS) menu, then "Preferences". Activate "Use the new action/condition editor". You can then go back to the tutorial. ![](/gdevelop5/tutorials/geometry-monster/activate_new_editor.png) 
+    Don't have the "Other conditions" tab? Don't panic! Go to GDevelop preferences (Click on the "File" (or "GDevelop 5" on macOS) menu, then "Preferences". Activate "Use the new action/condition editor". You can then go back to the tutorial. ![](/gdevelop5/tutorials/geometry-monster/activate_new_editor.png)
 
 ![20220129-141256.png](/gdevelop5/tutorials/geometry-monster/5-adding-and-moving-shapes/pasted/20220129-141256.png)
 

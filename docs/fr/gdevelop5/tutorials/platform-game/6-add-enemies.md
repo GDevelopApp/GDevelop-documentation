@@ -8,10 +8,10 @@ Terminons ce tutoriel en ajoutant un ennemi qui se déplacera à gauche et à dr
 ##Créer et ajouter un objet ennemi à notre scène
 
 Créons d'abord un nouvel objet **Sprite** et ajoutons-y les images `slimeWalk1.png` et `slimeWalk2.png` dans une seule animation. Appelons cette animation `Walk`.
- 
+
 Puisque cet ennemi est constamment en mouvement, nous n'avons pas besoin d'une animation « immobile » ou d'une quelconque autre animation.
 
-Activez l'animation en boucle en cliquant le bouton **Don't Loop** (en haut à droite) et réglez la vitesse d'animation (à droite du symbole d'un chronomètre) à `0.5`. 
+Activez l'animation en boucle en cliquant le bouton **Don't Loop** (en haut à droite) et réglez la vitesse d'animation (à droite du symbole d'un chronomètre) à `0.5`.
 
 La fenêtre devrait ressembler à :
 
@@ -21,7 +21,7 @@ Confirmez ensuite les modifications en cliquant le bouton **Apply** dans le coin
 
 Renommez finalement l'objet en `Slime` et ajoutez-le à la scène. Assurez-vous qu'il repose bien sur le dessus de la plateforme et qu'il se trouve sur le calque `Base`.
 
-Si vous lancez maintenant un aperçu, il ne se passe pas grand chose. L'ennemi se pose gentiment sur la plateforme et joue l'animation `Walk`. Faisons-le bouger.  
+Si vous lancez maintenant un aperçu, il ne se passe pas grand chose. L'ennemi se pose gentiment sur la plateforme et joue l'animation `Walk`. Faisons-le bouger.
 
 
 ##Déplacer l'ennemi à gauche et à droite
@@ -63,7 +63,7 @@ Ouvrez l'onglet des événements **NEWSCENE (EVENTS)** et créez un nouvel évé
 
 Ajoutez-y une condition en cliquant **Add condition** pour tester le contenu texte d'une variable d'objet. Vous la trouverez dans **Common condition for all objects > Variables > Text of an object's variable** dans la liste de gauche.
 
-Dans le panneau de droite, cliquez sur **Object** et sélectionnez `Slime` dans la liste des objets. Dans le champ **Variable**, sélectionnez `direction` ou, s'il n'y figure pas pour une raison ou l'autre, écrivez-le. Pour le champ **Sign of the test**, choisissez **= (equal to)** ou tapez simplement le signe `=` et finalement, pour le champ **Text to test**, tapez `"left"`. N'oubliez pas de mettre cette valeur **entre guillemets** ! 
+Dans le panneau de droite, cliquez sur **Object** et sélectionnez `Slime` dans la liste des objets. Dans le champ **Variable**, sélectionnez `direction` ou, s'il n'y figure pas pour une raison ou l'autre, écrivez-le. Pour le champ **Sign of the test**, choisissez **= (equal to)** ou tapez simplement le signe `=` et finalement, pour le champ **Text to test**, tapez `"left"`. N'oubliez pas de mettre cette valeur **entre guillemets** !
 
 La fenêtre devrait ressembler à :
 
@@ -87,7 +87,7 @@ Pressez **OK** pour confirmer et ajouter l'action.
 
 Si nous lançons maintenant un test, la bave devrait commencer par se déplacer vers la gauche, mais vous constaterez probablement qu'elle continue à se déplacer sans jamais changer de direction. Il est temps de remédier à cet situation.
 
-À cet effet, nous devons tester s'il y a collision entre l'objet `Slime` et l'objet appelé `right` et, si c'est le cas, changer la valeur de la variable `direction` en `"right"`. 
+À cet effet, nous devons tester s'il y a collision entre l'objet `Slime` et l'objet appelé `right` et, si c'est le cas, changer la valeur de la variable `direction` en `"right"`.
 
 La suite des opérations est, à quelques détails près, la même que pour le déplacement vers la gauche.
 
@@ -98,7 +98,7 @@ Sélectionnez **Common conditions for all objects > Variables > Text of a variab
 La fenêtre devrait ressembler à :
 
 ![](/gdevelop5/tutorials/platform-game/gd5_platformertutorial_checkobjectvariable.png)
-  
+
 Il reste encore à dire à GDevelop ce qu'il faut faire quand la variable `direction` vaut `right`.
 
 Cliquez **Add action** dans la condition qui vient d'être créée. Sélectionnez **Common action for all objects > Movement > Add a force (angle)** dans la liste de gauche. Sélectionnez `Slime` dans le champ **Object**, mettez **Angle** à `0` et **Speed (in pixels per second)** à `100`, puis cliquez **OK** pour confirmer.
@@ -122,16 +122,16 @@ Sélectionnez **Common action for all objects > Variables > Modify the text of a
 Il reste à dire à GDevelop ce qu'il doit faire en cas de collision à droite (donc avec la borne `Left`).
 
 Répétez ce que vous venez de faire pour la borne `Right` en utilisant l'objet `Left` et la valeur `"left"`.
-   
+
 Si vous avez bien suivi, les événement devraient ressembler à :
- 
+
 ![](/gdevelop5/tutorials/platform-game/gd5_platformertutorial_moveslimeevent1.png)
 
-Si vous testez maintenant le jeu, la bave devrait changer de direction chaque fois qu'elle touche une limite, mais elle continue de regarder vers la gauche quelle que soit la direction de son déplacement. Il s'agit dont de retourner l'image de la bave chaque fois que c'est nécessaire.   
+Si vous testez maintenant le jeu, la bave devrait changer de direction chaque fois qu'elle touche une limite, mais elle continue de regarder vers la gauche quelle que soit la direction de son déplacement. Il s'agit dont de retourner l'image de la bave chaque fois que c'est nécessaire.
 
 Il suffit d'ajouter une action de retournement horizontal du sprite de la bave dans les événements spécifiant la direction de cette bave.
 
-Cliquez **Add action** dans l'événement qui déplace la bave vers la gauche (`The text of variable direction of Slime is = "left"`. 
+Cliquez **Add action** dans l'événement qui déplace la bave vers la gauche (`The text of variable direction of Slime is = "left"`.
 
 Sélectionnez **Sprite > Effects > Flip the object horizontally** dans la liste de gauche. Sélectionnez `Slime` dans le champ **Object** du panneau de droite. Cliquez `NO` dans le champ **Activate flipping** puisque dans ce cas, l'image regarde dans la bonne direction.
 
@@ -163,7 +163,7 @@ Si nous testons le jeu, la bave n'est détruite que lorsqu'elle entre en collisi
 
 Mais ce n'est pas encore parfait car il n'a pas de poids, il tombe tout simplement sur la bave et la bave disparaît. Faisons en sorte que le joueur puisse sauter encore lorsqu'il tombe sur la bave.
 
-Pour ce faire, ajoutez une action supplémentaire (**Add action**) pour que le joueur puisse sauter à nouveau puis de le faire sauter en simulant une pression sur la touche de saut. 
+Pour ce faire, ajoutez une action supplémentaire (**Add action**) pour que le joueur puisse sauter à nouveau puis de le faire sauter en simulant une pression sur la touche de saut.
 
 Pour lui permettre de refaire un saut, sélectionnez **Platform behavior > Options > Allow again jumping** dans la liste de droite et `Player` dans le champ **Object**. Cliquez **OK** pour confirmer.
 
@@ -179,13 +179,13 @@ Si nous démarrons maintenant le jeu et sautons sur la bave, le joueur devrait s
 
 Il est temps de faire que l'ennemi puisse tuer le joueur.
 
-Dans l'onglet **NEWSCENE (EVENTS)**, ajoutez un événement vide (bouton **Add a new empty event**) et, dans cet événement, une condition pour vérifier la collision entre le joueur et la bave puis ajoutez une action pour supprimer le joueur. 
+Dans l'onglet **NEWSCENE (EVENTS)**, ajoutez un événement vide (bouton **Add a new empty event**) et, dans cet événement, une condition pour vérifier la collision entre le joueur et la bave puis ajoutez une action pour supprimer le joueur.
 
 Évidemment, cela ne fonctionnera pas car nous pourrions juste supprimer le joueur avant de pouvoir supprimer la bave  ou supprimer la bave avant de pouvoir supprimer le joueur. Pour l'éviter, ajoutez une action de plus à notre événement pour vérifier que le joueur n'est pas seulement en collision avec la bave mais que le joueur est également sur le sol.
 
 Si nous lançons maintenant le jeu, nous devrions être en mesure de tuer la bave en lui sautant dessus et la bave devrait pouvoir tuer le joueur si le joueur est au sol au moment de la collision.
 
-La dernière chose que nous avons à faire est de cacher les objets  flèches gauche et droite. 
+La dernière chose que nous avons à faire est de cacher les objets  flèches gauche et droite.
 
 À cet effet, ajoutons un événement vide et la condition `At the beginning of the scene` qui sera déclenchée une seule fois au démarrage de la scène et ajoutera l'action pour `Hide the object left` (cacher l'objet à gauche) et  `Hide the object right` (cacher l'objet à droite).
 
@@ -200,8 +200,7 @@ Si nous lançons maintenant un aperçu, les objets à gauche et à droite portan
 
 Pour l'instant, la «mort» du joueur est un peu brutale : on le supprime. Faisons-le réapparaître au dernier point de contrôle qu'il a traversé. Les points de contrôle sont essentiels dans un jeu de plateforme si vous ne voulez pas forcer le joueur à recommencer depuis le début lorsqu'il meurt.
 
-➡️ LIsez  **[7 checkpoints](/fr/gdevelop5/tutorials/platform-game/7-checkpoints) !** 
+➡️ LIsez  **[7 checkpoints](/fr/gdevelop5/tutorials/platform-game/7-checkpoints) !**
 
 
-  
-  
+

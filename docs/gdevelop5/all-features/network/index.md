@@ -9,7 +9,7 @@ GDevelop provides network features that enable games to communicate with remote 
 
 Everything on the internet uses HTTP requests. When you visit a webpage, your browser sends a request to the web page address, and the website server sends a response with the content of the webpage.
 
-Games and applications work similarly to send or get data to a server: 
+Games and applications work similarly to send or get data to a server:
 
   * they send a request to a specific address (also called an endpoint). Optionally, the request can include parameters.
   * the server sends back a response. The set of all requests that are handled by a server is sometimes called an API.
@@ -28,7 +28,7 @@ When the server sends the response, it is saved in a variable so that you can re
 You can send data from a variable, for example:
 `"score=" + VariableString(Score) + "&playerName=" + VariableString(Name)`
 
-* For POST requests, it depends on what is expected by the server, but most of the time the server expects JSON formatted text. 
+* For POST requests, it depends on what is expected by the server, but most of the time the server expects JSON formatted text.
 
 You can either construct it yourself:
 `"{\"score\": " + VariableString(Score) + " }"` (note the use of backslash before the quote `\"`, to allow the quote to be used inside a text) or use the expression to convert a variable structure to JSON: `ToJSON(VariableWithData)` (see more about this below).
@@ -42,7 +42,7 @@ For example, an object containing the score and the name of a player would be: `
 
 Variables in GDevelop can contain number, strings or be a "structure" containing children which are also variables, containing number, strings or children.
 
-> Children can be manipulated using the usual actions related to variables, by entering their name after a dot after the name of the parent variable (for example, if the variable containing the children is called Progress: `Progress.Level`, `Progress.Score`...). 
+> Children can be manipulated using the usual actions related to variables, by entering their name after a dot after the name of the parent variable (for example, if the variable containing the children is called Progress: `Progress.Level`, `Progress.Score`...).
 
 !!! note
 

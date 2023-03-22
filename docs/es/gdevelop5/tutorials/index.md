@@ -7,7 +7,7 @@ Estos tutoriales son guías que explican paso por paso cómo crear un juego desd
 
 !!! tip
 
-     Si está utilizando GDevelop por primera vez, se recomienda comenzar con estos tutoriales 
+     Si está utilizando GDevelop por primera vez, se recomienda comenzar con estos tutoriales
 
 * **[Conceptos básicos de creación de juegos: lo que necesita saber para comenzar con GDevelop](/gdevelop5/tutorials/basic-game-making-concepts)**
 * **[Geometry Monster: un juego móvil completo y sencillo](/gdevelop5/tutorials/geometry-monster)**

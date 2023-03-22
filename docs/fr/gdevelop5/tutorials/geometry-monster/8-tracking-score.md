@@ -41,7 +41,7 @@ Ces instructions mettent à jour le texte **Score** avec la valeur actuelle de l
 
 !!! note
 
-    Comme mentionné précédemment, cela est quelque peu incomplet car si le monstre entre en collision avec deux objets en même temps, les actions d'événement ne seront exécutées qu'une seule fois, donc un seul point sera ajouté au score. Nous devons dire à GDevelop d'exécuter les actions pour chaque forme entrée en collision à un moment donné. Faisons-le donc ! 
+    Comme mentionné précédemment, cela est quelque peu incomplet car si le monstre entre en collision avec deux objets en même temps, les actions d'événement ne seront exécutées qu'une seule fois, donc un seul point sera ajouté au score. Nous devons dire à GDevelop d'exécuter les actions pour chaque forme entrée en collision à un moment donné. Faisons-le donc !
 
 Activez l'onglet **Level1 (Events)**. Cliquez ensuite sur le bouton **Choose and add an event** (Choisir et ajouter un événement) dans la barre des outils, puis sur **For each object** (Pour chaque objet) dans le menu contextuel.
 

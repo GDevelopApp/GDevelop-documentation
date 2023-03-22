@@ -7,21 +7,21 @@ Realtime Database let you store data as a big online structure variable.
 
 !!! note
 
-    If you aren't sure whether you should use Firestore or Realtime Database, read [the official comparison](https://firebase.google.com/docs/firestore/rtdb-vs-firestore). 
+    If you aren't sure whether you should use Firestore or Realtime Database, read [the official comparison](https://firebase.google.com/docs/firestore/rtdb-vs-firestore).
 
 ## Comparison with structure variables
 
-The data is all stored in a JSON tree, which is comparable with a [structure variable](/gdevelop5/all-features/variables#structure). 
+The data is all stored in a JSON tree, which is comparable with a [structure variable](/gdevelop5/all-features/variables#structure).
 There are a few key differences though:
 
 #### Access of children
-Unlike GDevelop variables, where you get the child via `<structureVariable>.<childVariableName>`, on Realtime Database you get it with a slash: 
-`<structureVariable>/<childVariableName>`. That means that for dynamic access, you would write the path name as 
-`"structure/" + VariableString(dynamicVariableAccess) + "/specificProperty"`, unlike GDevelop structures where you write it this way: 
+Unlike GDevelop variables, where you get the child via `<structureVariable>.<childVariableName>`, on Realtime Database you get it with a slash:
+`<structureVariable>/<childVariableName>`. That means that for dynamic access, you would write the path name as
+`"structure/" + VariableString(dynamicVariableAccess) + "/specificProperty"`, unlike GDevelop structures where you write it this way:
 `Variable(structure[VariableString(dynamicVariableAccess)].specificProperty)`
 
 #### Nesting of children
-While in GDevelop there is no fixed limit of how deep the nesting of children can go, Realtime Database doesn't let you have 
+While in GDevelop there is no fixed limit of how deep the nesting of children can go, Realtime Database doesn't let you have
 a higher deepness than 32.
 
 ## Data structuring
@@ -34,14 +34,14 @@ You should structure data in a way that allows the least nesting as possible, as
 
 Apart from trying to stay away from nesting, you should be able to design the structure of your database however you want.
 
-For more infos on data modeling in Realtime Database, read 
+For more infos on data modeling in Realtime Database, read
 [the data structuring guide](https://firebase.google.com/docs/database/web/structure-data).
 
 ## Regulating access
 
-You may not want to allow everyone to write everything. 
-Else, everyone could modify the data of the others! To choose who can access what and how, Firebase has the rules system. 
-It interoperates with [Firebase authentication](/gdevelop5/all-features/firebase/authentication), so that you can write this rule to only let 
+You may not want to allow everyone to write everything.
+Else, everyone could modify the data of the others! To choose who can access what and how, Firebase has the rules system.
+It interoperates with [Firebase authentication](/gdevelop5/all-features/firebase/authentication), so that you can write this rule to only let
 authenticated players write the authonly variable of the database:
 ```json
 {
@@ -54,7 +54,7 @@ authenticated players write the authonly variable of the database:
 }
 ```
 
-You could also have a variable with all users, and have for each child (named after the user uid) have their permissions as a map. 
+You could also have a variable with all users, and have for each child (named after the user uid) have their permissions as a map.
 Here for example, you could allow every user with the "verified" permission to access their own variable named by their user id in the `userdata` variable, every authenticated user to read the `globaldata` variable and every admin to write all variables:
 ```json
 {
@@ -79,7 +79,7 @@ Here for example, you could allow every user with the "verified" permission to a
 }
 ```
 
-To learn in details how to write rules, read 
-[the syntax guide](https://firebase.google.com/docs/database/security/core-syntax), 
-[the conditions writing guide](https://firebase.google.com/docs/database/security/rules-conditions) and 
+To learn in details how to write rules, read
+[the syntax guide](https://firebase.google.com/docs/database/security/core-syntax),
+[the conditions writing guide](https://firebase.google.com/docs/database/security/rules-conditions) and
 [the reference document](https://firebase.google.com/docs/reference/security/database).

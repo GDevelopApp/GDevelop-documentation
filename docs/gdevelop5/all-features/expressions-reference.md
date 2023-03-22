@@ -89,7 +89,7 @@ Common features that can be used for all objects in GDevelop. [Read more explana
 
 
 
-## Sprite 
+## Sprite
 
 Animated object which can be used for most elements of a game [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/sprite)
 
@@ -217,7 +217,7 @@ Allows your game to respond to keyboard input. Note that this does not work with
 
 ## Scene
 
-Actions and conditions to manipulate the scenes during the game. 
+Actions and conditions to manipulate the scenes during the game.
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -245,7 +245,7 @@ Actions and conditions to run timers, get the current time or modify the time sc
 
 ## Mathematical tools
 
-A set of mathematical functions that can be used in expressions. 
+A set of mathematical functions that can be used in expressions.
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -468,7 +468,7 @@ Provides actions and conditions to manipulate the game window. Depending on the 
 
 ## Text manipulation
 
-Provides expressions to manipulate strings (also called texts). 
+Provides expressions to manipulate strings (also called texts).
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -511,7 +511,7 @@ Provides expressions to manipulate strings (also called texts).
 
 ## Event functions
 
-Advanced control features for functions made with events. 
+Advanced control features for functions made with events.
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -680,7 +680,7 @@ An image with edges and corners that are stretched separately from the full imag
 
 
 
-## Anchor 
+## Anchor
 
 Anchor objects to the window's bounds. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/behaviors/anchor)
 
@@ -691,7 +691,7 @@ _No expressions for this behavior._
 
 
 
-## Shape painter 
+## Shape painter
 
 Allows you to draw simple shapes on the screen using the events. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/shape_painter)
 
@@ -812,7 +812,7 @@ Make objects move as if they are subject to the laws of physics. If you're creat
 
 ## Advanced window management
 
-Provides advanced features related to the game window positioning and interaction with the operating system. 
+Provides advanced features related to the game window positioning and interaction with the operating system.
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -841,7 +841,7 @@ Displays a rich text label using BBCode markup (allowing to set parts of the tex
 
 
 
-## Bitmap Text 
+## Bitmap Text
 
 Displays a text using a "Bitmap Font" (an image representing characters). This is more performant than a traditional Text object and it allows for complete control on the characters aesthetic. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/bitmap_text)
 
@@ -991,14 +991,14 @@ Allow your game to send scores to your leaderboards. [Read more explanations abo
 
 ## Light (from extension Lights)
 
-Displays a light on the scene, with a customizable radius and color. Add then the Light Obstacle behavior to the objects that must act as obstacle to the lights. 
+Displays a light on the scene, with a customizable radius and color. Add then the Light Obstacle behavior to the objects that must act as obstacle to the lights.
 
 _No expressions for this object._
 
 
 ## Light Obstacle Behavior (from extension Lights)
 
-Flag objects as being obstacles to light. The light emitted by light objects will be stopped by the object. 
+Flag objects as being obstacles to light. The light emitted by light objects will be stopped by the object.
 
 _No expressions for this behavior._
 
@@ -1025,7 +1025,7 @@ Allow game instances to communicate remotely using messages sent via WebRTC (P2P
 
 
 
-## Physics Engine 2.0 
+## Physics Engine 2.0
 
 Simulate realistic object physics with gravity, forces, joints, etc. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/behaviors/physics2)
 
@@ -1189,7 +1189,7 @@ Allow your game to authenticate players. [Read more explanations about it.](http
 
 ## Text input (from extension Text Input)
 
-A text field the player can type text into. 
+A text field the player can type text into.
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -1216,7 +1216,7 @@ Invisible object handling collisions with parts of a tilemap. [Read more explana
 | `Object.ScaleX()` | Return the width's scale of an object. ||
 | `Object.ScaleY()` | Return the height's scale of an object. ||
 
-## Tilemap 
+## Tilemap
 
 Displays a tiled-based map, made with the Tiled editor (https://www.mapeditor.org/) or the LDtk editor (https://ldtk.io/). [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/tilemap)
 
@@ -1257,7 +1257,7 @@ Smoothly animate position, angle, scale and other properties of objects. [Read m
 
 
 
-## Video 
+## Video
 
 Displays a video. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/video)
 

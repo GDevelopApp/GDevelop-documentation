@@ -3,7 +3,7 @@ title: Firebase
 ---
 # Firebase
 
->  Pour installer firebase dans un projet, vois [](/fr/gdevelop5/all-features/firebase/quickstart). 
+>  Pour installer firebase dans un projet, vois [](/fr/gdevelop5/all-features/firebase/quickstart).
 
     L'extension Firebase permet d'intégrer Firebase, une suite d'outils gratuits pour développeurs par Google, dans un jeu GDevelop. \<note important\>Meme si la plupart des services sont entièrement gratuits, certains peuvent nécessiter de payer si ils sont trop utilisés.
 

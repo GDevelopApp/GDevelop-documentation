@@ -11,7 +11,7 @@ Let's add an enemy that will be moving left and right on platforms. The player c
 
 ## Create and add the enemy object to your scene
 
-Create a new "Sprite" object. Add the images `slimeWalk1.png` and `slimeWalk2.png` to the first animation and call this animation `Walk`. 
+Create a new "Sprite" object. Add the images `slimeWalk1.png` and `slimeWalk2.png` to the first animation and call this animation `Walk`.
 Since our enemy is going to be constantly moving, we don't need an Idle or any other animation.
 
 Set the animation to loop by clicking on the "Don't loop" button, to flip it to "Loop", and set its animation speed to `0.5` using the clock icon.
@@ -27,7 +27,7 @@ If we run the preview now, it doesn't do much. It just sits quietly on the top o
 
 ## Move the enemy left and right
 
-In this tutorial, our slime is going to move left and right. We are going to do this by using invisible objects: when the 
+In this tutorial, our slime is going to move left and right. We are going to do this by using invisible objects: when the
 slime will touch one of the object, it will reverse its direction.
 
 Let's add two objects that will act as delimiters. Create a new sprite object and add the image `Left.png`. Name this object `left`. Then, create one more object and add the image `Right.png`. Name this object `right`.
@@ -48,20 +48,20 @@ An empty window is displayed. It contains the list of object variables we have d
 This adds a variable called 'Variable' in the window. Click on the name and change it to 'direction'. Click on the value field and enter 'left'. The window should look like this:
 ![](/gdevelop5/tutorials/platform-game/gd5_platformertutorial_objectvariable2.png)
 
-Confirm the changes by clicking on the Apply button. 
+Confirm the changes by clicking on the Apply button.
 We now have an object variable called 'direction' with the default value 'left'.
 
 Let's now use this variable to make our slime move.
 
 In the events editor, add a blank event and add a condition to check the `Text of an object's variable`. You can find it in `Common conditions for all objects > Variables > Text of an object's variable`.
 
-In the parameters, for the object field select `Slime`. For the Variable field select `direction` (or write `direction` using the keyboard). For Sign of the test select `equal to` and finally, for the value, enter `"left"`. **Don't forget to put the value in between quotes**. 
+In the parameters, for the object field select `Slime`. For the Variable field select `direction` (or write `direction` using the keyboard). For Sign of the test select `equal to` and finally, for the value, enter `"left"`. **Don't forget to put the value in between quotes**.
 
 The window should look like this:
 ![](/gdevelop5/tutorials/platform-game/gd5_platformertutorial_objectvariable3.png)
 
-Press OK to confirm and add the condition to the event. 
-Now let's add the action to move the slime to the left. 
+Press OK to confirm and add the condition to the event.
+Now let's add the action to move the slime to the left.
 
 Click on "Add action" and select "Add a force (angle)" from `Common conditions for all objects -> Movement -> Add a force (angle)`. Remember, you can always use the search box to find what you looking for.
 
@@ -71,20 +71,20 @@ The window should look like this:
 
 ![](/gdevelop5/tutorials/platform-game/slime-move-left.png)
 
-Press OK to add the condition to the event. 
+Press OK to add the condition to the event.
 
 If we run the preview now, our slime should start to move to the left but you probably notice that it keep moving, and never change direction.
- 
-This time we are going to check the collision between the Slime object and the object called 'right' and we are going to change the value of the direction variable to 'right'. 
 
-Add a blank event and add a condition to check collision between the Slime and the object called 'right'. You should already know how to do this. Next, add an action to 'Modify the text of a variable of an object'. 
+This time we are going to check the collision between the Slime object and the object called 'right' and we are going to change the value of the direction variable to 'right'.
+
+Add a blank event and add a condition to check collision between the Slime and the object called 'right'. You should already know how to do this. Next, add an action to 'Modify the text of a variable of an object'.
 
 In the parameters, for the object select Slime, for the variable select "direction", for the operator choose '= (set to)'. Finally, for value enter "right". Don't forget the double quotes.
 
 The window should look like this:
 ![](/gdevelop5/tutorials/platform-game/gd5_platformertutorial_checkobjectvariable.png)
 
-If we run the preview now, you may notice that nothing is happening because we didn't tell GDevelop what to do if the direction is 'right'. 
+If we run the preview now, you may notice that nothing is happening because we didn't tell GDevelop what to do if the direction is 'right'.
 
 Let's finish by adding the same two similar events, but reversing "left" by "right" and changing the direction. When you are done, the events should look like this:
 ![](/gdevelop5/tutorials/platform-game/gd5_platformertutorial_moveslimeevent1.png)
@@ -97,18 +97,18 @@ Repeat the same but this time for the event used to move the slime to the right.
 The event should look like this:
 ![](/gdevelop5/tutorials/platform-game/gd5_platformertutorial_moveslimeevent2.png)
 
-Now the slime moves left and right and also have the proper orientation when moving. 
+Now the slime moves left and right and also have the proper orientation when moving.
 
 ## Make the player kill the enemy
 
-Let's make the player destroys the slime when it jumps on top of it. 
+Let's make the player destroys the slime when it jumps on top of it.
 
 Add a blank event with a condition to check if there is a collision between the player and the slime. Add an action to delete the slime. This is like what [we did with the coins](/gdevelop5/tutorials/platform-game/5-add-coins-and-number-of-collected-coins) before, but this time with the Slime.
 
-If we run this now, the slime should be deleted as soon as we collide with it but this is not yet what we want. 
-We want to delete it only if the player jumps on the top of it. 
+If we run this now, the slime should be deleted as soon as we collide with it but this is not yet what we want.
+We want to delete it only if the player jumps on the top of it.
 
-To do that, add one more condition to our event: this time check if the player is falling. 
+To do that, add one more condition to our event: this time check if the player is falling.
 
 Now, if we run a preview, our slime should be deleted when the player jumps on the Slime.
 
@@ -125,9 +125,9 @@ Now if you run the preview and jump on the top of the slime, the player should g
 
 Let's now make the reverse logic: have the player killed if the enemy touches it.
 
-Add a blank event and add the condition to check collision between the player and the slime. Then add an action to delete the player. 
+Add a blank event and add the condition to check collision between the player and the slime. Then add an action to delete the player.
 
-This is not going to work as it, because we might delete the player before we can delete the slime, or we could delete the slime before we can delete the player. 
+This is not going to work as it, because we might delete the player before we can delete the slime, or we could delete the slime before we can delete the player.
 
 To avoid this, add one more condition to our event, checking if the player is on the floor.
 
@@ -135,19 +135,18 @@ Now if we run the preview, we should be able to kill the slime by jumping on the
 
 ## Hiding the platform delimiters
 
-The last thing we need to do now is to hide those "left" and "right" arrow objects. 
+The last thing we need to do now is to hide those "left" and "right" arrow objects.
 To do that, add an event with the condition 'At the beginning of the scene' (which is going to be triggered only one time when the scene starts) and the action to 'hide the object left' and 'hide the object right'.
 
 The events of this tutorial so far should look like this:
 ![](/gdevelop5/tutorials/platform-game/gd5_platformertutorial_enemycompletevent.png)
 
 Now if you run a preview, the left and right object with the arrow should be hidden, the slime should move left and right constantly. We are able to kill the slime by jumping on the top of it and the slime should be able to kill the player when it collides with it while the player is on the floor.
- 
+
 
 ## Next step: add checkpoints
 
 For now, the "death" of the player is a bit brutal: we just delete it. Let's make him reappear instead to the last checkpoint he crossed. Checkpoints are essential in a platformer game if you don't want to force your player to start again from the beginning when he dies (which can be interesting, but also frustrating!).
 
-➡️ Read **[7 checkpoints](/gdevelop5/tutorials/platform-game/7-checkpoints)**! 
+➡️ Read **[7 checkpoints](/gdevelop5/tutorials/platform-game/7-checkpoints)**!
 
-  

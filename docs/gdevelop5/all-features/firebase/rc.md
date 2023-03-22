@@ -7,10 +7,10 @@ title: Firebase Remote Configuration
 
     Before using any Firebase feature, remember to [set it up correctly with the Quick Start guide](/gdevelop5/all-features/firebase/quickstart).
 
-Firebase RC (short for Remote Configuration) let you make [variables](/gdevelop5/all-features/variables) that can be changed from the firebase dashboard without having to update the game. 
+Firebase RC (short for Remote Configuration) let you make [variables](/gdevelop5/all-features/variables) that can be changed from the firebase dashboard without having to update the game.
 You can also modify them for a specific group of people.
 For example, you could change the price of something in a shop for active users remotely while doing a promotion.
-You can also use this to enable and disable experimental features remotely in case they are too unstable and need to disable them, 
+You can also use this to enable and disable experimental features remotely in case they are too unstable and need to disable them,
 without having to publish a full emergency update.
 !!! note
 
@@ -27,18 +27,18 @@ This is a basic clicker. You can get and spend money. Now, we can begin to add R
 
 ## Adding defaults
 
-First of all, we should set some defaults. 
-Those defaults should contain the default value of each of the configurable variables. 
+First of all, we should set some defaults.
+Those defaults should contain the default value of each of the configurable variables.
 They are used when there is no network to update the variables value, or while they are not yet finished loading.
 
 !!! warning
-    
-        
-    While you don't have to go through this step, 
-    it is very recommended to do go through it as not doing so could break the game 
-    for users with an unstable or nonexistent internet connection, or when the game is 
+
+
+    While you don't have to go through this step,
+    it is very recommended to do go through it as not doing so could break the game
+    for users with an unstable or nonexistent internet connection, or when the game is
     launched the first time and no configuration has been fetched yet.
-    
+
 
 We can do that by creating a structure containing the defaults:
 ![](/gdevelop5/all-features/firebase/rc3.png)
@@ -55,32 +55,32 @@ Now you can set some variables. Set the ones you have assigned a default to:
 ![](/gdevelop5/all-features/firebase/fb2.png)
 
 !!! danger
-    
-        
+
+
     Don't forget to save the changes!
-    
+
     ![](/gdevelop5/all-features/firebase/fb3.png)
-    
-    
+
+
 
 ## Adding Synchronisation
 
-This extension let you manage the synchronisation of the remote configuration however you want. 
-The best way is to use the "force sync" action on an event that will happen regularly. 
+This extension let you manage the synchronisation of the remote configuration however you want.
+The best way is to use the "force sync" action on an event that will happen regularly.
 For that you can use a timer or do it at the beginning of a scene that is often switched to.
 
 !!! danger
-    
-        
-    While you probably want to synchronize the configuration often, do not synchronize it too quickly too often! 
+
+
+    While you probably want to synchronize the configuration often, do not synchronize it too quickly too often!
     Else, Firebase will time you out to prevent to be DDoS by all the requests done.
-    
+
 
 !!! note
-    
-        
+
+
     You could also use the "set auto update interval" action, but it is not much reliable according to some tests.
-    
+
 
 We can for example use the button presses here as they will happen often but not too much:
 ![](/gdevelop5/all-features/firebase/rc8.png)
@@ -92,11 +92,11 @@ Now we just have to replace the previously static values with the values from th
 
 ### Adapt the rest of the game to modularity
 
-Don't forget that some things that may have been static are now dynamic and some actions have to be added to support that modularity. 
+Don't forget that some things that may have been static are now dynamic and some actions have to be added to support that modularity.
 In our example, there was a static text showing how much money you lose by buying "potions". Now you can update that text to show the correct value:
 ![](/gdevelop5/all-features/firebase/rc10.png)
 
 ## Use the Firebase console to modify the values
 
-You should now be done setting it up. 
+You should now be done setting it up.
 You only need to change values in the Firebase console to see it update in real time (or more precisely whenever the game syncs the Remote Configuration) in your game.

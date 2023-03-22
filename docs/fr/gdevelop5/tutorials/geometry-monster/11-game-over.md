@@ -107,7 +107,7 @@ GDevelop vous présente la fonction **Monster.Health::Health()** qui retourne la
 
 !!! note
 
-    Confus par la notation `Monster.Health::Health()` ? Le premier **Health** est le nom du comportement, tandis que le second **Health** correspond à la fonction à appeler sur le comportement. 
+    Confus par la notation `Monster.Health::Health()` ? Le premier **Health** est le nom du comportement, tandis que le second **Health** correspond à la fonction à appeler sur le comportement.
 
 La valeur finale de **Animation name** sera `"Life" + ToString (Monster.Health::Health())`.
 
@@ -115,7 +115,7 @@ La valeur finale de **Animation name** sera `"Life" + ToString (Monster.Health::
 
 !!! note
 
-    La fonction **ToString()** est importante, car elle convertit la valeur de la santé (un nombre) en un texte. Sinon, GDevelop essaiera d'ajouter un texte à un nombre, ce qui n'a pas de sens. 
+    La fonction **ToString()** est importante, car elle convertit la valeur de la santé (un nombre) en un texte. Sinon, GDevelop essaiera d'ajouter un texte à un nombre, ce qui n'a pas de sens.
 
 De retour à **Monster**, recherchez l'action **Flash (blink)** (Flash (clignotement)), puis réglez la durée du clignotement sur `1,5` secondes, et cliquez **OK**.
 

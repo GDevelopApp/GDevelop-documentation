@@ -15,6 +15,6 @@ Les jeux GDevelop sont basés sur des objets affichés sur la scène. Ces objets
 * [Les objets Shape Painter](/fr/gdevelop5/objects/shape_painter)
 * [Les objets vidéo](/fr/gdevelop5/objects/video) (encore en développement)
 
-Il existe également des fonctionnalités qui agissent sans objets, par exemple AdMob, qui permet d'afficher des publicités sur votre appareil Android ou iOS. Vous pouvez en savoir plus sur AdMob [ici](/gdevelop5/all-features/admob). 
+Il existe également des fonctionnalités qui agissent sans objets, par exemple AdMob, qui permet d'afficher des publicités sur votre appareil Android ou iOS. Vous pouvez en savoir plus sur AdMob [ici](/gdevelop5/all-features/admob).
 
-➡️ Suite **[Caractéristiques communes à tous les objets](/fr/gdevelop5/objects/base_object)** ! 
+➡️ Suite **[Caractéristiques communes à tous les objets](/fr/gdevelop5/objects/base_object)** !

@@ -24,7 +24,7 @@ For security reasons, web browsers don't let websites write any data to the file
 
 - Its maximum capacity is limited to a few megabytes, depending on the type of web browser the player uses.
 
-- The player has no direct access to web storage. 
+- The player has no direct access to web storage.
 
 ### File system
 
@@ -41,7 +41,7 @@ For security reasons, web browsers don't let websites write any data to the file
 
 ## Asynchronous execution
 By default, actions get executed synchronously in GDevelop. This means that the game loop waits for each action to finish its execution before it runs the following event.
-Actions that take longer than a few milliseconds to execute will freeze the whole execution of the game until they finish. 
+Actions that take longer than a few milliseconds to execute will freeze the whole execution of the game until they finish.
 
 To avoid these freezes, GDevelop supports asynchronous execution of specific actions. If you choose the "async" version of the action, the operation will be delegated to a background task that runs in parallel to the game loop. After executing an asynchronous action, GDevelop will immediately execute the next event in the event sheet without waiting for the action to finish.
 
@@ -62,13 +62,13 @@ It is up to the game developer to decide which variant of the action is suitable
 ---
 
 ## Conditions
-####  File or directory exists 
+####  File or directory exists
 This condition checks if the given file or directory exists on the file system.
 == Parameters ==
 ** Path to file or directory: ** The absolute path to the file or directory which shall be checked.
 
 ## Actions
-####  Create a directory 
+####  Create a directory
 This action creates a new folder at the given file path.
 == Parameters ==
 ** Directory: ** The absolute file path to the directory which should be created.
@@ -78,7 +78,7 @@ It is advised to use the expressions for special folders (see below), to keep yo
 
 ---
 
-####  Save a text into a file 
+####  Save a text into a file
 This action saves the given text (string) into a file on the file system __synchronously__.
 == Parameters ==
 ** String (text): ** The text that will be saved to the file.
@@ -90,7 +90,7 @@ It is advised to use the expressions for special folders (see below) to keep you
 
 ---
 
-####  Save a text into a file (async) 
+####  Save a text into a file (async)
 This action saves the given text (string) into a file on the file system __asynchronously__.
 == Parameters ==
 ** String (text): ** The text that will be saved to the file.
@@ -102,10 +102,10 @@ It is advised to use the expressions for special folders (see below) to keep you
 
 ---
 
-####  Save a scene variable into a JSON file 
+####  Save a scene variable into a JSON file
 This action saves the given scene variable into a file on the file system in JSON format __synchronously__.
 == Parameters ==
-** Scene variable: ** The scene variable to save into the file. This can be a number-, text variable or a structure with children. 
+** Scene variable: ** The scene variable to save into the file. This can be a number-, text variable or a structure with children.
 
 ** Save path: ** The path on the file system where the file should be saved.
 It is advised to use the expressions for special folders (see below) to keep your game platform independent.
@@ -114,10 +114,10 @@ It is advised to use the expressions for special folders (see below) to keep you
 
 ---
 
-####  Save a scene variable into a JSON file (async) 
+####  Save a scene variable into a JSON file (async)
 This action saves the given scene variable into a file on the file system in JSON format __asynchronously__.
 == Parameters ==
-** Scene variable: ** The scene variable to save into the file. This can be a number-, text variable or a structure with children. 
+** Scene variable: ** The scene variable to save into the file. This can be a number-, text variable or a structure with children.
 
 ** Save path: ** The path on the file system where the file should be saved.
 It is advised to use the expressions for special folders (see below) to keep your game platform independent.
@@ -126,7 +126,7 @@ It is advised to use the expressions for special folders (see below) to keep you
 
 ---
 
-####  Load a text from a JSON file 
+####  Load a text from a JSON file
 This action loads the JSON formatted text from a file and converts it into a scene variable structure. __synchronously__.
 == Parameters ==
 ** Scene variable: ** The name of the scene variable to which the loaded structure will be added.
@@ -138,7 +138,7 @@ It is advised to use the expressions for special folders (see below) to keep you
 
 ---
 
-####  Load a text from a JSON file (async) 
+####  Load a text from a JSON file (async)
 This action loads the JSON formatted text from a file and converts it into a scene variable structure. __asynchronously__.
 == Parameters ==
 ** Scene variable: ** The name of the scene variable to which the loaded structure will be added.
@@ -150,7 +150,7 @@ It is advised to use the expressions for special folders (see below) to keep you
 
 ---
 
-####  Load a text from a file 
+####  Load a text from a file
 This action loads the text from a file into the given scene variable. __synchronously__.
 == Parameters ==
 ** Scene variable: ** The scene variable to store the text.
@@ -162,7 +162,7 @@ It is advised to use the expressions for special folders (see below) to keep you
 
 ---
 
-####  Load a text from a file (async) 
+####  Load a text from a file (async)
 This action loads the text from a file into the given scene variable. __asynchronously__.
 == Parameters ==
 ** Scene variable: ** The scene variable to store the text.
@@ -174,7 +174,7 @@ It is advised to use the expressions for special folders (see below) to keep you
 
 ---
 
-####  Delete a file 
+####  Delete a file
 This action deletes the file at the given file path __synchronously__.
 == Parameters ==
 ** File path: ** The path on the file system where the file is located.
@@ -184,7 +184,7 @@ It is advised to use the expressions for special folders (see below) to keep you
 
 ---
 
-####  Delete a file 
+####  Delete a file
 This action deletes the file at the given file path __asynchronously__.
 == Parameters ==
 ** File path: ** The path on the file system where the file is located.
@@ -193,27 +193,27 @@ It is advised to use the expressions for special folders (see below) to keep you
 ** (Optional) Result variable: ** Variable to store the result. It can either hold the value 'ok': the task was successful or 'error': an error occurred. The variable will be updated, at the moment the file operation has finished.
 
 ## Expressions
-These expressions return the path to special folders on the users' operating system. If you use these expressions for loading and saving files it will be guaranteed to work on all supported operating systems. (Currently Windows, Linux, and macOS) 
+These expressions return the path to special folders on the users' operating system. If you use these expressions for loading and saving files it will be guaranteed to work on all supported operating systems. (Currently Windows, Linux, and macOS)
 !!! tip
 
     The following gives detailed descriptions of what each of the Filesystem expressions are for. To see the syntax of the expressions refer to the filesystem section of [this article](/gdevelop5/all-features/expressions-reference). It is _strongly recommended_ that you do not manually type any expressions, and instead use the expression builder as [mentioned here](/gdevelop5/all-features/expressions).
-####  Desktop folder 
+####  Desktop folder
 This expression returns the operating system independent path to the _Desktop_ folder of the user that runs your game.
-####  Documents folder 
+####  Documents folder
 This expression returns the operating system independent path to the _Documents_ folder of the user that runs your game.
 This is the standard folder for storing documents.
-####  This games executable folder 
+####  This games executable folder
 This expression returns the operating system independent path to the folder where your game is being executed from.
-####  Pictures folder 
+####  Pictures folder
 This expression returns the operating system independent path to the _Pictures_ folder of the user that runs your game.
 This is the standard folder for storing images.
-####  Temp folder 
+####  Temp folder
 This expression returns the operating system independent path to the _Temp_ folder of the user that runs your game.
 This folder is used for temporary files that your operating system can delete at any time.
-####  Userdata folder 
+####  Userdata folder
 This expression returns the operating system independent path to the _UserData_ folder of the user that runs your game.
 This folder is used for storing application settings.
-####  Path delimiter 
+####  Path delimiter
 This expression returns the operating system independent path delimiter character. ("\" on Windows and "/" on Linux and macOS).
 Use this expression to build cross-platform file paths that can be accessed on all supported operating systems.
 

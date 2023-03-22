@@ -23,7 +23,7 @@ You are reading **Part 13** of the [Space Shooter Tutorial](/gdevelop5/tutorials
 
 !!! tip
 
-     In this chapter, we will learn how to add the main menu and finish the game. 
+     In this chapter, we will learn how to add the main menu and finish the game.
 
 ## Preparing the main menu scene
 

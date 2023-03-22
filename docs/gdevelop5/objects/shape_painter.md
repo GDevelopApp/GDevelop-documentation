@@ -11,18 +11,18 @@ The shape painter has many properties allowing to define how the shapes will be 
 
 ![](/gdevelop5/objects/shape_painter/pasted/20230304-165718.png)
 
-### Change the colour and opacity 
+### Change the colour and opacity
 
 The Shape Painter properties allow to change the outline colour/color of the object, the fill colour/color of the object, the opacity of each colour/color, and the outline size of our object.
 
-### Draw relative to the object position 
+### Draw relative to the object position
 
-By default, the position of the shapes that we draw on the screen is relative to the "Shape painter" object. 
+By default, the position of the shapes that we draw on the screen is relative to the "Shape painter" object.
 ![](/gdevelop5/objects/shape-painter-relative-position-property.png)
 
 In the case of a relative position, when you draw the shapes on the screen using events, the position you specify in actions are using the object position as origin. If your object is at position `150;100` on screen, and you display a rectangle using an action, the position `0;0` will correspond to the position `150;100` on the screen.
 
-When the box is unticked/unchecked, the position 0 on the X and Y axis is going to be at the top left corner of our scene regardless where the object is located. 
+When the box is unticked/unchecked, the position 0 on the X and Y axis is going to be at the top left corner of our scene regardless where the object is located.
 
 ### Draw a shape using events
 
@@ -51,11 +51,11 @@ Using events we can also change any properties of a shape on the fly:
 
 Like most objects, collisions can be detected by the shape painter object.  Shape painter objects are unique in that the collision mask is based on what the shape painter has drawn.  The collision mask of a shape painter is the smallest rectangle that can be drawn around all points that the shape painter has drawn (also called the AABB, axis-aligned bounding-box).
 
-## Examples 
+## Examples
 
 !!! tip
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
     Open these examples online.
 
 [![](/gdevelop5/objects/shapepainterobject.png)](https://editor.gdevelop.io/?project=example://advanced-shape-based-painter)
@@ -66,4 +66,3 @@ Like most objects, collisions can be detected by the shape painter object.  Shap
 
 
 
- 

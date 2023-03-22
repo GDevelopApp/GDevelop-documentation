@@ -37,7 +37,7 @@ Launch a preview to see the effect applied. The effect is applied on the whole l
 
 If a preview is already running, you can see **the changes you've made in real-time** by clicking on **Apply changes to preview**. Read more about [Live Previews here](/gdevelop5/interface/preview).
 
-If you have multiple layers, you can add the same effect to all of your layers. 
+If you have multiple layers, you can add the same effect to all of your layers.
 
 !!! note
 
@@ -49,7 +49,7 @@ If you have multiple layers, you can add the same effect to all of your layers.
 
 ## Changing effect parameters during the game
 
-Using events, you can manipulate a layer effect's parameters during the game. It can be useful for different situations: a day-night cycle, a flashback effect, etc... 
+Using events, you can manipulate a layer effect's parameters during the game. It can be useful for different situations: a day-night cycle, a flashback effect, etc...
 
 First, check out the name of the effect and the name of the parameter to change in the [Layers panel](/gdevelop5/interface/scene-editor/layers-and-cameras). For this, open the Layers panel, then click to edit the effects of the layer. Then from the drop-down menu, toggle the display of parameter names.
 
@@ -79,11 +79,11 @@ You can then add an event with an action called "Effect Parameter":
 
 ####  Color map
 
-Applies a color-map effect on an object or layer. 
+Applies a color-map effect on an object or layer.
 
 ![](/gdevelop5/interface/scene-editor/71485828-745d9080-2813-11ea-915d-4dcfc9f67201.png)
 
-This works by modifying a reference "color image map" containing all possible colors. 
+This works by modifying a reference "color image map" containing all possible colors.
 
   - Download the reference color map image below, or create your own.
   - In an image editor (like Photoshop or GIMP), tweak the color balances of the reference color image map.
@@ -112,8 +112,8 @@ Applies a CRT effect, simulating an old cathode-ray tube television.
 
 ####  Displacement
 
-This effect uses the pixel values from the specified texture (called the displacement map) to perform a displacement of an object or layer. 
- 
+This effect uses the pixel values from the specified texture (called the displacement map) to perform a displacement of an object or layer.
+
 ![](/gdevelop5/interface/scene-editor/layer-effects/pasted/20230313-151623.png)
 
 You can download **this example of a displacement map file** and use it in GDevelop when setting up the effect:

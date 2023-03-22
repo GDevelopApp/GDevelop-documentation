@@ -17,7 +17,7 @@ If you don't have an account, you can create one for free! Start by going to **F
 
 ![](/gdevelop5/interface/account-create-locate.png)
 
-Select/click on **Create my account**. 
+Select/click on **Create my account**.
 
 ![](/gdevelop5/interface/account-create.png)
 
@@ -35,9 +35,9 @@ A few online services are limited. Limited services rely on servers that can be 
 By getting a subscription, you can unlock more than 2 packages a day. In the future, there will be more one-click packaging and useful services. Some of these services are in Beta testing now.  Your subscription also supports the future development of GDevelop. ✨
 
 !!! tip
-    
+
         7 euros is approximately $7.5. 2 euros is approximately $2.20 (use a Currency Calculator to find the most current amount in USA dollars or your local currency.)
-    
+
 
 Once you're logged in, go to your profile as described earlier in the page. Scroll down, and click on the **"Choose a subscription"** button beneath "My online services subscriptions":
 
@@ -57,7 +57,7 @@ The next payment will automatically be adapted to your new subscription!
 
 ## Cancelling your subscription
 
-Cancelling your subscription at any time is easy: open again your profile and click on **Upgrade/Change**. Choose the Free subscription and your current subscription will be stopped, and no new payment will be required. 
+Cancelling your subscription at any time is easy: open again your profile and click on **Upgrade/Change**. Choose the Free subscription and your current subscription will be stopped, and no new payment will be required.
 
 **Step by step walkthrough**:
 
@@ -80,7 +80,7 @@ If you want, you can later subscribe again to another subscription. In any case,
 ## Customize your profile
 
 You can change customize your public profile information directly from the GDevelop interface to tell more about you as a game creator. This will all be displayed on Liluo or on your GDevelop user page that appears if someone clicks on your name on one of your extensions or examples.
- 
+
 ![](/gdevelop5/interface/gdevelop_profile_customize.gif)
 
 ### Changing your profile picture

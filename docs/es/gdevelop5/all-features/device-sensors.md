@@ -87,7 +87,7 @@ En contraste con el sensor de orientación que devuelve valores absolutos, el se
 
 !!! note
 
-     Los valores de rotación del sensor de movimiento (alfa, beta, gamma) actualmente no son compatibles con los dispositivos móviles. Actualmente sería mejor calcular el valor a partir de los datos de orientación 
+     Los valores de rotación del sensor de movimiento (alfa, beta, gamma) actualmente no son compatibles con los dispositivos móviles. Actualmente sería mejor calcular el valor a partir de los datos de orientación
 
 ### Ejes explicados
 

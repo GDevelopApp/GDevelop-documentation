@@ -23,13 +23,13 @@ When you click this button a blank event will appear on the screen below in the 
 
 ![](/gdevelop5/interface/events-editor/pasted/20230313-175502.png)
 
-You can add any number of event blocks to the Event editor. Each event can have various conditions and actions. 
+You can add any number of event blocks to the Event editor. Each event can have various conditions and actions.
 Once you add an event, you can use the conditions and actions to create the game's logic.
 [Read more about conditions and actions](/gdevelop5/events).
 
 ## Add a sub-event
 
-By clicking the "Add a sub-event" button, you can add a sub-event block to the event you have selected. 
+By clicking the "Add a sub-event" button, you can add a sub-event block to the event you have selected.
 
 After clicking the button, a blank sub-event appears below our selected event.
 
@@ -55,7 +55,7 @@ Read [the help about events](/gdevelop5/events) to learn more.
 
 ## Editing events
 
-You can edit events on an event sheet by right-clicking on the event you want to edit. A drop-down menu will appear that shows you some of the options you have. 
+You can edit events on an event sheet by right-clicking on the event you want to edit. A drop-down menu will appear that shows you some of the options you have.
 
 There are some common actions like copying, pasting, cutting, deleting, undoing, redoing, etc.. But, there are also other actions like Toggle disabled, Analyse Objects Used in this Event, Move events into a group, etc..
 
@@ -83,7 +83,7 @@ Allows you to add other event blocks like a comment, group, while, repeat for ea
 
 ###Extract Events to a Function
 
-Extracts the selected event and it's sub-events into a function. 
+Extracts the selected event and it's sub-events into a function.
 
 Read more about how to [extracts events](/gdevelop5/events/functions/extract-events).
 
@@ -105,7 +105,7 @@ You can change the colour of **comments** and **event group** by right-clicking 
 
 !!! tip
 
-    You can only change the background colour of **group events**. You can change both the background and text colour of **comments**. The text colour is automatically set according to the contrast for **group events**. 
+    You can only change the background colour of **group events**. You can change both the background and text colour of **comments**. The text colour is automatically set according to the contrast for **group events**.
 
 ![](/gdevelop5/interface/events-editor/pasted/20230313-183427.png)
 

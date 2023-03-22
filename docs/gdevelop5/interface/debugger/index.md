@@ -5,13 +5,13 @@ title: Game Debugger and Profiler
 
 The *Debugger* is a tool that lets you inspect the contents of your game. Allowing you to inspect the global variables, scene variables, and variables of instances of your objects. You can pause the game at any time, and check to see why something isn't working as intended or to do quick tests in your game.
 
-The *Profiler* is a tool that measures the time spent on different aspects of your game while it is running. It helps to find bottlenecks between your events and the rendering of the game that could be taking up a lot of resources. [Read more about using the profiler here!](/gdevelop5/interface/debugger/profile-your-game) 
+The *Profiler* is a tool that measures the time spent on different aspects of your game while it is running. It helps to find bottlenecks between your events and the rendering of the game that could be taking up a lot of resources. [Read more about using the profiler here!](/gdevelop5/interface/debugger/profile-your-game)
 
 !!! note
-    
-        
+
+
     This is an advanced feature of GDevelop. If you use it, we would like you to show your support for GDevelop by [getting a subscription](/gdevelop5/interface/profile)!
-    
+
 
 ![](/gdevelop5/interface/debugger/pasted/20230304-171835.png)
 
@@ -88,4 +88,4 @@ You can also change the value of the children variables like any other.
 
 ## Profile the performance of your game.
 
-The *Profiler* is a tool that measures the time spent on different aspects of your game while it is running. It then shows a breakdown of each section, including events. [Read more about using the profiler.](/gdevelop5/interface/debugger/profile-your-game) 
+The *Profiler* is a tool that measures the time spent on different aspects of your game while it is running. It then shows a breakdown of each section, including events. [Read more about using the profiler.](/gdevelop5/interface/debugger/profile-your-game)

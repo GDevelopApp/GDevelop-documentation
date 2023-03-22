@@ -22,7 +22,7 @@ Cliquez sur **Create a new project** sur la page d'accueil.  Faites défiler ver
 
 !!! tip
 
-    Vous rencontrerez souvent le terme " ressources" lorsque vous travaillerez avec GDevelop. En langage de développement de jeux vidéo, les _ressources_ sont les fichiers qui constituent le contenu du jeu - des choses comme les personnages, les plateformes, les fichiers audio, etc. 
+    Vous rencontrerez souvent le terme " ressources" lorsque vous travaillerez avec GDevelop. En langage de développement de jeux vidéo, les _ressources_ sont les fichiers qui constituent le contenu du jeu - des choses comme les personnages, les plateformes, les fichiers audio, etc.
 
 Pour un jeu de casse-briques, vous aurez besoin des ressources suivantes :
 
@@ -32,7 +32,7 @@ Pour un jeu de casse-briques, vous aurez besoin des ressources suivantes :
   * Fichiers d'images de différentes briques
 
 Téléchargez-les en cliquant sur le lien ci-dessous et extrayez les fichiers dans votre dossier de projet. (Merci à Eric Matyas de soundimage.org pour l'image de la barrière !)
-http://www.wiki.compilgames.net/lib/exe/fetch.php/gdevelop5/tutorials/breakout-game/breakout-images.zip 
+http://www.wiki.compilgames.net/lib/exe/fetch.php/gdevelop5/tutorials/breakout-game/breakout-images.zip
 
 
 ----
@@ -67,7 +67,7 @@ Une fenêtre apparaîtra, affichant les différents types d'objets que vous pouv
 
 ![](/gdevelop5/tutorials/object_types.jpg)
 
-  - Pour la raquette, vous avez besoin du type d'objet Sprite. Cliquez sur **Sprite**. 
+  - Pour la raquette, vous avez besoin du type d'objet Sprite. Cliquez sur **Sprite**.
 !!! tip
 
     Les _Sprites_ sont des objets animés qui sont utilisés pour de nombreux éléments de jeu courants (joueurs, plateformes, ennemis, briques, etc.).
@@ -76,7 +76,7 @@ Le nouvel objet est ajouté à votre scène et la boîte de dialogue de l'édite
 
 ![](/gdevelop5/tutorials/empty_object_editor.jpg)
 
-Pour l'instant, votre objet sprite n'a pas d'animations, ni d'images associées. 
+Pour l'instant, votre objet sprite n'a pas d'animations, ni d'images associées.
 
   - Cliquez sur **+** pour ajouter une animation.
   - Cliquez sur **+** dans la vignette vierge pour ajouter une image à l'animation.
@@ -87,11 +87,11 @@ Pour l'instant, votre objet sprite n'a pas d'animations, ni d'images associées.
 
   - Dans le champ **Object Name**, tapez **Paddle** pour renommer votre objet.
 
-  - Cliquez sur **Apply** pour enregistrer et fermer l'éditeur. 
+  - Cliquez sur **Apply** pour enregistrer et fermer l'éditeur.
 
 !!! warning
 
-    Les noms d'objets sont sensibles à la casse, tout comme les autres éléments de GDevelop. Soyez cohérent dans votre dénomination pour éviter les erreurs fréquentes comme taper "Paddle" quand vous voulez dire "paddle". Il en va de même pour les noms d'animation comme "Run" ou "run" - peu importe la convention de nommage que vous utilisez tant que vous êtes cohérent. 
+    Les noms d'objets sont sensibles à la casse, tout comme les autres éléments de GDevelop. Soyez cohérent dans votre dénomination pour éviter les erreurs fréquentes comme taper "Paddle" quand vous voulez dire "paddle". Il en va de même pour les noms d'animation comme "Run" ou "run" - peu importe la convention de nommage que vous utilisez tant que vous êtes cohérent.
 
 
 ----
@@ -127,9 +127,9 @@ Pour créer l'objet barrière :
 Vous devrez ajouter trois instances de votre objet barrière à votre scène - une barrière gauche, une barrière droite et une barrière supérieure. La taille par défaut de la fenêtre du jeu est de 800 x 600 pixels, ce qui correspond au contour gris de votre vue de la scène. Créez votre barrière légèrement à l'intérieur de ces limites.
 
 !!! note
-    
+
         Déplacez et redimensionnez les objets avec précision en utilisant le **panneau des propriétés** qui s'ouvre lorsque vous cliquez sur une instance d'objet.
-    
+
 
   - Glissez et déposez la première instance de la barrière sur la scène.
   - Cliquez sur la barrière. Redimensionnez-la à 15 x 585 avec le panneau Propriétés ou en faisant glisser la poignée en bas à droite. Placez-la sur le côté gauche de l'écran à (15, 15).
@@ -157,13 +157,13 @@ Créez un événement pour lequel si le joueur appuie sur la flèche gauche du c
 
   - Dans le champ **Key**, tapez **Left** et cliquez sur **OK**. Cette condition est vraie si le joueur appuie sur la flèche gauche du clavier.
 
-Vous devez maintenant ajouter une action correspondante à la condition. La raquette doit se déplacer vers la gauche sur un axe horizontal si la condition est remplie. 
+Vous devez maintenant ajouter une action correspondante à la condition. La raquette doit se déplacer vers la gauche sur un axe horizontal si la condition est remplie.
 
 !!! tip
-    
-        Pour déplacer des objets avec une force appliquée, vous devez spécifier un angle. L'image ci-dessous illustre comment GDevelop comprend l'angle de rotation. 
-    Sur un axe horizontal, la gauche est de 180°, la droite est de 0°.  
-    ![](/gdevelop5/tutorials/breakout-game/angles.png) 
+
+        Pour déplacer des objets avec une force appliquée, vous devez spécifier un angle. L'image ci-dessous illustre comment GDevelop comprend l'angle de rotation.
+    Sur un axe horizontal, la gauche est de 180°, la droite est de 0°.
+    ![](/gdevelop5/tutorials/breakout-game/angles.png)
 
   - Cliquez sur **Add action**.
 
@@ -183,7 +183,7 @@ Vous devez maintenant ajouter une action correspondante à la condition. La raqu
 
 !!! tip
 
-    C'est le bon moment pour sauvegarder votre travail. Prenez l'habitude de sauvegarder régulièrement. Vous pouvez appuyer sur **Ctrl+S** pour sauvegarder votre jeu, ou utiliser votre souris et aller sur **File>Save**. 
+    C'est le bon moment pour sauvegarder votre travail. Prenez l'habitude de sauvegarder régulièrement. Vous pouvez appuyer sur **Ctrl+S** pour sauvegarder votre jeu, ou utiliser votre souris et aller sur **File>Save**.
 
 ----
 
@@ -240,7 +240,7 @@ Prévisualisez votre jeu pour vous assurer qu'il fonctionne.
 
 !!! tip
 
-     Trouvez-vous que votre raquette passe toujours la barrière de droite ? C'est parce que GDevelop utilise le point le plus haut à gauche d'un objet pour comparer les positions X. Une façon simple de résoudre ce problème est de soustraire la largeur de la raquette de la coordonnée X de votre barrière. Dans notre exemple, la raquette a une largeur de 58 px, donc la nouvelle position X pour arrêter la raquette sur le côté droit devrait être **< 712** (770 - 58). Modifiez-la maintenant. 
+     Trouvez-vous que votre raquette passe toujours la barrière de droite ? C'est parce que GDevelop utilise le point le plus haut à gauche d'un objet pour comparer les positions X. Une façon simple de résoudre ce problème est de soustraire la largeur de la raquette de la coordonnée X de votre barrière. Dans notre exemple, la raquette a une largeur de 58 px, donc la nouvelle position X pour arrêter la raquette sur le côté droit devrait être **< 712** (770 - 58). Modifiez-la maintenant.
 
 
 ----
@@ -297,11 +297,11 @@ Pour faire bouger la balle lorsque le joueur appuie sur la barre d'espace pour d
 
 !!! tip
 
-     Vous n'avez pas besoin de mémoriser toutes les expressions. Vous pouvez ouvrir l' **Éditeur d'expressions** pour vous aider à remplir les champs. ![](/gdevelop5/tutorials/breakout-game/expression_editor_button.jpg) Dans ce cas, vous pourriez taper **-45** dans le champ **Angle** puis cliquer sur **Expression Editor** et rechercher par **Random**. L'expression **Random integer in range** avec une valeur minimale de -5 et une valeur maximale de 5 générera RandomInRange(-5, 5) dans votre champ. Vous pouvez l'utiliser dans votre calcul de vitesse comme vous le souhaitez. 
+     Vous n'avez pas besoin de mémoriser toutes les expressions. Vous pouvez ouvrir l' **Éditeur d'expressions** pour vous aider à remplir les champs. ![](/gdevelop5/tutorials/breakout-game/expression_editor_button.jpg) Dans ce cas, vous pourriez taper **-45** dans le champ **Angle** puis cliquer sur **Expression Editor** et rechercher par **Random**. L'expression **Random integer in range** avec une valeur minimale de -5 et une valeur maximale de 5 générera RandomInRange(-5, 5) dans votre champ. Vous pouvez l'utiliser dans votre calcul de vitesse comme vous le souhaitez.
 
   * Dans le champ **Speed (in pixels per second)**, tapez **300**. Ajustez cela comme vous le souhaitez ; plus le chiffre est élevé, plus l'objet est rapide.
   * Cliquez sur **Permanent**, car vous voulez que la balle continue à se déplacer tout au long du jeu.
-  * Cliquez sur **OK**. 
+  * Cliquez sur **OK**.
 
 ![](/{ /gdevelop5/tutorials/breakout-game/ball-start-movement.jpg)
 
@@ -313,7 +313,7 @@ C'est le bon moment pour ajouter un commentaire, enregistrer et prévisualiser v
 
 ### Faire rebondir la balle sur la barrière et la raquette
 
-Pour une bonne jouabilité, votre balle doit rebondir de manière réaliste chaque fois qu'elle entre en collision avec la barrière, la raquette ou une brique. GDevelop a un comportement de rebond facile que vous pouvez appliquer à n'importe quel objet pour simuler un rebond réel. 
+Pour une bonne jouabilité, votre balle doit rebondir de manière réaliste chaque fois qu'elle entre en collision avec la barrière, la raquette ou une brique. GDevelop a un comportement de rebond facile que vous pouvez appliquer à n'importe quel objet pour simuler un rebond réel.
 
 #### Ajouter un comportement de rebond
 
@@ -364,7 +364,7 @@ Vous devez maintenant faire exactement la même chose pour faire rebondir la bal
 
 !!! tip
 
-     Vous pouvez faire un clic droit et copier une condition ou une action précédente, puis faire un clic droit pour la coller dans un nouvel événement. C'est un moyen facile d'économiser du temps et des efforts, surtout lorsque vous avez affaire à des événements similaires ! 
+     Vous pouvez faire un clic droit et copier une condition ou une action précédente, puis faire un clic droit pour la coller dans un nouvel événement. C'est un moyen facile d'économiser du temps et des efforts, surtout lorsque vous avez affaire à des événements similaires !
 
 
 Enregistrez et prévisualisez votre jeu. Ça commence à devenir amusant...
@@ -401,22 +401,22 @@ Pour créer une mise en page externe :
 
 ![](/gdevelop5/tutorials/breakout-game/external_layout_add.png)
 
-  * Cliquez sur **Layout1**. Il vous sera demandé de choisir la scène dans laquelle il sera inclus. Choisissez **NewScene** - c'est la scène où se déroule tout le jeu. Un nouvel onglet s'ouvrira et ressemblera à votre NewScene existante. 
-  * Ajoutez des briques dans la configuration de votre choix. Amusez-vous bien avec cette partie - soyez créatif ! 
+  * Cliquez sur **Layout1**. Il vous sera demandé de choisir la scène dans laquelle il sera inclus. Choisissez **NewScene** - c'est la scène où se déroule tout le jeu. Un nouvel onglet s'ouvrira et ressemblera à votre NewScene existante.
+  * Ajoutez des briques dans la configuration de votre choix. Amusez-vous bien avec cette partie - soyez créatif !
 
 !!! tip
-    
+
         Pour accélérer les choses, cliquez ou sélectionnez des objets puis maintenez la touche Ctrl enfoncée, cliquez et faites glisser pour reproduire les instances à l'écran. En maintenant Ctrl+Maj enfoncé, les nouvelles instances restent sur le même axe X ou Y.
-    
-    
+
+
     ![](/gdevelop5/tutorials/breakout-game/duplating_objects.gif)
-     
+
 
   * Créez deux ou plusieurs nouvelles mises en page et nommez-les Layout1, Layout2, etc.
 
 !!! warning
 
-    Suivez la convention d'appellation Layout1, Layout2, etc. Elle sera bientôt liée à une variable. 
+    Suivez la convention d'appellation Layout1, Layout2, etc. Elle sera bientôt liée à une variable.
 
 
 ----
@@ -428,7 +428,7 @@ Pour faire apparaître une disposition aléatoire au début de chaque scène, aj
   * Cliquez sur l'onglet **NewScene (Events)** pour retourner dans votre éditeur d'événements.
   * Cliquez sur le bouton **Add a new empty event** (Ajouter un nouvel événement vide).
   * Cliquez sur le bouton **Add condition**.
-  * Cliquez sur **Scene > At the beginning of the scene** (Scène > Au début de la scène). 
+  * Cliquez sur **Scene > At the beginning of the scene** (Scène > Au début de la scène).
 
  ----
 
@@ -447,10 +447,10 @@ Pour commencer, créez une nouvelle variable de scène appelée Random_layout :
 ![](/gdevelop5/tutorials/breakout-game/modify_scene_variable_value.jpg)
 
 !!! tip
-    
-         Essayez d'utiliser l'éditeur d'expression pour créer vos expressions. ![](/gdevelop5/tutorials/breakout-game/expression_editor_button.jpg) 
-    
-    Plus vous jouerez avec les expressions, plus vous comprendrez la logique qui les sous-tend. N'ayez pas peur d'expérimenter ! 
+
+         Essayez d'utiliser l'éditeur d'expression pour créer vos expressions. ![](/gdevelop5/tutorials/breakout-game/expression_editor_button.jpg)
+
+    Plus vous jouerez avec les expressions, plus vous comprendrez la logique qui les sous-tend. N'ayez pas peur d'expérimenter !
 
 ----
 
@@ -461,7 +461,7 @@ Pour ajouter une disposition aléatoire de briques au début de la scène :
   * Ajoutez un autre sous-événement pour le début de la scène, puis cliquez sur **Add action**.
   * Cliquez sur **External layouts > Create objects from an external layout**.
   * Dans le champ **Name of the external layout**, tapez **" Layout " + ToString(Variable(Random_layout))**. Cela ajoutera aléatoirement un des modèles externes à la scène.
-  * Cliquez sur **OK**. 
+  * Cliquez sur **OK**.
 
 ![](/gdevelop5/tutorials/breakout-game/random_layout_selection.jpg)
 
@@ -605,7 +605,7 @@ Maintenant, lorsque le joueur casse toutes les briques, il recevra un message de
 
 Si le joueur rate la balle, la partie est terminée. Tout comme si un joueur gagne, il s'agira de rendre un message visible au moment opportun et de donner au joueur la possibilité de rejouer.
 
-Tout d'abord, ajoutez un objet texte à la scène qui restera caché à moins que le joueur ne rate la balle. 
+Tout d'abord, ajoutez un objet texte à la scène qui restera caché à moins que le joueur ne rate la balle.
 
 Suivez les mêmes étapes que pour créer l'objet Félicitations à l'écran, mais changez le message en "Game Over". Incluez la ligne concernant le fait de recommencer. Appelez cet objet texte **GameOver**.
 

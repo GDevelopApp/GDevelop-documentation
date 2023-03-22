@@ -36,7 +36,7 @@ During the game, you can load a layout into a scene using the **Create objects f
 
 * Enter the name of the layout, inside double quotes. For example: `"My External Layout"`.
 
-* You can specify the X and Y position of the origin of the layout. Setting this value to anything other than `0;0` is treated as an offset for objects of the external layout. 
+* You can specify the X and Y position of the origin of the layout. Setting this value to anything other than `0;0` is treated as an offset for objects of the external layout.
 
 The origin(0,0) of the external layout will align with the coordinates given in this action when loaded into the game. So for example, if an object is at position `100;100` in the external layout and if, when creating the objects in the scene, the action uses `50;50` as the position, then the object will be created at position `150;150`.
 

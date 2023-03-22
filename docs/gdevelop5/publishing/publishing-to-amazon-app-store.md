@@ -22,7 +22,7 @@ Download this APK and keep it somewhere on your computer.
 
 ## Create the app and fill in the app details
 
-After you click on **Android**, a New App Submission page appears for you to enter basic information about your app. 
+After you click on **Android**, a New App Submission page appears for you to enter basic information about your app.
 
 ![](/gdevelop5/6_amazon_app_submission.png)
 

@@ -9,11 +9,11 @@ GDevelop makes it easy to simulate real bouncing in a game. _Bounce behavior_ ca
 
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
-## Examples 
+## Examples
 
 !!! tip
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
     Open these examples online.
 
 **Breakout-like**
@@ -26,7 +26,6 @@ GDevelop makes it easy to simulate real bouncing in a game. _Bounce behavior_ ca
 ## What's the logic behind the behavior?
 
 !!! tip
-    
-        
+
+
     The behavior looks at the object's position and velocity at the time of the collision. It adds a force in the direction of the normal vector between the collided object and the object, and then adds the difference between the normal vector and the previous angle of movement.
-    

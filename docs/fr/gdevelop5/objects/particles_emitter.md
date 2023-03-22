@@ -1,15 +1,15 @@
 ---
 title: particles_emitter
 ---
-FIXME **Cette page n'est pas encore complètement traduite. De plus, la description de l'éditeur de particules n'est pas complète.**  
+FIXME **Cette page n'est pas encore complètement traduite. De plus, la description de l'éditeur de particules n'est pas complète.**
 *(remove this paragraph once the translation is finished)*
 
 # Les émetteurs de particules
 
 !!! note
-    
-        **Voir en action !** 🎮  
-    [J'aimerais voir des exemples d'émetteurs de particules ! SVP, montrez-les moi maintenant.](#Examples) 
+
+        **Voir en action !** 🎮
+    [J'aimerais voir des exemples d'émetteurs de particules ! SVP, montrez-les moi maintenant.](#Examples)
 
 Les émetteurs de particules sont utilisés pour afficher un grand nombre de petites particules. Ils simulent des effets dans un jeu. Les feux, les explosions, la fumée et la poussière sont des exemples d'émetteurs de particules.
 
@@ -56,8 +56,8 @@ Vous pouvez également modifier le nombre maximal de particules rendues par l'ob
 ## Exemples
 
 !!! note
-    
-        **Voir en action !** 🎮  
+
+        **Voir en action !** 🎮
     Ouvrez ces exemples en ligne.
 
 [![](/gdevelop5/objects/particleemitterexplosionsnew.png)](https://editor.gdevelop-app.com/?project=example://particles-explosions)

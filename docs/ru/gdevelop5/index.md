@@ -1,9 +1,9 @@
 ---
 title: start
 ---
-![](/logocompleteeffecttranparent400x100.png) ![learn_create_play-book.png)](/htmlmetatags>metatag-robots=() 
+![](/logocompleteeffecttranparent400x100.png) ![learn_create_play-book.png)](/htmlmetatags>metatag-robots=()
 metatag-title=(Документация GDevelop)
-metatag-keywords=(GDevelop, game, making, app, nocode, open source, создание игр, простой игровой движок) 
+metatag-keywords=(GDevelop, game, making, app, nocode, open source, создание игр, простой игровой движок)
 metatag-description=(Редактор с открытым исходным кодом для создания игр.)
 metatag-og/title=(Документация GDevelop)
 metatag-og/description=(Редактор с открытым исходным кодом для создания игр.)

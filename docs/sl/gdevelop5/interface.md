@@ -34,15 +34,15 @@ Izvedite več o [vsebini upravljalnika projektov](/gdevelop5/interface/project-m
 
 Ko odprete sceno (ali zunanjo postavitev), se odpre scenski urejevalnik.
 Tukaj lahko oblikujete in gradite nivoje svoje igre in meniju z ustvarjanjem in dodajanjem objektov v sceno.
- 
+
 [Naučite se več o uporabi urejavlnikov scene](/gdevelop5/interface/scene-editor).
 
 ## Urejevalnik dogodkov
 
 Ko odprete sceno (ali zunanji dogodek), se pojavi urejevalnik dogodkov. Tukaj lahko uporabljate dogodke ali ustvarite dejansko izvedbo igre in omogočite igralcem interakcijo z vašo igro in njeno igranje.
-Urejevalnik dogodokov je orodje, ki omogoča vizualno programiranje vaše igre, brez specifičnega poznavanja programskega jezika ali izkušenj. 
+Urejevalnik dogodokov je orodje, ki omogoča vizualno programiranje vaše igre, brez specifičnega poznavanja programskega jezika ali izkušenj.
 
-Izvedite več o [rabi urejevalnik dogodkov](/gdevelop5/interface/events-editor) ali preverite [pomoč za dogodke](/gdevelop5/events). 
+Izvedite več o [rabi urejevalnik dogodkov](/gdevelop5/interface/events-editor) ali preverite [pomoč za dogodke](/gdevelop5/events).
 
 ## Zgornji meniji
 

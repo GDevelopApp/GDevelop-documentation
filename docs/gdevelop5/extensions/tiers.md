@@ -7,7 +7,7 @@ There exists multiple tiers of extensions for extensions on the extensions store
 
 ## Community extensions
 
-Community extensions are extensions that have been added without a review. 
+Community extensions are extensions that have been added without a review.
 
 #### What is guaranteed
 

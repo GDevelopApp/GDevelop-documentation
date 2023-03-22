@@ -45,7 +45,7 @@ Open the **properties panel** from the upper right icons. Then, drag and drop th
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-add-background-to-scene-min.gif)
 
-Select **background** object on the scene and open the properties panel. Change size mode to **Custom Size**, replace **the width, and the height with 900 and 500** in order. 
+Select **background** object on the scene and open the properties panel. Change size mode to **Custom Size**, replace **the width, and the height with 900 and 500** in order.
 
 !!! warning
 
@@ -79,14 +79,14 @@ Open the **Events** tab. Create a new event and add a new action. Type **"camera
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-move-camera.png)
 
-Add a new action under the previous one. This time choose **Background** object and select **Image X offset**.  
+Add a new action under the previous one. This time choose **Background** object and select **Image X offset**.
 Change modification sign  **+ (add)** and fill the value with  to **40 * TimeDelta()**.
 
 This means that the background object will not move, but the image displayed on it will be moved, giving an impression of movement.
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-move-background.png)
 
-As the camera on the base layer moves towards the left, we have to add a force to the player so that it moves at the same speed. Add a new action under the previous one. Then choose **Player** and select **Add a force**. Fill **the speed on X-axis** with **150** and leave **Y-axis** as it is. 
+As the camera on the base layer moves towards the left, we have to add a force to the player so that it moves at the same speed. Add a new action under the previous one. Then choose **Player** and select **Add a force**. Fill **the speed on X-axis** with **150** and leave **Y-axis** as it is.
 
 !!! warning
 
@@ -96,7 +96,7 @@ As the camera on the base layer moves towards the left, we have to add a force t
 
 ## Testing out
 
-This is the latest version of the **Events page**. 
+This is the latest version of the **Events page**.
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-controlls-event-chapter-4.png)
 

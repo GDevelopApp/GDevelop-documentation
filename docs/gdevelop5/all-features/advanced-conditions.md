@@ -33,7 +33,7 @@ Whenever the "**Trigger once while true**" condition is used, the actions for th
 
 !!! warning
 
-    This condition applies to objects, not instances. If you need to trigger once for each instance, use an instance variable instead. 
+    This condition applies to objects, not instances. If you need to trigger once for each instance, use an instance variable instead.
 
 ## Compare two numbers
 ![](/gdevelop5/all-features/compare-two-numbers-condition.png)

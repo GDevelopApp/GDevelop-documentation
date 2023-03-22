@@ -7,7 +7,7 @@ title: draft-optimization
 
 !!! note
 
-    Podría fusionarse con <http://wiki.compilgames.net/doku.php/gdevelop5/tutorials/how-to-debug-poor-performance> 
+    Podría fusionarse con <http://wiki.compilgames.net/doku.php/gdevelop5/tutorials/how-to-debug-poor-performance>
 
 La optimización de juegos es un concepto importante del desarrollo de juegos. Una buena optimización permitirá que el juego funcione más rápido, haciéndolo más fluido.
 
@@ -74,7 +74,7 @@ El comportamiento **"Destruir cuando está fuera de la pantalla"** hace exactame
 
 !!! note
 
-    TODO 
+    TODO
 
 - Cuanto más pequeñas sean las dimensiones de las imágenes, menor será el tiempo de renderizado.
 - Es posible que las imágenes de más de 2000 px no funcionen bien, especialmente en dispositivos móviles donde es posible que no se carguen.

@@ -49,15 +49,15 @@ Here is a more advanced Timer example. The timer is used to briefly protect the 
 ![](/gdevelop5/all-features/timer-and-variable.png)
 
 !!! tip
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
     Open this example online: https://editor.gdevelop.io?project=example://asteroids
 
 ## Object timers
 
-In addition to scene timers, you can use timers on the instances of objects. Each instance living on the scene hold its own timers in memory. These timers are working independently. 
+In addition to scene timers, you can use timers on the instances of objects. Each instance living on the scene hold its own timers in memory. These timers are working independently.
 
-This is useful for having each instance (for example, each spaceship, each enemy, each player...) handle their own timings. For example, this can be the time of invulnerability after a player or an enemy is hit. 
+This is useful for having each instance (for example, each spaceship, each enemy, each player...) handle their own timings. For example, this can be the time of invulnerability after a player or an enemy is hit.
 
 
 Object timers are set up in the same way as scene timers. You have to initialize an object instance timer with the action to start (or reset) a timer.
@@ -83,15 +83,15 @@ The condition above checks to see if the time elapsed in the "`color`" timer is 
 Using object variables to check object timers is useful. For example, you can have several instances of enemies fire bullets with different firing rates. Another use of object timers can be seen when used with an enemy that collides with a "fire rate power-up". You can set the variable "`FireRateTime`" to be less than the normal value, meaning that the time between each bullet will decrease.
 
 !!! tip
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
     Open this example online: https://editor.gdevelop.io?project=example://objects-timers
 
 ![](/gdevelop5/all-features/fireratetimerexamplenew.png)
 
 ## Advanced concept: simulating timers with variables
 
-Scene and Object Timers are convenient. However, sometimes you might want to simulate timers with variables. This allows you to have more control over the time: using variables, you can increase or decrease the value by adding or subtracting time from the variable. 
+Scene and Object Timers are convenient. However, sometimes you might want to simulate timers with variables. This allows you to have more control over the time: using variables, you can increase or decrease the value by adding or subtracting time from the variable.
 
 For this, use an action to increase the value of a variable using the [`TimeDelta()`](/gdevelop5/events#timedelta) expression:
 

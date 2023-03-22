@@ -65,7 +65,7 @@ Si hay un error que le indica que la carga falló, lea el mensaje de error para 
 
 !!! note
 
-     Si solía publicar su aplicación con un APK, debe actualizar a Android App Bundles. [Lea esta página para aprender cómo hacer esto](/gdevelop5/publishing/android_and_ios/play-store/upgrade-from-apk-to-aab). 
+     Si solía publicar su aplicación con un APK, debe actualizar a Android App Bundles. [Lea esta página para aprender cómo hacer esto](/gdevelop5/publishing/android_and_ios/play-store/upgrade-from-apk-to-aab).
 
 ## Termina de ingresar todos los detalles sobre el juego
 

@@ -34,10 +34,10 @@ Here is an example to set the position of the Player object in a platform game:
 ![](/gdevelop5/tutorials/follow-object-set-position.png)
 
 !!! tip
-    
-        
+
+
     The [sticker extension](/gdevelop5/extensions/sticker/reference) allows to follow the position,  angle and dimension of another object.
-    
+
 
 ## Make a cursor: change the position and use "MouseX()";"MouseY()"
 
@@ -67,7 +67,7 @@ Forces have been introduced in [basic game making concepts](/gdevelop5/tutorials
 
 ![](/gdevelop5/tutorials/animate-platform-permanent-forces.png)
 
-If you're unsure about which kind of force to use, the rule of thumb is: 
+If you're unsure about which kind of force to use, the rule of thumb is:
 
 > Instant forces are used with conditions that are verified for a bit of time (like a key pressed, an object touched/hovered by the cursor, etc...) while permanent forces are used with conditions that are verified only once in a while (like a collision).
 
@@ -79,7 +79,7 @@ Permanent forces are akin to launching a music: you only want to start a music o
 
 ## Platformer behavior
 
-If your object is a character in a platformer game, the [platformer behavior](/gdevelop5/behaviors/platformer) will allow to use a ready-made platformer engine in your game. 
+If your object is a character in a platformer game, the [platformer behavior](/gdevelop5/behaviors/platformer) will allow to use a ready-made platformer engine in your game.
 
 * Add **Platformer Character** behavior to the player or objects that must move on platforms,
 * Add **Platform** behavior to the objects that must act as platforms.

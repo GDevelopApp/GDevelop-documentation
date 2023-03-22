@@ -1,7 +1,7 @@
 ---
 title: Firebase Setup
 ---
-##  Firebase Setup 
+##  Firebase Setup
 
 To use Firebase, you have to connect it to a Firebase account. This page explains how to do so.
 

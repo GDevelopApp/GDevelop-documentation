@@ -16,10 +16,10 @@ Esta acción hace vibrar el dispositivo una vez por el valor dado en milisegundo
 Esta acción hace vibrar el dispositivo en un patrón. Cada primer valor representa el tiempo de vibración, cada segundo el tiempo de silencio. Cada valor debe darse en milisegundos como una lista de valores numéricos separados por comas. // ¡No olvides las comillas! //
 
 !!! note
-    
+
          **Ejemplo: **"1000,500,1000"
-    
-    Un segundo de vibración, seguido de medio segundo de silencio y luego un segundo más de vibración. 
+
+    Un segundo de vibración, seguido de medio segundo de silencio y luego un segundo más de vibración.
 
 #### Detener la vibración
 

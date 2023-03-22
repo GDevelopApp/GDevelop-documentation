@@ -65,15 +65,15 @@ To compare a boolean to another value, text or boolean, you can use **Compare th
 
 ### Structure
 
-A Structure variable maps names to variables. 
-For example, a simple structure can map the name "Hello" to one sub-variable and the name "World" to another sub-variable. 
-You can use this data type to organize related variables within a single variable. 
-In programming languages, this data type is often referred to as an _object_, _map_, _hash_, or *dictionary*. 
+A Structure variable maps names to variables.
+For example, a simple structure can map the name "Hello" to one sub-variable and the name "World" to another sub-variable.
+You can use this data type to organize related variables within a single variable.
+In programming languages, this data type is often referred to as an _object_, _map_, _hash_, or *dictionary*.
 
 ### Array
 
-An Array variable, also sometimes called _list_ in programming languages, is like a list of variables. 
-Each variable in an Array has an index, which defines their position in the array. 
+An Array variable, also sometimes called _list_ in programming languages, is like a list of variables.
+Each variable in an Array has an index, which defines their position in the array.
 The indices begin at 0 and go up to however long the array is.
 !!! danger
 
@@ -81,7 +81,7 @@ The indices begin at 0 and go up to however long the array is.
 
 ### Accessing child variables
 
-Variables that exist within a collection variable are known as _child variables_. 
+Variables that exist within a collection variable are known as _child variables_.
 To access the value of a child variable, use the following syntax in an [expressions](/gdevelop5/all-features/expressions), replacing the values in angled brackets with variable names:
 
 ```

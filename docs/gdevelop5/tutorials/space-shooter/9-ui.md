@@ -23,7 +23,7 @@ You are reading **Part 9** of the [Space Shooter Tutorial](/gdevelop5/tutorials/
 
 !!! tip
 
-     In this chapter, we will learn how to add UI elements (Text) to the game. 
+     In this chapter, we will learn how to add UI elements (Text) to the game.
 
 ## Adding UI elements
 
@@ -43,7 +43,7 @@ In the end, you can see your two text objects under the other objects.
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-text-objects.png)
 
-You can drag and drop the text objects to the scene. 
+You can drag and drop the text objects to the scene.
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-drag-and-drop-score-text-min.gif)
 

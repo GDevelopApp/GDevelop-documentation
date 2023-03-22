@@ -14,7 +14,7 @@ Note that you can read the [Getting Started](/gdevelop5/getting_started) page to
 
 ## Download GDevelop
 
-If you do not have **GDevelop 5**, download it from the [official website](https://gdevelop-app.com). It's available for Windows, macOS and Linux.  
+If you do not have **GDevelop 5**, download it from the [official website](https://gdevelop-app.com). It's available for Windows, macOS and Linux.
 
 Always download GDevelop from this page to be sure to have the latest version. Install (or extract) GDevelop and launch it.
 
@@ -105,7 +105,7 @@ Create a new object by clicking on the `+` button in the Objects list. This time
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-24_at_23.54.52.png)
 
-The object editor is opened. It's a bit different compared to the editor of the Sprite object, as Tiled Sprite objects are not animated.  
+The object editor is opened. It's a bit different compared to the editor of the Sprite object, as Tiled Sprite objects are not animated.
 Click on `Select an image` and then on `Choose a new image`. This time, choose the image called `grassHalfMid`.
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-24_at_23.57.28.png)
@@ -169,7 +169,7 @@ If the object is not moving, be sure that you've added the proper behaviors.
 
 ## Change the background color
 
-The grey background is a bit boring. Later we can add an image, but for now, let's keep things simple. In the editor, right click on the grey background and choose "Scene properties": 
+The grey background is a bit boring. Later we can add an image, but for now, let's keep things simple. In the editor, right click on the grey background and choose "Scene properties":
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-25_at_00.16.03.png)
 
@@ -181,4 +181,4 @@ In the new window that opened, click on `Scene background color` and select a ni
 
 Our game is very basic at the moment, the player is not animated when jumping or running. The next part of the tutorial will show how to add different animations and how to use events to change the animations when the state of the player is changing.
 
-➡️ Read **[the next part of the tutorial here](/gdevelop5/tutorials/platform-game/2-player-animations)**! 
+➡️ Read **[the next part of the tutorial here](/gdevelop5/tutorials/platform-game/2-player-animations)**!

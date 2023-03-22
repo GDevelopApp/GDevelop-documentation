@@ -4,9 +4,9 @@ title: OBJETO DE ENTRADA DE TEXTO (Text entry object)
 # OBJETO DE ENTRADA DE TEXTO (Text entry object)
 
 !!! note
-    
-        **Vélao en acción!** 🎮  
-    [¡Prefiero ver los ejemplos de objetos de Sprite! Por favor, llévame allí ahora!.](#Examples) 
+
+        **Vélao en acción!** 🎮
+    [¡Prefiero ver los ejemplos de objetos de Sprite! Por favor, llévame allí ahora!.](#Examples)
 
 El objeto de entrada de texto captura la entrada del usuario y la almacena en la memoria. Puede utilizar este objeto para simular campos de entrada de texto. Por ejemplo, puede usar el objeto de entrada de texto para proporcionar una forma en que el jugador de su juego pueda ingresar su nombre o cualquier otra información.
 
@@ -35,8 +35,8 @@ Usando eventos, es posible habilitar o deshabilitar el objeto "Entrada de texto"
 ## Ejemplos
 
 !!! note
-    
-        **Véalo en acción!** 🎮  
+
+        **Véalo en acción!** 🎮
     Abre estos ejemplos online
 
 ![](/gdevelop5/objects/textexample.png)

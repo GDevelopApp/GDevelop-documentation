@@ -93,13 +93,13 @@ You'll need two things!
 
 * First, become a bit familiar with GDevelop. One way to do so is by using the app. You can also try investigating or working an issue (or adding a simple new feature) on the GitHub Issue Tracker. Take a look at the [Good First Issues](https://github.com/4ian/GDevelop/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%91%8Cgood+first+issue%22).
   * You'll need to set up your development environment. The *README* will explain everything!
-  * Find an issue that looks interesting to you. Might be a [Good First Issue](https://github.com/4ian/GDevelop/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%91%8Cgood+first+issue%22) or another one. 
+  * Find an issue that looks interesting to you. Might be a [Good First Issue](https://github.com/4ian/GDevelop/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%91%8Cgood+first+issue%22) or another one.
   * Do some research, try things, and if you need help ask on the forum or on the GitHub issue itself.
   * If you have something interesting, comment on the issue or open a *Pull Request*! Prepare it with all the required tests and checks, explain what you've done and a reviewer should give you some feedback.
 
 * Searching to solve an issue is a good first step that will actually help you in the second part: making a proposal!
-  * Read [this page describing a suggested structure for your proposal](/gdevelop5/community/summer-of-code/contributor-guidance). 
-  * Prepare your proposal on the Google Summer of Code website 🤓. 
+  * Read [this page describing a suggested structure for your proposal](/gdevelop5/community/summer-of-code/contributor-guidance).
+  * Prepare your proposal on the Google Summer of Code website 🤓.
 
 !!! tip
 
@@ -116,7 +116,7 @@ For contributor(s) that will work on GDevelop during GSoC, we'll have regular ca
 
 ### Should I reach out to the forum, by email and on the Discord chat to have my proposal considered?
 
-No. Your proposal will be considered in all cases. It's a good idea to engage with the community on the Discord or the forum if you want to know more how GDevelop works. **Looking at "Good First Issues" and trying to fix/improve stuff on GitHub** is **highly recommended** for you to have a better idea of how GDevelop is coded before making your proposal. 
+No. Your proposal will be considered in all cases. It's a good idea to engage with the community on the Discord or the forum if you want to know more how GDevelop works. **Looking at "Good First Issues" and trying to fix/improve stuff on GitHub** is **highly recommended** for you to have a better idea of how GDevelop is coded before making your proposal.
 
 ### Should I include my participation on the forum/Discord/GitHub in my proposal?
 
