@@ -66,8 +66,9 @@ And again, **"Read Value" is to read number only** and **"Read Text" is to read 
 #### Examples
 
 !!! note
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
+
     Open these examples online.
 
 - <https://editor.gdevelop.io/?project=example://save-load>

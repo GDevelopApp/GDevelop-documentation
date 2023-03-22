@@ -12,8 +12,9 @@ Tenga en cuenta que este recuento puede ser una expresión. Eso significa que pu
 ## Ejemplos
 
 !!! note
-    
-        **Véalo en acción!** 🎮  
+
+        **Véalo en acción!** 🎮
+
     Abre estos ejemplos Online.
 
 **Diagonales (Diagonals)**

@@ -54,8 +54,9 @@ All these properties can be modified using the actions and conditions of the obj
 ## Examples
 
 !!! tip
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
+
     Open these examples online.
 
 [![](/gdevelop5/objects/bbtext-example.jpg)](https://editor.gdevelop.io/?project=example://bbtext-object-demo)

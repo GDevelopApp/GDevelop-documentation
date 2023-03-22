@@ -14,8 +14,9 @@ Al agregar un evento de enlace, haga clic en "\<Ingresar el nombre de los evento
 ## Ejemplos
 
 !!! note
-    
-        **Vélo en acción!** 🎮  
+
+        **Vélo en acción!** 🎮
+
     Abra los ejemplos Online.
 
 [![](/gdevelop5/events/asteroidexternalexample.png)](https://editor.gdevelop-app.com/?project=example://asteroids)

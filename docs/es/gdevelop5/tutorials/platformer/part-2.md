@@ -1,7 +1,8 @@
 ---
 title: part-2
 ---
-FIXME **This page is not fully translated, yet. Please help completing the translation.**  
+FIXME **This page is not fully translated, yet. Please help completing the translation.**
+
 *(remove this paragraph once the translation is finished)*
 
 # Tutorial de Plataformas, Parte 2: Crea un Personaje Jugable

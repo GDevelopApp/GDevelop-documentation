@@ -54,8 +54,9 @@ En un juego de plataformas con el comportamiento del "personaje de Platformer", 
 ![](/gdevelop5/all-features/playerisonfloorevents.png)
 
 !!! note
-    
-        **Véalo en acción!** 🎮  
+
+        **Véalo en acción!** 🎮
+
     Abre los ejemplos Online: <https://editor.gdevelop-app.com?project=example://platformer>
 
 ## ¿Juego con la física? Usa el comportamiento de la física.

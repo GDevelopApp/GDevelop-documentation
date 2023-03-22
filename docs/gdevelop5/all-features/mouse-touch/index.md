@@ -28,8 +28,9 @@ The expressions `CursorX` and `CursorY` give the cursor position in the scene. F
 ![](/gdevelop5/all-features/cursor-is-on-event.png)
 
 !!! tip
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
+
     [Open this example online](https://editor.gdevelop.io?project=example://balloon-smasher)
 ## Handle manually multi-touch gestures (advanced)
 
@@ -46,6 +47,7 @@ Multiple touches can happen at the same time. The touch identifier must be used 
 ![](/gdevelop5/all-features/touchmoveandend.png)
 
 !!! tip
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
+
     [Open this example online](https://editor.gdevelop.io?project=example://multitouch)

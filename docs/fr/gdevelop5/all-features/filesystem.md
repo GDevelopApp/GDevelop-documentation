@@ -1,7 +1,8 @@
 ---
 title: filesystem
 ---
-FIXME **This page is not fully translated, yet. Please help completing the translation.**  
+FIXME **This page is not fully translated, yet. Please help completing the translation.**
+
 *(remove this paragraph once the translation is finished)*
 
     \# Système de fichier Cette extension vous donne accès au système de fichier de l'ordinateur sur lequel votre jeu est en train de tourner. \<note\>Cette extension ne fonctionne que sur Linux, MacOS et Windows pour l'instant. les jeux mobiles et Web ne sont pas supportés par l'extension pour l'instant \## Système de fichiers ou système de stockage ? Gdevelop vous permet de stocker des données permanentes de deux manières différentes. L'extension de stockage et l'extension de système de fichiers. Parce que GDevelop est basé sur des technologies web, créer un jeu avec GDevelop est comme créer un site web qui peut être vu dans un navigateur (export web) ou dans un navigateur limité nommé "Electron" pour Windows, MacOS et Linux ou Apache Cordova pour Android et iOS Toutes ces platformes permettent d'utiliser l'extension de stockage car c'est un composant inclus dans les navigateurs. Les données peuvent être sauvegardées dans une sorte de dictionnaire intégré à ce navigateur.

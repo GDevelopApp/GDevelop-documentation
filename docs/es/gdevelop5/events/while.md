@@ -12,8 +12,9 @@ Mientras que los eventos generalmente no son necesarios, pero estos eventos se p
 ## Ejemplos
 
 !!! note
-    
-        **Véslo en acción!** 🎮  
+
+        **Véslo en acción!** 🎮
+
     Abra estos ejemplos Online.
 
 [![](/gdevelop5/behaviors/spaceshooter.png)](https://editor.gdevelop-app.com/?project=example://asteroids)

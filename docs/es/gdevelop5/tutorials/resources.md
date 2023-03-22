@@ -1,7 +1,8 @@
 ---
 title: resources
 ---
-FIXME **Esta página no está completamente traducida, todavía. Por favor ayuda a completar la traducción.**  
+FIXME **Esta página no está completamente traducida, todavía. Por favor ayuda a completar la traducción.**
+
 *(Eliminar este párrafo una vez finalizada la traducción.)*
 
 # Recursos Lista de sitios web donde puede encontrar sprites, música, efectos de sonido para sus juegos y ejemplos de juegos, plantillas, bibliotecas de terceros y herramientas para ayudarle con el desarrollo del juego.

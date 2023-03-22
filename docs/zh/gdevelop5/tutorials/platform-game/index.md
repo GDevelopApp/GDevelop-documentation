@@ -95,7 +95,8 @@ title: 如何制作一个平台游戏
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-24_at_23.54.52.png)
 
-对象编辑器被打开了. 它与精灵对象编辑器稍有不同, 因为瓦块精灵是没有动画的.  
+对象编辑器被打开了. 它与精灵对象编辑器稍有不同, 因为瓦块精灵是没有动画的.
+
 点击 `Select an image（选择一个图片）` 然后 `Choose a new image（选择一个新图片）`. 此时, 选择名字叫 `grassHalfMid`的图片.
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-24_at_23.57.28.png)
@@ -174,4 +175,4 @@ title: 如何制作一个平台游戏
 
 我们的游戏目前非常基础，玩家在跳跃或奔跑时没有动画。本教程的下一部分将介绍如何添加不同的动画，以及如何使用事件在玩家状态更改时更改动画。
 
-➡️ 阅读 **[教程的下一部分在这里](/gdevelop5/tutorials/platform-game/2-player-animations)**! 
+➡️ 阅读 **[教程的下一部分在这里](/gdevelop5/tutorials/platform-game/2-player-animations)**!

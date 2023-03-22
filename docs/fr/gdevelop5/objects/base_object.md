@@ -1,7 +1,8 @@
 ---
 title: base_object
 ---
-FIXME **This page is not fully translated, yet. Please help completing the translation.**  
+FIXME **This page is not fully translated, yet. Please help completing the translation.**
+
 *(remove this paragraph once the translation is finished)*
 
 Dans les jeux développés avec GDevelop, tout est lié aux objets.

@@ -24,8 +24,9 @@ title: 画面外のビヘイビアを消去
 # 例
 
 !!! note
-    
-        **やってみよう！** 🎮  
+
+        **やってみよう！** 🎮
+
     サンプルをオンラインで実行できます
 
 **スクリーン外のビヘイビア**
@@ -34,14 +35,14 @@ title: 画面外のビヘイビアを消去
 
 [![](/gdevelop5/behaviors/outsidescreenbehaviorspaceshooter.png)](https://editor.gdevelop-app.com/?project=example://space-shooter)
 
-  
+
 **画面/シーンの外の弾丸を消去する**
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://shoot-bullets){ .md-button .md-button--primary }
 
 [![](/gdevelop5/behaviors/outsidescreendestroybullets.png)](https://editor.gdevelop-app.com/?project=example://shoot-bullets)
 
-  
+
 **弾丸の説明**
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://shooting-bullets-explanation){ .md-button .md-button--primary }

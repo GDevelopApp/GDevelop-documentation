@@ -24,8 +24,9 @@ Una vez que haya seleccionado el comportamiento de destrucción de la lista, eli
 # Ejemplos
 
 !!! note
-    
-        **Véalo en acción!** 🎮  
+
+        **Véalo en acción!** 🎮
+
     Abre los ejemplos Online.
 
 **Comportamiento fuera de la pantalla (Outside the Screen Behavior)**
@@ -34,14 +35,14 @@ Una vez que haya seleccionado el comportamiento de destrucción de la lista, eli
 
 [![](/gdevelop5/behaviors/outsidescreenbehaviorspaceshooter.png)](https://editor.gdevelop-app.com/?project=example://space-shooter)
 
-  
+
 **Destruye balas fuera de pantalla / escena**
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://shoot-bullets){ .md-button .md-button--primary }
 
 [![](/gdevelop5/behaviors/outsidescreendestroybullets.png)](https://editor.gdevelop-app.com/?project=example://shoot-bullets)
 
-  
+
 **Disparando balas Explicación**
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://shooting-bullets-explanation){ .md-button .md-button--primary }

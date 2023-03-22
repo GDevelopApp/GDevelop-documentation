@@ -40,8 +40,9 @@ Using events, it is possible to enable or disable the "Text entry" object. Event
 ## Examples
 
 !!! note
-    
-        **See it in action!** 🎮  
+
+        **See it in action!** 🎮
+
     Open these examples online.
 
 ![](/gdevelop5/objects/textexample.png)

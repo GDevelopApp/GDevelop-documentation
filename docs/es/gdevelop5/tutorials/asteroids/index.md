@@ -1,7 +1,8 @@
 ---
 title: start
 ---
-FIXME **This page is not fully translated, yet. Please help completing the translation.**  
+FIXME **This page is not fully translated, yet. Please help completing the translation.**
+
 *(remove this paragraph once the translation is finished)*
 
 # Asteroides
@@ -40,7 +41,8 @@ Right click on the background of the game scene, and click on "Scene properties"
 
 ## Check game resolution
 
-Open the project manager, and go to the game settings.  
+Open the project manager, and go to the game settings.
+
 Select properties, and make sure your game's resolution is 800 by 600 - or the preferred "Golden Ration" of 800x500
 
 ![](/gdevelop5/tutorials/asteroids_gif_recording_1_check_game_resolution.gif)

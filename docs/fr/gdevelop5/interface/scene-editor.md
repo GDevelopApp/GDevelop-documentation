@@ -1,7 +1,8 @@
 ---
 title: scene-editor
 ---
-FIXME **Cette page contient peut-être des erreurs, vous pouvez contribuer pour les corriger.**  
+FIXME **Cette page contient peut-être des erreurs, vous pouvez contribuer pour les corriger.**
+
 *(Enlevez ce paragraphe si vous pensez qu'il n'y a plus d'erreurs.)*
 
 # Éditeur de scène
