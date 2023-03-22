@@ -1,7 +1,7 @@
 ---
-title: Top Down Shooter-4
+title: Top Down Shooter - Part 4
 ---
-# Top Down Shooter-4
+# Top Down Shooter - Part 4
 
 This tutorial explains to you how to create a Top-Down Shooter game in **GDevelop**. If you are a beginner or you have never used **GDevelop** before, this might be a great place to begin.
 
