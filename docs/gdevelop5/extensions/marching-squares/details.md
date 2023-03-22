@@ -14,23 +14,23 @@ This extension allows to build a scalar field and draw contour lines of it.
   * a top-down relief with physics ([open the project online](https://editor.gdevelop.io/?project=example://marching-squares-terraforming))
   * an island generator ([open the project online](https://editor.gdevelop.io/?project=example://marching-squares-island-generator))
 
-###  Understand scalar fields
+## Understand scalar fields
 
 A scalar field associate a value for every point of a space. For instance, scalar field values can represent the height on a map (a 2d space).
 
 ![](scalarfieldwithlegend.png)
 
 
-###  Understand contour lines
+## Understand contour lines
 
 Points with a same value form a contour line. This can be used to draw shapes that change dynamically.
 
 ![](contourlines.png)
 
 
-###  Use contour lines
+## Use contour lines
 
-####  Draw liquids effects
+### Draw liquids effects
 
 Liquids or blob effects can be made using contour lines. In the liquids example, each drop is a physics object with gravity and they collides with each other. One spike is added on the field for every drop. The action is called "Add disk" because its contour line makes a circle.
 
@@ -39,7 +39,7 @@ The spikes are merged using the "Addition" operation. This is important because 
 ![](diskadditionnear.png)
 
 
-####  Draw a fog of war
+### Draw a fog of war
 
 ![](fogofwarcover.png)
 
@@ -52,7 +52,7 @@ Fog of wars often keep a trail of the scouted area. But, at every frame, the fie
 ![](trail.png)
 
 
-####  Make destructible environments
+### Make destructible environments
 
 ![](marchingsquaresplatformer.png)
 
@@ -64,7 +64,7 @@ The "Mask disk" operation hasn't been introduced before so let's take a look at 
 
 
 
-####  Paint territories
+### Paint territories
 
 ![](quickimpulsexpansionscreen2.png)
 
@@ -73,9 +73,9 @@ Previous sections show how to build shapes using "disk" actions that work a bit 
 ![](floodbefore.png)
 
 
-###  Use scalar fields
+## Use scalar fields
 
-####  Build a terrain
+### Build a terrain
 
 ![](marchingsquaresterraforming-cover.png)
 
@@ -85,13 +85,13 @@ The "disk" actions give very high values near the center. This doesn't allow a f
 
 ![](hillheight2-8.png)
 
-####  React to the slope of a terrain
+### React to the slope of a terrain
 
 When the field values represent a terrain height, the "NormalX", "NormalY" and "NormalZ" expressions can be used to apply forces to objects and give the impression that they are falling down from a slope.
 
 ![](hillnormals.png)
 
-####  Constraint a terrain generation
+### Constraint a terrain generation
 
 Noise can be useful to generate terrains but, without any constraint, the result might be hard to use.
 
