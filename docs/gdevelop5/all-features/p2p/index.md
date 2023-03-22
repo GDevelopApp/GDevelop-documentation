@@ -32,7 +32,7 @@ There are two options for setting up a broker server:
 
 ####  Set up a custom (local) server
 
-A local server can be set up easily.  [install Node.js](https://nodejs.org/en/download/) will need to be installed. The LTS version is recommended.
+A local server can be set up easily. [Install Node.js](https://nodejs.org/en/download/) will need to be installed. The LTS version is recommended.
 
 Open a command line. To do so on Windows:
 
