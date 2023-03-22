@@ -53,6 +53,8 @@ markdown_extensions:
   - pymdownx.superfences
   # For tables:
   - tables
+  # For lists not starting with a blank line:
+  - sane_lists
 watch:
 - 'overrides'
 plugins:
