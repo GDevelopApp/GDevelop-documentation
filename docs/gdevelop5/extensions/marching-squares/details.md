@@ -46,7 +46,8 @@ The spikes are merged using the "Addition" operation. This is important because 
 
 Contrary to the previous section, a fog of war needs the disks to be merged without a blob effect. This can be done by choosing the "Maximum" operation for the "Add disk" action.
 
-![](diskmax.png) ![](diskmaxfar.png)
+| ![](diskmax.png) | ![](diskmaxfar.png) |
+|---|---|
 
 Fog of wars often keep a trail of the scouted area. But, at every frame, the field of sight is cleared to be updated with the new location of the objects which means that previous scouted area is forgotten. The "merge" action can be used to keep the trail in another field.
 
@@ -71,8 +72,9 @@ The "Mask disk" operation hasn't been introduced before so let's take a look at 
 
 Previous sections show how to build shapes using "disk" actions that work a bit like a brush from drawing applications. In these applications, paint bucket tools can fill an area with color. In the same way, parts of the field can be filled to a given level with the "flood" action. It can also be seen as flooding a valley for a dam.
 
-![](floodbefore.png) ![](floodafter.png)
-
+| ![](floodbefore.png) | ![](floodafter.png) |
+|---|---|
+| Before the flood | After the flood |
 
 ## Use scalar fields
 
@@ -107,3 +109,5 @@ For instance, a terrain can be forced into an island. To do so, 2 constraints ca
 One scalar field can be used for the lower bound and another the upper bounds. They will define a range of value for every point of the surface and the noise will be stretched in between. They can be built with hills like in the following illustration to give the general shape of the island.
 
 ![](islandspositioning.png) ![](islandwithnoisea.png)
+|---|---|
+| Island shape | Island with noise |
