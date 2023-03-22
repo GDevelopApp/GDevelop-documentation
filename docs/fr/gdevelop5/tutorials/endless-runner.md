@@ -5,7 +5,7 @@ title: Un tutoriel pour débutants de jeu de course infinie
 
 >  ![](/gdevelop5/tutorials/endlessrunnergame_intro.png) Ce tutoriel vous aidera à vous familiariser avec le fonctionnement de GDevelop. Dans ce tutoriel, nous allons créer un jeu de course sans fin très basique où **les plateformes sont générées de manière aléatoire** et où le joueur doit se déplacer pour éviter d'être poussé hors de l'écran. Il y a également un **système de score** qui met à jour le score lorsque le joueur est en action.
 >
-> Pour connaître les bases du fonctionnement du logiciel, vous pouvez vous référer à la page [Commencer](/fr.gdevelop5/getting_started) pour plus d'informations.
+> Pour connaître les bases du fonctionnement du logiciel, vous pouvez vous référer à la page [Commencer](/fr/gdevelop5/getting_started) pour plus d'informations.
 >
 
 

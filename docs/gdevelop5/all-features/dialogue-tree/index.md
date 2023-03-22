@@ -130,7 +130,7 @@ Don't forget that you can put anything inside this **<<if ...>>**...**<<endif>>*
     The dialogue tree extension stores all the $variables the player sets while playing the game and also comes with expressions/actions to get/set them - in case you want to store  them when the game is saved by the player and be able to reload them.
 
 
-### 3. [Option](/Option) line type
+### 3. Option line type
 
 This is the type that creates arrows between the nodes. It is what yarn uses to display to the user what choices they can make. The syntax is as follows:
 
