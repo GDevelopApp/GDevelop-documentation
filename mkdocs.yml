@@ -71,7 +71,10 @@ plugins:
             'gdevelop5/objects/base_object/events.md': 'gdevelop5/objects/index.md'
             'gdevelop5/objects/base_object/index.md': 'gdevelop5/objects/index.md'
             'gdevelop5/extensions/list.md': 'gdevelop5/extensions/index.md'
+            # Tutorials
             'gdevelop5/tutorials/platformer/start.md': 'gdevelop5/tutorials/platformer/index.md'
+            'gdevelop5/tutorials/asteroids/start.md': 'gdevelop5/tutorials/asteroids/index.md'
+            'gdevelop5/tutorials/platform-game/start.md': 'gdevelop5/tutorials/platform-game/index.md'
             # Extensions reference pages from old wiki were transferred to index pages
             'gdevelop5/extensions/advanced-jump/reference.md': 'gdevelop5/extensions/advanced-jump/index.md'
             'gdevelop5/extensions/advanced-p2pevent-handling/reference.md': 'gdevelop5/extensions/advanced-p2pevent-handling/index.md'
