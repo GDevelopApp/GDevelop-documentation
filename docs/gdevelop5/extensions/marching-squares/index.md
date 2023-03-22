@@ -15,7 +15,7 @@ It can be helpful for:
   * Top-down relief with physics ([open the project online](https://editor.gdevelop.io/?project=example://marching-squares-terraforming))
   * Island generator ([open the project online](https://editor.gdevelop.io/?project=example://marching-squares-island-generator))
 
-[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/marching-squares)
+[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/marching-squares/details)
 
 ---
 

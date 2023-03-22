@@ -13,7 +13,7 @@ There are also actions to bounce at a *specific angle* - useful when you know th
 
 > ⚠️ This *won't work* with Physics engine or Platformer characters. This is working with objects that are moved using actions or behaviors using **the forces**.
 
-[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/bounce)
+[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/bounce/explanations)
 
 ---
 
