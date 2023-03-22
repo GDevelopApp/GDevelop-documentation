@@ -8,6 +8,7 @@ Make objects follow the position and rotation of the object they are stuck to.
 ---
 
 This extension can be useful to:
+
 * Stick accessories to moving objects,
 * Animate a skeleton.
 

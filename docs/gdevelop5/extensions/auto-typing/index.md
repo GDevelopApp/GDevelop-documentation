@@ -10,9 +10,11 @@ Animate text to simulate it being written one character at at time (a "typewrite
 Animate text to simulate it being written one character at at time (a "typewriter" effect), with a customizable time between each character. Useful for dialogue scenes or visual novels.
 
 How to use:
+
 - Add the behavior to a Text object (BBText, Bitmap Text object) and choose the interval between characters.
 
 Tips:
+
 - Change the typing speed with the "Change interval" action.
 - Pause the typing and resume it at any time.
 - Use the "Skip to end of text" action to give users a way to skip text they don't want to read 

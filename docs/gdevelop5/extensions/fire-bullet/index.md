@@ -10,6 +10,7 @@ Fire bullets, manage ammo, reloading, and overheating.
 Fire bullets, manage ammo, reloading, and overheating.
 
 Firing bullets:
+
 - Cooldown: Time between shots (seconds)
 - Bullet Quantity: Number of bullets created each time Fire Bullet action is used. 
 - Firing Arc: Range of angles (in degrees) that bullets will shoot. Bullets are evenly spread within this range.
@@ -18,6 +19,7 @@ Firing bullets:
 - Bullet speed variance: Each bullet speed will be adjusted by a random value within this range (pixels/second)
 
  Ammo:
+
 - Starting ammo
 - Max ammo
 - Shots per reload. Use 0 to disable reloading
@@ -25,11 +27,13 @@ Firing bullets:
 - Automatic reloading is enabled by default, but it can also be done manually.
 
 Overheat:
+
 - Heat increase per shot. Object is Overheated when Heat reaches  1.
 - Cooling rate per second
 - When overheated, the object cannot fire any bullets
 
 Statistics:
+
 - Total bullets created
 - Total shots taken
 - Total reloads completed

@@ -15,6 +15,7 @@ It's highly recommended to **read the [help page](http://wiki.compilgames.net/do
 
 The general worflow is the following:
 
+
 - Register your products on the Google Play Console or App Store Connect,
 - In your game, register the same products using the action *"Register an item"*,
 - Call the action to finalize the store registration,

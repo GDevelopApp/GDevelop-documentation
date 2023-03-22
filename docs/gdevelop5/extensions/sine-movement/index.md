@@ -19,11 +19,13 @@ Allow an object to move smoothly on the X and/or Y axis following a sine wave, o
 
 
 Example uses:
+
 - Floating objects, such as powerups or coins
 - Moveable platforms
 - Enemy movement patterns
 
 Properties:
+
 - Horizontal distance
 - Vertical distance
 - Horizontal speed
@@ -32,6 +34,7 @@ Properties:
 - Center of movement, Y position
 
 Tips:
+
 - For circular or elliptical movement, the horizontal and vertical speed need to be the same
 - For horizontal movement only, set vertical distance to 0
 - For vertical movement only, set horizontal distance to 0

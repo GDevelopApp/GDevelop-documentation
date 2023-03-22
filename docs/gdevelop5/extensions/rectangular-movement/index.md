@@ -19,10 +19,12 @@ Allow an object to move in a rectangular pattern.
 By default, movement will slow down when going around corners, but this can be changed to always use a constant speed.
 
 Example uses:
+
 - Moveable platforms
 - Enemy movement patterns
 
 Properties:
+
 - Center of movement, X position
 - Center of movement, Y position
 - Horizontal distance
@@ -33,6 +35,7 @@ Properties:
 - Use counter-clockwise direction
 
 Tips:
+
 - Set the CenterX and CenterY values to move the object
 - For horizontal movement only, set vertical distance to 0
 - For vertical movement only, set horizontal distance to 0

@@ -20,6 +20,7 @@ This uses the Crypto API to create a random number see help for more details.
 You might ask how this differs from the built-in random functions in GDevelop like RandomInRange. In basic terms, it provides a more random number than Math.random() which is what the built-in functions use.
 That randomness does come at a cost of performance so be aware of your usage of this. 
 
+
 **This has nothing to do with crypto currency**
 
 [Read more...](https://developer.mozilla.org/en-US/docs/Web/API/Crypto/getRandomValues)

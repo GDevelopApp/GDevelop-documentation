@@ -10,6 +10,7 @@ Turn any object into a cursor.
 This extension allows to replace the cursor with an object.
 
 Breaking change of the version 2.0.0:
+
 - The button behavior has been removed. The button object can be used instead. Some ready to use buttons can be downloaded from the [Buttons pack](https://editor.gdevelop.io/?initial-dialog=asset-store&asset-pack=menu-buttons-menu-buttons) of the asset store.
 
 ---

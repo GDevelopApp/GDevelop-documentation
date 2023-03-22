@@ -8,17 +8,20 @@ Shake an object, using one or more ways to shake (position, angle, scale).
 ---
 
 Select one or more methods of shaking:
+
 - Position: Shake the X and/or Y position of the object 
 - Angle: Shake the angle (rotation) of the object 
 - Scale: Shake the scale of the object (must be a sprite)
 
 Control how the object shakes:
+
 - Amplitude: How far the object moves during each shake
 - Duration: Amount of time to shake the object
 - Time between shakes: Amount of time between each movement of the object
 - Keep shaking until stopped (boolean)
 
 Tips:
+
 - For a single-shake effect, set the "Time between shakes" to be equal to "Duration"  (great for a hit or impact)
 - To make the single-shake move in the opposite direction, use negative numbers 
 - To repeat a single-shake effect in a loop, add a condition "Object is not shaking" 

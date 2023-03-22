@@ -10,6 +10,7 @@ Snap objects to an hexagonal grid.
 It allows to snap objects on an hexagonal grid.
 
 It's useful for:
+
 - level editors
 - building systems ([open the city builder example online](https://editor.gdevelop.io/?project=example://city-builder))
 

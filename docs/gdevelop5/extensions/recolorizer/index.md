@@ -10,6 +10,7 @@ Independently change the colors of a sprite, a tiled sprite or a panel sprite.
 This extension allows to restyle a sprite, a tiled sprite or a panel sprite.
 
 It can be used to:
+
 - Change the color of player short according to its team color.
 - Add small color variation to trees of a forest.
 - Restyle objects to match other assets.

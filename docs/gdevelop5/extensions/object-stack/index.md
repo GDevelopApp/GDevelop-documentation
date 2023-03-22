@@ -8,15 +8,18 @@ An ordered list of objects and a shuffle action.
 ---
 
 It provides:
+
 * Actions to modify a stack of objects
 * Conditions to access the objects of a stack
 * A shuffle action
 
 It can be helpful for:
+
 * Card games
 * Fair randomness (for instance, to create a stack of predetermined bonus and randomize the order they appear)
 
 2 examples use it:
+
 * A card system demonstration ([open the project online](https://editor.gdevelop.io/?project=example://card-system))
 * A Klondike solitaire ([open the project online](https://editor.gdevelop.io/?project=example://klondike-solitaire))
 

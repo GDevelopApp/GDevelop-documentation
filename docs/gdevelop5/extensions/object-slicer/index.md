@@ -11,6 +11,7 @@ Useful for creating death animations such as explosions, crumbling, dissolve, or
 Pieces should be a solid white color or the color of the piece will not match the original color.
 
 Tips:
+
 - Adjust the collision mask to control where pieces will be created
 - Pieces are linked to the original object which can be used in other events (i.e. explode away from the original object) 
 

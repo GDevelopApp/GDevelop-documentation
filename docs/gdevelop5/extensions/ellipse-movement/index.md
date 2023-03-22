@@ -8,11 +8,13 @@ Move objects on ellipses or smoothly back and forth in one direction.
 ---
 
 It allows objects to move:
+
 - on an ellipsis or arcs
 - smoothly vertically or horizontally (by setting one radius to 0)
 - on a sine wave (by adding a force)
 
 It can be used for:
+
 - Making objects float, such as powerups or coins
 - Moving platforms
 - Enemy movement patterns

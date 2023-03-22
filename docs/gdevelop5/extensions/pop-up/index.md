@@ -16,6 +16,7 @@ This extension adds actions to display three kinds of pop-ups.
  - Pops-up a dialogue containing a message with the option to either confirm or cancel.
 
 ## Prompt
+
 **Note that this pop-up type is unsupported on previews and PC exports.**
  - Displays a message to the player with a text field to write an answer in. The player will also have the option to either confirm or discard their input.
 

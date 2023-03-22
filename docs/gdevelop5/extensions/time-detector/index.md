@@ -17,6 +17,7 @@ Detects the current time of the day, week and month.
 
 1. Detects one of the following parts of the day : 
 
+
 - Morning.
 - Dusk.
 - Night.
@@ -24,9 +25,11 @@ Detects the current time of the day, week and month.
 
 2. Detects current day : 
 
+
 - Saturday, sunday, etc..
 
 3. Detects current month of the year : 
+
 
 - January, February, etc..
 

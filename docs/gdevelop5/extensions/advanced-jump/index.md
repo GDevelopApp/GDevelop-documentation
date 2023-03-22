@@ -8,6 +8,7 @@ Enhancements for the platformer character: air jump, wall jump wall sliding, coy
 ---
 
 This provides behaviors that provide jump enhancements for the platformer character:
+
 * The air jump behavior lets platformer characters jump in mid-air.
 * The wall jump behavior lets platformer characters jump and slide against walls.
 * The coyote time behavior, also known as "ledge tolerance", lets players to jump even after their character is no longer touching the ground for a given amount of time. It aims to give players a feeling of control and reduce frustration.

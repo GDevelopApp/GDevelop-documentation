@@ -8,6 +8,7 @@ Get Version, Title, Publisher name, PackageName from properties tab.
 ---
 
 * Add an string expression that returns the current game version from game properties tab.
+
 * Add an string expression that returns the game title from game properties tab.
 * Add an string expression that returns the game publisher name from game properties tab.
 * Add an string expression that returns the package name from game properties tab.

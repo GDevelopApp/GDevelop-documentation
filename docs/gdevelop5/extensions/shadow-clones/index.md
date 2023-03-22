@@ -11,6 +11,7 @@ Select the primary object, the shadow clone object, the number of shadow clones,
 
 This extension can be used to:
 
+
 - Make an object look faster, such as during a speed powerup.  
 - Give a 3D-like feel to a character
 - Implement unique time-based elements, like teleporting a character back to a previous location
@@ -19,10 +20,12 @@ This extension can be used to:
 
 These object variables are provided to manage the shadow clones:
 
+
 - ShadowCloneOrder: Shadow clone identifier, where 1 is the shadow clone closest to the primary object
 - FramesBehindPrimary: The number of frames that the shadow clone is behind the primary object
 
 Notes: 
+
 - For shadow clones to work, this action must be run every frame.
 - The ShadowCloneObject cannot be the PrimaryObject, but it can be a duplicate object. 
 - For animations to work, the PrimaryObject and ShadowCloneObject must use the same animation numbers.

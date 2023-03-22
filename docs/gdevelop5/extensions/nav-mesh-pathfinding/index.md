@@ -16,6 +16,7 @@ Pathfinding allows to compute an efficient path for objects, avoiding obstacles 
 ---
 
 In comparison to the built-in pathfinding behavior, this one aims to:
+
 - better respect obstacle shapes
 - find paths faster if obstacles don't move
 

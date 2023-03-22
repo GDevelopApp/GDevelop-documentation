@@ -12,6 +12,7 @@ This extension requires two actions to function correctly:
 2) "Move projectile towards target" should be run every frame.  This will move all projectiles that are locked to targets.
 
 Parameters:
+
 - Rotation Speed: How fast the projectile rotates. This is critical in determining how fast the projectile can turn corners.
 - Initial Speed: Starting speed of the projectile
 - Acceleration: How much speed is added over time
@@ -19,6 +20,7 @@ Parameters:
 - Max Lifetime:  The number of seconds a projectile can exist after locking onto a target.  Once this time is reached the object is deleted.
 
 Tips:
+
 - Make sure to set the angle of the projectile before you use the "Move" action.  The projectile will turn towards the target, but you might want the projectile to be facing a certain direction. 
 - Since Max Speed is not enforced on the physics object, you can accomplish this by changing Linear Decay on the Physics behavior
 - Use the lifetime parameter to prevent missiles from chasing objects forever

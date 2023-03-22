@@ -8,6 +8,7 @@ Joysticks or buttons for touchscreens.
 ---
 
 Multitouch joysticks can be used the same way as physical gamepads:
+
 - 4 or 8 directions
 - Analogus pads
 - Player selection

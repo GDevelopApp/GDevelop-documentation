@@ -8,6 +8,7 @@ Checks if the game is currently executed on an allowed platform (for web).
 ---
 
 # About
+
 **Checks if your web game is being played on a platform your intended to publish on.**
 Some web game platforms may steal your game to publish it on their own without your knowledge or consent!
 This extension is here to check if the game is being played from a platform you intended!

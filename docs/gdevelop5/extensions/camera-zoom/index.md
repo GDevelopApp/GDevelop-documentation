@@ -13,6 +13,7 @@ This extension allows to zoom a camera on a layer at a given speed. The zoom spe
 
 ### Actions
 
+
 - Zoom at a given speed
 - Change the zoom with an anchor point
 - Zoom at a given speed and with an anchor point

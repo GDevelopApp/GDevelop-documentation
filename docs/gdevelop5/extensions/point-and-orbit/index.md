@@ -16,6 +16,7 @@ Point an object toward a position and Orbit around a position.
 ---
 
 # User can
+
 - Use the extension action multi times.
 - Point object toward position.
 - Orbit object around position.

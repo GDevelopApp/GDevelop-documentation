@@ -10,6 +10,7 @@ Display emoji characters in text objects and store them in strings.
 Display emoji characters in text objects and store them in strings. Emojis will look different deppending on the platform/device due do default font faces.
 
 This extension provide:
+
 - An string expression for get the emoji by name
 - An string expression for get the emoji by hexadecimal code
 

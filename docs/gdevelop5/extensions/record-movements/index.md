@@ -16,12 +16,15 @@ Allow the user to record object movements and recall them to make reverse time m
 ---
 
 # Actions
+
 **Record Movements:** to record the object movements,  
 such as (Xposition, Yposition, AnimationID, FrameID, HorziontalFlip, VerticalFlip, Angle,Width, Height, Visibility, Opacity).  
+
 **•** Ability to set the recording speed.  
 **Clear all object records:** to clear all previous records for the object.  
 **Load Movements:** to load the recorded movements of an object.  
 # Conditions
+
 **Condition Recorded frames has finished loading:** to check if the loaded frames has finished (= to 0).  
 **Condition Record limit is (below) number:** to check if the number of recorded frames is below number.  
 **Condition Record limit is (above) number:** to check if the number of recorded frames is above number.

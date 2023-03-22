@@ -8,6 +8,7 @@ Select the object, choose the number of rows and columns, the spacing between ro
 ---
 
 This extension can be used to create multiple copies of an object in a wide variety of arrangements, including:
+
 - horizontal row(s)
 - vertical column(s)
 - a solid rectangle or square
@@ -15,6 +16,7 @@ This extension can be used to create multiple copies of an object in a wide vari
 - a grid with different spacing between rows and columns
 
 After the objects are created, you can reference their object variables to manage the objects:
+
 
 * `RowID`:  what horizontal row does this object reside in,
 * `ColumnID`:  what vertical column does this object reside in,

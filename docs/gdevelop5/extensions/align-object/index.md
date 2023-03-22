@@ -17,9 +17,11 @@ Align objects on the scene relatively to the window (or screen size).
 
 Align objects on the scene relatively to the window (or screen size).
 
+
 **Be sure to put your object on a layer for which the camera position was not moved.**
 
 Actions provided are:
+
 
 * ToSceneCentered: horizontally and vertically centered in scene
 * ToSceneTop: vertically to the top in scene

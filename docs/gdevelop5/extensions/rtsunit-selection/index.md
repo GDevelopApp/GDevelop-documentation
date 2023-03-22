@@ -8,6 +8,7 @@ Allow player to select units by clicking on them or dragging a selection box.
 ---
 
 How To Use:
+
 - The "Allow player to select units" action must run every frame to work properly
 - When a drag is in progress, all units inside the selection box will be "PreSelected"
 - When the drag is released, all "PreSelected" units will be changed to "Selected"
@@ -15,16 +16,19 @@ How To Use:
 - Hold the subtractive select key to remove units from selection
 
 Control Group controls:
+
 - Ctrl + (1,2,3,4,5,6,7,9,0) assigns that Control Group to Selected units
 - (1,2,3,4,5,6,7,9,0) selects all units that are assigned to that Control Group
 
 Selection box:
+
 - When dragging, the selection area will be drawn by a Shape Painter object. 
 - If a Shape Painter instance has not been added in the scene, it will be created automatically.
 - To change the appearance of the selection area, change the Shape Painter properties.
 - Reduce the fill opacity of the SelectionBox (shape painter object) so that units and terrain can be seen behind it.
 
 Tips:
+
 - Use the "Preselected" and "Selected" conditions to highlight units that are being interacted with
 - Create an object group (i.e. "SelectableUnits") to control which types of objects can be selected
 - Use conditions to restrict which object instances can be selected. 

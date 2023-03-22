@@ -12,6 +12,7 @@ The extension will take care of creating/deleting orbiting objects to match the 
 Use the delete function or set the quantity to 0 to remove orbiting objects.
 
 The customizable parameters include:
+
 - Which center object to use
 - Orbiting object (cannot be the same object used for the Center object)
 - Quantity of orbiting objects
@@ -20,6 +21,7 @@ The customizable parameters include:
 - Speed to rotate each orbiting object (in degrees per second).  Use negative numbers to rotate counter-clockwise.
 
 Example uses:
+
 - Make shield objects around the player to protect from enemies
 - Weapons that can damage enemies when they collide
 - Can be used on both player and NPC objects 

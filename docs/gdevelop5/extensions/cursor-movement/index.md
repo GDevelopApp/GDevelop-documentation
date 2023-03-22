@@ -8,6 +8,7 @@ Conditions to check the cursor movement (still or moving).
 ---
 
 Provides two conditions:
+
 * The cursor is moving
 * The cursor has stayed still for a given duration
 

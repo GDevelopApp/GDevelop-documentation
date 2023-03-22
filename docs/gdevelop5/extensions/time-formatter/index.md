@@ -10,6 +10,7 @@ Converts seconds into standard time formats, such as HH:MM:SS.
 Ideal for displaying timers on screen.
 
 Formats included:
+
 * HH:MM:SS
 * HH:MM:SS.000 (displays milliseconds)
 

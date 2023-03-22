@@ -10,6 +10,7 @@ Snap objects on a virtual grid.
 It allows to snap objects on a *virtual grid*.
 
 It's useful for:
+
 - level editors
 - building systems
 

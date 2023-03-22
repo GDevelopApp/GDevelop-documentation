@@ -12,6 +12,7 @@ Games with pixel art usually use pixels bigger than actual pixels of the screen.
 This extension allows to seamlessly keep big pixels aligned when the object is stopped and still beneficiate from the high resolution of the screen to have smooth movements.
 
 It can be used for:
+
 * Pixel-perfect platformers ([open the project online](https://editor.gdevelop.io/?project=example://platformer-with-tilemap))
 * Align top-down characters on a grid ([open the project online](https://editor.gdevelop.io/?project=example://top-down-grid-movement))
 
