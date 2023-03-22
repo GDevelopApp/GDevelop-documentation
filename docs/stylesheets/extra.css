@@ -106,3 +106,11 @@ body[data-md-color-scheme="slate"] div[data-md-component="sidebar"] div.md-nav__
 body[data-md-color-scheme="slate"] div[data-md-component="sidebar"] label:hover {
   color: #DDD1FF;
 }
+
+/* Change secondary buttons visibility */
+body[data-md-color-scheme="slate"] a.md-button:not(.md-button--primary) {
+  color: #C9B6FC;
+}
+body[data-md-color-scheme="slate"] a.md-button:not(.md-button--primary):hover {
+  color: #FCFCFC;
+}
