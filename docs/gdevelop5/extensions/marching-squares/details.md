@@ -36,7 +36,7 @@ Liquids or blob effects can be made using contour lines. In the liquids example,
 
 The spikes are merged using the "Addition" operation. This is important because when 2 spikes are next to each other, their values add up and can go over value chosen for the contour line. This is what does the feeling of attraction between 2 drops.
 
-![](diskadditionnear.png)
+![](diskadditionnear.png) ![](diskaddition.png)
 
 
 ### Draw a fog of war
@@ -45,7 +45,7 @@ The spikes are merged using the "Addition" operation. This is important because 
 
 Contrary to the previous section, a fog of war needs the disks to be merged without a blob effect. This can be done by choosing the "Maximum" operation for the "Add disk" action.
 
-![](diskmax.png)
+![](diskmax.png) ![](diskmaxfar.png)
 
 Fog of wars often keep a trail of the scouted area. But, at every frame, the field of sight is cleared to be updated with the new location of the objects which means that previous scouted area is forgotten. The "merge" action can be used to keep the trail in another field.
 
@@ -70,7 +70,7 @@ The "Mask disk" operation hasn't been introduced before so let's take a look at 
 
 Previous sections show how to build shapes using "disk" actions that work a bit like a brush from drawing applications. In these applications, paint bucket tools can fill an area with color. In the same way, parts of the field can be filled to a given level with the "flood" action. It can also be seen as flooding a valley for a dam.
 
-![](floodbefore.png)
+![](floodbefore.png) ![](floodafter.png)
 
 
 ## Use scalar fields
@@ -81,7 +81,7 @@ Previous sections show how to build shapes using "disk" actions that work a bit 
 
 In the examples of the previous section, the scalar field was only used to build shapes from a contour line. When building a terrain, the field values represent the height, so all the field values are needed to give a graphical representation.
 
-The "disk" actions give very high values near the center. This doesn't allow a fine control over the terrain height. This is where the "hill" action comes in place. It allows to choose a height at a center. It could actually be used to draw shapes too but it needs more complicated computing than the "disk" actions. The following illustration shows one hill with a lower hight at the left and a higher one at the right.
+The "disk" actions give very high values near the center. This doesn't allow a fine control over the terrain height. This is where the "hill" action comes in place. It allows to choose a height at a center. It could actually be used to draw shapes too but it needs more complicated computing than the "disk" actions. The following illustration shows one hill with a lower height at the left and a higher one at the right.
 
 ![](hillheight2-8.png)
 
@@ -105,4 +105,4 @@ For instance, a terrain can be forced into an island. To do so, 2 constraints ca
 
 One scalar field can be used for the lower bound and another the upper bounds. They will define a range of value for every point of the surface and the noise will be stretched in between. They can be built with hills like in the following illustration to give the general shape of the island.
 
-![](islandspositioning.png)
+![](islandspositioning.png) ![](islandwithnoisea.png)
