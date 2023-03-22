@@ -1,7 +1,7 @@
 ---
 title: Upgrading your app from APK to Android App Bundles
 ---
-# Upgrading your app from APK to Android App Bundles 
+# Upgrading your app from APK to Android App Bundles
 
 If you previously uploaded a game using an APK, you now need to opt in to "Play App Signing" and then upload an Android App Bundle - that you can build using the latest GDevelop version.
 
@@ -17,8 +17,8 @@ To check if you've enabled Play App Signing, go to the Play Developer Console, t
 
 ![](/gdevelop5/publishing/android_and_ios/play-store/upgrading-from-apk-to-aab/pasted/20210722-155252.png)
 
-It means that you're already using Play App Signing for your game (if not, go to next section). If you've only published your game in the past as an Android App Bundle, there is nothing to do. 
-But if you've already published your game as an APK in the past, you need to build the Android App Bundle using the old "upload key" that was used for your APK. 
+It means that you're already using Play App Signing for your game (if not, go to next section). If you've only published your game in the past as an Android App Bundle, there is nothing to do.
+But if you've already published your game as an APK in the past, you need to build the Android App Bundle using the old "upload key" that was used for your APK.
 
 For this, in GDevelop, before packaging your game, make sure to go to "Signing Options":
 ![](/gdevelop5/publishing/android_and_ios/play-store/upgrading-from-apk-to-aab/pasted/20210722-155535.png)
@@ -28,17 +28,17 @@ And choose **"Old upload key"**:
 
 Close this dialog and package your game by clicking on **Packaging for Android**.
 
-You can then download and submit the Android App Bundle. 
+You can then download and submit the Android App Bundle.
 
 !!! note
 
     There is nothing else to do, but you must remember to set **Old upload key** before each packaging.
 
-## Case 2: you have not enabled Play App Signing yet 
+## Case 2: you have not enabled Play App Signing yet
 
 If you have not enabled Play App Signing, you need to enable it. You will be asked for two files when doing this.
 
-### 2.1: Request the encrypted private key and certificate files 
+### 2.1: Request the encrypted private key and certificate files
 
 Send an email to `contact.gdevapp@gmail.com` with:
 
@@ -67,7 +67,7 @@ After choosing ** Export and upload a key from Java keystore**:
 
 - Click **Upload Private Key** and choose the "encrypted-private-key" file sent to you.
 - Click **Show instructions** next to *"For increased security, create a new upload key"* (this is mandatory to do!).
-  - Click **Upload your upload key certificate** and choose the "upload-key-certificate.pem" file sent to you.
+- Click **Upload your upload key certificate** and choose the "upload-key-certificate.pem" file sent to you.
 
 !!! warning
 

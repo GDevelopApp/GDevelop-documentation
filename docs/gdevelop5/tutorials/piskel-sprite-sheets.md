@@ -6,9 +6,9 @@ When working with art assets, there may be times when an asset file has numerous
 
 However, GDevelop has the Piskel sprite editor built in to the editor, which can help avoid this manual effort. Piskel natively supports importing sprite sheets and can simplify this process.
 !!! tip
-    
+
         This process will split the sprite sheet into separate images automatically. It _will not_ keep the sprite sheet as a single image
-    
+
 ### Requirements
 To complete this method, the following requirements must be met:
 
@@ -39,13 +39,12 @@ To complete this method, the following requirements must be met:
 
 ## Step 3 - Complete the Sprite sheet Properties.
 
-  - Within the **Import and Merge** window, select **Import as Sprite sheet**.
-  - The frame size must be defined to match the size of each sprite. Most sprite sheets will have this be an even number.
-  - Adjust the frame size to properly match the size of each animation frame.
-    * Example - 
-       - This example sprite sheet imports as 512 pixels wide x 96 pixels high.
-       - There are four frames, and the sheet is set up to have even distance. This means the frame size needs to be adjusted to 1/4th 512 pixels wide, or 128 pixels.
-       - After adjusting the frame size, the boxes evenly split up each frame of animation.
+- Within the **Import and Merge** window, select **Import as Sprite sheet**.
+- The frame size must be defined to match the size of each sprite. Most sprite sheets will have this be an even number.
+- Adjust the frame size to properly match the size of each animation frame. Example:
+      - This example sprite sheet imports as 512 pixels wide x 96 pixels high.
+      - There are four frames, and the sheet is set up to have even distance. This means the frame size needs to be adjusted to 1/4th 512 pixels wide, or 128 pixels.
+      - After adjusting the frame size, the boxes evenly split up each frame of animation.
 
 ![](/gdevelop5/tutorials/piksel-sprite-sheets/pasted/20200330-024341.png)
 

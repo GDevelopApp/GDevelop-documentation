@@ -2,7 +2,7 @@
 title: How to backup and maintain your project using GitHub and GitHub Desktop
 ---
 # How to backup and maintain your project using GitHub and GitHub Desktop
-During game development, there are usually hundreds of changes from the beginning to the end of the project. There may be times when the developer needs to move back to an earlier version of the game or project. Without continual backups, this means manually undoing all of the work done days before, which can create other accidental errors.  GitHub provides a way to host the game project files, as well as complete Version Control for the game as development continues. 
+During game development, there are usually hundreds of changes from the beginning to the end of the project. There may be times when the developer needs to move back to an earlier version of the game or project. Without continual backups, this means manually undoing all of the work done days before, which can create other accidental errors.  GitHub provides a way to host the game project files, as well as complete Version Control for the game as development continues.
 
 ### Requirements
 To complete this process, the following requirements must be met:
@@ -13,63 +13,64 @@ To complete this process, the following requirements must be met:
 
 ### Step 1 - Set Up a GitHub Repository
 
-  - The following should be completed before creating the game project in GDevelop. If the game project has already been created, there are some additional steps to complete at the bottom of Step 2.
-  - Launch **GitHub Desktop**.
-  - Click the** File** menu.
-  - Click **New Repository...**.
-  - Within the **Name** field, type the desired name of the repository, without spaces. 
-     * e.g. If the game is named **My Game**, the repository should be named **My-Game**. If you don't remove the spaces, GitHub will do this for you, so make sure to pay attention to the repository name.
-  - Within the **Description** field, type a short description of your game.
-  - Within the **Local** path field, type or browse to the _parent directory_ of where you want your repository stored.
-      * e.g. If the final repository location should be ** D:\My Documents\My-Game ** \\ browse to ** D:\My Documents\ ** _only_
-  - Leave all other settings as default.
-  - Click **Create repository**. The local copy of the repository will be created and the screen will refresh.
-  - Click the blue **Publish repository** button towards the upper right. 
-  - Ensure the **Name** and **Description** fields have the appropriate information.
-  - If the repository _should not be_ available to the public, make sure the **Keep this code private** box is checked.  Your repository will be published to the Github site.
+- The following should be completed before creating the game project in GDevelop. If the game project has already been created, there are some additional steps to complete at the bottom of Step 2.
+- Launch **GitHub Desktop**.
+- Click the** File** menu.
+- Click **New Repository...**.
+- Within the **Name** field, type the desired name of the repository, without spaces.
+    - e.g. If the game is named **My Game**, the repository should be named **My-Game**. If you don't remove the spaces, GitHub will do this for you, so make sure to pay attention to the repository name.
+- Within the **Description** field, type a short description of your game.
+- Within the **Local** path field, type or browse to the _parent directory_ of where you want your repository stored.
+    - e.g. If the final repository location should be ** D:\My Documents\My-Game ** \\ browse to ** D:\My Documents\ ** _only_
+- Leave all other settings as default.
+- Click **Create repository**. The local copy of the repository will be created and the screen will refresh.
+- Click the blue **Publish repository** button towards the upper right.
+- Ensure the **Name** and **Description** fields have the appropriate information.
+- If the repository _should not be_ available to the public, make sure the **Keep this code private** box is checked.  Your repository will be published to the Github site.
 
 ### Step 2 - Create your Initial Commit
 #### For new Game Projects
 
-  - Within the GDevelop start page, click **CREATE A BLANK PROJECT**.
-  - Within the new window, populate the **PROJECT NAME** field with the desired project name.
-  - Click **CHOOSE FOLDER**. The **Choose a folder for the new game window** will appear.
-  - Browse to the repository directory. 
-  - Click **Select Folder**. The game project path will update.
-  - Click the desired example or **Empty game**. The game project will be created.
-  - Make any initial changes.
-     * It is strongly recommended to use Multiple File mode within the **Game Settings** > **Properties** window. This ensures that each scene and external event can be tracked separately.
-  - Click the **File** menu.
-  - Click **Save**.
-  - Within Github Desktop, the list of files on the left should update to show all of the project files.
-  - Within the **Summary** field on the lower left, type **initial commit**.
-  - Click **commit to master**. The files will disappear and the screen will update.
-  - Click the blue **Push origin** button near the upper right. The initial commit of the game project is now completed.
+- Within the GDevelop start page, click **CREATE A BLANK PROJECT**.
+- Within the new window, populate the **PROJECT NAME** field with the desired project name.
+- Click **CHOOSE FOLDER**. The **Choose a folder for the new game window** will appear.
+- Browse to the repository directory.
+- Click **Select Folder**. The game project path will update.
+- Click the desired example or **Empty game**. The game project will be created.
+- Make any initial changes.
+    - It is strongly recommended to use Multiple File mode within the **Game Settings** > **Properties** window. This ensures that each scene and external event can be tracked separately.
+- Click the **File** menu.
+- Click **Save**.
+- Within Github Desktop, the list of files on the left should update to show all of the project files.
+- Within the **Summary** field on the lower left, type **initial commit**.
+- Click **commit to master**. The files will disappear and the screen will update.
+- Click the blue **Push origin** button near the upper right. The initial commit of the game project is now completed.
 
 #### For existing Game Projects
 
-  - Within GDevelop, ensure the game project is currently open.
-     * It is strongly recommended to use Multiple File mode within the **Game Settings** > **Properties** window. This ensures that each scene and external event can be tracked separately.  - Click the **File** menu.
-  - Click **Save As...**. The **Save As** window will display.
-  - Browse to the repository directory.
-  - Click **Save**. The project files will be saved to this folder, and the original project location should no longer be used.
-  - Within Github Desktop, the list of files on the left should update to show all of the project files.
-  - Within the **Summary** field on the lower left, type **initial commit**.
-  - Click **commit to master**. The files will disappear and the screen will update.
-  - Click the blue **Push origin** button near the upper right. The initial commit of the game project is now completed.
+- Within GDevelop, ensure the game project is currently open.
+    - It is strongly recommended to use Multiple File mode within the **Game Settings** > **Properties** window. This ensures that each scene and external event can be tracked separately.
+- Click the **File** menu.
+- Click **Save As...**. The **Save As** window will display.
+- Browse to the repository directory.
+- Click **Save**. The project files will be saved to this folder, and the original project location should no longer be used.
+- Within Github Desktop, the list of files on the left should update to show all of the project files.
+- Within the **Summary** field on the lower left, type **initial commit**.
+- Click **commit to master**. The files will disappear and the screen will update.
+- Click the blue **Push origin** button near the upper right. The initial commit of the game project is now completed.
 
 ### Step 3 - Create the first branch
 
-  - Within GitHub Desktop, click the **Current branch** drop down. // ![](/gdevelop5/tutorials/using-github-desktop/pasted/20200710-024151.png) //
-  - Click **New Branch**. The **Create a branch** window will display.
-  - Type the name for the branch. Commonly this will be the name of a feature or function currently being worked on. 
-      * e.g. If working on level graphics, consider naming each separate branch for the level _currently_ being worked on such as Level-1. Remember, spaces in GitHub names aren't allowed. If a space is used, GitHub will automatically replace it with a hyphen.
-  - Click **Create branch**. The screen will update.
-  - Click the blue **Publish branch** button. The branch will be created on Github.
-  - Ensure that the **Current branch** dropdown now shows the newly created branch.
-  - Begin making changes to the game in GDevelop.
-  - After saving in GDevelop, consider making an **initial commit** to this branch similar to Step 2 above.
-  - Going forward, after making large changes related to this branch, make sure to commit the changes to the branch within Github Desktop.
+- Within GitHub Desktop, click the **Current branch** drop down. // ![](/gdevelop5/tutorials/using-github-desktop/pasted/20200710-024151.png) //
+- Click **New Branch**. The **Create a branch** window will display.
+- Type the name for the branch. Commonly this will be the name of a feature or function currently being worked on.
+    - e.g. If working on level graphics, consider naming each separate branch for the level _currently_ being worked on such as Level-1. Remember, spaces in GitHub names aren't allowed. If a space is used, GitHub will automatically replace it with a hyphen.
+- Click **Create branch**. The screen will update.
+- Click the blue **Publish branch** button. The branch will be created on Github.
+- Ensure that the **Current branch** dropdown now shows the newly created branch.
+- Begin making changes to the game in GDevelop.
+- After saving in GDevelop, consider making an **initial commit** to this branch similar to Step 2 above.
+- Going forward, after making large changes related to this branch, make sure to commit the changes to the branch within Github Desktop.
 
 ### Step 4 - Additional processes
 

@@ -10,10 +10,10 @@ By providing easy-to-use and high-quality assets we're allowing creators to get 
 
 It contains 2 types of asset packs:
 
-   -  **Free** to use art, accessible to anyone, royalty-free, and open for any type of modification
-  -   **Premium art**, carefully selected by the GDevelop team for a more unique game style
+-  **Free** to use art, accessible to anyone, royalty-free, and open for any type of modification
+-  **Premium art**, carefully selected by the GDevelop team for a more unique game style
 
-This page provides information on how to sell your assets on GDevelop's Asset Store. You can also directly **[open this form to sell premium assets on GDevelop's store](https://forms.gle/rqQajpDWEF3Em8HS6)**. 
+This page provides information on how to sell your assets on GDevelop's Asset Store. You can also directly **[open this form to sell premium assets on GDevelop's store](https://forms.gle/rqQajpDWEF3Em8HS6)**.
 If we've already contacted us or want to know more, just keep reading!
 
 
@@ -76,7 +76,7 @@ In order to be eligible to sell Asset Packs on the app, you'll need:
   * An address in your country of residence
   * A bank account in your country of residence
 
-Once your assets have been accepted, GDevelop's team will create a Stripe account for you. 
+Once your assets have been accepted, GDevelop's team will create a Stripe account for you.
 You will have to complete your registration with your email address, home address, full name, and bank details. Once you've filled in this information, your Stripe account will be up and running with a purchases dashboard, where you'll be able to follow all your transactions.
 Payments to your bank account can be scheduled directly on Stripe to happen on a daily basis.
 

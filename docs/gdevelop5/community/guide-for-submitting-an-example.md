@@ -19,7 +19,7 @@ You can discuss with the GDevelop community on [Discord](https://discord.com/inv
 
 ## License
 
-The example will be MIT licensed (see [this](https://en.wikipedia.org/wiki/MIT_License) for more info about the MIT license). 
+The example will be MIT licensed (see [this](https://en.wikipedia.org/wiki/MIT_License) for more info about the MIT license).
 
 You will have to make sure the example can be MIT licensed and make sure the resources can also be distributed under the MIT license. If you are having doubts about the license of the resources, ask the creator and ask for permission (this is important!).
 
@@ -53,7 +53,7 @@ You will have to make sure the example can be MIT licensed and make sure the res
 
 - Related events should be added into a group with proper naming.
 
-  - Color code your groups to allow differentiating them quickly.
+    - Color code your groups to allow differentiating them quickly.
 
 - If the same events are used in multiple places, you can use external events or a function in an extension.
 
@@ -151,9 +151,9 @@ You can submit the example to the [Example repository](https://github.com/GDevel
 
 ![](/gdevelop5/community/github-submit-issue.png)
 
-Congratulations! Now your example has been submitted, but it won't be directly added to the library. A **review** of the example will be done to make sure the example is ready to be added. You might have to refactor some events if the review suggests to. 
+Congratulations! Now your example has been submitted, but it won't be directly added to the library. A **review** of the example will be done to make sure the example is ready to be added. You might have to refactor some events if the review suggests to.
 
 !!! warning
-    
-        There is no guarantee that your example will be accepted, it can be rejected if the example is not suitable 
+
+        There is no guarantee that your example will be accepted, it can be rejected if the example is not suitable
      for the library. Also remember that while it's hard to get some feedback, reviewers are asking for changes because they believe this will improve your example. Try to rework the example using their feedback! Once you think it's good enough, you can ask for another review or discuss points where you might disagree.
