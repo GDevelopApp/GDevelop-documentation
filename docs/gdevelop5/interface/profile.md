@@ -69,7 +69,7 @@ Once you've clicked on a plan, you'll be asked for your credit card number so th
 
 !!! note
 
-        Payments are secured, transacted and encrypted using [Stripe.com](https://stripe.com) and [Paypal](https://www.paypal.com/), which are established online payment services. GDevelop do not keept any bank information. Every transactions are secured and handled by the Stripe or Paypal infrastructure.
+        Payments are secured, transacted, and encrypted using [Stripe.com](https://stripe.com) and [Paypal](https://www.paypal.com/), which are established online payment services. GDevelop does not keep any bank information. Every transaction is secured and handled by the Stripe or Paypal infrastructure.
 
 ### Changing your subscription
 
