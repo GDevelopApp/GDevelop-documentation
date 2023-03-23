@@ -31,7 +31,7 @@ You can customize your public profile information directly from the GDevelop int
 
 ![](/gdevelop5/interface/profile/gdevelop_profile_customize.gif)
 
-A profile can have some properties:
+Profiles have different properties:
 
 - **An username**. Your unique username on GDevelop's websites and services.
 - **A biography**. Introduce yourself in a few words, tell us who you are and what you do.
