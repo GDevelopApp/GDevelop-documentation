@@ -1,11 +1,29 @@
 ---
 title: Contributing to the documentation
 ---
+
 # Contributing to the documentation
 
 GDevelop's documentation is powered by the community and everyone is encouraged to contribute.
 
-This page provides a few guidelines to help maintain the quality of the documentation.
+To submit a change to any existing page within the Wiki, complete the following:
+
+1. Browse to the wiki page that will be edited.
+2. On the upper right of the page, click the **Edit this page** button.
+    - It will appear as a paper and pencil icon. ![image](edit_dark.png#only-dark)![image](edit_light.png#only-light)
+3. Click **Fork this repository**. This only needs to be done once.
+4. Make changes using the online text editor provided by GitHub. Make sure to follow the guidelines listed below.
+5. Within the **Propose Changes** section, add a short description of the changes.
+6. Click the **Propose Changes** button.
+7. Click **Create pull request**.
+8. Click **Create pull request**.
+
+Now it's up to the documentation team to review and approve the change.
+Thank you for your contribution to improve the documentation of GDevelop!
+
+# Documentation Standards and Best Practices
+
+The rest of this page provides a few guidelines to help maintain the quality of the documentation.
 
 ## Be consistent
 
@@ -26,7 +44,6 @@ For example, don't write this:
 Instead, write this:
 
 > Text objects display text on screen. You can customize text properties (for example, size and color) upon creation. You can also modify text object properties during gameplay using events.
-
 
 ## Create separate pages of concepts, tasks, and reference documentation
 
@@ -66,10 +83,10 @@ Markdown is a syntax for formatting text on the web. It's simple, easy to learn,
 
 If you're directly quoting something that appears in the app, whether it be a button, tab name, condition/action/etc, you want to bold it. This indicates you are exactly quoting how it is named, especially from a numbered list of instructions.
 
-
 ![](/gdevelop5/community/list_instruction_wiki.png)
 
+## When in doubt on structure or writing methods, follow the Style guide
 
-## When in doubt, follow the Google style guide
+For questions on syntax around text formatting (bold, creating lists, etc), refer to https://github.com/GDevelopApp/GDevelop-documentation/blob/main/SYNTAX.md
 
-If you're not sure how to write or format something, refer to the [Google developer documentation style guide](https://developers.google.com/style). It's a big guide, so you're not expected to memorize it, but it works great as a reference.
+If you're not sure how to write something or the best way to show steps, refer to the [Google developer documentation style guide](https://developers.google.com/style). This should only be used for documentation style best practices, and syntax should instead follow the link above. This is a big guide, so you're not expected to memorize it, but it works great as a reference.
