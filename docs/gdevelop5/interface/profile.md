@@ -48,15 +48,15 @@ GDevelop does not host or control profile pictures. Instead, it obtains your pro
 
 ### Get a subscription
 
-With the free plan the online services are limited. Limited services rely on servers that can be costly.
-If your uses of GDevelop start require more exports each day or a higher number of leaderboards, or you may want to customise the leaderboards of your games you may want to upgrade your free plan to a better plan.
+With the free plan, the online services are limited. These services rely on servers which can be costly.
+If you find yourself needing more exports each day or a higher number of leaderboards, or if you want to customize the leaderboards in your games you may want to upgrade your free plan to a better one.
 
 See the [pricing page](https://gdevelop.io/pricing) to know more about the advantages of the Silver, Gold, School, and Business subscriptions compared to the free plan.
 
 
 !!! note
 
-        ✨ By taking a subscription you helps to the future development of GDevelop. Thank you for your supports!
+        ✨ By taking a subscription you help the future development of GDevelop. Thank you for your support!
 
 
 Once you're logged in, go to your profile as described earlier in the page.
