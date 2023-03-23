@@ -73,7 +73,7 @@ Once you've clicked on a plan, you'll be asked for your credit card number so th
 
 ### Changing your subscription
 
-If you want to update your subscription, either to upgrade to a subscription with more packagings or to a subscription which is cheaper, just open again your profile and click on **Manage subscription** then choose another plan.
+If you want to update your subscription, either to change to a subscription with more flexibility or to a subscription that is cheaper, just open your profile again and click on Manage subscription then choose another plan.
 
 The next payment will automatically be adapted to the new subscription you choosen!
 
