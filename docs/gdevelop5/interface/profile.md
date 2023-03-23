@@ -4,7 +4,7 @@ title: My profile
 # My profile
 
 The profile page allows you to manage your GDevelop account, and customize what others see on your profile. This is also the place to manage your subscription.
-A GDevelop account is needed to profit of GDevelop services such as the one-click export of your game for Android, iOS, Windows, macOS, Linux and [gd.games](https://gd.games/).
+A GDevelop account is needed to use GDevelop services such as the one-click export of your game for Android, iOS, Windows, macOS, Linux, and [gd.games](https://gd.games/).
 
 You can see your account details or, if you don't have one, create a new one for free.
 
