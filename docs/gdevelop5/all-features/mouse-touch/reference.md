@@ -60,10 +60,10 @@ Compare the Y position of a specific touch.
 | Expression | Description |  |
 |-----|-----|-----|
 | `CursorX(layer, number)` | Return the X position of the cursor or of a touch. ||
-| | _layer_ | Layer (base layer if empty) _Optional_. |
+| | _layer_ | Layer _Optional_. |
 | | _number_ | Camera number (default : 0) _Optional_. |
 | `CursorY(layer, number)` | Return the Y position of the cursor or of a touch. ||
-| | _layer_ | Layer (base layer if empty) _Optional_. |
+| | _layer_ | Layer _Optional_. |
 | | _number_ | Camera number (default : 0) _Optional_. |
 | `MouseWheelDelta()` | Mouse wheel displacement ||
 | `StartedTouchOrMouseCount()` | The number of touches (including the mouse) that have just started on this frame. The touch identifiers can be accessed using StartedTouchOrMouseId(). ||
@@ -71,11 +71,11 @@ Compare the Y position of a specific touch.
 | | _number_ | Touch index |
 | `TouchX(number, layer, number)` | Return the X position of a specific touch. ||
 | | _number_ | Touch identifier |
-| | _layer_ | Layer (base layer if empty) _Optional_. |
+| | _layer_ | Layer _Optional_. |
 | | _number_ | Camera number (default : 0) _Optional_. |
 | `TouchY(number, layer, number)` | Return the Y position of a specific touch. ||
 | | _number_ | Touch identifier |
-| | _layer_ | Layer (base layer if empty) _Optional_. |
+| | _layer_ | Layer _Optional_. |
 | | _number_ | Camera number (default : 0) _Optional_. |
 
 ---
