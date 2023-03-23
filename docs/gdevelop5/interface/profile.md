@@ -8,25 +8,21 @@ A GDevelop account is needed to profit of GDevelop services such as the one-clic
 
 You can see your account details or, if you don't have one, create a new one for free.
 
-In the window, you can see your profile (or create one if you don't have an account) and also see the last usages you've done of the online services.
-
 ## Create an account
 
-If you don't have an account, you can create one for free.
-
-
- 1. Start by going to the **home** screen.
+ 1. Start by going to the **Home** screen.
  2. In the top-right corner click on **Create account**.
 
 ![](/gdevelop5/interface/home not logged.png)
 
-3. Enter your username, fill your email address, and choose a password.
-4. Then confirm with **Create account**.
+ 3. Enter your username, fill your email address, and choose a password.
+ 4. Then click **Create account**.
+ 5. To confirm your account creation, you will receive an email with a link to click on. 
 
 ![](/gdevelop5/interface/account-create-details.png)
 
 
-Once you're logged into your account, you can see your profile. You can then use GDevelop specific services. Services like packaging your game for multiple support in one click!
+Once you're logged into your account, you can see your profile. You can then use GDevelop specific services like packaging your game for multiple support in one click!
 
 
 ### Customize your profile
@@ -52,49 +48,49 @@ GDevelop does not host and control profile pictures. Instead, it obtains your pr
 
 ### Get a subscription
 
-With the free plan a few online services are limited. Limited services rely on servers that can be costly.
-If your uses of GDevelop start require more exports each day or a higher number of leaderboards, or you may want to customise the leaderboards of your games you may want to upgrade your free plan to a bigger one.
+With the free plan the online services are limited. Limited services rely on servers that can be costly.
+If your uses of GDevelop start require more exports each day or a higher number of leaderboards, or you may want to customise the leaderboards of your games you may want to upgrade your free plan to a better plan.
 
-See the [pricing page](https://gdevelop.io/pricing) to know more about the advantages of the Silver and Gold subscriptions compared to the free plan.
+See the [pricing page](https://gdevelop.io/pricing) to know more about the advantages of the Silver, Gold, School, and Business subscriptions compared to the free plan.
+
 
 !!! note
 
-        ✨ Your subscription also supports the future development of GDevelop. Thank you for your support!
+        ✨ By taking a subscription you helps to the future development of GDevelop. Thank you for your supports!
 
 
-// TODO 
+Once you're logged in, go to your profile as described earlier in the page.
+Scroll down, and click on the **Choose a subscription** button beneath **My online services subscriptions**.
 
-// CONTINUE TO REWRITE below
+![](/gdevelop5/interface/my profile.png)
 
-Once you're logged in, go to your profile as described earlier in the page. Scroll down, and click on the **"Choose a subscription"** button beneath "My online services subscriptions":
-
-![](/gdevelop5/interface/choose-a-subscription.png)
-
-You will be able to see a description of each available plan. Choose the one that suits your needs:
-
-![](/gdevelop5/interface/profile/pasted/20220526-111214.png)
-
-Once you've clicked on **Choose this plan**, you'll be asked for your credit card number so that the subscription can be paid each month.
+You will be able to see a description of each available plan. Choose the one that suits your needs by clicking on **Choose this plan**.
+Once you've clicked on a plan, you'll be asked for your credit card number so that the subscription can be paid each month.
 
 !!! note
 
-        Payments are secured, transacted and encrypted using [Stripe.com](https://stripe.com), which is an established online payment enterprise. GDevelop do not keept any bank information. Every transactions are secured and handled by the Stripe infrastructure.
+        Payments are secured, transacted and encrypted using [Stripe.com](https://stripe.com) and [Paypal](https://www.paypal.com/), which are established online payment services. GDevelop do not keept any bank information. Every transactions are secured and handled by the Stripe or Paypal infrastructure.
 
 ### Changing your subscription
 
-If you want to update your subscription, either to upgrade to a subscription with more packagings or to a subscription which is cheaper, just open again your profile and click on **Upgrade/Change**.
+If you want to update your subscription, either to upgrade to a subscription with more packagings or to a subscription which is cheaper, just open again your profile and click on **Manage subscription** then choose another plan.
 
 The next payment will automatically be adapted to the new subscription you choosen!
 
 ### Cancelling your subscription
 
-Cancelling your subscription at any time is easy: open again your profile and click on **Upgrade/Change**. Choose the Free subscription and your current subscription will be stopped, no new payment will be required.
+Cancelling your subscription at any time is easy.
 
-In the bottom of the window, choose **Cancel Your Subscription**:
+ 1. Open your profile.
+ 2. Click on **Manage subscription**.
+ 3. See your current subscription, then click on **Cancel Your Subscription** will be immediatelly stopped, no new payment will be required, and all payment stops.
 
-![](/gdevelop5/interface/profile/pasted/20200411-163941.png)
+![](/gdevelop5/interface/cancel your subscription.png)
 
-If you want, you can later subscribe again to another subscription. In any case, you won't lose any of your games or work!
+!!! note
+		
+		If you want, you can later subscribe again to another subscription. In any case, you won't lose any of your games or work!
+
 
 ### Redeem a code
 
@@ -106,7 +102,7 @@ If you want, you can later subscribe again to another subscription. In any case,
 If you don’t have a GDevelop account yet, create one (you just need an email address, a username, and a password).
 
 Once your account is created, open your profile, click on **Manage subscription** then on **Redeem a code** .
-If you’re lost, click on the link below to open your subscription panel:
+If you’re lost, click on the link below to open your subscription panel in your browser:
 
 [https://editor.gdevelop.io/?initial-dialog=subscription](https://editor.gdevelop.io/?initial-dialog=subscription)
 
