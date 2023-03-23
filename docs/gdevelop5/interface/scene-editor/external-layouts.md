@@ -4,7 +4,6 @@ title: External layouts
 # External layouts
 
 An external layout can be used to create a layout of objects, in the same way you would in a scene editor. Objects in an external layout can then be dynamically loaded into a scene using the action **Create objects from an external layout**.
-{ data-role="definition" }
 
 
 This can be useful to :
