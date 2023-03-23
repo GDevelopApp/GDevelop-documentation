@@ -83,7 +83,7 @@ Cancelling your subscription at any time is easy.
 
  1. Open your profile.
  2. Click on **Manage subscription**.
- 3. See your current subscription, then click on **Cancel Your Subscription** will be immediatelly stopped, no new payment will be required, and all payment stops.
+ 3. See your current subscription, then click on Cancel Your Subscription, no new payment will be required, and all payments will be stopped.
 
 ![](/gdevelop5/interface/profile/cancel your subscription.png)
 
