@@ -5,6 +5,7 @@ GDevelop's wiki is based on the framework [MkDocs](https://www.mkdocs.org/) that
 Note:
 
 - MkDocs uses the [python markdown](https://python-markdown.github.io/) syntax that is slightly different from the markdown one. For instance it handles lists differently (see below).
+- Displaying images comes with features brought by Material for MkDocs. Check [the reference here](https://squidfunk.github.io/mkdocs-material/reference/images/).
 
 ## Tips and tricks
 
@@ -53,8 +54,7 @@ List of objects:
 - Text
 ```
 
-
-### Center an image
+### Display an image
 
 An image is added with this syntax:
 
@@ -62,7 +62,17 @@ An image is added with this syntax:
 ![Image description](/path/to/image.png)
 ```
 
-By default, the image will be aligned on the left.
+#### Change image size
+
+You can set the width of an image (the aspect ratio will be kept) with:
+
+```md
+![Image description](/path/to/image.png){ width=300 }
+```
+
+#### Center an image with no text on the side
+
+By default, the image will be aligned on the left and there will be no text displayed on the left or on the right of the image.
 
 To center it, do the following:
 
@@ -76,4 +86,14 @@ To have it aligned on the right, do the following:
 ```md
 ![Image description](/path/to/image.png)
 { .align-right }
+```
+
+#### Display text on the side
+
+**This features is available only for images aligned on the left or on the right.**
+
+To display text alongside an image, use this syntax:
+
+```md
+![Image description](/path/to/image.png){ align=left }
 ```
