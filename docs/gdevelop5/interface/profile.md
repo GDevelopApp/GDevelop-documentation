@@ -27,7 +27,7 @@ Once you're logged into your account, you can see your profile. You can then use
 
 ### Customize your profile
 
-You can customise your public profile information directly from the GDevelop interface to tell more about you as a game creator. The details filled will all be displayed on [gd.games](https://gd.games/) the GDevelop's gaming platform and on your GDevelop user page that appears if someone clicks on your name on one of your contribution such as extensions, examples, and assets.
+You can customize your public profile information directly from the GDevelop interface to share more about yourself as a game creator. The details filled will all be displayed on GDevelop's game hosting platform [gd.games](https://gd.games/) and on your GDevelop user page that appears if someone clicks on your name on one of your contributions such as extensions, examples, and assets.
 
 ![](/gdevelop5/interface/profile/gdevelop_profile_customize.gif)
 
