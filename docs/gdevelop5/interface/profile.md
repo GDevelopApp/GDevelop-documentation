@@ -37,7 +37,7 @@ Profiles have different properties:
 - **A biography**. Introduce yourself in a few words, tell us who you are and what you do.
 - **A donation link**. Useful for linking your Patreon, Paypal, Ko-fi, or any URL.
 - If your subscription to the **GDevelop Newsletter** is active.
-- Is your subscription to **the analytics of your games** is active.
+- If your subscription to **the analytics of your games** is active.
 - The current **GDevelop subscription** running on your account.
 
 ### Changing your profile picture
