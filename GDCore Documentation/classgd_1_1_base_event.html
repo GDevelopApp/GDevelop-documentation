@@ -151,6 +151,12 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#a84f8102271fd84dd4e3ae9a3c6db6751">UnserializeFrom</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element)</td></tr>
 <tr class="memdesc:a84f8102271fd84dd4e3ae9a3c6db6751"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unserialize the event. <br /></td></tr>
 <tr class="separator:a84f8102271fd84dd4e3ae9a3c6db6751"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab560dba4716e69ec65616e5bfd028db"><td class="memItemLeft" align="right" valign="top"><a id="aab560dba4716e69ec65616e5bfd028db"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>AcceptVisitor</b> (<a class="el" href="classgd_1_1_event_visitor.html">gd::EventVisitor</a> &amp;eventVisitor)</td></tr>
+<tr class="separator:aab560dba4716e69ec65616e5bfd028db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeffe78f87d584c565ebf39e960f3637a"><td class="memItemLeft" align="right" valign="top"><a id="aeffe78f87d584c565ebf39e960f3637a"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>AcceptVisitor</b> (<a class="el" href="classgd_1_1_read_only_event_visitor.html">gd::ReadOnlyEventVisitor</a> &amp;eventVisitor) const</td></tr>
+<tr class="separator:aeffe78f87d584c565ebf39e960f3637a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Common properties</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Common method shared by all events. ( No need for them to be overridden by derived classes ). </p>
 </div></td></tr>
@@ -244,7 +250,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Must return a pointer to a copy of the event. A such method is needed as the IDE may want to store copies of some events and so need a way to do polymorphic copies.</p>
 <p>Typical implementation example: </p><div class="fragment"><div class="line"><span class="keywordflow">return</span> <span class="keyword">new</span> MyEventClass(*<span class="keyword">this</span>);</div></div><!-- fragment --> 
-<p>Reimplemented in <a class="el" href="classgd_1_1_async_event.html#a6c62663486917230993aa35756ca03bc">gd::AsyncEvent</a>, <a class="el" href="classgd_1_1_link_event.html#a25bfade15da128979104e329d76f4d41">gd::LinkEvent</a>, <a class="el" href="classgd_1_1_while_event.html#af64be6530a11d78cd17ee170524cd0ea">gd::WhileEvent</a>, <a class="el" href="classgd_1_1_for_each_event.html#a88272031d1c6e12b7464a98f5693374c">gd::ForEachEvent</a>, <a class="el" href="classgd_1_1_group_event.html#a667c57999a355e3c4bb279a092aecff5">gd::GroupEvent</a>, <a class="el" href="classgd_1_1_standard_event.html#a562cd062ec5f42d310b54de7e0ada10f">gd::StandardEvent</a>, <a class="el" href="classgd_1_1_comment_event.html#a5e603a34e221ae619c5364fc33e1f1a4">gd::CommentEvent</a>, <a class="el" href="classgd_1_1_for_each_child_variable_event.html#a4c791927bde0b12938c92c58012ca7ad">gd::ForEachChildVariableEvent</a>, and <a class="el" href="classgd_1_1_repeat_event.html#a639c33f1751fdacdbacb2e1328b8dbdf">gd::RepeatEvent</a>.</p>
+<p>Reimplemented in <a class="el" href="classgd_1_1_async_event.html#a6c62663486917230993aa35756ca03bc">gd::AsyncEvent</a>, <a class="el" href="classgd_1_1_link_event.html#a1d0bc7dc7489a20ddf0d75d9485ea716">gd::LinkEvent</a>, <a class="el" href="classgd_1_1_group_event.html#a667c57999a355e3c4bb279a092aecff5">gd::GroupEvent</a>, <a class="el" href="classgd_1_1_while_event.html#af64be6530a11d78cd17ee170524cd0ea">gd::WhileEvent</a>, <a class="el" href="classgd_1_1_for_each_event.html#a88272031d1c6e12b7464a98f5693374c">gd::ForEachEvent</a>, <a class="el" href="classgd_1_1_standard_event.html#a562cd062ec5f42d310b54de7e0ada10f">gd::StandardEvent</a>, <a class="el" href="classgd_1_1_comment_event.html#a5e603a34e221ae619c5364fc33e1f1a4">gd::CommentEvent</a>, <a class="el" href="classgd_1_1_for_each_child_variable_event.html#a4c791927bde0b12938c92c58012ca7ad">gd::ForEachChildVariableEvent</a>, and <a class="el" href="classgd_1_1_repeat_event.html#a639c33f1751fdacdbacb2e1328b8dbdf">gd::RepeatEvent</a>.</p>
 
 </div>
 </div>
@@ -565,7 +571,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Derived class have to redefine this function, so as to return true, if they are executable. </p>
 
-<p>Reimplemented in <a class="el" href="classgd_1_1_link_event.html#a57bd2b27d8928750fe4da66a634bf317">gd::LinkEvent</a>, <a class="el" href="classgd_1_1_async_event.html#a2ef23186363bd65ecfa170b897dbc189">gd::AsyncEvent</a>, <a class="el" href="classgd_1_1_while_event.html#a30c746bff3ce8237a65405ed7ff9f3cc">gd::WhileEvent</a>, <a class="el" href="classgd_1_1_for_each_event.html#a438aa4b616df085427203511e1bc71fa">gd::ForEachEvent</a>, <a class="el" href="classgd_1_1_group_event.html#a68edf90cfc8eaf7b901d99026dbafef7">gd::GroupEvent</a>, <a class="el" href="classgd_1_1_for_each_child_variable_event.html#aa17a75e6651a8339166a6bfc93661361">gd::ForEachChildVariableEvent</a>, <a class="el" href="classgd_1_1_standard_event.html#a54369b234f5ab0b6bcfe6867740ef795">gd::StandardEvent</a>, and <a class="el" href="classgd_1_1_repeat_event.html#ac0d5245735baf5a356d762fe5abb8640">gd::RepeatEvent</a>.</p>
+<p>Reimplemented in <a class="el" href="classgd_1_1_link_event.html#ac6449ee90590011e778934221f96778d">gd::LinkEvent</a>, <a class="el" href="classgd_1_1_async_event.html#a2ef23186363bd65ecfa170b897dbc189">gd::AsyncEvent</a>, <a class="el" href="classgd_1_1_group_event.html#a68edf90cfc8eaf7b901d99026dbafef7">gd::GroupEvent</a>, <a class="el" href="classgd_1_1_while_event.html#a30c746bff3ce8237a65405ed7ff9f3cc">gd::WhileEvent</a>, <a class="el" href="classgd_1_1_for_each_event.html#a438aa4b616df085427203511e1bc71fa">gd::ForEachEvent</a>, <a class="el" href="classgd_1_1_for_each_child_variable_event.html#aa17a75e6651a8339166a6bfc93661361">gd::ForEachChildVariableEvent</a>, <a class="el" href="classgd_1_1_standard_event.html#a54369b234f5ab0b6bcfe6867740ef795">gd::StandardEvent</a>, and <a class="el" href="classgd_1_1_repeat_event.html#ac0d5245735baf5a356d762fe5abb8640">gd::RepeatEvent</a>.</p>
 
 </div>
 </div>
@@ -597,7 +603,7 @@ Public Attributes</h2></td></tr>
 <dd>
 <a class="el" href="classgd_1_1_event_metadata.html" title="Describe an event provided by an extension of a platform. ">gd::EventMetadata</a> </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classgd_1_1_link_event.html#a2b5086be682528fd93906f55616aea64">gd::LinkEvent</a>.</p>
+<p>Reimplemented in <a class="el" href="classgd_1_1_link_event.html#aafc34449c73c3fa3c95ca2c9b9d9737e">gd::LinkEvent</a>.</p>
 
 </div>
 </div>

@@ -6,5 +6,6 @@ var searchData=
   ['layouthasname',['LayoutHasName',['../structgd_1_1_layout_has_name.html',1,'gd']]],
   ['level',['Level',['../struct_writer_1_1_level.html',1,'Writer']]],
   ['linkevent',['LinkEvent',['../classgd_1_1_link_event.html',1,'gd']]],
+  ['linkeventtargetrenamer',['LinkEventTargetRenamer',['../classgd_1_1_link_event_target_renamer.html',1,'gd']]],
   ['loadingscreen',['LoadingScreen',['../classgd_1_1_loading_screen.html',1,'gd']]]
 ];

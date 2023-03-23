@@ -35,6 +35,7 @@ var searchData=
   ['project',['Project',['../classgd_1_1_project.html',1,'gd::Project'],['../classgd_1_1_events_code_generator.html#a124bbe24df17eebfbff5161c7e2f311e',1,'gd::EventsCodeGenerator::project()']]],
   ['projectbrowser',['ProjectBrowser',['../classgd_1_1_project_browser.html',1,'gd']]],
   ['projectbrowserhelper',['ProjectBrowserHelper',['../classgd_1_1_project_browser_helper.html',1,'gd']]],
+  ['projectelementrenamer',['ProjectElementRenamer',['../classgd_1_1_project_element_renamer.html',1,'gd']]],
   ['projectresourcesadder',['ProjectResourcesAdder',['../classgd_1_1_project_resources_adder.html',1,'gd']]],
   ['projectresourcescopier',['ProjectResourcesCopier',['../classgd_1_1_project_resources_copier.html',1,'gd']]],
   ['projectstripper',['ProjectStripper',['../classgd_1_1_project_stripper.html',1,'gd']]],

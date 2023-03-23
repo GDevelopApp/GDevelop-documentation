@@ -29,7 +29,7 @@ var searchData=
   ['streamtraits',['StreamTraits',['../struct_stream_traits.html',1,'']]],
   ['streamtraits_3c_20genericinsitustringstream_3c_20encoding_20_3e_20_3e',['StreamTraits&lt; GenericInsituStringStream&lt; Encoding &gt; &gt;',['../struct_stream_traits_3_01_generic_insitu_string_stream_3_01_encoding_01_4_01_4.html',1,'']]],
   ['streamtraits_3c_20genericstringstream_3c_20encoding_20_3e_20_3e',['StreamTraits&lt; GenericStringStream&lt; Encoding &gt; &gt;',['../struct_stream_traits_3_01_generic_string_stream_3_01_encoding_01_4_01_4.html',1,'']]],
-  ['string',['String',['../struct_generic_value_1_1_string.html',1,'GenericValue&lt; Encoding, Allocator &gt;::String'],['../classgd_1_1_string.html',1,'gd::String']]],
+  ['string',['String',['../classgd_1_1_string.html',1,'gd::String'],['../struct_generic_value_1_1_string.html',1,'GenericValue&lt; Encoding, Allocator &gt;::String']]],
   ['stringiterator',['StringIterator',['../classgd_1_1_string_1_1_string_iterator.html',1,'gd::String']]],
   ['subexpressionnode',['SubExpressionNode',['../structgd_1_1_sub_expression_node.html',1,'gd']]],
   ['systemstats',['SystemStats',['../classgd_1_1_system_stats.html',1,'gd']]]

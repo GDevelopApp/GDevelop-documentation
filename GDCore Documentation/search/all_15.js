@@ -18,5 +18,7 @@ var searchData=
   ['versionwrapper',['VersionWrapper',['../classgd_1_1_version_wrapper.html',1,'gd']]],
   ['versionwrapper_2eh',['VersionWrapper.h',['../_version_wrapper_8h.html',1,'']]],
   ['vertices',['vertices',['../class_polygon2d.html#abae62036315ddeb927bbe0221efdff00',1,'Polygon2d']]],
-  ['videoresource',['VideoResource',['../classgd_1_1_video_resource.html',1,'gd']]]
+  ['videoresource',['VideoResource',['../classgd_1_1_video_resource.html',1,'gd']]],
+  ['visitevent',['VisitEvent',['../classgd_1_1_event_visitor.html#ac529c1accb028de78b035f545773a3f2',1,'gd::EventVisitor::VisitEvent()'],['../classgd_1_1_read_only_event_visitor.html#ac2da050948b752c9037d76cd15ba0337',1,'gd::ReadOnlyEventVisitor::VisitEvent()']]],
+  ['visitlinkevent',['VisitLinkEvent',['../classgd_1_1_event_visitor.html#a66b531b5871c9eca3b01ffcb44bfba49',1,'gd::EventVisitor::VisitLinkEvent()'],['../classgd_1_1_read_only_event_visitor.html#a652e0379d96e2ff5c7cd31d738172a7e',1,'gd::ReadOnlyEventVisitor::VisitLinkEvent()']]]
 ];

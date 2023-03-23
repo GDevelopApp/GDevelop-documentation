@@ -11,6 +11,7 @@ var searchData=
   ['length',['length',['../struct_generic_string_ref.html#a4a96d618744ad73f766a1551b1d517fe',1,'GenericStringRef::length()'],['../struct_generic_pointer_1_1_token.html#a67383574032a3289d34002bb2d95df6d',1,'GenericPointer::Token::length()'],['../classgd_1_1_string.html#afe8ae6d7429f1f8500b77504b5f01977',1,'gd::String::length()']]],
   ['level',['Level',['../struct_writer_1_1_level.html',1,'Writer']]],
   ['linkevent',['LinkEvent',['../classgd_1_1_link_event.html',1,'gd']]],
+  ['linkeventtargetrenamer',['LinkEventTargetRenamer',['../classgd_1_1_link_event_target_renamer.html',1,'gd']]],
   ['loadallextensions',['LoadAllExtensions',['../classgd_1_1_extensions_loader.html#a8610e17646f890bbea93197f795f0259',1,'gd::ExtensionsLoader']]],
   ['loadextension',['LoadExtension',['../classgd_1_1_extensions_loader.html#a5dc2ba982ab40cafd6424e7b24253a24',1,'gd::ExtensionsLoader']]],
   ['loadingscreen',['LoadingScreen',['../classgd_1_1_loading_screen.html',1,'gd']]],
