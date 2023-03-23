@@ -42,7 +42,7 @@ Profiles have different properties:
 
 ### Changing your profile picture
 
-GDevelop does not host and control profile pictures. Instead, it obtains your profile picture from [Gravatar](https://gravatar.com). If you have or create a [Gravatar](https://gravatar.com) account, you can link a new profile picture to the email address you used to register your GDevelop account. This will change automatically your profile picture in GDevelop as well.
+GDevelop does not host or control profile pictures. Instead, it obtains your profile picture from [Gravatar](https://gravatar.com). If you have or create a [Gravatar](https://gravatar.com) account, you can link a new profile picture to the email address you used to register your GDevelop account. This will automatically change your profile picture in GDevelop as well.
 
 ## Subscription
 
