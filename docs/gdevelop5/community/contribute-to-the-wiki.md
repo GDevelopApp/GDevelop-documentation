@@ -7,8 +7,8 @@ GDevelop's documentation is powered by the community and everyone is encouraged 
 
 To submit a change to any existing page within the Wiki, complete the following:
 1. Browse to the wiki page that will be edited.
-2. On the upper right of the page, click the **Edit this page** button.
-    - It will appear as a paper and pencil icon. ![image](https://user-images.githubusercontent.com/24237149/226761738-5b423e5d-5d67-4ee1-89d2-23d5dd1034bd.png) 
+2. On the upper right of the page, click the **Edit this page** button. 
+	 - It will appear as a paper and pencil icon. ![image](https://user-images.githubusercontent.com/24237149/226761738-5b423e5d-5d67-4ee1-89d2-23d5dd1034bd.png) 
 4. Click **Fork this repository**. This only needs to be done once.
 5. Make changes using the online text editor provided by GitHub. Make sure to follow the guidelines listed below.
 6. Within the **Propose Changes** section, add a short description of the changes.
