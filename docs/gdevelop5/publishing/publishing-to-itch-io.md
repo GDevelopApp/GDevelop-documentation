@@ -1,7 +1,6 @@
 ---
-title: publishing-to-itch-io
+title: Publish to Itch.io
 ---
-editor texts
 
 ## What is itch.io?
 
