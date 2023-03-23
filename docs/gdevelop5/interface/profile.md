@@ -13,13 +13,13 @@ You can see your account details or, if you don't have one, create a new one for
  1. Start by going to the **Home** screen.
  2. In the top-right corner click on **Create account**.
 
-![](/gdevelop5/interface/home not logged.png)
+![](/gdevelop5/interface/profile/home not logged.png)
 
  3. Enter your username, fill your email address, and choose a password.
  4. Then click **Create account**.
  5. To confirm your account creation, you will receive an email with a link to click on. 
 
-![](/gdevelop5/interface/account-create-details.png)
+![](/gdevelop5/interface/profile/account-create-details.png)
 
 
 Once you're logged into your account, you can see your profile. You can then use GDevelop specific services like packaging your game for multiple support in one click!
@@ -29,7 +29,7 @@ Once you're logged into your account, you can see your profile. You can then use
 
 You can customise your public profile information directly from the GDevelop interface to tell more about you as a game creator. The details filled will all be displayed on [gd.games](https://gd.games/) the GDevelop's gaming platform and on your GDevelop user page that appears if someone clicks on your name on one of your contribution such as extensions, examples, and assets.
 
-![](/gdevelop5/interface/gdevelop_profile_customize.gif)
+![](/gdevelop5/interface/profile/gdevelop_profile_customize.gif)
 
 A profile can have some properties:
 
@@ -62,7 +62,7 @@ See the [pricing page](https://gdevelop.io/pricing) to know more about the advan
 Once you're logged in, go to your profile as described earlier in the page.
 Scroll down, and click on the **Choose a subscription** button beneath **My online services subscriptions**.
 
-![](/gdevelop5/interface/my profile.png)
+![](/gdevelop5/interface/profile/my profile.png)
 
 You will be able to see a description of each available plan. Choose the one that suits your needs by clicking on **Choose this plan**.
 Once you've clicked on a plan, you'll be asked for your credit card number so that the subscription can be paid each month.
@@ -85,7 +85,7 @@ Cancelling your subscription at any time is easy.
  2. Click on **Manage subscription**.
  3. See your current subscription, then click on **Cancel Your Subscription** will be immediatelly stopped, no new payment will be required, and all payment stops.
 
-![](/gdevelop5/interface/cancel your subscription.png)
+![](/gdevelop5/interface/profile/cancel your subscription.png)
 
 !!! note
 		
