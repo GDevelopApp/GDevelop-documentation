@@ -19,7 +19,12 @@ After registering and paying the fee for a single app/game, you will be able to 
 ## Upload your zip files in "depots"
 
 In Steam, you must create a "depot" for each platform (Windows, macOS, Linux). Each "depot" is a place where you can upload the zip containing your game for the given platform.
-You then configure a "Build" that is using the "depots".
+
+![](./depots-configuration.png)
+
+You then configure a "Build" that is using the "depots". You can use the web interface to upload the zip files for each depot:
+
+![](./builds-upload-web.png)
 
 ### Issue when uploading a macOS build
 
