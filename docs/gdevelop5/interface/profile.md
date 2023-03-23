@@ -118,7 +118,7 @@ That’s it, the confirmation of your account will be shown. You’re ready to c
 
 ## Contributions
 
-Here are listed your contribution to the extensions, examples, and assets that are available in the application. Each contribution are public and visible to the public through GDevelop by click on a chip username.
+Here is a list of contributions you've made with extensions, examples, and assets that are available in the application. Each contribution is public and visible to the public through GDevelop by clicking on your username.
 
 ## Achievements
 
