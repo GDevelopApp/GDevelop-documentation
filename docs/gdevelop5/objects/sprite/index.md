@@ -9,6 +9,13 @@ A sprite object allows us to display an image or play a series of images as an a
 
 ## Creating a sprite object
 
+## How to upload an image
+
+![](./unknown.png)
+
+## How to save changes?
+
+
 To add a sprite to your scene, select the "Click to add an object" option located on the right at the bottom of the Objects list.
 
 ![](/gdevelop5/objects/clicktoaddanobject.png)
