@@ -91,7 +91,7 @@ The speed of the animation can be set by changing the value to the right of the 
 
 At the top of the window, you can see the name of the object in the "Object Name" field. The name of the object should be changed to describe the object which will make it easier to distinguish from other objects.
 
-![image](https://user-images.githubusercontent.com/72082749/227322591-14501d74-8db9-49aa-bc4b-310112011449.png)
+![](./Object_Sprite_Highlight_Name.png)
 
 ## Adding object to the scene
 
