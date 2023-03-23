@@ -22,7 +22,7 @@ You can see your account details or, if you don't have one, create a new one for
 ![](/gdevelop5/interface/profile/account-create-details.png)
 
 
-Once you're logged into your account, you can see your profile. You can then use GDevelop specific services like packaging your game for multiple support in one click!
+Once you're logged into your account, you can see your profile. You can then use GDevelop's online services, like packaging your game in a single click!
 
 
 ### Customize your profile
