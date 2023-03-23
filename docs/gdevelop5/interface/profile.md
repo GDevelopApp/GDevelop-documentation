@@ -15,7 +15,7 @@ You can see your account details or, if you don't have one, create a new one for
 
 ![](/gdevelop5/interface/profile/home not logged.png)
 
- 3. Enter your username, fill your email address, and choose a password.
+ 3. Enter your username, fill in your email address, and choose a password.
  4. Then click **Create account**.
  5. To confirm your account creation, you will receive an email with a link to click on. 
 
