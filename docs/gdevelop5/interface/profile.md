@@ -35,7 +35,7 @@ Profiles have different properties:
 
 - **An username**. Your unique username on GDevelop's websites and services.
 - **A biography**. Introduce yourself in a few words, tell us who you are and what you do.
-- **A donation link**. Useful to bind your Patreon, Paypal, Ko-fi, or any URL.
+- **A donation link**. Useful for linking your Patreon, Paypal, Ko-fi, or any URL.
 - Is your subscription to the **GDevelop Newsletter** is active.
 - Is your subscription to **the analytics of your games** is active.
 - The current **GDevelop subscription** running on your account.
