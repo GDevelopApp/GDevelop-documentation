@@ -66,3 +66,4 @@ In **Installation > General Installation** menu, you can configure the "Launch O
 - "yourgame" for Linux (replace *yourgame* by the executable name - check in the zip file if necessary)
 - "Your Game.app" for macOS (replace *Your Game.app* by the folder name - check in the zip file if necessary)
 
+![](./launch-options.png)
