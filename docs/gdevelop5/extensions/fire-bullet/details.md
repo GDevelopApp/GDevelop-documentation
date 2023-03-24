@@ -77,6 +77,7 @@ With these property values, the **fire** action fires 3 bullets evenly spread on
 ### Fire like a shotgun
 
 Some randomness can be defined with these 2 property:
+
 - Angle variance
 - Bullet speed variance
 
