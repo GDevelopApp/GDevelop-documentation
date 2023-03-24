@@ -3,142 +3,134 @@ title: Sprite
 ---
 # Sprite
 
-Sprite objects are the most often used [objects](/gdevelop5/objects) in GDevelop.
+Sprite objects are the most commonly used [objects](/gdevelop5/objects) in GDevelop.
 
-A sprite object allows us to display an image or play a series of images as an animation. It can be used for many things in our games, like buttons, characters or platforms. Anything that can be represented with an image can be a sprite object.
+A sprite object allows us to display an image or play a series of images as an animation. It can be used for many things in our games, like buttons, characters, or platforms. Anything that can be represented with an image can be a sprite object.
 
 ## Creating a sprite object
 
-To add a sprite to your scene, select the "Click to add an object" option located on the right at the bottom of the Objects list.
+To add a sprite to your scene, select the "Click to add an object" option located on the right at the bottom of the objects panel.
 
-![](/gdevelop5/objects/clicktoaddanobject.png)
+![image](https://user-images.githubusercontent.com/72082749/227315641-074d6246-a81d-40d2-a5ee-799c00a5e022.png)
 
-A new panel will open that will show the different types of objects available in GDevelop.
+A new window will open that will show the different types of objects available in GDevelop.
 
-![](/gdevelop5/objects/object_list.png)
+From the **New object from scratch** tab in the new window, choose "Sprite" from the list to create a new sprite object in your game scene.
 
-Choose "Sprite" from the list to create a new sprite object in your game scene.
+![image](https://user-images.githubusercontent.com/72082749/227316008-d2110702-b414-4bb1-bce3-3d8fce1a9f73.png)
 
-![](/gdevelop5/objects/select-sprite.png)
-
-This selection will open up the object properties window. In this window, you will see a few properties of the sprite object.
-
-![](/gdevelop5/objects/sprite-object-properties.png)
+This selection will open up the sprite object properties window. In this window, you will see a few properties of the sprite object.
 
 ## Adding an animation
 
-An animation allows you to add an image or series of images to the sprite object. To add an animation, click the add animation button.
+An animation allows you to add an image or series of images to the sprite object. To add an animation, click the **Add an animation** button.
 
-![](/gdevelop5/objects/add-animation-button.png)
+![image](https://user-images.githubusercontent.com/72082749/227316848-db5b472b-31b4-49b0-bb05-ccb40420415e.png)
 
-This will expand the current dialog box and show you a wide variety of options you can tweak.
-
-![](/gdevelop5/objects/animation-properties.png)
+This will expand the current window and show you a variety of options you can change.
 
 ### Adding an image to the animation
 
-We can add images to the animation of our object by clicking on the plus symbol.
-
-![](/gdevelop5/objects/add-symbol.png)
+We can add images to the animation of our object by clicking **Add a Sprite**.
 
 This will open the file explorer to browse through the files and choose a suitable image for your animation. After choosing the image, you will see the image being displayed in the window.
 
-![](/gdevelop5/objects/add-image.png)
+![image](https://user-images.githubusercontent.com/72082749/227318796-b25751d1-f385-4131-9b8b-f24642104f62.png)
+
+If you'd rather get your assets from the asset store, you can click on the arrow beside the **Add a Sprite** button to open a drop down menu, where you'll be able to select **choose from asset store**.
+
+![image](https://user-images.githubusercontent.com/72082749/227319134-43f728a7-ca61-4c59-a000-55d30dd37af6.png)
 
 ### Collision and points
 
-You can customise your sprite's collision area using the Edit Collision Masks at the bottom of the dialog; you can set the area to be taken into consideration during a collision. [Read more about collision masks here.](/gdevelop5/objects/sprite/collision-mask)
+You can customise your sprite's collision area using the Edit Collision Masks button at the bottom of the window; you can set the area that will be taken into consideration during a collision. [Read more about collision masks here.](/gdevelop5/objects/sprite/collision-mask)
 
-Beside the Edit Collision Masks option, you will find the Edit Points option at the bottom of the sprite properties dialog. This option allows us to have additional reference points for an object. These reference points can be used in events when needed. [Read more about points in sprites here.](/gdevelop5/objects/sprite/edit-points)
+Beside the Edit Collision Masks option, you will find the Edit Points option at the bottom of the sprite properties window. This option allows us edit and add additional reference points for an object. These reference points can be used in events when needed. [Read more about points in sprites here.](/gdevelop5/objects/sprite/edit-points)
+
+![image](https://user-images.githubusercontent.com/72082749/227319557-e29f2070-7269-40ad-879e-9af89ed181e3.png)
 
 ### Adding multiple animations
 
-An object might sometimes require more than one animation. To add animations, click the "Add animation" button in the same way that we did it the first time. This feature allows us to separate the different animations easily.
+Objects often require more than one animation. To add animations, click the "Add animation" button again.
 
-![](/gdevelop5/objects/multiple_animations.png)
+![image](https://user-images.githubusercontent.com/72082749/227319745-1070e853-9ff7-49d3-9f96-465cd2e7e948.png)
 
 Later, we can switch between the animations using events.
 
 ### Naming the animation
 
-At the top of the animation section in the window, you will see a field beside "Animation #" with grayed out "Optional animation name" written in it. To enter a name for your animation, click on the field and enter the name.
+Above each animation in this window, you will see a field to the right of "Animation #" with grayed out "Optional animation name" written in it. To enter a name for your animation, click in to the field and type in a name.
 
-![](/gdevelop5/objects/name-animation.png)
+![image](https://user-images.githubusercontent.com/72082749/227321449-a56a1156-1784-44bd-ba35-2d88037c189d.png)
 
 !!! tip
 
-        In objects with multiple animations, you may find it difficult to differentiate between animations without names. It is generally a good practice to use animation names for objects with multiple animations.
+        For objects with multiple animations, you may find it difficult to differentiate between animations without names. It is generally a good practice to use animation names for objects with multiple animations.
 
-    If we don't enter a name, we need to use the animation number to refer to this animation.
+    If we don't enter a name, you can still use the animation number to refer to this animation in events.
 
 ### Adding multiple images in an animation
 
-To add multiple images to an animation, you can select all the images from the explorer and add them to the animation.
+To add multiple images to an animation, you can select all the images from the explorer and add them to the animation. You can also add more images to an existing animation by pressing **Add a sprite** for the animation you'd like to add images to. Images will be played in the same order as displayed.
 
-![](/gdevelop5/objects/animation-multiple-images.png)
-
-Images will be played in the same order as displayed.
+![image](https://user-images.githubusercontent.com/72082749/227321967-435d1f37-f3fa-4e8f-b4e6-2c1071d16a43.png)
 
 ### Repeating the animation
 
-By default, every animation plays only once, which means that the animation stops as soon as its last frame finishes. To repeat the animation, we can "loop" the animation; set the animation to "loop" by clicking the repeat icon.
+By default, every animation plays only once, which means that the animation stops as soon as its last frame finishes. To repeat the animation, we can "loop" the animation; set the animation to "loop" by clicking the loop toggle button. Once an animation is set to loop, it will play continuously.
 
-![](/gdevelop5/objects/set-animation-loop.png)
+![image](https://user-images.githubusercontent.com/72082749/227322388-0801e573-0796-47bb-bc8c-7f0a986ff171.png)
 
-Once an animation is set to loop, it will play continuously.
+### Setting animation speed
 
-### Setting animation time
+The speed of the animation can be set by changing the value to the right of the clock icon. The value entered in the field is the time elapsed between two consecutive frames. The default value is 0.08 seconds. For faster playback, use lower animation time while, for slower playback, use high animation time.
 
-The speed of the animation can be set by changing the value by the clock icon.
-
-![](/gdevelop5/objects/set-animation-speed.png)
-
-The value entered in the field is the time elapsed between two consecutive frames. The default value is 0.08 seconds. For faster playback, use lower animation time while, for slower playback, use high animation time.
+![image](https://user-images.githubusercontent.com/72082749/227322499-767868ba-a4e8-4ce0-81af-c4615b252df0.png)
 
 ## Naming the object
 
-At the top of the dialog, you can see the name of the object in the "Object Name" field. The name of the object usually describes the content of an object which makes it easy to distinguish from other sprites.
+At the top of the window, you can see the name of the object in the "Object Name" field. The name of the object should be changed to describe the object which will make it easier to distinguish from other objects.
 
-![](/gdevelop5/objects/annotation_2019-06-09_152442.png)
+![](./Object_Sprite_Highlight_Name.png)
 
 ## Adding object to the scene
 
-To add the sprite object, select it and click in the scene to add an object.
+After editing your object, be sure to click on **Apply** to confirm changes.
 
-Your new sprite is now complete, but you still need to add it to your game scene. Click on the new sprite in the Object list. Next, click on the scene where you want to add the sprite. You will now see your sprite added to the scene. You can add multiple "instances" of your sprite to your game screen. Repeat the process for adding the first sprite.
+Now to add a new "instance" of this sprite object in to your game scene, click on the new sprite in the Object list and drag it to where you'd like to place the object. You will now see your sprite added to the scene. You can add multiple instances of your sprite to your game screen.
 
 ![](/gdevelop5/objects/addspritetoscene.gif)
 
 ## Using multiple animations with events
 
-After creating multiple animations, each with their own unique set of images, you can use events to switch between animations. Setting the animation time between 0 - 1 will ensure it stays active when using events.
+After creating multiple animations, each with their own unique set of images, you can use events to switch between animations.
 
 !!! note
 
-        Using a negative animation time disables the event actions.
+       _Do not use negative values for animation speed._
 
-    _Do not use negative values._
+When you have set multiple animations for an object with unique animation names, you can control those animations with events in the events tab with the action "Change the animation (by name)." It will allow you to change animations based on the names that were given to them when the conditions of your related events are true.
 
-When you have set multiple animations for an object, you can use the events tab to "Change the animation (by name)." This is controlled in the "Add action" section of the condition. It will allow you to switch to the correct animation whenever the condition used in the "Add condition" section is true.
+You can also change animations using the number associated with that animation using the action "Change the animation", where you can change the number of the animation being played with the modification symbol.
 
 ![](/gdevelop5/objects/eventanimationexample.png)
 
-As advised before, use animation names for multiple animations in an object to easily differentiate between them.
+You can use the current animation of a sprite object as the condition for an event, either with it's animation name or number, as well as a particular frame of the animation.
 
-To add an action to change animation using animation name, choose the "Change the animation (by name)" condition.
-
-Then put that name within the "Animation name" field surrounded by quotes.
+When using an animation's name, write the name between quotation marks. For examples: "Animation"
 
 ![](/gdevelop5/objects/eventanimnameexample.png)
 
-For more event details, follow the [tutorials here](http://wiki.compilgames.net/doku.php/gdevelop5/tutorials).
+For more practice with events, follow the [tutorials here](http://wiki.compilgames.net/doku.php/gdevelop5/tutorials).
+
+## Advanced options
+
+Currently, the **Advanced options** button opens a window that allows you to toggle whether this object plays its animations while off screen. This option should only ever be toggled off for specific use cases, because having multiple objects play their animations when not on screen is bad for performance.
 
 ## Examples
 
-!!! tip
-
-        **See it in action!** 🎮
-    Click on the images to open the examples online.
+**See it in action!** 🎮
+Click on the images to open the examples online.
 
 [![](/gdevelop5/objects/createaspritenew.png)](https://editor.gdevelop.io/?project=example://change-scale-of-sprites)
 
