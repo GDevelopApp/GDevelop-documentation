@@ -4,7 +4,7 @@ title: Gamepad
 # Gamepad
 
 Gamepad, joystick and game controllers can be used in your game.
-**XBox**, **Playstation** and **generic** controllers are supported.
+**Xbox**, **Playstation** and **generic** controllers are supported.
 
 This feature can be activated by adding the **Gamepad extension** to your project. You will then be able to use conditions and expressions to check if a gamepad is connected, if a button is pressed, released or if a stick is pushed.
 
@@ -44,7 +44,7 @@ The "Platformer gamepad mapper" behavior can be added to the character to make t
 
 #### Handle pressed buttons
 
-Detecting pressed buttons can be done with the *Gamepad button pressed* (or *released*) condition. Playstation and Xbox controllers have different button names,  but checking for `A` or `Cross` is the same.
+Detecting pressed buttons can be done with the **Gamepad button pressed** (or **released**) condition. Playstation and Xbox controllers have different button names,  but checking for `A` or `Cross` is the same.
 
 ![](/gdevelop5/all-features/gamepad-condition-released.png)
 
@@ -64,10 +64,12 @@ You can then use it to set a force on an object (or anything else that you want 
 Each gamepad connected to the computer or phone is numbered from 1 to 4:
 
 * If your game is single player, you'll usually always use condition for the Gamepad 1.
-* If your game is multi player, it's a good idea to use the *Gamepad connected* condition to check which gamepads are connected. You could store in a variable the gamepad number associated to a player. You can also force the first player to use the Gamepad 1, and the other player to use Gamepad 2.
+* If your game is multi player, it's a good idea to use the **Gamepad connected** condition to check which gamepads are connected. You could store in a variable the gamepad number associated to a player. You can also force the first player to use the Gamepad 1, and the other player to use Gamepad 2.
 
 ![](/gdevelop5/all-features/gamepad-condition-connected.png)
 
 ## Vibrate a gamepad
 
-Use the action *Gamepad vibration* to make a gamepad to vibrate.
+Use the action **Gamepad vibration** to make a gamepad to vibrate.
+
+**Advanced Gamepad vibration** allow you to setup the magnitude of the vibrations with two new values, the low and high value for the motors rumble.
