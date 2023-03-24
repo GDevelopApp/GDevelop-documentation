@@ -1,3 +1,6 @@
+---
+title: Details
+---
 # Fire bullet
 
 This extension allows objects to fire bullets with a cooldown between shots.
@@ -20,7 +23,7 @@ Bullets can be shot in a direction given by an [angle](/gdevelop5/tutorials/basi
 
 **Space Shooter**
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://space-shooter){ .md-button .md-button--primary }
+[Open in GDevelop](https://editor.gdevelop.io/?project=example://space-shooter){ .md-button .md-button--primary }
 
 [![](space-shooter-example.png)](https://editor.gdevelop.io/?project=example://space-shooter)
 
@@ -35,7 +38,7 @@ TODO make this example actually use fire bullet
 
 **Conviction of Gun Dude**
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://conviction-of-gun-dude-desktop){ .md-button .md-button--primary }
+[Open in GDevelop](https://editor.gdevelop.io/?project=example://conviction-of-gun-dude-desktop){ .md-button .md-button--primary }
 
 [![](conviction-dude-example.png)](https://editor.gdevelop.io/?project=example://conviction-of-gun-dude-desktop)
 
@@ -66,7 +69,7 @@ With these property values, the **fire** action fires 3 bullets evenly spread on
 
 **Fire bullet example**
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://fire-bullet){ .md-button .md-button--primary }
+[Open in GDevelop](https://editor.gdevelop.io/?project=example://fire-bullet){ .md-button .md-button--primary }
 
 [![](multi-fire-example.png)](https://editor.gdevelop.io/?project=example://fire-bullet)
 
