@@ -3,7 +3,7 @@ title: Link events
 ---
 # Link events
 
-Link events are event blocks that link logic from external events or other scenes in your game to the event sheet they're placed in. Links indicate to GDevelop that events must be inserted at the position of the Link. These events are coming from can come from another scene in the game or from [external events](/gdevelop5/interface/events-editor/external-events).
+Link events are event blocks that link logic from external events or other scenes in your game to the event sheet they're placed in. Links indicate to GDevelop that events must be inserted at the position of the Link. These events can come from another scene in the game or from [external events](/gdevelop5/interface/events-editor/external-events).
 
 ![](/gdevelop5/events/link/pasted/20230313-201213.png)
 
