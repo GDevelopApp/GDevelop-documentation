@@ -3,86 +3,124 @@ title: My profile
 ---
 # My profile
 
-A GDevelop account is needed for a few features, notably the one-click export of your game for Android and iOS, Windows, macOS and Linux.
+The profile page allows you to manage your GDevelop account, and customize what others see on your profile. This is also the place to manage your subscription.
+A GDevelop account is needed to use GDevelop services such as the one-click export of your game for Android, iOS, Windows, macOS, Linux, and [gd.games](https://gd.games/).
 
-You can see your account details or, if you don't have one, create a new one for free! in the File menu (on Windows and Linux) or in the GDevelop menu (on macOS), choose "My profile":
-
-![](/gdevelop5/interface/gdevelop-profile-locate.gif)
-
-In the window, you can see your profile (or create one if you don't have an account) and also see the last usages you've done of the online services.
+You can see your account details or, if you don't have one, create a new one for free.
 
 ## Create an account
 
-If you don't have an account, you can create one for free! Start by going to **File --> My Profile**
+ 1. Start by going to the **Home** screen.
+ 2. In the top-right corner click on **Create account**.
 
-![](/gdevelop5/interface/account-create-locate.png)
+![](/gdevelop5/interface/profile/home not logged.png)
 
-Select/click on **Create my account**.
+ 3. Enter your username, fill in your email address, and choose a password.
+ 4. Then click **Create account**.
+ 5. To confirm your account creation, you will receive an email with a link to click on. 
 
-![](/gdevelop5/interface/account-create.png)
-
-Enter your email address and choose a username and a password.
-
-![](/gdevelop5/interface/account-create-details.png)
-
-Once you're logged into your account, you can see your profile. You can then use GDevelop specific services. Services like packaging your game for Android with one click!
-
-## Get a subscription
-
-By default, accounts are free. There are no limits on the games that you create with GDevelop.
-A few online services are limited. Limited services rely on servers that can be costly. In particular, with a free account, you can create 2 [packages for Android](/gdevelop5/publishing/android_and_ios) each day.
-
-By getting a subscription, you can unlock more than 2 packages a day. In the future, there will be more one-click packaging and useful services. Some of these services are in Beta testing now.  Your subscription also supports the future development of GDevelop. ✨
-
-!!! tip
-
-        7 euros is approximately $7.5. 2 euros is approximately $2.20 (use a Currency Calculator to find the most current amount in USA dollars or your local currency.)
+![](/gdevelop5/interface/profile/account-create-details.png)
 
 
-Once you're logged in, go to your profile as described earlier in the page. Scroll down, and click on the **"Choose a subscription"** button beneath "My online services subscriptions":
+Once you're logged into your account, you can see your profile. You can then use GDevelop's online services, like packaging your game in a single click!
 
-![](/gdevelop5/interface/choose-a-subscription.png)
 
-You will be able to see a description of each available plan. Choose the one that suits your needs:
+### Customize your profile
 
-![](/gdevelop5/interface/profile/pasted/20220526-111214.png)
+You can customize your public profile information directly from the GDevelop interface to share more about yourself as a game creator. The details filled will all be displayed on GDevelop's game hosting platform [gd.games](https://gd.games/) and on your GDevelop user page that appears if someone clicks on your name on one of your contributions such as extensions, examples, and assets.
 
-Once you've clicked on "Choose this plan", you'll be asked for your credit card number so that the subscription can be paid each month. Payments are transacted and encrypted using [Stripe.com](https://stripe.com), which is the new standard in online payment. Everything is secured and handled by the Stripe infrastructure.
+![](/gdevelop5/interface/profile/gdevelop_profile_customize.gif)
 
-## Changing your subscription
+Profiles have different properties:
 
-If you want to update your subscription, either to upgrade to a subscription with more packagings or to a subscription which is cheaper, just open again your profile and click on **Upgrade/Change**.
-
-The next payment will automatically be adapted to your new subscription!
-
-## Cancelling your subscription
-
-Cancelling your subscription at any time is easy: open again your profile and click on **Upgrade/Change**. Choose the Free subscription and your current subscription will be stopped, and no new payment will be required.
-
-**Step by step walkthrough**:
-
-Open GDevelop and open your **profile** from the menu:
-![](/gdevelop5/interface/profile/pasted/20200411-164041.png)
-
-You can also open the web-app, create a new project and in the Project manager, choose **My profile**:
-![](/gdevelop5/interface/profile/pasted/20200411-164551.png)
-
-Choose **Upgrade/Change**:
-
-![](/gdevelop5/interface/profile/pasted/20200411-163828.png)
-
-In the bottom of the window, choose **Cancel Your Subscription**:
-
-![](/gdevelop5/interface/profile/pasted/20200411-163941.png)
-
-If you want, you can later subscribe again to another subscription. In any case, you won't lose any of your games or work!
-
-## Customize your profile
-
-You can change customize your public profile information directly from the GDevelop interface to tell more about you as a game creator. This will all be displayed on Liluo or on your GDevelop user page that appears if someone clicks on your name on one of your extensions or examples.
-
-![](/gdevelop5/interface/gdevelop_profile_customize.gif)
+- **An username**. Your unique username on GDevelop's websites and services.
+- **A biography**. Introduce yourself in a few words, tell us who you are and what you do.
+- **A donation link**. Useful for linking your Patreon, Paypal, Ko-fi, or any URL.
+- If your subscription to the **GDevelop Newsletter** is active.
+- If your subscription to **the analytics of your games** is active.
+- The current **GDevelop subscription** running on your account.
 
 ### Changing your profile picture
 
-GDevelop does not host and control profile pictures. Instead, it obtains your profile picture from [Gravatar](https://gravatar.com). If you have or create a [Gravatar](https://gravatar.com) account, you can link a new profile picture to the email address you used to register your GDevelop account. This will change automatically your profile picture in GDevelop as well.
+GDevelop does not host or control profile pictures. Instead, it obtains your profile picture from [Gravatar](https://gravatar.com). If you have or create a [Gravatar](https://gravatar.com) account, you can link a new profile picture to the email address you used to register your GDevelop account. This will automatically change your profile picture in GDevelop as well.
+
+## Subscription
+
+### Get a subscription
+
+With the free plan, the online services are limited. These services rely on servers which can be costly.
+If you find yourself needing more exports each day or a higher number of leaderboards, or if you want to customize the leaderboards in your games you may want to upgrade your free plan to a better one.
+
+See the [pricing page](https://gdevelop.io/pricing) to know more about the advantages of the Silver, Gold, School, and Business subscriptions compared to the free plan.
+
+
+!!! note
+
+        ✨ By taking a subscription you help the future development of GDevelop. Thank you for your support!
+
+
+Once you're logged in, go to your profile as described earlier in the page.
+Scroll down, and click on the **Choose a subscription** button beneath **My online services subscriptions**.
+
+![](/gdevelop5/interface/profile/my profile.png)
+
+You will be able to see a description of each available plan. Choose the one that suits your needs by clicking on **Choose this plan**.
+Once you've clicked on a plan, you'll be asked for your credit card number so that the subscription can be paid each month.
+
+!!! note
+
+        Payments are secured, transacted, and encrypted using [Stripe.com](https://stripe.com) and [Paypal](https://www.paypal.com/), which are established online payment services. GDevelop does not keep any bank information. Every transaction is secured and handled by the Stripe or Paypal infrastructure.
+
+### Changing your subscription
+
+If you want to update your subscription, either to change to a subscription with more flexibility or to a subscription that is cheaper, just open your profile again and click on Manage subscription then choose another plan.
+
+The next payment will automatically be adapted to the new subscription you have chosen!
+
+### Cancelling your subscription
+
+Cancelling your subscription at any time is easy.
+
+ 1. Open your profile.
+ 2. Click on **Manage subscription**.
+ 3. See your current subscription, then click on **Cancel Your Subscription**, no new payment will be required, and all payments will be stopped.
+
+![](/gdevelop5/interface/profile/cancel your subscription.png)
+
+!!! note
+		
+		If you want, you can later subscribe again to another subscription. In any case, you won't lose any of your games or work!
+
+
+### Redeem a code
+
+!!! warning
+
+    Please only redeem one subscription at a time, as redeeming multiple subscriptions at once will cancel the previous subscription.
+    We recommend you wait for the present subscription to end before activating another.
+
+If you don’t have a GDevelop account yet, create one (you just need an email address, a username, and a password).
+
+Once your account is created, open your profile, click on **Manage subscription** then on **Redeem a code** .
+If you’re lost, click on the link below to open your subscription panel in your browser:
+
+[https://editor.gdevelop.io/?initial-dialog=subscription](https://editor.gdevelop.io/?initial-dialog=subscription)
+
+![](/gdevelop5/interface/profile/redeem a code.jpg)
+
+    
+Enter your code and press **Redeem**. It’s then applied in a few seconds to your account.
+
+![](/gdevelop5/interface/profile/confirming your subscription.png)
+
+That’s it, the confirmation of your account will be shown. You’re ready to create incredible games!
+
+
+## Contributions
+
+Here is a list of contributions you've made with extensions, examples, and assets that are available in the application. Each contribution is public and visible to the public through GDevelop by clicking on your username.
+
+## Achievements
+
+Achievements are public and show everyone how important your skills are in achieving important goals with GDevelop, and with your games.
+Show everyone that your game has reached over a million players!
