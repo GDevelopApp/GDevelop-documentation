@@ -115,8 +115,8 @@ Re-enables the connection to the database after disabling it.
 When persistence is enabled, all data that is fetched from the database is being automatically stored to allow to continue accessing the data if cut off from the network, instead of waiting for reconnection.  
 This needs to be called before any other firestore operation, otherwise it will fail.
 
-**Execute a query**  
-Execute the query and store results in a scene variable.
+**Run a query once**  
+Runs the query once and store results in a scene variable.
 
 **Get a document from firestore**  
 Gets a firestore document and store it in a variable.
@@ -157,8 +157,8 @@ Updates a firestore document (variable).
 **Update a field of a document**  
 Updates a field of a firestore document.
 
-**Watch a query**  
-Executes the query every time a new documents starts or stops matching the query, or a document that matches the query has been changed.
+**Continuously run (watch) a query**  
+Runs a query continously, so that every time a new documents starts or stops matching the query, or a document that matches the query has been changed, the variables will be filled with the new results.
 
 **Write a document to firestore**  
 Writes a document (variable) to cloud firestore.
@@ -172,8 +172,8 @@ Use this to sync the Remote Config with the client at any time.
 **Log out of the account**  
 Logs out of the current account. 
 
-**Sign into an account with auth from provider**  
-Sign into an account via an external provider. The available providers are: "google", "facebook", "github" and "twitter".  
+**Sign into an account via an external provider**  
+Signs into an account using an external provider's system. The available providers are: "google", "facebook", "github" and "twitter".  
 Provider authentication only works in the browser! Not on previews or pc/mobile exports.
 
 **Record performance**  
@@ -181,6 +181,9 @@ Record performance for a delimited period of time. Use this if you want to measu
 
 **Send a verification email**  
 Send a link per email to verify the user email.
+
+**Send a password reset email**  
+Send a password reset link per email.
 
 **Set display name**  
 Sets the user display name.

@@ -697,6 +697,7 @@ Allows you to draw simple shapes on the screen using the events. [Read more expl
 
 | Expression | Description |  |
 |-----|-----|-----|
+| `Object.Antialiasing()` | Returns the type of anti-aliasing in use: none, low, medium, or high. ||
 | `Object.FillColorBlue()` | Filing color blue component ||
 | `Object.FillColorGreen()` | Filing color green component ||
 | `Object.FillColorRed()` | Filing color red component ||
