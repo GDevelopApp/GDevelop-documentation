@@ -5,14 +5,16 @@ title: Details
 
 This extension allows objects to fire bullets with a cooldown between shots.
 
+!!! tip
+
+    Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
 
 ## Fire a bullet
 
 The **fire bullet** [behavior](/gdevelop5/behaviors/) must be added to the object that shoots the bullets. One of the 2 **fire bullet** actions can then be used to actually fire bullets.
 
 Bullets are usually created at the end of a cannon. [Custom points](/gdevelop5/objects/sprite/edit-points/) of sprite objects can be used for this.
-
-TODO in the custom points page, add a section to explain how to use points in expressions
 
 
 ### Fire in a given direction
@@ -50,10 +52,11 @@ To fire bullets from 2 cannons, the **Fire bullet toward an angle** action can b
 
 ![](fire-bullet-2-points-event.png)
 
-![](fire-bullet-2-points-in-game.png)
+**Firing patterns example**
 
-example: TODO merge this new example and add a link
+[Open in GDevelop](https://editor.gdevelop.io/?project=example://firing-patterns){ .md-button .md-button--primary }
 
+[![](fire-bullet-2-points-in-game.png)](https://editor.gdevelop.io/?project=example://firing-patterns)
 
 ### Fire spreading bullets
 
