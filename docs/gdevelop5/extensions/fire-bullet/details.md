@@ -3,7 +3,13 @@ title: Details
 ---
 # Fire bullet
 
-This extension allows objects to fire bullets with a cooldown between shots.
+This extension can be used to fire projectiles from an object.  It provides advanced functionality including:
+
+- Cooldown between shots
+- Ammo management
+- Reloading
+- Overheating
+- Multi-fire bullet patterns
 
 !!! tip
 
