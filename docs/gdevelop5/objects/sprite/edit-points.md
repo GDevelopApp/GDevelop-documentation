@@ -29,7 +29,7 @@ The **Share same points for all sprites of this animation** switch can be unchec
 
 ## Use custom points in events
 
-Custom points can be used in events with the `PointX` and `PointY` [expressions](/gdevelop5/all-features/expressions/).
+Custom points can be used in events with the `PointX` and `PointY` [expressions](/gdevelop5/all-features/expressions/). The name of the custom point must be surrounded by double quotation marks.
 
 ![](custom-point-expression.png){ .align-center }
 
