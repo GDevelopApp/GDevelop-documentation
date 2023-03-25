@@ -18,7 +18,7 @@ The point editor can be opened with the **Edit points** button.
 
 ![](open-point-editor.png){ .align-center }
 
-Custom points can be placed directly on the animation frame on the left and coordinates adjusted on the right.  
+Custom points can be moved directly on the animation frame on the left and coordinates adjusted on the right.  
 
 The **Share same points for all animations** switch can be unchecked to set different positions for each animation of the sprite.
 
