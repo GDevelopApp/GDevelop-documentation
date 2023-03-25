@@ -16,7 +16,7 @@ Points are reference locations that refer to a specific location around a sprite
 
 The point editor can be opened with the **Edit points** button.
 
-![](open-point-editor.png)
+![](open-point-editor.png){ .align-center }
 
 Custom points can be placed directly on the animation frame on the left and coordinates adjusted on the right.  
 
@@ -24,14 +24,14 @@ The **Share same points for all animations** switch can be unchecked to set diff
 
 The **Share same points for all sprites of this animation** switch can be unchecked to set deferent positions for each frame of the animation.
 
-![](point-editor.png)
+![](point-editor.png){ .align-center }
 
 
 ## Use custom points in events
 
 Custom points can be used in events with the `PointX` and `PointY` [expressions](/gdevelop5/all-features/expressions/).
 
-![](custom-point-expression.png)
+![](custom-point-expression.png){ .align-center }
 
 
 ## Editing the default origin and center points
