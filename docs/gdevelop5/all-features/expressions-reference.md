@@ -746,6 +746,9 @@ Provides actions and conditions to add an inventory to your game, with items in 
 | `Inventory::Count(string, string)` | Get the number of an item in the inventory ||
 | | _string_ | Inventory name |
 | | _string_ | Item name |
+| `Inventory::Maximum(string, string)` | Get the maximum of an item in the inventory, or 0 if it is unlimited ||
+| | _string_ | Inventory name |
+| | _string_ | Item name |
 
 ---
 
