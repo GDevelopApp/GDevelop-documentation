@@ -38,7 +38,7 @@ Bullets can be shot in a direction given by an [angle](/gdevelop5/tutorials/basi
 
 ### Fire to the cursor
 
-Bullets can be shot to a position with the **Fire bullet toward an position** action. To shoot in the direction of the cursor, [the cursor expressions](/gdevelop5/all-features/mouse-touch/) `CursorX` and `CursorY` can be used as target.
+Bullets can be shot to a position with the **Fire bullet toward an position** action. To shoot in the direction of the cursor, the [cursor expressions](/gdevelop5/all-features/mouse-touch/) `CursorX` and `CursorY` can be used as target.
 
 TODO make this example actually use fire bullet
 
