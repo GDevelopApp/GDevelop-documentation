@@ -15,14 +15,14 @@ This article includes instructions for implementing this functionality either wi
 
 ## Follow an object smoothly
 
-Adding the **Smooth Camera** [behavior](https://wiki.gdevelop.io/gdevelop5/behaviors#adding_a_behavior_to_an_object) to the character make the camera following it automatically. The **Move camera closer** action can still be used to avoid a 1-frame delay.
+Adding the **Smooth Camera** [behavior](https://wiki.gdevelop.io/gdevelop5/behaviors#adding_a_behavior_to_an_object) to the character make the camera follow it automatically. The **Move camera closer** action can still be used to avoid a 1-frame delay.
 
 !!! tip
 
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
 
-## Move several layer together
+## Move several layers together
 
 Games can contain a lot of objects and using several layers is a good solution to organize a project. All layers (except for UI layers) should likely be moved the same way when a character is followed.
 
