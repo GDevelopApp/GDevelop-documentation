@@ -40,6 +40,6 @@ The **Action** should look like this:
 ![](pasted/20230316-155732.png)
 
 
-### Make a custom camera following
+## Make a custom camera following
 
 To add camera inertia and a smoother transition watch [this video tutorial](https://youtu.be/yUNisggNh7s?t=84) to learn how to use the Camera Center positions on the X and Y axis, along with `lerp` expressions and formulas.
