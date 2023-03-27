@@ -11,13 +11,13 @@ A sprite object allows us to display an image or play a series of images as an a
 
 To add a sprite to your scene, select the "Click to add an object" option located on the right at the bottom of the objects panel.
 
-![image](https://user-images.githubusercontent.com/72082749/227315641-074d6246-a81d-40d2-a5ee-799c00a5e022.png)
+![](./add_an_object.png)
 
 A new window will open that will show the different types of objects available in GDevelop.
 
 From the **New object from scratch** tab in the new window, choose "Sprite" from the list to create a new sprite object in your game scene.
 
-![image](https://user-images.githubusercontent.com/72082749/227316008-d2110702-b414-4bb1-bce3-3d8fce1a9f73.png)
+![](./creating_a_sprite_object.png)
 
 This selection will open up the sprite object properties window. In this window, you will see a few properties of the sprite object.
 
@@ -25,7 +25,7 @@ This selection will open up the sprite object properties window. In this window,
 
 An animation allows you to add an image or series of images to the sprite object. To add an animation, click the **Add an animation** button.
 
-![image](https://user-images.githubusercontent.com/72082749/227316848-db5b472b-31b4-49b0-bb05-ccb40420415e.png)
+![](./adding_an_animation.png)
 
 This will expand the current window and show you a variety of options you can change.
 
@@ -35,11 +35,11 @@ We can add images to the animation of our object by clicking **Add a Sprite**.
 
 This will open the file explorer to browse through the files and choose a suitable image for your animation. After choosing the image, you will see the image being displayed in the window.
 
-![image](https://user-images.githubusercontent.com/72082749/227318796-b25751d1-f385-4131-9b8b-f24642104f62.png)
+![](./adding_an_image_to_the_animation.png)
 
 If you'd rather get your assets from the asset store, you can click on the arrow beside the **Add a Sprite** button to open a drop down menu, where you'll be able to select **choose from asset store**.
 
-![image](https://user-images.githubusercontent.com/72082749/227319134-43f728a7-ca61-4c59-a000-55d30dd37af6.png)
+![](./choose_from_asset_store.png)
 
 ### Collision and points
 
@@ -47,13 +47,13 @@ You can customise your sprite's collision area using the Edit Collision Masks bu
 
 Beside the Edit Collision Masks option, you will find the Edit Points option at the bottom of the sprite properties window. This option allows us edit and add additional reference points for an object. These reference points can be used in events when needed. [Read more about points in sprites here.](/gdevelop5/objects/sprite/edit-points)
 
-![image](https://user-images.githubusercontent.com/72082749/227319557-e29f2070-7269-40ad-879e-9af89ed181e3.png)
+![](./edit_points_and_collisions.png)
 
 ### Adding multiple animations
 
 Objects often require more than one animation. To add animations, click the "Add animation" button again.
 
-![image](https://user-images.githubusercontent.com/72082749/227319745-1070e853-9ff7-49d3-9f96-465cd2e7e948.png)
+![](./add_an_animation_again.png)
 
 Later, we can switch between the animations using events.
 
@@ -61,7 +61,8 @@ Later, we can switch between the animations using events.
 
 Above each animation in this window, you will see a field to the right of "Animation #" with grayed out "Optional animation name" written in it. To enter a name for your animation, click in to the field and type in a name.
 
-![image](https://user-images.githubusercontent.com/72082749/227321449-a56a1156-1784-44bd-ba35-2d88037c189d.png)
+![](./animation_name.png)
+
 
 !!! tip
 
@@ -73,19 +74,17 @@ Above each animation in this window, you will see a field to the right of "Anima
 
 To add multiple images to an animation, you can select all the images from the explorer and add them to the animation. You can also add more images to an existing animation by pressing **Add a sprite** for the animation you'd like to add images to. Images will be played in the same order as displayed.
 
-![image](https://user-images.githubusercontent.com/72082749/227321967-435d1f37-f3fa-4e8f-b4e6-2c1071d16a43.png)
-
 ### Repeating the animation
 
 By default, every animation plays only once, which means that the animation stops as soon as its last frame finishes. To repeat the animation, we can "loop" the animation; set the animation to "loop" by clicking the loop toggle button. Once an animation is set to loop, it will play continuously.
 
-![image](https://user-images.githubusercontent.com/72082749/227322388-0801e573-0796-47bb-bc8c-7f0a986ff171.png)
+![](./animation_loop.png)
 
 ### Setting animation speed
 
 The speed of the animation can be set by changing the value to the right of the clock icon. The value entered in the field is the time elapsed between two consecutive frames. The default value is 0.08 seconds. For faster playback, use lower animation time while, for slower playback, use high animation time.
 
-![image](https://user-images.githubusercontent.com/72082749/227322499-767868ba-a4e8-4ce0-81af-c4615b252df0.png)
+![](./animation_framerate.png)
 
 ## Naming the object
 
