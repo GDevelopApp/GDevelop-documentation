@@ -116,7 +116,7 @@ You can also change animations using the number associated with that animation u
 
 You can use the current animation of a sprite object as the condition for an event, either with it's animation name or number, as well as a particular frame of the animation.
 
-When using an animation's name, write the name between quotation marks. For examples: "Animation"
+When using an animation's name, write the name between quotation marks. For examples: "Animation" 
 
 ![](/gdevelop5/objects/eventanimnameexample.png)
 
