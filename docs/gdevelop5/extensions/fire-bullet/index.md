@@ -38,7 +38,7 @@ Statistics:
 - Total shots taken
 - Total reloads completed
 
-[Read more...](https://gdevelop.io/game-example/fire-bullet)
+[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/fire-bullet/details)
 
 ---
 
