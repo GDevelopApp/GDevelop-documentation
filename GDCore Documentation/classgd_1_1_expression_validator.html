@@ -87,15 +87,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acb56e15649b0cf4a045960acc357208f"><td class="memItemLeft" align="right" valign="top"><a id="acb56e15649b0cf4a045960acc357208f"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>ExpressionValidator</b> (const <a class="el" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform_, const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;globalObjectsContainer_, const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;objectsContainer_, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;rootType_)</td></tr>
 <tr class="separator:acb56e15649b0cf4a045960acc357208f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a138a254ecc495a5e230de8cf8e9895d2"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="structgd_1_1_expression_parser_diagnostic.html">ExpressionParserDiagnostic</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_expression_validator.html#a138a254ecc495a5e230de8cf8e9895d2">GetErrors</a> ()</td></tr>
-<tr class="memdesc:a138a254ecc495a5e230de8cf8e9895d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all the errors.  <a href="#a138a254ecc495a5e230de8cf8e9895d2">More...</a><br /></td></tr>
-<tr class="separator:a138a254ecc495a5e230de8cf8e9895d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd02ac711ac027792e5f32a430574b28"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="structgd_1_1_expression_parser_diagnostic.html">ExpressionParserDiagnostic</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_expression_validator.html#abd02ac711ac027792e5f32a430574b28">GetFatalErrors</a> ()</td></tr>
+<tr class="memdesc:abd02ac711ac027792e5f32a430574b28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get only the fatal errors.  <a href="#abd02ac711ac027792e5f32a430574b28">More...</a><br /></td></tr>
+<tr class="separator:abd02ac711ac027792e5f32a430574b28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a495836aeaea223b97af41874b14e2c4e"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="structgd_1_1_expression_parser_diagnostic.html">ExpressionParserDiagnostic</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_expression_validator.html#a495836aeaea223b97af41874b14e2c4e">GetAllErrors</a> ()</td></tr>
+<tr class="memdesc:a495836aeaea223b97af41874b14e2c4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all the errors.  <a href="#a495836aeaea223b97af41874b14e2c4e">More...</a><br /></td></tr>
+<tr class="separator:a495836aeaea223b97af41874b14e2c4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a769a116543b12a307fbfe3290666d3a9"><td class="memItemLeft" align="right" valign="top"><a id="a769a116543b12a307fbfe3290666d3a9"></a>
 static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_expression_validator.html#a769a116543b12a307fbfe3290666d3a9">HasNoErrors</a> (const <a class="el" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform, const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;globalObjectsContainer, const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;objectsContainer, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;rootType, <a class="el" href="structgd_1_1_expression_node.html">gd::ExpressionNode</a> &amp;node)</td></tr>
-<tr class="memdesc:a769a116543b12a307fbfe3290666d3a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to check if a given node does not contain any error. <br /></td></tr>
+<tr class="memdesc:a769a116543b12a307fbfe3290666d3a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to check if a given node does not contain any error including non-fatal ones. <br /></td></tr>
 <tr class="separator:a769a116543b12a307fbfe3290666d3a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
@@ -141,8 +144,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>OnVisitEmptyNode</b> 
 <div class="textblock"><p>Validate that an expression is properly written by returning any error attached to the nodes during parsing. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_expression_parser2.html" title="Parse an expression, returning a tree of node corresponding to the parsed expression. ">gd::ExpressionParser2</a> </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a138a254ecc495a5e230de8cf8e9895d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a138a254ecc495a5e230de8cf8e9895d2">&#9670;&nbsp;</a></span>GetErrors()</h2>
+<a id="a495836aeaea223b97af41874b14e2c4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a495836aeaea223b97af41874b14e2c4e">&#9670;&nbsp;</a></span>GetAllErrors()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -151,7 +154,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>OnVisitEmptyNode</b> 
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::vector&lt;<a class="el" href="structgd_1_1_expression_parser_diagnostic.html">ExpressionParserDiagnostic</a>*&gt;&amp; gd::ExpressionValidator::GetErrors </td>
+          <td class="memname">const std::vector&lt;<a class="el" href="structgd_1_1_expression_parser_diagnostic.html">ExpressionParserDiagnostic</a>*&gt;&amp; gd::ExpressionValidator::GetAllErrors </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -166,6 +169,34 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>OnVisitEmptyNode</b> 
 
 <p>Get all the errors. </p>
 <p>No errors means that the expression is valid. </p>
+
+</div>
+</div>
+<a id="abd02ac711ac027792e5f32a430574b28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd02ac711ac027792e5f32a430574b28">&#9670;&nbsp;</a></span>GetFatalErrors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt;<a class="el" href="structgd_1_1_expression_parser_diagnostic.html">ExpressionParserDiagnostic</a>*&gt;&amp; gd::ExpressionValidator::GetFatalErrors </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get only the fatal errors. </p>
+<p>Expressions with fatal error can't be generated. </p>
 
 </div>
 </div>

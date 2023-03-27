@@ -12,6 +12,7 @@ var searchData=
   ['generateobjecteventsfunctioncode',['GenerateObjectEventsFunctionCode',['../d7/d4f/classgdjs_1_1_events_code_generator.html#a6593097cefb486076caedc44a9f22f8f',1,'gdjs::EventsCodeGenerator']]],
   ['generateruntimebehaviorcompletecode',['GenerateRuntimeBehaviorCompleteCode',['../db/d58/classgdjs_1_1_behavior_code_generator.html#a8a2cf41a51e0ffecb35159c3ba3494a3',1,'gdjs::BehaviorCodeGenerator']]],
   ['generateruntimeobjectcompletecode',['GenerateRuntimeObjectCompleteCode',['../dc/df3/classgdjs_1_1_object_code_generator.html#a15f6a100ac33b20ac1a87d1e37823b18',1,'gdjs::ObjectCodeGenerator']]],
+  ['generateupperscopebooleanfullname',['GenerateUpperScopeBooleanFullName',['../d7/d4f/classgdjs_1_1_events_code_generator.html#a5df8d6d6650f62cec6fd97d75bc98cb0',1,'gdjs::EventsCodeGenerator']]],
   ['generatewebmanifest',['GenerateWebManifest',['../d0/d75/classgdjs_1_1_exporter_helper.html#ae1b3bb488de79cd3b06c240653b5ad89',1,'gdjs::ExporterHelper']]],
   ['get',['Get',['../d2/d3d/classgdjs_1_1_js_platform.html#aace4a7661473b55c7f73d590349330bc',1,'gdjs::JsPlatform']]],
   ['getbehaviorpropertygettername',['GetBehaviorPropertyGetterName',['../db/d58/classgdjs_1_1_behavior_code_generator.html#ab3b6d249665be922a7a667b9d588caee',1,'gdjs::BehaviorCodeGenerator']]],
