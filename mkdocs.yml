@@ -60,9 +60,9 @@ watch:
 plugins:
     - search
     - mkdocs-video:
-        is_video: True
         css_style:
             width: "100%"
+            aspect-ratio: "16 / 9"
     # Allow to customize navigation with `.pages` files:
     - awesome-pages
     # Redirect old pages:
