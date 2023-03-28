@@ -7,6 +7,7 @@ Following a character (also called an [object](https://wiki.gdevelop.io/gdevelop
 This article includes instructions for implementing this functionality either with a simple extension like [Smooth Camera](https://wiki.gdevelop.io/gdevelop5/extensions/smooth-camera/reference) or a set of actions on the Event Sheet.
 
 ![](/gdevelop5/tutorials/follow-player-with-camera/follow_object_with_camera.gif)
+{ .align-center }
 
 !!! tip
 
