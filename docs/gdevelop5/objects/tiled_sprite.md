@@ -3,12 +3,6 @@ title: Tiled Sprite
 ---
 # Tiled Sprite
 
-!!! tip
-
-        **See it in action!** 🎮
-    [I would rather see the Tiled Sprite object examples! Please take me there now.](/#Examples)
-
-
 A tiled sprite [object](/gdevelop5/objects) allows us to use repeating images in our games. increasing the width or height of the object will cause it repeat it's image, rather than stretching the image like a normal sprite object.
 
 A tiled sprite object can be used to create platforms in a platform game, health bars, status bars, repeating wall tiles, repeating backgrounds, etc.
