@@ -3,7 +3,7 @@ title: Destroy outside screen behavior
 ---
 # Destroy outside screen behavior
 
-This [behavior](/gdevelop5/behaviors) deleted objects, like bullets, that go off screen in order to improve performance. Apply the behavior to an [object](/gdevelop5/objects) and whenever an instance of this object goes out of the bounds of the game scene/screen it will be destroyed.
+This [behavior](/gdevelop5/behaviors) deletes objects, like bullets, that go off screen in order to improve performance. Apply the behavior to an [object](/gdevelop5/objects) and whenever an instance of this object goes out of the bounds of the game scene/screen it will be destroyed.
 
 This is one way of ensuring that your game's performance doesn't suffer because it's keeping track of bullets or other objects that have left the game scene, and will likely never return.
 
