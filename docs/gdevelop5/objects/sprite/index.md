@@ -112,13 +112,13 @@ When you have set multiple animations for an object with unique animation names,
 
 You can also change animations using the number associated with that animation using the action "Change the animation", where you can change the number of the animation being played with the modification symbol.
 
-![](/gdevelop5/objects/eventanimationexample.png)
+![](./ChangeAnimationAction.png)
 
-You can use the current animation of a sprite object as the condition for an event, either with it's animation name or number, as well as a particular frame of the animation.
+You can use the current animation of a sprite object as the condition for an event, either with its animation name or number, as well as a particular frame of the animation.
 
-When using an animation's name, write the name between quotation marks. For examples: "Animation"
+When using an animation's name, write the name between quotation marks. For examples: "Animation" 
 
-![](/gdevelop5/objects/eventanimnameexample.png)
+![](./ChangeAnimationCondition.png)
 
 For more practice with events, follow the [tutorials here](http://wiki.compilgames.net/doku.php/gdevelop5/tutorials).
 
@@ -131,16 +131,16 @@ Currently, the **Advanced options** button opens a window that allows you to tog
 **See it in action!** 🎮
 Click on the images to open the examples online.
 
-[![](/gdevelop5/objects/createaspritenew.png)](https://editor.gdevelop.io/?project=example://change-scale-of-sprites)
+[![](./Examples1SquareSizeChange.png)](https://editor.gdevelop.io/?project=example://change-scale-of-sprites)
 
 ----
 
-[![](/gdevelop5/objects/changespriteanimationexamplenew.png)](https://editor.gdevelop.io/?project=example://change-sprite-animation)
+[![](./Examples2ChangeAnimation.png)](https://editor.gdevelop.io/?project=example://change-sprite-animation)
 
 ----
 
-[![](/gdevelop5/objects/changespritecolorexamplenew.png)](https://editor.gdevelop.io/?project=example://change-sprite-color)
+[![](./Examples3BallCreation.png)](https://editor.gdevelop.io/?project=example://change-sprite-color)
 
 ----
 
-[![](/gdevelop5/objects/changespriteanimationexample2new.png)](https://editor.gdevelop.io/?project=example://play-stop-sprite-animation)
+[![](./Examples4PauseAnimation.png)](https://editor.gdevelop.io/?project=example://play-stop-sprite-animation)
