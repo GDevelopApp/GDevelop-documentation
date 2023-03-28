@@ -56,13 +56,29 @@ List of objects:
 
 ### Display a video
 
-A video is added with this syntax:
+By default, it will take the same width as the article.
+
+#### If the video is hosted in the project
+
+Use this syntax:
 
 ```md
-![type:video](./video.mp4)
+<video controls>
+  <source src="/gdevelop5/objects/ParticleEmitterWishforgeVideo.mp4">
+</video>
 ```
 
-By default, it will take the same width as the article.
+#### If you want to embed a video
+
+Use this syntax:
+
+```md
+![type:video](https://www.youtube.com/embed/595-swNh0Mw?list=PL3YlZTdKiS89Kj7IQVPoNElJCWrjZaCC8)
+```
+
+Find the link to use right-clicking a youtube video and clicking "Copy embed code". Then find the link in it.
+
+![Where to find the embed code of a youtube video](./images/youtube_embed_code.png)
 
 ### Display an image
 
