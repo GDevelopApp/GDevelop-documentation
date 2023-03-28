@@ -24,8 +24,9 @@ There are multiple types of expressions:
 !!! tip
 
     For a complete list of the function expressions that GDevelop provides out of the box, refer to [expressions reference](/gdevelop5/all-features/expressions-reference).
-
+<div class="align-center">
 <iframe width="640" height="360" src="https://www.youtube.com/embed/huKDtb8Ubd4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Numbers
 

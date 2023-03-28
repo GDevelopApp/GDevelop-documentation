@@ -13,7 +13,9 @@ Por exemplo, comportamentos podem:
 
 Você também pode customizar comportamentos para fazer a sensação de jogabilidade ser única e usar [eventos](/gdevelop5/events) para manipular comportamentos.
 
+<div class="align-center">
 <iframe width="640" height="360" src="https://www.youtube.com/embed/-U8WFcpUmMg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Lista de comportamentos
 Esta seção lista os diferentes tipos de comportamentos, onde cada um é útil para adicionar diferentes tipos de funcionalidades a objetos.

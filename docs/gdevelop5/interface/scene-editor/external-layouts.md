@@ -14,7 +14,9 @@ This can be useful to :
 
 The following videos is a quick explanation of external layouts and how to use them:
 
+<div class="align-center">
 <iframe width="640" height="360" src="https://www.youtube.com/embed/_VUwAfD_7zQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Create an external layout
 

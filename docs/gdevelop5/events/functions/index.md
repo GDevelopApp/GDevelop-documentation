@@ -19,7 +19,9 @@ In addition to events, functions also have parameters, just like usual condition
 
     See an example of functions being used in [this video by gamefromscratch](https://www.youtube.com/watch?v=BQO9DDXdkjs).
 
+<div class="align-center">
 <iframe width="640" height="360" src="https://www.youtube.com/embed/-U8WFcpUmMg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Creating a new function
 
