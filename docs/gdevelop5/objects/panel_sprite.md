@@ -3,7 +3,7 @@ title: Panel Sprite ("9 patch")
 ---
 # Panel Sprite ("9 patch")
 
-Panel sprite is an [object](/gdevelop5/objects) where it's image is split into 9 pieces or slices and each slice is scaled separately. This can be helpful where you would need the object to keep it's proportions even after it is scaled. It can be useful for making the frames of a menu interface, as tiles (land, water, etc..) in top down games, as platforms in platformer games, used in health bars, etc.
+Panel sprite is an [object](/gdevelop5/objects) where its image is split into 9 pieces or slices and each slice is scaled separately. This can be helpful where you would need the object to keep it's proportions even after it is scaled. It can be useful for making the frames of a menu interface, as tiles (land, water, etc..) in top down games, as platforms in platformer games, used in health bars, etc.
 
 !!! note
 
