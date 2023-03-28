@@ -54,6 +54,16 @@ List of objects:
 - Text
 ```
 
+### Display a video
+
+A video is added with this syntax:
+
+```md
+![type:video](./video.mp4)
+```
+
+By default, it will take the same width as the article.
+
 ### Display an image
 
 An image is added with this syntax:
