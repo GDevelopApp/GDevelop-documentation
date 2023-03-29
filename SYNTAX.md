@@ -56,7 +56,7 @@ List of objects:
 
 ### Display a video
 
-By default, it will take the same width as the article.
+By default, the video will take the same width as the article on mobile and, on desktop and tablet, it will be slightly less wide than the article and be centered.
 
 #### If the video is hosted in the project
 
