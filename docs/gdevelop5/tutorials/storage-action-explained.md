@@ -6,7 +6,7 @@ title: Storage actions
 Everytime a game loads, variables are created with their initial values. This means that variables cannot be used to store data between game sessions.
 Instead, storage actions can be used to save data and then load it when the game starts.
 
-To see this in action, review the *Save-Load* example included with GDevelop.
+To see this in action, review the *[Save-Load example](https://editor.gdevelop.io/?project=example://save-load)* included with GDevelop.
 
 !!! note
 
