@@ -7,9 +7,11 @@ Particle emitters can be used to display a large number of small particles. They
 
 The Particles Emitter object parameters can be configured in multiple different ways to create a specific desired effect.
 
+<div class="video-container">
 <video controls>
   <source src="/gdevelop5/objects/ParticleEmitterWishforgeVideo.mp4">
 </video>
+</div>
 
 ## Particle types
 

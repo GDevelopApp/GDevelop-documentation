@@ -61,8 +61,8 @@ plugins:
     - search
     - mkdocs-video:
         css_style:
-            width: "100%"
-            aspect-ratio: "16 / 9"
+            # Add impact-less css rule so that the default css style of the plugin is not injected
+            height: unset
     # Allow to customize navigation with `.pages` files:
     - awesome-pages
     # Redirect old pages:

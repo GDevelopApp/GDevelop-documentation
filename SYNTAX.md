@@ -63,9 +63,11 @@ By default, it will take the same width as the article.
 Use this syntax:
 
 ```md
+<div class="video-container">
 <video controls>
   <source src="/gdevelop5/objects/ParticleEmitterWishforgeVideo.mp4">
 </video>
+</div>
 ```
 
 #### If you want to embed a video
