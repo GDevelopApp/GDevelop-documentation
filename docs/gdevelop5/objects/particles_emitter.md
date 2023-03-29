@@ -39,7 +39,7 @@ Particles will be emitted in the direction represented by the angle of the emitt
 * The number of particles contained in the emitter ("tank") can be unlimited or fixed to a number. If the emitter is fixed to a number, the emitter will stop emitting after reaching the set number of particles.
 * The flow is the number of particles created every second. You can enter -1 to fire all particles at once.
 
-You can also change the maximum number of particles rendered by the object on the screen. Note that this number changes the memory taken by the emitter. //If this number is too big, it can cause the game to crash.//
+You can also change the maximum number of particles rendered by the object on the screen. Note that this number changes the memory taken by the emitter. **If this number is too big, it can cause the game to crash.**
 
 ## Examples
 
