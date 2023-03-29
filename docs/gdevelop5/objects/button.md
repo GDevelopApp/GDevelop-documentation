@@ -6,7 +6,7 @@ title: Button
 Buttons are an essential part of many games: they are used in menus, in the game and can be part of the gameplay. Buttons can be constructed in different ways in GDevelop. You can build your own with a mix of Sprite, Tiled Sprite, Shape Painter and Text objects.
 Often, it's easier to go with a ready-to-use button available in the Asset Store.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/plkHd4uPI4U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![type:video](https://www.youtube.com/embed/plkHd4uPI4U)
 
 ## Add a button from the Asset Store to a game
 

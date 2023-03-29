@@ -7,7 +7,7 @@ Sliders allow the player to change make a choice in a range. For example, this c
 
 While sliders could be constructed manually using other objects, it's often simpler to use ready-to-use sliders available in the Asset Store.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/plkHd4uPI4U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![type:video](https://www.youtube.com/embed/plkHd4uPI4U)
 
 ## Add a slider from the Asset Store to a game
 

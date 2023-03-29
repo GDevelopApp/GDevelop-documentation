@@ -11,7 +11,7 @@ In GDevelop, **events** define the logic of a game. You can use events to create
 
     You don't have to be familiar with programming to create events. If you are familiar with programming though, some of the concepts will feel familiar.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/rBZ3kuvr9G0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![type:video](https://www.youtube.com/embed/rBZ3kuvr9G0)
 
 ## Event Structure - Conditions and actions
 

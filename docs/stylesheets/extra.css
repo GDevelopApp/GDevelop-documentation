@@ -114,3 +114,22 @@ body[data-md-color-scheme="slate"] a.md-button:not(.md-button--primary) {
 body[data-md-color-scheme="slate"] a.md-button:not(.md-button--primary):hover {
   color: #FCFCFC;
 }
+
+article div.video-container{
+  display: flex;
+  justify-content: center;
+}
+
+article div.video-container > iframe,
+article div.video-container > video {
+  width: 70%;
+  max-width: 640px;
+  aspect-ratio: 16 / 9;
+}
+
+@media (max-width: 620px) {
+  article div.video-container > iframe,
+  article div.video-container > video {
+    width: 100%
+  }
+}

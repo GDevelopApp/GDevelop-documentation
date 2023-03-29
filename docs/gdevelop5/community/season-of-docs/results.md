@@ -27,7 +27,8 @@ The chapters in the tutorial covers:
   * Connecting these levels in the main menu
 
 ### Demo video
-<iframe width="640" height="360" src="https://www.youtube.com/embed/1Nt1k_lhhhs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+![type:video](https://www.youtube.com/embed/1Nt1k_lhhhs)
 
 ### Links:
 
