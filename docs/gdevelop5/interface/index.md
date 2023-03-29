@@ -7,9 +7,7 @@ The working interface of GDevelop is based on editors that are displayed in tabs
 
 ![](/gdevelop5/interface/pasted/20230309-173715.png)
 
-<div class="align-center">
-<iframe width="640" height="360" src="https://www.youtube.com/embed/bR2BjT7JG0k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+![type:video](https://www.youtube.com/embed/bR2BjT7JG0k)
 
 ## Home Page
 
