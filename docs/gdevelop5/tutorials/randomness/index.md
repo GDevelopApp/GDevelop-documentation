@@ -1,5 +1,5 @@
 ---
-title: Work with randomness
+title: Randomness
 ---
 
 # How to work with randomness?
