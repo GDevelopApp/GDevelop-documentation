@@ -17,7 +17,7 @@ Random objects can be created according to a random number.
 TODO screenshot of events and small example link.
 -->
 
-![type:video](https://youtu.be/5C78xIecgiI)
+![type:video](https://www.youtube.com/embed/5C78xIecgiI)
 
 ## Roll dice
 
