@@ -36,7 +36,7 @@ whereas there are 6 ways to make a 7:
 Rolling 2 dices is actually the same as picking 2 number between 1 and 6 and sum them using this expression `RandomInRange(1, 6) + RandomInRange(1, 6)`.
 
 <!---
-Create an example that compares visually different way of doing randomness.
+TODO Create an example that compares visually different way of doing randomness.
 Add a side by side comparison between `RandomInRange(1, 6) + RandomInRange(1, 6)` and `RandomInRange(2, 12)` and add a link to the example.
 -->
 
@@ -50,13 +50,13 @@ Using a roll of several dices to pick random number can be a good tool for [fair
 The [Array tools](/gdevelop5/extensions/array-tools/) extension can be used to shuffle arrays.
 
 <!---
-Add a screenshot of the instruction editor showing the shuffle action.
+TODO Add a screenshot of the instruction editor showing the shuffle action.
 -->
 
 The [Object stack](/gdevelop5/extensions/object-stack/) extension can be used to shuffle objects.
 
 <!---
-Add a screenshot of the instruction editor showing the shuffle action.
+TODO Add a screenshot of the instruction editor showing the shuffle action.
 -->
 
 !!! tip
@@ -82,7 +82,7 @@ A Tetris run when a player would never get a "I" piece doesn't sound fair nor fu
 To ensure that every type of pieces is given to players regularly. The next 14 pieces can be decided in advanced. For instance, it can be decided to give 2 pieces of each type. To still give some randomness, the order can be shuffle like a deck of cards.
 
 <!---
-Create an example that compares visually different way of doing randomness.
+TODO Create an example that compares visually different way of doing randomness.
 Add a side by side comparison and a link to the example.
 -->
 
