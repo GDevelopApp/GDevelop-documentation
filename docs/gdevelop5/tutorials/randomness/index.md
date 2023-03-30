@@ -43,7 +43,7 @@ Add a side by side comparison between `RandomInRange(1, 6) + RandomInRange(1, 6)
 
 !!! tip
 
-Using a roll of several dice to pick random number can be a good tool for [fairness](#make-randomness-feel-fair) as it gives more changes to get a medium value.
+    Using a roll of several dice to pick random number can be a good tool for [fairness](#make-randomness-feel-fair) as it gives more changes to get a medium value.
 
 
 ## Pick cards from a deck
@@ -62,7 +62,7 @@ TODO Add a screenshot of the instruction editor showing the shuffle action.
 
 !!! tip
 
-Even if a game is not about cards, using a deck can be a good tool for [fairness](#make-randomness-feel-fair) as it gives more control on what happens in a time frame.
+    Even if a game is not about cards, using a deck can be a good tool for [fairness](#make-randomness-feel-fair) as it gives more control on what happens in a time frame.
 
 **Card system example**
 
@@ -89,7 +89,7 @@ Add a side by side comparison and a link to the example.
 
 !!! tip
 
-Learn [how to shuffle a deck](#pick-cards-from-a-deck).
+    Learn [how to shuffle a deck](#pick-cards-from-a-deck).
 
 
 ### Make something more or less rare
@@ -102,7 +102,7 @@ Bell-shaped functions are often used to show how many people have a given charac
 
 !!! tip
 
-Learn [how to roll dice](#roll-dice).
+    Learn [how to roll dice](#roll-dice).
 
 [
   ![](dice-probabilities-dark.svg#only-dark)
