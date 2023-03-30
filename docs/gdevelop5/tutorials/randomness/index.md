@@ -99,9 +99,13 @@ Defining each probability is fine when there are only few quality levels but som
 
 Bell-shaped functions are often used to show how many people have a given characteristic for instance the IQ. Most peoples are on the center where the curve is high and the curve is going down as it becomes rarer and rarer to find people. Most of these curves have complicated formulas but rolling several dices gives similar results.
 
-[![](https://upload.wikimedia.org/wikipedia/commons/8/8c/Dice_sum_central_limit_theorem.svg)](https://en.wikipedia.org/wiki/File%3ADice_sum_central_limit_theorem.svg)
-
 !!! tip
 
 Learn [how to roll dices](#roll-dices).
+
+[
+  ![](dices-probabilities-dark.svg#only-dark)
+  ![](dices-probabilities-light.svg#only-light)
+](https://en.wikipedia.org/wiki/File%3ADice_sum_central_limit_theorem.svg)
+
 
