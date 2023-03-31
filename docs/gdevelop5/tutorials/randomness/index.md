@@ -104,11 +104,6 @@ Bell-shaped functions are often used to show how many people have a given charac
 
     Learn [how to roll dice](#roll-dice).
 
-
-
-
-
-
 [![](dice-probabilities-dark.svg#only-dark)![](dice-probabilities-light.svg#only-light)](https://en.wikipedia.org/wiki/File%3ADice_sum_central_limit_theorem.svg)
 
 
