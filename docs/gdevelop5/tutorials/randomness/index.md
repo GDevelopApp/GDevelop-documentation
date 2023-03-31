@@ -34,7 +34,7 @@ whereas there are 6 ways to make a 7:
 - 5 and 2
 - 6 and 1
 
-Rolling 2 dice is actually the same as picking 2 number between 1 and 6 and sum them using this expression `RandomInRange(1, 6) + RandomInRange(1, 6)`.
+Rolling 2 dice is actually the same as picking 2 numbers between 1 and 6 and adding them together using this expression `RandomInRange(1, 6) + RandomInRange(1, 6)`.
 
 <!---
 TODO Create an example that compares visually different way of doing randomness.
@@ -43,7 +43,7 @@ Add a side by side comparison between `RandomInRange(1, 6) + RandomInRange(1, 6)
 
 !!! tip
 
-    Using a roll of several dice to pick random number can be a good tool for [fairness](#make-randomness-feel-fair) as it gives more changes to get a medium value.
+    Using a roll of several dice to pick a random number can be a good tool for [fairness](#make-randomness-feel-fair) as it's more likely to give a value closer to the middle.
 
 
 ## Pick cards from a deck
@@ -62,7 +62,7 @@ TODO Add a screenshot of the instruction editor showing the shuffle action.
 
 !!! tip
 
-    Even if a game is not about cards, using a deck can be a good tool for [fairness](#make-randomness-feel-fair) as it gives more control on what happens in a time frame.
+    Even if a game is not about cards, using a deck can be a good tool for [fairness](#make-randomness-feel-fair) as it gives more control over what happens in a time frame.
 
 **Card system example**
 
@@ -73,14 +73,14 @@ TODO Add a screenshot of the instruction editor showing the shuffle action.
 
 ## Make randomness feel fair
 
-Randomness is actually more than just pick random numbers. Finding a suitable randomness for a game is part of the game design.
+Randomness is actually more than just picking random numbers. Finding a suitable level of randomness for a game is part of game design.
 
 
 ### Chose better random sequences
 
-A Tetris run when a player would never get a "I" piece doesn't sound fair nor fun. However, if a 7-faces die is rolled to choose the next piece this could happen. Indeed, each time there is 1/7 chance not to roll a "I".
+A Tetris run where a player never gets an "I" piece doesn't sound fair nor fun. However, this could happen if a 7-sided die is rolled to choose the next piece. Indeed, there is a 6/7 chance not to roll an "I" each time.
 
-To ensure that every type of pieces is given to players regularly. The next 14 pieces can be decided in advanced. For instance, it can be decided to give 2 pieces of each type. To still give some randomness, the order can be shuffle like a deck of cards.
+To ensure that every type of piece is given to players regularly. The next 14 pieces can be decided in advance. For instance, it can be decided to give 2 pieces of each type. To still give some randomness, the order can be shuffled like a deck of cards.
 
 <!---
 TODO Create an example that compares visually different way of doing randomness.
@@ -94,11 +94,11 @@ Add a side by side comparison and a link to the example.
 
 ### Make something more or less rare
 
-One way to make something rarer than other is to choose a probability for each things to happens. For instance, 10% change for a rare item, 25% chance for an uncommon item and 65% for a common item.
+One way to make something rarer than another is to choose a probability for each thing to happen. For instance, 10% chance for a rare item, a 25% chance for an uncommon item, and 65% for a common item.
 
-Defining each probability is fine when there are only few quality levels but some games like Pokemon can have hundreds of quality levels. In this case, it's faster to calculate the quality rather than listing every cases.
+Defining the probability of each is fine when there are only a few quality levels, but some games like Pokemon can have hundreds of quality levels. In this case, it's faster to calculate the quality rather than listing every case.
 
-Bell-shaped functions are often used to show how many people have a given characteristic for instance the IQ. Most peoples are on the center where the curve is high and the curve is going down as it becomes rarer and rarer to find people. Most of these curves have complicated formulas but rolling several dice gives similar results.
+Bell-shaped functions are often used to show how many people have a given characteristic, a person's IQ for instance. Most peoples are in the center where the curve is high and the curve goes down as it becomes rarer and rarer to find people. Most of these curves have complicated formulas, but rolling several dice gives similar results.
 
 !!! tip
 
