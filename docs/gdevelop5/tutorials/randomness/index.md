@@ -94,7 +94,7 @@ Add a side by side comparison and a link to the example.
 
 ### Make something more or less rare
 
-One way to make something rarer than another is to choose a probability for each thing to happen. For instance, 10% chance for a rare item, a 25% chance for an uncommon item, and 65% for a common item.
+One way to make something rarer than another is to choose a probability for each thing to happen. For instance, 10% chance for a rare item, a 25% chance for an uncommon item and 65% for a common item.
 
 Defining the probability of each quality level is fine when there are only a few of them, but some games like Pokemon can have hundreds of quality levels. In this case, it's faster to calculate the quality rather than listing every case.
 
