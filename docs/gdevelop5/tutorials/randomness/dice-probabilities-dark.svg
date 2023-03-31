@@ -1,0 +1,268 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="-315 -750 640 768">
+ <title>Comparison of probability density functions for the sum of n dice to illustrate the central limit theorem</title>
+ <desc>Comparison of probability density functions, p(k) for the sum of n fair 6-sided dice to show their convergence to a normal distribution with increasing n, in accordance to the central limit theorem; illustrated by CMG Lee. In the individual probability distribution functions, the minima, maxima and mods are labelled. In the bottom-right graph, smoothed profiles of the previous graphs are rescaled, superimposed and compared with a normal distribution, shown in black.</desc>
+ <defs>
+  <path id="bars_1" d="M 10 0 V -167 M 20 0 V -167 M 30 0 V -167 M 40 0 V -167 M 50 0 V -167 M 60 0 V -167 "/>
+  <path id="bars_2" d="M 20 0 V -28 M 30 0 V -56 M 40 0 V -83 M 50 0 V -111 M 60 0 V -139 M 70 0 V -167 M 80 0 V -139 M 90 0 V -111 M 100 0 V -83 M 110 0 V -56 M 120 0 V -28 "/>
+  <path id="bars_3" d="M 30 0 V -5 M 40 0 V -14 M 50 0 V -28 M 60 0 V -46 M 70 0 V -69 M 80 0 V -97 M 90 0 V -116 M 100 0 V -125 M 110 0 V -125 M 120 0 V -116 M 130 0 V -97 M 140 0 V -69 M 150 0 V -46 M 160 0 V -28 M 170 0 V -14 M 180 0 V -5 "/>
+  <path id="bars_4" d="M 40 0 V -1 M 50 0 V -3 M 60 0 V -8 M 70 0 V -15 M 80 0 V -27 M 90 0 V -43 M 100 0 V -62 M 110 0 V -80 M 120 0 V -96 M 130 0 V -108 M 140 0 V -113 M 150 0 V -108 M 160 0 V -96 M 170 0 V -80 M 180 0 V -62 M 190 0 V -43 M 200 0 V -27 M 210 0 V -15 M 220 0 V -8 M 230 0 V -3 M 240 0 V -1 "/>
+  <path id="bars_5" d="M 50 0 V 0 M 60 0 V -1 M 70 0 V -2 M 80 0 V -5 M 90 0 V -9 M 100 0 V -16 M 110 0 V -26 M 120 0 V -39 M 130 0 V -54 M 140 0 V -69 M 150 0 V -84 M 160 0 V -95 M 170 0 V -100 M 180 0 V -100 M 190 0 V -95 M 200 0 V -84 M 210 0 V -69 M 220 0 V -54 M 230 0 V -39 M 240 0 V -26 M 250 0 V -16 M 260 0 V -9 M 270 0 V -5 M 280 0 V -2 M 290 0 V -1 M 300 0 V 0 "/>
+
+  <path id="line_1" d="M 10 -167 L 20 -167 L 30 -167 L 40 -167 L 50 -167 L 60 -167"/>
+  <path id="line_2" d="M 20 -28 L 30 -56 L 40 -83 L 50 -111 L 60 -139 L 70 -167 L 80 -139 L 90 -111 L 100 -83 L 110 -56 L 120 -28"/>
+  <path id="line_3" d="M 30 -5 L 40 -14 L 50 -28 L 60 -46 L 70 -69 L 80 -97 L 90 -116 L 100 -125 L 110 -125 L 120 -116 L 130 -97 L 140 -69 L 150 -46 L 160 -28 L 170 -14 L 180 -5"/>
+  <path id="line_4" d="M 40 -1 L 50 -3 L 60 -8 L 70 -15 L 80 -27 L 90 -43 L 100 -62 L 110 -80 L 120 -96 L 130 -108 L 140 -113 L 150 -108 L 160 -96 L 170 -80 L 180 -62 L 190 -43 L 200 -27 L 210 -15 L 220 -8 L 230 -3 L 240 -1"/>
+  <path id="line_5" d="M 50 0 L 60 -1 L 70 -2 L 80 -5 L 90 -9 L 100 -16 L 110 -26 L 120 -39 L 130 -54 L 140 -69 L 150 -84 L 160 -95 L 170 -100 L 180 -100 L 190 -95 L 200 -84 L 210 -69 L 220 -54 L 230 -39 L 240 -26 L 250 -16 L 260 -9 L 270 -5 L 280 -2 L 290 -1 L 300 0"/>
+
+  <path id="line_normal" d="M 0 -0.771 L 3 -0.961 L 6 -1.192 L 9 -1.472 L 12 -1.810 L 15 -2.216 L 18 -2.701 L 21 -3.277 L 24 -3.958 L 27 -4.759 L 30 -5.698 L 33 -6.791 L 36 -8.059 L 39 -9.520 L 42 -11.197 L 45 -13.111 L 48 -15.284 L 51 -17.737 L 54 -20.494 L 57 -23.573 L 60 -26.995 L 63 -30.777 L 66 -34.934 L 69 -39.475 L 72 -44.409 L 75 -49.739 L 78 -55.460 L 81 -61.566 L 84 -68.041 L 87 -74.864 L 90 -82.005 L 93 -89.429 L 96 -97.093 L 99 -104.946 L 102 -112.931 L 105 -120.985 L 108 -129.039 L 111 -137.018 L 114 -144.846 L 117 -152.441 L 120 -159.724 L 123 -166.612 L 126 -173.027 L 129 -178.892 L 132 -184.135 L 135 -188.692 L 138 -192.503 L 141 -195.521 L 144 -197.706 L 147 -199.028 L 150 -199.471 L 153 -199.028 L 156 -197.706 L 159 -195.521 L 162 -192.503 L 165 -188.692 L 168 -184.135 L 171 -178.892 L 174 -173.027 L 177 -166.612 L 180 -159.724 L 183 -152.441 L 186 -144.846 L 189 -137.018 L 192 -129.039 L 195 -120.985 L 198 -112.931 L 201 -104.946 L 204 -97.093 L 207 -89.429 L 210 -82.005 L 213 -74.864 L 216 -68.041 L 219 -61.566 L 222 -55.460 L 225 -49.739 L 228 -44.409 L 231 -39.475 L 234 -34.934 L 237 -30.777 L 240 -26.995 L 243 -23.573 L 246 -20.494 L 249 -17.737 L 252 -15.284 L 255 -13.111 L 258 -11.197 L 261 -9.520 L 264 -8.059 L 267 -6.791 L 270 -5.698 L 273 -4.759 L 276 -3.958 L 279 -3.277 L 282 -2.701 L 285 -2.216 L 288 -1.810 L 291 -1.472 L 294 -1.192 L 297 -0.961 L 300 -0.771"/>
+  <g id="axes">
+   <path d="M 0 -200 V 0"/>
+   <text x="-2" y="-195" font-style="italic" stroke="none" fill="white">p(k)</text>
+   <text x="-2" y="-175" stroke="none" fill="white">0.18</text>
+   <text x="-2" y="-155" stroke="none" fill="white">0.16</text>
+   <text x="-2" y="-135" stroke="none" fill="white">0.14</text>
+   <text x="-2" y="-115" stroke="none" fill="white">0.12</text>
+   <text x="-2" y="-95" stroke="none" fill="white">0.10</text>
+   <text x="-2" y="-75" stroke="none" fill="white">0.08</text>
+   <text x="-2" y="-55" stroke="none" fill="white">0.05</text>
+   <text x="-2" y="-35" stroke="none" fill="white">0.04</text>
+   <text x="-2" y="-15" stroke="none" fill="white">0.02</text>
+   <text x="-2" y="5" stroke="none" fill="white">0.00</text>
+  </g>
+  <g id="axes_200" text-anchor="end">
+   <use xlink:href="#axes"/>
+   <path d="M 200 0 V -200 M 0 -200 H 200 M 0 -180 H 200 M 0 -160 H 200 M 0 -140 H 200 M 0 -120 H 200 M 0 -100 H 200 M 0 -80 H 200 M 0 -60 H 200 M 0 -40 H 200 M 0 -20 H 200 M 0 0 H 200"/>
+   <text x="200" y="15" font-style="italic" stroke="none" fill="white">k</text>
+  </g>
+  <g id="axes_320" text-anchor="end">
+   <use xlink:href="#axes"/>
+   <path d="M 320 0 V -200 M 0 -200 H 320 M 0 -180 H 320 M 0 -160 H 320 M 0 -140 H 320 M 0 -120 H 320 M 0 -100 H 320 M 0 -80 H 320 M 0 -60 H 320 M 0 -40 H 320 M 0 -20 H 320 M 0 0 H 320"/>
+   <text x="320" y="15" font-style="italic" stroke="none" fill="white">k</text>
+  </g>
+ </defs>
+ <g font-family="sans-serif" font-size="15" text-anchor="middle" stroke="white" stroke-width="0.5">
+  <g transform="translate(-270,-520)">
+   <text x="100" y="-210" font-size="20" stroke="none" fill="white"><tspan font-style="italic">n</tspan><tspan> = 1</tspan></text>
+   <use xlink:href="#axes_200"/>
+   <use xlink:href="#bars_1" stroke="#0000ff" stroke-width="8"/>
+   <text x="10" y="15" stroke="none" fill="white">1</text>
+   <text x="20" y="15" stroke="none" fill="white">2</text>
+   <text x="30" y="15" stroke="none" fill="white">3</text>
+   <text x="40" y="15" stroke="none" fill="white">4</text>
+   <text x="50" y="15" stroke="none" fill="white">5</text>
+   <text x="60" y="15" stroke="none" fill="white">6</text>
+   <text x="35" y="-168" stroke="none" fill="white">1 / 6</text>
+  </g>
+  <g transform="translate(-270,-260)">
+   <text x="100" y="-210" font-size="20" stroke="none" fill="white"><tspan font-style="italic">n</tspan><tspan> = 2</tspan></text>
+   <use xlink:href="#axes_200"/>
+   <use xlink:href="#bars_2" stroke="#00cc00" stroke-width="8"/>
+   <text x="20" y="15" stroke="none" fill="white">2</text>
+   <text x="120" y="15" stroke="none" fill="white">12</text>
+   <text x="70" y="15" stroke="none" fill="white">7</text>
+   <text x="70" y="-168" stroke="none" fill="white">1 / 6</text>
+  </g>
+  <g transform="translate(-270,0)">
+   <text x="100" y="-210" font-size="20" stroke="none" fill="white"><tspan font-style="italic">n</tspan><tspan> = 3</tspan></text>
+   <use xlink:href="#axes_200"/>
+   <use xlink:href="#bars_3" stroke="#cc9900" stroke-width="8"/>
+   <text x="30" y="15" stroke="none" fill="white">3</text>
+   <text x="180" y="15" stroke="none" fill="white">18</text>
+   <text x="105" y="15" stroke="none" fill="white" letter-spacing="-2">10,11</text>
+   <text x="105" y="-128" stroke="none" fill="white">1 / 8</text>
+  </g>
+  <g transform="translate(0,-520)">
+   <text x="150" y="-210" font-size="20" stroke="none" fill="white"><tspan font-style="italic">n</tspan><tspan> = 4</tspan></text>
+   <use xlink:href="#axes_320"/>
+   <use xlink:href="#bars_4" stroke="#ff0000" stroke-width="8"/>
+   <text x="40" y="15" stroke="none" fill="white">4</text>
+   <text x="240" y="15" stroke="none" fill="white">24</text>
+   <text x="140" y="15" stroke="none" fill="white">14</text>
+   <text x="140" y="-122" stroke="none" fill="white">73 / 648</text>
+  </g>
+  <g transform="translate(0,-260)">
+   <text x="150" y="-210" font-size="20" stroke="none" fill="white"><tspan font-style="italic">n</tspan><tspan> = 5</tspan></text>
+   <use xlink:href="#axes_320"/>
+   <use xlink:href="#bars_5" stroke="#9900ff" stroke-width="8"/>
+   <text x="50" y="15" stroke="none" fill="white">5</text>
+   <text x="300" y="15" stroke="none" fill="white">30</text>
+   <text x="175" y="15" stroke="none" fill="white" letter-spacing="-2">17,18</text>
+   <text x="175" y="-105" stroke="none" fill="white">65 / 648</text>
+  </g>
+
+  <rect x="0" y="-200" width="300" height="200" fill="none"/>
+  <use xlink:href="#line_1" transform="scale(6.0,1.198) translate(-10,0)" stroke="#0000ff" stroke-width="1" fill="none"/>
+  <use xlink:href="#line_2" transform="scale(3.0,1.198) translate(-20,0)" stroke="#00cc00" stroke-dasharray="1,1" fill="none"/>
+  <use xlink:href="#line_3" transform="scale(2.0,1.600) translate(-30,0)" stroke="#cc9900" stroke-dasharray="4,1" fill="none"/>
+  <use xlink:href="#line_4" transform="scale(1.5,1.770) translate(-40,0)" stroke="#ff0000" stroke-dasharray="4,1,1,1" fill="none"/>
+  <use xlink:href="#line_5" transform="scale(1.2,2.000) translate(-50,0)" stroke="#9900ff" stroke-dasharray="4,1,4,1" fill="none"/>
+  <use xlink:href="#line_normal" stroke="white" stroke-width="1" fill="none"/>
+ </g>
+</svg>
+<!-- Perl script to create above; please do not remove.
+#!/usr/bin/perl
+use Math::Trig;
+
+sub choose {
+ my ($N, $K) = @_;
+ if ($K * 2 > $N) { $K = $N - $K; } # use smaller half
+ if ($K < 0) { return 0; }
+ my $p_1 = 1, $i_1;
+ for ($i_1 = 1; $i_1 <= $K; ++$i_1) {
+  $p_1 *= ($N - $K + $i_1) / $i_1;
+ }
+ return $p_1;
+}
+
+sub n_way {
+ my ($s, $n, $k) = @_;
+ my $sum = 0, $i;
+ for ($i = 0; $i <= ($k - $n) / $s; ++$i) {
+  $sum += ((-1) ** $i) * &choose($n, $i) * &choose($k - $s * $i - 1, $n - 1);
+ }
+ return $sum;
+}
+
+sub p {
+ my ($s, $n, $k) = @_;
+ return &n_way($s, $n, $k) / $s ** $n;
+}
+
+my $sqrt_2_pi = sqrt(2 * pi);
+sub pdf {
+ my ($x, $mu, $sigma) = @_;
+ my $x_minus_mu = $x - $mu;
+ return exp($x_minus_mu * $x_minus_mu / (-2 * $sigma * $sigma)) /
+        ($sqrt_2_pi * $sigma);
+}
+
+my $double_dash = "-" . "-";
+my $file_out = $0; $file_out =~ s/[^\.]*$/svg/;
+# s = sides per die, 6, n = number of dice, p = probability
+my $s = 6, $n, $k, $p, $x, $y;
+my $out_defs_line = "";
+my $out_defs_bars = "";
+for ($n = 1; $n <= 5; ++$n) {
+# {$n = 30;
+ $out_defs_line .= qq`  <path id="line_${n}" d="`;
+ $out_defs_bars .= qq`  <path id="bars_${n}" d="`;
+ for ($k = $n; $k <= $n * $s; ++$k) {
+  $x = $k * 10;
+  $y = -int(&p($s, $n, $k) * 1000 + 0.5);
+  $out_defs_line .= ($k == $n ? "M" : " L") . " ${x} ${y}";
+  $out_defs_bars .= qq`M ${x} 0 V ${y} `;
+ }
+ $out_defs_line .= qq`"/>\n`;
+ $out_defs_bars .= qq`"/>\n`;
+}
+
+my $out_normal = "";
+for ($i = -5; $i < 5; $i += 0.1) {
+ $x = sprintf("%.0f", ($i + 5) * 30);
+ $y = sprintf("%.3f", &pdf($i, 0, 1.5) * -750);
+ $out_normal .= ($out_normal eq "" ? "M" : " L") . " ${x} ${y}";
+}
+
+open (FILE_OUT, ">$file_out");
+print FILE_OUT qq`<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="-315 -750 640 768">
+ <title>Comparison of probability density functions for the sum of n dice to illustrate the central limit theorem</title>
+ <desc>Comparison of probability density functions, p(k) for the sum of n fair 6-sided dice to show their convergence to a normal distribution with increasing n, in accordance to the central limit theorem; illustrated by CMG Lee. In the individual probability distribution functions, the minima, maxima and mods are labelled. In the bottom-right graph, smoothed profiles of the previous graphs are rescaled, superimposed and compared with a normal distribution, shown in black.</desc>
+ <defs>
+${out_defs_bars}
+${out_defs_line}
+  <path id="line_normal" d="${out_normal}"/>
+  <g id="axes">
+   <path d="M 0 -200 V 0"/>
+   <text x="-2" y="-195" font-style="italic" stroke="none">p(k)</text>
+   <text x="-2" y="-175" stroke="none">0.18</text>
+   <text x="-2" y="-155" stroke="none">0.16</text>
+   <text x="-2" y="-135" stroke="none">0.14</text>
+   <text x="-2" y="-115" stroke="none">0.12</text>
+   <text x="-2" y="-95" stroke="none">0.10</text>
+   <text x="-2" y="-75" stroke="none">0.08</text>
+   <text x="-2" y="-55" stroke="none">0.05</text>
+   <text x="-2" y="-35" stroke="none">0.04</text>
+   <text x="-2" y="-15" stroke="none">0.02</text>
+   <text x="-2" y="5" stroke="none">0.00</text>
+  </g>
+  <g id="axes_200" text-anchor="end">
+   <use xlink:href="#axes"/>
+   <path d="M 200 0 V -200 M 0 -200 H 200 M 0 -180 H 200 M 0 -160 H 200 M 0 -140 H 200 M 0 -120 H 200 M 0 -100 H 200 M 0 -80 H 200 M 0 -60 H 200 M 0 -40 H 200 M 0 -20 H 200 M 0 0 H 200"/>
+   <text x="200" y="15" font-style="italic" stroke="none">k</text>
+  </g>
+  <g id="axes_320" text-anchor="end">
+   <use xlink:href="#axes"/>
+   <path d="M 320 0 V -200 M 0 -200 H 320 M 0 -180 H 320 M 0 -160 H 320 M 0 -140 H 320 M 0 -120 H 320 M 0 -100 H 320 M 0 -80 H 320 M 0 -60 H 320 M 0 -40 H 320 M 0 -20 H 320 M 0 0 H 320"/>
+   <text x="320" y="15" font-style="italic" stroke="none">k</text>
+  </g>
+ </defs>
+ <g font-family="sans-serif" font-size="15" text-anchor="middle" stroke="#000000" stroke-width="0.5" fill="#000000">
+  <g transform="translate(-270,-520)">
+   <text x="100" y="-210" font-size="20" stroke="none"><tspan font-style="italic">n</tspan><tspan>&#160;= 1</tspan></text>
+   <use xlink:href="#axes_200"/>
+   <use xlink:href="#bars_1" stroke="#0000ff" stroke-width="8"/>
+   <text x="10" y="15" stroke="none">1</text>
+   <text x="20" y="15" stroke="none">2</text>
+   <text x="30" y="15" stroke="none">3</text>
+   <text x="40" y="15" stroke="none">4</text>
+   <text x="50" y="15" stroke="none">5</text>
+   <text x="60" y="15" stroke="none">6</text>
+   <text x="35" y="-168" stroke="none">1 / 6</text>
+  </g>
+  <g transform="translate(-270,-260)">
+   <text x="100" y="-210" font-size="20" stroke="none"><tspan font-style="italic">n</tspan><tspan>&#160;= 2</tspan></text>
+   <use xlink:href="#axes_200"/>
+   <use xlink:href="#bars_2" stroke="#00cc00" stroke-width="8"/>
+   <text x="20" y="15" stroke="none">2</text>
+   <text x="120" y="15" stroke="none">12</text>
+   <text x="70" y="15" stroke="none">7</text>
+   <text x="70" y="-168" stroke="none">1 / 6</text>
+  </g>
+  <g transform="translate(-270,0)">
+   <text x="100" y="-210" font-size="20" stroke="none"><tspan font-style="italic">n</tspan><tspan>&#160;= 3</tspan></text>
+   <use xlink:href="#axes_200"/>
+   <use xlink:href="#bars_3" stroke="#cc9900" stroke-width="8"/>
+   <text x="30" y="15" stroke="none">3</text>
+   <text x="180" y="15" stroke="none">18</text>
+   <text x="105" y="15" stroke="none" letter-spacing="-2">10,11</text>
+   <text x="105" y="-128" stroke="none">1 / 8</text>
+  </g>
+  <g transform="translate(0,-520)">
+   <text x="150" y="-210" font-size="20" stroke="none"><tspan font-style="italic">n</tspan><tspan>&#160;= 4</tspan></text>
+   <use xlink:href="#axes_320"/>
+   <use xlink:href="#bars_4" stroke="#ff0000" stroke-width="8"/>
+   <text x="40" y="15" stroke="none">4</text>
+   <text x="240" y="15" stroke="none">24</text>
+   <text x="140" y="15" stroke="none">14</text>
+   <text x="140" y="-122" stroke="none">73 / 648</text>
+  </g>
+  <g transform="translate(0,-260)">
+   <text x="150" y="-210" font-size="20" stroke="none"><tspan font-style="italic">n</tspan><tspan>&#160;= 5</tspan></text>
+   <use xlink:href="#axes_320"/>
+   <use xlink:href="#bars_5" stroke="#9900ff" stroke-width="8"/>
+   <text x="50" y="15" stroke="none">5</text>
+   <text x="300" y="15" stroke="none">30</text>
+   <text x="175" y="15" stroke="none" letter-spacing="-2">17,18</text>
+   <text x="175" y="-105" stroke="none">65 / 648</text>
+  </g>
+
+  <rect x="0" y="-200" width="300" height="200" fill="none"/>
+  <use xlink:href="#line_1" transform="scale(6.0,1.198) translate(-10,0)" stroke="#0000ff" stroke-width="1" fill="none"/>
+  <use xlink:href="#line_2" transform="scale(3.0,1.198) translate(-20,0)" stroke="#00cc00" stroke-dasharray="1,1" fill="none"/>
+  <use xlink:href="#line_3" transform="scale(2.0,1.600) translate(-30,0)" stroke="#cc9900" stroke-dasharray="4,1" fill="none"/>
+  <use xlink:href="#line_4" transform="scale(1.5,1.770) translate(-40,0)" stroke="#ff0000" stroke-dasharray="4,1,1,1" fill="none"/>
+  <use xlink:href="#line_5" transform="scale(1.2,2.000) translate(-50,0)" stroke="#9900ff" stroke-dasharray="4,1,4,1" fill="none"/>
+  <use xlink:href="#line_normal" stroke="#000000" stroke-width="1" fill="none"/>
+ </g>
+</svg>
+
+<!${double_dash} Perl script to create above; please do not remove.
+`;
+open (FILE_IN, $0);
+while (<FILE_IN>) { print FILE_OUT $_; }
+close FILE_IN;
+print FILE_OUT "${double_dash}>";
+close FILE_OUT;
+-->
