@@ -1,7 +1,7 @@
 ---
-title: Functions - create your own actions or conditions
+title: Functions - create your own actions, conditions or expressions
 ---
-# Functions: create your own actions or conditions
+# Functions: create your own actions, conditions or expressions
 
 An "Events Function" or simply Function is a powerful feature of GDevelop. [External events](/gdevelop5/interface), [links](/gdevelop5/events/link) and [groups](/gdevelop5/events/group) are useful to organize the events of your game, and even reuse some, in more than one place in your game. For example, you could put common events, to manage the enemies in some external events, and include these events, using a link, in various scenes.
 
@@ -147,3 +147,39 @@ Functions can be shared across projects (like actions/conditions that are built 
 !!! tip
 
     See [an example of replacing external events by a function](/gdevelop5/events/functions/replace-external-events), which is reusable and shareable. You can also **[automatically extract events to a function](/gdevelop5/events/functions/extract-events)**.
+
+
+### References of parameters
+
+Parameters in function can be various:
+
+| Parameters                    | Type         | Description                                               |
+|-------------------------------|--------------|-----------------------------------------------------------|
+| Objects                       | Objects list | A list of objects                                         |
+| Behavior                      | Behavior     | The behavior from an object                               |
+| String                        | Text         | Just a text                                               |
+| String from a list of options | Text         | A list of multiple text                                   |
+| Keyboard Key                  | Text         | A list of keys                                            |
+| Mouse button                  | Text         | A list of buttons                                         |
+| Color                         | Text         | The color in RGB. Format: `"255;255;255"`                 |
+| Layer                         | Text         | The name of a layer                                       |
+| Scene name                    | Text         | The name of a scene                                       |
+| Yes or No                     | Boolean      | A boolean value                                           |
+| True or False                 | Boolean      | A boolean value                                           |
+| Object point                  | Text         | The name of an point from an object                       |
+| Object animation              | Text         | The name of an animation from an object                   |
+| Identifier                    | Text         | Allow the auto-complete to suggest previously used values |
+
+
+#### Identifier parameter
+
+This parameter enables auto-completion for previously entered text, helping users quickly locate values from other events.
+
+##### Scopes
+
+**Object**, suggests previously used values on the same object.
+**Scene**, suggests previously used values from the scene events.
+
+#####  Identifier name
+
+Is an unique name used by the auto-completer to reterive similar values used by the user.
