@@ -4,7 +4,7 @@ nav:
     - tiers.md
     - extend-gdevelop.md
     - Create your own extensions:
-        - create.md
+        - Create a new extension : create.md
         - best-practices.md
         - share.md
     - Extensions list:
