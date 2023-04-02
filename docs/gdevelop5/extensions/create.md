@@ -7,7 +7,7 @@ Games can be enriched by extensions that can be created directly in a project. T
 
 !!! note
 
-    Some best practices are in vigor to keep the extensions as clean as possible,[these practices](/gdevelop5/extensions/best-practices) are requirements to submit an extension to the community list in the engine.
+    Some best practices are in vigor to keep the extensions as clean as possible, [these practices](/gdevelop5/extensions/best-practices) are requirements to submit an extension to the community list in the engine.
 
 
 ## Create a new extension

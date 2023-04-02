@@ -149,7 +149,7 @@ Functions can be shared across projects (like actions/conditions that are built 
     See [an example of replacing external events by a function](/gdevelop5/events/functions/replace-external-events), which is reusable and shareable. You can also **[automatically extract events to a function](/gdevelop5/events/functions/extract-events)**.
 
 
-### References of parameters
+## References of parameters
 
 Parameters in function can be various:
 
@@ -171,15 +171,15 @@ Parameters in function can be various:
 | Identifier                    | Text         | Allow the auto-complete to suggest previously used values |
 
 
-#### Identifier parameter
+### Identifier parameter
 
 This parameter enables auto-completion for previously entered text, helping users quickly locate values from other events.
 
-##### Scopes
+#### Scopes
 
-**Object**, suggests previously used values on the same object.
-**Scene**, suggests previously used values from the scene events.
+- **Object**: Suggests previously used values on the same object.
+- **Scene**: Suggests previously used values from the scene events.
 
-#####  Identifier name
+#### Identifier name
 
 Is an unique name used by the auto-completer to reterive similar values used by the user.
