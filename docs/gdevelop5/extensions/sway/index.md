@@ -37,8 +37,8 @@ How to use:
 - set a range for the angle and Y scale tween times (seconds)
 - the tweens will take a random amount of time between the minimum and maximum values
 
+Check out [this demo](https://liluo.io/bubble/swayexamples) to see what this extension can do.
 
-[Read more...](https://liluo.io/bubble/swayexamples)
 
 ---
 
