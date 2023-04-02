@@ -1,10 +1,9 @@
 ---
-title: Create your own extensions (behaviors, conditions, actions or expressions)
+title: Create your own extensions (objects, behaviors, conditions, actions or expressions)
 ---
-# Create your own extensions (behaviors, conditions, actions or expressions)
+# Create your own extensions (objects, behaviors, conditions, actions or expressions)
 
-You can also create, directly in your project, new behaviors, actions, conditions or expressions for your game.
-They can be created using events, just like in usual [events sheets](/gdevelop5/interface/events-editor) for scenes (or external events).
+Games can be enriched by extensions that can be created directly in a project. They can be made of [Javascript events](/gdevelop5/events/js-code/) or [standard events](/gdevelop5/events/), as in the usual [events sheets](/gdevelop5/interface/events-editor).
 
 !!! note
 
@@ -13,21 +12,21 @@ They can be created using events, just like in usual [events sheets](/gdevelop5/
 
 ## Create a new extension
 
-The first step is to create a new extension. This can be done by clicking "Create or search for new extensions" in the project manager:
+Open the project manager, then click on **Create or search for new extensions**:
 
 ![](/gdevelop5/extensions/create/pasted/20230305-115305.png)
 
-Then click "Create a new extension" at the bottom:
+A new window opened up, at the bottom click **Create a new extension**:
 
 ![](/gdevelop5/extensions/create/pasted/20230305-115341.png)
 
-A new extension is added. It's recommended to immediately change the name to something that will hint at what the extension is providing. To do so, right click on the extension and choose **Rename**. Only alphanumeric characters and underscores are supported.
+A new extension is added to the project manager. It's recommended to immediately change the name to something that will hint at what the extension is providing by a right click on the extension and choose **Rename**.
 
 !!! tip
 
     For example, the name can be "Flash" if you want to create an extension to make an object blink, or "TankEnemies" if you want to create behaviors that will control objects like if they are tanks on a battleground.
 
-Finally, click on the extension to open it. You can now create new behaviors or functions (or both) in your extension.
+Finally, click on the extension to open it. You can now create new objects, behaviors and functions in your extension.
 
 ### Create new functions
 
