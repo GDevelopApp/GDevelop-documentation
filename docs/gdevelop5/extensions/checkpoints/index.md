@@ -9,7 +9,7 @@ Respawn objects at checkpoints.
 
 This extension can save checkpoints and respawn objects at the last one.
 
-The platformer example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://platformer))".
+The platformer example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://platformer)).
 
 ---
 
