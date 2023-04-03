@@ -73,3 +73,7 @@ The Scene (Events) editor can also be used to change the size of a tiled sprite.
 [![](/gdevelop5/behaviors/platformerbehavior.png)](https://editor.gdevelop.io/?project=example://old-platformer)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://old-platformer){ .md-button .md-button--primary }
+
+## References
+
+You can browse all the actions, conditions and expressions related to [tiled sprite object on this reference page](/gdevelop5/all-features/tiled-sprite-object/reference/)

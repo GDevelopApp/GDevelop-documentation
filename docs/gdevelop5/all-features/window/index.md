@@ -38,3 +38,7 @@ The window title is the name of the window that is visible on the title bar (loc
 By default, the game name is used for the executable name (on Windows, macOS and Linux), the app name (on Android and iOS) and the title bar (on Windows, macOS and Linux) (and the page title for HTML5 games). You can [learn more about it in game properties.](/gdevelop5/interface/project-manager/properties)
 
 With the action to change the title, the title bar on Windows, macOS and Linux will be changed. Nothing will be visible on Android and iOS. For HTML5 games, the web page title will be changed.
+
+## References
+
+You can browse all the actions, conditions and expressions related to [the window on this reference page](/gdevelop5/all-features/window/reference/)

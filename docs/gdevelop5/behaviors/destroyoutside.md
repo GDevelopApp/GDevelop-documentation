@@ -54,3 +54,7 @@ Once you have selected the destroy behavior from the list, it is going to elimin
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://shooting-bullets-explanation){ .md-button .md-button--primary }
 
 [![](/gdevelop5/behaviors/bulletshootingexplanationexample.png)](https://editor.gdevelop.io/?project=example://shooting-bullets-explanation)
+
+## References
+
+You can browse all the actions, conditions and expressions related to [the destroy outside behavior on this reference page](/gdevelop5/all-features/destroy-outside-behavior/reference/)

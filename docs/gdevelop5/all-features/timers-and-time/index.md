@@ -102,3 +102,7 @@ This example will increase the variable "DamageTimer" at a speed of 1000 units p
 You can then monitor DamageTimer to start an action after 500 milliseconds (0.5 seconds). Then you can reset this "fake" timer.
 
 ![](/gdevelop5/all-features/reset-variable-timer.png)
+
+## References
+
+You can browse all the actions, conditions and expressions related to [timers on this reference page](/gdevelop5/all-features/timers-and-time/reference/)
