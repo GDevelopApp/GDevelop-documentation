@@ -51,3 +51,7 @@ When you use the "**Compare two strings**" condition, it will compare the two st
 ![](/gdevelop5/all-features/always-condition.png)
 
 If you want a condition to always return true and the corresponding actions to be performed, you can use the "**Always**" condition. If the condition is inverted, it will always return false,_i.e. the corresponding actions will never be performed._
+
+## References
+
+You can browse all the actions, conditions and expressions related to [the advanced conditions on this reference page](/gdevelop5/all-features/common-instructions/reference/)

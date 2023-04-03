@@ -153,3 +153,7 @@ For more event details, follow the [tutorials here](http://wiki.compilgames.net/
 ----
 
 [![](/gdevelop5/objects/changespriteanimationexample2new.png)](https://editor.gdevelop.io/?project=example://play-stop-sprite-animation)
+
+## References
+
+You can browse all the actions, conditions and expressions related to [the Sprite object on this reference page](/gdevelop5/all-features/sprite/reference)

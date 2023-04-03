@@ -185,3 +185,7 @@ To organize objects into groups:
 Thanks to its modular extension system, you can create custom objects, which are reusable objects containing one or more other objects. ["Custom objects" are also called "Prefabs" or "templates"](/gdevelop5/objects/custom-objects-prefab-template) in some game engines.
 
 For example, the [multitouch joysticks](/gdevelop5/objects/multitouch-joystick), buttons, sliders and other user interface objects that you can find in the list of objects are "custom objects" built with other objects.
+
+## References
+
+You can browse all the actions, conditions and expressions related to [the object on this reference page](/gdevelop5/all-features/object/reference)
