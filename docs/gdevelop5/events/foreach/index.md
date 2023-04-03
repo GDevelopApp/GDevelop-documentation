@@ -21,7 +21,7 @@ There are specific circumstances that do require using a "For Each" event, inclu
 
 In the example below, the goal is to create an explosion at the position of every enemy.  When the player is in a collision with an object called "KillAllEnemyBonus", a "For Each" event is used to create a new object located at the position of each enemy.  If a "For Each" event is not used, a single explosion would be created at the position of the first enemy only.
 
-![](/gdevelop5/events/for-each-example.png)
+![](for-each-example.png)
 
 ## For each child variable (of a structure or array)
 
@@ -33,12 +33,12 @@ This event will store the value of each child variable (as a string or number) a
 
 - Define a structure variable (Fruits) with multiple child variables (Apple, Avocado, Banana)
 
-![](/gdevelop5/events/foreverchildvariables.png)
+![](foreverchildvariables.png)
 
 - Loop through the child objects and change the text to show the name and value of the child object.
 
-![](/gdevelop5/events/foreverchildevents.png)
+![](foreverchildevents.png)
 
 - The game preview will show the correct values
 
-![](/gdevelop5/events/foreverchildouput.png)
+![](foreverchildouput.png)
