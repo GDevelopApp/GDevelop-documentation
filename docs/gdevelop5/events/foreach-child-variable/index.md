@@ -3,9 +3,9 @@ title: For each child variable event
 ---
 ## For each child variable (of a structure or array)
 
-There is a special version of "For Each" that can be used to loop through the [child variables](/gdevelop5/all-features/variables/) of a structure variable.  The "For Each Child Variable" event enables conditions and actions to be run on all of the child variables under a structure variable (or an array).
+**For each child variable** events give the [child variables](/gdevelop5/all-features/variables/) from structure variables (or arrays) one at a time to their sub-events.
 
-This event will store the value of each child variable (as a string or number) and the name of the child variable (as a string) into scene variables.  The names of these scene variables are defined in the event parameters.
+This event stores the value of each child variable (as a string or number) and the name of the child variable (as a string) into scene variables. The names of these scene variables are defined in the event parameters.
 
 ## Example
 
@@ -17,7 +17,7 @@ This event will store the value of each child variable (as a string or number) a
 
 ![](foreverchildevents.png)
 
-- The game preview will show the correct values
+- The game preview will now show the correct values.
 
 ![](foreverchildouput.png)
 
