@@ -1,5 +1,7 @@
 nav:
     - ...
+    - For each object: foreach.md
+    - For each child variable: foreach-child-variable.md
     - Custom Functions: functions
     - Advanced:
         - async.md
