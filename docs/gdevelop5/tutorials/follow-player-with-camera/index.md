@@ -11,17 +11,17 @@ This article includes instructions for implementing this functionality either wi
 
 !!! tip
 
-    Learn more about [layers and cameras](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/layers-and-cameras/#cameras) and [how to keep UI objects on screen](/gdevelop5/tutorials/keep-ui-on-screen).
+    GDevelop [assigns a single camera per layer](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/layers-and-cameras/#cameras). It is recomended to start by placing the main objects o the "Base Layer", and add other layers after. 
 
 
 ## Follow a character smoothly
 
-Add the **Smooth Camera** [behavior](https://wiki.gdevelop.io/gdevelop5/behaviors#adding_a_behavior_to_an_object) to the object *(remember to [install it first](https://wiki.gdevelop.io/gdevelop5/extensions/search/) from the Extension catalog)*. The **Smooth Camera's** parameters such as "catch up" and "speed" can be modified to personalize the smoothness of the camera.
+Add the **Smooth Camera** [behavior](https://wiki.gdevelop.io/gdevelop5/behaviors#adding_a_behavior_to_an_object) to the object that will be followed.
+The extension's parameters such as "catch up" and "speed" can be modified to personalize the smoothness of the camera.
 
 !!! tip
 
-    Make sure that the character, enemies and platforms on the project are placed on the "Base Layer" on the layer panel. If the issue persist, ask the community on the [forum](https://forum.gdevelop.io/t/camera-not-following-character/45356).
-
+    Learn [how to install](https://gdevelop-wiki-git-fork-lunimoon-patch-2-gdevelop.vercel.app/gdevelop5/extensions/search/) new extensions by following a step-by-step guide.
 
 
 ### Keep a character at the exact center of the camera
@@ -49,3 +49,6 @@ To follow several objects at the same time, install the **[Copy camera settings]
 
 To add camera inertia and a smoother transition watch [this video tutorial](https://youtu.be/yUNisggNh7s?t=84) to learn how to use the Camera Center positions on the X and Y axis, along with `lerp` expressions and formulas.
 
+
+## You might be interested in:
+- How to [keep UI objects on screen](/gdevelop5/tutorials/keep-ui-on-screen).
