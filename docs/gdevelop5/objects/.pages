@@ -2,6 +2,7 @@ nav:
     - sprite
     - tiled_sprite.md
     - panel_sprite.md
+    - light.md
     - text.md
     - ...
     - custom-objects-prefab-template.md
