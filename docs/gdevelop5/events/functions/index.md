@@ -177,9 +177,9 @@ This parameter enables auto-completion for previously entered text, helping user
 
 #### Scopes
 
-- **Object**: Suggests previously used values on the same object.
-- **Scene**: Suggests previously used values from the scene events.
+- **Object** - To suggest previously used values on the same object.
+- **Scene** - To suggest previously used values from the scene events.
 
 #### Identifier name
 
-Is an unique name used by the auto-completer to reterive similar values used by the user.
+Every parameter with the same identifier name share their values for the autocompletion.
