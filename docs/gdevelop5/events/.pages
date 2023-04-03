@@ -1,4 +1,5 @@
 nav:
+    - "Default events": standard.md
     - ...
     - "For each object": foreach.md
     - "For each child variable": foreach-child-variable.md
