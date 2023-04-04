@@ -1,15 +1,13 @@
 # Bounce (using forces)
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/volleyball.svg" class="extension-icon"></img>
-Provides an action to make the object bounce from another object it just touched. Add a permanent force to the object and, when in collision with another one, use the action to make it bounce realistically.
+Provides an action to make the object bounce from another object it just touched.
 
 **Authors and contributors** to this community extension: [4ian](https://gd.games/4ian).
 
 ---
 
-Provides an action to make the object bounce from another object it just touched. Add a permanent force to the object and, when in collision with another one, use the action to make it bounce realistically.
-
-There are also actions to bounce at a *specific angle* - useful when you know the obstacle must generate a bounce that is always in a specific direction.
+Provides an action to make the object bounce from another object it just touched.
 
 > ⚠️ This *won't work* with Physics engine or Platformer characters. This is working with objects that are moved using actions or behaviors using **the forces**.
 

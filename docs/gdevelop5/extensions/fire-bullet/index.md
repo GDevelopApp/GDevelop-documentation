@@ -1,42 +1,27 @@
 # Fire bullets
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/bullet.svg" class="extension-icon"></img>
-Fire bullets, manage ammo, reloading, and overheating.
+Fire bullets, manage ammo, reloading and overheating.
 
 **Authors and contributors** to this community extension: [4ian](https://gd.games/4ian), [Mixen](https://gd.games/Mixen), [Bouh](https://gd.games/Bouh), [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 
-Fire bullets, manage ammo, reloading, and overheating.
+This extension allows objects to fire bullets.
 
-Firing bullets:
+It handles:
 
-- Cooldown: Time between shots (seconds)
-- Bullet Quantity: Number of bullets created each time Fire Bullet action is used. 
-- Firing Arc: Range of angles (in degrees) that bullets will shoot. Bullets are evenly spread within this range.
-- Rotate bullet: Change the angle of each bullet to match the direction it is travelling (enabled by default)
-- Angle Variance: Each bullet trajectory will be adjusted by a random value within this range (degrees)
-- Bullet speed variance: Each bullet speed will be adjusted by a random value within this range (pixels/second)
+- Cooldown between shots
+- Firing multiple bullets at a time ([open the project online](https://editor.gdevelop.io/?project=example://fire-bullet))
+- Ammo management
+- Overheat
 
- Ammo:
+It can be used for:
 
-- Starting ammo
-- Max ammo
-- Shots per reload. Use 0 to disable reloading
-- Reload duration
-- Automatic reloading is enabled by default, but it can also be done manually.
+- Twin-stick shooters ([open the project online](https://editor.gdevelop.io/?project=example://conviction-of-gun-dude-desktop))
+- Shoot'em up ([open the project online](https://editor.gdevelop.io/?project=example://space-shooter))
 
-Overheat:
-
-- Heat increase per shot. Object is Overheated when Heat reaches  1.
-- Cooling rate per second
-- When overheated, the object cannot fire any bullets
-
-Statistics:
-
-- Total bullets created
-- Total shots taken
-- Total reloads completed
+A simple example shows how to make firing patterns ([open the project online](https://editor.gdevelop.io/?project=example://firing-patterns)).
 
 [Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/fire-bullet/details)
 
