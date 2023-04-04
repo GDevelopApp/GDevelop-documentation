@@ -156,7 +156,7 @@ Parameters in function can be various:
 | Type                          | Data type    | Description                                               |
 |-------------------------------|--------------|-----------------------------------------------------------|
 | [Objects](/gdevelop5/objects) | Objects list | A list of objects                                         |
-| [Behavior](/gdevelop5/behaviors | Behavior     | The behavior from an object                               |
+| [Behavior](/gdevelop5/behaviors) | Behavior     | The behavior from an object                               |
 | String                        | Text         | Just a text                                               |
 | String from a list of options | Text         | A list of multiple text                                   |
 | Keyboard Key                  | Text         | A list of keys                                            |
