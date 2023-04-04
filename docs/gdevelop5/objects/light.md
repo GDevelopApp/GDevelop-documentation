@@ -18,9 +18,8 @@ The light texture property allow to create a custom shape for the light.
 
 An example of a texture that illuminates in a cone shape, like it can be done for a flashlight:
 
-**// TODO ADD AN IMAGE of the texture used, and the result in-game.**
-
-**// Make the image side-by-side.**
+![The result of a light texture in game](/gdevelop5/objects/pasted/result_light_texture.png)
+![The light texture used](/gdevelop5/objects/pasted/Cone_Light.png)
 
 !!! tip
 
