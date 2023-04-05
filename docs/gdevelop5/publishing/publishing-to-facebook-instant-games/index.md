@@ -83,3 +83,7 @@ Read [this launch checklist from Facebook](https://developers.facebook.com/docs/
 ## Monetize your game with ads
 
 You can [monetize your Instant Game](/gdevelop5/publishing/publishing-to-facebook-instant-games/monetize) by showing ads to the player. [Click here to see how to do](/gdevelop5/publishing/publishing-to-facebook-instant-games/monetize).
+
+## References
+
+You can browse all the actions, conditions and expressions related to [Facebook Instant Games on this reference page](/gdevelop5/all-features/facebook-instant-games/reference/)

@@ -67,3 +67,7 @@ Using events, you can also check if an object is being dragged:
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://pathfinding-basics){ .md-button .md-button--primary }
 
 [![](/gdevelop5/behaviors/pathfindingbasics.png)](https://editor.gdevelop.io/?project=example://pathfinding-basics)
+
+## References
+
+You can browse all the actions, conditions and expressions related to [the draggable behavior on this reference page](/gdevelop5/all-features/draggable-behavior/reference/)

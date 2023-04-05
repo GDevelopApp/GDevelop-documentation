@@ -406,3 +406,7 @@ The motor joint specific settings:
   * **Maximum force**: The maximum force the joint can apply to the objects to move them to the target position. Higher values will move the objects faster, in case of being necessary. If this value is zero, there won't be a linear correction, and objects won't move to reach the target position.
   * **Maximum torque**: The maximum torque the joint can apply to the objects to rotate them to the target angle. Higher values will rotate the objects faster, in case of being necessary. If this value is zero, there won't be an angular correction, and objects won't rotate to reach the target angle.
   * **Correction factor**: How fast the objects have to move and rotate to reach the target position and angle. The higher the correction, the faster the objects will move and/or rotate. The correction is limited by the maximum amount of force and torque the joint can use.
+
+## References
+
+You can browse all the actions, conditions and expressions related to [the physics Engine 2.0 on this reference page](/gdevelop5/all-features/physics2/reference/)

@@ -38,3 +38,7 @@ If the top margin is set to 100, the margin would be 100 pixels from the top and
 If "repeat borders and center texture" is enabled, segments 2, 4, 5, 6, 8 will be repeated instead of stretching them:
 
 ![](/gdevelop5/objects/9panel6.png)
+
+## References
+
+You can browse all the actions, conditions and expressions related to [the panel sprite (9-patch) object on this reference page](/gdevelop5/all-features/panel-sprite-object/reference/)

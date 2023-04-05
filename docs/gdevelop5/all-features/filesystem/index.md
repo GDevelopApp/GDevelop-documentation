@@ -226,6 +226,6 @@ FileSystem::PicturesPath() + FileSystem::PathDelimiter() + "my_screenshot.png"
 
 This will work on Windows, Linux, and macOS.
 
+## References
 
-
-
+You can browse all the actions, conditions and expressions related to [the file system on this reference page](/gdevelop5/all-features/filesystem/reference/)

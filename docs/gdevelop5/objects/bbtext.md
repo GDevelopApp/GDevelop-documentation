@@ -62,3 +62,7 @@ All these properties can be modified using the actions and conditions of the obj
 [![](/gdevelop5/objects/bbtext-example.jpg)](https://editor.gdevelop.io/?project=example://bbtext-object-demo)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://bbtext-object-demo){ .md-button .md-button--primary }
+
+## References
+
+You can browse all the actions, conditions and expressions related to [the BBCode text object on this reference page](/gdevelop5/all-features/bbtext/reference/)

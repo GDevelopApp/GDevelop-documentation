@@ -29,3 +29,7 @@ You can choose to what the object will be anchored from 3 main options:
   * **Proportional**: The object's edge will always be set so that it is at the same proportion of the screen.
 
 Note that setting anchors to opposite edges will stretch the object.
+
+## References
+
+You can browse all the actions, conditions and expressions related to [the anchor behavior on this reference page](/gdevelop5/all-features/anchor-behavior/reference/)

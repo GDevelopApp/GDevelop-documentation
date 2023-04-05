@@ -104,3 +104,6 @@ Type on Text Effect
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://type-on-text-effect){ .md-button .md-button--primary }
 
+## References
+
+You can browse all the actions, conditions and expressions related to [the text object on this reference page](/gdevelop5/all-features/text-object/reference/)

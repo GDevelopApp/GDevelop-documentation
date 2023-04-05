@@ -211,3 +211,7 @@ Tiled also lets you put a different duration for each frame - this extension onl
 In GDevelop, you can choose the speed of the animation(s) of the Tilemap, which is by default 4 FPS (4 images per second, which means 1000/4 = 250ms between each image):
 
 ![](/gdevelop5/objects/tilemap/pasted/20210104-112229.png)
+
+## References
+
+You can browse all the actions, conditions and expressions related to [the tilemap on this reference page](/gdevelop5/all-features/tilemap/reference/)

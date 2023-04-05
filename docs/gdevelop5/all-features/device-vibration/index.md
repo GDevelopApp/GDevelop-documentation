@@ -42,3 +42,7 @@ This action vibrates the device in a pattern. Every first value represents the t
 This action stops the vibration after the current pattern interval.
 
 ![](/gdevelop5/all-features/devicevibrationevents.png)
+
+## References
+
+You can browse all the actions, conditions and expressions related to [the device vibration on this reference page](/gdevelop5/all-features/device-vibration/reference/)

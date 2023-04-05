@@ -39,3 +39,7 @@ Because the characters are pre-rendered, the font size can't be changed in GDeve
 As characters are pre-rendered, the font color can also not be changed. GDevelop still allows you to change the tint applied to the rendered characters.
 
 If you generate a Bitmap Font with white characters, and if you use a blue tint, the object will be displayed with this blue color. If your Bitmap Font is grey, and the tint blue, the colours will be mixed with each other.
+
+## References
+
+You can browse all the actions, conditions and expressions related to [the bitmap text object on this reference page](/gdevelop5/all-features/bitmap-text/reference/)

@@ -88,3 +88,7 @@ _perfectly elastic collision_.
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://object-gravity){ .md-button .md-button--primary }
 
 [![](/gdevelop5/behaviors/objectgravity.png)](https://editor.gdevelop.io/?project=example://object-gravity)
+
+## References
+
+You can browse all the actions, conditions and expressions related to [the physics Engine (deprecated) on this reference page](/gdevelop5/all-features/physics-behavior/reference/)

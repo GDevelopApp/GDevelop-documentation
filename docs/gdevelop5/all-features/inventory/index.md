@@ -48,3 +48,7 @@ The actions "Save an inventory in a variable" and "Load an inventory from a vari
 When your inventory is saved to a variable, you can then save this variable using the storage actions and actions related to JSON:
 
 ![](/gdevelop5/all-features/inventory-serialization.png)
+
+## References
+
+You can browse all the actions, conditions and expressions related to [the iventory on this reference page](/gdevelop5/all-features/inventory/reference/)
