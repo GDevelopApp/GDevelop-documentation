@@ -16,8 +16,8 @@ You should use 4 spaces to mark an indent in a list.
 For example, to display:
 
 - Getting started
-  - First step
-  - Second step
+    - First step
+    - Second step
 
 You shall write:
 
@@ -52,6 +52,26 @@ List of objects:
 
 - Sprite
 - Text
+```
+
+### Ordered lists
+
+Ordered lists use numbers followed by periods. For consistency, always use the number `1.` and it will automatically be updated with the correct number.
+
+For example, to display:
+
+1. First item
+    1. First nested item
+    1. Second nested item
+1. Second item
+
+You shall write:
+
+```
+1. First item
+    1. First nested item
+    1. Second nested item
+1. Second item
 ```
 
 ### Display a video
