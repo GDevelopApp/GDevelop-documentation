@@ -21,6 +21,8 @@ Tips:
 - Use "NeighborCount(object)" expression to find good places to place treasure.  A high amount of neighbors means that the tile is a nook or cranny.
 - Use "IsRoomEntrance" condition to identify hallway objects that are adjacent to a room
 
+An example shows how to procedurally generate dungeons or caves ([open the project online](https://editor.gdevelop.io/?project=example://dungeon-generator)).
+
 [Read more...](https://victrisgames.itch.io/extension-dungeon-generator)
 
 ---

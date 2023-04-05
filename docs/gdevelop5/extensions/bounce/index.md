@@ -11,6 +11,8 @@ Provides an action to make the object bounce from another object it just touched
 
 > ⚠️ This *won't work* with Physics engine or Platformer characters. This is working with objects that are moved using actions or behaviors using **the forces**.
 
+The Breakout-like example uses this extension to make balls bounce ([open the project online](https://editor.gdevelop.io/?project=example://breakout)).
+
 [Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/bounce/explanations)
 
 ---

@@ -15,6 +15,8 @@ Note:
 - This extension will only work on objects that have the physics behavior.
 - Kinematic physics mode is incompatible with this extension. The object will be changed to dynamic mode.
 
+The Parking Jam example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://parking-jam)).
+
 ---
 
 !!! tip

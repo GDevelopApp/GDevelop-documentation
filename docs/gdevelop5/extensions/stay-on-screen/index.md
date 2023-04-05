@@ -9,6 +9,8 @@ Move the object to keep it visible on the screen.
 
 Force the object to stay visible on the screen by setting back its position inside the viewport of the camera.
 
+The shoot'em up example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://space-shooter)).
+
 ---
 
 !!! tip
