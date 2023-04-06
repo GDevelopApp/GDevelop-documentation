@@ -9,7 +9,7 @@ Add items to buy directly in your game ("In-App Purchase"), for games published 
 
 > To set up In App Purchase, you'll need a developer account on Google Play Console or Apple App Store Connect. You will also need **real phones/devices** to test IAP, because emulators are not supported.
 
-It's highly recommended to **read the [help page](http://wiki.compilgames.net/doku.php/gdevelop5/extensions/in-app-purchase) to begin**. 
+It's highly recommended to **read the [help page](https://wiki.gdevelop.io/gdevelop5/extensions/in-app-purchase) to begin**. 
 
 > ⚠️ In-App Purchase **will only work after you exported your game and uploaded it to Google Play Console or Apple App Store Connect**, at least in a testing track.
 
@@ -28,7 +28,7 @@ The general worflow is the following:
 - Mark the purchase as completed for the user to be charged the money
 
 
-[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/in-app-purchase)
+[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/in-app-purchase/setup)
 
 ---
 

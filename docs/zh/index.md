@@ -1,33 +1,28 @@
 ---
 title: start
 ---
+
 ![](/logocompleteeffecttranparent400x100.png)
 
 # GDevelop 百科
 
-GDevelop 是一个开源、跨平台的游戏制作器，专为所有人设计 — — 不需任何编程技能。如果你还没有安装GDevelop，[现在下载](http://www.compilgames.net)!
+GDevelop 是一个开源、跨平台的游戏制作器，专为所有人设计 — — 不需任何编程技能。如果你还没有安装 GDevelop，[现在下载](https://gdevelop.io/download)!
 
-在这篇wiki可以找到与GDevelop有关的帮助与教程，欢迎您的贡献！
+在这篇 wiki 可以找到与 GDevelop 有关的帮助与教程，欢迎您的贡献！
 
->  \<WRAP half column\>
->
-> ## 教程和视频
->
-通过 **[教程](/gdevelop/tutorials)** 学习如何使用GDevelop
+## 教程和视频
 
->
->
-> ## 全部文档
->
+通过 **[教程](/gdevelop/tutorials)** 学习如何使用 GDevelop
+
+## 全部文档
+
 阅读 **[GDevelop 完全参考手册](/gdevelop/documentation)**
-
-
 
 ## 其他语言
 
 ![](/fr.png)[⇒ 法语 wiki](/fr/start)
 
-点击国旗切换wiki语言，欢迎您帮助完善下面语言的wiki:
+点击国旗切换 wiki 语言，欢迎您帮助完善下面语言的 wiki:
 
 ![](/zh.gif)[⇒ 中文 wiki](/zh/start)
 ![](/de.png)[⇒ 德语 wiki](/de/start)

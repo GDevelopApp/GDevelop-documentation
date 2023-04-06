@@ -13,7 +13,7 @@ For example, behaviors can:
 
 You can also customize behaviors to make your game feel unique and use [events](/gdevelop5/events) to manipulate behaviors.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/-U8WFcpUmMg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![type:video](https://www.youtube.com/embed/-U8WFcpUmMg)
 
 ## List of behaviors
 

@@ -5,7 +5,7 @@ title: start
 
 # GDevelop 5
 
-Το GDevelop είναι ένας δημιουργός παιχνιδιών ανοιχτής πηγής και πολλαπλών πλατφορμών που έχει σχεδιαστεί για χρήση από όλους - δεν απαιτούνται δεξιότητες προγραμματισμού για τη χρήση του λογισμικού. Εάν δεν έχετε χρησιμοποιήσει ποτέ το GDevelop, δοκιμάστε το online ή κατεβάστε την έκδοση για υπολογιστές, [try it online](https://editor.gdevelop.io) or [download the desktop version](http://gdevelop.io/download)!
+Το GDevelop είναι ένας δημιουργός παιχνιδιών ανοιχτής πηγής και πολλαπλών πλατφορμών που έχει σχεδιαστεί για χρήση από όλους - δεν απαιτούνται δεξιότητες προγραμματισμού για τη χρήση του λογισμικού. Εάν δεν έχετε χρησιμοποιήσει ποτέ το GDevelop, δοκιμάστε το online ή κατεβάστε την έκδοση για υπολογιστές, [try it online](https://editor.gdevelop.io) or [download the desktop version](https://gdevelop.io/download)!
 
 This **Wiki** is here to teach you about the software and provide tutorials on how to use it: you are welcome to contribute!
 

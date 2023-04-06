@@ -5,6 +5,7 @@ title: External layouts
 
 An external layout can be used to create a layout of objects, in the same way you would in a scene editor. Objects in an external layout can then be dynamically loaded into a scene using the action **Create objects from an external layout**.
 
+
 This can be useful to :
 
 * Create entire levels in different external layouts, and then load them into the scene containing the game.
@@ -13,7 +14,7 @@ This can be useful to :
 
 The following videos is a quick explanation of external layouts and how to use them:
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/_VUwAfD_7zQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![type:video](https://www.youtube.com/embed/_VUwAfD_7zQ)
 
 ## Create an external layout
 

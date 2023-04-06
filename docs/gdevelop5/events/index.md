@@ -11,7 +11,7 @@ In GDevelop, **events** define the logic of a game. You can use events to create
 
     You don't have to be familiar with programming to create events. If you are familiar with programming though, some of the concepts will feel familiar.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/rBZ3kuvr9G0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![type:video](https://www.youtube.com/embed/rBZ3kuvr9G0)
 
 ## Event Structure - Conditions and actions
 
@@ -125,7 +125,8 @@ Sub-events appear nested within their parent events.
 This section lists the different types of events, each of which is useful for adding different types of logic to a game. If you're not familiar with the concept of events, refer to the previous sections.
 
 - [Standard events](/gdevelop5/events/standard)
-- [For each events](/gdevelop5/events/foreach)
+- [For each object events](/gdevelop5/events/foreach)
+- [For each child variable events](/gdevelop5/events/foreach-child-variable)
 - [Repeat events](/gdevelop5/events/repeat)
 - [While events](/gdevelop5/events/while)
 - [Group events](/gdevelop5/events/group)

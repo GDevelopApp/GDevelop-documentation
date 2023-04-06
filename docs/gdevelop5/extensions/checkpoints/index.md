@@ -1,17 +1,15 @@
 # Checkpoints
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/flag-variant.svg" class="extension-icon"></img>
-A position checkpoint for instances.
+Respawn objects at checkpoints.
 
 **Authors and contributors** to this community extension: [Elairyx](https://gd.games/Elairyx), [Bouh](https://gd.games/Bouh).
 
 ---
 
-Allows to set up checkpoints for each instance.
-Checkpoint coordinates are dynamic values so can be object positions absolute/relative values and more.
-Checkpoints can then be used to move the same or even other instances to them.
+This extension can save checkpoints and respawn objects at the last one.
 
-[Read more...](http://elairyx.com/gdev-ext/checkpoints.html)
+The platformer example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://platformer)).
 
 ---
 

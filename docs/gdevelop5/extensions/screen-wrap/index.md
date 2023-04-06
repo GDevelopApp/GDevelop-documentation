@@ -11,7 +11,7 @@ The teleport happens when the center point of the object crosses a border.
 Change behavior properties to increase or decrease the margin used to trigger this teleport.
 By default, the borders of the wrapping area match the screen size, but they can alo be changed.
 
-This behavior can be used to recreate the movement of the classic game "Asteroids".
+The Asteroid-like example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://space-asteroid)).
 
 ---
 

@@ -23,8 +23,6 @@ Get Version, Title, Publisher name, PackageName from properties tab.
 * Add an string expression that returns the vertical sync from game properties.
 
 
-[Read more...](https://github.com/UlisesFreitas/Get-Properties-Data/)
-
 ---
 
 !!! tip

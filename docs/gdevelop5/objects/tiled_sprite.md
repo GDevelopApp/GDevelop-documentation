@@ -3,74 +3,58 @@ title: Tiled Sprite
 ---
 # Tiled Sprite
 
-!!! tip
+A tiled sprite [object](/gdevelop5/objects) allows us to use repeating images in our games. increasing the width or height of the object will cause it repeat it's image, rather than stretching the image like a normal sprite object.
 
-        **See it in action!** 🎮
-    [I would rather see the Tiled Sprite object examples! Please take me there now.](/#Examples)
-
-
-A tiled sprite [object](/gdevelop5/objects) allows us to display an image in a tileset. You can increase and decrease the size of the tileset by scaling the object in the scene.
-
-A tiled sprite object can be used to create platforms in a platform game. It can also be used as a group of the same images. In this case, there is no need to deal with multiple sprite objects.
+A tiled sprite object can be used to create platforms in a platform game, health bars, status bars, repeating wall tiles, repeating backgrounds, etc.
 
 ![](/gdevelop5/objects/tiled-sprite-object.png)
 
 ####  Add a tiled sprite object
 
-To add a Tiled Sprite object to a Scene, create a new object from the Objects list. Select the "Tiled Sprite" option from the panel that opens.
+To create a new Tiled Sprite object, click the "Add a new object" button at the bottom of the Objects list, and select  "Tiled Sprite" from the window that opens. Alternatively, you can search through the asset store to add an already made tiled sprite object to the scene.
 
-![](/gdevelop5/objects/add-tiled-sprite-object.png)
+![](/gdevelop5/objects/AddTiledSprite.png)
 
 ####  Open object properties
 
-Next, again from the Objects list on your right,  open the object's properties by right-clicking on the object. Select "Edit object" from the popup list that appears.
-
-![](/gdevelop5/objects/tiled-sprite-properties.png)
+After creating the object or adding it to your game from the asset store, you can examine the object's properties.To open the newly created object's properties, right-click on the object and selecting "Edit object" from the popup list that appears, or double click on the object.
 
 ####  Add an image
 
-To add an image to the object, click the "Select an image" field. A local file browser will open on your computer. Choose an image of your choice.
+With the object's properties window open, you can add an image to the object by clicking in to the "Select an image" text field. From the drop down menu that appears you can chose where the image will come from. Chose the source of the image, and select the image you want to add. The selected image will be displayed in the preview window on the left.
 
-![](/gdevelop5/objects/add-image-to-tiled-sprite.png)
-
-The selected image will be displayed in the preview window on the right
-
-![](/gdevelop5/objects/tiled-sprite-image-preview.png)
+![](/gdevelop5/objects/AddImageToTiledSprite.png)
 
 ####  Change default size
 
-We can change the default size of the tiled sprite object by changing the Default width and Default height value on the bottom
+We can change the default size of the tiled sprite object by changing the Default width and Default height value in the object's proprties window. This size will determine the size, in pixels, that the object will appear in game when placed.
 
-![](/gdevelop5/objects/tiled-sprite-default-size.png)
+This will not scale or alter the original image in any way, just the default size of the object when it's placed in to the scene. This size should be the height and width of the image used in pixels.
 
-The default size effects how much of our image is going to be visible in the object. For example, this is how my image looks with an object size 32x32.
-
-![](/gdevelop5/objects/tiled-sprite-3232.png)
-
-As you can see the above image does not scale along with the object but makes the image only partially visible.
-
-If I set the size of the object to 100x100 (as seen below), the object size is bigger than the actual image so it continues drawing the image again to fill the empty space.
-
-![](/gdevelop5/objects/tiled-sprite-100100.png)
+![](/gdevelop5/objects/ChangeDefaultSizeTiledSprite.png)
 
 ####  Scale the object
 
-You can get instant results by scaling the object in the scene editor to create the look/size that you need.
+The size of the tiled sprite effects how much of your image is going to be visible in your game. If the image used in the tiled sprite object is larger than the size it's scaled to in scene, only a portion of the image will be visible.
 
-![](/gdevelop5/objects/scale-tiled-sprite.png)
+![](/gdevelop5/objects/tiled-sprite-3232.png)
 
-The Scene (Events) editor can also be used to change the size of a tiled sprite. Using the Events editor makes gameplay more fluid and interesting.
+If the object is scaled to be larger in pixels than the image used, then the object will repeat the image to fill in the excess space.
 
-![](/gdevelop5/objects/scaleasprite.png)
+![](/gdevelop5/objects/tiled-sprite-100100.png)
+
+You can use events to manipulate the scale and positioning of tiled sprite object, but there are actions unique to tiled sprites. Offsets, which allow a user to scroll through a tiled sprite image without changing it's position. This is often used for scrolling backgrounds, and similar effects.
+
+![](/gdevelop5/objects/ChangeOffsetActions.png)
 
 ## Examples
 
 !!! tip
 
         **See it in action!** 🎮
-    Open these examples online.
+    Open this example online.
 
-[![](/gdevelop5/behaviors/platformerbehavior.png)](https://editor.gdevelop.io/?project=example://old-platformer)
+[![](/gdevelop5/objects/Examples1PlatformerTiledSprite.png)](https://editor.gdevelop.io/?project=example://old-platformer)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://old-platformer){ .md-button .md-button--primary }
 

@@ -5,7 +5,7 @@ title: Resource bar
 
 ## Learn about UI objects with this video tutorial
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/plkHd4uPI4U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![type:video](https://www.youtube.com/embed/plkHd4uPI4U)
 
 ## Add a resource bar to a game
 

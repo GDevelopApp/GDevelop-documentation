@@ -183,10 +183,10 @@ Conditions and actions to handle either the mouse or touches on touchscreen. By 
 | Expression | Description |  |
 |-----|-----|-----|
 | `CursorX(layer, number)` | Return the X position of the cursor or of a touch. ||
-| | _layer_ | Layer (base layer if empty) _Optional_. |
+| | _layer_ | Layer _Optional_. |
 | | _number_ | Camera number (default : 0) _Optional_. |
 | `CursorY(layer, number)` | Return the Y position of the cursor or of a touch. ||
-| | _layer_ | Layer (base layer if empty) _Optional_. |
+| | _layer_ | Layer _Optional_. |
 | | _number_ | Camera number (default : 0) _Optional_. |
 | `MouseWheelDelta()` | Mouse wheel displacement ||
 | `StartedTouchOrMouseCount()` | The number of touches (including the mouse) that have just started on this frame. The touch identifiers can be accessed using StartedTouchOrMouseId(). ||
@@ -194,11 +194,11 @@ Conditions and actions to handle either the mouse or touches on touchscreen. By 
 | | _number_ | Touch index |
 | `TouchX(number, layer, number)` | Return the X position of a specific touch. ||
 | | _number_ | Touch identifier |
-| | _layer_ | Layer (base layer if empty) _Optional_. |
+| | _layer_ | Layer _Optional_. |
 | | _number_ | Camera number (default : 0) _Optional_. |
 | `TouchY(number, layer, number)` | Return the Y position of a specific touch. ||
 | | _number_ | Touch identifier |
-| | _layer_ | Layer (base layer if empty) _Optional_. |
+| | _layer_ | Layer _Optional_. |
 | | _number_ | Camera number (default : 0) _Optional_. |
 
 ---
@@ -391,31 +391,31 @@ Each scene can be composed of multiple layers. These conditions and actions allo
 | Expression | Description |  |
 |-----|-----|-----|
 | `CameraAngle(layer, number)` | Return the angle of rotation of a camera (in degrees). ||
-| | _layer_ | Layer (base layer if empty) _Optional_. |
+| | _layer_ | Layer _Optional_. |
 | | _number_ | Camera number (default : 0) _Optional_. |
 | `CameraBorderBottom(layer, number)` | Return the position of the bottom border of a camera. ||
-| | _layer_ | Layer (base layer if empty) _Optional_. |
+| | _layer_ | Layer _Optional_. |
 | | _number_ | Camera number _Optional_. |
 | `CameraBorderLeft(layer, number)` | Return the position of the left border of a camera. ||
-| | _layer_ | Layer (base layer if empty) _Optional_. |
+| | _layer_ | Layer _Optional_. |
 | | _number_ | Camera number _Optional_. |
 | `CameraBorderRight(layer, number)` | Return the position of the right border of a camera. ||
-| | _layer_ | Layer (base layer if empty) _Optional_. |
+| | _layer_ | Layer _Optional_. |
 | | _number_ | Camera number _Optional_. |
 | `CameraBorderTop(layer, number)` | Return the position of the top border of a camera. ||
-| | _layer_ | Layer (base layer if empty) _Optional_. |
+| | _layer_ | Layer _Optional_. |
 | | _number_ | Camera number _Optional_. |
 | `CameraCenterX(layer, number)` | Return the X position of the center of a camera. ||
-| | _layer_ | Layer (base layer if empty) _Optional_. |
+| | _layer_ | Layer _Optional_. |
 | | _number_ | Camera number (default : 0) _Optional_. |
 | `CameraCenterY(layer, number)` | Return the Y position of the center of a camera. ||
-| | _layer_ | Layer (base layer if empty) _Optional_. |
+| | _layer_ | Layer _Optional_. |
 | | _number_ | Camera number (default : 0) _Optional_. |
 | `CameraHeight(layer, number)` | Return the height of a camera of a layer. ||
-| | _layer_ | Layer (base layer if empty) _Optional_. |
+| | _layer_ | Layer _Optional_. |
 | | _number_ | Camera number _Optional_. |
 | `CameraWidth(layer, number)` | Return the width of a camera of a layer. ||
-| | _layer_ | Layer (base layer if empty) _Optional_. |
+| | _layer_ | Layer _Optional_. |
 | | _number_ | Camera number _Optional_. |
 | `CameraZoom(layer, number)` | Zoom of a camera of a layer ||
 | | _layer_ | Layer _Optional_. |
@@ -697,6 +697,7 @@ Allows you to draw simple shapes on the screen using the events. [Read more expl
 
 | Expression | Description |  |
 |-----|-----|-----|
+| `Object.Antialiasing()` | Returns the type of anti-aliasing in use: none, low, medium, or high. ||
 | `Object.FillColorBlue()` | Filing color blue component ||
 | `Object.FillColorGreen()` | Filing color green component ||
 | `Object.FillColorRed()` | Filing color red component ||
@@ -743,6 +744,9 @@ Provides actions and conditions to add an inventory to your game, with items in 
 | Expression | Description |  |
 |-----|-----|-----|
 | `Inventory::Count(string, string)` | Get the number of an item in the inventory ||
+| | _string_ | Inventory name |
+| | _string_ | Item name |
+| `Inventory::Maximum(string, string)` | Get the maximum of an item in the inventory, or 0 if it is unlimited ||
 | | _string_ | Inventory name |
 | | _string_ | Item name |
 

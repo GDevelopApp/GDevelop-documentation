@@ -114,4 +114,5 @@ Now, we are ready to play our game. Open the **Main Menu Scene** and run the gam
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-the-end.png)
 
 ## Demo video
-<iframe width="640" height="360" src="https://www.youtube.com/embed/1Nt1k_lhhhs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+![type:video](https://www.youtube.com/embed/1Nt1k_lhhhs)

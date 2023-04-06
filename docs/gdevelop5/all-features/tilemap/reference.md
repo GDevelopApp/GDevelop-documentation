@@ -10,17 +10,17 @@ Invisible object handling collisions with parts of a tilemap.
 
 ### Object actions
 
-**Scale on X axis**  
-Change the width's scale of an object.
-
-**Scale on Y axis**  
-Change the height's scale of an object.
-
 **Height**  
 Change the height of an object.
 
 **Scale**  
 Modify the scale of the specified object.
+
+**Scale on X axis**  
+Change the width's scale of an object.
+
+**Scale on Y axis**  
+Change the height's scale of an object.
 
 **Tilemap JSON file**  
 Set the JSON file containing the Tilemap data to display. This is usually the JSON file exported from Tiled.

@@ -94,6 +94,9 @@ Draw a rounded rectangle on screen
 **Scale**  
 Modify the scale of the specified object.
 
+**Anti-aliasing**  
+Anti-aliasing
+
 **Collision Mask**  
 Change the collision mask of an object to a rectangle relatively to the object origin.
 
@@ -116,6 +119,9 @@ Close the path of the advanced shape. This closes the outline between the last a
 
 **Relative coordinates**  
 Check if the coordinates of the shape painter is relative.
+
+**Anti-aliasing type**  
+Checks the selected type of anti-aliasing
 
 **Clear between frames**  
 Check if the rendered image is cleared between frames.
@@ -145,6 +151,7 @@ Test the size of the outline.
 
 | Expression | Description |  |
 |-----|-----|-----|
+| `Object.Antialiasing()` | Returns the type of anti-aliasing in use: none, low, medium, or high. ||
 | `Object.FillColorBlue()` | Filing color blue component ||
 | `Object.FillColorGreen()` | Filing color green component ||
 | `Object.FillColorRed()` | Filing color red component ||

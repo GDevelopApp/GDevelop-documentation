@@ -25,7 +25,7 @@ jobs:
       # Generate the reference docs
       - run:
           name: Get GDevelop sources (master branch)
-          command: git clone -b refactor/new-wiki-markdown https://github.com/4ian/GDevelop.git --depth 1
+          command: git clone -b master https://github.com/4ian/GDevelop.git --depth 1
 
       - run:
           name: Launch docs generation

@@ -9,7 +9,7 @@ This behavior removes the limit on the distance the mouse can move and hides the
 
 This behavior removes the limit on the distance the mouse can move and hides the cursor.
 
-For example, a user can rotate or continue to manipulate an object by moving the mouse endlessly.
+For example, a user can rotate or continue to manipulate an object by moving the mouse endlessly ([open the project online](https://editor.gdevelop.io/?project=example://mouse-pointer-lock)).
 Without the pointer lock, the rotation or operation will stop the moment the pointer reaches the edge of the browser or screen.
 
 Game players don't have to worry about leaving the gameplay area or accidentally clicking on another application that moves the mouse focus away from the game.
@@ -17,7 +17,6 @@ Game players don't have to worry about leaving the gameplay area or accidentally
 Locking the pointer locks `MouseX()` and `MouseY()` expressions.
 Use `MovementX()` and `MovementY()` instead.
 
-[Read more...](https://github.com/PANDAKO-GitHub/MousePointerLockExtension)
 
 ---
 

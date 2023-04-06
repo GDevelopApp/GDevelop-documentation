@@ -3,9 +3,9 @@ title: Text Input
 ---
 # Text Input
 
-A Text Input displays a field where the player can enter some text. This can be used for example to ask for the player name, get their email, create a search bar, enter a password, etc...
+The Text Input object displays a text field where the player can enter text. This can be used to ask for the player name, get their email, create a search bar, enter a password, etc...
 
-Text Inputs can be customised and are using the native platform user interface to be rendered on top of the game. According to the platform, small variations can happen in the rendering of the field. On touch devices (Android, iOS), a keyboard will be shown on screen, reducing the size available for the game. The player can use the keyboard as usual (as well as select the text, copy, paste, insert emojis, as in any other app).
+Text Input objects are customizable, and they use the native platform user interface to be rendered on top of the game. Depending on the device being used, the text input object will be treated differently. On touch devices (Android, iOS), a keyboard will be shown on screen, reducing the size available for the game. The player can use the keyboard as they normally would (as well as select the text, copy, paste, insert emojis, etc.).
 
 ![](/gdevelop5/objects/text_input/pasted/20220310-005743.png)
 
@@ -23,7 +23,7 @@ This means:
 - You can't use **effects** with the object.
 - Be careful if you use the object in a scene with a moving camera or if you rotate/move the object. It might be slightly desynchronised from the rest of the rendered game. This can create a weird effect for the player.
 
-In general, prefer to use the object on **a static screen** and ensure the keyboard on mobile devices won't hide critical information.
+In general, prefer to use the object on **a static screen** and ensure that the keyboard on mobile devices won't hide critical information.
 
 ## Input type
 
@@ -33,7 +33,7 @@ The field can be:
 * A **multiline** text input (also called a "text area")
 * Or a special single line text input: *password, email, search field, number, phone number, url*.
 
-According to the type, some devices might display visual helps or **a different keyboard** to the user (especially on mobile). Password inputs will also hide the character that the user is writing.
+According to the type, some devices might display visual aids or **a different keyboard** to the user (especially on mobile). Password inputs will also hide the character that the user is writing.
 
 ## Reading the text entered by the player
 
@@ -45,4 +45,4 @@ After adding a Text Input object, put an instance on the scene. You can then use
 You can set, either from the object properties or using actions, the field as :
 
 * Read-only. Text can still be selected and usually the appearance of the field does not change, but the text can't be modified.
-* Disabled. Text can't usually be selected, nor modified, and some devices or platforms will gray the input.
+* Disabled. Text usually can't be selected, nor modified, and some devices or platforms will gray the input.

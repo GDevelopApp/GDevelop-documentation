@@ -1,20 +1,22 @@
 # Make objects orbit around a center object
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Space/Space_earth_moon_orbit.svg" class="extension-icon"></img>
-Make objects orbit around a center object. You can customize the number of objects, speed, etc...
+Make objects orbit around a center object in a circular or elliptical shape.
 
 **Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames), [VegeTato](https://gd.games/VegeTato).
 
 ---
 
-Run the provided action (*on every frame*, i.e: without a condition) to make the orbiting objects move.
-The extension will take care of creating/deleting orbiting objects to match the quantity specified. 
-Use the delete function or set the quantity to 0 to remove orbiting objects.
+Run the actions on every frame to make the orbiting objects move.
+The extension will automatically create/delete orbiting objects to match the quantity specified. 
+Use the delete function or set the quantity to 0 to remove all orbiting objects.
+
+The *elliptical orbit* action can be used to create a 3D effect by changing the z-order of orbiting objects.
 
 The customizable parameters include:
 
-- Which center object to use
-- Orbiting object (cannot be the same object used for the Center object)
+- Center object
+- Orbiting object (must be different than the Center object)
 - Quantity of orbiting objects
 - Distance from the center object
 - Speed of the orbiting objects (in degrees per second).  Use negative numbers to orbit counter-clockwise.
@@ -24,10 +26,11 @@ Example uses:
 
 - Make shield objects around the player to protect from enemies
 - Weapons that can damage enemies when they collide
-- Can be used on both player and NPC objects 
 - A visual indicator of ammo quantity or health points
-- Interesting animations that can function as a single entity (try using short orbit distances)
+- Interesting animations of stacked objects that can function as a single entity 
 - Visual cue for an active character power-up, such as invincibility
+
+An example shows how to use this extension ([open the project online](https://editor.gdevelop.io/?project=example://orbiting-objects)).
 
 ---
 

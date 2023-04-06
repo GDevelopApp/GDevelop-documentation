@@ -1,6 +1,6 @@
 # Crypto Api
 
-<img src="" class="extension-icon"></img>
+<img src="https://asset-resources.gdevelop.io/public-resources/Icons/fac7ecb74ef7da92ab59c3e431fb9587c105c2889a41cfac489135c0eb4643d1_shield-key.svg" class="extension-icon"></img>
 Random number generator for integers and floats using the Crypto API.
 
 **Authors and contributors** to this community extension: (not specified).

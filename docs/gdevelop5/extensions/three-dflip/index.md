@@ -1,13 +1,13 @@
 # 3D Flip
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/flip-horizontal.svg" class="extension-icon"></img>
-Flip sprites with a 3D effect.
+Flip sprites with a 3D rotation effect.
 
-**Authors and contributors** to this community extension: [D8H](https://gd.games/D8H), [VegeTato](https://gd.games/VegeTato).
+**Authors and contributors** to this community extension: [VegeTato](https://gd.games/VegeTato), [D8H](https://gd.games/D8H).
 
 ---
 
-Helpful to make a 3D rotation effect on objects.
+Flip sprites with a 3D rotation effect.
 
 Note that the X origin point must be at the center for the best results.
 

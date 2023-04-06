@@ -9,7 +9,7 @@ Choose a random value in a list of strings or numbers.
 
 In an expression, use `Choose::RandomString` or `Choose::RandomNumber` and set the values you want to randomize separated by commas.
 
-See also [Array Tools extension](https://wiki.gdevelop.io/gdevelop5/extensions/array-tools/reference) for more advanced usages.
+See also [Array Tools extension](https://wiki.gdevelop.io/gdevelop5/extensions/array-tools) for more advanced usages.
 
 ---
 

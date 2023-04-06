@@ -1,5 +1,8 @@
 nav:
+    - "Default events": standard
     - ...
+    - "For each object": foreach
+    - "For each child variable": foreach-child-variable
     - Custom Functions: functions
     - Advanced:
         - async.md

@@ -3,82 +3,63 @@ title: Text
 ---
 # Text
 
-!!! tip
+Text objects are used to display text on screen. You can customize the proprties of a text object (for example, font size or colour) when you create the object. You can also modify the properties of a text object during gameplay using events.
 
-        **See it in action!** 🎮
-    [I would rather see the Text object examples! Please take me there now.](/#Examples)
-
-
-Text objects display text on screen. You can customize text properties (for example, size or colour) upon creation. You can also modify text object properties during gameplay using events.
-
-## Text Object properties
-
-![](/gdevelop5/objects/text-obj.png)
+![](/gdevelop5/objects/TextObjectProperties.png)
 
 ### Default text
 
-You can set the text displayed by the [objects](/gdevelop5/objects) using the central text field:
+You can set the default text, displayed by the text [object](/gdevelop5/objects), using the central text field. Default text is what will be displayed when the text object is first displayed or created in a scene, but the text displayed by a text object can be modified during gameplay using events.
+
 ![](/gdevelop5/objects/change-text.png)
 
 ### Size
 
-Use the size field to set the default font size of the text:
+Use the size text field to set the default font size of the text.
 ![](/gdevelop5/objects/change-size-of-text.png)
 
 ### Color
 
-The color of the text can be changed by clicking on the palette color square :
+The color of the text can be changed by clicking on the palette color square, located on the right side of font size text field.
 ![](/gdevelop5/objects/change-color-of-text.png)
 
 ### Font and text style
 
-You can choose from bold and italic. A custom font can also be set for the text:
+You can choose from bold and italic, as well as choosing a custom font for the text. A custom font will require a font file, for which the file format must be TTF or OFT.
  ![](/gdevelop5/objects/change-style-of-text.png)
-
-File format must be TTF or OFT.
 
 ### Additional effects
 
-* You can create **gradients** using the events
+* You can create **gradients** using the action "gradient". You can choose available gradient types from the provided list and select up to four colors to use.
+
 ![](/gdevelop5/objects/textgradient.png)
 
-Choose an available gradient type from the list and select up to four colors.
-
-* You can set a **Shadow** using events:
+* You can set a **Shadow** using the action "text shadow/show shadow". When changing the shadow, you can choose the color, distance, blur, and angle.  This can also be used to create a glow effect with bright colors.
 
 ![](/gdevelop5/objects/showtextshadow.png)
 ![](/gdevelop5/objects/changetextshadow.png)
 
-When changing the shadow, you can choose the color, distance, blur, and angle.  This can also be used to create a glow effect with bright colors.
-
-* **Opacity** of the object can be changed:
+* **Opacity** of the object can be changed.
 
 ![](/gdevelop5/objects/changetextopacity.png)
 
-* **Scaling** of the object can be changed:
+* **Scaling** of the object can be changed. There are three options: "Scale" (constrains proportions to scale on both X and Y axis), "Scale on X axis" (width), and "Scale on Y axis" (height).
 
 ![](/gdevelop5/objects/textscaling.png)
-
 ![](/gdevelop5/objects/modifytextscale.png)
-
-There are three options: "Scale" (constrains proportions to scale on both X and Y axis), "Scale on X axis" (width), and "Scale on Y axis" (height).
 
 ### Other styles
 
-Using events, you can modify other properties:
+Using events, you can modify all properties of the text object, such as:
 
+  * Text Displayed
   * Bold
   * Italic
   * Padding
   * Alignment
   * Wrapping
   * Wrapping Width
-
-## In events
-
-You can manipulate most properties of a text during the game using events. For example, here is an event changing the size of text font:
-
-![](/gdevelop5/objects/changetextsizeviaevents.png)
+  * Font Size
 
 ## Examples
 
@@ -93,12 +74,7 @@ Manipulate a Text Object
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://manipulate-text-object){ .md-button .md-button--primary }
 
-Fade Text In and Out
-[![](/gdevelop5/objects/textfadeoutinexample.png)](https://editor.gdevelop.io/?project=example://text-fade-in-out)
-
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://text-fade-in-out){ .md-button .md-button--primary }
-
-Type on Text Effect
+Typewriter effect from extension
 
 [![](/gdevelop5/objects/type-ontexteffectexample.png)](https://editor.gdevelop.io/?project=example://type-on-text-effect)
 
