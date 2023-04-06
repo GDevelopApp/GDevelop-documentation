@@ -33,7 +33,6 @@ This path:
 
 This will save the screenshot to the *Pictures* folder on Windows, Linux and MacOS.
 
-
 ## References
 
 You can browse all the actions, conditions and expressions related to [the screenshot extension on this reference page](/gdevelop5/all-features/screenshot/reference/)
