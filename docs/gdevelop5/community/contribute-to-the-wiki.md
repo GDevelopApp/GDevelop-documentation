@@ -87,6 +87,6 @@ If you're directly quoting something that appears in the app, whether it be a bu
 
 ## When in doubt on structure or writing methods, follow the Style guide
 
-For questions on syntax around text formatting (bold, creating lists, etc), refer to https://github.com/GDevelopApp/GDevelop-documentation/blob/main/SYNTAX.md
+For questions on syntax around text formatting (bold, creating lists, etc), refer to the [Wiki syntax](https://github.com/GDevelopApp/GDevelop-documentation/blob/main/SYNTAX.md).
 
 If you're not sure how to write something or the best way to show steps, refer to the [Google developer documentation style guide](https://developers.google.com/style). This should only be used for documentation style best practices, and syntax should instead follow the link above. This is a big guide, so you're not expected to memorize it, but it works great as a reference.
