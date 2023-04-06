@@ -103,6 +103,6 @@ You can then monitor DamageTimer to start an action after 500 milliseconds (0.5 
 
 ![](/gdevelop5/all-features/reset-variable-timer.png)
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [timers on this reference page](/gdevelop5/all-features/timers-and-time/reference/)
+All actions, conditions and expressions are listed in [timers reference page](/gdevelop5/all-features/timers-and-time/reference/).

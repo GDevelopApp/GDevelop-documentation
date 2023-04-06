@@ -68,6 +68,6 @@ Using events, you can also check if an object is being dragged:
 
 [![](/gdevelop5/behaviors/pathfindingbasics.png)](https://editor.gdevelop.io/?project=example://pathfinding-basics)
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [the draggable behavior on this reference page](/gdevelop5/all-features/draggable-behavior/reference/)
+All actions, conditions and expressions are listed in [the draggable behavior reference page](/gdevelop5/all-features/draggable-behavior/reference/).

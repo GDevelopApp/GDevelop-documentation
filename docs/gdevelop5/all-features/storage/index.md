@@ -46,6 +46,6 @@ If the game has been exported to an HTML5 build, and uploaded to a host such as 
 
 This will mean that each browser will have a unique location, and users will need to refer to that documentation if they want to locate it. This will also mean that most browsers will delete the save data if their local stored data is cleared.
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [the storage on this reference page](/gdevelop5/all-features/storage/reference/)
+All actions, conditions and expressions are listed in [the storage reference page](/gdevelop5/all-features/storage/reference/).

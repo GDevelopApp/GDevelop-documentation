@@ -91,6 +91,6 @@ There are also several [useful expressions](https://wiki.gdevelop.io/gdevelop5/a
 - CameraBorderLeft(layer, number)
 - CameraBorderRight(layer, number)
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [layers and cameras on this reference page](/gdevelop5/all-features/layers-and-cameras/reference/)
+All actions, conditions and expressions are listed in [layers and cameras reference page](/gdevelop5/all-features/layers-and-cameras/reference/).

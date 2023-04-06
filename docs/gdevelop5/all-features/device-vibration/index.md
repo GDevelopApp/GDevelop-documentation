@@ -43,6 +43,6 @@ This action stops the vibration after the current pattern interval.
 
 ![](/gdevelop5/all-features/devicevibrationevents.png)
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [the device vibration on this reference page](/gdevelop5/all-features/device-vibration/reference/)
+All actions, conditions and expressions are listed in [the device vibration reference page](/gdevelop5/all-features/device-vibration/reference/).

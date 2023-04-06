@@ -96,6 +96,6 @@ To help you respect those constraints, the action will apply the expression `Lea
 | `""` (empty) | `"Player89456"` | Random name if input is empty (5-digits-long number) |
 
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [the leaderboards on this reference page](/gdevelop5/all-features/leaderboards/reference/)
+All actions, conditions and expressions are listed in [the leaderboards reference page](/gdevelop5/all-features/leaderboards/reference/).

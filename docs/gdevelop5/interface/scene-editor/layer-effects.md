@@ -169,6 +169,6 @@ Add blur to the top and bottom of the entire layer or object. Perfect to simulat
 
 ![](/gdevelop5/interface/scene-editor/tilt-shift-effect.png)
 
-## References
+## Reference
 
 N/A

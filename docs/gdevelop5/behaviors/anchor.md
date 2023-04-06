@@ -30,6 +30,6 @@ You can choose to what the object will be anchored from 3 main options:
 
 Note that setting anchors to opposite edges will stretch the object.
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [the anchor behavior on this reference page](/gdevelop5/all-features/anchor-behavior/reference/)
+All actions, conditions and expressions are listed in [the anchor behavior reference page](/gdevelop5/all-features/anchor-behavior/reference/).

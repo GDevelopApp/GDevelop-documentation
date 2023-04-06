@@ -89,6 +89,6 @@ Here are two examples:
 * if you use a synchronized score counter, you don't want to lose any data, as missing only one point of the counter would *desynchronize* the counters, so the dataloss mode would be deactivated.
 * If you want to synchronize positions, only the last position sent is relevant, not older positions. In this case, you would activate the dataloss mode *to prevent delays/lags*.
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [the peer-to-peer on this reference page](/gdevelop5/all-features/p2p/reference/)
+All actions, conditions and expressions are listed in [the peer-to-peer reference page](/gdevelop5/all-features/p2p/reference/).

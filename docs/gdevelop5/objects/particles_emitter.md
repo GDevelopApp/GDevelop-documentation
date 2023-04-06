@@ -58,6 +58,6 @@ You can also change the maximum number of particles rendered by the object on th
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=https://resources.gdevelop-app.com/examples/particle-effects-demo/particle-effects-demo.json){ .md-button .md-button--primary }
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [the particle system on this reference page](/gdevelop5/all-features/particle-system/reference/)
+All actions, conditions and expressions are listed in [the particle system reference page](/gdevelop5/all-features/particle-system/reference/).

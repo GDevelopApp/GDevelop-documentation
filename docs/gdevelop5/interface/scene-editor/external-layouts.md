@@ -45,6 +45,6 @@ The origin(0,0) of the external layout will align with the coordinates given in 
 
 If you use this action, make sure to run it with either the **At the beginning of the scene** or **Trigger once** condition. Otherwise, new objects from this external layout will be created every frame, which will drastically reduce performance and create too many objects.
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [the external layout audio on this reference page](/gdevelop5/all-features/external-layout/reference/)
+All actions, conditions and expressions are listed in [the external layout audio reference page](/gdevelop5/all-features/external-layout/reference/).

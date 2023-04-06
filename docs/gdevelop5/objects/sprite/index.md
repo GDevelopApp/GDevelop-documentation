@@ -145,6 +145,6 @@ Click on the images to open the examples online.
 
 [![](./Examples4PauseAnimation.png)](https://editor.gdevelop.io/?project=example://play-stop-sprite-animation)
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [the Sprite object on this reference page](/gdevelop5/all-features/sprite/reference)
+All actions, conditions and expressions are listed in [the Sprite object reference page](/gdevelop5/all-features/sprite/reference)

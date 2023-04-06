@@ -40,6 +40,6 @@ As characters are pre-rendered, the font color can also not be changed. GDevelop
 
 If you generate a Bitmap Font with white characters, and if you use a blue tint, the object will be displayed with this blue color. If your Bitmap Font is grey, and the tint blue, the colours will be mixed with each other.
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [the bitmap text object on this reference page](/gdevelop5/all-features/bitmap-text/reference/)
+All actions, conditions and expressions are listed in [the bitmap text object reference page](/gdevelop5/all-features/bitmap-text/reference/).

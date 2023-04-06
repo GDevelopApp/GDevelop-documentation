@@ -26,6 +26,6 @@ To input a string in a numerical expression, you can convert it to number using 
 
 To input a number in string expression, you can use the "Number > Text" expression. If the number used is greater than or equal to 1e+21, the expression returns its value in scientific notation.
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [conversions on this reference page](/gdevelop5/all-features/common-conversions/reference/)
+All actions, conditions and expressions are listed in [conversions reference page](/gdevelop5/all-features/common-conversions/reference/).

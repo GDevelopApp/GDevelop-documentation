@@ -64,6 +64,6 @@ You can go the other way, and convert JSON back to a variable. This is useful wh
 
 Use the action "**Convert JSON to a variable**" (or "Convert JSON to global variable", or "Convert JSON to object variable"). Specify the JSON to be converted (which will be itself stored in a variable) and the variable, where you need to store the resulting structure.
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [the network on this reference page](/gdevelop5/all-features/network/reference/)
+All actions, conditions and expressions are listed in [the network reference page](/gdevelop5/all-features/network/reference/).

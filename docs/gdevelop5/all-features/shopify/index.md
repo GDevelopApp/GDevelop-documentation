@@ -59,6 +59,6 @@ When the variable with the URL is filled, you can then open the link:
 
 You can also hide any object that was displayed to indicate that there was something loading.
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [the shopify on this reference page](/gdevelop5/all-features/shopify/reference/)
+All actions, conditions and expressions are listed in [the shopify reference page](/gdevelop5/all-features/shopify/reference/).

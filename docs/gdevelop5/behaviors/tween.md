@@ -251,6 +251,6 @@ This expression returns the tween's current progress between the start value (0)
 
 [![](/gdevelop5/behaviors/pairs.png)](https://editor.gdevelop.io/?project=example://pairs)
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [the tween behavior on this reference page](/gdevelop5/all-features/tween/reference/)
+All actions, conditions and expressions are listed in [the tween behavior reference page](/gdevelop5/all-features/tween/reference/).

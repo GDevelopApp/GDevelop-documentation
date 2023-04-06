@@ -62,9 +62,9 @@ Like most objects, collisions can be detected by the shape painter object.  Shap
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://advanced-shape-based-painter){ .md-button .md-button--primary }
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [the shape painter on this reference page](/gdevelop5/all-features/primitive-drawing/reference/)
+All actions, conditions and expressions are listed in [the shape painter reference page](/gdevelop5/all-features/primitive-drawing/reference/).
 
 
 

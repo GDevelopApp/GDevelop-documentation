@@ -75,6 +75,6 @@ The sound will be stopped when:
 
 * It reaches its **end** and is not configured to loop. * There is **an error during the loading** (in which case it will be considered as playing for a few milliseconds, then will be deemed to be stopped as it was unable to load). * Or you used **the action** to stop a sound or music on the channel.
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [the audio on this reference page](/gdevelop5/all-features/audio/reference/)
+All actions, conditions and expressions are listed in [the audio reference page](/gdevelop5/all-features/audio/reference/).

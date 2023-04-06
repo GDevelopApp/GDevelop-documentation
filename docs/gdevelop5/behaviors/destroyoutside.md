@@ -32,6 +32,6 @@ Once you have selected this behavior from the list, it is going to eliminate the
 
 [![](/gdevelop5/behaviors/Examples1BulletOutsideScreen.png)](https://editor.gdevelop.io/?project=example://shoot-bullets)
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [the destroy outside behavior on this reference page](/gdevelop5/all-features/destroy-outside-behavior/reference/)
+All actions, conditions and expressions are listed in [the destroy outside behavior reference page](/gdevelop5/all-features/destroy-outside-behavior/reference/).

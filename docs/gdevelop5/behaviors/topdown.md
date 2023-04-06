@@ -89,6 +89,6 @@ All theses values can also be changed at any time during the game using [events]
 
 [![](/gdevelop5/behaviors/isometricgame.png)](https://editor.gdevelop.io/?project=example://isometric-game)
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [the top-down movement on this reference page](/gdevelop5/all-features/top-down-movement-behavior/reference/)
+All actions, conditions and expressions are listed in [the top-down movement reference page](/gdevelop5/all-features/top-down-movement-behavior/reference/).

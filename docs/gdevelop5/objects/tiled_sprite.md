@@ -58,6 +58,6 @@ You can use events to manipulate the scale and positioning of tiled sprite objec
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://old-platformer){ .md-button .md-button--primary }
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [tiled sprite object on this reference page](/gdevelop5/all-features/tiled-sprite-object/reference/)
+All actions, conditions and expressions are listed in [tiled sprite object reference page](/gdevelop5/all-features/tiled-sprite-object/reference/).

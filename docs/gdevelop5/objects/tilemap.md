@@ -212,6 +212,6 @@ In GDevelop, you can choose the speed of the animation(s) of the Tilemap, which 
 
 ![](/gdevelop5/objects/tilemap/pasted/20210104-112229.png)
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [the tilemap on this reference page](/gdevelop5/all-features/tilemap/reference/)
+All actions, conditions and expressions are listed in [the tilemap reference page](/gdevelop5/all-features/tilemap/reference/).

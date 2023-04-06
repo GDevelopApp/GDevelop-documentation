@@ -179,6 +179,6 @@ When developing a game, bugs can occur because the value of a variable isn't wha
 
 For more information, refer to [debugger](/gdevelop5/interface/debugger).
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [the variables on this reference page](/gdevelop5/all-features/variables/reference/)
+All actions, conditions and expressions are listed in [the variables reference page](/gdevelop5/all-features/variables/reference/).

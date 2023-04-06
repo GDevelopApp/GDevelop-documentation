@@ -43,6 +43,6 @@ If "repeat borders and center texture" is enabled, segments 2, 4, 5, 6, 8 will b
 
 ![](/gdevelop5/objects/9panel6.png)
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [the panel sprite (9-patch) object on this reference page](/gdevelop5/all-features/panel-sprite-object/reference/)
+All actions, conditions and expressions are listed in [the panel sprite (9-patch) object reference page](/gdevelop5/all-features/panel-sprite-object/reference/).

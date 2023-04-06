@@ -67,6 +67,6 @@ If needed, an action is available to log out the player from the game, you can u
 
     Player accounts is still experimental and new features will quickly be added to find the player unique identifier, store progress, saves or items, and more!
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [the player authentication on this reference page](/gdevelop5/all-features/player-authentication/reference/)
+All actions, conditions and expressions are listed in [the player authentication reference page](/gdevelop5/all-features/player-authentication/reference/).

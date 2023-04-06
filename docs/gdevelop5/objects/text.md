@@ -80,6 +80,6 @@ Typewriter effect from extension
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://type-on-text-effect){ .md-button .md-button--primary }
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [the text object on this reference page](/gdevelop5/all-features/text-object/reference/)
+All actions, conditions and expressions are listed in [the text object reference page](/gdevelop5/all-features/text-object/reference/).

@@ -89,6 +89,6 @@ _perfectly elastic collision_.
 
 [![](/gdevelop5/behaviors/objectgravity.png)](https://editor.gdevelop.io/?project=example://object-gravity)
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [the physics Engine (deprecated) on this reference page](/gdevelop5/all-features/physics-behavior/reference/)
+All actions, conditions and expressions are listed in [the physics Engine (deprecated) reference page](/gdevelop5/all-features/physics-behavior/reference/).

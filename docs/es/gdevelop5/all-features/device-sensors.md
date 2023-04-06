@@ -195,6 +195,6 @@ La rotación "gamma". (m / s²)
 
 ![](/gdevelop5/all-features/devicesensorsevents.png)
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [the device sensors on this reference page](/gdevelop5/all-features/device-sensors/reference/)
+All actions, conditions and expressions are listed in [the device sensors reference page](/gdevelop5/all-features/device-sensors/reference/).

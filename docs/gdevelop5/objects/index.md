@@ -186,6 +186,6 @@ Thanks to its modular extension system, you can create custom objects, which are
 
 For example, the [multitouch joysticks](/gdevelop5/objects/multitouch-joystick), buttons, sliders and other user interface objects that you can find in the list of objects are "custom objects" built with other objects.
 
-## References
+## Reference
 
-You can browse all the actions, conditions and expressions related to [the object on this reference page](/gdevelop5/all-features/object/reference)
+All actions, conditions and expressions are listed in [the object reference page](/gdevelop5/all-features/object/reference)
