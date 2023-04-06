@@ -7,26 +7,14 @@ Spawn (create) objects periodically.
 
 ---
 
-Can be used to create enemies, NPCs, environmental objects, etc.
+Spawn objects periodically and control their number.
 
-How to use:
+It can be used to create:
 
-- Add this behavior to an object
-- Place spawners on the scene 
-- Run the "Spawn objects" action on every frame
-- Control spawning by adjusting behavior properties
+- Enemies
+- NPCs
+- Environmental objects
 
-Properties:
-Spawn period:  Number of seconds before spawning another object.
-Max quantity:  Each spawner will try to maintain this number of spawned objects
-Offset X/Y:  Use to adjust where the object are spawned, relative to the origin of the spawner
-
-Tips:
-
-- Use "Object was just spawned" condition to trigger visual and sound effects (if desired)
-- Set max quantity to "0" to never stop spawning objects
-- Spawned objects are automatically linked to the spawner
-- Note:  If max quantity has been reached and an instance is deleted, the spawner will wait the duration of spawn period before creating another instance.
 
 ---
 
