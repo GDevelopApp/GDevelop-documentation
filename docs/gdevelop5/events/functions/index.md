@@ -63,7 +63,7 @@ Add a parameter with the button "Add a parameter":
 For each parameter, you can enter:
 
   * The name, that will be used to access the parameter in the *events of the function*.
-  * The type. The parameter can be objects, a number, a text, etc. [See the complete list of parameters](/gdevelop5/events/functions/#references-of-parameters).
+  * The type. Parameters can be objects, numbers, texts, etc. [See the complete list of parameters](/gdevelop5/events/functions/#references-of-parameters).
   * A description, that will be shown in the window when configuring the action/condition or expression.
 
 For example, we can add a parameter, that would return the objects to be rotated:
@@ -159,7 +159,7 @@ Parameters in function can be various:
 | [Behavior](/gdevelop5/behaviors) | Behavior     | The behavior from an object                               |
 | String                        | Text         | Just a text                                               |
 | String from a list of options | Text         | A list of multiple text                                   |
-| Keyboard Key                  | Text         | A list of keys                                            |
+| Keyboard Key                  | Text         | Let extension users choose a key from a list                                           |
 | Mouse button                  | Text         | A list of buttons                                         |
 | Color                         | Text         | The color in RGB. Format: `"255;255;255"`                 |
 | Layer                         | Text         | The name of a layer                                       |

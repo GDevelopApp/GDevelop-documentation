@@ -1,7 +1,6 @@
 # Extensions
 
-GDevelop is built in a flexible way. In addition to [core features](/gdevelop5/all-features), new capabilities are provided by extensions.
-Extensions can contain objects, behaviors, actions, conditions and expressions. They can be installed or made by anyone directly inside GDevelop.
+GDevelop is built in a flexible way. In addition to [core features](/gdevelop5/all-features), new capabilities are provided by extensions. Extensions can contain objects, behaviors, actions, conditions and expressions. They can be installed or made by anyone directly inside GDevelop.
 
 
 Read more about this:
