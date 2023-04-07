@@ -51,3 +51,7 @@ Multiple touches can happen at the same time. The touch identifier must be used 
         **See it in action!** 🎮
 
     [Open this example online](https://editor.gdevelop.io?project=example://multitouch)
+
+## Reference
+
+All actions, conditions and expressions are listed in [mouse and touch reference page](/gdevelop5/all-features/mouse-touch/reference/).

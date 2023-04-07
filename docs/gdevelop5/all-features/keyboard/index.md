@@ -36,3 +36,7 @@ To test a key release using this condition, you need to enter the key name in th
 ## Last key pressed
 
 "Last key pressed" expression returns the last key press in the form of a string. For example, if the last key press is the left arrow key, the expression will return "Left".
+
+## Reference
+
+All actions, conditions and expressions are listed in [the keyboard reference page](/gdevelop5/all-features/keyboard/reference/).

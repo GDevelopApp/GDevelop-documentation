@@ -168,3 +168,7 @@ Separate each component's RGB(red, green, blue) colors and display them on the s
 Add blur to the top and bottom of the entire layer or object. Perfect to simulate a tiny world or a camera focus effect.
 
 ![](/gdevelop5/interface/scene-editor/tilt-shift-effect.png)
+
+## Reference
+
+N/A

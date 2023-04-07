@@ -45,3 +45,7 @@ This will vary by Windows version and settings, but can normally be accessed by 
 If the game has been exported to an HTML5 build, and uploaded to a host such as Itch.io, local storage will be maintained with the //browser's// local storage.
 
 This will mean that each browser will have a unique location, and users will need to refer to that documentation if they want to locate it. This will also mean that most browsers will delete the save data if their local stored data is cleared.
+
+## Reference
+
+All actions, conditions and expressions are listed in [the storage reference page](/gdevelop5/all-features/storage/reference/).

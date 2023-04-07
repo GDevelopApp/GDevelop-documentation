@@ -194,3 +194,7 @@ La rotación "beta". (m / s²)
 La rotación "gamma". (m / s²)
 
 ![](/gdevelop5/all-features/devicesensorsevents.png)
+
+## Reference
+
+All actions, conditions and expressions are listed in [the device sensors reference page](/gdevelop5/all-features/device-sensors/reference/).

@@ -54,3 +54,7 @@ In this example, for every existing "Pathfinder" object, a new "Terrain" object 
 
 
     To see more advance usages, take a look at the [Linked Objects Tools extension page](/gdevelop5/all-features/extensions/linked-objects-tools)
+
+## Reference
+
+All actions, conditions and expressions are listed in [the linked objects reference page](/gdevelop5/all-features/linked-objects/reference/).

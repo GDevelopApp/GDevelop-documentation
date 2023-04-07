@@ -73,3 +73,7 @@ If you want to change how the object moves during the game, these properties can
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://pathfinding-basics){ .md-button .md-button--primary }
 
 [![](/gdevelop5/behaviors/pathfindingbasics.png)](https://editor.gdevelop.io/?project=example://pathfinding-basics)
+
+## Reference
+
+All actions, conditions and expressions are listed in [the pathfinding reference page](/gdevelop5/all-features/pathfinding-behavior/reference/).

@@ -48,3 +48,7 @@ Using events, it is possible to enable or disable the "Text entry" object. Event
 ![](/gdevelop5/objects/textexample.png)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://text-entry-object){ .md-button .md-button--primary }
+
+## Reference
+
+All actions, conditions and expressions are listed in [the shape painter reference page](/gdevelop5/all-features/text-entry-object/reference/).

@@ -178,3 +178,7 @@ But while it's possible use variables without first creating them, we recommend 
 When developing a game, bugs can occur because the value of a variable isn't what you expect it to be. If something in your game isn't working and you think the problem might relate to a variable, use GDevelop's debugger to figure out what's wrong.
 
 For more information, refer to [debugger](/gdevelop5/interface/debugger).
+
+## Reference
+
+All actions, conditions and expressions are listed in [the variables reference page](/gdevelop5/all-features/variables/reference/).

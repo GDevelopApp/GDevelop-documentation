@@ -25,3 +25,7 @@ For a string field, only a text can be filled in the field. Similarly, only a nu
 To input a string in a numerical expression, you can convert it to number using the "Text > Number" expression. If the string input contains alphabetical characters or any other character than numeric characters, the expression will return "NaN", i.e. not a number.
 
 To input a number in string expression, you can use the "Number > Text" expression. If the number used is greater than or equal to 1e+21, the expression returns its value in scientific notation.
+
+## Reference
+
+All actions, conditions and expressions are listed in [conversions reference page](/gdevelop5/all-features/common-conversions/reference/).

@@ -32,3 +32,7 @@ This path:
 ``` <FileSystem::PicturesPath>() + <FileSystem::PathDelimiter>() + "my_screenshot.png" ```
 
 This will save the screenshot to the *Pictures* folder on Windows, Linux and MacOS.
+
+## Reference
+
+All actions, conditions and expressions are listed in [the screenshot extension reference page](/gdevelop5/all-features/screenshot/reference/).

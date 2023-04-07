@@ -238,3 +238,7 @@ The demo does not use the entire capability of the extension and is aiming to pr
 # Examples
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://dialogue-tree-with-yarn){ .md-button .md-button--primary }
+
+## Reference
+
+All actions, conditions and expressions are listed in [the dialogue tree reference page](/gdevelop5/all-features/dialogue-tree/reference/).

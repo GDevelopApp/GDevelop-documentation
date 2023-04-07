@@ -57,3 +57,7 @@ You can also change the maximum number of particles rendered by the object on th
 [![](/gdevelop5/objects/Examples2ParticleEmitterWishForge.png)](https://editor.gdevelop.io/?project=https://resources.gdevelop-app.com/examples/particle-effects-demo/particle-effects-demo.json)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=https://resources.gdevelop-app.com/examples/particle-effects-demo/particle-effects-demo.json){ .md-button .md-button--primary }
+
+## Reference
+
+All actions, conditions and expressions are listed in [the particle system reference page](/gdevelop5/all-features/particle-system/reference/).

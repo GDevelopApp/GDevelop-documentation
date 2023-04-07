@@ -133,3 +133,7 @@ See how the ads work in a game by opening the example called **AdMob**. Replace 
 !!! tip
 
     Try it online! Click **[here to open the Admob example](https://editor.gdevelop.io/?project=example://admob)**. You must export to Android using the desktop app to test it on a real phone.
+
+## Reference
+
+All actions, conditions and expressions are listed in the [AdMob reference page](/gdevelop5/all-features/admob/reference/).

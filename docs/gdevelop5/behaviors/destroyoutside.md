@@ -31,3 +31,7 @@ Once you have selected this behavior from the list, it is going to eliminate the
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://shoot-bullets){ .md-button .md-button--primary }
 
 [![](/gdevelop5/behaviors/Examples1BulletOutsideScreen.png)](https://editor.gdevelop.io/?project=example://shoot-bullets)
+
+## Reference
+
+All actions, conditions and expressions are listed in [the destroy outside behavior reference page](/gdevelop5/all-features/destroy-outside-behavior/reference/).

@@ -100,3 +100,7 @@ In our example, there was a static text showing how much money you lose by buyin
 
 You should now be done setting it up.
 You only need to change values in the Firebase console to see it update in real time (or more precisely whenever the game syncs the Remote Configuration) in your game.
+
+## Reference
+
+All actions, conditions and expressions are listed in [the Firebase reference page](/gdevelop5/all-features/firebase/reference/).

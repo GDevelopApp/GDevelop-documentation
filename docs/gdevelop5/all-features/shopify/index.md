@@ -58,3 +58,7 @@ When the variable with the URL is filled, you can then open the link:
 ![](/gdevelop5/all-features/shopify-open-url.png)
 
 You can also hide any object that was displayed to indicate that there was something loading.
+
+## Reference
+
+All actions, conditions and expressions are listed in [the shopify reference page](/gdevelop5/all-features/shopify/reference/).

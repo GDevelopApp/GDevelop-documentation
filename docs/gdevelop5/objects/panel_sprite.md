@@ -42,3 +42,7 @@ If the top margin is set to 100, the margin would be 100 pixels from the top and
 If "repeat borders and center texture" is enabled, segments 2, 4, 5, 6, 8 will be repeated instead of stretched. This will scale the object in a way that's similar to the tiled sprite object.
 
 ![](/gdevelop5/objects/9panel6.png)
+
+## Reference
+
+All actions, conditions and expressions are listed in [the panel sprite (9-patch) object reference page](/gdevelop5/all-features/panel-sprite-object/reference/).
