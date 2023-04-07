@@ -72,5 +72,5 @@ Each gamepad connected to the computer or phone is numbered from 1 to 4:
 
 Use the action **Gamepad vibration** to make a gamepad vibrate.
 
-**Advanced Gamepad vibration** allows to setup the magnitude of the vibrations with a lower and a higher bound for motors rumble.
+**Advanced Gamepad vibration** allows to setup vibration magnitudes for low and high frequency rumble motors.
 Each player can have different rumble values.
