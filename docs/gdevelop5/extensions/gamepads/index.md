@@ -3,13 +3,22 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/gamepad-variant-outline.svg" class="extension-icon"></img>
 Add support for gamepads (or other controllers) to your game, giving access to information such as button presses, axis positions, trigger pressure, etc...
 
-**Authors and contributors** to this community extension: [Bouh](https://gd.games/Bouh).
+**Authors and contributors** to this community extension: [Bouh](https://gd.games/Bouh), [lhphr](https://gd.games/lhphr), [ZachjuKamashi](https://gd.games/ZachjuKamashi).
 
 ---
 
-Add support for gamepads (or other controllers) to your game, giving access to information such as button presses, axis positions, axis force, trigger pressure, deadzone for each gamepad, etc...
+Add support for gamepads (or other controllers).
 
-Up to 4 gamepads can be connected. For each condition or expression, you'll have to enter the index of the gamepad to read. This is 1, 2, 3 or 4.
+It gives access to:
+
+- button presses
+- axis positions and force
+- trigger pressure
+- configurable deadzone
+- vibration
+- automatic mappers for platformer characters and top-down movement
+
+The Bomberman-like example handles 4 players with gamepads ([open the project online](https://editor.gdevelop.io/?project=example://goose-bomberman)).
 
 [Read more...](https://wiki.gdevelop.io/gdevelop5/all-features/gamepad)
 
