@@ -16,22 +16,22 @@ To complete this method, the following requirements must be met:
   * The sprite sheet must be for a _single_ animation.
   * The sprite sheet must have the sprites evenly spread apart.
 
-## Step 1 - Create the Sprite Object and Animation\
+## Step 1 - Create the Sprite Object and Animation
 
 1. Within the lower right of the Object List, click **Add a new object**. A new window will display.
-2. Click **Sprite** from the list of object types. The new sprite window will display.
-3. Within the **Object name** field, give the sprite a name.
-4. Click **ADD AN ANIMATION**. The first empty frame and more buttons will appear.
-5. It is also recommended to give the animation a name within the **Optional animation name** field.
+1. Click **Sprite** from the list of object types. The new sprite window will display.
+1. Within the **Object name** field, give the sprite a name.
+1. Click **ADD AN ANIMATION**. The first empty frame and more buttons will appear.
+1. It is also recommended to give the animation a name within the **Optional animation name** field.
 
 ## Step 2 - Import the File into Piskel
 
 1. Click **EDIT WITH PISKEL**. The Piskel editor will display.
-2. Within the right panel, click the **Import** button. The panel will pop out with various import options.
-3. Under the **IMPORT FROM PICTURE** section, click the **Browse Images** button.
-4. Browse to the sprite sheet file.
-5. Click the desired file.
-6. Click **Open**. The **Import and Merge** window will display.
+1. Within the right panel, click the **Import** button. The panel will pop out with various import options.
+1. Under the **IMPORT FROM PICTURE** section, click the **Browse Images** button.
+1. Browse to the sprite sheet file.
+1. Click the desired file.
+1. Click **Open**. The **Import and Merge** window will display.
 
 !!! note
 
@@ -40,8 +40,8 @@ To complete this method, the following requirements must be met:
 ## Step 3 - Complete the Sprite sheet Properties.
 
 1. Within the **Import and Merge** window, select **Import as Sprite sheet**.
-2. The frame size must be defined to match the size of each sprite. Most sprite sheets will have this be an even number.
-3. Adjust the frame size to properly match the size of each animation frame. Example:
+1. The frame size must be defined to match the size of each sprite. Most sprite sheets will have this be an even number.
+1. Adjust the frame size to properly match the size of each animation frame. Example:
       - This example sprite sheet imports as 512 pixels wide x 96 pixels high.
       - There are four frames, and the sheet is set up to have even distance. This means the frame size needs to be adjusted to 1/4th 512 pixels wide, or 128 pixels.
       - After adjusting the frame size, the boxes evenly split up each frame of animation.
@@ -51,9 +51,9 @@ To complete this method, the following requirements must be met:
 ## Import the Sprite sheet
 
 1. Click the **Import** button.
-2. A confirmation will display stating this will replace the current animation. Click **OK**.
-3. The animation will be imported into split files, and a preview of the animation will play on the upper right.
-4. Make any further needed adjustments needed.
-5. Click **Save**. The animation will be created for the sprite object.
-6. Repeat as needed for each additional animation and sprite sheet.
+1. A confirmation will display stating this will replace the current animation. Click **OK**.
+1. The animation will be imported into split files, and a preview of the animation will play on the upper right.
+1. Make any further needed adjustments needed.
+1. Click **Save**. The animation will be created for the sprite object.
+1. Repeat as needed for each additional animation and sprite sheet.
 ![](/gdevelop5/tutorials/piksel-sprite-sheets/pasted/20200330-025608.png)
