@@ -136,4 +136,4 @@ See how the ads work in a game by opening the example called **AdMob**. Replace 
 
 ## Reference
 
-All actions, conditions and expressions are listed in [the AdMob reference page](/gdevelop5/all-features/admob/reference/).
+All actions, conditions and expressions are listed in the [AdMob reference page](/gdevelop5/all-features/admob/reference/).
