@@ -14,7 +14,7 @@ This article includes instructions for implementing this functionality either wi
     GDevelop [assigns a single camera per layer](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/layers-and-cameras/#cameras). It is recomended to start by placing the main objects o the "Base Layer", and add other layers after. 
 
 
-## Follow a character smoothly
+## Follow an object (character) smoothly
 
 Add the **Smooth Camera** [behavior](https://wiki.gdevelop.io/gdevelop5/behaviors#adding_a_behavior_to_an_object) to the object that will be followed.
 The extension's parameters such as "catch up" and "speed" can be modified to personalize the smoothness of the camera.
@@ -38,11 +38,11 @@ The **Action** should look like this:
 
     To get closer to the character with the camera (zoom-in), use the action **Move camera closer**.
     
-### Follow several objects together
+### Follow an object with several cameras
 
-Games can contain a lot of objects. Using several layers is a way to keep a project organized, but also to manage camera movements. All layers (except for UI layers) should likely be moved the same way when a character is followed. *Read more on [how does cameras and layers](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/layers-and-cameras/#dimensions-and-angle-of-the-camera) work.*
+Games can contain a lot of objects. Using several layers is a way to keep a project organized, but also to manage camera movements. All layers (except for UI layers) should likely be moved the same way when a character is followed. *Read more on [how cameras and layers](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/layers-and-cameras/#dimensions-and-angle-of-the-camera) work.*
 
-To follow several objects at the same time, install the **[Copy camera settings](https://wiki.gdevelop.io/gdevelop5/extensions/copy-camera-settings/)** extension. It allows to copy the camera's position to another camera, including the camera that follows the player.
+To follow a single object with different layers (each layer has a single camera), install the **[Copy camera settings](https://wiki.gdevelop.io/gdevelop5/extensions/copy-camera-settings/)** extension. It allows to copy the main camera's position to a secondary camera.
 
 
 ## Make a custom camera following (advanced)
