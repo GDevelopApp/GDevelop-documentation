@@ -23,6 +23,11 @@ The extension's parameters such as "catch up" and "speed" can be modified to per
 
     Learn [how to install](https://gdevelop-wiki-git-fork-lunimoon-patch-2-gdevelop.vercel.app/gdevelop5/extensions/search/) new extensions by following a step-by-step guide.
 
+### Follow an object with several cameras
+
+Games can contain a lot of objects. Using several layers is a way to keep a project organized, but also to manage camera movements. All layers (except for UI layers) should likely be moved the same way when a character is followed. *Read more on [how cameras and layers](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/layers-and-cameras/#dimensions-and-angle-of-the-camera) work.*
+
+To follow a single object with different layers (each layer has a single camera), install the **[Copy camera settings](https://wiki.gdevelop.io/gdevelop5/extensions/copy-camera-settings/)** extension. It allows to copy the main camera's position to a secondary camera.
 
 ### Keep a character at the exact center of the camera
 
@@ -37,12 +42,6 @@ The **Action** should look like this:
 !!! tip
 
     To get closer to the character with the camera (zoom-in), use the action **Move camera closer**.
-    
-### Follow an object with several cameras
-
-Games can contain a lot of objects. Using several layers is a way to keep a project organized, but also to manage camera movements. All layers (except for UI layers) should likely be moved the same way when a character is followed. *Read more on [how cameras and layers](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/layers-and-cameras/#dimensions-and-angle-of-the-camera) work.*
-
-To follow a single object with different layers (each layer has a single camera), install the **[Copy camera settings](https://wiki.gdevelop.io/gdevelop5/extensions/copy-camera-settings/)** extension. It allows to copy the main camera's position to a secondary camera.
 
 
 ## Make a custom camera following (advanced)
