@@ -142,9 +142,17 @@ You can submit the example to the [Example repository](https://github.com/GDevel
 ![](/gdevelop5/community/github-example-submission-title.png)
 
   - Under `## Describe the example` in the textbox, add a proper description about the example, feel free to add any screenshots.
-  - You will also be given a checklist of what are necessary. If you have done them, add `x` in the in brackets against each checklist.
+  - You will also be given a checklist of what is necessary. If you have done them, add `x` in the in brackets against each checklist.
 
-![](/gdevelop5/community/github-example-submission-checklist.png)
+  ```
+  - [ ] My Game has a proper name in the game poperties.
+  - [ ] My Game package name begins with 'com.examples'.
+  - [ ] My Game has all events unfolded.
+  - [ ] I've Added myself as the author in the game properties.
+  - [ ] Iv' included a file caleed 'README.md' with a description in proper English, explaining what this example is doing.
+  - [ ] I confirm that this game and all its resources can be integrated to this Github repository, distributed and MIT licensed.
+  - [ ] I've cleaned unused resources in the project.
+  ```
 
   - Under `## Game folder`, add a zip of your project and drag and drop it into the text box.
   - Now click `Submit Issue`.
