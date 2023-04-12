@@ -3,17 +3,17 @@ title: Share your extension
 ---
 # Share your extension
 
-Extensions that you can [search and use in GDevelop](/gdevelop5/extensions/search) have been created and shared by the community.
+GDevelop [extensions](/gdevelop5/extensions/search) are created and shared by the community.
 
 If you have created a reusable behavior that can be useful in more than one game, or a set of actions/conditions/expressions, consider sharing them with the community! Doing so is very easy.
 
-## 1) Export your extension
+## Export your extension
 
 Open your extension from the [Project Manager](/gdevelop5/interface/project-manager). At the top of the list of functions, you can see a button "Edit Extension Options". Click on it to open the configuration of the extension:
 
 ![](/gdevelop5/extensions/share/pasted/20201220-192612.png)
 
-#### 1.1) Complete the extension information
+#### Complete the extension information
 
 Fill all the fields, in particular, the name and the descriptions of your extension:
 
@@ -24,20 +24,20 @@ Fill all the fields, in particular, the name and the descriptions of your extens
 * *Tags* is a list of comma-separated "tags", that help to search the extension. Read the existing tags when [you search for extensions](/gdevelop5/extensions/search) to get some inspiration. Reuse existing tags as possible.
 * *Author* is your username. An account will have to be registered and a proper username will be needed to be able to add the username. Type the username and pick the username from the drop-down menu
 
-#### 1.2) Ensure your extension follow the best practices
+#### Ensure your extension follow the best practices
 
 Read the [best practices for extensions](/gdevelop5/extensions/best-practices) here.
 
-#### 1.3) Export the extension to a .json file
+#### Export the extension to a .json file
 
 Once you're done, click on "Export Extension" at the bottom, then on "Export to a File".
 Choose a file and enter the same name as your extension, finishing by `.json`. For example: `Flash.json`.
 
-## 2) Submit your extension to the community
+## Submit your extension to the community
 
 !!! note
 
-    All extensions submitted on Github must follow the best practices, otherwise you will be asked to follow them before getting a review.
+    All extensions submitted on Github must follow the [best practices](/gdevelop5/extensions/best-practices), otherwise you will be asked to follow them before getting a review.
 
 To submit an extension to GDevelop you will need need a [GitHub profile](https://github.com/join) to continue.
 
