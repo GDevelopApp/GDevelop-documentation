@@ -3,8 +3,8 @@ title: Light
 ---
 # Light
 
-A Light object is an object that simulates a light source in 2D and cast shadow using other objects.
-The light object has several properties that can be customized, such as the color, the radius of the light, and a texture to give a shape to your light.
+A light object is an object that simulates a light source in 2D and cast shadow using other objects.
+The light object has several properties that can be customized, such as the color, the radius of the light, and a texture to give a shape to the light.
 
 ## How does it work?
 
@@ -18,8 +18,17 @@ The light texture property allow to create a custom shape for the light.
 
 An example of a texture that illuminates in a cone shape, like it can be done for a flashlight:
 
-![The result of a light texture in game](/gdevelop5/objects/pasted/result_light_texture.png)
-![The light texture used](/gdevelop5/objects/pasted/Cone_Light.png)
+<figure markdown>
+  ![The light texture used in the object.](Cone_Light.png)
+  <figcaption>The light texture used in the object.</figcaption>
+</figure>
+
+<figure markdown>
+  ![The result of a light texture in game](result_light_texture.png)
+  <figcaption>The result in game.</figcaption>
+</figure>
+
+
 
 !!! tip
 
