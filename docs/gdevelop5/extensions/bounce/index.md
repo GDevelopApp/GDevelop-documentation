@@ -1,7 +1,7 @@
 # Bounce (using forces)
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/volleyball.svg" class="extension-icon"></img>
-Provides an action to make the object bounce from another object it just touched.
+Bounce the object off another object it just touched.
 
 **Authors and contributors** to this community extension: [4ian](https://gd.games/4ian).
 
