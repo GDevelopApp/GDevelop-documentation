@@ -104,7 +104,7 @@ var searchData=
   ['isinverted',['IsInverted',['../classgd_1_1_instruction.html#ab3cd81ca71248becf24d5c277945eca8',1,'gd::Instruction']]],
   ['islastparameter',['IsLastParameter',['../structgd_1_1_expression_completion_description.html#affccc74d217c906f8981b8fbf6755e69',1,'gd::ExpressionCompletionDescription']]],
   ['islightinglayer',['IsLightingLayer',['../classgd_1_1_layer.html#a67eafea4f99d6dcb745529834c34a618',1,'gd::Layer']]],
-  ['islocked',['IsLocked',['../classgd_1_1_initial_instance.html#a2883e696538ecf77b325a002f04a43cb',1,'gd::InitialInstance']]],
+  ['islocked',['IsLocked',['../classgd_1_1_initial_instance.html#a2883e696538ecf77b325a002f04a43cb',1,'gd::InitialInstance::IsLocked()'],['../classgd_1_1_layer.html#ad8b23fc779c7659468b497ca6bf0f2fc',1,'gd::Layer::IsLocked()']]],
   ['islooping',['IsLooping',['../classgd_1_1_direction.html#a78c79c70c9f683b06b2a50ba4c3f3b5d',1,'gd::Direction']]],
   ['ismarkedasnotworkingforobjects',['IsMarkedAsNotWorkingForObjects',['../classgd_1_1_effect_metadata.html#af040a2e7ce1f0917391ddb266eeb57e4',1,'gd::EffectMetadata']]],
   ['isnumber',['IsNumber',['../classgd_1_1_value_type_metadata.html#afaa15db790f60cd3277029f84e087ee6',1,'gd::ValueTypeMetadata']]],
