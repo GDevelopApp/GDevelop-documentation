@@ -145,11 +145,11 @@ You can submit the example to the [Example repository](https://github.com/GDevel
   - You will also be given a checklist of what is necessary. If you have done them, add `x` in the in brackets against each checklist.
 
   ```
-  - [ ] My Game has a proper name in the game poperties.
+  - [ ] My Game has a proper name in the game properties.
   - [ ] My Game package name begins with 'com.examples'.
   - [ ] My Game has all events unfolded.
-  - [ ] I've Added myself as the author in the game properties.
-  - [ ] Iv' included a file caleed 'README.md' with a description in proper English, explaining what this example is doing.
+  - [ ] I've added myself as the author in the game properties.
+  - [ ] I've included a file called 'README.md' with a description in proper English, explaining what this example is doing.
   - [ ] I confirm that this game and all its resources can be integrated to this Github repository, distributed and MIT licensed.
   - [ ] I've cleaned unused resources in the project.
   ```
