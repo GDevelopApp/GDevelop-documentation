@@ -40,7 +40,7 @@ This section lists the different types of objects, each of which serves a unique
 
 ![type:video](https://www.youtube.com/embed/KpLAYMSgoDI)
 
-## Addin an object to your game
+## Adding an object to your game
 
 1. Open the [Scene editor](/gdevelop5/interface/scene-editor). This is the default view after creating a new project.
 2. In the **Objects** panel, select **Click to add an object**.
