@@ -160,9 +160,11 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="memitem:a04ce0ea0c361a52f5af7421aa7a0c996"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_value_type_metadata.html#a04ce0ea0c361a52f5af7421aa7a0c996">IsTypeExpression</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;type, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;parameterType)</td></tr>
 <tr class="memdesc:a04ce0ea0c361a52f5af7421aa7a0c996"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the type is an expression of the given type.  <a href="#a04ce0ea0c361a52f5af7421aa7a0c996">More...</a><br /></td></tr>
 <tr class="separator:a04ce0ea0c361a52f5af7421aa7a0c996"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade22528ae69f505d8fbc0ac5974d0cce"><td class="memItemLeft" align="right" valign="top"><a id="ade22528ae69f505d8fbc0ac5974d0cce"></a>
-static const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_value_type_metadata.html#ade22528ae69f505d8fbc0ac5974d0cce">GetPrimitiveValueType</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;parameterType)</td></tr>
-<tr class="memdesc:ade22528ae69f505d8fbc0ac5974d0cce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the expression type from the parameter type. Declinations of "number" and "string" types (like "forceMultiplier" or "sceneName") are replaced by "number" and "string". <br /></td></tr>
+<tr class="memitem:a911484673fa18daa7a00dd0746ffb6f2"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_value_type_metadata.html#a911484673fa18daa7a00dd0746ffb6f2">GetExpressionPrimitiveValueType</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;parameterType)</td></tr>
+<tr class="memdesc:a911484673fa18daa7a00dd0746ffb6f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the expression type from the parameter type. Declinations of "number" and "string" types (like "forceMultiplier" or "sceneName") are replaced by "number" and "string".  <a href="#a911484673fa18daa7a00dd0746ffb6f2">More...</a><br /></td></tr>
+<tr class="separator:a911484673fa18daa7a00dd0746ffb6f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade22528ae69f505d8fbc0ac5974d0cce"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_value_type_metadata.html#ade22528ae69f505d8fbc0ac5974d0cce">GetPrimitiveValueType</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;parameterType)</td></tr>
+<tr class="memdesc:ade22528ae69f505d8fbc0ac5974d0cce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the primitive type from the parameter type. Declinations of "number" and "string" types (like "forceMultiplier" or "sceneName") are replaced by "number" and "string".  <a href="#ade22528ae69f505d8fbc0ac5974d0cce">More...</a><br /></td></tr>
 <tr class="separator:ade22528ae69f505d8fbc0ac5974d0cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7632ceedbc1c54992cd63d38e96a8b88"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_value_type_metadata.html#a7632ceedbc1c54992cd63d38e96a8b88">ConvertPropertyTypeToValueType</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;propertyType)</td></tr>
 <tr class="memdesc:a7632ceedbc1c54992cd63d38e96a8b88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the <a class="el" href="classgd_1_1_value_type_metadata.html" title="Define a type for parameters of a function (action, condition or expression) or the returned value of...">ValueTypeMetadata</a> name for a property type.  <a href="#a7632ceedbc1c54992cd63d38e96a8b88">More...</a><br /></td></tr>
@@ -176,6 +178,12 @@ static const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</
 <tr class="memitem:a12391de5490ae7882d2cfd9a1ef8df34"><td class="memItemLeft" align="right" valign="top"><a id="a12391de5490ae7882d2cfd9a1ef8df34"></a>
 static const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>stringType</b> = &quot;string&quot;</td></tr>
 <tr class="separator:a12391de5490ae7882d2cfd9a1ef8df34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69b874c8f9f7ba824bbd4c08f86af6ac"><td class="memItemLeft" align="right" valign="top"><a id="a69b874c8f9f7ba824bbd4c08f86af6ac"></a>
+static const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>variableType</b> = &quot;variable&quot;</td></tr>
+<tr class="separator:a69b874c8f9f7ba824bbd4c08f86af6ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13531886117ad7d43720100ba2edcde8"><td class="memItemLeft" align="right" valign="top"><a id="a13531886117ad7d43720100ba2edcde8"></a>
+static const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>booleanType</b> = &quot;boolean&quot;</td></tr>
+<tr class="separator:a13531886117ad7d43720100ba2edcde8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Define a type for parameters of a function (action, condition or expression) or the returned value of an expression. </p>
@@ -207,6 +215,64 @@ static const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</
 
 <p>Return the <a class="el" href="classgd_1_1_value_type_metadata.html" title="Define a type for parameters of a function (action, condition or expression) or the returned value of...">ValueTypeMetadata</a> name for a property type. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_property_descriptor.html" title="Used to describe a property shown in a property grid. ">gd::PropertyDescriptor</a> </dd></dl>
+
+</div>
+</div>
+<a id="a911484673fa18daa7a00dd0746ffb6f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a911484673fa18daa7a00dd0746ffb6f2">&#9670;&nbsp;</a></span>GetExpressionPrimitiveValueType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp; gd::ValueTypeMetadata::GetExpressionPrimitiveValueType </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>parameterType</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the expression type from the parameter type. Declinations of "number" and "string" types (like "forceMultiplier" or "sceneName") are replaced by "number" and "string". </p>
+<dl class="section note"><dt>Note</dt><dd>It only maps string and number types. </dd></dl>
+
+</div>
+</div>
+<a id="ade22528ae69f505d8fbc0ac5974d0cce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade22528ae69f505d8fbc0ac5974d0cce">&#9670;&nbsp;</a></span>GetPrimitiveValueType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp; gd::ValueTypeMetadata::GetPrimitiveValueType </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>parameterType</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the primitive type from the parameter type. Declinations of "number" and "string" types (like "forceMultiplier" or "sceneName") are replaced by "number" and "string". </p>
+<dl class="section note"><dt>Note</dt><dd>It also maps variable and boolean types. </dd></dl>
 
 </div>
 </div>

@@ -202,6 +202,7 @@ var searchData=
   ['geteventsmartptr',['GetEventSmartPtr',['../classgd_1_1_events_list.html#a5a44524dc90ad6927fe70d1bde1155e5',1,'gd::EventsList::GetEventSmartPtr(size_t index)'],['../classgd_1_1_events_list.html#af19459f17e32c6629239ad16c7910348',1,'gd::EventsList::GetEventSmartPtr(size_t index) const']]],
   ['getexpectedbehaviortypename',['GetExpectedBehaviorTypeName',['../classgd_1_1_unfilled_required_behavior_property_problem.html#aa2ca7c8ebe70d179d9d8ec8d89b7b3f5',1,'gd::UnfilledRequiredBehaviorPropertyProblem']]],
   ['getexpressionmetadata',['GetExpressionMetadata',['../classgd_1_1_metadata_provider.html#ac0dbe1deed476233c2885921e5c31c08',1,'gd::MetadataProvider']]],
+  ['getexpressionprimitivevaluetype',['GetExpressionPrimitiveValueType',['../classgd_1_1_value_type_metadata.html#a911484673fa18daa7a00dd0746ffb6f2',1,'gd::ValueTypeMetadata']]],
   ['getexpressiontype',['GetExpressionType',['../classgd_1_1_events_function.html#a52af93065d8cd04465296fba3e03a931',1,'gd::EventsFunction::GetExpressionType() const'],['../classgd_1_1_events_function.html#a845f66f8f19043d09412650a915c6642',1,'gd::EventsFunction::GetExpressionType()']]],
   ['getexpressionvaluetype',['GetExpressionValueType',['../classgd_1_1_parameter_metadata.html#a8e4802106f19aef4906f782cc52907f8',1,'gd::ParameterMetadata']]],
   ['getextension',['GetExtension',['../classgd_1_1_extension_and_metadata.html#a82167059dbabf360681567e2d137a2b9',1,'gd::ExtensionAndMetadata::GetExtension()'],['../classgd_1_1_platform.html#aa5ed5f68f62a75e16476f7d3f772119e',1,'gd::Platform::GetExtension()']]],
