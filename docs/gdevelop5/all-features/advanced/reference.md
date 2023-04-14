@@ -4,6 +4,12 @@ Advanced control features for functions made with events.
 
 ## Actions
 
+**Copy function parameter to variable**  
+Copy a function parameter (also called "argument") to a variable. The parameter type must be a variable.
+
+**Copy variable to function parameter**  
+Copy a variable to function parameter (also called "argument"). The parameter type must be a variable.
+
 **Set condition return value**  
 Set the return value of the Condition events function to either true (condition will pass) or false.
 
