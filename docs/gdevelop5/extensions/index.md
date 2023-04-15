@@ -1,12 +1,11 @@
 # Extensions
 
-GDevelop is built in a flexible way. In addition to [core features](/gdevelop5/all-features), new capabilities are provided by extensions. Extensions can contain objects, behaviors, actions, conditions, expressions or events.
+GDevelop is built in a flexible way. In addition to [core features](/gdevelop5/all-features), new capabilities are provided by extensions. Extensions can contain objects, behaviors, actions, conditions and expressions. They can be installed or made by anyone directly inside GDevelop.
 
-[Directly from GDevelop](/gdevelop5/extensions/search), you have access to a collection of community created extensions, [listed here](/gdevelop5/extensions/extensions-list).
-You can also [create](/gdevelop5/extensions/create) directly in your project new behaviors, actions, conditions or expressions for your game.
 
 Read more about this:
 
+* [Install new extensions](/gdevelop5/extensions/search)
 * [Create your own extensions](/gdevelop5/extensions/create)
 * [Share extensions with the community](/gdevelop5/extensions/share)
 * [Extend GDevelop with JavaScript or C++](/gdevelop5/extensions/extend-gdevelop)

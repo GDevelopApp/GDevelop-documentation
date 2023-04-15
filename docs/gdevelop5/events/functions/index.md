@@ -1,7 +1,7 @@
 ---
-title: Functions - create your own actions or conditions
+title: Functions - create your own actions, conditions or expressions
 ---
-# Functions: create your own actions or conditions
+# Functions: create your own actions, conditions or expressions
 
 An "Events Function" or simply Function is a powerful feature of GDevelop. [External events](/gdevelop5/interface), [links](/gdevelop5/events/link) and [groups](/gdevelop5/events/group) are useful to organize the events of your game, and even reuse some, in more than one place in your game. For example, you could put common events, to manage the enemies in some external events, and include these events, using a link, in various scenes.
 
@@ -46,7 +46,7 @@ When a function is selected, on the top, you can see the configuration of the fu
 * The first parameter is the type of the function: "Action", "Condition", "Expression" or "String Expression". If you choose Action or Condition, you'll find the function in the list of actions and conditions, when editing your events in the game. If you choose Expression (or String Expression), you'll find it in the list of expressions when you edit a formula.
 * You can then configure the name that will be displayed in the list.
 * Enter the description that will be given in the window, when choosing the parameters for the function.
-* For Action or Condition, you can enter the sentence that will be displayed in the events sheet. In case your function takes parameters (see below to learn more about these), you can include them by writing PARAMx between underscores, replacing `x` by the parameter number (starting at 1):
+* For Action or Condition, you can enter the sentence that will be displayed in the events sheet. In case your function takes parameters (see below to learn more about these), you can include them by writing `PARAMx` between underscores, replacing `x` by the parameter number (starting at 1):
 
 ```
 Rotate objects _PARAM1_
@@ -63,7 +63,7 @@ Add a parameter with the button "Add a parameter":
 For each parameter, you can enter:
 
   * The name, that will be used to access the parameter in the *events of the function*.
-  * The type. The parameter can be objects, a number or a text. If you choose objects, you'll also be able to choose the type of object to receive.
+  * The type. Parameters can be objects, numbers, texts, etc. [See the complete list of parameters](/gdevelop5/events/functions/#references-of-parameters).
   * A description, that will be shown in the window when configuring the action/condition or expression.
 
 For example, we can add a parameter, that would return the objects to be rotated:
@@ -147,3 +147,39 @@ Functions can be shared across projects (like actions/conditions that are built 
 !!! tip
 
     See [an example of replacing external events by a function](/gdevelop5/events/functions/replace-external-events), which is reusable and shareable. You can also **[automatically extract events to a function](/gdevelop5/events/functions/extract-events)**.
+
+
+## References of parameters
+
+Parameters in function can be various:
+
+| Type                          | Data type    | Description                                               |
+|-------------------------------|--------------|-----------------------------------------------------------|
+| [Objects](/gdevelop5/objects) | Objects list | A list of objects                                         |
+| [Behavior](/gdevelop5/behaviors) | Behavior     | The behavior from an object                               |
+| String                        | Text         | Just a text                                               |
+| String from a list of options | Text         | A list of multiple text                                   |
+| Keyboard Key                  | Text         | Let extension users choose a key from a list                                           |
+| Mouse button                  | Text         | A list of buttons                                         |
+| Color                         | Text         | The color in RGB. Format: `"255;255;255"`                 |
+| Layer                         | Text         | The name of a layer                                       |
+| Scene name                    | Text         | The name of a scene                                       |
+| Yes or No                     | Boolean      | A boolean value                                           |
+| True or False                 | Boolean      | A boolean value                                           |
+| [Object point](/gdevelop5/objects/sprite/edit-points) | Text         | The name of an point from an object                       |
+| [Object animation](/gdevelop5/objects/sprite/#adding-an-animation) | Text         | The name of an animation from an object                   |
+| [Identifier](/gdevelop5/events/functions#identifier-parameter) | Text         | Allow the auto-complete to suggest previously used values |
+
+
+### Identifier parameter
+
+This parameter enables auto-completion for previously entered values from other events with the same identifier name and scope.
+
+#### Scopes
+
+- **Object** - To suggest previously used values on the same object.
+- **Scene** - To suggest previously used values from the scene events.
+
+#### Identifier name
+
+Every parameter with the same identifier name share their values for the autocompletion.
