@@ -54,7 +54,7 @@ Note that GDevelop can also be extended with extensions: take a look at [the lis
 * [File system](https://wiki.gdevelop.io/gdevelop5/all-features/filesystem) ([reference](https://wiki.gdevelop.io/gdevelop5/all-features/filesystem/reference))
 * [Firebase](https://wiki.gdevelop.io/gdevelop5/all-features/firebase) ([reference](https://wiki.gdevelop.io/gdevelop5/all-features/firebase/reference))
 * [Leaderboards](https://wiki.gdevelop.io/gdevelop5/all-features/leaderboards) ([reference](https://wiki.gdevelop.io/gdevelop5/all-features/leaderboards/reference))
-* [Lights](https://wiki.gdevelop.io/gdevelop5/objects/light) ([reference](https://wiki.gdevelop.io/gdevelop5/all-features/lighting/reference))
+* [Lights](https://wiki.gdevelop.io/gdevelop5/all-features/lighting/reference)
 * [P2P](https://wiki.gdevelop.io/gdevelop5/all-features/p2p) ([reference](https://wiki.gdevelop.io/gdevelop5/all-features/p2p/reference))
 * [Physics Engine 2.0](https://wiki.gdevelop.io/gdevelop5/behaviors/physics2) ([reference](https://wiki.gdevelop.io/gdevelop5/all-features/physics2/reference))
 * [Player Authentication](https://wiki.gdevelop.io/gdevelop5/all-features/player-authentication) ([reference](https://wiki.gdevelop.io/gdevelop5/all-features/player-authentication/reference))
