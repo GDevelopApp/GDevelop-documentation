@@ -3,17 +3,17 @@ title: Shape painter
 ---
 # Shape painter
 
-A shape painter object allows us to draw shapes in our game. It can be useful for making simple User Interface (UI) elements. The Shape Painter can even be used to create a selection box.
+The shape painter object allows us to draw shapes in our game. It can be useful for making simple User Interface (UI) elements, to create a selection box, indicator lines, and more.
 
 ## Setting up properties
 
-The shape painter has many properties allowing to define how the shapes will be drawn on screen:
+The shape painter object has many properties that allow us to define how the shapes will be drawn on screen:
 
 ![](/gdevelop5/objects/shape_painter/pasted/20230304-165718.png)
 
 ### Change the colour and opacity
 
-The Shape Painter properties allow to change the outline colour/color of the object, the fill colour/color of the object, the opacity of each colour/color, and the outline size of our object.
+The Shape Painter object properties allow us to change the outline colour/color of the object, the fill colour/color of the object, the opacity of each colour/color, and the outline size of our object.
 
 ### Draw relative to the object position
 
@@ -26,9 +26,9 @@ When the box is unticked/unchecked, the position 0 on the X and Y axis is going 
 
 ### Draw a shape using events
 
-After adding a Shape Painter on screen, if you run the preview you won't see anything. The Shape painter object is just an empty, invisible object that allow to display shapes drawn using events.
+After adding a Shape Painter object into the scene, you won't see anything if you run the preview. The Shape painter object is just an empty, invisible object that allows us to display shapes drawn using events.
 
-When you add an action in an event, select a Shape Painter object to display a list of shapes that can be drawn:
+When you add an action to an event, select a Shape Painter object to display a list of shapes that can be drawn:
 
 ![](/gdevelop5/objects/shape_painter/pasted/20230304-170143.png)
 
