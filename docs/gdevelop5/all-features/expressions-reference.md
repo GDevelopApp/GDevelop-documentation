@@ -571,6 +571,8 @@ Displays an image repeated over an area. [Read more explanations about it.](http
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.Opacity()` | Opacity ||
+| `Object.XOffset()` | Return the offset used on the X axis when displaying the image. ||
+| `Object.YOffset()` | Return the offset used on the Y axis when displaying the image. ||
 
 ---
 

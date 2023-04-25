@@ -53,6 +53,8 @@ Test the offset used on the Y axis when displaying the image.
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.Opacity()` | Opacity ||
+| `Object.XOffset()` | Return the offset used on the X axis when displaying the image. ||
+| `Object.YOffset()` | Return the offset used on the Y axis when displaying the image. ||
 
 ---
 *This page is an auto-generated reference page about the **Tiled Sprite Object** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
