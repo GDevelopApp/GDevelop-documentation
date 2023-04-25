@@ -33,7 +33,8 @@ An example of a texture that illuminates in a cone shape, like it can be done fo
 !!! tip
 
     For example a light texture can be used to make a headlight bulbs for a car or a flashlight that illuminate only in one direction.
-    Open the example below to see how custom shape for light are used.
+    Open the following example to see how light custom shapes can be used.
+
     
 
 
