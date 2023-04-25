@@ -10,7 +10,7 @@ The light object has several properties that can be customized, such as the colo
 
 By default, the light object's rays are cast around the light object and interact with the edges of other objects using the Light Obstacle behaviour.
 
-When the collision mask of an object using the Light Obstacle behaviour is changed, the light ray will support the collision mask.
+Light rays will take into account the custom collisions masks on the objects with the Light Obstacle behavior.
 
 ### Using the light texture
 
