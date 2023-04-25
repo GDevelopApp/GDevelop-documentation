@@ -77,7 +77,7 @@ In some games, you may want to pause the scene while the leaderboard is displaye
 
 ### Advanced: Set the name of the player for anonymous players
 
-For the player to type their name, you can use the [Text Input](/gdevelop5/objects/text_input) or [Text Entry](/gdevelop5/objects/text_entry) objects and then use the result to set the player name in the entry that will be sent to the leaderboard.
+For the player to type their name, you can use the [Text Input](/gdevelop5/objects/text_input) object and then use the result to set the player name in the entry that will be sent to the leaderboard.
 
 !!! note
 
