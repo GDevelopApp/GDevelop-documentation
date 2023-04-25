@@ -4,11 +4,11 @@ title: Video
 # Video
 
 A video object displays a video on the screen. It's perfect for cut-scenes in a game.
-Videos can be controlled using events: timing, state (play/paused), audio volume...
+Videos can be controlled using events: timing, state (play/paused), audio volume, etc.
 
 !!! warning
 
-    Video files can be very heavy, even for short videos, making your game longer to download and launch. Make sure to use a good compression and limit the length of the video as much as possible.
+    Video files can be very heavy, even for short videos, making your game take longer to download and launch. Make sure to use good compression and limit the length of the video as much as possible.
 
 !!! warning
 
@@ -105,9 +105,9 @@ You can also set the volume of a video using GDevelop. To compare the volume of 
 To set the volume of a video, use the `Set volume` condition. You can set it to any number between 0 to 100. The default volume is set to 100.
 
 
-## Examples
+## Example
 
-  * Video player: https://editor.gdevelop.io/?project=example://video-player
+[![](/gdevelop5/objects/video/pasted/Examples1VideoPlayer.png)](https://editor.gdevelop.io/?project=example://video-player)
 
 ## Reference
 
