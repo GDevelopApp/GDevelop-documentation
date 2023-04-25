@@ -21,7 +21,7 @@ Light rays will take into account the custom collisions masks on the objects wit
 The light texture property allows to create a custom shape for the light.
 
 
-An example of a texture that illuminates in a cone shape, like it can be done for a flashlight:
+For instance, a flashlight effect can be achieved by using a cone-shaped texture.
 
 <figure markdown>
   ![The light texture used in the object.](Cone_Light.png)
