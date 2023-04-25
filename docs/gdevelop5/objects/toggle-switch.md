@@ -33,4 +33,4 @@ Toggle switch states can be checked with the "Is checked" condition.
 
 ![](/gdevelop5/objects/toggle-switch-checked-condition.png)
 
-Sliders and toggle switches can be useful to make a settings panel. As the settings panel and the game may be in different scene, the value can be stored in a global variable to be able use it in the game scene.
+Sliders and toggle switches can be useful to make a settings panel. As the settings panel and the game may be in different scene, the value can be stored in a global variable to use it in other game scenes.
