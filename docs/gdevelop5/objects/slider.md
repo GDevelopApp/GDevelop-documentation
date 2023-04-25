@@ -3,7 +3,7 @@ title: Slider
 ---
 # Slider
 
-Sliders allow the player to change make a choice in a range. For example, this can be useful to change the music or sound effect volume, set the power of an attack, modify the speed of a car.
+Sliders allow the player to pick a value between a maximum and a minimum range. This can be useful to change the music or sound effect volume, set the power of an attack, modify the speed of a car.
 
 While sliders could be constructed manually using other objects, it's often simpler to use ready-to-use sliders available in the Asset Store.
 
@@ -21,15 +21,15 @@ The [Settings UI asset pack](https://gdevelop.io/asset-store/free/settings-ui-se
 
 ## Advanced: create a slider from scratch
 
-Sliders need 3 images for each part:
+Sliders need 3 images:
 
 - the thumb, that is dragged by user on the bar,
 - the filled part of the bar,
 - the background or frame of the bar,
 
-When the slider is made larger in the editor, the thumb keeps the same size. The default size of the thumb must be changed if necessary.
+When the slider is made larger in the editor, the thumb remains the same size. The default size of the thumb must be changed if necessary.
 
-When a slider is added on the scene, it takes the default size set for the slider background.
+When a slider is added into the scene, it takes the default size set for the slider background.
 
 !!! tip
 
@@ -39,8 +39,8 @@ When a slider is added on the scene, it takes the default size set for the slide
 
 A slider would be useless if the game can't react when its value is changed.
 
-Slider values can be read with the `Value()` expression. It's often useful to store this in a variable or use it to change the position of an object.
+Slider values can be read with the `Value()` expression. It's can be used to store this as a variable or use it to change a proprty of an object.
 
 ![](/gdevelop5/objects/slider-value-expression.png)
 
-Sliders and toggle switches can be useful to make a settings panel. As the settings panel and the game may be in different scene, the value can be stored in a global variable to be able use it in the game scene.
+Sliders and toggle switches can be useful to make a settings panel. As the settings panel and the game may be in different scene, the value can be stored in a global variable to use it in other game scenes.
