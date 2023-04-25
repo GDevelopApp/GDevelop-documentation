@@ -82,7 +82,6 @@ plugins:
             'gdevelop5/all-features/timers.md': 'gdevelop5/all-features/timers-and-time/index.md'
             'gdevelop5/objects/how-to-rotate-objects.md': 'gdevelop5/tutorials/how-to-rotate-objects.md'
             'gdevelop5/objects/admob.md': 'gdevelop5/all-features/admob/index.md'
-            'gdevelop5/objects/light.md': 'gdevelop5/all-features/lighting/reference.md'
             'gdevelop5/objects/base_object/events.md': 'gdevelop5/objects/index.md'
             'gdevelop5/objects/base_object/index.md': 'gdevelop5/objects/index.md'
             'gdevelop5/extensions/list.md': 'gdevelop5/extensions/index.md'

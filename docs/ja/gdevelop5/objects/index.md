@@ -21,7 +21,7 @@ GDevelop では、スクリーンに表示されるものは何であれ、_オ�
 - [シェイプペインター](/ja/gdevelop5/objects/shape_painter)
 - [テキスト入力](/ja/gdevelop5/objects/text_entry)
 - [BBテキスト](/ja/gdevelop5/objects/bbtext)
-- [ライト](/gdevelop5/all-features/lighting/reference#lights)
+- [ライト](/gdevelop5/objects/light)
 - [ビデオ](/ja/gdevelop5/objects/video)
 - [タイルマップ](/ja/gdevelop5/objects/tilemap)
 - [Bitmap Text](/gdevelop5/objects/bitmap_text)

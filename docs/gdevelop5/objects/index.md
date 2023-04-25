@@ -31,7 +31,7 @@ This section lists the different types of objects, each of which serves a unique
     - [Video](/gdevelop5/objects/video)
 - Make visual effects:
     - [Particles emitter](/gdevelop5/objects/particles_emitter)
-    - [Light](/gdevelop5/all-features/lighting/reference#lights)
+    - [Light](/gdevelop5/objects/light)
     - [Shape painter](/gdevelop5/objects/shape_painter)
 - Advanced effects or rendering:
     - [Tilemap](/gdevelop5/objects/tilemap)
