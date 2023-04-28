@@ -45,12 +45,12 @@ Compare the number of instances picked by the previous conditions (or actions).
 
 **Raycast**  
 Sends a ray from the given source position and angle, intersecting the closest object.  
-The instersected object will become the only one taken into account.
+The intersected object will become the only one taken into account.
 If the condition is inverted, the object to be intersected will be the farthest one within the ray radius.
 
 **Raycast to position**  
 Sends a ray from the given source position to the final point, intersecting the closest object.  
-The instersected object will become the only one taken into account.
+The intersected object will become the only one taken into account.
 If the condition is inverted, the object to be intersected will be the farthest one within the ray radius.
 
 **Number of object instances on the scene**  

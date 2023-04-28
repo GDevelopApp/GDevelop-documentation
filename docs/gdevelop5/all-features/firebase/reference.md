@@ -158,7 +158,7 @@ Updates a firestore document (variable).
 Updates a field of a firestore document.
 
 **Continuously run (watch) a query**  
-Runs a query continously, so that every time a new documents starts or stops matching the query, or a document that matches the query has been changed, the variables will be filled with the new results.
+Runs a query continuously, so that every time a new documents starts or stops matching the query, or a document that matches the query has been changed, the variables will be filled with the new results.
 
 **Write a document to firestore**  
 Writes a document (variable) to cloud firestore.
@@ -237,7 +237,7 @@ You should always use this before actions requiring authentications.
 | `Firebase::GetUserDisplayName()` | Gets the user display name. ||
 | `Firebase::GetUserEmail()` | Gets the user email address. ||
 | `Firebase::GetUserUID()` | Gets the user Unique IDentifier. Use that to link data to an user instead of the name or email. ||
-| `Firebase::ServerTimestamp()` | Set a field to the timstamp on the server when the request arrives there ||
+| `Firebase::ServerTimestamp()` | Set a field to the timestamp on the server when the request arrives there ||
 
 ---
 *This page is an auto-generated reference page about the **Firebase** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

@@ -14,7 +14,7 @@ Move objects left, up, right, and down (and, optionally, diagonally).
 Change the acceleration of the object
 
 **Diagonal movement**  
-Allow or restrict diagonal movemment
+Allow or restrict diagonal movement
 
 **Rotation offset**  
 Change the rotation offset applied when moving the object
