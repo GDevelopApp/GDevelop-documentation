@@ -103,14 +103,14 @@ You'll need two things!
 
 !!! tip
 
-    A good proposal will show that you understood at least the big principles and are able to dive more in the problem. Read also [this thread](https://forum.gdevelop-app.com/t/how-to-make-your-proposal/23400).
+    A good proposal will show that you understood at least the big principles and are able to dive more in the problem. Read also [this thread](https://forum.gdevelop.io/t/how-to-make-your-proposal/23400).
 
 
 ## Frequently Asked Questions
 
 ### Where can I talk with others about GSoC? What are the communication channels?
 
-Check out the forum [section about GSoC](https://forum.gdevelop-app.com/c/community/gsoc-2020). You can send us an email but all the information should already be there. You can also talk to the GDevelop community members on the [Discord](https://discord.gg/rjdYHvj) GSoC dedicated channel.
+Check out the forum [section about GSoC](https://forum.gdevelop.io/c/community/gsoc-2020). You can send us an email but all the information should already be there. You can also talk to the GDevelop community members on the [Discord](https://discord.gg/rjdYHvj) GSoC dedicated channel.
 
 For contributor(s) that will work on GDevelop during GSoC, we'll have regular catch-up by email, using GitHub and sometimes by video call.
 
@@ -124,6 +124,6 @@ Yes, it's a good idea, if you participated or contributed already to GDevelop, t
 
 ## More links
 
-- Forum [section about GSoC](https://forum.gdevelop-app.com/c/community/gsoc-2020)
+- Forum [section about GSoC](https://forum.gdevelop.io/c/community/gsoc-2020)
 - [GDevelop GitHub repository](https://github.com/4ian/GDevelop)
 - [Good First Issues](https://github.com/4ian/GDevelop/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%91%8Cgood+first+issue%22), to start coding with GDevelop.

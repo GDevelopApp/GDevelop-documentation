@@ -15,7 +15,7 @@ You can see the latest version [here](https://github.com/4ian/GDevelop/releases)
 
     If you are on a version older than beta98, you might have to reinstall GDevelop as it might not update
 
-Also, check if the bug/crash was already reported on the [official forum](https://forum.gdevelop-app.com/). If it was already reported, reply to the thread/report and you can help out by giving more info.
+Also, check if the bug/crash was already reported on the [official forum](https://forum.gdevelop.io). If it was already reported, reply to the thread/report and you can help out by giving more info.
 
 !!! warning
 
@@ -131,15 +131,15 @@ Steps to reproduce the behavior:
 
 ## Where to report a bug?
 
-A bug can be reported on the [official forum](https://forum.gdevelop-app.com/) or on [GDevelop's Github repo as an issue](https://github.com/4ian/GDevelop/issues).
+A bug can be reported on the [official forum](https://forum.gdevelop.io) or on [GDevelop's Github repo as an issue](https://github.com/4ian/GDevelop/issues).
 
 !!! tip
 
-    Reporting a bug in the [official forum](https://forum.gdevelop-app.com/) is recommended over github
+    Reporting a bug in the [official forum](https://forum.gdevelop.io) is recommended over github
 
 ### Reporting a bug on the Forum
 
-The first and foremost option you should chose to report a bug is on the [official forum](https://forum.gdevelop-app.com/).
+The first and foremost option you should chose to report a bug is on the [official forum](https://forum.gdevelop.io).
 
 - Go to the forum, click on** + New Topic**
 

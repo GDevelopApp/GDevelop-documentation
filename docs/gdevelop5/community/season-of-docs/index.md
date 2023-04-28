@@ -76,7 +76,7 @@ GDevelop repository is available on **[GitHub](https://github.com/4ian/GDevelop)
 
 📣 Participation in Season of Docs 2019 was announced on [Twitter](https://twitter.com/GDevelopApp/status/1260181527280975873) (2019 edition too on [Twitter](https://twitter.com/GDevelopApp/status/1120410655675359234) and [Facebook](https://www.facebook.com/GDevelopApp/posts/10157106427160768)).
 
-👋 Mentors will be [4ian](https://github.com/4ian), [Bouh](https://github.com/Bouh) and [Blurymind](https://github.com/blurymind). 4ian is the original author of GDevelop and Bouh and Blurymind are active contributors to the software. You'll also get support from other members of the community on the [forum](https://forum.gdevelop-app.com) or [the Discord](https://discord.gg/rjdYHvj)!
+👋 Mentors will be [4ian](https://github.com/4ian), [Bouh](https://github.com/Bouh) and [Blurymind](https://github.com/blurymind). 4ian is the original author of GDevelop and Bouh and Blurymind are active contributors to the software. You'll also get support from other members of the community on the [forum](https://forum.gdevelop.io) or [the Discord](https://discord.gg/rjdYHvj)!
 
 ## I'm interested! How do we get started?
 

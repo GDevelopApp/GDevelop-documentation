@@ -25,7 +25,7 @@ We have written various *guides* that allow everyone to improve and submit quali
 
 Follow us and find a fantastic community everywhere on our communities and social media accounts.
 
-* [Community forum](http://forum.gdevelop-app.com/)
+* [Community forum](http://forum.gdevelop.io)
 * [Discord chat](https://discord.gg/rjdYHvj)
 * [Twitter](http://twitter.com/gdevelopapp)
 * [Reddit](https://www.reddit.com/r/gdevelop/)
