@@ -61,7 +61,7 @@ Ads should now be able to be shown.
 
 !!! danger
 
-    It can take atleast few hours (~h24) or days for ads to show the first time. If ads are not showing, double check that you've entered all the necessary information in this page and that you properly configured your game (see next section).
+    It can take at least few hours (~h24) or days for ads to show the first time. If ads are not showing, double check that you've entered all the necessary information in this page and that you properly configured your game (see next section).
 
 !!! danger
 

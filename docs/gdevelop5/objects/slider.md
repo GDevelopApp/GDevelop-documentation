@@ -39,7 +39,7 @@ When a slider is added into the scene, it takes the default size set for the sli
 
 A slider would be useless if the game can't react when its value is changed.
 
-Slider values can be read with the `Value()` expression. It's can be used to store this as a variable or use it to change a proprty of an object.
+Slider values can be read with the `Value()` expression. It's can be used to store this as a variable or use it to change a property of an object.
 
 ![](/gdevelop5/objects/slider-value-expression.png)
 

@@ -135,7 +135,7 @@ The GDevelop assets store is not magic: the assets need to be added by community
 
 #### Description
 
-GDevelop has multiple groups for the community to talk and share about GDevelop, but big groups like those always come with some dangers: they will be targetted by spam and scam bots, trolls will come and hurt the community, conflicts may arise between community members, etc. Moderators check the conversations on the group to keep it a nice and cool place, by calming down heated discussions and removing troublemakers/bots from the group if necessary.
+GDevelop has multiple groups for the community to talk and share about GDevelop, but big groups like those always come with some dangers: they will be targeted by spam and scam bots, trolls will come and hurt the community, conflicts may arise between community members, etc. Moderators check the conversations on the group to keep it a nice and cool place, by calming down heated discussions and removing troublemakers/bots from the group if necessary.
 
 #### Requirements for contributing/joining
 

@@ -27,7 +27,7 @@ With the object's properties window open, you can add an image to the object by 
 
 ####  Change default size
 
-We can change the default size of the tiled sprite object by changing the Default width and Default height value in the object's proprties window. This size will determine the size, in pixels, that the object will appear in game when placed.
+We can change the default size of the tiled sprite object by changing the Default width and Default height value in the object's properties window. This size will determine the size, in pixels, that the object will appear in game when placed.
 
 This will not scale or alter the original image in any way, just the default size of the object when it's placed in to the scene. This size should be the height and width of the image used in pixels.
 

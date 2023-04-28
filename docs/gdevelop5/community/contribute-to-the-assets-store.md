@@ -6,7 +6,7 @@ title: Contributing to the assets store
 You can contribute to GDevelop's Assets Store with royalty free/public domain resources that can be used by everyone for any kind of project, or submit your own game art.
 Assets have to be submitted into category and sub-category folders. Images, audio and fonts should be named in plain English as the final user will read them.
 
-GDevelop creators can add assets to the project without having to worry about editing. This means that submitted art, has to follow a number of technical contraints:
+GDevelop creators can add assets to the project without having to worry about editing. This means that submitted art, has to follow a number of technical constraints:
 
 
 ## For images (animated sprites, tiled sprites or GUI):

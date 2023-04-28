@@ -3,7 +3,7 @@ title: Text
 ---
 # Text
 
-Text objects are used to display text on screen. You can customize the proprties of a text object (for example, font size or colour) when you create the object. You can also modify the properties of a text object during gameplay using events.
+Text objects are used to display text on screen. You can customize the properties of a text object (for example, font size or colour) when you create the object. You can also modify the properties of a text object during gameplay using events.
 
 ![](/gdevelop5/objects/TextObjectProperties.png)
 

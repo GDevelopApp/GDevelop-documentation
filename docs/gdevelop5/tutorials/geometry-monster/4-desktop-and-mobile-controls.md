@@ -119,7 +119,7 @@ In the top right menu, click on the first item - "Launch a preview of the scene"
 
 ![](/gdevelop5/tutorials/geometry-monster/56.png)
 
-It worked - the preview of Gemoetry Monster game is launched, and you can already control the main character!
+It worked - the preview of Geometry Monster game is launched, and you can already control the main character!
 
 Now when we have desktop controls (moving Monster with the keyboard), it would be great to add mouse and touch support too. The game will be easier to play with the mouse, and it will also be playable on mobile.
 

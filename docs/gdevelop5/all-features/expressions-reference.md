@@ -485,10 +485,10 @@ Provides expressions to manipulate strings (also called texts).
 | | _string_ | Text |
 | | _string_ | Text to search for |
 | | _number_ | Position of the first character in the string to be considered in the search |
-| `StrFindLast(string, string)` | Search the last occurence in a string (return the position of the result, from the beginning of the string, or -1 if not found) ||
+| `StrFindLast(string, string)` | Search the last occurrence in a string (return the position of the result, from the beginning of the string, or -1 if not found) ||
 | | _string_ | Text |
 | | _string_ | Text to search for |
-| `StrFindLastFrom(string, string, number)` | Search in a text the last occurence, starting from a position (return  the position of the result, from the beginning of the string, or -1 if not found) ||
+| `StrFindLastFrom(string, string, number)` | Search in a text the last occurrence, starting from a position (return  the position of the result, from the beginning of the string, or -1 if not found) ||
 | | _string_ | Text |
 | | _string_ | Text to search for |
 | | _number_ | Position of the last character in the string to be considered in the search |
@@ -961,7 +961,7 @@ Use Google Firebase services (database, functions, storage...) in your game. [Re
 | Expression | Description |  |
 |-----|-----|-----|
 | `Firebase::GetAccountCreationTime()` | Gets the accounts creation time. ||
-| `Firebase::GetAuthToken(string)` | Get the user authentififcation token. The token is the proof of authentication. ||
+| `Firebase::GetAuthToken(string)` | Get the user authentication token. The token is the proof of authentication. ||
 | | _string_ | Setting Name |
 | `Firebase::GetLastLoginTime()` | Gets the user last login time. ||
 | `Firebase::GetPhoneNumber()` | Gets the user phone number. ||
@@ -975,7 +975,7 @@ Use Google Firebase services (database, functions, storage...) in your game. [Re
 | `Firebase::GetUserDisplayName()` | Gets the user display name. ||
 | `Firebase::GetUserEmail()` | Gets the user email address. ||
 | `Firebase::GetUserUID()` | Gets the user Unique IDentifier. Use that to link data to an user instead of the name or email. ||
-| `Firebase::ServerTimestamp()` | Set a field to the timstamp on the server when the request arrives there ||
+| `Firebase::ServerTimestamp()` | Set a field to the timestamp on the server when the request arrives there ||
 
 ---
 
