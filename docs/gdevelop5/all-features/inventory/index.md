@@ -51,4 +51,4 @@ When your inventory is saved to a variable, you can then save this variable usin
 
 ## Reference
 
-All actions, conditions and expressions are listed in [the iventory reference page](/gdevelop5/all-features/inventory/reference/).
+All actions, conditions and expressions are listed in [the inventory reference page](/gdevelop5/all-features/inventory/reference/).
