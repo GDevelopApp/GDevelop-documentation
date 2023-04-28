@@ -15,7 +15,7 @@ Search through the examples list in GDevelop (**Create a new project** → **Exa
 
 ## Discussing with the community
 
-You can discuss with the GDevelop community on [Discord](https://discord.com/invite/rjdYHvj) or open a new thread on the [GDevelop forum](https://forum.gdevelop-app.com/) on how the example can be improved or if you have any doubts before starting something.
+You can discuss with the GDevelop community on [Discord](https://discord.com/invite/rjdYHvj) or open a new thread on the [GDevelop forum](https://forum.gdevelop.io) on how the example can be improved or if you have any doubts before starting something.
 
 ## License
 

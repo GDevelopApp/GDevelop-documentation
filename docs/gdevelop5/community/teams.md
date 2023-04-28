@@ -82,8 +82,8 @@ GDevelop has a lot of downloadable semi-official extensions made with events. Th
 
 #### 🚩 Team leaders
 
- - [arthuro555](https://forum.gdevelop-app.com/u/arthuro555/summary)
- - [Tristan](https://forum.gdevelop-app.com/u/tristanrhodes/summary)
+ - [arthuro555](https://forum.gdevelop.io/u/arthuro555/summary)
+ - [Tristan](https://forum.gdevelop.io/u/tristanrhodes/summary)
 
 #### 👥 Team members
 
@@ -145,7 +145,7 @@ GDevelop has multiple groups for the community to talk and share about GDevelop,
 
 #### Team leaders
 
- - [Silver-Streak](https://forum.gdevelop-app.com/u/silverstreak/summary)
+ - [Silver-Streak](https://forum.gdevelop.io/u/silver-streak/summary)
 
 #### Team members
 
@@ -175,7 +175,7 @@ This team is about making and maintaining examples for GDevelop.
 
 #### Team leaders
 
- - [Leo red](https://forum.gdevelop-app.com/u/Midhil/summary)
+ - [Leo red](https://forum.gdevelop.io/u/Midhil/summary)
 
 #### Team members
 
