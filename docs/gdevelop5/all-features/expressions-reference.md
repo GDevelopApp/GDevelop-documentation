@@ -961,7 +961,7 @@ Use Google Firebase services (database, functions, storage...) in your game. [Re
 | Expression | Description |  |
 |-----|-----|-----|
 | `Firebase::GetAccountCreationTime()` | Gets the accounts creation time. ||
-| `Firebase::GetAuthToken(string)` | Get the user authentication token. The token is the proof of authentication. ||
+| `Firebase::GetAuthToken(string)` | Get the user authentififcation token. The token is the proof of authentication. ||
 | | _string_ | Setting Name |
 | `Firebase::GetLastLoginTime()` | Gets the user last login time. ||
 | `Firebase::GetPhoneNumber()` | Gets the user phone number. ||
