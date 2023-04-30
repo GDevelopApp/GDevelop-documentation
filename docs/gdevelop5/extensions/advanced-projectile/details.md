@@ -6,15 +6,34 @@ title: Details
 Control how a projectile moves including speed, acceleration, distance, and lifetime.
 
 ## Simulate a rocket
+
 A rocket can be simulated with:
-- a starting speed of 0
-- a positive acceleration
+
+- Starting speed of 0
+- Positive acceleration
 
 !!! tip
-   A max speed may also be defined to avoid the projectile to go too fast.
-- To simulate a hand grenade, use a high starting speed, a negative acceleration, and a non-zero lifetime
-- If the object is not moving, acceleration will be towards the direction it is facing
-- If the object is moving, acceleration will be in the direction the object is moving
+
+   Max speed may also be defined to prevent the projectile from going too fast.
+
+## Simulate a thrown weapon
+
+A thrown weapon, such as a hand grenade, can be simulated with:
+
+- High starting speed
+- Negative acceleration (object will slow down and stop)
+- Non-zero lifetime (object will be automatically deleted)
+
+## Direction of acceleration
+
+If the object is not moving:
+
+- Acceleration will be towards the direction (angle) it is facing.
+
+If the object is moving:
+
+- Acceleration will be in the direction the object is moving. 
+- This enables projectiles to keep moving even if they are not rotated in the direction of movement
 
 !!! tip
 
@@ -22,8 +41,12 @@ A rocket can be simulated with:
 
 **Game example**
 
+Try out this extension in a game example:
+
 [Open in GDevelop](https://editor.gdevelop.io/?project=example://advanced-projectile){ .md-button .md-button--primary }
 
 **Tutorial video**
+
+Watch how this extension works and learn how to use it in your own game.
 
 ![type:video](https://www.youtube.com/embed/5S0TG-Yf_b0)
