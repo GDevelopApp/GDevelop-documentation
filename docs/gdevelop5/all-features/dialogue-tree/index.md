@@ -5,8 +5,11 @@ title: The Dialogue Tree extension
 
 !!! tip
 
-        **See it in action!** 🎮
-    [I would rather see the Dialogue Tree example! Please take me there now.](/#Examples)
+    **Try out these game examples!** 🎮
+    
+    - [Dialogue tree simple demo](https://editor.gdevelop.io/?project=https://resources.gdevelop-app.com/examples/dialogue-tree-simple-demo/dialogue-tree-simple-demo.json)
+    - [Dialogue tree with yarn online](https://editor.gdevelop.io/?project=https://resources.gdevelop-app.com/examples/dialogue-tree-with-yarn/dialogue-tree-with-yarn.json)
+    - [Yarnalia game](https://editor.gdevelop.io/?project=https://resources.gdevelop-app.com/examples/dialogue-tree-simple-demo/dialogue-tree-simple-demo.json)
 
 
 The Dialogue Tree extension can be used to quickly create a dynamic dialogue tree behaviour. It comes with actions, conditions and expressions that make it extremely easy to set such a system with text scrolling, animated avatars and conditional dialogues. The example demo project does that in only 16 events.
