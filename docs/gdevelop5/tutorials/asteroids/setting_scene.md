@@ -23,7 +23,7 @@ Condition:
 
 Action:
 - "Camera center X position" with modification sign "= (set to)" and the value 0.  (Leave layer and camera number as they are)
-- "Camera center Y position" with modifaction sign "= (set to)" and the value 0.  (Leave layer and camera number as they are)
+- "Camera center Y position" with modification sign "= (set to)" and the value 0.  (Leave layer and camera number as they are)
 - "Change camera zoom" with a value of 0.5. (Leave layer and camera number as they are)
 
 ![](/gdevelop5/tutorials/asteroids/camera_settings/pasted/20220119-172243.png)

@@ -71,7 +71,7 @@ For example:
 
 ```
 
-#### What you were doing when the issue occured
+#### What you were doing when the issue occurred
 
 If it was a crash, you will have to describe what you were doing when it happened.
 

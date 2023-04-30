@@ -96,7 +96,7 @@ The project was divided into broadly three phases:
 
 3. [PR: GDevelop#1938](https://github.com/4ian/GDevelop/pull/1938): **Customizable keyboard shortcuts**
 
-  Finally, I worked on adding support for customizable keyboard shortcuts. Since the command system was completely ready, this phase was quite straighforward, with only a few hitches regarding single-key shortcuts and Electron.
+  Finally, I worked on adding support for customizable keyboard shortcuts. Since the command system was completely ready, this phase was quite straightforward, with only a few hitches regarding single-key shortcuts and Electron.
 
 There was also a [minor PR](https://github.com/4ian/GDevelop/pull/1896) for adding a command and fixing some existing ones.
 

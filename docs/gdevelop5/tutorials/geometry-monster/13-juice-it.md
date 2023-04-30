@@ -57,7 +57,7 @@ Scroll down to enter more values. Be sure to select "Delete when out of particle
 
 ![](/gdevelop5/tutorials/geometry-monster/303.png)
 
-Scroll down even more. Set the gravity on particles on both X and Y axes to `0` (we don't need gravity in our game), friction on particles to `2`, particle minimum lifetime to `0,5` seconds and the maximum one to `1,5` seconds, particle start size to `100` and end size to `80` (so they get a little smaller after they are spawned), minimum rotation speed to `0` and maximum to `40` degrees per second (so some of them can rorate a bit).
+Scroll down even more. Set the gravity on particles on both X and Y axes to `0` (we don't need gravity in our game), friction on particles to `2`, particle minimum lifetime to `0,5` seconds and the maximum one to `1,5` seconds, particle start size to `100` and end size to `80` (so they get a little smaller after they are spawned), minimum rotation speed to `0` and maximum to `40` degrees per second (so some of them can rotate a bit).
 
 Confirm all that by clicking "Apply".
 
@@ -67,7 +67,7 @@ Repeat the steps for the other three shapes: geometry2, geometry3, and geometry4
 
 ![](/gdevelop5/tutorials/geometry-monster/305.png)
 
-Create the sub-comment for spawning the partcles, and then add a new condition.
+Create the sub-comment for spawning the particles, and then add a new condition.
 
 ![20220603-221000.png](/gdevelop5/tutorials/geometry-monster/13-juice-it/pasted/20220603-221000.png)
 

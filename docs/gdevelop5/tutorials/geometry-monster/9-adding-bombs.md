@@ -63,7 +63,7 @@ We'll make sure the bomb is in front of the shapes, and not behind them - to do 
 
 ![](/gdevelop5/tutorials/geometry-monster/135.png)
 
-Launch the game and see the shapes falling down the screen, with bombs appearing once every few shapes and falling independently. Colleting shapes give you points, while bombs do nothing yet.
+Launch the game and see the shapes falling down the screen, with bombs appearing once every few shapes and falling independently. Collecting shapes give you points, while bombs do nothing yet.
 
 Bombs are challenging, so let's make the gameplay a little bit easier by introducing [lives](/gdevelop5/tutorials/geometry-monster/10-more-lives).
 

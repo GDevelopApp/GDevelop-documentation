@@ -76,7 +76,7 @@ Next a set of actions should be set up to allow testing tile generation.
     - Search for **Scene Variable**.
     - Select **Value of a scene variable**.
     - Within the **Variable** field, type **y**.
-    - Within the **Modificaiton's sign** field, select **+**.
+    - Within the **Modification's sign** field, select **+**.
     - Within the **Value** field, type **1**.
     - Click **OK**
 
@@ -234,7 +234,7 @@ In order to visually see the noise values, the opacity of the tile must be chang
 Run the program. ![](/gdevelop5/tutorials/procedural-generation/step18.jpg)
 
 - Assume the lighter a square is the lower its is and the darker it is the higher it is.
-- Notice how each square does not smoothly transition to its neighbouring tiles.
+- Notice how each square does not smoothly transition to its neighboring tiles.
 - This is because random values are generated without consideration for the values generated before or the value that will be generated after.
 - This is why noise must be used instead of random.
 

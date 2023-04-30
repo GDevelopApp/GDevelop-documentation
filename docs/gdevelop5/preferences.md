@@ -55,7 +55,7 @@ Example of an hint/explanation:
 
 There is a separate page discussing about keyboard shortcuts and the command palette
 
-See, [command pallete and shortcuts](/gdevelop5/interface/command-pallete-and-shortcuts)
+See, [command palette and shortcuts](/gdevelop5/interface/command-palette-and-shortcuts)
 
 ## Changing Language
 

@@ -112,7 +112,7 @@ To do that, add one more condition to our event: this time check if the player i
 
 Now, if we run a preview, our slime should be deleted when the player jumps on the Slime.
 
-It is still not perfect as the player falls on the slime and the slime disappears without the player boucing.
+It is still not perfect as the player falls on the slime and the slime disappears without the player bouncing.
 
 To do that, add one more action to the event. Choose this time the action called "Allow again jumping" (for the "Player" object). Then add another action called "Simulate jump key press action" to make it jump (this will look like the player is bouncing). You can find both actions in the "Platformer behavior" category.
 

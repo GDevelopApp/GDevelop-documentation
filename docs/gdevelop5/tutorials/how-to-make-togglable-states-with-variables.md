@@ -3,7 +3,7 @@ title: How to toggle states using Variables
 ---
 # How to toggle states using Variables
 
-Sometimes you need to toggle a state, for example a door can be opened or closed, a lever activated or deativated, etc. To make one, the best way is often to use a [variable](/gdevelop5/all-features/variables). Let's see how to do that with a checkbox. First you need to think of how many states you need, in this case, two: One for when the checkbox is toggled and when it is not.
+Sometimes you need to toggle a state, for example a door can be opened or closed, a lever activated or deactivated, etc. To make one, the best way is often to use a [variable](/gdevelop5/all-features/variables). Let's see how to do that with a checkbox. First you need to think of how many states you need, in this case, two: One for when the checkbox is toggled and when it is not.
 
 ## 1. Add a main trigger
 
