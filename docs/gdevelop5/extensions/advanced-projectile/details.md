@@ -5,9 +5,13 @@ title: Details
 
 Control how a projectile moves including speed, acceleration, distance, and lifetime.
 
-Tips:
+## Simulate a rocket
+A rocket can be simulated with:
+- a starting speed of 0
+- a positive acceleration
 
-- To simulate a rocket, use a starting speed of 0 and a positive acceleration (max speed may also be used)
+!!! tip
+   A max speed may also be defined to avoid the projectile to go too fast.
 - To simulate a hand grenade, use a high starting speed, a negative acceleration, and a non-zero lifetime
 - If the object is not moving, acceleration will be towards the direction it is facing
 - If the object is moving, acceleration will be in the direction the object is moving
