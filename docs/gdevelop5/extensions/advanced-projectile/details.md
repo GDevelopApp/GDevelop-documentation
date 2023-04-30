@@ -14,7 +14,7 @@ A rocket can be simulated with:
 
 !!! tip
 
-   Max speed may also be defined to prevent the projectile from going too fast.
+    Max speed may also be defined to prevent the projectile from going too fast.
 
 ## Simulate a thrown weapon
 
@@ -39,13 +39,13 @@ If the object is moving:
 
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
-**Game example**
+## Game example
 
 Try out this extension in a game example:
 
 [Open in GDevelop](https://editor.gdevelop.io/?project=example://advanced-projectile){ .md-button .md-button--primary }
 
-**Tutorial video**
+## Tutorial video
 
 Watch how this extension works and learn how to use it in your own game.
 
