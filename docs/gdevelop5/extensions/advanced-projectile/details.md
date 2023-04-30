@@ -16,10 +16,10 @@ Tips:
 
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
-**Advanced Projectile example**
+**Game example**
 
 [Open in GDevelop](https://editor.gdevelop.io/?project=example://advanced-projectile){ .md-button .md-button--primary }
 
-**Advanced Projectile tutorial video**
+**Tutorial video**
 
-[Open in Youtube](https://www.youtube.com/watch?v=5S0TG-Yf_b0){ .md-button .md-button--primary }
+![type:video](https://www.youtube.com/embed/5S0TG-Yf_b0)
