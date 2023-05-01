@@ -5,6 +5,22 @@ title: Details
 
 Control how a projectile moves including speed, acceleration, distance, and lifetime.
 
+!!! tip
+
+    Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Tutorial video
+
+Watch how this extension works and learn how to use it in your own game.
+
+![type:video](https://www.youtube.com/embed/5S0TG-Yf_b0)
+
+## Game example
+
+Try out this extension in a game example:
+
+[Open in GDevelop](https://editor.gdevelop.io/?project=example://advanced-projectile){ .md-button .md-button--primary }
+
 ## Simulate a rocket
 
 A rocket can be simulated with:
@@ -24,29 +40,11 @@ A thrown weapon, such as a hand grenade, can be simulated with:
 - Negative acceleration (object will slow down and stop)
 - Non-zero lifetime (object will be automatically deleted)
 
-## Direction of acceleration
+## Control direction of movement
 
-If the object is not moving:
+There are 2 ways to set the direction a projectile will move:
 
-- Acceleration will be towards the direction (angle) it is facing.
+- When the projectile is not moving, it will accelerate towards the direction (angle) it is facing.
+- When the projectile is moving, it will accelerate in the direction it is moving (according to forces). 
 
-If the object is moving:
-
-- Acceleration will be in the direction the object is moving. 
-- This enables projectiles to keep moving even if they are not rotated in the direction of movement
-
-!!! tip
-
-    Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
-
-## Game example
-
-Try out this extension in a game example:
-
-[Open in GDevelop](https://editor.gdevelop.io/?project=example://advanced-projectile){ .md-button .md-button--primary }
-
-## Tutorial video
-
-Watch how this extension works and learn how to use it in your own game.
-
-![type:video](https://www.youtube.com/embed/5S0TG-Yf_b0)
+This enables projectiles to move correctly, even if they are not rotated toward the direction of movement.
