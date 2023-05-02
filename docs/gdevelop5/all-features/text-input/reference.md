@@ -10,6 +10,9 @@ A text field the player can type text into.
 
 ### Object actions
 
+**Focus**  
+Focus the input so that text can be entered (like if it was touched/clicked).
+
 **Border color**  
 Set the border color of the object.
 
