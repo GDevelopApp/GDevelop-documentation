@@ -3,7 +3,7 @@ title: Multitouch Joystick
 ---
 # Multitouch Joystick
 
-Virtual joysticks are often used in mobile games to allow the player to control a character, spaceship or vehicle. It acts as a real "analog" joystick where the thumb of the player, or another finger, moves the joystick on the screen. The mouse cursor can also be used to move a joystick. When the joystick is depressed, it comes back to its initial position.
+Virtual joysticks are used in mobile games to give players similar controls than real gamepads.
 
 While a virtual joystick could be created manually with a mix of objects and events, it's often simpler to use a virtual joystick offered in the Asset Store. They also come with behaviors that allow developers to easily move an object with it.
 
