@@ -6,7 +6,7 @@ hide:
 
 # GDevelop 5
 
-GDevelop is a free, open-source, and cross-platform game creation tool that anyone can use to create games *without* programming skills. This wiki contains everything you need to know to create games with GDevelop — even if you've never created a game before.
+GDevelop is a free, open-source, and cross-platform game creation tool that anyone can use to create games *without* programming skills. This documentation contains everything you need to know to create games with GDevelop — even if you've never created a game before.
 
 ![](/gdevelop5/start/pasted/20230304-181105.png)
 

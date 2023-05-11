@@ -1,7 +1,7 @@
 site_name: GDevelop documentation
 repo_url: https://github.com/GDevelopApp/GDevelop-documentation
 edit_uri: edit/main/docs/
-copyright: "GDevelop is a full-featured, no-code, open-source game engine. Except where otherwise noted, content on this wiki is licensed under the following license: CC Attribution-Share Alike 4.0 International"
+copyright: "GDevelop is a full-featured, no-code, open-source game engine. Except where otherwise noted, content on this documentation is licensed under the following license: CC Attribution-Share Alike 4.0 International"
 theme:
   logo: assets/logo.svg
   features:
