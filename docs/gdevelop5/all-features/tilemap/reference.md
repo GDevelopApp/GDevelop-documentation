@@ -80,7 +80,7 @@ Set the layer index of the Tilemap.
 Set the Tiled or LDtk file containing the Tilemap data to display. This is usually the main file exported from Tiled/LDtk.
 
 **Tileset JSON file**  
-Set the JSON file with the tileset data (sometimes that is embeded in the Tilemap, so not needed)
+Set the JSON file with the tileset data (sometimes that is embedded in the Tilemap, so not needed)
 
 **Scale on X axis**  
 Change the width's scale of an object.

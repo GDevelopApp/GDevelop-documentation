@@ -17,7 +17,7 @@ Triggers an Event/Conversion for the current user on the Analytics.Can also pass
 Sets an user's properties.Can be used to classify user in Analytics.
 
 **Change user UID**  
-Changes the current user's analytics identifier. This is what let Analytics differienciate user, so it should always be unique for each user. For advanced usage only.
+Changes the current user's analytics identifier. This is what let Analytics differentiate user, so it should always be unique for each user. For advanced usage only.
 
 **Sign In as an anonymous guest**  
 Sign into a temporary anonymous account.
@@ -191,8 +191,8 @@ Sets the user display name.
 **Set the user profile picture**  
 Sets the user profile picture URL to a new one.
 
-**Set Remote Config Auto Update Inteval**  
-Sets Remote Config Auto Update Inteval.
+**Set Remote Config Auto Update Interval**  
+Sets Remote Config Auto Update Interval.
 
 **Set the default configuration**  
 As the Remote Config is stored online, you need to set default values or the Remote Config expressions to return while there is no internet or the config is still loading.
@@ -223,7 +223,7 @@ You should always use this before actions requiring authentications.
 | Expression | Description |  |
 |-----|-----|-----|
 | `Firebase::GetAccountCreationTime()` | Gets the accounts creation time. ||
-| `Firebase::GetAuthToken(string)` | Get the user authentififcation token. The token is the proof of authentication. ||
+| `Firebase::GetAuthToken(string)` | Get the user authentication token. The token is the proof of authentication. ||
 | | _string_ | Setting Name |
 | `Firebase::GetLastLoginTime()` | Gets the user last login time. ||
 | `Firebase::GetPhoneNumber()` | Gets the user phone number. ||
