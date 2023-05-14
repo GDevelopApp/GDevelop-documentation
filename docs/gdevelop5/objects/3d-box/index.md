@@ -9,7 +9,14 @@ If you need to show more detail 3D objects, check the [3D model object](../3d-mo
 
 !!! note
 
-    This object is new and subject to changes. Check the release notes when GDevelop is updated and read regularly this page to ensure you follow the best practices when using 3D models in your game.
+    This object is new and subject to changes. Check the release notes when GDevelop is updated and read regularly this page to ensure you follow the best practices when using 3D boxes in your game.
+
+    Notably, this object does not support yet:
+
+    - Animations for each face
+    - Lights
+
+    Your help to [expose these features in the GDevelop game engine is welcome](https://github.com/4ian/GDevelop).
 
 ## About transparency
 
