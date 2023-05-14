@@ -5,13 +5,15 @@ title: 3D model
 
 A 3D model displays an object modeled in a 3D modeling software. Like a [sprite for 2D games](../sprite.md) (or for interfaces in 3D games), it's a very common object that can be used for players, enemies, backgrounds, projectiles.
 
+If you need to create walls, plane grounds or other rectangular/cubic 3D objects, consider using the [3D box object](../3d-box).
+
 !!! note
 
     This object is new and subject to changes. Check the release notes when GDevelop is updated and read regularly this page to ensure you follow the best practices when using 3D models in your game.
 
 ## File format
 
-GDevelop supports 3D models saved in the **GLB (.glb) format**. It is a standardized file format used to share 3D data.
+GDevelop supports 3D models saved in the **GLB (.glb) format** (also called **GLTF**). It is a standardized file format used to share 3D data.
 
 ## Performance considerations
 
@@ -24,7 +26,7 @@ Large 3D models can impact your game as they will have:
 !!! tip
 
     We recommend you start building a game using *"low-poly"* 3D models.
-    
+
 ## How to find or create 3D models?
 
 !!! tip
