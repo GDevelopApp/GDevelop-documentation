@@ -20,7 +20,7 @@ If you need to create walls, plane grounds or other rectangular/cubic 3D objects
 
 ## File format
 
-GDevelop supports 3D models saved in the **GLB (.glb) format** (also called **GLTF**). It is a standardized file format used to share 3D data.
+GDevelop supports 3D models saved in the **GLB (.glb) format**. It is a standardized file format used to share 3D data. Notably, it includes the 3D mesh of the object, as well as its textures or material specifications. This format is also sometimes called **GLTF**, for "GL Transmission Format". You can sometimes find .gltf files, but only the **.glb** files are supported by GDevelop, as they can embed the textures whereas .gltf files can't do this.
 
 ## Performance considerations
 
