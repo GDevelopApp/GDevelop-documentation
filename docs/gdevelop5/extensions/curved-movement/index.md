@@ -29,6 +29,8 @@ This extension can be used to:
 
 A collection of [small examples](https://editor.gdevelop.io/?project=example://curved-movement) show how to use this extension.
 
+[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/curved-movement/details/)
+
 ---
 
 !!! tip
