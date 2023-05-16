@@ -9,14 +9,14 @@ If you need to create walls, plane grounds or other rectangular/cubic 3D objects
 
 !!! note
 
-    This object is new and subject to changes. Check the release notes when GDevelop is updated and read regularly this page to ensure you follow the best practices when using 3D models in your game.
+    This object is new and subject to changes. Check the release notes when GDevelop is updated and regularly read this page to ensure you follow the best practices when using 3D models in your game.
 
-    Notably, this object does not support yet:
+    Notably, this object does not yet support:
 
     - Animations
     - Lights
 
-    Your help to [expose these features in the GDevelop game engine is welcome](https://github.com/4ian/GDevelop).
+    Your help to [improve these features in the GDevelop game engine is welcome](https://github.com/4ian/GDevelop).
 
 ## File format
 
@@ -38,7 +38,7 @@ Large 3D models can impact your game as they will have:
 
 !!! tip
 
-    The GDevelop asset store will soon contain 3D models, so that it's fast and simple to build your games. If you want to sell your assets (2D images, 3D models, audio or ready-to-use objects/extensions), [read more here](../../community/sell-asset-pack-store).
+    The GDevelop asset store will soon contain 3D models, so that it will be faster and easier to build your games. If you want to sell your assets (2D images, 3D models, audio or ready-to-use objects/extensions), [read more here](../../community/sell-asset-pack-store).
 
 This section will be enhanced with various solutions to build your 3D models.
 

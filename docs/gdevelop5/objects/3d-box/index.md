@@ -16,7 +16,7 @@ If you need to show more detail 3D objects, check the [3D model object](../3d-mo
     - Animations for each face
     - Lights
 
-    Your help to [expose these features in the GDevelop game engine is welcome](https://github.com/4ian/GDevelop).
+    Your help to [improve these features in the GDevelop game engine is welcome](https://github.com/4ian/GDevelop).
 
 ## About transparency
 
