@@ -11,12 +11,15 @@ If you need to show more detail 3D objects, check the [3D model object](../3d-mo
 
     This object is new and subject to changes. Check the release notes when GDevelop is updated and read regularly this page to ensure you follow the best practices when using 3D boxes in your game.
 
-    Notably, this object does not support yet:
-
-    - Animations for each face
-    - Lights
+    Notably, this object does not support yet animations for each face.
 
     Your help to [improve these features in the GDevelop game engine is welcome](https://github.com/4ian/GDevelop).
+
+## Lightning
+
+Lightning can be set up through [layers effects](../../interface/scene-editor/layer-effects). Ambient and directional light effects allow to configure basic lightning for 3D layers.
+
+3d boxes can be set up to react to lightning in different ways.
 
 ## About transparency
 

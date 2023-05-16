@@ -4,5 +4,7 @@ nav:
     - panel_sprite.md
     - light.md
     - text.md
+    - 3d-box
+    - 3d-model
     - ...
     - custom-objects-prefab-template.md
