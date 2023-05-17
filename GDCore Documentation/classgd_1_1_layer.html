@@ -88,6 +88,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layer.html#a8d548223f04c1c6c590f4a6a8ee3fb6b">GetName</a> () const</td></tr>
 <tr class="memdesc:a8d548223f04c1c6c590f4a6a8ee3fb6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get layer name. <br /></td></tr>
 <tr class="separator:a8d548223f04c1c6c590f4a6a8ee3fb6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a812c6baca9baab3edf44c889e68cddf4"><td class="memItemLeft" align="right" valign="top"><a id="a812c6baca9baab3edf44c889e68cddf4"></a>
+const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetRenderingType</b> () const</td></tr>
+<tr class="separator:a812c6baca9baab3edf44c889e68cddf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc6a3dfd0072cf2cac8d008f26f784c0"><td class="memItemLeft" align="right" valign="top"><a id="acc6a3dfd0072cf2cac8d008f26f784c0"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetRenderingType</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;renderingType_)</td></tr>
+<tr class="separator:acc6a3dfd0072cf2cac8d008f26f784c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2bf8d26613a3ea0a103a56d667fd49d"><td class="memItemLeft" align="right" valign="top"><a id="ad2bf8d26613a3ea0a103a56d667fd49d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layer.html#ad2bf8d26613a3ea0a103a56d667fd49d">SetVisibility</a> (bool isVisible_)</td></tr>
 <tr class="memdesc:ad2bf8d26613a3ea0a103a56d667fd49d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change if layer is displayed or not. <br /></td></tr>
@@ -136,6 +142,25 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layer.html#ad924745babf7f2854719c490b2a8ae18">UnserializeFrom</a> (const <a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element)</td></tr>
 <tr class="memdesc:ad924745babf7f2854719c490b2a8ae18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unserialize the layer. <br /></td></tr>
 <tr class="separator:ad924745babf7f2854719c490b2a8ae18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">3D</div></td></tr>
+<tr class="memitem:a51d6ea6cc60b29f1ac32ba816d640697"><td class="memItemLeft" align="right" valign="top"><a id="a51d6ea6cc60b29f1ac32ba816d640697"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetCamera3DNearPlaneDistance</b> () const</td></tr>
+<tr class="separator:a51d6ea6cc60b29f1ac32ba816d640697"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d7b811c724a811c93cea6c41d5a82ea"><td class="memItemLeft" align="right" valign="top"><a id="a2d7b811c724a811c93cea6c41d5a82ea"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetCamera3DNearPlaneDistance</b> (double distance)</td></tr>
+<tr class="separator:a2d7b811c724a811c93cea6c41d5a82ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8599809dbc2fdd49770261d2e29d397f"><td class="memItemLeft" align="right" valign="top"><a id="a8599809dbc2fdd49770261d2e29d397f"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetCamera3DFarPlaneDistance</b> () const</td></tr>
+<tr class="separator:a8599809dbc2fdd49770261d2e29d397f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae14b359df4f5dfbc53182e8ab5db3bb5"><td class="memItemLeft" align="right" valign="top"><a id="ae14b359df4f5dfbc53182e8ab5db3bb5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetCamera3DFarPlaneDistance</b> (double distance)</td></tr>
+<tr class="separator:ae14b359df4f5dfbc53182e8ab5db3bb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9831e27c2b2cd64c6cbf61843610da31"><td class="memItemLeft" align="right" valign="top"><a id="a9831e27c2b2cd64c6cbf61843610da31"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetCamera3DFieldOfView</b> () const</td></tr>
+<tr class="separator:a9831e27c2b2cd64c6cbf61843610da31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1cc6f6cb2a6896aabeffba999124692"><td class="memItemLeft" align="right" valign="top"><a id="ad1cc6f6cb2a6896aabeffba999124692"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetCamera3DFieldOfView</b> (double angle)</td></tr>
+<tr class="separator:ad1cc6f6cb2a6896aabeffba999124692"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Cameras</div></td></tr>
 <tr class="memitem:a55bf2a43d01b58dc98ac5690fd2f6a2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layer.html#a55bf2a43d01b58dc98ac5690fd2f6a2a">SetCameraCount</a> (std::size_t n)</td></tr>
 <tr class="memdesc:a55bf2a43d01b58dc98ac5690fd2f6a2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the number of cameras inside the layer.  <a href="#a55bf2a43d01b58dc98ac5690fd2f6a2a">More...</a><br /></td></tr>
