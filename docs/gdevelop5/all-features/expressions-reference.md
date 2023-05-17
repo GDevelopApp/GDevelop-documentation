@@ -816,6 +816,63 @@ Make objects move as if they are subject to the laws of physics. If you're creat
 ---
 
 
+## 3D
+
+Support for 3D in GDevelop. 
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Scene3D::CameraFarPlane(layer, number)` | Return the camera far plane distance. ||
+| | _layer_ | Layer _Optional_. |
+| | _number_ | Camera number (default : 0) _Optional_. |
+| `Scene3D::CameraFov(layer, number)` | Return the camera field of view. ||
+| | _layer_ | Layer _Optional_. |
+| | _number_ | Camera number (default : 0) _Optional_. |
+| `Scene3D::CameraNearPlane(layer, number)` | Return the camera near plane distance. ||
+| | _layer_ | Layer _Optional_. |
+| | _number_ | Camera number (default : 0) _Optional_. |
+| `Scene3D::CameraRotationX(layer, number)` | Return the camera rotation on X axis. ||
+| | _layer_ | Layer _Optional_. |
+| | _number_ | Camera number (default : 0) _Optional_. |
+| `Scene3D::CameraRotationY(layer, number)` | Return the camera rotation on Y axis. ||
+| | _layer_ | Layer _Optional_. |
+| | _number_ | Camera number (default : 0) _Optional_. |
+| `Scene3D::CameraZ(layer, number)` | Return the camera position on Z axis. ||
+| | _layer_ | Layer _Optional_. |
+| | _number_ | Camera number (default : 0) _Optional_. |
+
+## 3D Box (from extension 3D)
+
+A 3D box. 
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.Depth()` | Return the depth (size on Z axis). ||
+| `Object.RotationX()` | Return the rotation on X axis. ||
+| `Object.RotationY()` | Return the rotation on Y axis. ||
+| `Object.ScaleX()` | Return the width's scale of an object. ||
+| `Object.ScaleY()` | Return the height's scale of an object. ||
+| `Object.ScaleZ()` | Return the depth's scale of an object. ||
+| `Object.Z()` | Return the Z position (the "elevation"). ||
+
+## 3D Model (from extension 3D)
+
+A 3D model. 
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.Depth()` | Return the depth (size on Z axis). ||
+| `Object.Height()` | Return the height. ||
+| `Object.RotationX()` | Return the rotation on X axis. ||
+| `Object.RotationY()` | Return the rotation on Y axis. ||
+| `Object.ScaleX()` | Return the width's scale of an object. ||
+| `Object.ScaleY()` | Return the height's scale of an object. ||
+| `Object.ScaleZ()` | Return the depth's scale of an object. ||
+| `Object.Z()` | Return the Z position (the "elevation"). ||
+
+---
+
+
 ## Advanced window management
 
 Provides advanced features related to the game window positioning and interaction with the operating system. 
