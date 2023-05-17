@@ -64,6 +64,9 @@ Tweens the object color using Hue/Saturation/Lightness. Hue can be any number, S
 **Tween object color**  
 Tweens the object color from its current value to a new one. Format: "128;200;255" with values between 0 and 255 for red, green and blue
 
+**Tween object depth**  
+Tweens an object depth (suitable 3D objects only) from its current depth to a new one.
+
 **Tween object height**  
 Tweens an object height from its current height to a new one.
 
@@ -78,6 +81,9 @@ Tweens an object X position from its current X position to a new one.
 
 **Tween object Y position**  
 Tweens an object Y position from its current Y position to a new one.
+
+**Tween object Z position**  
+Tweens an object Z position (3D objects only) from its current Z position to a new one.
 
 **Tween object scale**  
 Tweens an object scale from its current scale to a new one (note: the scale can never be less than 0).

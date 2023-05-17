@@ -216,6 +216,12 @@ meets all the quality standards of official extensions. In case of
 doubt, contact the author to know more about what the extension
 does or inspect its content before using it.
 
+### Ads
+
+||Name|Description||
+|---|---|---|---|
+|<img src="" class="extension-icon"></img>|**Poki Games SDK HTML**|Extension that implements Poki SDK so that your game can be hosted on Poki website.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/poki-games-sdkhtml)|
+
 ### Advanced
 
 ||Name|Description||

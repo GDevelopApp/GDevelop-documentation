@@ -49,7 +49,6 @@ Note that GDevelop can also be extended with extensions: take a look at [the lis
 * [Device sensors](https://wiki.gdevelop.io/gdevelop5/all-features/device-sensors) ([reference](https://wiki.gdevelop.io/gdevelop5/all-features/device-sensors/reference))
 * [Device vibration](https://wiki.gdevelop.io/gdevelop5/all-features/device-vibration) ([reference](https://wiki.gdevelop.io/gdevelop5/all-features/device-vibration/reference))
 * [Dialogue Tree](https://wiki.gdevelop.io/gdevelop5/all-features/dialogue-tree) ([reference](https://wiki.gdevelop.io/gdevelop5/all-features/dialogue-tree/reference))
-* [Effects](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/layer-effects) ([reference](https://wiki.gdevelop.io/gdevelop5/all-features/effects/reference))
 * [Facebook Instant Games](https://wiki.gdevelop.io/gdevelop5/publishing/publishing-to-facebook-instant-games) ([reference](https://wiki.gdevelop.io/gdevelop5/all-features/facebook-instant-games/reference))
 * [File system](https://wiki.gdevelop.io/gdevelop5/all-features/filesystem) ([reference](https://wiki.gdevelop.io/gdevelop5/all-features/filesystem/reference))
 * [Firebase](https://wiki.gdevelop.io/gdevelop5/all-features/firebase) ([reference](https://wiki.gdevelop.io/gdevelop5/all-features/firebase/reference))
