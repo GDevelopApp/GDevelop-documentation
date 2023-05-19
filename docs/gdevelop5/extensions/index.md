@@ -252,6 +252,7 @@ does or inspect its content before using it.
 
 ||Name|Description||
 |---|---|---|---|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/rotate-3d.svg" class="extension-icon"></img>|**With Three JS**|Create a simple 3D scene.|[Read more...](https://pandako.itch.io/with-threejs-extension-for-gdevelop) ([reference](https://wiki.gdevelop.io/gdevelop5/extensions/with-three-js))|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Videogames/Videogames_videogame_pacman_ghost_character_play.svg" class="extension-icon"></img>|**Animation system**|Adds easy to use pre-made animations.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/animation-system)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/chat-outline.svg" class="extension-icon"></img>|**ChatBubble**|Create chat bubbles dynamically. |[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/chat-bubble)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/UI Essentials/UI Essentials_chat_message_sms.svg" class="extension-icon"></img>|**Dialog Box**|This extension adds Dialog Box functionality that can be used for RPGs, visual novels, and more.|[Read more...](https://github.com/PANDAKO-GitHub/DialogBoxExtension) ([reference](https://wiki.gdevelop.io/gdevelop5/extensions/dialog-box))|
