@@ -26,6 +26,9 @@ Change the background color of the scene.
 **At the beginning of the scene**  
 Is true only when scene just begins.
 
+**Does scene exist**  
+Check if scene exists.
+
 **Game has just resumed**  
 Check if the game has just resumed from being hidden. It happens when the game tab is selected, a minimized window is restored or the application is put back on front.
 
