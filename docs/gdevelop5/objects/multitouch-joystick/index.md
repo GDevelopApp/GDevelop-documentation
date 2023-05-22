@@ -53,7 +53,7 @@ A multitouch controller button can be created in a few steps:
 
 The multitouch button behavior allows the developer to choose a button name. The same name must also be set in the mapper behavior for the jump.
 
-![](/gdevelop5/objects/joystick-jump-button.png)
+![](joystick-jump-button.png)
 
 !!! note
 
