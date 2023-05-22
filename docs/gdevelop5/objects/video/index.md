@@ -24,7 +24,7 @@ Support for videos can vary according to the device or browser running the game.
 
 The video object has several objects:
 
-![](/gdevelop5/objects/video/pasted/20230304-170826.png)
+![](pasted/20230304-170826.png)
 
 ## Choose a video file
 
@@ -107,7 +107,7 @@ To set the volume of a video, use the `Set volume` condition. You can set it to 
 
 ## Example
 
-[![](/gdevelop5/objects/video/pasted/Examples1VideoPlayer.png)](https://editor.gdevelop.io/?project=example://video-player)
+[![](pasted/Examples1VideoPlayer.png)](https://editor.gdevelop.io/?project=example://video-player)
 
 ## Reference
 

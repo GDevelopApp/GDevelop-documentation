@@ -17,7 +17,7 @@ For now, this object is meant for advanced users as it requires Tilemaps to be a
 
     For now, collisions are supported only with maps exported for Tiled.
 
-![](/gdevelop5/objects/tilemap/pasted/20210104-105043.png)
+![](pasted/20210104-105043.png)
 
 ## Know limitations
 
@@ -44,7 +44,7 @@ This object is still experimental and will be improved in the future
   - Launch LDtk.
   - Click **New**.
   - Browse to the location to save the map, and give it a title. A new empty map is created.
-![](/gdevelop5/objects/tilemap/pasted/20221229-110649.png)
+![](pasted/20221229-110649.png)
 
 ### Create the tileset
 
@@ -53,7 +53,7 @@ This object is still experimental and will be improved in the future
   - Navigate to the tileset image file.
   - Select the desired image, then click **Open**. The tileset will be displayed.
   - Modify the **Tiles layout** section as needed for the respective tile size (e.g. 16x16, 32x32, etc) and any needed spacing.
-![](/gdevelop5/objects/tilemap/pasted/20221229-111205.png)
+![](pasted/20221229-111205.png)
 ### Create the tile layer
 
   - Click the **Layers** button or press **L** on the keyboard. The **Project Layers** window will display.
@@ -65,7 +65,7 @@ This object is still experimental and will be improved in the future
   - For the **Grid size** field, this should normally be the same size as your tiles, or at least a multiple of it.
   - For most use cases, all other settings can be left default.
   - When you close the layers window, the various tiles from the tilemap will display on the left, and the tilemap can be painted.
-![](/gdevelop5/objects/tilemap/pasted/20221229-111715.png)
+![](pasted/20221229-111715.png)
 ### Export the Tilemap
 
   - Once the map is complete, click the **Project Settings** button, or press **P** on the keyboard.
@@ -88,7 +88,7 @@ This object is still experimental and will be improved in the future
   - Click open. If using the web app, click **Add selected file**.
   - All other settings can be left at default.
   - Click **Apply**. The tilemap object is now created, and can be dragged to the scene.
-![](/gdevelop5/objects/tilemap/pasted/20221229-112838.png)
+![](pasted/20221229-112838.png)
 
 
 ## Tiled tutorial: Create a new tilemap step by step
@@ -96,32 +96,32 @@ This object is still experimental and will be improved in the future
 Start by finding or creating your tileset and save it in a PNG file. For this example, we'll use the *Cavernas* public domain tileset that can be [downloaded here](https://adamatomic.itch.io/cavernas). Save the file in your project folder.
 
 Download Tiled on [mapeditor.org](https://www.mapeditor.org/) and launch it. Choose to create a **New map...**:
-![](/gdevelop5/objects/tilemap/pasted/20210104-112522.png)
+![](pasted/20210104-112522.png)
 
 Choose CSV, Base 64 or Base 64 (zlib compressed) for the tile layer format (Zstandard compressed is not supported). Choose the size of the tilemap and the size of the tiles. Using infinite map mode is not supported:
 
-![](/gdevelop5/objects/tilemap/pasted/20210104-112656.png)
+![](pasted/20210104-112656.png)
 
 Choose a file where to save the map, as a JSON file. It's recommended that you save the JSON file in your project folder.
 
 In Tiled, choose then to create a new tileset:
-![](/gdevelop5/objects/tilemap/pasted/20210104-112850.png)
+![](pasted/20210104-112850.png)
 
 Enter a name, and choose the image file (also called the "Atlas") that you saved in your project folder:
-![](/gdevelop5/objects/tilemap/pasted/20210104-113221.png)
+![](pasted/20210104-113221.png)
 
 You can choose **Embed in map** so that the tileset data is stored inside the Tilemap JSON file. If you don't, you'll be asked where to save the Tileset JSON file, and you'll need to select this file in GDevelop too when setting up the tilemap. See the section "Choosing between a bundled or external tileset".
 
 Draw your map in Tiled:
-![](/gdevelop5/objects/tilemap/pasted/20210104-114523.png)
+![](pasted/20210104-114523.png)
 
 Finally, to display the map in GDevelop, choose to create a new **Tilemap** object. Then configure it by choosing your Atlas image (the image containing the tiles) and the **Tilemap JSON file**:
 
-![](/gdevelop5/objects/tilemap/pasted/20210104-114702.png)
+![](pasted/20210104-114702.png)
 
 You can then click **Apply** and drag'n'drop the object on the scene if it's not there already:
 
-![](/gdevelop5/objects/tilemap/pasted/20210104-114824.png)
+![](pasted/20210104-114824.png)
 
 ## Handle collisions
 
@@ -133,13 +133,13 @@ A platformer game often needs different kind of objects like platforms, jumpthru
 
     Automatic collision masks were introduced with GDevelop 5.0.139. Jump to **Define a collision mask manually with objects** if you are using an older version.
 
-![](/gdevelop5/objects/tile-map-collision-masks.png)
+![](tile-map-collision-masks.png)
 
 #### Create a tilemap collision mask object
 
 The **Tilemap collision mask** object type will build collision masks according to data from Tiled JSON files.
 
-![](/gdevelop5/objects/tile-map-collision-masks-create.png)
+![](tile-map-collision-masks-create.png)
 
 #### Configure tilemap collision masks
 
@@ -149,7 +149,7 @@ The configuration is very similar to the tilemap objects. One important differen
 
     Don't forget to add the platform behavior on the object if needed.
 
-![](/gdevelop5/objects/tile-map-collision-masks-properties.png)
+![](tile-map-collision-masks-properties.png)
 
 #### Define tiles collision mask
 
@@ -161,19 +161,19 @@ When the whole tile must be part of the mask, there is no need to define a squar
 
     In case, a tile contains 2 kinds of objects, for instance a platform and some lava, the "Class" field can be set on each shape independently instead of the tile.
 
-![](/gdevelop5/objects/tiledclass.png)
+![](tiledclass.png)
 
 ### Define a collision mask manually with objects
 
 Objects can be created manually to act as invisible obstacle or platforms. Here is an example when using the platformer behavior:
 
-![](/gdevelop5/objects/tilemap/pasted/20210104-122010.png)
+![](pasted/20210104-122010.png)
 
 Create objects with placeholder images (probably just a colored rectangle), then add to them the Platform behavior:
-![](/gdevelop5/objects/tilemap/pasted/20210104-115630.png)
+![](pasted/20210104-115630.png)
 
 Hide the invisible obstacles/platforms at the start of the scene using events:
-![](/gdevelop5/objects/tilemap/pasted/20210104-120406.png)
+![](pasted/20210104-120406.png)
 
 You can also put these objects on a separate layer in GDevelop and hide the layer.
 
@@ -185,11 +185,11 @@ If your intention is to have **different maps share a tileset**, it is recommend
 
 To do so, uncheck "Embed in map" when creating a tileset in Tiled. Choose then **Save As...** and select the file where to store the tileset:
 
-![](/gdevelop5/objects/tilemap/pasted/20210104-105614.png)
+![](pasted/20210104-105614.png)
 
 Finally, choose the tileset file in GDevelop, in addition to choosing the atlas image and the tilemap JSON file:
 
-![](/gdevelop5/objects/tilemap/pasted/20210104-110127.png)
+![](pasted/20210104-110127.png)
 
 Internally, GDevelop will work as follow:
 
@@ -206,11 +206,11 @@ If you have **animated tiles**, they will need to be arranged in the right order
 
 Tiled also lets you put a different duration for each frame - this extension only supports uniform duration for all frames. You can configure how fast the animation is played, but you can't go granular on a per frame basis.
 
-![](/gdevelop5/objects/tilemap/pasted/20210104-112051.png)
+![](pasted/20210104-112051.png)
 
 In GDevelop, you can choose the speed of the animation(s) of the Tilemap, which is by default 4 FPS (4 images per second, which means 1000/4 = 250ms between each image):
 
-![](/gdevelop5/objects/tilemap/pasted/20210104-112229.png)
+![](pasted/20210104-112229.png)
 
 ## Reference
 

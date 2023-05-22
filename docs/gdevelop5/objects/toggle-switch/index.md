@@ -13,7 +13,7 @@ title: Toggle Switch
 
 The [Settings UI asset pack](https://gdevelop.io/asset-store/free/settings-ui-settings-ui) from the asset store contains free and read-to-use toggle switches.
 
-[![](/gdevelop5/objects/slider-asset-store.png)](https://gdevelop.io/asset-store/free/settings-ui-settings-ui)
+[![](../slider/slider-asset-store.png)](https://gdevelop.io/asset-store/free/settings-ui-settings-ui)
 
 !!! tip
 
@@ -31,6 +31,6 @@ Toggle switches need one image for each state: checked or unchecked.
 
 Toggle switch states can be checked with the "Is checked" condition.
 
-![](/gdevelop5/objects/toggle-switch-checked-condition.png)
+![](toggle-switch-checked-condition.png)
 
 Sliders and toggle switches can be useful to make a settings panel. As the settings panel and the game may be in different scene, the value can be stored in a global variable to use it in other game scenes.

@@ -7,7 +7,7 @@ The Text Input object displays a text field where the player can enter text. Thi
 
 Text Input objects are customizable, and they use the native platform user interface to be rendered on top of the game. Depending on the device being used, the text input object will be treated differently. On touch devices (Android, iOS), a keyboard will be shown on screen, reducing the size available for the game. The player can use the keyboard as they normally would (as well as select the text, copy, paste, insert emojis, etc.).
 
-![](/gdevelop5/objects/text_input/pasted/20220310-005743.png)
+![](pasted/20220310-005743.png)
 
 ## Note about the rendering of this object
 
@@ -38,7 +38,7 @@ According to the type, some devices might display visual aids or **a different k
 ## Reading the text entered by the player
 
 After adding a Text Input object, put an instance on the scene. You can then use the expression `Text` on the object in the events to read the text. For example, this event copies the content of the field into a [Text object](/gdevelop5/objects/text) (to display it somewhere else on the screen):
-![](/gdevelop5/objects/text_input/pasted/20220310-010309.png)
+![](pasted/20220310-010309.png)
 
 ## Read-only and disabled fields
 
