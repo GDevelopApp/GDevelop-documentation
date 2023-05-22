@@ -62,7 +62,7 @@ and without a buffer:
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://top-down-rpg){ .md-button .md-button--primary }
 
-[![](/gdevelop5/objects/top-down-rpg-battle.png)](https://editor.gdevelop.io/?project=example://top-down-rpg)
+[![](../top-down-rpg-battle.png)](https://editor.gdevelop.io/?project=example://top-down-rpg)
 
 ## Update a bar according to a character life
 

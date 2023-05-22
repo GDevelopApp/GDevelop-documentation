@@ -48,7 +48,7 @@ This section lists the different types of objects, each of which serves a unique
 4. Configure the object. The available settings depend on the type of object.
 5. Select **Apply**.
 
-![](/gdevelop5/objects/pasted/20230221-180825.png)
+![](pasted/20230221-180825.png)
 
 
 ## Choosing a name for your object
@@ -64,7 +64,7 @@ Some good exampless of names are: `Player`, `RedEnemy`, `Red_Enemy`, `Car1`, `Fi
 
 After creating an object, GDevelop doesn't immediately add it to a scene. You need to add the object to the scene via the **Objects** panel. You can add as many copies of the object to the scene as you like.
 
-![](/gdevelop5/objects/coin-selected.png)
+![](coin-selected.png)
 
 Each copy of an object in a scene is referred to as an _instance_ of the object. All instances of an object share the same underlying behavior as the original object, but you can customize them independently of one another. For example, each instance of an object may have a different position in the scene.
 
@@ -72,7 +72,7 @@ Each copy of an object in a scene is referred to as an _instance_ of the object.
 
 If you select one or more instances of an object, the **Properties** panel appears on the left side of the screen. This panel displays information about the selected instance(s).
 
-![](/gdevelop5/objects/pasted/20230201-105704.png)
+![](pasted/20230201-105704.png)
 
 You can customize the following properties of an object's instance:
 
@@ -86,7 +86,7 @@ All objects have coordinates. These coordinates correspond to the horizontal pos
 
 The **Angle** option defines the rotation of an object in degrees. The following illustration demonstrates how GDevelop understands the angle of rotation:
 
-![](/gdevelop5/objects/gdevelop_co.png)
+![](gdevelop_co.png)
 
 !!! warning
 
@@ -102,7 +102,7 @@ When objects on the same layer overlap, the **Z Order** of the object determines
 
 In the following image, the Z order of the bush on left is `2`, the Z order of the coin is `1`, and the Z order of the bush on the right is `0`:
 
-![](/gdevelop5/objects/coin-bush-zorder.png)
+![](coin-bush-zorder.png)
 
 The value of the **Z Order** field can be any integer, including negative numbers and zero.
 
@@ -110,7 +110,7 @@ The value of the **Z Order** field can be any integer, including negative number
 
 All objects exist on a layer. Objects are then drawn onto the screen layer-by-layer, from bottom to top. This means an object on the top layer will always appear in front of objects on the bottom layer (even if the objects in the bottom layer have a higher **Z Order** value).
 
-![](/gdevelop5/objects/base_object/pasted/20200406-093010.png)
+![](base_object/pasted/20200406-093010.png)
 
 Typically, background objects, interactive objects (such as the playable character), and UI objects exist on different layers, but there are no strict requirements.
 
@@ -118,13 +118,13 @@ Typically, background objects, interactive objects (such as the playable charact
 
 Sometimes, a scene has a lot of objects and it's difficult to select a specific instance. If you enable the **Lock position/angle in the editor** option, you can no longer select the instance, which makes it easier to select the instance you _do_ want to select.
 
-![](/gdevelop5/objects/base_object/pasted/20200406-093052.png)
+![](base_object/pasted/20200406-093052.png)
 
 ### Instance variables
 
 An instance variable is a [variable](/gdevelop5/all-features/variables) that's specific to an instance of an object. The **Instance variables** table lets you define the variables attached to the instance and the values of those variables.
 
-![](/gdevelop5/objects/pasted/20230305-104740.png)
+![](pasted/20230305-104740.png)
 
 For more information, refer to [Object variables](/gdevelop5/all-features/variables/object-variables).
 
@@ -132,7 +132,7 @@ For more information, refer to [Object variables](/gdevelop5/all-features/variab
 
 If enabled, you can change the height and width of the object instance. This height and width is distinct from the dimensions of the original object.
 
-![](/gdevelop5/objects/pasted/20230305-104815.png)
+![](pasted/20230305-104815.png)
 
 ### Instance timers
 
@@ -149,7 +149,7 @@ By default, object instances are all marked as visible, meaning that they are di
 
 You can add extra visual effects to objects. For example, you could use the "Outline" effect to make an object to pick up or to use more visible. You can also use more advanced visual effects that change the shape of the object or create interesting visual results.
 
-![](/gdevelop5/objects/pasted/20210820-093809.png)
+![](pasted/20210820-093809.png)
 
 Read [this page to learn more about adding effects to your objects](/gdevelop5/objects/effects).
 
@@ -178,7 +178,7 @@ To organize objects into groups:
 4. In the **Edit group** dialog, select the objects to add the group.
 5. Select **Apply**.
 
-![](/gdevelop5/objects/pasted/20230305-104858.png)
+![](pasted/20230305-104858.png)
 
 ## Advanced: create custom objects (aka "prefabs" or "templates")
 
