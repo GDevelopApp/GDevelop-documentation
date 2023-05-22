@@ -13,15 +13,15 @@ Panel sprite is an [object](/gdevelop5/objects) where its image is split into 9 
 
 Here is a representation of how a 9 patch panel sprite's image is split and scaled.
 
-![](/gdevelop5/objects/how9panelworks.png)
+![](how9panelworks.png)
 
 The texture is split into 9 segments, 1 to 9. Each of those segments will be scaled separately. Segments 1, 3, 7, and 9 keep their size and are not scaled, while segments 2 and 8 get scaled only horizontally, 4 and 6 get scaled only vertically, and segment 5 gets scaled both horizontally and vertically. Segments 2, 4, 5, 6, and 8 may repeat instead of scaling based on the panel sprite's object properties settings.
 
 ### How a 9 patch sprite is scaled compared to a normal sprite
 
-![](/gdevelop5/objects/9panel3.png)
+![](9panel3.png)
 
-![](/gdevelop5/objects/9panel4.png)
+![](9panel4.png)
 
 While the normal sprite object's image is scaled uniformly, the 9 patch sprite object's image is scaled as different segments, maintaining their proportion and the image's quality.
 
@@ -31,17 +31,17 @@ To use the Panel Sprite, create a new object from the Objects panel on the right
 
 You can also toggle whether the borders and center segments of the panel sprite stretch or repeat from this properties window.
 
-![](/gdevelop5/objects/PanelSpritePropertiesPanel.png)
+![](PanelSpritePropertiesPanel.png)
 
 The margins used in your object properties should represent the center of your image, the portion that will either scale or be repeated as the object's scale is changed.
 
-![](/gdevelop5/objects/9panel9.png)
+![](9panel9.png)
 
 If the top margin is set to 100, the margin would be 100 pixels from the top and if the bottom margin is set to 100, the margin would be 100 pixels from the bottom.
 
 If "repeat borders and center texture" is enabled, segments 2, 4, 5, 6, 8 will be repeated instead of stretched. This will scale the object in a way that's similar to the tiled sprite object.
 
-![](/gdevelop5/objects/9panel6.png)
+![](9panel6.png)
 
 ## Reference
 

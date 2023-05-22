@@ -12,7 +12,7 @@ Often, it's easier to go with a ready-to-use button available in the Asset Store
 
 The [Buttons asset pack](https://gdevelop.io/asset-store/free/menu-buttons-menu-buttons) from the Asset Store contains free and read-to-use buttons.
 
-[![](/gdevelop5/objects/button-asset-store.png)](https://gdevelop.io/asset-store/free/menu-buttons-menu-buttons)
+[![](button-asset-store.png)](https://gdevelop.io/asset-store/free/menu-buttons-menu-buttons)
 
 ## Advanced: create a button from scratch
 
@@ -32,6 +32,6 @@ The object automatically shows the right image according to taps on a touchscree
 
 Button clicks/taps can be checked with a condition in events:
 
-![](/gdevelop5/objects/button-clicked-condition.png)
+![](button-clicked-condition.png)
 
 Other conditions can be used to check the button state. For instance, it allows to apply [an effect](/gdevelop5/objects/effects) to make a button appear brighter when it's pressed.

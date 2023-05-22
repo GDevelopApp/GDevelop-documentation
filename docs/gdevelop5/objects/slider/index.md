@@ -13,7 +13,7 @@ While sliders could be constructed manually using other objects, it's often simp
 
 The [Settings UI asset pack](https://gdevelop.io/asset-store/free/settings-ui-settings-ui) from the asset store contains free and read-to-use sliders.
 
-[![](/gdevelop5/objects/slider-asset-store.png)](https://gdevelop.io/asset-store/free/settings-ui-settings-ui)
+[![](slider-asset-store.png)](https://gdevelop.io/asset-store/free/settings-ui-settings-ui)
 
 !!! tip
 
@@ -41,6 +41,6 @@ A slider would be useless if the game can't react when its value is changed.
 
 Slider values can be read with the `Value()` expression. It's can be used to store this as a variable or use it to change a property of an object.
 
-![](/gdevelop5/objects/slider-value-expression.png)
+![](slider-value-expression.png)
 
 Sliders and toggle switches can be useful to make a settings panel. As the settings panel and the game may be in different scene, the value can be stored in a global variable to use it in other game scenes.

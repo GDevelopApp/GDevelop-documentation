@@ -1,9 +1,9 @@
 nav:
     - sprite
-    - tiled_sprite.md
-    - panel_sprite.md
-    - light.md
-    - text.md
+    - Tiled Sprite: tiled_sprite
+    - Panel Sprite ("9 patch"): panel_sprite
+    - light
+    - text
     - 3D Box: 3d-box
     - 3D Model: 3d-model
     - ...

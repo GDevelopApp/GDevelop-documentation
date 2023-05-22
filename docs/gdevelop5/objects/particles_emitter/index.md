@@ -9,7 +9,7 @@ The Particles Emitter object parameters can be configured in multiple different 
 
 <div class="video-container">
 <video controls>
-  <source src="/gdevelop5/objects/ParticleEmitterWishforgeVideo.mp4">
+  <source src="ParticleEmitterWishforgeVideo.mp4">
 </video>
 </div>
 
@@ -49,12 +49,12 @@ You can also change the maximum number of particles rendered by the object on th
     Open these examples online.
 
 
-[![](/gdevelop5/objects/Examples1ParticleEmitterExplosions.png)](https://editor.gdevelop.io/?project=example://particles-explosions)
+[![](Examples1ParticleEmitterExplosions.png)](https://editor.gdevelop.io/?project=example://particles-explosions)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://particles-explosions){ .md-button .md-button--primary }
 
 
-[![](/gdevelop5/objects/Examples2ParticleEmitterWishForge.png)](https://editor.gdevelop.io/?project=https://resources.gdevelop-app.com/examples/particle-effects-demo/particle-effects-demo.json)
+[![](Examples2ParticleEmitterWishForge.png)](https://editor.gdevelop.io/?project=https://resources.gdevelop-app.com/examples/particle-effects-demo/particle-effects-demo.json)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=https://resources.gdevelop-app.com/examples/particle-effects-demo/particle-effects-demo.json){ .md-button .md-button--primary }
 

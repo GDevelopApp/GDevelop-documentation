@@ -11,7 +11,7 @@ title: BBText
 
 ## Supported BBCode tags
 
-![](/gdevelop5/objects/stylestag.png)
+![](stylestag.png)
 
 The BBText object supports the following common tags:
 
@@ -38,7 +38,7 @@ There are a few additional styles that are supported in GDevelop too:
 
 You can set the default style of the text displayed on the screen. Tags are then adding styling to the text on top of this default style.
 
-![](/gdevelop5/objects/bbtext/pasted/20230304-163249.png)
+![](pasted/20230304-163249.png)
 
   * Base color (default is black).
   * Base opacity: from 0 to 255, 0 being is completely transparent.
@@ -59,7 +59,7 @@ All these properties can be modified using the actions and conditions of the obj
 
     Open these examples online.
 
-[![](/gdevelop5/objects/bbtext-example.jpg)](https://editor.gdevelop.io/?project=example://bbtext-object-demo)
+[![](bbtext-example.jpg)](https://editor.gdevelop.io/?project=example://bbtext-object-demo)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://bbtext-object-demo){ .md-button .md-button--primary }
 

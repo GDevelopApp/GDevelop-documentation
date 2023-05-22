@@ -13,7 +13,7 @@ The text entry object captures user input and stores it in memory. You can use t
 
 After creating a new object from the Objects Editor list, select "Text entry" from the displayed list of choices
 
-![](/gdevelop5/objects/text_entry/add-text-entry-object.png)
+![](add-text-entry-object.png)
 
 Rename the Text entry object to whatever you like. Add the Text entry object to the scene.
 
@@ -23,9 +23,9 @@ Now, if you run a preview of the scene, all the keys you press are going to be c
 
 First, add a Text Object to the scene. Then, add an event to modify the content of the Text object:
 
-![](/gdevelop5/objects/text_entry/text-entry-object-display-value.png)
+![](text-entry-object-display-value.png)
 
-For the last parameter, which is the new content for the text, use the expression mentioned above: ![](/gdevelop5/objects/text_entry/text-text-entry.png)
+For the last parameter, which is the new content for the text, use the expression mentioned above: ![](text-text-entry.png)
 
 !!! note
 
@@ -35,7 +35,7 @@ Now if you run a scene preview. Start typing you will see the text object displa
 
 Using events, it is possible to enable or disable the "Text entry" object. Events also allow you to control when to capture text input and when not to capture text input.
 
-![](/gdevelop5/objects/text_entry/textentryobjectevents.png)
+![](textentryobjectevents.png)
 
 ## Examples
 
@@ -45,7 +45,7 @@ Using events, it is possible to enable or disable the "Text entry" object. Event
 
     Open these examples online.
 
-![](/gdevelop5/objects/text_entry/textexample.png)
+![](textexample.png)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://text-entry-object){ .md-button .md-button--primary }
 
