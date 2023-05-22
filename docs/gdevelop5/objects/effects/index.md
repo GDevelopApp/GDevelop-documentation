@@ -7,7 +7,7 @@ You can add extra [visual effects](/gdevelop5/interface/scene-editor/layer-effec
 
 This game screenshot shows multiple objects with a *Outline* effect (giving the level a cartoon aesthetic), and the coins with a *Glow* effect.
 
-![](/gdevelop5/objects/effects/pasted/20210819-161343.png)
+![](pasted/20210819-161343.png)
 
 ## Add an effect to an object
 
@@ -17,7 +17,7 @@ Click **Add an effect**. A new effect called “Effect” is created. This name 
 
 Choose the type of the effect. Click on the selector and choose one.
 
-![](/gdevelop5/objects/effects/pasted/20210819-164525.png)
+![](pasted/20210819-164525.png)
 
 The window now shows the parameters for the effect - these parameters depends on the effect type that was chosen.
 
@@ -29,7 +29,7 @@ Launch a preview to see the effect applied. The effect is applied on all the ins
 
 When a preview is running, you can see **the changes you've made in real time** by clicking on **Apply changes to preview**. Read more about [Live Previews here](/gdevelop5/interface/preview).
 
-![](/gdevelop5/objects/effects/pasted/20210819-164718.png)
+![](pasted/20210819-164718.png)
 
 ## Change effect parameters during the game
 
@@ -37,11 +37,11 @@ Using events, you can manipulate the parameters during the game. It can be usefu
 
 First, check out the name of the effect and the name of the parameter to change in the **Effects** tab. For this, activate the display of parameter names:
 
-![](/gdevelop5/interface/scene-editor/layer-effects/pasted/20201224-153604.png)
+![](pasted/20201224-153604.png)
 
 In this example, the Dark Night effect is called "Effect" and has two parameters "opacity" and "intensity":
 
-![](/gdevelop5/interface/scene-editor/layer-effects/pasted/20201224-153733.png)
+![](pasted/20201224-153733.png)
 
 You can then add an event with an action called "Effect Parameter":
 
