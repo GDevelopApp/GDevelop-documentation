@@ -11,7 +11,7 @@ title: Resource bar
 
 The [Resource Bars asset pack](https://gdevelop.io/asset-store/free/resource-bars-resource-bars) from the asset store contains free and ready-to-use resource bars.
 
-![Resource Bars asset pack](/gdevelop5/objects/resource-bar-asset-store.png)
+![Resource Bars asset pack](resource-bar-asset-store.png)
 
 ## Create a resource bar from scratch
 
@@ -30,11 +30,11 @@ Bars with icons need 3 images:
 
 This is an example with a background:
 
-![](/gdevelop5/objects/resource-bar-unit-background.png)
+![](resource-bar-unit-background.png)
 
 and without a background:
 
-![](/gdevelop5/objects/resource-bar-unit-no-background.png)
+![](resource-bar-unit-no-background.png)
 
 Make sure to fill the "Unit width" with the dimension of the icon plus the margin (if any).
 
@@ -54,11 +54,11 @@ The buffer keeps the old value until no damage happens. This is useful to catch 
 
 This is an example with a buffer:
 
-![](/gdevelop5/objects/resource-bar-continuous-buffer.png)
+![](resource-bar-continuous-buffer.png)
 
 and without a buffer:
 
-![](/gdevelop5/objects/resource-bar-continuous-no-buffer.png)
+![](resource-bar-continuous-no-buffer.png)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://top-down-rpg){ .md-button .md-button--primary }
 
@@ -68,4 +68,4 @@ and without a buffer:
 
 The "Value" action allows to change the value displayed by the bar. Here, the bar value is set to the player health using the [Health behavior](/gdevelop5/extensions/health/reference).
 
-![](/gdevelop5/objects/resource-bar-value-action.png)
+![](resource-bar-value-action.png)
