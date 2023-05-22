@@ -40,7 +40,7 @@ For the top left position enter 0 for both X and Y. For the bottom right positio
 
 Now, if we launch a scene preview, a rectangle will be drawn in the scene/screen that is 100 pixels wide and 100 pixels high.
 
-![](/gdevelop5/objects/rectanlge-shape-painter.png)
+![](rectanlge-shape-painter.png)
 
 If we left the relative position enabled, you may notice that our rectangle is in the same position as the shape painter object even though its origin point is 0. Now if we disable that option and launch the preview again, you going to see our object is drawn in the top left corner of our scene.
 
