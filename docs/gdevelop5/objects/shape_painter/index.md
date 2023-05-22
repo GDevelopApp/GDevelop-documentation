@@ -18,6 +18,7 @@ The Shape Painter object properties allow us to change the outline colour/color 
 ### Draw relative to the object position
 
 By default, the position of the shapes that we draw on the screen is relative to the "Shape painter" object.
+
 ![](shape-painter-relative-position-property.png)
 
 In the case of a relative position, when you draw the shapes on the screen using events, the position you specify in actions are using the object position as origin. If your object is at position `150;100` on screen, and you display a rectangle using an action, the position `0;0` will correspond to the position `150;100` on the screen.
