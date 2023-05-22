@@ -50,12 +50,9 @@ Detecting pressed buttons can be done with the **Gamepad button pressed** (or **
 
 #### Handle sticks
 
-Sticks can be pushed in different directions, usually to move the player. Using the [expression](/gdevelop5/all-features/expressions) `Gamepads::AxisValue`, you can get a number representing "how much" the stick is pushed in a direction.
+`Gamepads::StickAngle` and `Gamepads::StickForce` [expressions](/gdevelop5/all-features/expressions) can be used to apply a force on an object.
 
-You can then use it to set a force on an object (or anything else that you want to impact in your game):
-
-![](pasted/20201204-124545.png)
-
+![](gamepad-stick-expression.png)
 
 ## Handle several players on the same device
 
