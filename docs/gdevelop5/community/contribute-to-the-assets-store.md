@@ -10,7 +10,7 @@ GDevelop creators can add assets to the project without having to worry about ed
 
 
 ## For images (animated sprites, tiled sprites or GUI):
-These are the basic rules to submit video game asset images. Make sure that your files respect the following guidelines:
+In a nutshell: These are the basic rules to submit video game asset images. Make sure that your files respect the following guidelines:
 
   * Each image frame, has to be a png transparency file
   * Every animation frame has to be the same pixel size as the other animation states
@@ -27,6 +27,8 @@ GDevelop's most common sizes for animation assets are:
   * Mobile: 720x1280
   * Desktop: 1280x720
   * Desktop full HD: 1920x1080
+
+If you're looking for "an easy way" to prepare your assets for the Asset Store, [Entropy]([url](https://gd.games/Entropy)) has created a solution to upload, name, and [license]([url](https://wiki.gdevelop.io/gdevelop5/community/sell-asset-pack-store/)) your Assets. Go to [his github]([url](https://github.com/Entr0py404/GDev-Asset-Store-Tool/releases/tag/v1.4)) to download the Windows program, and [watch his twitch]([url](https://www.twitch.tv/videos/1641376379?t=00h02m50s)) to see how to use the tool.
 
 ### Naming assets
 For unanimated sprites, a single image with the name of the object is enough. On the contrary, animated sprites require multiple animated frames, which have to be named properly.
