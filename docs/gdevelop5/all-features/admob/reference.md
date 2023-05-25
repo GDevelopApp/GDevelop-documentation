@@ -61,7 +61,7 @@ Show the reward video that was loaded. Will work only when the video is fully lo
 ## Conditions
 
 **App open errored**  
-Check if there was a error while loading the app open.
+Check if there was an error while loading the app open.
 
 **App open loading**  
 Check if an app open is currently loading.
