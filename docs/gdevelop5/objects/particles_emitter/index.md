@@ -15,11 +15,11 @@ The Particles Emitter object parameters can be configured in multiple different 
 
 ## Particle types
 
-There are 3 rendering modes available for Particle Emitters: Circles, Lines and Textures.
+There are 3 rendering modes available for Particle Emitters: Circles, Lines and Images.
 
 * Circle mode, will display circles with the specified size.
 * Line mode,  will display lines with the specified length and thickness.
-* Texture mode, will display an image of the specified size.
+* Image mode, will display an image of the specified size.
 
 ## Colors
 
@@ -29,9 +29,9 @@ You can choose a starting color for particles, and a color to fade to. You can a
 
 Particles will be emitted in the direction represented by the angle of the emitters on the scene. You can change the angle of *the spray cone*, which is also represented in the scene editor as two lines: a large value for this "spray cone" will result in an emission of particles in a larger number of directions. A value of 0 will emit particles only in a single direction.
 
-* Particles appears in a circle around the position of the emitter object. You can change the radius of the circle.
+* Particles appear in a circle around the position of the emitter object. You can change the radius of the circle.
 * Gravity can be applied on particles on X and Y axis. For example, a negative value on the Y-axis will cause the particles to go up in the air.
-* Rotation can be applied to particles, particles will rotate at a value between the maximum and minimum values set.
+* Rotation can be applied to particles, particles will rotate at a value between the minimum and maximum values set.
 
 ## Lifetime
 
