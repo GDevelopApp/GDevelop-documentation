@@ -12,23 +12,23 @@ This action deletes the specified element from the specified storage.
 Specify the structure leading to the element using / (example : Root/Level/Current)
 Spaces are forbidden in element names.
 
-**Write a value**  
-Write the result of the expression in the stored data, in the specified element.  
+**Save a value**  
+Save the result of the expression in the stored data, in the specified element.  
 Specify the structure leading to the element using / (example : Root/Level/Current)
 Spaces are forbidden in element names.
 
-**Write a text**  
-Write the text in the specified storage, in the specified element.  
+**Save a text**  
+Save the text in the specified storage, in the specified element.  
 Specify the structure leading to the element using / (example : Root/Level/Current)
 Spaces are forbidden in element names.
 
-**Read a value**  
-Read the value saved in the specified element and store it in a scene variable.  
+**Load a value**  
+Load the value saved in the specified element and store it in a scene variable.  
 Specify the structure leading to the element using / (example : Root/Level/Current)
 Spaces are forbidden in element names.
 
-**Read a text**  
-Read the text saved in the specified element and store it in a scene variable.  
+**Load a text**  
+Load the text saved in the specified element and store it in a scene variable.  
 Specify the structure leading to the element using / (example : Root/Level/Current)
 Spaces are forbidden in element names.
 
