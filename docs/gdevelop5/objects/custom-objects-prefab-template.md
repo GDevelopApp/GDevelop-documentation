@@ -5,7 +5,7 @@ title: Custom Objects ("prefabs")
 
 **Custom objects** are reusable objects containing custom logic and one or more other objects. "Custom objects" are also called **"Prefabs"** or "Templates" in some game engines.
 
-They allow to speed-up development and make games more modular by having an object that can be reused and customised in different scenes.
+They allow to speed-up development and make games more modular by having an object that can be reused and customized in different scenes.
 
 For example, the **[multitouch joysticks](/gdevelop5/objects/multitouch-joystick), [buttons](/gdevelop5/objects/button), [sliders](/gdevelop5/objects/slider)** and other user interface objects that you can find in the list of objects are “custom objects” built with other objects.
 

@@ -583,7 +583,7 @@ To do this, we will write ""Score: " + ToString(Variable(Points))" in the `Text`
 
 If we now preview the game, we'll see that the _Score_ keeps on updating with every frame. This is because the condition checks if the Y position of _Traffic_ is greater than or equal to 700.
 
-To solve this problem as well as to optimise the game by freeing up memory, we will add another action to the event which will delete the object _Traffic_.
+To solve this problem as well as to optimize the game by freeing up memory, we will add another action to the event which will delete the object _Traffic_.
 
 This action will free up some amount of memory as well as help us solve the _Score_ problem by deleting the tree in the very next frame of _Traffic_ crossing a Y position of 700.
 
@@ -597,7 +597,7 @@ Now if you preview the game, you will see that the score keeps updating even aft
 
 ![](/gdevelop5/tutorials/screenshot_from_2019-05-23_22-40-45.png)
 
-To optimise our game for the long run, we can also use a similar `For each object` event for deleting _Tree_
+To optimize our game for the long run, we can also use a similar `For each object` event for deleting _Tree_
 
 The condition of the event will be to check if Y position of _Tree_ is more than 700 while the action would be to delete the object _Tree_.
 

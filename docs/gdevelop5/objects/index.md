@@ -56,7 +56,7 @@ This section lists the different types of objects, each of which serves a unique
 Objects are given a default name when they are created. You can change this from the object editor or using the context menu on the object in the objects list.
 
 Note that there are limitations on how you name your object: you can only use alphanumeric characters and no spaces. You can use an underscore if you want to make a separation between words (though usually, games are using casing to separate words. For example: `EnemyBullet`).
-This is to make sure your object will be recognised properly when used in [expressions](/gdevelop5/all-features/expressions).
+This is to make sure your object will be recognized properly when used in [expressions](/gdevelop5/all-features/expressions).
 
 Some good exampless of names are: `Player`, `RedEnemy`, `Red_Enemy`, `Car1`, `FinalBoss`, `Final_Boss`, `Wall`... Giving a descriptive name is useful to make sure you can quickly identify objects in the events.
 

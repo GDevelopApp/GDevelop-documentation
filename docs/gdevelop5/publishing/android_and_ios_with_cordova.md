@@ -81,7 +81,7 @@ Once you have specified what platform you want your game to be exported to, you 
 
 ## Testing on Android
 
-You can run `cordova run android` to run the compiled application, or `cordova run android --device` to run on an Android device. Make sure that the device has the *developer mode* activated, is connected and recognised by the computer.
+You can run `cordova run android` to run the compiled application, or `cordova run android --device` to run on an Android device. Make sure that the device has the *developer mode* activated, is connected and recognized by the computer.
 
 You can also open Android Studio and open the project (choose the `platforms/android` folder). Then you can see in the top right the list of connected devices (or installed emulators) and run the app.
 

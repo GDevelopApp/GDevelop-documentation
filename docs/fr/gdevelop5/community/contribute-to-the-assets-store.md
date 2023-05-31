@@ -116,7 +116,7 @@ Put your .aac or .wav files (prefer .aac) directly in a folder, with the name to
 
 `TAGS.md` files will work like for images. Sub folders are also used for tags as described for images.
 
-A great tool to convert audio files to AAC format is \[fre:ac\](<https://www.freac.org/>). fre:ac is free, opensource, and cross-platform. It can process batches of files, with many options on how they are named and put into folders.
+A great tool to convert audio files to AAC format is \[fre:ac\](<https://www.freac.org/>). fre:ac is free, open source, and cross-platform. It can process batches of files, with many options on how they are named and put into folders.
 
 - Choose the encoder called "Fraunhofer FDK AAC Encoder".
 - Select "File format \> AAC"

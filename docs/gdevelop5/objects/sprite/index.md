@@ -43,7 +43,7 @@ If you'd rather get your assets from the asset store, you can click on the arrow
 
 ### Collision and points
 
-You can customise your sprite's collision area using the Edit Collision Masks button at the bottom of the window; you can set the area that will be taken into consideration during a collision. [Read more about collision masks here.](/gdevelop5/objects/sprite/collision-mask)
+You can customize your sprite's collision area using the Edit Collision Masks button at the bottom of the window; you can set the area that will be taken into consideration during a collision. [Read more about collision masks here.](/gdevelop5/objects/sprite/collision-mask)
 
 Beside the Edit Collision Masks option, you will find the Edit Points option at the bottom of the sprite properties window. This option allows us edit and add additional reference points for an object. These reference points can be used in events when needed. [Read more about points in sprites here.](/gdevelop5/objects/sprite/edit-points)
 

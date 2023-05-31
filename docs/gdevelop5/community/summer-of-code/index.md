@@ -7,7 +7,7 @@ Google Summer of Code is a global program focused on bringing more contributors 
 
 ![](/gdevelop5/community/summer_of_code.png)
 
-In 2020, GDevelop was one of the mentoring organisations. We're candidating to be an organization in 2023 too. If you're interested in working with us, read on!
+In 2020, GDevelop was one of the mentoring organizations. We're candidating to be an organization in 2023 too. If you're interested in working with us, read on!
 
 !!! note
 

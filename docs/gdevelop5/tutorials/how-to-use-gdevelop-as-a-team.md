@@ -19,7 +19,7 @@ Organize then your project to ensure that as many things as possible can be save
 
 ## Split your game functionalities
 
-[External Events](/gdevelop/documentation/manual/link_events), [External Layouts](/gdevelop/documentation/manual/external_layouts) and [Functions/Behaviors](/gdevelop5/extensions/create) allow better organisation and flexibility in your project. With **multiple files** enabled, they will be saved to separate files, making developers able to work on different parts of the game at the same time, with less chance of conflict.
+[External Events](/gdevelop/documentation/manual/link_events), [External Layouts](/gdevelop/documentation/manual/external_layouts) and [Functions/Behaviors](/gdevelop5/extensions/create) allow better organization and flexibility in your project. With **multiple files** enabled, they will be saved to separate files, making developers able to work on different parts of the game at the same time, with less chance of conflict.
 
 ## Handling shared project files
 
