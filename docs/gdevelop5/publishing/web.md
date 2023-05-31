@@ -32,7 +32,7 @@ From here you are given a new link and some new options for sharing your game th
 
 ![](/gdevelop5/publishing/web/pasted/20220202-225818.png)
 
-You can replace the current public build by repeating the steps above, or by clicking "See this game builds" as seen below. Clicking this will show you all versions of your game that you've exported to liluo.io, and from this screen you can pick which build you'd like to  have publicly displayed on liluo.io.
+You can replace the current public build by repeating the steps above, or by clicking "See this game builds" as seen below. Clicking this will show you all versions of your game that you've exported to gd.games, and from this screen you can pick which build you'd like to  have publicly displayed on gd.games.
 
 ![](/gdevelop5/publishing/lilou_upload_click_here_to_see_current_game_builds.gif)
 

@@ -21,7 +21,7 @@ The left panel is dedicated to the configuration of your leaderboard.
 
 ![](/gdevelop5/interface/games-dashboard/leaderboard-administration/pasted/20220412-120735.png)
 
-Choose a name for your leaderboard that is clear and direct such as "Level 1 - Best score". It will be displayed in the event sheet as well as on your game's page if you choose to make it public on Liluo.
+Choose a name for your leaderboard that is clear and direct such as "Level 1 - Best score". It will be displayed in the event sheet as well as on your game's page if you choose to make it public on gd.games.
 
 ## Change the sorting order
 

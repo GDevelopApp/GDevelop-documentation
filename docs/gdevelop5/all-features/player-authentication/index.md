@@ -16,7 +16,7 @@ To allow players to connect, your game must be registered on GDevelop online ser
 
 !!! note
 
-    Note that your game does not need to be necessarily shown publicly on Liluo.io or published there. Player authentication and leaderboards work on any platform (Play Store, App Store, Steam, desktop app, on your website or on any browser-based gaming platform).
+    Note that your game does not need to be necessarily shown publicly on gd.games or published there. Player authentication and leaderboards work on any platform (Play Store, App Store, Steam, desktop app, on your website or on any browser-based gaming platform).
 
 ## Display an authentication banner
 
