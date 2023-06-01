@@ -21,7 +21,7 @@ This means:
 
 - You can't change the **Z order** of the object.
 - You can't use **effects** with the object.
-- Be careful if you use the object in a scene with a moving camera or if you rotate/move the object. It might be slightly desynchronised from the rest of the rendered game. This can create a weird effect for the player.
+- Be careful if you use the object in a scene with a moving camera or if you rotate/move the object. It might be slightly desynchronized from the rest of the rendered game. This can create a weird effect for the player.
 
 In general, prefer to use the object on **a static screen** and ensure that the keyboard on mobile devices won't hide critical information.
 

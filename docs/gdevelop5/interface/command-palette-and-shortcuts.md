@@ -3,7 +3,7 @@ title: Command palette and shortcuts
 ---
 # Command palette and shortcuts
 
-GDevelop provides keyboard shortcuts that allow you to quickly get to places. You can customise them to fit your preferences.
+GDevelop provides keyboard shortcuts that allow you to quickly get to places. You can customize them to fit your preferences.
 
 !!! warning
 
@@ -31,7 +31,7 @@ Enter the key combination you want to use by pressing the keys in order (Shift a
 
 ![](/gdevelop5/interface/shortcuts3.png)
 
-You can't use a key combination that is already utilised by another command. A exclamation mark will be displayed against the conflicting combinations.
+You can't use a key combination that is already utilized by another command. A exclamation mark will be displayed against the conflicting combinations.
 
 ![](/gdevelop5/interface/shortcuts2.png)
 

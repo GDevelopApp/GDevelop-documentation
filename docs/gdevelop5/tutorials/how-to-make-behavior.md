@@ -3,7 +3,7 @@ title: How to create a behavior for an object
 ---
 # How to create a behavior for an object
 
-When your game starts to grow, or even at the beginning when starting the creation of your game, it's a good idea to organise as much as possible of the logic of your game in **[custom behaviors](/gdevelop5/behaviors/events-based-behaviors)**. This helps to reduce the number of events in the scene event sheet(s) and make your game easier to reason about.
+When your game starts to grow, or even at the beginning when starting the creation of your game, it's a good idea to organize as much as possible of the logic of your game in **[custom behaviors](/gdevelop5/behaviors/events-based-behaviors)**. This helps to reduce the number of events in the scene event sheet(s) and make your game easier to reason about.
 
 Making custom behaviors for your game objects might seem at the beginning more complicated than making events directly in the events sheet.
 Behaviors are more constrained and need you to think more carefully about how your object works and what actions/conditions should the behavior expose. But custom behaviors are also a very powerful tool, allowing you to *encapsulate* your logic inside your objects, and keep the events sheet of your scene as minimal as possible.
@@ -29,7 +29,7 @@ Create a behavior in this extension. Name it according to your object, or the ca
 
 !!! tip
 
-    It's a good idea to have a name summarising what the behavior is doing. It might be unclear at the beginning - you can always rename the behavior later.
+    It's a good idea to have a name summarizing what the behavior is doing. It might be unclear at the beginning - you can always rename the behavior later.
 
 Click *Add a new function*:
 
