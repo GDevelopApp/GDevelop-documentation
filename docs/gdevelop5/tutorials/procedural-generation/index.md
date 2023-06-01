@@ -17,4 +17,4 @@ Articles about Procedural Generation:
 
 - [Understanding Procedural Generation](/gdevelop5/tutorials/procedural-generation/understanding-procedural-generation)
 - [Implementing Procedural Generation](/gdevelop5/tutorials/procedural-generation/implementing-procedural-generation)
-- [Constraint a terrain generation](/gdevelop5/extensions/marching-squares#constraint_a_terrain_generation)
+- [Constraint a terrain generation](/gdevelop5/extensions/marching-squares/details/#constraint-a-terrain-generation)
