@@ -10,9 +10,11 @@ Display pop-ups to alert, ask confirmation, and let user type a response in text
 This extension adds actions to display three kinds of pop-ups.
 
 ## Alert
+
  - Pops-up a message that will pause the game until dismissed by the player.
 
 ## Confirmation
+
  - Pops-up a dialogue containing a message with the option to either confirm or cancel.
 
 ## Prompt

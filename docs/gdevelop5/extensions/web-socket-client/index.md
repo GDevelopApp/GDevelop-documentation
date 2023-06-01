@@ -11,6 +11,7 @@ This extension allows to use WebSocket based networking.
 You can use it to interact with a WebSocket based API, or a server for your multiplayer game.
 
 Features:
+
  - Connection and disconnection from a server
  - Receiving strings from the server
  - Sending strings to the server
@@ -18,6 +19,7 @@ Features:
  - Handling more than 1 event per frame
 
 Doesn't contain:
+
  - Sending or receiving binary data
  - A WebSocket server
 

@@ -25,6 +25,7 @@ Conditions:
    -UserIsLoggedIn
 
 Actions:
+
   - LoadNewgroundsAPI
   - PostScoreOnScoreBoard
   - UnlockMedal
@@ -32,6 +33,7 @@ Actions:
   - LogOutFromNewGrounds
 
 StringExpressions:
+
   - RetrievePlayerName
   - RetrieveDateTime
   - RetrieveVersion

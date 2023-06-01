@@ -25,13 +25,16 @@ Can be used for:
 
 Features:
 	Conditions:
+
 		- OnSuccess
 		- OnError
 
 	Actions:
+
 		- Start listening
 
 	StringExpressions:
+
 		- RetrieveResultText
 		- RetrieveStatus
 		- RetrieveError

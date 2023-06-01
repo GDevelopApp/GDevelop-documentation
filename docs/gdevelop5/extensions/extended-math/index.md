@@ -8,6 +8,7 @@ Additional math functions and constants as expressions and conditions.
 ---
 
 Expressions:
+
  - Mathematical constants
  - Greatest common factor/Lowest common multiple
  - Factorial

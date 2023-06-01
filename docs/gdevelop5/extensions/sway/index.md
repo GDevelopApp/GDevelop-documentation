@@ -17,7 +17,7 @@ It can be used to:
 
 Set *Center* and *Origin* points to the center base of the object for best results.
 
-Check out [this demo](https://gd.games/bubble/swayexamples) to see what this extension can do.
+Check out [this demo](https://liluo.io/bubble/swayexamples) to see what this extension can do.
 
 
 ---
