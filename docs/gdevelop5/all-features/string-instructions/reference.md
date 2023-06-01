@@ -22,7 +22,7 @@ Provides expressions to manipulate strings (also called texts).
 | `StrFindLast(string, string)` | Search the last occurrence in a string (return the position of the result, from the beginning of the string, or -1 if not found) ||
 | | _string_ | Text |
 | | _string_ | Text to search for |
-| `StrFindLastFrom(string, string, number)` | Search in a text the last occurrence, starting from a position (return  the position of the result, from the beginning of the string, or -1 if not found) ||
+| `StrFindLastFrom(string, string, number)` | Search in a text the last occurrence, starting from a position (return the position of the result, from the beginning of the string, or -1 if not found) ||
 | | _string_ | Text |
 | | _string_ | Text to search for |
 | | _number_ | Position of the last character in the string to be considered in the search |
