@@ -8,6 +8,7 @@ var searchData=
   ['hasbehaviorshareddata',['HasBehaviorSharedData',['../classgd_1_1_layout.html#a411eced63d2d417fa9c69e10aceb8c07',1,'gd::Layout']]],
   ['haschild',['HasChild',['../classgd_1_1_variable.html#a5c9a7e47a229ea5549e645e5ec40e38e',1,'gd::Variable::HasChild()'],['../classgd_1_1_serializer_element.html#a1a5d5e6fd8213d206e5600e84d2b2653',1,'gd::SerializerElement::HasChild()']]],
   ['hascustomcodegenerator',['HasCustomCodeGenerator',['../classgd_1_1_event_metadata.html#a1ca6cba34ee25a45aafe6a93b8332a44',1,'gd::EventMetadata']]],
+  ['hascustomdepth',['HasCustomDepth',['../classgd_1_1_initial_instance.html#a2d516804fe5747570a1b32966ae0254c',1,'gd::InitialInstance']]],
   ['hascustomsize',['HasCustomSize',['../classgd_1_1_initial_instance.html#ace64dff957d4a111151a8b9345d77d2f',1,'gd::InitialInstance']]],
   ['haseffectnamed',['HasEffectNamed',['../classgd_1_1_effects_container.html#a5141da9aff3e6c59bbf23a0ca7b5da7f',1,'gd::EffectsContainer']]],
   ['haseventsbasedbehavior',['HasEventsBasedBehavior',['../classgd_1_1_project.html#adb890c3b53688808cad5163ed607eea8',1,'gd::Project']]],

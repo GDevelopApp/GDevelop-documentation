@@ -60,6 +60,7 @@ var searchData=
   ['invalid_5futf16',['invalid_utf16',['../classutf8_1_1invalid__utf16.html',1,'utf8']]],
   ['invalid_5futf8',['invalid_utf8',['../classutf8_1_1invalid__utf8.html',1,'utf8']]],
   ['invalidimagedata',['InvalidImageData',['../namespacegd.html#a5b0cb5bf3b1615fc2a3fc37f4a02b304',1,'gd']]],
+  ['is3dobject',['Is3DObject',['../classgd_1_1_object.html#a5250a5cace5c1211468c0085c8f0d43c',1,'gd::Object::Is3DObject()'],['../classgd_1_1_object_configuration.html#a190714b9fdc6ac4b45c15c0614cdad13',1,'gd::ObjectConfiguration::Is3DObject()']]],
   ['isabsolute',['IsAbsolute',['../classgd_1_1_abstract_file_system.html#adce96e1343abc395942d1a9a6e159e68',1,'gd::AbstractFileSystem']]],
   ['isaction',['IsAction',['../classgd_1_1_events_function.html#a5efebf055f5494f618e6d353866c468c',1,'gd::EventsFunction']]],
   ['isasync',['IsAsync',['../classgd_1_1_instruction_metadata.html#aed473f086d9c8dd444d96b5190a8a6b4',1,'gd::InstructionMetadata::IsAsync()'],['../classgd_1_1_events_function.html#a92c883ac80248e7a436e28165415be64',1,'gd::EventsFunction::IsAsync()']]],

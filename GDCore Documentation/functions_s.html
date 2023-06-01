@@ -382,6 +382,9 @@ $(function() {
 , <a class="el" href="classgd_1_1_instruction_metadata.html#a933ebc3ce9a934daf67e7d04279ff99a">gd::InstructionMetadata</a>
 , <a class="el" href="classgd_1_1_property_descriptor.html#a3806216a1bfde94979c39c0d3fe81d49">gd::PropertyDescriptor</a>
 </li>
+<li>SetHasCustomDepth()
+: <a class="el" href="classgd_1_1_initial_instance.html#af186e17f1b7dca907abfbe9519ef7451">gd::InitialInstance</a>
+</li>
 <li>SetHasCustomSize()
 : <a class="el" href="classgd_1_1_initial_instance.html#a3f663f1fdc05c6340f26afe0e3ece30f">gd::InitialInstance</a>
 </li>
@@ -654,6 +657,12 @@ $(function() {
 , <a class="el" href="classgd_1_1_instruction_metadata.html#a7f6835f72696c9cc39d8688b87b64af0">gd::InstructionMetadata</a>
 , <a class="el" href="classgd_1_1_multiple_instruction_metadata.html#a01d67cf894109c3f000297db696bde83">gd::MultipleInstructionMetadata</a>
 </li>
+<li>SetRotationX()
+: <a class="el" href="classgd_1_1_initial_instance.html#a84332b15534d6e8109767185a634bd36">gd::InitialInstance</a>
+</li>
+<li>SetRotationY()
+: <a class="el" href="classgd_1_1_initial_instance.html#a286d64e4ed84ffad3273a8fdb7f0f780">gd::InitialInstance</a>
+</li>
 <li>SetScaleMode()
 : <a class="el" href="classgd_1_1_project.html#ab960553137b1ed176e190d34c8f18951">gd::Project</a>
 </li>
@@ -734,7 +743,7 @@ $(function() {
 </li>
 <li>SetValue()
 : <a class="el" href="classgd_1_1_property_descriptor.html#a036e80886513c6db7530f028a21c51c9">gd::PropertyDescriptor</a>
-, <a class="el" href="classgd_1_1_serializer_element.html#a52456f65a42a154acf35a596f95b74f9">gd::SerializerElement</a>
+, <a class="el" href="classgd_1_1_serializer_element.html#ae23f301138274b862fa1a5576c870cb5">gd::SerializerElement</a>
 , <a class="el" href="classgd_1_1_variable.html#a302f56ff5f31d0d35ee7186e57bfbc7d">gd::Variable</a>
 </li>
 <li>SetValueIteratorVariableName()
@@ -769,6 +778,9 @@ $(function() {
 <li>SetY()
 : <a class="el" href="classgd_1_1_initial_instance.html#a065164d8ecc8ca6641338c5d4bb6f28d">gd::InitialInstance</a>
 , <a class="el" href="class_point.html#a8aaec739d79bfcfacdaf94bfa7e01ff6">Point</a>
+</li>
+<li>SetZ()
+: <a class="el" href="classgd_1_1_initial_instance.html#a90ee6f6611a8231ac591cc614554d47e">gd::InitialInstance</a>
 </li>
 <li>SetZOrder()
 : <a class="el" href="classgd_1_1_initial_instance.html#a5a6068e360f5fdf24c3a297db3c61513">gd::InitialInstance</a>
@@ -822,12 +834,12 @@ $(function() {
 : <a class="el" href="classgd_1_1_layout.html#a00c3a891a8a0e94d793515ca6917860b">gd::Layout</a>
 </li>
 <li>String()
-: <a class="el" href="classgd_1_1_string.html#a103d15de5c77a0628a2091ec469cb820">gd::String</a>
+: <a class="el" href="classgd_1_1_string.html#aa85e0d2eaaffa2b9d2a46ac1cd916980">gd::String</a>
 , <a class="el" href="class_pretty_writer.html#a7e85689355a827d273f272c26b447225">PrettyWriter&lt; OutputStream, SourceEncoding, TargetEncoding, StackAllocator, writeFlags &gt;</a>
 , <a class="el" href="class_writer.html#a24eb1a72b42da5fe51ff99d9c293dd11">Writer&lt; OutputStream, SourceEncoding, TargetEncoding, StackAllocator, writeFlags &gt;</a>
 </li>
 <li>StringRef()
-: <a class="el" href="struct_generic_string_ref.html#a578c51ab574a50a9c760b9da7c7562f2">GenericStringRef&lt; CharType &gt;</a>
+: <a class="el" href="struct_generic_string_ref.html#aa6b9fd9f6aa49405a574c362ba9af6b5">GenericStringRef&lt; CharType &gt;</a>
 </li>
 <li>StringRefType
 : <a class="el" href="class_generic_value.html#a32e0f30ee278072374c8168b14d3317f">GenericValue&lt; Encoding, Allocator &gt;</a>
@@ -843,13 +855,13 @@ $(function() {
 </li>
 <li>Swap()
 : <a class="el" href="classgd_1_1_variables_container.html#a8ccb1c6cfbb16e639593d896a7b23b5e">gd::VariablesContainer</a>
+, <a class="el" href="class_generic_document.html#a6290e1290fad74177625af5938c0c58f">GenericDocument&lt; Encoding, Allocator, StackAllocator &gt;</a>
 </li>
 <li>swap
 : <a class="el" href="class_generic_document.html#a0d63efcc43758ac3aed77e868233369d">GenericDocument&lt; Encoding, Allocator, StackAllocator &gt;</a>
 </li>
 <li>Swap()
-: <a class="el" href="class_generic_document.html#a6290e1290fad74177625af5938c0c58f">GenericDocument&lt; Encoding, Allocator, StackAllocator &gt;</a>
-, <a class="el" href="class_generic_pointer.html#aa84bc7e016c906436f464c8cbd858edb">GenericPointer&lt; ValueType, Allocator &gt;</a>
+: <a class="el" href="class_generic_pointer.html#a3b40ad3e851640e295a4623b624af395">GenericPointer&lt; ValueType, Allocator &gt;</a>
 </li>
 <li>SwapAnimations()
 : <a class="el" href="classgd_1_1_sprite_object.html#adf28c28cd8d599a16da01ed34ea8d216">gd::SpriteObject</a>

@@ -379,6 +379,8 @@ var searchData=
   ['getresourcesptr',['GetResourceSPtr',['../classgd_1_1_resources_manager.html#abc7c13245070780c2931a147ab431e25',1,'gd::ResourcesManager']]],
   ['getroot',['GetRoot',['../class_generic_schema_document.html#a3b86ad6eab393014cc5b3c52da5c4bc2',1,'GenericSchemaDocument']]],
   ['getrootnode',['GetRootNode',['../classgd_1_1_expression.html#a6e1feae7c85eeaafac1fa2c5f594fab9',1,'gd::Expression']]],
+  ['getrotationx',['GetRotationX',['../classgd_1_1_initial_instance.html#a0623cb3df5ce0194c1a029babb96b2da',1,'gd::InitialInstance']]],
+  ['getrotationy',['GetRotationY',['../classgd_1_1_initial_instance.html#a02e4b295b087daf70f3b5fbbcf2dc3e6',1,'gd::InitialInstance']]],
   ['getscalemode',['GetScaleMode',['../classgd_1_1_project.html#a6f4943223c562f6897722102b7ac95ad',1,'gd::Project']]],
   ['getscenesdependencies',['GetScenesDependencies',['../class_dependencies_analyzer.html#a2fad88126471502a84705a35393d9d41',1,'DependenciesAnalyzer']]],
   ['getsentence',['GetSentence',['../classgd_1_1_events_function.html#ab38697d5a51e9da3ad6b8d057e30e85e',1,'gd::EventsFunction']]],
@@ -440,6 +442,7 @@ var searchData=
   ['getwindowdefaulttitle',['GetWindowDefaultTitle',['../classgd_1_1_layout.html#aab001319520a010576c3cdb770c8a795',1,'gd::Layout']]],
   ['getx',['GetX',['../class_point.html#a9a6aa9a62426e1d1025624b28b165787',1,'Point::GetX()'],['../classgd_1_1_initial_instance.html#ad397ba59b5ea50a0f59ea7f6de224885',1,'gd::InitialInstance::GetX()']]],
   ['gety',['GetY',['../class_point.html#a70b390ca26d9487d85d0b7383faffec4',1,'Point::GetY()'],['../classgd_1_1_initial_instance.html#a6784833d638ca98d7582419cbc282fec',1,'gd::InitialInstance::GetY()']]],
+  ['getz',['GetZ',['../classgd_1_1_initial_instance.html#a1df2f21ca6078073f449956d66dd58c9',1,'gd::InitialInstance']]],
   ['getzorder',['GetZOrder',['../classgd_1_1_initial_instance.html#ad21e728f911fcfb2f03ebaecd8041eff',1,'gd::InitialInstance']]],
   ['globalobjectorgroupremoved',['GlobalObjectOrGroupRemoved',['../classgd_1_1_whole_project_refactorer.html#af08a0f95faf2c29472dec4bb2c2aecfc',1,'gd::WholeProjectRefactorer']]],
   ['globalobjectorgrouprenamed',['GlobalObjectOrGroupRenamed',['../classgd_1_1_whole_project_refactorer.html#ada0e1e88b90a968a0335ba6e29a89ded',1,'gd::WholeProjectRefactorer']]]
