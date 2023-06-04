@@ -5,14 +5,14 @@ title: Publishing games
 
 GDevelop allows you to publish your games to any modern platform: desktop, web and mobile. The game needs to be exported first.
 
-In order to export the game, click **Publish** on the menu bar above the GDevelop Interface. You will be presented with multiple options to choose from:
+In order to export the game, click **Publish** in the GDevelop Interface. You will be presented with multiple options to choose from:
 
 ![](/gdevelop5/sharegame.gif)
 
 ## Publish and share on gd.games
 
-[gd.games](https://gd.games) is the gaming platform hosted by GDevelop, dedicated to games powered by GDevelop.
-It's a perfect place to publish your game and share it to get feedback from players, friends. Hosting is free, and you can redirect your audience to the game page. 
+**[gd.games](https://gd.games)** is the gaming platform hosted by GDevelop, dedicated to games powered by GDevelop.
+It's a perfect place to publish your game and share it to get feedback from players or friends. Hosting is free, and you can redirect your audience to the game page.
 
 You can customise the link to your game, activate feedbacks and benefit from the GDevelop community of players and creators.
 
@@ -22,7 +22,7 @@ You can customise the link to your game, activate feedbacks and benefit from the
 
 ### Publish on Stores and other platforms
 
-  * **[Web (for web gaming platforms)](/gdevelop5/publishing/html5_game_in_a_local_folder):**  this option allows you to export your game in to a folder and upload it manually. This is perfect to share your game on [Game Jolt](/gdevelop5/publishing/publishing-to-gamejolt-store), [Itch.io](/gdevelop5/publishing/publishing-to-itch-io), [Poki](https://gdevelop.io/page/poki), [Crazy Games](https://gdevelop.io/page/crazy-games) or other web-based gaming platforms.
+  * **[Web (for web gaming platforms)](/gdevelop5/publishing/html5_game_in_a_local_folder):**  this option allows you to export your game in to a folder and upload it manually. This is perfect to share your game on [Poki](./poki), [Crazy Games](./crazy-games), Newgrounds, [Game Jolt](/gdevelop5/publishing/publishing-to-gamejolt-store), [Itch.io](/gdevelop5/publishing/publishing-to-itch-io) or other web-based gaming platforms.
   * **[Mobile (iOS, Android...)](/gdevelop5/publishing/android_and_ios):** this prepares your game for Android (iOS support is coming soon). Once ready, you get a link to play it on Android and [publish it to the Play Store](/gdevelop5/publishing/android_and_ios/play-store) (or App Store later for iOS) or on the [Amazon App Store](/gdevelop5/publishing/publishing-to-amazon-app-store).
   * **[Desktop (standalone executable, Steam...)](/gdevelop5/publishing/windows-macos-linux)**: this option bundles your game as a Windows, macOS or Linux application, perfect for [Steam](/gdevelop5/publishing/publish-to-steam) or other stores.
  * **[Facebook Instant Games (Messenger)](/gdevelop5/publishing/publishing-to-facebook-instant-games):** this prepare your game so that it can be uploaded on Facebook Instant Games and played on Messenger, shared with your friends and then published worldwide.

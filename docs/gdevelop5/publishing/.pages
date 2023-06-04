@@ -7,5 +7,13 @@ nav:
       - Mobile (with Cordova): android_and_ios_with_cordova.md
       - Desktop (with Electron): windows-macos-linux-with-electron.md
     - Stores and more:
-        - Instant Games (Facebook): publishing-to-facebook-instant-games.md
-        - ...
+        - Steam: publishing-to-steam
+        - Amazon App Store: publishing-to-amazon-app-store.md
+        - Instant Games on Facebook: publishing-to-facebook-instant-games.md
+        - CrazyGames: crazy-games
+        - Poki: poki
+        - Itch.io: publishing-to-itch-io.md
+        - Game Jolt: publishing-to-gamejolt-store.md
+        - Microsoft Store: publishing-to-windows-store.md
+        - Even more:
+          - ...
