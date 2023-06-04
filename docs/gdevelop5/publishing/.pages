@@ -7,7 +7,7 @@ nav:
       - Mobile (with Cordova): android_and_ios_with_cordova.md
       - Desktop (with Electron): windows-macos-linux-with-electron.md
     - Stores and more:
-      - Steam: publishing-to-steam
+      - Steam: publish-to-steam
       - Amazon App Store: publishing-to-amazon-app-store.md
       - Instant Games on Facebook: publishing-to-facebook-instant-games.md
       - CrazyGames: crazy-games
