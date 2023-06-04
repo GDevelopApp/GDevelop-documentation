@@ -16,4 +16,5 @@ nav:
       - Itch.io: publishing-to-itch-io.md
       - Game Jolt: publishing-to-gamejolt-store.md
       - Microsoft Store: publishing-to-windows-store.md
-      - ...
+      - Even more:
+        - ...
