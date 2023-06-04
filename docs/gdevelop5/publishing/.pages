@@ -1,4 +1,5 @@
 nav:
+    - index.md
     - Mobile (Android and iOS): android_and_ios
     - Desktop (Windows, macOS, Linux): windows-macos-linux.md
     - Web (gd.games): web.md
@@ -9,10 +10,11 @@ nav:
     - Stores and more:
       - Steam: publish-to-steam
       - Amazon App Store: publishing-to-amazon-app-store.md
-      - Instant Games on Facebook: publishing-to-facebook-instant-games.md
+      - Instant Games on Facebook: publishing-to-facebook-instant-games
       - CrazyGames: crazy-games
       - Poki: poki
       - Itch.io: publishing-to-itch-io.md
       - Game Jolt: publishing-to-gamejolt-store.md
       - Microsoft Store: publishing-to-windows-store.md
-      - ...
+      - Even more:
+        - ...
