@@ -22,7 +22,7 @@ Allows developers to use newgrounds API for their games
 Features:
 
 Conditions:
-   -UserIsLoggedIn
+   - UserIsLoggedIn
 
 Actions:
 

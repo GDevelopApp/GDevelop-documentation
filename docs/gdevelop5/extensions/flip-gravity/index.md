@@ -28,8 +28,8 @@ Flip platformer character gravity up side down.
 - Control the jump strength/force while flipped.
 - Auto handle animations.
 - 2 actions included:  
-1- You have 1 object at the top and bottom.  
-2- You have 2 objects, one at the bottom (floor), one at the top (roof).
+    1. You have 1 object at the top and bottom.  
+    2. You have 2 objects, one at the bottom (floor), one at the top (roof).
 
 
 *Note: this extension must run in every frame, so make sure to leave the event condition empty.  

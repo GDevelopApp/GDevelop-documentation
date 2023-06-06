@@ -7,10 +7,10 @@ Behavior for shape painter allows you to paint a color all over the screen for p
 
 ---
 
-* __Paint effect:__Action to paint a color all over the screen for a period of time with specific effect.
+* __Paint effect:__ Action to paint a color all over the screen for a period of time with specific effect.
 effect type:
+    * __Flash:__ is a monochrome color appear with fade then disappear with fade out.
 
-  * __Flash:__ is a monochrome color appear with fade then disappear with fade out.
   * __Vertical:__ is a monochrome color comes from right side then comes back.
   * __Horizontal:__ is a monochrome color come from top side then comes back.
   * __Circular:__ is a circle which increases from the center and narrows.

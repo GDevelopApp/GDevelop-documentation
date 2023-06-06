@@ -11,9 +11,9 @@ Throw an object that returns to the thrower after a length of time, or when an a
 
 How to throw a boomerang: 
 
--- Create a bomerang object that has this behavior
--- Use one of the "Throw boomerang..." actions
--- Run the "Track location of thrower" action every frame so the boomerang returns correctly
+- Create a bomerang object that has this behavior
+- Use one of the "Throw boomerang..." actions
+- Run the "Track location of thrower" action every frame so the boomerang returns correctly
 
 Tips:
 

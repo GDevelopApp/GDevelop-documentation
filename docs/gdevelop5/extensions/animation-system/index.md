@@ -17,12 +17,12 @@ Adds easy to use pre-made animations.
 
 Helpful for making animations for sprites without having to spend time animating the character in editors
 
--You can use multi animations on one object to get more effects
--For the animations that do Not have Trigger once, you can use Timers to make it Have one !
--Added condition to check if the door is Open or Close from animation (3D open/close door)
--Added condition to check if the animation has finished (if trigger once set to YES)
--User can change the origin point of the object to control the animations
--Animation behavior must be installed in the object to make the extension works
+- You can use multi animations on one object to get more effects
+- For the animations that do Not have Trigger once, you can use Timers to make it Have one !
+- Added condition to check if the door is Open or Close from animation (3D open/close door)
+- Added condition to check if the animation has finished (if trigger once set to YES)
+- User can change the origin point of the object to control the animations
+- Animation behavior must be installed in the object to make the extension works
 
 ---
 

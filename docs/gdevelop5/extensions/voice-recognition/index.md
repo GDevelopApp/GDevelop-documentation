@@ -24,20 +24,20 @@ Can be used for:
    - Voice Mobile App
 
 Features:
-	Conditions:
 
-		- OnSuccess
-		- OnError
+- Conditions:
+    - OnSuccess
+    - OnError
 
-	Actions:
 
-		- Start listening
+- Actions:
+    - Start listening
 
-	StringExpressions:
 
-		- RetrieveResultText
-		- RetrieveStatus
-		- RetrieveError
+- StringExpressions:
+    - RetrieveResultText
+    - RetrieveStatus
+    - RetrieveError
 
 [Example link](https://gdevelop.io/game-example/voice-recognition).
 

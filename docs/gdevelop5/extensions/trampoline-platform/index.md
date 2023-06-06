@@ -23,8 +23,8 @@ Convert object to trampoline platform.
 - Set which object can jump on that trampoline.
 - Set group of objects to jump on the trampoline.
 - Set the boolean (On/Off) to trigger the trampoline:
- 1. On: Trigger if player is on top of it.  
- 2. Off: Trigger if player collided with it.
+    1. On: Trigger if player is on top of it.
+     2. Off: Trigger if player collided with it.
 
 - Check if a trampoline has been triggered (for animations).
 
@@ -39,8 +39,8 @@ Convert object to trampoline platform.
 # Example
 ![](https://i.imgur.com/XIYBQB9.png)
 
-*-Recommended to use platform behavior (Jump through) on the trampoline.*  
-*-Extension action must run in every frame.*
+- *Recommended to use platform behavior (Jump through) on the trampoline.*  
+- *Extension action must run in every frame.*
 
 ---
 
