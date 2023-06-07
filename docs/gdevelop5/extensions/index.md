@@ -234,6 +234,7 @@ does or inspect its content before using it.
 |---|---|---|---|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/clock-time-eight.svg" class="extension-icon"></img>|**Clock**|Add clocks into your game.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/clock)|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/fac7ecb74ef7da92ab59c3e431fb9587c105c2889a41cfac489135c0eb4643d1_shield-key.svg" class="extension-icon"></img>|**Crypto Api**|Random number generator for integers and floats using the Crypto API.|[Read more...](https://developer.mozilla.org/en-US/docs/Web/API/Crypto/getRandomValues) ([reference](https://wiki.gdevelop.io/gdevelop5/extensions/crypto-api))|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/octagram-outline.svg" class="extension-icon"></img>|**Draw shock wave effect**|Will allow you to draw shock wave effects.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/draw-shock-wave-effect)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/waves.svg" class="extension-icon"></img>|**Dynamic Water**|Easily create a realistic liquid surface simulation.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/dynamic-water)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/selection-ellipse-arrow-inside.svg" class="extension-icon"></img>|**Object picking tools**|Adds various object picking related tools.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/object-picking-tools)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/format-text-rotation-none.svg" class="extension-icon"></img>|**Rotate a string 13 characters**|This extension rotates all alphabetic characters in a string by 13 characters.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/rotate13)|
@@ -317,10 +318,4 @@ Limitations: only works with browser games.|[Read more...](https://bitbucket.org
 ||Name|Description||
 |---|---|---|---|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/format-vertical-align-center.svg" class="extension-icon"></img>|**Align object on the screen**|Align objects on the scene relatively to the window (or screen size).|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/align-object)|
-
-### Visual effect
-
-||Name|Description||
-|---|---|---|---|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/octagram-outline.svg" class="extension-icon"></img>|**Draw a shock wave animation**|Draw a shock wave animation that looks like an explosion and other visual effects.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/draw-shock-wave-effect)|
 
