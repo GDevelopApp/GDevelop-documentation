@@ -117,6 +117,7 @@ var searchData=
   ['getangle',['GetAngle',['../classgd_1_1_initial_instance.html#a96ee45ceac99754307bbaf4325ca4698',1,'gd::InitialInstance']]],
   ['getanimation',['GetAnimation',['../classgd_1_1_sprite_object.html#a34eea73dadda77f265b280dc5105415a',1,'gd::SpriteObject::GetAnimation(std::size_t nb) const'],['../classgd_1_1_sprite_object.html#a54f24384e96891cde1c60159df9150a9',1,'gd::SpriteObject::GetAnimation(std::size_t nb)']]],
   ['getanimationscount',['GetAnimationsCount',['../classgd_1_1_sprite_object.html#ac59f9c90ea8ad18dad9193cba31d82c4',1,'gd::SpriteObject']]],
+  ['getantialiasingmode',['GetAntialiasingMode',['../classgd_1_1_project.html#a328d9cdd02e6340e08a99a20f8b90673',1,'gd::Project']]],
   ['getanyexpressionmetadata',['GetAnyExpressionMetadata',['../classgd_1_1_metadata_provider.html#a5341aa85bfc91a0d4a7c75f860e95bc3',1,'gd::MetadataProvider']]],
   ['getasformattedtext',['GetAsFormattedText',['../classgd_1_1_instruction_sentence_formatter.html#a8c049d907523916386990e41122a8bf7',1,'gd::InstructionSentenceFormatter']]],
   ['getassetstoreid',['GetAssetStoreId',['../classgd_1_1_object.html#a1c3d1758c1b0ffd05d996de989832c15',1,'gd::Object']]],

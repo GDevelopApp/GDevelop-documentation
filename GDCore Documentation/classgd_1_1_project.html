@@ -275,6 +275,14 @@ const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</t
 <tr class="separator:a390fe479a1a89ef3d39431f35392431f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab49ccebb66100af5686351239100a16a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project.html#ab49ccebb66100af5686351239100a16a">SetPixelsRounding</a> (bool enable)</td></tr>
 <tr class="separator:ab49ccebb66100af5686351239100a16a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a328d9cdd02e6340e08a99a20f8b90673"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project.html#a328d9cdd02e6340e08a99a20f8b90673">GetAntialiasingMode</a> () const</td></tr>
+<tr class="separator:a328d9cdd02e6340e08a99a20f8b90673"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa34f84a81352f24c6271717600014b12"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project.html#aa34f84a81352f24c6271717600014b12">SetAntialiasingMode</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;antialiasingMode_)</td></tr>
+<tr class="separator:aa34f84a81352f24c6271717600014b12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b4f1ee1e7ad3859f83d3dd3be2f6b64"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project.html#a8b4f1ee1e7ad3859f83d3dd3be2f6b64">IsAntialisingEnabledOnMobile</a> () const</td></tr>
+<tr class="separator:a8b4f1ee1e7ad3859f83d3dd3be2f6b64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dc1e0b2eecc9748b1e2eb3e6bed85aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project.html#a1dc1e0b2eecc9748b1e2eb3e6bed85aa">SetAntialisingEnabledOnMobile</a> (bool enable)</td></tr>
+<tr class="separator:a1dc1e0b2eecc9748b1e2eb3e6bed85aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae394a0bd5c5eedb5a687930f0b8cd4ea"><td class="memItemLeft" align="right" valign="top"><a id="ae394a0bd5c5eedb5a687930f0b8cd4ea"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project.html#ae394a0bd5c5eedb5a687930f0b8cd4ea">GetUseDeprecatedZeroAsDefaultZOrder</a> () const</td></tr>
 <tr class="memdesc:ae394a0bd5c5eedb5a687930f0b8cd4ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return if the project should set 0 as Z-order for objects created from events (which is deprecated) - instead of the highest Z order that was found on each layer when the scene started. <br /></td></tr>
@@ -787,6 +795,32 @@ std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html"
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_whole_project_refactorer.html" title="Tool functions to do refactoring on the whole project after changes like deletion or renaming of an o...">WholeProjectRefactorer</a> </dd>
 <dd>
 <a class="el" href="classgd_1_1_arbitrary_resource_worker.html" title="ArbitraryResourceWorker is used so as to inventory resources and sometimes update them...">ArbitraryResourceWorker</a> </dd></dl>
+
+</div>
+</div>
+<a id="a328d9cdd02e6340e08a99a20f8b90673"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a328d9cdd02e6340e08a99a20f8b90673">&#9670;&nbsp;</a></span>GetAntialiasingMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classgd_1_1_string.html">gd::String</a>&amp; gd::Project::GetAntialiasingMode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return the antialiasing mode used by the game ("none" or "MSAA"). </p>
 
 </div>
 </div>
@@ -1704,6 +1738,32 @@ std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html"
 
 </div>
 </div>
+<a id="a8b4f1ee1e7ad3859f83d3dd3be2f6b64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b4f1ee1e7ad3859f83d3dd3be2f6b64">&#9670;&nbsp;</a></span>IsAntialisingEnabledOnMobile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gd::Project::IsAntialisingEnabledOnMobile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return true if antialising is enabled on mobiles. </p>
+
+</div>
+</div>
 <a id="ac5892d095cdd4cfc19a2735bcc168857"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac5892d095cdd4cfc19a2735bcc168857">&#9670;&nbsp;</a></span>IsFolderProject()</h2>
 
@@ -2037,6 +2097,60 @@ std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html"
 
 <p>Set if the game resolution should be adapted to the window size at runtime. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_project.html#a34933d485e77ff416414539d1a072313" title="Set how to adapt the game size to the screen. ">SetSizeOnStartupMode</a> </dd></dl>
+
+</div>
+</div>
+<a id="aa34f84a81352f24c6271717600014b12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa34f84a81352f24c6271717600014b12">&#9670;&nbsp;</a></span>SetAntialiasingMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gd::Project::SetAntialiasingMode </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>antialiasingMode_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set the antialiasing mode used by the game ("none" or "MSAA"). </p>
+
+</div>
+</div>
+<a id="a1dc1e0b2eecc9748b1e2eb3e6bed85aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dc1e0b2eecc9748b1e2eb3e6bed85aa">&#9670;&nbsp;</a></span>SetAntialisingEnabledOnMobile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gd::Project::SetAntialisingEnabledOnMobile </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set whether antialising is enabled on mobiles or not. </p>
 
 </div>
 </div>

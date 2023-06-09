@@ -63,6 +63,7 @@ var searchData=
   ['is3dobject',['Is3DObject',['../classgd_1_1_object.html#a5250a5cace5c1211468c0085c8f0d43c',1,'gd::Object::Is3DObject()'],['../classgd_1_1_object_configuration.html#a190714b9fdc6ac4b45c15c0614cdad13',1,'gd::ObjectConfiguration::Is3DObject()']]],
   ['isabsolute',['IsAbsolute',['../classgd_1_1_abstract_file_system.html#adce96e1343abc395942d1a9a6e159e68',1,'gd::AbstractFileSystem']]],
   ['isaction',['IsAction',['../classgd_1_1_events_function.html#a5efebf055f5494f618e6d353866c468c',1,'gd::EventsFunction']]],
+  ['isantialisingenabledonmobile',['IsAntialisingEnabledOnMobile',['../classgd_1_1_project.html#a8b4f1ee1e7ad3859f83d3dd3be2f6b64',1,'gd::Project']]],
   ['isasync',['IsAsync',['../classgd_1_1_instruction_metadata.html#aed473f086d9c8dd444d96b5190a8a6b4',1,'gd::InstructionMetadata::IsAsync()'],['../classgd_1_1_events_function.html#a92c883ac80248e7a436e28165415be64',1,'gd::EventsFunction::IsAsync()']]],
   ['isasynccallback',['IsAsyncCallback',['../classgd_1_1_events_code_generation_context.html#af6e1655f32bbb70b48c3f61694354856',1,'gd::EventsCodeGenerationContext']]],
   ['isawaited',['IsAwaited',['../classgd_1_1_instruction.html#ae813427d3e0059acd964852f36a0fb77',1,'gd::Instruction']]],
