@@ -1,22 +1,27 @@
 # Rectangular movement
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/shape-rectangle-plus.svg" class="extension-icon"></img>
-Move objects on a rectangular path.
+Move objects in a rectangular pattern.
 
 **Authors and contributors** to this community extension: [4ian](https://gd.games/4ian), [VictrisGames](https://gd.games/VictrisGames), [D8H](https://gd.games/D8H).
 
 ---
 
-Move objects on a rectangular path and give a choice between easing functions (speed shapes).
+Move objects in a rectangular pattern with easing functions from the Tween extension.
 
 It can be used for:
 
+
 - Moveable platforms
 - Enemy movement patterns
+- Moving along the border of another object
 
- The platformer example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://platformer)).
+The platformer example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://platformer)).
 
-An example allows to check some settings ([open the project online](https://editor.gdevelop.io/?project=example://rectangular-movement)).
+This game shows how to make objects move around the border of another object ([open the project online](https://editor.gdevelop.io/?project=example://moving-saw-platformer)).
+
+This example can be used to test different settings ([open the project online](https://editor.gdevelop.io/?project=example://rectangular-movement)).
+
 
 ---
 
