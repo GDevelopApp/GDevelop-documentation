@@ -10,20 +10,18 @@ You can see your account details or, if you don't have one, create a new one for
 
 ## Create an account
 
- 1. Start by going to the **Home** screen.
- 2. In the top-right corner click on **Create account**.
+1. Start by going to the **Home** screen.
+2. In the top-right corner click on **Create account**.
 
-![](/gdevelop5/interface/profile/home not logged.png)
+    ![](/gdevelop5/interface/profile/home not logged.png)
 
- 3. Enter your username, fill in your email address, and choose a password.
- 4. Then click **Create account**.
- 5. To confirm your account creation, you will receive an email with a link to click on. 
+3. Enter your username, fill in your email address, and choose a password.
+4. Then click **Create account**.
+5. To confirm your account creation, you will receive an email with a link to click on.
 
 ![](/gdevelop5/interface/profile/account-create-details.png)
 
-
 Once you're logged into your account, you can see your profile. You can then use GDevelop's online services, like packaging your game in a single click!
-
 
 ### Customize your profile
 
@@ -53,11 +51,9 @@ If you find yourself needing more exports each day or a higher number of leaderb
 
 See the [pricing page](https://gdevelop.io/pricing) to know more about the advantages of the Silver, Gold, School, and Business subscriptions compared to the free plan.
 
-
 !!! note
 
         ✨ By taking a subscription you help the future development of GDevelop. Thank you for your support!
-
 
 Once you're logged in, go to your profile as described earlier in the page.
 Scroll down, and click on the **Choose a subscription** button beneath **My online services subscriptions**.
@@ -88,9 +84,8 @@ Cancelling your subscription at any time is easy.
 ![](/gdevelop5/interface/profile/cancel your subscription.png)
 
 !!! note
-		
-		If you want, you can later subscribe again to another subscription. In any case, you won't lose any of your games or work!
 
+        If you want, you can later subscribe again to another subscription. In any case, you won't lose any of your games or work!
 
 ### Redeem a code
 
@@ -108,13 +103,11 @@ If you’re lost, click on the link below to open your subscription panel in you
 
 ![](/gdevelop5/interface/profile/redeem a code.jpg)
 
-    
 Enter your code and press **Redeem**. It’s then applied in a few seconds to your account.
 
 ![](/gdevelop5/interface/profile/confirming your subscription.png)
 
 That’s it, the confirmation of your account will be shown. You’re ready to create incredible games!
-
 
 ## Contributions
 

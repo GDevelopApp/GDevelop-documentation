@@ -8,7 +8,6 @@ title: Leaderboard Administration
         Once you created a leaderboard, you can configure it. See more below on how to achieve that.
     To learn about how to send a score to a leaderboard and then display it, see [leaderboards](/gdevelop5/all-features/leaderboards).
 
-
 To manage leaderboards, start by opening the GDevelop application and clicking on "File" -> "Games Dashboard".  Find the game you want to manage and click "Manage game".  Next, click on the tab named "Leaderboards".
 
 ![](/gdevelop5/interface/games-dashboard/leaderboard-administration/pasted/20220429-164150.png)
@@ -30,10 +29,12 @@ There are a few settings that you can change to manage your leaderboard's sort o
 ![](/gdevelop5/interface/games-dashboard/leaderboard-administration/pasted/20220519-110604.png)
 
 ### Choose the sort order of your leaderboard
+
 A leaderboard can be sorted in ascending order (lower is better - for speed runs for example) or in descending order (higher is better - for collecting coins for instance).
 ![](/gdevelop5/interface/games-dashboard/leaderboard-administration/pasted/20220519-110104.png)
 
 ### Limit the value of submitted score
+
 If you have a rough idea of the extreme achievable score (minimum score for lower is better configuration and maximum score for higher is better configuration), it is advised to set a score limit that will prevent any score submission that go past this limit from being saved in your leaderboard, thus avoiding obvious cheaters with impossible values.
 
 ![](/gdevelop5/interface/games-dashboard/leaderboard-administration/pasted/20220519-110035.png)
@@ -115,9 +116,9 @@ Here is more details on the 2 options you have to format the score:
 * Configure a custom display so that scores have a prefix and a suffix
 * Choose the number of decimal places you want to be displayed
 * Here are a few examples for you to see what you can achieve with these settings:
-  * `$150`
-  * `96 coins`
-  * `250.60`
+    * `$150`
+    * `96 coins`
+    * `250.60`
 
 #### 2.Display as time
 
@@ -129,10 +130,10 @@ Choose the format you want to use:
 
 ![](/gdevelop5/interface/games-dashboard/leaderboard-administration/pasted/20220429-165539.png)
 
-  * `HH` corresponds to hours
-  * `MM` corresponds to minutes
-  * `SS` corresponds to seconds
-  * `ms` corresponds to milliseconds
+* `HH` corresponds to hours
+* `MM` corresponds to minutes
+* `SS` corresponds to seconds
+* `ms` corresponds to milliseconds
 
 !!! note
 

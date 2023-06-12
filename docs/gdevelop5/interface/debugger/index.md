@@ -9,9 +9,7 @@ The *Profiler* is a tool that measures the time spent on different aspects of yo
 
 !!! note
 
-
     This is an advanced feature of GDevelop. If you use it, we would like you to show your support for GDevelop by [getting a subscription](/gdevelop5/interface/profile)!
-
 
 ![](/gdevelop5/interface/debugger/pasted/20230304-171835.png)
 
@@ -79,7 +77,6 @@ Variables will be shown in a list showing variable names and values (either a nu
 Like other fields, you can **click on the value of the variable** to change it. It's a good way to see how your game is behaving according to the value of variables and test that your events are working properly.
 
 Variables can also be **structures**, meaning that they hold other variables. In this case, instead of seeing the value (number or text) of the variable, you will see a sub-list containing the children variables:
-
 
 Here is an example of a variable named "Options", containing children variables to store the options of a game:
 ![](/gdevelop5/interface/structure-variable-inspector.png)

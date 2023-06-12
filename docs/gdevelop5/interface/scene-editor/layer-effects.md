@@ -57,7 +57,6 @@ In this example, the Advanced bloom effect is called "Effect" and has several pa
 
 ![](/gdevelop5/interface/scene-editor/layer-effects/pasted/20230310-204831.png)
 
-
 You can then add an event with an action called "Effect Parameter":
 
 * Enter first the layer name (be sure to add quotation marks). For the base layer, enter an empty string (`""`).
@@ -77,7 +76,7 @@ You can then add an event with an action called "Effect Parameter":
 
     While most effects are intuitive enough to be used directly, some might require a bit more knowledge to understand what they do. This section explains some of the advanced effects.
 
-####  Color map
+#### Color map
 
 Applies a color-map effect on an object or layer.
 
@@ -85,10 +84,10 @@ Applies a color-map effect on an object or layer.
 
 This works by modifying a reference "color image map" containing all possible colors.
 
-  - Download the reference color map image below, or create your own.
-  - In an image editor (like Photoshop or GIMP), tweak the color balances of the reference color image map.
-      * e.g. In an image editor, using the invert colors function on the reference map will also invert all of the colors of the objects on the layer that the Color Map effect is used.
-  - Save it as a new file, then use this resulting file as the color image map for the effect in GDevelop.
+- Download the reference color map image below, or create your own.
+- In an image editor (like Photoshop or GIMP), tweak the color balances of the reference color image map.
+    * e.g. In an image editor, using the invert colors function on the reference map will also invert all of the colors of the objects on the layer that the Color Map effect is used.
+- Save it as a new file, then use this resulting file as the color image map for the effect in GDevelop.
 **Download the image file below and use it as the color map** in GDevelop:
 
 color-map-original-template.png (reference color map image): ![](/gdevelop5/interface/scene-editor/color-map-original-template.png)
@@ -104,13 +103,13 @@ color-map-model-3.png : ![](/gdevelop5/interface/scene-editor/color-map-model-3.
 
     Don't forget to make changes to the colors of this file using an image editor. Otherwise, no changes will be visible (as the original colors won't be changed).
 
-####  CRT
+#### CRT
 
 Applies a CRT effect, simulating an old cathode-ray tube television.
 
 ![](/gdevelop5/interface/scene-editor/crt-effect.png)
 
-####  Displacement
+#### Displacement
 
 This effect uses the pixel values from the specified texture (called the displacement map) to perform a displacement of an object or layer.
 
@@ -124,30 +123,29 @@ You can use this effect to apply all manner of warping effects. Currently, the `
 
 > It uses the values of the displacement map to look up the correct pixels to output. This means it's not moving the original. Instead, it's starting from the original output and displays the screen differently based on the displacement map. For example, if a displacement map pixel has red = 1 and the filter scale is 20, this filter will output the pixel approximately 20 pixels to the right of the original.
 
-
-####  Drop shadow
+#### Drop shadow
 
 Add a drop shadow under your object's visible on the layer.
 
 ![](/gdevelop5/interface/scene-editor/drop-shadow-effect.png)
 
-####  God rays
+#### God rays
 
 Cast rays of light from the top of the screen. **This won't work well if shown on top of the background color of the scene**. Be sure to use an object acting as a background or a floor.
 
 ![](/gdevelop5/interface/scene-editor/godray-effect.gif)
 
-####  Kawase blur
+#### Kawase blur
 
 This is a faster version of the traditional "Blur" effect. It's recommended that you use this one rather than the "Gaussian" blur effect.
 
-####  Outline
+#### Outline
 
 Add an outline on all objects of the layer having the effect.  **This won't work well if shown on top of the background color of the scene**. Be sure to use an object acting as a background or a floor.
 
 ![](/gdevelop5/interface/scene-editor/outline-effect.png)
 
-####  Pixelate
+#### Pixelate
 
 Applies a pixelated effect, making display objects appear 'blocky'.
 
@@ -157,13 +155,13 @@ Applies a pixelated effect, making display objects appear 'blocky'.
 
     For pixel-perfect or 8-bitgames, you can change the **Scale mode** options in your [game properties](/gdevelop5/interface/project-manager/properties) instead of using this effect.
 
-####  RGB split
+#### RGB split
 
 Separate each component's RGB(red, green, blue) colors and display them on the screen with an offset:
 
 ![](/gdevelop5/interface/scene-editor/rgb-effect.png)
 
-####  Tilt shift
+#### Tilt shift
 
 Add blur to the top and bottom of the entire layer or object. Perfect to simulate a tiny world or a camera focus effect.
 

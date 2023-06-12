@@ -55,7 +55,6 @@ You can now close the pop-up window in the editor and continue to edit your game
 
 You can also hit the "Reload" button of your device browser to restart the preview from the beginning.
 
-
 ## Launch a preview with the Debugger and the Profiler
 
 The **Debugger** is a tool that can be used to inspect the content of your game (values of variables, existing instances, and their properties...) and can even be used for some real-time editing. The **Profiler** is a tool to inspect the performance of your game.

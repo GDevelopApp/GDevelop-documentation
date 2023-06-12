@@ -99,6 +99,7 @@ By clicking the grid button in the toolbar, you get multiple options:
 By clicking on the zoom button, you can change the zoom level inside the scene editor:
 
 ![](/gdevelop5/interface/scene-editor/pasted/20230307-154849.png)
+
 ## Launch a preview of the scene
 
 By clicking on the "Preview" button, you can launch a preview of your game.

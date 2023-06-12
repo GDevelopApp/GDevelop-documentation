@@ -35,5 +35,5 @@ You can use an external events sheet by linking to it with the [Link event type]
 
 External Events are good to use when you'd like to isolate one large block of events in your events sheet, either to keep things clean or to use in multiple places throughout your event sheet and game. Some examples include:
 
-  * Isolating the events associated with a particular object to reduce clutter
-  * Moving your entire game logic to an events sheet to be used over multiple scenes of global objects
+* Isolating the events associated with a particular object to reduce clutter
+* Moving your entire game logic to an events sheet to be used over multiple scenes of global objects
