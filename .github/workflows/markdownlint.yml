@@ -1,0 +1,30 @@
+name: Lint Markdown
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [opened, synchronize, reopened, edited]
+  workflow_dispatch:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+    - uses: tj-actions/changed-files@v36
+      id: changed-files
+      with:
+        files: 'docs/gdevelop5/**/*.md'
+        files_ignore: | # auto-generated pages
+          docs/gdevelop5/all-features/**/reference.md
+          docs/gdevelop5/extensions/**/*.md
+        separator: ","
+    - uses: DavidAnson/markdownlint-cli2-action@v10
+      if: steps.changed-files.outputs.any_changed == 'true'
+      with:
+        globs: ${{ steps.changed-files.outputs.all_changed_files }}
+        separator: ","
