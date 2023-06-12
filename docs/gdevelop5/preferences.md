@@ -5,7 +5,7 @@ title: Preferences
 
 You can change how GDevelop looks and acts to your liking.
 
-##Opening Preferences
+## Opening Preferences
 
 On the **web app**: Projects manager → Preferences
 
@@ -17,7 +17,7 @@ The preferences window will look like this:
 
 ![](/gdevelop5/preferences.png)
 
-##Changing the theme
+## Changing the theme
 
 ![](/gdevelop5/properties-appearance.png)
 
@@ -31,7 +31,7 @@ Themes allow you to change how the interface looks
 
 There are multiple themes you can choose from. You can also create your own themes! See, [how you can make one](https://github.com/4ian/GDevelop/blob/master/newIDE/README-themes.md)
 
-##Changing backdrop click behaviour
+## Changing backdrop click behaviour
 
 ![](/gdevelop5/properties-dialogue.png)
 
@@ -43,8 +43,7 @@ If **Cancel changes** is selected, the changes done in the current window will b
 
 If **Apply changes**(Default) is selected, the changes done in the current window will be **applied**(Only happens in some windows)
 
-
-##Hints and Explanations
+## Hints and Explanations
 
 GDevelop shows some hints/explanations for some features in the UI. You can toggle them off if you don't want them to be shown.
 
@@ -72,6 +71,3 @@ Some language might not be fully supported, you can see the estimate of how much
 You can help translate GDevelop to your language and report any mistakes. It would be much appreciated.
 
 ![](/gdevelop5/changinglanguage2.png)
-
-
-
