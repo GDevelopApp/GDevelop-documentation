@@ -21,7 +21,7 @@ For example, to display:
 
 You shall write:
 
-```
+```md
 - Getting started
     - First step
     - Second step
@@ -41,7 +41,7 @@ List of objects:
 
 will be rendered as:
 
-```
+```md
 List of objects: - Sprite - Text
 ```
 
@@ -67,7 +67,7 @@ For example, to display:
 
 You shall write:
 
-```
+```md
 1. First item
     1. First nested item
     1. Second nested item
@@ -84,9 +84,9 @@ Use this syntax:
 
 ```md
 <div class="video-container">
-<video controls>
-  <source src="/gdevelop5/objects/ParticleEmitterWishforgeVideo.mp4">
-</video>
+  <video controls>
+    <source src="/gdevelop5/objects/ParticleEmitterWishforgeVideo.mp4">
+  </video>
 </div>
 ```
 
