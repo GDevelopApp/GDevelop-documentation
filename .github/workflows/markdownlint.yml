@@ -24,7 +24,7 @@ jobs:
           docs/gdevelop5/extensions/**/*.md
         separator: ","
     - uses: DavidAnson/markdownlint-cli2-action@v10
-      if: steps.changed-files.outputs.any_changed == 'true'
+      if: ${{ github.event_name == 'workflow_dispatch' }} || steps.changed-files.outputs.any_changed == 'true'
       with:
         globs: ${{ steps.changed-files.outputs.all_changed_files }}
         separator: ","
