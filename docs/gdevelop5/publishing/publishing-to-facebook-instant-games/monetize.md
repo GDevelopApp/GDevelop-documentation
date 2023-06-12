@@ -16,8 +16,8 @@ Note that ads will only work on mobile: as indicated on the [Facebook documentat
 To begin, you need to create an ad placement. For this you need to:
 
 * Have Facebook Audience Network into your app:
-go to https://business.facebook.com/pub/start
-* Have an ad placement created: go to https://www.facebook.com/help/publisher/355647874927053/ and follow the instructions.
+go to <https://business.facebook.com/pub/start>
+* Have an ad placement created: go to <https://www.facebook.com/help/publisher/355647874927053/> and follow the instructions.
 
 In the end, copy the **ad placement id** (click on Copy ID when you are shown the *Placement ID*).
 
@@ -56,7 +56,6 @@ For showing a reward video ad, do the same as the interstitial but use the actio
 !!! warning
 
     If things are not working, double check that you've loaded the interstitial or video, using the proper placement id (with double quotes around it).
-
 
 ## Examples
 

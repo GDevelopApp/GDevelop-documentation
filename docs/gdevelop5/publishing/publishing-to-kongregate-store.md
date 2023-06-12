@@ -31,7 +31,7 @@ You can know more about Kongregate [here](https://kong.zendesk.com/hc/en-us/cate
 
 ## Making the Package Ready to Publish
 
-Our aim is to make the game playable in the web browser in the form of a HTML5 game. In order to upload the files to the web, we must archive it in a` .zip` file. **Firstly**, open the folder and move the `index.html` file out of there. We need that file separately. Make sure there is no remaining `index.html` file inside that folder. Now we need to archive the folder data.
+Our aim is to make the game playable in the web browser in the form of a HTML5 game. In order to upload the files to the web, we must archive it in a `.zip` file. **Firstly**, open the folder and move the `index.html` file out of there. We need that file separately. Make sure there is no remaining `index.html` file inside that folder. Now we need to archive the folder data.
 
 To archive your game folder, you are going to need an archiving tool. There are several free options available. We will be using [7-Zip](http://www.7-zip.org) in this tutorial. Make sure you have downloaded and installed 7Zip using the link given.
 

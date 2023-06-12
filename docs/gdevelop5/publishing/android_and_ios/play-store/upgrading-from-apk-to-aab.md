@@ -57,13 +57,13 @@ Click on the **Opt In** button when you are on the screen to *create a new relea
 
 ![](/gdevelop5/publishing/android_and_ios/play-store/upgrading-from-apk-to-aab/pasted/20210721-133413.png)
 
-In the next screen, choose ** Export and upload a key from Java keystore**, and then upload 2 files (see next section).
+In the next screen, choose **Export and upload a key from Java keystore**, and then upload 2 files (see next section).
 
 ![](/gdevelop5/publishing/android_and_ios/play-store/upgrading-from-apk-to-aab/pasted/20210721-162525.png)
 
 ### 2.3: Upload the two files
 
-After choosing ** Export and upload a key from Java keystore**:
+After choosing **Export and upload a key from Java keystore**:
 
 - Click **Upload Private Key** and choose the "encrypted-private-key" file sent to you.
 - Click **Show instructions** next to *"For increased security, create a new upload key"* (this is mandatory to do!).
@@ -100,7 +100,6 @@ Click on **Upload** and choose the Android App Bundle (.aab) file that was gener
 
 After uploading the Android App Bundle file, it will be displayed:
 ![](/gdevelop5/publishing/android_and_ios/play-store/upgrading-from-apk-to-aab/pasted/20210721-170030.png)
-
 
 You can then complete the informations and publish the release as usual (enter the release notes, click **Save** then click **Review release**).
 

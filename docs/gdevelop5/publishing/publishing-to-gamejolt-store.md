@@ -39,7 +39,7 @@ This is the page where you will be handling your game releases. To add your firs
 
 ![](/gdevelop5/publishing/screenshot_20190610212747.png)
 
-Two options, namely, `Upload Downloadable Build` and `Upload Browser Build`, will be available here. The downloadable build is for distributing executable files that can run on the system. Since you want your game to be playable in the browser, click on `Browse` under the `Upload Browser Build` option and select the ` .zip` HTML5 package that you had created before.
+Two options, namely, `Upload Downloadable Build` and `Upload Browser Build`, will be available here. The downloadable build is for distributing executable files that can run on the system. Since you want your game to be playable in the browser, click on `Browse` under the `Upload Browser Build` option and select the `.zip` HTML5 package that you had created before.
 
 ![](/gdevelop5/publishing/screenshot_20190610213123.png)
 

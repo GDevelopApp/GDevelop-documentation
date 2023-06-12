@@ -5,16 +5,15 @@ title: Publish your game to Windows, macOS and Linux
 
 GDevelop can publish games to Windows, macOS, and even Linux!
 
-
 ## Make sure that your game is ready for packaging!
 
 It is important to verify that your game is ready to be exported as an executable:
 
-  * In the game properties (accessible from the [Project Manager](/gdevelop5/interface)), make sure to enter a valid _package name_. A package name is an identifier like this : `com.yourname.gamename`. It's like the address of a website but reversed. You can choose any package name provided that:
-      * It is not used by another game or application on iOS or Android.
-      * It is written with only letters, numbers and dots. Only put one dot between words (for example, `com..mygame` or `..mygame` are not valid), and limit this identifier to 2-5 words maximum.
-  * In the game properties, enter a valid version number (like 1.0.0, 1.0.1...)
-  * Check that you've set up icons.
+* In the game properties (accessible from the [Project Manager](/gdevelop5/interface)), make sure to enter a valid _package name_. A package name is an identifier like this : `com.yourname.gamename`. It's like the address of a website but reversed. You can choose any package name provided that:
+    * It is not used by another game or application on iOS or Android.
+    * It is written with only letters, numbers and dots. Only put one dot between words (for example, `com..mygame` or `..mygame` are not valid), and limit this identifier to 2-5 words maximum.
+* In the game properties, enter a valid version number (like 1.0.0, 1.0.1...)
+* Check that you've set up icons.
 
 ## Launch export
 
