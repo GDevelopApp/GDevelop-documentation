@@ -71,8 +71,6 @@ Run the game. Now you can see the meteors on the scene. If you hit some meteors,
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-chapter-7-demo-min.gif)
 
-##Next step
+## Next step
 
 [Space Shooter, Part 8](/gdevelop5/tutorials/space-shooter/8-powerups)
-
-

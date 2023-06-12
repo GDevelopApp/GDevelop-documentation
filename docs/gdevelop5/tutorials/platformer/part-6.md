@@ -18,7 +18,6 @@ You are reading **Part 6** of the [Platformer Tutorial](/gdevelop5/tutorials/pla
 7. [Part 7: Make Enemies Kill the Player (and the Player Kill the Enemies)](/gdevelop5/tutorials/platformer/part-7)
 8. [Part 8: Add Checkpoints to the Game](/gdevelop5/tutorials/platformer/part-8)
 
-
 ## Step 1: Create an object for the enemy
 
 1. Create a Sprite object named "Slime".
@@ -123,7 +122,7 @@ This step focuses on creating the "Left" object. When the enemy collides with th
 1. Add the **Flip the object horizontally** action to the event.
 2. Set the **Activate flipping** option as **Yes**.
 
-This ensures that the "Slime" object changes *and* faces a different direction, rather than just changing directions.
+This ensures that the "Slime" object changes _and_ faces a different direction, rather than just changing directions.
 
 ### Change the enemy's direction
 

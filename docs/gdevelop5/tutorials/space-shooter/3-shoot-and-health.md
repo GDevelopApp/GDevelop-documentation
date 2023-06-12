@@ -40,6 +40,7 @@ Repeat the same step to install **Fire Bullets** behavior.
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-install-fire-behavior-2.gif)
 
 ## Add health and fire capability to the player
+
 On the player's edit view, click on **Add a new behavior to the object** and search **"fire"** on **Installed Behaviors**. Then, select **Fire Bullets**. We'll now be able to fire bullets using an action that we'll add in the next steps.
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-add-fire-behavior-2.gif)
@@ -111,6 +112,6 @@ Save and run the game. Try pressing **Space** to see how you can shoot.
 
      We will add some **health** actions later, after creating our enemies.
 
-##Next step
+## Next step
 
 In the next chapter, we'll add a background and make the camera move: [Space Shooter, Part 4](/gdevelop5/tutorials/space-shooter/4-background-and-camera)

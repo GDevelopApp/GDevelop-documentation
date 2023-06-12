@@ -27,8 +27,7 @@ You then have multiple solutions to work with these multiple files:
 
 * Ideally, if you know a bit about version control like [git](https://git-scm.com/), [mercurial](https://www.mercurial-scm.org/) or [subversion (a.k.a "svn")](https://subversion.apache.org/), it's strongly recommended to use it. A version control system allows you to inspect changes you made on the files (and even only select some to share), then "push" these changes in a common repository.
 * Otherwise, you can have a Dropbox/OneDrive/Cloud storage service where you have a "master project" folder. You create a copy of this folder when starting to work. Then you can periodically copy files back to this master project when you're done with some work on a level.
-   * If using Dropbox, OneDrive, or something like Google Drive, ensure that they are not actively monitoring the project folder. The way these systems sync files constantly can cause file corruption in the project json file, and prevent bundled tools like Piskel from working correctly.
-
+    * If using Dropbox, OneDrive, or something like Google Drive, ensure that they are not actively monitoring the project folder. The way these systems sync files constantly can cause file corruption in the project json file, and prevent bundled tools like Piskel from working correctly.
 
 !!! warning
 

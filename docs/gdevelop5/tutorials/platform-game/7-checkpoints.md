@@ -26,7 +26,6 @@ We start with a condition to check to see if there is a collision between the "p
 
 ![](/gdevelop5/tutorials/platform-game/checkpoint_Var.png)
 
-
 ![](/gdevelop5/tutorials/platform-game/checkpoint_event.png)
 
 Above, we are using _expressions_ to get the X and Y position of the "checkpoint" object sprite. This is done in a similar manner to the way that we updated the score text.
@@ -44,7 +43,6 @@ Above, we are using _expressions_ to get the X and Y position of the "checkpoint
     When you click the blue icon, you can search all the available expressions sorted into categories.
 
     ![](/gdevelop5/tutorials/platform-game/expression-editor.png)
-
 
 The condition now stores the X and Y position of the "checkpoint" object with which our "Player" object has collided. So, instead of deleting the "Player" sprite object, we set its X and Y positions using the variables.
 

@@ -65,7 +65,7 @@ title: Video Tutorials
 - [Admob : Reward videos](https://www.youtube.com/watch?v=jcTH7jSAr_g)
 - [How to implement google admob](https://www.youtube.com/watch?v=gqmy9e7fZdc)
 
-##Publish games
+## Publish games
 
 - [How to Publish Your game on itch.io](https://www.youtube.com/watch?v=HE8JauEOyhw)
 - [How to Build HTML 5 games offline](https://www.youtube.com/watch?v=QrVH7ELpeYw)

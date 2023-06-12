@@ -5,7 +5,7 @@ title: A Beginner's Tutorial to a Space Shooter Game
 
 ![](/gdevelop5/tutorials/bandicam20g190529161603928.gif) This tutorial will help you to get familiar with the way GDevelop works. In this tutorial, we are going to create a very basic space shooter game where the **enemies are generated randomly** and the player has to destroy them in order to get a higher score. There will be a target score for each level, which on being reached will take you to the next level.
 
-To know the basics of how the software works, you can refer [](/gdevelop5/getting_started) for more information. In this tutorial, we will use separate scenes to build a start screen and the level scene. *The first part of this tutorial aims at creating the **Game Menu**. *
+To know the basics of how the software works, you can refer [](/gdevelop5/getting_started) for more information. In this tutorial, we will use separate scenes to build a start screen and the level scene. *The first part of this tutorial aims at creating the **Game Menu**.*
 
 ## Download GDevelop
 
@@ -47,7 +47,7 @@ Click on the area where it says "Click to add a Scene" to create your first empt
 
 You can customize the name of your scene by clicking on the **three dots** next to the created scene and clicking on **Rename**. Make sure to create **2** scenes. If you haven't renamed them, they will appear as **NewScene** and **NewScene2**.
 
->  Every game needs assets or resources to be used in the game. For this game, the **Resources** are already provided to you in the source file mentioned above.tip
+> Every game needs assets or resources to be used in the game. For this game, the **Resources** are already provided to you in the source file mentioned above.tip
 
 ## Step 3: Getting Started with the Scene
 
@@ -57,7 +57,7 @@ In this part of the tutorial, we are going to create a Staring Menu for our game
 
 You should see the **Object** tab and the **Properties** tab. ![](/gdevelop5/tutorials/screenshot_20190523182052.png) ![](/gdevelop5/tutorials/screenshot_20190523182628.png) If by any chance, you cannot see those tabs, click on the icon shown on the left to open the "Objects" tab. Similarly, click on the icon on the right to open the "Properties" tab.
 
->  The game menu we are going to create, will have some **text objects** to display the name of the game, and a **button** to start the game. tip
+> The game menu we are going to create, will have some **text objects** to display the name of the game, and a **button** to start the game. tip
 
 ## Step 4: Creating the Game Menu
 

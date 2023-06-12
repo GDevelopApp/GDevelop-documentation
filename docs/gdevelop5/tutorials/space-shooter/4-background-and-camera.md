@@ -94,7 +94,7 @@ As the camera on the base layer moves towards the left, we have to add a force t
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-move-player.png)
 
-## Testing out
+## Testing out
 
 This is the latest version of the **Events page**.
 
@@ -106,5 +106,6 @@ It is the demo of what we had covered in this chapter. Now, the camera and backg
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-chapter-4-demo-min.gif)
 
-#Next step
+# Next step
+
 [Space Shooter, Part 5](/gdevelop5/tutorials/space-shooter/5-enemies)

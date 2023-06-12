@@ -18,7 +18,6 @@ If you do not have **GDevelop 5**, download it from the [official website](https
 
 Always download GDevelop from this page to be sure to have the latest version. Install (or extract) GDevelop and launch it.
 
-
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-24_at_22.57.02.png)
 
 ## Create a new game
@@ -27,7 +26,7 @@ Click on `Create a new project` on the start page. In the window, choose a folde
 
 ![](/gdevelop5/tutorials/platform-game/screenshot_20190604200258.png)
 
-For making our game, we will need to have assets that we can use (the player character, a few platforms, items to collect...). You can download resources here: http://www.compilgames.net/dl/PlatformerTutorialResources.zip.
+For making our game, we will need to have assets that we can use (the player character, a few platforms, items to collect...). You can download resources here: <http://www.compilgames.net/dl/PlatformerTutorialResources.zip>.
 
 Once you have downloaded this file, extract its content in the folder where you created the project.
 

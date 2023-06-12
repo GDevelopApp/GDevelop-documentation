@@ -43,7 +43,7 @@ We'll now create an object group called **"Enemies"**. This will be useful in ev
 
     [Read this page](/gdevelop5/objects) to learn more about object groups.
 
-Click on the **object groups editor** button on the upper right. Then, click to** add a new group**, and add the enemy objects one by one.
+Click on the **object groups editor** button on the upper right. Then, click to **add a new group**, and add the enemy objects one by one.
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-create-object-group-min.gif)
 
@@ -105,7 +105,6 @@ Finally, we need to give **a force to move enemies**. However, we should provide
 
     You can ask why we are using **450** because it is **half of the screen width**. Remember, our **width** is set to **900**. If you use any other resolution, you need to change it.
 
-
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-camera-position-for-enemies.png)
 
 In the event's action, we will give **a force to the Enemies** as we did in the previous steps. Ensure that **the angle is 180**, **the speed is 200** pixels per second, and the **Instant** option is checked.
@@ -156,10 +155,9 @@ We also need to reset the **IsDamaged** to 0 because this will prevent our playe
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-reset-is-damaged.png)
 
-
 ## Restarting the game
 
-Our game is over when the player is dead. Add a new condition to **check the player is dead or not**. Then, add an action to restart the game. Type ** "scene" ** on the search bar and select **Change the scene**. Just select the **"Base Scene"** or your scene's name.
+Our game is over when the player is dead. Add a new condition to **check the player is dead or not**. Then, add an action to restart the game. Type **"scene"** on the search bar and select **Change the scene**. Just select the **"Base Scene"** or your scene's name.
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-reset-scene.png)
 
@@ -187,7 +185,6 @@ Now, we are ready to play our game. We can shoot the enemies, and the player can
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-chapter-5-demo-min.gif)
 
-##Next step
+## Next step
+
 [Space Shooter, Part 6](/gdevelop5/tutorials/space-shooter/6-enemy-mechanics)
-
-

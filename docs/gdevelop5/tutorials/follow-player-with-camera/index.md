@@ -13,7 +13,6 @@ This article includes instructions for implementing this functionality either wi
 
     Learn more about [layers and cameras](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/layers-and-cameras/#cameras) and [how to keep UI objects on screen](/gdevelop5/tutorials/keep-ui-on-screen).
 
-
 ## Follow an object smoothly
 
 Adding the **Smooth Camera** [behavior](https://wiki.gdevelop.io/gdevelop5/behaviors#adding_a_behavior_to_an_object) to the character make the camera follow it automatically. The **Move camera closer** action can still be used to avoid a 1-frame delay.
@@ -22,13 +21,11 @@ Adding the **Smooth Camera** [behavior](https://wiki.gdevelop.io/gdevelop5/behav
 
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
-
 ## Move several layers together
 
 Games can contain a lot of objects and using several layers is a good solution to organize a project. All layers (except for UI layers) should likely be moved the same way when a character is followed.
 
 The [copy camera settings](https://wiki.gdevelop.io/gdevelop5/extensions/copy-camera-settings/) extension allows to copy a camera position to another one. The camera that follows the player can be copied to any other camera layers.
-
 
 ## Keep an object at the exact center of the screen
 
@@ -39,7 +36,6 @@ After that, select the character that will be followed by the camera and check t
 The **Action** should look like this:
 
 ![](pasted/20230316-155732.png)
-
 
 ## Make a custom camera following
 

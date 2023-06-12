@@ -29,7 +29,8 @@ Click on the **"Base Scene (Events)"** tab to open the events editor, where we d
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-open-events-2.gif)
 
-##Make the spaceship move with the keyboard
+## Make the spaceship move with the keyboard
+
 Click "Add Condition." Then there will be a popup menu to select your conditions. We will use the search bar on the top of the view. We will type **"Key"** and will select **"Key Pressed."** Then on the right menu, we will type **Right** to control the Right arrow.
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-add-condition.gif)
@@ -56,11 +57,11 @@ Then change the pressed key and angle of the force, just like in the screenshot 
 
     Although our event page seems clear right now, it can get longer and more complex after adding more actions and conditions. Hence, adding comments is useful to explain what these actions do (even if these are quite simple).
 
-To add a comment, we will click on the on the ** "add a comment"** icon on the upper right and type our comment, in this case, "**Controls**." Then, drag the comment to the top of our actions.
+To add a comment, we will click on the on the **"add a comment"** icon on the upper right and type our comment, in this case, "**Controls**." Then, drag the comment to the top of our actions.
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-comment.gif)
 
-##Check that the player movement works
+## Check that the player movement works
 
 Finally, we can test our game by clicking the **"Run"** button on the upper left.
 
@@ -70,9 +71,6 @@ It will run the game on your device, and you will be able to control your player
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-move-player-demo.gif)
 
-##Next step
+## Next step
 
 [Space Shooter, Part 3](/gdevelop5/tutorials/space-shooter/3-shoot-and-health)
-
-
-

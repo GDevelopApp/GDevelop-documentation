@@ -46,6 +46,7 @@ Our object is now ready, click "Apply" in the bottom right corner.
 ## Use events to change animations
 
 ### The first event: animate when jumping
+
 !!! tip
 
     Please note that this tutorial shows screenshots using the Full List editor mode rather than the Object-specific (new) editor mode. [Click here to see examples of each editor mode and how to switch.](/gdevelop5/tutorials/change-event-editor-mode)
@@ -163,6 +164,7 @@ You can launch a preview of your game and see that the player animation is chang
 A small improvement we can do is to set the animation to Jumping when the player is falling ​too (otherwise ​the Running ​animation ​keeps playing ​when the player ​reaches the end of a platform).
 
 ![](/gdevelop5/tutorials/platform-game/screen_shot_2017-09-26_at_22.23.10.png)
+
 ## Next step: have the camera follow the player
 
 For now, it's hard to build a large level to explore because the player can quickly walk outside of the screen! The next part of the tutorial will show how to make the camera follow the player. It's really simple, a single event will be enough!

@@ -23,7 +23,6 @@ You are reading **Part 3** of the [Platformer Tutorial](/gdevelop5/tutorials/pla
 7. [Part 7: Make Enemies Kill the Player (and the Player Kill the Enemies)](/gdevelop5/tutorials/platformer/part-7)
 8. [Part 8: Add Checkpoints to the Game](/gdevelop5/tutorials/platformer/part-8)
 
-
 ## Step 1: Create an object
 
 The first step is to create an object for the platform. If you followed the first and second parts of this tutorial, this is a similar -- but not identical -- process.
@@ -72,8 +71,8 @@ To create a platform with the **Jumpthru platform** behavior:
 2. Use the "bridgeLogs.png" asset as the object's image.
 3. Open the **Behaviors** tab.
 4. Select **Platform behavior**.
-6. From the **Type** dropdown, select **Jumpthru platform**.
-7. Click **Apply**.
+5. From the **Type** dropdown, select **Jumpthru platform**.
+6. Click **Apply**.
 
 Then drag some instances of the object into the scene.
 

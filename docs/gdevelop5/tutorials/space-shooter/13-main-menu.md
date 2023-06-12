@@ -89,7 +89,7 @@ In the end, your events should look this:
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-chapter-13-events.png)
 
-##Finishing the game
+## Finishing the game
 
 Open the events of **Base Scene** and find the event to create objects from external layouts.
 
@@ -107,7 +107,7 @@ As a final step, find the event about detecting the collision between the **Play
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-change-level-with-variable.png)
 
-##The End
+## The End
 
 Now, we are ready to play our game. Open the **Main Menu Scene** and run the game. Enjoy!
 

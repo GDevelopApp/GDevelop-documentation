@@ -97,7 +97,6 @@ Then, open the scene view and drag and drop the powerup objects to the scene. We
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-chapter-8-demo-min.gif)
 
-##Next step
+## Next step
 
 [Space Shooter, Part 9](/gdevelop5/tutorials/space-shooter/9-ui)
-
