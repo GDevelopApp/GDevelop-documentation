@@ -50,7 +50,6 @@ This section lists the different types of objects, each of which serves a unique
 
 ![](pasted/20230221-180825.png)
 
-
 ## Choosing a name for your object
 
 Objects are given a default name when they are created. You can change this from the object editor or using the context menu on the object in the objects list.
@@ -58,7 +57,7 @@ Objects are given a default name when they are created. You can change this from
 Note that there are limitations on how you name your object: you can only use alphanumeric characters and no spaces. You can use an underscore if you want to make a separation between words (though usually, games are using casing to separate words. For example: `EnemyBullet`).
 This is to make sure your object will be recognized properly when used in [expressions](/gdevelop5/all-features/expressions).
 
-Some good exampless of names are: `Player`, `RedEnemy`, `Red_Enemy`, `Car1`, `FinalBoss`, `Final_Boss`, `Wall`... Giving a descriptive name is useful to make sure you can quickly identify objects in the events.
+Some good examples of names are: `Player`, `RedEnemy`, `Red_Enemy`, `Car1`, `FinalBoss`, `Final_Boss`, `Wall`... Giving a descriptive name is useful to make sure you can quickly identify objects in the events.
 
 ## Adding an instance of an object to a scene
 
@@ -145,6 +144,7 @@ By default, object instances are all marked as visible, meaning that they are di
 !!! tip
 
     Some objects, like Sprite or Text objects, can also have an **opacity**. The opacity, between 0 and 255, defines how transparent an object is (0 being fully transparent, 255 is the fully opaque and is the default). This can be changed independently from the visibility.
+
 ## Adding effects to objects
 
 You can add extra visual effects to objects. For example, you could use the "Outline" effect to make an object to pick up or to use more visible. You can also use more advanced visual effects that change the shape of the object or create interesting visual results.

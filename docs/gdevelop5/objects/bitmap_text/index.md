@@ -11,7 +11,6 @@ It's especially useful for scores, titles, button labels, pixel-art games...
 
         As all characters are designed in an external editor, and a texture is generated with these characters, a Bitmap Text is more performant to render but also way less flexible, in particular if you want to display a text entered by a user in any language. If that's the case, take a look at the [Text object](/gdevelop5/objects/text) or at the [BBtext object](/gdevelop5/objects/bbtext).
 
-
 ![](pasted/20210510-003631.png)
 
 ## Creating "Bitmap Font" files

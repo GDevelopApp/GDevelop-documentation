@@ -7,9 +7,9 @@ title: Toggle Switch
 
 ![type:video](https://www.youtube.com/embed/plkHd4uPI4U)
 
-###  Add a toggle switch to a game
+### Add a toggle switch to a game
 
-####  Get a toggle switch from asset store
+#### Get a toggle switch from asset store
 
 The [Settings UI asset pack](https://gdevelop.io/asset-store/free/settings-ui-settings-ui) from the asset store contains free and read-to-use toggle switches.
 
@@ -19,7 +19,7 @@ The [Settings UI asset pack](https://gdevelop.io/asset-store/free/settings-ui-se
 
     This pack also contains [sliders](/gdevelop5/objects/slider).
 
-####  Create a toggle switch from scratch
+#### Create a toggle switch from scratch
 
 Toggle switches need one image for each state: checked or unchecked.
 
@@ -27,7 +27,7 @@ Toggle switches need one image for each state: checked or unchecked.
 
     The states transition can be animated. It works the same way as [Sprites](/gdevelop5/objects/sprite).
 
-###  Get toggle switch states
+### Get toggle switch states
 
 Toggle switch states can be checked with the "Is checked" condition.
 

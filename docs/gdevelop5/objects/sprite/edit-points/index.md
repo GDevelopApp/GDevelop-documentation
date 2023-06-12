@@ -26,13 +26,11 @@ The **Share same points for all sprites of this animation** switch can be unchec
 
 ![](point-editor.png){ .align-center }
 
-
 ## Use custom points in events
 
 Custom points can be used in events with the `PointX` and `PointY` [expressions](/gdevelop5/all-features/expressions/). Custom point names must be surrounded by double quotation marks.
 
 ![](custom-point-expression.png){ .align-center }
-
 
 ## Editing the default origin and center points
 

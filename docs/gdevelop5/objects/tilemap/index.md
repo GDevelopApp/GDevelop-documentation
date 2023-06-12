@@ -7,9 +7,9 @@ The Tilemap object can be used to display tile-based objects. It's a good way to
 
 If you want to directly dive into it, 3 examples are using tile maps:
 
-  * a platformer with ladders and jumpthrus ([open the project online](https://editor.gdevelop.io/?project=example://platformer-with-tilemap))
-  * a more advanced platformer ([open the project online](https://editor.gdevelop.io/?project=example://not-a-vania))
-  * various tile maps ([open the project online](https://editor.gdevelop.io/?project=example://tilemaps-made-with-tiled-editor))
+* a platformer with ladders and jumpthrus ([open the project online](https://editor.gdevelop.io/?project=example://platformer-with-tilemap))
+* a more advanced platformer ([open the project online](https://editor.gdevelop.io/?project=example://not-a-vania))
+* various tile maps ([open the project online](https://editor.gdevelop.io/?project=example://tilemaps-made-with-tiled-editor))
 
 For now, this object is meant for advanced users as it requires Tilemaps to be authored in an **external editor**:  [LDtk (Level Designer Toolkit)](https://ldtk.io/) or [Tiled](https://www.mapeditor.org/).
 
@@ -23,73 +23,76 @@ For now, this object is meant for advanced users as it requires Tilemaps to be a
 
 This object is still experimental and will be improved in the future
 
-  * An external tool is needed to edit tile maps.
-  * Maps must be saved as **JSON files** (.json) with Tiled or LDtk.
-  * Only **orthogonal** tilemaps are supported - **isometric tilemaps** are not for now.
-  * Tiled Map Maker specific limitations:
-      * Maps made in tiled **must** have a fixed size. Tilemaps set to "Infinite" will not function.
-      * Only collisions from Tiled are supported - for LDtk you will need to manually create them as separate invisible objects in GDevelop.
-       * **Tilemaps made with Tiled Map Maker using more than one tilesets** are not supported. One tileset per Tiled tilemap is supported for now. LDtk tilemaps support multiple tilesets per map, but do not support swapping out Tileset atlases.
+* An external tool is needed to edit tile maps.
+* Maps must be saved as **JSON files** (.json) with Tiled or LDtk.
+* Only **orthogonal** tilemaps are supported - **isometric tilemaps** are not for now.
+* Tiled Map Maker specific limitations:
+    * Maps made in tiled **must** have a fixed size. Tilemaps set to "Infinite" will not function.
+    * Only collisions from Tiled are supported - for LDtk you will need to manually create them as separate invisible objects in GDevelop.
+    * **Tilemaps made with Tiled Map Maker using more than one tilesets** are not supported. One tileset per Tiled tilemap is supported for now. LDtk tilemaps support multiple tilesets per map, but do not support swapping out Tileset atlases.
 
 !!! tip
 
     Don't resize your atlas (image file) after you've started making a tilemap in Tiled: GDevelop won't render it, because its texture size and the one that is set in the Tiled file are different. If you need to resize your tileset, **create a new map** in Tiled (where you can copy your existing map).
 
 ## LDtk: Create a new tilemap step by step
+
 !!! danger
 
     Please note that at this time, LDtk maps cannot be imported into Cloud projects or the web-app, as the tileset resources will not upload along with them.
+
 ### Create the map file
 
-  - Launch LDtk.
-  - Click **New**.
-  - Browse to the location to save the map, and give it a title. A new empty map is created.
+- Launch LDtk.
+- Click **New**.
+- Browse to the location to save the map, and give it a title. A new empty map is created.
 ![](pasted/20221229-110649.png)
 
 ### Create the tileset
 
-  - Click the **Tilesets** button or press **T** on the keyboard. The **Project Tilesets** window will display.
-  - Click the plus **+** button to add a new tileset. A file browser will popup.
-  - Navigate to the tileset image file.
-  - Select the desired image, then click **Open**. The tileset will be displayed.
-  - Modify the **Tiles layout** section as needed for the respective tile size (e.g. 16x16, 32x32, etc) and any needed spacing.
+- Click the **Tilesets** button or press **T** on the keyboard. The **Project Tilesets** window will display.
+- Click the plus **+** button to add a new tileset. A file browser will popup.
+- Navigate to the tileset image file.
+- Select the desired image, then click **Open**. The tileset will be displayed.
+- Modify the **Tiles layout** section as needed for the respective tile size (e.g. 16x16, 32x32, etc) and any needed spacing.
 ![](pasted/20221229-111205.png)
+
 ### Create the tile layer
 
-  - Click the **Layers** button or press **L** on the keyboard. The **Project Layers** window will display.
-  - Click the plus **+** button to add a new layer. A selection menu will display.
-    * While there are many layer types, this tutorial will only cover the standard Tiles layer. Entities are not imported at this time, whiel IntGrid and Auto-Layers are much more advanced and should be learned about at [ldtk.io](https://ldtk.io)
-  - Click the **Tiles** option.
-  - Within the **Layer identifier** field, type a name.
-  - Select the desired tileset from the dropdown list.
-  - For the **Grid size** field, this should normally be the same size as your tiles, or at least a multiple of it.
-  - For most use cases, all other settings can be left default.
-  - When you close the layers window, the various tiles from the tilemap will display on the left, and the tilemap can be painted.
+- Click the **Layers** button or press **L** on the keyboard. The **Project Layers** window will display.
+- Click the plus **+** button to add a new layer. A selection menu will display.
+    * While there are many layer types, this tutorial will only cover the standard Tiles layer. Entities are not imported at this time, while IntGrid and Auto-Layers are much more advanced and should be learned about at [ldtk.io](https://ldtk.io)
+- Click the **Tiles** option.
+- Within the **Layer identifier** field, type a name.
+- Select the desired tileset from the dropdown list.
+- For the **Grid size** field, this should normally be the same size as your tiles, or at least a multiple of it.
+- For most use cases, all other settings can be left default.
+- When you close the layers window, the various tiles from the tilemap will display on the left, and the tilemap can be painted.
 ![](pasted/20221229-111715.png)
+
 ### Export the Tilemap
 
-  - Once the map is complete, click the **Project Settings** button, or press **P** on the keyboard.
-  - Ensure **Use .ldtk extension** is checked.
-  - Leave all other settings as default.
-  - Click **Save as**. A file browser will display.
-  - Browse to somewhere to save the map.
-  - Name the map file and click **Save**.
+- Once the map is complete, click the **Project Settings** button, or press **P** on the keyboard.
+- Ensure **Use .ldtk extension** is checked.
+- Leave all other settings as default.
+- Click **Save as**. A file browser will display.
+- Browse to somewhere to save the map.
+- Name the map file and click **Save**.
     * Note, while the main ldtk project file can be used as a map file in GDevelop, it is safer to save a copy separately so the map can keep revisions, especially if a version control system like Github is being used.
 
 ### Importing into GDevelop
 
-  - Within the GDevelop Project, add a new object.
-  - Ensure the **New object from scratch** tab is currently selected.
-  - Select the **Tilemap** object from the list.
-  - Within the **Object Name** field, name the map object.
-  - Within the **LDtk and Tiled: Tilemap** field, click **Choose a file**.
-  - Select **Choose a file** if using the desktop client, or **File(s) on your device** If using the web app and then **Choose file**, A file browser will display.
-  - Browse to the .ldtk tilemap file created above.
-  - Click open. If using the web app, click **Add selected file**.
-  - All other settings can be left at default.
-  - Click **Apply**. The tilemap object is now created, and can be dragged to the scene.
+- Within the GDevelop Project, add a new object.
+- Ensure the **New object from scratch** tab is currently selected.
+- Select the **Tilemap** object from the list.
+- Within the **Object Name** field, name the map object.
+- Within the **LDtk and Tiled: Tilemap** field, click **Choose a file**.
+- Select **Choose a file** if using the desktop client, or **File(s) on your device** If using the web app and then **Choose file**, A file browser will display.
+- Browse to the .ldtk tilemap file created above.
+- Click open. If using the web app, click **Add selected file**.
+- All other settings can be left at default.
+- Click **Apply**. The tilemap object is now created, and can be dragged to the scene.
 ![](pasted/20221229-112838.png)
-
 
 ## Tiled tutorial: Create a new tilemap step by step
 
