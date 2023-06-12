@@ -19,9 +19,11 @@ title: Asteroids
 Create an event group, and call it "Beginning of scene".\\ Inside this group, create an event with the following conditions/actions:
 
 Condition:
+
 - "At the beginning of the scene".
 
 Action:
+
 - "Camera center X position" with modification sign "= (set to)" and the value 0.  (Leave layer and camera number as they are)
 - "Camera center Y position" with modification sign "= (set to)" and the value 0.  (Leave layer and camera number as they are)
 - "Change camera zoom" with a value of 0.5. (Leave layer and camera number as they are)

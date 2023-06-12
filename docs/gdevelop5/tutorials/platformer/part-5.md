@@ -24,7 +24,6 @@ You are reading **Part 5** of the [Platformer Tutorial](/gdevelop5/tutorials/pla
 7. [Part 7: Make Enemies Kill the Player (and the Player Kill the Enemies)](/gdevelop5/tutorials/platformer/part-7)
 8. [Part 8: Add Checkpoints to the Game](/gdevelop5/tutorials/platformer/part-8)
 
-
 ## Step 1: Create a collectible coin
 
 The first step is to create a coin that the player can collect. You can break this step into two parts: creating an object for the coin and then making the coin collectible by using an event to detect when the player collides with it.
@@ -101,13 +100,13 @@ In GDevelop, expressions are similar to spreadsheet formulas or functions in a p
 
 For example, the `Variable` expression can retrieve the value of the "Score" variable:
 
-```
+```javascript
 Variable(Score)
 ```
 
 Because the "Score" variable contains a number, this expression returns a number. You can convert that number into a string with the `ToString` expression:
 
-```
+```javascript
 ToString(Variable(Score))
 ```
 
@@ -136,7 +135,6 @@ If you preview the game, the number of collected coins appears on the screen.
     When you click the blue icon, you can search all the available expressions sorted into categories.
 
     ![](/gdevelop5/tutorials/platform-game/expression-editor.png)
-
 
 ### Move the text to a different layer
 

@@ -134,7 +134,6 @@ Here is the result:
 
 ![](/gdevelop5/tutorials/how-to-make-behavior/pasted/20200329-182802.png)
 
-
 If you run the game, you'll now see that when the player collides with the enemy, a sound is played.
 
 Not bad for a single event in the scene events sheet! And we could add more objects and make the behavior more complex. Or we can reuse it for another object that should behave the same as player. We can even disable this behavior if we want the player not to play a sound when colliding with enemies.

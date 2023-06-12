@@ -8,10 +8,9 @@ title: Randomness
 
 Random numbers can be generated using the [expressions](/gdevelop5/all-features/expressions/): `Random`, `RandomFloat`, `RandomFloatInRange`, `RandomInRange` and `RandomWithStep`.
 
-
 ## Create a random object
 
-Random objects can be created according to a random number. 
+Random objects can be created according to a random number.
 
 <!---
 TODO screenshot of events and small example link.
@@ -45,7 +44,6 @@ Add a side by side comparison between `RandomInRange(1, 6) + RandomInRange(1, 6)
 
     Using a roll of several dice to pick a random number can be a good tool for [fairness](#make-randomness-feel-fair) as it's more likely to give a value closer to the middle.
 
-
 ## Pick cards from a deck
 
 The [Array tools](/gdevelop5/extensions/array-tools/) extension can be used to shuffle arrays.
@@ -70,11 +68,9 @@ TODO Add a screenshot of the instruction editor showing the shuffle action.
 
 [![](card-system-example.png){ width="300" }](https://editor.gdevelop.io/?project=example://card-system)
 
-
 ## Make randomness feel fair
 
 Randomness is actually more than just picking random numbers. Finding a suitable level of randomness for a game is part of game design.
-
 
 ### Chose better random sequences
 
@@ -91,7 +87,6 @@ Add a side by side comparison and a link to the example.
 
     Learn [how to shuffle a deck](#pick-cards-from-a-deck).
 
-
 ### Make something more or less rare
 
 One way to make something rarer than another is to choose a probability for each thing to happen. For instance, 10% chance for a rare item, a 25% chance for an uncommon item and 65% for a common item.
@@ -105,5 +100,3 @@ Bell-shaped functions are often used to show how many people have a given charac
     Learn [how to roll dice](#roll-dice).
 
 [![](dice-probabilities-dark.svg#only-dark)![](dice-probabilities-light.svg#only-light)](https://en.wikipedia.org/wiki/File%3ADice_sum_central_limit_theorem.svg)
-
-

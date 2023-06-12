@@ -21,7 +21,6 @@ You are reading **Part 1** of the [Space Shooter Tutorial](/gdevelop5/tutorials/
 12. [Levels](/gdevelop5/tutorials/space-shooter/12-levels)
 13. [Main Menu & The End](/gdevelop5/tutorials/space-shooter/13-main-menu)
 
-
 This tutorial will help you to begin to use **GDevelop**. You will create a simple **space shooter game** where the player controls a spaceship and shoots enemies, and avoids meteors in space. Note that you can read the [Getting Started](/gdevelop5/getting_started) page to get an overview of the software: it explains the main concepts and describes the interface of GDevelop.
 
 ## Create a new game
@@ -49,7 +48,6 @@ You can rename your scene by right-clicking and selecting **Edit**. We will call
 ## Setting the size of the game
 
 To edit game settings, we will select **Game Settings** on the left panel. After the new menu appears, we will choose **Properties** to open the game settings window. We will change the project name to anything you like, in this case, **Space Shooter**. Then, replace the game resolution width with **900** and height with **500** since our game will be a horizontally scrolling space shooter.
-
 
 ![](/gdevelop5/tutorials/space-shooter-game-settings.gif)
 
@@ -81,17 +79,13 @@ Click on **Add** to add an image for our object.
 
 ![](/gdevelop5/tutorials/space-shooter-add-player-5.png)
 
-We will select our player image. Select** __player.png__** in the downloaded assets folder. Then, click **Apply**.
+We will select our player image. Select **player.png** in the downloaded assets folder. Then, click **Apply**.
 ![](/gdevelop5/tutorials/space-shooter-add-player-6.png)
 
 Now, you can drag and drop the **Player** object whenever you want! We will add basic controls to the player in the next chapter!
 
 ![](/gdevelop5/tutorials/space-shooter-add-player.gif)
 
-##Next step
+## Next step
 
 [Space Shooter, Part 2](/gdevelop5/tutorials/space-shooter/2-move-player)
-
-
-
-

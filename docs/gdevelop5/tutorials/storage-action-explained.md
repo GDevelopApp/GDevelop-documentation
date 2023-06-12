@@ -45,7 +45,7 @@ To get the value stored in a variable we need to use *variable expressions* in t
 - GlobalVariable(variable_name)
 - GlobalVariableString(variable_name)
 
-Be aware that **"Write Value" can be used only to write numbers** and **"Write Text" can be used only to write text** into the storage. Be sure that the variable type matches the type used in the storage action. 
+Be aware that **"Write Value" can be used only to write numbers** and **"Write Text" can be used only to write text** into the storage. Be sure that the variable type matches the type used in the storage action.
 
 ## Read value
 

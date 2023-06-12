@@ -3,7 +3,7 @@ title: Procedural Generation
 ---
 # Procedural Generation
 
->  Make sure to import the Extended math support and Noise generator extensions into your project. Read [this](/gdevelop5/extensions/search) to learn how to import extensions.
+> Make sure to import the Extended math support and Noise generator extensions into your project. Read [this](/gdevelop5/extensions/search) to learn how to import extensions.
 
 ## What is Procedural Generation
 

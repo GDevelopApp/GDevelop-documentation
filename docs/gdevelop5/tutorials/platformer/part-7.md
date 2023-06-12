@@ -18,7 +18,6 @@ You are reading **Part 7** of the [Platformer Tutorial](/gdevelop5/tutorials/pla
 7. Part 7: Make Enemies Kill the Player (and the Player Kill the Enemies)
 8. [Part 8: Add Checkpoints to the Game](/gdevelop5/tutorials/platformer/part-8)
 
-
 ## Step 1: Kill the player
 
 When the player collides with an enemy, the player should die. An easy way to "kill" the player is to delete the "Player" object if it collides with an enemy.

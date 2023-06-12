@@ -58,7 +58,7 @@ In the end, your event should look like this:
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-add-collision-with-finish-line.png)
 
-## Using external layouts to create levels
+## Using external layouts to create levels
 
 We will use [External Layouts](/gdevelop5/interface/scene-editor/external-layouts#external_layouts) to create new levels. The **external layout** can create a layout of objects, just as in a scene editor. The objects can be then **dynamically inserted in a scene using the actions in the External layouts** category. Create a new external layout from the project manager panel. Then, select the **Base Scene** as an associated scene. Change the name of the external layout with **Level1**.
 
@@ -116,7 +116,6 @@ Repeat the same processes to create two more levels. In the end, you will have t
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-level-3.png)
 
-##Next step
+## Next step
 
 [Space Shooter, Part 13](/gdevelop5/tutorials/space-shooter/13-main-menu)
-

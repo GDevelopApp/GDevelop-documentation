@@ -3,7 +3,7 @@ title: A Beginner's Tutorial to an Endless Runner Game
 ---
 # A Beginner's Tutorial to an Endless Runner Game
 
->  ![](/gdevelop5/tutorials/endlessrunnergame_intro.png) This tutorial will help you get familiar with the way GDevelop works. In this tutorial, we are going to create a very basic endless runner game where the **platforms are generated randomly** and the player has to move to prevent being pushed outside the screen. There is also a **score system** which updates the score when the player is in action.
+> ![](/gdevelop5/tutorials/endlessrunnergame_intro.png) This tutorial will help you get familiar with the way GDevelop works. In this tutorial, we are going to create a very basic endless runner game where the **platforms are generated randomly** and the player has to move to prevent being pushed outside the screen. There is also a **score system** which updates the score when the player is in action.
 >
 To know the basics of how the software works, you can refer [](/gdevelop5/getting_started) for more information.
 
@@ -67,7 +67,7 @@ Click on the scene that we had made in the previous step to open the **Scene Edi
 
 You should see the **Object** tab and the **Properties** tab. ![](/gdevelop5/tutorials/screenshot_20190523182052.png) ![](/gdevelop5/tutorials/screenshot_20190523182628.png) If by any chance, you cannot see those tabs, click on the icon shown on the left to open the "Objects" tab. Similarly, click on the icon on the right to open the "Properties" tab.
 
->  The latest version of GDevelop will warn you if you try to load an asset which is not in your game project location. Make sure to always put your images in the same folder as the game (or a subfolder). Otherwise, if you move your game, it will break the links to the images. Uncompress the provided archive in the folder of the game and use those images. tip
+> The latest version of GDevelop will warn you if you try to load an asset which is not in your game project location. Make sure to always put your images in the same folder as the game (or a subfolder). Otherwise, if you move your game, it will break the links to the images. Uncompress the provided archive in the folder of the game and use those images. tip
 
 ## Step 4: Creating a Player Sprite
 
@@ -215,7 +215,7 @@ Create a new event. In this event, we are going to make the platforms **endless*
 
 As you can see, the X position of the last tile is *1550* for me. Don't worry if it's different for you. Whatever be the value, we will use that value to make the platforms endless. Now, `Add a condition` for this new event. Find **Common conditions for all object**-\>**Position**-\>**Compare X position of an object**. Choose the object "Platform" with Modification sign **≤ (less or equal to)** and value let's say **-200**.
 
-We are checking and **comparing** the X position of the **first** tile of the platform here. The condition is if the X position of the Platform is ≤-200, then the corresponding action will be executed. Now you may be wondering why the value __ -200__? Well, our scene space X position starts from the value *0*. We need to detect when the leftmost tile of our platform exits the scene space. We chose -200 as an arbitrary X position, which is out of the scene space.
+We are checking and **comparing** the X position of the **first** tile of the platform here. The condition is if the X position of the Platform is ≤-200, then the corresponding action will be executed. Now you may be wondering why the value **-200**? Well, our scene space X position starts from the value *0*. We need to detect when the leftmost tile of our platform exits the scene space. We chose -200 as an arbitrary X position, which is out of the scene space.
 
 ![](/gdevelop5/tutorials/screenshot_20190614211353.png)
 
@@ -223,7 +223,7 @@ Once the condition is in place, we are going to **Add an action**. Find **Common
 
 ![](/gdevelop5/tutorials/bandicam20190614211720602_1_.gif) What we did in this event was that we set up a **Loop** for out Obstacle/Platform tiles. As soon as a tile went out of bounds, that is out of the scene space, it was **teleported** to an X position(*1550* in my case) towards the right. Thus, the Obstacle tiles keep on looping and the game runs endlessly.
 
----
+------------------------------------------------------------------------
 
 ## Game States
 
@@ -269,7 +269,7 @@ We need the user to start the game by pressing a key. To do that, add a new even
 
 ![](/gdevelop5/tutorials/screenshot_20190524233235.png)
 
->  Hint: For the first condition, we need to check the value of the scene variable state. Click on **Add a condition**→**Variables**→**Value of a scene variable**. Set it to check if the value is equal to **0**. For the second condition, **Add a condition**-\>**Keyboard**-\>**Key pressed**, then set it to check for the **Up** key. tip
+> Hint: For the first condition, we need to check the value of the scene variable state. Click on **Add a condition**→**Variables**→**Value of a scene variable**. Set it to check if the value is equal to **0**. For the second condition, **Add a condition**-\>**Keyboard**-\>**Key pressed**, then set it to check for the **Up** key. tip
 
 Now, we add the action to change the game state. We want to change the value of the scene variable to 1. Click **Add an action**-\>**Variables**-\>**Value of a scene variable**. Then name your variable something, **state** for example and set it to **1**. It will look something like this.
 
@@ -283,7 +283,7 @@ Now, we need to work on the third state, i.e, when the game ends due to the char
 
 In this event, we use the concept of a condition and a sub-condition. Before we get more into the logic, let's first set up this condition-sub-condition ladder. **Add a condition**-\>**Advanced**-\>**Or**. This is the main condition we use. After you have confirmed and made this condition, you will notice, you can now add **sub-conditions**. Try to do it by yourself by seeing the image above.
 
->  Hint: Find **Common conditions for all object**-\>**Position**-\>**Compare X position of an object**. Choose the object "Player" with Modification sign **≤ (less or equal to)** and value let's say **-69**. Similarly for the next sub-condition, find **Common conditions for all object**-\>**Position**-\>**Compare Y position of an object**. Choose the object "Player" with Modification sign **≥ (greater or equal to)** and value let's say **-550**. tip
+> Hint: Find **Common conditions for all object**-\>**Position**-\>**Compare X position of an object**. Choose the object "Player" with Modification sign **≤ (less or equal to)** and value let's say **-69**. Similarly for the next sub-condition, find **Common conditions for all object**-\>**Position**-\>**Compare Y position of an object**. Choose the object "Player" with Modification sign **≥ (greater or equal to)** and value let's say **-550**. tip
 
 Now, let's understand what we did here. The condition we added specifies a rule such that if even one of the sub-conditions is true, then the action associated with this event will be executed. Since the game ends if he falls down (Y position) **or** gets pushed outside the screen(X position), so we check for the X position and the Y position.
 
@@ -291,13 +291,13 @@ Now we want to change the state of the game when this happens, so we add an acti
 
 ![](/gdevelop5/tutorials/bandicam20190525005610196.gif) You can now test the game. You will notice that if you fall down or get pushed out, the movement of the obstacles stops. This shows that the game has successfully reached the **Game Over** state. In our next event, we will work on **restarting** the game, when the user presses a key.
 
----
+------------------------------------------------------------------------
 
 ## Restarting the Game
 
 ![](/gdevelop5/tutorials/screenshot_20190526175455.png) We want the game to restart once the user presses a button after reaching the **Game Over** state. To achieve this, let's create a new event. We want to check whether the state of the game is **2**. If it is, then we want the user to press the **Enter/Return** key to restart the game. For this, we add two conditions, one for checking the value of the state variable and another for checking whether the Enter key is pressed. Try to add the conditions yourself or see the hint if you are stuck.
 
->  Hint: For the first condition, we need to check the value of the scene variable state. Click **Add a condition**→**Variables**→**Value of a scene variable**. Set it to check if the value is equal to **2**. For the second condition, **Add a condition**-\>**Keyboard**-\>**Key pressed**, then set it to check for the **Return** key pressed. tip
+> Hint: For the first condition, we need to check the value of the scene variable state. Click **Add a condition**→**Variables**→**Value of a scene variable**. Set it to check if the value is equal to **2**. For the second condition, **Add a condition**-\>**Keyboard**-\>**Key pressed**, then set it to check for the **Return** key pressed. tip
 
 Next, we need to add an action to restart the game or **scene**. To do this, **Add an action**-\> **Scene**-\> **Change the scene**. Then specify the name of our scene within quotes. Select the **Stop any other paused scenes** option. This option is not necessary for our game since it only contains one scene, but it may be beneficial for increasing the performance for games having a large number of scenes.
 
@@ -313,7 +313,7 @@ You can now test your game and notice the change in states. All that is left now
 
 A Score system is a necessary element in every game. Adding this to our game is very easy as we don't need to add any new events. We are going to edit some of the events that we have already created to accommodate this system. We want the score to start from 0 every time the game starts. The score keeps updating until the Game Over state is reached. First, let's make an **object variable** to store this score value.
 
->  You can also use other types of Variables like **Scene variables** and **Global variables** instead of object variables that we are using here. The way these variables differ is that they have different *scopes* for the game. You can learn more about Variables [here](/gdevelop5/all-features/variables) tip
+> You can also use other types of Variables like **Scene variables** and **Global variables** instead of object variables that we are using here. The way these variables differ is that they have different *scopes* for the game. You can learn more about Variables [here](/gdevelop5/all-features/variables) tip
 
 Go to the Objects tab in the Scene Editor panel. Choose any object of your choice. We choose **Platform** here. Click the **three dots** beside the Platform Object tab and choose **Edit Object Variables**. A new dialog box opens up where we can add and configure variables for an object. Click the big Plus button to add a new variable. Then customize the variable name and value as shown below.
 

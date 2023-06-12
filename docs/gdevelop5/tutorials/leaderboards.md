@@ -12,12 +12,14 @@ This guide will explain how to add leaderboards to your game via Firebase Cloud 
 ## 1. Chose a data structure
 
 The first step when making a project that interacts with an online database is to decide the shape in which the data is stored. Firebase is good at querying (filtering by data) documents in collections, so we will put each score as a document in a collection named "scores". Each document will have to be a structure variable with this shape:
-```
+
+```text
 {
-    name: "A user name",
-    score: 23,
+  name: "A user name",
+  score: 23,
 }
 ```
+
 That way, we can query documents by score and then get the username bound to each document directly. In this case, we do not care about the name of the document, so we will let Firebase assign random names to those.
 
 ## 2. Writing security rules
@@ -29,7 +31,8 @@ Now that we have a data structure defined, we need to write security rules to ma
 ### 2.2 The security rules
 
 Here, I will use the following rules:
-```
+
+```text
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
@@ -47,23 +50,23 @@ service cloud.firestore {
   }
 }
 ```
+
 ![](/gdevelop5/tutorials/leaderboards-1.png)
 To set security rules, navigate to the editor via the [Firebase console](https://console.firebase.google.com/).
 
-
 ### 2.3 Walking through the security rules
 
-  *  **match /scores/{document}**: Only add rules for documents inside scores. This already makes it more secure, as all rules are false by default so this makes sure only the collection and the documents we need are accessible.
+* **match /scores/{document}**: Only add rules for documents inside scores. This already makes it more secure, as all rules are false by default so this makes sure only the collection and the documents we need are accessible.
 
-  * **allow read;**: We always want the database to be readable. Therefore, we do not add any condition.
+* **allow read;**: We always want the database to be readable. Therefore, we do not add any condition.
 
-  * **allow create: if**: We only allow creation, not writing, as this would allow users to change their score later.
+* **allow create: if**: We only allow creation, not writing, as this would allow users to change their score later.
 
-  * **request.resource.data.keys().hasOnly(["name", "score"]) && request.resource.data.keys().hasAll(["name", "score"])**: This is making sure that the data has the shape we defined in 1: it has all the properties a score needs and not any extra properties.
+* **request.resource.data.keys().hasOnly(["name", "score"]) && request.resource.data.keys().hasAll(["name", "score"])**: This is making sure that the data has the shape we defined in 1: it has all the properties a score needs and not any extra properties.
 
-  * **request.resource.data.score is number && request.resource.data.score > 1**: We make sure the score is a number and in the range of scores possible. Here, a score can be any number higher than 1.
+* **request.resource.data.score is number && request.resource.data.score > 1**: We make sure the score is a number and in the range of scores possible. Here, a score can be any number higher than 1.
 
-  * **request.resource.data.name is string && request.resource.data.name.size() > 1 && request.resource.data.name.size() < 15;**: And finally, we make sure the name is a text with at least 1 character, and up to 14 characters.
+* **request.resource.data.name is string && request.resource.data.name.size() > 1 && request.resource.data.name.size() < 15;**: And finally, we make sure the name is a text with at least 1 character, and up to 14 characters.
 
 !!! tip
 
@@ -98,7 +101,5 @@ To process the data, the easiest method is to use a "For each child variable" ev
 This allows to access the document via the variable `doc` inside that event and the position in the list via the variable `i`. For example, to access the position of a player you can use `Variable(i) + 1`. The `+ 1` is used as arrays start from 0, but leaderboards usually start from place 1. To access the score, in the context of this tutorial, you could use `Variable(doc.data.score)`, and to access the username `VariableString(doc.data.name)`. To display it all in a text object for example, we can use this:
 
 ![](/gdevelop5/tutorials/leaderboards/pasted/20210530-215054.png)
-
-
 
 And voilà, you have a functioning realtime leaderboard in your game!

@@ -35,9 +35,7 @@ Here is an example to set the position of the Player object in a platform game:
 
 !!! tip
 
-
     The [sticker extension](/gdevelop5/extensions/sticker/reference) allows to follow the position,  angle and dimension of another object.
-
 
 ## Make a cursor: change the position and use "MouseX()";"MouseY()"
 
@@ -125,4 +123,5 @@ With the [Anchor behavior](/gdevelop5/behaviors/anchor), you can set your object
 This is very useful for **visual controls** for mobile games and for **user interface**/control panels to show on the screen.
 
 ## Find other movement extensions
+
 There are many more behaviors that move objects listed in the [extensions](/gdevelop5/extensions#movement) page.

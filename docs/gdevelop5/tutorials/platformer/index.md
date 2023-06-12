@@ -30,11 +30,11 @@ If you haven't already, download and install GDevelop. You can find the full ins
 
 ## Step 2: Download the game's assets
 
-The term *assets* refers to a game's audio and visual media, such as sound effects and sprites. Every game needs assets and, to make your life that little bit easier, this tutorial provides the assets you need to create the game.
+The term _assets_ refers to a game's audio and visual media, such as sound effects and sprites. Every game needs assets and, to make your life that little bit easier, this tutorial provides the assets you need to create the game.
 
 You can download the assets via the following URL:
 
-http://www.compilgames.net/dl/PlatformerTutorialResources.zip
+<http://www.compilgames.net/dl/PlatformerTutorialResources.zip>
 
 !!! note
 

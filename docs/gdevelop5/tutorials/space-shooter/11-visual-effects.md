@@ -39,7 +39,7 @@ Open the **Events** tab, and find the event related to damaging the player. Add 
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-blink-player-action.png)
 
-## Importing explosion effects
+## Importing explosion effects
 
 We will use a sample project of GDevelop to copy an explosion effect and put it in our game. Go to **File** and **Create a new project**.
 
@@ -103,4 +103,3 @@ We are ready to run our game and test the new blinking and explosion effects.
 ## Next step
 
 [Space Shooter, Part 12](/gdevelop5/tutorials/space-shooter/12-levels)
-

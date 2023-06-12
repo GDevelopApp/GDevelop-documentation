@@ -12,7 +12,6 @@ An object can be instantly rotated with the **Angle** action. The action needs a
 - **Object.AngleToObject(object)** to face an object
 - **Object.AngleToPosition(x, y)** to face a position.
 
-
 ### Rotate an object over time
 
 Objects can be rotated at a given speed using the action **Rotate toward position**. Its position parameters can be set to `Object.X()` and `Object.Y()` to turn in the direction of an object.
@@ -31,11 +30,9 @@ To follow a moving target and still give a smooth feeling to the rotation, the *
 
 Some behaviors like the [Top-down movement](/gdevelop5/behaviors/topdown) or the [Pathfinding](/gdevelop5/behaviors/pathfinding) can be setup to rotate objects to face the movement angle automatically. It's usually a **Rotate** checkbox.
 
-
 ## Move an object on a circle
 
 The [Ellipse movement behavior](/gdevelop5/extensions/ellipse-movement/reference) makes objects move in a circle. It's a community extension that can be [installed](/gdevelop5/extensions/search).
-
 
 ## Compare angles
 

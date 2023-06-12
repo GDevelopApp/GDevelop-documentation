@@ -9,7 +9,7 @@ If your game is running slowly, it's a good idea to look at these common consume
 
 * Do you have a lot of **particle emitters**? Particles can be costly to render, consider reducing the number used.
 * Do you have a **lot of logic going on** in the events? Launch [the profiler](/gdevelop5/interface/debugger/profile-your-game) and run it on your game. Then, take a look at the results. Are there any groups of events that take a lot of time? If yes, consider checking the events inside this group for costly sections that could be rearranged or changed.
-  * Chances are that these events are being applied to **a lot of objects**. Consider refining the number of objects by grouping the events as sub-events of one event, with a condition that excludes objects that don't need to be acted upon.(i.e NPCs that are off-screen or objects not in range of the player.)
+    * Chances are that these events are being applied to **a lot of objects**. Consider refining the number of objects by grouping the events as sub-events of one event, with a condition that excludes objects that don't need to be acted upon.(i.e NPCs that are off-screen or objects not in range of the player.)
 
 * After running the profiler, check if a lot of time is spent in the **Rendering** step. If yes, maybe you have too many objects on the screen, or that need complex rendering. Consider reducing the number of objects. If you have a lot of layers with large backgrounds, maybe you can reduce overlap. Doing multiple passes of rendering, especially for objects that are hidden behind others, can be costly. Consider hiding or destroying objects that are hidden behind others.
 
@@ -55,8 +55,8 @@ For example, if you want to create an object every time a click is done, this is
 
 ![](/gdevelop5/events/bad_event_optimisation.png)
 
-  * What is expected to happen: When the left mouse button is pressed, an object is created called **MyObject**.
-  * What actually happens: As long as the mouse left button is pressed, **MyObject** instances are created.
+* What is expected to happen: When the left mouse button is pressed, an object is created called **MyObject**.
+* What actually happens: As long as the mouse left button is pressed, **MyObject** instances are created.
 
 This is problematic because when the mouse button is pressed, it is likely held down for longer than a single frame like 0.3 seconds. During this period of time the event is called multiple times, and the object is created more than once.
 
@@ -64,7 +64,6 @@ To fix that we can use the **Trigger once** condition:
 ![](/gdevelop5/events/good_event_optimisation.png)
 
 Now, the condition will trigger only once while it is true. That means that the event will fire only once every time it's condition goes from unfulfilled to fulfilled. It resolves the problem above as the condition will fire only the first frame of the click, and will wait for the click to end before letting the click event fire again.
-
 
 ### Deactivate unused behaviors
 
@@ -96,8 +95,6 @@ If you don't delete old bullet objects they will add up and take more and more p
 The best solution is to delete the bullets that are off-screen.
 
 The behavior **"Destroy when outside of the screen"** does just that. Attach it to an object, and all bullets that go off-screen will be deleted.
-
-
 
 ## A note on optimizations already in the engine
 

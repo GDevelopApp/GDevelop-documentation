@@ -61,7 +61,7 @@ Then, we have to **reset the timer** to prevent unexpected problems. In the end,
 
  ![](/gdevelop5/tutorials/space-shooter/space-shooter-enemies-chapter-6-part-1.png)
 
-##Getting damages when hit by a bullet
+## Getting damages when hit by a bullet
 
 Now, our **Enemy2** can fire bullets toward the player. However, we did not define the effect of being shot by these bullets. We will add a new condition to check the collision between the **Player** and the **BulletEnemy**. Please select the **event** and **copy-paste** it. You need to change the **in collision with** to **BulletEnemy**, and change the **IsDamaged** value to **30**. Finally, change deleting **Enemies** to **BulletEnemy** objects.
 
@@ -105,6 +105,6 @@ Now we are ready to play our game. Hit the run button.
 
  ![](/gdevelop5/tutorials/space-shooter/space-shooter-chapter-6-demo-min.gif)
 
-##Next step
+## Next step
 
 [Space Shooter, Part 7](/gdevelop5/tutorials/space-shooter/7-meteors)

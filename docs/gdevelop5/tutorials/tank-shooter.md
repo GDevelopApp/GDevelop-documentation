@@ -9,16 +9,20 @@ You will create a very simple game. In this game, the enemies will move toward t
 
 To get an overview of the software I recommend that you read the [Getting Started](/gdevelop5/getting_started) page first.
 
-####  Download GDevelop
+#### Download GDevelop
 
 If you do not have GDevelop, download it from the official website : [gdevelop-app.com](http://gdevelop-app.com)
 
 Always download GD from this page to be sure that you have the latest version.
 Once you have installed GDevelop, launch it. The Interface's "Start" page will be displayed:
 ![](/gdevelop5/start_page.png)
-####  Download the source
+
+#### Download the source
+
 You can download the finished project from here [beginner tutorial.zip](/gdevelop5/tutorials/beginner-tutorial.zip) . Downloading the finished project helps you to see how the game has been created. Having it as an example  in case you get stuck or don't understand something, is a good way to  to check your progress.
-####  Create a new project
+
+#### Create a new project
+
 Click "Create New Project" on the "Start" page.
 
 Next, you have the option to create a new project using a template or create an "Empty game" project.
@@ -33,20 +37,22 @@ To select a custom location, select/click the "Choose Folder" button. Browse the
 
 Once you have a folder selected, select/click the blank "Empty Game" project option in the list.
 ![](/gdevelop5/empty-game-button.png)
-####  Create a new scene
+
+#### Create a new scene
+
 Creating a new scene is first on your list of things to do. Click/select the "Click to add a scene" button in the Project manager:
 ![](/gdevelop5/tutorials/add-scene-button.png)
 
 Next, click on the NewScene you have just created. It will open the "Scene" editor.
 
-####  Get the images and resources
+#### Get the images and resources
 
 Before going further, you will need some images for the game.
 You can download them here : [Download images](http://www.compilgames.net/dl/BeginnerTutorial2Images.zip)
 
 Once you have downloaded this file, extract its content into the folder where you created the project.
 
-####  Create the player turret
+#### Create the player turret
 
 The player will be controlling a turret to shoot the enemies.
 In the Scene "Objects" editor choose "Add a new object".
@@ -72,13 +78,14 @@ Lastly, click "Apply" to save the changes.
 Rename the object. Right click on the turret object in the Scene "Object" editor. Select "Rename" from the popup list that is displayed. Type the name "turret" for the new name. This allows us to later refer to this object using the name "turret".
 ![](/gdevelop5/tutorials/rename-turret.png)
 
-####  Add turret to the scene
+#### Add turret to the scene
 
 To add the "turret" to the scene, select/click the turret in the Scene "Object" editor then click in the "Scene" editor.
 This action will create a "turret" in the scene. The "turret" can then be selected, moved around and rotated.
 ![](/gdevelop5/tutorials/turret-selected-inscene.png)
 
-####  First events
+#### First events
+
 We are now going to create the "Events" used to animate the entire game.
 In the first event, the "turret" must be rotated toward the player's mouse.
 
@@ -118,7 +125,8 @@ Now you can run a preview by pressing the "preview" button on the toolbar locate
 
 The "turret" will now rotate toward the position of the mouse. If the rotation isn't working, look closely at the above steps again or refer to the finished tutorial.
 ![](/gdevelop5/tutorials/turret-rotate-toward-mouse.png)
-####  Shoot bullets with the turret
+
+#### Shoot bullets with the turret
 
 We want the player to be able to shoot bullets at the enemies. To set this up,
 you will need a new  "bullet" object.  In the Scene "Objects" list located on the right side of the GD interface, mouse click on the "turret" object. Choose  "add a new object" or, alternatively, mouse click the "add new object" button.
@@ -166,8 +174,8 @@ The condition is now added to the event.
 
 If you preview the game now, you'll see that we have two problems:
 
-  * The bullets are fired too fast.
-  * The bullets appear at the object's origin. This makes the bullets seem unrealistic.
+* The bullets are fired too fast.
+* The bullets appear at the object's origin. This makes the bullets seem unrealistic.
 
 To address the first issue of the bullets firing too fast, we are going to use a timer.  Add a second condition to the last event we've created. Choose the condition "Value of a scene timer" inside category "Timers and Time".
 
@@ -208,7 +216,9 @@ The only thing is left to do is to tell GDevelop to fire the bullets from the "C
 
 If we run the preview now, our bullets should be fired from the 'Canon" of the "turret" but you may notice, at times, the bullet is a bit offset. This happens because the origin point of the bullet is at the top left corner. The same way we did with the Canon point for the turret, change the position of the Origin point of the bullet to be in the middle.
 ![](/gdevelop5/tutorials/bullet_origin_point.png)
-####  Creating enemies attacking the turret
+
+#### Creating enemies attacking the turret
+
 First, we must create the objects used for the enemies: Add an object to the object list ( Right-click on an existing object > Add an object. Choose a Sprite object as before. ). Name it "enemy".
 
 Edit the object (right click in the list and select Edit object from the list) next add an animation to the object and two images: tank2fr1.png and tank2fr2.png.
@@ -221,12 +231,13 @@ Then, change the time between the images to 0.05 and change the animation to Loo
 
 Click "Apply" when you are done.
 
-####  Stop! Save time!
+#### Stop! Save time!
 
 Before going any further, remember to save frequently: Click File and then Save to save your project.
 ![](/gdevelop5/tutorials/save-project.png)
 
-####  Enemy AI
+#### Enemy AI
+
 Let's go back to the game. We want the enemies to move toward the turret.
 Go to the "Event" editor and Add a new event. We want to create an enemy every second. Add a condition, that can be found in category "Timers and time", called "Value of a scene timer". Enter 1 as the "Time in seconds" and "EnemyCreation" for the "Timer's name".
 //Don't forget the quotes when you enter the name of the timer.//
@@ -266,7 +277,7 @@ If we run the preview now, our enemies will move and rotate toward the turret.
 
 ![](/gdevelop5/tutorials/turret-screenshot-enemies-moving.png)
 
-####  Adding explosions
+#### Adding explosions
 
 It's time to destroy the tanks! First, when a bullet collides with a tank, we need an explosion at the position of the tank.
 Add a new sprite object, name it "explosion", and add all the images to the animation beginning with Explosion_
@@ -293,8 +304,8 @@ At this point, our event should look like this
 
 If you run a preview now, you will notice a couple of problems:
 
-  * First, the explosion objects are not created exactly in the position of the enemy.
-  * Second, the created explosion object remains in the scene.
+* First, the explosion objects are not created exactly in the position of the enemy.
+* Second, the created explosion object remains in the scene.
 To solve the first problem of the "explosion" objects remaining in the scene, we need to delete the explosion object after the animations are finished.
 Add a new empty event and the condition "Sprite", "Animations and Images",  "Animation finished".
 ![](/gdevelop5/tutorials/animation-finished-event.png)
@@ -316,13 +327,15 @@ Finally, instead of creating the "explosion" object at the "Origin" point of the
 
 If we run a preview now, our enemies will explode realistically from the center of the object.
 ![](/gdevelop5/tutorials/turret-screenshot-enemies-are-exploding.png)
-####  Adding more explosions and a Game Over
+
+#### Adding more explosions and a Game Over
+
 Until now, the player could not die. When an enemy tank is hitting the player's turret, we want the turret to be destroyed.
 Add a new event. Follow the same procedure that you followed to create an event to destroy the enemies.
 
-  * Add a condition to test for a collision between a tank and the turret.
-  * Create an explosion at the turret position.
-  * Add an action to destroy the turret.
+* Add a condition to test for a collision between a tank and the turret.
+* Create an explosion at the turret position.
+* Add an action to destroy the turret.
 ![](/gdevelop5/tutorials/delete-turret-on-collision-event.png)
 
 Additionally, it would be interesting to display a “Game Over” text when the turret is destroyed:
@@ -366,7 +379,8 @@ This is what all the events should look like at this point.
 ![](/gdevelop5/tutorials/all-events.png)
 You can preview the game and should see that once the turret is destroyed, with a little delay the Game Over text is displayed and the game is stopped.
 ![](/gdevelop5/tutorials/gameover-screenshot.png)
-####  Optimizing the game
+
+#### Optimizing the game
 
 When a bullet is outside of the screen area, we no longer need the bullet. Even off screen, the bullets still have movement. The collisions between the bullet and the tank are also being checked. Every device has limited resources in memory and processing power. We are wasting valuable resources by continuing to check the conditions and actions of the objects when they are off screen. Our game could slow down, crash, and/or become unplayable when it reaches the limit of the device memory that we are playing the game on.
 You want your game to be playable on as many devices as possible so you always need to optimize your game. One way to do that is to delete objects that are no longer required in the game. This way, you limit the amount of memory and processing power used by the game.
@@ -386,7 +400,9 @@ Next select from the list the Destroy outside screen behavior
 Next, you are going to see the behavior is added to the list. Normally if the behavior has any parameters, it is also displayed here so you can change it. But this behavior has no parameters as the only thing it does is destroy the object when it outside the screen. Click Apply and we are done.
 
 If you run the preview now, probably you won't notice any difference as the game is very simple and you most likely using a device with at least 2GB of RAM and a dual-core CPU. So there is plenty of resources for our simple game but in case we would create hundreds and thousands of bullets that you are free to try you may notice a little slow down after a while without destroying them.
-####  Add a background
+
+#### Add a background
+
  One last thing is to add a background.  This will give the game a more finished look.
 
 Add a new Sprite object. Name it "background". Add the "background.jpg" image to the object. Next, you can add the object to the scene as usual. Make sure it fills the entire scene. To make it easier, you can enable the grid using the button on the top and it should help with positioning the object.
@@ -399,7 +415,8 @@ Change the value of the Z-order to a low number. For the background, we will use
 The reason for the negative value is that when we are creating the bullets, enemies, and explosions we are creating them at Z-order 0 by default. We need to position the background below 0 otherwise we won't see anything but the turret in our game. Another way to fix it is to tell GDevelop to position the tanks and explosions and bullets on a higher Z-order. We can position the background at 0 but it is something that you the developer need to decide for your self. Every problem can have a number of different solutions.
 
 You are done! The game is complete and ready to be shared.
-####  Add comments
+
+#### Add comments
 
 So, our game is done. It is playable. What if you want to share the source with someone else? Let's say you are working in a team. Someone on the team would like to make modifications to the game. How does that person know where to look for the events of the enemies, the bullets, or the turret? It may sound silly to you. Most of the events in GDevelop are self-explanatory. Our game is simple enough to see what is happening. However, imagine a situation where you have a game made out of hundreds or thousands of events. This is where comments come in handy. We can leave reminders in the game for others and also for ourselves. Trust me, even though you are the one who made the game, in a big complex game, even you won't remember where to find different things. This is especially true months later. _Always use comments regardless of how of the size of the project._ It is just good programming practice.
 
@@ -412,7 +429,8 @@ You can change the position of each event and comment by moving the mouse over t
 Your first comments will look something like this:
 ![](/gdevelop5/tutorials/all-events-with-comments.png)
 
-####  Let's discover GDevelop by yourself
+#### Let's discover GDevelop by yourself
+
 You can browse the other [tutorials](/gdevelop5/tutorials) and read the [getting started](/gdevelop5/getting_started) page.
 
 There are also lots of examples and templates bundled with GDevelop! You can find more by visiting: [gametemplates.itch.io](https://gametemplates.itch.io/gdevelop-examples)

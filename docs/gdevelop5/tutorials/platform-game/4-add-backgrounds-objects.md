@@ -47,4 +47,4 @@ Launch a preview to check that everything is working well!
 
 Let's add a goal for the player: to collect as many coins as possible! To do this, we're going to use events to remember the player score, play sounds and remove the collected coins!
 
-➡️ Read **[the next part of the tutorial here](/gdevelop5/tutorials/platform-game/5-add-coins-and-number-of-collected-coins)**! 
+➡️ Read **[the next part of the tutorial here](/gdevelop5/tutorials/platform-game/5-add-coins-and-number-of-collected-coins)**!

@@ -34,7 +34,7 @@ When the player reaches a checkpoint, you can use variables to save the coordina
 
 You can access the X and Y coordinates of an object with the following syntax:
 
-```
+```javascript
 ObjectName.X()
 ObjectName.Y()
 ```
@@ -59,8 +59,8 @@ To send the "Player" object back to the previous checkpoint:
 1. Remove the **Delete an object** action.
 2. Create a **Position of an object** action for the "Player" object.
 3. For each of the **Modification's sign** fields, select **= (set to)**.
-3. Set the **X position** coordinate to `Variable(CheckpointX)`.
-4. Set the **Y position** coordinate to `Variable(CheckpointY)`.
+4. Set the **X position** coordinate to `Variable(CheckpointX)`.
+5. Set the **Y position** coordinate to `Variable(CheckpointY)`.
 
 ![](/gdevelop5/tutorials/platformer/08-02.jpg)
 

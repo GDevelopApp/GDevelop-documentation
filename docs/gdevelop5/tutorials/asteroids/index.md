@@ -16,7 +16,7 @@ title: Asteroids
 
 ## Download art
 
-The art used in this example is from https://www.kenney.nl/assets/space-shooter-redux
+The art used in this example is from <https://www.kenney.nl/assets/space-shooter-redux>
 
 Download the art and familiarize yourself with what the pack contains.
 
