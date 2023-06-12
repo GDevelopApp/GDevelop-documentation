@@ -5,8 +5,8 @@ title: Publish your game to the Amazon App Store
 
 After building your game with Android (either using the [one-click build for Android](/gdevelop5/publishing/android_and_ios) or [the manual process with Cordova for advanced users](/gdevelop5/publishing/android_and_ios_with_cordova)), you can publish it on the Amazon App Store.
 
-
 ## Create your Amazon App Store Developer account
+
 Go to the [Developer Console](https://developer.amazon.com/)and click **Sign In** in the upper-right corner. If you have an Amazon Account you can use it to sign to the Amazon Developer section, else create your account.
 ![](/gdevelop5/1_developer_sign.png)
 
@@ -19,13 +19,11 @@ Next open the [Dashboard page](https://developer.amazon.com/home.html) for your 
 Package your game as explained in the documentation. In the end, you'll have a **Download button** to get the .apk file that can be installed on Android.
 Download this APK and keep it somewhere on your computer.
 
-
 ## Create the app and fill in the app details
 
 After you click on **Android**, a New App Submission page appears for you to enter basic information about your app.
 
 ![](/gdevelop5/6_amazon_app_submission.png)
-
 
 In the next stages of information, you will have to fill the following stages
 ![](/gdevelop5/7_amazon_app_details.png)

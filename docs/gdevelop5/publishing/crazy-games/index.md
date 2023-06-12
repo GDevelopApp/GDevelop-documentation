@@ -13,5 +13,4 @@ Some games made with GDevelop that have been published on CrazyGames:
 
 !!! tip
 
-
     You're welcome to contribute by adding a step-by-step explanation of the process.

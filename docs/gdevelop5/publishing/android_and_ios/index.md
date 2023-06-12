@@ -9,17 +9,16 @@ GDevelop allows you to publish your games to a variety of formats including Andr
 
 It is important to verify that your game is ready to be exported for Android and iOS:
 
-  * In the game properties that are accessible from the [Project Manager](/gdevelop5/interface)), make sure to enter a valid _package name_. A package name is an identifier like this: `com.yourname.gamename`. It's like the address of a website but reversed. You can choose any package name provided that:
-      * It is not used by another game or application on iOS or Android.
-      * It is written with only letters, numbers, and dots. Only put one dot between words (for example, `com..mygame` or `..mygame` are not valid). _Limit this identifier to 2-5 words maximum._
-  * Check that you've included the required icons.
+* In the game properties that are accessible from the [Project Manager](/gdevelop5/interface)), make sure to enter a valid _package name_. A package name is an identifier like this: `com.yourname.gamename`. It's like the address of a website but reversed. You can choose any package name provided that:
+    * It is not used by another game or application on iOS or Android.
+    * It is written with only letters, numbers, and dots. Only put one dot between words (for example, `com..mygame` or `..mygame` are not valid). _Limit this identifier to 2-5 words maximum._
+* Check that you've included the required icons.
 
 ## Launch export
 
 In the File menu, choose Export. Then choose **Publish on Stores**,  and select the **Mobile** option.
 
 ![](/gdevelop5/publishing/publish-mobile-locate.gif)
-
 
 ### Create an account if you don't have one
 
@@ -46,23 +45,21 @@ In the end, you'll have a **Download** button to get the APK file that can be in
 
 Plug your Android phone/tablet into your computer and put the APK file somewhere in a folder of the device. Alternatively, you can also store the APK on cloud storage ([Dropbox](https://www.dropbox.com/), [Google Drive](http://drive.google.com/), [OneDrive](https://onedrive.live.com/about/en-in/)...) and download it on your device.
 
-Before installing the APK, go in Settings > Security and activate *Unknown sources*. This will enable you to [install the APK file](https://developer.android.com/studio/publish#publishing-unknown) even if it is not yet registered on the Google Play Store.
+Before installing the APK, go in Settings > Security and activate _Unknown sources_. This will enable you to [install the APK file](https://developer.android.com/studio/publish#publishing-unknown) even if it is not yet registered on the Google Play Store.
 
-Finally, open a *File Manager*, go in the folder containing your APK and touch it to start the installation:
+Finally, open a _File Manager_, go in the folder containing your APK and touch it to start the installation:
 
 ![](/gdevelop5/publishing/android-file-manager.png)
 
-The application is installed. Click *Open* to run it:
+The application is installed. Click _Open_ to run it:
 
 ![](/gdevelop5/publishing/android-app-installed.png)
-
 
 ### Play the game
 
 The game is now nicely installed on your phone! Launch it like any other app or game.
 
-You've created a *game for Android* directly from GDevelop! You can update it easily: just export and package the game again, send the APK to your phone or tablet and install it.
-
+You've created a _game for Android_ directly from GDevelop! You can update it easily: just export and package the game again, send the APK to your phone or tablet and install it.
 
 ## Subscribe to allow more packaging each day.
 

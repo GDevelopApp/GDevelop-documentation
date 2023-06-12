@@ -43,7 +43,12 @@ Once you have an crimsongames.io account, you want to login and you want to go t
 
 Once your game is added you will be able to see the game data such as API keys and game id.
 
-* **Title:** this is the title of your game. * **Short description:** this is the short description of your game. * **Description:** this is the description of your game some HTML is allowed. * **Game category:** this is the category of your game. * **Game thumbnail:**this is the thumbnail or icon of your game. (thumbnail must be a (PNG or JPG) (max: 512x512px)) * **Game image for showcase:**this is a screenshot of your game. (Image must be a (PNG or JPG) (max:1920x1080px))
+* **Title:** this is the title of your game.
+* **Short description:** this is the short description of your game.
+* **Description:** this is the description of your game some HTML is allowed.
+* **Game category:** this is the category of your game.
+* **Game thumbnail:**this is the thumbnail or icon of your game. (thumbnail must be a (PNG or JPG) (max: 512x512px))
+* **Game image for showcase:**this is a screenshot of your game. (Image must be a (PNG or JPG) (max:1920x1080px))
 
 After you fill in all the required data click the button **Add game** ![](/gdevelop5/publishing/crimsongames-add-game-save.png)
 
@@ -55,7 +60,9 @@ After you fill in all the required data click the button **Add game** ![](/gdeve
 
 In crimsongames.io we can set our game in three kinds of hosting types:
 
-* **Image:** is the default setting to only display the image of your game. * **Self-hosted game:**means that you have the game hosted outside Crimson Games * **Hosted by Us game:** means that we host your files on our servers. If you choose Hosted by Us, the .zip you upload must be named: game.zip otherwise the upload will fail.
+* **Image:** is the default setting to only display the image of your game.
+* **Self-hosted game:**means that you have the game hosted outside Crimson Games.
+* **Hosted by Us game:** means that we host your files on our servers. If you choose Hosted by Us, the .zip you upload must be named: game.zip otherwise the upload will fail.
 
 ![](/gdevelop5/publishing/crimsongames-hosting-type.png) Once you decide which kind of game you want just click on the Save Changes button, note that each section has its own Save changes button, this is important because the information referent of each block is saved separately.
 
