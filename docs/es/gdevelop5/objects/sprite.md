@@ -71,9 +71,9 @@ Para agregar el objeto sprite a nuestra escena, simplemente selecciónelo y haga
 Tu nuevo sprite ahora está completo, pero aún debes agregarlo a la escena de tu juego. Haga clic en el nuevo sprite en la lista de objetos. A continuación, haga clic en la escena donde desea agregar el sprite. Ahora verás tu sprite agregado a la escena. Puedes agregar múltiples "instancias" de tu sprite a tu pantalla de juego. Simplemente repita el proceso para agregar el primer sprite.
 
 <div class="video-container">
-<video controls>
-  <source src="/gdevelop5/objects/addspritetoscenecompressed.mp4">
-</video>
+  <video controls>
+    <source src="/gdevelop5/objects/addspritetoscenecompressed.mp4">
+  </video>
 </div>
 
 ### Más información sobre animaciones múltiples mientras usas eventos.

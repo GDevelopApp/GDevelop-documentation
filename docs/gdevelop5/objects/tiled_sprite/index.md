@@ -9,23 +9,23 @@ A tiled sprite object can be used to create platforms in a platform game, health
 
 ![](tiled-sprite-object.png)
 
-####  Add a tiled sprite object
+#### Add a tiled sprite object
 
 To create a new Tiled Sprite object, click the "Add a new object" button at the bottom of the Objects list, and select  "Tiled Sprite" from the window that opens. Alternatively, you can search through the asset store to add an already made tiled sprite object to the scene.
 
 ![](AddTiledSprite.png)
 
-####  Open object properties
+#### Open object properties
 
 After creating the object or adding it to your game from the asset store, you can examine the object's properties.To open the newly created object's properties, right-click on the object and selecting "Edit object" from the popup list that appears, or double click on the object.
 
-####  Add an image
+#### Add an image
 
 With the object's properties window open, you can add an image to the object by clicking in to the "Select an image" text field. From the drop down menu that appears you can chose where the image will come from. Chose the source of the image, and select the image you want to add. The selected image will be displayed in the preview window on the left.
 
 ![](AddImageToTiledSprite.png)
 
-####  Change default size
+#### Change default size
 
 We can change the default size of the tiled sprite object by changing the Default width and Default height value in the object's properties window. This size will determine the size, in pixels, that the object will appear in game when placed.
 
@@ -33,7 +33,7 @@ This will not scale or alter the original image in any way, just the default siz
 
 ![](ChangeDefaultSizeTiledSprite.png)
 
-####  Scale the object
+#### Scale the object
 
 The size of the tiled sprite effects how much of your image is going to be visible in your game. If the image used in the tiled sprite object is larger than the size it's scaled to in scene, only a portion of the image will be visible.
 

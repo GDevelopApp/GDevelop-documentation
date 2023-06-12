@@ -52,14 +52,14 @@ You can choose from bold and italic, as well as choosing a custom font for the t
 
 Using events, you can modify all properties of the text object, such as:
 
-  * Text Displayed
-  * Bold
-  * Italic
-  * Padding
-  * Alignment
-  * Wrapping
-  * Wrapping Width
-  * Font Size
+* Text Displayed
+* Bold
+* Italic
+* Padding
+* Alignment
+* Wrapping
+* Wrapping Width
+* Font Size
 
 ## Examples
 

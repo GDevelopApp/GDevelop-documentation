@@ -8,9 +8,9 @@ Particle emitters can be used to display a large number of small particles. They
 The Particles Emitter object parameters can be configured in multiple different ways to create a specific desired effect.
 
 <div class="video-container">
-<video controls>
-  <source src="ParticleEmitterWishforgeVideo.mp4">
-</video>
+  <video controls>
+    <source src="ParticleEmitterWishforgeVideo.mp4">
+  </video>
 </div>
 
 ## Particle types
@@ -48,11 +48,9 @@ You can also change the maximum number of particles rendered by the object on th
         **See it in action!** 🎮
     Open these examples online.
 
-
 [![](Examples1ParticleEmitterExplosions.png)](https://editor.gdevelop.io/?project=example://particles-explosions)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://particles-explosions){ .md-button .md-button--primary }
-
 
 [![](Examples2ParticleEmitterWishForge.png)](https://editor.gdevelop.io/?project=https://resources.gdevelop-app.com/examples/particle-effects-demo/particle-effects-demo.json)
 
