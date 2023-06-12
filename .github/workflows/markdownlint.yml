@@ -19,9 +19,11 @@ jobs:
       id: changed-files
       if: ${{ github.event_name != 'workflow_dispatch' }}
       with:
-        files: 'docs/gdevelop5/**/*.md'
+        files: |
+          docs/index.md
+          docs/gdevelop5/**/*.md
         files_ignore: | # auto-generated pages
-          docs/gdevelop5/all-features/**/reference.md
+          docs/gdevelop5/all-features/**/*.md
           docs/gdevelop5/extensions/**/*.md
         separator: ","
     - uses: DavidAnson/markdownlint-cli2-action@v10
@@ -36,5 +38,5 @@ jobs:
         globs: |
           docs/index.md
           docs/gdevelop5/**/*.md
-          !docs/gdevelop5/all-features/**/reference.md
+          !docs/gdevelop5/all-features/**/*.md
           !docs/gdevelop5/extensions/**/*.md
