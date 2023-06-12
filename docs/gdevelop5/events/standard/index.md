@@ -21,7 +21,8 @@ In the example below, GDevelop checks if the player has landed on top of a slime
 ![](/gdevelop5/events/eventconditiontf.jpg)
 
 Remember that conditions also select *which* objects are affected by the actions of the event.  In the example above, if there are multiple "Slime" objects in the scene, only the Slimes that are in collision with the "Player" will be affected by the actions on the right.  The same is true for "Player" objects if there are multiple instances of them.
-###  Example
+
+### Example
 
 Here is an event that will destroy the "Square" objects whose have a X position which is less than 100 pixels:
 

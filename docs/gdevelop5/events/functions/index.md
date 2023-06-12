@@ -48,7 +48,7 @@ When a function is selected, on the top, you can see the configuration of the fu
 * Enter the description that will be given in the window, when choosing the parameters for the function.
 * For Action or Condition, you can enter the sentence that will be displayed in the events sheet. In case your function takes parameters (see below to learn more about these), you can include them by writing `PARAMx` between underscores, replacing `x` by the parameter number (starting at 1):
 
-```
+```text
 Rotate objects _PARAM1_
 ```
 
@@ -62,9 +62,9 @@ Add a parameter with the button "Add a parameter":
 
 For each parameter, you can enter:
 
-  * The name, that will be used to access the parameter in the *events of the function*.
-  * The type. Parameters can be objects, numbers, texts, etc. [See the complete list of parameters](/gdevelop5/events/functions/#references-of-parameters).
-  * A description, that will be shown in the window when configuring the action/condition or expression.
+* The name, that will be used to access the parameter in the *events of the function*.
+* The type. Parameters can be objects, numbers, texts, etc. [See the complete list of parameters](/gdevelop5/events/functions/#references-of-parameters).
+* A description, that will be shown in the window when configuring the action/condition or expression.
 
 For example, we can add a parameter, that would return the objects to be rotated:
 
@@ -106,7 +106,6 @@ Here is an example of a text parameter that will get the name and use it in an a
 
 ![](/gdevelop5/events/function_text_expression.png)
 
-
 ## Using the function in your game
 
 When you have configured and created the events for your function, you can use it in the rest of your game.
@@ -129,7 +128,6 @@ This page gave a basic overview of what functions are. They are one of the more 
 
     Functions that focus on an object can be grouped together in [custom behaviors](/gdevelop5/behaviors/events-based-behaviors/). It allows one step further to better organize a project.
 
-
 ### Recursive functions
 
 A function can call itself! In the events of a function, you can use the same action/condition/expression as in the rest of the game. This is called a "recursive" function.
@@ -147,7 +145,6 @@ Functions can be shared across projects (like actions/conditions that are built 
 !!! tip
 
     See [an example of replacing external events by a function](/gdevelop5/events/functions/replace-external-events), which is reusable and shareable. You can also **[automatically extract events to a function](/gdevelop5/events/functions/extract-events)**.
-
 
 ## References of parameters
 
@@ -169,7 +166,6 @@ Parameters in function can be various:
 | [Object point](/gdevelop5/objects/sprite/edit-points) | Text         | The name of an point from an object                       |
 | [Object animation](/gdevelop5/objects/sprite/#adding-an-animation) | Text         | The name of an animation from an object                   |
 | [Identifier](/gdevelop5/events/functions#identifier-parameter) | Text         | Allow the auto-complete to suggest previously used values |
-
 
 ### Identifier parameter
 

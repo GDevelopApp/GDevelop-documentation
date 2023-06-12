@@ -2,10 +2,13 @@
 title: Callback Variables
 ---
 # Callback Variables
+
 ## What are they?
+
 Callback variables are **variables** passed to an **action** for passing a result to the user.
 
 ## Why do they exist?
+
 Some actions have a very long execution time. So, to not block the game, they are designed in an **asynchronous** way.
 That means that they are being executed for a little while every frame until they are completed.
 Normally, you would use **[expressions](/gdevelop5/all-features/expressions)** for getting a value,
