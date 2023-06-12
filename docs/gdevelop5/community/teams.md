@@ -5,17 +5,13 @@ title: GDevelop teams
 
 !!! note
 
-
     This is a proposal that is being tried currently. It may change or be retracted in the future if it doesn't meet the expectations.
-
 
 GDevelop has multiple areas where users can contribute. GDevelop teams allow a contributor to specialize in one or more sectors of GDevelop's development and maintenance. This document explains the rules and concepts associated with a GDevelop team.
 
 !!! tip
 
-
     Team membership is not required when contributing to GDevelop, but it is recommended to ultimately join one if you contribute a lot to one field of development.
-
 
 ## Concepts
 
@@ -31,12 +27,12 @@ Each team is also given an announcement channel on discord, only usable by the t
 
 The main goals of a team are to:
 
- - Allow for organization and communication between contributors in a field of contribution in order to prevent duplicate work.
- - Allow for all contributors of a specific area to be mentioned on the forum or discord to be notified of bugs in extensions, to get asked for help about contributing to their field of contribution, and to discuss the current state of their field of contribution.
- - Having a list of people involved in a field of development of GDevelop to discuss the evolution of that field of development with.
- - Put the people that contributed a lot to a part of GDevelops ecosystem forward as important community members.
- - Work on making it easier to contribute to their field of contribution.
- - Track what work has been done more effectively to provide feedback to the community concerning the new additions and changes.
+- Allow for organization and communication between contributors in a field of contribution in order to prevent duplicate work.
+- Allow for all contributors of a specific area to be mentioned on the forum or discord to be notified of bugs in extensions, to get asked for help about contributing to their field of contribution, and to discuss the current state of their field of contribution.
+- Having a list of people involved in a field of development of GDevelop to discuss the evolution of that field of development with.
+- Put the people that contributed a lot to a part of GDevelops ecosystem forward as important community members.
+- Work on making it easier to contribute to their field of contribution.
+- Track what work has been done more effectively to provide feedback to the community concerning the new additions and changes.
 
 ### Team leaders
 
@@ -54,9 +50,9 @@ Once a team member joins, the GDevelop company is responsible for giving them th
 
 As a team member, you have no direct responsibilities, but you are expected to
 
- - Participate in discussions about the team or field of contribution covered by the team
- - Contribute to the field of contribution covered by the team
- - Be somewhat active on either Discord, the forum, or Github
+- Participate in discussions about the team or field of contribution covered by the team
+- Contribute to the field of contribution covered by the team
+- Be somewhat active on either Discord, the forum, or Github
 
 A team leader may give additional permissions or kick a team member out of the team if they have a good reason to, like not meeting the expectations listed above.
 
@@ -74,37 +70,37 @@ GDevelop has a lot of downloadable semi-official extensions made with events. Th
 
 #### 🙋 Requirements for contributing/joining
 
- - Knowing [the extensions best practices](http://wiki.compilgames.net/doku.php/gdevelop5/extensions/best-practices) (to create a high-quality extension)
- - Knowing how to write events in GDevelop (to be able to work with extensions)
- - Knowing how to open an issue on GitHub (to submit an extension)
- - (Optional) Knowing JavaScript (to work on extensions that use JavaScript events)
- - (Optional) Knowing how to use git (to repair a broken submission if the bot does a mistake)
+- Knowing [the extensions best practices](http://wiki.compilgames.net/doku.php/gdevelop5/extensions/best-practices) (to create a high-quality extension)
+- Knowing how to write events in GDevelop (to be able to work with extensions)
+- Knowing how to open an issue on GitHub (to submit an extension)
+- (Optional) Knowing JavaScript (to work on extensions that use JavaScript events)
+- (Optional) Knowing how to use git (to repair a broken submission if the bot does a mistake)
 
 #### 🚩 Team leaders
 
- - [arthuro555](https://forum.gdevelop.io/u/arthuro555/summary)
- - [Tristan](https://forum.gdevelop.io/u/tristanrhodes/summary)
+- [arthuro555](https://forum.gdevelop.io/u/arthuro555/summary)
+- [Tristan](https://forum.gdevelop.io/u/tristanrhodes/summary)
 
 #### 👥 Team members
 
- - D8H
- - add00
- - VegeTato
+- D8H
+- add00
+- VegeTato
 
 #### 🙇 Responsibilities
 
- - Making new extensions
- - Maintaining (new features, bug fixes) old extensions
- - Managing the [extensions repository](https://github.com/GDevelopApp/GDevelop-extensions)
- - Assigning maintainers to widely used extensions
- - Keeping the [extensions best practices guide](http://wiki.compilgames.net/doku.php/gdevelop5/extensions/best-practices) up-to-date
- - Keeping the documentation about [contributing extensions](http://wiki.compilgames.net/doku.php/gdevelop5/extensions/share) and extensions contribution workflows up-to-date
- - Reviewing extensions submissions
+- Making new extensions
+- Maintaining (new features, bug fixes) old extensions
+- Managing the [extensions repository](https://github.com/GDevelopApp/GDevelop-extensions)
+- Assigning maintainers to widely used extensions
+- Keeping the [extensions best practices guide](http://wiki.compilgames.net/doku.php/gdevelop5/extensions/best-practices) up-to-date
+- Keeping the documentation about [contributing extensions](http://wiki.compilgames.net/doku.php/gdevelop5/extensions/share) and extensions contribution workflows up-to-date
+- Reviewing extensions submissions
 
 #### 🔐 Extra permissions
 
- - (Leader only) Push access to the main branch on the GitHub repository (modify the "live" extension repository)/merging pull requests to it.
- - Push access to all branches that are not the main one in the GitHub repository (for collaboration or changing someone else's extension as part of the review process).
+- (Leader only) Push access to the main branch on the GitHub repository (modify the "live" extension repository)/merging pull requests to it.
+- Push access to all branches that are not the main one in the GitHub repository (for collaboration or changing someone else's extension as part of the review process).
 
 ### Asset store team
 
@@ -114,22 +110,22 @@ The GDevelop assets store is not magic: the assets need to be added by community
 
 #### Requirements for contributing/joining
 
- - Knowing how to use your system file explorer (to create the asset pack)
- - Knowing how to open an issue on GitHub (to submit the asset pack)
+- Knowing how to use your system file explorer (to create the asset pack)
+- Knowing how to open an issue on GitHub (to submit the asset pack)
 
 #### Team leaders
 
- - Leo Red
+- Leo Red
 
 #### Team members
 
- - None
+- None
 
 #### Responsibilities
 
- - Check licenses of assets for the asset store
- - Add new asset packs on the asset store
- - Ensure the metadata is entered correctly for each asset
+- Check licenses of assets for the asset store
+- Add new asset packs on the asset store
+- Ensure the metadata is entered correctly for each asset
 
 ### Moderation team
 
@@ -139,28 +135,28 @@ GDevelop has multiple groups for the community to talk and share about GDevelop,
 
 #### Requirements for contributing/joining
 
- - Knowing the moderation tools available (kicks, bans, warns, logs, etc) (for efficient moderation)
- - Not being someone who likes to argue (to calm down arguments instead of joining them)
- - Being often online (to be able to react fast in case of a spammer before too much damage is done)
+- Knowing the moderation tools available (kicks, bans, warns, logs, etc) (for efficient moderation)
+- Not being someone who likes to argue (to calm down arguments instead of joining them)
+- Being often online (to be able to react fast in case of a spammer before too much damage is done)
 
 #### Team leaders
 
- - [Silver-Streak](https://forum.gdevelop.io/u/silver-streak/summary)
+- [Silver-Streak](https://forum.gdevelop.io/u/silver-streak/summary)
 
 #### Team members
 
- - arthuro555
- - Bouh
- - Jurfix
- - Greench
- - 4ian
+- arthuro555
+- Bouh
+- Jurfix
+- Greench
+- 4ian
 
 #### Responsibilities
 
- - Keep track of suspicious users
- - Ensure the respect of the rules
- - Calm down heated arguments
- - Ban spam/scam bots and trolls
+- Keep track of suspicious users
+- Ensure the respect of the rules
+- Calm down heated arguments
+- Ban spam/scam bots and trolls
 
 ### Examples team
 
@@ -170,25 +166,25 @@ This team is about making and maintaining examples for GDevelop.
 
 #### Requirements for contributing/joining
 
- - Knowing how to use all of GDevelop (since an example can use any feature from GDevelop)
- - Knowing the [examples best practices](http://wiki.compilgames.net/doku.php/gdevelop5/community/guide-for-submitting-an-example#best_practices)
+- Knowing how to use all of GDevelop (since an example can use any feature from GDevelop)
+- Knowing the [examples best practices](http://wiki.compilgames.net/doku.php/gdevelop5/community/guide-for-submitting-an-example#best_practices)
 
 #### Team leaders
 
- - [Leo red](https://forum.gdevelop.io/u/Midhil/summary)
+- [Leo red](https://forum.gdevelop.io/u/Midhil/summary)
 
 #### Team members
 
-  - None
+- None
 
 #### Responsibilities
 
- - Create new examples
- - Maintain current examples
- - Managing the [examples repository](https://github.com/GDevelopApp/GDevelop-examples)
- - Keep [the best practices](http://wiki.compilgames.net/doku.php/gdevelop5/community/guide-for-submitting-an-example#best_practices) guide up-to-date
- - Keeping the documentation about [contributing examples](http://wiki.compilgames.net/doku.php/gdevelop5/community/guide-for-submitting-an-example#submitting_the_example) up-to-date
- - Reviewing examples submissions
+- Create new examples
+- Maintain current examples
+- Managing the [examples repository](https://github.com/GDevelopApp/GDevelop-examples)
+- Keep [the best practices](http://wiki.compilgames.net/doku.php/gdevelop5/community/guide-for-submitting-an-example#best_practices) guide up-to-date
+- Keeping the documentation about [contributing examples](http://wiki.compilgames.net/doku.php/gdevelop5/community/guide-for-submitting-an-example#submitting_the_example) up-to-date
+- Reviewing examples submissions
 
 ### Communication team
 
@@ -198,14 +194,14 @@ This team is about marketing of GDevelop and communicating with it's target audi
 
 #### Requirements for contributing/joining
 
- - Being a serious and trustworthy person (since we do not want GDevelop to get a bad image because of 1 person)
- - Be a long time community member (since being the public figure of GDevelop requires trust)
- - Being somewhat active on most social media (to be able to use them and post on all of them)
- - (Optional) Know Markdown and Git (as those technologies are necessary to make blog posts)
+- Being a serious and trustworthy person (since we do not want GDevelop to get a bad image because of 1 person)
+- Be a long time community member (since being the public figure of GDevelop requires trust)
+- Being somewhat active on most social media (to be able to use them and post on all of them)
+- (Optional) Know Markdown and Git (as those technologies are necessary to make blog posts)
 
 #### Team leaders
 
- - Bouh
+- Bouh
 
 #### Team members
 

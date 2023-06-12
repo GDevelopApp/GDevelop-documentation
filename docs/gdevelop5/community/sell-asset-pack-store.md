@@ -10,12 +10,11 @@ By providing easy-to-use and high-quality assets we're allowing creators to get 
 
 It contains 2 types of asset packs:
 
--  **Free** to use art, accessible to anyone, royalty-free, and open for any type of modification
--  **Premium art**, carefully selected by the GDevelop team for a more unique game style
+- **Free** to use art, accessible to anyone, royalty-free, and open for any type of modification
+- **Premium art**, carefully selected by the GDevelop team for a more unique game style
 
 This page provides information on how to sell your assets on GDevelop's Asset Store. You can also directly **[open this form to sell premium assets on GDevelop's store](https://forms.gle/rqQajpDWEF3Em8HS6)**.
 If we've already contacted us or want to know more, just keep reading!
-
 
 ## Asset Pack pricing
 
@@ -32,7 +31,6 @@ When an asset pack is sold on GDevelop's Asset Store, the purchase is distribute
 
 ![](/gdevelop5/community/sell-asset-pack-store/pasted/20221126-203013.png)
 
-
 !!! tip
 
     Earnings from GDevelop paying services (including [premium licenses](https://gdevelop.io/pricing)) are re-invested in internet hosting fees, engine development, product research, and feature development.
@@ -48,9 +46,10 @@ Note that:
 Momentary discounts and single-purchase coupons will be available for creators.
 The following rules apply to prevent marketplace abuse:
 
-  - Discounts and coupons will be valid for a maximum of 31 days, after which they'll automatically expire.
-  - Coupons will only be valid to purchase assets from the creator that released the coupon.
-  - Only one coupon can be applied to a single asset pack purchase.
+- Discounts and coupons will be valid for a maximum of 31 days, after which they'll automatically expire.
+- Coupons will only be valid to purchase assets from the creator that released the coupon.
+- Only one coupon can be applied to a single asset pack purchase.
+
 Creators will always have the choice to participate (or not) in GDevelop discounts like "Black Fridays" or "Cyber Mondays", as well as the packs that they'll make available for those events.
 
 ## Creator tips (coming soon)
@@ -71,10 +70,10 @@ We will soon provide a guide for that purpose.
 GDevelop uses Stripe's Marketplace in order to handle payments.
 In order to be eligible to sell Asset Packs on the app, you'll need:
 
-  * To be older than 13 years old
-  * A valid email
-  * An address in your country of residence
-  * A bank account in your country of residence
+* To be older than 13 years old
+* A valid email
+* An address in your country of residence
+* A bank account in your country of residence
 
 Once your assets have been accepted, GDevelop's team will create a Stripe account for you.
 You will have to complete your registration with your email address, home address, full name, and bank details. Once you've filled in this information, your Stripe account will be up and running with a purchases dashboard, where you'll be able to follow all your transactions.
@@ -102,21 +101,20 @@ As a seller, by selling your products on GDevelop's Asset Store, you accept that
 
 All Asset Packs are safely stored on GDevelop's cloud.
 This way we ensure that the files are available for instant purchase and in-app use.
-Every asset pack has to be uploaded and submitted following [GDevelop's art submission standards](https://wiki.gdevelop.io/gdevelop5/community/contribute-to-the-assets-store)
-.
+Every asset pack has to be uploaded and submitted following [GDevelop's art submission standards](https://wiki.gdevelop.io/gdevelop5/community/contribute-to-the-assets-store).
+
 ## Submitting premium assets
 
 First and foremost, we want to ensure the Asset Store remains a place of high quality and safe for everyone's use.
 Thus, every asset creator must go through a selection process.
 If you're an artist and wish to submit your assets to the store, contact us and make sure to send the following information:
 
-  * Name
-  * Country of residence
-  * Link to your premium pack for revision
-  * An introduction about who you are, and what inspired you to create that pack
+* Name
+* Country of residence
+* Link to your premium pack for revision
+* An introduction about who you are, and what inspired you to create that pack
 
 For this, use **[this form to sell premium assets on GDevelop's store](https://forms.gle/rqQajpDWEF3Em8HS6)**. Thank you!
-
 
 ## Disclaimer
 

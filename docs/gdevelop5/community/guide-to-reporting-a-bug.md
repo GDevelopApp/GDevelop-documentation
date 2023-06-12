@@ -34,12 +34,11 @@ Here are some things that you will most likely need in a report. Do remember tha
 First see if you are using the web version or the desktop version (you will have to add that info to the report).
 
 * if you are using the desktop version:
-  * On the top toolbar, go to Help→About GDevelop
+    * On the top toolbar, go to Help→About GDevelop
 
 A window will open showing the version. It should go something like GDevelop-beta110.
 
 #### Some screenshots of the bug
-
 
 This might not be applicable to all the bugs or crashes, but it would help a lot in identifying the problem and fixing it.
 
@@ -51,9 +50,7 @@ screenshot of the active window).
 * If you are using a _Linux_ distro, it should come with a screenshot tool built-in or press **Alt+PrtScn** (It will take a
 screenshot of the active window)
 
-
 * If needed, edit the image and add some markers to show the bug
-
 
 #### Instructions to reproduce the bug
 
@@ -62,13 +59,11 @@ might be causing the bug.
 
 For example:
 
-```
-
+```md
 * Go to Scene events
 * Right click on an event
 * Click edit
 * The window should now be going crazy
-
 ```
 
 #### What you were doing when the issue occurred
@@ -83,7 +78,6 @@ Some errors logs can hint the problem. So, do check (If possible) if there was a
 
 - Open the **Console** tab and check if there was any error shown
 
-
 * Also, check the **sources** for call stacks
 
 !!! note
@@ -94,7 +88,7 @@ Some errors logs can hint the problem. So, do check (If possible) if there was a
 
 Here is a template you can use when writing a report.
 
-```
+```md
 ## Describe the bug
 A clear and concise description of what the bug is.
 
@@ -116,7 +110,6 @@ Steps to reproduce the behavior:
 * Add any other context about the problem here.
 ```
 
-
 **Here is an example of a report that might not be helpful**
 
 ![](/gdevelop5/community/exampleofbadreport.png)
@@ -125,9 +118,6 @@ Steps to reproduce the behavior:
 
 >
 > ![](/gdevelop5/community/exampleofgoodreport.png)
-
-
-
 
 ## Where to report a bug?
 
@@ -141,7 +131,7 @@ A bug can be reported on the [official forum](https://forum.gdevelop.io) or on [
 
 The first and foremost option you should chose to report a bug is on the [official forum](https://forum.gdevelop.io).
 
-- Go to the forum, click on** + New Topic**
+- Go to the forum, click on **+ New Topic**
 
 - A panel should open,  select **Bug reports** from the categories and now you can start describing your issue.
 
@@ -155,7 +145,6 @@ You can also report it on [GDevelop's Github repo as an issue](https://github.co
 
 ![](/gdevelop5/community/rb1.png)
 
-
 - Click on **New Issue**.
 
 - You will be asked if the issue is a bug report or a feature request. Click on Bug Report.
@@ -167,4 +156,3 @@ Now you will be given a space where you can describe your bug. There will be som
 Ex: if there is a sentence "A clear and concise description of what the bug is.", remove that sentence and add a description about the bug.
 
 ![](/gdevelop5/community/rg6.png)
-
