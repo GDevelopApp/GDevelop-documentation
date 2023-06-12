@@ -7,13 +7,13 @@ This [behavior](/gdevelop5/behaviors) deletes objects, like bullets, that go off
 
 This is one way of ensuring that your game's performance doesn't suffer because it's keeping track of bullets or other objects that have left the game scene, and will likely never return.
 
-####  Add behavior to object
+#### Add behavior to object
 
 To add a behavior to an object, first open the object properties by right-clicking/double clicking on the object that is located in the Objects list. Select "Edit object" from the popup list. Then select the Behaviors tab. Click the "add behavior" button.
 
 ![](/gdevelop5/behaviors/AddBehaviorHighlight.png)
 
-####  Destroy when outside of screen
+#### Destroy when outside of screen
 
 Once you have selected this behavior from the list, it is going to eliminate the object whenever it is outside the screen. You do not need to change this behaviors options, and it will automatically apply to all instances of the object. Press apply in the bottom right corner of the object properties window to confirm this change.
 

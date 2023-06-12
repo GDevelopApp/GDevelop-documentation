@@ -238,14 +238,11 @@ This expression returns the tween's current progress between the start value (0)
 
 [![](tweentest.png)](https://editor.gdevelop.io/?project=example://tween-test)
 
-
-
 **Tween Animations**
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://tween-animations){ .md-button .md-button--primary }
 
 [![](tweenanimations.png)](https://editor.gdevelop.io/?project=example://tween-animations)
-
 
 **Pairs**
 

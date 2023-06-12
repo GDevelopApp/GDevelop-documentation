@@ -64,8 +64,6 @@ For example, this creates a new action that can be used to add damage to the obj
 
 ![](pasted/20210906-235538.png)
 
-
-
 ## Use the behavior on an object
 
 ### 1) Add the behavior to an object
@@ -127,6 +125,7 @@ Strings and numbers will also have an expression to get their values.
 !!! tip
 
     These actions/conditions/expressions won't be usable from outside of the behavior. Properties are said to be "private", they can only be manipulated by the behavior. If you want to have them modified by the scene events, create new actions/conditions for this in your behavior.
+
 ## Behaviors using other behaviors as properties
 
 It is possible for behaviors to use other "required behaviors" as properties. When this is the case, GDevelop will ensure that any object using your behavior will also use the other one.
@@ -158,17 +157,16 @@ You can imagine tons of different behaviors. Here are a few examples:
 
 * A behavior to **manage the health of an enemy or a boss**.
 
-  * There can be an action "Hit the object", a condition "Is the object dead?". The behavior will take care of updating the object variables to track the life of the enemy (for example, when the enemy is hit, you remove some life.
-  * Then, life is regenerated progressively at each frame of the game) and the condition "Is the object dead?" will be able to check if the life reached 0 or not.
+    * There can be an action "Hit the object", a condition "Is the object dead?". The behavior will take care of updating the object variables to track the life of the enemy (for example, when the enemy is hit, you remove some life.
+    * Then, life is regenerated progressively at each frame of the game) and the condition "Is the object dead?" will be able to check if the life reached 0 or not.
 
 * Another idea can be to put the events to make **an enemy move following a complex pattern** on the screen inside a behavior.
 
-  * You can add actions/conditions to change the movement, change the speed, etc... All of this will be in a behavior that can be added to any other object in a few clicks.
-
+    * You can add actions/conditions to change the movement, change the speed, etc... All of this will be in a behavior that can be added to any other object in a few clicks.
 
 * A behavior can **automatically update the Score** in your game when enemies are destroyed, or items collected.
 
-  * You can create a behavior that increases the "Score" variable when the object is destroyed. You can then create items, collectibles or enemies that have this behavior, and when they are collected or killed, the score will automatically increase.
+    * You can create a behavior that increases the "Score" variable when the object is destroyed. You can then create items, collectibles or enemies that have this behavior, and when they are collected or killed, the score will automatically increase.
 
 !!! tip
 
