@@ -44,26 +44,24 @@ work in progress and we’ll be able to add this feature post-GSoC.
 
 ### Challenges
 
-  * The most challenging part here was to write efficient JS code, both in terms of time and memory. We've tried to minimize
+* The most challenging part here was to write efficient JS code, both in terms of time and memory. We've tried to minimize
 the use of functions like map and filter since they create a new array, and increase pressure on the GC. We've also tried to use
 single instances for other objects like Float32Array.
 
-  * Debugging the code for rendering was the hardest part, since it was all visual. It's really hard to use the "text-based"
+* Debugging the code for rendering was the hardest part, since it was all visual. It's really hard to use the "text-based"
 debugging techniques (such as breakpoints, console logs, etc) for code which is meant to render something on screen, and
 it becomes even harder to debug off-screen elements (framebuffers, render textures, etc). Therefore, it was always challenging
 to find a bug related to rendering glitches.
 
 ### Possible improvements
 
-  * One of the possible improvement is to use the [separating axis theorem](https://en.wikipedia.org/wiki/Hyperplane_separation_theorem)
+* One of the possible improvement is to use the [separating axis theorem](https://en.wikipedia.org/wiki/Hyperplane_separation_theorem)
 to minimize the number of rays to be cast.
 
-  *  We've tried to find a solution for edge cases that expands the bounding box. It works well for a lot of cases, but there are
+* We've tried to find a solution for edge cases that expands the bounding box. It works well for a lot of cases, but there are
 still some cases remaining to be handled correctly.
 
-  * We need to have better tests and benchmarks that account for the edge cases as well.
-
-
+* We need to have better tests and benchmarks that account for the edge cases as well.
 
 ## Command Palette and Revamped Shortcuts
 
@@ -88,15 +86,15 @@ The project was divided into broadly three phases:
 
 1. [PR: GDevelop#1821](https://github.com/4ian/GDevelop/pull/1821): **Basic command palette**
 
-  This phase was for setting up the basic framework of commands - React context for storage, custom hooks for registration and deregistration and the UI for the command palette.
+    This phase was for setting up the basic framework of commands - React context for storage, custom hooks for registration and deregistration and the UI for the command palette.
 
 2. [PR: GDevelop#1864](https://github.com/4ian/GDevelop/pull/1864): **Adding advanced commands**
 
-  In this phase, I worked on adding more powerful commands like "Edit object...", that allow the user to select an object to edit, right from the command palette dropdown. This was probably the most difficult part of the project, as maintaining handlers for each option was slightly tough to do right.
+    In this phase, I worked on adding more powerful commands like "Edit object...", that allow the user to select an object to edit, right from the command palette dropdown. This was probably the most difficult part of the project, as maintaining handlers for each option was slightly tough to do right.
 
 3. [PR: GDevelop#1938](https://github.com/4ian/GDevelop/pull/1938): **Customizable keyboard shortcuts**
 
-  Finally, I worked on adding support for customizable keyboard shortcuts. Since the command system was completely ready, this phase was quite straightforward, with only a few hitches regarding single-key shortcuts and Electron.
+    Finally, I worked on adding support for customizable keyboard shortcuts. Since the command system was completely ready, this phase was quite straightforward, with only a few hitches regarding single-key shortcuts and Electron.
 
 There was also a [minor PR](https://github.com/4ian/GDevelop/pull/1896) for adding a command and fixing some existing ones.
 

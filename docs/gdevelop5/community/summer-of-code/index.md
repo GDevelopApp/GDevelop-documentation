@@ -19,7 +19,6 @@ In 2020, GDevelop was one of the mentoring organizations. We're candidating to b
 
     Those ideas are *not* exhaustive. Feel free to suggest your own idea! Or combine ideas into your own. The descriptions are generic enough so that you can suggest different approaches, goals and stretch goals. Mentor(s) are available for all ideas listed already.
 
-
 ### Allow to edit tilemaps directly in the editor
 
 GDevelop supports tilemaps that are built using Tiled or LDtk - two editors specially made for creating large tilemaps. But for a lot of users, having the ability to edit tilemaps directly in GDevelop would be more intuitive. Beginners could start drawing an entirely new map directly in the scene editor. Advanced users could make quick fixes to their maps inside GDevelop, and continue to use an external editors for larger changes.
@@ -61,7 +60,7 @@ GDevelop has a debugger and profiler that can be used when previewing a game. Th
 
 ### Refactored collision and object positions handling
 
-A dedicated module to handle object position and collisions (as well as raycast and other algorithms) was started in this PR: https://github.com/4ian/GDevelop/pull/1393 (the idea is to be able to port this module to WebAssembly in the future - this can be a stretch goal). It's not finished though: the project will consist in finishing the implementation, check the performance, the integration in the game engine and adapt the extensions (Pathfinding, Platformer, Lights) to use it.
+A dedicated module to handle object position and collisions (as well as raycast and other algorithms) was started in this PR: <https://github.com/4ian/GDevelop/pull/1393> (the idea is to be able to port this module to WebAssembly in the future - this can be a stretch goal). It's not finished though: the project will consist in finishing the implementation, check the performance, the integration in the game engine and adapt the extensions (Pathfinding, Platformer, Lights) to use it.
 
 * **Skills:** JavaScript
 * **Type:** Exploratory
@@ -92,19 +91,18 @@ Your own ideas and variations on the existing one are very welcome! Remember to 
 You'll need two things!
 
 * First, become a bit familiar with GDevelop. One way to do so is by using the app. You can also try investigating or working an issue (or adding a simple new feature) on the GitHub Issue Tracker. Take a look at the [Good First Issues](https://github.com/4ian/GDevelop/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%91%8Cgood+first+issue%22).
-  * You'll need to set up your development environment. The *README* will explain everything!
-  * Find an issue that looks interesting to you. Might be a [Good First Issue](https://github.com/4ian/GDevelop/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%91%8Cgood+first+issue%22) or another one.
-  * Do some research, try things, and if you need help ask on the forum or on the GitHub issue itself.
-  * If you have something interesting, comment on the issue or open a *Pull Request*! Prepare it with all the required tests and checks, explain what you've done and a reviewer should give you some feedback.
+    * You'll need to set up your development environment. The *README* will explain everything!
+    * Find an issue that looks interesting to you. Might be a [Good First Issue](https://github.com/4ian/GDevelop/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%91%8Cgood+first+issue%22) or another one.
+    * Do some research, try things, and if you need help ask on the forum or on the GitHub issue itself.
+    * If you have something interesting, comment on the issue or open a *Pull Request*! Prepare it with all the required tests and checks, explain what you've done and a reviewer should give you some feedback.
 
 * Searching to solve an issue is a good first step that will actually help you in the second part: making a proposal!
-  * Read [this page describing a suggested structure for your proposal](/gdevelop5/community/summer-of-code/contributor-guidance).
-  * Prepare your proposal on the Google Summer of Code website 🤓.
+    * Read [this page describing a suggested structure for your proposal](/gdevelop5/community/summer-of-code/contributor-guidance).
+    * Prepare your proposal on the Google Summer of Code website 🤓.
 
 !!! tip
 
     A good proposal will show that you understood at least the big principles and are able to dive more in the problem. Read also [this thread](https://forum.gdevelop.io/t/how-to-make-your-proposal/23400).
-
 
 ## Frequently Asked Questions
 

@@ -23,46 +23,44 @@ GDevelop is an *open-source* **game development** software allowing anyone to cr
 
 **Design the optimal learning experience for beginners 🤓**
 
-   * Assess the quality of [the pages](/gdevelop5/getting_started) to get started with GDevelop, as well as the most read articles, then design and (re)write the pages to give the new users an optimal experience.
-  * The recommended read for beginners is currently to start on [this page](/gdevelop5/getting_started).
-  * GDevelop is all about being accessible to everyone... so the onboarding process is hugely important!
+* Assess the quality of [the pages](/gdevelop5/getting_started) to get started with GDevelop, as well as the most read articles, then design and (re)write the pages to give the new users an optimal experience.
+* The recommended read for beginners is currently to start on [this page](/gdevelop5/getting_started).
+* GDevelop is all about being accessible to everyone... so the onboarding process is hugely important!
 
 > Your input will be appreciated about what could be written, re-written, and what could be integrated to the software. The mentors and open-source contributors will be able to make links to your pages directly from the app.
 
 **A tutorial about making custom behaviors in GDevelop**
 
-   * Write a new step-by-step tutorial explaining how to make a "behavior". What's a behavior? It's a way to create new logic for game objects! There is a [page already about it](/gdevelop5/tutorials/how-to-make-behavior), but it's quite basic.
-  * Behaviors are important in GDevelop because they allow to quickly prototype and give ability to objects. As part of this new tutorial, you can create your own behaviors, using the easy-to-learn events system that is used in GDevelop.
+* Write a new step-by-step tutorial explaining how to make a "behavior". What's a behavior? It's a way to create new logic for game objects! There is a [page already about it](/gdevelop5/tutorials/how-to-make-behavior), but it's quite basic.
+* Behaviors are important in GDevelop because they allow to quickly prototype and give ability to objects. As part of this new tutorial, you can create your own behaviors, using the easy-to-learn events system that is used in GDevelop.
 
 > This project is a good way to learn more about game making!
 
 **Improved wiki pages 📚**
 
-  * Improve the existing documentation by checking that every object, event, behavior is covered by the documentation and improve each page with new examples, links and explanations.
-  * See the [objects](http://wiki.compilgames.net/doku.php/gdevelop5/objects), [behaviors](http://wiki.compilgames.net/doku.php/gdevelop5/behaviors), [events](http://wiki.compilgames.net/doku.php/gdevelop5/events) and [all other features](http://wiki.compilgames.net/doku.php/gdevelop5/all-features) pages.
-  * These pages will be very useful as the software has "Help" links, inside the editor, for all features. Users will be able to learn more about any feature by clicking on Help.
+* Improve the existing documentation by checking that every object, event, behavior is covered by the documentation and improve each page with new examples, links and explanations.
+* See the [objects](http://wiki.compilgames.net/doku.php/gdevelop5/objects), [behaviors](http://wiki.compilgames.net/doku.php/gdevelop5/behaviors), [events](http://wiki.compilgames.net/doku.php/gdevelop5/events) and [all other features](http://wiki.compilgames.net/doku.php/gdevelop5/all-features) pages.
+* These pages will be very useful as the software has "Help" links, inside the editor, for all features. Users will be able to learn more about any feature by clicking on Help.
 
 **A brand new tutorial 🚀**
 
-   * Write a new step-by-step tutorial explaining how to create a game. We have two complete tutorials on the wiki already, but they are fairly basic.
-  * See one of the [existing tutorials as an example](http://wiki.compilgames.net/doku.php/gdevelop5/tutorials/platform-game/start).
-  * The theme of the game can be anything that sounds interesting: space shooter, endless running game, castlevania-like, beat'em up etc... Mentors will help you get started with the software and the game making.
+* Write a new step-by-step tutorial explaining how to create a game. We have two complete tutorials on the wiki already, but they are fairly basic.
+* See one of the [existing tutorials as an example](http://wiki.compilgames.net/doku.php/gdevelop5/tutorials/platform-game/start).
+* The theme of the game can be anything that sounds interesting: space shooter, endless running game, castlevania-like, beat'em up etc... Mentors will help you get started with the software and the game making.
 
 > It will be important to find a fairly small game so that a tutorial can cover it from start to finish - but it needs to look good and be interesting (there are asset packs on websites like *itch.io* or *opengameart.org* that we can use)!
 
-**Improved extension developer guide **
+**Improved extension developer guide**
 
-  * Extensions are an important part of GDevelop. They provide the most features that users use in their games. Improve the documentation on [GitHub](https://github.com/4ian/GDevelop/blob/master/newIDE/README-extensions.md) to explain how to create a new extension for the software.
-  * Also see this [wiki page](http://wiki.compilgames.net/doku.php/gdevelop5/extending-gdevelop). This will help encourage new people to contribute to the game engine.
+* Extensions are an important part of GDevelop. They provide the most features that users use in their games. Improve the documentation on [GitHub](https://github.com/4ian/GDevelop/blob/master/newIDE/README-extensions.md) to explain how to create a new extension for the software.
+* Also see this [wiki page](http://wiki.compilgames.net/doku.php/gdevelop5/extending-gdevelop). This will help encourage new people to contribute to the game engine.
 
 **Documentation and tutorial for publishing games on various platforms 🌍**
 
-  * Create more documentation about publishing games on marketplaces, gaming websites and app stores. This is a very important topic. Users like to create games, but a game is not finished if it's not published!
-  * There is already some [documentation on the wiki](http://wiki.compilgames.net/doku.php/gdevelop5/publishing), but more step-by-step tutorials and detailed explanations about marketplaces (Kongregate, Itch.io, Facebook Instant Games...) or app stores would be very useful!
-
+* Create more documentation about publishing games on marketplaces, gaming websites and app stores. This is a very important topic. Users like to create games, but a game is not finished if it's not published!
+* There is already some [documentation on the wiki](http://wiki.compilgames.net/doku.php/gdevelop5/publishing), but more step-by-step tutorials and detailed explanations about marketplaces (Kongregate, Itch.io, Facebook Instant Games...) or app stores would be very useful!
 
 > These articles/documentation can even be tightly integrated into the GDevelop app itself. Mentors will be able to do updates in GDevelop.
-
 
 ## Result of the 2020 and 2019 edition
 
@@ -94,12 +92,12 @@ Yes! You'll get familiar with GDevelop as you use it before the project official
 
 **How should I express my interest in contributing towards a project and whom should I express it towards?**
 
-Submit an official application! Find the link here: https://developers.google.com/season-of-docs/docs/tech-writer-guide
+Submit an official application! Find the link here: <https://developers.google.com/season-of-docs/docs/tech-writer-guide>
 Please contact us (find the email on the [organizations list](https://developers.google.com/season-of-docs/docs/participants) on GSoD website) to discuss more in details your project idea.
 
 **What should be in the proposal? What is the format of the proposal?**
 
-First, read the guide here: https://developers.google.com/season-of-docs/docs/tech-writer-application-hints
+First, read the guide here: <https://developers.google.com/season-of-docs/docs/tech-writer-application-hints>
 
 * A bit of information about your experience and who you are. Tell us if you have experience with **GDevelop** (existing tutorials, games, etc...) or **game development** in general :)
 * Description of what you want to do, why it's interesting, what you will include, etc...
