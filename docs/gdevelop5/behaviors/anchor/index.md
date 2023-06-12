@@ -9,24 +9,23 @@ You can anchor an [object](/gdevelop5/objects) to the screen by using anchor [be
 
 To add an anchor to an object:
 
-  * Right-click on the object in the Objects Panel (or create a new object) and select **Edit object**.
-  * Click on the **Behaviors** tab.
-  * Click **+** to add a behavior to the object.
-  * Select **Anchor**.
-  * Set your anchor points and click **Apply**.
-
+* Right-click on the object in the Objects Panel (or create a new object) and select **Edit object**.
+* Click on the **Behaviors** tab.
+* Click **+** to add a behavior to the object.
+* Select **Anchor**.
+* Set your anchor points and click **Apply**.
 
 ![](anchorbehavior.png)
-
 
 ## Behavior parameters
 
 ### Edge anchor
+
 You can choose to what the object will be anchored from 3 main options:
 
-  * **None**: No anchor will be applied to the selected edge.
-  * **Window side**: The distance between the object's edge and the selected window side is set so that it is the same for any window size.
-  * **Proportional**: The object's edge will always be set so that it is at the same proportion of the screen.
+* **None**: No anchor will be applied to the selected edge.
+* **Window side**: The distance between the object's edge and the selected window side is set so that it is the same for any window size.
+* **Proportional**: The object's edge will always be set so that it is at the same proportion of the screen.
 
 Note that setting anchors to opposite edges will stretch the object.
 

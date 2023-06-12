@@ -56,13 +56,12 @@ To search for and install community-created behaviors:
 
 1. Right click an object in the **Objects** panel.
 2. Select **Edit behaviors**.
-4. Click the **Add a behavior to the object** icon.
-5. Switch to the **Search new behaviors** tab.
-6. Search for a behavior.
-7. Select a behavior.
-8. Click **Install in project**.
+3. Click the **Add a behavior to the object** icon.
+4. Switch to the **Search new behaviors** tab.
+5. Search for a behavior.
+6. Select a behavior.
+7. Click **Install in project**.
 
 Installed behaviors appear in the **Installed behaviors** tab:
 
 ![](pasted/20230305-105029.png)
-

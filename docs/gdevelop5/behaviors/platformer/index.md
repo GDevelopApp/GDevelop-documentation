@@ -24,6 +24,7 @@ By clicking on the platform behavior, you can choose from 3 different platform t
 * **Ladder:** as its name suggests, this option turns our object into a ladder. The character object cannot collide with the ladder object. It can not walk on the ladder object, but, when the character object overlaps the ladder object, the character is able to climb up and get down using the ladder object.
 
 ### Grab the ledge
+
 The ledge of our platform can be grabbed by default.  "Grab the ledge" means that when the character object jumps close enough to the edge of the platform, the ledge can be grabbed. If you don't need this functionality, make sure this option is unticked/unchecked. If you do need it, make sure the box is ticked/checked.
 
 ![](ledges-canbe-grabbed-option.png)
@@ -37,7 +38,6 @@ The offset option allows us to change the position of the grab to fit the animat
 ### Create platforms with tilemaps
 
 The platform behavior can be added to tilemap collision mask objects. Learn more about it on the [tilemap](/gdevelop5/objects/tilemap#handle_collisions) page.
-
 
 ## Use the Platformer character behavior for your player, enemies or moving objects
 
@@ -120,7 +120,7 @@ It's not easy to know how these values change the jump trajectory. The best is t
 
 [![](platformer-jump-evaluator.png)](https://editor.gdevelop.io/?project=example://platformer-jump-evaluator)
 
-####  Make characters wall jump
+#### Make characters wall jump
 
 The [advanced platformer movements](/gdevelop5/extensions/advanced-jump/reference) extension contains behaviors for:
 
@@ -141,9 +141,6 @@ The [advanced platformer movements](/gdevelop5/extensions/advanced-jump/referenc
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://platformer){ .md-button .md-button--primary }
 
 [![](platformer-example.png)](https://editor.gdevelop.io/?project=example://platformer)
-
-
-
 
 **Parallax Scrolling Behavior**
 
