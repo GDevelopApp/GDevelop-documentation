@@ -7,12 +7,12 @@ title: Layers and cameras
 
 A layer is a virtual container of objects in a scene. Layers serve multiple purposes, including:
 
-  *   Determine the position of objects in the scene
-  *   Front-to-back ordering of object instances (similar to Z-order)
-  *   Layers can be hidden, which affects all objects in the layer
-   * Changing the time scale for all objects in a layer
-   * Apply visual effects to all objects on the layer
-   *   Each layer has a camera that can be moved, rotated, and zoomed
+* Determine the position of objects in the scene
+* Front-to-back ordering of object instances (similar to Z-order)
+* Layers can be hidden, which affects all objects in the layer
+* Changing the time scale for all objects in a layer
+* Apply visual effects to all objects on the layer
+* Each layer has a camera that can be moved, rotated, and zoomed
 
 Each scene can have multiple layers, but objects can only exist on one layer at a time. By default, objects added to a scene will be placed on the "base layer".
 

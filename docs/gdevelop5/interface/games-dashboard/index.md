@@ -30,9 +30,9 @@ When you've opened a game dashboard, navigate to the Analytics tab. This shows v
 
 You'll find:
 
-  * the number of **sessions** (number of time the game was launched),
-  * the number of **players** for the selected day, and the number of new players (that never launched the game before - unless they have uninstalled the game),
-  * how many players are playing again for for up to 7 days after the first time they played (this is what is called the "**retention**").
+* the number of **sessions** (number of time the game was launched),
+* the number of **players** for the selected day, and the number of new players (that never launched the game before - unless they have uninstalled the game),
+* how many players are playing again for for up to 7 days after the first time they played (this is what is called the "**retention**").
 
 If you don't have a GDevelop subscription, you'll only get access to the number of sessions - which should still give you an overview of your game success. As GDevelop is providing the analytics, the infrastructure cost and the bandwidth to collect the session metrics, we ask you to support GDevelop by getting a subscription. This will help the development of the game engine for the future and help to strengthen the community!
 
