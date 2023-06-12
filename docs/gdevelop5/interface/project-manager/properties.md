@@ -26,7 +26,6 @@ It is in these properties, you can find:
 * **AdMob application ID (for iOS and Android):** ID number used to connect your game with your AdMob account. Only required if you're running ads in your game. [Read more about AdMob](/gdevelop5/all-features/admob).
 * **Firebase configuration string:** The mandatory authentication key for use with Firebase events. Only required if you're using Firebase in your project. [Read more about Firebase](https://wiki.gdevelop.io/gdevelop5/all-features/firebase/quickstart).
 
-
 ## Branding and Loading screen
 
 In the top right corner of the game properties window, you can select **Branding and Loading Screen** which will show you options for customizing the loading screen at the beginning of your game. From this tab you will be able to pick if your game has the GDevelop watermark, logo on startup, or both. As well as some other customization options.
