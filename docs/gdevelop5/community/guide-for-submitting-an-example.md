@@ -35,9 +35,7 @@ You will have to make sure the example can be MIT licensed and make sure the res
 
 - Names should not have spaces in them. Example: use `PlayerName` instead of `Player Name`.
 
-
-
--  `PascalCase` is recommended, but using other styles is fine.
+- `PascalCase` is recommended, but using other styles is fine.
 
 #### Variables
 
@@ -98,7 +96,6 @@ You will have to make sure the example can be MIT licensed and make sure the res
 
 #### Project Properties
 
-
 - The project properties should be properly filled out.
 
 - *Project Name* The project name should be the example name.
@@ -111,8 +108,8 @@ You will have to make sure the example can be MIT licensed and make sure the res
 
 ##### Game Resolution
 
- - Game resolution shouldn't exceed **1920x1080** so that the example can run on all devices without any performance issues .
- - If the example uses pixel art with small assets, "nearest neighbor" rendering is recommended.
+- Game resolution shouldn't exceed **1920x1080** so that the example can run on all devices without any performance issues .
+- If the example uses pixel art with small assets, "nearest neighbor" rendering is recommended.
 
 ## Thumbnail and example description
 
@@ -127,35 +124,35 @@ You will have to make sure the example can be MIT licensed and make sure the res
 
 You can submit the example to the [Example repository](https://github.com/GDevelopApp/GDevelop-examples/issues) as an issue.
 
-  - Go to the site,
-  - Click The Green **New Issue** button:
+- Go to the site,
+- Click The Green **New Issue** button:
 
 ![](/gdevelop5/community/newissuegithub.png)
 
-  - A option to select issue template will be shown, click **New Example**:
+- A option to select issue template will be shown, click **New Example**:
 
 ![](/gdevelop5/community/example-templategithub.png)
 
-  - You will get a text box where you can write the "issue" which is where you can upload the project file (as a `zip` file) and add a proper description about it.
-  - Change the title to the example's name.
+- You will get a text box where you can write the "issue" which is where you can upload the project file (as a `zip` file) and add a proper description about it.
+- Change the title to the example's name.
 
 ![](/gdevelop5/community/github-example-submission-title.png)
 
-  - Under `## Describe the example` in the textbox, add a proper description about the example, feel free to add any screenshots.
-  - You will also be given a checklist of what is necessary. If you have done them, add `x` in the in brackets against each checklist.
+- Under `## Describe the example` in the textbox, add a proper description about the example, feel free to add any screenshots.
+- You will also be given a checklist of what is necessary. If you have done them, add `x` in the in brackets against each checklist.
 
-  ```
-  - [ ] My Game has a proper name in the game properties.
-  - [ ] My Game package name begins with 'com.examples'.
-  - [ ] My Game has all events unfolded.
-  - [ ] I've added myself as the author in the game properties.
-  - [ ] I've included a file called 'README.md' with a description in proper English, explaining what this example is doing.
-  - [ ] I confirm that this game and all its resources can be integrated to this Github repository, distributed and MIT licensed.
-  - [ ] I've cleaned unused resources in the project.
-  ```
+```md
+- [ ] My Game has a proper name in the game properties.
+- [ ] My Game package name begins with 'com.examples'.
+- [ ] My Game has all events unfolded.
+- [ ] I've added myself as the author in the game properties.
+- [ ] I've included a file called 'README.md' with a description in proper English, explaining what this example is doing.
+- [ ] I confirm that this game and all its resources can be integrated to this Github repository, distributed and MIT licensed.
+- [ ] I've cleaned unused resources in the project.
+```
 
-  - Under `## Game folder`, add a zip of your project and drag and drop it into the text box.
-  - Now click `Submit Issue`.
+- Under `## Game folder`, add a zip of your project and drag and drop it into the text box.
+- Now click `Submit Issue`.
 
 ![](/gdevelop5/community/github-submit-issue.png)
 

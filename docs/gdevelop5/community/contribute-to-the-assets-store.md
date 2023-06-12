@@ -8,7 +8,6 @@ Assets have to be submitted into category and sub-category folders. Images, audi
 
 GDevelop creators can add assets to the project without having to worry about editing. This means that submitted art, has to follow a number of technical constraints:
 
-
 ## The title, description and price
 
 Each pack needs to be defined in `pack.json` file located at the root of your pack folder.
@@ -19,9 +18,7 @@ In it you'll put the pack's name, description, price in Euro, and the categories
      - Value: 123 = 1.23€ (Euro)
      - Categories: Remove words that don't correspond to your pack.
 
-
-pack.json
-```
+```json title="pack.json"
 {
   "longDescription": "Write the description of your pack here. You can add a new line like this:\nThis is a new line.",
   "tag": "The name of your pack",
@@ -37,13 +34,12 @@ pack.json
 }
 ```
 
-
 ## Add a thumbnail and images previews
 
 A pack with an attractive thumbnail makes it more visible, contrasted colors can be used. The thumbnail should reflect the pack's content.
 
 !!! note
-    
+
     - Thumbnail and previews must be 1280x720 pixels in .png only.
     - The thumbnail must have the following name: `thumbnail.png`.
     - Previews are a maximum of 9, they must be named `preview1.png`, `preview2.png`, ..., `preview9.png`
@@ -52,29 +48,29 @@ A pack with an attractive thumbnail makes it more visible, contrasted colors can
 
 In a nutshell: these are the basic rules to submit video game asset images. Make sure that your files respect the following guidelines:
 
-  * Each image frame, has to be a png transparency file
-  * Every animation frame has to be the same pixel size as the other animation states
-  * Tiles and GUI images have to be properly aligned
+* Each image frame, has to be a png transparency file
+* Every animation frame has to be the same pixel size as the other animation states
+* Tiles and GUI images have to be properly aligned
 
 !!! note
 
         Sprite sheets **are not supported**! Each animation frame must **be a separate image**.
     GDevelop does not support image the origin point for different animations yet.
 
-
 GDevelop's most common sizes for animation assets are:
 
-  * Mobile: 720x1280
-  * Desktop: 1280x720
-  * Desktop full HD: 1920x1080
+* Mobile: 720x1280
+* Desktop: 1280x720
+* Desktop full HD: 1920x1080
 
 If you're looking for "an easy way" to prepare your assets for the Asset Store, [Entropy](https://gd.games/Entropy) has created a solution to upload, name, and [license](https://wiki.gdevelop.io/gdevelop5/community/sell-asset-pack-store/) your Assets. Go to [this GitHub page](https://github.com/Entr0py404/GDev-Asset-Store-Tool/releases/tag/v1.4) to download the Windows app, and [watch his Twitch](https://www.twitch.tv/videos/1641376379?t=00h02m50s) to see how to use the tool.
 
 ### Naming assets
+
 For unanimated sprites, a single image with the name of the object is enough. On the contrary, animated sprites require multiple animated frames, which have to be named properly.
 While writing your file names, it is important that you follow a specific naming structure:
 
-```
+```text
 BaseName_AnimationState_frame#.png
 ```
 
@@ -82,31 +78,28 @@ For a character called "Red Hero", with 4 frames of a Running animation
 
 ![](/gdevelop5/community/anim1.png)
 
-```
+```text
 RedHero_Run_1.png
 RedHero_Run_2.png
 RedHero_Run_3.png
 RedHero_Run_4.png
 ```
 
-
 If the same character is caring a prop, the naming should appear on the Animation State. Not on the Character name.
 
 ![](/gdevelop5/community/anim2.png)
-```
+
+```text
 RedHero_RunJewel_1.png
 RedHero_RunJewel_2.png
 RedHero_RunJewel_3.png
 RedHero_RunJewel_4.png
 ```
 
-
-
 !!! note
 
         **A note on animation states:**
     If the **animated** object only has one animation state, there is no need to specify if the animation is "Walk, Idle, Climb, Death..." on the name. An animation index will do: `Jewel_1.png`, `Jewel_2.png`, `Jewel_3.png`.
-
 
 - If you want to create a **[Tiled sprite](/gdevelop5/objects/tiled_sprite)** (for backgrounds or repeating patterns):
     - Prefix the *base name* by `tiled_`. For example: `tiled_Grass Background.png`
@@ -117,7 +110,8 @@ RedHero_RunJewel_4.png
 All these files will be used by our server to generate a unique texture used in the 9-Patch object.
 
 For example:
-```
+
+```text
 9patch_Grass_center.png
 9patch_Grass_east.png
 9patch_Grass_north.png
@@ -133,12 +127,11 @@ For example:
 
 To specify FPS and looping for an animation, you'll need to add a METADATA file to your folder by creating a .json file (a text file) and pasting this structure:
 
-basename_METADATA.json
-```
-    {
-        "timeBetweenFrames": 0.2,
-        "loop": false
-    }
+```json title="basename_METADATA.json"
+{
+  "timeBetweenFrames": 0.2,
+  "loop": false
+}
 ```
 
 !!! tip
@@ -149,7 +142,7 @@ basename_METADATA.json
 
 For example:
 
-```
+```text
 Spaceship_Idle_METADATA.json
 Spaceship_Flying_METADATA.json
 Spaceship_Destroyed_METADATA.json
@@ -160,10 +153,9 @@ Your file should look something like this:
 
 ![](https://user-images.githubusercontent.com/1280130/103412855-78836300-4b77-11eb-99ec-ac8287372ece.png)
 
-
 If you are not sure about the number that "time between frames" will represent,[this article](http://www.stopmotionworks.com/stopwatch.htm) explains it:
-![](/gdevelop5/community/fps.png)
 
+![](/gdevelop5/community/fps.png)
 
 ## Adding tags to your assets
 
@@ -175,10 +167,9 @@ Start the file by one of these tags (depending on the type of pack): `top-down`,
 
 For example:
 
-```
+```text
 side view, pirate, ship, sea
 ```
-
 
 !!! tip
 
@@ -207,7 +198,6 @@ A great tool to convert audio files to AAC format is [fre:ac](https://www.freac.
 - Select "Quality > Set Quality > 3"
 
 This will create high-quality audio files, but using a variable bit rate that won't exceed 96 kbps (assuming stereo input).
-
 
 ![Screenshot 2021-03-11 112608](https://user-images.githubusercontent.com/8879811/110835883-9bf41980-825c-11eb-93c8-ef795b0379a2.jpg)
 
@@ -261,7 +251,7 @@ Supported 3D file formats are:
 
 Create a file with extension `.asset.json`, for example: `My Particle Effect.asset.json`. The format of this asset is:
 
-```
+```json
 {
   "id": "",
   "name": "",
