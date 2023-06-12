@@ -40,9 +40,8 @@ This array is exactly like what an action or a condition would use. For example,
 
 ## Documentation 📚
 
-  * Read **[the game engine documentation](https://docs.gdevelop-app.com/GDJS%20Runtime%20Documentation/)** to get started.
-  * You can also browse directly the **[GDJS game engine source code](https://github.com/4ian/GD/tree/master/GDJS/Runtime)**.
-
+* Read **[the game engine documentation](https://docs.gdevelop-app.com/GDJS%20Runtime%20Documentation/)** to get started.
+* You can also browse directly the **[GDJS game engine source code](https://github.com/4ian/GD/tree/master/GDJS/Runtime)**.
 
 ## Code examples
 
@@ -130,6 +129,7 @@ Equivalent events would be:
 ![](/gdevelop5/events/change-animation-according-to-behavior-conditions.png)
 
 ### Set the position of the camera to the position of an object
+
 ```javascript
 if (!objects.length) return;
 
