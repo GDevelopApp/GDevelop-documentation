@@ -95,7 +95,6 @@ To help you respect those constraints, the action will apply the expression `Lea
 | `"aPlayerNameTh4tIsT00LongToBeSaved"` | `"aPlayerNameTh4tIsT00LongToBeSa"` | Name truncated if too long |
 | `""` (empty) | `"Player89456"` | Random name if input is empty (5-digits-long number) |
 
-
 ## Reference
 
 All actions, conditions and expressions are listed in [the leaderboards reference page](/gdevelop5/all-features/leaderboards/reference/).

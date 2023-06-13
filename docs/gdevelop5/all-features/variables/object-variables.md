@@ -36,19 +36,19 @@ You can use object variables in [expressions](/gdevelop5/all-features/expression
 
 ### Number
 
-```
+```javascript
 <object_name>.Variable(<variable_name>)
 ```
 
 ### Text
 
-```
+```javascript
 <object_name>.VariableString(<variable_name>)
 ```
 
 ### Structure
 
-```
+```javascript
 <object_name>.Variable(<parent_variable>.<child_variable>)
 <object_name>.VariableString(<parent_variable>.<child_variable>)
 ```

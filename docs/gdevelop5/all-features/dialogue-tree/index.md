@@ -11,7 +11,6 @@ title: The Dialogue Tree extension
     - [Dialogue tree with yarn online](https://editor.gdevelop.io/?project=https://resources.gdevelop-app.com/examples/dialogue-tree-with-yarn/dialogue-tree-with-yarn.json)
     - [Yarnalia game](https://editor.gdevelop.io/?project=https://resources.gdevelop-app.com/examples/dialogue-tree-simple-demo/dialogue-tree-simple-demo.json)
 
-
 The Dialogue Tree extension can be used to quickly create a dynamic dialogue tree behaviour. It comes with actions, conditions and expressions that make it extremely easy to set such a system with text scrolling, animated avatars and conditional dialogues. The example demo project does that in only 16 events.
 
 If you want to make a game that is heavy on the story - be it an RPG, a Visual Novel or something else altogether, this extension will help you get there very fast and let you focus on your story.
@@ -45,6 +44,7 @@ When you edit a node, you are writing in Yarn syntax.
 Writing stories in Yarn is just like writing dialogue, but also sprinkling it with behind the scenes hidden to the player instructions wrapped in special tags. These instructions can be used to drive what happens in the game. Depending on <<the>> \[\[wrapping\]\] tags, there are three types of data that yarn understands - these three types are called "Dialogue line types" in my extension:
 
 ### 1. Text line type
+
 The text is what the user will see displayed when they reach the dialogue branch it is on. If you don't put any special wrappers of the other type around your text - it will remain ordinary text. Yarn will give you a hint when that is not the case by changing its colour.
 
 !!! note
@@ -52,6 +52,7 @@ The text is what the user will see displayed when they reach the dialogue branch
     New lines are interpreted by yarn as logical pauses between two text line types. So whenever you write text on a new line - that is also used to tell the game engine to start printing the text on the new line after the player has pressed a button. Of course that behaviour is entirely optional and depends on how you use the  extension. Since it is the most common one, it should be noted that it is there by design.
 
 ### 2. <<Command>> line type
+
 Remember the magic Yarn syntax we mentioned earlier - the words we place between the ordinary text the player reads to make things happen in the game?
 We call them commands. They are wrapped between **<<** and **>>**. Anything you place between these two symbols is a  **<<hidden message>>** that the player will not see, but the Gdevelop will. These messages can be used to trigger events for you. If you are using the extension's built in scrolling logic, these commands will be triggered whenever the text scrolling has reached the <<command>>.
 
@@ -82,11 +83,11 @@ This lets you tell Yarn that if the player has seen that item, the npc will say 
 
 _blah blah blah_
 
-** <<elseif $myYarnVariable == anotherValue>> **
+**<<elseif $myYarnVariable == anotherValue>>**
 
 _more blah_
 
-** <<else>>**
+**<<else>>**
 
 _other blah_
 
@@ -100,15 +101,11 @@ _other blah_
 
 !!! note
 
-
     __Example:__
 
     You found a weird rock **<<set $hasRandomRock to true>>**
 
-
-
 !!! note
-
 
     __Example at another node tree:__
 
@@ -124,14 +121,11 @@ _other blah_
 
     **<<endif>>**
 
-
-
 Don't forget that you can put anything inside this **<<if ...>>**...**<<endif>>**  block -  be it other commands or dialogue choices leading to other branches.
 
 !!! note
 
     The dialogue tree extension stores all the $variables the player sets while playing the game and also comes with expressions/actions to get/set them - in case you want to store  them when the game is saved by the player and be able to reload them.
-
 
 ### 3. Option line type
 
@@ -163,7 +157,8 @@ This will simply tell yarn to continue to that node, without any user input. Use
 **Gotchas to watch out for:
 **
 If you try to do conditional options like this:
-```
+
+```text
 Ok kids we're gonna go with...
 [NotSure](/Actually, I'm not sure yet...)
 <<if $robot_head_0_done == 1>>
@@ -174,7 +169,7 @@ Ok kids we're gonna go with...
 Yarn will send the player to "NotSure" instead of displaying this as two options, even when the if is true.
 The correct way to do this would be:
 
-```
+```text
 Ok kids we're gonna go with...
 <<if $robot_head_0_done == 1>>
     [NotSure](/Actually, I'm not sure yet...)
@@ -186,7 +181,8 @@ Ok kids we're gonna go with...
 ```
 
 If you want to just send the player to another node (PickRobotMascot0) without displaying any options when the if statement is true, you can do:
-```
+
+```text
 Ok kids we're gonna go with...
 <<if $robot_head_0_done == 1>>
     [PickRobotMascot0](/Frog)
@@ -200,7 +196,7 @@ Ok kids we're gonna go with...
 
 ## Known issues:
 
-*  Using a -> shortcut crashes my game - This is a known bug in bondage.js - the library that the dialogue tree extension is using to parse yarn files. See [https://github.com/hylyh/bondage.js/issues/31](https://github.com/hylyh/bondage.js/issues/31) to check if that has been fixed. The reason it happens is that bondagejs expects you to indent any linked text with tabs, otherwise its seen as a syntax error. If you want to use the shortcut syntax, please refer to this example json file as  to howto do it without crashing the parser [https://github.com/hylyh/bondage.js/blob/master/tests/yarn_files/shortcuts.json](https://github.com/hylyh/bondage.js/blob/master/tests/yarn_files/shortcuts.json)
+* Using a -> shortcut crashes my game - This is a known bug in bondage.js - the library that the dialogue tree extension is using to parse yarn files. See [https://github.com/hylyh/bondage.js/issues/31](https://github.com/hylyh/bondage.js/issues/31) to check if that has been fixed. The reason it happens is that bondagejs expects you to indent any linked text with tabs, otherwise its seen as a syntax error. If you want to use the shortcut syntax, please refer to this example json file as  to howto do it without crashing the parser [https://github.com/hylyh/bondage.js/blob/master/tests/yarn_files/shortcuts.json](https://github.com/hylyh/bondage.js/blob/master/tests/yarn_files/shortcuts.json)
 
 * an empty space is clipped from text that comes after <<command>> - this is a known bug in bondagejs [https://github.com/hylyh/bondage.js/issues/61](https://github.com/hylyh/bondage.js/issues/61)
 
@@ -215,7 +211,7 @@ Ok kids we're gonna go with...
         To report Yarn editor bugs, please use the Yarn bug tracker, where more developers working on Yarn will see it.
     [https://github.com/YarnSpinnerTool/YarnEditor](https://github.com/YarnSpinnerTool/YarnEditor)
 
-* I encountered a problem with the styling of the text coming from the Dialogue Tree - If that happens, it's likely a bug with another extension. If you are using the BBcode extension, and for example underlined text style does not work or some combination of styles does not work, the problem more than likely lies with the pixi-multistyle-text library that it is using. It is also worth noting that **pixi currently does not support __text underlining__ style in general. So while you can see it in Yarn editor, it will not work in your game**.
+* I encountered a problem with the styling of the text coming from the Dialogue Tree - If that happens, it's likely a bug with another extension. If you are using the BBcode extension, and for example underlined text style does not work or some combination of styles does not work, the problem more than likely lies with the pixi-multistyle-text library that it is using. It is also worth noting that **pixi currently does not support text underlining style in general. So while you can see it in Yarn editor, it will not work in your game**.
 
 !!! warning
 
@@ -228,12 +224,11 @@ If you look at the event sheet, you will find that the entire logic fits on a si
 
 ![](/gdevelop5/all-features/yarngdeventsheet.png)
 
-
 The demo does not use the entire capability of the extension and is aiming to provide the functionality in the simplest/quickest way. The extension contains many more actions, conditions and expressions which can be used to build very customisable presentations to the player.
 
 ### The basic life cycle of a dialogue
 
--  Load the dialogue tree data at the beginning of the game or the level
+- Load the dialogue tree data at the beginning of the game or the level
 - Set when a dialogue gets triggered - using the "Start Dialogue from branch..." action, and passing as a parameter the name of the node title where it will start from. That is typically the  root of a tree. In my example the npc object's dialogueBranch variable is used. That makes it easy to make many npcs and just change that in their properties
 - Tell the game engine how you want the dialogue data to be displayed to the player and used by the engine - for each of the three types
 - Set reusable commands to be triggered by Yarn - such as changing of avatars, playing of sound effects and any other game events to help tell your story.

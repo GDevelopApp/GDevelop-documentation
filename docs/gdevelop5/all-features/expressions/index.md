@@ -85,12 +85,12 @@ This is where _functions_ come in.
 
 You can use functions to dynamically calculate complex values while the game is running. For example, the `X` and `Y` functions calculate the coordinates of an [object](/gdevelop5/objects):
 
-```
+```javascript
 ObjectName.X()
 ObjectName.Y()
 ```
 
-Using a function is often referred to as *calling* a function.
+Using a function is often referred to as _calling_ a function.
 
 !!! tip
 
@@ -149,13 +149,13 @@ Some functions accept _arguments_. An argument is a value that:
 
 For example, the `ToString` function converts a number into a string, but it can't do anything unless you provide it with a number. That number is the argument. In the following example, the number `42` is the argument:
 
-```
+```javascript
 ToNumber(42)
 ```
 
 Some functions, such as the `MouseX` function, accept multiple arguments:
 
-```
+```javascript
 MouseX(layer, camera)
 ```
 

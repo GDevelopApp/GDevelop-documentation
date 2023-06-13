@@ -34,10 +34,10 @@ Different games can display inventories in different ways. Inventories can't be 
 
 To use Sprites and Text objects to create a display:
 
-  - use the condition "Has an item" in order to check to see if an item is "owned"
-  - display or hide the associated object on the screen
-  - use the expression "Item count" (for example, `InventoryTools::Count("PlayerInventory", "Gold")` **or now** `Inventory::Count("PlayerInventory", "Gold")`) to access the count of a given item
-  - use the "Item count" to set the text of a "Text" object that is displayed on the screen
+- use the condition "Has an item" in order to check to see if an item is "owned"
+- display or hide the associated object on the screen
+- use the expression "Item count" (for example, `InventoryTools::Count("PlayerInventory", "Gold")` **or now** `Inventory::Count("PlayerInventory", "Gold")`) to access the count of a given item
+- use the "Item count" to set the text of a "Text" object that is displayed on the screen
 
 ## Saving/loading inventories
 

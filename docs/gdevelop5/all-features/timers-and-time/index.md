@@ -41,7 +41,6 @@ You can use the action to reset the timer to make something repeat on a regular 
 
 ![](/gdevelop5/all-features/timers/pasted/20220122-162310.png)
 
-
 ### A more advanced example of a scene timer
 
 Here is a more advanced Timer example. The timer is used to briefly protect the player from damage.  The amount of time given to protect the player depends on the value of the variable "`player_undestroyable_time`":
@@ -58,7 +57,6 @@ Here is a more advanced Timer example. The timer is used to briefly protect the 
 In addition to scene timers, you can use timers on the instances of objects. Each instance living on the scene hold its own timers in memory. These timers are working independently.
 
 This is useful for having each instance (for example, each spaceship, each enemy, each player...) handle their own timings. For example, this can be the time of invulnerability after a player or an enemy is hit.
-
 
 Object timers are set up in the same way as scene timers. You have to initialize an object instance timer with the action to start (or reset) a timer.
 
