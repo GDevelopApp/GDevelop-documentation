@@ -9,11 +9,11 @@ Follow the [Google official documentation](https://support.google.com/admob/answ
 
 Ads can be loaded and displayed in your game at any time. They can be displayed as:
 
- * **App open** that opens while your app starts
- * **Banners** at the top or bottom of the screen
- * **Interstitials** that cover the entire screen.
- * **Rewarded videos** that show a video to the user rewarding them something at the end.
- * **Rewarded interstitials** that are similar to videos, but that the user can skip
+* **App open** that opens while your app starts
+* **Banners** at the top or bottom of the screen
+* **Interstitials** that cover the entire screen.
+* **Rewarded videos** that show a video to the user rewarding them something at the end.
+* **Rewarded interstitials** that are similar to videos, but that the user can skip
 
 Banner ads are usually displayed during gameplay. Interstitial screens and reward videos are displayed after the completion of a level or an objective.
 
@@ -91,8 +91,8 @@ Once your game is set up with the *app id*, you can add an event with an action 
 
 Choose the actions adapted to your ad unit:
 
-  * If you created a **banner**, use the action to 1) *Configure the banner* and 2) *Show the banner*.
-  * For **interstitials** and **rewarded videos**, use the action to first load them (during the gameplay) and then the action to show them whenever you're ready (the player just finished a level for example).
+* If you created a **banner**, use the action to 1) *Configure the banner* and 2) *Show the banner*.
+* For **interstitials** and **rewarded videos**, use the action to first load them (during the gameplay) and then the action to show them whenever you're ready (the player just finished a level for example).
 
 In the action, paste the **ad unit id** in the parameters (one for Android and one for iOS). Because parameters are string expressions, you must put the *ad unit identifier between quotes*.
 
@@ -116,9 +116,9 @@ The one-click packaging for Android service included with GDevelop is compatible
 
 In summary, before you launch your application with ads, you must:
 
-  * Your Admob account needs to be approved.
-  * Make sure to disable the test mode.
-  * Double check that you have set the **app id** (for Android and iOS), and the **ad unit identifiers** (for Android and iOS).
+* Your Admob account needs to be approved.
+* Make sure to disable the test mode.
+* Double check that you have set the **app id** (for Android and iOS), and the **ad unit identifiers** (for Android and iOS).
 
 Wait a few hours before seeing the first ads.
 

@@ -11,8 +11,8 @@ Everything on the internet uses HTTP requests. When you visit a webpage, your br
 
 Games and applications work similarly to send or get data to a server:
 
-  * they send a request to a specific address (also called an endpoint). Optionally, the request can include parameters.
-  * the server sends back a response. The set of all requests that are handled by a server is sometimes called an API.
+* they send a request to a specific address (also called an endpoint). Optionally, the request can include parameters.
+* the server sends back a response. The set of all requests that are handled by a server is sometimes called an API.
 
 In addition to the address and the parameters, HTTP requests can have a "verb" associated as well.  Requests to get data or fetch a webpage are usually "GET" requests. Requests to post data are usually "POST" requests.
 
@@ -50,7 +50,7 @@ Variables in GDevelop can contain number, strings or be a "structure" containing
 
 Structures are useful as they can store all the data concerning something, that can then be sent to a server. To do this, you can convert the structure variable to JSON, using the expression called `ToJSON`. For example:
 
-```
+```javascript
 ToJSON(Progress)
 ```
 

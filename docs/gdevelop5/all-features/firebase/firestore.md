@@ -25,10 +25,8 @@ the friend list individually and you can get the player data without getting all
 
 !!! tip
 
-
     The other advantage of collections is that they are very good and fast at filtering/ordering data before sending it to the player.
     Sadly, GDevelop doesn't yet supports sending queries to collections.
-
 
 For more informations on the data model of Firestore, read
 [the data model guide](https://firebase.google.com/docs/firestore/data-model) and
@@ -79,7 +77,7 @@ The value/text filter allows to check all documents that meet a certain criteria
 
 This filter allows to automatically sort the documents of the query to be ordered by the value of a field. For example, if you have documents that look like this:
 
-```
+```text
 { price: 69, name: "Lamp oil"},
 { price: 42, name: "Rope"},
 { price: 420, name: "Bombs"}
@@ -91,7 +89,7 @@ And use the filter like this:
 
 Then the documents would be reordered inside the query like this:
 
-```
+```text
 { price: 420, name: "Bombs"},
 { price: 69, name: "Lamp oil"},
 { price: 42, name: "Rope"}
@@ -132,7 +130,8 @@ Once you have built your query (or just created an empty one to target all docum
 ### The query result
 
 When a query finishes, it stores its result in the passed structure variable. It will look like this:
-```
+
+```text
 {
   size: 1,
   empty: false,

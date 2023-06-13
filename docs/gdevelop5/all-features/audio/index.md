@@ -73,7 +73,7 @@ The condition "A sound is being played" (on this channel) is then true, while "A
 
 The sound will be stopped when:
 
-* It reaches its **end** and is not configured to loop. * There is **an error during the loading** (in which case it will be considered as playing for a few milliseconds, then will be deemed to be stopped as it was unable to load). * Or you used **the action** to stop a sound or music on the channel.
+* It reaches its **end** and is not configured to loop. *There is **an error during the loading** (in which case it will be considered as playing for a few milliseconds, then will be deemed to be stopped as it was unable to load).* Or you used **the action** to stop a sound or music on the channel.
 
 ## Reference
 

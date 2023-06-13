@@ -33,12 +33,10 @@ They are used when there is no network to update the variables value, or while t
 
 !!! warning
 
-
     While you don't have to go through this step,
     it is very recommended to do go through it as not doing so could break the game
     for users with an unstable or nonexistent internet connection, or when the game is
     launched the first time and no configuration has been fetched yet.
-
 
 We can do that by creating a structure containing the defaults:
 ![](/gdevelop5/all-features/firebase/rc3.png)
@@ -56,12 +54,9 @@ Now you can set some variables. Set the ones you have assigned a default to:
 
 !!! danger
 
-
     Don't forget to save the changes!
 
     ![](/gdevelop5/all-features/firebase/fb3.png)
-
-
 
 ## Adding Synchronisation
 
@@ -71,16 +66,12 @@ For that you can use a timer or do it at the beginning of a scene that is often 
 
 !!! danger
 
-
     While you probably want to synchronize the configuration often, do not synchronize it too quickly too often!
     Else, Firebase will time you out to prevent to be DDoS by all the requests done.
 
-
 !!! note
 
-
     You could also use the "set auto update interval" action, but it is not much reliable according to some tests.
-
 
 We can for example use the button presses here as they will happen often but not too much:
 ![](/gdevelop5/all-features/firebase/rc8.png)

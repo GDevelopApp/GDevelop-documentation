@@ -15,12 +15,14 @@ The data is all stored in a JSON tree, which is comparable with a [structure var
 There are a few key differences though:
 
 #### Access of children
+
 Unlike GDevelop variables, where you get the child via `<structureVariable>.<childVariableName>`, on Realtime Database you get it with a slash:
 `<structureVariable>/<childVariableName>`. That means that for dynamic access, you would write the path name as
 `"structure/" + VariableString(dynamicVariableAccess) + "/specificProperty"`, unlike GDevelop structures where you write it this way:
 `Variable(structure[VariableString(dynamicVariableAccess)].specificProperty)`
 
 #### Nesting of children
+
 While in GDevelop there is no fixed limit of how deep the nesting of children can go, Realtime Database doesn't let you have
 a higher deepness than 32.
 
@@ -28,9 +30,9 @@ a higher deepness than 32.
 
 You should structure data in a way that allows the least nesting as possible, as nesting data can cause a problems in a few situations:
 
-  - Fetching data. Whenever you fetch the data from the server, you also download all the nested data. If it is much, it can take time and cause lag.
-  - Permissions inheritance. If you make a security rule allowing access to a field, all the nested fields will be given the same access level and it is not possible to override the access for individual nested fields.
-  - The nesting limit. If you nest data too much, you might be stuck with it to continue supporting older versions of your game, but also keep the structure coherent. If you have reached the max nesting level (32) though, you cannot add new nested properties, and therefore cannot keep a coherent structure without redesigning the database structure in a less nested way, which means losing support for all older versions and a ton of work.
+- Fetching data. Whenever you fetch the data from the server, you also download all the nested data. If it is much, it can take time and cause lag.
+- Permissions inheritance. If you make a security rule allowing access to a field, all the nested fields will be given the same access level and it is not possible to override the access for individual nested fields.
+- The nesting limit. If you nest data too much, you might be stuck with it to continue supporting older versions of your game, but also keep the structure coherent. If you have reached the max nesting level (32) though, you cannot add new nested properties, and therefore cannot keep a coherent structure without redesigning the database structure in a less nested way, which means losing support for all older versions and a ton of work.
 
 Apart from trying to stay away from nesting, you should be able to design the structure of your database however you want.
 
@@ -43,6 +45,7 @@ You may not want to allow everyone to write everything.
 Else, everyone could modify the data of the others! To choose who can access what and how, Firebase has the rules system.
 It interoperates with [Firebase authentication](/gdevelop5/all-features/firebase/authentication), so that you can write this rule to only let
 authenticated players write the authonly variable of the database:
+
 ```json
 {
   "rules": {
@@ -56,6 +59,7 @@ authenticated players write the authonly variable of the database:
 
 You could also have a variable with all users, and have for each child (named after the user uid) have their permissions as a map.
 Here for example, you could allow every user with the "verified" permission to access their own variable named by their user id in the `userdata` variable, every authenticated user to read the `globaldata` variable and every admin to write all variables:
+
 ```json
 {
   "rules": {

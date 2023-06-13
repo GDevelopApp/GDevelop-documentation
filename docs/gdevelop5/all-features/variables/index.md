@@ -3,7 +3,7 @@ title: Variables
 ---
 # Variables
 
-In GDevelop, you can use _variables_ to store temporary data, such as numbers and text. For example, you might use variables to store the player's name, current health, and score.
+In GDevelop, you can use *variables* to store temporary data, such as numbers and text. For example, you might use variables to store the player's name, current health, and score.
 
 !!! note
 
@@ -13,7 +13,7 @@ In GDevelop, you can use _variables_ to store temporary data, such as numbers an
 
 ## Data types
 
-All variables have a _data type_. The data type of a variable determines what type of data the variable can contain.
+All variables have a *data type*. The data type of a variable determines what type of data the variable can contain.
 
 In GDevelop, variables can contain the following types of data:
 
@@ -32,14 +32,15 @@ A variable with the *Number* data type can contain numeric values, such as `0`, 
 
 ### Text
 
-A variable with the *Text* data type can contain text, such as the words `Hello world`. In programming languages, this data type is often referred to as a _string_. In this documentation, the terms *text* and *string* are used interchangeably.
+A variable with the *Text* data type can contain text, such as the words `Hello world`. In programming languages, this data type is often referred to as a *string*. In this documentation, the terms *text* and *string* are used interchangeably.
 
 ### Boolean
 
 A variable with the *Boolean* data type contains the simplest form of information: either yes or no, 1 or 0, true or false. They are useful as they can be easily toggled.
 
 #### Adding a boolean
-A boolean can be added by clicking the wrench** icon→Primitive types→Convert to boolean**.
+
+A boolean can be added by clicking the wrench **icon→Primitive types→Convert to boolean**.
 
 ![](/gdevelop5/tutorials/toggles1.png)
 
@@ -68,11 +69,11 @@ To compare a boolean to another value, text or boolean, you can use **Compare th
 A Structure variable maps names to variables.
 For example, a simple structure can map the name "Hello" to one sub-variable and the name "World" to another sub-variable.
 You can use this data type to organize related variables within a single variable.
-In programming languages, this data type is often referred to as an _object_, _map_, _hash_, or *dictionary*.
+In programming languages, this data type is often referred to as an *object*, *map*, *hash*, or *dictionary*.
 
 ### Array
 
-An Array variable, also sometimes called _list_ in programming languages, is like a list of variables.
+An Array variable, also sometimes called *list* in programming languages, is like a list of variables.
 Each variable in an Array has an index, which defines their position in the array.
 The indices begin at 0 and go up to however long the array is.
 !!! danger
@@ -81,31 +82,32 @@ The indices begin at 0 and go up to however long the array is.
 
 ### Accessing child variables
 
-Variables that exist within a collection variable are known as _child variables_.
+Variables that exist within a collection variable are known as *child variables*.
 To access the value of a child variable, use the following syntax in an [expressions](/gdevelop5/all-features/expressions), replacing the values in angled brackets with variable names:
 
-```
+```javascript
 <parent_variable>.<child_variable>
 ```
+
 Assume we have this structure:
 
 ![](/gdevelop5/all-features/variables/pasted/20230308-154718.png)
 
 To get the value `123` we can write the following expression
 
-```
+```javascript
 GlobalVariable(players.player1.level1score)
 ```
 
 Or, using brackets:
 
-```
+```javascript
 GlobalVariable(players["player1"]["level1score"])
 ```
 
 If this variable was a scene variable, `Variable` would be used instead of `GlobalVariable`:
 
-```
+```javascript
 Variable(players.player1.level1score)
 ```
 
@@ -125,26 +127,27 @@ You can use expressions to dynamically access child variables.
 
 For example, imagine storing the player's score for each level, called `Level1`, `Level2`, `Level3`. If you want to show the player's score for a specific level, you may store the current level number in a variable called `CurrentLevel`. You could then use the following syntax to access the score:
 
-```
+```javascript
 Variable(PlayerScore["Level"+ToString(Variable(CurrentLevel))])
 ```
+
 Whatever is inside the square brackets will be interpreted as the name of the child.
 
 If you need to use a variable to define part of the child path, all the subsequent children in the path will need to be in square brackets as well.   In the above example if you wanted to address a child at PlayerScore.Level1.enemies.killbonus but still define the level dynamically, it would look like this:
 
-```
+```javascript
 Variable(PlayerScore["Level"+ToString(Variable(CurrentLevel))]["enemies"]["killbonus"])
 ```
 
 Note that this is equivalent to writing:
 
-```
+```javascript
 Variable(PlayerScore["Level"+ToString(Variable(CurrentLevel))].enemies.killbonus)
 ```
 
 ## Scopes
 
-The _scope_ of a variable determines:
+The *scope* of a variable determines:
 
 - where the variable can be accessed from
 - how long the variable is stored in memory

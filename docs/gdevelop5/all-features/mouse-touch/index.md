@@ -32,6 +32,7 @@ The expressions `CursorX` and `CursorY` give the cursor position in the scene. F
         **See it in action!** 🎮
 
     [Open this example online](https://editor.gdevelop.io?project=example://balloon-smasher)
+
 ## Handle manually multi-touch gestures (advanced)
 
 When only one touch is done at the same times, the mouse events can be used to keep things simple. Indeed, by default touch events are mirrored by mouse events. This can be disabled with the action “De/activate moving the mouse cursor with touches” when handling both multi-touch and mouse events to avoid echo.

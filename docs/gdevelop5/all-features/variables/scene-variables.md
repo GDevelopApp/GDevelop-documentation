@@ -31,19 +31,19 @@ You can use scene variables in [expressions](/gdevelop5/all-features/expressions
 
 ### Number
 
-```
+```javascript
 Variable(<variable_name>)
 ```
 
 ### Text
 
-```
+```javascript
 VariableString(<variable_name>)
 ```
 
 ### Structure
 
-```
+```javascript
 Variable(<parent_variable>.<child_variable>)
 VariableString(<parent_variable>.<child_variable>)
 ```

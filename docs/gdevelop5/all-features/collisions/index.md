@@ -8,14 +8,15 @@ Most games need to detect and handle collisions between objects. Detecting and h
 GDevelop provides several different ways to handle collisions. You can detect collisions using Event Editor conditions and actions, or you can use Object behaviors.
 
 ## Make objects solids: use the "Separate objects" action (good for top-down games, RPG...)
+
 ![](/gdevelop5/all-features/separate-condition.png)
 
 You can use the "**Separate objects**" action to move objects manually. The "Separate objects" action can also move objects with "forces" or set the object's position.
 
 "**Separate objects.**" This action takes two object names as the argument.
 
-  * The first object name is the _object moving_ (the player, enemy, etc.).
-  * The second object name is an _object (or a group of objects) that are solid_. For example, these objects can be the walls.
+* The first object name is the _object moving_ (the player, enemy, etc.).
+* The second object name is an _object (or a group of objects) that are solid_. For example, these objects can be the walls.
 
 The action will then iterate over all of the objects given. It will ensure that if an object of the first kind is colliding with an object of the second kind, the object will be moved away. This is done using an algorithm called the _SAT algorithm_.
 
@@ -29,9 +30,9 @@ Using "Separate objects" is a good way to ensure that your objects can't move in
 
 **The sequence is important.**
 
-  - Run the condition called "**Collision.**"
-  - Add appropriate actions.
-  - Add the "Separate Objects" action.
+- Run the condition called "**Collision.**"
+- Add appropriate actions.
+- Add the "Separate Objects" action.
 
 After running the "Separate objects" action, objects are moved. _Collisions between objects will no longer be able to be checked._
 
@@ -43,7 +44,6 @@ You can find usage of these conditions and actions in the examples:
     Open this example online: [Bomb the Crate Example](https://editor.gdevelop.io?project=example://bomb-the-crate)
 
 [![](/gdevelop5/all-features/checkccollisionbetweenobjectsnew.png)](https://editor.gdevelop.io?project=example://bomb-the-crate)
-
 
 ## Platformer games: use the Platformer character and Platform behaviors
 

@@ -30,19 +30,19 @@ You can use global variables in [expressions](/gdevelop5/all-features/expression
 
 ### Number
 
-```
+```javascript
 GlobalVariable(<variable_name>)
 ```
 
 ### Text
 
-```
+```javascript
 GlobalVariableString(<variable_name>)
 ```
 
 ### Structure
 
-```
+```javascript
 GlobalVariable(<parent_variable>.<child_variable>)
 GlobalVariableString(<parent_variable>.<child_variable>)
 ```
