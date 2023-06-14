@@ -861,6 +861,9 @@ A 3D model.
 
 | Expression | Description |  |
 |-----|-----|-----|
+| `Object.Animation()` | Return the number of the animation played by the object (the number from the animations list).. ||
+| `Object.AnimationName()` | Return the animation played by the object. ||
+| `Object.AnimationSpeedScale()` | Return the animation speed scale (1 = the default speed, >1 = faster and <1 = slower).. ||
 | `Object.Depth()` | Return the depth (size on Z axis). ||
 | `Object.Height()` | Return the height. ||
 | `Object.RotationX()` | Return the rotation on X axis. ||

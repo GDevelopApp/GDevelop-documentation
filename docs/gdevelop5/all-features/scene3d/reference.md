@@ -202,6 +202,15 @@ Flip the object on Z axis
 **Scale**  
 Modify the scale of the specified object.
 
+**Animation (by number)**  
+Change the number of the animation played by the object (the number from the animations list)..
+
+**Animation (by name)**  
+Change the animation played by the object.
+
+**Animation speed scale**  
+Change the animation speed scale (1 = the default speed, >1 = faster and <1 = slower)..
+
 **Depth (size on Z axis)**  
 Change the depth (size on Z axis).
 
@@ -238,7 +247,28 @@ Turn the object around Y axis. This axis doesn't move with the object rotation.
 **Turn around Z axis**  
 Turn the object around Z axis. This axis doesn't move with the object rotation.
 
+**Pause the animation**  
+Pause the animation of the object
+
+**Resume the animation**  
+Resume the animation of the object
+
 ### Object conditions
+
+**Animation finished**  
+Check if the animation being played by the Sprite object is finished.
+
+**Animation paused**  
+Check if the animation of an object is paused.
+
+**Animation (by number)**  
+Compare the number of the animation played by the object (the number from the animations list)..
+
+**Animation (by name)**  
+Compare the animation played by the object.
+
+**Animation speed scale**  
+Compare the animation speed scale (1 = the default speed, >1 = faster and <1 = slower)..
 
 **Depth (size on Z axis)**  
 Compare the depth (size on Z axis).
@@ -280,6 +310,9 @@ Compare the Z position (the "elevation").
 
 | Expression | Description |  |
 |-----|-----|-----|
+| `Object.Animation()` | Return the number of the animation played by the object (the number from the animations list).. ||
+| `Object.AnimationName()` | Return the animation played by the object. ||
+| `Object.AnimationSpeedScale()` | Return the animation speed scale (1 = the default speed, >1 = faster and <1 = slower).. ||
 | `Object.Depth()` | Return the depth (size on Z axis). ||
 | `Object.Height()` | Return the height. ||
 | `Object.RotationX()` | Return the rotation on X axis. ||

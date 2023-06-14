@@ -74,7 +74,7 @@ Compare the number of the animation played by the object.
 Check if the animation being played by the Sprite object is finished.
 
 **Current animation name**  
-Check the animation by played by the object.
+Check the animation played by the object.
 
 **Blend mode**  
 Compare the number of the blend mode currently used by an object
