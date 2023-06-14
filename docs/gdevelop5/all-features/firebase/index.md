@@ -13,10 +13,10 @@ Firebase is a set of free services for developers: analytics, authentication of 
 
 The services includes:
 
-* [Analytics](/gdevelop5/all-features/firebase/analytics)
-* [Remote configuration](/gdevelop5/all-features/firebase/rc)
-* [Authentication](/gdevelop5/all-features/firebase/authentication)
-* [A document oriented database (Cloud Firestore Database)](/gdevelop5/all-features/firebase/firestore)
-* [An online filesystem (Firebase Storage)](/gdevelop5/all-features/firebase/storage)
-* [Firebase functions](/gdevelop5/all-features/firebase/functions) (requires JavaScript knowledge)
-* [Remote performance measuring](/gdevelop5/all-features/firebase/perfomance)  
+  * [Analytics](/gdevelop5/all-features/firebase/analytics)
+  * [Remote configuration](/gdevelop5/all-features/firebase/rc)
+  * [Authentication](/gdevelop5/all-features/firebase/authentication)
+  * [A document oriented database (Cloud Firestore Database)](/gdevelop5/all-features/firebase/firestore)
+  * [An online filesystem (Firebase Storage)](/gdevelop5/all-features/firebase/storage)
+  * [Firebase functions](/gdevelop5/all-features/firebase/functions) (requires JavaScript knowledge)
+  * [Remote performance measuring](/gdevelop5/all-features/firebase/perfomance)  

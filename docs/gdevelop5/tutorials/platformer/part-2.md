@@ -7,9 +7,9 @@ This part of the tutorial explains how to add a playable character to the game.
 
 You'll learn how to:
 
-- Create an object that represents the playable character.
-- Let the player control the object using the arrow keys.
-- Follow the playable character with the camera.
+  - Create an object that represents the playable character.
+  - Let the player control the object using the arrow keys.
+  - Follow the playable character with the camera.
 
 ## Series
 

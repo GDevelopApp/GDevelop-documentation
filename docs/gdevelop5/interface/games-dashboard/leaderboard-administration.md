@@ -113,12 +113,12 @@ Here is more details on the 2 options you have to format the score:
 
 #### 1.Custom display
 
-* Configure a custom display so that scores have a prefix and a suffix
-* Choose the number of decimal places you want to be displayed
-* Here are a few examples for you to see what you can achieve with these settings:
-    * `$150`
-    * `96 coins`
-    * `250.60`
+  * Configure a custom display so that scores have a prefix and a suffix
+  * Choose the number of decimal places you want to be displayed
+  * Here are a few examples for you to see what you can achieve with these settings:
+      * `$150`
+      * `96 coins`
+      * `250.60`
 
 #### 2.Display as time
 
@@ -130,10 +130,10 @@ Choose the format you want to use:
 
 ![](/gdevelop5/interface/games-dashboard/leaderboard-administration/pasted/20220429-165539.png)
 
-* `HH` corresponds to hours
-* `MM` corresponds to minutes
-* `SS` corresponds to seconds
-* `ms` corresponds to milliseconds
+  * `HH` corresponds to hours
+  * `MM` corresponds to minutes
+  * `SS` corresponds to seconds
+  * `ms` corresponds to milliseconds
 
 !!! note
 

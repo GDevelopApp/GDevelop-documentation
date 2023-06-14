@@ -20,25 +20,25 @@ For security reasons, web browsers don't let websites write any data to the file
 
 ### Storage
 
-- It is available on all platforms, a game can be exported to.
+  - It is available on all platforms, a game can be exported to.
 
-- It can only hold text and numbers, binary data like screenshots can't be saved to the web storage.
+  - It can only hold text and numbers, binary data like screenshots can't be saved to the web storage.
 
-- Its maximum capacity is limited to a few megabytes, depending on the type of web browser the player uses.
+  - Its maximum capacity is limited to a few megabytes, depending on the type of web browser the player uses.
 
-- The player has no direct access to web storage.
+  - The player has no direct access to web storage.
 
 ### File system
 
-- It is only available on Windows, Linux and macOS.
+  - It is only available on Windows, Linux and macOS.
 
-- You can save any kind of data.
+  - You can save any kind of data.
 
-- You are free to choose a folder to save your data.
+  - You are free to choose a folder to save your data.
 
-- There are no limits on the file size.
+  - There are no limits on the file size.
 
-- The player can edit the files (i.e. manually correct a wrong screen resolution in a config file with a text editor)
+  - The player can edit the files (i.e. manually correct a wrong screen resolution in a config file with a text editor)
 
 ## Asynchronous execution
 
@@ -51,9 +51,9 @@ To get notified about the status of the background task, the asynchronous action
 
 By checking its value, you get to know when precisely the operation has finished and with which result:
 
-- **"ok"**: The operation was performed without errors.
+  - **"ok"**: The operation was performed without errors.
 
-- **"error"**: Something went wrong while trying to perform the action.
+  - **"error"**: Something went wrong while trying to perform the action.
 
 Saving the name of the next level after completing the previous one in a linear puzzle game, need not be done asynchronously.
 

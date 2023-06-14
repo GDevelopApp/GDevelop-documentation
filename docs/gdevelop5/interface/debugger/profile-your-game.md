@@ -20,18 +20,18 @@ When you stop running the profiler, the new results will be displayed.
 
 The time spent on different aspects of your game is displayed in sections:
 
-* Objects (pre-events) - The time spent running behaviors before the events
-* Events - The time spent running the events. If you have added *groups* to your events, you will see them displayed as sub-sections. Which is a good way to see how each part of your events are performing.
-* Objects (post-events) - The time spent running behaviors after the events (behaviors can be run after events, if set up that way).
-* Objects (visibility) - The time spent checking which objects will be rendered on the screen
-* Render - The time spent for the CPU issuing rendering calls to the GPU.
+  * Objects (pre-events) - The time spent running behaviors before the events
+  * Events - The time spent running the events. If you have added *groups* to your events, you will see them displayed as sub-sections. Which is a good way to see how each part of your events are performing.
+  * Objects (post-events) - The time spent running behaviors after the events (behaviors can be run after events, if set up that way).
+  * Objects (visibility) - The time spent checking which objects will be rendered on the screen
+  * Render - The time spent for the CPU issuing rendering calls to the GPU.
 
 Note that actual rendering on the GPU is not measured here.
 
 For each section, you can see: the total time spent on this section while the profiler was running, the percent of time spent on this section compared to the parent, and the percent of time spent in this section compared to the total time.
 
-* It's a good idea to run the profiler to see which parts of your game are consuming the most resources. In particular, take a look at the events to see if some groups of events are consuming more resources than others.
-* If some behaviors take a lot of time, it can be a good idea to see if you can reduce the number of objects with this behavior, or deactivate the behavior if it's not needed.
+  * It's a good idea to run the profiler to see which parts of your game are consuming the most resources. In particular, take a look at the events to see if some groups of events are consuming more resources than others.
+  * If some behaviors take a lot of time, it can be a good idea to see if you can reduce the number of objects with this behavior, or deactivate the behavior if it's not needed.
 
 !!! tip
 

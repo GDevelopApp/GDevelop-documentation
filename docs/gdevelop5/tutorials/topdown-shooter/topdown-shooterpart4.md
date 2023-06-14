@@ -7,9 +7,9 @@ This tutorial explains to you how to create a Top-Down Shooter game in **GDevelo
 
 In this tutorial, you will learn how to :
 
-- Use **Pathfinding Object** behavior
-- Make an **Enemy**
-- Damage our **Player**
+  - Use **Pathfinding Object** behavior
+  - Make an **Enemy**
+  - Damage our **Player**
 
 ## Series
 
@@ -51,12 +51,12 @@ Now, we need to add assets to our object. To do so:
 
 We have made an **Enemy** object and gave it a **Behavior**, but that's not enough. We need to give it a destination too. And to give it a destination:
 
-- Go to the **Events** tab
-- Make a new event.
-- Add an action
-- Select **Enemy**
-- Select **Move to a position**
-- In the X position textbox, write **Player.X()**, and in the Y position textbox, write **Player.Y()**
+  - Go to the **Events** tab
+  - Make a new event.
+  - Add an action
+  - Select **Enemy**
+  - Select **Move to a position**
+  - In the X position textbox, write **Player.X()**, and in the Y position textbox, write **Player.Y()**
 
 !!! note
 

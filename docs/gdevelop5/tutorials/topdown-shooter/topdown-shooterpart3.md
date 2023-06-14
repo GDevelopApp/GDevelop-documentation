@@ -7,10 +7,10 @@ This tutorial explains to you how to create a Top-Down Shooter game in **GDevelo
 
 In this tutorial, you will learn how to :
 
-- Make a health bar for Player
-- Display it on the screen
-- Make an object variable
-- Use it
+  - Make a health bar for Player
+  - Display it on the screen
+  - Make an object variable
+  - Use it
 
 ## Series
 

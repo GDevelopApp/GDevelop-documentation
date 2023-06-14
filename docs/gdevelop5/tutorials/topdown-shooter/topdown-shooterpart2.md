@@ -7,8 +7,8 @@ This tutorial explains you how to create a Top Down Shooter game in **GDevelop**
 
 In this tutorial, you will learn how to :
 
-- Create a player who can shoot
-- Follow camera towards player
+  - Create a player who can shoot
+  - Follow camera towards player
 
 ## Series
 

@@ -14,9 +14,9 @@ However, GDevelop has the Piskel sprite editor built in to the editor, which can
 
 To complete this method, the following requirements must be met:
 
-* The sprite sheet file must be in jpg, gif, or png format.
-* The sprite sheet must be for a _single_ animation.
-* The sprite sheet must have the sprites evenly spread apart.
+  * The sprite sheet file must be in jpg, gif, or png format.
+  * The sprite sheet must be for a _single_ animation.
+  * The sprite sheet must have the sprites evenly spread apart.
 
 ## Step 1 - Create the Sprite Object and Animation
 

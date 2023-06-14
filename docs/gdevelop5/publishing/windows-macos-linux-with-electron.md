@@ -32,9 +32,9 @@ Before building the project, you _must_ have a package installer on your machine
 
 ### Building the Package
 
-- Start up Command Prompt (**CMD**).
-- Use the Change directory command (**cd**) to the directory of the folder of your exported game (or navigate to that folder using Explorer and press Shift + Right Click -> Open Command Prompt/Powershell for Windows)
-- In the Command Prompt, write:
+  - Start up Command Prompt (**CMD**).
+  - Use the Change directory command (**cd**) to the directory of the folder of your exported game (or navigate to that folder using Explorer and press Shift + Right Click -> Open Command Prompt/Powershell for Windows)
+  - In the Command Prompt, write:
 
 ```sh
 yarn && yarn build
@@ -55,9 +55,9 @@ These steps will create a sub-folder named `dist`. The executable installer is i
 
 You can pass additional options to electron-builder.
 
-- The `-w` option let you build for windows
-- The `-l` option let you build for linux
-- The `-m` option let you build for mac
+  - The `-w` option let you build for windows
+  - The `-l` option let you build for linux
+  - The `-m` option let you build for mac
 
 Those options all accept an additional packaging format. You can find those on the [electron-builder homepage](https://electron.build/):
 ![](/gdevelop5/publishing/windows-macos-linux-with-electron/pasted/20210219-123031.png)

@@ -5,8 +5,8 @@ title: Edit Points
 
 Points are reference locations that refer to a specific location around a sprite.  Every sprite starts with two default points, named "**Origin**" and "**Center**".  Each of these points can be moved from their default locations.
 
-* **Origin** point is created at the top-left corner of the sprite image. This point is used to position the image of the sprite object on the scene.
-* **Center** point is created at the halves of the dimensions of the image. The **Center** point, also called "anchor" or "pivot" in other game engines, is the point around which the image is rotated or flipped.
+  * **Origin** point is created at the top-left corner of the sprite image. This point is used to position the image of the sprite object on the scene.
+  * **Center** point is created at the halves of the dimensions of the image. The **Center** point, also called "anchor" or "pivot" in other game engines, is the point around which the image is rotated or flipped.
 
 !!! tip
 

@@ -13,15 +13,15 @@ GDevelop provides keyboard shortcuts that allow you to quickly get to places. Yo
 
 **On web version**:
 
-* Click **Open projects manager** (On the start page)
-* Go to **Preferences**
-* Go to the **Keyboard shortcuts** tab
+  * Click **Open projects manager** (On the start page)
+  * Go to **Preferences**
+  * Go to the **Keyboard shortcuts** tab
 
 **On desktop version**:
 
-* Open **Files** on the toolbar
-* Go to **Preferences**
-* Go to the **Keyboard shortcuts** tab
+  * Open **Files** on the toolbar
+  * Go to **Preferences**
+  * Go to the **Keyboard shortcuts** tab
 
 ![](/gdevelop5/interface/shortcuts.png)
 

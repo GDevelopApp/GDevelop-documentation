@@ -11,9 +11,9 @@ For example, the **[multitouch joysticks](/gdevelop5/objects/multitouch-joystick
 
 Custom objects contain other objects, which are called "child objects". They can display on screen one or more instances of these "child objects" and can offer:
 
-* custom conditions,
-* custom actions,
-* custom expressions.
+  * custom conditions,
+  * custom actions,
+  * custom expressions.
 
 !!! warning
 

@@ -15,8 +15,8 @@ You can use the "**Separate objects**" action to move objects manually. The "Sep
 
 "**Separate objects.**" This action takes two object names as the argument.
 
-* The first object name is the _object moving_ (the player, enemy, etc.).
-* The second object name is an _object (or a group of objects) that are solid_. For example, these objects can be the walls.
+  * The first object name is the _object moving_ (the player, enemy, etc.).
+  * The second object name is an _object (or a group of objects) that are solid_. For example, these objects can be the walls.
 
 The action will then iterate over all of the objects given. It will ensure that if an object of the first kind is colliding with an object of the second kind, the object will be moved away. This is done using an algorithm called the _SAT algorithm_.
 
@@ -30,9 +30,9 @@ Using "Separate objects" is a good way to ensure that your objects can't move in
 
 **The sequence is important.**
 
-- Run the condition called "**Collision.**"
-- Add appropriate actions.
-- Add the "Separate Objects" action.
+  - Run the condition called "**Collision.**"
+  - Add appropriate actions.
+  - Add the "Separate Objects" action.
 
 After running the "Separate objects" action, objects are moved. _Collisions between objects will no longer be able to be checked._
 
@@ -53,8 +53,8 @@ If you're making a platformer game, it's a good idea to use the ["Platformer cha
 
 In a platformer game with the "Platformer character" behavior, collisions with platforms are handled for you.
 
-* You can still use the **Collision condition** to check for collisions between an object and other objects (for example, between the player and enemies) and react accordingly.
-* You can use the "Is on Floor" condition to check if an object is on a platform.
+  * You can still use the **Collision condition** to check for collisions between an object and other objects (for example, between the player and enemies) and react accordingly.
+  * You can use the "Is on Floor" condition to check if an object is on a platform.
 
 ![](/gdevelop5/all-features/playerisonfloorevents.png)
 

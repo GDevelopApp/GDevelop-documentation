@@ -12,6 +12,6 @@ GDevelop is a free, open-source, and cross-platform game creation tool that anyo
 
 ## Next steps
 
-* [Download GDevelop](https://gdevelop.io/download) and read the [Getting Started](/gdevelop5/getting_started) guide.
-* If you've never made a game before, read the [Basic game-making concepts](/gdevelop5/tutorials/basic-game-making-concepts) guide.
-* If you're ready to start making a game, watch the [Official Intro Tutorial Video Series](https://www.youtube.com/watch?v=bR2BjT7JG0k&list=PL3YlZTdKiS89Kj7IQVPoNElJCWrjZaCC8) or [browse the tutorials](/gdevelop5/tutorials).
+  * [Download GDevelop](https://gdevelop.io/download) and read the [Getting Started](/gdevelop5/getting_started) guide.
+  * If you've never made a game before, read the [Basic game-making concepts](/gdevelop5/tutorials/basic-game-making-concepts) guide.
+  * If you're ready to start making a game, watch the [Official Intro Tutorial Video Series](https://www.youtube.com/watch?v=bR2BjT7JG0k&list=PL3YlZTdKiS89Kj7IQVPoNElJCWrjZaCC8) or [browse the tutorials](/gdevelop5/tutorials).

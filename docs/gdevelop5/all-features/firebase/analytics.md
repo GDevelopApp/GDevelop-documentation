@@ -11,10 +11,10 @@ To get started with the Firebase analytics, use the action **Activate analytics*
 
 To send custom data, such as a player finishing a level, a "log event" can be used. Here is an example:
 
-- When the players exits the level, before switching scenes:
-    - Create a new event or update an existing event with the **log event action**
-    - Ensure that "level1_finished" is listed as the event name.
-- The users who have beaten level 1 will now show on the dashboard.
+  - When the players exits the level, before switching scenes:
+      - Create a new event or update an existing event with the **log event action**
+      - Ensure that "level1_finished" is listed as the event name.
+  - The users who have beaten level 1 will now show on the dashboard.
 
 !!! tip
 
@@ -31,7 +31,7 @@ This can be useful for collecting data on users and using for example [Remote Co
 
 Firebase analytics are not shown immediately on the dashboard. This can make it hard to validate that the integration is working. You can use a Google Chrome extension to verify that the data is being sent properly.
 
-- Download the [Google Analytics debugging extension for Chrome](https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna).
-- Start the Network Preview feature or export the game as HTML5 game and host it on any Web server (remote or local).
-- Go to the Firebase console and open the DebugView panel: ![](/gdevelop5/all-features/firebase/analytics1.png)
-- Finally, navigate to the Web server page (or Network Preview URL) and click on the extension icon to enable the debug mode. The game should reload and now everytime something is logged or a user property changes, you will see it in DebugView with a little delay.
+  - Download the [Google Analytics debugging extension for Chrome](https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna).
+  - Start the Network Preview feature or export the game as HTML5 game and host it on any Web server (remote or local).
+  - Go to the Firebase console and open the DebugView panel: ![](/gdevelop5/all-features/firebase/analytics1.png)
+  - Finally, navigate to the Web server page (or Network Preview URL) and click on the extension icon to enable the debug mode. The game should reload and now everytime something is logged or a user property changes, you will see it in DebugView with a little delay.

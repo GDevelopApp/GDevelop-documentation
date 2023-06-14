@@ -22,16 +22,16 @@ TODO screenshot of events and small example link.
 
 Rolling one die is the same as picking a random number between 1 an 6 using the expression `RandomInRange(1, 6)`. But, rolling 2 dice is not the same as picking a number between 2 and 12. Indeed, there is only one way to make a 2 with:
 
-- 1 and 1
+  - 1 and 1
 
 whereas there are 6 ways to make a 7:
 
-- 1 and 6
-- 2 and 5
-- 3 and 4
-- 4 and 3
-- 5 and 2
-- 6 and 1
+  - 1 and 6
+  - 2 and 5
+  - 3 and 4
+  - 4 and 3
+  - 5 and 2
+  - 6 and 1
 
 Rolling 2 dice is actually the same as picking 2 numbers between 1 and 6 and adding them together using this expression `RandomInRange(1, 6) + RandomInRange(1, 6)`.
 

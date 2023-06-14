@@ -7,8 +7,8 @@ This part of the tutorial explains how to add platforms to the game. This provid
 
 You'll learn how to:
 
-* Create Tiled Sprite objects.
-* Make a platform behave like a platform.
+  * Create Tiled Sprite objects.
+  * Make a platform behave like a platform.
 
 ## Series
 

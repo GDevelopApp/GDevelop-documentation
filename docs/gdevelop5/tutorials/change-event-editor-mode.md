@@ -11,10 +11,10 @@ GDevelop has two different modes, one mode which lists all conditions or actions
 
 ## Changing the mode
 
-- Within GDevelop, click the **File** tab.
-- Click the **Preferences** menu.
-- Within the **Event Sheet** section,  click **Use the new action/condition editor**. If it is currently enabled, it will be disabled and vice versa.
-- Click **Close**. The event editor mode will now be updated.
+  - Within GDevelop, click the **File** tab.
+  - Click the **Preferences** menu.
+  - Within the **Event Sheet** section,  click **Use the new action/condition editor**. If it is currently enabled, it will be disabled and vice versa.
+  - Click **Close**. The event editor mode will now be updated.
 
 ## Examples
 

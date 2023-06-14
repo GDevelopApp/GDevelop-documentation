@@ -7,9 +7,9 @@ This tutorial explains to you how to create a Top-Down Shooter game in **GDevelo
 
 In this tutorial, you will learn how to :
 
-- Make an obstacle for our Enemy
-- Animate a sprite
-- Optimize the game by deleting unnecessary objects
+  - Make an obstacle for our Enemy
+  - Animate a sprite
+  - Optimize the game by deleting unnecessary objects
 
 ## Series
 

@@ -15,6 +15,6 @@ Procedural generation is way for the computer to create parts of the game for yo
 
 Articles about Procedural Generation:
 
-- [Understanding Procedural Generation](/gdevelop5/tutorials/procedural-generation/understanding-procedural-generation)
-- [Implementing Procedural Generation](/gdevelop5/tutorials/procedural-generation/implementing-procedural-generation)
-- [Constraint a terrain generation](/gdevelop5/extensions/marching-squares/details/#constraint-a-terrain-generation)
+  - [Understanding Procedural Generation](/gdevelop5/tutorials/procedural-generation/understanding-procedural-generation)
+  - [Implementing Procedural Generation](/gdevelop5/tutorials/procedural-generation/implementing-procedural-generation)
+  - [Constraint a terrain generation](/gdevelop5/extensions/marching-squares/details/#constraint-a-terrain-generation)

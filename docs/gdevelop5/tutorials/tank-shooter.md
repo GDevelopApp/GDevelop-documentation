@@ -174,8 +174,8 @@ The condition is now added to the event.
 
 If you preview the game now, you'll see that we have two problems:
 
-* The bullets are fired too fast.
-* The bullets appear at the object's origin. This makes the bullets seem unrealistic.
+  * The bullets are fired too fast.
+  * The bullets appear at the object's origin. This makes the bullets seem unrealistic.
 
 To address the first issue of the bullets firing too fast, we are going to use a timer.  Add a second condition to the last event we've created. Choose the condition "Value of a scene timer" inside category "Timers and Time".
 
@@ -304,8 +304,8 @@ At this point, our event should look like this
 
 If you run a preview now, you will notice a couple of problems:
 
-* First, the explosion objects are not created exactly in the position of the enemy.
-* Second, the created explosion object remains in the scene.
+  * First, the explosion objects are not created exactly in the position of the enemy.
+  * Second, the created explosion object remains in the scene.
 To solve the first problem of the "explosion" objects remaining in the scene, we need to delete the explosion object after the animations are finished.
 Add a new empty event and the condition "Sprite", "Animations and Images",  "Animation finished".
 ![](/gdevelop5/tutorials/animation-finished-event.png)
@@ -333,9 +333,9 @@ If we run a preview now, our enemies will explode realistically from the center 
 Until now, the player could not die. When an enemy tank is hitting the player's turret, we want the turret to be destroyed.
 Add a new event. Follow the same procedure that you followed to create an event to destroy the enemies.
 
-* Add a condition to test for a collision between a tank and the turret.
-* Create an explosion at the turret position.
-* Add an action to destroy the turret.
+  * Add a condition to test for a collision between a tank and the turret.
+  * Create an explosion at the turret position.
+  * Add an action to destroy the turret.
 ![](/gdevelop5/tutorials/delete-turret-on-collision-event.png)
 
 Additionally, it would be interesting to display a “Game Over” text when the turret is destroyed:

@@ -10,8 +10,8 @@ By providing easy-to-use and high-quality assets we're allowing creators to get 
 
 It contains 2 types of asset packs:
 
-- **Free** to use art, accessible to anyone, royalty-free, and open for any type of modification
-- **Premium art**, carefully selected by the GDevelop team for a more unique game style
+  - **Free** to use art, accessible to anyone, royalty-free, and open for any type of modification
+  - **Premium art**, carefully selected by the GDevelop team for a more unique game style
 
 This page provides information on how to sell your assets on GDevelop's Asset Store. You can also directly **[open this form to sell premium assets on GDevelop's store](https://forms.gle/rqQajpDWEF3Em8HS6)**.
 If we've already contacted us or want to know more, just keep reading!
@@ -37,18 +37,18 @@ When an asset pack is sold on GDevelop's Asset Store, the purchase is distribute
 
 Note that:
 
-- The VAT and payment providers fees might amount to something larger than 27%. In this case, **you still keep 40%** and it's us, GDevelop, *who will have our margin reduced*.
-- A cut of 33% might sound a bit higher than some other stores - but when these stores expressed their percent, they don't mention VAT. So the real percent you are earning is less than what they advertise. For example, if a store says they takes 30%, it does not include the VAT and payment process fee, so you will earn way less than 70% (probably something between 25% and 45% of the total price after VAT and additional fees).
-- An interesting feature of the GDevelop asset store is that it gives **ready-to-use objects** for creator games. This means the value someone is getting when buying an asset in GDevelop is higher: they get something we prepared as an object ready to be used (no manual work is involved).
+  - The VAT and payment providers fees might amount to something larger than 27%. In this case, **you still keep 40%** and it's us, GDevelop, *who will have our margin reduced*.
+  - A cut of 33% might sound a bit higher than some other stores - but when these stores expressed their percent, they don't mention VAT. So the real percent you are earning is less than what they advertise. For example, if a store says they takes 30%, it does not include the VAT and payment process fee, so you will earn way less than 70% (probably something between 25% and 45% of the total price after VAT and additional fees).
+  - An interesting feature of the GDevelop asset store is that it gives **ready-to-use objects** for creator games. This means the value someone is getting when buying an asset in GDevelop is higher: they get something we prepared as an object ready to be used (no manual work is involved).
 
 ## Discounts and coupons (coming soon)
 
 Momentary discounts and single-purchase coupons will be available for creators.
 The following rules apply to prevent marketplace abuse:
 
-- Discounts and coupons will be valid for a maximum of 31 days, after which they'll automatically expire.
-- Coupons will only be valid to purchase assets from the creator that released the coupon.
-- Only one coupon can be applied to a single asset pack purchase.
+  - Discounts and coupons will be valid for a maximum of 31 days, after which they'll automatically expire.
+  - Coupons will only be valid to purchase assets from the creator that released the coupon.
+  - Only one coupon can be applied to a single asset pack purchase.
 
 Creators will always have the choice to participate (or not) in GDevelop discounts like "Black Fridays" or "Cyber Mondays", as well as the packs that they'll make available for those events.
 
@@ -70,10 +70,10 @@ We will soon provide a guide for that purpose.
 GDevelop uses Stripe's Marketplace in order to handle payments.
 In order to be eligible to sell Asset Packs on the app, you'll need:
 
-* To be older than 13 years old
-* A valid email
-* An address in your country of residence
-* A bank account in your country of residence
+  * To be older than 13 years old
+  * A valid email
+  * An address in your country of residence
+  * A bank account in your country of residence
 
 Once your assets have been accepted, GDevelop's team will create a Stripe account for you.
 You will have to complete your registration with your email address, home address, full name, and bank details. Once you've filled in this information, your Stripe account will be up and running with a purchases dashboard, where you'll be able to follow all your transactions.
@@ -89,8 +89,8 @@ GDevelop's Asset Store is built as a marketplace: GDevelop hosts a digital solut
 
 Here is what happens when a buyer purchases a product on the asset store:
 
-* GDevelop buys the product from the seller
-* GDevelop resells it to the buyer
+  * GDevelop buys the product from the seller
+  * GDevelop resells it to the buyer
 
 From the accounting point of view, the seller should create an invoice addressed to GDevelop.
 To avoid obliging sellers to create such invoices, GDevelop will create self-billing invoices that you will be able to retrieve.
@@ -109,10 +109,10 @@ First and foremost, we want to ensure the Asset Store remains a place of high qu
 Thus, every asset creator must go through a selection process.
 If you're an artist and wish to submit your assets to the store, contact us and make sure to send the following information:
 
-* Name
-* Country of residence
-* Link to your premium pack for revision
-* An introduction about who you are, and what inspired you to create that pack
+  * Name
+  * Country of residence
+  * Link to your premium pack for revision
+  * An introduction about who you are, and what inspired you to create that pack
 
 For this, use **[this form to sell premium assets on GDevelop's store](https://forms.gle/rqQajpDWEF3Em8HS6)**. Thank you!
 

@@ -15,9 +15,9 @@ Asynchronous events are special actions that will not execute when called. Inste
 
 What you do **not** need to watch out for:
 
-- Object picking - object picking works like normal events, previously picked objects will still be picked afterward. Objects deleted in the meantime will be unpicked.
-- Using results of the event in actions or subevents after the asynchronous actions - If an action is just after an asynchronous action, or in a subevent of the event it was used in, it will only get executed once the asynchronous action is done with its work, so you can use
+  - Object picking - object picking works like normal events, previously picked objects will still be picked afterward. Objects deleted in the meantime will be unpicked.
+  - Using results of the event in actions or subevents after the asynchronous actions - If an action is just after an asynchronous action, or in a subevent of the event it was used in, it will only get executed once the asynchronous action is done with its work, so you can use
 
 What you **do** need to watch out for:
 
-- Using the results of the asynchronous action or side effects of actions/subevents following it in a sibling event - uniquely actions following the asynchronous one in the same event, and events that are subevents of the event using the asynchronous action will be queued for execution after the asynchronous action has finished its job. The others will be executed synchronously.
+  - Using the results of the asynchronous action or side effects of actions/subevents following it in a sibling event - uniquely actions following the asynchronous one in the same event, and events that are subevents of the event using the asynchronous action will be queued for execution after the asynchronous action has finished its job. The others will be executed synchronously.

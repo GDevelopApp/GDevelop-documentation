@@ -139,8 +139,8 @@ Now add a sub-condition.
 
 Select Monster, then "X position", and enter `\> (greater than)` as the "Sign of the test" and `MouseX() + 5` as the "X position".
 
-* `MouseX()` is an "expression" (also called function, like mathematical functions). It returns the position of the mouse, or touch on a touchscreen, in pixels on the X axis.
-* The `5` is an offset in pixels, so the Monster won't be jumping between both states if it will be clicked or touched in the center (you'll see how it's useful by doing the next event).
+  * `MouseX()` is an "expression" (also called function, like mathematical functions). It returns the position of the mouse, or touch on a touchscreen, in pixels on the X axis.
+  * The `5` is an offset in pixels, so the Monster won't be jumping between both states if it will be clicked or touched in the center (you'll see how it's useful by doing the next event).
 
 ![](/gdevelop5/tutorials/geometry-monster/56_5.png)
 

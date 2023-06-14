@@ -5,8 +5,8 @@ title: Scene variables
 
 Scene variables:
 
-- are stored in memory for as long as a scene is active
-- can only be accessed from within the current scene
+  - are stored in memory for as long as a scene is active
+  - can only be accessed from within the current scene
 
 They're useful for storing data that doesn't need to be shared between different scenes, such as the number of enemies in the scene. They're deleted from memory when the player changes scenes.
 

@@ -31,12 +31,12 @@ You can customize your public profile information directly from the GDevelop int
 
 Profiles have different properties:
 
-- **An username**. Your unique username on GDevelop's websites and services.
-- **A biography**. Introduce yourself in a few words, tell us who you are and what you do.
-- **A donation link**. Useful for linking your Patreon, Paypal, Ko-fi, or any URL.
-- If your subscription to the **GDevelop Newsletter** is active.
-- If your subscription to **the analytics of your games** is active.
-- The current **GDevelop subscription** running on your account.
+  - **An username**. Your unique username on GDevelop's websites and services.
+  - **A biography**. Introduce yourself in a few words, tell us who you are and what you do.
+  - **A donation link**. Useful for linking your Patreon, Paypal, Ko-fi, or any URL.
+  - If your subscription to the **GDevelop Newsletter** is active.
+  - If your subscription to **the analytics of your games** is active.
+  - The current **GDevelop subscription** running on your account.
 
 ### Changing your profile picture
 

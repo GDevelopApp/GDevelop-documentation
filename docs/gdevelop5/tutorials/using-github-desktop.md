@@ -9,9 +9,9 @@ During game development, there are usually hundreds of changes from the beginnin
 
 To complete this process, the following requirements must be met:
 
-* Have a 64 Bit Operating System (required for GitHub Desktop)
-* [Have an active GitHub account](https://www.wikihow.com/Create-an-Account-on-GitHub)
-* [Have GitHub Desktop installed](https://docs.github.com/en/desktop/getting-started-with-github-desktop/installing-github-desktop)
+  * Have a 64 Bit Operating System (required for GitHub Desktop)
+  * [Have an active GitHub account](https://www.wikihow.com/Create-an-Account-on-GitHub)
+  * [Have GitHub Desktop installed](https://docs.github.com/en/desktop/getting-started-with-github-desktop/installing-github-desktop)
 
 ### Step 1 - Set Up a GitHub Repository
 

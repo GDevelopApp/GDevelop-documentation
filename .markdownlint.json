@@ -2,7 +2,7 @@
   "default": true,
   "MD001": false,
   "MD004": false,
-  "MD007": { "indent": 4 },
+  "MD007": { "indent": 4, "start_indent": 2, "start_indented": true },
   "MD010": { "ignore_code_languages": ["text"] },
   "MD013": false,
   "MD024": false,

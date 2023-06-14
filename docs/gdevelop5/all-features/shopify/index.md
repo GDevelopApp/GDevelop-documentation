@@ -9,28 +9,28 @@ If you have a Shopify powered online store, using this feature can be instrument
 
 In Shopify, open your shop administration dashboard. Add an app and note the app identifier (a large number):
 
-* Go in *Apps* in the left menu,
-* At the bottom, choose *Manage private apps*,
-* Click on "Create a new private app" and enter the required information:
+  * Go in *Apps* in the left menu,
+  * At the bottom, choose *Manage private apps*,
+  * Click on "Create a new private app" and enter the required information:
 
 ![](/gdevelop5/all-features/shopify-create-private-app.png)
 
-* When the app is created, note the *app identifier* in the address bar:
+  * When the app is created, note the *app identifier* in the address bar:
 
 ![](/gdevelop5/all-features/shopify-app-identifier.png)
 
-* Also note the "*Storefront access token*".
+  * Also note the "*Storefront access token*".
 
 Then, we need to get the identifiers of the products we want to add to the game.
 Choose the product that you want to add to your game:
 
-* Choose Products in the left menu,
-* Click on the chosen product,
-* Note the product identifier in the address bar:
+  * Choose Products in the left menu,
+  * Click on the chosen product,
+  * Note the product identifier in the address bar:
 
 ![](/gdevelop5/all-features/shopify-product-identifier.png)
 
-* Verify that your previously created private app is listed in the *sales channels* (click on manage if that's not the case):
+  * Verify that your previously created private app is listed in the *sales channels* (click on manage if that's not the case):
 
 ![](/gdevelop5/all-features/shopify-sales-channels.png)
 

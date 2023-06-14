@@ -45,12 +45,12 @@ By default, a behavior is empty and **does nothing**. To add interactivity, you 
 
 Predefined lifecycle methods are as such:
 
-* **onCreated**: events inside the function will be run when **a new instance of an object** with the behavior is created.
-* **onStepPreEvents**: will be run every time a frame is rendering on the screen **before the "traditional" events** of the scene. Typically in most games, this is done 60 times per second. This is called for **every single object** having the behavior if the behavior is not deactivated.
-* **onDestroy**: events that will be run when an instance of the object having the behavior is **deleted** (if multiple objects are removed at the same time, events will be run for each object). This is done even if the behavior is deactivated.
-* **onDeActivate**: events that will be run once, after the behavior is deactivated on an object.
-* **onActivate**: events that will be run once, after the behavior is activated again on an object.
-* **onStepPostEvents**: events that will be run for every single object having the behavior, **after** the "traditional" events of the scene,  if the behavior is not deactivated. Typically in most games, this is done 60 times per second. As possible, we recommend to prefer onStepPreEvents, to run your logic before events and give the events in the scene a chance to react to changes that happen on the objects.
+  * **onCreated**: events inside the function will be run when **a new instance of an object** with the behavior is created.
+  * **onStepPreEvents**: will be run every time a frame is rendering on the screen **before the "traditional" events** of the scene. Typically in most games, this is done 60 times per second. This is called for **every single object** having the behavior if the behavior is not deactivated.
+  * **onDestroy**: events that will be run when an instance of the object having the behavior is **deleted** (if multiple objects are removed at the same time, events will be run for each object). This is done even if the behavior is deactivated.
+  * **onDeActivate**: events that will be run once, after the behavior is deactivated on an object.
+  * **onActivate**: events that will be run once, after the behavior is activated again on an object.
+  * **onStepPostEvents**: events that will be run for every single object having the behavior, **after** the "traditional" events of the scene,  if the behavior is not deactivated. Typically in most games, this is done 60 times per second. As possible, we recommend to prefer onStepPreEvents, to run your logic before events and give the events in the scene a chance to react to changes that happen on the objects.
 
 This is an example of some events inside onStepPreEvents in the case of behavior that automatically deletes objects that are too damaged:
 
@@ -107,11 +107,11 @@ To show and add properties to your behavior, edit it and click on the "Propertie
 
 Properties can be:
 
-* Number, string (including a color or a choice from a list of options) or booleans (will be displayed as a checkbox).
-* They can also be another required behavior - in which case the behavior you're editing will ensure the other specified behavior is present on objects using it. There is a dedicated section later on this page about this.
-* They have a default value, that will be used if the value is not changed when adding the behavior to an object.
-* They can be visible in the editor, when added to an object, or invisible.
-* Finally, they have a label that will be displayed in the editor.
+  * Number, string (including a color or a choice from a list of options) or booleans (will be displayed as a checkbox).
+  * They can also be another required behavior - in which case the behavior you're editing will ensure the other specified behavior is present on objects using it. There is a dedicated section later on this page about this.
+  * They have a default value, that will be used if the value is not changed when adding the behavior to an object.
+  * They can be visible in the editor, when added to an object, or invisible.
+  * Finally, they have a label that will be displayed in the editor.
 
 ### Use actions and conditions to manipulate the properties
 
@@ -143,9 +143,9 @@ To use a behavior based on another, you don't need to do anything special! Just 
 
 Creating your own behaviors has multiple advantages:
 
-* *Encapsulation*: by adding logic inside a custom behavior, you can keep a clear events sheet, with fewer events so it's easier to read and maintain. Behaviors can have actions/conditions and expressions that run logic, so you don't have to repeat long instructions in the events sheet. You can just use the action/condition the behavior providing as you would normally do with any other behavior.
-* *Reusability*: let's say that you created a behavior to have an enemy move and lose a life if hit by the player. If you want to create a slightly different enemy, but based on the same principles, you can create a new object, then add the same behavior with different properties. In a few clicks, you can have a new enemy in your game.
-* *Collaboration*: let's say you are working in a team or would like to make your project open-source and invite people to contribute with new features and gameplay. Custom behavior makes it possible for anyone to design and create self-contained features and game logic that we can easily import into a project and used by anyone without prior knowledge required including level and game designers who don't normally work on game logic or at least prefer not to.
+  * *Encapsulation*: by adding logic inside a custom behavior, you can keep a clear events sheet, with fewer events so it's easier to read and maintain. Behaviors can have actions/conditions and expressions that run logic, so you don't have to repeat long instructions in the events sheet. You can just use the action/condition the behavior providing as you would normally do with any other behavior.
+  * *Reusability*: let's say that you created a behavior to have an enemy move and lose a life if hit by the player. If you want to create a slightly different enemy, but based on the same principles, you can create a new object, then add the same behavior with different properties. In a few clicks, you can have a new enemy in your game.
+  * *Collaboration*: let's say you are working in a team or would like to make your project open-source and invite people to contribute with new features and gameplay. Custom behavior makes it possible for anyone to design and create self-contained features and game logic that we can easily import into a project and used by anyone without prior knowledge required including level and game designers who don't normally work on game logic or at least prefer not to.
 
 !!! note
 
@@ -155,18 +155,18 @@ Creating your own behaviors has multiple advantages:
 
 You can imagine tons of different behaviors. Here are a few examples:
 
-* A behavior to **manage the health of an enemy or a boss**.
+  * A behavior to **manage the health of an enemy or a boss**.
 
-    * There can be an action "Hit the object", a condition "Is the object dead?". The behavior will take care of updating the object variables to track the life of the enemy (for example, when the enemy is hit, you remove some life.
-    * Then, life is regenerated progressively at each frame of the game) and the condition "Is the object dead?" will be able to check if the life reached 0 or not.
+      * There can be an action "Hit the object", a condition "Is the object dead?". The behavior will take care of updating the object variables to track the life of the enemy (for example, when the enemy is hit, you remove some life.
+      * Then, life is regenerated progressively at each frame of the game) and the condition "Is the object dead?" will be able to check if the life reached 0 or not.
 
-* Another idea can be to put the events to make **an enemy move following a complex pattern** on the screen inside a behavior.
+  * Another idea can be to put the events to make **an enemy move following a complex pattern** on the screen inside a behavior.
 
-    * You can add actions/conditions to change the movement, change the speed, etc... All of this will be in a behavior that can be added to any other object in a few clicks.
+      * You can add actions/conditions to change the movement, change the speed, etc... All of this will be in a behavior that can be added to any other object in a few clicks.
 
-* A behavior can **automatically update the Score** in your game when enemies are destroyed, or items collected.
+  * A behavior can **automatically update the Score** in your game when enemies are destroyed, or items collected.
 
-    * You can create a behavior that increases the "Score" variable when the object is destroyed. You can then create items, collectibles or enemies that have this behavior, and when they are collected or killed, the score will automatically increase.
+      * You can create a behavior that increases the "Score" variable when the object is destroyed. You can then create items, collectibles or enemies that have this behavior, and when they are collected or killed, the score will automatically increase.
 
 !!! tip
 

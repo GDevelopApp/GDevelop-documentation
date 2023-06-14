@@ -6,9 +6,9 @@ title: Publish to Steam
 
 Start by export your game for desktop:
 
-* For Windows, export as a ZIP file.
-* For macOS, export as a ZIP file too.
-* For Linux, build as an AppImage and extract it - or build manually as a zip file.
+  * For Windows, export as a ZIP file.
+  * For macOS, export as a ZIP file too.
+  * For Linux, build as an AppImage and extract it - or build manually as a zip file.
 
 ## Open an account on Steamworks and prepare your product page.
 
@@ -31,8 +31,8 @@ You then configure a "Build" that is using the "depots". You can use the web int
 There is an issue making the macOS application not working after uploading the macOS zip file (this is because [the Steam web uploader breaks the symlinks](https://github.com/electron-userland/electron-builder/issues/5767#issuecomment-813920169)).
 Instead, you must use the **steamcmd** command line tool to upload your macOS files.
 
-- Start by extracting the macOS zip file somewhere. Use Linux or macOS - Windows will break the "symlinks" when extracting the zip file. Extract the files in a folder called `mac`. You should have a single folder, "Your Game.app" inside this `mac` folder.
-- Create a [Build Config file](https://partner.steamgames.com/doc/sdk/uploading) called `steam-upload-config.vdf`. Put it next to the folder called `mac`. This is an example:
+  - Start by extracting the macOS zip file somewhere. Use Linux or macOS - Windows will break the "symlinks" when extracting the zip file. Extract the files in a folder called `mac`. You should have a single folder, "Your Game.app" inside this `mac` folder.
+  - Create a [Build Config file](https://partner.steamgames.com/doc/sdk/uploading) called `steam-upload-config.vdf`. Put it next to the folder called `mac`. This is an example:
 
 ```text
 "AppBuild"
@@ -58,8 +58,8 @@ Instead, you must use the **steamcmd** command line tool to upload your macOS fi
 }
 ```
 
-- Install [steamcmd](https://developer.valvesoftware.com/wiki/SteamCMD#Downloading_SteamCMD).
-- Using a command line, run steamcmd: `steamcmd +login <username> <yourpassword> +run_app_build ./steam-upload-config.vdf +quit`
+  - Install [steamcmd](https://developer.valvesoftware.com/wiki/SteamCMD#Downloading_SteamCMD).
+  - Using a command line, run steamcmd: `steamcmd +login <username> <yourpassword> +run_app_build ./steam-upload-config.vdf +quit`
 
 The **steamcdm** utility will upload the macOS app that you extracted in the `mac` folder, and it will now work correctly when you install it on a mac from the Steam client. You still need to configure the Launch Options - see the next section.
 
@@ -67,8 +67,8 @@ The **steamcdm** utility will upload the macOS app that you extracted in the `ma
 
 In **Installation > General Installation** menu, you can configure the "Launch Options". The executable are:
 
-- "YourGame.exe" for Windows (replace *YourGame* by the executable name - check in the zip file if necessary)
-- "yourgame" for Linux (replace *yourgame* by the executable name - check in the zip file if necessary)
-- "Your Game.app" for macOS (replace *Your Game.app* by the folder name - check in the zip file if necessary)
+  - "YourGame.exe" for Windows (replace *YourGame* by the executable name - check in the zip file if necessary)
+  - "yourgame" for Linux (replace *yourgame* by the executable name - check in the zip file if necessary)
+  - "Your Game.app" for macOS (replace *Your Game.app* by the folder name - check in the zip file if necessary)
 
 ![](./launch-options.png)

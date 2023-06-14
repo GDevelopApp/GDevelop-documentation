@@ -42,8 +42,8 @@ If you have not enabled Play App Signing, you need to enable it. You will be ask
 
 Send an email to `contact.gdevapp@gmail.com` with:
 
-* "Upgrade to Google Play Signing" as the subject
-* In the body, give the **email of your GDevelop account**, and the **link to the page on the Google Play Store of your game**.
+  * "Upgrade to Google Play Signing" as the subject
+  * In the body, give the **email of your GDevelop account**, and the **link to the page on the Google Play Store of your game**.
 
 We'll send you back by email the **two files** (encrypted private key and certificate file) that you need for the next step.
 
@@ -65,9 +65,9 @@ In the next screen, choose **Export and upload a key from Java keystore**, and t
 
 After choosing **Export and upload a key from Java keystore**:
 
-- Click **Upload Private Key** and choose the "encrypted-private-key" file sent to you.
-- Click **Show instructions** next to *"For increased security, create a new upload key"* (this is mandatory to do!).
-- Click **Upload your upload key certificate** and choose the "upload-key-certificate.pem" file sent to you.
+  - Click **Upload Private Key** and choose the "encrypted-private-key" file sent to you.
+  - Click **Show instructions** next to *"For increased security, create a new upload key"* (this is mandatory to do!).
+  - Click **Upload your upload key certificate** and choose the "upload-key-certificate.pem" file sent to you.
 
 !!! warning
 

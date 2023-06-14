@@ -18,9 +18,9 @@ The [Buttons asset pack](https://gdevelop.io/asset-store/free/menu-buttons-menu-
 
 When creating a button from scratch, 3 images are usually needed, one for each state of the button:
 
-- Idle
-- Hovered
-- Pressed
+  - Idle
+  - Hovered
+  - Pressed
 
 The object automatically shows the right image according to taps on a touchscreen or the mouse cursor.
 

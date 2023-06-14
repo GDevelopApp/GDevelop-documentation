@@ -13,9 +13,9 @@ The first and most important thing is the authentication process. That is the pa
 
 Firebase provides a few ways to authenticate:
 
-- **Anonymously**: you can use this to provide limited preview access to services requiring authentication. That way you can also assign data to this temporary profile. It may be possible to upgrade an anonymous account to a persistent account in the future, but GDevelop doesn't support that yet.
-- By **email**: you make the user enter an email and password, and Firebase will take care of all the rest.
-- Using **external providers**: the user can identify through a third party website, using for example their _Facebook_ or _Google_ accounts.
+  - **Anonymously**: you can use this to provide limited preview access to services requiring authentication. That way you can also assign data to this temporary profile. It may be possible to upgrade an anonymous account to a persistent account in the future, but GDevelop doesn't support that yet.
+  - By **email**: you make the user enter an email and password, and Firebase will take care of all the rest.
+  - Using **external providers**: the user can identify through a third party website, using for example their _Facebook_ or _Google_ accounts.
 
 !!! danger
 

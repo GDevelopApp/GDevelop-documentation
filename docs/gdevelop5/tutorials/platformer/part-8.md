@@ -74,8 +74,8 @@ The `CheckpointX` and `CheckpointY` variables don't exist until the player reach
 
 This may cause a problem if:
 
-- Something else exists at the default coordinates (such as an enemy).
-- There isn't a platform beneath the default coordinates.
+  - Something else exists at the default coordinates (such as an enemy).
+  - There isn't a platform beneath the default coordinates.
 
 To fix this, set the value of the `CheckpointX` and `CheckpointY` variables to the initial coordinates of the "Player" object. Then the default coordinates are defined by where you place the "Player" object in the Scene editor.
 

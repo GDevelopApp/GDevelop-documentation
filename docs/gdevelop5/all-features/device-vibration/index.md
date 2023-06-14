@@ -9,13 +9,13 @@ Vibration is supported on these devices:
 
 HTML web games:
 
-- Android: Yes
-- Apple iOS: **No**
+  - Android: Yes
+  - Apple iOS: **No**
 
 Native mobile apps:
 
-- Android: Yes
-- Apple iOS: Yes
+  - Android: Yes
+  - Apple iOS: Yes
 
 !!! note
 

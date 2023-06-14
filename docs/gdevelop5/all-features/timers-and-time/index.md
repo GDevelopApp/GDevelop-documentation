@@ -5,9 +5,9 @@ title: Timers and time
 
 Time management is important in a game. GDevelop provides a few different tools:
 
-* Timers can be run using actions inside events. You can then use conditions to check if enough time elapsed before running other actions or resetting the timer. Timers can be attached to scenes or to objects.
-* Special actions like "Wait X seconds" can be used to wait before launching the next actions in an event. This is useful for creating cut-scenes, timelines or just effects happening not immediately.
-* Finally, there are expressions to get the current time, day and time since the start of the game.
+  * Timers can be run using actions inside events. You can then use conditions to check if enough time elapsed before running other actions or resetting the timer. Timers can be attached to scenes or to objects.
+  * Special actions like "Wait X seconds" can be used to wait before launching the next actions in an event. This is useful for creating cut-scenes, timelines or just effects happening not immediately.
+  * Finally, there are expressions to get the current time, day and time since the start of the game.
 
 ## The "Wait X seconds" action
 

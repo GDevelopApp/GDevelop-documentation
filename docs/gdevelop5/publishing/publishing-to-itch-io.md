@@ -12,20 +12,20 @@ Creators have access to detailed analytics and about how people discover, downlo
 
 ## Why itch.io?
 
-- It is completely **free**
-- Easy to **prepare the content** for upload
-- Easy to **update** the uploaded files
-- A Devlog can be shared
-- You can set up a **Community Forum** or **Allow Comments** only or **none**
-- No quality requirements, anything can be shared
-- **SEO friendly**, anything you upload can be easily found in Search Engines.
-- You can share downloadable games for Windows, Linux, Mac, Android and also HTML5 games played in the browser.
-- You can**make money**without starting your own business and pay taxes. itch.io can collect the money, deal with refund requests and pay the required taxes on your behalf and you can request a payout any time.
-- In case you do want to start your own business, itch.io can take care of the transaction for you and transfer each purchase directly to you, but then you need to take care of Refunds and Taxes
-- You can **set a fixed price** for your content, **share it freely** or accept a donation. You can also set an unique option where payment is necessary but the amount is decided by the user himself.
-- Revenue share is also flexible which makes itch.io the most unique, you can decide how much revenue share you want to pay to itch.io and yes you can set this value to 0 if you want and pay nothing yet itch.io still happy to host your content for free and hope if you are successful you are going to consider to pay something to them.
-- **No annoying Ads** on Browser games
-- You can now also connect itch.io with Patreon and offer access to content to those who support you through Patreon.
+  - It is completely **free**
+  - Easy to **prepare the content** for upload
+  - Easy to **update** the uploaded files
+  - A Devlog can be shared
+  - You can set up a **Community Forum** or **Allow Comments** only or **none**
+  - No quality requirements, anything can be shared
+  - **SEO friendly**, anything you upload can be easily found in Search Engines.
+  - You can share downloadable games for Windows, Linux, Mac, Android and also HTML5 games played in the browser.
+  - You can**make money**without starting your own business and pay taxes. itch.io can collect the money, deal with refund requests and pay the required taxes on your behalf and you can request a payout any time.
+  - In case you do want to start your own business, itch.io can take care of the transaction for you and transfer each purchase directly to you, but then you need to take care of Refunds and Taxes
+  - You can **set a fixed price** for your content, **share it freely** or accept a donation. You can also set an unique option where payment is necessary but the amount is decided by the user himself.
+  - Revenue share is also flexible which makes itch.io the most unique, you can decide how much revenue share you want to pay to itch.io and yes you can set this value to 0 if you want and pay nothing yet itch.io still happy to host your content for free and hope if you are successful you are going to consider to pay something to them.
+  - **No annoying Ads** on Browser games
+  - You can now also connect itch.io with Patreon and offer access to content to those who support you through Patreon.
 
 ## Building the Package
 
@@ -49,12 +49,12 @@ Once you have an itch.io account, you want to login and you want to go to your D
 
 After clicking the button, you can setup your project, I go through only the most important options required to share your game.
 
-- **Title:** this is the title of your game
-- **Project URL:** this is the URL where your game can be found at itch.io, it normally takes the form of yourname.itch.io/your-game-title. The game title in the URL can be anything, it is up to you what you going to choose but it must be unique, can not be the same as other game titles in your library.
-- **Classification:** here you can choose what kind of content you want to upload, a game or a book maybe. we obviously want to select game here
-- **Kind of project:** here you can select what kind of project you want to upload, is it downloadable or a HTML or Flash game, in this case we want to choose the HTML. Later you can add downloadable files that can be purchased or downloaded for free
-- **Pricing**: this is where you can set if your game needs to be purchased or you accept a donation or you don't want any payment. If you do want payment, you can set how much your game cost or how much donation you recommend
-- **Uploads:** this is the section where you can actually upload your project and you want to click on the Upload files button
+  - **Title:** this is the title of your game
+  - **Project URL:** this is the URL where your game can be found at itch.io, it normally takes the form of yourname.itch.io/your-game-title. The game title in the URL can be anything, it is up to you what you going to choose but it must be unique, can not be the same as other game titles in your library.
+  - **Classification:** here you can choose what kind of content you want to upload, a game or a book maybe. we obviously want to select game here
+  - **Kind of project:** here you can select what kind of project you want to upload, is it downloadable or a HTML or Flash game, in this case we want to choose the HTML. Later you can add downloadable files that can be purchased or downloaded for free
+  - **Pricing**: this is where you can set if your game needs to be purchased or you accept a donation or you don't want any payment. If you do want payment, you can set how much your game cost or how much donation you recommend
+  - **Uploads:** this is the section where you can actually upload your project and you want to click on the Upload files button
 
 ![](/gdevelop5/itchio-upload-files-button.png) Once you clicked the button, you want to browse and select the ZIP file we have created earlier and it is going to be uploaded to itch.io. Once the upload is done, you can choose from several options ![](/gdevelop5/ithio-upload-file-options.png)
 

@@ -16,10 +16,10 @@ The object picking rules are as follows:
 
 ## Special exceptions
 
-- The "Pick all instances" action will restore the picked objects lists to having all instances on the scene picked.
-- The "Pick a random instance" action will pick a single random instance out of the picked instances.
-- The "Create an object" action will add to the list of picked objects the newly created instance. **If you use it on an object that was not subject to object picking so far, only the created instance will be picked.**
-- The "Take into account objects linked to" condition will unpick objects that are not linked to the picked instances of the other object.
+  - The "Pick all instances" action will restore the picked objects lists to having all instances on the scene picked.
+  - The "Pick a random instance" action will pick a single random instance out of the picked instances.
+  - The "Create an object" action will add to the list of picked objects the newly created instance. **If you use it on an object that was not subject to object picking so far, only the created instance will be picked.**
+  - The "Take into account objects linked to" condition will unpick objects that are not linked to the picked instances of the other object.
 
 ## Examples
 

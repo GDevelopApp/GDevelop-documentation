@@ -13,9 +13,9 @@ These icons indicate that the field accepts an _expression_.
 
 There are multiple types of expressions:
 
-- [Numbers](/gdevelop5/all-features/expressions#numbers)
-- [Text](/gdevelop5/all-features/expressions#text)
-- [Functions](/gdevelop5/all-features/expressions#functions)
+  - [Numbers](/gdevelop5/all-features/expressions#numbers)
+  - [Text](/gdevelop5/all-features/expressions#text)
+  - [Functions](/gdevelop5/all-features/expressions#functions)
 
 !!! note
 
@@ -37,23 +37,23 @@ A numeric expression is a number.
 
 The following values are examples of numeric expressions:
 
-- `0`
-- `-10`
-- `25.5`
+  - `0`
+  - `-10`
+  - `25.5`
 
 You can also use mathematical operators to add, subtract, multiply, and divide numbers:
 
-- `2+2`
-- `3-1`
-- `10*10`
-- `99/3`
+  - `2+2`
+  - `3-1`
+  - `10*10`
+  - `99/3`
 
 This is the complete list of operators:
 
-- `+` (add)
-- `-` (subtract)
-- `*` (multiply)
-- `/` (divide)
+  - `+` (add)
+  - `-` (subtract)
+  - `*` (multiply)
+  - `/` (divide)
 
 !!! tip
 
@@ -69,9 +69,9 @@ A text expression is a string of text.
 
 The following values are examples of text expressions:
 
-- `"Hello world"`
-- `"This is a text expression"`
-- `"GDevelop is cool!"`
+  - `"Hello world"`
+  - `"This is a text expression"`
+  - `"GDevelop is cool!"`
 
 All text expressions must be wrapped in double quotes. Without the double quotes, GDevelop assumes the value is a function, which will likely result in an error.
 
@@ -100,9 +100,9 @@ Using a function is often referred to as _calling_ a function.
 
 There are three types of functions:
 
-- Functions without objects
-- Functions with objects
-- Functions with objects and behaviors
+  - Functions without objects
+  - Functions with objects
+  - Functions with objects and behaviors
 
 Each type of function has a (slightly) different syntax.
 
@@ -112,9 +112,9 @@ Some functions exist independently of objects and [behaviors](/gdevelop5/behavio
 
 These are some examples of functions without objects:
 
-- `CurrentSceneName()` - Get the name of the current scene.
-- `FileSystem::DesktopPath()` - Get the path of the "Desktop" directory.
-- `ToNumber(<number>)` - Convert a string into a number.
+  - `CurrentSceneName()` - Get the name of the current scene.
+  - `FileSystem::DesktopPath()` - Get the path of the "Desktop" directory.
+  - `ToNumber(<number>)` - Convert a string into a number.
 
 !!! note
 
@@ -126,9 +126,9 @@ Some functions are called on objects. This means the function affects or retriev
 
 These are some examples of functions with objects:
 
-- `<object>.Angle()` - Get the angle of the object (in degrees).
-- `<object>.Layer()` - Get the name of the layer that the object is on.
-- `<object>.ObjectName()` - Get the name of the object.
+  - `<object>.Angle()` - Get the angle of the object (in degrees).
+  - `<object>.Layer()` - Get the name of the layer that the object is on.
+  - `<object>.ObjectName()` - Get the name of the object.
 
 #### Functions with objects and behaviors
 
@@ -136,16 +136,16 @@ Some functions are called on an object's behavior. This means the function affec
 
 These are some examples of functions with objects and behaviors:
 
-* `<object>.Pathfinding::Speed()`
-* `<object>.Physics2::Friction()`
-* `<object>.PlatformerObject::Gravity()`
+  * `<object>.Pathfinding::Speed()`
+  * `<object>.Physics2::Friction()`
+  * `<object>.PlatformerObject::Gravity()`
 
 ### Arguments
 
 Some functions accept _arguments_. An argument is a value that:
 
-- can be passed into a function
-- affects the output of the function
+  - can be passed into a function
+  - affects the output of the function
 
 For example, the `ToString` function converts a number into a string, but it can't do anything unless you provide it with a number. That number is the argument. In the following example, the number `42` is the argument:
 

@@ -33,8 +33,8 @@ Here are some things that you will most likely need in a report. Do remember tha
 
 First see if you are using the web version or the desktop version (you will have to add that info to the report).
 
-* if you are using the desktop version:
-    * On the top toolbar, go to Help→About GDevelop
+  * if you are using the desktop version:
+      * On the top toolbar, go to Help→About GDevelop
 
 A window will open showing the version. It should go something like GDevelop-beta110.
 
@@ -42,15 +42,15 @@ A window will open showing the version. It should go something like GDevelop-bet
 
 This might not be applicable to all the bugs or crashes, but it would help a lot in identifying the problem and fixing it.
 
-* If you are using a _Windows_ OS, you can use the snipping tool that comes with it or press **Alt+PrtScn** (It will take a
+  * If you are using a _Windows_ OS, you can use the snipping tool that comes with it or press **Alt+PrtScn** (It will take a
 screenshot of the active window).
 
-* If you are using a _MacOS_, press **Shift+Command+3**
+  * If you are using a _MacOS_, press **Shift+Command+3**
 
-* If you are using a _Linux_ distro, it should come with a screenshot tool built-in or press **Alt+PrtScn** (It will take a
+  * If you are using a _Linux_ distro, it should come with a screenshot tool built-in or press **Alt+PrtScn** (It will take a
 screenshot of the active window)
 
-* If needed, edit the image and add some markers to show the bug
+  * If needed, edit the image and add some markers to show the bug
 
 #### Instructions to reproduce the bug
 
@@ -74,11 +74,11 @@ If it was a crash, you will have to describe what you were doing when it happene
 
 Some errors logs can hint the problem. So, do check (If possible) if there was any error in the developer tool kit.
 
-- Press **Ctrl+Shift+I**, a tab should open
+  - Press **Ctrl+Shift+I**, a tab should open
 
-- Open the **Console** tab and check if there was any error shown
+  - Open the **Console** tab and check if there was any error shown
 
-* Also, check the **sources** for call stacks
+  * Also, check the **sources** for call stacks
 
 !!! note
 
@@ -90,12 +90,15 @@ Here is a template you can use when writing a report.
 
 ```md
 ## Describe the bug
+
 A clear and concise description of what the bug is.
 
 Any error or console logs
 
 ## To Reproduce
+
 Steps to reproduce the behavior:
+
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
@@ -105,6 +108,7 @@ Steps to reproduce the behavior:
 * If applicable, add screenshots to help explain your problem.
 
 ## Other details
+
 * Include any OS/browser version/smartphone that you're using
 * Which version of GDevelop are you using? The desktop app or the web-app?
 * Add any other context about the problem here.
@@ -131,11 +135,11 @@ A bug can be reported on the [official forum](https://forum.gdevelop.io) or on [
 
 The first and foremost option you should chose to report a bug is on the [official forum](https://forum.gdevelop.io).
 
-- Go to the forum, click on **+ New Topic**
+  - Go to the forum, click on **+ New Topic**
 
-- A panel should open,  select **Bug reports** from the categories and now you can start describing your issue.
+  - A panel should open,  select **Bug reports** from the categories and now you can start describing your issue.
 
-- When you are done, don't forget to click on **+ Create Topic**
+  - When you are done, don't forget to click on **+ Create Topic**
 
 ![](/gdevelop5/community/rg5.png)
 
@@ -145,9 +149,9 @@ You can also report it on [GDevelop's Github repo as an issue](https://github.co
 
 ![](/gdevelop5/community/rb1.png)
 
-- Click on **New Issue**.
+  - Click on **New Issue**.
 
-- You will be asked if the issue is a bug report or a feature request. Click on Bug Report.
+  - You will be asked if the issue is a bug report or a feature request. Click on Bug Report.
 
 ![](/gdevelop5/community/rb2.png)
 

@@ -45,10 +45,10 @@ In this example, the Dark Night effect is called "Effect" and has two parameters
 
 You can then add an event with an action called "Effect Parameter":
 
-* Enter first the layer name (don't forget the quotes). For the base layer, enter an empty string (`""`).
-* Enter the name of the effect, for example `"Effect"`.
-* Enter the name of the parameter, for example `"opacity"` or `"intensity"`.
-* Finally, enter the new value to be set for this parameter.
+  * Enter first the layer name (don't forget the quotes). For the base layer, enter an empty string (`""`).
+  * Enter the name of the effect, for example `"Effect"`.
+  * Enter the name of the parameter, for example `"opacity"` or `"intensity"`.
+  * Finally, enter the new value to be set for this parameter.
 
 !!! danger
 

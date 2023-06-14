@@ -49,7 +49,7 @@ The "Platformer multitouch controller mapper" behavior can be added to the chara
 
 A multitouch controller button can be created in a few steps:
 
-- Create a sprite object - Attach a "Multitouch button" behavior to it
+  - Create a sprite object - Attach a "Multitouch button" behavior to it
 
 The multitouch button behavior allows the developer to choose a button name. The same name must also be set in the mapper behavior for the jump.
 

@@ -11,15 +11,15 @@ title: Publishing your Game to Kongregate
 
 ## Kongregate FAQ
 
-- **Who can submit a game?**
+  - **Who can submit a game?**
 
 Games can only be uploaded by their legal owner, and all uploaders must agree to Kongregate's Game License Uploading terms.
 
-- **Earn money without giving up the farm**
+  - **Earn money without giving up the farm**
 
 Kongregate shares up to 50% of advertising revenue with developers and sponsors monthly contests where you can earn thousands more. You retain the full rights to your game by uploading it onto Kongregate, and you may request that it be removed at any time.
 
-- **APIs improved experience & payouts**
+  - **APIs improved experience & payouts**
 
 API integration enables your players to appear on our leaderboards, earn badges, and enjoy card challenges.
 
@@ -55,23 +55,23 @@ In the game upload page, you'll need to input basic information, like the `game 
 
 Below that are a few specialized sections:
 
-- **Collaborators**: You can designate up to 3 additional Kongregate usernames to be "collaborators". These users will have access to the unpublished version of the game, will be able to make free purchases for testing, and will show up in the game details as a collaborator.
+  - **Collaborators**: You can designate up to 3 additional Kongregate usernames to be "collaborators". These users will have access to the unpublished version of the game, will be able to make free purchases for testing, and will show up in the game details as a collaborator.
 
 &nbsp;
 
-- **API Callback URL**: If your game is going to be utilizing one of our server APIs that requires a callback URL, this is where you will enter it.
+  - **API Callback URL**: If your game is going to be utilizing one of our server APIs that requires a callback URL, this is where you will enter it.
 
 &nbsp;
 
-- **Bug Reports**: We can add a "report a bug" button next to your game and send them via email to you. If you select this you will have the option to specify the target email address.
+  - **Bug Reports**: We can add a "report a bug" button next to your game and send them via email to you. If you select this you will have the option to specify the target email address.
 
 ![](/gdevelop5/7d244ad-2016-07-21_16-12-58.png)
 
 On the following page you will first select the type of game upload:
 
-- **Flash/HTML5/WebGL**: In these cases, you'll upload your files directly to our server and Kongregate will take care of hosting them.
-- **Unity Web Player**: This is a special case in which we will host a .unity3d file and optionally also a WebGL version for players using NPAPI-disabled browsers. By the end of 2016 nearly all browsers will be NPAPI-disabled, so we don't recommend this option if you can help it.
-- **iFrame**: In this case, you'll give us a URL to point to and you will be able to host and serve the game files on your own server.
+  - **Flash/HTML5/WebGL**: In these cases, you'll upload your files directly to our server and Kongregate will take care of hosting them.
+  - **Unity Web Player**: This is a special case in which we will host a .unity3d file and optionally also a WebGL version for players using NPAPI-disabled browsers. By the end of 2016 nearly all browsers will be NPAPI-disabled, so we don't recommend this option if you can help it.
+  - **iFrame**: In this case, you'll give us a URL to point to and you will be able to host and serve the game files on your own server.
 
 ![](/gdevelop5/e268f86-2016-07-21_16-27-31.png)
 
