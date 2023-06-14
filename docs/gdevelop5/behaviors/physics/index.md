@@ -7,8 +7,7 @@ title: Physics behavior
 
     This is the documentation of the old Physics behavior. [Read the new documentation here](/gdevelop5/behaviors/physics2)!
 
-**[I would rather see the Physics behavior examples! Please take me there now.](/#Examples)
-**
+**[I would rather see the Physics behavior examples! Please take me there now.](/#Examples)**
 
 The "Physics" behavior allows objects to behave according to the laws of physics. Physics behavior applies real world physics to your game objects. Game objects can move, fall, roll, bounce and collide.
 

@@ -49,9 +49,9 @@ Instead, write this:
 
 There are three types of documentation:
 
-- **Concept** - Explains what something is.
-- **Task** - Explains how to do something.
-- **Reference** - Provides a list of facts without (much) explanation.
+  - **Concept** - Explains what something is.
+  - **Task** - Explains how to do something.
+  - **Reference** - Provides a list of facts without (much) explanation.
 
 Generally speaking, it's best not to blend different types of documentation on a single page. You shouldn't, for instance, provide a detailed explanation of [what expressions are](/gdevelop5/all-features/expressions) (concept) on the same page that you provide [a list of all the expressions](/gdevelop5/all-features/expressions-reference) (reference).
 

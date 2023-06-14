@@ -30,13 +30,13 @@ In this event group, create a "For each object" event, and select the newly crea
 
 Condition:
 
-- "Or" which will allow you to add sub events, and if any of the subevents inside the "Or" condition is true, the "Or" condition will be true. With the subconditions:
-    - "Center X position" of the object group "Everything" is "Greater than" 830.
-    - "Center X position" of the object group "Everything" is "Less than" 830.
+  - "Or" which will allow you to add sub events, and if any of the subevents inside the "Or" condition is true, the "Or" condition will be true. With the subconditions:
+      - "Center X position" of the object group "Everything" is "Greater than" 830.
+      - "Center X position" of the object group "Everything" is "Less than" 830.
 
 Action:
 
-- "X position" of the Everything object group, with modification sign =(set to), (Everything.X()*-0.95).
+  - "X position" of the Everything object group, with modification sign =(set to), (Everything.X()*-0.95).
 
 And then recreate this event for the Y position, making sure to use 630 instead of 830, because Y is the height of the screen.
 

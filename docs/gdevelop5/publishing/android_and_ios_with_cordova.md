@@ -41,9 +41,9 @@ you need **macOS with XCode** installed.
 
 You need to install:
 
-* Android Studio with the Android SDK
-* Java (version 11, can be downloaded from the Oracle website) - as we are using cordova-android 11
-* Gradle.
+  * Android Studio with the Android SDK
+  * Java (version 11, can be downloaded from the Oracle website) - as we are using cordova-android 11
+  * Gradle.
 
 ## Build Cordova project
 
@@ -55,19 +55,19 @@ npm install -g cordova
 
 After that, navigate to your Cordova project's directory and type this on the command prompt or terminal:
 
-* `cordova platform add ios` if you want to export your game to iOS.
-* `cordova platform add android@11` if you want to export your game to Android.
+  * `cordova platform add ios` if you want to export your game to iOS.
+  * `cordova platform add android@11` if you want to export your game to Android.
 
 This will create new folders on your project's directory:
 
-* _platforms/ios_: iOS project of your game, which can be open with XCode.
-* _platforms/android_: Android project of your game, which can be open with Android Studio.
+  * _platforms/ios_: iOS project of your game, which can be open with XCode.
+  * _platforms/android_: Android project of your game, which can be open with Android Studio.
 
 Once you have specified what platform you want your game to be exported to, you can now build the Cordova project. Type on the command prompt or terminal either:
 
-* `cordova build`: this will build your project to all the platforms you have.
-* `cordova build ios`: this will only build your project into an iOS executable, that can be used to install your game on iOS devices.
-* `cordova build android`: this will only build your project into an Android executable (apk), that can be used to install your game on Android devices.
+  * `cordova build`: this will build your project to all the platforms you have.
+  * `cordova build ios`: this will only build your project into an iOS executable, that can be used to install your game on iOS devices.
+  * `cordova build android`: this will only build your project into an Android executable (apk), that can be used to install your game on Android devices.
 
 !!! tip
 
@@ -85,10 +85,10 @@ You can also open Android Studio and open the project (choose the `platforms/and
 
 ## Testing on iOS
 
-* You can list iOS simulators installed on your Mac with `cordova emulate ios --list`.
-* You can run the app on a specific simulator using `target`: `cordova run ios --target="iPhone-8"`.
+  * You can list iOS simulators installed on your Mac with `cordova emulate ios --list`.
+  * You can run the app on a specific simulator using `target`: `cordova run ios --target="iPhone-8"`.
 
-* To test on an iOS device, it's recommended to launch XCode and open your project (`open platforms/ios/YourProject.xcworkspace`). You'll need to set up a "Development Team" and choose your device. This is because each device must be added to your "Development Team" before it can run development applications.
+  * To test on an iOS device, it's recommended to launch XCode and open your project (`open platforms/ios/YourProject.xcworkspace`). You'll need to set up a "Development Team" and choose your device. This is because each device must be added to your "Development Team" before it can run development applications.
 
 ## Exporting to the stores
 

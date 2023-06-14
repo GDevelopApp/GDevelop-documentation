@@ -21,9 +21,9 @@ This tab has a **properties panel**, with options based on the type of resource 
 
 The toolbar will be different inside of this tab, with buttons aligned to the right side of the toolbar, that allow you to:
 
-* **Open the project folder** with the button on the left.
-* **Toggle the properties panel visibility** with the button in the middle.
-* **Remove the selected resource** with the button on the right.
+  * **Open the project folder** with the button on the left.
+  * **Toggle the properties panel visibility** with the button in the middle.
+  * **Remove the selected resource** with the button on the right.
 
 ![](/gdevelop5/interface/project-manager/resources/pasted/20230309-210717.png)
 
@@ -45,11 +45,11 @@ Images can appear blurry if they're scaled to a ratio they were not meant to be,
 
 ![](/gdevelop5/interface/project-manager/resources/pasted/20230310-180753.png)
 
-- Sprite with **smoothing enabled**:
+  - Sprite with **smoothing enabled**:
 
 ![](/gdevelop5/interface/project-manager/resources/pasted/20230310-181104.png)
 
-- Sprite with **smoothing disabled**:
+  - Sprite with **smoothing disabled**:
 
 ![](/gdevelop5/interface/project-manager/resources/pasted/20230310-181038.png)
 

@@ -30,20 +30,20 @@ You can choose from bold and italic, as well as choosing a custom font for the t
 
 ### Additional effects
 
-* You can create **gradients** using the action "gradient". You can choose available gradient types from the provided list and select up to four colors to use.
+  * You can create **gradients** using the action "gradient". You can choose available gradient types from the provided list and select up to four colors to use.
 
 ![](textgradient.png)
 
-* You can set a **Shadow** using the action "text shadow/show shadow". When changing the shadow, you can choose the color, distance, blur, and angle.  This can also be used to create a glow effect with bright colors.
+  * You can set a **Shadow** using the action "text shadow/show shadow". When changing the shadow, you can choose the color, distance, blur, and angle.  This can also be used to create a glow effect with bright colors.
 
 ![](showtextshadow.png)
 ![](changetextshadow.png)
 
-* **Opacity** of the object can be changed.
+  * **Opacity** of the object can be changed.
 
 ![](changetextopacity.png)
 
-* **Scaling** of the object can be changed. There are three options: "Scale" (constrains proportions to scale on both X and Y axis), "Scale on X axis" (width), and "Scale on Y axis" (height).
+  * **Scaling** of the object can be changed. There are three options: "Scale" (constrains proportions to scale on both X and Y axis), "Scale on X axis" (width), and "Scale on Y axis" (height).
 
 ![](textscaling.png)
 ![](modifytextscale.png)
@@ -52,14 +52,14 @@ You can choose from bold and italic, as well as choosing a custom font for the t
 
 Using events, you can modify all properties of the text object, such as:
 
-* Text Displayed
-* Bold
-* Italic
-* Padding
-* Alignment
-* Wrapping
-* Wrapping Width
-* Font Size
+  * Text Displayed
+  * Bold
+  * Italic
+  * Padding
+  * Alignment
+  * Wrapping
+  * Wrapping Width
+  * Font Size
 
 ## Examples
 

@@ -15,12 +15,12 @@ Data is stored permanently in the internal storage of the preview window, which 
 
 When we preview our game it can be sometimes useful to have the data reset, like if it's the first time the game is launched. To do this, you can clear the storage:
 
-- In the top bar of the preview window select **View** -> **Toggle developer tools**.
-- The developer tools usually open with the 'Console' tab selected displaying some messages.
-- Click the '**Application**' tab. It may be not visible depends on the size of your preview window. You can resize the preview window until you can see the 'Application' tab on the top.
-- After you have selected the 'Application' tab, you can find the stored data on the left-hand side under **Storage** -> **Local Storage** -> **file:**
-- If you click the 'file:' with the left mouse button, you can see more detail about what data is stored in the storage.
-- To clear the data, click 'file:' with the right mouse button and choose '**Clear**'
+  - In the top bar of the preview window select **View** -> **Toggle developer tools**.
+  - The developer tools usually open with the 'Console' tab selected displaying some messages.
+  - Click the '**Application**' tab. It may be not visible depends on the size of your preview window. You can resize the preview window until you can see the 'Application' tab on the top.
+  - After you have selected the 'Application' tab, you can find the stored data on the left-hand side under **Storage** -> **Local Storage** -> **file:**
+  - If you click the 'file:' with the left mouse button, you can see more detail about what data is stored in the storage.
+  - To clear the data, click 'file:' with the right mouse button and choose '**Clear**'
 
 You can now close the preview window. When running the preview again, the stored data will be gone.
 

@@ -23,9 +23,9 @@ The [Settings UI asset pack](https://gdevelop.io/asset-store/free/settings-ui-se
 
 Sliders need 3 images:
 
-- the thumb, that is dragged by user on the bar,
-- the filled part of the bar,
-- the background or frame of the bar,
+  - the thumb, that is dragged by user on the bar,
+  - the filled part of the bar,
+  - the background or frame of the bar,
 
 When the slider is made larger in the editor, the thumb remains the same size. The default size of the thumb must be changed if necessary.
 

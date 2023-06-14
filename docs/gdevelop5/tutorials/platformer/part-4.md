@@ -7,8 +7,8 @@ This part of the tutorial explains how to animate the playable character.
 
 You'll learn how to:
 
-- Add animations to an object.
-- Use events to trigger animations.
+  - Add animations to an object.
+  - Use events to trigger animations.
 
 ## Series
 

@@ -149,9 +149,9 @@ You should see something similar to the image shown below.
 
 We see a few problems:
 
-* The _Car_ is not fully visible.
-* The part of the screen below the _Highway_ is empty.
-* The _Highway_ is too far away from the center of the screen.
+  * The _Car_ is not fully visible.
+  * The part of the screen below the _Highway_ is empty.
+  * The _Highway_ is too far away from the center of the screen.
 
 ### Making the car visible
 
@@ -507,21 +507,21 @@ We need to create this object at the coordinates same as that for _Car_. To achi
 
 If you watch the preview, there encounter a few minor issues:
 
-* _Explosion_ cannot be seen.
-* _Car_ keeps moving.
-* _Traffic_ keeps moving
+  * _Explosion_ cannot be seen.
+  * _Car_ keeps moving.
+  * _Traffic_ keeps moving
 
 We will now solve these problems. Make sure that you add these actions for the same `Collision` condition.
 
-* To make the _Explosion_ visible, add an event to set the Z Order of the object _Explosion_ so that it is higher than that of the _Highway_
+  * To make the _Explosion_ visible, add an event to set the Z Order of the object _Explosion_ so that it is higher than that of the _Highway_
 
 ![](/gdevelop5/tutorials/screenshot_from_2019-05-23_18-37-12.png)
 
-* To remove the instance of _Car_ we shall now add an event to delete the object _Car_.
+  * To remove the instance of _Car_ we shall now add an event to delete the object _Car_.
 
 ![](/gdevelop5/tutorials/screenshot_from_2019-05-23_18-42-15.png)
 
-* Similar to what we did for _Car_, to remove an instance of _Traffic_ we can delete the object _Traffic_ too.
+  * Similar to what we did for _Car_, to remove an instance of _Traffic_ we can delete the object _Traffic_ too.
 
 ![](/gdevelop5/screenshot_from_2019-06-06_01-25-59.png)
 

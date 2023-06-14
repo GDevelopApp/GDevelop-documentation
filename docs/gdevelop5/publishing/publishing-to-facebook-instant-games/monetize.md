@@ -15,9 +15,8 @@ Note that ads will only work on mobile: as indicated on the [Facebook documentat
 
 To begin, you need to create an ad placement. For this you need to:
 
-* Have Facebook Audience Network into your app:
-go to <https://business.facebook.com/pub/start>
-* Have an ad placement created: go to <https://www.facebook.com/help/publisher/355647874927053/> and follow the instructions.
+  * Have Facebook Audience Network into your app: go to <https://business.facebook.com/pub/start>
+  * Have an ad placement created: go to <https://www.facebook.com/help/publisher/355647874927053/> and follow the instructions.
 
 In the end, copy the **ad placement id** (click on Copy ID when you are shown the *Placement ID*).
 
@@ -27,8 +26,8 @@ After getting the ad placement id, you can now load (preferably at the beginning
 
 GDevelop will provide you with two actions to do it.
 
-* Add an event with a single condition "Add the beginning of the scene".
-* Add an action "Load and prepare an interstitial ad" (in "Facebook Instant Games", "Ads").
+  * Add an event with a single condition "Add the beginning of the scene".
+  * Add an action "Load and prepare an interstitial ad" (in "Facebook Instant Games", "Ads").
 
 In the parameter, set your **ad placement id** (don't forget the **double quotes** around it).
 
@@ -36,8 +35,8 @@ In the parameter, set your **ad placement id** (don't forget the **double quotes
 
 This will load the ad. We still need to tell Facebook to actually show the ad later. As an example, we're going to show the ad when the user touch the screen. In a real game, replace the condition by something more useful:
 
-* Add a new event at the end of the events sheet. Add two conditions: "Touch or Left mouse button is down" and then "Trigger Once".
-* Add an action and this time choose "Show the loaded interstitial ad".
+  * Add a new event at the end of the events sheet. Add two conditions: "Touch or Left mouse button is down" and then "Trigger Once".
+  * Add an action and this time choose "Show the loaded interstitial ad".
 
 This is how it should look like:
 

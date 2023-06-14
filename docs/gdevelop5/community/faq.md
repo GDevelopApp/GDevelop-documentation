@@ -106,14 +106,14 @@ Firebase example: <https://editor.gdevelop.io/?project=example://firebase-exampl
 
 Any kind of work that spreads the word about GDevelop or improves the user experience is a contribution. Some examples of valuable contributions:
 
-- Help edit the documentation wiki
-- Answer questions on the forum/discord
-- Build example games
-- Create tutorials and other GDevelop content
-- Build extensions
-- Test and search for bugs in new features in nightly builds
-- Provide good bug reports
-- Talk about GDevelop to big group of people/schools
-- Help translate the project on Crowdin
-- Create a good game and leave the "Made with GDevelop splash screen"
-- And of course writing code for the engine itself
+  - Help edit the documentation wiki
+  - Answer questions on the forum/discord
+  - Build example games
+  - Create tutorials and other GDevelop content
+  - Build extensions
+  - Test and search for bugs in new features in nightly builds
+  - Provide good bug reports
+  - Talk about GDevelop to big group of people/schools
+  - Help translate the project on Crowdin
+  - Create a good game and leave the "Made with GDevelop splash screen"
+  - And of course writing code for the engine itself

@@ -16,8 +16,8 @@ Videos can be controlled using events: timing, state (play/paused), audio volume
 
 Support for videos can vary according to the device or browser running the game. It's recommended for a broad compatibility that the file is in  **.mp4** format, encoded as:
 
-* **H264** for the video,
-* **AAC** for the audio.
+  * **H264** for the video,
+  * **AAC** for the audio.
 
 ## Set up a video
 
@@ -38,9 +38,9 @@ Click on the field "Video resource", and then "Choose a new video file". For com
 
 You can also choose:
 
-* **Loop the video**: If video is looped when it reaches the end.
-* **Opacity** : From 0 (fully transparent) to 255 (opaque - default).
-* **Volume** : From 0 (silent) to 100 (maximum volume - default)
+  * **Loop the video**: If video is looped when it reaches the end.
+  * **Opacity** : From 0 (fully transparent) to 255 (opaque - default).
+  * **Volume** : From 0 (silent) to 100 (maximum volume - default)
 
 !!! note
 

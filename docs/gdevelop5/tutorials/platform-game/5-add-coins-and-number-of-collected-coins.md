@@ -68,9 +68,9 @@ We're going to use a variable to update and remember the score of the player.
 
 Variables are containers that we can use to store and remember certain information such as numbers and strings (text). In GDevelop there are different types of variables:
 
-* **Object variables** are private variables, specific to each instance of an object. This means that each instance can store its very own values, without them being shared with the other instances. It can, for example, be useful if we want to change the life of each enemy.
-* **Scene variables** (the most used ones) are variables attached to a scene. This means that their values are not shared with other scenes in our game. It is useful to store information only relevant to the currently played scene. For example, the life of the player or a score.
-* **Global variables**, as the name suggests, are global in the whole game. Values are shared with all scenes in the entire game. It is useful if we would like to store information that we want to share between all scenes such as the amount of bullet or amount of money the player has.
+  * **Object variables** are private variables, specific to each instance of an object. This means that each instance can store its very own values, without them being shared with the other instances. It can, for example, be useful if we want to change the life of each enemy.
+  * **Scene variables** (the most used ones) are variables attached to a scene. This means that their values are not shared with other scenes in our game. It is useful to store information only relevant to the currently played scene. For example, the life of the player or a score.
+  * **Global variables**, as the name suggests, are global in the whole game. Values are shared with all scenes in the entire game. It is useful if we would like to store information that we want to share between all scenes such as the amount of bullet or amount of money the player has.
 
 The variable we're going to use is a Scene variable and will be called "Score".
 

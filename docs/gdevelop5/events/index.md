@@ -107,8 +107,8 @@ This action also increments a variable in every frame, but the value of the vari
 
 Some types of events can have sub-events. Sub-events are events that exist within other events. These types of events only run when:
 
-- The conditions of the parent event are true.
-- The actions of the parent event have been processed.
+  - The conditions of the parent event are true.
+  - The actions of the parent event have been processed.
 
 To add a sub-event to an event:
 
@@ -126,14 +126,14 @@ Sub-events appear nested within their parent events.
 
 This section lists the different types of events, each of which is useful for adding different types of logic to a game. If you're not familiar with the concept of events, refer to the previous sections.
 
-- [Standard events](/gdevelop5/events/standard)
-- [For each object events](/gdevelop5/events/foreach)
-- [For each child variable events](/gdevelop5/events/foreach-child-variable)
-- [Repeat events](/gdevelop5/events/repeat)
-- [While events](/gdevelop5/events/while)
-- [Group events](/gdevelop5/events/group)
-- [Link events](/gdevelop5/events/link)
-- [JavaScript events](/gdevelop5/events/js-code)
+  - [Standard events](/gdevelop5/events/standard)
+  - [For each object events](/gdevelop5/events/foreach)
+  - [For each child variable events](/gdevelop5/events/foreach-child-variable)
+  - [Repeat events](/gdevelop5/events/repeat)
+  - [While events](/gdevelop5/events/while)
+  - [Group events](/gdevelop5/events/group)
+  - [Link events](/gdevelop5/events/link)
+  - [JavaScript events](/gdevelop5/events/js-code)
 
 Refer to the linked pages to learn more about each type of event.
 

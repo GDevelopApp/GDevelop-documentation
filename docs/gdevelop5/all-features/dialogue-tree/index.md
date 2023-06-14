@@ -93,11 +93,11 @@ _other blah_
 
 **<<endif>>**
 
-- will tell yarn to check **<<if $myYarnVariable** is equal to aValue, if so, _blah blah blah_ will be shown
+  - will tell yarn to check **<<if $myYarnVariable** is equal to aValue, if so, _blah blah blah_ will be shown
 
-- if not, it will check if the **<<elseif...** is true, if so _more blah_ will be shown
+  - if not, it will check if the **<<elseif...** is true, if so _more blah_ will be shown
 
-- if all fails, the  **<<else>>** will trigger  _other blah_ to happen. The **<<elseif ...>>** and **<<else>>** are optional. Don't forget to close it with the **<<endif>>**
+  - if all fails, the  **<<else>>** will trigger  _other blah_ to happen. The **<<elseif ...>>** and **<<else>>** are optional. Don't forget to close it with the **<<endif>>**
 
 !!! note
 
@@ -196,22 +196,22 @@ Ok kids we're gonna go with...
 
 ## Known issues:
 
-* Using a -> shortcut crashes my game - This is a known bug in bondage.js - the library that the dialogue tree extension is using to parse yarn files. See [https://github.com/hylyh/bondage.js/issues/31](https://github.com/hylyh/bondage.js/issues/31) to check if that has been fixed. The reason it happens is that bondagejs expects you to indent any linked text with tabs, otherwise its seen as a syntax error. If you want to use the shortcut syntax, please refer to this example json file as  to howto do it without crashing the parser [https://github.com/hylyh/bondage.js/blob/master/tests/yarn_files/shortcuts.json](https://github.com/hylyh/bondage.js/blob/master/tests/yarn_files/shortcuts.json)
+  * Using a -> shortcut crashes my game - This is a known bug in bondage.js - the library that the dialogue tree extension is using to parse yarn files. See [https://github.com/hylyh/bondage.js/issues/31](https://github.com/hylyh/bondage.js/issues/31) to check if that has been fixed. The reason it happens is that bondagejs expects you to indent any linked text with tabs, otherwise its seen as a syntax error. If you want to use the shortcut syntax, please refer to this example json file as  to howto do it without crashing the parser [https://github.com/hylyh/bondage.js/blob/master/tests/yarn_files/shortcuts.json](https://github.com/hylyh/bondage.js/blob/master/tests/yarn_files/shortcuts.json)
 
-* an empty space is clipped from text that comes after <<command>> - this is a known bug in bondagejs [https://github.com/hylyh/bondage.js/issues/61](https://github.com/hylyh/bondage.js/issues/61)
+  * an empty space is clipped from text that comes after <<command>> - this is a known bug in bondagejs [https://github.com/hylyh/bondage.js/issues/61](https://github.com/hylyh/bondage.js/issues/61)
 
 !!! warning
 
     If you ever encounter an issue  that in its message mentions the file **bondage.min.js** , it is more than likely that it's an issue with the library. Please report it at the bondagejs git tracker, not gdevelop's [https://github.com/hylyh/bondage.js/issues/](https://github.com/hylyh/bondage.js/issues/)
 
-* I encountered a problem while using Yarn to edit my dialogue - If that happens, unless you have encountered the problem when opening or saving your dialogue - it's likely a bug in Yarn, not Gdevelop.
+  * I encountered a problem while using Yarn to edit my dialogue - If that happens, unless you have encountered the problem when opening or saving your dialogue - it's likely a bug in Yarn, not Gdevelop.
 
 !!! warning
 
         To report Yarn editor bugs, please use the Yarn bug tracker, where more developers working on Yarn will see it.
     [https://github.com/YarnSpinnerTool/YarnEditor](https://github.com/YarnSpinnerTool/YarnEditor)
 
-* I encountered a problem with the styling of the text coming from the Dialogue Tree - If that happens, it's likely a bug with another extension. If you are using the BBcode extension, and for example underlined text style does not work or some combination of styles does not work, the problem more than likely lies with the pixi-multistyle-text library that it is using. It is also worth noting that **pixi currently does not support text underlining style in general. So while you can see it in Yarn editor, it will not work in your game**.
+  * I encountered a problem with the styling of the text coming from the Dialogue Tree - If that happens, it's likely a bug with another extension. If you are using the BBcode extension, and for example underlined text style does not work or some combination of styles does not work, the problem more than likely lies with the pixi-multistyle-text library that it is using. It is also worth noting that **pixi currently does not support text underlining style in general. So while you can see it in Yarn editor, it will not work in your game**.
 
 !!! warning
 
@@ -228,10 +228,10 @@ The demo does not use the entire capability of the extension and is aiming to pr
 
 ### The basic life cycle of a dialogue
 
-- Load the dialogue tree data at the beginning of the game or the level
-- Set when a dialogue gets triggered - using the "Start Dialogue from branch..." action, and passing as a parameter the name of the node title where it will start from. That is typically the  root of a tree. In my example the npc object's dialogueBranch variable is used. That makes it easy to make many npcs and just change that in their properties
-- Tell the game engine how you want the dialogue data to be displayed to the player and used by the engine - for each of the three types
-- Set reusable commands to be triggered by Yarn - such as changing of avatars, playing of sound effects and any other game events to help tell your story.
+  - Load the dialogue tree data at the beginning of the game or the level
+  - Set when a dialogue gets triggered - using the "Start Dialogue from branch..." action, and passing as a parameter the name of the node title where it will start from. That is typically the  root of a tree. In my example the npc object's dialogueBranch variable is used. That makes it easy to make many npcs and just change that in their properties
+  - Tell the game engine how you want the dialogue data to be displayed to the player and used by the engine - for each of the three types
+  - Set reusable commands to be triggered by Yarn - such as changing of avatars, playing of sound effects and any other game events to help tell your story.
 
 # Examples
 

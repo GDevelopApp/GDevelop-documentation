@@ -17,17 +17,17 @@ It's especially useful for scores, titles, button labels, pixel-art games...
 
 A font is represented by two files:
 
-- **Bitmap Atlas image** : This file is the image which contains all characters that can be drawn. File format must be PNG.
-- **Bitmap Font** : This file contains the data related to characters that can be draw, the engine use these data for knowing which characters render on screen. File format must be FNT or XML.
+  - **Bitmap Atlas image** : This file is the image which contains all characters that can be drawn. File format must be PNG.
+  - **Bitmap Font** : This file contains the data related to characters that can be draw, the engine use these data for knowing which characters render on screen. File format must be FNT or XML.
 
 These two files can be created with an external editor to generate bitmap fonts, for example:
 
-* **[snowb](https://snowb.org/)** (Web) Export with  **.fnt (BMFont TEXT)**
+  * **[snowb](https://snowb.org/)** (Web) Export with  **.fnt (BMFont TEXT)**
 
-* **[bmFont](https://www.angelcode.com/products/bmfont/)** (Windows)
-* **[bmGlyph](https://www.bmglyph.com/)** (macOS)
+  * **[bmFont](https://www.angelcode.com/products/bmfont/)** (Windows)
+  * **[bmGlyph](https://www.bmglyph.com/)** (macOS)
 
-* **[Hiero](https://github.com/libgdx/libgdx/wiki/Hiero)** (Windows/Linux/OS X)
+  * **[Hiero](https://github.com/libgdx/libgdx/wiki/Hiero)** (Windows/Linux/OS X)
 
 ## Font size and scale
 

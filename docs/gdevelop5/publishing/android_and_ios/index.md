@@ -9,10 +9,10 @@ GDevelop allows you to publish your games to a variety of formats including Andr
 
 It is important to verify that your game is ready to be exported for Android and iOS:
 
-* In the game properties that are accessible from the [Project Manager](/gdevelop5/interface)), make sure to enter a valid _package name_. A package name is an identifier like this: `com.yourname.gamename`. It's like the address of a website but reversed. You can choose any package name provided that:
-    * It is not used by another game or application on iOS or Android.
-    * It is written with only letters, numbers, and dots. Only put one dot between words (for example, `com..mygame` or `..mygame` are not valid). _Limit this identifier to 2-5 words maximum._
-* Check that you've included the required icons.
+  * In the game properties that are accessible from the [Project Manager](/gdevelop5/interface)), make sure to enter a valid _package name_. A package name is an identifier like this: `com.yourname.gamename`. It's like the address of a website but reversed. You can choose any package name provided that:
+      * It is not used by another game or application on iOS or Android.
+      * It is written with only letters, numbers, and dots. Only put one dot between words (for example, `com..mygame` or `..mygame` are not valid). _Limit this identifier to 2-5 words maximum._
+  * Check that you've included the required icons.
 
 ## Launch export
 
@@ -26,8 +26,8 @@ To use the packaging for Android, you need a [GDevelop account](/gdevelop5/inter
 
 Choose if you want to create an **APK** or an **Android App Bundle**:
 
-- An **APK** allows you to send the generated file to your phone and install it. It's ideal to quickly **test your game on your Android device**.
-- An **Android App Bundle** (also shorten to "AAB") is the format required to [publish to Google Play](/gdevelop5/publishing/android_and_ios/play-store). When you create a game on the Google Play Developer Console, you'll need to upload an AAB file.
+  - An **APK** allows you to send the generated file to your phone and install it. It's ideal to quickly **test your game on your Android device**.
+  - An **Android App Bundle** (also shorten to "AAB") is the format required to [publish to Google Play](/gdevelop5/publishing/android_and_ios/play-store). When you create a game on the Google Play Developer Console, you'll need to upload an AAB file.
 
 ![](/gdevelop5/publishing/publish-mobile-options.png)
 

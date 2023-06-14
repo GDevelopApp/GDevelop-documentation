@@ -12,9 +12,9 @@ GDevelop creators can add assets to the project without having to worry about ed
 
 In a nutshell: these are the basic rules to submit video game asset images. Make sure that your files respect the following guidelines:
 
-* Each image frame, has to be a png transparency file
-* Every animation frame has to be the same pixel size as the other animation states
-* Tiles and GUI images have to be properly aligned
+  * Each image frame, has to be a png transparency file
+  * Every animation frame has to be the same pixel size as the other animation states
+  * Tiles and GUI images have to be properly aligned
 
 !!! note
 
@@ -23,9 +23,9 @@ In a nutshell: these are the basic rules to submit video game asset images. Make
 
 GDevelop's most common sizes for animation assets are:
 
-* Mobile: 720x1280
-* Desktop: 1280x720
-* Desktop full HD: 1920x1080
+  * Mobile: 720x1280
+  * Desktop: 1280x720
+  * Desktop full HD: 1920x1080
 
 If you're looking for "an easy way" to prepare your assets for the Asset Store, [Entropy](https://gd.games/Entropy) has created a solution to upload, name, and [license](https://wiki.gdevelop.io/gdevelop5/community/sell-asset-pack-store/) your Assets. Go to [this GitHub page](https://github.com/Entr0py404/GDev-Asset-Store-Tool/releases/tag/v1.4) to download the Windows app, and [watch his Twitch](https://www.twitch.tv/videos/1641376379?t=00h02m50s) to see how to use the tool.
 
@@ -65,11 +65,11 @@ RedHero_RunJewel_4.png
         **A note on animation states:**
     If the **animated** object only has one animation state, there is no need to specify if the animation is "Walk, Idle, Climb, Death..." on the name. An animation index will do: `Jewel_1.png`, `Jewel_2.png`, `Jewel_3.png`.
 
-- If you want to create a **[Tiled sprite](/gdevelop5/objects/tiled_sprite)** (for backgrounds or repeating patterns):
-    - Prefix the *base name* by `tiled_`. For example: `tiled_Grass Background.png`
+  - If you want to create a **[Tiled sprite](/gdevelop5/objects/tiled_sprite)** (for backgrounds or repeating patterns):
+      - Prefix the *base name* by `tiled_`. For example: `tiled_Grass Background.png`
 
-- If you want to add a **[9-Patch (Panel Sprite)](/gdevelop5/objects/panel_sprite)** object that can be stretched with the center and the border repeated:
-    - In an image software slice your image in 9 different images, and name them: `9patch_BaseName_gravity.png` with gravity being: `southwest`, `southeast`, `south`, `northwest`, `northeast`, `north`, `west` and `east`.
+  - If you want to add a **[9-Patch (Panel Sprite)](/gdevelop5/objects/panel_sprite)** object that can be stretched with the center and the border repeated:
+      - In an image software slice your image in 9 different images, and name them: `9patch_BaseName_gravity.png` with gravity being: `southwest`, `southeast`, `south`, `northwest`, `northeast`, `north`, `west` and `east`.
 
 All these files will be used by our server to generate a unique texture used in the 9-Patch object.
 
@@ -105,7 +105,7 @@ If you are not sure about the number that "time between frames" will represent,[
 
     Save the .json file as the **METADATA** of your object with the following structure: `BaseName_METADATA.json`
 
-- If you have **multiple animation status** and **each must have a different speed**, create a .json file **per animation state**, using this name: `BaseName_AnimationState_METADATA.json`.
+  - If you have **multiple animation status** and **each must have a different speed**, create a .json file **per animation state**, using this name: `BaseName_AnimationState_METADATA.json`.
 
 For example:
 
@@ -161,9 +161,9 @@ Put your .aac or .wav files (prefer .aac) directly in a folder, with the name to
 
 A great tool to convert audio files to AAC format is [fre:ac](https://www.freac.org/).  fre:ac is free, open-source, and cross-platform.  It can process batches of files, with many options on how they are named and put into folders.
 
-- Choose the encoder called "Fraunhofer FDK AAC Encoder".
-- Select "File format > AAC"
-- Select "Quality > Set Quality > 3"
+  - Choose the encoder called "Fraunhofer FDK AAC Encoder".
+  - Select "File format > AAC"
+  - Select "Quality > Set Quality > 3"
 
 This will create high-quality audio files, but using a variable bit rate that won't exceed 96 kbps (assuming stereo input).
 
@@ -229,8 +229,8 @@ Put all images with the name that you put in the `resources` array next to your 
 
 Finally, add:
 
-- a file with the same name but with the extension `.preview.png` that will be shown in the assets store
-- an empty filed called `IGNORED_FOR_IMAGE_ASSETS.md` so that the importer will ignore the images and won't try to create objects automatically :)
+  - a file with the same name but with the extension `.preview.png` that will be shown in the assets store
+  - an empty filed called `IGNORED_FOR_IMAGE_ASSETS.md` so that the importer will ignore the images and won't try to create objects automatically :)
 
 For example:
 

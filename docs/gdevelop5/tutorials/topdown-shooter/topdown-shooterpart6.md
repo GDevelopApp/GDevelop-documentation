@@ -7,10 +7,10 @@ This tutorial explains to you how to create a Top-Down Shooter game in **GDevelo
 
 In this tutorial, you will learn how to :
 
-- Make a limited Bullet number
-- Make a Bullet magazine using variables
-- Change variables
-- Make an Ammo for reloading
+  - Make a limited Bullet number
+  - Make a Bullet magazine using variables
+  - Change variables
+  - Make an Ammo for reloading
 
 ## Series
 

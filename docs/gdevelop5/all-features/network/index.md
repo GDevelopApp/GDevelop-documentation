@@ -11,8 +11,8 @@ Everything on the internet uses HTTP requests. When you visit a webpage, your br
 
 Games and applications work similarly to send or get data to a server:
 
-* they send a request to a specific address (also called an endpoint). Optionally, the request can include parameters.
-* the server sends back a response. The set of all requests that are handled by a server is sometimes called an API.
+  * they send a request to a specific address (also called an endpoint). Optionally, the request can include parameters.
+  * the server sends back a response. The set of all requests that are handled by a server is sometimes called an API.
 
 In addition to the address and the parameters, HTTP requests can have a "verb" associated as well.  Requests to get data or fetch a webpage are usually "GET" requests. Requests to post data are usually "POST" requests.
 
@@ -22,13 +22,13 @@ When the server sends the response, it is saved in a variable so that you can re
 
 ## How to format the content
 
-* For GET requests, parameters have to be sent in the content in the format of a "query string":
+  * For GET requests, parameters have to be sent in the content in the format of a "query string":
 `parameter1=value1&parameter2=value2&parameter3=value3`...
 
 You can send data from a variable, for example:
 `"score=" + VariableString(Score) + "&playerName=" + VariableString(Name)`
 
-* For POST requests, it depends on what is expected by the server, but most of the time the server expects JSON formatted text.
+  * For POST requests, it depends on what is expected by the server, but most of the time the server expects JSON formatted text.
 
 You can either construct it yourself:
 `"{\"score\": " + VariableString(Score) + " }"` (note the use of backslash before the quote `\"`, to allow the quote to be used inside a text) or use the expression to convert a variable structure to JSON: `ToJSON(VariableWithData)` (see more about this below).

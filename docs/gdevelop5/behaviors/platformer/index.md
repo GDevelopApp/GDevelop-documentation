@@ -19,9 +19,9 @@ After selecting the "Platform" option, you will see the Platform behavior option
 
 By clicking on the platform behavior, you can choose from 3 different platform types.
 
-* **Platform:** this is the default option. The default behavior sets the object as a traditional platform. The character can collide with the platform and/or walk on it.
-* **Jumpthru platform:** by choosing this option, the character can collide with the platform and walk on it, but the character can also jump thru the platform from below.
-* **Ladder:** as its name suggests, this option turns our object into a ladder. The character object cannot collide with the ladder object. It can not walk on the ladder object, but, when the character object overlaps the ladder object, the character is able to climb up and get down using the ladder object.
+  * **Platform:** this is the default option. The default behavior sets the object as a traditional platform. The character can collide with the platform and/or walk on it.
+  * **Jumpthru platform:** by choosing this option, the character can collide with the platform and walk on it, but the character can also jump thru the platform from below.
+  * **Ladder:** as its name suggests, this option turns our object into a ladder. The character object cannot collide with the ladder object. It can not walk on the ladder object, but, when the character object overlaps the ladder object, the character is able to climb up and get down using the ladder object.
 
 ### Grab the ledge
 
@@ -89,9 +89,9 @@ By changing this value, we can set the maximum angle of a slope that the player 
 
 The walking speed of a character is configured with:
 
-- an acceleration
-- a deceleration
-- a maximum speed
+  - an acceleration
+  - a deceleration
+  - a maximum speed
 
 Choosing a low acceleration and deceleration will make the character slide.
 
@@ -101,10 +101,10 @@ Choosing a low acceleration and deceleration will make the character slide.
 
 How high a character jumps depends on:
 
-- **Jump speed** is the speed at the beginning of the jump.
-- **Jump sustain time** is how long the jump speed can be kept to the initial value while players hold the jump key.
-- **Gravity** is how fast the speed change to go down.
-- **Max. falling speed** to avoid characters going faster and faster because of gravity.
+  - **Jump speed** is the speed at the beginning of the jump.
+  - **Jump sustain time** is how long the jump speed can be kept to the initial value while players hold the jump key.
+  - **Gravity** is how fast the speed change to go down.
+  - **Max. falling speed** to avoid characters going faster and faster because of gravity.
 
 All theses values can also be changed at any time during the game using [events](/gdevelop5/events).
 
@@ -124,10 +124,10 @@ It's not easy to know how these values change the jump trajectory. The best is t
 
 The [advanced platformer movements](/gdevelop5/extensions/advanced-jump/reference) extension contains behaviors for:
 
-* Wall jump
-* Double jump
-* Coyote time (also known as ledge tolerance)
-* Dashes
+  * Wall jump
+  * Double jump
+  * Coyote time (also known as ledge tolerance)
+  * Dashes
 
 ## Examples
 

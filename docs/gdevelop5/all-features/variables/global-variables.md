@@ -5,8 +5,8 @@ title: Global variables
 
 Global variables:
 
-- are stored in memory for as long as the game is running
-- can be accessed from any scene in the game
+  - are stored in memory for as long as the game is running
+  - can be accessed from any scene in the game
 
 They're useful for storing data that the entire game needs access to at all times, such as the player's score. They're only deleted from memory when the player quits the game.
 

@@ -59,10 +59,10 @@ In this example, the Advanced bloom effect is called "Effect" and has several pa
 
 You can then add an event with an action called "Effect Parameter":
 
-* Enter first the layer name (be sure to add quotation marks). For the base layer, enter an empty string (`""`).
-* Enter the name of the effect, in this case `"Effect"`.
-* Enter the name of the parameter, in this case `"bloomScale"`.
-* Finally, enter the new value to be set for this parameter.
+  * Enter first the layer name (be sure to add quotation marks). For the base layer, enter an empty string (`""`).
+  * Enter the name of the effect, in this case `"Effect"`.
+  * Enter the name of the parameter, in this case `"bloomScale"`.
+  * Finally, enter the new value to be set for this parameter.
 
 !!! danger
 
@@ -84,10 +84,10 @@ Applies a color-map effect on an object or layer.
 
 This works by modifying a reference "color image map" containing all possible colors.
 
-- Download the reference color map image below, or create your own.
-- In an image editor (like Photoshop or GIMP), tweak the color balances of the reference color image map.
-    * e.g. In an image editor, using the invert colors function on the reference map will also invert all of the colors of the objects on the layer that the Color Map effect is used.
-- Save it as a new file, then use this resulting file as the color image map for the effect in GDevelop.
+  - Download the reference color map image below, or create your own.
+  - In an image editor (like Photoshop or GIMP), tweak the color balances of the reference color image map.
+      * e.g. In an image editor, using the invert colors function on the reference map will also invert all of the colors of the objects on the layer that the Color Map effect is used.
+  - Save it as a new file, then use this resulting file as the color image map for the effect in GDevelop.
 **Download the image file below and use it as the color map** in GDevelop:
 
 color-map-original-template.png (reference color map image): ![](/gdevelop5/interface/scene-editor/color-map-original-template.png)

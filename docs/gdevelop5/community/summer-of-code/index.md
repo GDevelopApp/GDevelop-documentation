@@ -25,8 +25,8 @@ GDevelop supports tilemaps that are built using Tiled or LDtk - two editors spec
 
 This project will aim to bring a very simple Tilemap edition feature to GDevelop. This is a feature that is asked by a lot of users!
 
-* **Skills:** JavaScript
-* **Difficulty:** medium
+  * **Skills:** JavaScript
+  * **Difficulty:** medium
 
 ### Implement a global undo redo in the interface
 
@@ -34,44 +34,44 @@ In this project, you design and set up a global undo/redo system in the whole ap
 
 This is also a good opportunity to investigate "Conflict-free replicated data type", as this notion is linked to the changes needed for a global undo/redo system.
 
-* **Skills:** JavaScript, C++
-* **Difficulty:**  hard
+  * **Skills:** JavaScript, C++
+  * **Difficulty:**  hard
 
 ### Refactor the game engine to run in a web worker
 
 This project is about reworking the game engine so that it can run in a web worker. The rendering with PixiJS can be decoupled from logic (it's also partially done in the engine!). Once it's done, the logic could be run in a web-worker, improving the performance of all games. Later games could even be run on a server for multiplayer using this approach - which is a highly requested feature by users.
 
-* **Skills:** JavaScript
-* **Difficulty:** medium
+  * **Skills:** JavaScript
+  * **Difficulty:** medium
 
 ### Improve interactive tutorials so that the community can create their own
 
 We’ve created a framework to run interactive tutorials directly inside GDevelop (you can try it in the “Getting started”). In this project, tutorials could be listed in GDevelop in the interface, and when one is chosen, it would be played. The community will be able to create new tutorials by submitting tutorials in JSON format.
 
-* **Skills:** JavaScript
-* **Difficulty:** easy
+  * **Skills:** JavaScript
+  * **Difficulty:** easy
 
 ### Improved Debugger and Profiler
 
 GDevelop has a debugger and profiler that can be used when previewing a game. The debugger can list the objects, expose things like variables and allow to edit them. The profiler can measure the time for each part of the game. Both are still quite raw, so we could improve the UI to make it easier to filter objects, add export/import of data, show information in real time, show charts...
 
-* **Skills:** React.js (for the editor), JavaScript (for the engine), WebSockets (communication between editor and games)
-* **Difficulty:** Easy
+  * **Skills:** React.js (for the editor), JavaScript (for the engine), WebSockets (communication between editor and games)
+  * **Difficulty:** Easy
 
 ### Refactored collision and object positions handling
 
 A dedicated module to handle object position and collisions (as well as raycast and other algorithms) was started in this PR: <https://github.com/4ian/GDevelop/pull/1393> (the idea is to be able to port this module to WebAssembly in the future - this can be a stretch goal). It's not finished though: the project will consist in finishing the implementation, check the performance, the integration in the game engine and adapt the extensions (Pathfinding, Platformer, Lights) to use it.
 
-* **Skills:** JavaScript
-* **Type:** Exploratory
-* **Difficulty:** medium
+  * **Skills:** JavaScript
+  * **Type:** Exploratory
+  * **Difficulty:** medium
 
 ### Refactored and faster code generation
 
 Code generation is a very important point in GDevelop. This project would rework the code generation of events to make it clearer, faster and unlock potential new features like improved object handlings to avoid unnecessary work and get runtime performance boost. This can be seen as a work on a lightweight compiler - which can be fun to then later work on larger ones!
 
-* **Skills:** C++ (mandatory to dig into the existing codebase), JavaScript (for the generated code), good understanding of algorithms and data structures.
-* **Difficulty:** medium
+  * **Skills:** C++ (mandatory to dig into the existing codebase), JavaScript (for the generated code), good understanding of algorithms and data structures.
+  * **Difficulty:** medium
 
 ### Animation support for 9 Panel Sprite and Tiled Sprite objects
 
@@ -79,8 +79,8 @@ These "Panel Sprite" and "Tiled Sprite" objects can't be animated. We'd like to 
 This will allow for nice effects like animated platforms, background, lava floors...
 This will involve refactoring the animation classes in the game engine and refactor animation components in the editor codebase.
 
-* **Skills:** JavaScript (Pixi.js knowledge is a bonus) and React.
-* **Difficulty:** Medium
+  * **Skills:** JavaScript (Pixi.js knowledge is a bonus) and React.
+  * **Difficulty:** Medium
 
 ### Your own idea
 
@@ -90,15 +90,15 @@ Your own ideas and variations on the existing one are very welcome! Remember to 
 
 You'll need two things!
 
-* First, become a bit familiar with GDevelop. One way to do so is by using the app. You can also try investigating or working an issue (or adding a simple new feature) on the GitHub Issue Tracker. Take a look at the [Good First Issues](https://github.com/4ian/GDevelop/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%91%8Cgood+first+issue%22).
-    * You'll need to set up your development environment. The *README* will explain everything!
-    * Find an issue that looks interesting to you. Might be a [Good First Issue](https://github.com/4ian/GDevelop/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%91%8Cgood+first+issue%22) or another one.
-    * Do some research, try things, and if you need help ask on the forum or on the GitHub issue itself.
-    * If you have something interesting, comment on the issue or open a *Pull Request*! Prepare it with all the required tests and checks, explain what you've done and a reviewer should give you some feedback.
+  * First, become a bit familiar with GDevelop. One way to do so is by using the app. You can also try investigating or working an issue (or adding a simple new feature) on the GitHub Issue Tracker. Take a look at the [Good First Issues](https://github.com/4ian/GDevelop/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%91%8Cgood+first+issue%22).
+      * You'll need to set up your development environment. The *README* will explain everything!
+      * Find an issue that looks interesting to you. Might be a [Good First Issue](https://github.com/4ian/GDevelop/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%91%8Cgood+first+issue%22) or another one.
+      * Do some research, try things, and if you need help ask on the forum or on the GitHub issue itself.
+      * If you have something interesting, comment on the issue or open a *Pull Request*! Prepare it with all the required tests and checks, explain what you've done and a reviewer should give you some feedback.
 
-* Searching to solve an issue is a good first step that will actually help you in the second part: making a proposal!
-    * Read [this page describing a suggested structure for your proposal](/gdevelop5/community/summer-of-code/contributor-guidance).
-    * Prepare your proposal on the Google Summer of Code website 🤓.
+  * Searching to solve an issue is a good first step that will actually help you in the second part: making a proposal!
+      * Read [this page describing a suggested structure for your proposal](/gdevelop5/community/summer-of-code/contributor-guidance).
+      * Prepare your proposal on the Google Summer of Code website 🤓.
 
 !!! tip
 
@@ -122,6 +122,6 @@ Yes, it's a good idea, if you participated or contributed already to GDevelop, t
 
 ## More links
 
-- Forum [section about GSoC](https://forum.gdevelop.io/c/community/gsoc-2020)
-- [GDevelop GitHub repository](https://github.com/4ian/GDevelop)
-- [Good First Issues](https://github.com/4ian/GDevelop/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%91%8Cgood+first+issue%22), to start coding with GDevelop.
+  - Forum [section about GSoC](https://forum.gdevelop.io/c/community/gsoc-2020)
+  - [GDevelop GitHub repository](https://github.com/4ian/GDevelop)
+  - [Good First Issues](https://github.com/4ian/GDevelop/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%91%8Cgood+first+issue%22), to start coding with GDevelop.

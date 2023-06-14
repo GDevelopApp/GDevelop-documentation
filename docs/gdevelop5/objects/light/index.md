@@ -6,9 +6,9 @@ title: Light
 Light objects simulate light sources in 2D and cast shadows on other objects.
 Light objects can be customized with several properties:
 
-- a light color
-- a light radius
-- a texture to give a shape to the light
+  - a light color
+  - a light radius
+  - a texture to give a shape to the light
 
 ## How does it work?
 

@@ -7,9 +7,9 @@ This part of the tutorial explains how to add collectible coins to the game.
 
 You'll learn how to:
 
-- Delete an object (and play a sound) when a player collides with it.
-- Keep track of data with variables.
-- Add text to a scene.
+  - Delete an object (and play a sound) when a player collides with it.
+  - Keep track of data with variables.
+  - Add text to a scene.
 
 ## Series
 
@@ -61,9 +61,9 @@ A variable is a container that can store data. If you've ever done algebra, then
 
 In GDevelop, there are three types of variables:
 
-* Object variables
-* Scene variables
-* Global variables
+  * Object variables
+  * Scene variables
+  * Global variables
 
 An explanation of each variable type is beyond the scope of this tutorial, but the differences are explored in [Scope of variables](http://wiki.compilgames.net/doku.php/gdevelop5/all-features/variables#scope_of_variables). In this case, scene variables are the most relevant. These are variables that exist for the duration of a scene.
 

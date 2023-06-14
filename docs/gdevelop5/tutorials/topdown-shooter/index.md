@@ -7,8 +7,8 @@ This tutorial explains to you how to create a Top-Down Shooter game in GDevelop.
 
 In this tutorial, you will learn how to :
 
-- Create a new project
-- Create a new scene
+  - Create a new project
+  - Create a new scene
 
 ## Series
 

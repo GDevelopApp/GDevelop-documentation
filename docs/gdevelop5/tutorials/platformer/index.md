@@ -7,9 +7,9 @@ This tutorial explains how to create a platformer game with GDevelop. If you've 
 
 You'll learn how to:
 
-- Design a level with platforms, enemies, and collectible coins.
-- Create a playable character that can move, jump, and kill enemies.
-- Return the playable to checkpoints when they die.
+  - Design a level with platforms, enemies, and collectible coins.
+  - Create a playable character that can move, jump, and kill enemies.
+  - Return the playable to checkpoints when they die.
 
 ## Series
 
@@ -125,8 +125,8 @@ To stop the preview, close the preview window.
 
 It's also good to get into the habit of regularly saving your games. You can save the game via the **File** menu or by using a keyboard shortcut:
 
-- `CTRL` + `S` on Windows
-- `CMD` + `S` on macOS
+  - `CTRL` + `S` on Windows
+  - `CMD` + `S` on macOS
 
 ## Next step
 

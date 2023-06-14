@@ -9,8 +9,8 @@ title: How to rotate objects
 
 An object can be instantly rotated with the **Angle** action. The action needs an angle value. This value can be calculated with the expression:
 
-- **Object.AngleToObject(object)** to face an object
-- **Object.AngleToPosition(x, y)** to face a position.
+  - **Object.AngleToObject(object)** to face an object
+  - **Object.AngleToPosition(x, y)** to face a position.
 
 ### Rotate an object over time
 

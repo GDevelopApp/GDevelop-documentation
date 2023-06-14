@@ -44,24 +44,24 @@ work in progress and we’ll be able to add this feature post-GSoC.
 
 ### Challenges
 
-* The most challenging part here was to write efficient JS code, both in terms of time and memory. We've tried to minimize
+  * The most challenging part here was to write efficient JS code, both in terms of time and memory. We've tried to minimize
 the use of functions like map and filter since they create a new array, and increase pressure on the GC. We've also tried to use
 single instances for other objects like Float32Array.
 
-* Debugging the code for rendering was the hardest part, since it was all visual. It's really hard to use the "text-based"
+  * Debugging the code for rendering was the hardest part, since it was all visual. It's really hard to use the "text-based"
 debugging techniques (such as breakpoints, console logs, etc) for code which is meant to render something on screen, and
 it becomes even harder to debug off-screen elements (framebuffers, render textures, etc). Therefore, it was always challenging
 to find a bug related to rendering glitches.
 
 ### Possible improvements
 
-* One of the possible improvement is to use the [separating axis theorem](https://en.wikipedia.org/wiki/Hyperplane_separation_theorem)
+  * One of the possible improvement is to use the [separating axis theorem](https://en.wikipedia.org/wiki/Hyperplane_separation_theorem)
 to minimize the number of rays to be cast.
 
-* We've tried to find a solution for edge cases that expands the bounding box. It works well for a lot of cases, but there are
+  * We've tried to find a solution for edge cases that expands the bounding box. It works well for a lot of cases, but there are
 still some cases remaining to be handled correctly.
 
-* We need to have better tests and benchmarks that account for the edge cases as well.
+  * We need to have better tests and benchmarks that account for the edge cases as well.
 
 ## Command Palette and Revamped Shortcuts
 
@@ -69,16 +69,16 @@ still some cases remaining to be handled correctly.
 
 This project focuses on boosting users' efficiency and productivity by:
 
-- **Building a fully featured command palette**, akin to code editors like Visual Studio Code and other productivity apps. This allows the user to quickly access a lot of the app's main functionalities via the keyboard.
-- **Adding support for customizable keyboard shortcuts**. Earlier the app only supported some standard shortcuts for the scene and events editor - the new shortcuts would allow the user to do almost anything via a shortcut press.
+  - **Building a fully featured command palette**, akin to code editors like Visual Studio Code and other productivity apps. This allows the user to quickly access a lot of the app's main functionalities via the keyboard.
+  - **Adding support for customizable keyboard shortcuts**. Earlier the app only supported some standard shortcuts for the scene and events editor - the new shortcuts would allow the user to do almost anything via a shortcut press.
 
 ### The Structure
 
 The rough workings of the system we decided are fairly simple:
 
-- each command has mainly a name and a callback handler. The callback handler for a command is provided dynamically by the relevant React component.
-- a React context acts as the central store for all commands registered at any time. Custom hooks allow any React component to dynamically register and deregister commands easily. The command palette UI gets the list of commands from the central store and displays it.
-- These commands can also have a corresponding keyboard shortcut. An event listener listens for keypresses, checks if an identified shortcut is pressed, and calls the respective command.
+  - each command has mainly a name and a callback handler. The callback handler for a command is provided dynamically by the relevant React component.
+  - a React context acts as the central store for all commands registered at any time. Custom hooks allow any React component to dynamically register and deregister commands easily. The command palette UI gets the list of commands from the central store and displays it.
+  - These commands can also have a corresponding keyboard shortcut. An event listener listens for keypresses, checks if an identified shortcut is pressed, and calls the respective command.
 
 ### Timeline
 
@@ -100,12 +100,12 @@ There was also a [minor PR](https://github.com/4ian/GDevelop/pull/1896) for addi
 
 ### Challenges
 
-- **Storing options of commands with options**: Storing and dynamically updating an array of options for each such command was hard, especially for React components that have slightly tricky lifecycles. This was solved by instead storing a function that generates the list of options for the command, right from the project or layout object - which meant this function would give up-to-date results whenever and wherever it's called.
-- **Single-key shortcuts**: Single-key shortcuts are slightly tricky because they can clash with the user typing. To solve that, I used a bit of vanilla JS to check whether the user is currently typing, and if it is so, ignore any shortcut keypresses.
-- **Commands overlapping with Electron**: Some commands like "Save Project" overlap with menu items in Electron's app menu. This means on pressing "Ctrl+S", both Electron and the in-house shortcut system would have tried to save the project. So on the Electron app, we pass on these overlapping command and allow Electron to do the job.
+  - **Storing options of commands with options**: Storing and dynamically updating an array of options for each such command was hard, especially for React components that have slightly tricky lifecycles. This was solved by instead storing a function that generates the list of options for the command, right from the project or layout object - which meant this function would give up-to-date results whenever and wherever it's called.
+  - **Single-key shortcuts**: Single-key shortcuts are slightly tricky because they can clash with the user typing. To solve that, I used a bit of vanilla JS to check whether the user is currently typing, and if it is so, ignore any shortcut keypresses.
+  - **Commands overlapping with Electron**: Some commands like "Save Project" overlap with menu items in Electron's app menu. This means on pressing "Ctrl+S", both Electron and the in-house shortcut system would have tried to save the project. So on the Electron app, we pass on these overlapping command and allow Electron to do the job.
 
 ### Possible Improvements
 
-- There's a **lack of tab-related commands and shortcuts**, like "Next tab". These shortcuts are really helpful and quite ubiquitous in productivity apps. Such commands and shortcuts can be added to the app.
-- There is still quite a bit of keyboard productivity remaining to be added to the app - for instance, the **events editor does not support navigating with arrow keys**. Adding this would make keyboard control much more intuitive.
-- The detect shortcut dialog works great but it's **not very helpful to the user in telling why a certain shortcut is not allowed**, or whether some shortcut may cause problems like clashing with the browser. This can be improved to show a help message in such cases.
+  - There's a **lack of tab-related commands and shortcuts**, like "Next tab". These shortcuts are really helpful and quite ubiquitous in productivity apps. Such commands and shortcuts can be added to the app.
+  - There is still quite a bit of keyboard productivity remaining to be added to the app - for instance, the **events editor does not support navigating with arrow keys**. Adding this would make keyboard control much more intuitive.
+  - The detect shortcut dialog works great but it's **not very helpful to the user in telling why a certain shortcut is not allowed**, or whether some shortcut may cause problems like clashing with the browser. This can be improved to show a help message in such cases.

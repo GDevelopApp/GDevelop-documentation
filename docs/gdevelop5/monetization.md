@@ -7,5 +7,5 @@ GDevelop allows you to monetize your games without paying any kind of royalties 
 
 The following tutorials provided step-by-step walkthroughs of monetization options:
 
-* [monetize](/gdevelop5/publishing/publishing-to-facebook-instant-games/monetize)
-* [admob](/gdevelop5/all-features/admob)
+  * [monetize](/gdevelop5/publishing/publishing-to-facebook-instant-games/monetize)
+  * [admob](/gdevelop5/all-features/admob)

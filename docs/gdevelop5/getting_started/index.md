@@ -19,29 +19,29 @@ The installation instructions depend on the operating system.
 
 **Windows**:
 
-* Double-click on the executable.
-* Click on the Next button several times, until the installation begins. This installs GDevelop, launches the app, and adds an icon to the Desktop.
+  * Double-click on the executable.
+  * Click on the Next button several times, until the installation begins. This installs GDevelop, launches the app, and adds an icon to the Desktop.
 
 **macOS**:
 
-* Open the DMG file.
-* Drag "GDevelop.app" into the "~/Applications" directory.
+  * Open the DMG file.
+  * Drag "GDevelop.app" into the "~/Applications" directory.
 
 **Linux (flatpak)**:
 
-* Open a terminal.
-* Follow the command line instructions at the bottom of the [GDevelop Flathub page](https://flathub.org/apps/details/io.gdevelop.ide)
+  * Open a terminal.
+  * Follow the command line instructions at the bottom of the [GDevelop Flathub page](https://flathub.org/apps/details/io.gdevelop.ide)
 
 **Linux (AppImage)**:
 
-* Open a terminal.
-* Make the AppImage file executable by typing `chmod a+x GDevelop*.AppImage`.
-* Run it: `./GDevelop*.AppImage` (or double-click on the file).
+  * Open a terminal.
+  * Make the AppImage file executable by typing `chmod a+x GDevelop*.AppImage`.
+  * Run it: `./GDevelop*.AppImage` (or double-click on the file).
 
 **Phone, tablets, and Chromebooks**:
 
-* Open your browser and go to [editor.gdevelop.io](https://editor.gdevelop.io).
-* If you are on Android or a Chromebook, choose the option to "Add to Homescreen".
+  * Open your browser and go to [editor.gdevelop.io](https://editor.gdevelop.io).
+  * If you are on Android or a Chromebook, choose the option to "Add to Homescreen".
 
 !!! tip
 

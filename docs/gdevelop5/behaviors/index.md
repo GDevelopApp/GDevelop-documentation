@@ -7,9 +7,9 @@ In GDevelop, _behaviors_ add significant features to [objects](/gdevelop5/object
 
 For example, behaviors can:
 
-* Automatically remove objects from a scene when they move outside the edges of the screen.
-* Make objects move in a realistic way by following the laws of physics.
-* Allow players to move an object with the arrow keys.
+  * Automatically remove objects from a scene when they move outside the edges of the screen.
+  * Make objects move in a realistic way by following the laws of physics.
+  * Allow players to move an object with the arrow keys.
 
 You can also customize behaviors to make your game feel unique and use [events](/gdevelop5/events) to manipulate behaviors.
 
@@ -19,21 +19,21 @@ You can also customize behaviors to make your game feel unique and use [events](
 
 This section lists the different types of behaviors, each of which is useful for adding different types of features to objects.
 
-- [Anchor](/gdevelop5/behaviors/anchor)
-- [Bounce](/gdevelop5/behaviors/bounce)
-- [Destroy outside screen](/gdevelop5/behaviors/destroyoutside)
-- [Draggable](/gdevelop5/behaviors/draggable)
-- [Pathfinding](/gdevelop5/behaviors/pathfinding)
-- [Physics 2](/gdevelop5/behaviors/physics2)
-- [Platformer objects and platforms](/gdevelop5/behaviors/platformer)
-- [Top-down movement](/gdevelop5/behaviors/topdown)
-- [Tween](/gdevelop5/behaviors/tween)
+  - [Anchor](/gdevelop5/behaviors/anchor)
+  - [Bounce](/gdevelop5/behaviors/bounce)
+  - [Destroy outside screen](/gdevelop5/behaviors/destroyoutside)
+  - [Draggable](/gdevelop5/behaviors/draggable)
+  - [Pathfinding](/gdevelop5/behaviors/pathfinding)
+  - [Physics 2](/gdevelop5/behaviors/physics2)
+  - [Platformer objects and platforms](/gdevelop5/behaviors/platformer)
+  - [Top-down movement](/gdevelop5/behaviors/topdown)
+  - [Tween](/gdevelop5/behaviors/tween)
 
 Refer to the linked pages to learn more about each type of behavior.
 
 ### Deprecated behaviors
 
-- [Old Physics](/gdevelop5/behaviors/physics)
+  - [Old Physics](/gdevelop5/behaviors/physics)
 
 ## Adding a behavior to an object
 

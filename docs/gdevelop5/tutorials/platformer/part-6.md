@@ -37,9 +37,9 @@ If you preview the game, an animated enemy appears on screen.
 
 The previous part of this tutorial mentioned that there were three types of variables:
 
-- Object
-- Scene
-- Global
+  - Object
+  - Scene
+  - Global
 
 An _object_ variable is tied to a specific object. This means the variable holds a value that is only available to -- and only relevant to -- the associated object.
 
@@ -153,9 +153,9 @@ If you preview the game, the enemy appears to change direction by their own "cho
 
 After the enemy collides with the "Left" object, they start moving right and never stop moving right. To ensure they change direction again, create an object named "RIght". This object should be the same as the "Left" object, except for the following details:
 
-- Use the "right.png" asset.
-- When the "Player" object collides with the "Slime" object, set the "direction" variable to "right".
-- For the **Flip the object horizontally** action, set **Activate flipping** to **No**.
+  - Use the "right.png" asset.
+  - When the "Player" object collides with the "Slime" object, set the "direction" variable to "right".
+  - For the **Flip the object horizontally** action, set **Activate flipping** to **No**.
 
 Then drag an instance of the "Right" object into the scene, to the left of the enemy.
 

@@ -229,15 +229,15 @@ Once the condition is in place, we are going to **Add an action**. Find **Common
 
 We will now add **states** to our game. States describe the status of our game. It can be considered as a flag, to detect when the character is in action or when the character has fallen off the platform. This is needed to decide a "Game Over" state and therefore, restarting the game. We can record the state by simply creating a **scene variable**. There will be 3 states for our game.
 
-- First state or the initial state is when the game hasn't started yet and it requires the user to start the game. We are going to refer to this state using the value **0**.
+  - First state or the initial state is when the game hasn't started yet and it requires the user to start the game. We are going to refer to this state using the value **0**.
 
 &nbsp;
 
-- Second state is when the character or Player Sprite is in action. We are going to refer to this state using the value **1**.
+  - Second state is when the character or Player Sprite is in action. We are going to refer to this state using the value **1**.
 
 &nbsp;
 
-- The third state is the "Game Over" state when the character falls off the platform. We are going to refer to this state using the value **2**.
+  - The third state is the "Game Over" state when the character falls off the platform. We are going to refer to this state using the value **2**.
 
 ![](/gdevelop5/tutorials/0endlessrunner_flow.jpg)
 

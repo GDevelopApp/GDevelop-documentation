@@ -9,15 +9,15 @@ This event stores the value of each child variable (as a string or number) and t
 
 ## Example
 
-- Define a structure variable (Fruits) with multiple child variables (Apple, Avocado, Banana)
+  - Define a structure variable (Fruits) with multiple child variables (Apple, Avocado, Banana)
 
 ![](foreverchildvariables.png)
 
-- Loop through the child objects and change the text to show the name and value of the child object.
+  - Loop through the child objects and change the text to show the name and value of the child object.
 
 ![](foreverchildevents.png)
 
-- The game preview will now show the correct values.
+  - The game preview will now show the correct values.
 
 ![](foreverchildouput.png)
 

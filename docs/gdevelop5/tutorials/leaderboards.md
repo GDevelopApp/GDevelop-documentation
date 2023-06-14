@@ -56,17 +56,17 @@ To set security rules, navigate to the editor via the [Firebase console](https:/
 
 ### 2.3 Walking through the security rules
 
-* **match /scores/{document}**: Only add rules for documents inside scores. This already makes it more secure, as all rules are false by default so this makes sure only the collection and the documents we need are accessible.
+  * **match /scores/{document}**: Only add rules for documents inside scores. This already makes it more secure, as all rules are false by default so this makes sure only the collection and the documents we need are accessible.
 
-* **allow read;**: We always want the database to be readable. Therefore, we do not add any condition.
+  * **allow read;**: We always want the database to be readable. Therefore, we do not add any condition.
 
-* **allow create: if**: We only allow creation, not writing, as this would allow users to change their score later.
+  * **allow create: if**: We only allow creation, not writing, as this would allow users to change their score later.
 
-* **request.resource.data.keys().hasOnly(["name", "score"]) && request.resource.data.keys().hasAll(["name", "score"])**: This is making sure that the data has the shape we defined in 1: it has all the properties a score needs and not any extra properties.
+  * **request.resource.data.keys().hasOnly(["name", "score"]) && request.resource.data.keys().hasAll(["name", "score"])**: This is making sure that the data has the shape we defined in 1: it has all the properties a score needs and not any extra properties.
 
-* **request.resource.data.score is number && request.resource.data.score > 1**: We make sure the score is a number and in the range of scores possible. Here, a score can be any number higher than 1.
+  * **request.resource.data.score is number && request.resource.data.score > 1**: We make sure the score is a number and in the range of scores possible. Here, a score can be any number higher than 1.
 
-* **request.resource.data.name is string && request.resource.data.name.size() > 1 && request.resource.data.name.size() < 15;**: And finally, we make sure the name is a text with at least 1 character, and up to 14 characters.
+  * **request.resource.data.name is string && request.resource.data.name.size() > 1 && request.resource.data.name.size() < 15;**: And finally, we make sure the name is a text with at least 1 character, and up to 14 characters.
 
 !!! tip
 
