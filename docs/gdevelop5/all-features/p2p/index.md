@@ -43,10 +43,8 @@ After opening a command line, complete the following:
   - If this is the first time completing these steps, to install the server type **npm install peer -g**
   - After the server is installed, and every subsequent time (to start the server), type **peerjs -p <the port>**
       * Any port that is not already used by the computer can be used.
-
-        Other options can be passed to the PeerJS server, see [its website](https://github.com/peers/peerjs-server#config--cli-options) for more information.
-        After the above has been completed, the **Use custom broker server** action is used to connect to the server.
-
+          - Other options can be passed to the PeerJS server, see [its website](https://github.com/peers/peerjs-server#config--cli-options) for more information.
+          - After the above has been completed, the **Use custom broker server** action is used to connect to the server.
       * **localhost** can be used as the host address to point to the local server.
 
 !!! tip
