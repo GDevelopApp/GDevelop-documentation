@@ -2,7 +2,7 @@ version: 2
 jobs:
   docs-build-and-deploy:
     docker:
-      - image: circleci/node:lts
+      - image: cimg/node:16.19
 
     working_directory: ~/repo
 
