@@ -46,14 +46,14 @@ jobs:
 
       - run:
           name: Deploy docs to gh-pages branch
-          command: cd GDevelop && gh-pages --dist docs --repo 'https://github.com/GDevelopApp/GDevelop-documentation.git' --message "Update documentation [ci skip]"
+          command: cd GDevelop && gh-pages --dist docs --repo 'https://github.com/GDevelopApp/GDevelop-documentation.git' --message "Update documentation [skip ci]"
 
       - run:
           name: Copy documentation reference to the wiki documentation.
           command: |
             rsync -r GDevelop/docs-wiki/ docs/gdevelop5
             git add docs/gdevelop5
-            git commit -m "Automatic update of the reference pages [skip-ci]" || echo "Nothing to commit (or error during commit?)"
+            git commit -m "Automatic update of the reference pages [skip ci]" || echo "Nothing to commit (or error during commit?)"
             git push origin main || echo "Nothing to push (or error during commit or push?)"
 
 workflows:
