@@ -48,3 +48,4 @@ This section will be enhanced with various solutions to build your 3D models.
 You can find free or premium 3D models suitable for your games on some website like:
 
 - [Kenney.nl](https://www.kenney.nl/assets/category:3D).
+- [Quaternius.com](https://quaternius.com/index.html).
