@@ -23,15 +23,15 @@ In addition to events, functions also have parameters, just like usual condition
 
 ## Creating a new function
 
-Functions are grouped into "extensions". They are the same as [the extensions that you can install for your game](/gdevelop5/extensions/search). You can see the list of extensions that the game has, as well as add a new extension in the [Project Manager](/gdevelop5/interface/project-manager):
+Functions are grouped into [extensions](/gdevelop5/extensions). They are the same as [the extensions that you can install for your game](/gdevelop5/extensions/search). You can see the list of extensions that the game has, as well as add a new extension in the [Project Manager](/gdevelop5/interface/project-manager):
 
-![](/gdevelop5/events/functions/pasted/20221118-093224.png)
+![](pasted/20221118-093224.png)
 
-Click on **Create or search for new extensions** on the bottom then on **Create a new extension** to create a new extension. It's a good idea to have functions related to the same thing in a single extension. Careful, the name is sensitive to the case, so `DayNightEffects` and `Daynighteffects` are two different functions.
+Click on **Create or search for new extensions** on the bottom then on **Create a new extension** to [create a new extension](/gdevelop5/extensions/create). It's a good idea to have functions related to the same thing in a single extension. Careful, the name is sensitive to the case, so `DayNightEffects` and `Daynighteffects` are two different functions.
 
 Click on the extension in the list to open its editor. By default, there are no functions in the extensions. Add one by clicking on "Add a new function", on the left:
 
-![](/gdevelop5/events/functions/pasted/20221118-093435.png)
+![](pasted/20221118-093435.png)
 
 A new function is added. You can rename it, to give it a name according to what you want to do inside. For example, if your function will be a condition that checks if the object passed as parameter is ready to fight, you can call it `IsReadyToFight` (only alphanumeric characters and underscores are allowed in names).
 
@@ -41,7 +41,7 @@ Click on the function to edit it: you'll be able to change its configuration and
 
 When a function is selected, on the top, you can see the configuration of the function:
 
-![](/gdevelop5/events/functions/pasted/20221118-093605.png)
+![](pasted/20221118-093605.png)
 
 * The first parameter is the type of the function: "Action", "Condition", "Expression" or "String Expression". If you choose Action or Condition, you'll find the function in the list of actions and conditions, when editing your events in the game. If you choose Expression (or String Expression), you'll find it in the list of expressions when you edit a formula.
 * You can then configure the name that will be displayed in the list.
@@ -68,7 +68,7 @@ For each parameter, you can enter:
 
 For example, we can add a parameter, that would return the objects to be rotated:
 
-![](/gdevelop5/events/functions/pasted/20221118-093700.png)
+![](pasted/20221118-093700.png)
 
 !!! note
 
@@ -88,7 +88,7 @@ When your function is configured, you can add events to it. These events will be
 
 Here is an example of a function to rotate some objects:
 
-![](/gdevelop5/events/functions/pasted/20221118-093830.png)
+![](pasted/20221118-093830.png)
 
 This is a really simple and not really useful example of a function (you could as well use the action to rotate objects directly without writing a function). But, when you add more complex logic inside, a function's strength can be seen. It's then super easy to reuse this logic from the rest of the game!
 
@@ -107,27 +107,27 @@ Here is an example of a text parameter that will get the name and use it in an a
 ![](/gdevelop5/events/function_text_expression.png)
 
 
-
-
-
 ## Using the function in your game
 
 When you have configured and created the events for your function, you can use it in the rest of your game.
 
 Simply create a new action (or condition) and find in the list the name of your extension, then choose the function that you've created:
 
-![](/gdevelop5/events/functions/pasted/20221118-094110.png)
+![](pasted/20221118-094110.png)
 
 That's it! The function is used like any other condition, action or expression in the [Events Editor](/gdevelop5/interface/events-editor).
 
 !!! tip
-
 
     The **Object Groups** feature, while creating functions, helps grouping similar object parameters. This way you can apply an action/condition to a group of object parameters (parameters pointing at objects) at once.
 
 ## Advanced usages
 
 This page gave a basic overview of what functions are. They are one of the more powerful features of GDevelop, as you can extend the events by using them, enabling to create very readable and concise events sheets. By using them, you can reduce the amounts of events that you write for your game, avoid copy-pasting them and even reduce bugs by ensuring that functions are always used for common tasks on your objects.
+
+!!! tip
+
+Functions that focus on an object can be grouped together in [custom behaviors](/gdevelop5/behaviors/events-based-behaviors/). It allows one step further to better organize a project.
 
 
 ### Recursive functions
