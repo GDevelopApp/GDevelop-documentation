@@ -149,7 +149,7 @@ The [advanced platformer movements](/gdevelop5/extensions/advanced-jump/referenc
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://parallax-scrolling){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/parallaxscrollingbehavior.png)](https://editor.gdevelop.io/?project=example://parallax-scrolling)
+[![](parallaxscrollingbehavior.png)](https://editor.gdevelop.io/?project=example://parallax-scrolling)
 
 ## Reference
 

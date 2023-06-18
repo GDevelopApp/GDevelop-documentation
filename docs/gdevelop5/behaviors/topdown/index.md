@@ -87,7 +87,7 @@ All theses values can also be changed at any time during the game using [events]
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://isometric-game){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/isometricgame.png)](https://editor.gdevelop.io/?project=example://isometric-game)
+[![](isometricgame.png)](https://editor.gdevelop.io/?project=example://isometric-game)
 
 ## Reference
 

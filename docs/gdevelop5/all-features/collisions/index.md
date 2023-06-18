@@ -84,4 +84,4 @@ Additionally, objects with the **Physics** behavior ignore the object's Collisio
         **See it in action!** 🎮
     Open this example online: [Physics Example](https://editor.gdevelop.io?project=example://physics)
 
-![](/gdevelop5/behaviors/hingeleverdemo.png)
+![](/gdevelop5/behaviors/physics/hingeleverdemo.png)
