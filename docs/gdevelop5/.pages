@@ -4,7 +4,7 @@ nav:
     - getting_started
     - interface
     - objects
-    - behaviors
+    - Behaviors: behaviors
     - events
     - all-features
     - extensions
