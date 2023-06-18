@@ -4,7 +4,7 @@ nav:
     - getting_started
     - interface
     - objects
-    - Behaviors: behaviors/index.md
+    - Behaviors: behaviors
     - events
     - all-features
     - extensions
