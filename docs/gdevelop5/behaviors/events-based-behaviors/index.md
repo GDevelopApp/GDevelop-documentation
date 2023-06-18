@@ -15,19 +15,19 @@ In GDevelop, you can create your own **custom behaviors**. Like the usual, built
 
 Behaviors are grouped into "extensions". Extensions are composed of custom functions (actions, conditions or expressions), custom behaviors or custom objects ("prefabs") powered by events. You can see the list of all the extensions the game has in the [Project Manager](/gdevelop5/interface/project-manager), as well as add a new extension:
 
-![](/gdevelop5/behaviors/events-based-behaviors/pasted/20210906-234510.png)
+![](pasted/20210906-234510.png)
 
 Click on the **+** button at the bottom to create a new extension. You can right click on it to rename it. It's a good idea to have functions and behaviors related to the same thing in a single extension.
 
 Click on the extension in the list to open its editor. By default, there are no functions in the extensions. Add one by clicking on **Add a new behavior**, on the left:
 
-![](/gdevelop5/behaviors/events-based-behaviors/pasted/20210906-234614.png)
+![](pasted/20210906-234614.png)
 
 The new behavior is added. You should rename it to give it a name according to what you want it to do. For example, if your behavior will be used to have an enemy move left and right on a platform, you can call it `HorizontalMovement` (only alphanumeric characters and underscores are allowed in names). If your behavior is automatically tracking damage and deletes objects that are too damaged, you could call it `Destructible`.
 
 You should also edit the configuration of the behavior by doing a right click on it and choosing "Properties". You can enter the description, the name displayed in the editor and specify if it should be restricted to some kind of objects:
 
-![](/gdevelop5/behaviors/events-based-behaviors/pasted/20210906-234834.png)
+![](pasted/20210906-234834.png)
 
 Behaviors can also embed properties, which are number, strings or booleans that are stored inside the behavior. Check out the section below about how to add and use properties.
 
@@ -35,11 +35,11 @@ Behaviors can also embed properties, which are number, strings or booleans that 
 
 Click on the behavior in the list to see the list of functions composing the behavior. It will appear on the right side panel.
 
-![](/gdevelop5/behaviors/events-based-behaviors/pasted/20210906-235104.png)
+![](pasted/20210906-235104.png)
 
 By default, a behavior is empty and **does nothing**. To add interactivity, you can add a new function (also called "method"). You'll be given the choice between some predefined functions, called *lifecycle methods*, or a custom function. Lifecycle methods will be called by the game engine automatically at some key moment during the game. Custom functions will be available as conditions, actions or expressions (like [usual functions outside behaviors](/gdevelop5/events/functions)).
 
-![](/gdevelop5/behaviors/events-based-behaviors/pasted/20210906-235126.png)
+![](pasted/20210906-235126.png)
 
 ### Lifecycle methods
 
@@ -54,7 +54,7 @@ Predefined lifecycle methods are as such:
 
 This is an example of some events inside onStepPreEvents in the case of behavior that automatically deletes objects that are too damaged:
 
-![](/gdevelop5/behaviors/events-based-behaviors/pasted/20210906-235321.png)
+![](pasted/20210906-235321.png)
 
 ### Custom action, condition or expression
 
@@ -62,7 +62,7 @@ If you choose to create a custom function for your behavior, you can then config
 
 For example, this creates a new action that can be used to add damage to the object:
 
-![](/gdevelop5/behaviors/events-based-behaviors/pasted/20210906-235538.png)
+![](pasted/20210906-235538.png)
 
 
 
@@ -74,11 +74,11 @@ Once your behavior is created, you can start attaching it to objects. The best p
 
 Here, you can see the "Destructible Object" behavior for example (that was created in the previous screenshots):
 
-![](/gdevelop5/behaviors/events-based-behaviors/pasted/20210907-000055.png)
+![](pasted/20210907-000055.png)
 
 The custom behavior that you created is then displayed in the list of the behaviors attached to the object:
 
-![](/gdevelop5/behaviors/events-based-behaviors/pasted/20210907-000202.png)
+![](pasted/20210907-000202.png)
 
 You can run the game and see that the events in "doStepPreEvents" function (or "doStepPostEvents") will be executed. In the example of the Destructible behavior that was created, if the "Damage" variable is set to a number greater or equal to 100, the object will be destroyed automatically.
 
@@ -90,7 +90,7 @@ To test this, we've added the "Destructible" behavior to object "Platform". Then
 
 Like any other "built-in behavior", you can also use actions/conditions (or expressions) if you have declared functions as such in the behavior. For example, in the "Destructible" behavior, we created an action to cause some damage to the object. We can find it and use it in the events sheet:
 
-![](/gdevelop5/behaviors/events-based-behaviors/pasted/20210907-000606.png)
+![](pasted/20210907-000606.png)
 
 It is displayed in the events sheet:
 ![](/gdevelop5/behaviors/custom-behavior-action-events-sheet.png)
@@ -105,7 +105,7 @@ You can use these properties to make your behavior customizable (for example, yo
 
 To show and add properties to your behavior, edit it and click on the "Properties" tab. In this example, you can see a behavior called "Health", that has properties to store the health of the object and the minimum time between two hits on the object:
 
-![](/gdevelop5/behaviors/events-based-behaviors/pasted/20210907-001003.png)
+![](pasted/20210907-001003.png)
 
 Properties can be:
 

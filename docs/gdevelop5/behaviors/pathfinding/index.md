@@ -11,7 +11,7 @@ By using the "Pathfinding obstacle" [behavior](/gdevelop5/behaviors), you can fl
 
 When the behavior is added to an object, some properties can be modified:
 
-![](/gdevelop5/behaviors/pathfinding/pasted/20230304-155732.png)
+![](pasted/20230304-155732.png)
 
   * **impassable:** if enabled, the obstacle is going to be impassable. The moving object will be avoiding them and never go through them.
   * **cost:** if the obstacle is not impassable, a cost can be set the obstacle. The moving object, when looking for the best possible path to a destination, will prefer to avoid the obstacle with high-cost values. For example, a river might have some cost. The moving object, if possible, will avoid it. However, if there is no other way around the river, or if the river has a lower cost compared to another area, the moving object will go through it (instead of climbing a mountain with a higher cost for example). And if we put crocodiles into the river and increase its cost, the moving object might decide to climb the mountains instead.
@@ -26,7 +26,7 @@ The "Pathfinding behavior" allows to compute the shortest path from the object t
 
 After we add the behavior to the object, we can customize a number of options:
 
-![](/gdevelop5/behaviors/pathfinding/pasted/20230304-160035.png)
+![](pasted/20230304-160035.png)
 
   * **acceleration:** this is how fast the object is going to accelerate while moving on a path.
   * **allow diagonals:** set if the object can move in diagonals.
@@ -47,7 +47,7 @@ To initiate a pathfinding move, add the action "Move to a position" and specify 
 It will move using the characteristics defined in the behavior properties.
 If you want to change how the object moves during the game, these properties can be changed using actions.
 
-![](/gdevelop5/behaviors/pathfindingmoveactionwithcondition.jpg)
+![](pathfindingmoveactionwithcondition.jpg)
 
 !!! warning
 
@@ -64,7 +64,7 @@ If you want to change how the object moves during the game, these properties can
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://pathfinding){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/pathfindinggeneral.png)](https://editor.gdevelop.io/?project=example://pathfinding)
+[![](pathfindinggeneral.png)](https://editor.gdevelop.io/?project=example://pathfinding)
 
 
 
@@ -72,7 +72,7 @@ If you want to change how the object moves during the game, these properties can
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://pathfinding-basics){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/pathfindingbasics.png)](https://editor.gdevelop.io/?project=example://pathfinding-basics)
+[![](pathfindingbasics.png)](https://editor.gdevelop.io/?project=example://pathfinding-basics)
 
 ## Reference
 

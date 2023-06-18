@@ -3,7 +3,7 @@ title: Tween behavior
 ---
 # Tween behavior
 
-![](/gdevelop5/behaviors/tween_behavior32.png) Tweens (from inbe**tween**) let you animate properties of an [object](/gdevelop5/objects) over some time, like its position or size. This [behavior](/gdevelop5/behaviors) comes with various easing effects used when interpolating between the start and end value to create cool effects like shaking user interface buttons or collectibles that slowly fade out after picking them up.
+![](tween_behavior32.png) Tweens (from inbe**tween**) let you animate properties of an [object](/gdevelop5/objects) over some time, like its position or size. This [behavior](/gdevelop5/behaviors) comes with various easing effects used when interpolating between the start and end value to create cool effects like shaking user interface buttons or collectibles that slowly fade out after picking them up.
 
 !!! note
 
@@ -13,7 +13,9 @@ title: Tween behavior
 
 To use the tween behavior, you need to add it to an object in the object editor. After that, you can add tweens to your object in the events sheet.
 
-Tweens can be played in a sequence if you want to create more complex animations. This is called "chaining." In the following example, the sprite starts playing a "Tween the scale" animation to shrink it down when it is clicked with the mouse. After the tween has finished, a new tween animation starts to scale it up again. This creates a loop, which makes the sprite pulsate for all eternity. A variation of this can also create platforms that move up and down or enemies patrolling between waypoints. ![](/gdevelop5/behaviors/tween_behavior_chaining_example.png)
+Tweens can be played in a sequence if you want to create more complex animations. This is called "chaining." In the following example, the sprite starts playing a "Tween the scale" animation to shrink it down when it is clicked with the mouse. After the tween has finished, a new tween animation starts to scale it up again. This creates a loop, which makes the sprite pulsate for all eternity. A variation of this can also create platforms that move up and down or enemies patrolling between waypoints.
+
+![](tween_behavior_chaining_example.png)
 
 ### Conditions
 
@@ -234,7 +236,7 @@ This expression returns the tween's current progress between the start value (0)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://tween-test){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/tweentest.png)](https://editor.gdevelop.io/?project=example://tween-test)
+[![](tweentest.png)](https://editor.gdevelop.io/?project=example://tween-test)
 
 
 
@@ -242,14 +244,14 @@ This expression returns the tween's current progress between the start value (0)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://tween-animations){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/tweenanimations.png)](https://editor.gdevelop.io/?project=example://tween-animations)
+[![](tweenanimations.png)](https://editor.gdevelop.io/?project=example://tween-animations)
 
 
 **Pairs**
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://pairs){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/pairs.png)](https://editor.gdevelop.io/?project=example://pairs)
+[![](pairs.png)](https://editor.gdevelop.io/?project=example://pairs)
 
 ## Reference
 

@@ -16,11 +16,11 @@ The "Physics" behavior allows objects to behave according to the laws of physics
 ## Add behavior to object
 To add physics behavior to an object, open the object properties by right clicking on the created object in the Objects Editor. Then, select "Edit object" from the popup list that appears. Finally, select the Behaviors tab and click the "add behavior" button.
 Choose the "Physics engine":
-![](/gdevelop5/behaviors/physics-behavior-inlist.png)
+![](physics-behavior-inlist.png)
 
 ## Properties
 Once the behavior is added to the object, there is a number of options to customize:
-![](/gdevelop5/behaviors/physics-behavior-options.png)
+![](physics-behavior-options.png)
 
 **Consider as Bullet**
 

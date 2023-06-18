@@ -16,7 +16,7 @@ To add an anchor to an object:
   * Set your anchor points and click **Apply**.
 
 
-![](/gdevelop5/behaviors/anchorbehavior.png)
+![](anchorbehavior.png)
 
 
 ## Behavior parameters
