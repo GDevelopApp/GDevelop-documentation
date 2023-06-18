@@ -17,7 +17,7 @@ To add a behavior to an object, first open the object properties by right-clicki
 
 Once you have selected this behavior from the list, it is going to eliminate the object whenever it is outside the screen. You do not need to change this behaviors options, and it will automatically apply to all instances of the object. Press apply in the bottom right corner of the object properties window to confirm this change.
 
-![](/gdevelop5/behaviors/AddDestroyOutsideBheavior.png)
+![](AddDestroyOutsideBheavior.png)
 
 # Examples
 
@@ -30,7 +30,7 @@ Once you have selected this behavior from the list, it is going to eliminate the
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://shoot-bullets){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/Examples1BulletOutsideScreen.png)](https://editor.gdevelop.io/?project=example://shoot-bullets)
+[![](Examples1BulletOutsideScreen.png)](https://editor.gdevelop.io/?project=example://shoot-bullets)
 
 ## Reference
 

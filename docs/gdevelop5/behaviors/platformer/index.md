@@ -9,11 +9,11 @@ GDevelop comes with two [behaviors](/gdevelop5/behaviors) to build platformer ga
 
 Like any behavior, edit an object and choose "Add a behavior" to find the **Platform** behavior:
 
-![](/gdevelop5/behaviors/platformer/pasted/20230304-152923.png)
+![](pasted/20230304-152923.png)
 
 After selecting the "Platform" option, you will see the Platform behavior options list:
 
-![](/gdevelop5/behaviors/platformer/pasted/20230304-153031.png)
+![](pasted/20230304-153031.png)
 
 ### Platform type
 
@@ -25,10 +25,13 @@ By clicking on the platform behavior, you can choose from 3 different platform t
 
 ### Grab the ledge
 The ledge of our platform can be grabbed by default.  "Grab the ledge" means that when the character object jumps close enough to the edge of the platform, the ledge can be grabbed. If you don't need this functionality, make sure this option is unticked/unchecked. If you do need it, make sure the box is ticked/checked.
-![](/gdevelop5/behaviors/ledges-canbe-grabbed-option.png)
+
+![](ledges-canbe-grabbed-option.png)
 
 The offset of the grab can also be changed on the Y-axis.
-![](/gdevelop5/behaviors/grab-offset-option.png)
+
+![](grab-offset-option.png)
+
 The offset option allows us to change the position of the grab to fit the animation of our character.
 
 ### Create platforms with tilemaps
@@ -40,7 +43,7 @@ The platform behavior can be added to tilemap collision mask objects. Learn more
 
 By selecting the "Platformer character" behavior, you can turn an object into a "Platformer character".
 
-![](/gdevelop5/behaviors/platformer/pasted/20230304-153154.png)
+![](pasted/20230304-153154.png)
 
 There are a lot of options - you may need to scroll to see them all.
 
@@ -53,7 +56,8 @@ There are a lot of options - you may need to scroll to see them all.
 #### Move a character with the keyboard
 
 The Platformer character behavior comes with default keys set to control the character. These keys are the **arrow keys** and the **Shift or Space** keys. If you don't want to use the default controls, you need to turn off the default controls by unticking/unchecking the "Default controls" box under the "Platform character" options and use [keyboard conditions](/gdevelop5/all-features/keyboard) instead.
-![](/gdevelop5/behaviors/platformer-defaultcontrols-box.png)
+
+![](platformer-defaultcontrols-box.png)
 
 #### Move characters with a gamepad
 
@@ -93,7 +97,7 @@ Choosing a low acceleration and deceleration will make the character slide.
 
 ### Change characters jump height
 
-![](/gdevelop5/behaviors/platformer/pasted/20230304-153334.png)
+![](pasted/20230304-153334.png)
 
 How high a character jumps depends on:
 
@@ -114,7 +118,7 @@ It's not easy to know how these values change the jump trajectory. The best is t
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://platformer-jump-evaluator){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/platformer-jump-evaluator.png)](https://editor.gdevelop.io/?project=example://platformer-jump-evaluator)
+[![](platformer-jump-evaluator.png)](https://editor.gdevelop.io/?project=example://platformer-jump-evaluator)
 
 ####  Make characters wall jump
 
@@ -136,7 +140,7 @@ The [advanced platformer movements](/gdevelop5/extensions/advanced-jump/referenc
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://platformer){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/platformer-example.png)](https://editor.gdevelop.io/?project=example://platformer)
+[![](platformer-example.png)](https://editor.gdevelop.io/?project=example://platformer)
 
 
 
@@ -145,7 +149,7 @@ The [advanced platformer movements](/gdevelop5/extensions/advanced-jump/referenc
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://parallax-scrolling){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/parallaxscrollingbehavior.png)](https://editor.gdevelop.io/?project=example://parallax-scrolling)
+[![](parallaxscrollingbehavior.png)](https://editor.gdevelop.io/?project=example://parallax-scrolling)
 
 ## Reference
 

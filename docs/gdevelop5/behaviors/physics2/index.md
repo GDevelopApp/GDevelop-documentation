@@ -15,7 +15,7 @@ The behavior is composed of three big concepts: the world that hold the bodies (
 
     Limitation: As stated above, the extension simulates rigid bodies physics, which means that bodies can't be deformed. Things like soft shapes, clothes, and fluids are not supported.
 
-![](/gdevelop5/behaviors/physics2/pasted/20230304-145455.png)
+![](pasted/20230304-145455.png)
 
 ##World
 

@@ -50,7 +50,7 @@ Refer to the linked pages to learn more about each type of behavior.
 
 Anyone can [create custom behaviors](/gdevelop5/behaviors/events-based-behaviors) and share them with the GDevelop community.
 
-![](/gdevelop5/behaviors/pasted/20230305-104957.png)
+![](pasted/20230305-104957.png)
 
 To search for and install community-created behaviors:
 
@@ -64,5 +64,5 @@ To search for and install community-created behaviors:
 
 Installed behaviors appear in the **Installed behaviors** tab:
 
-![](/gdevelop5/behaviors/pasted/20230305-105029.png)
+![](pasted/20230305-105029.png)
 

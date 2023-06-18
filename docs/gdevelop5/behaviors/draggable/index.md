@@ -15,11 +15,11 @@ The draggable object [behavior](/gdevelop5/behaviors) will make the [object](/gd
 
 To add the Draggable behavior to an object, start with creating an object or open the object's properties by accessing the object in the Scene Objects list. Select "Edit object" from the popup list. Then select "Behaviors" and click the add behavior button.
 
-![](/gdevelop5/behaviors/addbehavior.jpg)
+![](/gdevelop5/behaviors/AddBehaviorHighlight.png)
 
 Choose the behavior in the list:
 
-![](/gdevelop5/behaviors/draggable-object-behavior-inlist.png)
+![](draggable-object-behavior-inlist.png)
 
 ## Properties and events
 
@@ -28,7 +28,7 @@ Using the events, you can still disable or reactivate this behavior for some obj
 
 Using events, you can also check if an object is being dragged:
 
-![](/gdevelop5/behaviors/eventcondtiondraggableobject.png)
+![](eventcondtiondraggableobject.png)
 
 
 # Examples
@@ -42,7 +42,7 @@ Using events, you can also check if an object is being dragged:
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://snap-object-to-grid){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/snaptogrid.png)](https://editor.gdevelop.io/?project=example://snap-object-to-grid)
+[![](snaptogrid.png)](https://editor.gdevelop.io/?project=example://snap-object-to-grid)
 
 
 
@@ -50,7 +50,7 @@ Using events, you can also check if an object is being dragged:
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://shoot-bullet-in-parabola){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/shootbulletparabolapattern.png)](https://editor.gdevelop.io/?project=example://shoot-bullet-in-parabola)
+[![](shootbulletparabolapattern.png)](https://editor.gdevelop.io/?project=example://shoot-bullet-in-parabola)
 
 
 
@@ -66,7 +66,7 @@ Using events, you can also check if an object is being dragged:
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://pathfinding-basics){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/pathfindingbasics.png)](https://editor.gdevelop.io/?project=example://pathfinding-basics)
+[![](/gdevelop5/behaviors/pathfinding/pathfindingbasics.png)](https://editor.gdevelop.io/?project=example://pathfinding-basics)
 
 ## Reference
 
