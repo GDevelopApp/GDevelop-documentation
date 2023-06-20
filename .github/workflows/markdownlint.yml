@@ -28,7 +28,9 @@ jobs:
         separator: ","
     - uses: DavidAnson/markdownlint-cli2-action@v10
       if: github.event_name != 'workflow_dispatch' && steps.changed-files.outputs.any_changed == 'true'
+      continue-on-error: true
       with:
+        command: fix
         globs: ${{ steps.changed-files.outputs.all_changed_files }}
         separator: ","
     - uses: DavidAnson/markdownlint-cli2-action@v10
