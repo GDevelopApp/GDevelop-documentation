@@ -48,7 +48,7 @@ jobs:
       run: |
         git config --global user.email "ci-builder@gdevelop.io"
         git config --global user.name "GDevelop documentation CI"
-        git pull
+        git pull origin main
         git add .
         git commit -m "Fix lint action" || echo "Nothing to commit (or error during commit?)"
         git push origin main || echo "Nothing to push (or error during commit or push?)"
