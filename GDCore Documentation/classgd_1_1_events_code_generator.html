@@ -299,9 +299,9 @@ virtual <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><t
 <tr class="memitem:af736c1e537f006532df912087ecbb26c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#af736c1e537f006532df912087ecbb26c">GenerateScopeEnd</a> (<a class="el" href="classgd_1_1_events_code_generation_context.html">gd::EventsCodeGenerationContext</a> &amp;context, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;extraVariable=&quot;&quot;)</td></tr>
 <tr class="memdesc:af736c1e537f006532df912087ecbb26c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a new must be ended.  <a href="#af736c1e537f006532df912087ecbb26c">More...</a><br /></td></tr>
 <tr class="separator:af736c1e537f006532df912087ecbb26c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a475568e881e2347842d54c626d6aef13"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#a475568e881e2347842d54c626d6aef13">GenerateNegatedPredicat</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;predicat) const</td></tr>
-<tr class="memdesc:a475568e881e2347842d54c626d6aef13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must negate a predicat.  <a href="#a475568e881e2347842d54c626d6aef13">More...</a><br /></td></tr>
-<tr class="separator:a475568e881e2347842d54c626d6aef13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e8ab89fff4f3c48b0d55b447a531cd1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#a0e8ab89fff4f3c48b0d55b447a531cd1">GenerateNegatedPredicate</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;predicate) const</td></tr>
+<tr class="memdesc:a0e8ab89fff4f3c48b0d55b447a531cd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must negate a predicate.  <a href="#a0e8ab89fff4f3c48b0d55b447a531cd1">More...</a><br /></td></tr>
+<tr class="separator:a0e8ab89fff4f3c48b0d55b447a531cd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f32a2d2be44137c3ad58786bedbb673"><td class="memItemLeft" align="right" valign="top"><a id="a9f32a2d2be44137c3ad58786bedbb673"></a>
 virtual <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GenerateFreeCondition</b> (const std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &amp;arguments, const <a class="el" href="classgd_1_1_instruction_metadata.html">gd::InstructionMetadata</a> &amp;instrInfos, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;returnBoolean, bool conditionInverted, <a class="el" href="classgd_1_1_events_code_generation_context.html">gd::EventsCodeGenerationContext</a> &amp;context)</td></tr>
 <tr class="separator:a9f32a2d2be44137c3ad58786bedbb673"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1094,8 +1094,8 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>ExpressionCodeGenera
 
 </div>
 </div>
-<a id="a475568e881e2347842d54c626d6aef13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a475568e881e2347842d54c626d6aef13">&#9670;&nbsp;</a></span>GenerateNegatedPredicat()</h2>
+<a id="a0e8ab89fff4f3c48b0d55b447a531cd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e8ab89fff4f3c48b0d55b447a531cd1">&#9670;&nbsp;</a></span>GenerateNegatedPredicate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1104,10 +1104,10 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>ExpressionCodeGenera
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="classgd_1_1_string.html">gd::String</a> gd::EventsCodeGenerator::GenerateNegatedPredicat </td>
+          <td class="memname">virtual <a class="el" href="classgd_1_1_string.html">gd::String</a> gd::EventsCodeGenerator::GenerateNegatedPredicate </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
-          <td class="paramname"><em>predicat</em></td><td>)</td>
+          <td class="paramname"><em>predicate</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -1118,8 +1118,8 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>ExpressionCodeGenera
 </table>
 </div><div class="memdoc">
 
-<p>Must negate a predicat. </p>
-<p>The default implementation generates C-style code : It wraps the predicat inside parenthesis and add a !. </p>
+<p>Must negate a predicate. </p>
+<p>The default implementation generates C-style code : It wraps the predicate inside parenthesis and add a !. </p>
 
 </div>
 </div>
