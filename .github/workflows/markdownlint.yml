@@ -19,7 +19,6 @@ jobs:
 
     - uses: tj-actions/changed-files@v36
       id: changed-files
-      if: ${{ github.event_name != 'workflow_dispatch' }}
       with:
         files: |
           docs/index.md
@@ -30,26 +29,15 @@ jobs:
         separator: ","
 
     - uses: DavidAnson/markdownlint-cli2-action@v10
-      if: github.event_name != 'workflow_dispatch' && steps.changed-files.outputs.any_changed == 'true'
+      if: steps.changed-files.outputs.any_changed == 'true'
       continue-on-error: true
       with:
         command: fix
         globs: ${{ steps.changed-files.outputs.all_changed_files }}
         separator: ","
 
-    - uses: DavidAnson/markdownlint-cli2-action@v10
-      if: github.event_name == 'workflow_dispatch'
-      continue-on-error: true
-      with:
-        command: fix
-        globs: |
-          docs/index.md
-          docs/gdevelop5/**/*.md
-          !docs/gdevelop5/all-features/**/reference.md
-          !docs/gdevelop5/extensions/**/*.md
-
     - name: Commit and push
-      if: github.event_name != 'workflow_dispatch' && steps.changed-files.outputs.any_changed == 'true'
+      if: steps.changed-files.outputs.any_changed == 'true'
       run: |
         git config --global user.email "ci-builder@gdevelop.io"
         git config --global user.name "GDevelop documentation CI"
@@ -58,7 +46,7 @@ jobs:
         git push origin HEAD:${{ github.head_ref }} || echo "Nothing to push (or error during commit or push?)"
 
     - name: Find the existing comment about games in the PR
-      if: github.event_name != 'workflow_dispatch' && steps.changed-files.outputs.any_changed == 'true'
+      if: steps.changed-files.outputs.any_changed == 'true'
       uses: peter-evans/find-comment@v2
       id: fc
       with:
@@ -67,7 +55,7 @@ jobs:
         body-includes: "Markdown lint errors were detected and have been automatically changed. Here is the list of changed files:"
 
     - name: Get list of modified files
-      if: github.event_name != 'workflow_dispatch' && steps.changed-files.outputs.any_changed == 'true'
+      if: steps.changed-files.outputs.any_changed == 'true'
       id: get_modified_files
       run: |
         author=$(git log -1 --pretty=format:'%an')
@@ -86,7 +74,7 @@ jobs:
       shell: bash
 
     - name: Create or update comment
-      if: github.event_name != 'workflow_dispatch' && steps.changed-files.outputs.any_changed == 'true' && steps.get_modified_files.outputs.files_list != '""'
+      if: steps.changed-files.outputs.any_changed == 'true' && steps.get_modified_files.outputs.files_list != '""'
       uses: peter-evans/create-or-update-comment@v3
       with:
         comment-id: ${{ steps.fc.outputs.comment-id }}
