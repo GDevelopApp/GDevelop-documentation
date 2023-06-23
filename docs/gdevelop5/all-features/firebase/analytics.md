@@ -20,6 +20,7 @@ To send custom data, such as a player finishing a level, a "log event" can be us
 
         Scores can also be transmitted by sending an event called "score", with as additional data, the value of the variable containing the score. The additional data must be formatted like so:
     // "{\"score\":\"" + ToString(Variable(totalscore)) + "\"}"//
+
 ## Using Properties
 
 Properties are something useful to differentiate player groups. As an example, at the beginning of the game the player provide's their favorite color, it is then set as a custom property and logged as part of the score using Custom Events. Firebase will then be able to display the average score of people who have blue as favorite color and the difference with the average score of people that chose red.
