@@ -1,7 +1,7 @@
 name: Lint Markdown
 
 on:
-  pull_request:
+  pull_request_target:
     types: [opened, synchronize, reopened, edited]
 
 permissions:
@@ -11,10 +11,11 @@ permissions:
 jobs:
   lint:
     runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == false && github.event.pull_request.draft == false
     steps:
     - uses: actions/checkout@v3
       with:
-        ref: refs/pull/${{ github.event.pull_request.number }}/head
+        ref: ${{ github.event.pull_request.head.sha }}
         fetch-depth: 0
 
     - uses: tj-actions/changed-files@v36
