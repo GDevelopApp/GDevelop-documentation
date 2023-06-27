@@ -189,6 +189,34 @@ Like images and audio, put your fonts in folders. `.ttf` and `.otf` files are su
 
 `TAGS.md` files will work like for images. Sub folders are also used for tags as described for images.
 
+## 3D models
+
+Supported 3D file formats are:
+
+- .glb
+- .blend
+- .gltf
+- .obj
+- .fbx
+- .x3d
+- .vrml
+
+**Animations** are taken into account and will be displayed in the store.
+Be sure to use logical animation names such as `run`, `jump`, `idle`, etc.
+
+**Scale/dimensions** of 3d models, be consistent, a building is always bigger than a character.
+
+**The point of origin** is important, it will be used as a rotation point by GDevelop.
+
+**Textures** are supported only in format types that are contained, such as .glb, .blend, .fbx.
+
+**Texture** formats must be `.png` or `.jpg`.
+
+!!! note
+    
+    There's no need to supply cut-outs, the asset store will automatically generate a cut-out for each 3D model.
+
+
 ## (⚠️ Advanced!) To make an object from scratch, for example particle emitters
 
 !!! note
