@@ -208,13 +208,13 @@ Be sure to use logical animation names such as `run`, `jump`, `idle`, etc.
 
 **The point of origin** is important, it will be used as a rotation point by GDevelop.
 
-**Textures** are supported only in format types that are contained, such as .glb, .blend, .fbx.
+**Textures** are supported only in format types that are contained, such as `.glb`, `.blend`, `.fbx`.
 
 **Texture** formats must be `.png` or `.jpg`.
 
 !!! note
     
-    There's no need to supply cut-outs, the asset store will automatically generate a cut-out for each 3D model.
+    There's no need to add images preview for the models, the asset store will automatically generate them.
 
 
 ## (⚠️ Advanced!) To make an object from scratch, for example particle emitters
