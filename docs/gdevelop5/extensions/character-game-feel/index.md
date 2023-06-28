@@ -39,11 +39,14 @@ Add game feel behavior to your platformer character object to get the animations
 
 # Important
 
+- In the events add the action [Separate player object from floor object] to avoid any kind of bugs.
+![](https://i.imgur.com/TtdrAFp.png)
+
 - Your sprite "origin" point, must be at the center bottom.
-![](https://i.imgur.com/3Ggbm4h.png)
+![](https://i.imgur.com/OdNv0cu.png)
 
 - Your sprite bottom collision, must be filled entirely.
-![](https://i.imgur.com/0EYqreA.png)
+![](https://i.imgur.com/sHGOeqW.png)
 
 ---
 
