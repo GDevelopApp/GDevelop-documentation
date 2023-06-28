@@ -13,8 +13,8 @@ Use the action to wait a bit before launching an action. For example, here we cr
 
 There are a few precautions to take when using a Wait action:
 
-* Avoid running it in an event where conditions are valid for more than one frame. If you use it without conditions, multiple Wait will be stored in memory, and the actions will all be launched later, which will slow down the game.
-* Instead, prefer to use conditions like "At the beginning of the scene", a collision condition (with either a "Trigger Once" or an action to delete one of the object), etc...
+  * Avoid running it in an event where conditions are valid for more than one frame. If you use it without conditions, multiple Wait will be stored in memory, and the actions will all be launched later, which will slow down the game.
+  * Instead, prefer to use conditions like "At the beginning of the scene", a collision condition (with either a "Trigger Once" or an action to delete one of the object), etc...
 
 ### About sub-events
 

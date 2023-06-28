@@ -29,16 +29,18 @@ This object is still experimental and will be improved in the future
   * Tiled Map Maker specific limitations:
       * Maps made in tiled **must** have a fixed size. Tilemaps set to "Infinite" will not function.
       * Only collisions from Tiled are supported - for LDtk you will need to manually create them as separate invisible objects in GDevelop.
-       * **Tilemaps made with Tiled Map Maker using more than one tilesets** are not supported. One tileset per Tiled tilemap is supported for now. LDtk tilemaps support multiple tilesets per map, but do not support swapping out Tileset atlases.
+      * **Tilemaps made with Tiled Map Maker using more than one tilesets** are not supported. One tileset per Tiled tilemap is supported for now. LDtk tilemaps support multiple tilesets per map, but do not support swapping out Tileset atlases.
 
 !!! tip
 
     Don't resize your atlas (image file) after you've started making a tilemap in Tiled: GDevelop won't render it, because its texture size and the one that is set in the Tiled file are different. If you need to resize your tileset, **create a new map** in Tiled (where you can copy your existing map).
 
 ## LDtk: Create a new tilemap step by step
+
 !!! danger
 
     Please note that at this time, LDtk maps cannot be imported into Cloud projects or the web-app, as the tileset resources will not upload along with them.
+
 ### Create the map file
 
   - Launch LDtk.
@@ -54,11 +56,12 @@ This object is still experimental and will be improved in the future
   - Select the desired image, then click **Open**. The tileset will be displayed.
   - Modify the **Tiles layout** section as needed for the respective tile size (e.g. 16x16, 32x32, etc) and any needed spacing.
 ![](pasted/20221229-111205.png)
+
 ### Create the tile layer
 
   - Click the **Layers** button or press **L** on the keyboard. The **Project Layers** window will display.
   - Click the plus **+** button to add a new layer. A selection menu will display.
-    * While there are many layer types, this tutorial will only cover the standard Tiles layer. Entities are not imported at this time, whiel IntGrid and Auto-Layers are much more advanced and should be learned about at [ldtk.io](https://ldtk.io)
+      * While there are many layer types, this tutorial will only cover the standard Tiles layer. Entities are not imported at this time, while IntGrid and Auto-Layers are much more advanced and should be learned about at [ldtk.io](https://ldtk.io)
   - Click the **Tiles** option.
   - Within the **Layer identifier** field, type a name.
   - Select the desired tileset from the dropdown list.
@@ -66,6 +69,7 @@ This object is still experimental and will be improved in the future
   - For most use cases, all other settings can be left default.
   - When you close the layers window, the various tiles from the tilemap will display on the left, and the tilemap can be painted.
 ![](pasted/20221229-111715.png)
+
 ### Export the Tilemap
 
   - Once the map is complete, click the **Project Settings** button, or press **P** on the keyboard.
@@ -74,7 +78,7 @@ This object is still experimental and will be improved in the future
   - Click **Save as**. A file browser will display.
   - Browse to somewhere to save the map.
   - Name the map file and click **Save**.
-    * Note, while the main ldtk project file can be used as a map file in GDevelop, it is safer to save a copy separately so the map can keep revisions, especially if a version control system like Github is being used.
+      * Note, while the main ldtk project file can be used as a map file in GDevelop, it is safer to save a copy separately so the map can keep revisions, especially if a version control system like Github is being used.
 
 ### Importing into GDevelop
 
@@ -89,7 +93,6 @@ This object is still experimental and will be improved in the future
   - All other settings can be left at default.
   - Click **Apply**. The tilemap object is now created, and can be dragged to the scene.
 ![](pasted/20221229-112838.png)
-
 
 ## Tiled tutorial: Create a new tilemap step by step
 
@@ -193,8 +196,8 @@ Finally, choose the tileset file in GDevelop, in addition to choosing the atlas 
 
 Internally, GDevelop will work as follow:
 
-* If you set a tileset JSON file in the object, this tileset will be used. Note that if at the same time, another tileset is bundled in your Tilemap JSON file, the external tileset JSON file will still be used by the object: the bundled tileset will be ignored.
-* If you do not provide a tileset JSON file, the object will look for a tileset inside the Tilemap JSON and load it if present.
+  * If you set a tileset JSON file in the object, this tileset will be used. Note that if at the same time, another tileset is bundled in your Tilemap JSON file, the external tileset JSON file will still be used by the object: the bundled tileset will be ignored.
+  * If you do not provide a tileset JSON file, the object will look for a tileset inside the Tilemap JSON and load it if present.
 
 ## Animate tiles
 

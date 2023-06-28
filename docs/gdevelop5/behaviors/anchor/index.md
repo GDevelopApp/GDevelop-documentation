@@ -15,13 +15,12 @@ To add an anchor to an object:
   * Select **Anchor**.
   * Set your anchor points and click **Apply**.
 
-
 ![](anchorbehavior.png)
-
 
 ## Behavior parameters
 
 ### Edge anchor
+
 You can choose to what the object will be anchored from 3 main options:
 
   * **None**: No anchor will be applied to the selected edge.

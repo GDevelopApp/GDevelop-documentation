@@ -8,19 +8,21 @@ Firebase gives tools to help you create user accounts, authenticate (log into) a
 and linking their account to data using Firestore.
 
 ## Authenticating
+
 The first and most important thing is the authentication process. That is the part where the user proves who he is. You usually do that through a _login screen_.
 
 Firebase provides a few ways to authenticate:
 
-- **Anonymously**: you can use this to provide limited preview access to services requiring authentication. That way you can also assign data to this temporary profile. It may be possible to upgrade an anonymous account to a persistent account in the future, but GDevelop doesn't support that yet.
-- By **email**: you make the user enter an email and password, and Firebase will take care of all the rest.
-- Using **external providers**: the user can identify through a third party website, using for example their *Facebook* or *Google* accounts.
+  - **Anonymously**: you can use this to provide limited preview access to services requiring authentication. That way you can also assign data to this temporary profile. It may be possible to upgrade an anonymous account to a persistent account in the future, but GDevelop doesn't support that yet.
+  - By **email**: you make the user enter an email and password, and Firebase will take care of all the rest.
+  - Using **external providers**: the user can identify through a third party website, using for example their _Facebook_ or _Google_ accounts.
 
 !!! danger
 
     For now, external providers only work on the browser, it won't work on PC exports or previews.
 
 ## Identifying the user
+
 Once you are sure about the identity of the user, Firebase provides you a handy user ID that links your user to their data.
 Everything related to this user should be stored with this ID to be able to track their ownership of the data back and provide it to them
 once they need it.

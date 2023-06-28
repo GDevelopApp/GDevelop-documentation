@@ -10,7 +10,6 @@ hide:
 
 You can find here the full documentation for GDevelop: guides, tutorials and help about using the app, as well as the reference of its features.
 
-
 [Open the documentation](gdevelop5/index.md){ .md-button .md-button--primary .full-width }
 
 [Download or try GDevelop](https://gdevelop.io/download){ .md-button .full-width }

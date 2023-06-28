@@ -2,6 +2,7 @@
 title: Firebase Storage
 ---
 # Firebase Storage
+
 !!! note
 
     GDevelop not supporting binary data (Files/Blobs) as Variable type (yet?), support for this feature is very poor.

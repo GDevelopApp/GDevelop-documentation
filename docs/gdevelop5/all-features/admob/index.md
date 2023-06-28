@@ -9,11 +9,11 @@ Follow the [Google official documentation](https://support.google.com/admob/answ
 
 Ads can be loaded and displayed in your game at any time. They can be displayed as:
 
- * **App open** that opens while your app starts
- * **Banners** at the top or bottom of the screen
- * **Interstitials** that cover the entire screen.
- * **Rewarded videos** that show a video to the user rewarding them something at the end.
- * **Rewarded interstitials** that are similar to videos, but that the user can skip
+  * **App open** that opens while your app starts
+  * **Banners** at the top or bottom of the screen
+  * **Interstitials** that cover the entire screen.
+  * **Rewarded videos** that show a video to the user rewarding them something at the end.
+  * **Rewarded interstitials** that are similar to videos, but that the user can skip
 
 Banner ads are usually displayed during gameplay. Interstitial screens and reward videos are displayed after the completion of a level or an objective.
 

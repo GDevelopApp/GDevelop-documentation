@@ -7,9 +7,9 @@ This part of the tutorial explains how to add collectible coins to the game.
 
 You'll learn how to:
 
-- Delete an object (and play a sound) when a player collides with it.
-- Keep track of data with variables.
-- Add text to a scene.
+  - Delete an object (and play a sound) when a player collides with it.
+  - Keep track of data with variables.
+  - Add text to a scene.
 
 ## Series
 
@@ -23,7 +23,6 @@ You are reading **Part 5** of the [Platformer Tutorial](/gdevelop5/tutorials/pla
 6. [Part 6: Add Enemies to the Game](/gdevelop5/tutorials/platformer/part-6)
 7. [Part 7: Make Enemies Kill the Player (and the Player Kill the Enemies)](/gdevelop5/tutorials/platformer/part-7)
 8. [Part 8: Add Checkpoints to the Game](/gdevelop5/tutorials/platformer/part-8)
-
 
 ## Step 1: Create a collectible coin
 
@@ -62,9 +61,9 @@ A variable is a container that can store data. If you've ever done algebra, then
 
 In GDevelop, there are three types of variables:
 
-* Object variables
-* Scene variables
-* Global variables
+  * Object variables
+  * Scene variables
+  * Global variables
 
 An explanation of each variable type is beyond the scope of this tutorial, but the differences are explored in [Scope of variables](http://wiki.compilgames.net/doku.php/gdevelop5/all-features/variables#scope_of_variables). In this case, scene variables are the most relevant. These are variables that exist for the duration of a scene.
 
@@ -101,13 +100,13 @@ In GDevelop, expressions are similar to spreadsheet formulas or functions in a p
 
 For example, the `Variable` expression can retrieve the value of the "Score" variable:
 
-```
+```javascript
 Variable(Score)
 ```
 
 Because the "Score" variable contains a number, this expression returns a number. You can convert that number into a string with the `ToString` expression:
 
-```
+```javascript
 ToString(Variable(Score))
 ```
 
@@ -136,7 +135,6 @@ If you preview the game, the number of collected coins appears on the screen.
     When you click the blue icon, you can search all the available expressions sorted into categories.
 
     ![](/gdevelop5/tutorials/platform-game/expression-editor.png)
-
 
 ### Move the text to a different layer
 

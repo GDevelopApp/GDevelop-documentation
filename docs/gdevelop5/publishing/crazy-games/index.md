@@ -7,11 +7,10 @@ Games made with GDevelop can be published on [CrazyGames](https://crazygames.com
 
 Some games made with GDevelop that have been published on CrazyGames:
 
-- [Ball Challenge 2](https://gd.games/andre_holtz/ball-challenge-2)
+  - [Ball Challenge 2](https://gd.games/andre_holtz/ball-challenge-2)
 
 ![Ball Challenge 2 on CrazyGames](crazy_games_ball_challenge_2.png)
 
 !!! tip
-
 
     You're welcome to contribute by adding a step-by-step explanation of the process.

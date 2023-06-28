@@ -7,19 +7,19 @@ This tutorial explains to you how to create a Top-Down Shooter game in GDevelop.
 
 In this tutorial, you will learn how to :
 
-- Create a new project
-- Create a new scene
+  - Create a new project
+  - Create a new scene
 
 ## Series
 
 You are reading Part 1 of the Top-Down Shooter Tutorial.
 
-1.   Part 1
-2.   [Part 2](/gdevelop5/tutorials/topdown-shooter/topdown-shooterPart2)
-3.   [Part 3](/gdevelop5/tutorials/topdown-shooter/topdown-shooterPart3)
-4.   [Part 4](/gdevelop5/tutorials/topdown-shooter/topdown-shooterPart4)
-5.  [Part 5](/gdevelop5/tutorials/topdown-shooter/topdown-shooterPart5)
-6.  [Part 6](/gdevelop5/tutorials/topdown-shooter/topdown-shooterPart6)
+1. Part 1
+2. [Part 2](/gdevelop5/tutorials/topdown-shooter/topdown-shooterPart2)
+3. [Part 3](/gdevelop5/tutorials/topdown-shooter/topdown-shooterPart3)
+4. [Part 4](/gdevelop5/tutorials/topdown-shooter/topdown-shooterPart4)
+5. [Part 5](/gdevelop5/tutorials/topdown-shooter/topdown-shooterPart5)
+6. [Part 6](/gdevelop5/tutorials/topdown-shooter/topdown-shooterPart6)
 
 This tutorial will help you to begin to use **GDevelop**. You will create a **Top-Down Shooter** game where the player shoots and kills the enemy. Note that you can read the [Getting Started](/gdevelop5/getting_started/) page to get an overview of the software. It explains the main concepts and describes the interface of **GDevelop**.
 
@@ -35,10 +35,10 @@ If you haven't already installed [GDevelop](https://gdevelop.io), you can downlo
 
 At the very beginning, you should create a new project. A project is a collection of sprites, sounds, scenes, behavior, etc. that is used to build a game. To create a project:
 
-1.  Launch GDevelop
-2.  Click on **Create a new project** ![20211206-115516.png](/gdevelop5/tutorials/topdown-shooter/pasted/20211206-115516.png)
-3.  Choose a folder for the project ![20211206-115926.png](/gdevelop5/tutorials/topdown-shooter/pasted/20211206-115926.png)
-4.  Click on **Empty game** ![20211206-120015.png](/gdevelop5/tutorials/topdown-shooter/pasted/20211206-120015.png)
+1. Launch GDevelop
+2. Click on **Create a new project** ![20211206-115516.png](/gdevelop5/tutorials/topdown-shooter/pasted/20211206-115516.png)
+3. Choose a folder for the project ![20211206-115926.png](/gdevelop5/tutorials/topdown-shooter/pasted/20211206-115926.png)
+4. Click on **Empty game** ![20211206-120015.png](/gdevelop5/tutorials/topdown-shooter/pasted/20211206-120015.png)
 
 ### Step 3. Add a new scene
 
@@ -46,9 +46,9 @@ A scene is what's shown on the screen. It has got all the UIs, buttons, objects,
 
 To add a new scene:
 
-1.  Click on the Project Manager button at the top-left to expand the Project Manager.
-2.  Select **Click to add a scene** to create a new scene
-3.  Click on the scene to open it
+1. Click on the Project Manager button at the top-left to expand the Project Manager.
+2. Select **Click to add a scene** to create a new scene
+3. Click on the scene to open it
 
     ![](/gdevelop5/tutorials/animation4.gif) \<note important\>GDevelop runs the scene from the top at the beginning of the game. So, if you want to show the menu at the beginning of the game, keep the menu at the top of the scene list.
 
@@ -62,21 +62,21 @@ GDevelop has an Asset Store that you can access while creating a new Object. You
 
 To add an Object from the Asset Store:
 
-1.  Click on Add a new object in the Object Editor
-2.  Choose Search Asset Store
-3.  In the Search Bar, search for Green Character 3
-4.  Click on GreenCharacter(3)
-5.  Click on Add to the game
+1. Click on Add a new object in the Object Editor
+2. Choose Search Asset Store
+3. In the Search Bar, search for Green Character 3
+4. Click on GreenCharacter(3)
+5. Click on Add to the game
 
 ### Step 5. Add a behavior
 
 Behavior is like a script of an object. An object acts according to the behavior attached to it. To add a behavior to **Player**:
 
-1.  Double click on **Player**
-2.  In Object Editor, go to the **Behaviors** tab
-3.  Click on **Add a new behavior**
-4.  Select **Top-Down Movement**
-5.  Click on **OK**
+1. Double click on **Player**
+2. In Object Editor, go to the **Behaviors** tab
+3. Click on **Add a new behavior**
+4. Select **Top-Down Movement**
+5. Click on **OK**
 
 ![](/gdevelop5/tutorials/menu.png)
 

@@ -5,9 +5,9 @@ title: Timers and time
 
 Time management is important in a game. GDevelop provides a few different tools:
 
-* Timers can be run using actions inside events. You can then use conditions to check if enough time elapsed before running other actions or resetting the timer. Timers can be attached to scenes or to objects.
-* Special actions like "Wait X seconds" can be used to wait before launching the next actions in an event. This is useful for creating cut-scenes, timelines or just effects happening not immediately.
-* Finally, there are expressions to get the current time, day and time since the start of the game.
+  * Timers can be run using actions inside events. You can then use conditions to check if enough time elapsed before running other actions or resetting the timer. Timers can be attached to scenes or to objects.
+  * Special actions like "Wait X seconds" can be used to wait before launching the next actions in an event. This is useful for creating cut-scenes, timelines or just effects happening not immediately.
+  * Finally, there are expressions to get the current time, day and time since the start of the game.
 
 ## The "Wait X seconds" action
 
@@ -41,7 +41,6 @@ You can use the action to reset the timer to make something repeat on a regular 
 
 ![](/gdevelop5/all-features/timers/pasted/20220122-162310.png)
 
-
 ### A more advanced example of a scene timer
 
 Here is a more advanced Timer example. The timer is used to briefly protect the player from damage.  The amount of time given to protect the player depends on the value of the variable "`player_undestroyable_time`":
@@ -58,7 +57,6 @@ Here is a more advanced Timer example. The timer is used to briefly protect the 
 In addition to scene timers, you can use timers on the instances of objects. Each instance living on the scene hold its own timers in memory. These timers are working independently.
 
 This is useful for having each instance (for example, each spaceship, each enemy, each player...) handle their own timings. For example, this can be the time of invulnerability after a player or an enemy is hit.
-
 
 Object timers are set up in the same way as scene timers. You have to initialize an object instance timer with the action to start (or reset) a timer.
 

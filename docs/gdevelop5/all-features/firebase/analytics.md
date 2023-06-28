@@ -11,10 +11,10 @@ To get started with the Firebase analytics, use the action **Activate analytics*
 
 To send custom data, such as a player finishing a level, a "log event" can be used. Here is an example:
 
-- When the players exits the level, before switching scenes:
-    - Create a new event or update an existing event with the **log event action**
-    - Ensure that "level1_finished" is listed as the event name.
-- The users who have beaten level 1 will now show on the dashboard.
+  - When the players exits the level, before switching scenes:
+      - Create a new event or update an existing event with the **log event action**
+      - Ensure that "level1_finished" is listed as the event name.
+  - The users who have beaten level 1 will now show on the dashboard.
 
 !!! tip
 

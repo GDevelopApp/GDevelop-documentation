@@ -6,9 +6,11 @@ title: Window and game area
 The window of the game is the area in which the game is displayed. It DOES NOT refer to the system window that includes the toolbar, title bar on the top and a frame on the other three sides.
 
 ## Fullscreen
+
 The "De/activate fullscreen" action allows you to toggle the game between fullscreen on/off. When the window is in fullscreen, it will take up as much area as possible. You can control the action using the "YES" and "NO" actions.
 
 ## Window margins
+
 The margin of the window is the distance between the side of the window and the game window displayed. Shown below is the preview of a game with 100 px margins on all 4 sides.
 
 ![](/gdevelop5/all-features/annotation_2019-06-29_174027.png)

@@ -17,7 +17,7 @@ The behavior is composed of three big concepts: the world that hold the bodies (
 
 ![](pasted/20230304-145455.png)
 
-##World
+## World
 
 The world is the place where simulations run, bodies and joints are attached to a world to interact with other entities. This corresponds to the scene in GDevelop.
 Like GDevelop scenes size, the world size is infinite, so you don't have to care where your objects are. They will always follow the laws of physics once they have the physics behavior added and enabled.
@@ -38,7 +38,7 @@ Bodies are the life of the Physics extension; they define how your object will m
 
 When you add the Physics behavior to an object, you can set the body configuration right from the IDE.
 There are many options to play with. They have been categorized below.
-.
+
 ### Body Type
 
 GDevelop supports three basic body types:
@@ -98,7 +98,6 @@ Layers and masks are the way to filter collisions between objects.
 
         Physics collision layers are not related to layers that are used to place objects in a scene.
 
-
 This system allows you to build up complex interactions between a variety of objects. For example: imagine you're building a zombie game, and you want your player to collide with the ground, and want the zombies to collide with the player and with the ground as well, but you don't want zombies to collide with other zombies. In this case, you use collision filters layers and mask.
 
 There is just a single rule to remember: *two objects A and B can collide if any layer of A matches any mask of B, **and** any layer of B matches any mask of A*.
@@ -132,12 +131,12 @@ After setting up your objects, it's time to start the simulation: gravity will b
 
     Remember that GDevelop force related actions are not suited for the Physics behavior. To move an object using the Physics behavior, use the actions specific to the Physics behavior.
 
-* **Forces**: Forces change an object's movement and are meant to be used for some time to generate an appreciable effect. The velocity the object gains, when you apply on it a force depends on the force's magnitude and the object mass. A heavy object will move slower than a lighter one if the same force is applied on both the masses.
-* **Torques**: Analogous of forces but for rotation. A torque will generate an angular acceleration on the object, making it rotate faster or slower along the time.
-* **Impulses**: Like forces, but not depending on the time step, instead, adding an "amount" of velocity instantly. They're meant to be used a single time. An usage can be to simulate jumps: each time the jump button is pressed, add an impulse upwards.
-* **Angular Impulses**: Analogous of impulses but for rotation. Change the rotation speed of an object instantly.
-* **Velocity**: You can modify the velocity of an object directly. For example, you can make your character walk with constant speed and then change the velocity while a movement button is pressed.
-* **Angular Velocity**: You can set the angular velocity (rotation speed) directly too.
+  * **Forces**: Forces change an object's movement and are meant to be used for some time to generate an appreciable effect. The velocity the object gains, when you apply on it a force depends on the force's magnitude and the object mass. A heavy object will move slower than a lighter one if the same force is applied on both the masses.
+  * **Torques**: Analogous of forces but for rotation. A torque will generate an angular acceleration on the object, making it rotate faster or slower along the time.
+  * **Impulses**: Like forces, but not depending on the time step, instead, adding an "amount" of velocity instantly. They're meant to be used a single time. An usage can be to simulate jumps: each time the jump button is pressed, add an impulse upwards.
+  * **Angular Impulses**: Analogous of impulses but for rotation. Change the rotation speed of an object instantly.
+  * **Velocity**: You can modify the velocity of an object directly. For example, you can make your character walk with constant speed and then change the velocity while a movement button is pressed.
+  * **Angular Velocity**: You can set the angular velocity (rotation speed) directly too.
 
 !!! warning
 
@@ -165,10 +164,10 @@ Usually, you will need two objects to define a joint (in the previous example, t
 
 Here is a list of  properties, conditions, and actions common for all types of joints:
 
-* **Joint first/second object**: Conditions that let you pick objects if they are the first or second object the joint is attached to.
-* **Joint first/second anchor X/Y**: Expressions to get the position of the first or second object anchor point the joint is attached at.
-* **Joint reaction force/torque**: Conditions and expressions to check the joint reaction force or torque; this value is a measure of how far away is the joint from its equilibrium state. If the joint reaction force is too high, it means the joint has been separated from the equilibrium position through a considerable force. Useful to make breakable joints.
-* **Remove joint**: Action to remove the specified joint. If the joint is one of the gear joint children, the gear will be also removed. If any of the objects the joint is attached to is deleted, the joint will be deleted.
+  * **Joint first/second object**: Conditions that let you pick objects if they are the first or second object the joint is attached to.
+  * **Joint first/second anchor X/Y**: Expressions to get the position of the first or second object anchor point the joint is attached at.
+  * **Joint reaction force/torque**: Conditions and expressions to check the joint reaction force or torque; this value is a measure of how far away is the joint from its equilibrium state. If the joint reaction force is too high, it means the joint has been separated from the equilibrium position through a considerable force. Useful to make breakable joints.
+  * **Remove joint**: Action to remove the specified joint. If the joint is one of the gear joint children, the gear will be also removed. If any of the objects the joint is attached to is deleted, the joint will be deleted.
 
 There are many kinds of joints, each one with unique behaviors and properties; they are listed below.
 
@@ -323,8 +322,8 @@ A very specified joint, when you need wheels, you'll want this joint, and it's h
 
 You can think of the wheel joint as a revolute plus a prismatic joint:
 
-* The revolute joint is used to make the second object (the wheel) rotate, and, as the classic revolute joint, it supports a motor to simulate the vehicle motor, causing the wheel to rotate.
-* The prismatic joint function is to simulate the vehicle wheel suspension, and, as the classic prismatic joint, you can set the axis angle to define the wheel translation direction. Generally, the axis direction is vertical, but, for example, motorbikes have a front-wheel suspension direction different (and in some cases very far) from vertical.
+  * The revolute joint is used to make the second object (the wheel) rotate, and, as the classic revolute joint, it supports a motor to simulate the vehicle motor, causing the wheel to rotate.
+  * The prismatic joint function is to simulate the vehicle wheel suspension, and, as the classic prismatic joint, you can set the axis angle to define the wheel translation direction. Generally, the axis direction is vertical, but, for example, motorbikes have a front-wheel suspension direction different (and in some cases very far) from vertical.
 
 !!! warning
 

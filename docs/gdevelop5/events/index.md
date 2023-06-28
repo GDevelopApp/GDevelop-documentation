@@ -32,6 +32,7 @@ Events can have multiple conditions and multiple actions. For example, an event 
     You can use events to create custom conditions, actions, and [expressions](/gdevelop5/all-features/expressions). For more information, refer to [Functions](/gdevelop5/events/functions).
 
 ## Event Execution Logic
+
 ### Execution order
 
 **Events** run in the order they are listed from top to bottom. The order of events can have a significant effect on what happens when an event is executed.
@@ -77,6 +78,7 @@ This action also increments a variable in every frame, but the value of the vari
 ## Creating an event
 
 ### Adding an event to the event sheet
+
 1. Open the **Event Sheet**.
 2. Select the **Choose and add an event** icon.
 3. Select the type of event.
@@ -105,8 +107,8 @@ This action also increments a variable in every frame, but the value of the vari
 
 Some types of events can have sub-events. Sub-events are events that exist within other events. These types of events only run when:
 
-- The conditions of the parent event are true.
-- The actions of the parent event have been processed.
+  - The conditions of the parent event are true.
+  - The actions of the parent event have been processed.
 
 To add a sub-event to an event:
 
@@ -124,15 +126,14 @@ Sub-events appear nested within their parent events.
 
 This section lists the different types of events, each of which is useful for adding different types of logic to a game. If you're not familiar with the concept of events, refer to the previous sections.
 
-- [Standard events](/gdevelop5/events/standard)
-- [For each object events](/gdevelop5/events/foreach)
-- [For each child variable events](/gdevelop5/events/foreach-child-variable)
-- [Repeat events](/gdevelop5/events/repeat)
-- [While events](/gdevelop5/events/while)
-- [Group events](/gdevelop5/events/group)
-- [Link events](/gdevelop5/events/link)
-- [JavaScript events](/gdevelop5/events/js-code)
-
+  - [Standard events](/gdevelop5/events/standard)
+  - [For each object events](/gdevelop5/events/foreach)
+  - [For each child variable events](/gdevelop5/events/foreach-child-variable)
+  - [Repeat events](/gdevelop5/events/repeat)
+  - [While events](/gdevelop5/events/while)
+  - [Group events](/gdevelop5/events/group)
+  - [Link events](/gdevelop5/events/link)
+  - [JavaScript events](/gdevelop5/events/js-code)
 
 Refer to the linked pages to learn more about each type of event.
 

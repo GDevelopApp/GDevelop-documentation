@@ -8,7 +8,6 @@ Assets have to be submitted into category and sub-category folders. Images, audi
 
 GDevelop creators can add assets to the project without having to worry about editing. This means that submitted art, has to follow a number of technical constraints:
 
-
 ## For images (animated sprites, tiled sprites or GUI):
 
 In a nutshell: these are the basic rules to submit video game asset images. Make sure that your files respect the following guidelines:
@@ -22,7 +21,6 @@ In a nutshell: these are the basic rules to submit video game asset images. Make
         Sprite sheets **are not supported**! Each animation frame must **be a separate image**.
     GDevelop does not support image the origin point for different animations yet.
 
-
 GDevelop's most common sizes for animation assets are:
 
   * Mobile: 720x1280
@@ -32,10 +30,11 @@ GDevelop's most common sizes for animation assets are:
 If you're looking for "an easy way" to prepare your assets for the Asset Store, [Entropy](https://gd.games/Entropy) has created a solution to upload, name, and [license](https://wiki.gdevelop.io/gdevelop5/community/sell-asset-pack-store/) your Assets. Go to [this GitHub page](https://github.com/Entr0py404/GDev-Asset-Store-Tool/releases/tag/v1.4) to download the Windows app, and [watch his Twitch](https://www.twitch.tv/videos/1641376379?t=00h02m50s) to see how to use the tool.
 
 ### Naming assets
+
 For unanimated sprites, a single image with the name of the object is enough. On the contrary, animated sprites require multiple animated frames, which have to be named properly.
 While writing your file names, it is important that you follow a specific naming structure:
 
-```
+```text
 BaseName_AnimationState_frame#.png
 ```
 
@@ -43,42 +42,40 @@ For a character called "Red Hero", with 4 frames of a Running animation
 
 ![](/gdevelop5/community/anim1.png)
 
-```
+```text
 RedHero_Run_1.png
 RedHero_Run_2.png
 RedHero_Run_3.png
 RedHero_Run_4.png
 ```
 
-
 If the same character is caring a prop, the naming should appear on the Animation State. Not on the Character name.
 
 ![](/gdevelop5/community/anim2.png)
-```
+
+```text
 RedHero_RunJewel_1.png
 RedHero_RunJewel_2.png
 RedHero_RunJewel_3.png
 RedHero_RunJewel_4.png
 ```
 
-
-
 !!! note
 
         **A note on animation states:**
     If the **animated** object only has one animation state, there is no need to specify if the animation is "Walk, Idle, Climb, Death..." on the name. An animation index will do: `Jewel_1.png`, `Jewel_2.png`, `Jewel_3.png`.
 
+  - If you want to create a **[Tiled sprite](/gdevelop5/objects/tiled_sprite)** (for backgrounds or repeating patterns):
+      - Prefix the *base name* by `tiled_`. For example: `tiled_Grass Background.png`
 
-- If you want to create a **[Tiled sprite](/gdevelop5/objects/tiled_sprite)** (for backgrounds or repeating patterns):
-    - Prefix the *base name* by `tiled_`. For example: `tiled_Grass Background.png`
-
-- If you want to add a **[9-Patch (Panel Sprite)](/gdevelop5/objects/panel_sprite)** object that can be stretched with the center and the border repeated:
-    - In an image software slice your image in 9 different images, and name them: `9patch_BaseName_gravity.png` with gravity being: `southwest`, `southeast`, `south`, `northwest`, `northeast`, `north`, `west` and `east`.
+  - If you want to add a **[9-Patch (Panel Sprite)](/gdevelop5/objects/panel_sprite)** object that can be stretched with the center and the border repeated:
+      - In an image software slice your image in 9 different images, and name them: `9patch_BaseName_gravity.png` with gravity being: `southwest`, `southeast`, `south`, `northwest`, `northeast`, `north`, `west` and `east`.
 
 All these files will be used by our server to generate a unique texture used in the 9-Patch object.
 
 For example:
-```
+
+```text
 9patch_Grass_center.png
 9patch_Grass_east.png
 9patch_Grass_north.png
@@ -94,11 +91,11 @@ For example:
 
 To specify FPS and looping for an animation, you'll need to add a METADATA file to your folder by creating a .json file (a text file) and pasting this structure:
 
-```
-    {
-        "timeBetweenFrames": 0.2,
-        "loop": false
-    }
+```json
+{
+  "timeBetweenFrames": 0.2,
+  "loop": false
+}
 ```
 
 If you are not sure about the number that "time between frames" will represent,[this article](http://www.stopmotionworks.com/stopwatch.htm) explains it:
@@ -108,11 +105,11 @@ If you are not sure about the number that "time between frames" will represent,[
 
     Save the .json file as the **METADATA** of your object with the following structure: `BaseName_METADATA.json`
 
-- If you have **multiple animation status** and **each must have a different speed**, create a .json file **per animation state**, using this name: `BaseName_AnimationState_METADATA.json`.
+  - If you have **multiple animation status** and **each must have a different speed**, create a .json file **per animation state**, using this name: `BaseName_AnimationState_METADATA.json`.
 
 For example:
 
-```
+```text
 Spaceship_Idle_METADATA.json
 Spaceship_Flying_METADATA.json
 Spaceship_Destroyed_METADATA.json
@@ -122,7 +119,6 @@ Spaceship_Destroyed_METADATA.json
 Your file should look something like this:
 
 ![](https://user-images.githubusercontent.com/1280130/103412855-78836300-4b77-11eb-99ec-ac8287372ece.png)
-
 
 ## Adding tags to your assets
 
@@ -134,10 +130,9 @@ Start the file by one of these tags (depending on the type of pack): `top-down`,
 
 For example:
 
-```
+```text
 side view, pirate, ship, sea
 ```
-
 
 !!! tip
 
@@ -166,12 +161,11 @@ Put your .aac or .wav files (prefer .aac) directly in a folder, with the name to
 
 A great tool to convert audio files to AAC format is [fre:ac](https://www.freac.org/).  fre:ac is free, open-source, and cross-platform.  It can process batches of files, with many options on how they are named and put into folders.
 
-- Choose the encoder called "Fraunhofer FDK AAC Encoder".
-- Select "File format > AAC"
-- Select "Quality > Set Quality > 3"
+  - Choose the encoder called "Fraunhofer FDK AAC Encoder".
+  - Select "File format > AAC"
+  - Select "Quality > Set Quality > 3"
 
 This will create high-quality audio files, but using a variable bit rate that won't exceed 96 kbps (assuming stereo input).
-
 
 ![Screenshot 2021-03-11 112608](https://user-images.githubusercontent.com/8879811/110835883-9bf41980-825c-11eb-93c8-ef795b0379a2.jpg)
 
@@ -197,7 +191,7 @@ Like images and audio, put your fonts in folders. `.ttf` and `.otf` files are su
 
 Create a file with extension `.asset.json`, for example: `My Particle Effect.asset.json`. The format of this asset is:
 
-```
+```json
 {
   "id": "",
   "name": "",
@@ -235,8 +229,8 @@ Put all images with the name that you put in the `resources` array next to your 
 
 Finally, add:
 
-- a file with the same name but with the extension `.preview.png` that will be shown in the assets store
-- an empty filed called `IGNORED_FOR_IMAGE_ASSETS.md` so that the importer will ignore the images and won't try to create objects automatically :)
+  - a file with the same name but with the extension `.preview.png` that will be shown in the assets store
+  - an empty filed called `IGNORED_FOR_IMAGE_ASSETS.md` so that the importer will ignore the images and won't try to create objects automatically :)
 
 For example:
 

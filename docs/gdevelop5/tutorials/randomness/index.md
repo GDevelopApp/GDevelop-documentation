@@ -8,10 +8,9 @@ title: Randomness
 
 Random numbers can be generated using the [expressions](/gdevelop5/all-features/expressions/): `Random`, `RandomFloat`, `RandomFloatInRange`, `RandomInRange` and `RandomWithStep`.
 
-
 ## Create a random object
 
-Random objects can be created according to a random number. 
+Random objects can be created according to a random number.
 
 <!---
 TODO screenshot of events and small example link.
@@ -23,16 +22,16 @@ TODO screenshot of events and small example link.
 
 Rolling one die is the same as picking a random number between 1 an 6 using the expression `RandomInRange(1, 6)`. But, rolling 2 dice is not the same as picking a number between 2 and 12. Indeed, there is only one way to make a 2 with:
 
-- 1 and 1
+  - 1 and 1
 
 whereas there are 6 ways to make a 7:
 
-- 1 and 6
-- 2 and 5
-- 3 and 4
-- 4 and 3
-- 5 and 2
-- 6 and 1
+  - 1 and 6
+  - 2 and 5
+  - 3 and 4
+  - 4 and 3
+  - 5 and 2
+  - 6 and 1
 
 Rolling 2 dice is actually the same as picking 2 numbers between 1 and 6 and adding them together using this expression `RandomInRange(1, 6) + RandomInRange(1, 6)`.
 
@@ -44,7 +43,6 @@ Add a side by side comparison between `RandomInRange(1, 6) + RandomInRange(1, 6)
 !!! tip
 
     Using a roll of several dice to pick a random number can be a good tool for [fairness](#make-randomness-feel-fair) as it's more likely to give a value closer to the middle.
-
 
 ## Pick cards from a deck
 
@@ -70,11 +68,9 @@ TODO Add a screenshot of the instruction editor showing the shuffle action.
 
 [![](card-system-example.png){ width="300" }](https://editor.gdevelop.io/?project=example://card-system)
 
-
 ## Make randomness feel fair
 
 Randomness is actually more than just picking random numbers. Finding a suitable level of randomness for a game is part of game design.
-
 
 ### Chose better random sequences
 
@@ -91,7 +87,6 @@ Add a side by side comparison and a link to the example.
 
     Learn [how to shuffle a deck](#pick-cards-from-a-deck).
 
-
 ### Make something more or less rare
 
 One way to make something rarer than another is to choose a probability for each thing to happen. For instance, 10% chance for a rare item, a 25% chance for an uncommon item and 65% for a common item.
@@ -105,5 +100,3 @@ Bell-shaped functions are often used to show how many people have a given charac
     Learn [how to roll dice](#roll-dice).
 
 [![](dice-probabilities-dark.svg#only-dark)![](dice-probabilities-light.svg#only-light)](https://en.wikipedia.org/wiki/File%3ADice_sum_central_limit_theorem.svg)
-
-

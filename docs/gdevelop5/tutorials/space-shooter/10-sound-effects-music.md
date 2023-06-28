@@ -31,7 +31,7 @@ Firstly, we will add soundtrack music to our game. This music will be played at 
 
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-at-the-beginning-of-scene.png)
 
-## Playing sounds
+## Playing sounds
 
 Create a new action in the previous event. Type **play** on the search bar,  and select **Play sound**. Add an audio file called **"soundtrack.ogg"** from the assets folder. Set the volume **40**, and enter **1** as the pitch value.
 
@@ -61,7 +61,6 @@ Finally, we will add a sound effect that will be played when the player collects
 
 That is all. You can test your sound effects by running the game.
 
-##Next step
+## Next step
 
 [Space Shooter, Part 11](/gdevelop5/tutorials/space-shooter/11-visual-effects)
-

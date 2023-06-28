@@ -11,24 +11,23 @@ It's especially useful for scores, titles, button labels, pixel-art games...
 
         As all characters are designed in an external editor, and a texture is generated with these characters, a Bitmap Text is more performant to render but also way less flexible, in particular if you want to display a text entered by a user in any language. If that's the case, take a look at the [Text object](/gdevelop5/objects/text) or at the [BBtext object](/gdevelop5/objects/bbtext).
 
-
 ![](pasted/20210510-003631.png)
 
 ## Creating "Bitmap Font" files
 
 A font is represented by two files:
 
-- **Bitmap Atlas image** : This file is the image which contains all characters that can be drawn. File format must be PNG.
-- **Bitmap Font** : This file contains the data related to characters that can be draw, the engine use these data for knowing which characters render on screen. File format must be FNT or XML.
+  - **Bitmap Atlas image** : This file is the image which contains all characters that can be drawn. File format must be PNG.
+  - **Bitmap Font** : This file contains the data related to characters that can be draw, the engine use these data for knowing which characters render on screen. File format must be FNT or XML.
 
 These two files can be created with an external editor to generate bitmap fonts, for example:
 
-* **[snowb](https://snowb.org/)** (Web) Export with  **.fnt (BMFont TEXT)**
+  * **[snowb](https://snowb.org/)** (Web) Export with  **.fnt (BMFont TEXT)**
 
-* **[bmFont](https://www.angelcode.com/products/bmfont/)** (Windows)
-* **[bmGlyph](https://www.bmglyph.com/)** (macOS)
+  * **[bmFont](https://www.angelcode.com/products/bmfont/)** (Windows)
+  * **[bmGlyph](https://www.bmglyph.com/)** (macOS)
 
-* **[Hiero](https://github.com/libgdx/libgdx/wiki/Hiero)** (Windows/Linux/OS X)
+  * **[Hiero](https://github.com/libgdx/libgdx/wiki/Hiero)** (Windows/Linux/OS X)
 
 ## Font size and scale
 

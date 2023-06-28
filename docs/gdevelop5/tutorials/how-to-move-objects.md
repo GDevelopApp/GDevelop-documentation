@@ -5,17 +5,17 @@ title: How to move objects in your game
 
 Moving objects on screen is an essential part of any game. This can includes:
 
-* Moving a character on screen: player, non-player characters (NPC), vehicles, spaceships...
-* Animate items: bullets, lasers, obstacles, backgrounds...
-* Animate the interface: buttons, cursors, remaining lives...
+  * Moving a character on screen: player, non-player characters (NPC), vehicles, spaceships...
+  * Animate items: bullets, lasers, obstacles, backgrounds...
+  * Animate the interface: buttons, cursors, remaining lives...
 
 Every situation is different: this page explains the different solutions when using GDevelop.
 
 There are three different ways of changing an object position in GDevelop:
 
-* By using the actions to change the X and Y coordinates,
-* By adding a force on an object (this work on all objects),
-* By using a behavior (which internally will either change the coordinates or use forces!).
+  * By using the actions to change the X and Y coordinates,
+  * By adding a force on an object (this work on all objects),
+  * By using a behavior (which internally will either change the coordinates or use forces!).
 
 ## No movement: change an object position
 
@@ -35,9 +35,7 @@ Here is an example to set the position of the Player object in a platform game:
 
 !!! tip
 
-
     The [sticker extension](/gdevelop5/extensions/sticker/reference) allows to follow the position,  angle and dimension of another object.
-
 
 ## Make a cursor: change the position and use "MouseX()";"MouseY()"
 
@@ -59,11 +57,11 @@ The easiest way to move an object, continuously or when something happens like t
 
 Forces have been introduced in [basic game making concepts](/gdevelop5/tutorials/basic-game-making-concepts) page. You can imagine forces as virtual arrows (also called "vectors") that are pushing an object. The longer the arrow, the fastest the object will move. Forces can be either *instant* or *permanent*:
 
-* An **instant** force moves an object "a bit" (the force will only act on the object while the action is being executed):
+  * An **instant** force moves an object "a bit" (the force will only act on the object while the action is being executed):
 
   ![](/gdevelop5/tutorials/instant-force-example.png)
 
-* a **permanent** force will move an object forever, unless an action to stop the object is used. This action will clear the forces acting on the object (effectively stopping it - unless some behavior is used or its position is changed by other events). For example, this couple of events will animate a platform between two markers:
+  * a **permanent** force will move an object forever, unless an action to stop the object is used. This action will clear the forces acting on the object (effectively stopping it - unless some behavior is used or its position is changed by other events). For example, this couple of events will animate a platform between two markers:
 
 ![](/gdevelop5/tutorials/animate-platform-permanent-forces.png)
 
@@ -81,8 +79,8 @@ Permanent forces are akin to launching a music: you only want to start a music o
 
 If your object is a character in a platformer game, the [platformer behavior](/gdevelop5/behaviors/platformer) will allow to use a ready-made platformer engine in your game.
 
-* Add **Platformer Character** behavior to the player or objects that must move on platforms,
-* Add **Platform** behavior to the objects that must act as platforms.
+  * Add **Platformer Character** behavior to the player or objects that must move on platforms,
+  * Add **Platform** behavior to the objects that must act as platforms.
 
 You can edit the properties of the behaviors and use events to customize the way platformer characters work.
 
@@ -125,4 +123,5 @@ With the [Anchor behavior](/gdevelop5/behaviors/anchor), you can set your object
 This is very useful for **visual controls** for mobile games and for **user interface**/control panels to show on the screen.
 
 ## Find other movement extensions
+
 There are many more behaviors that move objects listed in the [extensions](/gdevelop5/extensions#movement) page.

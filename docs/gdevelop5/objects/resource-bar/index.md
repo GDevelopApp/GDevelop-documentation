@@ -17,16 +17,16 @@ The [Resource Bars asset pack](https://gdevelop.io/asset-store/free/resource-bar
 
 A resource bar can also be created from scratch. There are 2 kinds of resource bars:
 
-- one with icons that are repeated
-- one that fills with a texture
+  - one with icons that are repeated
+  - one that fills with a texture
 
 ## Create a bar with icons
 
 Bars with icons need 3 images:
 
-- a filled icon
-- an empty icon
-- a background (optional)
+  - a filled icon
+  - an empty icon
+  - a background (optional)
 
 This is an example with a background:
 
@@ -46,9 +46,9 @@ Make sure to fill the "Unit width" with the dimension of the icon plus the margi
 
 Bars with icons need 3 images for:
 
-- a filled bar
-- a buffer bar (optional)
-- a background
+  - a filled bar
+  - a buffer bar (optional)
+  - a background
 
 The buffer keeps the old value until no damage happens. This is useful to catch the attention of players and let them know they are losing a lot of heath. It's common on versus fighting games.
 

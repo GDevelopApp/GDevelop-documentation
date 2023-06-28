@@ -8,7 +8,6 @@ title: Draggable Object Behavior
         **See it in action!** 🎮
     [I would rather see the Draggable object behavior examples! Please take me there now.](/#Examples)
 
-
 The draggable object [behavior](/gdevelop5/behaviors) will make the [object](/gdevelop5/objects) draggable with the mouse or by touching it on a touchscreen.
 
 ## Add the Draggable behavior to an object
@@ -30,7 +29,6 @@ Using events, you can also check if an object is being dragged:
 
 ![](eventcondtiondraggableobject.png)
 
-
 # Examples
 
 !!! tip
@@ -44,23 +42,17 @@ Using events, you can also check if an object is being dragged:
 
 [![](snaptogrid.png)](https://editor.gdevelop.io/?project=example://snap-object-to-grid)
 
-
-
 **Shoot Bullet in Parabola Pattern** (A parabola is a plane curve which is mirror-symmetrical and is approximately U-shaped. Basically, an object that shoots toward an object in a curved trajectory.)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://shoot-bullet-in-parabola){ .md-button .md-button--primary }
 
 [![](shootbulletparabolapattern.png)](https://editor.gdevelop.io/?project=example://shoot-bullet-in-parabola)
 
-
-
 **Save and Load**
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://save-load){ .md-button .md-button--primary }
 
 [![](/gdevelop5/behaviors/saveandloadexample.png)](https://editor.gdevelop.io/?project=example://save-load)
-
-
 
 **Path Finding Basics**
 

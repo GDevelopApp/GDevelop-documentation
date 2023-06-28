@@ -5,13 +5,13 @@ title: Handle mouse and touch events
 
 Some [objects](/gdevelop5/objects) and [behaviors](/gdevelop5/behaviors) make mouse and multitouch easier to handle for specific cases:
 
-- [Button](/gdevelop5/objects/button)
-- [Multi-touch joystick](/gdevelop5/objects/multitouch-joystick)
-- [Slider](/gdevelop5/objects/slider)
-- [Toggle switch](/gdevelop5/objects/toggle-switch)
-- [Draggable behavior](/gdevelop5/behaviors/draggable)
-- [Swipe gesture](/gdevelop5/extensions/swipe-gesture/reference)
-- [Pinch gesture](/gdevelop5/extensions/pinch-gesture/reference)
+  - [Button](/gdevelop5/objects/button)
+  - [Multi-touch joystick](/gdevelop5/objects/multitouch-joystick)
+  - [Slider](/gdevelop5/objects/slider)
+  - [Toggle switch](/gdevelop5/objects/toggle-switch)
+  - [Draggable behavior](/gdevelop5/behaviors/draggable)
+  - [Swipe gesture](/gdevelop5/extensions/swipe-gesture/reference)
+  - [Pinch gesture](/gdevelop5/extensions/pinch-gesture/reference)
 
 For more specific cases, mouse and touches events can be accessed directly.
 
@@ -32,17 +32,18 @@ The expressions `CursorX` and `CursorY` give the cursor position in the scene. F
         **See it in action!** 🎮
 
     [Open this example online](https://editor.gdevelop.io?project=example://balloon-smasher)
+
 ## Handle manually multi-touch gestures (advanced)
 
 When only one touch is done at the same times, the mouse events can be used to keep things simple. Indeed, by default touch events are mirrored by mouse events. This can be disabled with the action “De/activate moving the mouse cursor with touches” when handling both multi-touch and mouse events to avoid echo.
 
 Multiple touches can happen at the same time. The touch identifier must be used to tell them apart. It can be done by following these steps:
 
-* At the start of a touch, the touch identifier can be get with the `StartedTouchId(Number)` expression.
+  * At the start of a touch, the touch identifier can be get with the `StartedTouchId(Number)` expression.
 
 ![](/gdevelop5/all-features/touchstart.png)
 
-* When the touch moves, the touch identifier is needed to make sure to follow the right touch. A variable can be used to ensure this.
+  * When the touch moves, the touch identifier is needed to make sure to follow the right touch. A variable can be used to ensure this.
 
 ![](/gdevelop5/all-features/touchmoveandend.png)
 

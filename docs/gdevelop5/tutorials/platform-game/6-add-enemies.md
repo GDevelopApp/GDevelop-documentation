@@ -143,10 +143,8 @@ The events of this tutorial so far should look like this:
 
 Now if you run a preview, the left and right object with the arrow should be hidden, the slime should move left and right constantly. We are able to kill the slime by jumping on the top of it and the slime should be able to kill the player when it collides with it while the player is on the floor.
 
-
 ## Next step: add checkpoints
 
 For now, the "death" of the player is a bit brutal: we just delete it. Let's make him reappear instead to the last checkpoint he crossed. Checkpoints are essential in a platformer game if you don't want to force your player to start again from the beginning when he dies (which can be interesting, but also frustrating!).
 
 ➡️ Read **[7 checkpoints](/gdevelop5/tutorials/platform-game/7-checkpoints)**!
-

@@ -15,7 +15,7 @@ To create a link event, either click the "Add" at the bottom right side of the e
 
 ![](/gdevelop5/events/link/pasted/20230313-201145.png)
 
-After adding a Link event, click on "<Enter the name of external events>" to have a drop-down menu display the scenes and external event sheets you can pick from for this link event. Linking the event sheet from another scene in your game to the current one can be useful when creating new levels, you can link the logic from the first level over to all of the future levels and not need to rewrite or copy over the events for every level.
+After adding a Link event, click on "\<Enter the name of external events\>" to have a drop-down menu display the scenes and external event sheets you can pick from for this link event. Linking the event sheet from another scene in your game to the current one can be useful when creating new levels, you can link the logic from the first level over to all of the future levels and not need to rewrite or copy over the events for every level.
 
 Linked events can also be moved around your event sheet, disabled, and changed to subevents.(As seen below)
 

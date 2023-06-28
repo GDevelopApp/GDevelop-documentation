@@ -30,14 +30,14 @@ The following steps will help prepare the grid objects, which will be used as pa
 
 We now need to set up the initial events to prepare terrain generation.
 
-1.  Access the event sheet.
-2.  Add a new event.
-3.  Click **Add condition**.
+1. Access the event sheet.
+2. Add a new event.
+3. Click **Add condition**.
 
     - Within the condition list, select **At the beginning of the scene**.
     - Click **OK**.
 
-4.  Within the same event, click **Add action**.
+4. Within the same event, click **Add action**.
 
     - Search for **Scene Variable**.
     - Select **Value of a scene variable**.
@@ -46,7 +46,7 @@ We now need to set up the initial events to prepare terrain generation.
     - Within the **Value** field, type **1**.
     - Click **OK**.
 
-5.  Repeat all of #4 above, but with a Variable name of **y**.
+5. Repeat all of #4 above, but with a Variable name of **y**.
 
 These variables will handle the placement of tiles on the x and y-axis.
 
@@ -54,15 +54,15 @@ These variables will handle the placement of tiles on the x and y-axis.
 
 Next a set of actions should be set up to allow testing tile generation.
 
-1.  At the bottom of the event sheet, click **Add a new event**.
-2.  Within the new event, click **Add condition**.
+1. At the bottom of the event sheet, click **Add a new event**.
+2. Within the new event, click **Add condition**.
 
     - Search for **released**.
     - Within the results, select **Mouse button released**.
     - In the **Button to test** field, select **Left (primary)**.
     - Click **OK**.
 
-3.  Within the action field, click **Add action**.
+3. Within the action field, click **Add action**.
 
     - Search for **create**.
     - Select **Create an object** from the list. \* Note: If using the new condition/action editor, the **tile** object may need to be selected from the list before the normal **Create an object** action is available
@@ -71,7 +71,7 @@ Next a set of actions should be set up to allow testing tile generation.
     - In the **Y position** field, type **32 \* Variable(y)**, this will automatically populate the value of the scene variable **Y**.
     - Click **OK**.
 
-4.  Within the action field, click **Add action**.
+4. Within the action field, click **Add action**.
 
     - Search for **Scene Variable**.
     - Select **Value of a scene variable**.
@@ -80,14 +80,14 @@ Next a set of actions should be set up to allow testing tile generation.
     - Within the **Value** field, type **1**.
     - Click **OK**
 
-5.  Preview the program. If the above steps are completed successfully, when the left mouse button is clicked a new tile should be created in a column.
+5. Preview the program. If the above steps are completed successfully, when the left mouse button is clicked a new tile should be created in a column.
     - However, the column keeps going on down off the screen. What would be ideal is if once the column got to a certain size it created a new column.
 
 ### Step 4: Create Events to Generate Tiles in a Rows and Columns
 
 Creating new columns
 
-1.  In the first event click **add action**.
+1. In the first event click **add action**.
 
     - Search for **Scene Variable**.
     - Select **Value of a scene variable**
@@ -95,23 +95,23 @@ Creating new columns
     - Change the **modification's sign** to **=**
     - Change the **Value** field to 4
 
-2.  Repeat all of step #1 above, but change the variable name to **sizeY**
+2. Repeat all of step #1 above, but change the variable name to **sizeY**
     - These variables will control the size of the grid on the x and y-axis. The event should look like this once complete: {{ :gdevelop5:tutorials:procedural-generation:step5.jpg?nolink |}}
-3.  Right-click on the create tile event.
+3. Right-click on the create tile event.
     - Then select **Add Sub Event**.
-4.  Within the sub event, click **Add condition**.
+4. Within the sub event, click **Add condition**.
     - Search for **Scene Variable**.
     - Within the results, select **Value of a scene variable**.
     - In the **Variable** field, select **y**.
     - In the **Sign of the test** field, select **> (greater then)**.
     - finally, in the **Value to compare** field, input **Variable(sizeY)**.
     - Click **OK**.
-5.  Within the action field, click **Add action**
+5. Within the action field, click **Add action**
     - Find **Scene Variable**.
     - For the **Variable** field, select y.
     - For the **Modification's sign** field, select **= (set to)**.
     - For the **Value** field, input 1.
-6.  Add another **Change the scene variable** action
+6. Add another **Change the scene variable** action
     - In the **Variable** field, select **x**.
     - In the **Modification's sign** field, select **+ (add)**.
     - In the **Value** field, enter **1**
@@ -122,19 +122,19 @@ Now the grid will increment in the x dimension.
 
 This next set section will add the last event to prevent the grid from going too far on the x-axis.
 
-1.  Right-click on the **scene variable y \> Variable(sizeY)** event and click **Add Sub Event**.
+1. Right-click on the **scene variable y \> Variable(sizeY)** event and click **Add Sub Event**.
     - Click **Copy** and then **Paste** the event.
     - Move the new event and make it a **Sub Event** of the original event.
-2.  Select the **condition**.
+2. Select the **condition**.
     - Change the **Variable** field to **x**.
     - Keep the **Sign of the test** field the same.
     - Change the **Value to compare** field to **Variable(sizeX)**.
-3.  Select the **Change the scene variable y** action.
+3. Select the **Change the scene variable y** action.
     - Change the **Value** field to **-1**.
-4.  Select the **Change the scene variable x** action.
+4. Select the **Change the scene variable x** action.
     - Change the **Modification's sign** field to **= (set to)**.
     - Change the **Value** field to **-1**.
-5.  Select the **Left mouse button was released** event.
+5. Select the **Left mouse button was released** event.
     - Select the **Create object** action
     - Change the **X position** field to 32 \* Variable(x)
 
@@ -142,23 +142,23 @@ This next set section will add the last event to prevent the grid from going too
 
 Placing tiles by hand is good for testing, but for a game tiles need to be placed quickly. To do this a [while event](/gdevelop5/events/while) is used.
 
-1.  Click the **Add** button at the bottom of the event sheet.
+1. Click the **Add** button at the bottom of the event sheet.
     - Select the **While** event.
-2.  Under **While these conditions are true**, click **add condition**.
+2. Under **While these conditions are true**, click **add condition**.
     - Find **Value of a scene variable**.
     - Within the **Variable** field, type **x**.
     - Within the **Sign of the test** field, select **\> (greater then)**.
     - Within the **Value to compare** field, type **0**.
-3.  Repeat all of the above step, but change the variable **y**.
-4.  Cut the actions from the **Left mouse button was released** event and paste it into the while event.
-5.  Drag **The scene variable y \> Variable(sizeY)** event and make it a sub event of the while event.
-6.  Lastly, delete the **Left mouse button was released** event.
+3. Repeat all of the above step, but change the variable **y**.
+4. Cut the actions from the **Left mouse button was released** event and paste it into the while event.
+5. Drag **The scene variable y \> Variable(sizeY)** event and make it a sub event of the while event.
+6. Lastly, delete the **Left mouse button was released** event.
 
 ### Step 6: Controlling Grid Placement
 
 This section covers changing the location of where the grid is created from.
 
-1.  Select the **while event**.
+1. Select the **while event**.
     - Select the **Create object tile at position** action.
     - Change the **X position** field to **origin.X() + 32 \* Variable(x)**.
     - Change the **Y position** field to **origin.Y() + 32 \* Variable(y)**.
@@ -172,12 +172,12 @@ Understanding how noise works is important, but not necessary to doing procedura
 
 ### Step 2: Setting the Noise Seed
 
-1.  Click **Add a new event**,
+1. Click **Add a new event**,
     - Drag the new event and place it above the while event.
-2.  Click **Add condition**.
+2. Click **Add condition**.
     - Search for **At the beginning of the scene**.
     - Once found select it.
-3.  Then click **Add action**.
+3. Then click **Add action**.
 
     - Search for the **Set the seed used for noise generation**.
     - Once found click it.
@@ -193,18 +193,18 @@ Understanding how noise works is important, but not necessary to doing procedura
 
 This section covers how to display the seed using the currentSeed() expression.
 
-1.  Go to the scene view and create a new text object.
+1. Go to the scene view and create a new text object.
 
     - In this example it will be called **seed** and will hold the current seed.
 
-2.  Be sure to place the object into the scene.
-3.  Move back to the event sheet.
-4.  At the bottom of the event sheet find **Add event** and click it.
+2. Be sure to place the object into the scene.
+3. Move back to the event sheet.
+4. At the bottom of the event sheet find **Add event** and click it.
     - Drag it above the while event and let go.
-5.  Click **Add condition**.
+5. Click **Add condition**.
     - Within the condition list, select **At the beginning of the scene**.
     - Click **OK**.
-6.  Then click **Add action**.
+6. Then click **Add action**.
 
     - Search for **Modify the text**.
     - For the **Modification's sign**, select **= (set to)**.
@@ -217,11 +217,11 @@ This section covers how to display the seed using the currentSeed() expression.
 
 In order to visually see the noise values, the opacity of the tile must be changed creating a grayscale version of the procedurally generated world.
 
-1.  Change variable **sizeX** and **sizeY** to both be set to 16.
+1. Change variable **sizeX** and **sizeY** to both be set to 16.
 
     - The grid created will now be 16 tiles by 16 tiles for a total of 256 tiles.
 
-2.  Click on **Add action** in the while event.
+2. Click on **Add action** in the while event.
 
     - Find the **Change sprite opacity** action.
     - Within the **Modification's sign** field, select **= (set to)**.
@@ -233,23 +233,23 @@ In order to visually see the noise values, the opacity of the tile must be chang
 
 Run the program. ![](/gdevelop5/tutorials/procedural-generation/step18.jpg)
 
-- Assume the lighter a square is the lower its is and the darker it is the higher it is.
-- Notice how each square does not smoothly transition to its neighboring tiles.
-- This is because random values are generated without consideration for the values generated before or the value that will be generated after.
-- This is why noise must be used instead of random.
+  - Assume the lighter a square is the lower its is and the darker it is the higher it is.
+  - Notice how each square does not smoothly transition to its neighboring tiles.
+  - This is because random values are generated without consideration for the values generated before or the value that will be generated after.
+  - This is why noise must be used instead of random.
 
 ### Step 6: Implementing Noise
 
 To get a smooth gradient of opacity **randomInRange()** must be swapped out with a noise function. For this example **noise::perlin2()**will be used.
 
-1.  Select the **Change the opacity** action.
+1. Select the **Change the opacity** action.
 
     - Change the **Value** field to **Noise::perlin2(Variable(x) / 10, Variable(y) / 10)**.
 
     - Noise functions take coordinates instead of min and max values like random.
     - Variables x and y must be divided by 10 for the function to work correctly.
 
-2.  Run the program, notice how no tiles are visible.
+2. Run the program, notice how no tiles are visible.
 
     - Change the value field to the following **ExtendedMath::Map(Noise::Perlin2(Variable(x) / 10, Variable(y) / 10), -1, 1, 0, 255)**.
 
@@ -259,9 +259,9 @@ To get a smooth gradient of opacity **randomInRange()** must be swapped out with
 
 ### Step 8: Creating Different Worlds
 
-1.  Select the **set noise seed action**.
+1. Select the **set noise seed action**.
     - Change the **value** field, to a **randomInRange(1, 65536)**.
-2.  Run the program a few times to see some examples of procedural generation.
+2. Run the program a few times to see some examples of procedural generation.
 
 ## Part 3: Colouring
 

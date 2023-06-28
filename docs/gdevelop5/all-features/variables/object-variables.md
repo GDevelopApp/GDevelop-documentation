@@ -7,8 +7,8 @@ When you add variables to an object, any instance of the object put on the scene
 
 Object variables:
 
-- are stored in memory for as long as a specific instance of an object exists.
-- can be accessed by the instance of the object.
+  - are stored in memory for as long as a specific instance of an object exists.
+  - can be accessed by the instance of the object.
 
 They're useful for storing data associated with individual instances of an object, such as the amount of health an enemy has. They're deleted from memory when the instance is removed from the scene.
 
@@ -36,19 +36,19 @@ You can use object variables in [expressions](/gdevelop5/all-features/expression
 
 ### Number
 
-```
+```javascript
 <object_name>.Variable(<variable_name>)
 ```
 
 ### Text
 
-```
+```javascript
 <object_name>.VariableString(<variable_name>)
 ```
 
 ### Structure
 
-```
+```javascript
 <object_name>.Variable(<parent_variable>.<child_variable>)
 <object_name>.VariableString(<parent_variable>.<child_variable>)
 ```

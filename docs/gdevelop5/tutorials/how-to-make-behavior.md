@@ -47,8 +47,8 @@ The function is now visible in the list of behavior functions:
 
 We can now add events inside. In this example, we're adding two events:
 
-* one to change the background color of the scene when space is pressed
-* one to play a sound when a button is pressed
+  * one to change the background color of the scene when space is pressed
+  * one to play a sound when a button is pressed
 
 ![](/gdevelop5/tutorials/how-to-make-behavior/pasted/20200329-162214.png)
 
@@ -133,7 +133,6 @@ Finally, let's configure it with our enemies:
 Here is the result:
 
 ![](/gdevelop5/tutorials/how-to-make-behavior/pasted/20200329-182802.png)
-
 
 If you run the game, you'll now see that when the player collides with the enemy, a sound is played.
 

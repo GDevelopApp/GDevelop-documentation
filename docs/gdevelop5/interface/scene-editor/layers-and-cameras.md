@@ -7,12 +7,12 @@ title: Layers and cameras
 
 A layer is a virtual container of objects in a scene. Layers serve multiple purposes, including:
 
-  *   Determine the position of objects in the scene
-  *   Front-to-back ordering of object instances (similar to Z-order)
-  *   Layers can be hidden, which affects all objects in the layer
-   * Changing the time scale for all objects in a layer
-   * Apply visual effects to all objects on the layer
-   *   Each layer has a camera that can be moved, rotated, and zoomed
+  * Determine the position of objects in the scene
+  * Front-to-back ordering of object instances (similar to Z-order)
+  * Layers can be hidden, which affects all objects in the layer
+  * Changing the time scale for all objects in a layer
+  * Apply visual effects to all objects on the layer
+  * Each layer has a camera that can be moved, rotated, and zoomed
 
 Each scene can have multiple layers, but objects can only exist on one layer at a time. By default, objects added to a scene will be placed on the "base layer".
 
@@ -62,9 +62,9 @@ While the game is running, each layer has its own virtual camera.  These cameras
 
 There are two actions to position the camera on an object:
 
-* If you want an object to always stay in the view of the camera, you can use the action **Center the camera on an object**. This will make the camera follow the object wherever it goes in the scene.
+  * If you want an object to always stay in the view of the camera, you can use the action **Center the camera on an object**. This will make the camera follow the object wherever it goes in the scene.
 
-* To prevent the camera from going out of bounds, you can use the action **Center the camera on an object within limits**. This will let the camera follow the object while preventing the center of the camera from leaving the boundaries described in the action.
+  * To prevent the camera from going out of bounds, you can use the action **Center the camera on an object within limits**. This will let the camera follow the object while preventing the center of the camera from leaving the boundaries described in the action.
 
 ![](/gdevelop5/interface/scene-editor/layers-and-cameras/pasted/20230310-202341.png)
 
@@ -86,10 +86,10 @@ Many games use a moving camera but they also must prevent the camera from displa
 
 There are also several [useful expressions](https://wiki.gdevelop.io/gdevelop5/all-features/camera/reference#expressions) that provide the current boundaries of the camera:
 
-- CameraBorderTop(layer, number)
-- CameraBorderBottom(layer, number)
-- CameraBorderLeft(layer, number)
-- CameraBorderRight(layer, number)
+  - CameraBorderTop(layer, number)
+  - CameraBorderBottom(layer, number)
+  - CameraBorderLeft(layer, number)
+  - CameraBorderRight(layer, number)
 
 ## Reference
 

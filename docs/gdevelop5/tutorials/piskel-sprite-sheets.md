@@ -2,6 +2,7 @@
 title: How to Import a Sprite Sheet using Piskel
 ---
 # How to Import a Sprite Sheet using Piskel
+
 When working with art assets, there may be times when an asset file has numerous sprites on a single image. This can mean there will be a need to manually slice the file up into multiple images, or isolate each frame of the animation separately.
 
 However, GDevelop has the Piskel sprite editor built in to the editor, which can help avoid this manual effort. Piskel natively supports importing sprite sheets and can simplify this process.
@@ -10,6 +11,7 @@ However, GDevelop has the Piskel sprite editor built in to the editor, which can
         This process will split the sprite sheet into separate images automatically. It _will not_ keep the sprite sheet as a single image
 
 ### Requirements
+
 To complete this method, the following requirements must be met:
 
   * The sprite sheet file must be in jpg, gif, or png format.

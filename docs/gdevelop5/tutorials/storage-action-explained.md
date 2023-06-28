@@ -22,8 +22,8 @@ Name of the storage you want to write a value in to. For example, you may want t
 
 Group name can be used to organize the data that is being saved. This makes it easier to understand when there is a lot of data being stored in the same storage. For example, the position of the player can be stored within a group name and the life of the player can be stored within another group name inside the same storage:
 
-- Group: "PlayerPositionX" to store the X position of the player
-- Group: "PlayerLife" to store the life of the player
+  - Group: "PlayerPositionX" to store the X position of the player
+  - Group: "PlayerLife" to store the life of the player
 
 ### **Expression:** the value you want to write into the storage
 
@@ -32,20 +32,20 @@ To get the value stored in a variable we need to use *variable expressions* in t
 
 #### **Object variable:**
 
-- object_name.Variable(variable_name)
-- object_name.VariableString(variable_name)
+  - object_name.Variable(variable_name)
+  - object_name.VariableString(variable_name)
 
 #### **Scene variable:**
 
-- Variable(variable_name)
-- VariableString(variable_name)
+  - Variable(variable_name)
+  - VariableString(variable_name)
 
 #### **Global variable:**
 
-- GlobalVariable(variable_name)
-- GlobalVariableString(variable_name)
+  - GlobalVariable(variable_name)
+  - GlobalVariableString(variable_name)
 
-Be aware that **"Write Value" can be used only to write numbers** and **"Write Text" can be used only to write text** into the storage. Be sure that the variable type matches the type used in the storage action. 
+Be aware that **"Write Value" can be used only to write numbers** and **"Write Text" can be used only to write text** into the storage. Be sure that the variable type matches the type used in the storage action.
 
 ## Read value
 
@@ -67,4 +67,4 @@ And again, **"Read Value" is to read number only** and **"Read Text" is to read 
 
     Open these examples online.
 
-- <https://editor.gdevelop.io/?project=example://save-load>
+  - <https://editor.gdevelop.io/?project=example://save-load>

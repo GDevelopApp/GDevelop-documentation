@@ -7,12 +7,11 @@ Games made with GDevelop can be published on [Poki](https://poki.com/). With ove
 
 Some games made with GDevelop that have been published on Poki:
 
-- [Spectrum](https://poki.com/en/g/spectrum)
-- [Spent Shells](https://poki.com/en/g/spent-shells)
+  - [Spectrum](https://poki.com/en/g/spectrum)
+  - [Spent Shells](https://poki.com/en/g/spent-shells)
 
 ![Spectrum on Poki](poki_spectrum.png)
 
 !!! tip
-
 
     You're welcome to contribute by adding a step-by-step explanation of the process.

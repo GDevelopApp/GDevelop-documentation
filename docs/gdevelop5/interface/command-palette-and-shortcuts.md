@@ -9,7 +9,7 @@ GDevelop provides keyboard shortcuts that allow you to quickly get to places. Yo
 
     Some shortcuts like **Closing GDevelop**(Ctrl+Shift+Q) won't work on the web app
 
-##Customising keyboard
+## Customising keyboard
 
 **On web version**:
 
@@ -35,7 +35,7 @@ You can't use a key combination that is already utilized by another command. A e
 
 ![](/gdevelop5/interface/shortcuts2.png)
 
-##Command palette
+## Command palette
 
 The command palette shows all the command you can do in the current menu. This can allow you to quickly access tools.
 
@@ -54,7 +54,3 @@ Press **ESC** or click outside the list to exit the command palette
 Some commands/shortcuts can have sub-sections (Ex: Edit Objects)
 
 ![](/gdevelop5/interface/commandpalette.png)
-
-
-
-

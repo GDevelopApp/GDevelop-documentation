@@ -13,28 +13,28 @@ Objects can have [behaviors](/gdevelop5/behaviors) attached to them, adding to o
 
 This section lists the different types of objects, each of which serves a unique purpose.
 
-- General:
-    - [Sprite](/gdevelop5/objects/sprite)
-    - [Tiled sprite](/gdevelop5/objects/tiled_sprite)
-    - [Panel Sprite ("9-patch")](/gdevelop5/objects/panel_sprite)
-- Display a text (score, name, explanation):
-    - [Text](/gdevelop5/objects/text)
-    - [Bitmap text](/gdevelop5/objects/bitmap_text)
-    - [BBText](/gdevelop5/objects/bbtext)
-- Build user interfaces:
-    - [Text input](/gdevelop5/objects/text_input)
-    - [Button](/gdevelop5/objects/button)
-    - [Multi-touch joystick](/gdevelop5/objects/multitouch-joystick)
-    - [Slider](/gdevelop5/objects/slider)
-    - [Toggle switch](/gdevelop5/objects/toggle-switch)
-    - [Resource bar](/gdevelop5/objects/resource-bar)
-    - [Video](/gdevelop5/objects/video)
-- Make visual effects:
-    - [Particles emitter](/gdevelop5/objects/particles_emitter)
-    - [Light](/gdevelop5/objects/light)
-    - [Shape painter](/gdevelop5/objects/shape_painter)
-- Advanced effects or rendering:
-    - [Tilemap](/gdevelop5/objects/tilemap)
+  - General:
+      - [Sprite](/gdevelop5/objects/sprite)
+      - [Tiled sprite](/gdevelop5/objects/tiled_sprite)
+      - [Panel Sprite ("9-patch")](/gdevelop5/objects/panel_sprite)
+  - Display a text (score, name, explanation):
+      - [Text](/gdevelop5/objects/text)
+      - [Bitmap text](/gdevelop5/objects/bitmap_text)
+      - [BBText](/gdevelop5/objects/bbtext)
+  - Build user interfaces:
+      - [Text input](/gdevelop5/objects/text_input)
+      - [Button](/gdevelop5/objects/button)
+      - [Multi-touch joystick](/gdevelop5/objects/multitouch-joystick)
+      - [Slider](/gdevelop5/objects/slider)
+      - [Toggle switch](/gdevelop5/objects/toggle-switch)
+      - [Resource bar](/gdevelop5/objects/resource-bar)
+      - [Video](/gdevelop5/objects/video)
+  - Make visual effects:
+      - [Particles emitter](/gdevelop5/objects/particles_emitter)
+      - [Light](/gdevelop5/objects/light)
+      - [Shape painter](/gdevelop5/objects/shape_painter)
+  - Advanced effects or rendering:
+      - [Tilemap](/gdevelop5/objects/tilemap)
 
 ## Learn about some objects with this video tutorial
 
@@ -50,7 +50,6 @@ This section lists the different types of objects, each of which serves a unique
 
 ![](pasted/20230221-180825.png)
 
-
 ## Choosing a name for your object
 
 Objects are given a default name when they are created. You can change this from the object editor or using the context menu on the object in the objects list.
@@ -58,7 +57,7 @@ Objects are given a default name when they are created. You can change this from
 Note that there are limitations on how you name your object: you can only use alphanumeric characters and no spaces. You can use an underscore if you want to make a separation between words (though usually, games are using casing to separate words. For example: `EnemyBullet`).
 This is to make sure your object will be recognized properly when used in [expressions](/gdevelop5/all-features/expressions).
 
-Some good exampless of names are: `Player`, `RedEnemy`, `Red_Enemy`, `Car1`, `FinalBoss`, `Final_Boss`, `Wall`... Giving a descriptive name is useful to make sure you can quickly identify objects in the events.
+Some good examples of names are: `Player`, `RedEnemy`, `Red_Enemy`, `Car1`, `FinalBoss`, `Final_Boss`, `Wall`... Giving a descriptive name is useful to make sure you can quickly identify objects in the events.
 
 ## Adding an instance of an object to a scene
 
@@ -145,6 +144,7 @@ By default, object instances are all marked as visible, meaning that they are di
 !!! tip
 
     Some objects, like Sprite or Text objects, can also have an **opacity**. The opacity, between 0 and 255, defines how transparent an object is (0 being fully transparent, 255 is the fully opaque and is the default). This can be changed independently from the visibility.
+
 ## Adding effects to objects
 
 You can add extra visual effects to objects. For example, you could use the "Outline" effect to make an object to pick up or to use more visible. You can also use more advanced visual effects that change the shape of the object or create interesting visual results.
@@ -161,8 +161,8 @@ Read [this page to learn more about adding effects to your objects](/gdevelop5/o
 
 You can change and manipulate the properties of an instance of an object, or of multiple instances, using events during the game. This is even what game making is all about in GDevelop: to manipulate objects in real-time as we play the game. As the events and events editor are out of the scope of this page, refer to [the basic game making concepts](/gdevelop5/tutorials/basic-game-making-concepts) page to get started.
 
-* All objects share the **same common features** (like position, angle and everything that is written on this page), and there are a lot of conditions and actions that you can use for all objects.
-* Objects can also provides you with specific feature. For example, [Sprite objects](/gdevelop5/objects/sprite) can have animations, and the animation being played can be changed using an action. Find more information in the page of each specific object.
+  * All objects share the **same common features** (like position, angle and everything that is written on this page), and there are a lot of conditions and actions that you can use for all objects.
+  * Objects can also provides you with specific feature. For example, [Sprite objects](/gdevelop5/objects/sprite) can have animations, and the animation being played can be changed using an action. Find more information in the page of each specific object.
 
 ### Organizing objects into groups for events
 

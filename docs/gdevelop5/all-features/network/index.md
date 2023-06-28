@@ -22,13 +22,13 @@ When the server sends the response, it is saved in a variable so that you can re
 
 ## How to format the content
 
-* For GET requests, parameters have to be sent in the content in the format of a "query string":
+  * For GET requests, parameters have to be sent in the content in the format of a "query string":
 `parameter1=value1&parameter2=value2&parameter3=value3`...
 
 You can send data from a variable, for example:
 `"score=" + VariableString(Score) + "&playerName=" + VariableString(Name)`
 
-* For POST requests, it depends on what is expected by the server, but most of the time the server expects JSON formatted text.
+  * For POST requests, it depends on what is expected by the server, but most of the time the server expects JSON formatted text.
 
 You can either construct it yourself:
 `"{\"score\": " + VariableString(Score) + " }"` (note the use of backslash before the quote `\"`, to allow the quote to be used inside a text) or use the expression to convert a variable structure to JSON: `ToJSON(VariableWithData)` (see more about this below).
@@ -50,7 +50,7 @@ Variables in GDevelop can contain number, strings or be a "structure" containing
 
 Structures are useful as they can store all the data concerning something, that can then be sent to a server. To do this, you can convert the structure variable to JSON, using the expression called `ToJSON`. For example:
 
-```
+```javascript
 ToJSON(Progress)
 ```
 

@@ -105,7 +105,6 @@ In the end, your actions should look like this:
 We are ready to test our text objects. You can see the change in health and score.
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-chapter-9-demo.gif)
 
-##Next step
+## Next step
 
 [Space Shooter, Part 10](/gdevelop5/tutorials/space-shooter/10-sound-effects-music)
-

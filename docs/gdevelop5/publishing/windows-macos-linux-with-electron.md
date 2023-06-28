@@ -24,7 +24,9 @@ You can then use [Electron Builder](https://www.electron.build/) to package your
 See the [other export options](/gdevelop5/publishing) to learn how to publish your game on other platforms!
 
 ## Steps to Build the Project Manually
+
 ### Pre-requisite: Download and Install Yarn
+
 ![](/gdevelop5/publishing/untitlewweewrwered-1.jpg)
 Before building the project, you _must_ have a package installer on your machine. For this tutorial we will be using **Yarn**. Download the latest build of Yarn [here](https://yarnpkg.com/en/docs/install). You can install Yarn using any method provided on that page.
 
@@ -34,16 +36,14 @@ Before building the project, you _must_ have a package installer on your machine
   - Use the Change directory command (**cd**) to the directory of the folder of your exported game (or navigate to that folder using Explorer and press Shift + Right Click -> Open Command Prompt/Powershell for Windows)
   - In the Command Prompt, write:
 
-```
+```sh
 yarn && yarn build
 ```
 
 !!! note
 
-
     If you are using an older version of GDevelop, you might need to use this instead:
     `yarn add -D electron-builder && yarn electron-builder`
-
 
 **Note:** If your custom icon doesn’t show up, just rename buildResources to “build”.
 
@@ -55,9 +55,9 @@ These steps will create a sub-folder named `dist`. The executable installer is i
 
 You can pass additional options to electron-builder.
 
- - The `-w` option let you build for windows
- - The `-l` option let you build for linux
- - The `-m` option let you build for mac
+  - The `-w` option let you build for windows
+  - The `-l` option let you build for linux
+  - The `-m` option let you build for mac
 
 Those options all accept an additional packaging format. You can find those on the [electron-builder homepage](https://electron.build/):
 ![](/gdevelop5/publishing/windows-macos-linux-with-electron/pasted/20210219-123031.png)
@@ -66,7 +66,7 @@ You may combine them (for example `-wl` for windows and linux) but then they wil
 
 #### Examples:
 
-```
+```sh
 # Build for windows only:
 yarn build -w
 # Build a windows portable executable:

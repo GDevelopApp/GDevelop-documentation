@@ -3,7 +3,6 @@ title: Resources
 ---
 # Resources
 
-
 You can find the resource manager at **Project manager** → **Game settings** → **Resources**.
 
 ![](/gdevelop5/interface/project-manager/resources/pasted/20230309-205340.png)
@@ -22,9 +21,9 @@ This tab has a **properties panel**, with options based on the type of resource 
 
 The toolbar will be different inside of this tab, with buttons aligned to the right side of the toolbar, that allow you to:
 
-* **Open the project folder** with the button on the left.
-* **Toggle the properties panel visibility** with the button in the middle.
-* **Remove the selected resource** with the button on the right.
+  * **Open the project folder** with the button on the left.
+  * **Toggle the properties panel visibility** with the button in the middle.
+  * **Remove the selected resource** with the button on the right.
 
 ![](/gdevelop5/interface/project-manager/resources/pasted/20230309-210717.png)
 
@@ -46,16 +45,15 @@ Images can appear blurry if they're scaled to a ratio they were not meant to be,
 
 ![](/gdevelop5/interface/project-manager/resources/pasted/20230310-180753.png)
 
-- Sprite with **smoothing enabled**:
+  - Sprite with **smoothing enabled**:
 
 ![](/gdevelop5/interface/project-manager/resources/pasted/20230310-181104.png)
 
-- Sprite with **smoothing disabled**:
+  - Sprite with **smoothing disabled**:
 
 ![](/gdevelop5/interface/project-manager/resources/pasted/20230310-181038.png)
 
 ### Always loaded in memory
-
 
 !!! note
 
@@ -63,21 +61,17 @@ Images can appear blurry if they're scaled to a ratio they were not meant to be,
 
 ### Preload as sound/music
 
-
 This allows you to preload audio files as music/sound, making them start quickly as you don't have to wait for the audio to load. If the appropriate toggle isn't checked, the first time this audio file is played it may be distorted as it's loaded in.
 
 ![](/gdevelop5/interface/project-manager/resources/pasted/20230310-181721.png)
 
 ### Some other options/tools
 
-
-
 For more options related to each resource file, you can open a drop-down menu by clicking on the three dots to the right of the resource name, or right click on the resource.
 
 ![](/gdevelop5/interface/project-manager/resources/pasted/20230310-182803.png)
 
 ### Renaming
-
 
 Allows you to rename the resources. The name is the path to the resource by default. You may need to re-open the resource manager to apply the changes to the UI.
 
@@ -89,24 +83,19 @@ Removes the selected resource from the project.
 
     Removing a resource only removes it from the game, it doesn't delete the file from the project folder, you will have to do it manually
 
-
 ### Open the file
-
 
 Lets you open the selected resource in a player/viewer (Uses the default software for that file type on your system)
 
 ### Locate file
 
-
 Opens the selected resource in the file manager of your system.
 
 ### Copy file path
 
-
 Copies the file path of the resource to your clipboard, which you can then paste somewhere else.
 
 ### Scan for images/audio/fonts/videos
-
 
 If there are files that exist in the project folder, but are not used by your project, you can add those files by selecting this option. It scans the project folder and adds them to your project.
 

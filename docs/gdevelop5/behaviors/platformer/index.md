@@ -19,11 +19,12 @@ After selecting the "Platform" option, you will see the Platform behavior option
 
 By clicking on the platform behavior, you can choose from 3 different platform types.
 
-* **Platform:** this is the default option. The default behavior sets the object as a traditional platform. The character can collide with the platform and/or walk on it.
-* **Jumpthru platform:** by choosing this option, the character can collide with the platform and walk on it, but the character can also jump thru the platform from below.
-* **Ladder:** as its name suggests, this option turns our object into a ladder. The character object cannot collide with the ladder object. It can not walk on the ladder object, but, when the character object overlaps the ladder object, the character is able to climb up and get down using the ladder object.
+  * **Platform:** this is the default option. The default behavior sets the object as a traditional platform. The character can collide with the platform and/or walk on it.
+  * **Jumpthru platform:** by choosing this option, the character can collide with the platform and walk on it, but the character can also jump thru the platform from below.
+  * **Ladder:** as its name suggests, this option turns our object into a ladder. The character object cannot collide with the ladder object. It can not walk on the ladder object, but, when the character object overlaps the ladder object, the character is able to climb up and get down using the ladder object.
 
 ### Grab the ledge
+
 The ledge of our platform can be grabbed by default.  "Grab the ledge" means that when the character object jumps close enough to the edge of the platform, the ledge can be grabbed. If you don't need this functionality, make sure this option is unticked/unchecked. If you do need it, make sure the box is ticked/checked.
 
 ![](ledges-canbe-grabbed-option.png)
@@ -37,7 +38,6 @@ The offset option allows us to change the position of the grab to fit the animat
 ### Create platforms with tilemaps
 
 The platform behavior can be added to tilemap collision mask objects. Learn more about it on the [tilemap](/gdevelop5/objects/tilemap#handle_collisions) page.
-
 
 ## Use the Platformer character behavior for your player, enemies or moving objects
 
@@ -89,9 +89,9 @@ By changing this value, we can set the maximum angle of a slope that the player 
 
 The walking speed of a character is configured with:
 
-- an acceleration
-- a deceleration
-- a maximum speed
+  - an acceleration
+  - a deceleration
+  - a maximum speed
 
 Choosing a low acceleration and deceleration will make the character slide.
 
@@ -101,10 +101,10 @@ Choosing a low acceleration and deceleration will make the character slide.
 
 How high a character jumps depends on:
 
-- **Jump speed** is the speed at the beginning of the jump.
-- **Jump sustain time** is how long the jump speed can be kept to the initial value while players hold the jump key.
-- **Gravity** is how fast the speed change to go down.
-- **Max. falling speed** to avoid characters going faster and faster because of gravity.
+  - **Jump speed** is the speed at the beginning of the jump.
+  - **Jump sustain time** is how long the jump speed can be kept to the initial value while players hold the jump key.
+  - **Gravity** is how fast the speed change to go down.
+  - **Max. falling speed** to avoid characters going faster and faster because of gravity.
 
 All theses values can also be changed at any time during the game using [events](/gdevelop5/events).
 
@@ -120,14 +120,14 @@ It's not easy to know how these values change the jump trajectory. The best is t
 
 [![](platformer-jump-evaluator.png)](https://editor.gdevelop.io/?project=example://platformer-jump-evaluator)
 
-####  Make characters wall jump
+#### Make characters wall jump
 
 The [advanced platformer movements](/gdevelop5/extensions/advanced-jump/reference) extension contains behaviors for:
 
-* Wall jump
-* Double jump
-* Coyote time (also known as ledge tolerance)
-* Dashes
+  * Wall jump
+  * Double jump
+  * Coyote time (also known as ledge tolerance)
+  * Dashes
 
 ## Examples
 
@@ -141,9 +141,6 @@ The [advanced platformer movements](/gdevelop5/extensions/advanced-jump/referenc
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://platformer){ .md-button .md-button--primary }
 
 [![](platformer-example.png)](https://editor.gdevelop.io/?project=example://platformer)
-
-
-
 
 **Parallax Scrolling Behavior**
 

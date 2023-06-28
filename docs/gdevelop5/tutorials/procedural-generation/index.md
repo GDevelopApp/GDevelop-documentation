@@ -3,7 +3,7 @@ title: Procedural Generation
 ---
 # Procedural Generation
 
->  Make sure to import the Extended math support and Noise generator extensions into your project. Read [this](/gdevelop5/extensions/search) to learn how to import extensions.
+> Make sure to import the Extended math support and Noise generator extensions into your project. Read [this](/gdevelop5/extensions/search) to learn how to import extensions.
 
 ## What is Procedural Generation
 
@@ -15,6 +15,6 @@ Procedural generation is way for the computer to create parts of the game for yo
 
 Articles about Procedural Generation:
 
-- [Understanding Procedural Generation](/gdevelop5/tutorials/procedural-generation/understanding-procedural-generation)
-- [Implementing Procedural Generation](/gdevelop5/tutorials/procedural-generation/implementing-procedural-generation)
-- [Constraint a terrain generation](/gdevelop5/extensions/marching-squares/details/#constraint-a-terrain-generation)
+  - [Understanding Procedural Generation](/gdevelop5/tutorials/procedural-generation/understanding-procedural-generation)
+  - [Implementing Procedural Generation](/gdevelop5/tutorials/procedural-generation/implementing-procedural-generation)
+  - [Constraint a terrain generation](/gdevelop5/extensions/marching-squares/details/#constraint-a-terrain-generation)

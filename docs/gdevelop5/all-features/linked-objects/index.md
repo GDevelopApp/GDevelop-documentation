@@ -11,9 +11,7 @@ Actions and conditions of "Linked Objects" category allow us to make virtual con
 
 !!! tip
 
-
     Some of the conditions of Linked Objects are available as both, conditions as well as actions. Conditions will be considered as false if no object is picked. If you don't want this behavior, use their action counterparts.
-
 
 #### Link two objects
 
@@ -51,7 +49,6 @@ In this example, for every existing "Pathfinder" object, a new "Terrain" object 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://pin-object-to-another-multiple-parents){ .md-button .md-button--primary }
 
 !!! tip
-
 
     To see more advance usages, take a look at the [Linked Objects Tools extension page](/gdevelop5/all-features/extensions/linked-objects-tools)
 

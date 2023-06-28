@@ -1,0 +1,93 @@
+name: Lint Markdown
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened, edited]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == false && github.event.pull_request.draft == false
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        ref: ${{ github.event.pull_request.head.sha }}
+        fetch-depth: 0
+
+    - uses: tj-actions/changed-files@v36
+      id: changed-files
+      with:
+        files: |
+          docs/index.md
+          docs/gdevelop5/**/*.md
+        files_ignore: | # auto-generated pages
+          docs/gdevelop5/all-features/**/reference.md
+          docs/gdevelop5/extensions/**/*.md
+        separator: ","
+
+    - uses: DavidAnson/markdownlint-cli2-action@v10
+      if: steps.changed-files.outputs.any_changed == 'true'
+      continue-on-error: true
+      with:
+        command: fix
+        globs: ${{ steps.changed-files.outputs.all_changed_files }}
+        separator: ","
+
+    - name: Commit and push
+      if: steps.changed-files.outputs.any_changed == 'true'
+      run: |
+        git config --global user.email "ci-builder@gdevelop.io"
+        git config --global user.name "GDevelop documentation CI"
+        git add .
+        git commit -m "Fix lint errors" || echo "Nothing to commit (or error during commit?)"
+        git push origin HEAD:${{ github.head_ref }} || echo "Nothing to push (or error during commit or push?)"
+
+    - name: Find the existing comment about games in the PR
+      if: steps.changed-files.outputs.any_changed == 'true'
+      uses: peter-evans/find-comment@v2
+      id: fc
+      with:
+        issue-number: ${{ github.event.pull_request.number }}
+        comment-author: 'github-actions[bot]'
+        body-includes: "Markdown lint errors were detected and have been automatically changed. Here is the list of changed files:"
+
+    - name: Get list of modified files
+      if: steps.changed-files.outputs.any_changed == 'true'
+      id: get_modified_files
+      run: |
+        author=$(git log -1 --pretty=format:'%an')
+        if [ "$author" == "GDevelop documentation CI" ]; then
+          files=$(git diff --name-only HEAD^ HEAD)
+          if [ -z "$files" ]; then
+            echo "files_list=\"\"" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          files_list=$(echo "$files" | sed 's/^/- /' | paste -s -d '\n' -)
+          echo "files_list=$(echo "$files_list" | jq -R -s -c '@text')" >> $GITHUB_OUTPUT
+        else
+          echo "files_list=\"\"" >> $GITHUB_OUTPUT
+        fi
+      shell: bash
+
+    - name: Create or update comment
+      if: steps.changed-files.outputs.any_changed == 'true' && steps.get_modified_files.outputs.files_list != '""'
+      uses: peter-evans/create-or-update-comment@v3
+      with:
+        comment-id: ${{ steps.fc.outputs.comment-id }}
+        issue-number: ${{ github.event.pull_request.number }}
+        body: |
+          Hello 👋,
+
+          Markdown lint errors were detected and have been automatically changed. Here is the list of changed files:
+
+          ${{ fromJSON(steps.get_modified_files.outputs.files_list) }}
+
+          Please review these changes to ensure they align with the project's goals and guidelines. If you have any questions or concerns, feel free to comment here.
+
+          Thank you for your contribution! 🚀
+        edit-mode: replace

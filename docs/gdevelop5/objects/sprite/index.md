@@ -63,7 +63,6 @@ Above each animation in this window, you will see a field to the right of "Anima
 
 ![](./animation_name.png)
 
-
 !!! tip
 
         For objects with multiple animations, you may find it difficult to differentiate between animations without names. It is generally a good practice to use animation names for objects with multiple animations.
@@ -116,7 +115,7 @@ You can also change animations using the number associated with that animation u
 
 You can use the current animation of a sprite object as the condition for an event, either with its animation name or number, as well as a particular frame of the animation.
 
-When using an animation's name, write the name between quotation marks. For examples: "Animation" 
+When using an animation's name, write the name between quotation marks. For examples: "Animation"
 
 ![](./ChangeAnimationCondition.png)
 

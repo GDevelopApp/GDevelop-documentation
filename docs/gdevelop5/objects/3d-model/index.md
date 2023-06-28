@@ -29,9 +29,9 @@ GDevelop supports 3D models saved in the **GLB (.glb) format**. It is a standard
 
 Large 3D models can impact your game as they will have:
 
-- A larger size, making your game bigger and slower to download (especially on mobile phones or without broadband),
-- A larger impact on the loading time (which will be slower, especially on low end devices),
-- A negative impact on game performance, as the player device graphics card will need to spend more time rendering all the triangles composing the 3D model.
+  - A larger size, making your game bigger and slower to download (especially on mobile phones or without broadband),
+  - A larger impact on the loading time (which will be slower, especially on low end devices),
+  - A negative impact on game performance, as the player device graphics card will need to spend more time rendering all the triangles composing the 3D model.
 
 !!! tip
 
@@ -47,5 +47,5 @@ This section will be enhanced with various solutions to build your 3D models.
 
 You can find free or premium 3D models suitable for your games on some website like:
 
-- [Kenney.nl](https://www.kenney.nl/assets/category:3D).
-- [Quaternius.com](https://quaternius.com/index.html).
+  - [Kenney.nl](https://www.kenney.nl/assets/category:3D).
+  - [Quaternius.com](https://quaternius.com/index.html).

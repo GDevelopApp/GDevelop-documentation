@@ -2,11 +2,13 @@
 title: Road Rider - Endless car game tutorial
 ---
 # Road Rider - Endless car game tutorial
+
 This tutorial will help you get more familiar with GDevelop. Our primary focus in this tutorial will be to make an endless car game. The player should dodge the cars on the road. The game will also have a score such that it is automatically updated as we get past the cars.
 
 ![](/gdevelop5/tutorials/peek_2019-05-30_19-46.gif)
 
 ## Download GDevelop
+
 If you do not have GDevelop yet, you can download it from [GDevelop's official website.](https://gdevelop.io/download/) It is available for Windows, macOS as well as Linux.
 
 After downloading GDevelop you can proceed with the installation/extraction followed by the launching of GDevelop.
@@ -14,6 +16,7 @@ After downloading GDevelop you can proceed with the installation/extraction foll
 > You need to have assets that will be used to create objects for this game. You can [download them here.](/gdevelop5/tutorials/road-rider-resources.zip) Download and extract the .zip file to the directory that you have chosen as the location of our game.
 
 ## Create a new project
+
 Click on `CREATE A NEW PROJECT` on the Start Page.
 
 ![](/gdevelop5/linux-start-page.png)
@@ -81,6 +84,7 @@ Your scene by the end of this step should contain 8 objects.
 ![](/gdevelop5/tutorials/screenshot_from_2019-05-30_21-22-38.png)
 
 ## Adding top-down movement to the car
+
 Adding a top-down movement behavior to the car will allow us to set its maximum speed as well as the acceleration and deceleration of the car. This will allow the car to slowly gain the speed rather than starting with the maximum speed. For this, we will have to open the `Object Editor`.
 
 To do this, you can either double-click on the _Car_ object from the object side panel or click on the three-dot-menu beside the object and click on edit object.
@@ -100,6 +104,7 @@ This opens a wide variety of options to alter. You can see the default values fo
 ![](/gdevelop5/tutorials/screenshot_from_2019-05-22_19-37-09.png)
 
 ## Creating a new event
+
 An event is a pair of conditions and actions. When a given set of conditions is true, the corresponding action or set of actions is performed.
 
 While making this game we will encounter a few events with no conditions and one or more actions assigned to them. In such a case, the action is performed on every frame created.
@@ -117,6 +122,7 @@ This will create a new event with an empty condition and an empty action.
 ![](/gdevelop5/screenshot_from_2019-05-20_14-49-49.png)
 
 ## Create instances of Car and Highway
+
 To create an instance of the _Car_ object we can drag and drop the object from the Objects panel to the scene and give it the coordinates of our choice.
 
 ![](/gdevelop5/tutorials/peek_2019-05-26_11-58.gif)
@@ -148,12 +154,12 @@ We see a few problems:
   * The _Highway_ is too far away from the center of the screen.
 
 ### Making the car visible
+
 To make the car visible, we need to know the reason for it being hidden under the _Highway_. The answer is, `Z Order`.
 
 !!! note
 
         Z Order of an object is the property which decides whether the object should be displayed on the front or the back. An object with a certain Z Order assigned to it will always be shown in front of the objects with lower Z Order value and behind the objects with higher Z Order value.
-
 
 In our case, we can assign a Z Order of 1 to the _Highway_ and 2 to the _Car_.
 
@@ -162,6 +168,7 @@ In our case, we can assign a Z Order of 1 to the _Highway_ and 2 to the _Car_.
 ![](/gdevelop5/tutorials/screenshot_from_2019-05-22_02-21-37.png)
 
 ### Creating the bottom part of the Highway
+
 To create the bottom part of the _Highway_, we can elongate the height of our object _Highway_.
 
 To do this, you can click and drag the white box at the corner of the _Highway_.
@@ -173,6 +180,7 @@ Another way to do this is to tick the box beside `Custom size` option in the Pro
 ![](/gdevelop5/tutorials/screenshot_from_2019-05-22_02-41-35.png)
 
 ### Getting our game to the center of the window
+
 To get our game to the center of the preview window, we will create our first event.
 
 But before that, we need to determine the X position and Y position of the camera.
@@ -222,6 +230,7 @@ You can now follow a similar procedure for Y position as you did for X position 
 To make sure that all your progress has been saved, click on `Save` in the `File` menu or press Ctrl + S.
 
 ## Moving the car
+
 To move the _Car_, we need to create an event such that the car translates as well as rotates to some degree when left or right key is pressed.
 
 As we can deduce from the above statement, the condition of the events will be left key press and right key press.
@@ -261,6 +270,7 @@ If you preview your project, you should be able to control your _Car_ using the 
 But we still encounter one problem, the car does not return to its original state when we leave the keys. Instead, it stays oriented at an angle. Let's solve this problem now.
 
 ### Returning the car to its original orientation
+
 We need to return the car to an angle of 0 degrees when none of the arrow keys are pressed. In other words, we need to return the car to an angle of 0 degrees when the conditions, right key press and left key press are inverted.
 
 To achieve this, we add a new event and try to add the above 2 conditions, i.e. right key press inverted and left key press inverted. We add a condition `Left key is pressed` and turn on the switch below that says `Invert conditions`.
@@ -282,6 +292,7 @@ For the action, we will make an action for rotating it towards 0 degrees with an
 Now, the car moves and rotates to an extent when an arrow key is pressed and rotates back to the original angle when the keys are released.
 
 ## Adding traffic cars to be dodged to the scene
+
 Now, we need to begin creating traffic cars which should be dodged by the _Car_. To maintain uniformity and simplicity in the game, we will create the objects at a fixed Y position and a random X position within a fixed time interval such that all the traffic cars created lie between the yellow lines of the _Highway_.
 
 For a fixed time interval, we can use the `Timer` feature that GDevelop provides. To set a timer, we will create an event with the condition `Value of a scene timer`. Now, you need to fill the desired time interval between the creation of two consecutive instances of traffic cars on each side in the `Time in seconds` field.
@@ -353,6 +364,7 @@ Here is the resulting events sheet so far. If you are on the same page as the tu
 ![](/gdevelop5/tutorials/screenshot_from_2019-06-03_02-59-41.png)
 
 ## Adding surrounding trees to the game
+
 After adding the traffic cars to be dodged, we will now add the surrounding trees which will simulate a moving background. We will use the object _Tree_ for this purpose.
 
 To create object _Tree_ we use another timer _TreeTimer_, similar to how we used _TrafficTimer_. We will use these trees for moving background simulation by moving them in the backwards direction on both sides of the road.
@@ -376,6 +388,7 @@ We need to add one more action to reset the _TreeTimer_ to 0 when it is greater 
 ![](/gdevelop5/tutorials/screenshot_from_2019-06-05_16-36-47.png)
 
 ## Moving the trees
+
 In the game, we need to move the trees such that they never stop, i.e. without any condition. So we add an event and add action to that event without any conditions.
 
 Our trees should move in the direction opposite to that of the _Car_ so that we can simulate a moving background. To do this, the event we add should add a downward force to the object _Tree_.
@@ -385,6 +398,7 @@ Add the action `Add a force` to the _Tree_. The movement of the car should be in
 ![](/gdevelop5/tutorials/screenshot_from_2019-05-23_16-55-28.png)
 
 ## Moving the traffic cars
+
 To move the traffic cars, we can add events with no conditions and add a vertical force. But if we try to do it in a way similar to what we did for _Tree_, we will have to add these events for each and every car individually. To simplify this, we can use the `Object Groups` feature provided by GDevelop.
 
 An object group is a collection of objects. You can classify similar types of objects in an object group. You can then use the conditions and actions on a group object rather than repeating it for each and every object separately.
@@ -444,6 +458,7 @@ You may now check the events we have created so far and then save your game.
 Before moving on to the event for a collision between _Car_ and _Traffic_, we notice that the car's motion is not limited to the road.
 
 ## Limiting the car's motion between the yellow lines
+
 To limit the car's motion between the yellow lines, we need to add a new event to check the X position of the _Car_.
 
 We will add two different events for each side because the force applied should be positive when _Car_ is on the left side and negative when _Car_ is on the right side.
@@ -473,6 +488,7 @@ If you preview the game, you should now be able to see _Tree_ and all the object
 Now, we need to set how the game behaves when there's a collision between _Car_ and _Traffic_.
 
 ## Collision between Car and Traffic
+
 In the next event we create, we need to set the condition such that it checks a collision between _Car_ and _Traffic_.
 
 For this, you can use the `Collision` condition and set the objects to _Car_ and _Traffic_.
@@ -512,6 +528,7 @@ We will now solve these problems. Make sure that you add these actions for the s
 You can watch the preview now. Our game is ALMOST complete. We cannot say that the game is complete until we can see the score made by an individual.
 
 ## Setting the background color
+
 The gray background does not really suit the game. As there will be trees on both sides of the road, the green color might be the best. To do so, you can right-click anywhere on the scene and select `Scene properties`. Click on the box below `Scene background color` that says `Click to choose`.
 
 ![](/gdevelop5/tutorials/screenshot_from_2019-05-22_18-04-16.png)
@@ -521,6 +538,7 @@ You can choose the color of your choice and click `OK` in the `Scene properties`
 ![](/gdevelop5/tutorials/screenshot_from_2019-05-22_18-27-13.png)
 
 ## Displaying score in the scene
+
 To display the score, we will make an event such that when any object in the group _Traffic_ passes a predefined position, the value of the score is updated. To do this, we need to use the help of a scene variable.
 
 Let's start with creating an object _Score_.

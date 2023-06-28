@@ -7,7 +7,7 @@ The basic concepts of GDevelop are simple. Read the following information to get
 
 ## Showing things on the screen: Objects
 
-Everything that is *displayed on the screen* is called an **"Object"**. Different kinds of objects can be used to display different game elements on the screen. For example, most game graphics are "Sprite" objects, text can be displayed with "Text" objects, and special effects like fire or explosions can be created with "Particle Emitters".
+Everything that is _displayed on the screen_ is called an **"Object"**. Different kinds of objects can be used to display different game elements on the screen. For example, most game graphics are "Sprite" objects, text can be displayed with "Text" objects, and special effects like fire or explosions can be created with "Particle Emitters".
 
 Read more about  [Objects](https://wiki.gdevelop.io/gdevelop5/objects#objects).
 
@@ -45,15 +45,14 @@ The video below shows both of these concepts inside GDevelop.  The position of t
 
 Events are used to create the logic of your game. They are composed of conditions and actions. Conditions can be thought of as "if" statements and actions can be thought of as "then" statements. "If" the conditions are true/met, "then" the actions will happen. Most conditions and actions refer to objects:
 
-* Conditions run a **test** on the objects.
-* Actions **affect** the objects that matched the conditions. They can change the object's position, appearance, etc...
+  * Conditions run a **test** on the objects.
+  * Actions **affect** the objects that matched the conditions. They can change the object's position, appearance, etc...
 
 An event without any conditions will always perform the actions. In the video below, the ship object will continuously rotate at the speed set in the **Rotate Ship** action.
 
 ![](/gdevelop5/tutorials/gifs_for_wiki_showing_conditionless_event.gif)
 
 If a condition is added to the event, the actions will only be performed when the condition is true.
-
 
 In this example, a condition for **The cursor/touch is on Ship** is added.  Now the **Rotate Ship** action will only happen "if" the mouse cursor is on the ship object.
 
@@ -69,7 +68,6 @@ For example, this event has no conditions so it will delete all objects called "
 ![](/gdevelop5/tutorials/basic-game-making-concepts/pasted/20220123-200759.png)
 
 Once a condition has been added that mentions an object, all following actions will affect only objects that matched the previous conditions.
-
 
 The event below has a condition that checks the horizontal (X) position of the Ship.  The action will delete **only** the "Ship" objects with an X position that is less than (to the left of) the mouse cursor.
 
@@ -96,8 +94,8 @@ Events are processed from the top down. so events at the top are executed first.
 
 ![](/gdevelop5/tutorials/basic-game-making-concepts/pasted/20220123-203822.png)
 
-* In the top example, the first event creates a "Ship" object at coordinates X: 100. Y: 200 (100;200) on the base layer. Then the next event deletes that created ship immediately. This pair of events **will not** display a ship on the screen, because the ship is deleted right after being created.
-* In the bottom example, the first event deletes all the "Ship" objects from the scene/screen. It then creates one "Ship" at the coordinates X: 100, Y: 200 (100;200) on the base layer.  This pair of events **will** display a single ship on the screen.
+  * In the top example, the first event creates a "Ship" object at coordinates X: 100. Y: 200 (100;200) on the base layer. Then the next event deletes that created ship immediately. This pair of events **will not** display a ship on the screen, because the ship is deleted right after being created.
+  * In the bottom example, the first event deletes all the "Ship" objects from the scene/screen. It then creates one "Ship" at the coordinates X: 100, Y: 200 (100;200) on the base layer.  This pair of events **will** display a single ship on the screen.
 (Behind the scenes, the ship is being deleted and recreated on every frame, which is not something you would want to do in a real game.)
 
 !!! tip
@@ -105,16 +103,14 @@ Events are processed from the top down. so events at the top are executed first.
         Events are processed about 60 times per second.
     Each iteration through the events is called a **frame**, **tick**, or **game loop**.
 
-
-
 ## Behaviors: Game logic for objects
 
-**Behaviors** enhance an object with some *pre-defined logic*. They can be used to automate simple tasks, but they also have the power to perform much more advanced tasks. For example:
+**Behaviors** enhance an object with some _pre-defined logic_. They can be used to automate simple tasks, but they also have the power to perform much more advanced tasks. For example:
 
-* A behavior can be used to *automatically* remove an object from the game when it *goes out of the screen* (limiting the game memory usage).
-* Another behavior can be used to *move objects on the screen with the keyboard arrows*.
-* Yet another behavior can be used to allow the object to be *dragged on screen* with the mouse or by touching the object.
-* The *Physics* behavior is an example of an advanced behavior which make your objects move in a realistic way, following the laws of physics.
+  * A behavior can be used to _automatically_ remove an object from the game when it _goes out of the screen_ (limiting the game memory usage).
+  * Another behavior can be used to _move objects on the screen with the keyboard arrows_.
+  * Yet another behavior can be used to allow the object to be _dragged on screen_ with the mouse or by touching the object.
+  * The _Physics_ behavior is an example of an advanced behavior which make your objects move in a realistic way, following the laws of physics.
 
 **Behaviors** will often come with their own variables that can be changed to customize the task it performs, but they can also be manipulated using events that are specific to that behavior.
 
@@ -132,10 +128,10 @@ Moving objects can be achieved with **forces**. Forces are used to "push" object
 
 You can specify:
 
-* The speed of movement on both the X (horizontal) and Y (vertical) axis, in pixels per second
-* The angle to move towards and the speed, in pixels per second
-* An instant force will only move the object for one frame
-* A permanent force will move the object every frame until it is stopped
+  * The speed of movement on both the X (horizontal) and Y (vertical) axis, in pixels per second
+  * The angle to move towards and the speed, in pixels per second
+  * An instant force will only move the object for one frame
+  * A permanent force will move the object every frame until it is stopped
 
 ### Example
 
@@ -173,20 +169,17 @@ Variables are used to store **data** in the format of a **number** or **text**. 
 
 !!! tip
 
-
     Conditions are used to **check** the value of a variable.
 
     Actions are used to **change** the value of a variable.
-
 
 #### Where are variables stored? (variable "scope")
 
 The _scope_ of a variable determines the place a variable can be accessed. In GDevelop, there are three variable scopes are available:
 
-* **Global** variables are accessible from all the game scenes. For instance, they can be used to store the player's score across different levels/scenes.
-* **Scene** variables are only accessible from the scene they are created in. They can be used for data that only concerns one scene.  A Scene variable would be able to access the time remaining to complete the level/scene.
-* **Object** variables only concern one object. For example, a hero can have a "Health" or "Ammo" variable.
-
+  * **Global** variables are accessible from all the game scenes. For instance, they can be used to store the player's score across different levels/scenes.
+  * **Scene** variables are only accessible from the scene they are created in. They can be used for data that only concerns one scene.  A Scene variable would be able to access the time remaining to complete the level/scene.
+  * **Object** variables only concern one object. For example, a hero can have a "Health" or "Ammo" variable.
 
 ![](/gdevelop5/tutorials/gif_for_wiki_showing_where_the_variables_are.gif)
 

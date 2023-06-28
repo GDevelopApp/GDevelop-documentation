@@ -49,7 +49,7 @@ You need to install:
 
 To be able to build the exported Cordova project, you also need to have **[Node.js](https://nodejs.org/en/)** installed on your system. Finally, you need to install Cordova by typing on the command prompt or terminal:
 
-```
+```sh
 npm install -g cordova
 ```
 
@@ -71,26 +71,24 @@ Once you have specified what platform you want your game to be exported to, you 
 
 !!! tip
 
-
     ![](/gdevelop5/publishing/android-build-tool.png)
     Cordova may need a specific version of the Android build tool. It can be installed with the SDK Manager.
     Ensure you have the Android SDKs of version 30 and 31.
-
 
 ## Testing on emulators or Android/iOS devices
 
 ## Testing on Android
 
-You can run `cordova run android` to run the compiled application, or `cordova run android --device` to run on an Android device. Make sure that the device has the *developer mode* activated, is connected and recognized by the computer.
+You can run `cordova run android` to run the compiled application, or `cordova run android --device` to run on an Android device. Make sure that the device has the _developer mode_ activated, is connected and recognized by the computer.
 
 You can also open Android Studio and open the project (choose the `platforms/android` folder). Then you can see in the top right the list of connected devices (or installed emulators) and run the app.
 
 ## Testing on iOS
 
-* You can list iOS simulators installed on your Mac with `cordova emulate ios --list`.
-* You can run the app on a specific simulator using `target`: `cordova run ios --target="iPhone-8"`.
+  * You can list iOS simulators installed on your Mac with `cordova emulate ios --list`.
+  * You can run the app on a specific simulator using `target`: `cordova run ios --target="iPhone-8"`.
 
-* To test on an iOS device, it's recommended to launch XCode and open your project (`open platforms/ios/YourProject.xcworkspace`). You'll need to set up a "Development Team" and choose your device. This is because each device must be added to your "Development Team" before it can run development applications.
+  * To test on an iOS device, it's recommended to launch XCode and open your project (`open platforms/ios/YourProject.xcworkspace`). You'll need to set up a "Development Team" and choose your device. This is because each device must be added to your "Development Team" before it can run development applications.
 
 ## Exporting to the stores
 
@@ -98,11 +96,11 @@ You can also open Android Studio and open the project (choose the `platforms/and
 
 For Android, you can compile your app as a **release AAB** (that can be uploaded on the Play Store), with `cordova build`. The command line should look like this:
 
-```
+```sh
 cordova build android --release -- --keystore=/path/to/keystore --storePassword=KEYSTORE_STORE_PASSWORD --alias=KEYSTORE_ALIAS --password=KEYSTORE_PASSWORD --packageType bundle
 ```
 
-You can also use Android Studio (open it, then open the *platforms/android* folder) for building a *release APK* or *Android App Bundle*. Choose **Build > Generate Signed Bundle / APK...**.
+You can also use Android Studio (open it, then open the _platforms/android_ folder) for building a _release APK_ or _Android App Bundle_. Choose **Build > Generate Signed Bundle / APK...**.
 
 ![](/gdevelop5/publishing/android_and_ios_with_cordova/pasted/20210117-174059.png)
 

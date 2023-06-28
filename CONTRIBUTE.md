@@ -38,7 +38,7 @@ mkdocs serve
 mkdocs serve --dirtyreload
 ```
 
-This will run the documentation on http://localhost:8000.
+This will run the documentation on <http://localhost:8000>.
 
 ### Build
 

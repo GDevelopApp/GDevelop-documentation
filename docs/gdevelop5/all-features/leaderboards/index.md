@@ -24,9 +24,9 @@ Use the action **"Save connected player score"** (or **"Save player score"** if 
 
 ![](/gdevelop5/all-features/leaderboards/pasted/20221202-093231.png)
 
-* If you haven't created a leaderboard yet, do so in the [Leaderboard administration interface](/gdevelop5/interface/games-dashboard/leaderboard-administration).
-* Once it is done, you can either select the leaderboard you want to send the score to, or use an expression to define the unique id of the leaderboard (if it is stored in a scene variable for instance).
-* Finally, set the score to send. A number field is available for this: you probably want to use a `Variable` expression to read the value of a variable in memory.
+  * If you haven't created a leaderboard yet, do so in the [Leaderboard administration interface](/gdevelop5/interface/games-dashboard/leaderboard-administration).
+  * Once it is done, you can either select the leaderboard you want to send the score to, or use an expression to define the unique id of the leaderboard (if it is stored in a scene variable for instance).
+  * Finally, set the score to send. A number field is available for this: you probably want to use a `Variable` expression to read the value of a variable in memory.
 
 ![](/gdevelop5/all-features/leaderboards/pasted/20221202-094705.png)
 
@@ -49,8 +49,8 @@ Use the action "**Display leaderboard**" to load and display a leaderboard on th
 
 While it's **loading**, to let the player know that the leaderboard will display soon, you have the choice between 2 options:
 
-- Display **the built-in loader** (using the option available in the action)
-- Use the condition "Leaderboard display is loading" to trigger an action (display a text "Loading" for example)
+  - Display **the built-in loader** (using the option available in the action)
+  - Use the condition "Leaderboard display is loading" to trigger an action (display a text "Loading" for example)
 
 Either case, if there's an error during the display, *it will close automatically*. You can also use the 2 conditions "Leaderboard display has errored" and "Leaderboard display has loaded" if you want to add logic around a possible error.
 
@@ -64,14 +64,14 @@ We recommend that you send back the player to a menu scene or a non gameplay sce
 
 In some games, you may want to pause the scene while the leaderboard is displayed. For this, you can use an intermediate scene:
 
-- Suppose you have a scene that is named "Level 1"
-- Create a new scene "LeaderboardBackground"
-    - This scene will run in background when the leaderboard is displayed
-- In the events sheet of scene "Level 1", add this event:
+  - Suppose you have a scene that is named "Level 1"
+  - Create a new scene "LeaderboardBackground"
+      - This scene will run in background when the leaderboard is displayed
+  - In the events sheet of scene "Level 1", add this event:
 
 ![](/gdevelop5/all-features/leaderboards/pasted/20220414-154529.png)
 
-- In the events sheet of scene "LeaderboardBackground", add this event to go back to "Level 1" scene:
+  - In the events sheet of scene "LeaderboardBackground", add this event to go back to "Level 1" scene:
 
 ![](/gdevelop5/all-features/leaderboards/pasted/20220414-154906.png)
 
@@ -94,7 +94,6 @@ To help you respect those constraints, the action will apply the expression `Lea
 | `"Brûlé"` | `"Brule"` | Diacritic marks removed |
 | `"aPlayerNameTh4tIsT00LongToBeSaved"` | `"aPlayerNameTh4tIsT00LongToBeSa"` | Name truncated if too long |
 | `""` (empty) | `"Player89456"` | Random name if input is empty (5-digits-long number) |
-
 
 ## Reference
 

@@ -33,6 +33,7 @@ GD 4.0.97, 3 Apr 2018
 The GDevelop discord is open since December 14, 2016
 
 ## Why is GDevelop can not export directly to mobile and desktop and why use an online build service instead?
+
 Building games as stand-alone executables for Windows, macOS, Linux or for a mobile platform like Android need large, heavyweight SDKs to be downloaded and properly installed (for example, the Android SDK).
 Things can break easily in case of misconfiguration.
 Instead, GDevelop can do all the packaging automatically - without having to install, configure or do anything - using the one click exports (that are powered by an online build service).
@@ -40,6 +41,7 @@ Instead, GDevelop can do all the packaging automatically - without having to ins
 Note that it’s perfectly possible to export and do manual compilation using technologies like Electron or Cordova - but this requires to install these development tools and others.
 
 ## Is GDevelop trying to copy and be a free alternative to Construct (they look and feel very similar)?
+
 No, GDevelop was started roughly at the same time as Construct 1. The ideas behind both softwares are similar - because Construct team and GDevelop authors naturally found similar concepts to work. In particular, behaviors and events have been “discovered” by both teams separately as a superior alternative to any other kind of visual programming.
 
 Such concepts can then have been integrated into other game engines, or the other way, GDevelop or Construct can have been inspired by each other or by other game engines.
@@ -54,14 +56,14 @@ It's open source, meaning you can check all the code online.
 
 GDevelop is a 2D-centric engine, we strive to provide a fast and easy to use engine for everyone.
 There are many things left to do in 2D, exploring the totally different world of 3D is not yet planned.
-If you're looking for a 3D game engine here's a list: https://en.wikipedia.org/wiki/List_of_game_engines
+If you're looking for a 3D game engine here's a list: <https://en.wikipedia.org/wiki/List_of_game_engines>
 
 ## I saw an update being announced, but GDevelop isn't auto-updating.
 
 When an update is published, we do not directly mark it as latest for the auto-updater, as we don't want to make everyone update in case the new version has an important issue.
 Note that it sometimes happen that the auto-updater breaks, you'll need to manually download the next version in that case.
 To download a new version that just got published, download it on GDevelop's GitHub releases page:
-https://github.com/4ian/GDevelop/releases/
+<https://github.com/4ian/GDevelop/releases/>
 
 ## The text objects are blurry when scaled, how can I fix that?
 
@@ -71,6 +73,7 @@ Sadly, that is a known issue with the renderer and its way of scaling. Fortunate
 
 No, as the GDevelop team doesn't have the time/devices to test efficiently releases on raspberry pi, and it is too much trouble to support a full other platform more than the 3 main ones.
 Don't worry though, you should be able to build it yourself with those commands:
+
 ```sh
 sudo apt-get update
 sudo apt-get install npm git
@@ -85,32 +88,32 @@ npm run build -- -l AppImage --arm64
 ## Where can I find the latest nightly build?
 
 You can find it here:
-https://gdevelop-releases.s3.amazonaws.com/master/latest/GDevelop%205%20Setup%205.0.0-beta103.exe
+<https://gdevelop-releases.s3.amazonaws.com/master/latest/GDevelop%205%20Setup%205.0.0-beta103.exe>
 You may need to replace the "beta103" with the latest released version of GDevelop.
-For more details, see this document: https://github.com/4ian/GDevelop/blob/master/newIDE/docs/Nightly-Builds-and-continuous-deployment.md
+For more details, see this document: <https://github.com/4ian/GDevelop/blob/master/newIDE/docs/Nightly-Builds-and-continuous-deployment.md>
 
 ## How can I make multiplayer?
 
 You can do networking in GDevelop using the P2P, MQTT or Firebase extension.
 Using those, you can communicate data over the internet from one game instance to the other. By sending data like player position and the general state of the game, you can make multiplayer.
-P2P docs: http://wiki.compilgames.net/doku.php/gdevelop5/all-features/p2p
-MQTT docs: http://wiki.compilgames.net/doku.php/gdevelop5/extensions#mqtt_client_advanced
-Firebase docs: http://wiki.compilgames.net/doku.php/gdevelop5/all-features/firebase
-P2P example: https://editor.gdevelop.io/?project=example://p2p-networking
-Firebase example: https://editor.gdevelop.io/?project=example://firebase-example
-
+P2P docs: <http://wiki.compilgames.net/doku.php/gdevelop5/all-features/p2p>
+MQTT docs: <http://wiki.compilgames.net/doku.php/gdevelop5/extensions#mqtt_client_advanced>
+Firebase docs: <http://wiki.compilgames.net/doku.php/gdevelop5/all-features/firebase>
+P2P example: <https://editor.gdevelop.io/?project=example://p2p-networking>
+Firebase example: <https://editor.gdevelop.io/?project=example://firebase-example>
 
 ## How can I contribute to GDevelop?
 
 Any kind of work that spreads the word about GDevelop or improves the user experience is a contribution. Some examples of valuable contributions:
-- Help edit the documentation wiki
-- Answer questions on the forum/discord
-- Build example games
-- Create tutorials and other GDevelop content
-- Build extensions
-- Test and search for bugs in new features in nightly builds
-- Provide good bug reports
-- Talk about GDevelop to big group of people/schools
-- Help translate the project on Crowdin
-- Create a good game and leave the "Made with GDevelop splash screen"
-- And of course writing code for the engine itself
+
+  - Help edit the documentation wiki
+  - Answer questions on the forum/discord
+  - Build example games
+  - Create tutorials and other GDevelop content
+  - Build extensions
+  - Test and search for bugs in new features in nightly builds
+  - Provide good bug reports
+  - Talk about GDevelop to big group of people/schools
+  - Help translate the project on Crowdin
+  - Create a good game and leave the "Made with GDevelop splash screen"
+  - And of course writing code for the engine itself

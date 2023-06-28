@@ -24,7 +24,7 @@ Download it and store it somewhere on your computer.
 
 ## Create the app and fill in the app details
 
-Connect to the Play Store Developer Console (https://play.google.com/apps/publish/). On the pages listing your applications, click on **Create Application**:
+Connect to the Play Store Developer Console (<https://play.google.com/apps/publish/>). On the pages listing your applications, click on **Create Application**:
 
 ![](/gdevelop5/publishing/android_and_ios/play-store/pasted/20210721-144512.png)
 
@@ -60,8 +60,8 @@ In **What's new in this release?**, enter the release notes that should be displ
 
 If there is an error telling you that the upload failed, read the error message to know more about what went wrong. Usually, it means that:
 
-* The package name is not correct. In GDevelop, using [the project manager](http://wiki.compilgames.net/doku.php/gdevelop5/interface/project-manager), enter a new, unique package name
-* Or you used the same package name as an existing application. Choose another in the [the project manager](http://wiki.compilgames.net/doku.php/gdevelop5/interface/project-manager) and package again your game to create a new AAB.
+  * The package name is not correct. In GDevelop, using [the project manager](http://wiki.compilgames.net/doku.php/gdevelop5/interface/project-manager), enter a new, unique package name
+  * Or you used the same package name as an existing application. Choose another in the [the project manager](http://wiki.compilgames.net/doku.php/gdevelop5/interface/project-manager) and package again your game to create a new AAB.
 
 !!! note
 
@@ -77,7 +77,6 @@ Before making your game public, you must finish the enter all the details about 
 
 Once you've completed everything, entered a nice description, set up beautiful screenshots and uploaded the Android App Bundle of your game, you can go back to the **Release** section. Click on **Production** and create a release for it.
 
-
 ## Congratulations! The game is on the Play Store.
 
 **Congrats!** You've made it and published your game.
@@ -86,6 +85,5 @@ Some users can have to wait for a few hours before seeing the game in the Play S
 Remember to tell about it on social medias, on the Discord and on the forum to let the community know that you've published a game 🚀
 
 !!! tip
-
 
     Later, if you want to publish an upload, be sure to increase the version number (in the game properties in GDevelop). Otherwise, the Play Store will reject the new Android App Bundle if it has the same version number as an existing one.

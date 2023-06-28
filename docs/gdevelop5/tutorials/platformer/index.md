@@ -7,9 +7,9 @@ This tutorial explains how to create a platformer game with GDevelop. If you've 
 
 You'll learn how to:
 
-- Design a level with platforms, enemies, and collectible coins.
-- Create a playable character that can move, jump, and kill enemies.
-- Return the playable to checkpoints when they die.
+  - Design a level with platforms, enemies, and collectible coins.
+  - Create a playable character that can move, jump, and kill enemies.
+  - Return the playable to checkpoints when they die.
 
 ## Series
 
@@ -30,11 +30,11 @@ If you haven't already, download and install GDevelop. You can find the full ins
 
 ## Step 2: Download the game's assets
 
-The term *assets* refers to a game's audio and visual media, such as sound effects and sprites. Every game needs assets and, to make your life that little bit easier, this tutorial provides the assets you need to create the game.
+The term _assets_ refers to a game's audio and visual media, such as sound effects and sprites. Every game needs assets and, to make your life that little bit easier, this tutorial provides the assets you need to create the game.
 
 You can download the assets via the following URL:
 
-http://www.compilgames.net/dl/PlatformerTutorialResources.zip
+<http://www.compilgames.net/dl/PlatformerTutorialResources.zip>
 
 !!! note
 
@@ -125,8 +125,8 @@ To stop the preview, close the preview window.
 
 It's also good to get into the habit of regularly saving your games. You can save the game via the **File** menu or by using a keyboard shortcut:
 
-- `CTRL` + `S` on Windows
-- `CMD` + `S` on macOS
+  - `CTRL` + `S` on Windows
+  - `CMD` + `S` on macOS
 
 ## Next step
 

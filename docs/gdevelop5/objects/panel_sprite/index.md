@@ -25,7 +25,7 @@ The texture is split into 9 segments, 1 to 9. Each of those segments will be sca
 
 While the normal sprite object's image is scaled uniformly, the 9 patch sprite object's image is scaled as different segments, maintaining their proportion and the image's quality.
 
-###  Using a Panel sprite
+### Using a Panel sprite
 
 To use the Panel Sprite, create a new object from the Objects panel on the right. Once you've created the object, you can set the size of the margins for each border around the object. Margins are the top, left, right, and bottom lines that separate each segment. The default width and height in the object properties should represent the size of the total image used, in pixels.
 

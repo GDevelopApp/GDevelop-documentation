@@ -15,7 +15,6 @@ These tutorials are step-by-step guides that explain how to create a game from s
   * **[Create a platform game](/gdevelop5/tutorials/platformer)**
   * **[Create a space shooter game](/gdevelop5/tutorials/space-shooter)**
 
-
 Community tutorials:
 
   * [Understand and use the Noise generator extension for procedural Generation](/gdevelop5/tutorials/procedural-generation)
@@ -25,7 +24,6 @@ Community tutorials:
   * [Create a simple Breakout game](/gdevelop5/tutorials/breakout)
   * [Create a top down shooter game](/gdevelop5/tutorials/topdown-shooter)
 
-
 Recommended reads to go further:
 
   * **[How to create a behavior for an object](/gdevelop5/tutorials/how-to-make-behavior)**
@@ -33,6 +31,7 @@ Recommended reads to go further:
 ----
 
 # GDevelop short guides ("how to")
+
 The following guides provide explanations for certain parts of GDevelop. They also show you some advanced mechanics for designing your games:
 
   * **[How to create a behavior for an object](/gdevelop5/tutorials/how-to-make-behavior)**
@@ -51,6 +50,7 @@ The following guides provide explanations for certain parts of GDevelop. They al
   * [How to align text](/gdevelop5/tutorials/aligning-text)
   * [How to follow the player (or an object) with the camera?](/gdevelop5/tutorials/follow-player-with-camera)
   * [How to rotate objects?](/gdevelop5/tutorials/how-to-rotate-objects)
+
 ----
 
 # GDevelop video tutorials
@@ -59,22 +59,23 @@ Check out the [official GDevelop Channel here](https://www.youtube.com/channel/U
 
   * See the [full list of video tutorials](/gdevelop5/tutorials/videos)
 
-
 ----
 
 # Other guides
+
 The guides below provide game development related explanations. They are not specific to GDevelop.
 
- * [Build .apk of your games with cordova](http://wiki.compilgames.net/doku.php/gdevelop5/publishing/android_and_ios_with_cordova)
- * [Publish your game to itch.io](/gdevelop5/publishing/publishing-to-itch-io)
- * [publishing to amazon app store](/gdevelop5/publishing/publishing-to-amazon-app-store)
- * [publishing to gamejolt store](/gdevelop5/publishing/publishing-to-gamejolt-store)
- * [publishing to kongregate store](/gdevelop5/publishing/publishing-to-kongregate-store)
- * [Before publishing your game](http://wiki.compilgames.net/doku.php/gdevelop5/tutorials/before-publishing-your-game)
+  * [Build .apk of your games with cordova](http://wiki.compilgames.net/doku.php/gdevelop5/publishing/android_and_ios_with_cordova)
+  * [Publish your game to itch.io](/gdevelop5/publishing/publishing-to-itch-io)
+  * [publishing to amazon app store](/gdevelop5/publishing/publishing-to-amazon-app-store)
+  * [publishing to gamejolt store](/gdevelop5/publishing/publishing-to-gamejolt-store)
+  * [publishing to kongregate store](/gdevelop5/publishing/publishing-to-kongregate-store)
+  * [Before publishing your game](http://wiki.compilgames.net/doku.php/gdevelop5/tutorials/before-publishing-your-game)
 
 ----
 
 # Resources
+
 Links to 3rd party websites where you can find sprites, music and sound effects for your games and game examples, templates and software to help you with game development.
 
   * [resources](/gdevelop5/tutorials/resources)

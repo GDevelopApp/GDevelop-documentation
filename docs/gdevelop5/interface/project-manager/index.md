@@ -22,5 +22,3 @@ You can fold and unfold each category by clicking on the small arrow next to eac
   * **External events:** [External events](/gdevelop5/interface/events-editor/External-events) are event sheets that are not linked to any particular scene. You can create an external event sheet and then link to it anywhere in your game's events. This allows developers to create their game logic once, and then reuse that logic throughout their project.
 
   * **External layouts:** Similar to external events, you can create an external layout for anything you want to use throughout your project(like UI and menu set ups), and then load them into any scene you choose. See [External Layouts](/gdevelop5/interface/scene-editor/external-layouts) to learn how to use them.
-
-

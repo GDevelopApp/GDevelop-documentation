@@ -32,9 +32,7 @@ The "Platformer gamepad mapper" behavior can be added to the character to make t
 
 !!! tip
 
-
     Learn more about the [Platform Character behavior](/gdevelop5/behaviors/platformer).
-
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://platformer){ .md-button .md-button--primary }
 
@@ -60,8 +58,8 @@ Detecting pressed buttons can be done with the **Gamepad button pressed** (or **
 
 Each gamepad connected to the computer or phone is numbered from 1 to 4:
 
-* If your game is single player, you'll usually always use condition for the Gamepad 1.
-* If your game is multi player, it's a good idea to use the **Gamepad connected** condition to check which gamepads are connected. You could store in a variable the gamepad number associated to a player. You can also force the first player to use the Gamepad 1, and the other player to use Gamepad 2.
+  * If your game is single player, you'll usually always use condition for the Gamepad 1.
+  * If your game is multi player, it's a good idea to use the **Gamepad connected** condition to check which gamepads are connected. You could store in a variable the gamepad number associated to a player. You can also force the first player to use the Gamepad 1, and the other player to use Gamepad 2.
 
 ![](gamepad-condition-connected.png)
 

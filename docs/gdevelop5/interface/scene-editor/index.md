@@ -33,8 +33,8 @@ You can find the **Instance Properties panel** on the left side of the Scene Edi
 
 An object that you put on the scene _is called **an instance**_. The Properties panel allows you to change the properties of the selected instance(s):
 
-* This can be the instance coordinates on the scene, scale, and Z-order. All objects share common properties (as well as common actions and conditions in events). **You can [learn about these here](/gdevelop5/objects/base_object)**.
-* Some objects can also have special properties. For example, a [Sprite object](/gdevelop5/objects/sprite) allow you to set the initial animation of each instance on the scene (the default animation being the first). Read about [objects](/gdevelop5/objects) to see all the objects that you can use in GDevelop.
+  * This can be the instance coordinates on the scene, scale, and Z-order. All objects share common properties (as well as common actions and conditions in events). **You can [learn about these here](/gdevelop5/objects/base_object)**.
+  * Some objects can also have special properties. For example, a [Sprite object](/gdevelop5/objects/sprite) allow you to set the initial animation of each instance on the scene (the default animation being the first). Read about [objects](/gdevelop5/objects) to see all the objects that you can use in GDevelop.
 
 !!! tip
 
@@ -90,15 +90,16 @@ By clicking the grid button in the toolbar, you get multiple options:
 
 ![](/gdevelop5/interface/scene-editor/pasted/20230307-154726.png)
 
-* **Show mask**: this option displays or hides a black border on the scene. It represents the size of the game window.
-* **Show grid:** this option turns the grid off or on within the scene editor. Having a grid is useful when we need to place objects accurately.
-* **Setup grid:** this option opens a window that allows you to set up the size and position of the grid.
+  * **Show mask**: this option displays or hides a black border on the scene. It represents the size of the game window.
+  * **Show grid:** this option turns the grid off or on within the scene editor. Having a grid is useful when we need to place objects accurately.
+  * **Setup grid:** this option opens a window that allows you to set up the size and position of the grid.
 
 ### Change editor zoom
 
 By clicking on the zoom button, you can change the zoom level inside the scene editor:
 
 ![](/gdevelop5/interface/scene-editor/pasted/20230307-154849.png)
+
 ## Launch a preview of the scene
 
 By clicking on the "Preview" button, you can launch a preview of your game.

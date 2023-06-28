@@ -7,8 +7,8 @@ This part of the tutorial explains how to animate the playable character.
 
 You'll learn how to:
 
-- Add animations to an object.
-- Use events to trigger animations.
+  - Add animations to an object.
+  - Use events to trigger animations.
 
 ## Series
 
@@ -22,7 +22,6 @@ You are reading **Part 4** of the [Platformer Tutorial](/gdevelop5/tutorials/pla
 6. [Part 6: Add Enemies to the Game](/gdevelop5/tutorials/platformer/part-6)
 7. [Part 7: Make Enemies Kill the Player (and the Player Kill the Enemies)](/gdevelop5/tutorials/platformer/part-7)
 8. [Part 8: Add Checkpoints to the Game](/gdevelop5/tutorials/platformer/part-8)
-
 
 ## Step 1: Add a jumping animation to the player
 
@@ -107,12 +106,11 @@ If you preview the game, the "Player" object resets to the "Idle" animation afte
 
 1. Add an animation named "Running" to the "Player" object.
 2. From the file chooser, select all of the following assets:
-
-   - p1_walk03.png
-   - p1_walk04.png
-   - p1_walk05.png
-   - p1_walk06.png
-   - p1_walk07.png
+    - p1_walk03.png
+    - p1_walk04.png
+    - p1_walk05.png
+    - p1_walk06.png
+    - p1_walk07.png
 3. Enable the **Loop** option. When enabled, the animation continually plays for as long as it's active (rather than playing once and stopping).
 4. Click **Apply**.
 

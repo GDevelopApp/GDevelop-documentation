@@ -1,7 +1,7 @@
 ---
 title: Firebase Setup
 ---
-##  Firebase Setup
+## Firebase Setup
 
 To use Firebase, you have to connect it to a Firebase account. This page explains how to do so.
 
@@ -39,36 +39,36 @@ Firebase will now show you some code known as the firebase SDK that you would us
 
 ![](/gdevelop5/all-features/firebase/fb1.png)
 
-You only need the Firebase configuration part. Copy-paste the part between the {} including the {}. For example, in this screenshot what we need to copy is: ```
+You only need the Firebase configuration part. Copy-paste the part between the {} including the {}. For example, in this screenshot what we need to copy is:
 
-    {
-        apiKey: "AIzaSyCbFhG_bCyAvnxlmVSgIgn7Em0XOYE9YXA",
-        authDomain: "tutorial-gdevelop.firebaseapp.com",
-        databaseURL: "https://tutorial-gdevelop.firebaseio.com",
-        projectId: "tutorial-gdevelop",
-        storageBucket: "tutorial-gdevelop.appspot.com",
-        messagingSenderId: "386980638073",
-        appId: "1:386980638073:web:b00afc0ecb3ed7ca4f53a8",
-        measurementId: "G-R0KBN0HPQ8"
-    }
-
+```text
+{
+    apiKey: "AIzaSyCbFhG_bCyAvnxlmVSgIgn7Em0XOYE9YXA",
+    authDomain: "tutorial-gdevelop.firebaseapp.com",
+    databaseURL: "https://tutorial-gdevelop.firebaseio.com",
+    projectId: "tutorial-gdevelop",
+    storageBucket: "tutorial-gdevelop.appspot.com",
+    messagingSenderId: "386980638073",
+    appId: "1:386980638073:web:b00afc0ecb3ed7ca4f53a8",
+    measurementId: "G-R0KBN0HPQ8"
+}
 ```
 
 Now open the GDevelop project you want to integrate Firebase to, and go to the project properties. In the "Firebase Configuration" field, paste the configuration you copied. However, the format used by GDevelop is stricter than the code provided by Firebase. You need to wrap all the key names with quotes. The example would become:
 
+```text
+{
+    "apiKey": "AIzaSyCbFhG_bCyAvnxlmVSgIgn7Em0XOYE9YXA",
+    "authDomain": "tutorial-gdevelop.firebaseapp.com",
+    "databaseURL": "https://tutorial-gdevelop.firebaseio.com",
+    "projectId": "tutorial-gdevelop",
+    "storageBucket": "tutorial-gdevelop.appspot.com",
+    "messagingSenderId": "386980638073",
+    "appId": "1:386980638073:web:b00afc0ecb3ed7ca4f53a8",
+    "measurementId": "G-R0KBN0HPQ8"
+}
 ```
 
-    {
-        "apiKey": "AIzaSyCbFhG_bCyAvnxlmVSgIgn7Em0XOYE9YXA",
-        "authDomain": "tutorial-gdevelop.firebaseapp.com",
-        "databaseURL": "https://tutorial-gdevelop.firebaseio.com",
-        "projectId": "tutorial-gdevelop",
-        "storageBucket": "tutorial-gdevelop.appspot.com",
-        "messagingSenderId": "386980638073",
-        "appId": "1:386980638073:web:b00afc0ecb3ed7ca4f53a8",
-        "measurementId": "G-R0KBN0HPQ8"
-    }
-
-``` ![](/gdevelop5/all-features/firebase/quickstart6.png)
+![](/gdevelop5/all-features/firebase/quickstart6.png)
 
 You can now start using [Firebase services](/gdevelop5/all-features/firebase).

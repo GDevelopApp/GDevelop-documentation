@@ -5,7 +5,6 @@ title: Publish your game to Windows, macOS and Linux
 
 GDevelop can publish games to Windows, macOS, and even Linux!
 
-
 ## Make sure that your game is ready for packaging!
 
 It is important to verify that your game is ready to be exported as an executable:
@@ -43,9 +42,9 @@ When finished, you will see a download button for each platform that was selecte
 
 ### Play the game
 
-* On Windows, double click on the executable file with the name of your game to launch it.
-* On macOS, extract the archive and double click on the app to launch it.
-* On Linux, [install the AppImage](https://appimage.org/) to run the game
+  * On Windows, double click on the executable file with the name of your game to launch it.
+  * On macOS, extract the archive and double click on the app to launch it.
+  * On Linux, [install the AppImage](https://appimage.org/) to run the game
 
 !!! note
 

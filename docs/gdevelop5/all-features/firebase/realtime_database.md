@@ -15,12 +15,14 @@ The data is all stored in a JSON tree, which is comparable with a [structure var
 There are a few key differences though:
 
 #### Access of children
+
 Unlike GDevelop variables, where you get the child via `<structureVariable>.<childVariableName>`, on Realtime Database you get it with a slash:
 `<structureVariable>/<childVariableName>`. That means that for dynamic access, you would write the path name as
 `"structure/" + VariableString(dynamicVariableAccess) + "/specificProperty"`, unlike GDevelop structures where you write it this way:
 `Variable(structure[VariableString(dynamicVariableAccess)].specificProperty)`
 
 #### Nesting of children
+
 While in GDevelop there is no fixed limit of how deep the nesting of children can go, Realtime Database doesn't let you have
 a higher deepness than 32.
 
@@ -43,6 +45,7 @@ You may not want to allow everyone to write everything.
 Else, everyone could modify the data of the others! To choose who can access what and how, Firebase has the rules system.
 It interoperates with [Firebase authentication](/gdevelop5/all-features/firebase/authentication), so that you can write this rule to only let
 authenticated players write the authonly variable of the database:
+
 ```json
 {
   "rules": {
@@ -56,6 +59,7 @@ authenticated players write the authonly variable of the database:
 
 You could also have a variable with all users, and have for each child (named after the user uid) have their permissions as a map.
 Here for example, you could allow every user with the "verified" permission to access their own variable named by their user id in the `userdata` variable, every authenticated user to read the `globaldata` variable and every admin to write all variables:
+
 ```json
 {
   "rules": {

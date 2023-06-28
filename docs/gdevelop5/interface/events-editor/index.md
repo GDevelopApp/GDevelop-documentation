@@ -61,13 +61,13 @@ There are some common actions like copying, pasting, cutting, deleting, undoing,
 
 ![](/gdevelop5/interface/events-editor/pasted/20230313-181706.png)
 
-###Toggle disabled
+### Toggle disabled
 
 Disables the selected event and it's sub-events. When disabled, the event and all sub-events will be ignored while the game is running. The disabled events will have strike-through text on the actions and conditions.
 
 ![](/gdevelop5/interface/events-editor/pasted/20230313-182023.png)
 
-###Add an Event Below
+### Add an Event Below
 
 **Add a New Event Below**
 
@@ -81,25 +81,25 @@ Adds an empty sub-event under the selected event.
 
 Allows you to add other event blocks like a comment, group, while, repeat for each, etc..
 
-###Extract Events to a Function
+### Extract Events to a Function
 
 Extracts the selected event and it's sub-events into a function.
 
 Read more about how to [extracts events](/gdevelop5/events/functions/extract-events).
 
-###Move events into a group
+### Move events into a group
 
 Makes a new group and moves the selected event and it's sub-events into that group.
 
 Read more about [groups](/gdevelop5/events/group).
 
-###Analyse Objects Used in this Event
+### Analyse Objects Used in this Event
 
 Analyses and shows a list of all the objects, object groups and behaviours used in the selected events and it's sub-events.
 
 ![](/gdevelop5/interface/events-editor/pasted/20230313-182932.png)
 
-###Changing the colour of comments and groups
+### Changing the colour of comments and groups
 
 You can change the colour of **comments** and **event group** by right-clicking and selecting **Edit**.
 
@@ -116,11 +116,13 @@ By clicking the Delete selected events button, selected events will be removed f
 ![](/gdevelop5/interface/events-editor/pasted/20230313-183632.png)
 
 ## Undo/Redo changes
+
 Any change can be undone or redone with these buttons toolbar buttons. (or by using keyboard shortcuts ctrl+ Z/Y)
 
 ![](/gdevelop5/interface/events-editor/pasted/20230313-183819.png)
 
 ## Search in events
+
 The "search in events" button opens a panel at the bottom of the screen. You can search for a specific term in the parameters of the conditions and actions. You can also enter a replacement parameter and replace all the occurrences of the text in the events.
 
 ![](/gdevelop5/interface/events-editor/pasted/20230313-184033.png)

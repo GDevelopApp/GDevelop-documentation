@@ -7,18 +7,18 @@ title: Physics behavior
 
     This is the documentation of the old Physics behavior. [Read the new documentation here](/gdevelop5/behaviors/physics2)!
 
-**[I would rather see the Physics behavior examples! Please take me there now.](/#Examples)
-**
+**[I would rather see the Physics behavior examples! Please take me there now.](/#Examples)**
 
 The "Physics" behavior allows objects to behave according to the laws of physics. Physics behavior applies real world physics to your game objects. Game objects can move, fall, roll, bounce and collide.
 
-
 ## Add behavior to object
+
 To add physics behavior to an object, open the object properties by right clicking on the created object in the Objects Editor. Then, select "Edit object" from the popup list that appears. Finally, select the Behaviors tab and click the "add behavior" button.
 Choose the "Physics engine":
 ![](physics-behavior-inlist.png)
 
 ## Properties
+
 Once the behavior is added to the object, there is a number of options to customize:
 ![](physics-behavior-options.png)
 
@@ -59,7 +59,6 @@ Consider dropping a ball on a table. A value of zero means the ball won't bounce
 _inelastic collision._ A value of one means the ball's velocity will be exactly reflected. This is called a
 _perfectly elastic collision_.
 
-
 # Examples
 
 !!! tip
@@ -73,15 +72,11 @@ _perfectly elastic collision_.
 
 [![](hingeleverdemo.png)](https://editor.gdevelop.io/?project=example://physics)
 
-
-
 **Car Physics**
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://car-physics){ .md-button .md-button--primary }
 
 [![](carphysics.png)](https://editor.gdevelop.io/?project=example://car-physics)
-
-
 
 **Object Gravity**
 

@@ -43,12 +43,12 @@ When a function is selected, on the top, you can see the configuration of the fu
 
 ![](/gdevelop5/events/functions/pasted/20221118-093605.png)
 
-* The first parameter is the type of the function: "Action", "Condition", "Expression" or "String Expression". If you choose Action or Condition, you'll find the function in the list of actions and conditions, when editing your events in the game. If you choose Expression (or String Expression), you'll find it in the list of expressions when you edit a formula.
-* You can then configure the name that will be displayed in the list.
-* Enter the description that will be given in the window, when choosing the parameters for the function.
-* For Action or Condition, you can enter the sentence that will be displayed in the events sheet. In case your function takes parameters (see below to learn more about these), you can include them by writing `PARAMx` between underscores, replacing `x` by the parameter number (starting at 1):
+  * The first parameter is the type of the function: "Action", "Condition", "Expression" or "String Expression". If you choose Action or Condition, you'll find the function in the list of actions and conditions, when editing your events in the game. If you choose Expression (or String Expression), you'll find it in the list of expressions when you edit a formula.
+  * You can then configure the name that will be displayed in the list.
+  * Enter the description that will be given in the window, when choosing the parameters for the function.
+  * For Action or Condition, you can enter the sentence that will be displayed in the events sheet. In case your function takes parameters (see below to learn more about these), you can include them by writing `PARAMx` between underscores, replacing `x` by the parameter number (starting at 1):
 
-```
+```text
 Rotate objects _PARAM1_
 ```
 
@@ -78,11 +78,11 @@ For example, we can add a parameter, that would return the objects to be rotated
 
 When your function is configured, you can add events to it. These events will be launched when the condition, action or expression is used in the rest of the game.
 
-* You can use all the existing events, actions, conditions and expressions, but you are limited to the **objects that you entered as parameters**. This is to ensure that your function is only acting on them, and has no "side-effects" on the rest of the game - which would be a bad practice and make functions hard to reuse and to generate.
+  * You can use all the existing events, actions, conditions and expressions, but you are limited to the **objects that you entered as parameters**. This is to ensure that your function is only acting on them, and has no "side-effects" on the rest of the game - which would be a bad practice and make functions hard to reuse and to generate.
 
-* Note that functions can be reused everywhere, and are not limited to a scene. You **won't have the list of variables of your scenes** in them. You can still manipulate them by using the usual actions and manually writing the variable you want to modify.
+  * Note that functions can be reused everywhere, and are not limited to a scene. You **won't have the list of variables of your scenes** in them. You can still manipulate them by using the usual actions and manually writing the variable you want to modify.
 
-* **Links** are not available in functions, because a function is autonomous and is in theory not even tied to a project.
+  * **Links** are not available in functions, because a function is autonomous and is in theory not even tied to a project.
 
 #### Object parameter
 
@@ -106,10 +106,6 @@ Here is an example of a text parameter that will get the name and use it in an a
 
 ![](/gdevelop5/events/function_text_expression.png)
 
-
-
-
-
 ## Using the function in your game
 
 When you have configured and created the events for your function, you can use it in the rest of your game.
@@ -122,13 +118,11 @@ That's it! The function is used like any other condition, action or expression i
 
 !!! tip
 
-
     The **Object Groups** feature, while creating functions, helps grouping similar object parameters. This way you can apply an action/condition to a group of object parameters (parameters pointing at objects) at once.
 
 ## Advanced usages
 
 This page gave a basic overview of what functions are. They are one of the more powerful features of GDevelop, as you can extend the events by using them, enabling to create very readable and concise events sheets. By using them, you can reduce the amounts of events that you write for your game, avoid copy-pasting them and even reduce bugs by ensuring that functions are always used for common tasks on your objects.
-
 
 ### Recursive functions
 
@@ -147,7 +141,6 @@ Functions can be shared across projects (like actions/conditions that are built 
 !!! tip
 
     See [an example of replacing external events by a function](/gdevelop5/events/functions/replace-external-events), which is reusable and shareable. You can also **[automatically extract events to a function](/gdevelop5/events/functions/extract-events)**.
-
 
 ## References of parameters
 
@@ -170,15 +163,14 @@ Parameters in function can be various:
 | [Object animation](/gdevelop5/objects/sprite/#adding-an-animation) | Text         | The name of an animation from an object                   |
 | [Identifier](/gdevelop5/events/functions#identifier-parameter) | Text         | Allow the auto-complete to suggest previously used values |
 
-
 ### Identifier parameter
 
 This parameter enables auto-completion for previously entered values from other events with the same identifier name and scope.
 
 #### Scopes
 
-- **Object** - To suggest previously used values on the same object.
-- **Scene** - To suggest previously used values from the scene events.
+  - **Object** - To suggest previously used values on the same object.
+  - **Scene** - To suggest previously used values from the scene events.
 
 #### Identifier name
 

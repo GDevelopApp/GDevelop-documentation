@@ -29,7 +29,9 @@ You can now close the preview window. When running the preview again, the stored
 On desktop computers, local storage will always be located here:
 
 ### Desktop export
+
 #### Windows Path
+
 **<User Path Drive Letter>:\Users\<UserName>\AppData\Roaming\<Game Name>\Local Storage\leveldb**
 
 e.g. If on Windows 10, the User Profile folder is on the C: drive, the User's account name is BobBobson and the game is set to the name "My GD5 Game" in the game properties, this would be the path:
@@ -38,10 +40,12 @@ e.g. If on Windows 10, the User Profile folder is on the C: drive, the User's ac
 
 This will vary by Windows version and settings, but can normally be accessed by browsing to **%AppData%** then accessing the folder that matches the game name.
 
-####Linux Path
+#### Linux Path
+
 **home/<UserName>/.config/<Game Name>/Local Storage/leveldb**
 
 ### HTML5 Export
+
 If the game has been exported to an HTML5 build, and uploaded to a host such as Itch.io, local storage will be maintained with the //browser's// local storage.
 
 This will mean that each browser will have a unique location, and users will need to refer to that documentation if they want to locate it. This will also mean that most browsers will delete the save data if their local stored data is cleared.

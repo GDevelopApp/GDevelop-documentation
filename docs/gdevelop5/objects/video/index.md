@@ -16,9 +16,8 @@ Videos can be controlled using events: timing, state (play/paused), audio volume
 
 Support for videos can vary according to the device or browser running the game. It's recommended for a broad compatibility that the file is in  **.mp4** format, encoded as:
 
-* **H264** for the video,
-* **AAC** for the audio.
-
+  * **H264** for the video,
+  * **AAC** for the audio.
 
 ## Set up a video
 
@@ -31,12 +30,11 @@ The video object has several objects:
 Click on the field "Video resource", and then "Choose a new video file". For compatibility with most browsers, follow these pieces of advice for the video format:
 
 !!! warning
-    
+
         To ensure good compatibility, use the  **.mp4** format encoded as:
 
       * **H264** for the video,
       * **AAC** for the audio.
-    
 
 You can also choose:
 
@@ -103,7 +101,6 @@ To start a video or resume the video after pausing it, you can use the `Play a v
 You can also set the volume of a video using GDevelop. To compare the volume of a video, use the `Volume` condition. The maximum volume for a video is 100 and the minimum volume is 0 (muted).
 
 To set the volume of a video, use the `Set volume` condition. You can set it to any number between 0 to 100. The default volume is set to 100.
-
 
 ## Example
 

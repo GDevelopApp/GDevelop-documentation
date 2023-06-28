@@ -66,7 +66,3 @@ Like most objects, collisions can be detected by the shape painter object.  Shap
 ## Reference
 
 All actions, conditions and expressions are listed in [the shape painter reference page](/gdevelop5/all-features/primitive-drawing/reference/).
-
-
-
-

@@ -20,15 +20,14 @@ In the File menu, choose Export. Then choose **Publish on Stores**,  and select 
 
 ![](/gdevelop5/publishing/publish-mobile-locate.gif)
 
-
 ### Create an account if you don't have one
 
 To use the packaging for Android, you need a [GDevelop account](/gdevelop5/interface/profile). If you don't have one, click on "Create my account", enter your email and choose a password.
 
 Choose if you want to create an **APK** or an **Android App Bundle**:
 
-- An **APK** allows you to send the generated file to your phone and install it. It's ideal to quickly **test your game on your Android device**.
-- An **Android App Bundle** (also shorten to "AAB") is the format required to [publish to Google Play](/gdevelop5/publishing/android_and_ios/play-store). When you create a game on the Google Play Developer Console, you'll need to upload an AAB file.
+  - An **APK** allows you to send the generated file to your phone and install it. It's ideal to quickly **test your game on your Android device**.
+  - An **Android App Bundle** (also shorten to "AAB") is the format required to [publish to Google Play](/gdevelop5/publishing/android_and_ios/play-store). When you create a game on the Google Play Developer Console, you'll need to upload an AAB file.
 
 ![](/gdevelop5/publishing/publish-mobile-options.png)
 
@@ -46,23 +45,21 @@ In the end, you'll have a **Download** button to get the APK file that can be in
 
 Plug your Android phone/tablet into your computer and put the APK file somewhere in a folder of the device. Alternatively, you can also store the APK on cloud storage ([Dropbox](https://www.dropbox.com/), [Google Drive](http://drive.google.com/), [OneDrive](https://onedrive.live.com/about/en-in/)...) and download it on your device.
 
-Before installing the APK, go in Settings > Security and activate *Unknown sources*. This will enable you to [install the APK file](https://developer.android.com/studio/publish#publishing-unknown) even if it is not yet registered on the Google Play Store.
+Before installing the APK, go in Settings > Security and activate _Unknown sources_. This will enable you to [install the APK file](https://developer.android.com/studio/publish#publishing-unknown) even if it is not yet registered on the Google Play Store.
 
-Finally, open a *File Manager*, go in the folder containing your APK and touch it to start the installation:
+Finally, open a _File Manager_, go in the folder containing your APK and touch it to start the installation:
 
 ![](/gdevelop5/publishing/android-file-manager.png)
 
-The application is installed. Click *Open* to run it:
+The application is installed. Click _Open_ to run it:
 
 ![](/gdevelop5/publishing/android-app-installed.png)
-
 
 ### Play the game
 
 The game is now nicely installed on your phone! Launch it like any other app or game.
 
-You've created a *game for Android* directly from GDevelop! You can update it easily: just export and package the game again, send the APK to your phone or tablet and install it.
-
+You've created a _game for Android_ directly from GDevelop! You can update it easily: just export and package the game again, send the APK to your phone or tablet and install it.
 
 ## Subscribe to allow more packaging each day.
 

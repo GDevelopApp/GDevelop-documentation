@@ -18,7 +18,6 @@ You are reading **Part 6** of the [Platformer Tutorial](/gdevelop5/tutorials/pla
 7. [Part 7: Make Enemies Kill the Player (and the Player Kill the Enemies)](/gdevelop5/tutorials/platformer/part-7)
 8. [Part 8: Add Checkpoints to the Game](/gdevelop5/tutorials/platformer/part-8)
 
-
 ## Step 1: Create an object for the enemy
 
 1. Create a Sprite object named "Slime".
@@ -38,9 +37,9 @@ If you preview the game, an animated enemy appears on screen.
 
 The previous part of this tutorial mentioned that there were three types of variables:
 
-- Object
-- Scene
-- Global
+  - Object
+  - Scene
+  - Global
 
 An _object_ variable is tied to a specific object. This means the variable holds a value that is only available to -- and only relevant to -- the associated object.
 
@@ -123,7 +122,7 @@ This step focuses on creating the "Left" object. When the enemy collides with th
 1. Add the **Flip the object horizontally** action to the event.
 2. Set the **Activate flipping** option as **Yes**.
 
-This ensures that the "Slime" object changes *and* faces a different direction, rather than just changing directions.
+This ensures that the "Slime" object changes _and_ faces a different direction, rather than just changing directions.
 
 ### Change the enemy's direction
 
@@ -154,9 +153,9 @@ If you preview the game, the enemy appears to change direction by their own "cho
 
 After the enemy collides with the "Left" object, they start moving right and never stop moving right. To ensure they change direction again, create an object named "RIght". This object should be the same as the "Left" object, except for the following details:
 
-- Use the "right.png" asset.
-- When the "Player" object collides with the "Slime" object, set the "direction" variable to "right".
-- For the **Flip the object horizontally** action, set **Activate flipping** to **No**.
+  - Use the "right.png" asset.
+  - When the "Player" object collides with the "Slime" object, set the "direction" variable to "right".
+  - For the **Flip the object horizontally** action, set **Activate flipping** to **No**.
 
 Then drag an instance of the "Right" object into the scene, to the left of the enemy.
 

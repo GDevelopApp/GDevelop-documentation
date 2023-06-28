@@ -2,6 +2,7 @@
 title: Resources
 ---
 # Resources
+
 List of websites where you can find sprites, music, sound effects for your games and game examples, templates, 3rd party libraries and tools to help you with game development.
 
 ## Game Examples and Templates
@@ -64,7 +65,7 @@ List of websites where you can find sprites, music, sound effects for your games
   * [Accessible color combinations](https://randoma11y.com/?color=white) (Free)
   * [Muzli color palette](https://colors.muz.li/) (Free)
 
-##Mixed content of Sprite, Music and  Sound
+## Mixed content of Sprite, Music and  Sound
 
   * [opengameart.com](https://opengameart.org/) (Free)
   * [vg-resource.com](https://www.vg-resource.com/) (Free)

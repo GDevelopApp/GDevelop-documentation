@@ -24,11 +24,9 @@ To post your game publicly on gd.games, click on the "publish this build to the 
 From here you are given a new link and some new options for sharing your game through social media.
 
 !!! tip
-    
-        
+
     Games published can be submitted to [[https://docs.google.com/forms/d/e/1FAIpQLScntknY_lCidaFbUFveLjpTRh0vOv5RrjWklIkAzEvjuipZCg/viewform
     |this form]] to get curated on gd.games homepage!
-    
 
 ![](/gdevelop5/publishing/web/pasted/20220202-225818.png)
 

@@ -5,8 +5,8 @@ title: Global variables
 
 Global variables:
 
-- are stored in memory for as long as the game is running
-- can be accessed from any scene in the game
+  - are stored in memory for as long as the game is running
+  - can be accessed from any scene in the game
 
 They're useful for storing data that the entire game needs access to at all times, such as the player's score. They're only deleted from memory when the player quits the game.
 
@@ -30,19 +30,19 @@ You can use global variables in [expressions](/gdevelop5/all-features/expression
 
 ### Number
 
-```
+```javascript
 GlobalVariable(<variable_name>)
 ```
 
 ### Text
 
-```
+```javascript
 GlobalVariableString(<variable_name>)
 ```
 
 ### Structure
 
-```
+```javascript
 GlobalVariable(<parent_variable>.<child_variable>)
 GlobalVariableString(<parent_variable>.<child_variable>)
 ```
