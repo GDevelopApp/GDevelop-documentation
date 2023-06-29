@@ -13,7 +13,7 @@ In GDevelop, you can create your own **custom behaviors**. Like the usual, built
 
 ## Create a new behavior
 
-Behaviors are grouped into "extensions". Extensions are composed of custom functions (actions, conditions or expressions), custom behaviors or custom objects ("prefabs") powered by events. You can see the list of all the extensions the game has in the [Project Manager](/gdevelop5/interface/project-manager), as well as add a new extension:
+Behaviors are grouped into [extensions](/gdevelop5/extensions/). Extensions are composed of custom functions (actions, conditions or expressions), custom behaviors or custom objects ("prefabs") powered by events. You can see the list of all the extensions the game has in the [Project Manager](/gdevelop5/interface/project-manager), as well as add a new extension:
 
 ![](pasted/20210906-234510.png)
 
