@@ -127,7 +127,7 @@ This page gave a basic overview of what functions are. They are one of the more 
 
 !!! tip
 
-Functions that focus on an object can be grouped together in [custom behaviors](/gdevelop5/behaviors/events-based-behaviors/). It allows one step further to better organize a project.
+    Functions that focus on an object can be grouped together in [custom behaviors](/gdevelop5/behaviors/events-based-behaviors/). It allows one step further to better organize a project.
 
 
 ### Recursive functions
