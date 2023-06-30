@@ -210,7 +210,6 @@ Be sure to use logical animation names such as `run`, `jump`, `idle`, etc.
 
 **Textures** are supported only in format types that are contained, such as `.glb`, `.blend`, `.fbx`.
 
-**Texture** formats must be `.png` or `.jpg`.
 
 !!! note
     
