@@ -204,9 +204,9 @@ Supported 3D file formats are:
 **Animations** are taken into account and will be displayed in the store.
 Be sure to use logical animation names such as `run`, `jump`, `idle`, etc.
 
-**Scale/dimensions** of 3d models, be consistent, a building is always bigger than a character.
+**Dimensions** of 3d models must be consistent across a pack. For instance, props should fit characters hands.
 
-**The point of origin** is important, it will be used as a rotation point by GDevelop.
+**The point of origin** is important, it will be used as the position and rotation center of object in GDevelop.
 
 **Textures** are supported only in format types that are contained, such as `.glb`, `.blend`, `.fbx`.
 
