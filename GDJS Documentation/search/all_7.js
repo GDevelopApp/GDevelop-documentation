@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['jscodeevent',['JsCodeEvent',['../dc/d13/classgdjs_1_1_js_code_event.html',1,'gdjs']]],
-  ['jscodeevent_2ecpp',['JsCodeEvent.cpp',['../d1/df6/_js_code_event_8cpp.html',1,'']]],
-  ['jscodeevent_2eh',['JsCodeEvent.h',['../d8/db5/_js_code_event_8h.html',1,'']]],
-  ['jsplatform',['JsPlatform',['../d2/d3d/classgdjs_1_1_js_platform.html',1,'gdjs']]]
+  ['isbehaviorlifecycleeventsfunction',['IsBehaviorLifecycleEventsFunction',['../d7/d67/classgdjs_1_1_metadata_declaration_helper.html#ae514bc5dd9c1b66ce67eb6f1343b304f',1,'gdjs::MetadataDeclarationHelper']]],
+  ['isextensionlifecycleeventsfunction',['IsExtensionLifecycleEventsFunction',['../d7/d67/classgdjs_1_1_metadata_declaration_helper.html#a1c4219435e184c212ac31cbc1ece8859',1,'gdjs::MetadataDeclarationHelper']]],
+  ['isobjectlifecycleeventsfunction',['IsObjectLifecycleEventsFunction',['../d7/d67/classgdjs_1_1_metadata_declaration_helper.html#a7e40008fde507d253589e7558ffbedd6',1,'gdjs::MetadataDeclarationHelper']]]
 ];

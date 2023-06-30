@@ -85,6 +85,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_abstract_file_system.html">AbstractFileSystem</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An interface to manipulate files in a platform agnostic way. This allow exporters to work on files without knowing what is actually being used to manipulate files (Node.js, browser shims, etc...)  <a href="classgd_1_1_abstract_file_system.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_abstract_function_metadata.html">AbstractFunctionMetadata</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describe user-friendly information about an expression or an instruction (action or condition), its parameters and the function name as well as other information for code generation.  <a href="classgd_1_1_abstract_function_metadata.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_animation.html">Animation</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class representing an animation of a <a class="el" href="classgd_1_1_sprite_object.html" title="Standard sprite object for extensions that implements the standard SpriteExtension (see gd::BuiltinEx...">SpriteObject</a>.  <a href="classgd_1_1_animation.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -438,6 +441,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describe user-friendly information about an instruction (action or condition), its parameters and the function name as well as other information for code generation.  <a href="classgd_1_1_instruction_metadata.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_or_expression_container_metadata.html">InstructionOrExpressionContainerMetadata</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains user-friendly information about instructions and expressions (usually for a behavior or an object).  <a href="classgd_1_1_instruction_or_expression_container_metadata.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_or_expression_group_metadata.html">InstructionOrExpressionGroupMetadata</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains information about how to display a group of instructions to the user.  <a href="classgd_1_1_instruction_or_expression_group_metadata.html#details">More...</a><br /></td></tr>
@@ -935,6 +941,13 @@ bool GD_CORE_API&#160;</td><td class="memItemRight" valign="bottom"><b>LoadXmlFr
 <tr class="memitem:ad5bf5bac7e3abde553e85a647e1a9a12"><td class="memItemLeft" align="right" valign="top"><a id="ad5bf5bac7e3abde553e85a647e1a9a12"></a>
 bool GD_CORE_API&#160;</td><td class="memItemRight" valign="bottom"><b>SaveXmlToFile</b> (const TiXmlDocument &amp;doc, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;filepath)</td></tr>
 <tr class="separator:ad5bf5bac7e3abde553e85a647e1a9a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Non-member operators</div></td></tr>
+<tr class="memitem:a3eea5219d34c1bee22028a8d7ea874fd"><td class="memItemLeft" align="right" valign="top"><a id="a3eea5219d34c1bee22028a8d7ea874fd"></a>
+const <a class="el" href="classgd_1_1_string.html">String</a> &amp;GD_CORE_API&#160;</td><td class="memItemRight" valign="bottom"><b>operator||</b> (const <a class="el" href="classgd_1_1_string.html">String</a> &amp;lhs, const <a class="el" href="classgd_1_1_string.html">String</a> &amp;rhs)</td></tr>
+<tr class="separator:a3eea5219d34c1bee22028a8d7ea874fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af574b5fe2beae3d3c89d060121bac584"><td class="memItemLeft" align="right" valign="top"><a id="af574b5fe2beae3d3c89d060121bac584"></a>
+<a class="el" href="classgd_1_1_string.html">String</a> GD_CORE_API&#160;</td><td class="memItemRight" valign="bottom"><b>operator||</b> (<a class="el" href="classgd_1_1_string.html">String</a> lhs, const char *rhs)</td></tr>
+<tr class="separator:af574b5fe2beae3d3c89d060121bac584"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>

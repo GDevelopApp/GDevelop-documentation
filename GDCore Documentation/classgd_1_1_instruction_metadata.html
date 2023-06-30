@@ -79,6 +79,8 @@ $(function() {
  <a href="classgd_1_1_instruction_metadata.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_instruction_metadata_8h_source.html">InstructionMetadata.h</a>&gt;</code></p>
+
+<p>Inherits <a class="el" href="classgd_1_1_abstract_function_metadata.html">gd::AbstractFunctionMetadata</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -131,8 +133,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanHaveSubInstruction
 <tr class="separator:a4843f1a48cec8e3995cb4ad020aad777"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57f82adb301bb1c112d2a2cf4f07743b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a57f82adb301bb1c112d2a2cf4f07743b">IsPrivate</a> () const</td></tr>
 <tr class="separator:a57f82adb301bb1c112d2a2cf4f07743b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3abf812e3d2b0beba881deda6713f7a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a3abf812e3d2b0beba881deda6713f7a5">SetPrivate</a> ()</td></tr>
-<tr class="separator:a3abf812e3d2b0beba881deda6713f7a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71c01e0000a817b6d943bfbf68ffc2ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a71c01e0000a817b6d943bfbf68ffc2ad">SetPrivate</a> () override</td></tr>
+<tr class="separator:a71c01e0000a817b6d943bfbf68ffc2ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a665f89e62a50be41a8419ee3b52c5e02"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a665f89e62a50be41a8419ee3b52c5e02">IsRelevantForLayoutEvents</a> () const</td></tr>
 <tr class="separator:a665f89e62a50be41a8419ee3b52c5e02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65baf0dd6874a241a950093659c05ed2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a65baf0dd6874a241a950093659c05ed2">IsRelevantForFunctionEvents</a> () const</td></tr>
@@ -141,23 +143,23 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanHaveSubInstruction
 <tr class="separator:a969b9a9919f6e8ab6482fa4115c0d757"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bd6bbf486dc4043837d28ed33aec9b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a2bd6bbf486dc4043837d28ed33aec9b7">IsRelevantForCustomObjectEvents</a> () const</td></tr>
 <tr class="separator:a2bd6bbf486dc4043837d28ed33aec9b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93f87cd8410e4d272377f92b0f03b46d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a93f87cd8410e4d272377f92b0f03b46d">SetRelevantForLayoutEventsOnly</a> ()</td></tr>
-<tr class="separator:a93f87cd8410e4d272377f92b0f03b46d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0c599a870192c662c5813d90222b0d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#ad0c599a870192c662c5813d90222b0d3">SetRelevantForFunctionEventsOnly</a> ()</td></tr>
-<tr class="separator:ad0c599a870192c662c5813d90222b0d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c127bcf57e461b6b766929ff9dcc2f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a1c127bcf57e461b6b766929ff9dcc2f7">SetRelevantForAsynchronousFunctionEventsOnly</a> ()</td></tr>
-<tr class="separator:a1c127bcf57e461b6b766929ff9dcc2f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68c51465235597dd1989a3ff41fd51da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a68c51465235597dd1989a3ff41fd51da">SetRelevantForCustomObjectEventsOnly</a> ()</td></tr>
-<tr class="separator:a68c51465235597dd1989a3ff41fd51da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69c98e9f008d422221f2e67c2a2182b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a69c98e9f008d422221f2e67c2a2182b6">SetRelevantForLayoutEventsOnly</a> () override</td></tr>
+<tr class="separator:a69c98e9f008d422221f2e67c2a2182b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98c478077e162308435243c9b06f66bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a98c478077e162308435243c9b06f66bb">SetRelevantForFunctionEventsOnly</a> () override</td></tr>
+<tr class="separator:a98c478077e162308435243c9b06f66bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a434f707013817d2e48836775d56dd26c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a434f707013817d2e48836775d56dd26c">SetRelevantForAsynchronousFunctionEventsOnly</a> () override</td></tr>
+<tr class="separator:a434f707013817d2e48836775d56dd26c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adddf3879902bd0025d050593f02fae06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#adddf3879902bd0025d050593f02fae06">SetRelevantForCustomObjectEventsOnly</a> () override</td></tr>
+<tr class="separator:adddf3879902bd0025d050593f02fae06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed473f086d9c8dd444d96b5190a8a6b4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#aed473f086d9c8dd444d96b5190a8a6b4">IsAsync</a> () const</td></tr>
 <tr class="separator:aed473f086d9c8dd444d96b5190a8a6b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05a9f508e936fe9f42191b63772762ea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a05a9f508e936fe9f42191b63772762ea">IsOptionallyAsync</a> () const</td></tr>
 <tr class="separator:a05a9f508e936fe9f42191b63772762ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab63f5ca342e0391c3050411d92f7d047"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#ab63f5ca342e0391c3050411d92f7d047">SetCanHaveSubInstructions</a> ()</td></tr>
 <tr class="separator:ab63f5ca342e0391c3050411d92f7d047"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab48275cfd8aae0ac2637a71f7869a58a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#ab48275cfd8aae0ac2637a71f7869a58a">SetHidden</a> ()</td></tr>
-<tr class="memdesc:ab48275cfd8aae0ac2637a71f7869a58a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the instruction to be hidden in the IDE.  <a href="#ab48275cfd8aae0ac2637a71f7869a58a">More...</a><br /></td></tr>
-<tr class="separator:ab48275cfd8aae0ac2637a71f7869a58a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7b3bb8d2cbb3c364ef9c560e372524a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#af7b3bb8d2cbb3c364ef9c560e372524a">SetHidden</a> () override</td></tr>
+<tr class="memdesc:af7b3bb8d2cbb3c364ef9c560e372524a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the instruction to be hidden in the IDE.  <a href="#af7b3bb8d2cbb3c364ef9c560e372524a">More...</a><br /></td></tr>
+<tr class="separator:af7b3bb8d2cbb3c364ef9c560e372524a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a933ebc3ce9a934daf67e7d04279ff99a"><td class="memItemLeft" align="right" valign="top"><a id="a933ebc3ce9a934daf67e7d04279ff99a"></a>
 <a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a933ebc3ce9a934daf67e7d04279ff99a">SetGroup</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;str)</td></tr>
 <tr class="memdesc:a933ebc3ce9a934daf67e7d04279ff99a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the group of the instruction in the IDE. <br /></td></tr>
@@ -166,21 +168,21 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanHaveSubInstruction
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#ae23cdc5b20b7346f76f6b9815210be15">IsHidden</a> () const</td></tr>
 <tr class="memdesc:ae23cdc5b20b7346f76f6b9815210be15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the instruction must be hidden in the IDE. <br /></td></tr>
 <tr class="separator:ae23cdc5b20b7346f76f6b9815210be15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43ff5307fd3d3270555fdb0fb1b2ddfd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a43ff5307fd3d3270555fdb0fb1b2ddfd">AddParameter</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;type, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;label, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;supplementaryInformation=&quot;&quot;, bool parameterIsOptional=false)</td></tr>
-<tr class="memdesc:a43ff5307fd3d3270555fdb0fb1b2ddfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a parameter to the instruction metadata.  <a href="#a43ff5307fd3d3270555fdb0fb1b2ddfd">More...</a><br /></td></tr>
-<tr class="separator:a43ff5307fd3d3270555fdb0fb1b2ddfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0df4dc5ba4fb371609fe46d92c2f3c43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a0df4dc5ba4fb371609fe46d92c2f3c43">AddCodeOnlyParameter</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;type, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;supplementaryInformation)</td></tr>
-<tr class="memdesc:a0df4dc5ba4fb371609fe46d92c2f3c43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a parameter not displayed in editor.  <a href="#a0df4dc5ba4fb371609fe46d92c2f3c43">More...</a><br /></td></tr>
-<tr class="separator:a0df4dc5ba4fb371609fe46d92c2f3c43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5017a0ea65e759ab930dcc2daec63e4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a5017a0ea65e759ab930dcc2daec63e4c">SetDefaultValue</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;defaultValue_)</td></tr>
-<tr class="memdesc:a5017a0ea65e759ab930dcc2daec63e4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the default value used in editor (or if an optional parameter is empty during code generation) for the last added parameter.  <a href="#a5017a0ea65e759ab930dcc2daec63e4c">More...</a><br /></td></tr>
-<tr class="separator:a5017a0ea65e759ab930dcc2daec63e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa49958a5faeb20fcadd1990443565a46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#aa49958a5faeb20fcadd1990443565a46">SetParameterLongDescription</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;longDescription)</td></tr>
-<tr class="memdesc:aa49958a5faeb20fcadd1990443565a46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the long description shown in the editor for the last added parameter.  <a href="#aa49958a5faeb20fcadd1990443565a46">More...</a><br /></td></tr>
-<tr class="separator:aa49958a5faeb20fcadd1990443565a46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08fb6f94e5972ae9ded0de9a5f8545ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a08fb6f94e5972ae9ded0de9a5f8545ae">SetParameterExtraInfo</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;extraInfo)</td></tr>
-<tr class="memdesc:a08fb6f94e5972ae9ded0de9a5f8545ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the additional information, used for some parameters with special type (for example, it can contains the type of object accepted by the parameter), for the last added parameter.  <a href="#a08fb6f94e5972ae9ded0de9a5f8545ae">More...</a><br /></td></tr>
-<tr class="separator:a08fb6f94e5972ae9ded0de9a5f8545ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85b81d629c5090222af6801d75631abc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a85b81d629c5090222af6801d75631abc">AddParameter</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;type, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;label, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;supplementaryInformation=&quot;&quot;, bool parameterIsOptional=false) override</td></tr>
+<tr class="memdesc:a85b81d629c5090222af6801d75631abc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a parameter to the instruction metadata.  <a href="#a85b81d629c5090222af6801d75631abc">More...</a><br /></td></tr>
+<tr class="separator:a85b81d629c5090222af6801d75631abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af16927c00146e898aa886cb4e99882cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#af16927c00146e898aa886cb4e99882cf">AddCodeOnlyParameter</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;type, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;supplementaryInformation) override</td></tr>
+<tr class="memdesc:af16927c00146e898aa886cb4e99882cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a parameter not displayed in editor.  <a href="#af16927c00146e898aa886cb4e99882cf">More...</a><br /></td></tr>
+<tr class="separator:af16927c00146e898aa886cb4e99882cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37deccbbdcf20fa50c13108efc1dda53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a37deccbbdcf20fa50c13108efc1dda53">SetDefaultValue</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;defaultValue_) override</td></tr>
+<tr class="memdesc:a37deccbbdcf20fa50c13108efc1dda53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the default value used in editor (or if an optional parameter is empty during code generation) for the last added parameter.  <a href="#a37deccbbdcf20fa50c13108efc1dda53">More...</a><br /></td></tr>
+<tr class="separator:a37deccbbdcf20fa50c13108efc1dda53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa02003c1ef8e9aff24249a1f142c11c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#aa02003c1ef8e9aff24249a1f142c11c7">SetParameterLongDescription</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;longDescription) override</td></tr>
+<tr class="memdesc:aa02003c1ef8e9aff24249a1f142c11c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the long description shown in the editor for the last added parameter.  <a href="#aa02003c1ef8e9aff24249a1f142c11c7">More...</a><br /></td></tr>
+<tr class="separator:aa02003c1ef8e9aff24249a1f142c11c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cdb0adae1a65194d24ba70cdecd7986"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a7cdb0adae1a65194d24ba70cdecd7986">SetParameterExtraInfo</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;extraInfo) override</td></tr>
+<tr class="memdesc:a7cdb0adae1a65194d24ba70cdecd7986"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the additional information, used for some parameters with special type (for example, it can contains the type of object accepted by the parameter), for the last added parameter.  <a href="#a7cdb0adae1a65194d24ba70cdecd7986">More...</a><br /></td></tr>
+<tr class="separator:a7cdb0adae1a65194d24ba70cdecd7986"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d04221347c30349083eacf8aeb1f543"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a1d04221347c30349083eacf8aeb1f543">UseStandardOperatorParameters</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;type, const <a class="el" href="structgd_1_1_parameter_options.html">ParameterOptions</a> &amp;options)</td></tr>
 <tr class="memdesc:a1d04221347c30349083eacf8aeb1f543"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add the default parameters for an instruction manipulating the specified type ("string", "number") with the default operators.  <a href="#a1d04221347c30349083eacf8aeb1f543">More...</a><br /></td></tr>
 <tr class="separator:a1d04221347c30349083eacf8aeb1f543"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,29 +229,46 @@ const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</t
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#aaf1d9353ea693efada38249334f89b6e">GetUsageComplexity</a> () const</td></tr>
 <tr class="memdesc:aaf1d9353ea693efada38249334f89b6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the usage complexity of this instruction for the user, from 0 (simple&amp;easy to use) to 10 (complex to understand). <br /></td></tr>
 <tr class="separator:aaf1d9353ea693efada38249334f89b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af728c898e9035f5c56ddcbe9524d1d18"><td class="memItemLeft" align="right" valign="top"><a id="af728c898e9035f5c56ddcbe9524d1d18"></a>
-<a class="el" href="classgd_1_1_instruction_metadata_1_1_extra_information.html">ExtraInformation</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#af728c898e9035f5c56ddcbe9524d1d18">GetCodeExtraInformation</a> ()</td></tr>
-<tr class="memdesc:af728c898e9035f5c56ddcbe9524d1d18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the structure containing the information about code generation for the instruction. <br /></td></tr>
-<tr class="separator:af728c898e9035f5c56ddcbe9524d1d18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cba518770d45e8f1ce891f826463a2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata_1_1_extra_information.html">ExtraInformation</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a9cba518770d45e8f1ce891f826463a2e">SetManipulatedType</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;type_)</td></tr>
-<tr class="memdesc:a9cba518770d45e8f1ce891f826463a2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declare if the instruction being declared is somewhat manipulating in a standard way.  <a href="#a9cba518770d45e8f1ce891f826463a2e">More...</a><br /></td></tr>
-<tr class="separator:a9cba518770d45e8f1ce891f826463a2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a209b4899706abc77907d7fa1ad20f1ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata_1_1_extra_information.html">ExtraInformation</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a209b4899706abc77907d7fa1ad20f1ea">SetFunctionName</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;functionName)</td></tr>
-<tr class="separator:a209b4899706abc77907d7fa1ad20f1ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40b1a65b9d3873431fa79335ebef606d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata_1_1_extra_information.html">ExtraInformation</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a40b1a65b9d3873431fa79335ebef606d">SetAsyncFunctionName</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;functionName)</td></tr>
-<tr class="separator:a40b1a65b9d3873431fa79335ebef606d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06721f768e13aec0f617315b5e93fc85"><td class="memItemLeft" align="right" valign="top"><a id="a06721f768e13aec0f617315b5e93fc85"></a>
-<a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a06721f768e13aec0f617315b5e93fc85">SetIncludeFile</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;includeFile)</td></tr>
-<tr class="memdesc:a06721f768e13aec0f617315b5e93fc85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase any existing include file and add the specified include. <br /></td></tr>
-<tr class="separator:a06721f768e13aec0f617315b5e93fc85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66f45629f0851002af931fcbc20a0e00"><td class="memItemLeft" align="right" valign="top"><a id="a66f45629f0851002af931fcbc20a0e00"></a>
-<a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a66f45629f0851002af931fcbc20a0e00">AddIncludeFile</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;includeFile)</td></tr>
-<tr class="memdesc:a66f45629f0851002af931fcbc20a0e00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a file to the already existing include files. <br /></td></tr>
-<tr class="separator:a66f45629f0851002af931fcbc20a0e00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa041900a3c87c33b865307dfdbd04d4a"><td class="memItemLeft" align="right" valign="top"><a id="aa041900a3c87c33b865307dfdbd04d4a"></a>
-const std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#aa041900a3c87c33b865307dfdbd04d4a">GetIncludeFiles</a> () const</td></tr>
-<tr class="memdesc:aa041900a3c87c33b865307dfdbd04d4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the files that must be included to use the instruction. <br /></td></tr>
-<tr class="separator:aa041900a3c87c33b865307dfdbd04d4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adab4964289a56d29fa2c05037c042719"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#adab4964289a56d29fa2c05037c042719">SetFunctionName</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;functionName_) override</td></tr>
+<tr class="separator:adab4964289a56d29fa2c05037c042719"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a449c63cc4537238ec4d4c4eeaa2004c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a449c63cc4537238ec4d4c4eeaa2004c4">SetAsyncFunctionName</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;functionName_)</td></tr>
+<tr class="separator:a449c63cc4537238ec4d4c4eeaa2004c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd4e737175c4486aeb6c94a93087ef4e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#afd4e737175c4486aeb6c94a93087ef4e">GetFunctionName</a> ()</td></tr>
+<tr class="separator:afd4e737175c4486aeb6c94a93087ef4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adadbb2aeaa906aed092a49c9ab0b4c73"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#adadbb2aeaa906aed092a49c9ab0b4c73">GetAsyncFunctionName</a> ()</td></tr>
+<tr class="separator:adadbb2aeaa906aed092a49c9ab0b4c73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc0c8a5f12c2477cc3a86c527b1f2f86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#abc0c8a5f12c2477cc3a86c527b1f2f86">SetManipulatedType</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;type_)</td></tr>
+<tr class="memdesc:abc0c8a5f12c2477cc3a86c527b1f2f86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declare if the instruction being declared is somewhat manipulating in a standard way.  <a href="#abc0c8a5f12c2477cc3a86c527b1f2f86">More...</a><br /></td></tr>
+<tr class="separator:abc0c8a5f12c2477cc3a86c527b1f2f86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63732cf41230b2ba12b5e97ccc26ac15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a63732cf41230b2ba12b5e97ccc26ac15">SetGetter</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;getter)</td></tr>
+<tr class="separator:a63732cf41230b2ba12b5e97ccc26ac15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fcc580e23bd12d8b308f34ce0f00fe7"><td class="memItemLeft" align="right" valign="top"><a id="a5fcc580e23bd12d8b308f34ce0f00fe7"></a>
+<a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>SetMutators</b> (const std::map&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>, <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &amp;mutators)</td></tr>
+<tr class="separator:a5fcc580e23bd12d8b308f34ce0f00fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6784f13506fb49ed433983b259c6c499"><td class="memItemLeft" align="right" valign="top"><a id="a6784f13506fb49ed433983b259c6c499"></a>
+<a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a6784f13506fb49ed433983b259c6c499">SetIncludeFile</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;includeFile) override</td></tr>
+<tr class="memdesc:a6784f13506fb49ed433983b259c6c499"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase any existing include file and add the specified include. <br /></td></tr>
+<tr class="separator:a6784f13506fb49ed433983b259c6c499"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75b3c09beedcf588d3d763121016e0ec"><td class="memItemLeft" align="right" valign="top"><a id="a75b3c09beedcf588d3d763121016e0ec"></a>
+<a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a75b3c09beedcf588d3d763121016e0ec">AddIncludeFile</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;includeFile) override</td></tr>
+<tr class="memdesc:a75b3c09beedcf588d3d763121016e0ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a file to the already existing include files. <br /></td></tr>
+<tr class="separator:a75b3c09beedcf588d3d763121016e0ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77940ae96a64234369a80d33e353e791"><td class="memItemLeft" align="right" valign="top"><a id="a77940ae96a64234369a80d33e353e791"></a>
+const std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a77940ae96a64234369a80d33e353e791">GetIncludeFiles</a> () const override</td></tr>
+<tr class="memdesc:a77940ae96a64234369a80d33e353e791"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the files that must be included to use the instruction. <br /></td></tr>
+<tr class="separator:a77940ae96a64234369a80d33e353e791"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a053aa5187143f4a7c8ecbc71d1ba9d44"><td class="memItemLeft" align="right" valign="top"><a id="a053aa5187143f4a7c8ecbc71d1ba9d44"></a>
+<a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>SetCustomCodeGenerator</b> (std::function&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>(<a class="el" href="classgd_1_1_instruction.html">Instruction</a> &amp;instruction, <a class="el" href="classgd_1_1_events_code_generator.html">gd::EventsCodeGenerator</a> &amp;codeGenerator, <a class="el" href="classgd_1_1_events_code_generation_context.html">gd::EventsCodeGenerationContext</a> &amp;context)&gt; codeGenerator)</td></tr>
+<tr class="separator:a053aa5187143f4a7c8ecbc71d1ba9d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56389bf6c906875f032a2c0dbe402dae"><td class="memItemLeft" align="right" valign="top"><a id="a56389bf6c906875f032a2c0dbe402dae"></a>
+<a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>RemoveCustomCodeGenerator</b> ()</td></tr>
+<tr class="separator:a56389bf6c906875f032a2c0dbe402dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12c6d889f62892224fb96c57cf0ec645"><td class="memItemLeft" align="right" valign="top"><a id="a12c6d889f62892224fb96c57cf0ec645"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>HasCustomCodeGenerator</b> () const</td></tr>
+<tr class="separator:a12c6d889f62892224fb96c57cf0ec645"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a692ec7e5cfd92e133ce7ae3412294cc1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a692ec7e5cfd92e133ce7ae3412294cc1">GetCodeExtraInformation</a> ()</td></tr>
+<tr class="memdesc:a692ec7e5cfd92e133ce7ae3412294cc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the structure containing the information about code generation for the instruction.  <a href="#a692ec7e5cfd92e133ce7ae3412294cc1">More...</a><br /></td></tr>
+<tr class="separator:a692ec7e5cfd92e133ce7ae3412294cc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -346,11 +365,14 @@ std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">Paramet
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a0df4dc5ba4fb371609fe46d92c2f3c43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0df4dc5ba4fb371609fe46d92c2f3c43">&#9670;&nbsp;</a></span>AddCodeOnlyParameter()</h2>
+<a id="af16927c00146e898aa886cb4e99882cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af16927c00146e898aa886cb4e99882cf">&#9670;&nbsp;</a></span>AddCodeOnlyParameter()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp; gd::InstructionMetadata::AddCodeOnlyParameter </td>
@@ -370,6 +392,11 @@ std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">Paramet
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Add a parameter not displayed in editor. </p>
@@ -382,13 +409,18 @@ std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">Paramet
 </dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_events_code_generator.html#ab961b09bab4bcc2d74abe558fe3d20fa" title="Generate the code for a parameter of an action/condition/expression. ">EventsCodeGenerator::GenerateParametersCodes</a> </dd></dl>
 
+<p>Implements <a class="el" href="classgd_1_1_abstract_function_metadata.html#a822402f0d629dbdda8ca7c4b8269f34d">gd::AbstractFunctionMetadata</a>.</p>
+
 </div>
 </div>
-<a id="a43ff5307fd3d3270555fdb0fb1b2ddfd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43ff5307fd3d3270555fdb0fb1b2ddfd">&#9670;&nbsp;</a></span>AddParameter()</h2>
+<a id="a85b81d629c5090222af6801d75631abc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85b81d629c5090222af6801d75631abc">&#9670;&nbsp;</a></span>AddParameter()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp; gd::InstructionMetadata::AddParameter </td>
@@ -420,6 +452,11 @@ std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">Paramet
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Add a parameter to the instruction metadata. </p>
@@ -437,6 +474,88 @@ std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">Paramet
   </dd>
 </dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_events_code_generator.html#ab961b09bab4bcc2d74abe558fe3d20fa" title="Generate the code for a parameter of an action/condition/expression. ">EventsCodeGenerator::GenerateParametersCodes</a> </dd></dl>
+
+<p>Implements <a class="el" href="classgd_1_1_abstract_function_metadata.html#a7259a57b783b92e2cb17f84d7fb6f244">gd::AbstractFunctionMetadata</a>.</p>
+
+</div>
+</div>
+<a id="adadbb2aeaa906aed092a49c9ab0b4c73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adadbb2aeaa906aed092a49c9ab0b4c73">&#9670;&nbsp;</a></span>GetAsyncFunctionName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classgd_1_1_string.html">gd::String</a>&amp; gd::InstructionMetadata::GetAsyncFunctionName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return the name of the function, doing asynchronous work, which will be called in the generated code. This function should return an asynchronous task (i.e: <code>gdjs.AsyncTask</code> in the JavaScript runtime). </p>
+
+</div>
+</div>
+<a id="a692ec7e5cfd92e133ce7ae3412294cc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a692ec7e5cfd92e133ce7ae3412294cc1">&#9670;&nbsp;</a></span>GetCodeExtraInformation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a>&amp; gd::InstructionMetadata::GetCodeExtraInformation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the structure containing the information about code generation for the instruction. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000004">Deprecated:</a></b></dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="afd4e737175c4486aeb6c94a93087ef4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd4e737175c4486aeb6c94a93087ef4e">&#9670;&nbsp;</a></span>GetFunctionName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classgd_1_1_string.html">gd::String</a>&amp; gd::InstructionMetadata::GetFunctionName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return the name of the function which will be called in the generated code. </p>
 
 </div>
 </div>
@@ -648,8 +767,8 @@ std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">Paramet
 
 </div>
 </div>
-<a id="a40b1a65b9d3873431fa79335ebef606d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40b1a65b9d3873431fa79335ebef606d">&#9670;&nbsp;</a></span>SetAsyncFunctionName()</h2>
+<a id="a449c63cc4537238ec4d4c4eeaa2004c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a449c63cc4537238ec4d4c4eeaa2004c4">&#9670;&nbsp;</a></span>SetAsyncFunctionName()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -658,10 +777,10 @@ std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">Paramet
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classgd_1_1_instruction_metadata_1_1_extra_information.html">ExtraInformation</a>&amp; gd::InstructionMetadata::SetAsyncFunctionName </td>
+          <td class="memname"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a>&amp; gd::InstructionMetadata::SetAsyncFunctionName </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
-          <td class="paramname"><em>functionName</em></td><td>)</td>
+          <td class="paramname"><em>functionName_</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -678,7 +797,6 @@ std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">Paramet
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>Shortcut for <code>codeExtraInformation.SetAsyncFunctionName</code>. </dd></dl>
 
 </div>
 </div>
@@ -708,8 +826,8 @@ std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">Paramet
 
 </div>
 </div>
-<a id="a5017a0ea65e759ab930dcc2daec63e4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5017a0ea65e759ab930dcc2daec63e4c">&#9670;&nbsp;</a></span>SetDefaultValue()</h2>
+<a id="a37deccbbdcf20fa50c13108efc1dda53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37deccbbdcf20fa50c13108efc1dda53">&#9670;&nbsp;</a></span>SetDefaultValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -727,18 +845,20 @@ std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">Paramet
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Set the default value used in editor (or if an optional parameter is empty during code generation) for the last added parameter. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_instruction_metadata.html#a43ff5307fd3d3270555fdb0fb1b2ddfd" title="Add a parameter to the instruction metadata. ">AddParameter</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_instruction_metadata.html#a85b81d629c5090222af6801d75631abc" title="Add a parameter to the instruction metadata. ">AddParameter</a> </dd></dl>
+
+<p>Implements <a class="el" href="classgd_1_1_abstract_function_metadata.html#ae5215f5bafb04953dc43f8b37b4b687c">gd::AbstractFunctionMetadata</a>.</p>
 
 </div>
 </div>
-<a id="a209b4899706abc77907d7fa1ad20f1ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a209b4899706abc77907d7fa1ad20f1ea">&#9670;&nbsp;</a></span>SetFunctionName()</h2>
+<a id="adab4964289a56d29fa2c05037c042719"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adab4964289a56d29fa2c05037c042719">&#9670;&nbsp;</a></span>SetFunctionName()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -747,16 +867,16 @@ std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">Paramet
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classgd_1_1_instruction_metadata_1_1_extra_information.html">ExtraInformation</a>&amp; gd::InstructionMetadata::SetFunctionName </td>
+          <td class="memname"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a>&amp; gd::InstructionMetadata::SetFunctionName </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
-          <td class="paramname"><em>functionName</em></td><td>)</td>
+          <td class="paramname"><em>functionName_</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -766,8 +886,36 @@ std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">Paramet
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>Shortcut for <code>codeExtraInformation.SetFunctionName</code>. </dd></dl>
 
+<p>Implements <a class="el" href="classgd_1_1_abstract_function_metadata.html#abf838597ceea98912e5a5f5263a6c6b9">gd::AbstractFunctionMetadata</a>.</p>
+
+</div>
+</div>
+<a id="a63732cf41230b2ba12b5e97ccc26ac15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63732cf41230b2ba12b5e97ccc26ac15">&#9670;&nbsp;</a></span>SetGetter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a>&amp; gd::InstructionMetadata::SetGetter </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>getter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>If InstructionMetadata::ExtraInformation::SetManipulatedType was called with "number" or "string", this function will tell the code generator the name of the getter function used to retrieve the data value.</p>
+<p>Usage example: </p><div class="fragment"><div class="line">obj.AddAction(<span class="stringliteral">&quot;String&quot;</span>,</div><div class="line">               _(<span class="stringliteral">&quot;Change the string&quot;</span>),</div><div class="line">               _(<span class="stringliteral">&quot;Change the string of a text&quot;</span>),</div><div class="line">               _(<span class="stringliteral">&quot;the string&quot;</span>),</div><div class="line">               _(<span class="stringliteral">&quot;Text&quot;</span>),</div><div class="line">               <span class="stringliteral">&quot;CppPlatform/Extensions/text24.png&quot;</span>,</div><div class="line">               <span class="stringliteral">&quot;CppPlatform/Extensions/text_black.png&quot;</span>);</div><div class="line"></div><div class="line">    .AddParameter(<span class="stringliteral">&quot;object&quot;</span>, _(<span class="stringliteral">&quot;Object&quot;</span>), <span class="stringliteral">&quot;Text&quot;</span>, <span class="keyword">false</span>)</div><div class="line">    .AddParameter(<span class="stringliteral">&quot;operator&quot;</span>, _(<span class="stringliteral">&quot;Modification operator&quot;</span>), <span class="stringliteral">&quot;string&quot;</span>)</div><div class="line">    .AddParameter(<span class="stringliteral">&quot;string&quot;</span>, _(<span class="stringliteral">&quot;String&quot;</span>))</div><div class="line">    .SetFunctionName(<span class="stringliteral">&quot;SetString&quot;</span>).SetManipulatedType(<span class="stringliteral">&quot;string&quot;</span>).SetGetter(<span class="stringliteral">&quot;GetString&quot;</span>);</div><div class="line"></div><div class="line">DECLARE_END_OBJECT_ACTION()</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a4843f1a48cec8e3995cb4ad020aad777"></a>
@@ -797,8 +945,8 @@ std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">Paramet
 
 </div>
 </div>
-<a id="ab48275cfd8aae0ac2637a71f7869a58a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab48275cfd8aae0ac2637a71f7869a58a">&#9670;&nbsp;</a></span>SetHidden()</h2>
+<a id="af7b3bb8d2cbb3c364ef9c560e372524a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7b3bb8d2cbb3c364ef9c560e372524a">&#9670;&nbsp;</a></span>SetHidden()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -815,7 +963,7 @@ std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">Paramet
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -823,10 +971,12 @@ std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">Paramet
 <p>Set the instruction to be hidden in the IDE. </p>
 <p>Used mainly when an instruction is deprecated. </p>
 
+<p>Implements <a class="el" href="classgd_1_1_abstract_function_metadata.html#adff5ff749c6b7f380b80e6488339935f">gd::AbstractFunctionMetadata</a>.</p>
+
 </div>
 </div>
-<a id="a9cba518770d45e8f1ce891f826463a2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9cba518770d45e8f1ce891f826463a2e">&#9670;&nbsp;</a></span>SetManipulatedType()</h2>
+<a id="abc0c8a5f12c2477cc3a86c527b1f2f86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc0c8a5f12c2477cc3a86c527b1f2f86">&#9670;&nbsp;</a></span>SetManipulatedType()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -835,7 +985,7 @@ std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">Paramet
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classgd_1_1_instruction_metadata_1_1_extra_information.html">ExtraInformation</a>&amp; gd::InstructionMetadata::SetManipulatedType </td>
+          <td class="memname"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a>&amp; gd::InstructionMetadata::SetManipulatedType </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
           <td class="paramname"><em>type_</em></td><td>)</td>
@@ -856,12 +1006,11 @@ std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">Paramet
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>Shortcut for <code>codeExtraInformation.SetManipulatedType(type)</code>. </dd></dl>
 
 </div>
 </div>
-<a id="a08fb6f94e5972ae9ded0de9a5f8545ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08fb6f94e5972ae9ded0de9a5f8545ae">&#9670;&nbsp;</a></span>SetParameterExtraInfo()</h2>
+<a id="a7cdb0adae1a65194d24ba70cdecd7986"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cdb0adae1a65194d24ba70cdecd7986">&#9670;&nbsp;</a></span>SetParameterExtraInfo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -879,18 +1028,20 @@ std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">Paramet
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Set the additional information, used for some parameters with special type (for example, it can contains the type of object accepted by the parameter), for the last added parameter. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_instruction_metadata.html#a43ff5307fd3d3270555fdb0fb1b2ddfd" title="Add a parameter to the instruction metadata. ">AddParameter</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_instruction_metadata.html#a85b81d629c5090222af6801d75631abc" title="Add a parameter to the instruction metadata. ">AddParameter</a> </dd></dl>
+
+<p>Implements <a class="el" href="classgd_1_1_abstract_function_metadata.html#a6a16c7e6c9d3f4fb31febc62b57eb3e6">gd::AbstractFunctionMetadata</a>.</p>
 
 </div>
 </div>
-<a id="aa49958a5faeb20fcadd1990443565a46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa49958a5faeb20fcadd1990443565a46">&#9670;&nbsp;</a></span>SetParameterLongDescription()</h2>
+<a id="aa02003c1ef8e9aff24249a1f142c11c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa02003c1ef8e9aff24249a1f142c11c7">&#9670;&nbsp;</a></span>SetParameterLongDescription()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -908,18 +1059,20 @@ std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">Paramet
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Set the long description shown in the editor for the last added parameter. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_instruction_metadata.html#a43ff5307fd3d3270555fdb0fb1b2ddfd" title="Add a parameter to the instruction metadata. ">AddParameter</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_instruction_metadata.html#a85b81d629c5090222af6801d75631abc" title="Add a parameter to the instruction metadata. ">AddParameter</a> </dd></dl>
+
+<p>Implements <a class="el" href="classgd_1_1_abstract_function_metadata.html#a853f53f708d1bbe4ad9de34046ce6454">gd::AbstractFunctionMetadata</a>.</p>
 
 </div>
 </div>
-<a id="a3abf812e3d2b0beba881deda6713f7a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3abf812e3d2b0beba881deda6713f7a5">&#9670;&nbsp;</a></span>SetPrivate()</h2>
+<a id="a71c01e0000a817b6d943bfbf68ffc2ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71c01e0000a817b6d943bfbf68ffc2ad">&#9670;&nbsp;</a></span>SetPrivate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -936,16 +1089,18 @@ std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">Paramet
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 <p>Set that the instruction is private - it can't be used outside of the object/ behavior that it is attached too. </p>
 
+<p>Implements <a class="el" href="classgd_1_1_abstract_function_metadata.html#aca55e404c9723e323c47ed20e25b4d4e">gd::AbstractFunctionMetadata</a>.</p>
+
 </div>
 </div>
-<a id="a1c127bcf57e461b6b766929ff9dcc2f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c127bcf57e461b6b766929ff9dcc2f7">&#9670;&nbsp;</a></span>SetRelevantForAsynchronousFunctionEventsOnly()</h2>
+<a id="a434f707013817d2e48836775d56dd26c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a434f707013817d2e48836775d56dd26c">&#9670;&nbsp;</a></span>SetRelevantForAsynchronousFunctionEventsOnly()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -962,16 +1117,18 @@ std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">Paramet
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 <p>Set that the instruction can be used in asynchronous function events. </p>
 
+<p>Implements <a class="el" href="classgd_1_1_abstract_function_metadata.html#af6a6c5e8114a476001d6e6a569451b4d">gd::AbstractFunctionMetadata</a>.</p>
+
 </div>
 </div>
-<a id="a68c51465235597dd1989a3ff41fd51da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68c51465235597dd1989a3ff41fd51da">&#9670;&nbsp;</a></span>SetRelevantForCustomObjectEventsOnly()</h2>
+<a id="adddf3879902bd0025d050593f02fae06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adddf3879902bd0025d050593f02fae06">&#9670;&nbsp;</a></span>SetRelevantForCustomObjectEventsOnly()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -988,16 +1145,18 @@ std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">Paramet
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 <p>Set that the instruction can be used in custom object events. </p>
 
+<p>Implements <a class="el" href="classgd_1_1_abstract_function_metadata.html#a4b7a09a7677523b370d69d2717674d2f">gd::AbstractFunctionMetadata</a>.</p>
+
 </div>
 </div>
-<a id="ad0c599a870192c662c5813d90222b0d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0c599a870192c662c5813d90222b0d3">&#9670;&nbsp;</a></span>SetRelevantForFunctionEventsOnly()</h2>
+<a id="a98c478077e162308435243c9b06f66bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98c478077e162308435243c9b06f66bb">&#9670;&nbsp;</a></span>SetRelevantForFunctionEventsOnly()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1014,16 +1173,18 @@ std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">Paramet
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 <p>Set that the instruction can be used in function events. </p>
 
+<p>Implements <a class="el" href="classgd_1_1_abstract_function_metadata.html#a3ef145fb60825c4f254d2cabce55ab07">gd::AbstractFunctionMetadata</a>.</p>
+
 </div>
 </div>
-<a id="a93f87cd8410e4d272377f92b0f03b46d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93f87cd8410e4d272377f92b0f03b46d">&#9670;&nbsp;</a></span>SetRelevantForLayoutEventsOnly()</h2>
+<a id="a69c98e9f008d422221f2e67c2a2182b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69c98e9f008d422221f2e67c2a2182b6">&#9670;&nbsp;</a></span>SetRelevantForLayoutEventsOnly()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1040,11 +1201,13 @@ std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">Paramet
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 <p>Set that the instruction can be used in layouts or external events. </p>
+
+<p>Implements <a class="el" href="classgd_1_1_abstract_function_metadata.html#a863697fa9843126379accc30f324fad8">gd::AbstractFunctionMetadata</a>.</p>
 
 </div>
 </div>
