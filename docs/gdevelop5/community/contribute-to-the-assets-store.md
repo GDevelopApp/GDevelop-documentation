@@ -9,6 +9,45 @@ Assets have to be submitted into category and sub-category folders. Images, audi
 GDevelop creators can add assets to the project without having to worry about editing. This means that submitted art, has to follow a number of technical constraints:
 
 
+## The title, description and prices
+
+Each pack needs to be defined in `pack.json` file located at the root of your pack folder.
+In it you'll put the pack's name, description, price in Euros, and the pack category.
+
+!!! note
+     value: 123 = 1.23€ (Euro)
+     categories": Remove words that don't correspond to your pack.
+
+
+pack.json:
+```
+{
+  "longDescription": "Write the description of your pack here. You can add a new line like this:\nThis is a new line.",
+  "tag": "The name of your pack",
+  "sellerId": "LEAVE EMPTY",
+  "sellerStripeAccountId": "LEAVE EMPTY",
+  "prices": [
+    {
+      "value": 123,
+      "name": "default"
+    }
+  ],
+  "categories": ["full-game-pack", "character", "props", "background", "visual-effect", "interface", "prefab", "sounds"]
+}
+```
+
+
+## Add a thumbnails and images previews
+
+A pack with an attractive thumbnail makes it more visible, contrasted colors can be used. The thumbnail should reflect the pack's content.
+
+!!! note
+    
+    - Thumbnail and previews must be 1280x720 pixels.
+    - JPG or PNG
+    - The thumbnail must have the following name: `Thumbnail.png`.
+    - Previews are a maximum of 9. They must be named `preview1.png`, `preview2.png`, ..., `preview9.png`
+
 ## For images (animated sprites, tiled sprites or GUI):
 
 In a nutshell: these are the basic rules to submit video game asset images. Make sure that your files respect the following guidelines:
