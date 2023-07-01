@@ -12,14 +12,15 @@ GDevelop creators can add assets to the project without having to worry about ed
 ## The title, description and prices
 
 Each pack needs to be defined in `pack.json` file located at the root of your pack folder.
-In it you'll put the pack's name, description, price in Euros, and the pack category.
+In it you'll put the pack's name, description, price in Euro, and the categories.
 
 !!! note
-     value: 123 = 1.23€ (Euro)
-     categories": Remove words that don't correspond to your pack.
+
+     - Value: 123 = 1.23€ (Euro)
+     - Categories: Remove words that don't correspond to your pack.
 
 
-pack.json:
+pack.json
 ```
 {
   "longDescription": "Write the description of your pack here. You can add a new line like this:\nThis is a new line.",
@@ -43,12 +44,11 @@ A pack with an attractive thumbnail makes it more visible, contrasted colors can
 
 !!! note
     
-    - Thumbnail and previews must be 1280x720 pixels.
-    - JPG or PNG
-    - The thumbnail must have the following name: `Thumbnail.png`.
-    - Previews are a maximum of 9. They must be named `preview1.png`, `preview2.png`, ..., `preview9.png`
+    - Thumbnail and previews must be 1280x720 pixels in .png only.
+    - The thumbnail must have the following name: `thumbnail.png`.
+    - Previews are a maximum of 9, they must be named `preview1.png`, `preview2.png`, ..., `preview9.png`
 
-## For images (animated sprites, tiled sprites or GUI):
+## Package the images (animated sprites, tiled sprites or GUI):
 
 In a nutshell: these are the basic rules to submit video game asset images. Make sure that your files respect the following guidelines:
 
@@ -133,15 +133,13 @@ For example:
 
 To specify FPS and looping for an animation, you'll need to add a METADATA file to your folder by creating a .json file (a text file) and pasting this structure:
 
+basename_METADATA.json
 ```
     {
         "timeBetweenFrames": 0.2,
         "loop": false
     }
 ```
-
-If you are not sure about the number that "time between frames" will represent,[this article](http://www.stopmotionworks.com/stopwatch.htm) explains it:
-![](/gdevelop5/community/fps.png)
 
 !!! tip
 
@@ -161,6 +159,10 @@ Spaceship_Destroyed_METADATA.json
 Your file should look something like this:
 
 ![](https://user-images.githubusercontent.com/1280130/103412855-78836300-4b77-11eb-99ec-ac8287372ece.png)
+
+
+If you are not sure about the number that "time between frames" will represent,[this article](http://www.stopmotionworks.com/stopwatch.htm) explains it:
+![](/gdevelop5/community/fps.png)
 
 
 ## Adding tags to your assets
@@ -184,13 +186,8 @@ side view, pirate, ship, sea
 
 You can put your images in different sub folders. Each sub folder will be used as a tag name. Some folders names like "PNG", "SVG", etc... will be ignored (so don't change the whole structure of your assets, we'll ignore anything that does not make sense).
 
-Note that you can also put assets in a folder called `Unimplemented` or `TODO`, and these folders will be entirely ignored.
+Note that you can put assets in a folder called `Unimplemented`, `TODO` and `SOURCE FILE` if the packaging isn't completely done, or if you want to keep source files of the pack. These folders will be entirely hidden in the store but are useful for updates or edits on the pack.
 
-!!! tip
-
-        **How to submit my images when they are ready?**
-
-    Zip the folder containing them and send them to the GDevelop team on Github by opening an [issue here](https://github.com/4ian/GDevelop/issues/new?assignees=&labels=%F0%9F%93%A6+Asset+Store+submission&template=--asset-store-submission.md&title=).
 
 ## For audio
 
@@ -224,9 +221,11 @@ This will create high-quality audio files, but using a variable bit rate that wo
 
 ## For fonts
 
-Like images and audio, put your fonts in folders. `.ttf` and `.otf` files are supported.
+Put the fonts in to a `Font` folders.
+Formats supported are:
 
-`TAGS.md` files will work like for images. Sub folders are also used for tags as described for images.
+- .ttf
+- .otf
 
 ## 3D models
 
@@ -348,4 +347,4 @@ The goal is to make objects more or less automatically!
 
 ## How to send my assets when they are ready?
 
-Zip the folder containing them and send them to the GDevelop team on Github by opening an [issue here](https://github.com/4ian/GDevelop/issues/new/choose).
+Zip the folder containing them and send them to the GDevelop team on Github by opening an [issue here](https://github.com/4ian/GDevelop/issues/new?assignees=&labels=%F0%9F%93%A6+Asset+Store+submission&template=--asset-store-submission.md&title=).
