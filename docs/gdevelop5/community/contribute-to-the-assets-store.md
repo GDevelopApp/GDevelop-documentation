@@ -9,7 +9,7 @@ Assets have to be submitted into category and sub-category folders. Images, audi
 GDevelop creators can add assets to the project without having to worry about editing. This means that submitted art, has to follow a number of technical constraints:
 
 
-## The title, description and prices
+## The title, description and price
 
 Each pack needs to be defined in `pack.json` file located at the root of your pack folder.
 In it you'll put the pack's name, description, price in Euro, and the categories.
@@ -38,7 +38,7 @@ pack.json
 ```
 
 
-## Add a thumbnails and images previews
+## Add a thumbnail and images previews
 
 A pack with an attractive thumbnail makes it more visible, contrasted colors can be used. The thumbnail should reflect the pack's content.
 
