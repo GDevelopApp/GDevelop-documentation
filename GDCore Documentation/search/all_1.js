@@ -3,6 +3,7 @@ var searchData=
   ['abstracteventsbasedentity',['AbstractEventsBasedEntity',['../classgd_1_1_abstract_events_based_entity.html',1,'gd']]],
   ['abstractfilesystem',['AbstractFileSystem',['../classgd_1_1_abstract_file_system.html',1,'gd']]],
   ['abstractfunctionmetadata',['AbstractFunctionMetadata',['../classgd_1_1_abstract_function_metadata.html',1,'gd']]],
+  ['adaptcollisionmaskautomatically',['AdaptCollisionMaskAutomatically',['../classgd_1_1_sprite_object.html#aa20cca8c3dc6e21584ce73cff9af06db',1,'gd::SpriteObject']]],
   ['addaction',['AddAction',['../classgd_1_1_behavior_metadata.html#a5e95b28c177c68056306b0ae8b91fb6e',1,'gd::BehaviorMetadata::AddAction()'],['../classgd_1_1_instruction_or_expression_container_metadata.html#a7e864881dae1524ba87b35fdcc7d0872',1,'gd::InstructionOrExpressionContainerMetadata::AddAction()'],['../classgd_1_1_object_metadata.html#aa2e58247add0416f9f7b09e85fc36548',1,'gd::ObjectMetadata::AddAction()'],['../classgd_1_1_platform_extension.html#a34e95be54f2dfa80b804e8e4830e7d9c',1,'gd::PlatformExtension::AddAction()']]],
   ['addanimation',['AddAnimation',['../classgd_1_1_sprite_object.html#a69b8768b8e895149067a3826ca9d3489',1,'gd::SpriteObject']]],
   ['addbehavior',['AddBehavior',['../classgd_1_1_platform_extension.html#af76a4042da652cedaedd28c04b9aad74',1,'gd::PlatformExtension']]],

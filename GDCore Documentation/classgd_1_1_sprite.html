@@ -93,7 +93,7 @@ const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</t
 <tr class="memdesc:a933cae0d115ea59e1595c17c9b5ee0fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of the sprite image. <br /></td></tr>
 <tr class="separator:a933cae0d115ea59e1595c17c9b5ee0fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae459d3c1174cb1c2a2a2dc78b674b658"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_polygon2d.html">Polygon2d</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_sprite.html#ae459d3c1174cb1c2a2a2dc78b674b658">GetCollisionMask</a> () const</td></tr>
-<tr class="memdesc:ae459d3c1174cb1c2a2a2dc78b674b658"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the collision mask (custom or automatically generated owing to <a class="el" href="classgd_1_1_sprite.html#adf43f4dc23d26c7d3be1875fb07f20cb" title="Return true if the collision mask is a bounding box, false if a custom collision mask is used...">IsCollisionMaskAutomatic()</a>)  <a href="#ae459d3c1174cb1c2a2a2dc78b674b658">More...</a><br /></td></tr>
+<tr class="memdesc:ae459d3c1174cb1c2a2a2dc78b674b658"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the collision mask (custom or automatically generated owing to <a class="el" href="classgd_1_1_sprite.html#a6278dbe7d0bee7daf829cb476f98f9de" title="Return true if the collision mask is a bounding box, false if a custom collision mask is used...">IsFullImageCollisionMask()</a>)  <a href="#ae459d3c1174cb1c2a2a2dc78b674b658">More...</a><br /></td></tr>
 <tr class="separator:ae459d3c1174cb1c2a2a2dc78b674b658"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0cc9ab9a9f861cad5b707b9f0837f14d"><td class="memItemLeft" align="right" valign="top"><a id="a0cc9ab9a9f861cad5b707b9f0837f14d"></a>
 std::vector&lt; <a class="el" href="class_polygon2d.html">Polygon2d</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_sprite.html#a0cc9ab9a9f861cad5b707b9f0837f14d">GetCustomCollisionMask</a> ()</td></tr>
@@ -105,16 +105,16 @@ const std::vector&lt; <a class="el" href="class_polygon2d.html">Polygon2d</a> &g
 <tr class="separator:a99908d7daddd214a51e3422d88f81feb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42b675e1b449489ed88651d3a39276b4"><td class="memItemLeft" align="right" valign="top"><a id="a42b675e1b449489ed88651d3a39276b4"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_sprite.html#a42b675e1b449489ed88651d3a39276b4">SetCustomCollisionMask</a> (const std::vector&lt; <a class="el" href="class_polygon2d.html">Polygon2d</a> &gt; &amp;collisionMask)</td></tr>
-<tr class="memdesc:a42b675e1b449489ed88651d3a39276b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the custom collision mask. Call then <code>SetCollisionMaskAutomatic(false)</code> to use it. <br /></td></tr>
+<tr class="memdesc:a42b675e1b449489ed88651d3a39276b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the custom collision mask. Call then <code>SetFullImageCollisionMask(false)</code> to use it. <br /></td></tr>
 <tr class="separator:a42b675e1b449489ed88651d3a39276b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf43f4dc23d26c7d3be1875fb07f20cb"><td class="memItemLeft" align="right" valign="top"><a id="adf43f4dc23d26c7d3be1875fb07f20cb"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_sprite.html#adf43f4dc23d26c7d3be1875fb07f20cb">IsCollisionMaskAutomatic</a> () const</td></tr>
-<tr class="memdesc:adf43f4dc23d26c7d3be1875fb07f20cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the collision mask is a bounding box, false if a custom collision mask is used. <br /></td></tr>
-<tr class="separator:adf43f4dc23d26c7d3be1875fb07f20cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8721f7f5546cf97b443fc604d6b3593"><td class="memItemLeft" align="right" valign="top"><a id="ac8721f7f5546cf97b443fc604d6b3593"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_sprite.html#ac8721f7f5546cf97b443fc604d6b3593">SetCollisionMaskAutomatic</a> (bool enabled)</td></tr>
-<tr class="memdesc:ac8721f7f5546cf97b443fc604d6b3593"><td class="mdescLeft">&#160;</td><td class="mdescRight">Un/set use of the custom collision mask. <br /></td></tr>
-<tr class="separator:ac8721f7f5546cf97b443fc604d6b3593"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6278dbe7d0bee7daf829cb476f98f9de"><td class="memItemLeft" align="right" valign="top"><a id="a6278dbe7d0bee7daf829cb476f98f9de"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_sprite.html#a6278dbe7d0bee7daf829cb476f98f9de">IsFullImageCollisionMask</a> () const</td></tr>
+<tr class="memdesc:a6278dbe7d0bee7daf829cb476f98f9de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the collision mask is a bounding box, false if a custom collision mask is used. <br /></td></tr>
+<tr class="separator:a6278dbe7d0bee7daf829cb476f98f9de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac772ec3918c197ef480bd1d02f29c527"><td class="memItemLeft" align="right" valign="top"><a id="ac772ec3918c197ef480bd1d02f29c527"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_sprite.html#ac772ec3918c197ef480bd1d02f29c527">SetFullImageCollisionMask</a> (bool enabled)</td></tr>
+<tr class="memdesc:ac772ec3918c197ef480bd1d02f29c527"><td class="mdescLeft">&#160;</td><td class="mdescRight">Un/set use of the custom collision mask. <br /></td></tr>
+<tr class="separator:ac772ec3918c197ef480bd1d02f29c527"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbe60ccd706f62aa3d47238af35b2aa5"><td class="memItemLeft" align="right" valign="top"><a id="adbe60ccd706f62aa3d47238af35b2aa5"></a>
 std::vector&lt; <a class="el" href="class_point.html">Point</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_sprite.html#adbe60ccd706f62aa3d47238af35b2aa5">GetAllNonDefaultPoints</a> ()</td></tr>
 <tr class="memdesc:adbe60ccd706f62aa3d47238af35b2aa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all points, excluding origin and center. <br /></td></tr>
@@ -243,7 +243,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
       </table>
 </div><div class="memdoc">
 
-<p>Get the collision mask (custom or automatically generated owing to <a class="el" href="classgd_1_1_sprite.html#adf43f4dc23d26c7d3be1875fb07f20cb" title="Return true if the collision mask is a bounding box, false if a custom collision mask is used...">IsCollisionMaskAutomatic()</a>) </p>
+<p>Get the collision mask (custom or automatically generated owing to <a class="el" href="classgd_1_1_sprite.html#a6278dbe7d0bee7daf829cb476f98f9de" title="Return true if the collision mask is a bounding box, false if a custom collision mask is used...">IsFullImageCollisionMask()</a>) </p>
 <dl class="section warning"><dt>Warning</dt><dd>If the image has not been loaded ( using LoadImage ) and the collision mask is set as automatic, the returned mask won't be correct. </dd></dl>
 
 </div>
