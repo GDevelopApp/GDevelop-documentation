@@ -239,8 +239,7 @@ Supported 3D file formats are:
 - .x3d
 - .vrml
 
-**Animations** are taken into account and will be displayed in the store.
-Be sure to use logical animation names such as `run`, `jump`, `idle`, etc.
+**Animation names** should be meaningful such as `run`, `jump`, `idle`, etc.
 
 **Dimensions** of 3d models must be consistent across a pack. For instance, props should fit characters hands.
 
