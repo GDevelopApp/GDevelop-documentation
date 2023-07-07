@@ -10,10 +10,44 @@ Allow to cancel the drag of an object (having the Draggable behavior) and return
 Add this behavior on an object with the Draggable behavior and the Tween behavior. 
 Use then the action to cancel the drag, and the behavior will smoothly animate the object back to its original position, using a tween animation.
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+
+
+## Cancellable Draggable object 
+
+Allow to cancel the drag of an object and make it smoothly return to its original position (with a tween). 
+
+### Behavior actions
+
+**Cancel drag**  
+Cancel last drag.
+
+**Original X property**  
+Change the property value for the original X.
+
+**Original Y property**  
+Change the property value for the original Y.
+
+### Behavior conditions
+
+**Dragging is cancelled**  
+Dragging is cancelled, the object is returning to its original position.
+
+**Original X property**  
+Compare the property value for the original X.
+
+**Original Y property**  
+Compare the property value for the original Y.
+
+### Behavior expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.CancellableDraggable::PropertyOriginalX()` | Return the property value for the original X. ||
+| `Object.CancellableDraggable::PropertyOriginalY()` | Return the property value for the original Y. ||
+
+---
 
 *This page is an auto-generated reference page about the **Cancellable draggable object** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

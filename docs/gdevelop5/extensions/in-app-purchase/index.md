@@ -30,10 +30,41 @@ The general worflow is the following:
 
 [Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/in-app-purchase/setup)
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Finalize a purchase**  
+Mark a purchase as delivered, after you delivered the goods the user has paid for. Until you do so, the user will not be charged and keep on getting the event triggered each time the app starts.
+
+**Finalize registration**  
+Finalize store registration. Do this after registering every product and before ordering or getting information about a product.
+
+**Load item data in a variable**  
+Get all the data about an item from the IAP provider and store it into a structure variable.
+
+**Order an item**  
+Opens the purchase menu to let the user buy an item.  
+
+Be sure to have registered the item ID before and finalized the registration. You also need to use the condition to check if the store is ready before using this action.
+
+**Register an item**  
+Register an item of your store. This is required to do for all items you want to display or order from the app.   
+
+Make sure you register them all and finalize registration before ordering an item.
+
+**Update a variable when an item is updated**  
+When an event is triggered for an item (item loaded, approved, already owned, etc..), this sets a scene variable to true.   
+You can then compare the value of the variable in a condition, and have actions launched to react to the changes.
+
+## Conditions
+
+**Store is ready**  
+Triggers after finalizing the registration, when items can be used (you can get data of an item like the price, you can use the action to order an item...).
+
+
+
+---
 
 *This page is an auto-generated reference page about the **Mobile In-App Purchase (experimental)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

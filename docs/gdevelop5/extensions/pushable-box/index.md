@@ -5,14 +5,6 @@ Makes an object a pushable box.
 
 **Authors and contributors** to this community extension: [VegeTato](https://gd.games/VegeTato).
 
-!!! warning
-    This is an extension made by a community member — but not reviewed
-    by the GDevelop extension team. As such, we can't guarantee it
-    meets all the quality standards of official extensions. In case of
-    doubt, contact the author to know more about what the extension
-    does or inspect its content before using it.
-
-
 ---
 
 # This extension has been reworked   
@@ -35,10 +27,22 @@ Requires: Platformer character behavior, Platformer behavior
 - You can change the box (acceleration & deceleration) from the platformer character behavior.  
 - Extension action can be used ONCE only.  
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Pushable box (1 Box)**  
+Make any object a pushable box.
+
+**Pushable box (2 Boxes)**  
+Make any object a pushable box.
+
+**Pushable box (3 Boxes)**  
+Make any object a pushable box.
+
+
+
+---
 
 *This page is an auto-generated reference page about the **Pushable Box (OUT DATED)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

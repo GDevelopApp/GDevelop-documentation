@@ -25,10 +25,17 @@ After the objects are created, you can reference their object variables to manag
 
 Watch this [tutorial video](https://youtu.be/rlGSlNSRR9w) to see examples of how to use this extension.
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Create multiple copies of an object**  
+Create multiple copies of an object.  
+Select the object, choose the number of rows and columns, the spacing between rows and columns, the top left starting point, the layer to create the objects on, and the z-order of the objects.
+
+
+
+---
 
 *This page is an auto-generated reference page about the **Create multiple copies of an object** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

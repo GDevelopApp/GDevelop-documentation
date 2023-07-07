@@ -27,10 +27,22 @@ Tips:
 
 [Read more...](https://victrisgames.itch.io/extension-homing-projectile)
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Lock projectile to target**  
+Lock projectile object to target object.  (This is required for "Move projectile towards target").
+
+**Move projectile towards target**  
+Move projectile towards the object that it has been locked to.  This action must be run every frame.
+
+**Move physics projectile towards target**  
+Move physics projectile towards the object that it has been locked to.  This action must be run every frame.
+
+
+
+---
 
 *This page is an auto-generated reference page about the **Homing projectile** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

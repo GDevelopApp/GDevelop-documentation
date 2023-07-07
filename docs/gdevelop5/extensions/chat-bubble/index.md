@@ -5,14 +5,6 @@ Create chat bubbles dynamically.
 
 **Authors and contributors** to this community extension: [planktonfun](https://gd.games/planktonfun).
 
-!!! warning
-    This is an extension made by a community member — but not reviewed
-    by the GDevelop extension team. As such, we can't guarantee it
-    meets all the quality standards of official extensions. In case of
-    doubt, contact the author to know more about what the extension
-    does or inspect its content before using it.
-
-
 ---
 
 Create chat bubbles dynamically
@@ -31,10 +23,65 @@ future support:
 
 [Example link](https://gdevelop.io/game-example/chat-bubble)
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+
+
+## Chat Bubble Behavior 
+
+Draws a chat bubble into a text object. 
+
+### Behavior actions
+
+**Draw a chat bubble**  
+Draw a chat bubble.
+
+**Draw a chat bubble with name tag**  
+Draw a chat bubble with name tag.
+
+**DefaultColor property**  
+Change the property value for the defaultColor.
+
+**DefaultOutlineColor property**  
+Change the property value for the defaultOutlineColor.
+
+**Draw Chat Height property**  
+Change the property value for the draw Chat Height.
+
+**Draw Chat Width property**  
+Change the property value for the draw Chat Width.
+
+**Name Tag Background Color (if you only call draw with name tag) property**  
+Change the property value for the name Tag Background Color (if you only call draw with name tag).
+
+### Behavior conditions
+
+**DefaultColor property**  
+Compare the property value for the defaultColor.
+
+**DefaultOutlineColor property**  
+Compare the property value for the defaultOutlineColor.
+
+**Draw Chat Height property**  
+Compare the property value for the draw Chat Height.
+
+**Draw Chat Width property**  
+Compare the property value for the draw Chat Width.
+
+**Name Tag Background Color (if you only call draw with name tag) property**  
+Compare the property value for the name Tag Background Color (if you only call draw with name tag).
+
+### Behavior expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.ChatBubble::PropertyDefaultColor()` | Return the property value for the defaultColor. ||
+| `Object.ChatBubble::PropertyDefaultOutlineColor()` | Return the property value for the defaultOutlineColor. ||
+| `Object.ChatBubble::PropertyDrawChatHeight()` | Return the property value for the draw Chat Height. ||
+| `Object.ChatBubble::PropertyDrawChatWidth()` | Return the property value for the draw Chat Width. ||
+| `Object.ChatBubble::PropertyNameTagBackgroundColor()` | Return the property value for the name Tag Background Color (if you only call draw with name tag). ||
+
+---
 
 *This page is an auto-generated reference page about the **ChatBubble** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

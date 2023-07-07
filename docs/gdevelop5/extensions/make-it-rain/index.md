@@ -5,14 +5,6 @@ Makes an object rain from a selected direction.
 
 **Authors and contributors** to this community extension: [VegeTato](https://gd.games/VegeTato).
 
-!!! warning
-    This is an extension made by a community member — but not reviewed
-    by the GDevelop extension team. As such, we can't guarantee it
-    meets all the quality standards of official extensions. In case of
-    doubt, contact the author to know more about what the extension
-    does or inspect its content before using it.
-
-
 ---
 
 - User can select the rain object.
@@ -27,10 +19,34 @@ Makes an object rain from a selected direction.
 - User can set the rain animation after the collision.
 - User have the option (On/Off) to delete the rain objects when its out of screen.
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Make object rain**  
+Make object rain from a selected direction.
+
+**Make it rain from object**  
+Make object rain from another object.
+
+**Rain collides animation**  
+Change rain animation when it collides with other object.
+
+**Stop raining object**  
+Stop raning object.
+
+**Start raining object**  
+Start raining object.
+
+**Start raining from object**  
+Start raining object from object.
+
+**Stop moving rain**  
+Could be used with interaction condition.
+
+
+
+---
 
 *This page is an auto-generated reference page about the **Make it rain** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

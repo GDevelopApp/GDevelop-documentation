@@ -9,10 +9,16 @@ Checks if the device running the game is connected to the internet.
 
 Checks if the device running the game is connected to the internet.
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Conditions
+
+**Is the device online?**  
+Checks if the device is connected to the internet.
+
+
+
+---
 
 *This page is an auto-generated reference page about the **Internet Connectivity ** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

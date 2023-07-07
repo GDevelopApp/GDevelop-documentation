@@ -11,10 +11,16 @@ Move the camera to look though objects eyes.
 
 This extension can be used with the "Mouse pointer lock" or "Gamepad" extension to build a first person camera.
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Look through object eyes**  
+Move the camera to look though _PARAM1_ eyes. The object must look to the right when all its angles are 0 and the top of its head be toward Z+.
+
+
+
+---
 
 *This page is an auto-generated reference page about the **First person 3D camera** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

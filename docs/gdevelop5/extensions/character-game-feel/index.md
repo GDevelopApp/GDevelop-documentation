@@ -5,14 +5,6 @@ Add game feel to your platformer character object.
 
 **Authors and contributors** to this community extension: [VegeTato](https://gd.games/VegeTato).
 
-!!! warning
-    This is an extension made by a community member — but not reviewed
-    by the GDevelop extension team. As such, we can't guarantee it
-    meets all the quality standards of official extensions. In case of
-    doubt, contact the author to know more about what the extension
-    does or inspect its content before using it.
-
-
 ---
 
 Add game feel behavior to your platformer character object to get the animations:
@@ -48,10 +40,129 @@ Add game feel behavior to your platformer character object to get the animations
 - Your sprite bottom collision, must be filled entirely.
 ![](https://i.imgur.com/sHGOeqW.png)
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+
+
+## Character game feel 
+
+For platformer character. 
+
+### Behavior actions
+
+**Disable animation**  
+Disable game feel animation.
+
+**Enable animation**  
+Enable game feel animation.
+
+**Idle animation property**  
+Update the property value for "idle animation".
+
+**Scale strength property**  
+Change the property value for the scale strength.
+
+**Scaling speed property**  
+Change the property value for the scaling speed.
+
+**Jump animation property**  
+Update the property value for "jump animation".
+
+**Scale strength property**  
+Change the property value for the scale strength.
+
+**Scaling speed property**  
+Change the property value for the scaling speed.
+
+**Fall animation property**  
+Update the property value for "fall animation".
+
+**Scale strength property**  
+Change the property value for the scale strength.
+
+**Scaling speed property**  
+Change the property value for the scaling speed.
+
+**Land animation property**  
+Update the property value for "land animation".
+
+**Scale strength property**  
+Change the property value for the scale strength.
+
+**Scaling speed property**  
+Change the property value for the scaling speed.
+
+**Toggle Idle animation property**  
+Toggle the property value for idle animation.  
+If it was true, it will become false, and if it was false it will become true.
+
+**Toggle Jump animation property**  
+Toggle the property value for jump animation.  
+If it was true, it will become false, and if it was false it will become true.
+
+**Toggle Fall animation property**  
+Toggle the property value for fall animation.  
+If it was true, it will become false, and if it was false it will become true.
+
+**Toggle Land animation property**  
+Toggle the property value for land animation.  
+If it was true, it will become false, and if it was false it will become true.
+
+### Behavior conditions
+
+**Animation is playing**  
+Check if the object game feel animation is playing.
+
+**Idle animation property**  
+Check the property value for idle animation.
+
+**Scale strength property**  
+Compare the property value for the scale strength.
+
+**Scaling speed property**  
+Compare the property value for the scaling speed.
+
+**Jump animation property**  
+Check the property value for jump animation.
+
+**Scale strength property**  
+Compare the property value for the scale strength.
+
+**Scaling speed property**  
+Compare the property value for the scaling speed.
+
+**Fall animation property**  
+Check the property value for fall animation.
+
+**Scale strength property**  
+Compare the property value for the scale strength.
+
+**Scaling speed property**  
+Compare the property value for the scaling speed.
+
+**Land animation property**  
+Check the property value for land animation.
+
+**Scale strength property**  
+Compare the property value for the scale strength.
+
+**Scaling speed property**  
+Compare the property value for the scaling speed.
+
+### Behavior expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.CharacterGameFeel::PropertyBIdleScale()` | Return the property value for the scale strength. ||
+| `Object.CharacterGameFeel::PropertyCIdleScalingSpeed()` | Return the property value for the scaling speed. ||
+| `Object.CharacterGameFeel::PropertyGJumpScale()` | Return the property value for the scale strength. ||
+| `Object.CharacterGameFeel::PropertyHJumpScalingSpeed()` | Return the property value for the scaling speed. ||
+| `Object.CharacterGameFeel::PropertyJFallScale()` | Return the property value for the scale strength. ||
+| `Object.CharacterGameFeel::PropertyKFallScalingSpeed()` | Return the property value for the scaling speed. ||
+| `Object.CharacterGameFeel::PropertyMLandScale()` | Return the property value for the scale strength. ||
+| `Object.CharacterGameFeel::PropertyNLandScalingSpeed()` | Return the property value for the scaling speed. ||
+
+---
 
 *This page is an auto-generated reference page about the **Character game feel** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

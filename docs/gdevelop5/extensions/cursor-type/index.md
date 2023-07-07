@@ -11,10 +11,36 @@ Provides an action to change the type of the cursor, and a behavior to change th
 
 Find the list of cursors here: https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Cursor type**  
+Change the type of the cursor.
+
+
+
+## Custom cursor when hovered 
+
+Change the cursor appearence when the object is hovered (on Windows, macOS or Linux). 
+
+### Behavior actions
+
+**The cursor type property**  
+Change the property value for the the cursor type.
+
+### Behavior conditions
+
+**The cursor type property**  
+Compare the property value for the the cursor type.
+
+### Behavior expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.CursorHover::Propertycursor_type()` | Return the property value for the the cursor type. ||
+
+---
 
 *This page is an auto-generated reference page about the **Cursor type** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

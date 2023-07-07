@@ -10,10 +10,25 @@ Renders an object, layer, scene or an area of a scene and puts the resulting ima
 Allows rendering (creating an image) of objects, layers and the scene to display in a sprite. 
 This allows to make optimizations by transforming the resulting image of a shape painter into a faster sprite, or to make viewports/cameras.
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Render a layer into a sprite**  
+Renders a layer and puts the rendered image into a sprite object.
+
+**Render an object into a sprite**  
+Renders an object and puts the rendered image into a sprite object.
+
+**Render a scene into a sprite**  
+Renders a scene and puts the rendered image into a sprite object.
+
+**Render an area of a scene into a sprite**  
+Renders a defined area of a scene and puts the rendered image into a sprite object.
+
+
+
+---
 
 *This page is an auto-generated reference page about the **Sprite Snapshot** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

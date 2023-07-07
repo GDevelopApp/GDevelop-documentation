@@ -27,10 +27,46 @@ Expressions:
 - EdgeScrollSpeedY() - Current scroll speed (vertical)
 
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Configure camera edge scrolling**  
+Configure camera edge scrolling that moves when mouse is near an edge of the screen.
+
+**Draw edge scrolling screen margin**  
+Draw a rectangle that shows where edge scrolling will be triggered.
+
+**Enable (or disable) camera edge scrolling**  
+Enable (or disable) camera edge scrolling .  Use "Configure camera edge scrolling" to adjust settings.
+
+## Conditions
+
+**Camera is scrolling**  
+Check if the camera is scrolling.
+
+**Camera is scrolling down**  
+Check if the camera is scrolling down.
+
+**Camera is scrolling left**  
+Check if the camera is scrolling left.
+
+**Camera is scrolling right**  
+Check if the camera is scrolling right.
+
+**Camera is scrolling up**  
+Check if the camera is scrolling up.
+
+## Expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `EdgeScrollCamera::AbsoluteScrollSpeed(number)` | Return the absolute scroll speed according to the mouse distance from the border. ||
+| | _number_ | Border distance |
+| `EdgeScrollCamera::SpeedX()` | Return the speed the camera is currently scrolling in horizontal direction (in pixels per second). ||
+| `EdgeScrollCamera::SpeedY()` | Return the speed the camera is currently scrolling in vertical direction (in pixels per second). ||
+
+---
 
 *This page is an auto-generated reference page about the **Edge scroll camera** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

@@ -19,10 +19,19 @@ Release Notes:
 
 - Version 1.0.0 removed the "MinZoom", "Layer", and "Camera" parameters. Layer is now selected automatically from one of the objects being followed. Events that were created with previous versions of this extension will continue working without modification. 
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Follow multiple objects with camera**  
+Change the zoom and position of the camera to keep all instances of an object (or object group) on the screen.
+
+**Follow multiple objects with camera (Deprecated)**  
+Change the zoom and position of the camera to keep all instances of an object (or object group) on the screen. (Deprecated)
+
+
+
+---
 
 *This page is an auto-generated reference page about the **Follow multiple objects with camera** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

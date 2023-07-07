@@ -5,14 +5,6 @@ Pathfinding allows to compute an efficient path for objects, avoiding obstacles 
 
 **Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).
 
-!!! warning
-    This is an extension made by a community member — but not reviewed
-    by the GDevelop extension team. As such, we can't guarantee it
-    meets all the quality standards of official extensions. In case of
-    doubt, contact the author to know more about what the extension
-    does or inspect its content before using it.
-
-
 ---
 
 In comparison to the built-in pathfinding behavior, this one aims to:
@@ -22,10 +14,352 @@ In comparison to the built-in pathfinding behavior, this one aims to:
 
 The isometric example shows how to use this extension to move a character to a destination ([open the project online](https://editor.gdevelop.io/?project=example://isometric-game)).
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Define JavaScript classes**  
+Define JavaScript classes.
+
+
+
+## Navigation mesh pathfinding animator 
+
+Change the animation according to the movement direction. 
+
+### Behavior actions
+
+**Animation direction**  
+Change the animation direction of the object.
+
+**Animation name**  
+Change the animation name of the object.
+
+**Animation speed scale**  
+Change the animation speed scale according to the object speed.
+
+**Scale animation according to speed**  
+Change whether the animation is scaled according to speed or not.
+
+**Angle offset property**  
+Change the property value for the angle offset.
+
+**AnimationDirection property**  
+Change the property value for the animationDirection.
+
+**Animation name property**  
+Change the property value for the animation name.
+
+**Number of directions property**  
+Change the property value for the number of directions.
+
+**Scale animation according to speed property**  
+Update the property value for "scale animation according to speed".
+
+**AnimationFrame shared property**  
+Change the property value for the animationFrame.
+
+**NewAnimationDirection shared property**  
+Change the property value for the newAnimationDirection.
+
+**Toggle Scale animation according to speed property**  
+Toggle the property value for scale animation according to speed.  
+If it was true, it will become false, and if it was false it will become true.
+
+### Behavior conditions
+
+**Animation name**  
+Compare the animation name of the object.
+
+**Scale animation according to speed**  
+Check if the animation is scaled according to speed.
+
+**Angle offset property**  
+Compare the property value for the angle offset.
+
+**AnimationDirection property**  
+Compare the property value for the animationDirection.
+
+**Animation name property**  
+Compare the property value for the animation name.
+
+**Number of directions property**  
+Compare the property value for the number of directions.
+
+**Scale animation according to speed property**  
+Check the property value for scale animation according to speed.
+
+**AnimationFrame shared property**  
+Compare the property value for the animationFrame.
+
+**NewAnimationDirection shared property**  
+Compare the property value for the newAnimationDirection.
+
+### Behavior expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.NavMeshPathfindingAnimator::AnimationName()` | Return the animation name of the object. ||
+| `Object.NavMeshPathfindingAnimator::Direction()` | Return the object movement direction. ||
+| `Object.NavMeshPathfindingAnimator::DirectionDifference(number, number)` | Return the difference between 2 directions. ||
+| | _number_ | Direction |
+| | _number_ | Other direction |
+| `Object.NavMeshPathfindingAnimator::PropertyAngleOffset()` | Return the property value for the angle offset. ||
+| `Object.NavMeshPathfindingAnimator::PropertyAnimationDirection()` | Return the property value for the animationDirection. ||
+| `Object.NavMeshPathfindingAnimator::PropertyAnimationName()` | Return the property value for the animation name. ||
+| `Object.NavMeshPathfindingAnimator::PropertyDirectionCount()` | Return the property value for the number of directions. ||
+| `Object.NavMeshPathfindingAnimator::SharedPropertyAnimationFrame()` | Return the property value for the animationFrame. ||
+| `Object.NavMeshPathfindingAnimator::SharedPropertyNewAnimationDirection()` | Return the property value for the newAnimationDirection. ||
+
+## Navigation mesh pathfinding (experimental) 
+
+Move objects to a target in straight lines while avoiding all objects that are flagged as obstacles. 
+
+### Behavior actions
+
+**Draw navigation mesh**  
+Draw the navigation mesh used for the object.
+
+**Acceleration**  
+Change the acceleration of the object.
+
+**Angle offset**  
+Change the angle offset of the object.
+
+**Rotation speed**  
+Change the rotation speed of the object.
+
+**Collision shape**  
+Change the collision shape of the object.
+
+**Move to a position**  
+Move the object to a position.
+
+**Extra border size**  
+Change the extra border size of the object.
+
+**Maximum speed**  
+Change the maximum speed of the object.
+
+**Acceleration property**  
+Change the property value for the acceleration.
+
+**Angle offset property**  
+Change the property value for the angle offset.
+
+**Rotation speed property**  
+Change the property value for the rotation speed.
+
+**Collision shape property**  
+Change the property value for the collision shape.
+
+**Extra border size property**  
+Change the property value for the extra border size.
+
+**Maximum speed property**  
+Change the property value for the maximum speed.
+
+**Rotate object property**  
+Update the property value for "rotate object".
+
+**Rotate object**  
+Enable or disable the rotation of the object when following its path.
+
+**Toggle Rotate object property**  
+Toggle the property value for rotate object.  
+If it was true, it will become false, and if it was false it will become true.
+
+### Behavior conditions
+
+**Acceleration**  
+Compare the acceleration of the object.
+
+**Angle offset**  
+Compare the angle offset of the object.
+
+**Rotation speed**  
+Compare the rotation speed of the object.
+
+**Collision shape**  
+Compare the collision shape of the object.
+
+**Destination reached**  
+Check if the destination was reached.
+
+**Extra border size**  
+Compare the extra border size of the object.
+
+**Is moving**  
+Check if the object is moving on a path.
+
+**Maximum speed**  
+Compare the maximum speed of the object.
+
+**Angle of movement on its path**  
+Compare the angle of movement of an object on its path.
+
+**Path found**  
+Check if a path has been found.
+
+**Acceleration property**  
+Compare the property value for the acceleration.
+
+**Angle offset property**  
+Compare the property value for the angle offset.
+
+**Rotation speed property**  
+Compare the property value for the rotation speed.
+
+**Collision shape property**  
+Compare the property value for the collision shape.
+
+**Extra border size property**  
+Compare the property value for the extra border size.
+
+**Maximum speed property**  
+Compare the property value for the maximum speed.
+
+**Rotate object property**  
+Check the property value for rotate object.
+
+**Rotate object**  
+Check if the object should rotate when following its path.
+
+**Speed on the path**  
+Compare the number of waypoints on the path.
+
+### Behavior expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.NavMeshPathfindingBehavior::Acceleration()` | Return the acceleration of the object. ||
+| `Object.NavMeshPathfindingBehavior::AngleOffset()` | Return the angle offset of the object. ||
+| `Object.NavMeshPathfindingBehavior::AngularMaxSpeed()` | Return the rotation speed of the object. ||
+| `Object.NavMeshPathfindingBehavior::CollisionShape()` | Return the collision shape of the object. ||
+| `Object.NavMeshPathfindingBehavior::DestinationX()` | Return the destination X position. ||
+| `Object.NavMeshPathfindingBehavior::DestinationY()` | Return the destination Y position. ||
+| `Object.NavMeshPathfindingBehavior::ExtraBorder()` | Return the extra border size of the object. ||
+| `Object.NavMeshPathfindingBehavior::MaxSpeed()` | Return the maximum speed of the object. ||
+| `Object.NavMeshPathfindingBehavior::MovementAngle()` | Return the angle of movement of an object on its path. ||
+| `Object.NavMeshPathfindingBehavior::NextNodeIndex()` | Return the index of the next waypoint to reach. ||
+| `Object.NavMeshPathfindingBehavior::NextNodeX()` | Return the next waypoint X position. ||
+| `Object.NavMeshPathfindingBehavior::NextNodeY()` | Return the next waypoint Y position. ||
+| `Object.NavMeshPathfindingBehavior::NodeCount()` | Get the number of waypoints on the path. ||
+| `Object.NavMeshPathfindingBehavior::NodeX(number)` | Return a waypoint X position. ||
+| | _number_ | Node index (start at 0) |
+| `Object.NavMeshPathfindingBehavior::NodeY(number)` | Return a waypoint Y position. ||
+| | _number_ | Node index (start at 0) |
+| `Object.NavMeshPathfindingBehavior::PreviousNodeX()` | Return the previous waypoint X position. ||
+| `Object.NavMeshPathfindingBehavior::PreviousNodeY()` | Return the previous waypoint Y position. ||
+| `Object.NavMeshPathfindingBehavior::PropertyAcceleration()` | Return the property value for the acceleration. ||
+| `Object.NavMeshPathfindingBehavior::PropertyAngleOffset()` | Return the property value for the angle offset. ||
+| `Object.NavMeshPathfindingBehavior::PropertyAngularMaxSpeed()` | Return the property value for the rotation speed. ||
+| `Object.NavMeshPathfindingBehavior::PropertyCollisionShape()` | Return the property value for the collision shape. ||
+| `Object.NavMeshPathfindingBehavior::PropertyExtraBorder()` | Return the property value for the extra border size. ||
+| `Object.NavMeshPathfindingBehavior::PropertyMaxSpeed()` | Return the property value for the maximum speed. ||
+| `Object.NavMeshPathfindingBehavior::Speed()` | Return the number of waypoints on the path. ||
+
+## Obstacle for navigation mesh pathfinding (experimental) 
+
+Flag objects as being an obstacle for pathfinding. 
+
+### Behavior actions
+
+**Invalidate navigation mesh**  
+Invalidate navigation mesh.
+
+**Area bottom bound**  
+Change the area bottom bound. The bottom bound of the area where objects can go in the scene (default to the game resolution). While an object is needed, this will apply to all objects using the behavior.
+
+**Area left bound**  
+Change the area left bound. The left bound of the area where objects can go in the scene. While an object is needed, this will apply to all objects using the behavior.
+
+**Area right bound**  
+Change the area right bound. The right bound of the area where objects can go in the scene (default to the game resolution). While an object is needed, this will apply to all objects using the behavior.
+
+**Area top bound**  
+Change the area top bound. The top bound of the area where objects can go in the scene. While an object is needed, this will apply to all objects using the behavior.
+
+**Cell size**  
+Change the cell size for obstacle collision mask rasterization. While an object is needed, this will apply to all objects using the behavior.
+
+**Area bottom bound shared property**  
+Change the property value for the area bottom bound.
+
+**Area left bound shared property**  
+Change the property value for the area left bound.
+
+**Area right bound shared property**  
+Change the property value for the area right bound.
+
+**Area top bound shared property**  
+Change the property value for the area top bound.
+
+**Cell size shared property**  
+Change the property value for the cell size.
+
+**IsometricRatio shared property**  
+Change the property value for the isometricRatio.
+
+**Viewpoint shared property**  
+Change the property value for the viewpoint.
+
+### Behavior conditions
+
+**Area bottom bound**  
+Compare the area bottom bound. The bottom bound of the area where objects can go in the scene (default to the game resolution). While an object is needed, this will apply to all objects using the behavior.
+
+**Area left bound**  
+Compare the area left bound. The left bound of the area where objects can go in the scene. While an object is needed, this will apply to all objects using the behavior.
+
+**Area right bound**  
+Compare the area right bound. The right bound of the area where objects can go in the scene (default to the game resolution). While an object is needed, this will apply to all objects using the behavior.
+
+**Area top bound**  
+Compare the area top bound. The top bound of the area where objects can go in the scene. While an object is needed, this will apply to all objects using the behavior.
+
+**Cell size**  
+Compare the cell size for obstacle collision mask rasterization. While an object is needed, this will apply to all objects using the behavior.
+
+**Area bottom bound shared property**  
+Compare the property value for the area bottom bound.
+
+**Area left bound shared property**  
+Compare the property value for the area left bound.
+
+**Area right bound shared property**  
+Compare the property value for the area right bound.
+
+**Area top bound shared property**  
+Compare the property value for the area top bound.
+
+**Cell size shared property**  
+Compare the property value for the cell size.
+
+**IsometricRatio shared property**  
+Compare the property value for the isometricRatio.
+
+**Viewpoint shared property**  
+Compare the property value for the viewpoint.
+
+### Behavior expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.NavMeshPathfindingObstacleBehavior::AreaBottomBound()` | Return the area bottom bound. The bottom bound of the area where objects can go in the scene (default to the game resolution). While an object is needed, this will apply to all objects using the behavior. ||
+| `Object.NavMeshPathfindingObstacleBehavior::AreaLeftBound()` | Return the area left bound. The left bound of the area where objects can go in the scene. While an object is needed, this will apply to all objects using the behavior. ||
+| `Object.NavMeshPathfindingObstacleBehavior::AreaRightBound()` | Return the area right bound. The right bound of the area where objects can go in the scene (default to the game resolution). While an object is needed, this will apply to all objects using the behavior. ||
+| `Object.NavMeshPathfindingObstacleBehavior::AreaTopBound()` | Return the area top bound. The top bound of the area where objects can go in the scene. While an object is needed, this will apply to all objects using the behavior. ||
+| `Object.NavMeshPathfindingObstacleBehavior::CellSize()` | Return the cell size for obstacle collision mask rasterization. While an object is needed, this will apply to all objects using the behavior. ||
+| `Object.NavMeshPathfindingObstacleBehavior::SharedPropertyAreaBottomBound()` | Return the property value for the area bottom bound. ||
+| `Object.NavMeshPathfindingObstacleBehavior::SharedPropertyAreaLeftBound()` | Return the property value for the area left bound. ||
+| `Object.NavMeshPathfindingObstacleBehavior::SharedPropertyAreaRightBound()` | Return the property value for the area right bound. ||
+| `Object.NavMeshPathfindingObstacleBehavior::SharedPropertyAreaTopBound()` | Return the property value for the area top bound. ||
+| `Object.NavMeshPathfindingObstacleBehavior::SharedPropertyCellSize()` | Return the property value for the cell size. ||
+| `Object.NavMeshPathfindingObstacleBehavior::SharedPropertyIsometricRatio()` | Return the property value for the isometricRatio. ||
+| `Object.NavMeshPathfindingObstacleBehavior::SharedPropertyViewpoint()` | Return the property value for the viewpoint. ||
+
+---
 
 *This page is an auto-generated reference page about the **Navigation mesh pathfinding (experimental)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

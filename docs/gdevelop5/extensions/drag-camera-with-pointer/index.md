@@ -20,10 +20,16 @@ Tips:
 
 - If no parameters are selected, the camera will move in both directions when the left mouse button (or touchscreen) are dragged.
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Drag camera with the mouse**  
+Move a camera by dragging the mouse (or touchscreen).
+
+
+
+---
 
 *This page is an auto-generated reference page about the **Drag camera with the mouse (or touchscreen)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

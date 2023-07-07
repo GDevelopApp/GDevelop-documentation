@@ -26,10 +26,34 @@ This extension adds actions to display three kinds of pop-ups.
 ![Screenshot of the way to use the extension to save a value in a variable](https://i.imgur.com/2iR5ofz.png)
 
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Alert**  
+Displays an alert box with a message and an OK button in a pop-up window.
+
+**Confirm**  
+Ask confirmation of user with a message in a dialog box with an OK button, and a Cancel button.
+
+**Prompt**  
+Displays a prompt in a pop-up that prompts the user for input. This action return the text input or the false boolean if canceled.
+
+## Conditions
+
+**Pop-up message confirmed**  
+Check if a confirmation was accepted.
+
+**Existing prompt response**  
+The response to a pop-up message is filled.
+
+## Expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `PopUp::PromptResponse()` | Return the text response by user to prompt. ||
+
+---
 
 *This page is an auto-generated reference page about the **Pop-up** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

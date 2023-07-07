@@ -19,10 +19,61 @@ An example shows how to change the 2 main colors of an object ([open the project
 
 This extension is experimental and might no longer work in future version of GDevelop.
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Define JavaScript classes**  
+Define JavaScript classes.
+
+
+
+## Panel sprite recolorizer 
+
+Independently change the colors of a panel sprite. 
+
+### Behavior actions
+
+**Recolorize**  
+Replace a given color of an object with another one. The scope allows to change similar colors at once.
+
+**Reset color**  
+Set back the original colors of an object.
+
+_No expressions for this behavior._
+
+
+## Sprite recolorizer 
+
+Independently change the colors of a sprite. 
+
+### Behavior actions
+
+**Recolorize**  
+Replace a given color of an object with another one. The scope allows to change similar colors at once.
+
+**Reset color**  
+Set back the original colors of an object.
+
+_No expressions for this behavior._
+
+
+## Tiled sprite recolorizer 
+
+Independently change the colors of a tiled sprite. 
+
+### Behavior actions
+
+**Recolorize**  
+Replace a given color of an object with another one. The scope allows to change similar colors at once.
+
+**Reset color**  
+Set back the original colors of an object.
+
+_No expressions for this behavior._
+
+
+---
 
 *This page is an auto-generated reference page about the **Object recolorizer (experimental)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

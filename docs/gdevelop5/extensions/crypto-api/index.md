@@ -5,14 +5,6 @@ Random number generator for integers and floats using the Crypto API.
 
 **Authors and contributors** to this community extension: (not specified).
 
-!!! warning
-    This is an extension made by a community member — but not reviewed
-    by the GDevelop extension team. As such, we can't guarantee it
-    meets all the quality standards of official extensions. In case of
-    doubt, contact the author to know more about what the extension
-    does or inspect its content before using it.
-
-
 ---
 
 This uses the Crypto API to create a random number see help for more details. 
@@ -25,10 +17,20 @@ That randomness does come at a cost of performance so be aware of your usage of 
 
 [Read more...](https://developer.mozilla.org/en-US/docs/Web/API/Crypto/getRandomValues)
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `CryptoApi::RandomFloatInRange(number, number)` | Uses the Crypto API to create a longer random number in an float range. ||
+| | _number_ | Minimum Value  |
+| | _number_ | Maximum Value  |
+| `CryptoApi::RandomInRange(number, number)` | Uses the Crypto API to create a longer random number in an integer range. ||
+| | _number_ | Minimum Value  |
+| | _number_ | Maximum Value  |
+
+---
 
 *This page is an auto-generated reference page about the **Crypto Api** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

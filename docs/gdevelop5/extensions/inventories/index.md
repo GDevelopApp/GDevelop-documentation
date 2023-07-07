@@ -11,10 +11,66 @@ Manage inventory items with limited or unlimited item capacity.
 
 [Read more...](https://wiki.gdevelop.io/gdevelop5/all-features/inventory)
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Add an item**  
+Add an item in an inventory.
+
+**Save an inventory in a scene variable**  
+Save all the items of the inventory in a scene variable, so that it can be restored later.
+
+**Load an inventory from a scene variable**  
+Load the content of the inventory from a scene variable.
+
+**Remove an item**  
+Remove an item from an inventory.
+
+**Equip an item**  
+Mark an item as being equipped. If the item count is 0, it won't be marked as equipped.
+
+**Limit item capacity**  
+Allow a limited amount of an object to be in an inventory. Item capacity is unlimited by default.
+
+**Item capacity**  
+Change the maximum number of the specified item that can be added in the inventory. By default, the number allowed for each item is unlimited.
+
+**Item count**  
+Change the number of an item in an inventory.
+
+## Conditions
+
+**Has an item**  
+Check if at least one of the specified items is in the inventory.
+
+**Item full**  
+Check if an item has reached its maximum number allowed in the inventory.
+
+**Item equipped**  
+Check if an item is equipped.
+
+**Limited item capacity**  
+Check if a limited amount of an object is allowed by the inventory. Item capacity is unlimited by default.
+
+**Item capacity**  
+Compare the maximum number of the specified item that can be added in the inventory. By default, the number allowed for each item is unlimited.
+
+**Item count**  
+Compare the number of an item in an inventory.
+
+## Expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Inventories::ItemCapacity(identifier, identifier)` | Return the maximum number of the specified item that can be added in the inventory. By default, the number allowed for each item is unlimited. ||
+| | _identifier_ | Inventory name |
+| | _identifier_ | Item name |
+| `Inventories::ItemCount(identifier, identifier)` | Return the number of an item in an inventory. ||
+| | _identifier_ | Inventory name |
+| | _identifier_ | Item name |
+
+---
 
 *This page is an auto-generated reference page about the **Simple inventories** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

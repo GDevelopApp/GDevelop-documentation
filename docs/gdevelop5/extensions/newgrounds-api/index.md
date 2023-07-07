@@ -7,14 +7,6 @@ Limitations: only works with browser games.
 
 **Authors and contributors** to this community extension: [planktonfun](https://gd.games/planktonfun).
 
-!!! warning
-    This is an extension made by a community member — but not reviewed
-    by the GDevelop extension team. As such, we can't guarantee it
-    meets all the quality standards of official extensions. In case of
-    doubt, contact the author to know more about what the extension
-    does or inspect its content before using it.
-
-
 ---
 
 Allows developers to use newgrounds API for their games
@@ -45,10 +37,41 @@ StringExpressions:
 
 [Read more...](https://bitbucket.org/newgrounds/newgrounds.io-for-javascript-html5/src/master/)
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Load Newgrounds API**  
+Load Newgrounds API.
+
+**Login to Newgrounds**  
+Login to Newgrounds (A webpage popup will display).
+
+**Logout from Newgrounds**  
+Logout from Newgrounds.
+
+**Post Score on Newgrounds**  
+Post Score on Newgrounds (you can create scoreboards from the game edit page on newgrounds).
+
+**Unlock a game Medal**  
+Unlock a game Medal (you can create medals from the game edit page on newgrounds).
+
+## Conditions
+
+**User Is logged In?**  
+User Is logged In?.
+
+## Expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `NewgroundsAPI::RetrieveApiDateTime()` | Get Newgrounds API Date Time. ||
+| `NewgroundsAPI::RetrieveApiVersion()` | Get Newgrounds API Version. ||
+| `NewgroundsAPI::RetrieveMedalList()` | Get Newgrounds Medal List. ||
+| `NewgroundsAPI::RetrievePlayerName()` | Get Newgrounds Player Name. ||
+| `NewgroundsAPI::RetrieveScoreBoardList()` | Get Newgrounds Score Board List. ||
+
+---
 
 *This page is an auto-generated reference page about the **Newgrounds API** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

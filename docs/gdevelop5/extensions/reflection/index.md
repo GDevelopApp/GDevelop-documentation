@@ -18,10 +18,16 @@ An action let you set the reflection for specific objects with a lot of options:
 - Touch distance to delete the reflection
 - Layer to create the reflection on
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Add reflection to object**  
+Reflect your object.
+
+
+
+---
 
 *This page is an auto-generated reference page about the **Reflection** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

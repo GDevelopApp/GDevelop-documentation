@@ -5,14 +5,6 @@ This extension adds Dialog Box functionality that can be used for RPGs, visual n
 
 **Authors and contributors** to this community extension: [PANDAKO](https://gd.games/PANDAKO).
 
-!!! warning
-    This is an extension made by a community member — but not reviewed
-    by the GDevelop extension team. As such, we can't guarantee it
-    meets all the quality standards of official extensions. In case of
-    doubt, contact the author to know more about what the extension
-    does or inspect its content before using it.
-
-
 ---
 
 ## Summary
@@ -54,10 +46,84 @@ In typing, style tags in BBText OBjects are also counted as characters.
 
 [Read more...](https://github.com/PANDAKO-GitHub/DialogBoxExtension)
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+
+
+## Dialog Box 
+
+This extension adds the functionality of a dialog box to your game.
+Add this to the sprite object that will be the background of the dialog box. 
+
+### Behavior actions
+
+**Change Dialog Box contents**  
+Change the Name, Image, and Text in the Dialog Box.
+
+**Change Dialog Box Text**  
+Change the Dialog Box Text.
+
+**Change Dialog Box typing interval**  
+Changes the typing interval of the Dialog Box (in seconds).
+
+**Change Dialog Box typing sound**  
+Changes the typing sound effect of the Dialog Box (File name) (The audio file must be registered as a resource!).
+
+**Close Dialog Box**  
+Close the Dialog Box.
+
+**Open Dialog Box**  
+Open the Dialog Box.
+
+**Tween Duration. (in milliseconds) property**  
+Change the property value for the tween Duration. (in milliseconds).
+
+**Typing interval. (in seconds) property**  
+Change the property value for the typing interval. (in seconds).
+
+**Typing sound effect. (File name) (The audio file must be registered as a resource!) property**  
+Change the property value for the typing sound effect. (File name) (The audio file must be registered as a resource!).
+
+**Setup Dialog Box**  
+Setup the Dialog Box.
+
+**Skip Dialog Box typing**  
+Skip typing in the Dialog Box.
+
+### Behavior conditions
+
+**Number of times the Text in Dialog Box has changed**  
+Compare the number of times the Text in the Dialog Box has changed.
+
+**Dialog Box is close**  
+Dialog Box is close.
+
+**Dialog Box is open**  
+Dialog Box is open.
+
+**Dialog Box is typing**  
+Text in the Dialog Box is typing.
+
+**Tween Duration. (in milliseconds) property**  
+Compare the property value for the tween Duration. (in milliseconds).
+
+**Typing interval. (in seconds) property**  
+Compare the property value for the typing interval. (in seconds).
+
+**Typing sound effect. (File name) (The audio file must be registered as a resource!) property**  
+Compare the property value for the typing sound effect. (File name) (The audio file must be registered as a resource!).
+
+### Behavior expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.DialogBoxBackGround::ChangeCounter(number)` | Return the number of times the Text in the Dialog Box has changed. ||
+| | _number_ | Number (0-based) |
+| `Object.DialogBoxBackGround::PropertyDuration()` | Return the property value for the tween Duration. (in milliseconds). ||
+| `Object.DialogBoxBackGround::PropertyInterval()` | Return the property value for the typing interval. (in seconds). ||
+| `Object.DialogBoxBackGround::PropertySe()` | Return the property value for the typing sound effect. (File name) (The audio file must be registered as a resource!). ||
+
+---
 
 *This page is an auto-generated reference page about the **Dialog Box** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

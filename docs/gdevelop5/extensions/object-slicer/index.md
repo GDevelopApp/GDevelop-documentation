@@ -15,10 +15,28 @@ Tips:
 - Adjust the collision mask to control where pieces will be created
 - Pieces are linked to the original object which can be used in other events (i.e. explode away from the original object) 
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Slice object into smaller pieces**  
+Slice an object into smaller pieces that match color of the original object. The new object should be a solid white color.
+
+## Expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `ObjectSlicer::ReadPixelBlue(number, number)` | Return the blue component of the pixel at the specified position. ||
+| | _number_ | Position X |
+| | _number_ | Position Y |
+| `ObjectSlicer::ReadPixelGreen(number, number)` | Return the green component of the pixel at the specified position. ||
+| | _number_ | Position X |
+| | _number_ | Position Y |
+| `ObjectSlicer::ReadPixelRed(number, number)` | Return the red component of the pixel at the specified position. ||
+| | _number_ | Position X |
+| | _number_ | Position Y |
+
+---
 
 *This page is an auto-generated reference page about the **Slice an object into pieces** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
