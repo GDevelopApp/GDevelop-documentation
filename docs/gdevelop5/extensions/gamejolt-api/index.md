@@ -29,9 +29,6 @@ The request result is stored in a Scene variable of your choice that you can use
 
 ## Actions
 
-**Use connected user**  
-Add the connected user in the request URL parameters.
-
 **Add score to the leaderboard**  
 Add score to the Gamejolt leaderboard.
 
@@ -41,14 +38,8 @@ Add a labelled score in the leaderboard.
 **Achieve a trophy**  
 Set that a trophy has been obtained by the player.
 
-**Add a parameter in the URL request**  
-Add a new parameter in the request.
-
 **Gamejolt authentication**  
 Authenticate Gamejolt user before using the account functionalities.
-
-**Call Gamejolt API**  
-Call the Gamejolt API with the prepared URL.
 
 **Check a game session**  
 Check on the server the session status.
@@ -98,9 +89,6 @@ Fetch the connected user friend list.
 **Open a game session**  
 Open a game session for the connected user.
 
-**Prepare the URL**  
-Prepare the URL including the API endpoint and all the parameters.
-
 **Register Gamejolt game**  
 Setup a game before using the Gamejolt API.
 
@@ -110,32 +98,8 @@ Remove cloud game data from Gamejolt.
 **Remove a trophy**  
 Remove a trophy from the player achievements.
 
-**Set authentication**  
-Change the player authentication status.
-
-**Last error message**  
-Change Error message from the last request.
-
-**Change session status**  
-Change the user session status.
-
-**Set the last request success**  
-Set if the last request came back without any error.
-
-**Change test mode**  
-Change the API test mode status.
-
 **Activate test user**  
 Activate a test user for the Gamejolt API.
-
-**URL**  
-Change URL to call.
-
-**User game token**  
-Change Authenticated user game token used for requests.
-
-**Username**  
-Change Authenticated username used for requests.
 
 **Store data**  
 Save game data in the Gamejolt cloud storage.
@@ -169,9 +133,6 @@ Check if the user session is active.
 **Is in test mode**  
 Check if the API is in test mode.
 
-**URL**  
-Compare URL to call.
-
 **User game token**  
 Compare Authenticated user game token used for requests.
 
@@ -182,17 +143,12 @@ Compare Authenticated username used for requests.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `GamejoltAPI::GameIdentifier()` | Game identifier from Gamejolt. ||
-| `GamejoltAPI::GameKey()` | Secret game key from Gamejolt. Don't display it. ||
 | `GamejoltAPI::LastErrorMessage()` | Return Error message from the last request. ||
 | `GamejoltAPI::LastResponse()` | JSON response from the last request. ||
 | `GamejoltAPI::RequestErrorMessage(string)` | Return Error message from a specific request. ||
 | | _string_ | Request name |
 | `GamejoltAPI::RequestResponse(string)` | JSON response from a specific request. ||
 | | _string_ | Request name |
-| `GamejoltAPI::SHA1(string)` | Convert text to SHA1. ||
-| | _string_ | Text to convert |
-| `GamejoltAPI::URL()` | Return URL to call. ||
 | `GamejoltAPI::UserToken()` | Return Authenticated user game token used for requests. ||
 | `GamejoltAPI::Username()` | Return Authenticated username used for requests. ||
 

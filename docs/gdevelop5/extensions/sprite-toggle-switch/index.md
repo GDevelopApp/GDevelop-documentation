@@ -45,31 +45,11 @@ Check (or uncheck) the toggle switch.
 **Opacity**  
 Change the opacity of an object, between 0 (fully transparent) to 255 (opaque).
 
-**Is checked property**  
-Update the property value for "is checked".
-
-**PreviousIsChecked property**  
-Update the property value for "previousIsChecked".
-
-**Center of rotation**  
-Change the center of rotation of an object relatively to the object origin.
-
 **Scale on X axis**  
 Change the width's scale of an object.
 
 **Scale on Y axis**  
 Change the height's scale of an object.
-
-**Toggle Is checked property**  
-Toggle the property value for is checked.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle PreviousIsChecked property**  
-Toggle the property value for previousIsChecked.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Update state animation**  
-Update the state animation.
 
 **Width**  
 Change the width of an object.
@@ -94,29 +74,11 @@ Check if interactions are activated on the button.
 **Is checked**  
 Check if the toggle switch is checked.
 
-**Is clicked**  
-Check if the button was just clicked.
-
-**Is focused**  
-Check if the button is either hovered or pressed but not hovered.
-
 **Is hovered**  
 Check if the cursor is hovered over the button.
 
-**Is idle**  
-Check if the button is not used.
-
-**Is pressed**  
-Check if the button is currently being pressed with mouse or touch.
-
 **Opacity**  
 Compare the opacity of an object, between 0 (fully transparent) to 255 (opaque).
-
-**Is checked property**  
-Check the property value for is checked.
-
-**PreviousIsChecked property**  
-Check the property value for previousIsChecked.
 
 **Scale on X axis**  
 Compare the width's scale of an object.
@@ -131,138 +93,6 @@ Compare the height's scale of an object.
 | `Object.Opacity()` | Return the opacity of an object, between 0 (fully transparent) to 255 (opaque). ||
 | `Object.ScaleX()` | Return the width's scale of an object. ||
 | `Object.ScaleY()` | Return the height's scale of an object. ||
-
-## Button finite state machine 
-
-The finite state machine used internally by the button object. 
-
-### Behavior actions
-
-**Reset state**  
-Reset the state of the button.
-
-**Index property**  
-Change the property value for the index.
-
-**Mouse is inside property**  
-Update the property value for "mouse is inside".
-
-**ShouldCheckHovering property**  
-Update the property value for "shouldCheckHovering".
-
-**State property**  
-Change the property value for the state.
-
-**Touch id property**  
-Change the property value for the touch id.
-
-**Touch is inside property**  
-Update the property value for "touch is inside".
-
-**Toggle Mouse is inside property**  
-Toggle the property value for mouse is inside.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle ShouldCheckHovering property**  
-Toggle the property value for shouldCheckHovering.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Touch is inside property**  
-Toggle the property value for touch is inside.  
-If it was true, it will become false, and if it was false it will become true.
-
-### Behavior conditions
-
-**Is clicked**  
-Check if the button was just clicked.
-
-**Is focused**  
-Check if the button is either hovered or pressed but not hovered.
-
-**Is hovered**  
-Check if the cursor is hovered over the button.
-
-**Is idle**  
-Check if the button is not used.
-
-**Is pressed**  
-Check if the button is currently being pressed with mouse or touch.
-
-**Is held outside**  
-Check if the button is currently being pressed outside with mouse or touch.
-
-**Index property**  
-Compare the property value for the index.
-
-**Mouse is inside property**  
-Check the property value for mouse is inside.
-
-**ShouldCheckHovering property**  
-Check the property value for shouldCheckHovering.
-
-**State property**  
-Compare the property value for the state.
-
-**Touch id property**  
-Compare the property value for the touch id.
-
-**Touch is inside property**  
-Check the property value for touch is inside.
-
-**Touch id**  
-Compare the touch id that is using the button or 0 if none.
-
-### Behavior expressions
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.ButtonFSM::PropertyIndex()` | Return the property value for the index. ||
-| `Object.ButtonFSM::PropertyState()` | Return the property value for the state. ||
-| `Object.ButtonFSM::PropertyTouchId()` | Return the property value for the touch id. ||
-| `Object.ButtonFSM::TouchId()` | Return the touch id that is using the button or 0 if none. ||
-
-## Switch finite state machine 
-
-The finite state machine used internally by the switch object. 
-
-### Behavior actions
-
-**Check (or uncheck)**  
-Check (or uncheck) the toggle switch.
-
-**Is checked property**  
-Update the property value for "is checked".
-
-**WasChecked property**  
-Update the property value for "wasChecked".
-
-**Toggle Is checked property**  
-Toggle the property value for is checked.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle WasChecked property**  
-Toggle the property value for wasChecked.  
-If it was true, it will become false, and if it was false it will become true.
-
-### Behavior conditions
-
-**Has just been checked**  
-Check if the toggle switch was checked in the current frame.
-
-**Has just been unchecked**  
-Check if the toggle switch was unchecked in the current frame.
-
-**Is checked**  
-Check if the toggle switch is checked.
-
-**Is checked property**  
-Check the property value for is checked.
-
-**WasChecked property**  
-Check the property value for wasChecked.
-
-_No expressions for this behavior._
-
 
 ---
 

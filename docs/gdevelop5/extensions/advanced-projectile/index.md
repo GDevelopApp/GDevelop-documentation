@@ -54,43 +54,11 @@ Change the max speed of the object. Object forces cannot exceed this value. Use 
 **MinSpeed**  
 Change the minSpeed of the object. Object forces cannot go below this value. Use "0" to ignore this property.
 
-**Acceleration property**  
-Change the property value for the acceleration.
-
-**Delete when distance from starting position is exceeded property**  
-Update the property value for "delete when distance from starting position is exceeded".
-
-**Delete when lifetime is exceeded property**  
-Update the property value for "delete when lifetime is exceeded".
-
-**Max distance from starting position property**  
-Change the property value for the max distance from starting position.
-
-**Lifetime property**  
-Change the property value for the lifetime.
-
-**Max speed property**  
-Change the property value for the max speed.
-
-**MinSpeed property**  
-Change the property value for the minSpeed.
-
-**Starting speed property**  
-Change the property value for the starting speed.
-
 **Change starting position to the current position**  
 Change the starting position of object to it's current position.
 
 **Starting speed**  
 Change the starting speed of the object. Object will move in the direction it is facing when it is created. Use "0" to ignore this property.
-
-**Toggle Delete when distance from starting position is exceeded property**  
-Toggle the property value for delete when distance from starting position is exceeded.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Delete when lifetime is exceeded property**  
-Toggle the property value for delete when lifetime is exceeded.  
-If it was true, it will become false, and if it was false it will become true.
 
 ### Behavior conditions
 
@@ -121,30 +89,6 @@ Compare the max speed of the object. Object forces cannot exceed this value. Use
 **MinSpeed**  
 Compare the minSpeed of the object. Object forces cannot go below this value. Use "0" to ignore this property.
 
-**Acceleration property**  
-Compare the property value for the acceleration.
-
-**Delete when distance from starting position is exceeded property**  
-Check the property value for delete when distance from starting position is exceeded.
-
-**Delete when lifetime is exceeded property**  
-Check the property value for delete when lifetime is exceeded.
-
-**Max distance from starting position property**  
-Compare the property value for the max distance from starting position.
-
-**Lifetime property**  
-Compare the property value for the lifetime.
-
-**Max speed property**  
-Compare the property value for the max speed.
-
-**MinSpeed property**  
-Compare the property value for the minSpeed.
-
-**Starting speed property**  
-Compare the property value for the starting speed.
-
 **Starting speed**  
 Compare the starting speed of the object. Object will move in the direction it is facing when it is created. Use "0" to ignore this property.
 
@@ -157,12 +101,6 @@ Compare the starting speed of the object. Object will move in the direction it i
 | `Object.AdvancedProjectile::MaxLifetime()` | Return the lifetime of the object. Object is deleted after property has been exceeded. Use "0" to ignore this property. ||
 | `Object.AdvancedProjectile::MaxSpeed()` | Return the max speed of the object. Object forces cannot exceed this value. Use "0" to ignore this property. ||
 | `Object.AdvancedProjectile::MinSpeed()` | Return the minSpeed of the object. Object forces cannot go below this value. Use "0" to ignore this property. ||
-| `Object.AdvancedProjectile::PropertyAcceleration()` | Return the property value for the acceleration. ||
-| `Object.AdvancedProjectile::PropertyMaxDistanceFromStartingPosition()` | Return the property value for the max distance from starting position. ||
-| `Object.AdvancedProjectile::PropertyMaxLifetime()` | Return the property value for the lifetime. ||
-| `Object.AdvancedProjectile::PropertyMaxSpeed()` | Return the property value for the max speed. ||
-| `Object.AdvancedProjectile::PropertyMinSpeed()` | Return the property value for the minSpeed. ||
-| `Object.AdvancedProjectile::PropertyStartingSpeed()` | Return the property value for the starting speed. ||
 | `Object.AdvancedProjectile::StartingSpeed()` | Return the starting speed of the object. Object will move in the direction it is facing when it is created. Use "0" to ignore this property. ||
 
 ---

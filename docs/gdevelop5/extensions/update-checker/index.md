@@ -15,9 +15,6 @@ If you want your users to see that an update is available, simply change the ver
 
 ## Actions
 
-**Create reference to global variable**  
-Transforms a scene variable into a reference to a global variable.
-
 **Re-check for updates**  
 Loads the latest game version from liluo. This is already called at the beginnign of the scene, but you can still re-call it if it failed or if you want to add a "check again" button. Make sure to not call this too often (or at all), as otherwise it will DDoS the version-checking server!.
 
@@ -29,12 +26,7 @@ Checks if the game version on liluo is different from the one of the currently r
 **Updates check failed**  
 Checks if the fetching of the latest version from liluo succeeded.
 
-## Expressions
 
-| Expression | Description |  |
-|-----|-----|-----|
-| `UpdateChecker::CurrentGameID()` | Gets the Liluo ID of the current game. ||
-| `UpdateChecker::CurrentGameVersion()` | Gets the game version from the project properties ||
 
 ---
 

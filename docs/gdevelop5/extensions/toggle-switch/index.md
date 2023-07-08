@@ -64,78 +64,6 @@ Change the inactive track color (the part on the thumb right).
 **Inactive track opacity**  
 Change the inactive track opacity.
 
-**Active thumb color string. Example:  24;119;211 property**  
-Change the property value for the active thumb color string. Example:  24;119;211.
-
-**Color string for the track that is LEFT of the thumb. Example:  24;119;211 (Leave blank to use thumb color) property**  
-Change the property value for the color string for the track that is LEFT of the thumb. Example:  24;119;211 (Leave blank to use thumb color).
-
-**Opacity of the track that is LEFT of the thumb.  Example: 128 property**  
-Change the property value for the opacity of the track that is LEFT of the thumb.  Example: 128.
-
-**Checked property**  
-Update the property value for "checked".
-
-**Disabled property**  
-Update the property value for "disabled".
-
-**Opacity of halo when the mouse hovers on the thumb. Example: 32 property**  
-Change the property value for the opacity of halo when the mouse hovers on the thumb. Example: 32.
-
-**Opacity of the halo that appears when the toggle switch is pressed. Example: 64 property**  
-Change the property value for the opacity of the halo that appears when the toggle switch is pressed. Example: 64.
-
-**Size of halo when the mouse hovers and clicks on the thumb. Example: 24 property**  
-Change the property value for the size of halo when the mouse hovers and clicks on the thumb. Example: 24.
-
-**Inactive thumb color string. Example:  255;255;255 property**  
-Change the property value for the inactive thumb color string. Example:  255;255;255.
-
-**Color string for the track that is RIGHT of the thumb. Example:  150;150;150  (Leave blank to use thumb color) property**  
-Change the property value for the color string for the track that is RIGHT of the thumb. Example:  150;150;150  (Leave blank to use thumb color).
-
-**Opacity of the track that is RIGHT of the thumb.  Example: 255 property**  
-Change the property value for the opacity of the track that is RIGHT of the thumb.  Example: 255.
-
-**Is hovered property**  
-Update the property value for "is hovered".
-
-**Click or press has started on toggle switch property**  
-Update the property value for "click or press has started on toggle switch".
-
-**Need redraw property**  
-Update the property value for "need redraw".
-
-**Number of pixels the thumb is from the left side of the track. property**  
-Change the property value for the number of pixels the thumb is from the left side of the track..
-
-**Opacity of the thumb. Example: 255 property**  
-Change the property value for the opacity of the thumb. Example: 255.
-
-**Radius of the thumb (px) Example: 10 property**  
-Change the property value for the radius of the thumb (px) Example: 10.
-
-**Offset (X) of shadow on thumb.  Positive numbers move shadow right, negative numbers move shadow left. Example: 0 property**  
-Change the property value for the offset (X) of shadow on thumb.  Positive numbers move shadow right, negative numbers move shadow left. Example: 0.
-
-**Offset (Y) of shadow on thumb.  Positive numbers move shadow down, negative numbers move shadow up. Example: 4 property**  
-Change the property value for the offset (Y) of shadow on thumb.  Positive numbers move shadow down, negative numbers move shadow up. Example: 4.
-
-**Opacity of shadow on thumb. Example: 32 property**  
-Change the property value for the opacity of shadow on thumb. Example: 32.
-
-**State has been changed (used in ToggleChecked function) property**  
-Update the property value for "state has been changed (used in ToggleChecked function)".
-
-**Height of the track (pixels) Example: 14 property**  
-Change the property value for the height of the track (pixels) Example: 14.
-
-**Width of the track (pixels) Example: 20 property**  
-Change the property value for the width of the track (pixels) Example: 20.
-
-**Was hovered property**  
-Update the property value for "was hovered".
-
 **Thumb opacity**  
 Change the thumb opacity.
 
@@ -160,34 +88,6 @@ Change the track width.
 **Toggle the switch**  
 If checked, change to unchecked. If unchecked, change to checked.
 
-**Toggle Checked property**  
-Toggle the property value for checked.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Disabled property**  
-Toggle the property value for disabled.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Is hovered property**  
-Toggle the property value for is hovered.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Click or press has started on toggle switch property**  
-Toggle the property value for click or press has started on toggle switch.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Need redraw property**  
-Toggle the property value for need redraw.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle State has been changed (used in ToggleChecked function) property**  
-Toggle the property value for state has been changed (used in ToggleChecked function).  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Was hovered property**  
-Toggle the property value for was hovered.  
-If it was true, it will become false, and if it was false it will become true.
-
 ### Behavior conditions
 
 **Is checked**  
@@ -198,78 +98,6 @@ Check if the toggle switch is disabled.
 
 **Is mouse hovered over toggle switch?**  
 Check if mouse is hovering over toggle switch.
-
-**Active thumb color string. Example:  24;119;211 property**  
-Compare the property value for the active thumb color string. Example:  24;119;211.
-
-**Color string for the track that is LEFT of the thumb. Example:  24;119;211 (Leave blank to use thumb color) property**  
-Compare the property value for the color string for the track that is LEFT of the thumb. Example:  24;119;211 (Leave blank to use thumb color).
-
-**Opacity of the track that is LEFT of the thumb.  Example: 128 property**  
-Compare the property value for the opacity of the track that is LEFT of the thumb.  Example: 128.
-
-**Checked property**  
-Check the property value for checked.
-
-**Disabled property**  
-Check the property value for disabled.
-
-**Opacity of halo when the mouse hovers on the thumb. Example: 32 property**  
-Compare the property value for the opacity of halo when the mouse hovers on the thumb. Example: 32.
-
-**Opacity of the halo that appears when the toggle switch is pressed. Example: 64 property**  
-Compare the property value for the opacity of the halo that appears when the toggle switch is pressed. Example: 64.
-
-**Size of halo when the mouse hovers and clicks on the thumb. Example: 24 property**  
-Compare the property value for the size of halo when the mouse hovers and clicks on the thumb. Example: 24.
-
-**Inactive thumb color string. Example:  255;255;255 property**  
-Compare the property value for the inactive thumb color string. Example:  255;255;255.
-
-**Color string for the track that is RIGHT of the thumb. Example:  150;150;150  (Leave blank to use thumb color) property**  
-Compare the property value for the color string for the track that is RIGHT of the thumb. Example:  150;150;150  (Leave blank to use thumb color).
-
-**Opacity of the track that is RIGHT of the thumb.  Example: 255 property**  
-Compare the property value for the opacity of the track that is RIGHT of the thumb.  Example: 255.
-
-**Is hovered property**  
-Check the property value for is hovered.
-
-**Click or press has started on toggle switch property**  
-Check the property value for click or press has started on toggle switch.
-
-**Need redraw property**  
-Check the property value for need redraw.
-
-**Number of pixels the thumb is from the left side of the track. property**  
-Compare the property value for the number of pixels the thumb is from the left side of the track..
-
-**Opacity of the thumb. Example: 255 property**  
-Compare the property value for the opacity of the thumb. Example: 255.
-
-**Radius of the thumb (px) Example: 10 property**  
-Compare the property value for the radius of the thumb (px) Example: 10.
-
-**Offset (X) of shadow on thumb.  Positive numbers move shadow right, negative numbers move shadow left. Example: 0 property**  
-Compare the property value for the offset (X) of shadow on thumb.  Positive numbers move shadow right, negative numbers move shadow left. Example: 0.
-
-**Offset (Y) of shadow on thumb.  Positive numbers move shadow down, negative numbers move shadow up. Example: 4 property**  
-Compare the property value for the offset (Y) of shadow on thumb.  Positive numbers move shadow down, negative numbers move shadow up. Example: 4.
-
-**Opacity of shadow on thumb. Example: 32 property**  
-Compare the property value for the opacity of shadow on thumb. Example: 32.
-
-**State has been changed (used in ToggleChecked function) property**  
-Check the property value for state has been changed (used in ToggleChecked function).
-
-**Height of the track (pixels) Example: 14 property**  
-Compare the property value for the height of the track (pixels) Example: 14.
-
-**Width of the track (pixels) Example: 20 property**  
-Compare the property value for the width of the track (pixels) Example: 20.
-
-**Was hovered property**  
-Check the property value for was hovered.
 
 ### Behavior expressions
 
@@ -284,23 +112,6 @@ Check the property value for was hovered.
 | `Object.ToggleSwitch::InactiveThumbColor()` | Inactive thumb color. ||
 | `Object.ToggleSwitch::InactiveTrackColor()` | Inactive track color. ||
 | `Object.ToggleSwitch::InactiveTrackOpacity()` | Inactive track opacity. ||
-| `Object.ToggleSwitch::PropertyActiveThumbColor()` | Return the property value for the active thumb color string. Example:  24;119;211. ||
-| `Object.ToggleSwitch::PropertyActiveTrackColor()` | Return the property value for the color string for the track that is LEFT of the thumb. Example:  24;119;211 (Leave blank to use thumb color). ||
-| `Object.ToggleSwitch::PropertyActiveTrackOpacity()` | Return the property value for the opacity of the track that is LEFT of the thumb.  Example: 128. ||
-| `Object.ToggleSwitch::PropertyHaloOpacityHover()` | Return the property value for the opacity of halo when the mouse hovers on the thumb. Example: 32. ||
-| `Object.ToggleSwitch::PropertyHaloOpacityPressed()` | Return the property value for the opacity of the halo that appears when the toggle switch is pressed. Example: 64. ||
-| `Object.ToggleSwitch::PropertyHaloRadius()` | Return the property value for the size of halo when the mouse hovers and clicks on the thumb. Example: 24. ||
-| `Object.ToggleSwitch::PropertyInactiveThumbColor()` | Return the property value for the inactive thumb color string. Example:  255;255;255. ||
-| `Object.ToggleSwitch::PropertyInactiveTrackColor()` | Return the property value for the color string for the track that is RIGHT of the thumb. Example:  150;150;150  (Leave blank to use thumb color). ||
-| `Object.ToggleSwitch::PropertyInactiveTrackOpacity()` | Return the property value for the opacity of the track that is RIGHT of the thumb.  Example: 255. ||
-| `Object.ToggleSwitch::PropertyThumbOffset()` | Return the property value for the number of pixels the thumb is from the left side of the track.. ||
-| `Object.ToggleSwitch::PropertyThumbOpacity()` | Return the property value for the opacity of the thumb. Example: 255. ||
-| `Object.ToggleSwitch::PropertyThumbRadius()` | Return the property value for the radius of the thumb (px) Example: 10. ||
-| `Object.ToggleSwitch::PropertyThumbShadowOffsetX()` | Return the property value for the offset (X) of shadow on thumb.  Positive numbers move shadow right, negative numbers move shadow left. Example: 0. ||
-| `Object.ToggleSwitch::PropertyThumbShadowOffsetY()` | Return the property value for the offset (Y) of shadow on thumb.  Positive numbers move shadow down, negative numbers move shadow up. Example: 4. ||
-| `Object.ToggleSwitch::PropertyThumbShadowOpacity()` | Return the property value for the opacity of shadow on thumb. Example: 32. ||
-| `Object.ToggleSwitch::PropertyTrackHeight()` | Return the property value for the height of the track (pixels) Example: 14. ||
-| `Object.ToggleSwitch::PropertyTrackWidth()` | Return the property value for the width of the track (pixels) Example: 20. ||
 | `Object.ToggleSwitch::ThumbOpacity()` | Thumb opacity. ||
 | `Object.ToggleSwitch::ThumbShadowOffsetX()` | Offset (X) of shadow on thumb. ||
 | `Object.ToggleSwitch::ThumbShadowOffsetY()` | Offset (Y) of shadow on thumb. ||

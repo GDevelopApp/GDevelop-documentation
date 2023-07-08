@@ -76,15 +76,6 @@ Close the Dialog Box.
 **Open Dialog Box**  
 Open the Dialog Box.
 
-**Tween Duration. (in milliseconds) property**  
-Change the property value for the tween Duration. (in milliseconds).
-
-**Typing interval. (in seconds) property**  
-Change the property value for the typing interval. (in seconds).
-
-**Typing sound effect. (File name) (The audio file must be registered as a resource!) property**  
-Change the property value for the typing sound effect. (File name) (The audio file must be registered as a resource!).
-
 **Setup Dialog Box**  
 Setup the Dialog Box.
 
@@ -105,24 +96,12 @@ Dialog Box is open.
 **Dialog Box is typing**  
 Text in the Dialog Box is typing.
 
-**Tween Duration. (in milliseconds) property**  
-Compare the property value for the tween Duration. (in milliseconds).
-
-**Typing interval. (in seconds) property**  
-Compare the property value for the typing interval. (in seconds).
-
-**Typing sound effect. (File name) (The audio file must be registered as a resource!) property**  
-Compare the property value for the typing sound effect. (File name) (The audio file must be registered as a resource!).
-
 ### Behavior expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.DialogBoxBackGround::ChangeCounter(number)` | Return the number of times the Text in the Dialog Box has changed. ||
 | | _number_ | Number (0-based) |
-| `Object.DialogBoxBackGround::PropertyDuration()` | Return the property value for the tween Duration. (in milliseconds). ||
-| `Object.DialogBoxBackGround::PropertyInterval()` | Return the property value for the typing interval. (in seconds). ||
-| `Object.DialogBoxBackGround::PropertySe()` | Return the property value for the typing sound effect. (File name) (The audio file must be registered as a resource!). ||
 
 ---
 

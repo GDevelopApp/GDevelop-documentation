@@ -36,27 +36,6 @@ Set bottom border (Y position).
 **Set left border**  
 Set left border (X position).
 
-**Bottom border of wrapped area (Y) property**  
-Change the property value for the bottom border of wrapped area (Y).
-
-**Left border of wrapped area (X) property**  
-Change the property value for the left border of wrapped area (X).
-
-**Right border of wrapped area (X) property**  
-Change the property value for the right border of wrapped area (X).
-
-**Top border of wrapped area (Y) property**  
-Change the property value for the top border of wrapped area (Y).
-
-**Horizontal wrapping property**  
-Update the property value for "horizontal wrapping".
-
-**Number of pixels past the center where the object teleports and appears property**  
-Change the property value for the number of pixels past the center where the object teleports and appears.
-
-**Vertical wrapping property**  
-Update the property value for "vertical wrapping".
-
 **Set right border**  
 Set right border (X position).
 
@@ -66,14 +45,6 @@ Set top border (Y position).
 **Set trigger offset**  
 Set trigger offset (pixels).
 
-**Toggle Horizontal wrapping property**  
-Toggle the property value for horizontal wrapping.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Vertical wrapping property**  
-Toggle the property value for vertical wrapping.  
-If it was true, it will become false, and if it was false it will become true.
-
 ### Behavior conditions
 
 **Is horizontal wrapping**  
@@ -81,27 +52,6 @@ Check if the object is wrapping on the left and right borders.
 
 **Is vertical wrapping**  
 Check if the object is wrapping on the top and bottom borders.
-
-**Bottom border of wrapped area (Y) property**  
-Compare the property value for the bottom border of wrapped area (Y).
-
-**Left border of wrapped area (X) property**  
-Compare the property value for the left border of wrapped area (X).
-
-**Right border of wrapped area (X) property**  
-Compare the property value for the right border of wrapped area (X).
-
-**Top border of wrapped area (Y) property**  
-Compare the property value for the top border of wrapped area (Y).
-
-**Horizontal wrapping property**  
-Check the property value for horizontal wrapping.
-
-**Number of pixels past the center where the object teleports and appears property**  
-Compare the property value for the number of pixels past the center where the object teleports and appears.
-
-**Vertical wrapping property**  
-Check the property value for vertical wrapping.
 
 ### Behavior expressions
 
@@ -111,11 +61,6 @@ Check the property value for vertical wrapping.
 | `Object.ScreenWrap::BorderLeft()` | Left border (X position). ||
 | `Object.ScreenWrap::BorderRight()` | Right border (X position). ||
 | `Object.ScreenWrap::BorderTop()` | Top border (Y position). ||
-| `Object.ScreenWrap::PropertyBorderBottom()` | Return the property value for the bottom border of wrapped area (Y). ||
-| `Object.ScreenWrap::PropertyBorderLeft()` | Return the property value for the left border of wrapped area (X). ||
-| `Object.ScreenWrap::PropertyBorderRight()` | Return the property value for the right border of wrapped area (X). ||
-| `Object.ScreenWrap::PropertyBorderTop()` | Return the property value for the top border of wrapped area (Y). ||
-| `Object.ScreenWrap::PropertyTriggerOffset()` | Return the property value for the number of pixels past the center where the object teleports and appears. ||
 | `Object.ScreenWrap::TriggerOffset()` | Number of pixels past the center where the object teleports and appears. ||
 
 ## Screen Wrap (physics objects) 
@@ -142,36 +87,6 @@ Set bottom border (Y position).
 **Set left border**  
 Set left border (X position).
 
-**Angular Velocity property**  
-Change the property value for the angular Velocity.
-
-**Bottom border of wrapped area (Y) property**  
-Change the property value for the bottom border of wrapped area (Y).
-
-**Left border of wrapped area (X) property**  
-Change the property value for the left border of wrapped area (X).
-
-**Right border of wrapped area (X). property**  
-Change the property value for the right border of wrapped area (X)..
-
-**Top border of wrapped area (Y) property**  
-Change the property value for the top border of wrapped area (Y).
-
-**Horizontal wrapping property**  
-Update the property value for "horizontal wrapping".
-
-**Linear Velocity X property**  
-Change the property value for the linear Velocity X.
-
-**Linear Velocity Y property**  
-Change the property value for the linear Velocity Y.
-
-**Number of pixels past the center where the object teleports and appears property**  
-Change the property value for the number of pixels past the center where the object teleports and appears.
-
-**Vertical wrapping property**  
-Update the property value for "vertical wrapping".
-
 **Set right border**  
 Set right border (X position).
 
@@ -181,14 +96,6 @@ Set top border (Y position).
 **Set trigger offset**  
 Set trigger offset (pixels).
 
-**Toggle Horizontal wrapping property**  
-Toggle the property value for horizontal wrapping.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Vertical wrapping property**  
-Toggle the property value for vertical wrapping.  
-If it was true, it will become false, and if it was false it will become true.
-
 ### Behavior conditions
 
 **Is horizontal wrapping**  
@@ -196,36 +103,6 @@ Check if the object is wrapping on the left and right borders.
 
 **Is vertical wrapping**  
 Check if the object is wrapping on the top and bottom borders.
-
-**Angular Velocity property**  
-Compare the property value for the angular Velocity.
-
-**Bottom border of wrapped area (Y) property**  
-Compare the property value for the bottom border of wrapped area (Y).
-
-**Left border of wrapped area (X) property**  
-Compare the property value for the left border of wrapped area (X).
-
-**Right border of wrapped area (X). property**  
-Compare the property value for the right border of wrapped area (X)..
-
-**Top border of wrapped area (Y) property**  
-Compare the property value for the top border of wrapped area (Y).
-
-**Horizontal wrapping property**  
-Check the property value for horizontal wrapping.
-
-**Linear Velocity X property**  
-Compare the property value for the linear Velocity X.
-
-**Linear Velocity Y property**  
-Compare the property value for the linear Velocity Y.
-
-**Number of pixels past the center where the object teleports and appears property**  
-Compare the property value for the number of pixels past the center where the object teleports and appears.
-
-**Vertical wrapping property**  
-Check the property value for vertical wrapping.
 
 ### Behavior expressions
 
@@ -235,14 +112,6 @@ Check the property value for vertical wrapping.
 | `Object.ScreenWrapPhysics::BorderLeft()` | Left border (X position). ||
 | `Object.ScreenWrapPhysics::BorderRight()` | Right border (X position). ||
 | `Object.ScreenWrapPhysics::BorderTop()` | Top border (Y position). ||
-| `Object.ScreenWrapPhysics::PropertyAngularVelocity()` | Return the property value for the angular Velocity. ||
-| `Object.ScreenWrapPhysics::PropertyBorderBottom()` | Return the property value for the bottom border of wrapped area (Y). ||
-| `Object.ScreenWrapPhysics::PropertyBorderLeft()` | Return the property value for the left border of wrapped area (X). ||
-| `Object.ScreenWrapPhysics::PropertyBorderRight()` | Return the property value for the right border of wrapped area (X).. ||
-| `Object.ScreenWrapPhysics::PropertyBorderTop()` | Return the property value for the top border of wrapped area (Y). ||
-| `Object.ScreenWrapPhysics::PropertyLinearVelocityX()` | Return the property value for the linear Velocity X. ||
-| `Object.ScreenWrapPhysics::PropertyLinearVelocityY()` | Return the property value for the linear Velocity Y. ||
-| `Object.ScreenWrapPhysics::PropertyTriggerOffset()` | Return the property value for the number of pixels past the center where the object teleports and appears. ||
 | `Object.ScreenWrapPhysics::TriggerOffset()` | Number of pixels past the center where the object teleports and appears. ||
 
 ---

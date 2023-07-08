@@ -16,11 +16,6 @@ The [Fish School example](https://editor.gdevelop.io/?project=example://fish-sch
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
-## Actions
-
-**Define JavaScript classes**  
-Define JavaScript classes.
-
 
 
 ## Boids Movement (experimental) 
@@ -62,77 +57,13 @@ Change the maximum acceleration of the object.
 **Maximum speed**  
 Change the maximum speed of the object.
 
-**Alignement sight radius property**  
-Change the property value for the alignement sight radius.
-
-**Alignment decision weight property**  
-Change the property value for the alignment decision weight.
-
-**Cohesion sight radius property**  
-Change the property value for the cohesion sight radius.
-
-**Cohesion decision weight property**  
-Change the property value for the cohesion decision weight.
-
-**Maximum acceleration (in pixels per second per second) property**  
-Change the property value for the maximum acceleration (in pixels per second per second).
-
-**Maximum speed (in pixels per second) property**  
-Change the property value for the maximum speed (in pixels per second).
-
-**Separation sight radius property**  
-Change the property value for the separation sight radius.
-
-**Separation decision weight property**  
-Change the property value for the separation decision weight.
-
-**Rotate object property**  
-Update the property value for "rotate object".
-
-**TrajectoryDistance property**  
-Change the property value for the trajectoryDistance.
-
 **Separation sight radius**  
 Return the separation sight radius.
 
 **Separation weight**  
 Change the weight the separation takes in the chosen direction.
 
-**Toggle Rotate object property**  
-Toggle the property value for rotate object.  
-If it was true, it will become false, and if it was false it will become true.
-
 ### Behavior conditions
-
-**Alignement sight radius property**  
-Compare the property value for the alignement sight radius.
-
-**Alignment decision weight property**  
-Compare the property value for the alignment decision weight.
-
-**Cohesion sight radius property**  
-Compare the property value for the cohesion sight radius.
-
-**Cohesion decision weight property**  
-Compare the property value for the cohesion decision weight.
-
-**Maximum acceleration (in pixels per second per second) property**  
-Compare the property value for the maximum acceleration (in pixels per second per second).
-
-**Maximum speed (in pixels per second) property**  
-Compare the property value for the maximum speed (in pixels per second).
-
-**Separation sight radius property**  
-Compare the property value for the separation sight radius.
-
-**Separation decision weight property**  
-Compare the property value for the separation decision weight.
-
-**Rotate object property**  
-Check the property value for rotate object.
-
-**TrajectoryDistance property**  
-Compare the property value for the trajectoryDistance.
 
 **Object Rotated**  
 Check if the object is rotated while moving on its path.
@@ -147,15 +78,6 @@ Check if the object is rotated while moving on its path.
 | `Object.BoidsMovement::CohesionWeight()` | Return which weight the cohesion takes in the chosen direction. ||
 | `Object.BoidsMovement::MaxAcceleration()` | Return the maximum acceleration. ||
 | `Object.BoidsMovement::MaxSpeed()` | Return the maximum speed. ||
-| `Object.BoidsMovement::PropertyAlignmentRadius()` | Return the property value for the alignement sight radius. ||
-| `Object.BoidsMovement::PropertyAlignmentWeight()` | Return the property value for the alignment decision weight. ||
-| `Object.BoidsMovement::PropertyCohesionRadius()` | Return the property value for the cohesion sight radius. ||
-| `Object.BoidsMovement::PropertyCohesionWeight()` | Return the property value for the cohesion decision weight. ||
-| `Object.BoidsMovement::PropertyMaxAcceleration()` | Return the property value for the maximum acceleration (in pixels per second per second). ||
-| `Object.BoidsMovement::PropertyMaxSpeed()` | Return the property value for the maximum speed (in pixels per second). ||
-| `Object.BoidsMovement::PropertySeparationRadius()` | Return the property value for the separation sight radius. ||
-| `Object.BoidsMovement::PropertySeparationWeight()` | Return the property value for the separation decision weight. ||
-| `Object.BoidsMovement::PropertyTrajectoryDistance()` | Return the property value for the trajectoryDistance. ||
 | `Object.BoidsMovement::SeparationRadius()` | Return the separation sight radius. ||
 | `Object.BoidsMovement::SeparationWeight()` | Return which weight the separation takes in the chosen direction. ||
 | `Object.BoidsMovement::Speed()` | Return the current speed. ||

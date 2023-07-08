@@ -67,40 +67,8 @@ Set dampting ratio of joint.  Range: 0 to 1.
 **Set frequency of joint**  
 Set frequency of joint.  Range: 0 to 60 (or the maximum FPS of game).
 
-**Breaking force property**  
-Change the property value for the breaking force.
+_No expressions for this behavior._
 
-**Damping ratio property**  
-Change the property value for the damping ratio.
-
-**Distance between objects property**  
-Change the property value for the distance between objects.
-
-**Frequency property**  
-Change the property value for the frequency.
-
-### Behavior conditions
-
-**Breaking force property**  
-Compare the property value for the breaking force.
-
-**Damping ratio property**  
-Compare the property value for the damping ratio.
-
-**Distance between objects property**  
-Compare the property value for the distance between objects.
-
-**Frequency property**  
-Compare the property value for the frequency.
-
-### Behavior expressions
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.DistanceJoint::PropertyBreakingForce()` | Return the property value for the breaking force. ||
-| `Object.DistanceJoint::PropertyDampingRatio()` | Return the property value for the damping ratio. ||
-| `Object.DistanceJoint::PropertyDistance()` | Return the property value for the distance between objects. ||
-| `Object.DistanceJoint::PropertyFrequency()` | Return the property value for the frequency. ||
 
 ## Revolute joint connector 
 
@@ -136,77 +104,13 @@ Set motor rotation speed of joint.
 **Set motor strength of joint**  
 Set motor strength (torque) of joint.
 
-**Enable (or disable) angle limits on joint property**  
-Update the property value for "enable (or disable) angle limits on joint".
-
-**Breaking force property**  
-Change the property value for the breaking force.
-
-**Angle movement allowed in clockwise direction (degrees) property**  
-Change the property value for the angle movement allowed in clockwise direction (degrees).
-
-**Angle movement allowed in counter-clockwise direction (degrees) property**  
-Change the property value for the angle movement allowed in counter-clockwise direction (degrees).
-
-**JointID property**  
-Change the property value for the jointID.
-
-**Motor enabled (or disabled) on joint property**  
-Update the property value for "motor enabled (or disabled) on joint".
-
-**Motor rotation speed of joint property**  
-Change the property value for the motor rotation speed of joint.
-
-**Motor strength (torque) of joint property**  
-Change the property value for the motor strength (torque) of joint.
-
-**Toggle Enable (or disable) angle limits on joint property**  
-Toggle the property value for enable (or disable) angle limits on joint.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Motor enabled (or disabled) on joint property**  
-Toggle the property value for motor enabled (or disabled) on joint.  
-If it was true, it will become false, and if it was false it will become true.
-
 ### Behavior conditions
 
 **Motor enabled (or disabled) on joint**  
 Check if motor enabled (or disabled) on joint.
 
-**Enable (or disable) angle limits on joint property**  
-Check the property value for enable (or disable) angle limits on joint.
+_No expressions for this behavior._
 
-**Breaking force property**  
-Compare the property value for the breaking force.
-
-**Angle movement allowed in clockwise direction (degrees) property**  
-Compare the property value for the angle movement allowed in clockwise direction (degrees).
-
-**Angle movement allowed in counter-clockwise direction (degrees) property**  
-Compare the property value for the angle movement allowed in counter-clockwise direction (degrees).
-
-**JointID property**  
-Compare the property value for the jointID.
-
-**Motor enabled (or disabled) on joint property**  
-Check the property value for motor enabled (or disabled) on joint.
-
-**Motor rotation speed of joint property**  
-Compare the property value for the motor rotation speed of joint.
-
-**Motor strength (torque) of joint property**  
-Compare the property value for the motor strength (torque) of joint.
-
-### Behavior expressions
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.RevoluteJoint::PropertyBreakingForce()` | Return the property value for the breaking force. ||
-| `Object.RevoluteJoint::PropertyClockwiseAngleLimit()` | Return the property value for the angle movement allowed in clockwise direction (degrees). ||
-| `Object.RevoluteJoint::PropertyCounterClockwiseAngleLimit()` | Return the property value for the angle movement allowed in counter-clockwise direction (degrees). ||
-| `Object.RevoluteJoint::PropertyJointID()` | Return the property value for the jointID. ||
-| `Object.RevoluteJoint::PropertyMotorSpeed()` | Return the property value for the motor rotation speed of joint. ||
-| `Object.RevoluteJoint::PropertyMotorTorque()` | Return the property value for the motor strength (torque) of joint. ||
 
 ## Rope joint connector 
 
@@ -231,18 +135,6 @@ Change the frequency of the object. Set a number between 0 and 60. Higher number
 **Max distance between objects**  
 Change the max distance between objects.
 
-**Breaking force property**  
-Change the property value for the breaking force.
-
-**Damping ratio property**  
-Change the property value for the damping ratio.
-
-**Frequency property**  
-Change the property value for the frequency.
-
-**Max distance between objects property**  
-Change the property value for the max distance between objects.
-
 ### Behavior conditions
 
 **Breaking force**  
@@ -257,18 +149,6 @@ Compare the frequency of the object. Set a number between 0 and 60. Higher numbe
 **Max distance between objects**  
 Compare the max distance between objects.
 
-**Breaking force property**  
-Compare the property value for the breaking force.
-
-**Damping ratio property**  
-Compare the property value for the damping ratio.
-
-**Frequency property**  
-Compare the property value for the frequency.
-
-**Max distance between objects property**  
-Compare the property value for the max distance between objects.
-
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -277,10 +157,6 @@ Compare the property value for the max distance between objects.
 | `Object.RopeJoint::DampingRatio()` | Return the damping ratio of the object. Set a number between 0 and 1. ||
 | `Object.RopeJoint::Frequency()` | Return the frequency of the object. Set a number between 0 and 60. Higher numbers represent a stiffer spring. ||
 | `Object.RopeJoint::MaxDistance()` | Return the max distance between objects. ||
-| `Object.RopeJoint::PropertyBreakingForce()` | Return the property value for the breaking force. ||
-| `Object.RopeJoint::PropertyDampingRatio()` | Return the property value for the damping ratio. ||
-| `Object.RopeJoint::PropertyFrequency()` | Return the property value for the frequency. ||
-| `Object.RopeJoint::PropertyMaxDistance()` | Return the property value for the max distance between objects. ||
 
 ## Weld joint connector 
 
@@ -298,33 +174,8 @@ Set the breaking force of a joint.
 **Set frequency of joint**  
 Set frequency of joint.  Range: 0 to 60 (or the maximum FPS of game).
 
-**Breaking force property**  
-Change the property value for the breaking force.
+_No expressions for this behavior._
 
-**Damping ratio property**  
-Change the property value for the damping ratio.
-
-**Frequency property**  
-Change the property value for the frequency.
-
-### Behavior conditions
-
-**Breaking force property**  
-Compare the property value for the breaking force.
-
-**Damping ratio property**  
-Compare the property value for the damping ratio.
-
-**Frequency property**  
-Compare the property value for the frequency.
-
-### Behavior expressions
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.WeldJoint::PropertyBreakingForce()` | Return the property value for the breaking force. ||
-| `Object.WeldJoint::PropertyDampingRatio()` | Return the property value for the damping ratio. ||
-| `Object.WeldJoint::PropertyFrequency()` | Return the property value for the frequency. ||
 
 ---
 

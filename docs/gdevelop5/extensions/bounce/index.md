@@ -48,58 +48,16 @@ The bounce will always be vertical, like if the object is *colliding a perfectly
 
 Make sure to test for a collision between the two objects before launching this action. All the forces will be removed from the object, and a new permanent force will be added to make the object bounce.
 
-**Bounce count property**  
-Change the property value for the bounce count.
-
-**NormalAngle property**  
-Change the property value for the normalAngle.
-
-**OldForceAngle property**  
-Change the property value for the oldForceAngle.
-
-**OldForceLength property**  
-Change the property value for the oldForceLength.
-
-**OldX property**  
-Change the property value for the oldX.
-
-**OldY property**  
-Change the property value for the oldY.
-
 ### Behavior conditions
 
 **Bounce count**  
 Compare the number of times this object has bounced off another object.
-
-**Bounce count property**  
-Compare the property value for the bounce count.
-
-**NormalAngle property**  
-Compare the property value for the normalAngle.
-
-**OldForceAngle property**  
-Compare the property value for the oldForceAngle.
-
-**OldForceLength property**  
-Compare the property value for the oldForceLength.
-
-**OldX property**  
-Compare the property value for the oldX.
-
-**OldY property**  
-Compare the property value for the oldY.
 
 ### Behavior expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.Bounce::BounceCount()` | Return the number of times this object has bounced off another object. ||
-| `Object.Bounce::PropertyBounceCount()` | Return the property value for the bounce count. ||
-| `Object.Bounce::PropertyNormalAngle()` | Return the property value for the normalAngle. ||
-| `Object.Bounce::PropertyOldForceAngle()` | Return the property value for the oldForceAngle. ||
-| `Object.Bounce::PropertyOldForceLength()` | Return the property value for the oldForceLength. ||
-| `Object.Bounce::PropertyOldX()` | Return the property value for the oldX. ||
-| `Object.Bounce::PropertyOldY()` | Return the property value for the oldY. ||
 
 ---
 

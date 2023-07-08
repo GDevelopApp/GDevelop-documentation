@@ -87,23 +87,9 @@ The seed is a number used to generate the random noise. Setting the same seed wi
 | | _number_ | W coordinate |
 | `Noise::Octaves(string)` | The number of octaves used for noise generation. ||
 | | _string_ | Generator name |
-| `Noise::Perlin2(number, number)` | 2 dimensional Perlin noise (depecated, use Noise2d instead). ||
-| | _number_ | x value |
-| | _number_ | y value |
-| `Noise::Perlin3(number, number, number)` | 3 dimensional Perlin noise (depecated, use Noise3d instead). ||
-| | _number_ | x value |
-| | _number_ | y value |
-| | _number_ | z value |
 | `Noise::Persistence(string)` | The persistence used for noise generation. ||
 | | _string_ | Generator name |
 | `Noise::Seed()` | The seed used for noise generation. ||
-| `Noise::Simplex2(number, number)` | 2 dimensional simplex noise (depecated, use Noise2d instead). ||
-| | _number_ | x value |
-| | _number_ | y value |
-| `Noise::Simplex3(number, number, number)` | 3 dimensional simplex noise (depecated, use Noise3d instead). ||
-| | _number_ | x value |
-| | _number_ | y value |
-| | _number_ | z value |
 
 ---
 

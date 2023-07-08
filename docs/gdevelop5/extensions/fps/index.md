@@ -26,21 +26,8 @@ The FPS, Frames Per Second, describes how many times in the last second your gam
 
 Makes a text object display the current FPS. 
 
-### Behavior actions
+_No expressions for this behavior._
 
-**The prefix before the FPS count property**  
-Change the property value for the the prefix before the FPS count.
-
-### Behavior conditions
-
-**The prefix before the FPS count property**  
-Compare the property value for the the prefix before the FPS count.
-
-### Behavior expressions
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.FPSDisplayer::Propertyprefix()` | Return the property value for the the prefix before the FPS count. ||
 
 ---
 

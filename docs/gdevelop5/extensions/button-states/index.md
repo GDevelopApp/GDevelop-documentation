@@ -24,41 +24,6 @@ Tracks player interaction with an object, including:
 
 Use objects as buttons. 
 
-### Behavior actions
-
-**Reset state**  
-Reset the state of the button.
-
-**Index property**  
-Change the property value for the index.
-
-**Mouse is inside property**  
-Update the property value for "mouse is inside".
-
-**ShouldCheckHovering property**  
-Update the property value for "shouldCheckHovering".
-
-**State property**  
-Change the property value for the state.
-
-**Touch id property**  
-Change the property value for the touch id.
-
-**Touch is inside property**  
-Update the property value for "touch is inside".
-
-**Toggle Mouse is inside property**  
-Toggle the property value for mouse is inside.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle ShouldCheckHovering property**  
-Toggle the property value for shouldCheckHovering.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Touch is inside property**  
-Toggle the property value for touch is inside.  
-If it was true, it will become false, and if it was false it will become true.
-
 ### Behavior conditions
 
 **Is clicked**  
@@ -79,24 +44,6 @@ Check if the button is currently being pressed with mouse or touch.
 **Is held outside**  
 Check if the button is currently being pressed outside with mouse or touch.
 
-**Index property**  
-Compare the property value for the index.
-
-**Mouse is inside property**  
-Check the property value for mouse is inside.
-
-**ShouldCheckHovering property**  
-Check the property value for shouldCheckHovering.
-
-**State property**  
-Compare the property value for the state.
-
-**Touch id property**  
-Compare the property value for the touch id.
-
-**Touch is inside property**  
-Check the property value for touch is inside.
-
 **Touch id**  
 Compare the touch id that is using the button or 0 if none.
 
@@ -104,9 +51,6 @@ Compare the touch id that is using the button or 0 if none.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Object.ButtonFSM::PropertyIndex()` | Return the property value for the index. ||
-| `Object.ButtonFSM::PropertyState()` | Return the property value for the state. ||
-| `Object.ButtonFSM::PropertyTouchId()` | Return the property value for the touch id. ||
 | `Object.ButtonFSM::TouchId()` | Return the touch id that is using the button or 0 if none. ||
 
 ---

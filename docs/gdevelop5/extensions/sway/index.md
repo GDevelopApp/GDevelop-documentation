@@ -43,68 +43,8 @@ Set sway Y scale mininum and maximum.
 **Set sway Y scale time range**  
 Set Y scale time range.
 
-**Maximum angle to the left (in degrees) - Use a negative number property**  
-Change the property value for the maximum angle to the left (in degrees) - Use a negative number.
+_No expressions for this behavior._
 
-**Maximum angle to the right (in degrees) - Use a positive number property**  
-Change the property value for the maximum angle to the right (in degrees) - Use a positive number.
-
-**Maximum value for random tween time range for angle (seconds) property**  
-Change the property value for the maximum value for random tween time range for angle (seconds).
-
-**Mininum value for random tween time range for angle (seconds) property**  
-Change the property value for the mininum value for random tween time range for angle (seconds).
-
-**Maximum Y scale amount property**  
-Change the property value for the maximum Y scale amount.
-
-**Minimum Y scale amount property**  
-Change the property value for the minimum Y scale amount.
-
-**Maximum value for random tween time range for Y scale (seconds) property**  
-Change the property value for the maximum value for random tween time range for Y scale (seconds).
-
-**Mininum value for random tween time range for Y scale (seconds) property**  
-Change the property value for the mininum value for random tween time range for Y scale (seconds).
-
-### Behavior conditions
-
-**Maximum angle to the left (in degrees) - Use a negative number property**  
-Compare the property value for the maximum angle to the left (in degrees) - Use a negative number.
-
-**Maximum angle to the right (in degrees) - Use a positive number property**  
-Compare the property value for the maximum angle to the right (in degrees) - Use a positive number.
-
-**Maximum value for random tween time range for angle (seconds) property**  
-Compare the property value for the maximum value for random tween time range for angle (seconds).
-
-**Mininum value for random tween time range for angle (seconds) property**  
-Compare the property value for the mininum value for random tween time range for angle (seconds).
-
-**Maximum Y scale amount property**  
-Compare the property value for the maximum Y scale amount.
-
-**Minimum Y scale amount property**  
-Compare the property value for the minimum Y scale amount.
-
-**Maximum value for random tween time range for Y scale (seconds) property**  
-Compare the property value for the maximum value for random tween time range for Y scale (seconds).
-
-**Mininum value for random tween time range for Y scale (seconds) property**  
-Compare the property value for the mininum value for random tween time range for Y scale (seconds).
-
-### Behavior expressions
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.Sway::PropertyAngleLeft()` | Return the property value for the maximum angle to the left (in degrees) - Use a negative number. ||
-| `Object.Sway::PropertyAngleRight()` | Return the property value for the maximum angle to the right (in degrees) - Use a positive number. ||
-| `Object.Sway::PropertyAngleTimeMax()` | Return the property value for the maximum value for random tween time range for angle (seconds). ||
-| `Object.Sway::PropertyAngleTimeMin()` | Return the property value for the mininum value for random tween time range for angle (seconds). ||
-| `Object.Sway::PropertyYScaleMax()` | Return the property value for the maximum Y scale amount. ||
-| `Object.Sway::PropertyYScaleMin()` | Return the property value for the minimum Y scale amount. ||
-| `Object.Sway::PropertyYScaleTimeMax()` | Return the property value for the maximum value for random tween time range for Y scale (seconds). ||
-| `Object.Sway::PropertyYScaleTimeMin()` | Return the property value for the mininum value for random tween time range for Y scale (seconds). ||
 
 ---
 

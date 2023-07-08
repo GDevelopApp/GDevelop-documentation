@@ -30,50 +30,13 @@ Paint all over the screen a color for a period of time.
 **Paint Effect**  
 Paint Effect.
 
-**Color property**  
-Change the property value for the color.
-
-**Direction of transition property**  
-Change the property value for the direction of transition.
-
-**The maximum of the opacity only for flash property**  
-Change the property value for the the maximum of the opacity only for flash.
-
-**Timer property**  
-Change the property value for the timer.
-
-**Type of effect  property**  
-Change the property value for the type of effect .
-
 ### Behavior conditions
 
 **Paint effect ended **  
 Paint effect ended.
 
-**Color property**  
-Compare the property value for the color.
+_No expressions for this behavior._
 
-**Direction of transition property**  
-Compare the property value for the direction of transition.
-
-**The maximum of the opacity only for flash property**  
-Compare the property value for the the maximum of the opacity only for flash.
-
-**Timer property**  
-Compare the property value for the timer.
-
-**Type of effect  property**  
-Compare the property value for the type of effect .
-
-### Behavior expressions
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.FlashTransitionPainter::PropertyColor()` | Return the property value for the color. ||
-| `Object.FlashTransitionPainter::PropertyDirection()` | Return the property value for the direction of transition. ||
-| `Object.FlashTransitionPainter::PropertyMaxOpacity()` | Return the property value for the the maximum of the opacity only for flash. ||
-| `Object.FlashTransitionPainter::PropertyTimer()` | Return the property value for the timer. ||
-| `Object.FlashTransitionPainter::PropertyType()` | Return the property value for the type of effect . ||
 
 ---
 

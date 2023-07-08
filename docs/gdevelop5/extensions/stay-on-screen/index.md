@@ -34,18 +34,6 @@ Change the right margin (in pixels) to leave between the object and the screen b
 **Screen top margin**  
 Change the top margin (in pixels) to leave between the object and the screen border.
 
-**Bottom margin property**  
-Change the property value for the bottom margin.
-
-**Left margin property**  
-Change the property value for the left margin.
-
-**Right margin property**  
-Change the property value for the right margin.
-
-**Top margin property**  
-Change the property value for the top margin.
-
 ### Behavior conditions
 
 **Screen bottom margin**  
@@ -60,18 +48,6 @@ Compare the right margin (in pixels) to leave between the object and the screen 
 **Screen top margin**  
 Compare the top margin (in pixels) to leave between the object and the screen border.
 
-**Bottom margin property**  
-Compare the property value for the bottom margin.
-
-**Left margin property**  
-Compare the property value for the left margin.
-
-**Right margin property**  
-Compare the property value for the right margin.
-
-**Top margin property**  
-Compare the property value for the top margin.
-
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -80,10 +56,6 @@ Compare the property value for the top margin.
 | `Object.StayOnScreen::MarginLeft()` | Return the left margin (in pixels) to leave between the object and the screen border. ||
 | `Object.StayOnScreen::MarginRight()` | Return the right margin (in pixels) to leave between the object and the screen border. ||
 | `Object.StayOnScreen::MarginTop()` | Return the top margin (in pixels) to leave between the object and the screen border. ||
-| `Object.StayOnScreen::PropertyMarginBottom()` | Return the property value for the bottom margin. ||
-| `Object.StayOnScreen::PropertyMarginLeft()` | Return the property value for the left margin. ||
-| `Object.StayOnScreen::PropertyMarginRight()` | Return the property value for the right margin. ||
-| `Object.StayOnScreen::PropertyMarginTop()` | Return the property value for the top margin. ||
 
 ---
 

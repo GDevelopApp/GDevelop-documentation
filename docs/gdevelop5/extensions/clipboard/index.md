@@ -19,19 +19,10 @@ Read the text from the clipboard asynchronously.
 
 Note also that on web browsers, the user might be asked for permissions to read from the clipboard.
 
-**(No waiting) Get text from the clipboard**  
-Read the text from the clipboard asynchronously. As this is "asynchronous", the variable won't be immediately filled with the text from the clipboard. You will have to wait a few frames before it will be. If you want your subsequent actions and subevents to automatically wait for the read to finish, use the waiting version of this action instead (recomended).   
-
-Note also that on web browsers, the user might be asked for permissions to read from the clipboard.
-
 **Write text to the clipboard**  
 Write the text in the clipboard.
 
-## Expressions
 
-| Expression | Description |  |
-|-----|-----|-----|
-| `Clipboard::ReadText()` | [DEPRECATED] Read the text from the clipboard (Windows, macOS, Linux only) ||
 
 ---
 

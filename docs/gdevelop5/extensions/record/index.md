@@ -23,9 +23,6 @@ Resume recording.
 **Save recording**  
 Save recording to the file system on destop, or to the downloads folder for web. Always ask for permission to save a file.
 
-**Set audio bit rate**  
-Returns the audio bit rate per second.  Defaults to 128000 if not set.
-
 **Set codec**  
 Set the video codec, if a selected codec is unsupported on the users platform a supported one will be picked by deafult.
 
@@ -77,7 +74,6 @@ Check if recording has just stopped.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Record::AudioBitRate()` | Returns the audio bit rate per second. ||
 | `Record::Codec()` | Returns the current video codec. ||
 | `Record::Dithering()` | Returns whether or not dithering is enabled for GIFs. ||
 | `Record::ErrorType()` | When an error occurs this method will return what type of error it is. ||

@@ -24,29 +24,13 @@ Allow to cancel the drag of an object and make it smoothly return to its origina
 **Cancel drag**  
 Cancel last drag.
 
-**Original X property**  
-Change the property value for the original X.
-
-**Original Y property**  
-Change the property value for the original Y.
-
 ### Behavior conditions
 
 **Dragging is cancelled**  
 Dragging is cancelled, the object is returning to its original position.
 
-**Original X property**  
-Compare the property value for the original X.
+_No expressions for this behavior._
 
-**Original Y property**  
-Compare the property value for the original Y.
-
-### Behavior expressions
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.CancellableDraggable::PropertyOriginalX()` | Return the property value for the original X. ||
-| `Object.CancellableDraggable::PropertyOriginalY()` | Return the property value for the original Y. ||
 
 ---
 

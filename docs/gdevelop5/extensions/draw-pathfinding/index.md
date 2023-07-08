@@ -23,33 +23,8 @@ Draw the path followed by the object using a shape painter.
 **Draw pathfinding**  
 Draw the path followed by the object using a shape painter. It automatically creates an instance of the shape painter object if there is none.
 
-**CorrectionX property**  
-Change the property value for the correctionX.
+_No expressions for this behavior._
 
-**CorrectionY property**  
-Change the property value for the correctionY.
-
-**LoopIndex property**  
-Change the property value for the loopIndex.
-
-### Behavior conditions
-
-**CorrectionX property**  
-Compare the property value for the correctionX.
-
-**CorrectionY property**  
-Compare the property value for the correctionY.
-
-**LoopIndex property**  
-Compare the property value for the loopIndex.
-
-### Behavior expressions
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.DrawPathfinding::PropertyCorrectionX()` | Return the property value for the correctionX. ||
-| `Object.DrawPathfinding::PropertyCorrectionY()` | Return the property value for the correctionY. ||
-| `Object.DrawPathfinding::PropertyLoopIndex()` | Return the property value for the loopIndex. ||
 
 ---
 

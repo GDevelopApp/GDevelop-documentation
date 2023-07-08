@@ -32,10 +32,6 @@ Tips:
 
 ## Actions
 
-**Create multiple copies of an object**  
-Create multiple copies of an object.  
-Select the object, choose the number of rows and columns, the spacing between rows and columns, the top left starting point, the layer to create the objects on, and the z-order of the objects.
-
 **Rectangular flood fill**  
 Create fill objects that cover the rectangular area of target objects.
 

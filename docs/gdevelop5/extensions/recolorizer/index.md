@@ -22,11 +22,6 @@ This extension is experimental and might no longer work in future version of GDe
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
-## Actions
-
-**Define JavaScript classes**  
-Define JavaScript classes.
-
 
 
 ## Panel sprite recolorizer 

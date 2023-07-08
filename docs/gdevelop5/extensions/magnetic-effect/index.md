@@ -23,42 +23,16 @@ Attraction to another object, with customisable speed and distance.
 **Attraction to a target object**  
 Attraction to a target object.
 
-**Distance property**  
-Change the property value for the distance.
-
-**Is Attracted property**  
-Update the property value for "is Attracted".
-
-**Speed property**  
-Change the property value for the speed.
-
 **Stop attraction**  
 Stop the attraction to the target object.
-
-**Toggle Is Attracted property**  
-Toggle the property value for is Attracted.  
-If it was true, it will become false, and if it was false it will become true.
 
 ### Behavior conditions
 
 **Is attracted to the target object**  
 Check if the object is attracted to the target object.
 
-**Distance property**  
-Compare the property value for the distance.
+_No expressions for this behavior._
 
-**Is Attracted property**  
-Check the property value for is Attracted.
-
-**Speed property**  
-Compare the property value for the speed.
-
-### Behavior expressions
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.MagneticEffect::PropertyDistance()` | Return the property value for the distance. ||
-| `Object.MagneticEffect::PropertySpeed()` | Return the property value for the speed. ||
 
 ---
 

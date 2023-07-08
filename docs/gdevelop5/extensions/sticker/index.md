@@ -30,23 +30,11 @@ Stick the object to another. Use the action to stick the object, or unstick it l
 
 ### Behavior actions
 
-**Only follow the position property**  
-Update the property value for "only follow the position".
-
 **Stick**  
 Stick on another object.
 
-**Toggle Only follow the position property**  
-Toggle the property value for only follow the position.  
-If it was true, it will become false, and if it was false it will become true.
-
 **Unstick**  
 Unstick from the object it was stuck to.
-
-### Behavior conditions
-
-**Only follow the position property**  
-Check the property value for only follow the position.
 
 _No expressions for this behavior._
 

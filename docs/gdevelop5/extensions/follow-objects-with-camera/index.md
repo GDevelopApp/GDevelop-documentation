@@ -27,9 +27,6 @@ Release Notes:
 **Follow multiple objects with camera**  
 Change the zoom and position of the camera to keep all instances of an object (or object group) on the screen.
 
-**Follow multiple objects with camera (Deprecated)**  
-Change the zoom and position of the camera to keep all instances of an object (or object group) on the screen. (Deprecated)
-
 
 
 ---

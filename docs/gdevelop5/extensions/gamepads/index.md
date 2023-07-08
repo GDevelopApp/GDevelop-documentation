@@ -76,10 +76,6 @@ Compare the force of gamepad stick (from 0 to 1).
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Gamepads::AxisValue(number, string, string)` | Get the value of axis of a gamepad stick. ||
-| | _number_ | The gamepad identifier: 1, 2, 3 or 4 |
-| | _string_ | Stick: "Left" or "Right" |
-| | _string_ | Direction |
 | `Gamepads::ConnectedGamepadsCount()` | Return the number of connected gamepads. ||
 | `Gamepads::Deadzone(number)` | Return the value of the deadzone applied to a gamepad sticks, between 0 and 1. ||
 | | _number_ | The gamepad identifier: 1, 2, 3 or 4 |
@@ -103,9 +99,6 @@ Compare the force of gamepad stick (from 0 to 1).
 | `Gamepads::StickForceY(number, string)` | Return the gamepad stick force on Y axis (from -1 at the top to 1 at the bottom). ||
 | | _number_ | The gamepad identifier: 1, 2, 3 or 4 |
 | | _string_ | Stick: "Left" or "Right" |
-| `Gamepads::StickRotationValue(number, string)` | Get the rotation value of a gamepad stick.If the deadzone value is high, the angle value is rounded to main axes, left, left, up, down.An zero deadzone value give a total freedom on the angle value. ||
-| | _number_ | The gamepad identifier: 1, 2, 3 or 4 |
-| | _string_ | Stick: "Left" or "Right" |
 | `Gamepads::StrongVibrationMagnitude(number)` | Return the strength of the strong vibration motor on the gamepad of a player. ||
 | | _number_ | The gamepad identifier: 1, 2, 3 or 4 |
 | `Gamepads::TriggerPressure(number, string)` | Get the value of the pressure on a gamepad trigger. ||
@@ -118,115 +111,15 @@ Compare the force of gamepad stick (from 0 to 1).
 
 Control a platformer character with a gamepad. 
 
-### Behavior actions
+_No expressions for this behavior._
 
-**Gamepad identifier (1, 2, 3 or 4) property**  
-Change the property value for the gamepad identifier (1, 2, 3 or 4).
-
-**Jump button property**  
-Change the property value for the jump button.
-
-**Use directional pad property**  
-Update the property value for "use directional pad".
-
-**Use left stick property**  
-Update the property value for "use left stick".
-
-**Use right stick property**  
-Update the property value for "use right stick".
-
-**Toggle Use directional pad property**  
-Toggle the property value for use directional pad.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Use left stick property**  
-Toggle the property value for use left stick.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Use right stick property**  
-Toggle the property value for use right stick.  
-If it was true, it will become false, and if it was false it will become true.
-
-### Behavior conditions
-
-**Gamepad identifier (1, 2, 3 or 4) property**  
-Compare the property value for the gamepad identifier (1, 2, 3 or 4).
-
-**Jump button property**  
-Compare the property value for the jump button.
-
-**Use directional pad property**  
-Check the property value for use directional pad.
-
-**Use left stick property**  
-Check the property value for use left stick.
-
-**Use right stick property**  
-Check the property value for use right stick.
-
-### Behavior expressions
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.PlatformerGamepadMapper::PropertyGamepadIdentifier()` | Return the property value for the gamepad identifier (1, 2, 3 or 4). ||
-| `Object.PlatformerGamepadMapper::PropertyJumpButton()` | Return the property value for the jump button. ||
 
 ## Top-down gamepad mapper 
 
 Control a top-down character with a gamepad. 
 
-### Behavior actions
+_No expressions for this behavior._
 
-**Gamepad identifier (1, 2, 3 or 4) property**  
-Change the property value for the gamepad identifier (1, 2, 3 or 4).
-
-**Stick mode property**  
-Change the property value for the stick mode.
-
-**Use directional pad property**  
-Update the property value for "use directional pad".
-
-**Use left stick property**  
-Update the property value for "use left stick".
-
-**Use right stick property**  
-Update the property value for "use right stick".
-
-**Toggle Use directional pad property**  
-Toggle the property value for use directional pad.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Use left stick property**  
-Toggle the property value for use left stick.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Use right stick property**  
-Toggle the property value for use right stick.  
-If it was true, it will become false, and if it was false it will become true.
-
-### Behavior conditions
-
-**Gamepad identifier (1, 2, 3 or 4) property**  
-Compare the property value for the gamepad identifier (1, 2, 3 or 4).
-
-**Stick mode property**  
-Compare the property value for the stick mode.
-
-**Use directional pad property**  
-Check the property value for use directional pad.
-
-**Use left stick property**  
-Check the property value for use left stick.
-
-**Use right stick property**  
-Check the property value for use right stick.
-
-### Behavior expressions
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.TopDownGamepadMapper::PropertyGamepadIdentifier()` | Return the property value for the gamepad identifier (1, 2, 3 or 4). ||
-| `Object.TopDownGamepadMapper::PropertyStickMode()` | Return the property value for the stick mode. ||
 
 ---
 

@@ -67,55 +67,11 @@ Set horizontal distance.
 **Set horizontal speed**  
 Set horizontal speed.
 
-**Center of movement, X position property**  
-Change the property value for the center of movement, X position.
-
-**Center of movement, Y position property**  
-Change the property value for the center of movement, Y position.
-
-**Use a constant speed for movement property**  
-Update the property value for "use a constant speed for movement".
-
-**Use counter-clockwise direction property**  
-Update the property value for "use counter-clockwise direction".
-
-**Current direction the object is moving property**  
-Change the property value for the current direction the object is moving.
-
-**Horizontal Distance: Amplitude of the movement on X axis (0 to deactivate) property**  
-Change the property value for the horizontal Distance: Amplitude of the movement on X axis (0 to deactivate).
-
-**Horizontal speed property**  
-Change the property value for the horizontal speed.
-
-**Counter used to change X position property**  
-Change the property value for the counter used to change X position.
-
-**Counter used to change Y position property**  
-Change the property value for the counter used to change Y position.
-
-**Counter used for rectangular movement property**  
-Change the property value for the counter used for rectangular movement.
-
-**Vertical Distance: Amplitude of the movement on Y axis (0 to deactivate) property**  
-Change the property value for the vertical Distance: Amplitude of the movement on Y axis (0 to deactivate).
-
-**Vertical speed property**  
-Change the property value for the vertical speed.
-
 **Set vertical distance**  
 Set vertical distance.
 
 **Set vertical speed**  
 Set vertical speed.
-
-**Toggle Use a constant speed for movement property**  
-Toggle the property value for use a constant speed for movement.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Use counter-clockwise direction property**  
-Toggle the property value for use counter-clockwise direction.  
-If it was true, it will become false, and if it was false it will become true.
 
 ### Behavior conditions
 
@@ -131,42 +87,6 @@ Object is moving to the right.
 **Object is moving upwards**  
 Object is moving upwards.
 
-**Center of movement, X position property**  
-Compare the property value for the center of movement, X position.
-
-**Center of movement, Y position property**  
-Compare the property value for the center of movement, Y position.
-
-**Use a constant speed for movement property**  
-Check the property value for use a constant speed for movement.
-
-**Use counter-clockwise direction property**  
-Check the property value for use counter-clockwise direction.
-
-**Current direction the object is moving property**  
-Compare the property value for the current direction the object is moving.
-
-**Horizontal Distance: Amplitude of the movement on X axis (0 to deactivate) property**  
-Compare the property value for the horizontal Distance: Amplitude of the movement on X axis (0 to deactivate).
-
-**Horizontal speed property**  
-Compare the property value for the horizontal speed.
-
-**Counter used to change X position property**  
-Compare the property value for the counter used to change X position.
-
-**Counter used to change Y position property**  
-Compare the property value for the counter used to change Y position.
-
-**Counter used for rectangular movement property**  
-Compare the property value for the counter used for rectangular movement.
-
-**Vertical Distance: Amplitude of the movement on Y axis (0 to deactivate) property**  
-Compare the property value for the vertical Distance: Amplitude of the movement on Y axis (0 to deactivate).
-
-**Vertical speed property**  
-Compare the property value for the vertical speed.
-
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -177,16 +97,6 @@ Compare the property value for the vertical speed.
 | `Object.RectangularMovement::HorizontalSpeed()` | Horizontal speed. ||
 | `Object.RectangularMovement::ProgressX()` | Counter used to change the X position of the object. ||
 | `Object.RectangularMovement::ProgressY()` | Counter used to change the Y position of the object. ||
-| `Object.RectangularMovement::PropertyCenterPointX()` | Return the property value for the center of movement, X position. ||
-| `Object.RectangularMovement::PropertyCenterPointY()` | Return the property value for the center of movement, Y position. ||
-| `Object.RectangularMovement::PropertyCurrentDirection()` | Return the property value for the current direction the object is moving. ||
-| `Object.RectangularMovement::PropertyHorizontalDistance()` | Return the property value for the horizontal Distance: Amplitude of the movement on X axis (0 to deactivate). ||
-| `Object.RectangularMovement::PropertyHorizontalSpeed()` | Return the property value for the horizontal speed. ||
-| `Object.RectangularMovement::PropertyProgressX()` | Return the property value for the counter used to change X position. ||
-| `Object.RectangularMovement::PropertyProgressY()` | Return the property value for the counter used to change Y position. ||
-| `Object.RectangularMovement::PropertyRectangularCounter()` | Return the property value for the counter used for rectangular movement. ||
-| `Object.RectangularMovement::PropertyVerticalDistance()` | Return the property value for the vertical Distance: Amplitude of the movement on Y axis (0 to deactivate). ||
-| `Object.RectangularMovement::PropertyVerticalSpeed()` | Return the property value for the vertical speed. ||
 | `Object.RectangularMovement::VerticalDistance()` | Vertical distance. ||
 | `Object.RectangularMovement::VerticalSpeed()` | Vertical speed. ||
 

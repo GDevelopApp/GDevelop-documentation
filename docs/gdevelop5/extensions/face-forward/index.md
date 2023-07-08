@@ -24,44 +24,14 @@ Face object towards the direction of movement.
 
 ### Behavior actions
 
-**Direction the object is moving (in degrees) property**  
-Change the property value for the direction the object is moving (in degrees).
-
-**Previous X position property**  
-Change the property value for the previous X position.
-
-**Previous Y position property**  
-Change the property value for the previous Y position.
-
-**Rotation speed (degrees per second).  Use "0" for immediate turning. property**  
-Change the property value for the rotation speed (degrees per second).  Use "0" for immediate turning..
-
 **Set rotation speed**  
 Set rotation speed (degrees per second).  Use "0" for immediate turning.
-
-### Behavior conditions
-
-**Direction the object is moving (in degrees) property**  
-Compare the property value for the direction the object is moving (in degrees).
-
-**Previous X position property**  
-Compare the property value for the previous X position.
-
-**Previous Y position property**  
-Compare the property value for the previous Y position.
-
-**Rotation speed (degrees per second).  Use "0" for immediate turning. property**  
-Compare the property value for the rotation speed (degrees per second).  Use "0" for immediate turning..
 
 ### Behavior expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.FaceForward::MovementDirection()` | Direction the object is moving (in degrees). ||
-| `Object.FaceForward::PropertyMovementDirection()` | Return the property value for the direction the object is moving (in degrees). ||
-| `Object.FaceForward::PropertyPreviousX()` | Return the property value for the previous X position. ||
-| `Object.FaceForward::PropertyPreviousY()` | Return the property value for the previous Y position. ||
-| `Object.FaceForward::PropertyRotationSpeed()` | Return the property value for the rotation speed (degrees per second).  Use "0" for immediate turning.. ||
 | `Object.FaceForward::RotationSpeed()` | Rotation speed (in degrees per second). ||
 
 ---

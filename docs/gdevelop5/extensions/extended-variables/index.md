@@ -25,30 +25,6 @@ Text expressions allows to enter the name of the variable with an expression lik
 **Copy all object variables**  
 Copy all object variables from one object to another.
 
-**Copy an object variable**  
-Copy an object variable from one object to another.
-
-**Delete global variable**  
-Delete a global variable, removing it from memory.
-
-**Delete scene variable**  
-Delete scene variable, the variable will be deleted from the memory.
-
-**Value of a global variable**  
-Modify the value of a global variable.
-
-**String of a global variable**  
-Modify the text of a global variable.
-
-**Value of a scene variable**  
-Modify the value of a scene variable.
-
-**String of a scene variable**  
-Modify the text of a scene variable.
-
-**Copy all object variables**  
-Copy all object variables from one object to another.
-
 **Copy a global variable to scene**  
 Copy the global variable to scene. This copy everything from the types to the values.
 
@@ -80,15 +56,6 @@ Modify the value of a scene variable.
 Modify the text of a scene variable.
 
 ## Conditions
-
-**Global variable exists**  
-Check if a global variable exists.
-
-**Object variable exists**  
-Check if an object variable exists.
-
-**Scene variable exists**  
-Check if a scene variable exists.
 
 **Global variable exists**  
 Check if the global variable exists.

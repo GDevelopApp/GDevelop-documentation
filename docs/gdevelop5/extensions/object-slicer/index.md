@@ -23,19 +23,7 @@ Tips:
 **Slice object into smaller pieces**  
 Slice an object into smaller pieces that match color of the original object. The new object should be a solid white color.
 
-## Expressions
 
-| Expression | Description |  |
-|-----|-----|-----|
-| `ObjectSlicer::ReadPixelBlue(number, number)` | Return the blue component of the pixel at the specified position. ||
-| | _number_ | Position X |
-| | _number_ | Position Y |
-| `ObjectSlicer::ReadPixelGreen(number, number)` | Return the green component of the pixel at the specified position. ||
-| | _number_ | Position X |
-| | _number_ | Position Y |
-| `ObjectSlicer::ReadPixelRed(number, number)` | Return the red component of the pixel at the specified position. ||
-| | _number_ | Position X |
-| | _number_ | Position Y |
 
 ---
 

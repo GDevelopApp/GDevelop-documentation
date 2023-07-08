@@ -40,47 +40,8 @@ Draw a chat bubble.
 **Draw a chat bubble with name tag**  
 Draw a chat bubble with name tag.
 
-**DefaultColor property**  
-Change the property value for the defaultColor.
+_No expressions for this behavior._
 
-**DefaultOutlineColor property**  
-Change the property value for the defaultOutlineColor.
-
-**Draw Chat Height property**  
-Change the property value for the draw Chat Height.
-
-**Draw Chat Width property**  
-Change the property value for the draw Chat Width.
-
-**Name Tag Background Color (if you only call draw with name tag) property**  
-Change the property value for the name Tag Background Color (if you only call draw with name tag).
-
-### Behavior conditions
-
-**DefaultColor property**  
-Compare the property value for the defaultColor.
-
-**DefaultOutlineColor property**  
-Compare the property value for the defaultOutlineColor.
-
-**Draw Chat Height property**  
-Compare the property value for the draw Chat Height.
-
-**Draw Chat Width property**  
-Compare the property value for the draw Chat Width.
-
-**Name Tag Background Color (if you only call draw with name tag) property**  
-Compare the property value for the name Tag Background Color (if you only call draw with name tag).
-
-### Behavior expressions
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.ChatBubble::PropertyDefaultColor()` | Return the property value for the defaultColor. ||
-| `Object.ChatBubble::PropertyDefaultOutlineColor()` | Return the property value for the defaultOutlineColor. ||
-| `Object.ChatBubble::PropertyDrawChatHeight()` | Return the property value for the draw Chat Height. ||
-| `Object.ChatBubble::PropertyDrawChatWidth()` | Return the property value for the draw Chat Width. ||
-| `Object.ChatBubble::PropertyNameTagBackgroundColor()` | Return the property value for the name Tag Background Color (if you only call draw with name tag). ||
 
 ---
 

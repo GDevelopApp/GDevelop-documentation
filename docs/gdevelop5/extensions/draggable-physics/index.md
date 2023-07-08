@@ -46,30 +46,8 @@ Change the maximum joint force (in Newtons) of the object.
 **Mouse button**  
 Change the mouse button used to move the object.
 
-**Damping ratio (Range: 0 to 1) property**  
-Change the property value for the damping ratio (Range: 0 to 1).
-
-**Enable automatic dragging property**  
-Update the property value for "enable automatic dragging".
-
-**Frequency (Hz)  property**  
-Change the property value for the frequency (Hz) .
-
-**Maximum force property**  
-Change the property value for the maximum force.
-
-**Mouse button property**  
-Change the property value for the mouse button.
-
-**MouseJointID property**  
-Change the property value for the mouseJointID.
-
 **Start dragging object**  
 Start dragging object.
-
-**Toggle Enable automatic dragging property**  
-Toggle the property value for enable automatic dragging.  
-If it was true, it will become false, and if it was false it will become true.
 
 ### Behavior conditions
 
@@ -91,24 +69,6 @@ Compare the maximum joint force (in Newtons) of the object.
 **Mouse button**  
 Compare the mouse button used to move the object.
 
-**Damping ratio (Range: 0 to 1) property**  
-Compare the property value for the damping ratio (Range: 0 to 1).
-
-**Enable automatic dragging property**  
-Check the property value for enable automatic dragging.
-
-**Frequency (Hz)  property**  
-Compare the property value for the frequency (Hz) .
-
-**Maximum force property**  
-Compare the property value for the maximum force.
-
-**Mouse button property**  
-Compare the property value for the mouse button.
-
-**MouseJointID property**  
-Compare the property value for the mouseJointID.
-
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -117,11 +77,6 @@ Compare the property value for the mouseJointID.
 | `Object.DraggablePhysics::Frequency()` | Return the joint frequency (per second) of the object. ||
 | `Object.DraggablePhysics::MaxForce()` | Return the maximum joint force (in Newtons) of the object. ||
 | `Object.DraggablePhysics::MouseButton()` | Return the mouse button used to move the object. ||
-| `Object.DraggablePhysics::PropertyDamping()` | Return the property value for the damping ratio (Range: 0 to 1). ||
-| `Object.DraggablePhysics::PropertyFrequency()` | Return the property value for the frequency (Hz) . ||
-| `Object.DraggablePhysics::PropertyMaxForce()` | Return the property value for the maximum force. ||
-| `Object.DraggablePhysics::PropertyMouseButton()` | Return the property value for the mouse button. ||
-| `Object.DraggablePhysics::PropertyMouseJointID()` | Return the property value for the mouseJointID. ||
 
 ---
 

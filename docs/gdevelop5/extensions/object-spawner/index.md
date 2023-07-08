@@ -39,60 +39,16 @@ Change the offset X relative to origin of spawner (in pixels).
 **Offset on Y axis**  
 Change the offset Y relative to origin of spawner (in pixels).
 
-**JustSpawnedAnObject property**  
-Update the property value for "justSpawnedAnObject".
-
-**Max quantity (per spawner) property**  
-Change the property value for the max quantity (per spawner).
-
-**MaxQuantityReached property**  
-Update the property value for "maxQuantityReached".
-
-**Offset X (relative to position of spawner) property**  
-Change the property value for the offset X (relative to position of spawner).
-
-**Offset Y (relative to position of spawner) property**  
-Change the property value for the offset Y (relative to position of spawner).
-
-**Spawn period property**  
-Change the property value for the spawn period.
-
 **Spawn period**  
 Change the spawn period (in seconds).
 
 **Spawn objects periodically**  
 Spawn (create) objects periodically. This action must be run every frame to work. When the max quantity is reached and an instance is deleted, the spawner waits the duration of the spawn period before creating another instance. Spawned objects are automatically linked to the spawner.
 
-**Toggle JustSpawnedAnObject property**  
-Toggle the property value for justSpawnedAnObject.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle MaxQuantityReached property**  
-Toggle the property value for maxQuantityReached.  
-If it was true, it will become false, and if it was false it will become true.
-
 ### Behavior conditions
 
 **Spawned object **  
 Check if an object has just been created by this spawner. Useful for triggering visual and sound effects.
-
-**JustSpawnedAnObject property**  
-Check the property value for justSpawnedAnObject.
-
-**Max quantity (per spawner) property**  
-Compare the property value for the max quantity (per spawner).
-
-**MaxQuantityReached property**  
-Check the property value for maxQuantityReached.
-
-**Offset X (relative to position of spawner) property**  
-Compare the property value for the offset X (relative to position of spawner).
-
-**Offset Y (relative to position of spawner) property**  
-Compare the property value for the offset Y (relative to position of spawner).
-
-**Spawn period property**  
-Compare the property value for the spawn period.
 
 ### Behavior expressions
 
@@ -104,10 +60,6 @@ Compare the property value for the spawn period.
 | | _number_ | Value |
 | `Object.ObjectSpawner::OffsetY(number)` | Return the offset Y relative to origin of spawner (in pixels). ||
 | | _number_ | Value |
-| `Object.ObjectSpawner::PropertyMaxQuantity()` | Return the property value for the max quantity (per spawner). ||
-| `Object.ObjectSpawner::PropertyOffsetX()` | Return the property value for the offset X (relative to position of spawner). ||
-| `Object.ObjectSpawner::PropertyOffsetY()` | Return the property value for the offset Y (relative to position of spawner). ||
-| `Object.ObjectSpawner::PropertySpawnPeriod()` | Return the property value for the spawn period. ||
 | `Object.ObjectSpawner::SpawnPeriod()` | Return the spawn period (in seconds). ||
 | `Object.ObjectSpawner::TimeBeforeSpawn()` | Return the remaining time before the next spawn (in seconds). Useful for triggering visual and sound effects. ||
 

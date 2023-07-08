@@ -38,9 +38,6 @@ Adds a new valid platform (domain name where the game is expected to be played, 
 **Is the game running on an authorized platform**  
 Checks if the game is executed on an authorized platform (preferably, run this only once at beginning of the game).
 
-**Check if a domain is contained in the authorized list**  
-Check if a domain is contained in the authorized list array.
-
 ## Expressions
 
 | Expression | Description |  |

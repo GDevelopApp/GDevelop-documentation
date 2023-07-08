@@ -25,21 +25,8 @@ Change the type of the cursor.
 
 Change the cursor appearence when the object is hovered (on Windows, macOS or Linux). 
 
-### Behavior actions
+_No expressions for this behavior._
 
-**The cursor type property**  
-Change the property value for the the cursor type.
-
-### Behavior conditions
-
-**The cursor type property**  
-Compare the property value for the the cursor type.
-
-### Behavior expressions
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.CursorHover::Propertycursor_type()` | Return the property value for the the cursor type. ||
 
 ---
 

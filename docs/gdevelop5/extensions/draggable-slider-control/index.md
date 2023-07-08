@@ -64,93 +64,6 @@ Change the color of the track that is RIGHT of the thumb.
 **Inactive track opacity**  
 Change opacity of inactive track.
 
-**Active track color (thumb color by default) property**  
-Change the property value for the active track color (thumb color by default).
-
-**Active track opacity property**  
-Change the property value for the active track opacity.
-
-**CurrentHaloRadius property**  
-Change the property value for the currentHaloRadius.
-
-**Enable interactions property**  
-Update the property value for "enable interactions".
-
-**HaloGrowSpeed property**  
-Change the property value for the haloGrowSpeed.
-
-**Halo opacity (pressed) property**  
-Change the property value for the halo opacity (pressed).
-
-**Halo opacity (hover) property**  
-Change the property value for the halo opacity (hover).
-
-**Halo size (hover) property**  
-Change the property value for the halo size (hover).
-
-**Inactive track color (thumb color by default) property**  
-Change the property value for the inactive track color (thumb color by default).
-
-**Inactive track opacity property**  
-Change the property value for the inactive track opacity.
-
-**IsBeingDragged property**  
-Update the property value for "isBeingDragged".
-
-**IsHovered property**  
-Update the property value for "isHovered".
-
-**MouseX property**  
-Change the property value for the mouseX.
-
-**MouseY property**  
-Change the property value for the mouseY.
-
-**NeedRedraw property**  
-Update the property value for "needRedraw".
-
-**Rounded track ends property**  
-Update the property value for "rounded track ends".
-
-**TargetHaloRadius property**  
-Change the property value for the targetHaloRadius.
-
-**Thumb Color property**  
-Change the property value for the thumb Color.
-
-**Thumb height property**  
-Change the property value for the thumb height.
-
-**ThumbOffset property**  
-Change the property value for the thumbOffset.
-
-**Thumb opacity property**  
-Change the property value for the thumb opacity.
-
-**Thumb shape property**  
-Change the property value for the thumb shape.
-
-**Thumb width property**  
-Change the property value for the thumb width.
-
-**Tick spacing property**  
-Change the property value for the tick spacing.
-
-**Track length property**  
-Change the property value for the track length.
-
-**Track thickness property**  
-Change the property value for the track thickness.
-
-**Value property**  
-Change the property value for the value.
-
-**Maximum value property**  
-Change the property value for the maximum value.
-
-**Minimum value property**  
-Change the property value for the minimum value.
-
 **Rounded track ends**  
 Make track use rounded ends.
 
@@ -187,29 +100,6 @@ Change the maximum value of a slider.
 **Slider minimum value**  
 Change the minimum value of a slider.
 
-**Toggle Enable interactions property**  
-Toggle the property value for enable interactions.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle IsBeingDragged property**  
-Toggle the property value for isBeingDragged.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle IsHovered property**  
-Toggle the property value for isHovered.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle NeedRedraw property**  
-Toggle the property value for needRedraw.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Rounded track ends property**  
-Toggle the property value for rounded track ends.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Update hitbox**  
-Update the hitbox.
-
 ### Behavior conditions
 
 **Being dragged**  
@@ -218,121 +108,10 @@ Check if the slider is being dragged.
 **Interactions enabled**  
 Check if the slider interations are enabled.
 
-**Active track color (thumb color by default) property**  
-Compare the property value for the active track color (thumb color by default).
-
-**Active track opacity property**  
-Compare the property value for the active track opacity.
-
-**CurrentHaloRadius property**  
-Compare the property value for the currentHaloRadius.
-
-**Enable interactions property**  
-Check the property value for enable interactions.
-
-**HaloGrowSpeed property**  
-Compare the property value for the haloGrowSpeed.
-
-**Halo opacity (pressed) property**  
-Compare the property value for the halo opacity (pressed).
-
-**Halo opacity (hover) property**  
-Compare the property value for the halo opacity (hover).
-
-**Halo size (hover) property**  
-Compare the property value for the halo size (hover).
-
-**Inactive track color (thumb color by default) property**  
-Compare the property value for the inactive track color (thumb color by default).
-
-**Inactive track opacity property**  
-Compare the property value for the inactive track opacity.
-
-**IsBeingDragged property**  
-Check the property value for isBeingDragged.
-
-**IsHovered property**  
-Check the property value for isHovered.
-
-**MouseX property**  
-Compare the property value for the mouseX.
-
-**MouseY property**  
-Compare the property value for the mouseY.
-
-**NeedRedraw property**  
-Check the property value for needRedraw.
-
-**Rounded track ends property**  
-Check the property value for rounded track ends.
-
-**TargetHaloRadius property**  
-Compare the property value for the targetHaloRadius.
-
-**Thumb Color property**  
-Compare the property value for the thumb Color.
-
-**Thumb height property**  
-Compare the property value for the thumb height.
-
-**ThumbOffset property**  
-Compare the property value for the thumbOffset.
-
-**Thumb opacity property**  
-Compare the property value for the thumb opacity.
-
-**Thumb shape property**  
-Compare the property value for the thumb shape.
-
-**Thumb width property**  
-Compare the property value for the thumb width.
-
-**Tick spacing property**  
-Compare the property value for the tick spacing.
-
-**Track length property**  
-Compare the property value for the track length.
-
-**Track thickness property**  
-Compare the property value for the track thickness.
-
-**Value property**  
-Compare the property value for the value.
-
-**Maximum value property**  
-Compare the property value for the maximum value.
-
-**Minimum value property**  
-Compare the property value for the minimum value.
-
 ### Behavior expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Object.DraggableSliderControl::PropertyActiveTrackColor()` | Return the property value for the active track color (thumb color by default). ||
-| `Object.DraggableSliderControl::PropertyActiveTrackOpacity()` | Return the property value for the active track opacity. ||
-| `Object.DraggableSliderControl::PropertyCurrentHaloRadius()` | Return the property value for the currentHaloRadius. ||
-| `Object.DraggableSliderControl::PropertyHaloGrowSpeed()` | Return the property value for the haloGrowSpeed. ||
-| `Object.DraggableSliderControl::PropertyHaloOpacityClick()` | Return the property value for the halo opacity (pressed). ||
-| `Object.DraggableSliderControl::PropertyHaloOpacityHover()` | Return the property value for the halo opacity (hover). ||
-| `Object.DraggableSliderControl::PropertyHaloRadius()` | Return the property value for the halo size (hover). ||
-| `Object.DraggableSliderControl::PropertyInactiveTrackColor()` | Return the property value for the inactive track color (thumb color by default). ||
-| `Object.DraggableSliderControl::PropertyInactiveTrackOpacity()` | Return the property value for the inactive track opacity. ||
-| `Object.DraggableSliderControl::PropertyMouseX()` | Return the property value for the mouseX. ||
-| `Object.DraggableSliderControl::PropertyMouseY()` | Return the property value for the mouseY. ||
-| `Object.DraggableSliderControl::PropertyTargetHaloRadius()` | Return the property value for the targetHaloRadius. ||
-| `Object.DraggableSliderControl::PropertyThumbColor()` | Return the property value for the thumb Color. ||
-| `Object.DraggableSliderControl::PropertyThumbHeight()` | Return the property value for the thumb height. ||
-| `Object.DraggableSliderControl::PropertyThumbOffset()` | Return the property value for the thumbOffset. ||
-| `Object.DraggableSliderControl::PropertyThumbOpacity()` | Return the property value for the thumb opacity. ||
-| `Object.DraggableSliderControl::PropertyThumbShape()` | Return the property value for the thumb shape. ||
-| `Object.DraggableSliderControl::PropertyThumbWidth()` | Return the property value for the thumb width. ||
-| `Object.DraggableSliderControl::PropertyTickSpacing()` | Return the property value for the tick spacing. ||
-| `Object.DraggableSliderControl::PropertyTrackLength()` | Return the property value for the track length. ||
-| `Object.DraggableSliderControl::PropertyTrackThickness()` | Return the property value for the track thickness. ||
-| `Object.DraggableSliderControl::PropertyValue()` | Return the property value for the value. ||
-| `Object.DraggableSliderControl::PropertyValueMax()` | Return the property value for the maximum value. ||
-| `Object.DraggableSliderControl::PropertyValueMin()` | Return the property value for the minimum value. ||
 | `Object.DraggableSliderControl::ThumbHeight()` | Height of thumb. ||
 | `Object.DraggableSliderControl::TickSpacing(number)` | The tick spacing of a slider. ||
 | | _number_ | Tick spacing |

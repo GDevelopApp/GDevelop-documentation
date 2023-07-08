@@ -57,111 +57,13 @@ Disable game feel animation.
 **Enable animation**  
 Enable game feel animation.
 
-**Idle animation property**  
-Update the property value for "idle animation".
-
-**Scale strength property**  
-Change the property value for the scale strength.
-
-**Scaling speed property**  
-Change the property value for the scaling speed.
-
-**Jump animation property**  
-Update the property value for "jump animation".
-
-**Scale strength property**  
-Change the property value for the scale strength.
-
-**Scaling speed property**  
-Change the property value for the scaling speed.
-
-**Fall animation property**  
-Update the property value for "fall animation".
-
-**Scale strength property**  
-Change the property value for the scale strength.
-
-**Scaling speed property**  
-Change the property value for the scaling speed.
-
-**Land animation property**  
-Update the property value for "land animation".
-
-**Scale strength property**  
-Change the property value for the scale strength.
-
-**Scaling speed property**  
-Change the property value for the scaling speed.
-
-**Toggle Idle animation property**  
-Toggle the property value for idle animation.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Jump animation property**  
-Toggle the property value for jump animation.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Fall animation property**  
-Toggle the property value for fall animation.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Land animation property**  
-Toggle the property value for land animation.  
-If it was true, it will become false, and if it was false it will become true.
-
 ### Behavior conditions
 
 **Animation is playing**  
 Check if the object game feel animation is playing.
 
-**Idle animation property**  
-Check the property value for idle animation.
+_No expressions for this behavior._
 
-**Scale strength property**  
-Compare the property value for the scale strength.
-
-**Scaling speed property**  
-Compare the property value for the scaling speed.
-
-**Jump animation property**  
-Check the property value for jump animation.
-
-**Scale strength property**  
-Compare the property value for the scale strength.
-
-**Scaling speed property**  
-Compare the property value for the scaling speed.
-
-**Fall animation property**  
-Check the property value for fall animation.
-
-**Scale strength property**  
-Compare the property value for the scale strength.
-
-**Scaling speed property**  
-Compare the property value for the scaling speed.
-
-**Land animation property**  
-Check the property value for land animation.
-
-**Scale strength property**  
-Compare the property value for the scale strength.
-
-**Scaling speed property**  
-Compare the property value for the scaling speed.
-
-### Behavior expressions
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.CharacterGameFeel::PropertyBIdleScale()` | Return the property value for the scale strength. ||
-| `Object.CharacterGameFeel::PropertyCIdleScalingSpeed()` | Return the property value for the scaling speed. ||
-| `Object.CharacterGameFeel::PropertyGJumpScale()` | Return the property value for the scale strength. ||
-| `Object.CharacterGameFeel::PropertyHJumpScalingSpeed()` | Return the property value for the scaling speed. ||
-| `Object.CharacterGameFeel::PropertyJFallScale()` | Return the property value for the scale strength. ||
-| `Object.CharacterGameFeel::PropertyKFallScalingSpeed()` | Return the property value for the scaling speed. ||
-| `Object.CharacterGameFeel::PropertyMLandScale()` | Return the property value for the scale strength. ||
-| `Object.CharacterGameFeel::PropertyNLandScalingSpeed()` | Return the property value for the scaling speed. ||
 
 ---
 

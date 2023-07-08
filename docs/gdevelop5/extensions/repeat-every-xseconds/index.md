@@ -37,43 +37,13 @@ Allows to trigger the recurring timer X times again.
 **Resume a recurring timer**  
 Resumes a paused recurring timer.
 
-**An internal counter property**  
-Change the property value for the an internal counter.
-
-**How many times should the timer trigger? -1 for forever. property**  
-Change the property value for the how many times should the timer trigger? -1 for forever..
-
-**The time between each trigger (in seconds) property**  
-Change the property value for the the time between each trigger (in seconds).
-
-**The name of the timer to repeat property**  
-Change the property value for the the name of the timer to repeat.
-
 ### Behavior conditions
-
-**An internal counter property**  
-Compare the property value for the an internal counter.
-
-**How many times should the timer trigger? -1 for forever. property**  
-Compare the property value for the how many times should the timer trigger? -1 for forever..
-
-**The time between each trigger (in seconds) property**  
-Compare the property value for the the time between each trigger (in seconds).
-
-**The name of the timer to repeat property**  
-Compare the property value for the the name of the timer to repeat.
 
 **Repeat every X seconds**  
 Triggers every X seconds, where X is defined in the behavior properties.
 
-### Behavior expressions
+_No expressions for this behavior._
 
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.RepeatTimer::PropertyCounter()` | Return the property value for the an internal counter. ||
-| `Object.RepeatTimer::PropertyLimit()` | Return the property value for the how many times should the timer trigger? -1 for forever.. ||
-| `Object.RepeatTimer::PropertyTimerLength()` | Return the property value for the the time between each trigger (in seconds). ||
-| `Object.RepeatTimer::PropertyTimerName()` | Return the property value for the the name of the timer to repeat. ||
 
 ---
 

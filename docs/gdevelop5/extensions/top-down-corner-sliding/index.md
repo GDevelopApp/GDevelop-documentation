@@ -17,11 +17,6 @@ It can be used for:
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
-## Actions
-
-**Define JavaScript classes for top-down**  
-Define JavaScript classes for top-down.
-
 
 
 ## Top-down corner slider 
@@ -35,21 +30,8 @@ _No expressions for this behavior._
 
 Flag objects as obstacles for top-down characters. 
 
-### Behavior actions
+_No expressions for this behavior._
 
-**Sliding corner size property**  
-Change the property value for the sliding corner size.
-
-### Behavior conditions
-
-**Sliding corner size property**  
-Compare the property value for the sliding corner size.
-
-### Behavior expressions
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.TopDownCornerSliderObstacle::PropertySlidingCornerSize()` | Return the property value for the sliding corner size. ||
 
 ---
 

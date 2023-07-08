@@ -22,12 +22,6 @@ Display Crazy Game Ad.
 **Display CrazyGames Happy Time**  
 Display CrazyGames Happy Time.
 
-**Intialize SDK**  
-Intialize SDK.
-
-**Load SDK**  
-Load SDK.
-
 **Scan for adblockers**  
 Scan for adblockers.
 

@@ -29,41 +29,15 @@ Add clocks to your game with ease including
 
 Modify a text object to display the date. 
 
-### Behavior actions
+_No expressions for this behavior._
 
-**Display date in the format of: property**  
-Change the property value for the display date in the format of:.
-
-### Behavior conditions
-
-**Display date in the format of: property**  
-Compare the property value for the display date in the format of:.
-
-### Behavior expressions
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.Date::PropertyProperty()` | Return the property value for the display date in the format of:. ||
 
 ## Time 
 
 Modify a text object to display the time. 
 
-### Behavior actions
+_No expressions for this behavior._
 
-**Display time in the format of: property**  
-Change the property value for the display time in the format of:.
-
-### Behavior conditions
-
-**Display time in the format of: property**  
-Compare the property value for the display time in the format of:.
-
-### Behavior expressions
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.Time::PropertyProperty()` | Return the property value for the display time in the format of:. ||
 
 ## Year 
 

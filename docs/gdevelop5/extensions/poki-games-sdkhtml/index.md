@@ -27,9 +27,6 @@ Inform Poki gameplay started.
 **Gameplay stopped**  
 Inform Poki gameplay stopped.
 
-**Load SDK**  
-Load Poki SDK.
-
 **Commercial break**  
 Request commercial break.
 

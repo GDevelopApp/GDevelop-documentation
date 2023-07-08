@@ -62,8 +62,6 @@ Check if the camera is scrolling up.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `EdgeScrollCamera::AbsoluteScrollSpeed(number)` | Return the absolute scroll speed according to the mouse distance from the border. ||
-| | _number_ | Border distance |
 | `EdgeScrollCamera::SpeedX()` | Return the speed the camera is currently scrolling in horizontal direction (in pixels per second). ||
 | `EdgeScrollCamera::SpeedY()` | Return the speed the camera is currently scrolling in vertical direction (in pixels per second). ||
 

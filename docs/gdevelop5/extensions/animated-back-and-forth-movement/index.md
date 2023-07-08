@@ -18,35 +18,8 @@ Make the object go on the left, then when some distance is reached, flip and go 
 
 Make the object go on the left, then when some distance is reached, flip and go back to the right. Make sure that your object has two animations called "GoLeft" and "TurnLeft". 
 
-### Behavior actions
+_No expressions for this behavior._
 
-**Distance traveled on X axis, in pixels property**  
-Change the property value for the distance traveled on X axis, in pixels.
-
-**InitialX property**  
-Change the property value for the initialX.
-
-**Speed on X axis, in pixels per second property**  
-Change the property value for the speed on X axis, in pixels per second.
-
-### Behavior conditions
-
-**Distance traveled on X axis, in pixels property**  
-Compare the property value for the distance traveled on X axis, in pixels.
-
-**InitialX property**  
-Compare the property value for the initialX.
-
-**Speed on X axis, in pixels per second property**  
-Compare the property value for the speed on X axis, in pixels per second.
-
-### Behavior expressions
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.AnimatedBackAndForthMirroredMovement::PropertyDistanceX()` | Return the property value for the distance traveled on X axis, in pixels. ||
-| `Object.AnimatedBackAndForthMirroredMovement::PropertyInitialX()` | Return the property value for the initialX. ||
-| `Object.AnimatedBackAndForthMirroredMovement::PropertySpeedX()` | Return the property value for the speed on X axis, in pixels per second. ||
 
 ---
 

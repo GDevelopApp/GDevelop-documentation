@@ -30,14 +30,8 @@ An example shows how to procedurally generate dungeons or caves ([open the proje
 
 ## Actions
 
-**Set size of hallway objects**  
-Set the size of hallway objects to be placed on the path created by the pathfinding object.
-
 **Calculate the number of grid neighbors around an object**  
 Calculate the number of grid neighbors around an object.  Use "NeighborCount(Object)" expression to retrieve this value.
-
-**Fill world with terrain**  
-Fill world with terrain
 
 **Generate a dungeon cave**  
 Generate a dungeon cave using a random walk algorithm.  When the walker touches an edge of the map, it is moved back to the center of map.

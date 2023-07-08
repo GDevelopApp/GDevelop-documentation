@@ -1,7 +1,7 @@
 # Make it rain
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Weather/Weather_forecast_umbrella_weather_rain_water_drop.svg" class="extension-icon"></img>
-Makes an object rain from a selected direction.
+Make an object rain from a selected direction or a selected object.
 
 **Authors and contributors** to this community extension: [VegeTato](https://gd.games/VegeTato).
 
@@ -17,7 +17,7 @@ Makes an object rain from a selected direction.
 - User can set the rain intensity.
 - User can set the rain angle.
 - User can set the rain animation after the collision.
-- User have the option (On/Off) to delete the rain objects when its out of screen.
+- User have the option (On/Off) to delete the rain objects when it's out of screen.
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
@@ -30,20 +30,23 @@ Make object rain from a selected direction.
 **Make it rain from object**  
 Make object rain from another object.
 
-**Rain collides animation**  
+**Pause raining object (rain)**  
+Pause raning object (rain).
+
+**Pause raining from object (cloud)**  
+Pause raning from object (cloud).
+
+**Rain collision animation**  
 Change rain animation when it collides with other object.
 
-**Stop raining object**  
-Stop raning object.
+**Resume raining object (rain)**  
+Resume raining object.
 
-**Start raining object**  
-Start raining object.
-
-**Start raining from object**  
-Start raining object from object.
+**Resume raining from object (cloud)**  
+Resume raining object from object.
 
 **Stop moving rain**  
-Could be used with interaction condition.
+Could be used with collision condition.
 
 
 

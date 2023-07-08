@@ -79,61 +79,11 @@ Set horizontal distance.
 **Set horizontal speed**  
 Set horizontal speed.
 
-**Center of movement, X position property**  
-Change the property value for the center of movement, X position.
-
-**Center of movement, Y position property**  
-Change the property value for the center of movement, Y position.
-
-**Horizontal distance: amplitude of the movement on X axis (0 to deactivate) property**  
-Change the property value for the horizontal distance: amplitude of the movement on X axis (0 to deactivate).
-
-**Horizontal speed, in degrees per second property**  
-Change the property value for the horizontal speed, in degrees per second.
-
-**Counter used to change X position property**  
-Change the property value for the counter used to change X position.
-
-**Counter used to change Y position property**  
-Change the property value for the counter used to change Y position.
-
-**Vertical distance: amplitude of the movement on Y axis (0 to deactivate) property**  
-Change the property value for the vertical distance: amplitude of the movement on Y axis (0 to deactivate).
-
-**Vertical speed, in degrees per second property**  
-Change the property value for the vertical speed, in degrees per second.
-
 **Set vertical distance**  
 Set vertical distance.
 
 **Set vertical speed**  
 Set vertical speed.
-
-### Behavior conditions
-
-**Center of movement, X position property**  
-Compare the property value for the center of movement, X position.
-
-**Center of movement, Y position property**  
-Compare the property value for the center of movement, Y position.
-
-**Horizontal distance: amplitude of the movement on X axis (0 to deactivate) property**  
-Compare the property value for the horizontal distance: amplitude of the movement on X axis (0 to deactivate).
-
-**Horizontal speed, in degrees per second property**  
-Compare the property value for the horizontal speed, in degrees per second.
-
-**Counter used to change X position property**  
-Compare the property value for the counter used to change X position.
-
-**Counter used to change Y position property**  
-Compare the property value for the counter used to change Y position.
-
-**Vertical distance: amplitude of the movement on Y axis (0 to deactivate) property**  
-Compare the property value for the vertical distance: amplitude of the movement on Y axis (0 to deactivate).
-
-**Vertical speed, in degrees per second property**  
-Compare the property value for the vertical speed, in degrees per second.
 
 ### Behavior expressions
 
@@ -143,14 +93,6 @@ Compare the property value for the vertical speed, in degrees per second.
 | `Object.SineMovement::CenterY()` | Center of movement, Y position. ||
 | `Object.SineMovement::HorizontalDistance()` | Horizontal distance. ||
 | `Object.SineMovement::HorizontalSpeed()` | Horizontal speed. ||
-| `Object.SineMovement::PropertyCenterPointX()` | Return the property value for the center of movement, X position. ||
-| `Object.SineMovement::PropertyCenterPointY()` | Return the property value for the center of movement, Y position. ||
-| `Object.SineMovement::PropertyHorizontalDistance()` | Return the property value for the horizontal distance: amplitude of the movement on X axis (0 to deactivate). ||
-| `Object.SineMovement::PropertyHorizontalSpeed()` | Return the property value for the horizontal speed, in degrees per second. ||
-| `Object.SineMovement::PropertySineProgressX()` | Return the property value for the counter used to change X position. ||
-| `Object.SineMovement::PropertySineProgressY()` | Return the property value for the counter used to change Y position. ||
-| `Object.SineMovement::PropertyVerticalDistance()` | Return the property value for the vertical distance: amplitude of the movement on Y axis (0 to deactivate). ||
-| `Object.SineMovement::PropertyVerticalSpeed()` | Return the property value for the vertical speed, in degrees per second. ||
 | `Object.SineMovement::SineProgressX()` | Counter used to change the X position of the object. ||
 | `Object.SineMovement::SineProgressY()` | Counter used to change the Y position of the object. ||
 | `Object.SineMovement::VerticalDistance()` | Vertical distance. ||

@@ -87,9 +87,6 @@ Check if the number is even (divisible by 2).  To check for odd numbers, invert 
 | | _number_ | Y value of the second point |
 | `ExtendedMath::Sqrt1_2()` | Returns square root of 1/2. ||
 | `ExtendedMath::Sqrt2()` | Returns square root of 2. ||
-| `ExtendedMath::ToFixed(number, number)` | Formats a number to use the specified number of decimal places (Deprecated). ||
-| | _number_ | The value to be rounded |
-| | _number_ | Number of decimal places |
 | `ExtendedMath::ToFixedString(number, number)` | Formats a number to a string with the specified number of decimal places. ||
 | | _number_ | The value to be rounded |
 | | _number_ | Number of decimal places |

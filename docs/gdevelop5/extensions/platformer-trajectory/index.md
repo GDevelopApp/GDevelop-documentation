@@ -30,26 +30,6 @@ Draw the jump trajectories from no sustain to full sustain.
 **Jump height**  
 Change the jump speed to reach a given height.
 
-**Duration property**  
-Change the property value for the duration.
-
-**Jump height property**  
-Change the property value for the jump height.
-
-**Time property**  
-Change the property value for the time.
-
-### Behavior conditions
-
-**Duration property**  
-Compare the property value for the duration.
-
-**Jump height property**  
-Compare the property value for the jump height.
-
-**Time property**  
-Compare the property value for the time.
-
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -69,9 +49,6 @@ Compare the property value for the time.
 | | _number_ | Jump sustaining duration |
 | `Object.PlatformerEvaluator::MovingX(number)` | The X displacement at a given time from now if accelerating (always positive). ||
 | | _number_ | Time |
-| `Object.PlatformerEvaluator::PropertyDuration()` | Return the property value for the duration. ||
-| `Object.PlatformerEvaluator::PropertyJumpHeight()` | Return the property value for the jump height. ||
-| `Object.PlatformerEvaluator::PropertyTime()` | Return the property value for the time. ||
 | `Object.PlatformerEvaluator::StopXDistance(number)` | The X displacement before the character stops (always positive). ||
 | | _number_ | Time |
 | `Object.PlatformerEvaluator::StoppingX(number)` | The X displacement at a given time from now if decelerating (always positive). ||

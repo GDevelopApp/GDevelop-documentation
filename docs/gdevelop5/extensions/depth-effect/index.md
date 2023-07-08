@@ -42,32 +42,6 @@ Set Y position of the horizon, where objects are infinitely small (Default: 0).
 **Set max scale**  
 Set max scale when the object is at the bottom of the screen (Default: 2).
 
-**Y position that represents a horizon where objects appear infinitely small  (Default: 0) property**  
-Change the property value for the y position that represents a horizon where objects appear infinitely small  (Default: 0).
-
-**Max scale when the object is at the bottom of the screen (Default: 1) property**  
-Change the property value for the max scale when the object is at the bottom of the screen (Default: 1).
-
-**Percent away from the horizon property**  
-Change the property value for the percent away from the horizon.
-
-**Exponential rate of change (Default: 2) property**  
-Change the property value for the exponential rate of change (Default: 2).
-
-### Behavior conditions
-
-**Y position that represents a horizon where objects appear infinitely small  (Default: 0) property**  
-Compare the property value for the y position that represents a horizon where objects appear infinitely small  (Default: 0).
-
-**Max scale when the object is at the bottom of the screen (Default: 1) property**  
-Compare the property value for the max scale when the object is at the bottom of the screen (Default: 1).
-
-**Percent away from the horizon property**  
-Compare the property value for the percent away from the horizon.
-
-**Exponential rate of change (Default: 2) property**  
-Compare the property value for the exponential rate of change (Default: 2).
-
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -76,10 +50,6 @@ Compare the property value for the exponential rate of change (Default: 2).
 | `Object.DepthEffect_Sprite::HorizonY()` | Y value of horizon. ||
 | `Object.DepthEffect_Sprite::MaxScale()` | Max scale when the object is at the bottom of the screen. ||
 | `Object.DepthEffect_Sprite::PercentAwayFromHorizon()` | Percent away from the horizon.  This is "0" at the horizon, and "1" at the bottom of the screen. ||
-| `Object.DepthEffect_Sprite::PropertyHorizonY()` | Return the property value for the y position that represents a horizon where objects appear infinitely small  (Default: 0). ||
-| `Object.DepthEffect_Sprite::PropertyMaxScale()` | Return the property value for the max scale when the object is at the bottom of the screen (Default: 1). ||
-| `Object.DepthEffect_Sprite::PropertyPercentAwayFromHorizon()` | Return the property value for the percent away from the horizon. ||
-| `Object.DepthEffect_Sprite::PropertyPowerY()` | Return the property value for the exponential rate of change (Default: 2). ||
 
 ## Depth effect 
 
@@ -96,32 +66,6 @@ Set Y position of horizon, where objects are infinitely small (Default: 0).
 **Set max scale**  
 Set max scale when the object is at the bottom of the screen (Default: 2).
 
-**Y position that represents a horizon where objects appear infinitely small  (Default: 0) property**  
-Change the property value for the y position that represents a horizon where objects appear infinitely small  (Default: 0).
-
-**Max scale when the object is on the bottom of the screen (Default: 1) property**  
-Change the property value for the max scale when the object is on the bottom of the screen (Default: 1).
-
-**Percent away from horizon property**  
-Change the property value for the percent away from horizon.
-
-**Exponential rate of change (Default: 2) property**  
-Change the property value for the exponential rate of change (Default: 2).
-
-### Behavior conditions
-
-**Y position that represents a horizon where objects appear infinitely small  (Default: 0) property**  
-Compare the property value for the y position that represents a horizon where objects appear infinitely small  (Default: 0).
-
-**Max scale when the object is on the bottom of the screen (Default: 1) property**  
-Compare the property value for the max scale when the object is on the bottom of the screen (Default: 1).
-
-**Percent away from horizon property**  
-Compare the property value for the percent away from horizon.
-
-**Exponential rate of change (Default: 2) property**  
-Compare the property value for the exponential rate of change (Default: 2).
-
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -130,10 +74,6 @@ Compare the property value for the exponential rate of change (Default: 2).
 | `Object.DepthEffect_Text::HorizonY()` | Y value of horizon. ||
 | `Object.DepthEffect_Text::MaxScale()` | Max scale when the object is at the bottom of the screen. ||
 | `Object.DepthEffect_Text::PercentAwayFromHorizon()` | Percent away from horizon.  This is 0 at the horizon, and 1 at the bottom of the screen. ||
-| `Object.DepthEffect_Text::PropertyHorizonY()` | Return the property value for the y position that represents a horizon where objects appear infinitely small  (Default: 0). ||
-| `Object.DepthEffect_Text::PropertyMaxScale()` | Return the property value for the max scale when the object is on the bottom of the screen (Default: 1). ||
-| `Object.DepthEffect_Text::PropertyPercentAwayFromHorizon()` | Return the property value for the percent away from horizon. ||
-| `Object.DepthEffect_Text::PropertyPowerY()` | Return the property value for the exponential rate of change (Default: 2). ||
 
 ---
 

@@ -223,8 +223,6 @@ This condition cannot be tested correctly if the visibility of the 3D object is 
 | | _string_ | Item |
 | `WithThreeJS::CameraAngle(string)` | 3D Camera Angle for GDevelop.Returns the angle of an individual axis.Note that combining the resulting XYZ values may not reproduce the original rotation. ||
 | | _string_ | Axis |
-| `WithThreeJS::CameraAngle_BACKUP(string)` | This expression has the problem that the Z Axis returns values for reverse rotation. ||
-| | _string_ | Axis |
 | `WithThreeJS::CameraDirection(string)` | Normalized direction vector of 3D camera.(3D Camera is shooting in the negative Z axis direction) ||
 | | _string_ | Axis |
 | `WithThreeJS::CameraFOV()` | 3D Camera FOV ||
@@ -293,89 +291,11 @@ Modify the scale of the specified object.
 **Opacity**  
 Change the opacity of an object, between 0 (fully transparent) to 255 (opaque).
 
-**Alpha Channel Test property**  
-Change the property value for the alpha Channel Test.
-
-**Anti-Aliasing property**  
-Update the property value for "anti-Aliasing".
-
-**BackOffsetV property**  
-Change the property value for the backOffsetV.
-
-**Blend Mode property**  
-Change the property value for the blend Mode.
-
-**BottomOffsetV property**  
-Change the property value for the bottomOffsetV.
-
-**Depth property**  
-Change the property value for the depth.
-
-**FirstFrame property**  
-Update the property value for "firstFrame".
-
-**FrontOffsetV property**  
-Change the property value for the frontOffsetV.
-
-**Hide 2D Object property**  
-Update the property value for "hide 2D Object".
-
-**Id property**  
-Change the property value for the id.
-
-**LeftOffsetV property**  
-Change the property value for the leftOffsetV.
-
-**Projection Scale property**  
-Change the property value for the projection Scale.
-
-**RightOffsetV property**  
-Change the property value for the rightOffsetV.
-
-**TextureIdBack property**  
-Change the property value for the textureIdBack.
-
-**TextureIdBottom property**  
-Change the property value for the textureIdBottom.
-
-**TextureIdFront property**  
-Change the property value for the textureIdFront.
-
-**TextureIdLeft property**  
-Change the property value for the textureIdLeft.
-
-**TextureIdRight property**  
-Change the property value for the textureIdRight.
-
-**TextureIdTop property**  
-Change the property value for the textureIdTop.
-
-**TopOffsetV property**  
-Change the property value for the topOffsetV.
-
-**View Mode property**  
-Change the property value for the view Mode.
-
-**Center of rotation**  
-Change the center of rotation of an object relatively to the object origin.
-
 **Scale on X axis**  
 Change the width's scale of an object.
 
 **Scale on Y axis**  
 Change the height's scale of an object.
-
-**Toggle Anti-Aliasing property**  
-Toggle the property value for anti-Aliasing.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle FirstFrame property**  
-Toggle the property value for firstFrame.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Hide 2D Object property**  
-Toggle the property value for hide 2D Object.  
-If it was true, it will become false, and if it was false it will become true.
 
 **Width**  
 Change the width of an object.
@@ -391,69 +311,6 @@ Check if the object is vertically flipped
 **Opacity**  
 Compare the opacity of an object, between 0 (fully transparent) to 255 (opaque).
 
-**Alpha Channel Test property**  
-Compare the property value for the alpha Channel Test.
-
-**Anti-Aliasing property**  
-Check the property value for anti-Aliasing.
-
-**BackOffsetV property**  
-Compare the property value for the backOffsetV.
-
-**Blend Mode property**  
-Compare the property value for the blend Mode.
-
-**BottomOffsetV property**  
-Compare the property value for the bottomOffsetV.
-
-**Depth property**  
-Compare the property value for the depth.
-
-**FirstFrame property**  
-Check the property value for firstFrame.
-
-**FrontOffsetV property**  
-Compare the property value for the frontOffsetV.
-
-**Hide 2D Object property**  
-Check the property value for hide 2D Object.
-
-**Id property**  
-Compare the property value for the id.
-
-**LeftOffsetV property**  
-Compare the property value for the leftOffsetV.
-
-**Projection Scale property**  
-Compare the property value for the projection Scale.
-
-**RightOffsetV property**  
-Compare the property value for the rightOffsetV.
-
-**TextureIdBack property**  
-Compare the property value for the textureIdBack.
-
-**TextureIdBottom property**  
-Compare the property value for the textureIdBottom.
-
-**TextureIdFront property**  
-Compare the property value for the textureIdFront.
-
-**TextureIdLeft property**  
-Compare the property value for the textureIdLeft.
-
-**TextureIdRight property**  
-Compare the property value for the textureIdRight.
-
-**TextureIdTop property**  
-Compare the property value for the textureIdTop.
-
-**TopOffsetV property**  
-Compare the property value for the topOffsetV.
-
-**View Mode property**  
-Compare the property value for the view Mode.
-
 **Scale on X axis**  
 Compare the width's scale of an object.
 
@@ -468,24 +325,6 @@ Compare the height's scale of an object.
 | `Object.Id()` | 3D Object ID ||
 | `Object.Opacity()` | Return the opacity of an object, between 0 (fully transparent) to 255 (opaque). ||
 | `Object.ProjectionScale()` | Projection Scale ||
-| `Object.PropertyAlphaTest()` | Return the property value for the alpha Channel Test. ||
-| `Object.PropertyBackOffsetV()` | Return the property value for the backOffsetV. ||
-| `Object.PropertyBlend()` | Return the property value for the blend Mode. ||
-| `Object.PropertyBottomOffsetV()` | Return the property value for the bottomOffsetV. ||
-| `Object.PropertyDepth()` | Return the property value for the depth. ||
-| `Object.PropertyFrontOffsetV()` | Return the property value for the frontOffsetV. ||
-| `Object.PropertyId()` | Return the property value for the id. ||
-| `Object.PropertyLeftOffsetV()` | Return the property value for the leftOffsetV. ||
-| `Object.PropertyProjectionScale()` | Return the property value for the projection Scale. ||
-| `Object.PropertyRightOffsetV()` | Return the property value for the rightOffsetV. ||
-| `Object.PropertyTextureIdBack()` | Return the property value for the textureIdBack. ||
-| `Object.PropertyTextureIdBottom()` | Return the property value for the textureIdBottom. ||
-| `Object.PropertyTextureIdFront()` | Return the property value for the textureIdFront. ||
-| `Object.PropertyTextureIdLeft()` | Return the property value for the textureIdLeft. ||
-| `Object.PropertyTextureIdRight()` | Return the property value for the textureIdRight. ||
-| `Object.PropertyTextureIdTop()` | Return the property value for the textureIdTop. ||
-| `Object.PropertyTopOffsetV()` | Return the property value for the topOffsetV. ||
-| `Object.PropertyViewMode()` | Return the property value for the view Mode. ||
 | `Object.ScaleX()` | Return the width's scale of an object. ||
 | `Object.ScaleY()` | Return the height's scale of an object. ||
 
@@ -493,267 +332,20 @@ Compare the height's scale of an object.
 
 Create 3D Board (Plane) from Sprite object. Moving that Sprite will also move the 3D Object. 
 
-### Behavior actions
-
-**Set Current 3D Texture ID**  
-Set Current 3D Texture ID
-
-**Set 3D Object ID**  
-Set 3D Object ID
-
-**Alpha Channel Test property**  
-Change the property value for the alpha Channel Test.
-
-**Axis linked to 2D Object Angle property**  
-Change the property value for the axis linked to 2D Object Angle.
-
-**Anti-Aliasing property**  
-Update the property value for "anti-Aliasing".
-
-**CurrentTextureId property**  
-Change the property value for the currentTextureId.
-
-**Depth for Bounding Box Collision property**  
-Change the property value for the depth for Bounding Box Collision.
-
-**FirstFrame property**  
-Update the property value for "firstFrame".
-
-**Hide 2D Object property**  
-Update the property value for "hide 2D Object".
-
-**Id property**  
-Change the property value for the id.
-
-**Orientation property**  
-Change the property value for the orientation.
-
-**Projection Scale property**  
-Change the property value for the projection Scale.
-
-**View Mode property**  
-Change the property value for the view Mode.
-
-**Toggle Anti-Aliasing property**  
-Toggle the property value for anti-Aliasing.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle FirstFrame property**  
-Toggle the property value for firstFrame.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Hide 2D Object property**  
-Toggle the property value for hide 2D Object.  
-If it was true, it will become false, and if it was false it will become true.
-
-### Behavior conditions
-
-**Is Anti-Aliasing**  
-Is Anti-Aliasing
-
-**Alpha Channel Test property**  
-Compare the property value for the alpha Channel Test.
-
-**Axis linked to 2D Object Angle property**  
-Compare the property value for the axis linked to 2D Object Angle.
-
-**Anti-Aliasing property**  
-Check the property value for anti-Aliasing.
-
-**CurrentTextureId property**  
-Compare the property value for the currentTextureId.
-
-**Depth for Bounding Box Collision property**  
-Compare the property value for the depth for Bounding Box Collision.
-
-**FirstFrame property**  
-Check the property value for firstFrame.
-
-**Hide 2D Object property**  
-Check the property value for hide 2D Object.
-
-**Id property**  
-Compare the property value for the id.
-
-**Orientation property**  
-Compare the property value for the orientation.
-
-**Projection Scale property**  
-Compare the property value for the projection Scale.
-
-**View Mode property**  
-Compare the property value for the view Mode.
-
 ### Behavior expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.BoardProjection::AlphaTest()` | Alpha Channel Test ||
 | `Object.BoardProjection::AngleAxis()` | Axis linked to 2D Object Angle ||
-| `Object.BoardProjection::CurrentTextureId()` | Current 3D Texture ID ||
-| `Object.BoardProjection::Depth()` | Depth for Bounding Box Collision ||
 | `Object.BoardProjection::Id()` | 3D Object ID ||
 | `Object.BoardProjection::Orientation()` | Orientation ||
 | `Object.BoardProjection::ProjectionScale()` | Projection Scale ||
-| `Object.BoardProjection::PropertyAlphaTest()` | Return the property value for the alpha Channel Test. ||
-| `Object.BoardProjection::PropertyAngleAxis()` | Return the property value for the axis linked to 2D Object Angle. ||
-| `Object.BoardProjection::PropertyCurrentTextureId()` | Return the property value for the currentTextureId. ||
-| `Object.BoardProjection::PropertyDepth()` | Return the property value for the depth for Bounding Box Collision. ||
-| `Object.BoardProjection::PropertyId()` | Return the property value for the id. ||
-| `Object.BoardProjection::PropertyOrientation()` | Return the property value for the orientation. ||
-| `Object.BoardProjection::PropertyProjectionScale()` | Return the property value for the projection Scale. ||
-| `Object.BoardProjection::PropertyViewMode()` | Return the property value for the view Mode. ||
 | `Object.BoardProjection::ViewMode()` | ViewMode ||
 
 ## 3D Box Projection from Tiled Sprite 
 
 Create 3D Box from Tiled Sprite object. Moving that Tiled Sprite will also move the 3D Object. 
-
-### Behavior actions
-
-**Set FrontRear Offset V**  
-Set FrontRear Offset V
-
-**Set FrontRear 3D Texture ID**  
-Set FrontRear 3D Texture ID
-
-**Set 3D Object ID**  
-Set 3D Object ID
-
-**Set Is Cube**  
-Set Is Cube
-
-**Set LeftRight Offset V**  
-Set LeftRight Offset V
-
-**Set LeftRight 3D Texture ID**  
-Set LeftRight 3D Texture ID
-
-**Alpha Channel Test property**  
-Change the property value for the alpha Channel Test.
-
-**Anti-Aliasing property**  
-Update the property value for "anti-Aliasing".
-
-**Blend Mode property**  
-Change the property value for the blend Mode.
-
-**Depth property**  
-Change the property value for the depth.
-
-**FROffsetV property**  
-Change the property value for the fROffsetV.
-
-**FRTextureId property**  
-Change the property value for the fRTextureId.
-
-**FirstFrame property**  
-Update the property value for "firstFrame".
-
-**Hide 2D Object property**  
-Update the property value for "hide 2D Object".
-
-**Id property**  
-Change the property value for the id.
-
-**IsCube property**  
-Update the property value for "isCube".
-
-**LROffsetV property**  
-Change the property value for the lROffsetV.
-
-**LRTextureId property**  
-Change the property value for the lRTextureId.
-
-**Projection Scale property**  
-Change the property value for the projection Scale.
-
-**TBOffsetV property**  
-Change the property value for the tBOffsetV.
-
-**TBTextureId property**  
-Change the property value for the tBTextureId.
-
-**View Mode property**  
-Change the property value for the view Mode.
-
-**Set TopBottom Offset V**  
-Set TopBottom Offset V
-
-**Set TopBottom 3D Texture ID**  
-Set TopBottom 3D Texture ID
-
-**Toggle Anti-Aliasing property**  
-Toggle the property value for anti-Aliasing.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle FirstFrame property**  
-Toggle the property value for firstFrame.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Hide 2D Object property**  
-Toggle the property value for hide 2D Object.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle IsCube property**  
-Toggle the property value for isCube.  
-If it was true, it will become false, and if it was false it will become true.
-
-### Behavior conditions
-
-**Is Anti-Aliasing**  
-Is Anti-Aliasing
-
-**Is Cube**  
-Is Cube
-
-**Alpha Channel Test property**  
-Compare the property value for the alpha Channel Test.
-
-**Anti-Aliasing property**  
-Check the property value for anti-Aliasing.
-
-**Blend Mode property**  
-Compare the property value for the blend Mode.
-
-**Depth property**  
-Compare the property value for the depth.
-
-**FROffsetV property**  
-Compare the property value for the fROffsetV.
-
-**FRTextureId property**  
-Compare the property value for the fRTextureId.
-
-**FirstFrame property**  
-Check the property value for firstFrame.
-
-**Hide 2D Object property**  
-Check the property value for hide 2D Object.
-
-**Id property**  
-Compare the property value for the id.
-
-**IsCube property**  
-Check the property value for isCube.
-
-**LROffsetV property**  
-Compare the property value for the lROffsetV.
-
-**LRTextureId property**  
-Compare the property value for the lRTextureId.
-
-**Projection Scale property**  
-Compare the property value for the projection Scale.
-
-**TBOffsetV property**  
-Compare the property value for the tBOffsetV.
-
-**TBTextureId property**  
-Compare the property value for the tBTextureId.
-
-**View Mode property**  
-Compare the property value for the view Mode.
 
 ### Behavior expressions
 
@@ -762,193 +354,24 @@ Compare the property value for the view Mode.
 | `Object.BoxProjectionFromTiled::AlphaTest()` | Alpha Channel Test ||
 | `Object.BoxProjectionFromTiled::Blend()` | Blend Mode ||
 | `Object.BoxProjectionFromTiled::Depth()` | Depth ||
-| `Object.BoxProjectionFromTiled::FROffsetV()` | FrontRear Offset V ||
-| `Object.BoxProjectionFromTiled::FRTextureId()` | FrontRear 3D Texture ID ||
 | `Object.BoxProjectionFromTiled::Id()` | 3D Object ID ||
-| `Object.BoxProjectionFromTiled::LROffsetV()` | LeftRight Offset V ||
-| `Object.BoxProjectionFromTiled::LRTextureId()` | LeftRight 3D Texture ID ||
 | `Object.BoxProjectionFromTiled::ProjectionScale()` | Projection Scale ||
-| `Object.BoxProjectionFromTiled::PropertyAlphaTest()` | Return the property value for the alpha Channel Test. ||
-| `Object.BoxProjectionFromTiled::PropertyBlend()` | Return the property value for the blend Mode. ||
-| `Object.BoxProjectionFromTiled::PropertyDepth()` | Return the property value for the depth. ||
-| `Object.BoxProjectionFromTiled::PropertyFROffsetV()` | Return the property value for the fROffsetV. ||
-| `Object.BoxProjectionFromTiled::PropertyFRTextureId()` | Return the property value for the fRTextureId. ||
-| `Object.BoxProjectionFromTiled::PropertyId()` | Return the property value for the id. ||
-| `Object.BoxProjectionFromTiled::PropertyLROffsetV()` | Return the property value for the lROffsetV. ||
-| `Object.BoxProjectionFromTiled::PropertyLRTextureId()` | Return the property value for the lRTextureId. ||
-| `Object.BoxProjectionFromTiled::PropertyProjectionScale()` | Return the property value for the projection Scale. ||
-| `Object.BoxProjectionFromTiled::PropertyTBOffsetV()` | Return the property value for the tBOffsetV. ||
-| `Object.BoxProjectionFromTiled::PropertyTBTextureId()` | Return the property value for the tBTextureId. ||
-| `Object.BoxProjectionFromTiled::PropertyViewMode()` | Return the property value for the view Mode. ||
-| `Object.BoxProjectionFromTiled::TBOffsetV()` | TopBottom Offset V ||
-| `Object.BoxProjectionFromTiled::TBTextureId()` | TopBottom 3D Texture ID ||
 | `Object.BoxProjectionFromTiled::ViewMode()` | ViewMode ||
 
 ## Linked 3D Camera 
 
 Link a Sprite object and  a 3D Camera. 
 
-### Behavior actions
-
-**Hide 2D Object property**  
-Update the property value for "hide 2D Object".
-
-**Link Angle property**  
-Update the property value for "link Angle".
-
-**Projection Scale property**  
-Change the property value for the projection Scale.
-
-**View Mode property**  
-Change the property value for the view Mode.
-
-**Toggle Hide 2D Object property**  
-Toggle the property value for hide 2D Object.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Link Angle property**  
-Toggle the property value for link Angle.  
-If it was true, it will become false, and if it was false it will become true.
-
-### Behavior conditions
-
-**Is Hide**  
-Is Hide
-
-**Is LinkAngle**  
-Is LinkAngle
-
-**Hide 2D Object property**  
-Check the property value for hide 2D Object.
-
-**Link Angle property**  
-Check the property value for link Angle.
-
-**Projection Scale property**  
-Compare the property value for the projection Scale.
-
-**View Mode property**  
-Compare the property value for the view Mode.
-
 ### Behavior expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.LinkedCamera::ProjectionScale()` | Projection Scale ||
-| `Object.LinkedCamera::PropertyProjectionScale()` | Return the property value for the projection Scale. ||
-| `Object.LinkedCamera::PropertyViewMode()` | Return the property value for the view Mode. ||
 | `Object.LinkedCamera::ViewMode()` | ViewMode ||
 
 ## 3D Plane Projection from Tiled Sprite 
 
 Create 3D Plane from Tiled Sprite object. Moving that Tiled Sprite will also move the 3D Object. 
-
-### Behavior actions
-
-**Set 3D Object ID**  
-Set 3D Object ID
-
-**Set Offset V**  
-Set Offset V
-
-**Alpha Channel Test property**  
-Change the property value for the alpha Channel Test.
-
-**Anti-Aliasing property**  
-Update the property value for "anti-Aliasing".
-
-**Blend Mode property**  
-Change the property value for the blend Mode.
-
-**Depth for Bounding Box Collision property**  
-Change the property value for the depth for Bounding Box Collision.
-
-**FirstFrame property**  
-Update the property value for "firstFrame".
-
-**Hide 2D Object property**  
-Update the property value for "hide 2D Object".
-
-**Id property**  
-Change the property value for the id.
-
-**OffsetV property**  
-Change the property value for the offsetV.
-
-**Projection Scale property**  
-Change the property value for the projection Scale.
-
-**Rotate -90 Degrees Around X Axis property**  
-Update the property value for "rotate -90 Degrees Around X Axis".
-
-**TextureId property**  
-Change the property value for the textureId.
-
-**View Mode property**  
-Change the property value for the view Mode.
-
-**Set 3D Texture ID**  
-Set 3D Texture ID
-
-**Toggle Anti-Aliasing property**  
-Toggle the property value for anti-Aliasing.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle FirstFrame property**  
-Toggle the property value for firstFrame.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Hide 2D Object property**  
-Toggle the property value for hide 2D Object.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Rotate -90 Degrees Around X Axis property**  
-Toggle the property value for rotate -90 Degrees Around X Axis.  
-If it was true, it will become false, and if it was false it will become true.
-
-### Behavior conditions
-
-**Is Anti-Aliasing**  
-Is Anti-Aliasing
-
-**Alpha Channel Test property**  
-Compare the property value for the alpha Channel Test.
-
-**Anti-Aliasing property**  
-Check the property value for anti-Aliasing.
-
-**Blend Mode property**  
-Compare the property value for the blend Mode.
-
-**Depth for Bounding Box Collision property**  
-Compare the property value for the depth for Bounding Box Collision.
-
-**FirstFrame property**  
-Check the property value for firstFrame.
-
-**Hide 2D Object property**  
-Check the property value for hide 2D Object.
-
-**Id property**  
-Compare the property value for the id.
-
-**OffsetV property**  
-Compare the property value for the offsetV.
-
-**Projection Scale property**  
-Compare the property value for the projection Scale.
-
-**Rotate -90 Degrees Around X Axis property**  
-Check the property value for rotate -90 Degrees Around X Axis.
-
-**TextureId property**  
-Compare the property value for the textureId.
-
-**View Mode property**  
-Compare the property value for the view Mode.
-
-**Is Rotate -90 Degrees**  
-Is Rotate -90 Degrees
 
 ### Behavior expressions
 
@@ -956,119 +379,21 @@ Is Rotate -90 Degrees
 |-----|-----|-----|
 | `Object.PlaneProjectionFromTiled::AlphaTest()` | Alpha Channel Test ||
 | `Object.PlaneProjectionFromTiled::Blend()` | Blend Mode ||
-| `Object.PlaneProjectionFromTiled::Depth()` | Depth for Bounding Box Collision ||
 | `Object.PlaneProjectionFromTiled::Id()` | 3D Object ID ||
-| `Object.PlaneProjectionFromTiled::OffsetV()` | Offset V ||
 | `Object.PlaneProjectionFromTiled::ProjectionScale()` | Projection Scale ||
-| `Object.PlaneProjectionFromTiled::PropertyAlphaTest()` | Return the property value for the alpha Channel Test. ||
-| `Object.PlaneProjectionFromTiled::PropertyBlend()` | Return the property value for the blend Mode. ||
-| `Object.PlaneProjectionFromTiled::PropertyDepth()` | Return the property value for the depth for Bounding Box Collision. ||
-| `Object.PlaneProjectionFromTiled::PropertyId()` | Return the property value for the id. ||
-| `Object.PlaneProjectionFromTiled::PropertyOffsetV()` | Return the property value for the offsetV. ||
-| `Object.PlaneProjectionFromTiled::PropertyProjectionScale()` | Return the property value for the projection Scale. ||
-| `Object.PlaneProjectionFromTiled::PropertyTextureId()` | Return the property value for the textureId. ||
-| `Object.PlaneProjectionFromTiled::PropertyViewMode()` | Return the property value for the view Mode. ||
-| `Object.PlaneProjectionFromTiled::TextureId()` | 3D Texture ID ||
 | `Object.PlaneProjectionFromTiled::ViewMode()` | ViewMode ||
 
 ## 3D Sprite Projection 
 
 Create 3D Sprite from Sprite object. Moving that Sprite will also move the 3D Sprite. 
 
-### Behavior actions
-
-**Set Current 3D Texture ID**  
-Set Current 3D Texture ID
-
-**Set 3D Object ID**  
-Set 3D Object ID
-
-**Alpha Channel Test property**  
-Change the property value for the alpha Channel Test.
-
-**Anti-Aliasing property**  
-Update the property value for "anti-Aliasing".
-
-**CurrentTextureId property**  
-Change the property value for the currentTextureId.
-
-**Depth for Bounding Box Collision property**  
-Change the property value for the depth for Bounding Box Collision.
-
-**FirstFrame property**  
-Update the property value for "firstFrame".
-
-**Hide 2D Object property**  
-Update the property value for "hide 2D Object".
-
-**Id property**  
-Change the property value for the id.
-
-**Projection Scale property**  
-Change the property value for the projection Scale.
-
-**View Mode property**  
-Change the property value for the view Mode.
-
-**Toggle Anti-Aliasing property**  
-Toggle the property value for anti-Aliasing.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle FirstFrame property**  
-Toggle the property value for firstFrame.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Hide 2D Object property**  
-Toggle the property value for hide 2D Object.  
-If it was true, it will become false, and if it was false it will become true.
-
-### Behavior conditions
-
-**Is Anti-Aliasing**  
-Is Anti-Aliasing
-
-**Alpha Channel Test property**  
-Compare the property value for the alpha Channel Test.
-
-**Anti-Aliasing property**  
-Check the property value for anti-Aliasing.
-
-**CurrentTextureId property**  
-Compare the property value for the currentTextureId.
-
-**Depth for Bounding Box Collision property**  
-Compare the property value for the depth for Bounding Box Collision.
-
-**FirstFrame property**  
-Check the property value for firstFrame.
-
-**Hide 2D Object property**  
-Check the property value for hide 2D Object.
-
-**Id property**  
-Compare the property value for the id.
-
-**Projection Scale property**  
-Compare the property value for the projection Scale.
-
-**View Mode property**  
-Compare the property value for the view Mode.
-
 ### Behavior expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.SpriteProjection::AlphaTest()` | Alpha Channel Test ||
-| `Object.SpriteProjection::CurrentTextureId()` | Current 3D Texture ID ||
-| `Object.SpriteProjection::Depth()` | Depth for Bounding Box Collision ||
 | `Object.SpriteProjection::Id()` | 3D Object ID ||
 | `Object.SpriteProjection::ProjectionScale()` | Projection Scale ||
-| `Object.SpriteProjection::PropertyAlphaTest()` | Return the property value for the alpha Channel Test. ||
-| `Object.SpriteProjection::PropertyCurrentTextureId()` | Return the property value for the currentTextureId. ||
-| `Object.SpriteProjection::PropertyDepth()` | Return the property value for the depth for Bounding Box Collision. ||
-| `Object.SpriteProjection::PropertyId()` | Return the property value for the id. ||
-| `Object.SpriteProjection::PropertyProjectionScale()` | Return the property value for the projection Scale. ||
-| `Object.SpriteProjection::PropertyViewMode()` | Return the property value for the view Mode. ||
 | `Object.SpriteProjection::ViewMode()` | ViewMode ||
 
 ---

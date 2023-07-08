@@ -21,14 +21,6 @@ It can be helpful for:
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
-## Actions
-
-**Define helper classes**  
-Define helper classes JavaScript code.
-
-**Define scalar field painter library**  
-Define the scalar field painter library JavaScript code.
-
 
 
 ## Marching squares painter 
@@ -55,12 +47,6 @@ Clear the field by setting every values to 0.
 **Draw the contours**  
 Draw the field contours.
 
-**Extend behavior class**  
-Extend behavior class
-
-**Extend object instance prototype**  
-Extend object instance prototype.
-
 **Fill area**  
 Fill an area of the field from a given location until a given hight is reached.
 
@@ -72,9 +58,6 @@ Mask a line to the field.
 
 **Merge a field**  
 Apply a given operation on every value of the field using the value from the other field at the same position.
-
-**Rebuild the field**  
-Rebuild the field with the new dimensions.
 
 **Area bounds**  
 Change the field area bounds.
@@ -91,43 +74,8 @@ Fill outside or inside of the contours.
 **Grid value**  
 Change the field value at a grid point.
 
-**Area bottom bound property**  
-Change the property value for the area bottom bound.
-
-**Area left bound property**  
-Change the property value for the area left bound.
-
-**Area right bound property**  
-Change the property value for the area right bound.
-
-**Area top bound property**  
-Change the property value for the area top bound.
-
-**Cell height property**  
-Change the property value for the cell height.
-
-**Cell width property**  
-Change the property value for the cell width.
-
-**Fill outside property**  
-Update the property value for "fill outside".
-
-**Must only draw what is on the screen property**  
-Update the property value for "must only draw what is on the screen".
-
-**Contour threshold property**  
-Change the property value for the contour threshold.
-
 **Contour threshold**  
 Change the contour threshold.
-
-**Toggle Fill outside property**  
-Toggle the property value for fill outside.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Must only draw what is on the screen property**  
-Toggle the property value for must only draw what is on the screen.  
-If it was true, it will become false, and if it was false it will become true.
 
 **Transform the field**  
 Apply an affine on the field values.
@@ -148,33 +96,6 @@ Check if the contours are filled outside.
 
 **Point is inside**  
 Check if a point is inside the contour.
-
-**Area bottom bound property**  
-Compare the property value for the area bottom bound.
-
-**Area left bound property**  
-Compare the property value for the area left bound.
-
-**Area right bound property**  
-Compare the property value for the area right bound.
-
-**Area top bound property**  
-Compare the property value for the area top bound.
-
-**Cell height property**  
-Compare the property value for the cell height.
-
-**Cell width property**  
-Compare the property value for the cell width.
-
-**Fill outside property**  
-Check the property value for fill outside.
-
-**Must only draw what is on the screen property**  
-Check the property value for must only draw what is on the screen.
-
-**Contour threshold property**  
-Compare the property value for the contour threshold.
 
 ### Behavior expressions
 
@@ -204,13 +125,6 @@ Compare the property value for the contour threshold.
 | `Object.MarchingSquaresBehavior::NormalZ(number, number)` | The normal Z coordinate at a given location. ||
 | | _number_ | X position of the point |
 | | _number_ | Y position of the point |
-| `Object.MarchingSquaresBehavior::PropertyAreaBottomBound()` | Return the property value for the area bottom bound. ||
-| `Object.MarchingSquaresBehavior::PropertyAreaLeftBound()` | Return the property value for the area left bound. ||
-| `Object.MarchingSquaresBehavior::PropertyAreaRightBound()` | Return the property value for the area right bound. ||
-| `Object.MarchingSquaresBehavior::PropertyAreaTopBound()` | Return the property value for the area top bound. ||
-| `Object.MarchingSquaresBehavior::PropertyCellHeight()` | Return the property value for the cell height. ||
-| `Object.MarchingSquaresBehavior::PropertyCellWidth()` | Return the property value for the cell width. ||
-| `Object.MarchingSquaresBehavior::PropertyThreshold()` | Return the property value for the contour threshold. ||
 
 ---
 

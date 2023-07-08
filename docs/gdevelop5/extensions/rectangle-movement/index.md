@@ -34,13 +34,7 @@ Update rectangular movement to follow the border of an object. Run once, or ever
 **Move to the nearest corner of the center object**  
 Move to the nearest corner of the center object.
 
-## Expressions
 
-| Expression | Description |  |
-|-----|-----|-----|
-| `RectangleMovement::DistanceToClosestEdge(object, object)` | Distance from an object to the closest edge of a second object. ||
-| | _object_ | Center object |
-| | _object_ | Moving object |
 
 ## Rectangular movement 
 
@@ -63,45 +57,6 @@ Change the time the object takes to go through a horizontal edge (in seconds).
 **Left bound**  
 Change the left bound of the rectangular movement.
 
-**Clockwise property**  
-Update the property value for "clockwise".
-
-**Easing property**  
-Change the property value for the easing.
-
-**Height property**  
-Change the property value for the height.
-
-**Horizontal edge duration property**  
-Change the property value for the horizontal edge duration.
-
-**Initial position property**  
-Change the property value for the initial position.
-
-**Left property**  
-Change the property value for the left.
-
-**OldX property**  
-Change the property value for the oldX.
-
-**OldY property**  
-Change the property value for the oldY.
-
-**Progress property**  
-Change the property value for the progress.
-
-**ToogleClockwise property**  
-Update the property value for "toogleClockwise".
-
-**Top property**  
-Change the property value for the top.
-
-**Vertical edge duration property**  
-Change the property value for the vertical edge duration.
-
-**Width property**  
-Change the property value for the width.
-
 **Right bound**  
 Change the right bound of the rectangular movement.
 
@@ -113,14 +68,6 @@ Change the time the object takes to go through a vertical edge (in seconds).
 
 **Teleport at a corner**  
 Teleport the object to a corner of the movement rectangle.
-
-**Toggle Clockwise property**  
-Toggle the property value for clockwise.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle ToogleClockwise property**  
-Toggle the property value for toogleClockwise.  
-If it was true, it will become false, and if it was false it will become true.
 
 **Toggle direction**  
 Toggle the direction to clockwise or counter-clockwise.
@@ -154,80 +101,18 @@ Object is on the right side of the rectangle.
 **Is on top**  
 Object is on the top side of the rectangle.
 
-**Clockwise property**  
-Check the property value for clockwise.
-
-**Easing property**  
-Compare the property value for the easing.
-
-**Height property**  
-Compare the property value for the height.
-
-**Horizontal edge duration property**  
-Compare the property value for the horizontal edge duration.
-
-**Initial position property**  
-Compare the property value for the initial position.
-
-**Left property**  
-Compare the property value for the left.
-
-**OldX property**  
-Compare the property value for the oldX.
-
-**OldY property**  
-Compare the property value for the oldY.
-
-**Progress property**  
-Compare the property value for the progress.
-
-**ToogleClockwise property**  
-Check the property value for toogleClockwise.
-
-**Top property**  
-Compare the property value for the top.
-
-**Vertical edge duration property**  
-Compare the property value for the vertical edge duration.
-
-**Width property**  
-Compare the property value for the width.
-
 ### Behavior expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.RectangleMovement::Bottom()` | Return the bottom bound of the movement. ||
-| `Object.RectangleMovement::BottomLeftDuration()` | Return the duration between the top-left vertex and the bottom-left one. ||
-| `Object.RectangleMovement::BottomRightDuration()` | Return the duration between the top-left vertex and the bottom-right one. ||
-| `Object.RectangleMovement::CurrentTime()` | Return the time from the top-left vertex. ||
-| `Object.RectangleMovement::DeltaX()` | Return the displacement on the X axis from the top-left vertex. ||
-| `Object.RectangleMovement::DeltaY()` | Return the displacement on the Y axis from the top-left vertex. ||
-| `Object.RectangleMovement::EdgeOriginX()` | Return the X position of the current edge origin. ||
-| `Object.RectangleMovement::EdgeOriginY()` | Return the Y position of the current edge origin. ||
-| `Object.RectangleMovement::EdgeProgress()` | Return the ratio between the covered distance from the last vertex and the edge length (between 0 and 1). ||
-| `Object.RectangleMovement::EdgeTargetX()` | Return the Y position of the current edge target. ||
-| `Object.RectangleMovement::EdgeTargetY()` | Return the X position of the current edge target. ||
-| `Object.RectangleMovement::HalfCurrentTime()` | Return the covered length from the top-left vertex or the bottom-right one. ||
 | `Object.RectangleMovement::Height()` | Return the rectangle height. ||
 | `Object.RectangleMovement::HorizontalEdgeDuration()` | Return the time the object takes to go through a horizontal edge (in seconds). ||
 | `Object.RectangleMovement::Left()` | Return the left bound of the movement. ||
 | `Object.RectangleMovement::LoopDuration()` | Return the time the object takes to go through the whole rectangle (in seconds). ||
 | `Object.RectangleMovement::Perimeter()` | Return the perimeter of the movement rectangle. ||
-| `Object.RectangleMovement::PropertyEasing()` | Return the property value for the easing. ||
-| `Object.RectangleMovement::PropertyHeight()` | Return the property value for the height. ||
-| `Object.RectangleMovement::PropertyHorizontalEdgeDuration()` | Return the property value for the horizontal edge duration. ||
-| `Object.RectangleMovement::PropertyInitialPosition()` | Return the property value for the initial position. ||
-| `Object.RectangleMovement::PropertyLeft()` | Return the property value for the left. ||
-| `Object.RectangleMovement::PropertyOldX()` | Return the property value for the oldX. ||
-| `Object.RectangleMovement::PropertyOldY()` | Return the property value for the oldY. ||
-| `Object.RectangleMovement::PropertyProgress()` | Return the property value for the progress. ||
-| `Object.RectangleMovement::PropertyTop()` | Return the property value for the top. ||
-| `Object.RectangleMovement::PropertyVerticalEdgeDuration()` | Return the property value for the vertical edge duration. ||
-| `Object.RectangleMovement::PropertyWidth()` | Return the property value for the width. ||
 | `Object.RectangleMovement::Right()` | Return the right bound of the movement. ||
 | `Object.RectangleMovement::Top()` | Return the top bound of the movement. ||
-| `Object.RectangleMovement::TopRightDuration()` | Return the duration between the top-left vertex and the top-right one. ||
 | `Object.RectangleMovement::VerticalEdgeDuration()` | Return the time the object takes to go through a vertical edge (in seconds). ||
 | `Object.RectangleMovement::Width()` | Return the rectangle width. ||
 

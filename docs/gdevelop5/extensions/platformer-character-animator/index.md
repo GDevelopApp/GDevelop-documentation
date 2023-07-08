@@ -43,67 +43,8 @@ Set the "Jump" animation name. Do not use quotation marks.
 **"Move" animation name**  
 Set the "Move" animation name. Do not use quotation marks.
 
-**"Climb" animation name property**  
-Change the property value for the "Climb" animation name.
+_No expressions for this behavior._
 
-**Enable animation changes property**  
-Update the property value for "enable animation changes".
-
-**Enable horizontal flipping property**  
-Update the property value for "enable horizontal flipping".
-
-**"Fall" animation name property**  
-Change the property value for the "Fall" animation name.
-
-**"Idle" animation name  property**  
-Change the property value for the "Idle" animation name .
-
-**"Jump" animation name property**  
-Change the property value for the "Jump" animation name.
-
-**"Run" animation name property**  
-Change the property value for the "Run" animation name.
-
-**Toggle Enable animation changes property**  
-Toggle the property value for enable animation changes.  
-If it was true, it will become false, and if it was false it will become true.
-
-**Toggle Enable horizontal flipping property**  
-Toggle the property value for enable horizontal flipping.  
-If it was true, it will become false, and if it was false it will become true.
-
-### Behavior conditions
-
-**"Climb" animation name property**  
-Compare the property value for the "Climb" animation name.
-
-**Enable animation changes property**  
-Check the property value for enable animation changes.
-
-**Enable horizontal flipping property**  
-Check the property value for enable horizontal flipping.
-
-**"Fall" animation name property**  
-Compare the property value for the "Fall" animation name.
-
-**"Idle" animation name  property**  
-Compare the property value for the "Idle" animation name .
-
-**"Jump" animation name property**  
-Compare the property value for the "Jump" animation name.
-
-**"Run" animation name property**  
-Compare the property value for the "Run" animation name.
-
-### Behavior expressions
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.PlatformerCharacterAnimator::PropertyClimbAnimationName()` | Return the property value for the "Climb" animation name. ||
-| `Object.PlatformerCharacterAnimator::PropertyFallAnimationName()` | Return the property value for the "Fall" animation name. ||
-| `Object.PlatformerCharacterAnimator::PropertyIdleAnimationName()` | Return the property value for the "Idle" animation name . ||
-| `Object.PlatformerCharacterAnimator::PropertyJumpAnimationName()` | Return the property value for the "Jump" animation name. ||
-| `Object.PlatformerCharacterAnimator::PropertyRunAnimationName()` | Return the property value for the "Run" animation name. ||
 
 ---
 
