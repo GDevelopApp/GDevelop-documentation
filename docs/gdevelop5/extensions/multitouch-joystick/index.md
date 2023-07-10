@@ -5,6 +5,13 @@ Activate a joystick or buttons that can be controlled by interacting with a touc
 
 **Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames), [AstroCookie](https://gd.games/AstroCookie), [xellix](https://gd.games/xellix).
 
+!!! warning
+    This is an extension made by a community member — but not reviewed
+    by the GDevelop extension team. As such, we can't guarantee it
+    meets all the quality standards of official extensions. In case of
+    doubt, contact the author to know more about what the extension
+    does or inspect its content before using it.
+
 ---
 
 Users can interact with the multitouch joystick to specify angle and force values.  These values can be used to control other objects in the scene such as movement and rotation, such as for twin-stick shooter games.

@@ -5,6 +5,13 @@ Checks if the version of the game on liluo is different than the current game ve
 
 **Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555).
 
+!!! warning
+    This is an extension made by a community member — but not reviewed
+    by the GDevelop extension team. As such, we can't guarantee it
+    meets all the quality standards of official extensions. In case of
+    doubt, contact the author to know more about what the extension
+    does or inspect its content before using it.
+
 ---
 
 With this extension, you can get a very simple update checking mechanism. It will look at the version of your game on liluo, and compare it with the one of the currently running game. If it is different, you can display a message to tell your users they are on an outdated version.

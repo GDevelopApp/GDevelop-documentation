@@ -5,6 +5,13 @@ Slide on corners of rectangular obstacles.
 
 **Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).
 
+!!! warning
+    This is an extension made by a community member — but not reviewed
+    by the GDevelop extension team. As such, we can't guarantee it
+    meets all the quality standards of official extensions. In case of
+    doubt, contact the author to know more about what the extension
+    does or inspect its content before using it.
+
 ---
 
 In top-down games, players may have to go though gaps the same size as their avatar. This is almost impossible to do without any assistance. This extension makes objects slide on obstacles to lead them in the right direction.

@@ -5,6 +5,13 @@ Allow an object to move smoothly on the X and/or Y axis following a sine wave, o
 
 **Authors and contributors** to this community extension: [4ian](https://gd.games/4ian), [VictrisGames](https://gd.games/VictrisGames).
 
+!!! warning
+    This is an extension made by a community member — but not reviewed
+    by the GDevelop extension team. As such, we can't guarantee it
+    meets all the quality standards of official extensions. In case of
+    doubt, contact the author to know more about what the extension
+    does or inspect its content before using it.
+
 ---
 
 Allow an object to move smoothly on the X and/or Y axis following a sine wave, or an ellipsis.

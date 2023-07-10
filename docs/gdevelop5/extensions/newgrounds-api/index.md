@@ -7,6 +7,13 @@ Limitations: only works with browser games.
 
 **Authors and contributors** to this community extension: [planktonfun](https://gd.games/planktonfun).
 
+!!! warning
+    This is an extension made by a community member — but not reviewed
+    by the GDevelop extension team. As such, we can't guarantee it
+    meets all the quality standards of official extensions. In case of
+    doubt, contact the author to know more about what the extension
+    does or inspect its content before using it.
+
 ---
 
 Allows developers to use newgrounds API for their games

@@ -5,6 +5,13 @@ Random number generator for integers and floats using the Crypto API.
 
 **Authors and contributors** to this community extension: (not specified).
 
+!!! warning
+    This is an extension made by a community member — but not reviewed
+    by the GDevelop extension team. As such, we can't guarantee it
+    meets all the quality standards of official extensions. In case of
+    doubt, contact the author to know more about what the extension
+    does or inspect its content before using it.
+
 ---
 
 This uses the Crypto API to create a random number see help for more details. 

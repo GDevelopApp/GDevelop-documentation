@@ -5,6 +5,13 @@ Pathfinding allows to compute an efficient path for objects, avoiding obstacles 
 
 **Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).
 
+!!! warning
+    This is an extension made by a community member — but not reviewed
+    by the GDevelop extension team. As such, we can't guarantee it
+    meets all the quality standards of official extensions. In case of
+    doubt, contact the author to know more about what the extension
+    does or inspect its content before using it.
+
 ---
 
 In comparison to the built-in pathfinding behavior, this one aims to:

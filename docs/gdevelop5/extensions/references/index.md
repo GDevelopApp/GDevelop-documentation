@@ -5,6 +5,13 @@ Adds references and pointers for variables.
 
 **Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555).
 
+!!! warning
+    This is an extension made by a community member — but not reviewed
+    by the GDevelop extension team. As such, we can't guarantee it
+    meets all the quality standards of official extensions. In case of
+    doubt, contact the author to know more about what the extension
+    does or inspect its content before using it.
+
 ---
 
 Adds actions to use references (variable that redirect any read/write to another variable) and pointers (unique numbers identifying a variable that can be resolved to a reference). Some usages are for callback variables in events based functions (getting a variable with a fixed name referring to a variable with a name passed as parameter), pointers to make advanced data structures like linked lists, and getting a top level variable dynamically.

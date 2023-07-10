@@ -5,6 +5,13 @@ Extension that implements Poki SDK so that your game can be hosted on Poki websi
 
 **Authors and contributors** to this community extension: [alex_](https://gd.games/alex_).
 
+!!! warning
+    This is an extension made by a community member — but not reviewed
+    by the GDevelop extension team. As such, we can't guarantee it
+    meets all the quality standards of official extensions. In case of
+    doubt, contact the author to know more about what the extension
+    does or inspect its content before using it.
+
 ---
 
 Please refer to [Poki's guide](https://sdk.poki.com/sdk-documentation.html) to know when to call the different actions.
