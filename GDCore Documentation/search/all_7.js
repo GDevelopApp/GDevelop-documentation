@@ -95,6 +95,7 @@ var searchData=
   ['getallfolderlist',['GetAllFolderList',['../classgd_1_1_resources_manager.html#a7d27b390ecdf14019871c95269412c6e',1,'gd::ResourcesManager']]],
   ['getallinstructionorexpressiongroupmetadata',['GetAllInstructionOrExpressionGroupMetadata',['../classgd_1_1_platform_extension.html#a2cabba947da287cae3e99e59bae3e9b5',1,'gd::PlatformExtension']]],
   ['getallnondefaultpoints',['GetAllNonDefaultPoints',['../classgd_1_1_sprite.html#adbe60ccd706f62aa3d47238af35b2aa5',1,'gd::Sprite::GetAllNonDefaultPoints()'],['../classgd_1_1_sprite.html#ac984400166de38257a7642b646c6d62e',1,'gd::Sprite::GetAllNonDefaultPoints() const']]],
+  ['getallobjectexpressions',['GetAllObjectExpressions',['../classgd_1_1_for_each_event.html#a46e6e818c9d1c105c3bb35993f53f839',1,'gd::ForEachEvent::GetAllObjectExpressions()'],['../classgd_1_1_base_event.html#aeebd7f77b8d6c3951307fdd23e0c680e',1,'gd::BaseEvent::GetAllObjectExpressions()']]],
   ['getallobjectsnames',['GetAllObjectsNames',['../classgd_1_1_object_group.html#a23ed524c798c7c9eb317f502eac9b3e3',1,'gd::ObjectGroup']]],
   ['getallobjectstobedeclared',['GetAllObjectsToBeDeclared',['../classgd_1_1_events_code_generation_context.html#abcf19515656109f30bb9b8471351515c',1,'gd::EventsCodeGenerationContext']]],
   ['getallobjecttypesusingeventsbasedbehavior',['GetAllObjectTypesUsingEventsBasedBehavior',['../classgd_1_1_whole_project_refactorer.html#a86e0b31881f0d3da222c128785264fc0',1,'gd::WholeProjectRefactorer']]],
