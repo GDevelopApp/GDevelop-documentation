@@ -18,10 +18,11 @@ It can be helpful for:
 * Card games
 * Fair randomness (for instance, to create a stack of predetermined bonus and randomize the order they appear)
 
-2 examples use it:
+3 examples use it:
 
-* A card system demonstration ([open the project online](https://editor.gdevelop.io/?project=example://card-system))
-* A Klondike solitaire ([open the project online](https://editor.gdevelop.io/?project=example://klondike-solitaire))
+* a card system demonstration ([open the project online](https://editor.gdevelop.io/?project=example://card-system))
+* a Klondike solitaire ([open the project online](https://editor.gdevelop.io/?project=example://klondike-solitaire))
+* a Zuma-like ([open the project online](https://editor.gdevelop.io/?project=example://smoothy))
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
@@ -31,8 +32,11 @@ It can be helpful for:
 **Contain**  
 Check if the stack contains the object.
 
+**Contain at**  
+Check if the stack contains the object at a height.
+
 **Contain between a range**  
-Check if the stack contains the object between a range.
+Check if the stack contains the object between a range. The lower and upper bounds are included.
 
 **Stack top**  
 Check if an object is on the stack top.
@@ -53,6 +57,12 @@ Remove any object from the stack.
 
 **Insert into the stack**  
 Insert the object into the stack.
+
+**Move all into the stack**  
+Move all the object from a stack into another.
+
+**Move all on top of the stack**  
+Move all the object from a stack into another one at the top.
 
 **Move into the stack**  
 Move the object from a stack into another.
@@ -75,7 +85,7 @@ Check if the stack is empty.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Object.ObjectStack::Height()` | The number of objects in the stack. ||
+| `Object.ObjectStack::Height()` | Return the number of objects in the stack. ||
 | `Object.ObjectStack::HeightOf(object)` | The height of an element in the stack. ||
 | | _object_ | Object |
 

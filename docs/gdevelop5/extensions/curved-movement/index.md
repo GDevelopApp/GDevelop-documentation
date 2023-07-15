@@ -26,7 +26,12 @@ This extension can be used to:
 - Move enemies that follow a pattern
 - Animate decorations
 
-A collection of [small examples](https://editor.gdevelop.io/?project=example://curved-movement) show how to use this extension.
+A collection of [small examples](https://editor.gdevelop.io/?project=example://curved-movement) shows how to use this extension.
+
+2 examples use it:
+
+- a 3D racing game ([open the project online](https://editor.gdevelop.io/?project=example://3d-racing-game))
+- a Zuma-like ([open the project online](https://editor.gdevelop.io/?project=example://smoothy))
 
 [Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/curved-movement/details/)
 
@@ -184,6 +189,8 @@ Compare the speed of the object.
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.SpeedPathMovement::MovementAngle()` | Return the angle of movement on its path. ||
+| `Object.SpeedPathMovement::PathOriginX()` | Return the path origin on X axis of the object. ||
+| `Object.SpeedPathMovement::PathOriginY()` | Return the path origin on Y axis of the object. ||
 | `Object.SpeedPathMovement::PositionOnPath()` | Return the length between the trajectory origin and the current position. ||
 | `Object.SpeedPathMovement::Speed()` | Return the speed of the object. ||
 
