@@ -31,11 +31,11 @@ jobs:
           docs/gdevelop5/extensions/**/index.md
         separator: ","
 
-    - uses: DavidAnson/markdownlint-cli2-action@v10
+    - uses: DavidAnson/markdownlint-cli2-action@v11
       if: steps.changed-files.outputs.any_changed == 'true'
       continue-on-error: true
       with:
-        command: fix
+        fix: true
         globs: ${{ steps.changed-files.outputs.all_changed_files }}
         separator: ","
 
