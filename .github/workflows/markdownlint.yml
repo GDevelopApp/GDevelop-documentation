@@ -22,7 +22,7 @@ jobs:
       id: changed-files
       with:
         files: |
-          docs/index.md
+          docs/*.md
           docs/gdevelop5/**/*.md
         files_ignore: | # auto-generated pages
           docs/gdevelop5/all-features/**/index.md
