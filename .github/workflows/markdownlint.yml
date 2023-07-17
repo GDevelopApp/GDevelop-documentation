@@ -25,6 +25,8 @@ jobs:
           docs/index.md
           docs/gdevelop5/**/*.md
         files_ignore: | # auto-generated pages
+          docs/gdevelop5/all-features/**/index.md
+          docs/gdevelop5/all-features/**/expressions-reference.md
           docs/gdevelop5/all-features/**/reference.md
           docs/gdevelop5/extensions/**/*.md
         separator: ","
