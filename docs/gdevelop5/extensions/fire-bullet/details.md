@@ -5,23 +5,21 @@ title: Details
 
 This extension can be used to fire projectiles from an object.  It provides advanced functionality including:
 
-- Cooldown between shots
-- Ammo management
-- Reloading
-- Overheating
-- Multi-fire bullet patterns
+  - Cooldown between shots
+  - Ammo management
+  - Reloading
+  - Overheating
+  - Multi-fire bullet patterns
 
 !!! tip
 
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
-
 
 ## Fire a bullet
 
 The **fire bullet** [behavior](/gdevelop5/behaviors/) must be added to the object that shoots the bullets. One of the 2 **fire bullet** actions can then be used to actually fire bullets.
 
 Bullets are usually created at the end of a cannon. [Custom points](/gdevelop5/objects/sprite/edit-points/) of sprite objects can be used for this.
-
 
 ### Fire in a given direction
 
@@ -34,7 +32,6 @@ Bullets can be shot in a direction given by an [angle](/gdevelop5/tutorials/basi
 [Open in GDevelop](https://editor.gdevelop.io/?project=example://space-shooter){ .md-button .md-button--primary }
 
 [![](space-shooter-example.png){ width="300" }](https://editor.gdevelop.io/?project=example://space-shooter)
-
 
 ### Fire to the cursor
 
@@ -66,13 +63,12 @@ To fire bullets from 2 cannons, the **Fire bullet toward an angle** action can b
 
 Firing bullets that spread on an arc could be done with the method from the previous section but these 2 properties make it a lot easier:
 
-- Number of bullets created at once
-- Firing arc
+  - Number of bullets created at once
+  - Firing arc
 
 ![](fire-bullet-multi-fire-properties.png)
 
 With these property values, the **fire** action fires 3 bullets evenly spread on a 10° cone.
-
 
 **Fire bullet example**
 
@@ -80,13 +76,11 @@ With these property values, the **fire** action fires 3 bullets evenly spread on
 
 [![](multi-fire-example.png){ width="300" }](https://editor.gdevelop.io/?project=example://fire-bullet)
 
-
 ### Fire like a shotgun
 
 Some randomness can be defined with these 2 properties:
 
-- Angle variance
-- Bullet speed variance
+  - Angle variance
+  - Bullet speed variance
 
 ![](fire-bullet-variance-properties.png)
-

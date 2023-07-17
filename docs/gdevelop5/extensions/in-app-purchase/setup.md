@@ -2,6 +2,7 @@
 title: Setup
 ---
 # In App Purchases (IAP) (experimental)
+
 In-App Purchase allows to sell premium features or items in your game when published on Google Play or on the App Store.
 
 You define items to sell in their interface, and add buttons or ways to buy them in your game. After the player purchased them, you can unlock the associated bonus.
@@ -20,10 +21,10 @@ Integrate the In-App Purchase extension in your game. The general workflow is th
 
 **First, the setup:**
 
-- Register your products on the Google Play Console or App Store Connect (see the rest of this page),
-- In your game, register the same products using the action **"Register an item"**. You have to chose a *unique identifier* ("ID") for each item, and a type. Usually you may want to use **"consumable" or "non consumable"**.
-- Call **the action to finalize the store registration**. You need to do this after registering the available items using the action described before.
-- Wait for "the store is ready" condition to be true. Once it is, you can display and order items.
+  - Register your products on the Google Play Console or App Store Connect (see the rest of this page),
+  - In your game, register the same products using the action **"Register an item"**. You have to chose a *unique identifier* ("ID") for each item, and a type. Usually you may want to use **"consumable" or "non consumable"**.
+  - Call **the action to finalize the store registration**. You need to do this after registering the available items using the action described before.
+  - Wait for "the store is ready" condition to be true. Once it is, you can display and order items.
 
 !!! note
 
@@ -31,12 +32,12 @@ Integrate the In-App Purchase extension in your game. The general workflow is th
 
 **Then, display items in your game and order them:**
 
-- Get the items data to know what to display (in particular the *price* of each items) in a variable.
-- Display the price and available items in your game.
-- Register a variable that will be updated when an item purchase is approved (and other variables for when other things happen).
-- When the player clicks on an item, use the action to order it.
-- If the purchase is approved (the variable you set up is set to true), give the user what they bought.
-- Mark the purchase as completed for the user to be charged by the store.
+  - Get the items data to know what to display (in particular the *price* of each items) in a variable.
+  - Display the price and available items in your game.
+  - Register a variable that will be updated when an item purchase is approved (and other variables for when other things happen).
+  - When the player clicks on an item, use the action to order it.
+  - If the purchase is approved (the variable you set up is set to true), give the user what they bought.
+  - Mark the purchase as completed for the user to be charged by the store.
 
 !!! tip
 
@@ -96,11 +97,11 @@ When it's ready, download it from your phone using the test links you can find i
 
 #### What if you get "the item you requested is not available for purchase"?
 
-* Check you are testing the app on a **phone**. Emulators won't work.
-* For an alpha, beta or internal testing app, make sure your Google account on your phone is **registered as a tester**.
-* Make sure **your app was reviewed at least once by Google** (in the alpha, beta or production track). Otherwise, you won't be able to buy items (you can get the data, but not buy them).
-* Make sure the id of the product is the same in your events and in the Google Play Console.
-* Make sure the product is active. You can see it in the list of products:
+  * Check you are testing the app on a **phone**. Emulators won't work.
+  * For an alpha, beta or internal testing app, make sure your Google account on your phone is **registered as a tester**.
+  * Make sure **your app was reviewed at least once by Google** (in the alpha, beta or production track). Otherwise, you won't be able to buy items (you can get the data, but not buy them).
+  * Make sure the id of the product is the same in your events and in the Google Play Console.
+  * Make sure the product is active. You can see it in the list of products:
 ![](/gdevelop5/extensions/in-app-purchase/pasted/20211117-132546.png)
 
 !!! tip

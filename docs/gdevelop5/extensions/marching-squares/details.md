@@ -20,13 +20,11 @@ A scalar field associate a value for every point of a space. For instance, scala
 
 ![](scalarfieldwithlegend.png)
 
-
 ## Understand contour lines
 
 Points with a same value form a contour line. This can be used to draw shapes that change dynamically.
 
 ![](contourlines.png)
-
 
 ## Use contour lines
 
@@ -35,7 +33,6 @@ Points with a same value form a contour line. This can be used to draw shapes th
 Liquids or blob effects can be made using contour lines. In the liquids example, each drop is a physics object with gravity and they collides with each other. One spike is added on the field for every drop. The action is called "Add disk" because its contour line makes a circle.
 
 The spikes are merged using the "Addition" operation. This is important because when 2 spikes are next to each other, their values add up and can go over value chosen for the contour line. This is what does the feeling of attraction between 2 drops.
-
 
 | ![](diskadditionnear.png) | ![](diskaddition.png) |
 |---|---|
@@ -53,7 +50,6 @@ Fog of wars often keep a trail of the scouted area. But, at every frame, the fie
 
 ![](trail.png)
 
-
 ### Make destructible environments
 
 ![](marchingsquaresplatformer.png)
@@ -63,8 +59,6 @@ Destructible or dynamic environments can be achieved with the same logic as in t
 The "Mask disk" operation hasn't been introduced before so let's take a look at its effect next to a "Add disk". The contour line is the shape of a moon quarter: a disk eaten by another disk. More complex shapes like in the previous screenshot can be built by combining more disk actions.
 
 ![](disksubtraction.png)
-
-
 
 ### Paint territories
 
@@ -101,8 +95,9 @@ Noise can be useful to generate terrains but, without any constraint, the result
 ![](noisewithoutanyconstraint.png)
 
 For instance, a terrain can be forced into an island. To do so, 2 constraints can be used:
-* a lower bound to ensure that the terrain is over the sea level where the island should be
-* an upper bound to ensure that the island is surrounded by sea
+
+  * a lower bound to ensure that the terrain is over the sea level where the island should be
+  * an upper bound to ensure that the island is surrounded by sea
 
 ![](islandconstraints.png)
 

@@ -19,31 +19,31 @@ More than one joystick can be used at the same time. For instance, a twin stick 
 
 ### 1) Install the "Multitouch Joystick" extension
 
-- Click on "Project Manager"
-- Click on "Create or Search for new extensions"
-- Search for "joystick" and hit "Enter"
-- Click on "Multitouch joystick and buttons"
-- Click "Install"
-- Click "Close"
+  - Click on "Project Manager"
+  - Click on "Create or Search for new extensions"
+  - Search for "joystick" and hit "Enter"
+  - Click on "Multitouch joystick and buttons"
+  - Click "Install"
+  - Click "Close"
 
 ![](/gdevelop5/extensions/multitouch-joystick/install_multitouch_joystick.gif)
 
 ### 2) Choose two objects to be used by this extension
 
--  **Joystick:** The position and size of this object defines the area where the joystick thumb can move. This often looks like the outline of a circle.
+  - **Joystick:** The position and size of this object defines the area where the joystick thumb can move. This often looks like the outline of a circle.
 
 &nbsp;
 
--  **Joystick thumb:** This object moves to follow where the player is touching. This often looks like a solid circle.
+  - **Joystick thumb:** This object moves to follow where the player is touching. This often looks like a solid circle.
 
 ![](/gdevelop5/extensions/multitouch-joystick/select_multitouch_joystick_objects.gif)
 
 ### 3) Place joystick object in the scene
 
-- Drag the "joystick" object into the scene
-- Create new layer called "UI"
-- Select "joystick" object and move it to the "UI" layer
-- This prevents the joystick from moving even if other layers move
+  - Drag the "joystick" object into the scene
+  - Create new layer called "UI"
+  - Select "joystick" object and move it to the "UI" layer
+  - This prevents the joystick from moving even if other layers move
 
 !!! note
 
@@ -53,19 +53,19 @@ More than one joystick can be used at the same time. For instance, a twin stick 
 
 ### 4) Add "Multitouch Joystick" behavior to the Joystick object.
 
-- Double-click on your "Joystick" object - Click on "Behaviors" tab - Click "Add a behavior" - Search for "joystick" and select "Multitouch Joystick" - Select "Floating" if you want the player to be able to move the joystick position - Click "Apply"
+  - Double-click on your "Joystick" object - Click on "Behaviors" tab - Click "Add a behavior" - Search for "joystick" and select "Multitouch Joystick" - Select "Floating" if you want the player to be able to move the joystick position - Click "Apply"
 
 ![](/gdevelop5/extensions/multitouch-joystick/add_multitouch_joystick_behavior.gif)
 
 ### 5) In the event sheet, add the action "Activate multitouch joystick"
 
-- Click on the tab that ends with "(Events)"
-- Click "Add a new event"
-- Click "Add action"
-- Select "Joystick" object
-- Select "Activate multitouch joystick"
-- Select "Joystick thumb" object
-- Click "OK"
+  - Click on the tab that ends with "(Events)"
+  - Click "Add a new event"
+  - Click "Add action"
+  - Select "Joystick" object
+  - Select "Activate multitouch joystick"
+  - Select "Joystick thumb" object
+  - Click "OK"
 
 !!! note
 
@@ -75,10 +75,10 @@ More than one joystick can be used at the same time. For instance, a twin stick 
 
 ### 6) Test joystick on a touchscreen device
 
-- Click on "Advanced Preview Options" button (next to "Preview" button)
-- Click "Start network preview (Preview over WiFi/LAN)"
-- Use a web-browser on a touchscreen device to test the game using the displayed IP address and port
-- The joystick thumb should move towards any touches that start on the joystick
+  - Click on "Advanced Preview Options" button (next to "Preview" button)
+  - Click "Start network preview (Preview over WiFi/LAN)"
+  - Use a web-browser on a touchscreen device to test the game using the displayed IP address and port
+  - The joystick thumb should move towards any touches that start on the joystick
 
 ![](/gdevelop5/extensions/multitouch-joystick/multitouch_joystick_network_preview.gif)
 
@@ -86,26 +86,26 @@ More than one joystick can be used at the same time. For instance, a twin stick 
 
 **Conditions:**
 
-- Joystick force (range: 0 to 1)
-- Joystick pushed in a direction (Left, Right, Up, Down)
-- Check if joystick floating is enabled (Yes, No)
-- Joystick pressed (Check if the user is touching the joystick)
+  - Joystick force (range: 0 to 1)
+  - Joystick pushed in a direction (Left, Right, Up, Down)
+  - Check if joystick floating is enabled (Yes, No)
+  - Joystick pressed (Check if the user is touching the joystick)
 
 **Expressions:**
 
-- MyJoystick.MultitouchJoystick::JoystickAngle()
+  - MyJoystick.MultitouchJoystick::JoystickAngle()
 
-1.  Range: -180 to 180
+1. Range: -180 to 180
 
-- MyJoystick.MultitouchJoystick::JoystickForce()
+  - MyJoystick.MultitouchJoystick::JoystickForce()
 
-1.  Range: 0 to 1
+1. Range: 0 to 1
 
 **Controlling an object with joystick**
 
-- Add an object to by controlled by the joystick
-- Rotate object based on the value of `JoystickAngle()`
-- Apply a force to move object based on the values of `JoystickAngle()` and `JoystickForce()`
+  - Add an object to by controlled by the joystick
+  - Rotate object based on the value of `JoystickAngle()`
+  - Apply a force to move object based on the values of `JoystickAngle()` and `JoystickForce()`
 
 ![](/gdevelop5/extensions/multitouch-joystick/rotateandmovespaceshipwithjoystick.gif)
 
@@ -115,27 +115,27 @@ Multitouch buttons can allow a player to press a touchscreen in multiple places 
 
 ### 1) Install the "Multitouch Joystick" extension
 
-- Click on "Project Manager"
-- Click on "Create or Search for new extensions"
-- Search for "joystick" and hit "Enter"
-- Click on "Multitouch joystick and buttons"
-- Click "Install"
-- Click "Close"
+  - Click on "Project Manager"
+  - Click on "Create or Search for new extensions"
+  - Search for "joystick" and hit "Enter"
+  - Click on "Multitouch joystick and buttons"
+  - Click "Install"
+  - Click "Close"
 
 ![](/gdevelop5/extensions/multitouch-joystick/install_multitouch_joystick.gif)
 
 ### 2) Add the "Multitouch button" behavior to the object
 
-- Double-click on your "Button" object - Click on "Behaviors" tab - Click "Add a behavior" - Search for "button" and select "Multitouch button" - Click "Apply"
+  - Double-click on your "Button" object - Click on "Behaviors" tab - Click "Add a behavior" - Search for "button" and select "Multitouch button" - Click "Apply"
 
 ![](/gdevelop5/extensions/multitouch-joystick/add_multitouch_button_behavior.gif)
 
 ### 3) Place a multitouch button object on the scene
 
-- Drag the “button” object into the scene
-- Create new layer called “UI”
-- Select “button” object and move it to the “UI” layer
-- This prevents the button from moving even if other layers move
+  - Drag the “button” object into the scene
+  - Create new layer called “UI”
+  - Select “button” object and move it to the “UI” layer
+  - This prevents the button from moving even if other layers move
 
 ![](/gdevelop5/extensions/multitouch-joystick/place_multitouch_button.gif)
 
@@ -143,7 +143,7 @@ Multitouch buttons can allow a player to press a touchscreen in multiple places 
 
 **Conditions:**
 
-- Button is pressed - Button is released
+  - Button is pressed - Button is released
 
 ![](/gdevelop5/extensions/multitouch-joystick/multitouchbuttonconditions.gif)
 

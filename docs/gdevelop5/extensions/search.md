@@ -37,8 +37,8 @@ Click on **Install in project** to download the extension. You can see it is the
 
 Once the extension is installed, you can usually:
 
-* Find it in the list of **behaviors**, when [adding a new behavior](/gdevelop5/behaviors) to an object.
-* Even if no behavior is provided, you'll have some **actions or conditions**. Find them in the list of actions or conditions when editing an event. The name of the category containing them is the same as the extension.
+  * Find it in the list of **behaviors**, when [adding a new behavior](/gdevelop5/behaviors) to an object.
+  * Even if no behavior is provided, you'll have some **actions or conditions**. Find them in the list of actions or conditions when editing an event. The name of the category containing them is the same as the extension.
 
 For example, the *Flash* behavior provides 2 new actions:
 

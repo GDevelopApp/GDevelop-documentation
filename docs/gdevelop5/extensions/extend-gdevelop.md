@@ -6,8 +6,7 @@ title: Extending GDevelop (with JavaScript or C++)
 GDevelop is modular. It can be extended to suit your needs. In particular, all the features available for the games (objects, behaviors, and events) are based on a extension system. Since GDevelop is [open-source](https://github.com/4ian/GD), you can contribute to the existing extensions or you can create new ones. You can also take a look at the game engine or the editor source code and develop improvements.
 
 !!! tip
-    
-        
+
     ➡️ If you are looking for event based functions, see **[functions](/gdevelop5/events/functions)**. For event based behaviors see **[event based behaviors](/gdevelop5/behaviors/events-based-behaviors)**.
     
     If you have made useful functions and behaviors, consider [sharing them with the community](/gdevelop5/extensions/share).

@@ -28,7 +28,7 @@ jobs:
           docs/gdevelop5/all-features/**/index.md
           docs/gdevelop5/all-features/**/expressions-reference.md
           docs/gdevelop5/all-features/**/reference.md
-          docs/gdevelop5/extensions/**/*.md
+          docs/gdevelop5/extensions/**/index.md
         separator: ","
 
     - uses: DavidAnson/markdownlint-cli2-action@v10

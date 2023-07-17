@@ -16,5 +16,5 @@ The action you want to use most of the time is **"Bounce off another object"**. 
 There also is an action that does the same but let you specify the "normal" angle. This is useful if you always want to bounce toward a direction.
 Finally, two actions exist to:
 
-* Bounce always horizontally (i.e: with a "normal" angle of 0 degrees, or 180 which is equivalent). Useful for paddle in a pong game.
-* Bounce vertically (i.e: with a "normal" angle of 90 degrees, or -90 which is equivalent). Useful for the top/bottom of the screen in a pong game.
+  * Bounce always horizontally (i.e: with a "normal" angle of 0 degrees, or 180 which is equivalent). Useful for paddle in a pong game.
+  * Bounce vertically (i.e: with a "normal" angle of 90 degrees, or -90 which is equivalent). Useful for the top/bottom of the screen in a pong game.

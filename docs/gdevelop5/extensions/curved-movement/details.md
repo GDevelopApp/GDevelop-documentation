@@ -24,7 +24,6 @@ A collection of small examples show how to use this extension.
 
 [![](train-example.png){ width="300" }](https://editor.gdevelop.io/?project=example://curved-movement)
 
-
 ## Create a path with Inkscape
 
 [Inkscape](https://inkscape.org/) is a free and open-source vector graphics editor. It can be used to create curves that can be used with this extension.
@@ -54,13 +53,13 @@ The part that starts with `m` and ends `z` can be copied and pasted into the **S
 
 The **Movement on a curve (duration-based)** [behavior](/gdevelop5/behaviors/) gives control over the speed with:
 
-- a duration
-- a speed shape (the **Easing** parameter)
+  - a duration
+  - a speed shape (the **Easing** parameter)
 
 This is useful when:
 
-- the object always travels the whole path
-- the travel duration is more important than the speed
+  - the object always travels the whole path
+  - the travel duration is more important than the speed
 
 ![](follow-path-tween-action.png)
 
@@ -68,13 +67,13 @@ This is useful when:
 
 The **Movement on a curve (speed-based)** [behavior](/gdevelop5/behaviors/) gives control over the speed by:
 
-- changing the speed directly with the **Speed** action
-- making the object accelerate with the **Accelerate** action
+  - changing the speed directly with the **Speed** action
+  - making the object accelerate with the **Accelerate** action
 
 This is useful when:
 
-- the speed depends on player inputs or game rules
-- the speed must stay the same no matter how long is the path
+  - the speed depends on player inputs or game rules
+  - the speed must stay the same no matter how long is the path
 
 The path that an object must follow can be chosen with the **Follow a path**. This action doesn't actually move the object as the initial speed is `0`.
 
