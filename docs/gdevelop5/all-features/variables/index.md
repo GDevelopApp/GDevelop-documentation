@@ -17,11 +17,11 @@ All variables have a _data type_. The data type of a variable determines what ty
 
 In GDevelop, variables can contain the following types of data:
 
-  - Number
-  - Text
-  - Structure
-  - Boolean
-  - Array
+- Number
+- Text
+- Structure
+- Boolean
+- Array
 
 Number, Text and Boolean are *primitive types*: they store a value.
 Structure and Array are *collection types*: they store multiple variables.
@@ -146,15 +146,15 @@ Variable(PlayerScore["Level"+ToString(Variable(CurrentLevel))].enemies.killbonus
 
 The _scope_ of a variable determines:
 
-  - where the variable can be accessed from
-  - how long the variable is stored in memory
-  - the steps required to create the variable
+- where the variable can be accessed from
+- how long the variable is stored in memory
+- the steps required to create the variable
 
 In GDevelop, there are three variable scopes:
 
-  - [Global](/gdevelop5/all-features/variables/global-variables)
-  - [Scene](/gdevelop5/all-features/variables/scene-variables)
-  - [Object](/gdevelop5/all-features/variables/object-variables)
+- [Global](/gdevelop5/all-features/variables/global-variables)
+- [Scene](/gdevelop5/all-features/variables/scene-variables)
+- [Object](/gdevelop5/all-features/variables/object-variables)
 
 Refer to the linked pages for more information about each variable scope.
 
@@ -168,8 +168,8 @@ You don't have to create (declare) variables before using them.
 
 For example, if you reference a variable that doesn't exist in an action or condition, GDevelop automatically initializes the variable with a default value. The default value is determined by the data type of the variable:
 
-  * Numeric variables are initialized with a value of `0`.
-  * Text variables are initialized with a value of `""` (an empty string).
+* Numeric variables are initialized with a value of `0`.
+* Text variables are initialized with a value of `""` (an empty string).
 
 But while it's possible use variables without first creating them, we recommend creating them anyway, as it allows GDevelop to generate optimized events and helps you keep track of the variables in your game.
 

@@ -53,8 +53,8 @@ If you're making a platformer game, it's a good idea to use the ["Platformer cha
 
 In a platformer game with the "Platformer character" behavior, collisions with platforms are handled for you.
 
-  * You can still use the **Collision condition** to check for collisions between an object and other objects (for example, between the player and enemies) and react accordingly.
-  * You can use the "Is on Floor" condition to check if an object is on a platform.
+* You can still use the **Collision condition** to check for collisions between an object and other objects (for example, between the player and enemies) and react accordingly.
+* You can use the "Is on Floor" condition to check if an object is on a platform.
 
 ![](/gdevelop5/all-features/playerisonfloorevents.png)
 
