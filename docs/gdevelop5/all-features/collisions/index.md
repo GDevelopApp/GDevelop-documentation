@@ -8,7 +8,6 @@ Most games need to detect and handle collisions between objects. Detecting and h
 GDevelop provides several different ways to handle collisions. You can detect collisions using Event Editor conditions and actions, or you can use Object behaviors.
 
 ## Make objects solids: use the "Separate objects" action (good for top-down games, RPG...)
-
 ![](/gdevelop5/all-features/separate-condition.png)
 
 You can use the "**Separate objects**" action to move objects manually. The "Separate objects" action can also move objects with "forces" or set the object's position.
@@ -44,6 +43,7 @@ You can find usage of these conditions and actions in the examples:
     Open this example online: [Bomb the Crate Example](https://editor.gdevelop.io?project=example://bomb-the-crate)
 
 [![](/gdevelop5/all-features/checkccollisionbetweenobjectsnew.png)](https://editor.gdevelop.io?project=example://bomb-the-crate)
+
 
 ## Platformer games: use the Platformer character and Platform behaviors
 

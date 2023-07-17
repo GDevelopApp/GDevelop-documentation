@@ -32,7 +32,9 @@ The "Platformer gamepad mapper" behavior can be added to the character to make t
 
 !!! tip
 
+
     Learn more about the [Platform Character behavior](/gdevelop5/behaviors/platformer).
+
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://platformer){ .md-button .md-button--primary }
 

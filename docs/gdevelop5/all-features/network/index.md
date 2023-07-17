@@ -50,7 +50,7 @@ Variables in GDevelop can contain number, strings or be a "structure" containing
 
 Structures are useful as they can store all the data concerning something, that can then be sent to a server. To do this, you can convert the structure variable to JSON, using the expression called `ToJSON`. For example:
 
-```javascript
+```
 ToJSON(Progress)
 ```
 
