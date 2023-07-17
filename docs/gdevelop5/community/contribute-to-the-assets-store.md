@@ -179,7 +179,6 @@ You can put your images in different sub folders. Each sub folder will be used a
 
 Note that you can put assets in a folder called `Unimplemented`, `TODO` and `SOURCE FILE` if the packaging isn't completely done, or if you want to keep source files of the pack. These folders will be entirely hidden in the store but are useful for updates or edits on the pack.
 
-
 ## For audio
 
 Put your .aac or .wav files (prefer .aac) directly in a folder, with the name to be displayed: `Laser effect.aac`, `Background music.aac`.
@@ -214,20 +213,20 @@ This will create high-quality audio files, but using a variable bit rate that wo
 Put the fonts in to a `Font` folders.
 Formats supported are:
 
-- .ttf
-- .otf
+  - .ttf
+  - .otf
 
 ## 3D models
 
 Supported 3D file formats are:
 
-- .glb
-- .blend
-- .gltf
-- .obj
-- .fbx
-- .x3d
-- .vrml
+  - .glb
+  - .blend
+  - .gltf
+  - .obj
+  - .fbx
+  - .x3d
+  - .vrml
 
 **Animation names** should be meaningful such as `run`, `jump`, `idle`, etc.
 
@@ -237,11 +236,9 @@ Supported 3D file formats are:
 
 **Textures** are supported only in format types that are contained, such as `.glb`, `.blend`, `.fbx`.
 
-
 !!! note
-    
-    There's no need to add images preview for the models, the asset store will automatically generate them.
 
+    There's no need to add images preview for the models, the asset store will automatically generate them.
 
 ## (⚠️ Advanced!) To make an object from scratch, for example particle emitters
 
