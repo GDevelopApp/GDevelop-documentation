@@ -64,6 +64,9 @@ Create a path from SVG commands, for instance "M 0,0 C 55,0 100,45 100,100". Com
 **Delete a path**  
 Delete a path from the memory.
 
+**Duplicate a path**  
+Duplicate a path.
+
 **Invert a path**  
 Invert a path, the end becomes the beginning.
 
