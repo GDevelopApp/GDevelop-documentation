@@ -240,6 +240,12 @@ does or inspect its content before using it.
 |<img src="https://resources.gdevelop-app.com/assets/Icons/selection-ellipse-arrow-inside.svg" class="extension-icon"></img>|**Object picking tools**|Adds various object picking related tools.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/object-picking-tools)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/format-text-rotation-none.svg" class="extension-icon"></img>|**Rotate a string 13 characters**|This extension rotates all alphabetic characters in a string by 13 characters.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/rotate13)|
 
+### Audio
+
+||Name|Description||
+|---|---|---|---|
+|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Glyphster Pack/Master/SVG/Music/308ee40b08fc7798832654e3ab95d1df6a66bfb8e7aae0a19697e120449931d0_Music_speaker_audio_sound.svg" class="extension-icon"></img>|**Audio Context**|Create procedural audio.|[Read more...](https://aliustaoglu.itch.io/audiocontext-gdevelop-extension) ([reference](https://wiki.gdevelop.io/gdevelop5/extensions/audio-context))|
+
 ### Device
 
 ||Name|Description||
