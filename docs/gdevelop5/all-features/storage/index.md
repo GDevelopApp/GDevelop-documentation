@@ -3,7 +3,7 @@ title: Storage
 ---
 # Storage
 
-Games can store data, such as the player progress. See [this guide](/gdevelop5/tutorials/storage-action-explained) for detailed explanations and examples.
+Games can store data, such as the player progress. By default, nothing is persisted between game sessions. **Storage** actions and conditions are an easy way to persist information like the player best score, items, etc...
 
 To see this in action, review the *[Save-Load example](https://editor.gdevelop.io/?project=example://save-load)* included with GDevelop.
 
@@ -11,20 +11,22 @@ To see this in action, review the *[Save-Load example](https://editor.gdevelop.i
 
     Storage actions will store all the data into **internal storage**. If you want to write or read from files, read [the page about File system](/gdevelop5/all-features/filesystem) (only for Windows, macOS, Linux).
 
-## Writing and reading values from the storage.
+## Writing and reading values from a storage
 
 When you're using the action to write or read a value from the storage, you will be asked for the **Storage** and the **Group**.
 
 ### **Storage**
 
-Name of the storage you want to write a value in to. For example, you may want to store player information in a storage called "player" and game settings in a storage called "settings" or you can just use a single storage to save everything and call it "save" it is up to you how would you like to organize this. If the storage with the name does not exist, GDevelop will create the storage. 
+Name of the storage you want to write a value in to. For example, you may want to store player information in a storage called "player" and game settings in a storage called "settings". Or you can just use a single storage to save everything and call it "save". If the storage with the name does not exist, GDevelop will create the storage.
+
+You can compare this to a file name on a disk.
 
 !!! note
      GDevelop is not using the local file system for these "storages". Instead, it uses the internal storage of the app, known as "LocalStorage" on the web.
 
 ### **Group**
 
-Group name can be used to organize the data that is being saved. This makes it easier to understand when there is a lot of data being stored in the same storage. For example, the position of the player can be stored within a group name and the life of the player can be stored within another group name inside the same storage. You can create groups contained inside another group by separating their names by a slash:
+A group name can be used to organize the data that is being saved. This makes it easier to understand when there is a lot of data being stored in the same storage. For example, the position of the player can be stored within a group name and the life of the player can be stored within another group name inside the same storage. You can create groups contained inside another group by separating their names by a slash:
 
 - `"Player/PositionX"` to store the X position of the player.
 - `"Player/Life"` to store the life of the player.
@@ -50,16 +52,16 @@ You can now close the preview window. When running the preview again, the stored
 
 On desktop computers, local storage will always be located here:
 
-* Windows: <Path to user folder>\AppData\Roaming\<Game Name>\Local Storage\leveldb
-* Linux: home/<UserName>/.config/<Game Name>/Local Storage/leveldb
+* Windows: `<Path to user folder>\AppData\Roaming\<Game Name>\Local Storage\leveldb``
+* Linux: `home/<UserName>/.config/<Game Name>/Local Storage/leveldb``
 
-e.g. If on Windows 10, the User Profile folder is on the C: drive, the User's account name is BobBobson and the game is set to the name "My GD5 Game" in the game properties, this would be the path: `C:\Users\Bobbobson\AppData\Roaming\My GD5 Game\Local Storage\leveldb`.
+For example: if on Windows 10, the User Profile folder is on the C: drive, the User's account name is BobBobson and the game is set to the name "My GD5 Game" in the game properties, this would be the path: `C:\Users\BobBobson\AppData\Roaming\My GD5 Game\Local Storage\leveldb`.
 
-This will vary by Windows version and settings, but can normally be accessed by browsing to **%AppData%** then accessing the folder that matches the game name.
+This will vary by Windows version and settings, but can normally be accessed by browsing to `%AppData%` in the Windows explorer then accessing the folder that matches the game name.
 
 ### HTML5 games
 
-If the game has been exported to an HTML5 build, and uploaded to a host such as Itch.io, local storage will be maintained with the //browser's// local storage.
+If the game has been exported to an HTML5 build, and uploaded to a host such as Itch.io, local storage will be maintained with the *browser* local storage.
 
 This will mean that each browser will have a unique location, and users will need to refer to that documentation if they want to locate it. This will also mean that most browsers will delete the save data if their local stored data is cleared.
 
