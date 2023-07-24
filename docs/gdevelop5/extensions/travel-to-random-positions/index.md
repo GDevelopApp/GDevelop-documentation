@@ -15,10 +15,16 @@ If you keep using the action, once the object reaches a destination, it will sel
 
 If you want to modify the speed of the object, edit the Pathfinding behavior of the object.
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Make object travel to a random position, with optional direction**  
+Make object travel to a random position around the object current position. The movement is initiated only when the object is not moving already (its Pathfinding behavior speed is 0).  Move towards a specified angle, if desired.
+
+
+
+---
 
 *This page is an auto-generated reference page about the **Make object travel to random positions** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

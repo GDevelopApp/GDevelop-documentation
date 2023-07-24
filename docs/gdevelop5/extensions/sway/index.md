@@ -20,10 +20,32 @@ Set *Center* and *Origin* points to the center base of the object for best resul
 Check out [this demo](https://liluo.io/bubble/swayexamples) to see what this extension can do.
 
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+
+
+## Sway 
+
+Sway multiple instances of an object at different times - useful for random grass swaying. 
+
+### Behavior actions
+
+**Set sway angle left and right**  
+Set sway angle left and right.
+
+**Set sway angle time range**  
+Set sway angle time range.
+
+**Set sway Y scale mininum and maximum**  
+Set sway Y scale mininum and maximum.
+
+**Set sway Y scale time range**  
+Set Y scale time range.
+
+_No expressions for this behavior._
+
+
+---
 
 *This page is an auto-generated reference page about the **Sway** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

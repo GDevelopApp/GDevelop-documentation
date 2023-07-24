@@ -12,7 +12,6 @@ Slide on corners of rectangular obstacles.
     doubt, contact the author to know more about what the extension
     does or inspect its content before using it.
 
-
 ---
 
 In top-down games, players may have to go though gaps the same size as their avatar. This is almost impossible to do without any assistance. This extension makes objects slide on obstacles to lead them in the right direction.
@@ -22,10 +21,25 @@ It can be used for:
 * Bomberman-like games ([open the project online](https://editor.gdevelop.io/?project=example://goose-bomberman))
 
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+
+
+## Top-down corner slider 
+
+Slide on corners of rectangular obstacles. 
+
+_No expressions for this behavior._
+
+
+## Top-down corner slider obstacle 
+
+Flag objects as obstacles for top-down characters. 
+
+_No expressions for this behavior._
+
+
+---
 
 *This page is an auto-generated reference page about the **Top-down corner sliding** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

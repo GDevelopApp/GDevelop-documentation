@@ -20,10 +20,51 @@ It can be used for:
 - Enemy movement patterns
 - Making a player constantly turn right or left ([open the project online](https://editor.gdevelop.io/?project=example://star-seeker))
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+
+
+## Ellipse movement 
+
+Move objects on ellipses or smoothly back and forth in one direction. 
+
+### Behavior actions
+
+**Loop duration**  
+Change the loop duration.
+
+**Teleport at an angle**  
+Change the movement angle. The object is teleported according to the angle.
+
+**Radius X**  
+Change the radius on X axis of the movement.
+
+**Radius Y**  
+Change the radius on Y axis of the movement.
+
+**Turn left or right**  
+Change the in which side the object is turning (left or right).
+
+**Turn the other way**  
+Change the turning direction (left or right).
+
+### Behavior conditions
+
+**Is turning left**  
+Check if the object is turning left.
+
+### Behavior expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.EllipseMovement::CenterX()` | Return the movement center position on X axis. ||
+| `Object.EllipseMovement::CenterY()` | Return the movement center position on Y axis. ||
+| `Object.EllipseMovement::LoopDuration()` | Return the loop duration (in seconds). ||
+| `Object.EllipseMovement::MovementAngle()` | Return the movement angle of the object. ||
+| `Object.EllipseMovement::RadiusX()` | Return the ellipse radius on X axis. ||
+| `Object.EllipseMovement::RadiusY()` | Return the ellipse radius on X axis. ||
+
+---
 
 *This page is an auto-generated reference page about the **Ellipse movement** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

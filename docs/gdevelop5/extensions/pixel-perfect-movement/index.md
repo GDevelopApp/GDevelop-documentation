@@ -16,10 +16,25 @@ It can be used for:
 * Pixel-perfect platformers ([open the project online](https://editor.gdevelop.io/?project=example://platformer-with-tilemap))
 * Align top-down characters on a grid ([open the project online](https://editor.gdevelop.io/?project=example://top-down-grid-movement))
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+
+
+## Pixel perfect platformer character 
+
+Seamlessly align big pixels using a platformer character movement. 
+
+_No expressions for this behavior._
+
+
+## Pixel perfect top-down movement 
+
+Seamlessly align big pixels using a top-down movement. 
+
+_No expressions for this behavior._
+
+
+---
 
 *This page is an auto-generated reference page about the **Pixel perfect movement** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

@@ -1,7 +1,7 @@
 # Make it rain
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Weather/Weather_forecast_umbrella_weather_rain_water_drop.svg" class="extension-icon"></img>
-Makes an object rain from a selected direction.
+Make an object rain from a selected direction or a selected object.
 
 **Authors and contributors** to this community extension: [VegeTato](https://gd.games/VegeTato).
 
@@ -11,7 +11,6 @@ Makes an object rain from a selected direction.
     meets all the quality standards of official extensions. In case of
     doubt, contact the author to know more about what the extension
     does or inspect its content before using it.
-
 
 ---
 
@@ -25,12 +24,39 @@ Makes an object rain from a selected direction.
 - User can set the rain intensity.
 - User can set the rain angle.
 - User can set the rain animation after the collision.
-- User have the option (On/Off) to delete the rain objects when its out of screen.
-
----
+- User have the option (On/Off) to delete the rain objects when it's out of screen.
 
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Make object rain**  
+Make object rain from a selected direction.
+
+**Make it rain from object**  
+Make object rain from another object.
+
+**Pause raining object (rain)**  
+Pause raning object (rain).
+
+**Pause raining from object (cloud)**  
+Pause raning from object (cloud).
+
+**Rain collision animation**  
+Change rain animation when it collides with other object.
+
+**Resume raining object (rain)**  
+Resume raining object.
+
+**Resume raining from object (cloud)**  
+Resume raining object from object.
+
+**Stop moving rain**  
+Could be used with collision condition.
+
+
+
+---
 
 *This page is an auto-generated reference page about the **Make it rain** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

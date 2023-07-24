@@ -19,10 +19,32 @@ Tips:
 - This only affects movement caused by forces or physics behavior
 - This may not affect movement caused by other behaviors (platformer, top-down, draggable, etc)
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+
+
+## Enforce max movement speed 
+
+Limit the maximum speed an object will move from (non-physics) forces. 
+
+_No expressions for this behavior._
+
+
+## Enforce max movement speed (physics) 
+
+Limit the maximum speed an object will move from physics forces. 
+
+_No expressions for this behavior._
+
+
+## Enforce max rotation speed (physics) 
+
+Limit the maximum rotation speed of an object from physics forces. 
+
+_No expressions for this behavior._
+
+
+---
 
 *This page is an auto-generated reference page about the **Speed restrictions** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

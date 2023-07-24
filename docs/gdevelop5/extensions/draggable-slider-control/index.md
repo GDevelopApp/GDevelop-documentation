@@ -29,10 +29,98 @@ Breaking changes (1.0.0)
 - Hidden sliders can be dragged. The "enable" action must be used to disable them.
 
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+
+
+## Draggable slider 
+
+Let users select a numerical value by dragging a slider. 
+
+### Behavior actions
+
+**Active track color **  
+Change the color of the track that is LEFT of the thumb.
+
+**Active track opacity**  
+Change opacity of active track.
+
+**Enable interactions**  
+Enable or disable the slider. Users cannot interact while it is disabled.
+
+**Halo opacity (hover)**  
+Change the halo opacity when the thumb is hovered.
+
+**Halo opacity (pressed)**  
+Change opacity of halo when pressed.
+
+**Halo radius**  
+Change radius of the halo around the thumb.  This size is also used to detect interaction with the slider.
+
+**Inactive track color**  
+Change the color of the track that is RIGHT of the thumb.
+
+**Inactive track opacity**  
+Change opacity of inactive track.
+
+**Rounded track ends**  
+Make track use rounded ends.
+
+**Thumb color**  
+Change the thumb color to a specific value.
+
+**Thumb height**  
+Change height of thumb.
+
+**Thumb opacity**  
+Change opacity of thumb.
+
+**Thumb shape**  
+Change shape of thumb (circle or rectangle).
+
+**Thumb width**  
+Change width of thumb.
+
+**Tick spacing**  
+Change the tick spacing of a slider.
+
+**Track length**  
+Change length of track.
+
+**Track thickness**  
+Change thickness of track.
+
+**Slider value**  
+Change the value of a slider (this will move the thumb to the correct position).
+
+**Slider maximum value**  
+Change the maximum value of a slider.
+
+**Slider minimum value**  
+Change the minimum value of a slider.
+
+### Behavior conditions
+
+**Being dragged**  
+Check if the slider is being dragged.
+
+**Interactions enabled**  
+Check if the slider interations are enabled.
+
+### Behavior expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.DraggableSliderControl::ThumbHeight()` | Height of thumb. ||
+| `Object.DraggableSliderControl::TickSpacing(number)` | The tick spacing of a slider. ||
+| | _number_ | Tick spacing |
+| `Object.DraggableSliderControl::TrackLength()` | Length of track. ||
+| `Object.DraggableSliderControl::TrackThickness()` | Thickness of track. ||
+| `Object.DraggableSliderControl::Value()` | The value of the slider (based on position of the thumb). ||
+| `Object.DraggableSliderControl::ValueMax()` | The maximum value of a slider. ||
+| `Object.DraggableSliderControl::ValueMin()` | The minimum value of a slider. ||
+
+---
 
 *This page is an auto-generated reference page about the **Draggable slider (for Shape Painter)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

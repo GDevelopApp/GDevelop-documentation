@@ -9,10 +9,18 @@ Hash with MD5 or SHA256.
 
 Adds expressions to allow hashing strings via MD5 or SHA256.
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Hash::GenerateHashMD5(string)` | Returns a Hash a MD5 based on a string. ||
+| | _string_ | String to be hashed |
+| `Hash::GenerateHashSHA256(string)` | Returns a Hash a SHA256 based on a string. ||
+| | _string_ | String to be hashed |
+
+---
 
 *This page is an auto-generated reference page about the **Hash** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

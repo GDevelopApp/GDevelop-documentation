@@ -12,7 +12,6 @@ Convert object to trampoline platform.
     doubt, contact the author to know more about what the extension
     does or inspect its content before using it.
 
-
 ---
 
 # User can
@@ -42,10 +41,21 @@ Convert object to trampoline platform.
 - *Recommended to use platform behavior (Jump through) on the trampoline.*  
 - *Extension action must run in every frame.*
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Trampoline Platform**  
+Convert object to trampoline platform.
+
+## Conditions
+
+**Trampoline has been triggered**  
+Check if a trampoline has been triggered.
+
+
+
+---
 
 *This page is an auto-generated reference page about the **Trampoline Platform** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

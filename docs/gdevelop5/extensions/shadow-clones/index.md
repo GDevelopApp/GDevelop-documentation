@@ -34,10 +34,19 @@ Watch this [tutorial video](https://youtu.be/2t4ANYgrrak) to see examples of how
 
 [Read more...](https://www.youtube.com/watch?v=2t4ANYgrrak)
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Animate shadow clones that follow the path of a primary object**  
+Select the primary object, the shadow clone object, the number of shadow clones, the number of frames between shadow clones, the rate that shadow clones will fade away (if desired), the Z-value of the shadow clones, and the layer the shadow clones will be created on.
+
+**Delete shadow clone objects that are linked to a primary object**  
+Delete shadow clone objects that are linked to a primary object.
+
+
+
+---
 
 *This page is an auto-generated reference page about the **Animate Shadow Clones** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

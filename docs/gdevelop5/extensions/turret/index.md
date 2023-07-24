@@ -10,10 +10,43 @@ A turret movement with customizable speed, acceleration and stop angles.
 With this behavior, you can make an object rotate like a turret toward a position.
 It may be used with the **Bullet** extension to fire objects.
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+
+
+## Turret movement 
+
+A turret movement with customizable speed, acceleration and stop angles. 
+
+### Behavior actions
+
+**Move clockwise**  
+Move clockwise.
+
+**Move counter-clockwise**  
+Move counter-clockwise.
+
+**Move toward a position**  
+Move toward a position.
+
+**Aiming angle**  
+Change the aiming angle.
+
+**Set aiming angle toward a position**  
+Set angle toward a position.
+
+### Behavior conditions
+
+**Is moving**  
+Check if the turret is moving.
+
+### Behavior expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.Turret::AimingAngle()` | Aiming angle (between 0° and 360° if no stop angle are set). ||
+
+---
 
 *This page is an auto-generated reference page about the **Turret movement** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

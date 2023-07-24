@@ -12,7 +12,6 @@ Adds easy to use pre-made animations.
     doubt, contact the author to know more about what the extension
     does or inspect its content before using it.
 
-
 ---
 
 Helpful for making animations for sprites without having to spend time animating the character in editors
@@ -24,10 +23,31 @@ Helpful for making animations for sprites without having to spend time animating
 - User can change the origin point of the object to control the animations
 - Animation behavior must be installed in the object to make the extension works
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Conditions
+
+**Check if the animation has finished**  
+Check if the selected animation has finished.
+
+**Check if the door is open**  
+From *3D open door* animation.
+
+
+
+## Animation Behavior 
+
+Animate any sprite with this extension. 
+
+### Behavior actions
+
+**Animation system**  
+edit the object ("Origin" point) to control how the animation goes.
+
+_No expressions for this behavior._
+
+
+---
 
 *This page is an auto-generated reference page about the **Animation system** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

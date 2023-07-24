@@ -19,10 +19,53 @@ The top-down RPG example uses this extension for damage animations ([open the pr
 
 [Read more...](https://victrisgames.itch.io/gdevelop-camera-shake-example)
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+
+
+## Shake object (position, angle) 
+
+Shake an object, using one or more ways to shake (position, angle).
+This behavior can be used on any type of object. 
+
+### Behavior actions
+
+**Shake object (position, angle)**  
+Shake an object, using one or more ways to shake (position, angle). Make sure to "Stop shaking" before starting a new shake if it uses different parameters. 
+
+**Stop shaking the object**  
+Stop any shaking of object that was initiated by the Shake Object extension.
+
+### Behavior conditions
+
+**Check if an object is shaking**  
+Check if an object is shaking.
+
+_No expressions for this behavior._
+
+
+## Shake object (position, angle, scale) 
+
+Shake an object, using one or more ways to shake (position, angle, scale)
+This behavior can only be used on sprite objects. 
+
+### Behavior actions
+
+**Shake object (position, angle, scale)**  
+Shake an object, using one or more ways to shake (position, angle, scale). Make sure to "Stop shaking" before starting a new shake if it uses different parameters.
+
+**Stop shaking an object**  
+Stop shaking an object.
+
+### Behavior conditions
+
+**Check if an object is shaking**  
+Check if an object is shaking.
+
+_No expressions for this behavior._
+
+
+---
 
 *This page is an auto-generated reference page about the **Shake object** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

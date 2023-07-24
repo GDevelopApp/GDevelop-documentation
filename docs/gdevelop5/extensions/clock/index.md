@@ -12,7 +12,6 @@ Add clocks into your game.
     doubt, contact the author to know more about what the extension
     does or inspect its content before using it.
 
-
 ---
 
 Add clocks to your game with ease including
@@ -23,10 +22,37 @@ Add clocks to your game with ease including
     Numeral date
 .
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Clock::TwelveHour()` | Modify text to display time in 12 - Hour format. ||
+| `Clock::YearFunction()` | Modify text to display year. ||
+
+## Date 
+
+Modify a text object to display the date. 
+
+_No expressions for this behavior._
+
+
+## Time 
+
+Modify a text object to display the time. 
+
+_No expressions for this behavior._
+
+
+## Year 
+
+Modify a text object to display the year. 
+
+_No expressions for this behavior._
+
+
+---
 
 *This page is an auto-generated reference page about the **Clock** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

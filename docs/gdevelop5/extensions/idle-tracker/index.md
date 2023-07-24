@@ -15,10 +15,26 @@ To use:
 * Configure the distance tolerance and the amount of time before considering objects idle.
 * Use the conditions in your events to know when the object is idle (or when it has just moved).
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+
+
+## Idle tracker 
+
+Check if an object has not moved (with some tolerance, 20 pixels by default) for a certain duration (1 second by default). 
+
+### Behavior conditions
+
+**Has just moved from last position**  
+Check if the object has just moved from its last position (using the tolerance configured in the behavior).
+
+**Is idle (since enough time)**  
+Check if the object is idle: it has not moved from its last position (or within the tolerance) for the time configured in the behavior.
+
+_No expressions for this behavior._
+
+
+---
 
 *This page is an auto-generated reference page about the **Idle object tracker** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

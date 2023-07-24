@@ -25,10 +25,25 @@ An authorized platform is a domain name of a website where the game is supposed 
 
 [Read more...](https://oxey405.com/projects/execution-context/index.html)
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Add a valid platform**  
+Adds a new valid platform (domain name where the game is expected to be played, for example, gd.games).
+
+## Conditions
+
+**Is the game running on an authorized platform**  
+Checks if the game is executed on an authorized platform (preferably, run this only once at beginning of the game).
+
+## Expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `AuthorizedPlatformsValidation::CurrentRefferer()` | Get the referrer's location (the domain of the website that hosts your game). ||
+
+---
 
 *This page is an auto-generated reference page about the **Platforms Validation** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

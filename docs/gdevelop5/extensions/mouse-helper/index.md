@@ -13,10 +13,18 @@ Breaking change of the version 2.0.0:
 
 - The button behavior has been removed. The button object can be used instead. Some ready to use buttons can be downloaded from the [Buttons pack](https://editor.gdevelop.io/?initial-dialog=asset-store&asset-pack=menu-buttons-menu-buttons) of the asset store.
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+
+
+## Cursor 
+
+Turn any object into a mouse cursor. 
+
+_No expressions for this behavior._
+
+
+---
 
 *This page is an auto-generated reference page about the **Cursor object** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

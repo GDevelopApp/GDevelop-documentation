@@ -32,10 +32,22 @@ Example uses:
 
 An example shows how to use this extension ([open the project online](https://editor.gdevelop.io/?project=example://orbiting-objects)).
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Move objects in elliptical orbit around a center object**  
+Move objects in elliptical orbit around a center object. Z-order is changed to make 3D effect.
+
+**Move objects in orbit around a center object**  
+Move objects in orbit around a center object.
+
+**Delete orbiting objects that are linked to a center object**  
+Delete orbiting objects that are linked to a center object.
+
+
+
+---
 
 *This page is an auto-generated reference page about the **Make objects orbit around a center object** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

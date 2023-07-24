@@ -12,7 +12,6 @@ Flip platformer character gravity up side down.
     doubt, contact the author to know more about what the extension
     does or inspect its content before using it.
 
-
 ---
 
 - Easily make VVVV games.
@@ -35,10 +34,26 @@ Flip platformer character gravity up side down.
 *Note: this extension must run in every frame, so make sure to leave the event condition empty.  
 Recommended: Set the platformer character sprite Origin and Center points to sprite center for the best experience.*
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Flip gravity 1 object (Floor, Roof)**  
+Flip the gravity for platformer character (you have 1 object), Example:  
+• Floor object at the bottom, Floor object at the top.
+
+**Flip gravity 2 objects (1 for floor, 1 for roof)**  
+Flip the gravity for platformer character (you have 2 objects), Examples:  
+• Floor object at the bottom, Roof object at the top.
+• Floor object at the bottom, Floor object at the top.
+• Roof object at the bottom, Roof object at the top.
+
+**Reset gravity back to normal**  
+Reset the gravity back to normal for the selected object.
+
+
+
+---
 
 *This page is an auto-generated reference page about the **Flip Gravity** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

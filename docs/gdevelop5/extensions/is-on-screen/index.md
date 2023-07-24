@@ -11,10 +11,24 @@ This extension adds conditions to check if an object is located within the visib
 
 Note that this does not take into account any object visibility, such as being hidden or 0 opacity, but can be combined with those existing conditions.
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+
+
+## Is on screen 
+
+This behavior provides a condition to check if the object is located within the visible portion of its layer's camera. The condition also allows for specifying padding to the virtual screen border.
+Note that object visibility, such as being hidden or 0 opacity, is not considered (but you can use those existing conditions in addition to this behavior). 
+
+### Behavior conditions
+
+**Is on screen**  
+Checks if an object position is within the viewport of its layer.
+
+_No expressions for this behavior._
+
+
+---
 
 *This page is an auto-generated reference page about the **Object "Is On Screen" Detection** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

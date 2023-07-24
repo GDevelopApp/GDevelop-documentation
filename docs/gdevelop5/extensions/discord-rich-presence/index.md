@@ -11,10 +11,19 @@ Allows adding discord rich presence to your games. Only works on Windows/Mac/Lin
 
 You can get more infos on each field via [the discord documentation](https://discord.com/developers/docs/rich-presence/how-to#updating-presence-update-presence-payload-fields).
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Initialize rich presence**  
+Attempts to connect to discord if it is installed, and initialize rich presence.
+
+**Update rich presence**  
+Update the data in the rich presence. See the discord documentation for more info on each field. Each field except state is optional.
+
+
+
+---
 
 *This page is an auto-generated reference page about the **Discord rich presence (Windows, Mac, Linux)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

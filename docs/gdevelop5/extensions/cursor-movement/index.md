@@ -12,10 +12,19 @@ Provides two conditions:
 * The cursor is moving
 * The cursor has stayed still for a given duration
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Conditions
+
+**Cursor is moving**  
+Check if the cursor is moving on the default layer.
+
+**Cursor stays still**  
+Check if the cursor has stayed still for the specified time on the default layer.
+
+
+
+---
 
 *This page is an auto-generated reference page about the **Cursor movement conditions** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

@@ -25,10 +25,34 @@ An example shows how to procedurally generate dungeons or caves ([open the proje
 
 [Read more...](https://victrisgames.itch.io/extension-dungeon-generator)
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Calculate the number of grid neighbors around an object**  
+Calculate the number of grid neighbors around an object.  Use "NeighborCount(Object)" expression to retrieve this value.
+
+**Generate a dungeon cave**  
+Generate a dungeon cave using a random walk algorithm.  When the walker touches an edge of the map, it is moved back to the center of map.
+
+**Generate a dungeon with room and hallways**  
+Generate a dungeon by placing rooms in random locations and moving them if they collide with each other.  Rooms are connected with hallways.
+
+## Conditions
+
+**Hallway is a room entrance**  
+Check if hallway is a room entrance.
+
+## Expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `DungeonGenerator::NeighborCount(object)` | Number of grid neighbors of an object.  Requires running the "CalculateGridNeighbors" action before using this expression. ||
+| | _object_ | Object |
+| `DungeonGenerator::RoomID(object)` | The numerical order this room was created.  (Range: 1 to total number of rooms). ||
+| | _object_ | Room object |
+
+---
 
 *This page is an auto-generated reference page about the **Dungeon generator** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

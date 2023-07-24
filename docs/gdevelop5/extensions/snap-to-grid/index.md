@@ -16,10 +16,16 @@ It's useful for:
 
 A [simple example](https://editor.gdevelop.io/?project=example://snap-object-to-grid) shows how to snap objects that are dragged with the mouse.
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Snap objects to a virtual grid**  
+Snap object to a virtual grid (i.e: this is not the grid used in the editor).
+
+
+
+---
 
 *This page is an auto-generated reference page about the **Rectangular grid** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

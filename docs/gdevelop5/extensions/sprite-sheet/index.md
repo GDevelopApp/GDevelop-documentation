@@ -63,10 +63,81 @@ This behavior allows displaying frames or animations from a more intelligent spr
 ```
 `frames` define each image inside the spritesheet and `animations` are the set of frames that form an animation. For compatibility with the TexturePacker pixi.js preset, the JSON doesn't contain the animation speed, so it has to be specified in the behavior properties.
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+
+
+## Horizontal sprite sheet animator 
+
+Animates a horizontal (left to right) sprite sheet. 
+
+### Behavior actions
+
+**Pause animation**  
+Pause the animation of a sprite sheet.
+
+**Play animation**  
+Play an animation from the sprite sheet.
+
+**Resume animation**  
+Resume a paused animation of a sprite sheet.
+
+### Behavior expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.HorizontalSpriteSheetAnimator::CurrentFrame()` | The current frame of the current animation. ||
+
+## JSON sprite sheet animator 
+
+Animates a sprite sheet using JSON (see extension description). 
+
+### Behavior actions
+
+**Display a frame**  
+Display one frame without animating the object.
+
+**Load data from a JSON resource**  
+Loads a new JSON spritesheet data into the behavior.
+
+**Pause animation**  
+Pause the animation of a sprite sheet.
+
+**Play Animation**  
+Play an animation from the sprite sheet.
+
+**Resume animation**  
+Resume a paused animation of a sprite sheet.
+
+### Behavior expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.JSONSpriteSheetAnimator::CurrentAnimation()` | The name of the current animation. __null if no animation is playing. ||
+| `Object.JSONSpriteSheetAnimator::CurrentFrame()` | The name of the currently displayed frame. ||
+
+## Vertical sprite sheet animator 
+
+Animates a vertical (top to bottom) sprite sheet. 
+
+### Behavior actions
+
+**Pause animation**  
+Pause the animation of a sprite sheet.
+
+**Play animation**  
+Play an animation from the sprite sheet.
+
+**Resume animation**  
+Resume a paused animation of a sprite sheet.
+
+### Behavior expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.VerticalSpriteSheetAnimator::CurrentFrame()` | The current frame of the current animation. ||
+
+---
 
 *This page is an auto-generated reference page about the **Sprite Sheet Animations** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

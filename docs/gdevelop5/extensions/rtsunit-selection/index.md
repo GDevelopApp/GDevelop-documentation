@@ -38,10 +38,51 @@ Tips:
 
 [Read more...](https://victrisgames.itch.io/rts-like-unit-selection)
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Assign unit to a control group**  
+Assign unit to a control group.
+
+**Assign a unique ID to each "Selected" unit**  
+Assign a unique ID to each "Selected" unit.  This should be ran every time there is a change in the number of "Selected" units.
+
+**Enable control groups using default controls**  
+Enable control groups using default controls.
+
+**Allow player to select units by clicking on them or dragging a selection box**  
+Allow player to select units by clicking on them or dragging a selection box.
+
+**Set unit as "Preselected"**  
+Set unit as "Preselected".
+
+**Set unit as "Selected"**  
+Set unit as "Selected".
+
+## Conditions
+
+**Check if a unit is assigned to a control group**  
+Check if a unit is assigned to a control group.
+
+**Is unit "Preselected"**  
+Check if the unit is "Preselected".
+
+**Is unit "Selected"**  
+Check if the unit is "Selected".
+
+## Expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `RTSUnitSelection::ControlGroupID(object)` | Control group this unit is assigned to. ||
+| | _object_ | Unit |
+| `RTSUnitSelection::SelectedUnitID(object)` | Unit ID of a selected unit. ||
+| | _object_ | Unit |
+| `RTSUnitSelection::TotalSelectedUnits(object)` | Provides the total number of _PARAM1_ that are currently "Selected". ||
+| | _object_ | Unit |
+
+---
 
 *This page is an auto-generated reference page about the **RTS-like unit selection** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

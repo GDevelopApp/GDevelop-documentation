@@ -12,7 +12,6 @@ Align objects on the scene relatively to the window (or screen size).
     doubt, contact the author to know more about what the extension
     does or inspect its content before using it.
 
-
 ---
 
 Align objects on the scene relatively to the window (or screen size).
@@ -38,10 +37,55 @@ Actions provided are:
 * ToScreenRight: horizontally to the right in screen
 * ToScreenCenter: horizontally to the center in screen
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Align object to bottom of scene**  
+Align object to vertical bottom of scene.
+
+**Align object to horizontal center in scene**  
+Align object to horizontal center in scene.
+
+**Center object in scene horizontally and vertically**  
+Center object in scene horizontally and vertically.
+
+**Align object to horizontal left in scene**  
+Align object to horizontal left in scene.
+
+**Align object to vertical middle of scene**  
+Align object to vertical middle of scene.
+
+**Align object to horizontal right in scene**  
+Align object to horizontal right in scene.
+
+**Align object to vertical top of scene**  
+Align object to vertical top of scene.
+
+**Align object to bottom of screen**  
+Align object to vertical bottom of screen.
+
+**Align object to horizontal center in screen**  
+Align object to horizontal center in screen.
+
+**Center object in screen horizontally and vertically**  
+Center object in screen horizontally and vertically.
+
+**Align object to horizontal left in screen**  
+Align object to horizontal left in screen.
+
+**Align object to vertical middle of screen**  
+Align object to vertical middle of screen.
+
+**Align object to horizontal right in screen**  
+Align object to horizontal right in screen.
+
+**Align object to vertical top of screen**  
+Align object to vertical top of screen.
+
+
+
+---
 
 *This page is an auto-generated reference page about the **Align object on the screen** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

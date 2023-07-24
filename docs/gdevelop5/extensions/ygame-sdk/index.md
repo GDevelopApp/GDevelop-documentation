@@ -12,15 +12,76 @@ YGameSDK.
     doubt, contact the author to know more about what the extension
     does or inspect its content before using it.
 
-
 ---
 
 YGameSDK.
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**GetLang**  
+GetLang.
+
+**GetPlayerName**  
+GetPlayerName.
+
+**InitPayments**  
+InitPayments.
+
+**InitPlayer**  
+InitPlayer.
+
+**InitSDK**  
+Init SDK.
+
+**LoadLeaderboardByName**  
+LoadLeaderboardByName.
+
+**LoadPurchaseByID**  
+LoadPurchaseByID.
+
+**PurchaseByID**  
+PurchaseByID.
+
+**SetScoreLeaderboard**  
+SetScoreLeaderboard.
+
+**ShowBanner**  
+ShowBanner.
+
+**ShowVideo**  
+ShowVideo.
+
+## Conditions
+
+**IsInit**  
+IsInit SDK.
+
+**IsInitLeaderboard**  
+IsInitLeaderboard.
+
+**IsInitPayments**  
+IsInitPayments.
+
+**IsInitPlayer**  
+IsInitPlayer.
+
+**IsVideoClosed**  
+IsVideoClosed.
+
+**IsVideoFailed**  
+IsVideoFailed.
+
+**IsVideoOpen**  
+IsVideoOpen.
+
+**IsVideoRewarded**  
+IsVideoRewarded.
+
+
+
+---
 
 *This page is an auto-generated reference page about the **YGameSDK** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

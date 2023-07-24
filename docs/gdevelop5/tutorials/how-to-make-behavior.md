@@ -20,7 +20,7 @@ In this article, we're showing how to:
 
 ## 1. How to create events "for an object" using a behavior:
 
-Create an extension that will contain behaviors. The name is up to you. You can use extensions to group behaviors related to some of your game objects.
+[Create an extension](/gdevelop5/extensions/create) that will contain behaviors. The name is up to you. You can use extensions to group behaviors related to some of your game objects.
 
 ![](/gdevelop5/tutorials/how-to-make-behavior/pasted/20200329-161907.png)
 

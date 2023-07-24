@@ -11,10 +11,24 @@ Move the camera following an impulse trajectory.
 
 It can be used to simulate earthquakes or impacts.
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Add a camera impulse**  
+Add an impulse to the camera position.
+
+**Add a camera impulse (angle)**  
+Add an impulse to the camera position.
+
+## Conditions
+
+**Camera impulse is playing**  
+Check if a camera impulse is playing.
+
+
+
+---
 
 *This page is an auto-generated reference page about the **Camera impulse** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

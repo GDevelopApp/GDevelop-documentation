@@ -16,11 +16,11 @@ The "Physics" behavior allows objects to behave according to the laws of physics
 ## Add behavior to object
 To add physics behavior to an object, open the object properties by right clicking on the created object in the Objects Editor. Then, select "Edit object" from the popup list that appears. Finally, select the Behaviors tab and click the "add behavior" button.
 Choose the "Physics engine":
-![](/gdevelop5/behaviors/physics-behavior-inlist.png)
+![](physics-behavior-inlist.png)
 
 ## Properties
 Once the behavior is added to the object, there is a number of options to customize:
-![](/gdevelop5/behaviors/physics-behavior-options.png)
+![](physics-behavior-options.png)
 
 **Consider as Bullet**
 
@@ -71,7 +71,7 @@ _perfectly elastic collision_.
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://physics){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/hingeleverdemo.png)](https://editor.gdevelop.io/?project=example://physics)
+[![](hingeleverdemo.png)](https://editor.gdevelop.io/?project=example://physics)
 
 
 
@@ -79,7 +79,7 @@ _perfectly elastic collision_.
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://car-physics){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/carphysics.png)](https://editor.gdevelop.io/?project=example://car-physics)
+[![](carphysics.png)](https://editor.gdevelop.io/?project=example://car-physics)
 
 
 
@@ -87,7 +87,7 @@ _perfectly elastic collision_.
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://object-gravity){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/objectgravity.png)](https://editor.gdevelop.io/?project=example://object-gravity)
+[![](objectgravity.png)](https://editor.gdevelop.io/?project=example://object-gravity)
 
 ## Reference
 

@@ -22,10 +22,59 @@ Tips:
 
 [Read more...](https://victrisgames.itch.io/extension-sinemovement-and-deptheffect)
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+
+
+## Depth effect 
+
+The scale of the object decreases the closer it is to the horizon, giving the illusion that the object is travelling away from the viewer. 
+
+### Behavior actions
+
+**Set exponential rate of change**  
+Set Y exponential rate of change (Default: 2).
+
+**Set Y position of horizon**  
+Set Y position of the horizon, where objects are infinitely small (Default: 0).
+
+**Set max scale**  
+Set max scale when the object is at the bottom of the screen (Default: 2).
+
+### Behavior expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.DepthEffect_Sprite::ExponentY()` | Exponential rate of change, based on Y position. ||
+| `Object.DepthEffect_Sprite::HorizonY()` | Y value of horizon. ||
+| `Object.DepthEffect_Sprite::MaxScale()` | Max scale when the object is at the bottom of the screen. ||
+| `Object.DepthEffect_Sprite::PercentAwayFromHorizon()` | Percent away from the horizon.  This is "0" at the horizon, and "1" at the bottom of the screen. ||
+
+## Depth effect 
+
+The scale of the object decreases the closer it is to the horizon, giving the illusion that the object is travelling away from the viewer. 
+
+### Behavior actions
+
+**Set exponential rate of change**  
+Set Y exponential rate of change (Default: 2).
+
+**Set Y position of horizon**  
+Set Y position of horizon, where objects are infinitely small (Default: 0).
+
+**Set max scale**  
+Set max scale when the object is at the bottom of the screen (Default: 2).
+
+### Behavior expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.DepthEffect_Text::ExponentY()` | Exponential rate of change in scale based on the Y position. ||
+| `Object.DepthEffect_Text::HorizonY()` | Y value of horizon. ||
+| `Object.DepthEffect_Text::MaxScale()` | Max scale when the object is at the bottom of the screen. ||
+| `Object.DepthEffect_Text::PercentAwayFromHorizon()` | Percent away from horizon.  This is 0 at the horizon, and 1 at the bottom of the screen. ||
+
+---
 
 *This page is an auto-generated reference page about the **Depth effect** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

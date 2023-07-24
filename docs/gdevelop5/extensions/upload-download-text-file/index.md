@@ -12,7 +12,6 @@ Allows users to upload/download text content to a filename and vice versa.
     doubt, contact the author to know more about what the extension
     does or inspect its content before using it.
 
-
 ---
 
 Allows users to upload/download text content to a filename and vice versa. 
@@ -22,10 +21,24 @@ Allows users to upload/download text content to a filename and vice versa.
 
 [Read more...](https://developer.mozilla.org/en-US/docs/Web/API/File_API/Using_files_from_web_applications)
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Download file with text content**  
+Download file with text content.
+
+**Upload a text file to text input**  
+Upload a text file to text input.
+
+## Conditions
+
+**Uploading text file finished?**  
+Uploading text file finished.
+
+
+
+---
 
 *This page is an auto-generated reference page about the **Upload Download Text File** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

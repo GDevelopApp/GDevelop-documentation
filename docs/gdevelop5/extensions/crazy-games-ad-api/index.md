@@ -12,17 +12,50 @@ Enable developer to use CrazyGamesAds SDK.
     doubt, contact the author to know more about what the extension
     does or inspect its content before using it.
 
-
 ---
 
 Enable developer to use CrazyGamesAds SDK
 
 [Read more...](https://docs.crazygames.com/sdk/html5/)
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Actions
+
+**Display Crazy Game Ad**  
+Display Crazy Game Ad.
+
+**Display CrazyGames Happy Time**  
+Display CrazyGames Happy Time.
+
+**Scan for adblockers**  
+Scan for adblockers.
+
+## Conditions
+
+**Check if Ad Finished playing**  
+Check if Ad Finished playing.
+
+**Check if Ad had an error**  
+Check if Ad had an error.
+
+**Returns an invite link**  
+Compare Returns an invite link.
+
+**Check if user is using an ad blocker**  
+Check if user is using an ad blocker.
+
+**Check if CrazyGame SDK is loaded**  
+Check if CrazyGame SDK is loaded.
+
+## Expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `CrazyGamesAdApi::InviteLink(string)` | Return Returns an invite link. ||
+| | _string_ | RoomId |
+
+---
 
 *This page is an auto-generated reference page about the **CrazyGamesAds Extension** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

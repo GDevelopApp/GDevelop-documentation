@@ -12,7 +12,6 @@ This extension rotates all alphabetic characters in a string by 13 characters.
     doubt, contact the author to know more about what the extension
     does or inspect its content before using it.
 
-
 ---
 
 By passing a string to this expression, you can go from:
@@ -24,10 +23,16 @@ to
 
 This can be used for basic secrets, passwords, or very insecure encryption of data.
 
----
-
 !!! tip
-
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
+
+## Expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Rotate13::rot13(string)` | Rotate String _PARAM1_  13 Characters. ||
+| | _string_ | String to Rotate |
+
+---
 
 *This page is an auto-generated reference page about the **Rotate a string 13 characters** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
