@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/UI Essentials/UI Essentials_bulb.svg" class="extension-icon"></img>
 Make light using sprites.
 
-**Authors and contributors** to this community extension: [AstroCookie](https://gd.games/AstroCookie).
+**Authors and contributors** to this community extension: [MelonDev](https://gd.games/MelonDev).
 
 !!! warning
     This is an extension made by a community member — but not reviewed

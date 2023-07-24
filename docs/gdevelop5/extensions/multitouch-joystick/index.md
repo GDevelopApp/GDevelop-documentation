@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Videogames/Videogames_controller_joystick_arrows_direction.svg" class="extension-icon"></img>
 Activate a joystick or buttons that can be controlled by interacting with a touchscreen.
 
-**Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames), [AstroCookie](https://gd.games/AstroCookie), [xellix](https://gd.games/xellix).
+**Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames), [MelonDev](https://gd.games/MelonDev), [xellix](https://gd.games/xellix).
 
 !!! warning
     This is an extension made by a community member — but not reviewed
