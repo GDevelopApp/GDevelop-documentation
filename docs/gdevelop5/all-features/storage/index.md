@@ -52,8 +52,8 @@ You can now close the preview window. When running the preview again, the stored
 
 On desktop computers, local storage will always be located here:
 
-* Windows: `<Path to user folder>\AppData\Roaming\<Game Name>\Local Storage\leveldb``
-* Linux: `home/<UserName>/.config/<Game Name>/Local Storage/leveldb``
+* Windows: `PATH_TO_USER_FOLDER\AppData\Roaming\GAME_NAME\Local Storage\leveldb`
+* Linux: `home/USER_NAME/.config/GAME_NAME/Local Storage/leveldb`
 
 For example: if on Windows 10, the User Profile folder is on the C: drive, the User's account name is BobBobson and the game is set to the name "My GD5 Game" in the game properties, this would be the path: `C:\Users\BobBobson\AppData\Roaming\My GD5 Game\Local Storage\leveldb`.
 
