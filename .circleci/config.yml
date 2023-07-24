@@ -41,12 +41,11 @@ jobs:
       - run:
           name: Copy GitHub pages specific files
           command: |
-            cp reference-docs-template/index.html GDevelop/docs
-            cp reference-docs-template/CNAME GDevelop/docs
+            cp -r reference-docs-template/. GDevelop/docs
 
       - run:
           name: Deploy docs to gh-pages branch
-          command: cd GDevelop && gh-pages --dist docs --repo 'https://github.com/GDevelopApp/GDevelop-documentation.git' --message "Update documentation [skip ci]"
+          command: cd GDevelop && gh-pages --dist docs --repo 'https://github.com/GDevelopApp/GDevelop-documentation.git' --message "Update documentation [skip ci]" --dotfiles true
 
       - run:
           name: Copy documentation reference to the wiki documentation.
