@@ -47,7 +47,7 @@ Tips:
 
 
 
-## Rectangular Movement 
+## Rectangular Movement (deprecated) 
 
 Allow an object to move in a rectangular pattern. 
 

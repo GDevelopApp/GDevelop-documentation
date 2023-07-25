@@ -46,7 +46,7 @@ Tips:
 
 
 
-## Sine Movement 
+## Sine Movement (deprecated) 
 
 Allow an object to move smoothly on the X and/or Y axis following a sine wave.
 
