@@ -42,7 +42,7 @@ You can have more than one tree in a single file and for example have the dialog
 To edit a node in Yarn, you just double click on it. To close and save it, just click outside of its editor area.
 
 When you edit a node, you are writing in Yarn syntax.
-Writing stories in Yarn is just like writing dialogue, but also sprinkling it with behind the scenes hidden to the player instructions wrapped in special tags. These instructions can be used to drive what happens in the game. Depending on <<the>> \[\[wrapping\]\] tags, there are three types of data that yarn understands - these three types are called "Dialogue line types" in my extension:
+Writing stories in Yarn is just like writing dialogue, but also sprinkling it with behind the scenes hidden to the player instructions wrapped in special tags. These instructions can be used to drive what happens in the game. Depending on <\<the>> \[\[wrapping\]\] tags, there are three types of data that yarn understands - these three types are called "Dialogue line types" in my extension:
 
 ### 1. Text line type
 The text is what the user will see displayed when they reach the dialogue branch it is on. If you don't put any special wrappers of the other type around your text - it will remain ordinary text. Yarn will give you a hint when that is not the case by changing its colour.
@@ -51,23 +51,23 @@ The text is what the user will see displayed when they reach the dialogue branch
 
     New lines are interpreted by yarn as logical pauses between two text line types. So whenever you write text on a new line - that is also used to tell the game engine to start printing the text on the new line after the player has pressed a button. Of course that behaviour is entirely optional and depends on how you use the  extension. Since it is the most common one, it should be noted that it is there by design.
 
-### 2. <<Command>> line type
+### 2. <\<Command>> line type
 Remember the magic Yarn syntax we mentioned earlier - the words we place between the ordinary text the player reads to make things happen in the game?
-We call them commands. They are wrapped between **<<** and **>>**. Anything you place between these two symbols is a  **<<hidden message>>** that the player will not see, but the Gdevelop will. These messages can be used to trigger events for you. If you are using the extension's built in scrolling logic, these commands will be triggered whenever the text scrolling has reached the <<command>>.
+We call them commands. They are wrapped between **<<** and **>>**. Anything you place between these two symbols is a  **<\<hidden message>>** that the player will not see, but the Gdevelop will. These messages can be used to trigger events for you. If you are using the extension's built in scrolling logic, these commands will be triggered whenever the text scrolling has reached the <\<command>>.
 
 Commands can also take parameters that the engine can use to decide on how to trigger something. To pass parameters to a command, just type them after the first word which is the command,  using spaces like this:
 
-**<<mycommand parameter0 parameter1 parameter2>>** and so on.
+**<\<mycommand parameter0 parameter1 parameter2>>** and so on.
 
 An example of that in the demo project is the way the animated avatar is changed:
 
 ![](/gdevelop5/all-features/yarncommandsexample.png)
 
-**<<avatar ant>>**  when the command **avatar** is  triggered, the avatar's sprite object is set to change its animation to the word after it - CommandParameter(0) (**ant**)
+**<\<avatar ant>>**  when the command **avatar** is  triggered, the avatar's sprite object is set to change its animation to the word after it - CommandParameter(0) (**ant**)
 
 !!! tip
 
-    If you are using the extension's built in scrolling functionality, you can insert pauses between text/other commands with the built in <<wait 1000>> command. 1000 in this case is equal to 1 second, but can be anything you choose. <<wait 500>> will for example pause the text scrolling for half a second, then continue. If you have another command after it, it won't get triggered before that half second is over. So wait can be used to insert pauses between a chain of custom commands too - similar to rpg maker :)
+    If you are using the extension's built in scrolling functionality, you can insert pauses between text/other commands with the built in <\<wait 1000>> command. 1000 in this case is equal to 1 second, but can be anything you choose. <\<wait 500>> will for example pause the text scrolling for half a second, then continue. If you have another command after it, it won't get triggered before that half second is over. So wait can be used to insert pauses between a chain of custom commands too - similar to rpg maker :)
 
 Apart of the commands you can set up for yourself, and the ones built into the extension, yarn's parser library - bondagejs comes with a few very cool built in ones that can be used to store information and use it to conditionally show text to the user.
 So lets say your player visits a dialogue branch of an item once and has read it. Then having that information, the player starts a conversation with a npc.
@@ -76,34 +76,34 @@ This lets you tell Yarn that if the player has seen that item, the npc will say 
 
 ![](/gdevelop5/all-features/ifelsecommandsyarn.png)
 
-(1) **<<set $myYarnVariable to aValue>>** will tell yarn to store your value in $myYarnVariable. You can put that after the player reads that the item has been seen or taken or whatever the story requires.
+(1) **<\<set $myYarnVariable to aValue>>** will tell yarn to store your value in $myYarnVariable. You can put that after the player reads that the item has been seen or taken or whatever the story requires.
 
-(2)  **<<if $myYarnVariable == aValue>>**
+(2)  **<\<if $myYarnVariable == aValue>>**
 
 _blah blah blah_
 
-** <<elseif $myYarnVariable == anotherValue>> **
+** <\<elseif $myYarnVariable == anotherValue>> **
 
 _more blah_
 
-** <<else>>**
+** <\<else>>**
 
 _other blah_
 
-**<<endif>>**
+**<\<endif>>**
 
-- will tell yarn to check **<<if $myYarnVariable** is equal to aValue, if so, _blah blah blah_ will be shown
+- will tell yarn to check **<\<if $myYarnVariable** is equal to aValue, if so, _blah blah blah_ will be shown
 
-- if not, it will check if the **<<elseif...** is true, if so _more blah_ will be shown
+- if not, it will check if the **<\<elseif...** is true, if so _more blah_ will be shown
 
-- if all fails, the  **<<else>>** will trigger  _other blah_ to happen. The **<<elseif ...>>** and **<<else>>** are optional. Don't forget to close it with the **<<endif>>**
+- if all fails, the  **<\<else>>** will trigger  _other blah_ to happen. The **<\<elseif ...>>** and **<\<else>>** are optional. Don't forget to close it with the **<\<endif>>**
 
 !!! note
 
 
     __Example:__
 
-    You found a weird rock **<<set $hasRandomRock to true>>**
+    You found a weird rock **<\<set $hasRandomRock to true>>**
 
 
 
@@ -114,7 +114,7 @@ _other blah_
 
     There is a strange well.  Peering down, you can only see darkness...
 
-    **<<if $hasRandomRock == true>>**
+    **<\<if $hasRandomRock == true>>**
 
     Would you like throw the weird rock you found in the well?
 
@@ -122,11 +122,11 @@ _other blah_
 
      \[otherNode\](/I rather not)
 
-    **<<endif>>**
+    **<\<endif>>**
 
 
 
-Don't forget that you can put anything inside this **<<if ...>>**...**<<endif>>**  block -  be it other commands or dialogue choices leading to other branches.
+Don't forget that you can put anything inside this **<\<if ...>>**...**<\<endif>>**  block -  be it other commands or dialogue choices leading to other branches.
 
 !!! note
 
@@ -202,7 +202,7 @@ Ok kids we're gonna go with...
 
 *  Using a -> shortcut crashes my game - This is a known bug in bondage.js - the library that the dialogue tree extension is using to parse yarn files. See [https://github.com/hylyh/bondage.js/issues/31](https://github.com/hylyh/bondage.js/issues/31) to check if that has been fixed. The reason it happens is that bondagejs expects you to indent any linked text with tabs, otherwise its seen as a syntax error. If you want to use the shortcut syntax, please refer to this example json file as  to howto do it without crashing the parser [https://github.com/hylyh/bondage.js/blob/master/tests/yarn_files/shortcuts.json](https://github.com/hylyh/bondage.js/blob/master/tests/yarn_files/shortcuts.json)
 
-* an empty space is clipped from text that comes after <<command>> - this is a known bug in bondagejs [https://github.com/hylyh/bondage.js/issues/61](https://github.com/hylyh/bondage.js/issues/61)
+* an empty space is clipped from text that comes after <\<command>> - this is a known bug in bondagejs [https://github.com/hylyh/bondage.js/issues/61](https://github.com/hylyh/bondage.js/issues/61)
 
 !!! warning
 
