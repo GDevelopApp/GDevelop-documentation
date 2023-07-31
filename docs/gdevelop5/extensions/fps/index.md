@@ -1,15 +1,18 @@
-# FPS
+# Frames per second (FPS)
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/SEO/SEO_board_performance_profit.svg" class="extension-icon"></img>
-Adds expressions and a behavior to get and display the game FPS.
+Calculate and display the frames per second (FPS) of the game.
 
-**Authors and contributors** to this community extension: [Ahnaf30e](https://gd.games/Ahnaf30e).
+**Authors and contributors** to this community extension: [Ahnaf30e](https://gd.games/Ahnaf30e), [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 
-Adds expressions to get the current FPS and a behavior to display the current FPS easily.
+Provides an expression to get the current FPS and a text object behavior to display the current FPS.
 
-The FPS, Frames Per Second, describes how many times in the last second your game got updated. An update consists in running all the behaviors, objects, and events sheet code, before rendering the new game state into the game window. The higher the FPS, the more it manages to update in a second, influencing how fluid and performant your game looks.
+Frames Per Second (FPS) describes how many times in the last second your game logic was executed. 
+This includes running behaviors and events, and then rendering the new game state into the game window. The higher the FPS, the more fluid and performant your game looks.
+
+Note: Use the Performance Profiler (inside in the Debugger) for detailed performance information about your game.
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
@@ -18,9 +21,7 @@ The FPS, Frames Per Second, describes how many times in the last second your gam
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `FPS::FPS()` | Return your game's current FPS count. ||
-| `FPS::PreciseFPS(number)` | Return your game's current FPS count, with more control over rounding. ||
-| | _number_ | The accuracy of the FPS This tells how many numbers after the period should be shown. |
+| `FPS::FPS()` | Frames per second (FPS) during the last second. ||
 
 ## FPS Displayer 
 
@@ -31,4 +32,4 @@ _No expressions for this behavior._
 
 ---
 
-*This page is an auto-generated reference page about the **FPS** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Frames per second (FPS)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

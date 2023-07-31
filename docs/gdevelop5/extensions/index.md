@@ -36,7 +36,7 @@ Here are listed all the extensions available in GDevelop. The list is divided in
 |<img src="https://resources.gdevelop-app.com/assets/Icons/numeric.svg" class="extension-icon"></img>|**Current game version**|Get the current game version from GDevelop game properties.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/current-game-version)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/resistor-nodes.svg" class="extension-icon"></img>|**Pathfinding painter**|Draw the pathfinding of an object using a shape painter.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/draw-pathfinding)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/function-variant.svg" class="extension-icon"></img>|**Extended math support**|Additional math functions and constants as expressions and conditions.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/extended-math)|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/SEO/SEO_board_performance_profit.svg" class="extension-icon"></img>|**FPS**|Adds expressions and a behavior to get and display the game FPS.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/fps)|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/SEO/SEO_board_performance_profit.svg" class="extension-icon"></img>|**Frames per second (FPS)**|Calculate and display the frames per second (FPS) of the game.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/fps)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/numeric.svg" class="extension-icon"></img>|**Game properties data**|Get Version, Title, Publisher name, PackageName from properties tab.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/get-properties-data)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Security and Protection/Security and Protection_security_protection_delete_document_shredder.svg" class="extension-icon"></img>|**Hash**|Hash with MD5 or SHA256.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/hash)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/format-color-fill.svg" class="extension-icon"></img>|**Random Color Generator**|Create a random color for a scene, an object, or any other color input.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/random-color)|
@@ -295,6 +295,7 @@ does or inspect its content before using it.
 
 ||Name|Description||
 |---|---|---|---|
+|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/5ab10adef033825feddc9138b59d79d9a7aa94c58dd58fba0d21cd7b99be4aff_form-textbox-password.svg" class="extension-icon"></img>|**CheatCode**|Add cheat codes to your game.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/cheat-code)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Videogames/Videogames_controller_joystick_arrows_direction.svg" class="extension-icon"></img>|**Multitouch joystick and buttons (deprecated)**|Activate a joystick or buttons that can be controlled by interacting with a touchscreen.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/multitouch-joystick/setup) ([reference](https://wiki.gdevelop.io/gdevelop5/extensions/multitouch-joystick))|
 
 ### Movement
