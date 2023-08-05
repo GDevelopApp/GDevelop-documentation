@@ -330,9 +330,3 @@ Limitations: only works with browser games.|[Read more...](https://bitbucket.org
 |---|---|---|---|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/format-vertical-align-center.svg" class="extension-icon"></img>|**Align object on the screen**|Align objects on the scene relatively to the window (or screen size).|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/align-object)|
 
-### Visual effect
-
-||Name|Description||
-|---|---|---|---|
-|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/f2e5a34bf465f781866677762d385d6c8e9e8d203383f2df9a3b7e0fad6a2cb5_fire.svg" class="extension-icon"></img>|**3D particle emitter (experimental)**|Display a large number of particles to create visual effects.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/particle-emitter3d)|
-
