@@ -38,50 +38,31 @@ A variable with the *Text* data type can contain text, such as the words `Hello 
 
 A variable with the *Boolean* data type contains the simplest form of information: either yes or no, 1 or 0, true or false. They are useful as they can be easily toggled.
 
-#### Adding a boolean
-A boolean can be added by clicking the wrench** icon→Primitive types→Convert to boolean**.
-
-![](/gdevelop5/tutorials/toggles1.png)
-
-#### Changing the value of the boolean
-
-There are two ways you can change the state of the boolean.
-
-**Modify the boolean value**
-
-You can set the boolean value to `"true"` or `"false"`.
-
-**Toggle the boolean value**
-
-You can toggle between the two states. If the value was True, it will be changed to False and vice versa.
-
-#### Checking the value of the boolean
-
-**Compare the boolean value**
-
-You can check if the boolean value is `"true"` or `"false"`.
-
-To compare a boolean to another value, text or boolean, you can use **Compare the text of a variable**.
-
 ### Structure
 
-A Structure variable maps names to variables.
+A Structure variable maps names to other variables (called "child variables").
+
 For example, a simple structure can map the name "Hello" to one sub-variable and the name "World" to another sub-variable.
 You can use this data type to organize related variables within a single variable.
-In programming languages, this data type is often referred to as an _object_, _map_, _hash_, or *dictionary*.
+
+!!! tip
+
+    In programming languages, this data type is often referred to as an _object_, _map_, _hash_, or *dictionary*.
+
+Structures can be created in the Variables Editor, using events or by using an extension like [JSON resource loader](../../extensions/jsonresource-loader/).
 
 ### Array
 
 An Array variable, also sometimes called _list_ in programming languages, is like a list of variables.
+
 Each variable in an Array has an index, which defines their position in the array.
 The indices begin at 0 and go up to however long the array is.
-!!! danger
 
-    Don't try to use text as an array variable index, it will return the variable at index 0!
+Arrays can be created in the Variables Editor, using events or by using an extension like [JSON resource loader](../../extensions/jsonresource-loader/).
 
 ### Accessing child variables
 
-Variables that exist within a collection variable are known as _child variables_.
+Variables that exist within a collection variable (i.e: an array or a structure) are known as _child variables_.
 To access the value of a child variable, use the following syntax in an [expressions](/gdevelop5/all-features/expressions), replacing the values in angled brackets with variable names:
 
 ```
@@ -111,7 +92,7 @@ Variable(players.player1.level1score)
 
 !!! tip
 
-    On structures, `<child_variable>` is the name of the child variable. On arrays it is the index of the child variable. Only numbers work as indices for arrays.
+    On structures, `<child_variable>` is the name of the child variable. On arrays it is the index of the child variable. Only **numbers work as indices** for arrays.
 
 If a child variable doesn't exist, GDevelop creates it.
 
@@ -157,6 +138,10 @@ In GDevelop, there are three variable scopes:
 - [Object](/gdevelop5/all-features/variables/object-variables)
 
 Refer to the linked pages for more information about each variable scope.
+
+!!! tip
+
+    There is no notion of "local" variable in GDevelop, but this could be introduced later. In most cases, scene or object variables will work for your use case. In custom behaviors, you can also use the properties of the behavior to store data inside the behavior.
 
 ## Naming variables
 
