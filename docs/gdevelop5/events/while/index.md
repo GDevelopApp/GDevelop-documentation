@@ -9,6 +9,11 @@ While events are a special kind of [event](/gdevelop5/events): as long as the *"
 
 While events are usually not needed, but these events can be used to repeat actions as long as a given set of conditions is true. The While event is useful for algorithms that you may want to create in your game.
 
+## How to add this event
+
+Right click (or long press) on an existing [event](/gdevelop5/events) and choose *"Add Other"* in the menu. Then, select the event you want to add.
+Alternatively, click on the *"Plus" icon* in the toolbar or on *"Add..."* at the bottom of the events sheet.
+
 ## Examples
 
 !!! tip

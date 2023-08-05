@@ -9,6 +9,11 @@ A "For Each" event is a special [event](/gdevelop5/events) that takes an object 
 
     If an object group is used, then the "For Each" event will repeat for every instance of every object in the group.
 
+## How to add this event
+
+Right click (or long press) on an existing [event](/gdevelop5/events) and choose *"Add Other"* in the menu. Then, select the event you want to add.
+Alternatively, click on the *"Plus" icon* in the toolbar or on *"Add..."* at the bottom of the events sheet.
+
 ## When to use it
 
 Most of the time, a "For Each" event is not required because conditions and actions automatically run on all instances of an object. Using a "For Each" when it is not required will cause the computer to do extra work and may lower the performance of a game.

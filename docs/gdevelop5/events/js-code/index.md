@@ -7,7 +7,7 @@ This event allows you to add custom **JavaScript code** in your game. It's only 
 
 To add a JavaScript event, click on the + button in the Events Sheet toolbar, and select JavaScript code:
 
-![](/gdevelop5/events/js-code/pasted/20230305-105515.png)
+![](./pasted/20230305-105515.png)
 
 When added, click on the code to edit it. The code will be executed each time the event is reached by GDevelop.
 
