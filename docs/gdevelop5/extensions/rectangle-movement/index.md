@@ -14,7 +14,7 @@ It can be used for:
 
 - Moveable platforms
 - Enemy movement patterns
-- Moving along the border of another object
+- Moving along the border of another object (inside, center, outside)
 
 The platformer example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://platformer)).
 
