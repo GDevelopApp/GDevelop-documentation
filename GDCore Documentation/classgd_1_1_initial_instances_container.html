@@ -128,14 +128,18 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instances_container.html#ade836f20a1df0832ad7bc7ef82d8dcab">RenameInstancesOfObject</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;oldName, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;newName)</td></tr>
 <tr class="memdesc:ade836f20a1df0832ad7bc7ef82d8dcab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change instances with object's name <em>oldName</em> to <em>newName</em>. <br /></td></tr>
 <tr class="separator:ade836f20a1df0832ad7bc7ef82d8dcab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a546a3b83322b0deb1e1157d19eb6bcc5"><td class="memItemLeft" align="right" valign="top"><a id="a546a3b83322b0deb1e1157d19eb6bcc5"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instances_container.html#a546a3b83322b0deb1e1157d19eb6bcc5">SomeInstancesAreOnLayer</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;layerName)</td></tr>
-<tr class="memdesc:a546a3b83322b0deb1e1157d19eb6bcc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if there is at least one instance on the layer named <em>layerName</em>. <br /></td></tr>
-<tr class="separator:a546a3b83322b0deb1e1157d19eb6bcc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f3b51c0ec603be227a9a8155650e624"><td class="memItemLeft" align="right" valign="top"><a id="a1f3b51c0ec603be227a9a8155650e624"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instances_container.html#a1f3b51c0ec603be227a9a8155650e624">HasInstancesOfObject</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectName)</td></tr>
-<tr class="memdesc:a1f3b51c0ec603be227a9a8155650e624"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if there is at least one instance of the given object. <br /></td></tr>
-<tr class="separator:a1f3b51c0ec603be227a9a8155650e624"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23bb914bd7db0a148c8b470b66c715e7"><td class="memItemLeft" align="right" valign="top"><a id="a23bb914bd7db0a148c8b470b66c715e7"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instances_container.html#a23bb914bd7db0a148c8b470b66c715e7">GetLayerInstancesCount</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;layerName) const</td></tr>
+<tr class="memdesc:a23bb914bd7db0a148c8b470b66c715e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of instances on the layer named <em>layerName</em>. <br /></td></tr>
+<tr class="separator:a23bb914bd7db0a148c8b470b66c715e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fcb255564c37ccf623619bc00694161"><td class="memItemLeft" align="right" valign="top"><a id="a5fcb255564c37ccf623619bc00694161"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instances_container.html#a5fcb255564c37ccf623619bc00694161">SomeInstancesAreOnLayer</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;layerName) const</td></tr>
+<tr class="memdesc:a5fcb255564c37ccf623619bc00694161"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if there is at least one instance on the layer named <em>layerName</em>. <br /></td></tr>
+<tr class="separator:a5fcb255564c37ccf623619bc00694161"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab739e815066fa3ad49e408fb55dee6ad"><td class="memItemLeft" align="right" valign="top"><a id="ab739e815066fa3ad49e408fb55dee6ad"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instances_container.html#ab739e815066fa3ad49e408fb55dee6ad">HasInstancesOfObject</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectName) const</td></tr>
+<tr class="memdesc:ab739e815066fa3ad49e408fb55dee6ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if there is at least one instance of the given object. <br /></td></tr>
+<tr class="separator:ab739e815066fa3ad49e408fb55dee6ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d51d11074d2c44af20166e3d629a432"><td class="memItemLeft" align="right" valign="top"><a id="a6d51d11074d2c44af20166e3d629a432"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instances_container.html#a6d51d11074d2c44af20166e3d629a432">Clear</a> ()</td></tr>
 <tr class="memdesc:a6d51d11074d2c44af20166e3d629a432"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all instances. <br /></td></tr>
