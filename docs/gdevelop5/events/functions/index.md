@@ -98,10 +98,11 @@ This is a really simple and not really useful example of a function (you could a
 
 #### Other types of parameters
 
-A parameter can be an object, a text, a number and so ones, for texts and numbers there is two expressions that can be used in events.
+A parameter can be an object, a text, a boolean, a number and so ones, for texts, booleans and numbers there is three expressions that can be used in events.
 
 Get a number from a parameter: `GetArgumentAsNumber(string)`
 Get a text from a parameter: `GetArgumentAsString(string)`
+Get a boolean from a parameter: `GetArgumentAsBoolean(string)`
 Here is an example of a text parameter that will get the name and use it in an action for change scene.
 
 ![](/gdevelop5/events/function_text_expression.png)
@@ -153,22 +154,31 @@ Functions can be shared across projects (like actions/conditions that are built 
 
 Parameters in function can be various:
 
-| Type                          | Data type    | Description                                               |
-|-------------------------------|--------------|-----------------------------------------------------------|
-| [Objects](/gdevelop5/objects) | Objects list | A list of objects                                         |
-| [Behavior](/gdevelop5/behaviors) | Behavior     | The behavior from an object                               |
-| String                        | Text         | Just a text                                               |
-| String from a list of options | Text         | A list of multiple text                                   |
-| Keyboard Key                  | Text         | Let extension users choose a key from a list                                           |
-| Mouse button                  | Text         | A list of buttons                                         |
-| Color                         | Text         | The color in RGB. Format: `"255;255;255"`                 |
-| Layer                         | Text         | The name of a layer                                       |
-| Scene name                    | Text         | The name of a scene                                       |
-| Yes or No                     | Boolean      | A boolean value                                           |
-| True or False                 | Boolean      | A boolean value                                           |
-| [Object point](/gdevelop5/objects/sprite/edit-points) | Text         | The name of an point from an object                       |
-| [Object animation](/gdevelop5/objects/sprite/#adding-an-animation) | Text         | The name of an animation from an object                   |
-| [Identifier](/gdevelop5/events/functions#identifier-parameter) | Text         | Allow the auto-complete to suggest previously used values |
+| Type                          | Data type    | Description                                               | Scope |
+|-------------------------------|--------------|-----------------------------------------------------------|-------|
+| [Objects](/gdevelop5/objects) | Objects list | A list of objects                                         | Condition, action |
+| [Behavior](/gdevelop5/behaviors) | Behavior  | The behavior from an object                               | Condition, action |
+| Expression                    | Number       | Integer or float                                          | Condition, action, expression |
+| String                        | Text         | Just a text                                               | Condition, action, expression |
+| String from a list of options | Text         | A list of multiple text                                   | Condition, action, expression |
+| Keyboard Key                  | Text         | Let extension users choose a key from a list              | Condition, action, expression |
+| Mouse button                  | Text         | A list of buttons                                         | Condition, action, expression |
+| Color                         | Text         | The color in RGB. Format: `"255;255;255"`                 | Condition, action, expression |
+| Layer                         | Text         | The name of a layer                                       | Condition, action, expression |
+| Scene name                    | Text         | The name of a scene                                       | Condition, action, expression |
+| Yes or No                     | Boolean      | A boolean value                                           | Condition, action |
+| True or False                 | Boolean      | A boolean value                                           | Condition, action |
+| [Object point](/gdevelop5/objects/sprite/edit-points) | Text         | The name of an point from an object | Condition, action, expression |
+| [Object animation](/gdevelop5/objects/sprite/#adding-an-animation) | Text         | The name of an animation from an object | Condition, action, expression |
+| [Identifier](/gdevelop5/events/functions#identifier-parameter) | Text         | Allow the auto-complete to suggest previously used values | Condition, action, expression |
+| Scene variable              | Scene variable | The value from a scene variable          | Condition, action, expression |
+| Created objects             | Objects list | A list of objects just created             | Condition, action |
+| Image resource              | Text | The name of the image resource                     | The returned value can only be get from a JavaScript code event |
+| Audio resource              | Text | The name of the audio resource                     | The returned value can only be get from a JavaScript code event |
+| JSON resource               | Text | The name of the JSON resource                      | The returned value can only be get from a JavaScript code event |
+| Font resource               | Text | The name of the Font resource                      | The returned value can only be get from a JavaScript code event |
+| Bitmap font resource        | Text | The name of the Bitmap font resource               | The returned value can only be get from a JavaScript code event |
+
 
 
 ### Identifier parameter
@@ -183,3 +193,10 @@ This parameter enables auto-completion for previously entered values from other 
 #### Identifier name
 
 Every parameter with the same identifier name share their values for the autocompletion.
+
+### Resource parameter
+
+These parameters can be, an image, an audio file, a JSON, a font, and a bitmap font. This parameter will return the name of the resource visible in the resource tab.
+The returned value will be only available by getting the value in a JavaScript code events with [this method](/gdevelop5/events/js-code/#use-javascript-to-get-the-value-of-a-parameter-of-a-function).
+
+eventsFunctionContext.getArgument("ParameterName")
