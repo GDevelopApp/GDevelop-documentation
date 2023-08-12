@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/bullet.svg" class="extension-icon"></img>
 Fire bullets, manage ammo, reloading and overheating.
 
-**Authors and contributors** to this community extension: [4ian](https://gd.games/4ian), [Mixen](https://gd.games/Mixen), [Bouh](https://gd.games/Bouh), [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this community extension: [4ian](https://gd.games/4ian), [Muzan7](https://gd.games/Muzan7), [Bouh](https://gd.games/Bouh), [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 

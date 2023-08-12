@@ -110,9 +110,6 @@ Refill tank (if not infinite) and start emission of the particles.
 **Stop emission**  
 Stop the emission of particles.
 
-**Particle image (using an expression)**  
-Change the image of particles (if displayed).
-
 **Creation radius**  
 Modify creation radius of particles.  
 Particles have to be recreated in order to take changes in account.
