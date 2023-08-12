@@ -98,11 +98,10 @@ This is a really simple and not really useful example of a function (you could a
 
 #### Other types of parameters
 
-A parameter can be an object, a text, a boolean, a number and so ones, for texts, booleans and numbers there is three expressions that can be used in events.
+A parameter can be an object, a text, a number or some other kind of data (the name of a layer, a boolean, etc...). You can use expressions and conditions to access the parameters passed to a function.
 
-Get a number from a parameter: `GetArgumentAsNumber(string)`
-Get a text from a parameter: `GetArgumentAsString(string)`
-Get a boolean from a parameter: `GetArgumentAsBoolean(string)`
+* Get a number from a parameter: `GetArgumentAsNumber(string)`
+* Get a text from a parameter: `GetArgumentAsString(string)`
 Here is an example of a text parameter that will get the name and use it in an action for change scene.
 
 ![](/gdevelop5/events/function_text_expression.png)
@@ -173,11 +172,11 @@ Parameters in function can be various:
 | [Identifier](/gdevelop5/events/functions#identifier-parameter) | Text         | Allow the auto-complete to suggest previously used values | Condition, action, expression |
 | Scene variable              | Scene variable | The value from a scene variable          | Condition, action, expression |
 | Created objects             | Objects list | A list of objects just created             | Condition, action |
-| Image resource              | Text | The name of the image resource                     | The returned value can only be get from a JavaScript code event |
-| Audio resource              | Text | The name of the audio resource                     | The returned value can only be get from a JavaScript code event |
-| JSON resource               | Text | The name of the JSON resource                      | The returned value can only be get from a JavaScript code event |
-| Font resource               | Text | The name of the Font resource                      | The returned value can only be get from a JavaScript code event |
-| Bitmap font resource        | Text | The name of the Bitmap font resource               | The returned value can only be get from a JavaScript code event |
+| Image resource              | Text | The name of the image resource                     | The value of the parameter can only be read from a JavaScript code event. ([Read how](/gdevelop5/events/functions#resource-parameter)) |
+| Audio resource              | Text | The name of the audio resource                     | The value of the parameter can only be read from a JavaScript code event. ([Read how](/gdevelop5/events/functions#resource-parameter)) |
+| JSON resource               | Text | The name of the JSON resource                      | The value of the parameter can only be read from a JavaScript code event. ([Read how](/gdevelop5/events/functions#resource-parameter)) |
+| Font resource               | Text | The name of the Font resource                      | The value of the parameter can only be read from a JavaScript code event. ([Read how](/gdevelop5/events/functions#resource-parameter)) |
+| Bitmap font resource        | Text | The name of the Bitmap font resource               | The value of the parameter can only be read from a JavaScript code event. ([Read how](/gdevelop5/events/functions#resource-parameter)) |
 
 
 
@@ -198,5 +197,3 @@ Every parameter with the same identifier name share their values for the autocom
 
 These parameters can be, an image, an audio file, a JSON, a font, and a bitmap font. This parameter will return the name of the resource visible in the resource tab.
 The returned value will be only available by getting the value in a JavaScript code events with [this method](/gdevelop5/events/js-code/#use-javascript-to-get-the-value-of-a-parameter-of-a-function).
-
-eventsFunctionContext.getArgument("ParameterName")
