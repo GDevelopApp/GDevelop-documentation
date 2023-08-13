@@ -1,14 +1,13 @@
-# Screen Wrap
+# Screen wrap
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/monitor-screenshot.svg" class="extension-icon"></img>
 Teleport object when it moves off the screen and immediately appear on the opposite side while maintaining speed and trajectory.
 
-**Authors and contributors** to this community extension: [Entropy](https://gd.games/Entropy), [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this community extension: [Entropy](https://gd.games/Entropy), [VictrisGames](https://gd.games/VictrisGames), [MelonDev](https://gd.games/MelonDev).
 
 ---
 
-The teleport happens when the center point of the object crosses a border. 
-Change behavior properties to increase or decrease the margin used to trigger this teleport.
+The teleport happens when the center point of the object crosses a border (this can be adjusted with an offset).
 By default, the borders of the wrapping area match the screen size, but they can alo be changed.
 
 The Asteroid-like example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://space-asteroid)).
@@ -116,4 +115,4 @@ Check if the object is wrapping on the top and bottom borders.
 
 ---
 
-*This page is an auto-generated reference page about the **Screen Wrap** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Screen wrap** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
