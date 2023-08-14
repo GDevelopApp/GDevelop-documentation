@@ -641,8 +641,10 @@ const <a class="el" href="classgd_1_1_object_groups_container.html">ObjectGroups
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Other</div></td></tr>
-<tr class="memitem:af687750c9fa64218a4e1fd02365f5391"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project.html#af687750c9fa64218a4e1fd02365f5391">ValidateName</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
-<tr class="separator:af687750c9fa64218a4e1fd02365f5391"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab98798267f4b2dc2841b785475f099cc"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project.html#ab98798267f4b2dc2841b785475f099cc">IsNameSafe</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
+<tr class="separator:ab98798267f4b2dc2841b785475f099cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a9284a0ded6107d762b96e98484d0ce"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project.html#a0a9284a0ded6107d762b96e98484d0ce">GetSafeName</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
+<tr class="separator:a0a9284a0ded6107d762b96e98484d0ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -1343,6 +1345,33 @@ std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html"
 
 </div>
 </div>
+<a id="a0a9284a0ded6107d762b96e98484d0ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a9284a0ded6107d762b96e98484d0ce">&#9670;&nbsp;</a></span>GetSafeName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classgd_1_1_string.html">gd::String</a> gd::Project::GetSafeName </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return a name, based on the one passed in parameter, that can be safely used for an object, behavior, events function name, etc... </p>
+
+</div>
+</div>
 <a id="a6f4943223c562f6897722102b7ac95ad"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6f4943223c562f6897722102b7ac95ad">&#9670;&nbsp;</a></span>GetScaleMode()</h2>
 
@@ -1790,6 +1819,33 @@ std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html"
 </table>
 </div><div class="memdoc">
 <p>Check if the project is saved as a folder project. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_project.html#a60a1a84864ead9f4cd0f6ddc38b2797e">gd::Project::SetFolderProject</a> </dd></dl>
+
+</div>
+</div>
+<a id="ab98798267f4b2dc2841b785475f099cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab98798267f4b2dc2841b785475f099cc">&#9670;&nbsp;</a></span>IsNameSafe()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gd::Project::IsNameSafe </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return true if <em>name</em> is valid (can be used safely for an object, behavior, events function name, etc...). </p>
 
 </div>
 </div>
@@ -2754,33 +2810,6 @@ std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html"
 
 <p>Swap the specified layouts. </p>
 <p>Do nothing if indexes are not correct. </p>
-
-</div>
-</div>
-<a id="af687750c9fa64218a4e1fd02365f5391"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af687750c9fa64218a4e1fd02365f5391">&#9670;&nbsp;</a></span>ValidateName()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool gd::Project::ValidateName </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Return true if <em>name</em> is valid (can be used safely for an object, behavior, events function name, etc...). </p>
 
 </div>
 </div>
