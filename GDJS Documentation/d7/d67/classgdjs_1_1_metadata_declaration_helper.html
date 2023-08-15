@@ -96,9 +96,16 @@ static gd::BehaviorMetadata &amp;&#160;</td><td class="memItemRight" valign="bot
 <tr class="memitem:aeb48cd7ebd2aaf1609fd5856da0d38bb"><td class="memItemLeft" align="right" valign="top"><a id="aeb48cd7ebd2aaf1609fd5856da0d38bb"></a>
 static gd::ObjectMetadata &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GenerateObjectMetadata</b> (const gd::Project &amp;project, gd::PlatformExtension &amp;extension, const gd::EventsFunctionsExtension &amp;eventsFunctionsExtension, const gd::EventsBasedObject &amp;eventsBasedObject, std::map&lt; gd::String, gd::String &gt; &amp;objectMethodMangledNames)</td></tr>
 <tr class="separator:aeb48cd7ebd2aaf1609fd5856da0d38bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e2afaa50dbbc38f1ddce9061b34b241"><td class="memItemLeft" align="right" valign="top"><a id="a2e2afaa50dbbc38f1ddce9061b34b241"></a>
-static gd::String&#160;</td><td class="memItemRight" valign="bottom"><b>GetFreeFunctionCodeName</b> (const gd::EventsFunctionsExtension &amp;eventsFunctionsExtension, const gd::EventsFunction &amp;eventsFunction)</td></tr>
+<tr class="memitem:a4eb755596b69f5eec7464c3a6aa181d0"><td class="memItemLeft" align="right" valign="top">static gd::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d67/classgdjs_1_1_metadata_declaration_helper.html#a4eb755596b69f5eec7464c3a6aa181d0">GetExtensionCodeNamespacePrefix</a> (const gd::EventsFunctionsExtension &amp;eventsFunctionsExtension)</td></tr>
+<tr class="separator:a4eb755596b69f5eec7464c3a6aa181d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e2afaa50dbbc38f1ddce9061b34b241"><td class="memItemLeft" align="right" valign="top">static gd::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d67/classgdjs_1_1_metadata_declaration_helper.html#a2e2afaa50dbbc38f1ddce9061b34b241">GetFreeFunctionCodeName</a> (const gd::EventsFunctionsExtension &amp;eventsFunctionsExtension, const gd::EventsFunction &amp;eventsFunction)</td></tr>
 <tr class="separator:a2e2afaa50dbbc38f1ddce9061b34b241"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaa116e08310617b02c9778f7110a912"><td class="memItemLeft" align="right" valign="top">static gd::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d67/classgdjs_1_1_metadata_declaration_helper.html#aeaa116e08310617b02c9778f7110a912">GetFreeFunctionCodeNamespace</a> (const gd::EventsFunction &amp;eventsFunction, const gd::String &amp;codeNamespacePrefix)</td></tr>
+<tr class="separator:aeaa116e08310617b02c9778f7110a912"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c0773f78505516157a1e43c81a4b019"><td class="memItemLeft" align="right" valign="top">static gd::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d67/classgdjs_1_1_metadata_declaration_helper.html#a2c0773f78505516157a1e43c81a4b019">GetBehaviorFunctionCodeNamespace</a> (const gd::EventsBasedBehavior &amp;eventsBasedBehavior, const gd::String &amp;codeNamespacePrefix)</td></tr>
+<tr class="separator:a2c0773f78505516157a1e43c81a4b019"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87e3330140e175d00003834ab6141ecd"><td class="memItemLeft" align="right" valign="top">static gd::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d67/classgdjs_1_1_metadata_declaration_helper.html#a87e3330140e175d00003834ab6141ecd">GetObjectFunctionCodeNamespace</a> (const gd::EventsBasedObject &amp;eventsBasedObject, const gd::String &amp;codeNamespacePrefix)</td></tr>
+<tr class="separator:a87e3330140e175d00003834ab6141ecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15acf9718b99513c3093ab796310d5a1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d67/classgdjs_1_1_metadata_declaration_helper.html#a15acf9718b99513c3093ab796310d5a1">DeclareExtension</a> (gd::PlatformExtension &amp;extension, const gd::EventsFunctionsExtension &amp;eventsFunctionsExtension)</td></tr>
 <tr class="separator:a15acf9718b99513c3093ab796310d5a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae514bc5dd9c1b66ce67eb6f1343b304f"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d67/classgdjs_1_1_metadata_declaration_helper.html#ae514bc5dd9c1b66ce67eb6f1343b304f">IsBehaviorLifecycleEventsFunction</a> (const gd::String &amp;functionName)</td></tr>
@@ -148,6 +155,181 @@ static gd::String&#160;</td><td class="memItemRight" valign="bottom"><b>ShiftSen
 </table>
 </div><div class="memdoc">
 <p>Declare an extension from an events based extension. </p>
+
+</div>
+</div>
+<a id="a2c0773f78505516157a1e43c81a4b019"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c0773f78505516157a1e43c81a4b019">&#9670;&nbsp;</a></span>GetBehaviorFunctionCodeNamespace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">gd::String gdjs::MetadataDeclarationHelper::GetBehaviorFunctionCodeNamespace </td>
+          <td>(</td>
+          <td class="paramtype">const gd::EventsBasedBehavior &amp;&#160;</td>
+          <td class="paramname"><em>eventsBasedBehavior</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const gd::String &amp;&#160;</td>
+          <td class="paramname"><em>codeNamespacePrefix</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Generate the namespace for a behavior function. </p>
+
+</div>
+</div>
+<a id="a4eb755596b69f5eec7464c3a6aa181d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4eb755596b69f5eec7464c3a6aa181d0">&#9670;&nbsp;</a></span>GetExtensionCodeNamespacePrefix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">gd::String gdjs::MetadataDeclarationHelper::GetExtensionCodeNamespacePrefix </td>
+          <td>(</td>
+          <td class="paramtype">const gd::EventsFunctionsExtension &amp;&#160;</td>
+          <td class="paramname"><em>eventsFunctionsExtension</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Generate the namespace prefix for an extension. </p>
+
+</div>
+</div>
+<a id="a2e2afaa50dbbc38f1ddce9061b34b241"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e2afaa50dbbc38f1ddce9061b34b241">&#9670;&nbsp;</a></span>GetFreeFunctionCodeName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">gd::String gdjs::MetadataDeclarationHelper::GetFreeFunctionCodeName </td>
+          <td>(</td>
+          <td class="paramtype">const gd::EventsFunctionsExtension &amp;&#160;</td>
+          <td class="paramname"><em>eventsFunctionsExtension</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const gd::EventsFunction &amp;&#160;</td>
+          <td class="paramname"><em>eventsFunction</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Generate the fully qualified name for a free function. </p>
+
+</div>
+</div>
+<a id="aeaa116e08310617b02c9778f7110a912"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaa116e08310617b02c9778f7110a912">&#9670;&nbsp;</a></span>GetFreeFunctionCodeNamespace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">gd::String gdjs::MetadataDeclarationHelper::GetFreeFunctionCodeNamespace </td>
+          <td>(</td>
+          <td class="paramtype">const gd::EventsFunction &amp;&#160;</td>
+          <td class="paramname"><em>eventsFunction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const gd::String &amp;&#160;</td>
+          <td class="paramname"><em>codeNamespacePrefix</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Generate the namespace for a free function. </p>
+
+</div>
+</div>
+<a id="a87e3330140e175d00003834ab6141ecd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87e3330140e175d00003834ab6141ecd">&#9670;&nbsp;</a></span>GetObjectFunctionCodeNamespace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">gd::String gdjs::MetadataDeclarationHelper::GetObjectFunctionCodeNamespace </td>
+          <td>(</td>
+          <td class="paramtype">const gd::EventsBasedObject &amp;&#160;</td>
+          <td class="paramname"><em>eventsBasedObject</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const gd::String &amp;&#160;</td>
+          <td class="paramname"><em>codeNamespacePrefix</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Generate the namespace for an object function. </p>
 
 </div>
 </div>

@@ -640,7 +640,11 @@ const <a class="el" href="classgd_1_1_object_groups_container.html">ObjectGroups
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr><td colspan="2"><div class="groupHeader">Other</div></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Identifier names</div></td></tr>
+<tr class="memitem:a5032187a2d175cfd3e0cdd75dde82945"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project.html#a5032187a2d175cfd3e0cdd75dde82945">IsUsageOfUnicodeIdentifierNamesAllowed</a> ()</td></tr>
+<tr class="separator:a5032187a2d175cfd3e0cdd75dde82945"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad54cc3c16f64c4042c711479bf76cfb1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project.html#ad54cc3c16f64c4042c711479bf76cfb1">AllowUsageOfUnicodeIdentifierNames</a> (bool enable)</td></tr>
+<tr class="separator:ad54cc3c16f64c4042c711479bf76cfb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab98798267f4b2dc2841b785475f099cc"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project.html#ab98798267f4b2dc2841b785475f099cc">IsNameSafe</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
 <tr class="separator:ab98798267f4b2dc2841b785475f099cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a9284a0ded6107d762b96e98484d0ce"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project.html#a0a9284a0ded6107d762b96e98484d0ce">GetSafeName</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
@@ -676,6 +680,35 @@ std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html"
       </table>
 </div><div class="memdoc">
 <p>Add a platform to the project </p>
+
+</div>
+</div>
+<a id="ad54cc3c16f64c4042c711479bf76cfb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad54cc3c16f64c4042c711479bf76cfb1">&#9670;&nbsp;</a></span>AllowUsageOfUnicodeIdentifierNames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gd::Project::AllowUsageOfUnicodeIdentifierNames </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set if unicode names are allowed in identifier names. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_project.html#ab98798267f4b2dc2841b785475f099cc">IsNameSafe</a> </dd>
+<dd>
+<a class="el" href="classgd_1_1_project.html#a0a9284a0ded6107d762b96e98484d0ce">GetSafeName</a> </dd></dl>
 
 </div>
 </div>
@@ -1924,6 +1957,34 @@ std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html"
 </table>
 </div><div class="memdoc">
 <p>Check if the project is defined as playable on a mobile. </p>
+
+</div>
+</div>
+<a id="a5032187a2d175cfd3e0cdd75dde82945"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5032187a2d175cfd3e0cdd75dde82945">&#9670;&nbsp;</a></span>IsUsageOfUnicodeIdentifierNamesAllowed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool gd::Project::IsUsageOfUnicodeIdentifierNamesAllowed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Check if unicode names are allowed in identifier names. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_project.html#ab98798267f4b2dc2841b785475f099cc">IsNameSafe</a> </dd>
+<dd>
+<a class="el" href="classgd_1_1_project.html#a0a9284a0ded6107d762b96e98484d0ce">GetSafeName</a> </dd></dl>
 
 </div>
 </div>
