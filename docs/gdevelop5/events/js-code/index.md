@@ -192,10 +192,10 @@ You can also read the value of parameters that are numbers or strings. For examp
 
 ![](/gdevelop5/events/js-code/pasted/20230305-111437.png)
 
-You can read it in the JavaScript code black with `eventsFunctionContext.getArgument`:
+You can read it in the JavaScript code block with `eventsFunctionContext.getArgument`:
 
 ```javascript
 const angle = eventsFunctionContext.getArgument("Angle");
 ```
 
-The same code can be used to access **string** or **boolean** parameters.
+The same code can be used to access **string**, **number** or **boolean** parameters.
