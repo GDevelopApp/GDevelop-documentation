@@ -47,4 +47,4 @@ Read more about [creating custom objects here](/gdevelop5/objects/custom-objects
 
 ## Share your extensions
 
-If you've created an extension providing a useful, reusable behaviors or set of functions, you can [share them with the community](/gdevelop5/extensions/share).
+If you've created an extension providing a useful, reusable behaviors or set of functions, you can [share them with the community](/gdevelop5/extensions/share-extension).
