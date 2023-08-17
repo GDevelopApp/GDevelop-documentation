@@ -98,7 +98,7 @@ GDevelop has a lot of downloadable semi-official extensions made with events. Th
  - Managing the [extensions repository](https://github.com/GDevelopApp/GDevelop-extensions)
  - Assigning maintainers to widely used extensions
  - Keeping the [extensions best practices guide](http://wiki.compilgames.net/doku.php/gdevelop5/extensions/best-practices) up-to-date
- - Keeping the documentation about [contributing extensions](http://wiki.compilgames.net/doku.php/gdevelop5/extensions/share) and extensions contribution workflows up-to-date
+ - Keeping the documentation about [contributing extensions](http://wiki.compilgames.net/doku.php/gdevelop5/extensions/share-extension) and extensions contribution workflows up-to-date
  - Reviewing extensions submissions
 
 #### 🔐 Extra permissions

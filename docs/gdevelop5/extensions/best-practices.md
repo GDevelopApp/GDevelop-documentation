@@ -3,7 +3,7 @@ title: Extension Best Practices
 ---
 # Extension Best Practices
 
-These are some guidelines that make extensions easy to use, modify and update. They have to be respected to [be submitted to the community](/gdevelop5/extensions/share).
+These are some guidelines that make extensions easy to use, modify and update. They have to be respected to [be submitted to the community](/gdevelop5/extensions/share-extension).
 
 ## Fill extension options
 

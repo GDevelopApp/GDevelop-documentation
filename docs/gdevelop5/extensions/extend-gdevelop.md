@@ -10,7 +10,7 @@ GDevelop is modular. It can be extended to suit your needs. In particular, all t
         
     ➡️ If you are looking for event based functions, see **[functions](/gdevelop5/events/functions)**. For event based behaviors see **[event based behaviors](/gdevelop5/behaviors/events-based-behaviors)**.
     
-    If you have made useful functions and behaviors, consider [sharing them with the community](/gdevelop5/extensions/share).
+    If you have made useful functions and behaviors, consider [sharing them with the community](/gdevelop5/extensions/share-extension).
 
 ## Extensions for the game engine (JavaScript)
 

@@ -14,7 +14,7 @@ We have written various *guides* that allow everyone to improve and submit quali
 
 * [Contribute to the codebase of GDevelop](https://gdevelop.io/contribute/), see the [list of ideas](https://trello.com/b/qf0lM7k8/gdevelop-roadmap)
 * [GDevelop's assets store](/gdevelop5/community/contribute-to-the-assets-store), see the [list of ideas](https://trello.com/b/xoOCKFOf/gdevelop-assets)
-* [GDevelop's extensions](/gdevelop5/extensions/share), see the [list of ideas](https://trello.com/b/AftjL2v1/gdevelop-extensions)
+* [GDevelop's extensions](/gdevelop5/extensions/share-extension), see the [list of ideas](https://trello.com/b/AftjL2v1/gdevelop-extensions)
 * [Make an example for the example library](https://github.com/GDevelopApp/GDevelop-examples/issues), see the [guide for submitting an example](/gdevelop5/community/guide-for-submitting-an-example)
 * [GDevelop's documentation](/gdevelop5/community/contribute-to-the-wiki), see the [list of ideas](https://trello.com/b/3D1PXrga/gdevelop-documentation)
 * Contribute to the editor, see the [readme on Github](https://github.com/4ian/GDevelop/blob/master/newIDE/README.md)
