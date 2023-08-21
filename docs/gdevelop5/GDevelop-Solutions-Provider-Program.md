@@ -58,12 +58,11 @@ To join the GDevelop Solution Partner Program as a professional, candidates must
 
 - **Legal Status:** Candidates must operate as freelancers, consultants, agencies, or companies, with official registration and compliance with relevant tax regulations.
 
-
-> Apply to the GDevelop Solution Partner Program HERE
+[Apply to the GDevelop Solution Partner Program](https://airtable.com/apprjAoiGfMAoep9R/shrCh55ufvNCHIXjs){ .md-button .md-button--primary }
 
 
 ## Working with a GDevelop Specialist
-To contact a GDevelop specialist send an email to business@gdevelop.io with the subject "**GDevelop Specialist Request**" and the following project's information:
+To contact a GDevelop specialist send an email to [business@gdevelop.io](mailto:business@gdevelop.io) with the subject "**GDevelop Specialist Request**" and the following project's information:
 
 - Project Details: outline your project's essentials. Describe the project's scope, required features, and any specific technical integrations or visual aspects if applicable.
 - Budget: Clearly specify your project budget or budget range to help the specialist understand your expectations.
