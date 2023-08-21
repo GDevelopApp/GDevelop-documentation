@@ -2,6 +2,9 @@
 
 The GDevelop Solution Partner Program is an initiative designed to foster collaboration and expertise within the GDevelop professional community. This program serves as a bridge between proficient GDevelop users and those seeking specialized skills for interactive projects.
 
+[Apply to the GDevelop Solution Partner Program](https://airtable.com/apprjAoiGfMAoep9R/shrCh55ufvNCHIXjs){ .md-button .md-button--primary }
+[Contact a GDevelop Specialist](mailto:business@gdevelop.io){ .md-button .md-button }
+
 ## How It Works
 The program functions on a dual basis:
 
@@ -69,7 +72,7 @@ To contact a GDevelop specialist send an email to [business@gdevelop.io](mailto:
 - Timeline: Communicate your project's expected timeline, including key milestones or deadlines.
 - Contact Information: Include your contact details, such as your name, email address, or phone number, to facilitate effective communication.
 - Preferred Language: Specify if you have a prefered language
-- 
+
 **Plese consider sending your project at least **2 weeks** before the desired starting date so the professionals have the time to see it.*
 
 Once the project information is complete, the GDevelop team will publish the project for the Professionals to see. 
@@ -78,6 +81,8 @@ The client is in **no obligation** to choose from the recommended profiles.
 
 **Once a Project Owner stablished contact with a GDevelop Professional, the GDevelop team leaves the process. From that moment the Professional and the Project Owner remain responsible for the Project's management, delivery and billing process.
 GDevelop **does not** take any cut nor percentage for head hunting during 2023 and 2024.*
+
+[Contact a GDevelop Specialist](mailto:business@gdevelop.io){ .md-button .md-button }
 
 ## FAQ
 
