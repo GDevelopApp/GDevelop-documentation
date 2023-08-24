@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['sole_2266',['sole',['../namespacesole.html',1,'']]]
+  ['sole_2265',['sole',['../namespacesole.html',1,'']]]
 ];
