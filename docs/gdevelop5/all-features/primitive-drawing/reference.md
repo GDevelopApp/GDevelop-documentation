@@ -28,12 +28,6 @@ Activate (or deactivate) the clearing of the rendered shape at the beginning of 
 **Clear shapes**  
 Clear the rendered shape(s). Useful if not set to be done automatically.
 
-**Scale on X axis**  
-Change the width's scale of an object.
-
-**Scale on Y axis**  
-Change the height's scale of an object.
-
 **Ellipse**  
 Draw an ellipse on screen
 
@@ -45,15 +39,6 @@ Change the color used when filling
 
 **Fill opacity**  
 Modify the opacity level used when filling future drawings.
-
-**Flip the object horizontally**  
-Flip the object horizontally
-
-**Flip the object vertically**  
-Flip the object vertically
-
-**Height**  
-Change the height of an object.
 
 **Line**  
 Draw a line on screen
@@ -91,9 +76,6 @@ Draw a rectangle on screen
 **Rounded rectangle**  
 Draw a rounded rectangle on screen
 
-**Scale**  
-Modify the scale of the specified object.
-
 **Anti-aliasing**  
 Anti-aliasing
 
@@ -109,9 +91,6 @@ Draw a star on screen
 **Use relative coordinates**  
 Set if the object should use relative coordinates (by default) or not. It's recommended to use relative coordinates.
 
-**Width**  
-Change the width of an object.
-
 **Close Path**  
 Close the path of the advanced shape. This closes the outline between the last and the first point.
 
@@ -126,20 +105,8 @@ Checks the selected type of anti-aliasing
 **Clear between frames**  
 Check if the rendered image is cleared between frames.
 
-**Scale on X axis**  
-Compare the width's scale of an object.
-
-**Scale on Y axis**  
-Compare the height's scale of an object.
-
 **Fill opacity**  
 Test the value of the opacity level used when filling.
-
-**Horizontally flipped**  
-Check if the object is horizontally flipped
-
-**Vertically flipped**  
-Check if the object is vertically flipped
 
 **Outline opacity**  
 Test the opacity of the outline.
@@ -161,8 +128,6 @@ Test the size of the outline.
 | `Object.OutlineColorRed()` | Outline color red component ||
 | `Object.OutlineOpacity()` | Outline opacity ||
 | `Object.OutlineSize()` | Outline size ||
-| `Object.ScaleX()` | Return the width's scale of an object. ||
-| `Object.ScaleY()` | Return the height's scale of an object. ||
 | `Object.ToDrawingX(number, number)` | X drawing coordinate of a point from the scene ||
 | | _number_ | X scene position |
 | | _number_ | Y scene position |

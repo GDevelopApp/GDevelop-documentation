@@ -19,15 +19,6 @@ Change the color of the text. The color is white by default.
 **Text opacity**  
 Change the opacity of a Text. 0 is fully transparent, 255 is opaque (default).
 
-**Scale**  
-Modify the scale of the specified object (default scale is 1)
-
-**Scale on X axis**  
-Modify the scale of the text on the X axis (default scale is 1)
-
-**Scale on Y axis**  
-Modify the scale of the text on the Y axis (default scale is 1)
-
 **Bold**  
 De/activate bold
 
@@ -85,12 +76,6 @@ Compare the opacity of a Text object, between 0 (fully transparent) to 255 (opaq
 **Padding**  
 Compare the number of pixels around a text object. If the shadow or the outline around the text are getting cropped, raise this value.
 
-**Scale on X axis**  
-Compare the scale of the text on the X axis
-
-**Scale on Y axis**  
-Compare the scale of the text on the Y axis
-
 **Compare the text**  
 Compare the text of a Text object.
 
@@ -111,8 +96,6 @@ Test the word wrapping width of a Text object.
 | `Object.FontSize()` | Return the font size of a text object. ||
 | `Object.Opacity()` | Opacity of a Text object ||
 | `Object.Padding()` | Padding ||
-| `Object.ScaleX()` | X Scale of a Text object ||
-| `Object.ScaleY()` | Y Scale of a Text object ||
 | `Object.String()` | Text ||
 
 ---

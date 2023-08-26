@@ -104,9 +104,6 @@ Modify the Z-order of an object
 **Delete the object**  
 Delete the specified object.
 
-**Enable an object effect**  
-Enable an effect on the object
-
 **Put the object around another**  
 Position an object around another, with the specified angle and distance. The center of the objects are used for positioning them.
 
@@ -187,18 +184,6 @@ Change the X position of the center of rotation.
 **Center Y position**  
 Change the Y position of the center of rotation.
 
-**Effect parameter (enable or disable)**  
-Enable or disable a parameter of an effect.  
-You can find the parameter names (and change the effect names) in the effects window.
-
-**Effect parameter (number)**  
-Change the value of a parameter of an effect.  
-You can find the parameter names (and change the effect names) in the effects window.
-
-**Effect parameter (string)**  
-Change the value (string) of a parameter of an effect.  
-You can find the parameter names (and change the effect names) in the effects window.
-
 **Include in parent collision mask**  
 Include or exclude a child from its parent collision mask.
 
@@ -255,9 +240,6 @@ Test if a point is inside the object collision masks.
 
 **Value of an object timer**  
 Compare the elapsed time of an object timer. This condition doesn't start the timer.
-
-**Effect is enabled**  
-Check if the effect on an object is enabled.
 
 **Current layer**  
 Check if the object is on the specified layer.

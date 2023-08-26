@@ -64,18 +64,6 @@ Joystick for touchscreens.
 **De/activate control**  
 De/activate control of the joystick.
 
-**Flip the object horizontally**  
-Flip the object horizontally
-
-**Flip the object vertically**  
-Flip the object vertically
-
-**Height**  
-Change the height of an object.
-
-**Scale**  
-Modify the scale of the specified object.
-
 **Multitouch controller identifier**  
 Change the multitouch controller identifier (1, 2, 3, 4...).
 
@@ -85,18 +73,6 @@ Change the dead zone radius of the joystick (range: 0 to 1). The deadzone is an 
 **Joystick name**  
 Change the joystick name of the object.
 
-**Opacity**  
-Change the opacity of an object, between 0 (fully transparent) to 255 (opaque).
-
-**Scale on X axis**  
-Change the width's scale of an object.
-
-**Scale on Y axis**  
-Change the height's scale of an object.
-
-**Width**  
-Change the width of an object.
-
 ### Object conditions
 
 **Multitouch controller identifier**  
@@ -104,12 +80,6 @@ Compare the multitouch controller identifier (1, 2, 3, 4...).
 
 **Dead zone radius**  
 Compare the dead zone radius of the joystick (range: 0 to 1). The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved).
-
-**Horizontally flipped**  
-Check if the object is horizontally flipped
-
-**Vertically flipped**  
-Check if the object is vertically flipped
 
 **Joystick pushed in a direction (4-way movement)**  
 Check if joystick is pushed in a given direction.
@@ -122,15 +92,6 @@ Check if a stick is pressed.
 
 **Joystick name**  
 Compare the joystick name of the object.
-
-**Opacity**  
-Compare the opacity of an object, between 0 (fully transparent) to 255 (opaque).
-
-**Scale on X axis**  
-Compare the width's scale of an object.
-
-**Scale on Y axis**  
-Compare the height's scale of an object.
 
 **Stick force**  
 Compare the strick force (from 0 to 1).
@@ -148,9 +109,6 @@ Compare the stick force on Y axis (from -1 at the top to 1 at the bottom).
 | `Object.ControllerIdentifier()` | Return the multitouch controller identifier (1, 2, 3, 4...). ||
 | `Object.DeadZoneRadius()` | Return the dead zone radius of the joystick (range: 0 to 1). The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved). ||
 | `Object.JoystickIdentifier()` | Return the joystick name of the object. ||
-| `Object.Opacity()` | Return the opacity of an object, between 0 (fully transparent) to 255 (opaque). ||
-| `Object.ScaleX()` | Return the width's scale of an object. ||
-| `Object.ScaleY()` | Return the height's scale of an object. ||
 | `Object.StickAngle()` | Return the angle the stick is pointing towards (from -180 to 180). ||
 | `Object.StickForce()` | Return the strick force (from 0 to 1). ||
 | `Object.StickForceX()` | Return the stick force on X axis (from -1 at the left to 1 at the right). ||

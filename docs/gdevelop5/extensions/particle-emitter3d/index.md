@@ -32,20 +32,8 @@ Display a large number of particles to create visual effects.
 
 ### Object actions
 
-**Flip the object horizontally**  
-Flip the object horizontally
-
-**Flip the object vertically**  
-Flip the object vertically
-
-**Height**  
-Change the height of an object.
-
 **Restart**  
 Restart particule emission from the beginning.
-
-**Scale**  
-Modify the scale of the specified object.
 
 **Particles move with the emitter**  
 Change if particles move with the emitter.
@@ -77,20 +65,11 @@ Change the max lifespan of the object.
 **Min lifespan**  
 Change the min lifespan of the object.
 
-**Opacity**  
-Change the opacity of an object, between 0 (fully transparent) to 255 (opaque).
-
 **Rotation on X axis**  
 Change the rotation on X axis of the emitter.
 
 **Rotation on Y axis**  
 Change the rotation on Y axis of the emitter.
-
-**Scale on X axis**  
-Change the width's scale of an object.
-
-**Scale on Y axis**  
-Change the height's scale of an object.
 
 **Delete when emission ends**  
 Change if delete when emission ends.
@@ -119,9 +98,6 @@ Change the min start speed of the object.
 **Z (elevation)**  
 Change the Z position of the emitter.
 
-**Width**  
-Change the width of an object.
-
 ### Object conditions
 
 **Particles move with the emitter**  
@@ -142,12 +118,6 @@ Compare the end opacity of the object.
 **End scale**  
 Compare the end scale of the object.
 
-**Horizontally flipped**  
-Check if the object is horizontally flipped
-
-**Vertically flipped**  
-Check if the object is vertically flipped
-
 **Flow of particles**  
 Compare the flow of particles of the object  (particles per second).
 
@@ -166,20 +136,11 @@ Compare the max lifespan of the object.
 **Min lifespan**  
 Compare the min lifespan of the object.
 
-**Opacity**  
-Compare the opacity of an object, between 0 (fully transparent) to 255 (opaque).
-
 **Rotation on X axis**  
 Compare the rotation on X axis of the emitter.
 
 **Rotation on Y axis**  
 Compare the rotation on Y axis of the emitter.
-
-**Scale on X axis**  
-Compare the width's scale of an object.
-
-**Scale on Y axis**  
-Compare the height's scale of an object.
 
 **Delete when emission ends**  
 Check if delete when emission ends.
@@ -222,11 +183,8 @@ Compare the Z position of the emitter.
 | `Object.GravityTop()` | Return the gravity top of the object. ||
 | `Object.LifespanMax()` | Return the max lifespan of the object. ||
 | `Object.LifespanMin()` | Return the min lifespan of the object. ||
-| `Object.Opacity()` | Return the opacity of an object, between 0 (fully transparent) to 255 (opaque). ||
 | `Object.RotationX()` | Return the rotation on X axis of the emitter. ||
 | `Object.RotationY()` | Return the rotation on Y axis of the emitter. ||
-| `Object.ScaleX()` | Return the width's scale of an object. ||
-| `Object.ScaleY()` | Return the height's scale of an object. ||
 | `Object.SpayConeAngle()` | Return the spay cone angle of the object. ||
 | `Object.StartColor()` | Return the start color of the object. ||
 | `Object.StartOpacity()` | Return the start opacity of the object. ||

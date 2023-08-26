@@ -281,59 +281,13 @@ This condition cannot be tested correctly if the visibility of the 3D object is 
 This 3D Box can have different textures on 6 faces.
 ⚠️ This object is high load. 
 
-### Object actions
-
-**Flip the object horizontally**  
-Flip the object horizontally
-
-**Flip the object vertically**  
-Flip the object vertically
-
-**Height**  
-Change the height of an object.
-
-**Scale**  
-Modify the scale of the specified object.
-
-**Opacity**  
-Change the opacity of an object, between 0 (fully transparent) to 255 (opaque).
-
-**Scale on X axis**  
-Change the width's scale of an object.
-
-**Scale on Y axis**  
-Change the height's scale of an object.
-
-**Width**  
-Change the width of an object.
-
-### Object conditions
-
-**Horizontally flipped**  
-Check if the object is horizontally flipped
-
-**Vertically flipped**  
-Check if the object is vertically flipped
-
-**Opacity**  
-Compare the opacity of an object, between 0 (fully transparent) to 255 (opaque).
-
-**Scale on X axis**  
-Compare the width's scale of an object.
-
-**Scale on Y axis**  
-Compare the height's scale of an object.
-
 ### Object expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.Depth()` | Depth ||
 | `Object.Id()` | 3D Object ID ||
-| `Object.Opacity()` | Return the opacity of an object, between 0 (fully transparent) to 255 (opaque). ||
 | `Object.ProjectionScale()` | Projection Scale ||
-| `Object.ScaleX()` | Return the width's scale of an object. ||
-| `Object.ScaleY()` | Return the height's scale of an object. ||
 
 ## 3D Board Projection 
 

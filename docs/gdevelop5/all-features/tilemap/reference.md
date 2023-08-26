@@ -10,34 +10,13 @@ Invisible object handling collisions with parts of a tilemap.
 
 ### Object actions
 
-**Height**  
-Change the height of an object.
-
-**Scale**  
-Modify the scale of the specified object.
-
-**Scale on X axis**  
-Change the width's scale of an object.
-
-**Scale on Y axis**  
-Change the height's scale of an object.
-
 **Tilemap JSON file**  
 Set the JSON file containing the Tilemap data to display. This is usually the JSON file exported from Tiled.
 
 **Tileset JSON file**  
 Set the JSON file with the tileset data (sometimes that is embedded in the Tilemap, so not needed)
 
-**Width**  
-Change the width of an object.
-
 ### Object conditions
-
-**Scale on X axis**  
-Compare the width's scale of an object.
-
-**Scale on Y axis**  
-Compare the height's scale of an object.
 
 **Tilemap JSON file**  
 Check the Tilemap JSON file being used.
@@ -45,24 +24,14 @@ Check the Tilemap JSON file being used.
 **Tileset JSON file**  
 Check the tileset JSON file being used.
 
-### Object expressions
+_No expressions for this object._
 
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.ScaleX()` | Return the width's scale of an object. ||
-| `Object.ScaleY()` | Return the height's scale of an object. ||
 
 ## Tilemap 
 
 Displays a tiled-based map, made with the Tiled editor (https://www.mapeditor.org/) or the LDtk editor (https://ldtk.io/). 
 
 ### Object actions
-
-**Height**  
-Change the height of an object.
-
-**Scale**  
-Modify the scale of the specified object.
 
 **Animation speed (FPS)**  
 Set the animation speed of the Tilemap.
@@ -82,15 +51,6 @@ Set the Tiled or LDtk file containing the Tilemap data to display. This is usual
 **Tileset JSON file**  
 Set the JSON file with the tileset data (sometimes that is embedded in the Tilemap, so not needed)
 
-**Scale on X axis**  
-Change the width's scale of an object.
-
-**Scale on Y axis**  
-Change the height's scale of an object.
-
-**Width**  
-Change the width of an object.
-
 ### Object conditions
 
 **Animation speed (FPS)**  
@@ -108,12 +68,6 @@ Compare the value of the layer index.
 **Level index**  
 Compare the level index being displayed..
 
-**Scale on X axis**  
-Compare the width's scale of an object.
-
-**Scale on Y axis**  
-Compare the height's scale of an object.
-
 **Tilemap file (Tiled or LDtk)**  
 Check the tilemap file (Tiled or LDtk) being used.
 
@@ -128,8 +82,6 @@ Check the tileset JSON file being used.
 | `Object.AnimationSpeedScale()` | Get the Animation speed scale ||
 | `Object.LayerIndex()` | Get the layer index being displayed ||
 | `Object.LevelIndex()` | Return the level index being displayed.. ||
-| `Object.ScaleX()` | Return the width's scale of an object. ||
-| `Object.ScaleY()` | Return the height's scale of an object. ||
 
 ---
 *This page is an auto-generated reference page about the **Tilemap** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

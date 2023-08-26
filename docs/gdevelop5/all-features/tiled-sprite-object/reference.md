@@ -10,20 +10,8 @@ Displays an image repeated over an area.
 
 ### Object actions
 
-**Height**  
-Modify the height of a Tiled Sprite.
-
 **Tint color**  
 Change the tint of a Tiled Sprite. The default color is white.
-
-**Change Tiled Sprite opacity**  
-Change the opacity of a Tiled Sprite. 0 is fully transparent, 255 is opaque (default).
-
-**Size**  
-Modify the size of a Tiled Sprite.
-
-**Width**  
-Modify the width of a Tiled Sprite.
 
 **Image X Offset**  
 Modify the offset used on the X axis when displaying the image.
@@ -32,15 +20,6 @@ Modify the offset used on the X axis when displaying the image.
 Modify the offset used on the Y axis when displaying the image.
 
 ### Object conditions
-
-**Height**  
-Test the height of a Tiled Sprite.
-
-**Opacity**  
-Compare the opacity of a Tiled Sprite, between 0 (fully transparent) to 255 (opaque).
-
-**Width**  
-Test the width of a Tiled Sprite.
 
 **Image X Offset**  
 Test the offset used on the X axis when displaying the image.
@@ -52,7 +31,6 @@ Test the offset used on the Y axis when displaying the image.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Object.Opacity()` | Opacity ||
 | `Object.XOffset()` | Return the offset used on the X axis when displaying the image. ||
 | `Object.YOffset()` | Return the offset used on the Y axis when displaying the image. ||
 

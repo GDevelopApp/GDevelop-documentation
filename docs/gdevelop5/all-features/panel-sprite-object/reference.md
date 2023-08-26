@@ -10,9 +10,6 @@ An image with edges and corners that are stretched separately from the full imag
 
 ### Object actions
 
-**Height**  
-Modify the height of a Panel Sprite.
-
 **Tint color**  
 Change the tint of a Panel Sprite. The default color is white.
 
@@ -22,19 +19,10 @@ Change the image of a Panel Sprite.
 **Change Panel Sprite opacity**  
 Change the opacity of a Panel Sprite. 0 is fully transparent, 255 is opaque (default).
 
-**Width**  
-Modify the width of a Panel Sprite.
-
 ### Object conditions
-
-**Height**  
-Check the height of a Panel Sprite.
 
 **Opacity**  
 Compare the opacity of a Panel Sprite, between 0 (fully transparent) to 255 (opaque).
-
-**Width**  
-Check the width of a Panel Sprite.
 
 ### Object expressions
 

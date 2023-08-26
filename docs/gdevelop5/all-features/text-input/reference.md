@@ -40,9 +40,6 @@ Set the font of the object.
 **Input type**  
 Change the input type.
 
-**Opacity**  
-Change the opacity, between 0 (fully transparent) and 255 (opaque).
-
 **Placeholder**  
 Change the placeholder.
 
@@ -81,9 +78,6 @@ Compare the font name.
 **Input type**  
 Compare the input type.
 
-**Opacity**  
-Compare the opacity, between 0 (fully transparent) and 255 (opaque).
-
 **Placeholder**  
 Compare the placeholder.
 
@@ -103,7 +97,6 @@ Compare the text.
 | `Object.Font size()` | Return the font size. ||
 | `Object.FontResourceName()` | Return the font name. ||
 | `Object.InputType()` | Return the input type. ||
-| `Object.Opacity()` | Return the opacity, between 0 (fully transparent) and 255 (opaque). ||
 | `Object.Placeholder()` | Return the placeholder. ||
 | `Object.Text()` | Return the text. ||
 

@@ -95,17 +95,11 @@ Animated object which can be used for most elements of a game [Read more explana
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Object.Animation()` | Animation of the object ||
 | `Object.AnimationFrameCount()` | Number of frames in the current animation of the object ||
-| `Object.AnimationName()` | Name of the animation of the object ||
-| `Object.AnimationSpeedScale()` | Animation speed scale ||
-| `Object.Opacity()` | Opacity ||
 | `Object.PointX(objectPointName)` | X position of a point ||
 | | _objectPointName_ | Name of the point |
 | `Object.PointY(objectPointName)` | Y position of a point ||
 | | _objectPointName_ | Name of the point |
-| `Object.ScaleX()` | Scale of the width of an object ||
-| `Object.ScaleY()` | Scale of the height of an object ||
 | `Object.Sprite()` | Current frame of the animation of the object ||
 
 ---
@@ -524,6 +518,79 @@ Advanced control features for functions made with events.
 
 
 
+## Animatable capability 
+
+Animate objects. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects)
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.Animation::Index()` | Return the number of the animation played by the object (the number from the animations list). ||
+| `Object.Animation::Name()` | Return the animation played by the object using the name of the animation.. ||
+| `Object.Animation::SpeedScale()` | Return the animation speed scale (1 = the default speed, >1 = faster and <1 = slower). ||
+
+---
+
+
+
+## Effect capability 
+
+Apply visual effects to objects. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects)
+
+_No expressions for this behavior._
+
+
+---
+
+
+
+## Flippable capability 
+
+Flip objects. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects)
+
+_No expressions for this behavior._
+
+
+---
+
+
+
+## Resizable capability 
+
+Change the object dimensions. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects)
+
+_No expressions for this behavior._
+
+
+---
+
+
+
+## Scalable capability 
+
+Change the object scale. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects)
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.Scale::Value()` | Return the scale of the object (default scale is 1). ||
+| `Object.Scale::X()` | Return the scale on X axis of the object (default scale is 1). ||
+| `Object.Scale::Y()` | Return the scale on Y axis of the object (default scale is 1). ||
+
+---
+
+
+
+## Opacity capability 
+
+Change the object opacity. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects)
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.Opacity::Value()` | Return the opacity of an object, between 0 (fully transparent) to 255 (opaque). ||
+
+---
+
+
+
 ## Platform (from extension Platform behavior)
 
 Flag objects as being platforms which characters can run on. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/behaviors/platformer)
@@ -570,7 +637,6 @@ Displays an image repeated over an area. [Read more explanations about it.](http
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Object.Opacity()` | Opacity ||
 | `Object.XOffset()` | Return the offset used on the X axis when displaying the image. ||
 | `Object.YOffset()` | Return the offset used on the Y axis when displaying the image. ||
 
@@ -621,8 +687,6 @@ Displays a text on the screen. [Read more explanations about it.](https://wiki.g
 | `Object.FontSize()` | Return the font size of a text object. ||
 | `Object.Opacity()` | Opacity of a Text object ||
 | `Object.Padding()` | Padding ||
-| `Object.ScaleX()` | X Scale of a Text object ||
-| `Object.ScaleY()` | Y Scale of a Text object ||
 | `Object.String()` | Text ||
 
 ---
@@ -709,8 +773,6 @@ Allows you to draw simple shapes on the screen using the events. [Read more expl
 | `Object.OutlineColorRed()` | Outline color red component ||
 | `Object.OutlineOpacity()` | Outline opacity ||
 | `Object.OutlineSize()` | Outline size ||
-| `Object.ScaleX()` | Return the width's scale of an object. ||
-| `Object.ScaleY()` | Return the height's scale of an object. ||
 | `Object.ToDrawingX(number, number)` | X drawing coordinate of a point from the scene ||
 | | _number_ | X scene position |
 | | _number_ | Y scene position |
@@ -845,33 +907,27 @@ Support for 3D in GDevelop.
 
 A 3D box. 
 
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.Depth()` | Return the depth (size on Z axis). ||
-| `Object.RotationX()` | Return the rotation on X axis. ||
-| `Object.RotationY()` | Return the rotation on Y axis. ||
-| `Object.ScaleX()` | Return the width's scale of an object. ||
-| `Object.ScaleY()` | Return the height's scale of an object. ||
-| `Object.ScaleZ()` | Return the depth's scale of an object. ||
-| `Object.Z()` | Return the Z position (the "elevation"). ||
+_No expressions for this object._
+
 
 ## 3D Model (from extension 3D)
 
 A 3D model. 
 
+_No expressions for this object._
+
+
+## 3D capability (from extension 3D)
+
+Move the object in 3D space. 
+
 | Expression | Description |  |
 |-----|-----|-----|
-| `Object.Animation()` | Return the number of the animation played by the object (the number from the animations list). ||
-| `Object.AnimationName()` | Return the animation played by the object. ||
-| `Object.AnimationSpeedScale()` | Return the animation speed scale (1 = the default speed, >1 = faster and <1 = slower). ||
-| `Object.Depth()` | Return the depth (size on Z axis). ||
-| `Object.Height()` | Return the height. ||
-| `Object.RotationX()` | Return the rotation on X axis. ||
-| `Object.RotationY()` | Return the rotation on Y axis. ||
-| `Object.ScaleX()` | Return the width's scale of an object. ||
-| `Object.ScaleY()` | Return the height's scale of an object. ||
-| `Object.ScaleZ()` | Return the depth's scale of an object. ||
-| `Object.Z()` | Return the Z position (the "elevation"). ||
+| `Object.Object3D::Depth()` | Return the depth (size on Z axis). ||
+| `Object.Object3D::RotationX()` | Return the rotation on X axis. ||
+| `Object.Object3D::RotationY()` | Return the rotation on Y axis. ||
+| `Object.Object3D::ScaleZ()` | Return the scale on Z axis of an object (default scale is 1). ||
+| `Object.Object3D::Z()` | Return the Z position (the "elevation"). ||
 
 ---
 
@@ -900,7 +956,6 @@ Displays a rich text label using BBCode markup (allowing to set parts of the tex
 | `Object.GetBBText()` | Get BBCode text ||
 | `Object.GetFontFamily()` | Get the base font family ||
 | `Object.GetFontSize()` | Get the base font size ||
-| `Object.GetOpacity()` | Get the base opacity ||
 | `Object.GetWrappingWidth()` | Get the wrapping width ||
 
 ---
@@ -916,8 +971,6 @@ Displays a text using a "Bitmap Font" (an image representing characters). This i
 | `Object.Alignment()` | Return the text alignment. ||
 | `Object.FontName()` | Return the font name (defined in the Bitmap font). ||
 | `Object.FontSize()` | Return the font size, defined in the Bitmap Font. ||
-| `Object.Opacity()` | Return the opacity, between 0 (fully transparent) and 255 (opaque). ||
-| `Object.Scale()` | Return the scale (1 by default). ||
 | `Object.Text()` | Return the text. ||
 | `Object.WrappingWidth()` | Return the width, in pixels, after which the text is wrapped on next line. ||
 
@@ -1265,7 +1318,6 @@ A text field the player can type text into.
 | `Object.Font size()` | Return the font size. ||
 | `Object.FontResourceName()` | Return the font name. ||
 | `Object.InputType()` | Return the input type. ||
-| `Object.Opacity()` | Return the opacity, between 0 (fully transparent) and 255 (opaque). ||
 | `Object.Placeholder()` | Return the placeholder. ||
 | `Object.Text()` | Return the text. ||
 
@@ -1277,10 +1329,8 @@ A text field the player can type text into.
 
 Invisible object handling collisions with parts of a tilemap. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/tilemap)
 
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.ScaleX()` | Return the width's scale of an object. ||
-| `Object.ScaleY()` | Return the height's scale of an object. ||
+_No expressions for this object._
+
 
 ## Tilemap 
 
@@ -1292,8 +1342,6 @@ Displays a tiled-based map, made with the Tiled editor (https://www.mapeditor.or
 | `Object.AnimationSpeedScale()` | Get the Animation speed scale ||
 | `Object.LayerIndex()` | Get the layer index being displayed ||
 | `Object.LevelIndex()` | Return the level index being displayed.. ||
-| `Object.ScaleX()` | Return the width's scale of an object. ||
-| `Object.ScaleY()` | Return the height's scale of an object. ||
 
 ---
 

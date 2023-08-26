@@ -25,9 +25,6 @@ Set font family
 **Font size**  
 Set base font size
 
-**Opacity**  
-Set base opacity
-
 **Word wrap**  
 Set word wrap
 
@@ -48,9 +45,6 @@ Compare the value of font family
 **Font size**  
 Compare the base font size of the text.
 
-**Opacity**  
-Compare the value of the base opacity of the text.
-
 **Word wrap**  
 Check if word wrap is enabled.
 
@@ -65,7 +59,6 @@ Compare the width, in pixels, after which the text is wrapped on next line.
 | `Object.GetBBText()` | Get BBCode text ||
 | `Object.GetFontFamily()` | Get the base font family ||
 | `Object.GetFontSize()` | Get the base font size ||
-| `Object.GetOpacity()` | Get the base opacity ||
 | `Object.GetWrappingWidth()` | Get the wrapping width ||
 
 ---

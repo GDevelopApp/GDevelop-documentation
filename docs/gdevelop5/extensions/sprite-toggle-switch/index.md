@@ -27,40 +27,10 @@ A toggle switch that users can click or touch.
 **De/activate interactions**  
 De/activate interactions with the button.
 
-**Flip the object horizontally**  
-Flip the object horizontally
-
-**Flip the object vertically**  
-Flip the object vertically
-
-**Height**  
-Change the height of an object.
-
-**Scale**  
-Modify the scale of the specified object.
-
 **Check (or uncheck)**  
 Check (or uncheck) the toggle switch.
 
-**Opacity**  
-Change the opacity of an object, between 0 (fully transparent) to 255 (opaque).
-
-**Scale on X axis**  
-Change the width's scale of an object.
-
-**Scale on Y axis**  
-Change the height's scale of an object.
-
-**Width**  
-Change the width of an object.
-
 ### Object conditions
-
-**Horizontally flipped**  
-Check if the object is horizontally flipped
-
-**Vertically flipped**  
-Check if the object is vertically flipped
 
 **Has just been checked**  
 Check if the toggle switch was checked in the current frame.
@@ -77,22 +47,8 @@ Check if the toggle switch is checked.
 **Is hovered**  
 Check if the cursor is hovered over the button.
 
-**Opacity**  
-Compare the opacity of an object, between 0 (fully transparent) to 255 (opaque).
+_No expressions for this object._
 
-**Scale on X axis**  
-Compare the width's scale of an object.
-
-**Scale on Y axis**  
-Compare the height's scale of an object.
-
-### Object expressions
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.Opacity()` | Return the opacity of an object, between 0 (fully transparent) to 255 (opaque). ||
-| `Object.ScaleX()` | Return the width's scale of an object. ||
-| `Object.ScaleY()` | Return the height's scale of an object. ||
 
 ---
 
