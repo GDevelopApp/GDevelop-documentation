@@ -336,4 +336,5 @@ Limitations: only works with browser games.|[Read more...](https://bitbucket.org
 ||Name|Description||
 |---|---|---|---|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/f2e5a34bf465f781866677762d385d6c8e9e8d203383f2df9a3b7e0fad6a2cb5_fire.svg" class="extension-icon"></img>|**3D particle emitter (experimental)**|Display a large number of particles to create visual effects.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/particle-emitter3d)|
+|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/30bc03f9cf5f2f42960246a605352a6937ae6b603f0177396a83193849a4724a_tennis-ball.svg" class="extension-icon"></img>|**3D tween (experimental)**|Smoothly animate scale and rotation of 3d models.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/tween3d)|
 
