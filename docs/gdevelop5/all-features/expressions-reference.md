@@ -685,7 +685,6 @@ Displays a text on the screen. [Read more explanations about it.](https://wiki.g
 |-----|-----|-----|
 | `Object.Angle()` | Angle ||
 | `Object.FontSize()` | Return the font size of a text object. ||
-| `Object.Opacity()` | Opacity of a Text object ||
 | `Object.Padding()` | Padding ||
 | `Object.String()` | Text ||
 
@@ -738,9 +737,8 @@ Displays a large number of small particles to create visual effects. [Read more 
 
 An image with edges and corners that are stretched separately from the full image. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/panel_sprite)
 
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.Opacity()` | Opacity ||
+_No expressions for this object._
+
 
 ---
 
@@ -1379,6 +1377,5 @@ Displays a video. [Read more explanations about it.](https://wiki.gdevelop.io/gd
 |-----|-----|-----|
 | `Object.CurrentTime()` | Return the current time of a video object (in seconds). ||
 | `Object.Duration()` | Return the duration of a video object (in seconds). ||
-| `Object.Opacity()` | Return the opacity of a video object ||
 | `Object.PlaybackSpeed()` | Return the playback speed of a video object ||
 | `Object.Volume()` | Get the volume of a video object, between 0 (muted) and 100 (maximum). ||

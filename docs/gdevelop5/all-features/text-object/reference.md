@@ -16,9 +16,6 @@ Modify the angle of a Text object.
 **Color**  
 Change the color of the text. The color is white by default.
 
-**Text opacity**  
-Change the opacity of a Text. 0 is fully transparent, 255 is opaque (default).
-
 **Bold**  
 De/activate bold
 
@@ -70,9 +67,6 @@ Check if the italic style is activated
 **Wrapping**  
 Test if the word wrapping style of an object is set.
 
-**Opacity**  
-Compare the opacity of a Text object, between 0 (fully transparent) to 255 (opaque).
-
 **Padding**  
 Compare the number of pixels around a text object. If the shadow or the outline around the text are getting cropped, raise this value.
 
@@ -94,7 +88,6 @@ Test the word wrapping width of a Text object.
 |-----|-----|-----|
 | `Object.Angle()` | Angle ||
 | `Object.FontSize()` | Return the font size of a text object. ||
-| `Object.Opacity()` | Opacity of a Text object ||
 | `Object.Padding()` | Padding ||
 | `Object.String()` | Text ||
 

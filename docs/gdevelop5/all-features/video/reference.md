@@ -22,9 +22,6 @@ Pause the specified video.
 **Play a video**  
 Play a video (recommended file format is MPEG4, with H264 video codec and AAC audio codec).
 
-**Set opacity**  
-Set opacity of the specified video object.
-
 **Set playback speed**  
 Set playback speed of the specified video object, (1 = the default speed, >1 = faster and <1 = slower).
 
@@ -44,9 +41,6 @@ Compare the duration of a video object
 
 **Is ended**  
 Check if a video is ended
-
-**Opacity**  
-Compare the opacity of a video object
 
 **Playback speed **  
 Compare the playback speed of a video object
@@ -72,7 +66,6 @@ Compare the current volume of a video object.
 |-----|-----|-----|
 | `Object.CurrentTime()` | Return the current time of a video object (in seconds). ||
 | `Object.Duration()` | Return the duration of a video object (in seconds). ||
-| `Object.Opacity()` | Return the opacity of a video object ||
 | `Object.PlaybackSpeed()` | Return the playback speed of a video object ||
 | `Object.Volume()` | Get the volume of a video object, between 0 (muted) and 100 (maximum). ||
 

@@ -16,19 +16,8 @@ Change the tint of a Panel Sprite. The default color is white.
 **Image name**  
 Change the image of a Panel Sprite.
 
-**Change Panel Sprite opacity**  
-Change the opacity of a Panel Sprite. 0 is fully transparent, 255 is opaque (default).
+_No expressions for this object._
 
-### Object conditions
-
-**Opacity**  
-Compare the opacity of a Panel Sprite, between 0 (fully transparent) to 255 (opaque).
-
-### Object expressions
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.Opacity()` | Opacity ||
 
 ---
 *This page is an auto-generated reference page about the **Panel Sprite (9-patch) Object** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
