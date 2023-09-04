@@ -1,8 +1,8 @@
-# GDevelop Solution Partner Program
+# GDevelop Solutions Provider Program
 
-The GDevelop Solution Partner Program is an initiative designed to foster collaboration and expertise within the GDevelop professional community. This program serves as a bridge between proficient GDevelop users and those seeking specialized skills for interactive projects.
+The GDevelop Solutions Provider Program is an initiative designed to foster collaboration and expertise within the GDevelop professional community. This program serves as a bridge between proficient GDevelop users and those seeking specialized skills for interactive projects.
 
-[Apply to the GDevelop Solution Partner Program](https://airtable.com/apprjAoiGfMAoep9R/shrCh55ufvNCHIXjs){ .md-button .md-button--primary }
+[Apply to the GDevelop Solutions Provider Program](https://airtable.com/apprjAoiGfMAoep9R/shrCh55ufvNCHIXjs){ .md-button .md-button--primary }
 
 
 [Contact a GDevelop Specialist](mailto:business@gdevelop.io){ .md-button .md-button }
@@ -11,7 +11,7 @@ The GDevelop Solution Partner Program is an initiative designed to foster collab
 The program functions on a dual basis:
 
 #### For Professionals:
-GDevelop users operating as freelancers, consultants, agencies or companies can apply to become a GDevelop Solution Partner. To be eligible, candidates must:
+GDevelop users operating as freelancers, consultants, agencies or companies can apply to become a GDevelop Solutions Provider. To be eligible, candidates must:
 
 - Have legal age to operate as a professional in their country
 - Demonstrate active registration and/or tax compliance as a professional entity
@@ -45,7 +45,7 @@ This program aims to achieve two primary objectives: facilitating the enlistment
 
 ## Applying as a GDevelop Professional
 
-Professionals interested in becoming part of the GDevelop Solution Partner Program can apply online through a form.
+Professionals interested in becoming part of the GDevelop Solutions Provider Program can apply online through a form.
 The validation process is as follows:
 
 1. The candidate fills the online form with their professional profile
@@ -53,17 +53,17 @@ The validation process is as follows:
 3. A possible video call between a GDevelop member and the candidate might be required to better seize the profile's specialization.
 4. If the profile is validated, the professional will join GDevelop's channels where they'll be able to see the projects hiring.
 
-**Once a GDevelop Professional stablishes contact with a Client, the GDevelop team leaves the process. From that moment the Professional and the Client remain responsible for the Project's management, delivery and billing process.
+**Once a GDevelop Professional establishes contact with a Client, the GDevelop team leaves the process. From that moment the Professional and the Client remain responsible for the Project's management, delivery and billing process.
 GDevelop **does not** take any cut nor percentage for head hunting during 2023 and 2024.*
 
 ### Legal requirements
-To join the GDevelop Solution Partner Program as a professional, candidates must meet the following legal requisites:
+To join the GDevelop Solutions Provider Program as a professional, candidates must meet the following legal requisites:
 
 - **Legal Age:** Applicants must be of legal age as defined by their jurisdiction.
 
 - **Legal Status:** Candidates must operate as freelancers, consultants, agencies, or companies, with official registration and compliance with relevant tax regulations.
 
-[Apply to the GDevelop Solution Partner Program](https://airtable.com/apprjAoiGfMAoep9R/shrCh55ufvNCHIXjs){ .md-button .md-button--primary }
+[Apply to the GDevelop Solutions Provider Program](https://airtable.com/apprjAoiGfMAoep9R/shrCh55ufvNCHIXjs){ .md-button .md-button--primary }
 
 
 ## Working with a GDevelop Specialist
@@ -100,8 +100,8 @@ No, GDevelop will not assist with project management ressources once the contact
 
 **3. Can I still work as a professional if I don't have the legal requirements?**
 
-You can not be listed as a GDevelop Professional on GDevelop's official Solution Partners if you do not have the minimim legal requirements.
-However, you are always welcome to join the GDevelop Advocate's program.
+You can not be listed as a GDevelop Professional on GDevelop's official Solutions Providers if you do not have the minimim legal requirements.
+However, you are always welcome to join [the GDevelop Advocate's program](https://gdevelop.io/page/community-advocate).
 
 
 ### For Product Owners
@@ -110,7 +110,7 @@ However, you are always welcome to join the GDevelop Advocate's program.
 
 No, GDevelop will not assist with project management ressources once the contact between the Client and the Professional is stablished.
 
-**2. What kind of professionals can I expect to find on GDevelop's Solution Partner Program?**
+**2. What kind of professionals can I expect to find on GDevelop's Solutions Provider Program?**
 
 The profiles vary from visual artists and animators, sound designers and musicians, to game designers, game developers, and code developers.
 
