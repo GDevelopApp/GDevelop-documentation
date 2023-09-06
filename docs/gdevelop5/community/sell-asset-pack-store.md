@@ -1,19 +1,19 @@
 ---
-title: Selling assets on GDevelop's Asset Store
+title: Selling assets and game templates on GDevelop's Asset Store
 ---
-# Selling assets on GDevelop's Asset Store
+# Selling assets and game templates on GDevelop's Asset Store
 
-GDevelop has its own built-in asset store, allowing game creators to access game art directly on the app.
-By providing easy-to-use and high-quality assets we're allowing creators to get a head start on their video game creation journey.
+GDevelop has its own built-in asset store, allowing game creators to access game art and game template directly on the app.
+By providing easy-to-use and high-quality standart we're allowing creators to get a head start on their video game creation journey.
 
 ![](/gdevelop5/community/community/asset-store.png)
 
-It contains 2 types of asset packs:
+It contains 2 types of assets:
 
--  **Free** to use art, accessible to anyone, royalty-free, and open for any type of modification
--  **Premium art**, carefully selected by the GDevelop team for a more unique game style
+-  **Free** to use art and game, accessible to anyone, royalty-free, and open for any type of modification
+-  **Premium**, carefully selected by the GDevelop team for a more unique game style
 
-This page provides information on how to sell your assets on GDevelop's Asset Store. You can also directly **[open this form to sell premium assets on GDevelop's store](https://forms.gle/rqQajpDWEF3Em8HS6)**.
+This page provides information on how to sell your assets and games templates on GDevelop's Asset Store. You can also directly **[open this form to sell premium assets on GDevelop's store](https://forms.gle/rqQajpDWEF3Em8HS6)**.
 If we've already contacted us or want to know more, just keep reading!
 
 
@@ -25,6 +25,10 @@ It is the creator's decision to keep their original price, or if they prefer to 
 !!! note
 
     Please note that if you would like to change the price of the pack afterwards, you will have to get in touch with us.
+
+## Game template pricing
+
+The price of a game tempalate is defined in accordance by the GDevelop team and its creator.
 
 ## Revenue sharing
 
@@ -98,12 +102,15 @@ To avoid obliging sellers to create such invoices, GDevelop will create self-bil
 
 As a seller, by selling your products on GDevelop's Asset Store, you accept that GDevelop creates self-billing invoices for each purchase of your products.
 
-## Asset Pack storage and safety
+## Asset storage and safety
 
-All Asset Packs are safely stored on GDevelop's cloud.
+All Asset packs and games are safely stored on GDevelop's cloud.
 This way we ensure that the files are available for instant purchase and in-app use.
 Every asset pack has to be uploaded and submitted following [GDevelop's art submission standards](https://wiki.gdevelop.io/gdevelop5/community/contribute-to-the-assets-store)
-.
+!!! note
+
+    There is currently no best practice guide for game templates. The GDevelop team will be in touch with you to ensure that a certain level of quality is delivered, depending on the project submitted.
+
 ## Submitting premium assets
 
 First and foremost, we want to ensure the Asset Store remains a place of high quality and safe for everyone's use.
