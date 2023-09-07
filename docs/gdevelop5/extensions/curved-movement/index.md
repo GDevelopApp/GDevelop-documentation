@@ -152,7 +152,7 @@ Change the path followed by an object.
 Change the path followed by an object to reach a position.
 
 **Position on the path**  
-Change the length between the trajectory origin and the current position.
+Change the length between the trajectory origin and the current position counting the loops.
 
 **Speed**  
 Change the speed of the object.
@@ -161,9 +161,6 @@ Change the speed of the object.
 
 **Can move further**  
 Check if the object can still move in the current direction.
-
-**Current length**  
-Check if the length from the trajectory origin is lesser than a value.
 
 **Reach an end**  
 Check if the object has reached one of the 2 ends of the path.
@@ -174,8 +171,14 @@ Check if the object has reached the origin position of the path.
 **Reached path target**  
 Check if the object has reached the target position of the path.
 
+**Current loop**  
+Compare the number time the object loop the trajectory.
+
+**Position on the loop**  
+Compare the length between the trajectory origin and the current position without counting the loops.
+
 **Position on the path**  
-Compare the length between the trajectory origin and the current position.
+Compare the length between the trajectory origin and the current position counting the loops.
 
 **Speed**  
 Compare the speed of the object.
@@ -184,10 +187,12 @@ Compare the speed of the object.
 
 | Expression | Description |  |
 |-----|-----|-----|
+| `Object.SpeedPathMovement::Loop()` | Return the number time the object loop the trajectory. ||
 | `Object.SpeedPathMovement::MovementAngle()` | Return the angle of movement on its path. ||
 | `Object.SpeedPathMovement::PathOriginX()` | Return the path origin on X axis of the object. ||
 | `Object.SpeedPathMovement::PathOriginY()` | Return the path origin on Y axis of the object. ||
-| `Object.SpeedPathMovement::PositionOnPath()` | Return the length between the trajectory origin and the current position. ||
+| `Object.SpeedPathMovement::PositionOnLoop()` | Return the length between the trajectory origin and the current position without counting the loops. ||
+| `Object.SpeedPathMovement::PositionOnPath()` | Return the length between the trajectory origin and the current position counting the loops. ||
 | `Object.SpeedPathMovement::Speed()` | Return the speed of the object. ||
 
 ## Movement on a curve (duration-based) 
