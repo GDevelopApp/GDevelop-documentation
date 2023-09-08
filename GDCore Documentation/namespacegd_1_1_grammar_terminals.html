@@ -125,6 +125,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsNonZeroDigit</b> (g
 <tr class="memitem:af2130e70170b216f9f0d4d34d8337f6e"><td class="memItemLeft" align="right" valign="top"><a id="af2130e70170b216f9f0d4d34d8337f6e"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsZeroDigit</b> (gd::String::value_type character)</td></tr>
 <tr class="separator:af2130e70170b216f9f0d4d34d8337f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe38792ae9d2482c339ddfe82f9ab205"><td class="memItemLeft" align="right" valign="top"><a id="abe38792ae9d2482c339ddfe82f9ab205"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsAdditionalReservedCharacter</b> (gd::String::value_type character)</td></tr>
+<tr class="separator:abe38792ae9d2482c339ddfe82f9ab205"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fdce384b58326c5e30abb227122dacc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegd_1_1_grammar_terminals.html#a4fdce384b58326c5e30abb227122dacc">IsAllowedInIdentifier</a> (gd::String::value_type character)</td></tr>
 <tr class="separator:a4fdce384b58326c5e30abb227122dacc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -154,7 +157,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsZeroDigit</b> (gd::
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Check if the given character can be used in an identifier. This is any unicode character, except for: <code>, . " () [] {} + - &lt; &gt; ? ^ = \ : ! / *</code> and whitespaces (space, line break, carriage return).</p>
+<p>Check if the given character can be used in an identifier. This is any unicode character, except for: &lsquo;, . " () [] {} + - &lt; &gt; ? ^ = \ : ! / * ~ &rsquo; % # @ | &amp; $ ;` and backtick and whitespaces (space, line break, carriage return).</p>
 <p>This is loosely based on what is allowed in languages like JavaScript (see <a href="https://mathiasbynens.be/notes/javascript-properties">https://mathiasbynens.be/notes/javascript-properties</a>), without support for unicode escape syntax, and allowing all unicode ranges. The only disallowed characters are the one used for the grammar. </p>
 
 </div>
