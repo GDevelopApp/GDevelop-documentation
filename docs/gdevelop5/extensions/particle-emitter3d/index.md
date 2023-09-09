@@ -21,6 +21,10 @@ Particle emitters can be used to display:
 - Splashes
 - Lights
 
+Breaking change from 1.0.0:
+
+- Particles were 3 times too small
+
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
