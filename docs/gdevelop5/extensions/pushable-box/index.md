@@ -1,4 +1,4 @@
-# Pushable Box (OUT DATED)
+# Pushable Box (Deprecated)
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Construction/Construction_barrel_oil_petroleum_tank.svg" class="extension-icon"></img>
 Makes an object a pushable box.
@@ -52,4 +52,4 @@ Make any object a pushable box.
 
 ---
 
-*This page is an auto-generated reference page about the **Pushable Box (OUT DATED)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Pushable Box (Deprecated)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

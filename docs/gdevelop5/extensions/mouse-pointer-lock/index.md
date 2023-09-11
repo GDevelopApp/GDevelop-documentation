@@ -14,7 +14,7 @@ Without the pointer lock, the rotation or operation will stop the moment the poi
 
 Game players don't have to worry about leaving the gameplay area or accidentally clicking on another application that moves the mouse focus away from the game.
 
-Locking the pointer locks `MouseX()` and `MouseY()` expressions.
+Locking the pointer locks `CursorX()` and `CursorY()` expressions.
 Use `MovementX()` and `MovementY()` instead.
 
 

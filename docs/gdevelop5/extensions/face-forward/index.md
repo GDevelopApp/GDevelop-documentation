@@ -3,13 +3,13 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/cart-arrow-right.svg" class="extension-icon"></img>
 Face object towards the direction of movement.
 
-**Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames), [TheGemDev](https://gd.games/TheGemDev).
 
 ---
 
-Set the angle of the object to match the direction of movement. You can customize the speed of the rotation.
+Set the angle of the object to match the direction of movement.
 
-This works with any kind of movement (forces, physics...) as it uses the object center position to compute the rotation of the object.
+This works with any kind of movement (forces, physics, dragging, etc) because it tracks the object position to compute the direction of movement.
 
 [Read more...](https://victrisgames.itch.io/extension-faceforward)
 
@@ -24,6 +24,9 @@ Face object towards the direction of movement.
 
 ### Behavior actions
 
+**Set offset angle**  
+Set offset angle.
+
 **Set rotation speed**  
 Set rotation speed (degrees per second).  Use "0" for immediate turning.
 
@@ -32,6 +35,7 @@ Set rotation speed (degrees per second).  Use "0" for immediate turning.
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.FaceForward::MovementDirection()` | Direction the object is moving (in degrees). ||
+| `Object.FaceForward::OffsetAngle()` | Offset angle. ||
 | `Object.FaceForward::RotationSpeed()` | Rotation speed (in degrees per second). ||
 
 ---

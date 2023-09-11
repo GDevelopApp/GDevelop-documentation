@@ -235,20 +235,17 @@ does or inspect its content before using it.
 
 ||Name|Description||
 |---|---|---|---|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/clock-time-eight.svg" class="extension-icon"></img>|**Clock**|Add clocks into your game.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/clock)|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/fac7ecb74ef7da92ab59c3e431fb9587c105c2889a41cfac489135c0eb4643d1_shield-key.svg" class="extension-icon"></img>|**Crypto Api**|Random number generator for integers and floats using the Crypto API.|[Read more...](https://developer.mozilla.org/en-US/docs/Web/API/Crypto/getRandomValues) ([reference](https://wiki.gdevelop.io/gdevelop5/extensions/crypto-api))|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/octagram-outline.svg" class="extension-icon"></img>|**Draw shock wave effect**|Will allow you to draw shock wave effects.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/draw-shock-wave-effect)|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/waves.svg" class="extension-icon"></img>|**Dynamic Water**|Easily create a realistic liquid surface simulation.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/dynamic-water)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/selection-ellipse-arrow-inside.svg" class="extension-icon"></img>|**Object picking tools**|Adds various object picking related tools.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/object-picking-tools)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/format-text-rotation-none.svg" class="extension-icon"></img>|**Rotate a string 13 characters**|This extension rotates all alphabetic characters in a string by 13 characters.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/rotate13)|
-|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/9183b1a2c466ffc831a749b3a2692200b070a88f807696d99caa662632c2ed73_selection-drag.svg" class="extension-icon"></img>|**Selection tools**|Select object instances by drawing rectangular, polygonal or lasso selection.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/selection-tools)|
-|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Glyphster Pack/Master/SVG/Construction/2bfb89e12371e03689db35c1a1be7cbbba1643b08acf79042c17be9262fb6512_Construction_wall_bricks.svg" class="extension-icon"></img>|**Slot system**|Manage any kind of slots for your inventories, board games and tiled environments.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/slot-system)|
 
 ### Audio
 
 ||Name|Description||
 |---|---|---|---|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Glyphster Pack/Master/SVG/Music/308ee40b08fc7798832654e3ab95d1df6a66bfb8e7aae0a19697e120449931d0_Music_speaker_audio_sound.svg" class="extension-icon"></img>|**Audio Context**|Create procedural audio.|[Read more...](https://aliustaoglu.itch.io/audiocontext-gdevelop-extension) ([reference](https://wiki.gdevelop.io/gdevelop5/extensions/audio-context))|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Music/Music_speaker_audio_sound.svg" class="extension-icon"></img>|**Sound volume based on distance**|Make any sound volume on any channel increase and decrease based on distance.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/sound-volume-based-on-distance)|
 
 ### Device
 
@@ -261,37 +258,19 @@ does or inspect its content before using it.
 
 ||Name|Description||
 |---|---|---|---|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/gnome.svg" class="extension-icon"></img>|**HasLanded**|Checks if the object has landed on a given floor.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/has-landed)|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/arrow-bottom-right-bold-outline.svg" class="extension-icon"></img>|**Point and Orbit**|Point an object toward a position and Orbit around a position.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/point-and-orbit)|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Education and Learning/Education and Learning_education_school_bag_backpack.svg" class="extension-icon"></img>|**Extra inventory functions**|Adds functions that let you add/remove multiple items from an inventory, as well as a function to set the count of an item.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/extra-inventory)|
+|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Glyphster Pack/Master/SVG/Construction/2bfb89e12371e03689db35c1a1be7cbbba1643b08acf79042c17be9262fb6512_Construction_wall_bricks.svg" class="extension-icon"></img>|**Slot system**|Manage any kind of slots for your inventories, board games and tiled environments.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/slot-system)|
 
 ### General
 
 ||Name|Description||
 |---|---|---|---|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/rotate-3d.svg" class="extension-icon"></img>|**With Three JS**|Create a simple 3D scene.|[Read more...](https://pandako.itch.io/with-threejs-extension-for-gdevelop) ([reference](https://wiki.gdevelop.io/gdevelop5/extensions/with-three-js))|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Videogames/Videogames_videogame_pacman_ghost_character_play.svg" class="extension-icon"></img>|**Animation system**|Adds easy to use pre-made animations.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/animation-system)|
-|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Videogames/a9c73353ecb47ef44b3cf3c744d303a7df2b28787b82eeb1d9cceb2a3980ad9c_Videogames_videogame_pacman_game_video.svg" class="extension-icon"></img>|**Character game feel**|Add game feel to your platformer character object.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/character-game-feel)|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/chat-outline.svg" class="extension-icon"></img>|**ChatBubble**|Create chat bubbles dynamically. |[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/chat-bubble)|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/UI Essentials/a87576ab3a35744221b26f87e4409ec174fb8fb79435b181232c40c29ac7340e_UI Essentials_sand_clock_time.svg" class="extension-icon"></img>|**Countdown Timer**|A timer against the clock to create timer challenges in your projects. Countdown functionality.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/countdown-timer)|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/UI Essentials/UI Essentials_chat_message_sms.svg" class="extension-icon"></img>|**Dialog Box**|This extension adds Dialog Box functionality that can be used for RPGs, visual novels, and more.|[Read more...](https://github.com/PANDAKO-GitHub/DialogBoxExtension) ([reference](https://wiki.gdevelop.io/gdevelop5/extensions/dialog-box))|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Education and Learning/Education and Learning_education_school_bag_backpack.svg" class="extension-icon"></img>|**Extra inventory functions**|Adds functions that let you add/remove multiple items from an inventory, as well as a function to set the count of an item.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/extra-inventory)|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Space/Space_earth_moon_orbit_sun.svg" class="extension-icon"></img>|**Flip Gravity**|Flip platformer character gravity up side down.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/flip-gravity)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/file-code-outline.svg" class="extension-icon"></img>|**JSON Resource Loading**|Loads a JSON resource into a variable.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/jsonresource-loader)|
-|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/8834e0c63a962c74f1dab4c8f918c171261597341c4ca6574b300ab35855274b_human.svg" class="extension-icon"></img>|**Joint Connector**|Create and manage physics joints between two objects.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/joint-connector)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/file-download.svg" class="extension-icon"></img>|**Load images from a URL**|Adds multiple actions to load images from a URL into the game.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/load-image-from-url)|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Weather/Weather_forecast_umbrella_weather_rain_water_drop.svg" class="extension-icon"></img>|**Make it rain**|Make an object rain from a selected direction or a selected object.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/make-it-rain)|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/play-pause.svg" class="extension-icon"></img>|**Pause when losing focus**|Pauses when focus is lost, restarts when focus is regained.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/pause-focus-lost)|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/human-handsup.svg" class="extension-icon"></img>|**Platform ledge grabber**|Grab platforms ledges within reach automatically.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/platform-ledge-grabber)|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Construction/Construction_barrel_oil_petroleum_tank.svg" class="extension-icon"></img>|**Pushable/Pullable Box**|Convert object to a pushable or/and pullable box.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/pushable-and-pullable-box)|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Construction/Construction_barrel_oil_petroleum_tank.svg" class="extension-icon"></img>|**Pushable Box (OUT DATED)**|Makes an object a pushable box.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/pushable-box)|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/record-rec.svg" class="extension-icon"></img>|**Record Movements**|Allow the user to record object movements and recall them to make reverse time mechanic.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/record-movements)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/variable-box.svg" class="extension-icon"></img>|**Variables/References**|Adds references and pointers for variables.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/references)|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Music/Music_speaker_audio_sound.svg" class="extension-icon"></img>|**Sound volume based on distance**|Make any sound volume on any channel increase and decrease based on distance.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/sound-volume-based-on-distance)|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/UI Essentials/UI Essentials_bulb.svg" class="extension-icon"></img>|**Sprite Based Lighting**|Make light using sprites.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/sprite-based-lighting)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Space/Space_sun_star.svg" class="extension-icon"></img>|**TimeDetector**|Detects the current time of the day, week and month.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/time-detector)|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Sports and Fitness/Sports and Fitness_skipping_training_jump_rope.svg" class="extension-icon"></img>|**Trampoline Platform**|Convert object to trampoline platform.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/trampoline-platform)|
-|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/16a8e2514d1c9a57f65f506bb7a420bf63e53dc56c58dfceff63178893031c69_upload.svg" class="extension-icon"></img>|**Upload Download Text File**|Allows users to upload/download text content to a filename and vice versa. |[Read more...](https://developer.mozilla.org/en-US/docs/Web/API/File_API/Using_files_from_web_applications) ([reference](https://wiki.gdevelop.io/gdevelop5/extensions/upload-download-text-file))|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/numeric-3-circle.svg" class="extension-icon"></img>|**YGameSDK**|YGameSDK.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/ygame-sdk)|
 
 ### Input
 
@@ -299,15 +278,26 @@ does or inspect its content before using it.
 |---|---|---|---|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/5ab10adef033825feddc9138b59d79d9a7aa94c58dd58fba0d21cd7b99be4aff_form-textbox-password.svg" class="extension-icon"></img>|**CheatCode**|Add cheat codes to your game.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/cheat-code)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Videogames/Videogames_controller_joystick_arrows_direction.svg" class="extension-icon"></img>|**Multitouch joystick and buttons (deprecated)**|Activate a joystick or buttons that can be controlled by interacting with a touchscreen.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/multitouch-joystick/setup) ([reference](https://wiki.gdevelop.io/gdevelop5/extensions/multitouch-joystick))|
+|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/9183b1a2c466ffc831a749b3a2692200b070a88f807696d99caa662632c2ed73_selection-drag.svg" class="extension-icon"></img>|**Selection tools**|Select object instances by drawing rectangular, polygonal or lasso selection.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/selection-tools)|
 
 ### Movement
 
 ||Name|Description||
 |---|---|---|---|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Space/Space_earth_moon_orbit_sun.svg" class="extension-icon"></img>|**Flip Gravity**|Flip platformer character gravity up side down.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/flip-gravity)|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/gnome.svg" class="extension-icon"></img>|**HasLanded**|Checks if the object has landed on a given floor.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/has-landed)|
+|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/8834e0c63a962c74f1dab4c8f918c171261597341c4ca6574b300ab35855274b_human.svg" class="extension-icon"></img>|**Joint Connector**|Create and manage physics joints between two objects.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/joint-connector)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Maps and Navigation/Maps and Navigation_map_find_search.svg" class="extension-icon"></img>|**Navigation mesh pathfinding (experimental)**|Pathfinding allows to compute an efficient path for objects, avoiding obstacles on the way.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/nav-mesh-pathfinding)|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/human-handsup.svg" class="extension-icon"></img>|**Platform ledge grabber**|Grab platforms ledges within reach automatically.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/platform-ledge-grabber)|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/arrow-bottom-right-bold-outline.svg" class="extension-icon"></img>|**Point and Orbit**|Point an object toward a position and Orbit around a position.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/point-and-orbit)|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Construction/Construction_barrel_oil_petroleum_tank.svg" class="extension-icon"></img>|**Pushable/Pullable Box**|Convert object to a pushable or/and pullable box.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/pushable-and-pullable-box)|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Construction/Construction_barrel_oil_petroleum_tank.svg" class="extension-icon"></img>|**Pushable Box (Deprecated)**|Makes an object a pushable box.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/pushable-box)|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/record-rec.svg" class="extension-icon"></img>|**Record Movements**|Allow the user to record object movements and recall them to make reverse time mechanic.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/record-movements)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/shape-rectangle-plus.svg" class="extension-icon"></img>|**Rectangular Movement (deprecated)**|Allow an object to move in a rectangular pattern.|[Read more...](https://victrisgames.itch.io/extension-rectangular-movement) ([reference](https://wiki.gdevelop.io/gdevelop5/extensions/rectangular-movement))|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/sine-wave.svg" class="extension-icon"></img>|**Sine (or ellipsis) Movement (deprecated)**|Allow an object to move smoothly on the X and/or Y axis following a sine wave, or an ellipsis.|[Read more...](https://victrisgames.itch.io/extension-sinemovement-and-deptheffect) ([reference](https://wiki.gdevelop.io/gdevelop5/extensions/sine-movement))|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/f1e89ff4f907ed2245e2d4ad2d5f52f9e1bb6d0127aa370d44cc77462e5be8e3_subdirectory-arrow-right.svg" class="extension-icon"></img>|**Top-down corner sliding**|Slide on corners of rectangular obstacles.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/top-down-corner-sliding)|
+|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Glyphster Pack/Master/SVG/Arrows/a6026156355ae5f03613b03971e4ddb50d0c95b8901e7a21edc57f33f0032e42_Arrows_thin_arrows_all_directions_cross.svg" class="extension-icon"></img>|**Top-down movement animator**|Change the animation according to the movement direction.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/top-down-movement-animator)|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Sports and Fitness/Sports and Fitness_skipping_training_jump_rope.svg" class="extension-icon"></img>|**Trampoline Platform**|Convert object to trampoline platform.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/trampoline-platform)|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/aa16433aab812cfb1e558bb1a8ccca399b07a10ea097f3ac81095141fe3f56a7_layers-triple.svg" class="extension-icon"></img>|**Tween Z-Order**|Smoothly animate Z order of objects.|[Read more...](https://github.com/PANDAKO-GitHub/TweenZOrderExtension) ([reference](https://wiki.gdevelop.io/gdevelop5/extensions/tween-zorder))|
 
 ### Network
@@ -315,6 +305,7 @@ does or inspect its content before using it.
 ||Name|Description||
 |---|---|---|---|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/update.svg" class="extension-icon"></img>|**Update checker**|Checks if the version of the game on liluo is different than the current game version.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/update-checker)|
+|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/16a8e2514d1c9a57f65f506bb7a420bf63e53dc56c58dfceff63178893031c69_upload.svg" class="extension-icon"></img>|**Upload Download Text File**|Allows users to upload/download text content to a filename and vice versa. |[Read more...](https://developer.mozilla.org/en-US/docs/Web/API/File_API/Using_files_from_web_applications) ([reference](https://wiki.gdevelop.io/gdevelop5/extensions/upload-download-text-file))|
 
 ### Third-party
 
@@ -325,17 +316,27 @@ does or inspect its content before using it.
 |<img src="https://resources.gdevelop-app.com/assets/Icons/api.svg" class="extension-icon"></img>|**Newgrounds API**|Allows developers to use newgrounds API.
 
 Limitations: only works with browser games.|[Read more...](https://bitbucket.org/newgrounds/newgrounds.io-for-javascript-html5/src/master/) ([reference](https://wiki.gdevelop.io/gdevelop5/extensions/newgrounds-api))|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/numeric-3-circle.svg" class="extension-icon"></img>|**YGameSDK**|YGameSDK.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/ygame-sdk)|
 
 ### User interface
 
 ||Name|Description||
 |---|---|---|---|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/format-vertical-align-center.svg" class="extension-icon"></img>|**Align object on the screen**|Align objects on the scene relatively to the window (or screen size).|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/align-object)|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/chat-outline.svg" class="extension-icon"></img>|**ChatBubble**|Create chat bubbles dynamically. |[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/chat-bubble)|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/clock-time-eight.svg" class="extension-icon"></img>|**Clock**|Add clocks into your game.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/clock)|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/UI Essentials/UI Essentials_chat_message_sms.svg" class="extension-icon"></img>|**Dialog Box**|This extension adds Dialog Box functionality that can be used for RPGs, visual novels, and more.|[Read more...](https://github.com/PANDAKO-GitHub/DialogBoxExtension) ([reference](https://wiki.gdevelop.io/gdevelop5/extensions/dialog-box))|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/play-pause.svg" class="extension-icon"></img>|**Pause when losing focus**|Pauses when focus is lost, restarts when focus is regained.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/pause-focus-lost)|
 
 ### Visual effect
 
 ||Name|Description||
 |---|---|---|---|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Videogames/Videogames_videogame_pacman_ghost_character_play.svg" class="extension-icon"></img>|**Animation system**|Adds easy to use pre-made animations.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/animation-system)|
+|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Videogames/a9c73353ecb47ef44b3cf3c744d303a7df2b28787b82eeb1d9cceb2a3980ad9c_Videogames_videogame_pacman_game_video.svg" class="extension-icon"></img>|**Character game feel**|Add game feel to your platformer character object.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/character-game-feel)|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/waves.svg" class="extension-icon"></img>|**Dynamic Water**|Easily create a realistic liquid surface simulation.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/dynamic-water)|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Weather/Weather_forecast_umbrella_weather_rain_water_drop.svg" class="extension-icon"></img>|**Make it rain**|Make an object rain from a selected direction or a selected object.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/make-it-rain)|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/f2e5a34bf465f781866677762d385d6c8e9e8d203383f2df9a3b7e0fad6a2cb5_fire.svg" class="extension-icon"></img>|**3D particle emitter (experimental)**|Display a large number of particles to create visual effects.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/particle-emitter3d)|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/UI Essentials/UI Essentials_bulb.svg" class="extension-icon"></img>|**Sprite Based Lighting**|Make light using sprites.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/sprite-based-lighting)|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/30bc03f9cf5f2f42960246a605352a6937ae6b603f0177396a83193849a4724a_tennis-ball.svg" class="extension-icon"></img>|**3D tween (experimental)**|Smoothly animate scale and rotation of 3d models.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/tween3d)|
 
