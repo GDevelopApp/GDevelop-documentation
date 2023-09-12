@@ -3,8 +3,6 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/api.svg" class="extension-icon"></img>
 Allows developers to use newgrounds API.
 
-Limitations: only works with browser games.
-
 **Authors and contributors** to this community extension: [planktonfun](https://gd.games/planktonfun).
 
 !!! warning
@@ -17,6 +15,8 @@ Limitations: only works with browser games.
 ---
 
 Allows developers to use newgrounds API for their games
+
+Limitations: only works with browser games.
 
 Features:
 
