@@ -11,16 +11,16 @@ Animate objects.
 ### Behavior actions
 
 **Pause the animation**  
-Pause the animation of the object
+Pause the animation of the object.
 
 **Resume the animation**  
-Resume the animation of the object
+Resume the animation of the object.
 
 **Animation (by number)**  
 Change the number of the animation played by the object (the number from the animations list).
 
 **Animation (by name)**  
-Change the animation played by the object using the name of the animation..
+Change the animation played by the object using the name of the animation.
 
 **Animation speed scale**  
 Change the animation speed scale (1 = the default speed, >1 = faster and <1 = slower).
@@ -37,7 +37,7 @@ Compare the number of the animation played by the object (the number from the an
 Check if the animation of an object is paused.
 
 **Animation (by name)**  
-Compare the animation played by the object using the name of the animation..
+Compare the animation played by the object using the name of the animation.
 
 **Animation speed scale**  
 Compare the animation speed scale (1 = the default speed, >1 = faster and <1 = slower).
@@ -47,7 +47,7 @@ Compare the animation speed scale (1 = the default speed, >1 = faster and <1 = s
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.Animation::Index()` | Return the number of the animation played by the object (the number from the animations list). ||
-| `Object.Animation::Name()` | Return the animation played by the object using the name of the animation.. ||
+| `Object.Animation::Name()` | Return the animation played by the object using the name of the animation. ||
 | `Object.Animation::SpeedScale()` | Return the animation speed scale (1 = the default speed, >1 = faster and <1 = slower). ||
 
 ---
