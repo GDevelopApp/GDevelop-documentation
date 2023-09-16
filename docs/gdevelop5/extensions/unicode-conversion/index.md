@@ -19,15 +19,15 @@ The `UnicodeConversion::ReverseUnicode(string, range, base)` string expression c
 |-----|-----|-----|
 | `UnicodeConversion::ReverseUnicode(string, number, number)` | Reverses the unicode of a string with a base. ||
 | | _string_ | String to reverse |
-| | _number_ | Base of the reverse (Default: 2) |
-| | _number_ | Range of unicode characters (Put 16 here to support the most characters if you put 2 in the base) |
+| | _🔢 Number_ | Base of the reverse (Default: 2) |
+| | _🔢 Number_ | Range of unicode characters (Put 16 here to support the most characters if you put 2 in the base) |
 | `UnicodeConversion::TextToUnicode(string, number, string)` | Converts a string into unicode representation with a base. ||
 | | _string_ | The string to convert to unicode |
-| | _number_ | Base |
+| | _🔢 Number_ | Base |
 | | _string_ | Seperator text (Optional) |
 | `UnicodeConversion::UnicodeToText(string, number, string)` | Converts a unicode representation into String with a base. ||
 | | _string_ | The unicode to convert to String |
-| | _number_ | Base |
+| | _🔢 Number_ | Base |
 | | _string_ | Seperator text (Optional) |
 
 ---

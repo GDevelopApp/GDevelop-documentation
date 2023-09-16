@@ -63,10 +63,10 @@ Compare the percentage the thumb has been pulled away from the joystick center (
 | Expression | Description |  |
 |-----|-----|-----|
 | `MultitouchJoystick::JoystickAngle(number, string)` | Return the angle the joystick is pointing towards (Range: -180 to 180). ||
-| | _number_ | Multitouch controller identifier (1, 2, 3, 4...) |
+| | _🔢 Number_ | Multitouch controller identifier (1, 2, 3, 4...) |
 | | _string_ | Joystick name |
 | `MultitouchJoystick::JoystickForce(number, string)` | Return the percentage the thumb has been pulled away from the joystick center (Range: 0 to 1). ||
-| | _number_ | Multitouch controller identifier (1, 2, 3, 4...) |
+| | _🔢 Number_ | Multitouch controller identifier (1, 2, 3, 4...) |
 | | _string_ | Joystick name |
 
 ## Multitouch button (deprecated) 

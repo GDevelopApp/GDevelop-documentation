@@ -111,20 +111,20 @@ Check if a point is inside the contour.
 | `Object.MarchingSquaresBehavior::DimensionX()` | The number of cells on the x axis. ||
 | `Object.MarchingSquaresBehavior::DimensionY()` | The number of cells on the y axis. ||
 | `Object.MarchingSquaresBehavior::FieldValue(number, number)` | The field value at a given location. ||
-| | _number_ | X position of the point |
-| | _number_ | Y position of the point |
+| | _🔢 Number_ | X position of the point |
+| | _🔢 Number_ | Y position of the point |
 | `Object.MarchingSquaresBehavior::GridValue(number, number)` | The field value at a grid point. ||
-| | _number_ | X grid index |
-| | _number_ | Y grid index |
+| | _🔢 Number_ | X grid index |
+| | _🔢 Number_ | Y grid index |
 | `Object.MarchingSquaresBehavior::NormalX(number, number)` | The normal X coordinate at a given location. ||
-| | _number_ | X position of the point |
-| | _number_ | Y position of the point |
+| | _🔢 Number_ | X position of the point |
+| | _🔢 Number_ | Y position of the point |
 | `Object.MarchingSquaresBehavior::NormalY(number, number)` | The normal Y coordinate at a given location. ||
-| | _number_ | X position of the point |
-| | _number_ | Y position of the point |
+| | _🔢 Number_ | X position of the point |
+| | _🔢 Number_ | Y position of the point |
 | `Object.MarchingSquaresBehavior::NormalZ(number, number)` | The normal Z coordinate at a given location. ||
-| | _number_ | X position of the point |
-| | _number_ | Y position of the point |
+| | _🔢 Number_ | X position of the point |
+| | _🔢 Number_ | Y position of the point |
 
 ---
 

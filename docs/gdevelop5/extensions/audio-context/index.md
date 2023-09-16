@@ -61,7 +61,7 @@ Check if the context already created.
 | Expression | Description |  |
 |-----|-----|-----|
 | `AudioContext::ChordNameByIndex(number)` | Get chord name by index. ||
-| | _number_ | Chord index |
+| | _🔢 Number_ | Chord index |
 | `AudioContext::NumberOfChords()` | Number of chords (For looping). ||
 
 ---

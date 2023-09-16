@@ -39,10 +39,10 @@ Compare the index of the current frame in the animation displayed by the specifi
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.AnimationFrameCount()` | Number of frames in the current animation of the object ||
-| `Object.PointX(objectPointName)` | X position of a point ||
-| | _objectPointName_ | Name of the point |
-| `Object.PointY(objectPointName)` | Y position of a point ||
-| | _objectPointName_ | Name of the point |
+| `Object.PointX(object point name)` | X position of a point ||
+| | _🔤 Object Point Name (String)_ | Name of the point |
+| `Object.PointY(object point name)` | Y position of a point ||
+| | _🔤 Object Point Name (String)_ | Name of the point |
 | `Object.Sprite()` | Current frame of the animation of the object ||
 
 ---

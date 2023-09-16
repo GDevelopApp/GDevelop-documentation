@@ -22,9 +22,9 @@ Formats included:
 | Expression | Description |  |
 |-----|-----|-----|
 | `TimeFormatter::SecondsToHHMMSS(number)` | Format time in seconds to HH:MM:SS. ||
-| | _number_ | Time, in seconds |
+| | _🔢 Number_ | Time, in seconds |
 | `TimeFormatter::SecondsToHHMMSS000(number)` | Format time in seconds to HH:MM:SS.000, including milliseconds. ||
-| | _number_ | Time, in seconds |
+| | _🔢 Number_ | Time, in seconds |
 
 ---
 

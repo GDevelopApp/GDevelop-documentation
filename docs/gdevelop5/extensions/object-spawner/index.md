@@ -55,11 +55,11 @@ Check if an object has just been created by this spawner. Useful for triggering 
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.ObjectSpawner::MaxQuantity(number)` | Return the maximum number of living objects a spawner can create. ||
-| | _number_ | Value |
+| | _🔢 Number_ | Value |
 | `Object.ObjectSpawner::OffsetX(number)` | Return the offset X relative to origin of spawner (in pixels). ||
-| | _number_ | Value |
+| | _🔢 Number_ | Value |
 | `Object.ObjectSpawner::OffsetY(number)` | Return the offset Y relative to origin of spawner (in pixels). ||
-| | _number_ | Value |
+| | _🔢 Number_ | Value |
 | `Object.ObjectSpawner::SpawnPeriod()` | Return the spawn period (in seconds). ||
 | `Object.ObjectSpawner::TimeBeforeSpawn()` | Return the remaining time before the next spawn (in seconds). Useful for triggering visual and sound effects. ||
 

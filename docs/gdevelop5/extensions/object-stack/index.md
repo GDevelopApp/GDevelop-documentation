@@ -87,7 +87,7 @@ Check if the stack is empty.
 |-----|-----|-----|
 | `Object.ObjectStack::Height()` | Return the number of objects in the stack. ||
 | `Object.ObjectStack::HeightOf(object)` | The height of an element in the stack. ||
-| | _object_ | Object |
+| | _👾 Object_ | Object |
 
 ---
 

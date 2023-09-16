@@ -46,11 +46,11 @@ Compare the stretch on Z axis. The object volume is conseved. A stretch of 2 mak
 | Expression | Description |  |
 |-----|-----|-----|
 | `Tween3D::ScaleVolume(object)` | Return the scale volume. ||
-| | _object_ | Object |
+| | _👾 Object_ | Object |
 | `Tween3D::StretchY(object)` | Return the stretch on Y axis. The object volume is conseved. A stretch of 2 make the object apear 2 time longer on Y in proportion to the dimension on X and Z. ||
-| | _object_ | Object |
+| | _👾 Object_ | Object |
 | `Tween3D::StretchZ(object)` | Return the stretch on Z axis. The object volume is conseved. A stretch of 2 make the object apear 2 time longer on Z in proportion to the dimension on X and Y. ||
-| | _object_ | Object |
+| | _👾 Object_ | Object |
 
 ## 3D tween (experimental) 
 
@@ -103,8 +103,8 @@ Compare the progress of a tween (between 0.0 and 1.0).
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Object.Tween3D::Progress(identifier)` | Return the progress of a tween (between 0.0 and 1.0). ||
-| | _identifier_ | Tween identifier |
+| `Object.Tween3D::Progress(string)` | Return the progress of a tween (between 0.0 and 1.0). ||
+| | _🔤 Name (String)_ | Tween identifier |
 
 ## 3D wobble 
 

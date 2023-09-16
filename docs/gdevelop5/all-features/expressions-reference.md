@@ -20,27 +20,27 @@ Common features that can be used for all objects in GDevelop. [Read more explana
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `PickedInstancesCount(objectListOrEmptyWithoutPicking)` | Return the number of instances picked by the previous conditions (or actions). ||
-| | _objectListOrEmptyWithoutPicking_ | Object |
-| `SceneInstancesCount(objectListOrEmptyWithoutPicking)` | Return the number of instances of the specified objects living on the scene. ||
-| | _objectListOrEmptyWithoutPicking_ | Object |
+| `PickedInstancesCount(object)` | Return the number of instances picked by the previous conditions (or actions). ||
+| | _👾 Object_ | Object |
+| `SceneInstancesCount(object)` | Return the number of instances of the specified objects living on the scene. ||
+| | _👾 Object_ | Object |
 
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.Angle()` | Current angle, in degrees, of the object ||
 | `Object.AngleToObject(object)` | Compute the angle between two objects (in degrees). If you need the angle to an arbitrary position, use AngleToPosition. ||
-| | _object_ | Object |
+| | _👾 Object_ | Object |
 | `Object.AngleToPosition(number, number)` | Compute the angle between the object center and a "target" position (in degrees). If you need the angle between two objects, use AngleToObject. ||
-| | _number_ | Target X position |
-| | _number_ | Target Y position |
-| `Object.ArrayVariableFirstNumber(objectvar)` | Get the value of the first element of an object array variable, if it is a number variable. ||
-| | _objectvar_ | Array variable |
-| `Object.ArrayVariableFirstString(objectvar)` | Get the value of the first element of an object array variable, if it is a text (string) variable. ||
-| | _objectvar_ | Array variable |
-| `Object.ArrayVariableLastNumber(objectvar)` | Get the value of the last element of an object array variable, if it is a number variable. ||
-| | _objectvar_ | Array variable |
-| `Object.ArrayVariableLastString(objectvar)` | Get the value of the last element of an object array variable, if it is a text (string) variable. ||
-| | _objectvar_ | Array variable |
+| | _🔢 Number_ | Target X position |
+| | _🔢 Number_ | Target Y position |
+| `Object.ArrayVariableFirstNumber(object variable)` | Get the value of the first element of an object array variable, if it is a number variable. ||
+| | _🗄️ Object variable_ | Array variable |
+| `Object.ArrayVariableFirstString(object variable)` | Get the value of the first element of an object array variable, if it is a text (string) variable. ||
+| | _🗄️ Object variable_ | Array variable |
+| `Object.ArrayVariableLastNumber(object variable)` | Get the value of the last element of an object array variable, if it is a number variable. ||
+| | _🗄️ Object variable_ | Array variable |
+| `Object.ArrayVariableLastString(object variable)` | Get the value of the last element of an object array variable, if it is a text (string) variable. ||
+| | _🗄️ Object variable_ | Array variable |
 | `Object.BoundingBoxBottom()` | Return the bounding box (the area encapsulating the object) bottom position. ||
 | `Object.BoundingBoxCenterX()` | Return the bounding box (the area encapsulating the object) center X position. ||
 | `Object.BoundingBoxCenterY()` | Return the bounding box (the area encapsulating the object) center Y position. ||
@@ -50,10 +50,10 @@ Common features that can be used for all objects in GDevelop. [Read more explana
 | `Object.CenterX()` | Return the X position of the center of rotation. ||
 | `Object.CenterY()` | Return the Y position of the center of rotation. ||
 | `Object.Distance(object)` | Distance between two objects ||
-| | _object_ | Object |
+| | _👾 Object_ | Object |
 | `Object.DistanceToPosition(number, number)` | Distance between an object and a position ||
-| | _number_ | Target X position |
-| | _number_ | Target Y position |
+| | _🔢 Number_ | Target X position |
+| | _🔢 Number_ | Target Y position |
 | `Object.ForceAngle()` | Angle of the sum of forces (in degrees) ||
 | `Object.ForceLength()` | Length of the sum of forces ||
 | `Object.ForceX()` | X coordinate of the sum of forces ||
@@ -61,28 +61,28 @@ Common features that can be used for all objects in GDevelop. [Read more explana
 | `Object.Height()` | Height of the object ||
 | `Object.Layer()` | Return the name of the layer the object is on ||
 | `Object.ObjectName()` | Return the name of the object ||
-| `Object.ObjectTimerElapsedTime(identifier)` | Value of an object timer ||
-| | _identifier_ | Timer's name |
+| `Object.ObjectTimerElapsedTime(string)` | Value of an object timer ||
+| | _🔤 Name (String)_ | Timer's name |
 | `Object.SqDistance(object)` | Square distance between two objects ||
-| | _object_ | Object |
+| | _👾 Object_ | Object |
 | `Object.SqDistanceToPosition(number, number)` | Square distance between an object and a position ||
-| | _number_ | Target X position |
-| | _number_ | Target Y position |
-| `Object.Variable(objectvar)` | Number value of an object variable ||
-| | _objectvar_ | Variable |
-| `Object.VariableChildCount(objectvar)` | Number of children in an object array or structure variable ||
-| | _objectvar_ | Array or structure variable |
-| `Object.VariableString(objectvar)` | Text of an object variable ||
-| | _objectvar_ | Variable |
+| | _🔢 Number_ | Target X position |
+| | _🔢 Number_ | Target Y position |
+| `Object.Variable(object variable)` | Number value of an object variable ||
+| | _🗄️ Object variable_ | Variable |
+| `Object.VariableChildCount(object variable)` | Number of children in an object array or structure variable ||
+| | _🗄️ Object variable_ | Array or structure variable |
+| `Object.VariableString(object variable)` | Text of an object variable ||
+| | _🗄️ Object variable_ | Variable |
 | `Object.Width()` | Width of the object ||
 | `Object.X()` | X position of the object ||
 | `Object.XFromAngleAndDistance(number, number)` | Compute the X position when given an angle and distance relative to the starting object. This is also known as getting the cartesian coordinates of a 2D vector, using its polar coordinates. ||
-| | _number_ | Angle, in degrees |
-| | _number_ | Distance |
+| | _🔢 Number_ | Angle, in degrees |
+| | _🔢 Number_ | Distance |
 | `Object.Y()` | Y position of the object ||
 | `Object.YFromAngleAndDistance(number, number)` | Compute the Y position when given an angle and distance relative to the starting object. This is also known as getting the cartesian coordinates of a 2D vector, using its polar coordinates. ||
-| | _number_ | Angle, in degrees |
-| | _number_ | Distance |
+| | _🔢 Number_ | Angle, in degrees |
+| | _🔢 Number_ | Distance |
 | `Object.ZOrder()` | Z-order of an object ||
 
 ---
@@ -96,10 +96,10 @@ Animated object which can be used for most elements of a game [Read more explana
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.AnimationFrameCount()` | Number of frames in the current animation of the object ||
-| `Object.PointX(objectPointName)` | X position of a point ||
-| | _objectPointName_ | Name of the point |
-| `Object.PointY(objectPointName)` | Y position of a point ||
-| | _objectPointName_ | Name of the point |
+| `Object.PointX(object point name)` | X position of a point ||
+| | _🔤 Object Point Name (String)_ | Name of the point |
+| `Object.PointY(object point name)` | Y position of a point ||
+| | _🔤 Object Point Name (String)_ | Name of the point |
 | `Object.Sprite()` | Current frame of the animation of the object ||
 
 ---
@@ -111,23 +111,23 @@ Expressions to convert number, texts and quantities. [Read more explanations abo
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `GlobalVarToJSON(globalvar)` | Convert a global variable to JSON ||
-| | _globalvar_ | The global variable to be stringified |
+| `GlobalVarToJSON(global variable)` | Convert a global variable to JSON ||
+| | _🗄️ Global variable_ | The global variable to be stringified |
 | `LargeNumberToString(number)` | Convert the result of the expression to text, without using the scientific notation ||
-| | _number_ | Expression to be converted to text |
-| `ObjectVarToJSON(object, objectvar)` | Convert an object variable to JSON ||
-| | _object_ | The object with the variable |
-| | _objectvar_ | The object variable to be stringified |
+| | _🔢 Number_ | Expression to be converted to text |
+| `ObjectVarToJSON(object, object variable)` | Convert an object variable to JSON ||
+| | _👾 Object_ | The object with the variable |
+| | _🗄️ Object variable_ | The object variable to be stringified |
 | `ToDeg(number)` | Converts the angle, expressed in radians, into degrees ||
-| | _number_ | Angle, in radians |
-| `ToJSON(scenevar)` | Convert a scene variable to JSON ||
-| | _scenevar_ | Scene variable to be stringified |
+| | _🔢 Number_ | Angle, in radians |
+| `ToJSON(scene variable)` | Convert a scene variable to JSON ||
+| | _🗄️ Scene variable_ | Scene variable to be stringified |
 | `ToNumber(string)` | Convert the text to a number ||
 | | _string_ | Text to convert to a number |
 | `ToRad(number)` | Converts the angle, expressed in degrees, into radians ||
-| | _number_ | Angle, in degrees |
+| | _🔢 Number_ | Angle, in degrees |
 | `ToString(number)` | Convert the result of the expression to text ||
-| | _number_ | Expression to be converted to text |
+| | _🔢 Number_ | Expression to be converted to text |
 
 ---
 
@@ -138,34 +138,34 @@ Actions, conditions and expressions to handle variables, from simple variables l
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `GlobalVariable(globalvar)` | Number value of a global variable ||
-| | _globalvar_ | Name of the global variable |
-| `GlobalVariableChildCount(globalvar)` | Number of children in a global array or structure variable ||
-| | _globalvar_ | Array or structure variable |
-| `GlobalVariableFirstNumber(globalvar)` | Value of the first element of a global array variable, if it is a number variable ||
-| | _globalvar_ | Array variable |
-| `GlobalVariableFirstString(globalvar)` | Value of the first element of a global array variable, if it is a text (string) variable. ||
-| | _globalvar_ | Array variable |
-| `GlobalVariableLastNumber(globalvar)` | Value of the last element of a global array variable, if it is a number variable ||
-| | _globalvar_ | Array variable |
-| `GlobalVariableLastString(globalvar)` | Value of the last element of a global array variable, if it is a text (string) variable. ||
-| | _globalvar_ | Array variable |
-| `GlobalVariableString(globalvar)` | Text of a global variable ||
-| | _globalvar_ | Variable |
-| `SceneVariableFirstNumber(scenevar)` | Get the value of the first element of a scene array variable, if it is a number. ||
-| | _scenevar_ | Array variable |
-| `SceneVariableFirstString(scenevar)` | Get the value of the first element of a scene array variable, if it is a text (string). ||
-| | _scenevar_ | Array variable |
-| `SceneVariableLastNumber(scenevar)` | Get the value of the last element of a scene array variable, if it is a number. ||
-| | _scenevar_ | Array variable |
-| `SceneVariableLastString(scenevar)` | Get the value of the last element of a scene array variable, if it is a text (string). ||
-| | _scenevar_ | Array variable |
-| `Variable(scenevar)` | Number value of a scene variable ||
-| | _scenevar_ | Variable |
-| `VariableChildCount(scenevar)` | Number of children in a scene array or structure variable ||
-| | _scenevar_ | Array or structure variable |
-| `VariableString(scenevar)` | Text of a scene variable ||
-| | _scenevar_ | Variable |
+| `GlobalVariable(global variable)` | Number value of a global variable ||
+| | _🗄️ Global variable_ | Name of the global variable |
+| `GlobalVariableChildCount(global variable)` | Number of children in a global array or structure variable ||
+| | _🗄️ Global variable_ | Array or structure variable |
+| `GlobalVariableFirstNumber(global variable)` | Value of the first element of a global array variable, if it is a number variable ||
+| | _🗄️ Global variable_ | Array variable |
+| `GlobalVariableFirstString(global variable)` | Value of the first element of a global array variable, if it is a text (string) variable. ||
+| | _🗄️ Global variable_ | Array variable |
+| `GlobalVariableLastNumber(global variable)` | Value of the last element of a global array variable, if it is a number variable ||
+| | _🗄️ Global variable_ | Array variable |
+| `GlobalVariableLastString(global variable)` | Value of the last element of a global array variable, if it is a text (string) variable. ||
+| | _🗄️ Global variable_ | Array variable |
+| `GlobalVariableString(global variable)` | Text of a global variable ||
+| | _🗄️ Global variable_ | Variable |
+| `SceneVariableFirstNumber(scene variable)` | Get the value of the first element of a scene array variable, if it is a number. ||
+| | _🗄️ Scene variable_ | Array variable |
+| `SceneVariableFirstString(scene variable)` | Get the value of the first element of a scene array variable, if it is a text (string). ||
+| | _🗄️ Scene variable_ | Array variable |
+| `SceneVariableLastNumber(scene variable)` | Get the value of the last element of a scene array variable, if it is a number. ||
+| | _🗄️ Scene variable_ | Array variable |
+| `SceneVariableLastString(scene variable)` | Get the value of the last element of a scene array variable, if it is a text (string). ||
+| | _🗄️ Scene variable_ | Array variable |
+| `Variable(scene variable)` | Number value of a scene variable ||
+| | _🗄️ Scene variable_ | Variable |
+| `VariableChildCount(scene variable)` | Number of children in a scene array or structure variable ||
+| | _🗄️ Scene variable_ | Array or structure variable |
+| `VariableString(scene variable)` | Text of a scene variable ||
+| | _🗄️ Scene variable_ | Variable |
 
 ---
 
@@ -176,24 +176,24 @@ Conditions and actions to handle either the mouse or touches on touchscreen. By 
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `CursorX(layer, number)` | Return the X position of the cursor or of a touch. ||
-| | _layer_ | Layer _Optional_. |
-| | _number_ | Camera number (default : 0) _Optional_. |
-| `CursorY(layer, number)` | Return the Y position of the cursor or of a touch. ||
-| | _layer_ | Layer _Optional_. |
-| | _number_ | Camera number (default : 0) _Optional_. |
+| `CursorX(layer name, number)` | Return the X position of the cursor or of a touch. ||
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
+| `CursorY(layer name, number)` | Return the Y position of the cursor or of a touch. ||
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
 | `MouseWheelDelta()` | Mouse wheel displacement ||
 | `StartedTouchOrMouseCount()` | The number of touches (including the mouse) that have just started on this frame. The touch identifiers can be accessed using StartedTouchOrMouseId(). ||
 | `StartedTouchOrMouseId(number)` | The identifier of the touch or mouse that has just started on this frame. The number of touches can be accessed using StartedTouchOrMouseCount(). ||
-| | _number_ | Touch index |
-| `TouchX(number, layer, number)` | Return the X position of a specific touch. ||
-| | _number_ | Touch identifier |
-| | _layer_ | Layer _Optional_. |
-| | _number_ | Camera number (default : 0) _Optional_. |
-| `TouchY(number, layer, number)` | Return the Y position of a specific touch. ||
-| | _number_ | Touch identifier |
-| | _layer_ | Layer _Optional_. |
-| | _number_ | Camera number (default : 0) _Optional_. |
+| | _🔢 Number_ | Touch index |
+| `TouchX(number, layer name, number)` | Return the X position of a specific touch. ||
+| | _🔢 Number_ | Touch identifier |
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
+| `TouchY(number, layer name, number)` | Return the Y position of a specific touch. ||
+| | _🔢 Number_ | Touch identifier |
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
 
 ---
 
@@ -227,12 +227,12 @@ Actions and conditions to run timers, get the current time or modify the time sc
 | Expression | Description |  |
 |-----|-----|-----|
 | `Time(string)` | Current time ||
-| | _string_ | Hour: hour - Minutes: min - Seconds: sec - Day of month: mday - Months since January: mon - Year since 1900: year - Days since Sunday: wday - Days since Jan 1st: yday - Timestamp (ms): timestamp" |
+| | _🔤 String_ | Hour: hour - Minutes: min - Seconds: sec - Day of month: mday - Months since January: mon - Year since 1900: year - Days since Sunday: wday - Days since Jan 1st: yday - Timestamp (ms): timestamp" |
 | `TimeDelta()` | Time elapsed since the last frame rendered on screen ||
 | `TimeFromStart()` | Time elapsed since the beginning of the scene ||
 | `TimeScale()` | Returns the time scale of the scene. ||
-| `TimerElapsedTime(identifier)` | Value of a scene timer ||
-| | _identifier_ | Timer's name |
+| `TimerElapsedTime(string)` | Value of a scene timer ||
+| | _🔤 Name (String)_ | Timer's name |
 
 ---
 
@@ -244,136 +244,136 @@ A set of mathematical functions that can be used in expressions.
 | Expression | Description |  |
 |-----|-----|-----|
 | `AngleBetweenPositions(number, number, number, number)` | Compute the angle between two positions (in degrees). ||
-| | _number_ | First point X position |
-| | _number_ | First point Y position |
-| | _number_ | Second point X position |
-| | _number_ | Second point Y position |
+| | _🔢 Number_ | First point X position |
+| | _🔢 Number_ | First point Y position |
+| | _🔢 Number_ | Second point X position |
+| | _🔢 Number_ | Second point Y position |
 | `AngleDifference(number, number)` | Difference between two angles ||
-| | _number_ | First angle, in degrees |
-| | _number_ | Second angle, in degrees |
+| | _🔢 Number_ | First angle, in degrees |
+| | _🔢 Number_ | Second angle, in degrees |
 | `DistanceBetweenPositions(number, number, number, number)` | Compute the distance between two positions. ||
-| | _number_ | First point X position |
-| | _number_ | First point Y position |
-| | _number_ | Second point X position |
-| | _number_ | Second point Y position |
+| | _🔢 Number_ | First point X position |
+| | _🔢 Number_ | First point Y position |
+| | _🔢 Number_ | Second point X position |
+| | _🔢 Number_ | Second point Y position |
 | `Pi()` | The number Pi (3.1415...) ||
 | `Random(number)` | Random integer ||
-| | _number_ | Maximum value |
+| | _🔢 Number_ | Maximum value |
 | `RandomFloat(number)` | Random float ||
-| | _number_ | Maximum value |
+| | _🔢 Number_ | Maximum value |
 | `RandomFloatInRange(number, number)` | Random float in range ||
-| | _number_ | Minimum value |
-| | _number_ | Maximum value |
+| | _🔢 Number_ | Minimum value |
+| | _🔢 Number_ | Maximum value |
 | `RandomInRange(number, number)` | Random integer in range ||
-| | _number_ | Minimum value |
-| | _number_ | Maximum value |
+| | _🔢 Number_ | Minimum value |
+| | _🔢 Number_ | Maximum value |
 | `RandomWithStep(number, number, number)` | Random value in steps ||
-| | _number_ | Minimum value |
-| | _number_ | Maximum value |
-| | _number_ | Step |
+| | _🔢 Number_ | Minimum value |
+| | _🔢 Number_ | Maximum value |
+| | _🔢 Number_ | Step |
 | `XFromAngleAndDistance(number, number)` | Compute the X position when given an angle and distance relative to the origin (0;0). This is also known as getting the cartesian coordinates of a 2D vector, using its polar coordinates. ||
-| | _number_ | Angle, in degrees |
-| | _number_ | Distance |
+| | _🔢 Number_ | Angle, in degrees |
+| | _🔢 Number_ | Distance |
 | `YFromAngleAndDistance(number, number)` | Compute the Y position when given an angle and distance relative to the origin (0;0). This is also known as getting the cartesian coordinates of a 2D vector, using its polar coordinates. ||
-| | _number_ | Angle, in degrees |
-| | _number_ | Distance |
+| | _🔢 Number_ | Angle, in degrees |
+| | _🔢 Number_ | Distance |
 | `abs(number)` | Absolute value ||
-| | _number_ | Expression |
+| | _🔢 Number_ | Expression |
 | `acos(number)` | Arccosine, return an angle (in radian). `ToDeg` allows to convert it to degrees. ||
-| | _number_ | Expression |
+| | _🔢 Number_ | Expression |
 | `acosh(number)` | Hyperbolic arccosine ||
-| | _number_ | Expression |
+| | _🔢 Number_ | Expression |
 | `asin(number)` | Arcsine, return an angle (in radian). `ToDeg` allows to convert it to degrees. ||
-| | _number_ | Expression |
+| | _🔢 Number_ | Expression |
 | `asinh(number)` | Arcsine ||
-| | _number_ | Expression |
+| | _🔢 Number_ | Expression |
 | `atan(number)` | Arctangent, return an angle (in radian). `ToDeg` allows to convert it to degrees. ||
-| | _number_ | Expression |
+| | _🔢 Number_ | Expression |
 | `atan2(number, number)` | 2 argument arctangent (atan2) ||
-| | _number_ | Y |
-| | _number_ | X |
+| | _🔢 Number_ | Y |
+| | _🔢 Number_ | X |
 | `atanh(number)` | Hyperbolic arctangent ||
-| | _number_ | Expression |
+| | _🔢 Number_ | Expression |
 | `cbrt(number)` | Cube root ||
-| | _number_ | Expression |
+| | _🔢 Number_ | Expression |
 | `ceil(number)` | Round number up to an integer ||
-| | _number_ | Expression |
+| | _🔢 Number_ | Expression |
 | `ceilTo(number, number)` | Round number up to the Nth decimal place ||
-| | _number_ | Expression |
-| | _number_ | Expression _Optional_. |
+| | _🔢 Number_ | Expression |
+| | _🔢 Number_ | Expression _Optional_. |
 | `clamp(number, number, number)` | Restrict a value to a given range ||
-| | _number_ | Value |
-| | _number_ | Min |
-| | _number_ | Max |
+| | _🔢 Number_ | Value |
+| | _🔢 Number_ | Min |
+| | _🔢 Number_ | Max |
 | `cos(number)` | Cosine of an angle (in radian). If you want to use degrees, use`ToRad`: `sin(ToRad(45))`. ||
-| | _number_ | Expression |
+| | _🔢 Number_ | Expression |
 | `cosh(number)` | Hyperbolic cosine ||
-| | _number_ | Expression |
+| | _🔢 Number_ | Expression |
 | `cot(number)` | Cotangent of a number ||
-| | _number_ | Expression |
+| | _🔢 Number_ | Expression |
 | `csc(number)` | Cosecant of a number ||
-| | _number_ | Expression |
+| | _🔢 Number_ | Expression |
 | `exp(number)` | Exponential of a number ||
-| | _number_ | Expression |
+| | _🔢 Number_ | Expression |
 | `floor(number)` | Round number down to an integer ||
-| | _number_ | Expression |
+| | _🔢 Number_ | Expression |
 | `floorTo(number, number)` | Round number down to the Nth decimal place ||
-| | _number_ | Expression |
-| | _number_ | Expression _Optional_. |
+| | _🔢 Number_ | Expression |
+| | _🔢 Number_ | Expression _Optional_. |
 | `lerp(number, number, number)` | Linearly interpolate a to b by x ||
-| | _number_ | a (in a+(b-a) * x) |
-| | _number_ | b (in a+(b-a) * x) |
-| | _number_ | x (in a+(b-a) * x) |
+| | _🔢 Number_ | a (in a+(b-a) * x) |
+| | _🔢 Number_ | b (in a+(b-a) * x) |
+| | _🔢 Number_ | x (in a+(b-a) * x) |
 | `lerpAngle(number, number, number)` | Linearly interpolates between two angles (in degrees) by taking the shortest direction around the circle. ||
-| | _number_ | Starting angle, in degrees |
-| | _number_ | Destination angle, in degrees |
-| | _number_ | Interpolation value between 0 and 1. |
+| | _🔢 Number_ | Starting angle, in degrees |
+| | _🔢 Number_ | Destination angle, in degrees |
+| | _🔢 Number_ | Interpolation value between 0 and 1. |
 | `log(number)` | Logarithm ||
-| | _number_ | Expression |
+| | _🔢 Number_ | Expression |
 | `log10(number)` | Base-10 logarithm ||
-| | _number_ | Expression |
+| | _🔢 Number_ | Expression |
 | `log2(number)` | Base 2 Logarithm ||
-| | _number_ | Expression |
+| | _🔢 Number_ | Expression |
 | `max(number, number)` | Maximum of two numbers ||
-| | _number_ | First expression |
-| | _number_ | Second expression |
+| | _🔢 Number_ | First expression |
+| | _🔢 Number_ | Second expression |
 | `min(number, number)` | Minimum of two numbers ||
-| | _number_ | First expression |
-| | _number_ | Second expression |
+| | _🔢 Number_ | First expression |
+| | _🔢 Number_ | Second expression |
 | `mod(number, number)` | x mod y ||
-| | _number_ | x (as in x mod y) |
-| | _number_ | y (as in x mod y) |
+| | _🔢 Number_ | x (as in x mod y) |
+| | _🔢 Number_ | y (as in x mod y) |
 | `normalize(number, number, number)` | Remap a value between 0 and 1. ||
-| | _number_ | Value |
-| | _number_ | Min |
-| | _number_ | Max |
+| | _🔢 Number_ | Value |
+| | _🔢 Number_ | Min |
+| | _🔢 Number_ | Max |
 | `nthroot(number, number)` | Nth root of a number ||
-| | _number_ | Number |
-| | _number_ | N |
+| | _🔢 Number_ | Number |
+| | _🔢 Number_ | N |
 | `pow(number, number)` | Raise a number to power n ||
-| | _number_ | Number |
-| | _number_ | The exponent (n in "x to the power n") |
+| | _🔢 Number_ | Number |
+| | _🔢 Number_ | The exponent (n in "x to the power n") |
 | `round(number)` | Round a number ||
-| | _number_ | Expression |
+| | _🔢 Number_ | Expression |
 | `roundTo(number, number)` | Round a number to the Nth decimal place ||
-| | _number_ | Expression |
-| | _number_ | Expression _Optional_. |
+| | _🔢 Number_ | Expression |
+| | _🔢 Number_ | Expression _Optional_. |
 | `sec(number)` | Secant ||
-| | _number_ | Expression |
+| | _🔢 Number_ | Expression |
 | `sign(number)` | Return the sign of a number (1,-1 or 0) ||
-| | _number_ | Expression |
+| | _🔢 Number_ | Expression |
 | `sin(number)` | Sine of an angle (in radian). If you want to use degrees, use`ToRad`: `sin(ToRad(45))`. ||
-| | _number_ | Expression |
+| | _🔢 Number_ | Expression |
 | `sinh(number)` | Hyperbolic sine ||
-| | _number_ | Expression |
+| | _🔢 Number_ | Expression |
 | `sqrt(number)` | Square root of a number ||
-| | _number_ | Expression |
+| | _🔢 Number_ | Expression |
 | `tan(number)` | Tangent of an angle (in radian). If you want to use degrees, use`ToRad`: `tan(ToRad(45))`. ||
-| | _number_ | Expression |
+| | _🔢 Number_ | Expression |
 | `tanh(number)` | Hyperbolic tangent ||
-| | _number_ | Expression |
+| | _🔢 Number_ | Expression |
 | `trunc(number)` | Truncate a number ||
-| | _number_ | Expression |
+| | _🔢 Number_ | Expression |
 
 ---
 
@@ -384,40 +384,40 @@ Each scene can be composed of multiple layers. These conditions and actions allo
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `CameraAngle(layer, number)` | Return the angle of rotation of a camera (in degrees). ||
-| | _layer_ | Layer _Optional_. |
-| | _number_ | Camera number (default : 0) _Optional_. |
-| `CameraBorderBottom(layer, number)` | Return the position of the bottom border of a camera. ||
-| | _layer_ | Layer _Optional_. |
-| | _number_ | Camera number _Optional_. |
-| `CameraBorderLeft(layer, number)` | Return the position of the left border of a camera. ||
-| | _layer_ | Layer _Optional_. |
-| | _number_ | Camera number _Optional_. |
-| `CameraBorderRight(layer, number)` | Return the position of the right border of a camera. ||
-| | _layer_ | Layer _Optional_. |
-| | _number_ | Camera number _Optional_. |
-| `CameraBorderTop(layer, number)` | Return the position of the top border of a camera. ||
-| | _layer_ | Layer _Optional_. |
-| | _number_ | Camera number _Optional_. |
-| `CameraCenterX(layer, number)` | Return the X position of the center of a camera. ||
-| | _layer_ | Layer _Optional_. |
-| | _number_ | Camera number (default : 0) _Optional_. |
-| `CameraCenterY(layer, number)` | Return the Y position of the center of a camera. ||
-| | _layer_ | Layer _Optional_. |
-| | _number_ | Camera number (default : 0) _Optional_. |
-| `CameraHeight(layer, number)` | Return the height of a camera of a layer. ||
-| | _layer_ | Layer _Optional_. |
-| | _number_ | Camera number _Optional_. |
-| `CameraWidth(layer, number)` | Return the width of a camera of a layer. ||
-| | _layer_ | Layer _Optional_. |
-| | _number_ | Camera number _Optional_. |
-| `CameraZoom(layer, number)` | Zoom of a camera of a layer ||
-| | _layer_ | Layer _Optional_. |
-| | _number_ | Camera number (default : 0) _Optional_. |
-| `LayerDefaultZOrder(layer)` | Default Z Order for a layer ||
-| | _layer_ | Layer |
-| `LayerTimeScale(layer)` | Returns the time scale of the specified layer. ||
-| | _layer_ | Layer |
+| `CameraAngle(layer name, number)` | Return the angle of rotation of a camera (in degrees). ||
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
+| `CameraBorderBottom(layer name, number)` | Return the position of the bottom border of a camera. ||
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number _Optional_. |
+| `CameraBorderLeft(layer name, number)` | Return the position of the left border of a camera. ||
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number _Optional_. |
+| `CameraBorderRight(layer name, number)` | Return the position of the right border of a camera. ||
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number _Optional_. |
+| `CameraBorderTop(layer name, number)` | Return the position of the top border of a camera. ||
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number _Optional_. |
+| `CameraCenterX(layer name, number)` | Return the X position of the center of a camera. ||
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
+| `CameraCenterY(layer name, number)` | Return the Y position of the center of a camera. ||
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
+| `CameraHeight(layer name, number)` | Return the height of a camera of a layer. ||
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number _Optional_. |
+| `CameraWidth(layer name, number)` | Return the width of a camera of a layer. ||
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number _Optional_. |
+| `CameraZoom(layer name, number)` | Zoom of a camera of a layer ||
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
+| `LayerDefaultZOrder(layer name)` | Default Z Order for a layer ||
+| | _🔤 Layer name (String)_ | Layer |
+| `LayerTimeScale(layer name)` | Returns the time scale of the specified layer. ||
+| | _🔤 Layer name (String)_ | Layer |
 
 ---
 
@@ -430,17 +430,17 @@ GDevelop provides several conditions and actions to play audio files. They can b
 |-----|-----|-----|
 | `GlobalVolume()` | Global volume value ||
 | `MusicChannelPitch(number)` | Music's pitch ||
-| | _number_ | Channel |
+| | _🔢 Number_ | Channel |
 | `MusicChannelPlayingOffset(number)` | Music playing offset ||
-| | _number_ | Channel |
+| | _🔢 Number_ | Channel |
 | `MusicChannelVolume(number)` | Music volume ||
-| | _number_ | Channel |
+| | _🔢 Number_ | Channel |
 | `SoundChannelPitch(number)` | Sound's pitch ||
-| | _number_ | Channel |
+| | _🔢 Number_ | Channel |
 | `SoundChannelPlayingOffset(number)` | Sound playing offset ||
-| | _number_ | Channel |
+| | _🔢 Number_ | Channel |
 | `SoundChannelVolume(number)` | Sound volume ||
-| | _number_ | Channel |
+| | _🔢 Number_ | Channel |
 
 ---
 
@@ -467,34 +467,34 @@ Provides expressions to manipulate strings (also called texts).
 | Expression | Description |  |
 |-----|-----|-----|
 | `FromCodePoint(number)` | Get character from code point ||
-| | _number_ | Code point |
+| | _🔢 Number_ | Code point |
 | `NewLine()` | Insert a new line ||
 | `StrAt(string, number)` | Get a character from a text ||
 | | _string_ | Text |
-| | _number_ | Position of the character (the first letter is at position 0) |
+| | _🔢 Number_ | Position of the character (the first letter is at position 0) |
 | `StrFind(string, string)` | Search in a text (return the position of the result or -1 if not found) ||
 | | _string_ | Text |
 | | _string_ | Text to search for |
 | `StrFindFrom(string, string, number)` | Search in a text, starting from a position (return the position of the result or -1 if not found) ||
 | | _string_ | Text |
 | | _string_ | Text to search for |
-| | _number_ | Position of the first character in the string to be considered in the search |
+| | _🔢 Number_ | Position of the first character in the string to be considered in the search |
 | `StrFindLast(string, string)` | Search the last occurrence in a string (return the position of the result, from the beginning of the string, or -1 if not found) ||
 | | _string_ | Text |
 | | _string_ | Text to search for |
 | `StrFindLastFrom(string, string, number)` | Search in a text the last occurrence, starting from a position (return the position of the result, from the beginning of the string, or -1 if not found) ||
 | | _string_ | Text |
 | | _string_ | Text to search for |
-| | _number_ | Position of the last character in the string to be considered in the search |
+| | _🔢 Number_ | Position of the last character in the string to be considered in the search |
 | `StrLength(string)` | Length of a text ||
 | | _string_ | Text |
 | `StrRepeat(string, number)` | Repeat a text ||
 | | _string_ | Text to repeat |
-| | _number_ | Repetition count |
+| | _🔢 Number_ | Repetition count |
 | `SubStr(string, number, number)` | Get a portion of a text ||
 | | _string_ | Text |
-| | _number_ | Start position of the portion (the first letter is at position 0) |
-| | _number_ | Length of the portion |
+| | _🔢 Number_ | Start position of the portion (the first letter is at position 0) |
+| | _🔢 Number_ | Length of the portion |
 | `ToLowerCase(string)` | Lowercase a text ||
 | | _string_ | Text |
 | `ToUpperCase(string)` | Uppercase a text ||
@@ -509,10 +509,10 @@ Advanced control features for functions made with events.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `GetArgumentAsNumber(functionParameterName)` | Get function parameter (also called "argument") value. ||
-| | _functionParameterName_ | Parameter name |
-| `GetArgumentAsString(functionParameterName)` | Get function parameter (also called "argument") text. ||
-| | _functionParameterName_ | Parameter name |
+| `GetArgumentAsNumber(function parameter name)` | Get function parameter (also called "argument") value. ||
+| | _🔤 Function Parameter Name (String)_ | Parameter name |
+| `GetArgumentAsString(function parameter name)` | Get function parameter (also called "argument") text. ||
+| | _🔤 Function Parameter Name (String)_ | Parameter name |
 
 ---
 
@@ -772,17 +772,17 @@ Allows you to draw simple shapes on the screen using the events. [Read more expl
 | `Object.OutlineOpacity()` | Outline opacity ||
 | `Object.OutlineSize()` | Outline size ||
 | `Object.ToDrawingX(number, number)` | X drawing coordinate of a point from the scene ||
-| | _number_ | X scene position |
-| | _number_ | Y scene position |
+| | _🔢 Number_ | X scene position |
+| | _🔢 Number_ | Y scene position |
 | `Object.ToDrawingY(number, number)` | Y drawing coordinate of a point from the scene ||
-| | _number_ | X scene position |
-| | _number_ | Y scene position |
+| | _🔢 Number_ | X scene position |
+| | _🔢 Number_ | Y scene position |
 | `Object.ToSceneX(number, number)` | X scene coordinate of a point from the drawing ||
-| | _number_ | X drawing position |
-| | _number_ | Y drawing position |
+| | _🔢 Number_ | X drawing position |
+| | _🔢 Number_ | Y drawing position |
 | `Object.ToSceneY(number, number)` | Y scene coordinate of a point from the drawing ||
-| | _number_ | X drawing position |
-| | _number_ | Y drawing position |
+| | _🔢 Number_ | X drawing position |
+| | _🔢 Number_ | Y drawing position |
 
 ---
 
@@ -831,9 +831,9 @@ Move objects to a target while avoiding all objects that are flagged as obstacle
 | `Object.Pathfinding::DestinationY()` | Destination Y position ||
 | `Object.Pathfinding::ExtraBorder()` | Extra border applied the object on the path ||
 | `Object.Pathfinding::GetNodeX(number)` | Get next waypoint X position ||
-| | _number_ | Node index (start at 0!) |
+| | _🔢 Number_ | Node index (start at 0!) |
 | `Object.Pathfinding::GetNodeY(number)` | Get next waypoint Y position ||
-| | _number_ | Node index (start at 0!) |
+| | _🔢 Number_ | Node index (start at 0!) |
 | `Object.Pathfinding::GridOffsetX()` | Return X offset of the virtual grid. ||
 | `Object.Pathfinding::GridOffsetY()` | Return Y offset of the virtual grid. ||
 | `Object.Pathfinding::LastNodeX()` | Last waypoint X position ||
@@ -882,24 +882,24 @@ Support for 3D in GDevelop.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Scene3D::CameraFarPlane(layer, number)` | Return the camera far plane distance. ||
-| | _layer_ | Layer _Optional_. |
-| | _number_ | Camera number (default : 0) _Optional_. |
-| `Scene3D::CameraFov(layer, number)` | Return the camera field of view. ||
-| | _layer_ | Layer _Optional_. |
-| | _number_ | Camera number (default : 0) _Optional_. |
-| `Scene3D::CameraNearPlane(layer, number)` | Return the camera near plane distance. ||
-| | _layer_ | Layer _Optional_. |
-| | _number_ | Camera number (default : 0) _Optional_. |
-| `Scene3D::CameraRotationX(layer, number)` | Return the camera rotation on X axis. ||
-| | _layer_ | Layer _Optional_. |
-| | _number_ | Camera number (default : 0) _Optional_. |
-| `Scene3D::CameraRotationY(layer, number)` | Return the camera rotation on Y axis. ||
-| | _layer_ | Layer _Optional_. |
-| | _number_ | Camera number (default : 0) _Optional_. |
-| `Scene3D::CameraZ(layer, number)` | Return the camera position on Z axis. ||
-| | _layer_ | Layer _Optional_. |
-| | _number_ | Camera number (default : 0) _Optional_. |
+| `Scene3D::CameraFarPlane(layer name, number)` | Return the camera far plane distance. ||
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
+| `Scene3D::CameraFov(layer name, number)` | Return the camera field of view. ||
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
+| `Scene3D::CameraNearPlane(layer name, number)` | Return the camera near plane distance. ||
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
+| `Scene3D::CameraRotationX(layer name, number)` | Return the camera rotation on X axis. ||
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
+| `Scene3D::CameraRotationY(layer name, number)` | Return the camera rotation on Y axis. ||
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
+| `Scene3D::CameraZ(layer name, number)` | Return the camera position on Z axis. ||
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
 
 ## 3D Box (from extension 3D)
 
@@ -1002,23 +1002,23 @@ Handle dialogue trees, made using Yarn Spinner. Useful to make complex dialogues
 | Expression | Description |  |
 |-----|-----|-----|
 | `DialogueTree::BranchTag(number)` | Get a tag of the current branch of the running dialogue via its index ||
-| | _number_ | Tag Index Number |
+| | _🔢 Number_ | Tag Index Number |
 | `DialogueTree::BranchTags()` | Get the tags of the current branch of the running dialogue ||
 | `DialogueTree::BranchText()` | Get the full raw text of the current branch ||
 | `DialogueTree::BranchTitle()` | Get the title of the current branch of the running dialogue ||
 | `DialogueTree::ClippedLineText()` | Get dialogue line text clipped by the typewriter effect. Use the "Scroll clipped text" action to control the typewriter effect. ||
 | `DialogueTree::CommandParameter(number)` | Get the parameters of a command call - <<command withParameter anotherParameter>> ||
-| | _number_ | parameter Index Number _Optional_. |
+| | _🔢 Number_ | parameter Index Number _Optional_. |
 | `DialogueTree::CommandParametersCount()` | Get the number of parameters in the currently passed command ||
 | `DialogueTree::HorizontalOptionsList(string)` | Get the text of all available options from an Options line type as a horizontal list. You can also pass the selected option's cursor string, which by default is -> ||
 | | _string_ | Options Selection Cursor |
 | `DialogueTree::LineText()` | Returns the current dialogue line text ||
 | `DialogueTree::Option(number)` | Get the text of an option from an Options line type, using the option's Number. The numbers start from 0. ||
-| | _number_ | Option Index Number |
+| | _🔢 Number_ | Option Index Number |
 | `DialogueTree::OptionsCount()` | Get the number of options in an options line type ||
 | `DialogueTree::SelectedOptionIndex()` | Get the number of the currently selected option. Use this to help you render the option selection marker at the right place. ||
 | `DialogueTree::TagParameter(number)` | Get parameter from a Tag found by the branch contains tag condition ||
-| | _number_ | parameter Index Number _Optional_. |
+| | _🔢 Number_ | parameter Index Number _Optional_. |
 | `DialogueTree::Variable(string)` | Get dialogue state value ||
 | | _string_ | Variable Name |
 | `DialogueTree::VerticalOptionsList(string)` | Get the text of all available options from an Options line type as a vertical list. You can also pass the selected option's cursor string, which by default is -> ||
@@ -1099,8 +1099,8 @@ Allow your game to send scores to your leaderboards. [Read more explanations abo
 |-----|-----|-----|
 | `Leaderboards::FormatPlayerName(string)` | Formats a name so that it can be submitted to a leaderboard. ||
 | | _string_ | Raw player name |
-| `Leaderboards::LastSaveError(leaderboardId)` | Get the error of the last save attempt. ||
-| | _leaderboardId_ | Leaderboard If no leaderboard is specified, will return the value related to the last leaderboard save action. _Optional_. |
+| `Leaderboards::LastSaveError(leaderboard identifier)` | Get the error of the last save attempt. ||
+| | _🔤 Leaderboard Identifier (String)_ | Leaderboard If no leaderboard is specified, will return the value related to the last leaderboard save action. _Optional_. |
 
 ---
 
@@ -1152,38 +1152,38 @@ Simulate realistic object physics with gravity, forces, joints, etc. [Read more 
 | `Object.Physics2::AngularVelocity()` | Get the angular velocity of an object. ||
 | `Object.Physics2::Density()` | Get the density of an object. ||
 | `Object.Physics2::DistanceJointDampingRatio(number)` | Distance joint damping ratio ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::DistanceJointFrequency(number)` | Distance joint frequency ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::DistanceJointLength(number)` | Distance joint length ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::Friction()` | Get the friction of an object. ||
 | `Object.Physics2::FrictionJointMaxForce(number)` | Friction joint maximum force ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::FrictionJointMaxTorque(number)` | Friction joint maximum torque ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::GearJointFirstJoint(number)` | Gear joint first joint ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::GearJointRatio(number)` | Gear joint ratio ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::GearJointSecondJoint(number)` | Gear joint second joint ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::GravityScale()` | Get the gravity scale of an object. ||
 | `Object.Physics2::GravityX()` | World gravity on X axis ||
 | `Object.Physics2::GravityY()` | World gravity on Y axis ||
 | `Object.Physics2::Inertia()` | Return the rotational inertia of the object (in kilograms * meters * meters) ||
 | `Object.Physics2::JointFirstAnchorX(number)` | Joint first anchor X ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::JointFirstAnchorY(number)` | Joint first anchor Y ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::JointReactionForce(number)` | Joint reaction force ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::JointReactionTorque(number)` | Joint reaction torque ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::JointSecondAnchorX(number)` | Joint second anchor X ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::JointSecondAnchorY(number)` | Joint second anchor Y ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::LinearDamping()` | Get the linear damping of an object. ||
 | `Object.Physics2::LinearVelocity()` | Get the linear velocity of an object. ||
 | `Object.Physics2::LinearVelocityAngle()` | Get the linear velocity angle of an object. ||
@@ -1193,101 +1193,101 @@ Simulate realistic object physics with gravity, forces, joints, etc. [Read more 
 | `Object.Physics2::MassCenterX()` | Mass center X ||
 | `Object.Physics2::MassCenterY()` | Mass center Y ||
 | `Object.Physics2::MotorJointAngularOffset(number)` | Motor joint angular offset ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::MotorJointCorrectionFactor(number)` | Motor joint correction factor ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::MotorJointMaxForce(number)` | Motor joint maximum force ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::MotorJointMaxTorque(number)` | Motor joint maximum torque ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::MotorJointOffsetX(number)` | Motor joint offset X ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::MotorJointOffsetY(number)` | Motor joint offset Y ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::MouseJointDampingRatio(number)` | Mouse joint damping ratio ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::MouseJointFrequency(number)` | Mouse joint frequency ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::MouseJointMaxForce(number)` | Mouse joint maximum force ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::MouseJointTargetX(number)` | Mouse joint target X ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::MouseJointTargetY(number)` | Mouse joint target Y ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::PrismaticJointAxisAngle(number)` | Prismatic joint axis angle ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::PrismaticJointMaxMotorForce(number)` | Prismatic joint maximum motor force ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::PrismaticJointMaxTranslation(number)` | Prismatic joint maximum translation ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::PrismaticJointMinTranslation(number)` | Prismatic joint minimum translation ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::PrismaticJointMotorForce(number)` | Prismatic joint motor force ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::PrismaticJointMotorSpeed(number)` | Prismatic joint motor speed ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::PrismaticJointReferenceAngle(number)` | Prismatic joint reference angle ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::PrismaticJointSpeed(number)` | Prismatic joint speed ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::PrismaticJointTranslation(number)` | Prismatic joint current translation ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::PulleyJointFirstGroundAnchorX(number)` | Pulley joint first ground anchor X ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::PulleyJointFirstGroundAnchorY(number)` | Pulley joint first ground anchor Y ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::PulleyJointFirstLength(number)` | Pulley joint first length ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::PulleyJointRatio(number)` | Pulley joint ratio ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::PulleyJointSecondGroundAnchorX(number)` | Pulley joint second ground anchor X ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::PulleyJointSecondGroundAnchorY(number)` | Pulley joint second ground anchor Y ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::PulleyJointSecondLength(number)` | Pulley joint second length ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::Restitution()` | Get the restitution of an object. ||
 | `Object.Physics2::RevoluteJointAngle(number)` | Revolute joint current angle ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::RevoluteJointMaxAngle(number)` | Revolute joint maximum angle ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::RevoluteJointMaxMotorTorque(number)` | Revolute joint maximum motor torque ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::RevoluteJointMinAngle(number)` | Revolute joint minimum angle ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::RevoluteJointMotorSpeed(number)` | Revolute joint motor speed ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::RevoluteJointMotorTorque(number)` | Revolute joint motor torque ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::RevoluteJointReferenceAngle(number)` | Revolute joint reference angle ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::RevoluteJointSpeed(number)` | Revolute joint angular speed ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::RopeJointMaxLength(number)` | Rope joint maximum length ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::TimeScale()` | World time scale ||
 | `Object.Physics2::WeldJointDampingRatio(number)` | Weld joint damping ratio ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::WeldJointFrequency(number)` | Weld joint frequency ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::WeldJointReferenceAngle(number)` | Weld joint reference angle ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::WheelJointAxisAngle(number)` | Wheel joint axis angle ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::WheelJointDampingRatio(number)` | Wheel joint damping ratio ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::WheelJointFrequency(number)` | Wheel joint frequency ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::WheelJointMaxMotorTorque(number)` | Wheel joint maximum motor torque ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::WheelJointMotorSpeed(number)` | Wheel joint motor speed ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::WheelJointMotorTorque(number)` | Wheel joint motor torque ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::WheelJointSpeed(number)` | Wheel joint speed ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::WheelJointTranslation(number)` | Wheel joint current translation ||
-| | _number_ | Joint ID |
+| | _🔢 Number_ | Joint ID |
 
 ---
 
@@ -1309,30 +1309,30 @@ Adds integrations for Steam's Steamworks game development SDK.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Steamworks::ActionVectorX(number, identifier)` | The action vector of a Steam Input analog joystick on the X-axis, from 1 (all right) to -1 (all left). ||
-| | _number_ | Controller number |
-| | _identifier_ | ActionName |
-| `Steamworks::ActionVectorY(number, identifier)` | The action vector of a Steam Input analog joystick on the Y-axis, from 1 (all up) to -1 (all down). ||
-| | _number_ | Controller number |
-| | _identifier_ | ActionName |
+| `Steamworks::ActionVectorX(number, string)` | The action vector of a Steam Input analog joystick on the X-axis, from 1 (all right) to -1 (all left). ||
+| | _🔢 Number_ | Controller number |
+| | _🔤 Name (String)_ | ActionName |
+| `Steamworks::ActionVectorY(number, string)` | The action vector of a Steam Input analog joystick on the Y-axis, from 1 (all up) to -1 (all down). ||
+| | _🔢 Number_ | Controller number |
+| | _🔤 Name (String)_ | ActionName |
 | `Steamworks::AppBuildID()` | Gets the ID of the current app build. ||
 | `Steamworks::AppID()` | Obtains the game's Steam app ID, as declared in the games properties. ||
 | `Steamworks::BetaName()` | Gets the name of the beta the player enrolled to in the Steam game properties. ||
 | `Steamworks::ControllerCount()` | The amount of connected Steam Input controllers. ||
 | `Steamworks::CountryCode()` | The player's country represented as its two-letter code. ||
-| `Steamworks::CurrentLobbyAttribute(identifier)` | Obtains the value of one of the current lobby's attributes. ||
-| | _identifier_ | The attribute to read |
+| `Steamworks::CurrentLobbyAttribute(string)` | Obtains the value of one of the current lobby's attributes. ||
+| | _🔤 Name (String)_ | The attribute to read |
 | `Steamworks::CurrentLobbyID()` | The ID of the current lobby, useful for letting other players join it. ||
 | `Steamworks::CurrentLobbyMemberCount()` | Obtains the current lobby's member count. ||
 | `Steamworks::CurrentLobbyMemberLimit()` | Obtains the current lobby's maximum member limit. ||
 | `Steamworks::CurrentLobbyOwner()` | Obtains the Steam ID of the user that owns the current lobby. ||
 | `Steamworks::GameLanguage()` | Gets the language the user set in the Steam game properties. ||
-| `Steamworks::InstalledApplicationPath(identifier)` | Gets the path to an installed Steam application. ||
-| | _identifier_ | The Steam App ID of the application |
+| `Steamworks::InstalledApplicationPath(string)` | Gets the path to an installed Steam application. ||
+| | _🔤 Name (String)_ | The Steam App ID of the application |
 | `Steamworks::Level()` | Obtains the player's Steam level ||
-| `Steamworks::LobbyAttribute(string, identifier)` | Obtains the value of one of a lobby's attributes. ||
+| `Steamworks::LobbyAttribute(string, string)` | Obtains the value of one of a lobby's attributes. ||
 | | _string_ | The ID of the lobby |
-| | _identifier_ | The attribute to read |
+| | _🔤 Name (String)_ | The attribute to read |
 | `Steamworks::LobbyMemberCount(string)` | Obtains a lobby's member count. ||
 | | _string_ | The ID of the lobby |
 | `Steamworks::LobbyMemberLimit(string)` | Obtains a lobby's maximum member limit. ||
@@ -1340,20 +1340,20 @@ Adds integrations for Steam's Steamworks game development SDK.
 | `Steamworks::LobbyOwner(string)` | Obtains the Steam ID of the user that owns a lobby. ||
 | | _string_ | The ID of the lobby |
 | `Steamworks::Name()` | The player's registered name on Steam. ||
-| `Steamworks::ReadCloudFile(identifier)` | Reads a file from Steam Cloud and returns its contents. ||
-| | _identifier_ | Name of file to read |
+| `Steamworks::ReadCloudFile(string)` | Reads a file from Steam Cloud and returns its contents. ||
+| | _🔤 Name (String)_ | Name of file to read |
 | `Steamworks::ServerTime()` | Obtains the real current time from the Steam servers, which cannot be faked by changing the system time. ||
 | `Steamworks::SteamID()` | The player's unique Steam ID number. Note that it is too big a number to load correctly as a traditional number ("floating point number"), and must be used as a string. ||
-| `Steamworks::WorkshopItemDownloadProgress(identifier)` | The amount of data that has been downloaded by Steam for a currrently downloading item so far. ||
-| | _identifier_ | Workshop Item ID |
-| `Steamworks::WorkshopItemDownloadTotal(identifier)` | The amount of data that needs to be downloaded in total by Steam for a currrently downloading item. ||
-| | _identifier_ | Workshop Item ID |
-| `Steamworks::WorkshopItemInstallationTimestamp(identifier)` | The timestamp of the last time the contents file of an installed workshop item was updated. ||
-| | _identifier_ | Workshop Item ID |
-| `Steamworks::WorkshopItemLocation(identifier)` | The file path to the contents file of an installed workshop item. ||
-| | _identifier_ | Workshop Item ID |
-| `Steamworks::WorkshopItemSize(identifier)` | The size on disk taken by the contents file of an installed workshop item. ||
-| | _identifier_ | Workshop Item ID |
+| `Steamworks::WorkshopItemDownloadProgress(string)` | The amount of data that has been downloaded by Steam for a currrently downloading item so far. ||
+| | _🔤 Name (String)_ | Workshop Item ID |
+| `Steamworks::WorkshopItemDownloadTotal(string)` | The amount of data that needs to be downloaded in total by Steam for a currrently downloading item. ||
+| | _🔤 Name (String)_ | Workshop Item ID |
+| `Steamworks::WorkshopItemInstallationTimestamp(string)` | The timestamp of the last time the contents file of an installed workshop item was updated. ||
+| | _🔤 Name (String)_ | Workshop Item ID |
+| `Steamworks::WorkshopItemLocation(string)` | The file path to the contents file of an installed workshop item. ||
+| | _🔤 Name (String)_ | Workshop Item ID |
+| `Steamworks::WorkshopItemSize(string)` | The size on disk taken by the contents file of an installed workshop item. ||
+| | _🔤 Name (String)_ | Workshop Item ID |
 
 ---
 
@@ -1406,10 +1406,10 @@ Animate object properties over time. This allows smooth transitions, animations 
 | Expression | Description |  |
 |-----|-----|-----|
 | `Tween::Ease(string, number, number, number)` | Tween between 2 values according to an easing function. ||
-| | _string_ | Easing |
-| | _number_ | From value |
-| | _number_ | To value |
-| | _number_ | Weighting From 0 to 1. |
+| | _🔤 String_ | Easing |
+| | _🔢 Number_ | From value |
+| | _🔢 Number_ | To value |
+| | _🔢 Number_ | Weighting From 0 to 1. |
 
 ## Tween (from extension Tweening)
 
@@ -1417,8 +1417,8 @@ Smoothly animate position, angle, scale and other properties of objects. [Read m
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Object.Tween::Progress(identifier)` | Progress of a tween (between 0.0 and 1.0) ||
-| | _identifier_ | Tween Identifier |
+| `Object.Tween::Progress(string)` | Progress of a tween (between 0.0 and 1.0) ||
+| | _🔤 Name (String)_ | Tween Identifier |
 
 ---
 

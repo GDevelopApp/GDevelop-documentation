@@ -44,10 +44,10 @@ Check if the scene tween is currently playing.
 | Expression | Description |  |
 |-----|-----|-----|
 | `Tween::Ease(string, number, number, number)` | Tween between 2 values according to an easing function. ||
-| | _string_ | Easing |
-| | _number_ | From value |
-| | _number_ | To value |
-| | _number_ | Weighting From 0 to 1. |
+| | _🔤 String_ | Easing |
+| | _🔢 Number_ | From value |
+| | _🔢 Number_ | To value |
+| | _🔢 Number_ | Weighting From 0 to 1. |
 
 ## Tween 
 
@@ -130,8 +130,8 @@ Check if the tween animation is currently playing.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Object.Tween::Progress(identifier)` | Progress of a tween (between 0.0 and 1.0) ||
-| | _identifier_ | Tween Identifier |
+| `Object.Tween::Progress(string)` | Progress of a tween (between 0.0 and 1.0) ||
+| | _🔤 Name (String)_ | Tween Identifier |
 
 ---
 *This page is an auto-generated reference page about the **Tweening** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

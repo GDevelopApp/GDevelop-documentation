@@ -21,21 +21,21 @@ Expressions to convert color values between various formats (RGB, HSV, HSL, name
 | `ColorConversion::HexToRgb(color)` | Converts a hexadecimal string into a RGB string.  Example input: "0459AF". ||
 | | _color_ | Hex value |
 | `ColorConversion::HslToRgb(number, number, number)` | Converts HSL color values into a RGB string.  Valid input ranges:  H(0 to 360), S(0 to 100), L(0 to 100). ||
-| | _number_ | Hue 0-360 |
-| | _number_ | Saturation 0-100 |
-| | _number_ | Lightness 0-100 |
+| | _🔢 Number_ | Hue 0-360 |
+| | _🔢 Number_ | Saturation 0-100 |
+| | _🔢 Number_ | Lightness 0-100 |
 | `ColorConversion::HsvToRgb(number, number, number)` | Converts HSV color values into a RGB string.  Valid input ranges:  H(0 to 360), S(0 to 100), V(0 to 100). ||
-| | _number_ | Hue 0-360 |
-| | _number_ | Saturation 0-100 |
-| | _number_ | Value 0-100 |
+| | _🔢 Number_ | Hue 0-360 |
+| | _🔢 Number_ | Saturation 0-100 |
+| | _🔢 Number_ | Value 0-100 |
 | `ColorConversion::HueToRgb(number)` | Converts a color hue (range: 0 to 360) into an RGB color string with 100% saturation and 50% lightness. ||
-| | _number_ | Hue 0-360 |
+| | _🔢 Number_ | Hue 0-360 |
 | `ColorConversion::NameToRgb(color)` | Converts a color name into a RGB string.  (Examples: black, gray, white, red, purple, green, yellow, blue)  Full list of colors: https://www.w3schools.com/colors/colors_names.asp. ||
 | | _color_ | Name of a color |
 | `ColorConversion::RgbMean(color, color, number)` | Blend two RGB colors by applying a weighted mean. ||
 | | _color_ | First RGB color |
 | | _color_ | Second RGB color |
-| | _number_ | Ratio Range: 0 to 1, where 0 gives the first color and 1 gives the second color |
+| | _🔢 Number_ | Ratio Range: 0 to 1, where 0 gives the first color and 1 gives the second color |
 | `ColorConversion::RgbToHex(color)` | Converts a RGB string into a hexadecimal string.  Example input: "0;128;255". ||
 | | _color_ | RGB value |
 | `ColorConversion::RgbToHsl(color)` | Converts a RGB string into a HSL string.  Example input: "0;128;255"". ||

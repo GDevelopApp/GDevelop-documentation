@@ -51,28 +51,28 @@ Check if a touch is pinching, if 2 touches are pressed.
 | | _string_ | Layer |
 | `PinchGesture::CurrentCenterY(string)` | Return the Y position of the pinch center. ||
 | | _string_ | Layer |
-| `PinchGesture::InversedX(number, number, layer)` | Return the original X position of a point before the pinch gesture. ||
-| | _number_ | Position X after the pinch |
-| | _number_ | Position Y after the pinch |
-| | _layer_ | Layer |
-| `PinchGesture::InversedY(number, number, layer)` | Return the new position on the Y axis of a point after the pinch gesture. ||
-| | _number_ | Position X after the pinch |
-| | _number_ | Position Y after the pinch |
-| | _layer_ | Layer |
+| `PinchGesture::InversedX(number, number, layer name)` | Return the original X position of a point before the pinch gesture. ||
+| | _🔢 Number_ | Position X after the pinch |
+| | _🔢 Number_ | Position Y after the pinch |
+| | _🔤 Layer name (String)_ | Layer |
+| `PinchGesture::InversedY(number, number, layer name)` | Return the new position on the Y axis of a point after the pinch gesture. ||
+| | _🔢 Number_ | Position X after the pinch |
+| | _🔢 Number_ | Position Y after the pinch |
+| | _🔤 Layer name (String)_ | Layer |
 | `PinchGesture::Rotation()` | Return the rotation of the pinch gesture from its beginning (in degrees). ||
 | `PinchGesture::Scaling()` | Return the scaling of the pinch gesture from its beginning. ||
-| `PinchGesture::TransformedX(number, number, layer)` | Return the new X position of a point after the pinch gesture. ||
-| | _number_ | Position X before the pinch |
-| | _number_ | Position Y before the pinch |
-| | _layer_ | Layer |
-| `PinchGesture::TransformedY(number, number, layer)` | Return the new Y position of a point after the pinch gesture. ||
-| | _number_ | Position X before the pinch |
-| | _number_ | Position Y before the pinch |
-| | _layer_ | Layer |
-| `PinchGesture::TranslationX(layer)` | Return the horizontal translation of the pinch gesture from its beginning. ||
-| | _layer_ | Layer |
-| `PinchGesture::TranslationY(layer)` | Return the vertical translation of the pinch gesture from its beginning. ||
-| | _layer_ | Layer |
+| `PinchGesture::TransformedX(number, number, layer name)` | Return the new X position of a point after the pinch gesture. ||
+| | _🔢 Number_ | Position X before the pinch |
+| | _🔢 Number_ | Position Y before the pinch |
+| | _🔤 Layer name (String)_ | Layer |
+| `PinchGesture::TransformedY(number, number, layer name)` | Return the new Y position of a point after the pinch gesture. ||
+| | _🔢 Number_ | Position X before the pinch |
+| | _🔢 Number_ | Position Y before the pinch |
+| | _🔤 Layer name (String)_ | Layer |
+| `PinchGesture::TranslationX(layer name)` | Return the horizontal translation of the pinch gesture from its beginning. ||
+| | _🔤 Layer name (String)_ | Layer |
+| `PinchGesture::TranslationY(layer name)` | Return the vertical translation of the pinch gesture from its beginning. ||
+| | _🔤 Layer name (String)_ | Layer |
 
 ## Pinchable object 
 

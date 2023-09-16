@@ -69,22 +69,22 @@ The seed is a number used to generate the random noise. Setting the same seed wi
 | | _string_ | Generator name |
 | `Noise::Noise1d(string, number)` | Generate a number between -1 and 1 from 1 dimensional simplex noise. The "Map" expression from Extended Math extension can be used to map values to any chosen bounds. ||
 | | _string_ | Generator name |
-| | _number_ | X coordinate |
+| | _🔢 Number_ | X coordinate |
 | `Noise::Noise2d(string, number, number)` | Generate a number between -1 and 1 from 2 dimensional simplex noise. The "Map" expression from Extended Math extension can be used to map values to any chosen bounds. ||
 | | _string_ | Generator name |
-| | _number_ | X coordinate |
-| | _number_ | Y coordinate |
+| | _🔢 Number_ | X coordinate |
+| | _🔢 Number_ | Y coordinate |
 | `Noise::Noise3d(string, number, number, number)` | Generate a number between -1 and 1 from 3 dimensional simplex noise. The "Map" expression from Extended Math extension can be used to map values to any chosen bounds. ||
 | | _string_ | Generator name |
-| | _number_ | X coordinate |
-| | _number_ | Y coordinate |
-| | _number_ | Z coordinate |
+| | _🔢 Number_ | X coordinate |
+| | _🔢 Number_ | Y coordinate |
+| | _🔢 Number_ | Z coordinate |
 | `Noise::Noise4d(string, number, number, number, number)` | Generate a number between -1 and 1 from 4 dimensional simplex noise. The "Map" expression from Extended Math extension can be used to map values to any chosen bounds. ||
 | | _string_ | Generator name |
-| | _number_ | X coordinate |
-| | _number_ | Y coordinate |
-| | _number_ | Z coordinate |
-| | _number_ | W coordinate |
+| | _🔢 Number_ | X coordinate |
+| | _🔢 Number_ | Y coordinate |
+| | _🔢 Number_ | Z coordinate |
+| | _🔢 Number_ | W coordinate |
 | `Noise::Octaves(string)` | The number of octaves used for noise generation. ||
 | | _string_ | Generator name |
 | `Noise::Persistence(string)` | The persistence used for noise generation. ||

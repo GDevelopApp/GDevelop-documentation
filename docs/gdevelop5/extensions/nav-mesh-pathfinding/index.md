@@ -141,9 +141,9 @@ Compare the number of waypoints on the path.
 | `Object.NavMeshPathfindingBehavior::NextNodeY()` | Return the next waypoint Y position. ||
 | `Object.NavMeshPathfindingBehavior::NodeCount()` | Get the number of waypoints on the path. ||
 | `Object.NavMeshPathfindingBehavior::NodeX(number)` | Return a waypoint X position. ||
-| | _number_ | Node index (start at 0) |
+| | _🔢 Number_ | Node index (start at 0) |
 | `Object.NavMeshPathfindingBehavior::NodeY(number)` | Return a waypoint Y position. ||
-| | _number_ | Node index (start at 0) |
+| | _🔢 Number_ | Node index (start at 0) |
 | `Object.NavMeshPathfindingBehavior::PreviousNodeX()` | Return the previous waypoint X position. ||
 | `Object.NavMeshPathfindingBehavior::PreviousNodeY()` | Return the previous waypoint Y position. ||
 | `Object.NavMeshPathfindingBehavior::Speed()` | Return the number of waypoints on the path. ||

@@ -83,7 +83,7 @@ Checks if an array contains a specific string.
 | | _string_ | The name of the scene array variable |
 | `ArrayTools::IndexOf(string, number)` | The index of the first variable that equals to a specific number in an array. ||
 | | _string_ | The name of the scene array variable |
-| | _number_ | The number to search in the array |
+| | _🔢 Number_ | The number to search in the array |
 | `ArrayTools::IndexOfStr(string, string)` | The index of the first variable that equals to a specific text in an array. ||
 | | _string_ | The name of the scene array variable |
 | | _string_ | The string to search in the array |
@@ -92,7 +92,7 @@ Checks if an array contains a specific string.
 | | _string_ | Optional separator text between each element |
 | `ArrayTools::LastIndexOf(string, number)` | The index of the last variable that equals to a specific number in an array. ||
 | | _string_ | The name of the scene array variable |
-| | _number_ | The number to search in the array |
+| | _🔢 Number_ | The number to search in the array |
 | `ArrayTools::LastIndexOfStr(string, string)` | The index of the last variable that equals to a specific text in an array. ||
 | | _string_ | The name of the scene array variable |
 | | _string_ | The string to search in the array |

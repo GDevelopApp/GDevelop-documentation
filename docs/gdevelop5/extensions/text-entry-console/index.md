@@ -29,7 +29,7 @@ Triggers when a specific command has been entered.
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.TextEntryConsole::GetArg(number)` | Get an argument from the last entered command. ||
-| | _number_ | Index of the argument |
+| | _🔢 Number_ | Index of the argument |
 
 ---
 

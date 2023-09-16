@@ -90,24 +90,24 @@ Checks whether the server marked the response as a success (status code 1XX/2XX)
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `AdvancedHTTP::RequestBody(identifier)` | Return the body of the HTTP request. Contains data to send to the server, ususally in plain text, JSON or FormData format. This cannot be set for GET requests. ||
-| | _identifier_ | Request template name |
-| `AdvancedHTTP::RequestCache(identifier)` | Return the HTTP method of the request. GET is the default and what you should use if you are unsure which to pick. A request to a REST API endpoint may have a different effect depending on the method - refer to the documentation of the API you are calling to learn about the appropriate method to use. ||
-| | _identifier_ | Request template name |
-| `AdvancedHTTP::RequestHeader(identifier, identifier)` | Return an HTTP header to be sent with the request. ||
-| | _identifier_ | Request template name |
-| | _identifier_ | HTTP header name |
-| `AdvancedHTTP::RequestMethod(identifier)` | Return the HTTP method of the request. GET is the default and what you should use if you are unsure which to pick. A request to a REST API endpoint may have a different effect depending on the method - refer to the documentation of the API you are calling to learn about the appropriate method to use. ||
-| | _identifier_ | Request template name |
-| `AdvancedHTTP::RequestURL(identifier)` | Return the request template's target URL. ||
-| | _identifier_ | Request template name |
-| `AdvancedHTTP::ResponseHeader(scenevar, identifier)` | Return one of the HTTP headers included in the server's response. ||
-| | _scenevar_ | Variable containing the response |
-| | _identifier_ | Header |
-| `AdvancedHTTP::ResponseStatusCode(scenevar)` | Return the status code of the HTTP request (e.g. 200 if succeeded, 404 if not found, etc). ||
-| | _scenevar_ | Variable containing the response |
-| `AdvancedHTTP::ResponseStatusText(scenevar)` | Gets the status text for a response. For example, for a response with the status code 404, the status text will be "Not Found". ||
-| | _scenevar_ | Variable containing the response |
+| `AdvancedHTTP::RequestBody(string)` | Return the body of the HTTP request. Contains data to send to the server, ususally in plain text, JSON or FormData format. This cannot be set for GET requests. ||
+| | _🔤 Name (String)_ | Request template name |
+| `AdvancedHTTP::RequestCache(string)` | Return the HTTP method of the request. GET is the default and what you should use if you are unsure which to pick. A request to a REST API endpoint may have a different effect depending on the method - refer to the documentation of the API you are calling to learn about the appropriate method to use. ||
+| | _🔤 Name (String)_ | Request template name |
+| `AdvancedHTTP::RequestHeader(string, string)` | Return an HTTP header to be sent with the request. ||
+| | _🔤 Name (String)_ | Request template name |
+| | _🔤 Name (String)_ | HTTP header name |
+| `AdvancedHTTP::RequestMethod(string)` | Return the HTTP method of the request. GET is the default and what you should use if you are unsure which to pick. A request to a REST API endpoint may have a different effect depending on the method - refer to the documentation of the API you are calling to learn about the appropriate method to use. ||
+| | _🔤 Name (String)_ | Request template name |
+| `AdvancedHTTP::RequestURL(string)` | Return the request template's target URL. ||
+| | _🔤 Name (String)_ | Request template name |
+| `AdvancedHTTP::ResponseHeader(scene variable, string)` | Return one of the HTTP headers included in the server's response. ||
+| | _🗄️ Scene variable_ | Variable containing the response |
+| | _🔤 Name (String)_ | Header |
+| `AdvancedHTTP::ResponseStatusCode(scene variable)` | Return the status code of the HTTP request (e.g. 200 if succeeded, 404 if not found, etc). ||
+| | _🗄️ Scene variable_ | Variable containing the response |
+| `AdvancedHTTP::ResponseStatusText(scene variable)` | Gets the status text for a response. For example, for a response with the status code 404, the status text will be "Not Found". ||
+| | _🗄️ Scene variable_ | Variable containing the response |
 
 ---
 

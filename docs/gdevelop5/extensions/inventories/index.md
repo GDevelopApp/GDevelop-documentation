@@ -64,12 +64,12 @@ Compare the number of an item in an inventory.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Inventories::ItemCapacity(identifier, identifier)` | Return the maximum number of the specified item that can be added in the inventory. By default, the number allowed for each item is unlimited. ||
-| | _identifier_ | Inventory name |
-| | _identifier_ | Item name |
-| `Inventories::ItemCount(identifier, identifier)` | Return the number of an item in an inventory. ||
-| | _identifier_ | Inventory name |
-| | _identifier_ | Item name |
+| `Inventories::ItemCapacity(string, string)` | Return the maximum number of the specified item that can be added in the inventory. By default, the number allowed for each item is unlimited. ||
+| | _🔤 Name (String)_ | Inventory name |
+| | _🔤 Name (String)_ | Item name |
+| `Inventories::ItemCount(string, string)` | Return the number of an item in an inventory. ||
+| | _🔤 Name (String)_ | Inventory name |
+| | _🔤 Name (String)_ | Item name |
 
 ---
 

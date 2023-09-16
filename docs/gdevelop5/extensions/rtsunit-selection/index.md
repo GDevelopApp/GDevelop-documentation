@@ -77,11 +77,11 @@ Check if the unit is "Selected".
 | Expression | Description |  |
 |-----|-----|-----|
 | `RTSUnitSelection::ControlGroupID(object)` | Control group this unit is assigned to. ||
-| | _object_ | Unit |
+| | _👾 Object_ | Unit |
 | `RTSUnitSelection::SelectedUnitID(object)` | Unit ID of a selected unit. ||
-| | _object_ | Unit |
+| | _👾 Object_ | Unit |
 | `RTSUnitSelection::TotalSelectedUnits(object)` | Provides the total number of _PARAM1_ that are currently "Selected". ||
-| | _object_ | Unit |
+| | _👾 Object_ | Unit |
 
 ---
 

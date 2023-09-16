@@ -34,10 +34,10 @@ Check if the specified function parameter (also called "argument") is set to Tru
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `GetArgumentAsNumber(functionParameterName)` | Get function parameter (also called "argument") value. ||
-| | _functionParameterName_ | Parameter name |
-| `GetArgumentAsString(functionParameterName)` | Get function parameter (also called "argument") text. ||
-| | _functionParameterName_ | Parameter name |
+| `GetArgumentAsNumber(function parameter name)` | Get function parameter (also called "argument") value. ||
+| | _🔤 Function Parameter Name (String)_ | Parameter name |
+| `GetArgumentAsString(function parameter name)` | Get function parameter (also called "argument") text. ||
+| | _🔤 Function Parameter Name (String)_ | Parameter name |
 
 ---
 *This page is an auto-generated reference page about the **Event functions** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

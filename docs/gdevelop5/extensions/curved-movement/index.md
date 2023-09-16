@@ -84,51 +84,51 @@ Path exists.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `CurvedMovement::ElementCount(identifier)` | Return the number of lines or curves that make the path. ||
-| | _identifier_ | Path name |
-| `CurvedMovement::FirstControlX(identifier, number)` | Return the first control point position on X axis of a curve. ||
-| | _identifier_ | Path name |
-| | _number_ | Curve index |
-| `CurvedMovement::FirstControlY(identifier, number)` | Return the first control point position on Y axis of a curve. ||
-| | _identifier_ | Path name |
-| | _number_ | Curve index |
-| `CurvedMovement::OriginX(identifier, number)` | Return the origin position on X axis of a curve. ||
-| | _identifier_ | Path name |
-| | _number_ | Curve index |
-| `CurvedMovement::OriginY(identifier, number)` | Return the origin position on Y axis of a curve. ||
-| | _identifier_ | Path name |
-| | _number_ | Curve index |
-| `CurvedMovement::PathAngle(identifier, number)` | Return the direction angle of the path for a given length (in degree). ||
-| | _identifier_ | Path name |
-| | _number_ | Length on the path |
-| `CurvedMovement::PathEndX(identifier)` | Return the displacement on X axis of the path end. ||
-| | _identifier_ | Path name |
-| `CurvedMovement::PathEndY(identifier)` | Return the displacement on Y axis of the path end. ||
-| | _identifier_ | Path name |
-| `CurvedMovement::PathLength(identifier)` | Return the length of the path. ||
-| | _identifier_ | Path name |
-| `CurvedMovement::PathX(identifier, number)` | Return the position on X axis of the path for a given length. ||
-| | _identifier_ | Path name |
-| | _number_ | Length on the path |
-| `CurvedMovement::PathY(identifier, number)` | Return the position on Y axis of the path for a given length. ||
-| | _identifier_ | Path name |
-| | _number_ | Length on the path |
-| `CurvedMovement::SecondControlX(identifier, number)` | Return the second control point position on X axis of a curve. ||
-| | _identifier_ | Path name |
-| | _number_ | Curve index |
-| `CurvedMovement::SecondControlY(identifier, number)` | Return the second control point position on Y axis of a curve. ||
-| | _identifier_ | Path name |
-| | _number_ | Curve index |
-| `CurvedMovement::SpeedScaleY(identifier)` | Return the speed scale on Y axis. This is used to change the view point of a path (top-dwon or isometry). ||
-| | _identifier_ | Path name |
-| `CurvedMovement::TargetX(identifier, number)` | Return the target position on X axis of a curve. ||
-| | _identifier_ | Path name |
-| | _number_ | Curve index |
-| `CurvedMovement::TargetY(identifier, number)` | Return the target position on Y axis of a curve. ||
-| | _identifier_ | Path name |
-| | _number_ | Curve index |
-| `CurvedMovement::ToSvg(identifier)` | Return the SVG commands of a path. ||
-| | _identifier_ | Path name |
+| `CurvedMovement::ElementCount(string)` | Return the number of lines or curves that make the path. ||
+| | _🔤 Name (String)_ | Path name |
+| `CurvedMovement::FirstControlX(string, number)` | Return the first control point position on X axis of a curve. ||
+| | _🔤 Name (String)_ | Path name |
+| | _🔢 Number_ | Curve index |
+| `CurvedMovement::FirstControlY(string, number)` | Return the first control point position on Y axis of a curve. ||
+| | _🔤 Name (String)_ | Path name |
+| | _🔢 Number_ | Curve index |
+| `CurvedMovement::OriginX(string, number)` | Return the origin position on X axis of a curve. ||
+| | _🔤 Name (String)_ | Path name |
+| | _🔢 Number_ | Curve index |
+| `CurvedMovement::OriginY(string, number)` | Return the origin position on Y axis of a curve. ||
+| | _🔤 Name (String)_ | Path name |
+| | _🔢 Number_ | Curve index |
+| `CurvedMovement::PathAngle(string, number)` | Return the direction angle of the path for a given length (in degree). ||
+| | _🔤 Name (String)_ | Path name |
+| | _🔢 Number_ | Length on the path |
+| `CurvedMovement::PathEndX(string)` | Return the displacement on X axis of the path end. ||
+| | _🔤 Name (String)_ | Path name |
+| `CurvedMovement::PathEndY(string)` | Return the displacement on Y axis of the path end. ||
+| | _🔤 Name (String)_ | Path name |
+| `CurvedMovement::PathLength(string)` | Return the length of the path. ||
+| | _🔤 Name (String)_ | Path name |
+| `CurvedMovement::PathX(string, number)` | Return the position on X axis of the path for a given length. ||
+| | _🔤 Name (String)_ | Path name |
+| | _🔢 Number_ | Length on the path |
+| `CurvedMovement::PathY(string, number)` | Return the position on Y axis of the path for a given length. ||
+| | _🔤 Name (String)_ | Path name |
+| | _🔢 Number_ | Length on the path |
+| `CurvedMovement::SecondControlX(string, number)` | Return the second control point position on X axis of a curve. ||
+| | _🔤 Name (String)_ | Path name |
+| | _🔢 Number_ | Curve index |
+| `CurvedMovement::SecondControlY(string, number)` | Return the second control point position on Y axis of a curve. ||
+| | _🔤 Name (String)_ | Path name |
+| | _🔢 Number_ | Curve index |
+| `CurvedMovement::SpeedScaleY(string)` | Return the speed scale on Y axis. This is used to change the view point of a path (top-dwon or isometry). ||
+| | _🔤 Name (String)_ | Path name |
+| `CurvedMovement::TargetX(string, number)` | Return the target position on X axis of a curve. ||
+| | _🔤 Name (String)_ | Path name |
+| | _🔢 Number_ | Curve index |
+| `CurvedMovement::TargetY(string, number)` | Return the target position on Y axis of a curve. ||
+| | _🔤 Name (String)_ | Path name |
+| | _🔢 Number_ | Curve index |
+| `CurvedMovement::ToSvg(string)` | Return the SVG commands of a path. ||
+| | _🔤 Name (String)_ | Path name |
 
 ## Movement on a curve (speed-based) 
 

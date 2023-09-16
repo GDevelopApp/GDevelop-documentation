@@ -102,23 +102,23 @@ Check if a branch has been visited
 | Expression | Description |  |
 |-----|-----|-----|
 | `DialogueTree::BranchTag(number)` | Get a tag of the current branch of the running dialogue via its index ||
-| | _number_ | Tag Index Number |
+| | _🔢 Number_ | Tag Index Number |
 | `DialogueTree::BranchTags()` | Get the tags of the current branch of the running dialogue ||
 | `DialogueTree::BranchText()` | Get the full raw text of the current branch ||
 | `DialogueTree::BranchTitle()` | Get the title of the current branch of the running dialogue ||
 | `DialogueTree::ClippedLineText()` | Get dialogue line text clipped by the typewriter effect. Use the "Scroll clipped text" action to control the typewriter effect. ||
 | `DialogueTree::CommandParameter(number)` | Get the parameters of a command call - <<command withParameter anotherParameter>> ||
-| | _number_ | parameter Index Number _Optional_. |
+| | _🔢 Number_ | parameter Index Number _Optional_. |
 | `DialogueTree::CommandParametersCount()` | Get the number of parameters in the currently passed command ||
 | `DialogueTree::HorizontalOptionsList(string)` | Get the text of all available options from an Options line type as a horizontal list. You can also pass the selected option's cursor string, which by default is -> ||
 | | _string_ | Options Selection Cursor |
 | `DialogueTree::LineText()` | Returns the current dialogue line text ||
 | `DialogueTree::Option(number)` | Get the text of an option from an Options line type, using the option's Number. The numbers start from 0. ||
-| | _number_ | Option Index Number |
+| | _🔢 Number_ | Option Index Number |
 | `DialogueTree::OptionsCount()` | Get the number of options in an options line type ||
 | `DialogueTree::SelectedOptionIndex()` | Get the number of the currently selected option. Use this to help you render the option selection marker at the right place. ||
 | `DialogueTree::TagParameter(number)` | Get parameter from a Tag found by the branch contains tag condition ||
-| | _number_ | parameter Index Number _Optional_. |
+| | _🔢 Number_ | parameter Index Number _Optional_. |
 | `DialogueTree::Variable(string)` | Get dialogue state value ||
 | | _string_ | Variable Name |
 | `DialogueTree::VerticalOptionsList(string)` | Get the text of all available options from an Options line type as a vertical list. You can also pass the selected option's cursor string, which by default is -> ||

@@ -17,11 +17,11 @@ Adds expressions to convert numbers to a different base and back. Can be used to
 | Expression | Description |  |
 |-----|-----|-----|
 | `BaseConversion::ToBase(number, number)` | Converts a number to a trsing representing it in another base. ||
-| | _number_ | Number to convert |
-| | _number_ | The base to convert the number to |
+| | _🔢 Number_ | Number to convert |
+| | _🔢 Number_ | The base to convert the number to |
 | `BaseConversion::ToDecimal(string, number)` | Converts a string representing a number in a different base to a decimal number. ||
 | | _string_ | String representing a number |
-| | _number_ | The base the number in the string is in |
+| | _🔢 Number_ | The base the number in the string is in |
 
 ---
 

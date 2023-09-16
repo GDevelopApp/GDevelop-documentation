@@ -17,23 +17,23 @@ Parse a JSON object and store it into a scene variable
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `GlobalVarToJSON(globalvar)` | Convert a global variable to JSON ||
-| | _globalvar_ | The global variable to be stringified |
+| `GlobalVarToJSON(global variable)` | Convert a global variable to JSON ||
+| | _🗄️ Global variable_ | The global variable to be stringified |
 | `LargeNumberToString(number)` | Convert the result of the expression to text, without using the scientific notation ||
-| | _number_ | Expression to be converted to text |
-| `ObjectVarToJSON(object, objectvar)` | Convert an object variable to JSON ||
-| | _object_ | The object with the variable |
-| | _objectvar_ | The object variable to be stringified |
+| | _🔢 Number_ | Expression to be converted to text |
+| `ObjectVarToJSON(object, object variable)` | Convert an object variable to JSON ||
+| | _👾 Object_ | The object with the variable |
+| | _🗄️ Object variable_ | The object variable to be stringified |
 | `ToDeg(number)` | Converts the angle, expressed in radians, into degrees ||
-| | _number_ | Angle, in radians |
-| `ToJSON(scenevar)` | Convert a scene variable to JSON ||
-| | _scenevar_ | Scene variable to be stringified |
+| | _🔢 Number_ | Angle, in radians |
+| `ToJSON(scene variable)` | Convert a scene variable to JSON ||
+| | _🗄️ Scene variable_ | Scene variable to be stringified |
 | `ToNumber(string)` | Convert the text to a number ||
 | | _string_ | Text to convert to a number |
 | `ToRad(number)` | Converts the angle, expressed in degrees, into radians ||
-| | _number_ | Angle, in degrees |
+| | _🔢 Number_ | Angle, in degrees |
 | `ToString(number)` | Convert the result of the expression to text ||
-| | _number_ | Expression to be converted to text |
+| | _🔢 Number_ | Expression to be converted to text |
 
 ---
 *This page is an auto-generated reference page about the **Conversion** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

@@ -50,39 +50,39 @@ Size expressions:
 | Expression | Description |  |
 |-----|-----|-----|
 | `ValuesOfMultipleObjects::AbsoluteCenterOfObjectsX(object)` | X center point (absolute) of picked object instances. ||
-| | _object_ | Objects Objects that will be used to calculate their center point  |
+| | _👾 Object_ | Objects Objects that will be used to calculate their center point  |
 | `ValuesOfMultipleObjects::AbsoluteCenterOfObjectsY(object)` | Y center point (absolute) of picked object instances. ||
-| | _object_ | Objects Objects that will be used to calculate their center point  |
+| | _👾 Object_ | Objects Objects that will be used to calculate their center point  |
 | `ValuesOfMultipleObjects::AverageAngle(object)` | Average angle of rotation of picked object instances. ||
-| | _object_ | Objects |
+| | _👾 Object_ | Objects |
 | `ValuesOfMultipleObjects::AverageCenterOfObjectsX(object)` | X center point (average) of picked object instances. ||
-| | _object_ | Objects Objects that will be used to calculate their center point  |
+| | _👾 Object_ | Objects Objects that will be used to calculate their center point  |
 | `ValuesOfMultipleObjects::AverageCenterOfObjectsY(object)` | Y center point (average) of picked object instances. ||
-| | _object_ | Objects Objects that will be used to calculate their center point  |
+| | _👾 Object_ | Objects Objects that will be used to calculate their center point  |
 | `ValuesOfMultipleObjects::AverageForceX(object)` | Average horizontal force (X) of picked object instances. ||
-| | _object_ | Objects |
+| | _👾 Object_ | Objects |
 | `ValuesOfMultipleObjects::AverageForceY(object)` | Average vertical force (Y) of picked object instances. ||
-| | _object_ | Objects |
+| | _👾 Object_ | Objects |
 | `ValuesOfMultipleObjects::AverageHeight(object)` | Average height of picked object instances. ||
-| | _object_ | Objects |
+| | _👾 Object_ | Objects |
 | `ValuesOfMultipleObjects::AverageWidth(object)` | Average width of picked object instances. ||
-| | _object_ | Objects |
+| | _👾 Object_ | Objects |
 | `ValuesOfMultipleObjects::MaxHeight(object)` | Max object height of picked object instances. ||
-| | _object_ | Objects |
+| | _👾 Object_ | Objects |
 | `ValuesOfMultipleObjects::MaxWidth(object)` | Max object width of picked object instances. ||
-| | _object_ | Objects |
+| | _👾 Object_ | Objects |
 | `ValuesOfMultipleObjects::MaxX(object)` | Maximum X position of picked object instances (using AABB of objects). ||
-| | _object_ | objects |
+| | _👾 Object_ | objects |
 | `ValuesOfMultipleObjects::MaxY(object)` | Maximum Y position of picked object instances (using AABB of objects). ||
-| | _object_ | objects |
+| | _👾 Object_ | objects |
 | `ValuesOfMultipleObjects::MinHeight(object)` | Min object height of picked object instances. ||
-| | _object_ | Objects |
+| | _👾 Object_ | Objects |
 | `ValuesOfMultipleObjects::MinWidth(object)` | Min object width of picked object instances. ||
-| | _object_ | Objects |
+| | _👾 Object_ | Objects |
 | `ValuesOfMultipleObjects::MinX(object)` | Minimum X position of picked object instances (using AABB of objects). ||
-| | _object_ | objects |
+| | _👾 Object_ | objects |
 | `ValuesOfMultipleObjects::MinY(object)` | Minimum Y position of picked object instances (using AABB of objects). ||
-| | _object_ | objects |
+| | _👾 Object_ | objects |
 
 ---
 

@@ -109,9 +109,9 @@ Compare the speed of the object on its path.
 | `Object.Pathfinding::DestinationY()` | Destination Y position ||
 | `Object.Pathfinding::ExtraBorder()` | Extra border applied the object on the path ||
 | `Object.Pathfinding::GetNodeX(number)` | Get next waypoint X position ||
-| | _number_ | Node index (start at 0!) |
+| | _🔢 Number_ | Node index (start at 0!) |
 | `Object.Pathfinding::GetNodeY(number)` | Get next waypoint Y position ||
-| | _number_ | Node index (start at 0!) |
+| | _🔢 Number_ | Node index (start at 0!) |
 | `Object.Pathfinding::GridOffsetX()` | Return X offset of the virtual grid. ||
 | `Object.Pathfinding::GridOffsetY()` | Return Y offset of the virtual grid. ||
 | `Object.Pathfinding::LastNodeX()` | Last waypoint X position ||
