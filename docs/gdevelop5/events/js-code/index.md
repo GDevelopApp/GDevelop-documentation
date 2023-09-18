@@ -7,21 +7,21 @@ This event allows you to add custom **JavaScript code** in your game. It's only 
 
 To add a JavaScript event, click on the + button in the Events Sheet toolbar, and select JavaScript code:
 
-![](./pasted/20230305-105515.png)
+![](pasted/20230305-105515.png)
 
 When added, click on the code to edit it. The code will be executed each time the event is reached by GDevelop.
 
 In all JavaScript events, you have access to a variable named `runtimeScene`. This variable represents the scene being played. Below is an example of a standard GDevelop event, and an equivalent event that uses a JavaScript:
 
-![](/gdevelop5/events/javascript-code-example.png)
+![](javascript-code-example.png)
 
 If you click on "Click here to choose objects to pass to JavaScript" next to the `runtimeScene` parameter, you get to choose an object from the scene. The instances of this object will be passed to your function as an array called `objects`:
 
-![](/gdevelop5/events/js-code/pasted/20230305-105814.png)
+![](pasted/20230305-105814.png)
 
 This array is exactly like what an action or a condition would use. For example, the illustration below is an event using a JavaScript event as a sub-event. The JavaScript event will manipulate the enemies that are colliding with the player:
 
-![](/gdevelop5/events/javascript-code-with-objects-example.png)
+![](javascript-code-with-objects-example.png)
 
 ## Examples
 
@@ -30,11 +30,11 @@ This array is exactly like what an action or a condition would use. For example,
         **See it in action!** 🎮
     Open these examples online. You can do this with the links given below. There is a number of more examples available when you ask GDevelop to create a new project, then click the examples button.
 
-[![](/gdevelop5/events/javascripttexttospeechexample.png)](https://editor.gdevelop.io/?project=example://text-to-speech)
+[![](javascripttexttospeechexample.png)](https://editor.gdevelop.io/?project=example://text-to-speech)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://text-to-speech){ .md-button .md-button--primary }
 
-[![](/gdevelop5/events/platformerjavascriptblocksexample.png)](https://editor.gdevelop.io/?project=example://javascript-blocks-in-platformer)
+[![](platformerjavascriptblocksexample.png)](https://editor.gdevelop.io/?project=example://javascript-blocks-in-platformer)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://javascript-blocks-in-platformer){ .md-button .md-button--primary }
 
@@ -80,7 +80,7 @@ players[0].setY(playerHitBoxes[0].getY());
 ```
 
 Equivalent events would be:
-![](/gdevelop5/events/hide-and-set-position-player-hitbox.png)
+![](hide-and-set-position-player-hitbox.png)
 
 ### Change animation according to some conditions on the behavior of an object
 
@@ -127,7 +127,7 @@ if (runtimeScene.getGame().getInputManager().isKeyPressed(LEFTKEY)) {
 ```
 
 Equivalent events would be:
-![](/gdevelop5/events/change-animation-according-to-behavior-conditions.png)
+![](change-animation-according-to-behavior-conditions.png)
 
 ### Set the position of the camera to the position of an object
 ```javascript
@@ -140,7 +140,7 @@ runtimeScene.getLayer("").setCameraX(objects[0].getX());
 ```
 
 This equivalent event would be:
-![](/gdevelop5/events/set-camera-x-position-x.png)
+![](set-camera-x-position-x.png)
 
 ### Fade out a sprite object after it is on the floor (using the Platformer Object behavior)
 
@@ -164,7 +164,7 @@ objects.forEach(object => {
 ```
 
 The equivalent events would be:
-![](/gdevelop5/events/fade-out-and-behavior.png)
+![](fade-out-and-behavior.png)
 
 ### Use JavaScript to get the value of a parameter of a function
 
@@ -172,7 +172,7 @@ When use a JavaScript code block inside a function of an extension, a custom beh
 
 If the parameter is of type `Objects`, you can get the *array of instances* passed to this object:
 
-![](/gdevelop5/events/js-code/pasted/20230305-111256.png)
+![](pasted/20230305-111256.png)
 
 To get the array of instances, use the function `eventsFunctionContext.getObjects`:
 
@@ -190,7 +190,7 @@ firstInstance.setAngle(45);
 
 You can also read the value of parameters that are numbers or strings. For example, if you have a parameter with type `Number`:
 
-![](/gdevelop5/events/js-code/pasted/20230305-111437.png)
+![](pasted/20230305-111437.png)
 
 You can read it in the JavaScript code block with `eventsFunctionContext.getArgument`:
 

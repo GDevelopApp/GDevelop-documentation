@@ -58,7 +58,7 @@ GDevelop attempts to keep the frame rate consistent across computers, but since 
 
 For example, consider the following action:
 
-![](/gdevelop5/condition-without-time-delta.png)
+![](condition-without-time-delta.png)
 
 This action increments a variable in every frame. If the game runs at 60 frames per second, the variable will have a value of 18000 after 10 seconds. If the game runs at 25 frames per second, the variable will have a value of 7500 after 10 seconds. This inconsistency will have a significant impact on the player's experience.
 
@@ -66,7 +66,7 @@ To fix this problem, GDevelop provides the `TimeDelta()` expression. This expres
 
 For example, consider the following action:
 
-![](/gdevelop5/condition-with-time-delta.png)
+![](condition-with-time-delta.png)
 
 This action also increments a variable in every frame, but the value of the variable is multiplied by `TimeDelta()`. This ensures that the variable increments at the same speed, regardless of the frame rate. This guarantees that all players have the same experience.
 
@@ -81,7 +81,7 @@ This action also increments a variable in every frame, but the value of the vari
 2. Select the **Choose and add an event** icon.
 3. Select the type of event.
 
-![](/gdevelop5/add-special-events.png)
+![](add-special-events.png)
 
 !!! tip
 
@@ -93,7 +93,7 @@ This action also increments a variable in every frame, but the value of the vari
 2. Find an existing event or create a new one.
 3. Select **Add condition**.
 
-![](/gdevelop5/blank-event.png)
+![](blank-event.png)
 
 ### Adding actions to an event
 

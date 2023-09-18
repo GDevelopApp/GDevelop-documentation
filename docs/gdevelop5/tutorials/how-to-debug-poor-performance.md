@@ -53,7 +53,7 @@ The **Trigger once** condition causes conditions preceding it in the same event 
 
 For example, if you want to create an object every time a click is done, this is what you should _not_ do:
 
-![](/gdevelop5/events/bad_event_optimisation.png)
+![](/gdevelop5/tutorials/bad_event_optimisation.png)
 
   * What is expected to happen: When the left mouse button is pressed, an object is created called **MyObject**.
   * What actually happens: As long as the mouse left button is pressed, **MyObject** instances are created.
@@ -61,7 +61,7 @@ For example, if you want to create an object every time a click is done, this is
 This is problematic because when the mouse button is pressed, it is likely held down for longer than a single frame like 0.3 seconds. During this period of time the event is called multiple times, and the object is created more than once.
 
 To fix that we can use the **Trigger once** condition:
-![](/gdevelop5/events/good_event_optimisation.png)
+![](/gdevelop5/tutorials/good_event_optimisation.png)
 
 Now, the condition will trigger only once while it is true. That means that the event will fire only once every time it's condition goes from unfulfilled to fulfilled. It resolves the problem above as the condition will fire only the first frame of the click, and will wait for the click to end before letting the click event fire again.
 
@@ -73,7 +73,7 @@ Behaviors take performance, especially the _Pathfinding_ and _Physic Engine 2.0_
 Let's take as an example the following situation: I want 100 enemies to move to a position close to them every 2 seconds, and to take into account the wall obstacles.
 
 This would be an intuitive but wrong way to do it:
-![](/gdevelop5/events/bad_behavior.png)
+![](/gdevelop5/tutorials/bad_behavior.png)
 If you do this, all objects will move, including the off-screen ones.
 
 !!! tip

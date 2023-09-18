@@ -27,7 +27,7 @@ The object picking rules are as follows:
 
 Consider the following example:
 
-![](/gdevelop5/events/picking-event-no-conditions.png)
+![](picking-event-no-conditions.png)
 
 This will, by rule 1 and 2, simply rotate all existing instances of "Object" in the scene.
 
@@ -35,7 +35,7 @@ This will, by rule 1 and 2, simply rotate all existing instances of "Object" in 
 
 Consider the following example:
 
-![](/gdevelop5/events/picking-event-multiple-conditions.png)
+![](picking-event-multiple-conditions.png)
 
 By rule 2 and 3, the first condition will pick only the object's instances that are being hovered over by the mouse. The second condition then filters the picked objects list furthermore by only keeping picked those with an *x* position greater than 200.
 
@@ -43,13 +43,13 @@ Ultimately, only the object(s) which are hovered by the mouse and have *x* posit
 
 Here is a chart demonstrating this:
 
-![](/gdevelop5/events/object-picking-chart.png)
+![](object-picking-chart.png)
 
 ### Example 3: Pick all instances
 
 Consider the following example:
 
-![](/gdevelop5/events/picking-event-all-instances.png)
+![](picking-event-all-instances.png)
 
 First, by rule (2), only the instances of "Object" that are being hovered by the mouse will be picked. Then, instead of working with the picked objects lists, the **special exception** that is "Pick all objects" will pick back all the instances on the scene.
 
