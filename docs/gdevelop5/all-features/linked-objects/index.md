@@ -46,12 +46,23 @@ In this example, for every existing "Pathfinder" object, a new "Terrain" object 
         **See it in action!** 🎮
     Open these examples online.
 
+**Magnet**
+
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://magnet){ .md-button .md-button--primary }
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://basic-artificial-intelligence){ .md-button .md-button--primary }
+
+**Pin objects**
+
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://pin-object-to-another-multiple-parents){ .md-button .md-button--primary }
 
 !!! tip
 
+    The [Sticker](/gdevelop5/all-features/extensions/sticker) behavior also allows to pin objects.
+
+**Basic artificial intelligence**
+
+[Open example in GDevelop](https://editor.gdevelop.io/?project=example://basic-artificial-intelligence){ .md-button .md-button--primary }
+
+!!! tip
 
     To see more advance usages, take a look at the [Linked Objects Tools extension page](/gdevelop5/all-features/extensions/linked-objects-tools)
 
