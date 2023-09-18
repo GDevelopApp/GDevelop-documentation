@@ -5,7 +5,7 @@ title: Events
 
 In GDevelop, **events** define the logic of a game. You can use events to create cause and effect. For example, an event might detect when the player has collided with a collectable item and, as a result, increment the player's score. You can create and manage events via the [Events editor](/gdevelop5/interface/events-editor).
 
-![](/gdevelop5/event-screenshot.png)
+![](event-screenshot.png)
 
 !!! note
 
