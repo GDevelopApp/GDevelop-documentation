@@ -22,7 +22,7 @@ The supported audio file formats depends on the platform, but are generally:
 
 Some platforms also support:
 
-* MP3 — but quality is below AAC, and this might not be always supported on some devices or operating systems), 
+* MP3 — but quality is below AAC (and this might not be always supported on some devices or operating systems), 
 * Ogg Vorbis (OGG), but it won't work on iOS and on the Safari browser.
 
 
@@ -76,7 +76,7 @@ Sounds and music are by default played with a volume of 100%, which is the maxim
 
 You can also use the action "Game global volume" to change the entire game's audio volume. A value of 0 means that no sounds and or music can be heard. This action is convenient when allowing the player to mute or change the game's volume. For instance, you might have a settings screen in your game that accesses the game's volume control. Mobile games usually have a button to mute the sounds of the game too.
 
-## Performance considerations
+## Pre-loading: improve the latency and loading times
 
 The first time music or sound is played, there can be a lag while the audio file is being prepared if you do not preload the audio. This is because the device must:
 
