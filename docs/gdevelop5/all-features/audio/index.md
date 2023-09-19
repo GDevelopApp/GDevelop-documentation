@@ -5,9 +5,7 @@ title: Audio
 
 Playing music or sounds is an essential part of any game. GDevelop provides you with several conditions and actions to play audio files.
 
-!!! note
-
-    All durations for audio (musics, sounds), and timers too, in GDevelop are in seconds.
+All durations for audio (musics, sounds), and timers too, in GDevelop are in seconds.
 
 ## Playing a sound or a music file
 
@@ -17,35 +15,54 @@ Playing music or sounds is an essential part of any game. GDevelop provides you 
 
 The easiest way to play an audio file is to use the action "**Play a sound**" or "**Play a music file**". Choose the file to be played for the first parameter of both actions.
 
-The supported audio file formats for GDevelop are Waveform Audio Format (wav), MPEG Layer 3 (mp3), Ogg Vorbis (ogg), and Advance Audio Coding (AAC)
+The supported audio file formats depends on the platform, but are generally:  
 
-!!! note
+* Waveform Audio Format (WAV), for short sound effects,
+* Advanced Audio Coding (AAC), for background musics or large audio files.
 
-    .AAC files are much more broadly supported by different browsers and OSes, iOS included, so it is recommended to use this format if you can.
+Some platforms also support:
 
-These formats can all be used for music or sound effects, although it is strongly recommended to use either AAC, mp3 or ogg for music.
+* MP3 — but quality is below AAC (and this might not be always supported on some devices or operating systems), 
+* Ogg Vorbis (OGG), but it won't work on iOS and on the Safari browser.
 
-If you distribute your game on the web, some browsers also support other file formats. See [more information on Wikipedia](https://en.wikipedia.org/wiki/HTML5_audio#Supported_audio_coding_formats).
 
-!!! note
+!!! tip
 
-    You can use the in-built sound effect creator tool called Jfxr for making sound effects: [learn how to use Jfxr here](/gdevelop5/all-features/audio/using-jfxr).
+    AAC files are broadly supported by different browsers and OSes, iOS included. We highly recommended you use this format if you can.
 
-When you choose an audio file, it is added to the game resources. You can open the [Resources Editor](/gdevelop5/interface/project-manager) to choose if the audio should be preloaded during game startup.
+These formats can all be used for music or sound effects, but it is strongly recommended to use AAC (or MP3 or OGG) for background musics and large audio files. Large audio files should always be played as a **music**, and not as a sound effect (which decodes the whole audio file in memory). Read the next section to learn about the difference in terms of **loading and memory usage**.
 
-## Choosing between Sound or Music Events
 
-GDevelop has two different methods of playing audio files. These are listed in the engine as **Play a Sound** or **Play a Music file** events, along with related events to these two different methods.
+When you choose an audio file, it is added to the game resources. You can open the [Resources Editor](/gdevelop5/interface/project-manager) to choose if the audio should be preloaded during game startup — see the next sections for more information.
 
-In the majority of use cases, audio can be played using the **Play a Sound** actions. It's adapted to short sound effects or longer musics, which will be fully loaded in memory before being played. Because of this, large audio files can take a bit of time to start playing
+## Choosing between "Sound" or "Music" actions
 
-The **Play a Music** actions are useful to play background musics. They work better with large audio files as they *stream* the audio in memory - resulting in less memory usage.
+!!! danger
+
+    It's important you properly understand the difference between a sound and a music. Otherwise, your game performance and memory usage might be impacted.
+
+GDevelop has two different methods of playing audio files. These are listed in the engine as different actions: 
+
+* **Play a Sound** or 
+* **Play a Music** 
+
+Along with actions and conditions related to these two different concepts. The rule of thumb for choosing between the two is as follows:
+
+* **Short audio files, like sounds effects**, can be played using the **Play a Sound** actions. It's adapted to short sound effects because they will be *fully loaded in memory* before being played. 
+* **Large audio files and background musics** must be played using the  **Play a Music**. It works better with large audio files as it *streams* the audio in memory - resulting in less memory usage. The drawback is that musics needs to be decoded and streamed on the fly, resulting in a few milliseconds latency when you play the music for the first time.
+
+Preloading an audio file as a sound effect or as a music can help to reduce the latency the first time a music (or a sound effect) is played. See the next sections.
+
+!!! warning
+
+    Be careful not to use a large audio file with the actions to play a *sound*. The whole audio file will be loaded and then decoded in memory, resulting in a very large memory usage (which can be easily hundreds of megabytes and even freeze some phones or low-memory devices).
+
 
 ## Keep music and sounds playing between scenes
 
 When a new scene starts, by default, sounds and music are stopped. If you want to keep them playing, open the properties of the scene (right-click on the scene, in the scene editor) and uncheck the checkbox:
 
-![20230303-230225.png](/gdevelop5/all-features/audio/pasted/20230303-230225.png)
+![20230303-230225.png](pasted/20230303-230225.png)
 
 ## Using channels
 
@@ -59,11 +76,24 @@ Sounds and music are by default played with a volume of 100%, which is the maxim
 
 You can also use the action "Game global volume" to change the entire game's audio volume. A value of 0 means that no sounds and or music can be heard. This action is convenient when allowing the player to mute or change the game's volume. For instance, you might have a settings screen in your game that accesses the game's volume control. Mobile games usually have a button to mute the sounds of the game too.
 
-## Performance considerations
+## Pre-loading: improve the latency and loading times
 
-The first time music or sound is played, there can be a lag while the audio file is being prepared if you do not preload the audio. If it's essential to avoid any lag, you can preload the audio files in the resources panel. Within the resource list, click on the sound file in question and choose the appropriate **Preload as Sound** or **Preload as Music** option depending on which events you are using.
+The first time music or sound is played, there can be a lag while the audio file is being prepared if you do not preload the audio. This is because the device must:
 
-Another option is to play the audio or music file at the beginning of the scene where it's used. Set the initial volume 0; this will force the game to load the sound or music. The audio will be cached in memory. It will quickly load when called using your action.
+* Download the file on the disk/in cache (which takes time if the game is a web game),
+* Decode and start playing the audio file (either fully, for sound effects, or progressively by streaming it, for music).
+
+If it's essential to avoid any lag, you can preload the audio files in the resources panel. Within the resource list, click on the audio file and choose the appropriate option:
+
+* **Preload as sound**: the audio file will be fully decoded in memory and ready to play,
+* **Preload as music**: the audio file will be ready to be streamed as a music,
+* **Preload in cache**: the audio file will be downloaded in cache by the browser (but not decoded) - this is only useful for web games.
+
+![Audio pre-loading options](./audio-resource-preload-options.png)
+
+!!! note
+
+    Another option is to play the audio or music file at the beginning of the scene where it's used. Set the initial volume 0; this will force the game to load the sound or music. The audio will be cached in memory. It will quickly load when called using your action.
 
 ## More about the state of a sound/music
 
@@ -73,7 +103,15 @@ The condition "A sound is being played" (on this channel) is then true, while "A
 
 The sound will be stopped when:
 
-* It reaches its **end** and is not configured to loop. * There is **an error during the loading** (in which case it will be considered as playing for a few milliseconds, then will be deemed to be stopped as it was unable to load). * Or you used **the action** to stop a sound or music on the channel.
+* It reaches its **end** and is not configured to loop. 
+* There is **an error during the loading** (in which case it will be considered as playing for a few milliseconds, then will be deemed to be stopped as it was unable to load). 
+* Or you used **the action** to stop a sound or music on the channel.
+
+## Finding audio or making your own sounds
+
+You can use the in-built sound effect creator tool called Jfxr for making sound effects: [learn how to use Jfxr here](/gdevelop5/all-features/audio/using-jfxr).
+
+You can also find [high quality background musics and sound effects in the GDevelop Asset Store](https://gdevelop.io/asset-store).
 
 ## Reference
 
