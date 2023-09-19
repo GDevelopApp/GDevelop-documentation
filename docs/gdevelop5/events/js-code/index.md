@@ -211,9 +211,9 @@ The same code can be used to access **string**, **number** or **boolean** parame
 
 ### Learn by reading code from the community
 
-Extensions can be implemented with events and JavaScript or a mix of both. Looking at existing extension can help a lot to understand the API or how the extension system works.
+Extensions can be implemented with events and JavaScript or a mix of both. Looking at existing extensions can help a lot to understand the API or how the extension system works.
 
-This is a few instances of extensions that uses JavaScript:
+This is a few instances of extensions that use JavaScript:
 
 * The [Noise generator](/gdevelop5/extensions/noise/) extension uses a noise library and exposes its features through expressions, action and conditions.
 * The [3D object shake](/gdevelop5/extensions/shake-object3d/) extension uses the same noise library from the above extension but exposes a behavior that makes 3D objects shake.
