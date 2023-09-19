@@ -16,12 +16,15 @@ All durations for audio (musics, sounds), and timers too, in GDevelop are in sec
 The easiest way to play an audio file is to use the action "**Play a sound**" or "**Play a music file**". Choose the file to be played for the first parameter of both actions.
 
 The supported audio file formats depends on the platform, but are generally:  
-- Waveform Audio Format (wav), for short sound effects
-- Advanced Audio Coding (AAC), for background musics or large audio files.
+
+* Waveform Audio Format (WAV), for short sound effects,
+* Advanced Audio Coding (AAC), for background musics or large audio files.
 
 Some platforms also support:
-- MP3 — but quality is below AAC, and this might not be always supported on some devices or operating systems), 
-- Ogg Vorbis (OGG), but it won't work on iOS and on the Safari browser.
+
+* MP3 — but quality is below AAC, and this might not be always supported on some devices or operating systems), 
+* Ogg Vorbis (OGG), but it won't work on iOS and on the Safari browser.
+
 
 !!! tip
 
@@ -34,7 +37,7 @@ When you choose an audio file, it is added to the game resources. You can open t
 
 ## Choosing between "Sound" or "Music" actions
 
-!!! important
+!!! danger
 
     It's important you properly understand the difference between a sound and a music. Otherwise, your game performance and memory usage might be impacted.
 
@@ -45,8 +48,8 @@ GDevelop has two different methods of playing audio files. These are listed in t
 
 Along with actions and conditions related to these two different concepts. The rule of thumb for choosing between the two is as follows:
 
-* In the majority of use cases, short audio files, like sounds effects, can be played using the **Play a Sound** actions. It's adapted to short sound effects because they will be **fully loaded in memory** before being played. 
-* The **Play a Music** actions are useful to play **large audio files** and **background musics**. They work better with large audio files as they **stream** the audio in memory - resulting in less memory usage. The drawback is that musics needs to be decoded and streamed on the fly, resulting in a few milliseconds latency when you play the music for the first time.
+* **Short audio files, like sounds effects**, can be played using the **Play a Sound** actions. It's adapted to short sound effects because they will be *fully loaded in memory* before being played. 
+* **Large audio files and background musics** must be played using the  **Play a Music**. It works better with large audio files as it *streams* the audio in memory - resulting in less memory usage. The drawback is that musics needs to be decoded and streamed on the fly, resulting in a few milliseconds latency when you play the music for the first time.
 
 Preloading an audio file as a sound effect or as a music can help to reduce the latency the first time a music (or a sound effect) is played. See the next sections.
 
@@ -86,7 +89,7 @@ If it's essential to avoid any lag, you can preload the audio files in the resou
 * **Preload as music**: the audio file will be ready to be streamed as a music,
 * **Preload in cache**: the audio file will be downloaded in cache by the browser (but not decoded) - this is only useful for web games.
 
-![Audio pre-loading options](audio-resource-preload-options.png)
+![Audio pre-loading options](./audio-resource-preload-options.png)
 
 !!! note
 
