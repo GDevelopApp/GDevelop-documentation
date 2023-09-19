@@ -22,7 +22,7 @@ Maximize or unmaximize the window.
 **Minimize the window**  
 Minimize or unminimize the window.
 
-**Make the windows always on top**  
+**Make the window always on top**  
 Puts the window constantly above all other windows.
 
 **Allow closing**  

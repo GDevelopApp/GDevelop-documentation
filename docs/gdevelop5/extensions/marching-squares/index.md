@@ -48,7 +48,7 @@ Clear the field by setting every values to 0.
 Draw the field contours.
 
 **Fill area**  
-Fill an area of the field from a given location until a given hight is reached.
+Fill an area of the field from a given location until a given height is reached.
 
 **Mask a disk**  
 Mask a disk to the field.
@@ -84,7 +84,7 @@ Apply an affine on the field values.
 Update the field hitboxes.
 
 **Unfill area**  
-Unfill an area of the field from a given location until a given hight is reached.
+Unfill an area of the field from a given location until a given height is reached.
 
 ### Behavior conditions
 
