@@ -218,3 +218,5 @@ This is a few instances of extensions that use JavaScript:
 * The [Noise generator](/gdevelop5/extensions/noise/) extension uses a noise library and exposes its features through expressions, action and conditions.
 * The [3D object shake](/gdevelop5/extensions/shake-object3d/) extension uses the same noise library from the above extension but exposes a behavior that makes 3D objects shake.
 * The [Boids movement](/gdevelop5/extensions/boids-movement/) extension exposes a behavior to users and uses a R-Tree internally to quickly check neighbors.
+* The [Object stack](/gdevelop5/extensions/object-stack/) extension exposes conditions that pick object instances according to their position in a stack.
+* The [Clipboard](/gdevelop5/extensions/clipboard/) extension shows how to use an asynchronous web API and implements fallbacks to Electron API or Cordova plugins.
