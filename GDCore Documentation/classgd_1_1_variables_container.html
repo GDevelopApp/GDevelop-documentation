@@ -151,6 +151,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variables_container.html#a9d2b4285cd7f57034cb9fa71ae65c6db">Clear</a> ()</td></tr>
 <tr class="memdesc:a9d2b4285cd7f57034cb9fa71ae65c6db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear all variables of the container. <br /></td></tr>
 <tr class="separator:a9d2b4285cd7f57034cb9fa71ae65c6db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1232811d37604c410659a87b2c1b7e3"><td class="memItemLeft" align="right" valign="top"><a id="ad1232811d37604c410659a87b2c1b7e3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variables_container.html#ad1232811d37604c410659a87b2c1b7e3">ForEachVariableWithPrefix</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;prefix, std::function&lt; void(const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name, const <a class="el" href="classgd_1_1_variable.html">gd::Variable</a> &amp;variable)&gt; fn) const</td></tr>
+<tr class="memdesc:ad1232811d37604c410659a87b2c1b7e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call the callback for each variable with a name starting with the specified prefix. <br /></td></tr>
+<tr class="separator:ad1232811d37604c410659a87b2c1b7e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Saving and loading</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Members functions related to saving and loading the object. </p>
 </div></td></tr>
@@ -162,6 +166,18 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variables_container.html#a7ea7a16b0c10d371528895797abfff06">UnserializeFrom</a> (const <a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element)</td></tr>
 <tr class="memdesc:a7ea7a16b0c10d371528895797abfff06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unserialize the variable container. <br /></td></tr>
 <tr class="separator:a7ea7a16b0c10d371528895797abfff06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8d9b45cfab64c8e4bb52f45d0ce2237"><td class="memItemLeft" align="right" valign="top"><a id="ad8d9b45cfab64c8e4bb52f45d0ce2237"></a>
+<a class="el" href="classgd_1_1_variables_container.html">VariablesContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variables_container.html#ad8d9b45cfab64c8e4bb52f45d0ce2237">ResetPersistentUuid</a> ()</td></tr>
+<tr class="memdesc:ad8d9b45cfab64c8e4bb52f45d0ce2237"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the persistent UUID, used to recognize the same variables between serialization. <br /></td></tr>
+<tr class="separator:ad8d9b45cfab64c8e4bb52f45d0ce2237"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bb773873f4f159f81c027b1a8c27ffd"><td class="memItemLeft" align="right" valign="top"><a id="a7bb773873f4f159f81c027b1a8c27ffd"></a>
+<a class="el" href="classgd_1_1_variables_container.html">VariablesContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variables_container.html#a7bb773873f4f159f81c027b1a8c27ffd">ClearPersistentUuid</a> ()</td></tr>
+<tr class="memdesc:a7bb773873f4f159f81c027b1a8c27ffd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the persistent UUID - when the variables no longer need to be recognized between serializations. <br /></td></tr>
+<tr class="separator:a7bb773873f4f159f81c027b1a8c27ffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90119de20b14813aad0af375317a43bd"><td class="memItemLeft" align="right" valign="top"><a id="a90119de20b14813aad0af375317a43bd"></a>
+const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variables_container.html#a90119de20b14813aad0af375317a43bd">GetPersistentUuid</a> () const</td></tr>
+<tr class="memdesc:a90119de20b14813aad0af375317a43bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the persistent UUID used to recognize the same variables between serialization. <br /></td></tr>
+<tr class="separator:a90119de20b14813aad0af375317a43bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class defining a container for <a class="el" href="classgd_1_1_variable.html" title="Defines a variable which can be used by an object, a layout or a project.">gd::Variable</a>. </p>

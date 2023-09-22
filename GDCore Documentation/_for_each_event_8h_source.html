@@ -132,29 +132,22 @@ $(function() {
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> UnserializeFrom(<a class="code" href="classgd_1_1_project.html">gd::Project</a>&amp; project,</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                               <span class="keyword">const</span> SerializerElement&amp; element);</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
-<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="classgd_1_1_for_each_event.html#a46e6e818c9d1c105c3bb35993f53f839">   67</a></span>&#160;  std::vector&lt;gd::Expression*&gt; <a class="code" href="classgd_1_1_for_each_event.html#a46e6e818c9d1c105c3bb35993f53f839">GetAllObjectExpressions</a>() {</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    std::vector&lt;gd::Expression*&gt; allObjectExpressions;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    allObjectExpressions.push_back(&amp;objectsToPick);</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordflow">return</span> allObjectExpressions;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  }</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  <a class="code" href="classgd_1_1_expression.html">gd::Expression</a> objectsToPick;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  <a class="code" href="classgd_1_1_instructions_list.html">gd::InstructionsList</a> conditions;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <a class="code" href="classgd_1_1_instructions_list.html">gd::InstructionsList</a> actions;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  <a class="code" href="classgd_1_1_events_list.html">gd::EventsList</a> events;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;};</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;}  <span class="comment">// namespace gd</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// FOREACHEVENT_H</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  <a class="code" href="classgd_1_1_expression.html">gd::Expression</a> objectsToPick;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <a class="code" href="classgd_1_1_instructions_list.html">gd::InstructionsList</a> conditions;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  <a class="code" href="classgd_1_1_instructions_list.html">gd::InstructionsList</a> actions;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  <a class="code" href="classgd_1_1_events_list.html">gd::EventsList</a> events;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;};</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;}  <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// FOREACHEVENT_H</span></div>
 <div class="ttc" id="aclassgd_1_1_base_event_html"><div class="ttname"><a href="classgd_1_1_base_event.html">gd::BaseEvent</a></div><div class="ttdoc">Base class defining an event.</div><div class="ttdef"><b>Definition:</b> Event.h:44</div></div>
 <div class="ttc" id="aclassgd_1_1_events_list_html"><div class="ttname"><a href="classgd_1_1_events_list.html">gd::EventsList</a></div><div class="ttdoc">A list of events.</div><div class="ttdef"><b>Definition:</b> EventsList.h:33</div></div>
 <div class="ttc" id="aclassgd_1_1_expression_html"><div class="ttname"><a href="classgd_1_1_expression.html">gd::Expression</a></div><div class="ttdoc">Class representing an expression used as a parameter of a gd::Instruction. This class is nothing more...</div><div class="ttdef"><b>Definition:</b> Expression.h:30</div></div>
 <div class="ttc" id="aclassgd_1_1_for_each_event_html"><div class="ttname"><a href="classgd_1_1_for_each_event.html">gd::ForEachEvent</a></div><div class="ttdoc">Event repeated for each object of a list.</div><div class="ttdef"><b>Definition:</b> ForEachEvent.h:27</div></div>
 <div class="ttc" id="aclassgd_1_1_for_each_event_html_a0361b570495b269265fa15c46dfefbc6"><div class="ttname"><a href="classgd_1_1_for_each_event.html#a0361b570495b269265fa15c46dfefbc6">gd::ForEachEvent::GetSubEvents</a></div><div class="ttdeci">virtual gd::EventsList &amp; GetSubEvents()</div><div class="ttdef"><b>Definition:</b> ForEachEvent.h:37</div></div>
 <div class="ttc" id="aclassgd_1_1_for_each_event_html_a438aa4b616df085427203511e1bc71fa"><div class="ttname"><a href="classgd_1_1_for_each_event.html#a438aa4b616df085427203511e1bc71fa">gd::ForEachEvent::IsExecutable</a></div><div class="ttdeci">virtual bool IsExecutable() const</div><div class="ttdef"><b>Definition:</b> ForEachEvent.h:33</div></div>
-<div class="ttc" id="aclassgd_1_1_for_each_event_html_a46e6e818c9d1c105c3bb35993f53f839"><div class="ttname"><a href="classgd_1_1_for_each_event.html#a46e6e818c9d1c105c3bb35993f53f839">gd::ForEachEvent::GetAllObjectExpressions</a></div><div class="ttdeci">std::vector&lt; gd::Expression * &gt; GetAllObjectExpressions()</div><div class="ttdoc">Return a list of all objects linked to the event.</div><div class="ttdef"><b>Definition:</b> ForEachEvent.h:67</div></div>
 <div class="ttc" id="aclassgd_1_1_for_each_event_html_a81e82b0ed550a846aef713fae8db2c50"><div class="ttname"><a href="classgd_1_1_for_each_event.html#a81e82b0ed550a846aef713fae8db2c50">gd::ForEachEvent::GetSubEvents</a></div><div class="ttdeci">virtual const gd::EventsList &amp; GetSubEvents() const</div><div class="ttdef"><b>Definition:</b> ForEachEvent.h:36</div></div>
 <div class="ttc" id="aclassgd_1_1_for_each_event_html_a88272031d1c6e12b7464a98f5693374c"><div class="ttname"><a href="classgd_1_1_for_each_event.html#a88272031d1c6e12b7464a98f5693374c">gd::ForEachEvent::Clone</a></div><div class="ttdeci">virtual gd::ForEachEvent * Clone() const</div><div class="ttdef"><b>Definition:</b> ForEachEvent.h:31</div></div>
 <div class="ttc" id="aclassgd_1_1_for_each_event_html_ae26ee76e1cda6fa8b96abdd0459400fd"><div class="ttname"><a href="classgd_1_1_for_each_event.html#ae26ee76e1cda6fa8b96abdd0459400fd">gd::ForEachEvent::CanHaveSubEvents</a></div><div class="ttdeci">virtual bool CanHaveSubEvents() const</div><div class="ttdef"><b>Definition:</b> ForEachEvent.h:35</div></div>

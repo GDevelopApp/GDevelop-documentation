@@ -140,6 +140,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:ada9e8ef0ffc2f1442946015d7cf67979"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_value_type_metadata.html#ada9e8ef0ffc2f1442946015d7cf67979">IsVariable</a> () const</td></tr>
 <tr class="memdesc:ada9e8ef0ffc2f1442946015d7cf67979"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the type of the parameter is a number.  <a href="classgd_1_1_value_type_metadata.html#ada9e8ef0ffc2f1442946015d7cf67979">More...</a><br /></td></tr>
 <tr class="separator:ada9e8ef0ffc2f1442946015d7cf67979"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9184ed3afca74f8aa0187232e26f741a"><td class="memItemLeft" align="right" valign="top"><a id="a9184ed3afca74f8aa0187232e26f741a"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_value_type_metadata.html#a9184ed3afca74f8aa0187232e26f741a">IsLegacyPreScopedVariable</a> () const</td></tr>
+<tr class="memdesc:a9184ed3afca74f8aa0187232e26f741a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the type is a variable but from a specific scope (scene, project or object). In new code, prefer to use the more generic "variable" parameter (which accepts any variable coming from an object or from containers in the scope). <br /></td></tr>
+<tr class="separator:a9184ed3afca74f8aa0187232e26f741a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Serialization</div></td></tr>
 <tr class="memitem:addc27c2851fbc9d236f65d0b95c9b7b7"><td class="memItemLeft" align="right" valign="top"><a id="addc27c2851fbc9d236f65d0b95c9b7b7"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_value_type_metadata.html#addc27c2851fbc9d236f65d0b95c9b7b7">SerializeTo</a> (<a class="el" href="classgd_1_1_serializer_element.html">gd::SerializerElement</a> &amp;element) const</td></tr>
@@ -152,6 +156,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a7894dd27a3d9f2065008a6f20a290a90"><td class="memItemLeft" align="right" valign="top"><a id="a7894dd27a3d9f2065008a6f20a290a90"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_value_type_metadata.html#a7894dd27a3d9f2065008a6f20a290a90">IsTypeLegacyPreScopedVariable</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;type)</td></tr>
+<tr class="memdesc:a7894dd27a3d9f2065008a6f20a290a90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the type is a variable but from a specific scope (scene, project or object). In new code, prefer to use the more generic "variable" parameter (which accepts any variable coming from an object or from containers in the scope). <br /></td></tr>
+<tr class="separator:a7894dd27a3d9f2065008a6f20a290a90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6b1083af66f580f348f05617adefa28"><td class="memItemLeft" align="right" valign="top"><a id="aa6b1083af66f580f348f05617adefa28"></a>
 static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_value_type_metadata.html#aa6b1083af66f580f348f05617adefa28">IsTypeObject</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;parameterType)</td></tr>
 <tr class="memdesc:aa6b1083af66f580f348f05617adefa28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the type is representing one object (or more, i.e: an object group). <br /></td></tr>

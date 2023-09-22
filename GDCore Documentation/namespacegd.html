@@ -182,13 +182,13 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgd_1_1_variable_accessor_or_variable_bracket_accessor_node.html">VariableAccessorOrVariableBracketAccessorNode</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgd_1_1_variable_node.html">VariableNode</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A variable with bracket accessor or at least 2 "dot" accessors.  <a href="structgd_1_1_variable_node.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A variable, or object variable, with bracket accessor or at least 2 "dot" accessors.  <a href="structgd_1_1_variable_node.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgd_1_1_variable_accessor_node.html">VariableAccessorNode</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A bracket accessor of a variable. Example: MyChild in MyVariable.MyChild.  <a href="structgd_1_1_variable_accessor_node.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A direct accessor to a child variable. Example: MyChild in MyVariable.MyChild.  <a href="structgd_1_1_variable_accessor_node.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgd_1_1_variable_bracket_accessor_node.html">VariableBracketAccessorNode</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A bracket accessor of a variable. Example: ["MyChild"] (in MyVariable["MyChild"]).  <a href="structgd_1_1_variable_bracket_accessor_node.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A bracket accessor to a child variable. Example: ["MyChild"] (in MyVariable["MyChild"]).  <a href="structgd_1_1_variable_bracket_accessor_node.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgd_1_1_object_function_name_node.html">ObjectFunctionNameNode</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name of a function to call on an object or the behavior For example: "MyObject.Physics::LinearVelocity".  <a href="structgd_1_1_object_function_name_node.html#details">More...</a><br /></td></tr>
@@ -353,6 +353,12 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_position_finder.html">EventsPositionFinder</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scans an event list to retrieve the position of a list of searched events when the events list is flattened.  <a href="classgd_1_1_events_position_finder.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_expression_property_replacer.html">ExpressionPropertyReplacer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Go through the nodes and rename properties, or signal if the instruction must be renamed if a removed property is used.  <a href="classgd_1_1_expression_property_replacer.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_property_replacer.html">EventsPropertyReplacer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace in expressions and in parameters of actions or conditions, references to the name of a property by another.  <a href="classgd_1_1_events_property_replacer.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_expression_object_renamer.html">ExpressionObjectRenamer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Go through the nodes and change the given object name to a new one.  <a href="classgd_1_1_expression_object_renamer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -370,6 +376,12 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_types_lister.html">EventsTypesLister</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">List the values of the parameters of events and their type.  <a href="classgd_1_1_events_types_lister.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_expression_variable_replacer.html">ExpressionVariableReplacer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Go through the nodes and rename variables, or signal if the instruction must be renamed if a removed variable is used.  <a href="classgd_1_1_expression_variable_replacer.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_variable_replacer.html">EventsVariableReplacer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace in expressions and in parameters of actions or conditions, references to the name of a variable by another.  <a href="classgd_1_1_events_variable_replacer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_variables_finder.html">EventsVariablesFinder</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a search over a project or a layout, searching for layout, global or object variables.  <a href="classgd_1_1_events_variables_finder.html#details">More...</a><br /></td></tr>
@@ -393,7 +405,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move in expressions, in parameters of actions or conditions, a parameter from one position to another.  <a href="classgd_1_1_expressions_parameter_mover.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_expression_function_renamer.html">ExpressionFunctionRenamer</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Go through the nodes and change the given object name to a new one.  <a href="classgd_1_1_expression_function_renamer.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Go through the nodes and change the given function name to a new name.  <a href="classgd_1_1_expression_function_renamer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_expressions_renamer.html">ExpressionsRenamer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace in expressions, in parameters of actions or conditions, calls to a function by another function.  <a href="classgd_1_1_expressions_renamer.html#details">More...</a><br /></td></tr>
@@ -530,6 +542,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_whole_project_browser.html">WholeProjectBrowser</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose the whole project to workers.  <a href="classgd_1_1_whole_project_browser.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgd_1_1_variables_changeset.html">VariablesChangeset</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_whole_project_refactorer.html">WholeProjectRefactorer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tool functions to do refactoring on the whole project after changes like deletion or renaming of an object.  <a href="classgd_1_1_whole_project_refactorer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -604,14 +618,14 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_highest_z_order_finder.html">HighestZOrderFinder</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tool class picking returning the highest Z order of instances on a layer.  <a href="classgd_1_1_highest_z_order_finder.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_camera.html">Camera</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A camera is used to render a specific area of a layout.  <a href="classgd_1_1_camera.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layer.html">Layer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a layer of a layout.  <a href="classgd_1_1_layer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgd_1_1_layer_has_name.html">LayerHasName</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Functor testing layer name.  <a href="structgd_1_1_layer_has_name.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_camera.html">Camera</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A camera is used to render a specific area of a layout.  <a href="classgd_1_1_camera.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html">Layout</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represent a layout ( also called a scene ) of a project.  <a href="classgd_1_1_layout.html#details">More...</a><br /></td></tr>
@@ -652,11 +666,23 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html">ObjectsContainer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used as a base class for classes that will own objects (see <a class="el" href="classgd_1_1_object.html" title="Represent an object of a platform.">gd::Object</a>).  <a href="classgd_1_1_objects_container.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_containers_list.html">ObjectsContainersList</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of objects containers, useful for accessing objects in a scoped way, along with methods to access them.  <a href="classgd_1_1_objects_containers_list.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_platform_specific_assets.html">PlatformSpecificAssets</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store the icons, splashscreens or reference to any other asset that can be needed when exporting the game.  <a href="classgd_1_1_platform_specific_assets.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project.html">Project</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class representing a project (game), including all resources, scenes, objects, extensions...  <a href="classgd_1_1_project.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project_scoped_containers.html">ProjectScopedContainers</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds references to variables, objects, properties and other containers.  <a href="classgd_1_1_project_scoped_containers.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_properties_container.html">PropertiesContainer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A container of properties, used for custom behaviors, custom objects, extensions...  <a href="classgd_1_1_properties_container.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_properties_containers_list.html">PropertiesContainersList</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of property containers, useful for accessing properties in a scoped way.  <a href="classgd_1_1_properties_containers_list.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_property_descriptor.html">PropertyDescriptor</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to describe a property shown in a property grid.  <a href="classgd_1_1_property_descriptor.html#details">More...</a><br /></td></tr>
@@ -706,6 +732,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variables_container.html">VariablesContainer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class defining a container for <a class="el" href="classgd_1_1_variable.html" title="Defines a variable which can be used by an object, a layout or a project.">gd::Variable</a>.  <a href="classgd_1_1_variables_container.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variables_containers_list.html">VariablesContainersList</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of variables containers, useful for accessing variables in a scoped way.  <a href="classgd_1_1_variables_containers_list.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_watermark.html">Watermark</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describe the content and set up of the watermark.  <a href="classgd_1_1_watermark.html#details">More...</a><br /></td></tr>
@@ -813,9 +842,8 @@ void GD_CORE_API&#160;</td><td class="memItemRight" valign="bottom"><b>FilterBeh
 std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; GD_CORE_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegd.html#a38826353bf9cd037331fdcff7703b2c2">GetBehaviorNamesInObjectOrGroup</a> (const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;project, const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;layout, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectOrGroupName, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;behaviorType, bool searchInGroups)</td></tr>
 <tr class="memdesc:a38826353bf9cd037331fdcff7703b2c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the names of behavior of a given type if an object or all objects of a group has it. <br /></td></tr>
 <tr class="separator:a38826353bf9cd037331fdcff7703b2c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1fed1b0a984e5c39cfec21045de5b9a"><td class="memItemLeft" align="right" valign="top"><a id="ad1fed1b0a984e5c39cfec21045de5b9a"></a>
-bool GD_CORE_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegd.html#ad1fed1b0a984e5c39cfec21045de5b9a">HasBehaviorInObjectOrGroup</a> (const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;project, const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;layout, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectOrGroupName, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;behaviorName, bool searchInGroups=true)</td></tr>
-<tr class="memdesc:ad1fed1b0a984e5c39cfec21045de5b9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if an object or all objects of a group has a behavior. <br /></td></tr>
+<tr class="memitem:ad1fed1b0a984e5c39cfec21045de5b9a"><td class="memItemLeft" align="right" valign="top">bool GD_CORE_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegd.html#ad1fed1b0a984e5c39cfec21045de5b9a">HasBehaviorInObjectOrGroup</a> (const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;project, const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;layout, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectOrGroupName, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;behaviorName, bool searchInGroups=true)</td></tr>
+<tr class="memdesc:ad1fed1b0a984e5c39cfec21045de5b9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if an object or all objects of a group has a behavior.  <a href="namespacegd.html#ad1fed1b0a984e5c39cfec21045de5b9a">More...</a><br /></td></tr>
 <tr class="separator:ad1fed1b0a984e5c39cfec21045de5b9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87931627550f265363b6860d3ef8f1d4"><td class="memItemLeft" align="right" valign="top"><a id="a87931627550f265363b6860d3ef8f1d4"></a>
 bool GD_CORE_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegd.html#a87931627550f265363b6860d3ef8f1d4">IsDefaultBehavior</a> (const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;project, const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;layout, <a class="el" href="classgd_1_1_string.html">gd::String</a> objectOrGroupName, <a class="el" href="classgd_1_1_string.html">gd::String</a> behaviorName, bool searchInGroups=true)</td></tr>
@@ -828,9 +856,9 @@ bool GD_CORE_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 <tr class="memitem:a4f30507b089be6fbfbaf9c54a89412f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_string.html">gd::String</a> GD_CORE_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegd.html#a4f30507b089be6fbfbaf9c54a89412f6">GetTypeOfBehavior</a> (const <a class="el" href="classgd_1_1_objects_container.html">ObjectsContainer</a> &amp;game, const <a class="el" href="classgd_1_1_objects_container.html">ObjectsContainer</a> &amp;layout, <a class="el" href="classgd_1_1_string.html">gd::String</a> behaviorName, bool searchInGroups=true)</td></tr>
 <tr class="memdesc:a4f30507b089be6fbfbaf9c54a89412f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a type from a behavior name.  <a href="namespacegd.html#a4f30507b089be6fbfbaf9c54a89412f6">More...</a><br /></td></tr>
 <tr class="separator:a4f30507b089be6fbfbaf9c54a89412f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa24f6d123552709ade30eb3d8bae8182"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; GD_CORE_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegd.html#aa24f6d123552709ade30eb3d8bae8182">GetBehaviorsOfObject</a> (const <a class="el" href="classgd_1_1_objects_container.html">ObjectsContainer</a> &amp;game, const <a class="el" href="classgd_1_1_objects_container.html">ObjectsContainer</a> &amp;layout, <a class="el" href="classgd_1_1_string.html">gd::String</a> objectName, bool searchInGroups=true)</td></tr>
-<tr class="memdesc:aa24f6d123552709ade30eb3d8bae8182"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get behaviors of an object/group.  <a href="namespacegd.html#aa24f6d123552709ade30eb3d8bae8182">More...</a><br /></td></tr>
-<tr class="separator:aa24f6d123552709ade30eb3d8bae8182"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e464356c314faa09ce16b66a4f5c323"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; GD_CORE_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegd.html#a8e464356c314faa09ce16b66a4f5c323">GetBehaviorsOfObject</a> (const <a class="el" href="classgd_1_1_objects_container.html">ObjectsContainer</a> &amp;game, const <a class="el" href="classgd_1_1_objects_container.html">ObjectsContainer</a> &amp;layout, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectName, bool searchInGroups=true)</td></tr>
+<tr class="memdesc:a8e464356c314faa09ce16b66a4f5c323"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get behaviors of an object/group.  <a href="namespacegd.html#a8e464356c314faa09ce16b66a4f5c323">More...</a><br /></td></tr>
+<tr class="separator:a8e464356c314faa09ce16b66a4f5c323"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cd2284d9669ed5d7685d35822f84156"><td class="memItemLeft" align="right" valign="top"><a id="a6cd2284d9669ed5d7685d35822f84156"></a>
 <a class="el" href="classgd_1_1_string.html">String</a> GD_CORE_API&#160;</td><td class="memItemRight" valign="bottom"><b>operator+</b> (<a class="el" href="classgd_1_1_string.html">String</a> lhs, const <a class="el" href="classgd_1_1_string.html">String</a> &amp;rhs)</td></tr>
 <tr class="separator:a6cd2284d9669ed5d7685d35822f84156"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1032,8 +1060,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aa24f6d123552709ade30eb3d8bae8182"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa24f6d123552709ade30eb3d8bae8182">&#9670;&nbsp;</a></span>GetBehaviorsOfObject()</h2>
+<a id="a8e464356c314faa09ce16b66a4f5c323"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e464356c314faa09ce16b66a4f5c323">&#9670;&nbsp;</a></span>GetBehaviorsOfObject()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1053,7 +1081,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
           <td class="paramname"><em>objectName</em>, </td>
         </tr>
         <tr>
@@ -1137,6 +1165,10 @@ Variables</h2></td></tr>
 
 <p>Get a type from a behavior name. </p>
 <dl class="section return"><dt>Returns</dt><dd>Type of the behavior. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000022">Deprecated:</a></b></dt><dd><ul>
+<li>Use GetTypeOfBehaviorInObjectOrGroup instead. </li>
+</ul>
+</dd></dl>
 
 </div>
 </div>
@@ -1179,8 +1211,58 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get a type from an object/group name. </p>
-<dl class="section note"><dt>Note</dt><dd>If a group contains only objects of a same type, then the group has this type. Otherwise, it is considered as an object without any specific type.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>If a group contains only objects of a same type, then the group has this type. Otherwise, it is considered as an object without any specific type. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000020">Deprecated:</a></b></dt><dd>Use <a class="el" href="classgd_1_1_objects_containers_list.html#a132eb1dfb21431730d65c0427d32a301" title="Get a type from an object/group name.">gd::ObjectsContainersList::GetTypeOfObject</a> instead.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Type of the object/group. </dd></dl>
+
+</div>
+</div>
+<a id="ad1fed1b0a984e5c39cfec21045de5b9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1fed1b0a984e5c39cfec21045de5b9a">&#9670;&nbsp;</a></span>HasBehaviorInObjectOrGroup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GD_CORE_API gd::HasBehaviorInObjectOrGroup </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;&#160;</td>
+          <td class="paramname"><em>project</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;&#160;</td>
+          <td class="paramname"><em>layout</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>objectOrGroupName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>behaviorName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>searchInGroups</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if an object or all objects of a group has a behavior. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000021">Deprecated:</a></b></dt><dd>Use <a class="el" href="classgd_1_1_objects_containers_list.html#a3a9ffbdfc0deb675835b28962d88bed5" title="Check if an object or all object of a group has a behavior.">gd::ObjectsContainersList::HasBehaviorInObjectOrGroup</a> instead. </dd></dl>
 
 </div>
 </div>

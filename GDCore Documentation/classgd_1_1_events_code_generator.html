@@ -106,10 +106,10 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#ab5a4efb1777e2136e77c6ae9a67b988b">EventsCodeGenerator</a> (const <a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project_, const <a class="el" href="classgd_1_1_layout.html">gd::Layout</a> &amp;layout, const <a class="el" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform_)</td></tr>
 <tr class="memdesc:ab5a4efb1777e2136e77c6ae9a67b988b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a code generator for the specified platform/project/layout. <br /></td></tr>
 <tr class="separator:ab5a4efb1777e2136e77c6ae9a67b988b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae61c195d100e24dd30ccc45112ed79aa"><td class="memItemLeft" align="right" valign="top"><a id="ae61c195d100e24dd30ccc45112ed79aa"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#ae61c195d100e24dd30ccc45112ed79aa">EventsCodeGenerator</a> (const <a class="el" href="classgd_1_1_platform.html">gd::Platform</a> &amp;<a class="el" href="classgd_1_1_events_code_generator.html#a4647581c288441ee1302a158b05ae313">platform</a>, const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;globalObjectsAndGroups_, const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;objectsAndGroups_)</td></tr>
-<tr class="memdesc:ae61c195d100e24dd30ccc45112ed79aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a code generator for the specified objects/groups and platform. <br /></td></tr>
-<tr class="separator:ae61c195d100e24dd30ccc45112ed79aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00261fecd060d251eca282bc1de39b84"><td class="memItemLeft" align="right" valign="top"><a id="a00261fecd060d251eca282bc1de39b84"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#a00261fecd060d251eca282bc1de39b84">EventsCodeGenerator</a> (const <a class="el" href="classgd_1_1_platform.html">gd::Platform</a> &amp;<a class="el" href="classgd_1_1_events_code_generator.html#a4647581c288441ee1302a158b05ae313">platform</a>, const <a class="el" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a> &amp;projectScopedContainers_)</td></tr>
+<tr class="memdesc:a00261fecd060d251eca282bc1de39b84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a code generator for the specified objects/groups and platform. <br /></td></tr>
+<tr class="separator:a00261fecd060d251eca282bc1de39b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac60c41bf25f04fb048f576711e97fdc7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#ac60c41bf25f04fb048f576711e97fdc7">PreprocessEventList</a> (<a class="el" href="classgd_1_1_events_list.html">gd::EventsList</a> &amp;listEvent)</td></tr>
 <tr class="memdesc:ac60c41bf25f04fb048f576711e97fdc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preprocess an events list (replacing for example links with the linked events).  <a href="classgd_1_1_events_code_generator.html#ac60c41bf25f04fb048f576711e97fdc7">More...</a><br /></td></tr>
 <tr class="separator:ac60c41bf25f04fb048f576711e97fdc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,14 +182,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:ae4eea93213a65769dbd2b8d8f55d9d73"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#ae4eea93213a65769dbd2b8d8f55d9d73">ErrorOccurred</a> () const</td></tr>
 <tr class="memdesc:ae4eea93213a65769dbd2b8d8f55d9d73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if an error has occurred during code generation (in this case, generated code is not usable).  <a href="classgd_1_1_events_code_generator.html#ae4eea93213a65769dbd2b8d8f55d9d73">More...</a><br /></td></tr>
 <tr class="separator:ae4eea93213a65769dbd2b8d8f55d9d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b59fb61129a5977e2b1b1e331903fcd"><td class="memItemLeft" align="right" valign="top"><a id="a3b59fb61129a5977e2b1b1e331903fcd"></a>
-const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#a3b59fb61129a5977e2b1b1e331903fcd">GetGlobalObjectsAndGroups</a> () const</td></tr>
-<tr class="memdesc:a3b59fb61129a5977e2b1b1e331903fcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the global objects/groups used for code generation. <br /></td></tr>
-<tr class="separator:a3b59fb61129a5977e2b1b1e331903fcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83d7642cf3a0ff8b7224211bfddcb5f6"><td class="memItemLeft" align="right" valign="top"><a id="a83d7642cf3a0ff8b7224211bfddcb5f6"></a>
-const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#a83d7642cf3a0ff8b7224211bfddcb5f6">GetObjectsAndGroups</a> () const</td></tr>
-<tr class="memdesc:a83d7642cf3a0ff8b7224211bfddcb5f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the objects/groups used for code generation. <br /></td></tr>
-<tr class="separator:a83d7642cf3a0ff8b7224211bfddcb5f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa7582282ed2c176b4b42b1fdd2674ac"><td class="memItemLeft" align="right" valign="top"><a id="afa7582282ed2c176b4b42b1fdd2674ac"></a>
+const <a class="el" href="classgd_1_1_objects_containers_list.html">gd::ObjectsContainersList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetObjectsContainersList</b> () const</td></tr>
+<tr class="separator:afa7582282ed2c176b4b42b1fdd2674ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a087a882496c87f68d10868ef8b75786a"><td class="memItemLeft" align="right" valign="top"><a id="a087a882496c87f68d10868ef8b75786a"></a>
+const <a class="el" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetProjectScopedContainers</b> () const</td></tr>
+<tr class="separator:a087a882496c87f68d10868ef8b75786a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad5bda91139fb08829a432b525fd203c"><td class="memItemLeft" align="right" valign="top"><a id="aad5bda91139fb08829a432b525fd203c"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#aad5bda91139fb08829a432b525fd203c">HasProjectAndLayout</a> () const</td></tr>
 <tr class="memdesc:aad5bda91139fb08829a432b525fd203c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the code generation is done for a given project and layout. If not, this means that the code is generated for a function. <br /></td></tr>
@@ -204,9 +202,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 const <a class="el" href="classgd_1_1_platform.html">gd::Platform</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#a197b56ff95006108a60d7eef413b53bd">GetPlatform</a> () const</td></tr>
 <tr class="memdesc:a197b56ff95006108a60d7eef413b53bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the platform the code is being generated for. <br /></td></tr>
 <tr class="separator:a197b56ff95006108a60d7eef413b53bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75704cc7a8ea3159b99eea8e7be398bd"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#a75704cc7a8ea3159b99eea8e7be398bd">ExpandObjectsName</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectName, const <a class="el" href="classgd_1_1_events_code_generation_context.html">EventsCodeGenerationContext</a> &amp;context) const</td></tr>
-<tr class="memdesc:a75704cc7a8ea3159b99eea8e7be398bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a group name to the full list of objects contained in the group.  <a href="classgd_1_1_events_code_generator.html#a75704cc7a8ea3159b99eea8e7be398bd">More...</a><br /></td></tr>
-<tr class="separator:a75704cc7a8ea3159b99eea8e7be398bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80122793dcf50ca678dea0a2c7e6a351"><td class="memItemLeft" align="right" valign="top"><a id="a80122793dcf50ca678dea0a2c7e6a351"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#a80122793dcf50ca678dea0a2c7e6a351">GetMaxCustomConditionsDepth</a> () const</td></tr>
 <tr class="memdesc:a80122793dcf50ca678dea0a2c7e6a351"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the maximum depth of custom conditions reached during code generation. <br /></td></tr>
@@ -275,6 +270,9 @@ virtual <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><t
 virtual <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#ade5325704af1bcf1f3b446a21a56bbc3">GenerateVariableAccessor</a> (<a class="el" href="classgd_1_1_string.html">gd::String</a> childName)</td></tr>
 <tr class="memdesc:ade5325704af1bcf1f3b446a21a56bbc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate the code to get the child of a variable. <br /></td></tr>
 <tr class="separator:ade5325704af1bcf1f3b446a21a56bbc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a018851bc6e6f658aee325cc73d6cd9e1"><td class="memItemLeft" align="right" valign="top"><a id="a018851bc6e6f658aee325cc73d6cd9e1"></a>
+virtual <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GenerateVariableValueAs</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;type)</td></tr>
+<tr class="separator:a018851bc6e6f658aee325cc73d6cd9e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a287915e0915be6716df1b255ea1083ef"><td class="memItemLeft" align="right" valign="top"><a id="a287915e0915be6716df1b255ea1083ef"></a>
 virtual <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#a287915e0915be6716df1b255ea1083ef">GenerateVariableBracketAccessor</a> (<a class="el" href="classgd_1_1_string.html">gd::String</a> expressionCode)</td></tr>
 <tr class="memdesc:a287915e0915be6716df1b255ea1083ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate the code to get the child of a variable, using generated the expression. <br /></td></tr>
@@ -286,6 +284,9 @@ virtual <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><t
 <tr class="memitem:aa0343b3c240ac542438ed6c410c4e416"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#aa0343b3c240ac542438ed6c410c4e416">GenerateObject</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectName, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;type, <a class="el" href="classgd_1_1_events_code_generation_context.html">gd::EventsCodeGenerationContext</a> &amp;context)</td></tr>
 <tr class="memdesc:aa0343b3c240ac542438ed6c410c4e416"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate the code to reference an object.  <a href="classgd_1_1_events_code_generator.html#aa0343b3c240ac542438ed6c410c4e416">More...</a><br /></td></tr>
 <tr class="separator:aa0343b3c240ac542438ed6c410c4e416"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabbcfca383a8debf951ee130d1628fd8"><td class="memItemLeft" align="right" valign="top"><a id="aabbcfca383a8debf951ee130d1628fd8"></a>
+virtual <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GeneratePropertyGetter</b> (const <a class="el" href="classgd_1_1_properties_container.html">gd::PropertiesContainer</a> &amp;propertiesContainer, const <a class="el" href="classgd_1_1_named_property_descriptor.html">gd::NamedPropertyDescriptor</a> &amp;property, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;type, <a class="el" href="classgd_1_1_events_code_generation_context.html">gd::EventsCodeGenerationContext</a> &amp;context)</td></tr>
+<tr class="separator:aabbcfca383a8debf951ee130d1628fd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cdb7c370ca94f92a0762936bef7d5b8"><td class="memItemLeft" align="right" valign="top"><a id="a6cdb7c370ca94f92a0762936bef7d5b8"></a>
 virtual <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#a6cdb7c370ca94f92a0762936bef7d5b8">GenerateBadObject</a> ()</td></tr>
 <tr class="memdesc:a6cdb7c370ca94f92a0762936bef7d5b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate the code to reference an object which is in an empty/null state. <br /></td></tr>
@@ -352,12 +353,9 @@ Protected Attributes</h2></td></tr>
 const <a class="el" href="classgd_1_1_platform.html">gd::Platform</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#a4647581c288441ee1302a158b05ae313">platform</a></td></tr>
 <tr class="memdesc:a4647581c288441ee1302a158b05ae313"><td class="mdescLeft">&#160;</td><td class="mdescRight">The platform being used. <br /></td></tr>
 <tr class="separator:a4647581c288441ee1302a158b05ae313"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2edf69373bb0ab8edec241cfff77984d"><td class="memItemLeft" align="right" valign="top"><a id="a2edf69373bb0ab8edec241cfff77984d"></a>
-const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>globalObjectsAndGroups</b></td></tr>
-<tr class="separator:a2edf69373bb0ab8edec241cfff77984d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac90e37d410d348d108de01f789f07df6"><td class="memItemLeft" align="right" valign="top"><a id="ac90e37d410d348d108de01f789f07df6"></a>
-const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>objectsAndGroups</b></td></tr>
-<tr class="separator:ac90e37d410d348d108de01f789f07df6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab003e0d72ed4cdd8264dc5c6875fdb14"><td class="memItemLeft" align="right" valign="top"><a id="ab003e0d72ed4cdd8264dc5c6875fdb14"></a>
+<a class="el" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a>&#160;</td><td class="memItemRight" valign="bottom"><b>projectScopedContainers</b></td></tr>
+<tr class="separator:ab003e0d72ed4cdd8264dc5c6875fdb14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ae1be8a97d1786f5af048e1d93a0f77"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#a7ae1be8a97d1786f5af048e1d93a0f77">hasProjectAndLayout</a></td></tr>
 <tr class="separator:a7ae1be8a97d1786f5af048e1d93a0f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a124bbe24df17eebfbff5161c7e2f311e"><td class="memItemLeft" align="right" valign="top"><a id="a124bbe24df17eebfbff5161c7e2f311e"></a>
@@ -564,40 +562,6 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>ExpressionCodeGenera
 
 <p>Return true if an error has occurred during code generation (in this case, generated code is not usable). </p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>TODO: This is actually not used and should be moved to a more complete error reporting. </dd></dl>
-
-</div>
-</div>
-<a id="a75704cc7a8ea3159b99eea8e7be398bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75704cc7a8ea3159b99eea8e7be398bd">&#9670;&nbsp;</a></span>ExpandObjectsName()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; gd::EventsCodeGenerator::ExpandObjectsName </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
-          <td class="paramname"><em>objectName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classgd_1_1_events_code_generation_context.html">EventsCodeGenerationContext</a> &amp;&#160;</td>
-          <td class="paramname"><em>context</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Convert a group name to the full list of objects contained in the group. </p>
-<p>Get a list containing the "real" objects name when the events refers to <em>objectName</em> :<br  />
- If <em>objectName</em> is really an object, the list will only contains <em>objectName</em> unchanged.<br  />
- If <em>objectName</em> is a group, the list will contains all the objects of the group.<br  />
- If <em>objectName</em> is the "current" object in the context ( i.e: The object being used for launching an action... ), none of the two rules below apply, and the list will only contains the context "current" object name. </p>
 
 </div>
 </div>

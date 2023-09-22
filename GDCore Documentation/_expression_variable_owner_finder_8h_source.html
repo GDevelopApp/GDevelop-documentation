@@ -89,121 +89,117 @@ $(function() {
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;GDCore/Extensions/Metadata/ObjectMetadata.h&quot;</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;GDCore/Extensions/Metadata/ParameterMetadata.h&quot;</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;GDCore/Project/Layout.h&quot;</span>  <span class="comment">// For GetTypeOfObject and GetTypeOfBehavior</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_localization_8h.html">GDCore/Tools/Localization.h</a>&quot;</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegd.html">gd</a> {</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">class </span>Expression;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">class </span>ObjectsContainer;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">class </span>Platform;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">class </span>ParameterMetadata;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">class </span>ExpressionMetadata;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}  <span class="comment">// namespace gd</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegd.html">gd</a> {</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classgd_1_1_expression_variable_owner_finder.html">   36</a></span>&#160;<span class="keyword">class </span>GD_CORE_API <a class="code" href="classgd_1_1_expression_variable_owner_finder.html">ExpressionVariableOwnerFinder</a> : <span class="keyword">public</span> <a class="code" href="classgd_1_1_expression_parser2_node_worker.html">ExpressionParser2NodeWorker</a> {</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="classgd_1_1_expression_variable_owner_finder.html#a15385eae7868c89f348c6a30fdded5fc">   43</a></span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> <a class="code" href="classgd_1_1_expression_variable_owner_finder.html#a15385eae7868c89f348c6a30fdded5fc">GetObjectName</a>(<span class="keyword">const</span> <a class="code" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform,</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                      <span class="keyword">const</span> <a class="code" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;globalObjectsContainer,</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                      <span class="keyword">const</span> <a class="code" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;objectsContainer,</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; rootObjectName,</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                      <a class="code" href="structgd_1_1_expression_node.html">gd::ExpressionNode</a>&amp; node) {</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="classgd_1_1_expression_variable_owner_finder.html">gd::ExpressionVariableOwnerFinder</a> typeFinder(</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        platform, globalObjectsContainer, objectsContainer, rootObjectName);</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    node.Visit(typeFinder);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">return</span> typeFinder.<a class="code" href="classgd_1_1_expression_variable_owner_finder.html#a15385eae7868c89f348c6a30fdded5fc">GetObjectName</a>();</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  }</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  <span class="keyword">virtual</span> ~<a class="code" href="classgd_1_1_expression_variable_owner_finder.html">ExpressionVariableOwnerFinder</a>(){};</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  ExpressionVariableOwnerFinder(<span class="keyword">const</span> <a class="code" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform_,</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;globalObjectsContainer_,</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;objectsContainer_,</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; rootObjectName_)</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;      : platform(platform_),</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        globalObjectsContainer(globalObjectsContainer_),</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        objectsContainer(objectsContainer_),</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        rootObjectName(rootObjectName_),</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        objectName(<span class="stringliteral">&quot;&quot;</span>),</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        variableNode(nullptr) {};</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
-<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="classgd_1_1_expression_variable_owner_finder.html#a41cb32bdcdb135fd03a6a70843984395">   73</a></span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;<a class="code" href="classgd_1_1_expression_variable_owner_finder.html#a41cb32bdcdb135fd03a6a70843984395">GetObjectName</a>() {</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordflow">return</span> objectName;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  };</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  <span class="keywordtype">void</span> OnVisitSubExpressionNode(<a class="code" href="structgd_1_1_sub_expression_node.html">SubExpressionNode</a>&amp; node)<span class="keyword"> override </span>{}</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  <span class="keywordtype">void</span> OnVisitOperatorNode(OperatorNode&amp; node)<span class="keyword"> override </span>{}</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  <span class="keywordtype">void</span> OnVisitUnaryOperatorNode(UnaryOperatorNode&amp; node)<span class="keyword"> override </span>{}</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <span class="keywordtype">void</span> OnVisitNumberNode(NumberNode&amp; node)<span class="keyword"> override </span>{}</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  <span class="keywordtype">void</span> OnVisitTextNode(TextNode&amp; node)<span class="keyword"> override </span>{}</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  <span class="keywordtype">void</span> OnVisitVariableNode(VariableNode&amp; node)<span class="keyword"> override </span>{</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">if</span> (variableNode != <span class="keyword">nullptr</span>) {</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;      <span class="comment">// This is not possible</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;      <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    }</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordflow">if</span> (node.parent == <span class="keyword">nullptr</span>) {</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;      objectName = rootObjectName;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;      <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    }</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    variableNode = &amp;node;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    node.parent-&gt;Visit(*<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  }</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  <span class="keywordtype">void</span> OnVisitVariableAccessorNode(VariableAccessorNode&amp; node)<span class="keyword"> override </span>{}</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  <span class="keywordtype">void</span> OnVisitIdentifierNode(IdentifierNode&amp; node)<span class="keyword"> override </span>{</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordflow">if</span> (variableNode != <span class="keyword">nullptr</span>) {</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;      <span class="comment">// This is not possible</span></div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;      <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordflow">if</span> (node.parent == <span class="keyword">nullptr</span>) {</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;      objectName = rootObjectName;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;      <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    }</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="comment">// This node is not necessarily a variable node.</span></div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="comment">// It will be checked when visiting the FunctionCallNode.</span></div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    variableNode = &amp;node;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    node.parent-&gt;Visit(*<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  }</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;  <span class="keywordtype">void</span> OnVisitEmptyNode(EmptyNode&amp; node)<span class="keyword"> override </span>{}</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  <span class="keywordtype">void</span> OnVisitObjectFunctionNameNode(ObjectFunctionNameNode&amp; node)<span class="keyword"> override </span>{}</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;  <span class="keywordtype">void</span> OnVisitVariableBracketAccessorNode(</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;      VariableBracketAccessorNode&amp; node)<span class="keyword"> override </span>{}</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;  <span class="keywordtype">void</span> OnVisitFunctionCallNode(FunctionCallNode&amp; functionCall)<span class="keyword"> override </span>{</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keywordflow">if</span> (variableNode == <span class="keyword">nullptr</span>) {</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;      <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    }</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordtype">int</span> parameterIndex = -1;</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; functionCall.parameters.size(); i++) {</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;      <span class="keywordflow">if</span> (functionCall.parameters.at(i).get() == variableNode) {</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        parameterIndex = i;</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;      }</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    }</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordflow">if</span> (parameterIndex &lt; 0) {</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;      <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    }</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <span class="keyword">const</span> <a class="code" href="classgd_1_1_parameter_metadata.html">gd::ParameterMetadata</a>* parameterMetadata =</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        MetadataProvider::GetFunctionCallParameterMetadata(</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;            platform, </div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            globalObjectsContainer,</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;            objectsContainer,</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;            functionCall,</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;            parameterIndex);</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="keywordflow">if</span> (parameterMetadata == <span class="keyword">nullptr</span></div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;     || parameterMetadata-&gt;<a class="code" href="classgd_1_1_parameter_metadata.html#af602db13fc210699c8b3d608f9dc5746">GetType</a>() != <span class="stringliteral">&quot;objectvar&quot;</span>) {</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;      <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    }</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160; </div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <span class="comment">// The object on which the function is called is returned if no previous</span></div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    <span class="comment">// parameters are objects.</span></div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    objectName = functionCall.objectName;</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> previousIndex = parameterIndex - 1; previousIndex &gt;= 0; previousIndex--) {</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_parameter_metadata.html">gd::ParameterMetadata</a>* previousParameterMetadata =</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;          MetadataProvider::GetFunctionCallParameterMetadata(</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;              platform, </div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;              globalObjectsContainer,</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;              objectsContainer,</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;GDCore/Project/ObjectsContainersList.h&quot;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_localization_8h.html">GDCore/Tools/Localization.h</a>&quot;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegd.html">gd</a> {</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">class </span>Expression;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">class </span>ObjectsContainer;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">class </span>Platform;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">class </span>ParameterMetadata;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">class </span>ExpressionMetadata;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}  <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegd.html">gd</a> {</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="classgd_1_1_expression_variable_owner_finder.html">   41</a></span>&#160;<span class="keyword">class </span>GD_CORE_API <a class="code" href="classgd_1_1_expression_variable_owner_finder.html">ExpressionVariableOwnerFinder</a> : <span class="keyword">public</span> <a class="code" href="classgd_1_1_expression_parser2_node_worker.html">ExpressionParser2NodeWorker</a> {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="classgd_1_1_expression_variable_owner_finder.html#aaa6e1275971d6f64134f150adc0631f3">   48</a></span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> <a class="code" href="classgd_1_1_expression_variable_owner_finder.html#aaa6e1275971d6f64134f150adc0631f3">GetObjectName</a>(<span class="keyword">const</span> <a class="code" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform,</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                      <span class="keyword">const</span> <a class="code" href="classgd_1_1_objects_containers_list.html">gd::ObjectsContainersList</a> &amp;objectsContainersList,</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; rootObjectName,</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                      <a class="code" href="structgd_1_1_expression_node.html">gd::ExpressionNode</a>&amp; node) {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <a class="code" href="classgd_1_1_expression_variable_owner_finder.html">gd::ExpressionVariableOwnerFinder</a> typeFinder(</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        platform, objectsContainersList, rootObjectName);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    node.Visit(typeFinder);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordflow">return</span> typeFinder.<a class="code" href="classgd_1_1_expression_variable_owner_finder.html#aaa6e1275971d6f64134f150adc0631f3">GetObjectName</a>();</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  }</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <span class="keyword">virtual</span> ~<a class="code" href="classgd_1_1_expression_variable_owner_finder.html">ExpressionVariableOwnerFinder</a>(){};</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  ExpressionVariableOwnerFinder(<span class="keyword">const</span> <a class="code" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform_,</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classgd_1_1_objects_containers_list.html">gd::ObjectsContainersList</a> &amp;objectsContainersList_,</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; rootObjectName_)</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;      : platform(platform_),</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        objectsContainersList(objectsContainersList_),</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        rootObjectName(rootObjectName_),</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        objectName(<span class="stringliteral">&quot;&quot;</span>),</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        variableNode(nullptr) {};</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="classgd_1_1_expression_variable_owner_finder.html#a41cb32bdcdb135fd03a6a70843984395">   75</a></span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;<a class="code" href="classgd_1_1_expression_variable_owner_finder.html#a41cb32bdcdb135fd03a6a70843984395">GetObjectName</a>() {</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordflow">return</span> objectName;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  };</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  <span class="keywordtype">void</span> OnVisitSubExpressionNode(<a class="code" href="structgd_1_1_sub_expression_node.html">SubExpressionNode</a>&amp; node)<span class="keyword"> override </span>{}</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <span class="keywordtype">void</span> OnVisitOperatorNode(OperatorNode&amp; node)<span class="keyword"> override </span>{}</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  <span class="keywordtype">void</span> OnVisitUnaryOperatorNode(UnaryOperatorNode&amp; node)<span class="keyword"> override </span>{}</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  <span class="keywordtype">void</span> OnVisitNumberNode(NumberNode&amp; node)<span class="keyword"> override </span>{}</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  <span class="keywordtype">void</span> OnVisitTextNode(TextNode&amp; node)<span class="keyword"> override </span>{}</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  <span class="keywordtype">void</span> OnVisitVariableNode(VariableNode&amp; node)<span class="keyword"> override </span>{</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordflow">if</span> (variableNode != <span class="keyword">nullptr</span>) {</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;      <span class="comment">// This is not possible</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;      <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    }</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordflow">if</span> (node.parent == <span class="keyword">nullptr</span>) {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;      objectName = rootObjectName;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;      <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    }</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    variableNode = &amp;node;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    node.parent-&gt;Visit(*<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  }</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  <span class="keywordtype">void</span> OnVisitVariableAccessorNode(VariableAccessorNode&amp; node)<span class="keyword"> override </span>{}</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  <span class="keywordtype">void</span> OnVisitIdentifierNode(IdentifierNode&amp; node)<span class="keyword"> override </span>{</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordflow">if</span> (variableNode != <span class="keyword">nullptr</span>) {</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;      <span class="comment">// This is not possible</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;      <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    }</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordflow">if</span> (node.parent == <span class="keyword">nullptr</span>) {</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;      objectName = rootObjectName;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;      <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    }</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="comment">// This node is not necessarily a variable node.</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="comment">// It will be checked when visiting the FunctionCallNode.</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    variableNode = &amp;node;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    node.parent-&gt;Visit(*<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  }</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;  <span class="keywordtype">void</span> OnVisitEmptyNode(EmptyNode&amp; node)<span class="keyword"> override </span>{}</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;  <span class="keywordtype">void</span> OnVisitObjectFunctionNameNode(ObjectFunctionNameNode&amp; node)<span class="keyword"> override </span>{}</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;  <span class="keywordtype">void</span> OnVisitVariableBracketAccessorNode(</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;      VariableBracketAccessorNode&amp; node)<span class="keyword"> override </span>{}</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;  <span class="keywordtype">void</span> OnVisitFunctionCallNode(FunctionCallNode&amp; functionCall)<span class="keyword"> override </span>{</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordflow">if</span> (variableNode == <span class="keyword">nullptr</span>) {</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;      <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    }</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keywordtype">int</span> parameterIndex = -1;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; functionCall.parameters.size(); i++) {</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;      <span class="keywordflow">if</span> (functionCall.parameters.at(i).get() == variableNode) {</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        parameterIndex = i;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;      }</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    }</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="keywordflow">if</span> (parameterIndex &lt; 0) {</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;      <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    }</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keyword">const</span> <a class="code" href="classgd_1_1_parameter_metadata.html">gd::ParameterMetadata</a>* parameterMetadata =</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        MetadataProvider::GetFunctionCallParameterMetadata(</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;            platform,</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;            objectsContainersList,</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;            functionCall,</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;            parameterIndex);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <span class="keywordflow">if</span> (parameterMetadata == <span class="keyword">nullptr</span></div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;     || parameterMetadata-&gt;<a class="code" href="classgd_1_1_parameter_metadata.html#af602db13fc210699c8b3d608f9dc5746">GetType</a>() != <span class="stringliteral">&quot;objectvar&quot;</span>) {</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;      <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    }</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160; </div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    <span class="comment">// The object on which the function is called is returned if no previous</span></div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    <span class="comment">// parameters are objects.</span></div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    objectName = functionCall.objectName;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> previousIndex = parameterIndex - 1; previousIndex &gt;= 0; previousIndex--) {</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_parameter_metadata.html">gd::ParameterMetadata</a>* previousParameterMetadata =</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;          MetadataProvider::GetFunctionCallParameterMetadata(</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;              platform,</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;              objectsContainersList,</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;              functionCall,</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;              previousIndex);</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;      <span class="keywordflow">if</span> (previousParameterMetadata != <span class="keyword">nullptr</span></div>
@@ -221,23 +217,22 @@ $(function() {
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;  <a class="code" href="structgd_1_1_expression_node.html">gd::ExpressionNode</a> *variableNode;</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160; </div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform;</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;globalObjectsContainer;</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;objectsContainer;</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;rootObjectName;</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;};</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160; </div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;}  <span class="comment">// namespace gd</span></div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160; </div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// GDCORE_EXPRESSIONVARIABLEOWNERFINDER_H</span></div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_objects_containers_list.html">gd::ObjectsContainersList</a> &amp;objectsContainersList;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;rootObjectName;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;};</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160; </div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;}  <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160; </div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// GDCORE_EXPRESSIONVARIABLEOWNERFINDER_H</span></div>
 <div class="ttc" id="a_localization_8h_html"><div class="ttname"><a href="_localization_8h.html">Localization.h</a></div></div>
 <div class="ttc" id="aclassgd_1_1_expression_parser2_node_worker_html"><div class="ttname"><a href="classgd_1_1_expression_parser2_node_worker.html">gd::ExpressionParser2NodeWorker</a></div><div class="ttdoc">The interface for any worker class (&quot;visitor&quot; pattern) that want to interact with the nodes of a pars...</div><div class="ttdef"><b>Definition:</b> ExpressionParser2NodeWorker.h:36</div></div>
-<div class="ttc" id="aclassgd_1_1_expression_variable_owner_finder_html"><div class="ttname"><a href="classgd_1_1_expression_variable_owner_finder.html">gd::ExpressionVariableOwnerFinder</a></div><div class="ttdoc">Find the object name that should be used as a context of the expression or sub-expression that a give...</div><div class="ttdef"><b>Definition:</b> ExpressionVariableOwnerFinder.h:36</div></div>
-<div class="ttc" id="aclassgd_1_1_expression_variable_owner_finder_html_a15385eae7868c89f348c6a30fdded5fc"><div class="ttname"><a href="classgd_1_1_expression_variable_owner_finder.html#a15385eae7868c89f348c6a30fdded5fc">gd::ExpressionVariableOwnerFinder::GetObjectName</a></div><div class="ttdeci">static const gd::String GetObjectName(const gd::Platform &amp;platform, const gd::ObjectsContainer &amp;globalObjectsContainer, const gd::ObjectsContainer &amp;objectsContainer, const gd::String &amp;rootObjectName, gd::ExpressionNode &amp;node)</div><div class="ttdoc">Helper function to find the object name that should be used as a context of the expression or sub-exp...</div><div class="ttdef"><b>Definition:</b> ExpressionVariableOwnerFinder.h:43</div></div>
-<div class="ttc" id="aclassgd_1_1_expression_variable_owner_finder_html_a41cb32bdcdb135fd03a6a70843984395"><div class="ttname"><a href="classgd_1_1_expression_variable_owner_finder.html#a41cb32bdcdb135fd03a6a70843984395">gd::ExpressionVariableOwnerFinder::GetObjectName</a></div><div class="ttdeci">const gd::String &amp; GetObjectName()</div><div class="ttdoc">Get all the errors.</div><div class="ttdef"><b>Definition:</b> ExpressionVariableOwnerFinder.h:73</div></div>
-<div class="ttc" id="aclassgd_1_1_objects_container_html"><div class="ttname"><a href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a></div><div class="ttdoc">Used as a base class for classes that will own objects (see gd::Object).</div><div class="ttdef"><b>Definition:</b> ObjectsContainer.h:35</div></div>
+<div class="ttc" id="aclassgd_1_1_expression_variable_owner_finder_html"><div class="ttname"><a href="classgd_1_1_expression_variable_owner_finder.html">gd::ExpressionVariableOwnerFinder</a></div><div class="ttdoc">Find the object name that should be used as a context of the expression or sub-expression that a give...</div><div class="ttdef"><b>Definition:</b> ExpressionVariableOwnerFinder.h:41</div></div>
+<div class="ttc" id="aclassgd_1_1_expression_variable_owner_finder_html_a41cb32bdcdb135fd03a6a70843984395"><div class="ttname"><a href="classgd_1_1_expression_variable_owner_finder.html#a41cb32bdcdb135fd03a6a70843984395">gd::ExpressionVariableOwnerFinder::GetObjectName</a></div><div class="ttdeci">const gd::String &amp; GetObjectName()</div><div class="ttdoc">Get all the errors.</div><div class="ttdef"><b>Definition:</b> ExpressionVariableOwnerFinder.h:75</div></div>
+<div class="ttc" id="aclassgd_1_1_expression_variable_owner_finder_html_aaa6e1275971d6f64134f150adc0631f3"><div class="ttname"><a href="classgd_1_1_expression_variable_owner_finder.html#aaa6e1275971d6f64134f150adc0631f3">gd::ExpressionVariableOwnerFinder::GetObjectName</a></div><div class="ttdeci">static const gd::String GetObjectName(const gd::Platform &amp;platform, const gd::ObjectsContainersList &amp;objectsContainersList, const gd::String &amp;rootObjectName, gd::ExpressionNode &amp;node)</div><div class="ttdoc">Helper function to find the object name that should be used as a context of the expression or sub-exp...</div><div class="ttdef"><b>Definition:</b> ExpressionVariableOwnerFinder.h:48</div></div>
+<div class="ttc" id="aclassgd_1_1_objects_containers_list_html"><div class="ttname"><a href="classgd_1_1_objects_containers_list.html">gd::ObjectsContainersList</a></div><div class="ttdoc">A list of objects containers, useful for accessing objects in a scoped way, along with methods to acc...</div><div class="ttdef"><b>Definition:</b> ObjectsContainersList.h:29</div></div>
 <div class="ttc" id="aclassgd_1_1_parameter_metadata_html"><div class="ttname"><a href="classgd_1_1_parameter_metadata.html">gd::ParameterMetadata</a></div><div class="ttdoc">Describe a parameter of an instruction (action, condition) or of an expression: type,...</div><div class="ttdef"><b>Definition:</b> ParameterMetadata.h:27</div></div>
-<div class="ttc" id="aclassgd_1_1_parameter_metadata_html_aaeb5e8e421167a4458e747f8cac0632f"><div class="ttname"><a href="classgd_1_1_parameter_metadata.html#aaeb5e8e421167a4458e747f8cac0632f">gd::ParameterMetadata::IsObject</a></div><div class="ttdeci">static bool IsObject(const gd::String &amp;parameterType)</div><div class="ttdoc">Return true if the type of the parameter is representing one object (or more, i.e: an object group).</div><div class="ttdef"><b>Definition:</b> ParameterMetadata.h:181</div></div>
-<div class="ttc" id="aclassgd_1_1_parameter_metadata_html_af602db13fc210699c8b3d608f9dc5746"><div class="ttname"><a href="classgd_1_1_parameter_metadata.html#af602db13fc210699c8b3d608f9dc5746">gd::ParameterMetadata::GetType</a></div><div class="ttdeci">const gd::String &amp; GetType() const</div><div class="ttdoc">Return the type of the parameter.</div><div class="ttdef"><b>Definition:</b> ParameterMetadata.h:50</div></div>
+<div class="ttc" id="aclassgd_1_1_parameter_metadata_html_aaeb5e8e421167a4458e747f8cac0632f"><div class="ttname"><a href="classgd_1_1_parameter_metadata.html#aaeb5e8e421167a4458e747f8cac0632f">gd::ParameterMetadata::IsObject</a></div><div class="ttdeci">static bool IsObject(const gd::String &amp;parameterType)</div><div class="ttdoc">Return true if the type of the parameter is representing one object (or more, i.e: an object group).</div><div class="ttdef"><b>Definition:</b> ParameterMetadata.h:186</div></div>
+<div class="ttc" id="aclassgd_1_1_parameter_metadata_html_af602db13fc210699c8b3d608f9dc5746"><div class="ttname"><a href="classgd_1_1_parameter_metadata.html#af602db13fc210699c8b3d608f9dc5746">gd::ParameterMetadata::GetType</a></div><div class="ttdeci">const gd::String &amp; GetType() const</div><div class="ttdoc">Return the type of the parameter.</div><div class="ttdef"><b>Definition:</b> ParameterMetadata.h:55</div></div>
 <div class="ttc" id="aclassgd_1_1_platform_html"><div class="ttname"><a href="classgd_1_1_platform.html">gd::Platform</a></div><div class="ttdoc">Base class for implementing a platform.</div><div class="ttdef"><b>Definition:</b> Platform.h:42</div></div>
 <div class="ttc" id="aclassgd_1_1_string_html"><div class="ttname"><a href="classgd_1_1_string.html">gd::String</a></div><div class="ttdoc">String represents an UTF8 encoded string.</div><div class="ttdef"><b>Definition:</b> String.h:31</div></div>
 <div class="ttc" id="anamespacegd_html"><div class="ttname"><a href="namespacegd.html">gd</a></div><div class="ttdef"><b>Definition:</b> CommonTools.h:24</div></div>

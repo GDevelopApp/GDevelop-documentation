@@ -86,16 +86,16 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a15385eae7868c89f348c6a30fdded5fc"><td class="memItemLeft" align="right" valign="top"><a id="a15385eae7868c89f348c6a30fdded5fc"></a>
-static const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_expression_variable_owner_finder.html#a15385eae7868c89f348c6a30fdded5fc">GetObjectName</a> (const <a class="el" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform, const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;globalObjectsContainer, const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;objectsContainer, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;rootObjectName, <a class="el" href="structgd_1_1_expression_node.html">gd::ExpressionNode</a> &amp;node)</td></tr>
-<tr class="memdesc:a15385eae7868c89f348c6a30fdded5fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to find the object name that should be used as a context of the expression or sub-expression that a given node represents. <br /></td></tr>
-<tr class="separator:a15385eae7868c89f348c6a30fdded5fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa6e1275971d6f64134f150adc0631f3"><td class="memItemLeft" align="right" valign="top"><a id="aaa6e1275971d6f64134f150adc0631f3"></a>
+static const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_expression_variable_owner_finder.html#aaa6e1275971d6f64134f150adc0631f3">GetObjectName</a> (const <a class="el" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform, const <a class="el" href="classgd_1_1_objects_containers_list.html">gd::ObjectsContainersList</a> &amp;objectsContainersList, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;rootObjectName, <a class="el" href="structgd_1_1_expression_node.html">gd::ExpressionNode</a> &amp;node)</td></tr>
+<tr class="memdesc:aaa6e1275971d6f64134f150adc0631f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to find the object name that should be used as a context of the expression or sub-expression that a given node represents. <br /></td></tr>
+<tr class="separator:aaa6e1275971d6f64134f150adc0631f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:aec8140d1192870576b9c9016cd318857"><td class="memItemLeft" align="right" valign="top"><a id="aec8140d1192870576b9c9016cd318857"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>ExpressionVariableOwnerFinder</b> (const <a class="el" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform_, const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;globalObjectsContainer_, const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;objectsContainer_, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;rootObjectName_)</td></tr>
-<tr class="separator:aec8140d1192870576b9c9016cd318857"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade58f9eda4af4f2341e505460a68c797"><td class="memItemLeft" align="right" valign="top"><a id="ade58f9eda4af4f2341e505460a68c797"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ExpressionVariableOwnerFinder</b> (const <a class="el" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform_, const <a class="el" href="classgd_1_1_objects_containers_list.html">gd::ObjectsContainersList</a> &amp;objectsContainersList_, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;rootObjectName_)</td></tr>
+<tr class="separator:ade58f9eda4af4f2341e505460a68c797"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41cb32bdcdb135fd03a6a70843984395"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_expression_variable_owner_finder.html#a41cb32bdcdb135fd03a6a70843984395">GetObjectName</a> ()</td></tr>
 <tr class="memdesc:a41cb32bdcdb135fd03a6a70843984395"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all the errors.  <a href="classgd_1_1_expression_variable_owner_finder.html#a41cb32bdcdb135fd03a6a70843984395">More...</a><br /></td></tr>
 <tr class="separator:a41cb32bdcdb135fd03a6a70843984395"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,6 +138,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>OnVisitFunctionCallNo
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Find the object name that should be used as a context of the expression or sub-expression that a given node represents. </p>
+<p>This is needed because of the legacy convention where a "objectvar" parameter represents a variable of the object represented by the previous "object" parameter.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_expression_parser2.html" title="Parse an expression, returning a tree of node corresponding to the parsed expression.">gd::ExpressionParser2</a> </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a41cb32bdcdb135fd03a6a70843984395"></a>
