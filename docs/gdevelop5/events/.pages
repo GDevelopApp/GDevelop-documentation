@@ -1,8 +1,10 @@
 nav:
-    - "Default events": standard
+    - "About Object Picking": object-picking    
+    - "Default Events": standard
     - ...
-    - "For each object": foreach
-    - "For each child variable": foreach-child-variable
+    - "For Each Object": foreach
+    - "For Each Child Variable": foreach-child-variable
+    - "JavaScript Code": js-code
     - Custom Functions: functions
     - Advanced:
         - async.md
