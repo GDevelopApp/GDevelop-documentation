@@ -24,8 +24,7 @@ The general worflow is the following:
 - Display the price and available items in your game,
 - Register a variable that will be updated when an item purchase is approved (and other variables for when other things happen),
 - When the player clicks on an item, use the action to order it,
-- If the purchase is approved (the variable you set up is set to true), give the user what they bought,
-- Mark the purchase as completed for the user to be charged the money
+- If the purchase is approved (the variable you set up is set to true), give the user what they bought
 
 
 [Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/in-app-purchase/setup)
@@ -34,9 +33,6 @@ The general worflow is the following:
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
 ## Actions
-
-**Finalize a purchase**  
-Mark a purchase as delivered, after you delivered the goods the user has paid for. Until you do so, the user will not be charged and keep on getting the event triggered each time the app starts.
 
 **Finalize registration**  
 Finalize store registration. Do this after registering every product and before ordering or getting information about a product.
@@ -54,11 +50,14 @@ Register an item of your store. This is required to do for all items you want to
 
 Make sure you register them all and finalize registration before ordering an item.
 
-**Update a variable when an item is updated**  
-When an event is triggered for an item (item loaded, approved, already owned, etc..), this sets a scene variable to true.   
+**Update a variable when an item event is triggered**  
+When an event is triggered for an item (approved or finished), this sets a scene variable to true.   
 You can then compare the value of the variable in a condition, and have actions launched to react to the changes.
 
 ## Conditions
+
+**Check if item is owned**  
+Returns true if the item with ID is owned, false otherwise. (can return false until the store is initialized).
 
 **Store is ready**  
 Triggers after finalizing the registration, when items can be used (you can get data of an item like the price, you can use the action to order an item...).
