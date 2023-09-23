@@ -15,7 +15,7 @@ Create a simple 3D scene.
 ---
 
 Extension for GDevelop to create simple 3D scenes.  
-This extension is intended for easy and simple 3D rendering. It does not currently aim for realistic rendering with light and shadow.  
+This extension is intended for easy and simple 3D rendering. It does not currently aim for realistic 3D rendering.  
 
 ## ⚠️ Precautions for use  
 This extension is experimental. Destructive changes may be made.  
@@ -41,12 +41,6 @@ https://github.com/mrdoob/three.js/blob/dev/LICENSE
 
 **Add Child**  
 Add 3D Object as child to 3D object.
-
-**Built-In 3D WithThreeJS (Ultra Super Experimental)**  
-Use this action in place of the "Create 3D Scene" action.  
-The built-in 3D axes are different from the axes in WithThreeJS.
-Some WithThreeJS features are not available.
-⚠️ This may be deprecated in the future.
 
 **3D Camera Look At 3D Object**  
 3D Camera Look At 3D Object
@@ -113,6 +107,11 @@ Create 3D Axes Helper
 **Create 3D Box**  
 Create 3D Box
 
+**Create 3D Light**  
+⚠️ 3D Lights are highly loaded.  
+3D Directional Light and 3D Spot Light emit light in the -Z direction.
+3D Lights can be handled like 3D Objects.
+
 **Create 3D Model**  
 Create 3D Model
 
@@ -166,7 +165,7 @@ Output 3D Model Information To Console
 
 **Play 3D Animation**  
 Play 3D animation.  
-If already playing, only the "Animation Speed Scale" and "Loop" parameters are updated.
+If already playing, only the "Animation Speed Scale" and "Loop" properties are updated.
 
 **Play 3D Sound**  
 Play a 3D Positional Sound.
@@ -381,15 +380,18 @@ Link a Sprite object and  a 3D Camera.
 | `Object.LinkedCamera::Fov()` | Field Of View ||
 | `Object.LinkedCamera::Id()` | 3D Camera ID ||
 
-## 3D Model Transfer (Deprecated) 
+## Linked 3D Light 
 
-🚫 The recommendation is to use the "Create 3D Model From Built-In 3D Model" action instead of this behavior.
-This behavior transfers the built-in 3D model to the WithThreeJS 3D Scene.
-The original 2D object is deleted.
-⚠️ This may be deprecated in the future. 
+⚠️ 3D Lights are highly loaded.
+Link a Sprite object and  a 3D Light. 
 
-_No expressions for this behavior._
+### Behavior expressions
 
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.LinkedLight::Id()` | 3D Object ID ||
+| `Object.LinkedLight::Tilt()` | Tilt ||
+| `Object.LinkedLight::Type()` | Type ||
 
 ## 3D Plane Projection from Tiled Sprite 
 
