@@ -9,7 +9,7 @@ Read more about this:
 
 * [Create your own extensions](/gdevelop5/extensions/create)
 * [Share extensions with the community](/gdevelop5/extensions/share-extension)
-* [Contribute to GDevelop code](/gdevelop5/community/contribute-to-gdevelop-code)
+* [Extend GDevelop with JavaScript or C++](/gdevelop5/extensions/extend-gdevelop)
 
 ## Extensions list
 
