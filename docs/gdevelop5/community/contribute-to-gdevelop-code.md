@@ -3,7 +3,7 @@ title: Contribute to GDevelop code
 ---
 # Contribute to GDevelop code
 
-GDevelop is modular. It can be extended to suit your needs. In particular, all the features available for the games (objects, behaviors, and events) are based on a extension system. Since GDevelop is [open-source](https://github.com/4ian/GD), you can contribute to the existing extensions or you can create new ones. You can also take a look at the game engine or the editor source code and develop improvements.
+GDevelop is modular. It can be extended to suit your needs. In particular, all the features available for the games (objects, behaviors, and events) are based on a extension system. Since GDevelop is [open-source](https://github.com/4ian/GDevelop), you can contribute to the existing extensions or you can create new ones. You can also take a look at the game engine or the editor source code and develop improvements.
 
 !!! tip
     
