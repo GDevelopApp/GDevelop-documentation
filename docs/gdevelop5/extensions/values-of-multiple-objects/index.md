@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/dots-hexagon.svg" class="extension-icon"></img>
 Values of picked object instances (including position, size, force and angle).
 
-**Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames), [Bouh](https://gd.games/Bouh).
+**Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames), [Bouh](https://gd.games/Bouh), [Uiles](https://gd.games/Uiles).
 
 ---
 
@@ -40,6 +40,8 @@ Size expressions:
 - Width (min/max/average)
 - Height (min/max/average)
 
+Z-order expressions: (min/max/average)
+
 [Read more...](https://victrisgames.itch.io/values-of-multiple-objects)
 
 !!! tip
@@ -67,6 +69,8 @@ Size expressions:
 | | _👾 Object_ | Objects |
 | `ValuesOfMultipleObjects::AverageWidth(object)` | Average width of picked object instances. ||
 | | _👾 Object_ | Objects |
+| `ValuesOfMultipleObjects::AverageZOrder(object)` | Average Z order of picked object instances. ||
+| | _👾 Object_ | objects |
 | `ValuesOfMultipleObjects::MaxHeight(object)` | Max object height of picked object instances. ||
 | | _👾 Object_ | Objects |
 | `ValuesOfMultipleObjects::MaxWidth(object)` | Max object width of picked object instances. ||
@@ -75,6 +79,8 @@ Size expressions:
 | | _👾 Object_ | objects |
 | `ValuesOfMultipleObjects::MaxY(object)` | Maximum Y position of picked object instances (using AABB of objects). ||
 | | _👾 Object_ | objects |
+| `ValuesOfMultipleObjects::MaxZOrder(object)` | Maximum Z order of picked object instances. ||
+| | _👾 Object_ | objects |
 | `ValuesOfMultipleObjects::MinHeight(object)` | Min object height of picked object instances. ||
 | | _👾 Object_ | Objects |
 | `ValuesOfMultipleObjects::MinWidth(object)` | Min object width of picked object instances. ||
@@ -82,6 +88,8 @@ Size expressions:
 | `ValuesOfMultipleObjects::MinX(object)` | Minimum X position of picked object instances (using AABB of objects). ||
 | | _👾 Object_ | objects |
 | `ValuesOfMultipleObjects::MinY(object)` | Minimum Y position of picked object instances (using AABB of objects). ||
+| | _👾 Object_ | objects |
+| `ValuesOfMultipleObjects::MinZOrder(object)` | Minimum Z order of picked object instances. ||
 | | _👾 Object_ | objects |
 
 ---

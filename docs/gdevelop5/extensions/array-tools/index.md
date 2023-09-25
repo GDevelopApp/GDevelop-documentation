@@ -1,13 +1,13 @@
 # Array tools
 
-<img src="https://resources.gdevelop-app.com/assets/Icons/code-array.svg" class="extension-icon"></img>
+<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Text Editing/9bfb52500e68d0fd164b1e30bc696e40566187245b80c345848379f40bb6fad7_Text Editing_bullet_points_list.svg" class="extension-icon"></img>
 A collection of utilities and tools for working with arrays.
 
 **Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555).
 
 ---
 
-> Note: This extension is currently made in JavaScript instead of the event sheet as variables cannot be passed to events based functions yet. Due to this hack, the extension **only works on root scene variables**, not on child variables or non-scene variables.
+> Note: The v2.0.0 is not compatible with v1.0.0. If you update, you wil have to update ALL USAGES of the extension.
 
 This extension adds features like:
 
@@ -25,6 +25,18 @@ This extension adds features like:
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
 ## Actions
+
+**Append all variable to another array**  
+Appends a copy of all variables of one array to another array.
+
+**Combine 2 arrays**  
+Combines all elements of 2 scene arrays into one new scene array.
+
+**Fill array with number**  
+Fill an element with a number.
+
+**Flatten array**  
+Replaces all arrays inside of an array with their children. For example, [[1,2], [3,4]] becomes [1,2,3,4].
 
 **Append all variable to another array**  
 Appends a copy of all variables of one array to another array.
@@ -65,6 +77,72 @@ Cuts a portion of an array off.
 **Split string into array**  
 Split a string into an array of strings via a separator.
 
+**Insert variable at**  
+Insert a variable at a specific index of an array.
+
+**Append all variable to another array**  
+Appends a copy of all variables of one array to another array.
+
+**Combine 2 arrays**  
+Combines all elements of 2 scene arrays into one new scene array.
+
+**Fill array with number**  
+Fill an element with a number.
+
+**Flatten array**  
+Replaces all arrays inside of an array with their children. For example, [[1,2], [3,4]] becomes [1,2,3,4].
+
+**Insert variable at**  
+Insert a variable at a specific index of an array.
+
+**Pop array child**  
+Removes the last array child of an array, and stores it in another variable.
+
+**Reverse an array**  
+Reverses children of an array. The first array child becomes the last, and the last array child becomes the first.
+
+**Shift array child**  
+Removes the first array child of an array, and stores it in another variable.
+
+**Shuffle array**  
+Shuffles all children of an array.
+
+**Slice an array**  
+Copies a portion of a scene array variable into a new scene array variable.
+
+**Sort an array**  
+Sort an array of number from smallest to biggest.
+
+**Splice an array**  
+Cuts a portion of an array off.
+
+**Split string into array**  
+Split a string into an array of strings via a separator.
+
+**Pop array child**  
+Removes the last array child of an array, and stores it in another variable.
+
+**Reverse an array**  
+Reverses children of an array. The first array child becomes the last, and the last array child becomes the first.
+
+**Shift array child**  
+Removes the first array child of an array, and stores it in another variable.
+
+**Shuffle array**  
+Shuffles all children of an array.
+
+**Slice an array**  
+Copies a portion of a scene array variable into a new scene array variable.
+
+**Sort an array**  
+Sort an array of number from smallest to biggest.
+
+**Splice an array**  
+Cuts a portion of an array off.
+
+**Split string into array**  
+Split a string into an array of strings via a separator.
+
 ## Conditions
 
 **Array has number**  
@@ -73,47 +151,212 @@ Checks if an array contains a specific number.
 **Array has string**  
 Checks if an array contains a specific string.
 
+**Index of number**  
+Compare The index of the first variable that equals to a specific number in an array.
+
+**Index of text**  
+Compare The index of the first variable that equals to a specific text in an array.
+
+**Last index of number**  
+Compare The index of the last variable that equals to a specific number in an array.
+
+**Last index of text**  
+Compare The index of the last variable that equals to a specific text in an array.
+
+**Get and remove last variable from array (as number)**  
+Compare Removes the last array child of an array, and return it as a number.
+
+**Random number in array**  
+Compare Returns a random number of an array of numbers.
+
+**Random string in array**  
+Compare a random string of an array of strings.
+
+**Array has number**  
+Checks if an array contains a specific number.
+
+**Array has string**  
+Checks if an array contains a specific string.
+
+**Index of number**  
+Compare The index of the first variable that equals to a specific number in an array.
+
+**Index of text**  
+Compare The index of the first variable that equals to a specific text in an array.
+
+**Last index of number**  
+Compare The index of the last variable that equals to a specific number in an array.
+
+**Last index of text**  
+Compare The index of the last variable that equals to a specific text in an array.
+
+**Array has number**  
+Checks if an array contains a specific number.
+
+**Array has string**  
+Checks if an array contains a specific string.
+
+**Index of number**  
+Compare The index of the first variable that equals to a specific number in an array.
+
+**Index of text**  
+Compare The index of the first variable that equals to a specific text in an array.
+
+**Last index of number**  
+Compare The index of the last variable that equals to a specific number in an array.
+
+**Last index of text**  
+Compare The index of the last variable that equals to a specific text in an array.
+
+**Get and remove last variable from array (as number)**  
+Compare Removes the last array child of an array, and return it as a number.
+
+**Random number in array**  
+Compare Returns a random number of an array of numbers.
+
+**Random string in array**  
+Compare a random string of an array of strings.
+
+**Get and remove last variable from array (as number)**  
+Compare Removes the last array child of an array, and return it as a number.
+
+**Random number in array**  
+Compare Returns a random number of an array of numbers.
+
+**Random string in array**  
+Compare a random string of an array of strings.
+
 ## Expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `ArrayTools::GetRandomNumber(string)` | Returns a random number of an array of numbers. ||
-| | _string_ | The name of the scene array variable |
-| `ArrayTools::GetRandomString(string)` | Returns a random string of an array of strings. ||
-| | _string_ | The name of the scene array variable |
-| `ArrayTools::IndexOf(string, number)` | The index of the first variable that equals to a specific number in an array. ||
-| | _string_ | The name of the scene array variable |
-| | _🔢 Number_ | The number to search in the array |
-| `ArrayTools::IndexOfStr(string, string)` | The index of the first variable that equals to a specific text in an array. ||
-| | _string_ | The name of the scene array variable |
-| | _string_ | The string to search in the array |
-| `ArrayTools::Join(string, string)` | Returns a string made from all strings in an array. ||
-| | _string_ | The name of the array to join into a string |
+| `ArrayTools::GlobalIndexOf(global variable, number)` | Return The index of the first variable that equals to a specific number in an array. ||
+| | _🗄️ Global variable_ | Array to search the value in |
+| | _🔢 Number_ | Number to search in the array |
+| `ArrayTools::GlobalIndexOfStr(global variable, string)` | Return The index of the first variable that equals to a specific text in an array. ||
+| | _🗄️ Global variable_ | Array to search the value in |
+| | _string_ | String to search in the array |
+| `ArrayTools::GlobalJoin(global variable, string)` | Returns a string made from all strings in an array. ||
+| | _🗄️ Global variable_ | The name of the array to join into a string |
 | | _string_ | Optional separator text between each element |
-| `ArrayTools::LastIndexOf(string, number)` | The index of the last variable that equals to a specific number in an array. ||
-| | _string_ | The name of the scene array variable |
-| | _🔢 Number_ | The number to search in the array |
-| `ArrayTools::LastIndexOfStr(string, string)` | The index of the last variable that equals to a specific text in an array. ||
-| | _string_ | The name of the scene array variable |
-| | _string_ | The string to search in the array |
-| `ArrayTools::Max(string)` | Gets the biggest number in an array. ||
-| | _string_ | The array |
-| `ArrayTools::Mean(string)` | Gets the average number in an array. ||
-| | _string_ | The array |
-| `ArrayTools::Median(string)` | Gets the median number in an array. ||
-| | _string_ | The array |
-| `ArrayTools::Min(string)` | Gets the smallest number in an array. ||
-| | _string_ | The array |
-| `ArrayTools::PopNumber(string)` | Removes the last array child of an array, and return it as a number. ||
-| | _string_ | The array to pop a child from |
-| `ArrayTools::PopString(string)` | Removes the last array child of an array, and return it as a string. ||
-| | _string_ | The array to pop a child from |
-| `ArrayTools::ShiftNumber(string)` | Removes the first array child of an array, and return it as a number. ||
-| | _string_ | The array to shift a child from |
-| `ArrayTools::ShiftString(string)` | Removes the first array child of an array, and return it as a string. ||
-| | _string_ | The array to shift a child from |
-| `ArrayTools::Sum(string)` | Get the sum of all numbers in an array. ||
-| | _string_ | The name of the array |
+| `ArrayTools::GlobalLastIndexOf(global variable, number)` | Return The index of the last variable that equals to a specific number in an array. ||
+| | _🗄️ Global variable_ | Array to search the value in |
+| | _🔢 Number_ | Number to search in the array |
+| `ArrayTools::GlobalLastIndexOfStr(global variable, string)` | Return The index of the last variable that equals to a specific text in an array. ||
+| | _🗄️ Global variable_ | Array to search the value in |
+| | _string_ | String to search in the array |
+| `ArrayTools::GlobalMax(global variable)` | Gets the biggest number in an array. ||
+| | _🗄️ Global variable_ | The array |
+| `ArrayTools::GlobalMean(global variable)` | Gets the average number in an array. ||
+| | _🗄️ Global variable_ | The array |
+| `ArrayTools::GlobalMedian(global variable)` | Gets the median number in an array. ||
+| | _🗄️ Global variable_ | The array |
+| `ArrayTools::GlobalMin(global variable)` | Gets the smallest number in an array. ||
+| | _🗄️ Global variable_ | The array |
+| `ArrayTools::GlobalPopNumber(global variable)` | Return Removes the last array child of an array, and return it as a number. ||
+| | _🗄️ Global variable_ | Array to pop a child from |
+| `ArrayTools::GlobalPopString(global variable)` | Removes the last array child of an array, and return it as a string. ||
+| | _🗄️ Global variable_ | Array to pop a child from |
+| `ArrayTools::GlobalRandomNumberInArray(global variable)` | Return Returns a random number of an array of numbers. ||
+| | _🗄️ Global variable_ | Array to get a number from |
+| `ArrayTools::GlobalRandomStringInArray(global variable)` | Return a random string of an array of strings. ||
+| | _🗄️ Global variable_ | Array to get a string from |
+| `ArrayTools::GlobalShiftNumber(global variable)` | Removes the first array child of an array, and return it as a number. ||
+| | _🗄️ Global variable_ | Array to shift a child from |
+| `ArrayTools::GlobalShiftString(global variable)` | Removes the first array child of an array, and return it as a string. ||
+| | _🗄️ Global variable_ | Array to shift a child from |
+| `ArrayTools::GlobalSum(global variable)` | Get the sum of all numbers in an array. ||
+| | _🗄️ Global variable_ | The array |
+| `ArrayTools::IndexOf(scene variable, number)` | Return The index of the first variable that equals to a specific number in an array. ||
+| | _🗄️ Scene variable_ | Array to search the value in |
+| | _🔢 Number_ | Number to search in the array |
+| `ArrayTools::IndexOfStr(scene variable, string)` | Return The index of the first variable that equals to a specific text in an array. ||
+| | _🗄️ Scene variable_ | Array to search the value in |
+| | _string_ | String to search in the array |
+| `ArrayTools::Join(scene variable, string)` | Returns a string made from all strings in an array. ||
+| | _🗄️ Scene variable_ | The name of the array to join into a string |
+| | _string_ | Optional separator text between each element |
+| `ArrayTools::LastIndexOf(scene variable, number)` | Return The index of the last variable that equals to a specific number in an array. ||
+| | _🗄️ Scene variable_ | Array to search the value in |
+| | _🔢 Number_ | Number to search in the array |
+| `ArrayTools::LastIndexOfStr(scene variable, string)` | Return The index of the last variable that equals to a specific text in an array. ||
+| | _🗄️ Scene variable_ | Array to search the value in |
+| | _string_ | String to search in the array |
+| `ArrayTools::Max(scene variable)` | Gets the biggest number in an array. ||
+| | _🗄️ Scene variable_ | The array |
+| `ArrayTools::Mean(scene variable)` | Gets the average number in an array. ||
+| | _🗄️ Scene variable_ | The array |
+| `ArrayTools::Median(scene variable)` | Gets the median number in an array. ||
+| | _🗄️ Scene variable_ | The array |
+| `ArrayTools::Min(scene variable)` | Gets the smallest number in an array. ||
+| | _🗄️ Scene variable_ | The array |
+| `ArrayTools::ObjectIndexOf(object, object variable, number)` | Return The index of the first variable that equals to a specific number in an array. ||
+| | _👾 Object_ | The object the variable is from |
+| | _🗄️ Object variable_ | Array to search the value in |
+| | _🔢 Number_ | Number to search in the array |
+| `ArrayTools::ObjectIndexOfStr(object, object variable, string)` | Return The index of the first variable that equals to a specific text in an array. ||
+| | _👾 Object_ | The object the variable is from |
+| | _🗄️ Object variable_ | Array to search the value in |
+| | _string_ | String to search in the array |
+| `ArrayTools::ObjectJoin(object, object variable, string)` | Returns a string made from all strings in an array. ||
+| | _👾 Object_ | The object the variable is from |
+| | _🗄️ Object variable_ | The name of the array to join into a string |
+| | _string_ | Optional separator text between each element |
+| `ArrayTools::ObjectLastIndexOf(object, object variable, number)` | Return The index of the last variable that equals to a specific number in an array. ||
+| | _👾 Object_ | The object the variable is from |
+| | _🗄️ Object variable_ | Array to search the value in |
+| | _🔢 Number_ | Number to search in the array |
+| `ArrayTools::ObjectLastIndexOfStr(object, object variable, string)` | Return The index of the last variable that equals to a specific text in an array. ||
+| | _👾 Object_ | The object the variable is from |
+| | _🗄️ Object variable_ | Array to search the value in |
+| | _string_ | String to search in the array |
+| `ArrayTools::ObjectMax(object, object variable)` | Gets the biggest number in an array. ||
+| | _👾 Object_ | The object the variable is from |
+| | _🗄️ Object variable_ | The array |
+| `ArrayTools::ObjectMean(object, object variable)` | Gets the average number in an array. ||
+| | _👾 Object_ | The object the variable is from |
+| | _🗄️ Object variable_ | The array |
+| `ArrayTools::ObjectMedian(object, object variable)` | Gets the median number in an array. ||
+| | _👾 Object_ | The object the variable is from |
+| | _🗄️ Object variable_ | The array |
+| `ArrayTools::ObjectMin(object, object variable)` | Gets the smallest number in an array. ||
+| | _👾 Object_ | The object the variable is from |
+| | _🗄️ Object variable_ | The array |
+| `ArrayTools::ObjectPopNumber(object, object variable)` | Return Removes the last array child of an array, and return it as a number. ||
+| | _👾 Object_ | The object the variable is from |
+| | _🗄️ Object variable_ | Array to pop a child from |
+| `ArrayTools::ObjectPopString(object, object variable)` | Removes the last array child of an array, and return it as a string. ||
+| | _👾 Object_ | The object the variable is from |
+| | _🗄️ Object variable_ | Array to pop a child from |
+| `ArrayTools::ObjectRandomNumberInArray(object, object variable)` | Return Returns a random number of an array of numbers. ||
+| | _👾 Object_ | The object the variable is from |
+| | _🗄️ Object variable_ | Array to get a number from |
+| `ArrayTools::ObjectRandomStringInArray(object, object variable)` | Return a random string of an array of strings. ||
+| | _👾 Object_ | The object the variable is from |
+| | _🗄️ Object variable_ | Array to get a string from |
+| `ArrayTools::ObjectShiftNumber(object, object variable)` | Removes the first array child of an array, and return it as a number. ||
+| | _👾 Object_ | The object the variable is from |
+| | _🗄️ Object variable_ | Array to shift a child from |
+| `ArrayTools::ObjectShiftString(object, object variable)` | Removes the first array child of an array, and return it as a string. ||
+| | _👾 Object_ | The object the variable is from |
+| | _🗄️ Object variable_ | Array to shift a child from |
+| `ArrayTools::ObjectSum(object, object variable)` | Get the sum of all numbers in an array. ||
+| | _👾 Object_ | The object the variable is from |
+| | _🗄️ Object variable_ | The array |
+| `ArrayTools::PopNumber(scene variable)` | Return Removes the last array child of an array, and return it as a number. ||
+| | _🗄️ Scene variable_ | Array to pop a child from |
+| `ArrayTools::PopString(scene variable)` | Removes the last array child of an array, and return it as a string. ||
+| | _🗄️ Scene variable_ | Array to pop a child from |
+| `ArrayTools::RandomNumberInArray(scene variable)` | Return Returns a random number of an array of numbers. ||
+| | _🗄️ Scene variable_ | Array to get a number from |
+| `ArrayTools::RandomStringInArray(scene variable)` | Return a random string of an array of strings. ||
+| | _🗄️ Scene variable_ | Array to get a string from |
+| `ArrayTools::ShiftNumber(scene variable)` | Removes the first array child of an array, and return it as a number. ||
+| | _🗄️ Scene variable_ | Array to shift a child from |
+| `ArrayTools::ShiftString(scene variable)` | Removes the first array child of an array, and return it as a string. ||
+| | _🗄️ Scene variable_ | Array to shift a child from |
+| `ArrayTools::Sum(scene variable)` | Get the sum of all numbers in an array. ||
+| | _🗄️ Scene variable_ | The array |
 
 ---
 
