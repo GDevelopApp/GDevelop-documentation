@@ -921,6 +921,7 @@ Move the object in 3D space.
 
 | Expression | Description |  |
 |-----|-----|-----|
+| `Object.Object3D::CenterZ()` | Return the Z position of the center of rotation. ||
 | `Object.Object3D::Depth()` | Return the depth (size on Z axis). ||
 | `Object.Object3D::RotationX()` | Return the rotation on X axis. ||
 | `Object.Object3D::RotationY()` | Return the rotation on Y axis. ||

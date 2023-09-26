@@ -107,6 +107,9 @@ Move the object in 3D space.
 **Flip the object on Z**  
 Flip the object on Z axis
 
+**Center Z position**  
+Change the Z position of the center of rotation.
+
 **Depth (size on Z axis)**  
 Change the depth (size on Z axis).
 
@@ -133,6 +136,9 @@ Turn the object around Z axis. This axis doesn't move with the object rotation.
 
 ### Behavior conditions
 
+**Center Z position**  
+Compare the Z position of the center of rotation.
+
 **Depth (size on Z axis)**  
 Compare the depth (size on Z axis).
 
@@ -155,6 +161,7 @@ Compare the Z position (the "elevation").
 
 | Expression | Description |  |
 |-----|-----|-----|
+| `Object.Object3D::CenterZ()` | Return the Z position of the center of rotation. ||
 | `Object.Object3D::Depth()` | Return the depth (size on Z axis). ||
 | `Object.Object3D::RotationX()` | Return the rotation on X axis. ||
 | `Object.Object3D::RotationY()` | Return the rotation on Y axis. ||
