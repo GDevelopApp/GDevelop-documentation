@@ -48,7 +48,7 @@ Tutoriels communautaires :
 # Tutoriels vidéo
 
 - [La liste des tutoriels vidéo réalisé par la Communauté francophone](https://www.youtube.com/watch?list=PL3YlZTdKiS8_S_BaL5NNMyYDwKlQjnfU9)
-- [La liste des tutoriels vidéo réalisés par la Communauté](/gdevelop5/tutorials/videos). (anglais)
+- [La liste des tutoriels vidéo réalisés par la Communauté anglophone](/gdevelop5/tutorials/videos).
 
 ------------------------------------------------------------------------
 
