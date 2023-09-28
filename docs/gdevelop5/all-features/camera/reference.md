@@ -37,17 +37,17 @@ Set the ambient light color of the lighting layer in format "R;G;B" string.
 **Layer default Z order**  
 Change the default Z order set to objects when they are created on a layer.
 
-**Effect parameter (enable or disable)**  
-Enable or disable a parameter of an effect.  
-You can find the parameter names (and change the effect names) in the effects window.
+**Effect property (enable or disable)**  
+Enable or disable a property of an effect.  
+You can find the property names (and change the effect names) in the effects window.
 
-**Effect parameter (number)**  
-Change the value of a parameter of an effect.  
-You can find the parameter names (and change the effect names) in the effects window.
+**Effect property (number)**  
+Change the value of a property of an effect.  
+You can find the property names (and change the effect names) in the effects window.
 
-**Effect parameter (string)**  
-Change the value (string) of a parameter of an effect.  
-You can find the parameter names (and change the effect names) in the effects window.
+**Effect property (string)**  
+Change the value (string) of a property of an effect.  
+You can find the property names (and change the effect names) in the effects window.
 
 **Show a layer**  
 Show a layer.

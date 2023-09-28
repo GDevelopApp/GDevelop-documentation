@@ -13,17 +13,17 @@ Apply visual effects to objects.
 **Enable an object effect**  
 Enable an effect on the object
 
-**Effect parameter (enable or disable)**  
-Enable or disable a parameter of an effect.  
-You can find the parameter names (and change the effect names) in the effects window.
+**Effect property (enable or disable)**  
+Enable or disable a property of an effect.  
+You can find the property names (and change the effect names) in the effects window.
 
-**Effect parameter (number)**  
-Change the value of a parameter of an effect.  
-You can find the parameter names (and change the effect names) in the effects window.
+**Effect property (number)**  
+Change the value of a property of an effect.  
+You can find the property names (and change the effect names) in the effects window.
 
-**Effect parameter (string)**  
-Change the value (string) of a parameter of an effect.  
-You can find the parameter names (and change the effect names) in the effects window.
+**Effect property (string)**  
+Change the value (string) of a property of an effect.  
+You can find the property names (and change the effect names) in the effects window.
 
 ### Behavior conditions
 
