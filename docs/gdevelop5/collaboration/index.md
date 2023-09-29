@@ -42,3 +42,8 @@ You will then have 2 choices:
 - **Cancel**. You will have to re-open the project to see the changes made by the other person. Ensure you save your changes somewhere else, or are able to easily reproduce them!
 
 ![](/gdevelop5/collaboration/project-modified.png)
+
+## Collaborate locally
+
+If you don't want to use GDevelop's Cloud, you can still collaborate on a project by saving it locally and using a version control system like Git.
+Checkout the [Git tutorial](/gdevelop5/tutorials/using-github-desktop) for more information.
