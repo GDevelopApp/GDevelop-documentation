@@ -7,7 +7,7 @@ title: Collaborate on a GDevelop project
 GDevelop allows you to collaborate on your project with other users, for example teammates or co-workers.
 There are 2 requirements to collaborate on a project:
 
-- The project must be saved to GDevelop's Cloud.
+- The project must be saved to GDevelop Cloud.
 - The owner of the project must have a [Startup subscription](https://gdevelop.io/pricing/business).
 
 ![Share dialog](/gdevelop5/collaboration/share-dialog.png)
@@ -44,7 +44,11 @@ You will then have 2 choices:
 
 ![](/gdevelop5/collaboration/project-modified.png)
 
+!!! note
+
+    Working at the same time on a project with another user will be progressively introduced to GDevelop in the future.
+
 ## Collaborate locally
 
-If you don't want to use GDevelop's Cloud, you can still collaborate on a project by saving it locally and using a version control system like Git.
+If you don't want to use GDevelop Cloud, you can still collaborate on a project by saving it locally and using a version control system like Git.
 Checkout the [Git tutorial](/gdevelop5/tutorials/using-github-desktop) for more information.
