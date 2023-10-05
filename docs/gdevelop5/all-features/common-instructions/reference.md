@@ -4,9 +4,6 @@ GDevelop comes with a set of events and conditions that allow to express the gam
 
 ## Conditions
 
-**Always**  
-This condition always returns true (or always false, if the condition is inverted).
-
 **And**  
 Check if all sub conditions are true
 
