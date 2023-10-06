@@ -40,6 +40,28 @@ extra:
   analytics:
     provider: google
     property: G-X8HPPE6EPT
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/4ian/GDevelop
+      name: GDevelop on GitHub
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/GDevelop
+      name: GDevelop on Discord
+    - icon: fontawesome/brands/reddit
+      link: https://www.reddit.com/r/gdevelop/
+      name: GDevelop on Reddit
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/GDevelopApp
+      name: GDevelop on Twitter
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/GDevelopApp
+      name: GDevelop on Instagram
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/GDevelopApp
+      name: GDevelop on Facebook
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/gdevelop/
+      name: GDevelop on LinkedIn
 extra_css:
   - stylesheets/extra.css
 extra_javascript:
