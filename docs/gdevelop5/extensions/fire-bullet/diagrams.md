@@ -1,7 +1,10 @@
 ---
 title: Diagrams
 ---
-# Fire Bullet
+# Fire Bullet technical documentation
+
+!!! tip
+    Learn how to use the [Fire Bullet](/gdevelop5/extensions/fire-bullet/details) extension.
 
 ## Logic diagram
 
