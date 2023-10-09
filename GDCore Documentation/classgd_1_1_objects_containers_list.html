@@ -69,6 +69,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classgd_1_1_objects_containers_list-members.html">List of all members</a>  </div>
@@ -82,16 +83,25 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="_objects_containers_list_8h_source.html">ObjectsContainersList.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:adf8b1557790a4ec780e7805c5877eb69"><td class="memItemLeft" align="right" valign="top"><a id="adf8b1557790a4ec780e7805c5877eb69"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>VariableExistence</b> { <b>DoesNotExist</b>
+, <b>Exists</b>
+, <b>GroupIsEmpty</b>
+, <b>ExistsOnlyOnSomeObjectsOfTheGroup</b>
+ }</td></tr>
+<tr class="separator:adf8b1557790a4ec780e7805c5877eb69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9cb80dc855034df9a77103f58455b90e"><td class="memItemLeft" align="right" valign="top"><a id="a9cb80dc855034df9a77103f58455b90e"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_containers_list.html#a9cb80dc855034df9a77103f58455b90e">HasObjectOrGroupNamed</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name) const</td></tr>
 <tr class="memdesc:a9cb80dc855034df9a77103f58455b90e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the specified object or group exists. <br /></td></tr>
 <tr class="separator:a9cb80dc855034df9a77103f58455b90e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e2829c3a230ec7c6703e780beed2f9b"><td class="memItemLeft" align="right" valign="top"><a id="a3e2829c3a230ec7c6703e780beed2f9b"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_containers_list.html#a3e2829c3a230ec7c6703e780beed2f9b">HasObjectOrGroupWithVariableNamed</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectOrGroupName, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;variableName) const</td></tr>
-<tr class="memdesc:a3e2829c3a230ec7c6703e780beed2f9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the specified object or group has the specified variable in its declared variables. <br /></td></tr>
-<tr class="separator:a3e2829c3a230ec7c6703e780beed2f9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3141ee104ef5b8dd3afb77e70300f22"><td class="memItemLeft" align="right" valign="top"><a id="ae3141ee104ef5b8dd3afb77e70300f22"></a>
+VariableExistence&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_containers_list.html#ae3141ee104ef5b8dd3afb77e70300f22">HasObjectOrGroupWithVariableNamed</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectOrGroupName, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;variableName) const</td></tr>
+<tr class="memdesc:ae3141ee104ef5b8dd3afb77e70300f22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the specified object or group has the specified variable in its declared variables. <br /></td></tr>
+<tr class="separator:ae3141ee104ef5b8dd3afb77e70300f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16f8a82bbedce0dfe2d9c946b59ba51f"><td class="memItemLeft" align="right" valign="top"><a id="a16f8a82bbedce0dfe2d9c946b59ba51f"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_containers_list.html#a16f8a82bbedce0dfe2d9c946b59ba51f">HasVariablesContainer</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectOrGroupName, const <a class="el" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> &amp;variablesContainer) const</td></tr>
 <tr class="memdesc:a16f8a82bbedce0dfe2d9c946b59ba51f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the specified object or group has the specified variables container. <br /></td></tr>
@@ -127,6 +137,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>ForEachObject</b> (st
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_containers_list.html#a402985ec5407995f783f9b7561c45081">ForEachNameWithPrefix</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;prefix, std::function&lt; void(const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name, const <a class="el" href="classgd_1_1_object_configuration.html">gd::ObjectConfiguration</a> *objectConfiguration)&gt; fn) const</td></tr>
 <tr class="memdesc:a402985ec5407995f783f9b7561c45081"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call the callback for each object or group name starting with the prefix passed in parameter. <br /></td></tr>
 <tr class="separator:a402985ec5407995f783f9b7561c45081"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cdeac207df34971d44e9ca741eb7770"><td class="memItemLeft" align="right" valign="top"><a id="a7cdeac207df34971d44e9ca741eb7770"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_containers_list.html#a7cdeac207df34971d44e9ca741eb7770">ForEachObjectOrGroupVariableWithPrefix</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectOrGroupName, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;prefix, std::function&lt; void(const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;variableName, const <a class="el" href="classgd_1_1_variable.html">gd::Variable</a> &amp;variable)&gt; fn) const</td></tr>
+<tr class="memdesc:a7cdeac207df34971d44e9ca741eb7770"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call the callback for each variable of the object (or group) starting with the prefix passed in parameter. <br /></td></tr>
+<tr class="separator:a7cdeac207df34971d44e9ca741eb7770"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93942c5438ea8058f87cb8164e067a96"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_containers_list.html#a93942c5438ea8058f87cb8164e067a96">ObjectsContainersList</a> ()</td></tr>
 <tr class="separator:a93942c5438ea8058f87cb8164e067a96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
