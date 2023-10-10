@@ -157,9 +157,9 @@ $(function() {
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            <span class="stringliteral">&quot;example: \&quot;Your name: \&quot; + VariableString(PlayerName).&quot;</span>, node.rightHandSide-&gt;location);</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;      }</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;      <span class="keywordflow">else</span> <span class="keywordflow">if</span> (node.op != <span class="charliteral">&#39;+&#39;</span>) {</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;      RaiseOperatorError(</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;          _(<span class="stringliteral">&quot;You&#39;ve used an operator that is not supported. Only + can be used &quot;</span></div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            <span class="stringliteral">&quot;to concatenate texts.&quot;</span>),</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        RaiseOperatorError(</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            _(<span class="stringliteral">&quot;You&#39;ve used an operator that is not supported. Only + can be used &quot;</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;              <span class="stringliteral">&quot;to concatenate texts.&quot;</span>),</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            ExpressionParserLocation(node.leftHandSide-&gt;location.GetEndPosition() + 1, node.location.GetEndPosition()));</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;      }</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (leftType == Type::Object) {</div>
@@ -178,285 +178,301 @@ $(function() {
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    node.rightHandSide-&gt;Visit(*<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="keyword">const</span> <a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> rightType = childType;</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160; </div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    childType = leftType;</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  }</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;  <span class="keywordtype">void</span> OnVisitUnaryOperatorNode(UnaryOperatorNode&amp; node)<span class="keyword"> override </span>{</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    ReportAnyError(node);</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    node.factor-&gt;Visit(*<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <span class="keyword">const</span> <a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> rightType = childType;</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160; </div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="keywordflow">if</span> (rightType == Type::Number) {</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;      <span class="keywordflow">if</span> (node.op != <span class="charliteral">&#39;+&#39;</span> &amp;&amp; node.op != <span class="charliteral">&#39;-&#39;</span>) {</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        <span class="comment">// This is actually a dead code because the parser takes them as</span></div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        <span class="comment">// binary operations with an empty left side which makes as much sense.</span></div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        RaiseTypeError(</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;          _(<span class="stringliteral">&quot;You&#39;ve used an \&quot;unary\&quot; operator that is not supported. Operator &quot;</span></div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;            <span class="stringliteral">&quot;should be &quot;</span></div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;            <span class="stringliteral">&quot;either + or -.&quot;</span>),</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;          node.location);</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;      }</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (rightType == Type::String) {</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;      RaiseTypeError(</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;          _(<span class="stringliteral">&quot;You&#39;ve used an operator that is not supported. Only + can be used &quot;</span></div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;            <span class="stringliteral">&quot;to concatenate texts, and must be placed between two texts (or &quot;</span></div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;            <span class="stringliteral">&quot;expressions).&quot;</span>),</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;          node.location);</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (rightType == Type::Object) {</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;      RaiseTypeError(</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;          _(<span class="stringliteral">&quot;Operators (+, -) can&#39;t be used with an object name. Remove the &quot;</span></div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            <span class="stringliteral">&quot;operator.&quot;</span>),</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;          node.location);</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (rightType == Type::Variable) {</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;      RaiseTypeError(</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;          _(<span class="stringliteral">&quot;Operators (+, -) can&#39;t be used in variable names. Remove &quot;</span></div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;            <span class="stringliteral">&quot;the operator from the variable name.&quot;</span>),</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;          node.location);</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    }</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;  }</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;  <span class="keywordtype">void</span> OnVisitNumberNode(NumberNode&amp; node)<span class="keyword"> override </span>{</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    ReportAnyError(node);</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    childType = Type::Number;</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    <span class="keywordflow">if</span> (parentType == Type::String) {</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;      RaiseTypeError(</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;          _(<span class="stringliteral">&quot;You entered a number, but a text was expected (in quotes).&quot;</span>),</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;          node.location);</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (parentType != Type::Number &amp;&amp;</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;               parentType != Type::NumberOrString) {</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;      RaiseTypeError(_(<span class="stringliteral">&quot;You entered a number, but this type was expected:&quot;</span>) +</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;                         <span class="stringliteral">&quot; &quot;</span> + TypeToString(parentType),</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;                     node.location);</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    }</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;  }</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;  <span class="keywordtype">void</span> OnVisitTextNode(TextNode&amp; node)<span class="keyword"> override </span>{</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    ReportAnyError(node);</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    childType = Type::String;</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <span class="keywordflow">if</span> (parentType == Type::Number) {</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;      RaiseTypeError(_(<span class="stringliteral">&quot;You entered a text, but a number was expected.&quot;</span>),</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;                     node.location);</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (parentType != Type::String &amp;&amp;</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;               parentType != Type::NumberOrString) {</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;      RaiseTypeError(_(<span class="stringliteral">&quot;You entered a text, but this type was expected:&quot;</span>) +</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;                         <span class="stringliteral">&quot; &quot;</span> + TypeToString(parentType),</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;                     node.location);</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    }</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;  }</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;  <span class="keywordtype">void</span> OnVisitVariableNode(VariableNode&amp; node)<span class="keyword"> override </span>{</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    ReportAnyError(node);</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160; </div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    <span class="keywordflow">if</span> (parentType == Type::Variable) {</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;      childType = Type::Variable;</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160; </div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;      <span class="keywordflow">if</span> (node.child) {</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        node.child-&gt;Visit(*<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;      }</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (parentType == Type::String || parentType == Type::Number || parentType == Type::NumberOrString) {</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;      <span class="comment">// The node represents a variable or an object variable in an expression waiting for its *value* to be returned.</span></div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;      childType = parentType;</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160; </div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span>&amp; variablesContainersList = projectScopedContainers.GetVariablesContainersList();</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span>&amp; objectsContainersList = projectScopedContainers.GetObjectsContainersList();</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span>&amp; propertiesContainerList = projectScopedContainers.GetPropertiesContainersList();</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <span class="comment">// The type is decided by the first operand, unless it can (`number|string`)</span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <span class="comment">// or should (`unknown`) be refined, in which case we go for the right</span></div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="comment">// operand (which got visited knowing the type of the first operand, so it&#39;s</span></div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <span class="comment">// equal or strictly more precise than the left operand).</span></div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    childType = (leftType == Type::Unknown || leftType == Type::NumberOrString) ? leftType : rightType;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;  }</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;  <span class="keywordtype">void</span> OnVisitUnaryOperatorNode(UnaryOperatorNode&amp; node)<span class="keyword"> override </span>{</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    ReportAnyError(node);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    node.factor-&gt;Visit(*<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="keyword">const</span> <a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> rightType = childType;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160; </div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <span class="keywordflow">if</span> (rightType == Type::Number) {</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;      <span class="keywordflow">if</span> (node.op != <span class="charliteral">&#39;+&#39;</span> &amp;&amp; node.op != <span class="charliteral">&#39;-&#39;</span>) {</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        <span class="comment">// This is actually a dead code because the parser takes them as</span></div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        <span class="comment">// binary operations with an empty left side which makes as much sense.</span></div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        RaiseTypeError(</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;          _(<span class="stringliteral">&quot;You&#39;ve used an \&quot;unary\&quot; operator that is not supported. Operator &quot;</span></div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;            <span class="stringliteral">&quot;should be &quot;</span></div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;            <span class="stringliteral">&quot;either + or -.&quot;</span>),</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;          node.location);</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;      }</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (rightType == Type::String) {</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;      RaiseTypeError(</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;          _(<span class="stringliteral">&quot;You&#39;ve used an operator that is not supported. Only + can be used &quot;</span></div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;            <span class="stringliteral">&quot;to concatenate texts, and must be placed between two texts (or &quot;</span></div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            <span class="stringliteral">&quot;expressions).&quot;</span>),</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;          node.location);</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (rightType == Type::Object) {</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;      RaiseTypeError(</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;          _(<span class="stringliteral">&quot;Operators (+, -) can&#39;t be used with an object name. Remove the &quot;</span></div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;            <span class="stringliteral">&quot;operator.&quot;</span>),</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;          node.location);</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (rightType == Type::Variable) {</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;      RaiseTypeError(</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;          _(<span class="stringliteral">&quot;Operators (+, -) can&#39;t be used in variable names. Remove &quot;</span></div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            <span class="stringliteral">&quot;the operator from the variable name.&quot;</span>),</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;          node.location);</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    }</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;  }</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;  <span class="keywordtype">void</span> OnVisitNumberNode(NumberNode&amp; node)<span class="keyword"> override </span>{</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    ReportAnyError(node);</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    childType = Type::Number;</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <span class="keywordflow">if</span> (parentType == Type::String) {</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;      RaiseTypeError(</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;          _(<span class="stringliteral">&quot;You entered a number, but a text was expected (in quotes).&quot;</span>),</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;          node.location);</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (parentType != Type::Number &amp;&amp;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;               parentType != Type::NumberOrString) {</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;      RaiseTypeError(_(<span class="stringliteral">&quot;You entered a number, but this type was expected:&quot;</span>) +</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;                         <span class="stringliteral">&quot; &quot;</span> + TypeToString(parentType),</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                     node.location);</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    }</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;  }</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;  <span class="keywordtype">void</span> OnVisitTextNode(TextNode&amp; node)<span class="keyword"> override </span>{</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    ReportAnyError(node);</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    childType = Type::String;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="keywordflow">if</span> (parentType == Type::Number) {</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;      RaiseTypeError(_(<span class="stringliteral">&quot;You entered a text, but a number was expected.&quot;</span>),</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;                     node.location);</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (parentType != Type::String &amp;&amp;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;               parentType != Type::NumberOrString) {</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;      RaiseTypeError(_(<span class="stringliteral">&quot;You entered a text, but this type was expected:&quot;</span>) +</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;                         <span class="stringliteral">&quot; &quot;</span> + TypeToString(parentType),</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                     node.location);</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    }</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;  }</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;  <span class="keywordtype">void</span> OnVisitVariableNode(VariableNode&amp; node)<span class="keyword"> override </span>{</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    ReportAnyError(node);</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160; </div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    <span class="keywordflow">if</span> (parentType == Type::Variable) {</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;      childType = Type::Variable;</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160; </div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;      <span class="keywordflow">if</span> (node.child) {</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        node.child-&gt;Visit(*<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;      }</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (parentType == Type::String || parentType == Type::Number || parentType == Type::NumberOrString) {</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;      <span class="comment">// The node represents a variable or an object variable in an expression waiting for its *value* to be returned.</span></div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;      childType = parentType;</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160; </div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;      forbidsUsageOfBracketsBecauseParentIsObject = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;      projectScopedContainers.MatchIdentifierWithName&lt;<span class="keywordtype">void</span>&gt;(node.name,</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        [&amp;]() {</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;          <span class="comment">// This represents an object.</span></div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160; </div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;          <span class="comment">// While understood by the parser, it&#39;s forbidden to use the bracket notation just after</span></div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;          <span class="comment">// an object name (`MyObject[&quot;MyVariable&quot;]`).</span></div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;          forbidsUsageOfBracketsBecauseParentIsObject = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;        }, [&amp;]() {</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;          <span class="comment">// This is a variable.</span></div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;        }, [&amp;]() {</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;          <span class="comment">// This is a property.</span></div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;          <span class="comment">// Being in this node implies that there is at least a child - which is not supported for properties.</span></div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;          RaiseTypeError(_(<span class="stringliteral">&quot;Accessing a child variable of a property is not possible - just write the property name.&quot;</span>),</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;              node.location);</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        }, [&amp;]() {</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;          <span class="comment">// This is a parameter.</span></div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;          <span class="comment">// Being in this node implies that there is at least a child - which is not supported for parameters.</span></div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;          RaiseTypeError(_(<span class="stringliteral">&quot;Accessing a child variable of a parameter is not possible - just write the parameter name.&quot;</span>),</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;              node.location);</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        }, [&amp;]() {</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;          <span class="comment">// This is something else.</span></div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;          RaiseTypeError(_(<span class="stringliteral">&quot;No object, variable or property with this name found.&quot;</span>),</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span>&amp; variablesContainersList = projectScopedContainers.GetVariablesContainersList();</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span>&amp; objectsContainersList = projectScopedContainers.GetObjectsContainersList();</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;      <span class="keyword">const</span> <span class="keyword">auto</span>&amp; propertiesContainerList = projectScopedContainers.GetPropertiesContainersList();</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160; </div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;      forbidsUsageOfBracketsBecauseParentIsObject = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;      projectScopedContainers.MatchIdentifierWithName&lt;<span class="keywordtype">void</span>&gt;(node.name,</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        [&amp;]() {</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;          <span class="comment">// This represents an object.</span></div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160; </div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;          <span class="comment">// While understood by the parser, it&#39;s forbidden to use the bracket notation just after</span></div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;          <span class="comment">// an object name (`MyObject[&quot;MyVariable&quot;]`).</span></div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;          forbidsUsageOfBracketsBecauseParentIsObject = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;        }, [&amp;]() {</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;          <span class="comment">// This is a variable.</span></div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        }, [&amp;]() {</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;          <span class="comment">// This is a property.</span></div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;          <span class="comment">// Being in this node implies that there is at least a child - which is not supported for properties.</span></div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;          RaiseTypeError(_(<span class="stringliteral">&quot;Accessing a child variable of a property is not possible - just write the property name.&quot;</span>),</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;              node.location);</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        }, [&amp;]() {</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;          <span class="comment">// This is a parameter.</span></div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;          <span class="comment">// Being in this node implies that there is at least a child - which is not supported for parameters.</span></div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;          RaiseTypeError(_(<span class="stringliteral">&quot;Accessing a child variable of a parameter is not possible - just write the parameter name.&quot;</span>),</div>
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;              node.location);</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        });</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160; </div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;      <span class="keywordflow">if</span> (node.child) {</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        node.child-&gt;Visit(*<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;      }</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        }, [&amp;]() {</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;          <span class="comment">// This is something else.</span></div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;          RaiseTypeError(_(<span class="stringliteral">&quot;No object, variable or property with this name found.&quot;</span>),</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;              node.location);</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        });</div>
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160; </div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;      forbidsUsageOfBracketsBecauseParentIsObject = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;      RaiseTypeError(_(<span class="stringliteral">&quot;You entered a variable, but this type was expected:&quot;</span>) +</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                         <span class="stringliteral">&quot; &quot;</span> + TypeToString(parentType),</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                     node.location);</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160; </div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;      <span class="keywordflow">if</span> (node.child) {</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;        node.child-&gt;Visit(*<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;      }</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    }</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;  }</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;  <span class="keywordtype">void</span> OnVisitVariableAccessorNode(VariableAccessorNode&amp; node)<span class="keyword"> override </span>{</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    ReportAnyError(node);</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160; </div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="comment">// In the case we accessed an object variable (`MyObject.MyVariable`),</span></div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="comment">// brackets can now be used (`MyObject.MyVariable[&quot;MyChildVariable&quot;]` is now valid).</span></div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    forbidsUsageOfBracketsBecauseParentIsObject = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;      <span class="keywordflow">if</span> (node.child) {</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        node.child-&gt;Visit(*<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;      }</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160; </div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;      forbidsUsageOfBracketsBecauseParentIsObject = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;      RaiseTypeError(_(<span class="stringliteral">&quot;You entered a variable, but this type was expected:&quot;</span>) +</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                         <span class="stringliteral">&quot; &quot;</span> + TypeToString(parentType),</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                     node.location);</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160; </div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;      <span class="keywordflow">if</span> (node.child) {</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        node.child-&gt;Visit(*<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;      }</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    }</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;  }</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;  <span class="keywordtype">void</span> OnVisitVariableAccessorNode(VariableAccessorNode&amp; node)<span class="keyword"> override </span>{</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    ReportAnyError(node);</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160; </div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    <span class="keywordflow">if</span> (node.child) {</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;      node.child-&gt;Visit(*<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    }</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;  }</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;  <span class="keywordtype">void</span> OnVisitVariableBracketAccessorNode(</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;      VariableBracketAccessorNode&amp; node)<span class="keyword"> override </span>{</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    ReportAnyError(node);</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160; </div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    <span class="keywordflow">if</span> (forbidsUsageOfBracketsBecauseParentIsObject) {</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;      RaiseError(<span class="stringliteral">&quot;brackets_not_allowed_for_objects&quot;</span>,</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;                 _(<span class="stringliteral">&quot;You can&#39;t use the brackets to access an object variable. &quot;</span></div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;                   <span class="stringliteral">&quot;Use a dot followed by the variable name, like this: &quot;</span></div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;                   <span class="stringliteral">&quot;`MyObject.MyVariable`.&quot;</span>),</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;                 node.location);</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    }</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    forbidsUsageOfBracketsBecauseParentIsObject = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160; </div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;    <a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> currentParentType = parentType;</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    parentType = Type::NumberOrString;</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    node.expression-&gt;Visit(*<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    parentType = currentParentType;</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160; </div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    <span class="keywordflow">if</span> (node.child) {</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;      node.child-&gt;Visit(*<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    }</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;  }</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;  <span class="keywordtype">void</span> OnVisitIdentifierNode(IdentifierNode&amp; node)<span class="keyword"> override </span>{</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    ReportAnyError(node);</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    <span class="keywordflow">if</span> (parentType == Type::String) {</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;      <span class="keywordflow">if</span> (!ValidateObjectVariableOrVariableOrProperty(node)) {</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        <span class="comment">// The identifier is not a variable, so either the variable is not properly declared</span></div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        <span class="comment">// or it&#39;s a text without quotes.</span></div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        RaiseTypeError(_(<span class="stringliteral">&quot;You must wrap your text inside double quotes &quot;</span></div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;                              <span class="stringliteral">&quot;(example: \&quot;Hello world\&quot;).&quot;</span>),</div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;                            node.location);</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;      }</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    }</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (parentType == Type::Number) {</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;      <span class="keywordflow">if</span> (!ValidateObjectVariableOrVariableOrProperty(node)) {</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;        <span class="comment">// The identifier is not a variable, so the variable is not properly declared.</span></div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;        RaiseTypeError(</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;            _(<span class="stringliteral">&quot;You must enter a number.&quot;</span>), node.location);</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;      }</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    }</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (parentType == Type::NumberOrString) {</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;      <span class="keywordflow">if</span> (!ValidateObjectVariableOrVariableOrProperty(node)) {</div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;        <span class="comment">// The identifier is not a variable, so either the variable is not properly declared</span></div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;        <span class="comment">// or it&#39;s a text without quotes.</span></div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;        RaiseTypeError(</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;            _(<span class="stringliteral">&quot;You must enter a number or a text, wrapped inside double quotes (example: \&quot;Hello world\&quot;), or a variable name.&quot;</span>),</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;            node.location);</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;      }</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    }</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (parentType != Type::Object &amp;&amp; parentType != Type::Variable) {</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;      <span class="comment">// It can&#39;t happen.</span></div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;      RaiseTypeError(</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;          _(<span class="stringliteral">&quot;You&#39;ve entered a name, but this type was expected:&quot;</span>) + <span class="stringliteral">&quot; &quot;</span> + TypeToString(parentType),</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;          node.location);</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    }</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    childType = parentType;</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;  }</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;  <span class="keywordtype">void</span> OnVisitObjectFunctionNameNode(ObjectFunctionNameNode&amp; node)<span class="keyword"> override </span>{</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    ReportAnyError(node);</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;  }</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;  <span class="keywordtype">void</span> OnVisitFunctionCallNode(FunctionCallNode&amp; node)<span class="keyword"> override </span>{</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    childType = ValidateFunction(node);</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    <span class="comment">// In the case we accessed an object variable (`MyObject.MyVariable`),</span></div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    <span class="comment">// brackets can now be used (`MyObject.MyVariable[&quot;MyChildVariable&quot;]` is now valid).</span></div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    forbidsUsageOfBracketsBecauseParentIsObject = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160; </div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    <span class="keywordflow">if</span> (node.child) {</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;      node.child-&gt;Visit(*<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    }</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;  }</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;  <span class="keywordtype">void</span> OnVisitVariableBracketAccessorNode(</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;      VariableBracketAccessorNode&amp; node)<span class="keyword"> override </span>{</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;    ReportAnyError(node);</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160; </div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    <span class="keywordflow">if</span> (forbidsUsageOfBracketsBecauseParentIsObject) {</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;      RaiseError(<span class="stringliteral">&quot;brackets_not_allowed_for_objects&quot;</span>,</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;                 _(<span class="stringliteral">&quot;You can&#39;t use the brackets to access an object variable. &quot;</span></div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;                   <span class="stringliteral">&quot;Use a dot followed by the variable name, like this: &quot;</span></div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;                   <span class="stringliteral">&quot;`MyObject.MyVariable`.&quot;</span>),</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;                 node.location);</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    }</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    forbidsUsageOfBracketsBecauseParentIsObject = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160; </div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    <a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> currentParentType = parentType;</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    parentType = Type::NumberOrString;</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    node.expression-&gt;Visit(*<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    parentType = currentParentType;</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160; </div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="keywordflow">if</span> (node.child) {</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;      node.child-&gt;Visit(*<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    }</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;  }</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;  <span class="keywordtype">void</span> OnVisitIdentifierNode(IdentifierNode&amp; node)<span class="keyword"> override </span>{</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    ReportAnyError(node);</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    <span class="keywordflow">if</span> (parentType == Type::String) {</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;      <span class="keywordflow">if</span> (!ValidateObjectVariableOrVariableOrProperty(node)) {</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        <span class="comment">// The identifier is not a variable, so either the variable is not properly declared</span></div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        <span class="comment">// or it&#39;s a text without quotes.</span></div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;        RaiseTypeError(_(<span class="stringliteral">&quot;You must wrap your text inside double quotes &quot;</span></div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;                              <span class="stringliteral">&quot;(example: \&quot;Hello world\&quot;).&quot;</span>),</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;                            node.location);</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;      }</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    }</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (parentType == Type::Number) {</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;      <span class="keywordflow">if</span> (!ValidateObjectVariableOrVariableOrProperty(node)) {</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;        <span class="comment">// The identifier is not a variable, so the variable is not properly declared.</span></div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        RaiseTypeError(</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;            _(<span class="stringliteral">&quot;You must enter a number.&quot;</span>), node.location);</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;      }</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;    }</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (parentType == Type::NumberOrString) {</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;      <span class="keywordflow">if</span> (!ValidateObjectVariableOrVariableOrProperty(node)) {</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;        <span class="comment">// The identifier is not a variable, so either the variable is not properly declared</span></div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;        <span class="comment">// or it&#39;s a text without quotes.</span></div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;        RaiseTypeError(</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;            _(<span class="stringliteral">&quot;You must enter a number or a text, wrapped inside double quotes (example: \&quot;Hello world\&quot;), or a variable name.&quot;</span>),</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;            node.location);</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;      }</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    }</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (parentType != Type::Object &amp;&amp; parentType != Type::Variable) {</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;      <span class="comment">// It can&#39;t happen.</span></div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;      RaiseTypeError(</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;          _(<span class="stringliteral">&quot;You&#39;ve entered a name, but this type was expected:&quot;</span>) + <span class="stringliteral">&quot; &quot;</span> + TypeToString(parentType),</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;          node.location);</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;      childType = parentType;</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;      childType = parentType;</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    }</div>
 <div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;  }</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;  <span class="keywordtype">void</span> OnVisitEmptyNode(EmptyNode&amp; node)<span class="keyword"> override </span>{</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;  <span class="keywordtype">void</span> OnVisitObjectFunctionNameNode(ObjectFunctionNameNode&amp; node)<span class="keyword"> override </span>{</div>
 <div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    ReportAnyError(node);</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    <a class="code" href="classgd_1_1_string.html">gd::String</a> message;</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    <span class="keywordflow">if</span> (parentType == Type::Number) {</div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;      message = _(<span class="stringliteral">&quot;You must enter a number or a valid expression call.&quot;</span>);</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (parentType == Type::String) {</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;      message = _(</div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;          <span class="stringliteral">&quot;You must enter a text (between quotes) or a valid expression call.&quot;</span>);</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (parentType == Type::Variable) {</div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;      message = _(<span class="stringliteral">&quot;You must enter a variable name.&quot;</span>);</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (parentType == Type::Object) {</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;      message = _(<span class="stringliteral">&quot;You must enter a valid object name.&quot;</span>);</div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;      <span class="comment">// It can&#39;t happen.</span></div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;      message = _(<span class="stringliteral">&quot;You must enter a valid expression.&quot;</span>);</div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    }</div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    RaiseTypeError(message, node.location);</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    childType = Type::Empty;</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;  }</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160; </div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;  <span class="keyword">enum</span> <a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> {Unknown = 0, Number, String, NumberOrString, Variable, Object, Empty};</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;  <a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> ValidateFunction(<span class="keyword">const</span> <a class="code" href="structgd_1_1_function_call_node.html">gd::FunctionCallNode</a>&amp; <span class="keyword">function</span>);</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;  <span class="keywordtype">bool</span> ValidateObjectVariableOrVariableOrProperty(<span class="keyword">const</span> <a class="code" href="structgd_1_1_identifier_node.html">gd::IdentifierNode</a>&amp; identifier);</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160; </div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;  <span class="keywordtype">void</span> ReportAnyError(<span class="keyword">const</span> ExpressionNode&amp; node, <span class="keywordtype">bool</span> isFatal = <span class="keyword">true</span>) {</div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;    <span class="keywordflow">if</span> (node.diagnostic &amp;&amp; node.diagnostic-&gt;IsError()) {</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;      <span class="comment">// Syntax errors are holden by the AST nodes.</span></div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;      <span class="comment">// It&#39;s fine to give pointers on them as the AST live longer than errors</span></div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;      <span class="comment">// handling.</span></div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;      allErrors.push_back(node.diagnostic.get());</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;      <span class="keywordflow">if</span> (isFatal) {</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;        fatalErrors.push_back(node.diagnostic.get());</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;      }</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    }</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;  }</div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160; </div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;  <span class="keywordtype">void</span> RaiseError(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;type,</div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;message, <span class="keyword">const</span> ExpressionParserLocation &amp;location, <span class="keywordtype">bool</span> isFatal = <span class="keyword">true</span>) {</div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    <span class="keyword">auto</span> diagnostic = gd::make_unique&lt;ExpressionParserError&gt;(</div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;        type, message, location);</div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    allErrors.push_back(diagnostic.get());</div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    <span class="keywordflow">if</span> (isFatal) {</div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;      fatalErrors.push_back(diagnostic.get());</div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;    }</div>
-<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    <span class="comment">// Errors found by the validator are not holden by the AST nodes.</span></div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    <span class="comment">// They must be owned by the validator to keep living while errors are</span></div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    <span class="comment">// handled by the caller.</span></div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    supplementalErrors.push_back(std::move(diagnostic));</div>
-<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;  }</div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160; </div>
-<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;  <span class="keywordtype">void</span> RaiseTypeError(</div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;message, <span class="keyword">const</span> ExpressionParserLocation &amp;location, <span class="keywordtype">bool</span> isFatal = <span class="keyword">true</span>) {</div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    RaiseError(<span class="stringliteral">&quot;type_error&quot;</span>, message, location, isFatal);</div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;  }</div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160; </div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;  <span class="keywordtype">void</span> RaiseOperatorError(</div>
-<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;message, <span class="keyword">const</span> ExpressionParserLocation &amp;location) {</div>
-<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;    RaiseError(<span class="stringliteral">&quot;invalid_operator&quot;</span>, message, location);</div>
-<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;  }</div>
-<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160; </div>
-<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;  <span class="keyword">static</span> <a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> StringToType(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;type);</div>
-<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;TypeToString(<a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> type);</div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> unknownTypeString;</div>
-<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> numberTypeString;</div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> stringTypeString;</div>
-<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> numberOrStringTypeString;</div>
-<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> variableTypeString;</div>
-<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> objectTypeString;</div>
-<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> identifierTypeString;</div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> emptyTypeString;</div>
-<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160; </div>
-<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;  std::vector&lt;ExpressionParserDiagnostic*&gt; fatalErrors;</div>
-<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;  std::vector&lt;ExpressionParserDiagnostic*&gt; allErrors;</div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;  std::vector&lt;std::unique_ptr&lt;ExpressionParserDiagnostic&gt;&gt; supplementalErrors;</div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;  <a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> childType; </div>
-<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;  <a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> parentType; </div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;  <span class="keywordtype">bool</span> forbidsUsageOfBracketsBecauseParentIsObject;</div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform;</div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a> &amp;projectScopedContainers;</div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;};</div>
-<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160; </div>
-<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;}  <span class="comment">// namespace gd</span></div>
-<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160; </div>
-<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// GDCORE_EXPRESSIONVALIDATOR_H</span></div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;  }</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;  <span class="keywordtype">void</span> OnVisitFunctionCallNode(FunctionCallNode&amp; node)<span class="keyword"> override </span>{</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    childType = ValidateFunction(node);</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;  }</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;  <span class="keywordtype">void</span> OnVisitEmptyNode(EmptyNode&amp; node)<span class="keyword"> override </span>{</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    ReportAnyError(node);</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    <a class="code" href="classgd_1_1_string.html">gd::String</a> message;</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;    <span class="keywordflow">if</span> (parentType == Type::Number) {</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;      message = _(<span class="stringliteral">&quot;You must enter a number or a valid expression call.&quot;</span>);</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (parentType == Type::String) {</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;      message = _(</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;          <span class="stringliteral">&quot;You must enter a text (between quotes) or a valid expression call.&quot;</span>);</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (parentType == Type::Variable) {</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;      message = _(<span class="stringliteral">&quot;You must enter a variable name.&quot;</span>);</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (parentType == Type::Object) {</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;      message = _(<span class="stringliteral">&quot;You must enter a valid object name.&quot;</span>);</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;      <span class="comment">// It can&#39;t happen.</span></div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;      message = _(<span class="stringliteral">&quot;You must enter a valid expression.&quot;</span>);</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;    }</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;    RaiseTypeError(message, node.location);</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    childType = Type::Empty;</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;  }</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160; </div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160; <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;  <span class="keyword">enum</span> <a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> {Unknown = 0, Number, String, NumberOrString, Variable, Object, Empty};</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;  <a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> ValidateFunction(<span class="keyword">const</span> <a class="code" href="structgd_1_1_function_call_node.html">gd::FunctionCallNode</a>&amp; <span class="keyword">function</span>);</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;  <span class="keywordtype">bool</span> ValidateObjectVariableOrVariableOrProperty(<span class="keyword">const</span> <a class="code" href="structgd_1_1_identifier_node.html">gd::IdentifierNode</a>&amp; identifier);</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160; </div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;  <span class="keywordtype">void</span> ReportAnyError(<span class="keyword">const</span> ExpressionNode&amp; node, <span class="keywordtype">bool</span> isFatal = <span class="keyword">true</span>) {</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    <span class="keywordflow">if</span> (node.diagnostic &amp;&amp; node.diagnostic-&gt;IsError()) {</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;      <span class="comment">// Syntax errors are holden by the AST nodes.</span></div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;      <span class="comment">// It&#39;s fine to give pointers on them as the AST live longer than errors</span></div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;      <span class="comment">// handling.</span></div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;      allErrors.push_back(node.diagnostic.get());</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;      <span class="keywordflow">if</span> (isFatal) {</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;        fatalErrors.push_back(node.diagnostic.get());</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;      }</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    }</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;  }</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160; </div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;  <span class="keywordtype">void</span> RaiseError(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;type,</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;message, <span class="keyword">const</span> ExpressionParserLocation &amp;location, <span class="keywordtype">bool</span> isFatal = <span class="keyword">true</span>) {</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    <span class="keyword">auto</span> diagnostic = gd::make_unique&lt;ExpressionParserError&gt;(</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;        type, message, location);</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    allErrors.push_back(diagnostic.get());</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    <span class="keywordflow">if</span> (isFatal) {</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;      fatalErrors.push_back(diagnostic.get());</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    }</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;    <span class="comment">// Errors found by the validator are not holden by the AST nodes.</span></div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;    <span class="comment">// They must be owned by the validator to keep living while errors are</span></div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    <span class="comment">// handled by the caller.</span></div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;    supplementalErrors.push_back(std::move(diagnostic));</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;  }</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160; </div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;  <span class="keywordtype">void</span> RaiseTypeError(</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;message, <span class="keyword">const</span> ExpressionParserLocation &amp;location, <span class="keywordtype">bool</span> isFatal = <span class="keyword">true</span>) {</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;    RaiseError(<span class="stringliteral">&quot;type_error&quot;</span>, message, location, isFatal);</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;  }</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160; </div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;  <span class="keywordtype">void</span> RaiseOperatorError(</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;message, <span class="keyword">const</span> ExpressionParserLocation &amp;location) {</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;    RaiseError(<span class="stringliteral">&quot;invalid_operator&quot;</span>, message, location);</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;  }</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160; </div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;  <span class="keywordtype">void</span> ReadChildTypeFromVariable(gd::Variable::Type variableType) {</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;    <span class="keywordflow">if</span> (variableType == gd::Variable::Number) {</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;      childType = Type::Number;</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (variableType == gd::Variable::String) {</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;      childType = Type::String;</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;      <span class="comment">// Nothing - we don&#39;t know the precise type (this could be used as a string or as a number).</span></div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;    }</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;  }</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160; </div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;  <span class="keyword">static</span> <a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> StringToType(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;type);</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;TypeToString(<a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> type);</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> unknownTypeString;</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> numberTypeString;</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> stringTypeString;</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> numberOrStringTypeString;</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> variableTypeString;</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> objectTypeString;</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> identifierTypeString;</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> emptyTypeString;</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160; </div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;  std::vector&lt;ExpressionParserDiagnostic*&gt; fatalErrors;</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;  std::vector&lt;ExpressionParserDiagnostic*&gt; allErrors;</div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;  std::vector&lt;std::unique_ptr&lt;ExpressionParserDiagnostic&gt;&gt; supplementalErrors;</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;  <a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> childType; </div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;  <a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> parentType; </div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;  <span class="keywordtype">bool</span> forbidsUsageOfBracketsBecauseParentIsObject;</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform;</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a> &amp;projectScopedContainers;</div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;};</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160; </div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;}  <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160; </div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// GDCORE_EXPRESSIONVALIDATOR_H</span></div>
 <div class="ttc" id="a_localization_8h_html"><div class="ttname"><a href="_localization_8h.html">Localization.h</a></div></div>
 <div class="ttc" id="aclassgd_1_1_expression_parser2_node_worker_html"><div class="ttname"><a href="classgd_1_1_expression_parser2_node_worker.html">gd::ExpressionParser2NodeWorker</a></div><div class="ttdoc">The interface for any worker class (&quot;visitor&quot; pattern) that want to interact with the nodes of a pars...</div><div class="ttdef"><b>Definition:</b> ExpressionParser2NodeWorker.h:36</div></div>
 <div class="ttc" id="aclassgd_1_1_expression_validator_html"><div class="ttname"><a href="classgd_1_1_expression_validator.html">gd::ExpressionValidator</a></div><div class="ttdoc">Validate that an expression is properly written by returning any error attached to the nodes during p...</div><div class="ttdef"><b>Definition:</b> ExpressionValidator.h:38</div></div>
