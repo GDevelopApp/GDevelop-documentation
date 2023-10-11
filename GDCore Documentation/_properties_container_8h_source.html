@@ -97,25 +97,29 @@ $(function() {
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  }</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keywordtype">void</span> ForEachPropertyWithPrefix(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; prefix, std::function&lt;<span class="keywordtype">void</span>(<span class="keyword">const</span> <a class="code" href="classgd_1_1_named_property_descriptor.html">gd::NamedPropertyDescriptor</a>&amp; property)&gt; fn)<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; property: elements) {</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;      <span class="keywordflow">if</span> (property-&gt;<a class="code" href="classgd_1_1_named_property_descriptor.html#ac03da8dd5a2f458ecdcfa4f2e1787b1c">GetName</a>().<a class="code" href="classgd_1_1_string.html#a42489bdfb2551d2ef36cae6107f7ddee">find</a>(prefix) == 0) fn(*property);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    }</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  }</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  EventsFunctionsContainer::FunctionOwner GetOwner()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> owner; }</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  EventsFunctionsContainer::FunctionOwner owner;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;};</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keywordtype">void</span> ForEachPropertyMatchingSearch(</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; search,</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;      std::function&lt;<span class="keywordtype">void</span>(<span class="keyword">const</span> <a class="code" href="classgd_1_1_named_property_descriptor.html">gd::NamedPropertyDescriptor</a>&amp; property)&gt; fn)<span class="keyword"></span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">      const </span>{</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; property : elements) {</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;      <span class="keywordflow">if</span> (property-&gt;<a class="code" href="classgd_1_1_named_property_descriptor.html#ac03da8dd5a2f458ecdcfa4f2e1787b1c">GetName</a>().<a class="code" href="classgd_1_1_string.html#aac9cebe192bb7f1f1f5d63136fc3e004">FindCaseInsensitive</a>(search) != gd::String::npos)</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        fn(*property);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  }</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  EventsFunctionsContainer::FunctionOwner GetOwner()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> owner; }</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;}  <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  EventsFunctionsContainer::FunctionOwner owner;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;};</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}  <span class="comment">// namespace gd</span></div>
 <div class="ttc" id="aclassgd_1_1_named_property_descriptor_html"><div class="ttname"><a href="classgd_1_1_named_property_descriptor.html">gd::NamedPropertyDescriptor</a></div><div class="ttdoc">Used to describe a property shown in a property grid.</div><div class="ttdef"><b>Definition:</b> NamedPropertyDescriptor.h:21</div></div>
 <div class="ttc" id="aclassgd_1_1_named_property_descriptor_html_ac03da8dd5a2f458ecdcfa4f2e1787b1c"><div class="ttname"><a href="classgd_1_1_named_property_descriptor.html#ac03da8dd5a2f458ecdcfa4f2e1787b1c">gd::NamedPropertyDescriptor::GetName</a></div><div class="ttdeci">const gd::String &amp; GetName() const</div><div class="ttdoc">Get the name of the property.</div><div class="ttdef"><b>Definition:</b> NamedPropertyDescriptor.h:47</div></div>
 <div class="ttc" id="aclassgd_1_1_properties_container_html"><div class="ttname"><a href="classgd_1_1_properties_container.html">gd::PropertiesContainer</a></div><div class="ttdoc">A container of properties, used for custom behaviors, custom objects, extensions.....</div><div class="ttdef"><b>Definition:</b> PropertiesContainer.h:17</div></div>
 <div class="ttc" id="aclassgd_1_1_serializable_with_name_list_html"><div class="ttname"><a href="classgd_1_1_serializable_with_name_list.html">gd::SerializableWithNameList</a></div><div class="ttdoc">A class template that store a list of elements that can be accessed by their names and serialized.</div><div class="ttdef"><b>Definition:</b> SerializableWithNameList.h:33</div></div>
 <div class="ttc" id="aclassgd_1_1_string_html"><div class="ttname"><a href="classgd_1_1_string.html">gd::String</a></div><div class="ttdoc">String represents an UTF8 encoded string.</div><div class="ttdef"><b>Definition:</b> String.h:31</div></div>
-<div class="ttc" id="aclassgd_1_1_string_html_a42489bdfb2551d2ef36cae6107f7ddee"><div class="ttname"><a href="classgd_1_1_string.html#a42489bdfb2551d2ef36cae6107f7ddee">gd::String::find</a></div><div class="ttdeci">size_type find(const String &amp;search, size_type pos=0) const</div><div class="ttdef"><b>Definition:</b> String.cpp:470</div></div>
+<div class="ttc" id="aclassgd_1_1_string_html_aac9cebe192bb7f1f1f5d63136fc3e004"><div class="ttname"><a href="classgd_1_1_string.html#aac9cebe192bb7f1f1f5d63136fc3e004">gd::String::FindCaseInsensitive</a></div><div class="ttdeci">size_type FindCaseInsensitive(const String &amp;search, size_type pos=0) const</div><div class="ttdoc">Do a case-insensitive search.</div><div class="ttdef"><b>Definition:</b> String.cpp:656</div></div>
 <div class="ttc" id="anamespacegd_html"><div class="ttname"><a href="namespacegd.html">gd</a></div><div class="ttdef"><b>Definition:</b> CommonTools.h:24</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

@@ -366,7 +366,7 @@ $(function() {
 <div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;    <span class="keyword">auto</span> type = gd::ExpressionTypeFinder::GetType(</div>
 <div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;        platform, projectScopedContainers, rootType, node);</div>
 <div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160; </div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;    AddCompletionsForAllIdentifiersWithPrefix(<span class="stringliteral">&quot;&quot;</span>, type);</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;    AddCompletionsForAllIdentifiersMatchingSearch(<span class="stringliteral">&quot;&quot;</span>, type);</div>
 <div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;    completions.push_back(</div>
 <div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;        <a class="code" href="structgd_1_1_expression_completion_description.html#aef529c38821368b0edc007f1bb52c6ee">ExpressionCompletionDescription::ForExpressionWithPrefix</a>(</div>
 <div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;            type, <span class="stringliteral">&quot;&quot;</span>, searchedPosition + 1, searchedPosition + 1));</div>
@@ -378,7 +378,7 @@ $(function() {
 <div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;    <span class="keyword">auto</span> type = <a class="code" href="classgd_1_1_expression_type_finder.html#a4f017d9f292ec7b41664f40bbff7a068">gd::ExpressionTypeFinder::GetType</a>(</div>
 <div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;        platform, projectScopedContainers, rootType, node);</div>
 <div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160; </div>
-<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;    AddCompletionsForAllIdentifiersWithPrefix(<span class="stringliteral">&quot;&quot;</span>, type);</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;    AddCompletionsForAllIdentifiersMatchingSearch(<span class="stringliteral">&quot;&quot;</span>, type);</div>
 <div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;    completions.push_back(</div>
 <div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;        <a class="code" href="structgd_1_1_expression_completion_description.html#aef529c38821368b0edc007f1bb52c6ee">ExpressionCompletionDescription::ForExpressionWithPrefix</a>(</div>
 <div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;            type, <span class="stringliteral">&quot;&quot;</span>, searchedPosition + 1, searchedPosition + 1));</div>
@@ -460,7 +460,7 @@ $(function() {
 <div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;            projectScopedContainers.GetVariablesContainersList()</div>
 <div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;                .GetTopMostVariablesContainer();</div>
 <div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;        <span class="keywordflow">if</span> (variablesContainer) {</div>
-<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;          AddCompletionsForVariablesWithPrefix(</div>
+<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;          AddCompletionsForVariablesMatchingSearch(</div>
 <div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;              *variablesContainer, node.name, node.nameLocation);</div>
 <div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;        }</div>
 <div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;      } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (type == <span class="stringliteral">&quot;scenevar&quot;</span>) {</div>
@@ -468,7 +468,7 @@ $(function() {
 <div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;            projectScopedContainers.GetVariablesContainersList()</div>
 <div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;                .GetBottomMostVariablesContainer();</div>
 <div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;        <span class="keywordflow">if</span> (variablesContainer) {</div>
-<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;          AddCompletionsForVariablesWithPrefix(</div>
+<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;          AddCompletionsForVariablesMatchingSearch(</div>
 <div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;              *variablesContainer, node.name, node.nameLocation);</div>
 <div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;        }</div>
 <div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;      } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (type == <span class="stringliteral">&quot;objectvar&quot;</span>) {</div>
@@ -480,11 +480,11 @@ $(function() {
 <div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;            <span class="stringliteral">&quot;&quot;</span>,</div>
 <div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;            node);</div>
 <div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160; </div>
-<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;        AddCompletionsForObjectOrGroupVariablesWithPrefix(</div>
+<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;        AddCompletionsForObjectOrGroupVariablesMatchingSearch(</div>
 <div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;            objectsContainersList, objectName, node.name, node.nameLocation);</div>
 <div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;      }</div>
 <div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;      AddCompletionsForObjectsAndVariablesWithPrefix(</div>
+<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;      AddCompletionsForObjectsAndVariablesMatchingSearch(</div>
 <div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;          node.name, type, node.nameLocation);</div>
 <div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;    }</div>
 <div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;  }</div>
@@ -502,7 +502,7 @@ $(function() {
 <div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;        platform, projectScopedContainers, rootType, node);</div>
 <div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classgd_1_1_parameter_metadata.html#aaeb5e8e421167a4458e747f8cac0632f">gd::ParameterMetadata::IsObject</a>(type)) {</div>
 <div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;      <span class="comment">// Only show completions of objects if an object is required.</span></div>
-<div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;      AddCompletionsForObjectWithPrefix(</div>
+<div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;      AddCompletionsForObjectMatchingSearch(</div>
 <div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;          node.identifierName, type, node.location);</div>
 <div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="classgd_1_1_value_type_metadata.html#a7894dd27a3d9f2065008a6f20a290a90">gd::ValueTypeMetadata::IsTypeLegacyPreScopedVariable</a>(type)) {</div>
 <div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;      <span class="keywordflow">if</span> (type == <span class="stringliteral">&quot;globalvar&quot;</span>) {</div>
@@ -510,7 +510,7 @@ $(function() {
 <div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;            projectScopedContainers.GetVariablesContainersList()</div>
 <div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;                .GetTopMostVariablesContainer();</div>
 <div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;        <span class="keywordflow">if</span> (variablesContainer) {</div>
-<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;          AddCompletionsForVariablesWithPrefix(*variablesContainer,</div>
+<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;          AddCompletionsForVariablesMatchingSearch(*variablesContainer,</div>
 <div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;                                               node.identifierName,</div>
 <div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;                                               node.identifierNameLocation);</div>
 <div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;        }</div>
@@ -519,7 +519,7 @@ $(function() {
 <div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;            projectScopedContainers.GetVariablesContainersList()</div>
 <div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;                .GetBottomMostVariablesContainer();</div>
 <div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;        <span class="keywordflow">if</span> (variablesContainer) {</div>
-<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;          AddCompletionsForVariablesWithPrefix(*variablesContainer,</div>
+<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;          AddCompletionsForVariablesMatchingSearch(*variablesContainer,</div>
 <div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;                                               node.identifierName,</div>
 <div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;                                               node.identifierNameLocation);</div>
 <div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;        }</div>
@@ -532,7 +532,7 @@ $(function() {
 <div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;            <span class="stringliteral">&quot;&quot;</span>,</div>
 <div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;            node);</div>
 <div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160; </div>
-<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;        AddCompletionsForObjectOrGroupVariablesWithPrefix(</div>
+<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;        AddCompletionsForObjectOrGroupVariablesMatchingSearch(</div>
 <div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;            objectsContainersList,</div>
 <div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;            objectName,</div>
 <div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;            node.identifierName,</div>
@@ -542,7 +542,7 @@ $(function() {
 <div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;      <span class="comment">// Object function, behavior name, variable, object variable.</span></div>
 <div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;      <span class="keywordflow">if</span> (IsCaretOn(node.identifierNameLocation)) {</div>
 <div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;        <span class="comment">// Is this the proper position?</span></div>
-<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;        AddCompletionsForAllIdentifiersWithPrefix(</div>
+<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;        AddCompletionsForAllIdentifiersMatchingSearch(</div>
 <div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;            node.identifierName, type, node.identifierNameLocation);</div>
 <div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;        <span class="keywordflow">if</span> (!node.identifierNameDotLocation.IsValid()) {</div>
 <div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;          completions.push_back(</div>
@@ -557,7 +557,7 @@ $(function() {
 <div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;        <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; objectName = node.identifierName;</div>
 <div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160; </div>
 <div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;        <span class="comment">// Might be an object variable, object behavior or object expression:</span></div>
-<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;        AddCompletionsForObjectOrGroupVariablesWithPrefix(</div>
+<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;        AddCompletionsForObjectOrGroupVariablesMatchingSearch(</div>
 <div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;            objectsContainersList,</div>
 <div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;            objectName,</div>
 <div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;            node.childIdentifierName,</div>
@@ -586,7 +586,7 @@ $(function() {
 <div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;      <span class="comment">// Behavior function (or behavior function being written, with the</span></div>
 <div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;      <span class="comment">// function name missing)</span></div>
 <div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;      <span class="keywordflow">if</span> (IsCaretOn(node.objectNameLocation)) {</div>
-<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;        AddCompletionsForObjectWithPrefix(</div>
+<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;        AddCompletionsForObjectMatchingSearch(</div>
 <div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;            node.objectName, type, node.objectNameLocation);</div>
 <div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;      } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (IsCaretOn(node.objectNameDotLocation) ||</div>
 <div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;                 IsCaretOn(node.objectFunctionOrBehaviorNameLocation)) {</div>
@@ -610,7 +610,7 @@ $(function() {
 <div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;    } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;      <span class="comment">// Object function or behavior name</span></div>
 <div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;      <span class="keywordflow">if</span> (IsCaretOn(node.objectNameLocation)) {</div>
-<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;        AddCompletionsForObjectWithPrefix(</div>
+<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;        AddCompletionsForObjectMatchingSearch(</div>
 <div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;            node.objectName, type, node.objectNameLocation);</div>
 <div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;      } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (IsCaretOn(node.objectNameDotLocation) ||</div>
 <div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;                 IsCaretOn(node.objectFunctionOrBehaviorNameLocation)) {</div>
@@ -639,7 +639,7 @@ $(function() {
 <div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;    <span class="keywordflow">if</span> (!node.behaviorName.empty()) {</div>
 <div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;      <span class="comment">// Behavior function</span></div>
 <div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;      <span class="keywordflow">if</span> (IsCaretOn(node.objectNameLocation)) {</div>
-<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;        AddCompletionsForObjectWithPrefix(</div>
+<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;        AddCompletionsForObjectMatchingSearch(</div>
 <div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;            node.objectName, type, node.objectNameLocation);</div>
 <div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;      } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (IsCaretOn(node.objectNameDotLocation) ||</div>
 <div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;                 IsCaretOn(node.behaviorNameLocation)) {</div>
@@ -663,7 +663,7 @@ $(function() {
 <div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!node.objectName.empty()) {</div>
 <div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;      <span class="comment">// Object function</span></div>
 <div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;      <span class="keywordflow">if</span> (IsCaretOn(node.objectNameLocation)) {</div>
-<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;        AddCompletionsForObjectWithPrefix(</div>
+<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;        AddCompletionsForObjectMatchingSearch(</div>
 <div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;            node.objectName, type, node.objectNameLocation);</div>
 <div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;      } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;        <span class="comment">// Add completions for behaviors, because we could imagine that the user</span></div>
@@ -704,7 +704,7 @@ $(function() {
 <div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;    <span class="keyword">auto</span> type = <a class="code" href="classgd_1_1_expression_type_finder.html#a4f017d9f292ec7b41664f40bbff7a068">gd::ExpressionTypeFinder::GetType</a>(</div>
 <div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;        platform, projectScopedContainers, rootType, node);</div>
 <div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160; </div>
-<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;    AddCompletionsForAllIdentifiersWithPrefix(node.text, type, node.location);</div>
+<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;    AddCompletionsForAllIdentifiersMatchingSearch(node.text, type, node.location);</div>
 <div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;    completions.push_back(</div>
 <div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;        <a class="code" href="structgd_1_1_expression_completion_description.html#aef529c38821368b0edc007f1bb52c6ee">ExpressionCompletionDescription::ForExpressionWithPrefix</a>(</div>
 <div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;            type,</div>
@@ -723,12 +723,12 @@ $(function() {
 <div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;             (inclusive &amp;&amp; searchedPosition &lt;= location.GetEndPosition())));</div>
 <div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;  }</div>
 <div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160; </div>
-<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;  <span class="keywordtype">void</span> AddCompletionsForVariablesWithPrefix(</div>
+<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;  <span class="keywordtype">void</span> AddCompletionsForVariablesMatchingSearch(</div>
 <div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a>&amp; variablesContainer,</div>
-<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; prefix,</div>
+<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; search,</div>
 <div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;      <span class="keyword">const</span> ExpressionParserLocation&amp; location) {</div>
-<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;    variablesContainer.<a class="code" href="classgd_1_1_variables_container.html#ad1232811d37604c410659a87b2c1b7e3">ForEachVariableWithPrefix</a>(</div>
-<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;        prefix,</div>
+<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;    variablesContainer.<a class="code" href="classgd_1_1_variables_container.html#a81f0306ab726ad3e93adcfd7053313e0">ForEachVariableMatchingSearch</a>(</div>
+<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;        search,</div>
 <div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;        [&amp;](<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; variableName, <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>&amp; variable) {</div>
 <div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;          ExpressionCompletionDescription description(</div>
 <div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;              ExpressionCompletionDescription::Variable,</div>
@@ -740,14 +740,14 @@ $(function() {
 <div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;        });</div>
 <div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;  }</div>
 <div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160; </div>
-<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;  <span class="keywordtype">void</span> AddCompletionsForObjectOrGroupVariablesWithPrefix(</div>
+<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;  <span class="keywordtype">void</span> AddCompletionsForObjectOrGroupVariablesMatchingSearch(</div>
 <div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_objects_containers_list.html">gd::ObjectsContainersList</a>&amp; objectsContainersList,</div>
 <div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; objectOrGroupName,</div>
-<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; prefix,</div>
+<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; search,</div>
 <div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;      <span class="keyword">const</span> ExpressionParserLocation&amp; location) {</div>
-<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;    objectsContainersList.<a class="code" href="classgd_1_1_objects_containers_list.html#a7cdeac207df34971d44e9ca741eb7770">ForEachObjectOrGroupVariableWithPrefix</a>(</div>
+<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;    objectsContainersList.<a class="code" href="classgd_1_1_objects_containers_list.html#a3baa643e64dda9fe15d1b140613a26a9">ForEachObjectOrGroupVariableMatchingSearch</a>(</div>
 <div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;        objectOrGroupName,</div>
-<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;        prefix,</div>
+<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;        search,</div>
 <div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;        [&amp;](<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; variableName, <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>&amp; variable) {</div>
 <div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;          ExpressionCompletionDescription description(</div>
 <div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;              ExpressionCompletionDescription::Variable,</div>
@@ -759,12 +759,12 @@ $(function() {
 <div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;        });</div>
 <div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;  }</div>
 <div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160; </div>
-<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;  <span class="keywordtype">void</span> AddCompletionsForObjectWithPrefix(</div>
-<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; prefix,</div>
+<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;  <span class="keywordtype">void</span> AddCompletionsForObjectMatchingSearch(</div>
+<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; search,</div>
 <div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; type,</div>
 <div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;      <span class="keyword">const</span> ExpressionParserLocation&amp; location) {</div>
-<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;    projectScopedContainers.GetObjectsContainersList().ForEachNameWithPrefix(</div>
-<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;        prefix,</div>
+<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;    projectScopedContainers.GetObjectsContainersList().ForEachNameMatchingSearch(</div>
+<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;        search,</div>
 <div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;        [&amp;](<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name,</div>
 <div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;            <span class="keyword">const</span> <a class="code" href="classgd_1_1_object_configuration.html">gd::ObjectConfiguration</a>* objectConfiguration) {</div>
 <div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;          ExpressionCompletionDescription description(</div>
@@ -778,12 +778,12 @@ $(function() {
 <div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;        });</div>
 <div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160;  }</div>
 <div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160; </div>
-<div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160;  <span class="keywordtype">void</span> AddCompletionsForObjectsAndVariablesWithPrefix(</div>
-<div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; prefix,</div>
+<div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160;  <span class="keywordtype">void</span> AddCompletionsForObjectsAndVariablesMatchingSearch(</div>
+<div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; search,</div>
 <div class="line"><a name="l00815"></a><span class="lineno">  815</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; type,</div>
 <div class="line"><a name="l00816"></a><span class="lineno">  816</span>&#160;      <span class="keyword">const</span> ExpressionParserLocation&amp; location) {</div>
-<div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;    projectScopedContainers.ForEachIdentifierWithPrefix(</div>
-<div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;        prefix,</div>
+<div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;    projectScopedContainers.ForEachIdentifierMatchingSearch(</div>
+<div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;        search,</div>
 <div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;        [&amp;](<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; objectName,</div>
 <div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;            <span class="keyword">const</span> ObjectConfiguration* objectConfiguration) {</div>
 <div class="line"><a name="l00821"></a><span class="lineno">  821</span>&#160;          ExpressionCompletionDescription description(</div>
@@ -812,20 +812,20 @@ $(function() {
 <div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;        });</div>
 <div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;  }</div>
 <div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160; </div>
-<div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;  <span class="keywordtype">void</span> AddCompletionsForAllIdentifiersWithPrefix(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; prefix,</div>
+<div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;  <span class="keywordtype">void</span> AddCompletionsForAllIdentifiersMatchingSearch(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; search,</div>
 <div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;                                                 <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; type) {</div>
-<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;    AddCompletionsForAllIdentifiersWithPrefix(</div>
-<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;        prefix,</div>
+<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;    AddCompletionsForAllIdentifiersMatchingSearch(</div>
+<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;        search,</div>
 <div class="line"><a name="l00851"></a><span class="lineno">  851</span>&#160;        type,</div>
 <div class="line"><a name="l00852"></a><span class="lineno">  852</span>&#160;        ExpressionParserLocation(searchedPosition + 1, searchedPosition + 1));</div>
 <div class="line"><a name="l00853"></a><span class="lineno">  853</span>&#160;  }</div>
 <div class="line"><a name="l00854"></a><span class="lineno">  854</span>&#160; </div>
-<div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;  <span class="keywordtype">void</span> AddCompletionsForAllIdentifiersWithPrefix(</div>
-<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; prefix,</div>
+<div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;  <span class="keywordtype">void</span> AddCompletionsForAllIdentifiersMatchingSearch(</div>
+<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; search,</div>
 <div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; type,</div>
 <div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;      <span class="keyword">const</span> ExpressionParserLocation&amp; location) {</div>
-<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;    projectScopedContainers.ForEachIdentifierWithPrefix(</div>
-<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;        prefix,</div>
+<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;    projectScopedContainers.ForEachIdentifierMatchingSearch(</div>
+<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;        search,</div>
 <div class="line"><a name="l00861"></a><span class="lineno">  861</span>&#160;        [&amp;](<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; objectName,</div>
 <div class="line"><a name="l00862"></a><span class="lineno">  862</span>&#160;            <span class="keyword">const</span> ObjectConfiguration* objectConfiguration) {</div>
 <div class="line"><a name="l00863"></a><span class="lineno">  863</span>&#160;          ExpressionCompletionDescription description(</div>
@@ -905,7 +905,7 @@ $(function() {
 <div class="ttc" id="aclassgd_1_1_object_configuration_html"><div class="ttname"><a href="classgd_1_1_object_configuration.html">gd::ObjectConfiguration</a></div><div class="ttdoc">Base class used to represent an object configuration. For example, this can be the animations in a sp...</div><div class="ttdef"><b>Definition:</b> ObjectConfiguration.h:38</div></div>
 <div class="ttc" id="aclassgd_1_1_object_html"><div class="ttname"><a href="classgd_1_1_object.html">gd::Object</a></div><div class="ttdoc">Represent an object of a platform.</div><div class="ttdef"><b>Definition:</b> Object.h:37</div></div>
 <div class="ttc" id="aclassgd_1_1_objects_containers_list_html"><div class="ttname"><a href="classgd_1_1_objects_containers_list.html">gd::ObjectsContainersList</a></div><div class="ttdoc">A list of objects containers, useful for accessing objects in a scoped way, along with methods to acc...</div><div class="ttdef"><b>Definition:</b> ObjectsContainersList.h:29</div></div>
-<div class="ttc" id="aclassgd_1_1_objects_containers_list_html_a7cdeac207df34971d44e9ca741eb7770"><div class="ttname"><a href="classgd_1_1_objects_containers_list.html#a7cdeac207df34971d44e9ca741eb7770">gd::ObjectsContainersList::ForEachObjectOrGroupVariableWithPrefix</a></div><div class="ttdeci">void ForEachObjectOrGroupVariableWithPrefix(const gd::String &amp;objectOrGroupName, const gd::String &amp;prefix, std::function&lt; void(const gd::String &amp;variableName, const gd::Variable &amp;variable)&gt; fn) const</div><div class="ttdoc">Call the callback for each variable of the object (or group) starting with the prefix passed in param...</div><div class="ttdef"><b>Definition:</b> ObjectsContainersList.cpp:200</div></div>
+<div class="ttc" id="aclassgd_1_1_objects_containers_list_html_a3baa643e64dda9fe15d1b140613a26a9"><div class="ttname"><a href="classgd_1_1_objects_containers_list.html#a3baa643e64dda9fe15d1b140613a26a9">gd::ObjectsContainersList::ForEachObjectOrGroupVariableMatchingSearch</a></div><div class="ttdeci">void ForEachObjectOrGroupVariableMatchingSearch(const gd::String &amp;objectOrGroupName, const gd::String &amp;search, std::function&lt; void(const gd::String &amp;variableName, const gd::Variable &amp;variable)&gt; fn) const</div><div class="ttdoc">Call the callback for each variable of the object (or group) matching the search passed in parameter.</div><div class="ttdef"><b>Definition:</b> ObjectsContainersList.cpp:200</div></div>
 <div class="ttc" id="aclassgd_1_1_parameter_metadata_html"><div class="ttname"><a href="classgd_1_1_parameter_metadata.html">gd::ParameterMetadata</a></div><div class="ttdoc">Describe a parameter of an instruction (action, condition) or of an expression: type,...</div><div class="ttdef"><b>Definition:</b> ParameterMetadata.h:27</div></div>
 <div class="ttc" id="aclassgd_1_1_parameter_metadata_html_aaeb5e8e421167a4458e747f8cac0632f"><div class="ttname"><a href="classgd_1_1_parameter_metadata.html#aaeb5e8e421167a4458e747f8cac0632f">gd::ParameterMetadata::IsObject</a></div><div class="ttdeci">static bool IsObject(const gd::String &amp;parameterType)</div><div class="ttdoc">Return true if the type of the parameter is representing one object (or more, i.e: an object group).</div><div class="ttdef"><b>Definition:</b> ParameterMetadata.h:186</div></div>
 <div class="ttc" id="aclassgd_1_1_parameter_metadata_html_af602db13fc210699c8b3d608f9dc5746"><div class="ttname"><a href="classgd_1_1_parameter_metadata.html#af602db13fc210699c8b3d608f9dc5746">gd::ParameterMetadata::GetType</a></div><div class="ttdeci">const gd::String &amp; GetType() const</div><div class="ttdoc">Return the type of the parameter.</div><div class="ttdef"><b>Definition:</b> ParameterMetadata.h:55</div></div>
@@ -918,7 +918,7 @@ $(function() {
 <div class="ttc" id="aclassgd_1_1_variable_html"><div class="ttname"><a href="classgd_1_1_variable.html">gd::Variable</a></div><div class="ttdoc">Defines a variable which can be used by an object, a layout or a project.</div><div class="ttdef"><b>Definition:</b> Variable.h:29</div></div>
 <div class="ttc" id="aclassgd_1_1_variable_html_a9739dac5f5b1a2898f7496429ea55823"><div class="ttname"><a href="classgd_1_1_variable.html#a9739dac5f5b1a2898f7496429ea55823">gd::Variable::GetType</a></div><div class="ttdeci">Type GetType() const</div><div class="ttdoc">Get the type of the variable.</div><div class="ttdef"><b>Definition:</b> Variable.h:60</div></div>
 <div class="ttc" id="aclassgd_1_1_variables_container_html"><div class="ttname"><a href="classgd_1_1_variables_container.html">gd::VariablesContainer</a></div><div class="ttdoc">Class defining a container for gd::Variable.</div><div class="ttdef"><b>Definition:</b> VariablesContainer.h:30</div></div>
-<div class="ttc" id="aclassgd_1_1_variables_container_html_ad1232811d37604c410659a87b2c1b7e3"><div class="ttname"><a href="classgd_1_1_variables_container.html#ad1232811d37604c410659a87b2c1b7e3">gd::VariablesContainer::ForEachVariableWithPrefix</a></div><div class="ttdeci">void ForEachVariableWithPrefix(const gd::String &amp;prefix, std::function&lt; void(const gd::String &amp;name, const gd::Variable &amp;variable)&gt; fn) const</div><div class="ttdoc">Call the callback for each variable with a name starting with the specified prefix.</div><div class="ttdef"><b>Definition:</b> VariablesContainer.cpp:165</div></div>
+<div class="ttc" id="aclassgd_1_1_variables_container_html_a81f0306ab726ad3e93adcfd7053313e0"><div class="ttname"><a href="classgd_1_1_variables_container.html#a81f0306ab726ad3e93adcfd7053313e0">gd::VariablesContainer::ForEachVariableMatchingSearch</a></div><div class="ttdeci">void ForEachVariableMatchingSearch(const gd::String &amp;search, std::function&lt; void(const gd::String &amp;name, const gd::Variable &amp;variable)&gt; fn) const</div><div class="ttdoc">Call the callback for each variable with a name matching the specified search.</div><div class="ttdef"><b>Definition:</b> VariablesContainer.cpp:165</div></div>
 <div class="ttc" id="anamespacegd_html"><div class="ttname"><a href="namespacegd.html">gd</a></div><div class="ttdef"><b>Definition:</b> CommonTools.h:24</div></div>
 <div class="ttc" id="anamespacegd_html_af707c3e0da4a209c7a0e717d39eff864"><div class="ttname"><a href="namespacegd.html#af707c3e0da4a209c7a0e717d39eff864">gd::operator&lt;&lt;</a></div><div class="ttdeci">std::ostream &amp; operator&lt;&lt;(std::ostream &amp;os, ExpressionCompletionDescription const &amp;value)</div><div class="ttdoc">Turn an ExpressionCompletionDescription to a string.</div><div class="ttdef"><b>Definition:</b> ExpressionCompletionFinder.cpp:19</div></div>
 <div class="ttc" id="astructgd_1_1_expression_completion_description_html"><div class="ttname"><a href="structgd_1_1_expression_completion_description.html">gd::ExpressionCompletionDescription</a></div><div class="ttdoc">Describe completions to be shown to the user.</div><div class="ttdef"><b>Definition:</b> ExpressionCompletionFinder.h:38</div></div>
