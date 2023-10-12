@@ -1,8 +1,8 @@
 sort_type: natural
 nav:
+    - global-variables.md
     - scene-variables.md
     - object-variables.md
-      - instance-variables.md
-    - global-variables.md
+    - instance-variables.md
     - Actions and Conditions: reference.md
     - ...
