@@ -184,7 +184,7 @@ Variables are used to store **data** in the format of a **number** or **text**. 
 The _scope_ of a variable determines the place a variable can be accessed. In GDevelop, there are three variable scopes are available:
 
 * **Global** variables are accessible from all the game scenes. For instance, they can be used to store the player's score across different levels/scenes.
-* **Scene** variables are only accessible from the scene they are created in. They can be used for data that only concerns one scene.  A Scene variable would be able to access the time remaining to complete the level/scene.
+* **Scene** variables are only accessible from the scene they are created in. They can be used for data that only concerns one scene. A Scene variable would be able to access the time remaining to complete the level/scene.
 * **Object** variables only concern one object. For example, a hero can have a "Health" or "Ammo" variable.
 
 

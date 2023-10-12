@@ -68,19 +68,21 @@ You can use the `+` operator to concatenate two or more strings of text. For exa
 
 ## Variables (or properties)
 
-!!! warning
-
-    Writing the name of variables (or properties) inside an expression will be available in the upcoming version of GDevelop. In the meantime, use `Variable` or `VariableString` to access the value of a variable.
-
 In an expression, you can write the name of a variable (a scene variable, a global variable). For example, if a variable called Score was added to the scene, you can simply write: `2 * Score` to compute the score value multiplied by two.
 
 You can also access to the value of a variable of an object by writing the object name followed by a dot and the name of the variable. For example: `Player.Ammo` or `Player.CoinEarned`.
 
 Finally, when you're editing a behavior or a custom object inside [an extension](/gdevelop5/extensions/create), you can also access the properties of this behavior or object by writing their name, like variables.
 
+!!! note
+
+    You can also use the functions `Variable(<name of the variable>)` (for variables containing a number) and `VariableString(<name of the variable>)` (for variables containing a string) to access the value stored inside a scene variable. There are also functions to access global variables (`GlobalVariable(<name of the variable>)`) and object variables (`Object.Variable(<name of the variable>)`).
+
+    These functions are more verbose and more cumbersome to use. Most of the time, you can just write the name of the variable you want to use.
+
 ## Functions
 
-Often, it's necessary to calculate complex values using data coming from the game. For example, you might want to compute something like a score according to the X and Y coordinates of the player. 
+Often, it's necessary to calculate complex values using data coming from the game. For example, you might want to compute something like a score according to the X and Y coordinates of the player.
 
 This is where _functions_ are useful.
 
@@ -162,7 +164,7 @@ Some functions, such as the `RandomInRange` function, accept multiple arguments:
 RandomInRange(3, 10)
 ```
 
-When a function accepts multiple arguments, each argument must be separated by a comma. 
+When a function accepts multiple arguments, each argument must be separated by a comma.
 
 ### Return values
 

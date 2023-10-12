@@ -3,12 +3,12 @@ title: Scene variables
 ---
 # Scene variables
 
-Scene variables:
+Scene variables are [variables](/gdevelop5/all-features/variables) which are:
 
-- are stored in memory for as long as a scene is active
-- can only be accessed from within the current scene
+- stored in memory for the duration of a scene,
+- can only be accessed from within the current scene.
 
-They're useful for storing data that doesn't need to be shared between different scenes, such as the number of enemies in the scene. They're deleted from memory when the player changes scenes.
+They're useful for storing data that doesn't need to be shared between different scenes, such as the number of targets remaining in the level. They're deleted from memory when the player changes scenes.
 
 ## Creating scene variables
 
@@ -16,34 +16,19 @@ They're useful for storing data that doesn't need to be shared between different
 2. Right click on the scene.
 3. Select **Scene properties**.
 4. Select **Edit scene variables**.
-5. Click **Add**.
-6. Enter a name for the variable.
-7. (Optional) Enter a default value for the variable.
-8. Select **Apply**.
+
+In the editor, choose "Add a variable", then enter a name, choose a data type and, optionally, enter a default value for the variable (this will be the value used when the scene starts).
 
 !!! tip
 
-    Variable names should not contain dots (periods) or commas. We recommend using alphanumerical characters.
+    Variable names should not contain dots (periods), commas or spaces. Other characters are also reserved by GDevelop. If you use something forbidden, GDevelop will automatically correct the name you've entered.
 
 ## Using scene variables in expressions
 
-You can use scene variables in [expressions](/gdevelop5/all-features/expressions). The syntax depends on the data type of the variable. In the examples below, replace the placeholders in angled brackets with the relevant values.
+You can use scene variables in [expressions](/gdevelop5/all-features/expressions). Just write the name of the variable to use it in a formula. Note that if an object is using the same name, it will take the priority over the scene variable.
 
-### Number
+!!! note
 
-```
-Variable(<variable_name>)
-```
+    You can also access variable using the expressions `Variable(<name of the variable>)` (for a variable containing a number) and `VariableString(<name of the variable>)` (for a variable containing a text). For example: `GlobalVariable(TotalScore)`.
 
-### Text
-
-```
-VariableString(<variable_name>)
-```
-
-### Structure
-
-```
-Variable(<parent_variable>.<child_variable>)
-VariableString(<parent_variable>.<child_variable>)
-```
+    These expressions are more verbose and not recommended to use anymore, but will still work and you can find them in some games.

@@ -32,7 +32,8 @@ A variable with the *Number* data type can contain numeric values, such as `0`, 
 
 ### Text
 
-A variable with the *Text* data type can contain text, such as the words `Hello world`. In programming languages, this data type is often referred to as a _string_. In this documentation, the terms *text* and *string* are used interchangeably.
+A variable with the *Text* data type can contain text, such as the words `Hello world`. In programming languages, this data type is often referred to as a _string_. In this documentation,
+the terms *text* and *string* are used interchangeably.
 
 ### Boolean
 
@@ -60,7 +61,7 @@ The indices begin at 0 and go up to however long the array is.
 
 Arrays can be created in the Variables Editor, using events or by using an extension like [JSON resource loader](../../extensions/jsonresource-loader/).
 
-### Accessing child variables
+## Accessing child variables in structures or arrays
 
 Variables that exist within a collection variable (i.e: an array or a structure) are known as _child variables_.
 To access the value of a child variable, use the following syntax in an [expressions](/gdevelop5/all-features/expressions), replacing the values in angled brackets with variable names:
@@ -75,30 +76,26 @@ Assume we have this structure:
 To get the value `123` we can write the following expression
 
 ```
-GlobalVariable(players.player1.level1score)
+players.player1.level1score
 ```
 
 Or, using brackets:
 
 ```
-GlobalVariable(players["player1"]["level1score"])
-```
-
-If this variable was a scene variable, `Variable` would be used instead of `GlobalVariable`:
-
-```
-Variable(players.player1.level1score)
+players["player1"]["level1score"]
 ```
 
 !!! tip
 
     On structures, `<child_variable>` is the name of the child variable. On arrays it is the index of the child variable. Only **numbers work as indices** for arrays.
 
-If a child variable doesn't exist, GDevelop creates it.
+If a child variable doesn't exist, GDevelop creates it automatically.
 
 !!! note
 
-    Collection variables can contain other collection variables. This makes it possible to store complex data in a single variable. Just be careful the data doesn't become too difficult to manage.
+    Collection variables (structures and arrays) can contain other collection variables. This makes it possible to store complex data in a single variable. This is helpful when dealing with structured data coming from various sources, including data served from web services or third parties.
+
+    Just be careful the data doesn't become too difficult to manage if you create structures with a lot of variables.
 
 ### Accessing child variables dynamically
 
@@ -107,56 +104,60 @@ You can use expressions to dynamically access child variables.
 For example, imagine storing the player's score for each level, called `Level1`, `Level2`, `Level3`. If you want to show the player's score for a specific level, you may store the current level number in a variable called `CurrentLevel`. You could then use the following syntax to access the score:
 
 ```
-Variable(PlayerScore["Level"+ToString(Variable(CurrentLevel))])
+PlayerScore["Level" + CurrentLevel]
 ```
+
 Whatever is inside the square brackets will be interpreted as the name of the child.
 
-If you need to use a variable to define part of the child path, all the subsequent children in the path will need to be in square brackets as well.   In the above example if you wanted to address a child at PlayerScore.Level1.enemies.killbonus but still define the level dynamically, it would look like this:
+If you need to use a variable to define part of the child path, all the subsequent children in the path will need to be in square brackets as well.   In the above example if you wanted to address a child called `PlayerScore.Level1.enemies.killbonus` but still define the level dynamically, it would look like this:
 
 ```
-Variable(PlayerScore["Level"+ToString(Variable(CurrentLevel))]["enemies"]["killbonus"])
+PlayerScore["Level" + CurrentLevel].enemies.killbonus
 ```
 
 Note that this is equivalent to writing:
 
 ```
-Variable(PlayerScore["Level"+ToString(Variable(CurrentLevel))].enemies.killbonus)
+PlayerScore["Level" + CurrentLevel]["enemies"]["killbonus"]
 ```
 
 ## Scopes
 
 The _scope_ of a variable determines:
 
-- where the variable can be accessed from
-- how long the variable is stored in memory
-- the steps required to create the variable
+- where the variable can be accessed from,
+- how long the variable is stored in memory,
+- the steps required to create the variable.
 
 In GDevelop, there are three variable scopes:
 
 - [Global](/gdevelop5/all-features/variables/global-variables)
 - [Scene](/gdevelop5/all-features/variables/scene-variables)
 - [Object](/gdevelop5/all-features/variables/object-variables)
+- Local variables will be introduced in a future GDevelop release.
 
 Refer to the linked pages for more information about each variable scope.
 
 !!! tip
 
-    There is no notion of "local" variable in GDevelop, but this could be introduced later. In most cases, scene or object variables will work for your use case. In custom behaviors, you can also use the properties of the behavior to store data inside the behavior.
+    Sometimes, in particular in extensions, variables are not recommended because there are better alternatives. For example, in a custom behavior, you can use the properties of the behavior to store data inside the behavior.
 
 ## Naming variables
 
-Variable names should *not* contain dots (periods) or commas and begin with a letter. We recommend using alphanumerical characters (A-Z, 0-9).
+Variable names should not contain dots (periods), commas or spaces. Other characters are also reserved by GDevelop. If you use something forbidden, GDevelop will automatically correct the name you've entered.
 
 ## Using variables without declaring them
 
-You don't have to create (declare) variables before using them.
+It's highly recommended that any variable that you use is declared. This means that it was added in the variables editor (either in the global variables of the project, or in the variables of the scene, or in the variables of an object).
+
+GDevelop still support using variables not "declared" in an editor.
 
 For example, if you reference a variable that doesn't exist in an action or condition, GDevelop automatically initializes the variable with a default value. The default value is determined by the data type of the variable:
 
 * Numeric variables are initialized with a value of `0`.
 * Text variables are initialized with a value of `""` (an empty string).
 
-But while it's possible use variables without first creating them, we recommend creating them anyway, as it allows GDevelop to generate optimized events and helps you keep track of the variables in your game.
+This approach is less efficient, as GDevelop has to initialize the variable during the game and can't optimize their usage.
 
 ## Debugging variables
 
