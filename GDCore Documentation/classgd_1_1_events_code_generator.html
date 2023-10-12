@@ -240,9 +240,9 @@ virtual <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><t
 <tr class="separator:af86684d2f3252b1fb8250ce38c29415c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfe58390ff1fd53c7841c1e67bea7f6c"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#abfe58390ff1fd53c7841c1e67bea7f6c">GenerateSingleUsageUniqueIdForEventsList</a> ()</td></tr>
 <tr class="separator:abfe58390ff1fd53c7841c1e67bea7f6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2441c919ef7974f848fe5154f14724b3"><td class="memItemLeft" align="right" valign="top"><a id="a2441c919ef7974f848fe5154f14724b3"></a>
-virtual const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GenerateRelationalOperatorCodes</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;operatorString)</td></tr>
-<tr class="separator:a2441c919ef7974f848fe5154f14724b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4a3b778385158957630a37259894364"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#ac4a3b778385158957630a37259894364">GenerateRelationalOperation</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;relationalOperator, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;lhs, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;rhs)</td></tr>
+<tr class="memdesc:ac4a3b778385158957630a37259894364"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a relational operation.  <a href="classgd_1_1_events_code_generator.html#ac4a3b778385158957630a37259894364">More...</a><br /></td></tr>
+<tr class="separator:ac4a3b778385158957630a37259894364"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -259,6 +259,9 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:a2441c919ef7974f848fe5154f14724b3"><td class="memItemLeft" align="right" valign="top"><a id="a2441c919ef7974f848fe5154f14724b3"></a>
+virtual const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GenerateRelationalOperatorCodes</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;operatorString)</td></tr>
+<tr class="separator:a2441c919ef7974f848fe5154f14724b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0101b21e863d4163298bc476a520df20"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#a0101b21e863d4163298bc476a520df20">GenerateParameterCodes</a> (const <a class="el" href="classgd_1_1_expression.html">gd::Expression</a> &amp;parameter, const <a class="el" href="classgd_1_1_parameter_metadata.html">gd::ParameterMetadata</a> &amp;metadata, <a class="el" href="classgd_1_1_events_code_generation_context.html">gd::EventsCodeGenerationContext</a> &amp;context, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;lastObjectName, std::vector&lt; std::pair&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>, <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &gt; *supplementaryParametersTypes)</td></tr>
 <tr class="memdesc:a0101b21e863d4163298bc476a520df20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate the code for a single parameter.  <a href="classgd_1_1_events_code_generator.html#a0101b21e863d4163298bc476a520df20">More...</a><br /></td></tr>
 <tr class="separator:a0101b21e863d4163298bc476a520df20"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1533,6 +1536,59 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>ExpressionCodeGenera
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="ac4a3b778385158957630a37259894364"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4a3b778385158957630a37259894364">&#9670;&nbsp;</a></span>GenerateRelationalOperation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classgd_1_1_string.html">gd::String</a> gd::EventsCodeGenerator::GenerateRelationalOperation </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>relationalOperator</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generate a relational operation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">relationalOperator</td><td>the operator </td></tr>
+    <tr><td class="paramname">lhs</td><td>the left hand operand </td></tr>
+    <tr><td class="paramname">rhs</td><td>the right hand operand </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> </dd></dl>
 
 </div>
 </div>

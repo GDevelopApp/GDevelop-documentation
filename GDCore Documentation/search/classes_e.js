@@ -10,5 +10,6 @@ var searchData=
   ['objectmetadata_2177',['ObjectMetadata',['../classgd_1_1_object_metadata.html',1,'gd']]],
   ['objectscontainer_2178',['ObjectsContainer',['../classgd_1_1_objects_container.html',1,'gd']]],
   ['objectscontainerslist_2179',['ObjectsContainersList',['../classgd_1_1_objects_containers_list.html',1,'gd']]],
-  ['operatornode_2180',['OperatorNode',['../structgd_1_1_operator_node.html',1,'gd']]]
+  ['objectsusingresourcecollector_2180',['ObjectsUsingResourceCollector',['../classgd_1_1_objects_using_resource_collector.html',1,'gd']]],
+  ['operatornode_2181',['OperatorNode',['../structgd_1_1_operator_node.html',1,'gd']]]
 ];
