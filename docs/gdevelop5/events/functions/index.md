@@ -100,11 +100,17 @@ This is a really simple and not really useful example of a function (you could a
 
 A parameter can be an object, a text, a number or some other kind of data (the name of a layer, a boolean, etc...). You can use expressions and conditions to access the parameters passed to a function.
 
-* Get a number from a parameter: `GetArgumentAsNumber(string)`
-* Get a text from a parameter: `GetArgumentAsString(string)`
-Here is an example of a text parameter that will get the name and use it in an action for change scene.
+For an object, a number or a text parameter, you can directly use them in expressions: just write the name of the parameter. For example, if a parameter is called "ScoreToMultiply" and is a number, you can do: `2 * ScoreToMultiply`.
 
-![](/gdevelop5/events/function_text_expression.png)
+
+!!! note
+
+    In previous versions of GDevelop, you needed to use `GetArgumentAsNumber` or `GetArgumentAsString`, passing the name of the argument **between quotes**. This is not needed anymore and you're encouraged not to use these functions. They continue to work but are verbose and error prone.
+
+
+Here is an example of a text parameter that will get a scene name, which is then used in an action for changing the scene.
+
+![](function_text_expression.png)
 
 
 ## Using the function in your game
