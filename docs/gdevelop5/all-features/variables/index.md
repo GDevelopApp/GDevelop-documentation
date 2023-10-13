@@ -61,6 +61,27 @@ The indices begin at 0 and go up to however long the array is.
 
 Arrays can be created in the Variables Editor, using events or by using an extension like [JSON resource loader](../../extensions/jsonresource-loader/).
 
+## Using a variable in expressions
+
+Once a variable is added in the variables editor of a project or a scene, you can simply write its name in an expression to use it. For example, if you have a variable named "Score":
+
+`"Your total points are:" + Score`
+
+For a variable of an object, you write the object name first followed by a dot and the variable name. For example:
+
+`"The player points are" + Player.Points`
+
+
+!!! info
+
+    If multiple variables or objects have the same name, or if they are conflicting with a parameter (in a function) or a property (in a custom behavior or custom object) the order is as follows:
+
+    - In a scene: Object > Scene Variable > Global Variable,
+    - In an extension: Object > Parameter > Property > Shared Property.
+
+    This means if there are conflicting names, the object will always be used in priority. Otherwise, in the events of a scene, it will be a scene variable if it exists, otherwise a global variable if it exists.
+    In an extension, the parameter with the given name will be used first, other a property if it exists.
+
 ## Accessing child variables in structures or arrays
 
 Variables that exist within a collection variable (i.e: an array or a structure) are known as _child variables_.
@@ -157,7 +178,7 @@ For example, if you reference a variable that doesn't exist in an action or cond
 * Numeric variables are initialized with a value of `0`.
 * Text variables are initialized with a value of `""` (an empty string).
 
-This approach is less efficient, as GDevelop has to initialize the variable during the game and can't optimize their usage.
+This approach is less efficient, as GDevelop has to initialize the variable during the game and can't optimize their usage. A variable that is not "declared" is also not usable in expressions.
 
 ## Debugging variables
 
