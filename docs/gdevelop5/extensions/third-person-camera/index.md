@@ -12,7 +12,7 @@ Move the camera  to look at an object from a given distance with a rotation and 
 It can be useful for:
 
 - Third person camera
-- Isometric view
+- Isometric-like point of view
 
 
 !!! tip
