@@ -30,14 +30,7 @@ Compare function parameter (also called "argument") text.
 **Check if a function parameter is set to true (or yes)**  
 Check if the specified function parameter (also called "argument") is set to True or Yes. If the argument is a string, an empty string is considered as "false". If it's a number, 0 is considered as "false".
 
-## Expressions
 
-| Expression | Description |  |
-|-----|-----|-----|
-| `GetArgumentAsNumber(function parameter name)` | Get function parameter (also called "argument") value. ||
-| | _🔤 Function Parameter Name (String)_ | Parameter name |
-| `GetArgumentAsString(function parameter name)` | Get function parameter (also called "argument") text. ||
-| | _🔤 Function Parameter Name (String)_ | Parameter name |
 
 ---
 *This page is an auto-generated reference page about the **Event functions** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

@@ -503,20 +503,6 @@ Provides expressions to manipulate strings (also called texts).
 ---
 
 
-## Event functions
-
-Advanced control features for functions made with events. 
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `GetArgumentAsNumber(function parameter name)` | Get function parameter (also called "argument") value. ||
-| | _🔤 Function Parameter Name (String)_ | Parameter name |
-| `GetArgumentAsString(function parameter name)` | Get function parameter (also called "argument") text. ||
-| | _🔤 Function Parameter Name (String)_ | Parameter name |
-
----
-
-
 
 ## Animatable capability 
 
