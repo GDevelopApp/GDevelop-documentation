@@ -16,10 +16,16 @@ Here are a few tips from the community.
 
 The installer is based on *NSIS*, so you can find online resources to use it from a script. For example, it can be [run silently](https://nsis.sourceforge.io/Docs/Chapter4.html#silent).
 
-We recommend installing it "system-wide" (i.e: for all users). Each user will have their own preferences.
+For usage in a company or university, we recommend installing it "system-wide" (i.e: for all users). Each user will have their own preferences.
 
 You can create a Powershell script:
 ![](/gdevelop5/getting_started/batch-install-gdevelop-company-university/pasted/20220513-085548.png)
+
+Something like this (adapt the executable path):
+
+```
+Start-Process -Wait -FilePath "$PSScriptRoot\GDevelop 5 Setup 5.X.XXX.exe" -ArgumentList "/ALLUSERS /S"
+```
 
 ## On macOS
 
