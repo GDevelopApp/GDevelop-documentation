@@ -15,11 +15,11 @@ If you need to create walls, plane grounds or other rectangular/cubic 3D objects
 
     Your help to [improve these features in the GDevelop game engine is welcome](https://github.com/4ian/GDevelop).
 
-## Lightning
+## Lighting
 
-Lightning can be set up through [layers effects](../../interface/scene-editor/layer-effects). Ambient and directional light effects allow to configure basic lightning for 3D layers.
+Lighting can be set up through [layers effects](../../interface/scene-editor/layer-effects). Ambient and directional light effects allow to configure basic lighting for 3D layers.
 
-The model can be set up to react to lightning in different ways. The GLTF format can include data about light reflection. The 3D model can either use this data or use a forced configuration.
+The model can be set up to react to lighting in different ways. The GLTF format can include data about light reflection. The 3D model can either use this data or use a forced configuration.
 
 ## File format
 
