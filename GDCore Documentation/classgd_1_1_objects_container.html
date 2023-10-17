@@ -90,6 +90,12 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#aca2afa84d13d9851f2ba842544efa685">ObjectsContainer</a> ()</td></tr>
 <tr class="memdesc:aca2afa84d13d9851f2ba842544efa685"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor creating a container without any objects. <br /></td></tr>
 <tr class="separator:aca2afa84d13d9851f2ba842544efa685"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee69f14a70cd097a575448027ce313e1"><td class="memItemLeft" align="right" valign="top"><a id="aee69f14a70cd097a575448027ce313e1"></a>
+<a class="el" href="classgd_1_1_object_folder_or_object.html">gd::ObjectFolderOrObject</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetRootFolder</b> ()</td></tr>
+<tr class="separator:aee69f14a70cd097a575448027ce313e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab867ea046685df6b0d1b46cd9593d6be"><td class="memItemLeft" align="right" valign="top"><a id="ab867ea046685df6b0d1b46cd9593d6be"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>AddMissingObjectsInRootFolder</b> ()</td></tr>
+<tr class="separator:ab867ea046685df6b0d1b46cd9593d6be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Objects management</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Members functions related to objects management. </p>
 </div></td></tr>
@@ -124,6 +130,10 @@ std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="memdesc:a640aa2289df8870f0710dc63867cdc19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new empty object of type <em>objectType</em> called <em>name</em> at the specified position in the list.<br  />
   <a href="classgd_1_1_objects_container.html#a640aa2289df8870f0710dc63867cdc19">More...</a><br /></td></tr>
 <tr class="separator:a640aa2289df8870f0710dc63867cdc19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a952a63bb79a07cc01372e1b894d11b66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_object.html">gd::Object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a952a63bb79a07cc01372e1b894d11b66">InsertNewObjectInFolder</a> (const <a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectType, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name, <a class="el" href="classgd_1_1_object_folder_or_object.html">gd::ObjectFolderOrObject</a> &amp;objectFolderOrObject, std::size_t position)</td></tr>
+<tr class="memdesc:a952a63bb79a07cc01372e1b894d11b66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new empty object of type <em>objectType</em> called <em>name</em> in the given folder at the specified position.<br  />
+  <a href="classgd_1_1_objects_container.html#a952a63bb79a07cc01372e1b894d11b66">More...</a><br /></td></tr>
+<tr class="separator:a952a63bb79a07cc01372e1b894d11b66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a448cdf2dc1e33935818d225640703071"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_object.html">gd::Object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a448cdf2dc1e33935818d225640703071">InsertObject</a> (const <a class="el" href="classgd_1_1_object.html">gd::Object</a> &amp;object, std::size_t position)</td></tr>
 <tr class="memdesc:a448cdf2dc1e33935818d225640703071"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new object to the list.  <a href="classgd_1_1_objects_container.html#a448cdf2dc1e33935818d225640703071">More...</a><br /></td></tr>
 <tr class="separator:a448cdf2dc1e33935818d225640703071"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -132,12 +142,8 @@ std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="separator:a2a0bbaa492962c1511bd04a26a2c504d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac78a249284f21bb3ee2c5585faf3352e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#ac78a249284f21bb3ee2c5585faf3352e">MoveObject</a> (std::size_t oldIndex, std::size_t newIndex)</td></tr>
 <tr class="separator:ac78a249284f21bb3ee2c5585faf3352e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8ef93532ea6d737a08f421fb08ed295"><td class="memItemLeft" align="right" valign="top"><a id="af8ef93532ea6d737a08f421fb08ed295"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#af8ef93532ea6d737a08f421fb08ed295">SwapObjects</a> (std::size_t firstObjectIndex, std::size_t secondObjectIndex)</td></tr>
-<tr class="memdesc:af8ef93532ea6d737a08f421fb08ed295"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swap the position of the specified objects. <br /></td></tr>
-<tr class="separator:af8ef93532ea6d737a08f421fb08ed295"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab668faba0a6c3a85598a3f3c473e6c77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#ab668faba0a6c3a85598a3f3c473e6c77">MoveObjectToAnotherContainer</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name, <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;newContainer, std::size_t newPosition)</td></tr>
-<tr class="separator:ab668faba0a6c3a85598a3f3c473e6c77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7a7f834d23442def9c2fe2c3a96f77a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#ae7a7f834d23442def9c2fe2c3a96f77a">MoveObjectFolderOrObjectToAnotherContainerInFolder</a> (<a class="el" href="classgd_1_1_object_folder_or_object.html">gd::ObjectFolderOrObject</a> &amp;objectFolderOrObject, <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;newContainer, <a class="el" href="classgd_1_1_object_folder_or_object.html">gd::ObjectFolderOrObject</a> &amp;newParentFolder, std::size_t newPosition)</td></tr>
+<tr class="separator:ae7a7f834d23442def9c2fe2c3a96f77a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15dd31aa3b862cda9c1e5fdbf006da06"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html">gd::Object</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a15dd31aa3b862cda9c1e5fdbf006da06">GetObjects</a> ()</td></tr>
 <tr class="separator:a15dd31aa3b862cda9c1e5fdbf006da06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a931a010dc9d32733effe7381f984eef2"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html">gd::Object</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a931a010dc9d32733effe7381f984eef2">GetObjects</a> () const</td></tr>
@@ -147,12 +153,20 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </div></td></tr>
 <tr class="memitem:aff826b3d2224628cf202d0dd65f18947"><td class="memItemLeft" align="right" valign="top"><a id="aff826b3d2224628cf202d0dd65f18947"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#aff826b3d2224628cf202d0dd65f18947">SerializeObjectsTo</a> (<a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element) const</td></tr>
-<tr class="memdesc:aff826b3d2224628cf202d0dd65f18947"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize instances container. <br /></td></tr>
+<tr class="memdesc:aff826b3d2224628cf202d0dd65f18947"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the objects container. <br /></td></tr>
 <tr class="separator:aff826b3d2224628cf202d0dd65f18947"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20bfc7244e8d5a23f57801c365269fa0"><td class="memItemLeft" align="right" valign="top"><a id="a20bfc7244e8d5a23f57801c365269fa0"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a20bfc7244e8d5a23f57801c365269fa0">UnserializeObjectsFrom</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element)</td></tr>
-<tr class="memdesc:a20bfc7244e8d5a23f57801c365269fa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unserialize the instances container. <br /></td></tr>
+<tr class="memdesc:a20bfc7244e8d5a23f57801c365269fa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unserialize the objects container. <br /></td></tr>
 <tr class="separator:a20bfc7244e8d5a23f57801c365269fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3f82229cd4aba18e1cb0edcf63d2d8a"><td class="memItemLeft" align="right" valign="top"><a id="af3f82229cd4aba18e1cb0edcf63d2d8a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#af3f82229cd4aba18e1cb0edcf63d2d8a">SerializeFoldersTo</a> (<a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element) const</td></tr>
+<tr class="memdesc:af3f82229cd4aba18e1cb0edcf63d2d8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize folder structure. <br /></td></tr>
+<tr class="separator:af3f82229cd4aba18e1cb0edcf63d2d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a338c584ba8249bc7312e8d514f111673"><td class="memItemLeft" align="right" valign="top"><a id="a338c584ba8249bc7312e8d514f111673"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a338c584ba8249bc7312e8d514f111673">UnserializeFoldersFrom</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element)</td></tr>
+<tr class="memdesc:a338c584ba8249bc7312e8d514f111673"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unserialize folder structure. <br /></td></tr>
+<tr class="separator:a338c584ba8249bc7312e8d514f111673"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Objects groups management</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Members functions related to global objects groups management. </p>
 </div></td></tr>
@@ -303,6 +317,57 @@ std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html"
 
 </div>
 </div>
+<a id="a952a63bb79a07cc01372e1b894d11b66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a952a63bb79a07cc01372e1b894d11b66">&#9670;&nbsp;</a></span>InsertNewObjectInFolder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classgd_1_1_object.html">gd::Object</a> &amp; gd::ObjectsContainer::InsertNewObjectInFolder </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;&#160;</td>
+          <td class="paramname"><em>project</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>objectType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classgd_1_1_object_folder_or_object.html">gd::ObjectFolderOrObject</a> &amp;&#160;</td>
+          <td class="paramname"><em>objectFolderOrObject</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>position</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add a new empty object of type <em>objectType</em> called <em>name</em> in the given folder at the specified position.<br  />
+ </p>
+<dl class="section note"><dt>Note</dt><dd>The object is created using the project's current platform. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the object in the list. </dd></dl>
+
+</div>
+</div>
 <a id="a448cdf2dc1e33935818d225640703071"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a448cdf2dc1e33935818d225640703071">&#9670;&nbsp;</a></span>InsertObject()</h2>
 
@@ -371,23 +436,29 @@ std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html"
 
 </div>
 </div>
-<a id="ab668faba0a6c3a85598a3f3c473e6c77"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab668faba0a6c3a85598a3f3c473e6c77">&#9670;&nbsp;</a></span>MoveObjectToAnotherContainer()</h2>
+<a id="ae7a7f834d23442def9c2fe2c3a96f77a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7a7f834d23442def9c2fe2c3a96f77a">&#9670;&nbsp;</a></span>MoveObjectFolderOrObjectToAnotherContainerInFolder()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void gd::ObjectsContainer::MoveObjectToAnotherContainer </td>
+          <td class="memname">void gd::ObjectsContainer::MoveObjectFolderOrObjectToAnotherContainerInFolder </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
+          <td class="paramtype"><a class="el" href="classgd_1_1_object_folder_or_object.html">gd::ObjectFolderOrObject</a> &amp;&#160;</td>
+          <td class="paramname"><em>objectFolderOrObject</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;&#160;</td>
           <td class="paramname"><em>newContainer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classgd_1_1_object_folder_or_object.html">gd::ObjectFolderOrObject</a> &amp;&#160;</td>
+          <td class="paramname"><em>newParentFolder</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -402,7 +473,7 @@ std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html"
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Move the specified object to another container, removing it from the current one and adding it to the new one at the specified position.</p>
+<p>Move the specified object to another container, removing it from the current one and adding it to the new one at the specified position in the given folder.</p>
 <dl class="section note"><dt>Note</dt><dd>This does not invalidate the references to the object (object is not moved in memory, as referenced by smart pointers internally). </dd></dl>
 
 </div>

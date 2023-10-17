@@ -88,6 +88,9 @@ $(function() {
 <li>SerializeEventsTo()
 : <a class="el" href="classgd_1_1_events_list_serialization.html#a3db6a52dc5d19f7b31e257d5a7c63e7a">gd::EventsListSerialization</a>
 </li>
+<li>SerializeFoldersTo()
+: <a class="el" href="classgd_1_1_objects_container.html#af3f82229cd4aba18e1cb0edcf63d2d8a">gd::ObjectsContainer</a>
+</li>
 <li>SerializeInstructionsTo()
 : <a class="el" href="classgd_1_1_events_list_serialization.html#af584689f52548fee1df208d05f51a3da">gd::EventsListSerialization</a>
 </li>
@@ -135,6 +138,7 @@ $(function() {
 , <a class="el" href="classgd_1_1_named_property_descriptor.html#a50b70cdd33165dff9696ebcf070c358f">gd::NamedPropertyDescriptor</a>
 , <a class="el" href="classgd_1_1_object.html#af1dcf874061cfafd53d6de5ada1dba30">gd::Object</a>
 , <a class="el" href="classgd_1_1_object_configuration.html#a6dc42709aa7817cfdd2537ee30b267d7">gd::ObjectConfiguration</a>
+, <a class="el" href="classgd_1_1_object_folder_or_object.html#adf47b7a60e0b3db45f83fc55ee9c76a0">gd::ObjectFolderOrObject</a>
 , <a class="el" href="classgd_1_1_object_group.html#a53f1c150b32ff5263e2bb6bda5f431f2">gd::ObjectGroup</a>
 , <a class="el" href="classgd_1_1_object_groups_container.html#a29060fefe8dedb3689ea888a7014a24a">gd::ObjectGroupsContainer</a>
 , <a class="el" href="classgd_1_1_parameter_metadata.html#a10074ca901dfbe02e5d5de74ad974fcd">gd::ParameterMetadata</a>
@@ -163,7 +167,7 @@ $(function() {
 <li>Set()
 : <a class="el" href="classgd_1_1_platform_specific_assets.html#a2086f96c170cf12b64465fb1eedfb935">gd::PlatformSpecificAssets</a>
 , <a class="el" href="classgd_1_1_serializer_value.html#a440c4e9de5d568bf2199a11d56b8ed7a">gd::SerializerValue</a>
-, <a class="el" href="class_generic_pointer.html#a8ed0a7ce95331b7433371df7150b84a9">GenericPointer&lt; ValueType, Allocator &gt;</a>
+, <a class="el" href="class_generic_pointer.html#a71476d125a276b62a246990da1bd3468">GenericPointer&lt; ValueType, Allocator &gt;</a>
 , <a class="el" href="struct_parse_result.html#aa81b4a7b776b77216cb752385203a8c1">ParseResult</a>
 </li>
 <li>SetAdaptCollisionMaskAutomatically()
@@ -344,6 +348,9 @@ $(function() {
 : <a class="el" href="classgd_1_1_base_event.html#a6cb5d8821474f9251c2fe3a7c0c92311">gd::BaseEvent</a>
 , <a class="el" href="classgd_1_1_behavior_configuration_container.html#ad87616f8ab70609f3d128575149e3dee">gd::BehaviorConfigurationContainer</a>
 , <a class="el" href="classgd_1_1_variable.html#af82b592f925c89495e9fca971775ff84">gd::Variable</a>
+</li>
+<li>SetFolderName()
+: <a class="el" href="classgd_1_1_object_folder_or_object.html#a28132ba0b79ef571317ecd816f25d6ff">gd::ObjectFolderOrObject</a>
 </li>
 <li>SetFolderProject()
 : <a class="el" href="classgd_1_1_project.html#a60a1a84864ead9f4cd0f6ddc38b2797e">gd::Project</a>
@@ -737,8 +744,7 @@ $(function() {
 : <a class="el" href="classgd_1_1_serializer_element.html#adc8dfa7ddd78c63f40feee34271dd5ab">gd::SerializerElement</a>
 </li>
 <li>SetTags()
-: <a class="el" href="classgd_1_1_object.html#ae3023802c201123f6c72e61989b6506a">gd::Object</a>
-, <a class="el" href="classgd_1_1_platform_extension.html#a62f61d8a199c8bec98f5ab50a28945ff">gd::PlatformExtension</a>
+: <a class="el" href="classgd_1_1_platform_extension.html#a62f61d8a199c8bec98f5ab50a28945ff">gd::PlatformExtension</a>
 </li>
 <li>SetTarget()
 : <a class="el" href="classgd_1_1_link_event.html#acf080db34352f76528762bb44d278288">gd::LinkEvent</a>
@@ -774,7 +780,7 @@ $(function() {
 </li>
 <li>SetValue()
 : <a class="el" href="classgd_1_1_property_descriptor.html#a036e80886513c6db7530f028a21c51c9">gd::PropertyDescriptor</a>
-, <a class="el" href="classgd_1_1_serializer_element.html#a913ed61aeb79b46a7f39f5e4452512cb">gd::SerializerElement</a>
+, <a class="el" href="classgd_1_1_serializer_element.html#ae23f301138274b862fa1a5576c870cb5">gd::SerializerElement</a>
 , <a class="el" href="classgd_1_1_variable.html#a302f56ff5f31d0d35ee7186e57bfbc7d">gd::Variable</a>
 </li>
 <li>SetValueIteratorVariableName()
@@ -886,13 +892,13 @@ $(function() {
 </li>
 <li>Swap()
 : <a class="el" href="classgd_1_1_variables_container.html#a8ccb1c6cfbb16e639593d896a7b23b5e">gd::VariablesContainer</a>
-, <a class="el" href="class_generic_document.html#a6290e1290fad74177625af5938c0c58f">GenericDocument&lt; Encoding, Allocator, StackAllocator &gt;</a>
 </li>
 <li>swap
 : <a class="el" href="class_generic_document.html#a0d63efcc43758ac3aed77e868233369d">GenericDocument&lt; Encoding, Allocator, StackAllocator &gt;</a>
 </li>
 <li>Swap()
-: <a class="el" href="class_generic_pointer.html#a3b40ad3e851640e295a4623b624af395">GenericPointer&lt; ValueType, Allocator &gt;</a>
+: <a class="el" href="class_generic_document.html#a6290e1290fad74177625af5938c0c58f">GenericDocument&lt; Encoding, Allocator, StackAllocator &gt;</a>
+, <a class="el" href="class_generic_pointer.html#a3b40ad3e851640e295a4623b624af395">GenericPointer&lt; ValueType, Allocator &gt;</a>
 </li>
 <li>SwapAnimations()
 : <a class="el" href="classgd_1_1_sprite_object.html#adf28c28cd8d599a16da01ed34ea8d216">gd::SpriteObject</a>
@@ -914,9 +920,6 @@ $(function() {
 </li>
 <li>SwapLayouts()
 : <a class="el" href="classgd_1_1_project.html#aacd4b7980babd1625cd666a98c1cd92f">gd::Project</a>
-</li>
-<li>SwapObjects()
-: <a class="el" href="classgd_1_1_objects_container.html#af8ef93532ea6d737a08f421fb08ed295">gd::ObjectsContainer</a>
 </li>
 <li>SwapSprites()
 : <a class="el" href="classgd_1_1_direction.html#ab9be5d0222c825fc41f907e1eaffc452">gd::Direction</a>
