@@ -510,6 +510,8 @@ Animate objects. [Read more explanations about it.](https://wiki.gdevelop.io/gde
 
 | Expression | Description |  |
 |-----|-----|-----|
+| `Object.Animation::Duration()` | Return the current animation duration (in seconds). ||
+| `Object.Animation::ElapsedTime()` | Return the elapsed time from the beginning of the animation (in seconds). ||
 | `Object.Animation::Index()` | Return the number of the animation played by the object (the number from the animations list). ||
 | `Object.Animation::Name()` | Return the animation played by the object using the name of the animation. ||
 | `Object.Animation::SpeedScale()` | Return the animation speed scale (1 = the default speed, >1 = faster and <1 = slower). ||

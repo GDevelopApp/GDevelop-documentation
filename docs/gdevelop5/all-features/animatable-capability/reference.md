@@ -16,6 +16,9 @@ Pause the animation of the object.
 **Resume the animation**  
 Resume the animation of the object.
 
+**Animation elapsed time**  
+Change the elapsed time from the beginning of the animation (in seconds).
+
 **Animation (by number)**  
 Change the number of the animation played by the object (the number from the animations list).
 
@@ -26,6 +29,9 @@ Change the animation played by the object using the name of the animation.
 Change the animation speed scale (1 = the default speed, >1 = faster and <1 = slower).
 
 ### Behavior conditions
+
+**Animation elapsed time**  
+Compare the elapsed time from the beginning of the animation (in seconds).
 
 **Animation finished**  
 Check if the animation being played by the Sprite object is finished.
@@ -46,6 +52,8 @@ Compare the animation speed scale (1 = the default speed, >1 = faster and <1 = s
 
 | Expression | Description |  |
 |-----|-----|-----|
+| `Object.Animation::Duration()` | Return the current animation duration (in seconds). ||
+| `Object.Animation::ElapsedTime()` | Return the elapsed time from the beginning of the animation (in seconds). ||
 | `Object.Animation::Index()` | Return the number of the animation played by the object (the number from the animations list). ||
 | `Object.Animation::Name()` | Return the animation played by the object using the name of the animation. ||
 | `Object.Animation::SpeedScale()` | Return the animation speed scale (1 = the default speed, >1 = faster and <1 = slower). ||
