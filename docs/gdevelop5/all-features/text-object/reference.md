@@ -44,9 +44,6 @@ you can't get the number of lines displayed
 **Show Shadow**  
 Show the shadow of the text.
 
-**Modify the text**  
-Modify the text of a Text object.
-
 **Font size**  
 Change the font size of a text object.
 
@@ -69,9 +66,6 @@ Test if the word wrapping style of an object is set.
 
 **Padding**  
 Compare the number of pixels around a text object. If the shadow or the outline around the text are getting cropped, raise this value.
-
-**Compare the text**  
-Compare the text of a Text object.
 
 **Font size**  
 Compare the font size of a text object.

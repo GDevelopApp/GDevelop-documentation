@@ -30,6 +30,7 @@ Note that GDevelop can also be extended with extensions: take a look at [the lis
 * [Resizable capability](https://wiki.gdevelop.io/gdevelop5/objects) ([reference](https://wiki.gdevelop.io/gdevelop5/all-features/resizable-capability/reference))
 * [Scalable capability](https://wiki.gdevelop.io/gdevelop5/objects) ([reference](https://wiki.gdevelop.io/gdevelop5/all-features/scalable-capability/reference))
 * [Opacity capability](https://wiki.gdevelop.io/gdevelop5/objects) ([reference](https://wiki.gdevelop.io/gdevelop5/all-features/opacity-capability/reference))
+* [Text capability](https://wiki.gdevelop.io/gdevelop5/objects) ([reference](https://wiki.gdevelop.io/gdevelop5/all-features/text-container-capability/reference))
 * [Platform behavior](https://wiki.gdevelop.io/gdevelop5/behaviors/platformer) ([reference](https://wiki.gdevelop.io/gdevelop5/all-features/platform-behavior/reference))
 * [Destroy Outside Screen Behavior](https://wiki.gdevelop.io/gdevelop5/behaviors/destroyoutside) ([reference](https://wiki.gdevelop.io/gdevelop5/all-features/destroy-outside-behavior/reference))
 * [Tiled Sprite Object](https://wiki.gdevelop.io/gdevelop5/objects/tiled_sprite) ([reference](https://wiki.gdevelop.io/gdevelop5/all-features/tiled-sprite-object/reference))

@@ -577,6 +577,18 @@ Change the object opacity. [Read more explanations about it.](https://wiki.gdeve
 
 
 
+## Text capability 
+
+Access objects text. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects)
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.Text::Value()` | Return the text. ||
+
+---
+
+
+
 ## Platform (from extension Platform behavior)
 
 Flag objects as being platforms which characters can run on. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/behaviors/platformer)

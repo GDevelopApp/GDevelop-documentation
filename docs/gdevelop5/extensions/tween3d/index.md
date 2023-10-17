@@ -25,10 +25,10 @@ Change models proportions and orientation over time to make smooth animations.
 Change the scale volume.
 
 **Stretch on Y axis**  
-Change the stretch on Y axis. The object volume is conseved. A stretch of 2 make the object apear 2 time longer on Y in proportion to the dimension on X and Z.
+Change the stretch on Y axis. The object volume is conserved. A stretch of 2 makes the object appear 2 times longer on Y in proportion to the dimensions on X and Z.
 
 **Stretch on Z axis**  
-Change the stretch on Z axis. The object volume is conseved. A stretch of 2 make the object apear 2 time longer on Z in proportion to the dimension on X and Y.
+Change the stretch on Z axis. The object volume is conserved. A stretch of 2 makes the object appear 2 times longer on Z in proportion to the dimensions on X and Y.
 
 ## Conditions
 
@@ -36,10 +36,10 @@ Change the stretch on Z axis. The object volume is conseved. A stretch of 2 make
 Compare the scale volume.
 
 **Stretch on Y axis**  
-Compare the stretch on Y axis. The object volume is conseved. A stretch of 2 make the object apear 2 time longer on Y in proportion to the dimension on X and Z.
+Compare the stretch on Y axis. The object volume is conserved. A stretch of 2 makes the object appear 2 times longer on Y in proportion to the dimensions on X and Z.
 
 **Stretch on Z axis**  
-Compare the stretch on Z axis. The object volume is conseved. A stretch of 2 make the object apear 2 time longer on Z in proportion to the dimension on X and Y.
+Compare the stretch on Z axis. The object volume is conserved. A stretch of 2 makes the object appear 2 times longer on Z in proportion to the dimensions on X and Y.
 
 ## Expressions
 
@@ -47,9 +47,9 @@ Compare the stretch on Z axis. The object volume is conseved. A stretch of 2 mak
 |-----|-----|-----|
 | `Tween3D::ScaleVolume(object)` | Return the scale volume. ||
 | | _👾 Object_ | Object |
-| `Tween3D::StretchY(object)` | Return the stretch on Y axis. The object volume is conseved. A stretch of 2 make the object apear 2 time longer on Y in proportion to the dimension on X and Z. ||
+| `Tween3D::StretchY(object)` | Return the stretch on Y axis. The object volume is conserved. A stretch of 2 makes the object appear 2 times longer on Y in proportion to the dimensions on X and Z. ||
 | | _👾 Object_ | Object |
-| `Tween3D::StretchZ(object)` | Return the stretch on Z axis. The object volume is conseved. A stretch of 2 make the object apear 2 time longer on Z in proportion to the dimension on X and Y. ||
+| `Tween3D::StretchZ(object)` | Return the stretch on Z axis. The object volume is conserved. A stretch of 2 makes the object appear 2 times longer on Z in proportion to the dimensions on X and Y. ||
 | | _👾 Object_ | Object |
 
 ## 3D tween (experimental) 

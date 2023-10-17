@@ -46,9 +46,6 @@ Change the placeholder.
 **Read-only**  
 Set (or unset) if the text input is read-only.
 
-**Text**  
-Change the text.
-
 **Text color**  
 Set the text color of the object.
 
@@ -83,9 +80,6 @@ Compare the placeholder.
 
 **Read-only**  
 Check if the text input is read-only.
-
-**Text**  
-Compare the text.
 
 ### Object expressions
 

@@ -10,9 +10,6 @@ Displays a text using a "Bitmap Font" (an image representing characters). This i
 
 ### Object actions
 
-**Text**  
-Change the text.
-
 **Wrapping width**  
 Change the width, in pixels, after which the text is wrapped on next line.
 
@@ -38,9 +35,6 @@ Compare the font name (defined in the Bitmap font).
 
 **Font size**  
 Compare the font size, defined in the Bitmap Font.
-
-**Text**  
-Compare the text.
 
 **Wrapping width**  
 Compare the width, in pixels, after which the text is wrapped on next line.
