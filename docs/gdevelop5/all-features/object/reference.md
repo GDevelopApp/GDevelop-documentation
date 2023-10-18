@@ -202,9 +202,6 @@ Unpause an object timer.
 **Angle**  
 Compare the angle of the specified object.
 
-**Angle of movement (using forces)**  
-Compare the angle of movement of an object according to the forces applied on it.
-
 **Object is stopped (no forces applied on it)**  
 Check if an object is not moving
 
@@ -240,6 +237,9 @@ Test if a point is inside the object collision masks.
 
 **Value of an object timer**  
 Compare the elapsed time of an object timer. This condition doesn't start the timer.
+
+**Angle of movement (using forces)**  
+Compare the angle of movement of an object according to the forces applied on it.
 
 **Current layer**  
 Check if the object is on the specified layer.
