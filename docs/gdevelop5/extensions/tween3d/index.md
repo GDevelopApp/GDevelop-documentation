@@ -19,38 +19,7 @@ Change models proportions and orientation over time to make smooth animations.
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
-## Actions
 
-**Scale volume**  
-Change the scale volume.
-
-**Stretch on Y axis**  
-Change the stretch on Y axis. The object volume is conserved. A stretch of 2 makes the object appear 2 times longer on Y in proportion to the dimensions on X and Z.
-
-**Stretch on Z axis**  
-Change the stretch on Z axis. The object volume is conserved. A stretch of 2 makes the object appear 2 times longer on Z in proportion to the dimensions on X and Y.
-
-## Conditions
-
-**Scale volume**  
-Compare the scale volume.
-
-**Stretch on Y axis**  
-Compare the stretch on Y axis. The object volume is conserved. A stretch of 2 makes the object appear 2 times longer on Y in proportion to the dimensions on X and Z.
-
-**Stretch on Z axis**  
-Compare the stretch on Z axis. The object volume is conserved. A stretch of 2 makes the object appear 2 times longer on Z in proportion to the dimensions on X and Y.
-
-## Expressions
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `Tween3D::ScaleVolume(object)` | Return the scale volume. ||
-| | _👾 Object_ | Object |
-| `Tween3D::StretchY(object)` | Return the stretch on Y axis. The object volume is conserved. A stretch of 2 makes the object appear 2 times longer on Y in proportion to the dimensions on X and Z. ||
-| | _👾 Object_ | Object |
-| `Tween3D::StretchZ(object)` | Return the stretch on Z axis. The object volume is conserved. A stretch of 2 makes the object appear 2 times longer on Z in proportion to the dimensions on X and Y. ||
-| | _👾 Object_ | Object |
 
 ## 3D tween (experimental) 
 
@@ -67,14 +36,29 @@ Remove the tween animation from the object.
 **Resume a tween**  
 Resume the tween animation.
 
+**Scale volume**  
+Change the scale volume.
+
+**Stretch on Y axis**  
+Change the stretch on Y axis. The object volume is conserved. A stretch of 2 makes the object appear 2 times longer on Y in proportion to the dimensions on X and Z.
+
+**Stretch on Z axis**  
+Change the stretch on Z axis. The object volume is conserved. A stretch of 2 makes the object appear 2 times longer on Z in proportion to the dimensions on X and Y.
+
 **Stop a tween**  
 Stop the running tween animation.
 
-**Tween rotation X**  
-Tweens an object rotation X from its current value to a new one.
+**Tween depth (Z size)**  
+Tweens an object depth from its current value to a new one.
+
+**Tween Z position**  
+Tweens an object Z position from its current value to a new one.
+
+**Tween X rotation**  
+Tweens an object X rotation from its current value to a new one.
 
 **Tween rotation Y**  
-Tweens an object rotation Y from its current value to a new one.
+Tweens an object Y rotation from its current value to a new one.
 
 **Tween scale volume**  
 Tweens an object scale volume from its current value to a new one. The scale volume can never be 0 or less.
@@ -99,12 +83,24 @@ Check if the tween animation is currently playing.
 **Progress of a tween**  
 Compare the progress of a tween (between 0.0 and 1.0).
 
+**Scale volume**  
+Compare the scale volume.
+
+**Stretch on Y axis**  
+Compare the stretch on Y axis. The object volume is conserved. A stretch of 2 makes the object appear 2 times longer on Y in proportion to the dimensions on X and Z.
+
+**Stretch on Z axis**  
+Compare the stretch on Z axis. The object volume is conserved. A stretch of 2 makes the object appear 2 times longer on Z in proportion to the dimensions on X and Y.
+
 ### Behavior expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.Tween3D::Progress(string)` | Return the progress of a tween (between 0.0 and 1.0). ||
 | | _🔤 Name (String)_ | Tween identifier |
+| `Object.Tween3D::ScaleVolume()` | Return the scale volume. ||
+| `Object.Tween3D::StretchY()` | Return the stretch on Y axis. The object volume is conserved. A stretch of 2 makes the object appear 2 times longer on Y in proportion to the dimensions on X and Z. ||
+| `Object.Tween3D::StretchZ()` | Return the stretch on Z axis. The object volume is conserved. A stretch of 2 makes the object appear 2 times longer on Z in proportion to the dimensions on X and Y. ||
 
 ## 3D wobble 
 
