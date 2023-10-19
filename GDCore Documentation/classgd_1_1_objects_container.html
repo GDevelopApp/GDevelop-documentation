@@ -90,6 +90,8 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#aca2afa84d13d9851f2ba842544efa685">ObjectsContainer</a> ()</td></tr>
 <tr class="memdesc:aca2afa84d13d9851f2ba842544efa685"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor creating a container without any objects. <br /></td></tr>
 <tr class="separator:aca2afa84d13d9851f2ba842544efa685"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bf51eb67847925fbfdbfaa019e96289"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="classgd_1_1_object_folder_or_object.html">ObjectFolderOrObject</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a9bf51eb67847925fbfdbfaa019e96289">GetAllObjectFolderOrObjects</a> () const</td></tr>
+<tr class="separator:a9bf51eb67847925fbfdbfaa019e96289"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee69f14a70cd097a575448027ce313e1"><td class="memItemLeft" align="right" valign="top"><a id="aee69f14a70cd097a575448027ce313e1"></a>
 <a class="el" href="classgd_1_1_object_folder_or_object.html">gd::ObjectFolderOrObject</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetRootFolder</b> ()</td></tr>
 <tr class="separator:aee69f14a70cd097a575448027ce313e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -199,6 +201,24 @@ std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html"
 <dd>
 <a class="el" href="classgd_1_1_object.html" title="Represent an object of a platform.">gd::Object</a> </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a9bf51eb67847925fbfdbfaa019e96289"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bf51eb67847925fbfdbfaa019e96289">&#9670;&nbsp;</a></span>GetAllObjectFolderOrObjects()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; const <a class="el" href="classgd_1_1_object_folder_or_object.html">ObjectFolderOrObject</a> * &gt; gd::ObjectsContainer::GetAllObjectFolderOrObjects </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a vector containing all object and folders in this container. Only use this for checking if you hold a valid <code><a class="el" href="classgd_1_1_object_folder_or_object.html" title="Class representing a folder structure in order to organize objects in folders (to be used with an Obj...">ObjectFolderOrObject</a></code> - don't use this for rendering or anything else. </p>
+
+</div>
+</div>
 <a id="abcd782322a84d9ebfdf03b06f3d03f37"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abcd782322a84d9ebfdf03b06f3d03f37">&#9670;&nbsp;</a></span>GetObjectPosition()</h2>
 
