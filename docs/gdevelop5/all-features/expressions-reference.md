@@ -1411,6 +1411,10 @@ Animate object properties over time. This allows smooth transitions, animations 
 | | _🔢 Number_ | From value |
 | | _🔢 Number_ | To value |
 | | _🔢 Number_ | Weighting From 0 to 1. |
+| `Tween::Progress(string)` | Return the progress of a tween (between 0.0 and 1.0). ||
+| | _🔤 Name (String)_ | Tween Identifier |
+| `Tween::Value(string)` | Return the value of a tween. It is always 0 for tweens with several values. ||
+| | _🔤 Name (String)_ | Tween Identifier |
 
 ## Tween (from extension Tweening)
 
@@ -1418,7 +1422,9 @@ Smoothly animate position, angle, scale and other properties of objects. [Read m
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Object.Tween::Progress(string)` | Progress of a tween (between 0.0 and 1.0) ||
+| `Object.Tween::Progress(string)` | Return the progress of a tween (between 0.0 and 1.0). ||
+| | _🔤 Name (String)_ | Tween Identifier |
+| `Object.Tween::Value(string)` | Return the value of a tween. It is always 0 for tweens with several values. ||
 | | _🔤 Name (String)_ | Tween Identifier |
 
 ---
