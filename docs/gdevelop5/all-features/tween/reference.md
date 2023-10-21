@@ -105,7 +105,7 @@ Tweens an object X position from its current X position to a new one.
 Tweens an object Y position from its current Y position to a new one.
 
 **Tween object scale**  
-Tweens an object scale from its current scale to a new one (note: the scale can never be less than 0).
+Tweens an object scale from its current scale to a new one (note: the scale can never be 0 or less).
 
 **Tween object X-scale**  
 Tweens an object X-scale from its current value to a new one (note: the scale can never be 0 or less).
