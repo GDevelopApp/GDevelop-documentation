@@ -25,12 +25,6 @@ Modify the current frame of the object
 **Blend mode**  
 Compare the number of the blend mode currently used by an object
 
-**Scale on Y axis**  
-Compare the scale of the height of an object.
-
-**Scale on X axis**  
-Compare the scale of the width of an object.
-
 **Current frame**  
 Compare the index of the current frame in the animation displayed by the specified object. The first frame in an animation starts at index 0.
 
