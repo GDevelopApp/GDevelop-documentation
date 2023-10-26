@@ -19,6 +19,9 @@ Begin to draw a simple one-color fill. Subsequent actions, such as "Path line" (
 **Bezier curve**  
 Draw a bezier curve on screen
 
+**Chamfer Rectangle**  
+Draw a chamfer rectangle on screen
+
 **Circle**  
 Draw a circle on screen
 

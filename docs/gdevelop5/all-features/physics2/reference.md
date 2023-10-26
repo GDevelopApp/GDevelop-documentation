@@ -69,28 +69,28 @@ Modify an object angular damping. How much angular speed is lost across the time
 Modify an object angular velocity.
 
 **Apply angular impulse (rotational impulse)**  
-Apply an angular impulse (also called a "rotational impulse") to the object. This will make the object rotate without moving it.
+Apply an angular impulse (also called a "rotational impulse") to the object. It instantly changes the rotation speed, to give an initial speed for instance.
 
 **Apply force**  
-Apply a force to the object. You need to specify the point of application (you can get the body mass center through expressions).
+Apply a force to the object over time. It "accelerates" an object and must be used every frame during a time period.
 
 **Apply force toward position**  
-Apply a force to the object to move it toward a position. You need to specify the point of application (you can get the body mass center through expressions).
+Apply a force to the object over time to move it toward a position. It "accelerates" an object and must be used every frame during a time period.
 
 **Apply impulse**  
-Apply an impulse to the object. You need to specify the point of application (you can get the body mass center through expressions).
+Apply an impulse to the object. It instantly changes the speed, to give an initial speed for instance.
 
 **Apply impulse toward position**  
-Apply an impulse to the object to move it toward a position. You need to specify the point of application (you can get the body mass center through expressions).
+Apply an impulse to the object to move it toward a position. It instantly changes the speed, to give an initial speed for instance.
 
 **Apply force (angle)**  
-Apply a force to the object using polar coordinates. You need to specify the point of application (you can get the body mass center through expressions).
+Apply a force to the object over time using polar coordinates. It "accelerates" an object and must be used every frame during a time period.
 
 **Apply impulse (angle)**  
-Apply an impulse to the object using polar coordinates. You need to specify the point of application (you can get the body mass center through expressions).
+Apply an impulse to the object using polar coordinates. It instantly changes the speed, to give an initial speed for instance.
 
 **Apply torque (rotational force)**  
-Apply a torque (also called "rotational force") to the object. This will make the object rotate without moving it.
+Apply a torque (also called "rotational force") to the object. It "accelerates" an object rotation and must be used every frame during a time period.
 
 **Density**  
 Modify an object density. The body's density and volume determine its mass.
