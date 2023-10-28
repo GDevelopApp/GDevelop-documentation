@@ -91,7 +91,7 @@ Common features that can be used for all objects in GDevelop. [Read more explana
 
 ## Sprite 
 
-Animated object which can be used for most elements of a game [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/sprite)
+Animated object which can be used for most elements of a game. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/sprite)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -903,14 +903,14 @@ Support for 3D in GDevelop.
 
 ## 3D Box (from extension 3D)
 
-A 3D box. 
+A box with images for each face 
 
 _No expressions for this object._
 
 
 ## 3D Model (from extension 3D)
 
-A 3D model. 
+An animated 3D model. 
 
 _No expressions for this object._
 

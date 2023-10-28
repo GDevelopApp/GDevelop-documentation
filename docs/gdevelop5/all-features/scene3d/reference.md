@@ -73,7 +73,7 @@ Compare the camera position on Z axis.
 
 ## 3D Box 
 
-A 3D box. 
+A box with images for each face 
 
 ### Object actions
 
@@ -93,7 +93,7 @@ _No expressions for this object._
 
 ## 3D Model 
 
-A 3D model. 
+An animated 3D model. 
 
 _No expressions for this object._
 

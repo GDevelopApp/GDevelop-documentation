@@ -6,7 +6,7 @@ Sprite are animated object which can be used for most elements of a game. [Read 
 
 ## Sprite 
 
-Animated object which can be used for most elements of a game 
+Animated object which can be used for most elements of a game. 
 
 ### Object actions
 
