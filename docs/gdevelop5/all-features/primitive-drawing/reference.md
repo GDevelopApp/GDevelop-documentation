@@ -76,6 +76,9 @@ Draw a quadratic curve on screen
 **Rectangle**  
 Draw a rectangle on screen
 
+**Regular Polygon**  
+Draw a regular polygon on screen
+
 **Rounded rectangle**  
 Draw a rounded rectangle on screen
 
