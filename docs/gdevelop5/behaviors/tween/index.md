@@ -4,6 +4,7 @@ title: Tween behavior
 # Tween behavior
 
 The Tween (from inbe**tween**) [behavior](/gdevelop5/behaviors) animates [objects](/gdevelop5/objects) properties over time:
+
 - Position
 - Angle
 - Size
