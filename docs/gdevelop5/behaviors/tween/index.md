@@ -39,6 +39,7 @@ Tweens can be looped by starting back the first tween at the end of a chain.
 ![](tween-loop.png)
 
 Some extensions also have built-in looping:
+
 - [Flash](/gdevelop5/extensions/flash)
 - [Rectangular movement](/gdevelop5/extensions/rectangle-movement)
 - [Ellipse movement](/gdevelop5/extensions/ellipse-movement)
