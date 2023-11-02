@@ -60,14 +60,14 @@ The [3D tween](/gdevelop5/extensions/tween3d) extension has additional actions d
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://tween-test){ .md-button .md-button--primary }
 
-[![](tweentest.png)](https://editor.gdevelop.io/?project=example://tween-test){ width="320" }
+[![](tweentest.png){ width="320" }](https://editor.gdevelop.io/?project=example://tween-test)
 
 
 **Tween Animations**
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://tween-animations){ .md-button .md-button--primary }
 
-[![](tweenanimations.png)](https://editor.gdevelop.io/?project=example://tween-animations){ width="320" }
+[![](tweenanimations.png){ width="320" }](https://editor.gdevelop.io/?project=example://tween-animations)
 
 
 **Pairs**
