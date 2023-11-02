@@ -74,7 +74,7 @@ The [3D tween](/gdevelop5/extensions/tween3d) extension has additional actions d
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://pairs){ .md-button .md-button--primary }
 
-[![](pairs.png)](https://editor.gdevelop.io/?project=example://pairs){ width="320" }
+[![](pairs.png){ width="320" }](https://editor.gdevelop.io/?project=example://pairs)
 
 
 ## Reference
