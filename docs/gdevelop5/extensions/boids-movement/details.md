@@ -13,7 +13,7 @@ Simulates swarms or flocks movement following the separation, alignment, cohesio
 
 [Open in GDevelop](https://editor.gdevelop.io/?project=example://fish-school){ .md-button .md-button--primary }
 
-[![](fish-school-example.png){ width="300" }](https://editor.gdevelop.io/?project=example://fish-school)
+[![](fish-school-example.png){ width="320" }](https://editor.gdevelop.io/?project=example://fish-school)
 
 !!! tip
 

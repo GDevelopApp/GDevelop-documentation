@@ -33,7 +33,7 @@ Bullets can be shot in a direction given by an [angle](/gdevelop5/tutorials/basi
 
 [Open in GDevelop](https://editor.gdevelop.io/?project=example://space-shooter){ .md-button .md-button--primary }
 
-[![](space-shooter-example.png){ width="300" }](https://editor.gdevelop.io/?project=example://space-shooter)
+[![](space-shooter-example.png){ width="320" }](https://editor.gdevelop.io/?project=example://space-shooter)
 
 
 ### Fire to the cursor
@@ -46,7 +46,7 @@ Bullets can be shot to a position with the **Fire bullet toward an position** ac
 
 [Open in GDevelop](https://editor.gdevelop.io/?project=example://conviction-of-gun-dude-desktop){ .md-button .md-button--primary }
 
-[![](conviction-dude-example.png){ width="300" }](https://editor.gdevelop.io/?project=example://conviction-of-gun-dude-desktop)
+[![](conviction-dude-example.png){ width="320" }](https://editor.gdevelop.io/?project=example://conviction-of-gun-dude-desktop)
 
 ## Fire several bullets at once
 
@@ -78,7 +78,7 @@ With these property values, the **fire** action fires 3 bullets evenly spread on
 
 [Open in GDevelop](https://editor.gdevelop.io/?project=example://fire-bullet){ .md-button .md-button--primary }
 
-[![](multi-fire-example.png){ width="300" }](https://editor.gdevelop.io/?project=example://fire-bullet)
+[![](multi-fire-example.png){ width="320" }](https://editor.gdevelop.io/?project=example://fire-bullet)
 
 
 ### Fire like a shotgun

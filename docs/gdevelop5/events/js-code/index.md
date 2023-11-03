@@ -36,13 +36,13 @@ This array is exactly like what an action or a condition would use. For example,
 
 **Text to speech**
 
-[![](javascripttexttospeechexample.png)](https://editor.gdevelop.io/?project=example://text-to-speech)
+[![](javascripttexttospeechexample.png){ width="320" }](https://editor.gdevelop.io/?project=example://text-to-speech)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://text-to-speech){ .md-button .md-button--primary }
 
 **JavaScript blocks in platformer**
 
-[![](platformerjavascriptblocksexample.png)](https://editor.gdevelop.io/?project=example://javascript-blocks-in-platformer)
+[![](platformerjavascriptblocksexample.png){ width="320" }](https://editor.gdevelop.io/?project=example://javascript-blocks-in-platformer)
 
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://javascript-blocks-in-platformer){ .md-button .md-button--primary }

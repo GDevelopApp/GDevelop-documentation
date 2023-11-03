@@ -68,7 +68,7 @@ TODO Add a screenshot of the instruction editor showing the shuffle action.
 
 [Open in GDevelop](https://editor.gdevelop.io/?project=example://card-system){ .md-button .md-button--primary }
 
-[![](card-system-example.png){ width="300" }](https://editor.gdevelop.io/?project=example://card-system)
+[![](card-system-example.png){ width="320" }](https://editor.gdevelop.io/?project=example://card-system)
 
 
 ## Make randomness feel fair

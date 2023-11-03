@@ -59,7 +59,7 @@ All these properties can be modified using the actions and conditions of the obj
 
     Open these examples online.
 
-[![](bbtext-example.jpg)](https://editor.gdevelop.io/?project=example://bbtext-object-demo)
+[![](bbtext-example.jpg){ width="320" }](https://editor.gdevelop.io/?project=example://bbtext-object-demo)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://bbtext-object-demo){ .md-button .md-button--primary }
 

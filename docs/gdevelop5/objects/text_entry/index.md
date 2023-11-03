@@ -45,7 +45,7 @@ Using events, it is possible to enable or disable the "Text entry" object. Event
 
     Open these examples online.
 
-![](textexample.png)
+[![](textexample.png){ width="320" }](https://editor.gdevelop.io/?project=example://text-entry-object)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://text-entry-object){ .md-button .md-button--primary }
 

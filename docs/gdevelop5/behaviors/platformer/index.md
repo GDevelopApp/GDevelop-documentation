@@ -118,7 +118,7 @@ It's not easy to know how these values change the jump trajectory. The best is t
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://platformer-jump-evaluator){ .md-button .md-button--primary }
 
-[![](platformer-jump-evaluator.png)](https://editor.gdevelop.io/?project=example://platformer-jump-evaluator)
+[![](platformer-jump-evaluator.png){ width="320" }](https://editor.gdevelop.io/?project=example://platformer-jump-evaluator)
 
 ####  Make characters wall jump
 
@@ -140,7 +140,7 @@ The [advanced platformer movements](/gdevelop5/extensions/advanced-jump/referenc
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://platformer){ .md-button .md-button--primary }
 
-[![](platformer-example.png)](https://editor.gdevelop.io/?project=example://platformer)
+[![](platformer-example.png){ width="320" }](https://editor.gdevelop.io/?project=example://platformer)
 
 
 
@@ -149,7 +149,7 @@ The [advanced platformer movements](/gdevelop5/extensions/advanced-jump/referenc
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://parallax-scrolling){ .md-button .md-button--primary }
 
-[![](parallaxscrollingbehavior.png)](https://editor.gdevelop.io/?project=example://parallax-scrolling)
+[![](parallaxscrollingbehavior.png){ width="320" }](https://editor.gdevelop.io/?project=example://parallax-scrolling)
 
 ## Reference
 

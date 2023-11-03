@@ -71,7 +71,7 @@ _perfectly elastic collision_.
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://physics){ .md-button .md-button--primary }
 
-[![](hingeleverdemo.png)](https://editor.gdevelop.io/?project=example://physics)
+[![](hingeleverdemo.png){ width="320" }](https://editor.gdevelop.io/?project=example://physics)
 
 
 
@@ -79,7 +79,7 @@ _perfectly elastic collision_.
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://car-physics){ .md-button .md-button--primary }
 
-[![](carphysics.png)](https://editor.gdevelop.io/?project=example://car-physics)
+[![](carphysics.png){ width="320" }](https://editor.gdevelop.io/?project=example://car-physics)
 
 
 
@@ -87,7 +87,7 @@ _perfectly elastic collision_.
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://object-gravity){ .md-button .md-button--primary }
 
-[![](objectgravity.png)](https://editor.gdevelop.io/?project=example://object-gravity)
+[![](objectgravity.png){ width="320" }](https://editor.gdevelop.io/?project=example://object-gravity)
 
 ## Reference
 

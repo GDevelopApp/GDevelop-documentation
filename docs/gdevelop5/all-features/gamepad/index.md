@@ -38,7 +38,7 @@ The "Platformer gamepad mapper" behavior can be added to the character to make t
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://platformer){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/platformer/platformer-example.png)](https://editor.gdevelop.io/?project=example://platformer)
+[![](/gdevelop5/behaviors/platformer/platformer-example.png){ width="320" }](https://editor.gdevelop.io/?project=example://platformer)
 
 ### Move a character with custom movement
 

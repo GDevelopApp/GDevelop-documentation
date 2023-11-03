@@ -21,10 +21,10 @@ Alternatively, click on the *"Plus" icon* in the toolbar or on *"Add..."* at the
         **See it in action!** 🎮
     Open these examples online.
 
-[![](spaceshooternew.png)](https://editor.gdevelop.io/?project=example://asteroids)
+[![](spaceshooternew.png){ width="320" }](https://editor.gdevelop.io/?project=example://asteroids)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://asteroids){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/pathfinding/pathfindinggeneral.png)](https://editor.gdevelop.io/?project=example://pathfinding)
+[![](/gdevelop5/behaviors/pathfinding/pathfindinggeneral.png){ width="320" }](https://editor.gdevelop.io/?project=example://pathfinding)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://pathfinding){ .md-button .md-button--primary }

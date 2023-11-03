@@ -42,7 +42,7 @@ Using events, you can also check if an object is being dragged:
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://snap-object-to-grid){ .md-button .md-button--primary }
 
-[![](snaptogrid.png)](https://editor.gdevelop.io/?project=example://snap-object-to-grid)
+[![](snaptogrid.png){ width="320" }](https://editor.gdevelop.io/?project=example://snap-object-to-grid)
 
 
 
@@ -50,7 +50,7 @@ Using events, you can also check if an object is being dragged:
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://shoot-bullet-in-parabola){ .md-button .md-button--primary }
 
-[![](shootbulletparabolapattern.png)](https://editor.gdevelop.io/?project=example://shoot-bullet-in-parabola)
+[![](shootbulletparabolapattern.png){ width="320" }](https://editor.gdevelop.io/?project=example://shoot-bullet-in-parabola)
 
 
 
@@ -58,7 +58,7 @@ Using events, you can also check if an object is being dragged:
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://save-load){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/saveandloadexample.png)](https://editor.gdevelop.io/?project=example://save-load)
+[![](/gdevelop5/behaviors/saveandloadexample.png){ width="320" }](https://editor.gdevelop.io/?project=example://save-load)
 
 
 
@@ -66,7 +66,7 @@ Using events, you can also check if an object is being dragged:
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://pathfinding-basics){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/pathfinding/pathfindingbasics.png)](https://editor.gdevelop.io/?project=example://pathfinding-basics)
+[![](/gdevelop5/behaviors/pathfinding/pathfindingbasics.png){ width="320" }](https://editor.gdevelop.io/?project=example://pathfinding-basics)
 
 ## Reference
 

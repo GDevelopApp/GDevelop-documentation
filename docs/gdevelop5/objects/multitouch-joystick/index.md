@@ -37,7 +37,7 @@ The "Top-down multitouch controller mapper" behavior can be added to the charact
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://top-down-rpg){ .md-button .md-button--primary }
 
-[![](top-down-rpg-multitouch-controls.png)](https://editor.gdevelop.io/?project=example://top-down-rpg)
+[![](top-down-rpg-multitouch-controls.png){ width="320" }](https://editor.gdevelop.io/?project=example://top-down-rpg)
 
 ### Move a platformer character
 
@@ -61,7 +61,7 @@ The multitouch button behavior allows the developer to choose a button name. The
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://platformer){ .md-button .md-button--primary }
 
-[![](platformer-example-multitouch-controls.png)](https://editor.gdevelop.io/?project=example://platformer)
+[![](platformer-example-multitouch-controls.png){ width="320" }](https://editor.gdevelop.io/?project=example://platformer)
 
 ### Move a character with a custom movement
 
