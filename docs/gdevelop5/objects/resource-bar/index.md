@@ -40,7 +40,7 @@ Make sure to fill the "Unit width" with the dimension of the icon plus the margi
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://space-asteroids){ .md-button .md-button--primary }
 
-[![](/gdevelop5/objects/space-asteroids.png)](https://editor.gdevelop.io/?project=example://space-asteroids)
+[![](/gdevelop5/objects/space-asteroids.png){ width="320" }](https://editor.gdevelop.io/?project=example://space-asteroids)
 
 ## Create a continuous bar
 
@@ -62,7 +62,7 @@ and without a buffer:
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://top-down-rpg){ .md-button .md-button--primary }
 
-[![](../top-down-rpg-battle.png)](https://editor.gdevelop.io/?project=example://top-down-rpg)
+[![](../top-down-rpg-battle.png){ width="320" }](https://editor.gdevelop.io/?project=example://top-down-rpg)
 
 ## Update a bar according to a character life
 

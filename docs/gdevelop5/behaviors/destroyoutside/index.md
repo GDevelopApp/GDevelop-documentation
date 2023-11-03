@@ -30,7 +30,7 @@ Once you have selected this behavior from the list, it is going to eliminate the
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://shoot-bullets){ .md-button .md-button--primary }
 
-[![](Examples1BulletOutsideScreen.png)](https://editor.gdevelop.io/?project=example://shoot-bullets)
+[![](Examples1BulletOutsideScreen.png){ width="320" }](https://editor.gdevelop.io/?project=example://shoot-bullets)
 
 ## Reference
 

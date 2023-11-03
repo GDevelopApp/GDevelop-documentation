@@ -70,13 +70,13 @@ Using events, you can modify all properties of the text object, such as:
 
 Manipulate a Text Object
 
-[![](changetextexample1.png)](https://editor.gdevelop.io/?project=example://manipulate-text-object)
+[![](changetextexample1.png){ width="320" }](https://editor.gdevelop.io/?project=example://manipulate-text-object)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://manipulate-text-object){ .md-button .md-button--primary }
 
 Typewriter effect from extension
 
-[![](type-ontexteffectexample.png)](https://editor.gdevelop.io/?project=example://type-on-text-effect)
+[![](type-ontexteffectexample.png){ width="320" }](https://editor.gdevelop.io/?project=example://type-on-text-effect)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://type-on-text-effect){ .md-button .md-button--primary }
 

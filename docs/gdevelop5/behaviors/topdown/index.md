@@ -79,7 +79,7 @@ All theses values can also be changed at any time during the game using [events]
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://space-shooter){ .md-button .md-button--primary }
 
-[![](spaceshooter.png)](https://editor.gdevelop.io/?project=example://space-shooter)
+[![](spaceshooter.png){ width="320" }](https://editor.gdevelop.io/?project=example://space-shooter)
 
 
 
@@ -87,7 +87,7 @@ All theses values can also be changed at any time during the game using [events]
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://isometric-game){ .md-button .md-button--primary }
 
-[![](isometricgame.png)](https://editor.gdevelop.io/?project=example://isometric-game)
+[![](isometricgame.png){ width="320" }](https://editor.gdevelop.io/?project=example://isometric-game)
 
 ## Reference
 

@@ -20,7 +20,7 @@ GDevelop makes it easy to simulate real bouncing in a game. _Bounce behavior_ ca
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://breakout){ .md-button .md-button--primary }
 
-[![](/gdevelop5/tutorials/breakout-screenshot.png)](https://editor.gdevelop.io/?project=example://breakout)
+[![](/gdevelop5/tutorials/breakout-screenshot.png){ width="320" }](https://editor.gdevelop.io/?project=example://breakout)
 
 
 ## What's the logic behind the behavior?
