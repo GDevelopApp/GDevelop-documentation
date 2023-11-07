@@ -343,6 +343,14 @@ This 3D Box can have different textures on 6 faces.
 | `Object.Depth()` | Depth ||
 | `Object.Id()` | 3D Object ID ||
 
+## Enable WithThreeJS 
+
+Adding this object to your project will enable WithThreeJS in all scenes.
+There is no need to place this in the scene. 
+
+_No expressions for this object._
+
+
 ## 3D Board Projection 
 
 Create 3D Board (Plane) from Sprite object. Moving that Sprite will also move the 3D Object. 
