@@ -5,6 +5,13 @@ Adds various object picking related tools.
 
 **Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555), [VictrisGames](https://gd.games/VictrisGames).
 
+!!! warning
+    This is an extension made by a community member — but not reviewed
+    by the GDevelop extension team. As such, we can't guarantee it
+    meets all the quality standards of official extensions. In case of
+    doubt, contact the author to know more about what the extension
+    does or inspect its content before using it.
+
 ---
 
 Adds various actions and conditions for advanced object selection. Includes picking objects with the highest or lowest zOrder, an object variable, and the ability to unpick all objects.
