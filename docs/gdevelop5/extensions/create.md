@@ -14,11 +14,11 @@ Games can be enriched by extensions that can be created directly in a project. T
 
 Open the project manager, then click on **Create or search for new extensions**:
 
-![](/gdevelop5/extensions/create/pasted/20230305-115305.png)
+![](create/pasted/20230305-115305.png)
 
 A new window opened up, at the bottom click **Create a new extension**:
 
-![](/gdevelop5/extensions/create/pasted/20230305-115341.png)
+![](create/pasted/20230305-115341.png)
 
 A new extension is added to the project manager. It's recommended to immediately change the name to something that will hint at what the extension is providing by a right click on the extension and choose **Rename**.
 

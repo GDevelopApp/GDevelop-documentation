@@ -25,54 +25,49 @@ In addition to events, functions also have parameters, just like usual condition
 
 Functions are grouped into [extensions](/gdevelop5/extensions). They are the same as [the extensions that you can install for your game](/gdevelop5/extensions/search). You can see the list of extensions that the game has, as well as add a new extension in the [Project Manager](/gdevelop5/interface/project-manager):
 
-![](pasted/20221118-093224.png)
+![](/gdevelop5/extensions/create/pasted/20230305-115305.png)
 
-Click on **Create or search for new extensions** on the bottom then on **Create a new extension** to [create a new extension](/gdevelop5/extensions/create). It's a good idea to have functions related to the same thing in a single extension. Careful, the name is sensitive to the case, so `DayNightEffects` and `Daynighteffects` are two different functions.
+Click on **Create or search for new extensions** on the bottom then on **Create a new extension** to [create a new extension](/gdevelop5/extensions/create). It's a good idea to have functions related to the same thing in a single extension.
 
-Click on the extension in the list to open its editor. By default, there are no functions in the extensions. Add one by clicking on "Add a new function", on the left:
+By default, extensions don't have any function. Add one by clicking on "Add a new function", on the left:
 
 ![](pasted/20221118-093435.png)
 
-A new function is added. You can rename it, to give it a name according to what you want to do inside. For example, if your function will be a condition that checks if the object passed as parameter is ready to fight, you can call it `IsReadyToFight` (only alphanumeric characters and underscores are allowed in names).
+A new function is added, it's time to give it a name. By convention:
 
-Click on the function to edit it: you'll be able to change its configuration and its events.
+- actions start with a verb for instance `Jump`
+- conditions start with `Is` for instance `IsJumping`
+- expressions don't have any verb for instance `JumpSpeed`
 
 ## Editing the configuration and the events of the function
 
-When a function is selected, on the top, you can see the configuration of the function:
+Selecting a function displays its events and a few fields at the top.
+
+* **Function type** - actions and conditions can be used in [events](/gdevelop5/events/) and expressions can be used in formulas.
+* **Full name** - The name displayed in the list of actions (or conditions, or expressions).
+* **Group name** - A title to group actions in lists.
+* **Description** - To explain to extension users what the action does and how to use it.
+* **Sentence** - This one is specific to actions and conditions. It's the sentence displayed in the events.
+
+Parameters can be inserted in the sentence by writing `_PARAMx_` between underscores where `x` must be replaced by the parameter number (starting from 1).
 
 ![](pasted/20221118-093605.png)
 
-* The first parameter is the type of the function: "Action", "Condition", "Expression" or "String Expression". If you choose Action or Condition, you'll find the function in the list of actions and conditions, when editing your events in the game. If you choose Expression (or String Expression), you'll find it in the list of expressions when you edit a formula.
-* You can then configure the name that will be displayed in the list.
-* Enter the description that will be given in the window, when choosing the parameters for the function.
-* For Action or Condition, you can enter the sentence that will be displayed in the events sheet. In case your function takes parameters (see below to learn more about these), you can include them by writing `PARAMx` between underscores, replacing `x` by the parameter number (starting at 1):
-
-```
-Rotate objects _PARAM1_
-```
-
-This is an example for a function named "RotateObjects", which is an action, with the description "Rotate the given objects", and with a single parameter, the objects to be rotated.
-
 ### Parameters
 
-Functions are becoming really useful and powerful when you use parameters. Under the configuration of the function, you can add parameters. These parameters will be available when you use the action, condition or expression in the events sheet. It's just like the usual action/condition/expressions you're used to!
+Function parameters let extension user give some values that can be used by the function events.
 
-Add a parameter with the button "Add a parameter":
+They can be added from the **Parameter** tab. Each of them requires:
 
-For each parameter, you can enter:
-
-  * The name, that will be used to access the parameter in the *events of the function*.
-  * The type. Parameters can be objects, numbers, texts, etc. [See the complete list of parameters](/gdevelop5/events/functions/#references-of-parameters).
-  * A description, that will be shown in the window when configuring the action/condition or expression.
-
-For example, we can add a parameter, that would return the objects to be rotated:
+  * **Name** - the identifier used in the function events to access to the parameter value.
+  * **Type**  - either object, number or text (see the [list of all types](/gdevelop5/events/functions/#references-of-parameters)).
+  * **Label** - shown to extension users when filling the parameter values.
 
 ![](pasted/20221118-093700.png)
 
 !!! note
 
-    These parameters can be used in a Javascript event, [see here how to use parameters](/gdevelop5/events/js-code#use_javascript_to_get_a_value_from_parameters) in Javascript.
+    Parameters can also be used in Javascript events, learn more about it in the [JavaScript Code events](/gdevelop5/events/js-code#use_javascript_to_get_a_value_from_parameters) page.
 
 ### Adding the events to the function and using the parameters
 
