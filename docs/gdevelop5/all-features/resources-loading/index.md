@@ -25,7 +25,7 @@ An action allows to change the default loading order by choosing which scene to 
 
 !!! tip
 
-    Projects built as an application have all resources stored locally and the loading time will be fast enough for loading optimizations not to matter much.
+    Projects built as an application have all resources stored locally and the loading will be fast enough for loading optimizations not to matter much.
 
 ## Reference
 
