@@ -17,11 +17,11 @@ Intermediary loading screens can be avoided by choosing in which order scenes ar
 
 The scenes are pre-loaded in the same order as the scene list in the editor. The scenes with the highest chances of being displayed at the beginning should be moved on the top of the list. Scenes with very few resources are good candidates too because they will delay other scenes pre-loading only by a little.
 
-![](scene-list.png){ .align-center }
+![](scene-list.png)
 
 An action allows to change the default loading order by choosing which scene to pre-load in background next. For instance, this action can be used at the beginning of the scene to make sure that the next level will be pre-loaded as soon as possible.
 
-![](load-next-scene.png){ .align-center }
+![](load-next-scene.png)
 
 !!! tip
 
