@@ -3,17 +3,11 @@ title: Functions - create your own actions, conditions or expressions
 ---
 # Functions: create your own actions, conditions or expressions
 
-An "Events Function" or simply Function is a powerful feature of GDevelop. [External events](/gdevelop5/interface), [links](/gdevelop5/events/link) and [groups](/gdevelop5/events/group) are useful to organize the events of your game, and even reuse some, in more than one place in your game. For example, you could put common events, to manage the enemies in some external events, and include these events, using a link, in various scenes.
-
-Functions are going one step further: they allow you to declare **new conditions**, **new actions** and even **new expressions**, using events.
-
-When you register a function, you can choose if it's a condition, an action or an expression. The Function contains events, like a scene or external events, that will be executed when the condition or the action is launched during the game.
-
-In addition to events, functions also have parameters, just like usual conditions, actions and expressions. The parameters can be objects, number or text.
+Similarly to a scene or [external events](/gdevelop5/interface), functions are written with events. They allow to create new conditions, new actions and new expressions that adds up to GDevelop features. They are a good way to organize events, avoid duplication and share features with the community.
 
 !!! tip
 
-    See [an example of replacing external events by functions](/gdevelop5/events/functions/replace-external-events). You can also **[automatically extract events to a function](/gdevelop5/events/functions/extract-events)**.
+    See an example of [replacing external events by functions](/gdevelop5/events/functions/replace-external-events). Events can be automatically [extracted as a function](/gdevelop5/events/functions/extract-events)**.
 
 !!! tip
 
@@ -23,13 +17,13 @@ In addition to events, functions also have parameters, just like usual condition
 
 ## Creating a new function
 
-Functions are grouped into [extensions](/gdevelop5/extensions). They are the same as [the extensions that you can install for your game](/gdevelop5/extensions/search). You can see the list of extensions that the game has, as well as add a new extension in the [Project Manager](/gdevelop5/interface/project-manager):
+Functions are grouped into [extensions](/gdevelop5/extensions). They are the same as [the extensions that can be installed](/gdevelop5/extensions/search). Extensions of a project are listed in the [Project Manager](/gdevelop5/interface/project-manager).
 
 ![](/gdevelop5/extensions/create/pasted/20230305-115305.png)
 
-Click on **Create or search for new extensions** on the bottom then on **Create a new extension** to [create a new extension](/gdevelop5/extensions/create). It's a good idea to have functions related to the same thing in a single extension.
+Click on **Create or search for new extensions** at the bottom. Then, select **Create a new extension** to [create a new extension](/gdevelop5/extensions/create).
 
-By default, extensions don't have any function. Add one by clicking on "Add a new function", on the left:
+By default, extensions don't have any function. Add one by clicking on **Add a new function** on the left:
 
 ![](pasted/20221118-093435.png)
 
