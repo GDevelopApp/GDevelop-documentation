@@ -79,17 +79,17 @@ When **Any object** is selected for the **object type**, the object can be used 
 
 Conditions and actions from behaviors can also be used in functions events. For this, behavior parameters must be added after an object parameter.
 
-### Use parameter values
+#### Use parameter values
 
-A parameter can be an object, a text, a number or some other kind of data (the name of a layer, a boolean, etc...). You can use expressions and conditions to access the parameters passed to a function.
+A number, string and boolean parameter values can be compare with conditions.
 
-For an object, a number or a text parameter, you can directly use them in expressions: just write the name of the parameter. For example, if a parameter is called "ScoreToMultiply" and is a number, you can do: `2 * ScoreToMultiply`.
+TODO: screenshot of the instruction editor showing the 3 conditions
 
+Parameters can also be used directly in expressions by writing their name. For instance, a parameter called "ScoreToMultiply" can be used the following: `2 * ScoreToMultiply`.
 
 !!! note
 
-    In previous versions of GDevelop, you needed to use `GetArgumentAsNumber` or `GetArgumentAsString`, passing the name of the argument **between quotes**. This is not needed anymore and you're encouraged not to use these functions. They continue to work but are verbose and error prone.
-
+    In previous versions of GDevelop, the expressions `GetArgumentAsNumber` or `GetArgumentAsString` were used to access parameter values. Some old extensions may still use them even though they are no longer necessary.
 
 Here is an example of a text parameter that will get a scene name, which is then used in an action for changing the scene.
 
@@ -97,25 +97,28 @@ Here is an example of a text parameter that will get a scene name, which is then
 
 ### Return a value from a function
 
-If your function is a condition or an expression, [use the actions in "Functions" category to set the expression/condition value](/gdevelop5/events/functions/return) (also called the "return value").
+Function that are conditions or expressions must return a value. The returned value can be chosen with 3 actions from the **Functions** category:
+
+- Conditions return a boolean value, either true or false, using the **Set condition return value** action.
+- Numerical expressions return a number using the **Set number return value** action.
+- String expressions return text using the **Set text return value** action.
+
+TODO: screenshot of the instruction editor showing the "return" actions
 
 ### Use variables from function events
 
-* Note that functions can be reused everywhere, and are not limited to a scene. You won't have the list of variables of your scenes in them. You can still manipulate them by using the usual actions and manually writing the variable you want to modify.
+Variable can be useful within functions for intermediary results or to keep a state in the extension.
+From function events, expressions must be used to access variable values:
 
-## Using the function in your game
+- `GlobalVariable(MyVariable)` for global variables
+- `Variable(MyVariable)` for scene variables
+- `MyObject.Variable(MyVariable)` for object variables
 
-When you have configured and created the events for your function, you can use it in the rest of your game.
+## Use functions in events
 
-Simply create a new action (or condition) and find in the list the name of your extension, then choose the function that you've created:
+Extension functions can be found in conditions and actions lists like any other feature of the engine.
 
 ![](pasted/20221118-094110.png)
-
-That's it! The function is used like any other condition, action or expression in the [Events Editor](/gdevelop5/interface/events-editor).
-
-!!! tip
-
-    The **Object Groups** feature, while creating functions, helps grouping similar object parameters. This way you can apply an action/condition to a group of object parameters (parameters pointing at objects) at once.
 
 ## Advanced usages
 
@@ -127,7 +130,7 @@ This page gave a basic overview of what functions are. They are one of the more 
 
 ### Avoid event duplication in functions
 
-* **Links** are not available in functions, because a function is autonomous and is in theory not even tied to a project.
+* **Links** are not available in functions, because a function is autonomous and is in theory not even tied to a project, but function can use other functions.
 
 ### Recursive functions
 
