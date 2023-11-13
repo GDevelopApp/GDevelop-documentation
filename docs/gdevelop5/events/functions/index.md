@@ -71,13 +71,13 @@ Events can be added to functions. These events are executed when the function is
 
 #### Use object parameters
 
-* You can use all the existing events, actions, conditions and expressions, but you are limited to the objects that you entered as parameters. This is to ensure that your function is only acting on them, and has no "side-effects" on the rest of the game - which would be a bad practice and make functions hard to reuse and to generate.
+Only the objects from the function parameters can be used in a function. Scene objects don't appear in the object list because a function can be used in several scenes and even different projects.
 
-Here is an example of a function to rotate some objects:
+When **Any object** is selected for the **object type**, the object can be used with a limited set of actions and conditions. Choosing a specific object type gives additional actions and conditions.
 
 ![](pasted/20221118-093830.png)
 
-This is a really simple and not really useful example of a function (you could as well use the action to rotate objects directly without writing a function). But, when you add more complex logic inside, a function's strength can be seen. It's then super easy to reuse this logic from the rest of the game!
+Conditions and actions from behaviors can also be used in functions events. For this, behavior parameters must be added after an object parameter.
 
 ### Use parameter values
 
