@@ -83,7 +83,7 @@ Conditions and actions from behaviors can also be used in functions events. For 
 
 A number, string and boolean parameter values can be compare with conditions.
 
-TODO: screenshot of the instruction editor showing the 3 conditions
+![](functionn-parameter-condition.png)
 
 Parameters can also be used directly in expressions by writing their name. For instance, a parameter called "ScoreToMultiply" can be used the following: `2 * ScoreToMultiply`.
 
@@ -103,7 +103,7 @@ Function that are conditions or expressions must return a value. The returned va
 - Numerical expressions return a number using the **Set number return value** action.
 - String expressions return text using the **Set text return value** action.
 
-TODO: screenshot of the instruction editor showing the "return" actions
+![](function-return-action.png)
 
 ### Use variables from function events
 
