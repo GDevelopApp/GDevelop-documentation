@@ -3,11 +3,11 @@ title: Functions - create your own actions, conditions or expressions
 ---
 # Functions: create your own actions, conditions or expressions
 
-Similarly to a scene or [external events](/gdevelop5/interface), functions are written with events. They allow to create new conditions, new actions and new expressions that adds up to GDevelop features. They are a good way to organize events, avoid duplication and share features with the community.
+Similarly to scenes or [external events](/gdevelop5/interface), functions are written with events. They allow to create new conditions, new actions and new expressions that add up to GDevelop features. They are a good way to organize events, avoid duplication and share features with the community.
 
 !!! tip
 
-    See an example of [replacing external events by functions](/gdevelop5/events/functions/replace-external-events). Events can be automatically [extracted as a function](/gdevelop5/events/functions/extract-events)**.
+    See an example of [replacing external events by functions](/gdevelop5/events/functions/replace-external-events). Events can also be automatically [extracted as a function](/gdevelop5/events/functions/extract-events).
 
 !!! tip
 
@@ -23,7 +23,7 @@ Functions are grouped into [extensions](/gdevelop5/extensions). They are the sam
 
 Click on **Create or search for new extensions** at the bottom. Then, select **Create a new extension** to [create a new extension](/gdevelop5/extensions/create).
 
-By default, extensions don't have any function. Add one by clicking on **Add a new function** on the left:
+By default, extensions don't have any function. Add one by clicking on **Add a new function** on the left.
 
 ![](pasted/20221118-093435.png)
 
@@ -35,21 +35,21 @@ A new function is added, it's time to give it a name. By convention:
 
 ## Describe a function
 
-Selecting a function displays its events and a few fields at the top.
+Selecting a function displays its events and a few fields on the top:
 
 * **Function type** - actions and conditions can be used in [events](/gdevelop5/events/) and expressions can be used in formulas.
-* **Full name** - The name displayed in the list of actions (or conditions, or expressions).
-* **Group name** - A title to group actions in lists.
-* **Description** - To explain to extension users what the action does and how to use it.
-* **Sentence** - This one is specific to actions and conditions. It's the sentence displayed in the events.
+* **Full name** - the name displayed in the list of actions (or conditions, or expressions).
+* **Group name** - a title to group actions in lists.
+* **Description** - it explains to extension users what the action does and how to use it.
+* **Sentence** - the sentence displayed in the events (specific to actions and conditions).
 
-Parameters can be inserted in the sentence by writing `_PARAMx_` between underscores where `x` must be replaced by the parameter number (starting from 1).
+Parameters can be inserted in a sentence by writing `_PARAMx_` between underscores where `x` must be replaced by the parameter number (starting from 1).
 
 ![](pasted/20221118-093605.png)
 
 ## Add parameters
 
-Function parameters let extension user give some values that can be used by the function events.
+Function parameters let extension users give some values that can be used by the function events.
 
 They can be added from the **Parameter** tab. Each of them requires:
 
@@ -58,10 +58,6 @@ They can be added from the **Parameter** tab. Each of them requires:
   * **Label** - shown to extension users when filling the parameter values.
 
 ![](pasted/20221118-093700.png)
-
-!!! note
-
-    Parameters can also be used in Javascript events, learn more about it in the [JavaScript Code events](/gdevelop5/events/js-code#use_javascript_to_get_a_value_from_parameters) page.
 
 ## Write function events
 
@@ -95,13 +91,17 @@ Here is an example of a text parameter that will get a scene name, which is then
 
 ![](function_text_expression.png)
 
+!!! note
+
+    Parameters can also be used in Javascript events, learn more about it in the [JavaScript Code events](/gdevelop5/events/js-code#use_javascript_to_get_a_value_from_parameters) page.
+
 ### Return a value from a function
 
-Function that are conditions or expressions must return a value. The returned value can be chosen with 3 actions from the **Functions** category:
+Function that are conditions or expressions must return a value. The returned value can be chosen with 3 actions from the **Event functions** category:
 
-- Conditions return a boolean value, either true or false, using the **Set condition return value** action.
-- Numerical expressions return a number using the **Set number return value** action.
-- String expressions return text using the **Set text return value** action.
+- Conditions return boolean values, either true or false, using the **Set condition return value** action.
+- Numerical expressions return numbers using the **Set number return value** action.
+- String expressions return texts using the **Set text return value** action.
 
 ![](function-return-action.png)
 
@@ -130,7 +130,7 @@ This page gave a basic overview of what functions are. They are one of the more 
 
 ### Avoid event duplication in functions
 
-* **Links** are not available in functions, because a function is autonomous and is in theory not even tied to a project, but function can use other functions.
+[Event links](/gdevelop5/events/link) are not available in functions, because a function is autonomous and is in theory not even tied to a project, but function can use other functions.
 
 ### Recursive functions
 
