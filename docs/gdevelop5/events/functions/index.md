@@ -35,7 +35,7 @@ A new function is added, it's time to give it a name. By convention:
 
 ## Describe a function
 
-Selecting a function displays its events and a few fields on the top:
+Selecting a function displays its events and the **function configuration** panel on the top with a few fields:
 
 * **Function type** - actions and conditions can be used in [events](/gdevelop5/events/) and expressions can be used in formulas.
 * **Full name** - the name displayed in the list of actions (or conditions, or expressions).
@@ -77,7 +77,7 @@ Conditions and actions from behaviors can also be used in functions events. For 
 
 #### Use parameter values
 
-A number, string and boolean parameter values can be compare with conditions.
+A number, string and boolean parameter values can be compared with conditions.
 
 ![](functionn-parameter-condition.png)
 
