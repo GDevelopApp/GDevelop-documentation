@@ -16,9 +16,6 @@ Enforce camera boundaries by moving the camera back inside specified boundaries.
 **Enable layer effect**  
 Enable an effect on a layer
 
-**Center the camera on an object within limits**  
-Center the camera on the specified object, without leaving the specified limits.
-
 **Hide a layer**  
 Hide a layer.
 
