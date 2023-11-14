@@ -3,17 +3,11 @@ title: Functions - create your own actions, conditions or expressions
 ---
 # Functions: create your own actions, conditions or expressions
 
-An "Events Function" or simply Function is a powerful feature of GDevelop. [External events](/gdevelop5/interface), [links](/gdevelop5/events/link) and [groups](/gdevelop5/events/group) are useful to organize the events of your game, and even reuse some, in more than one place in your game. For example, you could put common events, to manage the enemies in some external events, and include these events, using a link, in various scenes.
-
-Functions are going one step further: they allow you to declare **new conditions**, **new actions** and even **new expressions**, using events.
-
-When you register a function, you can choose if it's a condition, an action or an expression. The Function contains events, like a scene or external events, that will be executed when the condition or the action is launched during the game.
-
-In addition to events, functions also have parameters, just like usual conditions, actions and expressions. The parameters can be objects, number or text.
+Similarly to scenes or [external events](/gdevelop5/interface), functions are written with events. They allow to create new conditions, new actions and new expressions that add up to GDevelop features. They are a good way to organize events, avoid duplication and share features with the community.
 
 !!! tip
 
-    See [an example of replacing external events by functions](/gdevelop5/events/functions/replace-external-events). You can also **[automatically extract events to a function](/gdevelop5/events/functions/extract-events)**.
+    See an example of [replacing external events by functions](/gdevelop5/events/functions/replace-external-events). Events can also be automatically [extracted as a function](/gdevelop5/events/functions/extract-events).
 
 !!! tip
 
@@ -21,111 +15,110 @@ In addition to events, functions also have parameters, just like usual condition
 
 ![type:video](https://www.youtube.com/embed/-U8WFcpUmMg)
 
-## Creating a new function
+## Create a new function
 
-Functions are grouped into [extensions](/gdevelop5/extensions). They are the same as [the extensions that you can install for your game](/gdevelop5/extensions/search). You can see the list of extensions that the game has, as well as add a new extension in the [Project Manager](/gdevelop5/interface/project-manager):
+Functions are grouped into [extensions](/gdevelop5/extensions). They are the same as [the extensions that can be installed](/gdevelop5/extensions/search). Extensions of a project are listed in the [Project Manager](/gdevelop5/interface/project-manager).
 
-![](pasted/20221118-093224.png)
+![](/gdevelop5/extensions/create/pasted/20230305-115305.png)
 
-Click on **Create or search for new extensions** on the bottom then on **Create a new extension** to [create a new extension](/gdevelop5/extensions/create). It's a good idea to have functions related to the same thing in a single extension. Careful, the name is sensitive to the case, so `DayNightEffects` and `Daynighteffects` are two different functions.
+Click on **Create or search for new extensions** at the bottom. Then, select **Create a new extension** to [create a new extension](/gdevelop5/extensions/create).
 
-Click on the extension in the list to open its editor. By default, there are no functions in the extensions. Add one by clicking on "Add a new function", on the left:
+By default, extensions don't have any function. Add one by clicking on **Add a new function** on the left.
 
 ![](pasted/20221118-093435.png)
 
-A new function is added. You can rename it, to give it a name according to what you want to do inside. For example, if your function will be a condition that checks if the object passed as parameter is ready to fight, you can call it `IsReadyToFight` (only alphanumeric characters and underscores are allowed in names).
+A new function is added, it's time to give it a name. By convention:
 
-Click on the function to edit it: you'll be able to change its configuration and its events.
+- actions start with a verb for instance `Jump`
+- conditions start with `Is` for instance `IsJumping`
+- expressions don't have any verb for instance `JumpSpeed`
 
-## Editing the configuration and the events of the function
+## Describe a function
 
-When a function is selected, on the top, you can see the configuration of the function:
+Selecting a function displays its events and the **function configuration** panel on the top with a few fields:
+
+* **Function type** - actions and conditions can be used in [events](/gdevelop5/events/) and expressions can be used in formulas.
+* **Full name** - the name displayed in the list of actions (or conditions, or expressions).
+* **Group name** - a title to group actions in lists.
+* **Description** - it explains to extension users what the action does and how to use it.
+* **Sentence** - the sentence displayed in the events (specific to actions and conditions).
+
+Parameters can be inserted in a sentence by writing `_PARAMx_` between underscores where `x` must be replaced by the parameter number (starting from 1).
 
 ![](pasted/20221118-093605.png)
 
-* The first parameter is the type of the function: "Action", "Condition", "Expression" or "String Expression". If you choose Action or Condition, you'll find the function in the list of actions and conditions, when editing your events in the game. If you choose Expression (or String Expression), you'll find it in the list of expressions when you edit a formula.
-* You can then configure the name that will be displayed in the list.
-* Enter the description that will be given in the window, when choosing the parameters for the function.
-* For Action or Condition, you can enter the sentence that will be displayed in the events sheet. In case your function takes parameters (see below to learn more about these), you can include them by writing `PARAMx` between underscores, replacing `x` by the parameter number (starting at 1):
+## Add parameters
 
-```
-Rotate objects _PARAM1_
-```
+Function parameters let extension users give some values that can be used by the function events.
 
-This is an example for a function named "RotateObjects", which is an action, with the description "Rotate the given objects", and with a single parameter, the objects to be rotated.
+They can be added from the **Parameter** tab. Each of them requires:
 
-### Parameters
-
-Functions are becoming really useful and powerful when you use parameters. Under the configuration of the function, you can add parameters. These parameters will be available when you use the action, condition or expression in the events sheet. It's just like the usual action/condition/expressions you're used to!
-
-Add a parameter with the button "Add a parameter":
-
-For each parameter, you can enter:
-
-  * The name, that will be used to access the parameter in the *events of the function*.
-  * The type. Parameters can be objects, numbers, texts, etc. [See the complete list of parameters](/gdevelop5/events/functions/#references-of-parameters).
-  * A description, that will be shown in the window when configuring the action/condition or expression.
-
-For example, we can add a parameter, that would return the objects to be rotated:
+  * **Name** - the identifier used in the function events to access to the parameter value.
+  * **Type**  - either object, number or text (see the [list of all types](/gdevelop5/events/functions/#references-of-parameters)).
+  * **Label** - shown to extension users when filling the parameter values.
 
 ![](pasted/20221118-093700.png)
 
-!!! note
+## Write function events
 
-    These parameters can be used in a Javascript event, [see here how to use parameters](/gdevelop5/events/js-code#use_javascript_to_get_a_value_from_parameters) in Javascript.
+Events can be added to functions. These events are executed when the function is used in other event sheets. Which means through its condition, action or expression depending of the function type.
 
-### Adding the events to the function and using the parameters
+### Use parameters in function events
 
-When your function is configured, you can add events to it. These events will be launched when the condition, action or expression is used in the rest of the game.
+#### Use object parameters
 
-* You can use all the existing events, actions, conditions and expressions, but you are limited to the **objects that you entered as parameters**. This is to ensure that your function is only acting on them, and has no "side-effects" on the rest of the game - which would be a bad practice and make functions hard to reuse and to generate.
+Only the objects from the function parameters can be used in a function. Scene objects don't appear in the object list because a function can be used in several scenes and even different projects.
 
-* Note that functions can be reused everywhere, and are not limited to a scene. You **won't have the list of variables of your scenes** in them. You can still manipulate them by using the usual actions and manually writing the variable you want to modify.
-
-* **Links** are not available in functions, because a function is autonomous and is in theory not even tied to a project.
-
-#### Object parameter
-
-Here is an example of a function to rotate some objects:
+When **Any object** is selected for the **object type**, the object can be used with a limited set of actions and conditions. Choosing a specific object type gives additional actions and conditions.
 
 ![](pasted/20221118-093830.png)
 
-This is a really simple and not really useful example of a function (you could as well use the action to rotate objects directly without writing a function). But, when you add more complex logic inside, a function's strength can be seen. It's then super easy to reuse this logic from the rest of the game!
+Conditions and actions from behaviors can also be used in functions events. For this, behavior parameters must be added after an object parameter.
+
+#### Use parameter values
+
+A number, string and boolean parameter values can be compared with conditions.
+
+![](functionn-parameter-condition.png)
+
+Parameters can also be used directly in expressions by writing their name. For instance, a parameter called "ScoreToMultiply" can be used the following: `2 * ScoreToMultiply`.
 
 !!! note
 
-    If your function is a condition or an expression, [use the actions in "Functions" category to set the expression/condition value](/gdevelop5/events/functions/return) (also called the "return value").
-
-#### Other types of parameters
-
-A parameter can be an object, a text, a number or some other kind of data (the name of a layer, a boolean, etc...). You can use expressions and conditions to access the parameters passed to a function.
-
-For an object, a number or a text parameter, you can directly use them in expressions: just write the name of the parameter. For example, if a parameter is called "ScoreToMultiply" and is a number, you can do: `2 * ScoreToMultiply`.
-
-
-!!! note
-
-    In previous versions of GDevelop, you needed to use `GetArgumentAsNumber` or `GetArgumentAsString`, passing the name of the argument **between quotes**. This is not needed anymore and you're encouraged not to use these functions. They continue to work but are verbose and error prone.
-
+    In previous versions of GDevelop, the expressions `GetArgumentAsNumber` or `GetArgumentAsString` were used to access parameter values. Some old extensions may still use them even though they are no longer necessary.
 
 Here is an example of a text parameter that will get a scene name, which is then used in an action for changing the scene.
 
 ![](function_text_expression.png)
 
+!!! note
 
-## Using the function in your game
+    Parameters can also be used in Javascript events, learn more about it in the [JavaScript Code events](/gdevelop5/events/js-code#use_javascript_to_get_a_value_from_parameters) page.
 
-When you have configured and created the events for your function, you can use it in the rest of your game.
+### Return a value from a function
 
-Simply create a new action (or condition) and find in the list the name of your extension, then choose the function that you've created:
+Function that are conditions or expressions must return a value. The returned value can be chosen with 3 actions from the **Event functions** category:
+
+- Conditions return boolean values, either true or false, using the **Set condition return value** action.
+- Numerical expressions return numbers using the **Set number return value** action.
+- String expressions return texts using the **Set text return value** action.
+
+![](function-return-action.png)
+
+### Use variables from function events
+
+Variable can be useful within functions for intermediary results or to keep a state in the extension.
+From function events, expressions must be used to access variable values:
+
+- `GlobalVariable(MyVariable)` for global variables
+- `Variable(MyVariable)` for scene variables
+- `MyObject.Variable(MyVariable)` for object variables
+
+## Use functions in events
+
+Extension functions can be found in conditions and actions lists like any other feature of the engine.
 
 ![](pasted/20221118-094110.png)
-
-That's it! The function is used like any other condition, action or expression in the [Events Editor](/gdevelop5/interface/events-editor).
-
-!!! tip
-
-    The **Object Groups** feature, while creating functions, helps grouping similar object parameters. This way you can apply an action/condition to a group of object parameters (parameters pointing at objects) at once.
 
 ## Advanced usages
 
@@ -135,6 +128,9 @@ This page gave a basic overview of what functions are. They are one of the more 
 
     Functions that focus on an object can be grouped together in [custom behaviors](/gdevelop5/behaviors/events-based-behaviors/). It allows one step further to better organize a project.
 
+### Avoid event duplication in functions
+
+[Event links](/gdevelop5/events/link) are not available in functions, because a function is autonomous and is in theory not even tied to a project, but function can use other functions.
 
 ### Recursive functions
 
