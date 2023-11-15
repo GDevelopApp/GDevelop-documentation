@@ -15,11 +15,11 @@ It may happen that all the resources needed for a scene are not ready when the s
 
 Intermediary loading screens can be avoided by choosing in which order scenes are pre-loaded.
 
-The scenes are pre-loaded in the same order as the scene list in the editor. The scenes with the highest chances of being displayed at the beginning should be moved on the top of the list. Scenes with very few resources are good candidates too because they will delay other scenes pre-loading only by a little.
+The scenes are pre-loaded in the same order as the scene list in the editor. The scenes with the highest chances of being displayed at the beginning should be moved to the top of the list. Scenes with very few resources are good candidates too because they will delay other scenes pre-loading only by a little.
 
 ![](scene-list.png)
 
-An action allows to change the default loading order by choosing which scene to pre-load in background next. For instance, this action can be used at the beginning of the scene to make sure that the next level will be pre-loaded as soon as possible.
+An action allows to change the default loading order by choosing which scene to pre-load in the background next. For instance, this action can be used at the beginning of the scene to make sure that the next level will be pre-loaded as soon as possible.
 
 ![](load-next-scene.png)
 
@@ -29,4 +29,4 @@ An action allows to change the default loading order by choosing which scene to 
 
 ## Reference
 
-All actions, conditions and expressions are listed in [the resource loading reference page](/gdevelop5/all-features/resources-loading/reference/).
+All actions, conditions and expressions are listed in [the scene reference page](/gdevelop5/all-features/scene/reference/).
