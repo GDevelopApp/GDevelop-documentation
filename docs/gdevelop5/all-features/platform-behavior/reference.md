@@ -4,8 +4,8 @@ The platformer engine allows to create controllable objects that can run and jum
 
 ## Conditions
 
-**Is object on given floor**  
-Test if an object is on a given floor.
+**Character is on given platform**  
+Check if a platformer character is on a given platform.
 
 
 
@@ -170,7 +170,7 @@ A control was applied from a default control or simulated by an action.
 |-----|-----|-----|
 | `Object.PlatformerObject::Acceleration()` | Return the horizontal acceleration of the object (in pixels per second per second). ||
 | `Object.PlatformerObject::CurrentFallSpeed()` | Return the current fall speed of the object (in pixels per second). Its value is always positive. ||
-| `Object.PlatformerObject::CurrentJumpSpeed()` | Current jump speed ||
+| `Object.PlatformerObject::CurrentJumpSpeed()` | Return the current jump speed of the object (in pixels per second). Its value is always positive. ||
 | `Object.PlatformerObject::CurrentSpeed()` | Return the current horizontal speed of the object (in pixels per second). The object moves to the left with negative values and to the right with positive ones ||
 | `Object.PlatformerObject::Deceleration()` | Return the horizontal deceleration of the object (in pixels per second per second). ||
 | `Object.PlatformerObject::Gravity()` | Return the gravity applied on the object (in pixels per second per second). ||

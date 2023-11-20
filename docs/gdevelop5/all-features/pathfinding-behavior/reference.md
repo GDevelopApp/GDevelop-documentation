@@ -133,16 +133,16 @@ Flag objects as being obstacles for pathfinding.
 **Cost**  
 Change the cost of going through the object.
 
-**Should object be impassable?**  
-Decide if the object is an impassable obstacle
+**Should object be impassable**  
+Decide if the object is an impassable obstacle.
 
 ### Behavior conditions
 
 **Cost**  
 Compare the cost of going through the object
 
-**Is object impassable?**  
-Check if the obstacle is impassable
+**Impassable obstacle**  
+Check if the obstacle is impassable.
 
 ### Behavior expressions
 
