@@ -7,7 +7,7 @@ Each scene can be composed of multiple layers. These conditions and actions allo
 **Center the camera on an object**  
 Center the camera on the specified object.
 
-**Change layer time scale**  
+**Layer time scale**  
 Change the time scale applied to the objects of the layer.
 
 **Enforce camera boundaries**  
@@ -28,7 +28,7 @@ Change the X position of the center of a camera.
 **Camera center Y position**  
 Change the Y position of the center of a camera.
 
-**Set the ambient light color**  
+**Ambient light color**  
 Set the ambient light color of the lighting layer in format "R;G;B" string.
 
 **Layer default Z order**  

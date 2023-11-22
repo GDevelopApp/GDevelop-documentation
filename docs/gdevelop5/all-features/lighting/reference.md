@@ -10,10 +10,10 @@ Displays a light on the scene, with a customizable radius and color. Add then th
 
 ### Object actions
 
-**Set the color of light object**  
+**Light color**  
 Set the color of light object in format "R;G;B" string.
 
-**Set the radius of light object**  
+**Light radius**  
 Set the radius of light object
 
 _No expressions for this object._

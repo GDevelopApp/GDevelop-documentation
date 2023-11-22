@@ -16,7 +16,7 @@ Triggers an Event/Conversion for the current user on the Analytics.Can also pass
 **Set a user's property**  
 Sets an user's properties.Can be used to classify user in Analytics.
 
-**Change user UID**  
+**User UID**  
 Changes the current user's analytics identifier. This is what let Analytics differentiate user, so it should always be unique for each user. For advanced usage only.
 
 **Sign In as an anonymous guest**  
@@ -28,20 +28,20 @@ Sign into an account with email and password as credentials.
 **Call a HTTP function**  
 Calls a HTTP function by name, and store the result in a variable.
 
-**Change the user email**  
+**User email**  
 This action is dangerous so it requires reauthentication.  
 Changes the user's email address.
 
-**Change the user email (Provider)**  
+**User email (Provider)**  
 This action is dangerous so it requires reauthentication.  
 Changes the user's email address.
 This is the same as Change the user email but reauthenticates via an external provider.
 
-**Change the user password**  
+**User password**  
 This action is dangerous so it requires reauthentication.  
 Changes the user password.
 
-**Change the user password (Provider)**  
+**User password (Provider)**  
 This action is dangerous so it requires reauthentication.  
 Changes the user password.
 This is the same as "Change the user password" but reauthenticates via an external provider.
@@ -56,7 +56,7 @@ Deletes a field of a variable on the database.
 Deletes a variable from the database.
 
 **Get a field of a variable**  
-Gets the value of a field in a variable from the database and store it in a scene variable.
+Return the value of a field in a variable from the database and store it in a scene variable.
 
 **Get a variable from the database**  
 Gets a variable from the database and store it in a Scene variable.
@@ -122,7 +122,7 @@ Runs the query once and store results in a scene variable.
 Gets a firestore document and store it in a variable.
 
 **Get a field of a document**  
-Gets the value of a field in a firestore document.
+Return the value of a field in a firestore document.
 
 **Check for a document's existence**  
 Checks for the existence of a document. Sets the result variable to true if it exists else to false.
@@ -185,11 +185,11 @@ Send a link per email to verify the user email.
 **Send a password reset email**  
 Send a password reset link per email.
 
-**Set display name**  
+**Display name**  
 Sets the user display name.
 
-**Set the user profile picture**  
-Sets the user profile picture URL to a new one.
+**Profile picture**  
+Change the user profile picture URL to a new one.
 
 **Set Remote Config Auto Update Interval**  
 Sets Remote Config Auto Update Interval.
@@ -222,21 +222,21 @@ You should always use this before actions requiring authentications.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Firebase::GetAccountCreationTime()` | Gets the accounts creation time. ||
+| `Firebase::GetAccountCreationTime()` | Return the accounts creation time. ||
 | `Firebase::GetAuthToken(string)` | Get the user authentication token. The token is the proof of authentication. ||
 | | _string_ | Setting Name |
-| `Firebase::GetLastLoginTime()` | Gets the user last login time. ||
-| `Firebase::GetPhoneNumber()` | Gets the user phone number. ||
+| `Firebase::GetLastLoginTime()` | Return the user last login time. ||
+| `Firebase::GetPhoneNumber()` | Return the user phone number. ||
 | `Firebase::GetPhotoURL()` | Gets an URL to the user profile picture. ||
-| `Firebase::GetRefreshToken()` | Gets the user refresh token. For advanced usage only. ||
+| `Firebase::GetRefreshToken()` | Return the user refresh token. For advanced usage only. ||
 | `Firebase::GetRemoteConfigNumber(string)` | Get a setting from Firebase Remote Config as Number. ||
 | | _string_ | Setting Name |
 | `Firebase::GetRemoteConfigString(string)` | Get a setting from Firebase Remote Config as a string. ||
 | | _string_ | Setting Name |
-| `Firebase::GetTenantID()` | Gets the user tenant ID. For advanced usage only. ||
-| `Firebase::GetUserDisplayName()` | Gets the user display name. ||
-| `Firebase::GetUserEmail()` | Gets the user email address. ||
-| `Firebase::GetUserUID()` | Gets the user Unique IDentifier. Use that to link data to an user instead of the name or email. ||
+| `Firebase::GetTenantID()` | Return the user tenant ID. For advanced usage only. ||
+| `Firebase::GetUserDisplayName()` | Return the user display name. ||
+| `Firebase::GetUserEmail()` | Return the user email address. ||
+| `Firebase::GetUserUID()` | Return the user Unique IDentifier. Use that to link data to an user instead of the name or email. ||
 | `Firebase::ServerTimestamp()` | Set a field to the timestamp on the server when the request arrives there ||
 
 ---

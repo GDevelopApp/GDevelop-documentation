@@ -25,10 +25,10 @@ Play a video (recommended file format is MPEG4, with H264 video codec and AAC au
 **Set playback speed**  
 Set playback speed of the specified video object, (1 = the default speed, >1 = faster and <1 = slower).
 
-**Set time**  
+**Current time**  
 Set the time of the video
 
-**Set volume**  
+**Volume**  
 Set the volume of the video object.
 
 ### Object conditions

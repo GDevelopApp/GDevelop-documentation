@@ -4,8 +4,8 @@ Allow positioning sounds in a 3D space. The stereo system of the device is used 
 
 ## Actions
 
-**Set position of the listener**  
-Sets the spatial position of the listener/player.
+**Listener position**  
+Change the spatial position of the listener/player.
 
 **Set position of sound**  
 Sets the spatial position of a sound. When a sound is at a distance of 1 to the listener, it's heard at 100% volume. Then, it follows an *inverse distance model*. At a distance of 2, it's heard at 50%, and at a distance of 4 it's heard at 25%.

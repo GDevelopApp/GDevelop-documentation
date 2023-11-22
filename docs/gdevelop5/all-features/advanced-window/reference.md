@@ -13,7 +13,7 @@ Enables or disables the window.
 **Flash the window**  
 Make the window flash or end flashing.
 
-**Change focus of the window**  
+**Window focus**  
 Make the window gain or lose focus.
 
 **Maximize the window**  
@@ -49,16 +49,16 @@ Enables or disables minimizing of the window by the user.
 **Allow moving**  
 Enables or disables moving of the window by the user.
 
-**Set window opacity**  
+**Window opacity**  
 Changes the window opacity.
 
 **Allow resizing**  
 Enables or disables resizing of the window by the user.
 
-**Set window position**  
+**Window position**  
 Changes the window position.
 
-**Change visibility of the window**  
+**Window visibility**  
 Make the window visible or invisible.
 
 ## Conditions

@@ -46,7 +46,7 @@ Sets an attribute of the current lobby. Attributes are readable to anyone that c
 **Set the lobby joinability**  
 Sets whether other users can join the current lobby or not.
 
-**Change the Steam rich presence**  
+**Steam rich presence**  
 Changes an attribute of Steam's rich presence. Allows other player to see exactly what the player's currently doing in the game.
 
 **Subscribe to a Workshop item**  

@@ -22,8 +22,8 @@ Changes the resolution of the game, effectively changing the game area size. Thi
 **Window's margins**  
 This action changes the margins, in pixels, between the game frame and the window borders.
 
-**Change the size of the game window**  
-This action changes the size of the game window. Note that this will only work on platform supporting this operation: games running in browsers or on mobile phones can not update their window size. Game resolution can still be updated.
+**Game window size**  
+Changes the size of the game window. Note that this will only work on platform supporting this operation: games running in browsers or on mobile phones can not update their window size. Game resolution can still be updated.
 
 **Window's title**  
 This action changes the title of the game's window.

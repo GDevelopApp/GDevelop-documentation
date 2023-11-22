@@ -512,7 +512,7 @@ Animate objects. [Read more explanations about it.](https://wiki.gdevelop.io/gde
 |-----|-----|-----|
 | `Object.Animation::Duration()` | Return the current animation duration (in seconds). ||
 | `Object.Animation::ElapsedTime()` | Return the elapsed time from the beginning of the animation (in seconds). ||
-| `Object.Animation::Index()` | Return the number of the animation played by the object (the number from the animations list). ||
+| `Object.Animation::Index()` | Return the animation played by the object using the animation number (from the animations list). ||
 | `Object.Animation::Name()` | Return the animation played by the object using the name of the animation. ||
 | `Object.Animation::SpeedScale()` | Return the animation speed scale (1 = the default speed, >1 = faster and <1 = slower). ||
 
@@ -1072,21 +1072,21 @@ Use Google Firebase services (database, functions, storage...) in your game. [Re
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Firebase::GetAccountCreationTime()` | Gets the accounts creation time. ||
+| `Firebase::GetAccountCreationTime()` | Return the accounts creation time. ||
 | `Firebase::GetAuthToken(string)` | Get the user authentication token. The token is the proof of authentication. ||
 | | _string_ | Setting Name |
-| `Firebase::GetLastLoginTime()` | Gets the user last login time. ||
-| `Firebase::GetPhoneNumber()` | Gets the user phone number. ||
+| `Firebase::GetLastLoginTime()` | Return the user last login time. ||
+| `Firebase::GetPhoneNumber()` | Return the user phone number. ||
 | `Firebase::GetPhotoURL()` | Gets an URL to the user profile picture. ||
-| `Firebase::GetRefreshToken()` | Gets the user refresh token. For advanced usage only. ||
+| `Firebase::GetRefreshToken()` | Return the user refresh token. For advanced usage only. ||
 | `Firebase::GetRemoteConfigNumber(string)` | Get a setting from Firebase Remote Config as Number. ||
 | | _string_ | Setting Name |
 | `Firebase::GetRemoteConfigString(string)` | Get a setting from Firebase Remote Config as a string. ||
 | | _string_ | Setting Name |
-| `Firebase::GetTenantID()` | Gets the user tenant ID. For advanced usage only. ||
-| `Firebase::GetUserDisplayName()` | Gets the user display name. ||
-| `Firebase::GetUserEmail()` | Gets the user email address. ||
-| `Firebase::GetUserUID()` | Gets the user Unique IDentifier. Use that to link data to an user instead of the name or email. ||
+| `Firebase::GetTenantID()` | Return the user tenant ID. For advanced usage only. ||
+| `Firebase::GetUserDisplayName()` | Return the user display name. ||
+| `Firebase::GetUserEmail()` | Return the user email address. ||
+| `Firebase::GetUserUID()` | Return the user Unique IDentifier. Use that to link data to an user instead of the name or email. ||
 | `Firebase::ServerTimestamp()` | Set a field to the timestamp on the server when the request arrives there ||
 
 ---
