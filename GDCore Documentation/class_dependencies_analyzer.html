@@ -83,14 +83,13 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dependencies_analyzer.html#a9abf7274a44bba8d4eaee2261479ce9c">DependenciesAnalyzer</a> (const <a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project_, const <a class="el" href="classgd_1_1_layout.html">gd::Layout</a> &amp;layout_)</td></tr>
 <tr class="memdesc:a9abf7274a44bba8d4eaee2261479ce9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for analyzing the dependencies of a layout. <br /></td></tr>
 <tr class="separator:a9abf7274a44bba8d4eaee2261479ce9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3629c5606fa5829d263ff4e0a660658a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dependencies_analyzer.html#a3629c5606fa5829d263ff4e0a660658a">DependenciesAnalyzer</a> (const <a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project_, const <a class="el" href="classgd_1_1_external_events.html">gd::ExternalEvents</a> &amp;externalEvents)</td></tr>
-<tr class="memdesc:a3629c5606fa5829d263ff4e0a660658a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for analyzing the dependencies of external events.  <a href="class_dependencies_analyzer.html#a3629c5606fa5829d263ff4e0a660658a">More...</a><br /></td></tr>
+<tr class="memitem:a3629c5606fa5829d263ff4e0a660658a"><td class="memItemLeft" align="right" valign="top"><a id="a3629c5606fa5829d263ff4e0a660658a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dependencies_analyzer.html#a3629c5606fa5829d263ff4e0a660658a">DependenciesAnalyzer</a> (const <a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project_, const <a class="el" href="classgd_1_1_external_events.html">gd::ExternalEvents</a> &amp;externalEvents)</td></tr>
+<tr class="memdesc:a3629c5606fa5829d263ff4e0a660658a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for analyzing the dependencies of external events. <br /></td></tr>
 <tr class="separator:a3629c5606fa5829d263ff4e0a660658a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae67760b123d47225f42b9bbbe6795360"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dependencies_analyzer.html#ae67760b123d47225f42b9bbbe6795360">Analyze</a> ()</td></tr>
 <tr class="memdesc:ae67760b123d47225f42b9bbbe6795360"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search the dependencies and return true if there are no circular dependencies in the events of the layout or external events passed in the constructor.  <a href="class_dependencies_analyzer.html#ae67760b123d47225f42b9bbbe6795360">More...</a><br /></td></tr>
 <tr class="separator:ae67760b123d47225f42b9bbbe6795360"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af18794789ad871c78b02a44a5b43b2d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dependencies_analyzer.html#af18794789ad871c78b02a44a5b43b2d1">ExternalEventsCanBeCompiledForAScene</a> ()</td></tr>
-<tr class="separator:af18794789ad871c78b02a44a5b43b2d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fad88126471502a84705a35393d9d41"><td class="memItemLeft" align="right" valign="top"><a id="a2fad88126471502a84705a35393d9d41"></a>
 const std::set&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dependencies_analyzer.html#a2fad88126471502a84705a35393d9d41">GetScenesDependencies</a> () const</td></tr>
 <tr class="memdesc:a2fad88126471502a84705a35393d9d41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the scenes being dependencies of the scene or external events passed in the constructor. <br /></td></tr>
@@ -103,50 +102,10 @@ const std::set&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &
 const std::set&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dependencies_analyzer.html#ae712c9cab83abd211452ad8bffa20261">GetSourceFilesDependencies</a> () const</td></tr>
 <tr class="memdesc:ae712c9cab83abd211452ad8bffa20261"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the source files being dependencies of the scene or external events passed in the constructor. <br /></td></tr>
 <tr class="separator:ae712c9cab83abd211452ad8bffa20261"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2905e96411abfd19d41ddce43a02d5e"><td class="memItemLeft" align="right" valign="top"><a id="ad2905e96411abfd19d41ddce43a02d5e"></a>
-const std::set&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dependencies_analyzer.html#ad2905e96411abfd19d41ddce43a02d5e">GetNotTopLevelScenesDependencies</a> () const</td></tr>
-<tr class="memdesc:ad2905e96411abfd19d41ddce43a02d5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the scenes being dependencies of the scene or external events passed in the constructor, but being not top level dependencies: The links including them are not a top level events (i.e: They have a parent event). <br /></td></tr>
-<tr class="separator:ad2905e96411abfd19d41ddce43a02d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4241800302de00149c3b2f4fd4eeda4f"><td class="memItemLeft" align="right" valign="top"><a id="a4241800302de00149c3b2f4fd4eeda4f"></a>
-const std::set&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dependencies_analyzer.html#a4241800302de00149c3b2f4fd4eeda4f">GetNotTopLevelExternalEventsDependencies</a> () const</td></tr>
-<tr class="memdesc:a4241800302de00149c3b2f4fd4eeda4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the external events being dependencies of the scene or external events passed in the constructor, but being not top level dependencies: The links including them are not a top level events (i.e: They have a parent event). <br /></td></tr>
-<tr class="separator:a4241800302de00149c3b2f4fd4eeda4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Compute the dependencies of a scene or external events. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a3629c5606fa5829d263ff4e0a660658a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3629c5606fa5829d263ff4e0a660658a">&#9670;&nbsp;</a></span>DependenciesAnalyzer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">DependenciesAnalyzer::DependenciesAnalyzer </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;&#160;</td>
-          <td class="paramname"><em>project_</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classgd_1_1_external_events.html">gd::ExternalEvents</a> &amp;&#160;</td>
-          <td class="paramname"><em>externalEvents</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Constructor for analyzing the dependencies of external events. </p>
-<p>You can also call then <a class="el" href="class_dependencies_analyzer.html#af18794789ad871c78b02a44a5b43b2d1">DependenciesAnalyzer::ExternalEventsCanBeCompiledForAScene</a> to check if the external events can be compiled separately and called by a scene. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_dependencies_analyzer.html#af18794789ad871c78b02a44a5b43b2d1">DependenciesAnalyzer::ExternalEventsCanBeCompiledForAScene</a> </dd></dl>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ae67760b123d47225f42b9bbbe6795360"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae67760b123d47225f42b9bbbe6795360">&#9670;&nbsp;</a></span>Analyze()</h2>
 
@@ -164,26 +123,6 @@ const std::set&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &
 
 <p>Search the dependencies and return true if there are no circular dependencies in the events of the layout or external events passed in the constructor. </p>
 <dl class="section return"><dt>Returns</dt><dd>true if there are no circular dependencies, false otherwise (in this case, no events code generation must done). </dd></dl>
-
-</div>
-</div>
-<a id="af18794789ad871c78b02a44a5b43b2d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af18794789ad871c78b02a44a5b43b2d1">&#9670;&nbsp;</a></span>ExternalEventsCanBeCompiledForAScene()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classgd_1_1_string.html">gd::String</a> DependenciesAnalyzer::ExternalEventsCanBeCompiledForAScene </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Check if the external events (passed in the constructor) can be compiled and called by a single scene:<br  />
- This is possible when the link calling the external events does not have any parent event and when this situation occurs only in a single scene and not in another.</p>
-<dl class="section return"><dt>Returns</dt><dd>The name of the scene which is able to call the compiled external events. If empty, no scene is able to call them. (So external events have to be included directly by links). </dd></dl>
 
 </div>
 </div>

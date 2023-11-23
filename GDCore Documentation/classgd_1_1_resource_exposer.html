@@ -81,11 +81,102 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a7a60d31791d8daca09c2334b71dc2794"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resource_exposer.html#a7a60d31791d8daca09c2334b71dc2794">ExposeWholeProjectResources</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, <a class="el" href="classgd_1_1_arbitrary_resource_worker.html">gd::ArbitraryResourceWorker</a> &amp;worker)</td></tr>
 <tr class="memdesc:a7a60d31791d8daca09c2334b71dc2794"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called ( e.g. during compilation ) so as to inventory internal resources, sometimes update their filename or any other work or resources.  <a href="classgd_1_1_resource_exposer.html#a7a60d31791d8daca09c2334b71dc2794">More...</a><br /></td></tr>
 <tr class="separator:a7a60d31791d8daca09c2334b71dc2794"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68b1dfb0539925531219c5cd6f8efbcb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resource_exposer.html#a68b1dfb0539925531219c5cd6f8efbcb">ExposeProjectResources</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, <a class="el" href="classgd_1_1_arbitrary_resource_worker.html">gd::ArbitraryResourceWorker</a> &amp;worker)</td></tr>
+<tr class="memdesc:a68b1dfb0539925531219c5cd6f8efbcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose only the resources used globally on a project.  <a href="classgd_1_1_resource_exposer.html#a68b1dfb0539925531219c5cd6f8efbcb">More...</a><br /></td></tr>
+<tr class="separator:a68b1dfb0539925531219c5cd6f8efbcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab86537111c53244104c2d792224e3347"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resource_exposer.html#ab86537111c53244104c2d792224e3347">ExposeLayoutResources</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, <a class="el" href="classgd_1_1_layout.html">gd::Layout</a> &amp;layout, <a class="el" href="classgd_1_1_arbitrary_resource_worker.html">gd::ArbitraryResourceWorker</a> &amp;worker)</td></tr>
+<tr class="memdesc:ab86537111c53244104c2d792224e3347"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose the resources used in a given layout.  <a href="classgd_1_1_resource_exposer.html#ab86537111c53244104c2d792224e3347">More...</a><br /></td></tr>
+<tr class="separator:ab86537111c53244104c2d792224e3347"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd3830dbde3b3bb1d27fdbe3a15a9660"><td class="memItemLeft" align="right" valign="top"><a id="afd3830dbde3b3bb1d27fdbe3a15a9660"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>ExposeEffectResources</b> (<a class="el" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform, <a class="el" href="classgd_1_1_effect.html">gd::Effect</a> &amp;effect, <a class="el" href="classgd_1_1_arbitrary_resource_worker.html">gd::ArbitraryResourceWorker</a> &amp;worker)</td></tr>
+static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resource_exposer.html#afd3830dbde3b3bb1d27fdbe3a15a9660">ExposeEffectResources</a> (<a class="el" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform, <a class="el" href="classgd_1_1_effect.html">gd::Effect</a> &amp;effect, <a class="el" href="classgd_1_1_arbitrary_resource_worker.html">gd::ArbitraryResourceWorker</a> &amp;worker)</td></tr>
+<tr class="memdesc:afd3830dbde3b3bb1d27fdbe3a15a9660"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose the resources used in a given effect. <br /></td></tr>
 <tr class="separator:afd3830dbde3b3bb1d27fdbe3a15a9660"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab86537111c53244104c2d792224e3347"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab86537111c53244104c2d792224e3347">&#9670;&nbsp;</a></span>ExposeLayoutResources()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gd::ResourceExposer::ExposeLayoutResources </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;&#160;</td>
+          <td class="paramname"><em>project</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classgd_1_1_layout.html">gd::Layout</a> &amp;&#160;</td>
+          <td class="paramname"><em>layout</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classgd_1_1_arbitrary_resource_worker.html">gd::ArbitraryResourceWorker</a> &amp;&#160;</td>
+          <td class="paramname"><em>worker</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Expose the resources used in a given layout. </p>
+<p>It doesn't include resources used globally. </p>
+
+</div>
+</div>
+<a id="a68b1dfb0539925531219c5cd6f8efbcb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68b1dfb0539925531219c5cd6f8efbcb">&#9670;&nbsp;</a></span>ExposeProjectResources()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gd::ResourceExposer::ExposeProjectResources </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;&#160;</td>
+          <td class="paramname"><em>project</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classgd_1_1_arbitrary_resource_worker.html">gd::ArbitraryResourceWorker</a> &amp;&#160;</td>
+          <td class="paramname"><em>worker</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Expose only the resources used globally on a project. </p>
+<p>It doesn't include resources used in layouts. </p>
+
+</div>
+</div>
 <a id="a7a60d31791d8daca09c2334b71dc2794"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7a60d31791d8daca09c2334b71dc2794">&#9670;&nbsp;</a></span>ExposeWholeProjectResources()</h2>
 

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['normform_3779',['NormForm',['../classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617',1,'gd::String']]]
+  ['normform_3794',['NormForm',['../classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617',1,'gd::String']]]
 ];
