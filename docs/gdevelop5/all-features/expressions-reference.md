@@ -216,6 +216,8 @@ Actions and conditions to manipulate the scenes during the game.
 | Expression | Description |  |
 |-----|-----|-----|
 | `CurrentSceneName()` | Name of the current scene ||
+| `SceneLoadingProgress(scene name)` | Return The progress of resources loading in background for a scene (between 0 and 1).. ||
+| | _🔤 Name of a scene (String)_ | Scene name |
 
 ---
 
