@@ -9,7 +9,7 @@ Allow games to be hosted on CrazyGames website and display ads.
 
 Please refer to [CrazyGames' guide](https://docs.crazygames.com/sdk/html5/intro/) to know when to call the different actions.
 
-[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/crazy-games-ad-api/details)
+[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/crazy-games-ad-api/)
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
@@ -17,7 +17,7 @@ Please refer to [CrazyGames' guide](https://docs.crazygames.com/sdk/html5/intro/
 ## Actions
 
 **Display video ad**  
-Display a video ad. The game is automatically muted while the video is playing.
+Display a video ad. The game is automatically mute while the video is playing.
 
 **Display happy time**  
 Display CrazyGames Happy Time. The celebration should remain a special moment.

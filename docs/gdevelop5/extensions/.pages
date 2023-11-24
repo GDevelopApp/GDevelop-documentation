@@ -6,5 +6,212 @@ nav:
         - Create a new extension : create.md
         - best-practices.md
         - share-extension.md
-    - Extensions list:
-        - ...
+    - Ads:
+        - CrazyGames SDK: crazy-games-ad-api
+        - Mobile In-App Purchase (experimental): in-app-purchase
+        - Poki Games SDK: poki-games-sdkhtml
+    - Advanced:
+        - Base conversion: base-conversion
+        - Color Conversion: color-conversion
+        - Compressor: compressor
+        - Current game version: current-game-version
+        - Pathfinding painter: draw-pathfinding
+        - Extended math support: extended-math
+        - Frames per second (FPS): fps
+        - Game properties data: get-properties-data
+        - Hash: hash
+        - Random Color Generator: random-color
+        - Read pixels: read-pixels
+        - Record: record
+        - Regular Expressions: reg-ex
+        - Sprite Snapshot: render-to-sprite
+        - Sprite Sheet Animations: sprite-sheet
+        - Unique Identifiers: uuid
+        - Unicode: unicode-conversion
+        - Crypto Api: crypto-api
+        - Draw shock wave effect: draw-shock-wave-effect
+        - Object picking tools: object-picking-tools
+        - Rotate a string 13 characters: rotate13
+    - Audio:
+        - Text-to-Speech: text-to-speech
+        - Audio Context: audio-context
+        - Sound volume based on distance: sound-volume-based-on-distance
+    - Camera:
+        - Camera impulse: camera-impulse
+        - Camera shake: camera-shake
+        - Camera Zoom: camera-zoom
+        - Copy camera settings: copy-camera-settings
+        - Drag camera with the mouse (or touchscreen): drag-camera-with-pointer
+        - Edge scroll camera: edge-scroll-camera
+        - First person 3D camera: first-person-camera
+        - Follow multiple objects with camera: follow-objects-with-camera
+        - Parallax for Tiled Sprite: parallax
+        - Room-based camera movement: room-based-camera-movement
+        - Smooth Camera: smooth-camera
+        - Third person camera: third-person-camera
+    - Device:
+        - GPS: geolocation
+        - Voice Recognition API: voice-recognition
+    - Game mechanic:
+        - Checkpoints: checkpoints
+        - Create multiple copies of an object: create-multiple-copies-of-object
+        - Dungeon generator: dungeon-generator
+        - Fire bullets: fire-bullet
+        - Health points and damage: health
+        - Hexagonal grid: hexagonal-grid
+        - Idle object tracker: idle-tracker
+        - Simple inventories: inventories
+        - Object "Is On Screen" Detection: is-on-screen
+        - Linked Objects Tools: link-tools
+        - Noise generator: noise
+        - Object spawner: object-spawner
+        - Object Stack: object-stack
+        - RTS-like unit selection: rtsunit-selection
+        - Rectangular flood fill: rectangular-flood-fill
+        - Rectangular grid: snap-to-grid
+        - Values of multiple objects: values-of-multiple-objects
+        - Extra inventory functions: extra-inventory
+        - Secret Code: secret-code
+        - Slot system: slot-system
+    - General:
+        - Array tools: array-tools
+        - Choose a random value: choose
+        - Extended variables support: extended-variables
+        - Flash object: flash
+        - Repeat every X seconds: repeat-every-xseconds
+        - With Three JS: with-three-js
+        - Countdown Timer: countdown-timer
+        - JSON Resource Loading: jsonresource-loader
+        - Load images from a URL: load-image-from-url
+        - Maze Generator: maze-generator
+        - 3D raycast: raycaster3d
+        - Variables/References: references
+        - TimeDetector: time-detector
+    - Input:
+        - Back button: back-button
+        - Behavior Remapper: behavior-remapper
+        - Cursor movement conditions: cursor-movement
+        - Double-click: double-click
+        - Gamepads (controllers): gamepads
+        - Konami Code: konami-code
+        - Cursor object: mouse-helper
+        - Mouse Pointer Lock: mouse-pointer-lock
+        - Pinching gesture: pinch-gesture
+        - Multitouch joystick and buttons (sprite): sprite-multitouch-joystick
+        - Swipe Gesture: swipe-gesture
+        - CheatCode: cheat-code
+        - Double key press: double-key-press
+        - Multitouch joystick and buttons (deprecated): multitouch-joystick
+        - Selection tools: selection-tools
+    - Movement:
+        - Advanced platformer movements: advanced-jump
+        - Advanced projectile: advanced-projectile
+        - Animated Back and Forth Movement: animated-back-and-forth-movement
+        - Boids movement (experimental): boids-movement
+        - Boomerang: boomerang
+        - Bounce (using forces): bounce
+        - Curved movement: curved-movement
+        - Draggable (for physics objects): draggable-physics
+        - Ellipse movement: ellipse-movement
+        - Explosion force: explosion-force
+        - Face Forward: face-forward
+        - Homing projectile: homing-projectile
+        - Linear Movement: linear-movement
+        - Magnetic Effect: magnetic-effect
+        - Make objects orbit around a center object: orbiting-objects
+        - Pixel perfect movement: pixel-perfect-movement
+        - Platformer character animator: platformer-character-animator
+        - Platformer trajectory: platformer-trajectory
+        - Rectangular movement: rectangle-movement
+        - Screen wrap: screen-wrap
+        - Speed restrictions: speed-restrictions
+        - Stay On Screen: stay-on-screen
+        - Stick objects to others: sticker
+        - Timed Back and Forth Movement: timed-back-and-forth-movement
+        - Make object travel to random positions: travel-to-random-positions
+        - Turret movement: turret
+        - Flip Gravity: flip-gravity
+        - HasLanded: has-landed
+        - Joint Connector: joint-connector
+        - Navigation mesh pathfinding (experimental): nav-mesh-pathfinding
+        - Platform ledge grabber: platform-ledge-grabber
+        - Point and Orbit: point-and-orbit
+        - Pushable/Pullable Box: pushable-and-pullable-box
+        - Pushable Box (Deprecated): pushable-box
+        - Record Movements: record-movements
+        - Rectangular Movement (deprecated): rectangular-movement
+        - Sine (or ellipsis) Movement (deprecated): sine-movement
+        - Top-down corner sliding: top-down-corner-sliding
+        - Top-down movement animator: top-down-movement-animator
+        - Trampoline Platform: trampoline-platform
+        - Tween Z-Order: tween-zorder
+    - Network:
+        - Advanced HTTP: advanced-http
+        - Advanced p2p event handling: advanced-p2pevent-handling
+        - Platforms Validation: authorized-platforms-validation
+        - Internet Connectivity : internet-connectivity
+        - MQTT Client (advanced): mqtt
+        - Webpage URL tools (Web browser): urltools
+        - WebSocket client: web-socket-client
+        - Update checker: update-checker
+        - Upload Download Text File: upload-download-text-file
+    - Third-party:
+        - Discord rich presence (Windows, Mac, Linux): discord-rich-presence
+        - GamePix SDK: game-pix-sdk
+        - Gamejolt: gamejolt-api
+        - Newgrounds API: newgrounds-api
+        - YGameSDK: ygame-sdk
+    - User interface:
+        - Auto typing animation for text ("typewriter" effect): auto-typing
+        - Button states and effects: button-states
+        - Cancellable draggable object: cancellable-draggable
+        - Checkbox (for Shape Painter): checkbox
+        - Clipboard: clipboard
+        - Cursor type: cursor-type
+        - Draggable slider (for Shape Painter): draggable-slider-control
+        - Emojis: emojis
+        - Flexbox: flex-box
+        - Iframe: iframe
+        - Input Validation: input-validation
+        - Language: language
+        - Panel sprite button: panel-sprite-button
+        - Resource bar (continuous): panel-sprite-continuous-bar
+        - Slider: panel-sprite-slider
+        - Pop-up: pop-up
+        - Share dialog and sharing options: share
+        - Toggle switch: sprite-toggle-switch
+        - Star Rating: star-rating
+        - Console (commands handler for Text Entry objects): text-entry-console
+        - Mobile virtual keyboard for Text Entry: text-entry-virtual-keyboard
+        - Resource bar (separated units): tiled-units-bar
+        - Time formatting: time-formatter
+        - Toggle switch (for Shape Painter): toggle-switch
+        - Align object on the screen: align-object
+        - ChatBubble: chat-bubble
+        - Clock: clock
+        - Dialog Box: dialog-box
+        - Pause when losing focus: pause-focus-lost
+    - Visual effect:
+        - 3D Billboard: billboard
+        - Depth effect: depth-effect
+        - Flash layer: flash-layer
+        - Flash and transition painter: flash-transition-painter
+        - Marching Squares (experimental): marching-squares
+        - Slice an object into pieces: object-slicer
+        - 3D particle emitter (experimental): particle-emitter3d
+        - Object recolorizer (experimental): recolorizer
+        - Reflection: reflection
+        - Animate Shadow Clones: shadow-clones
+        - Shake object: shake-object
+        - 3D object shake: shake-object3d
+        - Object Masking: sprite-masking
+        - Sway: sway
+        - 3D Flip: three-dflip
+        - YSort: ysort
+        - Animation system: animation-system
+        - Character game feel: character-game-feel
+        - Dynamic Water: dynamic-water
+        - Make it rain: make-it-rain
+        - Sprite Based Lighting: sprite-based-lighting
+        - 3D tween (experimental): tween3d
+    - ...
