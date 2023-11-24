@@ -21,4 +21,4 @@ You can use the **Video ad just finished playing** condition to resume the game 
 
 !!! tip
 
-    Learn more about this extension on the [reference page](https://wiki.gdevelop.io/gdevelop5/extensions/crazy-games-ad-api/)
+    Learn more about this extension in the [reference page](https://wiki.gdevelop.io/gdevelop5/extensions/crazy-games-ad-api/)
