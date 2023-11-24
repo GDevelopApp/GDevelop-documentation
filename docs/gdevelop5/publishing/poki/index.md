@@ -14,5 +14,9 @@ Some games made with GDevelop that have been published on Poki:
 
 !!! tip
 
+    The [Poki Games SDK extension](/gdevelop5/extensions/poki-games-sdkhtml/details) helps handling ads.
+
+
+!!! tip
 
     You're welcome to contribute by adding a step-by-step explanation of the process.

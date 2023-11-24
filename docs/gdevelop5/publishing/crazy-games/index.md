@@ -11,7 +11,12 @@ Some games made with GDevelop that have been published on CrazyGames:
 
 ![Ball Challenge 2 on CrazyGames](crazy_games_ball_challenge_2.png)
 
+
 !!! tip
 
+    The [CrazyGames SDK extension](/gdevelop5/extensions/crazy-games-ad-api/details) helps handling ads.
+
+
+!!! tip
 
     You're welcome to contribute by adding a step-by-step explanation of the process.
