@@ -9,7 +9,7 @@ Allow games to be hosted on Poki website and display ads.
 
 Please refer to [Poki's guide](https://sdk.poki.com/sdk-documentation.html) to know when to call the different actions.
 
-[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/poki-games-sdkhtml/)
+[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/poki-games-sdkhtml/details)
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
