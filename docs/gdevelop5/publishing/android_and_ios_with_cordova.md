@@ -5,7 +5,7 @@ title: Publish your game to Android and iOS manually using Cordova
 
 From GDevelop, you can publish your games to Android and iOS. In the [export dialog](/gdevelop5/publishing), you can choose the first **[Android and iOS](/gdevelop5/publishing/android_and_ios)** option, which will use GDevelop online services to automatically build your game for Android and iOS.
 
-If you want more control or have special needs, you can also choose **iOS and Android (manual)** option. This option exports your game as a Cordova project. [Cordova](https://cordova.apache.org/), also known as PhoneGap, is a technology allowing HTML5 games and apps to run on Android and iOS and be packaged as apps, and then distributed on the App Store or Play Store.
+If you want more control or have special needs, you can also choose **iOS and Android (manual)** option. This option exports your game as a Cordova project. [Cordova](https://cordova.apache.org/) is a technology allowing HTML5 games and apps to run on Android and iOS and be packaged as apps, and then distributed on the App Store or Play Store.
 
 !!! warning
 
