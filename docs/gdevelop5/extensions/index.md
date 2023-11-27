@@ -316,7 +316,7 @@ does or inspect its content before using it.
 They enhance the user experience of your game and complete the integration with our ads network and revenues system.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/game-pix-sdk)|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Glyphster Pack/Master/SVG/Graphic Design/7e88b8d233e2643ac7abf20c1c7373e93ab9d8b42236b431709fa910883c818a_Graphic Design_flash_light_on_bolt_lightning.svg" class="extension-icon"></img>|**Gamejolt**|Support the complete Gamejolt API.|[Read more...](https://gamejolt.com/game-api/doc) ([reference](https://wiki.gdevelop.io/gdevelop5/extensions/gamejolt-api))|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/api.svg" class="extension-icon"></img>|**Newgrounds API**|Allows developers to use newgrounds API.|[Read more...](https://bitbucket.org/newgrounds/newgrounds.io-for-javascript-html5/src/master/) ([reference](https://wiki.gdevelop.io/gdevelop5/extensions/newgrounds-api))|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/numeric-3-circle.svg" class="extension-icon"></img>|**YGameSDK**|YGameSDK.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/ygame-sdk)|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/numeric-3-circle.svg" class="extension-icon"></img>|**Yandex Games SDK for GDevelop**|Yandex Games SDK allows to interact with Yandex APIs for games distributed on this platform.|[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/ygame-sdk)|
 
 ### User interface
 

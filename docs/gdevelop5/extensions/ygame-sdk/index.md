@@ -1,4 +1,4 @@
-# YGameSDK
+# Yandex Games SDK for GDevelop
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/numeric-3-circle.svg" class="extension-icon"></img>
 YGameSDK.
@@ -84,4 +84,4 @@ IsVideoRewarded.
 
 ---
 
-*This page is an auto-generated reference page about the **YGameSDK** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Yandex Games SDK for GDevelop** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
