@@ -1,7 +1,7 @@
 # Yandex Games SDK for GDevelop
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/numeric-3-circle.svg" class="extension-icon"></img>
-YGameSDK.
+Yandex Games SDK allows to interact with Yandex APIs for games distributed on this platform.
 
 **Authors and contributors** to this community extension: [3freelancers](https://gd.games/3freelancers).
 
