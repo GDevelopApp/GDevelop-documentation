@@ -11,7 +11,7 @@ Simulates swarms or flocks movement following the separation, alignment, cohesio
 
 The [Fish School example](https://editor.gdevelop.io/?project=example://fish-school) shows how properties impact on the movement.
 
-[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/boids-movement/details/)
+[Read more...](/gdevelop5/extensions/boids-movement/details/)
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

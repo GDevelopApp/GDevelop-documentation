@@ -11,7 +11,7 @@ A draggable slider that users can move to select a numerical value. The slider c
 
 There are ready-to-use sliders in the asset-store [settings UI pack](https://editor.gdevelop.io/?initial-dialog=asset-store&asset-pack=settings-ui-settings-ui).
 
-[Read more...](https://wiki.gdevelop.io/gdevelop5/objects/slider)
+[Read more...](/gdevelop5/objects/slider)
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

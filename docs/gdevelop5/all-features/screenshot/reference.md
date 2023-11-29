@@ -1,6 +1,6 @@
 # Screenshot
 
-Allows to save screenshots of a running game. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/screenshot)
+Allows to save screenshots of a running game. [Read more explanations about it.](/gdevelop5/all-features/screenshot)
 
 ## Actions
 

@@ -1,6 +1,6 @@
 # Particle system
 
-A particle emitter allows to create various effects by showing a lot of tiny images called particles. It's ideal for fires, smoke, explosions, magical effects, etc... [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/particles_emitter)
+A particle emitter allows to create various effects by showing a lot of tiny images called particles. It's ideal for fires, smoke, explosions, magical effects, etc... [Read more explanations about it.](/gdevelop5/objects/particles_emitter)
 
 
 

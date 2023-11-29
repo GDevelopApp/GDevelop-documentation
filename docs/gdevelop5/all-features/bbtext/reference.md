@@ -1,6 +1,6 @@
 # BBCode Text Object
 
-A BBText is an object displaying on the screen a rich text formatted using BBCode markup (allowing to set parts of the text as bold, italic, use different colors and shadows). [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/bbtext)
+A BBText is an object displaying on the screen a rich text formatted using BBCode markup (allowing to set parts of the text as bold, italic, use different colors and shadows). [Read more explanations about it.](/gdevelop5/objects/bbtext)
 
 
 

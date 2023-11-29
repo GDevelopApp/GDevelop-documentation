@@ -26,7 +26,7 @@ A collection of [small examples](https://editor.gdevelop.io/?project=example://c
 - a 3D racing game ([open the project online](https://editor.gdevelop.io/?project=example://3d-racing-game))
 - a Zuma-like ([open the project online](https://editor.gdevelop.io/?project=example://smoothy))
 
-[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/curved-movement/details/)
+[Read more...](/gdevelop5/extensions/curved-movement/details/)
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

@@ -1,6 +1,6 @@
 # Opacity capability
 
-Change the object opacity. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects)
+Change the object opacity. [Read more explanations about it.](/gdevelop5/objects)
 
 
 

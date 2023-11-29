@@ -11,7 +11,7 @@ A bar that represents a resource in the game (health, mana, ammo, etc).
 
 There are ready-to-use resource bars in the asset-store [resource bars pack](https://editor.gdevelop.io/?initial-dialog=asset-store&asset-pack=resource-bars-resource-bars).
 
-[Read more...](https://wiki.gdevelop.io/gdevelop5/objects/resource-bar)
+[Read more...](/gdevelop5/objects/resource-bar)
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

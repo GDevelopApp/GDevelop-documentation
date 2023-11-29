@@ -1,6 +1,6 @@
 # Scalable capability
 
-Change the object scale. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects)
+Change the object scale. [Read more explanations about it.](/gdevelop5/objects)
 
 
 

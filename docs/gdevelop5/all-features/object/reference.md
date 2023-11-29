@@ -1,6 +1,6 @@
 # Objects
 
-Common features that can be used for all objects in GDevelop. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/base_object/events)
+Common features that can be used for all objects in GDevelop. [Read more explanations about it.](/gdevelop5/objects/base_object/events)
 
 ## Actions
 

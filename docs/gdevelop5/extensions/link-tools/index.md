@@ -19,7 +19,7 @@ For instance, it can be helpful for grid-based games like:
 * City builders ([open the project online](https://editor.gdevelop.io/?project=example://city-builder))
 * Point and click (bypass obstacles with a predetermined polygonal chain)
 
-[Read more...](https://wiki.gdevelop.io/gdevelop5/all-features/extensions/linked-objects-tools)
+[Read more...](/gdevelop5/all-features/extensions/linked-objects-tools)
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

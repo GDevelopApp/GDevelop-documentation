@@ -1,6 +1,6 @@
 # Sprite
 
-Sprite are animated object which can be used for most elements of a game. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/sprite)
+Sprite are animated object which can be used for most elements of a game. [Read more explanations about it.](/gdevelop5/objects/sprite)
 
 
 

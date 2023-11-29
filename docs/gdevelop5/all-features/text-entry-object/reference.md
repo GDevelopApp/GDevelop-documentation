@@ -1,6 +1,6 @@
 # Text entry object
 
-Deprecated object that can be used to capture the text entered with a keyboard by a player. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/text_entry)
+Deprecated object that can be used to capture the text entered with a keyboard by a player. [Read more explanations about it.](/gdevelop5/objects/text_entry)
 
 
 

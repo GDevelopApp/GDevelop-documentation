@@ -1,6 +1,6 @@
 # Layers and cameras
 
-Each scene can be composed of multiple layers. These conditions and actions allow to manipulate them during the game. In particular, you can move the camera of a layer to center it on an object or a position. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/layers-and-cameras)
+Each scene can be composed of multiple layers. These conditions and actions allow to manipulate them during the game. In particular, you can move the camera of a layer to center it on an object or a position. [Read more explanations about it.](/gdevelop5/interface/scene-editor/layers-and-cameras)
 
 ## Actions
 

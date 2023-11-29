@@ -1,6 +1,6 @@
 # Resizable capability
 
-Change the object dimensions. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects)
+Change the object dimensions. [Read more explanations about it.](/gdevelop5/objects)
 
 
 

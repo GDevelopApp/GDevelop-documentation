@@ -1,6 +1,6 @@
 # Device vibration
 
-This allows to trigger vibrations on mobile devices. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/device-vibration)
+This allows to trigger vibrations on mobile devices. [Read more explanations about it.](/gdevelop5/all-features/device-vibration)
 
 ## Actions
 

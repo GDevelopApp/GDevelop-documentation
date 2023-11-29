@@ -1,6 +1,6 @@
 # Timers and time
 
-Actions and conditions to run timers, get the current time or modify the time scale (speed at which the game is running - useful for slow motion effects). [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/timers-and-time)
+Actions and conditions to run timers, get the current time or modify the time scale (speed at which the game is running - useful for slow motion effects). [Read more explanations about it.](/gdevelop5/all-features/timers-and-time)
 
 ## Actions
 

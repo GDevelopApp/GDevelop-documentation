@@ -1,6 +1,6 @@
 # Game window and resolution
 
-Provides actions and conditions to manipulate the game window. Depending on the platform on which the game is running, not all of these features can be applied. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/window)
+Provides actions and conditions to manipulate the game window. Depending on the platform on which the game is running, not all of these features can be applied. [Read more explanations about it.](/gdevelop5/all-features/window)
 
 ## Actions
 

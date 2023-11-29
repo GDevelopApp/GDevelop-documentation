@@ -27,7 +27,7 @@ The general worflow is the following:
 - If the purchase is approved (the variable you set up is set to true), give the user what they bought
 
 
-[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/in-app-purchase/setup)
+[Read more...](/gdevelop5/extensions/in-app-purchase/setup)
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

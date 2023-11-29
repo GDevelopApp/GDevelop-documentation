@@ -1,6 +1,6 @@
 # Effect capability
 
-Apply visual effects to objects. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects)
+Apply visual effects to objects. [Read more explanations about it.](/gdevelop5/objects)
 
 
 

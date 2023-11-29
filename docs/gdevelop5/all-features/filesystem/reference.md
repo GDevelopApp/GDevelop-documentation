@@ -1,6 +1,6 @@
 # File system
 
-Access the filesystem of the operating system. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/filesystem)
+Access the filesystem of the operating system. [Read more explanations about it.](/gdevelop5/all-features/filesystem)
 
 ## Actions
 

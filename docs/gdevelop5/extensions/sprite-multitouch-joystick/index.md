@@ -16,7 +16,7 @@ Multitouch joysticks can be used the same way as physical gamepads:
 
 There are ready-to-use joysticks in the asset-store [multitouch joysticks pack](https://editor.gdevelop.io/?initial-dialog=asset-store&asset-pack=multitouch-joysticks-multitouch-joysticks).
 
-[Read more...](https://wiki.gdevelop.io/gdevelop5/objects/multitouch-joystick)
+[Read more...](/gdevelop5/objects/multitouch-joystick)
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

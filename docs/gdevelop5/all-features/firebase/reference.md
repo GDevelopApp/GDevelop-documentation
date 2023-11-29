@@ -1,6 +1,6 @@
 # Firebase
 
-Use Google Firebase services (database, functions, storage...) in your game. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/firebase)
+Use Google Firebase services (database, functions, storage...) in your game. [Read more explanations about it.](/gdevelop5/all-features/firebase)
 
 ## Actions
 

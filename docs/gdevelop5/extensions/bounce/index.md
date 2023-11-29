@@ -13,7 +13,7 @@ Provides an action to make the object bounce from another object it just touched
 
 The Breakout-like example uses this extension to make balls bounce ([open the project online](https://editor.gdevelop.io/?project=example://breakout)).
 
-[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/bounce/explanations)
+[Read more...](/gdevelop5/extensions/bounce/explanations)
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

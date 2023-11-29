@@ -1,6 +1,6 @@
 # Events and control flow
 
-GDevelop comes with a set of events and conditions that allow to express the game logic and rules. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/advanced-conditions)
+GDevelop comes with a set of events and conditions that allow to express the game logic and rules. [Read more explanations about it.](/gdevelop5/all-features/advanced-conditions)
 
 ## Conditions
 

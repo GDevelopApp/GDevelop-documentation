@@ -23,7 +23,7 @@ Add additional behaviors to make juicy buttons with animated responses to user i
 - Animation
 - Object effects
 
-[Read more...](https://wiki.gdevelop.io/gdevelop5/objects/button)
+[Read more...](/gdevelop5/objects/button)
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

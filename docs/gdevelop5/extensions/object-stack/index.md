@@ -65,7 +65,7 @@ Move all the object from a stack into another.
 Move all the object from a stack into another one at the top.
 
 **Move into the stack**  
-Move the object from a stack into another.
+Move the objects from a stack into another.
 
 **Remove from the stack**  
 Remove the object from the stack.

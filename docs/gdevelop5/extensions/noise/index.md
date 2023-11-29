@@ -22,7 +22,7 @@ Version 2.0.0 compatibility break:
 
 - Seeds doesn't give the same result as with version 1.x.x
 
-[Read more...](https://wiki.gdevelop.io/gdevelop5/tutorials/procedural-generation)
+[Read more...](/gdevelop5/tutorials/procedural-generation)
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

@@ -11,7 +11,7 @@ Toggle switch that users can click or touch. The switch can be customized with s
 
 There are ready-to-use toggle switches in the asset-store [settings UI pack](https://editor.gdevelop.io/?initial-dialog=asset-store&asset-pack=settings-ui-settings-ui).
 
-[Read more...](https://wiki.gdevelop.io/gdevelop5/objects/toggle-switch)
+[Read more...](/gdevelop5/objects/toggle-switch)
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

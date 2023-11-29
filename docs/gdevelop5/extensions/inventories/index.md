@@ -9,7 +9,7 @@ Manage inventory items.
 
 Manage inventory items with limited or unlimited item capacity.
 
-[Read more...](https://wiki.gdevelop.io/gdevelop5/all-features/inventory)
+[Read more...](/gdevelop5/all-features/inventory)
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

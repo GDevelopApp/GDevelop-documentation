@@ -20,7 +20,7 @@ It gives access to:
 
 The Bomberman-like example handles 4 players with gamepads ([open the project online](https://editor.gdevelop.io/?project=example://goose-bomberman)).
 
-[Read more...](https://wiki.gdevelop.io/gdevelop5/all-features/gamepad)
+[Read more...](/gdevelop5/all-features/gamepad)
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

@@ -1,6 +1,6 @@
 # Flippable capability
 
-Flip objects. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects)
+Flip objects. [Read more explanations about it.](/gdevelop5/objects)
 
 
 

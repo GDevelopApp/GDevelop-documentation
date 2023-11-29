@@ -1,6 +1,6 @@
 # Leaderboards
 
-Allow your game to send scores to your leaderboards. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/leaderboards)
+Allow your game to send scores to your leaderboards. [Read more explanations about it.](/gdevelop5/all-features/leaderboards)
 
 ## Actions
 

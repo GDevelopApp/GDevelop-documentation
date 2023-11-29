@@ -1,6 +1,6 @@
 # Text object
 
-An object that can be used to display any text on the screen: remaining life counter, some indicators, menu buttons, dialogues... [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/text)
+An object that can be used to display any text on the screen: remaining life counter, some indicators, menu buttons, dialogues... [Read more explanations about it.](/gdevelop5/objects/text)
 
 
 

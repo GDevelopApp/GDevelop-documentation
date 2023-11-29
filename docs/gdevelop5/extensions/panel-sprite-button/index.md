@@ -11,7 +11,7 @@ The button can be customized with a background for each state and a label. It ha
 
 There are ready-to-use buttons in the asset-store [menu buttons pack](https://editor.gdevelop.io/?initial-dialog=asset-store&asset-pack=menu-buttons-menu-buttons).
 
-[Read more...](https://wiki.gdevelop.io/gdevelop5/objects/button)
+[Read more...](/gdevelop5/objects/button)
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

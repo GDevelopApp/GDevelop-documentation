@@ -23,7 +23,7 @@ It can be used for:
 
 A simple example shows how to make firing patterns ([open the project online](https://editor.gdevelop.io/?project=example://firing-patterns)).
 
-[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/fire-bullet/details)
+[Read more...](/gdevelop5/extensions/fire-bullet/details)
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

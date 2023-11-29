@@ -16,7 +16,7 @@ object or behavior they belong too. When `Object` is written, you should enter a
 
 ## Objects
 
-Common features that can be used for all objects in GDevelop. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/base_object/events)
+Common features that can be used for all objects in GDevelop. [Read more explanations about it.](/gdevelop5/objects/base_object/events)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -91,7 +91,7 @@ Common features that can be used for all objects in GDevelop. [Read more explana
 
 ## Sprite 
 
-Animated object which can be used for most elements of a game. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/sprite)
+Animated object which can be used for most elements of a game. [Read more explanations about it.](/gdevelop5/objects/sprite)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -107,7 +107,7 @@ Animated object which can be used for most elements of a game. [Read more explan
 
 ## Conversion
 
-Expressions to convert number, texts and quantities. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/common-conversions)
+Expressions to convert number, texts and quantities. [Read more explanations about it.](/gdevelop5/all-features/common-conversions)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -134,7 +134,7 @@ Expressions to convert number, texts and quantities. [Read more explanations abo
 
 ## Variables
 
-Actions, conditions and expressions to handle variables, from simple variables like the player score, the number of remaining lives to complex variables containing arbitrary data like an inventory or the result of a web request. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/variables)
+Actions, conditions and expressions to handle variables, from simple variables like the player score, the number of remaining lives to complex variables containing arbitrary data like an inventory or the result of a web request. [Read more explanations about it.](/gdevelop5/all-features/variables)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -172,7 +172,7 @@ Actions, conditions and expressions to handle variables, from simple variables l
 
 ## Mouse and touch
 
-Conditions and actions to handle either the mouse or touches on touchscreen. By default, conditions related to the mouse will also handle the touches - so that it's easier to handle both in your game. You can disable this behavior if you want to handle them separately in different events. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/mouse-touch)
+Conditions and actions to handle either the mouse or touches on touchscreen. By default, conditions related to the mouse will also handle the touches - so that it's easier to handle both in your game. You can disable this behavior if you want to handle them separately in different events. [Read more explanations about it.](/gdevelop5/all-features/mouse-touch)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -200,7 +200,7 @@ Conditions and actions to handle either the mouse or touches on touchscreen. By 
 
 ## Keyboard
 
-Allows your game to respond to keyboard input. Note that this does not work with on-screen keyboard on touch devices: use instead conditions related to touch when making a game for mobile/touchscreen devices. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/keyboard)
+Allows your game to respond to keyboard input. Note that this does not work with on-screen keyboard on touch devices: use instead conditions related to touch when making a game for mobile/touchscreen devices. [Read more explanations about it.](/gdevelop5/all-features/keyboard)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -224,7 +224,7 @@ Actions and conditions to manipulate the scenes during the game.
 
 ## Timers and time
 
-Actions and conditions to run timers, get the current time or modify the time scale (speed at which the game is running - useful for slow motion effects). [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/timers-and-time)
+Actions and conditions to run timers, get the current time or modify the time scale (speed at which the game is running - useful for slow motion effects). [Read more explanations about it.](/gdevelop5/all-features/timers-and-time)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -382,7 +382,7 @@ A set of mathematical functions that can be used in expressions.
 
 ## Layers and cameras
 
-Each scene can be composed of multiple layers. These conditions and actions allow to manipulate them during the game. In particular, you can move the camera of a layer to center it on an object or a position. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/layers-and-cameras)
+Each scene can be composed of multiple layers. These conditions and actions allow to manipulate them during the game. In particular, you can move the camera of a layer to center it on an object or a position. [Read more explanations about it.](/gdevelop5/interface/scene-editor/layers-and-cameras)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -426,7 +426,7 @@ Each scene can be composed of multiple layers. These conditions and actions allo
 
 ## Sounds and music
 
-GDevelop provides several conditions and actions to play audio files. They can be either long music or short sound effects. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/audio)
+GDevelop provides several conditions and actions to play audio files. They can be either long music or short sound effects. [Read more explanations about it.](/gdevelop5/all-features/audio)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -449,7 +449,7 @@ GDevelop provides several conditions and actions to play audio files. They can b
 
 ## Game window and resolution
 
-Provides actions and conditions to manipulate the game window. Depending on the platform on which the game is running, not all of these features can be applied. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/window)
+Provides actions and conditions to manipulate the game window. Depending on the platform on which the game is running, not all of these features can be applied. [Read more explanations about it.](/gdevelop5/all-features/window)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -508,7 +508,7 @@ Provides expressions to manipulate strings (also called texts).
 
 ## Animatable capability 
 
-Animate objects. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects)
+Animate objects. [Read more explanations about it.](/gdevelop5/objects)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -524,7 +524,7 @@ Animate objects. [Read more explanations about it.](https://wiki.gdevelop.io/gde
 
 ## Effect capability 
 
-Apply visual effects to objects. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects)
+Apply visual effects to objects. [Read more explanations about it.](/gdevelop5/objects)
 
 _No expressions for this behavior._
 
@@ -535,7 +535,7 @@ _No expressions for this behavior._
 
 ## Flippable capability 
 
-Flip objects. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects)
+Flip objects. [Read more explanations about it.](/gdevelop5/objects)
 
 _No expressions for this behavior._
 
@@ -546,7 +546,7 @@ _No expressions for this behavior._
 
 ## Resizable capability 
 
-Change the object dimensions. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects)
+Change the object dimensions. [Read more explanations about it.](/gdevelop5/objects)
 
 _No expressions for this behavior._
 
@@ -557,7 +557,7 @@ _No expressions for this behavior._
 
 ## Scalable capability 
 
-Change the object scale. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects)
+Change the object scale. [Read more explanations about it.](/gdevelop5/objects)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -571,7 +571,7 @@ Change the object scale. [Read more explanations about it.](https://wiki.gdevelo
 
 ## Opacity capability 
 
-Change the object opacity. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects)
+Change the object opacity. [Read more explanations about it.](/gdevelop5/objects)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -583,7 +583,7 @@ Change the object opacity. [Read more explanations about it.](https://wiki.gdeve
 
 ## Text capability 
 
-Access objects text. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects)
+Access objects text. [Read more explanations about it.](/gdevelop5/objects)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -595,14 +595,14 @@ Access objects text. [Read more explanations about it.](https://wiki.gdevelop.io
 
 ## Platform (from extension Platform behavior)
 
-Flag objects as being platforms which characters can run on. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/behaviors/platformer)
+Flag objects as being platforms which characters can run on. [Read more explanations about it.](/gdevelop5/behaviors/platformer)
 
 _No expressions for this behavior._
 
 
 ## Platformer character (from extension Platform behavior)
 
-Jump and run on platforms. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/behaviors/platformer)
+Jump and run on platforms. [Read more explanations about it.](/gdevelop5/behaviors/platformer)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -624,7 +624,7 @@ Jump and run on platforms. [Read more explanations about it.](https://wiki.gdeve
 
 ## Destroy when outside of the screen (from extension Destroy Outside Screen Behavior)
 
-Destroy objects automatically when they go outside of the screen's borders. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/behaviors/destroyoutside)
+Destroy objects automatically when they go outside of the screen's borders. [Read more explanations about it.](/gdevelop5/behaviors/destroyoutside)
 
 _No expressions for this behavior._
 
@@ -635,7 +635,7 @@ _No expressions for this behavior._
 
 ## Tiled Sprite (from extension Tiled Sprite Object)
 
-Displays an image repeated over an area. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/tiled_sprite)
+Displays an image repeated over an area. [Read more explanations about it.](/gdevelop5/objects/tiled_sprite)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -648,7 +648,7 @@ Displays an image repeated over an area. [Read more explanations about it.](http
 
 ## Draggable object (from extension Draggable Behavior)
 
-Move objects by holding a mouse button (or touch). [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/behaviors/draggable)
+Move objects by holding a mouse button (or touch). [Read more explanations about it.](/gdevelop5/behaviors/draggable)
 
 _No expressions for this behavior._
 
@@ -659,7 +659,7 @@ _No expressions for this behavior._
 
 ## Top-down movement (4 or 8 directions) (from extension Top-down movement)
 
-Move objects left, up, right, and down (and, optionally, diagonally). [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/behaviors/topdown)
+Move objects left, up, right, and down (and, optionally, diagonally). [Read more explanations about it.](/gdevelop5/behaviors/topdown)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -681,7 +681,7 @@ Move objects left, up, right, and down (and, optionally, diagonally). [Read more
 
 ## Text (from extension Text object)
 
-Displays a text on the screen. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/text)
+Displays a text on the screen. [Read more explanations about it.](/gdevelop5/objects/text)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -696,7 +696,7 @@ Displays a text on the screen. [Read more explanations about it.](https://wiki.g
 
 ## Particles emitter (from extension Particle system)
 
-Displays a large number of small particles to create visual effects. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/particles_emitter)
+Displays a large number of small particles to create visual effects. [Read more explanations about it.](/gdevelop5/objects/particles_emitter)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -737,7 +737,7 @@ Displays a large number of small particles to create visual effects. [Read more 
 
 ## Panel Sprite ("9-patch") (from extension Panel Sprite (9-patch) Object)
 
-An image with edges and corners that are stretched separately from the full image. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/panel_sprite)
+An image with edges and corners that are stretched separately from the full image. [Read more explanations about it.](/gdevelop5/objects/panel_sprite)
 
 _No expressions for this object._
 
@@ -748,7 +748,7 @@ _No expressions for this object._
 
 ## Anchor 
 
-Anchor objects to the window's bounds. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/behaviors/anchor)
+Anchor objects to the window's bounds. [Read more explanations about it.](/gdevelop5/behaviors/anchor)
 
 _No expressions for this behavior._
 
@@ -759,7 +759,7 @@ _No expressions for this behavior._
 
 ## Shape painter 
 
-Allows you to draw simple shapes on the screen using the events. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/shape_painter)
+Allows you to draw simple shapes on the screen using the events. [Read more explanations about it.](/gdevelop5/objects/shape_painter)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -792,7 +792,7 @@ Allows you to draw simple shapes on the screen using the events. [Read more expl
 
 ## Text entry (from extension Text entry object)
 
-Invisible object used to get the text entered with the keyboard. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/text_entry)
+Invisible object used to get the text entered with the keyboard. [Read more explanations about it.](/gdevelop5/objects/text_entry)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -803,7 +803,7 @@ Invisible object used to get the text entered with the keyboard. [Read more expl
 
 ## Inventories
 
-Provides actions and conditions to add an inventory to your game, with items in memory. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/inventory)
+Provides actions and conditions to add an inventory to your game, with items in memory. [Read more explanations about it.](/gdevelop5/all-features/inventory)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -820,7 +820,7 @@ Provides actions and conditions to add an inventory to your game, with items in 
 
 ## Pathfinding (from extension Pathfinding behavior)
 
-Move objects to a target while avoiding all objects that are flagged as obstacles. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/behaviors/pathfinding)
+Move objects to a target while avoiding all objects that are flagged as obstacles. [Read more explanations about it.](/gdevelop5/behaviors/pathfinding)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -850,7 +850,7 @@ Move objects to a target while avoiding all objects that are flagged as obstacle
 
 ## Obstacle for pathfinding (from extension Pathfinding behavior)
 
-Flag objects as being obstacles for pathfinding. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/behaviors/pathfinding)
+Flag objects as being obstacles for pathfinding. [Read more explanations about it.](/gdevelop5/behaviors/pathfinding)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -862,7 +862,7 @@ Flag objects as being obstacles for pathfinding. [Read more explanations about i
 
 ## Physics Engine (from extension Physics Engine (deprecated))
 
-Make objects move as if they are subject to the laws of physics. If you're creating a new game, prefer Physics Engine 2.0 [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/behaviors/physics)
+Make objects move as if they are subject to the laws of physics. If you're creating a new game, prefer Physics Engine 2.0 [Read more explanations about it.](/gdevelop5/behaviors/physics)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -949,7 +949,7 @@ Provides advanced features related to the game window positioning and interactio
 
 ## BBText (from extension BBCode Text Object)
 
-Displays a rich text label using BBCode markup (allowing to set parts of the text as bold, italic, use different colors and shadows). [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/bbtext)
+Displays a rich text label using BBCode markup (allowing to set parts of the text as bold, italic, use different colors and shadows). [Read more explanations about it.](/gdevelop5/objects/bbtext)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -965,7 +965,7 @@ Displays a rich text label using BBCode markup (allowing to set parts of the tex
 
 ## Bitmap Text 
 
-Displays a text using a "Bitmap Font" (an image representing characters). This is more performant than a traditional Text object and it allows for complete control on the characters aesthetic. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/bitmap_text)
+Displays a text using a "Bitmap Font" (an image representing characters). This is more performant than a traditional Text object and it allows for complete control on the characters aesthetic. [Read more explanations about it.](/gdevelop5/objects/bitmap_text)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -980,7 +980,7 @@ Displays a text using a "Bitmap Font" (an image representing characters). This i
 
 ## Device sensors
 
-Allow the game to access the sensors of a mobile device. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/device-sensors)
+Allow the game to access the sensors of a mobile device. [Read more explanations about it.](/gdevelop5/all-features/device-sensors)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -1000,7 +1000,7 @@ Allow the game to access the sensors of a mobile device. [Read more explanations
 
 ## Dialogue Tree
 
-Handle dialogue trees, made using Yarn Spinner. Useful to make complex dialogues with multiple choices. The Yarn Spinner editor is embedded in GDevelop so you can edit your dialogues without leaving GDevelop. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/dialogue-tree)
+Handle dialogue trees, made using Yarn Spinner. Useful to make complex dialogues with multiple choices. The Yarn Spinner editor is embedded in GDevelop so you can edit your dialogues without leaving GDevelop. [Read more explanations about it.](/gdevelop5/all-features/dialogue-tree)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -1033,7 +1033,7 @@ Handle dialogue trees, made using Yarn Spinner. Useful to make complex dialogues
 
 ## Facebook Instant Games
 
-Allow your game to send scores and interact with the Facebook Instant Games platform. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/publishing/publishing-to-facebook-instant-games)
+Allow your game to send scores and interact with the Facebook Instant Games platform. [Read more explanations about it.](/gdevelop5/publishing/publishing-to-facebook-instant-games)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -1045,7 +1045,7 @@ Allow your game to send scores and interact with the Facebook Instant Games plat
 
 ## File system
 
-Access the filesystem of the operating system. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/filesystem)
+Access the filesystem of the operating system. [Read more explanations about it.](/gdevelop5/all-features/filesystem)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -1070,7 +1070,7 @@ Access the filesystem of the operating system. [Read more explanations about it.
 
 ## Firebase
 
-Use Google Firebase services (database, functions, storage...) in your game. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/firebase)
+Use Google Firebase services (database, functions, storage...) in your game. [Read more explanations about it.](/gdevelop5/all-features/firebase)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -1096,7 +1096,7 @@ Use Google Firebase services (database, functions, storage...) in your game. [Re
 
 ## Leaderboards
 
-Allow your game to send scores to your leaderboards. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/leaderboards)
+Allow your game to send scores to your leaderboards. [Read more explanations about it.](/gdevelop5/all-features/leaderboards)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -1128,7 +1128,7 @@ _No expressions for this behavior._
 
 ## P2P
 
-Allow game instances to communicate remotely using messages sent via WebRTC (P2P). [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/p2p)
+Allow game instances to communicate remotely using messages sent via WebRTC (P2P). [Read more explanations about it.](/gdevelop5/all-features/p2p)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -1147,7 +1147,7 @@ Allow game instances to communicate remotely using messages sent via WebRTC (P2P
 
 ## Physics Engine 2.0 
 
-Simulate realistic object physics with gravity, forces, joints, etc. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/behaviors/physics2)
+Simulate realistic object physics with gravity, forces, joints, etc. [Read more explanations about it.](/gdevelop5/behaviors/physics2)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -1297,7 +1297,7 @@ Simulate realistic object physics with gravity, forces, joints, etc. [Read more 
 
 ## Player Authentication
 
-Allow your game to authenticate players. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/player-authentication)
+Allow your game to authenticate players. [Read more explanations about it.](/gdevelop5/all-features/player-authentication)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -1383,14 +1383,14 @@ A text field the player can type text into.
 
 ## Tilemap collision mask (from extension Tilemap)
 
-Invisible object handling collisions with parts of a tilemap. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/tilemap)
+Invisible object handling collisions with parts of a tilemap. [Read more explanations about it.](/gdevelop5/objects/tilemap)
 
 _No expressions for this object._
 
 
 ## Tilemap 
 
-Displays a tiled-based map, made with the Tiled editor (https://www.mapeditor.org/) or the LDtk editor (https://ldtk.io/). [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/tilemap)
+Displays a tiled-based map, made with the Tiled editor (https://www.mapeditor.org/) or the LDtk editor (https://ldtk.io/). [Read more explanations about it.](/gdevelop5/objects/tilemap)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -1404,7 +1404,7 @@ Displays a tiled-based map, made with the Tiled editor (https://www.mapeditor.or
 
 ## Tweening
 
-Animate object properties over time. This allows smooth transitions, animations or movement of objects to specified positions. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/behaviors/tween)
+Animate object properties over time. This allows smooth transitions, animations or movement of objects to specified positions. [Read more explanations about it.](/gdevelop5/behaviors/tween)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -1420,7 +1420,7 @@ Animate object properties over time. This allows smooth transitions, animations 
 
 ## Tween (from extension Tweening)
 
-Smoothly animate position, angle, scale and other properties of objects. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/behaviors/tween)
+Smoothly animate position, angle, scale and other properties of objects. [Read more explanations about it.](/gdevelop5/behaviors/tween)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -1435,7 +1435,7 @@ Smoothly animate position, angle, scale and other properties of objects. [Read m
 
 ## Video 
 
-Displays a video. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/video)
+Displays a video. [Read more explanations about it.](/gdevelop5/objects/video)
 
 | Expression | Description |  |
 |-----|-----|-----|

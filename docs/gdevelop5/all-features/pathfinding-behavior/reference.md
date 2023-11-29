@@ -1,6 +1,6 @@
 # Pathfinding behavior
 
-Pathfinding allows to compute an efficient path for objects, avoiding obstacles on the way. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/behaviors/pathfinding)
+Pathfinding allows to compute an efficient path for objects, avoiding obstacles on the way. [Read more explanations about it.](/gdevelop5/behaviors/pathfinding)
 
 
 

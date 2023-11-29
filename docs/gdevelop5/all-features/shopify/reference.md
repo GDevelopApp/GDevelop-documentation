@@ -1,6 +1,6 @@
 # Shopify
 
-Interact with products and generate URLs for checkouts with your Shopify shop. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/shopify)
+Interact with products and generate URLs for checkouts with your Shopify shop. [Read more explanations about it.](/gdevelop5/all-features/shopify)
 
 ## Actions
 

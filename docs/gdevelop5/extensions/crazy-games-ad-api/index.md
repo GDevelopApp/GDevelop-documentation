@@ -9,7 +9,7 @@ Allow games to be hosted on CrazyGames website and display ads.
 
 Please refer to [CrazyGames' guide](https://docs.crazygames.com/sdk/html5/intro/) to know when to call the different actions.
 
-[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/crazy-games-ad-api/details)
+[Read more...](/gdevelop5/extensions/crazy-games-ad-api/details)
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

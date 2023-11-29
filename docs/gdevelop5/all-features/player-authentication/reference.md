@@ -1,6 +1,6 @@
 # Player Authentication
 
-Allow your game to authenticate players. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/player-authentication)
+Allow your game to authenticate players. [Read more explanations about it.](/gdevelop5/all-features/player-authentication)
 
 ## Actions
 

@@ -1,6 +1,6 @@
 # Conversion
 
-Expressions to convert number, texts and quantities. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/common-conversions)
+Expressions to convert number, texts and quantities. [Read more explanations about it.](/gdevelop5/all-features/common-conversions)
 
 ## Actions
 

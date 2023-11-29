@@ -1,6 +1,6 @@
 # Effects
 
-Lots of different effects to be used in your game. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/layer-effects)
+Lots of different effects to be used in your game. [Read more explanations about it.](/gdevelop5/interface/scene-editor/layer-effects)
 
 
 

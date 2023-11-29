@@ -17,7 +17,7 @@ Tips:
 - If the object is moving, acceleration will be in the direction the object is moving
 
 
-[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/advanced-projectile/details)
+[Read more...](/gdevelop5/extensions/advanced-projectile/details)
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

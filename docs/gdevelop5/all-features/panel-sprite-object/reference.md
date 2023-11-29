@@ -1,6 +1,6 @@
 # Panel Sprite (9-patch) Object
 
-Panel Sprite, also called 9-patch, is an object showing an image that can be resized by stretching or repeating the edges and corners as well as the filling. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/objects/panel_sprite)
+Panel Sprite, also called 9-patch, is an object showing an image that can be resized by stretching or repeating the edges and corners as well as the filling. [Read more explanations about it.](/gdevelop5/objects/panel_sprite)
 
 
 

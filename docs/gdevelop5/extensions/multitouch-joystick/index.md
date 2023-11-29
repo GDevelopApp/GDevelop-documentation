@@ -36,7 +36,7 @@ Tips:
 - Joystick and thumb objects should have all sides the same length
 - Thumb object must be smaller than the joystick object
 
-[Read more...](https://wiki.gdevelop.io/gdevelop5/extensions/multitouch-joystick/setup)
+[Read more...](/gdevelop5/extensions/multitouch-joystick/setup)
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

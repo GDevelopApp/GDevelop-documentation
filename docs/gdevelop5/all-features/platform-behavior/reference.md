@@ -1,6 +1,6 @@
 # Platform behavior
 
-The platformer engine allows to create controllable objects that can run and jump on other objects that are marked as platforms. It supports various features commonly found in platformers: grabbing the edge of a platform, sustaining the jump while a key is held, customizable gravity... It can be used for the player, but also for other objects moving on platforms. In this case though, it's recommended to first check if there is a simpler behavior that could be used. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/behaviors/platformer)
+The platformer engine allows to create controllable objects that can run and jump on other objects that are marked as platforms. It supports various features commonly found in platformers: grabbing the edge of a platform, sustaining the jump while a key is held, customizable gravity... It can be used for the player, but also for other objects moving on platforms. In this case though, it's recommended to first check if there is a simpler behavior that could be used. [Read more explanations about it.](/gdevelop5/behaviors/platformer)
 
 ## Conditions
 

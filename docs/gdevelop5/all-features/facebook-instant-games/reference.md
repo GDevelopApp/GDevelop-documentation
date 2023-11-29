@@ -1,6 +1,6 @@
 # Facebook Instant Games
 
-Allow your game to send scores and interact with the Facebook Instant Games platform. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/publishing/publishing-to-facebook-instant-games)
+Allow your game to send scores and interact with the Facebook Instant Games platform. [Read more explanations about it.](/gdevelop5/publishing/publishing-to-facebook-instant-games)
 
 ## Actions
 

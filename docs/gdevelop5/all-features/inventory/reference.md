@@ -1,6 +1,6 @@
 # Inventories
 
-Provides actions and conditions to add an inventory to your game, with items in memory. [Read more explanations about it.](https://wiki.gdevelop.io/gdevelop5/all-features/inventory)
+Provides actions and conditions to add an inventory to your game, with items in memory. [Read more explanations about it.](/gdevelop5/all-features/inventory)
 
 ## Actions
 
