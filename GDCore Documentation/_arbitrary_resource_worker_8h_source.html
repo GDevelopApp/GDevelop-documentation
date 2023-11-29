@@ -105,98 +105,94 @@ $(function() {
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegd.html">gd</a> {</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
 <div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="classgd_1_1_arbitrary_resource_worker.html">   44</a></span>&#160;<span class="keyword">class </span>GD_CORE_API <a class="code" href="classgd_1_1_arbitrary_resource_worker.html">ArbitraryResourceWorker</a> {</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <a class="code" href="classgd_1_1_arbitrary_resource_worker.html">ArbitraryResourceWorker</a>(){};</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <span class="keyword">virtual</span> ~<a class="code" href="classgd_1_1_arbitrary_resource_worker.html">ArbitraryResourceWorker</a>();</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="keywordtype">void</span> ExposeResources(<a class="code" href="classgd_1_1_resources_manager.html">gd::ResourcesManager</a> *resourcesManager);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  <span class="keywordtype">void</span> ExposeResourceWithType(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; resourceType, <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; resourceName);</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeImage(<a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;imageName);</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeAudio(<a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;audioName);</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeFont(<a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;fontName);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeJson(<a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;jsonName);</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeTilemap(<a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;tilemapName);</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeTileset(<a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;tilesetName);</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeModel3D(<a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;resourceName);</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeVideo(<a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;videoName);</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeBitmapFont(<a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;bitmapFontName);</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160; </div>
-<div class="line"><a name="l00113"></a><span class="lineno"><a class="line" href="classgd_1_1_arbitrary_resource_worker.html#a285af1d18689e64c39b7a962d0a4fadd">  113</a></span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classgd_1_1_arbitrary_resource_worker.html#a285af1d18689e64c39b7a962d0a4fadd">ExposeShader</a>(<a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;shaderName){};</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
-<div class="line"><a name="l00118"></a><span class="lineno"><a class="line" href="classgd_1_1_arbitrary_resource_worker.html#abeed1c45b417ecdaeea04ac54bc9c5cb">  118</a></span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classgd_1_1_arbitrary_resource_worker.html#abeed1c45b417ecdaeea04ac54bc9c5cb">ExposeFile</a>(<a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;resourceFileName) = 0;</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeEmbeddeds(<a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;resourceName);</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160; </div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160; <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;  <span class="keyword">const</span> std::vector&lt;gd::ResourcesManager *&gt; &amp;GetResources() {</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <span class="keywordflow">return</span> resourcesManagers;</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  };</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160; </div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;  <span class="keywordtype">void</span> ExposeResource(<a class="code" href="classgd_1_1_resource.html">gd::Resource</a> &amp;resource);</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160; </div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;  std::vector&lt;gd::ResourcesManager *&gt; resourcesManagers;</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;};</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160; </div>
-<div class="line"><a name="l00144"></a><span class="lineno"><a class="line" href="classgd_1_1_resource_worker_in_events_worker.html">  144</a></span>&#160;<span class="keyword">class </span><a class="code" href="classgd_1_1_resource_worker_in_events_worker.html">ResourceWorkerInEventsWorker</a> : <span class="keyword">public</span> <a class="code" href="classgd_1_1_arbitrary_events_worker.html">gd::ArbitraryEventsWorker</a> {</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;  <a class="code" href="classgd_1_1_resource_worker_in_events_worker.html">ResourceWorkerInEventsWorker</a>(<span class="keyword">const</span> <a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project_,</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                               <a class="code" href="classgd_1_1_arbitrary_resource_worker.html">gd::ArbitraryResourceWorker</a> &amp;worker_)</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;      : project(project_), worker(worker_){};</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;  <span class="keyword">virtual</span> ~<a class="code" href="classgd_1_1_resource_worker_in_events_worker.html">ResourceWorkerInEventsWorker</a>(){};</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <a class="code" href="classgd_1_1_arbitrary_resource_worker.html">ArbitraryResourceWorker</a>(<a class="code" href="classgd_1_1_resources_manager.html">gd::ResourcesManager</a> &amp;resourcesManager_)</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;      : resourcesManager(&amp;resourcesManager_){};</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keyword">virtual</span> ~<a class="code" href="classgd_1_1_arbitrary_resource_worker.html">ArbitraryResourceWorker</a>();</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  <span class="keywordtype">void</span> ExposeResources();</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  <span class="keywordtype">void</span> ExposeResourceWithType(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; resourceType, <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; resourceName);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeImage(<a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;imageName);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeAudio(<a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;audioName);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeFont(<a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;fontName);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeJson(<a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;jsonName);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeTilemap(<a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;tilemapName);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeTileset(<a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;tilesetName);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeModel3D(<a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;resourceName);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeVideo(<a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;videoName);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeBitmapFont(<a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;bitmapFontName);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
+<div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="classgd_1_1_arbitrary_resource_worker.html#a285af1d18689e64c39b7a962d0a4fadd">  114</a></span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classgd_1_1_arbitrary_resource_worker.html#a285af1d18689e64c39b7a962d0a4fadd">ExposeShader</a>(<a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;shaderName){};</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
+<div class="line"><a name="l00119"></a><span class="lineno"><a class="line" href="classgd_1_1_arbitrary_resource_worker.html#abeed1c45b417ecdaeea04ac54bc9c5cb">  119</a></span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classgd_1_1_arbitrary_resource_worker.html#abeed1c45b417ecdaeea04ac54bc9c5cb">ExposeFile</a>(<a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;resourceFileName) = 0;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160; </div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeEmbeddeds(<a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;resourceName);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160; </div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160; <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;  <span class="keywordtype">void</span> ExposeResource(<a class="code" href="classgd_1_1_resource.html">gd::Resource</a> &amp;resource);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; </div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;  <a class="code" href="classgd_1_1_resources_manager.html">gd::ResourcesManager</a> * resourcesManager;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;};</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160; </div>
+<div class="line"><a name="l00140"></a><span class="lineno"><a class="line" href="classgd_1_1_resource_worker_in_events_worker.html">  140</a></span>&#160;<span class="keyword">class </span><a class="code" href="classgd_1_1_resource_worker_in_events_worker.html">ResourceWorkerInEventsWorker</a> : <span class="keyword">public</span> <a class="code" href="classgd_1_1_arbitrary_events_worker.html">gd::ArbitraryEventsWorker</a> {</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;  <a class="code" href="classgd_1_1_resource_worker_in_events_worker.html">ResourceWorkerInEventsWorker</a>(<span class="keyword">const</span> <a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project_,</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;                               <a class="code" href="classgd_1_1_arbitrary_resource_worker.html">gd::ArbitraryResourceWorker</a> &amp;worker_)</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;      : project(project_), worker(worker_){};</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;  <span class="keyword">virtual</span> ~<a class="code" href="classgd_1_1_resource_worker_in_events_worker.html">ResourceWorkerInEventsWorker</a>(){};</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160; </div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;  <span class="keywordtype">bool</span> DoVisitInstruction(<a class="code" href="classgd_1_1_instruction.html">gd::Instruction</a> &amp;instruction,</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;                          <span class="keywordtype">bool</span> isCondition) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160; </div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;  <span class="keywordtype">bool</span> DoVisitInstruction(<a class="code" href="classgd_1_1_instruction.html">gd::Instruction</a> &amp;instruction,</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                          <span class="keywordtype">bool</span> isCondition) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;  <a class="code" href="classgd_1_1_arbitrary_resource_worker.html">gd::ArbitraryResourceWorker</a> &amp;worker;</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;};</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160; </div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project;</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;  <a class="code" href="classgd_1_1_arbitrary_resource_worker.html">gd::ArbitraryResourceWorker</a> &amp;worker;</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;};</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160; </div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;<a class="code" href="classgd_1_1_resource_worker_in_events_worker.html">ResourceWorkerInEventsWorker</a> GD_CORE_API GetResourceWorkerOnEvents(</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <span class="keyword">const</span> <a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project, <a class="code" href="classgd_1_1_arbitrary_resource_worker.html">gd::ArbitraryResourceWorker</a> &amp;worker);</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160; </div>
-<div class="line"><a name="l00166"></a><span class="lineno"><a class="line" href="classgd_1_1_resource_worker_in_objects_worker.html">  166</a></span>&#160;<span class="keyword">class </span>GD_CORE_API <a class="code" href="classgd_1_1_resource_worker_in_objects_worker.html">ResourceWorkerInObjectsWorker</a></div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    : <span class="keyword">public</span> <a class="code" href="classgd_1_1_arbitrary_objects_worker.html">gd::ArbitraryObjectsWorker</a> {</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;  <a class="code" href="classgd_1_1_resource_worker_in_objects_worker.html">ResourceWorkerInObjectsWorker</a>(<span class="keyword">const</span> <a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project_, <a class="code" href="classgd_1_1_arbitrary_resource_worker.html">gd::ArbitraryResourceWorker</a> &amp;worker_)</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;      : project(project_), worker(worker_){};</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;  ~<a class="code" href="classgd_1_1_resource_worker_in_objects_worker.html">ResourceWorkerInObjectsWorker</a>() {}</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;<a class="code" href="classgd_1_1_resource_worker_in_events_worker.html">ResourceWorkerInEventsWorker</a> GD_CORE_API GetResourceWorkerOnEvents(</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <span class="keyword">const</span> <a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project, <a class="code" href="classgd_1_1_arbitrary_resource_worker.html">gd::ArbitraryResourceWorker</a> &amp;worker);</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160; </div>
+<div class="line"><a name="l00162"></a><span class="lineno"><a class="line" href="classgd_1_1_resource_worker_in_objects_worker.html">  162</a></span>&#160;<span class="keyword">class </span>GD_CORE_API <a class="code" href="classgd_1_1_resource_worker_in_objects_worker.html">ResourceWorkerInObjectsWorker</a></div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    : <span class="keyword">public</span> <a class="code" href="classgd_1_1_arbitrary_objects_worker.html">gd::ArbitraryObjectsWorker</a> {</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;  <a class="code" href="classgd_1_1_resource_worker_in_objects_worker.html">ResourceWorkerInObjectsWorker</a>(<span class="keyword">const</span> <a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project_, <a class="code" href="classgd_1_1_arbitrary_resource_worker.html">gd::ArbitraryResourceWorker</a> &amp;worker_)</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;      : project(project_), worker(worker_){};</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;  ~<a class="code" href="classgd_1_1_resource_worker_in_objects_worker.html">ResourceWorkerInObjectsWorker</a>() {}</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160; </div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;  <span class="keywordtype">void</span> DoVisitObject(<a class="code" href="classgd_1_1_object.html">gd::Object</a> &amp;<span class="keywordtype">object</span>) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;  <span class="keywordtype">void</span> DoVisitBehavior(<a class="code" href="classgd_1_1_behavior.html">gd::Behavior</a> &amp;behavior) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160; </div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;  <span class="keywordtype">void</span> DoVisitObject(<a class="code" href="classgd_1_1_object.html">gd::Object</a> &amp;<span class="keywordtype">object</span>) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;  <span class="keywordtype">void</span> DoVisitBehavior(<a class="code" href="classgd_1_1_behavior.html">gd::Behavior</a> &amp;behavior) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;  <a class="code" href="classgd_1_1_arbitrary_resource_worker.html">gd::ArbitraryResourceWorker</a> &amp;worker;</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;};</div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160; </div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project;</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;  <a class="code" href="classgd_1_1_arbitrary_resource_worker.html">gd::ArbitraryResourceWorker</a> &amp;worker;</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;};</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160; </div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;<a class="code" href="classgd_1_1_resource_worker_in_objects_worker.html">gd::ResourceWorkerInObjectsWorker</a> GD_CORE_API</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;GetResourceWorkerOnObjects(<span class="keyword">const</span> <a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project, <a class="code" href="classgd_1_1_arbitrary_resource_worker.html">gd::ArbitraryResourceWorker</a> &amp;worker);</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160; </div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;}  <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;<a class="code" href="classgd_1_1_resource_worker_in_objects_worker.html">gd::ResourceWorkerInObjectsWorker</a> GD_CORE_API</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;GetResourceWorkerOnObjects(<span class="keyword">const</span> <a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project, <a class="code" href="classgd_1_1_arbitrary_resource_worker.html">gd::ArbitraryResourceWorker</a> &amp;worker);</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160; </div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;}  <span class="comment">// namespace gd</span></div>
 <div class="ttc" id="aclassgd_1_1_arbitrary_events_worker_html"><div class="ttname"><a href="classgd_1_1_arbitrary_events_worker.html">gd::ArbitraryEventsWorker</a></div><div class="ttdoc">ArbitraryEventsWorker is an abstract class used to browse events (and instructions) and do some work ...</div><div class="ttdef"><b>Definition:</b> ArbitraryEventsWorker.h:36</div></div>
 <div class="ttc" id="aclassgd_1_1_arbitrary_objects_worker_html"><div class="ttname"><a href="classgd_1_1_arbitrary_objects_worker.html">gd::ArbitraryObjectsWorker</a></div><div class="ttdoc">ArbitraryObjectsWorker is an abstract class used to browse objects (and behaviors) and do some work o...</div><div class="ttdef"><b>Definition:</b> ArbitraryObjectsWorker.h:30</div></div>
 <div class="ttc" id="aclassgd_1_1_arbitrary_resource_worker_html"><div class="ttname"><a href="classgd_1_1_arbitrary_resource_worker.html">gd::ArbitraryResourceWorker</a></div><div class="ttdoc">ArbitraryResourceWorker is used so as to inventory resources and sometimes update them.</div><div class="ttdef"><b>Definition:</b> ArbitraryResourceWorker.h:44</div></div>
-<div class="ttc" id="aclassgd_1_1_arbitrary_resource_worker_html_a285af1d18689e64c39b7a962d0a4fadd"><div class="ttname"><a href="classgd_1_1_arbitrary_resource_worker.html#a285af1d18689e64c39b7a962d0a4fadd">gd::ArbitraryResourceWorker::ExposeShader</a></div><div class="ttdeci">virtual void ExposeShader(gd::String &amp;shaderName)</div><div class="ttdoc">Expose a shader. \warn Currently unsupported.</div><div class="ttdef"><b>Definition:</b> ArbitraryResourceWorker.h:113</div></div>
+<div class="ttc" id="aclassgd_1_1_arbitrary_resource_worker_html_a285af1d18689e64c39b7a962d0a4fadd"><div class="ttname"><a href="classgd_1_1_arbitrary_resource_worker.html#a285af1d18689e64c39b7a962d0a4fadd">gd::ArbitraryResourceWorker::ExposeShader</a></div><div class="ttdeci">virtual void ExposeShader(gd::String &amp;shaderName)</div><div class="ttdoc">Expose a shader. \warn Currently unsupported.</div><div class="ttdef"><b>Definition:</b> ArbitraryResourceWorker.h:114</div></div>
 <div class="ttc" id="aclassgd_1_1_arbitrary_resource_worker_html_abeed1c45b417ecdaeea04ac54bc9c5cb"><div class="ttname"><a href="classgd_1_1_arbitrary_resource_worker.html#abeed1c45b417ecdaeea04ac54bc9c5cb">gd::ArbitraryResourceWorker::ExposeFile</a></div><div class="ttdeci">virtual void ExposeFile(gd::String &amp;resourceFileName)=0</div><div class="ttdoc">Expose a raw filename.</div></div>
 <div class="ttc" id="aclassgd_1_1_behavior_html"><div class="ttname"><a href="classgd_1_1_behavior.html">gd::Behavior</a></div><div class="ttdoc">Base class used to represents a behavior that can be applied to an object. It stores the content (i....</div><div class="ttdef"><b>Definition:</b> Behavior.h:23</div></div>
 <div class="ttc" id="aclassgd_1_1_instruction_html"><div class="ttname"><a href="classgd_1_1_instruction.html">gd::Instruction</a></div><div class="ttdoc">An instruction is a member of an event: It can be a condition or an action.</div><div class="ttdef"><b>Definition:</b> Instruction.h:30</div></div>
 <div class="ttc" id="aclassgd_1_1_object_html"><div class="ttname"><a href="classgd_1_1_object.html">gd::Object</a></div><div class="ttdoc">Represent an object of a platform.</div><div class="ttdef"><b>Definition:</b> Object.h:37</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html"><div class="ttname"><a href="classgd_1_1_project.html">gd::Project</a></div><div class="ttdoc">Base class representing a project (game), including all resources, scenes, objects,...</div><div class="ttdef"><b>Definition:</b> Project.h:50</div></div>
 <div class="ttc" id="aclassgd_1_1_resource_html"><div class="ttname"><a href="classgd_1_1_resource.html">gd::Resource</a></div><div class="ttdoc">Base class to describe a resource used by a game.</div><div class="ttdef"><b>Definition:</b> ResourcesManager.h:27</div></div>
-<div class="ttc" id="aclassgd_1_1_resource_worker_in_events_worker_html"><div class="ttname"><a href="classgd_1_1_resource_worker_in_events_worker.html">gd::ResourceWorkerInEventsWorker</a></div><div class="ttdef"><b>Definition:</b> ArbitraryResourceWorker.h:144</div></div>
-<div class="ttc" id="aclassgd_1_1_resource_worker_in_objects_worker_html"><div class="ttname"><a href="classgd_1_1_resource_worker_in_objects_worker.html">gd::ResourceWorkerInObjectsWorker</a></div><div class="ttdef"><b>Definition:</b> ArbitraryResourceWorker.h:167</div></div>
+<div class="ttc" id="aclassgd_1_1_resource_worker_in_events_worker_html"><div class="ttname"><a href="classgd_1_1_resource_worker_in_events_worker.html">gd::ResourceWorkerInEventsWorker</a></div><div class="ttdef"><b>Definition:</b> ArbitraryResourceWorker.h:140</div></div>
+<div class="ttc" id="aclassgd_1_1_resource_worker_in_objects_worker_html"><div class="ttname"><a href="classgd_1_1_resource_worker_in_objects_worker.html">gd::ResourceWorkerInObjectsWorker</a></div><div class="ttdef"><b>Definition:</b> ArbitraryResourceWorker.h:163</div></div>
 <div class="ttc" id="aclassgd_1_1_resources_manager_html"><div class="ttname"><a href="classgd_1_1_resources_manager.html">gd::ResourcesManager</a></div><div class="ttdoc">Inventory all resources used by a project.</div><div class="ttdef"><b>Definition:</b> ResourcesManager.h:516</div></div>
 <div class="ttc" id="aclassgd_1_1_string_html"><div class="ttname"><a href="classgd_1_1_string.html">gd::String</a></div><div class="ttdoc">String represents an UTF8 encoded string.</div><div class="ttdef"><b>Definition:</b> String.h:31</div></div>
 <div class="ttc" id="anamespacegd_html"><div class="ttname"><a href="namespacegd.html">gd</a></div><div class="ttdef"><b>Definition:</b> CommonTools.h:24</div></div>

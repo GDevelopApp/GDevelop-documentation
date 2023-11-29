@@ -70,7 +70,6 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classgd_1_1_arbitrary_resource_worker-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">gd::ArbitraryResourceWorker Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group___i_d_e.html">IDE Classes (Classes to be used to implement a development environment)</a></div></div>  </div>
@@ -86,9 +85,12 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7f46fa8187b8d834bc092bd4cd247fa4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_arbitrary_resource_worker.html#a7f46fa8187b8d834bc092bd4cd247fa4">ExposeResources</a> (<a class="el" href="classgd_1_1_resources_manager.html">gd::ResourcesManager</a> *resourcesManager)</td></tr>
-<tr class="memdesc:a7f46fa8187b8d834bc092bd4cd247fa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose a set of resources.  <a href="classgd_1_1_arbitrary_resource_worker.html#a7f46fa8187b8d834bc092bd4cd247fa4">More...</a><br /></td></tr>
-<tr class="separator:a7f46fa8187b8d834bc092bd4cd247fa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeed3195c0e34685783443756694ca1d9"><td class="memItemLeft" align="right" valign="top"><a id="aeed3195c0e34685783443756694ca1d9"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ArbitraryResourceWorker</b> (<a class="el" href="classgd_1_1_resources_manager.html">gd::ResourcesManager</a> &amp;resourcesManager_)</td></tr>
+<tr class="separator:aeed3195c0e34685783443756694ca1d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f4a4836547c9a1949e1f5bdb645e495"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_arbitrary_resource_worker.html#a3f4a4836547c9a1949e1f5bdb645e495">ExposeResources</a> ()</td></tr>
+<tr class="memdesc:a3f4a4836547c9a1949e1f5bdb645e495"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose a set of resources.  <a href="classgd_1_1_arbitrary_resource_worker.html#a3f4a4836547c9a1949e1f5bdb645e495">More...</a><br /></td></tr>
+<tr class="separator:a3f4a4836547c9a1949e1f5bdb645e495"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e69fabb3b51f150c8ef154e1b070ade"><td class="memItemLeft" align="right" valign="top"><a id="a6e69fabb3b51f150c8ef154e1b070ade"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_arbitrary_resource_worker.html#a6e69fabb3b51f150c8ef154e1b070ade">ExposeResourceWithType</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;resourceType, <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;resourceName)</td></tr>
 <tr class="memdesc:a6e69fabb3b51f150c8ef154e1b070ade"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose a resource from a given type. <br /></td></tr>
@@ -141,12 +143,6 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_arbitrary_resource_worker.html#ace132f02351131013204a43885e06cea">ExposeEmbeddeds</a> (<a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;resourceName)</td></tr>
 <tr class="memdesc:ace132f02351131013204a43885e06cea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose the embedded resources of the specified resource. <br /></td></tr>
 <tr class="separator:ace132f02351131013204a43885e06cea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a9e3b926baddacd4b27c722eec1eaf2b5"><td class="memItemLeft" align="right" valign="top"><a id="a9e3b926baddacd4b27c722eec1eaf2b5"></a>
-const std::vector&lt; <a class="el" href="classgd_1_1_resources_manager.html">gd::ResourcesManager</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetResources</b> ()</td></tr>
-<tr class="separator:a9e3b926baddacd4b27c722eec1eaf2b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classgd_1_1_arbitrary_resource_worker.html" title="ArbitraryResourceWorker is used so as to inventory resources and sometimes update them.">ArbitraryResourceWorker</a> is used so as to inventory resources and sometimes update them. </p>
@@ -156,8 +152,8 @@ const std::vector&lt; <a class="el" href="classgd_1_1_resources_manager.html">gd
 <dd>
 gd::GetResourceWorkerOnEvents </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7f46fa8187b8d834bc092bd4cd247fa4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f46fa8187b8d834bc092bd4cd247fa4">&#9670;&nbsp;</a></span>ExposeResources()</h2>
+<a id="a3f4a4836547c9a1949e1f5bdb645e495"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f4a4836547c9a1949e1f5bdb645e495">&#9670;&nbsp;</a></span>ExposeResources()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -165,8 +161,7 @@ gd::GetResourceWorkerOnEvents </dd></dl>
         <tr>
           <td class="memname">void gd::ArbitraryResourceWorker::ExposeResources </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classgd_1_1_resources_manager.html">gd::ResourcesManager</a> *&#160;</td>
-          <td class="paramname"><em>resourcesManager</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
