@@ -25,6 +25,7 @@ In this article, we're showing how to:
 ![](pasted/20200329-161907.png)
 
 Create a behavior in this extension. Name it according to your object, or the capability you're adding:
+
 ![](pasted/20200329-162016.png)
 
 !!! tip
