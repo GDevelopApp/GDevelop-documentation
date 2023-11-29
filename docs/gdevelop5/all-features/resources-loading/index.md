@@ -29,7 +29,7 @@ An action allows to change the default loading order by choosing which scene to 
 
 ## Make a custom loading screen
 
-Default intermediary loading screens can be replaced by custom scenes using the following events. A [resource bar](/gdevelop5/objects/resource-bar) can display the loading progress.
+Default intermediary loading screens can be replaced by custom scenes using the following events. A [resource bar](/gdevelop5/objects/resource-bar) can be used to display the loading progress.
 
 ![](loading-screen-events.png)
 
