@@ -27,6 +27,12 @@ An action allows to change the default loading order by choosing which scene to 
 
     Projects built as an application have all resources stored locally and the loading will be fast enough for loading optimizations not to matter much.
 
+## Make a custom loading screen
+
+Default intermediary loading screens can be replaced by custom scenes using the following events. A [resource bar](/gdevelop5/objects/resource-bar) can display the loading progress.
+
+![](loading-screen-events.png)
+
 ## Reference
 
 All actions, conditions and expressions are listed in [the scene reference page](/gdevelop5/all-features/scene/reference/).
