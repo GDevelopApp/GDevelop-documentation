@@ -3,9 +3,20 @@ title: Custom behaviors - create your own behaviors with events
 ---
 # Custom behaviors: create your own behaviors with events
 
-Behaviors are very useful to quickly add some pre-determined features to objects. They are easy to use and allow to add complex features to your objects without having to re-create everything with events, which can be cumbersome and would make the events sheet cluttered (even if [groups](/gdevelop5/events/group), [functions](/gdevelop5/events/functions) and [external events](/gdevelop5/interface/project-manager) can help).
+Similarly to scenes, custom behaviors are written with events. Every [behavior](/gdevelop5/behaviors) from [community extensions](/gdevelop5/extensions/) are custom behaviors and contains events that can be edited by anyone.
 
-In GDevelop, you can create your own **custom behaviors**. Like the usual, built-in behaviors, they can be attached to objects. They will then *interact with the object automatically*. They can **move the object**, change its **variables**, change the animations (for Sprite objects), change the text (for text objects) and more generally, do anything that you can usually do with events.
+!!! tip
+
+    If you've never made an extension before, please start by reading how [functions](/gdevelop5/events/functions) works as it's a key concept to understand custom behaviors.
+
+Behaviors events runs at every frame like scene events do. The main difference is that behaviors focuses on the object they are attached too. Only this object can be used in the events that build up the logic of a behavior.
+
+What may sound like a limitation is actually allowing behaviors to be used in any project as they are not tie to scene objects.
+
+Behaviors from community extensions are selected for their ability to be useful in many games. It's not necessarily what you should be aiming for. Behaviors can be used as a way to organize events by:
+- adding actions and conditions only to some objects whereas a function alone would be shown for any objects
+- grouping all the logic about an object in one place
+- clearly defining values about the configuration (visible properties) or the object state (hidden properties) whereas variables are all listed together
 
 !!! tip
 
