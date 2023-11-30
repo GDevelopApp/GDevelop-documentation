@@ -83,7 +83,7 @@ nav:
         - Advanced platformer movements: advanced-jump
         - Advanced projectile: advanced-projectile
         - Animated Back and Forth Movement: animated-back-and-forth-movement
-        - Boids movement (experimental): boids-movement
+        - Boids movement: boids-movement
         - Boomerang: boomerang
         - Bounce (using forces): bounce
         - Curved movement: curved-movement

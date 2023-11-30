@@ -1,4 +1,4 @@
-# Boids movement (experimental)
+# Boids movement
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Restaurant/Restaurant_restaurant_seafood_animal_fish.svg" class="extension-icon"></img>
 Simulates flocks movement.
@@ -18,7 +18,7 @@ The [Fish School example](https://editor.gdevelop.io/?project=example://fish-sch
 
 
 
-## Boids Movement (experimental) 
+## Boids Movement 
 
 Move as part of a flock. 
 
@@ -86,4 +86,4 @@ Check if the object is rotated while moving on its path.
 
 ---
 
-*This page is an auto-generated reference page about the **Boids movement (experimental)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Boids movement** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
