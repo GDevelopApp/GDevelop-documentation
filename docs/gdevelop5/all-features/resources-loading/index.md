@@ -21,7 +21,7 @@ The scenes are pre-loaded in the same order as the scene list in the editor. The
 
 An action allows to change the default loading order by choosing which scene to pre-load in the background next. For instance, this action can be used at the beginning of the scene to make sure that the next level will be pre-loaded as soon as possible.
 
-![](load-next-scene.png)
+![](preload-scene-action.png)
 
 !!! tip
 
