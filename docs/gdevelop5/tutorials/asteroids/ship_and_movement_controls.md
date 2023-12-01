@@ -47,6 +47,7 @@ Condition:
 
 Action:
  -"Apply force (angle)" where the angle is the Player object's angle, the length is 4.5, and the applying X/Y position are those of the Player object.
+ - **Note:** For X/Y position, use the MassCenterX and MassCenterY expressions to avoid any rotation, i.e., `Player.Physics2::MassCenterX()` and `Player.Physics2::MassCenterY()`.
 
 This force will be applied to the origin point.
 
