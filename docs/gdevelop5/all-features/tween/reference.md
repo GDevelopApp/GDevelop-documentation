@@ -31,6 +31,12 @@ Tweens the camera rotation from the current angle to a new one.
 **Tween the camera zoom**  
 Tweens the camera zoom from the current zoom factor to a new one.
 
+**Tween color effect property**  
+Tweens a color effect property from its current value to a new one.
+
+**Tween number effect property**  
+Tweens a number effect property from its current value to a new one.
+
 **Tween a number in a scene variable**  
 Tweens a scene variable's numeric value from its current value to a new one.
 
@@ -79,6 +85,12 @@ Resume the tween animation.
 
 **Stop a tween**  
 Stop the running tween animation.
+
+**Tween color effect property**  
+Tweens a color effect property from its current value to a new one.
+
+**Tween number effect property**  
+Tweens a number effect property from its current value to a new one.
 
 **Tween object angle**  
 Tweens an object angle from its current angle to a new one.
