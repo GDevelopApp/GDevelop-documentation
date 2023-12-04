@@ -94,6 +94,9 @@ Change the center of rotation of an object relatively to the object origin.
 **Star**  
 Draw a star on screen
 
+**Torus**  
+Draw a torus on screen
+
 **Use relative coordinates**  
 Set if the object should use relative coordinates (by default) or not. It's recommended to use relative coordinates.
 
