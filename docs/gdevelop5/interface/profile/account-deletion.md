@@ -3,12 +3,14 @@
 You can request at any time your whole GDevelop account to be deleted.
 
 This will remove access to:
+
 - All your cloud projects,
 - Projects shared with you,
 - Your purchases on the asset store (assets, game templates),
 - Your access to all online services provided by GDevelop for your published games: administration of games on gd.games, leaderboards, analytics, player feedbacks...
 
 This will also:
+
 - Make your account unavailable as a player account for games using GDevelop authentication.
 
 Before doing so, it's recommended that you *manually check or remove everything* on your account to verify you don't need anything that would become inaccessible once your account is deleted.
