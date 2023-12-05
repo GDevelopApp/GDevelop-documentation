@@ -1,4 +1,4 @@
-# Object spawner area
+# Object spawner
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/plus-one.svg" class="extension-icon"></img>
 Spawn (create) objects periodically.
@@ -7,10 +7,7 @@ Spawn (create) objects periodically.
 
 ---
 
-Spawn objects periodically based on the location of the spawner.  
-
-If "random position" is enabled, objects will spawn in a random position inside the spawner object. 
-This allows the size of the spawner object to define an area that objects will spawn.
+Spawn objects periodically and control their number.
 
 It can be used to create:
 
@@ -18,7 +15,6 @@ It can be used to create:
 - NPCs
 - Environmental objects
 
-Note: Offset properties were deprecated in version 1.0.0.
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
@@ -37,8 +33,11 @@ Restart the cooldown of a spawner.
 **Max objects in the scene (per spawner)**  
 Change the max objects in the scene (per spawner) of the object. Limits the number of objects in the scene that were created by this spawner. Set this to 0 for no limit.
 
-**Use random positions**  
-Enable (or disable) random positions. Useful for making large spawner areas.
+**Offset on X axis**  
+Change the offset X relative to the center of spawner (in pixels).
+
+**Offset on Y axis**  
+Change the offset Y relative to the center of spawner (in pixels).
 
 **Spawn period**  
 Change the spawn period (in seconds).
@@ -60,9 +59,6 @@ Compare the max objects in the scene (per spawner) of the object. Limits the num
 **Object was just spawned**  
 Check if an object has just been created by this spawner. Useful for triggering visual and sound effects.
 
-**Use random positions**  
-Check if using random positions. Useful for making large spawner areas.
-
 **Spawner capacity**  
 Compare the number of objects that can be created by this spawner. This is reduced everytime an objects is spawned.
 
@@ -74,10 +70,14 @@ Check if spawner has unlimited capacity.
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.ObjectSpawner::MaxQuantity()` | Return the max objects in the scene (per spawner) of the object. Limits the number of objects in the scene that were created by this spawner. Set this to 0 for no limit. ||
+| `Object.ObjectSpawner::OffsetX(number)` | Return the offset X relative to the center of spawner (in pixels). ||
+| | _🔢 Number_ | Value |
+| `Object.ObjectSpawner::OffsetY(number)` | Return the offset Y relative to the center of spawner (in pixels). ||
+| | _🔢 Number_ | Value |
 | `Object.ObjectSpawner::SpawnPeriod()` | Return the spawn period (in seconds). ||
 | `Object.ObjectSpawner::SpawnerCapacity()` | Return the number of objects that can be created by this spawner. This is reduced everytime an objects is spawned. ||
 | `Object.ObjectSpawner::TimeBeforeSpawn()` | Return the remaining time before the next spawn (in seconds). Useful for triggering visual and sound effects. ||
 
 ---
 
-*This page is an auto-generated reference page about the **Object spawner area** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Object spawner** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

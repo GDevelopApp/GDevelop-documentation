@@ -55,7 +55,7 @@ nav:
         - Object "Is On Screen" Detection: is-on-screen
         - Linked Objects Tools: link-tools
         - Noise generator: noise
-        - Object spawner area: object-spawner
+        - Object spawner: object-spawner
         - Object Stack: object-stack
         - RTS-like unit selection: rtsunit-selection
         - Rectangular flood fill: rectangular-flood-fill
