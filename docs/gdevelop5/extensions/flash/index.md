@@ -52,16 +52,25 @@ Make the object flash (blink) for a period of time so it alternates between visi
 **Flash visibility (blink)**  
 Make an object flash (blink) visibility for a period of time.
 
+**Half period**  
+Change the half period of the object (time the object is invisible).
+
 **Stop flashing visibility (blink)**  
 Stop flashing visibility (blink) of an object.
 
 ### Behavior conditions
 
+**Half period**  
+Compare the half period of the object (time the object is invisible).
+
 **Is object flashing visibility**  
 Check if an object is flashing visibility.
 
-_No expressions for this behavior._
+### Behavior expressions
 
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.Flash::HalfPeriodTime()` | Return the half period of the object (time the object is invisible). ||
 
 ## Flash color tint 
 
@@ -69,19 +78,28 @@ Make an object flash a color tint for a period of time.
 
 ### Behavior actions
 
-**Flash color tint**  
+**Flash a color tint**  
 Make an object flash a color tint for a period of time.
+
+**Half period**  
+Change the half period (time between flashes) of the object.
 
 **Stop flashing color tint**  
 Stop flashing a color tint on an object.
 
 ### Behavior conditions
 
+**Half period**  
+Compare the half period (time between flashes) of the object.
+
 **Is object flashing a color tint**  
 Check if an object is flashing a color tint.
 
-_No expressions for this behavior._
+### Behavior expressions
 
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.FlashColor::HalfPeriodTime()` | Return the half period (time between flashes) of the object. ||
 
 ## Flash effect 
 
@@ -89,19 +107,28 @@ Make the object flash an effect for a period of time.
 
 ### Behavior actions
 
-**Flash effect**  
+**Flash an effect**  
 Make an object flash an effect for a period of time.
+
+**Half period**  
+Change the half period (time between flashes) of the object.
 
 **Stop flashing an effect**  
 Stop flashing an effect of an object.
 
 ### Behavior conditions
 
+**Half period**  
+Compare the half period (time between flashes) of the object.
+
 **Is object flashing an effect**  
 Check if an object is flashing an effect.
 
-_No expressions for this behavior._
+### Behavior expressions
 
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.FlashEffect::HalfPeriodTime()` | Return the half period (time between flashes) of the object. ||
 
 ## Flash opacity smothly (fade) 
 
@@ -109,19 +136,28 @@ Flash opacity smoothly (fade) in a repeating loop.
 
 ### Behavior actions
 
-**Flash opacity (fade)**  
+**Flash the opacity (fade)**  
 Make an object flash opacity smoothly (fade) in a repeating loop.
+
+**Half period**  
+Change the half period (time between flashes) of the object.
 
 **Stop flashing opacity**  
 Stop flashing opacity of an object.
 
 ### Behavior conditions
 
+**Half period**  
+Compare the half period (time between flashes) of the object.
+
 **Is object flashing opacity**  
 Check if an object is flashing opacity.
 
-_No expressions for this behavior._
+### Behavior expressions
 
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.FlashOpacity::HalfPeriodTime()` | Return the half period (time between flashes) of the object. ||
 
 ---
 

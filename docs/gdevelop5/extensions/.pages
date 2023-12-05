@@ -55,7 +55,7 @@ nav:
         - Object "Is On Screen" Detection: is-on-screen
         - Linked Objects Tools: link-tools
         - Noise generator: noise
-        - Object spawner: object-spawner
+        - Object spawner area: object-spawner
         - Object Stack: object-stack
         - RTS-like unit selection: rtsunit-selection
         - Rectangular flood fill: rectangular-flood-fill
@@ -65,7 +65,6 @@ nav:
         - Array tools: array-tools
         - Choose a random value: choose
         - Extended variables support: extended-variables
-        - Flash object: flash
         - Repeat every X seconds: repeat-every-xseconds
     - Input:
         - Back button: back-button
@@ -144,6 +143,7 @@ nav:
     - Visual effect:
         - 3D Billboard: billboard
         - Depth effect: depth-effect
+        - Flash object: flash
         - Flash layer: flash-layer
         - Flash and transition painter: flash-transition-painter
         - Marching Squares (experimental): marching-squares
