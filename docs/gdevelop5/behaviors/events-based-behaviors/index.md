@@ -24,50 +24,54 @@ Behaviors from community extensions are selected for their ability to be useful 
 
 ## Create a new behavior
 
-Behaviors are grouped into [extensions](/gdevelop5/extensions/). Extensions are composed of custom functions (actions, conditions or expressions), custom behaviors or custom objects ("prefabs") powered by events. You can see the list of all the extensions the game has in the [Project Manager](/gdevelop5/interface/project-manager), as well as add a new extension:
+Behaviors are grouped into [extensions](/gdevelop5/extensions). They are the same as [the extensions that can be installed](/gdevelop5/extensions/search). Extensions of a project are listed in the [Project Manager](/gdevelop5/interface/project-manager).
 
-![](pasted/20210906-234510.png)
+![](/gdevelop5/extensions/create/pasted/20230305-115305.png)
 
-Click on the **+** button at the bottom to create a new extension. You can right click on it to rename it. It's a good idea to have functions and behaviors related to the same thing in a single extension.
+Click on **Create or search for new extensions** at the bottom. Then, select **Create a new extension** to [create a new extension](/gdevelop5/extensions/create).
 
-Click on the extension in the list to open its editor. By default, there are no functions in the extensions. Add one by clicking on **Add a new behavior**, on the left:
+By default, extensions don't have any behavior. Add one by clicking on **Add a new behavior** on the left.
 
 ![](pasted/20210906-234614.png)
 
-The new behavior is added. You should rename it to give it a name according to what you want it to do. For example, if your behavior will be used to have an enemy move left and right on a platform, you can call it `HorizontalMovement` (only alphanumeric characters and underscores are allowed in names). If your behavior is automatically tracking damage and deletes objects that are too damaged, you could call it `Destructible`.
-
-You should also edit the configuration of the behavior by doing a right click on it and choosing "Properties". You can enter the description, the name displayed in the editor and specify if it should be restricted to some kind of objects:
+You can choose the description and the name to display to users when they will add your behavior to an object. If you need to use a specific object (sprites, texts...), you can choose it with the drop-down list at the bottom.
 
 ![](pasted/20210906-234834.png)
 
 Behaviors can also embed properties, which are number, strings or booleans that are stored inside the behavior. Check out the section below about how to add and use properties.
 
-### Add functions to your behavior
+## Add functions to your behavior
 
 Click on the behavior in the list to see the list of functions composing the behavior. It will appear on the right side panel.
 
 ![](pasted/20210906-235104.png)
 
-By default, a behavior is empty and **does nothing**. To add interactivity, you can add a new function (also called "method"). You'll be given the choice between some predefined functions, called *lifecycle methods*, or a custom function. Lifecycle methods will be called by the game engine automatically at some key moment during the game. Custom functions will be available as conditions, actions or expressions (like [usual functions outside behaviors](/gdevelop5/events/functions)).
+By default, a behavior is empty and does nothing. To add interactivity, you can add a new function (also called "method"). You'll be given the choice between some predefined functions, called *lifecycle methods*, or a custom function. Lifecycle methods will be called by the game engine automatically at some key moment during the game. Custom functions will be available to extension users as conditions, actions or expressions (like [usual functions outside behaviors](/gdevelop5/events/functions)).
 
 ![](pasted/20210906-235126.png)
 
-### Lifecycle methods
+### Run events at object creations
 
-Predefined lifecycle methods are as such:
+Events from the **onCreated** function are run when a new instance of an object with the behavior is created. It's the right place to setup the internal state of the behavior according to values set by the extension user.
 
-* **onCreated**: events inside the function will be run when **a new instance of an object** with the behavior is created.
-* **onStepPreEvents**: will be run every time a frame is rendering on the screen **before the "traditional" events** of the scene. Typically in most games, this is done 60 times per second. This is called for **every single object** having the behavior if the behavior is not deactivated.
-* **onDestroy**: events that will be run when an instance of the object having the behavior is **deleted** (if multiple objects are removed at the same time, events will be run for each object). This is done even if the behavior is deactivated.
+### Run events at every frame
+
+Events from the **onStepPreEvents** function are run every time a frame is rendering on the screen before the "traditional" events of the scene. Typically in most games, this is done 60 times per second. This is called for every single object having the behavior if the behavior is not deactivated.
+
+### Run events at other lifecycle key times
+
+Even though, the lifecycle functions **onCreated** and **onStepPreEvents** are the most commonly used, the following function can also be used:
+
+* **onDestroy**: events that will be run when an instance of the object having the behavior is deleted (if multiple objects are removed at the same time, events will be run for each object). This is done even if the behavior is deactivated.
 * **onDeActivate**: events that will be run once, after the behavior is deactivated on an object.
 * **onActivate**: events that will be run once, after the behavior is activated again on an object.
-* **onStepPostEvents**: events that will be run for every single object having the behavior, **after** the "traditional" events of the scene,  if the behavior is not deactivated. Typically in most games, this is done 60 times per second. As possible, we recommend to prefer onStepPreEvents, to run your logic before events and give the events in the scene a chance to react to changes that happen on the objects.
+* **onStepPostEvents**: events that will be run for every single object having the behavior, after the "traditional" events of the scene,  if the behavior is not deactivated. Typically in most games, this is done 60 times per second. As possible, we recommend to prefer onStepPreEvents, to run your logic before events and give the events in the scene a chance to react to changes that happen on the objects.
 
 This is an example of some events inside onStepPreEvents in the case of behavior that automatically deletes objects that are too damaged:
 
 ![](pasted/20210906-235321.png)
 
-### Custom action, condition or expression
+### Add custom action, condition or expression
 
 If you choose to create a custom function for your behavior, you can then configure your function like a traditional function, by choosing if it's an action, condition or expression, entering a name, description and a sentence to be displayed in the events sheet.
 
