@@ -19,6 +19,7 @@ We have written various *guides* that allow everyone to improve and submit quali
 * [GDevelop's documentation](/gdevelop5/community/contribute-to-the-wiki), see the [list of ideas](https://trello.com/b/3D1PXrga/gdevelop-documentation)
 * Contribute to the editor, see the [readme on Github](https://github.com/4ian/GDevelop/blob/master/newIDE/README.md)
 * Report bugs/crashes, see the [guide to reporting a bug](/gdevelop5/community/guide-to-reporting-a-bug)
+* [Contribute to the translations](https://crowdin.com/project/gdevelop)
 
 
 ## Network
