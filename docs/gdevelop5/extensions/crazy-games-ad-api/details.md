@@ -18,10 +18,6 @@ You can use the **Video ad just finished playing** condition to resume the game 
 
 ![](crazy-games-video-ad-events.png)
 
-!!! tip
-
-    Learn more about this extension in the [reference page](/gdevelop5/extensions/crazy-games-ad-api/)
-
 ## Banners
 ### Request banner
 ### Request responsive banner
@@ -34,5 +30,11 @@ You can use the **Video ad just finished playing** condition to resume the game 
 ### Invite link
 ### Invite button
 ## User (Not sure to adding this)
+
+# References
+!!! tip
+
+    Learn more about all the events from the extension in the [reference page](/gdevelop5/extensions/crazy-games-ad-api/)
+
 
 
