@@ -9,6 +9,15 @@ This extension allows games to be hosted on the CrazyGames website and display m
 
 Please refer to the [CrazyGames SDK documentation](https://docs.crazygames.com/sdk/html5/intro/) to learn how to set up compatible environments for games and to get tips about unwanted scrolling on the game's page.
 
+## Demo
+
+A project demo showcase the features from the extension in GDevelop.
+The project can be exported as HTML5 files, then imported in the QA Tool on CrazyGames website when submitting a new game on their platform.
+
+![CrazyGames SDK demo](CrazyGames_SDK_demo.png)
+
+[Open the demo](https://developer.crazygames.com/games){ .md-button .md-button--primary }
+
 ## Video Ads
 
 A video ad filling the entire game screen can be displayed using the **Display video ad** action. An ad can either be `"midgame"` or `"rewarded"`.
@@ -36,13 +45,15 @@ Display ads automatically according to the size of the game. The resulting banne
 
 ### Refreshing Banners and Limitations
 
-A banner can be called only once per 60 seconds. If a banner is called before the delay, an error is returned in the debugger.
+!!! note
+
+    A banner can be called only once per 60 seconds. If a banner is called before the delay, an error is returned in the debugger.
 
 ### Clearing the Banners
 
 Two possible actions for clearing banners:
 - Delete a banner by its name.
-- Delete all the banners from the game.
+- Delete all the banners in game.
 
 ## Game
 
@@ -50,7 +61,7 @@ Two possible actions for clearing banners:
 
 Celebrate a special moment in the game with some sparkling confetti. Celebrate the defeat of a boss, reaching a new high score, or something big.
 
-//TODO IMAGE
+![](HappyTime.png)
 
 ### Tracking Users
 
@@ -75,10 +86,7 @@ Display a popup modal containing the invite link with a copy button, very useful
 
 Return a URL to invite friends to join your game session. This URL can be added to the clipboard or displayed in the game to let the user select it.
 
-## User (Not sure about adding this)
-
 # References
 !!! tip
 
-Learn more about all the events from the extension on the [reference page](/gdevelop5/extensions/crazy-games-ad-api/).
-```
+    Learn more about all the events from the extension on the [reference page](/gdevelop5/extensions/crazy-games-ad-api/).
