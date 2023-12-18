@@ -11,12 +11,17 @@ Some games made with GDevelop that have been published on CrazyGames:
 
 ![Ball Challenge 2 on CrazyGames](crazy_games_ball_challenge_2.png)
 
+## How to publish on CrazyGames
 
-!!! tip
+Games can be published on CrazyGames through their website. CrazyGames offers a QA Tool to check the implementation of the extension: triggers ads, banners, celebrate a win, show the invite button and all the features offered by CrazyGames for a game.
 
-    The [CrazyGames SDK extension](/gdevelop5/extensions/crazy-games-ad-api/details) helps handling ads.
+Check the CrazyGames SDK extension to get helps on all CrazyGames' features.
+
+[Read the CrazyGames SDK extension documentation](/gdevelop5/extensions/crazy-games-ad-api/details){ .md-button }
+
+[Submit a game on CrazyGames](https://developer.crazygames.com/games){ .md-button .md-button--primary }
 
 
-!!! tip
+!!! note
 
-    You're welcome to contribute by adding a step-by-step explanation of the process.
+    Read the full documentation on CrazyGames at: [docs.crazygames.com](https://docs.crazygames.com/)
