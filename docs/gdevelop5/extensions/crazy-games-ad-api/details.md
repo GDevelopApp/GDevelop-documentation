@@ -18,7 +18,7 @@ The project can be exported as HTML5 files, then imported in the QA Tool on Craz
 
 [Open the demo](https://gdevelop.io/fr-fr/game-example/free/crazygames-sdk-demo){ .md-button .md-button--primary }
 
-## Video Ads
+## Display Video Ads
 
 A video ad filling the entire game screen can be displayed using the **Display video ad** action. An ad can either be `"midgame"` or `"rewarded"`.
 
@@ -68,7 +68,7 @@ Some actions or events triggered automatically can be used to track when and how
 
 ### Invite Button
 
-DIsplay on CrazyGames website a popup containing the invite link with a copy button, very useful for multiplayer games to give a friend the possibility to join a session quickly. 
+Display on CrazyGames website a popup containing the invite link with a copy button, very useful for multiplayer games to give a friend the possibility to join a session quickly. 
 
 ![](invite_button_crazygames.png)
 ![](invite-popup.png)

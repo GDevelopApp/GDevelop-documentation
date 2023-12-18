@@ -1,7 +1,7 @@
 ---
 title: Publish your GDevelop game on CrazyGames
 ---
-# Introduction
+# Publish your GDevelop game on CrazyGames
 
 Games made with GDevelop can be published on [CrazyGames](https://crazygames.com/). With over **[30 million monthly users](https://gdevelop.io/page/crazy-games)**, it's a perfect place to find a great audience. Read more about it on [GDevelop website](https://gdevelop.io/page/crazy-games).
 
