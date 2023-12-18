@@ -7,7 +7,7 @@ This extension allows games to be hosted on the CrazyGames website and display m
 
 ## Advanced Configurations
 
-Please refer to the [CrazyGames SDK documentation](https://docs.crazygames.com/sdk/html5/intro/) to learn how to set up compatible environments for games and to get tips about unwanted scrolling on the game's page.
+Please refer to the [CrazyGames SDK documentation](https://docs.crazygames.com/sdk/html5/intro/) to learn how to set up compatible environments for games and to get tips about unwanted scrolling on the game page.
 
 ## Demo
 
@@ -35,7 +35,7 @@ You can use the **Video ad just finished playing** condition to resume the game 
 ## Banners
 ### Request Banner
 
-Ads banners can be placed with X and Y position and use a part of the game's screen according to some static dimensions such as: `728x90, 300x250, 320x50, 468x60, 320x100`.
+Ads banners can be placed with X and Y position and use a part of the game screen according to some static dimensions such as: `728x90, 300x250, 320x50, 468x60, 320x100`.
 
 ![](ad_example.png)
 
@@ -46,6 +46,7 @@ Ads banners can be placed with X and Y position and use a part of the game's scr
 ### Clearing the Banners
 
 Two possible actions for clearing banners:
+
 - Delete a banner by its name.
 - Delete all the banners in game.
 
@@ -59,7 +60,7 @@ Celebrate a special moment in the game with some sparkling confetti. Celebrate t
 
 ### Tracking Users
 
-Some actions or events triggered automatically can be used to track when and how users are playing your games and get the stats directly on CrazyGames's game dashboard.
+Some actions or events triggered automatically can be used to track when and how users are playing your games and get the stats directly on CrazyGames game dashboard.
 
 - The **Gameplay Start** action has to be called whenever the player starts playing or resumes playing after a break (menu/loading/achievement screen, game paused, etc.).
 
@@ -67,7 +68,7 @@ Some actions or events triggered automatically can be used to track when and how
 
 ### Invite Button
 
-DIsplay on CrazyGames' website a popup containing the invite link with a copy button, very useful for multiplayer games to give a friend the possibility to join a session quickly. 
+DIsplay on CrazyGames website a popup containing the invite link with a copy button, very useful for multiplayer games to give a friend the possibility to join a session quickly. 
 
 ![](invite_button_crazygames.png)
 ![](invite-popup.png)
