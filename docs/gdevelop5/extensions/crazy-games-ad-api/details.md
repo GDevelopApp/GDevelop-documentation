@@ -3,16 +3,16 @@ title: Details
 ---
 # CrazyGames SDK Extension
 
-This extension allows games to be hosted on the CrazyGames website and display modules in games such as ads, banners, and various functionality related to the game.
+This extension allows games to be hosted on the CrazyGames website and display modules in games such as ads, banners, and various functionalities offered by CrazyGames.
 
 ## Advanced Configurations
 
 Please refer to the [CrazyGames SDK documentation](https://docs.crazygames.com/sdk/html5/intro/) to learn how to set up compatible environments for games and to get tips about unwanted scrolling on the game page.
 
-## Demo
+## Try the CrazyGames SDK demo
 
-A project demo showcase the features from the extension in GDevelop.
-The project can be exported as HTML5 files, then imported in the QA Tool on CrazyGames website when submitting a new game on their platform.
+A demo project showcases the features from the CrazyGames SDK in GDevelop.
+The project can be exported as an HTML5 game, then imported in the QA Tool on CrazyGames website when submitting a new game on their platform.
 
 ![CrazyGames SDK demo](CrazyGames_SDK_demo.png)
 
@@ -22,9 +22,9 @@ The project can be exported as HTML5 files, then imported in the QA Tool on Craz
 
 A video ad filling the entire game screen can be displayed using the **Display video ad** action. An ad can either be `"midgame"` or `"rewarded"`.
 
-- **Midgame**: Advertisements can happen when a user dies, a level has been completed, etc.
+- **Midgame**: Show an advertisement when a user dies, a level has been completed, etc.
 
-- **Rewarded**: Advertisements can be requested by the user in exchange for a reward (an additional life, a retry when the user dies, a bonus starting item, extra starting health, etc.). Rewarded ads should be shown when users explicitly consent to watch an advertisement.
+- **Rewarded**: An advertisements that can be requested by the user in exchange for a reward (an additional life, a retry when the user dies, a bonus starting item, extra starting health, etc.). Rewarded ads should be shown when users explicitly consent to watch an advertisement.
 
 ![](crazy-games-video-ad-action.png)
 
@@ -33,7 +33,7 @@ You can use the **Video ad just finished playing** condition to resume the game 
 ![](crazy-games-video-ad-events.png)
 
 ## Banners
-### Request Banner
+### Request a Banner
 
 Ads banners can be placed with X and Y position and use a part of the game screen according to some static dimensions such as: `728x90, 300x250, 320x50, 468x60, 320x100`.
 
@@ -45,7 +45,7 @@ Ads banners can be placed with X and Y position and use a part of the game scree
 
 ### Clearing the Banners
 
-Two possible actions for clearing banners:
+There are two possible actions for clearing banners:
 
 - Delete a banner by its name.
 - Delete all the banners in game.
@@ -60,7 +60,7 @@ Celebrate a special moment in the game with some sparkling confetti. Celebrate t
 
 ### Tracking Users
 
-Some actions or events triggered automatically can be used to track when and how users are playing your games and get the stats directly on CrazyGames game dashboard.
+Some actions or events are triggered automatically and can be used to track when and how users are playing your games. You can get the stats directly on the CrazyGames game dashboard.
 
 - The **Gameplay Start** action has to be called whenever the player starts playing or resumes playing after a break (menu/loading/achievement screen, game paused, etc.).
 
@@ -68,7 +68,7 @@ Some actions or events triggered automatically can be used to track when and how
 
 ### Invite Button
 
-Display on CrazyGames website a popup containing the invite link with a copy button, very useful for multiplayer games to give a friend the possibility to join a session quickly. 
+Display on CrazyGames website a popup containing the invite link with a copy button. This is very useful in a multiplayer game to give a friend the possibility to join a session quickly. 
 
 ![](invite_button_crazygames.png)
 ![](invite-popup.png)
