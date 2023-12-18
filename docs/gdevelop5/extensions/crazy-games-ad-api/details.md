@@ -16,7 +16,7 @@ The project can be exported as HTML5 files, then imported in the QA Tool on Craz
 
 ![CrazyGames SDK demo](CrazyGames_SDK_demo.png)
 
-[Open the demo](https://developer.crazygames.com/games){ .md-button .md-button--primary }
+[Open the demo](https://gdevelop.io/fr-fr/game-example/free/crazygames-sdk-demo){ .md-button .md-button--primary }
 
 ## Video Ads
 
