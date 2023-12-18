@@ -35,17 +35,11 @@ You can use the **Video ad just finished playing** condition to resume the game 
 ## Banners
 ### Request Banner
 
-Ads banners use a part of the game's screen according to some static dimensions such as: `970x90, 320x50, 160x600, 336x280, 728x90, 300x600, 468x60, 970x250, 250x250, 120x600, 300x250, 320x100`.
+Ads banners can be placed with X and Y position and use a part of the game's screen according to some static dimensions such as: `728x90, 300x250, 320x50, 468x60, 320x100`.
 
-// TODO Extension update
+![](ad_example.png)
 
-### Request Responsive Banner
-
-Display ads automatically according to the size of the game. The resulting banners will have one of the following sizes: `970x90, 320x50, 160x600, 336x280, 728x90, 300x600, 468x60, 970x250, 300x250, 250x250, 120x600`. Only banners that fit into your container will be displayed; if your container cannot fit any of these sizes, no ad will be rendered.
-
-### Refreshing Banners and Limitations
-
-!!! note
+!!! warning
 
     A banner can be called only once per 60 seconds. If a banner is called before the delay, an error is returned in the debugger.
 
@@ -71,16 +65,13 @@ Some actions or events triggered automatically can be used to track when and how
 
 - The **Gameplay Stop** action has to be called on every game break (entering a menu, switching levels, pausing the game, etc.). Don't forget to call the Gameplay Start when the gameplay resumes.
 
-//TODO Extension update
-- The **Game Loading Start**,
-- The **Game Loading Stop**, 
-
 ### Invite Button
 
-//TODO Extension update
-Display a popup modal containing the invite link with a copy button, very useful for multiplayer games to give a friend the possibility to join a session quickly. 
+DIsplay on CrazyGames' website a popup containing the invite link with a copy button, very useful for multiplayer games to give a friend the possibility to join a session quickly. 
 
-//TODO IMAGE
+![](invite_button_crazygames.png)
+![](invite-popup.png)
+
 
 ### Invite Link
 
