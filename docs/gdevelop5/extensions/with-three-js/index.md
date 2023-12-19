@@ -107,6 +107,9 @@ Create 3D Axes Helper
 **Create 3D Box**  
 Create 3D Box
 
+**Create 3D Group**  
+This invisible 3D Object can be the parent of other 3D Objects.
+
 **Create 3D Light**  
 ⚠️ 3D Lights are highly loaded.  
 3D Directional Light and 3D Spot Light emit light in the -Z direction.
@@ -186,12 +189,20 @@ This action cannot remove 3D Objects created by 3D Projection Behaviors.
 This action does not clear the loaded 3D Texture data and the loaded 3D Model data.
 They will continue to be accessible by ID.
 
+**Resolve Bounding Box Collision (Deprecated)**  
+Resolve collisions between Bounding Boxes.  
+It is not necessary to use the "Check Bounding Box Collision" condition beforehand. (It will do almost the same processing)
+Note that the 3D Objects are still in contact after resolution. ("Check Bounding Box Collision" condition will not be false.)
+3D Object thickness too thin for the amount of movement will not resolve correctly.
+This action updates the "Bounding Box Collision Result".
+
 **Resolve Bounding Box Collision**  
 Resolve collisions between Bounding Boxes.  
 It is not necessary to use the "Check Bounding Box Collision" condition beforehand. (It will do almost the same processing)
 Note that the 3D Objects are still in contact after resolution. ("Check Bounding Box Collision" condition will not be false.)
 3D Object thickness too thin for the amount of movement will not resolve correctly.
 This action updates the "Bounding Box Collision Result".
+"Bounding Box Collision Result" stores the value when the Target 3D Object is unmoved.
 
 **Rotate 3D Camera**  
 Rotate the 3D Camera in the order X, Y, Z.
@@ -213,6 +224,12 @@ Rotate the 3D Object in the order X, Y, Z on the world axis.
 
 **Set 3D Object ID Of Children To Scene Variable**  
 Set 3D Object ID of all children to scene variable as array.
+
+**Set number to 3D Object Variable**  
+Set number to 3D Object Variable
+
+**Set string to 3D Object Variable**  
+Set string to 3D Object Variable
 
 **Setup Multiple 3D Cameras**  
 Note that rendering time increases by the number of enabled 3D Cameras.
@@ -294,6 +311,9 @@ This condition cannot be tested correctly if the visibility of the 3D object is 
 | `WithThreeJS::ObjectDirection(string, string)` | Normalized direction vector of 3D Object.(Z axis direction) ||
 | | _🔤 Name (String)_ | 3D Object ID |
 | | _🔤 String_ | Axis |
+| `WithThreeJS::ObjectNumberVariable(string, string)` | 3D Object Number Variable ||
+| | _🔤 Name (String)_ | 3D Object ID |
+| | _🔤 Name (String)_ | 3D Object Variable Name |
 | `WithThreeJS::ObjectOpacity(string)` | 3D Object Opacity ||
 | | _🔤 Name (String)_ | 3D Object ID |
 | `WithThreeJS::ObjectParent(string)` | 3D Object Parent ||
@@ -313,6 +333,9 @@ This condition cannot be tested correctly if the visibility of the 3D object is 
 | `WithThreeJS::ObjectScale(string, string)` | 3D Object Scale ||
 | | _🔤 Name (String)_ | 3D Object ID |
 | | _🔤 String_ | Axis |
+| `WithThreeJS::ObjectStringVariable(string, string)` | 3D Object String Variable ||
+| | _🔤 Name (String)_ | 3D Object ID |
+| | _🔤 Name (String)_ | 3D Object Variable Name |
 | `WithThreeJS::PointOf3DObjectOn3DCamera(number, string, string)` | Point Of 3D Object On 3D Camera ||
 | | _🔢 Number_ | 3D Camera ID (1 to 4) |
 | | _🔤 Name (String)_ | 3D Object ID |
