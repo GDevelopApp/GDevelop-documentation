@@ -26,7 +26,7 @@ There are specific circumstances that do require using a "For Each" event, inclu
 
 - !!! warning
 
-    This condition doesn't require the Trigger Once; Using it might decrease performance.
+    This condition doesn't require the Trigger Once condition. Using it might decrease performance.
 
 In the example below, the goal is to create an explosion at the position of every enemy.  When the player is in a collision with an object called "KillAllEnemyBonus", a "For Each" event is used to create a new object located at the position of each enemy.  If a "For Each" event is not used, a single explosion would be created at the position of the first enemy only.
 
