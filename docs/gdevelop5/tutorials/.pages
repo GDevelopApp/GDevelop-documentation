@@ -1,13 +1,13 @@
 sort_type: natural
 nav:
     - Basic game making concepts:
-        - Basic concepts: basic-game-making-concepts
-        - Move objects: how-to-move-objects
-        - Rotate objects: how-to-rotate-objects
+        - Basic concepts: basic-game-making-concepts.md
+        - Move objects: how-to-move-objects.md
+        - Rotate objects: how-to-rotate-objects.md
         - Follow players with cameras: follow-player-with-camera
         - Keep UI on screen: keep-ui-on-screen
         - Work with randomness: randomness
-        - Find resources: resources
+        - Find resources: resources.md
     - asteroids
     - geometry-monster
     - platformer
