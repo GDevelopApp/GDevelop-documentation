@@ -11,6 +11,6 @@ nav:
     - geometry-monster
     - platformer
     - space-shooter
-    - Video tutorials: videos
+    - Video tutorials: videos.md
     - More guides and How-To:
         - ...
