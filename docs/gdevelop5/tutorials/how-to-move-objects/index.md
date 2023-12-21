@@ -21,7 +21,7 @@ There are three different ways of changing an object position in GDevelop:
 
 Sometimes you want to instantly change an object's position, instead of gradually moving or animating it. In this case, use the action to set the object at a specific position (by specifying new X and Y coordinates):
 
-![](/gdevelop5/tutorials/set-object-position.png)
+![](set-object-position.png)
 
 ## Follow another object exactly: changing the position with expressions
 
@@ -31,7 +31,7 @@ As an example, this can be useful when you're using a **hidden object** that ser
 
 Here is an example to set the position of the Player object in a platform game:
 
-![](/gdevelop5/tutorials/follow-object-set-position.png)
+![](follow-object-set-position.png)
 
 !!! tip
 
@@ -43,7 +43,7 @@ Here is an example to set the position of the Player object in a platform game:
 
 Want an object to act as a cursor? Change its position to set it to `MouseX()` on X axis and `MouseY()` on Y axis.
 
-![](/gdevelop5/tutorials/cursor-set-position.png)
+![](cursor-set-position.png)
 
 !!! note
 
@@ -61,11 +61,11 @@ Forces have been introduced in [basic game making concepts](/gdevelop5/tutorials
 
 * An **instant** force moves an object "a bit" (the force will only act on the object while the action is being executed):
 
-  ![](/gdevelop5/tutorials/instant-force-example.png)
+  ![](instant-force-example.png)
 
 * a **permanent** force will move an object forever, unless an action to stop the object is used. This action will clear the forces acting on the object (effectively stopping it - unless some behavior is used or its position is changed by other events). For example, this couple of events will animate a platform between two markers:
 
-![](/gdevelop5/tutorials/animate-platform-permanent-forces.png)
+![](animate-platform-permanent-forces.png)
 
 If you're unsure about which kind of force to use, the rule of thumb is:
 
