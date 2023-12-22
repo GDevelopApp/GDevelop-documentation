@@ -18,15 +18,15 @@ Alternatively, click on the *"Plus" icon* in the toolbar or on *"Add..."* at the
 
 Most of the time, a "For Each" event is not required because conditions and actions automatically run on all instances of an object. Using a "For Each" when it is not required will cause the computer to do extra work and may lower the performance of a game.
 
+!!! warning
+
+    [Trigger once](/gdevelop5/all-features/advanced-conditions/#trigger-once) conditions are not checked per instance. Within a "for each" event, [object variables](/gdevelop5/all-features/variables/object-variables/) must be used to follow the state of object instances one by one.
+
 There are specific circumstances that do require using a "For Each" event, including:
 
 - [Collisions](/gdevelop5/all-features/collisions) that need to be handled individually, even if they happen at the same time (such as keeping score or picking up resources)
 - Actions that use an object property or [variable](/gdevelop5/all-features/variables/object-variables) that is different for each instance
 - When using [linked objects](/gdevelop5/all-features/linked-objects)
-
-- !!! warning
-
-    This condition doesn't require the Trigger Once condition. Using it might decrease performance.
 
 In the example below, the goal is to create an explosion at the position of every enemy.  When the player is in a collision with an object called "KillAllEnemyBonus", a "For Each" event is used to create a new object located at the position of each enemy.  If a "For Each" event is not used, a single explosion would be created at the position of the first enemy only.
 
