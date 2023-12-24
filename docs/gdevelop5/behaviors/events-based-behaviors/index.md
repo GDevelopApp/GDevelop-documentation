@@ -46,7 +46,7 @@ Click on the behavior in the list to see the list of functions composing the beh
 
 ![](pasted/20210906-235104.png)
 
-By default, a behavior is empty and does nothing. To add interactivity, you can add a new function (also called "method"). You'll be given the choice between some predefined functions, called *lifecycle methods*, or a custom function. Lifecycle methods will be called by the game engine automatically at some key moment during the game. Custom functions will be available to extension users as conditions, actions or expressions (like [usual functions outside behaviors](/gdevelop5/events/functions)).
+By default, a behavior is empty and does nothing. To add interactivity, you can add a new function. You'll be given the choice between some predefined functions, called *lifecycle methods*, or a custom function. Lifecycle methods will be called by the game engine automatically at some key moment during the game. Custom functions will be available to extension users as conditions, actions or expressions (like [usual functions outside behaviors](/gdevelop5/events/functions)).
 
 ![](pasted/20210906-235126.png)
 
@@ -54,32 +54,36 @@ By default, a behavior is empty and does nothing. To add interactivity, you can 
 
 Events from the **onCreated** function are run when a new instance of an object with the behavior is created. It's the right place to setup the internal state of the behavior according to values set by the extension user.
 
-### Run events at every frame
+### Run events every frame
 
-Events from the **onStepPreEvents** function are run every time a frame is rendering on the screen before the "traditional" events of the scene. Typically in most games, this is done 60 times per second. This is called for every single object having the behavior if the behavior is not deactivated.
+Events from the **onStepPreEvents** function are run every time a frame is rendering on the screen before the "traditional" events of the scene. Typically this is done 60 times per second. It's called for every single object having the behavior unless it's deactivated.
 
-### Run events at other lifecycle key times
-
-Even though, the lifecycle functions **onCreated** and **onStepPreEvents** are the most commonly used, the following function can also be used:
-
-* **onDestroy**: events that will be run when an instance of the object having the behavior is deleted (if multiple objects are removed at the same time, events will be run for each object). This is done even if the behavior is deactivated.
-* **onDeActivate**: events that will be run once, after the behavior is deactivated on an object.
-* **onActivate**: events that will be run once, after the behavior is activated again on an object.
-* **onStepPostEvents**: events that will be run for every single object having the behavior, after the "traditional" events of the scene,  if the behavior is not deactivated. Typically in most games, this is done 60 times per second. As possible, we recommend to prefer onStepPreEvents, to run your logic before events and give the events in the scene a chance to react to changes that happen on the objects.
-
-This is an example of some events inside onStepPreEvents in the case of behavior that automatically deletes objects that are too damaged:
+The following `onStepPreEvents` function events automatically deletes objects that are too damaged:
 
 ![](pasted/20210906-235321.png)
 
 ### Add custom action, condition or expression
 
-If you choose to create a custom function for your behavior, you can then configure your function like a traditional function, by choosing if it's an action, condition or expression, entering a name, description and a sentence to be displayed in the events sheet.
+Behavior and the scene events communicates through functions:
+- Actions allow to change the state of the behavior and maybe initiate an effect over time in the `onStepPreEvents` function. For instance, a jump action changes the character state from standing to jumping and `onStepPreEvents` modify the character position on Y axis every frame.
+- Conditions let scene events know about behavior state changes. For instance, a condition can allow to check if a character is jumping.
 
-For example, this creates a new action that can be used to add damage to the object:
+!!! tip
+
+    The [functions](/gdevelop5/events/functions) page explains the concepts around custom functions in more details.
+
+For example, this function defines an action that can be used to add damage to the object:
 
 ![](pasted/20210906-235538.png)
 
+### Run events at other lifecycle key times
 
+Even though, the lifecycle functions **onCreated** and **onStepPreEvents** are the most common, the following function can also be used:
+
+* **onDestroy**: events that will be run when an instance of the object having the behavior is deleted (if multiple objects are removed at the same time, events will be run for each object). This is done even if the behavior is deactivated.
+* **onDeActivate**: events that will be run once, after the behavior is deactivated on an object.
+* **onActivate**: events that will be run once, after the behavior is activated again on an object.
+* **onStepPostEvents**: events that will be run for every single object having the behavior, after the "traditional" events of the scene, if the behavior is not deactivated. Typically, this is done 60 times per second. It's recommend to prefer `onStepPreEvents`, to run your logic before events and give the events in the scene a chance to react to changes that happen on the objects.
 
 ## Use the behavior on an object
 
@@ -142,6 +146,7 @@ Strings and numbers will also have an expression to get their values.
 !!! tip
 
     These actions/conditions/expressions won't be usable from outside of the behavior. Properties are said to be "private", they can only be manipulated by the behavior. If you want to have them modified by the scene events, create new actions/conditions for this in your behavior.
+
 ## Behaviors using other behaviors as properties
 
 It is possible for behaviors to use other "required behaviors" as properties. When this is the case, GDevelop will ensure that any object using your behavior will also use the other one.
