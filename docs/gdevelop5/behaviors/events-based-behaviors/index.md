@@ -14,6 +14,7 @@ Behaviors events runs at every frame like scene events do. The main difference i
 What may sound like a limitation is actually allowing behaviors to be used in any project as they are not tie to scene objects.
 
 Behaviors from community extensions are selected for their ability to be useful in many games. It's not necessarily what you should be aiming for. Behaviors can be used as a way to organize events by:
+
 - adding actions and conditions only to some objects whereas a function alone would be shown for any objects
 - grouping all the logic about an object in one place
 - clearly defining values about the configuration (visible properties) or the object state (hidden properties) whereas variables are all listed together
@@ -65,6 +66,7 @@ The following `onStepPreEvents` function events automatically deletes objects th
 ### Add custom action, condition or expression
 
 Behavior and the scene events communicates through functions:
+
 - Actions allow to change the state of the behavior and maybe initiate an effect over time in the `onStepPreEvents` function. For instance, a jump action changes the character state from standing to jumping and `onStepPreEvents` modify the character position on Y axis every frame.
 - Conditions let scene events know about behavior state changes. For instance, a condition can allow to check if a character is jumping.
 
