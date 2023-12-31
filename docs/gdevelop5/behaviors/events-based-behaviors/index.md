@@ -9,7 +9,7 @@ Similarly to scenes, custom behaviors are written with events. Every [behavior](
 
     If you've never made an extension before, please start by reading how [functions](/gdevelop5/events/functions) works as it's a key concept to understand custom behaviors.
 
-Behaviors events runs at every frame like scene events do. The main difference is that behaviors focuses on the object they are attached too. Only this object can be used in the events that build up the logic of a behavior.
+Behaviors events run at every frame like scene events do. The main difference is that behaviors focuses on the object they are attached too. Only this object can be used in the events that build up the logic of a behavior.
 
 What may sound like a limitation is actually allowing behaviors to be used in any project as they are not tie to any scene object.
 
