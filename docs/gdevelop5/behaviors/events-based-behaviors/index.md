@@ -11,7 +11,7 @@ Similarly to scenes, custom behaviors are written with events. Every [behavior](
 
 Behaviors events runs at every frame like scene events do. The main difference is that behaviors focuses on the object they are attached too. Only this object can be used in the events that build up the logic of a behavior.
 
-What may sound like a limitation is actually allowing behaviors to be used in any project as they are not tie to scene objects.
+What may sound like a limitation is actually allowing behaviors to be used in any project as they are not tie to any scene object.
 
 Behaviors from community extensions are selected for their ability to be useful in many games. It's not necessarily what you should be aiming for. Behaviors can be used as a way to organize events by:
 
@@ -65,7 +65,7 @@ The following `onStepPreEvents` function events automatically deletes objects th
 
 ### Add custom action, condition or expression
 
-Behavior and the scene events communicates through functions:
+Behaviors and the scene events communicate through functions:
 
 - Actions allow to change the state of the behavior and maybe initiate an effect over time in the `onStepPreEvents` function. For instance, a jump action changes the character state from standing to jumping and `onStepPreEvents` modify the character position on Y axis every frame.
 - Conditions let scene events know about behavior state changes. For instance, a condition can allow to check if a character is jumping.
@@ -89,7 +89,7 @@ Even though, the lifecycle functions **onCreated** and **onStepPreEvents** are t
 
 ## Use the behavior on an object
 
-### 1) Add the behavior to an object
+### 1. Add the behavior to an object
 
 Once your behavior is created, you can start attaching it to objects. The best part about this is that your event based behavior will be listed like any other "[built-in behavior](/gdevelop5/behaviors)" that is bundled with GDevelop.
 
@@ -107,7 +107,7 @@ To test this, we've added the "Destructible" behavior to object "Platform". Then
 
 ![](/gdevelop5/behaviors/example-test-destructible-behavior-debugger.png)
 
-### 2) Use actions/conditions/expressions
+### 2. Use actions, conditions and expressions
 
 Like any other "built-in behavior", you can also use actions/conditions (or expressions) if you have declared functions as such in the behavior. For example, in the "Destructible" behavior, we created an action to cause some damage to the object. We can find it and use it in the events sheet:
 
@@ -120,9 +120,13 @@ As you can see, this allows creating very expressive and easy-to-read events. Yo
 
 ## Add and use properties in a behavior
 
-What is interesting with behaviors is that they can hold information inside of them, much like variables of an object. These information are called properties. They can be a number, a string (text) or a boolean (which is like a virtual checkbox, either checked or unchecked).
+Properties are similar to objects variables but they can only be used from the behavior events. If you've ever added a behavior to an object, you may have noticed a list of fields to setup the behavior. These are properties initial values.
 
 You can use these properties to make your behavior customizable (for example, you can have the speed, an amount of damage, the life points, the power points, the mana, etc... as properties of your behavior - depending on what your behavior is doing).
+
+!!! note
+
+    Properties can be hidden if you don't wish to let extension users choose the initial value.
 
 To show and add properties to your behavior, edit it and click on the "Properties" tab. In this example, you can see a behavior called "Health", that has properties to store the health of the object and the minimum time between two hits on the object:
 
@@ -130,11 +134,11 @@ To show and add properties to your behavior, edit it and click on the "Propertie
 
 Properties can be:
 
-* Number, string (including a color or a choice from a list of options) or booleans (will be displayed as a checkbox).
-* They can also be another required behavior - in which case the behavior you're editing will ensure the other specified behavior is present on objects using it. There is a dedicated section later on this page about this.
-* They have a default value, that will be used if the value is not changed when adding the behavior to an object.
-* They can be visible in the editor, when added to an object, or invisible.
-* Finally, they have a label that will be displayed in the editor.
+* Numbers
+* Strings (including colors or string with choices)
+* Booleans (displayed as a checkbox)
+
+Properties can also be used to required behaviors as described in a following section.
 
 ### Use actions and conditions to manipulate the properties
 
@@ -145,9 +149,7 @@ Strings and numbers will also have an expression to get their values.
 
     If you rename your properties, the actions/conditions/expressions will be updated automatically.
 
-!!! tip
-
-    These actions/conditions/expressions won't be usable from outside of the behavior. Properties are said to be "private", they can only be manipulated by the behavior. If you want to have them modified by the scene events, create new actions/conditions for this in your behavior.
+These actions/conditions/expressions won't be usable from outside of the behavior. Properties are said to be "private", they can only be manipulated by the behavior. If you want to let extension user modifying them from the scene events, you can generate an action and a condition from the dop-down menu of the property.
 
 ## Behaviors using other behaviors as properties
 
