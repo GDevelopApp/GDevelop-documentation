@@ -128,7 +128,7 @@ You can use these properties to make your behavior customizable (for example, yo
 
     Properties can be hidden if you don't wish to let extension users choose the initial value.
 
-To show and add properties to your behavior, edit it and click on the "Properties" tab. In this example, you can see a behavior called "Health", that has properties to store the health of the object and the minimum time between two hits on the object:
+To show and add properties to your behavior, edit it and click on the "Properties" tab. In this example, you can see a behavior called "Health" that has properties to store the health of the object and the minimum time between two hits on the object:
 
 ![](pasted/20210907-001003.png)
 
@@ -149,7 +149,7 @@ Strings and numbers will also have an expression to get their values.
 
     If you rename your properties, the actions/conditions/expressions will be updated automatically.
 
-These actions/conditions/expressions won't be usable from outside of the behavior. Properties are said to be "private", they can only be manipulated by the behavior. If you want to let extension user modifying them from the scene events, you can generate an action and a condition from the dop-down menu of the property.
+These actions/conditions/expressions won't be usable from outside of the behavior. Properties are said to be "private", they can only be manipulated by the behavior. If you want to let extension user modifying them from the scene events, you can generate an action and a condition from the drop-down menu of the property.
 
 ## Behaviors using other behaviors as properties
 
