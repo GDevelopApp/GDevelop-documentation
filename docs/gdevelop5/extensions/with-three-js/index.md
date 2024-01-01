@@ -93,14 +93,6 @@ As a result, this action also removes 2D Objects that have 3D Projection Behavio
 This action does not clear the loaded 3D Texture data and the loaded 3D Model data.
 They will continue to be accessible by ID.
 
-**Correct 3D Camera Rotation Within Limits (Deprecated)**  
-Correct the 3D Camera Rotation within limits.  
-Rotation is corrected like head movement. Limiting multiple axes can break things.
-
-**Correct 3D Object Rotation Within Limits (Deprecated)**  
-Correct the 3D Object Rotation within limits.  
-Using this action on a 3D Object rotated on multiple axes may not work correctly.
-
 **Create 3D Axes Helper**  
 Create 3D Axes Helper
 
@@ -108,7 +100,7 @@ Create 3D Axes Helper
 Create 3D Box
 
 **Create 3D Group**  
-This invisible 3D Object can be the parent of other 3D Objects.
+This 3D Object without geometry is useful for grouping other 3D Objects together or changing their center point.
 
 **Create 3D Light**  
 ⚠️ 3D Lights are highly loaded.  
@@ -133,6 +125,12 @@ Create 3D Sprite
 **Detach From Parent**  
 Detach a 3D Object from its parent.  
 (Set Parent to Scene)
+
+**Linearly interpolate 3D Object**  
+Linearly interpolate 3D Object
+
+**Linearly interpolate 3D Camera**  
+Linearly interpolate 3D Camera
 
 **Load 3D Model From OBJ**  
 Load 3D Model From OBJ
@@ -166,6 +164,9 @@ Output All IDs To Console
 **Output 3D Model Information To Console**  
 Output 3D Model Information To Console
 
+**Place 3D Object Using Raycast Result**  
+Place 3D Object Using Raycast Result
+
 **Play 3D Animation**  
 Play 3D animation.  
 If already playing, only the "Animation Speed Scale" and "Loop" properties are updated.
@@ -183,18 +184,16 @@ Do a Raycast from the 3D Camera.
 You can get the count of 3D Objects in the result with the "Raycast Result Count" expression.
 The result can be accessed via the "Raycast Result Number" expression or the "Raycast Result String" string expression.
 
+**Raycast From 3D Object**  
+Do a Raycast from the 3D Object. (Z axis direction)  
+You can get the count of 3D Objects in the result with the "Raycast Result Count" expression.
+The result can be accessed via the "Raycast Result Number" expression or the "Raycast Result String" string expression.
+
 **Remove 3D Object**  
 Remove a 3D Object from the 3D Scene.  
 This action cannot remove 3D Objects created by 3D Projection Behaviors.
 This action does not clear the loaded 3D Texture data and the loaded 3D Model data.
 They will continue to be accessible by ID.
-
-**Resolve Bounding Box Collision (Deprecated)**  
-Resolve collisions between Bounding Boxes.  
-It is not necessary to use the "Check Bounding Box Collision" condition beforehand. (It will do almost the same processing)
-Note that the 3D Objects are still in contact after resolution. ("Check Bounding Box Collision" condition will not be false.)
-3D Object thickness too thin for the amount of movement will not resolve correctly.
-This action updates the "Bounding Box Collision Result".
 
 **Resolve Bounding Box Collision**  
 Resolve collisions between Bounding Boxes.  
