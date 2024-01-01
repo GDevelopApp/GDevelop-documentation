@@ -3,9 +3,21 @@ title: Custom behaviors - create your own behaviors with events
 ---
 # Custom behaviors: create your own behaviors with events
 
-Behaviors are very useful to quickly add some pre-determined features to objects. They are easy to use and allow to add complex features to your objects without having to re-create everything with events, which can be cumbersome and would make the events sheet cluttered (even if [groups](/gdevelop5/events/group), [functions](/gdevelop5/events/functions) and [external events](/gdevelop5/interface/project-manager) can help).
+Similarly to scenes, custom behaviors are created with events. Every [behavior](/gdevelop5/behaviors) from [community extensions](/gdevelop5/extensions/) is a custom behavior and contains events that can be edited by anyone.
 
-In GDevelop, you can create your own **custom behaviors**. Like the usual, built-in behaviors, they can be attached to objects. They will then *interact with the object automatically*. They can **move the object**, change its **variables**, change the animations (for Sprite objects), change the text (for text objects) and more generally, do anything that you can usually do with events.
+!!! tip
+
+    If you've never made an extension before, please start by reading how [functions](/gdevelop5/events/functions) works as it's a key concept to understand custom behaviors.
+
+Behaviors events run at every frame like scene events do. The main difference is that behaviors are focused on the object they are attached too. Only the attached object can be utilized in the events that constitute the behavior's logic.
+
+While this might seem restrictive, it actually enables behaviors to be universally applicable across various projects, as they are not bound to any specific scene object.
+
+Behaviors sourced from community extensions are chosen for their versatility across multiple games. It's not necessarily what you should be aiming for, when creating a behavior for your game. Behaviors can be used as a way to organize events by:
+
+- Adding actions and conditions only to some objects (whereas a function alone would be shown for any objects),
+- Consolidating all logic related to a particular object in a single, cohesive location.
+- Clearly defining configuration details (through visible properties) and the object's state (via hidden properties), in contrast to variables (which are aways listed without such clear distinctions).
 
 !!! tip
 
@@ -13,62 +25,71 @@ In GDevelop, you can create your own **custom behaviors**. Like the usual, built
 
 ## Create a new behavior
 
-Behaviors are grouped into [extensions](/gdevelop5/extensions/). Extensions are composed of custom functions (actions, conditions or expressions), custom behaviors or custom objects ("prefabs") powered by events. You can see the list of all the extensions the game has in the [Project Manager](/gdevelop5/interface/project-manager), as well as add a new extension:
+Behaviors are grouped into [extensions](/gdevelop5/extensions). They are the same as [the extensions that can be installed](/gdevelop5/extensions/search). Extensions of a project are listed in the [Project Manager](/gdevelop5/interface/project-manager).
 
-![](pasted/20210906-234510.png)
+![](/gdevelop5/extensions/create/pasted/20230305-115305.png)
 
-Click on the **+** button at the bottom to create a new extension. You can right click on it to rename it. It's a good idea to have functions and behaviors related to the same thing in a single extension.
+Click on **Create or search for new extensions** at the bottom. Then, select **Create a new extension** to [create a new extension](/gdevelop5/extensions/create).
 
-Click on the extension in the list to open its editor. By default, there are no functions in the extensions. Add one by clicking on **Add a new behavior**, on the left:
+By default, extensions don't have any behavior. Add one by clicking on **Add a new behavior** on the left.
 
 ![](pasted/20210906-234614.png)
 
-The new behavior is added. You should rename it to give it a name according to what you want it to do. For example, if your behavior will be used to have an enemy move left and right on a platform, you can call it `HorizontalMovement` (only alphanumeric characters and underscores are allowed in names). If your behavior is automatically tracking damage and deletes objects that are too damaged, you could call it `Destructible`.
-
-You should also edit the configuration of the behavior by doing a right click on it and choosing "Properties". You can enter the description, the name displayed in the editor and specify if it should be restricted to some kind of objects:
+You can choose the description and the name to display to users when they will add your behavior to an object. If you need to use a specific object (sprites, texts...), you can choose it with the drop-down list at the bottom.
 
 ![](pasted/20210906-234834.png)
 
 Behaviors can also embed properties, which are number, strings or booleans that are stored inside the behavior. Check out the section below about how to add and use properties.
 
-### Add functions to your behavior
+## Add functions to your behavior
 
 Click on the behavior in the list to see the list of functions composing the behavior. It will appear on the right side panel.
 
 ![](pasted/20210906-235104.png)
 
-By default, a behavior is empty and **does nothing**. To add interactivity, you can add a new function (also called "method"). You'll be given the choice between some predefined functions, called *lifecycle methods*, or a custom function. Lifecycle methods will be called by the game engine automatically at some key moment during the game. Custom functions will be available as conditions, actions or expressions (like [usual functions outside behaviors](/gdevelop5/events/functions)).
+By default, a behavior is empty and does nothing. To add interactivity, you can add a new function. You'll be given the choice between some predefined functions, called *lifecycle methods*, or a custom function. Lifecycle methods will be called by the game engine automatically at some key moment during the game. Custom functions will be available to extension users as conditions, actions or expressions (like [usual functions outside behaviors](/gdevelop5/events/functions)).
 
 ![](pasted/20210906-235126.png)
 
-### Lifecycle methods
+### Run events at object creations
 
-Predefined lifecycle methods are as such:
+Events from the **onCreated** function are run when a new instance of an object with the behavior is created. It's the right place to setup the internal state of the behavior according to values set by the extension user.
 
-* **onCreated**: events inside the function will be run when **a new instance of an object** with the behavior is created.
-* **onStepPreEvents**: will be run every time a frame is rendering on the screen **before the "traditional" events** of the scene. Typically in most games, this is done 60 times per second. This is called for **every single object** having the behavior if the behavior is not deactivated.
-* **onDestroy**: events that will be run when an instance of the object having the behavior is **deleted** (if multiple objects are removed at the same time, events will be run for each object). This is done even if the behavior is deactivated.
-* **onDeActivate**: events that will be run once, after the behavior is deactivated on an object.
-* **onActivate**: events that will be run once, after the behavior is activated again on an object.
-* **onStepPostEvents**: events that will be run for every single object having the behavior, **after** the "traditional" events of the scene,  if the behavior is not deactivated. Typically in most games, this is done 60 times per second. As possible, we recommend to prefer onStepPreEvents, to run your logic before events and give the events in the scene a chance to react to changes that happen on the objects.
+### Run events every frame
 
-This is an example of some events inside onStepPreEvents in the case of behavior that automatically deletes objects that are too damaged:
+Events from the **onStepPreEvents** function are run every time a frame is rendering on the screen before the "traditional" events of the scene. Typically this is done 60 times per second. It's called for every single object having the behavior unless it's deactivated.
+
+The following `onStepPreEvents` function events automatically deletes objects that are too damaged:
 
 ![](pasted/20210906-235321.png)
 
-### Custom action, condition or expression
+### Add custom action, condition or expression
 
-If you choose to create a custom function for your behavior, you can then configure your function like a traditional function, by choosing if it's an action, condition or expression, entering a name, description and a sentence to be displayed in the events sheet.
+Behaviors and the scene events communicate through functions:
 
-For example, this creates a new action that can be used to add damage to the object:
+- Actions allow to change the state of the behavior and maybe initiate an effect over time in the `onStepPreEvents` function. For instance, a jump action changes the character state from standing to jumping and `onStepPreEvents` modify the character position on Y axis every frame.
+- Conditions let scene events know about behavior state changes. For instance, a condition can allow to check if a character is jumping.
+
+!!! tip
+
+    The [functions](/gdevelop5/events/functions) page explains the concepts around custom functions in more details.
+
+For example, this function defines an action that can be used to add damage to the object:
 
 ![](pasted/20210906-235538.png)
 
+### Run events at other lifecycle key times
 
+Even though, the lifecycle functions **onCreated** and **onStepPreEvents** are the most common, the following function can also be used:
+
+* **onDestroy**: events that will be run when an instance of the object having the behavior is deleted (if multiple objects are removed at the same time, events will be run for each object). This is done even if the behavior is deactivated.
+* **onDeActivate**: events that will be run once, after the behavior is deactivated on an object.
+* **onActivate**: events that will be run once, after the behavior is activated again on an object.
+* **onStepPostEvents**: events that will be run for every single object having the behavior, after the "traditional" events of the scene, if the behavior is not deactivated. Typically, this is done 60 times per second. It's recommend to prefer `onStepPreEvents`, to run your logic before events and give the events in the scene a chance to react to changes that happen on the objects.
 
 ## Use the behavior on an object
 
-### 1) Add the behavior to an object
+### 1. Add the behavior to an object
 
 Once your behavior is created, you can start attaching it to objects. The best part about this is that your event based behavior will be listed like any other "[built-in behavior](/gdevelop5/behaviors)" that is bundled with GDevelop.
 
@@ -86,7 +107,7 @@ To test this, we've added the "Destructible" behavior to object "Platform". Then
 
 ![](/gdevelop5/behaviors/example-test-destructible-behavior-debugger.png)
 
-### 2) Use actions/conditions/expressions
+### 2. Use actions, conditions and expressions
 
 Like any other "built-in behavior", you can also use actions/conditions (or expressions) if you have declared functions as such in the behavior. For example, in the "Destructible" behavior, we created an action to cause some damage to the object. We can find it and use it in the events sheet:
 
@@ -99,21 +120,25 @@ As you can see, this allows creating very expressive and easy-to-read events. Yo
 
 ## Add and use properties in a behavior
 
-What is interesting with behaviors is that they can hold information inside of them, much like variables of an object. These information are called properties. They can be a number, a string (text) or a boolean (which is like a virtual checkbox, either checked or unchecked).
+Properties are similar to objects variables but they can only be used from the behavior events. If you've ever added a behavior to an object, you may have noticed a list of fields to setup the behavior. These are properties initial values.
 
 You can use these properties to make your behavior customizable (for example, you can have the speed, an amount of damage, the life points, the power points, the mana, etc... as properties of your behavior - depending on what your behavior is doing).
 
-To show and add properties to your behavior, edit it and click on the "Properties" tab. In this example, you can see a behavior called "Health", that has properties to store the health of the object and the minimum time between two hits on the object:
+!!! note
+
+    Properties can be hidden if you don't wish to let extension users choose the initial value.
+
+To show and add properties to your behavior, edit it and click on the "Properties" tab. In this example, you can see a behavior called "Health" that has properties to store the health of the object and the minimum time between two hits on the object:
 
 ![](pasted/20210907-001003.png)
 
 Properties can be:
 
-* Number, string (including a color or a choice from a list of options) or booleans (will be displayed as a checkbox).
-* They can also be another required behavior - in which case the behavior you're editing will ensure the other specified behavior is present on objects using it. There is a dedicated section later on this page about this.
-* They have a default value, that will be used if the value is not changed when adding the behavior to an object.
-* They can be visible in the editor, when added to an object, or invisible.
-* Finally, they have a label that will be displayed in the editor.
+* Numbers
+* Strings (including colors or string with choices)
+* Booleans (displayed as a checkbox)
+
+Properties can also be used to required behaviors as described in a following section.
 
 ### Use actions and conditions to manipulate the properties
 
@@ -124,9 +149,8 @@ Strings and numbers will also have an expression to get their values.
 
     If you rename your properties, the actions/conditions/expressions will be updated automatically.
 
-!!! tip
+These actions/conditions/expressions won't be usable from outside of the behavior. Properties are said to be "private", they can only be manipulated by the behavior. If you want to let extension user modifying them from the scene events, you can generate an action and a condition from the drop-down menu of the property.
 
-    These actions/conditions/expressions won't be usable from outside of the behavior. Properties are said to be "private", they can only be manipulated by the behavior. If you want to have them modified by the scene events, create new actions/conditions for this in your behavior.
 ## Behaviors using other behaviors as properties
 
 It is possible for behaviors to use other "required behaviors" as properties. When this is the case, GDevelop will ensure that any object using your behavior will also use the other one.
