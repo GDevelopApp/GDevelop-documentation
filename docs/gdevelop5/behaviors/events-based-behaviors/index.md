@@ -3,21 +3,21 @@ title: Custom behaviors - create your own behaviors with events
 ---
 # Custom behaviors: create your own behaviors with events
 
-Similarly to scenes, custom behaviors are written with events. Every [behavior](/gdevelop5/behaviors) from [community extensions](/gdevelop5/extensions/) are custom behaviors and contains events that can be edited by anyone.
+Similarly to scenes, custom behaviors are created with events. Every [behavior](/gdevelop5/behaviors) from [community extensions](/gdevelop5/extensions/) is a custom behavior and contains events that can be edited by anyone.
 
 !!! tip
 
     If you've never made an extension before, please start by reading how [functions](/gdevelop5/events/functions) works as it's a key concept to understand custom behaviors.
 
-Behaviors events run at every frame like scene events do. The main difference is that behaviors focuses on the object they are attached too. Only this object can be used in the events that build up the logic of a behavior.
+Behaviors events run at every frame like scene events do. The main difference is that behaviors are focused on the object they are attached too. Only the attached object can be utilized in the events that constitute the behavior's logic.
 
-What may sound like a limitation is actually allowing behaviors to be used in any project as they are not tie to any scene object.
+While this might seem restrictive, it actually enables behaviors to be universally applicable across various projects, as they are not bound to any specific scene object.
 
-Behaviors from community extensions are selected for their ability to be useful in many games. It's not necessarily what you should be aiming for. Behaviors can be used as a way to organize events by:
+Behaviors sourced from community extensions are chosen for their versatility across multiple games. It's not necessarily what you should be aiming for, when creating a behavior for your game. Behaviors can be used as a way to organize events by:
 
-- adding actions and conditions only to some objects whereas a function alone would be shown for any objects
-- grouping all the logic about an object in one place
-- clearly defining values about the configuration (visible properties) or the object state (hidden properties) whereas variables are all listed together
+- Adding actions and conditions only to some objects (whereas a function alone would be shown for any objects),
+- Consolidating all logic related to a particular object in a single, cohesive location.
+- Clearly defining configuration details (through visible properties) and the object's state (via hidden properties), in contrast to variables (which are aways listed without such clear distinctions).
 
 !!! tip
 
