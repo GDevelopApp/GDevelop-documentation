@@ -9,15 +9,15 @@ Similarly to scenes, custom behaviors are created with events. Every [behavior](
 
     If you've never made an extension before, please start by reading how [functions](/gdevelop5/events/functions) works as it's a key concept to understand custom behaviors.
 
-Behaviors events run at every frame like scene events do. The main difference is that behaviors are focused on the object they are attached too. Only the attached object can be utilized in the events that constitute the behavior's logic.
+Behaviors events run at every frame like scene events do. The main difference is that behaviors are focused on the object they are attached too. Only the attached object can be used in the events that constitute the behavior's logic.
 
-While this might seem restrictive, it actually enables behaviors to be universally applicable across various projects, as they are not bound to any specific scene object.
+While this might seem restrictive, it actually enables behaviors to be used across various projects, as they are not bound to any specific scene object.
 
-Behaviors sourced from community extensions are chosen for their versatility across multiple games. It's not necessarily what you should be aiming for, when creating a behavior for your game. Behaviors can be used as a way to organize events by:
+Behaviors from community extensions are chosen for their ability to be useful in many games. It's not necessarily what you should be aiming for, when creating a behavior for your game. Behaviors can be used as a way to organize events by:
 
 - Adding actions and conditions only to some objects (whereas a function alone would be shown for any objects),
-- Consolidating all logic related to a particular object in a single, cohesive location.
-- Clearly defining configuration details (through visible properties) and the object's state (via hidden properties), in contrast to variables (which are aways listed without such clear distinctions).
+- Gathering all logic related to a particular object in a single location.
+- Clearly defining configuration details (through visible properties) and the object state (via hidden properties), in contrast to variables (which are listed without such clear distinction).
 
 !!! tip
 
