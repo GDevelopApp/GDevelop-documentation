@@ -74,6 +74,12 @@ Smoothly animate position, angle, scale and other properties of objects.
 
 ### Behavior actions
 
+**Tween object depth**  
+Tweens an object depth (suitable 3D objects only) from its current depth to a new one.
+
+**Tween object Z position**  
+Tweens an object Z position (3D objects only) from its current Z position to a new one.
+
 **Pause a tween**  
 Pause the running tween animation.
 
@@ -116,8 +122,14 @@ Tweens an object X position from its current X position to a new one.
 **Tween object Y position**  
 Tweens an object Y position from its current Y position to a new one.
 
+**Tween object rotation on X axis**  
+Tweens an object rotation on X axis from its current angle to a new one.
+
+**Tween object rotation on Y axis**  
+Tweens an object rotation on Y axis from its current angle to a new one.
+
 **Tween object scale**  
-Tweens an object scale from its current scale to a new one (note: the scale can never be 0 or less).
+Tweens an object scale from its current value to a new one (note: the scale can never be 0 or less).
 
 **Tween object X-scale**  
 Tweens an object X-scale from its current value to a new one (note: the scale can never be 0 or less).
