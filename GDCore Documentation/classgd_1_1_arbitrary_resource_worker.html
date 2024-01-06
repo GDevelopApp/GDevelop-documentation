@@ -70,6 +70,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classgd_1_1_arbitrary_resource_worker-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">gd::ArbitraryResourceWorker Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group___i_d_e.html">IDE Classes (Classes to be used to implement a development environment)</a></div></div>  </div>
@@ -81,7 +82,7 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="_arbitrary_resource_worker_8h_source.html">ArbitraryResourceWorker.h</a>&gt;</code></p>
 
-<p>Inherited by <a class="el" href="classgd_1_1_resource_name_matcher.html">gd::ResourceNameMatcher</a>, <a class="el" href="classgd_1_1_resources_absolute_path_checker.html">gd::ResourcesAbsolutePathChecker</a>, <a class="el" href="classgd_1_1_resources_in_use_helper.html">gd::ResourcesInUseHelper</a>, <a class="el" href="classgd_1_1_resources_merging_helper.html">gd::ResourcesMergingHelper</a>, <a class="el" href="classgd_1_1_resources_renamer.html">gd::ResourcesRenamer</a>, and <a class="el" href="classgd_1_1_scene_resources_finder.html">gd::SceneResourcesFinder</a><code> [private]</code>.</p>
+<p>Inherited by <a class="el" href="classgd_1_1_asset_resource_path_cleaner.html">gd::AssetResourcePathCleaner</a>, <a class="el" href="classgd_1_1_resource_name_matcher.html">gd::ResourceNameMatcher</a>, <a class="el" href="classgd_1_1_resources_absolute_path_checker.html">gd::ResourcesAbsolutePathChecker</a>, <a class="el" href="classgd_1_1_resources_in_use_helper.html">gd::ResourcesInUseHelper</a>, <a class="el" href="classgd_1_1_resources_merging_helper.html">gd::ResourcesMergingHelper</a>, <a class="el" href="classgd_1_1_resources_renamer.html">gd::ResourcesRenamer</a>, and <a class="el" href="classgd_1_1_scene_resources_finder.html">gd::SceneResourcesFinder</a><code> [private]</code>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -143,6 +144,12 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_arbitrary_resource_worker.html#ace132f02351131013204a43885e06cea">ExposeEmbeddeds</a> (<a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;resourceName)</td></tr>
 <tr class="memdesc:ace132f02351131013204a43885e06cea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose the embedded resources of the specified resource. <br /></td></tr>
 <tr class="separator:ace132f02351131013204a43885e06cea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:af5944c14443fd92d43d70b7c1424cf69"><td class="memItemLeft" align="right" valign="top"><a id="af5944c14443fd92d43d70b7c1424cf69"></a>
+<a class="el" href="classgd_1_1_resources_manager.html">gd::ResourcesManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>resourcesManager</b></td></tr>
+<tr class="separator:af5944c14443fd92d43d70b7c1424cf69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classgd_1_1_arbitrary_resource_worker.html" title="ArbitraryResourceWorker is used so as to inventory resources and sometimes update them.">ArbitraryResourceWorker</a> is used so as to inventory resources and sometimes update them. </p>

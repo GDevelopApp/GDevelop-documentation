@@ -71,6 +71,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="classgd_1_1_resources_in_use_helper-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">gd::ResourcesInUseHelper Class Reference<div class="ingroups"><a class="el" href="group___i_d_e.html">IDE Classes (Classes to be used to implement a development environment)</a></div></div>  </div>
@@ -89,6 +90,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afded505de2c572b691343cdc7f97b566"><td class="memItemLeft" align="right" valign="top"><a id="afded505de2c572b691343cdc7f97b566"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>ResourcesInUseHelper</b> (<a class="el" href="classgd_1_1_resources_manager.html">gd::ResourcesManager</a> &amp;resourcesManager)</td></tr>
 <tr class="separator:afded505de2c572b691343cdc7f97b566"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49613ec23decb7636fc15e0c08e10146"><td class="memItemLeft" align="right" valign="top"><a id="a49613ec23decb7636fc15e0c08e10146"></a>
+const std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetAllResources</b> ()</td></tr>
+<tr class="separator:a49613ec23decb7636fc15e0c08e10146"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a709471ae24ba267c969bde166cc2a2a8"><td class="memItemLeft" align="right" valign="top"><a id="a709471ae24ba267c969bde166cc2a2a8"></a>
 std::set&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetAllImages</b> ()</td></tr>
 <tr class="separator:a709471ae24ba267c969bde166cc2a2a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -123,38 +127,38 @@ std::set&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &a
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resources_in_use_helper.html#a0f704af18ea500372b689bc325415f5c">ExposeFile</a> (<a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;resource) override</td></tr>
 <tr class="memdesc:a0f704af18ea500372b689bc325415f5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose a raw filename. <br /></td></tr>
 <tr class="separator:a0f704af18ea500372b689bc325415f5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05c87b10ddeec48acdd3fef22d1a4496"><td class="memItemLeft" align="right" valign="top"><a id="a05c87b10ddeec48acdd3fef22d1a4496"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resources_in_use_helper.html#a05c87b10ddeec48acdd3fef22d1a4496">ExposeImage</a> (<a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;imageResourceName) override</td></tr>
-<tr class="memdesc:a05c87b10ddeec48acdd3fef22d1a4496"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose an image, which is always a reference to a "image" resource. <br /></td></tr>
-<tr class="separator:a05c87b10ddeec48acdd3fef22d1a4496"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7545e51c72101ab9cd11c23fae7eeb3e"><td class="memItemLeft" align="right" valign="top"><a id="a7545e51c72101ab9cd11c23fae7eeb3e"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resources_in_use_helper.html#a7545e51c72101ab9cd11c23fae7eeb3e">ExposeAudio</a> (<a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;audioResourceName) override</td></tr>
-<tr class="memdesc:a7545e51c72101ab9cd11c23fae7eeb3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose an audio, which is either a reference to an "audio" resource, or a filename if no resource with this name exists (for backward compatibility). <br /></td></tr>
-<tr class="separator:a7545e51c72101ab9cd11c23fae7eeb3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a135b16964c3e69daef40c9ce8e1c1570"><td class="memItemLeft" align="right" valign="top"><a id="a135b16964c3e69daef40c9ce8e1c1570"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resources_in_use_helper.html#a135b16964c3e69daef40c9ce8e1c1570">ExposeFont</a> (<a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;fontResourceName) override</td></tr>
-<tr class="memdesc:a135b16964c3e69daef40c9ce8e1c1570"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose a font, which is either a reference to a "font" resource, or a filename if no resource with this name exists (for backward compatibility). <br /></td></tr>
-<tr class="separator:a135b16964c3e69daef40c9ce8e1c1570"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa788ab25ac432297ba7cb139ab53abf7"><td class="memItemLeft" align="right" valign="top"><a id="aa788ab25ac432297ba7cb139ab53abf7"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resources_in_use_helper.html#aa788ab25ac432297ba7cb139ab53abf7">ExposeJson</a> (<a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;jsonResourceName) override</td></tr>
-<tr class="memdesc:aa788ab25ac432297ba7cb139ab53abf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose a JSON, which is always a reference to a "json" resource. <br /></td></tr>
-<tr class="separator:aa788ab25ac432297ba7cb139ab53abf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e06d08f755abf46124e4f5d9d2553a8"><td class="memItemLeft" align="right" valign="top"><a id="a3e06d08f755abf46124e4f5d9d2553a8"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resources_in_use_helper.html#a3e06d08f755abf46124e4f5d9d2553a8">ExposeTilemap</a> (<a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;tilemapResourceName) override</td></tr>
-<tr class="memdesc:a3e06d08f755abf46124e4f5d9d2553a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose a Tilemap, which is always a reference to a "tilemap" resource. <br /></td></tr>
-<tr class="separator:a3e06d08f755abf46124e4f5d9d2553a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afadea67f16bdb0999ec364662a3d3fca"><td class="memItemLeft" align="right" valign="top"><a id="afadea67f16bdb0999ec364662a3d3fca"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resources_in_use_helper.html#afadea67f16bdb0999ec364662a3d3fca">ExposeTileset</a> (<a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;tilesetResourceName) override</td></tr>
-<tr class="memdesc:afadea67f16bdb0999ec364662a3d3fca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose a Tileset, which is always a reference to a "tileset" resource. <br /></td></tr>
-<tr class="separator:afadea67f16bdb0999ec364662a3d3fca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9378968775b25daae938512dfc166a08"><td class="memItemLeft" align="right" valign="top"><a id="a9378968775b25daae938512dfc166a08"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resources_in_use_helper.html#a9378968775b25daae938512dfc166a08">ExposeVideo</a> (<a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;videoResourceName) override</td></tr>
-<tr class="memdesc:a9378968775b25daae938512dfc166a08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose a video, which is always a reference to a "video" resource. <br /></td></tr>
-<tr class="separator:a9378968775b25daae938512dfc166a08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8da7c18da72beba6e19c20a55670fe6"><td class="memItemLeft" align="right" valign="top"><a id="ad8da7c18da72beba6e19c20a55670fe6"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resources_in_use_helper.html#ad8da7c18da72beba6e19c20a55670fe6">ExposeBitmapFont</a> (<a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;bitmapFontResourceName) override</td></tr>
-<tr class="memdesc:ad8da7c18da72beba6e19c20a55670fe6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose a bitmap font, which is always a reference to a "bitmapFont" resource. <br /></td></tr>
-<tr class="separator:ad8da7c18da72beba6e19c20a55670fe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae48371731ca75bbed6ea29573224a6c9"><td class="memItemLeft" align="right" valign="top"><a id="ae48371731ca75bbed6ea29573224a6c9"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resources_in_use_helper.html#ae48371731ca75bbed6ea29573224a6c9">ExposeImage</a> (<a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;resourceName) override</td></tr>
+<tr class="memdesc:ae48371731ca75bbed6ea29573224a6c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose an image, which is always a reference to a "image" resource. <br /></td></tr>
+<tr class="separator:ae48371731ca75bbed6ea29573224a6c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5cc9b10f18e57e2d938322c29dc6472"><td class="memItemLeft" align="right" valign="top"><a id="ad5cc9b10f18e57e2d938322c29dc6472"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resources_in_use_helper.html#ad5cc9b10f18e57e2d938322c29dc6472">ExposeAudio</a> (<a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;resourceName) override</td></tr>
+<tr class="memdesc:ad5cc9b10f18e57e2d938322c29dc6472"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose an audio, which is either a reference to an "audio" resource, or a filename if no resource with this name exists (for backward compatibility). <br /></td></tr>
+<tr class="separator:ad5cc9b10f18e57e2d938322c29dc6472"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab52dcd11940adf9a01c21a738d2c1ad6"><td class="memItemLeft" align="right" valign="top"><a id="ab52dcd11940adf9a01c21a738d2c1ad6"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resources_in_use_helper.html#ab52dcd11940adf9a01c21a738d2c1ad6">ExposeFont</a> (<a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;resourceName) override</td></tr>
+<tr class="memdesc:ab52dcd11940adf9a01c21a738d2c1ad6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose a font, which is either a reference to a "font" resource, or a filename if no resource with this name exists (for backward compatibility). <br /></td></tr>
+<tr class="separator:ab52dcd11940adf9a01c21a738d2c1ad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8152b36802e04b0afed26b302c432ea2"><td class="memItemLeft" align="right" valign="top"><a id="a8152b36802e04b0afed26b302c432ea2"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resources_in_use_helper.html#a8152b36802e04b0afed26b302c432ea2">ExposeJson</a> (<a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;resourceName) override</td></tr>
+<tr class="memdesc:a8152b36802e04b0afed26b302c432ea2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose a JSON, which is always a reference to a "json" resource. <br /></td></tr>
+<tr class="separator:a8152b36802e04b0afed26b302c432ea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d5d9bcee8bc26042d934646f99b4c04"><td class="memItemLeft" align="right" valign="top"><a id="a8d5d9bcee8bc26042d934646f99b4c04"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resources_in_use_helper.html#a8d5d9bcee8bc26042d934646f99b4c04">ExposeTilemap</a> (<a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;resourceName) override</td></tr>
+<tr class="memdesc:a8d5d9bcee8bc26042d934646f99b4c04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose a Tilemap, which is always a reference to a "tilemap" resource. <br /></td></tr>
+<tr class="separator:a8d5d9bcee8bc26042d934646f99b4c04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a503f21fe57656338268e8431ccec2992"><td class="memItemLeft" align="right" valign="top"><a id="a503f21fe57656338268e8431ccec2992"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resources_in_use_helper.html#a503f21fe57656338268e8431ccec2992">ExposeTileset</a> (<a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;resourceName) override</td></tr>
+<tr class="memdesc:a503f21fe57656338268e8431ccec2992"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose a Tileset, which is always a reference to a "tileset" resource. <br /></td></tr>
+<tr class="separator:a503f21fe57656338268e8431ccec2992"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13238a4ebd4d533244163487e606bf3e"><td class="memItemLeft" align="right" valign="top"><a id="a13238a4ebd4d533244163487e606bf3e"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resources_in_use_helper.html#a13238a4ebd4d533244163487e606bf3e">ExposeVideo</a> (<a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;resourceName) override</td></tr>
+<tr class="memdesc:a13238a4ebd4d533244163487e606bf3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose a video, which is always a reference to a "video" resource. <br /></td></tr>
+<tr class="separator:a13238a4ebd4d533244163487e606bf3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8551b71d8ed8e72fac756c99dac900f1"><td class="memItemLeft" align="right" valign="top"><a id="a8551b71d8ed8e72fac756c99dac900f1"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resources_in_use_helper.html#a8551b71d8ed8e72fac756c99dac900f1">ExposeBitmapFont</a> (<a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;resourceName) override</td></tr>
+<tr class="memdesc:a8551b71d8ed8e72fac756c99dac900f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose a bitmap font, which is always a reference to a "bitmapFont" resource. <br /></td></tr>
+<tr class="separator:a8551b71d8ed8e72fac756c99dac900f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa95d352f2080437c5024ea86563cf3c4"><td class="memItemLeft" align="right" valign="top"><a id="aa95d352f2080437c5024ea86563cf3c4"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resources_in_use_helper.html#aa95d352f2080437c5024ea86563cf3c4">ExposeModel3D</a> (<a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;resourceName) override</td></tr>
 <tr class="memdesc:aa95d352f2080437c5024ea86563cf3c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expose a 3D model, which is always a reference to a "model3D" resource. <br /></td></tr>
@@ -181,6 +185,9 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
+<tr class="memitem:a470981f5e65b9b44d39d2d0cbc5decc1"><td class="memItemLeft" align="right" valign="top"><a id="a470981f5e65b9b44d39d2d0cbc5decc1"></a>
+std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>allResources</b></td></tr>
+<tr class="separator:a470981f5e65b9b44d39d2d0cbc5decc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f00ecd4b47566a160d693eda06d7c9d"><td class="memItemLeft" align="right" valign="top"><a id="a4f00ecd4b47566a160d693eda06d7c9d"></a>
 std::set&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>allImages</b></td></tr>
 <tr class="separator:a4f00ecd4b47566a160d693eda06d7c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -211,6 +218,15 @@ std::set&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt;&#1
 <tr class="memitem:ad30b1e6bcac731238580c89073488465"><td class="memItemLeft" align="right" valign="top"><a id="ad30b1e6bcac731238580c89073488465"></a>
 std::set&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>emptyResources</b></td></tr>
 <tr class="separator:ad30b1e6bcac731238580c89073488465"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classgd_1_1_arbitrary_resource_worker"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classgd_1_1_arbitrary_resource_worker')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classgd_1_1_arbitrary_resource_worker.html">gd::ArbitraryResourceWorker</a></td></tr>
+<tr class="memitem:af5944c14443fd92d43d70b7c1424cf69 inherit pro_attribs_classgd_1_1_arbitrary_resource_worker"><td class="memItemLeft" align="right" valign="top"><a id="af5944c14443fd92d43d70b7c1424cf69"></a>
+<a class="el" href="classgd_1_1_resources_manager.html">gd::ResourcesManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>resourcesManager</b></td></tr>
+<tr class="separator:af5944c14443fd92d43d70b7c1424cf69 inherit pro_attribs_classgd_1_1_arbitrary_resource_worker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
+<tr class="memitem:ae4a8f7fb5c8304fff1b1b2dd3dc6abcf"><td class="memItemLeft" align="right" valign="top">static const std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>resourceTypes</b></td></tr>
+<tr class="separator:ae4a8f7fb5c8304fff1b1b2dd3dc6abcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class used to track all resources used by a game, or a part of it (like a <a class="el" href="classgd_1_1_object.html" title="Represent an object of a platform.">gd::Object</a>). </p>
@@ -220,9 +236,36 @@ std::set&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt;&#1
 <div class="line"><span class="comment">//Get a set with the name of all images in the project:</span></div>
 <div class="line">std::set&lt;gd::String&gt; &amp; usedImages = resourcesInUse.GetAllImages();</div>
 <div class="ttc" id="aclassgd_1_1_resource_exposer_html_a7a60d31791d8daca09c2334b71dc2794"><div class="ttname"><a href="classgd_1_1_resource_exposer.html#a7a60d31791d8daca09c2334b71dc2794">gd::ResourceExposer::ExposeWholeProjectResources</a></div><div class="ttdeci">static void ExposeWholeProjectResources(gd::Project &amp;project, gd::ArbitraryResourceWorker &amp;worker)</div><div class="ttdoc">Called ( e.g. during compilation ) so as to inventory internal resources, sometimes update their file...</div><div class="ttdef"><b>Definition:</b> ResourceExposer.cpp:31</div></div>
-<div class="ttc" id="aclassgd_1_1_resources_in_use_helper_html"><div class="ttname"><a href="classgd_1_1_resources_in_use_helper.html">gd::ResourcesInUseHelper</a></div><div class="ttdoc">Class used to track all resources used by a game, or a part of it (like a gd::Object).</div><div class="ttdef"><b>Definition:</b> ResourcesInUseHelper.h:35</div></div>
-</div><!-- fragment --> </div><hr/>The documentation for this class was generated from the following file:<ul>
+<div class="ttc" id="aclassgd_1_1_resources_in_use_helper_html"><div class="ttname"><a href="classgd_1_1_resources_in_use_helper.html">gd::ResourcesInUseHelper</a></div><div class="ttdoc">Class used to track all resources used by a game, or a part of it (like a gd::Object).</div><div class="ttdef"><b>Definition:</b> ResourcesInUseHelper.h:33</div></div>
+</div><!-- fragment --> </div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="ae4a8f7fb5c8304fff1b1b2dd3dc6abcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4a8f7fb5c8304fff1b1b2dd3dc6abcf">&#9670;&nbsp;</a></span>resourceTypes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; gd::ResourcesInUseHelper::resourceTypes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    <span class="stringliteral">&quot;image&quot;</span>,   <span class="stringliteral">&quot;audio&quot;</span>, <span class="stringliteral">&quot;font&quot;</span>,       <span class="stringliteral">&quot;json&quot;</span>,   <span class="stringliteral">&quot;tilemap&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;tileset&quot;</span>, <span class="stringliteral">&quot;video&quot;</span>, <span class="stringliteral">&quot;bitmapFont&quot;</span>, <span class="stringliteral">&quot;model3D&quot;</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="_resources_in_use_helper_8h_source.html">ResourcesInUseHelper.h</a></li>
+<li>ResourcesInUseHelper.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
