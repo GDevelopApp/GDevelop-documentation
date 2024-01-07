@@ -66,6 +66,7 @@ runtimeScene._myNewExtension = runtimeScene._myNewExtension || {
 ```
 
 These 2 extensions instantiate a state on scenes:
+
 * The [Noise generator](/gdevelop5/extensions/noise/) instantiate a manager that give generators from their names.
 * The [Curved movement](/gdevelop5/extensions/curved-movement/details/) also instantiate a manager for curves.
 
@@ -80,6 +81,7 @@ behavior._myNewExtension = behavior._myNewExtension || {
 ```
 
 These 2 extensions instantiate a state on behaviors:
+
 * The [Boids movement](/gdevelop5/extensions/boids-movement/) use a state to keep track of Boids speed.
 * The [Object stack](/gdevelop5/extensions/object-stack/) use a state to keep track of the object in the stack.
 
@@ -122,6 +124,7 @@ runtimeScene._myNewExtension.myAttribute.doSomething(myParameter);
 ```
 
 These 2 extensions call functions on a state they created on scenes:
+
 * The [Noise generator](/gdevelop5/extensions/noise/)
 * The [Curved movement](/gdevelop5/extensions/curved-movement/details/)
 
@@ -132,6 +135,7 @@ behavior._myNewExtension.myAttribute.doSomething(myParameter);
 ```
 
 These 2 extensions call functions on a state they created on behaviors:
+
 * The [Boids movement](/gdevelop5/extensions/boids-movement/)
 * The [Object stack](/gdevelop5/extensions/object-stack/)
 
@@ -181,15 +185,17 @@ Setters also exist, but you should not need them. Behaviors may have event funct
 
 ## Use the power of both events and JavaScript
 
-Although GDevelop engine features can be used in JavaScript (learn more about it in the [JavaScript events](/gdevelop5/events/js-code/) page). It is easier to use with events for this.
+Although GDevelop engine features can be used in JavaScript (learn more about it in the [JavaScript events](/gdevelop5/events/js-code/) page). It is easier to use events for this.
 
 Both JavasScript and events can be used in the same extension:
-- Events allow to easily use GDevelop engine features
-- JavaScript should be only used for code independent from GDeveop
+
+* Events allow to easily use GDevelop engine features
+* JavaScript should be only used for code independent from GDevelop
 
 JavaScript and events should only communicate through actions, conditions and expressions. JavaScript code should avoid at all cost to use event variables directly because it will likely result to spaghetti code. Variables can still be passed as events function parameter in case the extension need to exchange a structure or an array with the events.
 
 These 2 extensions use a JavaScript library but also use some of GDevelop engine features with events:
+
 * The [3D object shake](/gdevelop5/extensions/shake-object3d/) extension uses a noise library and implement with events a behavior that makes 3D objects shake.
 * The [Curved movement](/gdevelop5/extensions/curved-movement/details/) extension evaluates Bézier curves using JavaScript and handles movement logics with events.
 
