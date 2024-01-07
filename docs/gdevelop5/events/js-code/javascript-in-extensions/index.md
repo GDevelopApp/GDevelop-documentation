@@ -10,16 +10,101 @@ Add a function for an action to declare the library
 Assign it to gdjs
 Call the action at 1st scene and at object creation
 
+
+```javascript
+// Avoid to declare the library several times.
+if (gdjs._myNewExtension) {
+  return;
+}
+
+class MyPrivateClass {
+  // Some code here.
+}
+
+class MyPublicClass {
+  // Some code here.
+}
+
+// Add all public classes to `gdjs` namespace.
+gdjs._myNewExtension = {
+  MyPublicClass,
+};
+```
+
+!!! warning
+
+    Make sure never to use the `runtimeScene` given by the JS event when declaring a library because it is the scene at the declaration which is unlikely to be the same one when the code is called. Instead pass the caller `runtimeScene` as parameter.
+
 ## Wrap JavaScript libraries in events functions
 
-Get parameter values
-Return a value
+### Get parameter values in JavaScript
+
+```javascript
+const angle = eventsFunctionContext.getArgument("Angle");
+```
+
+
+```javascript
+const players = eventsFunctionContext.getObjects("Player");
+
+for (const player of players) {
+
+}
+```
+
+### Call a library from an event-function
+
+```javascript
+gdjs._myNewExtension.doSomething();
+```
+
+### Return an expression value in JavaScript
+
+```javascript
+eventsFunctionContext.returnValue = gdjs._myNewExtension.getSomeValue();
+```
+
+### Return a condition value in JavaScript
+
+```javascript
+gdjs._myNewExtension.isSomethingRight();
+```
+
+## Wrap JavaScript libraries in events-based behaviors
+
 When to use a behavior
-Get an object behavior
-Get a property value
+
+### Get an object behavior in Javascript
+
+```javascript
+const object = objects[0];
+const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
+const behavior = object.getBehavior(behaviorName);
+```
+
+### Get behavior property values in Javascript
+
+```javascript
+const myPropertyValue = behavior._getMyProperty();
+```
+
 Declare expressions rather than setting properties from JavaScript
 
-Add a state on a scene or on object
+### Instantiate a state on a scene
+
+```javascript
+runtimeScene._myNewExtension = runtimeScene._myNewExtension || {
+    myAttribute: new gdjs._myNewExtension.MyPublicClass(),
+};
+```
+
+### Instantiate a state on an object
+
+```javascript
+behavior._myNewExtension = behavior._myNewExtension || {
+    myAttribute: new gdjs._myNewExtension.MyPublicClass(),
+};
+```
 
 ## Use the power of both events and JavaScript
 
