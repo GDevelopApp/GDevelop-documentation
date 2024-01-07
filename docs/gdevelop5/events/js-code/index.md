@@ -23,9 +23,9 @@ This array is exactly like what an action or a condition would use. For example,
 
 ![](javascript-code-with-objects-example.png)
 
-!!! tip
+!!! danger
 
-    The recommended way of using JavaScript events is to implement new actions, conditions or behavior thanks to extensions. They can be reuse from project to project and shared with the community. Learn more about this in the [extension page](/gdevelop5/extensions/create/).
+    The recommended way of using JavaScript events is to implement new actions, conditions or behavior thanks to extensions. They can be reuse from project to project and shared with the community. Learn more about this in the page about how to [use JavaScript in extensions](/gdevelop5/events/js-code/javascript-in-extensions/).
 
 ## Examples
 
