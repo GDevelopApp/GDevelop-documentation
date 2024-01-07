@@ -41,12 +41,17 @@ gdjs._myNewExtension = {
   MyPublicClass,
 };
 ```
-
-This action must be called before the 1st scene is loaded in the **onFirstSceneLoaded** events function. When behaviors use the library, it must also be called at the object creation in **onCreated** because instances in the scene editor are created before **onFirstSceneLoaded** is called.
-
 !!! warning
 
     Make sure never to use the `runtimeScene` given by the JS event when declaring a library because it is the scene at the declaration which is unlikely to be the same one when the code is called. Instead pass the caller `runtimeScene` as parameter.
+
+![](library-declaration-events.png)
+
+This action must be called before the 1st scene is loaded in the **onFirstSceneLoaded** events function. When behaviors use the library, it must also be called at the object creation in **onCreated** because instances in the scene editor are created before **onFirstSceneLoaded** is called.
+
+
+![](oncreate-events.png)
+
 
 ## Instantiate a state
 
@@ -87,6 +92,8 @@ Number, string and boolean parameters can be accessed with `getArgument`. Parame
 ```javascript
 const angle = eventsFunctionContext.getArgument("Angle");
 ```
+
+![](wrap-function.png)
 
 For object parameter, `getObjects` must be used. It gives an `Array` of `RuntimeObject`.
 
@@ -159,6 +166,8 @@ const object = objects[0];
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
 const behavior = object.getBehavior(behaviorName);
 ```
+
+![](wrap-behavior.png)
 
 ### Get behavior property values in Javascript
 
