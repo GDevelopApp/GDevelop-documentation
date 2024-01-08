@@ -23,9 +23,11 @@ This array is exactly like what an action or a condition would use. For example,
 
 ![](javascript-code-with-objects-example.png)
 
-!!! tip
+## Use JavaScript inside a GDevelop extension
 
-    The recommended way of using JavaScript events is to implement new actions, conditions or behavior thanks to extensions. They can be reuse from project to project and shared with the community. Learn more about this in the [extension page](/gdevelop5/extensions/create/).
+!!! danger
+
+    The recommended way of using JavaScript events is to implement new actions, conditions or behavior thanks to extensions. They can be reused from project to project and shared with the community. Learn more about this in the page about how to [use JavaScript in extensions](/gdevelop5/events/js-code/javascript-in-extensions/).
 
 ## Examples
 
@@ -208,15 +210,3 @@ const angle = eventsFunctionContext.getArgument("Angle");
 ```
 
 The same code can be used to access **string**, **number** or **boolean** parameters.
-
-### Learn by reading code from the community
-
-Extensions can be implemented with events and JavaScript or a mix of both. Looking at existing extensions can help a lot to understand the API or how the extension system works.
-
-This is a few instances of extensions that use JavaScript:
-
-* The [Noise generator](/gdevelop5/extensions/noise/) extension uses a noise library and exposes its features through expressions, action and conditions.
-* The [3D object shake](/gdevelop5/extensions/shake-object3d/) extension uses the same noise library from the above extension but exposes a behavior that makes 3D objects shake.
-* The [Boids movement](/gdevelop5/extensions/boids-movement/) extension exposes a behavior to users and uses a R-Tree internally to quickly check neighbors.
-* The [Object stack](/gdevelop5/extensions/object-stack/) extension exposes conditions that pick object instances according to their position in a stack.
-* The [Clipboard](/gdevelop5/extensions/clipboard/) extension uses an asynchronous web API and implements fallbacks to Electron API or Cordova plugins.
