@@ -161,7 +161,7 @@ In case you are writing your first custom behavior, please refer to the [custom 
 
 ### Get an object behavior in Javascript
 
-Behaviors parameter values are actually just a string of the behavior. Each object instance has their own behavior instance so it avoids to pass an array for behavior when they can be mapped from objects with `object.getBehavior(behaviorName)`. 
+Behaviors parameter values are actually just a string of the behavior name. Each object instance has their own behavior instance so it avoids to pass an array for behaviors when they can be mapped from objects with `object.getBehavior(behaviorName)`. 
 
 For actions and conditions of behaviors, the object parameter **Object** only contains one instance because GDevelop does the iteration on object instances. For other object parameters you still need to iterate on all instances.
 
@@ -181,27 +181,27 @@ Behavior properties can be accessed from getters. The property name defined in t
 const myPropertyValue = behavior._getMyProperty();
 ```
 
-Setters also exist, but you should not need them. Behaviors may have event functions to change the property values but it's easier to use events for this. If you need to change property values from your JavaScript code, you probably should use JavaScript attributes instead and define expressions to let events access its value.
+Setters also exist, but you should not need them. Behaviors may have events functions to change its property values but it's easier to implement them with events. If you need to change property values from your JavaScript code, you probably should use JavaScript attributes instead and define expressions to let events access their values.
 
 ## Use the power of both events and JavaScript
 
-Although GDevelop engine features can be used in JavaScript (learn more about it in the [JavaScript events](/gdevelop5/events/js-code/) page). It is easier to use events for this.
+Although GDevelop engine features can be used in JavaScript (learn more about it in the [JavaScript events](/gdevelop5/events/js-code/) page). It's easier to use events for this.
 
 Both JavasScript and events can be used in the same extension:
 
 * Events allow to easily use GDevelop engine features
 * JavaScript should be only used for code independent from GDevelop
 
-JavaScript and events should only communicate through actions, conditions and expressions. JavaScript code should avoid at all cost to use event variables directly because it will likely result to spaghetti code. Variables can still be passed as events function parameter in case the extension need to exchange a structure or an array with the events.
+JavaScript and events should only communicate through actions, conditions and expressions. JavaScript code should avoid at all cost to use event variables directly because it will likely result to spaghetti code. Variables can still be passed as events function parameters in case the extension needs to exchange a structure or an array with the events.
 
 These 2 extensions use a JavaScript library but also use some of GDevelop engine features with events:
 
-* The [3D object shake](/gdevelop5/extensions/shake-object3d/) extension uses a noise library and implement with events a behavior that makes 3D objects shake.
+* The [3D object shake](/gdevelop5/extensions/shake-object3d/) extension uses a noise library and implements with events a behavior that makes 3D objects shake.
 * The [Curved movement](/gdevelop5/extensions/curved-movement/details/) extension evaluates Bézier curves using JavaScript and handles movement logics with events.
 
 ## Learn by reading code from the community
 
-Extensions can be implemented with events and JavaScript or a mix of both. Looking at existing extensions can help a lot to understand the API or how the extension system works.
+Extensions can be implemented with events and JavaScript or a mix of both. Looking at existing extensions can help to understand the API and extension system.
 
 This is a few instances of extensions that use JavaScript:
 
