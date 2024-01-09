@@ -20,6 +20,7 @@ nav:
         - Frames per second (FPS): fps
         - Game properties data: get-properties-data
         - Hash: hash
+        - Object picking tools: object-picking-tools
         - Random Color Generator: random-color
         - Read pixels: read-pixels
         - Record: record
@@ -162,7 +163,6 @@ nav:
         - Advanced:
             - Crypto Api: crypto-api
             - Draw shock wave effect: draw-shock-wave-effect
-            - Object picking tools: object-picking-tools
             - Rotate a string 13 characters: rotate13
         - Audio:
             - Audio Context: audio-context

@@ -5,13 +5,6 @@ Adds various object picking related tools.
 
 **Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555), [VictrisGames](https://gd.games/VictrisGames).
 
-!!! warning
-    This is an extension made by a community member — but not reviewed
-    by the GDevelop extension team. As such, we can't guarantee it
-    meets all the quality standards of official extensions. In case of
-    doubt, contact the author to know more about what the extension
-    does or inspect its content before using it.
-
 ---
 
 Adds various actions and conditions for advanced object selection. Includes picking objects with the highest or lowest zOrder, an object variable, and the ability to unpick all objects.
@@ -23,52 +16,34 @@ Note: Version 2.0.0 changed Z-order picking to pick all instances with the highe
 
 ## Actions
 
-**Pick the first object**  
-Picks the first instance out of a list of objects.
-
-**Pick objects with highest value of an object variable**  
+**Pick objects with highest variable value**  
 Pick object instances that have the highest value of an object variable.
 
 **Pick objects with highest Z-order**  
 Pick object instances that have the highest Z-order.
 
-**Pick the last object**  
-Picks the last instance out of a list of objects.
-
-**Pick objects with lowest value of an object variable**  
+**Pick objects with lowest variable value**  
 Pick object instances that have the lowest value of an object variable.
 
 **Pick objects with lowest Z-order**  
 Pick object instances that have the lowest Z-order.
-
-**Pick the Nth object**  
-Picks the Nth instance out of a list of objects.
 
 **Unpick all instances**  
 Unpicks all instances of an object.
 
 ## Conditions
 
-**Pick the first object**  
-Picks the first instance out of a list of objects.
-
-**Pick objects with highest value of an object variable**  
+**Pick objects with highest variable value**  
 Pick object instances that have the highest value of an object variable.
 
-**Pick objects with highest zOrder**  
-Pick object instances that have the highest zOrder.
+**Pick objects with highest Z-order**  
+Pick object instances that have the highest Z-order.
 
-**Pick the last object**  
-Picks the last instance out of a list of objects.
-
-**Pick objects with lowest value of an object variable**  
+**Pick objects with lowest variable value**  
 Pick object instances that have the lowest value of an object variable.
 
-**Pick objects with lowest zOrder**  
-Pick object instances that have the lowest zOrder.
-
-**Pick the Nth object**  
-Picks the Nth instance out of a list of objects.
+**Pick objects with lowest Z-order**  
+Pick object instances that have the lowest Z-order.
 
 **Unpick all instances**  
 Unpicks all instances of an object.
