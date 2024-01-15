@@ -31,6 +31,8 @@ As the Credits System evolves, you can expect additional features to be accessib
 
 - Cloud Builds. Use credits to acquire additional cloud builds, allowing you to iterate faster when approaching the final stages of your game development process.
 
+- Cloud Projects. Add additional cloud projects to your account, allowing you to store more projects in the cloud.
+
 - Leaderboards. Enhance the competitive & multiplayer aspect of your games by adding additional leaderboards to your games, fostering engagement among players.
 
 - Asset Store Purchases. In the future, credits will be usable for making purchases on GDevelop's asset store. Access a variety of assets & pre-made game templates to enrich your game development projects.
