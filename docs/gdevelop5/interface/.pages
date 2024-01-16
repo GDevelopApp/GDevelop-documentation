@@ -2,9 +2,9 @@ nav:
     - project-manager
     - scene-editor
     - events-editor
-    - preview
+    - preview.md
     - debugger
     - profile
     - games-dashboard
-    - command-palette-and-shortcuts
+    - command-palette-and-shortcuts.md
     - ...
