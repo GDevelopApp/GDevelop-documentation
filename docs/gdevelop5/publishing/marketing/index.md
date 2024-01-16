@@ -26,6 +26,8 @@ Learn more about [GDevelop Credits here](/gdevelop5/credits/).
 
 ## Available Packages
 
+![Marketing Campaigns](/gdevelop5/publishing/marketing/marketing-campaigns.png)
+
 1. Basic Package
 
    - Featuring on gd.games: Your game will be showcased on GDevelop's game platform for 7 days, generating increased views and feedback. You can extend the featuring period by purchasing an additional package.
@@ -40,5 +42,3 @@ Learn more about [GDevelop Credits here](/gdevelop5/credits/).
 
    - Dedicated Banner Inside GDevelop App: Your game will have a dedicated promotional banner within the GDevelop app, visible by hundreds of thousands of game creators and players.
    - Ideal for: Developers aiming for maximum visibility, increased downloads, and a prominent presence within the GDevelop platform.
-
-![Marketing Campaigns](/gdevelop5/publishing/marketing/marketing-campaigns.png)
