@@ -1301,6 +1301,7 @@ Allow your game to authenticate players. [Read more explanations about it.](/gde
 
 | Expression | Description |  |
 |-----|-----|-----|
+| `PlayerAuthentication::UserID()` | Get the unique user ID of the authenticated player. ||
 | `PlayerAuthentication::Username()` | Get the username of the authenticated player. ||
 
 ---
