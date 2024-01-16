@@ -9,9 +9,9 @@ GDevelop Credits is an in-app currency that gives you access to premium features
 Credits can be purchased and utilized on any platform, whether on the web, desktop, or mobile devices.
 When credits are acquired, or won (by participating to a game jam, unlocking an achievement or other specific actions in the community), they are tied to your GDevelop account. Your account serves as a centralized hub for managing and tracking your credit balance.
 
-![GDevelop Credits](/gdevelop5/credits/credits.png)
+![GDevelop Credits](/gdevelop5/interface/profile/credits.png)
 
-![GDevelop Credits Packages](/gdevelop5/credits/credits-packages.png)
+![GDevelop Credits Packages](/gdevelop5/interface/profile/credits-packages.png)
 
 ## Current Features
 
@@ -27,9 +27,9 @@ You can learn more about the [Marketing and Promotional Packages here](/gdevelop
 
 ## Future Access Unlocked with Credits
 
-As the GDevelop ecosystem continues to evolve, you can expect additional features to be accessible using credits. Some of these future features include:
+As the GDevelop ecosystem continues to evolve, more perks will be accessible using credits. Some of these features may include:
 
-- Cloud Builds. Use credits to acquire additional cloud builds, allowing you to iterate faster when approaching the final stages of your game development process.
-- Cloud Projects. Add additional cloud projects to your account, allowing you to store more projects in the cloud.
-- Leaderboards. Enhance the competitive & multiplayer aspect of your games by adding additional leaderboards to your games, fostering engagement among players.
-- Asset Store Purchases. In the future, credits will be usable for making purchases on GDevelop's asset store. Access a variety of assets & pre-made game templates to enrich your game development projects.
+- Cloud Builds. Using credits to acquire additional cloud builds, in order to iterate faster when approaching the final stages of your game development process.
+- Cloud Projects. Adding additional cloud projects to your account, allowing you to store more projects in the cloud.
+- Leaderboards. Enhancing the competitive & multiplayer aspect of your games by adding additional leaderboards to your games, fostering engagement among players.
+- Asset Store Purchases. Making purchases on GDevelop's asset store with credits. Access a variety of assets & pre-made game templates to enrich your game development projects.
