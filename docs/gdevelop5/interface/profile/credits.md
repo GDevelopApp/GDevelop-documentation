@@ -23,7 +23,7 @@ Credits can be utilized to purchase a **Marketing Package** for your game. These
 - Social Network Boost: Leverage social media promotion made by GDevelop to enhance your game's online presence.
 - Dedicated Banner on the app: Show a dedicated promotional banner within the GDevelop app, attracting the attention from hundreds of thousands of players.
 
-You can learn more about the [Marketing and Promotional Packages here](/gdevelop5/interface/profile/marketing/).
+You can learn more about the [Marketing and Promotional Packages here](/gdevelop5/interface/games-dashboard/marketing/).
 
 ## Future Access Unlocked with Credits
 
