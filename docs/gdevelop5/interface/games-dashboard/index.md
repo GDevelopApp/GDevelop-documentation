@@ -1,6 +1,7 @@
 ---
 title: Games Dashboard
 ---
+
 # Games Dashboard
 
 Creating a game with GDevelop is only one step of making a successful game! After you've [exported and published](/gdevelop5/publishing) a game, it's important to understand **how many players are playing to your game, for how long and if they come back to play to it again**.
@@ -30,9 +31,9 @@ When you've opened a game dashboard, navigate to the Analytics tab. This shows v
 
 You'll find:
 
-  * the number of **sessions** (number of time the game was launched),
-  * the number of **players** for the selected day, and the number of new players (that never launched the game before - unless they have uninstalled the game),
-  * how many players are playing again for for up to 7 days after the first time they played (this is what is called the "**retention**").
+- the number of **sessions** (number of time the game was launched),
+- the number of **players** for the selected day, and the number of new players (that never launched the game before - unless they have uninstalled the game),
+- how many players are playing again for for up to 7 days after the first time they played (this is what is called the "**retention**").
 
 If you don't have a GDevelop subscription, you'll only get access to the number of sessions - which should still give you an overview of your game success. As GDevelop is providing the analytics, the infrastructure cost and the bandwidth to collect the session metrics, we ask you to support GDevelop by getting a subscription. This will help the development of the game engine for the future and help to strengthen the community!
 
@@ -57,3 +58,7 @@ While GDevelop strive to collect only usage metrics that are anonymized, and lim
 ## Manage leaderboards for your games
 
 By clicking on the tab Leaderboards, you can access the [Leaderboard Administration](/gdevelop5/interface/games-dashboard/leaderboard-administration) interface.
+
+## Getting a Marketing Campaign
+
+You can access the [Marketing Campaigns](/gdevelop5/interface/games-dashboard/marketing) interface by clicking on the tab Marketing & Ads.

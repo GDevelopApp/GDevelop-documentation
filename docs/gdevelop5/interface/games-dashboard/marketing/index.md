@@ -22,7 +22,7 @@ Marketing Campaigns can be purchased inside GDevelop, using GDevelop Credits.
 2. Pick the game you want to promote
 3. Click on the "Marketing & Ads" tab to explore the available packages.
 
-Learn more about [GDevelop Credits here](/gdevelop5/interface/profile/credits.md).
+Learn more about [GDevelop Credits here](/gdevelop5/interface/profile/credits).
 
 ## Available Packages
 
