@@ -4,7 +4,7 @@ nav:
     - events-editor
     - preview.md
     - debugger
-    - Profile: profile.md
+    - profile
     - games-dashboard
     - command-palette-and-shortcuts.md
     - ...
