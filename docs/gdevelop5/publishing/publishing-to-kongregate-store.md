@@ -1,4 +1,4 @@
----
+---https://gd.games/instant-builds/112b39cf-43e2-4f90-9826-7d4af05b1073
 title: Publishing your Game to Kongregate
 ---
 # Publishing your Game to Kongregate
