@@ -76,7 +76,7 @@ L'erreur devrait avoir disparu:
 
 ![](/gdevelop5/all-features/firebase/quickstart6.png)
 
-Les fonctionalités de Firebase devrait à présent être prêt à l'usage. 
+Les [fonctionalités de Firebase](/fr/gdevelop5/all-features/firebase) devrait à présent être prêt à l'usage. 
 
 !!!note
 
