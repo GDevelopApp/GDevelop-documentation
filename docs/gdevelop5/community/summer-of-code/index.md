@@ -7,7 +7,7 @@ Google Summer of Code is a global program focused on bringing more contributors 
 
 ![](/gdevelop5/community/summer_of_code.png)
 
-In 2020, GDevelop was one of the mentoring organizations. We're candidating to be an organization in 2023 too. If you're interested in working with us, read on!
+In 2020, GDevelop was one of the mentoring organizations. We're candidating to be an organization in 2024 too. If you're interested in working with us, read on!
 
 !!! note
 
@@ -19,6 +19,12 @@ In 2020, GDevelop was one of the mentoring organizations. We're candidating to b
 
     Those ideas are *not* exhaustive. Feel free to suggest your own idea! Or combine ideas into your own. The descriptions are generic enough so that you can suggest different approaches, goals and stretch goals. Mentor(s) are available for all ideas listed already.
 
+### 3D physics engine
+
+GDevelop includes a 2D physics engine, but has not yet a 3D physics engine. Investigate the best physics engine for our use case and integrate it as a new behavior. Adapt the game engine with anything need to properly support the physics engine. A working implementation, even if not including all the feature of the 3D physics engine, will be sufficient.
+
+* **Skills:** JavaScript, TypeScript
+* **Difficulty:** medium
 
 ### Allow to edit tilemaps directly in the editor
 
@@ -26,7 +32,7 @@ GDevelop supports tilemaps that are built using Tiled or LDtk - two editors spec
 
 This project will aim to bring a very simple Tilemap edition feature to GDevelop. This is a feature that is asked by a lot of users!
 
-* **Skills:** JavaScript
+* **Skills:** JavaScript, TypeScript
 * **Difficulty:** medium
 
 ### Implement a global undo redo in the interface
@@ -35,15 +41,15 @@ In this project, you design and set up a global undo/redo system in the whole ap
 
 This is also a good opportunity to investigate "Conflict-free replicated data type", as this notion is linked to the changes needed for a global undo/redo system.
 
-* **Skills:** JavaScript, C++
+* **Skills:** JavaScript, C++, TypeScript
 * **Difficulty:**  hard
 
 ### Refactor the game engine to run in a web worker
 
 This project is about reworking the game engine so that it can run in a web worker. The rendering with PixiJS can be decoupled from logic (it's also partially done in the engine!). Once it's done, the logic could be run in a web-worker, improving the performance of all games. Later games could even be run on a server for multiplayer using this approach - which is a highly requested feature by users.
 
-* **Skills:** JavaScript
-* **Difficulty:** medium
+* **Skills:** JavaScript, TypeScript
+* **Difficulty:** hard
 
 ### Improve interactive tutorials so that the community can create their own
 
