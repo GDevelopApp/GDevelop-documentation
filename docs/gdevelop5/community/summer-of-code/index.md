@@ -34,7 +34,7 @@ This project will aim to bring a very simple Tilemap edition feature to GDevelop
 
 * **Skills:** JavaScript, TypeScript
 * **Difficulty:** medium
-* 
+  
 ### Refactored collision, object positions handling and object filtering
 
 Investigate the performance of collision handling, distance conditions and raycast (for objects not using a physics engine behavior) and implement optimizations that would allow them to avoid iterating on all objects.
