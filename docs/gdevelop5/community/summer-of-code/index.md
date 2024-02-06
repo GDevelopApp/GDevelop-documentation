@@ -34,6 +34,15 @@ This project will aim to bring a very simple Tilemap edition feature to GDevelop
 
 * **Skills:** JavaScript, TypeScript
 * **Difficulty:** medium
+* 
+### Refactored collision, object positions handling and object filtering
+
+Investigate the performance of collision handling, distance conditions and raycast (for objects not using a physics engine behavior) and implement optimizations that would allow them to avoid iterating on all objects.
+Complete this investigation by generalizing this to all behaviors that could use this.
+
+* **Skills:** JavaScript, good knowledge or interest in algorithms
+* **Type:** Exploratory
+* **Difficulty:** medium/hard
 
 ### Implement a global undo redo in the interface
 
@@ -64,14 +73,6 @@ GDevelop has a debugger and profiler that can be used when previewing a game. Th
 
 * **Skills:** React.js (for the editor), JavaScript (for the engine), WebSockets (communication between editor and games)
 * **Difficulty:** Easy
-
-### Refactored collision and object positions handling
-
-A dedicated module to handle object position and collisions (as well as raycast and other algorithms) was started in this PR: https://github.com/4ian/GDevelop/pull/1393 (the idea is to be able to port this module to WebAssembly in the future - this can be a stretch goal). It's not finished though: the project will consist in finishing the implementation, check the performance, the integration in the game engine and adapt the extensions (Pathfinding, Platformer, Lights) to use it.
-
-* **Skills:** JavaScript
-* **Type:** Exploratory
-* **Difficulty:** medium
 
 ### Refactored and faster code generation
 
