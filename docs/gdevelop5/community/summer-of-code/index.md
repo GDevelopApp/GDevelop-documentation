@@ -25,6 +25,9 @@ GDevelop includes a 2D physics engine, but has not yet a 3D physics engine. Inve
 
 * **Skills:** JavaScript, TypeScript
 * **Difficulty:** medium
+* Project size: 90 hours
+* Possible mentors: Alex, Clem, D8H, 4ian
+* Expected outcome: working behavior that can be applied to objects, with at least static and dynamic objects + a few basic properties and actions/conditions.
 
 ### Allow to edit tilemaps directly in the editor
 
@@ -34,6 +37,9 @@ This project will aim to bring a very simple Tilemap edition feature to GDevelop
 
 * **Skills:** JavaScript, TypeScript
 * **Difficulty:** medium
+* Project size: 175 hours
+* Possible mentors: Alex, Clem, D8H, 4ian
+* Expected outcome: working, basic editor for tilemaps in the GDevelop scene editor (display tileset, choose tile, paint)
   
 ### Refactored collision, object positions handling and object filtering
 
@@ -43,6 +49,9 @@ Complete this investigation by generalizing this to all behaviors that could use
 * **Skills:** JavaScript, good knowledge or interest in algorithms
 * **Type:** Exploratory
 * **Difficulty:** medium/hard
+* Project size: 90 hours
+* Possible mentors: Clem, D8H, 4ian
+* Expected outcome: Proof of concept or working implementation of optimizations.
 
 ### Implement a global undo redo in the interface
 
@@ -52,6 +61,9 @@ This is also a good opportunity to investigate "Conflict-free replicated data ty
 
 * **Skills:** JavaScript, C++, TypeScript
 * **Difficulty:**  hard
+* Project size: 90 hours
+* Possible mentors: Clem, Alex, D8H, 4ian
+* Expected outcome: improved undo/redo for at least one editor.
 
 ### Refactor the game engine to run in a web worker
 
@@ -59,6 +71,9 @@ This project is about reworking the game engine so that it can run in a web work
 
 * **Skills:** JavaScript, TypeScript
 * **Difficulty:** hard
+* Project size: 175 hours
+* Possible mentors: D8H, 4ian
+* Expected outcome: game engine running in a web worker or a server.
 
 ### Improve interactive tutorials so that the community can create their own
 
@@ -66,6 +81,9 @@ We’ve created a framework to run interactive tutorials directly inside GDevelo
 
 * **Skills:** JavaScript
 * **Difficulty:** easy
+* Project size: 90 hours
+* Possible mentors: Clem, Alex
+* Expected outcome: an interface to list interactive tutorials and a simple, basic interface to edit existing tutorials and try them in the app.
 
 ### Improved Debugger and Profiler
 
@@ -73,6 +91,9 @@ GDevelop has a debugger and profiler that can be used when previewing a game. Th
 
 * **Skills:** React.js (for the editor), JavaScript (for the engine), WebSockets (communication between editor and games)
 * **Difficulty:** Easy
+* Project size: 175 hours
+* Possible mentors: Clem, D8H
+* Expected outcome: a reworked debugger that displays at least real time metrics.
 
 ### Refactored and faster code generation
 
@@ -80,6 +101,9 @@ Code generation is a very important point in GDevelop. This project would rework
 
 * **Skills:** C++ (mandatory to dig into the existing codebase), JavaScript (for the generated code), good understanding of algorithms and data structures.
 * **Difficulty:** medium
+* Project size: 90 hours
+* Possible mentors: 4ian, D8H
+* Expected outcome: a reworked code generation that is faster than currently and documented possible other improvements (if time is too short to implement them).
 
 ### Animation support for 9 Panel Sprite and Tiled Sprite objects
 
@@ -87,8 +111,11 @@ These "Panel Sprite" and "Tiled Sprite" objects can't be animated. We'd like to 
 This will allow for nice effects like animated platforms, background, lava floors...
 This will involve refactoring the animation classes in the game engine and refactor animation components in the editor codebase.
 
-* **Skills:** JavaScript (Pixi.js knowledge is a bonus) and React.
+* **Skills:** JavaScript (PixiJS knowledge is a bonus) and React.
 * **Difficulty:** Medium
+* Project size: 175 hours
+* Possible mentors: 4ian, D8H
+* Expected outcome: a reworked code generation that is faster than currently and documented possible other improvements (if time is too short to implement them).
 
 ### Your own idea
 
