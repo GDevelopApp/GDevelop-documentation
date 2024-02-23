@@ -1,6 +1,7 @@
 ---
 title: Manually export your game as a HTML5 game on your computer
 ---
+
 # Manually export your game as a HTML5 game on your computer
 
 From GDevelop you can publish your games as a HTML5 game. You can then publish it on your website or on a game catalog website like itch.io or Kongregate.
@@ -37,10 +38,12 @@ There are many game hosting sites on the internet and each of them requires you 
 
 The following guides walk through how to host your game pain-free, using a 3rd party hosting site:
 
-  * [publishing to itch io](/gdevelop5/publishing/publishing-to-itch-io)
-  * [publishing to gamejolt store](/gdevelop5/publishing/publishing-to-gamejolt-store)
-  * [publishing to kongregate store](/gdevelop5/publishing/publishing-to-kongregate-store)
-  * [publishing to crimsongames](/gdevelop5/publishing/publishing-to-crimsongames)
+- [Publishing to Itch.io](/gdevelop5/publishing/publishing-to-itch-io)
+- [Publishing to CrazyGames](/gdevelop5/publishing/crazy-games)
+- [Publishing to Poki](/gdevelop5/publishing/poki)
+- [Publishing to Gamejolt store](/gdevelop5/publishing/publishing-to-gamejolt-store)
+- [Publishing to Kongregate store](/gdevelop5/publishing/publishing-to-kongregate-store)
+- [Publishing to Crimsongames](/gdevelop5/publishing/publishing-to-crimsongames)
 
 ### Private Web Hosting
 
