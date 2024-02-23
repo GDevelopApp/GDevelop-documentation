@@ -1,6 +1,7 @@
 nav:
     - index.md
-    - Mobile (Android and iOS): android_and_ios
+    - Android: android
+    - iOS: ios
     - Desktop (Windows, macOS, Linux): windows-macos-linux.md
     - Web (gd.games): web.md
     - Manual exports:
