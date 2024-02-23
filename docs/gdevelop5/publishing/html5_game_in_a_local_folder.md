@@ -39,8 +39,8 @@ There are many game hosting sites on the internet and each of them requires you 
 The following guides walk through how to host your game pain-free, using a 3rd party hosting site:
 
 - [publishing to Itch.io](/gdevelop5/publishing/publishing-to-itch-io)
-- [publishing to CrazyGames](/gdevelop5/publishing/publishing-to-crazy-games)
-- [publishing to Poki](/gdevelop5/publishing/publishing-to-crazy-games)
+- [publishing to CrazyGames](/gdevelop5/publishing/crazy-games)
+- [publishing to Poki](/gdevelop5/publishing/poki)
 - [publishing to gamejolt store](/gdevelop5/publishing/publishing-to-gamejolt-store)
 - [publishing to kongregate store](/gdevelop5/publishing/publishing-to-kongregate-store)
 - [publishing to crimsongames](/gdevelop5/publishing/publishing-to-crimsongames)

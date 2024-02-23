@@ -68,8 +68,8 @@ The guides below provide game development related explanations. They are not spe
 
 - [Build .apk of your games with cordova](http://wiki.compilgames.net/doku.php/gdevelop5/publishing/android_and_ios_with_cordova)
 - [publishing to itch.io](/gdevelop5/publishing/publishing-to-itch-io)
-- [publishing to CrazyGames](/gdevelop5/publishing/publishing-to-crazy-games)
-- [publishing to Poki](/gdevelop5/publishing/publishing-to-crazy-games)
+- [publishing to CrazyGames](/gdevelop5/publishing/crazy-games)
+- [publishing to Poki](/gdevelop5/publishing/poki)
 - [publishing to amazon app store](/gdevelop5/publishing/publishing-to-amazon-app-store)
 - [publishing to gamejolt store](/gdevelop5/publishing/publishing-to-gamejolt-store)
 - [publishing to kongregate store](/gdevelop5/publishing/publishing-to-kongregate-store)
