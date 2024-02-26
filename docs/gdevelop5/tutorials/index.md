@@ -62,22 +62,6 @@ Check out the [official GDevelop Channel here](https://www.youtube.com/channel/U
 
 ---
 
-# Other guides
-
-The guides below provide game development related explanations. They are not specific to GDevelop.
-
-- [Build .apk of your games with cordova](http://wiki.compilgames.net/doku.php/gdevelop5/publishing/android_and_ios_with_cordova)
-- [Publishing to itch.io](/gdevelop5/publishing/publishing-to-itch-io)
-- [Publishing to CrazyGames](/gdevelop5/publishing/crazy-games)
-- [Publishing to Poki](/gdevelop5/publishing/poki)
-- [Publishing to Amazon app store](/gdevelop5/publishing/publishing-to-amazon-app-store)
-- [Publishing to Gamejolt store](/gdevelop5/publishing/publishing-to-gamejolt-store)
-- [Publishing to Kongregate store](/gdevelop5/publishing/publishing-to-kongregate-store)
-- [Publishing to Crimsongames](/gdevelop5/publishing/publishing-to-crimsongames)
-- [Before publishing your game](http://wiki.compilgames.net/doku.php/gdevelop5/tutorials/before-publishing-your-game)
-
----
-
 # Resources
 
 Links to 3rd party websites where you can find sprites, music and sound effects for your games and game examples, templates and software to help you with game development.

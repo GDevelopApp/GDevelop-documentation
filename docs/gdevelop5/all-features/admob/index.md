@@ -106,9 +106,9 @@ For this, insert the action to enable the test mode at the beginning of your gam
 
 ![](/gdevelop5/all-features/admob/pasted/20210131-221920.png)
 
-## Testing and publishing your game on Android (or iOS)
+## Testing and publishing your game on Android or iOS
 
-You must first build your game for Android (or iOS) to have the ads displayed on your device. See **[the page about Android and iOS publishing](/gdevelop5/publishing/android_and_ios)**.
+You must first build your game for Android or iOS to have the ads displayed on your device. See **[the page about Android](/gdevelop5/publishing/android) and [iOS publishing](/gdevelop5/publishing/ios)**.
 
 ![](/gdevelop5/all-features/export-android.png)
 
