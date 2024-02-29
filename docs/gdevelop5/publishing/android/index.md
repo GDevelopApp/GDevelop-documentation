@@ -1,13 +1,13 @@
 ---
-title: Publish your game to Android and iOS
+title: Publish your game to Android
 ---
-# Publish your game to Android and iOS
+# Publish your game to Android
 
-GDevelop allows you to publish your games to a variety of formats including Android and iOS with the build online services, or [manually](/gdevelop5/publishing/android_and_ios_with_cordova).
+GDevelop allows you to publish your games to multiple platforms, including Android and iOS with the Cloud Build services, or [manually](/gdevelop5/publishing/android_and_ios_with_cordova).
 
-## Make sure that your game is ready for packaging!
+## Making sure that your game is ready for packaging
 
-It is important to verify that your game is ready to be exported for Android and iOS:
+It is important to verify that your game is ready to be exported for Android:
 
   * In the game properties that are accessible from the [Project Manager](/gdevelop5/interface)), make sure to enter a valid _package name_. A package name is an identifier like this: `com.yourname.gamename`. It's like the address of a website but reversed. You can choose any package name provided that:
       * It is not used by another game or application on iOS or Android.
@@ -16,25 +16,20 @@ It is important to verify that your game is ready to be exported for Android and
 
 ## Launch export
 
-In the File menu, choose Export. Then choose **Publish on Stores**,  and select the **Mobile** option.
+Click on the **Share** button in the GDevelop toolbar, then choose **Android** and **One-click packaging**.
 
-![](/gdevelop5/publishing/publish-mobile-locate.gif)
-
-
-### Create an account if you don't have one
-
-To use the packaging for Android, you need a [GDevelop account](/gdevelop5/interface/profile). If you don't have one, click on "Create my account", enter your email and choose a password.
+### Choose between APK or AAB export
 
 Choose if you want to create an **APK** or an **Android App Bundle**:
 
 - An **APK** allows you to send the generated file to your phone and install it. It's ideal to quickly **test your game on your Android device**.
-- An **Android App Bundle** (also shorten to "AAB") is the format required to [publish to Google Play](/gdevelop5/publishing/android_and_ios/play-store). When you create a game on the Google Play Developer Console, you'll need to upload an AAB file.
+- An **Android App Bundle** (also shorten to "AAB") is the format required to [publish to Google Play](/gdevelop5/publishing/android/play-store). When you create a game on the Google Play Developer Console, you'll need to upload an AAB file.
 
 ![](/gdevelop5/publishing/publish-mobile-options.png)
 
 Once you are ready, click on **Package for Android**. Now, wait for the game to be built. There are a few steps, during which the game is exported, compressed, uploaded to the online build service and built.
 
-In the end, you'll have a **Download** button to get the APK file that can be installed on Android, or the [AAB for publishing on Google Play](/gdevelop5/publishing/android_and_ios/play-store).
+In the end, you'll have a **Download** button to get the APK file that can be installed on Android, or the [AAB for publishing on Google Play](/gdevelop5/publishing/android/play-store).
 
 ![](/gdevelop5/publishing/publish-mobile-export.gif)
 
@@ -42,7 +37,7 @@ In the end, you'll have a **Download** button to get the APK file that can be in
 
 !!! note
 
-    To test a game on your phone, you must have chosen APK. If you want to distribute it on Google Play, [read this page instead](/gdevelop5/publishing/android_and_ios/play-store).
+    To test a game on your phone, you must have chosen APK when exporting the game. If you want to distribute it on Google Play, [read this page instead](/gdevelop5/publishing/android/play-store).
 
 Plug your Android phone/tablet into your computer and put the APK file somewhere in a folder of the device. Alternatively, you can also store the APK on cloud storage ([Dropbox](https://www.dropbox.com/), [Google Drive](http://drive.google.com/), [OneDrive](https://onedrive.live.com/about/en-in/)...) and download it on your device.
 
@@ -63,19 +58,12 @@ The game is now nicely installed on your phone! Launch it like any other app or 
 
 You've created a *game for Android* directly from GDevelop! You can update it easily: just export and package the game again, send the APK to your phone or tablet and install it.
 
+## Get a GDevelop membership to unlock more packagings each day
 
-## Subscribe to allow more packaging each day.
-
-As a registered user, you can package your game twice every day for Android.
-
-If you're working more on your game, you may want to upgrade your account to unlock more packaging each day! You can do 10 exports a day with an Indie subscription, and up to 70 with a Pro subscription.
-
-Getting a subscription helps the author of GDevelop to continue working on it (GDevelop is an open-source software) and you will also be able to package your game for Windows/macOS/Linux.
-
-[See here for more information.](https://wiki.gdevelop.io/gdevelop5/interface/profile)
+GDevelop cloud builds, which includes automatic packaging for Android, iOS and desktop, are part of GDevelop memberships. Check the [GDevelop website](https://gdevelop.io/pricing) to compare the different plans and which one will work best for you.
 
 ## Publish your game on the stores ("Android App Bundles")
 
-Once you've built your game for Android and tested it, you can publish build it as an **Android App Bundle** to publish it on Google Play. Read [this page about publishing to Google Play Store](/gdevelop5/publishing/android_and_ios/play-store).
+Once you've built your game for Android and tested it, you can publish build it as an **Android App Bundle** to publish it on Google Play. Read [this page about publishing to Google Play Store](/gdevelop5/publishing/android/play-store).
 
 You can also publish it on the [Amazon App Store](/gdevelop5/publishing/publishing-to-amazon-app-store) (using an **APK**).

@@ -3,7 +3,7 @@ title: Publish your game to the Amazon App Store
 ---
 # Publish your game to the Amazon App Store
 
-After building your game with Android (either using the [one-click build for Android](/gdevelop5/publishing/android_and_ios) or [the manual process with Cordova for advanced users](/gdevelop5/publishing/android_and_ios_with_cordova)), you can publish it on the Amazon App Store.
+After building your game with Android (either using the [one-click build for Android](/gdevelop5/publishing/android) or [the manual process with Cordova for advanced users](/gdevelop5/publishing/android_and_ios_with_cordova)), you can publish it on the Amazon App Store.
 
 
 ## Create your Amazon App Store Developer account

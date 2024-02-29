@@ -45,7 +45,7 @@ Integrate the In-App Purchase extension in your game. The general workflow is th
 ## Set up In App Purchases on Google Play (Android)
 
 Log in to your Google Play Console account, where you'll set up your payment information and the products for your app.
-This guides assumes that you already created an app and filled up the details for it. If you're unsure about how to do that, [read this page about publishing on Google Play](/gdevelop5/publishing/android_and_ios/play-store).
+This guides assumes that you already created an app and filled up the details for it. If you're unsure about how to do that, [read this page about publishing on Google Play](/gdevelop5/publishing/android/play-store).
 
 ### Create a payment profile
 
@@ -56,7 +56,7 @@ You'll need to enter details about you as an individual or your business to rece
 
 ### Upload a new release of your app with In App Purchases extension integrated
 
-Package your game as an [Android App Bundle in GDevelop](/gdevelop5/publishing/android_and_ios).
+Package your game as an [Android App Bundle in GDevelop](/gdevelop5/publishing/android).
 
 Upload then this AAB file in a new release. Make sure to fill everything that is needed for the release. We recommend you first start by an alpha ("closed testing") release, before doing the same thing for a release that you will publish once you're satisfied with your set up.
 

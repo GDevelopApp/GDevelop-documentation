@@ -108,6 +108,9 @@ plugins:
             'gdevelop5/objects/base_object/events.md': 'gdevelop5/objects/index.md'
             'gdevelop5/objects/base_object/index.md': 'gdevelop5/objects/index.md'
             'gdevelop5/extensions/list.md': 'gdevelop5/extensions/index.md'
+            'gdevelop5/publishing/android_and_ios/index.md': 'gdevelop5/publishing/android/index.md'
+            'gdevelop5/publishing/android_and_ios/play-store/index.md': 'gdevelop5/publishing/android/play-store/index.md'
+            'gdevelop5/publishing/android_and_ios/play-store/upgrading-from-apk-to-aab.md': 'gdevelop5/publishing/android/play-store/upgrading-from-apk-to-aab.md'
             # Tutorials
             'gdevelop5/tutorials/platformer/start.md': 'gdevelop5/tutorials/platformer/index.md'
             'gdevelop5/tutorials/asteroids/start.md': 'gdevelop5/tutorials/asteroids/index.md'

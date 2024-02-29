@@ -3,7 +3,7 @@ title: Properties of the game
 ---
 # Properties of the game
 
-When you click on Properties in the [Project Manager](/gdevelop5/interface/project-manager), a window is opened where you can change some global parameters for the game. Some will be used when the game is exported as a [Windows/macOS/Linux app](/gdevelop5/publishing/windows-macos-linux) or an [Android/iOS mobile game](/gdevelop5/publishing/android_and_ios).
+When you click on Properties in the [Project Manager](/gdevelop5/interface/project-manager), a window is opened where you can change some global parameters for the game. Some will be used when the game is exported as a [Windows/macOS/Linux app](/gdevelop5/publishing/windows-macos-linux) or an [Android](/gdevelop5/publishing/android)/[iOS mobile game](/gdevelop5/publishing/ios).
 
 ![](/gdevelop5/interface/project-manager/properties/pasted/20230309-191705.png)
 
@@ -13,7 +13,7 @@ It is in these properties, you can find:
 * **Game description:** The description for your game that will be used if you upload to GDevelop's game hosting platform, [gd.games](https://gd.games/).
 * **Author name:** Enter your name, or the name of your company. This field can be used for applications generated on Windows, macOS or Linux. As well as when publishing to GDevelop's game hosting platform, [gd.games](https://gd.games/).
 * **Device orientation (for iOS and Android):** Choose if the game should run in portrait or landscape mode on mobile devices.
-* **Package name (for iOS and Android):** [Read about this here](/gdevelop5/publishing/android_and_ios#make_sure_that_your_game_is_ready_for_packaging).
+* **Package name (for iOS and Android):** [Read about this here](/gdevelop5/publishing/android#make_sure_that_your_game_is_ready_for_packaging).
 * **Version number:** Each time you're releasing a new version, you should incrementally increase this version number. This is mandatory to do on some stores, like the Google Play Store or the App Store.
 * **Publisher name:** The name that will be used when packaging and submitting your application to stores.
 * **Game resolution width:** The width of the game area and default window width.
