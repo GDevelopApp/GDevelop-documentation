@@ -17,7 +17,7 @@ It is important to verify that your game is ready to be exported for iOS:
   * In the game properties that are accessible from the [Project Manager](/gdevelop5/interface)), make sure to enter a valid _package name_. A package name is an identifier like this: `com.yourname.gamename`. It's like the address of a website but reversed. You can choose any package name provided that:
       * It is not used by another game or application on iOS or Android.
       * It is written with only letters, numbers, and dots. Only put one dot between words (for example, `com..mygame` or `..mygame` are not valid). _Limit this identifier to 2-5 words maximum._
-      * You properly register it on the App Store Connect website.
+      * You properly registered it on the [App Store Connect website](./app-store), if you want to publish it on the App Store.
   * Also check that you've included the required icons.
 
 ## Create your Apple Developer account
@@ -93,7 +93,7 @@ If you want to test it on your iPhone/iPad, you need to install the IPA file on 
 
 !!! note
 
-    If you want to test it on the App Store, you need to upload the IPA file to the App Store Connect website. This can [only be done with a macOS computer using the Transporter app](https://apps.apple.com/es/app/transporter/id1450874784). Instead, it's easier to configure the app first on the App Store Connect website and then set up an authentification key to automatically send your game to the App Store Connect website. See the next section for more information.
+    If you want to test it on the App Store, you need to upload the IPA file to the App Store Connect website. This can [only be done with a macOS computer using the Transporter app](https://apps.apple.com/es/app/transporter/id1450874784). Instead, it's easier to configure the app first on the App Store Connect website and then set up an authentication key to automatically send your game to the App Store Connect website. See the next section for more information.
 
 Connect your iPhone/iPad to your computer using a USB cable.
 
@@ -103,7 +103,6 @@ Connect your iPhone/iPad to your computer using a USB cable.
 
 ## Publish to the App Store
 
-
-To automatically publish your game on the App Store, you can set up an authentification key, enabling GDevelop to automatically send your game to the App Store Connect website. You will be able to set up the app and testers, including yourself, to test your game through the TestFlight app.
+To automatically publish your game on the App Store, you can set up an authentication key, enabling GDevelop to automatically send your game to the App Store Connect website. You will be able to set up the app and testers, including yourself, to test your game through the TestFlight app.
 
 Read this page about [testing and publishing your game on the App Store](./app-store).
