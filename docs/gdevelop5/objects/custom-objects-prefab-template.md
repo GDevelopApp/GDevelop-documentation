@@ -27,6 +27,16 @@ Custom objects are grouped into "extensions". They are composed of functions, be
 
 Extensions that are installed by the asset store are using events. They can be modified the same way as any extensions. This allows to make some changes to the way the objects work to better fit a game. Make sure to back up your changes or rename the extension to avoid overriding them later by updating the extension.
 
+## Use pre-made Custom Objects
+
+GDevelop has created Custom Objects and made them available on the Asset Store.
+These are the packs available for free:
+
+* [Menu Buttons](https://gdevelop.io/asset-store/free/menu-buttons-menu-buttons): GUI ready-made buttons
+* [Resource bars](https://gdevelop.io/asset-store/free/resource-bars-resource-bars): Life and ressource indicators
+* [Settings UI](https://gdevelop.io/asset-store/free/settings-ui-settings-ui): GUI bars, toggles and radial buttons
+* [Multitouch joysticks](https://gdevelop.io/asset-store/free/multitouch-joysticks-multitouch-joysticks): Joysticks for mobile based gameplay
+
 !!! tip
 
     As we write this documentation, please reach out on the forum or the help channel on Discord if you struggle to use them or have feedback.
