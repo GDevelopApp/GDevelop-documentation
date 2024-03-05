@@ -108,9 +108,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4e24a725a547ce28bea4dfa4464a7632"><td class="memItemLeft" align="right" valign="top"><a id="a4e24a725a547ce28bea4dfa4464a7632"></a>
 <a class="el" href="classgd_1_1_multiple_instruction_metadata.html">MultipleInstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>SetGetter</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;getter)</td></tr>
 <tr class="separator:a4e24a725a547ce28bea4dfa4464a7632"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a397ccc8d96a54eedd8b1b27e036ef9a3"><td class="memItemLeft" align="right" valign="top"><a id="a397ccc8d96a54eedd8b1b27e036ef9a3"></a>
-<a class="el" href="classgd_1_1_multiple_instruction_metadata.html">MultipleInstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_multiple_instruction_metadata.html#a397ccc8d96a54eedd8b1b27e036ef9a3">SetIncludeFile</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;includeFile) override</td></tr>
-<tr class="memdesc:a397ccc8d96a54eedd8b1b27e036ef9a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase any existing include file and add the specified include. <br /></td></tr>
+<tr class="memitem:a397ccc8d96a54eedd8b1b27e036ef9a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_multiple_instruction_metadata.html">MultipleInstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_multiple_instruction_metadata.html#a397ccc8d96a54eedd8b1b27e036ef9a3">SetIncludeFile</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;includeFile) override</td></tr>
 <tr class="separator:a397ccc8d96a54eedd8b1b27e036ef9a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd4a4084c5bbb3422bb332006cde53ff"><td class="memItemLeft" align="right" valign="top"><a id="abd4a4084c5bbb3422bb332006cde53ff"></a>
 <a class="el" href="classgd_1_1_multiple_instruction_metadata.html">MultipleInstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_multiple_instruction_metadata.html#abd4a4084c5bbb3422bb332006cde53ff">AddIncludeFile</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;includeFile) override</td></tr>
@@ -444,6 +442,35 @@ static <a class="el" href="classgd_1_1_multiple_instruction_metadata.html">Multi
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_instruction_metadata.html#af7b3bb8d2cbb3c364ef9c560e372524a" title="Set the instruction to be hidden in the IDE.">gd::InstructionMetadata::SetHidden</a> </dd></dl>
 
 <p>Implements <a class="el" href="classgd_1_1_abstract_function_metadata.html#adff5ff749c6b7f380b80e6488339935f">gd::AbstractFunctionMetadata</a>.</p>
+
+</div>
+</div>
+<a id="a397ccc8d96a54eedd8b1b27e036ef9a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a397ccc8d96a54eedd8b1b27e036ef9a3">&#9670;&nbsp;</a></span>SetIncludeFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classgd_1_1_multiple_instruction_metadata.html">MultipleInstructionMetadata</a>&amp; gd::MultipleInstructionMetadata::SetIncludeFile </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>includeFile</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000013">Deprecated:</a></b></dt><dd>Use <code>AddIncludeFile</code> instead as clearing the list is more error prone. </dd></dl>
+
+<p>Implements <a class="el" href="classgd_1_1_abstract_function_metadata.html#afc1577c545b6fe1267eda2f5a7aedf1d">gd::AbstractFunctionMetadata</a>.</p>
 
 </div>
 </div>

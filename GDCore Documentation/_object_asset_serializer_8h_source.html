@@ -100,26 +100,20 @@ $(function() {
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
 <div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classgd_1_1_object_asset_serializer.html">   32</a></span>&#160;<span class="keyword">class </span>GD_CORE_API <a class="code" href="classgd_1_1_object_asset_serializer.html">ObjectAssetSerializer</a> {</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  SerializeTo(<a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project, <span class="keyword">const</span> <a class="code" href="classgd_1_1_object.html">gd::Object</a> &amp;<span class="keywordtype">object</span>,</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;              <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;objectFullName, <a class="code" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element,</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;              std::map&lt;gd::String, gd::String&gt; &amp;resourcesFileNameMap);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  ~<a class="code" href="classgd_1_1_object_asset_serializer.html">ObjectAssetSerializer</a>(){};</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <a class="code" href="classgd_1_1_object_asset_serializer.html">ObjectAssetSerializer</a>(){};</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> RenameObjectResourceFiles(</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;      <a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project, <a class="code" href="classgd_1_1_object.html">gd::Object</a> &amp;<span class="keywordtype">object</span>,</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;destinationDirectory, <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;objectFullName,</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;      std::map&lt;gd::String, gd::String&gt; &amp;resourcesFileNameMap,</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;      std::map&lt;gd::String, gd::String&gt; &amp;resourcesNameReverseMap);</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  <span class="keyword">static</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> GetObjectExtensionName(<span class="keyword">const</span> <a class="code" href="classgd_1_1_object.html">gd::Object</a> &amp;<span class="keywordtype">object</span>);</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;};</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;} <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  SerializeTo(<a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project, <span class="keyword">const</span> <a class="code" href="classgd_1_1_object.html">gd::Object</a> &amp;<span class="keywordtype">object</span>,</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;              <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;objectFullName, <a class="code" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element,</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;              std::vector&lt;gd::String&gt; &amp;usedResourceNames);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  ~<a class="code" href="classgd_1_1_object_asset_serializer.html">ObjectAssetSerializer</a>(){};</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <a class="code" href="classgd_1_1_object_asset_serializer.html">ObjectAssetSerializer</a>(){};</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  <span class="keyword">static</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> GetObjectExtensionName(<span class="keyword">const</span> <a class="code" href="classgd_1_1_object.html">gd::Object</a> &amp;<span class="keywordtype">object</span>);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;};</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;} <span class="comment">// namespace gd</span></div>
 <div class="ttc" id="aclassgd_1_1_object_asset_serializer_html"><div class="ttname"><a href="classgd_1_1_object_asset_serializer.html">gd::ObjectAssetSerializer</a></div><div class="ttdoc">Serialize objects into an asset for the store.</div><div class="ttdef"><b>Definition:</b> ObjectAssetSerializer.h:32</div></div>
 <div class="ttc" id="aclassgd_1_1_object_html"><div class="ttname"><a href="classgd_1_1_object.html">gd::Object</a></div><div class="ttdoc">Represent an object of a platform.</div><div class="ttdef"><b>Definition:</b> Object.h:37</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html"><div class="ttname"><a href="classgd_1_1_project.html">gd::Project</a></div><div class="ttdoc">Base class representing a project (game), including all resources, scenes, objects,...</div><div class="ttdef"><b>Definition:</b> Project.h:50</div></div>

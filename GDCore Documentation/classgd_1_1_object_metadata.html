@@ -354,7 +354,7 @@ CreateFunPtr&#160;</td><td class="memItemRight" valign="bottom"><b>createFunPtr<
 </div><div class="memdoc">
 
 <p>Declare a new action as being part of the extension. </p>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000008">Deprecated:</a></b></dt><dd>Prefer using <code>AddScopedAction</code>, to properly namespace the action. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000015">Deprecated:</a></b></dt><dd>Prefer using <code>AddScopedAction</code>, to properly namespace the action. </dd></dl>
 
 <p>Implements <a class="el" href="classgd_1_1_instruction_or_expression_container_metadata.html#a7e864881dae1524ba87b35fdcc7d0872">gd::InstructionOrExpressionContainerMetadata</a>.</p>
 
@@ -425,7 +425,7 @@ CreateFunPtr&#160;</td><td class="memItemRight" valign="bottom"><b>createFunPtr<
 </div><div class="memdoc">
 
 <p>Declare a new condition as being part of the extension. </p>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000007">Deprecated:</a></b></dt><dd>Prefer using <code>AddScopedCondition</code>, to properly namespace the condition. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000014">Deprecated:</a></b></dt><dd>Prefer using <code>AddScopedCondition</code>, to properly namespace the condition. </dd></dl>
 
 <p>Implements <a class="el" href="classgd_1_1_instruction_or_expression_container_metadata.html#a550c4bfe856c0b9785f4d85f774ac3fc">gd::InstructionOrExpressionContainerMetadata</a>.</p>
 
@@ -928,7 +928,7 @@ It's recommended to use this function to avoid declaring 3 times a similar expre
 
 <p>Set the URL pointing to the help page about this object. </p>
 <dl class="section note"><dt>Note</dt><dd>The path to the page must be relative to the wiki url. </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000009">Deprecated:</a></b></dt><dd>Use SetHelpPath instead </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000016">Deprecated:</a></b></dt><dd>Use SetHelpPath instead </dd></dl>
 
 </div>
 </div>
@@ -986,6 +986,7 @@ It's recommended to use this function to avoid declaring 3 times a similar expre
 
 <p>Erase any existing include file and add the specified include. </p>
 <dl class="section note"><dt>Note</dt><dd>The requirement may vary depending on the platform: Most of the time, the include file contains the declaration of the object. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000017">Deprecated:</a></b></dt><dd>Use <code>AddIncludeFile</code> instead as clearing the list is more error prone. </dd></dl>
 
 <p>Implements <a class="el" href="classgd_1_1_instruction_or_expression_container_metadata.html#a43b416d076436b510d9ea2ad72d22b57">gd::InstructionOrExpressionContainerMetadata</a>.</p>
 

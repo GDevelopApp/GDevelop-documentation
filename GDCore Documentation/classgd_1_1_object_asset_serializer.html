@@ -83,15 +83,15 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a3a02ff477713916f32cfbd0423ad6522"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_object_asset_serializer.html#a3a02ff477713916f32cfbd0423ad6522">SerializeTo</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_object.html">gd::Object</a> &amp;object, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectFullName, <a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element, std::map&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>, <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &amp;resourcesFileNameMap)</td></tr>
-<tr class="memdesc:a3a02ff477713916f32cfbd0423ad6522"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize an object into an asset.  <a href="classgd_1_1_object_asset_serializer.html#a3a02ff477713916f32cfbd0423ad6522">More...</a><br /></td></tr>
-<tr class="separator:a3a02ff477713916f32cfbd0423ad6522"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44d35b103516c195678d8f6026f8fdfb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_object_asset_serializer.html#a44d35b103516c195678d8f6026f8fdfb">SerializeTo</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_object.html">gd::Object</a> &amp;object, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectFullName, <a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element, std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &amp;usedResourceNames)</td></tr>
+<tr class="memdesc:a44d35b103516c195678d8f6026f8fdfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize an object into an asset.  <a href="classgd_1_1_object_asset_serializer.html#a44d35b103516c195678d8f6026f8fdfb">More...</a><br /></td></tr>
+<tr class="separator:a44d35b103516c195678d8f6026f8fdfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Serialize objects into an asset for the store. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a3a02ff477713916f32cfbd0423ad6522"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a02ff477713916f32cfbd0423ad6522">&#9670;&nbsp;</a></span>SerializeTo()</h2>
+<a id="a44d35b103516c195678d8f6026f8fdfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44d35b103516c195678d8f6026f8fdfb">&#9670;&nbsp;</a></span>SerializeTo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -126,8 +126,8 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::map&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>, <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>resourcesFileNameMap</em>&#160;</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>usedResourceNames</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -149,7 +149,7 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramname">object</td><td>The object to serialize as an asset. </td></tr>
     <tr><td class="paramname">objectFullName</td><td>The object name with spaces instead of PascalCase. </td></tr>
     <tr><td class="paramname">element</td><td>The element where the asset is serialize. </td></tr>
-    <tr><td class="paramname">resourcesFileNameMap</td><td>The map from project resource file paths to asset resource file paths. </td></tr>
+    <tr><td class="paramname">usedResourceNames</td><td>Return the names of the resources used by the asset. </td></tr>
   </table>
   </dd>
 </dl>

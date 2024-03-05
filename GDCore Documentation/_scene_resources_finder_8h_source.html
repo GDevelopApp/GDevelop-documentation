@@ -139,15 +139,21 @@ $(function() {
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <span class="keywordtype">void</span> ExposeModel3D(<a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;resourceName)<span class="keyword"> override </span>{</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    AddUsedResource(resourceName);</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  };</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  std::set&lt;gd::String&gt; resourceNames;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;};</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;} <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  <span class="keywordtype">void</span> ExposeAtlas(<a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;resourceName)<span class="keyword"> override </span>{</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    AddUsedResource(resourceName);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  };</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  <span class="keywordtype">void</span> ExposeSpine(<a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;resourceName)<span class="keyword"> override </span>{</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    AddUsedResource(resourceName);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  };</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  std::set&lt;gd::String&gt; resourceNames;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;};</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;} <span class="comment">// namespace gd</span></div>
 <div class="ttc" id="aclassgd_1_1_arbitrary_resource_worker_html"><div class="ttname"><a href="classgd_1_1_arbitrary_resource_worker.html">gd::ArbitraryResourceWorker</a></div><div class="ttdoc">ArbitraryResourceWorker is used so as to inventory resources and sometimes update them.</div><div class="ttdef"><b>Definition:</b> ArbitraryResourceWorker.h:44</div></div>
 <div class="ttc" id="aclassgd_1_1_layout_html"><div class="ttname"><a href="classgd_1_1_layout.html">gd::Layout</a></div><div class="ttdoc">Represent a layout ( also called a scene ) of a project.</div><div class="ttdef"><b>Definition:</b> Layout.h:39</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html"><div class="ttname"><a href="classgd_1_1_project.html">gd::Project</a></div><div class="ttdoc">Base class representing a project (game), including all resources, scenes, objects,...</div><div class="ttdef"><b>Definition:</b> Project.h:50</div></div>
-<div class="ttc" id="aclassgd_1_1_resources_manager_html"><div class="ttname"><a href="classgd_1_1_resources_manager.html">gd::ResourcesManager</a></div><div class="ttdoc">Inventory all resources used by a project.</div><div class="ttdef"><b>Definition:</b> ResourcesManager.h:516</div></div>
+<div class="ttc" id="aclassgd_1_1_resources_manager_html"><div class="ttname"><a href="classgd_1_1_resources_manager.html">gd::ResourcesManager</a></div><div class="ttdoc">Inventory all resources used by a project.</div><div class="ttdef"><b>Definition:</b> ResourcesManager.h:557</div></div>
 <div class="ttc" id="aclassgd_1_1_scene_resources_finder_html"><div class="ttname"><a href="classgd_1_1_scene_resources_finder.html">gd::SceneResourcesFinder</a></div><div class="ttdoc">Find resource usages in several parts of the project.</div><div class="ttdef"><b>Definition:</b> SceneResourcesFinder.h:27</div></div>
 <div class="ttc" id="aclassgd_1_1_scene_resources_finder_html_a012921fda015da797edf2a52bc678612"><div class="ttname"><a href="classgd_1_1_scene_resources_finder.html#a012921fda015da797edf2a52bc678612">gd::SceneResourcesFinder::FindProjectResources</a></div><div class="ttdeci">static std::set&lt; gd::String &gt; FindProjectResources(gd::Project &amp;project)</div><div class="ttdoc">Find resource that are used globally in the project.</div><div class="ttdef"><b>Definition:</b> SceneResourcesFinder.cpp:15</div></div>
 <div class="ttc" id="aclassgd_1_1_scene_resources_finder_html_a205fca6c76e2ff5a60ebb87a36a5d460"><div class="ttname"><a href="classgd_1_1_scene_resources_finder.html#a205fca6c76e2ff5a60ebb87a36a5d460">gd::SceneResourcesFinder::FindSceneResources</a></div><div class="ttdeci">static std::set&lt; gd::String &gt; FindSceneResources(gd::Project &amp;project, gd::Layout &amp;layout)</div><div class="ttdoc">Find resource usages in a given scenes.</div><div class="ttdef"><b>Definition:</b> SceneResourcesFinder.cpp:22</div></div>

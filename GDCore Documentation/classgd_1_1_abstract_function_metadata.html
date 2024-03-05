@@ -110,9 +110,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abf838597ceea98912e5a5f5263a6c6b9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classgd_1_1_abstract_function_metadata.html">AbstractFunctionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_abstract_function_metadata.html#abf838597ceea98912e5a5f5263a6c6b9">SetFunctionName</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;functionName)=0</td></tr>
 <tr class="memdesc:abf838597ceea98912e5a5f5263a6c6b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the function that should be called when generating the source code from events.  <a href="classgd_1_1_abstract_function_metadata.html#abf838597ceea98912e5a5f5263a6c6b9">More...</a><br /></td></tr>
 <tr class="separator:abf838597ceea98912e5a5f5263a6c6b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc1577c545b6fe1267eda2f5a7aedf1d"><td class="memItemLeft" align="right" valign="top"><a id="afc1577c545b6fe1267eda2f5a7aedf1d"></a>
-virtual <a class="el" href="classgd_1_1_abstract_function_metadata.html">AbstractFunctionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_abstract_function_metadata.html#afc1577c545b6fe1267eda2f5a7aedf1d">SetIncludeFile</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;includeFile)=0</td></tr>
-<tr class="memdesc:afc1577c545b6fe1267eda2f5a7aedf1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase any existing include file and add the specified include. <br /></td></tr>
+<tr class="memitem:afc1577c545b6fe1267eda2f5a7aedf1d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classgd_1_1_abstract_function_metadata.html">AbstractFunctionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_abstract_function_metadata.html#afc1577c545b6fe1267eda2f5a7aedf1d">SetIncludeFile</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;includeFile)=0</td></tr>
+<tr class="memdesc:afc1577c545b6fe1267eda2f5a7aedf1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase any existing include file and add the specified include.  <a href="classgd_1_1_abstract_function_metadata.html#afc1577c545b6fe1267eda2f5a7aedf1d">More...</a><br /></td></tr>
 <tr class="separator:afc1577c545b6fe1267eda2f5a7aedf1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec9c78aaef7d5cd591d4af2abeac567b"><td class="memItemLeft" align="right" valign="top"><a id="aec9c78aaef7d5cd591d4af2abeac567b"></a>
 virtual <a class="el" href="classgd_1_1_abstract_function_metadata.html">AbstractFunctionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_abstract_function_metadata.html#aec9c78aaef7d5cd591d4af2abeac567b">AddIncludeFile</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;includeFile)=0</td></tr>
@@ -307,6 +306,37 @@ virtual const std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::S
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_instruction_metadata.html#af7b3bb8d2cbb3c364ef9c560e372524a" title="Set the instruction to be hidden in the IDE.">gd::InstructionMetadata::SetHidden</a> </dd></dl>
 
 <p>Implemented in <a class="el" href="classgd_1_1_multiple_instruction_metadata.html#aeab95115f345c73c14459b317cc42f4e">gd::MultipleInstructionMetadata</a>, <a class="el" href="classgd_1_1_instruction_metadata.html#af7b3bb8d2cbb3c364ef9c560e372524a">gd::InstructionMetadata</a>, and <a class="el" href="classgd_1_1_expression_metadata.html#a64238f4919269d07b1f706f1633eeb4c">gd::ExpressionMetadata</a>.</p>
+
+</div>
+</div>
+<a id="afc1577c545b6fe1267eda2f5a7aedf1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc1577c545b6fe1267eda2f5a7aedf1d">&#9670;&nbsp;</a></span>SetIncludeFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classgd_1_1_abstract_function_metadata.html">AbstractFunctionMetadata</a>&amp; gd::AbstractFunctionMetadata::SetIncludeFile </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>includeFile</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Erase any existing include file and add the specified include. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000001">Deprecated:</a></b></dt><dd>Use <code>AddIncludeFile</code> instead as clearing the list is more error prone. </dd></dl>
+
+<p>Implemented in <a class="el" href="classgd_1_1_multiple_instruction_metadata.html#a397ccc8d96a54eedd8b1b27e036ef9a3">gd::MultipleInstructionMetadata</a>, <a class="el" href="classgd_1_1_instruction_metadata.html#a6784f13506fb49ed433983b259c6c499">gd::InstructionMetadata</a>, and <a class="el" href="classgd_1_1_expression_metadata.html#a932759309897f8bfd00e93aee711b0ac">gd::ExpressionMetadata</a>.</p>
 
 </div>
 </div>

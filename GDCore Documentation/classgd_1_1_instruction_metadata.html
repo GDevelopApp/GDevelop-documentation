@@ -248,9 +248,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memitem:a5fcc580e23bd12d8b308f34ce0f00fe7"><td class="memItemLeft" align="right" valign="top"><a id="a5fcc580e23bd12d8b308f34ce0f00fe7"></a>
 <a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>SetMutators</b> (const std::map&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>, <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &amp;mutators)</td></tr>
 <tr class="separator:a5fcc580e23bd12d8b308f34ce0f00fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6784f13506fb49ed433983b259c6c499"><td class="memItemLeft" align="right" valign="top"><a id="a6784f13506fb49ed433983b259c6c499"></a>
-<a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a6784f13506fb49ed433983b259c6c499">SetIncludeFile</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;includeFile) override</td></tr>
-<tr class="memdesc:a6784f13506fb49ed433983b259c6c499"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase any existing include file and add the specified include. <br /></td></tr>
+<tr class="memitem:a6784f13506fb49ed433983b259c6c499"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a6784f13506fb49ed433983b259c6c499">SetIncludeFile</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;includeFile) override</td></tr>
+<tr class="memdesc:a6784f13506fb49ed433983b259c6c499"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase any existing include file and add the specified include.  <a href="classgd_1_1_instruction_metadata.html#a6784f13506fb49ed433983b259c6c499">More...</a><br /></td></tr>
 <tr class="separator:a6784f13506fb49ed433983b259c6c499"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75b3c09beedcf588d3d763121016e0ec"><td class="memItemLeft" align="right" valign="top"><a id="a75b3c09beedcf588d3d763121016e0ec"></a>
 <a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a75b3c09beedcf588d3d763121016e0ec">AddIncludeFile</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;includeFile) override</td></tr>
@@ -532,7 +531,7 @@ std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">Paramet
 </div><div class="memdoc">
 
 <p>Return the structure containing the information about code generation for the instruction. </p>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000004">Deprecated:</a></b></dt><dd></dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000009">Deprecated:</a></b></dt><dd></dd></dl>
 
 </div>
 </div>
@@ -989,6 +988,37 @@ std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">Paramet
 <p>Used mainly when an instruction is deprecated. </p>
 
 <p>Implements <a class="el" href="classgd_1_1_abstract_function_metadata.html#adff5ff749c6b7f380b80e6488339935f">gd::AbstractFunctionMetadata</a>.</p>
+
+</div>
+</div>
+<a id="a6784f13506fb49ed433983b259c6c499"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6784f13506fb49ed433983b259c6c499">&#9670;&nbsp;</a></span>SetIncludeFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a>&amp; gd::InstructionMetadata::SetIncludeFile </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>includeFile</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Erase any existing include file and add the specified include. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000008">Deprecated:</a></b></dt><dd>Use <code>AddIncludeFile</code> instead as clearing the list is more error prone. </dd></dl>
+
+<p>Implements <a class="el" href="classgd_1_1_abstract_function_metadata.html#afc1577c545b6fe1267eda2f5a7aedf1d">gd::AbstractFunctionMetadata</a>.</p>
 
 </div>
 </div>

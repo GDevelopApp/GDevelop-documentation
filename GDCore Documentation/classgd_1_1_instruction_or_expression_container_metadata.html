@@ -215,7 +215,7 @@ virtual std::map&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Declare a new action as being part of the behavior or object. </p><dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000006">Deprecated:</a></b></dt><dd>Prefer using <code>AddScopedAction</code>, to properly namespace the action. </dd></dl>
+<p>Declare a new action as being part of the behavior or object. </p><dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000011">Deprecated:</a></b></dt><dd>Prefer using <code>AddScopedAction</code>, to properly namespace the action. </dd></dl>
 
 <p>Implemented in <a class="el" href="classgd_1_1_object_metadata.html#aa2e58247add0416f9f7b09e85fc36548">gd::ObjectMetadata</a>, and <a class="el" href="classgd_1_1_behavior_metadata.html#a5e95b28c177c68056306b0ae8b91fb6e">gd::BehaviorMetadata</a>.</p>
 
@@ -284,7 +284,7 @@ virtual std::map&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Declare a new condition as being part of the behavior or object. </p><dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000005">Deprecated:</a></b></dt><dd>Prefer using <code>AddScopedCondition</code>, to properly namespace the condition. </dd></dl>
+<p>Declare a new condition as being part of the behavior or object. </p><dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000010">Deprecated:</a></b></dt><dd>Prefer using <code>AddScopedCondition</code>, to properly namespace the condition. </dd></dl>
 
 <p>Implemented in <a class="el" href="classgd_1_1_object_metadata.html#a00f217f0c7d32bb14047080de9a75d6c">gd::ObjectMetadata</a>, and <a class="el" href="classgd_1_1_behavior_metadata.html#a7493d18e5c6abe2e9934def75af1edeb">gd::BehaviorMetadata</a>.</p>
 
@@ -936,6 +936,7 @@ It's recommended to use this function to avoid declaring 3 times a similar expre
 
 <p>Erase any existing include file and add the specified include. </p>
 <dl class="section note"><dt>Note</dt><dd>The requirement may vary depending on the platform: Most of the time, the include file contains the declaration of the behavior. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000012">Deprecated:</a></b></dt><dd>Use <code>AddIncludeFile</code> instead as clearing the list is more error prone. </dd></dl>
 
 <p>Implemented in <a class="el" href="classgd_1_1_object_metadata.html#a74702207049207ea73ff5db984baf2b3">gd::ObjectMetadata</a>, and <a class="el" href="classgd_1_1_behavior_metadata.html#a812ab60ccbe45d78536cb6e35c5bbbec">gd::BehaviorMetadata</a>.</p>
 

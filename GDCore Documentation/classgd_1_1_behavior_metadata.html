@@ -188,9 +188,15 @@ const std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a
 <tr class="memitem:a592c23f045b5751faa760ec5ae37b36b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_behavior.html">gd::Behavior</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_behavior_metadata.html#a592c23f045b5751faa760ec5ae37b36b">Get</a> () const</td></tr>
 <tr class="memdesc:a592c23f045b5751faa760ec5ae37b36b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the associated <a class="el" href="classgd_1_1_behavior.html" title="Base class used to represents a behavior that can be applied to an object. It stores the content (i....">gd::Behavior</a>, handling behavior contents.  <a href="classgd_1_1_behavior_metadata.html#a592c23f045b5751faa760ec5ae37b36b">More...</a><br /></td></tr>
 <tr class="separator:a592c23f045b5751faa760ec5ae37b36b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7eb74a6c383ab4aa6d6cae79ce0319f"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>, <a class="el" href="classgd_1_1_property_descriptor.html">gd::PropertyDescriptor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_behavior_metadata.html#ad7eb74a6c383ab4aa6d6cae79ce0319f">GetProperties</a> () const</td></tr>
+<tr class="memdesc:ad7eb74a6c383ab4aa6d6cae79ce0319f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the IDE wants to know about the custom properties of the behavior.  <a href="classgd_1_1_behavior_metadata.html#ad7eb74a6c383ab4aa6d6cae79ce0319f">More...</a><br /></td></tr>
+<tr class="separator:ad7eb74a6c383ab4aa6d6cae79ce0319f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89883680283e125a695b2e1657799cb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_behaviors_shared_data.html">gd::BehaviorsSharedData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_behavior_metadata.html#a89883680283e125a695b2e1657799cb1">GetSharedDataInstance</a> () const</td></tr>
 <tr class="memdesc:a89883680283e125a695b2e1657799cb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the associated <a class="el" href="classgd_1_1_behaviors_shared_data.html" title="Base class for defining data shared by behaviors having the same type and name.">gd::BehaviorsSharedData</a>, handling behavior shared data, if any (nullptr if none).  <a href="classgd_1_1_behavior_metadata.html#a89883680283e125a695b2e1657799cb1">More...</a><br /></td></tr>
 <tr class="separator:a89883680283e125a695b2e1657799cb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f7dfdeac1a45701e70df7e039df1d1a"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>, <a class="el" href="classgd_1_1_property_descriptor.html">gd::PropertyDescriptor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_behavior_metadata.html#a2f7dfdeac1a45701e70df7e039df1d1a">GetSharedProperties</a> () const</td></tr>
+<tr class="memdesc:a2f7dfdeac1a45701e70df7e039df1d1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the IDE wants to know about the custom shared properties of the behavior.  <a href="classgd_1_1_behavior_metadata.html#a2f7dfdeac1a45701e70df7e039df1d1a">More...</a><br /></td></tr>
+<tr class="separator:a2f7dfdeac1a45701e70df7e039df1d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abde8f281d2d78453604893552dea63ae"><td class="memItemLeft" align="right" valign="top"><a id="abde8f281d2d78453604893552dea63ae"></a>
 std::map&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>, <a class="el" href="classgd_1_1_instruction_metadata.html">gd::InstructionMetadata</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_behavior_metadata.html#abde8f281d2d78453604893552dea63ae">GetAllActions</a> () override</td></tr>
 <tr class="memdesc:abde8f281d2d78453604893552dea63ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to a map containing the names of the actions (as keys) and the metadata associated with (as values). <br /></td></tr>
@@ -354,7 +360,7 @@ std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt;
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Declare a new action as being part of the behavior. </p><dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000002">Deprecated:</a></b></dt><dd>Prefer using <code>AddScopedAction</code>, to properly namespace the action. </dd></dl>
+<p>Declare a new action as being part of the behavior. </p><dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000003">Deprecated:</a></b></dt><dd>Prefer using <code>AddScopedAction</code>, to properly namespace the action. </dd></dl>
 
 <p>Implements <a class="el" href="classgd_1_1_instruction_or_expression_container_metadata.html#a7e864881dae1524ba87b35fdcc7d0872">gd::InstructionOrExpressionContainerMetadata</a>.</p>
 
@@ -423,7 +429,7 @@ std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt;
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Declare a new condition as being part of the behavior. </p><dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000001">Deprecated:</a></b></dt><dd>Prefer using <code>AddScopedCondition</code>, to properly namespace the condition. </dd></dl>
+<p>Declare a new condition as being part of the behavior. </p><dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000002">Deprecated:</a></b></dt><dd>Prefer using <code>AddScopedCondition</code>, to properly namespace the condition. </dd></dl>
 
 <p>Implements <a class="el" href="classgd_1_1_instruction_or_expression_container_metadata.html#a550c4bfe856c0b9785f4d85f774ac3fc">gd::InstructionOrExpressionContainerMetadata</a>.</p>
 
@@ -1150,6 +1156,27 @@ It's recommended to use this function to avoid declaring 3 times a similar expre
 
 </div>
 </div>
+<a id="ad7eb74a6c383ab4aa6d6cae79ce0319f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7eb74a6c383ab4aa6d6cae79ce0319f">&#9670;&nbsp;</a></span>GetProperties()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>, <a class="el" href="classgd_1_1_property_descriptor.html">gd::PropertyDescriptor</a> &gt; gd::BehaviorMetadata::GetProperties </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called when the IDE wants to know about the custom properties of the behavior. </p>
+<dl class="section return"><dt>Returns</dt><dd>a std::map with properties names as key. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_property_descriptor.html" title="Used to describe a property shown in a property grid.">gd::PropertyDescriptor</a> </dd></dl>
+
+</div>
+</div>
 <a id="a89883680283e125a695b2e1657799cb1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a89883680283e125a695b2e1657799cb1">&#9670;&nbsp;</a></span>GetSharedDataInstance()</h2>
 
@@ -1167,6 +1194,27 @@ It's recommended to use this function to avoid declaring 3 times a similar expre
 
 <p>Return the associated <a class="el" href="classgd_1_1_behaviors_shared_data.html" title="Base class for defining data shared by behaviors having the same type and name.">gd::BehaviorsSharedData</a>, handling behavior shared data, if any (nullptr if none). </p>
 <dl class="section note"><dt>Note</dt><dd>Returns nullptr for events based behaviors as they don't declare shared data yet. </dd></dl>
+
+</div>
+</div>
+<a id="a2f7dfdeac1a45701e70df7e039df1d1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f7dfdeac1a45701e70df7e039df1d1a">&#9670;&nbsp;</a></span>GetSharedProperties()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>, <a class="el" href="classgd_1_1_property_descriptor.html">gd::PropertyDescriptor</a> &gt; gd::BehaviorMetadata::GetSharedProperties </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called when the IDE wants to know about the custom shared properties of the behavior. </p>
+<dl class="section return"><dt>Returns</dt><dd>a std::map with properties names as key. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_property_descriptor.html" title="Used to describe a property shown in a property grid.">gd::PropertyDescriptor</a> </dd></dl>
 
 </div>
 </div>
@@ -1304,6 +1352,7 @@ It's recommended to use this function to avoid declaring 3 times a similar expre
 
 <p>Erase any existing include file and add the specified include. </p>
 <dl class="section note"><dt>Note</dt><dd>The requirement may vary depending on the platform: Most of the time, the include file contains the declaration of the behavior. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000004">Deprecated:</a></b></dt><dd>Use <code>AddIncludeFile</code> instead as clearing the list is more error prone. </dd></dl>
 
 <p>Implements <a class="el" href="classgd_1_1_instruction_or_expression_container_metadata.html#a43b416d076436b510d9ea2ad72d22b57">gd::InstructionOrExpressionContainerMetadata</a>.</p>
 

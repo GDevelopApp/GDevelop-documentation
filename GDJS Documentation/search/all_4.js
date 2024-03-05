@@ -11,12 +11,13 @@ var searchData=
   ['exporteventscode_22',['ExportEventsCode',['../d0/d75/classgdjs_1_1_exporter_helper.html#ae2b787948395cc20ad5435579ac72199',1,'gdjs::ExporterHelper']]],
   ['exportexternalsourcefiles_23',['ExportExternalSourceFiles',['../d0/d75/classgdjs_1_1_exporter_helper.html#a6f9aef14c2dfee84123d0c29f470b96c',1,'gdjs::ExporterHelper']]],
   ['exportfacebookinstantgamesfiles_24',['ExportFacebookInstantGamesFiles',['../d0/d75/classgdjs_1_1_exporter_helper.html#a749478cbbaec91e7ca2bf51447f9ecd5',1,'gdjs::ExporterHelper']]],
-  ['exportincludesandlibs_25',['ExportIncludesAndLibs',['../d0/d75/classgdjs_1_1_exporter_helper.html#a4b7bf354abd3e2548eed82ddfd59f40a',1,'gdjs::ExporterHelper']]],
-  ['exportoptions_26',['ExportOptions',['../dd/d37/structgdjs_1_1_export_options.html#aad6b93a5ecf060c3c2ac858269c96aec',1,'gdjs::ExportOptions::ExportOptions()'],['../dd/d37/structgdjs_1_1_export_options.html',1,'gdjs::ExportOptions']]],
-  ['exportpixiindexfile_27',['ExportPixiIndexFile',['../d0/d75/classgdjs_1_1_exporter_helper.html#ae2aae031a52f88912d57853ed53db002',1,'gdjs::ExporterHelper']]],
-  ['exportprojectdata_28',['ExportProjectData',['../d0/d75/classgdjs_1_1_exporter_helper.html#adcc7540303cbfb5aca85d35924b2a072',1,'gdjs::ExporterHelper']]],
-  ['exportprojectforpixipreview_29',['ExportProjectForPixiPreview',['../dc/dda/classgdjs_1_1_exporter.html#ae6c8aea4046fd6fae37a4e163cd2b968',1,'gdjs::Exporter::ExportProjectForPixiPreview()'],['../d0/d75/classgdjs_1_1_exporter_helper.html#a26a7da4237f55e55b078bdd585a39c4a',1,'gdjs::ExporterHelper::ExportProjectForPixiPreview(const PreviewExportOptions &amp;options)']]],
-  ['exportresources_30',['ExportResources',['../d0/d75/classgdjs_1_1_exporter_helper.html#a82bff829110d0bad0d7d5c6ff6d6c89d',1,'gdjs::ExporterHelper']]],
-  ['exportwholepixiproject_31',['ExportWholePixiProject',['../dc/dda/classgdjs_1_1_exporter.html#a9dae449c994ec955a3779a87481caeb1',1,'gdjs::Exporter']]],
-  ['externallayoutsextension_32',['ExternalLayoutsExtension',['../d7/d0d/classgdjs_1_1_external_layouts_extension.html',1,'gdjs']]]
+  ['exporthtml5files_25',['ExportHtml5Files',['../d0/d75/classgdjs_1_1_exporter_helper.html#a2b1f16b162f2637f13fe7a6247c1647a',1,'gdjs::ExporterHelper']]],
+  ['exportincludesandlibs_26',['ExportIncludesAndLibs',['../d0/d75/classgdjs_1_1_exporter_helper.html#a4b7bf354abd3e2548eed82ddfd59f40a',1,'gdjs::ExporterHelper']]],
+  ['exportoptions_27',['ExportOptions',['../dd/d37/structgdjs_1_1_export_options.html#aad6b93a5ecf060c3c2ac858269c96aec',1,'gdjs::ExportOptions::ExportOptions()'],['../dd/d37/structgdjs_1_1_export_options.html',1,'gdjs::ExportOptions']]],
+  ['exportpixiindexfile_28',['ExportPixiIndexFile',['../d0/d75/classgdjs_1_1_exporter_helper.html#ae2aae031a52f88912d57853ed53db002',1,'gdjs::ExporterHelper']]],
+  ['exportprojectdata_29',['ExportProjectData',['../d0/d75/classgdjs_1_1_exporter_helper.html#adcc7540303cbfb5aca85d35924b2a072',1,'gdjs::ExporterHelper']]],
+  ['exportprojectforpixipreview_30',['ExportProjectForPixiPreview',['../dc/dda/classgdjs_1_1_exporter.html#ae6c8aea4046fd6fae37a4e163cd2b968',1,'gdjs::Exporter::ExportProjectForPixiPreview()'],['../d0/d75/classgdjs_1_1_exporter_helper.html#a26a7da4237f55e55b078bdd585a39c4a',1,'gdjs::ExporterHelper::ExportProjectForPixiPreview(const PreviewExportOptions &amp;options)']]],
+  ['exportresources_31',['ExportResources',['../d0/d75/classgdjs_1_1_exporter_helper.html#a82bff829110d0bad0d7d5c6ff6d6c89d',1,'gdjs::ExporterHelper']]],
+  ['exportwholepixiproject_32',['ExportWholePixiProject',['../dc/dda/classgdjs_1_1_exporter.html#a9dae449c994ec955a3779a87481caeb1',1,'gdjs::Exporter']]],
+  ['externallayoutsextension_33',['ExternalLayoutsExtension',['../d7/d0d/classgdjs_1_1_external_layouts_extension.html',1,'gdjs']]]
 ];
