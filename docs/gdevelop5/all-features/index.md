@@ -68,6 +68,7 @@ Note that GDevelop can also be extended with extensions: take a look at [the lis
 * [Player Authentication](/gdevelop5/all-features/player-authentication) ([reference](/gdevelop5/all-features/player-authentication/reference))
 * [Screenshot](/gdevelop5/all-features/screenshot) ([reference](/gdevelop5/all-features/screenshot/reference))
 * [Spatial sound](/gdevelop5/all-features/spatial-sound/reference)
+* [Spine (experimental)](/gdevelop5/objects/spine) ([reference](/gdevelop5/all-features/spine-object/reference))
 * [Steamworks (Steam) (experimental)](/gdevelop5/all-features/steamworks/reference)
 * [Text Input](/gdevelop5/all-features/text-input/reference)
 * [Tilemap](/gdevelop5/objects/tilemap) ([reference](/gdevelop5/all-features/tilemap/reference))

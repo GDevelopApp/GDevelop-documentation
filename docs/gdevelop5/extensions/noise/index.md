@@ -1,7 +1,7 @@
 # Noise generator
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/sprinkler.svg" class="extension-icon"></img>
-Expressions for generating Simplex noise values. Useful for procedural generation.
+Generate noise values for procedural generation.
 
 **Authors and contributors** to this community extension: [Add00](https://gd.games/Add00), [VictrisGames](https://gd.games/VictrisGames), [D8H](https://gd.games/D8H).
 
@@ -14,7 +14,7 @@ Noise can be useful for many procedural generation cases such as:
 - Curves (roads, rivers...)
 - Textures (fog, milky way...)
 - Screen shake
-- Probably many other things
+- Many other things
 
 This extension contains expressions to generate Simplex noise values in 1, 2, 3 and 4 dimensions. A *"seed"* allows to generate the same world again later on instead of having to save the whole generated world.
 

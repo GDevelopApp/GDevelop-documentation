@@ -1307,6 +1307,18 @@ Allow your game to authenticate players. [Read more explanations about it.](/gde
 ---
 
 
+
+## Spine (experimental) 
+
+Display and smoothly animate a 2D object with skeletal animations made with Spine. Use files exported from Spine (json, atlas and image). [Read more explanations about it.](/gdevelop5/objects/spine)
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.Animation()` | Return the duration of the smooth transition between 2 animations (in second). ||
+
+---
+
+
 ## Steamworks (Steam) (experimental)
 
 Adds integrations for Steam's Steamworks game development SDK. 

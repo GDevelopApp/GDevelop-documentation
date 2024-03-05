@@ -1,9 +1,9 @@
 # Repeat every X seconds
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/repeat.svg" class="extension-icon"></img>
-This allows to trigger an event every X seconds.
+Trigger an event every X seconds.
 
-**Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555), [VegeTato](https://gd.games/VegeTato).
+**Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555), [VegeTato](https://gd.games/VegeTato), [D8H](https://gd.games/D8H).
 
 ---
 
@@ -12,15 +12,28 @@ Convenience conditions, actions and behaviors for timers to trigger a condition 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
+## Actions
+
+**Reset repetition count of a scene timer**  
+Reset repetition count of a scene timer.
+
 ## Conditions
 
-**Repeat every X seconds**  
+**Repeat with a scene timer**  
 Triggers every X seconds.
 
-**Repeat every X seconds in X number**  
+**Repeat with a scene timer X times**  
 Triggers every X seconds X amount of times.
 
+**Repetition number of a scene timer**  
+Compare the number of times the timer has repeated.
 
+## Expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `RepeatEveryXSeconds::Repetition(string)` | Return the number of times the timer has repeated. ||
+| | _string_ | Timer name used to loop |
 
 ## Repeat every X seconds 
 
@@ -28,22 +41,26 @@ Allows to repeat an object timer every X seconds.
 
 ### Behavior actions
 
-**Pause a recurring timer**  
-Pauses a recurring timer.
-
-**Reset the limit**  
-Allows to trigger the recurring timer X times again.
-
-**Resume a recurring timer**  
-Resumes a paused recurring timer.
+**Reset repetition count of an object timer**  
+Reset repetition count of an object timer.
 
 ### Behavior conditions
 
-**Repeat every X seconds**  
-Triggers every X seconds, where X is defined in the behavior properties.
+**Repeat with an object timer**  
+Triggers every X seconds.
 
-_No expressions for this behavior._
+**Repeat with an object timer X times**  
+Triggers every X seconds X amount of times.
 
+**Repetition number of an object timer**  
+Compare the number of times the timer has repeated.
+
+### Behavior expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.RepeatTimer::Repetition(string)` | Return the number of times the timer has repeated. ||
+| | _string_ | Timer name used to loop |
 
 ---
 

@@ -18,6 +18,8 @@ The camera follows an object according to:
 
 A platformer dedicated behavior allows to switch of settings when the character is in air or on the floor. This can be used to stabilize the camera when jumping.
 
+[Read more...](/gdevelop5/tutorials/follow-player-with-camera/)
+
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 

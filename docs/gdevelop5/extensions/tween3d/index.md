@@ -1,7 +1,7 @@
-# 3D tween (experimental)
+# Advanced 3D tween (experimental)
 
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/30bc03f9cf5f2f42960246a605352a6937ae6b603f0177396a83193849a4724a_tennis-ball.svg" class="extension-icon"></img>
-Smoothly animate scale and rotation of 3d models.
+Smoothly squash, strentch and wobble 3D models.
 
 **Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).
 
@@ -14,7 +14,15 @@ Smoothly animate scale and rotation of 3d models.
 
 ---
 
-Change models proportions and orientation over time to make smooth animations.
+Change 3D models proportions over time to make smooth animations like wobbling.
+
+It's used in this example:
+
+* a 3D Bomberman-like game ([open the project online](https://editor.gdevelop.io/?project=example://3d-bomber-bunny))
+
+Breaking changes of 0.1.0:
+
+- The Tween behavior is now required by the 3D Tween behavior. Add the Tween behavior on any object that uses the 3D Tween behavior
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
@@ -47,18 +55,6 @@ Change the stretch on Z axis. The object volume is conserved. A stretch of 2 mak
 
 **Stop a tween**  
 Stop the running tween animation.
-
-**Tween depth (Z size)**  
-Tweens an object depth from its current value to a new one.
-
-**Tween Z position**  
-Tweens an object Z position from its current value to a new one.
-
-**Tween X rotation**  
-Tweens an object X rotation from its current value to a new one.
-
-**Tween rotation Y**  
-Tweens an object Y rotation from its current value to a new one.
 
 **Tween scale volume**  
 Tweens an object scale volume from its current value to a new one. The scale volume can never be 0 or less.
@@ -172,4 +168,4 @@ Compare the stretch cycle offset of the object.
 
 ---
 
-*This page is an auto-generated reference page about the **3D tween (experimental)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Advanced 3D tween (experimental)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

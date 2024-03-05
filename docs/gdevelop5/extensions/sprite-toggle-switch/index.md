@@ -30,10 +30,16 @@ De/activate interactions with the button.
 **Check (or uncheck)**  
 Check (or uncheck) the toggle switch.
 
+**Toggle**  
+Toggle the switch.
+
 ### Object conditions
 
 **Has just been checked**  
 Check if the toggle switch was checked in the current frame.
+
+**Has just been toggled**  
+Check if the toggle switch was checked or unchecked in the current frame.
 
 **Has just been unchecked**  
 Check if the toggle switch was unchecked in the current frame.

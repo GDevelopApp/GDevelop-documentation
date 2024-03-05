@@ -5,9 +5,21 @@ Allows using flexbox for positioning objects.
 
 **Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555).
 
+!!! warning
+    This is an extension made by a community member — but not reviewed
+    by the GDevelop extension team. As such, we can't guarantee it
+    meets all the quality standards of official extensions. In case of
+    doubt, contact the author to know more about what the extension
+    does or inspect its content before using it.
+
 ---
 
 A behavior to position objects using the CSS Flexible Box layout. Find more information at https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+Known bugs:
+
+
+- This extension leaks memory at scene changes. It can result to heavy CPU usage and error messages.
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

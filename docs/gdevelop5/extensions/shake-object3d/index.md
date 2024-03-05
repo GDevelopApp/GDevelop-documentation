@@ -30,13 +30,13 @@ Shake 3D objects with translation and rotation.
 Change the shaking frequency of the object.
 
 **Shake**  
-Shake the camera on layers chosen with configuration actions.
+Shake the object with a linear easing at the start and the end.
 
 **Start shaking**  
-Start shaking the camera indefinitely.
+Shake the object with a linear easing at the start and keep shaking until the stop action is used.
 
 **Stop shaking**  
-Stop shaking the camera.
+Stop shaking the object with a linear easing.
 
 ### Behavior conditions
 
@@ -45,6 +45,9 @@ Compare the shaking frequency of the object.
 
 **Is shaking**  
 Check if the object is shaking.
+
+**Is stopping to shake**  
+Check if the object is stopping to shake.
 
 ### Behavior expressions
 

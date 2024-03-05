@@ -17,9 +17,6 @@ Create a simple 3D scene.
 Extension for GDevelop to create simple 3D scenes.  
 This extension is intended for easy and simple 3D rendering. It does not currently aim for realistic 3D rendering.  
 
-## ⚠️ Precautions for use  
-This extension is experimental. Destructive changes may be made.  
-
 ## 📖 How to use  
 Check out this page.  
 [WithThreeJs Extension for GDevelop](https://pandako.itch.io/with-threejs-extension-for-gdevelop)  
@@ -41,6 +38,10 @@ https://github.com/mrdoob/three.js/blob/dev/LICENSE
 
 **Add Child**  
 Add 3D Object as child to 3D object.
+
+**Add Suffix To 3D Object ID**  
+Adds a suffix to the IDs of the specified 3D object and its children.  
+Note that if lights or sounds are included as children, their IDs will also change.
 
 **3D Camera Look At 3D Object**  
 3D Camera Look At 3D Object
@@ -66,6 +67,9 @@ Change the 3D Texture of a 3D Object.
 Change all animations speed scale of a 3D Object.  
 0 is pause.
 Negative values play backwards.
+
+**Change 3D Object Blend Mode**  
+Change the Blend Mode of a 3D Object.
 
 **Change 3D Object DepthWrite (Experimental)**  
 Change the DepthWrite of a 3D Object.  

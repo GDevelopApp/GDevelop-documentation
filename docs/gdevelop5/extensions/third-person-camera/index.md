@@ -28,6 +28,92 @@ Move the camera to look at a position from a distance.
 
 
 
+## Third person camera 
+
+Smoothly follow an object at a distance. 
+
+### Behavior actions
+
+**Move the camera closer**  
+Move the camera closer to the object. This action must be called after the object has moved for the frame.
+
+**Camera distance**  
+Change the camera distance of the object.
+
+**Elevation angle offset**  
+Change the elevation angle offset of the object.
+
+**Follow free area top border on Z axis**  
+Change the follow free area top border on Z axis of the object.
+
+**Follow free area bottom border on Z axis**  
+Change the follow free area bottom border on Z axis of the object.
+
+**X offset**  
+Change the x offset of the object.
+
+**Y offset**  
+Change the y offset of the object.
+
+**Z offset**  
+Change the z offset of the object.
+
+**Rotation angle offset**  
+Change the rotation angle offset of the object.
+
+**Halfway time for rotation**  
+Change the halfway time for rotation of the object.
+
+**Halfway time on Z axis**  
+Change the halfway time on Z axis of the object.
+
+### Behavior conditions
+
+**Camera distance**  
+Compare the camera distance of the object.
+
+**Elevation angle offset**  
+Compare the elevation angle offset of the object.
+
+**Follow free area top border on Z axis**  
+Compare the follow free area top border on Z axis of the object.
+
+**Follow free area bottom border on Z axis**  
+Compare the follow free area bottom border on Z axis of the object.
+
+**X offset**  
+Compare the x offset of the object.
+
+**Y offset**  
+Compare the y offset of the object.
+
+**Z offset**  
+Compare the z offset of the object.
+
+**Rotation angle offset**  
+Compare the rotation angle offset of the object.
+
+**Halfway time for rotation**  
+Compare the halfway time for rotation of the object.
+
+**Halfway time on Z axis**  
+Compare the halfway time on Z axis of the object.
+
+### Behavior expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.ThirdPersonCamera::Distance()` | Return the camera distance of the object. ||
+| `Object.ThirdPersonCamera::ElevationAngleOffset()` | Return the elevation angle offset of the object. ||
+| `Object.ThirdPersonCamera::FollowFreeAreaZMax()` | Return the follow free area top border on Z axis of the object. ||
+| `Object.ThirdPersonCamera::FollowFreeAreaZMin()` | Return the follow free area bottom border on Z axis of the object. ||
+| `Object.ThirdPersonCamera::OffsetX()` | Return the x offset of the object. ||
+| `Object.ThirdPersonCamera::OffsetY()` | Return the y offset of the object. ||
+| `Object.ThirdPersonCamera::OffsetZ()` | Return the z offset of the object. ||
+| `Object.ThirdPersonCamera::RotationAngleOffset()` | Return the rotation angle offset of the object. ||
+| `Object.ThirdPersonCamera::RotationHalfwayDuration()` | Return the halfway time for rotation of the object. ||
+| `Object.ThirdPersonCamera::TranslationZHalfwayDuration()` | Return the halfway time on Z axis of the object. ||
+
 ---
 
 *This page is an auto-generated reference page about the **Third person camera** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
