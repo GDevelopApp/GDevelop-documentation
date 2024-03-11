@@ -21,7 +21,7 @@ This extension provides a timer against the clock to create timed challenges in 
 
 ## Actions
 
-**Restar the countdown timer**  
+**Restart the countdown timer**  
 Reset the countdown to its initial value.
 
 **Set the countdown of the clock**  
