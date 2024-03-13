@@ -43,6 +43,9 @@ Change the color used when filling
 **Fill opacity**  
 Modify the opacity level used when filling future drawings.
 
+**Fillet Rectangle**  
+Draw a fillet rectangle on screen
+
 **Line**  
 Draw a line on screen
 
