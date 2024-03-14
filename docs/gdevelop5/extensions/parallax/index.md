@@ -9,6 +9,11 @@ Behaviors to animate Tiled Sprite objects in the background, following the camer
 
 Behaviors to animate Tiled Sprite objects in the background, following the camera with a parallax effect.
 
+Breaking changes
+
+- 2.0.0
+  - The parallax now starts with an offset of 0.
+
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 

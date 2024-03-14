@@ -209,7 +209,7 @@ Here are listed all the extensions available in GDevelop. The list is divided in
 |<img src="https://resources.gdevelop-app.com/assets/Icons/movie-filter.svg" class="extension-icon"></img>|**Flash and transition painter**|Behavior for shape painter allows you to paint a color all over the screen for period of time with an effect (useful for simulate flash and transition effect).|[Read more...](/gdevelop5/extensions/flash-transition-painter)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/peanut-outline.svg" class="extension-icon"></img>|**Marching Squares (experimental)**|Allow to build a "scalar field" and draw contour lines of it: useful for fog of wars, liquid effects, paint the ground, etc...|[Read more...](/gdevelop5/extensions/marching-squares/details) ([reference](/gdevelop5/extensions/marching-squares))|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/2ea979b9db9294f26b40687e214f26d7926682457113ccc6dca4174bce6033aa_knife.svg" class="extension-icon"></img>|**Slice an object into pieces**|Slice an object into smaller pieces that match the color of original object.|[Read more...](/gdevelop5/extensions/object-slicer)|
-|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/f2e5a34bf465f781866677762d385d6c8e9e8d203383f2df9a3b7e0fad6a2cb5_fire.svg" class="extension-icon"></img>|**3D particle emitter (experimental)**|Display a large number of particles to create visual effects.|[Read more...](/gdevelop5/extensions/particle-emitter3d)|
+|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/f2e5a34bf465f781866677762d385d6c8e9e8d203383f2df9a3b7e0fad6a2cb5_fire.svg" class="extension-icon"></img>|**3D particle emitter**|Display a large number of particles to create visual effects.|[Read more...](/gdevelop5/extensions/particle-emitter3d)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Graphic Design/Graphic Design_color_colour_palette_paint_brush.svg" class="extension-icon"></img>|**Object recolorizer (experimental)**|Independently change the colors of a sprite, a tiled sprite or a panel sprite.|[Read more...](/gdevelop5/extensions/recolorizer)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/reflect-vertical.svg" class="extension-icon"></img>|**Reflection**|Add a reflection to a selected object.|[Read more...](/gdevelop5/extensions/reflection)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/vector-arrange-above.svg" class="extension-icon"></img>|**Animate Shadow Clones**|Create and animate shadow clones that follow the path of a primary object.|[Read more...](https://www.youtube.com/watch?v=2t4ANYgrrak) ([reference](/gdevelop5/extensions/shadow-clones))|
@@ -242,6 +242,12 @@ does or inspect its content before using it.
 |---|---|---|---|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Glyphster Pack/Master/SVG/Music/308ee40b08fc7798832654e3ab95d1df6a66bfb8e7aae0a19697e120449931d0_Music_speaker_audio_sound.svg" class="extension-icon"></img>|**Audio Context**|Create procedural audio.|[Read more...](https://aliustaoglu.itch.io/audiocontext-gdevelop-extension) ([reference](/gdevelop5/extensions/audio-context))|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Music/Music_speaker_audio_sound.svg" class="extension-icon"></img>|**Sound volume based on distance**|Make any sound volume on any channel increase and decrease based on distance.|[Read more...](/gdevelop5/extensions/sound-volume-based-on-distance)|
+
+### Camera
+
+||Name|Description||
+|---|---|---|---|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/vector-difference-ab.svg" class="extension-icon"></img>|**3D camera shake**|Shake 3D layer cameras.|[Read more...](/gdevelop5/extensions/camera-shake3d)|
 
 ### Device
 

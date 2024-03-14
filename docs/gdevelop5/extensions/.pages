@@ -148,7 +148,7 @@ nav:
         - Flash and transition painter: flash-transition-painter
         - Marching Squares (experimental): marching-squares
         - Slice an object into pieces: object-slicer
-        - 3D particle emitter (experimental): particle-emitter3d
+        - 3D particle emitter: particle-emitter3d
         - Object recolorizer (experimental): recolorizer
         - Reflection: reflection
         - Animate Shadow Clones: shadow-clones
@@ -166,6 +166,8 @@ nav:
         - Audio:
             - Audio Context: audio-context
             - Sound volume based on distance: sound-volume-based-on-distance
+        - Camera:
+            - 3D camera shake: camera-shake3d
         - Device:
             - GPS: geolocation
             - Voice Recognition API: voice-recognition

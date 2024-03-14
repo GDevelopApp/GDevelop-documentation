@@ -1,4 +1,4 @@
-# 3D particle emitter (experimental)
+# 3D particle emitter
 
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/f2e5a34bf465f781866677762d385d6c8e9e8d203383f2df9a3b7e0fad6a2cb5_fire.svg" class="extension-icon"></img>
 Display a large number of particles to create visual effects.
@@ -14,9 +14,12 @@ Particle emitters can be used to display:
 - Splashes
 - Lights
 
-Breaking change from 1.0.0:
+Breaking change
 
-- Particles were 3 times too small
+- 2.0.0
+  - Object properties for position and rotation have been removed. They must be set with the instance editor or the action.
+- 1.0.0
+  - Particles were 3 times too small
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
@@ -62,12 +65,6 @@ Change the max lifespan of the object.
 **Min lifespan**  
 Change the min lifespan of the object.
 
-**Rotation on X axis**  
-Change the rotation on X axis of the emitter.
-
-**Rotation on Y axis**  
-Change the rotation on Y axis of the emitter.
-
 **Delete when emission ends**  
 Change if delete when emission ends.
 
@@ -91,9 +88,6 @@ Change the max start speed of the object.
 
 **Min start speed**  
 Change the min start speed of the object.
-
-**Z (elevation)**  
-Change the Z position of the emitter.
 
 ### Object conditions
 
@@ -133,12 +127,6 @@ Compare the max lifespan of the object.
 **Min lifespan**  
 Compare the min lifespan of the object.
 
-**Rotation on X axis**  
-Compare the rotation on X axis of the emitter.
-
-**Rotation on Y axis**  
-Compare the rotation on Y axis of the emitter.
-
 **Delete when emission ends**  
 Check if delete when emission ends.
 
@@ -163,9 +151,6 @@ Compare the max start speed of the object.
 **Min start speed**  
 Compare the min start speed of the object.
 
-**Z (elevation)**  
-Compare the Z position of the emitter.
-
 ### Object expressions
 
 | Expression | Description |  |
@@ -180,8 +165,6 @@ Compare the Z position of the emitter.
 | `Object.GravityTop()` | Return the gravity top of the object. ||
 | `Object.LifespanMax()` | Return the max lifespan of the object. ||
 | `Object.LifespanMin()` | Return the min lifespan of the object. ||
-| `Object.RotationX()` | Return the rotation on X axis of the emitter. ||
-| `Object.RotationY()` | Return the rotation on Y axis of the emitter. ||
 | `Object.SpayConeAngle()` | Return the spay cone angle of the object. ||
 | `Object.StartColor()` | Return the start color of the object. ||
 | `Object.StartOpacity()` | Return the start opacity of the object. ||
@@ -189,8 +172,7 @@ Compare the Z position of the emitter.
 | `Object.StartSizeMin()` | Return the start min size of the object. ||
 | `Object.StartSpeedMax()` | Return the max start speed of the object. ||
 | `Object.StartSpeedMin()` | Return the min start speed of the object. ||
-| `Object.Z()` | Return the Z position of the emitter. ||
 
 ---
 
-*This page is an auto-generated reference page about the **3D particle emitter (experimental)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **3D particle emitter** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
