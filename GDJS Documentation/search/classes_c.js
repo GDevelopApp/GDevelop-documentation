@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['resizableextension_147',['ResizableExtension',['../d8/dd6/classgdjs_1_1_resizable_extension.html',1,'gdjs']]]
+  ['previewexportoptions_148',['PreviewExportOptions',['../db/dbe/structgdjs_1_1_preview_export_options.html',1,'gdjs']]]
 ];

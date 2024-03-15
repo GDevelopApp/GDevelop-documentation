@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['variablesextension_154',['VariablesExtension',['../dd/d25/classgdjs_1_1_variables_extension.html',1,'gdjs']]]
+  ['textcontainerextension_154',['TextContainerExtension',['../dc/d5c/classgdjs_1_1_text_container_extension.html',1,'gdjs']]],
+  ['timeextension_155',['TimeExtension',['../d8/d4b/classgdjs_1_1_time_extension.html',1,'gdjs']]]
 ];

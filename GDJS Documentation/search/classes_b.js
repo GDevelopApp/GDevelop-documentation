@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['previewexportoptions_146',['PreviewExportOptions',['../db/dbe/structgdjs_1_1_preview_export_options.html',1,'gdjs']]]
+  ['objectcodegenerator_146',['ObjectCodeGenerator',['../dc/df3/classgdjs_1_1_object_code_generator.html',1,'gdjs']]],
+  ['opacityextension_147',['OpacityExtension',['../dd/da0/classgdjs_1_1_opacity_extension.html',1,'gdjs']]]
 ];

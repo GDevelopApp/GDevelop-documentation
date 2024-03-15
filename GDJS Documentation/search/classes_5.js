@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['jscodeevent_136',['JsCodeEvent',['../dc/d13/classgdjs_1_1_js_code_event.html',1,'gdjs']]],
-  ['jsplatform_137',['JsPlatform',['../d2/d3d/classgdjs_1_1_js_platform.html',1,'gdjs']]]
+  ['fileextension_136',['FileExtension',['../d7/d56/classgdjs_1_1_file_extension.html',1,'gdjs']]],
+  ['flippableextension_137',['FlippableExtension',['../d0/d41/classgdjs_1_1_flippable_extension.html',1,'gdjs']]]
 ];
