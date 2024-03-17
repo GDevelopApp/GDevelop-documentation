@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/image-move.svg" class="extension-icon"></img>
 Behaviors to animate Tiled Sprite objects in the background, following the camera with a parallax effect.
 
-**Authors and contributors** to this community extension: [4ian](https://gd.games/4ian).
+**Authors and contributors** to this community extension: [4ian](https://gd.games/4ian), [D8H](https://gd.games/D8H).
 
 ---
 
@@ -11,7 +11,7 @@ Behaviors to animate Tiled Sprite objects in the background, following the camer
 
 Breaking changes
 
-- 2.0.0
+- 2.0.1
   - The parallax now starts with an offset of 0.
 
 !!! tip
