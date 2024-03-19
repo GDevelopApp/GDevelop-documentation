@@ -182,6 +182,7 @@ nav:
             - JSON Resource Loading: jsonresource-loader
             - Load images from a URL: load-image-from-url
             - Maze Generator: maze-generator
+            - 3D model 9-patch: model9patch3d
             - 3D raycast: raycaster3d
             - Variables/References: references
             - TimeDetector: time-detector
