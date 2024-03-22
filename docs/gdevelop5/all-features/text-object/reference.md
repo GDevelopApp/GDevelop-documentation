@@ -10,9 +10,6 @@ Displays a text on the screen.
 
 ### Object actions
 
-**Angle**  
-Modify the angle of a Text object.
-
 **Color**  
 Change the color of the text. The color is white by default.
 
@@ -70,9 +67,6 @@ Modify the word wrapping width of a Text object.
 
 ### Object conditions
 
-**Angle**  
-Compare the value of the angle of a Text object.
-
 **Bold**  
 Check if the bold style is activated
 
@@ -119,10 +113,13 @@ Test the word wrapping width of a Text object.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Object.Angle()` | Angle ||
 | `Object.FontSize()` | Return the font size of a text object. ||
+| `Object.OutlineThickness()` | Return the outline thickness of the text. ||
 | `Object.Padding()` | Padding ||
-| `Object.String()` | Text ||
+| `Object.ShadowAngle()` | Return the shadow angle of the text. ||
+| `Object.ShadowBlurRadius()` | Return the shadow blur radius of the text. ||
+| `Object.ShadowDistance()` | Return the shadow distance of the text. ||
+| `Object.ShadowOpacity()` | Return the shadow opacity of the text. ||
 
 ---
 *This page is an auto-generated reference page about the **Text object** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

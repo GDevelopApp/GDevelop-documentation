@@ -685,10 +685,13 @@ Displays a text on the screen. [Read more explanations about it.](/gdevelop5/obj
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Object.Angle()` | Angle ||
 | `Object.FontSize()` | Return the font size of a text object. ||
+| `Object.OutlineThickness()` | Return the outline thickness of the text. ||
 | `Object.Padding()` | Padding ||
-| `Object.String()` | Text ||
+| `Object.ShadowAngle()` | Return the shadow angle of the text. ||
+| `Object.ShadowBlurRadius()` | Return the shadow blur radius of the text. ||
+| `Object.ShadowDistance()` | Return the shadow distance of the text. ||
+| `Object.ShadowOpacity()` | Return the shadow opacity of the text. ||
 
 ---
 
