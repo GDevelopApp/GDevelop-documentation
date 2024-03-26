@@ -77,12 +77,12 @@ $(function() {
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * Copyright 2008-2016 Florian Rival (Florian.Rival@gmail.com). All rights</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * reserved. This project is released under the MIT License.</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#ifndef GDCORE_DIRECTION_H</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#define GDCORE_DIRECTION_H</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;GDCore/String.h&quot;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegd.html">gd</a> {</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">class </span>Sprite;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;GDCore/Extensions/Builtin/SpriteExtension/Sprite.h&quot;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegd.html">gd</a> {</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">class </span>SerializerElement;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
@@ -136,7 +136,6 @@ $(function() {
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;};</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160; </div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;}  <span class="comment">// namespace gd</span></div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// GDCORE_DIRECTION_H</span></div>
 <div class="ttc" id="aclassgd_1_1_direction_html"><div class="ttname"><a href="classgd_1_1_direction.html">gd::Direction</a></div><div class="ttdoc">Class defining a direction (set of frames) of an Animation.</div><div class="ttdef"><b>Definition:</b> Direction.h:28</div></div>
 <div class="ttc" id="aclassgd_1_1_direction_html_a539989483f881cf9ca0e4f23df7ef754"><div class="ttname"><a href="classgd_1_1_direction.html#a539989483f881cf9ca0e4f23df7ef754">gd::Direction::GetMetadata</a></div><div class="ttdeci">virtual const gd::String &amp; GetMetadata() const</div><div class="ttdoc">Return the (optional) metadata associated to the Direction.</div><div class="ttdef"><b>Definition:</b> Direction.h:132</div></div>
 <div class="ttc" id="aclassgd_1_1_direction_html_a78c79c70c9f683b06b2a50ba4c3f3b5d"><div class="ttname"><a href="classgd_1_1_direction.html#a78c79c70c9f683b06b2a50ba4c3f3b5d">gd::Direction::IsLooping</a></div><div class="ttdeci">bool IsLooping() const</div><div class="ttdoc">Return true if sprites looping is activated.</div><div class="ttdef"><b>Definition:</b> Direction.h:36</div></div>

@@ -102,57 +102,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a381a02700a8134a5c00c098ada5fe6d1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_sprite_object.html#a381a02700a8134a5c00c098ada5fe6d1">UpdateInitialInstanceProperty</a> (<a class="el" href="classgd_1_1_initial_instance.html">gd::InitialInstance</a> &amp;position, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;value, <a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, <a class="el" href="classgd_1_1_layout.html">gd::Layout</a> &amp;scene) override</td></tr>
 <tr class="memdesc:a381a02700a8134a5c00c098ada5fe6d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the IDE wants to update a custom property of an initial instance of this object configuration.  <a href="classgd_1_1_sprite_object.html#a381a02700a8134a5c00c098ada5fe6d1">More...</a><br /></td></tr>
 <tr class="separator:a381a02700a8134a5c00c098ada5fe6d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Animations</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p>Methods related to animations management </p>
-</div></td></tr>
-<tr class="memitem:a34eea73dadda77f265b280dc5105415a"><td class="memItemLeft" align="right" valign="top"><a id="a34eea73dadda77f265b280dc5105415a"></a>
-const <a class="el" href="classgd_1_1_animation.html">Animation</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_sprite_object.html#a34eea73dadda77f265b280dc5105415a">GetAnimation</a> (std::size_t nb) const</td></tr>
-<tr class="memdesc:a34eea73dadda77f265b280dc5105415a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the animation at the specified index. If the index is out of bound, a "bad animation" object is returned. <br /></td></tr>
-<tr class="separator:a34eea73dadda77f265b280dc5105415a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54f24384e96891cde1c60159df9150a9"><td class="memItemLeft" align="right" valign="top"><a id="a54f24384e96891cde1c60159df9150a9"></a>
-<a class="el" href="classgd_1_1_animation.html">Animation</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_sprite_object.html#a54f24384e96891cde1c60159df9150a9">GetAnimation</a> (std::size_t nb)</td></tr>
-<tr class="memdesc:a54f24384e96891cde1c60159df9150a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the animation at the specified index. If the index is out of bound, a "bad animation" object is returned. <br /></td></tr>
-<tr class="separator:a54f24384e96891cde1c60159df9150a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac59f9c90ea8ad18dad9193cba31d82c4"><td class="memItemLeft" align="right" valign="top"><a id="ac59f9c90ea8ad18dad9193cba31d82c4"></a>
-std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_sprite_object.html#ac59f9c90ea8ad18dad9193cba31d82c4">GetAnimationsCount</a> () const</td></tr>
-<tr class="memdesc:ac59f9c90ea8ad18dad9193cba31d82c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of animations this object has. <br /></td></tr>
-<tr class="separator:ac59f9c90ea8ad18dad9193cba31d82c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69b8768b8e895149067a3826ca9d3489"><td class="memItemLeft" align="right" valign="top"><a id="a69b8768b8e895149067a3826ca9d3489"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_sprite_object.html#a69b8768b8e895149067a3826ca9d3489">AddAnimation</a> (const <a class="el" href="classgd_1_1_animation.html">Animation</a> &amp;animation)</td></tr>
-<tr class="memdesc:a69b8768b8e895149067a3826ca9d3489"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an animation at the end of the existing ones. <br /></td></tr>
-<tr class="separator:a69b8768b8e895149067a3826ca9d3489"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b580a1a5188fca32caf364cac20155a"><td class="memItemLeft" align="right" valign="top"><a id="a0b580a1a5188fca32caf364cac20155a"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_sprite_object.html#a0b580a1a5188fca32caf364cac20155a">RemoveAnimation</a> (std::size_t nb)</td></tr>
-<tr class="memdesc:a0b580a1a5188fca32caf364cac20155a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove an animation. <br /></td></tr>
-<tr class="separator:a0b580a1a5188fca32caf364cac20155a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0799f7b38f5914f5f0b72b013a820674"><td class="memItemLeft" align="right" valign="top"><a id="a0799f7b38f5914f5f0b72b013a820674"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_sprite_object.html#a0799f7b38f5914f5f0b72b013a820674">RemoveAllAnimations</a> ()</td></tr>
-<tr class="memdesc:a0799f7b38f5914f5f0b72b013a820674"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all animations. <br /></td></tr>
-<tr class="separator:a0799f7b38f5914f5f0b72b013a820674"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af45ca6f686406f656131530442bc26f1"><td class="memItemLeft" align="right" valign="top"><a id="af45ca6f686406f656131530442bc26f1"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_sprite_object.html#af45ca6f686406f656131530442bc26f1">HasNoAnimations</a> () const</td></tr>
-<tr class="memdesc:af45ca6f686406f656131530442bc26f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the object hasn't any animation. <br /></td></tr>
-<tr class="separator:af45ca6f686406f656131530442bc26f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf28c28cd8d599a16da01ed34ea8d216"><td class="memItemLeft" align="right" valign="top"><a id="adf28c28cd8d599a16da01ed34ea8d216"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_sprite_object.html#adf28c28cd8d599a16da01ed34ea8d216">SwapAnimations</a> (std::size_t firstIndex, std::size_t secondIndex)</td></tr>
-<tr class="memdesc:adf28c28cd8d599a16da01ed34ea8d216"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swap the position of two animations. <br /></td></tr>
-<tr class="separator:adf28c28cd8d599a16da01ed34ea8d216"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d3fda5c06e108a2208fc4b2bebfa71b"><td class="memItemLeft" align="right" valign="top"><a id="a8d3fda5c06e108a2208fc4b2bebfa71b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_sprite_object.html#a8d3fda5c06e108a2208fc4b2bebfa71b">MoveAnimation</a> (std::size_t oldIndex, std::size_t newIndex)</td></tr>
-<tr class="memdesc:a8d3fda5c06e108a2208fc4b2bebfa71b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the position of the specified animation. <br /></td></tr>
-<tr class="separator:a8d3fda5c06e108a2208fc4b2bebfa71b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a231112296652710fe7518f09968d387d"><td class="memItemLeft" align="right" valign="top"><a id="a231112296652710fe7518f09968d387d"></a>
-const std::vector&lt; <a class="el" href="classgd_1_1_animation.html">Animation</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_sprite_object.html#a231112296652710fe7518f09968d387d">GetAllAnimations</a> () const</td></tr>
-<tr class="memdesc:a231112296652710fe7518f09968d387d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a read-only reference to the vector containing all the animation of the object. <br /></td></tr>
-<tr class="separator:a231112296652710fe7518f09968d387d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa20cca8c3dc6e21584ce73cff9af06db"><td class="memItemLeft" align="right" valign="top"><a id="aa20cca8c3dc6e21584ce73cff9af06db"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_sprite_object.html#aa20cca8c3dc6e21584ce73cff9af06db">AdaptCollisionMaskAutomatically</a> () const</td></tr>
-<tr class="memdesc:aa20cca8c3dc6e21584ce73cff9af06db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the collision mask adapts automatically to the animation. <br /></td></tr>
-<tr class="separator:aa20cca8c3dc6e21584ce73cff9af06db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6036fc9b37412f626087c8a4a6bcd36"><td class="memItemLeft" align="right" valign="top"><a id="ac6036fc9b37412f626087c8a4a6bcd36"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_sprite_object.html#ac6036fc9b37412f626087c8a4a6bcd36">SetAdaptCollisionMaskAutomatically</a> (bool enable)</td></tr>
-<tr class="memdesc:ac6036fc9b37412f626087c8a4a6bcd36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set if the collision mask adapts automatically to the animation. <br /></td></tr>
-<tr class="separator:ac6036fc9b37412f626087c8a4a6bcd36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a995ebfd67dadf6865a51e065fa60c24c"><td class="memItemLeft" align="right" valign="top"><a id="a995ebfd67dadf6865a51e065fa60c24c"></a>
+const <a class="el" href="classgd_1_1_sprite_animation_list.html">SpriteAnimationList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_sprite_object.html#a995ebfd67dadf6865a51e065fa60c24c">GetAnimations</a> () const</td></tr>
+<tr class="memdesc:a995ebfd67dadf6865a51e065fa60c24c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the animation configuration. <br /></td></tr>
+<tr class="separator:a995ebfd67dadf6865a51e065fa60c24c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31c61c0bbf8c994889642783ec1b7c5b"><td class="memItemLeft" align="right" valign="top"><a id="a31c61c0bbf8c994889642783ec1b7c5b"></a>
+<a class="el" href="classgd_1_1_sprite_animation_list.html">SpriteAnimationList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_sprite_object.html#a31c61c0bbf8c994889642783ec1b7c5b">GetAnimations</a> ()</td></tr>
+<tr class="memdesc:a31c61c0bbf8c994889642783ec1b7c5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the animation configuration. <br /></td></tr>
+<tr class="separator:a31c61c0bbf8c994889642783ec1b7c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9caf2c36d497be4f74070bf1133d69ac"><td class="memItemLeft" align="right" valign="top"><a id="a9caf2c36d497be4f74070bf1133d69ac"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_sprite_object.html#a9caf2c36d497be4f74070bf1133d69ac">SetUpdateIfNotVisible</a> (bool updateIfNotVisible_)</td></tr>
 <tr class="memdesc:a9caf2c36d497be4f74070bf1133d69ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set if the object animation should be played even if the object is hidden or far from the camera. <br /></td></tr>
