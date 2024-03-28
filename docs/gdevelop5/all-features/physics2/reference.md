@@ -146,6 +146,9 @@ Modify an object gravity scale. The gravity applied to an object is the world gr
 **Linear damping**  
 Modify an object linear damping. How much movement speed is lost across the time.
 
+**Linear velocity towards an angle**  
+Set the linear velocity towards an angle.
+
 **Linear velocity X**  
 Modify an object linear velocity on X.
 
