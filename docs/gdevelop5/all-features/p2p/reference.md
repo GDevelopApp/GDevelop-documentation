@@ -19,6 +19,9 @@ Disconnects the client from the broker server.
 **Disconnect from a peer**  
 Disconnects this client from another client.
 
+**Disable IP address sharing**  
+Disables the sharing of IP addresses with the other peers. This action needs to be called BEFORE connecting to the broker server.
+
 **Get event data (variable)**  
 Store the data of the specified event in a variable. Check in the conditions that the event was received using the "Event received" condition.
 
