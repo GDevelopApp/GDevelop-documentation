@@ -15,10 +15,16 @@ GDevelop can automatically package your game for iOS so that you can test it on 
 It is important to verify that your game is ready to be exported for iOS:
 
 - In the game properties that are accessible from the [Project Manager](/gdevelop5/interface)), make sure to enter a valid _package name_. A package name is an identifier like this: `com.yourname.gamename`. It's like the address of a website but reversed. You can choose any package name provided that:
-  - It is not used by another game or application on iOS or Android.
-  - It is written with only letters, numbers, and dots. Only put one dot between words (for example, `com..mygame` or `..mygame` are not valid). _Limit this identifier to 2-5 words maximum._
-  - You properly registered it on the [App Store Connect website](./app-store), if you want to publish it on the App Store.
+  
+    - It is not used by another game or application on iOS or Android.
+    - It is written with only letters, numbers, and dots. Only put one dot between words (for example, `com..mygame` or `..mygame` are not valid). _Limit this identifier to 2-5 words maximum._
+    - You properly registered it on the [App Store Connect website](./app-store), if you want to publish it on the App Store.
+      
 - Also check that you've included the required icons.
+
+!!! warning
+
+    If you don't use the same package name in your project properties and in your Apple Developer accounts setting ("App Id"), the iOS builds won't work.
 
 ## Create your Apple Developer account
 
