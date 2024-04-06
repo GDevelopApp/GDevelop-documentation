@@ -185,6 +185,7 @@ nav:
             - 3D model 9-patch: model9patch3d
             - 3D raycast: raycaster3d
             - Variables/References: references
+            - 3D sprite: sprite3d
             - TimeDetector: time-detector
         - Input:
             - CheatCode: cheat-code
