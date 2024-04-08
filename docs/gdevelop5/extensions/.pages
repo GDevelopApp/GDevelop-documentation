@@ -164,6 +164,7 @@ nav:
             - Draw shock wave effect: draw-shock-wave-effect
             - Rotate a string 13 characters: rotate13
         - Audio:
+            - Sounds and music by filename: audio-by-name
             - Audio Context: audio-context
             - Sound volume based on distance: sound-volume-based-on-distance
         - Camera:

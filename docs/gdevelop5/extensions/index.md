@@ -240,6 +240,7 @@ does or inspect its content before using it.
 
 ||Name|Description||
 |---|---|---|---|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Music/Music_speaker_audio_sound.svg" class="extension-icon"></img>|**Sounds and music by filename**|Play audio with an expression as filename.|[Read more...](/gdevelop5/extensions/audio-by-name)|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Glyphster Pack/Master/SVG/Music/308ee40b08fc7798832654e3ab95d1df6a66bfb8e7aae0a19697e120449931d0_Music_speaker_audio_sound.svg" class="extension-icon"></img>|**Audio Context**|Create procedural audio.|[Read more...](https://aliustaoglu.itch.io/audiocontext-gdevelop-extension) ([reference](/gdevelop5/extensions/audio-context))|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Music/Music_speaker_audio_sound.svg" class="extension-icon"></img>|**Sound volume based on distance**|Make any sound volume on any channel increase and decrease based on distance.|[Read more...](/gdevelop5/extensions/sound-volume-based-on-distance)|
 
