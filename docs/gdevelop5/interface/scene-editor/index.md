@@ -33,7 +33,22 @@ You can find the **Instance Properties panel** on the left side of the Scene Edi
 
 An object that you put on the scene _is called **an instance**_. The Properties panel allows you to change the properties of the selected instance(s):
 
-* This can be the instance coordinates on the scene, scale, and Z-order. All objects share common properties (as well as common actions and conditions in events). **You can [learn about these here](/gdevelop5/objects/base_object)**.
+![Instance panel](https://github.com/GDevelopApp/GDevelop-documentation/assets/103995399/afce132f-fab7-42de-ae0c-b6f923affd0f)
+
+  1) **Name indicator:** displays the name of the object that the *instance* represents
+  2) **Instance lock:** blocks an instance's possition. It has 3 states: *ii* blocks the instance while maintaining its edition capabilites, *iii* blocks the instance's possition, edition *and* selection, and *i* unlocks the instance completley.
+Another method to unlock an instance is finding the instance on the [instance panel list](/gdevelop5/interface/scene-editor/#objects-groups-panel) and clicking on the icon to unlock the desired instance
+![Lock states](https://github.com/GDevelopApp/GDevelop-documentation/assets/103995399/62a5d956-e3ba-4dc5-88ca-9b5bc039ebc1)
+  3) **Edit object:** opens the dialog to modify the instance's object
+  4) **Possition values:** instance's coordinates on the scene
+  5) **Size values:** instance's size values like Width -horizontal size-, Height -vertical size- and Depth for 3D objects
+  6) **Mantain proportions:** links size values to be modified proportionally. Values can be modified by typing the size in the input, or by clicking on the input's name and dragging horizontally to increase or decrease the value
+  7) **Reset to object values:** reset modified values in the instance to their object's original size
+  8) **Layer:** displays the location of the instance
+  9) **Animation:** displays the instance's animation for tile management
+
+
+All objects share common properties (as well as common actions and conditions in events). **You can [learn about these here](/gdevelop5/objects/base_object)**.
 * Some objects can also have special properties. For example, a [Sprite object](/gdevelop5/objects/sprite) allow you to set the initial animation of each instance on the scene (the default animation being the first). Read about [objects](/gdevelop5/objects) to see all the objects that you can use in GDevelop.
 
 !!! tip
