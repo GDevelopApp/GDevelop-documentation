@@ -26,6 +26,11 @@ A video ad filling the entire game screen can be displayed using the **Display v
 
 - **Rewarded**: An advertisements that can be requested by the user in exchange for a reward (an additional life, a retry when the user dies, a bonus starting item, extra starting health, etc.). Rewarded ads should be shown when users explicitly consent to watch an advertisement.
 
+!!! warning
+
+    When testing your game in CrazyGames' QA Tool, midgame ads won’t work, only the reward ads. You must really submit your game in their Developer environment. After this, test again in the QA Tool. The ads should now work. This is the only way to test midgame ads ads in your game.
+
+
 ![](crazy-games-video-ad-action.png)
 
 You can use the **Video ad just finished playing** condition to resume the game after the end of the ad.
