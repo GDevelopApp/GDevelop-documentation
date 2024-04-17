@@ -28,7 +28,7 @@ A video ad filling the entire game screen can be displayed using the **Display v
 
 !!! warning
 
-    When testing your game in CrazyGames' QA Tool, midgame ads won’t work, only the reward ads. You must really submit your game in their Developer environment. After thi, tesst again in the QA Tool. The ads should now work. This is the only way to test midgame ads ads in your game.
+    When testing your game in CrazyGames' QA Tool, midgame ads won’t work, only the reward ads. You must really submit your game in their Developer environment. After this, test again in the QA Tool. The ads should now work. This is the only way to test midgame ads ads in your game.
 
 
 ![](crazy-games-video-ad-action.png)
