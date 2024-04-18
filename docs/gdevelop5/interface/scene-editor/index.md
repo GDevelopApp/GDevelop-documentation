@@ -7,13 +7,11 @@ When opening a scene (or an external layout), the Scene Editor opens.
 
 ![Level](Level.png)
 
-
 The Scene Editor is where you can design and build the game levels, menus,  inventories, or any other screen in the game. The Scene Editor allows you to create and add objects to the scene. The gameplay and rules of the game can be created using events in the [Events Editor](/gdevelop5/interface/events-editor).
 
 On the right side of the toolbar in the scene editor, you have options to open panels used for different parts of your game, as well as some other tools.
 
-![Panels](https://github.com/LuniMoon/GDevelop-documentation/assets/103995399/b8d8f4b3-b308-47a8-b51c-67e0351b3479)
-
+![Panels](Panels.png)
 
 ## Objects panel
 
