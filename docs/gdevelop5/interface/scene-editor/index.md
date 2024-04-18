@@ -41,17 +41,17 @@ An object that you put on the scene _is called **an instance**_. The Properties 
 
 
   1. **Name indicator:** displays the name of the object that the *instance* represents
-  2. **Instance lock:** blocks an instance's possition. It has 3 states: *ii* blocks the instance while maintaining its edition capabilites, *iii* blocks the instance's possition, edition *and* selection, and *i* unlocks the instance completley.
+  2. **Instance lock:** blocks an instance's possition. It has 3 states: *(ii)* blocks the instance while maintaining its edition capabilites, *(iii)* blocks the instance's possition, edition *and* selection, and *(i)* unlocks the instance completely.
 Another method to unlock an instance is finding the instance on the [instance panel list](/gdevelop5/interface/scene-editor/#objects-groups-panel) and clicking on the icon to unlock the desired instance
 ![Lock states](https://github.com/LuniMoon/GDevelop-documentation/assets/103995399/8d992494-ce43-4326-8096-3b2f572525ec)
 
   3. **Edit object:** opens the dialog to modify the instance's object
-  4. **Possition values:** instance's coordinates on the scene
+  4. **Position values:** instance's coordinates on the scene
   5. **Size values:** instance's size values like Width -horizontal size-, Height -vertical size- and Depth for 3D objects
-  6. **Mantain proportions:** links size values to be modified proportionally. Values can be modified by typing the size in the input, or by clicking on the input's name and dragging horizontally to increase or decrease the value
+  6. **Maintain proportions:** links size values to be modified proportionally. Values can be modified by typing the size in the input, or by clicking on the input's name and dragging horizontally to increase or decrease the value
   7. **Reset to object values:** reset modified values in the instance to their object's original size
   8. **Layer:** displays the location of the instance
-  9. **Animation:** displays the instance's animation for tile management
+  9. **Animation:** displays and modifies instance's animation
 
 
 All objects share common properties (as well as common actions and conditions in events). **You can [learn about these here](/gdevelop5/objects/base_object)**.
