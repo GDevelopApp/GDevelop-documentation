@@ -50,7 +50,7 @@ Another method to unlock an instance is finding the instance on the [instance pa
   5. **Size values:** instance's size values like Width -horizontal size-, Height -vertical size- and Depth for 3D objects
   6. **Maintain proportions:** links size values to be modified proportionally. Values can be modified by typing the size in the input, or by clicking on the input's name and dragging horizontally to increase or decrease the value
   7. **Reset to object values:** reset modified values in the instance to their object's original size
-  8. **Layer:** displays the location of the instance
+  8. **Layer:** displays the instance's location in the [Layer Panel](https://gdevelop-wiki-git-fork-lunimoon-patch-6-gdevelop.vercel.app/gdevelop5/interface/scene-editor/#layers-panel)
   9. **Animation:** displays and modifies instance's animation
 
 
