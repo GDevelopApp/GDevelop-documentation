@@ -5,19 +5,22 @@ title: Scene Editor
 
 When opening a scene (or an external layout), the Scene Editor opens.
 
-![](/gdevelop5/interface/scene-editor/pasted/20230310-185143.png)
+![Level](https://github.com/LuniMoon/GDevelop-documentation/assets/103995399/fd9454dc-525d-4fc4-a7b3-8568fd7c8d4c)
+
 
 The Scene Editor is where you can design and build the game levels, menus,  inventories, or any other screen in the game. The Scene Editor allows you to create and add objects to the scene. The gameplay and rules of the game can be created using events in the [Events Editor](/gdevelop5/interface/events-editor).
 
 On the right side of the toolbar in the scene editor, you have options to open panels used for different parts of your game, as well as some other tools.
 
-![](/gdevelop5/interface/scene-editor/pasted/20230310-185534.png)
+![Panels](https://github.com/LuniMoon/GDevelop-documentation/assets/103995399/b8d8f4b3-b308-47a8-b51c-67e0351b3479)
+
 
 ## Objects panel
 
 The **Objects Panel**, when first opened, appears on the right side of the Scene Editor's interface. This is where you can see all of [the objects](/gdevelop5/objects) used in your scene. You can also add new objects to your list by clicking the **add new objects** button at the bottom of the panel.
 
-![](/gdevelop5/interface/scene-editor/pasted/20230307-152758.png)
+![Objects](https://github.com/LuniMoon/GDevelop-documentation/assets/103995399/3f977185-c520-476f-b683-0f101f495d72)
+
 
 If you close the Object Panel, you can reopen it by using this button on the toolbar:
 
@@ -29,23 +32,26 @@ Read about all [the features available and the objects types](/gdevelop5/objects
 
 You can find the **Instance Properties panel** on the left side of the Scene Editor's interface. When opened, the panel may have no information displayed in it, but if you select an instance of an object placed into your scene, the panel will display all of the information relevant to that instance of the object.
 
-![](/gdevelop5/interface/scene-editor/pasted/20230307-153101.png)
+![Instance panel](https://github.com/LuniMoon/GDevelop-documentation/assets/103995399/80cff420-bf58-46df-b5b3-2ef126e051e0)
+
 
 An object that you put on the scene _is called **an instance**_. The Properties panel allows you to change the properties of the selected instance(s):
 
-![Instance panel](https://github.com/GDevelopApp/GDevelop-documentation/assets/103995399/afce132f-fab7-42de-ae0c-b6f923affd0f)
+![New panel](https://github.com/LuniMoon/GDevelop-documentation/assets/103995399/228c25e8-3123-4756-ad27-b1c64a327299)
 
-  1) **Name indicator:** displays the name of the object that the *instance* represents
-  2) **Instance lock:** blocks an instance's possition. It has 3 states: *ii* blocks the instance while maintaining its edition capabilites, *iii* blocks the instance's possition, edition *and* selection, and *i* unlocks the instance completley.
+
+  1. **Name indicator:** displays the name of the object that the *instance* represents
+  2. **Instance lock:** blocks an instance's possition. It has 3 states: *ii* blocks the instance while maintaining its edition capabilites, *iii* blocks the instance's possition, edition *and* selection, and *i* unlocks the instance completley.
 Another method to unlock an instance is finding the instance on the [instance panel list](/gdevelop5/interface/scene-editor/#objects-groups-panel) and clicking on the icon to unlock the desired instance
-![Lock states](https://github.com/GDevelopApp/GDevelop-documentation/assets/103995399/62a5d956-e3ba-4dc5-88ca-9b5bc039ebc1)
-  3) **Edit object:** opens the dialog to modify the instance's object
-  4) **Possition values:** instance's coordinates on the scene
-  5) **Size values:** instance's size values like Width -horizontal size-, Height -vertical size- and Depth for 3D objects
-  6) **Mantain proportions:** links size values to be modified proportionally. Values can be modified by typing the size in the input, or by clicking on the input's name and dragging horizontally to increase or decrease the value
-  7) **Reset to object values:** reset modified values in the instance to their object's original size
-  8) **Layer:** displays the location of the instance
-  9) **Animation:** displays the instance's animation for tile management
+![Lock states](https://github.com/LuniMoon/GDevelop-documentation/assets/103995399/8d992494-ce43-4326-8096-3b2f572525ec)
+
+  3. **Edit object:** opens the dialog to modify the instance's object
+  4. **Possition values:** instance's coordinates on the scene
+  5. **Size values:** instance's size values like Width -horizontal size-, Height -vertical size- and Depth for 3D objects
+  6. **Mantain proportions:** links size values to be modified proportionally. Values can be modified by typing the size in the input, or by clicking on the input's name and dragging horizontally to increase or decrease the value
+  7. **Reset to object values:** reset modified values in the instance to their object's original size
+  8. **Layer:** displays the location of the instance
+  9. **Animation:** displays the instance's animation for tile management
 
 
 All objects share common properties (as well as common actions and conditions in events). **You can [learn about these here](/gdevelop5/objects/base_object)**.
