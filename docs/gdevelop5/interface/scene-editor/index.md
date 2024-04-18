@@ -17,8 +17,7 @@ On the right side of the toolbar in the scene editor, you have options to open p
 
 The **Objects Panel**, when first opened, appears on the right side of the Scene Editor's interface. This is where you can see all of [the objects](/gdevelop5/objects) used in your scene. You can also add new objects to your list by clicking the **add new objects** button at the bottom of the panel.
 
-![Objects](https://github.com/LuniMoon/GDevelop-documentation/assets/103995399/3f977185-c520-476f-b683-0f101f495d72)
-
+![Objects](Objects.png)
 
 If you close the Object Panel, you can reopen it by using this button on the toolbar:
 
@@ -30,18 +29,17 @@ Read about all [the features available and the objects types](/gdevelop5/objects
 
 You can find the **Instance Properties panel** on the left side of the Scene Editor's interface. When opened, the panel may have no information displayed in it, but if you select an instance of an object placed into your scene, the panel will display all of the information relevant to that instance of the object.
 
-![Instance panel](https://github.com/LuniMoon/GDevelop-documentation/assets/103995399/80cff420-bf58-46df-b5b3-2ef126e051e0)
+![Instance panel](Instances.png)
 
 
 An object that you put on the scene _is called **an instance**_. The Properties panel allows you to change the properties of the selected instance(s):
 
-![New panel](https://github.com/LuniMoon/GDevelop-documentation/assets/103995399/228c25e8-3123-4756-ad27-b1c64a327299)
-
+![New panel](Properties-panel.png)
 
   1. **Name indicator:** displays the name of the object that the *instance* represents
   2. **Instance lock:** blocks an instance's possition. It has 3 states: *(ii)* blocks the instance while maintaining its edition capabilites, *(iii)* blocks the instance's possition, edition *and* selection, and *(i)* unlocks the instance completely.
 Another method to unlock an instance is finding the instance on the [instance panel list](/gdevelop5/interface/scene-editor/#objects-groups-panel) and clicking on the icon to unlock the desired instance
-![Lock states](https://github.com/LuniMoon/GDevelop-documentation/assets/103995399/8d992494-ce43-4326-8096-3b2f572525ec)
+![Lock states](Icons.png)
 
   3. **Edit object:** opens the dialog to modify the instance's object
   4. **Position values:** instance's coordinates on the scene
