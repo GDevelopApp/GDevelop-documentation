@@ -5,19 +5,19 @@ title: Scene Editor
 
 When opening a scene (or an external layout), the Scene Editor opens.
 
-![](/gdevelop5/interface/scene-editor/pasted/20230310-185143.png)
+![Level](Level.png)
 
 The Scene Editor is where you can design and build the game levels, menus,  inventories, or any other screen in the game. The Scene Editor allows you to create and add objects to the scene. The gameplay and rules of the game can be created using events in the [Events Editor](/gdevelop5/interface/events-editor).
 
 On the right side of the toolbar in the scene editor, you have options to open panels used for different parts of your game, as well as some other tools.
 
-![](/gdevelop5/interface/scene-editor/pasted/20230310-185534.png)
+![Panels](Panels.png)
 
 ## Objects panel
 
 The **Objects Panel**, when first opened, appears on the right side of the Scene Editor's interface. This is where you can see all of [the objects](/gdevelop5/objects) used in your scene. You can also add new objects to your list by clicking the **add new objects** button at the bottom of the panel.
 
-![](/gdevelop5/interface/scene-editor/pasted/20230307-152758.png)
+![Objects](Objects.png)
 
 If you close the Object Panel, you can reopen it by using this button on the toolbar:
 
@@ -29,11 +29,28 @@ Read about all [the features available and the objects types](/gdevelop5/objects
 
 You can find the **Instance Properties panel** on the left side of the Scene Editor's interface. When opened, the panel may have no information displayed in it, but if you select an instance of an object placed into your scene, the panel will display all of the information relevant to that instance of the object.
 
-![](/gdevelop5/interface/scene-editor/pasted/20230307-153101.png)
+![Instance panel](Instances.png)
+
 
 An object that you put on the scene _is called **an instance**_. The Properties panel allows you to change the properties of the selected instance(s):
 
-* This can be the instance coordinates on the scene, scale, and Z-order. All objects share common properties (as well as common actions and conditions in events). **You can [learn about these here](/gdevelop5/objects/base_object)**.
+![New panel](Properties-panel.png)
+
+  1. **Name indicator:** displays the name of the object that the *instance* represents
+  2. **Instance lock:** blocks an instance's possition. It has 3 states: *(ii)* blocks the instance while maintaining its edition capabilites, *(iii)* blocks the instance's possition, edition *and* selection, and *(i)* unlocks the instance completely.
+Another method to unlock an instance is finding the instance on the [instance panel list](/gdevelop5/interface/scene-editor/#objects-groups-panel) and clicking on the icon to unlock the desired instance
+![Lock states](Icons.png)
+
+  3. **Edit object:** opens the dialog to modify the instance's object
+  4. **Position values:** instance's coordinates on the scene
+  5. **Size values:** instance's size values like Width -horizontal size-, Height -vertical size- and Depth for 3D objects
+  6. **Maintain proportions:** links size values to be modified proportionally. Values can be modified by typing the size in the input, or by clicking on the input's name and dragging horizontally to increase or decrease the value
+  7. **Reset to object values:** reset modified values in the instance to their object's original size
+  8. **Layer:** displays the instance's location in the [Layer Panel](https://gdevelop-wiki-git-fork-lunimoon-patch-6-gdevelop.vercel.app/gdevelop5/interface/scene-editor/#layers-panel)
+  9. **Animation:** displays and modifies instance's animation
+
+
+All objects share common properties (as well as common actions and conditions in events). **You can [learn about these here](/gdevelop5/objects/base_object)**.
 * Some objects can also have special properties. For example, a [Sprite object](/gdevelop5/objects/sprite) allow you to set the initial animation of each instance on the scene (the default animation being the first). Read about [objects](/gdevelop5/objects) to see all the objects that you can use in GDevelop.
 
 !!! tip
