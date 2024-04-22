@@ -226,6 +226,7 @@ nav:
             - Dialog Box: dialog-box
             - Flexbox: flex-box
             - Pause when losing focus: pause-focus-lost
+            - 3D text: text3d
         - Visual effect:
             - Animation system: animation-system
             - Character game feel: character-game-feel
