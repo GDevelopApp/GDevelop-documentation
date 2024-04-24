@@ -1,31 +1,45 @@
 ---
-title: Games Dashboard
+title: Manage Games
 ---
 
-# Games Dashboard
+# Manage Games
 
-Creating a game with GDevelop is only one step of making a successful game! After you've [exported and published](/gdevelop5/publishing) a game, it's important to understand **how many players are playing to your game, for how long and if they come back to play to it again**.
 
-GDevelop helps by offering a games dashboard. Register your game in one click and get access to various metrics - **without** intrusive trackers, third party applications or compromising your players privacy.
+!!! note
+
+    **Who can use this feature**
+    * Users with a free account
+    * Users with a Silver, Gold, Pro and Education account
+    * Users publishing to gd.games (some services like Analytics and Player feedback are not available outside gd.games)
+
+
+Creating interactive content with GDevelop is only the first step of making a successful game. Once the project has been publised, it's important to set up a system to collect player feedback, encourage player competition, market the game and measure player's engagement and retention.
+
+GDevelop's Manage Game section responds to these needs with:
+* Game Details (game information)
+* Build Management
+* Player Feedback
+* Game Analytics
+* [Game Leaderboards](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/leaderboard-administration/)
+* [Game Marketing and Ads](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/marketing/)
+
+All these services are available for all users with a GDevelop account, and are easy to configurate and work **without** intrusive trackers, third party applications or compromising your players privacy.
 
 !!! tip
 
     Depending on the terms and conditions under which your game is distributed, you may want to inform and give a way to your players to not send any data. This can be done using an action to enable or disable the metrics.
 
-## Registering a game
+## Publishing the game
 
-The first step to get access to metrics of your game is to register your game online. Be sure to have an [account created](/gdevelop5/interface/profile) (it's free). After exporting your game, GDevelop will ask if you wish to register your game on GDevelop online services:
+The "Manage Game" functionalites are only available for published projects. The game can be public or private, but it has to be available online. To enable the "Manage Game", make sure to have a GDevelop [account](/gdevelop5/interface/profile). It is completley free.
 
-![](/gdevelop5/interface/games-dashboard/pasted/20201125-191326.png)
+After [publishing your game to gd.games]([https://wiki.gdevelop.io/gdevelop5/publishing/#publish-and-share-on-gdgames](https://wiki.gdevelop.io/gdevelop5/publishing/)),
+![](/gdevelop5/interface/games-dashboard/pasted/20201125-191326.png) the game will be automatically visible and available through the app's "Manage Game" section.
 
-Click the button to register the game. Note that you can also open the Games Dashboard from the File menu (on the desktop app) or from the Project Manager (for the web app), and register your game from there.
-Once it's done, you can access to this specific game dashboard:
-
-![](/gdevelop5/interface/games-dashboard/pasted/20201125-191509.png)
 
 ## View the metrics of your game
 
-When you've opened a game dashboard, navigate to the Analytics tab. This shows various numbers that are useful to understand how successful is your game.
+When you've opened the "Manage Game" section, navigate to the Analytics tab. This shows various numbers that are useful to understand how successful is your game.
 
 ![](/gdevelop5/interface/games-dashboard/pasted/20201125-192056.png)
 
