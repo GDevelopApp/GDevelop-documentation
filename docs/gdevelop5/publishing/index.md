@@ -5,11 +5,11 @@ title: Publishing games
 
 GDevelop allows you to publish your games to any modern platform: desktop, web and mobile. The game needs to be exported first.
 
-In order to export the game, click **Publish** in the GDevelop Interface. You will be presented with multiple options to choose from:
+In order to export the game, click **Share** in the GDevelop Interface. You will be presented with multiple options to choose from:
 
 ![](/gdevelop5/sharegame.gif)
 
-## Publish and share on gd.games
+## Publish and share on GDevelop's free service gd.games
 
 **[gd.games](https://gd.games)** is the gaming platform hosted by GDevelop, dedicated to games powered by GDevelop.
 It's a perfect place to publish your game and share it to get feedback from players or friends. Hosting is free, and you can redirect your audience to the game page.
