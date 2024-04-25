@@ -7,7 +7,7 @@ GDevelop allows you to publish your games to any modern platform: desktop, web a
 
 In order to export the game, click **Share** in the GDevelop Interface. You will be presented with multiple options to choose from:
 
-![](/gdevelop5/sharegame.gif)
+![Share game](Export.png)
 
 ## Publish and share on GDevelop's free service gd.games
 
