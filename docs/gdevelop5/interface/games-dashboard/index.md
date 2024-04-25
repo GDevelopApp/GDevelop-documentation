@@ -15,6 +15,8 @@ title: Manage Games
 
 Creating interactive content with GDevelop is only the first step of making a successful game. Once the project has been publised, it's important to set up a system to collect player feedback, encourage player competition, market the game and measure player's engagement and retention.
 
+![Manage-Game-Interface](Manage-Games.png)
+
 GDevelop's Manage Game section responds to these needs with:
 * Game Details (game information)
 * Build Management
