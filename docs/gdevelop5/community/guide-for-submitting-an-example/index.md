@@ -130,16 +130,16 @@ You can submit the example to the [Example repository](https://github.com/GDevel
   - Go to the site,
   - Click The Green **New Issue** button:
 
-![](/gdevelop5/community/newissuegithub.png)
+![](newissuegithub.png)
 
   - A option to select issue template will be shown, click **New Example**:
 
-![](/gdevelop5/community/example-templategithub.png)
+![](example-templategithub.png)
 
   - You will get a text box where you can write the "issue" which is where you can upload the project file (as a `zip` file) and add a proper description about it.
   - Change the title to the example's name.
 
-![](/gdevelop5/community/github-example-submission-title.png)
+![](github-example-submission-title.png)
 
   - Under `## Describe the example` in the textbox, add a proper description about the example, feel free to add any screenshots.
   - You will also be given a checklist of what is necessary. If you have done them, add `x` in the in brackets against each checklist.
@@ -157,7 +157,7 @@ You can submit the example to the [Example repository](https://github.com/GDevel
   - Under `## Game folder`, add a zip of your project and drag and drop it into the text box.
   - Now click `Submit Issue`.
 
-![](/gdevelop5/community/github-submit-issue.png)
+![](github-submit-issue.png)
 
 Congratulations! Now your example has been submitted, but it won't be directly added to the library. A **review** of the example will be done to make sure the example is ready to be added. You might have to refactor some events if the review suggests to.
 
