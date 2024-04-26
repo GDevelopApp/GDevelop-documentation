@@ -31,6 +31,7 @@ To be able to collect player feedback the game has to be available online. You c
 ![Game-Manager](Manage-Games.png)
 
 On the game listing screen you can configure:
+
 * **Make discoverable on gd.games:** players will be avaliable to find the game through the gd.games site
 * **Show feedback banner on gd.page:** the game will display a banner to collect player feedback through the site gd.games
 * **Ask for feedback on all builds:** All published versions of the game listed under the "Builds" tab will dislay the feedback banner to collect player feedback
