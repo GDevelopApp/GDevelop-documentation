@@ -18,6 +18,7 @@ Creating interactive content with GDevelop is only the first step of making a su
 ![Manage-Game-Interface](Manage-Games.png)
 
 GDevelop's Manage Game section responds to these needs with:
+
 * Game Details (game information)
 * Build Management
 * Player Feedback
