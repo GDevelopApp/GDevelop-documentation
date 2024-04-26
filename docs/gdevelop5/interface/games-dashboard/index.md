@@ -17,7 +17,7 @@ GDevelop's Manage Game section responds to these needs with:
 
 * Game Details (game information)
 * Build Management
-* Player Feedback
+* [Player Feedback](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/player-feedback/)
 * Game Analytics
 * [Game Leaderboards](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/leaderboard-administration/)
 * [Game Marketing and Ads](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/marketing/)
