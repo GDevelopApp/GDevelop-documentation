@@ -257,7 +257,7 @@ If your file names are already set, you don't need to change them unless they ar
 
 !!! note
 
-    In this last case, you can rename several files at once by selecting them in the file explorer and use a shortcuts (F2 to rename on Windows, Enter on macOS...). The file explorer will automatically add a number suffix to them.
+    In this last case, you can rename several files at once by selecting them in the file explorer and using a shortcuts (F2 to rename on Windows, Enter on macOS...). The file explorer will automatically add a number suffix to them.
 
 
 ## License
