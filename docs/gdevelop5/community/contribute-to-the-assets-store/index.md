@@ -148,6 +148,7 @@ In the editor, objects can be organized into folder. The asset store will displa
 Folders name should not be too specific because it's the purpose of object names. For example, objects "BlueCar" and "RedCar" should be in a folder named "Vehicle" and not "Car" because it allows users to browse every vehicle in the asset store. They can already find cars as the search also use object names.
 
 Some examples of folders names
+
 - Character
 - Animal
 - Plant
