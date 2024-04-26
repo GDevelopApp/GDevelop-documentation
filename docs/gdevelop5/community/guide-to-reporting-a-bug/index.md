@@ -119,12 +119,12 @@ Steps to reproduce the behavior:
 
 **Here is an example of a report that might not be helpful**
 
-![](/gdevelop5/community/exampleofbadreport.png)
+![](exampleofbadreport.png)
 
 **Here is an example of a decent report**
 
 >
-> ![](/gdevelop5/community/exampleofgoodreport.png)
+> ![](exampleofgoodreport.png)
 
 
 
@@ -147,24 +147,24 @@ The first and foremost option you should chose to report a bug is on the [offici
 
 - When you are done, don't forget to click on **+ Create Topic**
 
-![](/gdevelop5/community/rg5.png)
+![](rg5.png)
 
 ### Reporting a bug on the Github
 
 You can also report it on [GDevelop's Github repo as an issue](https://github.com/4ian/GDevelop/issues), but the forum is more preferred. Only do so if you are sure you have all the info needed.
 
-![](/gdevelop5/community/rb1.png)
+![](rb1.png)
 
 
 - Click on **New Issue**.
 
 - You will be asked if the issue is a bug report or a feature request. Click on Bug Report.
 
-![](/gdevelop5/community/rb2.png)
+![](rb2.png)
 
 Now you will be given a space where you can describe your bug. There will be some text already written . Some asking you to write something, replace them with what the sentence asked.
 
 Ex: if there is a sentence "A clear and concise description of what the bug is.", remove that sentence and add a description about the bug.
 
-![](/gdevelop5/community/rg6.png)
+![](rg6.png)
 

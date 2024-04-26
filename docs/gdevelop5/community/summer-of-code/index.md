@@ -5,7 +5,7 @@ title: GDevelop and Google Summer of Code
 
 Google Summer of Code is a global program focused on bringing more contributors into open source software development. Contributors work with an open source organization on a programming project during summer (the length depends on the project).
 
-![](/gdevelop5/community/summer_of_code.png)
+![](summer_of_code.png)
 
 In 2020, GDevelop was one of the mentoring organizations. We're candidating to be an organization in 2024 too. If you're interested in working with us, read on!
 

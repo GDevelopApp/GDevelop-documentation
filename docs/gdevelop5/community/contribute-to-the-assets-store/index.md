@@ -80,7 +80,7 @@ BaseName_AnimationState_frame#.png
 
 For a character called "Red Hero", with 4 frames of a Running animation
 
-![](/gdevelop5/community/anim1.png)
+![](anim1.png)
 
 ```
 RedHero_Run_1.png
@@ -92,7 +92,7 @@ RedHero_Run_4.png
 
 If the same character is caring a prop, the naming should appear on the Animation State. Not on the Character name.
 
-![](/gdevelop5/community/anim2.png)
+![](anim2.png)
 ```
 RedHero_RunJewel_1.png
 RedHero_RunJewel_2.png
@@ -158,11 +158,11 @@ Spaceship_Destroyed_METADATA.json
 
 Your file should look something like this:
 
-![](https://user-images.githubusercontent.com/1280130/103412855-78836300-4b77-11eb-99ec-ac8287372ece.png)
+![](animation-files.png)
 
 
-If you are not sure about the number that "time between frames" will represent,[this article](http://www.stopmotionworks.com/stopwatch.htm) explains it:
-![](/gdevelop5/community/fps.png)
+If you are not sure about the number that "time between frames" will represent, [this article](http://www.stopmotionworks.com/stopwatch.htm) explains it:
+![](fps.png)
 
 
 ## Adding tags to your assets
@@ -209,9 +209,9 @@ A great tool to convert audio files to AAC format is [fre:ac](https://www.freac.
 This will create high-quality audio files, but using a variable bit rate that won't exceed 96 kbps (assuming stereo input).
 
 
-![Screenshot 2021-03-11 112608](https://user-images.githubusercontent.com/8879811/110835883-9bf41980-825c-11eb-93c8-ef795b0379a2.jpg)
+![Screenshot 2021-03-11 112608](freac-aac.jpg)
 
-![Screenshot 2021-03-11 112527](https://user-images.githubusercontent.com/8879811/110835884-9c8cb000-825c-11eb-9b8d-f22228a71329.jpg)
+![Screenshot 2021-03-11 112527](freac-quality.jpg)
 
 !!! tip
 
@@ -287,13 +287,13 @@ Leave almost everything empty. Create your object in GDevelop, then copy it in t
 
 For example:
 
-![](https://user-images.githubusercontent.com/1280130/103413204-d5334d80-4b78-11eb-8248-aecc67d17cba.png)
+![](object-clipboard.png)
 
 Paste it inside the `.asset.json` file you created, replacing `...JSON CONTENT OF AN OBJECT...`:
-![](https://user-images.githubusercontent.com/1280130/103413230-f300b280-4b78-11eb-9c3b-718bdf58ba66.png)
+![](asset-object.png)
 
 Finally, if your object uses image resources, make sure to add them in the `resources` array:
-![](https://user-images.githubusercontent.com/1280130/103413269-1e839d00-4b79-11eb-91a6-39bc80696a98.png)
+![](asset-resources.png)
 
 Put all images with the name that you put in the `resources` array next to your `.asset.json` file.
 
@@ -304,7 +304,7 @@ Finally, add:
 
 For example:
 
-![](https://user-images.githubusercontent.com/1280130/103413361-74f0db80-4b79-11eb-94c2-7cf535bb9118.png)
+![](ignore-for-image-assets-file.png)
 
 !!! tip
 

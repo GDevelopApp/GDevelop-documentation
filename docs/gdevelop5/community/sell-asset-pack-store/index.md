@@ -6,7 +6,7 @@ title: Selling assets on GDevelop's Asset Store
 GDevelop has its own built-in asset store, allowing game creators to access game art directly on the app.
 By providing easy-to-use and high-quality assets we're allowing creators to get a head start on their video game creation journey.
 
-![](/gdevelop5/community/community/asset-store.png)
+![](asset-store.png)
 
 It contains 2 types of asset packs:
 
@@ -30,7 +30,7 @@ It is the creator's decision to keep their original price, or if they prefer to 
 
 When an asset pack is sold on GDevelop's Asset Store, the purchase is distributed as follows: 27% for government taxes (VAT) and payment provider fees, 40% for the Asset creator, and 33% for GDevelop.
 
-![](/gdevelop5/community/sell-asset-pack-store/pasted/20221126-203013.png)
+![](revenue-sharing.png)
 
 
 !!! tip

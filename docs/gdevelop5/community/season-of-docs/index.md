@@ -3,7 +3,7 @@ title: GDevelop Season of Docs
 ---
 # GDevelop Season of Docs
 
-![](/gdevelop5/community/seasonofdocs_logo_secondarygrey_72ppi.png)
+![](seasonofdocs_logo_secondarygrey_72ppi.png)
 
 Season of Docs is an initiative to bring the open source and technical writer communities together. In 2019, for the first edition, [GDevelop was one of the project to take part into it](https://developers.google.com/season-of-docs/docs/participants).
 
