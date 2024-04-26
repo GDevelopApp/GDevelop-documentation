@@ -18,6 +18,7 @@ Player Feedack is available to every user with a GDevelop account from free to p
 Games published on sites like Itch, Newgrounds, Poki, and personal website; or exported to Android or iOS cannot collect player feedback.
 
 Games published on gd.games have the possibility to be:
+
 * Public and visible to the gd.games community (recomended for public player feedback)
 * Unlisted on gd.games only available to people with the URL
 * Uploaded to the gd.games server, but not available through the public site (recommended for private player feedback)
@@ -28,7 +29,7 @@ Player feedback can be turned on or off acording to the game's development stage
 
 To be able to collect player feedback the game has to be available online. You can verify that the Game has been published to gd.games through the [Manage section](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/):
 
-![Game-Manager](Manage-Games.png)
+![Manage section](Manage-Games.png)
 
 On the game listing screen you can configure:
 
@@ -50,6 +51,7 @@ Rating player feedback helps the community identify the best beta testers of gd.
 ![Rate player feedbal](Rate-feedback.png)
 
 Rate the feedback by clicking on the correspondent icon:
+
 1. Great feedback
 2. Good feedback
 3. Bad feedback
@@ -61,6 +63,7 @@ Keep in mind that the creators that rate the most amount of player feedback, wil
 ![Community section](Community-section.png)
 
 ### FAQ
+
 1. **If I get a bad review from a player, can it affect my game's visibility?** -> No, bad reviews do not affect the visibiliy of your game. Player feedback is private and it was concieved for games who are still under development and require player feedback. It is in no standard to score 
 2. **What happens after you report a spam review?** -> If a user gets flagged after a certain number of times, their profile will be blocked and they'll no longe be able to give feedback
 
