@@ -7,11 +7,7 @@ title: Manage Games
 
 !!! note
 
-    **Who can use this feature**
-    * Users with a free account
-    * Users with a Silver, Gold, Pro and Education account
-    * Users publishing to gd.games (some services like Analytics and Player feedback are not available outside gd.games)
-
+    **Who can use this feature:** All GDevelop users
 
 Creating interactive content with GDevelop is only the first step of making a successful game. Once the project has been publised, it's important to set up a system to collect player feedback, encourage player competition, market the game and measure player's engagement and retention.
 
