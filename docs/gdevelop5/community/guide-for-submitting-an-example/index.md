@@ -52,17 +52,12 @@ You can discuss with the GDevelop community on [Discord](https://discord.com/inv
 
 ## License
 
-The free examples will be MIT licensed (see [this](https://en.wikipedia.org/wiki/MIT_License) for more info about the MIT license).
+The free examples will be MIT licensed (see this [Wikipedia page](https://en.wikipedia.org/wiki/MIT_License) for more info about the MIT license).
 
 You will have to make sure the example can be MIT licensed and make sure the resources can also be distributed under the MIT license. If you are having doubts about the license of the resources, ask the creator and ask for permission (this is important!).
 
 
 ## Best Practices
-
-!!! tip
-
-    In general, try to keep your example as minimal as possible. It will ensure it's easier to make sure it's very high quality and can be added easily.
-
 
 #### Naming conventions
 
@@ -91,7 +86,7 @@ You will have to make sure the example can be MIT licensed and make sure the res
 
 - Related events should be added into a group with proper naming.
     - You can use color code to allow differentiating them quickly if you want.
-- If the same events are used in multiple places, you can use external events or a function in an extension.
+- If the same events are used in multiple places, you can use [external events](/gdevelop5/interface/events-editor/external-events) or a [function](/gdevelop5/events/functions) in an extension.
 - Remove empty events.
 - Remove disabled events or events that were used for testing.
 - Unfold any events so that they are easily visible.
