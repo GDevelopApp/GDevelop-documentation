@@ -19,7 +19,7 @@ A game that could almost be published as it is. It should be well organized and 
     Full games templates are good candidates to be sold in the asset store.
 
 
-### Make game as a proof of concept
+### Make a game as a proof of concept
 
 A game that is as simple as possible. The amount of content should be kept to the bare minimum. Visual effects are welcomed but functions must be used to avoid to cluttered events. 
 
@@ -114,7 +114,7 @@ It can happen that you have no other choice but to use big formulas or use engin
 
 ##### Write a documentation page if necessary
 
-Sometimes words alone are not enough. If you feel diagrams will help, you can submit a documentation page for your example and add a link in a comment.
+Sometimes words alone are not enough. If you feel diagrams will help, you can [submit a documentation page](/gdevelop5/community/contribute-to-the-wiki) for your example and add a link in a comment.
 
 
 ##### Keep simple colors
