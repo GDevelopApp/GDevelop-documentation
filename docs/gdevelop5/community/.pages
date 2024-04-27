@@ -1,0 +1,9 @@
+nav:
+    - "Sell asset packs": sell-asset-pack-store
+    - "Submit asset packs": contribute-to-the-assets-store
+    - "Submit examples": guide-for-submitting-an-example
+    - "Contribute to the documentation": contribute-to-the-wiki
+    - "Report a bug": guide-to-reporting-a-bug
+    - ...
+    - summer-of-code
+    - season-of-docs
