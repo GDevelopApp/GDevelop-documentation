@@ -5,5 +5,6 @@ nav:
     - "Contribute to the documentation": contribute-to-the-wiki
     - "Report a bug": guide-to-reporting-a-bug
     - ...
+    - contribute-to-gdevelop-code
     - summer-of-code
     - season-of-docs
