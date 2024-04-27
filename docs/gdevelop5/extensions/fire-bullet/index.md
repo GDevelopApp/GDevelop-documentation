@@ -188,6 +188,9 @@ Compare the remaining duration before the overheat penalty ends, in seconds.
 **Reload duration**  
 Compare the reload duration (in seconds).
 
+**Duration before the reload finishes**  
+Compare the remaining duration before the reload finishes, in seconds.
+
 **Shots before next reload**  
 Compare the remaining shots before the next reload is required.
 
@@ -214,6 +217,7 @@ Compare the number of shots per reload.
 | `Object.FireBullet::OverheatDuration()` | Return the overheat duration (in seconds). When an object is overheated, it can't fire for this duration. ||
 | `Object.FireBullet::OverheatTimeLeft()` | Return the remaining duration before the overheat penalty ends, in seconds. ||
 | `Object.FireBullet::ReloadDuration()` | Return the reload duration (in seconds). ||
+| `Object.FireBullet::ReloadTimeLeft()` | Return the remaining duration before the reload finishes, in seconds. ||
 | `Object.FireBullet::ShotsBeforeNextReload()` | Return the remaining shots before the next reload is required. ||
 | `Object.FireBullet::ShotsPerReload()` | Return the number of shots per reload. ||
 | `Object.FireBullet::TotalBulletsCreated()` | Total bullets created. ||
