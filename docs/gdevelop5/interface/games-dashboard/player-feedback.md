@@ -22,7 +22,7 @@ Games published on gd.games can be:
 
 * Public and visible to the gd.games community (recommended for public player feedback)
 * Unlisted on gd.games only available to people with the URL
-* Uploaded to the gd.games server, but not available through the public site (recommended for private player feedback)
+* Uploaded to the gd.games server, but not available through the public website (recommended for private player feedback)
 
 
 ## Habilitating Player Feedback
@@ -35,7 +35,7 @@ To be able to collect player feedback the game has to be available online. You c
 On the game listing screen, you can configure:
 
 * **Make discoverable on gd.games:** Players will be able to find the game through the gd.games website
-* **Show feedback banner on gd.games game page:** The game will display a banner to collect player feedback through the site gd.games
+* **Show feedback banner on gd.games game page:** The game will display a banner to collect player feedback through the website gd.games
 * **Ask for feedback on all builds:** All published versions of the game listed under the "Builds" tab will display the feedback banner to collect player feedback
 
 To learn how to publish to the gd.games platform and configure the privacy of the links [follow these instructions](https://wiki.gdevelop.io/gdevelop5/publishing/web/).
@@ -66,11 +66,11 @@ Keep in mind that the creators that rate the most amount of player feedback, wil
 ### FAQ
 
 1. **If I get a bad review from a player, can it affect my game's visibility?** -> No, bad reviews do not affect the visibiliy of your game. Player feedback is private and it was conceived for games who are still under development and require player feedback.
-2. **What happens after you report a spam review?** -> If a user gets flagged after a certain number of times, their profile will be blocked and they'll no longer be able to give feedback
+2. **What happens after you report a spam review?** -> If a user gets flagged after a certain number of times, their profile will be blocked and they'll no longer be able to give feedback.
 
 
 ## Giving Feedback
 Game creators can also give feedback through gd.games in exchange of GDevelop credits, and have the possiblity to be ranked on the Top 5 "Best feedback givers".
 
-To learn about 5 ways to Give good written feedback to increase your changes to make it to the top ten, [click here](https://gdevelop.io/blog/5-ways-give-good-player-feedback)
+To learn about 5 ways to Give good written feedback to increase your changes to make it to the top ten, [click here](https://gdevelop.io/blog/5-ways-give-good-player-feedback).
 
