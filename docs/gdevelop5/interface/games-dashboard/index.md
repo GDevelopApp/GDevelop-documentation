@@ -13,12 +13,12 @@ Creating interactive content with GDevelop is only the first step of making a su
 
 ![Manage-Game-Interface](Manage-Games.png)
 
-GDevelop's Manage Game section responds to these needs with:
+GDevelop's "Manage" section responds to these needs with:
 
 * Game Details (game information)
 * Build Management
 * [Player Feedback](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/player-feedback/)
-* Game Analytics
+* [Game Analytics](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/game-analytics)
 * [Game Leaderboards](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/leaderboard-administration/)
 * [Game Marketing and Ads](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/marketing/)
 
@@ -30,48 +30,18 @@ All these services are available for all users with a GDevelop account, and are 
 
 ## Publishing the game
 
-The "Manage Game" functionalites are only available for published projects. The game can be public or private, but it has to be available online. To enable the "Manage Game", make sure to have a GDevelop [account](/gdevelop5/interface/profile). It is completley free.
+The "Manage" functionalities are only available for published projects. To enable the "Manage" functionality, make sure to have a GDevelop [account](/gdevelop5/interface/profile), and have published or exported your game.
 
-After [publishing your game to gd.games]([https://wiki.gdevelop.io/gdevelop5/publishing/#publish-and-share-on-gdgames](https://wiki.gdevelop.io/gdevelop5/publishing/)),
-![](/gdevelop5/interface/games-dashboard/pasted/20201125-191326.png) the game will be automatically visible and available through the app's "Manage Game" section.
+Numerous platforms are available for export. Learn how to do it according to your desired platforms with the help of [this guide](https://wiki.gdevelop.io/gdevelop5/publishing/).
 
+Once your game is online, the game will be automatically visible and available through the app's "Manage" section.
 
-## View the metrics of your game
+## Manage Games Dashboard
 
-When you've opened the "Manage Game" section, navigate to the Analytics tab. This shows various numbers that are useful to understand how successful is your game.
+Through the dashboard view, a creator can configure their game's visibility on GDevelop's free publishing website [gd.games](https://wiki.gdevelop.io/gdevelop5/publishing/web/#creating-a-private-web-link):
 
-![](/gdevelop5/interface/games-dashboard/pasted/20201125-192056.png)
+* **Make discoverable on gd.games:** Players will be available to find the game through the gd.games website
+* **Show feedback banner on gd.page:** The game will display a banner to collect [player feedback](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/player-feedback/) through gd.games website
+* **Ask for feedback on all builds:** All published versions of the game listed under the "Builds" tab will dislay the feedback banner to collect player feedback
 
-You'll find:
-
-- the number of **sessions** (number of time the game was launched),
-- the number of **players** for the selected day, and the number of new players (that never launched the game before - unless they have uninstalled the game),
-- how many players are playing again for for up to 7 days after the first time they played (this is what is called the "**retention**").
-
-If you don't have a GDevelop subscription, you'll only get access to the number of sessions - which should still give you an overview of your game success. As GDevelop is providing the analytics, the infrastructure cost and the bandwidth to collect the session metrics, we ask you to support GDevelop by getting a subscription. This will help the development of the game engine for the future and help to strengthen the community!
-
-!!! note
-
-    These data are collected anonymously when a game is launched. It's important to respect the privacy of the players, and no personal information is ever collected or stored. This means that while *aggregated* data can be useful to understand your audience, you can't know about a particular player, because the information is not stored and players are not tracked individually.
-
-While the presentation of the metrics is for now very simple, it will be improved later to offer a better picture of the sessions played on your game.
-
-## About collecting metrics
-
-While GDevelop strive to collect only usage metrics that are anonymized, and limits these to the purpose of analyzing the performance of your game, you may collect other metrics by your own means. In any cases, it's important that you have a clear privacy policy (which will be asked by most app stores anyway) explaining how you use these data and respect the privacy of your users.
-
-!!! tip
-
-    If you want to **display an explanation** before enabling metrics collection, use the action to disable the metrics collection at the beginning of your game, *then use the action to enable them again* once the player consent to the metrics collection.
-
-!!! tip
-
-    If you don't want to **collect any metrics at all**, use the action to disable the metrics collection at the beginning of your game. By doing this, no data will be sent at all. Of course, this means that you won't be able to follow the number of sessions played on your game.
-
-## Manage leaderboards for your games
-
-By clicking on the tab Leaderboards, you can access the [Leaderboard Administration](/gdevelop5/interface/games-dashboard/leaderboard-administration) interface.
-
-## Getting a Marketing Campaign
-
-You can access the [Marketing Campaigns](/gdevelop5/interface/games-dashboard/marketing) interface by clicking on the tab Marketing & Ads.
+To learn how to publish to the gd.games platform and configure the privacy of the links follow [these instructions](https://wiki.gdevelop.io/gdevelop5/publishing/web/).
