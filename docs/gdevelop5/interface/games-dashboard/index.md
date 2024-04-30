@@ -20,9 +20,11 @@ GDevelop's Game Analytics offers various metrics **without** intrusive trackers,
 
 ## Registering a game
 
-To access the game's metrics, the project has to be [published on gd.games](https://wiki.gdevelop.io/gdevelop5/publishing/web/). Before publishing your game, make sure to be logged to the [GDevelop account](/gdevelop5/interface/profile) that you wish to publish.
+To access the game's metrics, the project has to be [published on gd.games](/gdevelop5/publishing/web/). Before publishing your game, make sure to be logged to the [GDevelop account](/gdevelop5/interface/profile) that you wish to publish.
 
-Once the game has been shared, the Manage section will be habilitated and accessible through the App. Click on the "Manage game" button to access more functionalities.
+Once the game has been shared, the Manage section will be habilitated and accessible through the App.
+
+To access game analytics, click the "Manage game" button to access more functionalities.
 
 ![Manage section](Manage-Games.png)
 
@@ -61,7 +63,7 @@ Some of the listed insights might be limited according to your GDevelop Subscrip
 
 ## About collecting metrics
 
-While GDevelop strives to collect only usage metrics that are anonymized and limits these to the purpose of Game Research with the purpose of analizing the performance of your game, you may collect other metrics by your own means. In any case, you must have a clear privacy policy (which will be asked by most app stores anyway) explaining how you use these data and respect the privacy of your users.
+While GDevelop strives to collect only usage metrics that are anonymized and limits these to the purpose of Game Research to analize the performance of your game, you may collect other metrics by your own means. In any case, you must have a clear privacy policy (which will be asked by most app stores) explaining how you use these data to respect the privacy of your users.
 
 !!! tip
 
@@ -69,12 +71,4 @@ While GDevelop strives to collect only usage metrics that are anonymized and lim
 
 !!! tip
 
-    If you don't want to **collect any metrics at all**, use the action to disable the metrics collection at the beginning of your game. By doing this, no data will be sent at all. Of course, this means that you won't be able to follow the number of sessions played on your game.
-
-## Manage leaderboards for your games
-
-By clicking on the tab Leaderboards, you can access the [Leaderboard Administration](/gdevelop5/interface/games-dashboard/leaderboard-administration) interface.
-
-## Getting a Marketing Campaign
-
-You can access the [Marketing Campaigns](/gdevelop5/interface/games-dashboard/marketing) interface by clicking on the tab Marketing & Ads.
+    If you don't want to **collect any metrics at all**, use the action to disable the metrics collection at the beginning of your game. By doing this, no data will be sent at all. Be aware that you won't be able to follow the number of sessions played on your game.

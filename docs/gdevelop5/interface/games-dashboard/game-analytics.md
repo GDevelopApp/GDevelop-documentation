@@ -11,7 +11,7 @@ title: Game Analytics
 
 Player analytics are essential during video game development. They provide data on how long players stay engaged with the game and how quickly they lose interest.
 By understanding these patterns, developers can tailor game features to better suit player preferences, enhancing enjoyment and engagement.
-Alongside [player feedback](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/player-feedback/), this information guides improvements, helping ensure the game's success by making it more appealing and enjoyable for its audience.
+Alongside [player feedback](/gdevelop5/interface/games-dashboard/player-feedback/), this information guides improvements, helping ensure the game's success by making it more appealing and enjoyable for its audience.
 
 ## Accessing game metrics
 
