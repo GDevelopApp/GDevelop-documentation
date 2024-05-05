@@ -215,6 +215,7 @@ Here are listed all the extensions available in GDevelop. The list is divided in
 |<img src="https://resources.gdevelop-app.com/assets/Icons/vector-arrange-above.svg" class="extension-icon"></img>|**Animate Shadow Clones**|Create and animate shadow clones that follow the path of a primary object.|[Read more...](https://www.youtube.com/watch?v=2t4ANYgrrak) ([reference](/gdevelop5/extensions/shadow-clones))|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/arrow-all.svg" class="extension-icon"></img>|**Shake object**|Shake an object.|[Read more...](https://victrisgames.itch.io/gdevelop-camera-shake-example) ([reference](/gdevelop5/extensions/shake-object))|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/vector-difference-ab.svg" class="extension-icon"></img>|**3D object shake**|Shake 3D objects.|[Read more...](/gdevelop5/extensions/shake-object3d)|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/octagram-outline.svg" class="extension-icon"></img>|** Shock wave effect**|Draw shock wave.|[Read more...](/gdevelop5/extensions/shock-wave-effect)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/transition-masked.svg" class="extension-icon"></img>|**Object Masking**|Use a sprite or a shape painter to mask another object.|[Read more...](/gdevelop5/extensions/sprite-masking)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/swap-horizontal-variant.svg" class="extension-icon"></img>|**Sway**|Sway objects like grass in the wind.|[Read more...](/gdevelop5/extensions/sway)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/flip-horizontal.svg" class="extension-icon"></img>|**3D Flip**|Flip sprites with a 3D rotation effect.|[Read more...](/gdevelop5/extensions/three-dflip)|
@@ -233,7 +234,6 @@ does or inspect its content before using it.
 ||Name|Description||
 |---|---|---|---|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/fac7ecb74ef7da92ab59c3e431fb9587c105c2889a41cfac489135c0eb4643d1_shield-key.svg" class="extension-icon"></img>|**Crypto Api**|Random number generator for integers and floats using the Crypto API.|[Read more...](https://developer.mozilla.org/en-US/docs/Web/API/Crypto/getRandomValues) ([reference](/gdevelop5/extensions/crypto-api))|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/octagram-outline.svg" class="extension-icon"></img>|**Draw shock wave effect**|Will allow you to draw shock wave effects.|[Read more...](/gdevelop5/extensions/draw-shock-wave-effect)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/format-text-rotation-none.svg" class="extension-icon"></img>|**Rotate a string 13 characters**|This extension rotates all alphabetic characters in a string by 13 characters.|[Read more...](/gdevelop5/extensions/rotate13)|
 
 ### Audio

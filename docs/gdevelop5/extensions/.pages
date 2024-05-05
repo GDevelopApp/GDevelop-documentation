@@ -154,6 +154,7 @@ nav:
         - Animate Shadow Clones: shadow-clones
         - Shake object: shake-object
         - 3D object shake: shake-object3d
+        -  Shock wave effect: shock-wave-effect
         - Object Masking: sprite-masking
         - Sway: sway
         - 3D Flip: three-dflip
@@ -161,7 +162,6 @@ nav:
     - Community extensions:
         - Advanced:
             - Crypto Api: crypto-api
-            - Draw shock wave effect: draw-shock-wave-effect
             - Rotate a string 13 characters: rotate13
         - Audio:
             - Sounds and music by filename: audio-by-name
