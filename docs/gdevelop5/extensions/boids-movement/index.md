@@ -81,8 +81,8 @@ Check if the object is rotated while moving on its path.
 | `Object.BoidsMovement::SeparationRadius()` | Return the separation sight radius. ||
 | `Object.BoidsMovement::SeparationWeight()` | Return which weight the separation takes in the chosen direction. ||
 | `Object.BoidsMovement::Speed()` | Return the current speed. ||
-| `Object.BoidsMovement::VelocityX()` | Return the current vertical speed. ||
-| `Object.BoidsMovement::VelocityY()` | Return the current horizontal speed. ||
+| `Object.BoidsMovement::VelocityX()` | Return the current horizontal speed. ||
+| `Object.BoidsMovement::VelocityY()` | Return the current vertical  speed. ||
 
 ---
 
