@@ -14,7 +14,10 @@ Display the specified leaderboard on top of the game. If a leaderboard was alrea
 Save the connected player's score to the given leaderboard.
 
 **Save player score**  
-Save the player's score to the given leaderboard.
+Save the player's score to the given leaderboard. If the player is connected, the score will be attached to the connected player (unless disabled).
+
+**Always attach scores to the connected player**  
+Set if the score sent to a leaderboard is always attached to the connected player - if any. This is on by default.
 
 ## Conditions
 
