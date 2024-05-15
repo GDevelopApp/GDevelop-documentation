@@ -1,18 +1,14 @@
 ---
-title: Game Analytics
+title: Manage Tab
 ---
 
-# Game Analytics
+# Manage Tab
 
 !!! note
 
-    **This feature is available to:** All users with a GDevelop account who had [published their game to gd.games](/gdevelop5/publishing).
+    **Who can use this feature:** All users with a GDevelop account who had [published their game to gd.games](/gdevelop5/publishing).
 
-Player analytics are essential during video game development. They provide data on how long players stay engaged with the game and how quickly they lose interest. By understanding these patterns, developers can tailor game features to better suit player preferences, enhancing enjoyment and engagement. Alongside [player feedback](/gdevelop5/interface/games-dashboard/player-feedback/), this information guides improvements, helping ensure the game's success by making it more appealing and enjoyable for its audience.
-
-GDevelop's Game Analytics offers various metrics **without** intrusive trackers, third-party applications, or compromising players' privacy.
-
-![Game Analytics](Game-Analytics-hover.png)
+GDevelop's game insights offers various metrics **without** intrusive trackers, third-party applications, or compromising players' privacy.
 
 !!! tip
 
@@ -29,36 +25,21 @@ To access game analytics, click the "Manage game" button to access more function
 ![Manage section](Manage-Games.png)
 
 
-![](/gdevelop5/interface/games-dashboard/pasted/20201125-191509.png)
-
-## View the metrics of your game
-
-When you've opened a game dashboard, navigate to the Analytics tab.
-
-![Analytics Tab](Game-Analytics-tab.png)
-
-Data can be displayed monthly or yearly with the help of the drop-down selector on the upper right.
-
-
-## Interpreting data
-
-With the help of Analytics you'll be able to access the following data:
-
-* **Number of sessions:** Refers to the total count of individual times players engage with a game. It tracks how often they return, providing insights into the game's ability to maintain player interest over time. A gd.games "session" expires after 3 minutes of player inactivity.
-* **Bounce rate:** Measures the percentage of players who leave a video game after a short session -typically their first-. It indicates how quickly players lose interest, helping developers understand initial user engagement and game appeal.
-* **Minutes per player:** Average play duration -in minutes- per player. Quantifies the total duration a player spends in a game during individual sessions or over a specific period. It helps gauge how engaging and captivating the game is to its audience.
-* **Players with more than 15 minutes:** Refers to the count of players who engage with a game for longer than 15 minutes per session, indicating a deeper interest and potentially higher satisfaction with the game's content and mechanics.
-* **Percentage of players with more than X minutes:** Measures the proportion of all players who play a game for longer than X minutes. This metric helps developers understand how many players are deeply engaged with the game, indicating its ability to maintain interest for extended periods.
-
-![Game Analytcs 2](Game-Analytics-hover.png)
-
 !!! note
 
-    These data are collected anonymously when a game is launched. It's important to respect the privacy of the players, so GDevelop does not collect nor store any personal information. This means that while *aggregated* data can be useful to understand your audience, you can't know about a particular player, because the information is not stored and players are not tracked individually.
+    Game insights are collected anonymously when a game is launched. It's important to respect the privacy of the players, so GDevelop does not collect nor store any personal information. This means that while *aggregated* data can be useful to understand your audience, you can't know about a particular player, because the information is not stored and players are not tracked individually.
 
+## Available data
+
+Once the game has been published to gd.games, GDevelop will make the following insights available:
+
+* [Player feedback](gdevelop5/interface/games-dashboard/player-feedback/): collect written feedback from players
+* [Analytics](gdevelop5/interface/games-dashboard/game-analytics/): follow player engagement and retention
+* [Leaderboards](gdevelop5/interface/games-dashboard/leaderboard-administration/): leverage gamification strategies
+* [Marketing and Ads](gdevelop5/interface/games-dashboard/marketing/): promote your games to improve visibility
 
 GDevelop is providing the analytics, the infrastructure cost, and bandwidth to collect the session metrics.
-Some of the listed insights might be limited according to your GDevelop Subscription plan. [Click here](https://gdevelop.io/pricing) to learn more on Analytics availablity according to Subscriptions.
+Some insights inside the Manage Tab might be limited according to your GDevelop Subscription plan. [Click here](https://gdevelop.io/pricing) to learn more on Analytics availablity according to Subscriptions.
 
 
 ## About collecting metrics
