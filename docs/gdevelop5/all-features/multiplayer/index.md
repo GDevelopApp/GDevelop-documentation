@@ -21,8 +21,7 @@ Some features available out of the box are:
     Usually, adding multiplayer features or creating from scratch a multiplayer game is something that is difficult and error-prone. Most solutions, including some you could adapt or use with GDevelop, requires some programming and networking knowledge. With GDevelop Multiplayer features, there is **no need to handle servers**, sending custom messages, handling connections, lobbies, packets being lost, prediction of movements, interpolation, etc.
 
 
-To use the multiplayer features, access the behaviors and actions/conditions of the **"Multiplayer"** extension in GDevelop. It is automatically available in your game, and you can start using it right away.
-It provides actions, conditions, expressions and a behavior to handle the multiplayer features in your game.
+To use the multiplayer features, use the **Multiplayer** behavior on your objects, and the actions/conditions in the **"Multiplayer"** category in GDevelop. It is automatically available in your game, and you can start using it right away. This page will explaining how to use the behavior to make a multiplayer game and the actions/conditions to start and end a game.
 
 !!! note
 
