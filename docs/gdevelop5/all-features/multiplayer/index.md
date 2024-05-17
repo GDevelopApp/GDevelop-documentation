@@ -2,31 +2,31 @@
 title: GDevelop Multiplayer
 ---
 
-# How can I add multiplayer features to my game?
+# Making multiplayer games with GDevelop
 
-Similar to [Player Authentication](/gdevelop5/all-features/player-authentication) and Leaderboards, GDevelop provides a built-in solution to add **real-time multiplayer features** to your game, whether you're making a simple multiplayer game or a more complex one, from a cooperative game to a competitive one.
+GDevelop provides a built-in solution to add **real-time multiplayer features** to your game, whether you're making a simple multiplayer game or a more complex one, from a cooperative game to a competitive one. This is similar to [Player Authentication](/gdevelop5/all-features/player-authentication) and [Leaderboards](/gdevelop5/all-features/leaderboards).
 
-It is built to be easy to use, accessible to everyone, whilst providing a good experience for all your players. 
+It is built to be easy to use, accessible to everyone, and provides a good experience for all your players. 
 
 Some features available out of the box are:
 
-- Lobbies for your game and a user interface allowing players to start a new game,
-- Built-in authentication for players to create an account and login to your game,
-- Automatic choice of the host of the game,
-- Automatic synchronization of players, depending on who is in charge of each object,
-- Automatic synchronization of the game state (game objects, variables...)
-
+- **Lobbies** for your game and a user interface allowing players to start a new game,
+- Built-in **authentication** for players to create an account and login to your game,
+- Automatic choice of the *host* of the game,
+- Automatic **synchronization of players**, depending on who is in charge of each object,
+- Automatic synchronization of the rest of the **game state**: game objects, variables...
 
 !!! tip
 
     Usually, adding multiplayer features or creating from scratch a multiplayer game is something that is difficult and error-prone. Most solutions, including some you could adapt or use with GDevelop, requires some programming and networking knowledge. With GDevelop Multiplayer features, there is **no need to handle servers**, sending custom messages, handling connections, lobbies, packets being lost, prediction of movements, interpolation, etc.
 
-    GDevelop Multiplayer infrastructure is built to scale from very small game to games with thousands of concurrent players. If you're a game studio or an agency with specific needs (for example, launching a game for a promotional campaign to an audience of dozens of thousands of people), feel free to reach out to discuss your specific use-case.
-
-# How to use
 
 To use the multiplayer features, access the behaviors and actions/conditions of the **"Multiplayer"** extension in GDevelop. It is automatically available in your game, and you can start using it right away.
 It provides actions, conditions, expressions and a behavior to handle the multiplayer features in your game.
+
+!!! note
+
+    GDevelop Multiplayer infrastructure is built to scale from very small game to games with thousands of concurrent players. If you're a game studio or an agency with specific needs (for example, launching a game for a promotional campaign to an audience of dozens of thousands of people), feel free to reach out to discuss your specific use-case.
 
 ## Lobby system: start and end a game
 
