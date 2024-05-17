@@ -19,8 +19,8 @@ Some features available out of the box are:
 
 !!! note
 
-   Usually, adding multiplayer features or creating from scratch a multiplayer game is something that is difficult and error-prone. Most solutions, including some you could adapt or use with GDevelop, requires some programming and networking knowledge. With GDevelop Multiplayer features, there is **no need to handle servers**, sending custom messages, handling connections, lobbies, packets being lost, prediction of movements, interpolation, etc.
-   GDevelop Multiplayer infrastructure is built to scale from very small game to games with thousands of concurrent players. If you're a game studio or an agency with specific needs (for example, launching a game for a promotional campaign to an audience of dozens of thousands of people), feel free to reach out to discuss your specific use-case.
+    Usually, adding multiplayer features or creating from scratch a multiplayer game is something that is difficult and error-prone. Most solutions, including some you could adapt or use with GDevelop, requires some programming and networking knowledge. With GDevelop Multiplayer features, there is **no need to handle servers**, sending custom messages, handling connections, lobbies, packets being lost, prediction of movements, interpolation, etc.
+    GDevelop Multiplayer infrastructure is built to scale from very small game to games with thousands of concurrent players. If you're a game studio or an agency with specific needs (for example, launching a game for a promotional campaign to an audience of dozens of thousands of people), feel free to reach out to discuss your specific use-case.
 
 # How to use
 
@@ -70,6 +70,8 @@ When the action `End the game` is called, the condition **Lobby game has just en
 You can also automatically re-open the lobby by using the action **Open the game lobbies**, so players can start a new game.
 
 ### Access information about the lobby during the game
+
+Expressions are available to let you know access information about the lobby:
 
 - Expression **Number of players in the lobby**:
   use this expression to know how many players are in the lobby. This can be useful to know how many players are in the game, and adapt your game to the number of players. (For instance, deleting scores, enemies, players...)
