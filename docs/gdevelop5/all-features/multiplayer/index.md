@@ -17,9 +17,10 @@ Some features available out of the box are:
 - Automatic synchronization of the game state (game objects, variables...)
 
 
-!!! note
+!!! tip
 
     Usually, adding multiplayer features or creating from scratch a multiplayer game is something that is difficult and error-prone. Most solutions, including some you could adapt or use with GDevelop, requires some programming and networking knowledge. With GDevelop Multiplayer features, there is **no need to handle servers**, sending custom messages, handling connections, lobbies, packets being lost, prediction of movements, interpolation, etc.
+
     GDevelop Multiplayer infrastructure is built to scale from very small game to games with thousands of concurrent players. If you're a game studio or an agency with specific needs (for example, launching a game for a promotional campaign to an audience of dozens of thousands of people), feel free to reach out to discuss your specific use-case.
 
 # How to use
@@ -40,9 +41,6 @@ Lobbies are automatically created for your game.
 
 Use the action **Open game lobbies**. This action will show the lobbies to the player, so they can join a game.
 
-If needed, you can use the condition **Lobbies window is open** to check if the lobbies are open and prevent some actions to happen on your scene.
-Typically, you can use this action when the user presses a button in your menu.
-
 !!! note
 
     Lobbies are entirely hanlded by GDevelop Multiplayer infrastructure:
@@ -51,7 +49,10 @@ Typically, you can use this action when the user presses a button in your menu.
     - When all players are ready, the player 1 can start the game.
     - When the game is started, the lobby is automatically closed and players are automatically connected to each other.
 
-!!! note
+If needed, you can use the condition **Lobbies window is open** to check if the lobbies are open and prevent some actions to happen on your scene.
+Typically, you can use this action when the user presses a button in your menu.
+
+!!! tip
 
     To join a lobby, a player needs to log in to their GDevelop or gd.games account. This is automatically handled for you, so that calling this action will automatically open the authentication window if needed.
     If you want to handle this yourself, or allow players to change their account, you can use the actions and conditions provided by the **Player Authentication** extension.
