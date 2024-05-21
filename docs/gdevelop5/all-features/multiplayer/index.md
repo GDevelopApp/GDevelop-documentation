@@ -6,20 +6,19 @@ title: GDevelop Multiplayer
 
 GDevelop provides a built-in solution to add **real-time multiplayer features** to your game, whether you're making a simple multiplayer game or a more complex one, from a cooperative game to a competitive one. This is similar to [Player Authentication](/gdevelop5/all-features/player-authentication) and [Leaderboards](/gdevelop5/all-features/leaderboards).
 
-It is built to be easy to use, accessible to everyone, and provides a good experience for all your players. 
+It is built to be easy to use, accessible to everyone, and provides a good experience for all your players.
 
 Some features available out of the box are:
 
 - **Lobbies** for your game and a user interface allowing players to start a new game,
 - Built-in **authentication** for players to create an account and login to your game,
-- Automatic choice of the *host* of the game,
+- Automatic choice of the _host_ of the game,
 - Automatic **synchronization of players**, depending on who is in charge of each object,
 - Automatic synchronization of the rest of the **game state**: game objects, variables...
 
 !!! tip
 
     Usually, adding multiplayer features or creating from scratch a multiplayer game is something that is difficult and error-prone. Most solutions, including some you could adapt or use with GDevelop, requires some programming and networking knowledge. With GDevelop Multiplayer features, there is **no need to handle servers**, sending custom messages, handling connections, lobbies, packets being lost, prediction of movements, interpolation, etc.
-
 
 To use the multiplayer features, use the **Multiplayer** behavior on your objects, and the actions/conditions in the **"Multiplayer"** category in GDevelop. It is automatically available in your game, and you can start using it right away. This page will explaining how to use the behavior to make a multiplayer game and the actions/conditions to start and end a game.
 
@@ -30,7 +29,7 @@ To use the multiplayer features, use the **Multiplayer** behavior on your object
 ## Lobby system: start and end a game
 
 The multiplayer extension provides lobbies, so players can join a game together and start playing. It is a key feature to allow players to play together, define which player number they are, and start the game when all players are ready.
-Lobbies are automatically created for your game. 
+Lobbies are automatically created for your game.
 
 !!! note
 
@@ -55,6 +54,10 @@ Typically, you can use this action when the user presses a button in your menu.
 
     To join a lobby, a player needs to log in to their GDevelop or gd.games account. This is automatically handled for you, so that calling this action will automatically open the authentication window if needed.
     If you want to handle this yourself, or allow players to change their account, you can use the actions and conditions provided by the **Player Authentication** extension.
+
+!!! tip
+
+    When developing the game, you can open multiple preview windows and join the same lobby with the same account. This way, you can test the multiplayer features without needing multiple devices.
 
 Once the game has started, the condition **Lobby game has just started** will turn true, so you can start your game.
 Typically, you can use this condition to either start moving things in your game, or to switch to another scene, where the game will happen.
@@ -93,7 +96,7 @@ To make a multiplayer game, you need to identify:
 
 For each synchronized object, there is a notion of **owner** of the object. The owner is the player who is in charge of the object instance: they can move it, change their properties, etc. Other players will simply reproduce this on their own game.
 
-By default, when you use the Multiplayer behavior, the owner of the object is the server. 
+By default, when you use the Multiplayer behavior, the owner of the object is the server.
 You can change the owner of an object by using the action **Change Player object ownership**. The owner is designated by the player number (1, 2, 3, 4...) or by 0 when the object is owned by the server.
 
 !!! note
@@ -128,7 +131,7 @@ When an object is destroyed, the behavior will also ensure it's deleted on other
 In most cases, you just need to add the behavior **Multiplayer object** to the objects you want to synchronize, define who is in charge of this object, and GDevelop will take care of the rest.
 
 !!! note
-    
+
     All this information is sent automatically by GDevelop, so you don't need to worry about it.
     It's still useful to understand this because this shows that the more complex an object is, the most it will consume bandwidth and network resources.
 
@@ -139,8 +142,7 @@ The main action you will use during your game will be **Change player object own
 It's often used:
 
 - At the start of the game, to define who is in charge of the objects that are already present in the game.
-  - Typically, you will use this action on the player characters, depending on their player number at the beginning of the scene.
-  - You don't need to use this action on objects that are created by the server, as the server will be the owner by default (for example, a door, a button, a bonus, etc.)
+  Typically, you will use this action on the player characters, depending on their player number at the beginning of the scene. (You don't need to use this action on objects that are created by the server, as the server will be the owner by default (for example, a door, a button, a bonus, etc.))
 - When a player interacts with an object, to change the owner of the object. For instance, when a player grabs a bonus or a weapon, it will be owned by the player.
 - When a player creates an object, to define who is in charge of the object. For instance, when a player throws a bomb, the bomb will be owned by the player, so you can use this action with the **Player number** expression.
 
@@ -162,15 +164,16 @@ For instance, you can use the variables of a player character to store the score
 A particularly tricky situation is when you have objects that are owned by different players, and you need to handle collisions or interactions between these objects.
 If not handled correctly, you risk seeing different behaviors on different players' games, which can lead to a bad experience for your players.
 
-The most common case is *when you delete an object as soon as they collide with another*. There is a risk that one player sees the collision happen, but the other player doesn't (as they have not received the information about the latest position of the object).
+The most common case is _when you delete an object as soon as they collide with another_. There is a risk that one player sees the collision happen, but the other player doesn't (as they have not received the information about the latest position of the object).
 
 The rule of thumb is as follows: if the collision, or the interaction in general, is important for the game, then you should handle it only on one player's game (or the server), and then synchronize the result to other players.
 
 For instance:
 
-- When an arrow shot by a player hits another character or an enemy, you should handle the collision either by the player who owns the arrow or by the player who owns the character or enemy, and then synchronize the result to other players with variables.
-  - If you handle the collision on the player who owns the arrow, ensure you use the condition **Player object ownership** to check if the current player owns the arrow. Once it happens, you can delete your arrow, and save the information about the collision in a variable of an object owned by the player. For instance a variable `LastHit` can be set to `Player 2` if the arrow hits player 2, and player 2 can react accordingly when they see this variable being set (change their animation, decrease their health, etc.)
-  - If you handle the collision on the player who owns the character or enemy, ensure you use the condition **Player object ownership** to check if the current player owns the character. Once it happens, you can save the information about the collision in a variable of an object owned by the player. For instance a variable `LastHitBy` can be set to `Player 1` if the arrow belonged to player 1, and player 1 can react accordingly when they see this variable being set (and delete the arrow on their side, for instance).
+When an arrow shot by a player hits another character or an enemy, you should handle the collision either by the player who owns the arrow or by the player who owns the character or enemy, and then synchronize the result to other players with variables.
+
+- If you handle the collision on the player who owns the arrow, ensure you use the condition **Player object ownership** to check if the current player owns the arrow. Once it happens, you can delete your arrow, and save the information about the collision in a variable of an object owned by the player. For instance a variable `LastHit` can be set to `Player 2` if the arrow hits player 2, and player 2 can react accordingly when they see this variable being set (change their animation, decrease their health, etc.)
+- If you handle the collision on the player who owns the character or enemy, ensure you use the condition **Player object ownership** to check if the current player owns the character. Once it happens, you can save the information about the collision in a variable of an object owned by the player. For instance a variable `LastHitBy` can be set to `Player 1` if the arrow belonged to player 1, and player 1 can react accordingly when they see this variable being set (and delete the arrow on their side, for instance).
 
 !!!note
 
