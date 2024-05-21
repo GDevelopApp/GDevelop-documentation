@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GDevelop Core: gd::ExpressionVariableParentFinder Class Reference</title>
+<title>GDevelop Core: gd::ExpressionVariableNameFinder Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,80 +64,76 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="namespacegd.html">gd</a></li><li class="navelem"><a class="el" href="classgd_1_1_expression_variable_parent_finder.html">ExpressionVariableParentFinder</a></li>  </ul>
+<li class="navelem"><a class="el" href="namespacegd.html">gd</a></li><li class="navelem"><a class="el" href="classgd_1_1_expression_variable_name_finder.html">ExpressionVariableNameFinder</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="classgd_1_1_expression_variable_parent_finder-members.html">List of all members</a>  </div>
+<a href="classgd_1_1_expression_variable_name_finder-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">gd::ExpressionVariableParentFinder Class Reference</div>  </div>
+<div class="title">gd::ExpressionVariableNameFinder Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Find the last parent (i.e: the variables container) of a node representing a variable.  
- <a href="classgd_1_1_expression_variable_parent_finder.html#details">More...</a></p>
+<p>Find the variable name from a variable expression.  
+ <a href="classgd_1_1_expression_variable_name_finder.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="_expression_variable_parent_finder_8h_source.html">ExpressionVariableParentFinder.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_expression_variable_name_finder_8h_source.html">ExpressionVariableNameFinder.h</a>&gt;</code></p>
 
 <p>Inherits <a class="el" href="classgd_1_1_expression_parser2_node_worker.html">gd::ExpressionParser2NodeWorker</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:af6eac6ecc03120882c237b88125a0a23"><td class="memItemLeft" align="right" valign="top"><a id="af6eac6ecc03120882c237b88125a0a23"></a>
-static <a class="el" href="structgd_1_1_variable_and_its_parent.html">VariableAndItsParent</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetLastParentOfNode</b> (const <a class="el" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform, const <a class="el" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a> &amp;projectScopedContainers, <a class="el" href="structgd_1_1_expression_node.html">gd::ExpressionNode</a> &amp;node)</td></tr>
-<tr class="separator:af6eac6ecc03120882c237b88125a0a23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13ba98d92cacb34f2ed49bedbc28de4c"><td class="memItemLeft" align="right" valign="top"><a id="a13ba98d92cacb34f2ed49bedbc28de4c"></a>
+static const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetVariableName</b> (<a class="el" href="structgd_1_1_expression_node.html">gd::ExpressionNode</a> &amp;node)</td></tr>
+<tr class="separator:a13ba98d92cacb34f2ed49bedbc28de4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ad5930c341ab45d55c50986a57af5400a"><td class="memItemLeft" align="right" valign="top"><a id="ad5930c341ab45d55c50986a57af5400a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>ExpressionVariableParentFinder</b> (const <a class="el" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform_, const <a class="el" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a> &amp;projectScopedContainers_)</td></tr>
-<tr class="separator:ad5930c341ab45d55c50986a57af5400a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ae21e76e14e7ae8656dd079c4a5779c"><td class="memItemLeft" align="right" valign="top"><a id="a0ae21e76e14e7ae8656dd079c4a5779c"></a>
+<tr class="memitem:aed789fd5ffe3046077015cb851db4c80"><td class="memItemLeft" align="right" valign="top"><a id="aed789fd5ffe3046077015cb851db4c80"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>OnVisitSubExpressionNode</b> (<a class="el" href="structgd_1_1_sub_expression_node.html">SubExpressionNode</a> &amp;node) override</td></tr>
-<tr class="separator:a0ae21e76e14e7ae8656dd079c4a5779c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40b3ba7e9b51f42cae9cead588e56bf6"><td class="memItemLeft" align="right" valign="top"><a id="a40b3ba7e9b51f42cae9cead588e56bf6"></a>
+<tr class="separator:aed789fd5ffe3046077015cb851db4c80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeae7177702ff35964b4a49472ac8a14"><td class="memItemLeft" align="right" valign="top"><a id="adeae7177702ff35964b4a49472ac8a14"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>OnVisitOperatorNode</b> (<a class="el" href="structgd_1_1_operator_node.html">OperatorNode</a> &amp;node) override</td></tr>
-<tr class="separator:a40b3ba7e9b51f42cae9cead588e56bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea21064d9a330f957b376b3f7e4d3924"><td class="memItemLeft" align="right" valign="top"><a id="aea21064d9a330f957b376b3f7e4d3924"></a>
+<tr class="separator:adeae7177702ff35964b4a49472ac8a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad528c61e089c2d18a8ca60dae734df31"><td class="memItemLeft" align="right" valign="top"><a id="ad528c61e089c2d18a8ca60dae734df31"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>OnVisitUnaryOperatorNode</b> (<a class="el" href="structgd_1_1_unary_operator_node.html">UnaryOperatorNode</a> &amp;node) override</td></tr>
-<tr class="separator:aea21064d9a330f957b376b3f7e4d3924"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9abe416e43b66a8de65ce1b7a2a6f1d6"><td class="memItemLeft" align="right" valign="top"><a id="a9abe416e43b66a8de65ce1b7a2a6f1d6"></a>
+<tr class="separator:ad528c61e089c2d18a8ca60dae734df31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02169bbef662dc8b035ad654f4405e8c"><td class="memItemLeft" align="right" valign="top"><a id="a02169bbef662dc8b035ad654f4405e8c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>OnVisitNumberNode</b> (<a class="el" href="structgd_1_1_number_node.html">NumberNode</a> &amp;node) override</td></tr>
-<tr class="separator:a9abe416e43b66a8de65ce1b7a2a6f1d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ea16cdbec34af7df7e84e666c04c1e0"><td class="memItemLeft" align="right" valign="top"><a id="a1ea16cdbec34af7df7e84e666c04c1e0"></a>
+<tr class="separator:a02169bbef662dc8b035ad654f4405e8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f8298acdc71c9d8568b4471172c5561"><td class="memItemLeft" align="right" valign="top"><a id="a2f8298acdc71c9d8568b4471172c5561"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>OnVisitTextNode</b> (<a class="el" href="structgd_1_1_text_node.html">TextNode</a> &amp;node) override</td></tr>
-<tr class="separator:a1ea16cdbec34af7df7e84e666c04c1e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab31e932a9a44f87a3fca6515d7785d3c"><td class="memItemLeft" align="right" valign="top"><a id="ab31e932a9a44f87a3fca6515d7785d3c"></a>
+<tr class="separator:a2f8298acdc71c9d8568b4471172c5561"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b9783a3f8beb22e2ef3986728256c58"><td class="memItemLeft" align="right" valign="top"><a id="a9b9783a3f8beb22e2ef3986728256c58"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>OnVisitVariableNode</b> (<a class="el" href="structgd_1_1_variable_node.html">VariableNode</a> &amp;node) override</td></tr>
-<tr class="separator:ab31e932a9a44f87a3fca6515d7785d3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9b2a91e85cfafee96b89b4a4e46e7fd"><td class="memItemLeft" align="right" valign="top"><a id="ae9b2a91e85cfafee96b89b4a4e46e7fd"></a>
+<tr class="separator:a9b9783a3f8beb22e2ef3986728256c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a837a83839d8b15599d248e8c7a8d7294"><td class="memItemLeft" align="right" valign="top"><a id="a837a83839d8b15599d248e8c7a8d7294"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>OnVisitVariableAccessorNode</b> (<a class="el" href="structgd_1_1_variable_accessor_node.html">VariableAccessorNode</a> &amp;node) override</td></tr>
-<tr class="separator:ae9b2a91e85cfafee96b89b4a4e46e7fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a085ddfd29daaf61e574ac086fbaad23d"><td class="memItemLeft" align="right" valign="top"><a id="a085ddfd29daaf61e574ac086fbaad23d"></a>
+<tr class="separator:a837a83839d8b15599d248e8c7a8d7294"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0ce3251c1dc64cafe30a8100e5d74e9"><td class="memItemLeft" align="right" valign="top"><a id="ac0ce3251c1dc64cafe30a8100e5d74e9"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>OnVisitIdentifierNode</b> (<a class="el" href="structgd_1_1_identifier_node.html">IdentifierNode</a> &amp;node) override</td></tr>
-<tr class="separator:a085ddfd29daaf61e574ac086fbaad23d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a074421799d50003334659b0255e78aed"><td class="memItemLeft" align="right" valign="top"><a id="a074421799d50003334659b0255e78aed"></a>
+<tr class="separator:ac0ce3251c1dc64cafe30a8100e5d74e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a210250197e98e4601519e6a30a1ace38"><td class="memItemLeft" align="right" valign="top"><a id="a210250197e98e4601519e6a30a1ace38"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>OnVisitEmptyNode</b> (<a class="el" href="structgd_1_1_empty_node.html">EmptyNode</a> &amp;node) override</td></tr>
-<tr class="separator:a074421799d50003334659b0255e78aed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adcef8b5ecf4970a64523b855d5530cdc"><td class="memItemLeft" align="right" valign="top"><a id="adcef8b5ecf4970a64523b855d5530cdc"></a>
+<tr class="separator:a210250197e98e4601519e6a30a1ace38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61cb3731356bfa3c73466ba47829806e"><td class="memItemLeft" align="right" valign="top"><a id="a61cb3731356bfa3c73466ba47829806e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>OnVisitObjectFunctionNameNode</b> (<a class="el" href="structgd_1_1_object_function_name_node.html">ObjectFunctionNameNode</a> &amp;node) override</td></tr>
-<tr class="separator:adcef8b5ecf4970a64523b855d5530cdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5987bca1f5cd0d0eaa4ea5cdc4a480cb"><td class="memItemLeft" align="right" valign="top"><a id="a5987bca1f5cd0d0eaa4ea5cdc4a480cb"></a>
+<tr class="separator:a61cb3731356bfa3c73466ba47829806e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc4b0c801ecdb66dafa41a22087d5523"><td class="memItemLeft" align="right" valign="top"><a id="afc4b0c801ecdb66dafa41a22087d5523"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>OnVisitVariableBracketAccessorNode</b> (<a class="el" href="structgd_1_1_variable_bracket_accessor_node.html">VariableBracketAccessorNode</a> &amp;node) override</td></tr>
-<tr class="separator:a5987bca1f5cd0d0eaa4ea5cdc4a480cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8dfa054339b4aa634fb44bd1fee25fc"><td class="memItemLeft" align="right" valign="top"><a id="ad8dfa054339b4aa634fb44bd1fee25fc"></a>
+<tr class="separator:afc4b0c801ecdb66dafa41a22087d5523"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a808316d642fdbbfcf35724d7e293b093"><td class="memItemLeft" align="right" valign="top"><a id="a808316d642fdbbfcf35724d7e293b093"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>OnVisitFunctionCallNode</b> (<a class="el" href="structgd_1_1_function_call_node.html">FunctionCallNode</a> &amp;functionCall) override</td></tr>
-<tr class="separator:ad8dfa054339b4aa634fb44bd1fee25fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a808316d642fdbbfcf35724d7e293b093"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Find the last parent (i.e: the variables container) of a node representing a variable. </p>
-<p>Useful for completions, to know which variables can be entered in a node.</p>
+<div class="textblock"><p>Find the variable name from a variable expression. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_expression_parser2.html" title="Parse an expression, returning a tree of node corresponding to the parsed expression.">gd::ExpressionParser2</a> </dd></dl>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="_expression_variable_parent_finder_8h_source.html">ExpressionVariableParentFinder.h</a></li>
+<li><a class="el" href="_expression_variable_name_finder_8h_source.html">ExpressionVariableNameFinder.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

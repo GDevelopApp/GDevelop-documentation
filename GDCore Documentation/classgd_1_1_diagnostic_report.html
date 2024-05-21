@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GDevelop Core: gd::ExpressionParserDiagnostic Struct Reference</title>
+<title>GDevelop Core: gd::DiagnosticReport Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,45 +64,38 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="namespacegd.html">gd</a></li><li class="navelem"><a class="el" href="structgd_1_1_expression_parser_diagnostic.html">ExpressionParserDiagnostic</a></li>  </ul>
+<li class="navelem"><a class="el" href="namespacegd.html">gd</a></li><li class="navelem"><a class="el" href="classgd_1_1_diagnostic_report.html">DiagnosticReport</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="structgd_1_1_expression_parser_diagnostic-members.html">List of all members</a>  </div>
+<a href="classgd_1_1_diagnostic_report-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">gd::ExpressionParserDiagnostic Struct Reference</div>  </div>
+<div class="title">gd::DiagnosticReport Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>A diagnostic that can be attached to a <a class="el" href="structgd_1_1_expression_node.html" title="The base node, from which all nodes in the tree of an expression inherits from.">gd::ExpressionNode</a>.  
- <a href="structgd_1_1_expression_parser_diagnostic.html#details">More...</a></p>
-
-<p><code>#include &lt;<a class="el" href="_expression_parser2_node_8h_source.html">ExpressionParser2Node.h</a>&gt;</code></p>
-
-<p>Inherited by <a class="el" href="structgd_1_1_expression_parser_error.html">gd::ExpressionParserError</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aef270f892db5bfb6c0d40b32575d6c96"><td class="memItemLeft" align="right" valign="top"><a id="aef270f892db5bfb6c0d40b32575d6c96"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsError</b> ()</td></tr>
-<tr class="separator:aef270f892db5bfb6c0d40b32575d6c96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b0340badcbac8d09f0da9836cfad52e"><td class="memItemLeft" align="right" valign="top"><a id="a2b0340badcbac8d09f0da9836cfad52e"></a>
-virtual const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetMessage</b> ()</td></tr>
-<tr class="separator:a2b0340badcbac8d09f0da9836cfad52e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acde9c4f51e1383f540adb3a3ca8cb713"><td class="memItemLeft" align="right" valign="top"><a id="acde9c4f51e1383f540adb3a3ca8cb713"></a>
-virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetStartPosition</b> ()</td></tr>
-<tr class="separator:acde9c4f51e1383f540adb3a3ca8cb713"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a772d82e6e86338c61d464567db8055f9"><td class="memItemLeft" align="right" valign="top"><a id="a772d82e6e86338c61d464567db8055f9"></a>
-virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetEndPosition</b> ()</td></tr>
-<tr class="separator:a772d82e6e86338c61d464567db8055f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae001771113a35cab5fb724434142a64f"><td class="memItemLeft" align="right" valign="top"><a id="ae001771113a35cab5fb724434142a64f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Add</b> (const <a class="el" href="classgd_1_1_project_diagnostic.html">gd::ProjectDiagnostic</a> &amp;projectDiagnostic)</td></tr>
+<tr class="separator:ae001771113a35cab5fb724434142a64f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad456caa63c39a32f80f84725b975e358"><td class="memItemLeft" align="right" valign="top"><a id="ad456caa63c39a32f80f84725b975e358"></a>
+const <a class="el" href="classgd_1_1_project_diagnostic.html">ProjectDiagnostic</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>Get</b> (std::size_t index) const</td></tr>
+<tr class="separator:ad456caa63c39a32f80f84725b975e358"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ff56edc9e020232ab49e12ec6270899"><td class="memItemLeft" align="right" valign="top"><a id="a3ff56edc9e020232ab49e12ec6270899"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>Count</b> () const</td></tr>
+<tr class="separator:a3ff56edc9e020232ab49e12ec6270899"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6da95a23ccb5a8a10130e428a731d91b"><td class="memItemLeft" align="right" valign="top"><a id="a6da95a23ccb5a8a10130e428a731d91b"></a>
+const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetSceneName</b> () const</td></tr>
+<tr class="separator:a6da95a23ccb5a8a10130e428a731d91b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9aa060914e9a6ae72e182c38976627d9"><td class="memItemLeft" align="right" valign="top"><a id="a9aa060914e9a6ae72e182c38976627d9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetSceneName</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;sceneName_)</td></tr>
+<tr class="separator:a9aa060914e9a6ae72e182c38976627d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A diagnostic that can be attached to a <a class="el" href="structgd_1_1_expression_node.html" title="The base node, from which all nodes in the tree of an expression inherits from.">gd::ExpressionNode</a>. </p>
-</div><hr/>The documentation for this struct was generated from the following files:<ul>
-<li><a class="el" href="_expression_parser2_node_8h_source.html">ExpressionParser2Node.h</a></li>
-<li>ExpressionParser2Node.cpp</li>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="_diagnostic_report_8h_source.html">DiagnosticReport.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

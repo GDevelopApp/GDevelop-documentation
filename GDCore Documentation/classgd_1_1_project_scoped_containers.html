@@ -106,6 +106,10 @@ const <a class="el" href="classgd_1_1_objects_containers_list.html">gd::ObjectsC
 <tr class="memitem:ae3545542fce6c502406dcd6f68ab3cea"><td class="memItemLeft" align="right" valign="top"><a id="ae3545542fce6c502406dcd6f68ab3cea"></a>
 const <a class="el" href="classgd_1_1_variables_containers_list.html">gd::VariablesContainersList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetVariablesContainersList</b> () const</td></tr>
 <tr class="separator:ae3545542fce6c502406dcd6f68ab3cea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31758963240f578902f10321548222bc"><td class="memItemLeft" align="right" valign="top"><a id="a31758963240f578902f10321548222bc"></a>
+<a class="el" href="classgd_1_1_variables_containers_list.html">gd::VariablesContainersList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project_scoped_containers.html#a31758963240f578902f10321548222bc">GetVariablesContainersList</a> ()</td></tr>
+<tr class="memdesc:a31758963240f578902f10321548222bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allow modification of the variables containers list. This is used by code generation which does push and pop of local variable containers. <br /></td></tr>
+<tr class="separator:a31758963240f578902f10321548222bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9edb7d6d3aabc395dd555058626603b2"><td class="memItemLeft" align="right" valign="top"><a id="a9edb7d6d3aabc395dd555058626603b2"></a>
 const <a class="el" href="classgd_1_1_properties_containers_list.html">gd::PropertiesContainersList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetPropertiesContainersList</b> () const</td></tr>
 <tr class="separator:a9edb7d6d3aabc395dd555058626603b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,9 +124,20 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a8abdaaf6b7249ad61de9d853182bf71a"><td class="memItemLeft" align="right" valign="top"><a id="a8abdaaf6b7249ad61de9d853182bf71a"></a>
 static <a class="el" href="classgd_1_1_project_scoped_containers.html">ProjectScopedContainers</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MakeNewProjectScopedContainersForProjectAndLayout</b> (const <a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_layout.html">gd::Layout</a> &amp;layout)</td></tr>
 <tr class="separator:a8abdaaf6b7249ad61de9d853182bf71a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba16e70e7e48cc99e33e2839c5bf14c9"><td class="memItemLeft" align="right" valign="top"><a id="aba16e70e7e48cc99e33e2839c5bf14c9"></a>
-static <a class="el" href="classgd_1_1_project_scoped_containers.html">ProjectScopedContainers</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MakeNewProjectScopedContainersFor</b> (const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;globalObjectsContainers, const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;objectsContainers)</td></tr>
+<tr class="memitem:aba16e70e7e48cc99e33e2839c5bf14c9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classgd_1_1_project_scoped_containers.html">ProjectScopedContainers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project_scoped_containers.html#aba16e70e7e48cc99e33e2839c5bf14c9">MakeNewProjectScopedContainersFor</a> (const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;globalObjectsContainers, const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;objectsContainers)</td></tr>
 <tr class="separator:aba16e70e7e48cc99e33e2839c5bf14c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3dcdec0dbfbaab8026867c5d76cf3b9"><td class="memItemLeft" align="right" valign="top"><a id="aa3dcdec0dbfbaab8026867c5d76cf3b9"></a>
+static <a class="el" href="classgd_1_1_project_scoped_containers.html">ProjectScopedContainers</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MakeNewProjectScopedContainersForFreeEventsFunction</b> (const <a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_events_functions_extension.html">gd::EventsFunctionsExtension</a> &amp;eventsFunctionsExtension, const <a class="el" href="classgd_1_1_events_function.html">gd::EventsFunction</a> &amp;eventsFunction, <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;parameterObjectsContainer)</td></tr>
+<tr class="separator:aa3dcdec0dbfbaab8026867c5d76cf3b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab38fe379ab663997b3b60dd13b916a0e"><td class="memItemLeft" align="right" valign="top"><a id="ab38fe379ab663997b3b60dd13b916a0e"></a>
+static <a class="el" href="classgd_1_1_project_scoped_containers.html">ProjectScopedContainers</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MakeNewProjectScopedContainersForBehaviorEventsFunction</b> (const <a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_events_functions_extension.html">gd::EventsFunctionsExtension</a> &amp;eventsFunctionsExtension, const <a class="el" href="classgd_1_1_events_based_behavior.html">gd::EventsBasedBehavior</a> &amp;eventsBasedBehavior, const <a class="el" href="classgd_1_1_events_function.html">gd::EventsFunction</a> &amp;eventsFunction, <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;parameterObjectsContainer)</td></tr>
+<tr class="separator:ab38fe379ab663997b3b60dd13b916a0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7f91dfb8fc5ca67a4de6a0b915c1b30"><td class="memItemLeft" align="right" valign="top"><a id="ab7f91dfb8fc5ca67a4de6a0b915c1b30"></a>
+static <a class="el" href="classgd_1_1_project_scoped_containers.html">ProjectScopedContainers</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MakeNewProjectScopedContainersForObjectEventsFunction</b> (const <a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_events_functions_extension.html">gd::EventsFunctionsExtension</a> &amp;eventsFunctionsExtension, const <a class="el" href="classgd_1_1_events_based_object.html">gd::EventsBasedObject</a> &amp;eventsBasedObject, const <a class="el" href="classgd_1_1_events_function.html">gd::EventsFunction</a> &amp;eventsFunction, <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;parameterObjectsContainer)</td></tr>
+<tr class="separator:ab7f91dfb8fc5ca67a4de6a0b915c1b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb13fa32c615e2786f81565a1d3f68a9"><td class="memItemLeft" align="right" valign="top"><a id="adb13fa32c615e2786f81565a1d3f68a9"></a>
+static <a class="el" href="classgd_1_1_project_scoped_containers.html">ProjectScopedContainers</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MakeNewProjectScopedContainersWithLocalVariables</b> (const <a class="el" href="classgd_1_1_project_scoped_containers.html">ProjectScopedContainers</a> &amp;projectScopedContainers, const <a class="el" href="classgd_1_1_base_event.html">gd::BaseEvent</a> &amp;event)</td></tr>
+<tr class="separator:adb13fa32c615e2786f81565a1d3f68a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Holds references to variables, objects, properties and other containers. </p>
@@ -155,8 +170,47 @@ static <a class="el" href="classgd_1_1_project_scoped_containers.html">ProjectSc
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="aba16e70e7e48cc99e33e2839c5bf14c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba16e70e7e48cc99e33e2839c5bf14c9">&#9670;&nbsp;</a></span>MakeNewProjectScopedContainersFor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classgd_1_1_project_scoped_containers.html">ProjectScopedContainers</a> gd::ProjectScopedContainers::MakeNewProjectScopedContainersFor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;&#160;</td>
+          <td class="paramname"><em>globalObjectsContainers</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;&#160;</td>
+          <td class="paramname"><em>objectsContainers</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000032">Deprecated:</a></b></dt><dd>Use another method for an explicit context instead. </dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="_project_scoped_containers_8h_source.html">ProjectScopedContainers.h</a></li>
+<li>ProjectScopedContainers.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

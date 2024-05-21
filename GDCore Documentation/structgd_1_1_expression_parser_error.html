@@ -69,6 +69,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="structgd_1_1_expression_parser_error-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -80,32 +81,59 @@ $(function() {
  <a href="structgd_1_1_expression_parser_error.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_expression_parser2_node_8h_source.html">ExpressionParser2Node.h</a>&gt;</code></p>
-
-<p>Inherits <a class="el" href="structgd_1_1_expression_parser_diagnostic.html">gd::ExpressionParserDiagnostic</a>.</p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a3ac085e639cc8fd2eafe45898c38a29f"><td class="memItemLeft" align="right" valign="top"><a id="a3ac085e639cc8fd2eafe45898c38a29f"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>ErrorType</b> { <br />
+&#160;&#160;<b>SyntaxError</b>
+, <b>InvalidOperator</b>
+, <b>MismatchedType</b>
+, <b>UndeclaredVariable</b>
+, <br />
+&#160;&#160;<b>UnknownIdentifier</b>
+, <b>BracketsNotAllowedForObjects</b>
+, <b>TooFewParameters</b>
+, <b>TooManyParameters</b>
+, <br />
+&#160;&#160;<b>InvalidFunctionName</b>
+, <b>MalformedVariableParameter</b>
+, <b>MalformedObjectParameter</b>
+, <b>UnknownParameterType</b>
+, <br />
+&#160;&#160;<b>MissingBehavior</b>
+<br />
+ }</td></tr>
+<tr class="separator:a3ac085e639cc8fd2eafe45898c38a29f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a63f604be2db999ad05fd97bcbcdd9c4d"><td class="memItemLeft" align="right" valign="top"><a id="a63f604be2db999ad05fd97bcbcdd9c4d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>ExpressionParserError</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;type_, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;message_, const <a class="el" href="structgd_1_1_expression_parser_location.html">ExpressionParserLocation</a> &amp;location_)</td></tr>
-<tr class="separator:a63f604be2db999ad05fd97bcbcdd9c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13f188133c1d8959fa27bede045a70e1"><td class="memItemLeft" align="right" valign="top"><a id="a13f188133c1d8959fa27bede045a70e1"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>ExpressionParserError</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;type_, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;message_, size_t position_)</td></tr>
-<tr class="separator:a13f188133c1d8959fa27bede045a70e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40e842ac1d199dffd1d8628664ea40c0"><td class="memItemLeft" align="right" valign="top"><a id="a40e842ac1d199dffd1d8628664ea40c0"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>ExpressionParserError</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;type_, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;message_, size_t startPosition_, size_t endPosition_)</td></tr>
-<tr class="separator:a40e842ac1d199dffd1d8628664ea40c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17c28a6c0769b8e6f1eb7b571ee8b706"><td class="memItemLeft" align="right" valign="top"><a id="a17c28a6c0769b8e6f1eb7b571ee8b706"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsError</b> () override</td></tr>
-<tr class="separator:a17c28a6c0769b8e6f1eb7b571ee8b706"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1ba78ce62864fed01debfe5c32a4dfd"><td class="memItemLeft" align="right" valign="top"><a id="af1ba78ce62864fed01debfe5c32a4dfd"></a>
-const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetMessage</b> () override</td></tr>
-<tr class="separator:af1ba78ce62864fed01debfe5c32a4dfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ea5f66354f011445b7c99aaccd53637"><td class="memItemLeft" align="right" valign="top"><a id="a8ea5f66354f011445b7c99aaccd53637"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetStartPosition</b> () override</td></tr>
-<tr class="separator:a8ea5f66354f011445b7c99aaccd53637"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69d2009e559a3347e83ead4f40541fe3"><td class="memItemLeft" align="right" valign="top"><a id="a69d2009e559a3347e83ead4f40541fe3"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetEndPosition</b> () override</td></tr>
-<tr class="separator:a69d2009e559a3347e83ead4f40541fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdb896822391550752d16fa392fa25cf"><td class="memItemLeft" align="right" valign="top"><a id="abdb896822391550752d16fa392fa25cf"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ExpressionParserError</b> (gd::ExpressionParserError::ErrorType type_, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;message_, const <a class="el" href="structgd_1_1_expression_parser_location.html">ExpressionParserLocation</a> &amp;location_, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;actualValue_=&quot;&quot;, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectName_=&quot;&quot;)</td></tr>
+<tr class="separator:abdb896822391550752d16fa392fa25cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f868e626c13d6024b5d8a81dd766055"><td class="memItemLeft" align="right" valign="top"><a id="a3f868e626c13d6024b5d8a81dd766055"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ExpressionParserError</b> (gd::ExpressionParserError::ErrorType type_, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;message_, size_t position_)</td></tr>
+<tr class="separator:a3f868e626c13d6024b5d8a81dd766055"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48b40e7d87e7965450bdacff5ae9d4ae"><td class="memItemLeft" align="right" valign="top"><a id="a48b40e7d87e7965450bdacff5ae9d4ae"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ExpressionParserError</b> (gd::ExpressionParserError::ErrorType type_, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;message_, size_t startPosition_, size_t endPosition_)</td></tr>
+<tr class="separator:a48b40e7d87e7965450bdacff5ae9d4ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafc8095f3e0a33bfbd2e7b2d072f2f7d"><td class="memItemLeft" align="right" valign="top"><a id="aafc8095f3e0a33bfbd2e7b2d072f2f7d"></a>
+gd::ExpressionParserError::ErrorType&#160;</td><td class="memItemRight" valign="bottom"><b>GetType</b> ()</td></tr>
+<tr class="separator:aafc8095f3e0a33bfbd2e7b2d072f2f7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b6199769bbc476b4e9efa24f6fb4470"><td class="memItemLeft" align="right" valign="top"><a id="a8b6199769bbc476b4e9efa24f6fb4470"></a>
+const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetMessage</b> ()</td></tr>
+<tr class="separator:a8b6199769bbc476b4e9efa24f6fb4470"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae55619ffe6d97560241010a7ab830bde"><td class="memItemLeft" align="right" valign="top"><a id="ae55619ffe6d97560241010a7ab830bde"></a>
+const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetObjectName</b> ()</td></tr>
+<tr class="separator:ae55619ffe6d97560241010a7ab830bde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad34e71c5a672758458300dc8da3786fe"><td class="memItemLeft" align="right" valign="top"><a id="ad34e71c5a672758458300dc8da3786fe"></a>
+const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetActualValue</b> ()</td></tr>
+<tr class="separator:ad34e71c5a672758458300dc8da3786fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77c0be680dbb63f914a5bd161843cd1f"><td class="memItemLeft" align="right" valign="top"><a id="a77c0be680dbb63f914a5bd161843cd1f"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetStartPosition</b> ()</td></tr>
+<tr class="separator:a77c0be680dbb63f914a5bd161843cd1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0cb5783cc4756be6c2120b749a64903"><td class="memItemLeft" align="right" valign="top"><a id="ac0cb5783cc4756be6c2120b749a64903"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetEndPosition</b> ()</td></tr>
+<tr class="separator:ac0cb5783cc4756be6c2120b749a64903"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An error that can be attached to a <a class="el" href="structgd_1_1_expression_node.html" title="The base node, from which all nodes in the tree of an expression inherits from.">gd::ExpressionNode</a>. </p>

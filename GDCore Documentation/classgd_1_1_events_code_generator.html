@@ -97,6 +97,7 @@ Public Types</h2></td></tr>
 <tr class="memitem:ae448dbfea5cce48d02d6b7ef3f9d3866"><td class="memItemLeft" align="right" valign="top"><a id="ae448dbfea5cce48d02d6b7ef3f9d3866"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>VariableScope</b> { <b>LAYOUT_VARIABLE</b> = 0
 , <b>PROJECT_VARIABLE</b>
 , <b>OBJECT_VARIABLE</b>
+, <b>ANY_VARIABLE</b>
  }</td></tr>
 <tr class="separator:ae448dbfea5cce48d02d6b7ef3f9d3866"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -188,6 +189,10 @@ const <a class="el" href="classgd_1_1_objects_containers_list.html">gd::ObjectsC
 <tr class="memitem:a087a882496c87f68d10868ef8b75786a"><td class="memItemLeft" align="right" valign="top"><a id="a087a882496c87f68d10868ef8b75786a"></a>
 const <a class="el" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetProjectScopedContainers</b> () const</td></tr>
 <tr class="separator:a087a882496c87f68d10868ef8b75786a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91505af83af586d6bfe5aff3f43a23be"><td class="memItemLeft" align="right" valign="top"><a id="a91505af83af586d6bfe5aff3f43a23be"></a>
+<a class="el" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#a91505af83af586d6bfe5aff3f43a23be">GetProjectScopedContainers</a> ()</td></tr>
+<tr class="memdesc:a91505af83af586d6bfe5aff3f43a23be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Give access to the project scoped containers as code generation might push and pop variable containers (for local variables). This could be passed as a parameter recursively in code generation, but this requires heavy refactoring. Instead, we use this single instance. <br /></td></tr>
+<tr class="separator:a91505af83af586d6bfe5aff3f43a23be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad5bda91139fb08829a432b525fd203c"><td class="memItemLeft" align="right" valign="top"><a id="aad5bda91139fb08829a432b525fd203c"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#aad5bda91139fb08829a432b525fd203c">HasProjectAndLayout</a> () const</td></tr>
 <tr class="memdesc:aad5bda91139fb08829a432b525fd203c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the code generation is done for a given project and layout. If not, this means that the code is generated for a function. <br /></td></tr>
@@ -210,6 +215,12 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#a1220b6c28fd7d377d4e8411bae34d0f3">GetMaxConditionsListsSize</a> () const</td></tr>
 <tr class="memdesc:a1220b6c28fd7d377d4e8411bae34d0f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the maximum size of a list of conditions. <br /></td></tr>
 <tr class="separator:a1220b6c28fd7d377d4e8411bae34d0f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab49bc5afc0840be311aa1499b9f000aa"><td class="memItemLeft" align="right" valign="top"><a id="ab49bc5afc0840be311aa1499b9f000aa"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetDiagnosticReport</b> (<a class="el" href="classgd_1_1_diagnostic_report.html">gd::DiagnosticReport</a> *diagnosticReport_)</td></tr>
+<tr class="separator:ab49bc5afc0840be311aa1499b9f000aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5242e14b9f0f491404c60d4964cdcb9"><td class="memItemLeft" align="right" valign="top"><a id="ad5242e14b9f0f491404c60d4964cdcb9"></a>
+<a class="el" href="classgd_1_1_diagnostic_report.html">gd::DiagnosticReport</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>GetDiagnosticReport</b> ()</td></tr>
+<tr class="separator:ad5242e14b9f0f491404c60d4964cdcb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab37e789d3ec8373da9d5e293ae52811f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#ab37e789d3ec8373da9d5e293ae52811f">GenerateBooleanFullName</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;boolName, const <a class="el" href="classgd_1_1_events_code_generation_context.html">gd::EventsCodeGenerationContext</a> &amp;context)</td></tr>
 <tr class="memdesc:ab37e789d3ec8373da9d5e293ae52811f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate the full name for accessing to a boolean variable used for conditions.  <a href="classgd_1_1_events_code_generator.html#ab37e789d3ec8373da9d5e293ae52811f">More...</a><br /></td></tr>
 <tr class="separator:ab37e789d3ec8373da9d5e293ae52811f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -243,6 +254,10 @@ virtual <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><t
 <tr class="memitem:ac4a3b778385158957630a37259894364"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#ac4a3b778385158957630a37259894364">GenerateRelationalOperation</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;relationalOperator, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;lhs, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;rhs)</td></tr>
 <tr class="memdesc:ac4a3b778385158957630a37259894364"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a relational operation.  <a href="classgd_1_1_events_code_generator.html#ac4a3b778385158957630a37259894364">More...</a><br /></td></tr>
 <tr class="separator:ac4a3b778385158957630a37259894364"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a607e911f432e1e5b4190c571a49db814"><td class="memItemLeft" align="right" valign="top"><a id="a607e911f432e1e5b4190c571a49db814"></a>
+virtual <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#a607e911f432e1e5b4190c571a49db814">GenerateLocalVariablesStackAccessor</a> ()</td></tr>
+<tr class="memdesc:a607e911f432e1e5b4190c571a49db814"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate the code to access the local variables stack. <br /></td></tr>
+<tr class="separator:a607e911f432e1e5b4190c571a49db814"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -352,6 +367,9 @@ virtual <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><t
 <tr class="separator:a9ee8b175a18afde7acae4a7b37d35bc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacd4bfff33f34faaeb9a1bb2592a7fcd"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#aacd4bfff33f34faaeb9a1bb2592a7fcd">GenerateGetBehaviorNameCode</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;behaviorName)</td></tr>
 <tr class="separator:aacd4bfff33f34faaeb9a1bb2592a7fcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfd12f51fd9220be50b214c56b2ead74"><td class="memItemLeft" align="right" valign="top"><a id="abfd12f51fd9220be50b214c56b2ead74"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>CheckBehaviorParameters</b> (const <a class="el" href="classgd_1_1_instruction.html">gd::Instruction</a> &amp;instruction, const <a class="el" href="classgd_1_1_instruction_metadata.html">gd::InstructionMetadata</a> &amp;instrInfos)</td></tr>
+<tr class="separator:abfd12f51fd9220be50b214c56b2ead74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -396,6 +414,9 @@ std::set&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a c
 <tr class="separator:ae69367e2395476a9987fe65817abf012"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93d7b4e5e142ab73165f9fe7c9e74d05"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#a93d7b4e5e142ab73165f9fe7c9e74d05">eventsListNextUniqueId</a></td></tr>
 <tr class="separator:a93d7b4e5e142ab73165f9fe7c9e74d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02550e8df29065e88e93ac7712a3b2d5"><td class="memItemLeft" align="right" valign="top"><a id="a02550e8df29065e88e93ac7712a3b2d5"></a>
+<a class="el" href="classgd_1_1_diagnostic_report.html">gd::DiagnosticReport</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>diagnosticReport</b></td></tr>
+<tr class="separator:a02550e8df29065e88e93ac7712a3b2d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>

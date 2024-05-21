@@ -102,10 +102,33 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:aa9993b28bc0c553e6e53f678260babed"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgd_1_1_variables_container.html">VariablesContainer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variables_containers_list.html#aa9993b28bc0c553e6e53f678260babed">GetBottomMostVariablesContainer</a> () const</td></tr>
 <tr class="memdesc:aa9993b28bc0c553e6e53f678260babed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Avoid using apart when a scope must be forced.  <a href="classgd_1_1_variables_containers_list.html#aa9993b28bc0c553e6e53f678260babed">More...</a><br /></td></tr>
 <tr class="separator:aa9993b28bc0c553e6e53f678260babed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a052fe632b55350bc3a625a8d65a2a092"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgd_1_1_variables_container.html">VariablesContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variables_containers_list.html#a052fe632b55350bc3a625a8d65a2a092">GetVariablesContainerFromVariableName</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;variableName) const</td></tr>
+<tr class="separator:a052fe632b55350bc3a625a8d65a2a092"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45541acd20776c91b4359849ec61951f"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variables_containers_list.html#a45541acd20776c91b4359849ec61951f">GetVariablesContainerPositionFromVariableName</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;variableName) const</td></tr>
+<tr class="separator:a45541acd20776c91b4359849ec61951f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add29150971f1c6f5f50d210945b8927b"><td class="memItemLeft" align="right" valign="top"><a id="add29150971f1c6f5f50d210945b8927b"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variables_containers_list.html#add29150971f1c6f5f50d210945b8927b">GetLocalVariablesContainerPosition</a> (const <a class="el" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> &amp;localVariableContainer) const</td></tr>
+<tr class="memdesc:add29150971f1c6f5f50d210945b8927b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the index of the given local variables container. <br /></td></tr>
+<tr class="separator:add29150971f1c6f5f50d210945b8927b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79df2318beec415aa594d8615d305781"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variables_containers_list.html#a79df2318beec415aa594d8615d305781">GetVariablesContainer</a> (std::size_t index) const</td></tr>
+<tr class="memdesc:a79df2318beec415aa594d8615d305781"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the variable container at the specified index in the list.  <a href="classgd_1_1_variables_containers_list.html#a79df2318beec415aa594d8615d305781">More...</a><br /></td></tr>
+<tr class="separator:a79df2318beec415aa594d8615d305781"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f1b50dbca8762b4c83b8e65e486f302"><td class="memItemLeft" align="right" valign="top"><a id="a4f1b50dbca8762b4c83b8e65e486f302"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variables_containers_list.html#a4f1b50dbca8762b4c83b8e65e486f302">GetVariablesContainersCount</a> () const</td></tr>
+<tr class="memdesc:a4f1b50dbca8762b4c83b8e65e486f302"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number variable containers. <br /></td></tr>
+<tr class="separator:a4f1b50dbca8762b4c83b8e65e486f302"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3556bdac348aeabe2257cf96c2a476a"><td class="memItemLeft" align="right" valign="top"><a id="af3556bdac348aeabe2257cf96c2a476a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variables_containers_list.html#af3556bdac348aeabe2257cf96c2a476a">ForEachVariableMatchingSearch</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;search, std::function&lt; void(const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name, const <a class="el" href="classgd_1_1_variable.html">gd::Variable</a> &amp;variable)&gt; fn) const</td></tr>
 <tr class="memdesc:af3556bdac348aeabe2257cf96c2a476a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call the callback for each variable having a name matching the specified search. <br /></td></tr>
 <tr class="separator:af3556bdac348aeabe2257cf96c2a476a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae903cbaf6bc1e6394506e8e60ee78af9"><td class="memItemLeft" align="right" valign="top"><a id="ae903cbaf6bc1e6394506e8e60ee78af9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variables_containers_list.html#ae903cbaf6bc1e6394506e8e60ee78af9">Push</a> (const <a class="el" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> &amp;variablesContainer)</td></tr>
+<tr class="memdesc:ae903cbaf6bc1e6394506e8e60ee78af9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push a new variables container to the context. <br /></td></tr>
+<tr class="separator:ae903cbaf6bc1e6394506e8e60ee78af9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5db00261b2d858d058d14c055f093fa"><td class="memItemLeft" align="right" valign="top"><a id="af5db00261b2d858d058d14c055f093fa"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variables_containers_list.html#af5db00261b2d858d058d14c055f093fa">Pop</a> ()</td></tr>
+<tr class="memdesc:af5db00261b2d858d058d14c055f093fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pop a variables container from the context. <br /></td></tr>
+<tr class="separator:af5db00261b2d858d058d14c055f093fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3cc9abd52256d07e1b35061c23a8223c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variables_containers_list.html#a3cc9abd52256d07e1b35061c23a8223c">VariablesContainersList</a> ()</td></tr>
 <tr class="separator:a3cc9abd52256d07e1b35061c23a8223c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -114,8 +137,13 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a147e7b13666602f104448f6c4103670f"><td class="memItemLeft" align="right" valign="top"><a id="a147e7b13666602f104448f6c4103670f"></a>
 static <a class="el" href="classgd_1_1_variables_containers_list.html">VariablesContainersList</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MakeNewVariablesContainersListForProjectAndLayout</b> (const <a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_layout.html">gd::Layout</a> &amp;layout)</td></tr>
 <tr class="separator:a147e7b13666602f104448f6c4103670f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae36257aaaf79c8edef21100e735f7cb"><td class="memItemLeft" align="right" valign="top"><a id="aae36257aaaf79c8edef21100e735f7cb"></a>
-static <a class="el" href="classgd_1_1_variables_containers_list.html">VariablesContainersList</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MakeNewEmptyVariablesContainersList</b> ()</td></tr>
+<tr class="memitem:a08cdf59d596cd7d7c8fc2ef9eb6e7494"><td class="memItemLeft" align="right" valign="top"><a id="a08cdf59d596cd7d7c8fc2ef9eb6e7494"></a>
+static <a class="el" href="classgd_1_1_variables_containers_list.html">VariablesContainersList</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MakeNewVariablesContainersListForEventsFunctionsExtension</b> (const <a class="el" href="classgd_1_1_events_functions_extension.html">gd::EventsFunctionsExtension</a> &amp;extension)</td></tr>
+<tr class="separator:a08cdf59d596cd7d7c8fc2ef9eb6e7494"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5de6409dc298c55602566c01432fcaff"><td class="memItemLeft" align="right" valign="top"><a id="a5de6409dc298c55602566c01432fcaff"></a>
+static <a class="el" href="classgd_1_1_variables_containers_list.html">VariablesContainersList</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MakeNewVariablesContainersListPushing</b> (const <a class="el" href="classgd_1_1_variables_containers_list.html">VariablesContainersList</a> &amp;variablesContainersList, const <a class="el" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> &amp;variablesContainer)</td></tr>
+<tr class="separator:a5de6409dc298c55602566c01432fcaff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae36257aaaf79c8edef21100e735f7cb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classgd_1_1_variables_containers_list.html">VariablesContainersList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variables_containers_list.html#aae36257aaaf79c8edef21100e735f7cb">MakeNewEmptyVariablesContainersList</a> ()</td></tr>
 <tr class="separator:aae36257aaaf79c8edef21100e735f7cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -177,7 +205,7 @@ static <a class="el" href="classgd_1_1_variables_containers_list.html">Variables
 </div><div class="memdoc">
 
 <p>Avoid using apart when a scope must be forced. </p>
-<p>Get the variables container at the bottom of the scope (so the most "local" one). </p>
+<p>Get the variables container at the bottom of the scope (so the most "local" one) excluding local variables. </p>
 
 </div>
 </div>
@@ -206,6 +234,99 @@ static <a class="el" href="classgd_1_1_variables_containers_list.html">Variables
 
 <p>Avoid using apart when a scope must be forced. </p>
 <p>Get the variables container at the top of the scope (so the most "global" one). </p>
+
+</div>
+</div>
+<a id="a79df2318beec415aa594d8615d305781"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79df2318beec415aa594d8615d305781">&#9670;&nbsp;</a></span>GetVariablesContainer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a>&amp; gd::VariablesContainersList::GetVariablesContainer </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the variable container at the specified index in the list. </p>
+<dl class="section warning"><dt>Warning</dt><dd>Trying to access to a not existing variable container will result in undefined behavior. </dd></dl>
+
+</div>
+</div>
+<a id="a052fe632b55350bc3a625a8d65a2a092"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a052fe632b55350bc3a625a8d65a2a092">&#9670;&nbsp;</a></span>GetVariablesContainerFromVariableName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classgd_1_1_variables_container.html">VariablesContainer</a> &amp; gd::VariablesContainersList::GetVariablesContainerFromVariableName </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>variableName</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Get the variables container for a given variable. </p>
+
+</div>
+</div>
+<a id="a45541acd20776c91b4359849ec61951f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45541acd20776c91b4359849ec61951f">&#9670;&nbsp;</a></span>GetVariablesContainerPositionFromVariableName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t gd::VariablesContainersList::GetVariablesContainerPositionFromVariableName </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>variableName</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Get the variables container index for a given variable. </p>
+
+</div>
+</div>
+<a id="aae36257aaaf79c8edef21100e735f7cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae36257aaaf79c8edef21100e735f7cb">&#9670;&nbsp;</a></span>MakeNewEmptyVariablesContainersList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classgd_1_1_variables_containers_list.html">VariablesContainersList</a> gd::VariablesContainersList::MakeNewEmptyVariablesContainersList </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000033">Deprecated:</a></b></dt><dd>Use another method for an explicit context instead. </dd></dl>
 
 </div>
 </div>

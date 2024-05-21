@@ -102,6 +102,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a38dd768f5e3ad52ef0f6888dfb360a15"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#a38dd768f5e3ad52ef0f6888dfb360a15">HasSubEvents</a> () const</td></tr>
 <tr class="memdesc:a38dd768f5e3ad52ef0f6888dfb360a15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the events has sub events.  <a href="classgd_1_1_base_event.html#a38dd768f5e3ad52ef0f6888dfb360a15">More...</a><br /></td></tr>
 <tr class="separator:a38dd768f5e3ad52ef0f6888dfb360a15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68f3059fed2654962a987f6995eba614"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#a68f3059fed2654962a987f6995eba614">CanHaveVariables</a> () const</td></tr>
+<tr class="separator:a68f3059fed2654962a987f6995eba614"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad877a0623a23c7292388beb0864db95a"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#ad877a0623a23c7292388beb0864db95a">GetVariables</a> () const</td></tr>
+<tr class="separator:ad877a0623a23c7292388beb0864db95a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc38b5ffb7f368be9c0eeb39b3986dac"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#adc38b5ffb7f368be9c0eeb39b3986dac">GetVariables</a> ()</td></tr>
+<tr class="separator:adc38b5ffb7f368be9c0eeb39b3986dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affb88f3f95ad5a7d84d5cc9236fd7806"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#affb88f3f95ad5a7d84d5cc9236fd7806">HasVariables</a> () const</td></tr>
+<tr class="memdesc:affb88f3f95ad5a7d84d5cc9236fd7806"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the events has local variables.  <a href="classgd_1_1_base_event.html#affb88f3f95ad5a7d84d5cc9236fd7806">More...</a><br /></td></tr>
+<tr class="separator:affb88f3f95ad5a7d84d5cc9236fd7806"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5813de7c210d66862b82fd6969013a1f"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="classgd_1_1_instructions_list.html">gd::InstructionsList</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#a5813de7c210d66862b82fd6969013a1f">GetAllConditionsVectors</a> ()</td></tr>
 <tr class="memdesc:a5813de7c210d66862b82fd6969013a1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a list of all conditions of the event.  <a href="classgd_1_1_base_event.html#a5813de7c210d66862b82fd6969013a1f">More...</a><br /></td></tr>
 <tr class="separator:a5813de7c210d66862b82fd6969013a1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -226,6 +235,34 @@ Public Attributes</h2></td></tr>
 <p>Derived class have to redefine this function, so as to return true, if they have sub events. </p>
 
 <p>Reimplemented in <a class="el" href="classgd_1_1_while_event.html#ac2a213713fc0249622618d50fe79536e">gd::WhileEvent</a>, <a class="el" href="classgd_1_1_standard_event.html#ace14261e5248d41ca68c85b2bb9d1fb8">gd::StandardEvent</a>, <a class="el" href="classgd_1_1_repeat_event.html#a366e6294acfd6d856a0e2941c1e622c9">gd::RepeatEvent</a>, <a class="el" href="classgd_1_1_group_event.html#a831ff2e906995193e9ead335585a2799">gd::GroupEvent</a>, <a class="el" href="classgd_1_1_for_each_event.html#ae26ee76e1cda6fa8b96abdd0459400fd">gd::ForEachEvent</a>, <a class="el" href="classgd_1_1_for_each_child_variable_event.html#a0ead4f654aa3956b12f160ca0e10a407">gd::ForEachChildVariableEvent</a>, and <a class="el" href="classgd_1_1_async_event.html#a19188fb5f4301d436dc9bfd94db1006c">gd::AsyncEvent</a>.</p>
+
+</div>
+</div>
+<a id="a68f3059fed2654962a987f6995eba614"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68f3059fed2654962a987f6995eba614">&#9670;&nbsp;</a></span>CanHaveVariables()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool gd::BaseEvent::CanHaveVariables </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Derived class have to redefine this function, so as to return true, if they can have local variables. </p>
+
+<p>Reimplemented in <a class="el" href="classgd_1_1_standard_event.html#aab7ff776c591cbe4170d37e5fd4d4d7f">gd::StandardEvent</a>.</p>
 
 </div>
 </div>
@@ -531,6 +568,62 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="adc38b5ffb7f368be9c0eeb39b3986dac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc38b5ffb7f368be9c0eeb39b3986dac">&#9670;&nbsp;</a></span>GetVariables() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a>&amp; gd::BaseEvent::GetVariables </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return the local variables, if applicable. </p>
+
+<p>Reimplemented in <a class="el" href="classgd_1_1_standard_event.html#ae00d2cdf0cfe40ab773d17e8fd5667e4">gd::StandardEvent</a>.</p>
+
+</div>
+</div>
+<a id="ad877a0623a23c7292388beb0864db95a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad877a0623a23c7292388beb0864db95a">&#9670;&nbsp;</a></span>GetVariables() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const <a class="el" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a>&amp; gd::BaseEvent::GetVariables </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return the local variables, if applicable. </p>
+
+<p>Reimplemented in <a class="el" href="classgd_1_1_standard_event.html#ac3744baf26e56261709c9e60561ce8cf">gd::StandardEvent</a>.</p>
+
+</div>
+</div>
 <a id="a38dd768f5e3ad52ef0f6888dfb360a15"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a38dd768f5e3ad52ef0f6888dfb360a15">&#9670;&nbsp;</a></span>HasSubEvents()</h2>
 
@@ -548,6 +641,26 @@ Public Attributes</h2></td></tr>
 
 <p>Return true if the events has sub events. </p>
 <dl class="section warning"><dt>Warning</dt><dd>This is only applicable when <a class="el" href="classgd_1_1_base_event.html#a619c19e03a55c9ffa4a0bd3848852e7b">CanHaveSubEvents()</a> return true. </dd></dl>
+
+</div>
+</div>
+<a id="affb88f3f95ad5a7d84d5cc9236fd7806"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affb88f3f95ad5a7d84d5cc9236fd7806">&#9670;&nbsp;</a></span>HasVariables()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gd::BaseEvent::HasVariables </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return true if the events has local variables. </p>
+<dl class="section warning"><dt>Warning</dt><dd>This is only applicable when <a class="el" href="classgd_1_1_base_event.html#a68f3059fed2654962a987f6995eba614">CanHaveVariables()</a> return true. </dd></dl>
 
 </div>
 </div>

@@ -78,96 +78,107 @@ $(function() {
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * reserved. This project is released under the MIT License.</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef GDCORE_VARIABLESCONTAINER_H</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#define GDCORE_VARIABLESCONTAINER_H</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;GDCore/Project/Variable.h&quot;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;GDCore/String.h&quot;</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegd.html">gd</a> {</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">class </span>SerializerElement;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;}</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">class </span>TiXmlElement;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegd.html">gd</a> {</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classgd_1_1_variables_container.html">   30</a></span>&#160;<span class="keyword">class </span>GD_CORE_API <a class="code" href="classgd_1_1_variables_container.html">VariablesContainer</a> {</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <a class="code" href="classgd_1_1_variables_container.html">VariablesContainer</a>();</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <a class="code" href="classgd_1_1_variables_container.html">VariablesContainer</a>(<span class="keyword">const</span> <a class="code" href="classgd_1_1_variables_container.html">VariablesContainer</a>&amp;);</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keyword">virtual</span> ~<a class="code" href="classgd_1_1_variables_container.html">VariablesContainer</a>(){};</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <a class="code" href="classgd_1_1_variables_container.html">VariablesContainer</a>&amp; operator=(<span class="keyword">const</span> <a class="code" href="classgd_1_1_variables_container.html">VariablesContainer</a>&amp; rhs);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="keywordtype">bool</span> Has(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;GDCore/Project/Variable.h&quot;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;GDCore/String.h&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegd.html">gd</a> {</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">class </span>SerializerElement;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">class </span>TiXmlElement;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegd.html">gd</a> {</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classgd_1_1_variables_container.html">   29</a></span>&#160;<span class="keyword">class </span>GD_CORE_API <a class="code" href="classgd_1_1_variables_container.html">VariablesContainer</a> {</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <span class="keyword">enum</span> SourceType {</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;      Unknown,</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;      Global,</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;      <a class="code" href="classgd_1_1_layout.html">Scene</a>,</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;      <a class="code" href="classgd_1_1_object.html">Object</a>,</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;      Local,</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;      ExtensionGlobal,</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;      ExtensionScene</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  };</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <a class="code" href="classgd_1_1_variables_container.html">VariablesContainer</a>();</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  <a class="code" href="classgd_1_1_variables_container.html">VariablesContainer</a>(<span class="keyword">const</span> SourceType sourceType);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <a class="code" href="classgd_1_1_variables_container.html">VariablesContainer</a>(<span class="keyword">const</span> <a class="code" href="classgd_1_1_variables_container.html">VariablesContainer</a>&amp;);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  <span class="keyword">virtual</span> ~<a class="code" href="classgd_1_1_variables_container.html">VariablesContainer</a>(){};</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <a class="code" href="classgd_1_1_variables_container.html">VariablesContainer</a>&amp; operator=(<span class="keyword">const</span> <a class="code" href="classgd_1_1_variables_container.html">VariablesContainer</a>&amp; rhs);</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; Get(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; Get(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; Get(std::size_t index);</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; Get(std::size_t index) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  SourceType GetSourceType()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> sourceType; }</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <span class="keywordtype">bool</span> Has(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; Get(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; Get(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; Insert(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name,</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                   <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; variable,</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                   std::size_t position);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; Get(std::size_t index);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; Get(std::size_t index) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
-<div class="line"><a name="l00085"></a><span class="lineno"><a class="line" href="classgd_1_1_variables_container.html#aadba9a51a3e6f428bc04ddd4dac6b8b5">   85</a></span>&#160;  std::size_t <a class="code" href="classgd_1_1_variables_container.html#aadba9a51a3e6f428bc04ddd4dac6b8b5">Count</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> variables.size(); };</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; GetNameAt(std::size_t index) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="preprocessor">#if defined(GD_IDE_ONLY)</span></div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  std::size_t GetPosition(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; Insert(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name,</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                   <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; variable,</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                   std::size_t position);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
+<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="classgd_1_1_variables_container.html#aadba9a51a3e6f428bc04ddd4dac6b8b5">   97</a></span>&#160;  std::size_t <a class="code" href="classgd_1_1_variables_container.html#aadba9a51a3e6f428bc04ddd4dac6b8b5">Count</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> variables.size(); };</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;  <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; InsertNew(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name, std::size_t position = -1);</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;  <span class="keywordtype">void</span> Remove(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name);</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160; </div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;  <span class="keywordtype">void</span> RemoveRecursively(<span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>&amp; variable);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; GetNameAt(std::size_t index) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  std::size_t GetPosition(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;  <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; InsertNew(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name, std::size_t position = -1);</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160; </div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  <span class="keywordtype">bool</span> Rename(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; oldName, <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; newName);</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  <span class="keywordtype">void</span> Remove(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name);</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160; </div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  <span class="keywordtype">void</span> Swap(std::size_t firstVariableIndex, std::size_t secondVariableIndex);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  <span class="keywordtype">void</span> RemoveRecursively(<span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>&amp; variable);</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160; </div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;  <span class="keywordtype">void</span> Move(std::size_t oldIndex, std::size_t newIndex);</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;  <span class="keywordtype">bool</span> Rename(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; oldName, <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; newName);</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160; </div>
-<div class="line"><a name="l00139"></a><span class="lineno"><a class="line" href="classgd_1_1_variables_container.html#a9d2b4285cd7f57034cb9fa71ae65c6db">  139</a></span>&#160;  <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="classgd_1_1_variables_container.html#a9d2b4285cd7f57034cb9fa71ae65c6db">Clear</a>() { variables.clear(); }</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;  <span class="keywordtype">void</span> Swap(std::size_t firstVariableIndex, std::size_t secondVariableIndex);</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160; </div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;  <span class="keywordtype">void</span> ForEachVariableMatchingSearch(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; search, std::function&lt;<span class="keywordtype">void</span>(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name, <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>&amp; variable)&gt; fn) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160; </div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160; </div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;  <span class="keywordtype">void</span> SerializeTo(<a class="code" href="classgd_1_1_serializer_element.html">SerializerElement</a>&amp; element) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160; </div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;  <span class="keywordtype">void</span> UnserializeFrom(<span class="keyword">const</span> <a class="code" href="classgd_1_1_serializer_element.html">SerializerElement</a>&amp; element);</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160; </div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;  <a class="code" href="classgd_1_1_variables_container.html">VariablesContainer</a>&amp; ResetPersistentUuid();</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160; </div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;  <a class="code" href="classgd_1_1_variables_container.html">VariablesContainer</a>&amp; ClearPersistentUuid();</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160; </div>
-<div class="line"><a name="l00177"></a><span class="lineno"><a class="line" href="classgd_1_1_variables_container.html#a90119de20b14813aad0af375317a43bd">  177</a></span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; <a class="code" href="classgd_1_1_variables_container.html#a90119de20b14813aad0af375317a43bd">GetPersistentUuid</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> persistentUuid; };</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160; </div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  std::vector&lt;std::pair&lt;gd::String, std::shared_ptr&lt;gd::Variable&gt;&gt;&gt; variables;</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;  <span class="keyword">mutable</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> persistentUuid;  </div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;  <span class="keyword">static</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a> badVariable;</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;  <span class="keyword">static</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> badName;</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160; </div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;  <span class="keywordtype">void</span> Init(<span class="keyword">const</span> <a class="code" href="classgd_1_1_variables_container.html">VariablesContainer</a>&amp; other);</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;};</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160; </div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;}  <span class="comment">// namespace gd</span></div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160; </div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// GDCORE_VARIABLESCONTAINER_H</span></div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;  <span class="keywordtype">void</span> Move(std::size_t oldIndex, std::size_t newIndex);</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160; </div>
+<div class="line"><a name="l00149"></a><span class="lineno"><a class="line" href="classgd_1_1_variables_container.html#a9d2b4285cd7f57034cb9fa71ae65c6db">  149</a></span>&#160;  <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="classgd_1_1_variables_container.html#a9d2b4285cd7f57034cb9fa71ae65c6db">Clear</a>() { variables.clear(); }</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160; </div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;  <span class="keywordtype">void</span> ForEachVariableMatchingSearch(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; search, std::function&lt;<span class="keywordtype">void</span>(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name, <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>&amp; variable)&gt; fn) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160; </div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160; </div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;  <span class="keywordtype">void</span> SerializeTo(<a class="code" href="classgd_1_1_serializer_element.html">SerializerElement</a>&amp; element) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160; </div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;  <span class="keywordtype">void</span> UnserializeFrom(<span class="keyword">const</span> <a class="code" href="classgd_1_1_serializer_element.html">SerializerElement</a>&amp; element);</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160; </div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;  <a class="code" href="classgd_1_1_variables_container.html">VariablesContainer</a>&amp; ResetPersistentUuid();</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160; </div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  <a class="code" href="classgd_1_1_variables_container.html">VariablesContainer</a>&amp; ClearPersistentUuid();</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160; </div>
+<div class="line"><a name="l00187"></a><span class="lineno"><a class="line" href="classgd_1_1_variables_container.html#a90119de20b14813aad0af375317a43bd">  187</a></span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; <a class="code" href="classgd_1_1_variables_container.html#a90119de20b14813aad0af375317a43bd">GetPersistentUuid</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> persistentUuid; };</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160; </div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160; <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;  SourceType sourceType;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;  std::vector&lt;std::pair&lt;gd::String, std::shared_ptr&lt;gd::Variable&gt;&gt;&gt; variables;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;  <span class="keyword">mutable</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> persistentUuid;  </div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;  <span class="keyword">static</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a> badVariable;</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;  <span class="keyword">static</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> badName;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160; </div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;  <span class="keywordtype">void</span> Init(<span class="keyword">const</span> <a class="code" href="classgd_1_1_variables_container.html">VariablesContainer</a>&amp; other);</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;};</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160; </div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;}  <span class="comment">// namespace gd</span></div>
+<div class="ttc" id="aclassgd_1_1_layout_html"><div class="ttname"><a href="classgd_1_1_layout.html">gd::Layout</a></div><div class="ttdoc">Represent a layout ( also called a scene ) of a project.</div><div class="ttdef"><b>Definition:</b> Layout.h:39</div></div>
+<div class="ttc" id="aclassgd_1_1_object_html"><div class="ttname"><a href="classgd_1_1_object.html">gd::Object</a></div><div class="ttdoc">Represent an object of a platform.</div><div class="ttdef"><b>Definition:</b> Object.h:37</div></div>
 <div class="ttc" id="aclassgd_1_1_serializer_element_html"><div class="ttname"><a href="classgd_1_1_serializer_element.html">gd::SerializerElement</a></div><div class="ttdoc">A generic container that can represent a value ( containing a string, double, bool or int),...</div><div class="ttdef"><b>Definition:</b> SerializerElement.h:37</div></div>
 <div class="ttc" id="aclassgd_1_1_string_html"><div class="ttname"><a href="classgd_1_1_string.html">gd::String</a></div><div class="ttdoc">String represents an UTF8 encoded string.</div><div class="ttdef"><b>Definition:</b> String.h:31</div></div>
 <div class="ttc" id="aclassgd_1_1_variable_html"><div class="ttname"><a href="classgd_1_1_variable.html">gd::Variable</a></div><div class="ttdoc">Defines a variable which can be used by an object, a layout or a project.</div><div class="ttdef"><b>Definition:</b> Variable.h:29</div></div>
-<div class="ttc" id="aclassgd_1_1_variables_container_html"><div class="ttname"><a href="classgd_1_1_variables_container.html">gd::VariablesContainer</a></div><div class="ttdoc">Class defining a container for gd::Variable.</div><div class="ttdef"><b>Definition:</b> VariablesContainer.h:30</div></div>
-<div class="ttc" id="aclassgd_1_1_variables_container_html_a90119de20b14813aad0af375317a43bd"><div class="ttname"><a href="classgd_1_1_variables_container.html#a90119de20b14813aad0af375317a43bd">gd::VariablesContainer::GetPersistentUuid</a></div><div class="ttdeci">const gd::String &amp; GetPersistentUuid() const</div><div class="ttdoc">Get the persistent UUID used to recognize the same variables between serialization.</div><div class="ttdef"><b>Definition:</b> VariablesContainer.h:177</div></div>
-<div class="ttc" id="aclassgd_1_1_variables_container_html_a9d2b4285cd7f57034cb9fa71ae65c6db"><div class="ttname"><a href="classgd_1_1_variables_container.html#a9d2b4285cd7f57034cb9fa71ae65c6db">gd::VariablesContainer::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdoc">Clear all variables of the container.</div><div class="ttdef"><b>Definition:</b> VariablesContainer.h:139</div></div>
-<div class="ttc" id="aclassgd_1_1_variables_container_html_aadba9a51a3e6f428bc04ddd4dac6b8b5"><div class="ttname"><a href="classgd_1_1_variables_container.html#aadba9a51a3e6f428bc04ddd4dac6b8b5">gd::VariablesContainer::Count</a></div><div class="ttdeci">std::size_t Count() const</div><div class="ttdoc">Return the number of variables.</div><div class="ttdef"><b>Definition:</b> VariablesContainer.h:85</div></div>
+<div class="ttc" id="aclassgd_1_1_variables_container_html"><div class="ttname"><a href="classgd_1_1_variables_container.html">gd::VariablesContainer</a></div><div class="ttdoc">Class defining a container for gd::Variable.</div><div class="ttdef"><b>Definition:</b> VariablesContainer.h:29</div></div>
+<div class="ttc" id="aclassgd_1_1_variables_container_html_a90119de20b14813aad0af375317a43bd"><div class="ttname"><a href="classgd_1_1_variables_container.html#a90119de20b14813aad0af375317a43bd">gd::VariablesContainer::GetPersistentUuid</a></div><div class="ttdeci">const gd::String &amp; GetPersistentUuid() const</div><div class="ttdoc">Get the persistent UUID used to recognize the same variables between serialization.</div><div class="ttdef"><b>Definition:</b> VariablesContainer.h:187</div></div>
+<div class="ttc" id="aclassgd_1_1_variables_container_html_a9d2b4285cd7f57034cb9fa71ae65c6db"><div class="ttname"><a href="classgd_1_1_variables_container.html#a9d2b4285cd7f57034cb9fa71ae65c6db">gd::VariablesContainer::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdoc">Clear all variables of the container.</div><div class="ttdef"><b>Definition:</b> VariablesContainer.h:149</div></div>
+<div class="ttc" id="aclassgd_1_1_variables_container_html_aadba9a51a3e6f428bc04ddd4dac6b8b5"><div class="ttname"><a href="classgd_1_1_variables_container.html#aadba9a51a3e6f428bc04ddd4dac6b8b5">gd::VariablesContainer::Count</a></div><div class="ttdeci">std::size_t Count() const</div><div class="ttdoc">Return the number of variables.</div><div class="ttdef"><b>Definition:</b> VariablesContainer.h:97</div></div>
 <div class="ttc" id="anamespacegd_html"><div class="ttname"><a href="namespacegd.html">gd</a></div><div class="ttdef"><b>Definition:</b> CommonTools.h:24</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

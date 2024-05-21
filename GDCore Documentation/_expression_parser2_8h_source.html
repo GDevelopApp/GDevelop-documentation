@@ -590,28 +590,28 @@ $(function() {
 <div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;        invalidClosingParenthesisLocation};</div>
 <div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;  }</div>
 <div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160; </div>
-<div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;  std::unique_ptr&lt;ExpressionParserDiagnostic&gt; ValidateOperator(</div>
+<div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;  std::unique_ptr&lt;ExpressionParserError&gt; ValidateOperator(</div>
 <div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;      gd::String::value_type operatorChar) {</div>
 <div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;    <span class="keywordflow">if</span> (operatorChar == <span class="charliteral">&#39;+&#39;</span> || operatorChar == <span class="charliteral">&#39;-&#39;</span> || operatorChar == <span class="charliteral">&#39;/&#39;</span> ||</div>
 <div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;        operatorChar == <span class="charliteral">&#39;*&#39;</span>) {</div>
-<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;      <span class="keywordflow">return</span> gd::make_unique&lt;ExpressionParserDiagnostic&gt;();</div>
+<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;      <span class="keywordflow">return</span> std::unique_ptr&lt;ExpressionParserError&gt;(<span class="keyword">nullptr</span>);</div>
 <div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;    }</div>
 <div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;    <span class="keywordflow">return</span> gd::make_unique&lt;ExpressionParserError&gt;(</div>
-<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;        <span class="stringliteral">&quot;invalid_operator&quot;</span>,</div>
+<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;        gd::ExpressionParserError::ErrorType::InvalidOperator,</div>
 <div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;        _(<span class="stringliteral">&quot;You&#39;ve used an operator that is not supported. Operator should be &quot;</span></div>
 <div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;          <span class="stringliteral">&quot;either +, -, / or *.&quot;</span>),</div>
 <div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;        GetCurrentPosition());</div>
 <div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;  }</div>
 <div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160; </div>
-<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;  std::unique_ptr&lt;ExpressionParserDiagnostic&gt; ValidateUnaryOperator(</div>
+<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;  std::unique_ptr&lt;ExpressionParserError&gt; ValidateUnaryOperator(</div>
 <div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;      gd::String::value_type operatorChar,</div>
 <div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;      <span class="keywordtype">size_t</span> position) {</div>
 <div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;    <span class="keywordflow">if</span> (operatorChar == <span class="charliteral">&#39;+&#39;</span> || operatorChar == <span class="charliteral">&#39;-&#39;</span>) {</div>
-<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;      <span class="keywordflow">return</span> gd::make_unique&lt;ExpressionParserDiagnostic&gt;();</div>
+<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;      <span class="keywordflow">return</span> std::unique_ptr&lt;ExpressionParserError&gt;(<span class="keyword">nullptr</span>);</div>
 <div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;    }</div>
 <div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160; </div>
 <div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;    <span class="keywordflow">return</span> gd::make_unique&lt;ExpressionParserError&gt;(</div>
-<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;        <span class="stringliteral">&quot;invalid_operator&quot;</span>,</div>
+<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;        gd::ExpressionParserError::ErrorType::InvalidOperator,</div>
 <div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;        _(<span class="stringliteral">&quot;You&#39;ve used an \&quot;unary\&quot; operator that is not supported. Operator &quot;</span></div>
 <div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;          <span class="stringliteral">&quot;should be &quot;</span></div>
 <div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;          <span class="stringliteral">&quot;either + or -.&quot;</span>),</div>
@@ -752,24 +752,26 @@ $(function() {
 <div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;  std::unique_ptr&lt;ExpressionParserError&gt; RaiseSyntaxError(</div>
 <div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;message) {</div>
 <div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;    <span class="keywordflow">return</span> std::move(gd::make_unique&lt;ExpressionParserError&gt;(</div>
-<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;        <span class="stringliteral">&quot;syntax_error&quot;</span>, message, GetCurrentPosition()));</div>
-<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;  }</div>
-<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160; </div>
-<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;  std::unique_ptr&lt;ExpressionParserError&gt; RaiseTypeError(</div>
-<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;message, <span class="keywordtype">size_t</span> beginningPosition) {</div>
-<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;    <span class="keywordflow">return</span> std::move(gd::make_unique&lt;ExpressionParserError&gt;(</div>
-<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;        <span class="stringliteral">&quot;type_error&quot;</span>, message, beginningPosition, GetCurrentPosition()));</div>
-<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;  }</div>
-<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160; </div>
-<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> expression;</div>
-<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;  std::size_t currentPosition;</div>
-<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160; </div>
-<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;  <span class="keyword">static</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> NAMESPACE_SEPARATOR;</div>
-<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;};</div>
-<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160; </div>
-<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;}  <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;        gd::ExpressionParserError::ErrorType::SyntaxError, message,</div>
+<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;        GetCurrentPosition()));</div>
+<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;  }</div>
+<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160; </div>
+<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;  std::unique_ptr&lt;ExpressionParserError&gt; RaiseTypeError(</div>
+<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;message, <span class="keywordtype">size_t</span> beginningPosition) {</div>
+<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;    <span class="keywordflow">return</span> std::move(gd::make_unique&lt;ExpressionParserError&gt;(</div>
+<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;        gd::ExpressionParserError::ErrorType::MismatchedType, message,</div>
+<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;        beginningPosition, GetCurrentPosition()));</div>
+<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;  }</div>
+<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160; </div>
+<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> expression;</div>
+<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;  std::size_t currentPosition;</div>
+<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160; </div>
+<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;  <span class="keyword">static</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> NAMESPACE_SEPARATOR;</div>
+<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;};</div>
 <div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160; </div>
-<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// GDCORE_EXPRESSIONPARSER2_H</span></div>
+<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;}  <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160; </div>
+<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// GDCORE_EXPRESSIONPARSER2_H</span></div>
 <div class="ttc" id="a_localization_8h_html"><div class="ttname"><a href="_localization_8h.html">Localization.h</a></div></div>
 <div class="ttc" id="aclassgd_1_1_expression_html"><div class="ttname"><a href="classgd_1_1_expression.html">gd::Expression</a></div><div class="ttdoc">Class representing an expression used as a parameter of a gd::Instruction. This class is nothing more...</div><div class="ttdef"><b>Definition:</b> Expression.h:30</div></div>
 <div class="ttc" id="aclassgd_1_1_expression_parser2_html"><div class="ttname"><a href="classgd_1_1_expression_parser2.html">gd::ExpressionParser2</a></div><div class="ttdoc">Parse an expression, returning a tree of node corresponding to the parsed expression.</div><div class="ttdef"><b>Definition:</b> ExpressionParser2.h:44</div></div>

@@ -77,34 +77,35 @@ $(function() {
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * Copyright 2008-present Florian Rival (Florian.Rival@gmail.com). All rights</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * reserved. This project is released under the MIT License.</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#ifndef GDJS_LAYOUTCODEGENERATOR_H</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#define GDJS_LAYOUTCODEGENERATOR_H</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;map&gt;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;set&gt;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;GDCore/Project/Layout.h&quot;</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">namespace </span>gdjs {</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../dc/d3f/classgdjs_1_1_layout_code_generator.html">   23</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../dc/d3f/classgdjs_1_1_layout_code_generator.html">LayoutCodeGenerator</a> {</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  <a class="code" href="../../dc/d3f/classgdjs_1_1_layout_code_generator.html">LayoutCodeGenerator</a>(<span class="keyword">const</span> gd::Project&amp; project_)</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;      : project(project_){};</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  gd::String <a class="code" href="../../dc/d3f/classgdjs_1_1_layout_code_generator.html#a31da91680c37e2f766200d2fc64dc105">GenerateLayoutCompleteCode</a>(</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;      <span class="keyword">const</span> gd::Layout&amp; layout,</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;      std::set&lt;gd::String&gt;&amp; includeFiles,</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;      <span class="keywordtype">bool</span> compilationForRuntime);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <span class="keyword">const</span> gd::Project&amp; project;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;};</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}  <span class="comment">// namespace gdjs</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// GDJS_LAYOUTCODEGENERATOR_H</span></div>
-<div class="ttc" id="aclassgdjs_1_1_layout_code_generator_html"><div class="ttname"><a href="../../dc/d3f/classgdjs_1_1_layout_code_generator.html">gdjs::LayoutCodeGenerator</a></div><div class="ttdoc">The class being responsible for generating JavaScript code for the events of a scene.</div><div class="ttdef"><b>Definition:</b> LayoutCodeGenerator.h:23</div></div>
-<div class="ttc" id="aclassgdjs_1_1_layout_code_generator_html_a31da91680c37e2f766200d2fc64dc105"><div class="ttname"><a href="../../dc/d3f/classgdjs_1_1_layout_code_generator.html#a31da91680c37e2f766200d2fc64dc105">gdjs::LayoutCodeGenerator::GenerateLayoutCompleteCode</a></div><div class="ttdeci">gd::String GenerateLayoutCompleteCode(const gd::Layout &amp;layout, std::set&lt; gd::String &gt; &amp;includeFiles, bool compilationForRuntime)</div><div class="ttdoc">Generate the complete code for the events of the specified scene.</div><div class="ttdef"><b>Definition:</b> LayoutCodeGenerator.cpp:11</div></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;GDCore/Events/CodeGeneration/DiagnosticReport.h&quot;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">namespace </span>gdjs {</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../dc/d3f/classgdjs_1_1_layout_code_generator.html">   24</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../dc/d3f/classgdjs_1_1_layout_code_generator.html">LayoutCodeGenerator</a> {</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <a class="code" href="../../dc/d3f/classgdjs_1_1_layout_code_generator.html">LayoutCodeGenerator</a>(<span class="keyword">const</span> gd::Project&amp; project_)</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;      : project(project_){};</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  gd::String <a class="code" href="../../dc/d3f/classgdjs_1_1_layout_code_generator.html#a9671c932b28b209dafbee1877de0e427">GenerateLayoutCompleteCode</a>(</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;      <span class="keyword">const</span> gd::Layout&amp; layout,</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;      std::set&lt;gd::String&gt;&amp; includeFiles,</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;      gd::DiagnosticReport&amp; diagnosticReport,</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;      <span class="keywordtype">bool</span> compilationForRuntime);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <span class="keyword">const</span> gd::Project&amp; project;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;};</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}  <span class="comment">// namespace gdjs</span></div>
+<div class="ttc" id="aclassgdjs_1_1_layout_code_generator_html"><div class="ttname"><a href="../../dc/d3f/classgdjs_1_1_layout_code_generator.html">gdjs::LayoutCodeGenerator</a></div><div class="ttdoc">The class being responsible for generating JavaScript code for the events of a scene.</div><div class="ttdef"><b>Definition:</b> LayoutCodeGenerator.h:24</div></div>
+<div class="ttc" id="aclassgdjs_1_1_layout_code_generator_html_a9671c932b28b209dafbee1877de0e427"><div class="ttname"><a href="../../dc/d3f/classgdjs_1_1_layout_code_generator.html#a9671c932b28b209dafbee1877de0e427">gdjs::LayoutCodeGenerator::GenerateLayoutCompleteCode</a></div><div class="ttdeci">gd::String GenerateLayoutCompleteCode(const gd::Layout &amp;layout, std::set&lt; gd::String &gt; &amp;includeFiles, gd::DiagnosticReport &amp;diagnosticReport, bool compilationForRuntime)</div><div class="ttdoc">Generate the complete code for the events of the specified scene.</div><div class="ttdef"><b>Definition:</b> LayoutCodeGenerator.cpp:11</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

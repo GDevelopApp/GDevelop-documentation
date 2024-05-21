@@ -81,9 +81,9 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="_arbitrary_events_worker_8h_source.html">ArbitraryEventsWorker.h</a>&gt;</code></p>
 
-<p>Inherits <a class="el" href="classgd_1_1_event_visitor.html">gd::EventVisitor</a>.</p>
+<p>Inherits <a class="el" href="classgd_1_1_abstract_arbitrary_events_worker.html">gd::AbstractArbitraryEventsWorker</a>.</p>
 
-<p>Inherited by <a class="el" href="classgd_1_1_arbitrary_events_worker_with_context.html">gd::ArbitraryEventsWorkerWithContext</a>, <a class="el" href="classgd_1_1_events_leaderboards_lister.html">gd::EventsLeaderboardsLister</a>, <a class="el" href="classgd_1_1_events_leaderboards_renamer.html">gd::EventsLeaderboardsRenamer</a>, <a class="el" href="classgd_1_1_events_parameters_lister.html">gd::EventsParametersLister</a>, <a class="el" href="classgd_1_1_events_position_finder.html">gd::EventsPositionFinder</a>, <a class="el" href="classgd_1_1_events_remover.html">gd::EventsRemover</a>, <a class="el" href="classgd_1_1_events_types_lister.html">gd::EventsTypesLister</a>, <a class="el" href="classgd_1_1_instructions_count_evaluator.html">gd::InstructionsCountEvaluator</a>, <a class="el" href="classgd_1_1_instructions_parameter_mover.html">gd::InstructionsParameterMover</a>, <a class="el" href="classgd_1_1_instructions_type_renamer.html">gd::InstructionsTypeRenamer</a>, and <a class="el" href="classgd_1_1_resource_worker_in_events_worker.html">gd::ResourceWorkerInEventsWorker</a>.</p>
+<p>Inherited by <a class="el" href="classgd_1_1_events_leaderboards_lister.html">gd::EventsLeaderboardsLister</a>, <a class="el" href="classgd_1_1_events_leaderboards_renamer.html">gd::EventsLeaderboardsRenamer</a>, <a class="el" href="classgd_1_1_events_parameters_lister.html">gd::EventsParametersLister</a>, <a class="el" href="classgd_1_1_events_position_finder.html">gd::EventsPositionFinder</a>, <a class="el" href="classgd_1_1_events_remover.html">gd::EventsRemover</a>, <a class="el" href="classgd_1_1_events_types_lister.html">gd::EventsTypesLister</a>, <a class="el" href="classgd_1_1_instructions_count_evaluator.html">gd::InstructionsCountEvaluator</a>, <a class="el" href="classgd_1_1_instructions_parameter_mover.html">gd::InstructionsParameterMover</a>, <a class="el" href="classgd_1_1_instructions_type_renamer.html">gd::InstructionsTypeRenamer</a>, and <a class="el" href="classgd_1_1_resource_worker_in_events_worker.html">gd::ResourceWorkerInEventsWorker</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -91,6 +91,13 @@ Public Member Functions</h2></td></tr>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_arbitrary_events_worker.html#a5bce134f7c8f1fe69c0b6cefa0e84ece">Launch</a> (<a class="el" href="classgd_1_1_events_list.html">gd::EventsList</a> &amp;events)</td></tr>
 <tr class="memdesc:a5bce134f7c8f1fe69c0b6cefa0e84ece"><td class="mdescLeft">&#160;</td><td class="mdescRight">Launch the worker on the specified events list. <br /></td></tr>
 <tr class="separator:a5bce134f7c8f1fe69c0b6cefa0e84ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_methods_classgd_1_1_abstract_arbitrary_events_worker"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classgd_1_1_abstract_arbitrary_events_worker')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classgd_1_1_abstract_arbitrary_events_worker.html">gd::AbstractArbitraryEventsWorker</a></td></tr>
+<tr class="memitem:ad51145e77737d646c6ab8ea49febfde0 inherit pro_methods_classgd_1_1_abstract_arbitrary_events_worker"><td class="memItemLeft" align="right" valign="top"><a id="ad51145e77737d646c6ab8ea49febfde0"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>VisitEventList</b> (<a class="el" href="classgd_1_1_events_list.html">gd::EventsList</a> &amp;events)</td></tr>
+<tr class="separator:ad51145e77737d646c6ab8ea49febfde0 inherit pro_methods_classgd_1_1_abstract_arbitrary_events_worker"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classgd_1_1_arbitrary_events_worker.html" title="ArbitraryEventsWorker is an abstract class used to browse events (and instructions) and do some work ...">ArbitraryEventsWorker</a> is an abstract class used to browse events (and instructions) and do some work on them. Can be used to implement refactoring for example. </p>
