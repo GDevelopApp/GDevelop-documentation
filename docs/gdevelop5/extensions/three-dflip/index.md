@@ -7,9 +7,7 @@ Flip sprites with a 3D rotation effect.
 
 ---
 
-Flip sprites with a 3D rotation effect.
-
-Note that the X origin point must be at the center for the best results.
+It can be used to flip cards or characters.
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
@@ -23,18 +21,18 @@ Flip a Sprite with a 3D effect.
 ### Behavior actions
 
 **Flip the object**  
-Start a flipping animation on the object.
+Start a flipping animation on the object. The X origin point must be set at the object center.
 
 **Flip to a side**  
-Flips the object to one specific side.
+Flips the object to one specific side. The X origin point must be set at the object center.
 
-**Stop the flip**  
-Stops flipping the object.
+**Jump to flipping end**  
+Jump to the end of the flipping animation.
 
 ### Behavior conditions
 
 **Is flipped**  
-Checks if the object has been flipped.
+Checks if the object is flipped or will be flipped.
 
 **Flipping is playing**  
 Checks if a flipping animation is currently playing.
