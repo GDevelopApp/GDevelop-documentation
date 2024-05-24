@@ -30,11 +30,4 @@ In the editor, choose "Add a variable", then enter a name, choose a data type an
 
 ## Using object variables in expressions
 
-You can use scene variables in [expressions](/gdevelop5/all-features/expressions). Just write the name of the object, followed by a dot then the name of the variable to use it in a formula. For example: `Player.RemainingPoints`.
-
-
-!!! note
-
-    You can also access variable using the expressions `<Object Name>.Variable(<name of the variable>)` (for a variable containing a number) and `<Object Name>.VariableString(<name of the variable>)` (for a variable containing a text). For example: `Player.Variable(RemainingPoints)`.
-
-    These expressions are more verbose and not recommended to use anymore, but will still work and you can find them in some games.
+You can use object variables in [expressions](/gdevelop5/all-features/expressions). Just write the name of the object, followed by a dot then the name of the variable to use it in a formula. For example: `Player.RemainingPoints`.
