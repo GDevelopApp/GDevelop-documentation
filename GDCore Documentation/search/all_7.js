@@ -1,10 +1,11 @@
 var searchData=
 [
-  ['gd_401',['gd',['../namespacegd.html',1,'']]],
-  ['gdevelop_20core_402',['GDevelop Core',['../index.html',1,'']]],
-  ['generate_403',['Generate',['../classgd_1_1_new_name_generator.html#a181a3f16fcc2bc72aaf042022001422c',1,'gd::NewNameGenerator::Generate(const gd::String &amp;name, std::function&lt; bool(const gd::String &amp;)&gt; exists)'],['../classgd_1_1_new_name_generator.html#a664c665fc8a523836506bf6324a1b870',1,'gd::NewNameGenerator::Generate(const gd::String &amp;name, const gd::String &amp;prefix, std::function&lt; bool(const gd::String &amp;)&gt; exists)']]],
-  ['generateactioncode_404',['GenerateActionCode',['../classgd_1_1_events_code_generator.html#ac6248b34e716eefa9f746213d0d9ea53',1,'gd::EventsCodeGenerator']]],
-  ['generateactionslistcode_405',['GenerateActionsListCode',['../classgd_1_1_events_code_generator.html#a16b69a1fd1fa71c0718436b35a4f8ccc',1,'gd::EventsCodeGenerator']]],
+  ['gd_400',['gd',['../namespacegd.html',1,'']]],
+  ['gdevelop_20core_401',['GDevelop Core',['../index.html',1,'']]],
+  ['generate_402',['Generate',['../classgd_1_1_new_name_generator.html#a181a3f16fcc2bc72aaf042022001422c',1,'gd::NewNameGenerator::Generate(const gd::String &amp;name, std::function&lt; bool(const gd::String &amp;)&gt; exists)'],['../classgd_1_1_new_name_generator.html#a664c665fc8a523836506bf6324a1b870',1,'gd::NewNameGenerator::Generate(const gd::String &amp;name, const gd::String &amp;prefix, std::function&lt; bool(const gd::String &amp;)&gt; exists)']]],
+  ['generateactioncode_403',['GenerateActionCode',['../classgd_1_1_events_code_generator.html#ac6248b34e716eefa9f746213d0d9ea53',1,'gd::EventsCodeGenerator']]],
+  ['generateactionslistcode_404',['GenerateActionsListCode',['../classgd_1_1_events_code_generator.html#a16b69a1fd1fa71c0718436b35a4f8ccc',1,'gd::EventsCodeGenerator']]],
+  ['generateanyorscenevariablegetter_405',['GenerateAnyOrSceneVariableGetter',['../classgd_1_1_events_code_generator.html#aaf6ce14bc74a4bb2ffa8129ef2613800',1,'gd::EventsCodeGenerator']]],
   ['generateargumentslist_406',['GenerateArgumentsList',['../classgd_1_1_events_code_generator.html#a9ee8b175a18afde7acae4a7b37d35bc1',1,'gd::EventsCodeGenerator']]],
   ['generatebadobject_407',['GenerateBadObject',['../classgd_1_1_events_code_generator.html#a6cdb7c370ca94f92a0762936bef7d5b8',1,'gd::EventsCodeGenerator']]],
   ['generatebadvariable_408',['GenerateBadVariable',['../classgd_1_1_events_code_generator.html#a54251b879c1ee2f6c7a9ebe219327d75',1,'gd::EventsCodeGenerator']]],
