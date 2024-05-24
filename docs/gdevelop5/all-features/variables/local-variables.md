@@ -24,7 +24,7 @@ In the editor, choose "Add a variable", then enter a name, choose a data type an
 
 ## Using local variables in expressions
 
-You can use local variables in [expressions](/gdevelop5/all-features/expressions). Just write the name of the variable to use it in a formula. Note that if an object is using the same name, it will take the priority over the scene variable.
+You can use local variables in [expressions](/gdevelop5/all-features/expressions). Just write the name of the variable to use it in a formula. Note that if an object is using the same name, the object will take priority over the local variable.
 
 ## Use local variable as a loop index
 
