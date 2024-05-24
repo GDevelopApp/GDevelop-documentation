@@ -8,7 +8,8 @@ Local variables are [variables](/gdevelop5/all-features/variables) which are:
 - stored in memory for the duration of an event execution,
 - can only be accessed from its event and sub-events.
 
-They're useful for temporarily use the result of a calculus, such as a random number to tiger different actions according to its value. They're deleted from memory as soon as the event is fully executed.
+They're useful for temporarily using the result of a calculation. For instance, to generate random number and use it to trigger different actions according to its value.
+Local variables are deleted from memory as soon as their event is fully executed (including its sub-events).
 
 ## Creating local variables
 
