@@ -111,8 +111,6 @@ Expressions to convert number, texts and quantities. [Read more explanations abo
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `GlobalVarToJSON(global variable)` | Convert a global variable to JSON ||
-| | _🗄️ Global variable_ | The global variable to be stringified |
 | `LargeNumberToString(number)` | Convert the result of the expression to text, without using the scientific notation ||
 | | _🔢 Number_ | Expression to be converted to text |
 | `ObjectVarToJSON(object, object variable)` | Convert an object variable to JSON ||
@@ -120,8 +118,8 @@ Expressions to convert number, texts and quantities. [Read more explanations abo
 | | _🗄️ Object variable_ | The object variable to be stringified |
 | `ToDeg(number)` | Converts the angle, expressed in radians, into degrees ||
 | | _🔢 Number_ | Angle, in radians |
-| `ToJSON(scene variable)` | Convert a scene variable to JSON ||
-| | _🗄️ Scene variable_ | Scene variable to be stringified |
+| `ToJSON(variable)` | Convert a variable to JSON ||
+| | _🗄️ Any variable_ | The variable to be stringified |
 | `ToNumber(string)` | Convert the text to a number ||
 | | _string_ | Text to convert to a number |
 | `ToRad(number)` | Converts the angle, expressed in degrees, into radians ||

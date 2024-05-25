@@ -4,21 +4,16 @@ Expressions to convert number, texts and quantities. [Read more explanations abo
 
 ## Actions
 
-**Convert JSON to global variable**  
-Parse a JSON object and store it into a global variable
-
 **Convert JSON to object variable**  
 Parse a JSON object and store it into an object variable
 
-**Convert JSON to a scene variable**  
-Parse a JSON object and store it into a scene variable
+**Convert JSON to a variable**  
+Parse a JSON object and store it into a variable
 
 ## Expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `GlobalVarToJSON(global variable)` | Convert a global variable to JSON ||
-| | _🗄️ Global variable_ | The global variable to be stringified |
 | `LargeNumberToString(number)` | Convert the result of the expression to text, without using the scientific notation ||
 | | _🔢 Number_ | Expression to be converted to text |
 | `ObjectVarToJSON(object, object variable)` | Convert an object variable to JSON ||
@@ -26,8 +21,8 @@ Parse a JSON object and store it into a scene variable
 | | _🗄️ Object variable_ | The object variable to be stringified |
 | `ToDeg(number)` | Converts the angle, expressed in radians, into degrees ||
 | | _🔢 Number_ | Angle, in radians |
-| `ToJSON(scene variable)` | Convert a scene variable to JSON ||
-| | _🗄️ Scene variable_ | Scene variable to be stringified |
+| `ToJSON(variable)` | Convert a variable to JSON ||
+| | _🗄️ Any variable_ | The variable to be stringified |
 | `ToNumber(string)` | Convert the text to a number ||
 | | _string_ | Text to convert to a number |
 | `ToRad(number)` | Converts the angle, expressed in degrees, into radians ||
