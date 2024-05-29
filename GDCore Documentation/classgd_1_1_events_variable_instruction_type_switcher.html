@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GDevelop Core: gd::EventsVariableReplacer Class Reference</title>
+<title>GDevelop Core: gd::EventsVariableInstructionTypeSwitcher Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,30 +64,30 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="namespacegd.html">gd</a></li><li class="navelem"><a class="el" href="classgd_1_1_events_variable_replacer.html">EventsVariableReplacer</a></li>  </ul>
+<li class="navelem"><a class="el" href="namespacegd.html">gd</a></li><li class="navelem"><a class="el" href="classgd_1_1_events_variable_instruction_type_switcher.html">EventsVariableInstructionTypeSwitcher</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="classgd_1_1_events_variable_replacer-members.html">List of all members</a>  </div>
+<a href="classgd_1_1_events_variable_instruction_type_switcher-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">gd::EventsVariableReplacer Class Reference<div class="ingroups"><a class="el" href="group___i_d_e.html">IDE Classes (Classes to be used to implement a development environment)</a></div></div>  </div>
+<div class="title">gd::EventsVariableInstructionTypeSwitcher Class Reference<div class="ingroups"><a class="el" href="group___i_d_e.html">IDE Classes (Classes to be used to implement a development environment)</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Replace in expressions and in parameters of actions or conditions, references to the name of a variable by another.  
- <a href="classgd_1_1_events_variable_replacer.html#details">More...</a></p>
+<p>Switch the types of variable instructions for a given set of variables.  
+ <a href="classgd_1_1_events_variable_instruction_type_switcher.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="_events_variable_replacer_8h_source.html">EventsVariableReplacer.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_events_variable_instruction_type_switcher_8h_source.html">EventsVariableInstructionTypeSwitcher.h</a>&gt;</code></p>
 
 <p>Inherits <a class="el" href="classgd_1_1_arbitrary_events_worker_with_context.html">gd::ArbitraryEventsWorkerWithContext</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad9558d9cf01aeb59a328f369dcd7e985"><td class="memItemLeft" align="right" valign="top"><a id="ad9558d9cf01aeb59a328f369dcd7e985"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>EventsVariableReplacer</b> (const <a class="el" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform_, const <a class="el" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> &amp;targetVariablesContainer_, const std::unordered_map&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>, <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &amp;oldToNewVariableNames_, const std::unordered_set&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &amp;removedVariableNames_)</td></tr>
-<tr class="separator:ad9558d9cf01aeb59a328f369dcd7e985"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a547450a72e0a3ab636881afec29b3f1b"><td class="memItemLeft" align="right" valign="top"><a id="a547450a72e0a3ab636881afec29b3f1b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>EventsVariableInstructionTypeSwitcher</b> (const <a class="el" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform_, const <a class="el" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> &amp;targetVariablesContainer_, const std::unordered_set&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &amp;typeChangedVariableNames_)</td></tr>
+<tr class="separator:a547450a72e0a3ab636881afec29b3f1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classgd_1_1_arbitrary_events_worker_with_context"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classgd_1_1_arbitrary_events_worker_with_context')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classgd_1_1_arbitrary_events_worker_with_context.html">gd::ArbitraryEventsWorkerWithContext</a></td></tr>
 <tr class="memitem:a9647e80dede99ca1cd2b9d3764a11516 inherit pub_methods_classgd_1_1_arbitrary_events_worker_with_context"><td class="memItemLeft" align="right" valign="top"><a id="a9647e80dede99ca1cd2b9d3764a11516"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_arbitrary_events_worker_with_context.html#a9647e80dede99ca1cd2b9d3764a11516">Launch</a> (<a class="el" href="classgd_1_1_events_list.html">gd::EventsList</a> &amp;events, const <a class="el" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a> &amp;projectScopedContainers)</td></tr>
@@ -109,10 +109,11 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>VisitEventList</b> (<
 <tr class="separator:ad51145e77737d646c6ab8ea49febfde0 inherit pro_methods_classgd_1_1_abstract_arbitrary_events_worker"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Replace in expressions and in parameters of actions or conditions, references to the name of a variable by another. </p>
+<div class="textblock"><p>Switch the types of variable instructions for a given set of variables. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_variable_instruction_switcher.html">gd::VariableInstructionSwitcher</a> </dd></dl>
 </div><hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="_events_variable_replacer_8h_source.html">EventsVariableReplacer.h</a></li>
-<li>EventsVariableReplacer.cpp</li>
+<li><a class="el" href="_events_variable_instruction_type_switcher_8h_source.html">EventsVariableInstructionTypeSwitcher.h</a></li>
+<li>EventsVariableInstructionTypeSwitcher.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

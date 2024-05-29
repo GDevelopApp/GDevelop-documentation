@@ -54,7 +54,7 @@ var searchData=
   ['analyze_54',['Analyze',['../class_dependencies_analyzer.html#ae67760b123d47225f42b9bbbe6795360',1,'DependenciesAnalyzer']]],
   ['animation_55',['Animation',['../classgd_1_1_animation.html',1,'gd']]],
   ['append_56',['Append',['../class_generic_pointer.html#aa8f86c0f330807f337351a95ae254b78',1,'GenericPointer::Append(const Token &amp;token, Allocator *allocator=0) const'],['../class_generic_pointer.html#a9f8a1711f5b8e0d951c25c6c65326f77',1,'GenericPointer::Append(const Ch *name, SizeType length, Allocator *allocator=0) const']]],
-  ['applyrefactoringforvariablescontainer_57',['ApplyRefactoringForVariablesContainer',['../classgd_1_1_whole_project_refactorer.html#abe7a267a6c78d97c5652f2aa3cc61ef0',1,'gd::WholeProjectRefactorer']]],
+  ['applyrefactoringforvariablescontainer_57',['ApplyRefactoringForVariablesContainer',['../classgd_1_1_whole_project_refactorer.html#a685ed0ddc720d3c66af92eca78d2c8d0',1,'gd::WholeProjectRefactorer']]],
   ['arbitrarybehaviorshareddataworker_58',['ArbitraryBehaviorSharedDataWorker',['../classgd_1_1_arbitrary_behavior_shared_data_worker.html',1,'gd']]],
   ['arbitraryeventbasedbehaviorsworker_59',['ArbitraryEventBasedBehaviorsWorker',['../classgd_1_1_arbitrary_event_based_behaviors_worker.html',1,'gd']]],
   ['arbitraryeventsfunctionsworker_60',['ArbitraryEventsFunctionsWorker',['../classgd_1_1_arbitrary_events_functions_worker.html',1,'gd']]],

@@ -78,37 +78,37 @@ $(function() {
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * reserved. This project is released under the MIT License.</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#pragma once</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;map&gt;</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;unordered_map&gt;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;unordered_set&gt;</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;GDCore/IDE/Events/ArbitraryEventsWorker.h&quot;</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;GDCore/String.h&quot;</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegd.html">gd</a> {</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">class </span>BaseEvent;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">class </span>VariablesContainer;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">class </span>EventsList;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">class </span>Platform;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}  <span class="comment">// namespace gd</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegd.html">gd</a> {</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;map&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;unordered_map&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;unordered_set&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;GDCore/IDE/Events/ArbitraryEventsWorker.h&quot;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;GDCore/String.h&quot;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegd.html">gd</a> {</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">class </span>BaseEvent;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">class </span>VariablesContainer;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">class </span>EventsList;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">class </span>Platform;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}  <span class="comment">// namespace gd</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classgd_1_1_events_variable_replacer.html">   30</a></span>&#160;<span class="keyword">class </span>GD_CORE_API <a class="code" href="classgd_1_1_events_variable_replacer.html">EventsVariableReplacer</a></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    : <span class="keyword">public</span> <a class="code" href="classgd_1_1_arbitrary_events_worker_with_context.html">ArbitraryEventsWorkerWithContext</a> {</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <a class="code" href="classgd_1_1_events_variable_replacer.html">EventsVariableReplacer</a>(</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform_,</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> &amp;targetVariablesContainer_,</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;      <span class="keyword">const</span> std::unordered_map&lt;gd::String, gd::String&gt; &amp;oldToNewVariableNames_,</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;      <span class="keyword">const</span> std::unordered_set&lt;gd::String&gt; &amp;removedVariableNames_,</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;      <span class="keyword">const</span> std::unordered_set&lt;gd::String&gt; &amp;typeChangedVariableNames_)</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;      : platform(platform_),</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        targetVariablesContainer(targetVariablesContainer_),</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        oldToNewVariableNames(oldToNewVariableNames_),</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        removedVariableNames(removedVariableNames_),</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        typeChangedVariableNames(typeChangedVariableNames_){};</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegd.html">gd</a> {</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classgd_1_1_events_variable_replacer.html">   32</a></span>&#160;<span class="keyword">class </span>GD_CORE_API <a class="code" href="classgd_1_1_events_variable_replacer.html">EventsVariableReplacer</a></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    : <span class="keyword">public</span> <a class="code" href="classgd_1_1_arbitrary_events_worker_with_context.html">ArbitraryEventsWorkerWithContext</a> {</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <a class="code" href="classgd_1_1_events_variable_replacer.html">EventsVariableReplacer</a>(</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform_,</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> &amp;targetVariablesContainer_,</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;      <span class="keyword">const</span> std::unordered_map&lt;gd::String, gd::String&gt; &amp;oldToNewVariableNames_,</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;      <span class="keyword">const</span> std::unordered_set&lt;gd::String&gt; &amp;removedVariableNames_)</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;      : platform(platform_),</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        targetVariablesContainer(targetVariablesContainer_),</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        oldToNewVariableNames(oldToNewVariableNames_),</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        removedVariableNames(removedVariableNames_) {};</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  <span class="keyword">virtual</span> ~<a class="code" href="classgd_1_1_events_variable_replacer.html">EventsVariableReplacer</a>();</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; <span class="keyword">private</span>:</div>
@@ -125,12 +125,11 @@ $(function() {
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> objectName;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <span class="keyword">const</span> std::unordered_map&lt;gd::String, gd::String&gt; &amp;oldToNewVariableNames;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  <span class="keyword">const</span> std::unordered_set&lt;gd::String&gt; &amp;removedVariableNames;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  <span class="keyword">const</span> std::unordered_set&lt;gd::String&gt; &amp;typeChangedVariableNames;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;};</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;}  <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;};</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}  <span class="comment">// namespace gd</span></div>
 <div class="ttc" id="aclassgd_1_1_arbitrary_events_worker_with_context_html"><div class="ttname"><a href="classgd_1_1_arbitrary_events_worker_with_context.html">gd::ArbitraryEventsWorkerWithContext</a></div><div class="ttdoc">An events worker that will know about the context (the objects container). Useful for workers working...</div><div class="ttdef"><b>Definition:</b> ArbitraryEventsWorker.h:136</div></div>
-<div class="ttc" id="aclassgd_1_1_events_variable_replacer_html"><div class="ttname"><a href="classgd_1_1_events_variable_replacer.html">gd::EventsVariableReplacer</a></div><div class="ttdoc">Replace in expressions and in parameters of actions or conditions, references to the name of a variab...</div><div class="ttdef"><b>Definition:</b> EventsVariableReplacer.h:31</div></div>
+<div class="ttc" id="aclassgd_1_1_events_variable_replacer_html"><div class="ttname"><a href="classgd_1_1_events_variable_replacer.html">gd::EventsVariableReplacer</a></div><div class="ttdoc">Replace in expressions and in parameters of actions or conditions, references to the name of a variab...</div><div class="ttdef"><b>Definition:</b> EventsVariableReplacer.h:33</div></div>
 <div class="ttc" id="aclassgd_1_1_expression_html"><div class="ttname"><a href="classgd_1_1_expression.html">gd::Expression</a></div><div class="ttdoc">Class representing an expression used as a parameter of a gd::Instruction. This class is nothing more...</div><div class="ttdef"><b>Definition:</b> Expression.h:30</div></div>
 <div class="ttc" id="aclassgd_1_1_instruction_html"><div class="ttname"><a href="classgd_1_1_instruction.html">gd::Instruction</a></div><div class="ttdoc">An instruction is a member of an event: It can be a condition or an action.</div><div class="ttdef"><b>Definition:</b> Instruction.h:30</div></div>
 <div class="ttc" id="aclassgd_1_1_parameter_metadata_html"><div class="ttname"><a href="classgd_1_1_parameter_metadata.html">gd::ParameterMetadata</a></div><div class="ttdoc">Describe a parameter of an instruction (action, condition) or of an expression: type,...</div><div class="ttdef"><b>Definition:</b> ParameterMetadata.h:27</div></div>
