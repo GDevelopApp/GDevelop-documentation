@@ -85,7 +85,7 @@ You can also automatically re-open the lobby by using the action **Open the game
 Expressions are available to let you know access information about the lobby:
 
 - Expression **Number of players in the lobby**:
-  use this expression to know how many players are in the lobby. This can be useful to know how many players are in the game, and adapt your game to the number of players. (For instance, deleting scores, enemies, players...)
+  use this expression to know how many players are in the lobby. This can be useful to know how many players are in the game, and adapt your game to the number of players (for instance, deleting scores, enemies, players...)
 
 - Condition and expression **Player number**. Use this expression or condition to retrieve and compare the player number of a player in the lobby. Numbers are 1, 2, 3, etc.
   This will be particularly useful during the game so you can assign who has permissions to do what, and who is in charge of what, depending on the player number.
@@ -96,6 +96,8 @@ One of the most important task in a multiplayer game is to have all the game obj
 
 The Multiplayer extension provides a **behavior to synchronize objects** between players.
 By default, if this behavior is not used anywhere, no objects are synchronized between players when the game is played.
+
+![Multiplayer object behavior](./multiplayer-object-behavior.png)
 
 To make a multiplayer game, you need to identify:
 
@@ -122,17 +124,17 @@ Typically, you will want to avoid using the behavior **Multiplayer object** on t
 - **Projectiles/Bombs/Items** that are thrown by players. Each player will own the objects they create, and send their position to the server, which will synchronize it to other players.
 - Objects that can be **interacted with** by players (doors, buttons, flags, bonuses, etc...). Typically, the server will own these objects at the beginning. When a player interacts with them, an action is used so that the player owns the object.
 
-### What is synchronized across the network?
+??? note "What is synchronized across the network?"
 
-When an object has the behavior and is owned by a player or the server, it is "synchronized" (we also say "replicated") with other players. This includes the whole state of the object instance:
+    When an object has the behavior and is owned by a player or the server, it is "synchronized" (we also say "replicated") with other players. This includes the whole state of the object instance:
 
-- The position of the object, its angle, its scale, its opacity,
-- The current forces and movements applied to the object, allowing to synchronize moving platforms, rotating objects, etc,
-- The variables of the object, allowing to synchronize the health of an enemy, the score of a player, the state of a door, etc,
-- The animations of the object (for sprites or 3D models), allowing to synchronize the animation of a character, the state of a button, etc,
-- The effects applied to the object,
-- The timers of the object, allowing to synchronize the cooldown of a spell, the time left before a bomb explodes, etc,
-- The behaviors of the object. For instance, if the object has the behavior "Platformer character", the movement of the character will be synchronized, as well as the state of the character (jumping, falling, etc.). Same if you use physics behaviors or other behaviors impacting the object.
+    - The position of the object, its angle, its scale, its opacity,
+    - The current forces and movements applied to the object, allowing to synchronize moving platforms, rotating objects, etc,
+    - The variables of the object, allowing to synchronize the health of an enemy, the score of a player, the state of a door, etc,
+    - The animations of the object (for sprites or 3D models), allowing to synchronize the animation of a character, the state of a button, etc,
+    - The effects applied to the object,
+    - The timers of the object, allowing to synchronize the cooldown of a spell, the time left before a bomb explodes, etc,
+    - The behaviors of the object. For instance, if the object has the behavior "Platformer character", the movement of the character will be synchronized, as well as the state of the character (jumping, falling, etc.). Same if you use physics behaviors or other behaviors impacting the object.
 
 When an object is destroyed, the behavior will also ensure it's deleted on other player games.
 
@@ -150,7 +152,7 @@ The main action you will use during your game will be **Change player object own
 It's often used:
 
 - At the start of the game, to define who is in charge of the objects that are already present in the game.
-  Typically, you will use this action on the player characters, depending on their player number at the beginning of the scene. (You don't need to use this action on objects that are created by the server, as the server will be the owner by default (for example, a door, a button, a bonus, etc.))
+  Typically, you will use this action on the player characters, depending on their player number at the beginning of the scene. You don't need to use this action on objects that are created by the server, as the server will be the owner by default (for example, a door, a button, a bonus, etc...)
 - When a player interacts with an object, to change the owner of the object. For instance, when a player grabs a bonus or a weapon, it will be owned by the player.
 - When a player creates an object, to define who is in charge of the object. For instance, when a player throws a bomb, the bomb will be owned by the player, so you can use this action with the **Player number** expression.
 
@@ -181,6 +183,6 @@ For instance, when an arrow shot by a player hits another character or an enemy,
 - If you handle the collision on the player who owns the arrow, ensure you use the condition **Player object ownership** to check if the current player owns the arrow. Once it happens, you can delete your arrow, and save the information about the collision in a variable of an object owned by the player. For instance a variable `LastHit` can be set to `Player 2` if the arrow hits player 2, and player 2 can react accordingly when they see this variable being set (change their animation, decrease their health, etc.)
 - If you handle the collision on the player who owns the character or enemy, ensure you use the condition **Player object ownership** to check if the current player owns the character. Once it happens, you can save the information about the collision in a variable of an object owned by the player. For instance a variable `LastHitBy` can be set to `Player 1` if the arrow belonged to player 1, and player 1 can react accordingly when they see this variable being set (and delete the arrow on their side, for instance).
 
-!!!note
+!!! note
 
     You can also use the action **Send a custom message to other players** in this case. This action sends a message to other players. For instance a message `Arrow hit player 2` can be sent to all players, so that they can handle the collision on their side, using the condition to read the custom message.
