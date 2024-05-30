@@ -55,20 +55,20 @@ Use the action **Open game lobbies**. This action will show the lobbies to the p
     - When all players are ready, the player 1 can start the game.
     - When the game is started, the lobby is automatically closed and players are automatically connected to each other.
 
-If needed, you can use the condition **Lobbies window is open** to check if the lobbies are open and prevent some actions to happen on your scene.
-Typically, you can use this action when the user presses a button in your menu.
-
-!!! note "More about player authentication"
+??? note "More about player authentication"
 
     To join a lobby, a player needs to log in to their GDevelop or gd.games account. This is automatically handled for you, so that calling this action will automatically open the authentication window if needed.
     If you want to handle this yourself, or allow players to change their account, you can use the actions and conditions provided by the **Player Authentication** extension.
+
+If needed, you can use the condition **Lobbies window is open** to check if the lobbies are open and prevent some actions to happen on your scene.
+Typically, you can use this action when the user presses a button in your menu.
 
 Once the game has started, the condition **Lobby game has just started** will turn true, so you can start your game.
 Typically, you can use this condition to either start moving things in your game, or to switch to another scene, where the game will happen.
 
 Note that there is also a condition called **Player is in a lobby** if you need to know if a player has joined a lobby.
 
-??? tip "Access information about the lobby during the game"
+??? tip "Access more information about the lobby during the game"
 
     Expressions are available to let you know access information about the lobby:
 
@@ -168,14 +168,11 @@ It's often used:
 
 During a game, the server will automatically synchronize the game variables and the scene variables between players. This is particularly useful to have a single source of truth for the game state, and to avoid having to synchronize everything manually.
 
-If you want to make sure that everyone has the same information about a game state, then you can use the game and scene variables. For example, you can use the game variables to store which level is being played, which random seed is used for the level generation, which scene is currently active, etc.
+If you want to make sure that everyone has the same information about a game state, then you can use the game and scene variables: a score multiplier, the difficulty level, etc...
 
 !!! note
 
     It means that if a player tries to cheat by modifying the game variables or wrongly change a variable because of a network issue, the server will automatically send again the correct value to the player.
-
-On the other side, if you want an information to be shared by a specific player to everyone, you can use behaviors or object variables of an object their own, as they will be synchronized between players.
-For instance, you can use the variables of a player character to store the score of the player, use the Health behavior to handle the health of the players, another behavior or variable can store the number of bullets left, etc... Variables and behaviors will be automatically synchronized between players.
 
 ## Common patterns and things to look out for
 
