@@ -47,7 +47,7 @@ Use the action **Open game lobbies**. This action will show the lobbies to the p
 
 ![Default Lobbies screen](./default-lobbies-screen.png)
 
-!!! note
+??? note "More about the lobbies infrastructure"
 
     Lobbies are entirely handled by GDevelop Multiplayer infrastructure:
 
@@ -58,14 +58,10 @@ Use the action **Open game lobbies**. This action will show the lobbies to the p
 If needed, you can use the condition **Lobbies window is open** to check if the lobbies are open and prevent some actions to happen on your scene.
 Typically, you can use this action when the user presses a button in your menu.
 
-!!! tip
+!!! note "More about player authentication"
 
     To join a lobby, a player needs to log in to their GDevelop or gd.games account. This is automatically handled for you, so that calling this action will automatically open the authentication window if needed.
     If you want to handle this yourself, or allow players to change their account, you can use the actions and conditions provided by the **Player Authentication** extension.
-
-!!! tip
-
-    When developing the game, you can open multiple preview windows and join the same lobby with the same account. This way, you can test the multiplayer features without needing multiple devices.
 
 Once the game has started, the condition **Lobby game has just started** will turn true, so you can start your game.
 Typically, you can use this condition to either start moving things in your game, or to switch to another scene, where the game will happen.
@@ -81,6 +77,10 @@ Note that there is also a condition called **Player is in a lobby** if you need 
 
     - Condition and expression **Player number**. Use this expression or condition to retrieve and compare the player number of a player in the lobby. Numbers are 1, 2, 3, etc.
       This will be particularly useful during the game so you can assign who has permissions to do what, and who is in charge of what, depending on the player number.
+
+When developing the game, you can open multiple preview windows and join the same lobby with the same account. This way, you can test the multiplayer features without needing multiple devices.
+
+![Open multiple preview windows to test a multiplayer game](./multiple-previews.png)
 
 ### Ending a game
 
