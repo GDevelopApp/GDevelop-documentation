@@ -4,9 +4,15 @@ title: GDevelop Multiplayer
 
 # Making multiplayer games with GDevelop
 
-GDevelop provides a built-in solution to add **real-time multiplayer features** to your game, whether you're making a simple multiplayer game or a more complex one, from a cooperative game to a competitive one. This is similar to [Player Authentication](/gdevelop5/all-features/player-authentication) and [Leaderboards](/gdevelop5/all-features/leaderboards).
+GDevelop provides a built-in solution for **real-time multiplayer games**. Whether you're making a simple multiplayer game or a more complex one, from a cooperative game to a competitive one, GDevelop Multiplayer features can be used for building your game. Multiplayer works well with [Player Authentication](/gdevelop5/all-features/player-authentication) and [Leaderboards](/gdevelop5/all-features/leaderboards).
 
 It is built to be easy to use, accessible to everyone, and provides a good experience for all your players.
+
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" muted="true" autoplay="true" loop="true">
+    <source src="multiplayer-example.mp4" type="video/mp4">
+  </video>
+</figure>
 
 Some features available out of the box are:
 
@@ -39,9 +45,11 @@ Lobbies are automatically created for your game.
 
 Use the action **Open game lobbies**. This action will show the lobbies to the player, so they can join a game.
 
+![Default Lobbies screen](./default-lobbies-screen.png)
+
 !!! note
 
-    Lobbies are entirely hanlded by GDevelop Multiplayer infrastructure:
+    Lobbies are entirely handled by GDevelop Multiplayer infrastructure:
 
     - When players join a lobby, they are automatically assigned a player number, and the host of the game is automatically defined (player 1).
     - When all players are ready, the player 1 can start the game.
@@ -168,9 +176,7 @@ The most common case is _when you delete an object as soon as they collide with 
 
 The rule of thumb is as follows: if the collision, or the interaction in general, is important for the game, then you should handle it only on one player's game (or the server), and then synchronize the result to other players.
 
-For instance:
-
-When an arrow shot by a player hits another character or an enemy, you should handle the collision either by the player who owns the arrow or by the player who owns the character or enemy, and then synchronize the result to other players with variables.
+For instance, when an arrow shot by a player hits another character or an enemy, you should handle the collision either by the player who owns the arrow or by the player who owns the character or enemy:
 
 - If you handle the collision on the player who owns the arrow, ensure you use the condition **Player object ownership** to check if the current player owns the arrow. Once it happens, you can delete your arrow, and save the information about the collision in a variable of an object owned by the player. For instance a variable `LastHit` can be set to `Player 2` if the arrow hits player 2, and player 2 can react accordingly when they see this variable being set (change their animation, decrease their health, etc.)
 - If you handle the collision on the player who owns the character or enemy, ensure you use the condition **Player object ownership** to check if the current player owns the character. Once it happens, you can save the information about the collision in a variable of an object owned by the player. For instance a variable `LastHitBy` can be set to `Player 1` if the arrow belonged to player 1, and player 1 can react accordingly when they see this variable being set (and delete the arrow on their side, for instance).
@@ -178,7 +184,3 @@ When an arrow shot by a player hits another character or an enemy, you should ha
 !!!note
 
     You can also use the action **Send a custom message to other players** in this case. This action sends a message to other players. For instance a message `Arrow hit player 2` can be sent to all players, so that they can handle the collision on their side, using the condition to read the custom message.
-
-## Frequently asked questions
-
-TODO
