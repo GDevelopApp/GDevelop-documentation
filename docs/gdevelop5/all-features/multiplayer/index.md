@@ -72,6 +72,16 @@ Typically, you can use this condition to either start moving things in your game
 
 Note that there is also a condition called **Player is in a lobby** if you need to know if a player has joined a lobby.
 
+??? tip "Access information about the lobby during the game"
+
+    Expressions are available to let you know access information about the lobby:
+
+    - Expression **Number of players in the lobby**:
+      use this expression to know how many players are in the lobby. This can be useful to know how many players are in the game, and adapt your game to the number of players (for instance, deleting scores, enemies, players...)
+
+    - Condition and expression **Player number**. Use this expression or condition to retrieve and compare the player number of a player in the lobby. Numbers are 1, 2, 3, etc.
+      This will be particularly useful during the game so you can assign who has permissions to do what, and who is in charge of what, depending on the player number.
+
 ### Ending a game
 
 When you want to end the game, use action **End the game**. The lobby will be reopened and players will still be in this lobby. This is useful if you want to restart a new game with the same players.
@@ -80,17 +90,7 @@ When the action `End the game` is called, the condition **Lobby game has just en
 
 You can also automatically re-open the lobby by using the action **Open the game lobbies**, so players can start a new game.
 
-### Access information about the lobby during the game
-
-Expressions are available to let you know access information about the lobby:
-
-- Expression **Number of players in the lobby**:
-  use this expression to know how many players are in the lobby. This can be useful to know how many players are in the game, and adapt your game to the number of players (for instance, deleting scores, enemies, players...)
-
-- Condition and expression **Player number**. Use this expression or condition to retrieve and compare the player number of a player in the lobby. Numbers are 1, 2, 3, etc.
-  This will be particularly useful during the game so you can assign who has permissions to do what, and who is in charge of what, depending on the player number.
-
-## During the game: synchronizing objects
+## During the game: set up synchronized objects and their owners
 
 One of the most important task in a multiplayer game is to have all the game objects (players, projectiles, doors, triggers, obstacles...) to be synchronized across the players, so all players see the same thing like if they were in the same room.
 
@@ -136,14 +136,13 @@ Typically, you will want to avoid using the behavior **Multiplayer object** on t
     - The timers of the object, allowing to synchronize the cooldown of a spell, the time left before a bomb explodes, etc,
     - The behaviors of the object. For instance, if the object has the behavior "Platformer character", the movement of the character will be synchronized, as well as the state of the character (jumping, falling, etc.). Same if you use physics behaviors or other behaviors impacting the object.
 
+    All this information is sent automatically by GDevelop, so you don't need to worry about it.
+    It's still useful to understand this because this shows that the more complex an object is, the most it will consume bandwidth and network resources.
+
 When an object is destroyed, the behavior will also ensure it's deleted on other player games.
 
 In most cases, you just need to add the behavior **Multiplayer object** to the objects you want to synchronize, define who is in charge of this object, and GDevelop will take care of the rest.
 
-!!! note
-
-    All this information is sent automatically by GDevelop, so you don't need to worry about it.
-    It's still useful to understand this because this shows that the more complex an object is, the most it will consume bandwidth and network resources.
 
 ### Setting ownership of objects
 
@@ -153,10 +152,19 @@ It's often used:
 
 - At the start of the game, to define who is in charge of the objects that are already present in the game.
   Typically, you will use this action on the player characters, depending on their player number at the beginning of the scene. You don't need to use this action on objects that are created by the server, as the server will be the owner by default (for example, a door, a button, a bonus, etc...)
-- When a player interacts with an object, to change the owner of the object. For instance, when a player grabs a bonus or a weapon, it will be owned by the player.
-- When a player creates an object, to define who is in charge of the object. For instance, when a player throws a bomb, the bomb will be owned by the player, so you can use this action with the **Player number** expression.
 
-### Synchronization of the rest of the game
+  ![Example of setting ownership of objects](./set-player-ownership-example.png)
+
+- When a player creates an object, to define who is in charge of the object. For instance, when a player throws a bomb, the bomb will be owned by the player, so you can use this action with the **Player number** expression.
+- When a player interacts with an object, to change the owner of the object. For instance, when a player grabs a bonus or a weapon, it will be owned by the player. If you use the same object for different players, also use the condition to check if the instance is owned by the current player (otherwise, all players will try to take ownership). For example:
+
+  ![Example of taking ownership](./take-ownership-example.png)
+
+  Alternatively, you can use the expression `MultiplayerObject::PlayerObjectOwnership()` to get the number of the player owning an object:
+
+  ![Example of applying ownership with an expression](./player-ownership-expression-example.png)
+
+### Synchronization of variables and the rest of the game
 
 During a game, the server will automatically synchronize the game variables and the scene variables between players. This is particularly useful to have a single source of truth for the game state, and to avoid having to synchronize everything manually.
 
@@ -169,7 +177,9 @@ If you want to make sure that everyone has the same information about a game sta
 On the other side, if you want an information to be shared by a specific player to everyone, you can use behaviors or object variables of an object their own, as they will be synchronized between players.
 For instance, you can use the variables of a player character to store the score of the player, use the Health behavior to handle the health of the players, another behavior or variable can store the number of bullets left, etc... Variables and behaviors will be automatically synchronized between players.
 
-## Handling collisions and interactions between synchronized objects
+## Common patterns and things to look out for
+
+### Handling collisions and interactions between synchronized objects
 
 A particularly tricky situation is when you have objects that are owned by different players, and you need to handle collisions or interactions between these objects.
 If not handled correctly, you risk seeing different behaviors on different players' games, which can lead to a bad experience for your players.
