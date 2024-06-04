@@ -11,7 +11,8 @@ var searchData=
   ['variableschangeset_2405',['VariablesChangeset',['../structgd_1_1_variables_changeset.html',1,'gd']]],
   ['variablescontainer_2406',['VariablesContainer',['../classgd_1_1_variables_container.html',1,'gd']]],
   ['variablescontainerslist_2407',['VariablesContainersList',['../classgd_1_1_variables_containers_list.html',1,'gd']]],
-  ['vector2_2408',['Vector2',['../classgd_1_1_vector2.html',1,'gd']]],
-  ['versionwrapper_2409',['VersionWrapper',['../classgd_1_1_version_wrapper.html',1,'gd']]],
-  ['videoresource_2410',['VideoResource',['../classgd_1_1_video_resource.html',1,'gd']]]
+  ['variablesrenamingchangesetnode_2408',['VariablesRenamingChangesetNode',['../structgd_1_1_variables_renaming_changeset_node.html',1,'gd']]],
+  ['vector2_2409',['Vector2',['../classgd_1_1_vector2.html',1,'gd']]],
+  ['versionwrapper_2410',['VersionWrapper',['../classgd_1_1_version_wrapper.html',1,'gd']]],
+  ['videoresource_2411',['VideoResource',['../classgd_1_1_video_resource.html',1,'gd']]]
 ];
