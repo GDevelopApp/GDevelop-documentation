@@ -78,8 +78,8 @@ $(function() {
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * reserved. This project is released under the MIT License.</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef GDCORE_REPEATEVENT_H</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#define GDCORE_REPEATEVENT_H</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;GDCore/Events/Event.h&quot;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;GDCore/Events/EventsList.h&quot;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegd.html">gd</a> {</div>
@@ -107,10 +107,10 @@ $(function() {
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_instructions_list.html">gd::InstructionsList</a>&amp; GetActions()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> actions; };</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <a class="code" href="classgd_1_1_instructions_list.html">gd::InstructionsList</a>&amp; GetActions() { <span class="keywordflow">return</span> actions; };</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; GetRepeatExpression()<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">return</span> repeatNumberExpression.GetPlainString();</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_expression.html">gd::Expression</a>&amp; GetRepeatExpression()<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">return</span> repeatNumberExpression;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  };</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  <span class="keywordtype">void</span> SetRepeatExpression(<a class="code" href="classgd_1_1_string.html">gd::String</a> repeatNumberExpression_) {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  <span class="keywordtype">void</span> SetRepeatExpressionPlainString(<a class="code" href="classgd_1_1_string.html">gd::String</a> repeatNumberExpression_) {</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    repeatNumberExpression = <a class="code" href="classgd_1_1_expression.html">gd::Expression</a>(repeatNumberExpression_);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  };</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
@@ -139,8 +139,6 @@ $(function() {
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;};</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;}  <span class="comment">// namespace gd</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// GDCORE_REPEATEVENT_H</span></div>
 <div class="ttc" id="aclassgd_1_1_base_event_html"><div class="ttname"><a href="classgd_1_1_base_event.html">gd::BaseEvent</a></div><div class="ttdoc">Base class defining an event.</div><div class="ttdef"><b>Definition:</b> Event.h:43</div></div>
 <div class="ttc" id="aclassgd_1_1_events_list_html"><div class="ttname"><a href="classgd_1_1_events_list.html">gd::EventsList</a></div><div class="ttdoc">A list of events.</div><div class="ttdef"><b>Definition:</b> EventsList.h:33</div></div>
 <div class="ttc" id="aclassgd_1_1_expression_html"><div class="ttname"><a href="classgd_1_1_expression.html">gd::Expression</a></div><div class="ttdoc">Class representing an expression used as a parameter of a gd::Instruction. This class is nothing more...</div><div class="ttdef"><b>Definition:</b> Expression.h:30</div></div>
