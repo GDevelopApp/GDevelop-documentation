@@ -32,6 +32,18 @@ To use the multiplayer features, use the **Multiplayer** behavior on your object
 
     GDevelop Multiplayer infrastructure is built to scale from very small game to games with thousands of concurrent players. If you're a game studio or an agency with specific needs (for example, launching a game for a promotional campaign to an audience of dozens of thousands of people), feel free to reach out to discuss your specific use-case.
 
+## 1-minute example: from a static game to a 2 player platformer game
+
+Here is a quick example showing how to add lobbies and two players in a platformer game.
+
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" muted="true" autoplay="true" loop="true">
+    <source src="Multiplayer_in_1_minute.mp4" type="video/mp4">
+  </video>
+</figure>
+
+Read the rest of this page to learn more about lobbies and how to set up your game objects.
+
 ## Lobby system: start and end a game
 
 The multiplayer extension provides lobbies, so players can join a game together and start playing. It is a key feature to allow players to play together, define which player number they are, and start the game when all players are ready.
