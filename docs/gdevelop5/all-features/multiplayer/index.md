@@ -47,11 +47,17 @@ Read the rest of this page to learn more about lobbies and how to set up your ga
 ## Lobby system: start and end a game
 
 The multiplayer extension provides lobbies, so players can join a game together and start playing. It is a key feature to allow players to play together, define which player number they are, and start the game when all players are ready.
-Lobbies are automatically created for your game.
 
 !!! note
 
-    In the future, GDevelop will provide a way to setup more lobbies for your game, let players open their own lobbies, or customize the interface.
+    In the future, GDevelop will provide a way to customize the lobbies interface.
+
+### Configuring the lobby
+
+Lobbies are automatically created for your game.
+If you want to customize them, especially the number of players needed to start a game or the maximum number of players, head to your game dashboard in the editor.
+
+![Lobbies configuration in the game dashboard](./lobbies-configuration.png)
 
 ### Letting the players join a new game
 
@@ -78,8 +84,6 @@ Typically, you can use this action when the user presses a button in your menu.
 Once the game has started, the condition **Lobby game has just started** will turn true, so you can start your game.
 Typically, you can use this condition to either start moving things in your game, or to switch to another scene, where the game will happen.
 
-Note that there is also a condition called **Player is in a lobby** if you need to know if a player has joined a lobby.
-
 ??? tip "Access more information about the lobby during the game"
 
     Expressions are available to let you know access information about the lobby:
@@ -99,11 +103,11 @@ When developing the game, you can open multiple preview windows and join the sam
 
 ### Ending a game
 
-When you want to end the game, use action **End the game**. The lobby will be reopened and players will still be in this lobby. This is useful if you want to restart a new game with the same players.
+When you want to end the game, use action **End the game**.
 
-When the action `End the game` is called, the condition **Lobby game has just ended** will turn true, so you can end your game. Typically, you can use this condition to either stop moving things in your game, or to switch to another scene, where the lobby will be reopened.
+When the action is called, the condition **Lobby game has just ended** will turn true for all players, so you can end your game. Typically, you can use this condition to either stop moving things in your game, or to switch to another scene, where the lobby will be reopened.
 
-You can also automatically re-open the lobby by using the action **Open the game lobbies**, so players can start a new game.
+You can also automatically re-open the lobby by using the action **Open the game lobbies**, so players can join a new lobby and start a new game.
 
 ## During the game: set up synchronized objects and their owners
 
