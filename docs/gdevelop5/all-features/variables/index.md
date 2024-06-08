@@ -92,7 +92,7 @@ To access the value of a child variable, use the following syntax in an [express
 ```
 Assume we have this structure:
 
-![](/gdevelop5/all-features/variables/pasted/20230308-154718.png)
+![](structure-variable.png)
 
 To get the value `123` we can write the following expression
 
@@ -110,7 +110,7 @@ players["player1"]["level1score"]
 
     On structures, `<child_variable>` is the name of the child variable. On arrays it is the index of the child variable. Only **numbers work as indices** for arrays.
 
-If a child variable doesn't exist, GDevelop creates it automatically.
+Parent variables need to be declared, but it's not the case for children variables. The benefit of declaring children is to get autocompletion in the events.
 
 !!! note
 
@@ -154,8 +154,8 @@ In GDevelop, there are three variable scopes:
 
 - [Global](/gdevelop5/all-features/variables/global-variables)
 - [Scene](/gdevelop5/all-features/variables/scene-variables)
+- [Local to an event](/gdevelop5/all-features/variables/local-variables)
 - [Object](/gdevelop5/all-features/variables/object-variables)
-- Local variables will be introduced in a future GDevelop release.
 
 Refer to the linked pages for more information about each variable scope.
 
@@ -166,19 +166,6 @@ Refer to the linked pages for more information about each variable scope.
 ## Naming variables
 
 Variable names should not contain dots (periods), commas or spaces. Other characters are also reserved by GDevelop. If you use something forbidden, GDevelop will automatically correct the name you've entered.
-
-## Using variables without declaring them
-
-It's highly recommended that any variable that you use is declared. This means that it was added in the variables editor (either in the global variables of the project, or in the variables of the scene, or in the variables of an object).
-
-GDevelop still support using variables not "declared" in an editor.
-
-For example, if you reference a variable that doesn't exist in an action or condition, GDevelop automatically initializes the variable with a default value. The default value is determined by the data type of the variable:
-
-* Numeric variables are initialized with a value of `0`.
-* Text variables are initialized with a value of `""` (an empty string).
-
-This approach is less efficient, as GDevelop has to initialize the variable during the game and can't optimize their usage. A variable that is not "declared" is also not usable in expressions.
 
 ## Debugging variables
 

@@ -26,9 +26,3 @@ In the editor, choose "Add a variable", then enter a name, choose a data type an
 ## Using scene variables in expressions
 
 You can use scene variables in [expressions](/gdevelop5/all-features/expressions). Just write the name of the variable to use it in a formula. Note that if an object is using the same name, it will take the priority over the scene variable.
-
-!!! note
-
-    You can also access variable using the expressions `Variable(<name of the variable>)` (for a variable containing a number) and `VariableString(<name of the variable>)` (for a variable containing a text). For example: `GlobalVariable(TotalScore)`.
-
-    These expressions are more verbose and not recommended to use anymore, but will still work and you can find them in some games.
