@@ -231,6 +231,12 @@ For instance, when an arrow shot by a player hits another character or an enemy,
 
 ### Known missing features or limitations
 
+Missing features or limitations:
+
 - All global and scene variables are currently synchronized. A way to configure some variables as not synchronized will have to be introduced.
 - Conversely, global and scene variables of extensions are not synchronized. They will have to be synchronized, with a way to opt-out.
 - The lobby UI is not customizable yet.
+
+Known bugs:
+- After authenticating for the first time, the lobbies might not open on a published game. This can be "fixed" by reloading the game and opening lobbies again.
+- If opening the lobbies window during a game, it will show a 404 error instead of the current lobby.
