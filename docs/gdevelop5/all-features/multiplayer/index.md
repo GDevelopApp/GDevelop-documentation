@@ -236,6 +236,7 @@ Missing features or limitations:
 - All global and scene variables are currently synchronized. A way to configure some variables as not synchronized will have to be introduced.
 - Conversely, global and scene variables of extensions are not synchronized. They will have to be synchronized, with a way to opt-out.
 - The lobby UI is not customizable yet.
+- Joining a lobby during the game is not yet possible, but will be introduced as a configurable option later. This will allow games to continue playing with players joining or leaving as long as the host continues playing.
 
 Known bugs:
 - After authenticating for the first time, the lobbies might not open on a published game. This can be "fixed" by reloading the game and opening lobbies again.
