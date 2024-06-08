@@ -4,6 +4,10 @@ title: GDevelop Multiplayer
 
 # Making multiplayer games with GDevelop
 
+!!! danger
+
+    GDevelop Multiplayer is being beta-tested right now. Check the known missing features at the bottom of this page.
+
 GDevelop provides a built-in solution for **real-time multiplayer games**. Whether you're making a simple multiplayer game or a more complex one, from a cooperative game to a competitive one, GDevelop Multiplayer features can be used for building your game. Multiplayer works well with [Player Authentication](/gdevelop5/all-features/player-authentication) and [Leaderboards](/gdevelop5/all-features/leaderboards).
 
 It is built to be easy to use, accessible to everyone, and provides a good experience for all your players.
@@ -224,3 +228,9 @@ For instance, when an arrow shot by a player hits another character or an enemy,
 !!! note
 
     You can also use the action **Send a custom message to other players** in this case. This action sends a message to other players. For instance a message `Arrow hit player 2` can be sent to all players, so that they can handle the collision on their side, using the condition to read the custom message.
+
+### Known missing features or limitations
+
+- All global and scene variables are currently synchronized. A way to configure some variables as not synchronized will have to be introduced.
+- Conversely, global and scene variables of extensions are not synchronized. They will have to be synchronized, with a way to opt-out.
+- The lobby UI is not customizable yet.
