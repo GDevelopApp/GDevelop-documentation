@@ -11,7 +11,7 @@ title: Manage Games
 
 Tracking game performance post-launch is crucial. It helps identify improvements, understand player behavior, and enhance the gaming experience for long-term success. Once the project has been publised, it's important to set up a system to collect player feedback, encourage player competition, market the game and measure player's engagement and retention.
 
-GDevelop's Manage section is equipped with features such as leaderboards, player feedback, game lobbies, and marketing publication packages. They provides a comprehensive suite of tools for developers to enhance player engagement and drive the success of their games.
+GDevelop's Manage section is equipped with features such as leaderboards, player feedback, game lobbies, and marketing publication packages. The engine provides a comprehensive suite of tools for developers to enhance player engagement and drive the success of their games.
 
 * Game Details (game information)
 * Build Management
@@ -20,19 +20,19 @@ GDevelop's Manage section is equipped with features such as leaderboards, player
 * [Game Leaderboards](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/leaderboard-administration/)
 * [Game Marketing and Ads](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/marketing/)
 
-All these services are available for all users with a GDevelop account, and are easy to configurate and work **without** intrusive trackers, third party applications or compromising your players privacy.
+All these services are available for all users with a GDevelop account and are easy to configure. They work **without** intrusive trackers, third-party applications, or compromising players' privacy.
 
 !!! tip
 
-    Depending on the terms and conditions under which your game is distributed, you may want to inform and give a way to your players to not send any data. This can be done using an action to enable or disable the metrics.
+    Depending on the terms and conditions under which your game is distributed, you may be required to inform your players about data collection. Metrics can be disabled by using an action in the [Events editor](https://wiki.gdevelop.io/gdevelop5/interface/events-editor/) to enable or disable metrics.
 
 ## Publishing the game
 
-To enable the "Manage" functionality and access the game's metrics, the project has to be published on [gd.games](https://gd.games). Before publishing your game, make sure to be logged to the [GDevelop account](/gdevelop5/interface/profile) that you wish to use to publish.
+To enable the "Manage" functionality and access the game's metrics, the project has to be published on [gd.games](https://gd.games). Before publishing the game, make sure to be logged to the [GDevelop account](/gdevelop5/interface/profile) that you wish to use to publish.
 
 Numerous platforms are available for export. Learn how to do it according to your desired platforms with the help of [this guide](https://wiki.gdevelop.io/gdevelop5/publishing/).
 
-Once your game is online, the game will be automatically visible and available through the app's "Manage" section.
+Once the game is online, it will be automatically visible and available through the app's "Manage" section.
 
 ![Manage-Game-Interface](Manage-Games.png)
 
