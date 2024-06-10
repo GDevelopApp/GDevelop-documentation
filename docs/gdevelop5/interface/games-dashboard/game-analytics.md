@@ -46,5 +46,5 @@ While GDevelop strive to collect only usage metrics that are anonymized, and lim
 
 !!! tip
 
-   * If you **want to display an explanation** before enabling metrics collection, use the action to disable the metrics collection at the beginning of your game, then use the action to enable them again once the player consent to the metrics collection.
-   * If you **don't want to collect any metrics at all**, use the action to disable the metrics collection at the beginning of your game. By doing this, no data will be sent at all. Of course, this means that you won't be able to follow the number of sessions played on your game.
+    * If you **want to display an explanation** before enabling metrics collection, use the action to disable the metrics collection at the beginning of your game, then use the action to enable them again once the player consent to the metrics collection.
+    * If you **don't want to collect any metrics at all**, use the action to disable the metrics collection at the beginning of your game. By doing this, no data will be sent at all. Of course, this means that you won't be able to follow the number of sessions played on your game.
