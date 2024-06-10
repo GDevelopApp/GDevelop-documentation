@@ -240,4 +240,4 @@ Missing features or limitations:
 
 Known bugs:
 - After authenticating for the first time, the lobbies might not open on a published game. This can be "fixed" by reloading the game and opening lobbies again.
-- If opening the lobbies window during a game, it will show a 404 error instead of the current lobby.
+- The Z position of 3D objects is not synchronized.
