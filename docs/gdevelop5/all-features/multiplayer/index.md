@@ -233,6 +233,12 @@ For instance, when an arrow shot by a player hits another character or an enemy,
 
 Yes: first, add the multiplayer behavior to the objects that will be generated. Then you just need a condition to check that the "Player is host" before generating the objects.
 
+### What if a player leaves during a game? What if the host player does this?
+
+If a player is disconnected or close the game, other players will be notified (there is a condition to check this in the events). You can choose to interrupt the game or continue. You can notably choose in the Multiplayer Object behavior properties what happens with the objects of the player.
+
+If the host quits the game, the game will be ended for all players. 
+
 ### Known missing features or limitations
 
 Missing features or limitations:
