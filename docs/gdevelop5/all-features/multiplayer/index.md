@@ -237,7 +237,8 @@ Yes: first, add the multiplayer behavior to the objects that will be generated. 
 
 If a player is disconnected or close the game, other players will be notified (there is a condition to check this in the events). You can choose to interrupt the game or continue. You can notably choose in the Multiplayer Object behavior properties what happens with the objects of the player.
 
-If the host quits the game, the game will be ended for all players. 
+If the host quits the game, the lobby game will be ended for all players. 
+Note that each player's scene will keep running unless you use the condition to check for lobby game ending (usually, to redirect to a menu or back to the lobbies).
 
 ### Known missing features or limitations
 
