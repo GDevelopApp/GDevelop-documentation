@@ -229,6 +229,10 @@ For instance, when an arrow shot by a player hits another character or an enemy,
 
     You can also use the action **Send a custom message to other players** in this case. This action sends a message to other players. For instance a message `Arrow hit player 2` can be sent to all players, so that they can handle the collision on their side, using the condition to read the custom message.
 
+### Can I still do procedural generation of objects in a multiplayer game?
+
+Yes: first, add the multiplayer behavior to the objects that will be generated. Then you just need a condition to check that the "Player is host" before generating the objects.
+
 ### Known missing features or limitations
 
 Missing features or limitations:
