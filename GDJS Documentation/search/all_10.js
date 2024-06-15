@@ -13,9 +13,10 @@ var searchData=
   ['setincludefilehash_105',['SetIncludeFileHash',['../db/dbe/structgdjs_1_1_preview_export_options.html#a4ad48abf2a9a6f3974b91c12ea1eb136',1,'gdjs::PreviewExportOptions']]],
   ['setisdevelopmentenvironment_106',['SetIsDevelopmentEnvironment',['../db/dbe/structgdjs_1_1_preview_export_options.html#a68e58011b6339b251056addf8eed4221',1,'gdjs::PreviewExportOptions']]],
   ['setlayoutname_107',['SetLayoutName',['../db/dbe/structgdjs_1_1_preview_export_options.html#a99b87ae4767666af213ef3ec3ba209ed',1,'gdjs::PreviewExportOptions']]],
-  ['setnonruntimescriptscacheburst_108',['SetNonRuntimeScriptsCacheBurst',['../db/dbe/structgdjs_1_1_preview_export_options.html#ac4c9f5d4bdbf88903ff563b2381c3972',1,'gdjs::PreviewExportOptions']]],
-  ['setprojectdataonlyexport_109',['SetProjectDataOnlyExport',['../db/dbe/structgdjs_1_1_preview_export_options.html#ae474b7c99a72667ea528588d479b7279',1,'gdjs::PreviewExportOptions']]],
-  ['settarget_110',['SetTarget',['../dd/d37/structgdjs_1_1_export_options.html#a2f3254e15cc70e9b5a5411345a035cd7',1,'gdjs::ExportOptions']]],
-  ['spriteextension_111',['SpriteExtension',['../d1/db3/classgdjs_1_1_sprite_extension.html',1,'gdjs']]],
-  ['stringinstructionsextension_112',['StringInstructionsExtension',['../db/d0f/classgdjs_1_1_string_instructions_extension.html',1,'gdjs']]]
+  ['setnativemobileapp_108',['SetNativeMobileApp',['../db/dbe/structgdjs_1_1_preview_export_options.html#ad863d8c540bc6a6c71a8ad3c4c6ad760',1,'gdjs::PreviewExportOptions']]],
+  ['setnonruntimescriptscacheburst_109',['SetNonRuntimeScriptsCacheBurst',['../db/dbe/structgdjs_1_1_preview_export_options.html#ac4c9f5d4bdbf88903ff563b2381c3972',1,'gdjs::PreviewExportOptions']]],
+  ['setprojectdataonlyexport_110',['SetProjectDataOnlyExport',['../db/dbe/structgdjs_1_1_preview_export_options.html#ae474b7c99a72667ea528588d479b7279',1,'gdjs::PreviewExportOptions']]],
+  ['settarget_111',['SetTarget',['../dd/d37/structgdjs_1_1_export_options.html#a2f3254e15cc70e9b5a5411345a035cd7',1,'gdjs::ExportOptions']]],
+  ['spriteextension_112',['SpriteExtension',['../d1/db3/classgdjs_1_1_sprite_extension.html',1,'gdjs']]],
+  ['stringinstructionsextension_113',['StringInstructionsExtension',['../db/d0f/classgdjs_1_1_string_instructions_extension.html',1,'gdjs']]]
 ];
