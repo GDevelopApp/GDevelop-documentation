@@ -1141,14 +1141,16 @@ Allow players to connect to lobbies and play together. [Read more explanations a
 
 | Expression | Description |  |
 |-----|-----|-----|
+| `Multiplayer::CurrentPlayerNumber()` | Return the current player number in the lobby (1, 2, ...). ||
 | `Multiplayer::MessageData(string)` | Returns the data received when the specified message was received from another player. ||
 | | _string_ | Message name |
-| `Multiplayer::NumberOfPlayersInLobby()` | Return the number of players in the lobby. ||
-| `Multiplayer::PlayerNumber()` | Return the player number in the lobby (1, 2, ...). ||
 | `Multiplayer::PlayerPing(number)` | Get the ping of the player in the lobby. ||
 | | _🔢 Number_ | The position of the player in the lobby (1, 2, ...) |
 | `Multiplayer::PlayerUsername(number)` | Get the username of the player in the lobby. ||
 | | _🔢 Number_ | The position of the player in the lobby (1, 2, ...) |
+| `Multiplayer::PlayerVariableOwnership(variable)` | Return the player owning the variable. ||
+| | _🗄️ Any variable_ | Variable |
+| `Multiplayer::PlayersInLobbyCount()` | Return the number of players in the lobby. ||
 
 ## Multiplayer object (from extension Multiplayer)
 

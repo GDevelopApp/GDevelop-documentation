@@ -4,19 +4,34 @@ Allow players to connect to lobbies and play together. [Read more explanations a
 
 ## Actions
 
+**Disable variable synchronization**  
+Disable synchronization of the variable over the network. It will not be sent to other players anymore.
+
 **End Lobby Game**  
 End the lobby game. This will trigger the "Lobby game has just ended" condition.
 
 **Open Game Lobbies**  
 Open the game lobbies window, where players can join lobbies or see the one they are in.
 
+**Remove ownership of variable**  
+Remove the ownership of the variable. It will still be synchronized to other players, but the host owns it.
+
 **Send custom message to other players**  
 Send a custom message to other players in the lobby, with an automatic retry system if it hasn't been received. Use with the condition 'Message has been received' to know when the message has been properly processed by the host.
+
+**Player variable ownership**  
+Change the player owning the variable.
 
 **Allow players to close the lobbies window**  
 Allow players to close the lobbies window. Allowed by default.
 
+**Take ownership of variable**  
+Take the ownership of the variable. It will then be synchronized to other players, with the current player as the owner.
+
 ## Conditions
+
+**Current player number in lobby**  
+Compare the current player number in the lobby (1, 2, ...).
 
 **Any player has left**  
 Check if any player has left the lobby.
@@ -42,24 +57,26 @@ Check if the lobby game is running.
 **Player is host**  
 Check if the player is the host. (Player 1 is the host)
 
+**Player variable ownership**  
+Compare the player owning the variable.
+
 **Number of players in lobby**  
 Compare the number of players in the lobby.
-
-**Player number in lobby**  
-Compare the player number in the lobby (1, 2, ...).
 
 ## Expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
+| `Multiplayer::CurrentPlayerNumber()` | Return the current player number in the lobby (1, 2, ...). ||
 | `Multiplayer::MessageData(string)` | Returns the data received when the specified message was received from another player. ||
 | | _string_ | Message name |
-| `Multiplayer::NumberOfPlayersInLobby()` | Return the number of players in the lobby. ||
-| `Multiplayer::PlayerNumber()` | Return the player number in the lobby (1, 2, ...). ||
 | `Multiplayer::PlayerPing(number)` | Get the ping of the player in the lobby. ||
 | | _🔢 Number_ | The position of the player in the lobby (1, 2, ...) |
 | `Multiplayer::PlayerUsername(number)` | Get the username of the player in the lobby. ||
 | | _🔢 Number_ | The position of the player in the lobby (1, 2, ...) |
+| `Multiplayer::PlayerVariableOwnership(variable)` | Return the player owning the variable. ||
+| | _🗄️ Any variable_ | Variable |
+| `Multiplayer::PlayersInLobbyCount()` | Return the number of players in the lobby. ||
 
 ## Multiplayer object 
 
