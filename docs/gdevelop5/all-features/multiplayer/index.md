@@ -8,6 +8,8 @@ title: GDevelop Multiplayer
 
     GDevelop Multiplayer is being beta-tested right now. Check the known missing features at the bottom of this page.
 
+## Overview
+
 GDevelop provides a built-in solution for **real-time multiplayer games**. Whether you're making a simple multiplayer game or a more complex one, from a cooperative game to a competitive one, GDevelop Multiplayer features can be used for building your game. Multiplayer works well with [Player Authentication](/gdevelop5/all-features/player-authentication) and [Leaderboards](/gdevelop5/all-features/leaderboards).
 
 It is built to be easy to use, accessible to everyone, and provides a good experience for all your players.
@@ -28,7 +30,9 @@ Some features available out of the box are:
 
 !!! tip
 
-    Usually, adding multiplayer features or creating a multiplayer game from scratch is something difficult and error-prone. Most solutions, including some you could adapt or use with GDevelop, require some programming and networking knowledge. With GDevelop Multiplayer features, there is **no need to handle servers**, sending custom messages, handling connections, lobbies, packets being lost, prediction of movements, interpolation, etc.
+    Developing a multiplayer game from scratch is typically challenging and prone to errors. Most available solutions, including those compatible with GDevelop, generally require some programming and networking expertise.
+
+    However, GDevelop's multiplayer features simplify this process. With GDevelop, **you don't need to manage servers**, send custom messages, handle connections, manage lobbies, deal with packet loss, predict movements, or handle interpolation.
 
 To use the multiplayer features, use the **Multiplayer** behavior on your objects, and the actions/conditions in the **"Multiplayer"** category in GDevelop. It is automatically available in your game, and you can start using it right away. This page will explaining how to use the behavior to make a multiplayer game and the actions/conditions to start and end a game.
 
@@ -50,7 +54,7 @@ Read the rest of this page to learn more about lobbies and how to set up your ga
 
 ## Lobby system: start and end a game
 
-The multiplayer extension provides lobbies, so players can join a game together and start playing. It is a key feature to allow players to play together, define which player number they are, and start the game when all players are ready.
+The multiplayer extension provides lobbies, so players can join a game together and start playing. It is a key feature to allow players to play together, define which player number they are, and start the game when all players are ready. Each lobby supports up to 8 players.
 
 !!! note
 
@@ -59,7 +63,7 @@ The multiplayer extension provides lobbies, so players can join a game together 
 ### Configuring the lobby
 
 Lobbies are automatically created for your game.
-If you want to customize them, especially the number of players needed to start a game or the maximum number of players, head to your game dashboard in the editor.
+If you want to customize them, such as the number of players needed to start a game or the maximum number of players, head to your game dashboard in the editor.
 
 ![Lobbies configuration in the game dashboard](./lobbies-configuration.png)
 
@@ -76,6 +80,8 @@ Use the action **Open game lobbies**. This action will show the lobbies to the p
     - When players join a lobby, they are automatically assigned a player number, and the host of the game is automatically defined (player 1).
     - When all players are ready, the player 1 can start the game.
     - When the game is started, the lobby window is automatically closed and players are automatically connected to each other.
+
+    ![Multiplayer Overview](./multiplayer-overview.png)
 
 ??? note "More about player authentication"
 
@@ -237,7 +243,7 @@ Yes: first, add the multiplayer behavior to the objects that will be generated. 
 
 If a player is disconnected or close the game, other players will be notified (there is a condition to check this in the events). You can choose to interrupt the game or continue. You can notably choose in the Multiplayer Object behavior properties what happens with the objects of the player.
 
-If the host quits the game, the lobby game will be ended for all players. 
+If the host quits the game, the lobby game will be ended for all players.
 Note that each player's scene will keep running unless you use the condition to check for lobby game ending (usually, to redirect to a menu or back to the lobbies).
 
 ### Known missing features or limitations
@@ -250,5 +256,6 @@ Missing features or limitations:
 - Joining a lobby during the game is not yet possible, but will be introduced as a configurable option later. This will allow games to continue playing with players joining or leaving as long as the host continues playing.
 
 Known bugs:
+
 - After authenticating for the first time, the lobbies might not open on a published game. This can be "fixed" by reloading the game and opening lobbies again.
 - The Z position of 3D objects is not synchronized.
