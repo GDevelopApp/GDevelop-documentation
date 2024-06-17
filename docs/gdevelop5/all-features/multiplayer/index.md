@@ -30,7 +30,9 @@ Some features available out of the box are:
 
 !!! tip
 
-    Usually, adding multiplayer features or creating a multiplayer game from scratch is something difficult and error-prone. Most solutions, including some you could adapt or use with GDevelop, require some programming and networking knowledge. With GDevelop Multiplayer features, there is **no need to handle servers**, sending custom messages, handling connections, lobbies, packets being lost, prediction of movements, interpolation, etc.
+    Developing a multiplayer game from scratch is typically challenging and prone to errors. Most available solutions, including those compatible with GDevelop, generally require some programming and networking expertise.
+
+    However, GDevelop's multiplayer features simplify this process. With GDevelop, **you don't need to manage servers**, send custom messages, handle connections, manage lobbies, deal with packet loss, predict movements, or handle interpolation.
 
 To use the multiplayer features, use the **Multiplayer** behavior on your objects, and the actions/conditions in the **"Multiplayer"** category in GDevelop. It is automatically available in your game, and you can start using it right away. This page will explaining how to use the behavior to make a multiplayer game and the actions/conditions to start and end a game.
 
@@ -52,7 +54,7 @@ Read the rest of this page to learn more about lobbies and how to set up your ga
 
 ## Lobby system: start and end a game
 
-The multiplayer extension provides lobbies, so players can join a game together and start playing. It is a key feature to allow players to play together, define which player number they are, and start the game when all players are ready.
+The multiplayer extension provides lobbies, so players can join a game together and start playing. It is a key feature to allow players to play together, define which player number they are, and start the game when all players are ready. Each lobby supports up to 8 players.
 
 !!! note
 
