@@ -2,7 +2,7 @@ version: 2
 jobs:
   docs-build-and-deploy:
     docker:
-      - image: cimg/node:16.19
+      - image: cimg/node:20.14.0
 
     working_directory: ~/repo
 
