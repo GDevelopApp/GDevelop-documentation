@@ -81,10 +81,6 @@ watch:
 - 'overrides'
 plugins:
     - search
-    - mkdocs-video:
-        css_style:
-            # Add impact-less css rule so that the default css style of the plugin is not injected
-            height: unset
     # Allow to customize navigation with `.pages` files:
     - awesome-pages
     # Redirect old pages:

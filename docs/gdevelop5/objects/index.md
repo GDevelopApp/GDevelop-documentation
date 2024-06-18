@@ -38,7 +38,9 @@ This section lists the different types of objects, each of which serves a unique
 
 ## Learn about some objects with this video tutorial
 
-![type:video](https://www.youtube.com/embed/KpLAYMSgoDI)
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/KpLAYMSgoDI" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Adding an object to your game
 

@@ -5,7 +5,9 @@ title: Global Objects
 
 Global objects are [objects](/gdevelop5/objects) which are globally accessible; that is, they are usable by all [Scenes](/gdevelop5/interface/scene-editor).
 
-![type:video](https://www.youtube.com/embed/_VUwAfD_7zQ)
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/_VUwAfD_7zQ" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Setting an object as global
 

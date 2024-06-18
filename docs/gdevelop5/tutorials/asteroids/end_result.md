@@ -22,7 +22,9 @@ title: Asteroids
 
 This step by step example was based off a video example that was originally created for the Gdevelop youtube channel.
 
-![type:video](https://www.youtube.com/embed/w1SCpQ-mRCk)
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/w1SCpQ-mRCk" frameborder="0" allowfullscreen></iframe>
+</div>
 
 The finished version of this game, with particle effects and mobile controls, can be found
 [here](https://editor.gdevelop.io/?project=example://space-asteroids).
