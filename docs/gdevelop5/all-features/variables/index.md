@@ -9,7 +9,9 @@ In GDevelop, you can use _variables_ to store temporary data, such as numbers an
 
     To learn how to store data that isn't temporary, such as a player's saved progress, refer to [storage](/gdevelop5/all-features/storage).
 
-![type:video](https://www.youtube.com/embed/MFvAd-96LWo)
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/MFvAd-96LWo" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Data types
 

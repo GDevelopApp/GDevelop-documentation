@@ -14,7 +14,9 @@ This can be useful to :
 
 The following videos is a quick explanation of external layouts and how to use them:
 
-![type:video](https://www.youtube.com/embed/_VUwAfD_7zQ)
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/_VUwAfD_7zQ" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Create an external layout
 

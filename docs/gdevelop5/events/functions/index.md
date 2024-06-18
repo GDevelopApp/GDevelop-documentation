@@ -13,7 +13,9 @@ Similarly to scenes or [external events](/gdevelop5/interface), functions are wr
 
     See an example of functions being used in [this video by gamefromscratch](https://www.youtube.com/watch?v=BQO9DDXdkjs).
 
-![type:video](https://www.youtube.com/embed/-U8WFcpUmMg)
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/-U8WFcpUmMg" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Create a new function
 

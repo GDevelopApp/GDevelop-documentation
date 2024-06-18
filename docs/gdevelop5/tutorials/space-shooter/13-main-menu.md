@@ -115,4 +115,6 @@ Now, we are ready to play our game. Open the **Main Menu Scene** and run the gam
 
 ## Demo video
 
-![type:video](https://www.youtube.com/embed/1Nt1k_lhhhs)
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/1Nt1k_lhhhs" frameborder="0" allowfullscreen></iframe>
+</div>

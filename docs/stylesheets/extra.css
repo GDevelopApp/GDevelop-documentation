@@ -122,8 +122,7 @@ article div.video-container{
 
 article div.video-container > iframe,
 article div.video-container > video {
-  width: 70%;
-  max-width: 640px;
+  width: 90%;
   aspect-ratio: 16 / 9;
 }
 

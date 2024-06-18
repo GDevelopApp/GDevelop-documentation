@@ -95,7 +95,9 @@ Use this syntax:
 Use this syntax:
 
 ```md
-![type:video](https://www.youtube.com/embed/595-swNh0Mw?list=PL3YlZTdKiS89Kj7IQVPoNElJCWrjZaCC8)
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/595-swNh0Mw?list=PL3YlZTdKiS89Kj7IQVPoNElJCWrjZaCC8" frameborder="0" allowfullscreen></iframe>
+</div>
 ```
 
 Find the link to use right-clicking a youtube video and clicking "Copy embed code". Then find the link in it.

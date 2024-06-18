@@ -7,7 +7,9 @@ Sliders allow the player to pick a value between a maximum and a minimum range. 
 
 While sliders could be constructed manually using other objects, it's often simpler to use ready-to-use sliders available in the Asset Store.
 
-![type:video](https://www.youtube.com/embed/plkHd4uPI4U)
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/plkHd4uPI4U" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Add a slider from the Asset Store to a game
 

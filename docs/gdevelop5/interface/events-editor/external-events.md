@@ -11,7 +11,9 @@ External Events help keep event sheets clean, and prevent the need to repeat the
 
     [Behaviors](/gdevelop5/behaviors) and [Functions](/gdevelop5/events/functions) are generally better for smaller units of code that need to change based on some parameters (arguments), whereas external events are better for larger blocks of events.
 
-![type:video](https://www.youtube.com/embed/_VUwAfD_7zQ)
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/_VUwAfD_7zQ" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Creation
 

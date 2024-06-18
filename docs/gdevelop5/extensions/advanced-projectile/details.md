@@ -13,7 +13,9 @@ Control how a projectile moves including speed, acceleration, distance, and life
 
 Watch how this extension works and learn how to use it in your own game.
 
-![type:video](https://www.youtube.com/embed/5S0TG-Yf_b0)
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/5S0TG-Yf_b0" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Game example
 
@@ -45,6 +47,6 @@ A thrown weapon, such as a hand grenade, can be simulated with:
 There are 2 ways to set the direction a projectile will move:
 
 - When the projectile is not moving, it will accelerate towards the direction (angle) it is facing.
-- When the projectile is moving, it will accelerate in the direction it is moving (according to forces). 
+- When the projectile is moving, it will accelerate in the direction it is moving (according to forces).
 
 This enables projectiles to move correctly, even if they are not rotated toward the direction of movement.

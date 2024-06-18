@@ -28,7 +28,9 @@ The chapters in the tutorial covers:
 
 ### Demo video
 
-![type:video](https://www.youtube.com/embed/1Nt1k_lhhhs)
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/1Nt1k_lhhhs" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ### Links:
 

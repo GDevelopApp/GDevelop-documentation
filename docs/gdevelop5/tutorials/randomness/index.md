@@ -11,13 +11,15 @@ Random numbers can be generated using the [expressions](/gdevelop5/all-features/
 
 ## Create a random object
 
-Random objects can be created according to a random number. 
+Random objects can be created according to a random number.
 
 <!---
 TODO screenshot of events and small example link.
 -->
 
-![type:video](https://www.youtube.com/embed/5C78xIecgiI)
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/5C78xIecgiI" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Roll dice
 
