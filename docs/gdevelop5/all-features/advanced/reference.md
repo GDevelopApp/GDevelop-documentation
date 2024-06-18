@@ -1,4 +1,4 @@
-# Event functions
+# Event functions Reference
 
 Advanced control features for functions made with events. 
 

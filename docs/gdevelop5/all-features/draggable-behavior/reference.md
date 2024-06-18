@@ -1,4 +1,4 @@
-# Draggable Behavior
+# Draggable Behavior Reference
 
 Allows objects to be moved using the mouse (or touch). Add the behavior to an object to make it draggable. Use events to enable or disable the behavior when needed. [Read more explanations about it.](/gdevelop5/behaviors/draggable)
 

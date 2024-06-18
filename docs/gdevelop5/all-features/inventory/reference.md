@@ -1,4 +1,4 @@
-# Inventories
+# Inventories Reference
 
 Provides actions and conditions to add an inventory to your game, with items in memory. [Read more explanations about it.](/gdevelop5/all-features/inventory)
 

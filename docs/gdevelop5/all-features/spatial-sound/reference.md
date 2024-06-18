@@ -1,4 +1,4 @@
-# Spatial sound
+# Spatial sound Reference
 
 Allow positioning sounds in a 3D space. The stereo system of the device is used to simulate the position of the sound and to give the impression that the sound is located somewhere around the player. 
 

@@ -1,4 +1,4 @@
-# Device sensors
+# Device sensors Reference
 
 Allow the game to access the sensors of a mobile device. [Read more explanations about it.](/gdevelop5/all-features/device-sensors)
 

@@ -1,4 +1,4 @@
-# External layouts
+# External layouts Reference
 
 Provides actions and conditions related to external layouts. [Read more explanations about it.](/gdevelop5/interface/scene-editor/external-layouts)
 

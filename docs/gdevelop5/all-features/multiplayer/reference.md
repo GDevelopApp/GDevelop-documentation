@@ -1,4 +1,4 @@
-# Multiplayer
+# Multiplayer Reference
 
 Allow players to connect to lobbies and play together. [Read more explanations about it.](/gdevelop5/all-features/multiplayer)
 

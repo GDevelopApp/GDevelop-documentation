@@ -1,4 +1,4 @@
-# Video
+# Video Reference
 
 Provides an object to display a video on the scene. The recommended file format is MPEG4, with H264 video codec and AAC audio codec, to maximize the support of the video on different platform and browsers. [Read more explanations about it.](/gdevelop5/objects/video)
 

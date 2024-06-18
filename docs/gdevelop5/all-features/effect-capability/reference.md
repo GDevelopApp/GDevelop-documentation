@@ -1,4 +1,4 @@
-# Effect capability
+# Effect capability Reference
 
 Apply visual effects to objects. [Read more explanations about it.](/gdevelop5/objects)
 

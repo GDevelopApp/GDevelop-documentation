@@ -1,4 +1,4 @@
-# Anchor
+# Anchor Reference
 
 Anchor objects to the window's bounds. [Read more explanations about it.](/gdevelop5/behaviors/anchor)
 

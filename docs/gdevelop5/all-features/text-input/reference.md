@@ -1,4 +1,4 @@
-# Text Input
+# Text Input Reference
 
 A text field the player can type text into. 
 

@@ -1,4 +1,4 @@
-# Text capability
+# Text capability Reference
 
 Animate objects. [Read more explanations about it.](/gdevelop5/objects)
 

@@ -1,4 +1,4 @@
-# Mathematical tools
+# Mathematical tools Reference
 
 A set of mathematical functions that can be used in expressions. 
 

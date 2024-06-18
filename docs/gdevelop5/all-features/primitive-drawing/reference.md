@@ -1,4 +1,4 @@
-# Shape painter
+# Shape painter Reference
 
 This provides an object that can be used to draw arbitrary shapes on the screen using events. [Read more explanations about it.](/gdevelop5/objects/shape_painter)
 

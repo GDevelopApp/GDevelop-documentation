@@ -1,4 +1,4 @@
-# Sprite
+# Sprite Reference
 
 Sprite are animated object which can be used for most elements of a game. [Read more explanations about it.](/gdevelop5/objects/sprite)
 

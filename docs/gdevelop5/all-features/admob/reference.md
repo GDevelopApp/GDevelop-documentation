@@ -1,4 +1,4 @@
-# AdMob
+# AdMob Reference
 
 Allow to display AdMob banners, app open, interstitials, rewarded interstitials and rewarded video ads. [Read more explanations about it.](/gdevelop5/all-features/admob)
 

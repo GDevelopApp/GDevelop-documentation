@@ -1,4 +1,4 @@
-# Storage
+# Storage Reference
 
 Actions and conditions to store data (like the player progress or anything else to be persisted across game sessions). Data are stored on the device and erased when the game is uninstalled. [Read more explanations about it.](/gdevelop5/all-features/storage)
 

@@ -1,4 +1,4 @@
-# Player Authentication
+# Player Authentication Reference
 
 Allow your game to authenticate players. [Read more explanations about it.](/gdevelop5/all-features/player-authentication)
 

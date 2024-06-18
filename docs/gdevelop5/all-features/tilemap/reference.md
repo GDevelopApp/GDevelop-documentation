@@ -1,4 +1,4 @@
-# Tilemap
+# Tilemap Reference
 
 The Tilemap object can be used to display tile-based objects. It's a good way to create maps for RPG, strategy games or create objects by assembling tiles, useful for platformer, retro-looking games, etc... [Read more explanations about it.](/gdevelop5/objects/tilemap)
 

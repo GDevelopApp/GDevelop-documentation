@@ -1,4 +1,4 @@
-# Text entry object
+# Text entry object Reference
 
 Deprecated object that can be used to capture the text entered with a keyboard by a player. [Read more explanations about it.](/gdevelop5/objects/text_entry)
 

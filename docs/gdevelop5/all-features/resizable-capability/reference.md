@@ -1,4 +1,4 @@
-# Resizable capability
+# Resizable capability Reference
 
 Change the object dimensions. [Read more explanations about it.](/gdevelop5/objects)
 

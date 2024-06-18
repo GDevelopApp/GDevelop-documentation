@@ -1,4 +1,4 @@
-# Physics Engine (deprecated)
+# Physics Engine (deprecated) Reference
 
 This is the old, deprecated physics engine. Prefer to use the Physics Engine 2.0. [Read more explanations about it.](/gdevelop5/behaviors/physics)
 

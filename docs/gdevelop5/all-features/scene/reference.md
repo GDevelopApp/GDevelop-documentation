@@ -1,4 +1,4 @@
-# Scene
+# Scene Reference
 
 Actions and conditions to manipulate the scenes during the game. 
 

@@ -1,4 +1,4 @@
-# Device vibration
+# Device vibration Reference
 
 This allows to trigger vibrations on mobile devices. [Read more explanations about it.](/gdevelop5/all-features/device-vibration)
 

@@ -1,4 +1,4 @@
-# Advanced window management
+# Advanced window management Reference
 
 Provides advanced features related to the game window positioning and interaction with the operating system. 
 

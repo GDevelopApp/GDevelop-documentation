@@ -1,4 +1,4 @@
-# Debugger Tools
+# Debugger Tools Reference
 
 Allow to interact with the editor debugger from the game. 
 

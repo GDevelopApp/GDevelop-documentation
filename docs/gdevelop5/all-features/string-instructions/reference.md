@@ -1,4 +1,4 @@
-# Text manipulation
+# Text manipulation Reference
 
 Provides expressions to manipulate strings (also called texts). 
 

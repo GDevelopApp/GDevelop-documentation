@@ -1,4 +1,4 @@
-# Firebase
+# Firebase Reference
 
 Use Google Firebase services (database, functions, storage...) in your game. [Read more explanations about it.](/gdevelop5/all-features/firebase)
 

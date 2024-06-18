@@ -1,4 +1,4 @@
-# Pathfinding behavior
+# Pathfinding behavior Reference
 
 Pathfinding allows to compute an efficient path for objects, avoiding obstacles on the way. [Read more explanations about it.](/gdevelop5/behaviors/pathfinding)
 

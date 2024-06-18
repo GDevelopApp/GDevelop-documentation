@@ -1,4 +1,4 @@
-# Text object
+# Text object Reference
 
 An object that can be used to display any text on the screen: remaining life counter, some indicators, menu buttons, dialogues... [Read more explanations about it.](/gdevelop5/objects/text)
 

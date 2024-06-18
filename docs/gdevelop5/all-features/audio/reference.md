@@ -1,4 +1,4 @@
-# Sounds and music
+# Sounds and music Reference
 
 GDevelop provides several conditions and actions to play audio files. They can be either long music or short sound effects. [Read more explanations about it.](/gdevelop5/all-features/audio)
 

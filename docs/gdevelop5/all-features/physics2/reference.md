@@ -1,4 +1,4 @@
-# Physics Engine 2.0
+# Physics Engine 2.0 Reference
 
 The physics engine simulates realistic object physics, with gravity, forces, joints, etc. It's perfect for games that need to have realistic behaving objects and a gameplay centered around it. [Read more explanations about it.](/gdevelop5/behaviors/physics2)
 

@@ -1,4 +1,4 @@
-# Tweening
+# Tweening Reference
 
 Animate object properties over time. This allows smooth transitions, animations or movement of objects to specified positions. [Read more explanations about it.](/gdevelop5/behaviors/tween)
 

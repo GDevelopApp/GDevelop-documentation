@@ -1,4 +1,4 @@
-# Scalable capability
+# Scalable capability Reference
 
 Change the object scale. [Read more explanations about it.](/gdevelop5/objects)
 

@@ -1,4 +1,4 @@
-# P2P
+# P2P Reference
 
 Allow game instances to communicate remotely using messages sent via WebRTC (P2P). [Read more explanations about it.](/gdevelop5/all-features/p2p)
 

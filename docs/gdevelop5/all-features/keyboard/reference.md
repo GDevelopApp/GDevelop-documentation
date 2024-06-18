@@ -1,4 +1,4 @@
-# Keyboard
+# Keyboard Reference
 
 Allows your game to respond to keyboard input. Note that this does not work with on-screen keyboard on touch devices: use instead conditions related to touch when making a game for mobile/touchscreen devices. [Read more explanations about it.](/gdevelop5/all-features/keyboard)
 

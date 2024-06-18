@@ -1,4 +1,4 @@
-# Bitmap Text
+# Bitmap Text Reference
 
 Displays a text using a "Bitmap Font" (an image representing characters). This is more performant than a traditional Text object and it allows for complete control on the characters aesthetic. [Read more explanations about it.](/gdevelop5/objects/bitmap_text)
 

@@ -1,4 +1,4 @@
-# Flippable capability
+# Flippable capability Reference
 
 Flip objects. [Read more explanations about it.](/gdevelop5/objects)
 

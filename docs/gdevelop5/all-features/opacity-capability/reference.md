@@ -1,4 +1,4 @@
-# Opacity capability
+# Opacity capability Reference
 
 Change the object opacity. [Read more explanations about it.](/gdevelop5/objects)
 

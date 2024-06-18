@@ -1,4 +1,4 @@
-# Screenshot
+# Screenshot Reference
 
 Allows to save screenshots of a running game. [Read more explanations about it.](/gdevelop5/all-features/screenshot)
 

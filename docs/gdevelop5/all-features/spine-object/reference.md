@@ -1,4 +1,4 @@
-# Spine (experimental)
+# Spine (experimental) Reference
 
 Displays a Spine animation. [Read more explanations about it.](/gdevelop5/objects/spine)
 

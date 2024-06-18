@@ -1,4 +1,4 @@
-# Network
+# Network Reference
 
 Features to send web requests, communicate with external "APIs" and other network related tasks. [Read more explanations about it.](/gdevelop5/all-features/network)
 

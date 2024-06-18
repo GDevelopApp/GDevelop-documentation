@@ -1,4 +1,4 @@
-# Destroy Outside Screen Behavior
+# Destroy Outside Screen Behavior Reference
 
 This behavior can be used to destroy objects when they go outside of the bounds of the camera. Useful for bullets or other short-lived objects. [Read more explanations about it.](/gdevelop5/behaviors/destroyoutside)
 

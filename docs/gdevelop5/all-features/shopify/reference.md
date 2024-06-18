@@ -1,4 +1,4 @@
-# Shopify
+# Shopify Reference
 
 Interact with products and generate URLs for checkouts with your Shopify shop. [Read more explanations about it.](/gdevelop5/all-features/shopify)
 

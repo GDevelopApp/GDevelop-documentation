@@ -1,4 +1,4 @@
-# Dialogue Tree
+# Dialogue Tree Reference
 
 Handle dialogue trees, made using Yarn Spinner. Useful to make complex dialogues with multiple choices. The Yarn Spinner editor is embedded in GDevelop so you can edit your dialogues without leaving GDevelop. [Read more explanations about it.](/gdevelop5/all-features/dialogue-tree)
 
