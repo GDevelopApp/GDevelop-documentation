@@ -4,29 +4,30 @@ title: GDevelop Multiplayer
 
 # Making multiplayer games with GDevelop
 
-!!! danger
-
-    GDevelop Multiplayer is being beta-tested right now. Check the known missing features at the bottom of this page.
-
 ## Overview
 
 GDevelop provides a built-in solution for **real-time multiplayer games**. Whether you're making a simple multiplayer game or a more complex one, from a cooperative game to a competitive one, GDevelop Multiplayer features can be used for building your game. Multiplayer works well with [Player Authentication](/gdevelop5/all-features/player-authentication) and [Leaderboards](/gdevelop5/all-features/leaderboards).
 
 It is built to be easy to use, accessible to everyone, and provides a good experience for all your players.
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" muted="true" autoplay="true" loop="true">
-    <source src="multiplayer-example.mp4" type="video/mp4">
-  </video>
-</figure>
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/6Y5ARM689c4" frameborder="0" allowfullscreen></iframe>
+</div>
 
 Some features available out of the box are:
 
 - **Lobbies** for your game and a user interface allowing players to start a new game,
 - Built-in **authentication** for players to create an account and log in to your game,
-- Automatic choice of the _host_ of the game,
 - Automatic **synchronization of players**, depending on who is in charge of each object,
 - Automatic synchronization of the rest of the **game state**: game objects, variables...
+- Out of the box **client-side prediction** of game logic and object behaviors,
+- Soon, automated **compression** to reduce bandwidth usage.
+
+<div class="video-container">
+  <video muted="true" autoplay="true" loop="true">
+    <source src="multiplayer-example.mp4" type="video/mp4">
+  </video>
+</div>
 
 !!! tip
 
@@ -44,11 +45,11 @@ To use the multiplayer features, use the **Multiplayer** behavior on your object
 
 Here is a quick example showing how to add lobbies and two players in a platformer game.
 
-<figure class="video_container">
+<div class="video-container">
   <video controls="true" allowfullscreen="true" muted="true" autoplay="true" loop="true">
     <source src="Multiplayer_in_1_minute.mp4" type="video/mp4">
   </video>
-</figure>
+</div>
 
 Read the rest of this page to learn more about lobbies and how to set up your game objects.
 

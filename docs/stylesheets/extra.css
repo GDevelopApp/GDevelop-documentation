@@ -115,23 +115,26 @@ body[data-md-color-scheme="slate"] a.md-button:not(.md-button--primary):hover {
   color: #FCFCFC;
 }
 
-article div.video-container{
+article .video-container{
   display: flex;
   justify-content: center;
 }
 
-article div.video-container > iframe,
-article div.video-container > video {
+article .video-container > iframe,
+article .video-container > video {
   width: 90%;
   aspect-ratio: 16 / 9;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  background-color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 620px) {
-  article div.video-container > iframe,
-  article div.video-container > video {
+  article .video-container > iframe,
+  article .video-container > video {
     width: 100%
   }
 }
