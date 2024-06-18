@@ -124,6 +124,9 @@ article div.video-container > iframe,
 article div.video-container > video {
   width: 90%;
   aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 620px) {
