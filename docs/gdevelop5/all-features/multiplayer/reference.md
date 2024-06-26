@@ -10,6 +10,9 @@ Disable synchronization of the variable over the network. It will not be sent to
 **End Lobby Game**  
 End the lobby game. This will trigger the "Lobby game has just ended" condition.
 
+**Get message variable**  
+Store the data of the specified message in a variable. Use with the condition 'Message has been received' to know when the message has been properly processed by the host.
+
 **Open Game Lobbies**  
 Open the game lobbies window, where players can join lobbies or see the one they are in.
 
@@ -18,6 +21,9 @@ Remove the ownership of the variable. It will still be synchronized to other pla
 
 **Send custom message to other players**  
 Send a custom message to other players in the lobby, with an automatic retry system if it hasn't been received. Use with the condition 'Message has been received' to know when the message has been properly processed by the host.
+
+**Send custom message to other players with a variable**  
+Send a custom message to other players in the lobby containing a variable, with an automatic retry system if it hasn't been received. Use with the condition 'Message has been received' to know when the message has been properly processed by the host.
 
 **Player variable ownership**  
 Change the player owning the variable.
@@ -71,6 +77,8 @@ Compare the number of players in the lobby.
 | `Multiplayer::CurrentPlayerPing()` | Get the ping of the current player in the lobby. ||
 | `Multiplayer::CurrentPlayerUsername()` | Get the username of the current player in the lobby. ||
 | `Multiplayer::MessageData(string)` | Returns the data received when the specified message was received from another player. ||
+| | _string_ | Message name |
+| `Multiplayer::MessageSender(string)` | Returns the player number of the sender of the specified message. ||
 | | _string_ | Message name |
 | `Multiplayer::PlayerPing(number)` | Get the ping of the player in the lobby. ||
 | | _🔢 Number_ | The position of the player in the lobby (1, 2, ...) |
