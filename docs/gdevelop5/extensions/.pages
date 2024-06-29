@@ -7,7 +7,7 @@ nav:
         - best-practices.md
         - share-extension.md
     - Ads:
-        - CrazyGames SDK: crazy-games-ad-api
+        - CrazyGames SDK v2: crazy-games-ad-api
         - Mobile In-App Purchase (experimental): in-app-purchase
         - Poki Games SDK: poki-games-sdkhtml
     - Advanced:
