@@ -177,6 +177,21 @@ When an object is destroyed, the behavior will also ensure it's deleted on other
 
 In most cases, you just need to add the behavior **Multiplayer object** to the objects you want to synchronize, define who is in charge of this object, and GDevelop will take care of the rest.
 
+### Disabling some behaviors synchronization
+
+By default, all behaviors of an object are synchronized across the network. This is useful for two reasons:
+
+- It allows everyone to see the same thing happening in the game.
+- It allows good movement predictions, especially for behaviors like the platformer character or the physics behaviors.
+
+Some behaviors, however, might not need to be synchronized across the network. For instance, if you have a behavior that is very specific to the current player, like a behavior that controls the camera, you might want to disable the synchronization of this behavior.
+To do this, you can use the action **Disable behavior synchronization** on the game of the player who owns the synchronized object, then on the other players's games you can disable the behavior.
+It will result in it being disabled on the other players' games, but still active on the player's game.
+
+!!! note
+
+    A good example of this is the behavior **SmoothCamera**. If you have a camera that follows the player, you might want to disable the synchronization of this behavior, so that each player has their own camera following their own character.
+
 ### Setting ownership of objects
 
 The main action you will use during your game will be **Change player object ownership**. This action allows you to change the owner of an object, so that the proper player can be in charge of the object.
@@ -204,6 +219,7 @@ During a game, the host will automatically synchronize:
 - Which scene is currently played,
 - The values of the global variables,
 - The values of the scene variables,
+- The values of the extensions variables,
   This is particularly useful to have a single source of truth for the game state, and to avoid having to synchronize everything manually.
 
 Whereas each player will automatically synchronize:
@@ -215,6 +231,25 @@ If you want to make sure that everyone has the same information about a game sta
 !!! note
 
     It means that if a player tries to cheat by modifying the global variables or wrongly change a variable because of a network issue, the server will automatically send again the correct value to the player.
+
+### Disabling the synchronization of variables
+
+By default, all scene and global variables are synchronized across the network by the host. This is useful for two reasons:
+
+- It allows everyone to see the same thing happening in the game.
+- It allows the host to have the correct information about the game state.
+
+Some variables, however, might not need to be synchronized across the network. For instance, if you have a variable that is very specific to the current player, like a variable storing which keys the player has mapped to their controls, you might want to disable the synchronization of this variable.
+To do this, you can use the action **Disable variable synchronization** on the game of the host, then on the other players's games, you can safely change the variable without it being synchronized.
+
+### Changing ownership of variables
+
+You can also change the ownership of a variable, so that the variable is owned by a specific player. This can be useful if you want to store information about a player that only this player can modify. For instance, you can store the score of a player in a variable owned by this player.
+To do this, use the action **Player variable ownership**.
+
+!!! note
+
+    A good example of this is if you want to allow any player to pause the game. You can use a variable `IsGamePaused` owned by the host, and when a player wants to pause the game, they can take ownership of this variable before modifying it. This way, all players will see the game paused as the variable is synchronized across the network by the player who owns it.
 
 ## Common patterns and things to look out for
 
