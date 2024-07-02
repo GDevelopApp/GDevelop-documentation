@@ -120,6 +120,13 @@ When the action is called, the condition **Lobby game has just ended** will turn
 
 You can also automatically re-open the lobby by using the action **Open the game lobbies**, so players can join a new lobby and start a new game.
 
+### Leave a game
+
+When a player wants to leave a game, they can use the action **Leave game lobby**. This will remove the player from the lobby and:
+
+- trigger the condition **Player has left** for the other players,
+- trigger the condition **Lobby game has just ended** for the player who left.
+
 ## During the game: set up synchronized objects and their owners
 
 One of the most important task in a multiplayer game is to have all the game objects (players, projectiles, doors, triggers, obstacles...) to be synchronized across the players, so all players see the same thing like if they were in the same room.
