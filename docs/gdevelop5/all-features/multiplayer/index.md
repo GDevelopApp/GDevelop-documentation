@@ -56,6 +56,7 @@ Read the rest of this page to learn more about lobbies and how to set up your ga
 ## Lobby system: start and end a game
 
 The multiplayer extension provides lobbies, so players can join a game together and start playing. It is a key feature to allow players to play together, define which player number they are, and start the game when all players are ready. Each lobby supports up to 8 players.
+Lobbies in preview are different than the lobbies when the game is published, allowing your to keep working on your game without affecting live games.
 
 !!! note
 
