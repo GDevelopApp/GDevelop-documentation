@@ -51,7 +51,7 @@ If you use this action, make sure to run it with either the **At the beginning o
 
     When creating objects with an External Layout, the newly created objects cannot be affected within the same event. This behavior differs from standard [object picking](/gdevelop5/events/object-picking/). 
 
-    To work around this limitation, create a [sub-event](gdevelop5/events/#creating-a-sub-event) under the event that generates objects from the external layout. In this sub-event, the newly created objects will be picked and available for actions.
+    To work around this limitation, create a [sub-event](/gdevelop5/events/#creating-a-sub-event) under the event that generates objects from the external layout. In this sub-event, the newly created objects will be picked and available for actions.
 
 ## Reference
 
