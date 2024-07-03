@@ -13,6 +13,9 @@ End the lobby game. This will trigger the "Lobby game has just ended" condition.
 **Get message variable**  
 Store the data of the specified message in a variable. Use with the condition 'Message has been received' to know when the message has been properly processed by the host.
 
+**Leave Game Lobby**  
+Leave the current game lobby. This will trigger the "Player has left" condition on the other players, and the "Lobby game has ended" condition on the player leaving.
+
 **Open Game Lobbies**  
 Open the game lobbies window, where players can join lobbies or see the one they are in.
 
@@ -93,6 +96,9 @@ Compare the number of players in the lobby.
 Allow the object to be synchronized with other players in the lobby. 
 
 ### Behavior actions
+
+**Enable (or disable) the synchronization of a behavior**  
+Enable or disable the synchronization of a behavior over the network. If disabled, the behavior's current state will not be sent to other players anymore.
 
 **Remove object ownership**  
 Remove the ownership of the object from the player. It will still be synchronized to other players, but the host owns it.
