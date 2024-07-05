@@ -81,6 +81,9 @@ Compare the height of a camera of a layer.
 **Width of a camera**  
 Compare the width of a camera of a layer.
 
+**Camera zoom**  
+Compare the zoom of a camera of a layer.
+
 **Layer default Z order**  
 Compare the default Z order set to objects when they are created on a layer.
 
