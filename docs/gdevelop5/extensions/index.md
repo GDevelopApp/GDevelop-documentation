@@ -320,6 +320,12 @@ does or inspect its content before using it.
 |<img src="https://resources.gdevelop-app.com/assets/Icons/update.svg" class="extension-icon"></img>|**Update checker**|Checks if the version of the game on liluo is different than the current game version.|[Read more...](/gdevelop5/extensions/update-checker)|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/16a8e2514d1c9a57f65f506bb7a420bf63e53dc56c58dfceff63178893031c69_upload.svg" class="extension-icon"></img>|**Upload Download Text File**|Allows users to upload/download text content to a filename and vice versa. |[Read more...](https://developer.mozilla.org/en-US/docs/Web/API/File_API/Using_files_from_web_applications) ([reference](/gdevelop5/extensions/upload-download-text-file))|
 
+### Text
+
+||Name|Description||
+|---|---|---|---|
+|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/0b4ef00ba832f327e84d09b036d18f3fc8d4805e3020f95b034a23f558e17a6c_format-text.svg" class="extension-icon"></img>|**3D text**|Display texts in 3D scenes.|[Read more...](/gdevelop5/extensions/text3d)|
+
 ### Third-party
 
 ||Name|Description||
@@ -340,7 +346,6 @@ They enhance the user experience of your game and complete the integration with 
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/UI Essentials/UI Essentials_chat_message_sms.svg" class="extension-icon"></img>|**Dialog Box**|This extension adds Dialog Box functionality that can be used for RPGs, visual novels, and more.|[Read more...](https://github.com/PANDAKO-GitHub/DialogBoxExtension) ([reference](/gdevelop5/extensions/dialog-box))|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/page-layout-body.svg" class="extension-icon"></img>|**Flexbox**|Allows using flexbox for positioning objects.|[Read more...](/gdevelop5/extensions/flex-box)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/play-pause.svg" class="extension-icon"></img>|**Pause when losing focus**|Pauses when focus is lost, restarts when focus is regained.|[Read more...](/gdevelop5/extensions/pause-focus-lost)|
-|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/0b4ef00ba832f327e84d09b036d18f3fc8d4805e3020f95b034a23f558e17a6c_format-text.svg" class="extension-icon"></img>|**3D text**|Display texts in 3D scenes.|[Read more...](/gdevelop5/extensions/text3d)|
 
 ### Visual effect
 

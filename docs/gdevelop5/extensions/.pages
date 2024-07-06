@@ -215,6 +215,8 @@ nav:
         - Network:
             - Update checker: update-checker
             - Upload Download Text File: upload-download-text-file
+        - Text:
+            - 3D text: text3d
         - Third-party:
             - GamePix SDK: game-pix-sdk
             - Gamejolt: gamejolt-api
@@ -227,7 +229,6 @@ nav:
             - Dialog Box: dialog-box
             - Flexbox: flex-box
             - Pause when losing focus: pause-focus-lost
-            - 3D text: text3d
         - Visual effect:
             - Animation system: animation-system
             - Character game feel: character-game-feel
