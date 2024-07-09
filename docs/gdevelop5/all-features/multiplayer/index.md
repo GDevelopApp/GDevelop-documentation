@@ -263,6 +263,12 @@ To do this, use the action **Player variable ownership**.
 
     A good example of this is if you want to allow any player to pause the game. You can use a variable `IsGamePaused` owned by the host, and when a player wants to pause the game, they can take ownership of this variable before modifying it. This way, all players will see the game paused as the variable is synchronized across the network by the player who owns it.
 
+!!! note
+
+    With variable ownership change as well as object ownership change, there is built-in collision detection to prevent multiple players from trying to take ownership of the same object or variable at the same time.
+    The host will arbitrate who took ownership first, and the other players will have the ownership on their game reverted.
+    Thus, be careful if you start playing irreversible actions based on the ownership change, as the ownership change might be reverted just after.
+
 ## Common patterns and things to look out for
 
 ### Handling collisions and interactions between synchronized objects
@@ -295,6 +301,10 @@ If the host quits the game, the lobby game will be ended for all players.
 Note that each player's scene will keep running unless you use the condition to check for lobby game ending (usually, to redirect to a menu or back to the lobbies).
 
 ### Known missing features or limitations
+
+!!! note
+
+    If you try to join a lobby with multiple tabs on the web, ensure all tabs are visible and focused. If one of them is not opened or active, then the player will not join the game and you might see strange behaviors.
 
 Missing features or limitations:
 
