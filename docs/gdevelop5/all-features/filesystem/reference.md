@@ -25,6 +25,9 @@ Load a JSON formatted text from a file and convert it to a scene variable (poten
 **Create a directory**  
 Create a new directory at the specified path.
 
+**Read a directory**  
+Reads the contents of a directory (all files and sub-directories) and stores them in an array.
+
 **Save a text into a file (Async)**  
 Save a text into a file asynchronously. Use this for large files to avoid any lag or freeze during game execution. The 'result' variable gets updated when the operation has finished.
 

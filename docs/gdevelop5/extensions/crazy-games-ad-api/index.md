@@ -9,9 +9,7 @@ Allow games to be hosted on CrazyGames website and display ads.
 
 Please refer to [CrazyGames' guide](https://docs.crazygames.com/sdk/html5-v2/intro/) to know when to call the different actions.
 
-### Patch note
-
-- 1.3.0: The SDK have to be manually called via an action.
+The SDK is automatically loaded on CrazyGames domains, but can be forced with the action of the same name if it fail.
 
 [Read more...](/gdevelop5/extensions/crazy-games-ad-api/details)
 
