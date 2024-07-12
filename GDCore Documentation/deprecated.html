@@ -70,7 +70,7 @@ $(function() {
 <div class="contents">
 <div class="textblock"><dl class="reflist">
 <dt>Module <a class="el" href="classgd_1_1_serializer_element.html#amgrp287234a1ff35a314b5b6bc4e5828e745">Attributes</a>  </dt>
-<dd><a class="anchor" id="_deprecated000034"></a>Prefer using AddChild/GetChild methods. </dd>
+<dd><a class="anchor" id="_deprecated000046"></a>Prefer using AddChild/GetChild methods. </dd>
 <dt>Member <a class="el" href="classgd_1_1_abstract_function_metadata.html#afc1577c545b6fe1267eda2f5a7aedf1d">gd::AbstractFunctionMetadata::SetIncludeFile</a>  (const <a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> &amp;includeFile)=0</dt>
 <dd><a class="anchor" id="_deprecated000001"></a>Use <code>AddIncludeFile</code> instead as clearing the list is more error prone.  </dd>
 <dt>Member <a class="el" href="classgd_1_1_behavior_metadata.html#a5e95b28c177c68056306b0ae8b91fb6e">gd::BehaviorMetadata::AddAction</a>  (const <a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> &amp;name_, const <a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> &amp;fullname_, const <a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> &amp;description_, const <a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> &amp;sentence_, const <a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> &amp;group_, const <a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> &amp;icon_, const <a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> &amp;smallicon_) override</dt>
@@ -101,6 +101,30 @@ $(function() {
 <dd><a class="anchor" id="_deprecated000010"></a>Prefer using <code>AddScopedCondition</code>, to properly namespace the condition.  </dd>
 <dt>Member <a class="el" href="classgd_1_1_instruction_or_expression_container_metadata.html#a43b416d076436b510d9ea2ad72d22b57">gd::InstructionOrExpressionContainerMetadata::SetIncludeFile</a>  (const <a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> &amp;includeFile)=0</dt>
 <dd><a class="anchor" id="_deprecated000012"></a>Use <code>AddIncludeFile</code> instead as clearing the list is more error prone.  </dd>
+<dt>Member <a class="el" href="classgd_1_1_layout.html#a8335c0d7fbf4e916fd59e3273f6b5f8d">gd::Layout::GetLayer</a>  (std::size_t index) const</dt>
+<dd><a class="anchor" id="_deprecated000035"></a>  </dd>
+<dt>Member <a class="el" href="classgd_1_1_layout.html#acd2d8e0e164a4f37ea8c09dd2a89a6d1">gd::Layout::GetLayer</a>  (std::size_t index)</dt>
+<dd><a class="anchor" id="_deprecated000034"></a>  </dd>
+<dt>Member <a class="el" href="classgd_1_1_layout.html#a6e93a2ea6999e4c2d30d68b987fe00b0">gd::Layout::GetLayer</a>  (const <a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> &amp;name) const</dt>
+<dd><a class="anchor" id="_deprecated000033"></a>  </dd>
+<dt>Member <a class="el" href="classgd_1_1_layout.html#a4557dcd4eeed14cfc044ef203b967476">gd::Layout::GetLayer</a>  (const <a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> &amp;name)</dt>
+<dd><a class="anchor" id="_deprecated000032"></a>  </dd>
+<dt>Member <a class="el" href="classgd_1_1_layout.html#a019505104803fabeef65234fa7f85387">gd::Layout::GetLayerPosition</a>  (const <a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> &amp;name) const</dt>
+<dd><a class="anchor" id="_deprecated000036"></a>  </dd>
+<dt>Member <a class="el" href="classgd_1_1_layout.html#a1e8f85193da4b4a2f60042d00f284389">gd::Layout::GetLayersCount</a>  () const</dt>
+<dd><a class="anchor" id="_deprecated000037"></a>  </dd>
+<dt>Member <a class="el" href="classgd_1_1_layout.html#a0613b56cd3866f58e2d7ddc94e920fb6">gd::Layout::HasLayerNamed</a>  (const <a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> &amp;name) const</dt>
+<dd><a class="anchor" id="_deprecated000031"></a>  </dd>
+<dt>Member <a class="el" href="classgd_1_1_layout.html#aeed4f2f0b7d0aed660332c65040b71dd">gd::Layout::InsertLayer</a>  (const <a class="el" href="classgd_1_1_layer.html" title="Represents a layer of a layout.">Layer</a> &amp;theLayer, std::size_t position)</dt>
+<dd><a class="anchor" id="_deprecated000039"></a>  </dd>
+<dt>Member <a class="el" href="classgd_1_1_layout.html#a227b55c03c85f0bffb2ce023335b0bd2">gd::Layout::InsertNewLayer</a>  (const <a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> &amp;name, std::size_t position)</dt>
+<dd><a class="anchor" id="_deprecated000038"></a>  </dd>
+<dt>Member <a class="el" href="classgd_1_1_layout.html#a4a5e2bc46e6a3b9054cdaf64ff99fd9e">gd::Layout::MoveLayer</a>  (std::size_t oldIndex, std::size_t newIndex)</dt>
+<dd><a class="anchor" id="_deprecated000042"></a>  </dd>
+<dt>Member <a class="el" href="classgd_1_1_layout.html#a8cfecddfe35b314c644b1bf0c46aceab">gd::Layout::RemoveLayer</a>  (const <a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> &amp;name)</dt>
+<dd><a class="anchor" id="_deprecated000040"></a>  </dd>
+<dt>Member <a class="el" href="classgd_1_1_layout.html#ac70221dbfa617e36ba0b2f93266ed088">gd::Layout::SwapLayers</a>  (std::size_t firstLayerIndex, std::size_t secondLayerIndex)</dt>
+<dd><a class="anchor" id="_deprecated000041"></a>  </dd>
 <dt>Member <a class="el" href="classgd_1_1_multiple_instruction_metadata.html#a397ccc8d96a54eedd8b1b27e036ef9a3">gd::MultipleInstructionMetadata::SetIncludeFile</a>  (const <a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> &amp;includeFile) override</dt>
 <dd><a class="anchor" id="_deprecated000013"></a>Use <code>AddIncludeFile</code> instead as clearing the list is more error prone.  </dd>
 <dt>Member <a class="el" href="classgd_1_1_object_metadata.html#aa2e58247add0416f9f7b09e85fc36548">gd::ObjectMetadata::AddAction</a>  (const <a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> &amp;name_, const <a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> &amp;fullname_, const <a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> &amp;description_, const <a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> &amp;sentence_, const <a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> &amp;group_, const <a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> &amp;icon_, const <a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> &amp;smallicon_) override</dt>
@@ -112,7 +136,7 @@ $(function() {
 <dt>Member <a class="el" href="classgd_1_1_object_metadata.html#a74702207049207ea73ff5db984baf2b3">gd::ObjectMetadata::SetIncludeFile</a>  (const <a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> &amp;includeFile) override</dt>
 <dd><a class="anchor" id="_deprecated000017"></a>Use <code>AddIncludeFile</code> instead as clearing the list is more error prone.  </dd>
 <dt>Member <a class="el" href="classgd_1_1_objects_containers_list.html#ad544244e7f670041aaec35c551f55d1a">gd::ObjectsContainersList::GetTypeOfBehavior</a>  (const <a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> &amp;behaviorName, bool searchInGroups=true) const</dt>
-<dd><a class="anchor" id="_deprecated000031"></a>- Use GetTypeOfBehaviorInObjectOrGroup instead.  </dd>
+<dd><a class="anchor" id="_deprecated000043"></a>- Use GetTypeOfBehaviorInObjectOrGroup instead.  </dd>
 <dt>Member <a class="el" href="classgd_1_1_parameter_metadata.html#a8e4802106f19aef4906f782cc52907f8">gd::ParameterMetadata::GetExpressionValueType</a>  (const <a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> &amp;parameterType)</dt>
 <dd><a class="anchor" id="_deprecated000027"></a>Use <a class="el" href="classgd_1_1_value_type_metadata.html" title="Define a type for parameters of a function (action, condition or expression) or the returned value of...">gd::ValueTypeMetadata</a> or gd::GetExpressionPrimitiveValueType instead.  </dd>
 <dt>Member <a class="el" href="classgd_1_1_parameter_metadata.html#a9992914d5f75ec577670a8338edbc35b">gd::ParameterMetadata::GetExtraInfo</a>  () const</dt>
@@ -134,9 +158,9 @@ $(function() {
 <dt>Member <a class="el" href="classgd_1_1_parameter_metadata.html#a65adfa9a555b5d7d68561cbb918dd619">gd::ParameterMetadata::SetType</a>  (const <a class="el" href="classgd_1_1_string.html" title="String represents an UTF8 encoded string.">gd::String</a> &amp;type_)</dt>
 <dd><a class="anchor" id="_deprecated000019"></a>Use <a class="el" href="classgd_1_1_value_type_metadata.html" title="Define a type for parameters of a function (action, condition or expression) or the returned value of...">gd::ValueTypeMetadata</a> instead.  </dd>
 <dt>Member <a class="el" href="classgd_1_1_project_scoped_containers.html#aba16e70e7e48cc99e33e2839c5bf14c9">gd::ProjectScopedContainers::MakeNewProjectScopedContainersFor</a>  (const <a class="el" href="classgd_1_1_objects_container.html" title="Used as a base class for classes that will own objects (see gd::Object).">gd::ObjectsContainer</a> &amp;globalObjectsContainers, const <a class="el" href="classgd_1_1_objects_container.html" title="Used as a base class for classes that will own objects (see gd::Object).">gd::ObjectsContainer</a> &amp;objectsContainers)</dt>
-<dd><a class="anchor" id="_deprecated000032"></a>Use another method for an explicit context instead.  </dd>
+<dd><a class="anchor" id="_deprecated000044"></a>Use another method for an explicit context instead.  </dd>
 <dt>Member <a class="el" href="classgd_1_1_variables_containers_list.html#aae36257aaaf79c8edef21100e735f7cb">gd::VariablesContainersList::MakeNewEmptyVariablesContainersList</a>  ()</dt>
-<dd><a class="anchor" id="_deprecated000033"></a>Use another method for an explicit context instead. </dd>
+<dd><a class="anchor" id="_deprecated000045"></a>Use another method for an explicit context instead. </dd>
 </dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

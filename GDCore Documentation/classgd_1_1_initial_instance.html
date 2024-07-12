@@ -229,12 +229,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <p>However, objects can store custom properties for their associated initial instances. When the IDE want to get the custom properties, it will call <code>GetCustomProperties</code> and <code>UpdateCustomProperty</code> methods. These methods are here defined to forward the call to the <a class="el" href="classgd_1_1_object.html" title="Represent an object of a platform.">gd::Object</a> associated to the <a class="el" href="classgd_1_1_initial_instance.html" title="Represents an instance of an object to be created on a layout start up.">gd::InitialInstance</a> (by looking at the value returned by <a class="el" href="classgd_1_1_initial_instance.html#a4fb734864ff5b001d7592f0a108580ab" title="Get the name of object instantiated on the layout.">GetObjectName()</a>).</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_object.html" title="Represent an object of a platform.">gd::Object</a> </dd></dl>
 </div></td></tr>
-<tr class="memitem:ac7ed7f3e778c4fdb609afaa06994c59a"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>, <a class="el" href="classgd_1_1_property_descriptor.html">gd::PropertyDescriptor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instance.html#ac7ed7f3e778c4fdb609afaa06994c59a">GetCustomProperties</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, <a class="el" href="classgd_1_1_layout.html">gd::Layout</a> &amp;layout)</td></tr>
-<tr class="memdesc:ac7ed7f3e778c4fdb609afaa06994c59a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a map containing the properties names (as keys) and their values.  <a href="classgd_1_1_initial_instance.html#ac7ed7f3e778c4fdb609afaa06994c59a">More...</a><br /></td></tr>
-<tr class="separator:ac7ed7f3e778c4fdb609afaa06994c59a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae67707e9f51d22546b49cf0839b5b985"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instance.html#ae67707e9f51d22546b49cf0839b5b985">UpdateCustomProperty</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;value, <a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, <a class="el" href="classgd_1_1_layout.html">gd::Layout</a> &amp;layout)</td></tr>
-<tr class="memdesc:ae67707e9f51d22546b49cf0839b5b985"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the property called <em>name</em> with the new <em>value</em>.  <a href="classgd_1_1_initial_instance.html#ae67707e9f51d22546b49cf0839b5b985">More...</a><br /></td></tr>
-<tr class="separator:ae67707e9f51d22546b49cf0839b5b985"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb1c40e94fdca0cfd4b18f0da0e94691"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>, <a class="el" href="classgd_1_1_property_descriptor.html">gd::PropertyDescriptor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instance.html#abb1c40e94fdca0cfd4b18f0da0e94691">GetCustomProperties</a> (<a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;globalObjectsContainer, <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;objectsContainer)</td></tr>
+<tr class="memdesc:abb1c40e94fdca0cfd4b18f0da0e94691"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a map containing the properties names (as keys) and their values.  <a href="classgd_1_1_initial_instance.html#abb1c40e94fdca0cfd4b18f0da0e94691">More...</a><br /></td></tr>
+<tr class="separator:abb1c40e94fdca0cfd4b18f0da0e94691"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32174fa2e5bda749094d468409dd93f8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instance.html#a32174fa2e5bda749094d468409dd93f8">UpdateCustomProperty</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;value, <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;globalObjectsContainer, <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;objectsContainer)</td></tr>
+<tr class="memdesc:a32174fa2e5bda749094d468409dd93f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the property called <em>name</em> with the new <em>value</em>.  <a href="classgd_1_1_initial_instance.html#a32174fa2e5bda749094d468409dd93f8">More...</a><br /></td></tr>
+<tr class="separator:a32174fa2e5bda749094d468409dd93f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57d48a9b3a00ee116a795e129c64ce64"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instance.html#a57d48a9b3a00ee116a795e129c64ce64">GetRawDoubleProperty</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name) const</td></tr>
 <tr class="memdesc:a57d48a9b3a00ee116a795e129c64ce64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the value of a double property stored in the instance.  <a href="classgd_1_1_initial_instance.html#a57d48a9b3a00ee116a795e129c64ce64">More...</a><br /></td></tr>
 <tr class="separator:a57d48a9b3a00ee116a795e129c64ce64"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -294,8 +294,8 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 </div><!-- fragment --> 
 </div>
 </div>
-<a id="ac7ed7f3e778c4fdb609afaa06994c59a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7ed7f3e778c4fdb609afaa06994c59a">&#9670;&nbsp;</a></span>GetCustomProperties()</h2>
+<a id="abb1c40e94fdca0cfd4b18f0da0e94691"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb1c40e94fdca0cfd4b18f0da0e94691">&#9670;&nbsp;</a></span>GetCustomProperties()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -303,14 +303,14 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
         <tr>
           <td class="memname">std::map&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>, <a class="el" href="classgd_1_1_property_descriptor.html">gd::PropertyDescriptor</a> &gt; gd::InitialInstance::GetCustomProperties </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;&#160;</td>
-          <td class="paramname"><em>project</em>, </td>
+          <td class="paramtype"><a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;&#160;</td>
+          <td class="paramname"><em>globalObjectsContainer</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classgd_1_1_layout.html">gd::Layout</a> &amp;&#160;</td>
-          <td class="paramname"><em>layout</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;&#160;</td>
+          <td class="paramname"><em>objectsContainer</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -599,8 +599,8 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 
 </div>
 </div>
-<a id="ae67707e9f51d22546b49cf0839b5b985"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae67707e9f51d22546b49cf0839b5b985">&#9670;&nbsp;</a></span>UpdateCustomProperty()</h2>
+<a id="a32174fa2e5bda749094d468409dd93f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32174fa2e5bda749094d468409dd93f8">&#9670;&nbsp;</a></span>UpdateCustomProperty()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -620,14 +620,14 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;&#160;</td>
-          <td class="paramname"><em>project</em>, </td>
+          <td class="paramtype"><a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;&#160;</td>
+          <td class="paramname"><em>globalObjectsContainer</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classgd_1_1_layout.html">gd::Layout</a> &amp;&#160;</td>
-          <td class="paramname"><em>layout</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;&#160;</td>
+          <td class="paramname"><em>objectsContainer</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

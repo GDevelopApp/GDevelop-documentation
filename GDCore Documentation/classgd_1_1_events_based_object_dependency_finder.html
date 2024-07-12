@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GDevelop Core: gd::LayerHasName Struct Reference</title>
+<title>GDevelop Core: gd::EventsBasedObjectDependencyFinder Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,36 +64,34 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="namespacegd.html">gd</a></li><li class="navelem"><a class="el" href="structgd_1_1_layer_has_name.html">LayerHasName</a></li>  </ul>
+<li class="navelem"><a class="el" href="namespacegd.html">gd</a></li><li class="navelem"><a class="el" href="classgd_1_1_events_based_object_dependency_finder.html">EventsBasedObjectDependencyFinder</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="structgd_1_1_layer_has_name-members.html">List of all members</a>  </div>
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="classgd_1_1_events_based_object_dependency_finder-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">gd::LayerHasName Struct Reference</div>  </div>
+<div class="title">gd::EventsBasedObjectDependencyFinder Class Reference<div class="ingroups"><a class="el" href="group___i_d_e.html">IDE Classes (Classes to be used to implement a development environment)</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Functor testing layer name.  
- <a href="structgd_1_1_layer_has_name.html#details">More...</a></p>
+<p>Find resource usages in several parts of the project.  
+ <a href="classgd_1_1_events_based_object_dependency_finder.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="_layer_8h_source.html">Layer.h</a>&gt;</code></p>
-
-<p>Inherits std::binary_function&lt; gd::Layer, gd::String, bool &gt;.</p>
+<p><code>#include &lt;<a class="el" href="_events_based_object_dependency_finder_8h_source.html">EventsBasedObjectDependencyFinder.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ae54e9e6809d76a37fa482eb0aa2f37cb"><td class="memItemLeft" align="right" valign="top"><a id="ae54e9e6809d76a37fa482eb0aa2f37cb"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator()</b> (const <a class="el" href="classgd_1_1_layer.html">Layer</a> &amp;layer, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name) const</td></tr>
-<tr class="separator:ae54e9e6809d76a37fa482eb0aa2f37cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:af83ef403a2f42a82566a93638e8dfc6e"><td class="memItemLeft" align="right" valign="top"><a id="af83ef403a2f42a82566a93638e8dfc6e"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsDependentFromEventsBasedObject</b> (const <a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_events_based_object.html">gd::EventsBasedObject</a> &amp;eventsBasedObject, const <a class="el" href="classgd_1_1_events_based_object.html">gd::EventsBasedObject</a> &amp;dependency)</td></tr>
+<tr class="separator:af83ef403a2f42a82566a93638e8dfc6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Functor testing layer name. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_layer.html" title="Represents a layer of a layout.">gd::Layer</a> </dd></dl>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="_layer_8h_source.html">Layer.h</a></li>
+<div class="textblock"><p>Find resource usages in several parts of the project. </p>
+</div><hr/>The documentation for this class was generated from the following files:<ul>
+<li><a class="el" href="_events_based_object_dependency_finder_8h_source.html">EventsBasedObjectDependencyFinder.h</a></li>
+<li>EventsBasedObjectDependencyFinder.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

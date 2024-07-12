@@ -80,8 +80,6 @@ $(function() {
  <a href="classgd_1_1_layout.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_layout_8h_source.html">Layout.h</a>&gt;</code></p>
-
-<p>Inherits <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -121,10 +119,6 @@ const std::map&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>, 
 <tr class="separator:aacf1ef118bbf51b50ac0335fe85dd262"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a867486fdafda1e3343a236cde5eb4c29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_editor_settings.html">gd::EditorSettings</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#a867486fdafda1e3343a236cde5eb4c29">GetAssociatedEditorSettings</a> ()</td></tr>
 <tr class="separator:a867486fdafda1e3343a236cde5eb4c29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa82b23ed00bee0cace565baa5325199b"><td class="memItemLeft" align="right" valign="top">BaseProfiler *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#aa82b23ed00bee0cace565baa5325199b">GetProfiler</a> () const</td></tr>
-<tr class="separator:aa82b23ed00bee0cace565baa5325199b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f3ddb72330ac91a75a22ab14d930fa9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#a8f3ddb72330ac91a75a22ab14d930fa9">SetProfiler</a> (BaseProfiler *profiler_)</td></tr>
-<tr class="separator:a8f3ddb72330ac91a75a22ab14d930fa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Common properties</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Members functions related to common properties of layouts </p>
 </div></td></tr>
@@ -146,6 +140,15 @@ const std::map&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>, 
 <tr class="separator:aab001319520a010576c3cdb770c8a795"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdc8674b214ed976bfd390cbe0df4568"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#afdc8674b214ed976bfd390cbe0df4568">SetWindowDefaultTitle</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;title_)</td></tr>
 <tr class="separator:afdc8674b214ed976bfd390cbe0df4568"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Layout's objects</div></td></tr>
+<tr class="memitem:a12087a1bb6babe5e2ba3a10a48ddb635"><td class="memItemLeft" align="right" valign="top"><a id="a12087a1bb6babe5e2ba3a10a48ddb635"></a>
+<a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#a12087a1bb6babe5e2ba3a10a48ddb635">GetObjects</a> ()</td></tr>
+<tr class="memdesc:a12087a1bb6babe5e2ba3a10a48ddb635"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the objects of the scene. <br /></td></tr>
+<tr class="separator:a12087a1bb6babe5e2ba3a10a48ddb635"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e9e49bf554e80a138e6e488d0f40ef2"><td class="memItemLeft" align="right" valign="top"><a id="a2e9e49bf554e80a138e6e488d0f40ef2"></a>
+const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#a2e9e49bf554e80a138e6e488d0f40ef2">GetObjects</a> () const</td></tr>
+<tr class="memdesc:a2e9e49bf554e80a138e6e488d0f40ef2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the objects of the scene. <br /></td></tr>
+<tr class="separator:a2e9e49bf554e80a138e6e488d0f40ef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Layout's initial instances</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Members functions related to initial instances of objects created at the layout start up </p>
 </div></td></tr>
@@ -164,35 +167,31 @@ const std::map&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>, 
 <tr><td colspan="2"><div class="groupText"><p>Members functions related to layout variables management. </p>
 </div></td></tr>
 <tr class="memitem:a48389eedcb44c94111d8ec02618ddee4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#a48389eedcb44c94111d8ec02618ddee4">GetVariables</a> () const</td></tr>
+<tr class="memdesc:a48389eedcb44c94111d8ec02618ddee4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the variables of the scene.  <a href="classgd_1_1_layout.html#a48389eedcb44c94111d8ec02618ddee4">More...</a><br /></td></tr>
 <tr class="separator:a48389eedcb44c94111d8ec02618ddee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedee494497ac1e393d5ec4337a4598f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#aedee494497ac1e393d5ec4337a4598f8">GetVariables</a> ()</td></tr>
+<tr class="memdesc:aedee494497ac1e393d5ec4337a4598f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the variables of the scene.  <a href="classgd_1_1_layout.html#aedee494497ac1e393d5ec4337a4598f8">More...</a><br /></td></tr>
 <tr class="separator:aedee494497ac1e393d5ec4337a4598f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Layout layers management</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p>Members functions related to layout layers management. TODO: This could be moved to a separate class </p>
-</div></td></tr>
-<tr class="memitem:a0613b56cd3866f58e2d7ddc94e920fb6"><td class="memItemLeft" align="right" valign="top"><a id="a0613b56cd3866f58e2d7ddc94e920fb6"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#a0613b56cd3866f58e2d7ddc94e920fb6">HasLayerNamed</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name) const</td></tr>
-<tr class="memdesc:a0613b56cd3866f58e2d7ddc94e920fb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the layer called "name" exists. <br /></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Layers</div></td></tr>
+<tr class="memitem:a9ed1596e8e3725740766a3c96f526cbf"><td class="memItemLeft" align="right" valign="top"><a id="a9ed1596e8e3725740766a3c96f526cbf"></a>
+const <a class="el" href="classgd_1_1_layers_container.html">gd::LayersContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#a9ed1596e8e3725740766a3c96f526cbf">GetLayers</a> () const</td></tr>
+<tr class="memdesc:a9ed1596e8e3725740766a3c96f526cbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the layers of the scene. <br /></td></tr>
+<tr class="separator:a9ed1596e8e3725740766a3c96f526cbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac768864d1179ddffc024b578e000049a"><td class="memItemLeft" align="right" valign="top"><a id="ac768864d1179ddffc024b578e000049a"></a>
+<a class="el" href="classgd_1_1_layers_container.html">gd::LayersContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#ac768864d1179ddffc024b578e000049a">GetLayers</a> ()</td></tr>
+<tr class="memdesc:ac768864d1179ddffc024b578e000049a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the layers of the scene. <br /></td></tr>
+<tr class="separator:ac768864d1179ddffc024b578e000049a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0613b56cd3866f58e2d7ddc94e920fb6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#a0613b56cd3866f58e2d7ddc94e920fb6">HasLayerNamed</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name) const</td></tr>
 <tr class="separator:a0613b56cd3866f58e2d7ddc94e920fb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4557dcd4eeed14cfc044ef203b967476"><td class="memItemLeft" align="right" valign="top"><a id="a4557dcd4eeed14cfc044ef203b967476"></a>
-<a class="el" href="classgd_1_1_layer.html">Layer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#a4557dcd4eeed14cfc044ef203b967476">GetLayer</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
-<tr class="memdesc:a4557dcd4eeed14cfc044ef203b967476"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to the layer called "name". <br /></td></tr>
+<tr class="memitem:a4557dcd4eeed14cfc044ef203b967476"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_layer.html">Layer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#a4557dcd4eeed14cfc044ef203b967476">GetLayer</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
 <tr class="separator:a4557dcd4eeed14cfc044ef203b967476"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e93a2ea6999e4c2d30d68b987fe00b0"><td class="memItemLeft" align="right" valign="top"><a id="a6e93a2ea6999e4c2d30d68b987fe00b0"></a>
-const <a class="el" href="classgd_1_1_layer.html">Layer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#a6e93a2ea6999e4c2d30d68b987fe00b0">GetLayer</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name) const</td></tr>
-<tr class="memdesc:a6e93a2ea6999e4c2d30d68b987fe00b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to the layer called "name". <br /></td></tr>
+<tr class="memitem:a6e93a2ea6999e4c2d30d68b987fe00b0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgd_1_1_layer.html">Layer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#a6e93a2ea6999e4c2d30d68b987fe00b0">GetLayer</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name) const</td></tr>
 <tr class="separator:a6e93a2ea6999e4c2d30d68b987fe00b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd2d8e0e164a4f37ea8c09dd2a89a6d1"><td class="memItemLeft" align="right" valign="top"><a id="acd2d8e0e164a4f37ea8c09dd2a89a6d1"></a>
-<a class="el" href="classgd_1_1_layer.html">Layer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#acd2d8e0e164a4f37ea8c09dd2a89a6d1">GetLayer</a> (std::size_t index)</td></tr>
-<tr class="memdesc:acd2d8e0e164a4f37ea8c09dd2a89a6d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to the layer at position "index" in the layers list. <br /></td></tr>
+<tr class="memitem:acd2d8e0e164a4f37ea8c09dd2a89a6d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_layer.html">Layer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#acd2d8e0e164a4f37ea8c09dd2a89a6d1">GetLayer</a> (std::size_t index)</td></tr>
 <tr class="separator:acd2d8e0e164a4f37ea8c09dd2a89a6d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8335c0d7fbf4e916fd59e3273f6b5f8d"><td class="memItemLeft" align="right" valign="top"><a id="a8335c0d7fbf4e916fd59e3273f6b5f8d"></a>
-const <a class="el" href="classgd_1_1_layer.html">Layer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#a8335c0d7fbf4e916fd59e3273f6b5f8d">GetLayer</a> (std::size_t index) const</td></tr>
-<tr class="memdesc:a8335c0d7fbf4e916fd59e3273f6b5f8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to the layer at position "index" in the layers list. <br /></td></tr>
+<tr class="memitem:a8335c0d7fbf4e916fd59e3273f6b5f8d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgd_1_1_layer.html">Layer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#a8335c0d7fbf4e916fd59e3273f6b5f8d">GetLayer</a> (std::size_t index) const</td></tr>
 <tr class="separator:a8335c0d7fbf4e916fd59e3273f6b5f8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a019505104803fabeef65234fa7f85387"><td class="memItemLeft" align="right" valign="top"><a id="a019505104803fabeef65234fa7f85387"></a>
-std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#a019505104803fabeef65234fa7f85387">GetLayerPosition</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name) const</td></tr>
-<tr class="memdesc:a019505104803fabeef65234fa7f85387"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the position of the layer called "name" in the layers list. <br /></td></tr>
+<tr class="memitem:a019505104803fabeef65234fa7f85387"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#a019505104803fabeef65234fa7f85387">GetLayerPosition</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name) const</td></tr>
 <tr class="separator:a019505104803fabeef65234fa7f85387"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e8f85193da4b4a2f60042d00f284389"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#a1e8f85193da4b4a2f60042d00f284389">GetLayersCount</a> () const</td></tr>
 <tr class="separator:a1e8f85193da4b4a2f60042d00f284389"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -206,14 +205,6 @@ std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="separator:ac70221dbfa617e36ba0b2f93266ed088"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a5e2bc46e6a3b9054cdaf64ff99fd9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#a4a5e2bc46e6a3b9054cdaf64ff99fd9e">MoveLayer</a> (std::size_t oldIndex, std::size_t newIndex)</td></tr>
 <tr class="separator:a4a5e2bc46e6a3b9054cdaf64ff99fd9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15d63ca59b49a9e5bbc70fdfd4eada0b"><td class="memItemLeft" align="right" valign="top"><a id="a15d63ca59b49a9e5bbc70fdfd4eada0b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#a15d63ca59b49a9e5bbc70fdfd4eada0b">SerializeLayersTo</a> (<a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element) const</td></tr>
-<tr class="memdesc:a15d63ca59b49a9e5bbc70fdfd4eada0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the layers. <br /></td></tr>
-<tr class="separator:a15d63ca59b49a9e5bbc70fdfd4eada0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01fece714c48a9d3df82e8cf7f801d1e"><td class="memItemLeft" align="right" valign="top"><a id="a01fece714c48a9d3df82e8cf7f801d1e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#a01fece714c48a9d3df82e8cf7f801d1e">UnserializeLayersFrom</a> (const <a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element)</td></tr>
-<tr class="memdesc:a01fece714c48a9d3df82e8cf7f801d1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unserialize the layers. <br /></td></tr>
-<tr class="separator:a01fece714c48a9d3df82e8cf7f801d1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Other properties</div></td></tr>
 <tr class="memitem:acf6987ec57b1d1d2f5f10b513eab4611"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#acf6987ec57b1d1d2f5f10b513eab4611">DisableInputWhenFocusIsLost</a> (bool disable=true)</td></tr>
 <tr class="separator:acf6987ec57b1d1d2f5f10b513eab4611"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -238,103 +229,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#abe9a3aaea2ff6dc79ddb263032f1a5ca">UnserializeFrom</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element)</td></tr>
 <tr class="memdesc:abe9a3aaea2ff6dc79ddb263032f1a5ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unserialize the layout. <br /></td></tr>
 <tr class="separator:abe9a3aaea2ff6dc79ddb263032f1a5ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classgd_1_1_objects_container"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classgd_1_1_objects_container')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a></td></tr>
-<tr class="memitem:aca2afa84d13d9851f2ba842544efa685 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="aca2afa84d13d9851f2ba842544efa685"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#aca2afa84d13d9851f2ba842544efa685">ObjectsContainer</a> ()</td></tr>
-<tr class="memdesc:aca2afa84d13d9851f2ba842544efa685 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor creating a container without any objects. <br /></td></tr>
-<tr class="separator:aca2afa84d13d9851f2ba842544efa685 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bf51eb67847925fbfdbfaa019e96289 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="classgd_1_1_object_folder_or_object.html">ObjectFolderOrObject</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a9bf51eb67847925fbfdbfaa019e96289">GetAllObjectFolderOrObjects</a> () const</td></tr>
-<tr class="separator:a9bf51eb67847925fbfdbfaa019e96289 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee69f14a70cd097a575448027ce313e1 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="aee69f14a70cd097a575448027ce313e1"></a>
-<a class="el" href="classgd_1_1_object_folder_or_object.html">gd::ObjectFolderOrObject</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetRootFolder</b> ()</td></tr>
-<tr class="separator:aee69f14a70cd097a575448027ce313e1 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab867ea046685df6b0d1b46cd9593d6be inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="ab867ea046685df6b0d1b46cd9593d6be"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>AddMissingObjectsInRootFolder</b> ()</td></tr>
-<tr class="separator:ab867ea046685df6b0d1b46cd9593d6be inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b7c11fda7283f034f6339f4c1234959 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="a8b7c11fda7283f034f6339f4c1234959"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a8b7c11fda7283f034f6339f4c1234959">HasObjectNamed</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name) const</td></tr>
-<tr class="memdesc:a8b7c11fda7283f034f6339f4c1234959 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if object called <em>name</em> exists. <br /></td></tr>
-<tr class="separator:a8b7c11fda7283f034f6339f4c1234959 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6cd96a4ee8732fbf1c2249332b240ce7 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="a6cd96a4ee8732fbf1c2249332b240ce7"></a>
-<a class="el" href="classgd_1_1_object.html">Object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a6cd96a4ee8732fbf1c2249332b240ce7">GetObject</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
-<tr class="memdesc:a6cd96a4ee8732fbf1c2249332b240ce7 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to the object called <em>name</em>. <br /></td></tr>
-<tr class="separator:a6cd96a4ee8732fbf1c2249332b240ce7 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51bd880ca826a2b3f323034543c799b8 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="a51bd880ca826a2b3f323034543c799b8"></a>
-const <a class="el" href="classgd_1_1_object.html">gd::Object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a51bd880ca826a2b3f323034543c799b8">GetObject</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name) const</td></tr>
-<tr class="memdesc:a51bd880ca826a2b3f323034543c799b8 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to the object called <em>name</em>. <br /></td></tr>
-<tr class="separator:a51bd880ca826a2b3f323034543c799b8 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d56009e74b3e5b7b3d2321b0ebea47a inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="a3d56009e74b3e5b7b3d2321b0ebea47a"></a>
-<a class="el" href="classgd_1_1_object.html">Object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a3d56009e74b3e5b7b3d2321b0ebea47a">GetObject</a> (std::size_t index)</td></tr>
-<tr class="memdesc:a3d56009e74b3e5b7b3d2321b0ebea47a inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to the object at position <em>index</em> in the objects list. <br /></td></tr>
-<tr class="separator:a3d56009e74b3e5b7b3d2321b0ebea47a inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51f426f61a30147e57c303c33285ab40 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="a51f426f61a30147e57c303c33285ab40"></a>
-const <a class="el" href="classgd_1_1_object.html">gd::Object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a51f426f61a30147e57c303c33285ab40">GetObject</a> (std::size_t index) const</td></tr>
-<tr class="memdesc:a51f426f61a30147e57c303c33285ab40 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to the object at position <em>index</em> in the objects list. <br /></td></tr>
-<tr class="separator:a51f426f61a30147e57c303c33285ab40 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcd782322a84d9ebfdf03b06f3d03f37 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#abcd782322a84d9ebfdf03b06f3d03f37">GetObjectPosition</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name) const</td></tr>
-<tr class="memdesc:abcd782322a84d9ebfdf03b06f3d03f37 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the position of the object called <em>name</em> in the objects list.  <a href="classgd_1_1_objects_container.html#abcd782322a84d9ebfdf03b06f3d03f37">More...</a><br /></td></tr>
-<tr class="separator:abcd782322a84d9ebfdf03b06f3d03f37 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50e2f9303b9a035999b4f7ece278a738 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="a50e2f9303b9a035999b4f7ece278a738"></a>
-std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a50e2f9303b9a035999b4f7ece278a738">GetObjectsCount</a> () const</td></tr>
-<tr class="memdesc:a50e2f9303b9a035999b4f7ece278a738 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of object. <br /></td></tr>
-<tr class="separator:a50e2f9303b9a035999b4f7ece278a738 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a640aa2289df8870f0710dc63867cdc19 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_object.html">gd::Object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a640aa2289df8870f0710dc63867cdc19">InsertNewObject</a> (const <a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectType, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name, std::size_t position)</td></tr>
-<tr class="memdesc:a640aa2289df8870f0710dc63867cdc19 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new empty object of type <em>objectType</em> called <em>name</em> at the specified position in the list.<br  />
-  <a href="classgd_1_1_objects_container.html#a640aa2289df8870f0710dc63867cdc19">More...</a><br /></td></tr>
-<tr class="separator:a640aa2289df8870f0710dc63867cdc19 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a952a63bb79a07cc01372e1b894d11b66 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_object.html">gd::Object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a952a63bb79a07cc01372e1b894d11b66">InsertNewObjectInFolder</a> (const <a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectType, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name, <a class="el" href="classgd_1_1_object_folder_or_object.html">gd::ObjectFolderOrObject</a> &amp;objectFolderOrObject, std::size_t position)</td></tr>
-<tr class="memdesc:a952a63bb79a07cc01372e1b894d11b66 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new empty object of type <em>objectType</em> called <em>name</em> in the given folder at the specified position.<br  />
-  <a href="classgd_1_1_objects_container.html#a952a63bb79a07cc01372e1b894d11b66">More...</a><br /></td></tr>
-<tr class="separator:a952a63bb79a07cc01372e1b894d11b66 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a448cdf2dc1e33935818d225640703071 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_object.html">gd::Object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a448cdf2dc1e33935818d225640703071">InsertObject</a> (const <a class="el" href="classgd_1_1_object.html">gd::Object</a> &amp;object, std::size_t position)</td></tr>
-<tr class="memdesc:a448cdf2dc1e33935818d225640703071 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new object to the list.  <a href="classgd_1_1_objects_container.html#a448cdf2dc1e33935818d225640703071">More...</a><br /></td></tr>
-<tr class="separator:a448cdf2dc1e33935818d225640703071 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a0bbaa492962c1511bd04a26a2c504d inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a2a0bbaa492962c1511bd04a26a2c504d">RemoveObject</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
-<tr class="memdesc:a2a0bbaa492962c1511bd04a26a2c504d inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete an object.  <a href="classgd_1_1_objects_container.html#a2a0bbaa492962c1511bd04a26a2c504d">More...</a><br /></td></tr>
-<tr class="separator:a2a0bbaa492962c1511bd04a26a2c504d inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac78a249284f21bb3ee2c5585faf3352e inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#ac78a249284f21bb3ee2c5585faf3352e">MoveObject</a> (std::size_t oldIndex, std::size_t newIndex)</td></tr>
-<tr class="separator:ac78a249284f21bb3ee2c5585faf3352e inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7a7f834d23442def9c2fe2c3a96f77a inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#ae7a7f834d23442def9c2fe2c3a96f77a">MoveObjectFolderOrObjectToAnotherContainerInFolder</a> (<a class="el" href="classgd_1_1_object_folder_or_object.html">gd::ObjectFolderOrObject</a> &amp;objectFolderOrObject, <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;newContainer, <a class="el" href="classgd_1_1_object_folder_or_object.html">gd::ObjectFolderOrObject</a> &amp;newParentFolder, std::size_t newPosition)</td></tr>
-<tr class="separator:ae7a7f834d23442def9c2fe2c3a96f77a inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15dd31aa3b862cda9c1e5fdbf006da06 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html">gd::Object</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a15dd31aa3b862cda9c1e5fdbf006da06">GetObjects</a> ()</td></tr>
-<tr class="separator:a15dd31aa3b862cda9c1e5fdbf006da06 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a931a010dc9d32733effe7381f984eef2 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html">gd::Object</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a931a010dc9d32733effe7381f984eef2">GetObjects</a> () const</td></tr>
-<tr class="separator:a931a010dc9d32733effe7381f984eef2 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff826b3d2224628cf202d0dd65f18947 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="aff826b3d2224628cf202d0dd65f18947"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#aff826b3d2224628cf202d0dd65f18947">SerializeObjectsTo</a> (<a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element) const</td></tr>
-<tr class="memdesc:aff826b3d2224628cf202d0dd65f18947 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the objects container. <br /></td></tr>
-<tr class="separator:aff826b3d2224628cf202d0dd65f18947 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20bfc7244e8d5a23f57801c365269fa0 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="a20bfc7244e8d5a23f57801c365269fa0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a20bfc7244e8d5a23f57801c365269fa0">UnserializeObjectsFrom</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element)</td></tr>
-<tr class="memdesc:a20bfc7244e8d5a23f57801c365269fa0 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unserialize the objects container. <br /></td></tr>
-<tr class="separator:a20bfc7244e8d5a23f57801c365269fa0 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3f82229cd4aba18e1cb0edcf63d2d8a inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="af3f82229cd4aba18e1cb0edcf63d2d8a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#af3f82229cd4aba18e1cb0edcf63d2d8a">SerializeFoldersTo</a> (<a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element) const</td></tr>
-<tr class="memdesc:af3f82229cd4aba18e1cb0edcf63d2d8a inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize folder structure. <br /></td></tr>
-<tr class="separator:af3f82229cd4aba18e1cb0edcf63d2d8a inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a338c584ba8249bc7312e8d514f111673 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="a338c584ba8249bc7312e8d514f111673"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a338c584ba8249bc7312e8d514f111673">UnserializeFoldersFrom</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element)</td></tr>
-<tr class="memdesc:a338c584ba8249bc7312e8d514f111673 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unserialize folder structure. <br /></td></tr>
-<tr class="separator:a338c584ba8249bc7312e8d514f111673 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfe28abdee0cdb34ba014b82bb8714c9 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="adfe28abdee0cdb34ba014b82bb8714c9"></a>
-<a class="el" href="classgd_1_1_object_groups_container.html">ObjectGroupsContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#adfe28abdee0cdb34ba014b82bb8714c9">GetObjectGroups</a> ()</td></tr>
-<tr class="memdesc:adfe28abdee0cdb34ba014b82bb8714c9 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to the project's objects groups. <br /></td></tr>
-<tr class="separator:adfe28abdee0cdb34ba014b82bb8714c9 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c712584dbb416572ed9193c5baa4ccd inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="a8c712584dbb416572ed9193c5baa4ccd"></a>
-const <a class="el" href="classgd_1_1_object_groups_container.html">ObjectGroupsContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a8c712584dbb416572ed9193c5baa4ccd">GetObjectGroups</a> () const</td></tr>
-<tr class="memdesc:a8c712584dbb416572ed9193c5baa4ccd inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a const reference to the project's objects groups. <br /></td></tr>
-<tr class="separator:a8c712584dbb416572ed9193c5baa4ccd inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classgd_1_1_objects_container"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classgd_1_1_objects_container')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a></td></tr>
-<tr class="memitem:aba9b79cebe3ad6e217beb7d21039543e inherit pro_attribs_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="aba9b79cebe3ad6e217beb7d21039543e"></a>
-std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html">gd::Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#aba9b79cebe3ad6e217beb7d21039543e">initialObjects</a></td></tr>
-<tr class="memdesc:aba9b79cebe3ad6e217beb7d21039543e inherit pro_attribs_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Objects contained. <br /></td></tr>
-<tr class="separator:aba9b79cebe3ad6e217beb7d21039543e inherit pro_attribs_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91f609e25e97606816689291bec0fa1f inherit pro_attribs_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="a91f609e25e97606816689291bec0fa1f"></a>
-<a class="el" href="classgd_1_1_object_groups_container.html">gd::ObjectGroupsContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>objectGroups</b></td></tr>
-<tr class="separator:a91f609e25e97606816689291bec0fa1f inherit pro_attribs_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represent a layout ( also called a scene ) of a project. </p>
@@ -600,6 +494,101 @@ std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html"
 
 </div>
 </div>
+<a id="a4557dcd4eeed14cfc044ef203b967476"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4557dcd4eeed14cfc044ef203b967476">&#9670;&nbsp;</a></span>GetLayer() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classgd_1_1_layer.html">gd::Layer</a> &amp; gd::Layout::GetLayer </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000032">Deprecated:</a></b></dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a6e93a2ea6999e4c2d30d68b987fe00b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e93a2ea6999e4c2d30d68b987fe00b0">&#9670;&nbsp;</a></span>GetLayer() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classgd_1_1_layer.html">gd::Layer</a> &amp; gd::Layout::GetLayer </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000033">Deprecated:</a></b></dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="acd2d8e0e164a4f37ea8c09dd2a89a6d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd2d8e0e164a4f37ea8c09dd2a89a6d1">&#9670;&nbsp;</a></span>GetLayer() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classgd_1_1_layer.html">gd::Layer</a> &amp; gd::Layout::GetLayer </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000034">Deprecated:</a></b></dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a8335c0d7fbf4e916fd59e3273f6b5f8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8335c0d7fbf4e916fd59e3273f6b5f8d">&#9670;&nbsp;</a></span>GetLayer() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classgd_1_1_layer.html">gd::Layer</a> &amp; gd::Layout::GetLayer </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000035">Deprecated:</a></b></dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a019505104803fabeef65234fa7f85387"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a019505104803fabeef65234fa7f85387">&#9670;&nbsp;</a></span>GetLayerPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t gd::Layout::GetLayerPosition </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000036">Deprecated:</a></b></dt><dd></dd></dl>
+
+</div>
+</div>
 <a id="a1e8f85193da4b4a2f60042d00f284389"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1e8f85193da4b4a2f60042d00f284389">&#9670;&nbsp;</a></span>GetLayersCount()</h2>
 
@@ -614,7 +603,7 @@ std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html"
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Must return the number of layers. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000037">Deprecated:</a></b></dt><dd></dd></dl>
 
 </div>
 </div>
@@ -670,32 +659,6 @@ std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html"
 
 </div>
 </div>
-<a id="aa82b23ed00bee0cace565baa5325199b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa82b23ed00bee0cace565baa5325199b">&#9670;&nbsp;</a></span>GetProfiler()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">BaseProfiler* gd::Layout::GetProfiler </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Get the profiler associated with the scene. Can be NULL. </p>
-
-</div>
-</div>
 <a id="aedee494497ac1e393d5ec4337a4598f8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aedee494497ac1e393d5ec4337a4598f8">&#9670;&nbsp;</a></span>GetVariables() <span class="overload">[1/2]</span></h2>
 
@@ -718,7 +681,9 @@ std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html"
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Provide access to the <a class="el" href="classgd_1_1_variables_container.html" title="Class defining a container for gd::Variable.">gd::VariablesContainer</a> member containing the layout variables </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_variables_container.html" title="Class defining a container for gd::Variable.">gd::VariablesContainer</a> </dd></dl>
+
+<p>Get the variables of the scene. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_variables_container.html" title="Class defining a container for gd::Variable.">gd::VariablesContainer</a> </dd></dl>
 
 </div>
 </div>
@@ -744,7 +709,9 @@ std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html"
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Provide access to the <a class="el" href="classgd_1_1_variables_container.html" title="Class defining a container for gd::Variable.">gd::VariablesContainer</a> member containing the layout variables </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_variables_container.html" title="Class defining a container for gd::Variable.">gd::VariablesContainer</a> </dd></dl>
+
+<p>Get the variables of the scene. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_variables_container.html" title="Class defining a container for gd::Variable.">gd::VariablesContainer</a> </dd></dl>
 
 </div>
 </div>
@@ -774,6 +741,25 @@ std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html"
 
 </div>
 </div>
+<a id="a0613b56cd3866f58e2d7ddc94e920fb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0613b56cd3866f58e2d7ddc94e920fb6">&#9670;&nbsp;</a></span>HasLayerNamed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gd::Layout::HasLayerNamed </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000031">Deprecated:</a></b></dt><dd></dd></dl>
+
+</div>
+</div>
 <a id="aeed4f2f0b7d0aed660332c65040b71dd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeed4f2f0b7d0aed660332c65040b71dd">&#9670;&nbsp;</a></span>InsertLayer()</h2>
 
@@ -799,14 +785,7 @@ std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html"
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Must add a new the layer constructed from the layout passed as parameter. </p><dl class="section note"><dt>Note</dt><dd>No pointer or reference must be kept on the layer passed as parameter.</dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">theLayer</td><td>the layer that must be copied and inserted into the project</td></tr>
-    <tr><td class="paramname">position</td><td>Insertion position. Even if the position is invalid, the layer must be inserted at the end of the layers list. </td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000039">Deprecated:</a></b></dt><dd></dd></dl>
 
 </div>
 </div>
@@ -835,7 +814,7 @@ std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html"
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Must add a new empty the layer sheet called "name" at the specified position in the layout list. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000038">Deprecated:</a></b></dt><dd></dd></dl>
 
 </div>
 </div>
@@ -890,7 +869,7 @@ std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html"
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Change the position of the specified layer. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000042">Deprecated:</a></b></dt><dd></dd></dl>
 
 </div>
 </div>
@@ -909,7 +888,7 @@ std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html"
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Must delete the layer named "name". </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000040">Deprecated:</a></b></dt><dd></dd></dl>
 
 </div>
 </div>
@@ -972,33 +951,6 @@ std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html"
       </table>
 </div><div class="memdoc">
 <p>Change the name of the layout with the name passed as parameter. </p>
-
-</div>
-</div>
-<a id="a8f3ddb72330ac91a75a22ab14d930fa9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f3ddb72330ac91a75a22ab14d930fa9">&#9670;&nbsp;</a></span>SetProfiler()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void gd::Layout::SetProfiler </td>
-          <td>(</td>
-          <td class="paramtype">BaseProfiler *&#160;</td>
-          <td class="paramname"><em>profiler_</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Set the profiler associated with the scene. Can be NULL. </p>
 
 </div>
 </div>
@@ -1160,7 +1112,7 @@ std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html"
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Swap the position of the specified layers. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000041">Deprecated:</a></b></dt><dd></dd></dl>
 
 </div>
 </div>

@@ -81,13 +81,10 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="_events_based_object_8h_source.html">EventsBasedObject.h</a>&gt;</code></p>
 
-<p>Inherits <a class="el" href="classgd_1_1_abstract_events_based_entity.html">gd::AbstractEventsBasedEntity</a>, and <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a>.</p>
+<p>Inherits <a class="el" href="classgd_1_1_abstract_events_based_entity.html">gd::AbstractEventsBasedEntity</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8e1f33340fbc727725e81bc53ab35c88"><td class="memItemLeft" align="right" valign="top"><a id="a8e1f33340fbc727725e81bc53ab35c88"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>EventsBasedObject</b> (const <a class="el" href="classgd_1_1_events_based_object.html">gd::EventsBasedObject</a> &amp;_eventBasedObject)</td></tr>
-<tr class="separator:a8e1f33340fbc727725e81bc53ab35c88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a177ccc9a64b6f245bb75b4d843d96a85"><td class="memItemLeft" align="right" valign="top"><a id="a177ccc9a64b6f245bb75b4d843d96a85"></a>
 <a class="el" href="classgd_1_1_events_based_object.html">EventsBasedObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_based_object.html#a177ccc9a64b6f245bb75b4d843d96a85">Clone</a> () const</td></tr>
 <tr class="memdesc:a177ccc9a64b6f245bb75b4d843d96a85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a pointer to a new <a class="el" href="classgd_1_1_events_based_object.html" title="Represents an object that is implemented with events.">EventsBasedObject</a> constructed from this one. <br /></td></tr>
@@ -144,6 +141,75 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_based_object.html#a3154e25b3e3e5f01e6021560d1140fa8">UnserializeFrom</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element) override</td></tr>
 <tr class="memdesc:a3154e25b3e3e5f01e6021560d1140fa8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the <a class="el" href="classgd_1_1_abstract_events_based_entity.html" title="Represents a behavior or an object that is implemented with events.">AbstractEventsBasedEntity</a> from the specified element. <br /></td></tr>
 <tr class="separator:a3154e25b3e3e5f01e6021560d1140fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Layers</div></td></tr>
+<tr class="memitem:abb983096783498a2c86e8d019e09a528"><td class="memItemLeft" align="right" valign="top"><a id="abb983096783498a2c86e8d019e09a528"></a>
+const <a class="el" href="classgd_1_1_layers_container.html">gd::LayersContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_based_object.html#abb983096783498a2c86e8d019e09a528">GetLayers</a> () const</td></tr>
+<tr class="memdesc:abb983096783498a2c86e8d019e09a528"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the layers of the custom object. <br /></td></tr>
+<tr class="separator:abb983096783498a2c86e8d019e09a528"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a451cecfafa0603fe7306057545540fb9"><td class="memItemLeft" align="right" valign="top"><a id="a451cecfafa0603fe7306057545540fb9"></a>
+<a class="el" href="classgd_1_1_layers_container.html">gd::LayersContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_based_object.html#a451cecfafa0603fe7306057545540fb9">GetLayers</a> ()</td></tr>
+<tr class="memdesc:a451cecfafa0603fe7306057545540fb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the layers of the custom object. <br /></td></tr>
+<tr class="separator:a451cecfafa0603fe7306057545540fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Child objects</div></td></tr>
+<tr class="memitem:aa42d80ed9dd7890ee9abca1a1a61580c"><td class="memItemLeft" align="right" valign="top"><a id="aa42d80ed9dd7890ee9abca1a1a61580c"></a>
+<a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_based_object.html#aa42d80ed9dd7890ee9abca1a1a61580c">GetObjects</a> ()</td></tr>
+<tr class="memdesc:aa42d80ed9dd7890ee9abca1a1a61580c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the objects of the custom object. <br /></td></tr>
+<tr class="separator:aa42d80ed9dd7890ee9abca1a1a61580c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0836e9edc5a0842855ca86f62b6c7090"><td class="memItemLeft" align="right" valign="top"><a id="a0836e9edc5a0842855ca86f62b6c7090"></a>
+const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_based_object.html#a0836e9edc5a0842855ca86f62b6c7090">GetObjects</a> () const</td></tr>
+<tr class="memdesc:a0836e9edc5a0842855ca86f62b6c7090"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the objects of the custom object. <br /></td></tr>
+<tr class="separator:a0836e9edc5a0842855ca86f62b6c7090"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Instances</div></td></tr>
+<tr class="memitem:aac6d9d739ac85b14bdb4ba96fc57fb5c"><td class="memItemLeft" align="right" valign="top"><a id="aac6d9d739ac85b14bdb4ba96fc57fb5c"></a>
+<a class="el" href="classgd_1_1_initial_instances_container.html">gd::InitialInstancesContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_based_object.html#aac6d9d739ac85b14bdb4ba96fc57fb5c">GetInitialInstances</a> ()</td></tr>
+<tr class="memdesc:aac6d9d739ac85b14bdb4ba96fc57fb5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the instances of the custom object. <br /></td></tr>
+<tr class="separator:aac6d9d739ac85b14bdb4ba96fc57fb5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2db3b0249fe672b5364b6db916b5119"><td class="memItemLeft" align="right" valign="top"><a id="af2db3b0249fe672b5364b6db916b5119"></a>
+const <a class="el" href="classgd_1_1_initial_instances_container.html">gd::InitialInstancesContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_based_object.html#af2db3b0249fe672b5364b6db916b5119">GetInitialInstances</a> () const</td></tr>
+<tr class="memdesc:af2db3b0249fe672b5364b6db916b5119"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the instances of the custom object. <br /></td></tr>
+<tr class="separator:af2db3b0249fe672b5364b6db916b5119"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3676abe97183be420d4c3f2d8e395231"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_based_object.html#a3676abe97183be420d4c3f2d8e395231">GetAreaMinX</a> () const</td></tr>
+<tr class="memdesc:a3676abe97183be420d4c3f2d8e395231"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the left bound of the custom object.  <a href="classgd_1_1_events_based_object.html#a3676abe97183be420d4c3f2d8e395231">More...</a><br /></td></tr>
+<tr class="separator:a3676abe97183be420d4c3f2d8e395231"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af48fe0fa0b4ab1f74fa1e908e949f58d"><td class="memItemLeft" align="right" valign="top"><a id="af48fe0fa0b4ab1f74fa1e908e949f58d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_based_object.html#af48fe0fa0b4ab1f74fa1e908e949f58d">SetAreaMinX</a> (int areaMinX_)</td></tr>
+<tr class="memdesc:af48fe0fa0b4ab1f74fa1e908e949f58d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the left bound of the custom object. <br /></td></tr>
+<tr class="separator:af48fe0fa0b4ab1f74fa1e908e949f58d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f33baa331bef146e29ff402be458cf5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_based_object.html#a6f33baa331bef146e29ff402be458cf5">GetAreaMinY</a> () const</td></tr>
+<tr class="memdesc:a6f33baa331bef146e29ff402be458cf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the top bound of the custom object.  <a href="classgd_1_1_events_based_object.html#a6f33baa331bef146e29ff402be458cf5">More...</a><br /></td></tr>
+<tr class="separator:a6f33baa331bef146e29ff402be458cf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae56b923f2244a7fce3b8437b24fdb437"><td class="memItemLeft" align="right" valign="top"><a id="ae56b923f2244a7fce3b8437b24fdb437"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_based_object.html#ae56b923f2244a7fce3b8437b24fdb437">SetAreaMinY</a> (int areaMinY_)</td></tr>
+<tr class="memdesc:ae56b923f2244a7fce3b8437b24fdb437"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the top bound of the custom object. <br /></td></tr>
+<tr class="separator:ae56b923f2244a7fce3b8437b24fdb437"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a489d1f38cc078d32d81756f5407a2385"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_based_object.html#a489d1f38cc078d32d81756f5407a2385">GetAreaMinZ</a> () const</td></tr>
+<tr class="memdesc:a489d1f38cc078d32d81756f5407a2385"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the min Z bound of the custom object.  <a href="classgd_1_1_events_based_object.html#a489d1f38cc078d32d81756f5407a2385">More...</a><br /></td></tr>
+<tr class="separator:a489d1f38cc078d32d81756f5407a2385"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70814d6455cb7aaf96c983d08f610b32"><td class="memItemLeft" align="right" valign="top"><a id="a70814d6455cb7aaf96c983d08f610b32"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_based_object.html#a70814d6455cb7aaf96c983d08f610b32">SetAreaMinZ</a> (int areaMinZ_)</td></tr>
+<tr class="memdesc:a70814d6455cb7aaf96c983d08f610b32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the min Z bound of the custom object. <br /></td></tr>
+<tr class="separator:a70814d6455cb7aaf96c983d08f610b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62f48d3cfc0fc377d89bc2f034a26bee"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_based_object.html#a62f48d3cfc0fc377d89bc2f034a26bee">GetAreaMaxX</a> () const</td></tr>
+<tr class="memdesc:a62f48d3cfc0fc377d89bc2f034a26bee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the right bound of the custom object.  <a href="classgd_1_1_events_based_object.html#a62f48d3cfc0fc377d89bc2f034a26bee">More...</a><br /></td></tr>
+<tr class="separator:a62f48d3cfc0fc377d89bc2f034a26bee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3046b67ef7211a67f561743f7427624b"><td class="memItemLeft" align="right" valign="top"><a id="a3046b67ef7211a67f561743f7427624b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_based_object.html#a3046b67ef7211a67f561743f7427624b">SetAreaMaxX</a> (int areaMaxX_)</td></tr>
+<tr class="memdesc:a3046b67ef7211a67f561743f7427624b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the right bound of the custom object. <br /></td></tr>
+<tr class="separator:a3046b67ef7211a67f561743f7427624b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9356134fab5f42c936c70dfe2496cbd5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_based_object.html#a9356134fab5f42c936c70dfe2496cbd5">GetAreaMaxY</a> () const</td></tr>
+<tr class="memdesc:a9356134fab5f42c936c70dfe2496cbd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the bottom bound of the custom object.  <a href="classgd_1_1_events_based_object.html#a9356134fab5f42c936c70dfe2496cbd5">More...</a><br /></td></tr>
+<tr class="separator:a9356134fab5f42c936c70dfe2496cbd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c34db0a305b66743e239fe875f466fc"><td class="memItemLeft" align="right" valign="top"><a id="a7c34db0a305b66743e239fe875f466fc"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_based_object.html#a7c34db0a305b66743e239fe875f466fc">SetAreaMaxY</a> (int areaMaxY_)</td></tr>
+<tr class="memdesc:a7c34db0a305b66743e239fe875f466fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the bottom bound of the custom object. <br /></td></tr>
+<tr class="separator:a7c34db0a305b66743e239fe875f466fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0c6525b018a84b9079ef55f98175ab8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_based_object.html#ae0c6525b018a84b9079ef55f98175ab8">GetAreaMaxZ</a> () const</td></tr>
+<tr class="memdesc:ae0c6525b018a84b9079ef55f98175ab8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the max Z bound of the custom object.  <a href="classgd_1_1_events_based_object.html#ae0c6525b018a84b9079ef55f98175ab8">More...</a><br /></td></tr>
+<tr class="separator:ae0c6525b018a84b9079ef55f98175ab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8953a7dfa9dcb62eac8a9ac597e21b0f"><td class="memItemLeft" align="right" valign="top"><a id="a8953a7dfa9dcb62eac8a9ac597e21b0f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_based_object.html#a8953a7dfa9dcb62eac8a9ac597e21b0f">SetAreaMaxZ</a> (int areaMaxZ_)</td></tr>
+<tr class="memdesc:a8953a7dfa9dcb62eac8a9ac597e21b0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the bottom bound of the custom object. <br /></td></tr>
+<tr class="separator:a8953a7dfa9dcb62eac8a9ac597e21b0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classgd_1_1_abstract_events_based_entity"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classgd_1_1_abstract_events_based_entity')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classgd_1_1_abstract_events_based_entity.html">gd::AbstractEventsBasedEntity</a></td></tr>
 <tr class="memitem:a822fd45d04bc0da08a07586667d907c4 inherit pub_methods_classgd_1_1_abstract_events_based_entity"><td class="memItemLeft" align="right" valign="top"><a id="a822fd45d04bc0da08a07586667d907c4"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>AbstractEventsBasedEntity</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;_name, gd::EventsFunctionsContainer::FunctionOwner functionContainerSource)</td></tr>
@@ -188,92 +254,6 @@ const <a class="el" href="classgd_1_1_events_functions_container.html">EventsFun
 const <a class="el" href="classgd_1_1_properties_container.html">gd::PropertiesContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_abstract_events_based_entity.html#a1c6c074de68b11540576a85c0b052e4d">GetPropertyDescriptors</a> () const</td></tr>
 <tr class="memdesc:a1c6c074de68b11540576a85c0b052e4d inherit pub_methods_classgd_1_1_abstract_events_based_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a const reference to the list of the properties. <br /></td></tr>
 <tr class="separator:a1c6c074de68b11540576a85c0b052e4d inherit pub_methods_classgd_1_1_abstract_events_based_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classgd_1_1_objects_container"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classgd_1_1_objects_container')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a></td></tr>
-<tr class="memitem:aca2afa84d13d9851f2ba842544efa685 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="aca2afa84d13d9851f2ba842544efa685"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#aca2afa84d13d9851f2ba842544efa685">ObjectsContainer</a> ()</td></tr>
-<tr class="memdesc:aca2afa84d13d9851f2ba842544efa685 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor creating a container without any objects. <br /></td></tr>
-<tr class="separator:aca2afa84d13d9851f2ba842544efa685 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bf51eb67847925fbfdbfaa019e96289 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="classgd_1_1_object_folder_or_object.html">ObjectFolderOrObject</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a9bf51eb67847925fbfdbfaa019e96289">GetAllObjectFolderOrObjects</a> () const</td></tr>
-<tr class="separator:a9bf51eb67847925fbfdbfaa019e96289 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee69f14a70cd097a575448027ce313e1 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="aee69f14a70cd097a575448027ce313e1"></a>
-<a class="el" href="classgd_1_1_object_folder_or_object.html">gd::ObjectFolderOrObject</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetRootFolder</b> ()</td></tr>
-<tr class="separator:aee69f14a70cd097a575448027ce313e1 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab867ea046685df6b0d1b46cd9593d6be inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="ab867ea046685df6b0d1b46cd9593d6be"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>AddMissingObjectsInRootFolder</b> ()</td></tr>
-<tr class="separator:ab867ea046685df6b0d1b46cd9593d6be inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b7c11fda7283f034f6339f4c1234959 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="a8b7c11fda7283f034f6339f4c1234959"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a8b7c11fda7283f034f6339f4c1234959">HasObjectNamed</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name) const</td></tr>
-<tr class="memdesc:a8b7c11fda7283f034f6339f4c1234959 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if object called <em>name</em> exists. <br /></td></tr>
-<tr class="separator:a8b7c11fda7283f034f6339f4c1234959 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6cd96a4ee8732fbf1c2249332b240ce7 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="a6cd96a4ee8732fbf1c2249332b240ce7"></a>
-<a class="el" href="classgd_1_1_object.html">Object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a6cd96a4ee8732fbf1c2249332b240ce7">GetObject</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
-<tr class="memdesc:a6cd96a4ee8732fbf1c2249332b240ce7 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to the object called <em>name</em>. <br /></td></tr>
-<tr class="separator:a6cd96a4ee8732fbf1c2249332b240ce7 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51bd880ca826a2b3f323034543c799b8 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="a51bd880ca826a2b3f323034543c799b8"></a>
-const <a class="el" href="classgd_1_1_object.html">gd::Object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a51bd880ca826a2b3f323034543c799b8">GetObject</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name) const</td></tr>
-<tr class="memdesc:a51bd880ca826a2b3f323034543c799b8 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to the object called <em>name</em>. <br /></td></tr>
-<tr class="separator:a51bd880ca826a2b3f323034543c799b8 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d56009e74b3e5b7b3d2321b0ebea47a inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="a3d56009e74b3e5b7b3d2321b0ebea47a"></a>
-<a class="el" href="classgd_1_1_object.html">Object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a3d56009e74b3e5b7b3d2321b0ebea47a">GetObject</a> (std::size_t index)</td></tr>
-<tr class="memdesc:a3d56009e74b3e5b7b3d2321b0ebea47a inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to the object at position <em>index</em> in the objects list. <br /></td></tr>
-<tr class="separator:a3d56009e74b3e5b7b3d2321b0ebea47a inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51f426f61a30147e57c303c33285ab40 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="a51f426f61a30147e57c303c33285ab40"></a>
-const <a class="el" href="classgd_1_1_object.html">gd::Object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a51f426f61a30147e57c303c33285ab40">GetObject</a> (std::size_t index) const</td></tr>
-<tr class="memdesc:a51f426f61a30147e57c303c33285ab40 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to the object at position <em>index</em> in the objects list. <br /></td></tr>
-<tr class="separator:a51f426f61a30147e57c303c33285ab40 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcd782322a84d9ebfdf03b06f3d03f37 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#abcd782322a84d9ebfdf03b06f3d03f37">GetObjectPosition</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name) const</td></tr>
-<tr class="memdesc:abcd782322a84d9ebfdf03b06f3d03f37 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the position of the object called <em>name</em> in the objects list.  <a href="classgd_1_1_objects_container.html#abcd782322a84d9ebfdf03b06f3d03f37">More...</a><br /></td></tr>
-<tr class="separator:abcd782322a84d9ebfdf03b06f3d03f37 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50e2f9303b9a035999b4f7ece278a738 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="a50e2f9303b9a035999b4f7ece278a738"></a>
-std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a50e2f9303b9a035999b4f7ece278a738">GetObjectsCount</a> () const</td></tr>
-<tr class="memdesc:a50e2f9303b9a035999b4f7ece278a738 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of object. <br /></td></tr>
-<tr class="separator:a50e2f9303b9a035999b4f7ece278a738 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a640aa2289df8870f0710dc63867cdc19 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_object.html">gd::Object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a640aa2289df8870f0710dc63867cdc19">InsertNewObject</a> (const <a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectType, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name, std::size_t position)</td></tr>
-<tr class="memdesc:a640aa2289df8870f0710dc63867cdc19 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new empty object of type <em>objectType</em> called <em>name</em> at the specified position in the list.<br  />
-  <a href="classgd_1_1_objects_container.html#a640aa2289df8870f0710dc63867cdc19">More...</a><br /></td></tr>
-<tr class="separator:a640aa2289df8870f0710dc63867cdc19 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a952a63bb79a07cc01372e1b894d11b66 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_object.html">gd::Object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a952a63bb79a07cc01372e1b894d11b66">InsertNewObjectInFolder</a> (const <a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectType, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name, <a class="el" href="classgd_1_1_object_folder_or_object.html">gd::ObjectFolderOrObject</a> &amp;objectFolderOrObject, std::size_t position)</td></tr>
-<tr class="memdesc:a952a63bb79a07cc01372e1b894d11b66 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new empty object of type <em>objectType</em> called <em>name</em> in the given folder at the specified position.<br  />
-  <a href="classgd_1_1_objects_container.html#a952a63bb79a07cc01372e1b894d11b66">More...</a><br /></td></tr>
-<tr class="separator:a952a63bb79a07cc01372e1b894d11b66 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a448cdf2dc1e33935818d225640703071 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_object.html">gd::Object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a448cdf2dc1e33935818d225640703071">InsertObject</a> (const <a class="el" href="classgd_1_1_object.html">gd::Object</a> &amp;object, std::size_t position)</td></tr>
-<tr class="memdesc:a448cdf2dc1e33935818d225640703071 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new object to the list.  <a href="classgd_1_1_objects_container.html#a448cdf2dc1e33935818d225640703071">More...</a><br /></td></tr>
-<tr class="separator:a448cdf2dc1e33935818d225640703071 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a0bbaa492962c1511bd04a26a2c504d inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a2a0bbaa492962c1511bd04a26a2c504d">RemoveObject</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
-<tr class="memdesc:a2a0bbaa492962c1511bd04a26a2c504d inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete an object.  <a href="classgd_1_1_objects_container.html#a2a0bbaa492962c1511bd04a26a2c504d">More...</a><br /></td></tr>
-<tr class="separator:a2a0bbaa492962c1511bd04a26a2c504d inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac78a249284f21bb3ee2c5585faf3352e inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#ac78a249284f21bb3ee2c5585faf3352e">MoveObject</a> (std::size_t oldIndex, std::size_t newIndex)</td></tr>
-<tr class="separator:ac78a249284f21bb3ee2c5585faf3352e inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7a7f834d23442def9c2fe2c3a96f77a inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#ae7a7f834d23442def9c2fe2c3a96f77a">MoveObjectFolderOrObjectToAnotherContainerInFolder</a> (<a class="el" href="classgd_1_1_object_folder_or_object.html">gd::ObjectFolderOrObject</a> &amp;objectFolderOrObject, <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;newContainer, <a class="el" href="classgd_1_1_object_folder_or_object.html">gd::ObjectFolderOrObject</a> &amp;newParentFolder, std::size_t newPosition)</td></tr>
-<tr class="separator:ae7a7f834d23442def9c2fe2c3a96f77a inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15dd31aa3b862cda9c1e5fdbf006da06 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html">gd::Object</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a15dd31aa3b862cda9c1e5fdbf006da06">GetObjects</a> ()</td></tr>
-<tr class="separator:a15dd31aa3b862cda9c1e5fdbf006da06 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a931a010dc9d32733effe7381f984eef2 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html">gd::Object</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a931a010dc9d32733effe7381f984eef2">GetObjects</a> () const</td></tr>
-<tr class="separator:a931a010dc9d32733effe7381f984eef2 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff826b3d2224628cf202d0dd65f18947 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="aff826b3d2224628cf202d0dd65f18947"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#aff826b3d2224628cf202d0dd65f18947">SerializeObjectsTo</a> (<a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element) const</td></tr>
-<tr class="memdesc:aff826b3d2224628cf202d0dd65f18947 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the objects container. <br /></td></tr>
-<tr class="separator:aff826b3d2224628cf202d0dd65f18947 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20bfc7244e8d5a23f57801c365269fa0 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="a20bfc7244e8d5a23f57801c365269fa0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a20bfc7244e8d5a23f57801c365269fa0">UnserializeObjectsFrom</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element)</td></tr>
-<tr class="memdesc:a20bfc7244e8d5a23f57801c365269fa0 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unserialize the objects container. <br /></td></tr>
-<tr class="separator:a20bfc7244e8d5a23f57801c365269fa0 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3f82229cd4aba18e1cb0edcf63d2d8a inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="af3f82229cd4aba18e1cb0edcf63d2d8a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#af3f82229cd4aba18e1cb0edcf63d2d8a">SerializeFoldersTo</a> (<a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element) const</td></tr>
-<tr class="memdesc:af3f82229cd4aba18e1cb0edcf63d2d8a inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize folder structure. <br /></td></tr>
-<tr class="separator:af3f82229cd4aba18e1cb0edcf63d2d8a inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a338c584ba8249bc7312e8d514f111673 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="a338c584ba8249bc7312e8d514f111673"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a338c584ba8249bc7312e8d514f111673">UnserializeFoldersFrom</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element)</td></tr>
-<tr class="memdesc:a338c584ba8249bc7312e8d514f111673 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unserialize folder structure. <br /></td></tr>
-<tr class="separator:a338c584ba8249bc7312e8d514f111673 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfe28abdee0cdb34ba014b82bb8714c9 inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="adfe28abdee0cdb34ba014b82bb8714c9"></a>
-<a class="el" href="classgd_1_1_object_groups_container.html">ObjectGroupsContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#adfe28abdee0cdb34ba014b82bb8714c9">GetObjectGroups</a> ()</td></tr>
-<tr class="memdesc:adfe28abdee0cdb34ba014b82bb8714c9 inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to the project's objects groups. <br /></td></tr>
-<tr class="separator:adfe28abdee0cdb34ba014b82bb8714c9 inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c712584dbb416572ed9193c5baa4ccd inherit pub_methods_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="a8c712584dbb416572ed9193c5baa4ccd"></a>
-const <a class="el" href="classgd_1_1_object_groups_container.html">ObjectGroupsContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a8c712584dbb416572ed9193c5baa4ccd">GetObjectGroups</a> () const</td></tr>
-<tr class="memdesc:a8c712584dbb416572ed9193c5baa4ccd inherit pub_methods_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a const reference to the project's objects groups. <br /></td></tr>
-<tr class="separator:a8c712584dbb416572ed9193c5baa4ccd inherit pub_methods_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -294,19 +274,186 @@ static <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td
 static <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_abstract_events_based_entity.html#a0e8af66b876c73914e5f3e67f24d78c2">GetPropertyToggleActionName</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;propertyName)</td></tr>
 <tr class="memdesc:a0e8af66b876c73914e5f3e67f24d78c2 inherit pub_static_methods_classgd_1_1_abstract_events_based_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of the action to toggle a boolean property. <br /></td></tr>
 <tr class="separator:a0e8af66b876c73914e5f3e67f24d78c2 inherit pub_static_methods_classgd_1_1_abstract_events_based_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_classgd_1_1_objects_container"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classgd_1_1_objects_container')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a></td></tr>
-<tr class="memitem:aba9b79cebe3ad6e217beb7d21039543e inherit pro_attribs_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="aba9b79cebe3ad6e217beb7d21039543e"></a>
-std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html">gd::Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#aba9b79cebe3ad6e217beb7d21039543e">initialObjects</a></td></tr>
-<tr class="memdesc:aba9b79cebe3ad6e217beb7d21039543e inherit pro_attribs_classgd_1_1_objects_container"><td class="mdescLeft">&#160;</td><td class="mdescRight">Objects contained. <br /></td></tr>
-<tr class="separator:aba9b79cebe3ad6e217beb7d21039543e inherit pro_attribs_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91f609e25e97606816689291bec0fa1f inherit pro_attribs_classgd_1_1_objects_container"><td class="memItemLeft" align="right" valign="top"><a id="a91f609e25e97606816689291bec0fa1f"></a>
-<a class="el" href="classgd_1_1_object_groups_container.html">gd::ObjectGroupsContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>objectGroups</b></td></tr>
-<tr class="separator:a91f609e25e97606816689291bec0fa1f inherit pro_attribs_classgd_1_1_objects_container"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents an object that is implemented with events. </p>
 <p>It's the responsibility of the IDE to run the logic to transform this into a real object, by declaring an extension and running code generation. See <code>EventsFunctionsExtensionsLoader</code>. </p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a62f48d3cfc0fc377d89bc2f034a26bee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62f48d3cfc0fc377d89bc2f034a26bee">&#9670;&nbsp;</a></span>GetAreaMaxX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gd::EventsBasedObject::GetAreaMaxX </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the right bound of the custom object. </p>
+<p>This is used only if there is any initial instances.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_events_based_object.html#aac6d9d739ac85b14bdb4ba96fc57fb5c" title="Get the instances of the custom object.">EventsBasedObject::GetInitialInstances</a> </dd></dl>
+
+</div>
+</div>
+<a id="a9356134fab5f42c936c70dfe2496cbd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9356134fab5f42c936c70dfe2496cbd5">&#9670;&nbsp;</a></span>GetAreaMaxY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gd::EventsBasedObject::GetAreaMaxY </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the bottom bound of the custom object. </p>
+<p>This is used only if there is any initial instances.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_events_based_object.html#aac6d9d739ac85b14bdb4ba96fc57fb5c" title="Get the instances of the custom object.">EventsBasedObject::GetInitialInstances</a> </dd></dl>
+
+</div>
+</div>
+<a id="ae0c6525b018a84b9079ef55f98175ab8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0c6525b018a84b9079ef55f98175ab8">&#9670;&nbsp;</a></span>GetAreaMaxZ()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gd::EventsBasedObject::GetAreaMaxZ </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the max Z bound of the custom object. </p>
+<p>This is used only if there is any initial instances.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_events_based_object.html#aac6d9d739ac85b14bdb4ba96fc57fb5c" title="Get the instances of the custom object.">EventsBasedObject::GetInitialInstances</a> </dd></dl>
+
+</div>
+</div>
+<a id="a3676abe97183be420d4c3f2d8e395231"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3676abe97183be420d4c3f2d8e395231">&#9670;&nbsp;</a></span>GetAreaMinX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gd::EventsBasedObject::GetAreaMinX </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the left bound of the custom object. </p>
+<p>This is used only if there is any initial instances.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_events_based_object.html#aac6d9d739ac85b14bdb4ba96fc57fb5c" title="Get the instances of the custom object.">EventsBasedObject::GetInitialInstances</a> </dd></dl>
+
+</div>
+</div>
+<a id="a6f33baa331bef146e29ff402be458cf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f33baa331bef146e29ff402be458cf5">&#9670;&nbsp;</a></span>GetAreaMinY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gd::EventsBasedObject::GetAreaMinY </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the top bound of the custom object. </p>
+<p>This is used only if there is any initial instances.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_events_based_object.html#aac6d9d739ac85b14bdb4ba96fc57fb5c" title="Get the instances of the custom object.">EventsBasedObject::GetInitialInstances</a> </dd></dl>
+
+</div>
+</div>
+<a id="a489d1f38cc078d32d81756f5407a2385"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a489d1f38cc078d32d81756f5407a2385">&#9670;&nbsp;</a></span>GetAreaMinZ()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gd::EventsBasedObject::GetAreaMinZ </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the min Z bound of the custom object. </p>
+<p>This is used only if there is any initial instances.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_events_based_object.html#aac6d9d739ac85b14bdb4ba96fc57fb5c" title="Get the instances of the custom object.">EventsBasedObject::GetInitialInstances</a> </dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="_events_based_object_8h_source.html">EventsBasedObject.h</a></li>
 <li>EventsBasedObject.cpp</li>
 </ul>
