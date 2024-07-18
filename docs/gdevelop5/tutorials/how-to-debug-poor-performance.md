@@ -19,7 +19,7 @@ If your game is running slowly, it's a good idea to look at these common consume
 
 ## FPS counter
 
-Try adding an FPS (frames per second) counter to your game. This will allow you to measure if your optimizations are increasing the performance of your game. You can do this by modifying a text object, and setting it to **FPS: " + ToString(ceil(1/TimeDelta()))** or:
+Try adding an FPS (frames per second) counter to your game. This will allow you to measure if your optimizations are increasing the performance of your game. You can do this by modifying a text object, and setting it to **"FPS: " + ToString(ceil(1/TimeDelta()))** or:
 
 ![](/gdevelop5/tutorials/fps-counter.jpg)
 
