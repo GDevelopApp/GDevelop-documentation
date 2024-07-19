@@ -2,6 +2,7 @@ nav:
     - sprite
     - Tiled Sprite: tiled_sprite
     - Panel Sprite ("9 patch"): panel_sprite
+    - Tilemap: simple_tilemap
     - light
     - text
     - 3D Box: 3d-box

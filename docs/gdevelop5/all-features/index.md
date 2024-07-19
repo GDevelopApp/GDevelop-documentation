@@ -58,6 +58,7 @@ Note that GDevelop can also be extended with extensions: take a look at [the lis
 * [Device vibration](/gdevelop5/all-features/device-vibration) ([reference](/gdevelop5/all-features/device-vibration/reference))
 * [Dialogue Tree](/gdevelop5/all-features/dialogue-tree) ([reference](/gdevelop5/all-features/dialogue-tree/reference))
 * [Effects](/gdevelop5/interface/scene-editor/layer-effects) ([reference](/gdevelop5/all-features/effects/reference))
+* [External Tilemap (LDtk/Tiled)](/gdevelop5/objects/tilemap) ([reference](/gdevelop5/all-features/tilemap/reference))
 * [Facebook Instant Games](/gdevelop5/publishing/publishing-to-facebook-instant-games) ([reference](/gdevelop5/all-features/facebook-instant-games/reference))
 * [File system](/gdevelop5/all-features/filesystem) ([reference](/gdevelop5/all-features/filesystem/reference))
 * [Firebase](/gdevelop5/all-features/firebase) ([reference](/gdevelop5/all-features/firebase/reference))
@@ -72,7 +73,7 @@ Note that GDevelop can also be extended with extensions: take a look at [the lis
 * [Spine (experimental)](/gdevelop5/objects/spine) ([reference](/gdevelop5/all-features/spine-object/reference))
 * [Steamworks (Steam) (experimental)](/gdevelop5/all-features/steamworks/reference)
 * [Text Input](/gdevelop5/all-features/text-input/reference)
-* [Tilemap](/gdevelop5/objects/tilemap) ([reference](/gdevelop5/all-features/tilemap/reference))
+* [Tilemap](/gdevelop5/objects/simple_tilemap) ([reference](/gdevelop5/all-features/tilemap/reference))
 * [Tweening](/gdevelop5/behaviors/tween) ([reference](/gdevelop5/all-features/tween/reference))
 * [Video](/gdevelop5/objects/video) ([reference](/gdevelop5/all-features/video/reference))
 

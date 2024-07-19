@@ -29,18 +29,6 @@ GDevelop includes a 2D physics engine, but has not yet a 3D physics engine. Inve
 * Possible mentors: Alex, Clem, D8H, 4ian
 * Expected outcome: working behavior that can be applied to objects, with at least static and dynamic objects + a few basic properties and actions/conditions.
 
-### Allow to edit tilemaps directly in the editor
-
-GDevelop supports tilemaps that are built using Tiled or LDtk - two editors specially made for creating large tilemaps. But for a lot of users, having the ability to edit tilemaps directly in GDevelop would be more intuitive. Beginners could start drawing an entirely new map directly in the scene editor. Advanced users could make quick fixes to their maps inside GDevelop, and continue to use an external editors for larger changes.
-
-This project will aim to bring a very simple Tilemap edition feature to GDevelop. This is a feature that is asked by a lot of users!
-
-* **Skills:** JavaScript, TypeScript
-* **Difficulty:** medium
-* Project size: 175 hours
-* Possible mentors: Alex, Clem, D8H, 4ian
-* Expected outcome: working, basic editor for tilemaps in the GDevelop scene editor (display tileset, choose tile, paint)
-  
 ### Refactored collision, object positions handling and object filtering
 
 Investigate the performance of collision handling, distance conditions and raycast (for objects not using a physics engine behavior) and implement optimizations that would allow them to avoid iterating on all objects.
