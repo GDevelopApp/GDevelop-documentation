@@ -43,7 +43,7 @@ you need **macOS with XCode** installed.
 You need to install:
 
 - Android Studio with the Android SDK
-- Java (version 11, can be downloaded from the Oracle website) - as we are using cordova-android 11
+- Java (JDK version 17, can be downloaded from the Oracle website) - as we are using cordova-android 13
 - Gradle.
 
 ## Build Cordova project
@@ -74,7 +74,7 @@ Once you have specified what platform you want your game to be exported to, you 
 
     ![](/gdevelop5/publishing/android-build-tool.png)
     Cordova may need a specific version of the Android build tool. It can be installed with the SDK Manager.
-    Ensure you have the Android SDKs from version 30 to 33.
+    Ensure you have the Android SDKs from version 30 to 34.
 
 ## Testing on emulators or Android/iOS devices
 
