@@ -17,6 +17,7 @@ This section lists the different types of objects, each of which serves a unique
     - [Sprite](/gdevelop5/objects/sprite)
     - [Tiled sprite](/gdevelop5/objects/tiled_sprite)
     - [Panel Sprite ("9-patch")](/gdevelop5/objects/panel_sprite)
+    - [Tilemap](/gdevelop5/objects/simple-tilemap)
 - Display a text (score, name, explanation):
     - [Text](/gdevelop5/objects/text)
     - [Bitmap text](/gdevelop5/objects/bitmap_text)
@@ -34,7 +35,7 @@ This section lists the different types of objects, each of which serves a unique
     - [Light](/gdevelop5/objects/light)
     - [Shape painter](/gdevelop5/objects/shape_painter)
 - Advanced effects or rendering:
-    - [Tilemap](/gdevelop5/objects/tilemap)
+    - [External Tilemap (LDtk/Tiled)](/gdevelop5/objects/tilemap)
 
 ## Learn about some objects with this video tutorial
 

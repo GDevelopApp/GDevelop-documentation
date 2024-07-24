@@ -2,9 +2,11 @@ nav:
     - sprite
     - Tiled Sprite: tiled_sprite
     - Panel Sprite ("9 patch"): panel_sprite
+    - Tilemap: simple_tilemap
     - light
     - text
     - 3D Box: 3d-box
     - 3D Model: 3d-model
     - ...
+    - External Tilemap (LDtk/Tiled): tilemap
     - custom-objects-prefab-template.md

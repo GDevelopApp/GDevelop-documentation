@@ -1,9 +1,9 @@
 ---
-title: Tilemap
+title: External Tilemap (LDtk/Tiled)
 ---
-# Tilemap
+# External Tilemap (LDtk/Tiled)
 
-The Tilemap object can be used to display tile-based objects. It's a good way to create **maps** for RPG, strategy games or create objects by **assembling tiles**, useful for platformer, retro-looking games, etc...
+The External Tilemap object can be used to display tile-based objects. It's a good way to create **maps** for RPG, strategy games or create objects by **assembling tiles**, useful for platformer, retro-looking games, etc...
 
 If you want to directly dive into it, 3 examples are using tile maps:
 
@@ -19,7 +19,7 @@ For now, this object is meant for advanced users as it requires Tilemaps to be a
 
 ![](pasted/20210104-105043.png)
 
-## Know limitations
+## Known limitations
 
 This object is still experimental and will be improved in the future
 
