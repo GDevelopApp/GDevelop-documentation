@@ -1144,6 +1144,8 @@ Allow players to connect to lobbies and play together. [Read more explanations a
 | `Multiplayer::CurrentPlayerNumber()` | Return the current player number in the lobby (1, 2, ...). ||
 | `Multiplayer::CurrentPlayerPing()` | Get the ping of the current player in the lobby. ||
 | `Multiplayer::CurrentPlayerUsername()` | Get the username of the current player in the lobby. ||
+| `Multiplayer::LastJoinedPlayerNumber()` | Returns the number of the player that has just joined the lobby. ||
+| `Multiplayer::LastLeftPlayerNumber()` | Returns the number of the player that has just left the lobby. ||
 | `Multiplayer::MessageData(string)` | Returns the data received when the specified message was received from another player. ||
 | | _string_ | Message name |
 | `Multiplayer::MessageSender(string)` | Returns the player number of the sender of the specified message. ||

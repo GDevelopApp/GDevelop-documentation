@@ -42,6 +42,9 @@ Take the ownership of the variable. It will then be synchronized to other player
 **Current player number in lobby**  
 Compare the current player number in the lobby (1, 2, ...).
 
+**Any player has joined**  
+Check if any player has joined the lobby.
+
 **Any player has left**  
 Check if any player has left the lobby.
 
@@ -53,6 +56,9 @@ Check if the lobby game has just started.
 
 **Custom message has been received from another player**  
 Check if a custom message has been received from another player. Will be true only for one frame.
+
+**Player has joined**  
+Check if the player has joined the lobby.
 
 **Player has left**  
 Check if the player has left the lobby.
@@ -79,6 +85,8 @@ Compare the number of players in the lobby.
 | `Multiplayer::CurrentPlayerNumber()` | Return the current player number in the lobby (1, 2, ...). ||
 | `Multiplayer::CurrentPlayerPing()` | Get the ping of the current player in the lobby. ||
 | `Multiplayer::CurrentPlayerUsername()` | Get the username of the current player in the lobby. ||
+| `Multiplayer::LastJoinedPlayerNumber()` | Returns the number of the player that has just joined the lobby. ||
+| `Multiplayer::LastLeftPlayerNumber()` | Returns the number of the player that has just left the lobby. ||
 | `Multiplayer::MessageData(string)` | Returns the data received when the specified message was received from another player. ||
 | | _string_ | Message name |
 | `Multiplayer::MessageSender(string)` | Returns the player number of the sender of the specified message. ||
