@@ -32,9 +32,12 @@ If this check is not satisfied, an error message will be displayed.
 ### Tiles with hit box
 
 Tiles can be configured to have a hit box.
-To do so, when the atlas image is set, tiles can be selected on it to show which one should have a hit box in-game.
+To do so, when the atlas image is set, tiles can be selected by clicking on the image. The selected tiles with then have a hit box in game.
 
-Those hit boxes can then be used with the platform behavior, the light obstacle behavior and raycasting and others.
+Those hit boxes can then be used with the platform behavior, the light obstacle behavior, raycasting and others.
+
+!!! note
+      At the moment, the hit box takes up the whole space in the tile.
 
 !!! note
       The physics behavior will consider the tilemap as a whole object and not use the hitboxes to have different bodies.
@@ -43,13 +46,13 @@ Those hit boxes can then be used with the platform behavior, the light obstacle 
 
 Once the tilemap object is configured, add an instance on the scene.
 
-Select the instance, open the instance panel and start modifying the instance on the scene by clicking on it.
+Select the instance, open the instance properties panel, select a tile and start modifying the instance on the scene by clicking on it.
 
 ## Tile manipulation
 
 Tiles can be manipulated in-game through actions and conditions.
 
-To do so, tiles have identifiers. The tile identifier (id) is computed like this: if an atlas image is 32 pixels wide and 128 pixels high, with a tile size of 16 pixels, the resulting grid with ids is:
+To do so, tiles have identifiers. The tile identifier (id) is automatically computed like this: if an atlas image is 32 pixels wide and 128 pixels high, with a tile size of 16 pixels, the resulting tile set with ids is:
 
 ```
 0 │ 4
