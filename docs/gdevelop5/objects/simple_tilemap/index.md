@@ -68,4 +68,4 @@ So if the image height and/or the tile size change, the tile identifiers also ch
 
 ## Reference
 
-All actions, conditions and expressions are listed in [the tilemap reference page](/gdevelop5/all-features/tilemap/reference/).
+All actions, conditions and expressions are listed in [the tilemap reference page](/gdevelop5/all-features/tilemap/reference/#tile-map).
