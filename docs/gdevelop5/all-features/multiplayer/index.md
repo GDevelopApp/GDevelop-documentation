@@ -74,7 +74,7 @@ Lobbies are automatically created for your game. To customize them, head to your
 
 ### Letting the players join a new game
 
-Use the action **Open game lobbies**. This action will show the lobbies to the player, so they can join a game. (empty or already started).
+Use the action **Open game lobbies**. This action will show the lobbies to the player, so they can join a game (empty or already started).
 
 ![Default Lobbies screen](./default-lobbies-screen.png)
 
