@@ -55,16 +55,18 @@ Tiles can be manipulated in-game through actions and conditions.
 To do so, tiles have identifiers. The tile identifier (id) is automatically computed like this: if an atlas image is 32 pixels wide and 128 pixels high, with a tile size of 16 pixels, the resulting tile set with ids is:
 
 ```
-0 │ 4
+0 │ 1
 ──┼──
-1 │ 5
+2 │ 3
 ──┼──
-2 │ 6
+4 │ 5
 ──┼──
-3 │ 7
+6 │ 7
 ```
 
-So if the image height and/or the tile size change, the tile identifiers also change.
+So if the image width and/or the tile size change, the tile identifiers also change.
+
+Therefore, in order to expand the atlas image to get more tiles without impacting the tile maps based on it, the atlas should be expanded towards the bottom.
 
 ## Reference
 
