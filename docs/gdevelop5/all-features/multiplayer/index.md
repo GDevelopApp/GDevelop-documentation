@@ -64,13 +64,11 @@ Lobbies in preview are different than the lobbies when the game is published, al
 
 ### Configuring the lobby
 
-Lobbies are automatically created for your game.
-If you want to customize them, head to your game dashboard in the editor.
-For the moment you can:
+Lobbies are automatically created for your game. To customize them, head to your game dashboard in the editor. You can notably:
 
-- Define the number of players needed to start a game
-- Define the maximum number of players in a lobby
-- Define if players are allowed or not to join a game in progress
+- Define the number of players needed to start a game (unless your game requires a specific number, we recommend to leave it at 1 so a single player can start a game),
+- Define the maximum number of players in a lobby,
+- Define if players are allowed or not to join a game in progress (recommended for most games).
 
 ![Lobbies configuration in the game dashboard](./lobbies-configuration.png)
 
@@ -121,17 +119,9 @@ When developing the game, you can open multiple preview windows and join the sam
 ### Letting players join a game in progress
 
 By default, a lobby allows players to join a game in progress. If your game shouldn't support this, you can disable this feature in the lobbies configuration.
+The good news is: there isn't much to do to handle this in most games!
 
-Good news, there isn't much to do to handle this!
-When a player joins a game in progress, they will be assigned a new playerNumber (not already used) and will automatically be synchronized with the other players and receive the current game state.
-Meaning:
-
-- Which scene the lobby was on,
-- The values of the global variables,
-- The values of the scene variables,
-- All the objects that are synchronized by the other players.
-
-This way, when a join a game in progress, the condition **Lobby game has just started** will turn true for this player, as if they were there from the beginning.
+When a player joins a game in progress, they will be assigned a new player number (not already used) and will automatically be synchronized with the other players and receive the current game state (the current scene, variable values, objects from other players). The condition **Lobby game has just started** will be valid for this player, as if they were there joining at the beginning of the game.
 
 If needed, you can use the conditions **Player is connected**, **Player has joined**, or **Player has left** to check if a player is connected, has joined the game, or has left the game.
 This can be useful for example if you want the host to:
