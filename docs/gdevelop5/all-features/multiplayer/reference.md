@@ -69,6 +69,9 @@ Check if the lobbies window is open.
 **Lobby game is running**  
 Check if the lobby game is running.
 
+**Player is connected**  
+Check if the specified player is connected to the lobby.
+
 **Player is host**  
 Check if the player is the host. (Player 1 is the host)
 
