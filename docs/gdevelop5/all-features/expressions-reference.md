@@ -1470,6 +1470,8 @@ Displays a tiled-based map. [Read more explanations about it.](/gdevelop5/object
 | `Object.TileIdAtPosition(number, number)` | Return the id of the tile at the scene coordinates. ||
 | | _🔢 Number_ | Position X |
 | | _🔢 Number_ | Position Y |
+| `Object.TilesetColumnCount()` | Get the number of column in the tileset. ||
+| `Object.TilesetRowCount()` | Get the number of row in the tileset. ||
 
 ## External Tilemap (Tiled/LDtk) (from extension Tile map)
 
