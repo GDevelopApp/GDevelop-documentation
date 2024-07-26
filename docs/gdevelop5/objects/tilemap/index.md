@@ -5,13 +5,15 @@ title: External Tilemap (LDtk/Tiled)
 
 The External Tilemap object can be used to display tile-based objects. It's a good way to create **maps** for RPG, strategy games or create objects by **assembling tiles**, useful for platformer, retro-looking games, etc...
 
-If you want to directly dive into it, 3 examples are using tile maps:
+This object is meant for advanced users as it requires Tilemaps to be authored in an **external editor**: [LDtk (Level Designer Toolkit)](https://ldtk.io/) or [Tiled](https://www.mapeditor.org/).
+If you want to build **a Tilemap directly inside GDevelop**, prefer to use the [integrated Tilemap object](/gdevelop5/objects/simple_tilemap).
+
+3 examples are using external tile maps:
 
   * a platformer with ladders and jumpthrus ([open the project online](https://editor.gdevelop.io/?project=example://platformer-with-tilemap))
   * a more advanced platformer ([open the project online](https://editor.gdevelop.io/?project=example://not-a-vania))
   * various tile maps ([open the project online](https://editor.gdevelop.io/?project=example://tilemaps-made-with-tiled-editor))
 
-For now, this object is meant for advanced users as it requires Tilemaps to be authored in an **external editor**:  [LDtk (Level Designer Toolkit)](https://ldtk.io/) or [Tiled](https://www.mapeditor.org/).
 
 !!! note
 
@@ -21,12 +23,11 @@ For now, this object is meant for advanced users as it requires Tilemaps to be a
 
 ## Known limitations
 
-This object is still experimental and will be improved in the future
+GDevelop supports a subset of Tiled and LDtk features:
 
-  * An external tool is needed to edit tile maps.
   * Maps must be saved as **JSON files** (.json) with Tiled or LDtk.
   * Only **orthogonal** tilemaps are supported - **isometric tilemaps** are not for now.
-  * Tiled Map Maker specific limitations:
+  * Tiled specific limitations:
       * Maps made in tiled **must** have a fixed size. Tilemaps set to "Infinite" will not function.
       * Only collisions from Tiled are supported - for LDtk you will need to manually create them as separate invisible objects in GDevelop.
        * **Tilemaps made with Tiled Map Maker using more than one tilesets** are not supported. One tileset per Tiled tilemap is supported for now. LDtk tilemaps support multiple tilesets per map, but do not support swapping out Tileset atlases.
