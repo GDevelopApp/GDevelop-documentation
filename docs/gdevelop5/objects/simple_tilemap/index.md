@@ -8,6 +8,12 @@ The Tilemap object can be used to display tile-based objects. It's a good way to
 
 They are performant and useful to render large levels. While the Tilemap is quick and easy to use, you may want to design maps in an external editor like LDtk or Tiled. In this case, take a look at the [External Tilemap object](/gdevelop5/objects/tilemap).
 
+<div class="video-container">
+  <video muted="true" autoplay="true" loop="true">
+    <source src="edit-tilemao.mp4" type="video/mp4">
+  </video>
+</div>
+
 ## Get started
 
 Setting up a Tilemap is straightforward. You need a **Tileset**, also called **Atlas**, which is an image that contains all the tiles of the map.
