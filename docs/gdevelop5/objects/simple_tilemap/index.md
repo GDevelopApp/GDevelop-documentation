@@ -10,7 +10,7 @@ They are performant and useful to render large levels. While the Tilemap is quic
 
 <div class="video-container">
   <video muted="true" autoplay="true" loop="true">
-    <source src="edit-tilemao.mp4" type="video/mp4">
+    <source src="edit-tilemap.mp4" type="video/mp4">
   </video>
 </div>
 
