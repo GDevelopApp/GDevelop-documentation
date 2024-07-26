@@ -310,9 +310,6 @@ Test if an object has a specific layer enabled.
 **Linear damping**  
 Test an object linear damping.
 
-**Linear velocity angle**  
-Test an object linear velocity angle.
-
 **Linear velocity**  
 Test an object linear velocity length.
 
@@ -324,6 +321,9 @@ Test an object linear velocity on Y.
 
 **Mask enabled**  
 Test if an object has a specific mask enabled.
+
+**Linear velocity angle**  
+Compare the linear velocity angle of the object.
 
 **Prismatic joint limits enabled**  
 Test if a prismatic joint limits are enabled.
