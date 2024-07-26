@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['nfc_4013',['NFC',['../classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617adcd3a91f13022012f23a7f761c926309',1,'gd::String']]],
-  ['nfd_4014',['NFD',['../classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617a34c0f9c8b54e306ae100f3e289f8216b',1,'gd::String']]],
-  ['nfkc_4015',['NFKC',['../classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617a5c1d833ab57bc4a55b6f631b1c684436',1,'gd::String']]],
-  ['nfkd_4016',['NFKD',['../classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617a71a8daec0f8e80209e36b967b2a25214',1,'gd::String']]]
+  ['mixedtypes_4029',['MixedTypes',['../classgd_1_1_variable.html#a06d83e4a398f4b54603c8ce1c4b18ecea7b5fea0f20ba78a50a5b3de869a168c3',1,'gd::Variable']]]
 ];

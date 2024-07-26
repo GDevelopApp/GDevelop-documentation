@@ -78,8 +78,8 @@ $(function() {
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * reserved. This project is released under the MIT License.</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef GDCORE_VARIABLE_H</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#define GDCORE_VARIABLE_H</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;map&gt;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
@@ -95,216 +95,231 @@ $(function() {
 <div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html">   29</a></span>&#160;<span class="keyword">class </span>GD_CORE_API <a class="code" href="classgd_1_1_variable.html">Variable</a> {</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <span class="keyword">static</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a> badVariable;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keyword">enum</span> Type {</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#a06d83e4a398f4b54603c8ce1c4b18ece">   32</a></span>&#160;  <span class="keyword">enum</span> <a class="code" href="classgd_1_1_variable.html#a06d83e4a398f4b54603c8ce1c4b18ece">Type</a> {</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    Unknown,</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="comment">// Primitive types</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a>,</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    Number,</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    Boolean,</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="comment">// Collection types</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    Structure,</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    Array</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  };</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">bool</span> IsPrimitive(<span class="keyword">const</span> Type type);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#a3e3a29c51108ef813d33be71a06bd133">   53</a></span>&#160;  <a class="code" href="classgd_1_1_variable.html#a3e3a29c51108ef813d33be71a06bd133">Variable</a>() : value(0), type(Type::Number){};</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  <a class="code" href="classgd_1_1_variable.html">Variable</a>(<span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp;);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="keyword">virtual</span> ~<a class="code" href="classgd_1_1_variable.html">Variable</a>(){};</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  Variable&amp; operator=(<span class="keyword">const</span> Variable&amp; rhs);</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#a06d83e4a398f4b54603c8ce1c4b18ecea7b5fea0f20ba78a50a5b3de869a168c3">   35</a></span>&#160;    <a class="code" href="classgd_1_1_variable.html#a06d83e4a398f4b54603c8ce1c4b18ecea7b5fea0f20ba78a50a5b3de869a168c3">MixedTypes</a>,</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="comment">// Primitive types</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a>,</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    Number,</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    Boolean,</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="comment">// Collection types</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    Structure,</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    Array</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  };</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">bool</span> IsPrimitive(<span class="keyword">const</span> <a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> type);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#a3e3a29c51108ef813d33be71a06bd133">   55</a></span>&#160;  <a class="code" href="classgd_1_1_variable.html#a3e3a29c51108ef813d33be71a06bd133">Variable</a>() : value(0), type(<a class="code" href="classgd_1_1_variable.html#a06d83e4a398f4b54603c8ce1c4b18ece">Type</a>::Number), hasMixedValues(false) {};</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  <a class="code" href="classgd_1_1_variable.html">Variable</a>(<span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp;);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="keyword">virtual</span> ~<a class="code" href="classgd_1_1_variable.html">Variable</a>(){};</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
-<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#a9739dac5f5b1a2898f7496429ea55823">   62</a></span>&#160;  Type <a class="code" href="classgd_1_1_variable.html#a9739dac5f5b1a2898f7496429ea55823">GetType</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> type; }</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  <span class="keywordtype">void</span> CastTo(<span class="keyword">const</span> <a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> newType);</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
-<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#ab12233549a0016acd5b29911d97fc357">   72</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="classgd_1_1_variable.html#ab12233549a0016acd5b29911d97fc357">CastTo</a>(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; type) { <span class="keywordflow">return</span> <a class="code" href="classgd_1_1_variable.html#ab12233549a0016acd5b29911d97fc357">CastTo</a>(StringAsType(type)); };</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; GetString() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
-<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#a00b6111cb6f3047394061e79802cc93e">   87</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="classgd_1_1_variable.html#a00b6111cb6f3047394061e79802cc93e">SetString</a>(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; newStr) {</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    str = newStr;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    type = Type::String;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  }</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  <span class="keywordtype">double</span> GetValue() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
-<div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#a302f56ff5f31d0d35ee7186e57bfbc7d">  100</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="classgd_1_1_variable.html#a302f56ff5f31d0d35ee7186e57bfbc7d">SetValue</a>(<span class="keywordtype">double</span> val) {</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    value = val;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="comment">// NaN values are not supported by GDevelop nor the serializer.</span></div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordflow">if</span> (std::isnan(value)) value = 0.0;</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    type = Type::Number;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  }</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  <span class="keywordtype">bool</span> GetBool() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160; </div>
-<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#a9813601c95bac03c4aab127db765e00c">  115</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="classgd_1_1_variable.html#a9813601c95bac03c4aab127db765e00c">SetBool</a>(<span class="keywordtype">bool</span> val) {</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    boolVal = val;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    type = Type::Boolean;</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;  }</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;  <span class="comment">// Operators are overloaded to allow accessing to variable using a simple</span></div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;  <span class="comment">// int-like semantic.</span></div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;  <span class="keywordtype">void</span> operator=(<span class="keywordtype">double</span> val) { SetValue(val); };</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  <span class="keywordtype">void</span> operator+=(<span class="keywordtype">double</span> val) { SetValue(val + GetValue()); }</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;  <span class="keywordtype">void</span> operator-=(<span class="keywordtype">double</span> val) { SetValue(GetValue() - val); }</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;  <span class="keywordtype">void</span> operator*=(<span class="keywordtype">double</span> val) { SetValue(val * GetValue()); }</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;  <span class="keywordtype">void</span> operator/=(<span class="keywordtype">double</span> val) { SetValue(GetValue() / val); }</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160; </div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  <span class="keywordtype">bool</span> operator&lt;=(<span class="keywordtype">double</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetValue() &lt;= val; };</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;  <span class="keywordtype">bool</span> operator&gt;=(<span class="keywordtype">double</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetValue() &gt;= val; };</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;  <span class="keywordtype">bool</span> operator&lt;(<span class="keywordtype">double</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetValue() &lt; val; };</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;  <span class="keywordtype">bool</span> operator&gt;(<span class="keywordtype">double</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetValue() &gt; val; };</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;  <span class="keywordtype">bool</span> operator==(<span class="keywordtype">double</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetValue() == val; };</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;  <span class="keywordtype">bool</span> operator!=(<span class="keywordtype">double</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetValue() != val; };</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160; </div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;  <span class="comment">// Avoid ambiguous operators</span></div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;  <span class="keywordtype">void</span> operator=(<span class="keywordtype">int</span> val) { SetValue(val); };</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;  <span class="keywordtype">void</span> operator+=(<span class="keywordtype">int</span> val) { SetValue(val + GetValue()); }</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;  <span class="keywordtype">void</span> operator-=(<span class="keywordtype">int</span> val) { SetValue(GetValue() - val); }</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;  <span class="keywordtype">void</span> operator*=(<span class="keywordtype">int</span> val) { SetValue(val * GetValue()); }</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;  <span class="keywordtype">void</span> operator/=(<span class="keywordtype">int</span> val) { SetValue(GetValue() / val); }</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160; </div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;  <span class="keywordtype">bool</span> operator&lt;=(<span class="keywordtype">int</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetValue() &lt;= val; };</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;  <span class="keywordtype">bool</span> operator&gt;=(<span class="keywordtype">int</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetValue() &gt;= val; };</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;  <span class="keywordtype">bool</span> operator&lt;(<span class="keywordtype">int</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetValue() &lt; val; };</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;  <span class="keywordtype">bool</span> operator&gt;(<span class="keywordtype">int</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetValue() &gt; val; };</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;  <span class="keywordtype">bool</span> operator==(<span class="keywordtype">int</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetValue() == val; };</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;  <span class="keywordtype">bool</span> operator!=(<span class="keywordtype">int</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetValue() != val; };</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160; </div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;  <span class="comment">// Operators are overloaded to allow accessing to variable using a simple</span></div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;  <span class="comment">// string-like semantic.</span></div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;  <span class="keywordtype">void</span> operator=(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; val) { SetString(val); };</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;  <span class="keywordtype">void</span> operator+=(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; val) { SetString(GetString() + val); }</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  Variable&amp; operator=(<span class="keyword">const</span> Variable&amp; rhs);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#a9739dac5f5b1a2898f7496429ea55823">   64</a></span>&#160;  <a class="code" href="classgd_1_1_variable.html#a06d83e4a398f4b54603c8ce1c4b18ece">Type</a> <a class="code" href="classgd_1_1_variable.html#a9739dac5f5b1a2898f7496429ea55823">GetType</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> type; }</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <span class="keywordtype">void</span> CastTo(<span class="keyword">const</span> <a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> newType);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#ab12233549a0016acd5b29911d97fc357">   74</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="classgd_1_1_variable.html#ab12233549a0016acd5b29911d97fc357">CastTo</a>(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; type) { <span class="keywordflow">return</span> <a class="code" href="classgd_1_1_variable.html#ab12233549a0016acd5b29911d97fc357">CastTo</a>(StringAsType(type)); };</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; GetString() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
+<div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#a00b6111cb6f3047394061e79802cc93e">   89</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="classgd_1_1_variable.html#a00b6111cb6f3047394061e79802cc93e">SetString</a>(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; newStr) {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    str = newStr;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    type = Type::String;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    hasMixedValues = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  }</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  <span class="keywordtype">double</span> GetValue() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
+<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#a302f56ff5f31d0d35ee7186e57bfbc7d">  103</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="classgd_1_1_variable.html#a302f56ff5f31d0d35ee7186e57bfbc7d">SetValue</a>(<span class="keywordtype">double</span> val) {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    value = val;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="comment">// NaN values are not supported by GDevelop nor the serializer.</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keywordflow">if</span> (std::isnan(value)) value = 0.0;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    type = Type::Number;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    hasMixedValues = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;  }</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;  <span class="keywordtype">bool</span> GetBool() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
+<div class="line"><a name="l00119"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#a9813601c95bac03c4aab127db765e00c">  119</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="classgd_1_1_variable.html#a9813601c95bac03c4aab127db765e00c">SetBool</a>(<span class="keywordtype">bool</span> val) {</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    boolVal = val;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    type = Type::Boolean;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    hasMixedValues = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  }</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160; </div>
+<div class="line"><a name="l00129"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#a8534ef3261dca0fac39d6f4f7ac11d87">  129</a></span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="classgd_1_1_variable.html#a8534ef3261dca0fac39d6f4f7ac11d87">HasMixedValues</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <span class="keywordflow">return</span> hasMixedValues;</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;  }</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; </div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;  <span class="keywordtype">void</span> MarkAsMixedValues();</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160; </div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;  <span class="comment">// Operators are overloaded to allow accessing to variable using a simple</span></div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;  <span class="comment">// int-like semantic.</span></div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;  <span class="keywordtype">void</span> operator=(<span class="keywordtype">double</span> val) { SetValue(val); };</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;  <span class="keywordtype">void</span> operator+=(<span class="keywordtype">double</span> val) { SetValue(val + GetValue()); }</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;  <span class="keywordtype">void</span> operator-=(<span class="keywordtype">double</span> val) { SetValue(GetValue() - val); }</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;  <span class="keywordtype">void</span> operator*=(<span class="keywordtype">double</span> val) { SetValue(val * GetValue()); }</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;  <span class="keywordtype">void</span> operator/=(<span class="keywordtype">double</span> val) { SetValue(GetValue() / val); }</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160; </div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;  <span class="keywordtype">bool</span> operator&lt;=(<span class="keywordtype">double</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetValue() &lt;= val; };</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;  <span class="keywordtype">bool</span> operator&gt;=(<span class="keywordtype">double</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetValue() &gt;= val; };</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;  <span class="keywordtype">bool</span> operator&lt;(<span class="keywordtype">double</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetValue() &lt; val; };</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;  <span class="keywordtype">bool</span> operator&gt;(<span class="keywordtype">double</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetValue() &gt; val; };</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;  <span class="keywordtype">bool</span> operator==(<span class="keywordtype">double</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetValue() == val; };</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;  <span class="keywordtype">bool</span> operator!=(<span class="keywordtype">double</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetValue() != val; };</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160; </div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;  <span class="keywordtype">bool</span> operator==(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetString() == val; };</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;  <span class="keywordtype">bool</span> operator!=(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetString() != val; };</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160; </div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;  <span class="comment">// Avoid ambiguous operators</span></div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;  <span class="keywordtype">void</span> operator=(<span class="keyword">const</span> <span class="keywordtype">char</span>* val) { SetString(val); };</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;  <span class="keywordtype">void</span> operator+=(<span class="keyword">const</span> <span class="keywordtype">char</span>* val) { SetString(GetString() + val); }</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;  <span class="comment">// Avoid ambiguous operators</span></div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;  <span class="keywordtype">void</span> operator=(<span class="keywordtype">int</span> val) { SetValue(val); };</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;  <span class="keywordtype">void</span> operator+=(<span class="keywordtype">int</span> val) { SetValue(val + GetValue()); }</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;  <span class="keywordtype">void</span> operator-=(<span class="keywordtype">int</span> val) { SetValue(GetValue() - val); }</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;  <span class="keywordtype">void</span> operator*=(<span class="keywordtype">int</span> val) { SetValue(val * GetValue()); }</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;  <span class="keywordtype">void</span> operator/=(<span class="keywordtype">int</span> val) { SetValue(GetValue() / val); }</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160; </div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;  <span class="keywordtype">bool</span> operator==(<span class="keyword">const</span> <span class="keywordtype">char</span>* val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetString() == val; };</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;  <span class="keywordtype">bool</span> operator!=(<span class="keyword">const</span> <span class="keywordtype">char</span>* val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetString() != val; };</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160; </div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;  <span class="comment">// Operators are overloaded to allow accessing to variable using a simple</span></div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;  <span class="comment">// bool-like semantic.</span></div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;  <span class="keywordtype">void</span> operator=(<span class="keyword">const</span> <span class="keywordtype">bool</span> val) { SetBool(val); };</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;  <span class="keywordtype">bool</span> operator&lt;=(<span class="keywordtype">int</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetValue() &lt;= val; };</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;  <span class="keywordtype">bool</span> operator&gt;=(<span class="keywordtype">int</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetValue() &gt;= val; };</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;  <span class="keywordtype">bool</span> operator&lt;(<span class="keywordtype">int</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetValue() &lt; val; };</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;  <span class="keywordtype">bool</span> operator&gt;(<span class="keywordtype">int</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetValue() &gt; val; };</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;  <span class="keywordtype">bool</span> operator==(<span class="keywordtype">int</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetValue() == val; };</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;  <span class="keywordtype">bool</span> operator!=(<span class="keywordtype">int</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetValue() != val; };</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160; </div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;  <span class="keywordtype">bool</span> operator==(<span class="keyword">const</span> <span class="keywordtype">bool</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetBool() == val; };</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;  <span class="keywordtype">bool</span> operator!=(<span class="keyword">const</span> <span class="keywordtype">bool</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetBool() != val; };</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160; </div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;  <span class="comment">// Operators are overloaded to allow accessing to variable using a simple</span></div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;  <span class="comment">// string-like semantic.</span></div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;  <span class="keywordtype">void</span> operator=(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; val) { SetString(val); };</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;  <span class="keywordtype">void</span> operator+=(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; val) { SetString(GetString() + val); }</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160; </div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160; </div>
-<div class="line"><a name="l00181"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#ae716166d6f98e86f8f9700190ce4ec6a">  181</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="classgd_1_1_variable.html#ae716166d6f98e86f8f9700190ce4ec6a">ClearChildren</a>() {</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    children.clear();</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    childrenArray.clear();</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;  };</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160; </div>
-<div class="line"><a name="l00189"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#a1d9ceeb419934885198139365bfae413">  189</a></span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="classgd_1_1_variable.html#a1d9ceeb419934885198139365bfae413">GetChildrenCount</a>()<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <span class="keywordflow">return</span> type == Type::Structure ? children.size()</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;           : type == Type::Array   ? childrenArray.size()</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;                                   : 0;</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;  };</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;  <span class="keywordtype">bool</span> operator==(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetString() == val; };</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;  <span class="keywordtype">bool</span> operator!=(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetString() != val; };</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160; </div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;  <span class="comment">// Avoid ambiguous operators</span></div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;  <span class="keywordtype">void</span> operator=(<span class="keyword">const</span> <span class="keywordtype">char</span>* val) { SetString(val); };</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;  <span class="keywordtype">void</span> operator+=(<span class="keyword">const</span> <span class="keywordtype">char</span>* val) { SetString(GetString() + val); }</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160; </div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;  <span class="keywordtype">bool</span> operator==(<span class="keyword">const</span> <span class="keywordtype">char</span>* val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetString() == val; };</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  <span class="keywordtype">bool</span> operator!=(<span class="keyword">const</span> <span class="keywordtype">char</span>* val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetString() != val; };</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160; </div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;  <span class="comment">// Operators are overloaded to allow accessing to variable using a simple</span></div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;  <span class="comment">// bool-like semantic.</span></div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;  <span class="keywordtype">void</span> operator=(<span class="keyword">const</span> <span class="keywordtype">bool</span> val) { SetBool(val); };</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160; </div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;  <span class="keywordtype">bool</span> operator==(<span class="keyword">const</span> <span class="keywordtype">bool</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetBool() == val; };</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;  <span class="keywordtype">bool</span> operator!=(<span class="keyword">const</span> <span class="keywordtype">bool</span> val)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetBool() != val; };</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160; </div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;  <span class="keywordtype">bool</span> operator==(<span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>&amp; variable) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;  <span class="keywordtype">bool</span> operator!=(<span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>&amp; variable) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160; </div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160; </div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160; </div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;  <span class="keywordtype">bool</span> HasChild(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160; </div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;  <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; GetChild(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name);</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160; </div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; GetChild(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160; </div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;  <span class="keywordtype">void</span> RemoveChild(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name);</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160; </div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;  <span class="keywordtype">bool</span> RenameChild(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; oldName, <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; newName);</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160; </div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;  std::vector&lt;gd::String&gt; GetAllChildrenNames() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00203"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#ae716166d6f98e86f8f9700190ce4ec6a">  203</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="classgd_1_1_variable.html#ae716166d6f98e86f8f9700190ce4ec6a">ClearChildren</a>() {</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    children.clear();</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    childrenArray.clear();</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;  };</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160; </div>
+<div class="line"><a name="l00211"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#a1d9ceeb419934885198139365bfae413">  211</a></span>&#160;  <span class="keywordtype">size_t</span> <a class="code" href="classgd_1_1_variable.html#a1d9ceeb419934885198139365bfae413">GetChildrenCount</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    <span class="keywordflow">return</span> type == Type::Structure ? children.size()</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;           : type == Type::Array   ? childrenArray.size()</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;                                   : 0;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;  };</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160; </div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160; </div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;  <span class="keywordtype">bool</span> HasChild(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160; </div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;  <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; GetChild(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name);</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160; </div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; GetChild(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160; </div>
-<div class="line"><a name="l00246"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#a2ac36fe8852760d954b1c1044826dfe8">  246</a></span>&#160;  <span class="keyword">const</span> std::map&lt;gd::String, std::shared_ptr&lt;Variable&gt;&gt;&amp; <a class="code" href="classgd_1_1_variable.html#a2ac36fe8852760d954b1c1044826dfe8">GetAllChildren</a>()<span class="keyword"></span></div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;<span class="keyword">      const </span>{</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    <span class="keywordflow">return</span> children;</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;  }</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;  <span class="keywordtype">void</span> RemoveChild(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name);</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160; </div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;  <span class="keywordtype">bool</span> Contains(<span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>&amp; variableToSearch, <span class="keywordtype">bool</span> recursive) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160; </div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;  <span class="keywordtype">void</span> RemoveRecursively(<span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>&amp; variableToRemove);</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160; </div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160; </div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;  <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; GetAtIndex(<span class="keyword">const</span> <span class="keywordtype">size_t</span> index);</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160; </div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; GetAtIndex(<span class="keyword">const</span> <span class="keywordtype">size_t</span> index) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160; </div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;  <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; PushNew();</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160; </div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;  <span class="keywordtype">void</span> RemoveAtIndex(<span class="keyword">const</span> <span class="keywordtype">size_t</span> index);</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160; </div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;  <span class="keywordtype">void</span> MoveChildInArray(<span class="keyword">const</span> <span class="keywordtype">size_t</span> oldIndex, <span class="keyword">const</span> <span class="keywordtype">size_t</span> newIndex);</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160; </div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;  <span class="keywordtype">bool</span> InsertAtIndex(<span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>&amp; variable, <span class="keyword">const</span> <span class="keywordtype">size_t</span> index);</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;  <span class="keywordtype">bool</span> RenameChild(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; oldName, <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; newName);</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160; </div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;  std::vector&lt;gd::String&gt; GetAllChildrenNames() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160; </div>
+<div class="line"><a name="l00268"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#a2ac36fe8852760d954b1c1044826dfe8">  268</a></span>&#160;  <span class="keyword">const</span> std::map&lt;gd::String, std::shared_ptr&lt;Variable&gt;&gt;&amp; <a class="code" href="classgd_1_1_variable.html#a2ac36fe8852760d954b1c1044826dfe8">GetAllChildren</a>()<span class="keyword"></span></div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;<span class="keyword">      const </span>{</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    <span class="keywordflow">return</span> children;</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;  }</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160; </div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;  <span class="keywordtype">bool</span> Contains(<span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>&amp; variableToSearch, <span class="keywordtype">bool</span> recursive) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160; </div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;  <span class="keywordtype">void</span> RemoveRecursively(<span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>&amp; variableToRemove);</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160; </div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160; </div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;  <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; GetAtIndex(<span class="keyword">const</span> <span class="keywordtype">size_t</span> index);</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160; </div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; GetAtIndex(<span class="keyword">const</span> <span class="keywordtype">size_t</span> index) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160; </div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;  <span class="keywordtype">bool</span> InsertChild(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name, <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>&amp; variable);</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;  <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; PushNew();</div>
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160; </div>
-<div class="line"><a name="l00313"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#af7f7c991e13d8890dee6200742ff7fe6">  313</a></span>&#160;  <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;Variable&gt;&gt;&amp; <a class="code" href="classgd_1_1_variable.html#af7f7c991e13d8890dee6200742ff7fe6">GetAllChildrenArray</a>()<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    <span class="keywordflow">return</span> childrenArray;</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;  }</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;  <span class="keywordtype">void</span> RemoveAtIndex(<span class="keyword">const</span> <span class="keywordtype">size_t</span> index);</div>
 <div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160; </div>
-<div class="line"><a name="l00320"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#af82b592f925c89495e9fca971775ff84">  320</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="classgd_1_1_variable.html#af82b592f925c89495e9fca971775ff84">SetFolded</a>(<span class="keywordtype">bool</span> fold = <span class="keyword">true</span>) { folded = fold; }</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;  <span class="keywordtype">void</span> MoveChildInArray(<span class="keyword">const</span> <span class="keywordtype">size_t</span> oldIndex, <span class="keyword">const</span> <span class="keywordtype">size_t</span> newIndex);</div>
 <div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160; </div>
-<div class="line"><a name="l00325"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#a520e255c8871a28422cf9e0a086c6e40">  325</a></span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="classgd_1_1_variable.html#a520e255c8871a28422cf9e0a086c6e40">IsFolded</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> folded; }</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;  <span class="keywordtype">bool</span> InsertAtIndex(<span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>&amp; variable, <span class="keyword">const</span> <span class="keywordtype">size_t</span> index);</div>
 <div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160; </div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160; </div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160; </div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;  <span class="keywordtype">void</span> SerializeTo(<a class="code" href="classgd_1_1_serializer_element.html">SerializerElement</a>&amp; element) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;  <span class="keywordtype">bool</span> InsertChild(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name, <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>&amp; variable);</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160; </div>
+<div class="line"><a name="l00335"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#af7f7c991e13d8890dee6200742ff7fe6">  335</a></span>&#160;  <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;Variable&gt;&gt;&amp; <a class="code" href="classgd_1_1_variable.html#af7f7c991e13d8890dee6200742ff7fe6">GetAllChildrenArray</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    <span class="keywordflow">return</span> childrenArray;</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;  }</div>
 <div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160; </div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;  <span class="keywordtype">void</span> UnserializeFrom(<span class="keyword">const</span> <a class="code" href="classgd_1_1_serializer_element.html">SerializerElement</a>&amp; element);</div>
+<div class="line"><a name="l00342"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#af82b592f925c89495e9fca971775ff84">  342</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="classgd_1_1_variable.html#af82b592f925c89495e9fca971775ff84">SetFolded</a>(<span class="keywordtype">bool</span> fold = <span class="keyword">true</span>) { folded = fold; }</div>
 <div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160; </div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;  <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; ResetPersistentUuid();</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160; </div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;  <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; ClearPersistentUuid();</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160; </div>
-<div class="line"><a name="l00360"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#aab23101b60055991adfd1ecca1c3714e">  360</a></span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; <a class="code" href="classgd_1_1_variable.html#aab23101b60055991adfd1ecca1c3714e">GetPersistentUuid</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> persistentUuid; };</div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160; </div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;  <span class="keyword">static</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> TypeAsString(<a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> t);</div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160; </div>
-<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;  <span class="keyword">static</span> <a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> StringAsType(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; str);</div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160; </div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;  <span class="keywordtype">bool</span> folded;</div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;  <span class="keyword">mutable</span> <a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> type;</div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;  <span class="keyword">mutable</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> str;</div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;  <span class="keyword">mutable</span> <span class="keywordtype">double</span> value;</div>
-<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;  <span class="keyword">mutable</span> <span class="keywordtype">bool</span> boolVal;</div>
-<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;  <span class="keyword">mutable</span> std::map&lt;gd::String, std::shared_ptr&lt;Variable&gt;&gt;</div>
-<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;      children;  </div>
-<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;  <span class="keyword">mutable</span> std::vector&lt;std::shared_ptr&lt;Variable&gt;&gt;</div>
-<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;      childrenArray;  </div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;  <span class="keyword">mutable</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> persistentUuid;  </div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160; </div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;  <span class="keywordtype">void</span> CopyChildren(<span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; other);</div>
-<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;};</div>
-<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160; </div>
-<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;}  <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00347"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#a520e255c8871a28422cf9e0a086c6e40">  347</a></span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="classgd_1_1_variable.html#a520e255c8871a28422cf9e0a086c6e40">IsFolded</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> folded; }</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160; </div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160; </div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160; </div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;  <span class="keywordtype">void</span> SerializeTo(<a class="code" href="classgd_1_1_serializer_element.html">SerializerElement</a>&amp; element) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160; </div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;  <span class="keywordtype">void</span> UnserializeFrom(<span class="keyword">const</span> <a class="code" href="classgd_1_1_serializer_element.html">SerializerElement</a>&amp; element);</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160; </div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;  <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; ResetPersistentUuid();</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160; </div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;  <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; ClearPersistentUuid();</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160; </div>
+<div class="line"><a name="l00382"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#aab23101b60055991adfd1ecca1c3714e">  382</a></span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; <a class="code" href="classgd_1_1_variable.html#aab23101b60055991adfd1ecca1c3714e">GetPersistentUuid</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> persistentUuid; };</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160; </div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160; <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;  <span class="keyword">static</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> TypeAsString(<a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> t);</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160; </div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;  <span class="keyword">static</span> <a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> StringAsType(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; str);</div>
 <div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160; </div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// GDCORE_VARIABLE_H</span></div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;  <span class="keywordtype">bool</span> folded;</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;  <span class="keyword">mutable</span> <a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> type;</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;  <span class="keyword">mutable</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> str;</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;  <span class="keyword">mutable</span> <span class="keywordtype">double</span> value;</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;  <span class="keyword">mutable</span> <span class="keywordtype">bool</span> boolVal;</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;  <span class="keyword">mutable</span> <span class="keywordtype">bool</span> hasMixedValues;</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;  <span class="keyword">mutable</span> std::map&lt;gd::String, std::shared_ptr&lt;Variable&gt;&gt;</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;      children;  </div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;  <span class="keyword">mutable</span> std::vector&lt;std::shared_ptr&lt;Variable&gt;&gt;</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;      childrenArray;  </div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;  <span class="keyword">mutable</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> persistentUuid;  </div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160; </div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;  <span class="keywordtype">void</span> CopyChildren(<span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">Variable</a>&amp; other);</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;};</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160; </div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;}  <span class="comment">// namespace gd</span></div>
 <div class="ttc" id="aclassgd_1_1_serializer_element_html"><div class="ttname"><a href="classgd_1_1_serializer_element.html">gd::SerializerElement</a></div><div class="ttdoc">A generic container that can represent a value ( containing a string, double, bool or int),...</div><div class="ttdef"><b>Definition:</b> SerializerElement.h:37</div></div>
 <div class="ttc" id="aclassgd_1_1_string_html"><div class="ttname"><a href="classgd_1_1_string.html">gd::String</a></div><div class="ttdoc">String represents an UTF8 encoded string.</div><div class="ttdef"><b>Definition:</b> String.h:31</div></div>
 <div class="ttc" id="aclassgd_1_1_variable_html"><div class="ttname"><a href="classgd_1_1_variable.html">gd::Variable</a></div><div class="ttdoc">Defines a variable which can be used by an object, a layout or a project.</div><div class="ttdef"><b>Definition:</b> Variable.h:29</div></div>
-<div class="ttc" id="aclassgd_1_1_variable_html_a00b6111cb6f3047394061e79802cc93e"><div class="ttname"><a href="classgd_1_1_variable.html#a00b6111cb6f3047394061e79802cc93e">gd::Variable::SetString</a></div><div class="ttdeci">void SetString(const gd::String &amp;newStr)</div><div class="ttdoc">Change the content of the variable, considered as a string.</div><div class="ttdef"><b>Definition:</b> Variable.h:87</div></div>
-<div class="ttc" id="aclassgd_1_1_variable_html_a1d9ceeb419934885198139365bfae413"><div class="ttname"><a href="classgd_1_1_variable.html#a1d9ceeb419934885198139365bfae413">gd::Variable::GetChildrenCount</a></div><div class="ttdeci">size_t GetChildrenCount() const</div><div class="ttdoc">Get the count of children that the variable has.</div><div class="ttdef"><b>Definition:</b> Variable.h:189</div></div>
-<div class="ttc" id="aclassgd_1_1_variable_html_a2ac36fe8852760d954b1c1044826dfe8"><div class="ttname"><a href="classgd_1_1_variable.html#a2ac36fe8852760d954b1c1044826dfe8">gd::Variable::GetAllChildren</a></div><div class="ttdeci">const std::map&lt; gd::String, std::shared_ptr&lt; Variable &gt; &gt; &amp; GetAllChildren() const</div><div class="ttdoc">Get the map containing all the children.</div><div class="ttdef"><b>Definition:</b> Variable.h:246</div></div>
-<div class="ttc" id="aclassgd_1_1_variable_html_a302f56ff5f31d0d35ee7186e57bfbc7d"><div class="ttname"><a href="classgd_1_1_variable.html#a302f56ff5f31d0d35ee7186e57bfbc7d">gd::Variable::SetValue</a></div><div class="ttdeci">void SetValue(double val)</div><div class="ttdoc">Change the content of the variable, considered as a number.</div><div class="ttdef"><b>Definition:</b> Variable.h:100</div></div>
-<div class="ttc" id="aclassgd_1_1_variable_html_a3e3a29c51108ef813d33be71a06bd133"><div class="ttname"><a href="classgd_1_1_variable.html#a3e3a29c51108ef813d33be71a06bd133">gd::Variable::Variable</a></div><div class="ttdeci">Variable()</div><div class="ttdoc">Default constructor creating a variable with 0 as value.</div><div class="ttdef"><b>Definition:</b> Variable.h:53</div></div>
-<div class="ttc" id="aclassgd_1_1_variable_html_a520e255c8871a28422cf9e0a086c6e40"><div class="ttname"><a href="classgd_1_1_variable.html#a520e255c8871a28422cf9e0a086c6e40">gd::Variable::IsFolded</a></div><div class="ttdeci">bool IsFolded() const</div><div class="ttdoc">True if the children should be folded in the variables editor.</div><div class="ttdef"><b>Definition:</b> Variable.h:325</div></div>
-<div class="ttc" id="aclassgd_1_1_variable_html_a9739dac5f5b1a2898f7496429ea55823"><div class="ttname"><a href="classgd_1_1_variable.html#a9739dac5f5b1a2898f7496429ea55823">gd::Variable::GetType</a></div><div class="ttdeci">Type GetType() const</div><div class="ttdoc">Get the type of the variable.</div><div class="ttdef"><b>Definition:</b> Variable.h:62</div></div>
-<div class="ttc" id="aclassgd_1_1_variable_html_a9813601c95bac03c4aab127db765e00c"><div class="ttname"><a href="classgd_1_1_variable.html#a9813601c95bac03c4aab127db765e00c">gd::Variable::SetBool</a></div><div class="ttdeci">void SetBool(bool val)</div><div class="ttdoc">Change the content of the variable, considered as a boolean.</div><div class="ttdef"><b>Definition:</b> Variable.h:115</div></div>
-<div class="ttc" id="aclassgd_1_1_variable_html_aab23101b60055991adfd1ecca1c3714e"><div class="ttname"><a href="classgd_1_1_variable.html#aab23101b60055991adfd1ecca1c3714e">gd::Variable::GetPersistentUuid</a></div><div class="ttdeci">const gd::String &amp; GetPersistentUuid() const</div><div class="ttdoc">Get the persistent UUID used to recognize the same variable between serialization.</div><div class="ttdef"><b>Definition:</b> Variable.h:360</div></div>
-<div class="ttc" id="aclassgd_1_1_variable_html_ab12233549a0016acd5b29911d97fc357"><div class="ttname"><a href="classgd_1_1_variable.html#ab12233549a0016acd5b29911d97fc357">gd::Variable::CastTo</a></div><div class="ttdeci">void CastTo(const gd::String &amp;type)</div><div class="ttdoc">Converts the variable to a new type.</div><div class="ttdef"><b>Definition:</b> Variable.h:72</div></div>
-<div class="ttc" id="aclassgd_1_1_variable_html_ae716166d6f98e86f8f9700190ce4ec6a"><div class="ttname"><a href="classgd_1_1_variable.html#ae716166d6f98e86f8f9700190ce4ec6a">gd::Variable::ClearChildren</a></div><div class="ttdeci">void ClearChildren()</div><div class="ttdoc">Remove all the children.</div><div class="ttdef"><b>Definition:</b> Variable.h:181</div></div>
-<div class="ttc" id="aclassgd_1_1_variable_html_af7f7c991e13d8890dee6200742ff7fe6"><div class="ttname"><a href="classgd_1_1_variable.html#af7f7c991e13d8890dee6200742ff7fe6">gd::Variable::GetAllChildrenArray</a></div><div class="ttdeci">const std::vector&lt; std::shared_ptr&lt; Variable &gt; &gt; &amp; GetAllChildrenArray() const</div><div class="ttdoc">Get the vector containing all the children.</div><div class="ttdef"><b>Definition:</b> Variable.h:313</div></div>
-<div class="ttc" id="aclassgd_1_1_variable_html_af82b592f925c89495e9fca971775ff84"><div class="ttname"><a href="classgd_1_1_variable.html#af82b592f925c89495e9fca971775ff84">gd::Variable::SetFolded</a></div><div class="ttdeci">void SetFolded(bool fold=true)</div><div class="ttdoc">Set if the children must be folded.</div><div class="ttdef"><b>Definition:</b> Variable.h:320</div></div>
+<div class="ttc" id="aclassgd_1_1_variable_html_a00b6111cb6f3047394061e79802cc93e"><div class="ttname"><a href="classgd_1_1_variable.html#a00b6111cb6f3047394061e79802cc93e">gd::Variable::SetString</a></div><div class="ttdeci">void SetString(const gd::String &amp;newStr)</div><div class="ttdoc">Change the content of the variable, considered as a string.</div><div class="ttdef"><b>Definition:</b> Variable.h:89</div></div>
+<div class="ttc" id="aclassgd_1_1_variable_html_a06d83e4a398f4b54603c8ce1c4b18ece"><div class="ttname"><a href="classgd_1_1_variable.html#a06d83e4a398f4b54603c8ce1c4b18ece">gd::Variable::Type</a></div><div class="ttdeci">Type</div><div class="ttdef"><b>Definition:</b> Variable.h:32</div></div>
+<div class="ttc" id="aclassgd_1_1_variable_html_a06d83e4a398f4b54603c8ce1c4b18ecea7b5fea0f20ba78a50a5b3de869a168c3"><div class="ttname"><a href="classgd_1_1_variable.html#a06d83e4a398f4b54603c8ce1c4b18ecea7b5fea0f20ba78a50a5b3de869a168c3">gd::Variable::MixedTypes</a></div><div class="ttdeci">@ MixedTypes</div><div class="ttdef"><b>Definition:</b> Variable.h:35</div></div>
+<div class="ttc" id="aclassgd_1_1_variable_html_a1d9ceeb419934885198139365bfae413"><div class="ttname"><a href="classgd_1_1_variable.html#a1d9ceeb419934885198139365bfae413">gd::Variable::GetChildrenCount</a></div><div class="ttdeci">size_t GetChildrenCount() const</div><div class="ttdoc">Get the count of children that the variable has.</div><div class="ttdef"><b>Definition:</b> Variable.h:211</div></div>
+<div class="ttc" id="aclassgd_1_1_variable_html_a2ac36fe8852760d954b1c1044826dfe8"><div class="ttname"><a href="classgd_1_1_variable.html#a2ac36fe8852760d954b1c1044826dfe8">gd::Variable::GetAllChildren</a></div><div class="ttdeci">const std::map&lt; gd::String, std::shared_ptr&lt; Variable &gt; &gt; &amp; GetAllChildren() const</div><div class="ttdoc">Get the map containing all the children.</div><div class="ttdef"><b>Definition:</b> Variable.h:268</div></div>
+<div class="ttc" id="aclassgd_1_1_variable_html_a302f56ff5f31d0d35ee7186e57bfbc7d"><div class="ttname"><a href="classgd_1_1_variable.html#a302f56ff5f31d0d35ee7186e57bfbc7d">gd::Variable::SetValue</a></div><div class="ttdeci">void SetValue(double val)</div><div class="ttdoc">Change the content of the variable, considered as a number.</div><div class="ttdef"><b>Definition:</b> Variable.h:103</div></div>
+<div class="ttc" id="aclassgd_1_1_variable_html_a3e3a29c51108ef813d33be71a06bd133"><div class="ttname"><a href="classgd_1_1_variable.html#a3e3a29c51108ef813d33be71a06bd133">gd::Variable::Variable</a></div><div class="ttdeci">Variable()</div><div class="ttdoc">Default constructor creating a variable with 0 as value.</div><div class="ttdef"><b>Definition:</b> Variable.h:55</div></div>
+<div class="ttc" id="aclassgd_1_1_variable_html_a520e255c8871a28422cf9e0a086c6e40"><div class="ttname"><a href="classgd_1_1_variable.html#a520e255c8871a28422cf9e0a086c6e40">gd::Variable::IsFolded</a></div><div class="ttdeci">bool IsFolded() const</div><div class="ttdoc">True if the children should be folded in the variables editor.</div><div class="ttdef"><b>Definition:</b> Variable.h:347</div></div>
+<div class="ttc" id="aclassgd_1_1_variable_html_a8534ef3261dca0fac39d6f4f7ac11d87"><div class="ttname"><a href="classgd_1_1_variable.html#a8534ef3261dca0fac39d6f4f7ac11d87">gd::Variable::HasMixedValues</a></div><div class="ttdeci">bool HasMixedValues() const</div><div class="ttdoc">Return true when objects of a group have different values for a variable.</div><div class="ttdef"><b>Definition:</b> Variable.h:129</div></div>
+<div class="ttc" id="aclassgd_1_1_variable_html_a9739dac5f5b1a2898f7496429ea55823"><div class="ttname"><a href="classgd_1_1_variable.html#a9739dac5f5b1a2898f7496429ea55823">gd::Variable::GetType</a></div><div class="ttdeci">Type GetType() const</div><div class="ttdoc">Get the type of the variable.</div><div class="ttdef"><b>Definition:</b> Variable.h:64</div></div>
+<div class="ttc" id="aclassgd_1_1_variable_html_a9813601c95bac03c4aab127db765e00c"><div class="ttname"><a href="classgd_1_1_variable.html#a9813601c95bac03c4aab127db765e00c">gd::Variable::SetBool</a></div><div class="ttdeci">void SetBool(bool val)</div><div class="ttdoc">Change the content of the variable, considered as a boolean.</div><div class="ttdef"><b>Definition:</b> Variable.h:119</div></div>
+<div class="ttc" id="aclassgd_1_1_variable_html_aab23101b60055991adfd1ecca1c3714e"><div class="ttname"><a href="classgd_1_1_variable.html#aab23101b60055991adfd1ecca1c3714e">gd::Variable::GetPersistentUuid</a></div><div class="ttdeci">const gd::String &amp; GetPersistentUuid() const</div><div class="ttdoc">Get the persistent UUID used to recognize the same variable between serialization.</div><div class="ttdef"><b>Definition:</b> Variable.h:382</div></div>
+<div class="ttc" id="aclassgd_1_1_variable_html_ab12233549a0016acd5b29911d97fc357"><div class="ttname"><a href="classgd_1_1_variable.html#ab12233549a0016acd5b29911d97fc357">gd::Variable::CastTo</a></div><div class="ttdeci">void CastTo(const gd::String &amp;type)</div><div class="ttdoc">Converts the variable to a new type.</div><div class="ttdef"><b>Definition:</b> Variable.h:74</div></div>
+<div class="ttc" id="aclassgd_1_1_variable_html_ae716166d6f98e86f8f9700190ce4ec6a"><div class="ttname"><a href="classgd_1_1_variable.html#ae716166d6f98e86f8f9700190ce4ec6a">gd::Variable::ClearChildren</a></div><div class="ttdeci">void ClearChildren()</div><div class="ttdoc">Remove all the children.</div><div class="ttdef"><b>Definition:</b> Variable.h:203</div></div>
+<div class="ttc" id="aclassgd_1_1_variable_html_af7f7c991e13d8890dee6200742ff7fe6"><div class="ttname"><a href="classgd_1_1_variable.html#af7f7c991e13d8890dee6200742ff7fe6">gd::Variable::GetAllChildrenArray</a></div><div class="ttdeci">const std::vector&lt; std::shared_ptr&lt; Variable &gt; &gt; &amp; GetAllChildrenArray() const</div><div class="ttdoc">Get the vector containing all the children.</div><div class="ttdef"><b>Definition:</b> Variable.h:335</div></div>
+<div class="ttc" id="aclassgd_1_1_variable_html_af82b592f925c89495e9fca971775ff84"><div class="ttname"><a href="classgd_1_1_variable.html#af82b592f925c89495e9fca971775ff84">gd::Variable::SetFolded</a></div><div class="ttdeci">void SetFolded(bool fold=true)</div><div class="ttdoc">Set if the children must be folded.</div><div class="ttdef"><b>Definition:</b> Variable.h:342</div></div>
 <div class="ttc" id="anamespacegd_html"><div class="ttname"><a href="namespacegd.html">gd</a></div><div class="ttdef"><b>Definition:</b> CommonTools.h:24</div></div>
 <div class="ttc" id="arapidjson_8h_html_a1d1cfd8ffb84e947f82999c682b666a7"><div class="ttname"><a href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a></div><div class="ttdeci">Type</div><div class="ttdoc">Type of JSON value.</div><div class="ttdef"><b>Definition:</b> rapidjson.h:603</div></div>
 </div><!-- fragment --></div><!-- contents -->

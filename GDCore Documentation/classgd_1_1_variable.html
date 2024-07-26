@@ -86,13 +86,14 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a06d83e4a398f4b54603c8ce1c4b18ece"><td class="memItemLeft" align="right" valign="top"><a id="a06d83e4a398f4b54603c8ce1c4b18ece"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>Type</b> { <br />
+<tr class="memitem:a06d83e4a398f4b54603c8ce1c4b18ece"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variable.html#a06d83e4a398f4b54603c8ce1c4b18ece">Type</a> { <br />
 &#160;&#160;<b>Unknown</b>
+, <a class="el" href="classgd_1_1_variable.html#a06d83e4a398f4b54603c8ce1c4b18ecea7b5fea0f20ba78a50a5b3de869a168c3">MixedTypes</a>
 , <b>String</b>
 , <b>Number</b>
-, <b>Boolean</b>
 , <br />
-&#160;&#160;<b>Structure</b>
+&#160;&#160;<b>Boolean</b>
+, <b>Structure</b>
 , <b>Array</b>
 <br />
  }</td></tr>
@@ -111,11 +112,11 @@ Public Member Functions</h2></td></tr>
 <a class="el" href="classgd_1_1_variable.html">Variable</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="classgd_1_1_variable.html">Variable</a> &amp;rhs)</td></tr>
 <tr class="separator:a4fff3b9f0bbbf87cd2306c48d364fc64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9739dac5f5b1a2898f7496429ea55823"><td class="memItemLeft" align="right" valign="top"><a id="a9739dac5f5b1a2898f7496429ea55823"></a>
-Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variable.html#a9739dac5f5b1a2898f7496429ea55823">GetType</a> () const</td></tr>
+<a class="el" href="classgd_1_1_variable.html#a06d83e4a398f4b54603c8ce1c4b18ece">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variable.html#a9739dac5f5b1a2898f7496429ea55823">GetType</a> () const</td></tr>
 <tr class="memdesc:a9739dac5f5b1a2898f7496429ea55823"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type of the variable. <br /></td></tr>
 <tr class="separator:a9739dac5f5b1a2898f7496429ea55823"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0655e4e12eee422a0ef0c9b6717c2e19"><td class="memItemLeft" align="right" valign="top"><a id="a0655e4e12eee422a0ef0c9b6717c2e19"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variable.html#a0655e4e12eee422a0ef0c9b6717c2e19">CastTo</a> (const Type newType)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variable.html#a0655e4e12eee422a0ef0c9b6717c2e19">CastTo</a> (const <a class="el" href="classgd_1_1_variable.html#a06d83e4a398f4b54603c8ce1c4b18ece">Type</a> newType)</td></tr>
 <tr class="memdesc:a0655e4e12eee422a0ef0c9b6717c2e19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the variable to a new type. <br /></td></tr>
 <tr class="separator:a0655e4e12eee422a0ef0c9b6717c2e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab12233549a0016acd5b29911d97fc357"><td class="memItemLeft" align="right" valign="top"><a id="ab12233549a0016acd5b29911d97fc357"></a>
@@ -149,6 +150,14 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variable.html#a9813601c95bac03c4aab127db765e00c">SetBool</a> (bool val)</td></tr>
 <tr class="memdesc:a9813601c95bac03c4aab127db765e00c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the content of the variable, considered as a boolean. <br /></td></tr>
 <tr class="separator:a9813601c95bac03c4aab127db765e00c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8534ef3261dca0fac39d6f4f7ac11d87"><td class="memItemLeft" align="right" valign="top"><a id="a8534ef3261dca0fac39d6f4f7ac11d87"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variable.html#a8534ef3261dca0fac39d6f4f7ac11d87">HasMixedValues</a> () const</td></tr>
+<tr class="memdesc:a8534ef3261dca0fac39d6f4f7ac11d87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true when objects of a group have different values for a variable. <br /></td></tr>
+<tr class="separator:a8534ef3261dca0fac39d6f4f7ac11d87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e600123b22877f3b5ec2a36e7206c57"><td class="memItemLeft" align="right" valign="top"><a id="a5e600123b22877f3b5ec2a36e7206c57"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variable.html#a5e600123b22877f3b5ec2a36e7206c57">MarkAsMixedValues</a> ()</td></tr>
+<tr class="memdesc:a5e600123b22877f3b5ec2a36e7206c57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true when objects of a group have different values for a variable. <br /></td></tr>
+<tr class="separator:a5e600123b22877f3b5ec2a36e7206c57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9299f8dfc9a14e9f743940f2a6ec5cc7"><td class="memItemLeft" align="right" valign="top"><a id="a9299f8dfc9a14e9f743940f2a6ec5cc7"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (double val)</td></tr>
 <tr class="separator:a9299f8dfc9a14e9f743940f2a6ec5cc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -248,6 +257,12 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (const
 <tr class="memitem:a318a208fe69ec48255ebb330801825a6"><td class="memItemLeft" align="right" valign="top"><a id="a318a208fe69ec48255ebb330801825a6"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (const bool val) const</td></tr>
 <tr class="separator:a318a208fe69ec48255ebb330801825a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d2e8afd2b06b78ef304fa8c73e9b111"><td class="memItemLeft" align="right" valign="top"><a id="a5d2e8afd2b06b78ef304fa8c73e9b111"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (const <a class="el" href="classgd_1_1_variable.html">gd::Variable</a> &amp;variable) const</td></tr>
+<tr class="separator:a5d2e8afd2b06b78ef304fa8c73e9b111"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7eeb5fc45bd5159574d2e4176db68fb3"><td class="memItemLeft" align="right" valign="top"><a id="a7eeb5fc45bd5159574d2e4176db68fb3"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (const <a class="el" href="classgd_1_1_variable.html">gd::Variable</a> &amp;variable) const</td></tr>
+<tr class="separator:a7eeb5fc45bd5159574d2e4176db68fb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Collection types</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Methods used for collection types </p>
 </div></td></tr>
@@ -361,7 +376,7 @@ const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</t
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ac6f595831a1968c5d95da4888b2fdb7e"><td class="memItemLeft" align="right" valign="top"><a id="ac6f595831a1968c5d95da4888b2fdb7e"></a>
-static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variable.html#ac6f595831a1968c5d95da4888b2fdb7e">IsPrimitive</a> (const Type type)</td></tr>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variable.html#ac6f595831a1968c5d95da4888b2fdb7e">IsPrimitive</a> (const <a class="el" href="classgd_1_1_variable.html#a06d83e4a398f4b54603c8ce1c4b18ece">Type</a> type)</td></tr>
 <tr class="memdesc:ac6f595831a1968c5d95da4888b2fdb7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the passed type is primitive. <br /></td></tr>
 <tr class="separator:ac6f595831a1968c5d95da4888b2fdb7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -374,7 +389,26 @@ static <a class="el" href="classgd_1_1_variable.html">gd::Variable</a>&#160;</td
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Defines a variable which can be used by an object, a layout or a project. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_variables_container.html" title="Class defining a container for gd::Variable.">gd::VariablesContainer</a> </dd></dl>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a06d83e4a398f4b54603c8ce1c4b18ece"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06d83e4a398f4b54603c8ce1c4b18ece">&#9670;&nbsp;</a></span>Type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classgd_1_1_variable.html#a06d83e4a398f4b54603c8ce1c4b18ece">gd::Variable::Type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a06d83e4a398f4b54603c8ce1c4b18ecea7b5fea0f20ba78a50a5b3de869a168c3"></a>MixedTypes&#160;</td><td class="fielddoc"><p>Used when objects of a group have different types for a variable. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="aed487fad1b85fd1c8486a43ac30d467d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aed487fad1b85fd1c8486a43ac30d467d">&#9670;&nbsp;</a></span>GetAtIndex() <span class="overload">[1/2]</span></h2>
 
