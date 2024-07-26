@@ -6,11 +6,13 @@ title: Tilemap
 
 The Tilemap object can be used to display tile-based objects. It's a good way to create **maps** for RPG, strategy games or create objects by **assembling tiles**, useful for platformer, retro-looking games, etc.
 
+They are performant and useful to render large levels. While the Tilemap is quick and easy to use, you may want to design maps in an external editor like LDtk or Tiled. In this case, take a look at the [External Tilemap object](/gdevelop5/objects/tilemap).
+
 ## Get started
 
-Tilemap objects require little configuration.
+Setting up a Tilemap is straightforward. You need a **Tileset**, also called **Atlas**, which is an image that contains all the tiles of the map.
 
-### Atlas image
+### Set up the tileset image (also called "Atlas")
 
 The atlas image is the image that will be sliced into smaller images (tiles).
 A tilemap is a spatial arrangement of those tiles.
@@ -18,7 +20,7 @@ A tilemap is a spatial arrangement of those tiles.
 !!! tip
       An atlas image can have some empty spaces. Those spaces can be used later if tiles need to be added without changing the image dimensions.
 
-### Tile size
+### Choose the tile size
 
 !!! note
       Only square tiles are supported at the moment.
@@ -29,20 +31,17 @@ For instance, with an image of dimensions 32x128, the tile size can be different
 
 If this check is not satisfied, an error message will be displayed.
 
-### Tiles with hit box
+### Set up solid tiles (hitboxes)
 
-Tiles can be configured to have a hit box.
-To do so, when the atlas image is set, tiles can be selected by clicking on the image. The selected tiles with then have a hit box in game.
+Tiles can be configured to have a hitbox.
+When the atlas image is set, tiles can be selected by clicking on the image. The selected tiles with then have a hit box in game.
 
 Those hit boxes can then be used with the platform behavior, the light obstacle behavior, raycasting and others.
 
 !!! note
-      At the moment, the hit box takes up the whole space in the tile.
-
-!!! note
       The physics behavior will consider the tilemap as a whole object and not use the hitboxes to have different bodies.
 
-## Paint on the editor
+## Paint a map in the scene editor
 
 Once the tilemap object is configured, add an instance on the scene.
 
@@ -64,9 +63,7 @@ To do so, tiles have identifiers. The tile identifier (id) is automatically comp
 6 │ 7
 ```
 
-So if the image width and/or the tile size change, the tile identifiers also change.
-
-Therefore, in order to expand the atlas image to get more tiles without impacting the tile maps based on it, the atlas should be expanded towards the bottom.
+If the image width and/or the tile size change, the tile identifiers will also change. To expand the atlas image, to have more tiles, without impacting the tile maps based on it, the atlas should be expanded towards the bottom.
 
 ## Reference
 
