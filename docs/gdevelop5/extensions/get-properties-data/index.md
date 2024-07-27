@@ -5,6 +5,13 @@ Get Version, Title, Publisher name, PackageName from properties tab.
 
 **Authors and contributors** to this community extension: [UlisesFreitas](https://gd.games/UlisesFreitas).
 
+!!! warning
+    This is an extension made by a community member — but not reviewed
+    by the GDevelop extension team. As such, we can't guarantee it
+    meets all the quality standards of official extensions. In case of
+    doubt, contact the author to know more about what the extension
+    does or inspect its content before using it.
+
 ---
 
 * Add an string expression that returns the current game version from game properties tab.

@@ -14,11 +14,9 @@ nav:
         - Base conversion: base-conversion
         - Color Conversion: color-conversion
         - Compressor: compressor
-        - Current game version: current-game-version
         - Pathfinding painter: draw-pathfinding
         - Extended math support: extended-math
         - Frames per second (FPS): fps
-        - Game properties data: get-properties-data
         - Hash: hash
         - Object picking tools: object-picking-tools
         - Random Color Generator: random-color
@@ -162,6 +160,7 @@ nav:
     - Community extensions:
         - Advanced:
             - Crypto Api: crypto-api
+            - Game properties data: get-properties-data
             - Rotate a string 13 characters: rotate13
         - Audio:
             - Sounds and music by filename: audio-by-name
