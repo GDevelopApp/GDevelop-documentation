@@ -19,7 +19,6 @@ nav:
         - Frames per second (FPS): fps
         - Hash: hash
         - Object picking tools: object-picking-tools
-        - Random Color Generator: random-color
         - Read pixels: read-pixels
         - Record: record
         - Regular Expressions: reg-ex
@@ -62,7 +61,6 @@ nav:
         - Values of multiple objects: values-of-multiple-objects
     - General:
         - Array tools: array-tools
-        - Choose a random value: choose
         - Extended variables support: extended-variables
         - Repeat every X seconds: repeat-every-xseconds
     - Input:
@@ -91,7 +89,6 @@ nav:
         - Face Forward: face-forward
         - Homing projectile: homing-projectile
         - Linear Movement: linear-movement
-        - Magnetic Effect: magnetic-effect
         - Make objects orbit around a center object: orbiting-objects
         - Pixel perfect movement: pixel-perfect-movement
         - Platformer character animator: platformer-character-animator
@@ -132,7 +129,6 @@ nav:
         - Pop-up: pop-up
         - Share dialog and sharing options: share
         - Toggle switch: sprite-toggle-switch
-        - Star Rating: star-rating
         - Console (commands handler for Text Entry objects): text-entry-console
         - Mobile virtual keyboard for Text Entry: text-entry-virtual-keyboard
         - Resource bar (separated units): tiled-units-bar
@@ -148,7 +144,6 @@ nav:
         - Slice an object into pieces: object-slicer
         - 3D particle emitter: particle-emitter3d
         - Object recolorizer (experimental): recolorizer
-        - Reflection: reflection
         - Animate Shadow Clones: shadow-clones
         - Shake object: shake-object
         - 3D object shake: shake-object3d
@@ -161,6 +156,7 @@ nav:
         - Advanced:
             - Crypto Api: crypto-api
             - Game properties data: get-properties-data
+            - Random Color Generator: random-color
             - Rotate a string 13 characters: rotate13
         - Audio:
             - Sounds and music by filename: audio-by-name
@@ -178,6 +174,7 @@ nav:
             - Slot system: slot-system
         - General:
             - With Three JS: with-three-js
+            - Choose a random value (deprecated): choose
             - 3D collision: collision3d
             - Countdown Timer: countdown-timer
             - JSON Resource Loading: jsonresource-loader
@@ -198,6 +195,7 @@ nav:
             - HasLanded: has-landed
             - Joint Connector: joint-connector
             - 3D jump: jump3d
+            - Magnetic Effect: magnetic-effect
             - Navigation mesh pathfinding (experimental): nav-mesh-pathfinding
             - Platform ledge grabber: platform-ledge-grabber
             - Point and Orbit: point-and-orbit
@@ -228,11 +226,13 @@ nav:
             - Dialog Box: dialog-box
             - Flexbox: flex-box
             - Pause when losing focus: pause-focus-lost
+            - Star Rating: star-rating
         - Visual effect:
             - Animation system: animation-system
             - Character game feel: character-game-feel
             - Dynamic Water: dynamic-water
             - Make it rain: make-it-rain
+            - Reflection: reflection
             - Sprite Based Lighting: sprite-based-lighting
             - Advanced 3D tween (experimental): tween3d
     - ...

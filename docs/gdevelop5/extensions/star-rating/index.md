@@ -5,6 +5,13 @@ A rating system indicated by stars using the shape painter.
 
 **Authors and contributors** to this community extension: [Entropy](https://gd.games/Entropy).
 
+!!! warning
+    This is an extension made by a community member — but not reviewed
+    by the GDevelop extension team. As such, we can't guarantee it
+    meets all the quality standards of official extensions. In case of
+    doubt, contact the author to know more about what the extension
+    does or inspect its content before using it.
+
 ---
 
 A behavior to turn a shape painter into a rating system indicated by stars.
