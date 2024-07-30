@@ -173,15 +173,9 @@ You can organize objects into _groups_ and then refer to all of the objects in t
 
 This makes it possible to create events that applies to lots of objects without repeating events multiple times, increasing performance of your game, maintainability, and readability of your events.
 
-To organize objects into groups:
+!!! tip
 
-1. In the toolbar, select the **Groups** icon.
-2. Select **Click to add a group**.
-3. Select the group.
-4. In the **Edit group** dialog, select the objects to add the group.
-5. Select **Apply**.
-
-![](pasted/20230305-104858.png)
+    For more information, refer to [object groups](/gdevelop5/objects/object-groups).
 
 ## Advanced: create custom objects (aka "prefabs" or "templates")
 
