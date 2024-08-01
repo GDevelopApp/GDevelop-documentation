@@ -47,11 +47,6 @@ For example, suppose if the first value is entered as 5, the sign of the test is
 
 When you use the "**Compare two strings**" condition, it will compare the two strings/expression based on the Sign of the test. If the numbers satisfy the test, the condition returns true and the corresponding actions are performed.
 
-## Always true/false
-![](always-condition.png)
-
-If you want a condition to always return true and the corresponding actions to be performed, you can use the "**Always**" condition. If the condition is inverted, it will always return false,_i.e. the corresponding actions will never be performed._
-
 ## Reference
 
 All actions, conditions and expressions are listed in [the advanced conditions reference page](/gdevelop5/all-features/common-instructions/reference/).
