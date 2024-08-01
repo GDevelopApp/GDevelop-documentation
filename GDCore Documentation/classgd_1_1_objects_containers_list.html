@@ -131,8 +131,11 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:aa2d1fad4a4db7324cdf82ba0f3d87eb8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_containers_list.html#aa2d1fad4a4db7324cdf82ba0f3d87eb8">GetBehaviorsOfObject</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectName, bool searchInGroups=true) const</td></tr>
 <tr class="memdesc:aa2d1fad4a4db7324cdf82ba0f3d87eb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get behaviors of an object/group.  <a href="classgd_1_1_objects_containers_list.html#aa2d1fad4a4db7324cdf82ba0f3d87eb8">More...</a><br /></td></tr>
 <tr class="separator:aa2d1fad4a4db7324cdf82ba0f3d87eb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cbb8298061caabeff7103fa235e396f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_containers_list.html#a4cbb8298061caabeff7103fa235e396f">GetAnimationNamesOfObject</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectOrGroupName) const</td></tr>
+<tr class="memdesc:a4cbb8298061caabeff7103fa235e396f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the animation names of an object/group.  <a href="classgd_1_1_objects_containers_list.html#a4cbb8298061caabeff7103fa235e396f">More...</a><br /></td></tr>
+<tr class="separator:a4cbb8298061caabeff7103fa235e396f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0495971eb11054e21bed2356db951ff6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_containers_list.html#a0495971eb11054e21bed2356db951ff6">ExpandObjectName</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectOrGroupName, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;onlyObjectToSelectIfPresent=&quot;&quot;) const</td></tr>
-<tr class="memdesc:a0495971eb11054e21bed2356db951ff6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a list containing all objects refered to by the group. If an object name is passed, then only this object name is returned.  <a href="classgd_1_1_objects_containers_list.html#a0495971eb11054e21bed2356db951ff6">More...</a><br /></td></tr>
+<tr class="memdesc:a0495971eb11054e21bed2356db951ff6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a list containing all objects referred to by the group. If an object name is passed, then only this object name is returned.  <a href="classgd_1_1_objects_containers_list.html#a0495971eb11054e21bed2356db951ff6">More...</a><br /></td></tr>
 <tr class="separator:a0495971eb11054e21bed2356db951ff6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4df2247c9121009b4df3044af4e374ce"><td class="memItemLeft" align="right" valign="top"><a id="a4df2247c9121009b4df3044af4e374ce"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ForEachObject</b> (std::function&lt; void(const <a class="el" href="classgd_1_1_object.html">gd::Object</a> &amp;object)&gt; fn) const</td></tr>
@@ -229,8 +232,30 @@ static <a class="el" href="classgd_1_1_objects_containers_list.html">ObjectsCont
       </table>
 </div><div class="memdoc">
 
-<p>Return a list containing all objects refered to by the group. If an object name is passed, then only this object name is returned. </p>
+<p>Return a list containing all objects referred to by the group. If an object name is passed, then only this object name is returned. </p>
 <p>If <em>onlyObjectToSelectIfPresent</em> is set and present in the group(s), only this object will be returned. This is useful for considering this object as the "currently selected" object, when generating a condition or an action. </p>
+
+</div>
+</div>
+<a id="a4cbb8298061caabeff7103fa235e396f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cbb8298061caabeff7103fa235e396f">&#9670;&nbsp;</a></span>GetAnimationNamesOfObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; gd::ObjectsContainersList::GetAnimationNamesOfObject </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>objectOrGroupName</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the animation names of an object/group. </p>
+<dl class="section note"><dt>Note</dt><dd>The animation names of a group are the animation names common to every object of the group.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The names of animations </dd></dl>
 
 </div>
 </div>
