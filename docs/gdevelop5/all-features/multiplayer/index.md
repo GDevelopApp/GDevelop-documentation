@@ -64,14 +64,17 @@ Lobbies in preview are different than the lobbies when the game is published, al
 
 ### Configuring the lobby
 
-Lobbies are automatically created for your game.
-If you want to customize them, such as the number of players needed to start a game or the maximum number of players, head to your game dashboard in the editor.
+Lobbies are automatically created for your game. To customize them, head to your game dashboard in the editor. You can notably:
+
+- Define the number of players needed to start a game (unless your game requires a specific number, we recommend to leave it at 1 so a single player can start a game),
+- Define the maximum number of players in a lobby,
+- Define if players are allowed or not to join a game in progress (recommended for most games).
 
 ![Lobbies configuration in the game dashboard](./lobbies-configuration.png)
 
 ### Letting the players join a new game
 
-Use the action **Open game lobbies**. This action will show the lobbies to the player, so they can join a game.
+Use the action **Open game lobbies**. This action will show the lobbies to the player, so they can join a game (empty or already started).
 
 ![Default Lobbies screen](./default-lobbies-screen.png)
 
@@ -112,6 +115,26 @@ Typically, you can use this condition to either start moving things in your game
 When developing the game, you can open multiple preview windows and join the same lobby with the same account. This way, you can test the multiplayer features without needing multiple devices.
 
 ![Open multiple preview windows to test a multiplayer game](./multiple-previews.png)
+
+### Letting players join a game in progress
+
+By default, a lobby allows players to join a game in progress. If your game shouldn't support this, you can disable this feature in the lobbies configuration.
+The good news is: there isn't much to do to handle this in most games!
+
+When a player joins a game in progress, they will be assigned a new player number (not already used) and will automatically be synchronized with the other players and receive the current game state (the current scene, variable values, objects from other players). The condition **Lobby game has just started** will be valid for this player, as if they were there joining at the beginning of the game.
+
+If needed, you can use the conditions **Player is connected**, **Player has joined**, or **Player has left** to check if a player is connected, has joined the game, or has left the game.
+This can be useful for example if you want the host to:
+
+- Create a specific item for them when they join,
+- Adapt the difficulty of the game depending on the number of players,
+- Display a message to the other players when a player joins or leaves the game...
+
+??? tip
+
+      Be careful when using the condition **Player has joined**. When this condition turns true, it means that the player has joined the game, but it doesn't mean that their objects are synchronized yet. You might need to wait a few frames before using the objects owned by this player.
+
+      For example, do not assume that a character created by a player when they join the game will be accessible when the condition **Player has joined** turns true. Instead, adapt your events to always look at all the objects on the scene, and react depending on the ones that are present or not.
 
 ### Ending a game
 
@@ -309,4 +332,4 @@ Note that each player's scene will keep running unless you use the condition to 
 Missing features or limitations:
 
 - The lobby UI is not customizable yet.
-- Joining a lobby during the game is not yet possible, but will be introduced as a configurable option later. This will allow games to continue playing with players joining or leaving as long as the host continues playing.
+- When the host leaves, the game is ended for all players. We will introduce later the possibility to migrate automatically the host to another player.
