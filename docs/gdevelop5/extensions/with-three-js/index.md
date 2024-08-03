@@ -119,7 +119,7 @@ This 3D Object without geometry is useful for grouping other 3D Objects together
 Create a new 3D model from the 3D model loaded with the "Load 3D Model From OBJ" action.
 
 **💎Create 3D Model From Built-In 3D Model**  
-💎Create 3D Model From Built-In 3D Model
+The only valid object properties are "3D model" and "Material modifier".
 
 **✨Create 3D Plane**  
 ✨Create 3D Plane
@@ -240,8 +240,11 @@ Rotate the 3D Object in the order X, Y, Z on the world axis.
 **👤Set 3D Object Shadow**  
 If both "Cast Shadow" and "Receive Shadow" are enabled, striped patterns are likely to occur in the shadow.
 
-**👥Set 3D Object ID Of Children To Scene Variable**  
+**👥Set 3D Object ID Of Children To Scene Variable (Deprecated)**  
 Set 3D Object ID of all children to scene variable as array.
+
+**👥Set 3D Object ID Of Children To Variable**  
+Set 3D Object ID of all children to variable (Global, Scene or Local) as array.
 
 **📝Set number to 3D Object Variable**  
 📝Set number to 3D Object Variable
@@ -333,7 +336,7 @@ This condition cannot be tested correctly if the visibility of the 3D object is 
 | `WithThreeJS::ObjectNumberVariable(string, string)` | 3D Object Number Variable ||
 | | _🔤 Name (String)_ | 3D Object ID |
 | | _🔤 Name (String)_ | 3D Object Variable Name |
-| `WithThreeJS::ObjectOpacity(string)` | 3D Object Opacity ||
+| `WithThreeJS::ObjectOpacity(string)` | Returns the opacity of the 3D Object, or the first opacity found among its children. ||
 | | _🔤 Name (String)_ | 3D Object ID |
 | `WithThreeJS::ObjectParent(string)` | 3D Object Parent ||
 | | _🔤 Name (String)_ | 3D Object ID |
