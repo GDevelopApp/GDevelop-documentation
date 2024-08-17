@@ -90,6 +90,7 @@ nav:
         - Homing projectile: homing-projectile
         - Linear Movement: linear-movement
         - Make objects orbit around a center object: orbiting-objects
+        - Physics car: physics-car
         - Pixel perfect movement: pixel-perfect-movement
         - Platformer character animator: platformer-character-animator
         - Platformer trajectory: platformer-trajectory

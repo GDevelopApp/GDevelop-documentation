@@ -49,11 +49,11 @@ Change the follow free area top border on Z axis of the object.
 **Follow free area bottom border on Z axis**  
 Change the follow free area bottom border on Z axis of the object.
 
-**X offset**  
-Change the x offset of the object.
+**Lateral distance offset**  
+Change the lateral distance offset of the object.
 
-**Y offset**  
-Change the y offset of the object.
+**Ahead distance offset**  
+Change the ahead distance offset of the object.
 
 **Z offset**  
 Change the z offset of the object.
@@ -81,11 +81,11 @@ Compare the follow free area top border on Z axis of the object.
 **Follow free area bottom border on Z axis**  
 Compare the follow free area bottom border on Z axis of the object.
 
-**X offset**  
-Compare the x offset of the object.
+**Lateral distance offset**  
+Compare the lateral distance offset of the object.
 
-**Y offset**  
-Compare the y offset of the object.
+**Ahead distance offset**  
+Compare the ahead distance offset of the object.
 
 **Z offset**  
 Compare the z offset of the object.
@@ -107,8 +107,8 @@ Compare the halfway time on Z axis of the object.
 | `Object.ThirdPersonCamera::ElevationAngleOffset()` | Return the elevation angle offset of the object. ||
 | `Object.ThirdPersonCamera::FollowFreeAreaZMax()` | Return the follow free area top border on Z axis of the object. ||
 | `Object.ThirdPersonCamera::FollowFreeAreaZMin()` | Return the follow free area bottom border on Z axis of the object. ||
-| `Object.ThirdPersonCamera::OffsetX()` | Return the x offset of the object. ||
-| `Object.ThirdPersonCamera::OffsetY()` | Return the y offset of the object. ||
+| `Object.ThirdPersonCamera::OffsetX()` | Return the lateral distance offset of the object. ||
+| `Object.ThirdPersonCamera::OffsetY()` | Return the ahead distance offset of the object. ||
 | `Object.ThirdPersonCamera::OffsetZ()` | Return the z offset of the object. ||
 | `Object.ThirdPersonCamera::RotationAngleOffset()` | Return the rotation angle offset of the object. ||
 | `Object.ThirdPersonCamera::RotationHalfwayDuration()` | Return the halfway time for rotation of the object. ||
