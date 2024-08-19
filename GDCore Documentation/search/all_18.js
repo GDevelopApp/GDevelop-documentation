@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['y_2058',['y',['../classgd_1_1_vector2.html#adc5d73a636fbf91a776f62d666855e81',1,'gd::Vector2']]]
+  ['x_2061',['x',['../classgd_1_1_vector2.html#adec3025dfd995d83da68cc5bd5c41695',1,'gd::Vector2']]]
 ];

@@ -1,4 +1,12 @@
 var searchData=
 [
-  ['x_2057',['x',['../classgd_1_1_vector2.html#adec3025dfd995d83da68cc5bd5c41695',1,'gd::Vector2']]]
+  ['watermark_2052',['Watermark',['../classgd_1_1_watermark.html',1,'gd']]],
+  ['whileevent_2053',['WhileEvent',['../classgd_1_1_while_event.html',1,'gd']]],
+  ['wholeprojectbrowser_2054',['WholeProjectBrowser',['../classgd_1_1_whole_project_browser.html',1,'gd']]],
+  ['wholeprojectdiagnosticreport_2055',['WholeProjectDiagnosticReport',['../classgd_1_1_whole_project_diagnostic_report.html',1,'gd']]],
+  ['wholeprojectrefactorer_2056',['WholeProjectRefactorer',['../classgd_1_1_whole_project_refactorer.html',1,'gd']]],
+  ['writer_2057',['Writer',['../class_writer.html',1,'Writer&lt; OutputStream, SourceEncoding, TargetEncoding, StackAllocator, writeFlags &gt;'],['../class_writer.html#af4f54830d6927d9daf5bd53bfd134dd3',1,'Writer::Writer()']]],
+  ['writer_3c_20outputstream_2c_20utf8_3c_3e_2c_20utf8_3c_3e_2c_20crtallocator_2c_20kwritedefaultflags_20_3e_2058',['Writer&lt; OutputStream, UTF8&lt;&gt;, UTF8&lt;&gt;, CrtAllocator, kWriteDefaultFlags &gt;',['../class_writer.html',1,'']]],
+  ['writetofile_2059',['WriteToFile',['../classgd_1_1_abstract_file_system.html#a6a785375d2cb6067731ef224920dffb2',1,'gd::AbstractFileSystem']]],
+  ['writtenparametersfirstindex_2060',['WrittenParametersFirstIndex',['../classgd_1_1_expression_parser2.html#a7b0480e463a8f795f4c87911adcd8949',1,'gd::ExpressionParser2']]]
 ];

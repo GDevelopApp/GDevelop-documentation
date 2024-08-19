@@ -200,8 +200,8 @@ $(function() {
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;             parameterType == <span class="stringliteral">&quot;scenevar&quot;</span>;</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (type == <span class="stringliteral">&quot;resource&quot;</span>) {</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;      <span class="keywordflow">return</span> parameterType == <span class="stringliteral">&quot;fontResource&quot;</span> ||</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;             parameterType == <span class="stringliteral">&quot;soundfile&quot;</span> ||</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;             parameterType == <span class="stringliteral">&quot;musicfile&quot;</span> ||</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;             parameterType == <span class="stringliteral">&quot;audioResource&quot;</span> ||</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;             parameterType == <span class="stringliteral">&quot;videoResource&quot;</span> ||</div>
 <div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;             parameterType == <span class="stringliteral">&quot;bitmapFontResource&quot;</span> ||</div>
 <div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;             parameterType == <span class="stringliteral">&quot;imageResource&quot;</span> ||</div>
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;             parameterType == <span class="stringliteral">&quot;jsonResource&quot;</span> ||</div>
@@ -209,42 +209,45 @@ $(function() {
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;             parameterType == <span class="stringliteral">&quot;tilesetResource&quot;</span> ||</div>
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;             parameterType == <span class="stringliteral">&quot;model3DResource&quot;</span> ||</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;             parameterType == <span class="stringliteral">&quot;atlasResource&quot;</span> ||</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;             parameterType == <span class="stringliteral">&quot;spineResource&quot;</span>;</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    }</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;  }</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160; </div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;GetExpressionPrimitiveValueType(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;parameterType);</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160; </div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;GetPrimitiveValueType(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;parameterType);</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> numberType;</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> stringType;</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> variableType;</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> booleanType;</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160; </div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;ConvertPropertyTypeToValueType(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;propertyType);</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160; </div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160; </div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;  <span class="keywordtype">void</span> SerializeTo(<a class="code" href="classgd_1_1_serializer_element.html">gd::SerializerElement</a> &amp;element) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160; </div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;  <span class="keywordtype">void</span> UnserializeFrom(<span class="keyword">const</span> <a class="code" href="classgd_1_1_serializer_element.html">gd::SerializerElement</a> &amp;element);</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160; </div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> name;                      </div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> supplementaryInformation;  </div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;  <span class="keywordtype">bool</span> optional;                        </div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> defaultValue;     </div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160; </div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> numberValueType;</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> booleanValueType;</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> colorValueType;</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> choiceValueType;</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> stringValueType;</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;};</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160; </div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;}  <span class="comment">// namespace gd</span></div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160; </div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// VALUE_TYPE_METADATA_H</span></div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;             parameterType == <span class="stringliteral">&quot;spineResource&quot;</span> ||</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;             <span class="comment">// Deprecated, old parameter types:</span></div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;             parameterType == <span class="stringliteral">&quot;soundfile&quot;</span> ||</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;             parameterType == <span class="stringliteral">&quot;musicfile&quot;</span>;</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    }</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;  }</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160; </div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;GetExpressionPrimitiveValueType(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;parameterType);</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160; </div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;GetPrimitiveValueType(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;parameterType);</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> numberType;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> stringType;</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> variableType;</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> booleanType;</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160; </div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;ConvertPropertyTypeToValueType(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;propertyType);</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160; </div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160; </div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;  <span class="keywordtype">void</span> SerializeTo(<a class="code" href="classgd_1_1_serializer_element.html">gd::SerializerElement</a> &amp;element) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160; </div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;  <span class="keywordtype">void</span> UnserializeFrom(<span class="keyword">const</span> <a class="code" href="classgd_1_1_serializer_element.html">gd::SerializerElement</a> &amp;element);</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160; </div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160; <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> name;                      </div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> supplementaryInformation;  </div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;  <span class="keywordtype">bool</span> optional;                        </div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> defaultValue;     </div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160; </div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> numberValueType;</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> booleanValueType;</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> colorValueType;</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> choiceValueType;</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> stringValueType;</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;};</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160; </div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;}  <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160; </div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// VALUE_TYPE_METADATA_H</span></div>
 <div class="ttc" id="aclassgd_1_1_serializer_element_html"><div class="ttname"><a href="classgd_1_1_serializer_element.html">gd::SerializerElement</a></div><div class="ttdoc">A generic container that can represent a value ( containing a string, double, bool or int),...</div><div class="ttdef"><b>Definition:</b> SerializerElement.h:37</div></div>
 <div class="ttc" id="aclassgd_1_1_string_html"><div class="ttname"><a href="classgd_1_1_string.html">gd::String</a></div><div class="ttdoc">String represents an UTF8 encoded string.</div><div class="ttdef"><b>Definition:</b> String.h:31</div></div>
 <div class="ttc" id="aclassgd_1_1_value_type_metadata_html"><div class="ttname"><a href="classgd_1_1_value_type_metadata.html">gd::ValueTypeMetadata</a></div><div class="ttdoc">Define a type for parameters of a function (action, condition or expression) or the returned value of...</div><div class="ttdef"><b>Definition:</b> ValueTypeMetadata.h:26</div></div>
