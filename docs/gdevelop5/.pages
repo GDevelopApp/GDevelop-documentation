@@ -1,14 +1,15 @@
 title: GDevelop 5
 nav:
-    - index.md
-    - getting_started
-    - interface
-    - objects
-    - behaviors
-    - events
-    - all-features
-    - extensions
-    - Tutorials and Guides: tutorials
-    - Publishing games: publishing
-    - community
-    - collaboration
+  - index.md
+  - getting_started
+  - interface
+  - objects
+  - behaviors
+  - events
+  - all-features
+  - extensions
+  - Tutorials and Guides: tutorials
+  - Publishing games: publishing
+  - community
+  - collaboration
+  - monetization
