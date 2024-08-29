@@ -10,33 +10,29 @@ Monetizing your game is an exciting opportunity, but it's important to note that
 
 There are several methods to monetize your game:
 
-### 1. Selling on Stores
+### Selling on Stores
 
 You can sell your game on various digital storefronts such as:
 
-- **Steam:** One of the most popular platforms for PC games.
-- **App Stores:** Including the Google Play Store for Android and the Apple App Store for iOS.
-- **Itch.io:** A popular platform for indie developers to sell games.
+- **Steam:** One of the most popular platforms for PC games. You can follow our [tutorial](/gdevelop5/publishing/publish-to-steam/) to learn how to publish your game on Steam.
+- **App Stores:** Including the Google Play Store for Android and the Apple App Store for iOS. You can use the built-in One-Click exporters inside GDevelop to export your game for these platforms.
+- **Itch.io:** A popular platform for indie developers to sell games. Here's a [tutorial](gdevelop5/publishing/publishing-to-itch-io/).
 
-### 2. Using Ads
+### Using Ads
 
 Another common method of monetization is through advertisements:
 
-- **Admob:** A widely used platform to integrate ads into mobile games. You can follow our [tutorial](/gdevelop5/all-features/admob) to learn how to integrate Admob into your mobile games.
-- **Facebook Instant Games:** For those developing for Facebook Instant Games, there are specific monetization strategies you can employ, you can follow this [dedicated tutorial](/gdevelop5/publishing/publishing-to-facebook-instant-games/monetize).
-- **Poki:** A platform for web games that allows you to earn money through ads and sponsorships.
-- **CrazyGames:** Another web game platform that offers monetization through ads and sponsorships.
+- **Google Admob:** A widely used platform to integrate ads into mobile games. You can follow our [tutorial](/gdevelop5/all-features/admob) to learn how to integrate Admob into your mobile games.
+- **Other Ad Networks:** There are many other ad networks available and that you can integrate into your game. If you plan on using another one, you will need to integrate the ad network's SDK into your game and this requires some good programming knowledge.
 
-### 3. Hosting on GDevelop's Platform: gd.games
+### Hosting on GDevelop's Platform: gd.games
 
 We also offer a unique solution through our hosting platform, [gd.games](https://gd.games). By hosting your game on gd.games, you automatically earn money based on the number of sessions your game generates on the website. This is a straightforward way to start earning revenue without needing to manage complex ad integrations or store listings.
 
-### Opting Out
+!!! note
 
-If you choose to host your game on gd.games, it's important to know that you can opt-out of this monetization feature if you prefer not to display ads on your game page and earn money.
-Just go to your game dashboard, in "Marketing & Ads" tab to disable the option.
-
-## Cashing Out Your Earnings
+    If you choose to host your game on gd.games, it's important to know that you can opt-out of this monetization feature if you prefer not to display ads on your game page and earn money.
+    Just go to your game dashboard, in "Marketing & Ads" tab to disable the option.
 
 Once you've earned money through gd.games, from your games dashboard, you have two options to cash out your earnings:
 
@@ -44,4 +40,10 @@ Once you've earned money through gd.games, from your games dashboard, you have t
 2. **Exchange for GDevelop Credits:** Alternatively, you can exchange your earnings for GDevelop credits, with no minimum amount required, as well as a bonus on the exchange rate.
    These credits can be used within GDevelop to purchase assets, templates, marketing packages, and more, allowing you to reinvest in your game's development.
 
-By monetizing your game, you can turn your passion into profit, whether through direct sales, advertisements, or leveraging gd.games. However, remember that monetization is optional, and you have full control over how and when you choose to implement it in your projects.
+### Publishing on platforms with integrated ads
+
+Some platforms have integrated ad networks that allow you to monetize your game without needing to integrate an ad network yourself. Good examples are:
+
+- **Facebook Instant Games:** For those developing for Facebook Instant Games, there are specific monetization strategies you can employ, you can follow this [dedicated tutorial](/gdevelop5/publishing/publishing-to-facebook-instant-games/monetize).
+- **Poki:** A platform for web games that allows you to earn money through ads and sponsorships. Check out our tutorial on [publishing to Poki](/gdevelop5/publishing/poki/) to learn more.
+- **CrazyGames:** Another web game platform that offers monetization through ads and sponsorships. Check out this [tutorial](/gdevelop5/publishing/crazy-games/) to learn more.
