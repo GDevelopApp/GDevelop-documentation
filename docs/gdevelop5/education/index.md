@@ -6,6 +6,8 @@ title: GDevelop for Education
 
 GDevelop is widely used in schools, universities and boot camps. To ease the experience of teachers and accounts, an Education plan has been created.
 
+[Learn more about all the benefits that GDevelop and game creation can bring to your classroom, workshop or bootcamp.](https://gdevelop.io/education)
+
 ## Teaching resources
 
 The Education plan gives access to teachers to a curriculum designed by the GDevelop team. This curriculum is intended to teachers as a means to teach game development.
