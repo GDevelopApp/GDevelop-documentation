@@ -10,6 +10,8 @@ GDevelop is widely used in schools, universities and boot camps. To ease the exp
 
 The Education plan gives access to teachers to a curriculum designed by the GDevelop team. This curriculum is intended to teachers as a means to teach game development.
 
+It includes multiple ready-to-teach lessons that cover game development theory and step-by-step practical lessons to create full games.
+
 ## Education plan setup
 
 The Education plan is purchased with at least 5 seats. A seat is either occupied by a teacher account, or a student account.
