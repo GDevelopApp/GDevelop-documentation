@@ -4,9 +4,8 @@ title: GDevelop for Education
 
 # GDevelop for Education
 
-GDevelop is widely used in schools, universities and boot camps. To ease the experience of teachers and accounts, an Education plan has been created.
-
-[Learn more about all the benefits that GDevelop and game creation can bring to your classroom, workshop or bootcamp.](https://gdevelop.io/education)
+GDevelop is widely used in schools, universities and boot camps. The GDevelop for Education plan is specifically optimised for usage in education.
+Learn more about [all the benefits that GDevelop and game creation can bring to your classroom, workshop or bootcamp.](https://gdevelop.io/education)
 
 ## Teaching resources
 
@@ -23,7 +22,7 @@ For instance with 10 seats you can have:
 - 1 teacher account;
 - 9 student accounts.
 
-**All accounts benefits from the same perks as a Gold subscription** (see details [here](https://gdevelop.io/pricing)). This includes the possibility for students to work with Android or iPad tablets with the native app.
+**All accounts benefits from the same perks as a Gold subscription** (see details [here](https://gdevelop.io/pricing)). This includes the possibility for students to work on their project using the GDevelop mobile app, available for Android tablets and phones, as well as iPads and iPhone.
 
 ## Teacher accounts specificities
 
@@ -31,10 +30,10 @@ Besides teaching resources, teacher accounts gain access to the Classrooms tab o
 
 In this tab, they can view all the student accounts linked to the plan. The student accounts can be sorted into Rooms for a better organization between teachers.
 
-A teacher can also see the projects of each student and open them in a read-only mode so that they can:
+A teacher has access to the projects made by each student. They can open them in a read-only mode. This is useful for:
 
-- Control the work done on the projects;
-- Preview the game to ensure the logic works.
+- Checking or marking the work done on the projects;
+- Preview the game to ensure the game itself works as intended.
 
 ## Student accounts specificities
 
