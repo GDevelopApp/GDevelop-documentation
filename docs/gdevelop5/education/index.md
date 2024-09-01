@@ -42,7 +42,7 @@ Student accounts are anonymized. The credentials for those accounts (disposable 
 
 !!! tip
 
-    Integration to schools' Single Sign-On (SSO) systems has not been implemented.
+    If you have specific needs related to how students should access their accounts (reuse existing emails, SSO, etc...), please reach out to us.
 
 Some concepts in GDevelop's editor have been hidden to student accounts so that they can focus on their work in class:
 
@@ -52,4 +52,4 @@ Some concepts in GDevelop's editor have been hidden to student accounts so that 
 - Announcements and ads;
 - GDevelop gaming page.
 
-Also, student accounts have access to the version history feature for Cloud projects: they can go back to any previous save they made.
+Student accounts also have access to the version history feature for Cloud projects: they can go back to any previous save they made.
