@@ -136,11 +136,22 @@ This can be useful for example if you want the host to:
 
       For example, do not assume that a character created by a player when they join the game will be accessible when the condition **Player has joined** turns true. Instead, adapt your events to always look at all the objects on the scene, and react depending on the ones that are present or not.
 
+### Host migration
+
+By default, when the host leaves, a new host is automatically assigned. This is useful to ensure that the game can continue even if the host leaves.
+The new host is picked based on the ping of the players, so the player with the best connection will be the new host.
+In-game notifications are shown to the players when the host changes.
+
+A condition **Host is migrating** can be used to check if the host is migrating. This can be useful to adapt the game when the host changes, for example pausing the game, displaying a message...
+If your game has no interactions between the players, you might not need to handle this condition.
+
+An action **Configure lobby game to end when host leaves** can be used to configure the lobby so that the game ends when the host leaves. This can be useful for games where the host is critical to the game, or if you game requires a specific number of players to be present. If this action is used, the condition **Lobby game has just ended** will turn true for all players when the host leaves.
+
 ### Ending a game
 
-When you want to end the game, use action **End the game**.
+When you want to end the game, use the action **End the game**. This action can only be called by the host of the game, so you can add a condition to check if the current player is the host before calling this action.
 
-When the action is called, the condition **Lobby game has just ended** will turn true for all players, so you can end your game. Typically, you can use this condition to either stop moving things in your game, or to switch to another scene, where the lobby will be reopened.
+When the action is called, the condition **Lobby game has just ended** will turn true for all players, so you can handle the end of the game for everyone. Typically, you can use this condition to either stop moving things in your game, or to switch to another scene, where the lobby will be reopened.
 
 You can also automatically re-open the lobby by using the action **Open the game lobbies**, so players can join a new lobby and start a new game.
 
@@ -167,7 +178,7 @@ To make a multiplayer game, you need to identify:
 
 For each synchronized object, there is a notion of **owner** of the object. The owner is the player who is in charge of the object instance: they can move it, change their properties, etc. Other players will simply reproduce this on their own game.
 
-By default, when you use the Multiplayer behavior, the owner of the object is the host (Which is defined as Player 1 in the lobby).
+By default, when you use the Multiplayer behavior, the owner of the object is the host.
 
 - If your object is not meant to be owned by a specific player, but it's critical for everyone to see it at the right position, you can leave it like this, and the host will be the owner of the object.
 - If your object is meant to be owned by a specific player only (a character for instance), you can change the owner of the object to this player number.
@@ -175,9 +186,9 @@ By default, when you use the Multiplayer behavior, the owner of the object is th
 
 !!! note
 
-    Even if player 1 is the host, there is a difference between an object owned by the host and an object owned by player 1.
+    When a lobby starts, player 1 is picked as the default host. However, this can change during the game, if player 1 leaves and the host is migrated.
+    There is a difference between an object owned by the host and an object owned by player 1.
     You can for instance allow another player to grab an object if the host owns it (as in "no-one owns it"), but not if player 1 owns it.
-    For the moment, player 1 is the default host, but we may allow other players to become host in the future.
 
 You can also remove the ownership of an object by using the action **Remove object ownership**. When this action is used, the object will be owned back by the host.
 
@@ -332,4 +343,3 @@ Note that each player's scene will keep running unless you use the condition to 
 Missing features or limitations:
 
 - The lobby UI is not customizable yet.
-- When the host leaves, the game is ended for all players. We will introduce later the possibility to migrate automatically the host to another player.
