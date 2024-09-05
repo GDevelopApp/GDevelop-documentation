@@ -140,18 +140,10 @@ Test the size of the outline.
 | `Object.OutlineColorRed()` | Outline color red component ||
 | `Object.OutlineOpacity()` | Outline opacity ||
 | `Object.OutlineSize()` | Outline size ||
-| `Object.ToDrawingX(number, number)` | X drawing coordinate of a point from the scene ||
-| | _🔢 Number_ | X scene position |
-| | _🔢 Number_ | Y scene position |
-| `Object.ToDrawingY(number, number)` | Y drawing coordinate of a point from the scene ||
-| | _🔢 Number_ | X scene position |
-| | _🔢 Number_ | Y scene position |
-| `Object.ToSceneX(number, number)` | X scene coordinate of a point from the drawing ||
-| | _🔢 Number_ | X drawing position |
-| | _🔢 Number_ | Y drawing position |
-| `Object.ToSceneY(number, number)` | Y scene coordinate of a point from the drawing ||
-| | _🔢 Number_ | X drawing position |
-| | _🔢 Number_ | Y drawing position |
+| `Object.ToDrawingX()` | X drawing coordinate of a point from the scene ||
+| `Object.ToDrawingY()` | Y drawing coordinate of a point from the scene ||
+| `Object.ToSceneX()` | X scene coordinate of a point from the drawing ||
+| `Object.ToSceneY()` | Y scene coordinate of a point from the drawing ||
 
 ---
 *This page is an auto-generated reference page about the **Shape painter** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

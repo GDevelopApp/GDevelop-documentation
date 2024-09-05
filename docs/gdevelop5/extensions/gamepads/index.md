@@ -77,35 +77,18 @@ Compare the force of gamepad stick (from 0 to 1).
 | Expression | Description |  |
 |-----|-----|-----|
 | `Gamepads::ConnectedGamepadsCount()` | Return the number of connected gamepads. ||
-| `Gamepads::Deadzone(number)` | Return the value of the deadzone applied to a gamepad sticks, between 0 and 1. ||
-| | _🔢 Number_ | The gamepad identifier: 1, 2, 3 or 4 |
+| `Gamepads::Deadzone()` | Return the value of the deadzone applied to a gamepad sticks, between 0 and 1. ||
 | `Gamepads::GamepadCount()` | Return the number of gamepads. ||
-| `Gamepads::GamepadType(number)` | Return a string containing informations about the specified gamepad. ||
-| | _🔢 Number_ | The gamepad identifier: 1, 2, 3 or 4 |
-| `Gamepads::LastButtonID(number)` | Return the index of the last pressed button of a gamepad. ||
-| | _🔢 Number_ | The gamepad identifier: 1, 2, 3 or 4 |
-| `Gamepads::LastButtonString(number, string)` | Return the last button pressed. Buttons for Xbox and PS4 can be:* Xbox: "A", "B", "X", "Y", "LB", "RB", "LT", "RT", "BACK", "START",* PS4: "CROSS", "SQUARE", "CIRCLE", "TRIANGLE", "L1", "L2", "R1", "R2", "SHARE", "OPTIONS", "PS_BUTTON", "CLICK_TOUCHPAD",* Both: "UP", "DOWN", "LEFT", "RIGHT", "CLICK_STICK_LEFT", "CLICK_STICK_RIGHT". ||
-| | _🔢 Number_ | The gamepad identifier: 1, 2, 3 or 4 |
-| | _🔤 String_ | Controller type |
-| `Gamepads::StickAngle(number, string)` | Return the angle of a gamepad stick.If the deadzone value is high, the angle value is rounded to main axes, left, left, up, down.An zero deadzone value give a total freedom on the angle value. ||
-| | _🔢 Number_ | The gamepad identifier: 1, 2, 3 or 4 |
-| | _🔤 String_ | Stick: "Left" or "Right" |
-| `Gamepads::StickForce(number, string)` | Return the force of gamepad stick (from 0 to 1). ||
-| | _🔢 Number_ | The gamepad identifier: 1, 2, 3 or 4 |
-| | _🔤 String_ | Stick: "Left" or "Right" |
-| `Gamepads::StickForceX(number, string)` | Return the gamepad stick force on X axis (from -1 at the left to 1 at the right). ||
-| | _🔢 Number_ | The gamepad identifier: 1, 2, 3 or 4 |
-| | _🔤 String_ | Stick: "Left" or "Right" |
-| `Gamepads::StickForceY(number, string)` | Return the gamepad stick force on Y axis (from -1 at the top to 1 at the bottom). ||
-| | _🔢 Number_ | The gamepad identifier: 1, 2, 3 or 4 |
-| | _🔤 String_ | Stick: "Left" or "Right" |
-| `Gamepads::StrongVibrationMagnitude(number)` | Return the strength of the strong vibration motor on the gamepad of a player. ||
-| | _🔢 Number_ | The gamepad identifier: 1, 2, 3 or 4 |
-| `Gamepads::TriggerPressure(number, string)` | Get the value of the pressure on a gamepad trigger. ||
-| | _🔢 Number_ | The gamepad identifier: 1, 2, 3 or 4 |
-| | _🔤 String_ | Trigger button |
-| `Gamepads::WeakVibrationMagnitude(number)` | Return the strength of the weak vibration motor on the gamepad of a player. ||
-| | _🔢 Number_ | The gamepad identifier: 1, 2, 3 or 4 |
+| `Gamepads::GamepadType()` | Return a string containing informations about the specified gamepad. ||
+| `Gamepads::LastButtonID()` | Return the index of the last pressed button of a gamepad. ||
+| `Gamepads::LastButtonString()` | Return the last button pressed. Buttons for Xbox and PS4 can be:* Xbox: "A", "B", "X", "Y", "LB", "RB", "LT", "RT", "BACK", "START",* PS4: "CROSS", "SQUARE", "CIRCLE", "TRIANGLE", "L1", "L2", "R1", "R2", "SHARE", "OPTIONS", "PS_BUTTON", "CLICK_TOUCHPAD",* Both: "UP", "DOWN", "LEFT", "RIGHT", "CLICK_STICK_LEFT", "CLICK_STICK_RIGHT". ||
+| `Gamepads::StickAngle()` | Return the angle of a gamepad stick.If the deadzone value is high, the angle value is rounded to main axes, left, left, up, down.An zero deadzone value give a total freedom on the angle value. ||
+| `Gamepads::StickForce()` | Return the force of gamepad stick (from 0 to 1). ||
+| `Gamepads::StickForceX()` | Return the gamepad stick force on X axis (from -1 at the left to 1 at the right). ||
+| `Gamepads::StickForceY()` | Return the gamepad stick force on Y axis (from -1 at the top to 1 at the bottom). ||
+| `Gamepads::StrongVibrationMagnitude()` | Return the strength of the strong vibration motor on the gamepad of a player. ||
+| `Gamepads::TriggerPressure()` | Get the value of the pressure on a gamepad trigger. ||
+| `Gamepads::WeakVibrationMagnitude()` | Return the strength of the weak vibration motor on the gamepad of a player. ||
 
 ## Platformer gamepad mapper 
 

@@ -25,10 +25,8 @@ This extension is deprecated. Use the [Array Tools extension](https://wiki.gdeve
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Choose::RandomNumber(string)` | Choose a number randomly between comma-separated numbers. ||
-| | _string_ | The string containing all numbers to choose randomly from, separated by commas Example: "10,20,30" |
-| `Choose::RandomString(string)` | Choose randomly between comma-separated strings. ||
-| | _string_ | The string containing all options to choose randomly from, separated by commas Example: "option1,option2,option3" |
+| `Choose::RandomNumber()` | Choose a number randomly between comma-separated numbers. ||
+| `Choose::RandomString()` | Choose randomly between comma-separated strings. ||
 
 ---
 

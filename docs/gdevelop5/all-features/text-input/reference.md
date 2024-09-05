@@ -92,7 +92,6 @@ Check if the text input is read-only.
 | `Object.FontResourceName()` | Return the font name. ||
 | `Object.InputType()` | Return the input type. ||
 | `Object.Placeholder()` | Return the placeholder. ||
-| `Object.Text()` | Return the text. ||
 
 ---
 *This page is an auto-generated reference page about the **Text Input** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

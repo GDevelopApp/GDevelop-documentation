@@ -21,10 +21,8 @@ Formats included:
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `TimeFormatter::SecondsToHHMMSS(number)` | Format time in seconds to HH:MM:SS. ||
-| | _🔢 Number_ | Time, in seconds |
-| `TimeFormatter::SecondsToHHMMSS000(number)` | Format time in seconds to HH:MM:SS.000, including milliseconds. ||
-| | _🔢 Number_ | Time, in seconds |
+| `TimeFormatter::SecondsToHHMMSS()` | Format time in seconds to HH:MM:SS. ||
+| `TimeFormatter::SecondsToHHMMSS000()` | Format time in seconds to HH:MM:SS.000, including milliseconds. ||
 
 ---
 

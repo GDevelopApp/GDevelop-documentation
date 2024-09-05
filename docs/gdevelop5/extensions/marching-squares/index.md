@@ -110,21 +110,11 @@ Check if a point is inside the contour.
 | `Object.MarchingSquaresBehavior::ContourThreshold()` | The contour threshold. ||
 | `Object.MarchingSquaresBehavior::DimensionX()` | The number of cells on the x axis. ||
 | `Object.MarchingSquaresBehavior::DimensionY()` | The number of cells on the y axis. ||
-| `Object.MarchingSquaresBehavior::FieldValue(number, number)` | The field value at a given location. ||
-| | _🔢 Number_ | X position of the point |
-| | _🔢 Number_ | Y position of the point |
-| `Object.MarchingSquaresBehavior::GridValue(number, number)` | The field value at a grid point. ||
-| | _🔢 Number_ | X grid index |
-| | _🔢 Number_ | Y grid index |
-| `Object.MarchingSquaresBehavior::NormalX(number, number)` | The normal X coordinate at a given location. ||
-| | _🔢 Number_ | X position of the point |
-| | _🔢 Number_ | Y position of the point |
-| `Object.MarchingSquaresBehavior::NormalY(number, number)` | The normal Y coordinate at a given location. ||
-| | _🔢 Number_ | X position of the point |
-| | _🔢 Number_ | Y position of the point |
-| `Object.MarchingSquaresBehavior::NormalZ(number, number)` | The normal Z coordinate at a given location. ||
-| | _🔢 Number_ | X position of the point |
-| | _🔢 Number_ | Y position of the point |
+| `Object.MarchingSquaresBehavior::FieldValue()` | The field value at a given location. ||
+| `Object.MarchingSquaresBehavior::GridValue()` | The field value at a grid point. ||
+| `Object.MarchingSquaresBehavior::NormalX()` | The normal X coordinate at a given location. ||
+| `Object.MarchingSquaresBehavior::NormalY()` | The normal Y coordinate at a given location. ||
+| `Object.MarchingSquaresBehavior::NormalZ()` | The normal Z coordinate at a given location. ||
 
 ---
 

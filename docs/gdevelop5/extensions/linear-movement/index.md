@@ -1,13 +1,15 @@
 # Linear Movement
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/ray-start-arrow.svg" class="extension-icon"></img>
-Move the object linearly, according to the speed configured on X and Y axis. Useful for simple enemies, bullets or objects following a straight line on the screen.
+Move objects on a straight line.
 
-**Authors and contributors** to this community extension: [4ian](https://gd.games/4ian).
+**Authors and contributors** to this community extension: [4ian](https://gd.games/4ian), [Jurfix](https://gd.games/Jurfix).
 
 ---
 
-Move the object linearly, according to the speed configured on X and Y axis. Useful for simple enemies, bullets or objects following a straight line on the screen.
+Move objects on a straight line or according to their angle.
+
+It can be used for simple enemies or bullets.
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
@@ -16,7 +18,14 @@ Move the object linearly, according to the speed configured on X and Y axis. Use
 
 ## Linear movement 
 
-Move the object linearly, according to the speed configured on X and Y axis. Useful for simple enemies, bullets or objects following a straight line on the screen. 
+Move objects on a straight line. 
+
+_No expressions for this behavior._
+
+
+## Linear movement by angle 
+
+Move objects ahead according to their angle. 
 
 _No expressions for this behavior._
 

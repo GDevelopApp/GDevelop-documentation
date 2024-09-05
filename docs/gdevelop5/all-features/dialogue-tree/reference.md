@@ -101,28 +101,21 @@ Check if a branch has been visited
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `DialogueTree::BranchTag(number)` | Get a tag of the current branch of the running dialogue via its index ||
-| | _🔢 Number_ | Tag Index Number |
+| `DialogueTree::BranchTag()` | Get a tag of the current branch of the running dialogue via its index ||
 | `DialogueTree::BranchTags()` | Get the tags of the current branch of the running dialogue ||
 | `DialogueTree::BranchText()` | Get the full raw text of the current branch ||
 | `DialogueTree::BranchTitle()` | Get the title of the current branch of the running dialogue ||
 | `DialogueTree::ClippedLineText()` | Get dialogue line text clipped by the typewriter effect. Use the "Scroll clipped text" action to control the typewriter effect. ||
-| `DialogueTree::CommandParameter(number)` | Get the parameters of a command call - <<command withParameter anotherParameter>> ||
-| | _🔢 Number_ | parameter Index Number _Optional_. |
+| `DialogueTree::CommandParameter()` | Get the parameters of a command call - <<command withParameter anotherParameter>> ||
 | `DialogueTree::CommandParametersCount()` | Get the number of parameters in the currently passed command ||
-| `DialogueTree::HorizontalOptionsList(string)` | Get the text of all available options from an Options line type as a horizontal list. You can also pass the selected option's cursor string, which by default is -> ||
-| | _string_ | Options Selection Cursor |
+| `DialogueTree::HorizontalOptionsList()` | Get the text of all available options from an Options line type as a horizontal list. You can also pass the selected option's cursor string, which by default is -> ||
 | `DialogueTree::LineText()` | Returns the current dialogue line text ||
-| `DialogueTree::Option(number)` | Get the text of an option from an Options line type, using the option's Number. The numbers start from 0. ||
-| | _🔢 Number_ | Option Index Number |
+| `DialogueTree::Option()` | Get the text of an option from an Options line type, using the option's Number. The numbers start from 0. ||
 | `DialogueTree::OptionsCount()` | Get the number of options in an options line type ||
 | `DialogueTree::SelectedOptionIndex()` | Get the number of the currently selected option. Use this to help you render the option selection marker at the right place. ||
-| `DialogueTree::TagParameter(number)` | Get parameter from a Tag found by the branch contains tag condition ||
-| | _🔢 Number_ | parameter Index Number _Optional_. |
-| `DialogueTree::Variable(string)` | Get dialogue state value ||
-| | _string_ | Variable Name |
-| `DialogueTree::VerticalOptionsList(string)` | Get the text of all available options from an Options line type as a vertical list. You can also pass the selected option's cursor string, which by default is -> ||
-| | _string_ | Options Selection Cursor |
+| `DialogueTree::TagParameter()` | Get parameter from a Tag found by the branch contains tag condition ||
+| `DialogueTree::Variable()` | Get dialogue state value ||
+| `DialogueTree::VerticalOptionsList()` | Get the text of all available options from an Options line type as a vertical list. You can also pass the selected option's cursor string, which by default is -> ||
 | `DialogueTree::VisitedBranchTitles()` | Get a list of all visited branches ||
 
 ---

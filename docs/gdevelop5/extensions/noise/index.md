@@ -63,32 +63,14 @@ The seed is a number used to generate the random noise. Setting the same seed wi
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Noise::Frequency(string)` | The base frequency used for noise generation. ||
-| | _string_ | Generator name |
-| `Noise::Lacunarity(string)` | The lacunarity used for noise generation. ||
-| | _string_ | Generator name |
-| `Noise::Noise1d(string, number)` | Generate a number between -1 and 1 from 1 dimensional simplex noise. The "Map" expression from Extended Math extension can be used to map values to any chosen bounds. ||
-| | _string_ | Generator name |
-| | _🔢 Number_ | X coordinate |
-| `Noise::Noise2d(string, number, number)` | Generate a number between -1 and 1 from 2 dimensional simplex noise. The "Map" expression from Extended Math extension can be used to map values to any chosen bounds. ||
-| | _string_ | Generator name |
-| | _🔢 Number_ | X coordinate |
-| | _🔢 Number_ | Y coordinate |
-| `Noise::Noise3d(string, number, number, number)` | Generate a number between -1 and 1 from 3 dimensional simplex noise. The "Map" expression from Extended Math extension can be used to map values to any chosen bounds. ||
-| | _string_ | Generator name |
-| | _🔢 Number_ | X coordinate |
-| | _🔢 Number_ | Y coordinate |
-| | _🔢 Number_ | Z coordinate |
-| `Noise::Noise4d(string, number, number, number, number)` | Generate a number between -1 and 1 from 4 dimensional simplex noise. The "Map" expression from Extended Math extension can be used to map values to any chosen bounds. ||
-| | _string_ | Generator name |
-| | _🔢 Number_ | X coordinate |
-| | _🔢 Number_ | Y coordinate |
-| | _🔢 Number_ | Z coordinate |
-| | _🔢 Number_ | W coordinate |
-| `Noise::Octaves(string)` | The number of octaves used for noise generation. ||
-| | _string_ | Generator name |
-| `Noise::Persistence(string)` | The persistence used for noise generation. ||
-| | _string_ | Generator name |
+| `Noise::Frequency()` | The base frequency used for noise generation. ||
+| `Noise::Lacunarity()` | The lacunarity used for noise generation. ||
+| `Noise::Noise1d()` | Generate a number between -1 and 1 from 1 dimensional simplex noise. The "Map" expression from Extended Math extension can be used to map values to any chosen bounds. ||
+| `Noise::Noise2d()` | Generate a number between -1 and 1 from 2 dimensional simplex noise. The "Map" expression from Extended Math extension can be used to map values to any chosen bounds. ||
+| `Noise::Noise3d()` | Generate a number between -1 and 1 from 3 dimensional simplex noise. The "Map" expression from Extended Math extension can be used to map values to any chosen bounds. ||
+| `Noise::Noise4d()` | Generate a number between -1 and 1 from 4 dimensional simplex noise. The "Map" expression from Extended Math extension can be used to map values to any chosen bounds. ||
+| `Noise::Octaves()` | The number of octaves used for noise generation. ||
+| `Noise::Persistence()` | The persistence used for noise generation. ||
 | `Noise::Seed()` | The seed used for noise generation. ||
 
 ---

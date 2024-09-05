@@ -100,40 +100,18 @@ Test if a layer is set as visible.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `CameraAngle(layer name, number)` | Return the angle of rotation of a camera (in degrees). ||
-| | _🔤 Layer name (String)_ | Layer _Optional_. |
-| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
-| `CameraBorderBottom(layer name, number)` | Return the position of the bottom border of a camera. ||
-| | _🔤 Layer name (String)_ | Layer _Optional_. |
-| | _🔢 Number_ | Camera number _Optional_. |
-| `CameraBorderLeft(layer name, number)` | Return the position of the left border of a camera. ||
-| | _🔤 Layer name (String)_ | Layer _Optional_. |
-| | _🔢 Number_ | Camera number _Optional_. |
-| `CameraBorderRight(layer name, number)` | Return the position of the right border of a camera. ||
-| | _🔤 Layer name (String)_ | Layer _Optional_. |
-| | _🔢 Number_ | Camera number _Optional_. |
-| `CameraBorderTop(layer name, number)` | Return the position of the top border of a camera. ||
-| | _🔤 Layer name (String)_ | Layer _Optional_. |
-| | _🔢 Number_ | Camera number _Optional_. |
-| `CameraCenterX(layer name, number)` | Return the X position of the center of a camera. ||
-| | _🔤 Layer name (String)_ | Layer _Optional_. |
-| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
-| `CameraCenterY(layer name, number)` | Return the Y position of the center of a camera. ||
-| | _🔤 Layer name (String)_ | Layer _Optional_. |
-| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
-| `CameraHeight(layer name, number)` | Return the height of a camera of a layer. ||
-| | _🔤 Layer name (String)_ | Layer _Optional_. |
-| | _🔢 Number_ | Camera number _Optional_. |
-| `CameraWidth(layer name, number)` | Return the width of a camera of a layer. ||
-| | _🔤 Layer name (String)_ | Layer _Optional_. |
-| | _🔢 Number_ | Camera number _Optional_. |
-| `CameraZoom(layer name, number)` | Zoom of a camera of a layer ||
-| | _🔤 Layer name (String)_ | Layer _Optional_. |
-| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
-| `LayerDefaultZOrder(layer name)` | Default Z Order for a layer ||
-| | _🔤 Layer name (String)_ | Layer |
-| `LayerTimeScale(layer name)` | Returns the time scale of the specified layer. ||
-| | _🔤 Layer name (String)_ | Layer |
+| `CameraAngle()` | Return the angle of rotation of a camera (in degrees). ||
+| `CameraBorderBottom()` | Return the position of the bottom border of a camera. ||
+| `CameraBorderLeft()` | Return the position of the left border of a camera. ||
+| `CameraBorderRight()` | Return the position of the right border of a camera. ||
+| `CameraBorderTop()` | Return the position of the top border of a camera. ||
+| `CameraCenterX()` | Return the X position of the center of a camera. ||
+| `CameraCenterY()` | Return the Y position of the center of a camera. ||
+| `CameraHeight()` | Return the height of a camera of a layer. ||
+| `CameraWidth()` | Return the width of a camera of a layer. ||
+| `CameraZoom()` | Zoom of a camera of a layer ||
+| `LayerDefaultZOrder()` | Default Z Order for a layer ||
+| `LayerTimeScale()` | Returns the time scale of the specified layer. ||
 
 ---
 *This page is an auto-generated reference page about the **Layers and cameras** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

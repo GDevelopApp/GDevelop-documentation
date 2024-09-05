@@ -92,8 +92,7 @@ Compare the stretch on Z axis. The object volume is conserved. A stretch of 2 ma
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Object.Tween3D::Progress(string)` | Return the progress of a tween (between 0.0 and 1.0). ||
-| | _🔤 Name (String)_ | Tween identifier |
+| `Object.Tween3D::Progress()` | Return the progress of a tween (between 0.0 and 1.0). ||
 | `Object.Tween3D::ScaleVolume()` | Return the scale volume. ||
 | `Object.Tween3D::StretchY()` | Return the stretch on Y axis. The object volume is conserved. A stretch of 2 makes the object appear 2 times longer on Y in proportion to the dimensions on X and Z. ||
 | `Object.Tween3D::StretchZ()` | Return the stretch on Z axis. The object volume is conserved. A stretch of 2 makes the object appear 2 times longer on Z in proportion to the dimensions on X and Y. ||

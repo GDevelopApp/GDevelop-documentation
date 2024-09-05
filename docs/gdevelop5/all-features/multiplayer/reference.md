@@ -10,6 +10,9 @@ Disable synchronization of the variable over the network. It will not be sent to
 **End Lobby Game**  
 End the lobby game. This will trigger the "Lobby game has just ended" condition.
 
+**Configure lobby game to end when host leaves**  
+Configure the lobby game to end when the host leaves. This will trigger the "Lobby game has just ended" condition. (Default behavior is to migrate the host)
+
 **Get message variable**  
 Store the data of the specified message in a variable. Use with the condition 'Message has been received' to know when the message has been properly processed by the host.
 
@@ -27,6 +30,9 @@ Send a custom message to other players in the lobby, with an automatic retry sys
 
 **Send custom message to other players with a variable**  
 Send a custom message to other players in the lobby containing a variable, with an automatic retry system if it hasn't been received. Use with the condition 'Message has been received' to know when the message has been properly processed by the host.
+
+**Objects synchronization rate**  
+Change objects synchronization rate (between 1 and 60, default is 30 times per second).
 
 **Player variable ownership**  
 Change the player owning the variable.
@@ -46,7 +52,7 @@ Compare the current player number in the lobby (1, 2, ...).
 Check if any player has joined the lobby.
 
 **Any player has left**  
-Check if any player has left the lobby.
+Check if any player has left the lobby game.
 
 **Lobby game has just ended**  
 Check if the lobby game has just ended.
@@ -61,7 +67,7 @@ Check if a custom message has been received from another player. Will be true on
 Check if the player has joined the lobby.
 
 **Player has left**  
-Check if the player has left the lobby.
+Check if the player has left the lobby game.
 
 **Lobbies window is open**  
 Check if the lobbies window is open.
@@ -69,11 +75,17 @@ Check if the lobbies window is open.
 **Lobby game is running**  
 Check if the lobby game is running.
 
+**Host is migrating**  
+Check if the host is migrating, in order to adapt the game state (like pausing the game).
+
 **Player is connected**  
 Check if the specified player is connected to the lobby.
 
 **Player is host**  
 Check if the player is the host. (Player 1 is the host)
+
+**Objects synchronization rate**  
+Compare objects synchronization rate (between 1 and 60, default is 30 times per second).
 
 **Player variable ownership**  
 Compare the player owning the variable.
@@ -88,18 +100,14 @@ Compare the number of players in the lobby.
 | `Multiplayer::CurrentPlayerNumber()` | Return the current player number in the lobby (1, 2, ...). ||
 | `Multiplayer::CurrentPlayerPing()` | Get the ping of the current player in the lobby. ||
 | `Multiplayer::CurrentPlayerUsername()` | Get the username of the current player in the lobby. ||
-| `Multiplayer::LastJoinedPlayerNumber()` | Returns the number of the player that has just joined the lobby. ||
-| `Multiplayer::LastLeftPlayerNumber()` | Returns the number of the player that has just left the lobby. ||
-| `Multiplayer::MessageData(string)` | Returns the data received when the specified message was received from another player. ||
-| | _string_ | Message name |
-| `Multiplayer::MessageSender(string)` | Returns the player number of the sender of the specified message. ||
-| | _string_ | Message name |
-| `Multiplayer::PlayerPing(number)` | Get the ping of the player in the lobby. ||
-| | _🔢 Number_ | The position of the player in the lobby (1, 2, ...) |
-| `Multiplayer::PlayerUsername(number)` | Get the username of the player in the lobby. ||
-| | _🔢 Number_ | The position of the player in the lobby (1, 2, ...) |
-| `Multiplayer::PlayerVariableOwnership(variable)` | Return the player owning the variable. ||
-| | _🗄️ Any variable_ | Variable |
+| `Multiplayer::LastJoinedPlayerNumber()` | Returns the player number of the player that has just joined the lobby. ||
+| `Multiplayer::LastLeftPlayerNumber()` | Returns the player number of the player that has just left the lobby. ||
+| `Multiplayer::MessageData()` | Returns the data received when the specified message was received from another player. ||
+| `Multiplayer::MessageSender()` | Returns the player number of the sender of the specified message. ||
+| `Multiplayer::ObjectsSynchronizationRate()` | Return objects synchronization rate (between 1 and 60, default is 30 times per second). ||
+| `Multiplayer::PlayerPing()` | Get the ping of the player in the lobby. ||
+| `Multiplayer::PlayerUsername()` | Get the username of the player in the lobby. ||
+| `Multiplayer::PlayerVariableOwnership()` | Return the player owning the variable. ||
 | `Multiplayer::PlayersInLobbyCount()` | Return the number of players in the lobby. ||
 
 ## Multiplayer object 

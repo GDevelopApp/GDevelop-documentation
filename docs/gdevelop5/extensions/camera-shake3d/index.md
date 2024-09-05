@@ -69,12 +69,9 @@ Compare the vertical rotation amplitude of the shaking (in degrees).
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `CameraShake3D::HorizontalAmplitudeAngle(layer name)` | Return the horizontal rotation amplitude of the shaking (in degrees). ||
-| | _🔤 Layer name (String)_ | Layer |
-| `CameraShake3D::SpineAmplitudeAngle(layer name)` | Return the spinning amplitude of the shaking (in degrees). ||
-| | _🔤 Layer name (String)_ | Layer |
-| `CameraShake3D::VerticalAmplitudeAngle(layer name)` | Return the vertical rotation amplitude of the shaking (in degrees). ||
-| | _🔤 Layer name (String)_ | Layer |
+| `CameraShake3D::HorizontalAmplitudeAngle()` | Return the horizontal rotation amplitude of the shaking (in degrees). ||
+| `CameraShake3D::SpineAmplitudeAngle()` | Return the spinning amplitude of the shaking (in degrees). ||
+| `CameraShake3D::VerticalAmplitudeAngle()` | Return the vertical rotation amplitude of the shaking (in degrees). ||
 
 ---
 

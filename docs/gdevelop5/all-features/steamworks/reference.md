@@ -109,51 +109,34 @@ Check whether a state flag is set for a Workshop item.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Steamworks::ActionVectorX(number, string)` | The action vector of a Steam Input analog joystick on the X-axis, from 1 (all right) to -1 (all left). ||
-| | _🔢 Number_ | Controller number |
-| | _🔤 Name (String)_ | ActionName |
-| `Steamworks::ActionVectorY(number, string)` | The action vector of a Steam Input analog joystick on the Y-axis, from 1 (all up) to -1 (all down). ||
-| | _🔢 Number_ | Controller number |
-| | _🔤 Name (String)_ | ActionName |
+| `Steamworks::ActionVectorX()` | The action vector of a Steam Input analog joystick on the X-axis, from 1 (all right) to -1 (all left). ||
+| `Steamworks::ActionVectorY()` | The action vector of a Steam Input analog joystick on the Y-axis, from 1 (all up) to -1 (all down). ||
 | `Steamworks::AppBuildID()` | Gets the ID of the current app build. ||
 | `Steamworks::AppID()` | Obtains the game's Steam app ID, as declared in the games properties. ||
 | `Steamworks::BetaName()` | Gets the name of the beta the player enrolled to in the Steam game properties. ||
 | `Steamworks::ControllerCount()` | The amount of connected Steam Input controllers. ||
 | `Steamworks::CountryCode()` | The player's country represented as its two-letter code. ||
-| `Steamworks::CurrentLobbyAttribute(string)` | Obtains the value of one of the current lobby's attributes. ||
-| | _🔤 Name (String)_ | The attribute to read |
+| `Steamworks::CurrentLobbyAttribute()` | Obtains the value of one of the current lobby's attributes. ||
 | `Steamworks::CurrentLobbyID()` | The ID of the current lobby, useful for letting other players join it. ||
 | `Steamworks::CurrentLobbyMemberCount()` | Obtains the current lobby's member count. ||
 | `Steamworks::CurrentLobbyMemberLimit()` | Obtains the current lobby's maximum member limit. ||
 | `Steamworks::CurrentLobbyOwner()` | Obtains the Steam ID of the user that owns the current lobby. ||
 | `Steamworks::GameLanguage()` | Gets the language the user set in the Steam game properties. ||
-| `Steamworks::InstalledApplicationPath(string)` | Gets the path to an installed Steam application. ||
-| | _🔤 Name (String)_ | The Steam App ID of the application |
+| `Steamworks::InstalledApplicationPath()` | Gets the path to an installed Steam application. ||
 | `Steamworks::Level()` | Obtains the player's Steam level ||
-| `Steamworks::LobbyAttribute(string, string)` | Obtains the value of one of a lobby's attributes. ||
-| | _string_ | The ID of the lobby |
-| | _🔤 Name (String)_ | The attribute to read |
-| `Steamworks::LobbyMemberCount(string)` | Obtains a lobby's member count. ||
-| | _string_ | The ID of the lobby |
-| `Steamworks::LobbyMemberLimit(string)` | Obtains a lobby's maximum member limit. ||
-| | _string_ | The ID of the lobby |
-| `Steamworks::LobbyOwner(string)` | Obtains the Steam ID of the user that owns a lobby. ||
-| | _string_ | The ID of the lobby |
+| `Steamworks::LobbyAttribute()` | Obtains the value of one of a lobby's attributes. ||
+| `Steamworks::LobbyMemberCount()` | Obtains a lobby's member count. ||
+| `Steamworks::LobbyMemberLimit()` | Obtains a lobby's maximum member limit. ||
+| `Steamworks::LobbyOwner()` | Obtains the Steam ID of the user that owns a lobby. ||
 | `Steamworks::Name()` | The player's registered name on Steam. ||
-| `Steamworks::ReadCloudFile(string)` | Reads a file from Steam Cloud and returns its contents. ||
-| | _🔤 Name (String)_ | Name of file to read |
+| `Steamworks::ReadCloudFile()` | Reads a file from Steam Cloud and returns its contents. ||
 | `Steamworks::ServerTime()` | Obtains the real current time from the Steam servers, which cannot be faked by changing the system time. ||
 | `Steamworks::SteamID()` | The player's unique Steam ID number. Note that it is too big a number to load correctly as a traditional number ("floating point number"), and must be used as a string. ||
-| `Steamworks::WorkshopItemDownloadProgress(string)` | The amount of data that has been downloaded by Steam for a currrently downloading item so far. ||
-| | _🔤 Name (String)_ | Workshop Item ID |
-| `Steamworks::WorkshopItemDownloadTotal(string)` | The amount of data that needs to be downloaded in total by Steam for a currrently downloading item. ||
-| | _🔤 Name (String)_ | Workshop Item ID |
-| `Steamworks::WorkshopItemInstallationTimestamp(string)` | The timestamp of the last time the contents file of an installed workshop item was updated. ||
-| | _🔤 Name (String)_ | Workshop Item ID |
-| `Steamworks::WorkshopItemLocation(string)` | The file path to the contents file of an installed workshop item. ||
-| | _🔤 Name (String)_ | Workshop Item ID |
-| `Steamworks::WorkshopItemSize(string)` | The size on disk taken by the contents file of an installed workshop item. ||
-| | _🔤 Name (String)_ | Workshop Item ID |
+| `Steamworks::WorkshopItemDownloadProgress()` | The amount of data that has been downloaded by Steam for a currrently downloading item so far. ||
+| `Steamworks::WorkshopItemDownloadTotal()` | The amount of data that needs to be downloaded in total by Steam for a currrently downloading item. ||
+| `Steamworks::WorkshopItemInstallationTimestamp()` | The timestamp of the last time the contents file of an installed workshop item was updated. ||
+| `Steamworks::WorkshopItemLocation()` | The file path to the contents file of an installed workshop item. ||
+| `Steamworks::WorkshopItemSize()` | The size on disk taken by the contents file of an installed workshop item. ||
 
 ---
 *This page is an auto-generated reference page about the **Steamworks (Steam) (experimental)** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

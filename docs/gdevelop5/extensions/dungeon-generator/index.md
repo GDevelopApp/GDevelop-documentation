@@ -48,10 +48,8 @@ Check if hallway is a room entrance.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `DungeonGenerator::NeighborCount(object)` | Number of grid neighbors of an object.  Requires running the "CalculateGridNeighbors" action before using this expression. ||
-| | _👾 Object_ | Object |
-| `DungeonGenerator::RoomID(object)` | The numerical order this room was created.  (Range: 1 to total number of rooms). ||
-| | _👾 Object_ | Room object |
+| `DungeonGenerator::NeighborCount()` | Number of grid neighbors of an object.  Requires running the "CalculateGridNeighbors" action before using this expression. ||
+| `DungeonGenerator::RoomID()` | The numerical order this room was created.  (Range: 1 to total number of rooms). ||
 
 ---
 

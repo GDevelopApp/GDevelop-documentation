@@ -38,10 +38,8 @@ Compare Color tint applied to an object.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Flash::ColorTint(object)` | Return Color tint applied to an object. ||
-| | _👾 Object_ | Object |
-| `Flash::IsTinted(object)` | Check if a color tint is applied to an object. ||
-| | _👾 Object_ | Object |
+| `Flash::ColorTint()` | Return Color tint applied to an object. ||
+| `Flash::IsTinted()` | Check if a color tint is applied to an object. ||
 
 ## Flash visibility (blink) 
 

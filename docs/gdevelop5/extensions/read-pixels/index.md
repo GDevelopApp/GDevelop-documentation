@@ -24,18 +24,10 @@ This extension allow to read pixels on screen.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `ReadPixels::ReadPixelAlpha(number, number)` | Return the alpha component of the pixel at the specified position. ||
-| | _🔢 Number_ | Position X |
-| | _🔢 Number_ | Position Y |
-| `ReadPixels::ReadPixelBlue(number, number)` | Return the blue component of the pixel at the specified position. ||
-| | _🔢 Number_ | Position X |
-| | _🔢 Number_ | Position Y |
-| `ReadPixels::ReadPixelGreen(number, number)` | Return the green component of the pixel at the specified position. ||
-| | _🔢 Number_ | Position X |
-| | _🔢 Number_ | Position Y |
-| `ReadPixels::ReadPixelRed(number, number)` | Return the red component of the pixel at the specified position. ||
-| | _🔢 Number_ | Position X |
-| | _🔢 Number_ | Position Y |
+| `ReadPixels::ReadPixelAlpha()` | Return the alpha component of the pixel at the specified position. ||
+| `ReadPixels::ReadPixelBlue()` | Return the blue component of the pixel at the specified position. ||
+| `ReadPixels::ReadPixelGreen()` | Return the green component of the pixel at the specified position. ||
+| `ReadPixels::ReadPixelRed()` | Return the red component of the pixel at the specified position. ||
 
 ---
 

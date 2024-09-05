@@ -50,8 +50,7 @@ Can reach through a given cost sum.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `LinkTools::CostSum(object)` | Cost sum. ||
-| | _👾 Object_ | Object |
+| `LinkTools::CostSum()` | Cost sum. ||
 
 ## Link path finding 
 
@@ -89,10 +88,8 @@ Check if a path has been found.
 | `Object.LinkPathFinding::NextNodeX()` | Next waypoint X position. ||
 | `Object.LinkPathFinding::NextNodeY()` | Next waypoint Y position. ||
 | `Object.LinkPathFinding::NodeCount()` | Get the number of waypoints on the path. ||
-| `Object.LinkPathFinding::NodeX(number)` | Waypoint X position. ||
-| | _🔢 Number_ | Waypoint index |
-| `Object.LinkPathFinding::NodeY(number)` | Waypoint X position. ||
-| | _🔢 Number_ | Waypoint index |
+| `Object.LinkPathFinding::NodeX()` | Waypoint X position. ||
+| `Object.LinkPathFinding::NodeY()` | Waypoint X position. ||
 | `Object.LinkPathFinding::Speed()` | Speed of the object on the path. ||
 
 ---

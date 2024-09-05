@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/typewriter.svg" class="extension-icon"></img>
 Reveal a text one letter after the other.
 
-**Authors and contributors** to this community extension: [Bouh](https://gd.games/Bouh), [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this community extension: [Bouh](https://gd.games/Bouh), [VictrisGames](https://gd.games/VictrisGames), [D8H](https://gd.games/D8H).
 
 ---
 
@@ -13,6 +13,10 @@ It can be used for dialogue scenes or visual novels.
 
 The top-down RPG example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://top-down-rpg)).
 
+Breaking changes from 2.0.0:
+
+- The 3 behaviors has been merged into a unique one.
+
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
@@ -20,129 +24,38 @@ The top-down RPG example uses this extension ([open the project online](https://
 
 ## Auto typing text 
 
-Animate text to simulate it being written one character at at time (a "typewriter" effect). 
+Reveal a text one letter after the other. 
 
 ### Behavior actions
 
-**Time between characters**  
-Change the time between characters being typed. 
-
-**Jump to a specific position in the text**  
+**Show Nth first characters**  
 Jump to a specific position in the text. Positions start at "0" and increase by one for every character.
 
-**Pause auto typing**  
-Pause animation auto typing.
+**Restart typing from the beginning**  
+Restart typing from the beginning of text. The autotyping also start automatically when a new text is set for the object.
 
-**Resume after pause**  
-Resume auto typing after pause.
+**Time between characters**  
+Change the time between characters beign typed.
 
-**Skip to the end of the text**  
-Skip to the end of the text.
-
-**Start at the beginning of the text**  
-Start at the beginning of text. When the text changes, the automatic typing starts again from the beginning with the new text.
+**Show the full text**  
+Show the full text.
 
 ### Behavior conditions
 
-**New text character was just displayed**  
-Detect when a new text character is displayed. Useful for triggering sound effects.
+**Has just typed**  
+Check if a character has just been typed. Useful for triggering sound effects.
 
-**Auto typing finished**  
-Execute actions when the auto typing text ends.
+**Time between characters**  
+Compare the time between characters beign typed.
 
-**Typing on pause**  
-Detect if the auto typing is on pause.
+**Finished typing**  
+Check if the full text has been typed.
 
 ### Behavior expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Object.BBText_AutoTyping::CurrentCharacter()` | Return the text character that was last displayed. ||
-| `Object.BBText_AutoTyping::CurrentCharacterIndex()` | Return the index of the text character that was last displayed. ||
-
-## Auto typing text 
-
-Animate text to simulate it being written one character at at time (a "typewriter" effect). 
-
-### Behavior actions
-
-**Time between characters**  
-Change the time between characters being typed. 
-
-**Jump to a specific position in the text**  
-Jump to a specific position in the text. Positions start at "0" and increase by one for every character.
-
-**Pause auto typing**  
-Pause animation auto typing.
-
-**Resume after pause**  
-Resume auto typing after pause.
-
-**Skip to the end of the text**  
-Skip to the end of the text.
-
-**Start at the beginning of the text**  
-Start at the beginning of text. When the text changes, the automatic typing starts again from the beginning with the new text.
-
-### Behavior conditions
-
-**New text character was just displayed**  
-Detect when a new text character is displayed. Useful for triggering sound effects.
-
-**Auto typing finished**  
-Execute actions when the auto typing text ends.
-
-**Typing on pause**  
-Detect if the auto typing is on pause.
-
-### Behavior expressions
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.BitmapText_AutoTyping::CurrentCharacter()` | Return the text character that was last displayed. ||
-| `Object.BitmapText_AutoTyping::CurrentCharacterIndex()` | Return the index of the text character that was last displayed. ||
-
-## Auto typing text 
-
-Animate text to simulate it being written one character at at time (a "typewriter" effect). 
-
-### Behavior actions
-
-**Time between characters**  
-Change the time between characters being typed. 
-
-**Jump to a specific position in the text**  
-Jump to a specific position in the text. Positions start at "0" and increase by one for every character.
-
-**Pause auto typing**  
-Pause animation auto typing.
-
-**Resume after pause**  
-Resume auto typing after pause.
-
-**Skip to the end of the text**  
-Skip to the end of the text.
-
-**Start at the beginning of the text**  
-Start at the beginning of text. When the text changes, the automatic typing starts again from the beginning with the new text.
-
-### Behavior conditions
-
-**New text character was just displayed**  
-Detect when a new text character is displayed. Useful for triggering sound effects.
-
-**Auto typing finished**  
-Execute actions when the auto typing text ends.
-
-**Typing on pause**  
-Detect if the auto typing is on pause.
-
-### Behavior expressions
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.Text_AutoTyping::CurrentCharacter()` | Return the text character that was last displayed. ||
-| `Object.Text_AutoTyping::CurrentCharacterIndex()` | Return the index of the text character that was last displayed. ||
+| `Object.AutoTyping::Interval()` | Return the time between characters beign typed. ||
 
 ---
 

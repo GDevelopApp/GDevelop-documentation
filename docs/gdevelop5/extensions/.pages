@@ -193,6 +193,7 @@ nav:
             - Selection tools: selection-tools
         - Movement:
             - Flip Gravity: flip-gravity
+            - 3D grid jump: grid-jump3d
             - HasLanded: has-landed
             - Joint Connector: joint-connector
             - 3D jump: jump3d

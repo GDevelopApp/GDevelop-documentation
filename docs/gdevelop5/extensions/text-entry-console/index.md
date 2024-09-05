@@ -28,8 +28,7 @@ Triggers when a specific command has been entered.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Object.TextEntryConsole::GetArg(number)` | Get an argument from the last entered command. ||
-| | _🔢 Number_ | Index of the argument |
+| `Object.TextEntryConsole::GetArg()` | Get an argument from the last entered command. ||
 
 ---
 

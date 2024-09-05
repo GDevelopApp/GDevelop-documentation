@@ -69,32 +69,17 @@ Chosen cell within a maze has a wall in a particular direction.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `MazeGenerator::MazeCellDepth(string, number, number)` | Returns how many cells away from a cell with at least three exits. ||
-| | _string_ | MazeID |
-| | _🔢 Number_ | Row Number |
-| | _🔢 Number_ | Column Number |
-| `MazeGenerator::MazeCellHeight(string)` | Height of maze cells. ||
-| | _string_ | Maze ID |
-| `MazeGenerator::MazeCellWidth(string)` | Width of maze cells. ||
-| | _string_ | Maze ID |
-| `MazeGenerator::MazeHeight(string)` | Height of whole maze. ||
-| | _string_ | Maze ID |
-| `MazeGenerator::MazeNumCells(string)` | The number of cells (floor tiles) inside of a maze. ||
-| | _string_ | Maze ID |
-| `MazeGenerator::MazeNumColumns(string)` | The number of columns in a maze. ||
-| | _string_ | Maze ID |
-| `MazeGenerator::MazeNumRows(string)` | The number of rows in a maze. ||
-| | _string_ | Maze ID |
-| `MazeGenerator::MazeNumWalls(string, number, number)` | The number of directions with walls. ||
-| | _string_ | MazeID chosen during maze creation |
-| | _🔢 Number_ | Row Number |
-| | _🔢 Number_ | Column Number |
-| `MazeGenerator::MazeWidth(string)` | Width of whole maze. ||
-| | _string_ | Maze ID |
-| `MazeGenerator::MazeX(string)` | X position of maze. ||
-| | _string_ | Maze ID |
-| `MazeGenerator::MazeY(string)` | Y position of maze. ||
-| | _string_ | Maze ID |
+| `MazeGenerator::MazeCellDepth()` | Returns how many cells away from a cell with at least three exits. ||
+| `MazeGenerator::MazeCellHeight()` | Height of maze cells. ||
+| `MazeGenerator::MazeCellWidth()` | Width of maze cells. ||
+| `MazeGenerator::MazeHeight()` | Height of whole maze. ||
+| `MazeGenerator::MazeNumCells()` | The number of cells (floor tiles) inside of a maze. ||
+| `MazeGenerator::MazeNumColumns()` | The number of columns in a maze. ||
+| `MazeGenerator::MazeNumRows()` | The number of rows in a maze. ||
+| `MazeGenerator::MazeNumWalls()` | The number of directions with walls. ||
+| `MazeGenerator::MazeWidth()` | Width of whole maze. ||
+| `MazeGenerator::MazeX()` | X position of maze. ||
+| `MazeGenerator::MazeY()` | Y position of maze. ||
 
 ## Maze Object 
 

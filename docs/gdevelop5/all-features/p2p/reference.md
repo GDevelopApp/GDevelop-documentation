@@ -70,10 +70,8 @@ Triggers once when a connected client sends the event
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `P2P::GetEventData(string)` | Returns the data received when the specified event was last triggered ||
-| | _string_ | Event name |
-| `P2P::GetEventSender(string)` | Returns the id of the peer that triggered the event ||
-| | _string_ | Event name |
+| `P2P::GetEventData()` | Returns the data received when the specified event was last triggered ||
+| `P2P::GetEventSender()` | Returns the id of the peer that triggered the event ||
 | `P2P::GetID()` | Gets the client ID of the current game instance ||
 | `P2P::GetLastConnectedPeer()` | Gets the ID of the newly connected peer. ||
 | `P2P::GetLastDisconnectedPeer()` | Gets the ID of the latest peer that has disconnected. ||

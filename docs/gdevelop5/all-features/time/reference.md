@@ -37,13 +37,11 @@ Test if the specified scene timer is paused.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Time(string)` | Current time ||
-| | _🔤 String_ | Hour: hour - Minutes: min - Seconds: sec - Day of month: mday - Months since January: mon - Year since 1900: year - Days since Sunday: wday - Days since Jan 1st: yday - Timestamp (ms): timestamp" |
+| `Time()` | Current time ||
 | `TimeDelta()` | Time elapsed since the last frame rendered on screen ||
 | `TimeFromStart()` | Time elapsed since the beginning of the scene ||
 | `TimeScale()` | Returns the time scale of the scene. ||
-| `TimerElapsedTime(string)` | Value of a scene timer ||
-| | _🔤 Name (String)_ | Timer's name |
+| `TimerElapsedTime()` | Value of a scene timer ||
 
 ---
 *This page is an auto-generated reference page about the **Timers and time** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

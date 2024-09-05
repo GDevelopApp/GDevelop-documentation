@@ -210,73 +210,29 @@ Compare the chapter visit count of the story.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `InkJS::ChapterTag(string, string, number)` | Return chapter tag. ||
-| | _🔤 Name (String)_ | Story name |
-| | _🔤 Name (String)_ | Chapter name In Ink, a chapter (or knot) is a large part of the story.You can combine it with a subchapter (a stich) for reaching a specific part of the chapter. The format is "knot.stich".For example:- castle- castle.hallare valid chapter names. |
-| | _🔢 Number_ | Tag list index |
-| `InkJS::ChapterTagCount(string, string)` | Return chapter tag count. ||
-| | _🔤 Name (String)_ | Story name |
-| | _🔤 Name (String)_ | Chapter name In Ink, a chapter (or knot) is a large part of the story.You can combine it with a subchapter (a stich) for reaching a specific part of the chapter. The format is "knot.stich".For example:- castle- castle.hallare valid chapter names. |
-| `InkJS::ChoiceCount(string)` | Return current choice count. ||
-| | _🔤 Name (String)_ | Story name |
-| `InkJS::ChoiceInternalIndex(string, number)` | Get the choice internal index. ||
-| | _🔤 Name (String)_ | Story name |
-| | _🔢 Number_ | Choice index |
-| `InkJS::ChoiceLabel(string, number)` | Get the choice label. ||
-| | _🔤 Name (String)_ | Story name |
-| | _🔢 Number_ | Choice index |
-| `InkJS::ChoiceTag(string, number, number)` | Return choice tag. ||
-| | _🔤 Name (String)_ | Story name |
-| | _🔢 Number_ | Choice index |
-| | _🔢 Number_ | Tag list index |
-| `InkJS::ChoiceTagCount(string, number)` | Return choice tag count. ||
-| | _🔤 Name (String)_ | Story name |
-| | _🔢 Number_ | Choice index |
-| `InkJS::CurrentChapter(string)` | Return current story chapter. ||
-| | _🔤 Name (String)_ | Story name |
-| `InkJS::CurrentLine(string)` | Return the current story line. ||
-| | _🔤 Name (String)_ | Story name |
-| `InkJS::CurrentLineTag(string, number)` | Return current line tag. ||
-| | _🔤 Name (String)_ | Story name |
-| | _🔢 Number_ | Tag list index |
-| `InkJS::CurrentLineTagCount(string)` | Return current line tag count. ||
-| | _🔤 Name (String)_ | Story name |
-| `InkJS::EvaluateInternalMethodOuput(string, string)` | Return the internal Ink function story output. ||
-| | _🔤 Name (String)_ | Story name |
-| | _🔤 Name (String)_ | Internal Ink method name |
-| `InkJS::EvaluateInternalMethodText(string, string)` | Return the internal Ink function text value. ||
-| | _🔤 Name (String)_ | Story name |
-| | _🔤 Name (String)_ | Internal Ink method name |
-| `InkJS::EvaluateInternalMethodValue(string, string)` | Return the internal Ink function value. ||
-| | _🔤 Name (String)_ | Story name |
-| | _🔤 Name (String)_ | Internal Ink method name |
-| `InkJS::ExternalFunctionParameterCount(string, string)` | Return the event parameter count. ||
-| | _🔤 Name (String)_ | Story name |
-| | _🔤 Name (String)_ | Ink event name |
-| `InkJS::ExternalFunctionParameterNumber(string, string, number)` | Return the event parameter value. ||
-| | _🔤 Name (String)_ | Story name |
-| | _🔤 Name (String)_ | Ink event name |
-| | _🔢 Number_ | Parameter index |
-| `InkJS::ExternalFunctionParameterText(string, string, number)` | Return the event parameter text. ||
-| | _🔤 Name (String)_ | Story name |
-| | _🔤 Name (String)_ | Ink event name |
-| | _🔢 Number_ | Parameter index |
-| `InkJS::GlobalTag(string, number)` | Return global tag. ||
-| | _🔤 Name (String)_ | Story name |
-| | _🔢 Number_ | Tag list index |
-| `InkJS::GlobalTagCount(string)` | Return global tag count. ||
-| | _🔤 Name (String)_ | Story name |
-| `InkJS::ToJSON(string)` | Export the current state of the story to a JSON string. ||
-| | _🔤 Name (String)_ | Story name |
-| `InkJS::VariableNumber(string, string)` | Return the story variable value. ||
-| | _🔤 Name (String)_ | Story name |
-| | _🔤 Name (String)_ | Variable name |
-| `InkJS::VariableText(string, string)` | Return the story variable text. ||
-| | _🔤 Name (String)_ | Story name |
-| | _🔤 Name (String)_ | Variable name |
-| `InkJS::VisitCount(string, string)` | Return the chapter visit count of the story. ||
-| | _🔤 Name (String)_ | Story name |
-| | _🔤 Name (String)_ | Chapter name In Ink, a chapter (or knot) is a large part of the story.You can combine it with a subchapter (a stich) for reaching a specific part of the chapter. The format is "knot.stich".For example:- castle- castle.hallare valid chapter names. |
+| `InkJS::ChapterTag()` | Return chapter tag. ||
+| `InkJS::ChapterTagCount()` | Return chapter tag count. ||
+| `InkJS::ChoiceCount()` | Return current choice count. ||
+| `InkJS::ChoiceInternalIndex()` | Get the choice internal index. ||
+| `InkJS::ChoiceLabel()` | Get the choice label. ||
+| `InkJS::ChoiceTag()` | Return choice tag. ||
+| `InkJS::ChoiceTagCount()` | Return choice tag count. ||
+| `InkJS::CurrentChapter()` | Return current story chapter. ||
+| `InkJS::CurrentLine()` | Return the current story line. ||
+| `InkJS::CurrentLineTag()` | Return current line tag. ||
+| `InkJS::CurrentLineTagCount()` | Return current line tag count. ||
+| `InkJS::EvaluateInternalMethodOuput()` | Return the internal Ink function story output. ||
+| `InkJS::EvaluateInternalMethodText()` | Return the internal Ink function text value. ||
+| `InkJS::EvaluateInternalMethodValue()` | Return the internal Ink function value. ||
+| `InkJS::ExternalFunctionParameterCount()` | Return the event parameter count. ||
+| `InkJS::ExternalFunctionParameterNumber()` | Return the event parameter value. ||
+| `InkJS::ExternalFunctionParameterText()` | Return the event parameter text. ||
+| `InkJS::GlobalTag()` | Return global tag. ||
+| `InkJS::GlobalTagCount()` | Return global tag count. ||
+| `InkJS::ToJSON()` | Export the current state of the story to a JSON string. ||
+| `InkJS::VariableNumber()` | Return the story variable value. ||
+| `InkJS::VariableText()` | Return the story variable text. ||
+| `InkJS::VisitCount()` | Return the chapter visit count of the story. ||
 
 ---
 

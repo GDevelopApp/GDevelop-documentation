@@ -78,8 +78,7 @@ Checks if a video ad is playing.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `CrazyGamesAdApi::InviteLink(string)` | Return an invite link. ||
-| | _string_ | Room id |
+| `CrazyGamesAdApi::InviteLink()` | Return an invite link. ||
 
 ---
 

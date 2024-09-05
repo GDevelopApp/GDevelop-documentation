@@ -18,11 +18,19 @@ Change the duration of the smooth transition between 2 animations (in second).
 **Animation mixing duration**  
 Compare the duration of the smooth transition between 2 animations (in second).
 
+**Point attachment X position**  
+Compare x position of spine point attachment.
+
+**Point attachment Y position**  
+Compare y position of spine point attachment.
+
 ### Object expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.Animation()` | Return the duration of the smooth transition between 2 animations (in second). ||
+| `Object.PointAttachmentX()` | Return x position of spine point attachment. ||
+| `Object.PointAttachmentY()` | Return y position of spine point attachment. ||
 
 ---
 *This page is an auto-generated reference page about the **Spine (experimental)** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

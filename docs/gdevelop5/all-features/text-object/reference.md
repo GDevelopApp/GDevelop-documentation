@@ -13,6 +13,9 @@ Displays a text on the screen.
 **Color**  
 Change the color of the text. The color is white by default.
 
+**Font**  
+Change the font of the text.
+
 **Bold**  
 De/activate bold
 

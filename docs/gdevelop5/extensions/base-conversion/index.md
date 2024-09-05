@@ -16,12 +16,8 @@ Adds expressions to convert numbers to a different base and back. Can be used to
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `BaseConversion::ToBase(number, number)` | Converts a number to a trsing representing it in another base. ||
-| | _🔢 Number_ | Number to convert |
-| | _🔢 Number_ | The base to convert the number to |
-| `BaseConversion::ToDecimal(string, number)` | Converts a string representing a number in a different base to a decimal number. ||
-| | _string_ | String representing a number |
-| | _🔢 Number_ | The base the number in the string is in |
+| `BaseConversion::ToBase()` | Converts a number to a trsing representing it in another base. ||
+| `BaseConversion::ToDecimal()` | Converts a string representing a number in a different base to a decimal number. ||
 
 ---
 

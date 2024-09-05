@@ -31,12 +31,8 @@ That randomness does come at a cost of performance so be aware of your usage of 
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `CryptoApi::RandomFloatInRange(number, number)` | Uses the Crypto API to create a longer random number in an float range. ||
-| | _🔢 Number_ | Minimum Value  |
-| | _🔢 Number_ | Maximum Value  |
-| `CryptoApi::RandomInRange(number, number)` | Uses the Crypto API to create a longer random number in an integer range. ||
-| | _🔢 Number_ | Minimum Value  |
-| | _🔢 Number_ | Maximum Value  |
+| `CryptoApi::RandomFloatInRange()` | Uses the Crypto API to create a longer random number in an float range. ||
+| `CryptoApi::RandomInRange()` | Uses the Crypto API to create a longer random number in an integer range. ||
 
 ---
 
