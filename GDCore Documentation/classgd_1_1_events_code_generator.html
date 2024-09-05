@@ -123,9 +123,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a16b69a1fd1fa71c0718436b35a4f8ccc"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#a16b69a1fd1fa71c0718436b35a4f8ccc">GenerateActionsListCode</a> (<a class="el" href="classgd_1_1_instructions_list.html">gd::InstructionsList</a> &amp;actions, <a class="el" href="classgd_1_1_events_code_generation_context.html">EventsCodeGenerationContext</a> &amp;context)</td></tr>
 <tr class="memdesc:a16b69a1fd1fa71c0718436b35a4f8ccc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate code for executing an action list.  <a href="classgd_1_1_events_code_generator.html#a16b69a1fd1fa71c0718436b35a4f8ccc">More...</a><br /></td></tr>
 <tr class="separator:a16b69a1fd1fa71c0718436b35a4f8ccc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab961b09bab4bcc2d74abe558fe3d20fa"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#ab961b09bab4bcc2d74abe558fe3d20fa">GenerateParametersCodes</a> (const std::vector&lt; <a class="el" href="classgd_1_1_expression.html">gd::Expression</a> &gt; &amp;parameters, const std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">gd::ParameterMetadata</a> &gt; &amp;parametersInfo, <a class="el" href="classgd_1_1_events_code_generation_context.html">EventsCodeGenerationContext</a> &amp;context, std::vector&lt; std::pair&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>, <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &gt; *supplementaryParametersTypes=0)</td></tr>
-<tr class="memdesc:ab961b09bab4bcc2d74abe558fe3d20fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate the code for a parameter of an action/condition/expression.  <a href="classgd_1_1_events_code_generator.html#ab961b09bab4bcc2d74abe558fe3d20fa">More...</a><br /></td></tr>
-<tr class="separator:ab961b09bab4bcc2d74abe558fe3d20fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84cbebed4bf511aed9012c9b75255eca"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#a84cbebed4bf511aed9012c9b75255eca">GenerateParametersCodes</a> (const std::vector&lt; <a class="el" href="classgd_1_1_expression.html">gd::Expression</a> &gt; &amp;parameters, const <a class="el" href="classgd_1_1_parameter_metadata_container.html">ParameterMetadataContainer</a> &amp;parametersInfo, <a class="el" href="classgd_1_1_events_code_generation_context.html">EventsCodeGenerationContext</a> &amp;context, std::vector&lt; std::pair&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>, <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &gt; *supplementaryParametersTypes=0)</td></tr>
+<tr class="memdesc:a84cbebed4bf511aed9012c9b75255eca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate the code for a parameter of an action/condition/expression.  <a href="classgd_1_1_events_code_generator.html#a84cbebed4bf511aed9012c9b75255eca">More...</a><br /></td></tr>
+<tr class="separator:a84cbebed4bf511aed9012c9b75255eca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e2dec8255c8a82e5fc9a5315046863d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_code_generator.html#a5e2dec8255c8a82e5fc9a5315046863d">GenerateConditionCode</a> (<a class="el" href="classgd_1_1_instruction.html">gd::Instruction</a> &amp;condition, <a class="el" href="classgd_1_1_string.html">gd::String</a> returnBoolean, <a class="el" href="classgd_1_1_events_code_generation_context.html">EventsCodeGenerationContext</a> &amp;context)</td></tr>
 <tr class="memdesc:a5e2dec8255c8a82e5fc9a5315046863d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate code for a single condition.  <a href="classgd_1_1_events_code_generator.html#a5e2dec8255c8a82e5fc9a5315046863d">More...</a><br /></td></tr>
 <tr class="separator:a5e2dec8255c8a82e5fc9a5315046863d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1490,7 +1490,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>ExpressionCodeGenera
 <li>layer, color, file, stringWithSelector : Same as string</li>
 <li>relationalOperator : Used to make a comparison between the function return value and value of the parameter preceding the relationOperator parameter -&gt; string</li>
 <li>operator : Used to update a value using a setter and a getter -&gt; string</li>
-<li>key, mouse, objectvar, scenevar, globalvar, password, musicfile, soundfile, police -&gt; string</li>
+<li>key, mouse, objectvar, scenevar, globalvar, password, musicfile, soundfile -&gt; string</li>
 <li>trueorfalse, yesorno -&gt; boolean ( See GenerateTrue/GenerateFalse ).</li>
 </ul>
 <p><br  />
@@ -1511,8 +1511,8 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>ExpressionCodeGenera
 
 </div>
 </div>
-<a id="ab961b09bab4bcc2d74abe558fe3d20fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab961b09bab4bcc2d74abe558fe3d20fa">&#9670;&nbsp;</a></span>GenerateParametersCodes()</h2>
+<a id="a84cbebed4bf511aed9012c9b75255eca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84cbebed4bf511aed9012c9b75255eca">&#9670;&nbsp;</a></span>GenerateParametersCodes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1526,7 +1526,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>ExpressionCodeGenera
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="classgd_1_1_parameter_metadata.html">gd::ParameterMetadata</a> &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_parameter_metadata_container.html">ParameterMetadataContainer</a> &amp;&#160;</td>
           <td class="paramname"><em>parametersInfo</em>, </td>
         </tr>
         <tr>

@@ -129,6 +129,13 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <a class="el" href="classgd_1_1_events_based_object.html">EventsBasedObject</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_based_object.html#ac0a6222597635546ddabfd232be0aa62">MarkAsTextContainer</a> (bool isTextContainer_)</td></tr>
 <tr class="memdesc:ac0a6222597635546ddabfd232be0aa62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declare a TextContainer capability. <br /></td></tr>
 <tr class="separator:ac0a6222597635546ddabfd232be0aa62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad51550518a15688bb6a7b4bf199eb9ae"><td class="memItemLeft" align="right" valign="top"><a id="ad51550518a15688bb6a7b4bf199eb9ae"></a>
+<a class="el" href="classgd_1_1_events_based_object.html">EventsBasedObject</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_based_object.html#ad51550518a15688bb6a7b4bf199eb9ae">MarkAsInnerAreaExpandingWithParent</a> (bool isInnerAreaExpandingWithParent_)</td></tr>
+<tr class="memdesc:ad51550518a15688bb6a7b4bf199eb9ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declare that the parent scale will always be 1 and children will adapt there size. This is removing the ScalableCapability. <br /></td></tr>
+<tr class="separator:ad51550518a15688bb6a7b4bf199eb9ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31e9f190fd33f1177c14c28b05e4a8d1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_based_object.html#a31e9f190fd33f1177c14c28b05e4a8d1">IsInnerAreaFollowingParentSize</a> () const</td></tr>
+<tr class="memdesc:a31e9f190fd33f1177c14c28b05e4a8d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if objects handle size changes on their own and don't have the ScalableCapability.  <a href="classgd_1_1_events_based_object.html#a31e9f190fd33f1177c14c28b05e4a8d1">More...</a><br /></td></tr>
+<tr class="separator:a31e9f190fd33f1177c14c28b05e4a8d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c1fd20974dce6cf0dd01bc4a239b69d"><td class="memItemLeft" align="right" valign="top"><a id="a3c1fd20974dce6cf0dd01bc4a239b69d"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_based_object.html#a3c1fd20974dce6cf0dd01bc4a239b69d">IsTextContainer</a> () const</td></tr>
 <tr class="memdesc:a3c1fd20974dce6cf0dd01bc4a239b69d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the object needs a TextContainer capability. <br /></td></tr>
@@ -450,6 +457,37 @@ static <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td
 <p>Get the min Z bound of the custom object. </p>
 <p>This is used only if there is any initial instances.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_events_based_object.html#aac6d9d739ac85b14bdb4ba96fc57fb5c" title="Get the instances of the custom object.">EventsBasedObject::GetInitialInstances</a> </dd></dl>
+
+</div>
+</div>
+<a id="a31e9f190fd33f1177c14c28b05e4a8d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31e9f190fd33f1177c14c28b05e4a8d1">&#9670;&nbsp;</a></span>IsInnerAreaFollowingParentSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gd::EventsBasedObject::IsInnerAreaFollowingParentSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return true if objects handle size changes on their own and don't have the ScalableCapability. </p>
+<p>When the parent dimensions change:</p><ul>
+<li>if <code>false</code>, the object is stretch proportionally while children local positions stay the same.</li>
+<li>if <code>true</code>, the children local positions need to be adapted by events to follow their parent size. </li>
+</ul>
 
 </div>
 </div>
