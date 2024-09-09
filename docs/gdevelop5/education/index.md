@@ -73,34 +73,34 @@ But teacher accounts can do it. The password is then safely stored in our databa
 You can have multiple accounts having the teacher role in your plan.
 To do so, click the "Add teacher" button and enter the email address of the other teacher GDevelop account.
 
-Note that the other teacher must already have signed up with GDevelop before you can add them to your account as teachers.
+Note that teachers must already have signed up with GDevelop before you can add them to your account. We encourage every teacher to sign up with their work/education email.
 
 ![Zoom on the "Add teacher" feature](./add-teacher.png)
 
-Teacher accounts added this way will have the same rights as the main account except for the subscription management, they cannot unsubscribe from the education plan.
+Teacher accounts have the same rights as the main account but cannot unsubscribe from the education plan.
 
 ### Add, archive and restore student accounts
 
-Once your plan is all set up, you will have to create the student accounts yourself.
+Once you've purchased GDevelop for Education, head to the classroom tab and click on "Manage Seats" to start creating accounts for your students.
 
-Using this input, create a batch of student accounts.
+Using this field, create multiple student accounts at once:
 
 ![Zoom on the "Add students batch" feature](./add-multiple-students.png)
 
 It is then possible to manage the student accounts by archiving and restoring accounts.
-You can also copy-paste the accounts credentials in CSV format.
+You can also export account credentials in a CSV file (that can be opened using any spreadsheet app).
 
 ![Zoom on the "Manage students" features](./manage-students.png)
 
 Here is the recommended way of managing student accounts:
 
 - When your account is set up, add the needed teacher accounts.
-- Then create student accounts in a batch (it should correspond to the number of remaining seats).
-- Enjoy and teach class!
+- Then create student accounts - very often, you can create all accounts at one, with the number of remaining seats in your account. If you create two many accounts, you can always disable them later.
+- You're ready to teach! Send the credentials for each account to your students and make sure to read our curriculum and educational resources.
 - When the class is done, archive the student accounts (projects and games won't be removed but accounts will be deactivated and students won't have access to them).
   This action frees seats in your plan.
 - Create brand new accounts for the next class.
 
 !!! tip
 
-    When archiving student accounts, you have to wait 15 days before you can restore them.
+    It is possible to activate again a student account that was disabled (for example, in the case of a student joining again your class), but you have to wait 15 days before you can restore them after disabling them.
