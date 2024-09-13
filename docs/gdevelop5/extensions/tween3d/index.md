@@ -1,9 +1,9 @@
-# Advanced 3D tween (experimental)
+# Advanced 3D tween
 
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/30bc03f9cf5f2f42960246a605352a6937ae6b603f0177396a83193849a4724a_tennis-ball.svg" class="extension-icon"></img>
-Smoothly squash, strentch and wobble 3D models.
+Smoothly squash, strentch, tint and wobble 3D models.
 
-**Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).
+**Authors and contributors** to this community extension: [D8H](https://gd.games/D8H), [Jurfix](https://gd.games/Jurfix).
 
 !!! warning
     This is an extension made by a community member — but not reviewed
@@ -27,11 +27,16 @@ Breaking changes of 0.1.0:
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
+## Actions
+
+**Tint color**  
+Change the tint of an object. The default color is white.
 
 
-## 3D tween (experimental) 
 
-Smoothly animate scale and rotation of 3d models. 
+## Advanced 3D tween 
+
+Smoothly squash, strentch and tint 3D models. 
 
 ### Behavior actions
 
@@ -64,6 +69,9 @@ Tweens an object stretch Y from its current value to a new one. The stretch can 
 
 **Tween stretch Z**  
 Tweens an object stretch Z from its current value to a new one. The stretch can never be 0 or less.
+
+**Tween object color**  
+Tweens the object color from its current value to a new one.
 
 ### Behavior conditions
 
@@ -167,4 +175,4 @@ Compare the stretch cycle offset of the object.
 
 ---
 
-*This page is an auto-generated reference page about the **Advanced 3D tween (experimental)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Advanced 3D tween** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

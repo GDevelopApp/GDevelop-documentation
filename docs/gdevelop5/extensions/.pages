@@ -236,5 +236,5 @@ nav:
             - Make it rain: make-it-rain
             - Reflection: reflection
             - Sprite Based Lighting: sprite-based-lighting
-            - Advanced 3D tween (experimental): tween3d
+            - Advanced 3D tween: tween3d
     - ...
