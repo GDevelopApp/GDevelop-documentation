@@ -145,6 +145,7 @@ nav:
         - Slice an object into pieces: object-slicer
         - 3D particle emitter: particle-emitter3d
         - Object recolorizer (experimental): recolorizer
+        - Rolling counter: rolling-counter
         - Animate Shadow Clones: shadow-clones
         - Shake object: shake-object
         - 3D object shake: shake-object3d
