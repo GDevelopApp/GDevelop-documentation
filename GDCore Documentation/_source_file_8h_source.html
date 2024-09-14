@@ -120,20 +120,9 @@ $(function() {
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;      associatedGdEvent;  </div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;};</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment">//&quot;Tool&quot; Functions</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;}  <span class="comment">// namespace gd</span></div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
-<div class="line"><a name="l00095"></a><span class="lineno"><a class="line" href="structgd_1_1_external_source_file_has_name.html">   95</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structgd_1_1_external_source_file_has_name.html">ExternalSourceFileHasName</a></div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    : <span class="keyword">public</span> std::</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;          binary_function&lt;std::unique_ptr&lt;SourceFile&gt;, gd::String, bool&gt; {</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  <span class="keywordtype">bool</span> operator()(<span class="keyword">const</span> std::unique_ptr&lt;SourceFile&gt;&amp; externalEvents,</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                  <a class="code" href="classgd_1_1_string.html">gd::String</a> name)<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordflow">return</span> externalEvents-&gt;GetFileName() == name;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  }</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;};</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;}  <span class="comment">// namespace gd</span></div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160; </div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// SOURCEFILE_H</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// SOURCEFILE_H</span></div>
 <div class="ttc" id="aclassgd_1_1_serializer_element_html"><div class="ttname"><a href="classgd_1_1_serializer_element.html">gd::SerializerElement</a></div><div class="ttdoc">A generic container that can represent a value ( containing a string, double, bool or int),...</div><div class="ttdef"><b>Definition:</b> SerializerElement.h:37</div></div>
 <div class="ttc" id="aclassgd_1_1_source_file_html"><div class="ttname"><a href="classgd_1_1_source_file.html">gd::SourceFile</a></div><div class="ttdoc">Represents a &quot;physical&quot; source file.</div><div class="ttdef"><b>Definition:</b> SourceFile.h:25</div></div>
 <div class="ttc" id="aclassgd_1_1_source_file_html_a4cf6254401150cb9dcc14ae6662e9c98"><div class="ttname"><a href="classgd_1_1_source_file.html#a4cf6254401150cb9dcc14ae6662e9c98">gd::SourceFile::GetLanguage</a></div><div class="ttdeci">const gd::String &amp; GetLanguage() const</div><div class="ttdoc">Get the language of the source file.</div><div class="ttdef"><b>Definition:</b> SourceFile.h:75</div></div>
@@ -145,7 +134,6 @@ $(function() {
 <div class="ttc" id="aclassgd_1_1_source_file_html_af32ff8b3176330ae0280cefb94d811a2"><div class="ttname"><a href="classgd_1_1_source_file.html#af32ff8b3176330ae0280cefb94d811a2">gd::SourceFile::SetLanguage</a></div><div class="ttdeci">void SetLanguage(gd::String lang)</div><div class="ttdoc">Change the language of the source file.</div><div class="ttdef"><b>Definition:</b> SourceFile.h:70</div></div>
 <div class="ttc" id="aclassgd_1_1_string_html"><div class="ttname"><a href="classgd_1_1_string.html">gd::String</a></div><div class="ttdoc">String represents an UTF8 encoded string.</div><div class="ttdef"><b>Definition:</b> String.h:31</div></div>
 <div class="ttc" id="anamespacegd_html"><div class="ttname"><a href="namespacegd.html">gd</a></div><div class="ttdef"><b>Definition:</b> CommonTools.h:24</div></div>
-<div class="ttc" id="astructgd_1_1_external_source_file_has_name_html"><div class="ttname"><a href="structgd_1_1_external_source_file_has_name.html">gd::ExternalSourceFileHasName</a></div><div class="ttdef"><b>Definition:</b> SourceFile.h:97</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
