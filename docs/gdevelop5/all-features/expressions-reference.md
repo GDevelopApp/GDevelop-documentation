@@ -1141,8 +1141,8 @@ Displays a tiled-based map. [Read more explanations about it.](/gdevelop5/object
 | `Object.TileCenterY()` | Get the scene Y position of the center of the tile. ||
 | `Object.TileIdAtGrid()` | Return the id of the tile at the grid coordinates. ||
 | `Object.TileIdAtPosition()` | Return the id of the tile at the scene coordinates. ||
-| `Object.TilesetColumnCount()` | Get the number of column in the tileset. ||
-| `Object.TilesetRowCount()` | Get the number of row in the tileset. ||
+| `Object.TilesetColumnCount()` | Get the number of columns in the tileset. ||
+| `Object.TilesetRowCount()` | Get the number of rows in the tileset. ||
 
 ## External Tilemap (Tiled/LDtk) (from extension Tile map)
 
