@@ -35,7 +35,7 @@ After clicking the button, a blank sub-event appears below our selected event.
 
 ![](/gdevelop5/interface/events-editor/pasted/20230313-180002.png)
 
-//Sub-events are executed only if the conditions of the main event it's attached to are true//. Sub-events provide a way to avoid repeating the same conditions, making your game more performant. They also make the logic much easier to read and search through.
+**Sub-events are executed only if the conditions of the main event it's attached to are true**. Sub-events provide a way to avoid repeating the same conditions, making your game more performant. They also make the logic much easier to read and search through.
 
 ## Add a comment
 
