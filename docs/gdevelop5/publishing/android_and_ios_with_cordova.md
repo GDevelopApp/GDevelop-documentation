@@ -56,7 +56,7 @@ npm install -g cordova
 
 After that, navigate to your Cordova project's directory and type this on the command prompt or terminal:
 
-- `cordova platform add ios` if you want to export your game to iOS.
+- `cordova platform add ios@7.1` if you want to export your game to iOS.
 - `cordova platform add android@13` if you want to export your game to Android.
 
 This will create new folders on your project's directory:
