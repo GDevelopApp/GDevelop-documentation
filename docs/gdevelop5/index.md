@@ -16,5 +16,5 @@ If you're an experienced developer, animator or game designer, you'll be familia
 ## Next steps
 
 * [Start GDevelop](https://gdevelop.io/download). Read the [Getting Started](/gdevelop5/getting_started) guide if needed.
-* If you've never made a game before, read the [Basic game-making concepts](/gdevelop5/tutorials/basic-game-making-concepts) guide and follow items in the "Get Started" page of GDevelop.
+* If you've never made a game before, read the [Basic game-making concepts](/gdevelop5/tutorials/basic-game-making-concepts) guide and follow items in the "Get Started" page of GDevelop, including the guided tutorials.
 * If you're ready to start making a game, watch the [Official Intro Tutorial Video Series](https://www.youtube.com/watch?v=595-swNh0Mw&list=PL3YlZTdKiS89Kj7IQVPoNElJCWrjZaCC8&index=1).
