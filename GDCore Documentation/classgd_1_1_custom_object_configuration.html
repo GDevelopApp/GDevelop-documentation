@@ -160,6 +160,10 @@ const <a class="el" href="classgd_1_1_sprite_animation_list.html">SpriteAnimatio
 <a class="el" href="classgd_1_1_sprite_animation_list.html">SpriteAnimationList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_custom_object_configuration.html#a8c861e2a319cae7aafbb80615dbf0ae8">GetAnimations</a> ()</td></tr>
 <tr class="memdesc:a8c861e2a319cae7aafbb80615dbf0ae8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the animation configuration for Animatable custom objects. <br /></td></tr>
 <tr class="separator:a8c861e2a319cae7aafbb80615dbf0ae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd529907ff6291d6798cac0ae2fedbae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_custom_object_configuration.html#abd529907ff6291d6798cac0ae2fedbae">IsChildObjectFolded</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;childName) const</td></tr>
+<tr class="separator:abd529907ff6291d6798cac0ae2fedbae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02e773cdba4fdd860a66f55853fe013c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_custom_object_configuration.html#a02e773cdba4fdd860a66f55853fe013c">SetChildObjectFolded</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;childName, bool folded)</td></tr>
+<tr class="separator:a02e773cdba4fdd860a66f55853fe013c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classgd_1_1_object_configuration"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classgd_1_1_object_configuration')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classgd_1_1_object_configuration.html">gd::ObjectConfiguration</a></td></tr>
 <tr class="memitem:a232d6ba2fcaff3f2fc8ada8411b35f2a inherit pub_methods_classgd_1_1_object_configuration"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_object_configuration.html#a232d6ba2fcaff3f2fc8ada8411b35f2a">ObjectConfiguration</a> ()</td></tr>
 <tr class="separator:a232d6ba2fcaff3f2fc8ada8411b35f2a inherit pub_methods_classgd_1_1_object_configuration"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -363,6 +367,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="abd529907ff6291d6798cac0ae2fedbae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd529907ff6291d6798cac0ae2fedbae">&#9670;&nbsp;</a></span>IsChildObjectFolded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gd::CustomObjectConfiguration::IsChildObjectFolded </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>childName</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Check if a child object properties must be displayed as folded in the editor. This is only useful when the object can override its children configuration (which is something being deprecated). </p>
+
+</div>
+</div>
 <a id="ac4ccc048d00d96c4bf87569c89f63350"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac4ccc048d00d96c4bf87569c89f63350">&#9670;&nbsp;</a></span>operator=()</h2>
 
@@ -387,6 +418,43 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Assignment operator. Calls Init(). </p>
+
+</div>
+</div>
+<a id="a02e773cdba4fdd860a66f55853fe013c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02e773cdba4fdd860a66f55853fe013c">&#9670;&nbsp;</a></span>SetChildObjectFolded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gd::CustomObjectConfiguration::SetChildObjectFolded </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>childName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>folded</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set if a child object properties must be displayed as folded in the editor. This is only useful when the object can override its children configuration (which is something being deprecated). </p>
 
 </div>
 </div>
