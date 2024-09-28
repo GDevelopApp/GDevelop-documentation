@@ -3,9 +3,7 @@ title: Getting Started with GDevelop
 ---
 # Getting Started with GDevelop
 
-GDevelop is a free, open-source, and cross-platform game creation tool that anyone can use to create games *without* programming skills.
-
-This guide explains how to get started with GDevelop.
+This page explains how to start GDevelop and the first steps recommended for beginners.
 
 ## Step 1: Start GDevelop
 
