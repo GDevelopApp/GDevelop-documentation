@@ -7,51 +7,25 @@ GDevelop is a free, open-source, and cross-platform game creation tool that anyo
 
 This guide explains how to get started with GDevelop.
 
-## Step 1: Install GDevelop
+## Step 1: Start GDevelop
 
-GDevelop is available for all major operating systems, including the latest versions of Windows, macOS, and Linux. To download GDevelop, visit [gdevelop.io/download](https://gdevelop.io/download/).
+GDevelop is available for all computers (Windows, macOS, and Linux), tablets and phones (iPad, iPhone, Android phones and tablets). To download GDevelop, visit [gdevelop.io/download](https://gdevelop.io/download/).
 
-!!! note
-
-    If you're on a phone, tablet or can't install GDevelop on your device (Chromebooks), use the online version of GDevelop available at [editor.gdevelop.io](https://editor.gdevelop.io/). You can use it to create full games and store your projects in the Cloud.
-
-The installation instructions depend on the operating system.
-
-**Windows**:
-
-  *  Double-click on the executable.
-  *  Click on the Next button several times, until the installation begins. This installs GDevelop, launches the app, and adds an icon to the Desktop.
-
-**macOS**:
-
-  *  Open the DMG file.
-  *  Drag "GDevelop.app" into the "~/Applications" directory.
-
-**Linux (flatpak)**:
-
-  *  Open a terminal.
-  *  Follow the command line instructions at the bottom of the [GDevelop Flathub page](https://flathub.org/apps/details/io.gdevelop.ide)
-
-**Linux (AppImage)**:
-
-  *  Open a terminal.
-  *  Make the AppImage file executable by typing `chmod a+x GDevelop*.AppImage`.
-  *   Run it: `./GDevelop*.AppImage` (or double-click on the file).
-
-**Phone, tablets, and Chromebooks**:
-
-  *  Open your browser and go to [editor.gdevelop.io](https://editor.gdevelop.io).
-  *  If you are on Android or a Chromebook, choose the option to "Add to Homescreen".
+* **Windows**: double-click on the executable. Click on the Next button several times, until the installation begins. This installs GDevelop, launches the app, and adds an icon to the Desktop.
+* **macOS**: open the DMG file and Drag "GDevelop" into the "~/Applications" directory.
+* **Linux (flatpak)**: Open a terminal abd follow the command line instructions at the bottom of the [GDevelop Flathub page](https://flathub.org/apps/details/io.gdevelop.ide).
+* **Linux (AppImage)**: Open a terminal. Make the AppImage file executable by typing `chmod a+x GDevelop*.AppImage` then press Enter. Then, run it: `./GDevelop*.AppImage` (or double-click on the file).
+* **iOS**: download [GDevelop from the App Store](https://apps.apple.com/us/app/gdevelop-game-maker/id1663675754).
+* **Android**: download [GDevelop from Google Play](https://play.google.com/store/apps/details?id=io.gdevelop.ide).
+* **Chromebooks or other devices**: open your browser and go to [editor.gdevelop.io](https://editor.gdevelop.io). If you are on Android or a Chromebook, choose the option to "Add to Homescreen".
 
 !!! tip
 
     For administrators trying to install GDevelop on several machines (with a company or a university, for example), the Windows installer is based on *NSIS*, so you can find online resources to use it from a script. Read this page to learn about [installing GDevelop on a network of machines](/gdevelop5/getting_started/batch-install-gdevelop-company-university). You can also have a [portable version of GDevelop by extracting it with 7zip](/gdevelop5/getting_started/windows-portable-version-gdevelop).
 
-## Step 2: Create a new project
+## Step 2: Customize a game template or create a new project
 
-1. Launch GDevelop.
-2. Either open a **Template** to use as a starting point, or click **Create a project** to start from an empty project.
-3. Choose a location and name for the project, as well as the game's resolution if starting a new project.
+When launching GDevelop, you can choose a game template that can be customized in a few minutes (which is good for getting a try at game creation), open a game template in the editor or start from scratch.
 
 ![](/gdevelop5/getting_started/pasted/20230309-173349.png)
 
@@ -59,17 +33,17 @@ The installation instructions depend on the operating system.
 
 A **Preview** button is available via the toolbar. This button launches a preview of the game in a new window.
 
-!!! tip
-
-    To preview your game from a mobile device, click the down arrow and select **Start Network Preview**.  Then use a browser on your mobile device to visit the address that is displayed. **Alternatively**, you can click the publish button and generate a private web link for the game through GDevelop's games hosting platform [gd.games](https://gd.games/).
-
 ![](/gdevelop5/getting_started/pasted/20230309-173456.png)
 
-## Next step
+## Next steps
 
-Depending on your preference, follow one of the two link paths below.
+Depending on your preference and learning style, follow one of the paths below.
 
-### Wiki path
+### In app tutorials
+
+Tutorials integrated in GDevelop are accessible from the "Get Started" page as well as the "Learn" page. Try the first ones to learn the basic usage of GDevelop.
+
+### Documentation path
 
 Begin by reading through the [Basic Game Making Concepts](https://wiki.gdevelop.io/gdevelop5/tutorials/basic-game-making-concepts) wiki page.
 
