@@ -31,8 +31,9 @@ Here are some commonly used behaviors:
 - [Platformer objects and platforms](/gdevelop5/behaviors/platformer)
 - [Top-down movement](/gdevelop5/behaviors/topdown)
 - [Tween](/gdevelop5/behaviors/tween)
+- [Multiplayer Object](/gdevelop5/all-features/multiplayer)
 
-Refer to the linked pages to learn more about each behavior. While these behaviors are often used, the [full list of behaviors available in GDevelop](/gdevelop5/extensions/) keeps growing everyday: see the [list of all GDevelop extensions](/gdevelop5/extensions/) to discover them.
+While these behaviors are often used, the [full list of behaviors available in GDevelop](/gdevelop5/extensions/) keeps growing everyday: see the [list of all GDevelop extensions](/gdevelop5/extensions/) to discover them.
 
 Behaviors can be contributed by the community or the GDevelop core development team. You can [create new behaviors](/gdevelop5/behaviors/events-based-behaviors), with or without code, directly inside GDevelop.
 
