@@ -9,6 +9,7 @@ Games can be enriched by extensions that can be created directly in a project. T
 
     Some best practices are in vigor to keep the extensions as clean as possible, [these practices](/gdevelop5/extensions/best-practices) are requirements to submit an extension to the community list in the engine.
 
+Developers can also [contribute to extensions built directly inside GDevelop](https://github.com/4ian/GDevelop/blob/master/newIDE/README-extensions.md).
 
 ## Create a new extension
 
