@@ -36,12 +36,17 @@ You then configure a "Build" that is using the "depots". You can use the web int
 
 ![](./builds-upload-web.png)
 
-### Issue when uploading a macOS build
+### Issue when uploading a macOS build: how to properly upload your macOS game
 
-There is an issue making the macOS application not working after uploading the macOS zip file (this is because [the Steam web uploader breaks the symlinks](https://github.com/electron-userland/electron-builder/issues/5767#issuecomment-813920169)).
+There is an issue making the macOS application not working after uploading the macOS zip file (this is because [the Steam web uploader breaks the symlinks](https://github.com/electron-userland/electron-builder/issues/5767#issuecomment-813920169)). This results in a broken app that does not launch and crashes immediately with a message related to `Electron Framework.framework`.
 Instead, you must use the **steamcmd** command line tool to upload your macOS files.
 
-- Start by extracting the macOS zip file somewhere. Use Linux or macOS - Windows will break the "symlinks" when extracting the zip file. Extract the files in a folder called `mac`. You should have a single folder, "Your Game.app" inside this `mac` folder.
+- Start by extracting the macOS zip file somewhere. Use Linux or macOS `unzip` command line tool - Windows will break the "symlinks" when extracting the zip file. Extract the files in a folder called `mac`. You should have a single folder, "Your Game.app" inside this `mac` folder.
+
+    !!! danger
+
+        Windows, and some archiver softwares on Linux, will break the "symlinks" when extracting the zip file - making it impossible to run the app. Use `unzip` on macOS or Linux.
+
 - Create a [Build Config file](https://partner.steamgames.com/doc/sdk/uploading) called `steam-upload-config.vdf`. Put it next to the folder called `mac`. This is an example:
 
 ```
