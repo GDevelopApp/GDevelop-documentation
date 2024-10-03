@@ -43,7 +43,7 @@ The following guides provide explanations for certain parts of GDevelop. They al
 - [How to reduce the size of your game](/gdevelop5/tutorials/reduce-size-game)
 - [How to handle complex logic – The finite state machine (FSM)](/gdevelop5/tutorials/finite_state_machine)
 - [How to make togglable states](/gdevelop5/tutorials/how-to-make-togglable-states-with-variables)
-- [How to use GDevelop as a team (multiple developers and teammates)](/gdevelop5/tutorials/how-to-use-GDevelop-as-a-team)
+- [How to use GDevelop as a team (multiple developers and teammates)](/gdevelop5/tutorials/how-to-use-gdevelop-as-a-team)
 - [How to use Piskel to Import a Sprite Sheet Image](/gdevelop5/tutorials/piskel-sprite-sheets)
 - [How to backup and maintain your project using GitHub and GitHub Desktop](/gdevelop5/tutorials/using-github-desktop)
 - [How to Change the Event Sheet's Action and Condition Editor Mode](/gdevelop5/tutorials/change-event-editor-mode)
