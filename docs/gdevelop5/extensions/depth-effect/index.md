@@ -20,7 +20,10 @@ Tips:
 - If you want speed to look constant, be sure to reduce the object's speed based on scale or Y value.  If you don't do this, the object will appear to be moving faster when it is near the top of the screen.  This matches how objects appear in the real world.
 - This extension works well with the Y-sort extension, which changes Z order based on Y position.
 
-[Read more...](https://victrisgames.itch.io/extension-sinemovement-and-deptheffect)
+Breaking changes from 0.1.0
+
+- The behavior dedicated to text has been removed as the other behavior now work for any object.
+
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
@@ -50,30 +53,6 @@ Set max scale when the object is at the bottom of the screen (Default: 2).
 | `Object.DepthEffect_Sprite::HorizonY()` | Y value of horizon. ||
 | `Object.DepthEffect_Sprite::MaxScale()` | Max scale when the object is at the bottom of the screen. ||
 | `Object.DepthEffect_Sprite::PercentAwayFromHorizon()` | Percent away from the horizon.  This is "0" at the horizon, and "1" at the bottom of the screen. ||
-
-## Depth effect 
-
-The scale of the object decreases the closer it is to the horizon, giving the illusion that the object is travelling away from the viewer. 
-
-### Behavior actions
-
-**Set exponential rate of change**  
-Set Y exponential rate of change (Default: 2).
-
-**Set Y position of horizon**  
-Set Y position of horizon, where objects are infinitely small (Default: 0).
-
-**Set max scale**  
-Set max scale when the object is at the bottom of the screen (Default: 2).
-
-### Behavior expressions
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `Object.DepthEffect_Text::ExponentY()` | Exponential rate of change in scale based on the Y position. ||
-| `Object.DepthEffect_Text::HorizonY()` | Y value of horizon. ||
-| `Object.DepthEffect_Text::MaxScale()` | Max scale when the object is at the bottom of the screen. ||
-| `Object.DepthEffect_Text::PercentAwayFromHorizon()` | Percent away from horizon.  This is 0 at the horizon, and 1 at the bottom of the screen. ||
 
 ---
 

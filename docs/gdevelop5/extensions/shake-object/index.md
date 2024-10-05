@@ -17,8 +17,6 @@ It can be used for:
 
 The top-down RPG example uses this extension for damage animations ([open the project online](https://editor.gdevelop.io/?project=example://top-down-rpg)).
 
-[Read more...](https://victrisgames.itch.io/gdevelop-camera-shake-example)
-
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
@@ -26,8 +24,7 @@ The top-down RPG example uses this extension for damage animations ([open the pr
 
 ## Shake object (position, angle) 
 
-Shake an object, using one or more ways to shake (position, angle).
-This behavior can be used on any type of object. 
+Shake objects with translation and rotation. 
 
 ### Behavior actions
 
@@ -47,8 +44,7 @@ _No expressions for this behavior._
 
 ## Shake object (position, angle, scale) 
 
-Shake an object, using one or more ways to shake (position, angle, scale)
-This behavior can only be used on sprite objects. 
+Shake objects with translation, rotation and scale. 
 
 ### Behavior actions
 

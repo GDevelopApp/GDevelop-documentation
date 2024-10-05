@@ -21,25 +21,7 @@ This can be used to:
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
-## Actions
 
-**Toggle an object effect**  
-Toggle an object effect.
-
-**Toggle object visibility**  
-Toggle object visibility.
-
-## Conditions
-
-**Color tint applied to an object**  
-Compare Color tint applied to an object.
-
-## Expressions
-
-| Expression | Description |  |
-|-----|-----|-----|
-| `Flash::ColorTint()` | Return Color tint applied to an object. ||
-| `Flash::IsTinted()` | Check if a color tint is applied to an object. ||
 
 ## Flash visibility (blink) 
 

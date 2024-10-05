@@ -1,7 +1,7 @@
 # Flash and transition painter
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/movie-filter.svg" class="extension-icon"></img>
-Behavior for shape painter allows you to paint a color all over the screen for period of time with an effect (useful for simulate flash and transition effect).
+Paint a color all over the screen for period of time with an effect (useful for simulate flash and transition effect).
 
 **Authors and contributors** to this community extension: (not specified).
 
