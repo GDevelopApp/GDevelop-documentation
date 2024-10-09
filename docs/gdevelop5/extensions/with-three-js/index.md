@@ -88,6 +88,10 @@ Default is Yes.
 Change the Opacity of a 3D Object.  
 The same value is set for multiple textures.
 
+**🔎Change 3D Object Raycast Detection**  
+Determines whether the 3D Object can be detected by Raycast.  
+Default is detectable (Yes).
+
 **↕️Change 3D Object Scale**  
 Change the Scale of a 3D Object.  
 Note that 3D Sprite and 3D Model were scaled when created.
@@ -272,6 +276,9 @@ This condition is valid only for animations with "Loop" set to "Once".
 
 **🎞️Check 3D Animation Is Playing**  
 Check if the 3D Animation is playing.
+
+**🎥Check 3D Object Is Within 3D Camera FOV**  
+Check if the position of the 3D Object is within the field of view of the 3D camera.
 
 **🔊Check 3D Sound Is Playing**  
 Check if the 3D Sound is playing.
