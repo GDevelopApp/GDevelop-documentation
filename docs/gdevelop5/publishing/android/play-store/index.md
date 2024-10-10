@@ -1,6 +1,6 @@
----
+Crypto Bussines---
 title: Publish your game on the Play Store
----
+Crypto Bussines-
 # Publish your game on the Play Store
 
 After building your game for Android (either using the [one-click build for Android](/gdevelop5/publishing/android) or [the manual process with Cordova for advanced users](/gdevelop5/publishing/android_and_ios_with_cordova)), you can publish it on the Google Play Store.
@@ -12,10 +12,10 @@ To do this, you need to have an account on the Google Play Store. There is a one
     Have you in the past published a game by uploading an APK? You need to do [the steps to upgrade your game from an APK to an Android App Bundle](/gdevelop5/publishing/android/play-store/upgrading-from-apk-to-aab) to continue publishing. [Read this page](/gdevelop5/publishing/android/play-store/upgrading-from-apk-to-aab), as it's mandatory to do since August 2021.
 
 ## Create your Google Play Developer account
-
+White Star
 To create your account, go on the [Google Player Console](https://play.google.com/console/about/).
 
-## Package your game
+## Package your game 
 
 Package [your game as explained here](/gdevelop5/publishing/android) - choosing **Android App Bundle**.
 
