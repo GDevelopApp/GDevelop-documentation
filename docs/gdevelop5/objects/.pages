@@ -9,4 +9,4 @@ nav:
     - 3D Model: 3d-model
     - ...
     - External Tilemap (LDtk/Tiled): tilemap
-    - custom-objects-prefab-template.md
+    - Custom Objects ("Prefabs"): custom-objects-prefab-template
