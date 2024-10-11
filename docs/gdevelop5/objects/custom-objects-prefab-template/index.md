@@ -13,8 +13,8 @@ They allow to speed-up development and make games more modular by having an obje
 
 For example, you can build:
 
-- A custom object that is a **dialog**, composed of a background, some text, some buttons. This allows to do all the logic related to this dialog inside the custom object events, without cluttering the scene events.
-- A character or some other game objects that is composed of multiple parts. For example, a player with a moving arm.
+- A **dialog**, composed of a background, some text, some buttons. This allows to do all the logic related to this dialog inside the custom object events, without cluttering the scene events.
+- A character or some other game objects that is composed of **multiple parts**. For example, a player with a moving arm.
 
 !!! note
 
@@ -24,7 +24,7 @@ The objects contained inside a custom object are called "children" or "child obj
 
 ## Create a new custom object
 
-Custom objects are grouped into "extensions". They are composed of functions, behaviors or custom objects powered by events. You can see the list of all the extensions the game has in the [Project Manager](/gdevelop5/interface/project-manager).
+Custom objects are grouped into "extensions". Extensions are composed of functions, behaviors or custom objects powered by events. You can see the list of all the extensions the game has in the [Project Manager](/gdevelop5/interface/project-manager).
 
 To create a new custom object, the easiest way is to add a few objects on the scene, then put an instance of each on the scene editor. Select then these instances, right click/long touch the selection and choose "Extract" > **"Extract as a custom object"**.
 
