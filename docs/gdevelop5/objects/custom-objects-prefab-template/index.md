@@ -12,8 +12,8 @@ title: Custom Objects ("prefabs")
 They allow to speed-up development and make games more modular by having an object that can be reused in different scenes.
 
 For example, you can build:
+
 - A custom object that is a **dialog**, composed of a background, some text, some buttons. This allows to do all the logic related to this dialog inside the custom object events, without cluttering the scene events.
-  The scene can check which buttons were clicked using custom condition(s) added on the custom object (these conditions can access the buttons inside the custom object to check if they are clicked).
 - A character or some other game objects that is composed of multiple parts. For example, a player with a moving arm.
 
 !!! note
