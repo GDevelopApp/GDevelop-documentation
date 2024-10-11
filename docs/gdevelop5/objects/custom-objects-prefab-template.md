@@ -3,30 +3,38 @@ title: Custom Objects ("prefabs")
 ---
 # Custom Objects ("prefabs")
 
-**Custom objects** are reusable objects containing custom logic and one or more other objects. "Custom objects" are also called **"Prefabs"** or "Templates" in some game engines.
-
-They allow to speed-up development and make games more modular by having an object that can be reused and customized in different scenes.
-
-For example, the **[multitouch joysticks](/gdevelop5/objects/multitouch-joystick), [buttons](/gdevelop5/objects/button), [sliders](/gdevelop5/objects/slider)** and other user interface objects that you can find in the list of objects are “custom objects” built with other objects.
-
-Custom objects contain other objects, which are called "child objects". They can display on screen one or more instances of these "child objects" and can offer:
-
-* custom conditions,
-* custom actions,
-* custom expressions.
-
-!!! warning
-
-    This feature is a work-in-progress. You must activate it in the preferences of GDevelop and the user experience for creating a custom object from scratch is rough.
-
-## Create a new custom object
-
-Make sure you've activated the feature in the preferences of GDevelop.
-
-Custom objects are grouped into "extensions". They are composed of functions, behaviors or custom objects powered by events. You can see the list of all the extensions the game has in the [Project Manager](/gdevelop5/interface/project-manager).
-
-Extensions that are installed by the asset store are using events. They can be modified the same way as any extensions. This allows to make some changes to the way the objects work to better fit a game. Make sure to back up your changes or rename the extension to avoid overriding them later by updating the extension.
+**Custom objects** are containers, composed of one or more other objects and having custom logic (made with events, like in a traditional scene) inside them. 
 
 !!! tip
 
-    As we write this documentation, please reach out on the forum or the help channel on Discord if you struggle to use them or have feedback.
+    "Custom objects" are also called **"Prefabs"** or "Templates" in some game engines.
+
+They allow to speed-up development and make games more modular by having an object that can be reused in different scenes.
+
+For example, you can build:
+- A custom object that is a **dialog**, composed of a background, some text, some buttons. This allows to do all the logic related to this dialog inside the custom object events, without cluttering the scene events.
+  The scene can check which buttons were clicked using custom condition(s) added on the custom object (these conditions can access the buttons inside the custom object to check if they are clicked).
+- A character or some other game objects that is composed of multiple parts. For example, a player with a moving arm.
+
+!!! note
+
+    The **[multitouch joysticks](/gdevelop5/objects/multitouch-joystick), [buttons](/gdevelop5/objects/button), [sliders](/gdevelop5/objects/slider)** and other user interface objects that you can find in the list of objects are “custom objects” built with other objects.
+
+The objects contained inside a custom object are called "children" or "child objects".
+
+## Create a new custom object
+
+Custom objects are grouped into "extensions". They are composed of functions, behaviors or custom objects powered by events. You can see the list of all the extensions the game has in the [Project Manager](/gdevelop5/interface/project-manager).
+
+To create a new custom object, the easiest way is to add a few objects on the scene, then put an instance of each on the scene editor. Select then these instances, right click/long touch the selection and choose "Extract" > **"Extract as a custom object"**.
+
+Choose an extension name, custom object name and validate. This will open a new editor containing the objects you've selected along with the instances from the scene. In the scene, the instances you've selected are replaced by a unique custom object, that acts as a container for all of them.
+
+!!! note
+
+    At the moment, you can't mix 2D and 3D objects in a custom object.
+
+If you started creating events using these objects, you must rework them. Indeed, the objects are now hidden inside the new custom object (they are called "children"). In most cases, you want to add 2 type of "functions" to your custom object:
+
+- A **doStepPostEvents** function that are events launched at every frame - much like scene events. They can do logic on the child objects. For example, it could rotate them, animate them or something else.
+- One or more **action** or **condition**. If your scene wants to manipulate a child, or use a condition on it, it's a good sign that you need to "expose" this through a custom **action** or **condition**.
