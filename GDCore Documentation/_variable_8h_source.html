@@ -98,7 +98,7 @@ $(function() {
 <div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#a06d83e4a398f4b54603c8ce1c4b18ece">   32</a></span>&#160;  <span class="keyword">enum</span> <a class="code" href="classgd_1_1_variable.html#a06d83e4a398f4b54603c8ce1c4b18ece">Type</a> {</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    Unknown,</div>
 <div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classgd_1_1_variable.html#a06d83e4a398f4b54603c8ce1c4b18ecea7b5fea0f20ba78a50a5b3de869a168c3">   35</a></span>&#160;    <a class="code" href="classgd_1_1_variable.html#a06d83e4a398f4b54603c8ce1c4b18ecea7b5fea0f20ba78a50a5b3de869a168c3">MixedTypes</a>,</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="comment">// Primitive types</span></div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a>,</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    Number,</div>
@@ -285,11 +285,11 @@ $(function() {
 <div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160; </div>
 <div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;  <span class="keyword">static</span> <a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> StringAsType(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; str);</div>
 <div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160; </div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;  <span class="keywordtype">bool</span> folded;</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;  <span class="keywordtype">bool</span> folded = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;  <span class="keyword">mutable</span> <a class="code" href="rapidjson_8h.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> type;</div>
 <div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;  <span class="keyword">mutable</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> str;</div>
 <div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;  <span class="keyword">mutable</span> <span class="keywordtype">double</span> value;</div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;  <span class="keyword">mutable</span> <span class="keywordtype">bool</span> boolVal;</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;  <span class="keyword">mutable</span> <span class="keywordtype">bool</span> boolVal = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;  <span class="keyword">mutable</span> <span class="keywordtype">bool</span> hasMixedValues;</div>
 <div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;  <span class="keyword">mutable</span> std::map&lt;gd::String, std::shared_ptr&lt;Variable&gt;&gt;</div>
 <div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;      children;  </div>
@@ -302,7 +302,7 @@ $(function() {
 <div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160; </div>
 <div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;}  <span class="comment">// namespace gd</span></div>
 <div class="ttc" id="aclassgd_1_1_serializer_element_html"><div class="ttname"><a href="classgd_1_1_serializer_element.html">gd::SerializerElement</a></div><div class="ttdoc">A generic container that can represent a value ( containing a string, double, bool or int),...</div><div class="ttdef"><b>Definition:</b> SerializerElement.h:37</div></div>
-<div class="ttc" id="aclassgd_1_1_string_html"><div class="ttname"><a href="classgd_1_1_string.html">gd::String</a></div><div class="ttdoc">String represents an UTF8 encoded string.</div><div class="ttdef"><b>Definition:</b> String.h:31</div></div>
+<div class="ttc" id="aclassgd_1_1_string_html"><div class="ttname"><a href="classgd_1_1_string.html">gd::String</a></div><div class="ttdoc">String represents an UTF8 encoded string.</div><div class="ttdef"><b>Definition:</b> String.h:33</div></div>
 <div class="ttc" id="aclassgd_1_1_variable_html"><div class="ttname"><a href="classgd_1_1_variable.html">gd::Variable</a></div><div class="ttdoc">Defines a variable which can be used by an object, a layout or a project.</div><div class="ttdef"><b>Definition:</b> Variable.h:29</div></div>
 <div class="ttc" id="aclassgd_1_1_variable_html_a00b6111cb6f3047394061e79802cc93e"><div class="ttname"><a href="classgd_1_1_variable.html#a00b6111cb6f3047394061e79802cc93e">gd::Variable::SetString</a></div><div class="ttdeci">void SetString(const gd::String &amp;newStr)</div><div class="ttdoc">Change the content of the variable, considered as a string.</div><div class="ttdef"><b>Definition:</b> Variable.h:89</div></div>
 <div class="ttc" id="aclassgd_1_1_variable_html_a06d83e4a398f4b54603c8ce1c4b18ece"><div class="ttname"><a href="classgd_1_1_variable.html#a06d83e4a398f4b54603c8ce1c4b18ece">gd::Variable::Type</a></div><div class="ttdeci">Type</div><div class="ttdef"><b>Definition:</b> Variable.h:32</div></div>

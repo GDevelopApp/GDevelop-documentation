@@ -257,13 +257,13 @@ $(function() {
 <div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160; <span class="keyword">private</span>:</div>
 <div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;  <span class="keywordtype">void</span> Init(<span class="keyword">const</span> <a class="code" href="classgd_1_1_serializer_element.html">gd::SerializerElement</a> &amp;other);</div>
 <div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160; </div>
-<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;  <span class="keywordtype">bool</span> valueUndefined;  </div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;  <span class="keywordtype">bool</span> valueUndefined = <span class="keyword">true</span>;  </div>
 <div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;  <a class="code" href="classgd_1_1_serializer_value.html">SerializerValue</a> elementValue;</div>
 <div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160; </div>
 <div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;  std::map&lt;gd::String, SerializerValue&gt; attributes;</div>
 <div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;  std::vector&lt;std::pair&lt;gd::String, std::shared_ptr&lt;SerializerElement&gt; &gt; &gt;</div>
 <div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;      children;</div>
-<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;  <span class="keyword">mutable</span> <span class="keywordtype">bool</span> isArray;        </div>
+<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;  <span class="keyword">mutable</span> <span class="keywordtype">bool</span> isArray = <span class="keyword">false</span>;  </div>
 <div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;  <span class="keyword">mutable</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> arrayOf;  </div>
 <div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;  <span class="keyword">mutable</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> deprecatedArrayOf;  </div>
 <div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;};</div>
@@ -303,7 +303,7 @@ $(function() {
 <div class="ttc" id="aclassgd_1_1_serializer_element_html_af6f6603c4818d447aee3f4670b0d33b3"><div class="ttname"><a href="classgd_1_1_serializer_element.html#af6f6603c4818d447aee3f4670b0d33b3">gd::SerializerElement::SetValue</a></div><div class="ttdeci">void SetValue(double val)</div><div class="ttdoc">Set the value of the element, as a double precision floating point number.</div><div class="ttdef"><b>Definition:</b> SerializerElement.h:128</div></div>
 <div class="ttc" id="aclassgd_1_1_serializer_element_html_af73279d0a0c9f130b36374daf948c3de"><div class="ttname"><a href="classgd_1_1_serializer_element.html#af73279d0a0c9f130b36374daf948c3de">gd::SerializerElement::GetDoubleValue</a></div><div class="ttdeci">double GetDoubleValue() const</div><div class="ttdoc">Get the value, its type being a double.</div><div class="ttdef"><b>Definition:</b> SerializerElement.h:175</div></div>
 <div class="ttc" id="aclassgd_1_1_serializer_value_html"><div class="ttname"><a href="classgd_1_1_serializer_value.html">gd::SerializerValue</a></div><div class="ttdoc">A value stored inside a gd::SerializerElement.</div><div class="ttdef"><b>Definition:</b> SerializerValue.h:20</div></div>
-<div class="ttc" id="aclassgd_1_1_string_html"><div class="ttname"><a href="classgd_1_1_string.html">gd::String</a></div><div class="ttdoc">String represents an UTF8 encoded string.</div><div class="ttdef"><b>Definition:</b> String.h:31</div></div>
+<div class="ttc" id="aclassgd_1_1_string_html"><div class="ttname"><a href="classgd_1_1_string.html">gd::String</a></div><div class="ttdoc">String represents an UTF8 encoded string.</div><div class="ttdef"><b>Definition:</b> String.h:33</div></div>
 <div class="ttc" id="anamespacegd_html"><div class="ttname"><a href="namespacegd.html">gd</a></div><div class="ttdef"><b>Definition:</b> CommonTools.h:24</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

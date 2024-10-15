@@ -110,8 +110,8 @@ $(function() {
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; <span class="keyword">private</span>:</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <span class="keywordtype">bool</span> isValid;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <span class="keywordtype">size_t</span> startPosition;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <span class="keywordtype">size_t</span> endPosition;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <span class="keywordtype">size_t</span> startPosition = 0;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <span class="keywordtype">size_t</span> endPosition = 0;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;};</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
 <div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="structgd_1_1_expression_parser_error.html">   46</a></span>&#160;<span class="keyword">struct </span>GD_CORE_API <a class="code" href="structgd_1_1_expression_parser_error.html">ExpressionParserError</a> {</div>
@@ -413,7 +413,7 @@ $(function() {
 <div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160; </div>
 <div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;}  <span class="comment">// namespace gd</span></div>
 <div class="ttc" id="aclassgd_1_1_expression_parser2_node_worker_html"><div class="ttname"><a href="classgd_1_1_expression_parser2_node_worker.html">gd::ExpressionParser2NodeWorker</a></div><div class="ttdoc">The interface for any worker class (&quot;visitor&quot; pattern) that want to interact with the nodes of a pars...</div><div class="ttdef"><b>Definition:</b> ExpressionParser2NodeWorker.h:36</div></div>
-<div class="ttc" id="aclassgd_1_1_string_html"><div class="ttname"><a href="classgd_1_1_string.html">gd::String</a></div><div class="ttdoc">String represents an UTF8 encoded string.</div><div class="ttdef"><b>Definition:</b> String.h:31</div></div>
+<div class="ttc" id="aclassgd_1_1_string_html"><div class="ttname"><a href="classgd_1_1_string.html">gd::String</a></div><div class="ttdoc">String represents an UTF8 encoded string.</div><div class="ttdef"><b>Definition:</b> String.h:33</div></div>
 <div class="ttc" id="anamespacegd_html"><div class="ttname"><a href="namespacegd.html">gd</a></div><div class="ttdef"><b>Definition:</b> CommonTools.h:24</div></div>
 <div class="ttc" id="astructgd_1_1_empty_node_html"><div class="ttname"><a href="structgd_1_1_empty_node.html">gd::EmptyNode</a></div><div class="ttdoc">An empty node, used when parsing failed/a syntax error was encountered and any other node could not m...</div><div class="ttdef"><b>Definition:</b> ExpressionParser2Node.h:423</div></div>
 <div class="ttc" id="astructgd_1_1_expression_node_html"><div class="ttname"><a href="structgd_1_1_expression_node.html">gd::ExpressionNode</a></div><div class="ttdoc">The base node, from which all nodes in the tree of an expression inherits from.</div><div class="ttdef"><b>Definition:</b> ExpressionParser2Node.h:100</div></div>
