@@ -173,8 +173,12 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="memdesc:a025b04b5796b2ab33351e12bd1617715"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the type is "behavior". <br /></td></tr>
 <tr class="separator:a025b04b5796b2ab33351e12bd1617715"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04ce0ea0c361a52f5af7421aa7a0c996"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_value_type_metadata.html#a04ce0ea0c361a52f5af7421aa7a0c996">IsTypeExpression</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;type, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;parameterType)</td></tr>
-<tr class="memdesc:a04ce0ea0c361a52f5af7421aa7a0c996"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the type is an expression of the given type.  <a href="classgd_1_1_value_type_metadata.html#a04ce0ea0c361a52f5af7421aa7a0c996">More...</a><br /></td></tr>
+<tr class="memdesc:a04ce0ea0c361a52f5af7421aa7a0c996"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the type is an expression of the given type from the caller point of view.  <a href="classgd_1_1_value_type_metadata.html#a04ce0ea0c361a52f5af7421aa7a0c996">More...</a><br /></td></tr>
 <tr class="separator:a04ce0ea0c361a52f5af7421aa7a0c996"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd39ec938501f2fa873345285c934542"><td class="memItemLeft" align="right" valign="top"><a id="afd39ec938501f2fa873345285c934542"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_value_type_metadata.html#afd39ec938501f2fa873345285c934542">IsTypeValue</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;type, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;parameterType)</td></tr>
+<tr class="memdesc:afd39ec938501f2fa873345285c934542"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the type is a value of the given primitive type from the function events point of view. <br /></td></tr>
+<tr class="separator:afd39ec938501f2fa873345285c934542"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a911484673fa18daa7a00dd0746ffb6f2"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_value_type_metadata.html#a911484673fa18daa7a00dd0746ffb6f2">GetExpressionPrimitiveValueType</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;parameterType)</td></tr>
 <tr class="memdesc:a911484673fa18daa7a00dd0746ffb6f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the expression type from the parameter type. Declinations of "number" and "string" types (like "forceMultiplier" or "sceneName") are replaced by "number" and "string".  <a href="classgd_1_1_value_type_metadata.html#a911484673fa18daa7a00dd0746ffb6f2">More...</a><br /></td></tr>
 <tr class="separator:a911484673fa18daa7a00dd0746ffb6f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -325,7 +329,7 @@ static const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</
 </table>
 </div><div class="memdoc">
 
-<p>Return true if the type is an expression of the given type. </p>
+<p>Return true if the type is an expression of the given type from the caller point of view. </p>
 <dl class="section note"><dt>Note</dt><dd>If you are adding a new type of parameter, also add it in the IDE ( see EventsFunctionParametersEditor, ParameterRenderingService and ExpressionAutocompletion) and in the <a class="el" href="classgd_1_1_events_code_generator.html" title="Internal class used to generate code from events.">EventsCodeGenerator</a>. </dd></dl>
 
 </div>

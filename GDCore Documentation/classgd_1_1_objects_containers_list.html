@@ -98,6 +98,10 @@ Public Member Functions</h2></td></tr>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_containers_list.html#a9cb80dc855034df9a77103f58455b90e">HasObjectOrGroupNamed</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name) const</td></tr>
 <tr class="memdesc:a9cb80dc855034df9a77103f58455b90e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the specified object or group exists. <br /></td></tr>
 <tr class="separator:a9cb80dc855034df9a77103f58455b90e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7142f6160fbea082aa79e6315086653c"><td class="memItemLeft" align="right" valign="top"><a id="a7142f6160fbea082aa79e6315086653c"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_containers_list.html#a7142f6160fbea082aa79e6315086653c">HasObjectNamed</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name) const</td></tr>
+<tr class="memdesc:a7142f6160fbea082aa79e6315086653c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the specified object exists ignoring groups. <br /></td></tr>
+<tr class="separator:a7142f6160fbea082aa79e6315086653c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3141ee104ef5b8dd3afb77e70300f22"><td class="memItemLeft" align="right" valign="top"><a id="ae3141ee104ef5b8dd3afb77e70300f22"></a>
 VariableExistence&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_containers_list.html#ae3141ee104ef5b8dd3afb77e70300f22">HasObjectOrGroupWithVariableNamed</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectOrGroupName, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;variableName) const</td></tr>
 <tr class="memdesc:ae3141ee104ef5b8dd3afb77e70300f22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the specified object or group has the specified variable in its declared variables. <br /></td></tr>
@@ -131,6 +135,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:aa2d1fad4a4db7324cdf82ba0f3d87eb8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_containers_list.html#aa2d1fad4a4db7324cdf82ba0f3d87eb8">GetBehaviorsOfObject</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectName, bool searchInGroups=true) const</td></tr>
 <tr class="memdesc:aa2d1fad4a4db7324cdf82ba0f3d87eb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get behaviors of an object/group.  <a href="classgd_1_1_objects_containers_list.html#aa2d1fad4a4db7324cdf82ba0f3d87eb8">More...</a><br /></td></tr>
 <tr class="separator:aa2d1fad4a4db7324cdf82ba0f3d87eb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad64b9074ad7805c219f7f0f82743efda"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_containers_list.html#ad64b9074ad7805c219f7f0f82743efda">GetBehaviorNamesInObjectOrGroup</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectOrGroupName, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;behaviorType, bool searchInGroups=true) const</td></tr>
+<tr class="memdesc:ad64b9074ad7805c219f7f0f82743efda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get behaviors of an object/group of a given behavior type.  <a href="classgd_1_1_objects_containers_list.html#ad64b9074ad7805c219f7f0f82743efda">More...</a><br /></td></tr>
+<tr class="separator:ad64b9074ad7805c219f7f0f82743efda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cbb8298061caabeff7103fa235e396f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_containers_list.html#a4cbb8298061caabeff7103fa235e396f">GetAnimationNamesOfObject</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectOrGroupName) const</td></tr>
 <tr class="memdesc:a4cbb8298061caabeff7103fa235e396f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the animation names of an object/group.  <a href="classgd_1_1_objects_containers_list.html#a4cbb8298061caabeff7103fa235e396f">More...</a><br /></td></tr>
 <tr class="separator:a4cbb8298061caabeff7103fa235e396f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -264,6 +271,44 @@ static <a class="el" href="classgd_1_1_objects_containers_list.html">ObjectsCont
 <p>Get the animation names of an object/group. </p>
 <dl class="section note"><dt>Note</dt><dd>The animation names of a group are the animation names common to every object of the group.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>The names of animations </dd></dl>
+
+</div>
+</div>
+<a id="ad64b9074ad7805c219f7f0f82743efda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad64b9074ad7805c219f7f0f82743efda">&#9670;&nbsp;</a></span>GetBehaviorNamesInObjectOrGroup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; gd::ObjectsContainersList::GetBehaviorNamesInObjectOrGroup </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>objectOrGroupName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>behaviorType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>searchInGroups</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get behaviors of an object/group of a given behavior type. </p>
+<dl class="section note"><dt>Note</dt><dd>The behaviors of a group are the behaviors which are found in common when looking all the objects of the group.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Vector containing names of behaviors </dd></dl>
 
 </div>
 </div>
