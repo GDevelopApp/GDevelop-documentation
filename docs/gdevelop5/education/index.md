@@ -12,7 +12,7 @@ You can read more about [all the benefits that GDevelop and game creation can br
 
 The GDevelop for Education plan gives access to **a curriculum designed by the GDevelop team and by teachers**. It includes multiple ready-to-teach lessons that cover game development theory and step-by-step practical lessons to create full games.
 
-Once you've purchased the GDevelop for Education plan, these curriculum and extra educational resources are accessible from the Classroom tab, visible for teachers.
+Once you've purchased the GDevelop for Education plan, these curriculum and extra educational resources are accessible from the Teach tab, visible for teachers.
 
 ## Getting the Education plan
 
@@ -26,11 +26,11 @@ For instance with 10 seats you can have:
 
 ## Teacher accounts: managing students and their work
 
-Besides teaching resources, teacher accounts gain access to the Classrooms tab on GDevelop's homepage.
+Besides teaching resources, teacher accounts gain access to the Teach tab on GDevelop's homepage.
 
 In this tab, they can view all the student accounts linked to the plan. The student accounts can be sorted into Rooms for a better organization between teachers:
 
-![The Classroom Tab to handle students](./classroom-tab.png)
+![The Teach Tab to handle students](./classroom-tab.png)
 
 A teacher has access to the projects made by each student. They can open them in a read-only mode. This is useful for:
 
@@ -39,7 +39,7 @@ A teacher has access to the projects made by each student. They can open them in
 
 ## Student accounts: optimized for learning
 
-Student accounts are fully anonymized accounts which can be administrated by teachers. The credentials for those accounts (disposable email address + password) are accessible to teachers from the "Manage Seats" page, available through the Classrooms tab:
+Student accounts are fully anonymized accounts which can be administrated by teachers. The credentials for those accounts (disposable email address + password) are accessible to teachers from the "Manage Seats" page, available through the Teach tab:
 
 ![The "Manage Seats" page for education](./manage-edu-seats.png)
 
@@ -81,7 +81,7 @@ Teacher accounts have the same rights as the main account but cannot unsubscribe
 
 ### Add, archive and restore student accounts
 
-Once you've purchased GDevelop for Education, head to the classroom tab and click on "Manage Seats" to start creating accounts for your students.
+Once you've purchased GDevelop for Education, head to the Teach tab and click on "Manage Seats" to start creating accounts for your students.
 
 Using this field, create multiple student accounts at once:
 
