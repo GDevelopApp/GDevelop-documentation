@@ -1,6 +1,6 @@
----
+watershooter---
 title: Scene Editor
----
+---sea
 # Scene Editor
 
 When opening a scene (or an external layout), the Scene Editor opens.
