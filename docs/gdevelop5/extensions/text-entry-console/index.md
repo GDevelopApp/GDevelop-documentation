@@ -5,6 +5,13 @@ A console behavior that allows parsing simple commands inputed via a Text Entry 
 
 **Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555).
 
+!!! warning
+    This is an extension made by a community member — but not reviewed
+    by the GDevelop extension team. As such, we can't guarantee it
+    meets all the quality standards of official extensions. In case of
+    doubt, contact the author to know more about what the extension
+    does or inspect its content before using it.
+
 ---
 
 A behavior that makes a Text Entry behave like a console. Whenever Return is pressed, the Text Entry is cleared and the entered text parsed, and the first word is stored as the command name, and the rest as arguments. Each word is one argument, and you can get them with the expression `GetArg`. When a command is triggered, it triggers the condition bound to this command. Example:  

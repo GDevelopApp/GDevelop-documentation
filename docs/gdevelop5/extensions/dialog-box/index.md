@@ -1,7 +1,7 @@
 # Dialog Box
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/UI Essentials/UI Essentials_chat_message_sms.svg" class="extension-icon"></img>
-This extension adds Dialog Box functionality that can be used for RPGs, visual novels, and more.
+Dialog Boxes that can be used for RPGs, visual novels, and more.
 
 **Authors and contributors** to this community extension: [PANDAKO](https://gd.games/PANDAKO).
 
@@ -13,6 +13,8 @@ This extension adds Dialog Box functionality that can be used for RPGs, visual n
     does or inspect its content before using it.
 
 ---
+
+This extension is deprecated. [Custom objects](https://wiki.gdevelop.io/gdevelop5/objects/custom-objects-prefab-template) are now the prefered way to make dialog boxes.
 
 ## Summary
 This extension adds Dialog Box functionality that can be used for RPGs, visual novels, and more.
@@ -50,8 +52,6 @@ This feature is useful for keeping track of the progress of a conversation.
 ## Note
 In typing, style tags in BBText OBjects are also counted as characters.
 
-
-[Read more...](https://github.com/PANDAKO-GitHub/DialogBoxExtension)
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
