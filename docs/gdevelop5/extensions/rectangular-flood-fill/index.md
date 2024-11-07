@@ -25,8 +25,6 @@ Tips:
 - Hide target objects at the beginning of the scene if you don't want them to be visible.
 - Keep the default origin point (top-left corner) on fill objects them to line up exactly with target objects.
 
-[Read more...](https://victrisgames.itch.io/rectangular-flood-fill)
-
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
