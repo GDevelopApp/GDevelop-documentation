@@ -800,14 +800,15 @@ Handle dialogue trees, made using Yarn Spinner. Useful to make complex dialogues
 | `DialogueTree::ClippedLineText()` | Get dialogue line text clipped by the typewriter effect. Use the "Scroll clipped text" action to control the typewriter effect. ||
 | `DialogueTree::CommandParameter()` | Get the parameters of a command call - <<command withParameter anotherParameter>> ||
 | `DialogueTree::CommandParametersCount()` | Get the number of parameters in the currently passed command ||
-| `DialogueTree::HorizontalOptionsList()` | Get the text of all available options from an Options line type as a horizontal list. You can also pass the selected option's cursor string, which by default is -> ||
+| `DialogueTree::HorizontalOptionsList()` | Get the text of all available options from an options line type as a horizontal list. You can also pass the selected option's cursor string, which by default is -> ||
 | `DialogueTree::LineText()` | Returns the current dialogue line text ||
-| `DialogueTree::Option()` | Get the text of an option from an Options line type, using the option's Number. The numbers start from 0. ||
+| `DialogueTree::Option()` | Get the text of an option from an options line type, using the option's Number. The numbers start from 0. ||
 | `DialogueTree::OptionsCount()` | Get the number of options in an options line type ||
 | `DialogueTree::SelectedOptionIndex()` | Get the number of the currently selected option. Use this to help you render the option selection marker at the right place. ||
 | `DialogueTree::TagParameter()` | Get parameter from a Tag found by the branch contains tag condition ||
-| `DialogueTree::Variable()` | Get dialogue state value ||
-| `DialogueTree::VerticalOptionsList()` | Get the text of all available options from an Options line type as a vertical list. You can also pass the selected option's cursor string, which by default is -> ||
+| `DialogueTree::Variable()` | Get the number stored in a dialogue state variable ||
+| `DialogueTree::VariableString()` | Get the string stored in a dialogue state variable ||
+| `DialogueTree::VerticalOptionsList()` | Get the text of all available options from an options line type as a vertical list. You can also pass the selected option's cursor string, which by default is -> ||
 | `DialogueTree::VisitedBranchTitles()` | Get a list of all visited branches ||
 
 ---

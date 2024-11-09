@@ -10,17 +10,17 @@ Clear dialogue state. This resets all dialogue state accumulated by the player c
 **Complete clipped text scrolling**  
 Complete the clipped text scrolling. Use this action whenever you want to skip scrolling.
 
-**Confirm selected Option**  
+**Confirm selected option**  
 Set the selected option as confirmed, which will validate it and go forward to the next node. Use other actions to select options (see "select next option" and "Select previous option").
 
 **Go to the next dialogue line**  
 Go to the next dialogue line. Use this to advance to the next dialogue line when the player presses a button.
 
-**Load dialogue Tree from a Json File**  
-Load a dialogue data object - Yarn json format, stored in a Json file. Use this command to load all the Dialogue data at the beginning of the game.
+**Load dialogue tree from a JSON file**  
+Load a dialogue data object - Yarn JSON format, stored in a JSON file. Use this command to load all the Dialogue data at the beginning of the game.
 
-**Load dialogue Tree from a scene variable**  
-Load a dialogue data object - Yarn json format, stored in a scene variable. Use this command to load all the Dialogue data at the beginning of the game.
+**Load dialogue tree from a scene variable**  
+Load a dialogue data object - Yarn JSON format, stored in a scene variable. Use this command to load all the Dialogue data at the beginning of the game.
 
 **Load dialogue state**  
 Load dialogue state. Use this to restore dialogue state, if you have stored in a variable before with the "Save state" action.
@@ -31,14 +31,14 @@ Save dialogue state. Use this to store the dialogue state into a variable, which
 **Scroll clipped text**  
 Scroll clipped text. Use this with a timer and "get clipped text" when you want to create a typewriter effect. Every time the action runs, a new character appears from the text.
 
-**Select next Option**  
-Select next Option (add 1 to selected option number). Use this when the dialogue line is of type "options" and the player has pressed a button to change selected option.
+**Select next option**  
+Select next option (add 1 to selected option number). Use this when the dialogue line is of type "options" and the player has pressed a button to change selected option.
 
 **Select option by number**  
 Select option by number. Use this when the dialogue line is of type "options" and the player has pressed a button to change selected option.
 
-**Select previous Option**  
-Select previous Option (subtract 1 from selected option number). Use this when the dialogue line is of type "options" and the player has pressed a button to change selected option.
+**Select previous option**  
+Select previous option (subtract 1 from selected option number). Use this when the dialogue line is of type "options" and the player has pressed a button to change selected option.
 
 **Set dialogue state boolean variable**  
 Set dialogue state boolean variable. Use this to set a variable that the dialogue data is using.
@@ -108,14 +108,15 @@ Check if a branch has been visited
 | `DialogueTree::ClippedLineText()` | Get dialogue line text clipped by the typewriter effect. Use the "Scroll clipped text" action to control the typewriter effect. ||
 | `DialogueTree::CommandParameter()` | Get the parameters of a command call - <<command withParameter anotherParameter>> ||
 | `DialogueTree::CommandParametersCount()` | Get the number of parameters in the currently passed command ||
-| `DialogueTree::HorizontalOptionsList()` | Get the text of all available options from an Options line type as a horizontal list. You can also pass the selected option's cursor string, which by default is -> ||
+| `DialogueTree::HorizontalOptionsList()` | Get the text of all available options from an options line type as a horizontal list. You can also pass the selected option's cursor string, which by default is -> ||
 | `DialogueTree::LineText()` | Returns the current dialogue line text ||
-| `DialogueTree::Option()` | Get the text of an option from an Options line type, using the option's Number. The numbers start from 0. ||
+| `DialogueTree::Option()` | Get the text of an option from an options line type, using the option's Number. The numbers start from 0. ||
 | `DialogueTree::OptionsCount()` | Get the number of options in an options line type ||
 | `DialogueTree::SelectedOptionIndex()` | Get the number of the currently selected option. Use this to help you render the option selection marker at the right place. ||
 | `DialogueTree::TagParameter()` | Get parameter from a Tag found by the branch contains tag condition ||
-| `DialogueTree::Variable()` | Get dialogue state value ||
-| `DialogueTree::VerticalOptionsList()` | Get the text of all available options from an Options line type as a vertical list. You can also pass the selected option's cursor string, which by default is -> ||
+| `DialogueTree::Variable()` | Get the number stored in a dialogue state variable ||
+| `DialogueTree::VariableString()` | Get the string stored in a dialogue state variable ||
+| `DialogueTree::VerticalOptionsList()` | Get the text of all available options from an options line type as a vertical list. You can also pass the selected option's cursor string, which by default is -> ||
 | `DialogueTree::VisitedBranchTitles()` | Get a list of all visited branches ||
 
 ---
