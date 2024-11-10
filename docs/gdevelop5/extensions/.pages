@@ -43,7 +43,6 @@ nav:
         - Third person camera: third-person-camera
     - Game mechanic:
         - Checkpoints: checkpoints
-        - Create multiple copies of an object: create-multiple-copies-of-object
         - Dungeon generator: dungeon-generator
         - Fire bullets: fire-bullet
         - Health points and damage: health
