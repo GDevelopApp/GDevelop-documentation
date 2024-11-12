@@ -90,7 +90,7 @@ Here are listed all the extensions available in GDevelop. The list is divided in
 |<img src="https://resources.gdevelop-app.com/assets/Icons/pencil-box-outline.svg" class="extension-icon"></img>|**RTS-like unit selection**|Allow player to select units by clicking on them or dragging a selection box.|[Read more...](https://victrisgames.itch.io/rts-like-unit-selection) ([reference](/gdevelop5/extensions/rtsunit-selection))|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Graphic Design/Graphic Design_grid.svg" class="extension-icon"></img>|**Rectangular flood fill**|Create objects as a grid to cover a rectangular area or an other object.|[Read more...](/gdevelop5/extensions/rectangular-flood-fill)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/view-grid-plus-outline.svg" class="extension-icon"></img>|**Rectangular grid**|Snap objects on a virtual grid.|[Read more...](/gdevelop5/extensions/snap-to-grid)|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/dots-hexagon.svg" class="extension-icon"></img>|**Values of multiple objects**|Values of picked object instances (including position, size, force and angle).|[Read more...](https://victrisgames.itch.io/values-of-multiple-objects) ([reference](/gdevelop5/extensions/values-of-multiple-objects))|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/dots-hexagon.svg" class="extension-icon"></img>|**Values of multiple objects**|Values of picked object instances (including position, size, force and angle).|[Read more...](/gdevelop5/extensions/values-of-multiple-objects)|
 
 ### General
 

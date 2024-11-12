@@ -7,7 +7,7 @@ Check for a double-click with a mouse, or a double-tap on a touchscreen.
 
 ---
 
-Allow you to check for double-clicks with the left, middle, or right button of a mouse. It will also allow you to detect double-taps on touchscreens. 
+Check for a double-click with a mouse, or a double-tap on a touchscreen.
 
 Please note: Touch devices do not have alternatives for middle/right clicks. Taps on a touch device will get counted for _any_ use of these conditions, so you should either design your controls accordingly, or build out separate events if the device has a touch screen.
 
