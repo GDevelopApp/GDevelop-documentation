@@ -84,9 +84,9 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2cc59286005641ce710e5ab56b91124d"><td class="memItemLeft" align="right" valign="top"><a id="a2cc59286005641ce710e5ab56b91124d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>ProjectScopedContainers</b> (const <a class="el" href="classgd_1_1_objects_containers_list.html">gd::ObjectsContainersList</a> &amp;objectsContainersList_, const <a class="el" href="classgd_1_1_variables_containers_list.html">gd::VariablesContainersList</a> &amp;variablesContainersList_, const <a class="el" href="classgd_1_1_properties_containers_list.html">gd::PropertiesContainersList</a> &amp;propertiesContainersList_)</td></tr>
-<tr class="separator:a2cc59286005641ce710e5ab56b91124d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f040602c309ad2ee598b84ba8232e59"><td class="memItemLeft" align="right" valign="top"><a id="a9f040602c309ad2ee598b84ba8232e59"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ProjectScopedContainers</b> (const <a class="el" href="classgd_1_1_objects_containers_list.html">gd::ObjectsContainersList</a> &amp;objectsContainersList_, const <a class="el" href="classgd_1_1_variables_containers_list.html">gd::VariablesContainersList</a> &amp;variablesContainersList_, const <a class="el" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> *legacyGlobalVariables_, const <a class="el" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> *legacySceneVariables_, const <a class="el" href="classgd_1_1_properties_containers_list.html">gd::PropertiesContainersList</a> &amp;propertiesContainersList_)</td></tr>
+<tr class="separator:a9f040602c309ad2ee598b84ba8232e59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d576be1b8d23158672224fbe91cba75"><td class="memItemLeft" align="right" valign="top"><a id="a5d576be1b8d23158672224fbe91cba75"></a>
 <a class="el" href="classgd_1_1_project_scoped_containers.html">ProjectScopedContainers</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>AddPropertiesContainer</b> (const <a class="el" href="classgd_1_1_properties_container.html">gd::PropertiesContainer</a> &amp;container)</td></tr>
 <tr class="separator:a5d576be1b8d23158672224fbe91cba75"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -110,6 +110,14 @@ const <a class="el" href="classgd_1_1_variables_containers_list.html">gd::Variab
 <a class="el" href="classgd_1_1_variables_containers_list.html">gd::VariablesContainersList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project_scoped_containers.html#a31758963240f578902f10321548222bc">GetVariablesContainersList</a> ()</td></tr>
 <tr class="memdesc:a31758963240f578902f10321548222bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allow modification of the variables containers list. This is used by code generation which does push and pop of local variable containers. <br /></td></tr>
 <tr class="separator:a31758963240f578902f10321548222bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3245ba93ff94a56b036db7d3340e2355"><td class="memItemLeft" align="right" valign="top"><a id="a3245ba93ff94a56b036db7d3340e2355"></a>
+const <a class="el" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project_scoped_containers.html#a3245ba93ff94a56b036db7d3340e2355">GetLegacyGlobalVariables</a> () const</td></tr>
+<tr class="memdesc:a3245ba93ff94a56b036db7d3340e2355"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the global variables of the current scene or the current extension. It allows legacy "globalvar" parameters to accept extension variables. <br /></td></tr>
+<tr class="separator:a3245ba93ff94a56b036db7d3340e2355"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af41df9c348161b71431750bd51433e58"><td class="memItemLeft" align="right" valign="top"><a id="af41df9c348161b71431750bd51433e58"></a>
+const <a class="el" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project_scoped_containers.html#af41df9c348161b71431750bd51433e58">GetLegacySceneVariables</a> () const</td></tr>
+<tr class="memdesc:af41df9c348161b71431750bd51433e58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the scene variables of the current scene or the current extension. It allows legacy "scenevar" parameters to accept extension variables. <br /></td></tr>
+<tr class="separator:af41df9c348161b71431750bd51433e58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9edb7d6d3aabc395dd555058626603b2"><td class="memItemLeft" align="right" valign="top"><a id="a9edb7d6d3aabc395dd555058626603b2"></a>
 const <a class="el" href="classgd_1_1_properties_containers_list.html">gd::PropertiesContainersList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetPropertiesContainersList</b> () const</td></tr>
 <tr class="separator:a9edb7d6d3aabc395dd555058626603b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -121,14 +129,14 @@ const std::vector&lt; const <a class="el" href="classgd_1_1_parameter_metadata_c
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a8abdaaf6b7249ad61de9d853182bf71a"><td class="memItemLeft" align="right" valign="top"><a id="a8abdaaf6b7249ad61de9d853182bf71a"></a>
+<tr class="memitem:afb85cc7aa2c47ba16e7180bcfc7304a7"><td class="memItemLeft" align="right" valign="top"><a id="afb85cc7aa2c47ba16e7180bcfc7304a7"></a>
 static <a class="el" href="classgd_1_1_project_scoped_containers.html">ProjectScopedContainers</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MakeNewProjectScopedContainersForProjectAndLayout</b> (const <a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_layout.html">gd::Layout</a> &amp;layout)</td></tr>
-<tr class="separator:a8abdaaf6b7249ad61de9d853182bf71a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ad1a100b0db6bf09120637cd23136b6"><td class="memItemLeft" align="right" valign="top"><a id="a5ad1a100b0db6bf09120637cd23136b6"></a>
+<tr class="separator:afb85cc7aa2c47ba16e7180bcfc7304a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7df053ffca7c0a05d7b1054b5b3cf407"><td class="memItemLeft" align="right" valign="top"><a id="a7df053ffca7c0a05d7b1054b5b3cf407"></a>
 static <a class="el" href="classgd_1_1_project_scoped_containers.html">ProjectScopedContainers</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MakeNewProjectScopedContainersForProject</b> (const <a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project)</td></tr>
-<tr class="separator:a5ad1a100b0db6bf09120637cd23136b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba16e70e7e48cc99e33e2839c5bf14c9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classgd_1_1_project_scoped_containers.html">ProjectScopedContainers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project_scoped_containers.html#aba16e70e7e48cc99e33e2839c5bf14c9">MakeNewProjectScopedContainersFor</a> (const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;globalObjectsContainers, const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;objectsContainers)</td></tr>
-<tr class="separator:aba16e70e7e48cc99e33e2839c5bf14c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a7df053ffca7c0a05d7b1054b5b3cf407"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b2442aab49211770b792359d53dc0ff"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classgd_1_1_project_scoped_containers.html">ProjectScopedContainers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project_scoped_containers.html#a2b2442aab49211770b792359d53dc0ff">MakeNewProjectScopedContainersFor</a> (const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;globalObjectsContainers, const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;objectsContainers)</td></tr>
+<tr class="separator:a2b2442aab49211770b792359d53dc0ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb7178c5791d00670b5df06adadf816e"><td class="memItemLeft" align="right" valign="top"><a id="aeb7178c5791d00670b5df06adadf816e"></a>
 static <a class="el" href="classgd_1_1_project_scoped_containers.html">ProjectScopedContainers</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MakeNewProjectScopedContainersForEventsFunctionsExtension</b> (const <a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_events_functions_extension.html">gd::EventsFunctionsExtension</a> &amp;eventsFunctionsExtension)</td></tr>
 <tr class="separator:aeb7178c5791d00670b5df06adadf816e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,8 +188,8 @@ static <a class="el" href="classgd_1_1_project_scoped_containers.html">ProjectSc
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aba16e70e7e48cc99e33e2839c5bf14c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba16e70e7e48cc99e33e2839c5bf14c9">&#9670;&nbsp;</a></span>MakeNewProjectScopedContainersFor()</h2>
+<a id="a2b2442aab49211770b792359d53dc0ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b2442aab49211770b792359d53dc0ff">&#9670;&nbsp;</a></span>MakeNewProjectScopedContainersFor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -190,7 +198,7 @@ static <a class="el" href="classgd_1_1_project_scoped_containers.html">ProjectSc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classgd_1_1_project_scoped_containers.html">ProjectScopedContainers</a> gd::ProjectScopedContainers::MakeNewProjectScopedContainersFor </td>
+          <td class="memname"><a class="el" href="classgd_1_1_project_scoped_containers.html">ProjectScopedContainers</a> gd::ProjectScopedContainers::MakeNewProjectScopedContainersFor </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;&#160;</td>
           <td class="paramname"><em>globalObjectsContainers</em>, </td>
@@ -209,7 +217,7 @@ static <a class="el" href="classgd_1_1_project_scoped_containers.html">ProjectSc
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

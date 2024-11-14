@@ -128,6 +128,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <tr class="memitem:afc57c71aceb933586692c57fec1d4af9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#afc57c71aceb933586692c57fec1d4af9">ExportElectronFiles</a> (const gd::Project &amp;project, gd::String exportDir, std::set&lt; gd::String &gt; usedExtensions)</td></tr>
 <tr class="memdesc:afc57c71aceb933586692c57fec1d4af9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate the Electron files for packaging and save it to the export directory.  <a href="../../d0/d75/classgdjs_1_1_exporter_helper.html#afc57c71aceb933586692c57fec1d4af9">More...</a><br /></td></tr>
 <tr class="separator:afc57c71aceb933586692c57fec1d4af9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a450ec7938e4f4b48e6a99bf7e58f242e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a450ec7938e4f4b48e6a99bf7e58f242e">ExportBuildResourcesElectronFiles</a> (const gd::Project &amp;project, gd::String exportDir)</td></tr>
+<tr class="memdesc:a450ec7938e4f4b48e6a99bf7e58f242e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate the Build Resources files for Electron (mainly for the icons) for packaging and save it to the export directory.  <a href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a450ec7938e4f4b48e6a99bf7e58f242e">More...</a><br /></td></tr>
+<tr class="separator:a450ec7938e4f4b48e6a99bf7e58f242e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a749478cbbaec91e7ca2bf51447f9ecd5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a749478cbbaec91e7ca2bf51447f9ecd5">ExportFacebookInstantGamesFiles</a> (const gd::Project &amp;project, gd::String exportDir)</td></tr>
 <tr class="memdesc:a749478cbbaec91e7ca2bf51447f9ecd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate the Facebook Instant Games files for packaging and save it to the export directory.  <a href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a749478cbbaec91e7ca2bf51447f9ecd5">More...</a><br /></td></tr>
 <tr class="separator:a749478cbbaec91e7ca2bf51447f9ecd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -229,6 +232,43 @@ gd::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
     <tr><td class="paramname">includesFiles</td><td>"&lt;!--GDJS_CODE_FILES --&gt;" will be replaced by HTML tags to include the filenames contained inside the vector. </td></tr>
     <tr><td class="paramname">nonRuntimeScriptsCacheBurst</td><td>If non zero, add an additional cache bursting parameter to scripts, that are not part of the runtime/extensions, to force the browser to reload them. </td></tr>
     <tr><td class="paramname">additionalSpec</td><td>The string "GDJS_ADDITIONAL_SPEC" surrounded by comments marks will be replaced by the content of this string. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a450ec7938e4f4b48e6a99bf7e58f242e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a450ec7938e4f4b48e6a99bf7e58f242e">&#9670;&nbsp;</a></span>ExportBuildResourcesElectronFiles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gdjs::ExporterHelper::ExportBuildResourcesElectronFiles </td>
+          <td>(</td>
+          <td class="paramtype">const gd::Project &amp;&#160;</td>
+          <td class="paramname"><em>project</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gd::String&#160;</td>
+          <td class="paramname"><em>exportDir</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generate the Build Resources files for Electron (mainly for the icons) for packaging and save it to the export directory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">project</td><td>The original (non modified) project to be used. </td></tr>
+    <tr><td class="paramname">exportDir</td><td>The directory where the files must be created. </td></tr>
   </table>
   </dd>
 </dl>

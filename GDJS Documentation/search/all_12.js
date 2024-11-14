@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['useminimaldebuggerclient_123',['UseMinimalDebuggerClient',['../db/dbe/structgdjs_1_1_preview_export_options.html#a7506a24521ac8094f958b42049c4d24b',1,'gdjs::PreviewExportOptions']]],
-  ['usewebsocketdebuggerclientwithserveraddress_124',['UseWebsocketDebuggerClientWithServerAddress',['../db/dbe/structgdjs_1_1_preview_export_options.html#a8cf24b5465fe170a17b15d04d37d91df',1,'gdjs::PreviewExportOptions']]],
-  ['usewindowmessagedebuggerclient_125',['UseWindowMessageDebuggerClient',['../db/dbe/structgdjs_1_1_preview_export_options.html#a1612b690c0399ca40b6d158125f7787a',1,'gdjs::PreviewExportOptions']]]
+  ['useminimaldebuggerclient_124',['UseMinimalDebuggerClient',['../db/dbe/structgdjs_1_1_preview_export_options.html#a7506a24521ac8094f958b42049c4d24b',1,'gdjs::PreviewExportOptions']]],
+  ['usewebsocketdebuggerclientwithserveraddress_125',['UseWebsocketDebuggerClientWithServerAddress',['../db/dbe/structgdjs_1_1_preview_export_options.html#a8cf24b5465fe170a17b15d04d37d91df',1,'gdjs::PreviewExportOptions']]],
+  ['usewindowmessagedebuggerclient_126',['UseWindowMessageDebuggerClient',['../db/dbe/structgdjs_1_1_preview_export_options.html#a1612b690c0399ca40b6d158125f7787a',1,'gdjs::PreviewExportOptions']]]
 ];
