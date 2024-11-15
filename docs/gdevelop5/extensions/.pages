@@ -234,6 +234,6 @@ nav:
             - Dynamic Water: dynamic-water
             - Make it rain: make-it-rain
             - Reflection: reflection
-            - Sprite Based Lighting: sprite-based-lighting
+            - Sprite-based lighting: sprite-based-lighting
             - Advanced 3D tween: tween3d
     - ...
