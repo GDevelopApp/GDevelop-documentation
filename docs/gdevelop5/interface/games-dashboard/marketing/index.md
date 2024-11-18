@@ -6,16 +6,16 @@ title: GDevelop Marketing Campaigns
 
 GDevelop Marketing Campaigns, also called **Boosts**, are packages designed to improve the visibility of your game within the GDevelop community and beyond. Whether you're gearing up for a game launch, seeking valuable feedback, or simply looking to increase your game's exposure, these packages offer tailored solutions to meet your promotional needs.
 
-## Why Use a Boost?
+!!! note
 
-Boosts are beneficial during different phases of game development. For example:
+    Boosts are beneficial during different phases of game development. For example:
 
-- Pre-Launch: Build anticipation and gather feedback before your game is officially published.
-- Wishlist Building: Encourage users to add your game to their wishlists (notably on Steam), boosting its potential success upon release.
-- Visibility Enhancement: Increase your game's overall visibility and attract a broader audience.
-- Retention: Acquiring players and check if they come back to continue playing the game. 
+    - Pre-Launch: Build anticipation and gather feedback before your game is officially published.
+    - Wishlist Building: Encourage users to add your game to their wishlists (notably on Steam), boosting its potential success upon release.
+    - Visibility Enhancement: Increase your game's overall visibility and attract a broader audience.
+    - Retention: Acquiring players and check if they come back to continue playing the game. 
 
-### How Boosts Work
+## How Boosts Work
 
 When you boost your game, depending on the Boost you selected, your game will:
 
@@ -31,7 +31,9 @@ Since these players likely have no prior knowledge of your game, it's crucial to
 GDevelop’s ads target a broad audience, making player acquisition very cost-effective. They are appealing to gamers in general and will often be short videos showcasing multiple games of various genres.
 Thanks to this broad targeting, the cost to acquire players is multiple times lower than what is usually seen when ads are run for a single game.
 
-However, if you want more control over targeting, you can run your own ads on other networks. This comes with higher costs but may better align with your game’s niche audience.
+!!! note
+
+    If you want more control over targeting, we encourage you to try other channels or making your own ads. This comes with higher costs but may better align with your game’s niche audience.
 
 While demographics can vary, the typical audience for a Boost is:
 
