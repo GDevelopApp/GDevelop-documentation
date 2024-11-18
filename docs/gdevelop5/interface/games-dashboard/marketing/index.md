@@ -17,7 +17,7 @@ Boosts are beneficial during different phases of game development. For example:
 
 ### How Boosts Work
 
-When you boost your game, depending on the Boost you selected, your game will have:
+When you boost your game, depending on the Boost you selected, your game will:
 
 * Appear as a highlighted, **promoted game on gd.games**, making it more visible to players browsing the platform and other game creators on the GDevelop "Play" tab.
 * Be featured in ads run by GDevelop on platforms like **TikTok and other social media channels**.
@@ -26,18 +26,14 @@ The ads GDevelop runs are designed to attract new players, many of whom may not 
 
 Since these players likely have no prior knowledge of your game, it's crucial to make **a strong first impression** - see the next sections to learn more about the audience and advices for your game.
 
-#### Understanding the Audience
-
-**Generic Ads vs. Self-Run Ads**:
+### Understanding the Audience of a Boost
 
 GDevelop’s ads target a broad audience, making player acquisition very cost-effective. They are appealing to gamers in general and will often be short videos showcasing multiple games of various genres.
 Thanks to this broad targeting, the cost to acquire players is multiple times lower than what is usually seen when ads are run for a single game.
 
 However, if you want more control over targeting, you can run your own ads on other networks. This comes with higher costs but may better align with your game’s niche audience.
 
-**Demographics of Boosted Ads**:
-
-While demographics can vary, the typical audience is:
+While demographics can vary, the typical audience for a Boost is:
 
 * Age: **18–55**
 * Gender: 60% male / 40% female
@@ -55,7 +51,7 @@ To ensure your game performs well during a Boost, focus on these key areas:
 
 !!! tip 
     
-    Sessions are counted a few seconds after the loading screen finishes. This means the “bounce rate” (players leaving without playing) can be tracked accurately. Ensure your game hooks players immediately!
+    Sessions are counted a few seconds after the loading screen finishes. This means the “bounce rate” (players leaving without playing) can be tracked accurately, without being impacted by people immediately leaving the page. Ensure your game hooks players immediately!
 
 ### 2. Focus on Fun and Accessibility
 
@@ -76,6 +72,10 @@ Boosts can be purchased inside GDevelop, using GDevelop Credits.
 1. Head down to your Games Dashboard,
 2. Pick the game you want to promote,
 3. Click on the "Marketing & Ads" tab to explore the available packages.
+
+!!! tip
+
+    Remember that many players accessing your game — whether on gd.games or through Boosts — will be using a **mobile device**. Make sure your game is fully **touchscreen-friendly**, with controls that are intuitive and responsive.
 
 Learn more about [GDevelop Credits here](/gdevelop5/interface/profile/credits).
 
