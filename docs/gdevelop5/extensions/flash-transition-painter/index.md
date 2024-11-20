@@ -1,20 +1,20 @@
 # Flash and transition painter
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/movie-filter.svg" class="extension-icon"></img>
-Paint a color all over the screen for period of time with an effect (useful for simulate flash and transition effect).
+Paint transition effects with a plain color.
 
 **Authors and contributors** to this community extension: (not specified).
 
 ---
 
-* __Paint effect:__ Action to paint a color all over the screen for a period of time with specific effect.
-effect type:
-    * __Flash:__ is a monochrome color appear with fade then disappear with fade out.
-    * __Vertical:__ is a monochrome color comes from right side then comes back.
-    * __Horizontal:__ is a monochrome color come from top side then comes back.
-    * __Circular:__ is a circle which increases from the center and narrows.
+Paint transition effects
 
-* __Paint effect ended:__ event when the paint effect ends.
+- Fade in, fade out
+- Right to left
+- Top to bottom
+- Circular
+
+A blur effect can be added to the painter layer to smooth the transition.
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
