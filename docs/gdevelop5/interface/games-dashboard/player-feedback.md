@@ -30,13 +30,15 @@ Player feedback can be turned on or off acording to the game's development stage
 
 To be able to collect player feedback the game has to be available online. You can verify that the Game has been published to gd.games through the [Manage section](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/):
 
-![Manage section](Manage-Games.png)
+![Playerfeedback-Dashboard](Playerfeedback-Dashboard.png)
 
-In the Game Manage screen, you can configure:
+In the Game Manage screen, click on "Edit details" to configure:
 
 * **Visible on gd.games (yes/no):** Players will be able to find the game through the gd.games website
 * **Revenue share (on/off):** gd.games will display ad banners in your game's page to start making revenue. You can see and manage your earnings through the Manage section.
 * **Player feedback (on/off):** All published versions of the game listed under the "Builds" section will display the feedback banner to collect player feedback
+
+![Playerfeedback-enablingfeedback](Playerfeedback-enablingfeedback.png)
 
 To learn how to publish to the gd.games platform and configure the privacy of the links [follow these instructions](https://wiki.gdevelop.io/gdevelop5/publishing/web/).
 
@@ -44,7 +46,7 @@ To learn how to publish to the gd.games platform and configure the privacy of th
 Recieved player feedback is stored and visible under the "Feedback" section of the desired published game.
 Click on the [Manage section](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/) > the game that you wish to manage to see the "Feedback" section.
 
-![Feedback-tab](Player-feedback.png)
+![Playerfeedback-seeingfeedback](Playerfeedback-seeingfeedback.png)
 
 ## Rating Feedback
 Rating player feedback helps the community identify the best beta testers of gd.games so they can get rewarded accordingly.
@@ -61,7 +63,7 @@ Rate the feedback by clicking on the correspondent icon:
 
 Keep in mind that the creators that rate the most amount of player feedback, will be listed in the "Play" section in the Top 5 "Games with rated comments".
 
-![Community section](Community-section.png)
+![Playsection](Playsection.png)
 
 ### FAQ
 
