@@ -9,7 +9,7 @@ Player analytics are essential during video game development. They provide data 
 ## Accessing game metrics
 When you've opened the "Manage" section, find the game you'd like to evaluate and click "Manage game". Under the thumbnail image you'll see the "Analytics" card displaying the numer of sessions in your game.
 
-![Game-Analytics-tab](Game-Analytics-tab.png)
+![Manage-Games-Dashboard](Manage-Game-Dashboard.png)
 
 
 ## Interpreting game analytics
