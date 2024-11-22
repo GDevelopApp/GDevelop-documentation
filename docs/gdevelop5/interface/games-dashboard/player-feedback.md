@@ -14,7 +14,7 @@ It helps developers understand player interactions, preferences, and areas needi
 GDevelop's integrated player feedback allows developers to enhance game design to increase player satisfaction, leading to a more engaging experience and a loyal player base.
 
 ## Feedback availabity by channel
-Player Feedback is available to every user with a GDevelop account from free to paying subscriptions and only through gd.games.
+Player Feedback is available to every user with a GDevelop account from free to paying subscriptions and only through [gd.games](https://gd.games/).
 
 Games published on sites like Itch, Newgrounds, Poki, and personal websites; or exported to Android or iOS cannot collect player feedback.
 
@@ -32,17 +32,17 @@ To be able to collect player feedback the game has to be available online. You c
 
 ![Manage section](Manage-Games.png)
 
-On the game listing screen, you can configure:
+In the Game Manage screen, you can configure:
 
-* **Make discoverable on gd.games:** Players will be able to find the game through the gd.games website
-* **Show feedback banner on gd.games game page:** The game will display a banner to collect player feedback through the website gd.games
-* **Ask for feedback on all builds:** All published versions of the game listed under the "Builds" tab will display the feedback banner to collect player feedback
+* **Visible on gd.games (yes/no):** Players will be able to find the game through the gd.games website
+* **Revenue share (on/off):** gd.games will display ad banners in your game's page to start making revenue. You can see and manage your earnings through the Manage section.
+* **Player feedback (on/off):** All published versions of the game listed under the "Builds" section will display the feedback banner to collect player feedback
 
 To learn how to publish to the gd.games platform and configure the privacy of the links [follow these instructions](https://wiki.gdevelop.io/gdevelop5/publishing/web/).
 
 ## Receiving feedback
-Recieved player feedback is stored and visible under the "Feedback" tab of the desired published game.
-Click on the [Manage section](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/) > the game that you wish to manage to see the "Feedback tab".
+Recieved player feedback is stored and visible under the "Feedback" section of the desired published game.
+Click on the [Manage section](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/) > the game that you wish to manage to see the "Feedback" section.
 
 ![Feedback-tab](Player-feedback.png)
 
@@ -59,7 +59,7 @@ Rate the feedback by clicking on the correspondent icon:
 4. Report feedback (spam)
 5. Resolve / Close feedback 
 
-Keep in mind that the creators that rate the most amount of player feedback, will be listed under the Community's Top 5 "Games with rated comments".
+Keep in mind that the creators that rate the most amount of player feedback, will be listed in the "Play" section in the Top 5 "Games with rated comments".
 
 ![Community section](Community-section.png)
 
