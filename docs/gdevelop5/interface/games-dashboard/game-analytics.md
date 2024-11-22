@@ -7,7 +7,7 @@
 Player analytics are essential during video game development. They provide data on how long players stay engaged with the game and how quickly they lose interest. By understanding these patterns, developers can tailor game features to better suit player preferences, enhancing enjoyment and engagement. Alongside player feedback, this information guides improvements, helping ensure the game's success by making it more appealing and enjoyable for its audience.
 
 ## Accessing game metrics
-When you've opened the "Manage Game" section, navigate to the Analytics tab. This shows various numbers that are useful to understand how successful is your game.
+When you've opened the "Manage" section, find the game you'd like to evaluate and click "Manage game". Under the thumbnail image you'll see the "Analytics" card displaying the numer of sessions in your game.
 
 ![Game-Analytics-tab](Game-Analytics-tab.png)
 
