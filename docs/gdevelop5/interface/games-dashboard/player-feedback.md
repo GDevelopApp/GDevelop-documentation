@@ -43,7 +43,7 @@ In the Game Manage screen, click on "Edit details" to configure:
 To learn how to publish to the gd.games platform and configure the privacy of the links [follow these instructions](https://wiki.gdevelop.io/gdevelop5/publishing/web/).
 
 ## Receiving feedback
-Recieved player feedback is stored and visible under the "Feedback" section of the desired published game.
+Received player feedback is stored and visible under the "Feedback" section of the desired published game.
 Click on the [Manage section](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/) > the game that you wish to manage to see the "Feedback" section.
 
 ![Playerfeedback-seeingfeedback](Playerfeedback-seeingfeedback.png)
