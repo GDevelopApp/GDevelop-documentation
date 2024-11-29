@@ -69,6 +69,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classgd_1_1_objects_container-members.html">List of all members</a>  </div>
@@ -82,18 +83,34 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="_objects_container_8h_source.html">ObjectsContainer.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a84178a35709c8a6210d807d20af847c6"><td class="memItemLeft" align="right" valign="top"><a id="a84178a35709c8a6210d807d20af847c6"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>SourceType</b> { <br />
+&#160;&#160;<b>Unknown</b>
+, <b>Global</b>
+, <b>Scene</b>
+, <b>Object</b>
+, <br />
+&#160;&#160;<b>Function</b>
+<br />
+ }</td></tr>
+<tr class="separator:a84178a35709c8a6210d807d20af847c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aca2afa84d13d9851f2ba842544efa685"><td class="memItemLeft" align="right" valign="top"><a id="aca2afa84d13d9851f2ba842544efa685"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#aca2afa84d13d9851f2ba842544efa685">ObjectsContainer</a> ()</td></tr>
-<tr class="memdesc:aca2afa84d13d9851f2ba842544efa685"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor creating a container without any objects. <br /></td></tr>
-<tr class="separator:aca2afa84d13d9851f2ba842544efa685"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af73945fb79af6c3b1c09f358dfd8406f"><td class="memItemLeft" align="right" valign="top"><a id="af73945fb79af6c3b1c09f358dfd8406f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#af73945fb79af6c3b1c09f358dfd8406f">ObjectsContainer</a> (const SourceType sourceType)</td></tr>
+<tr class="memdesc:af73945fb79af6c3b1c09f358dfd8406f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor creating a container without any objects. <br /></td></tr>
+<tr class="separator:af73945fb79af6c3b1c09f358dfd8406f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae957b6d9eaffef2bcade1a2416e98945"><td class="memItemLeft" align="right" valign="top"><a id="ae957b6d9eaffef2bcade1a2416e98945"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>ObjectsContainer</b> (const <a class="el" href="classgd_1_1_objects_container.html">ObjectsContainer</a> &amp;)</td></tr>
 <tr class="separator:ae957b6d9eaffef2bcade1a2416e98945"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbda5eaf0b6e042b1bf390e969c8ba5c"><td class="memItemLeft" align="right" valign="top"><a id="acbda5eaf0b6e042b1bf390e969c8ba5c"></a>
 <a class="el" href="classgd_1_1_objects_container.html">ObjectsContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="classgd_1_1_objects_container.html">ObjectsContainer</a> &amp;rhs)</td></tr>
 <tr class="separator:acbda5eaf0b6e042b1bf390e969c8ba5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8dbc1532d4e7341868620e572098902"><td class="memItemLeft" align="right" valign="top"><a id="ab8dbc1532d4e7341868620e572098902"></a>
+SourceType&#160;</td><td class="memItemRight" valign="bottom"><b>GetSourceType</b> () const</td></tr>
+<tr class="separator:ab8dbc1532d4e7341868620e572098902"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bf51eb67847925fbfdbfaa019e96289"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="classgd_1_1_object_folder_or_object.html">ObjectFolderOrObject</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a9bf51eb67847925fbfdbfaa019e96289">GetAllObjectFolderOrObjects</a> () const</td></tr>
 <tr class="separator:a9bf51eb67847925fbfdbfaa019e96289"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee69f14a70cd097a575448027ce313e1"><td class="memItemLeft" align="right" valign="top"><a id="aee69f14a70cd097a575448027ce313e1"></a>
@@ -110,7 +127,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memdesc:a8b7c11fda7283f034f6339f4c1234959"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if object called <em>name</em> exists. <br /></td></tr>
 <tr class="separator:a8b7c11fda7283f034f6339f4c1234959"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cd96a4ee8732fbf1c2249332b240ce7"><td class="memItemLeft" align="right" valign="top"><a id="a6cd96a4ee8732fbf1c2249332b240ce7"></a>
-<a class="el" href="classgd_1_1_object.html">Object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a6cd96a4ee8732fbf1c2249332b240ce7">GetObject</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
+<a class="el" href="classgd_1_1_object.html">gd::Object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a6cd96a4ee8732fbf1c2249332b240ce7">GetObject</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
 <tr class="memdesc:a6cd96a4ee8732fbf1c2249332b240ce7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to the object called <em>name</em>. <br /></td></tr>
 <tr class="separator:a6cd96a4ee8732fbf1c2249332b240ce7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51bd880ca826a2b3f323034543c799b8"><td class="memItemLeft" align="right" valign="top"><a id="a51bd880ca826a2b3f323034543c799b8"></a>
@@ -118,7 +135,7 @@ const <a class="el" href="classgd_1_1_object.html">gd::Object</a> &amp;&#160;</t
 <tr class="memdesc:a51bd880ca826a2b3f323034543c799b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to the object called <em>name</em>. <br /></td></tr>
 <tr class="separator:a51bd880ca826a2b3f323034543c799b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d56009e74b3e5b7b3d2321b0ebea47a"><td class="memItemLeft" align="right" valign="top"><a id="a3d56009e74b3e5b7b3d2321b0ebea47a"></a>
-<a class="el" href="classgd_1_1_object.html">Object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a3d56009e74b3e5b7b3d2321b0ebea47a">GetObject</a> (std::size_t index)</td></tr>
+<a class="el" href="classgd_1_1_object.html">gd::Object</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a3d56009e74b3e5b7b3d2321b0ebea47a">GetObject</a> (std::size_t index)</td></tr>
 <tr class="memdesc:a3d56009e74b3e5b7b3d2321b0ebea47a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to the object at position <em>index</em> in the objects list. <br /></td></tr>
 <tr class="separator:a3d56009e74b3e5b7b3d2321b0ebea47a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51f426f61a30147e57c303c33285ab40"><td class="memItemLeft" align="right" valign="top"><a id="a51f426f61a30147e57c303c33285ab40"></a>
@@ -154,6 +171,9 @@ std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="separator:a15dd31aa3b862cda9c1e5fdbf006da06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a931a010dc9d32733effe7381f984eef2"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_object.html">gd::Object</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_container.html#a931a010dc9d32733effe7381f984eef2">GetObjects</a> () const</td></tr>
 <tr class="separator:a931a010dc9d32733effe7381f984eef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0356d7fc3a5fb77fd2f6d17a67e96d97"><td class="memItemLeft" align="right" valign="top"><a id="a0356d7fc3a5fb77fd2f6d17a67e96d97"></a>
+std::set&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetAllObjectNames</b> () const</td></tr>
+<tr class="separator:a0356d7fc3a5fb77fd2f6d17a67e96d97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Saving and loading</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Members functions related to saving and loading the objects of the class. </p>
 </div></td></tr>

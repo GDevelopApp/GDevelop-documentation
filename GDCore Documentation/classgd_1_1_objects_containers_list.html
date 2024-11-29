@@ -155,6 +155,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_containers_list.html#a3baa643e64dda9fe15d1b140613a26a9">ForEachObjectOrGroupVariableMatchingSearch</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectOrGroupName, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;search, std::function&lt; void(const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;variableName, const <a class="el" href="classgd_1_1_variable.html">gd::Variable</a> &amp;variable)&gt; fn) const</td></tr>
 <tr class="memdesc:a3baa643e64dda9fe15d1b140613a26a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call the callback for each variable of the object (or group) matching the search passed in parameter. <br /></td></tr>
 <tr class="separator:a3baa643e64dda9fe15d1b140613a26a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5885fd0dc47c86988d990e57894e5ebf"><td class="memItemLeft" align="right" valign="top"><a id="a5885fd0dc47c86988d990e57894e5ebf"></a>
+const gd::ObjectsContainer::SourceType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_containers_list.html#a5885fd0dc47c86988d990e57894e5ebf">GetObjectsContainerSourceType</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectOrGroupName) const</td></tr>
+<tr class="memdesc:a5885fd0dc47c86988d990e57894e5ebf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the source type of the container for the specified object or group of objects. <br /></td></tr>
+<tr class="separator:a5885fd0dc47c86988d990e57894e5ebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf08fe7fe670ad80a1f1d7c5fa3924d5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgd_1_1_objects_container.html">ObjectsContainer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_containers_list.html#adf08fe7fe670ad80a1f1d7c5fa3924d5">GetObjectsContainerFromObjectName</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectOrGroupName) const</td></tr>
+<tr class="separator:adf08fe7fe670ad80a1f1d7c5fa3924d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70cf059bd15bfd44328f78316b37fb58"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_containers_list.html#a70cf059bd15bfd44328f78316b37fb58">GetObjectsContainer</a> (std::size_t index) const</td></tr>
 <tr class="memdesc:a70cf059bd15bfd44328f78316b37fb58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a the objects container at position <em>index</em>.  <a href="classgd_1_1_objects_containers_list.html#a70cf059bd15bfd44328f78316b37fb58">More...</a><br /></td></tr>
 <tr class="separator:a70cf059bd15bfd44328f78316b37fb58"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -361,6 +367,25 @@ static <a class="el" href="classgd_1_1_objects_containers_list.html">ObjectsCont
 
 <p>Return a the objects container at position <em>index</em>. </p>
 <dl class="section warning"><dt>Warning</dt><dd>The returned <code><a class="el" href="classgd_1_1_objects_container.html" title="Used as a base class for classes that will own objects (see gd::Object).">ObjectsContainer</a></code> may contain cloned objects (in the case of <code>ProjectScopedContainers::MakeNewProjectScopedContainersForEventsBasedObject</code>) or "fake" objects used by events like parameters. They must not be used to edit the objects. Search for "ProjectScopedContainers wrongly containing temporary objects containers or objects" in the codebase. </dd></dl>
+
+</div>
+</div>
+<a id="adf08fe7fe670ad80a1f1d7c5fa3924d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf08fe7fe670ad80a1f1d7c5fa3924d5">&#9670;&nbsp;</a></span>GetObjectsContainerFromObjectName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classgd_1_1_objects_container.html">ObjectsContainer</a> * gd::ObjectsContainersList::GetObjectsContainerFromObjectName </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>objectOrGroupName</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Get the objects container for for the specified object or group of objects. </p>
 
 </div>
 </div>
