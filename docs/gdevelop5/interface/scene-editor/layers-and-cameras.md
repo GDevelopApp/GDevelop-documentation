@@ -30,6 +30,19 @@ In the layers editor, you can create a new layer by clicking the **Add new layer
 
 ![](/gdevelop5/interface/scene-editor/layers-and-cameras/pasted/20230310-194242.png)
 
+### Layer centering according to the game window
+
+Edit a layer properties to access multiple options regarding a layer. You can notably choose if:
+
+* The camera of the layer **stays centered** when the game window is resized. This is usually useful for game content or menus
+* The **top-left corner of the camera stays fixed** when the game window is resized. This is usually useful for UI or content that can expand.
+
+![](./layers-and-cameras/layer-camera-positioning.png)
+
+!!! note
+
+   This camera behavior is only useful when you're not using events to move the camera. If you center a camera on an object for example, this option won't have any impact.
+
 ### Moving objects to a different layer
 
 Objects can be dynamically moved to a different layer while the game is running.  There is a condition to check which layer an object is on, and an action that will change the layer of an object.
