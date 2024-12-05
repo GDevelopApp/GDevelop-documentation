@@ -127,6 +127,7 @@ nav:
         - Resource bar (continuous): panel-sprite-continuous-bar
         - Slider: panel-sprite-slider
         - Pop-up: pop-up
+        - Animated Score Counter: score-counter
         - Share dialog and sharing options: share
         - Toggle switch: sprite-toggle-switch
         - Resource bar (separated units): tiled-units-bar
