@@ -130,6 +130,7 @@ nav:
         - Animated Score Counter: score-counter
         - Share dialog and sharing options: share
         - Toggle switch: sprite-toggle-switch
+        - Star Rating Bar: star-rating-bar
         - Resource bar (separated units): tiled-units-bar
         - Time formatting: time-formatter
         - Toggle switch (for Shape Painter): toggle-switch
@@ -189,6 +190,7 @@ nav:
             - CheatCode: cheat-code
             - Double key press: double-key-press
             - Multitouch joystick and buttons (deprecated): multitouch-joystick
+            - Screen Orientation Checker: screen-orientation-checker
             - Selection tools: selection-tools
         - Movement:
             - Flip Gravity: flip-gravity
