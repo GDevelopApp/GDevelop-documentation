@@ -74,6 +74,7 @@ nav:
         - Pinching gesture: pinch-gesture
         - Multitouch joystick and buttons (sprite): sprite-multitouch-joystick
         - Swipe Gesture: swipe-gesture
+        - Two Choices Dialog Boxes: two-choices-dialog-boxes
     - Movement:
         - Advanced platformer movements: advanced-jump
         - Advanced projectile: advanced-projectile
