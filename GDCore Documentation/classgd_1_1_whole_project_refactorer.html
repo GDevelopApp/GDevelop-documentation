@@ -122,6 +122,9 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="memitem:a9b29e6e37ba6690e0a8aaf04368270d7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_whole_project_refactorer.html#a9b29e6e37ba6690e0a8aaf04368270d7">RenameObjectEventsFunction</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_events_functions_extension.html">gd::EventsFunctionsExtension</a> &amp;eventsFunctionsExtension, const <a class="el" href="classgd_1_1_events_based_object.html">gd::EventsBasedObject</a> &amp;eventsBasedObject, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;oldFunctionName, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;newFunctionName)</td></tr>
 <tr class="memdesc:a9b29e6e37ba6690e0a8aaf04368270d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refactor the project <b>before</b> an events function of an object is renamed.  <a href="classgd_1_1_whole_project_refactorer.html#a9b29e6e37ba6690e0a8aaf04368270d7">More...</a><br /></td></tr>
 <tr class="separator:a9b29e6e37ba6690e0a8aaf04368270d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ac517f7e1e5322baeb1bd15c6b5766a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_whole_project_refactorer.html#a1ac517f7e1e5322baeb1bd15c6b5766a">RenameParameter</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, <a class="el" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a> &amp;projectScopedContainers, <a class="el" href="classgd_1_1_events_function.html">gd::EventsFunction</a> &amp;eventsFunction, const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;parameterObjectsContainer, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;oldParameterName, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;newParameterName)</td></tr>
+<tr class="memdesc:a1ac517f7e1e5322baeb1bd15c6b5766a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refactor the function <b>before</b> a parameter is renamed.  <a href="classgd_1_1_whole_project_refactorer.html#a1ac517f7e1e5322baeb1bd15c6b5766a">More...</a><br /></td></tr>
+<tr class="separator:a1ac517f7e1e5322baeb1bd15c6b5766a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a482888728f28b583584968fb2c887114"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_whole_project_refactorer.html#a482888728f28b583584968fb2c887114">MoveEventsFunctionParameter</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_events_functions_extension.html">gd::EventsFunctionsExtension</a> &amp;eventsFunctionsExtension, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;functionName, std::size_t oldIndex, std::size_t newIndex)</td></tr>
 <tr class="memdesc:a482888728f28b583584968fb2c887114"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refactor the project <b>before</b> an events function parameter is moved.  <a href="classgd_1_1_whole_project_refactorer.html#a482888728f28b583584968fb2c887114">More...</a><br /></td></tr>
 <tr class="separator:a482888728f28b583584968fb2c887114"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -245,9 +248,9 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="memitem:aec5d42716efa2804b1621dada64d9d9a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_whole_project_refactorer.html#aec5d42716efa2804b1621dada64d9d9a">ObjectOrGroupRenamedInEventsBasedObject</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a> &amp;projectScopedContainers, <a class="el" href="classgd_1_1_events_based_object.html">gd::EventsBasedObject</a> &amp;eventsBasedObject, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;oldName, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;newName, bool isObjectGroup)</td></tr>
 <tr class="memdesc:aec5d42716efa2804b1621dada64d9d9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refactor the events function after an object or group is renamed.  <a href="classgd_1_1_whole_project_refactorer.html#aec5d42716efa2804b1621dada64d9d9a">More...</a><br /></td></tr>
 <tr class="separator:aec5d42716efa2804b1621dada64d9d9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6ec3be56f7d862c1db8fb60450fb11f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_whole_project_refactorer.html#ad6ec3be56f7d862c1db8fb60450fb11f">ObjectOrGroupRenamedInEventsFunction</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a> &amp;projectScopedContainers, <a class="el" href="classgd_1_1_events_function.html">gd::EventsFunction</a> &amp;eventsFunction, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;oldName, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;newName, bool isObjectGroup)</td></tr>
-<tr class="memdesc:ad6ec3be56f7d862c1db8fb60450fb11f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refactor the events function after an object or group is renamed.  <a href="classgd_1_1_whole_project_refactorer.html#ad6ec3be56f7d862c1db8fb60450fb11f">More...</a><br /></td></tr>
-<tr class="separator:ad6ec3be56f7d862c1db8fb60450fb11f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a317057f56786ae4927c12fa17010f7e4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_whole_project_refactorer.html#a317057f56786ae4927c12fa17010f7e4">ObjectOrGroupRenamedInEventsFunction</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a> &amp;projectScopedContainers, <a class="el" href="classgd_1_1_events_function.html">gd::EventsFunction</a> &amp;eventsFunction, const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;targetedObjectsContainer, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;oldName, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;newName, bool isObjectGroup)</td></tr>
+<tr class="memdesc:a317057f56786ae4927c12fa17010f7e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refactor the events function after an object or group is renamed.  <a href="classgd_1_1_whole_project_refactorer.html#a317057f56786ae4927c12fa17010f7e4">More...</a><br /></td></tr>
+<tr class="separator:a317057f56786ae4927c12fa17010f7e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e04076b25b0a23f69c436fb6869e029"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_whole_project_refactorer.html#a7e04076b25b0a23f69c436fb6869e029">ObjectRemovedInEventsFunction</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, <a class="el" href="classgd_1_1_events_function.html">gd::EventsFunction</a> &amp;eventsFunction, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectName)</td></tr>
 <tr class="memdesc:a7e04076b25b0a23f69c436fb6869e029"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refactor the events function after an object or group is removed.  <a href="classgd_1_1_whole_project_refactorer.html#a7e04076b25b0a23f69c436fb6869e029">More...</a><br /></td></tr>
 <tr class="separator:a7e04076b25b0a23f69c436fb6869e029"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -714,8 +717,8 @@ static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 
 </div>
 </div>
-<a id="ad6ec3be56f7d862c1db8fb60450fb11f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6ec3be56f7d862c1db8fb60450fb11f">&#9670;&nbsp;</a></span>ObjectOrGroupRenamedInEventsFunction()</h2>
+<a id="a317057f56786ae4927c12fa17010f7e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a317057f56786ae4927c12fa17010f7e4">&#9670;&nbsp;</a></span>ObjectOrGroupRenamedInEventsFunction()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -740,6 +743,12 @@ static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
           <td></td>
           <td class="paramtype"><a class="el" href="classgd_1_1_events_function.html">gd::EventsFunction</a> &amp;&#160;</td>
           <td class="paramname"><em>eventsFunction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;&#160;</td>
+          <td class="paramname"><em>targetedObjectsContainer</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1455,6 +1464,69 @@ static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 
 <p>Refactor the project <b>before</b> an events function of an object is renamed. </p>
 <dl class="section warning"><dt>Warning</dt><dd>Do the renaming of the specified function after calling this. This is because the function is expected to have its old name for the refactoring. </dd></dl>
+
+</div>
+</div>
+<a id="a1ac517f7e1e5322baeb1bd15c6b5766a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ac517f7e1e5322baeb1bd15c6b5766a">&#9670;&nbsp;</a></span>RenameParameter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gd::WholeProjectRefactorer::RenameParameter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;&#160;</td>
+          <td class="paramname"><em>project</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a> &amp;&#160;</td>
+          <td class="paramname"><em>projectScopedContainers</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classgd_1_1_events_function.html">gd::EventsFunction</a> &amp;&#160;</td>
+          <td class="paramname"><em>eventsFunction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;&#160;</td>
+          <td class="paramname"><em>parameterObjectsContainer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>oldParameterName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>newParameterName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Refactor the function <b>before</b> a parameter is renamed. </p>
+<dl class="section warning"><dt>Warning</dt><dd>Do the renaming of the specified parameter after calling this. This is because the function is expected to have its old name for the refactoring. </dd></dl>
 
 </div>
 </div>

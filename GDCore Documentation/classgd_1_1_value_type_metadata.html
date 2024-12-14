@@ -160,6 +160,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a9d1d1c4b8e54b3db8524decf8a76df66"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_value_type_metadata.html#a9d1d1c4b8e54b3db8524decf8a76df66">IsVariable</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;type)</td></tr>
+<tr class="memdesc:a9d1d1c4b8e54b3db8524decf8a76df66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the type of the parameter is a variable.  <a href="classgd_1_1_value_type_metadata.html#a9d1d1c4b8e54b3db8524decf8a76df66">More...</a><br /></td></tr>
+<tr class="separator:a9d1d1c4b8e54b3db8524decf8a76df66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7894dd27a3d9f2065008a6f20a290a90"><td class="memItemLeft" align="right" valign="top"><a id="a7894dd27a3d9f2065008a6f20a290a90"></a>
 static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_value_type_metadata.html#a7894dd27a3d9f2065008a6f20a290a90">IsTypeLegacyPreScopedVariable</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;type)</td></tr>
 <tr class="memdesc:a7894dd27a3d9f2065008a6f20a290a90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the type is a variable but from a specific scope (scene, project or object). In new code, prefer to use the more generic "variable" parameter (which accepts any variable coming from an object or from containers in the scope). <br /></td></tr>
@@ -335,7 +338,7 @@ static const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</
 </div>
 </div>
 <a id="ada9e8ef0ffc2f1442946015d7cf67979"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada9e8ef0ffc2f1442946015d7cf67979">&#9670;&nbsp;</a></span>IsVariable()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ada9e8ef0ffc2f1442946015d7cf67979">&#9670;&nbsp;</a></span>IsVariable() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -358,6 +361,35 @@ static const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</
 </div><div class="memdoc">
 
 <p>Return true if the type of the parameter is a number. </p>
+<dl class="section note"><dt>Note</dt><dd>If you had a new type of parameter, also add it in the IDE ( see EventsFunctionParametersEditor, ParameterRenderingService and ExpressionAutocompletion) and in the <a class="el" href="classgd_1_1_events_code_generator.html" title="Internal class used to generate code from events.">EventsCodeGenerator</a>. </dd></dl>
+
+</div>
+</div>
+<a id="a9d1d1c4b8e54b3db8524decf8a76df66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d1d1c4b8e54b3db8524decf8a76df66">&#9670;&nbsp;</a></span>IsVariable() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool gd::ValueTypeMetadata::IsVariable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return true if the type of the parameter is a variable. </p>
 <dl class="section note"><dt>Note</dt><dd>If you had a new type of parameter, also add it in the IDE ( see EventsFunctionParametersEditor, ParameterRenderingService and ExpressionAutocompletion) and in the <a class="el" href="classgd_1_1_events_code_generator.html" title="Internal class used to generate code from events.">EventsCodeGenerator</a>. </dd></dl>
 
 </div>
