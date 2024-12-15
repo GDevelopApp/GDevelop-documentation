@@ -494,6 +494,9 @@ std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="memitem:af65a5de8b16998e45479ebfe8734230a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_events_functions_extension.html">gd::EventsFunctionsExtension</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project.html#af65a5de8b16998e45479ebfe8734230a">InsertEventsFunctionsExtension</a> (const <a class="el" href="classgd_1_1_events_functions_extension.html">EventsFunctionsExtension</a> &amp;eventsFunctionExtension, std::size_t position)</td></tr>
 <tr class="memdesc:af65a5de8b16998e45479ebfe8734230a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an events functions extension to the list.  <a href="classgd_1_1_project.html#af65a5de8b16998e45479ebfe8734230a">More...</a><br /></td></tr>
 <tr class="separator:af65a5de8b16998e45479ebfe8734230a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42846d87adf015e2c1a3e6c26599f3ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project.html#a42846d87adf015e2c1a3e6c26599f3ce">UnserializeAndInsertExtensionsFrom</a> (const <a class="el" href="classgd_1_1_serializer_element.html">gd::SerializerElement</a> &amp;eventsFunctionsExtensionsElement)</td></tr>
+<tr class="memdesc:a42846d87adf015e2c1a3e6c26599f3ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unserialize and insert in the project the extensions.  <a href="classgd_1_1_project.html#a42846d87adf015e2c1a3e6c26599f3ce">More...</a><br /></td></tr>
+<tr class="separator:a42846d87adf015e2c1a3e6c26599f3ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45686fc97d0d17571315b0bcce869467"><td class="memItemLeft" align="right" valign="top"><a id="a45686fc97d0d17571315b0bcce869467"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project.html#a45686fc97d0d17571315b0bcce869467">RemoveEventsFunctionsExtension</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
 <tr class="memdesc:a45686fc97d0d17571315b0bcce869467"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the events functions extension named "name". <br /></td></tr>
@@ -2688,6 +2691,28 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Swap the specified layouts. </p>
 <p>Do nothing if indexes are not correct. </p>
+
+</div>
+</div>
+<a id="a42846d87adf015e2c1a3e6c26599f3ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42846d87adf015e2c1a3e6c26599f3ce">&#9670;&nbsp;</a></span>UnserializeAndInsertExtensionsFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gd::Project::UnserializeAndInsertExtensionsFrom </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_serializer_element.html">gd::SerializerElement</a> &amp;&#160;</td>
+          <td class="paramname"><em>eventsFunctionsExtensionsElement</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Unserialize and insert in the project the extensions. </p>
+<p>Unserialization is done in two passe to allow dependencies between extensions.</p>
+<dl class="section note"><dt>Note</dt><dd>If an extension with the same name already exists, it will be overwritten. </dd></dl>
 
 </div>
 </div>

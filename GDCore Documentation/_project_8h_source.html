@@ -450,157 +450,161 @@ $(function() {
 <div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_functions_extension.html">EventsFunctionsExtension</a>&amp; eventsFunctionExtension,</div>
 <div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;      std::size_t position);</div>
 <div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160; </div>
-<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;  <span class="keywordtype">void</span> RemoveEventsFunctionsExtension(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name);</div>
-<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160; </div>
-<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;  <span class="keywordtype">void</span> ClearEventsFunctionsExtensions();</div>
+<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;  <span class="keywordtype">void</span> UnserializeAndInsertExtensionsFrom(</div>
+<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_serializer_element.html">gd::SerializerElement</a>&amp; eventsFunctionsExtensionsElement);</div>
 <div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160; </div>
-<div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;  <span class="keywordtype">bool</span> HasEventsBasedObject(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; type) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;  <span class="keywordtype">void</span> RemoveEventsFunctionsExtension(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name);</div>
 <div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160; </div>
-<div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;  <a class="code" href="classgd_1_1_events_based_object.html">gd::EventsBasedObject</a>&amp; GetEventsBasedObject(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; type);</div>
+<div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;  <span class="keywordtype">void</span> ClearEventsFunctionsExtensions();</div>
 <div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160; </div>
-<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_based_object.html">gd::EventsBasedObject</a>&amp; GetEventsBasedObject(</div>
-<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; type) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160; </div>
-<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;  <span class="keywordtype">bool</span> HasEventsBasedBehavior(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; type) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160; </div>
-<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;  <a class="code" href="classgd_1_1_events_based_behavior.html">gd::EventsBasedBehavior</a>&amp; GetEventsBasedBehavior(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; type);</div>
+<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;  <span class="keywordtype">bool</span> HasEventsBasedObject(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; type) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160; </div>
+<div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;  <a class="code" href="classgd_1_1_events_based_object.html">gd::EventsBasedObject</a>&amp; GetEventsBasedObject(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; type);</div>
+<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160; </div>
+<div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_based_object.html">gd::EventsBasedObject</a>&amp; GetEventsBasedObject(</div>
+<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; type) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160; </div>
-<div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_based_behavior.html">gd::EventsBasedBehavior</a>&amp; GetEventsBasedBehavior(</div>
-<div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; type) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160; </div>
-<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160; </div>
-<div class="line"><a name="l00944"></a><span class="lineno">  944</span>&#160; </div>
-<div class="line"><a name="l00948"></a><span class="lineno"><a class="line" href="classgd_1_1_project.html#aa1778effd8c9e426593174fbe4a9942a">  948</a></span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_resources_manager.html">ResourcesManager</a>&amp; <a class="code" href="classgd_1_1_project.html#aa1778effd8c9e426593174fbe4a9942a">GetResourcesManager</a>()<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;    <span class="keywordflow">return</span> resourcesManager;</div>
-<div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;  }</div>
-<div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160; </div>
-<div class="line"><a name="l00956"></a><span class="lineno"><a class="line" href="classgd_1_1_project.html#aa21d727051e1c8c8d3d84f8c4c6e5a98">  956</a></span>&#160;  <a class="code" href="classgd_1_1_resources_manager.html">ResourcesManager</a>&amp; <a class="code" href="classgd_1_1_project.html#aa21d727051e1c8c8d3d84f8c4c6e5a98">GetResourcesManager</a>() { <span class="keywordflow">return</span> resourcesManager; }</div>
-<div class="line"><a name="l00957"></a><span class="lineno">  957</span>&#160; </div>
-<div class="line"><a name="l00959"></a><span class="lineno">  959</span>&#160; </div>
-<div class="line"><a name="l00964"></a><span class="lineno">  964</span>&#160; </div>
-<div class="line"><a name="l00969"></a><span class="lineno"><a class="line" href="classgd_1_1_project.html#a92d2e2184490313ecd2e6cc45a081409">  969</a></span>&#160;  <span class="keyword">inline</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a>&amp; <a class="code" href="classgd_1_1_project.html#a92d2e2184490313ecd2e6cc45a081409">GetVariables</a>()<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00970"></a><span class="lineno">  970</span>&#160;    <span class="keywordflow">return</span> variables;</div>
-<div class="line"><a name="l00971"></a><span class="lineno">  971</span>&#160;  }</div>
-<div class="line"><a name="l00972"></a><span class="lineno">  972</span>&#160; </div>
-<div class="line"><a name="l00977"></a><span class="lineno"><a class="line" href="classgd_1_1_project.html#a8d5a0c9873d62a4c44fa51873da88913">  977</a></span>&#160;  <span class="keyword">inline</span> <a class="code" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a>&amp; <a class="code" href="classgd_1_1_project.html#a8d5a0c9873d62a4c44fa51873da88913">GetVariables</a>() { <span class="keywordflow">return</span> variables; }</div>
-<div class="line"><a name="l00978"></a><span class="lineno">  978</span>&#160; </div>
-<div class="line"><a name="l00980"></a><span class="lineno">  980</span>&#160; </div>
-<div class="line"><a name="l00984"></a><span class="lineno">  984</span>&#160; </div>
-<div class="line"><a name="l00987"></a><span class="lineno"><a class="line" href="classgd_1_1_project.html#aff23abc52d3c868531a40cae05c7c743">  987</a></span>&#160;  <a class="code" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a>&amp; <a class="code" href="classgd_1_1_project.html#aff23abc52d3c868531a40cae05c7c743">GetObjects</a>() { <span class="keywordflow">return</span> objectsContainer; }</div>
+<div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160;  <span class="keywordtype">bool</span> HasEventsBasedBehavior(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; type) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160; </div>
+<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;  <a class="code" href="classgd_1_1_events_based_behavior.html">gd::EventsBasedBehavior</a>&amp; GetEventsBasedBehavior(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; type);</div>
+<div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160; </div>
+<div class="line"><a name="l00945"></a><span class="lineno">  945</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_based_behavior.html">gd::EventsBasedBehavior</a>&amp; GetEventsBasedBehavior(</div>
+<div class="line"><a name="l00946"></a><span class="lineno">  946</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; type) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00947"></a><span class="lineno">  947</span>&#160; </div>
+<div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160; </div>
+<div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160; </div>
+<div class="line"><a name="l00958"></a><span class="lineno"><a class="line" href="classgd_1_1_project.html#aa1778effd8c9e426593174fbe4a9942a">  958</a></span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_resources_manager.html">ResourcesManager</a>&amp; <a class="code" href="classgd_1_1_project.html#aa1778effd8c9e426593174fbe4a9942a">GetResourcesManager</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00959"></a><span class="lineno">  959</span>&#160;    <span class="keywordflow">return</span> resourcesManager;</div>
+<div class="line"><a name="l00960"></a><span class="lineno">  960</span>&#160;  }</div>
+<div class="line"><a name="l00961"></a><span class="lineno">  961</span>&#160; </div>
+<div class="line"><a name="l00966"></a><span class="lineno"><a class="line" href="classgd_1_1_project.html#aa21d727051e1c8c8d3d84f8c4c6e5a98">  966</a></span>&#160;  <a class="code" href="classgd_1_1_resources_manager.html">ResourcesManager</a>&amp; <a class="code" href="classgd_1_1_project.html#aa21d727051e1c8c8d3d84f8c4c6e5a98">GetResourcesManager</a>() { <span class="keywordflow">return</span> resourcesManager; }</div>
+<div class="line"><a name="l00967"></a><span class="lineno">  967</span>&#160; </div>
+<div class="line"><a name="l00969"></a><span class="lineno">  969</span>&#160; </div>
+<div class="line"><a name="l00974"></a><span class="lineno">  974</span>&#160; </div>
+<div class="line"><a name="l00979"></a><span class="lineno"><a class="line" href="classgd_1_1_project.html#a92d2e2184490313ecd2e6cc45a081409">  979</a></span>&#160;  <span class="keyword">inline</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a>&amp; <a class="code" href="classgd_1_1_project.html#a92d2e2184490313ecd2e6cc45a081409">GetVariables</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00980"></a><span class="lineno">  980</span>&#160;    <span class="keywordflow">return</span> variables;</div>
+<div class="line"><a name="l00981"></a><span class="lineno">  981</span>&#160;  }</div>
+<div class="line"><a name="l00982"></a><span class="lineno">  982</span>&#160; </div>
+<div class="line"><a name="l00987"></a><span class="lineno"><a class="line" href="classgd_1_1_project.html#a8d5a0c9873d62a4c44fa51873da88913">  987</a></span>&#160;  <span class="keyword">inline</span> <a class="code" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a>&amp; <a class="code" href="classgd_1_1_project.html#a8d5a0c9873d62a4c44fa51873da88913">GetVariables</a>() { <span class="keywordflow">return</span> variables; }</div>
 <div class="line"><a name="l00988"></a><span class="lineno">  988</span>&#160; </div>
-<div class="line"><a name="l00992"></a><span class="lineno"><a class="line" href="classgd_1_1_project.html#a6182aba49ab7e8a7712e81f7a32e487d">  992</a></span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a>&amp; <a class="code" href="classgd_1_1_project.html#a6182aba49ab7e8a7712e81f7a32e487d">GetObjects</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> objectsContainer; }</div>
+<div class="line"><a name="l00990"></a><span class="lineno">  990</span>&#160; </div>
 <div class="line"><a name="l00994"></a><span class="lineno">  994</span>&#160; </div>
+<div class="line"><a name="l00997"></a><span class="lineno"><a class="line" href="classgd_1_1_project.html#aff23abc52d3c868531a40cae05c7c743">  997</a></span>&#160;  <a class="code" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a>&amp; <a class="code" href="classgd_1_1_project.html#aff23abc52d3c868531a40cae05c7c743">GetObjects</a>() { <span class="keywordflow">return</span> objectsContainer; }</div>
 <div class="line"><a name="l00998"></a><span class="lineno">  998</span>&#160; </div>
-<div class="line"><a name="l01003"></a><span class="lineno"> 1003</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">bool</span> IsNameSafe(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name);</div>
+<div class="line"><a name="l01002"></a><span class="lineno"><a class="line" href="classgd_1_1_project.html#a6182aba49ab7e8a7712e81f7a32e487d"> 1002</a></span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a>&amp; <a class="code" href="classgd_1_1_project.html#a6182aba49ab7e8a7712e81f7a32e487d">GetObjects</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> objectsContainer; }</div>
 <div class="line"><a name="l01004"></a><span class="lineno"> 1004</span>&#160; </div>
-<div class="line"><a name="l01009"></a><span class="lineno"> 1009</span>&#160;  <span class="keyword">static</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> GetSafeName(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name);</div>
-<div class="line"><a name="l01011"></a><span class="lineno"> 1011</span>&#160; </div>
-<div class="line"><a name="l01016"></a><span class="lineno"> 1016</span>&#160; </div>
-<div class="line"><a name="l01019"></a><span class="lineno"><a class="line" href="classgd_1_1_project.html#ac982068c19ebcba311651bf1e65fb44a"> 1019</a></span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="classgd_1_1_project.html#ac982068c19ebcba311651bf1e65fb44a">UseExternalSourceFiles</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> useExternalSourceFiles; }</div>
-<div class="line"><a name="l01020"></a><span class="lineno"> 1020</span>&#160; </div>
-<div class="line"><a name="l01025"></a><span class="lineno"><a class="line" href="classgd_1_1_project.html#a09a337ac8a24021a00051322683c1879"> 1025</a></span>&#160;  <span class="keyword">const</span> std::vector&lt;std::unique_ptr&lt;gd::SourceFile&gt; &gt;&amp; <a class="code" href="classgd_1_1_project.html#a09a337ac8a24021a00051322683c1879">GetAllSourceFiles</a>()<span class="keyword"></span></div>
-<div class="line"><a name="l01026"></a><span class="lineno"> 1026</span>&#160;<span class="keyword">      const </span>{</div>
-<div class="line"><a name="l01027"></a><span class="lineno"> 1027</span>&#160;    <span class="keywordflow">return</span> externalSourceFiles;</div>
-<div class="line"><a name="l01028"></a><span class="lineno"> 1028</span>&#160;  }</div>
-<div class="line"><a name="l01029"></a><span class="lineno"> 1029</span>&#160; </div>
-<div class="line"><a name="l01036"></a><span class="lineno"> 1036</span>&#160;  <span class="keywordtype">bool</span> HasSourceFile(<a class="code" href="classgd_1_1_string.html">gd::String</a> name, <a class="code" href="classgd_1_1_string.html">gd::String</a> language = <span class="stringliteral">&quot;&quot;</span>) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l01037"></a><span class="lineno"> 1037</span>&#160; </div>
-<div class="line"><a name="l01041"></a><span class="lineno"> 1041</span>&#160;  <a class="code" href="classgd_1_1_source_file.html">SourceFile</a>&amp; GetSourceFile(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name);</div>
-<div class="line"><a name="l01042"></a><span class="lineno"> 1042</span>&#160; </div>
-<div class="line"><a name="l01046"></a><span class="lineno"> 1046</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_source_file.html">SourceFile</a>&amp; GetSourceFile(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l01008"></a><span class="lineno"> 1008</span>&#160; </div>
+<div class="line"><a name="l01013"></a><span class="lineno"> 1013</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">bool</span> IsNameSafe(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name);</div>
+<div class="line"><a name="l01014"></a><span class="lineno"> 1014</span>&#160; </div>
+<div class="line"><a name="l01019"></a><span class="lineno"> 1019</span>&#160;  <span class="keyword">static</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> GetSafeName(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name);</div>
+<div class="line"><a name="l01021"></a><span class="lineno"> 1021</span>&#160; </div>
+<div class="line"><a name="l01026"></a><span class="lineno"> 1026</span>&#160; </div>
+<div class="line"><a name="l01029"></a><span class="lineno"><a class="line" href="classgd_1_1_project.html#ac982068c19ebcba311651bf1e65fb44a"> 1029</a></span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="classgd_1_1_project.html#ac982068c19ebcba311651bf1e65fb44a">UseExternalSourceFiles</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> useExternalSourceFiles; }</div>
+<div class="line"><a name="l01030"></a><span class="lineno"> 1030</span>&#160; </div>
+<div class="line"><a name="l01035"></a><span class="lineno"><a class="line" href="classgd_1_1_project.html#a09a337ac8a24021a00051322683c1879"> 1035</a></span>&#160;  <span class="keyword">const</span> std::vector&lt;std::unique_ptr&lt;gd::SourceFile&gt; &gt;&amp; <a class="code" href="classgd_1_1_project.html#a09a337ac8a24021a00051322683c1879">GetAllSourceFiles</a>()<span class="keyword"></span></div>
+<div class="line"><a name="l01036"></a><span class="lineno"> 1036</span>&#160;<span class="keyword">      const </span>{</div>
+<div class="line"><a name="l01037"></a><span class="lineno"> 1037</span>&#160;    <span class="keywordflow">return</span> externalSourceFiles;</div>
+<div class="line"><a name="l01038"></a><span class="lineno"> 1038</span>&#160;  }</div>
+<div class="line"><a name="l01039"></a><span class="lineno"> 1039</span>&#160; </div>
+<div class="line"><a name="l01046"></a><span class="lineno"> 1046</span>&#160;  <span class="keywordtype">bool</span> HasSourceFile(<a class="code" href="classgd_1_1_string.html">gd::String</a> name, <a class="code" href="classgd_1_1_string.html">gd::String</a> language = <span class="stringliteral">&quot;&quot;</span>) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l01047"></a><span class="lineno"> 1047</span>&#160; </div>
-<div class="line"><a name="l01051"></a><span class="lineno"> 1051</span>&#160;  <span class="keywordtype">void</span> RemoveSourceFile(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name);</div>
+<div class="line"><a name="l01051"></a><span class="lineno"> 1051</span>&#160;  <a class="code" href="classgd_1_1_source_file.html">SourceFile</a>&amp; GetSourceFile(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name);</div>
 <div class="line"><a name="l01052"></a><span class="lineno"> 1052</span>&#160; </div>
-<div class="line"><a name="l01057"></a><span class="lineno"> 1057</span>&#160;  <a class="code" href="classgd_1_1_source_file.html">gd::SourceFile</a>&amp; InsertNewSourceFile(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name,</div>
-<div class="line"><a name="l01058"></a><span class="lineno"> 1058</span>&#160;                                      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; language,</div>
-<div class="line"><a name="l01059"></a><span class="lineno"> 1059</span>&#160;                                      std::size_t position = -1);</div>
-<div class="line"><a name="l01061"></a><span class="lineno"> 1061</span>&#160; </div>
-<div class="line"><a name="l01062"></a><span class="lineno"> 1062</span>&#160;  <a class="code" href="classgd_1_1_whole_project_diagnostic_report.html">gd::WholeProjectDiagnosticReport</a>&amp; GetWholeProjectDiagnosticReport() {</div>
-<div class="line"><a name="l01063"></a><span class="lineno"> 1063</span>&#160;    <span class="keywordflow">return</span> wholeProjectDiagnosticReport;</div>
-<div class="line"><a name="l01064"></a><span class="lineno"> 1064</span>&#160;  }</div>
-<div class="line"><a name="l01065"></a><span class="lineno"> 1065</span>&#160; </div>
-<div class="line"><a name="l01066"></a><span class="lineno"> 1066</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l01071"></a><span class="lineno"> 1071</span>&#160;  <span class="keywordtype">void</span> Init(<span class="keyword">const</span> <a class="code" href="classgd_1_1_project.html">gd::Project</a>&amp; project);</div>
-<div class="line"><a name="l01072"></a><span class="lineno"> 1072</span>&#160; </div>
-<div class="line"><a name="l01079"></a><span class="lineno"> 1079</span>&#160;  std::vector&lt;gd::String&gt; GetUnserializingOrderExtensionNames(<span class="keyword">const</span> <a class="code" href="classgd_1_1_serializer_element.html">gd::SerializerElement</a> &amp;eventsFunctionsExtensionsElement);</div>
-<div class="line"><a name="l01080"></a><span class="lineno"> 1080</span>&#160; </div>
-<div class="line"><a name="l01086"></a><span class="lineno"> 1086</span>&#160;  std::unique_ptr&lt;gd::ObjectConfiguration&gt; CreateObjectConfiguration(</div>
-<div class="line"><a name="l01087"></a><span class="lineno"> 1087</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; type) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l01088"></a><span class="lineno"> 1088</span>&#160; </div>
-<div class="line"><a name="l01089"></a><span class="lineno"> 1089</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> name;         </div>
-<div class="line"><a name="l01090"></a><span class="lineno"> 1090</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> description;  </div>
-<div class="line"><a name="l01091"></a><span class="lineno"> 1091</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> version;      </div>
-<div class="line"><a name="l01092"></a><span class="lineno"> 1092</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> windowWidth = 0;   </div>
-<div class="line"><a name="l01093"></a><span class="lineno"> 1093</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> windowHeight = 0;  </div>
-<div class="line"><a name="l01094"></a><span class="lineno"> 1094</span>&#160;  <span class="keywordtype">int</span> maxFPS = 0;           </div>
-<div class="line"><a name="l01095"></a><span class="lineno"> 1095</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> minFPS = 0;  </div>
-<div class="line"><a name="l01097"></a><span class="lineno"> 1097</span>&#160;  <span class="keywordtype">bool</span> verticalSync =</div>
-<div class="line"><a name="l01098"></a><span class="lineno"> 1098</span>&#160;      <span class="keyword">false</span>;  </div>
-<div class="line"><a name="l01099"></a><span class="lineno"> 1099</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> scaleMode;</div>
-<div class="line"><a name="l01100"></a><span class="lineno"> 1100</span>&#160;  <span class="keywordtype">bool</span> pixelsRounding = <span class="keyword">false</span>;  </div>
-<div class="line"><a name="l01102"></a><span class="lineno"> 1102</span>&#160;  <span class="keywordtype">bool</span> adaptGameResolutionAtRuntime =</div>
-<div class="line"><a name="l01103"></a><span class="lineno"> 1103</span>&#160;      <span class="keyword">true</span>;  </div>
-<div class="line"><a name="l01105"></a><span class="lineno"> 1105</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a></div>
-<div class="line"><a name="l01106"></a><span class="lineno"> 1106</span>&#160;      sizeOnStartupMode;  </div>
-<div class="line"><a name="l01108"></a><span class="lineno"> 1108</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> antialiasingMode;</div>
-<div class="line"><a name="l01109"></a><span class="lineno"> 1109</span>&#160;  <span class="keywordtype">bool</span> isAntialisingEnabledOnMobile = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l01110"></a><span class="lineno"> 1110</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> projectUuid;  </div>
-<div class="line"><a name="l01112"></a><span class="lineno"> 1112</span>&#160;  <span class="keywordtype">bool</span> useDeprecatedZeroAsDefaultZOrder =</div>
-<div class="line"><a name="l01113"></a><span class="lineno"> 1113</span>&#160;      <span class="keyword">false</span>;  </div>
-<div class="line"><a name="l01118"></a><span class="lineno"> 1118</span>&#160;  std::vector&lt;std::unique_ptr&lt;gd::Layout&gt; &gt; scenes;  </div>
-<div class="line"><a name="l01119"></a><span class="lineno"> 1119</span>&#160;  <a class="code" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> variables;  </div>
-<div class="line"><a name="l01120"></a><span class="lineno"> 1120</span>&#160;  <a class="code" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> objectsContainer;</div>
-<div class="line"><a name="l01121"></a><span class="lineno"> 1121</span>&#160;  std::vector&lt;std::unique_ptr&lt;gd::ExternalLayout&gt; &gt;</div>
-<div class="line"><a name="l01122"></a><span class="lineno"> 1122</span>&#160;      externalLayouts;  </div>
-<div class="line"><a name="l01123"></a><span class="lineno"> 1123</span>&#160;  std::vector&lt;std::unique_ptr&lt;gd::EventsFunctionsExtension&gt; &gt;</div>
-<div class="line"><a name="l01124"></a><span class="lineno"> 1124</span>&#160;      eventsFunctionsExtensions;</div>
-<div class="line"><a name="l01125"></a><span class="lineno"> 1125</span>&#160;  <a class="code" href="classgd_1_1_resources_manager.html">gd::ResourcesManager</a></div>
-<div class="line"><a name="l01126"></a><span class="lineno"> 1126</span>&#160;      resourcesManager;  </div>
-<div class="line"><a name="l01127"></a><span class="lineno"> 1127</span>&#160;  std::vector&lt;gd::Platform*&gt;</div>
-<div class="line"><a name="l01128"></a><span class="lineno"> 1128</span>&#160;      platforms;  </div>
-<div class="line"><a name="l01129"></a><span class="lineno"> 1129</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> firstLayout;</div>
-<div class="line"><a name="l01130"></a><span class="lineno"> 1130</span>&#160;  <span class="keywordtype">bool</span> useExternalSourceFiles =</div>
-<div class="line"><a name="l01131"></a><span class="lineno"> 1131</span>&#160;      <span class="keyword">false</span>;  </div>
-<div class="line"><a name="l01132"></a><span class="lineno"> 1132</span>&#160;  std::vector&lt;std::unique_ptr&lt;gd::SourceFile&gt; &gt;</div>
-<div class="line"><a name="l01133"></a><span class="lineno"> 1133</span>&#160;      externalSourceFiles;  </div>
-<div class="line"><a name="l01134"></a><span class="lineno"> 1134</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> author;        </div>
-<div class="line"><a name="l01135"></a><span class="lineno"> 1135</span>&#160;  std::vector&lt;gd::String&gt;</div>
-<div class="line"><a name="l01136"></a><span class="lineno"> 1136</span>&#160;      authorIds;  </div>
-<div class="line"><a name="l01137"></a><span class="lineno"> 1137</span>&#160;  std::vector&lt;gd::String&gt;</div>
-<div class="line"><a name="l01138"></a><span class="lineno"> 1138</span>&#160;      authorUsernames;  </div>
-<div class="line"><a name="l01139"></a><span class="lineno"> 1139</span>&#160;  std::vector&lt;gd::String&gt; categories;  </div>
-<div class="line"><a name="l01140"></a><span class="lineno"> 1140</span>&#160;  <span class="keywordtype">bool</span> isPlayableWithKeyboard =</div>
-<div class="line"><a name="l01141"></a><span class="lineno"> 1141</span>&#160;      <span class="keyword">false</span>;  </div>
-<div class="line"><a name="l01142"></a><span class="lineno"> 1142</span>&#160;  <span class="keywordtype">bool</span> isPlayableWithGamepad =</div>
+<div class="line"><a name="l01056"></a><span class="lineno"> 1056</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_source_file.html">SourceFile</a>&amp; GetSourceFile(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l01057"></a><span class="lineno"> 1057</span>&#160; </div>
+<div class="line"><a name="l01061"></a><span class="lineno"> 1061</span>&#160;  <span class="keywordtype">void</span> RemoveSourceFile(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name);</div>
+<div class="line"><a name="l01062"></a><span class="lineno"> 1062</span>&#160; </div>
+<div class="line"><a name="l01067"></a><span class="lineno"> 1067</span>&#160;  <a class="code" href="classgd_1_1_source_file.html">gd::SourceFile</a>&amp; InsertNewSourceFile(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; name,</div>
+<div class="line"><a name="l01068"></a><span class="lineno"> 1068</span>&#160;                                      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; language,</div>
+<div class="line"><a name="l01069"></a><span class="lineno"> 1069</span>&#160;                                      std::size_t position = -1);</div>
+<div class="line"><a name="l01071"></a><span class="lineno"> 1071</span>&#160; </div>
+<div class="line"><a name="l01072"></a><span class="lineno"> 1072</span>&#160;  <a class="code" href="classgd_1_1_whole_project_diagnostic_report.html">gd::WholeProjectDiagnosticReport</a>&amp; GetWholeProjectDiagnosticReport() {</div>
+<div class="line"><a name="l01073"></a><span class="lineno"> 1073</span>&#160;    <span class="keywordflow">return</span> wholeProjectDiagnosticReport;</div>
+<div class="line"><a name="l01074"></a><span class="lineno"> 1074</span>&#160;  }</div>
+<div class="line"><a name="l01075"></a><span class="lineno"> 1075</span>&#160; </div>
+<div class="line"><a name="l01076"></a><span class="lineno"> 1076</span>&#160; <span class="keyword">private</span>:</div>
+<div class="line"><a name="l01081"></a><span class="lineno"> 1081</span>&#160;  <span class="keywordtype">void</span> Init(<span class="keyword">const</span> <a class="code" href="classgd_1_1_project.html">gd::Project</a>&amp; project);</div>
+<div class="line"><a name="l01082"></a><span class="lineno"> 1082</span>&#160; </div>
+<div class="line"><a name="l01090"></a><span class="lineno"> 1090</span>&#160;  std::vector&lt;gd::String&gt; GetUnserializingOrderExtensionNames(</div>
+<div class="line"><a name="l01091"></a><span class="lineno"> 1091</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_serializer_element.html">gd::SerializerElement</a>&amp; eventsFunctionsExtensionsElement);</div>
+<div class="line"><a name="l01092"></a><span class="lineno"> 1092</span>&#160; </div>
+<div class="line"><a name="l01098"></a><span class="lineno"> 1098</span>&#160;  std::unique_ptr&lt;gd::ObjectConfiguration&gt; CreateObjectConfiguration(</div>
+<div class="line"><a name="l01099"></a><span class="lineno"> 1099</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; type) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l01100"></a><span class="lineno"> 1100</span>&#160; </div>
+<div class="line"><a name="l01101"></a><span class="lineno"> 1101</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> name;         </div>
+<div class="line"><a name="l01102"></a><span class="lineno"> 1102</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> description;  </div>
+<div class="line"><a name="l01103"></a><span class="lineno"> 1103</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> version;      </div>
+<div class="line"><a name="l01104"></a><span class="lineno"> 1104</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> windowWidth = 0;   </div>
+<div class="line"><a name="l01105"></a><span class="lineno"> 1105</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> windowHeight = 0;  </div>
+<div class="line"><a name="l01106"></a><span class="lineno"> 1106</span>&#160;  <span class="keywordtype">int</span> maxFPS = 0;           </div>
+<div class="line"><a name="l01107"></a><span class="lineno"> 1107</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> minFPS = 0;  </div>
+<div class="line"><a name="l01109"></a><span class="lineno"> 1109</span>&#160;  <span class="keywordtype">bool</span> verticalSync =</div>
+<div class="line"><a name="l01110"></a><span class="lineno"> 1110</span>&#160;      <span class="keyword">false</span>;  </div>
+<div class="line"><a name="l01111"></a><span class="lineno"> 1111</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> scaleMode;</div>
+<div class="line"><a name="l01112"></a><span class="lineno"> 1112</span>&#160;  <span class="keywordtype">bool</span> pixelsRounding = <span class="keyword">false</span>;  </div>
+<div class="line"><a name="l01114"></a><span class="lineno"> 1114</span>&#160;  <span class="keywordtype">bool</span> adaptGameResolutionAtRuntime =</div>
+<div class="line"><a name="l01115"></a><span class="lineno"> 1115</span>&#160;      <span class="keyword">true</span>;  </div>
+<div class="line"><a name="l01117"></a><span class="lineno"> 1117</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a></div>
+<div class="line"><a name="l01118"></a><span class="lineno"> 1118</span>&#160;      sizeOnStartupMode;  </div>
+<div class="line"><a name="l01120"></a><span class="lineno"> 1120</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> antialiasingMode;</div>
+<div class="line"><a name="l01121"></a><span class="lineno"> 1121</span>&#160;  <span class="keywordtype">bool</span> isAntialisingEnabledOnMobile = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l01122"></a><span class="lineno"> 1122</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> projectUuid;  </div>
+<div class="line"><a name="l01124"></a><span class="lineno"> 1124</span>&#160;  <span class="keywordtype">bool</span> useDeprecatedZeroAsDefaultZOrder =</div>
+<div class="line"><a name="l01125"></a><span class="lineno"> 1125</span>&#160;      <span class="keyword">false</span>;  </div>
+<div class="line"><a name="l01130"></a><span class="lineno"> 1130</span>&#160;  std::vector&lt;std::unique_ptr&lt;gd::Layout&gt; &gt; scenes;  </div>
+<div class="line"><a name="l01131"></a><span class="lineno"> 1131</span>&#160;  <a class="code" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> variables;  </div>
+<div class="line"><a name="l01132"></a><span class="lineno"> 1132</span>&#160;  <a class="code" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> objectsContainer;</div>
+<div class="line"><a name="l01133"></a><span class="lineno"> 1133</span>&#160;  std::vector&lt;std::unique_ptr&lt;gd::ExternalLayout&gt; &gt;</div>
+<div class="line"><a name="l01134"></a><span class="lineno"> 1134</span>&#160;      externalLayouts;  </div>
+<div class="line"><a name="l01135"></a><span class="lineno"> 1135</span>&#160;  std::vector&lt;std::unique_ptr&lt;gd::EventsFunctionsExtension&gt; &gt;</div>
+<div class="line"><a name="l01136"></a><span class="lineno"> 1136</span>&#160;      eventsFunctionsExtensions;</div>
+<div class="line"><a name="l01137"></a><span class="lineno"> 1137</span>&#160;  <a class="code" href="classgd_1_1_resources_manager.html">gd::ResourcesManager</a></div>
+<div class="line"><a name="l01138"></a><span class="lineno"> 1138</span>&#160;      resourcesManager;  </div>
+<div class="line"><a name="l01139"></a><span class="lineno"> 1139</span>&#160;  std::vector&lt;gd::Platform*&gt;</div>
+<div class="line"><a name="l01140"></a><span class="lineno"> 1140</span>&#160;      platforms;  </div>
+<div class="line"><a name="l01141"></a><span class="lineno"> 1141</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> firstLayout;</div>
+<div class="line"><a name="l01142"></a><span class="lineno"> 1142</span>&#160;  <span class="keywordtype">bool</span> useExternalSourceFiles =</div>
 <div class="line"><a name="l01143"></a><span class="lineno"> 1143</span>&#160;      <span class="keyword">false</span>;  </div>
-<div class="line"><a name="l01144"></a><span class="lineno"> 1144</span>&#160;  <span class="keywordtype">bool</span> isPlayableWithMobile = <span class="keyword">false</span>;  </div>
-<div class="line"><a name="l01145"></a><span class="lineno"> 1145</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> packageName;             </div>
-<div class="line"><a name="l01146"></a><span class="lineno"> 1146</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> templateSlug;  </div>
-<div class="line"><a name="l01148"></a><span class="lineno"> 1148</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> orientation;   </div>
-<div class="line"><a name="l01150"></a><span class="lineno"> 1150</span>&#160;  <span class="keywordtype">bool</span> folderProject =</div>
-<div class="line"><a name="l01151"></a><span class="lineno"> 1151</span>&#160;      <span class="keyword">false</span>;  </div>
-<div class="line"><a name="l01152"></a><span class="lineno"> 1152</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a></div>
-<div class="line"><a name="l01153"></a><span class="lineno"> 1153</span>&#160;      projectFile;  </div>
-<div class="line"><a name="l01154"></a><span class="lineno"> 1154</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> latestCompilationDirectory;</div>
-<div class="line"><a name="l01155"></a><span class="lineno"> 1155</span>&#160;  <a class="code" href="classgd_1_1_platform.html">gd::Platform</a>* currentPlatform =</div>
-<div class="line"><a name="l01156"></a><span class="lineno"> 1156</span>&#160;      <span class="keyword">nullptr</span>;  </div>
-<div class="line"><a name="l01157"></a><span class="lineno"> 1157</span>&#160;  <a class="code" href="classgd_1_1_platform_specific_assets.html">gd::PlatformSpecificAssets</a> platformSpecificAssets;</div>
-<div class="line"><a name="l01158"></a><span class="lineno"> 1158</span>&#160;  <a class="code" href="classgd_1_1_loading_screen.html">gd::LoadingScreen</a> loadingScreen;</div>
-<div class="line"><a name="l01159"></a><span class="lineno"> 1159</span>&#160;  <a class="code" href="classgd_1_1_watermark.html">gd::Watermark</a> watermark;</div>
-<div class="line"><a name="l01160"></a><span class="lineno"> 1160</span>&#160;  std::vector&lt;std::unique_ptr&lt;gd::ExternalEvents&gt; &gt;</div>
-<div class="line"><a name="l01161"></a><span class="lineno"> 1161</span>&#160;      externalEvents;  </div>
-<div class="line"><a name="l01162"></a><span class="lineno"> 1162</span>&#160;  ExtensionProperties</div>
-<div class="line"><a name="l01163"></a><span class="lineno"> 1163</span>&#160;      extensionProperties;  </div>
-<div class="line"><a name="l01164"></a><span class="lineno"> 1164</span>&#160;  <a class="code" href="classgd_1_1_whole_project_diagnostic_report.html">gd::WholeProjectDiagnosticReport</a> wholeProjectDiagnosticReport;</div>
-<div class="line"><a name="l01165"></a><span class="lineno"> 1165</span>&#160;  <span class="keyword">mutable</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> gdMajorVersion =</div>
-<div class="line"><a name="l01166"></a><span class="lineno"> 1166</span>&#160;      0;  </div>
-<div class="line"><a name="l01168"></a><span class="lineno"> 1168</span>&#160;  <span class="keyword">mutable</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> gdMinorVersion =</div>
-<div class="line"><a name="l01169"></a><span class="lineno"> 1169</span>&#160;      0;  </div>
-<div class="line"><a name="l01171"></a><span class="lineno"> 1171</span>&#160;  <span class="keyword">mutable</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> gdBuildVersion =</div>
-<div class="line"><a name="l01172"></a><span class="lineno"> 1172</span>&#160;      0;  </div>
-<div class="line"><a name="l01174"></a><span class="lineno"> 1174</span>&#160;};</div>
-<div class="line"><a name="l01175"></a><span class="lineno"> 1175</span>&#160; </div>
-<div class="line"><a name="l01176"></a><span class="lineno"> 1176</span>&#160;}  <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l01144"></a><span class="lineno"> 1144</span>&#160;  std::vector&lt;std::unique_ptr&lt;gd::SourceFile&gt; &gt;</div>
+<div class="line"><a name="l01145"></a><span class="lineno"> 1145</span>&#160;      externalSourceFiles;  </div>
+<div class="line"><a name="l01146"></a><span class="lineno"> 1146</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> author;        </div>
+<div class="line"><a name="l01147"></a><span class="lineno"> 1147</span>&#160;  std::vector&lt;gd::String&gt;</div>
+<div class="line"><a name="l01148"></a><span class="lineno"> 1148</span>&#160;      authorIds;  </div>
+<div class="line"><a name="l01149"></a><span class="lineno"> 1149</span>&#160;  std::vector&lt;gd::String&gt;</div>
+<div class="line"><a name="l01150"></a><span class="lineno"> 1150</span>&#160;      authorUsernames;  </div>
+<div class="line"><a name="l01151"></a><span class="lineno"> 1151</span>&#160;  std::vector&lt;gd::String&gt; categories;  </div>
+<div class="line"><a name="l01152"></a><span class="lineno"> 1152</span>&#160;  <span class="keywordtype">bool</span> isPlayableWithKeyboard =</div>
+<div class="line"><a name="l01153"></a><span class="lineno"> 1153</span>&#160;      <span class="keyword">false</span>;  </div>
+<div class="line"><a name="l01154"></a><span class="lineno"> 1154</span>&#160;  <span class="keywordtype">bool</span> isPlayableWithGamepad =</div>
+<div class="line"><a name="l01155"></a><span class="lineno"> 1155</span>&#160;      <span class="keyword">false</span>;  </div>
+<div class="line"><a name="l01156"></a><span class="lineno"> 1156</span>&#160;  <span class="keywordtype">bool</span> isPlayableWithMobile = <span class="keyword">false</span>;  </div>
+<div class="line"><a name="l01157"></a><span class="lineno"> 1157</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> packageName;             </div>
+<div class="line"><a name="l01158"></a><span class="lineno"> 1158</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> templateSlug;  </div>
+<div class="line"><a name="l01160"></a><span class="lineno"> 1160</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> orientation;   </div>
+<div class="line"><a name="l01162"></a><span class="lineno"> 1162</span>&#160;  <span class="keywordtype">bool</span> folderProject =</div>
+<div class="line"><a name="l01163"></a><span class="lineno"> 1163</span>&#160;      <span class="keyword">false</span>;  </div>
+<div class="line"><a name="l01164"></a><span class="lineno"> 1164</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a></div>
+<div class="line"><a name="l01165"></a><span class="lineno"> 1165</span>&#160;      projectFile;  </div>
+<div class="line"><a name="l01166"></a><span class="lineno"> 1166</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> latestCompilationDirectory;</div>
+<div class="line"><a name="l01167"></a><span class="lineno"> 1167</span>&#160;  <a class="code" href="classgd_1_1_platform.html">gd::Platform</a>* currentPlatform =</div>
+<div class="line"><a name="l01168"></a><span class="lineno"> 1168</span>&#160;      <span class="keyword">nullptr</span>;  </div>
+<div class="line"><a name="l01169"></a><span class="lineno"> 1169</span>&#160;  <a class="code" href="classgd_1_1_platform_specific_assets.html">gd::PlatformSpecificAssets</a> platformSpecificAssets;</div>
+<div class="line"><a name="l01170"></a><span class="lineno"> 1170</span>&#160;  <a class="code" href="classgd_1_1_loading_screen.html">gd::LoadingScreen</a> loadingScreen;</div>
+<div class="line"><a name="l01171"></a><span class="lineno"> 1171</span>&#160;  <a class="code" href="classgd_1_1_watermark.html">gd::Watermark</a> watermark;</div>
+<div class="line"><a name="l01172"></a><span class="lineno"> 1172</span>&#160;  std::vector&lt;std::unique_ptr&lt;gd::ExternalEvents&gt; &gt;</div>
+<div class="line"><a name="l01173"></a><span class="lineno"> 1173</span>&#160;      externalEvents;  </div>
+<div class="line"><a name="l01174"></a><span class="lineno"> 1174</span>&#160;  ExtensionProperties</div>
+<div class="line"><a name="l01175"></a><span class="lineno"> 1175</span>&#160;      extensionProperties;  </div>
+<div class="line"><a name="l01176"></a><span class="lineno"> 1176</span>&#160;  <a class="code" href="classgd_1_1_whole_project_diagnostic_report.html">gd::WholeProjectDiagnosticReport</a> wholeProjectDiagnosticReport;</div>
+<div class="line"><a name="l01177"></a><span class="lineno"> 1177</span>&#160;  <span class="keyword">mutable</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> gdMajorVersion =</div>
+<div class="line"><a name="l01178"></a><span class="lineno"> 1178</span>&#160;      0;  </div>
+<div class="line"><a name="l01180"></a><span class="lineno"> 1180</span>&#160;  <span class="keyword">mutable</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> gdMinorVersion =</div>
+<div class="line"><a name="l01181"></a><span class="lineno"> 1181</span>&#160;      0;  </div>
+<div class="line"><a name="l01183"></a><span class="lineno"> 1183</span>&#160;  <span class="keyword">mutable</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> gdBuildVersion =</div>
+<div class="line"><a name="l01184"></a><span class="lineno"> 1184</span>&#160;      0;  </div>
+<div class="line"><a name="l01186"></a><span class="lineno"> 1186</span>&#160;};</div>
+<div class="line"><a name="l01187"></a><span class="lineno"> 1187</span>&#160; </div>
+<div class="line"><a name="l01188"></a><span class="lineno"> 1188</span>&#160;}  <span class="comment">// namespace gd</span></div>
 <div class="ttc" id="aclassgd_1_1_events_based_behavior_html"><div class="ttname"><a href="classgd_1_1_events_based_behavior.html">gd::EventsBasedBehavior</a></div><div class="ttdoc">Represents a behavior that is implemented with events.</div><div class="ttdef"><b>Definition:</b> EventsBasedBehavior.h:32</div></div>
 <div class="ttc" id="aclassgd_1_1_events_based_object_html"><div class="ttname"><a href="classgd_1_1_events_based_object.html">gd::EventsBasedObject</a></div><div class="ttdoc">Represents an object that is implemented with events.</div><div class="ttdef"><b>Definition:</b> EventsBasedObject.h:30</div></div>
 <div class="ttc" id="aclassgd_1_1_events_functions_extension_html"><div class="ttname"><a href="classgd_1_1_events_functions_extension.html">gd::EventsFunctionsExtension</a></div><div class="ttdoc">Hold a list of Events Functions (gd::EventsFunction) and Events Based Behaviors.</div><div class="ttdef"><b>Definition:</b> EventsFunctionsExtension.h:38</div></div>
@@ -616,7 +620,7 @@ $(function() {
 <div class="ttc" id="aclassgd_1_1_project_html"><div class="ttname"><a href="classgd_1_1_project.html">gd::Project</a></div><div class="ttdoc">Base class representing a project (game), including all resources, scenes, objects,...</div><div class="ttdef"><b>Definition:</b> Project.h:51</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_a0206cb4591df24402cf357d0558fce73"><div class="ttname"><a href="classgd_1_1_project.html#a0206cb4591df24402cf357d0558fce73">gd::Project::GetLastSaveGDMajorVersion</a></div><div class="ttdeci">unsigned int GetLastSaveGDMajorVersion()</div><div class="ttdef"><b>Definition:</b> Project.h:639</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_a071a2c0471384881088120e02d949932"><div class="ttname"><a href="classgd_1_1_project.html#a071a2c0471384881088120e02d949932">gd::Project::GetPackageName</a></div><div class="ttdeci">const gd::String &amp; GetPackageName() const</div><div class="ttdoc">Get the project package name.</div><div class="ttdef"><b>Definition:</b> Project.h:188</div></div>
-<div class="ttc" id="aclassgd_1_1_project_html_a09a337ac8a24021a00051322683c1879"><div class="ttname"><a href="classgd_1_1_project.html#a09a337ac8a24021a00051322683c1879">gd::Project::GetAllSourceFiles</a></div><div class="ttdeci">const std::vector&lt; std::unique_ptr&lt; gd::SourceFile &gt; &gt; &amp; GetAllSourceFiles() const</div><div class="ttdoc">Return a const reference to the vector containing all the source files used by the game.</div><div class="ttdef"><b>Definition:</b> Project.h:1025</div></div>
+<div class="ttc" id="aclassgd_1_1_project_html_a09a337ac8a24021a00051322683c1879"><div class="ttname"><a href="classgd_1_1_project.html#a09a337ac8a24021a00051322683c1879">gd::Project::GetAllSourceFiles</a></div><div class="ttdeci">const std::vector&lt; std::unique_ptr&lt; gd::SourceFile &gt; &gt; &amp; GetAllSourceFiles() const</div><div class="ttdoc">Return a const reference to the vector containing all the source files used by the game.</div><div class="ttdef"><b>Definition:</b> Project.h:1035</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_a0d88f9e9cc2355a445a7ff079d20203f"><div class="ttname"><a href="classgd_1_1_project.html#a0d88f9e9cc2355a445a7ff079d20203f">gd::Project::SetVerticalSyncActivatedByDefault</a></div><div class="ttdeci">void SetVerticalSyncActivatedByDefault(bool enable)</div><div class="ttdef"><b>Definition:</b> Project.h:375</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_a132e81e041c0dd4c0c9e98e10491c238"><div class="ttname"><a href="classgd_1_1_project.html#a132e81e041c0dd4c0c9e98e10491c238">gd::Project::SetPlayableWithGamepad</a></div><div class="ttdeci">void SetPlayableWithGamepad(bool playable=true)</div><div class="ttdef"><b>Definition:</b> Project.h:156</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_a17825ef87508fd46997e0d939b3b0343"><div class="ttname"><a href="classgd_1_1_project.html#a17825ef87508fd46997e0d939b3b0343">gd::Project::SetProjectUuid</a></div><div class="ttdeci">void SetProjectUuid(const gd::String &amp;projectUuid_)</div><div class="ttdoc">Change the project UUID.</div><div class="ttdef"><b>Definition:</b> Project.h:444</div></div>
@@ -643,7 +647,7 @@ $(function() {
 <div class="ttc" id="aclassgd_1_1_project_html_a54ddb395cd891b2972ebb3b5cf342f15"><div class="ttname"><a href="classgd_1_1_project.html#a54ddb395cd891b2972ebb3b5cf342f15">gd::Project::SetGameResolutionSize</a></div><div class="ttdeci">void SetGameResolutionSize(unsigned int width, unsigned int height)</div><div class="ttdef"><b>Definition:</b> Project.h:298</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_a5da193881b5fd18bdc80c9e9022d6614"><div class="ttname"><a href="classgd_1_1_project.html#a5da193881b5fd18bdc80c9e9022d6614">gd::Project::SetPlayableWithMobile</a></div><div class="ttdeci">void SetPlayableWithMobile(bool playable=true)</div><div class="ttdef"><b>Definition:</b> Project.h:169</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_a60a1a84864ead9f4cd0f6ddc38b2797e"><div class="ttname"><a href="classgd_1_1_project.html#a60a1a84864ead9f4cd0f6ddc38b2797e">gd::Project::SetFolderProject</a></div><div class="ttdeci">void SetFolderProject(bool enable=true)</div><div class="ttdef"><b>Definition:</b> Project.h:232</div></div>
-<div class="ttc" id="aclassgd_1_1_project_html_a6182aba49ab7e8a7712e81f7a32e487d"><div class="ttname"><a href="classgd_1_1_project.html#a6182aba49ab7e8a7712e81f7a32e487d">gd::Project::GetObjects</a></div><div class="ttdeci">const gd::ObjectsContainer &amp; GetObjects() const</div><div class="ttdoc">Return the objects of the project.</div><div class="ttdef"><b>Definition:</b> Project.h:992</div></div>
+<div class="ttc" id="aclassgd_1_1_project_html_a6182aba49ab7e8a7712e81f7a32e487d"><div class="ttname"><a href="classgd_1_1_project.html#a6182aba49ab7e8a7712e81f7a32e487d">gd::Project::GetObjects</a></div><div class="ttdeci">const gd::ObjectsContainer &amp; GetObjects() const</div><div class="ttdoc">Return the objects of the project.</div><div class="ttdef"><b>Definition:</b> Project.h:1002</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_a669cb4cf852497ed1cd7b5a90890ec87"><div class="ttname"><a href="classgd_1_1_project.html#a669cb4cf852497ed1cd7b5a90890ec87">gd::Project::GetLastCompilationDirectory</a></div><div class="ttdeci">const gd::String &amp; GetLastCompilationDirectory() const</div><div class="ttdef"><b>Definition:</b> Project.h:251</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_a6acc3974bf7f1dcdfbfa8b0bed71332a"><div class="ttname"><a href="classgd_1_1_project.html#a6acc3974bf7f1dcdfbfa8b0bed71332a">gd::Project::SetPlayableWithKeyboard</a></div><div class="ttdeci">void SetPlayableWithKeyboard(bool playable=true)</div><div class="ttdef"><b>Definition:</b> Project.h:143</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_a6f4943223c562f6897722102b7ac95ad"><div class="ttname"><a href="classgd_1_1_project.html#a6f4943223c562f6897722102b7ac95ad">gd::Project::GetScaleMode</a></div><div class="ttdeci">const gd::String &amp; GetScaleMode() const</div><div class="ttdef"><b>Definition:</b> Project.h:380</div></div>
@@ -657,16 +661,16 @@ $(function() {
 <div class="ttc" id="aclassgd_1_1_project_html_a855305f9d26d196c0a8c2bd4dfa77f85"><div class="ttname"><a href="classgd_1_1_project.html#a855305f9d26d196c0a8c2bd4dfa77f85">gd::Project::GetCategories</a></div><div class="ttdeci">std::vector&lt; gd::String &gt; &amp; GetCategories()</div><div class="ttdoc">Get the categories of the project, to modify them (non-const).</div><div class="ttdef"><b>Definition:</b> Project.h:81</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_a875950687e1d0b5e613c8439b1f6657a"><div class="ttname"><a href="classgd_1_1_project.html#a875950687e1d0b5e613c8439b1f6657a">gd::Project::GetLoadingScreen</a></div><div class="ttdeci">gd::LoadingScreen &amp; GetLoadingScreen()</div><div class="ttdoc">Return a reference to loading screen setup for the project.</div><div class="ttdef"><b>Definition:</b> Project.h:274</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_a8b4f1ee1e7ad3859f83d3dd3be2f6b64"><div class="ttname"><a href="classgd_1_1_project.html#a8b4f1ee1e7ad3859f83d3dd3be2f6b64">gd::Project::IsAntialisingEnabledOnMobile</a></div><div class="ttdeci">bool IsAntialisingEnabledOnMobile() const</div><div class="ttdef"><b>Definition:</b> Project.h:412</div></div>
-<div class="ttc" id="aclassgd_1_1_project_html_a8d5a0c9873d62a4c44fa51873da88913"><div class="ttname"><a href="classgd_1_1_project.html#a8d5a0c9873d62a4c44fa51873da88913">gd::Project::GetVariables</a></div><div class="ttdeci">gd::VariablesContainer &amp; GetVariables()</div><div class="ttdef"><b>Definition:</b> Project.h:977</div></div>
+<div class="ttc" id="aclassgd_1_1_project_html_a8d5a0c9873d62a4c44fa51873da88913"><div class="ttname"><a href="classgd_1_1_project.html#a8d5a0c9873d62a4c44fa51873da88913">gd::Project::GetVariables</a></div><div class="ttdeci">gd::VariablesContainer &amp; GetVariables()</div><div class="ttdef"><b>Definition:</b> Project.h:987</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_a8d928c44b22f5d88132029c8b3a63416"><div class="ttname"><a href="classgd_1_1_project.html#a8d928c44b22f5d88132029c8b3a63416">gd::Project::GetWatermark</a></div><div class="ttdeci">gd::Watermark &amp; GetWatermark()</div><div class="ttdoc">Return a reference to watermark setup for the project.</div><div class="ttdef"><b>Definition:</b> Project.h:284</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_a8e188a5b8ee37aa665c8fa0d3c432278"><div class="ttname"><a href="classgd_1_1_project.html#a8e188a5b8ee37aa665c8fa0d3c432278">gd::Project::GetPlatformSpecificAssets</a></div><div class="ttdeci">const gd::PlatformSpecificAssets &amp; GetPlatformSpecificAssets() const</div><div class="ttdoc">Return a reference to platform assets of the project (icons, splashscreen...).</div><div class="ttdef"><b>Definition:</b> Project.h:267</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_a8f77830aa9dd33fd94fb16318d1a5e79"><div class="ttname"><a href="classgd_1_1_project.html#a8f77830aa9dd33fd94fb16318d1a5e79">gd::Project::SetUseDeprecatedZeroAsDefaultZOrder</a></div><div class="ttdeci">void SetUseDeprecatedZeroAsDefaultZOrder(bool enable)</div><div class="ttdoc">Set if the project should set 0 as Z-order for objects created from events (which is deprecated) - in...</div><div class="ttdef"><b>Definition:</b> Project.h:437</div></div>
-<div class="ttc" id="aclassgd_1_1_project_html_a92d2e2184490313ecd2e6cc45a081409"><div class="ttname"><a href="classgd_1_1_project.html#a92d2e2184490313ecd2e6cc45a081409">gd::Project::GetVariables</a></div><div class="ttdeci">const gd::VariablesContainer &amp; GetVariables() const</div><div class="ttdef"><b>Definition:</b> Project.h:969</div></div>
+<div class="ttc" id="aclassgd_1_1_project_html_a92d2e2184490313ecd2e6cc45a081409"><div class="ttname"><a href="classgd_1_1_project.html#a92d2e2184490313ecd2e6cc45a081409">gd::Project::GetVariables</a></div><div class="ttdeci">const gd::VariablesContainer &amp; GetVariables() const</div><div class="ttdef"><b>Definition:</b> Project.h:979</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_a976ef825a4098b2facf3c8b06ffa59db"><div class="ttname"><a href="classgd_1_1_project.html#a976ef825a4098b2facf3c8b06ffa59db">gd::Project::GetVersion</a></div><div class="ttdeci">const gd::String &amp; GetVersion() const</div><div class="ttdoc">Get the project version.</div><div class="ttdef"><b>Definition:</b> Project.h:105</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_a99403a73b17defc25b29a2090e6b4e94"><div class="ttname"><a href="classgd_1_1_project.html#a99403a73b17defc25b29a2090e6b4e94">gd::Project::GetName</a></div><div class="ttdeci">const gd::String &amp; GetName() const</div><div class="ttdoc">Get the project name.</div><div class="ttdef"><b>Definition:</b> Project.h:71</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_aa123ae35d05fbcdb26ada4fb38fe216b"><div class="ttname"><a href="classgd_1_1_project.html#aa123ae35d05fbcdb26ada4fb38fe216b">gd::Project::GetMaximumFPS</a></div><div class="ttdeci">int GetMaximumFPS() const</div><div class="ttdef"><b>Definition:</b> Project.h:352</div></div>
-<div class="ttc" id="aclassgd_1_1_project_html_aa1778effd8c9e426593174fbe4a9942a"><div class="ttname"><a href="classgd_1_1_project.html#aa1778effd8c9e426593174fbe4a9942a">gd::Project::GetResourcesManager</a></div><div class="ttdeci">const ResourcesManager &amp; GetResourcesManager() const</div><div class="ttdoc">Provide access to the ResourceManager member containing the list of the resources.</div><div class="ttdef"><b>Definition:</b> Project.h:948</div></div>
-<div class="ttc" id="aclassgd_1_1_project_html_aa21d727051e1c8c8d3d84f8c4c6e5a98"><div class="ttname"><a href="classgd_1_1_project.html#aa21d727051e1c8c8d3d84f8c4c6e5a98">gd::Project::GetResourcesManager</a></div><div class="ttdeci">ResourcesManager &amp; GetResourcesManager()</div><div class="ttdoc">Provide access to the ResourceManager member containing the list of the resources.</div><div class="ttdef"><b>Definition:</b> Project.h:956</div></div>
+<div class="ttc" id="aclassgd_1_1_project_html_aa1778effd8c9e426593174fbe4a9942a"><div class="ttname"><a href="classgd_1_1_project.html#aa1778effd8c9e426593174fbe4a9942a">gd::Project::GetResourcesManager</a></div><div class="ttdeci">const ResourcesManager &amp; GetResourcesManager() const</div><div class="ttdoc">Provide access to the ResourceManager member containing the list of the resources.</div><div class="ttdef"><b>Definition:</b> Project.h:958</div></div>
+<div class="ttc" id="aclassgd_1_1_project_html_aa21d727051e1c8c8d3d84f8c4c6e5a98"><div class="ttname"><a href="classgd_1_1_project.html#aa21d727051e1c8c8d3d84f8c4c6e5a98">gd::Project::GetResourcesManager</a></div><div class="ttdeci">ResourcesManager &amp; GetResourcesManager()</div><div class="ttdoc">Provide access to the ResourceManager member containing the list of the resources.</div><div class="ttdef"><b>Definition:</b> Project.h:966</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_aa2993fb723ac0eb546d7b988b8771ddc"><div class="ttname"><a href="classgd_1_1_project.html#aa2993fb723ac0eb546d7b988b8771ddc">gd::Project::SetAuthor</a></div><div class="ttdeci">void SetAuthor(const gd::String &amp;author_)</div><div class="ttdoc">Change the author of the project.</div><div class="ttdef"><b>Definition:</b> Project.h:110</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_aa34f84a81352f24c6271717600014b12"><div class="ttname"><a href="classgd_1_1_project.html#aa34f84a81352f24c6271717600014b12">gd::Project::SetAntialiasingMode</a></div><div class="ttdeci">void SetAntialiasingMode(const gd::String &amp;antialiasingMode_)</div><div class="ttdef"><b>Definition:</b> Project.h:405</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_aa69e97d2b806904495cca5bf2be5e965"><div class="ttname"><a href="classgd_1_1_project.html#aa69e97d2b806904495cca5bf2be5e965">gd::Project::GetAuthor</a></div><div class="ttdeci">const gd::String &amp; GetAuthor() const</div><div class="ttdoc">Get the project author name.</div><div class="ttdef"><b>Definition:</b> Project.h:115</div></div>
@@ -683,7 +687,7 @@ $(function() {
 <div class="ttc" id="aclassgd_1_1_project_html_ac30dca0c34a1c0122adbccbb7d04971d"><div class="ttname"><a href="classgd_1_1_project.html#ac30dca0c34a1c0122adbccbb7d04971d">gd::Project::GetDescription</a></div><div class="ttdeci">const gd::String &amp; GetDescription() const</div><div class="ttdoc">Get the project description.</div><div class="ttdef"><b>Definition:</b> Project.h:93</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_ac5892d095cdd4cfc19a2735bcc168857"><div class="ttname"><a href="classgd_1_1_project.html#ac5892d095cdd4cfc19a2735bcc168857">gd::Project::IsFolderProject</a></div><div class="ttdeci">bool IsFolderProject() const</div><div class="ttdef"><b>Definition:</b> Project.h:238</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_ac7d556b9e3ed34867b8664e5844ae5b7"><div class="ttname"><a href="classgd_1_1_project.html#ac7d556b9e3ed34867b8664e5844ae5b7">gd::Project::SetPackageName</a></div><div class="ttdeci">void SetPackageName(const gd::String &amp;packageName_)</div><div class="ttdoc">Change the project package name.</div><div class="ttdef"><b>Definition:</b> Project.h:181</div></div>
-<div class="ttc" id="aclassgd_1_1_project_html_ac982068c19ebcba311651bf1e65fb44a"><div class="ttname"><a href="classgd_1_1_project.html#ac982068c19ebcba311651bf1e65fb44a">gd::Project::UseExternalSourceFiles</a></div><div class="ttdeci">bool UseExternalSourceFiles() const</div><div class="ttdoc">Return true if the game activated the use of external source files.</div><div class="ttdef"><b>Definition:</b> Project.h:1019</div></div>
+<div class="ttc" id="aclassgd_1_1_project_html_ac982068c19ebcba311651bf1e65fb44a"><div class="ttname"><a href="classgd_1_1_project.html#ac982068c19ebcba311651bf1e65fb44a">gd::Project::UseExternalSourceFiles</a></div><div class="ttdeci">bool UseExternalSourceFiles() const</div><div class="ttdoc">Return true if the game activated the use of external source files.</div><div class="ttdef"><b>Definition:</b> Project.h:1029</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_aca132134e31018e4088d1150a4e31e3a"><div class="ttname"><a href="classgd_1_1_project.html#aca132134e31018e4088d1150a4e31e3a">gd::Project::SetFirstLayout</a></div><div class="ttdeci">void SetFirstLayout(const gd::String &amp;name)</div><div class="ttdef"><b>Definition:</b> Project.h:814</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_ad78c45b95fb1625f387443e915a6ddf7"><div class="ttname"><a href="classgd_1_1_project.html#ad78c45b95fb1625f387443e915a6ddf7">gd::Project::GetProjectUuid</a></div><div class="ttdeci">const gd::String &amp; GetProjectUuid() const</div><div class="ttdoc">Get the project UUID, useful when using the game on online services that would require a unique ident...</div><div class="ttdef"><b>Definition:</b> Project.h:452</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_ada4d96d9a7f1aba56bf0623e926842eb"><div class="ttname"><a href="classgd_1_1_project.html#ada4d96d9a7f1aba56bf0623e926842eb">gd::Project::GetFirstLayout</a></div><div class="ttdeci">const gd::String &amp; GetFirstLayout()</div><div class="ttdef"><b>Definition:</b> Project.h:819</div></div>
@@ -692,7 +696,7 @@ $(function() {
 <div class="ttc" id="aclassgd_1_1_project_html_ae4d67ee3a7924776f98bd9fc0187e76c"><div class="ttname"><a href="classgd_1_1_project.html#ae4d67ee3a7924776f98bd9fc0187e76c">gd::Project::SetDescription</a></div><div class="ttdeci">void SetDescription(const gd::String &amp;description_)</div><div class="ttdoc">Change the project description.</div><div class="ttdef"><b>Definition:</b> Project.h:86</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_ae52d5d7290185aa4d6e8d0d797e5e1a4"><div class="ttname"><a href="classgd_1_1_project.html#ae52d5d7290185aa4d6e8d0d797e5e1a4">gd::Project::SetLastCompilationDirectory</a></div><div class="ttdeci">void SetLastCompilationDirectory(const gd::String &amp;dir)</div><div class="ttdef"><b>Definition:</b> Project.h:243</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html_afd6fbec7c6678e7f60c01d6730937590"><div class="ttname"><a href="classgd_1_1_project.html#afd6fbec7c6678e7f60c01d6730937590">gd::Project::GetAuthorUsernames</a></div><div class="ttdeci">std::vector&lt; gd::String &gt; &amp; GetAuthorUsernames()</div><div class="ttdoc">Get the author usernames of the project, to modify them (non-const).</div><div class="ttdef"><b>Definition:</b> Project.h:137</div></div>
-<div class="ttc" id="aclassgd_1_1_project_html_aff23abc52d3c868531a40cae05c7c743"><div class="ttname"><a href="classgd_1_1_project.html#aff23abc52d3c868531a40cae05c7c743">gd::Project::GetObjects</a></div><div class="ttdeci">gd::ObjectsContainer &amp; GetObjects()</div><div class="ttdoc">return the objects of the project.</div><div class="ttdef"><b>Definition:</b> Project.h:987</div></div>
+<div class="ttc" id="aclassgd_1_1_project_html_aff23abc52d3c868531a40cae05c7c743"><div class="ttname"><a href="classgd_1_1_project.html#aff23abc52d3c868531a40cae05c7c743">gd::Project::GetObjects</a></div><div class="ttdeci">gd::ObjectsContainer &amp; GetObjects()</div><div class="ttdoc">return the objects of the project.</div><div class="ttdef"><b>Definition:</b> Project.h:997</div></div>
 <div class="ttc" id="aclassgd_1_1_resources_manager_html"><div class="ttname"><a href="classgd_1_1_resources_manager.html">gd::ResourcesManager</a></div><div class="ttdoc">Inventory all resources used by a project.</div><div class="ttdef"><b>Definition:</b> ResourcesManager.h:556</div></div>
 <div class="ttc" id="aclassgd_1_1_serializer_element_html"><div class="ttname"><a href="classgd_1_1_serializer_element.html">gd::SerializerElement</a></div><div class="ttdoc">A generic container that can represent a value ( containing a string, double, bool or int),...</div><div class="ttdef"><b>Definition:</b> SerializerElement.h:37</div></div>
 <div class="ttc" id="aclassgd_1_1_source_file_html"><div class="ttname"><a href="classgd_1_1_source_file.html">gd::SourceFile</a></div><div class="ttdoc">Represents a &quot;physical&quot; source file.</div><div class="ttdef"><b>Definition:</b> SourceFile.h:25</div></div>
