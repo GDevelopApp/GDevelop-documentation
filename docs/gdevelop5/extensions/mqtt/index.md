@@ -9,11 +9,11 @@ An MQTT client for GDevelop: allow connections to a MQTT server and send/receive
 
 This extension wraps [MQTT.js](https://github.com/mqttjs/MQTT.js) to allow connections to a MQTT server and communication via pub/sub. The only transport method is Websockets. Make sure to use a broker that support those!
 
-# Dataloss
+## Dataloss
 
 The dataloss let you chose how to handle data. Due to how the GDevelop event loop is made, only one message per topic can be processed per frame. When dataloss is on, when you get 2 messages from one topic in one frame, only the latest one is remembered. When it is off, the first message is processed and the second is queued for the next frame.
 
-# QoS (Quality of service)
+## QoS (Quality of service)
 
 Here is how QoS works:
 
@@ -23,6 +23,10 @@ Here is how QoS works:
  - QoS 2 (received exactly once): Same as QoS 1 but there is no duplicates.
 
 About data consumption: QoS 2 will consume more than QoS 1, which will consume more than QoS 0.
+
+## Test Broker
+
+You can find a free test broker server over at https://test.mosquitto.org/ - keep in mind, anyone can read and write data sent there, and it offers no uptime guarantees!
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
