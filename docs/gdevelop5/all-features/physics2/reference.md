@@ -272,28 +272,28 @@ Compare the world gravity on X axis.
 Compare the world gravity on Y axis.
 
 **Has fixed rotation**  
-Test if an object has fixed rotation.
+Check if an object has fixed rotation.
 
-**Is treat as bullet**  
-Test if an object is being treat as a bullet.
+**Is treated as a bullet**  
+Check if the object is being treated as a bullet.
 
 **Is dynamic**  
-Test if an object is dynamic.
+Check if an object is dynamic.
 
 **Is kinematic**  
-Test if an object is kinematic.
+Check if an object is kinematic.
 
 **Is sleeping**  
-Test if an object is sleeping.
+Check if an object is sleeping.
 
 **Is sleeping allowed**  
-Test if an object can sleep.
+Check if an object can sleep.
 
 **Is static**  
-Test if an object is static.
+Check if an object is static.
 
 **Joint first object**  
-Test if an object is the first object on a joint.
+Check if an object is the first object on a joint.
 
 **Joint reaction force**  
 Test a joint reaction force.
@@ -302,10 +302,10 @@ Test a joint reaction force.
 Test a joint reaction torque.
 
 **Joint second object**  
-Test if an object is the second object on a joint.
+Check if an object is the second object on a joint.
 
 **Layer enabled**  
-Test if an object has a specific layer enabled.
+Check if an object has a specific layer enabled.
 
 **Linear damping**  
 Test an object linear damping.
@@ -320,31 +320,31 @@ Test an object linear velocity on X.
 Test an object linear velocity on Y.
 
 **Mask enabled**  
-Test if an object has a specific mask enabled.
+Check if an object has a specific mask enabled.
 
 **Linear velocity angle**  
 Compare the linear velocity angle of the object.
 
 **Prismatic joint limits enabled**  
-Test if a prismatic joint limits are enabled.
+Check if a prismatic joint limits are enabled.
 
 **Prismatic joint motor enabled**  
-Test if a prismatic joint motor is enabled.
+Check if a prismatic joint motor is enabled.
 
 **Restitution**  
 Test an object restitution.
 
 **Revolute joint limits enabled**  
-Test if a revolute joint limits are enabled.
+Check if a revolute joint limits are enabled.
 
 **Revolute joint motor enabled**  
-Test if a revolute joint motor is enabled.
+Check if a revolute joint motor is enabled.
 
 **World time scale**  
 Compare the world time scale.
 
 **Wheel joint motor enabled**  
-Test if a wheel joint motor is enabled.
+Check if a wheel joint motor is enabled.
 
 ### Behavior expressions
 

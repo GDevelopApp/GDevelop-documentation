@@ -1038,6 +1038,62 @@ Simulate realistic object physics with gravity, forces, joints, etc. [Read more 
 ---
 
 
+
+## 3D physics engine (from extension 3D Physics Engine)
+
+Simulate realistic object physics with gravity, forces, etc. [Read more explanations about it.](/gdevelop5/behaviors/physics3d)
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.Physics3D::AngularDamping()` | Return the object angular damping. How much angular speed is lost across the time.. ||
+| `Object.Physics3D::AngularVelocityX()` | Return the object angular velocity on X.. ||
+| `Object.Physics3D::AngularVelocityY()` | Return the object angular velocity on Y.. ||
+| `Object.Physics3D::AngularVelocityZ()` | Return the object angular velocity on Z.. ||
+| `Object.Physics3D::Density()` | Return the object density. The body's density and volume determine its mass.. ||
+| `Object.Physics3D::Friction()` | Return the object friction. How much energy is lost from the movement of one object over another. The combined friction from two bodies is calculated as 'sqrt(bodyA.friction * bodyB.friction)'.. ||
+| `Object.Physics3D::GravityScale()` | Return the object gravity scale. The gravity applied to an object is the world gravity multiplied by the object gravity scale.. ||
+| `Object.Physics3D::GravityX()` | Return the world gravity on X axis While an object is needed, this will apply to all objects using the behavior.. ||
+| `Object.Physics3D::GravityY()` | Return the world gravity on Y axis While an object is needed, this will apply to all objects using the behavior.. ||
+| `Object.Physics3D::GravityZ()` | Return the world gravity on Z axis While an object is needed, this will apply to all objects using the behavior.. ||
+| `Object.Physics3D::InertiaAroundX()` | Return the inertia around X axis of the object (in kilograms · meters²) when for its default rotation is (0°; 0°; 0°) ||
+| `Object.Physics3D::InertiaAroundY()` | Return the inertia around Y axis of the object (in kilograms · meters²) when for its default rotation is (0°; 0°; 0°) ||
+| `Object.Physics3D::InertiaAroundZ()` | Return the inertia around Z axis of the object (in kilograms · meters²) when for its default rotation is (0°; 0°; 0°) ||
+| `Object.Physics3D::LinearDamping()` | Return the object linear damping. How much movement speed is lost across the time.. ||
+| `Object.Physics3D::LinearVelocityLength()` | Return the object linear velocity length.. ||
+| `Object.Physics3D::LinearVelocityX()` | Return the object linear velocity on X.. ||
+| `Object.Physics3D::LinearVelocityY()` | Return the object linear velocity on Y.. ||
+| `Object.Physics3D::LinearVelocityZ()` | Return the object linear velocity on Z.. ||
+| `Object.Physics3D::Mass()` | Return the mass of the object (in kilograms) ||
+| `Object.Physics3D::MassCenterX()` | Mass center X ||
+| `Object.Physics3D::MassCenterY()` | Mass center Y ||
+| `Object.Physics3D::Restitution()` | Return the object restitution. Energy conservation on collision. The combined restitution from two bodies is calculated as 'max(bodyA.restitution, bodyB.restitution)'.. ||
+| `Object.Physics3D::WorldScale()` | Return the world scale. ||
+
+## 3D physics character (from extension 3D Physics Engine)
+
+Jump and run on platforms. [Read more explanations about it.](/gdevelop5/behaviors/physics3d)
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.PhysicsCharacter3D::CurrentFallSpeed()` | Return Compare the current falling speed of the object. Its value is always positive.. ||
+| `Object.PhysicsCharacter3D::CurrentForwardSpeed()` | Return the current forward speed of the object. The object moves backward with negative values and forward with positive ones. ||
+| `Object.PhysicsCharacter3D::CurrentJumpSpeed()` | Return Compare the current jump speed of the object. Its value is always positive.. ||
+| `Object.PhysicsCharacter3D::CurrentSidewaysSpeed()` | Return the current sideways speed of the object. The object moves to the left with negative values and to the right with positive ones. ||
+| `Object.PhysicsCharacter3D::FallingSpeedMax()` | Return the maximum falling speed of an object.. ||
+| `Object.PhysicsCharacter3D::ForwardAcceleration()` | Return the forward acceleration of an object.. ||
+| `Object.PhysicsCharacter3D::ForwardAngle()` | Return the angle used by the character to go forward. ||
+| `Object.PhysicsCharacter3D::ForwardDeceleration()` | Return the forward deceleration of an object.. ||
+| `Object.PhysicsCharacter3D::ForwardSpeedMax()` | Return the forward max speed of the object.. ||
+| `Object.PhysicsCharacter3D::Gravity()` | Return the gravity applied on an object.. ||
+| `Object.PhysicsCharacter3D::JumpSpeed()` | Return the jump speed of an object. Its value is always positive.. ||
+| `Object.PhysicsCharacter3D::JumpSustainTime()` | Return the jump sustain time of an object. This is the time during which keeping the jump button held allow the initial jump speed to be maintained.. ||
+| `Object.PhysicsCharacter3D::SidewaysAcceleration()` | Return the sideways acceleration of an object.. ||
+| `Object.PhysicsCharacter3D::SidewaysDeceleration()` | Return the sideways deceleration of an object.. ||
+| `Object.PhysicsCharacter3D::SidewaysSpeedMax()` | Return the sideways max speed of the object.. ||
+
+---
+
+
 ## Player Authentication
 
 Allow your game to authenticate players. [Read more explanations about it.](/gdevelop5/all-features/player-authentication)
