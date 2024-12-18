@@ -4,15 +4,21 @@ title: Collaborate on a GDevelop project
 
 # Collaborate on a GDevelop project
 
-GDevelop allows you to collaborate on your project with other users, for example teammates or co-workers.
+GDevelop allows you to share your project with other users, for example teammates or co-workers. 
+This allows these users to open and modify the project when you're not editing it. Note that **real-time collaboration is not yet ready** and will be added in the future.
+
 There are 2 requirements to collaborate on a project:
 
 - The project must be saved to GDevelop Cloud.
-- The owner of the project must have a [Startup subscription](https://gdevelop.io/pricing/business).
+- The people sharing a project must all have the [Pro subscription](https://gdevelop.io/pricing/business). Up to **one guest collaborator** (not having a Pro subscription) can be added per project.
 
 ![Share dialog](/gdevelop5/collaboration/share-dialog.png)
 
-## Invite people to collaborate
+!!! note 
+
+    Are you working in education and **would like students to collaborate** on a project? The Pro subscription is **most probably not adapted to your use-case**. Check out the [GDevelop for Education plan](https://gdevelop.io/pricing/education) instead.
+
+## Invite people to share a project
 
 From the Share dialog, you can invite people to collaborate on your project.
 For security, you can only invite people via their email address (not their username). You can then decide if they can edit the project or only view it.
@@ -24,7 +30,7 @@ For security, you can only invite people via their email address (not their user
 
 ## Limits
 
-There are no limits to the number of collaborators you can invite to a project, as long as they all have a [Startup subscription](https://gdevelop.io/pricing/business).
+There are no limits to the number of collaborators you can invite to a project, as long as **they all have a [Pro subscription](https://gdevelop.io/pricing/business)**.
 
 !!! tip
 
