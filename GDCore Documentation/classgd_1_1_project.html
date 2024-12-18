@@ -70,6 +70,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classgd_1_1_project-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">gd::Project Class Reference<div class="ingroups"><a class="el" href="group___platform_definition.html">Platform Definition (Common classes used by all platforms)</a></div></div>  </div>
@@ -581,6 +582,9 @@ const std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_source
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ae44bf12cd3e6beab41b2721a6e8218e9"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project.html#ae44bf12cd3e6beab41b2721a6e8218e9">GetUnserializingOrderExtensionNames</a> (const <a class="el" href="classgd_1_1_serializer_element.html">gd::SerializerElement</a> &amp;eventsFunctionsExtensionsElement)</td></tr>
+<tr class="memdesc:ae44bf12cd3e6beab41b2721a6e8218e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the project extensions names in the order they have to be unserialized.  <a href="classgd_1_1_project.html#ae44bf12cd3e6beab41b2721a6e8218e9">More...</a><br /></td></tr>
+<tr class="separator:ae44bf12cd3e6beab41b2721a6e8218e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Identifier names</div></td></tr>
 <tr class="memitem:ab98798267f4b2dc2841b785475f099cc"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project.html#ab98798267f4b2dc2841b785475f099cc">IsNameSafe</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
 <tr class="separator:ab98798267f4b2dc2841b785475f099cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1314,6 +1318,36 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Return a reference to the external source file with the given name. </p>
+
+</div>
+</div>
+<a id="ae44bf12cd3e6beab41b2721a6e8218e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae44bf12cd3e6beab41b2721a6e8218e9">&#9670;&nbsp;</a></span>GetUnserializingOrderExtensionNames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; gd::Project::GetUnserializingOrderExtensionNames </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_serializer_element.html">gd::SerializerElement</a> &amp;&#160;</td>
+          <td class="paramname"><em>eventsFunctionsExtensionsElement</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the project extensions names in the order they have to be unserialized. </p>
+<p>Child-objects need the event-based objects they use to be loaded completely before they are unserialized.</p>
+<dl class="section warning"><dt>Warning</dt><dd>This is only public to allow testing - don't use it in the editor. </dd></dl>
 
 </div>
 </div>
