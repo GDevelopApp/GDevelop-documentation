@@ -226,10 +226,13 @@ When this action is executed, the object is able to jump again, even if it is in
 This revokes the effect of "Allow jumping again". The object is made unable to jump while in mid air. This has no effect if the object is not in the air.
 
 **Current falling speed**  
-Change the current falling speed of the object. This action doesn't have any effect when the character is not falling or is in the first phase of a jump.
+Change Compare the current falling speed of the object. Its value is always positive..
 
 **Current forward speed**  
 Change the current forward speed of the object. The object moves backward with negative values and forward with positive ones.
+
+**Current jump speed**  
+Change Compare the current jump speed of the object. Its value is always positive..
 
 **Current sideways speed**  
 Change the current sideways speed of the object. The object moves to the left with negative values and to the right with positive ones.
