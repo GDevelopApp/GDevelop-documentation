@@ -37,6 +37,9 @@ Smoothly follow an object at a distance.
 **Move the camera closer**  
 Move the camera closer to the object. This action must be called after the object has moved for the frame.
 
+**Camera rotation**  
+Change the camera rotation.
+
 **Camera distance**  
 Change the camera distance of the object.
 
@@ -63,6 +66,9 @@ Change the rotation angle offset of the object.
 
 **Halfway time for rotation**  
 Change the halfway time for rotation of the object.
+
+**Targeted rotation angle**  
+Change the targeted camera rotation angle of the object. When this angle is set, the camera follow this value instead of the object angle.
 
 **Halfway time on Z axis**  
 Change the halfway time on Z axis of the object.
@@ -96,6 +102,9 @@ Compare the rotation angle offset of the object.
 **Halfway time for rotation**  
 Compare the halfway time for rotation of the object.
 
+**Targeted rotation angle**  
+Compare the targeted camera rotation angle of the object. When this angle is set, the camera follow this value instead of the object angle.
+
 **Halfway time on Z axis**  
 Compare the halfway time on Z axis of the object.
 
@@ -112,6 +121,7 @@ Compare the halfway time on Z axis of the object.
 | `Object.ThirdPersonCamera::OffsetZ()` | Return the z offset of the object. ||
 | `Object.ThirdPersonCamera::RotationAngleOffset()` | Return the rotation angle offset of the object. ||
 | `Object.ThirdPersonCamera::RotationHalfwayDuration()` | Return the halfway time for rotation of the object. ||
+| `Object.ThirdPersonCamera::TargetedRotationAngle()` | Return the targeted camera rotation angle of the object. When this angle is set, the camera follow this value instead of the object angle. ||
 | `Object.ThirdPersonCamera::TranslationZHalfwayDuration()` | Return the halfway time on Z axis of the object. ||
 
 ---

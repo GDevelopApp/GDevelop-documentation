@@ -71,12 +71,14 @@ nav:
         - Konami Code: konami-code
         - Cursor object: mouse-helper
         - Mouse Pointer Lock: mouse-pointer-lock
+        - 3D character keyboard mapper: physics-character3dkey-mapper
         - Pinching gesture: pinch-gesture
         - Multitouch joystick and buttons (sprite): sprite-multitouch-joystick
         - Swipe Gesture: swipe-gesture
         - Two Choices Dialog Boxes: two-choices-dialog-boxes
     - Movement:
         - Advanced platformer movements: advanced-jump
+        - Advanced movements for 3D physics characters: advanced-jump3d
         - Advanced projectile: advanced-projectile
         - Animated Back and Forth Movement: animated-back-and-forth-movement
         - Boids movement: boids-movement
@@ -91,6 +93,8 @@ nav:
         - Linear Movement: linear-movement
         - Make objects orbit around a center object: orbiting-objects
         - Physics car: physics-car
+        - 3D physics character animator: physics-character3danimator
+        - 3D ellipse movement: physics-ellipse-movement3d
         - Pixel perfect movement: pixel-perfect-movement
         - Platformer character animator: platformer-character-animator
         - Platformer trajectory: platformer-trajectory

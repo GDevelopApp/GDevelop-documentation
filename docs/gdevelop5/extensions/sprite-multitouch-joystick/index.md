@@ -106,6 +106,82 @@ Compare the stick force on Y axis (from -1 at the top to 1 at the bottom).
 | `Object.StickForceX()` | Return the stick force on X axis (from -1 at the left to 1 at the right). ||
 | `Object.StickForceY()` | Return the stick force on Y axis (from -1 at the top to 1 at the bottom). ||
 
+## First person camera multitouch controller mapper 
+
+Control camera rotations with a multitouch controller. 
+
+### Behavior actions
+
+**Horizontal rotation acceleration**  
+Change the horizontal rotation acceleration of the object.
+
+**Horizontal rotation deceleration**  
+Change the horizontal rotation deceleration of the object.
+
+**Maximum horizontal rotation speed**  
+Change the maximum horizontal rotation speed of the object.
+
+**Z position offset**  
+Change the z position offset of the object.
+
+**Maximum vertical camera angle**  
+Change the maximum vertical camera angle of the object.
+
+**Minimum vertical camera angle**  
+Change the minimum vertical camera angle of the object.
+
+**Vertical rotation acceleration**  
+Change the vertical rotation acceleration of the object.
+
+**Vertical rotation deceleration**  
+Change the vertical rotation deceleration of the object.
+
+**Maximum vertical rotation speed**  
+Change the maximum vertical rotation speed of the object.
+
+### Behavior conditions
+
+**Horizontal rotation acceleration**  
+Compare the horizontal rotation acceleration of the object.
+
+**Horizontal rotation deceleration**  
+Compare the horizontal rotation deceleration of the object.
+
+**Maximum horizontal rotation speed**  
+Compare the maximum horizontal rotation speed of the object.
+
+**Z position offset**  
+Compare the z position offset of the object.
+
+**Maximum vertical camera angle**  
+Compare the maximum vertical camera angle of the object.
+
+**Minimum vertical camera angle**  
+Compare the minimum vertical camera angle of the object.
+
+**Vertical rotation acceleration**  
+Compare the vertical rotation acceleration of the object.
+
+**Vertical rotation deceleration**  
+Compare the vertical rotation deceleration of the object.
+
+**Maximum vertical rotation speed**  
+Compare the maximum vertical rotation speed of the object.
+
+### Behavior expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.FirstPersonMultitouchMapper::HorizontalRotationAcceleration()` | Return the horizontal rotation acceleration of the object. ||
+| `Object.FirstPersonMultitouchMapper::HorizontalRotationDeceleration()` | Return the horizontal rotation deceleration of the object. ||
+| `Object.FirstPersonMultitouchMapper::HorizontalRotationSpeedMax()` | Return the maximum horizontal rotation speed of the object. ||
+| `Object.FirstPersonMultitouchMapper::OffsetZ()` | Return the z position offset of the object. ||
+| `Object.FirstPersonMultitouchMapper::VerticalAngleMax()` | Return the maximum vertical camera angle of the object. ||
+| `Object.FirstPersonMultitouchMapper::VerticalAngleMin()` | Return the minimum vertical camera angle of the object. ||
+| `Object.FirstPersonMultitouchMapper::VerticalRotationAcceleration()` | Return the vertical rotation acceleration of the object. ||
+| `Object.FirstPersonMultitouchMapper::VerticalRotationDeceleration()` | Return the vertical rotation deceleration of the object. ||
+| `Object.FirstPersonMultitouchMapper::VerticalRotationSpeedMax()` | Return the maximum vertical rotation speed of the object. ||
+
 ## Multitouch button 
 
 Detect button presses made on a touchscreen. 
@@ -121,9 +197,23 @@ Check if button is released.
 _No expressions for this behavior._
 
 
+## 3D platformer multitouch controller mapper 
+
+Control a 3D physics character with a multitouch controller. 
+
+_No expressions for this behavior._
+
+
 ## Platformer multitouch controller mapper 
 
 Control a platformer character with a multitouch controller. 
+
+_No expressions for this behavior._
+
+
+## 3D shooter multitouch controller mapper 
+
+Control a 3D physics character with a multitouch controller. 
 
 _No expressions for this behavior._
 

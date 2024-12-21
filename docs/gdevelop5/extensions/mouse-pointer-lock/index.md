@@ -31,15 +31,61 @@ Lock the mouse pointer to hide it.
 
 ## Conditions
 
+**Locked pointer is moving**  
+Check if the locked pointer is moving.
+
 **Pointer is locked**  
 Check if the mouse pointer is locked.
 
-## Expressions
+
+
+## First person camera mouse mapper 
+
+Control camera rotations with a mouse. 
+
+### Behavior actions
+
+**Horizontal rotation speed factor**  
+Change the horizontal rotation speed factor of the object.
+
+**Z position offset**  
+Change the z position offset of the object.
+
+**Maximum vertical camera angle**  
+Change the maximum vertical camera angle of the object.
+
+**Minimum vertical camera angle**  
+Change the minimum vertical camera angle of the object.
+
+**Vertical rotation speed factor**  
+Change the vertical rotation speed factor of the object.
+
+### Behavior conditions
+
+**Horizontal rotation speed factor**  
+Compare the horizontal rotation speed factor of the object.
+
+**Z position offset**  
+Compare the z position offset of the object.
+
+**Maximum vertical camera angle**  
+Compare the maximum vertical camera angle of the object.
+
+**Minimum vertical camera angle**  
+Compare the minimum vertical camera angle of the object.
+
+**Vertical rotation speed factor**  
+Compare the vertical rotation speed factor of the object.
+
+### Behavior expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `MousePointerLock::MovementX()` | Get the movement of the pointer on the X-axis. ||
-| `MousePointerLock::MovementY()` | Get the movement of the pointer on the Y-axis. ||
+| `Object.FirstPersonPointerMapper::HorizontalSpeed()` | Return the horizontal rotation speed factor of the object. ||
+| `Object.FirstPersonPointerMapper::OffsetZ()` | Return the z position offset of the object. ||
+| `Object.FirstPersonPointerMapper::VerticalAngleMax()` | Return the maximum vertical camera angle of the object. ||
+| `Object.FirstPersonPointerMapper::VerticalAngleMin()` | Return the minimum vertical camera angle of the object. ||
+| `Object.FirstPersonPointerMapper::VerticalSpeed()` | Return the vertical rotation speed factor of the object. ||
 
 ---
 

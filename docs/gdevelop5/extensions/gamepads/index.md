@@ -90,9 +90,99 @@ Compare the force of gamepad stick (from 0 to 1).
 | `Gamepads::TriggerPressure()` | Get the value of the pressure on a gamepad trigger. ||
 | `Gamepads::WeakVibrationMagnitude()` | Return the strength of the weak vibration motor on the gamepad of a player. ||
 
+## First person camera gamepad mapper 
+
+Control camera rotations with a gamepad. 
+
+### Behavior actions
+
+**Horizontal rotation acceleration**  
+Change the horizontal rotation acceleration of the object.
+
+**Horizontal rotation deceleration**  
+Change the horizontal rotation deceleration of the object.
+
+**Maximum horizontal rotation speed**  
+Change the maximum horizontal rotation speed of the object.
+
+**Z position offset**  
+Change the z position offset of the object.
+
+**Maximum vertical camera angle**  
+Change the maximum vertical camera angle of the object.
+
+**Minimum vertical camera angle**  
+Change the minimum vertical camera angle of the object.
+
+**Vertical rotation acceleration**  
+Change the vertical rotation acceleration of the object.
+
+**Vertical rotation deceleration**  
+Change the vertical rotation deceleration of the object.
+
+**Maximum vertical rotation speed**  
+Change the maximum vertical rotation speed of the object.
+
+### Behavior conditions
+
+**Horizontal rotation acceleration**  
+Compare the horizontal rotation acceleration of the object.
+
+**Horizontal rotation deceleration**  
+Compare the horizontal rotation deceleration of the object.
+
+**Maximum horizontal rotation speed**  
+Compare the maximum horizontal rotation speed of the object.
+
+**Z position offset**  
+Compare the z position offset of the object.
+
+**Maximum vertical camera angle**  
+Compare the maximum vertical camera angle of the object.
+
+**Minimum vertical camera angle**  
+Compare the minimum vertical camera angle of the object.
+
+**Vertical rotation acceleration**  
+Compare the vertical rotation acceleration of the object.
+
+**Vertical rotation deceleration**  
+Compare the vertical rotation deceleration of the object.
+
+**Maximum vertical rotation speed**  
+Compare the maximum vertical rotation speed of the object.
+
+### Behavior expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.FirstPersonGamepadMapper::HorizontalRotationAcceleration()` | Return the horizontal rotation acceleration of the object. ||
+| `Object.FirstPersonGamepadMapper::HorizontalRotationDeceleration()` | Return the horizontal rotation deceleration of the object. ||
+| `Object.FirstPersonGamepadMapper::HorizontalRotationSpeedMax()` | Return the maximum horizontal rotation speed of the object. ||
+| `Object.FirstPersonGamepadMapper::OffsetZ()` | Return the z position offset of the object. ||
+| `Object.FirstPersonGamepadMapper::VerticalAngleMax()` | Return the maximum vertical camera angle of the object. ||
+| `Object.FirstPersonGamepadMapper::VerticalAngleMin()` | Return the minimum vertical camera angle of the object. ||
+| `Object.FirstPersonGamepadMapper::VerticalRotationAcceleration()` | Return the vertical rotation acceleration of the object. ||
+| `Object.FirstPersonGamepadMapper::VerticalRotationDeceleration()` | Return the vertical rotation deceleration of the object. ||
+| `Object.FirstPersonGamepadMapper::VerticalRotationSpeedMax()` | Return the maximum vertical rotation speed of the object. ||
+
+## 3D platformer gamepad mapper 
+
+Control a 3D physics character with a gamepad. 
+
+_No expressions for this behavior._
+
+
 ## Platformer gamepad mapper 
 
 Control a platformer character with a gamepad. 
+
+_No expressions for this behavior._
+
+
+## 3D shooter gamepad mapper 
+
+Control a 3D physics character with a gamepad. 
 
 _No expressions for this behavior._
 
