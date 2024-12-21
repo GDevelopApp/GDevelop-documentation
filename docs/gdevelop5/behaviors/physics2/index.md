@@ -1,15 +1,15 @@
 ---
-title: Physics Engine
+title: 2D Physics Engine
 ---
-# Physics Engine
+# 2D Physics Engine
 
-You can add the **Physics [behavior](/gdevelop5/behaviors)** to [objects](/gdevelop5/objects) to make them move realistically, following the laws of physics. This is adapted to a large range of games: "Angry Bird" like games, "Cut the Ropes",  bike simulation, Pool Games and many other games uses a physics engine for animating the objects.
+You can add the **2D Physics [behavior](/gdevelop5/behaviors)** to [objects](/gdevelop5/objects) to make them move realistically, following the laws of physics. This is adapted to a large range of 2D games: "Angry Bird" like games, "Cut the Ropes", bike simulation, Pool Games and many other games uses a physics engine for animating the objects.
 
 !!! tip
 
     This behavior is based on *Box2D*, a fast and complete rigid bodies physics simulation library in the background.
 
-The behavior is composed of three big concepts: the world that hold the bodies (this is the scene), the bodies themselves (these are the objects), and optionally the joints that link bodies. All of them are explained in this reading.
+The behavior is based on three big concepts: the world that hold the bodies (this is the scene), the bodies themselves (these are the objects), and optionally the joints that link bodies. All of them are explained in this reading.
 
 !!! warning
 
