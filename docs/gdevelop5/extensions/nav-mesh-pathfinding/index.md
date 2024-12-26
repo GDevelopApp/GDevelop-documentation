@@ -59,7 +59,8 @@ Move objects to a target in straight lines while avoiding all objects that are f
 ### Behavior actions
 
 **Draw navigation mesh**  
-Draw the navigation mesh used for the object.
+Draw the navigation mesh used for the object.  
+This action must be used after "Move to a position".
 
 **Acceleration**  
 Change the acceleration of the object.
@@ -149,23 +150,6 @@ Compare the number of waypoints on the path.
 ## Obstacle for navigation mesh pathfinding (experimental) 
 
 Flag objects as being an obstacle for pathfinding. 
-
-### Behavior actions
-
-**Area bottom bound**  
-Change the area bottom bound. The bottom bound of the area where objects can go in the scene (default to the game resolution). While an object is needed, this will apply to all objects using the behavior.
-
-**Area left bound**  
-Change the area left bound. The left bound of the area where objects can go in the scene. While an object is needed, this will apply to all objects using the behavior.
-
-**Area right bound**  
-Change the area right bound. The right bound of the area where objects can go in the scene (default to the game resolution). While an object is needed, this will apply to all objects using the behavior.
-
-**Area top bound**  
-Change the area top bound. The top bound of the area where objects can go in the scene. While an object is needed, this will apply to all objects using the behavior.
-
-**Cell size**  
-Change the cell size for obstacle collision mask rasterization. While an object is needed, this will apply to all objects using the behavior.
 
 ### Behavior conditions
 
