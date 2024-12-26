@@ -6,6 +6,6 @@ nav:
     - debugger
     - profile
     - games-dashboard
-    - More
+    - More:
       - command-palette-and-shortcuts.md
       - ...
