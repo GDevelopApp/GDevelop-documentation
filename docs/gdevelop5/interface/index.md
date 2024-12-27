@@ -67,9 +67,9 @@ The Play section showcases community-made games published on gd.games, including
 ![Home-play](Home-play.png)
 
 
-## Project tab
+## Project section
 
-The Project tab provides tools for game creation, including:
+The Project section provides tools for game creation, including:
 
  1. Project manager
  2. Scene editor
@@ -99,6 +99,7 @@ Use the project manager's drawer to add new elements to your project.
 
 
 To close a project, click the three-dot menu on the project's card and select "Close Project". Ensure all changes are saved beforehand.
+
 ![Project-manager-open-project](Project-manager-open-project)
 
 ### 2. Scene editor
