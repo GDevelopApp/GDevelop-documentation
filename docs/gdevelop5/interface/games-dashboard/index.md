@@ -13,12 +13,16 @@ Tracking game performance post-launch is crucial. It helps identify improvements
 
 GDevelop's Manage section is equipped with features such as leaderboards, player feedback, game lobbies, and marketing publication packages. The engine provides a comprehensive suite of tools for developers to enhance player engagement and drive the success of their games.
 
-* Game Details (game information)
-* Build Management
-* [Player Feedback](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/player-feedback/)
-* [Game Analytics](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/game-analytics)
-* [Game Leaderboards](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/leaderboard-administration/)
-* [Game Marketing and Ads](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/marketing/)
+![Game-manage](Game-manage.png)
+
+ 1. Game Details (game information)
+ 2. [Game analytics](/gdevelop5/interface/games-dashboard/game-analytics)
+ 3. [Player feedback](/gdevelop5/interface/games-dashboard/player-feedback/)
+ 4. [Game leaderboards](/gdevelop5/interface/games-dashboard/leaderboard-administration/)
+ 5. [Game multiplayer Lobbies](/gdevelop5/all-features/multiplayer/#making-multiplayer-games-with-gdevelop)
+ 6. Game's projects
+ 7. [Game's builds](/gdevelop5/publishing/windows-macos-linux-with-electron/)
+
 
 All these services are available for all users with a GDevelop account and are easy to configure. They work **without** intrusive trackers, third-party applications, or compromising players' privacy.
 
@@ -26,28 +30,30 @@ All these services are available for all users with a GDevelop account and are e
 
     Depending on the terms and conditions under which your game is distributed, you may be required to inform your players about data collection. Metrics can be disabled by using an action in the [Events editor](https://wiki.gdevelop.io/gdevelop5/interface/events-editor/) to enable or disable metrics.
 
-## Publishing the game
+## Enabling published game functionalities
 
-To enable the "Manage" functionality and access the game's metrics, the project has to be published on [gd.games](https://gd.games). Before publishing the game, make sure to be logged to the [GDevelop account](/gdevelop5/interface/profile) that you wish to use to publish.
+To access the game's metrics, the project has to be published on [gd.games](https://gd.games). Before publishing the project, make sure to be logged to the [GDevelop account](/gdevelop5/interface/profile) from which you wish to publish.
 
 Numerous platforms are available for export. Learn how to do it according to your desired platforms with the help of [this guide](https://wiki.gdevelop.io/gdevelop5/publishing/).
 
 Once the game is online, it will be automatically visible and available through the app's "Manage" section.
-
-![Manage-Game-Interface](Manage-Games.png)
 
 !!! note
 
     Game insights are collected anonymously when a game is launched. It's important to respect the privacy of the players, so GDevelop does not collect nor store any personal information. This means that while aggregated data can be useful to understand your audience, you can't know about a particular player, because the information is not stored and players are not tracked individually.
 
 
-## Manage Games Dashboard
+## 1. Game details
 
-Through the dashboard view, a creator can configure their game's visibility on GDevelop's free publishing website [gd.games](https://wiki.gdevelop.io/gdevelop5/publishing/web/#creating-a-private-web-link):
+Through the game details view, a creator can configure their game's visibility on GDevelop's free publishing website [gd.games](https://wiki.gdevelop.io/gdevelop5/publishing/web/#creating-a-private-web-link):
 
-* **Make discoverable on gd.games:** Players will be available to find the game through the gd.games website
-* **Show feedback banner on gd.page:** The game will display a banner to collect [player feedback](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/player-feedback/) through gd.games website
-* **Ask for feedback on all builds:** All published versions of the game listed under the "Builds" tab will dislay the feedback banner to collect player feedback
+* **Publish game on gd.games (on/off):** controls game publication on GDevelop's free game publication platform gd.games. Turning it off automatically disables the following customisation options.
+* **Visibility**:
+  
+   * **Visible in search and profile:** Players will be available to find the game through the gd.games website
+   * **Hidden:** Only players with the URL will be able to find the game on gd.games.
+* **Enable ads and revenue sharing on the game page (on/off):** [Monetize your game](https://wiki.gdevelop.io/gdevelop5/monetization/#publishing-on-platforms-with-integrated-ads) without setting up any web ads network.
+* **Collect feedback from players (on/off):** The game will display a banner to collect [player feedback](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/player-feedback/) through gd.games website
 
 To learn how to publish to the gd.games platform and configure the privacy of the links follow [these instructions](https://wiki.gdevelop.io/gdevelop5/publishing/web/).
 
