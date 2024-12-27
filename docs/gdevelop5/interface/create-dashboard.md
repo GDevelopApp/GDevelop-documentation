@@ -34,20 +34,20 @@ Learn more about [GDevelop credits](/gdevelop5/interface/profile/credits/#gdevel
 ## 3. Game list
 The Game List section allows you to access, edit, manage, filter, and create your games efficiently. GDevelop automatically organizes project versions under their respective games, simplifying version control and project iteration.
 
-Each project attached to a game can be individually modified or shared with collaborators (see [project collaboration](https://wiki.gdevelop.io/gdevelop5/collaboration/)).
-
 ![Game-Project-Architecture](Game-Project-Architecture.png)
 
-#### Game cards
-Each Game Card provides key details and tools:
+Each project attached to a game can be individually modified or shared with collaborators (see [project collaboration](https://wiki.gdevelop.io/gdevelop5/collaboration/)).
 
-1. **Last Modification Details:** Displays who last modified the game and when. Collaborators can see recent changes. Learn more about [project collaboration](https://wiki.gdevelop.io/gdevelop5/collaboration/).
+#### Game cards
+Each Game Card provides key details and indicators:
+
+1. **Last Modification Details:** Displays who last modified the game and when. Learn more about [project collaboration](https://wiki.gdevelop.io/gdevelop5/collaboration/).
 2. **Number of projects (desktop or cloud) attached:** Shows the number of linked desktop or cloud projects. Click the icon to view all projects.
-3. **gd.games published status (on/off):** Manage your game’s visibility on gd.games. [Manage Game visibility](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/#manage-games-dashboard).
+3. **gd.games published status (on/off):** Manages game’s visibility on gd.games. [Manage Game visibility](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/#manage-games-dashboard).
 4. **Ad revenue share status (on/off):** Enable or disable ad revenue sharing. [Learn more abot hosting on GDevelop's Platform](https://wiki.gdevelop.io/gdevelop5/monetization/#hosting-on-gdevelops-platform-gdgames).
 5. **Player feedback (on/off):** Control whether player feedback is collected. [Learn more about player Feedback](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/player-feedback/).
-6. **Manage:** Access Game Analytics, Player Services, and the full list of Game Projects.
-7. **Open:** Launch the latest saved version of the project.
+6. **Manage:** Access the [Game's Dashboard](/gdevelop5/interface/games-dashboard/]) which includes Analytics, Player Services, and the full list of Game Projects.
+7. **Open:** Launches the latest saved version of the project.
 
 ![Not-published-game](Not-published-game.png)
 
