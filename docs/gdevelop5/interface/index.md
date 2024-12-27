@@ -37,7 +37,7 @@ The **Create section** serves as a central hub for managing your game projects, 
 ![Home-create](Home-create.png)
 
 ### 3. Teach
-The Teach section is designed for educational use, offering tools for teachers and schools, including anonymous student accounts and teacher management interfaces. Available exclusively with an [Education Subscription](https://gdevelop.io/pricing/education).
+The Teach section is designed for educational use, offering tools for teachers and schools, including anonymous student accounts and teacher management interfaces. Available exclusively with an [Education Subscription](https://gdevelop.io/pricing/education). Learn more about the advantages of [Teacher accounts](https://wiki.gdevelop.io/gdevelop5/education/#teacher-accounts-managing-students-and-their-work).
 
 ![Home-teach](Home-teach.png)
 
