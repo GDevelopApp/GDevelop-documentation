@@ -17,12 +17,12 @@ Watch an overview of GDevelop's layout:
 
 The **Home Page** appears when you first launch GDevelop. It provides dedicated sections for different aspects of game development:
 
- * Get Started
- * Create
- * Teach
- * Shop
- * Learn
- * Play
+ 1. Get Started
+ 2. Create
+ 3. Teach
+ 4. Shop
+ 5. Learn
+ 6. Play
 
 ![Create-Dashboard-dark](Create-Dashboard-dark.png)
 
@@ -43,6 +43,7 @@ The Teach section is designed for educational use, offering tools for teachers a
 
 ### 4. Shop
 GDevelop's Market Place offers pre-made assets, including:
+
  * Character animations
  * Backgrounds and props
  * Particles and visual effect
@@ -56,12 +57,12 @@ GDevelop's Market Place offers pre-made assets, including:
 Creators can contribute and sell their assets. [Learn more about selling assets](gdevelop5/community/sell-asset-pack-store/)
 
 ### 5. Learn
-The **Learn section** includes courses, tutorials, videos, and documentation to help users better understand GDevelop.
+The **Learn section** includes courses, tutorials, videos, and documentation to help users start their game creation journey on GDevelop.
 
 ![Home-learn](Home-learn.png)
 
 ### 6. Play
-The Play section showcases community-made games published on gd.games, including multiplayer titles. Feedback on games can earn [credits](/gdevelop5/interface/profile/credits/) redeemable in the Shop.
+The Play section showcases community-made games published on gd.games, including multiplayer titles. [Sending written feedback](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/player-feedback/#giving-feedback) to creators through GDevelop's player feedback interface gives [credits](/gdevelop5/interface/profile/credits/) in exchange. These credits are redeemable in the Shop.
 
 ![Home-play](Home-play.png)
 
@@ -70,11 +71,11 @@ The Play section showcases community-made games published on gd.games, including
 
 The Project tab provides tools for game creation, including:
 
- * Project manager
- * Scene editor
- * Events editor
- * Preview
- * Debugger
+ 1. Project manager
+ 2. Scene editor
+ 3. Events editor
+ 4. Preview
+ 5. Debugger
 
 ![Project-Workspace](Project-Workspace.png)
 
@@ -90,11 +91,12 @@ Located in the upper-left corner, the **[Project manager](/gdevelop5/interface/p
 
 Use the project manager's drawer to add new elements to your project.
 
+**Saving and quitting a project**
+
 !!! note
 
     GDevelop doesn't close a project automatically. Even if all the project tabs are closed, GDevelop still considers the project to be open and active.
 
-**Saving and quitting a project**
 
 To close a project, click the three-dot menu on the project's card and select "Close Project". Ensure all changes are saved beforehand.
 ![Project-manager-open-project](Project-manager-open-project)
@@ -124,7 +126,7 @@ Additional sections include:
 
  1. **GDevelop account / Profile:** Manage subscriptions and account settings. [Learn more](/gdevelop5/interface/profile/#cancelling-your-subscription)
  2. **App Preferences:** Customize language, theme, and keyboard shortcuts. [Learn more](/gdevelop5/preferences/#preferences)
- 3. About GDevelop: View update history and check for [available updates](/gdevelop5/interface/updates).
+ 3. **About GDevelop:** View update history and check for [available updates](/gdevelop5/interface/updates).
 
 !!! note
 
@@ -132,6 +134,6 @@ Additional sections include:
 
 #### GDevelop's official app themes
 
-GDevelop offers two official themes: **GDevelop Default Dark** and **GDevelop Default Light**. UI components are available in [Storybook](http://gdevelop-storybook.s3-website-us-east-1.amazonaws.com/analytics-charts/latest/?path=/story/welcome--to-storybook) for reference for open-source contributors.
+GDevelop has two official themes: **GDevelop Default Dark** and **GDevelop Default Light**. UI components are available in [Storybook](http://gdevelop-storybook.s3-website-us-east-1.amazonaws.com/analytics-charts/latest/?path=/story/welcome--to-storybook) for reference for open-source contributors.
 
 ![Create-Dashboard-themes](Create-Dashboard-themes.png)
