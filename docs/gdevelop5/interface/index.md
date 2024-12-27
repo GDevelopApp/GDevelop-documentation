@@ -8,6 +8,7 @@ GDevelop's main game creation interface is divided into two main tabs: **Home Pa
 ![UI-tabs](UI-tabs.png)
 
 Watch an overview of GDevelop's layout:
+
 <div class="video-container">
   <iframe src="https://www.youtube.com/embed/bR2BjT7JG0k" frameborder="0" allowfullscreen></iframe>
 </div>
