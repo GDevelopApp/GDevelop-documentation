@@ -100,7 +100,7 @@ Use the project manager's drawer to add new elements to your project.
 
 To close a project, click the three-dot menu on the project's card and select "Close Project". Ensure all changes are saved beforehand.
 
-![Project-manager-open-project](Project-manager-open-project)
+![Project-manager-open-project](Project-manager-open-project.png)
 
 ### 2. Scene editor
 
