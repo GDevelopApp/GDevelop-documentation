@@ -3,7 +3,7 @@ title: GDevelop interface
 ---
 # GDevelop's UI interface
 
-GDevelop's main game creation interface is divided into two main tabs: **Home Page** (1) and **Project** (2).
+GDevelop's main game creation interface is divided into two main tabs: **Home Page** (1) and **Project Editor** (2).
 
 ![UI-tabs](UI-tabs.png)
 
@@ -67,9 +67,9 @@ The Play section showcases community-made games published on gd.games, including
 ![Home-play](Home-play.png)
 
 
-## Project section
+## Project editors
 
-The Project section provides tools for game creation, including:
+The Project editors provide tools for game creation, including:
 
  1. Project manager
  2. Scene editor
