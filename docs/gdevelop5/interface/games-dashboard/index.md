@@ -1,8 +1,8 @@
 ---
-title: Manage Games
+title: Game dashboard
 ---
 
-# Manage Games
+# Game dashboard
 
 
 !!! note
@@ -11,7 +11,7 @@ title: Manage Games
 
 Tracking game performance post-launch is crucial. It helps identify improvements, understand player behavior, and enhance the gaming experience for long-term success. Once the project has been publised, it's important to set up a system to collect player feedback, encourage player competition, market the game and measure player's engagement and retention.
 
-GDevelop's Manage section is equipped with features such as leaderboards, player feedback, game lobbies, and marketing publication packages. The engine provides a comprehensive suite of tools for developers to enhance player engagement and drive the success of their games.
+GDevelop's Game dashboard section is equipped with features such as leaderboards, player feedback, game lobbies, and marketing publication packages. The engine provides a comprehensive suite of tools for developers to enhance player engagement and drive the success of their games.
 
 ![Game-manage](Game-manage.png)
 
