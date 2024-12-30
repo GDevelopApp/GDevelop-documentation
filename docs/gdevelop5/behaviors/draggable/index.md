@@ -58,7 +58,7 @@ Using events, you can also check if an object is being dragged:
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://save-load){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/saveandloadexample.png){ width="320" }](https://editor.gdevelop.io/?project=example://save-load)
+[![](saveandloadexample.png){ width="320" }](https://editor.gdevelop.io/?project=example://save-load)
 
 
 

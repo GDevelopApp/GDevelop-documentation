@@ -4,8 +4,8 @@ nav:
     - Destroy outside screen behavior: destroyoutside
     - Draggable Object Behavior: draggable
     - pathfinding
-    - Physics behavior: physics
-    - Physics Engine: physics2
+    - 2D Physics Engine: physics2
+    - 3D Physics Engine: physics3d
     - Platform and platformer character behaviors: platformer
     - Top-Down Movement behavior: topdown
     - Tween behavior: tween

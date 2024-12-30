@@ -105,7 +105,7 @@ You can run the game and see that the events in "doStepPreEvents" function (or "
 
 To test this, we've added the "Destructible" behavior to object "Platform". Then, when using the debugger, we can inspect "Platform" instances and see that they have a "Damage" variable (set to 0). If we use the debugger (or an event) to set it to 100, the object is removed from the scene:
 
-![](/gdevelop5/behaviors/example-test-destructible-behavior-debugger.png)
+![](example-test-destructible-behavior-debugger.png)
 
 ### 2. Use actions, conditions and expressions
 
@@ -114,7 +114,7 @@ Like any other "built-in behavior", you can also use actions/conditions (or expr
 ![](pasted/20210907-000606.png)
 
 It is displayed in the events sheet:
-![](/gdevelop5/behaviors/custom-behavior-action-events-sheet.png)
+![](custom-behavior-action-events-sheet.png)
 
 As you can see, this allows creating very expressive and easy-to-read events. You can then make the behavior more complex or reuse it on other objects.
 
