@@ -1,3 +1,6 @@
+---
+title: 3D Physics Engine
+---
 # 3D Physics Engine
 
 GDevelop provides a powerful 3D Physics Engine, allowing to create any kind of 3D games.
