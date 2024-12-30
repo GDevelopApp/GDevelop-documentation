@@ -1,16 +1,16 @@
 ---
-title: Create section
+title: Games section (Create)
 ---
 
-# Create section
+# Games section
 
-The Create Dashboard is the central hub for game development projects on GDevelop.
+The Games section is the central hub for game development projects on GDevelop.
 It provides an all-in-one space to analyze, access and manage games and projects.
 
 ![Create-Dashboard](Create-Dashboard.png)
 
 
-Through the Create Dashboard creators can follow numerous steps of game development:
+Through the Games section, creators can follow numerous steps of game development:
 
 ## 1. Game Earnings
 
