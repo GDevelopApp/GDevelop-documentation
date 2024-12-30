@@ -31,8 +31,8 @@ The **Get Started** section offers resources and updates tailored for new users.
 
 ![Home-get-started](Home-get-started.png)
 
-### 2. Create
-The **Create section** serves as a central hub for managing your game projects, providing tools to access, analyze, and organize files. Learn more about the [Create](/gdevelop5/interface/create-dashboard/) section.
+### 2. Create (Games section)
+The **Games section** serves as a central hub for managing your game projects, providing tools to access, analyze, and organize files. Learn more about the [Games section](/gdevelop5/interface/create-dashboard/) section.
 
 ![Home-create](Home-create.png)
 
