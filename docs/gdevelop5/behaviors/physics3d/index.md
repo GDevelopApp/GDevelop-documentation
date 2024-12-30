@@ -11,17 +11,17 @@ GDevelop provides a powerful 3D Physics Engine, allowing to create any kind of 3
 
 The 3D Physics Engine is available through:
 
-* A behavior **"3D physics"** to apply to any 3D object of the physics world.
-* A dedicated behavior for 3D characters: **"3D physics character"**.
+* A behavior **3D physics** to apply to any 3D object of the physics world.
+* A dedicated behavior for 3D characters: **3D physics character**.
 * A few behaviors add out of the box support for touch screens, gamepads and keyboard/mouse (see [Move a 3D character with controls](#move-a-3d-character-with-controls) section).
 
 
 ## Make ground, walls and platforms
 
-Add the behavior **"3D physics"** to the object and choose **Static** for the **Type** in the behavior properties. Static objects can't be moved though collisions nor forces.
+Add the behavior **3D physics** to the object and choose **Static** for the **Type** in the behavior properties. Static objects can't be moved though collisions nor forces.
 
 !!! tip 
-    For complicated structures like a bridge. You can use hidden objects to build the shape and add the **"3D physics"** behavior to these objects instead of the bridge model.
+    For complicated structures like a bridge. You can use hidden objects to build the shape and add the **3D physics** behavior to these objects instead of the bridge model.
 
 
 ## Make pushable objects
@@ -40,6 +40,8 @@ The [3D ellipse movement](/gdevelop5/extensions/physics-ellipse-movement3d/) beh
 
 
 ## Move a 3D character with controls
+
+The **3D physics character** behavior allows characters to walk, jump, follow slopes and stick to moving platforms.
 
 !!! tip 
     The **Capsule** shape is recommended for characters to avoid them floating over slopes.
