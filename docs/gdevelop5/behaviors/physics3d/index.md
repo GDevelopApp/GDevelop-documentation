@@ -21,8 +21,7 @@ The 3D Physics Engine is available through:
 Add the behavior **3D physics** to the object and choose **Static** for the **Type** in the behavior properties. Static objects can't be moved though collisions nor forces.
 
 !!! tip 
-    For complicated structures like a bridge. You can use hidden objects to build the shape and add the **3D physics** behavior to these objects instead of the bridge model.
-
+    For complicated structures like a bridge, you can use hidden objects to build the shape and add the **3D physics** behavior to these objects instead of the bridge model.
 
 ## Make pushable objects
 
@@ -60,7 +59,7 @@ These behaviors make the character move according to player inputs automatically
 [![](platformer3d.png){ width="320" }](https://editor.gdevelop.io/?project=example://3d-platformer)
 
 
-### Move a 3D shooter character
+### Move a 3D shooter ("FPS") character
 
 These behaviors make the character move according to player inputs automatically:
 
