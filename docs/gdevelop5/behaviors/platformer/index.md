@@ -114,7 +114,7 @@ It's not easy to know how these values change the jump trajectory. The best is t
 
     The [hot reload](/gdevelop5/interface/preview) is a great help to speed up the process of finding the right jump.
 
-### Tip: Use the Platformer jump evaluator example
+**Platformer jump evaluator**
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://platformer-jump-evaluator){ .md-button .md-button--primary }
 
@@ -136,7 +136,7 @@ The [advanced platformer movements](/gdevelop5/extensions/advanced-jump/referenc
         **See it in action!** 🎮
     Open these examples online.
 
-**Platformer Behavior**
+**Platformer**
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://platformer){ .md-button .md-button--primary }
 
@@ -145,7 +145,7 @@ The [advanced platformer movements](/gdevelop5/extensions/advanced-jump/referenc
 
 
 
-**Parallax Scrolling Behavior**
+**Parallax Scrolling**
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://parallax-scrolling){ .md-button .md-button--primary }
 
