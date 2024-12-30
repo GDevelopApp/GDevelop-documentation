@@ -1,4 +1,4 @@
-# 3D walk
+# Top-down walk
 
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/941323cf01b837b2eb512ecbf0a95add8a195b3696eb6f5865dc090e526dc9b3_walk.svg" class="extension-icon"></img>
 Turn and move objects forward and sideways.
@@ -14,14 +14,14 @@ Turn and move objects forward and sideways.
 
 ---
 
-Move objects forward and sideways arrording to the direction they're facing.
+Move objects forward and sideways according to the direction they're facing.
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
 
 
-## 3D walk 
+## Top-down walk 
 
 Turn and move objects forward and sideways. 
 
@@ -123,4 +123,4 @@ Compare the maximum speed of the object.
 
 ---
 
-*This page is an auto-generated reference page about the **3D walk** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Top-down walk** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
