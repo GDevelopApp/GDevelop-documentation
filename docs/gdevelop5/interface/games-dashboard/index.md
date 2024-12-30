@@ -50,10 +50,10 @@ Through the game details view, a creator can configure their game's visibility o
 * **Publish game on gd.games (on/off):** controls game publication on GDevelop's free game publication platform gd.games. Turning it off automatically disables the following customisation options.
 * **Visibility**:
   
-   * **Visible in search and profile:** Players will be available to find the game through the gd.games website
-   * **Hidden:** Only players with the URL will be able to find the game on gd.games.
-* **Enable ads and revenue sharing on the game page (on/off):** [Monetize your game](https://wiki.gdevelop.io/gdevelop5/monetization/#publishing-on-platforms-with-integrated-ads) without setting up any web ads network.
-* **Collect feedback from players (on/off):** The game will display a banner to collect [player feedback](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/player-feedback/) through gd.games website
+    * **Visible in search and profile:** Players will be available to find the game through the gd.games website
+    * **Hidden:** Only players with the URL will be able to find the game on gd.games.
+    * **Enable ads and revenue sharing on the game page (on/off):** [Monetize your game](https://wiki.gdevelop.io/gdevelop5/monetization/#publishing-on-platforms-with-integrated-ads) without setting up any web ads network.
+    * **Collect feedback from players (on/off):** The game will display a banner to collect [player feedback](https://wiki.gdevelop.io/gdevelop5/interface/games-dashboard/player-feedback/) through gd.games website
 
 To learn how to publish to the gd.games platform and configure the privacy of the links follow [these instructions](https://wiki.gdevelop.io/gdevelop5/publishing/web/).
 
