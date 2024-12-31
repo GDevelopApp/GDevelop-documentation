@@ -9,7 +9,7 @@ title: Leaderboard Administration
     To learn about how to send a score to a leaderboard and then display it, see [leaderboards](/gdevelop5/all-features/leaderboards).
 
 
-To manage leaderboards, start by opening the GDevelop application and clicking on "File" -> "Games Dashboard".  Find the game you want to manage and click "Manage game".  Next, click on the tab named "Leaderboards".
+To administrate leaderboards of your game, find your game on GDevelop home page, open the game dashboard and find the section named "Leaderboards". Click on "See more".
 
 ![](/gdevelop5/interface/games-dashboard/leaderboard-administration/pasted/20220429-164150.png)
 
