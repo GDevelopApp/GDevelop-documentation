@@ -17,7 +17,7 @@ The Games section allows you to access, edit, manage, filter, and create your ga
 
 Each project attached to a game can be individually modified or, for cloud projects, shared with collaborators (see [project collaboration](/gdevelop5/collaboration/)).
 
-#### Game cards
+### Game cards
 
 Each Game Card provides key details and indicators:
 
