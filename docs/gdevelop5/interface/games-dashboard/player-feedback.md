@@ -5,7 +5,7 @@ title: Player Feedback
 
 !!! note
 
-    **This feature is available to:** All users with a GDevelop account. Please note that the number of player feedbacks might be limited to each subscription level. For more information on subscription limits, [click here](https://gdevelop.io/pricing)
+    This feature is available to all users with a GDevelop account. Please note that the number of player feedbacks might be limited to each subscription level. For more information on subscription limits, [click here](https://gdevelop.io/pricing)
 
 Player feedback is a crucial step in the process of game development.
 
@@ -59,7 +59,7 @@ Rate the feedback by clicking on the correspondent icon:
 2. Good feedback
 3. Bad feedback
 4. Report feedback (spam)
-5. Resolve / Close feedback 
+5. Resolve / Close feedback
 
 Keep in mind that the creators that rate the most amount of player feedback, will be listed in the "Play" section in the Top 5 "Games with rated comments".
 

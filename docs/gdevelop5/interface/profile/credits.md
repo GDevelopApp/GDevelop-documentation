@@ -18,20 +18,17 @@ Credits can be acquired in several ways:
 - **Purchasing**: You can buy credits directly from the GDevelop interface, via your profile. The credits will be added to your account immediately after the purchase.
 - **Winning**: You can win credits by participating in game jams, unlocking achievements, or other specific actions in the community. The credits will be added to your account immediately after the action is completed.
 - **Giving game feedback**: You can earn credits by giving feedback on games on [gd.games](https://gd.games/). Depending on the quality of the feedback, you can earn credits that will be added to your account immediately after the feedback is submitted.
+- **Converting ads earnings to credits**: Games published on gd.games will earn money according to the number of sessions and player engagement. You can convert [these earnings to credits](/gdevelop5/monetization/).
 
 ![GDevelop Credits Packages](/gdevelop5/interface/profile/credits-packages.png)
 
-## Current Features
+## Using Credits in the GDevelop ecosystem
 
-### Marketing (Promotion) Package
+### Boosts (Marketing Packages)
 
-Credits can be utilized to purchase a **Marketing Package** for your game. These packages include:
+Credits can be used to purchase a **Boost** for your game. These boosts will increase the visibility of your game on GDevelop's game platform, reaching a wider audience of dozens of thousands of players. According to the Boost, your game will also be promoted on GDevelop ad network.
 
-- Increased Visibility on gd.games: Boost the visibility of your game on GDevelop's game platform, reaching a wider audience of dozens of thousands of players.
-- Social Network Boost: Leverage social media promotion made by GDevelop to enhance your game's online presence.
-- Dedicated Banner on the app: Show a dedicated promotional banner within the GDevelop app, attracting the attention from hundreds of thousands of players.
-
-You can learn more about the [Marketing and Promotional Packages here](/gdevelop5/interface/games-dashboard/marketing/).
+You can learn more about the [Marketing and Boosts here](/gdevelop5/interface/games-dashboard/marketing/).
 
 ### Assets and Game Templates
 
@@ -46,6 +43,6 @@ You can also consider getting a [subscription](/gdevelop5/interface/profile#subs
 
 ![Online build purchase with credits](/gdevelop5/interface/profile/online-build-purchase-credits.png)
 
-## Future Access Unlocked with Credits
+## Unlock Premium Course Chapters
 
-As the GDevelop ecosystem continues to evolve, more perks will be accessible using credits. Stay tuned!
+You can use credits to unlock chapters of premium course offered in the Learn section of the Home page. These courses are designed to help you quickly learn GDevelop.
