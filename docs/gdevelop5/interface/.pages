@@ -4,7 +4,7 @@ nav:
     - project-manager
     - scene-editor
     - events-editor
-    - preview.md
+    - Preview: preview.md
     - debugger
     - profile
     - More:
