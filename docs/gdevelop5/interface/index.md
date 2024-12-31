@@ -1,65 +1,140 @@
 ---
 title: GDevelop interface
 ---
-# GDevelop interface
+# GDevelop's UI interface
 
-The working interface of GDevelop is based on editors that are displayed in tabs. These editors allow you to change different parts of your game.
+GDevelop's main game creation interface is divided into multiple tabs: the **Home Page** (1) and **Project Editors** (2).
 
-![](/gdevelop5/interface/pasted/20230309-173715.png)
+![UI-tabs](UI-tabs.png)
+
+Watch an overview of GDevelop's layout:
 
 <div class="video-container">
   <iframe src="https://www.youtube.com/embed/bR2BjT7JG0k" frameborder="0" allowfullscreen></iframe>
 </div>
 
-## Home Page
+## Home Page tab
 
-The Home Page is displayed when you first launch GDevelop. From the Home Page you can create your projects, load previously saved projects, or load tutorials.
+The **Home Page** appears when you first launch GDevelop. It is composed of multiple sections:
 
-![](/gdevelop5/interface/pasted/20230303-231024.png)
+ 1. Get Started
+ 2. Create
+ 3. Teach
+ 4. Shop
+ 5. Learn
+ 6. Play
 
-At startup, GDevelop will check for new updates. If a new update is available, the update will automatically be downloaded (unless deactivated in preferences).
+![Create-Dashboard-dark](Create-Dashboard-dark.png)
 
-You can see [the progress by clicking on About GDevelop](/gdevelop5/interface/updates).
+### 1. Get Started
+The **Get Started** section offers resources and updates tailored for new users. To disable this section on startup, check "Don't show this screen on next startup" at the bottom of the page.
 
-## Project Manager
+![Home-get-started](Home-get-started.png)
 
-When a project is opened, you can click on the top-left button to access to the project manager.
+### 2. Create (Games section)
+The **Games section** serves as a central hub for managing your game projects, providing tools to access, analyze, and organize files. Learn more about the [Games section](/gdevelop5/interface/create-dashboard/) section.
 
-![](/gdevelop5/interface/pasted/20230309-173922.png)
+![Home-create](Home-create.png)
 
-The project manager shows the structure of your game:
+### 3. Teach
+The Teach section is designed for educational use, offering tools for teachers and schools, including anonymous student accounts and teacher management interfaces. Available exclusively with an [Education Subscription](https://gdevelop.io/pricing/education). Learn more about the advantages of [Teacher accounts](/gdevelop5/education/#teacher-accounts-managing-students-and-their-work).
 
-![](/gdevelop5/interface/pasted/20230309-174021.png)
+![Home-teach](Home-teach.png)
 
-Using the project manager, you can add new elements to your game and open editors.
-Learn more about [the content of the project manager here](/gdevelop5/interface/project-manager).
+### 4. Shop
+GDevelop's Marketplace offers pre-made assets, including:
 
-## Scene editor
+ * Character animations
+ * Backgrounds and props
+ * Particles and visual effect
+ * User Interface parts
+ * Smart, ready to use objects
+ * Ready-made game templates
+ * Sounds and music
 
-When opening a scene (or an external layout), the scene editor associated with that scene opens.
-This is where you can design and build your game levels and menus by creating and adding objects to the scene.
-The first scene in the list is the first scene loaded when the game is launched.
+![Home-shop](Home-shop.png)
 
-[Learn more about using scene editors](/gdevelop5/interface/scene-editor).
+Creators can contribute and sell their assets. [Learn more about selling assets here](gdevelop5/community/sell-asset-pack-store/).
 
-## Events editor
+### 5. Learn
+The **Learn section** includes courses, tutorials, videos, and documentation to help users start their game creation journey on GDevelop.
 
-When opening a scene (or when opening external events), the events editor associated with that scene is also opened. This is where you set up your game's logic, using GDevelop's visual no-code system to program your game without any specific programming knowledge or experience.
+![Home-learn](Home-learn.png)
+
+### 6. Play
+The Play section showcases community-made games published on gd.games, including multiplayer titles. [Sending written feedback](/gdevelop5/interface/games-dashboard/player-feedback/#giving-feedback) to creators through GDevelop's player feedback interface gives [credits](/gdevelop5/interface/profile/credits/) in exchange. These credits are redeemable in the Shop.
+
+![Home-play](Home-play.png)
+
+
+## Project editors
+
+When editing a game with GDevelop, multiple editors can be opened in tabs next to the home page:
+
+ 1. Project manager
+ 2. Scene editor
+ 3. Events editor
+ 4. Preview
+ 5. Debugger
+
+![Project-Workspace](Project-Workspace.png)
+
+### 1. Project manager
+Located in the upper-left corner, the **[Project manager](/gdevelop5/interface/project-manager/#project-manager)** activates when a project is open. It offers access to:
+
+ * [Global variables](/gdevelop5/all-features/variables/global-variables/#global-variables)
+ * [Resources](/gdevelop5/tutorials/resources/#resources)
+ * [Scenes](/gdevelop5/interface/scene-editor/)
+ * [Extensions](/gdevelop5/extensions/tiers/#extension-tiers)
+ * [External events](/gdevelop5/interface/events-editor/external-events/#external-events)
+ * [External layouts](/gdevelop5/interface/scene-editor/external-layouts/#external-layouts)
+
+Use the project manager's drawer to add new elements to your project.
+
+**Saving and quitting a project**
+
+!!! note
+
+    GDevelop doesn't close a project automatically. Even if all the project tabs are closed, GDevelop still considers the project to be open and active.
+
+
+To close a project, click the three-dot menu on the project's card and select "Close Project". Ensure all changes are saved beforehand.
+
+![Project-manager-open-project](Project-manager-open-project.png)
+
+### 2. Scene editor
+
+The **Scene editor** is where you design and build game levels and menus by placing and configuring objects. The first scene in the list is loaded when the game starts.
+
+Learn more about the scene editor and it's parts [here](/gdevelop5/interface/scene-editor).
+
+### 3. Events editor
+The Events Editor allows you to define your game's logic using GDevelop's visual no-code system.
 
 Learn more about [its usage on this page](/gdevelop5/interface/events-editor) or check [the help about events](/gdevelop5/events).
 
-## Top menu
+### 4. Preview
+You can preview your project at any time using the **[Preview](/gdevelop5/interface/preview/#previewing-your-game)** button in the toolbar. Additional options are available in the drop-down menu next to the button.
 
-The menu at the top left corner of the screen allows you to open, save, and [publish a game](/gdevelop5/publishing).
+### 5. Debugger
+The **[debugger](/gdevelop5/interface/debugger/profile-your-game/)** allows to inspect a running game, helps identify performance bottlenecks and optimize resource usage.
 
-You can also open GDevelop preferences or see [the profile associated with your GDevelop account](/gdevelop5/interface/profile).
+## Other sections of the app
 
-![](/gdevelop5/interface/pasted/20230309-182715.png)
+![Create-Dashboard-dark2](Create-Dashboard-dark2.png)
 
-## Interface Themes
+Additional sections include:
 
-You can choose a different theme for the interface, according to your taste. To change the theme, navigate to **File**->**Preferences**.
+ 1. **GDevelop account (profile):** Manage subscriptions and account settings. [Learn more](/gdevelop5/interface/profile/#cancelling-your-subscription)
+ 2. **Preferences:** Customize language, theme, and keyboard shortcuts. [Learn more](/gdevelop5/preferences/#preferences)
+ 3. **About GDevelop:** View update history and check for [available updates](/gdevelop5/interface/updates).
 
-See, [preferences](/gdevelop5/preferences)
+!!! note
 
-You can also create themes of your own to use and share. Learn more about creating a theme [here](/gdevelop5/all-features/themes).
+     At startup, GDevelop will check for new updates. If a new update is available, the update will automatically be downloaded (unless deactivated in preferences).
+
+### GDevelop UI themes
+
+GDevelop provides two official themes: **GDevelop Default Dark** and **GDevelop Default Light**, as well as multiple community contributed themes. You can choose them from the app preferences.
+
+![Create-Dashboard-themes](Create-Dashboard-themes.png)
