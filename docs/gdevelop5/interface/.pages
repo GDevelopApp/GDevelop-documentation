@@ -1,5 +1,5 @@
 nav:
-    - games
+    - games.md
     - games-dashboard
     - project-manager
     - scene-editor
