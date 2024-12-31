@@ -1,8 +1,8 @@
 ---
-title: Games section (Create)
+title: Games
 ---
 
-# Games section
+# Games
 
 The Games section is the central hub for game development projects on GDevelop.
 It provides an all-in-one space to analyze, access and manage games and projects.
