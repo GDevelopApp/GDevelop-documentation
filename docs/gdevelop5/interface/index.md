@@ -105,7 +105,7 @@ To close a project, click the three-dot menu on the project's card and select "C
 
 The **Scene editor** is where you design and build game levels and menus by placing and configuring objects. The first scene in the list is loaded when the game starts.
 
-Learn more about the scene editor and it's parts [here](/gdevelop5/interface/scene-editor).
+Learn more about the scene editor [here](/gdevelop5/interface/scene-editor).
 
 ### 3. Events editor
 The Events Editor allows you to define your game's logic using GDevelop's visual no-code system.
