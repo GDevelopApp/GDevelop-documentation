@@ -32,7 +32,7 @@ The **Get Started** section offers resources and updates tailored for new users.
 ![Home-get-started](Home-get-started.png)
 
 ### 2. Create (Games section)
-The **Games section** serves as a central hub for managing your game projects, providing tools to access, analyze, and organize files. Learn more about the [Games section](/gdevelop5/interface/create-dashboard/) section.
+The **Games section** serves as a central hub for managing your game projects, providing tools to access, analyze, and organize files. Learn more about the [Games section](/gdevelop5/interface/games/) section.
 
 ![Home-create](Home-create.png)
 
@@ -80,18 +80,17 @@ When editing a game with GDevelop, multiple editors can be opened in tabs next t
 ![Project-Workspace](Project-Workspace.png)
 
 ### 1. Project manager
+
 Located in the upper-left corner, the **[Project manager](/gdevelop5/interface/project-manager/#project-manager)** activates when a project is open. It offers access to:
 
  * [Global variables](/gdevelop5/all-features/variables/global-variables/#global-variables)
- * [Resources](/gdevelop5/tutorials/resources/#resources)
+ * [Resources](/gdevelop5/interface/project-manager/resources)
  * [Scenes](/gdevelop5/interface/scene-editor/)
  * [Extensions](/gdevelop5/extensions/tiers/#extension-tiers)
  * [External events](/gdevelop5/interface/events-editor/external-events/#external-events)
  * [External layouts](/gdevelop5/interface/scene-editor/external-layouts/#external-layouts)
 
-Use the project manager's drawer to add new elements to your project.
-
-**Saving and quitting a project**
+Use the project manager to add new elements to your project.
 
 !!! note
 
@@ -106,7 +105,7 @@ To close a project, click the three-dot menu on the project's card and select "C
 
 The **Scene editor** is where you design and build game levels and menus by placing and configuring objects. The first scene in the list is loaded when the game starts.
 
-Learn more about the scene editor and it's parts [here](/gdevelop5/interface/scene-editor).
+Learn more about the scene editor [here](/gdevelop5/interface/scene-editor).
 
 ### 3. Events editor
 The Events Editor allows you to define your game's logic using GDevelop's visual no-code system.

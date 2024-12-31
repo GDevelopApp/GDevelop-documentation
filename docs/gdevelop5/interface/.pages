@@ -1,11 +1,13 @@
 nav:
+    - games.md
+    - games-dashboard
     - project-manager
     - scene-editor
     - events-editor
-    - preview.md
+    - Preview: preview.md
     - debugger
     - profile
-    - games-dashboard
+    - ...
     - More:
       - command-palette-and-shortcuts.md
-      - ...
+      - Updates: updates.md

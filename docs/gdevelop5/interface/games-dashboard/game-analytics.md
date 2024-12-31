@@ -1,15 +1,12 @@
 # Game Analytics
 
-!!! note
-
-    **Who can use this feature:** All users with a GDevelop account who have published their game on [gd.games](https://gd.games). Some limitations may apply depending on the license type.
-
 Player analytics are essential during video game development. They provide data on how long players stay engaged with the game and how quickly they lose interest. By understanding these patterns, developers can tailor game features to better suit player preferences, enhancing enjoyment and engagement. Alongside player feedback, this information guides improvements, helping ensure the game's success by making it more appealing and enjoyable for its audience.
 
 ![Manage-Games-Dashoard](Manage-Games-Dashboard.png)
 
-## Accessing game metrics
-When you've opened the "Manage" section, find the game you'd like to evaluate and click "Manage game". Under the thumbnail image you'll see the "Analytics" card displaying the numer of sessions in your game. Click "See all" to access the full report.
+## Accessing game metric
+
+Find the game you'd like to access on GDevelop home and click "Manage". Under the thumbnail image you'll see the "Analytics" card displaying the numer of sessions in your game. Click "See all" to access the full report.
 
 ![Game-Dashboard](Game-Dashboard.png)
 
@@ -40,9 +37,8 @@ If you don't have a GDevelop subscription, you'll only get access to the number 
 As GDevelop is providing the analytics, the infrastructure cost and the bandwidth to collect the session metrics, we ask you to support GDevelop by getting a subscription.
 This will help the development of the game engine for the future and help to strengthen the community!
 
-While the presentation of the metrics is for now very simple, it will be improved later to offer a better picture of the sessions played on your game.
-
 ## About collecting metrics
+
 While GDevelop strive to collect only usage metrics that are anonymized, and limits these to the purpose of analyzing the performance of your game, you may collect other metrics by your own means. In any cases, it's important that you have a clear privacy policy (which will be asked by most app stores anyway) explaining how you use these data and respect the privacy of your users.
 
 !!! tip
