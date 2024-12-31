@@ -1,5 +1,5 @@
 ---
-title: Set the icons and thumbnail of the game
+title: Game icons and thumbnail
 ---
 # Set the icons and thumbnail of the game
 

@@ -80,18 +80,19 @@ When editing a game with GDevelop, multiple editors can be opened in tabs next t
 ![Project-Workspace](Project-Workspace.png)
 
 ### 1. Project manager
+
 Located in the upper-left corner, the **[Project manager](/gdevelop5/interface/project-manager/#project-manager)** activates when a project is open. It offers access to:
 
  * [Global variables](/gdevelop5/all-features/variables/global-variables/#global-variables)
- * [Resources](/gdevelop5/tutorials/resources/#resources)
+ * [Resources](/gdevelop5/interface/project-manager/resources)
  * [Scenes](/gdevelop5/interface/scene-editor/)
  * [Extensions](/gdevelop5/extensions/tiers/#extension-tiers)
  * [External events](/gdevelop5/interface/events-editor/external-events/#external-events)
  * [External layouts](/gdevelop5/interface/scene-editor/external-layouts/#external-layouts)
 
-Use the project manager's drawer to add new elements to your project.
+Use the project manager to add new elements to your project.
 
-**Saving and quitting a project**
+#### Saving and quitting a project
 
 !!! note
 
