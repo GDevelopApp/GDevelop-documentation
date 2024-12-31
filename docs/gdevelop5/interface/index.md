@@ -92,8 +92,6 @@ Located in the upper-left corner, the **[Project manager](/gdevelop5/interface/p
 
 Use the project manager to add new elements to your project.
 
-#### Saving and quitting a project
-
 !!! note
 
     GDevelop doesn't close a project automatically. Even if all the project tabs are closed, GDevelop still considers the project to be open and active.
