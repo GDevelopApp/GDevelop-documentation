@@ -203,7 +203,7 @@ nav:
             - HasLanded: has-landed
             - Hedgehog platformer: hedgehog-platformer
             - Joint Connector: joint-connector
-            - 3D jump: jump3d
+            - 3D jump (deprecated): jump3d
             - Magnetic Effect: magnetic-effect
             - Navigation mesh pathfinding (experimental): nav-mesh-pathfinding
             - Platform ledge grabber: platform-ledge-grabber
@@ -215,7 +215,7 @@ nav:
             - Top-down corner sliding: top-down-corner-sliding
             - Top-down movement animator: top-down-movement-animator
             - Trampoline Platform: trampoline-platform
-            - 3D walk: walk3d
+            - Top-down walk: walk3d
         - Network:
             - Update checker: update-checker
             - Upload Download Text File: upload-download-text-file

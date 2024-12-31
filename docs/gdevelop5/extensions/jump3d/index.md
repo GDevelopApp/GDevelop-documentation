@@ -1,4 +1,4 @@
-# 3D jump
+# 3D jump (deprecated)
 
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Sports and Fitness/29b5c1893f81031cca98c9a1c447464b433717bdf3569ce5fac7c7cb0a8a2b82_Sports and Fitness_gym_running_foot_run.svg" class="extension-icon"></img>
 Jump and fall along Z axis.
@@ -16,12 +16,14 @@ Jump and fall along Z axis.
 
 It handles basic collisions with 3D boxes but rotations around X and Y axes are not supported.
 
+This extension is deprecated. The [3D physics engine](https://wiki.gdevelop.io/gdevelop5/behaviors/physics3d) should be used instead.
+
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
 
 
-## 3D jump 
+## 3D jump (deprecated) 
 
 Jump and fall along Z axis. 
 
@@ -115,4 +117,4 @@ Check if stop falling when Z equals 0.
 
 ---
 
-*This page is an auto-generated reference page about the **3D jump** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **3D jump (deprecated)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
