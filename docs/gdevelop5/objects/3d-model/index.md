@@ -3,17 +3,9 @@ title: 3D model
 ---
 # 3D model
 
-A 3D model displays an object modeled in a 3D modeling software. Like a [sprite for 2D games](../sprite) (or for interfaces in 3D games), it's a very common object that can be used for players, enemies, backgrounds, projectiles.
+A 3D model displays an object modeled in a 3D modeling software, with one or more animations. Like a [sprite for 2D games](../sprite) (or for interfaces in 3D games), it's a very common object that can be used for players, enemies, backgrounds, projectiles.
 
 If you need to create walls, plane grounds or other rectangular/cubic 3D objects, consider using the [3D box object](../3d-box).
-
-!!! note
-
-    This object is new and subject to changes. Check the release notes when GDevelop is updated and regularly read this page to ensure you follow the best practices when using 3D models in your game.
-
-    Notably, this object does not yet support animations.
-
-    Your help to [improve these features in the GDevelop game engine is welcome](https://github.com/4ian/GDevelop).
 
 ## Lighting
 
