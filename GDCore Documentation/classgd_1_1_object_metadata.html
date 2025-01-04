@@ -199,6 +199,10 @@ std::map&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>, <a cla
 <tr class="separator:a79ab4b721d03d02d42190541139a5ec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cc76019f0bca815f3b2b26ad88955dd"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>, <a class="el" href="classgd_1_1_expression_metadata.html">gd::ExpressionMetadata</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_object_metadata.html#a9cc76019f0bca815f3b2b26ad88955dd">GetAllStrExpressions</a> () override</td></tr>
 <tr class="separator:a9cc76019f0bca815f3b2b26ad88955dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a175a450c74722a38e39a65f5597f5fc9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_object_metadata.html#a175a450c74722a38e39a65f5597f5fc9">IsPrivate</a> () const override</td></tr>
+<tr class="separator:a175a450c74722a38e39a65f5597f5fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a776824ebb70df1808fe1b4e4326cbe19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_object_metadata.html">ObjectMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_object_metadata.html#a776824ebb70df1808fe1b4e4326cbe19">SetPrivate</a> ()</td></tr>
+<tr class="separator:a776824ebb70df1808fe1b4e4326cbe19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c4624eebdffbc4040bfd7fb3a6533df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_object_metadata.html">ObjectMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_object_metadata.html#a2c4624eebdffbc4040bfd7fb3a6533df">SetHidden</a> ()</td></tr>
 <tr class="memdesc:a2c4624eebdffbc4040bfd7fb3a6533df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the object to be hidden in the IDE.  <a href="classgd_1_1_object_metadata.html#a2c4624eebdffbc4040bfd7fb3a6533df">More...</a><br /></td></tr>
 <tr class="separator:a2c4624eebdffbc4040bfd7fb3a6533df"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -888,6 +892,34 @@ It's recommended to use this function to avoid declaring 3 times a similar expre
 
 </div>
 </div>
+<a id="a175a450c74722a38e39a65f5597f5fc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a175a450c74722a38e39a65f5597f5fc9">&#9670;&nbsp;</a></span>IsPrivate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gd::ObjectMetadata::IsPrivate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Check if the behavior is private - it can't be used outside of its extension. </p>
+
+<p>Implements <a class="el" href="classgd_1_1_instruction_or_expression_container_metadata.html">gd::InstructionOrExpressionContainerMetadata</a>.</p>
+
+</div>
+</div>
 <a id="aa4e07c79fb4d835e65ae6c44e6c3bb5f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa4e07c79fb4d835e65ae6c44e6c3bb5f">&#9670;&nbsp;</a></span>SetHelpPath()</h2>
 
@@ -998,6 +1030,32 @@ It's recommended to use this function to avoid declaring 3 times a similar expre
 <dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000017">Deprecated:</a></b></dt><dd>Use <code>AddIncludeFile</code> instead as clearing the list is more error prone. </dd></dl>
 
 <p>Implements <a class="el" href="classgd_1_1_instruction_or_expression_container_metadata.html#a43b416d076436b510d9ea2ad72d22b57">gd::InstructionOrExpressionContainerMetadata</a>.</p>
+
+</div>
+</div>
+<a id="a776824ebb70df1808fe1b4e4326cbe19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a776824ebb70df1808fe1b4e4326cbe19">&#9670;&nbsp;</a></span>SetPrivate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classgd_1_1_object_metadata.html">ObjectMetadata</a>&amp; gd::ObjectMetadata::SetPrivate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set that the behavior is private - it can't be used outside of its extension. </p>
 
 </div>
 </div>

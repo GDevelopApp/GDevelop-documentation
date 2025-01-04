@@ -177,8 +177,8 @@ const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</t
 const std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_behavior_metadata.html#a4889863feb840bff485bf382f9dc3d2e">GetRequiredBehaviorTypes</a> () const</td></tr>
 <tr class="memdesc:a4889863feb840bff485bf382f9dc3d2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the types of the behaviors that are required by this behavior. <br /></td></tr>
 <tr class="separator:a4889863feb840bff485bf382f9dc3d2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75affab95fcefaf0cedd90895241999a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_behavior_metadata.html#a75affab95fcefaf0cedd90895241999a">IsPrivate</a> () const</td></tr>
-<tr class="separator:a75affab95fcefaf0cedd90895241999a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a592df48281f4515a7ec36ee2e7b17e93"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_behavior_metadata.html#a592df48281f4515a7ec36ee2e7b17e93">IsPrivate</a> () const override</td></tr>
+<tr class="separator:a592df48281f4515a7ec36ee2e7b17e93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a107e94c490c976021a1ee90f86c598fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_behavior_metadata.html">BehaviorMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_behavior_metadata.html#a107e94c490c976021a1ee90f86c598fd">SetPrivate</a> ()</td></tr>
 <tr class="separator:a107e94c490c976021a1ee90f86c598fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cda070a2e7cbe58457372c8bbc6ad01"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_behavior_metadata.html#a7cda070a2e7cbe58457372c8bbc6ad01">IsHidden</a> () const</td></tr>
@@ -1256,8 +1256,8 @@ It's recommended to use this function to avoid declaring 3 times a similar expre
 
 </div>
 </div>
-<a id="a75affab95fcefaf0cedd90895241999a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75affab95fcefaf0cedd90895241999a">&#9670;&nbsp;</a></span>IsPrivate()</h2>
+<a id="a592df48281f4515a7ec36ee2e7b17e93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a592df48281f4515a7ec36ee2e7b17e93">&#9670;&nbsp;</a></span>IsPrivate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1274,11 +1274,13 @@ It's recommended to use this function to avoid declaring 3 times a similar expre
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 <p>Check if the behavior is private - it can't be used outside of its extension. </p>
+
+<p>Implements <a class="el" href="classgd_1_1_instruction_or_expression_container_metadata.html">gd::InstructionOrExpressionContainerMetadata</a>.</p>
 
 </div>
 </div>
