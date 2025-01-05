@@ -212,4 +212,16 @@ This is a few instances of extensions that use JavaScript:
 * The [Object stack](/gdevelop5/extensions/object-stack/) extension exposes conditions that pick object instances according to their position in a stack.
 * The [Clipboard](/gdevelop5/extensions/clipboard/) extension uses an asynchronous web API and implements fallbacks to Electron API or Cordova plugins.
 
+## Experimental new option: JavaScript files in your project
+
+Starting with GDevelop 5.5.222, you can also open the extension properties, and then add a JavaScript source file.
+This source file will be:
+
+- imported as the same time as the files of the game engine or other extensions. It can either be set to be imported before the game engine files or after (but the order between files is not guaranteed).
+- no transpilation or changes are done on the file.
+- the file will be added as a "JavaScript" resource in the resources editor.
+
+!!! warning
+
+    If you export your extension, this file *won't* be included. Consider this option as an experimental option to add custom JavaScript code to a project.
 
