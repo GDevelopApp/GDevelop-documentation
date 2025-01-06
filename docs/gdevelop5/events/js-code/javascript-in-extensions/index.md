@@ -111,7 +111,7 @@ for (const player of players) {
 
 After getting the events function parameter values, you can pass them to a JavaScript function.
 
-#### Call a "static" function of the library 
+#### Call a "static" function of the library
 
 ```javascript
 gdjs._myNewExtension.doSomething(myParameter);
@@ -161,7 +161,7 @@ In case you are writing your first custom behavior, please refer to the [custom 
 
 ### Get an object behavior in Javascript
 
-Behaviors parameter values are actually just a string of the behavior name. Each object instance has their own behavior instance so it avoids to pass an array for behaviors when they can be mapped from objects with `object.getBehavior(behaviorName)`. 
+Behaviors parameter values are actually just a string of the behavior name. Each object instance has their own behavior instance so it avoids to pass an array for behaviors when they can be mapped from objects with `object.getBehavior(behaviorName)`.
 
 For actions and conditions of behaviors, the object parameter **Object** only contains one instance because GDevelop does the iteration on object instances. For other object parameters you still need to iterate on all instances.
 
@@ -214,14 +214,19 @@ This is a few instances of extensions that use JavaScript:
 
 ## Experimental new option: JavaScript files in your project
 
-Starting with GDevelop 5.5.222, you can also open the extension properties, and then add a JavaScript source file.
+Starting with GDevelop 5.5.222, you can also open the extension properties, and then add a JavaScript source file:
+
+![Add a JavaScript file to an extension](./extra-source-files.png)
+
 This source file will be:
 
-- imported as the same time as the files of the game engine or other extensions. It can either be set to be imported before the game engine files or after (but the order between files is not guaranteed).
+- **only imported if the extension is used** in your game (for example, a scene uses an action or condition from the extension).
+- imported as the same time as the files of the game engine or other extensions. It can either be set to be imported before the game engine files or after (but the order between files is not guaranteed). It works both for the preview and when the game is exported.
 - no transpilation or changes are done on the file.
 - the file will be added as a "JavaScript" resource in the resources editor.
 
 !!! warning
 
+    Remember to make sure your extension is used by the game so that the file is included.
     If you export your extension, this file *won't* be included. Consider this option as an experimental option to add custom JavaScript code to a project.
 
