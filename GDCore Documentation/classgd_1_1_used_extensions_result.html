@@ -84,49 +84,32 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aed9cd993e272e4ed0c3e24c577f8bb85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8311124131e516a92cd91d3458cb1c8"><td class="memItemLeft" align="right" valign="top">const std::set&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_used_extensions_result.html#ac8311124131e516a92cd91d3458cb1c8">GetUsedRequiredFiles</a> () const</td></tr>
 <tr class="separator:ac8311124131e516a92cd91d3458cb1c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a962f784b2cc5f74b5368261ff38b08df"><td class="memItemLeft" align="right" valign="top"><a id="a962f784b2cc5f74b5368261ff38b08df"></a>
+const std::vector&lt; <a class="el" href="classgd_1_1_source_file_metadata.html">gd::SourceFileMetadata</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetUsedSourceFiles</b> () const</td></tr>
+<tr class="separator:a962f784b2cc5f74b5368261ff38b08df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea575c4320f7419edbdb604ae603e0ea"><td class="memItemLeft" align="right" valign="top"><a id="aea575c4320f7419edbdb604ae603e0ea"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_used_extensions_result.html#aea575c4320f7419edbdb604ae603e0ea">Has3DObjects</a> () const</td></tr>
 <tr class="memdesc:aea575c4320f7419edbdb604ae603e0ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true when at least 1 object uses the 3D renderer. <br /></td></tr>
 <tr class="separator:aea575c4320f7419edbdb604ae603e0ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae291d68fc26f6b336cfbdbdeaf3a8817"><td class="memItemLeft" align="right" valign="top">std::set&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_used_extensions_result.html#ae291d68fc26f6b336cfbdbdeaf3a8817">GetUsedExtensions</a> ()</td></tr>
-<tr class="separator:ae291d68fc26f6b336cfbdbdeaf3a8817"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a598344ad1fb1381e488fde9cbd0280c5"><td class="memItemLeft" align="right" valign="top">std::set&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_used_extensions_result.html#a598344ad1fb1381e488fde9cbd0280c5">GetUsedIncludeFiles</a> ()</td></tr>
-<tr class="separator:a598344ad1fb1381e488fde9cbd0280c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5ce1b8b964e4d2cc746c8e969c20c23"><td class="memItemLeft" align="right" valign="top">std::set&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_used_extensions_result.html#ab5ce1b8b964e4d2cc746c8e969c20c23">GetUsedRequiredFiles</a> ()</td></tr>
-<tr class="separator:ab5ce1b8b964e4d2cc746c8e969c20c23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e313eb406173818bb0619fca172b97b"><td class="memItemLeft" align="right" valign="top"><a id="a9e313eb406173818bb0619fca172b97b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>AddUsedExtension</b> (const <a class="el" href="classgd_1_1_platform_extension.html">gd::PlatformExtension</a> &amp;extension)</td></tr>
+<tr class="separator:a9e313eb406173818bb0619fca172b97b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea3cd31b56f59652dabdebe1f548c6aa"><td class="memItemLeft" align="right" valign="top"><a id="aea3cd31b56f59652dabdebe1f548c6aa"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>AddUsedBuiltinExtension</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;extensionName)</td></tr>
+<tr class="separator:aea3cd31b56f59652dabdebe1f548c6aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a732f9c114782471d64ff84b4cca7e574"><td class="memItemLeft" align="right" valign="top"><a id="a732f9c114782471d64ff84b4cca7e574"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>AddUsedIncludeFiles</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;includeFile)</td></tr>
+<tr class="separator:a732f9c114782471d64ff84b4cca7e574"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a12ada59711f055d0e4af300f0dd71b"><td class="memItemLeft" align="right" valign="top"><a id="a7a12ada59711f055d0e4af300f0dd71b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>AddUsedRequiredFiles</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;requiredFile)</td></tr>
+<tr class="separator:a7a12ada59711f055d0e4af300f0dd71b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0944b2e4c04062d35a06117cc7973ac3"><td class="memItemLeft" align="right" valign="top"><a id="a0944b2e4c04062d35a06117cc7973ac3"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>MarkAsHaving3DObjects</b> ()</td></tr>
 <tr class="separator:a0944b2e4c04062d35a06117cc7973ac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ae291d68fc26f6b336cfbdbdeaf3a8817"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae291d68fc26f6b336cfbdbdeaf3a8817">&#9670;&nbsp;</a></span>GetUsedExtensions() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::set&lt;<a class="el" href="classgd_1_1_string.html">gd::String</a>&gt;&amp; gd::UsedExtensionsResult::GetUsedExtensions </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>The extensions used by the project (or part of it). </p>
-
-</div>
-</div>
 <a id="a79d298fab875905660720622d896e617"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79d298fab875905660720622d896e617">&#9670;&nbsp;</a></span>GetUsedExtensions() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a79d298fab875905660720622d896e617">&#9670;&nbsp;</a></span>GetUsedExtensions()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -151,34 +134,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>MarkAsHaving3DObjects
 
 </div>
 </div>
-<a id="a598344ad1fb1381e488fde9cbd0280c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a598344ad1fb1381e488fde9cbd0280c5">&#9670;&nbsp;</a></span>GetUsedIncludeFiles() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::set&lt;<a class="el" href="classgd_1_1_string.html">gd::String</a>&gt;&amp; gd::UsedExtensionsResult::GetUsedIncludeFiles </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>The include files used at runtime by the project (or part of it). </p>
-
-</div>
-</div>
 <a id="aed9cd993e272e4ed0c3e24c577f8bb85"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed9cd993e272e4ed0c3e24c577f8bb85">&#9670;&nbsp;</a></span>GetUsedIncludeFiles() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aed9cd993e272e4ed0c3e24c577f8bb85">&#9670;&nbsp;</a></span>GetUsedIncludeFiles()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203,34 +160,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>MarkAsHaving3DObjects
 
 </div>
 </div>
-<a id="ab5ce1b8b964e4d2cc746c8e969c20c23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5ce1b8b964e4d2cc746c8e969c20c23">&#9670;&nbsp;</a></span>GetUsedRequiredFiles() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::set&lt;<a class="el" href="classgd_1_1_string.html">gd::String</a>&gt;&amp; gd::UsedExtensionsResult::GetUsedRequiredFiles </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>The additional files required at runtime by the project (or part of it). </p>
-
-</div>
-</div>
 <a id="ac8311124131e516a92cd91d3458cb1c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8311124131e516a92cd91d3458cb1c8">&#9670;&nbsp;</a></span>GetUsedRequiredFiles() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8311124131e516a92cd91d3458cb1c8">&#9670;&nbsp;</a></span>GetUsedRequiredFiles()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -255,8 +186,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>MarkAsHaving3DObjects
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="_used_extensions_finder_8h_source.html">UsedExtensionsFinder.h</a></li>
+<li>UsedExtensionsFinder.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

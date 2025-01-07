@@ -130,6 +130,7 @@ $(function() {
 , <a class="el" href="classgd_1_1_initial_instance.html#a33a2774cbd2b7da9ccad79e262aacef3">gd::InitialInstance</a>
 , <a class="el" href="classgd_1_1_initial_instances_container.html#a96e0738b95edc76a6efc13188dde409b">gd::InitialInstancesContainer</a>
 , <a class="el" href="classgd_1_1_instructions_list.html#aaaca2c91fcb5c0020b5cae18da98d5a7">gd::InstructionsList</a>
+, <a class="el" href="classgd_1_1_java_script_resource.html#a58c23eb6cdc3d4001bcdf147c1d9bb00">gd::JavaScriptResource</a>
 , <a class="el" href="classgd_1_1_json_resource.html#aa09a691e5450b34700c06e6658f85467">gd::JsonResource</a>
 , <a class="el" href="classgd_1_1_layer.html#a7cf148afb4f73afb470483e749e8c6f7">gd::Layer</a>
 , <a class="el" href="classgd_1_1_layout.html#a124361f41144bb3e089abec2d6d75f28">gd::Layout</a>
@@ -151,7 +152,6 @@ $(function() {
 , <a class="el" href="classgd_1_1_resource.html#a0f2fc304152b1a35d0c23e669a301172">gd::Resource</a>
 , <a class="el" href="classgd_1_1_resource_folder.html#a27069d8c18002c26a00d2d0a74585439">gd::ResourceFolder</a>
 , <a class="el" href="classgd_1_1_resources_manager.html#a96f7d3e6f938afc8204799a398ff500a">gd::ResourcesManager</a>
-, <a class="el" href="classgd_1_1_source_file.html#a410a6b41fccfb96782d5d45740604cb3">gd::SourceFile</a>
 , <a class="el" href="classgd_1_1_standard_event.html#ab03b1560d6d09a4aedb83fb53e8d0a7d">gd::StandardEvent</a>
 , <a class="el" href="classgd_1_1_tilemap_resource.html#a01063cfcafe05032f65d753c989f58ec">gd::TilemapResource</a>
 , <a class="el" href="classgd_1_1_tileset_resource.html#ab8b68b54cfee0f5b945d34e7c69cf177">gd::TilesetResource</a>
@@ -225,7 +225,7 @@ $(function() {
 : <a class="el" href="classgd_1_1_instruction_metadata.html#a449c63cc4537238ec4d4c4eeaa2004c4">gd::InstructionMetadata</a>
 </li>
 <li>SetAttribute()
-: <a class="el" href="classgd_1_1_serializer_element.html#a4735302279438bc45ff87ce9083769e6">gd::SerializerElement</a>
+: <a class="el" href="classgd_1_1_serializer_element.html#ac31aab6c636aa325a627da078b257c59">gd::SerializerElement</a>
 </li>
 <li>SetAuthor()
 : <a class="el" href="classgd_1_1_project.html#aa2993fb723ac0eb546d7b988b8771ddc">gd::Project</a>
@@ -358,15 +358,13 @@ $(function() {
 , <a class="el" href="classgd_1_1_bitmap_font_resource.html#a1d8656a4dc69139f13b67034f501bb6f">gd::BitmapFontResource</a>
 , <a class="el" href="classgd_1_1_font_resource.html#a811cf52bb2695f2340d76b5cfb177459">gd::FontResource</a>
 , <a class="el" href="classgd_1_1_image_resource.html#a1e48675bd33456d5509e3f549b1e2b7f">gd::ImageResource</a>
+, <a class="el" href="classgd_1_1_java_script_resource.html#ac7de983e2025c86a4727df6d8609508f">gd::JavaScriptResource</a>
 , <a class="el" href="classgd_1_1_json_resource.html#a5ed3ca37e4a3878351403985a282e910">gd::JsonResource</a>
 , <a class="el" href="classgd_1_1_model3_d_resource.html#a904b414f60da14260759bad0c72630cf">gd::Model3DResource</a>
 , <a class="el" href="classgd_1_1_resource.html#aa652c11e4cbf814c3d9179e04f139d72">gd::Resource</a>
 , <a class="el" href="classgd_1_1_tilemap_resource.html#a681f97b611d3703b7e78b5d39dbaba06">gd::TilemapResource</a>
 , <a class="el" href="classgd_1_1_tileset_resource.html#a3e1d2b84893c959728ae28d0d105cde1">gd::TilesetResource</a>
 , <a class="el" href="classgd_1_1_video_resource.html#a8d81d55ca0d359d6870aad275ca1e97f">gd::VideoResource</a>
-</li>
-<li>SetFileName()
-: <a class="el" href="classgd_1_1_source_file.html#adf43bd807f6b93a8724b2c2ba9e3d120">gd::SourceFile</a>
 </li>
 <li>SetFirstLayout()
 : <a class="el" href="classgd_1_1_project.html#aca132134e31018e4088d1150a4e31e3a">gd::Project</a>
@@ -422,9 +420,6 @@ $(function() {
 </li>
 <li>SetGameResolutionSize()
 : <a class="el" href="classgd_1_1_project.html#a54ddb395cd891b2972ebb3b5cf342f15">gd::Project</a>
-</li>
-<li>SetGDManaged()
-: <a class="el" href="classgd_1_1_source_file.html#a5a67787b99073834deaa837e075c7762">gd::SourceFile</a>
 </li>
 <li>SetGenerateCodeForRuntime()
 : <a class="el" href="classgd_1_1_events_code_generator.html#a339b2a6666c6e830805193ca1c405a0d">gd::EventsCodeGenerator</a>
@@ -535,9 +530,6 @@ $(function() {
 </li>
 <li>SetLabel()
 : <a class="el" href="classgd_1_1_property_descriptor.html#af8510eee3b79f4f0ee9d63a7bb381e8e">gd::PropertyDescriptor</a>
-</li>
-<li>SetLanguage()
-: <a class="el" href="classgd_1_1_source_file.html#af32ff8b3176330ae0280cefb94d811a2">gd::SourceFile</a>
 </li>
 <li>SetLastCompilationDirectory()
 : <a class="el" href="classgd_1_1_project.html#ae52d5d7290185aa4d6e8d0d797e5e1a4">gd::Project</a>
@@ -793,7 +785,7 @@ $(function() {
 : <a class="el" href="classgd_1_1_serializer_element.html#a9f08efa88acba4a15d5bd7f0193887cf">gd::SerializerElement</a>
 </li>
 <li>SetStringRaw()
-: <a class="el" href="class_generic_value.html#ad3d91db36dfdbfc1af40a79aae07723c">GenericValue&lt; Encoding, Allocator &gt;</a>
+: <a class="el" href="class_generic_value.html#a1451603922dcdf34976f125dc60f70ee">GenericValue&lt; Encoding, Allocator &gt;</a>
 </li>
 <li>SetStringValue()
 : <a class="el" href="classgd_1_1_serializer_element.html#adc8dfa7ddd78c63f40feee34271dd5ab">gd::SerializerElement</a>
@@ -901,6 +893,9 @@ $(function() {
 </li>
 <li>SomeInstancesAreOnLayer()
 : <a class="el" href="classgd_1_1_initial_instances_container.html#a5fcb255564c37ccf623619bc00694161">gd::InitialInstancesContainer</a>
+</li>
+<li>SourceFileMetadata()
+: <a class="el" href="classgd_1_1_source_file_metadata.html#a2bac144f323bd66cba010c9fe359bbe6">gd::SourceFileMetadata</a>
 </li>
 <li>Split()
 : <a class="el" href="classgd_1_1_string.html#a0bb2aed65a9457a4aa61e052357b8d6c">gd::String</a>

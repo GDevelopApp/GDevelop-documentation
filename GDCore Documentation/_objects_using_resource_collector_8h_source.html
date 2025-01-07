@@ -147,34 +147,37 @@ $(function() {
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeVideo(<a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; otherResourceName)<span class="keyword"> override </span>{</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    MatchResourceName(otherResourceName);</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  };</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeBitmapFont(<a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; otherResourceName)<span class="keyword"> override </span>{</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeJavaScript(<a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; otherResourceName)<span class="keyword"> override </span>{</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    MatchResourceName(otherResourceName);</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  };</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeModel3D(<a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; otherResourceName)<span class="keyword"> override </span>{</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeBitmapFont(<a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; otherResourceName)<span class="keyword"> override </span>{</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    MatchResourceName(otherResourceName);</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  };</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeAtlas(<a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; otherResourceName)<span class="keyword"> override </span>{</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeModel3D(<a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; otherResourceName)<span class="keyword"> override </span>{</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    MatchResourceName(otherResourceName);</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  };</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeSpine(<a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; otherResourceName)<span class="keyword"> override </span>{</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeAtlas(<a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; otherResourceName)<span class="keyword"> override </span>{</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    MatchResourceName(otherResourceName);</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  };</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  <span class="keywordtype">void</span> MatchResourceName(<a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; otherResourceName) {</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">if</span> (otherResourceName == resourceName) matchesResourceName = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  }</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> resourceName;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  <span class="keywordtype">bool</span> matchesResourceName;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;};</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;};  <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> ExposeSpine(<a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; otherResourceName)<span class="keyword"> override </span>{</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    MatchResourceName(otherResourceName);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  };</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  <span class="keywordtype">void</span> MatchResourceName(<a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; otherResourceName) {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordflow">if</span> (otherResourceName == resourceName) matchesResourceName = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  }</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> resourceName;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  <span class="keywordtype">bool</span> matchesResourceName;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;};</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;};  <span class="comment">// namespace gd</span></div>
 <div class="ttc" id="aclassgd_1_1_arbitrary_objects_worker_html"><div class="ttname"><a href="classgd_1_1_arbitrary_objects_worker.html">gd::ArbitraryObjectsWorker</a></div><div class="ttdoc">ArbitraryObjectsWorker is an abstract class used to browse objects (and behaviors) and do some work o...</div><div class="ttdef"><b>Definition:</b> ArbitraryObjectsWorker.h:30</div></div>
 <div class="ttc" id="aclassgd_1_1_arbitrary_resource_worker_html"><div class="ttname"><a href="classgd_1_1_arbitrary_resource_worker.html">gd::ArbitraryResourceWorker</a></div><div class="ttdoc">ArbitraryResourceWorker is used so as to inventory resources and sometimes update them.</div><div class="ttdef"><b>Definition:</b> ArbitraryResourceWorker.h:44</div></div>
 <div class="ttc" id="aclassgd_1_1_object_html"><div class="ttname"><a href="classgd_1_1_object.html">gd::Object</a></div><div class="ttdoc">Represent an object of a platform.</div><div class="ttdef"><b>Definition:</b> Object.h:37</div></div>
 <div class="ttc" id="aclassgd_1_1_objects_using_resource_collector_html"><div class="ttname"><a href="classgd_1_1_objects_using_resource_collector.html">gd::ObjectsUsingResourceCollector</a></div><div class="ttdef"><b>Definition:</b> ObjectsUsingResourceCollector.h:22</div></div>
 <div class="ttc" id="aclassgd_1_1_resource_name_matcher_html"><div class="ttname"><a href="classgd_1_1_resource_name_matcher.html">gd::ResourceNameMatcher</a></div><div class="ttdef"><b>Definition:</b> ObjectsUsingResourceCollector.h:39</div></div>
-<div class="ttc" id="aclassgd_1_1_resources_manager_html"><div class="ttname"><a href="classgd_1_1_resources_manager.html">gd::ResourcesManager</a></div><div class="ttdoc">Inventory all resources used by a project.</div><div class="ttdef"><b>Definition:</b> ResourcesManager.h:556</div></div>
+<div class="ttc" id="aclassgd_1_1_resources_manager_html"><div class="ttname"><a href="classgd_1_1_resources_manager.html">gd::ResourcesManager</a></div><div class="ttdoc">Inventory all resources used by a project.</div><div class="ttdef"><b>Definition:</b> ResourcesManager.h:582</div></div>
 <div class="ttc" id="aclassgd_1_1_string_html"><div class="ttname"><a href="classgd_1_1_string.html">gd::String</a></div><div class="ttdoc">String represents an UTF8 encoded string.</div><div class="ttdef"><b>Definition:</b> String.h:33</div></div>
 <div class="ttc" id="anamespacegd_html"><div class="ttname"><a href="namespacegd.html">gd</a></div><div class="ttdef"><b>Definition:</b> CommonTools.h:24</div></div>
 </div><!-- fragment --></div><!-- contents -->

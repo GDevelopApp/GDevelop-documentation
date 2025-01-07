@@ -110,12 +110,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a246aa66b740e5daaa640e5c07ab86cd2">ExportEffectIncludes</a> (gd::Project &amp;project, std::vector&lt; gd::String &gt; &amp;includesFiles)</td></tr>
 <tr class="memdesc:a246aa66b740e5daaa640e5c07ab86cd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add the project effects include files. <br /></td></tr>
 <tr class="separator:a246aa66b740e5daaa640e5c07ab86cd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f9aef14c2dfee84123d0c29f470b96c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a6f9aef14c2dfee84123d0c29f470b96c">ExportExternalSourceFiles</a> (const gd::Project &amp;project, gd::String outputDir, std::vector&lt; gd::String &gt; &amp;includesFiles)</td></tr>
-<tr class="memdesc:a6f9aef14c2dfee84123d0c29f470b96c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the external source files used by the game into the export directory, and add them into files to be included.  <a href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a6f9aef14c2dfee84123d0c29f470b96c">More...</a><br /></td></tr>
-<tr class="separator:a6f9aef14c2dfee84123d0c29f470b96c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2aae031a52f88912d57853ed53db002"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#ae2aae031a52f88912d57853ed53db002">ExportPixiIndexFile</a> (const gd::Project &amp;project, gd::String source, gd::String exportDir, const std::vector&lt; gd::String &gt; &amp;includesFiles, unsigned int nonRuntimeScriptsCacheBurst, gd::String additionalSpec=&quot;&quot;)</td></tr>
-<tr class="memdesc:ae2aae031a52f88912d57853ed53db002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate the standard index file and save it to the export directory.  <a href="../../d0/d75/classgdjs_1_1_exporter_helper.html#ae2aae031a52f88912d57853ed53db002">More...</a><br /></td></tr>
-<tr class="separator:ae2aae031a52f88912d57853ed53db002"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7dadb1f924b8c622e92bacabfb92c96"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#ab7dadb1f924b8c622e92bacabfb92c96">ExportIndexFile</a> (const gd::Project &amp;project, gd::String source, gd::String exportDir, const std::vector&lt; gd::String &gt; &amp;includesFiles, const std::vector&lt; gd::SourceFileMetadata &gt; &amp;sourceFiles, unsigned int nonRuntimeScriptsCacheBurst, gd::String additionalSpec=&quot;&quot;)</td></tr>
+<tr class="memdesc:ab7dadb1f924b8c622e92bacabfb92c96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate the standard index file and save it to the export directory.  <a href="../../d0/d75/classgdjs_1_1_exporter_helper.html#ab7dadb1f924b8c622e92bacabfb92c96">More...</a><br /></td></tr>
+<tr class="separator:ab7dadb1f924b8c622e92bacabfb92c96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2136b97a9cc791cfc95f00c3c254d476"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a2136b97a9cc791cfc95f00c3c254d476">CompleteIndexFile</a> (gd::String &amp;indexFileContent, gd::String exportDir, const std::vector&lt; gd::String &gt; &amp;includesFiles, unsigned int nonRuntimeScriptsCacheBurst, gd::String additionalSpec)</td></tr>
 <tr class="memdesc:a2136b97a9cc791cfc95f00c3c254d476"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace the annotations in a index.html file by the specified content.  <a href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a2136b97a9cc791cfc95f00c3c254d476">More...</a><br /></td></tr>
 <tr class="separator:a2136b97a9cc791cfc95f00c3c254d476"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -417,50 +414,6 @@ gd::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
 
 </div>
 </div>
-<a id="a6f9aef14c2dfee84123d0c29f470b96c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f9aef14c2dfee84123d0c29f470b96c">&#9670;&nbsp;</a></span>ExportExternalSourceFiles()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool gdjs::ExporterHelper::ExportExternalSourceFiles </td>
-          <td>(</td>
-          <td class="paramtype">const gd::Project &amp;&#160;</td>
-          <td class="paramname"><em>project</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">gd::String&#160;</td>
-          <td class="paramname"><em>outputDir</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; gd::String &gt; &amp;&#160;</td>
-          <td class="paramname"><em>includesFiles</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Copy the external source files used by the game into the export directory, and add them into files to be included. </p>
-<p>Files are named "ext-codeX.js", X being the index of the external source file in the project.</p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">project</td><td>The project with resources to be exported.</td></tr>
-    <tr><td class="paramname">outputDir</td><td>The directory where the events code must be generated.</td></tr>
-    <tr><td class="paramname">includesFiles</td><td>A reference to a vector that will be filled with JS files to be exported along with the project. (including "ext-codeX.js" files). </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a id="a749478cbbaec91e7ca2bf51447f9ecd5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a749478cbbaec91e7ca2bf51447f9ecd5">&#9670;&nbsp;</a></span>ExportFacebookInstantGamesFiles()</h2>
 
@@ -579,14 +532,14 @@ gd::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
 
 </div>
 </div>
-<a id="ae2aae031a52f88912d57853ed53db002"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2aae031a52f88912d57853ed53db002">&#9670;&nbsp;</a></span>ExportPixiIndexFile()</h2>
+<a id="ab7dadb1f924b8c622e92bacabfb92c96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7dadb1f924b8c622e92bacabfb92c96">&#9670;&nbsp;</a></span>ExportIndexFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool gdjs::ExporterHelper::ExportPixiIndexFile </td>
+          <td class="memname">bool gdjs::ExporterHelper::ExportIndexFile </td>
           <td>(</td>
           <td class="paramtype">const gd::Project &amp;&#160;</td>
           <td class="paramname"><em>project</em>, </td>
@@ -608,6 +561,12 @@ gd::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
           <td></td>
           <td class="paramtype">const std::vector&lt; gd::String &gt; &amp;&#160;</td>
           <td class="paramname"><em>includesFiles</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; gd::SourceFileMetadata &gt; &amp;&#160;</td>
+          <td class="paramname"><em>sourceFiles</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

@@ -135,12 +135,6 @@ virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>ReplaceAllSea
 <tr class="memitem:a9c0108b34b1d6de5d9e474eaebed863e"><td class="memItemLeft" align="right" valign="top"><a id="a9c0108b34b1d6de5d9e474eaebed863e"></a>
 virtual std::vector&lt; std::pair&lt; const <a class="el" href="classgd_1_1_expression.html">gd::Expression</a> *, const <a class="el" href="classgd_1_1_parameter_metadata.html">gd::ParameterMetadata</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetAllExpressionsWithMetadata</b> () const</td></tr>
 <tr class="separator:a9c0108b34b1d6de5d9e474eaebed863e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18743651bf5276c9e6aef2b022ddfa52"><td class="memItemLeft" align="right" valign="top">virtual const std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#a18743651bf5276c9e6aef2b022ddfa52">GetSourceFileDependencies</a> () const</td></tr>
-<tr class="memdesc:a18743651bf5276c9e6aef2b022ddfa52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dependencies on source files of the project.  <a href="classgd_1_1_base_event.html#a18743651bf5276c9e6aef2b022ddfa52">More...</a><br /></td></tr>
-<tr class="separator:a18743651bf5276c9e6aef2b022ddfa52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afad038845b4c41a36f4c431e9e14a454"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#afad038845b4c41a36f4c431e9e14a454">GetAssociatedGDManagedSourceFile</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project) const</td></tr>
-<tr class="memdesc:afad038845b4c41a36f4c431e9e14a454"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of the source file associated with the event.  <a href="classgd_1_1_base_event.html#afad038845b4c41a36f4c431e9e14a454">More...</a><br /></td></tr>
-<tr class="separator:afad038845b4c41a36f4c431e9e14a454"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Code generation</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Members functions used to generate code from the event </p>
 </div></td></tr>
@@ -452,63 +446,6 @@ Public Attributes</h2></td></tr>
 <dl class="section note"><dt>Note</dt><dd>Used to preprocess or search in the event strings. </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classgd_1_1_group_event.html#aa60375f07367019e9e6ad73696815816">gd::GroupEvent</a>, and <a class="el" href="classgd_1_1_comment_event.html#ac6d69cd21fbba606d2e70384b51c22f7">gd::CommentEvent</a>.</p>
-
-</div>
-</div>
-<a id="afad038845b4c41a36f4c431e9e14a454"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afad038845b4c41a36f4c431e9e14a454">&#9670;&nbsp;</a></span>GetAssociatedGDManagedSourceFile()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual const <a class="el" href="classgd_1_1_string.html">gd::String</a>&amp; gd::BaseEvent::GetAssociatedGDManagedSourceFile </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;&#160;</td>
-          <td class="paramname"><em>project</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the name of the source file associated with the event. </p>
-<dl class="section note"><dt>Note</dt><dd>Default implementation returns an empty string. This is fine for most events that are not related to adding custom user source code. </dd></dl>
-
-</div>
-</div>
-<a id="a18743651bf5276c9e6aef2b022ddfa52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18743651bf5276c9e6aef2b022ddfa52">&#9670;&nbsp;</a></span>GetSourceFileDependencies()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual const std::vector&lt;<a class="el" href="classgd_1_1_string.html">gd::String</a>&gt;&amp; gd::BaseEvent::GetSourceFileDependencies </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the dependencies on source files of the project. </p>
-<dl class="section note"><dt>Note</dt><dd>Default implementation returns an empty list of dependencies. This is fine for most events that are not related to adding custom user source code. </dd></dl>
 
 </div>
 </div>
