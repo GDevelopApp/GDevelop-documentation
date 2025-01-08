@@ -34,10 +34,21 @@ Lock the mouse pointer to hide it.
 **Locked pointer is moving**  
 Check if the locked pointer is moving.
 
+**Pointer X movement**  
+Compare the movement of the locked pointer on the X axis.
+
+**Pointer Y movement**  
+Compare the movement of the pointer on the Y axis.
+
 **Pointer is locked**  
 Check if the mouse pointer is locked.
 
+## Expressions
 
+| Expression | Description |  |
+|-----|-----|-----|
+| `MousePointerLock::MovementX()` | Return the movement of the locked pointer on the X axis. ||
+| `MousePointerLock::MovementY()` | Return the movement of the pointer on the Y axis. ||
 
 ## First person camera mouse mapper 
 
