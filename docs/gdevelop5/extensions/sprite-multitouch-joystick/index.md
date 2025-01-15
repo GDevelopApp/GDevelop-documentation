@@ -35,6 +35,9 @@ Check if joystick is pushed in a given direction.
 **Joystick pushed in a direction (8-way)**  
 Check if joystick is pushed in a given direction.
 
+**Can be used at position**  
+Check if the joystick can be used at a given position without touching the screen edges.
+
 **Stick force**  
 Compare the force of multitouch contoller stick (from 0 to 1).
 
@@ -64,6 +67,9 @@ Change the dead zone radius of the joystick (range: 0 to 1). The deadzone is an 
 
 **Joystick name**  
 Change the joystick name of the object.
+
+**Show and start pressing**  
+Show the joystick until it is released.
 
 ### Object conditions
 

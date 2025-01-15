@@ -37,12 +37,6 @@ Check if the mouse wheel is scrolling down. Use MouseWheelDelta expression if yo
 **The mouse wheel is scrolling up**  
 Check if the mouse wheel is scrolling up. Use MouseWheelDelta expression if you want to know the amount that was scrolled.
 
-**Mouse button pressed or touch held (text expression)**  
-Check if a mouse button, retrieved from the result of the expression, is pressed.
-
-**Mouse button released (text expression)**  
-Check if a mouse button, retrieved from the result of the expression, was just released.
-
 **Mouse button pressed or touch held**  
 Check if the specified mouse button is pressed or if a touch is in contact with the screen.
 

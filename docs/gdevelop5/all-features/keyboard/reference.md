@@ -10,12 +10,6 @@ Check if any key is pressed
 **Any key released**  
 Check if any key is released
 
-**Key pressed (text expression)**  
-Check if a key, retrieved from the result of the expression, is pressed
-
-**Key released (text expression)**  
-Check if a key, retrieved from the result of the expression, was just released
-
 **Key pressed**  
 Check if a key is pressed
 
