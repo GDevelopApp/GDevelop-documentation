@@ -286,3 +286,4 @@ plugins:
             'gdevelop5/extensions/ygame-sdk/reference.md': 'gdevelop5/extensions/ygame-sdk/index.md'
             'gdevelop5/extensions/ysort/reference.md': 'gdevelop5/extensions/ysort/index.md'
             'gdevelop5/tutorials/storage-action-explained.md': 'gdevelop5/all-features/storage/index.md'
+            'gdevelop5/draft/schools.md': 'gdevelop5/getting_started/batch-install-gdevelop-company-university/index.md'
