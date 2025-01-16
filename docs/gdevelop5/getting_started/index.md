@@ -17,6 +17,11 @@ GDevelop is available for all computers (Windows, macOS, and Linux), tablets and
 * **Android**: download [GDevelop from Google Play](https://play.google.com/store/apps/details?id=io.gdevelop.ide).
 * **Chromebooks or other devices**: open your browser and go to [editor.gdevelop.io](https://editor.gdevelop.io). If you are on Android or a Chromebook, choose the option to "Add to Homescreen".
 
+!!! warning
+
+    Are you installing or using GDevelop at work, in a university or anywhere with a firewall? Make sure to [unblock/allow access to all the domains used by GDevelop, see the list here](/gdevelop5/getting_started/batch-install-gdevelop-company-university).
+
+
 !!! tip
 
     For administrators trying to install GDevelop on several machines (with a company or a university, for example), the Windows installer is based on *NSIS*, so you can find online resources to use it from a script. Read this page to learn about [installing GDevelop on a network of machines](/gdevelop5/getting_started/batch-install-gdevelop-company-university). You can also have a [portable version of GDevelop by extracting it with 7zip](/gdevelop5/getting_started/windows-portable-version-gdevelop).
