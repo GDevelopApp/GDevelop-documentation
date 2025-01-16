@@ -287,138 +287,154 @@ $(function() {
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;            }</div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;          },</div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;          [&amp;]() {</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;            <span class="comment">// Ignore properties here.</span></div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;            <span class="comment">// There is no support for &quot;children&quot; of properties.</span></div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;          },</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;          [&amp;]() {</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;            <span class="comment">// Ignore parameters here.</span></div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            <span class="comment">// There is no support for &quot;children&quot; of parameters.</span></div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;          },</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;          [&amp;]() {</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;            <span class="comment">// Ignore unrecognised identifiers here.</span></div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;          });</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    }</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;  }</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160; </div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>* WalkUntilLastChild(</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>&amp; variable,</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;      <span class="keyword">const</span> std::vector&lt;gd::String&gt;&amp; childVariableNames,</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;      <span class="keywordtype">size_t</span> startIndex = 0) {</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    <span class="keywordflow">if</span> (bailOutBecauseEmptyVariableName)</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;  <span class="comment">// Do not even attempt to find the parent if we had an issue</span></div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;                  <span class="comment">// when visiting nodes.</span></div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160; </div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>* currentVariable = &amp;variable;</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160; </div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> index = startIndex; index &lt; childVariableNames.size();</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;         ++index) {</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; childName = childVariableNames[index];</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160; </div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;      <span class="keywordflow">if</span> (childName.<a class="code" href="classgd_1_1_string.html#ac6f7ef4e6407b38687eb376bffe22143">empty</a>()) {</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        <span class="keywordflow">if</span> (currentVariable-&gt;<a class="code" href="classgd_1_1_variable.html#a1d9ceeb419934885198139365bfae413">GetChildrenCount</a>() == 0) {</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;          <span class="comment">// The array or structure is empty, we can&#39;t walk through it - there</span></div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;          <span class="comment">// is no &quot;parent&quot;.</span></div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;          <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        }</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160; </div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        <span class="keywordflow">if</span> (currentVariable-&gt;<a class="code" href="classgd_1_1_variable.html#a9739dac5f5b1a2898f7496429ea55823">GetType</a>() == gd::Variable::Array) {</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;          currentVariable = &amp;currentVariable-&gt;<a class="code" href="classgd_1_1_variable.html#aed487fad1b85fd1c8486a43ac30d467d">GetAtIndex</a>(0);</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;          currentVariable =</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;              currentVariable-&gt;<a class="code" href="classgd_1_1_variable.html#a2ac36fe8852760d954b1c1044826dfe8">GetAllChildren</a>().begin()-&gt;second.get();</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        }</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;      } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        <span class="keywordflow">if</span> (!currentVariable-&gt;<a class="code" href="classgd_1_1_variable.html#a5c9a7e47a229ea5549e645e5ec40e38e">HasChild</a>(childName)) {</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;          <span class="comment">// Non existing child - there is no &quot;parent&quot;.</span></div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;          <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        }</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160; </div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        currentVariable = &amp;currentVariable-&gt;<a class="code" href="classgd_1_1_variable.html#a948e9c0d2789c8e74c216f4e47d84a13">GetChild</a>(childName);</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;      }</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    }</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;            <span class="comment">// This is a property.</span></div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;            <span class="keywordflow">if</span> (parameterType != <span class="stringliteral">&quot;objectvar&quot;</span> &amp;&amp;</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                    projectScopedContainers.GetVariablesContainersList().<a class="code" href="classgd_1_1_variables_containers_list.html#ae7752ca7beecef9accb1fb348f371e24">Has</a>(</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                        identifier)) {</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;              variablesContainer =</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                  &amp;(projectScopedContainers.GetVariablesContainersList()</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;                        .<a class="code" href="classgd_1_1_variables_containers_list.html#a052fe632b55350bc3a625a8d65a2a092">GetVariablesContainerFromVariableName</a>(identifier));</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;              variableName = identifier;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;              <span class="comment">// There is no support for &quot;children&quot; of properties.</span></div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;            }</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;          },</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;          [&amp;]() {</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;            <span class="comment">// This is a parameter.</span></div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;            <span class="keywordflow">if</span> (parameterType != <span class="stringliteral">&quot;objectvar&quot;</span> &amp;&amp;</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                projectScopedContainers.GetVariablesContainersList().<a class="code" href="classgd_1_1_variables_containers_list.html#ae7752ca7beecef9accb1fb348f371e24">Has</a>(</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;                    identifier)) {</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;              variablesContainer =</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                  &amp;(projectScopedContainers.GetVariablesContainersList()</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                        .<a class="code" href="classgd_1_1_variables_containers_list.html#a052fe632b55350bc3a625a8d65a2a092">GetVariablesContainerFromVariableName</a>(identifier));</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;              variableName = identifier;</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;              <span class="comment">// There is no support for &quot;children&quot; of parameters.</span></div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;            }</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;          },</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;          [&amp;]() {</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;            <span class="comment">// Ignore unrecognised identifiers here.</span></div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;          });</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    }</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;  }</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160; </div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160; <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>* WalkUntilLastChild(</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>&amp; variable,</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;      <span class="keyword">const</span> std::vector&lt;gd::String&gt;&amp; childVariableNames,</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;      <span class="keywordtype">size_t</span> startIndex = 0) {</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    <span class="keywordflow">if</span> (bailOutBecauseEmptyVariableName)</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;  <span class="comment">// Do not even attempt to find the parent if we had an issue</span></div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;                  <span class="comment">// when visiting nodes.</span></div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160; </div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;    <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>* currentVariable = &amp;variable;</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160; </div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> index = startIndex; index &lt; childVariableNames.size();</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;         ++index) {</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; childName = childVariableNames[index];</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160; </div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;      <span class="keywordflow">if</span> (childName.<a class="code" href="classgd_1_1_string.html#ac6f7ef4e6407b38687eb376bffe22143">empty</a>()) {</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        <span class="keywordflow">if</span> (currentVariable-&gt;<a class="code" href="classgd_1_1_variable.html#a1d9ceeb419934885198139365bfae413">GetChildrenCount</a>() == 0) {</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;          <span class="comment">// The array or structure is empty, we can&#39;t walk through it - there</span></div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;          <span class="comment">// is no &quot;parent&quot;.</span></div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;          <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        }</div>
 <div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160; </div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    <span class="comment">// Return the last parent of the chain of variables (so not the last</span></div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    <span class="comment">// variable but the one before it).</span></div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    <span class="keywordflow">return</span> currentVariable;</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;  }</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160; </div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;  <a class="code" href="structgd_1_1_variable_and_its_parent.html">VariableAndItsParent</a> WalkUntilLastParent(</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>&amp; variable,</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;      <span class="keyword">const</span> std::vector&lt;gd::String&gt;&amp; childVariableNames,</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;      <span class="keywordtype">size_t</span> startIndex = 0) {</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    <span class="keywordflow">if</span> (bailOutBecauseEmptyVariableName)</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;      <span class="keywordflow">return</span> {};  <span class="comment">// Do not even attempt to find the parent if we had an issue</span></div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;                  <span class="comment">// when visiting nodes.</span></div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160; </div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>* currentVariable = &amp;variable;</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160; </div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    <span class="comment">// Walk until size - 1 as we want the last parent.</span></div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> index = startIndex; index + 1 &lt; childVariableNames.size();</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;         ++index) {</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; childName = childVariableNames[index];</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160; </div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;      <span class="keywordflow">if</span> (childName.<a class="code" href="classgd_1_1_string.html#ac6f7ef4e6407b38687eb376bffe22143">empty</a>()) {</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        <span class="keywordflow">if</span> (currentVariable-&gt;<a class="code" href="classgd_1_1_variable.html#a1d9ceeb419934885198139365bfae413">GetChildrenCount</a>() == 0) {</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;          <span class="comment">// The array or structure is empty, we can&#39;t walk through it - there</span></div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;          <span class="comment">// is no &quot;parent&quot;.</span></div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;          <span class="keywordflow">return</span> {};</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;        }</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160; </div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;        <span class="keywordflow">if</span> (currentVariable-&gt;<a class="code" href="classgd_1_1_variable.html#a9739dac5f5b1a2898f7496429ea55823">GetType</a>() == gd::Variable::Array) {</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;          currentVariable = &amp;currentVariable-&gt;<a class="code" href="classgd_1_1_variable.html#aed487fad1b85fd1c8486a43ac30d467d">GetAtIndex</a>(0);</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;          currentVariable =</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;              currentVariable-&gt;<a class="code" href="classgd_1_1_variable.html#a2ac36fe8852760d954b1c1044826dfe8">GetAllChildren</a>().begin()-&gt;second.get();</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        }</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;      } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;        <span class="keywordflow">if</span> (!currentVariable-&gt;<a class="code" href="classgd_1_1_variable.html#a5c9a7e47a229ea5549e645e5ec40e38e">HasChild</a>(childName)) {</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;          <span class="comment">// Non existing child - there is no &quot;parent&quot;.</span></div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;          <span class="keywordflow">return</span> {};</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        }</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160; </div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;        currentVariable = &amp;currentVariable-&gt;<a class="code" href="classgd_1_1_variable.html#a948e9c0d2789c8e74c216f4e47d84a13">GetChild</a>(childName);</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;      }</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    }</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        <span class="keywordflow">if</span> (currentVariable-&gt;<a class="code" href="classgd_1_1_variable.html#a9739dac5f5b1a2898f7496429ea55823">GetType</a>() == gd::Variable::Array) {</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;          currentVariable = &amp;currentVariable-&gt;<a class="code" href="classgd_1_1_variable.html#aed487fad1b85fd1c8486a43ac30d467d">GetAtIndex</a>(0);</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;          currentVariable =</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;              currentVariable-&gt;<a class="code" href="classgd_1_1_variable.html#a2ac36fe8852760d954b1c1044826dfe8">GetAllChildren</a>().begin()-&gt;second.get();</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        }</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;      } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        <span class="keywordflow">if</span> (!currentVariable-&gt;<a class="code" href="classgd_1_1_variable.html#a5c9a7e47a229ea5549e645e5ec40e38e">HasChild</a>(childName)) {</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;          <span class="comment">// Non existing child - there is no &quot;parent&quot;.</span></div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;          <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;        }</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160; </div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        currentVariable = &amp;currentVariable-&gt;<a class="code" href="classgd_1_1_variable.html#a948e9c0d2789c8e74c216f4e47d84a13">GetChild</a>(childName);</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;      }</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    }</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160; </div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    <span class="comment">// Return the last parent of the chain of variables (so not the last</span></div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    <span class="comment">// variable but the one before it).</span></div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    <span class="keywordflow">return</span> currentVariable;</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;  }</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160; </div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;  <a class="code" href="structgd_1_1_variable_and_its_parent.html">VariableAndItsParent</a> WalkUntilLastParent(</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>&amp; variable,</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;      <span class="keyword">const</span> std::vector&lt;gd::String&gt;&amp; childVariableNames,</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;      <span class="keywordtype">size_t</span> startIndex = 0) {</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    <span class="keywordflow">if</span> (bailOutBecauseEmptyVariableName)</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;      <span class="keywordflow">return</span> {};  <span class="comment">// Do not even attempt to find the parent if we had an issue</span></div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;                  <span class="comment">// when visiting nodes.</span></div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160; </div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>* currentVariable = &amp;variable;</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160; </div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    <span class="comment">// Walk until size - 1 as we want the last parent.</span></div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> index = startIndex; index + 1 &lt; childVariableNames.size();</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;         ++index) {</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; childName = childVariableNames[index];</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160; </div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;      <span class="keywordflow">if</span> (childName.<a class="code" href="classgd_1_1_string.html#ac6f7ef4e6407b38687eb376bffe22143">empty</a>()) {</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        <span class="keywordflow">if</span> (currentVariable-&gt;<a class="code" href="classgd_1_1_variable.html#a1d9ceeb419934885198139365bfae413">GetChildrenCount</a>() == 0) {</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;          <span class="comment">// The array or structure is empty, we can&#39;t walk through it - there</span></div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;          <span class="comment">// is no &quot;parent&quot;.</span></div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;          <span class="keywordflow">return</span> {};</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;        }</div>
 <div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160; </div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    <span class="comment">// Return the last parent of the chain of variables (so not the last</span></div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    <span class="comment">// variable but the one before it).</span></div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    <span class="keywordflow">return</span> {.parentVariable = currentVariable};</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;  }</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160; </div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;  <a class="code" href="structgd_1_1_variable_and_its_parent.html">VariableAndItsParent</a> WalkUntilLastParent(</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a>&amp; variablesContainer,</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;      <span class="keyword">const</span> std::vector&lt;gd::String&gt;&amp; childVariableNames) {</div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    <span class="keywordflow">if</span> (bailOutBecauseEmptyVariableName)</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;      <span class="keywordflow">return</span> {};  <span class="comment">// Do not even attempt to find the parent if we had an issue</span></div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;                  <span class="comment">// when visiting nodes.</span></div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;        <span class="keywordflow">if</span> (currentVariable-&gt;<a class="code" href="classgd_1_1_variable.html#a9739dac5f5b1a2898f7496429ea55823">GetType</a>() == gd::Variable::Array) {</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;          currentVariable = &amp;currentVariable-&gt;<a class="code" href="classgd_1_1_variable.html#aed487fad1b85fd1c8486a43ac30d467d">GetAtIndex</a>(0);</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;          currentVariable =</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;              currentVariable-&gt;<a class="code" href="classgd_1_1_variable.html#a2ac36fe8852760d954b1c1044826dfe8">GetAllChildren</a>().begin()-&gt;second.get();</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;        }</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;      } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;        <span class="keywordflow">if</span> (!currentVariable-&gt;<a class="code" href="classgd_1_1_variable.html#a5c9a7e47a229ea5549e645e5ec40e38e">HasChild</a>(childName)) {</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;          <span class="comment">// Non existing child - there is no &quot;parent&quot;.</span></div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;          <span class="keywordflow">return</span> {};</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;        }</div>
 <div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160; </div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    <span class="keywordflow">if</span> (variableName.empty())</div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;      <span class="keywordflow">return</span> {};  <span class="comment">// There is no &quot;parent&quot; to the variables container itself.</span></div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160; </div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;    <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>* variable = variablesContainer.<a class="code" href="classgd_1_1_variables_container.html#a8910111630f6c51e75d5c4e18373d3dd">Has</a>(variableName)</div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;                                       ? &amp;variablesContainer.<a class="code" href="classgd_1_1_variables_container.html#a8f3cf28efb06e2c85662c9e8e50dd01a">Get</a>(variableName)</div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;                                       : <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    <span class="keywordflow">if</span> (childVariableNames.empty() || !variable)</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;      <span class="keywordflow">return</span> {<span class="comment">// No child: the parent is the variables container itself.</span></div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;              .parentVariablesContainer = &amp;variablesContainer};</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160; </div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;    <span class="keywordflow">return</span> WalkUntilLastParent(*variable, childVariableNames, 0);</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;  }</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160; </div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_platform.html">gd::Platform</a>&amp; platform;</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a>&amp; projectScopedContainers;</div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; parameterType;</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; objectName;</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;  <span class="keyword">const</span> <a class="code" href="structgd_1_1_expression_node.html">gd::ExpressionNode</a>* lastNodeToCheck;</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        currentVariable = &amp;currentVariable-&gt;<a class="code" href="classgd_1_1_variable.html#a948e9c0d2789c8e74c216f4e47d84a13">GetChild</a>(childName);</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;      }</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;    }</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160; </div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    <span class="comment">// Return the last parent of the chain of variables (so not the last</span></div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    <span class="comment">// variable but the one before it).</span></div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    <span class="keywordflow">return</span> {.parentVariable = currentVariable};</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;  }</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160; </div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;  <a class="code" href="structgd_1_1_variable_and_its_parent.html">VariableAndItsParent</a> WalkUntilLastParent(</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a>&amp; variablesContainer,</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;      <span class="keyword">const</span> std::vector&lt;gd::String&gt;&amp; childVariableNames) {</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    <span class="keywordflow">if</span> (bailOutBecauseEmptyVariableName)</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;      <span class="keywordflow">return</span> {};  <span class="comment">// Do not even attempt to find the parent if we had an issue</span></div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;                  <span class="comment">// when visiting nodes.</span></div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160; </div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;    <span class="keywordflow">if</span> (variableName.empty())</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;      <span class="keywordflow">return</span> {};  <span class="comment">// There is no &quot;parent&quot; to the variables container itself.</span></div>
 <div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160; </div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a>* variablesContainer;</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> variableName;</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;  std::vector&lt;gd::String&gt; childVariableNames;</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;  <span class="keywordtype">bool</span> bailOutBecauseEmptyVariableName;</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;};</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160; </div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;}  <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;    <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a>* variable = variablesContainer.<a class="code" href="classgd_1_1_variables_container.html#a8910111630f6c51e75d5c4e18373d3dd">Has</a>(variableName)</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;                                       ? &amp;variablesContainer.<a class="code" href="classgd_1_1_variables_container.html#a8f3cf28efb06e2c85662c9e8e50dd01a">Get</a>(variableName)</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;                                       : <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    <span class="keywordflow">if</span> (childVariableNames.empty() || !variable)</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;      <span class="keywordflow">return</span> {<span class="comment">// No child: the parent is the variables container itself.</span></div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;              .parentVariablesContainer = &amp;variablesContainer};</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160; </div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;    <span class="keywordflow">return</span> WalkUntilLastParent(*variable, childVariableNames, 0);</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;  }</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160; </div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_platform.html">gd::Platform</a>&amp; platform;</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a>&amp; projectScopedContainers;</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; parameterType;</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; objectName;</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;  <span class="keyword">const</span> <a class="code" href="structgd_1_1_expression_node.html">gd::ExpressionNode</a>* lastNodeToCheck;</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160; </div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a>* variablesContainer;</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> variableName;</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;  std::vector&lt;gd::String&gt; childVariableNames;</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;  <span class="keywordtype">bool</span> bailOutBecauseEmptyVariableName;</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;};</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160; </div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;}  <span class="comment">// namespace gd</span></div>
 <div class="ttc" id="aclassgd_1_1_expression_parser2_node_worker_html"><div class="ttname"><a href="classgd_1_1_expression_parser2_node_worker.html">gd::ExpressionParser2NodeWorker</a></div><div class="ttdoc">The interface for any worker class (&quot;visitor&quot; pattern) that want to interact with the nodes of a pars...</div><div class="ttdef"><b>Definition:</b> ExpressionParser2NodeWorker.h:36</div></div>
 <div class="ttc" id="aclassgd_1_1_expression_variable_path_finder_html"><div class="ttname"><a href="classgd_1_1_expression_variable_path_finder.html">gd::ExpressionVariablePathFinder</a></div><div class="ttdoc">Find a variable path from an expression node.</div><div class="ttdef"><b>Definition:</b> ExpressionVariablePathFinder.h:39</div></div>
 <div class="ttc" id="aclassgd_1_1_objects_containers_list_html_a05264a806d2998ff99a4b4fbcb0f075b"><div class="ttname"><a href="classgd_1_1_objects_containers_list.html#a05264a806d2998ff99a4b4fbcb0f075b">gd::ObjectsContainersList::GetObjectOrGroupVariablesContainer</a></div><div class="ttdeci">const gd::VariablesContainer * GetObjectOrGroupVariablesContainer(const gd::String &amp;objectOrGroupName) const</div><div class="ttdoc">Return the container of the variables for the specified object or group of objects.</div><div class="ttdef"><b>Definition:</b> ObjectsContainersList.cpp:189</div></div>
@@ -438,10 +454,10 @@ $(function() {
 <div class="ttc" id="aclassgd_1_1_variables_container_html"><div class="ttname"><a href="classgd_1_1_variables_container.html">gd::VariablesContainer</a></div><div class="ttdoc">Class defining a container for gd::Variable.</div><div class="ttdef"><b>Definition:</b> VariablesContainer.h:28</div></div>
 <div class="ttc" id="aclassgd_1_1_variables_container_html_a8910111630f6c51e75d5c4e18373d3dd"><div class="ttname"><a href="classgd_1_1_variables_container.html#a8910111630f6c51e75d5c4e18373d3dd">gd::VariablesContainer::Has</a></div><div class="ttdeci">bool Has(const gd::String &amp;name) const</div><div class="ttdoc">Return true if the specified variable is in the container.</div><div class="ttdef"><b>Definition:</b> VariablesContainer.cpp:45</div></div>
 <div class="ttc" id="aclassgd_1_1_variables_container_html_a8f3cf28efb06e2c85662c9e8e50dd01a"><div class="ttname"><a href="classgd_1_1_variables_container.html#a8f3cf28efb06e2c85662c9e8e50dd01a">gd::VariablesContainer::Get</a></div><div class="ttdeci">Variable &amp; Get(const gd::String &amp;name)</div><div class="ttdoc">Return a reference to the variable called name.</div><div class="ttdef"><b>Definition:</b> VariablesContainer.cpp:51</div></div>
-<div class="ttc" id="aclassgd_1_1_variables_containers_list_html_a052fe632b55350bc3a625a8d65a2a092"><div class="ttname"><a href="classgd_1_1_variables_containers_list.html#a052fe632b55350bc3a625a8d65a2a092">gd::VariablesContainersList::GetVariablesContainerFromVariableName</a></div><div class="ttdeci">const VariablesContainer &amp; GetVariablesContainerFromVariableName(const gd::String &amp;variableName) const</div><div class="ttdef"><b>Definition:</b> VariablesContainersList.cpp:77</div></div>
-<div class="ttc" id="aclassgd_1_1_variables_containers_list_html_a295cc876120aa3a527ef1e4af1167bd7"><div class="ttname"><a href="classgd_1_1_variables_containers_list.html#a295cc876120aa3a527ef1e4af1167bd7">gd::VariablesContainersList::GetTopMostVariablesContainer</a></div><div class="ttdeci">const VariablesContainer * GetTopMostVariablesContainer() const</div><div class="ttdoc">Avoid using apart when a scope must be forced.</div><div class="ttdef"><b>Definition:</b> VariablesContainersList.h:73</div></div>
-<div class="ttc" id="aclassgd_1_1_variables_containers_list_html_aa9993b28bc0c553e6e53f678260babed"><div class="ttname"><a href="classgd_1_1_variables_containers_list.html#aa9993b28bc0c553e6e53f678260babed">gd::VariablesContainersList::GetBottomMostVariablesContainer</a></div><div class="ttdeci">const VariablesContainer * GetBottomMostVariablesContainer() const</div><div class="ttdoc">Avoid using apart when a scope must be forced.</div><div class="ttdef"><b>Definition:</b> VariablesContainersList.h:83</div></div>
-<div class="ttc" id="aclassgd_1_1_variables_containers_list_html_ae7752ca7beecef9accb1fb348f371e24"><div class="ttname"><a href="classgd_1_1_variables_containers_list.html#ae7752ca7beecef9accb1fb348f371e24">gd::VariablesContainersList::Has</a></div><div class="ttdeci">bool Has(const gd::String &amp;name) const</div><div class="ttdoc">Return true if the specified variable is in one of the containers.</div><div class="ttdef"><b>Definition:</b> VariablesContainersList.cpp:58</div></div>
+<div class="ttc" id="aclassgd_1_1_variables_containers_list_html_a052fe632b55350bc3a625a8d65a2a092"><div class="ttname"><a href="classgd_1_1_variables_containers_list.html#a052fe632b55350bc3a625a8d65a2a092">gd::VariablesContainersList::GetVariablesContainerFromVariableName</a></div><div class="ttdeci">const VariablesContainer &amp; GetVariablesContainerFromVariableName(const gd::String &amp;variableName) const</div><div class="ttdef"><b>Definition:</b> VariablesContainersList.cpp:150</div></div>
+<div class="ttc" id="aclassgd_1_1_variables_containers_list_html_a295cc876120aa3a527ef1e4af1167bd7"><div class="ttname"><a href="classgd_1_1_variables_containers_list.html#a295cc876120aa3a527ef1e4af1167bd7">gd::VariablesContainersList::GetTopMostVariablesContainer</a></div><div class="ttdeci">const VariablesContainer * GetTopMostVariablesContainer() const</div><div class="ttdoc">Avoid using apart when a scope must be forced.</div><div class="ttdef"><b>Definition:</b> VariablesContainersList.h:100</div></div>
+<div class="ttc" id="aclassgd_1_1_variables_containers_list_html_aa9993b28bc0c553e6e53f678260babed"><div class="ttname"><a href="classgd_1_1_variables_containers_list.html#aa9993b28bc0c553e6e53f678260babed">gd::VariablesContainersList::GetBottomMostVariablesContainer</a></div><div class="ttdeci">const VariablesContainer * GetBottomMostVariablesContainer() const</div><div class="ttdoc">Avoid using apart when a scope must be forced.</div><div class="ttdef"><b>Definition:</b> VariablesContainersList.h:111</div></div>
+<div class="ttc" id="aclassgd_1_1_variables_containers_list_html_ae7752ca7beecef9accb1fb348f371e24"><div class="ttname"><a href="classgd_1_1_variables_containers_list.html#ae7752ca7beecef9accb1fb348f371e24">gd::VariablesContainersList::Has</a></div><div class="ttdeci">bool Has(const gd::String &amp;name) const</div><div class="ttdoc">Return true if the specified variable is in one of the containers.</div><div class="ttdef"><b>Definition:</b> VariablesContainersList.cpp:131</div></div>
 <div class="ttc" id="anamespacegd_html"><div class="ttname"><a href="namespacegd.html">gd</a></div><div class="ttdef"><b>Definition:</b> CommonTools.h:24</div></div>
 <div class="ttc" id="astructgd_1_1_empty_node_html"><div class="ttname"><a href="structgd_1_1_empty_node.html">gd::EmptyNode</a></div><div class="ttdoc">An empty node, used when parsing failed/a syntax error was encountered and any other node could not m...</div><div class="ttdef"><b>Definition:</b> ExpressionParser2Node.h:423</div></div>
 <div class="ttc" id="astructgd_1_1_expression_node_html"><div class="ttname"><a href="structgd_1_1_expression_node.html">gd::ExpressionNode</a></div><div class="ttdoc">The base node, from which all nodes in the tree of an expression inherits from.</div><div class="ttdef"><b>Definition:</b> ExpressionParser2Node.h:100</div></div>

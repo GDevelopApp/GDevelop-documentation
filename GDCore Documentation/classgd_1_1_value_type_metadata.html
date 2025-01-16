@@ -142,8 +142,12 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memdesc:a9f0f23f4460fe9a29445f79a52f389a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the type is a boolean. <br /></td></tr>
 <tr class="separator:a9f0f23f4460fe9a29445f79a52f389a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada9e8ef0ffc2f1442946015d7cf67979"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_value_type_metadata.html#ada9e8ef0ffc2f1442946015d7cf67979">IsVariable</a> () const</td></tr>
-<tr class="memdesc:ada9e8ef0ffc2f1442946015d7cf67979"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the type of the parameter is a number.  <a href="classgd_1_1_value_type_metadata.html#ada9e8ef0ffc2f1442946015d7cf67979">More...</a><br /></td></tr>
+<tr class="memdesc:ada9e8ef0ffc2f1442946015d7cf67979"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the type of the parameter is a variable.  <a href="classgd_1_1_value_type_metadata.html#ada9e8ef0ffc2f1442946015d7cf67979">More...</a><br /></td></tr>
 <tr class="separator:ada9e8ef0ffc2f1442946015d7cf67979"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a540597e551a4bb2f3a0e93b63e0644"><td class="memItemLeft" align="right" valign="top"><a id="a8a540597e551a4bb2f3a0e93b63e0644"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_value_type_metadata.html#a8a540597e551a4bb2f3a0e93b63e0644">IsVariableOnly</a> () const</td></tr>
+<tr class="memdesc:a8a540597e551a4bb2f3a0e93b63e0644"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the type of the parameter is a variable and not a property or a parameter. <br /></td></tr>
+<tr class="separator:a8a540597e551a4bb2f3a0e93b63e0644"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9184ed3afca74f8aa0187232e26f741a"><td class="memItemLeft" align="right" valign="top"><a id="a9184ed3afca74f8aa0187232e26f741a"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_value_type_metadata.html#a9184ed3afca74f8aa0187232e26f741a">IsLegacyPreScopedVariable</a> () const</td></tr>
 <tr class="memdesc:a9184ed3afca74f8aa0187232e26f741a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the type is a variable but from a specific scope (scene, project or object). In new code, prefer to use the more generic "variable" parameter (which accepts any variable coming from an object or from containers in the scope). <br /></td></tr>
@@ -360,7 +364,7 @@ static const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</
 </table>
 </div><div class="memdoc">
 
-<p>Return true if the type of the parameter is a number. </p>
+<p>Return true if the type of the parameter is a variable. </p>
 <dl class="section note"><dt>Note</dt><dd>If you had a new type of parameter, also add it in the IDE ( see EventsFunctionParametersEditor, ParameterRenderingService and ExpressionAutocompletion) and in the <a class="el" href="classgd_1_1_events_code_generator.html" title="Internal class used to generate code from events.">EventsCodeGenerator</a>. </dd></dl>
 
 </div>
