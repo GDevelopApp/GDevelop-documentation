@@ -23,6 +23,9 @@ There are ready-to-use joysticks in the asset-store [multitouch joysticks pack](
 
 ## Conditions
 
+**New touch on a screen side**  
+Check if a new touch has started on the right or left side of the screen.
+
 **Multitouch controller button pressed**  
 Check if a button is pressed on a gamepad.
 
@@ -34,9 +37,6 @@ Check if joystick is pushed in a given direction.
 
 **Joystick pushed in a direction (8-way)**  
 Check if joystick is pushed in a given direction.
-
-**Can be used at position**  
-Check if the joystick can be used at a given position without touching the screen edges.
 
 **Stick force**  
 Compare the force of multitouch contoller stick (from 0 to 1).

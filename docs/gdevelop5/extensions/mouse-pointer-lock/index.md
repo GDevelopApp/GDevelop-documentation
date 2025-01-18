@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Virtual Reality/Virtual Reality_360_rotate_vr_movement.svg" class="extension-icon"></img>
 This behavior removes the limit on the distance the mouse can move and hides the cursor.
 
-**Authors and contributors** to this community extension: [PANDAKO](https://gd.games/PANDAKO).
+**Authors and contributors** to this community extension: [PANDAKO](https://gd.games/PANDAKO), [D8H](https://gd.games/D8H).
 
 ---
 
@@ -29,16 +29,16 @@ Unlocks the mouse pointer and show it.
 **Request Pointer Lock**  
 Lock the mouse pointer to hide it.
 
+**Speed factor for touch movement**  
+Change the speed factor for touch movement.
+
 ## Conditions
 
 **Locked pointer is moving**  
 Check if the locked pointer is moving.
 
-**Pointer X movement**  
-Compare the movement of the locked pointer on the X axis.
-
-**Pointer Y movement**  
-Compare the movement of the pointer on the Y axis.
+**Speed factor for touch movement**  
+Compare the speed factor for touch movement.
 
 **Pointer is locked**  
 Check if the mouse pointer is locked.
@@ -47,8 +47,7 @@ Check if the mouse pointer is locked.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `MousePointerLock::MovementX()` | Return the movement of the locked pointer on the X axis. ||
-| `MousePointerLock::MovementY()` | Return the movement of the pointer on the Y axis. ||
+| `MousePointerLock::TouchSpeedFactor()` | Return the speed factor for touch movement. ||
 
 ## First person camera mouse mapper 
 
