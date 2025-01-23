@@ -1,4 +1,4 @@
-# 3D Physics Engine Reference
+# 3D physics engine Reference
 
 The physics engine simulates realistic object physics, with gravity, forces, joints, etc. It's perfect for games that need to have realistic behaving objects and a gameplay centered around it. [Read more explanations about it.](/gdevelop5/behaviors/physics3d)
 
@@ -58,13 +58,13 @@ Enable or disable a mask for an object. Two objects collide if any layer of the 
 Change the object angular damping. How much angular speed is lost across the time..
 
 **Angular velocity X**  
-Change the object angular velocity on X..
+Change the object angular velocity around X..
 
 **Angular velocity Y**  
-Change the object angular velocity on Y..
+Change the object angular velocity around Y..
 
 **Angular velocity Z**  
-Change the object angular velocity on Z..
+Change the object angular velocity around Z..
 
 **Treat as bullet**  
 Treat the object as a bullet. Better collision handling on high speeds at cost of some performance.
@@ -114,13 +114,13 @@ Modify an object shape scale. It affects custom shape dimensions, if custom dime
 Compare the object angular damping. How much angular speed is lost across the time..
 
 **Angular velocity X**  
-Compare the object angular velocity on X..
+Compare the object angular velocity around X..
 
 **Angular velocity Y**  
-Compare the object angular velocity on Y..
+Compare the object angular velocity around Y..
 
 **Angular velocity Z**  
-Compare the object angular velocity on Z..
+Compare the object angular velocity around Z..
 
 **Density**  
 Compare the object density. The body's density and volume determine its mass..
@@ -184,9 +184,9 @@ Compare the object restitution. Energy conservation on collision. The combined r
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.Physics3D::AngularDamping()` | Return the object angular damping. How much angular speed is lost across the time.. ||
-| `Object.Physics3D::AngularVelocityX()` | Return the object angular velocity on X.. ||
-| `Object.Physics3D::AngularVelocityY()` | Return the object angular velocity on Y.. ||
-| `Object.Physics3D::AngularVelocityZ()` | Return the object angular velocity on Z.. ||
+| `Object.Physics3D::AngularVelocityX()` | Return the object angular velocity around X.. ||
+| `Object.Physics3D::AngularVelocityY()` | Return the object angular velocity around Y.. ||
+| `Object.Physics3D::AngularVelocityZ()` | Return the object angular velocity around Z.. ||
 | `Object.Physics3D::Density()` | Return the object density. The body's density and volume determine its mass.. ||
 | `Object.Physics3D::Friction()` | Return the object friction. How much energy is lost from the movement of one object over another. The combined friction from two bodies is calculated as 'sqrt(bodyA.friction * bodyB.friction)'.. ||
 | `Object.Physics3D::GravityScale()` | Return the object gravity scale. The gravity applied to an object is the world gravity multiplied by the object gravity scale.. ||
@@ -375,4 +375,4 @@ Compare the sideways max speed of the object..
 | `Object.PhysicsCharacter3D::SidewaysSpeedMax()` | Return the sideways max speed of the object.. ||
 
 ---
-*This page is an auto-generated reference page about the **3D Physics Engine** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **3D physics engine** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

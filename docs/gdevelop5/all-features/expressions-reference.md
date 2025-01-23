@@ -1039,16 +1039,16 @@ Simulate realistic object physics with gravity, forces, joints, etc. [Read more 
 
 
 
-## 3D physics engine (from extension 3D Physics Engine)
+## 3D physics engine 
 
 Simulate realistic object physics with gravity, forces, etc. [Read more explanations about it.](/gdevelop5/behaviors/physics3d)
 
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.Physics3D::AngularDamping()` | Return the object angular damping. How much angular speed is lost across the time.. ||
-| `Object.Physics3D::AngularVelocityX()` | Return the object angular velocity on X.. ||
-| `Object.Physics3D::AngularVelocityY()` | Return the object angular velocity on Y.. ||
-| `Object.Physics3D::AngularVelocityZ()` | Return the object angular velocity on Z.. ||
+| `Object.Physics3D::AngularVelocityX()` | Return the object angular velocity around X.. ||
+| `Object.Physics3D::AngularVelocityY()` | Return the object angular velocity around Y.. ||
+| `Object.Physics3D::AngularVelocityZ()` | Return the object angular velocity around Z.. ||
 | `Object.Physics3D::Density()` | Return the object density. The body's density and volume determine its mass.. ||
 | `Object.Physics3D::Friction()` | Return the object friction. How much energy is lost from the movement of one object over another. The combined friction from two bodies is calculated as 'sqrt(bodyA.friction * bodyB.friction)'.. ||
 | `Object.Physics3D::GravityScale()` | Return the object gravity scale. The gravity applied to an object is the world gravity multiplied by the object gravity scale.. ||
@@ -1069,7 +1069,7 @@ Simulate realistic object physics with gravity, forces, etc. [Read more explanat
 | `Object.Physics3D::Restitution()` | Return the object restitution. Energy conservation on collision. The combined restitution from two bodies is calculated as 'max(bodyA.restitution, bodyB.restitution)'.. ||
 | `Object.Physics3D::WorldScale()` | Return the world scale. ||
 
-## 3D physics character (from extension 3D Physics Engine)
+## 3D physics character (from extension 3D physics engine)
 
 Jump and run on platforms. [Read more explanations about it.](/gdevelop5/behaviors/physics3d)
 

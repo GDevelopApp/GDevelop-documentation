@@ -75,6 +75,9 @@ Compare the font name.
 **Input type**  
 Compare the input type.
 
+**Input is submitted**  
+Check if the input is submitted, which usually happens when the Enter key is pressed on a keyboard, or a specific button on mobile virtual keyboards.
+
 **Placeholder**  
 Compare the placeholder.
 
