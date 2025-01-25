@@ -61,6 +61,7 @@ nav:
     - General:
         - Array tools: array-tools
         - Extended variables support: extended-variables
+        - Playgama Bridge: playgama-bridge
         - Repeat every X seconds: repeat-every-xseconds
     - Input:
         - Back button: back-button
@@ -243,6 +244,7 @@ nav:
             - Dynamic Water: dynamic-water
             - Make it rain: make-it-rain
             - Reflection: reflection
+            - 3D Sky and sun: sky3d
             - Sprite-based lighting: sprite-based-lighting
             - Advanced 3D tween: tween3d
     - ...
