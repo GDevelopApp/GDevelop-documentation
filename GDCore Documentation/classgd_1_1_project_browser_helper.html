@@ -92,6 +92,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a6781371b18f7ecbb05ce9f7ce0e76056"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project_browser_helper.html#a6781371b18f7ecbb05ce9f7ce0e76056">ExposeProjectEventsWithoutExtensions</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, <a class="el" href="classgd_1_1_arbitrary_events_worker.html">gd::ArbitraryEventsWorker</a> &amp;worker)</td></tr>
 <tr class="memdesc:a6781371b18f7ecbb05ce9f7ce0e76056"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call the specified worker on all events of the project (layout and external events) but not events from extensions.  <a href="classgd_1_1_project_browser_helper.html#a6781371b18f7ecbb05ce9f7ce0e76056">More...</a><br /></td></tr>
 <tr class="separator:a6781371b18f7ecbb05ce9f7ce0e76056"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e57080f5b23008ee0b2e8f3315f176d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project_browser_helper.html#a2e57080f5b23008ee0b2e8f3315f176d">ExposeProjectEventsWithoutExtensions</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, <a class="el" href="classgd_1_1_arbitrary_events_worker_with_context.html">gd::ArbitraryEventsWorkerWithContext</a> &amp;worker)</td></tr>
+<tr class="memdesc:a2e57080f5b23008ee0b2e8f3315f176d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call the specified worker on all events of the project (layout and external events) but not events from extensions.  <a href="classgd_1_1_project_browser_helper.html#a2e57080f5b23008ee0b2e8f3315f176d">More...</a><br /></td></tr>
+<tr class="separator:a2e57080f5b23008ee0b2e8f3315f176d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7c3bf584ca70b0dce591b35c82a9e10"><td class="memItemLeft" align="right" valign="top"><a id="af7c3bf584ca70b0dce591b35c82a9e10"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project_browser_helper.html#af7c3bf584ca70b0dce591b35c82a9e10">ExposeLayoutEventsAndExternalEvents</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, <a class="el" href="classgd_1_1_layout.html">gd::Layout</a> &amp;layout, <a class="el" href="classgd_1_1_arbitrary_events_worker.html">gd::ArbitraryEventsWorker</a> &amp;worker)</td></tr>
 <tr class="memdesc:af7c3bf584ca70b0dce591b35c82a9e10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call the specified worker on all events of a layout and its external events. <br /></td></tr>
@@ -700,7 +703,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 </div>
 </div>
 <a id="a6781371b18f7ecbb05ce9f7ce0e76056"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6781371b18f7ecbb05ce9f7ce0e76056">&#9670;&nbsp;</a></span>ExposeProjectEventsWithoutExtensions()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6781371b18f7ecbb05ce9f7ce0e76056">&#9670;&nbsp;</a></span>ExposeProjectEventsWithoutExtensions() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -718,6 +721,45 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classgd_1_1_arbitrary_events_worker.html">gd::ArbitraryEventsWorker</a> &amp;&#160;</td>
+          <td class="paramname"><em>worker</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Call the specified worker on all events of the project (layout and external events) but not events from extensions. </p>
+<p>Only use this for stats. </p>
+
+</div>
+</div>
+<a id="a2e57080f5b23008ee0b2e8f3315f176d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e57080f5b23008ee0b2e8f3315f176d">&#9670;&nbsp;</a></span>ExposeProjectEventsWithoutExtensions() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gd::ProjectBrowserHelper::ExposeProjectEventsWithoutExtensions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;&#160;</td>
+          <td class="paramname"><em>project</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classgd_1_1_arbitrary_events_worker_with_context.html">gd::ArbitraryEventsWorkerWithContext</a> &amp;&#160;</td>
           <td class="paramname"><em>worker</em>&#160;</td>
         </tr>
         <tr>
