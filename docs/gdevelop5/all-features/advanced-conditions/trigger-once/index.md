@@ -1,36 +1,36 @@
 ---
-title: Trigger once condition
+title: Trigger Once Condition
 ---
-# Trigger once condition
+# Trigger Once Condition
 
-Whenever the "**Trigger once while true**" condition is used, the event actions are triggered only once till the above conditions are met. 
+When the "**Trigger once while true**" condition is used, the event actions are executed only once as long as the specified conditions are met.
 
-## Replicate "trigger once" condition with variables
+## Simulating the "Trigger Once" Condition with Variables
 
-Every "trigger once" condition keep a state for wether the conditions above it were met or not during the previous frame. Given that the conditions above it are met:
-- when the conditions were met, the actions are not triggered
-- when the conditions weren't met, the actions are triggered
+The "trigger once" condition maintains a state that tracks whether the conditions above it were met in the previous frame. If the conditions are met:
+- If the conditions were **previously met**, the actions are **not triggered**.
+- If the conditions were **not previously met**, the actions are **triggered**.
 
 The following event...
 
 ![](trigger-once-key-pressed.png)
 
-...can be "translated" using variables:
+...can be replicated using variables:
 
 ![](trigger-once-as-variables.png)
 
-In this case, the "trigger once" condition works well. This is only to help understand its limitations as described in the following section. 
+This example demonstrates how the "trigger once" condition functions. However, this is primarily to help understand its limitations, as explained in the next section.
 
-## Trigger actions once per object instance
+## Triggering Actions Once Per Object Instance
 
-"Trigger once" conditions are not checked per instance. Until at least one instance met the conditions, the action won't be triggered for any instance. 
-For instance, if you want to play a "surprised" animation when the player comes closed to an enemy, a trigger once may work as long as enemies are far from each other. But, when the player is still chased by an enemy, the encountered enemies won't play a "surprised" animation.
+The "trigger once" condition is **not evaluated per instance**. If at least one instance meets the conditions, the action will not be triggered for any other instances, even if they meet the conditions later. 
 
-[Object variables](/gdevelop5/all-features/variables/object-variables/) must be used to follow the state of object instances one by one.
-It could be done with boolean variables, but objects may have more than 2 states so it's often clearer to use string variables.
+For example, if you want to play a "surprised" animation when the player gets close to an enemy, the "trigger once" condition may work if enemies are spaced far apart. However, if the player is already being chased by one enemy, other nearby enemies will not trigger the "surprised" animation.
+
+To handle this, you need to use [object variables](/gdevelop5/all-features/variables/object-variables/) to track the state of each object instance individually. While boolean variables can be used, string variables are often clearer, especially when objects have more than two possible states.
 
 ![](trigger-once-as-fsm.png)
 
 !!! info
 
-    A more detailed example is explained on [the finite state machines](/gdevelop5/tutorials/finite_state_machine) page.
+    For a more detailed explanation, refer to the [finite state machines](/gdevelop5/tutorials/finite_state_machine) page.
