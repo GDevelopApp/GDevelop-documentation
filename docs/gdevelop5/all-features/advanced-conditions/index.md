@@ -33,7 +33,7 @@ Whenever the "**Trigger once while true**" condition is used, the actions for th
 
 !!! warning
 
-    Trigger once conditions are not checked per instance. Within a [for each object](/gdevelop5/events/foreach) event, [object variables](/gdevelop5/all-features/variables/object-variables/) must be used to follow the state of object instances one by one.
+    As explained in the [trigger once](/gdevelop5/all-features/advanced-conditions/trigger-once) page, "Trigger once" conditions are not checked per instance. Until at least one instance met the conditions, the action won't be triggered for any instance.
 
 ## Compare two numbers
 ![](compare-two-numbers-condition.png)
