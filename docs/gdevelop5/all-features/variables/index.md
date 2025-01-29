@@ -41,27 +41,9 @@ the terms *text* and *string* are used interchangeably.
 
 A variable with the *Boolean* data type contains the simplest form of information: either yes or no, 1 or 0, true or false. They are useful as they can be easily toggled.
 
-### Structure
+### Structures and arrays
 
-A Structure variable maps names to other variables (called "child variables").
-
-For example, a simple structure can map the name "Hello" to one sub-variable and the name "World" to another sub-variable.
-You can use this data type to organize related variables within a single variable.
-
-!!! tip
-
-    In programming languages, this data type is often referred to as an _object_, _map_, _hash_, or *dictionary*.
-
-Structures can be created in the Variables Editor, using events or by using an extension like [JSON resource loader](../../extensions/jsonresource-loader/).
-
-### Array
-
-An Array variable, also sometimes called _list_ in programming languages, is like a list of variables.
-
-Each variable in an Array has an index, which defines their position in the array.
-The indices begin at 0 and go up to however long the array is.
-
-Arrays can be created in the Variables Editor, using events or by using an extension like [JSON resource loader](../../extensions/jsonresource-loader/).
+[Structure and array variables](structures-and-arrays) allow to organize values and access them dynamically.
 
 ## Using a variable in expressions
 
@@ -83,66 +65,6 @@ For a variable of an object, you write the object name first followed by a dot a
 
     This means if there are conflicting names, the object will always be used in priority. Otherwise, in the events of a scene, it will be a scene variable if it exists, otherwise a global variable if it exists.
     In an extension, the parameter with the given name will be used first, other a property if it exists.
-
-## Accessing child variables in structures or arrays
-
-Variables that exist within a collection variable (i.e: an array or a structure) are known as _child variables_.
-To access the value of a child variable, use the following syntax in an [expressions](/gdevelop5/all-features/expressions), replacing the values in angled brackets with variable names:
-
-```
-<parent_variable>.<child_variable>
-```
-Assume we have this structure:
-
-![](structure-variable.png)
-
-To get the value `123` we can write the following expression
-
-```
-players.player1.level1score
-```
-
-Or, using brackets:
-
-```
-players["player1"]["level1score"]
-```
-
-!!! tip
-
-    On structures, `<child_variable>` is the name of the child variable. On arrays it is the index of the child variable. Only **numbers work as indices** for arrays.
-
-Parent variables need to be declared, but it's not the case for children variables. The benefit of declaring children is to get autocompletion in the events.
-
-!!! note
-
-    Collection variables (structures and arrays) can contain other collection variables. This makes it possible to store complex data in a single variable. This is helpful when dealing with structured data coming from various sources, including data served from web services or third parties.
-
-    Just be careful the data doesn't become too difficult to manage if you create structures with a lot of variables.
-
-### Accessing child variables dynamically
-
-You can use expressions to dynamically access child variables.
-
-For example, imagine storing the player's score for each level, called `Level1`, `Level2`, `Level3`. If you want to show the player's score for a specific level, you may store the current level number in a variable called `CurrentLevel`. You could then use the following syntax to access the score:
-
-```
-PlayerScore["Level" + CurrentLevel]
-```
-
-Whatever is inside the square brackets will be interpreted as the name of the child.
-
-If you need to use a variable to define part of the child path, all the subsequent children in the path will need to be in square brackets as well.   In the above example if you wanted to address a child called `PlayerScore.Level1.enemies.killbonus` but still define the level dynamically, it would look like this:
-
-```
-PlayerScore["Level" + CurrentLevel].enemies.killbonus
-```
-
-Note that this is equivalent to writing:
-
-```
-PlayerScore["Level" + CurrentLevel]["enemies"]["killbonus"]
-```
 
 ## Scopes
 
