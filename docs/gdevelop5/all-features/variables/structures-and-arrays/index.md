@@ -3,6 +3,10 @@ title: Structure and array variables
 ---
 # Structure and array variables
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/watch?v=irG4e2HoaEw" frameborder="0" allowfullscreen></iframe>
+</div>
+
 !!! warning
 
     Reading the [variable](..) page first will help understanding this page.
