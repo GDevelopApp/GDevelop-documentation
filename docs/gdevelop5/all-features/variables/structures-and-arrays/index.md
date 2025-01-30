@@ -4,7 +4,7 @@ title: Structure and array variables
 # Structure and array variables
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/watch?v=irG4e2HoaEw" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/irG4e2HoaEw" frameborder="0" allowfullscreen></iframe>
 </div>
 
 !!! warning
