@@ -20,7 +20,7 @@ Most of the time, a "For Each" event is not required because conditions and acti
 
 !!! warning
 
-    [Trigger once](/gdevelop5/all-features/advanced-conditions/#trigger-once) conditions are not checked per instance. Within a "for each" event, [object variables](/gdevelop5/all-features/variables/object-variables/) must be used to follow the state of object instances one by one.
+    [Trigger once](/gdevelop5/all-features/advanced-conditions/trigger-once) conditions are not checked per instance. Within a "for each" event, [object variables](/gdevelop5/all-features/variables/object-variables/) must be used to follow the state of object instances one by one.
 
 There are specific circumstances that do require using a "For Each" event, including:
 
