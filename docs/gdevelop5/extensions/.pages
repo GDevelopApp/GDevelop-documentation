@@ -227,6 +227,7 @@ nav:
             - Gamejolt: gamejolt-api
             - Newgrounds API: newgrounds-api
             - OllamaAI: ollama-ai
+            - Wortal SDK: wortal-sdk
             - Yandex Games SDK for GDevelop: ygame-sdk
         - User interface:
             - Align object on the screen: align-object
