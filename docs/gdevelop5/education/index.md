@@ -104,3 +104,11 @@ Here is the recommended way of managing student accounts:
 !!! tip
 
     It is possible to activate again a student account that was disabled (for example, in the case of a student joining again your class), but you have to wait 15 days before you can restore them after disabling them.
+
+## Cancel your subscription
+
+The main teacher account is the account that holds the subscription.
+
+To cancel it, log in to GDevelop with this account, go to "My profile", click "Manage subscription" and finally click on "Cancel subscription".
+
+Your subscription will be still available until the end of the current period (the month or the year depending which period you chose when subscribing).
