@@ -17,7 +17,11 @@ The behavior is based on three big concepts: the world that hold the bodies (thi
 
 ![](pasted/20230304-145455.png)
 
-##World
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/HzAFMb_q-a4" frameborder="0" allowfullscreen></iframe>
+</div>
+
+## World
 
 The world is the place where simulations run, bodies and joints are attached to a world to interact with other entities. This corresponds to the scene in GDevelop.
 Like GDevelop scenes size, the world size is infinite, so you don't have to care where your objects are. They will always follow the laws of physics once they have the physics behavior added and enabled.

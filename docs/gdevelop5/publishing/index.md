@@ -9,6 +9,10 @@ In order to export the game, click **Share** in the GDevelop Interface. You will
 
 ![Share game](Export.png)
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/p97ah8i-aY4" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ## Publish and share on GDevelop's free service gd.games
 
 **[gd.games](https://gd.games)** is the gaming platform hosted by GDevelop, dedicated to games powered by GDevelop.

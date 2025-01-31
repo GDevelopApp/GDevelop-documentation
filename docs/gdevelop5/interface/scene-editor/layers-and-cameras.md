@@ -3,6 +3,10 @@ title: Layers and cameras
 ---
 # Layers and cameras
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/5NzMs1JRuXA" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ## Layers
 
 A layer is a virtual container of objects in a scene. Layers serve multiple purposes, including:

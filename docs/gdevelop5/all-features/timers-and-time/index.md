@@ -9,6 +9,10 @@ Time management is important in a game. GDevelop provides a few different tools:
 * Special actions like "Wait X seconds" can be used to wait before launching the next actions in an event. This is useful for creating cut-scenes, timelines or just effects happening not immediately.
 * Finally, there are expressions to get the current time, day and time since the start of the game.
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/mHiEnvE9iqE" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ## The "Wait X seconds" action
 
 The “Wait X seconds” action waits for the specified time before running the next actions, and the sub events (if any). For example:

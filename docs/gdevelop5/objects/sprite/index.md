@@ -7,6 +7,10 @@ Sprite objects are the most commonly used [objects](/gdevelop5/objects) in GDeve
 
 A sprite object allows us to display an image or play a series of images as an animation. It can be used for many things in our games, like buttons, characters, or platforms. Anything that can be represented with an image can be a sprite object.
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/2eOhvUIL4vg" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ## Creating a sprite object
 
 To add a sprite to your scene, select the "Click to add an object" option located on the right at the bottom of the objects panel.

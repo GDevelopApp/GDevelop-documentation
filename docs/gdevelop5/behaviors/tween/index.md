@@ -16,6 +16,10 @@ The Tween (from inbe**tween**) [behavior](/gdevelop5/behaviors) animates [object
 
     [easings.net](https://easings.net/) is an interactive catalog of all easing functions (speed shapes) that can be used by the tween behavior.
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/vdYi8Miwv2E" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ## Play tweens simultaneously
 
 Tweens can be played simultaneously simply by adding actions next to each other.
