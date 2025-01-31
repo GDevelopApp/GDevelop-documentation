@@ -3,6 +3,10 @@ title: Resources loading
 ---
 # Resources loading
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/GDVzz21NjCs" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ## Understand how resources are loaded
 
 When a game starts a loading screen is shown while resources for the first scene (the one with a flag) are downloaded. It also includes resources used by global objects.

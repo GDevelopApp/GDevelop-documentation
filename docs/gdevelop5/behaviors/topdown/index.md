@@ -8,6 +8,9 @@ title: Top-Down Movement behavior
         **See it in action!** 🎮
     [I would rather see the Top Down Movement behavior examples! Please take me there now.](/#Examples)
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/zUV-lUtXpO4" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ####  Add "Top-Down Movement" behavior
 

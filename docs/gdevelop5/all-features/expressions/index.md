@@ -21,7 +21,7 @@ These icons indicate that the field accepts an _expression_. An expression is a 
     For a complete list of the function expressions that GDevelop provides out of the box, refer to [expressions reference](/gdevelop5/all-features/expressions-reference).
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/huKDtb8Ubd4" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/JNqekjjendk" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## Numbers

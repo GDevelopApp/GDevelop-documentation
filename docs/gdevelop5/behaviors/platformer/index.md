@@ -5,6 +5,10 @@ title: Platform and platformer character behaviors
 
 GDevelop comes with two [behaviors](/gdevelop5/behaviors) to build platformer games. This first one, "Platform", allows to mark objects as platforms. The second, "Platformer character", allows the object to run and jump on platforms.
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/V0d93elLHkQ" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ## Mark platform and walls with the Platform behavior
 
 Like any behavior, edit an object and choose "Add a behavior" to find the **Platform** behavior:
