@@ -37,6 +37,12 @@ Change the speed factor for touch movement.
 **Locked pointer is moving**  
 Check if the locked pointer is moving.
 
+**Pointer X movement**  
+Compare the movement of the locked pointer on the X axis.
+
+**Pointer Y movement**  
+Compare the movement of the pointer on the Y axis.
+
 **Speed factor for touch movement**  
 Compare the speed factor for touch movement.
 
@@ -47,6 +53,8 @@ Check if the mouse pointer is locked.
 
 | Expression | Description |  |
 |-----|-----|-----|
+| `MousePointerLock::MovementX()` | Return the movement of the locked pointer on the X axis. ||
+| `MousePointerLock::MovementY()` | Return the movement of the pointer on the Y axis. ||
 | `MousePointerLock::TouchSpeedFactor()` | Return the speed factor for touch movement. ||
 
 ## First person camera mouse mapper 

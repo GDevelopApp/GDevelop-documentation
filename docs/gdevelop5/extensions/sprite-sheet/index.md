@@ -7,7 +7,6 @@ Animate a tiled sprite from a sprite sheet.
 
 ---
 
-
 Animate images from a sprite sheet by using a tiled sprite.
 
 ## How to use
