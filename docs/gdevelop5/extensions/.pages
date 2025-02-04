@@ -132,6 +132,7 @@ nav:
         - Panel sprite button: panel-sprite-button
         - Resource bar (continuous): panel-sprite-continuous-bar
         - Slider: panel-sprite-slider
+        - Player avatar: player-avatar
         - Pop-up: pop-up
         - Animated Score Counter: score-counter
         - Share dialog and sharing options: share
