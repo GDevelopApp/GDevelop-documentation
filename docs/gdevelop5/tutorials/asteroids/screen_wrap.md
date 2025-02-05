@@ -20,7 +20,7 @@ In your game scene, open the "objects groups editor" panel, which is found in th
 
 From this panel, create an object group called "Everything", and add your Player object, Bullet, and each type of asteroid to this group.
 
-![](/gdevelop5/tutorials/asteroids/asteroids_gif_11_everything_object_group.gif)
+![](asteroids_gif_11_everything_object_group.gif)
 
 ## Screen wrap
 
@@ -40,4 +40,4 @@ And then recreate this event for the Y position, making sure to use 630 instead 
 
 So if an object goes 30 pixels off screen it will have it's position moved to the opposite X or Y position depending on what part of the screen it went through. But, we multiply it by 0.95 (or 95%) so it will no longer be out of bounds when flipped.
 
-![](/gdevelop5/tutorials/asteroids/screen_wrap/pasted/20220119-182309.png)
+![](screen_wrap/pasted/20220119-182309.png)

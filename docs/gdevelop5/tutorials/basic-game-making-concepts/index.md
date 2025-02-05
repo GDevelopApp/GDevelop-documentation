@@ -11,7 +11,7 @@ Everything that is *displayed on the screen* is called an **"Object"**. Differen
 
 Read more about  [Objects](https://wiki.gdevelop.io/gdevelop5/objects#objects).
 
-![](/gdevelop5/tutorials/gifs_for_wiki_showing_objects.gif)
+![](gifs_for_wiki_showing_objects.gif)
 
 ## Positioning Objects in the world: Coordinates
 
@@ -23,7 +23,7 @@ The X-coordinate _decreases_ as you go to the left and _increases_ as you go to 
 
     The top-left corner of your game's screen starts at X=0 and Y=0, but this will change if the camera is moved.
 
-![](/gdevelop5/tutorials/basic-game-making-concepts/pasted/20201015-145909.png)
+![](pasted/20201015-145909.png)
 
 ## Angles
 
@@ -50,14 +50,14 @@ Events are used to create the logic of your game. They are composed of condition
 
 An event without any conditions will always perform the actions. In the video below, the ship object will continuously rotate at the speed set in the **Rotate Ship** action.
 
-![](/gdevelop5/tutorials/gifs_for_wiki_showing_conditionless_event.gif)
+![](gifs_for_wiki_showing_conditionless_event.gif)
 
 If a condition is added to the event, the actions will only be performed when the condition is true.
 
 
 In this example, a condition for **The cursor/touch is on Ship** is added.  Now the **Rotate Ship** action will only happen "if" the mouse cursor is on the ship object.
 
-![](/gdevelop5/tutorials/gifs_for_wiki_showing_an_event_with_a_condition.gif)
+![](gifs_for_wiki_showing_an_event_with_a_condition.gif)
 
 Read more about [Events](https://wiki.gdevelop.io/gdevelop5/events#events).
 
@@ -66,7 +66,7 @@ Read more about [Events](https://wiki.gdevelop.io/gdevelop5/events#events).
 If an event has no conditions, the actions will apply to all objects listed in the action.
 For example, this event has no conditions so it will delete all objects called "Ship".
 
-![](/gdevelop5/tutorials/basic-game-making-concepts/pasted/20220123-200759.png)
+![](pasted/20220123-200759.png)
 
 Once a condition has been added that mentions an object, all following actions will affect only objects that matched the previous conditions.
 
@@ -78,13 +78,13 @@ The event below has a condition that checks the horizontal (X) position of the S
         The list of objects that match conditions is also used by all subevents.
     Read more about [Object Picking](https://wiki.gdevelop.io/gdevelop5/events/object-picking).
 
-![](/gdevelop5/tutorials/gifs_for_wiki_deleting_ships_by_mouse_position.gif)
+![](gifs_for_wiki_deleting_ships_by_mouse_position.gif)
 
 !!! tip
 
     **See it in action!** 🎮 [Open this example online](https://editor.gdevelop.io/?project=example://object-selection).
 
-![](/gdevelop5/tutorials/basic-game-making-concepts/pasted/20220124-171850.png)
+![](pasted/20220124-171850.png)
 
 ## Order of events
 
@@ -92,9 +92,9 @@ The order of [events](/gdevelop5/events) **is very important**!
 
 Events are processed from the top down. so events at the top are executed first.  The following examples are **not** equivalent:
 
-![](/gdevelop5/tutorials/basic-game-making-concepts/pasted/20220123-203732.png)
+![](pasted/20220123-203732.png)
 
-![](/gdevelop5/tutorials/basic-game-making-concepts/pasted/20220123-203822.png)
+![](pasted/20220123-203822.png)
 
 * In the top example, the first event creates a "Ship" object at coordinates X: 100. Y: 200 (100;200) on the base layer. Then the next event deletes that created ship immediately. This pair of events **will not** display a ship on the screen, because the ship is deleted right after being created.
 * In the bottom example, the first event deletes all the "Ship" objects from the scene/screen. It then creates one "Ship" at the coordinates X: 100, Y: 200 (100;200) on the base layer.  This pair of events **will** display a single ship on the screen.
@@ -118,7 +118,7 @@ Events are processed from the top down. so events at the top are executed first.
 
 **Behaviors** will often come with their own variables that can be changed to customize the task it performs, but they can also be manipulated using events that are specific to that behavior.
 
-![](/gdevelop5/tutorials/gifs_for_wiki_showing_behaviors.gif)
+![](gifs_for_wiki_showing_behaviors.gif)
 
 The wiki page associated with behaviors can be found [here](https://wiki.gdevelop.io/gdevelop5/behaviors#behaviors).
 
@@ -159,7 +159,7 @@ Some "behaviors", like the Physics engine or Pathfinding, may move the objects b
 
     **See it in action!** 🎮 [Open this example online](https://editor.gdevelop.io/?project=example://move-object-with-physics).
 
-![](/gdevelop5/tutorials/basic-game-making-concepts/pasted/20220124-153533.png)
+![](pasted/20220124-153533.png)
 
 !!! note
 
@@ -188,7 +188,7 @@ The _scope_ of a variable determines the place a variable can be accessed. In GD
 * **Object** variables only concern one object. For example, a hero can have a "Health" or "Ammo" variable.
 
 
-![](/gdevelop5/tutorials/gif_for_wiki_showing_where_the_variables_are.gif)
+![](gif_for_wiki_showing_where_the_variables_are.gif)
 
 The wiki page associated with variables can be found [here](https://wiki.gdevelop.io/gdevelop5/all-features/variables).
 
@@ -202,11 +202,11 @@ This can be accomplished by using //[TimeDelta()](/gdevelop5/all-features/expres
 
 For example, don't do this:
 
-![](/gdevelop5/tutorials/basic-game-making-concepts/pasted/20220124-172740.png)
+![](pasted/20220124-172740.png)
 
 But do this instead:
 
-![](/gdevelop5/tutorials/basic-game-making-concepts/pasted/20220124-172830.png)
+![](pasted/20220124-172830.png)
 
 The first event is adding 20 to the variable on every frame. This means that the rate of increase of the variable may not be the same from computer to computer.  We need to compensate for this variation in frame rates.
 

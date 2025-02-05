@@ -62,7 +62,7 @@ The following should be completed before creating the game project in GDevelop. 
 
 ### Step 3 - Create the first branch
 
-1. Within GitHub Desktop, click the **Current branch** drop down. ![](/gdevelop5/tutorials/using-github-desktop/pasted/20200710-024151.png)
+1. Within GitHub Desktop, click the **Current branch** drop down. ![](pasted/20200710-024151.png)
 1. Click **New Branch**. The **Create a branch** window will display.
 1. Type the name for the branch. Commonly this will be the name of a feature or function currently being worked on.
     - e.g. If working on level graphics, consider naming each separate branch for the level _currently_ being worked on such as Level-1. Remember, spaces in GitHub names aren't allowed. If a space is used, GitHub will automatically replace it with a hyphen.
@@ -77,5 +77,5 @@ The following should be completed before creating the game project in GDevelop. 
 
   1. Once the focus of the branch is completed, a pull request must be created to merge all of the changes. [Follow the process here to create the pull request.](https://docs.github.com/en/desktop/contributing-to-projects/creating-an-issue-or-pull-request#creating-a-new-pull-request)
   1. After the pull request is created, it must be merged to the master branch. [Follow this process to merge the pull request on the GitHub website.](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/merging-a-pull-request)
-  1. Going forward, new branches should be created as the game project moves on to each new feature or bugfix. Because Github allows for restoring the game code only to different commits, commits to branches should be completed frequently. Here are some examples of how frequently commits are completed in just one day, along with descriptions to easily identify what is changed: ![](/gdevelop5/tutorials/using-github-desktop/pasted/20200710-030250.png)
+  1. Going forward, new branches should be created as the game project moves on to each new feature or bugfix. Because Github allows for restoring the game code only to different commits, commits to branches should be completed frequently. Here are some examples of how frequently commits are completed in just one day, along with descriptions to easily identify what is changed: ![](pasted/20200710-030250.png)
   1. If changes are ever completed in error, GitHub and GitHub desktop allows to restore from the change history.[Complete this process if a restore is needed.](https://docs.github.com/en/desktop/contributing-to-projects/reverting-a-commit)

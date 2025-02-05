@@ -46,7 +46,7 @@ To complete this method, the following requirements must be met:
       - There are four frames, and the sheet is set up to have even distance. This means the frame size needs to be adjusted to 1/4th 512 pixels wide, or 128 pixels.
       - After adjusting the frame size, the boxes evenly split up each frame of animation.
 
-![](/gdevelop5/tutorials/piksel-sprite-sheets/pasted/20200330-024341.png)
+![](pasted/20200330-024341.png)
 
 ## Import the Sprite sheet
 
@@ -56,4 +56,4 @@ To complete this method, the following requirements must be met:
 1. Make any further needed adjustments needed.
 1. Click **Save**. The animation will be created for the sprite object.
 1. Repeat as needed for each additional animation and sprite sheet.
-![](/gdevelop5/tutorials/piksel-sprite-sheets/pasted/20200330-025608.png)
+![](pasted/20200330-025608.png)

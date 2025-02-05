@@ -44,7 +44,7 @@ Now that we are going to make a Gun, we need to do this: Add an object Choose Sp
 9.  Click on **Close**
 10. Click on **Apply**
 
-![](/gdevelop5/tutorials/topdown-shooter/bhvvtyei8k.gif) Now, we have specified our Centre of sprite we can now move on.
+![](bhvvtyei8k.gif) Now, we have specified our Centre of sprite we can now move on.
 
 ### Step 2. Keep gun around player
 
@@ -62,7 +62,7 @@ We have created our **Gun**. Now, we should stick our **Gun** with Player. To do
 10. Give both modification signs a sign of **"="**.
 11. Click on **OK**.
 
-![](/gdevelop5/tutorials/topdown-shooter/zgnhw4lkrl.gif) Now, the gun follows the Player or we can say it sticks to the Player.
+![](zgnhw4lkrl.gif) Now, the gun follows the Player or we can say it sticks to the Player.
 
 ### Step 3. Aim towards mouse
 
@@ -75,7 +75,7 @@ It cannot be called a shooter game if we don't know how to aim. So to aim:
 5.  In the Y position textbox, write **MouseY()**
 6.  Click on **OK**
 
-![](/gdevelop5/tutorials/topdown-shooter/ti1ygjyqdt.gif)
+![](ti1ygjyqdt.gif)
 
 ### Step 4. Shoot
 
@@ -89,7 +89,7 @@ If we want to shoot, we need a bullet. So let's make a bullet:
 6.  Select "**Bullet-1.png**" asset
 7.  Click on **Apply**
 
-![](/gdevelop5/tutorials/topdown-shooter/yg1d9zcayp.gif)
+![](yg1d9zcayp.gif)
 
 So we have made a **Bullet** sprite. But that's not enough. We also need to specify from where does the **Bullet** appears. And for that, we need a point in our **Gun**. To make a point:
 
@@ -101,7 +101,7 @@ So we have made a **Bullet** sprite. But that's not enough. We also need to spec
 6.  Click on **Close**
 7.  Click on **Apply**
 
-![](/gdevelop5/tutorials/topdown-shooter/obaofmna4t.gif)
+![](obaofmna4t.gif)
 
 Now we need to shoot it. To shoot:
 

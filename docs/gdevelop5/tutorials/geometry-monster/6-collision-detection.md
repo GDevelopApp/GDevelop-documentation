@@ -7,23 +7,23 @@ title: 6-collision-detection
 
 The shapes are falling down, but they do not interact with the Monster. We'd like to be able to control the Monster and allow him to collect the falling shapes - that's what **collision detection** is for.
 
-![](/gdevelop5/tutorials/geometry-monster/95.png)
+![](95.png)
 
 Add a new comment and call it "Collision".
 
-![](/gdevelop5/tutorials/geometry-monster/96.png)
+![](96.png)
 
 Then, add a new condition.
 
-![](/gdevelop5/tutorials/geometry-monster/97.png)
+![](97.png)
 
 As always, make sure "Shapes" are selected, then look for "Collision" (which will test the collision between two objects). In the right panel enter the "Monster" and click "Ok".
 
-![](/gdevelop5/tutorials/geometry-monster/99.png)
+![](99.png)
 
 We have the condition, now's the time to add an action.
 
-![](/gdevelop5/tutorials/geometry-monster/100.png)
+![](100.png)
 
 "Shapes", then look for "Delete an object", and "Ok".
 

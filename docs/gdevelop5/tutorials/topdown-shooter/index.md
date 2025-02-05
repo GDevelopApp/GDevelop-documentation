@@ -23,7 +23,7 @@ You are reading Part 1 of the Top-Down Shooter Tutorial.
 
 This tutorial will help you to begin to use **GDevelop**. You will create a **Top-Down Shooter** game where the player shoots and kills the enemy. Note that you can read the [Getting Started](/gdevelop5/getting_started/) page to get an overview of the software. It explains the main concepts and describes the interface of **GDevelop**.
 
-You can get the completed project ![here](/gdevelop5/tutorials/topdownexample.zip). You can get all assets ![here](/gdevelop5/tutorials/assets.zip).
+You can get the completed project ![here](topdownexample.zip). You can get all assets ![here](assets.zip).
 
 ---
 
@@ -50,7 +50,7 @@ To add a new scene:
 2.  Select **Click to add a scene** to create a new scene
 3.  Click on the scene to open it
 
-    ![](/gdevelop5/tutorials/animation4.gif) \<note important\>GDevelop runs the scene from the top at the beginning of the game. So, if you want to show the menu at the beginning of the game, keep the menu at the top of the scene list.
+    ![](animation4.gif) \<note important\>GDevelop runs the scene from the top at the beginning of the game. So, if you want to show the menu at the beginning of the game, keep the menu at the top of the scene list.
 
 ### Step 4. Add our Player
 
@@ -78,7 +78,7 @@ Behavior is like a script of an object. An object acts according to the behavior
 4.  Select **Top-Down Movement**
 5.  Click on **OK**
 
-![](/gdevelop5/tutorials/menu.png)
+![](menu.png)
 
 ### Step 6. Preview your game
 
