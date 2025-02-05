@@ -25,6 +25,6 @@ Remember that conditions also select *which* objects are affected by the actions
 
 Here is an event that will destroy the "Square" objects whose have a X position which is less than 100 pixels:
 
-![](/gdevelop5/tutorials/delete-square-condition.png)
+![](delete-square-condition.png)
 
 If you are still unsure how the events work, take a look at [basic game making concepts](/gdevelop5/tutorials/basic-game-making-concepts).

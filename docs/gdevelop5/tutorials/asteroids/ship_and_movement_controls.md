@@ -18,17 +18,17 @@ title: Asteroids
 
 Create a sprite object, give it a single ship animation, and name it Player.
 
-![](/gdevelop5/tutorials/asteroids_gif_2_creating_the_player_sprite_and_naming_it.gif)
+![](asteroids_gif_2_creating_the_player_sprite_and_naming_it.gif)
 
 ## Physics behavior
 
 Double click the Player sprite object. Give that object the Physics 2.0 behavior, and change the gravity value to 0.
 
-![](/gdevelop5/tutorials/asteroids_gif_3_giving_the_object_physics_behavior.gif)
+![](asteroids_gif_3_giving_the_object_physics_behavior.gif)
 
 Change the Player object's physics 2.0 behavior values to match the values in the image below.
 
-![](/gdevelop5/tutorials/asteroids/ship_and_movement_controls/pasted/20220130-045713.png)
+![](ship_and_movement_controls/pasted/20220130-045713.png)
 
 ## Align image and points
 
@@ -36,7 +36,7 @@ Open the Player object and edit the animation through Piskel. Click to rotate th
 
 Next, edit the Player object's origin point from the Edit points screen. Drag the origin to the center of the object, so that when we apply a force to the object it will be applied at this point.
 
-![](/gdevelop5/tutorials/asteroids/asteroids_gif_5_rotate_image_and_points.gif)
+![](asteroids_gif_5_rotate_image_and_points.gif)
 
 ## Moving forward
 
@@ -51,10 +51,10 @@ Action:
 
 This force will be applied to the origin point.
 
-![](/gdevelop5/tutorials/asteroids_gif_4_moving_player_forward.gif)
+![](asteroids_gif_4_moving_player_forward.gif)
 
 ## Turning
 
 Create 2 more events, with the A/D keys being pressed as their conditions, but this time the action will be "Apply torque (rotational force)" and give them -0.5 or 0.5 based on the direction you would like them to go when either A or D is pressed.
 
-![](/gdevelop5/tutorials/asteroids_example_image4_showing_the_player_movement_controls.png)
+![](asteroids_example_image4_showing_the_player_movement_controls.png)

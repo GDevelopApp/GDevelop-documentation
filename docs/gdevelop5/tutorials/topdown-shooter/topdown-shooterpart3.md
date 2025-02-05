@@ -64,7 +64,7 @@ Now, to set **Health Bar** on the layer:
 1.  Now, click on **Health Bar**
 2.  Click on layer selection and choose the layer **UI**
 
-![](/gdevelop5/tutorials/topdown-shooter/healthui.gif)
+![](healthui.gif)
 
 ### Step 3. Making a variable for our Player to represent health
 
@@ -75,7 +75,7 @@ Now we are at creating a **Health Bar** for our **Player**. To make a **Health B
 3.  Give it a default value
 4.  Click on **OK**
 
-![](/gdevelop5/tutorials/topdown-shooter/anim23.gif)
+![](anim23.gif)
 
 ### Step 4. Displaying Health in a Health Bar
 

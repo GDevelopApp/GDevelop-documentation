@@ -9,7 +9,7 @@ It's great to have [sound](/gdevelop5/tutorials/geometry-monster/7-sounds-fun) a
 
 To start, let's add an action after the actions to delete a Shape and play a sound, that we've been adding in the previous chapters. Choose "Add an action" there.
 
-![](/gdevelop5/tutorials/geometry-monster/107.png)
+![](107.png)
 
 Click on the "Other actions", look for "Variables", and select "Value of a scene variable". Then in the right panel set the "Variable" name to "Score", "Modification's sign" to `+ (add)`, and the "Value" to `1`. This means whenever a shape is collected by the Monster, the shape will disappear and the player will get one point.
 
@@ -19,19 +19,19 @@ Click on the "Other actions", look for "Variables", and select "Value of a scene
 
 We now have the ability to track the score, but the player can't see it. To show the score, we will need a new text object.
 
-![](/gdevelop5/tutorials/geometry-monster/108.png)
+![](108.png)
 
 Click on the "Level1" tab, then "Add a new object".
 
-![](/gdevelop5/tutorials/geometry-monster/109.png)
+![](109.png)
 
 From the popup, select the "Text".
 
-![](/gdevelop5/tutorials/geometry-monster/110.png)
+![](110.png)
 
 Now enter the properties: "Object Name" is "Score", and we also set the size of the text to `30`, color to `yellow`, and we're making it "bold". The text itself is "Score: ".
 
-![](/gdevelop5/tutorials/geometry-monster/112.png)
+![](112.png)
 
 Go to the "Level1 (Events)" tab, click "Add an action", and in the popup select our new "Score" variable, look for "Modify the text", and in the right panel select "Modification's sign" to `= (set to)`, with the text `"Score: " + ToString(Variable(Score))`.
 
@@ -41,31 +41,31 @@ It will update the "Score" text with the current variable value whenever a shape
 
     As mentioned earlier, this is somewhat incomplete because if the monster collides with two objects at the very same moment, the event actions will be run only once, so only one point will be added to the score. We need to tell GDevelop to run the actions for each and every shape that was in collision at any given point. Let's do that!
 
-![](/gdevelop5/tutorials/geometry-monster/113_5.png)
+![](113_5.png)
 
 Now click on the "Choose and add an event", and then "For each object".
 
-![](/gdevelop5/tutorials/geometry-monster/115.png)
+![](115.png)
 
 Enter the name of the object, which in our case will be a group called "Shapes".
 
-![](/gdevelop5/tutorials/geometry-monster/116.png)
+![](116.png)
 
 Be sure to drag the "Shapes" in collision with Monster there so it's repeated for every "Shape" object.
 
-![](/gdevelop5/tutorials/geometry-monster/117.png)
+![](117.png)
 
 Finally, drag all the actions into the new "For Each" event.
 
-![](/gdevelop5/tutorials/geometry-monster/118.png)
+![](118.png)
 
 You can remove the empty event afterwards.
 
-![](/gdevelop5/tutorials/geometry-monster/119_5.png)
+![](119_5.png)
 
 Now switch to the "Level1" tab, find the "Score" object in the right panel, and drag it onto the scene.
 
-![](/gdevelop5/tutorials/geometry-monster/121.png)
+![](121.png)
 
 Launch the game to test if counting the score and showing the updated info works as expected.
 

@@ -7,31 +7,31 @@ title: 3-introducing-main-character
 
 Now when the scene itself is ready, it looks kind of empty - let's add something to it!
 
-![](/gdevelop5/tutorials/geometry-monster/17.png)
+![](17.png)
 
 We will be able to do that by clicking on the "Add a new object" button in the "Objects" panel on the right.
 
-![](/gdevelop5/tutorials/geometry-monster/18.png)
+![](18.png)
 
 It will open a popup where a list of available options is showed. Those vary from sprites, through text, to particle emitters, shape painters, and text inputs. Select the "Sprite", which is explained as the animated object which can be used for most elements of a game.
 
-![](/gdevelop5/tutorials/geometry-monster/19.png)
+![](19.png)
 
 Another popup will appear, but now with the options to customize our new object. We will call him "Monster", and he will be our main character in the game: collecting items and being cute at the same time.
 
-![](/gdevelop5/tutorials/geometry-monster/20.png)
+![](20.png)
 
 After giving him his new name, let's add some images that will represent him on the scene and in the game. Click on the "Add an animation" button to open a file select window.
 
-![](/gdevelop5/tutorials/geometry-monster/21.png)
+![](21.png)
 
-Navigate to the folder where the images are (you can download them from ![here](/gdevelop5/tutorials/geometry-monster-sources.zip)), select all that you want to add, and then click "Open".
+Navigate to the folder where the images are (you can download them from ![here](/gdevelop5/tutorials/geometry-monster/geometry-monster-sources.zip)), select all that you want to add, and then click "Open".
 
-![](/gdevelop5/tutorials/geometry-monster/22.png)
+![](22.png)
 
 GDevelop will show the message saying those files are outside of the project folder, so the recommended next step is to allow copying them onto the project folder first before we do anything with them. Click "Ok" to do that.
 
-![](/gdevelop5/tutorials/geometry-monster/23.png)
+![](23.png)
 
 All the images we just imported will serve as the idle animation - one that is played when nothing is happening. The animation is looped, so it will look like the Monster is closing and opening his eyes every once in a while indefinitely.
 
@@ -43,21 +43,21 @@ We will name this animation "MonsterIdle", and every new frame will be rendered 
 
 You can also edit images in Piskel or preview the animation itself if you want to.
 
-![](/gdevelop5/tutorials/geometry-monster/24.png)
+![](24.png)
 
 When everything is done, click on "Apply" to save the changes.
 
-![](/gdevelop5/tutorials/geometry-monster/25.png)
+![](25.png)
 
 Now you can see our little Monster's icon in the right panel, under the "Objects" list. Isn't he cute?
 
 To make the scene look a little bit more interesting we will add a background color to it. Right click on the scene, and select "Scene properties" from the context menu. It will open a popup with some options - we are interested in setting the "Scene background color" to something on which the Monster will look stylish.
 
-![](/gdevelop5/tutorials/geometry-monster/26.png)
+![](26.png)
 
 Click on the color picker on the right and chose a color - ours is `#560921`.
 
-![](/gdevelop5/tutorials/geometry-monster/27.png)
+![](27.png)
 
 After confirming, the scene's background color will change to what was selected - success!
 

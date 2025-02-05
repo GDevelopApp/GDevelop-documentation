@@ -5,11 +5,11 @@ title: Geometry Monster
 
 Welcome to the **Geometry Monster** game tutorial. In this series of articles you will learn how to create a hyper-casual game suitable for mobile devices.
 
-![](/gdevelop5/tutorials/geometry-monster-banner.png)
+![](geometry-monster-banner.png)
 
 From creating the main character and animating it, through adding controls and collectible objects, to collision detection, tracking the score and having multiple lives. We will also implement multiple scenes including main menu and gameplay, sound effects, and difficulty level that increase over time.
 
-![](/gdevelop5/tutorials/game-preview.png)
+![](game-preview.png)
 
 ## Table Of Contents
 
@@ -30,7 +30,7 @@ From creating the main character and animating it, through adding controls and c
 
 ## Get the sources
 
-[Open the project online](https://editor.gdevelop.io/?project=example://geometry-monster) or get the [sources of the Geometry Monster game](/gdevelop5/tutorials/geometry-monster-sources.zip) containing all the images you need to finish the game, and the old project's json file used to write this tutorial if you'd like to check everything yourself.
+[Open the project online](https://editor.gdevelop.io/?project=example://geometry-monster) or get the [sources of the Geometry Monster game](/gdevelop5/tutorials/geometry-monster/geometry-monster-sources.zip) containing all the images you need to finish the game, and the old project's json file used to write this tutorial if you'd like to check everything yourself.
 
 
 

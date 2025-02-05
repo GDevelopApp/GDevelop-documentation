@@ -47,7 +47,7 @@ service cloud.firestore {
   }
 }
 ```
-![](/gdevelop5/tutorials/leaderboards-1.png)
+![](leaderboards-1.png)
 To set security rules, navigate to the editor via the [Firebase console](https://console.firebase.google.com/).
 
 
@@ -72,7 +72,7 @@ To set security rules, navigate to the editor via the [Firebase console](https:/
 ## 3. Adding scores to the database from GDevelop
 
 To add a score, it is pretty simple. All you need to do is put the data in a structure with the shape chosen and upload it!
-![](/gdevelop5/tutorials/leaderboards/pasted/20210530-213318.png)
+![](pasted/20210530-213318.png)
 
 ## 4. Fetching the scores from the database with GDevelop
 
@@ -81,23 +81,23 @@ Fetching the scores requires making a query to only download a few scores, and o
 ### 4.1 Creating a query
 
 For the sake of this tutorial, we will load the 50 best scores. This can be achieved by adding the "Order by descending" and "Limit to 50 first" query filters. Then, we will watch the query to download the scores and have them update in real time.
-![](/gdevelop5/tutorials/leaderboards/pasted/20210530-213842.png)
+![](pasted/20210530-213842.png)
 
 ### 4.2 Awaiting the data
 
 Now, we need to await the data fetching, as Firebase is asynchronous. This can be simply done using this event:
-![](/gdevelop5/tutorials/leaderboards/pasted/20210530-214148.png)
+![](pasted/20210530-214148.png)
 
 It will trigger once Firebase marked the operation as complete by putting "ok" inside the status variable, and we will set it back to 0. This last step is done to trigger the event once each time Firebase finishes fetching new scores, to allow processing the realtime updates.
 
 ### 4.3 Processing the data
 
 To process the data, the easiest method is to use a "For each child variable" event:
-![](/gdevelop5/tutorials/leaderboards/pasted/20210530-214520.png)
+![](pasted/20210530-214520.png)
 
 This allows to access the document via the variable `doc` inside that event and the position in the list via the variable `i`. For example, to access the position of a player you can use `Variable(i) + 1`. The `+ 1` is used as arrays start from 0, but leaderboards usually start from place 1. To access the score, in the context of this tutorial, you could use `Variable(doc.data.score)`, and to access the username `VariableString(doc.data.name)`. To display it all in a text object for example, we can use this:
 
-![](/gdevelop5/tutorials/leaderboards/pasted/20210530-215054.png)
+![](pasted/20210530-215054.png)
 
 
 

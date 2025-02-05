@@ -6,13 +6,13 @@ title: Asteroids
 ## Series
 
 1. [Getting Started](/gdevelop5/tutorials/asteroids)
-2. [Ship and Movement Controls](/gdevelop5/tutorials/asteroids/ship_and_movement_controls)
-3. [Firing Mechanic](/gdevelop5/tutorials/asteroids/firing_bullet)
-4. [Setting Scene](/gdevelop5/tutorials/asteroids/setting_scene)
-5. [Splitting Asteroids](/gdevelop5/tutorials/asteroids/splitting_asteroids)
-6. [Screen Wrap](/gdevelop5/tutorials/asteroids/screen_wrap)
-7. [Fail State](/gdevelop5/tutorials/asteroids/fail_state)
-8. [End Result](/gdevelop5/tutorials/asteroids/end_result)
+2. [Ship and Movement Controls](ship_and_movement_controls)
+3. [Firing Mechanic](firing_bullet)
+4. [Setting Scene](setting_scene)
+5. [Splitting Asteroids](splitting_asteroids)
+6. [Screen Wrap](screen_wrap)
+7. [Fail State](fail_state)
+8. [End Result](end_result)
 
 !!! warning
 

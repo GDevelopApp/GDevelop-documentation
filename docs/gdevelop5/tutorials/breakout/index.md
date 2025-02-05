@@ -13,7 +13,7 @@ title: How to Make a Breakout Game
 
 With this tutorial, you will learn some basic tasks in GDevelop while creating a fun game. Like the classic arcade game Breakout, you will create an array of bricks that can be broken by a bouncing ball. The player controls the ball with a paddle - once the ball drops, it's game over.
 
-![](/gdevelop5/tutorials/breakout-screenshot.png)
+![](breakout-screenshot.png)
 
 
 ----
@@ -29,7 +29,7 @@ With this tutorial, you will learn some basic tasks in GDevelop while creating a
 ## Create a new game
 
 Click **Create a new project** on the start page. Scroll down and choose a folder for your project, then select **Empty game**.
-![](/gdevelop5/tutorials/create_empty_project.png)
+![](create_empty_project.png)
 ## Add game assets
 
 !!! tip
@@ -45,7 +45,7 @@ For a breakout game, you will need the following assets:
   * images of Power-ups (optional)
 
 Or you can download the assets used in the tutorial,
-[breakout assets.zip](/gdevelop5/tutorials/breakout-assets.zip)
+[breakout assets.zip](breakout-assets.zip)
 
 ----
 
@@ -60,11 +60,11 @@ To add a new scene:
 
   - On the **Project** panel on the left, click **+** to add a scene.
 
-![](/gdevelop5/tutorials/breakout-game/newscene.jpg)
+![](newscene.jpg)
 
   - A new scene is added to the list. Click **NewScene** to open it.
 
-![](/gdevelop5/tutorials/breakout-game/blank_scene.jpg)
+![](blank_scene.jpg)
 
 
 ----
@@ -74,11 +74,11 @@ Start by adding the paddle to the scene. The player moves this paddle left and r
 
   - On the **Objects** panel on the right, click **+** to add an object.
 
-![](/gdevelop5/tutorials/breakout-game/add-object.jpg)
+![](add-object.jpg)
 
 A window will appear displaying different types of objects you can add. Each type of object has its own set of features.
 
-![](/gdevelop5/tutorials/object_types.jpg)
+![](object_types.jpg)
 
   - For the paddle, you need the Sprite object type. Click **Sprite**.
 !!! tip
@@ -87,7 +87,7 @@ A window will appear displaying different types of objects you can add. Each typ
 
 The new object is added to your scene and the Object Editor dialog box is opened.
 
-![](/gdevelop5/tutorials/empty_object_editor.jpg)
+![](empty_object_editor.jpg)
 
 Right now, your sprite object has no animations, or associated images.
 
@@ -95,7 +95,7 @@ Right now, your sprite object has no animations, or associated images.
   - Click **+** in the blank thumbnail to add an image to the animation.
   - Select the image called "paddle.png" in your project folder and click **Open**. The image is added to the object.
 
-![](/gdevelop5/tutorials/paddle_animation.jpg)
+![](paddle_animation.jpg)
 
 
   - In the **Object Name** field, type **Paddle** to rename your object.
@@ -115,7 +115,7 @@ To display the paddle in your game, you need to add it to your scene. Because on
 
   - To add the paddle to the scene, click and drag it from the **Objects** panel to the scene. Place it near the bottom.
 
-![](/gdevelop5/tutorials/paddle_drag.gif)
+![](paddle_drag.gif)
 
 ----
 
@@ -149,7 +149,7 @@ You will need to add three instances of your barrier object to your scene - a le
   - Create a matching barrier on the right side and position it at (770,15).
   - Add a final barrier at the top to connect the two. Resize it to 770 x 15, and position it at (15, 15).
 
-![](/gdevelop5/tutorials/breakout-game/barriers_added.jpg)
+![](barriers_added.jpg)
 
 ----
 
@@ -161,12 +161,12 @@ The player will control the paddle using the left and right arrows on the keyboa
 Create an event where if the player presses the left arrow on the keyboard, the paddle moves left:
 
   - Click the **NewScene (Events)** tab to open the **Events Editor**.
-  - Click **Add a new empty event** ![](/gdevelop5/tutorials/breakout-game/empty_event_button.jpg).
+  - Click **Add a new empty event** ![](empty_event_button.jpg).
   - Click **Add condition**.
-![](/gdevelop5/tutorials/breakout-game/add-condition.jpg)
+![](add-condition.jpg)
 
   - Click **Keyboard > Key pressed**.
-![](/gdevelop5/tutorials/breakout-game/keyboard-key-pressed.jpg)
+![](keyboard-key-pressed.jpg)
 
   - In the **Key** field, type **Left** and click **OK**. This condition is true if the player presses the left arrow on the keyboard.
 
@@ -176,7 +176,7 @@ Now you need to add a corresponding action to the condition. The paddle should m
 
         To move objects with an applied force, you will need to specify an angle. The picture below illustrates how GDevelop understands the angle of rotation.
     On a horizontal axis, left is 180°, right is 0°.
-    ![](/gdevelop5/tutorials/breakout-game/angles.png)
+    ![](angles.png)
 
   - Click **Add action**.
 
@@ -192,7 +192,7 @@ Now you need to add a corresponding action to the condition. The paddle should m
 
   - Click **OK**.
 
-![](/gdevelop5/tutorials/breakout-game/add_force_to_paddle.jpg)
+![](add_force_to_paddle.jpg)
 
 !!! tip
 
@@ -201,7 +201,7 @@ Now you need to add a corresponding action to the condition. The paddle should m
 ----
 
 
-Use the preview feature to verify your work. Click the **Launch a preview of the scene** button.![](/gdevelop5/tutorials/breakout-game/preview-button.jpg)
+Use the preview feature to verify your work. Click the **Launch a preview of the scene** button.![](preview-button.jpg)
 
 Press your left arrow to move the paddle. You will find the paddle doesn't stop when it reaches the barrier - it just continues off screen. You can fix this by closing the preview window and adding another condition to the paddle movement.
 
@@ -219,7 +219,7 @@ To add another condition to stop the paddle:
 
   - Click **OK**.
 
-![](/gdevelop5/tutorials/breakout-game/x_position.jpg)
+![](x_position.jpg)
 
 
 Preview your game again. The paddle should stop upon hitting the left barrier.
@@ -262,11 +262,11 @@ Preview your game to make sure it works.
 ## Add comments to the Events Editor
 As you work in your Events Editor, it is a good practice to add comments for each set of events. You will be able to quickly find and understand your events as your game grows if you catalogue them as you work.
 
-  - To add a comment line, click **Add a comment**. ![](/gdevelop5/tutorials/breakout-game/add_a_comment.jpg)
+  - To add a comment line, click **Add a comment**. ![](add_a_comment.jpg)
 
   - Enter your comment text and use the blue bar on the left of the comment to drag and drop your comment where you want it.
 
-![](/gdevelop5/tutorials/breakout-game/moved_comment.jpg)
+![](moved_comment.jpg)
 
 
 ----
@@ -299,7 +299,7 @@ To make the ball move when the player presses the space bar to start:
    * In the **Key** field, type **Space** and click **OK**.
 
 
-![](/gdevelop5/tutorials/breakout-game/space_bar.jpg)
+![](space_bar.jpg)
 
 ----
 
@@ -310,13 +310,13 @@ To make the ball move when the player presses the space bar to start:
 
 !!! tip
 
-     You don't need to memorize all the expressions. You can open the **Expression Editor** to help you populate fields. ![](/gdevelop5/tutorials/breakout-game/expression_editor_button.jpg) In this case, you could type **-45** in the **Angle** field then click **Expression Editor** and search by **Random**. The expression **Random integer in range** with a minimum value of -5 and a maximum value of 5 will generate RandomInRange(-5, 5) in your field. You can use it in your speed calculation as you'd like.
+     You don't need to memorize all the expressions. You can open the **Expression Editor** to help you populate fields. ![](expression_editor_button.jpg) In this case, you could type **-45** in the **Angle** field then click **Expression Editor** and search by **Random**. The expression **Random integer in range** with a minimum value of -5 and a maximum value of 5 will generate RandomInRange(-5, 5) in your field. You can use it in your speed calculation as you'd like.
 
   * In the **Speed (in pixels per second)** field, type **300**. Adjust this as you wish; the higher the number, the faster the object.
   * Click **Permanent**, since you want the ball to continue to move throughout the game.
   * Click **OK**.
 
-![](/gdevelop5/tutorials/breakout-game/ball-start-movement.jpg)
+![](ball-start-movement.jpg)
 
 This is a good time to add a comment, save and preview your game. The ball should move when the spacebar is pressed.
 
@@ -337,11 +337,11 @@ To add a bounce behavior to your ball object:
   * Click **+** to add a new behavior to the object.
   * The Bounce behavior is not an installed behavior, so you need to find it. Click the** Search New Behaviors** tab.
   * From the list at the bottom, select **Bounce** and click **Install in project**.
-![](/gdevelop5/tutorials/breakout-game/add_bounce_behaviour.png)
+![](add_bounce_behaviour.png)
 
   * You can now add the new behavior to the object. Scroll down, select **Bounce**, and click **Apply**.
 
-![](/gdevelop5/tutorials/apply_bounce.png)
+![](apply_bounce.png)
 
 Your ball is now ready to bounce!
 
@@ -369,7 +369,7 @@ To add the action causing the ball to bounce off the barrier upon collision:
   * In the **Objects to bounce on** field, select **Barrier**.
   * Click **OK**.
 
-![](/gdevelop5/tutorials/breakout-game/add_bounce_action_in_event.png)
+![](add_bounce_action_in_event.png)
 
 ----
 
@@ -397,7 +397,7 @@ To add your bricks:
   * Name this object **Brick**. Give it three separate animations using the brick-green.png, brick-red.png and brick-yellow.png files from your project folder. Name the animations accordingly.
   * Click **Apply**.
 
-![](/gdevelop5/tutorials/brick_colours.png)
+![](brick_colours.png)
 
 ----
 
@@ -408,11 +408,11 @@ You can use external layouts to create some different levels with different bric
 
 To create an external layout:
 
-  * Click on the **Project manager** button on the top left. ![](/gdevelop5/tutorials/breakout-game/project_manager.jpg)
+  * Click on the **Project manager** button on the top left. ![](project_manager.jpg)
   * Click **External layouts** and **+** to add an external layout.
   * Click **⋮** next to your new layout and rename it **Layout1**.
 
-![](/gdevelop5/tutorials/breakout-game/external_layout_add.png)
+![](external_layout_add.png)
 
   * Click **Layout1**. You will be asked to choose the scene in which it will be included. Choose **NewScene** - that is the scene where all the game play happens. A new tab will open that looks like your existing NewScene.
   * Add bricks in whatever configuration you choose. Have fun with this part - be creative!
@@ -422,7 +422,7 @@ To create an external layout:
         To speed things up, click or select objects then hold Ctrl down, click and drag to replicate instances on the screen. Holding Ctrl+Shift keeps the new instances on the same X or Y axis.
 
 
-    ![](/gdevelop5/tutorials/breakout-game/duplicating_objects.gif)
+    ![](duplicating_objects.gif)
 
 
   * Create two or more new layouts and name them Layout1, Layout2, etc.
@@ -449,7 +449,7 @@ Rather than attach actions to this condition, you will now create sub-events tha
 
 To start, create a new scene variable called Random_layout:
 
-  * Click on a blank space within the event you just created and click the **Add a sub-event to the selected event** button.![](/gdevelop5/tutorials/breakout-game/subevent_button.jpg)
+  * Click on a blank space within the event you just created and click the **Add a sub-event to the selected event** button.![](subevent_button.jpg)
   * In the new sub-event, click **Add action**.
   * Click **Variables > Value of a scene variable**.
   * In the **Variable** field, type **Random_layout** to create a new scene variable.
@@ -457,11 +457,11 @@ To start, create a new scene variable called Random_layout:
   * In the **Value** field, type **Random(2)+1**.
   * Click **OK**.
 
-![](/gdevelop5/tutorials/breakout-game/modify_scene_variable_value.jpg)
+![](modify_scene_variable_value.jpg)
 
 !!! tip
 
-        Try using the Expression Editor to create your expressions. ![](/gdevelop5/tutorials/breakout-game/expression_editor_button.jpg)
+        Try using the Expression Editor to create your expressions. ![](expression_editor_button.jpg)
 
     The more you play with expressions, the more you will understand the logic behind them. Don't be afraid to experiment!
 
@@ -476,7 +476,7 @@ To add a random layout of bricks to the beginning of the scene:
   * In the **Name of the external layout** field, type **"Layout" + ToString(Variable(Random_layout))**. This will randomly add one of the external layouts to the scene.
   * Click **OK**.
 
-![](/gdevelop5/tutorials/breakout-game/random_layout_selection.jpg)
+![](random_layout_selection.jpg)
 
 
 ----
@@ -492,7 +492,7 @@ To choose a random brick colour:
   * In the **Value** field, type **Random(2)**.
   * Click **OK**.
 
-![](/gdevelop5/tutorials/modify_scene_variable_value2.png)
+![](modify_scene_variable_value2.png)
 
 
 ----
@@ -504,7 +504,7 @@ To choose a random brick colour:
   * In the **Value** field, type **Variable(Brick_colour)**.
   * Click **OK**.
 
-![](/gdevelop5/tutorials/breakout-game/brick_colour_change.jpg)
+![](brick_colour_change.jpg)
 
 Save and preview your game. A player will now see a randomly-selected external layout with bricks in a random colour whenever the game is started.
 
@@ -538,7 +538,7 @@ As the ball bounces off bricks, it should destroy them. Destroying an object in 
   * In the Object field, select **Brick**.
   * Click **OK**.
 
-![](/gdevelop5/tutorials/breakout-game/delete_a_brick.jpg)
+![](delete_a_brick.jpg)
 
 Save and preview your game. You should be able to bounce the ball off the paddle and destroy the bricks. This is a good time to check your speed again - do you want the ball or the paddle to be faster or slower? If so, play with your speed values until you're happy with the gameplay.
 
@@ -560,7 +560,7 @@ To add a text object to the scene:
   * In the **Text** field, type a congratulatory message (e.g. Congratulations! You cleared all the blocks!). Also include a line telling the player "Press Enter to play again."
   * Click **Apply**.
 
-![](/gdevelop5/tutorials/breakout-game/congratulations_message.jpg)
+![](congratulations_message.jpg)
 
   * Drag and drop your Congratulations object into the middle of the scene.
 
@@ -575,7 +575,7 @@ To hide your text object at the start of the scene:
   * In the **Object** field, select **Congratulations**.
   * Click **OK**.
 
-![](/gdevelop5/tutorials/breakout-game/hide_congratulations.jpg)
+![](hide_congratulations.jpg)
 
 
 ----
@@ -595,13 +595,13 @@ To make your text object appear when all the bricks are destroyed:
 If there are 0 bricks, the ball should be deleted and the congratulations object should be made visible.
 Both of the actions are common actions for all objects. Add them now.
 
-![](/gdevelop5/tutorials/breakout-game/if_no_bricks.png)
+![](if_no_bricks.png)
 
 ----
 
 You also want to give the player the option of starting a new game:
 
-  * Create a new sub-event ![](/gdevelop5/tutorials/breakout-game/subevent_button.jpg) to the event you just created where the number of brick objects is =0.
+  * Create a new sub-event ![](subevent_button.jpg) to the event you just created where the number of brick objects is =0.
   * Click **Add Condition**.
   * Click **Keyboard > Key pressed**.
   * In the **Key** field, type **Return**. (Remember the congratulations message tells the player to hit Enter to start again.)
@@ -635,7 +635,7 @@ Drag and drop your GameOver object into the middle of the scene. It's OK if it's
 Next, go to the Events Editor to hide your GameOver object at the start of the scene.
 
 Follow the same steps to hide the GameOver object as you did for the Congratulations object. Add it as a second action to the event.
-![](/gdevelop5/tutorials/breakout-game/gameover_hide.png)
+![](gameover_hide.png)
 
 ----
 
@@ -653,7 +653,7 @@ To add a condition to check if the player has missed the ball:
 
 Add a corresponding action to make the GameOver object visible. You should also add a sub-event that causes the ball to be deleted and the game to restart if the player presses Enter. Add them now.
 
-![](/gdevelop5/tutorials/breakout-game/player_misses_ball.png)
+![](player_misses_ball.png)
 
 
 Save and preview your game.

@@ -26,7 +26,7 @@ Action:
 - "Camera center Y position" with modification sign "= (set to)" and the value 0.  (Leave layer and camera number as they are)
 - "Change camera zoom" with a value of 0.5. (Leave layer and camera number as they are)
 
-![](/gdevelop5/tutorials/asteroids/camera_settings/pasted/20220119-172243.png)
+![](camera_settings/pasted/20220119-172243.png)
 
 ## Creating asteroids
 
@@ -41,4 +41,4 @@ Edit each of these objects so their origin points are at the center of the image
 
 Place a few of each of these objects into your scene.  Remember that your camera is zoomed out and centers on the 0,0 point.  This means that center of your game will be the top-left corner of the scene editor.  You will likely want to place your ship object at that top-left location (0,0)
 
-![](/gdevelop5/tutorials/asteroids/asteroids_gif_9_physics_behavior_and_place_in_scene.gif)
+![](asteroids_gif_9_physics_behavior_and_place_in_scene.gif)
