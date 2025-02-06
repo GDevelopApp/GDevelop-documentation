@@ -56,7 +56,7 @@ To trigger the "Jumping" animation:
 
 !!! warning
 
-   The [platformer character animator](/gdevelop5/extensions/platformer-character-animator/) behavior can change the animations automatically.
+    The [platformer character animator](/gdevelop5/extensions/platformer-character-animator/) behavior can change the animations automatically.
 
 ![](/gdevelop5/tutorials/platformer/part-4-02.jpg)
 
