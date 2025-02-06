@@ -36,6 +36,10 @@ Click "Add Condition." Then there will be a popup menu to select your conditions
 
 Then, click on **Add Action** in the same event and select **Player** since we want to move the Player. On the menu, select **Add a force angle** and enter the angle as **0**, the speed as **400**.
 
+!!! warning
+
+    The [top-down movement](/gdevelop5/behaviors/topdown) behavior is a better fit to move the spaceship.
+
 ![](/gdevelop5/tutorials/space-shooter/space-shooter-add-action.gif)
 
 If you click the Run button on the upper left, you can try pressing the **right arrow** and see that **the player moves right**! Now, we will add other buttons to move the player in every direction.

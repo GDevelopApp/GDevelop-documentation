@@ -49,7 +49,7 @@ Then search through the new behaviors list.
 
 ![](214.png)
 
-And find "movement". We will use the "Sine (or ellipsis) movement" to animate the title image, so it's not a static one and the whole main menu will look better.
+And find "movement". We will use the "Ellipse movement" to animate the title image, so it's not a static one and the whole main menu will look better.
 
 ![](215.png)
 
@@ -57,11 +57,11 @@ It works the same as the extensions we used already - install it into the projec
 
 ![](216.png)
 
-Go through the list of behaviors and click on the new "Sine movement".
+Go through the list of behaviors and click on the new "Ellipse movement".
 
 ![](217.png)
 
-Configure it: set the name to "GameTitle", "Amplitude of the movement on the X axis" to `20`, "Amplitude of the movement on the Y axis" to `10`, and the "Speed" to `60` degrees per second, then click "Apply".
+Configure it: set the name to "GameTitle", "Radius on the X axis of the movement" to `20`, "Radius on the Y axis of the movement" to `10`, and the "Loop duration" to `6` seconds, then click "Apply".
 
 ![](219.png)
 
@@ -110,6 +110,10 @@ Now "ButtonStart", "Change the animation (by name)", "StartPressed"...
 ![](232_2.png)
 
 ...and "Mouse button released", "Left (primary)".
+
+!!! warning
+
+    The [Button animation](/gdevelop5/extensions/button-states/) behavior can do all of this for you.
 
 ![](233.png)
 

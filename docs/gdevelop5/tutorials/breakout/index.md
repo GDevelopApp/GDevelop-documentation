@@ -194,6 +194,10 @@ Now you need to add a corresponding action to the condition. The paddle should m
 
 ![](add_force_to_paddle.jpg)
 
+!!! warning
+
+    The [top-down movement](/gdevelop5/behaviors/topdown) behavior is a better fit to move the paddle.
+
 !!! tip
 
     It is a good time to save your work. Get in the habit of frequent saving. You can hit **Ctrl+S** to save your game, or use your mouse and go to **File>Save**.

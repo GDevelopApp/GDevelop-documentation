@@ -55,6 +55,10 @@ This will reduce the players health count by 1 point and then adjust the width o
 
 Note that it's easiest to find the expression for "player's health", by opening the expression builder and searching "health" and selecting it. Then multiply it ( * ) by whatever the width of your tiled sprite is.
 
+!!! note
+
+    The [resource bar](/gdevelop5/objects/resource-bar/) object can make this a bit easier.
+
 ![](fail_state/pasted/20220119-190604.png)
 
 ## Show lives first

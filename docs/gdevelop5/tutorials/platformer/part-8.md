@@ -32,6 +32,10 @@ To create an object for the checkpoint:
 
 When the player reaches a checkpoint, you can use variables to save the coordinates of that checkpoint. Then, when the player dies, you can send them back to those coordinates.
 
+!!! warning
+
+    The [checkpoints](/gdevelop5/extensions/checkpoints/) behavior can make this easier to do.
+
 You can access the X and Y coordinates of an object with the following syntax:
 
 ```

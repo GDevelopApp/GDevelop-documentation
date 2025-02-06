@@ -48,6 +48,10 @@ Action:
 -"Add a force (angle)" (Common Action, not Physics Engine) using the Player object's angle and a speed of 350 pixels per second. Select permanent instead of instant.
 -"Z order" and use the expression builder to find the Z order of the Player object, and subtract that by 1. So the expression should read Player.ZOrder()-1.
 
+!!! warning
+
+    The [fire bullet](/gdevelop5/extensions/fire-bullet/details) behavior gives an easier way to do this.
+
 ![](asteroids_gif_8_setting_up_fire_bullet.gif)
 
 ## Organization

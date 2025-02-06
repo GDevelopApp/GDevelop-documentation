@@ -57,6 +57,10 @@ After you've done it, click "Ok" to confirm.
 
 You can see the final version of the event we just completed - with conditions on the left, and action on the right: when you press the left key, then it will move (by applying the force of `-450` units on the `X` axis and ignoring the `Y` axis with `0` value) to the left edge of the screen.
 
+!!! warning
+
+    The [top-down movement](/gdevelop5/behaviors/topdown) behavior is a better fit to move the monster.
+
 **Congratulations**, the Monster is moving left! Now let's add the movement to the right - try doing that on your own following the exact same steps you did for the left movement.
 
 ![](51.png)

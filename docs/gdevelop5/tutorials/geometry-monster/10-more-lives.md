@@ -133,6 +133,11 @@ Repeat for "Life2"...
 
 Last one is "Life0" for when all the lives are lost. Apply the changes.
 
+!!! warning
+
+    The [resource bar](/gdevelop5/objects/resource-bar/) object can make this a bit easier.
+
+
 ![](166.png)
 
 Drag and drop the "Life" object onto the scene and place it in the top right corner. We'll see during next chapter how to animate this "Life" object, making a "game over" screen when it reaches zero.
