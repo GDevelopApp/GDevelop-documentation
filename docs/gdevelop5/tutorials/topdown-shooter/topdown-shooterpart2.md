@@ -119,7 +119,7 @@ Now we need to shoot it. To shoot:
 12. Choose the mouse button you want the **Player** to press for shooting
 13. Click **OK**
 
-![](/gdevelop5/tutorials/topdown-shooter/coffeehanjanun.gif)
+![](coffeehanjanun.gif)
 
 Now, we can shoot while we click.
 
