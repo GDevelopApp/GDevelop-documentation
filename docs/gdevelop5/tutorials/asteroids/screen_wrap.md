@@ -40,4 +40,8 @@ And then recreate this event for the Y position, making sure to use 630 instead 
 
 So if an object goes 30 pixels off screen it will have it's position moved to the opposite X or Y position depending on what part of the screen it went through. But, we multiply it by 0.95 (or 95%) so it will no longer be out of bounds when flipped.
 
+!!! warning
+
+    The [screen wrap](/gdevelop5/extensions/screen-wrap/) can handle this for you.
+
 ![](screen_wrap/pasted/20220119-182309.png)

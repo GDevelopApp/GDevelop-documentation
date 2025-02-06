@@ -54,6 +54,10 @@ To trigger the "Jumping" animation:
 5. In the **Animation name** field, enter the name of the "Jumping" animation. You must wrap this name in double quotes (i.e. `"Jumping"`).
 6. Click **OK**.
 
+!!! warning
+
+    The [platformer character animator](/gdevelop5/extensions/platformer-character-animator/) behavior can change the animations automatically.
+
 ![](/gdevelop5/tutorials/platformer/part-4-02.jpg)
 
 Based on these changes, jumping triggers the animation.
