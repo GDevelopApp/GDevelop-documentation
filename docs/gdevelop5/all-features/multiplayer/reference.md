@@ -22,6 +22,9 @@ Leave the current game lobby. This will trigger the "Player has left" condition 
 **Open Game Lobbies**  
 Open the game lobbies window, where players can join lobbies or see the one they are in.
 
+**Join the next available lobby**  
+Join the next available lobby. The player will join the game instantly if this is possible.
+
 **Remove ownership of variable**  
 Remove the ownership of the variable. It will still be synchronized to other players, but the host owns it.
 
@@ -84,6 +87,9 @@ Check if the specified player is connected to the lobby.
 **Player is host**  
 Check if the player is the host. (Player 1 is the host)
 
+**Is searching for a lobby to join**  
+Is searching for a lobby to join.
+
 **Objects synchronization rate**  
 Compare objects synchronization rate (between 1 and 60, default is 30 times per second).
 
@@ -92,6 +98,9 @@ Compare the player owning the variable.
 
 **Number of players in lobby**  
 Compare the number of players in the lobby.
+
+**Quick join failed to join a lobby**  
+Quick join failed to join a lobby.
 
 ## Expressions
 
@@ -109,6 +118,7 @@ Compare the number of players in the lobby.
 | `Multiplayer::PlayerUsername()` | Get the username of the player in the lobby. ||
 | `Multiplayer::PlayerVariableOwnership()` | Return the player owning the variable. ||
 | `Multiplayer::PlayersInLobbyCount()` | Return the number of players in the lobby. ||
+| `Multiplayer::QuickJoinFailureReason()` | Returns the reason why the Quick join action failed. It can either be 'FULL' if all lobbies were occupied, 'NOT_ENOUGH_PLAYERS' if the lobby's configuration requires more than 1 player to start the game and no other players were available. It can also take the value 'UNKNOWN'. ||
 
 ## Multiplayer object 
 

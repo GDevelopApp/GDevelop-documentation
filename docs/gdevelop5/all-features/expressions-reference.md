@@ -919,6 +919,7 @@ Allow players to connect to lobbies and play together. [Read more explanations a
 | `Multiplayer::PlayerUsername()` | Get the username of the player in the lobby. ||
 | `Multiplayer::PlayerVariableOwnership()` | Return the player owning the variable. ||
 | `Multiplayer::PlayersInLobbyCount()` | Return the number of players in the lobby. ||
+| `Multiplayer::QuickJoinFailureReason()` | Returns the reason why the Quick join action failed. It can either be 'FULL' if all lobbies were occupied, 'NOT_ENOUGH_PLAYERS' if the lobby's configuration requires more than 1 player to start the game and no other players were available. It can also take the value 'UNKNOWN'. ||
 
 ## Multiplayer object (from extension Multiplayer)
 
