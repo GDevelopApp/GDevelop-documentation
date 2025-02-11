@@ -86,6 +86,11 @@ _No expressions for this object._
 
 An animated 3D model. 
 
+### Object actions
+
+**Set crossfade duration**  
+Set the crossfade duration when switching to a new animation.
+
 _No expressions for this object._
 
 

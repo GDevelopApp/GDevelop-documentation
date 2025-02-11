@@ -9,6 +9,7 @@ nav:
     - Ads:
         - CrazyGames SDK v2: crazy-games-ad-api
         - Mobile In-App Purchase (experimental): in-app-purchase
+        - Playgama Bridge: playgama-bridge
         - Poki Games SDK: poki-games-sdkhtml
     - Advanced:
         - Base conversion: base-conversion
@@ -61,7 +62,6 @@ nav:
     - General:
         - Array tools: array-tools
         - Extended variables support: extended-variables
-        - Playgama Bridge: playgama-bridge
         - Repeat every X seconds: repeat-every-xseconds
     - Input:
         - Back button: back-button
