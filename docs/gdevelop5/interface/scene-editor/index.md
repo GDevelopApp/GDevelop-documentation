@@ -37,7 +37,7 @@ An object that you put on the scene _is called **an instance**_. The Properties 
 ![New panel](Properties-panel.png)
 
   1. **Name indicator:** displays the name of the object that the *instance* represents
-  2. **Instance lock:** blocks an instance's possition. It has 3 states: *(ii)* blocks the instance while maintaining its edition capabilites, *(iii)* blocks the instance's possition, edition *and* selection, and *(i)* unlocks the instance completely.
+  2. **Instance lock:** blocks an instance's position. It has 3 states: *(ii)* blocks the instance while maintaining its edition capabilites, *(iii)* blocks the instance's position, edition *and* selection, and *(i)* unlocks the instance completely.
 Another method to unlock an instance is finding the instance on the [instance panel list](/gdevelop5/interface/scene-editor/#objects-groups-panel) and clicking on the icon to unlock the desired instance
 ![Lock states](Icons.png)
 
