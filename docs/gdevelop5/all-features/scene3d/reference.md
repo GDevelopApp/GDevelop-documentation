@@ -71,7 +71,7 @@ Change the image of the face.
 **Face visibility**  
 Set (or unset) if a face should be visible.
 
-**Tint**  
+**Tint color**  
 Change the tint of the cube.
 
 ### Object conditions
