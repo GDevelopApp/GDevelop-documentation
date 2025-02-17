@@ -18,6 +18,10 @@ Tips:
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
+    
+**Example**  
+A simple example shows how to slice objects in different ways [Open the project online](https://editor.gdevelop.io/?project=https://resources.gdevelop-app.com/examples/object-slicer/object-slicer.json)
+
 ## Actions
 
 **Slice object into smaller pieces**  
