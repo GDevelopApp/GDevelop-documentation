@@ -64,7 +64,28 @@ Forget the path.
 **Move to a position**  
 Move the object to a position.
 
+**Acceleration**  
+Change the acceleration of the object.
+
+**Angle offset**  
+Change the rotation offset applied when moving the object.
+
+**Rotate the object**  
+Enable or disable rotation of the object on the path.
+
+**Rotation speed**  
+Change the rotation speed of the object.
+
+**Maximum speed**  
+Change the maximum speed of the object.
+
 ### Behavior conditions
+
+**Acceleration**  
+Compare the acceleration of the object.
+
+**Angle offset**  
+Compare the rotation offset applied when moving the object.
 
 **Destination reached**  
 Check if the destination was reached.
@@ -78,10 +99,21 @@ Check if the object is moving.
 **Path found**  
 Check if a path has been found.
 
+**Object rotated**  
+Check if the object is rotated when traveling on its path.
+
+**Rotation speed**  
+Compare the rotation speed of the object.
+
+**Maximum speed**  
+Compare the maximum speed of the object.
+
 ### Behavior expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
+| `Object.LinkPathFinding::Acceleration()` | Return the acceleration of the object. ||
+| `Object.LinkPathFinding::AngleOffset()` | Return the rotation offset applied when moving the object. ||
 | `Object.LinkPathFinding::DestinationX()` | Destination X position. ||
 | `Object.LinkPathFinding::DestinationY()` | Destination Y position. ||
 | `Object.LinkPathFinding::NextNodeIndex()` | Next waypoint index. ||
@@ -90,7 +122,9 @@ Check if a path has been found.
 | `Object.LinkPathFinding::NodeCount()` | Get the number of waypoints on the path. ||
 | `Object.LinkPathFinding::NodeX()` | Waypoint X position. ||
 | `Object.LinkPathFinding::NodeY()` | Waypoint X position. ||
+| `Object.LinkPathFinding::RotationSpeed()` | Return the rotation speed of the object. ||
 | `Object.LinkPathFinding::Speed()` | Speed of the object on the path. ||
+| `Object.LinkPathFinding::SpeedMax()` | Return the maximum speed of the object. ||
 
 ---
 
