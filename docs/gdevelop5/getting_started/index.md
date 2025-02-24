@@ -11,7 +11,7 @@ GDevelop is available for all computers (Windows, macOS, and Linux), tablets and
 
 * **Windows**: double-click on the executable. Click on the Next button several times, until the installation begins. This installs GDevelop, launches the app, and adds an icon to the Desktop.
 * **macOS**: open the DMG file and Drag "GDevelop" into the "~/Applications" directory.
-* **Linux (flatpak)**: Open a terminal abd follow the command line instructions at the bottom of the [GDevelop Flathub page](https://flathub.org/apps/details/io.gdevelop.ide).
+* **Linux (flatpak)**: Open a terminal and follow the command line instructions at the bottom of the [GDevelop Flathub page](https://flathub.org/apps/details/io.gdevelop.ide).
 * **Linux (AppImage)**: Open a terminal. Make the AppImage file executable by typing `chmod a+x GDevelop*.AppImage` then press Enter. Then, run it: `./GDevelop*.AppImage` (or double-click on the file).
 * **iOS**: download [GDevelop from the App Store](https://apps.apple.com/us/app/gdevelop-game-maker/id1663675754).
 * **Android**: download [GDevelop from Google Play](https://play.google.com/store/apps/details?id=io.gdevelop.ide).
