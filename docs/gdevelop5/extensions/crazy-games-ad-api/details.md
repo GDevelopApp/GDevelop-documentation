@@ -158,6 +158,26 @@ Once you are invited, you can then get access to the Xsolla project dashboard an
 To perform transactions you must [use the Xsolla SDK as explained here](https://docs.crazygames.com/sdk/in-game-purchases/#registering-orders).
 
 
+## Debug and Testing
+
+### Ad error
+
+To check if an ad has encountered an error, you can directly use the condition **Video ad had an error** to bypass a moment in your game.
+
+### Catch any errors
+
+To help debug your game and view errors or other responses from the SDK, you can use the expression **Get last error** wich returns a String.
+
+If you want to check for a specific error, the condition with the same name can be used to filter parts of your events.
+
+
+!!! tip
+    
+        Use this expression alongside the console log action to capture errors in the debugger or display them in a text object.
+
+### Testing in the QA tool
+
+To test ads and banners, your game needs to be uploaded to the QA Tool from the [CrazyGames Developer Portal](https://developer.crazygames.com/games). Doing so will help you verify each action and expression to ensure your game functions correctly and meets the validation requirements for their gaming platform.
 
 # References
 !!! tip
