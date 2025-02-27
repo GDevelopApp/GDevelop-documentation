@@ -5,14 +5,14 @@ title: Details
 
 This extension allows games to be hosted on the CrazyGames website and display modules in games such as ads, banners, and various functionalities offered by CrazyGames.
 
-## Advanced Configurations
+!!! note
 
-Please refer to the [CrazyGames SDK documentation](https://docs.crazygames.com/sdk/html5/intro/) to learn how to set up compatible environments for games and to get tips about development and testing with their QA Tool.
+    Please refer to the [CrazyGames SDK documentation]([https://docs.crazygames.com/sdk/html5/intro/](https://docs.crazygames.com/sdk/intro/)) to learn how to set up compatible environments for games and to get tips about development and testing with their *QA Tool*.
 
 ## Try the CrazyGames SDK demo
 
-A demo project showcases the features from the CrazyGames SDK in GDevelop.
-The project can be exported as an HTML5 game, then imported in the QA Tool on [CrazyGames Developer Portal](https://developer.crazygames.com/games) when submitting a new game on their platform.
+A **demo project** showcases the features from the CrazyGames SDK in GDevelop.
+The project can be exported as an HTML5 game, then imported in the **QA Tool** on [CrazyGames Developer Portal](https://developer.crazygames.com/games) when submitting a new game on their platform.
 
 ![CrazyGames SDK demo](CrazyGames_SDK_demo.png)
 
