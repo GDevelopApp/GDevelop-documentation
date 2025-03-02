@@ -50,7 +50,7 @@ If you click on the name of a scene, it will be displayed in the inspector on th
 To create a new instance, click on the name of the scene where you want to create the instance.
 Write the name of the object and click on Create:
 
-![](/gdevelop5/interface/debugger-create-instance.gif)
+![](debugger-create-instance.gif)
 
 The instance will be created at position 0;0, on the base layer with a Z-order of 0.
 You can then find it in the list of instances and change its position, angle, layer, etc.
@@ -64,7 +64,7 @@ Instances are grouped by objects name. Click on an object name to see the list o
 
 The inspector shows general properties of the instance, for example, position, angle, layer, etc. For each of these properties, you can **edit them by clicking on the value**:
 
-![](/gdevelop5/interface/debugger-edit-instance-properties.gif)
+![](debugger-edit-instance-properties.gif)
 
 Validate your changes by clicking on the small **validate button** (the one with the tick icon).
 

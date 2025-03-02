@@ -9,14 +9,14 @@ The profiler is part of the [Debugger](/gdevelop5/interface/debugger). [Read her
 
 When the **Debugger** is opened, the profiler is shown on the bottom part of the screen.
 
-![](/gdevelop5/interface/debugger/profile-your-game/pasted/20230314-195529.png)
+![](pasted/20230314-195529.png)
 
 While the game is running, click on the **Start Profiling** button to launch the profiler.
 After a few seconds, click **Stop Profiling** to end the process. The game will only store up to 600 frames worth of information, which is approximately 10 seconds of running the profiler. If you record more than 600 frames with the profiler, only the last 600 frames of information will be displayed.
 
 When you stop running the profiler, the new results will be displayed.
 
-![](/gdevelop5/interface/debugger/profile-your-game/pasted/20230304-172426.png)
+![](pasted/20230304-172426.png)
 
 The time spent on different aspects of your game is displayed in sections:
 
