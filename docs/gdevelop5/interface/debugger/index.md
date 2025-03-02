@@ -77,7 +77,7 @@ You can inspect variables of the game (global variables), of a scene (scene vari
 To do this, in the list, click on **Global Variables**, **Scene variables**, or the instance number that you want to inspect.
 
 Variables will be shown in a list showing variable names and values (either a number or a text). Here is an example of an instance of an object having a "Life" variable:
-![](/gdevelop5/interface/instance-variables.png)
+![](instance-variables.png)
 
 Like other fields, you can **click on the value of the variable** to change it. It's a good way to see how your game is behaving according to the value of variables and test that your events are working properly.
 
@@ -85,7 +85,7 @@ Variables can also be **structures**, meaning that they hold other variables. In
 
 
 Here is an example of a variable named "Options", containing children variables to store the options of a game:
-![](/gdevelop5/interface/structure-variable-inspector.png)
+![](structure-variable-inspector.png)
 
 You can also change the value of the children variables like any other.
 
