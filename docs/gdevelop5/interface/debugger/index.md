@@ -12,14 +12,17 @@ The *Profiler* is a tool that measures the time spent on different aspects of yo
 
     This is an advanced feature of GDevelop. If you use it, we would like you to show your support for GDevelop by [getting a subscription](/gdevelop5/interface/profile)!
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/8krGoBuQpBI" frameborder="0" allowfullscreen></iframe>
+</div>
 
-![](/gdevelop5/interface/debugger/pasted/20230304-171835.png)
+![](pasted/20230304-171835.png)
 
 ## Launch the debugger
 
 To launch the debugger, in the toolbar of a scene editor, click on the arrow beside the preview button to bring up a drop-down menu. In that menu, choose "Preview with debugger and performance profiler".
 
-![](/gdevelop5/interface/debugger/pasted/20230314-003437.png)
+![](pasted/20230314-003437.png)
 
 This will open a new tab called "Debugger" and will also launch a preview of your game as usual.
 
@@ -27,15 +30,15 @@ Note that even if you close the preview, you can let the debugger tab stay unclo
 
 When the game is first launched, the debugger is empty:
 
-![](/gdevelop5/interface/debugger/pasted/20230304-172007.png)
+![](pasted/20230304-172007.png)
 
 Click on **"Refresh"** at any time to fetch the data of the game:
 
-![](/gdevelop5/interface/debugger/pasted/20230314-003719.png)
+![](pasted/20230314-003719.png)
 
 You can also use the **Pause** button in the toolbar:
 
-![](/gdevelop5/interface/debugger/pasted/20230314-003327.png)
+![](pasted/20230314-003327.png)
 
 ## Inspect the scenes of the game
 
@@ -57,7 +60,7 @@ You can then find it in the list of instances and change its position, angle, la
 In the list, you can find **Instances** of every running scene.
 Instances are grouped by objects name. Click on an object name to see the list of instances of this object living on the scene. Click on an instance number (each instance has a unique number) to inspect it:
 
-![](/gdevelop5/interface/debugger/pasted/20230304-172210.png)
+![](pasted/20230304-172210.png)
 
 The inspector shows general properties of the instance, for example, position, angle, layer, etc. For each of these properties, you can **edit them by clicking on the value**:
 

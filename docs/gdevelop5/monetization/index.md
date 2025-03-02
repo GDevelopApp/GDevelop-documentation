@@ -6,6 +6,10 @@ title: Monetizing Your Games
 
 Monetizing your game is an exciting opportunity, but it's important to note that it is entirely optional when using GDevelop. Whether you choose to monetize or not, GDevelop provides multiple ways to do so, allowing you to find the best fit for your game's audience and platform.
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/zY5kv50XNn" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ## Different Ways to Monetize
 
 There are several methods to monetize your game:
