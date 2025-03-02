@@ -12,11 +12,11 @@ The *Profiler* is a tool that measures the time spent on different aspects of yo
 
     This is an advanced feature of GDevelop. If you use it, we would like you to show your support for GDevelop by [getting a subscription](/gdevelop5/interface/profile)!
 
+![](pasted/20230304-171835.png)
+
 <div class="video-container">
   <iframe src="https://www.youtube.com/embed/8krGoBuQpBI" frameborder="0" allowfullscreen></iframe>
 </div>
-
-![](pasted/20230304-171835.png)
 
 ## Launch the debugger
 
