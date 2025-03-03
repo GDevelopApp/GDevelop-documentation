@@ -95,12 +95,24 @@ Compare the id of the tile at the scene coordinates.
 |-----|-----|-----|
 | `Object.GridColumnCount()` | Return the grid column count in the tile map. ||
 | `Object.GridRowCount()` | Return the grid row count in the tile map. ||
-| `Object.GridX()` | Get the grid column coordinates in the tile map corresponding to the scene coordinates. ||
-| `Object.GridY()` | Get the grid row coordinates in the tile map corresponding to the scene coordinates. ||
-| `Object.TileCenterX()` | Get the scene X position of the center of the tile. ||
-| `Object.TileCenterY()` | Get the scene Y position of the center of the tile. ||
-| `Object.TileIdAtGrid()` | Return the id of the tile at the grid coordinates. ||
-| `Object.TileIdAtPosition()` | Return the id of the tile at the scene coordinates. ||
+| `Object.GridX(number, number)` | Get the grid column coordinates in the tile map corresponding to the scene coordinates. ||
+| | _🔢 Number_ | Position X |
+| | _🔢 Number_ | Position Y |
+| `Object.GridY(number, number)` | Get the grid row coordinates in the tile map corresponding to the scene coordinates. ||
+| | _🔢 Number_ | Position X |
+| | _🔢 Number_ | Position Y |
+| `Object.TileCenterX(number, number)` | Get the scene X position of the center of the tile. ||
+| | _🔢 Number_ | Grid X |
+| | _🔢 Number_ | Grid Y |
+| `Object.TileCenterY(number, number)` | Get the scene Y position of the center of the tile. ||
+| | _🔢 Number_ | Grid X |
+| | _🔢 Number_ | Grid Y |
+| `Object.TileIdAtGrid(number, number)` | Return the id of the tile at the grid coordinates. ||
+| | _🔢 Number_ | Grid X |
+| | _🔢 Number_ | Grid Y |
+| `Object.TileIdAtPosition(number, number)` | Return the id of the tile at the scene coordinates. ||
+| | _🔢 Number_ | Position X |
+| | _🔢 Number_ | Position Y |
 | `Object.TilesetColumnCount()` | Get the number of columns in the tileset. ||
 | `Object.TilesetRowCount()` | Get the number of rows in the tileset. ||
 

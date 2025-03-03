@@ -43,8 +43,12 @@ Check if an item has reached its maximum number allowed in the inventory.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Inventory::Count()` | Get the number of an item in the inventory ||
-| `Inventory::Maximum()` | Get the maximum of an item in the inventory, or 0 if it is unlimited ||
+| `Inventory::Count(string, string)` | Get the number of an item in the inventory ||
+| | _string_ | Inventory name |
+| | _string_ | Item name |
+| `Inventory::Maximum(string, string)` | Get the maximum of an item in the inventory, or 0 if it is unlimited ||
+| | _string_ | Inventory name |
+| | _string_ | Item name |
 
 ---
 *This page is an auto-generated reference page about the **Inventories** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

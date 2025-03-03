@@ -52,12 +52,24 @@ Compare the camera position on Z axis.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Scene3D::CameraFarPlane()` | Return the camera far plane distance. ||
-| `Scene3D::CameraFov()` | Return the camera field of view. ||
-| `Scene3D::CameraNearPlane()` | Return the camera near plane distance. ||
-| `Scene3D::CameraRotationX()` | Return the camera rotation on X axis. ||
-| `Scene3D::CameraRotationY()` | Return the camera rotation on Y axis. ||
-| `Scene3D::CameraZ()` | Return the camera position on Z axis. ||
+| `Scene3D::CameraFarPlane(layer name, number)` | Return the camera far plane distance. ||
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
+| `Scene3D::CameraFov(layer name, number)` | Return the camera field of view. ||
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
+| `Scene3D::CameraNearPlane(layer name, number)` | Return the camera near plane distance. ||
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
+| `Scene3D::CameraRotationX(layer name, number)` | Return the camera rotation on X axis. ||
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
+| `Scene3D::CameraRotationY(layer name, number)` | Return the camera rotation on Y axis. ||
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
+| `Scene3D::CameraZ(layer name, number)` | Return the camera position on Z axis. ||
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
 
 ## 3D Box 
 

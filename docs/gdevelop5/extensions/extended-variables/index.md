@@ -70,10 +70,14 @@ Check if the scene variable exists.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `ExtendedVariables::GlobalVariable()` | Return the value of a global variable. ||
-| `ExtendedVariables::GlobalVariableString()` | Return the text of a global variable. ||
-| `ExtendedVariables::Variable()` | Return the value of a scene variable. ||
-| `ExtendedVariables::VariableString()` | Return the text of a scene variable. ||
+| `ExtendedVariables::GlobalVariable(string)` | Return the value of a global variable. ||
+| | _string_ | Name of the global variable |
+| `ExtendedVariables::GlobalVariableString(string)` | Return the text of a global variable. ||
+| | _string_ | Name of the global variable |
+| `ExtendedVariables::Variable(string)` | Return the value of a scene variable. ||
+| | _string_ | Name of the scene variable |
+| `ExtendedVariables::VariableString(string)` | Return the text of a scene variable. ||
+| | _string_ | Name of the scene variable |
 
 ---
 

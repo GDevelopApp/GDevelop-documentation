@@ -34,14 +34,25 @@ Change the jump speed to reach a given height.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Object.PlatformerEvaluator::JumpDownTime()` | The time from the start of the jump when it reaches a given Y displacement moving downward. ||
-| `Object.PlatformerEvaluator::JumpPeakTime()` | The time from the start of the jump when it reaches the maximum Y displacement. ||
-| `Object.PlatformerEvaluator::JumpPeakY()` | The maximum Y displacement. ||
-| `Object.PlatformerEvaluator::JumpUpTime()` | The time from the start of the jump when it reaches a given Y displacement moving upward. ||
-| `Object.PlatformerEvaluator::JumpY()` | The jump Y displacement at a given time from the start of the jump. ||
-| `Object.PlatformerEvaluator::MovingX()` | The X displacement at a given time from now if accelerating (always positive). ||
-| `Object.PlatformerEvaluator::StopXDistance()` | The X displacement before the character stops (always positive). ||
-| `Object.PlatformerEvaluator::StoppingX()` | The X displacement at a given time from now if decelerating (always positive). ||
+| `Object.PlatformerEvaluator::JumpDownTime(number, number)` | The time from the start of the jump when it reaches a given Y displacement moving downward. ||
+| | _🔢 Number_ | Y position |
+| | _🔢 Number_ | Jump sustaining duration |
+| `Object.PlatformerEvaluator::JumpPeakTime(number)` | The time from the start of the jump when it reaches the maximum Y displacement. ||
+| | _🔢 Number_ | Jump sustaining duration |
+| `Object.PlatformerEvaluator::JumpPeakY(number)` | The maximum Y displacement. ||
+| | _🔢 Number_ | Jump sustaining duration |
+| `Object.PlatformerEvaluator::JumpUpTime(number, number)` | The time from the start of the jump when it reaches a given Y displacement moving upward. ||
+| | _🔢 Number_ | Y position |
+| | _🔢 Number_ | Jump sustaining duration |
+| `Object.PlatformerEvaluator::JumpY(number, number)` | The jump Y displacement at a given time from the start of the jump. ||
+| | _🔢 Number_ | Time |
+| | _🔢 Number_ | Jump sustaining duration |
+| `Object.PlatformerEvaluator::MovingX(number)` | The X displacement at a given time from now if accelerating (always positive). ||
+| | _🔢 Number_ | Time |
+| `Object.PlatformerEvaluator::StopXDistance(number)` | The X displacement before the character stops (always positive). ||
+| | _🔢 Number_ | Time |
+| `Object.PlatformerEvaluator::StoppingX(number)` | The X displacement at a given time from now if decelerating (always positive). ||
+| | _🔢 Number_ | Time |
 
 ---
 

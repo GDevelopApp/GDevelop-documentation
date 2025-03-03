@@ -32,7 +32,8 @@ Compare the number of times the timer has repeated.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `RepeatEveryXSeconds::Repetition()` | Return the number of times the timer has repeated. ||
+| `RepeatEveryXSeconds::Repetition(string)` | Return the number of times the timer has repeated. ||
+| | _string_ | Timer name used to loop |
 
 ## Repeat every X seconds 
 
@@ -58,7 +59,8 @@ Compare the number of times the timer has repeated.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Object.RepeatTimer::Repetition()` | Return the number of times the timer has repeated. ||
+| `Object.RepeatTimer::Repetition(string)` | Return the number of times the timer has repeated. ||
+| | _string_ | Timer name used to loop |
 
 ---
 

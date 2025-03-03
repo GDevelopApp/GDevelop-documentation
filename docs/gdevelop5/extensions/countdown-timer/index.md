@@ -42,8 +42,10 @@ Check if the countdown timer has reached zero.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `CountdownTimer::InitialConfigurationValue()` | Get the initial setting time value of the clock. ||
-| `CountdownTimer::RemainingTime()` | Get the remaining time of the countdown timer. ||
+| `CountdownTimer::InitialConfigurationValue(string)` | Get the initial setting time value of the clock. ||
+| | _string_ | Clock name |
+| `CountdownTimer::RemainingTime(string)` | Get the remaining time of the countdown timer. ||
+| | _string_ | Clock name |
 
 ---
 

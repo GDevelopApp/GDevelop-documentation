@@ -40,10 +40,22 @@ Pick the object of this type that is nearest to the specified position in 3D.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Collision3D::Distance()` | Distance between two objects in 3D. ||
-| `Collision3D::DistanceToPosition()` | Distance between an object and a position in 3D. ||
-| `Collision3D::SqDistance()` | Square distance between two objects in 3D. ||
-| `Collision3D::SqDistanceToPosition()` | Square distance between an object and a position in 3D. ||
+| `Collision3D::Distance(object, object)` | Distance between two objects in 3D. ||
+| | _👾 Object_ | Object |
+| | _👾 Object_ | Other object |
+| `Collision3D::DistanceToPosition(object, number, number, number)` | Distance between an object and a position in 3D. ||
+| | _👾 Object_ | Object |
+| | _🔢 Number_ | X position |
+| | _🔢 Number_ | Y position |
+| | _🔢 Number_ | Z position |
+| `Collision3D::SqDistance(object, object)` | Square distance between two objects in 3D. ||
+| | _👾 Object_ | Object |
+| | _👾 Object_ | Other object |
+| `Collision3D::SqDistanceToPosition(object, number, number, number)` | Square distance between an object and a position in 3D. ||
+| | _👾 Object_ | Object |
+| | _🔢 Number_ | X position |
+| | _🔢 Number_ | Y position |
+| | _🔢 Number_ | Z position |
 
 ---
 

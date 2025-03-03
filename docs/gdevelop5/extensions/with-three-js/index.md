@@ -302,35 +302,86 @@ This condition cannot be tested correctly if the visibility of the 3D object is 
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `WithThreeJS::BoundingBoxCollisionResultNumber()` | Bounding Box Collision Result Number ||
-| `WithThreeJS::CameraDirection()` | Normalized direction vector of 3D camera.(3D Camera is shooting in the negative Z axis direction) ||
-| `WithThreeJS::CameraFOV()` | 3D Camera FOV ||
-| `WithThreeJS::CameraFar()` | 3D Camera Far ||
-| `WithThreeJS::CameraNear()` | The camera will not render objects closer than this distance. ||
-| `WithThreeJS::CameraPosition()` | 3D Camera Position ||
-| `WithThreeJS::CameraRotation()` | 3D Camera Rotation ||
-| `WithThreeJS::CameraZoom()` | 3D Camera Zoom ||
-| `WithThreeJS::DistanceFrom3DCameraTo3DObject()` | Distance From 3D Camera To 3D Object ||
-| `WithThreeJS::DistanceFrom3DObjectTo3DObject()` | Distance From 3D Object To 3D Object ||
+| `WithThreeJS::BoundingBoxCollisionResultNumber(string)` | Bounding Box Collision Result Number ||
+| | _🔤 String_ | Item |
+| `WithThreeJS::CameraDirection(number, string)` | Normalized direction vector of 3D camera.(3D Camera is shooting in the negative Z axis direction) ||
+| | _🔢 Number_ | 3D Camera ID (1 to 4) |
+| | _🔤 String_ | Axis |
+| `WithThreeJS::CameraFOV(number)` | 3D Camera FOV ||
+| | _🔢 Number_ | 3D Camera ID (1 to 4) |
+| `WithThreeJS::CameraFar(number)` | 3D Camera Far ||
+| | _🔢 Number_ | 3D Camera ID (1 to 4) |
+| `WithThreeJS::CameraNear(number)` | The camera will not render objects closer than this distance. ||
+| | _🔢 Number_ | 3D Camera ID (1 to 4) |
+| `WithThreeJS::CameraPosition(number, string)` | 3D Camera Position ||
+| | _🔢 Number_ | 3D Camera ID (1 to 4) |
+| | _🔤 String_ | Axis |
+| `WithThreeJS::CameraRotation(number, string)` | 3D Camera Rotation ||
+| | _🔢 Number_ | 3D Camera ID (1 to 4) |
+| | _🔤 String_ | Axis |
+| `WithThreeJS::CameraZoom(number)` | 3D Camera Zoom ||
+| | _🔢 Number_ | 3D Camera ID (1 to 4) |
+| `WithThreeJS::DistanceFrom3DCameraTo3DObject(number, string)` | Distance From 3D Camera To 3D Object ||
+| | _🔢 Number_ | From 3D Camera ID (1 to 4) |
+| | _🔤 Name (String)_ | To 3D Object ID |
+| `WithThreeJS::DistanceFrom3DObjectTo3DObject(string, string)` | Distance From 3D Object To 3D Object ||
+| | _🔤 Name (String)_ | From 3D Object ID |
+| | _🔤 Name (String)_ | To 3D Object ID |
 | `WithThreeJS::MasterVolumeOf3DScene()` | Master Volume Of 3D Scene ||
-| `WithThreeJS::ObjectAnimationDuration()` | 3D Object Animation Duration ||
-| `WithThreeJS::ObjectAnimationSpeedScale()` | 3D Object Animation Speed Scale ||
-| `WithThreeJS::ObjectAnimationTime()` | 3D Object Animation Time ||
-| `WithThreeJS::ObjectDirection()` | Normalized direction vector of 3D Object.(Z axis direction) ||
-| `WithThreeJS::ObjectNumberVariable()` | 3D Object Number Variable ||
-| `WithThreeJS::ObjectOpacity()` | Returns the opacity of the 3D Object, or the first opacity found among its children. ||
-| `WithThreeJS::ObjectParent()` | 3D Object Parent ||
-| `WithThreeJS::ObjectPosition()` | 3D Object Position ||
-| `WithThreeJS::ObjectPositionOnWorld()` | 3D Object Position On World ||
-| `WithThreeJS::ObjectRotation()` | 3D Object Rotation ||
-| `WithThreeJS::ObjectRotationOnWorld()` | 3D Object Rotation On World ||
-| `WithThreeJS::ObjectScale()` | 3D Object Scale ||
-| `WithThreeJS::ObjectStringVariable()` | 3D Object String Variable ||
-| `WithThreeJS::PointOf3DObjectOn3DCamera()` | Point Of 3D Object On 3D Camera ||
-| `WithThreeJS::PointOfPositionOn3DCamera()` | Point Of World Position On 3D Camera ||
+| `WithThreeJS::ObjectAnimationDuration(string, number)` | 3D Object Animation Duration ||
+| | _🔤 Name (String)_ | 3D Object ID |
+| | _🔢 Number_ | Original Animation Number |
+| `WithThreeJS::ObjectAnimationSpeedScale(string, number)` | 3D Object Animation Speed Scale ||
+| | _🔤 Name (String)_ | 3D Object ID |
+| | _🔢 Number_ | Original Animation Number |
+| `WithThreeJS::ObjectAnimationTime(string, number)` | 3D Object Animation Time ||
+| | _🔤 Name (String)_ | 3D Object ID |
+| | _🔢 Number_ | Original Animation Number |
+| `WithThreeJS::ObjectDirection(string, string)` | Normalized direction vector of 3D Object.(Z axis direction) ||
+| | _🔤 Name (String)_ | 3D Object ID |
+| | _🔤 String_ | Axis |
+| `WithThreeJS::ObjectNumberVariable(string, string)` | 3D Object Number Variable ||
+| | _🔤 Name (String)_ | 3D Object ID |
+| | _🔤 Name (String)_ | 3D Object Variable Name |
+| `WithThreeJS::ObjectOpacity(string)` | Returns the opacity of the 3D Object, or the first opacity found among its children. ||
+| | _🔤 Name (String)_ | 3D Object ID |
+| `WithThreeJS::ObjectParent(string)` | 3D Object Parent ||
+| | _🔤 Name (String)_ | 3D Object ID |
+| `WithThreeJS::ObjectPosition(string, string)` | 3D Object Position ||
+| | _🔤 Name (String)_ | 3D Object ID |
+| | _🔤 String_ | Axis |
+| `WithThreeJS::ObjectPositionOnWorld(string, string)` | 3D Object Position On World ||
+| | _🔤 Name (String)_ | 3D Object ID |
+| | _🔤 String_ | Axis |
+| `WithThreeJS::ObjectRotation(string, string)` | 3D Object Rotation ||
+| | _🔤 Name (String)_ | 3D Object ID |
+| | _🔤 String_ | Axis |
+| `WithThreeJS::ObjectRotationOnWorld(string, string)` | 3D Object Rotation On World ||
+| | _🔤 Name (String)_ | 3D Object ID |
+| | _🔤 String_ | Axis |
+| `WithThreeJS::ObjectScale(string, string)` | 3D Object Scale ||
+| | _🔤 Name (String)_ | 3D Object ID |
+| | _🔤 String_ | Axis |
+| `WithThreeJS::ObjectStringVariable(string, string)` | 3D Object String Variable ||
+| | _🔤 Name (String)_ | 3D Object ID |
+| | _🔤 Name (String)_ | 3D Object Variable Name |
+| `WithThreeJS::PointOf3DObjectOn3DCamera(number, string, string)` | Point Of 3D Object On 3D Camera ||
+| | _🔢 Number_ | 3D Camera ID (1 to 4) |
+| | _🔤 Name (String)_ | 3D Object ID |
+| | _🔤 String_ | Axis Of Return Value |
+| `WithThreeJS::PointOfPositionOn3DCamera(number, number, number, number, string)` | Point Of World Position On 3D Camera ||
+| | _🔢 Number_ | 3D Camera ID (1 to 4) |
+| | _🔢 Number_ | World Position X |
+| | _🔢 Number_ | World Position Y |
+| | _🔢 Number_ | World Position Z |
+| | _🔤 String_ | Axis Of Return Value |
 | `WithThreeJS::RaycastResultCount()` | Count of 3D Objects in Raycast Result ||
-| `WithThreeJS::RaycastResultNumber()` | Raycast Result Number ||
-| `WithThreeJS::RaycastResultString()` | Raycast Result String ||
+| `WithThreeJS::RaycastResultNumber(number, string)` | Raycast Result Number ||
+| | _🔢 Number_ | Index (0 or more) |
+| | _🔤 String_ | Item |
+| `WithThreeJS::RaycastResultString(number, string)` | Raycast Result String ||
+| | _🔢 Number_ | Index (0 or more) |
+| | _🔤 String_ | Item |
 
 ## 3D Box 
 

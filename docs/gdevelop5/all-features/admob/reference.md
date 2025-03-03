@@ -13,6 +13,10 @@ Mark the rewarded video reward as claimed. Useful if you used the condition to c
 **Hide banner**  
 Hide the banner. You can show it again with the corresponding action.
 
+**Initialize AdMob manually**  
+Initialize AdMob manually. This will trigger the consent dialog if needed, and then load the ads.  
+Use this action if you have disabled the auto init and want to control when the consent dialog will be shown.
+
 **Load app open**  
 Start loading an app open (that can be displayed automatically when the loading is finished).  
 If test mode is set, a test app open will be displayed.
@@ -29,6 +33,10 @@ This is similar to a rewarded video, but can be displayed at any time, and the u
 **Load rewarded video**  
 Start loading a reward video (that can be displayed automatically when the loading is finished).  
 If test mode is set, a test video will be displayed.
+
+**Prevent AdMob auto initialization**  
+Prevent AdMob from initializing automatically. You will need to call "Initialize AdMob" action manually.  
+This is useful if you want to control when the consent dialog will be shown (for example, after the user has accepted your game terms).
 
 **Enable test mode**  
 Activate or deactivate the test mode ("development" mode).  
@@ -59,6 +67,12 @@ Show the rewarded interstitial that was loaded. Will work only when the rewarded
 Show the reward video that was loaded. Will work only when the video is fully loaded.
 
 ## Conditions
+
+**AdMob initialized**  
+Check if AdMob has been initialized.
+
+**AdMob initializing**  
+Check if AdMob is initializing.
 
 **App open errored**  
 Check if there was an error while loading the app open.

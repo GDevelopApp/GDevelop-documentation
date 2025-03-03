@@ -111,12 +111,17 @@ Quick join failed to join a lobby.
 | `Multiplayer::CurrentPlayerUsername()` | Get the username of the current player in the lobby. ||
 | `Multiplayer::LastJoinedPlayerNumber()` | Returns the player number of the player that has just joined the lobby. ||
 | `Multiplayer::LastLeftPlayerNumber()` | Returns the player number of the player that has just left the lobby. ||
-| `Multiplayer::MessageData()` | Returns the data received when the specified message was received from another player. ||
-| `Multiplayer::MessageSender()` | Returns the player number of the sender of the specified message. ||
+| `Multiplayer::MessageData(string)` | Returns the data received when the specified message was received from another player. ||
+| | _string_ | Message name |
+| `Multiplayer::MessageSender(string)` | Returns the player number of the sender of the specified message. ||
+| | _string_ | Message name |
 | `Multiplayer::ObjectsSynchronizationRate()` | Return objects synchronization rate (between 1 and 60, default is 30 times per second). ||
-| `Multiplayer::PlayerPing()` | Get the ping of the player in the lobby. ||
-| `Multiplayer::PlayerUsername()` | Get the username of the player in the lobby. ||
-| `Multiplayer::PlayerVariableOwnership()` | Return the player owning the variable. ||
+| `Multiplayer::PlayerPing(number)` | Get the ping of the player in the lobby. ||
+| | _🔢 Number_ | The position of the player in the lobby (1, 2, ...) |
+| `Multiplayer::PlayerUsername(number)` | Get the username of the player in the lobby. ||
+| | _🔢 Number_ | The position of the player in the lobby (1, 2, ...) |
+| `Multiplayer::PlayerVariableOwnership(variable)` | Return the player owning the variable. ||
+| | _🗄️ Any variable_ | Variable Only root variables can change ownership. Arrays and structures children are synchronized with their parent. |
 | `Multiplayer::PlayersInLobbyCount()` | Return the number of players in the lobby. ||
 | `Multiplayer::QuickJoinFailureReason()` | Returns the reason why the Quick join action failed. It can either be 'FULL' if all lobbies were occupied, 'NOT_ENOUGH_PLAYERS' if the lobby's configuration requires more than 1 player to start the game and no other players were available. It can also take the value 'UNKNOWN'. ||
 

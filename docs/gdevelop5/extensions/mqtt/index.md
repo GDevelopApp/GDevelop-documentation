@@ -60,7 +60,8 @@ Triggers whenever a message was received. Note that you first need to subcribe t
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `MQTT::GetLastMessage()` | Get the last received message of a topic. ||
+| `MQTT::GetLastMessage(string)` | Get the last received message of a topic. ||
+| | _string_ | The topic to get the message from |
 | `MQTT::getCurrentError()` | Gets the last error. Returns an empty string if there was no errors. ||
 
 ---

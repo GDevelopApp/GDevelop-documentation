@@ -17,8 +17,10 @@ Using the well know zip compression algorithm, you can minimify strings and rest
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Compressor::Compress()` | Compress a string. ||
-| `Compressor::Decompress()` | Decompress a string. ||
+| `Compressor::Compress(string)` | Compress a string. ||
+| | _string_ | String to compress |
+| `Compressor::Decompress(string)` | Decompress a string. ||
+| | _string_ | String to decompress |
 
 ---
 

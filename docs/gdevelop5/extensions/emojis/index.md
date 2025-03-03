@@ -23,8 +23,10 @@ See the description of these expressions for get the list available emoji.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Emojis::Hex()` | Returns the specified emoji, from a hexadecimal value. ||
-| `Emojis::Name()` | Returns the specified emoji, from the provided name. ||
+| `Emojis::Hex(string)` | Returns the specified emoji, from a hexadecimal value. ||
+| | _string_ | Hexadecimal code Full list of hexadecimal code: [https://www.w3schools.com/charsets/ref_emoji.asp](https://www.w3schools.com/charsets/ref_emoji.asp) |
+| `Emojis::Name(string)` | Returns the specified emoji, from the provided name. ||
+| | _string_ | Name of emoji Full list of emojis: [https://gist.github.com/rxaviers/7360908](https://gist.github.com/rxaviers/7360908) |
 
 ---
 

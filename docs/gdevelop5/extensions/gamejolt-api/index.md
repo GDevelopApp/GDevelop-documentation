@@ -152,8 +152,10 @@ Compare Authenticated username used for requests.
 |-----|-----|-----|
 | `GamejoltAPI::LastErrorMessage()` | Return Error message from the last request. ||
 | `GamejoltAPI::LastResponse()` | JSON response from the last request. ||
-| `GamejoltAPI::RequestErrorMessage()` | Return Error message from a specific request. ||
-| `GamejoltAPI::RequestResponse()` | JSON response from a specific request. ||
+| `GamejoltAPI::RequestErrorMessage(string)` | Return Error message from a specific request. ||
+| | _string_ | Request name |
+| `GamejoltAPI::RequestResponse(string)` | JSON response from a specific request. ||
+| | _string_ | Request name |
 | `GamejoltAPI::UserToken()` | Return Authenticated user game token used for requests. ||
 | `GamejoltAPI::Username()` | Return Authenticated username used for requests. ||
 

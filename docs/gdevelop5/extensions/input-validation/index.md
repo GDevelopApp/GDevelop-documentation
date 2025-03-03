@@ -33,10 +33,14 @@ Check if the string is a valid URL.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `InputValidation::CountNewLines()` | Count the number of lines in a string. ||
-| `InputValidation::RemoveFirstLine()` | Returns the string without the first line. ||
-| `InputValidation::RemoveNewLines()` | Replaces every new line character with a space. ||
-| `InputValidation::ToAlphanumerical()` | Remove any non-numerical and non A-Z characters. ||
+| `InputValidation::CountNewLines(string)` | Count the number of lines in a string. ||
+| | _string_ | The text to count lines from |
+| `InputValidation::RemoveFirstLine(string)` | Returns the string without the first line. ||
+| | _string_ | String to remove the first line from |
+| `InputValidation::RemoveNewLines(string)` | Replaces every new line character with a space. ||
+| | _string_ | The text to remove new lines from |
+| `InputValidation::ToAlphanumerical(string)` | Remove any non-numerical and non A-Z characters. ||
+| | _string_ | The text to sanitize |
 
 ---
 

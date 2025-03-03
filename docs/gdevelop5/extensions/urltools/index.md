@@ -31,12 +31,24 @@ Reloads the current web page.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `URLTools::ChangeURLAttribute()` | Updates a specific part of a URL. ||
-| `URLTools::ChangeURLQueryStringParameter()` | Sets or replaces a query string parameter of a URL. ||
+| `URLTools::ChangeURLAttribute(string, string, string)` | Updates a specific part of a URL. ||
+| | _string_ | The URL to change |
+| | _🔤 String_ | The attribute to update |
+| | _string_ | The new value of this attribute |
+| `URLTools::ChangeURLQueryStringParameter(string, string, string)` | Sets or replaces a query string parameter of a URL. ||
+| | _string_ | The URL to change |
+| | _string_ | The query string parameter to update |
+| | _string_ | The new value of the query string parameter |
 | `URLTools::CurrentURL()` | Gets the URL of the current game page. ||
-| `URLTools::RemoveURLQueryStringParameter()` | Removes a query string parameter from an URL. ||
-| `URLTools::URLAttribute()` | Get an attribute from a URL. ||
-| `URLTools::URLQueryStringParameter()` | Gets a parameter of a URL query string. ||
+| `URLTools::RemoveURLQueryStringParameter(string, string)` | Removes a query string parameter from an URL. ||
+| | _string_ | The URL to change |
+| | _string_ | The query string parameter to remove |
+| `URLTools::URLAttribute(string, string)` | Get an attribute from a URL. ||
+| | _string_ | The URL to get the attribute from |
+| | _🔤 String_ | The attribute to get |
+| `URLTools::URLQueryStringParameter(string, string)` | Gets a parameter of a URL query string. ||
+| | _string_ | The URL to get a query string parameter from |
+| | _string_ | The query string parameter to get |
 
 ---
 

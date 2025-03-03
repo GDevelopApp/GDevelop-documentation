@@ -19,17 +19,6 @@ Set the return value of the events function to the specified number (to be used 
 **Set text return value**  
 Set the return value of the events function to the specified text (to be used with "String Expression" functions).
 
-## Conditions
-
-**Compare function parameter value**  
-Compare function parameter (also called "argument") value.
-
-**Compare function parameter text**  
-Compare function parameter (also called "argument") text.
-
-**Check if a function parameter is set to true (or yes)**  
-Check if the specified function parameter (also called "argument") is set to True or Yes. If the argument is a string, an empty string is considered as "false". If it's a number, 0 is considered as "false".
-
 
 
 ---

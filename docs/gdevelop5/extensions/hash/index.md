@@ -16,8 +16,10 @@ Adds expressions to allow hashing strings via MD5 or SHA256.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Hash::GenerateHashMD5()` | Returns a Hash a MD5 based on a string. ||
-| `Hash::GenerateHashSHA256()` | Returns a Hash a SHA256 based on a string. ||
+| `Hash::GenerateHashMD5(string)` | Returns a Hash a MD5 based on a string. ||
+| | _string_ | String to be hashed |
+| `Hash::GenerateHashSHA256(string)` | Returns a Hash a SHA256 based on a string. ||
+| | _string_ | String to be hashed |
 
 ---
 

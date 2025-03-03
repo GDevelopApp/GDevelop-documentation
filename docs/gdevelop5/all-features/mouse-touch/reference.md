@@ -53,13 +53,24 @@ Compare the Y position of a specific touch.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `CursorX()` | Return the X position of the cursor or of a touch. ||
-| `CursorY()` | Return the Y position of the cursor or of a touch. ||
+| `CursorX(layer name, number)` | Return the X position of the cursor or of a touch. ||
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
+| `CursorY(layer name, number)` | Return the Y position of the cursor or of a touch. ||
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
 | `MouseWheelDelta()` | Mouse wheel displacement ||
 | `StartedTouchOrMouseCount()` | The number of touches (including the mouse) that have just started on this frame. The touch identifiers can be accessed using StartedTouchOrMouseId(). ||
-| `StartedTouchOrMouseId()` | The identifier of the touch or mouse that has just started on this frame. The number of touches can be accessed using StartedTouchOrMouseCount(). ||
-| `TouchX()` | Return the X position of a specific touch. ||
-| `TouchY()` | Return the Y position of a specific touch. ||
+| `StartedTouchOrMouseId(number)` | The identifier of the touch or mouse that has just started on this frame. The number of touches can be accessed using StartedTouchOrMouseCount(). ||
+| | _🔢 Number_ | Touch index |
+| `TouchX(number, layer name, number)` | Return the X position of a specific touch. ||
+| | _🔢 Number_ | Touch identifier |
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
+| `TouchY(number, layer name, number)` | Return the Y position of a specific touch. ||
+| | _🔢 Number_ | Touch identifier |
+| | _🔤 Layer name (String)_ | Layer _Optional_. |
+| | _🔢 Number_ | Camera number (default : 0) _Optional_. |
 
 ---
 *This page is an auto-generated reference page about the **Mouse and touch** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

@@ -353,25 +353,39 @@ Check if a wheel joint motor is enabled.
 | `Object.Physics2::AngularDamping()` | Get the angular damping of an object. ||
 | `Object.Physics2::AngularVelocity()` | Get the angular velocity of an object. ||
 | `Object.Physics2::Density()` | Get the density of an object. ||
-| `Object.Physics2::DistanceJointDampingRatio()` | Distance joint damping ratio ||
-| `Object.Physics2::DistanceJointFrequency()` | Distance joint frequency ||
-| `Object.Physics2::DistanceJointLength()` | Distance joint length ||
+| `Object.Physics2::DistanceJointDampingRatio(number)` | Distance joint damping ratio ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::DistanceJointFrequency(number)` | Distance joint frequency ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::DistanceJointLength(number)` | Distance joint length ||
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::Friction()` | Get the friction of an object. ||
-| `Object.Physics2::FrictionJointMaxForce()` | Friction joint maximum force ||
-| `Object.Physics2::FrictionJointMaxTorque()` | Friction joint maximum torque ||
-| `Object.Physics2::GearJointFirstJoint()` | Gear joint first joint ||
-| `Object.Physics2::GearJointRatio()` | Gear joint ratio ||
-| `Object.Physics2::GearJointSecondJoint()` | Gear joint second joint ||
+| `Object.Physics2::FrictionJointMaxForce(number)` | Friction joint maximum force ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::FrictionJointMaxTorque(number)` | Friction joint maximum torque ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::GearJointFirstJoint(number)` | Gear joint first joint ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::GearJointRatio(number)` | Gear joint ratio ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::GearJointSecondJoint(number)` | Gear joint second joint ||
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::GravityScale()` | Get the gravity scale of an object. ||
 | `Object.Physics2::GravityX()` | World gravity on X axis ||
 | `Object.Physics2::GravityY()` | World gravity on Y axis ||
 | `Object.Physics2::Inertia()` | Return the rotational inertia of the object (in kilograms · meters²) ||
-| `Object.Physics2::JointFirstAnchorX()` | Joint first anchor X ||
-| `Object.Physics2::JointFirstAnchorY()` | Joint first anchor Y ||
-| `Object.Physics2::JointReactionForce()` | Joint reaction force ||
-| `Object.Physics2::JointReactionTorque()` | Joint reaction torque ||
-| `Object.Physics2::JointSecondAnchorX()` | Joint second anchor X ||
-| `Object.Physics2::JointSecondAnchorY()` | Joint second anchor Y ||
+| `Object.Physics2::JointFirstAnchorX(number)` | Joint first anchor X ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::JointFirstAnchorY(number)` | Joint first anchor Y ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::JointReactionForce(number)` | Joint reaction force ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::JointReactionTorque(number)` | Joint reaction torque ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::JointSecondAnchorX(number)` | Joint second anchor X ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::JointSecondAnchorY(number)` | Joint second anchor Y ||
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::LinearDamping()` | Get the linear damping of an object. ||
 | `Object.Physics2::LinearVelocity()` | Get the linear velocity of an object. ||
 | `Object.Physics2::LinearVelocityAngle()` | Get the linear velocity angle of an object. ||
@@ -380,55 +394,102 @@ Check if a wheel joint motor is enabled.
 | `Object.Physics2::Mass()` | Return the mass of the object (in kilograms) ||
 | `Object.Physics2::MassCenterX()` | Mass center X ||
 | `Object.Physics2::MassCenterY()` | Mass center Y ||
-| `Object.Physics2::MotorJointAngularOffset()` | Motor joint angular offset ||
-| `Object.Physics2::MotorJointCorrectionFactor()` | Motor joint correction factor ||
-| `Object.Physics2::MotorJointMaxForce()` | Motor joint maximum force ||
-| `Object.Physics2::MotorJointMaxTorque()` | Motor joint maximum torque ||
-| `Object.Physics2::MotorJointOffsetX()` | Motor joint offset X ||
-| `Object.Physics2::MotorJointOffsetY()` | Motor joint offset Y ||
-| `Object.Physics2::MouseJointDampingRatio()` | Mouse joint damping ratio ||
-| `Object.Physics2::MouseJointFrequency()` | Mouse joint frequency ||
-| `Object.Physics2::MouseJointMaxForce()` | Mouse joint maximum force ||
-| `Object.Physics2::MouseJointTargetX()` | Mouse joint target X ||
-| `Object.Physics2::MouseJointTargetY()` | Mouse joint target Y ||
-| `Object.Physics2::PrismaticJointAxisAngle()` | Prismatic joint axis angle ||
-| `Object.Physics2::PrismaticJointMaxMotorForce()` | Prismatic joint maximum motor force ||
-| `Object.Physics2::PrismaticJointMaxTranslation()` | Prismatic joint maximum translation ||
-| `Object.Physics2::PrismaticJointMinTranslation()` | Prismatic joint minimum translation ||
-| `Object.Physics2::PrismaticJointMotorForce()` | Prismatic joint motor force ||
-| `Object.Physics2::PrismaticJointMotorSpeed()` | Prismatic joint motor speed ||
-| `Object.Physics2::PrismaticJointReferenceAngle()` | Prismatic joint reference angle ||
-| `Object.Physics2::PrismaticJointSpeed()` | Prismatic joint speed ||
-| `Object.Physics2::PrismaticJointTranslation()` | Prismatic joint current translation ||
-| `Object.Physics2::PulleyJointFirstGroundAnchorX()` | Pulley joint first ground anchor X ||
-| `Object.Physics2::PulleyJointFirstGroundAnchorY()` | Pulley joint first ground anchor Y ||
-| `Object.Physics2::PulleyJointFirstLength()` | Pulley joint first length ||
-| `Object.Physics2::PulleyJointRatio()` | Pulley joint ratio ||
-| `Object.Physics2::PulleyJointSecondGroundAnchorX()` | Pulley joint second ground anchor X ||
-| `Object.Physics2::PulleyJointSecondGroundAnchorY()` | Pulley joint second ground anchor Y ||
-| `Object.Physics2::PulleyJointSecondLength()` | Pulley joint second length ||
+| `Object.Physics2::MotorJointAngularOffset(number)` | Motor joint angular offset ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::MotorJointCorrectionFactor(number)` | Motor joint correction factor ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::MotorJointMaxForce(number)` | Motor joint maximum force ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::MotorJointMaxTorque(number)` | Motor joint maximum torque ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::MotorJointOffsetX(number)` | Motor joint offset X ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::MotorJointOffsetY(number)` | Motor joint offset Y ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::MouseJointDampingRatio(number)` | Mouse joint damping ratio ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::MouseJointFrequency(number)` | Mouse joint frequency ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::MouseJointMaxForce(number)` | Mouse joint maximum force ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::MouseJointTargetX(number)` | Mouse joint target X ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::MouseJointTargetY(number)` | Mouse joint target Y ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::PrismaticJointAxisAngle(number)` | Prismatic joint axis angle ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::PrismaticJointMaxMotorForce(number)` | Prismatic joint maximum motor force ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::PrismaticJointMaxTranslation(number)` | Prismatic joint maximum translation ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::PrismaticJointMinTranslation(number)` | Prismatic joint minimum translation ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::PrismaticJointMotorForce(number)` | Prismatic joint motor force ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::PrismaticJointMotorSpeed(number)` | Prismatic joint motor speed ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::PrismaticJointReferenceAngle(number)` | Prismatic joint reference angle ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::PrismaticJointSpeed(number)` | Prismatic joint speed ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::PrismaticJointTranslation(number)` | Prismatic joint current translation ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::PulleyJointFirstGroundAnchorX(number)` | Pulley joint first ground anchor X ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::PulleyJointFirstGroundAnchorY(number)` | Pulley joint first ground anchor Y ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::PulleyJointFirstLength(number)` | Pulley joint first length ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::PulleyJointRatio(number)` | Pulley joint ratio ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::PulleyJointSecondGroundAnchorX(number)` | Pulley joint second ground anchor X ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::PulleyJointSecondGroundAnchorY(number)` | Pulley joint second ground anchor Y ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::PulleyJointSecondLength(number)` | Pulley joint second length ||
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::Restitution()` | Get the restitution of an object. ||
-| `Object.Physics2::RevoluteJointAngle()` | Revolute joint current angle ||
-| `Object.Physics2::RevoluteJointMaxAngle()` | Revolute joint maximum angle ||
-| `Object.Physics2::RevoluteJointMaxMotorTorque()` | Revolute joint maximum motor torque ||
-| `Object.Physics2::RevoluteJointMinAngle()` | Revolute joint minimum angle ||
-| `Object.Physics2::RevoluteJointMotorSpeed()` | Revolute joint motor speed ||
-| `Object.Physics2::RevoluteJointMotorTorque()` | Revolute joint motor torque ||
-| `Object.Physics2::RevoluteJointReferenceAngle()` | Revolute joint reference angle ||
-| `Object.Physics2::RevoluteJointSpeed()` | Revolute joint angular speed ||
-| `Object.Physics2::RopeJointMaxLength()` | Rope joint maximum length ||
+| `Object.Physics2::RevoluteJointAngle(number)` | Revolute joint current angle ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::RevoluteJointMaxAngle(number)` | Revolute joint maximum angle ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::RevoluteJointMaxMotorTorque(number)` | Revolute joint maximum motor torque ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::RevoluteJointMinAngle(number)` | Revolute joint minimum angle ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::RevoluteJointMotorSpeed(number)` | Revolute joint motor speed ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::RevoluteJointMotorTorque(number)` | Revolute joint motor torque ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::RevoluteJointReferenceAngle(number)` | Revolute joint reference angle ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::RevoluteJointSpeed(number)` | Revolute joint angular speed ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::RopeJointMaxLength(number)` | Rope joint maximum length ||
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::TimeScale()` | World time scale ||
-| `Object.Physics2::WeldJointDampingRatio()` | Weld joint damping ratio ||
-| `Object.Physics2::WeldJointFrequency()` | Weld joint frequency ||
-| `Object.Physics2::WeldJointReferenceAngle()` | Weld joint reference angle ||
-| `Object.Physics2::WheelJointAxisAngle()` | Wheel joint axis angle ||
-| `Object.Physics2::WheelJointDampingRatio()` | Wheel joint damping ratio ||
-| `Object.Physics2::WheelJointFrequency()` | Wheel joint frequency ||
-| `Object.Physics2::WheelJointMaxMotorTorque()` | Wheel joint maximum motor torque ||
-| `Object.Physics2::WheelJointMotorSpeed()` | Wheel joint motor speed ||
-| `Object.Physics2::WheelJointMotorTorque()` | Wheel joint motor torque ||
-| `Object.Physics2::WheelJointSpeed()` | Wheel joint speed ||
-| `Object.Physics2::WheelJointTranslation()` | Wheel joint current translation ||
+| `Object.Physics2::WeldJointDampingRatio(number)` | Weld joint damping ratio ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::WeldJointFrequency(number)` | Weld joint frequency ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::WeldJointReferenceAngle(number)` | Weld joint reference angle ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::WheelJointAxisAngle(number)` | Wheel joint axis angle ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::WheelJointDampingRatio(number)` | Wheel joint damping ratio ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::WheelJointFrequency(number)` | Wheel joint frequency ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::WheelJointMaxMotorTorque(number)` | Wheel joint maximum motor torque ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::WheelJointMotorSpeed(number)` | Wheel joint motor speed ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::WheelJointMotorTorque(number)` | Wheel joint motor torque ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::WheelJointSpeed(number)` | Wheel joint speed ||
+| | _🔢 Number_ | Joint ID |
+| `Object.Physics2::WheelJointTranslation(number)` | Wheel joint current translation ||
+| | _🔢 Number_ | Joint ID |
 | `Object.Physics2::WorldScale()` | Return the world scale. ||
 
 ---

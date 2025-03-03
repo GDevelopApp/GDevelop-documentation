@@ -117,15 +117,18 @@ Check if the user is signed in.
 |-----|-----|-----|
 | `CrazyGamesAdApi::CrazyGamesUserID()` | Return the CrazyGames User ID. ||
 | `CrazyGamesAdApi::Environment()` | Get the environment. ||
-| `CrazyGamesAdApi::InviteLink()` | Return an invite link. ||
-| `CrazyGamesAdApi::InviteParam()` | Get invite parameters if user is invited to this game. ||
+| `CrazyGamesAdApi::InviteLink(string)` | Return an invite link. ||
+| | _string_ | Room id |
+| `CrazyGamesAdApi::InviteParam(string)` | Get invite parameters if user is invited to this game. ||
+| | _string_ | Param |
 | `CrazyGamesAdApi::IsDisableChat()` | Return true if the user prefers the chat disabled. ||
 | `CrazyGamesAdApi::IsInstantMultiplayer()` | Return true when the user prefers to instantly join a lobby. ||
 | `CrazyGamesAdApi::IsUserAccountAvailable()` | Return the availability of the user's account. ||
 | `CrazyGamesAdApi::LastError()` | Return the last error from the CrazyGames API. ||
 | `CrazyGamesAdApi::LinkAccountResponse()` | Get link account response. ||
 | `CrazyGamesAdApi::ProfilePic()` | Get user signed in profile picture url. ||
-| `CrazyGamesAdApi::SessionData()` | Get user session data. ||
+| `CrazyGamesAdApi::SessionData(string)` | Get user session data. ||
+| | _string_ | Id |
 | `CrazyGamesAdApi::SystemInfo()` | Retrieves user system info, browser, version and device. ||
 | `CrazyGamesAdApi::UserName()` | Return the username. ||
 | `CrazyGamesAdApi::UserToken()` | Retrieve the user's session token for authentication. ||

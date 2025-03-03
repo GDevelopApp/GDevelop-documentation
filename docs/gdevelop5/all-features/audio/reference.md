@@ -124,12 +124,18 @@ Test if the sound on the specified channel is stopped.
 | Expression | Description |  |
 |-----|-----|-----|
 | `GlobalVolume()` | Global volume value ||
-| `MusicChannelPitch()` | Music's pitch ||
-| `MusicChannelPlayingOffset()` | Music playing offset ||
-| `MusicChannelVolume()` | Music volume ||
-| `SoundChannelPitch()` | Sound's pitch ||
-| `SoundChannelPlayingOffset()` | Sound playing offset ||
-| `SoundChannelVolume()` | Sound volume ||
+| `MusicChannelPitch(number)` | Music's pitch ||
+| | _🔢 Number_ | Channel |
+| `MusicChannelPlayingOffset(number)` | Music playing offset ||
+| | _🔢 Number_ | Channel |
+| `MusicChannelVolume(number)` | Music volume ||
+| | _🔢 Number_ | Channel |
+| `SoundChannelPitch(number)` | Sound's pitch ||
+| | _🔢 Number_ | Channel |
+| `SoundChannelPlayingOffset(number)` | Sound playing offset ||
+| | _🔢 Number_ | Channel |
+| `SoundChannelVolume(number)` | Sound volume ||
+| | _🔢 Number_ | Channel |
 
 ---
 *This page is an auto-generated reference page about the **Sounds and music** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

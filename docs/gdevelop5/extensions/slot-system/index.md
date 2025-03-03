@@ -317,40 +317,110 @@ Compare the text property of a slot.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `SlotSystem::ConvertGridPositionToSlot()` | Return a slot index of a grid position. ||
-| `SlotSystem::ConvertSlotToGridColumn()` | Return the column index from a slot. ||
-| `SlotSystem::ConvertSlotToGridRow()` | Return the row index from a slot. ||
-| `SlotSystem::FilledNamedSlots()` | Return the amount of filled named slots of a space. ||
-| `SlotSystem::FilledSlots()` | Return the amount of filled slots of a space. ||
-| `SlotSystem::FirstEmptySlot()` | Return First empty slot. Set to -1 if no slot is found. ||
-| `SlotSystem::FirstItemSlot()` | Return First slot containing a specific item. Set to -1 if no slot is found. ||
-| `SlotSystem::FirstItemSlotAvailable()` | Return First slot containing a specific item that is not full. Set to -1 if no slot is found. ||
-| `SlotSystem::GridItemName()` | Return the item at grid postion. ||
-| `SlotSystem::GridSlotCount()` | Return the grid slot count of a space. ||
-| `SlotSystem::GridSlotMax()` | Return the grid slot max count, or 0 if unlimited. ||
-| `SlotSystem::NamedSlotCount()` | Return the named slot count of a space. ||
-| `SlotSystem::NamedSlotItemName()` | Return the item name of a slot. ||
-| `SlotSystem::NamedSlotMax()` | Return the named slot max count, or 0 if unlimited. ||
-| `SlotSystem::NamedSlotPropertyCount()` | Return the property count of a space. ||
-| `SlotSystem::NumberOfGridSlotProperty()` | Return the number property of a grid slot. ||
-| `SlotSystem::NumberOfNamedSlotProperty()` | Return the number property of a named slot. ||
-| `SlotSystem::NumberOfSlotProperty()` | Return the number property of a slot. ||
-| `SlotSystem::RemainingNamedSlots()` | Return the remaining named slots of a space. ||
-| `SlotSystem::RemainingSlots()` | Return the remaining slots of a space. ||
-| `SlotSystem::SlotCount()` | Return the slot count of a space. ||
-| `SlotSystem::SlotItemName()` | Return the item name of a slot. ||
-| `SlotSystem::SlotMax()` | Return the slot max count, or 0 if unlimited. ||
-| `SlotSystem::SlotPropertyCount()` | Return the property count of a space. ||
-| `SlotSystem::SpaceGridHeight()` | Return the space grid height. ||
-| `SlotSystem::SpaceGridWidth()` | Return the space grid width. ||
-| `SlotSystem::SpaceNamedSlotSize()` | Return how many slots the space has. ||
-| `SlotSystem::SpaceSlotSize()` | Return how many slots the space has. ||
-| `SlotSystem::SumNamedSlotProperty()` | Return Sum all the values of a slot property. ||
-| `SlotSystem::SumSlotProperty()` | Return Sum all the values of a slot property. ||
-| `SlotSystem::TextOfGridSlotProperty()` | Return the text property of a grid slot. ||
-| `SlotSystem::TextOfNamedSlotProperty()` | Return the text property of a named slot. ||
-| `SlotSystem::TextOfSlotProperty()` | Return the text property of a slot. ||
-| `SlotSystem::ToJSON()` | Convert a complete space to JSON format. ||
+| `SlotSystem::ConvertGridPositionToSlot(string, number, number)` | Return a slot index of a grid position. ||
+| | _🔤 Name (String)_ | Space name |
+| | _🔢 Number_ | Column index |
+| | _🔢 Number_ | Row index |
+| `SlotSystem::ConvertSlotToGridColumn(string, number)` | Return the column index from a slot. ||
+| | _🔤 Name (String)_ | Space name |
+| | _🔢 Number_ | Slot |
+| `SlotSystem::ConvertSlotToGridRow(string, number)` | Return the row index from a slot. ||
+| | _🔤 Name (String)_ | Space name |
+| | _🔢 Number_ | Slot |
+| `SlotSystem::FilledNamedSlots(string)` | Return the amount of filled named slots of a space. ||
+| | _🔤 Name (String)_ | Space name |
+| `SlotSystem::FilledSlots(string)` | Return the amount of filled slots of a space. ||
+| | _🔤 Name (String)_ | Space name |
+| `SlotSystem::FirstEmptySlot(string)` | Return First empty slot. Set to -1 if no slot is found. ||
+| | _🔤 Name (String)_ | Space name |
+| `SlotSystem::FirstItemSlot(string, string)` | Return First slot containing a specific item. Set to -1 if no slot is found. ||
+| | _🔤 Name (String)_ | Space name |
+| | _🔤 Name (String)_ | Item |
+| `SlotSystem::FirstItemSlotAvailable(string, string)` | Return First slot containing a specific item that is not full. Set to -1 if no slot is found. ||
+| | _🔤 Name (String)_ | Space name |
+| | _🔤 Name (String)_ | Item |
+| `SlotSystem::GridItemName(string, number, number)` | Return the item at grid postion. ||
+| | _🔤 Name (String)_ | Space name |
+| | _🔢 Number_ | Column index |
+| | _🔢 Number_ | Row index |
+| `SlotSystem::GridSlotCount(string, number, number)` | Return the grid slot count of a space. ||
+| | _🔤 Name (String)_ | Space name |
+| | _🔢 Number_ | Column index |
+| | _🔢 Number_ | Row index |
+| `SlotSystem::GridSlotMax(string, number, number)` | Return the grid slot max count, or 0 if unlimited. ||
+| | _🔤 Name (String)_ | Space name |
+| | _🔢 Number_ | Column index |
+| | _🔢 Number_ | Row index |
+| `SlotSystem::NamedSlotCount(string, string)` | Return the named slot count of a space. ||
+| | _🔤 Name (String)_ | Space name |
+| | _🔤 Name (String)_ | Slot name |
+| `SlotSystem::NamedSlotItemName(string, string)` | Return the item name of a slot. ||
+| | _🔤 Name (String)_ | Space name |
+| | _🔤 Name (String)_ | Slot name |
+| `SlotSystem::NamedSlotMax(string, string)` | Return the named slot max count, or 0 if unlimited. ||
+| | _🔤 Name (String)_ | Space name |
+| | _🔤 Name (String)_ | Slot name |
+| `SlotSystem::NamedSlotPropertyCount(string, string)` | Return the property count of a space. ||
+| | _🔤 Name (String)_ | Space name |
+| | _🔤 Name (String)_ | Property name |
+| `SlotSystem::NumberOfGridSlotProperty(string, number, number, string)` | Return the number property of a grid slot. ||
+| | _🔤 Name (String)_ | Space name |
+| | _🔢 Number_ | Column index |
+| | _🔢 Number_ | Row index |
+| | _🔤 Name (String)_ | Property name |
+| `SlotSystem::NumberOfNamedSlotProperty(string, string, string)` | Return the number property of a named slot. ||
+| | _🔤 Name (String)_ | Space name |
+| | _🔤 Name (String)_ | Slot name |
+| | _🔤 Name (String)_ | Property name |
+| `SlotSystem::NumberOfSlotProperty(string, number, string)` | Return the number property of a slot. ||
+| | _🔤 Name (String)_ | Space name |
+| | _🔢 Number_ | Slot |
+| | _🔤 Name (String)_ | Property name |
+| `SlotSystem::RemainingNamedSlots(string)` | Return the remaining named slots of a space. ||
+| | _🔤 Name (String)_ | Space name |
+| `SlotSystem::RemainingSlots(string)` | Return the remaining slots of a space. ||
+| | _🔤 Name (String)_ | Space name |
+| `SlotSystem::SlotCount(string, number)` | Return the slot count of a space. ||
+| | _🔤 Name (String)_ | Space name |
+| | _🔢 Number_ | Slot |
+| `SlotSystem::SlotItemName(string, number)` | Return the item name of a slot. ||
+| | _🔤 Name (String)_ | Space name |
+| | _🔢 Number_ | Slot |
+| `SlotSystem::SlotMax(string, number)` | Return the slot max count, or 0 if unlimited. ||
+| | _🔤 Name (String)_ | Space name |
+| | _🔢 Number_ | Slot |
+| `SlotSystem::SlotPropertyCount(string, string)` | Return the property count of a space. ||
+| | _🔤 Name (String)_ | Space name |
+| | _🔤 Name (String)_ | Property name |
+| `SlotSystem::SpaceGridHeight(string)` | Return the space grid height. ||
+| | _🔤 Name (String)_ | Space name |
+| `SlotSystem::SpaceGridWidth(string)` | Return the space grid width. ||
+| | _🔤 Name (String)_ | Space name |
+| `SlotSystem::SpaceNamedSlotSize(string)` | Return how many slots the space has. ||
+| | _🔤 Name (String)_ | Space name |
+| `SlotSystem::SpaceSlotSize(string)` | Return how many slots the space has. ||
+| | _🔤 Name (String)_ | Space name |
+| `SlotSystem::SumNamedSlotProperty(string, string)` | Return Sum all the values of a slot property. ||
+| | _🔤 Name (String)_ | Space name |
+| | _🔤 Name (String)_ | Property name |
+| `SlotSystem::SumSlotProperty(string, string)` | Return Sum all the values of a slot property. ||
+| | _🔤 Name (String)_ | Space name |
+| | _🔤 Name (String)_ | Property name |
+| `SlotSystem::TextOfGridSlotProperty(string, number, number, string)` | Return the text property of a grid slot. ||
+| | _🔤 Name (String)_ | Space name |
+| | _🔢 Number_ | Column index |
+| | _🔢 Number_ | Row index |
+| | _🔤 Name (String)_ | Property name |
+| `SlotSystem::TextOfNamedSlotProperty(string, string, string)` | Return the text property of a named slot. ||
+| | _🔤 Name (String)_ | Space name |
+| | _🔤 Name (String)_ | Slot name |
+| | _🔤 Name (String)_ | Property name |
+| `SlotSystem::TextOfSlotProperty(string, number, string)` | Return the text property of a slot. ||
+| | _🔤 Name (String)_ | Space name |
+| | _🔢 Number_ | Slot |
+| | _🔤 Name (String)_ | Property name |
+| `SlotSystem::ToJSON(string)` | Convert a complete space to JSON format. ||
+| | _🔤 Name (String)_ | Space name |
 
 ---
 

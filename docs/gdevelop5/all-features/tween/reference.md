@@ -58,9 +58,15 @@ Check if the scene tween is currently playing.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Tween::Ease()` | Tween between 2 values according to an easing function. ||
-| `Tween::Progress()` | Return the progress of a tween (between 0.0 and 1.0). ||
-| `Tween::Value()` | Return the value of a tween. It is always 0 for tweens with several values. ||
+| `Tween::Ease(string, number, number, number)` | Tween between 2 values according to an easing function. ||
+| | _🔤 String_ | Easing |
+| | _🔢 Number_ | From value |
+| | _🔢 Number_ | To value |
+| | _🔢 Number_ | Weighting From 0 to 1. |
+| `Tween::Progress(string)` | Return the progress of a tween (between 0.0 and 1.0). ||
+| | _🔤 Name (String)_ | Tween Identifier |
+| `Tween::Value(string)` | Return the value of a tween. It is always 0 for tweens with several values. ||
+| | _🔤 Name (String)_ | Tween Identifier |
 
 ## Tween 
 
@@ -161,8 +167,10 @@ Compare the progress of a tween (between 0.0 and 1.0).
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Object.Tween::Progress()` | Return the progress of a tween (between 0.0 and 1.0). ||
-| `Object.Tween::Value()` | Return the value of a tween. It is always 0 for tweens with several values. ||
+| `Object.Tween::Progress(string)` | Return the progress of a tween (between 0.0 and 1.0). ||
+| | _🔤 Name (String)_ | Tween Identifier |
+| `Object.Tween::Value(string)` | Return the value of a tween. It is always 0 for tweens with several values. ||
+| | _🔤 Name (String)_ | Tween Identifier |
 
 ---
 *This page is an auto-generated reference page about the **Tweening** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

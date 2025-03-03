@@ -50,12 +50,15 @@ Check if the file or directory exists.
 | Expression | Description |  |
 |-----|-----|-----|
 | `FileSystem::DesktopPath()` | Get the path to the desktop folder. ||
-| `FileSystem::DirectoryName()` | Returns the portion of the path that represents the directories, without the ending file name. ||
+| `FileSystem::DirectoryName(string)` | Returns the portion of the path that represents the directories, without the ending file name. ||
+| | _string_ | File or folder path |
 | `FileSystem::DocumentsPath()` | Get the path to the documents folder. ||
 | `FileSystem::ExecutableFolderPath()` | Get the path to this game executable folder. ||
 | `FileSystem::ExecutablePath()` | Get the path to this game executable file. ||
-| `FileSystem::ExtensionName()` | Returns the extension of the file designated by the given path, including the extension period. For example: ".txt". ||
-| `FileSystem::FileName()` | Returns the name of the file with its extension, if any. ||
+| `FileSystem::ExtensionName(string)` | Returns the extension of the file designated by the given path, including the extension period. For example: ".txt". ||
+| | _string_ | File path |
+| `FileSystem::FileName(string)` | Returns the name of the file with its extension, if any. ||
+| | _string_ | File path |
 | `FileSystem::PathDelimiter()` | Get the operating system path delimiter. ||
 | `FileSystem::PicturesPath()` | Get the path to the pictures folder. ||
 | `FileSystem::TempPath()` | Get the path to temp folder. ||

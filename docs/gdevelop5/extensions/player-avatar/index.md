@@ -16,7 +16,8 @@ An object that displays a player avatar according to their GDevelop account. It 
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `PlayerAvatar::UserID()` | Return the UserID from a lobby player number. ||
+| `PlayerAvatar::UserID(number)` | Return the UserID from a lobby player number. ||
+| | _🔢 Number_ | Lobby player number |
 
 ## Multiplayer Avatar 
 

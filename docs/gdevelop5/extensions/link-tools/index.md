@@ -50,7 +50,8 @@ Can reach through a given cost sum.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `LinkTools::CostSum()` | Cost sum. ||
+| `LinkTools::CostSum(object)` | Cost sum. ||
+| | _👾 Object_ | Object |
 
 ## Link path finding 
 
@@ -120,8 +121,10 @@ Compare the maximum speed of the object.
 | `Object.LinkPathFinding::NextNodeX()` | Next waypoint X position. ||
 | `Object.LinkPathFinding::NextNodeY()` | Next waypoint Y position. ||
 | `Object.LinkPathFinding::NodeCount()` | Get the number of waypoints on the path. ||
-| `Object.LinkPathFinding::NodeX()` | Waypoint X position. ||
-| `Object.LinkPathFinding::NodeY()` | Waypoint X position. ||
+| `Object.LinkPathFinding::NodeX(number)` | Waypoint X position. ||
+| | _🔢 Number_ | Waypoint index |
+| `Object.LinkPathFinding::NodeY(number)` | Waypoint X position. ||
+| | _🔢 Number_ | Waypoint index |
 | `Object.LinkPathFinding::RotationSpeed()` | Return the rotation speed of the object. ||
 | `Object.LinkPathFinding::Speed()` | Speed of the object on the path. ||
 | `Object.LinkPathFinding::SpeedMax()` | Return the maximum speed of the object. ||

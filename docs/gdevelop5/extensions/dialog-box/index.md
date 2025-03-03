@@ -107,7 +107,8 @@ Text in the Dialog Box is typing.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Object.DialogBoxBackGround::ChangeCounter()` | Return the number of times the Text in the Dialog Box has changed. ||
+| `Object.DialogBoxBackGround::ChangeCounter(number)` | Return the number of times the Text in the Dialog Box has changed. ||
+| | _🔢 Number_ | Number (0-based) |
 
 ---
 

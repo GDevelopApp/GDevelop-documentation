@@ -14,13 +14,21 @@ Parse a JSON object and store it into a variable
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `LargeNumberToString()` | Convert the result of the expression to text, without using the scientific notation ||
-| `ObjectVarToJSON()` | Convert an object variable to JSON ||
-| `ToDeg()` | Converts the angle, expressed in radians, into degrees ||
-| `ToJSON()` | Convert a variable to JSON ||
-| `ToNumber()` | Convert the text to a number ||
-| `ToRad()` | Converts the angle, expressed in degrees, into radians ||
-| `ToString()` | Convert the result of the expression to text ||
+| `LargeNumberToString(number)` | Convert the result of the expression to text, without using the scientific notation ||
+| | _🔢 Number_ | Expression to be converted to text |
+| `ObjectVarToJSON(object, object variable)` | Convert an object variable to JSON ||
+| | _👾 Object_ | The object with the variable |
+| | _🗄️ Object variable_ | The object variable to be stringified |
+| `ToDeg(number)` | Converts the angle, expressed in radians, into degrees ||
+| | _🔢 Number_ | Angle, in radians |
+| `ToJSON(variable)` | Convert a variable to JSON ||
+| | _🗄️ Any variable_ | The variable to be stringified |
+| `ToNumber(string)` | Convert the text to a number ||
+| | _string_ | Text to convert to a number |
+| `ToRad(number)` | Converts the angle, expressed in degrees, into radians ||
+| | _🔢 Number_ | Angle, in degrees |
+| `ToString(number)` | Convert the result of the expression to text ||
+| | _🔢 Number_ | Expression to be converted to text |
 
 ---
 *This page is an auto-generated reference page about the **Conversion** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

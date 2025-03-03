@@ -375,8 +375,11 @@ On Visibility State Changed.
 | Expression | Description |  |
 |-----|-----|-----|
 | `PlaygamaBridge::AchievementPropertiesCount()` | Achievement Properties Count. ||
-| `PlaygamaBridge::AchievementPropertyName()` | Achievement Property Name. ||
-| `PlaygamaBridge::AchievementPropertyValue()` | Achievement Property Value. ||
+| `PlaygamaBridge::AchievementPropertyName(number)` | Achievement Property Name. ||
+| | _🔢 Number_ | Property Index |
+| `PlaygamaBridge::AchievementPropertyValue(number, string)` | Achievement Property Value. ||
+| | _🔢 Number_ | Achievement Index |
+| | _string_ | Property |
 | `PlaygamaBridge::AchievementsCount()` | Achievements Count. ||
 | `PlaygamaBridge::BannerState()` | Banner State. ||
 | `PlaygamaBridge::DefaultStorageType()` | Default Storage Type. ||
@@ -384,20 +387,31 @@ On Visibility State Changed.
 | `PlaygamaBridge::InterstitialState()` | Interstitial State. ||
 | `PlaygamaBridge::LeaderboardEntriesCount()` | Leaderboard Entries Count. ||
 | `PlaygamaBridge::LeaderboardEntryPropertiesCount()` | Leaderboard Entry Properties Count. ||
-| `PlaygamaBridge::LeaderboardEntryPropertyName()` | Leaderboard Entry Property Name. ||
-| `PlaygamaBridge::LeaderboardEntryPropertyValue()` | Leaderboard Entry Property Value. ||
+| `PlaygamaBridge::LeaderboardEntryPropertyName(number)` | Leaderboard Entry Property Name. ||
+| | _🔢 Number_ | Property Index |
+| `PlaygamaBridge::LeaderboardEntryPropertyValue(number, string)` | Leaderboard Entry Property Value. ||
+| | _🔢 Number_ | Entry Index |
+| | _string_ | Property |
 | `PlaygamaBridge::LeaderboardPlayerScore()` | Leaderboard Player Score. ||
 | `PlaygamaBridge::MinimumDelayBetweenInterstitial()` | Minimum Delay Between Interstitial. ||
 | `PlaygamaBridge::PaymentsCatalogItemPropertiesCount()` | Payments Catalog Item Properties Count. ||
-| `PlaygamaBridge::PaymentsCatalogItemPropertyName()` | Payments Catalog Item Property Name. ||
-| `PlaygamaBridge::PaymentsCatalogItemPropertyValue()` | Payments Last Purchase Property Value. ||
+| `PlaygamaBridge::PaymentsCatalogItemPropertyName(number)` | Payments Catalog Item Property Name. ||
+| | _🔢 Number_ | Property Index |
+| `PlaygamaBridge::PaymentsCatalogItemPropertyValue(number, string)` | Payments Last Purchase Property Value. ||
+| | _🔢 Number_ | Product Index |
+| | _string_ | Property |
 | `PlaygamaBridge::PaymentsCatalogItemsCount()` | Payments Catalog Items Count. ||
 | `PlaygamaBridge::PaymentsLastPurchasePropertiesCount()` | Payments Last Purchase Properties Count. ||
-| `PlaygamaBridge::PaymentsLastPurchasePropertyName()` | Payments Last Purchase Property Name. ||
-| `PlaygamaBridge::PaymentsLastPurchasePropertyValue()` | Payments Last Purchase Property Value. ||
+| `PlaygamaBridge::PaymentsLastPurchasePropertyName(number)` | Payments Last Purchase Property Name. ||
+| | _🔢 Number_ | Property Index |
+| `PlaygamaBridge::PaymentsLastPurchasePropertyValue(string)` | Payments Last Purchase Property Value. ||
+| | _string_ | Property |
 | `PlaygamaBridge::PaymentsPurchasePropertiesCount()` | Payments Purchase Properties Count. ||
-| `PlaygamaBridge::PaymentsPurchasePropertyName()` | Payments Purchase Property Name. ||
-| `PlaygamaBridge::PaymentsPurchasePropertyValue()` | Payments Last Purchase Property Value. ||
+| `PlaygamaBridge::PaymentsPurchasePropertyName(number)` | Payments Purchase Property Name. ||
+| | _🔢 Number_ | Property Index |
+| `PlaygamaBridge::PaymentsPurchasePropertyValue(number, string)` | Payments Last Purchase Property Value. ||
+| | _🔢 Number_ | Purchase Index |
+| | _string_ | Property |
 | `PlaygamaBridge::PaymentsPurchasesCount()` | Payments Purchases Count. ||
 | `PlaygamaBridge::PlatformId()` | Platform Id. ||
 | `PlaygamaBridge::PlatformLanguage()` | Platform Language. ||
@@ -405,13 +419,17 @@ On Visibility State Changed.
 | `PlaygamaBridge::PlatformTld()` | Platform Tld. ||
 | `PlaygamaBridge::PlayerId()` | Player Id. ||
 | `PlaygamaBridge::PlayerName()` | Player Name. ||
-| `PlaygamaBridge::PlayerPhoto()` | Player Photo # _PARAM1_. ||
+| `PlaygamaBridge::PlayerPhoto(number)` | Player Photo # _PARAM1_. ||
+| | _🔢 Number_ | Index |
 | `PlaygamaBridge::PlayerPhotosCount()` | Player Photos Count. ||
-| `PlaygamaBridge::RemoteConfigValue()` | Remote Config Value. ||
+| `PlaygamaBridge::RemoteConfigValue(string)` | Remote Config Value. ||
+| | _string_ | Key |
 | `PlaygamaBridge::RewardedState()` | Rewarded State. ||
 | `PlaygamaBridge::ServerTime()` | Server Time. ||
-| `PlaygamaBridge::StorageDataKey()` | Storage Data Key. ||
-| `PlaygamaBridge::StorageDataKeyAsJSON()` | Storage Data Key As JSON. ||
+| `PlaygamaBridge::StorageDataKey(string)` | Storage Data Key. ||
+| | _string_ | Key |
+| `PlaygamaBridge::StorageDataKeyAsJSON(string)` | Storage Data Key As JSON. ||
+| | _string_ | Key |
 | `PlaygamaBridge::VisibilityState()` | Visibility State. ||
 
 ---

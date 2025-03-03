@@ -45,10 +45,18 @@ Compare the force of multitouch contoller stick (from 0 to 1).
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `SpriteMultitouchJoystick::StickAngle()` | Return the angle the multitouch controller stick is pointing towards (Range: -180 to 180). ||
-| `SpriteMultitouchJoystick::StickForce()` | Return the force of multitouch contoller stick (from 0 to 1). ||
-| `SpriteMultitouchJoystick::StickForceX()` | Return the multitouch contoller stick force on X axis (from -1 at the left to 1 at the right). ||
-| `SpriteMultitouchJoystick::StickForceY()` | Return the multitouch contoller stick force on Y axis (from -1 at the top to 1 at the bottom). ||
+| `SpriteMultitouchJoystick::StickAngle(number, string)` | Return the angle the multitouch controller stick is pointing towards (Range: -180 to 180). ||
+| | _🔢 Number_ | Multitouch controller identifier (1, 2, 3, 4...) |
+| | _🔤 String_ | Joystick name |
+| `SpriteMultitouchJoystick::StickForce(number, string)` | Return the force of multitouch contoller stick (from 0 to 1). ||
+| | _🔢 Number_ | Multitouch controller identifier (1, 2, 3, 4...) |
+| | _🔤 String_ | Stick name |
+| `SpriteMultitouchJoystick::StickForceX(number, string)` | Return the multitouch contoller stick force on X axis (from -1 at the left to 1 at the right). ||
+| | _🔢 Number_ | Multitouch controller identifier (1, 2, 3, 4...) |
+| | _🔤 String_ | Joystick name |
+| `SpriteMultitouchJoystick::StickForceY(number, string)` | Return the multitouch contoller stick force on Y axis (from -1 at the top to 1 at the bottom). ||
+| | _🔢 Number_ | Multitouch controller identifier (1, 2, 3, 4...) |
+| | _🔤 String_ | Joystick name |
 
 ## Multitouch Joystick 
 

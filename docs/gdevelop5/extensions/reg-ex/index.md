@@ -41,8 +41,15 @@ Checks if a string matches a regex pattern.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `RegEx::Find()` | Finds a regex pattern in a string, and returns the index of the position of the match, or -1 if it doesn't match the pattern. ||
-| `RegEx::Replace()` | Replaces a part of a string that matches a regex pattern with another string. ||
+| `RegEx::Find(string, string, string)` | Finds a regex pattern in a string, and returns the index of the position of the match, or -1 if it doesn't match the pattern. ||
+| | _string_ | Pattern |
+| | _string_ | RegEx flags |
+| | _string_ | String |
+| `RegEx::Replace(string, string, string, string)` | Replaces a part of a string that matches a regex pattern with another string. ||
+| | _string_ | The pattern to check for |
+| | _string_ | RegEx flags |
+| | _string_ | The string to search for pattern matches in |
+| | _string_ | The string to replace the matching patterns with |
 
 ---
 

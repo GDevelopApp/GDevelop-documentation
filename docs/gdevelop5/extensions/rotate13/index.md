@@ -30,7 +30,8 @@ This can be used for basic secrets, passwords, or very insecure encryption of da
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Rotate13::rot13()` | Rotate String _PARAM1_  13 Characters. ||
+| `Rotate13::rot13(string)` | Rotate String _PARAM1_  13 Characters. ||
+| | _string_ | String to Rotate |
 
 ---
 

@@ -29,8 +29,12 @@ Compare y position of spine point attachment.
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.Animation()` | Return the duration of the smooth transition between 2 animations (in second). ||
-| `Object.PointAttachmentX()` | Return x position of spine point attachment. ||
-| `Object.PointAttachmentY()` | Return y position of spine point attachment. ||
+| `Object.PointAttachmentX(string, string)` | Return x position of spine point attachment. ||
+| | _string_ | Attachment name |
+| | _string_ | Slot name (use "" if names are the same) |
+| `Object.PointAttachmentY(string, string)` | Return y position of spine point attachment. ||
+| | _string_ | Attachment name |
+| | _string_ | Slot name (use "" if names are the same) |
 
 ---
 *This page is an auto-generated reference page about the **Spine (experimental)** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

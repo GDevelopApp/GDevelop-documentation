@@ -113,7 +113,8 @@ Check if the slider interations are enabled.
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.DraggableSliderControl::ThumbHeight()` | Height of thumb. ||
-| `Object.DraggableSliderControl::TickSpacing()` | The tick spacing of a slider. ||
+| `Object.DraggableSliderControl::TickSpacing(number)` | The tick spacing of a slider. ||
+| | _🔢 Number_ | Tick spacing |
 | `Object.DraggableSliderControl::TrackLength()` | Length of track. ||
 | `Object.DraggableSliderControl::TrackThickness()` | Thickness of track. ||
 | `Object.DraggableSliderControl::Value()` | The value of the slider (based on position of the thumb). ||
