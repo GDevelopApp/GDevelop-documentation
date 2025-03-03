@@ -12,14 +12,17 @@ The *Profiler* is a tool that measures the time spent on different aspects of yo
 
     This is an advanced feature of GDevelop. If you use it, we would like you to show your support for GDevelop by [getting a subscription](/gdevelop5/interface/profile)!
 
+![](pasted/20230304-171835.png)
 
-![](/gdevelop5/interface/debugger/pasted/20230304-171835.png)
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/8krGoBuQpBI" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Launch the debugger
 
 To launch the debugger, in the toolbar of a scene editor, click on the arrow beside the preview button to bring up a drop-down menu. In that menu, choose "Preview with debugger and performance profiler".
 
-![](/gdevelop5/interface/debugger/pasted/20230314-003437.png)
+![](pasted/20230314-003437.png)
 
 This will open a new tab called "Debugger" and will also launch a preview of your game as usual.
 
@@ -27,15 +30,15 @@ Note that even if you close the preview, you can let the debugger tab stay unclo
 
 When the game is first launched, the debugger is empty:
 
-![](/gdevelop5/interface/debugger/pasted/20230304-172007.png)
+![](pasted/20230304-172007.png)
 
 Click on **"Refresh"** at any time to fetch the data of the game:
 
-![](/gdevelop5/interface/debugger/pasted/20230314-003719.png)
+![](pasted/20230314-003719.png)
 
 You can also use the **Pause** button in the toolbar:
 
-![](/gdevelop5/interface/debugger/pasted/20230314-003327.png)
+![](pasted/20230314-003327.png)
 
 ## Inspect the scenes of the game
 
@@ -47,7 +50,7 @@ If you click on the name of a scene, it will be displayed in the inspector on th
 To create a new instance, click on the name of the scene where you want to create the instance.
 Write the name of the object and click on Create:
 
-![](/gdevelop5/interface/debugger-create-instance.gif)
+![](debugger-create-instance.gif)
 
 The instance will be created at position 0;0, on the base layer with a Z-order of 0.
 You can then find it in the list of instances and change its position, angle, layer, etc.
@@ -57,11 +60,11 @@ You can then find it in the list of instances and change its position, angle, la
 In the list, you can find **Instances** of every running scene.
 Instances are grouped by objects name. Click on an object name to see the list of instances of this object living on the scene. Click on an instance number (each instance has a unique number) to inspect it:
 
-![](/gdevelop5/interface/debugger/pasted/20230304-172210.png)
+![](pasted/20230304-172210.png)
 
 The inspector shows general properties of the instance, for example, position, angle, layer, etc. For each of these properties, you can **edit them by clicking on the value**:
 
-![](/gdevelop5/interface/debugger-edit-instance-properties.gif)
+![](debugger-edit-instance-properties.gif)
 
 Validate your changes by clicking on the small **validate button** (the one with the tick icon).
 
@@ -74,7 +77,7 @@ You can inspect variables of the game (global variables), of a scene (scene vari
 To do this, in the list, click on **Global Variables**, **Scene variables**, or the instance number that you want to inspect.
 
 Variables will be shown in a list showing variable names and values (either a number or a text). Here is an example of an instance of an object having a "Life" variable:
-![](/gdevelop5/interface/instance-variables.png)
+![](instance-variables.png)
 
 Like other fields, you can **click on the value of the variable** to change it. It's a good way to see how your game is behaving according to the value of variables and test that your events are working properly.
 
@@ -82,7 +85,7 @@ Variables can also be **structures**, meaning that they hold other variables. In
 
 
 Here is an example of a variable named "Options", containing children variables to store the options of a game:
-![](/gdevelop5/interface/structure-variable-inspector.png)
+![](structure-variable-inspector.png)
 
 You can also change the value of the children variables like any other.
 
