@@ -126,10 +126,3 @@ List of websites where you can find sprites, music, sound effects for your games
   * [XnConvert](https://www.xnview.com/en/xnconvert/) (Free - batch image converter)
   * [Converseen](http://converseen.fasterland.net/) (Free - batch image converter)
   * [RIOT Image](https://riot-optimizer.com/) (Free Image compressor optimizer)
-
-## JavaScript libraries
-
-  * [ResponsiveVoice](https://responsivevoice.org/) (Text to Speech synthesiser)
-  * [PlayerIO](https://playerio.com/) (Online Multiplayer Service)
-  * [WOW Scores](https://wowscores.com/) (Leaderboards API for GDevelop 5)
-  * [Crimson Games IO](https://www.crimsongames.io/) (Game Publisher & Leaderboards API)
