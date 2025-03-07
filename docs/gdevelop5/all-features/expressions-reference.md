@@ -136,30 +136,6 @@ Actions, conditions and expressions to handle variables, from simple variables l
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `GlobalVariable(global variable)` | Number value of a global variable ||
-| | _🗄️ Global variable_ | Name of the global variable |
-| `GlobalVariableChildCount(global variable)` | Number of children in a global array or structure variable ||
-| | _🗄️ Global variable_ | Array or structure variable |
-| `GlobalVariableFirstNumber(global variable)` | Value of the first element of a global array variable, if it is a number variable ||
-| | _🗄️ Global variable_ | Array variable |
-| `GlobalVariableFirstString(global variable)` | Value of the first element of a global array variable, if it is a text (string) variable. ||
-| | _🗄️ Global variable_ | Array variable |
-| `GlobalVariableLastNumber(global variable)` | Value of the last element of a global array variable, if it is a number variable ||
-| | _🗄️ Global variable_ | Array variable |
-| `GlobalVariableLastString(global variable)` | Value of the last element of a global array variable, if it is a text (string) variable. ||
-| | _🗄️ Global variable_ | Array variable |
-| `GlobalVariableString(global variable)` | Text of a global variable ||
-| | _🗄️ Global variable_ | Variable |
-| `SceneVariableFirstNumber(scene variable)` | Get the value of the first element of a scene array variable, if it is a number. ||
-| | _🗄️ Scene variable_ | Array variable |
-| `SceneVariableFirstString(scene variable)` | Get the value of the first element of a scene array variable, if it is a text (string). ||
-| | _🗄️ Scene variable_ | Array variable |
-| `SceneVariableLastNumber(scene variable)` | Get the value of the last element of a scene array variable, if it is a number. ||
-| | _🗄️ Scene variable_ | Array variable |
-| `SceneVariableLastString(scene variable)` | Get the value of the last element of a scene array variable, if it is a text (string). ||
-| | _🗄️ Scene variable_ | Array variable |
-| `Variable(scene variable)` | Number value of a scene variable ||
-| | _🗄️ Scene variable_ | Variable |
 | `VariableChildCount(variable)` | Number of children in a scene array or structure variable ||
 | | _🗄️ Any variable_ | Array or structure variable |
 | `VariableFirstNumber(variable)` | Get the value of the first element of an array variable, if it is a number. ||
@@ -170,8 +146,6 @@ Actions, conditions and expressions to handle variables, from simple variables l
 | | _🗄️ Any variable_ | Array variable |
 | `VariableLastString(variable)` | Get the value of the last element of an array variable, if it is a text (string). ||
 | | _🗄️ Any variable_ | Array variable |
-| `VariableString(scene variable)` | Text of a scene variable ||
-| | _🗄️ Scene variable_ | Variable |
 
 ---
 
