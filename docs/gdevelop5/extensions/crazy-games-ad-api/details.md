@@ -7,7 +7,7 @@ This extension allows games to be hosted on the CrazyGames website and display m
 
 !!! note
 
-    Please refer to the [CrazyGames SDK documentation]([https://docs.crazygames.com/sdk/html5/intro/](https://docs.crazygames.com/sdk/intro/)) to learn how to set up compatible environments for games and to get tips about development and testing with their *QA Tool*.
+    Please refer to the [CrazyGames SDK documentation](https://docs.crazygames.com/sdk/intro/) to learn how to set up compatible environments for games and to get tips about development and testing with their *QA Tool*.
 
 ## Try the CrazyGames SDK demo
 
