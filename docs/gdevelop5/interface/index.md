@@ -1,21 +1,21 @@
 ---
-title: GDevelop interface
+العنوان: واجهة تطوير
 ---
-# GDevelop's UI interface
+# واجهة واجهة مستخدم GDevelop
 
-GDevelop's main game creation interface is divided into multiple tabs: the **Home Page** (1) and **Project Editors** (2).
+تنقسم واجهة إنشاء الألعاب الرئيسية في GDevelop إلى علامات تبويب متعددة:  **الصفحة الرئيسية** (1) و **محررو المشاريع.** (2).
 
-![UI-tabs](UI-tabs.png)
+![علامات تبويب UI](UI-tabs.png)
 
 Watch an overview of GDevelop's layout:
 
-<div class="video-container">
+<div. class="video-container">
   <iframe src="https://www.youtube.com/embed/bR2BjT7JG0k" frameborder="0" allowfullscreen></iframe>
-</div>
+</div.>
 
 ## Home Page tab
 
-The **Home Page** appears when you first launch GDevelop. It is composed of multiple sections:
+... **Home Page** appears when you first launch GDevelop. It is composed of multiple sections:
 
  1. Get Started
  2. Create
@@ -27,7 +27,7 @@ The **Home Page** appears when you first launch GDevelop. It is composed of mult
 ![Create-Dashboard-dark](Create-Dashboard-dark.png)
 
 ### 1. Get Started
-The **Get Started** section offers resources and updates tailored for new users. To disable this section on startup, check "Don't show this screen on next startup" at the bottom of the page.
+... **Get Started** section offers resources and updates tailored for new users. To disable this section on startup, check "Don't show this screen on next startup" at the bottom of the page.
 
 ![Home-get-started](Home-get-started.png)
 
