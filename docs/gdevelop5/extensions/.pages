@@ -7,7 +7,6 @@ nav:
         - best-practices.md
         - share-extension.md
     - Ads:
-        - CrazyGames SDK v3: crazy-games-ad-api
         - Mobile In-App Purchase (experimental): in-app-purchase
         - Playgama Bridge: playgama-bridge
         - Poki Games SDK: poki-games-sdkhtml
@@ -116,6 +115,7 @@ nav:
         - Webpage URL tools (Web browser): urltools
         - WebSocket client: web-socket-client
     - Third-party:
+        - CrazyGames SDK v3: crazy-games-ad-api
         - Discord rich presence (Windows, Mac, Linux): discord-rich-presence
     - User interface:
         - Auto typing animation for text ("typewriter" effect): auto-typing
