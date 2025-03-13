@@ -3,7 +3,7 @@ title: Project Manager
 ---
 # Project Manager
 
-When a project is opened, you can click on the top-left button on the toolbar to access the project manager.
+When a project is opened, you can click on the top-left 3 line button on the toolbar to access the project manager.
 
 ![](/gdevelop5/interface/project-manager/pasted/20230309-185213.png)
 
