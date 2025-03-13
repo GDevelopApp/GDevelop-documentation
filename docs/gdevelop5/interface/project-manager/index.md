@@ -5,7 +5,7 @@ title: Project Manager
 
 When a project is opened, you can click on the top-left 3 line button on the toolbar to access the project manager.
 
-![](Project-editor-closed.png.png)
+![](Project-editor-closed.png)
 
 The project manager shows the structure of your entire game.
 
