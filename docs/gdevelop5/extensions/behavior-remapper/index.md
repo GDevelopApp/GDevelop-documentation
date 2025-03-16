@@ -1,7 +1,7 @@
-# Behavior Remapper
+# Platformer and top-down remapper
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/alpha-w-box-outline.svg" class="extension-icon"></img>
-Quickly remap Behavior controls to different keys. 
+Quickly remap keyboard controls.
 
 **Authors and contributors** to this community extension: [Add00](https://gd.games/Add00).
 
@@ -51,9 +51,9 @@ Actions have two versions. `custom` allow the movement keys to be changed to wha
 
 
 
-## Remap Platformer controls 
+## Platformer keyboard mapper 
 
-Allows for the controls of a platformer behavior to be re-mapped via a single action. 
+Remap keyboard controls of the platformer character movement. 
 
 ### Behavior actions
 
@@ -66,9 +66,9 @@ Remaps Platformer behavior controls to a preset control scheme.
 _No expressions for this behavior._
 
 
-## Remap Top-down 
+## Top-down keyboard remapper 
 
-Allows for the controls of a Top-Down behavior to be re-mapped via a single action. 
+Remap keyboard controls of the top-down movement. 
 
 ### Behavior actions
 
@@ -83,4 +83,4 @@ _No expressions for this behavior._
 
 ---
 
-*This page is an auto-generated reference page about the **Behavior Remapper** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Platformer and top-down remapper** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

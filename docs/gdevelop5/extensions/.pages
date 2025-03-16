@@ -64,9 +64,9 @@ nav:
         - Repeat every X seconds: repeat-every-xseconds
     - Input:
         - Back button: back-button
-        - Behavior Remapper: behavior-remapper
+        - Platformer and top-down remapper: behavior-remapper
         - Cursor movement conditions: cursor-movement
-        - Double-click: double-click
+        - Double-click and tap: double-click
         - Gamepads (controllers): gamepads
         - Konami Code: konami-code
         - Cursor object: mouse-helper
