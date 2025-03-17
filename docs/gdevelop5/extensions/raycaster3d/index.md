@@ -34,6 +34,9 @@ Sends a ray from the given source position to the final point, intersecting the 
 **Raycast from camera center**  
 Sends a ray from the center of the camera, intersecting the closest object. The intersected object will become the only one taken into account.
 
+**Raycast from cursor**  
+Sends a ray from the cursor on the camera screen, intersecting the closest object. The intersected object will become the only one taken into account.
+
 **Raycast from a camera point**  
 Sends a ray from the given source point on the camera screen, intersecting the closest object. The intersected object will become the only one taken into account.
 

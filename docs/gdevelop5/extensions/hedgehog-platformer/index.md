@@ -252,6 +252,9 @@ Simulate a press of the Spindash key when the character is crouching or the jump
 
 ### Behavior conditions
 
+**Started a spindash**  
+Check if the character has just started a spindash.
+
 **Is charging a spindash**  
 Check if the character is charging a spindash.
 
