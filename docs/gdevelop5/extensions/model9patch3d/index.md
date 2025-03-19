@@ -1,7 +1,7 @@
 # 3D model 9-patch
 
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/ff2624a18972ac70bedc9ef990d9ddbc894c3a7b6e46a75ace8e9572c9aa5a50_select-group.svg" class="extension-icon"></img>
-3D plaforms and walls.
+3D platforms and walls.
 
 **Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).
 
@@ -14,7 +14,7 @@
 
 ---
 
-3D plaforms and walls that resize as 9-patch. Corners don't stretch and sides can be tiled.
+3D platforms and walls that resize as 9-patch. Corners don't stretch and sides can be tiled.
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
