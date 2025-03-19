@@ -68,7 +68,11 @@ Breaking change update:
 
 ### Write descriptions
 
-All of the descriptions, names, and sentences should be filled out. They should be all grammatically correct and serious-sounding full English sentences.
+All descriptions, names, and sentences should be filled out. They should be:
+- Grammatically correct
+- Full English sentences
+- To the point
+- Simple to understand (you should avoid jargon)
 
 #### Write extension descriptions
 
@@ -76,7 +80,9 @@ The short description should describe your extension in a short (one or two sent
 For the extension long description, Markdown syntax can be used.
 
 - Backticks should be surrounding expression names so that they appear in a monospaced font.
-- The description should include a list of functionality added by your extension.
+- The description should include a list of what can be done with your extension.
+  - Avoid to list your actions, give real life use-cases
+  - Feel free to submit examples to show how to do these use-cases
 - If your extension needs a special setup to work, it should be described.
 - You can also add screenshots, by uploading an image to a site and using the markdown image syntax to include the image, for example:
 
@@ -90,7 +96,7 @@ An extension should have tags describing what it does. For example, an extension
 .
 ### Link a documentation
 
-The Help URL should always point to a piece of documentation, preferably on the GDevelop wiki. It should not point to the author's website or the extension's website. It is not necessary to have a help URL for submitting an extension, but it is strongly recommended.
+Extensions are usually documented thanks to their actions, conditions and expressions descriptions. Sometimes, users need to understand more general concepts to be able to use the extension. In this case, you can add a comment with the content of the documentation to your extension submission. The [marching squares](/gdevelop5/extensions/marching-squares/details) extension is a good example of an extension that would be hard to understand without a documentation.
 
 ## Describe extension definitions
 
@@ -153,7 +159,11 @@ Be sure to return **the proper value** (return a text for a string expression) -
 
 #### Understand when to use a custom behavior
 
-When an operation with an object needs to be done over more than one frame., you should use a behavior over a function, as they are cleaner and easier to use for users. For example, if you are making a teleport extension that just sets the X and Y once and that's it, you can make it a function. If it is first starting a timer and after a specific time frame changes the position, then the action is not instant anymore but needs to call events over the next frames. If you are using a behavior, this is made invisible thanks to a lifetime behavior function, if you were not using it you would have to force the user to call your function each frame, which is confusing and inconvenient for the user as an action is supposed to serve it's purpose immediately the moment you tell it to.
+You should consider making a custom behavior when you need to keep track of a state for each object instance.
+
+!!! tip
+
+    Learn more about [making custom behaviors](/gdevelop5/behaviors/events-based-behaviors/).
 
 ## Write events in the extension
 
@@ -163,16 +173,18 @@ When an operation with an object needs to be done over more than one frame., you
   * Use a descriptive name
     * Bad example: `x`, `ComCan2`, `MyVar`
     * Good example: `CommunicationChannel2`, `TemporaryObjectName`
-  * Store variables in a structure variable.  This simply means that you name all of your variables using the `__ExtensionName.VariableName` format.
-  * For example, a "Camera zoom" extension would use the prefix `__CameraZoom`.  If you want to use a variable named "ZoomValue", it should be named like this:
+
+Extension users should only be using an extension through conditions, actions, and expressions provided by the extension developer. They should not be expected to access extension variables directly.
+
+### Name object variables
+
+- store variables in a structure variable.  This simply means that you name all of your variables using the `__ExtensionName.VariableName` format.
+- For example, a "Camera zoom" extension would use the prefix `__CameraZoom`.  If you want to use a variable named "ZoomValue", it should be named like this:
 
 >
 > `__CameraZoom.ZoomValue`
 
-
-This naming convention has several benefits.  First, it will make it easier to use the debugger because all extension variables will be collapsed under their extension name.  Secondly, it will reduce the chance of name collisions with variables created by the game developer.
-
-On a related topic, extension users should only be using an extension through conditions, actions, and expressions provided by the extension developer. They should not be expected to access extension variables directly.
+This naming convention has several benefits.  First, it will make it easier to use the debugger because all extension variables will be collapsed under their extension name. Secondly, it will reduce the chance of name collisions with variables created by the game developer.
 
 Hidden properties should be used in behavior events in place of variables. Variables can still be used when child variables must be used.
 
@@ -199,21 +211,11 @@ If it is really not possible to make the extension work on some platforms, then 
 
 ### JavaScript Usage
 
-JavaScript can be used using [JavaScript Code events](/gdevelop5/events/js-code), but we try to avoid it when making extensions. Extensions are meant to be editable by any GDevelop user, and an extension made in events would stay compatible **if** we were to make a new native non-JavaScript engine. Object picking with normal events is also generally more optimized than most handwritten JavaScript code. For those purposes, we try as much as possible to keep extensions in classic events, with *no JavaScript*.
+JavaScript can be used with [JavaScript Code events](/gdevelop5/events/js-code), but we try to avoid them for the following reasons:
+- Extensions are meant to be editable by any GDevelop user
+- Extensions made in events will stay compatible **if** we were to make a new native non-JavaScript engine.
 
-If you have to store javascript variables/functions, store these on the global `gdjs` object, inside a `namespace` of the same name as your extension. For example, for an extension offering features related to controllers:
-
-```javascript
-gdjs._controllerExtension = {};
-```
-
-```javascript
-gdjs._controllerExtension.myMethod = function (arguments) {
- // ...
-}
-```
-
-That is because `gdjs` is the only guaranteed global object, but you don't want to accidentally override other functions/internals present on that namespace as well.
+If you have to store javascript variables/functions, store them on the global `gdjs` object, inside a `namespace` of the same name as your extension. You can read more about it in the [Use JavaScript in extensions](gdevelop5/events/js-code/javascript-in-extensions) page.
 
 When you declare a new namespace in gdjs, you must declare it in the file:
 ```javascript
