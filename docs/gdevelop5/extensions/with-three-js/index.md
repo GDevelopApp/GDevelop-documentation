@@ -50,6 +50,12 @@ Note that if lights or sounds are included as children, their IDs will also chan
 **👀3D Camera Look At 3D Object**  
 👀3D Camera Look At 3D Object
 
+**💡Change 3D Ambient Light Color**  
+Gradually changes the color of the 3D Ambient Light.
+
+**🏞️Change 3D Background Color**  
+Gradually changes the color of the 3D Background.
+
 **🎥Change 3D Camera FOV**  
 Change the Field Of View of the 3D Camera.
 
@@ -63,6 +69,12 @@ The 3D Camera will not render 3D Objects closer than this distance.
 
 **🎥Change 3D Camera Zoom**  
 🎥Change 3D Camera Zoom
+
+**💡Change 3D Light Color**  
+Gradually changes the color of the 3D Light.
+
+**💡Change 3D Light Intensity**  
+Gradually changes the intensity of the 3D Light.
 
 **🧱Change 3D Texture**  
 Change the 3D Texture of a 3D Object.
@@ -186,10 +198,6 @@ Move a 3D Object on the world axis.
 **🎞️Play 3D Animation**  
 Play 3D animation.  
 If already playing, only the "Animation Speed Scale" and "Loop" properties are updated.
-
-**Play 3D Sound V1 (Deprecated)**  
-Play a 3D Positional Sound.  
-This action is deprecated but is still available. This is because the new action has issues with the editor and is difficult to use.
 
 **🔊Play 3D Sound**  
 Play a 3D Positional Sound.
