@@ -65,7 +65,7 @@ Note that GDevelop can also be extended with extensions: take a look at [the lis
 * [Lights](/gdevelop5/all-features/lighting/reference)
 * [Multiplayer](/gdevelop5/all-features/multiplayer) ([reference](/gdevelop5/all-features/multiplayer/reference))
 * [P2P](/gdevelop5/all-features/p2p) ([reference](/gdevelop5/all-features/p2p/reference))
-* [Physics Engine 2.0](/gdevelop5/behaviors/physics2) ([reference](/gdevelop5/all-features/physics2/reference))
+* [2D Physics Engine](/gdevelop5/behaviors/physics2) ([reference](/gdevelop5/all-features/physics2/reference))
 * [3D physics engine](/gdevelop5/behaviors/physics3d) ([reference](/gdevelop5/all-features/physics3d/reference))
 * [Player Authentication](/gdevelop5/all-features/player-authentication) ([reference](/gdevelop5/all-features/player-authentication/reference))
 * [Screenshot](/gdevelop5/all-features/screenshot) ([reference](/gdevelop5/all-features/screenshot/reference))

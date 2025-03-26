@@ -1,6 +1,6 @@
-# Physics Engine 2.0 Reference
+# 2D Physics Engine Reference
 
-The physics engine simulates realistic object physics, with gravity, forces, joints, etc. It's perfect for games that need to have realistic behaving objects and a gameplay centered around it. [Read more explanations about it.](/gdevelop5/behaviors/physics2)
+The 2D physics engine simulates realistic object physics, with gravity, forces, collisions, joints, etc. It's perfect for 2D games that need to have realistic behaving objects and a gameplay centered around it. [Read more explanations about it.](/gdevelop5/behaviors/physics2)
 
 ## Actions
 
@@ -20,9 +20,9 @@ Check if two objects just stopped colliding at this frame.
 
 
 
-## Physics Engine 2.0 
+## 2D Physics Engine 
 
-Simulate realistic object physics with gravity, forces, joints, etc. 
+Simulate realistic 2D physics for the object including gravity, forces, collisions, and joints. 
 
 ### Behavior actions
 
@@ -493,4 +493,4 @@ Check if a wheel joint motor is enabled.
 | `Object.Physics2::WorldScale()` | Return the world scale. ||
 
 ---
-*This page is an auto-generated reference page about the **Physics Engine 2.0** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **2D Physics Engine** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

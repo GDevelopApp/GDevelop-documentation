@@ -1166,9 +1166,9 @@ Allow game instances to communicate remotely using messages sent via WebRTC (P2P
 
 
 
-## Physics Engine 2.0 
+## 2D Physics Engine 
 
-Simulate realistic object physics with gravity, forces, joints, etc. [Read more explanations about it.](/gdevelop5/behaviors/physics2)
+Simulate realistic 2D physics for the object including gravity, forces, collisions, and joints. [Read more explanations about it.](/gdevelop5/behaviors/physics2)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -1320,7 +1320,7 @@ Simulate realistic object physics with gravity, forces, joints, etc. [Read more 
 
 ## 3D physics engine 
 
-Simulate realistic object physics with gravity, forces, etc. [Read more explanations about it.](/gdevelop5/behaviors/physics3d)
+Simulate realistic 3D physics for this object including gravity, forces, collisions, etc. [Read more explanations about it.](/gdevelop5/behaviors/physics3d)
 
 | Expression | Description |  |
 |-----|-----|-----|

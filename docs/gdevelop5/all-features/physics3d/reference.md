@@ -1,6 +1,6 @@
 # 3D physics engine Reference
 
-The physics engine simulates realistic object physics, with gravity, forces, joints, etc. It's perfect for games that need to have realistic behaving objects and a gameplay centered around it. [Read more explanations about it.](/gdevelop5/behaviors/physics3d)
+The 3D physics engine simulates realistic object physics, with gravity, forces, collisions, joints, etc. It's perfect for almost all 3D games. [Read more explanations about it.](/gdevelop5/behaviors/physics3d)
 
 ## Conditions
 
@@ -20,7 +20,7 @@ Check if a 3D physics character is on a given platform.
 
 ## 3D physics engine 
 
-Simulate realistic object physics with gravity, forces, etc. 
+Simulate realistic 3D physics for this object including gravity, forces, collisions, etc. 
 
 ### Behavior actions
 
