@@ -30,16 +30,22 @@ Change the animation according to the movement direction.
 **Animation name**  
 Change the animation name of the object.
 
-**Scale animation according to speed**  
-Change whether the animation is scaled according to speed or not.
+**Pause animations when objects stop**  
+Change whether animations are paused when objects stop.
+
+**Scale animations according to speed**  
+Change whether animations are scaled according to speed or not.
 
 ### Behavior conditions
 
 **Animation name**  
 Compare the animation name of the object.
 
-**Scale animation according to speed**  
-Check if the animation is scaled according to speed.
+**Pause animations when objects stop**  
+Check if animations are paused when objects stop.
+
+**Scale animations according to speed**  
+Check if animations are scaled according to speed.
 
 ### Behavior expressions
 
