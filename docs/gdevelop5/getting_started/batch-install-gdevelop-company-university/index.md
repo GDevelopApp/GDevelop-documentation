@@ -41,7 +41,7 @@ You should be able to install GDevelop using the provided AppImage or the Flatpa
 
 ## Domains to be allowed for GDevelop app & services to function correctly.
 
-GDevelop requires an internet connection to access services such as: exporting a game, games examples, tutorials, cloud saves etc. See below for a list of domains that need to be whitelisted for the services to work fully.
+GDevelop requires an internet connection to access services such as: exporting a game, games examples, tutorials, cloud saves etc. See below for a list of domains that need to be whitelisted for the services to work fully. Make sure these are accessible especially if you're on a school, university or company computers/network.
 
 ```
 *.gdevelop.io
