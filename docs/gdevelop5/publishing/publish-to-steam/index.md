@@ -38,10 +38,14 @@ You then configure a "Build" that is using the "depots". You can use the web int
 
 ### Issue when uploading a macOS build: how to properly upload your macOS game
 
-There is an issue making the macOS application not working after uploading the macOS zip file (this is because [the Steam web uploader breaks the symlinks](https://github.com/electron-userland/electron-builder/issues/5767#issuecomment-813920169)). This results in a broken app that does not launch and crashes immediately with a message related to `Electron Framework.framework`.
-Instead, you must use the **steamcmd** command line tool to upload your macOS files.
+There is an issue making the macOS application not working after uploading the macOS zip file (this is because [the Steam web uploader breaks the symlinks](https://github.com/electron-userland/electron-builder/issues/5767#issuecomment-813920169)). This results in a **broken app**:
 
-- Start by extracting the macOS zip file somewhere. Use Linux or macOS `unzip` command line tool - Windows will break the "symlinks" when extracting the zip file. Extract the files in a folder called `mac`. You should have a single folder, "Your Game.app" inside this `mac` folder.
+- It does not launch and crashes immediately with a message related to `Electron Framework.framework`. If you click on "Report...", you will see a crash report that refers to `Termination Reason:    Namespace DYLD, Code 1 Library missing` and `Library not loaded: @rpath/Electron Framework.framework/Electron Framework`.
+- Worse, Steam seems to be showing a wrong message indicating that "Your current macOS version is unable to run 32-bit games". This message is misleading as GDevelop games are already built for 64-bit macOS.
+
+To solve this, you must always use the **steamcmd** command line tool to upload your macOS files.
+
+- Start by extracting the macOS zip file somewhere. Use Linux or macOS `unzip` command line tool. **Windows won't work** as it will break the "symlinks" when extracting the zip file. Extract the files in a folder called `mac`. You should have a single folder, "Your Game.app" inside this `mac` folder.
 
     !!! danger
 
