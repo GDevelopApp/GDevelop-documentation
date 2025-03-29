@@ -7,13 +7,13 @@ Actions, conditions and expressions to handle variables, from simple variables l
 **Clear children**  
 Remove all the children from the structure or array variable.
 
-**Add boolean variable**  
+**Add value to array variable**  
 Adds a boolean at the end of an array variable.
 
-**Add variable array value**  
+**Add value to array variable**  
 Adds a number at the end of an array variable.
 
-**Add text variable**  
+**Add value to array variable**  
 Adds a text (string) at the end of a array variable.
 
 **Add existing variable**  
@@ -25,13 +25,13 @@ Removes a variable at the specified index of an array variable.
 **Remove a child**  
 Remove a child from a structure variable.
 
-**Change boolean variable**  
+**Change variable value**  
 Modify the boolean value of a variable.
 
 **Change variable value**  
 Modify the number value of a variable.
 
-**Change text variable**  
+**Change variable value**  
 Modify the text (string) of a variable.
 
 ## Conditions

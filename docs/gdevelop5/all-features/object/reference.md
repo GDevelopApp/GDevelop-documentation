@@ -152,13 +152,13 @@ Remove a child from an object structure variable.
 **Pause an object timer**  
 Pause an object timer.
 
-**Add boolean variable**  
+**Add value to object array variable**  
 Adds a boolean to the end of an object array variable.
 
-**Add variable array value**  
+**Add value to object array variable**  
 Adds a number to the end of an object array variable.
 
-**Add text variable**  
+**Add value to object array variable**  
 Adds a text (string) to the end of an object array variable.
 
 **Delete an object timer**  
@@ -184,7 +184,7 @@ to avoid slowing down the game.
 **Angle**  
 Change the angle of rotation of an object (in degrees).
 
-**Change boolean variable**  
+**Change object variable value**  
 Modify the boolean value of an object variable.
 
 **Center position**  
@@ -199,13 +199,13 @@ Change the Y position of the center of rotation.
 **Include in parent collision mask**  
 Include or exclude a child from its parent collision mask.
 
-**Change variable value**  
+**Change object variable value**  
 Modify the number value of an object variable.
 
 **Change boolean variable**  
 Modify the boolean value of an object variable.
 
-**Change text variable**  
+**Change object variable value**  
 Modify the text of an object variable.
 
 **Toggle boolean variable**  
@@ -226,7 +226,7 @@ Check if an object is not moving
 **Behavior activated**  
 Check if the behavior is activated for the object.
 
-**Boolean variable**  
+**Object variable value**  
 Compare the boolean value of an object variable.
 
 **Bounding box bottom position**  
@@ -265,7 +265,7 @@ Compare the angle of movement of an object according to the forces applied on it
 **Current layer**  
 Check if the object is on the specified layer.
 
-**Variable value**  
+**Object variable value**  
 Compare the number value of an object variable.
 
 **Object timer paused**  
@@ -289,7 +289,7 @@ Compare the X position of the object.
 **Y position**  
 Compare the Y position of an object.
 
-**Text variable**  
+**Object variable value**  
 Compare the text of an object variable.
 
 **Number variable**  
