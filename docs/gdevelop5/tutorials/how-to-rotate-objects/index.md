@@ -17,7 +17,7 @@ An object can be instantly rotated with the **Angle** action. The action needs a
 
 Objects can be rotated at a given speed using the action **Rotate toward position**. Its position parameters can be set to `Object.X()` and `Object.Y()` to turn in the direction of an object.
 
-Object can also be rotated to a given angle with the **Rotate toward angle**. The angle can be `0` to face left, `90` to face down, `180` to face right, `270` to face up or any other value.
+Object can also be rotated to a given angle with the **Rotate toward angle**. The angle can be `0` to face right, `90` to face down, `180` to face left, `270` to face up or any other value.
 
 ![](/gdevelop5/objects/gdevelop_co.png)
 
