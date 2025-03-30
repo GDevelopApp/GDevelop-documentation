@@ -183,7 +183,7 @@ const myPropertyValue = behavior._getMyProperty();
 
 Setters also exist, but you should not need them. Behaviors may have events functions to change its property values but it's easier to implement them with events. If you need to change property values from your JavaScript code, you probably should use JavaScript attributes instead and define expressions to let events access their values.
 
-## Wrap JavaScript renderer libraries in events-based objects
+## Wrap JavaScript rendering libraries in events-based objects
 
 GDevelop use [Pixi.js](https://github.com/pixijs/pixijs) to render 2D and [Three.js](https://github.com/mrdoob/three.js/) to render 3D. Some of these 2 libraries features are not exposed by GDevelop and you may want to do it by warping them into events-based objects.
 
