@@ -183,6 +183,25 @@ const myPropertyValue = behavior._getMyProperty();
 
 Setters also exist, but you should not need them. Behaviors may have events functions to change its property values but it's easier to implement them with events. If you need to change property values from your JavaScript code, you probably should use JavaScript attributes instead and define expressions to let events access their values.
 
+## Wrap JavaScript renderer libraries in events-based objects
+
+GDevelop use [Pixi.js](https://github.com/pixijs/pixijs) to render 2D and [Three.js](https://github.com/mrdoob/three.js/) to render 3D. Some of these 2 libraries features are not exposed by GDevelop and you may want to do it by warping them into events-based objects.
+
+Events-based objects are generated as classes that inherit either:
+- [CustomRuntimeObject2D](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/classes/gdjs.CustomRuntimeObject2D.html)
+- [CustomRuntimeObject3D](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/classes/gdjs.CustomRuntimeObject3D.html)
+
+Custom objects usually rely on their child-objects to do the rendering. You may want to override the [getRenderer](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/classes/gdjs.CustomRuntimeObject.html#getRenderer) method to use your own renderer.
+
+For instance, these 3 extensions expose events-based objects:
+- [3D particle emitter](/gdevelop5/extensions/particle-emitter3d/) uses the [three.quarks](https://github.com/Alchemist0823/three.quarks) library
+- [3D sprite](/gdevelop5/extensions/sprite3d/) uses the [PlaneGeometry](https://threejs.org/docs/index.html#api/en/geometries/PlaneGeometry) of Three.js
+- [3D text](/gdevelop5/extensions/text3d/) uses the [Troika Text for Three.js](https://github.com/protectwise/troika/tree/main/packages/troika-three-text) library
+
+!!! note
+
+    Most of the previous section about events-based behaviors also applies to events-based objects.
+
 ## Use the power of both events and JavaScript
 
 Although GDevelop engine features can be used in JavaScript (learn more about it in the [JavaScript events](/gdevelop5/events/js-code/) page). It's easier to use events for this.
