@@ -22,7 +22,7 @@ The AI understands all built-in GDevelop features and official, reviewed extensi
 - Your game scene names
 - Global objects and objects in each scene (but not their exact configuration),
 - Object behaviors (but not their exact configuration),
-- Variables (global, scene and object variables).
+- Global, scene and object variables (but not their content).
 
 It **does not** currently have access to your scene events.
 
