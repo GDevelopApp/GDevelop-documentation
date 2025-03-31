@@ -11,9 +11,10 @@ Move the camera  to look at an object from a given distance with a rotation and 
 
 It can be useful for:
 
-- Third person camera
-- Isometric-like point of view
-
+- 3D platformer games ([open the project online](https://editor.gdevelop.io/?project=example://3d-platformer))
+- 3D racing games ([open the project online](https://editor.gdevelop.io/?project=example://3d-car-coin-hunt))
+- Orbit camera controls ([open the project online](https://editor.gdevelop.io/?project=example://3d-tile-based-city-builder))
+- Isometric-like point of view ([open the project online](https://editor.gdevelop.io/?project=example://3d-road-crosser))
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

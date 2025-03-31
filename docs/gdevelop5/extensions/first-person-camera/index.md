@@ -11,6 +11,8 @@ Move the camera to look though objects eyes.
 
 This extension can be used with the "Mouse pointer lock" or "Gamepad" extension to build a first person camera.
 
+The first person example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://3d-first-person)).
+
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 

@@ -8,9 +8,9 @@ Teleport object when it moves off the screen and immediately appear on the oppos
 ---
 
 The teleport happens when the center point of the object crosses a border (this can be adjusted with an offset).
-By default, the borders of the wrapping area match the screen size, but they can alo be changed.
+By default, the borders of the wrapping area match the screen size, but they can also be changed.
 
-The Asteroid-like example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://space-asteroid)).
+The Asteroid-like example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://space-asteroids)).
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
