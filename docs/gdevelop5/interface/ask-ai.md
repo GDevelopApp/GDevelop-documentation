@@ -1,7 +1,7 @@
 ---
 title: Ask AI
 ---
-# Ask AI: use AI to help you build your game
+# Ask AI: Get Help Building Your Game with AI
 
 **Ask AI** is an experimental chat assistant designed specifically to help you create your game in GDevelop.
 
