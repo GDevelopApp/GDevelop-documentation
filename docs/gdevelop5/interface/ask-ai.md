@@ -30,15 +30,15 @@ Type your question and click Send — that’s it.
 
 !!! note
 
-   Each message you send to the AI costs 5 credits. This means that with [a package of 500 credits](/gdevelop5/interface/profile/credits), you can make up to 100 requests.
-   If you have a GDevelop Gold or Pro subscription, you also get free AI requests every month.
+    Each message you send to the AI costs 5 credits. This means that with [a package of 500 credits](/gdevelop5/interface/profile/credits), you can make up to 100 requests.
+    If you have a GDevelop Gold or Pro subscription, you also get free AI requests every month.
 
 The AI will reply in a few seconds. Answers often include links to helpful resources, extensions, behaviors, and relevant GDevelop concepts like actions or conditions.
 
 !!! warning
 
-   As with every AI tool, the AI answers are not perfect. From time to time, it can confuse some concepts, misunderstanding your game or what you're trying to do.
-   Always double check the answers and use the AI answers as suggestions to build your game. It's a good idea to follow the **[Complete GDevelop Master Course](https://gdevelop.io/academy)** to quickly learn the basics of GDevelop and make your first games.
+    As with every AI tool, the AI answers are not perfect. From time to time, it can confuse some concepts, misunderstanding your game or what you're trying to do.
+    Always double check the answers and use the AI answers as suggestions to build your game. It's a good idea to follow the **[Complete GDevelop Master Course](https://gdevelop.io/academy)** to quickly learn the basics of GDevelop and make your first games.
 
 You can continue the conversation by asking follow-up questions. If you want to switch topics or ask something unrelated, click Start a new chat — this helps the AI better focus on your new request.
 
