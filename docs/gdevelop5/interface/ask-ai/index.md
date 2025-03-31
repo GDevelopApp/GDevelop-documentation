@@ -36,6 +36,8 @@ Type your question and click Send — that’s it.
     Each message you send to the AI costs 5 credits. This means that with [a package of 500 credits](/gdevelop5/interface/profile/credits), you can make up to 100 requests.
     If you have a GDevelop Gold or Pro subscription, you also get free AI requests every month.
 
+    This is done to help pay for the expenses related to AI processing, and their maintenance.
+
 The AI will reply in a few seconds. Answers often include links to helpful resources, extensions, behaviors, and relevant GDevelop concepts like actions or conditions.
 
 !!! warning
