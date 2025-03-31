@@ -5,6 +5,8 @@ title: Ask AI
 
 **Ask AI** is an experimental chat assistant designed specifically to help you create your game in GDevelop.
 
+![Ask AI screen](./ask-ai.png)
+
 Unlike general-purpose AI tools like ChatGPT, Claude, or Google Gemini, this AI is **tailored for GDevelop**. It knows how GDevelop works and can help you:
 
 - Understand features and how to use them
