@@ -36,6 +36,11 @@ Credits can be used to purchase assets and game templates from the GDevelop stor
 
 ![Template purchase with credits](/gdevelop5/interface/profile/template-purchase-credits.png)
 
+### More AI requests
+
+Use credits to ask questions in the ["Ask AI"](/gdevelop5/interface/ask-ai) tab, an AI assistant designed specifically to help you create your game in GDevelop.
+You'll also receive a free allowance every month when you [subscribe](https://gdevelop.io/pricing) to a premium account.
+
 ### Additional Online Builds
 
 Credits can be used to unlock additional online builds for your games. This is useful if you have reached the limit of online builds for your games and need to create more.
