@@ -31,10 +31,11 @@ It **does not** currently have access to your scene events. It also has no acces
 To open Ask AI, click the "Ask AI" button in the top-right corner of the GDevelop interface.
 Type your question and click Send — that’s it.
 
+Each account starts with a few **free AI answers**. If you have a GDevelop Gold or Pro subscription, you’ll receive more every month — 25 with Gold and 40 with Pro. (Note that these amounts may change as we learn more about how creators use the AI.)
+
 !!! note
 
-    Each message you send to the AI costs 5 credits. This means that with [a package of 500 credits](/gdevelop5/interface/profile/credits), you can make up to 100 requests.
-    If you have a GDevelop Gold or Pro subscription, you also get free AI requests every month.
+    Once you've used all free answers, a message you send to the AI costs 5 credits. This means that with [a package of 500 credits](/gdevelop5/interface/profile/credits), you can make up to 100 requests. Remember you can get **free credits by following GDevelop accounts** on socials — check your profile!
 
     This is done to help pay for the expenses related to AI processing, and their maintenance.
 
