@@ -1,4 +1,4 @@
-# Joint Connector
+# Joint connector
 
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/8834e0c63a962c74f1dab4c8f918c171261597341c4ca6574b300ab35855274b_human.svg" class="extension-icon"></img>
 Create and manage physics joints between two objects.
@@ -186,4 +186,4 @@ _No expressions for this behavior._
 
 ---
 
-*This page is an auto-generated reference page about the **Joint Connector** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Joint connector** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

@@ -29,9 +29,9 @@ De/activate italic.
 Set the number of pixels around a text object. If the shadow or the outline around the text are getting cropped, raise this value.
 
 **Alignment**  
-Set the text alignment of a multiline text object (does not work with single line texts).
+Change the text alignment of a multiline text object.
 
-**Wrapping**  
+**Word wrapping**  
 De/activate word wrapping. Note that word wrapping is a graphical option,  
 you can't get the number of lines displayed
 
@@ -66,7 +66,7 @@ Change the shadow distance of the text.
 Change the shadow opacity of the text.
 
 **Wrapping width**  
-Modify the word wrapping width of a Text object.
+Change the word wrapping width of a Text object.
 
 ### Object conditions
 
@@ -77,7 +77,7 @@ Check if the bold style is activated
 Check if the italic style is activated
 
 **Wrapping**  
-Test if the word wrapping style of an object is set.
+Check if word wrapping is enabled.
 
 **Padding**  
 Compare the number of pixels around a text object. If the shadow or the outline around the text are getting cropped, raise this value.
@@ -110,7 +110,7 @@ Compare the shadow opacity of the text.
 Compare the text alignment of a multiline text object.
 
 **Wrapping width**  
-Test the word wrapping width of a Text object.
+Compare the word wrapping width of a Text object.
 
 ### Object expressions
 

@@ -1,6 +1,6 @@
 # Tile map Reference
 
-The Tilemap object can be used to display tile-based objects. It's a good way to create maps for RPG, strategy games or create objects by assembling tiles, useful for platformer, retro-looking games, etc... [Read more explanations about it.](/gdevelop5/objects/tilemap)
+The Tilemap object can be used to display tile-based objects. It's a good way to create maps for RPG, strategy games or create objects by assembling tiles, useful for platformer, retro-looking games, etc... External tilemaps are also supported - but it's recommended to use the built-in, simple Tilemap object for most use cases. [Read more explanations about it.](/gdevelop5/objects/tilemap)
 
 
 
@@ -29,7 +29,7 @@ _No expressions for this object._
 
 ## Tile map 
 
-Displays a tiled-based map. 
+Displays a tile-based map. Recommended for most games that need to use static tiles. 
 
 ### Object actions
 

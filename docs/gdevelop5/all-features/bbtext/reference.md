@@ -25,8 +25,8 @@ Set font family
 **Font size**  
 Set base font size
 
-**Word wrap**  
-Set word wrap
+**Word wrapping**  
+De/activate word wrapping.
 
 **Wrapping width**  
 Change the width, in pixels, after which the text is wrapped on next line.
@@ -45,8 +45,8 @@ Compare the value of font family
 **Font size**  
 Compare the base font size of the text.
 
-**Word wrap**  
-Check if word wrap is enabled.
+**Word wrapping**  
+Check if word wrapping is enabled.
 
 **Wrapping width**  
 Compare the width, in pixels, after which the text is wrapped on next line.

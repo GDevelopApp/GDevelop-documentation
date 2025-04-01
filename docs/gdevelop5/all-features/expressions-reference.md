@@ -1486,7 +1486,7 @@ _No expressions for this object._
 
 ## Tile map 
 
-Displays a tiled-based map. [Read more explanations about it.](/gdevelop5/objects/tilemap)
+Displays a tile-based map. Recommended for most games that need to use static tiles. [Read more explanations about it.](/gdevelop5/objects/tilemap)
 
 | Expression | Description |  |
 |-----|-----|-----|

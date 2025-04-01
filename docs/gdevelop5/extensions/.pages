@@ -204,7 +204,7 @@ nav:
             - 3D grid jump: grid-jump3d
             - HasLanded: has-landed
             - Hedgehog platformer: hedgehog-platformer
-            - Joint Connector: joint-connector
+            - Joint connector: joint-connector
             - 3D jump (deprecated): jump3d
             - Magnetic Effect: magnetic-effect
             - Navigation mesh pathfinding (experimental): nav-mesh-pathfinding

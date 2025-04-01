@@ -22,7 +22,7 @@ Change the Bitmap Font and/or the atlas image used by the object.
 **Tint**  
 Set the tint of the Bitmap Text object.
 
-**Word wrap**  
+**Word wrapping**  
 De/activate word wrapping.
 
 ### Object conditions
@@ -39,8 +39,8 @@ Compare the font size, defined in the Bitmap Font.
 **Wrapping width**  
 Compare the width, in pixels, after which the text is wrapped on next line.
 
-**Word wrap**  
-Check if word wrap is enabled.
+**Word wrapping**  
+Check if word wrapping is enabled.
 
 ### Object expressions
 
