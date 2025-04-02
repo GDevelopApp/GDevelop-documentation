@@ -1,13 +1,12 @@
 nav:
-    - Anchor Behavior: anchor
-    - Bounce Behavior: bounce
-    - Destroy outside screen behavior: destroyoutside
-    - Draggable Object Behavior: draggable
-    - pathfinding
-    - 2D Physics Engine: physics2
-    - 3D Physics Engine: physics3d
-    - Platform and platformer character behaviors: platformer
-    - Top-Down Movement behavior: topdown
-    - Tween behavior: tween
-    - ...
-    - Custom behaviors: events-based-behaviors
+  - Anchor Behavior: anchor
+  - Destroy outside screen behavior: destroyoutside
+  - Draggable Object Behavior: draggable
+  - pathfinding
+  - 2D Physics Engine: physics2
+  - 3D Physics Engine: physics3d
+  - Platform and platformer character behaviors: platformer
+  - Top-Down Movement behavior: topdown
+  - Tween behavior: tween
+  - ...
+  - Custom behaviors: events-based-behaviors

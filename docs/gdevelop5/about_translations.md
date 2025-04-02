@@ -1,8 +1,10 @@
 ---
 title: About translations
 ---
+
 # About translations
 
-Translations are written by volunteers. If you're a native speaker or fluent in another language, you are welcome to create an account on Github then submit a Pull Request on this repository to edit or create the pages related to your language. You will find out the [other languages in this folder](https://github.com/GDevelopApp/GDevelop-documentation/tree/main/docs).
+Translations are hard to keep up to date with constant changes in the documentation. So they are not committed to the repository.
+Instead, we rely on Google Translate to provide up to date translations for the documentation.
 
 In case of doubts or questions, [open an issue here](https://github.com/GDevelopApp/GDevelop-documentation/issues), a staff member will get back to you.
