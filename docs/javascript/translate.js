@@ -15,9 +15,13 @@ const isGoogleTranslateUrl = (url) => {
 };
 
 const getOriginalUrl = (googleTradUrl) => {
-  // Extract the original URL from the Google Translate URL
-  const urlParams = new URLSearchParams(googleTradUrl.split("?")[1]);
-  const originalUrl = urlParams.get("u");
+  // Extract the original URL from the Google Translate URL.
+  // URL can look like this:
+  // https://translate.google.com/website?sl=en&tl=fr&hl=fr&u=https://www.youtube.com/watch?v%3D595-swNh0Mw%26list%3DPL3YlZTdKiS89Kj7IQVPoNElJCWrjZaCC8%26index%3D1
+  // We need to extract the value of the "u" parameter, with the query params.
+  const url = new URL(googleTradUrl);
+  const originalUrl = url.searchParams.get("u");
+  console.log("originalUrl", originalUrl);
   if (originalUrl) {
     // Decode the URL and return it
     return decodeURIComponent(originalUrl);
@@ -81,18 +85,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.querySelectorAll("a").forEach((link) => {
     const href = link.getAttribute("href");
-    console.log(`href: ${href}`);
     if (!href) {
       return;
     }
 
     if (!isGoogleTranslateUrl(href)) {
-      console.log(href, "Not a Google Translate URL");
       return;
     }
 
     let originalUrl = getOriginalUrl(href);
-    console.log("originalUrl", originalUrl);
     if (!originalUrl.includes("wiki.gdevelop.io")) {
       // If the original URL is not from the wiki, we need to change it to the original URL.
       // Otherwise, we just keep the original URL.
@@ -105,7 +106,6 @@ document.addEventListener("DOMContentLoaded", function () {
 // So we need to listen to dom updates to detect the search container.
 const observer = new MutationObserver((mutations) => {
   mutations.forEach((mutation) => {
-    console.log(mutation);
     if (mutation.addedNodes.length) {
       mutation.addedNodes.forEach((node) => {
         if (
