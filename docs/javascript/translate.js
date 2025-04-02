@@ -21,7 +21,6 @@ const getOriginalUrl = (googleTradUrl) => {
   // We need to extract the value of the "u" parameter, with the query params.
   const url = new URL(googleTradUrl);
   const originalUrl = url.searchParams.get("u");
-  console.log("originalUrl", originalUrl);
   if (originalUrl) {
     // Decode the URL and return it
     return decodeURIComponent(originalUrl);
