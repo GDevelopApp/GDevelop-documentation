@@ -8,7 +8,7 @@ const isGoogleTranslatedUrl = (url) => {
   return googleTradRegex.test(url);
 };
 
-const iGoogleTranslateUrl = (url) => {
+const isGoogleTranslateUrl = (url) => {
   // Check if the URL is a Google Translate URL (to be translated)
   const googleTradRegex = /translate\.google\.com/;
   return googleTradRegex.test(url);
@@ -80,11 +80,19 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   document.querySelectorAll("a").forEach((link) => {
-    if (!isGoogleTranslateUrl(currentUrl)) {
+    const href = link.getAttribute("href");
+    console.log(`href: ${href}`);
+    if (!href) {
       return;
     }
 
-    let originalUrl = getOriginalUrl(link.href);
+    if (!isGoogleTranslateUrl(href)) {
+      console.log(href, "Not a Google Translate URL");
+      return;
+    }
+
+    let originalUrl = getOriginalUrl(href);
+    console.log("originalUrl", originalUrl);
     if (!originalUrl.includes("wiki.gdevelop.io")) {
       // If the original URL is not from the wiki, we need to change it to the original URL.
       // Otherwise, we just keep the original URL.
