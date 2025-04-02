@@ -9,9 +9,9 @@ Make objects follow the position and rotation of the object they are stuck to.
 
 This extension can be useful to:
 
-* Stick accessories to moving objects
-* Animate a skeleton
-* Delete an object with another one
+- Stick accessories to moving objects
+- Animate a skeleton
+- Delete an object with another one
 
 An example allows to check it out ([open the project online](https://editor.gdevelop.io/?project=example://stick-objects)).
 
