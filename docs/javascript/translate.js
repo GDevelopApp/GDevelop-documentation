@@ -2,6 +2,24 @@
 const translateSvg =
   '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z" fill="currentColor"/></svg>';
 
+const isGoogleTranslateUrl = (url) => {
+  // Check if the URL is a Google Translate URL
+  const googleTradRegex = /translate\.goog/;
+  return googleTradRegex.test(url);
+};
+
+const getOriginalUrl = (googleTradUrl) => {
+  // Extract the original URL from the Google Translate URL
+  const urlParams = new URLSearchParams(googleTradUrl.split("?")[1]);
+  const originalUrl = urlParams.get("u");
+  if (originalUrl) {
+    // Decode the URL and return it
+    return decodeURIComponent(originalUrl);
+  }
+  // Otherwise, return the original Google Translate URL
+  return googleTradUrl;
+};
+
 function showGoogleTranslateBar() {
   const userLang = navigator.language || navigator.userLanguage || "en";
   const sourceLangCode = "en";
@@ -16,9 +34,7 @@ function showGoogleTranslateBar() {
     "https://wiki.gdevelop.io"
   );
 
-  const googleTradRegex = /translate\.goog/;
-  const isGoogleTradPage = googleTradRegex.test(currentUrl);
-  if (isGoogleTradPage) {
+  if (isGoogleTranslateUrl(currentUrl)) {
     // If the page is already a Google Translate page, it is hard to get the original URL.
     // So we just don't do anything.
     return;
@@ -56,6 +72,19 @@ document.addEventListener("DOMContentLoaded", function () {
       headerTitle.nextSibling
     );
   }
+
+  document.querySelectorAll("a").forEach((link) => {
+    if (!isGoogleTranslateUrl(currentUrl)) {
+      return;
+    }
+
+    let originalUrl = getOriginalUrl(link.href);
+    if (!originalUrl.includes("wiki.gdevelop.io")) {
+      // If the original URL is not from the wiki, we need to change it to the original URL.
+      // Otherwise, we just keep the original URL.
+      link.href = originalUrl;
+    }
+  });
 });
 
 // Search container is added dynamically by mkdocs when search is opened.
