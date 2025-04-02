@@ -39,9 +39,9 @@ function showGoogleTranslateBar() {
 
 // Add event listener to the language icon when the page loads
 document.addEventListener("DOMContentLoaded", function () {
-  let headerTitle = document.querySelector(".md-header__title");
+  const headerTitle = document.querySelector(".md-header__title");
   if (headerTitle) {
-    let translateButton = document.createElement("button");
+    const translateButton = document.createElement("button");
 
     translateButton.innerHTML = translateSvg;
     translateButton.className = "md-header__button md-icon";
@@ -56,4 +56,31 @@ document.addEventListener("DOMContentLoaded", function () {
       headerTitle.nextSibling
     );
   }
+});
+
+// Search container is added dynamically by mkdocs when search is opened.
+// So we need to listen to dom updates to detect the search container.
+const observer = new MutationObserver((mutations) => {
+  mutations.forEach((mutation) => {
+    console.log(mutation);
+    if (mutation.addedNodes.length) {
+      mutation.addedNodes.forEach((node) => {
+        if (
+          node.nodeType === 1 &&
+          node.classList.contains("DocSearch-Container")
+        ) {
+          // Prevent translating everything inside that component by adding class "notranslate".
+          // It should be enough to prevent everything inside the component to be translated.
+          node.classList.add("notranslate");
+        }
+      });
+    }
+  });
+});
+const config = { childList: true, subtree: true };
+const targetNode = document.body;
+observer.observe(targetNode, config);
+// Stop observing when the page is unloaded
+window.addEventListener("beforeunload", function () {
+  observer.disconnect();
 });
