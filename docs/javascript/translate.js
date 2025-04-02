@@ -37,7 +37,7 @@ function showGoogleTranslateBar() {
     "https://wiki.gdevelop.io"
   );
 
-  const googleTradRegex = /translate\.google\.com/;
+  const googleTradRegex = /translate\.goog/;
   const isGoogleTradPage = googleTradRegex.test(currentUrl);
   if (isGoogleTradPage) {
     // If the page is already a Google Translate page, we need to get the original URL.
