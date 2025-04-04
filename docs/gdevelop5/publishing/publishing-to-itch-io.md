@@ -8,7 +8,7 @@ title: Publish to Itch.io
 
 Creators have access to detailed analytics and about how people discover, download, or play what they've created.
 
-------------------------------------------------------------------------
+---
 
 ## Why itch.io?
 
@@ -22,7 +22,7 @@ Creators have access to detailed analytics and about how people discover, downlo
 - You can share downloadable games for Windows, Linux, Mac, Android and also HTML5 games played in the browser.
 - You can**make money**without starting your own business and pay taxes. itch.io can collect the money, deal with refund requests and pay the required taxes on your behalf and you can request a payout any time.
 - In case you do want to start your own business, itch.io can take care of the transaction for you and transfer each purchase directly to you, but then you need to take care of Refunds and Taxes
-- You can **set a fixed price** for your content, **share it freely** or accept a donation. You can also set an unique option where payment is necessary but the amount is decided by the user himself.
+- You can **set a fixed price** for your pcontent, **share it freely** or accept a donation. You can also set an unique option where payment is necessary but the amount is decided by the user himself.
 - Revenue share is also flexible which makes itch.io the most unique, you can decide how much revenue share you want to pay to itch.io and yes you can set this value to 0 if you want and pay nothing yet itch.io still happy to host your content for free and hope if you are successful you are going to consider to pay something to them.
 - **No annoying Ads** on Browser games
 - You can now also connect itch.io with Patreon and offer access to content to those who support you through Patreon.

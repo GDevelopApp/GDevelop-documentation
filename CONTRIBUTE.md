@@ -27,15 +27,15 @@ First install:
 Run:
 
 ```sh
-poetry install
+poetry install --no-root
 ```
 
 ### Run the project
 
 ```sh
-mkdocs serve
+poetry run mkdocs serve
 # Or, for faster reload after changes:
-mkdocs serve --dirtyreload
+poetry run mkdocs serve --dirtyreload
 ```
 
 This will run the documentation on http://localhost:8000.
