@@ -72,6 +72,72 @@ These behaviors make the character move according to player inputs automatically
 [![](first-person.png){ width="320" }](https://editor.gdevelop.io/?project=example://3d-first-person)
 
 
+## Move a 3D car with controls
+
+Physics properties often have an impact on several part of the car movement. Following the following steps can help to save time:
+- Avoid the car to roll when it turns
+- Setup how quick the car fall back on the road
+- Avoid the cars to slip when it turns
+- Setup how fast the car moves
+
+You may need to do the last 2 steps many times to finely tweak your game feel.
+
+**World scale**
+
+The first thing to setup for any realistic game that uses the physics behavior is the world scale. Objects are placed in a scene using pixels but the physics behavior works with meters. The world scale allows to do the conversion. For instance, let's say the car is 40 pixels wide in the scene. Considering a car is about 2 meters wide, you would set a world scale of `40 / 2` which is `20`.
+
+### Avoid cars to levitate
+
+By default the physics shape encompass the whole 3D model. If your 3d model include the wheels, you need to set a custom shape size to exclude them. For instance, let's say:
+- the whole car **depth** is `30` pixels
+- the wheel radius is `6` pixels
+You would set:
+- a custom depth of `30 - 6` which is `24`
+- a **shape offset Z** of `6 / 2` which is `3` to move the shape up on the car chassis
+
+### Avoid cars to roll when it turns
+
+Cars center of mass is as low as possible to avoid cars to roll. By default, the physics behavior set the center of mass is at the exact center of the object. For instance, to move center of mass at the bottom of the car, let's say your car **depth** is `30` pixels, you could set `-15` pixels for the **center of mass offset Z**.
+
+!!! tip
+
+	In case your car is still rolling when it turns, you can try reducing the **friction**.
+
+### Setup how quick cars fall back on the road
+
+**Mass override**
+
+A car usually weight about 1,500 kg. It can be a good value to start
+
+**Gravity scale**
+
+When a car jump off from a slope, you may want to give back control to the player by making quickly it go back on the road. It's better to use the gravity scale instead of the mass for this because it won't affect the car acceleration and collision.
+
+### Avoid cars to slip when it turns
+
+**Friction**
+
+Cars with greater friction can turn at higher speed without slipping. The friction of the ground also matters. For instance, a smaller value can be set for a grass object to make cars slip when they are off the road.
+
+!!! tip
+
+	**Gravity scale**, **Mass override** also change how cars slip. Make sure you have followed the steps described in the above sections first.
+
+### Setup how fast cars move
+
+You set the **engine inertia** to adjust how fast the car accelerate:
+- a smaller value gives faster acceleration
+- a greater value gives slower acceleration
+
+The **max engine speed** allows to adjust how fast a car can go.
+
+The **max engine torque** allows to climb slopes faster.
+
+!!! tip
+
+	**Friction**, **Gravity scale**, **Mass override** also change how fast cars move. Make sure you have followed the steps described in the above sections first.
+
+
 ## Concepts used in Physics
 
 This section is being written and will be available soon.
