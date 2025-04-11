@@ -75,6 +75,7 @@ These behaviors make the character move according to player inputs automatically
 ## Move a 3D car with controls
 
 Physics properties often have an impact on several part of the car movement. Following the following steps can help to save time:
+
 - Avoid the car to roll when it turns
 - Setup how quick the car fall back on the road
 - Avoid the cars to slip when it turns
@@ -89,9 +90,11 @@ The first thing to setup for any realistic game that uses the physics behavior i
 ### Avoid cars to levitate
 
 By default the physics shape encompass the whole 3D model. If your 3d model include the wheels, you need to set a custom shape size to exclude them. For instance, let's say:
+
 - the whole car **depth** is `30` pixels
 - the wheel radius is `6` pixels
 You would set:
+
 - a custom depth of `30 - 6` which is `24`
 - a **shape offset Z** of `6 / 2` which is `3` to move the shape up on the car chassis
 
@@ -121,11 +124,12 @@ Cars with greater friction can turn at higher speed without slipping. The fricti
 
 !!! tip
 
-	**Gravity scale**, **Mass override** also change how cars slip. Make sure you have followed the steps described in the above sections first.
+	**Gravity scale** and **mass override** also change how cars slip. Make sure you have followed the steps described in the above sections first.
 
 ### Setup how fast cars move
 
 You set the **engine inertia** to adjust how fast the car accelerate:
+
 - a smaller value gives faster acceleration
 - a greater value gives slower acceleration
 
@@ -135,7 +139,7 @@ The **max engine torque** allows to climb slopes faster.
 
 !!! tip
 
-	**Friction**, **Gravity scale**, **Mass override** also change how fast cars move. Make sure you have followed the steps described in the above sections first.
+	**Friction**, **gravity scale** and **mass override** also change how fast cars move. Make sure you have followed the steps described in the above sections first.
 
 
 ## Concepts used in Physics
