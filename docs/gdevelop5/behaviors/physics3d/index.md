@@ -98,6 +98,12 @@ You would set:
 - a custom depth of `30 - 6` which is `24`
 - a **shape offset Z** of `6 / 2` which is `3` to move the shape up on the car chassis
 
+The default position of the wheels are in the bottom corners of the car. The wheels are centered in Z axis on the bottom of the physics shape, but don't stick out on X and Y axis.
+
+![](wheels-default-position.png)
+
+You may want to adjust the **back wheels offset X** and the  **front wheels offset X** by setting a negative value to move them a bit inside the car.
+
 ### Avoid cars to roll when it turns
 
 Cars center of mass is as low as possible to avoid cars to roll. By default, the physics behavior set the center of mass is at the exact center of the object. For instance, to move center of mass at the bottom of the car, let's say your car **depth** is `30` pixels, you could set `-15` pixels for the **center of mass offset Z**.
