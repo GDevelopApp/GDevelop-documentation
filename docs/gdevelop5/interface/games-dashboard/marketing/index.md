@@ -20,7 +20,8 @@ GDevelop Marketing Campaigns, also called **Boosts**, are packages designed to i
 When you boost your game, depending on the Boost you selected, your game will:
 
 * Appear as a highlighted, **promoted game on gd.games**, making it more visible to players browsing the platform and other game creators on the GDevelop "Play" tab.
-* Be featured in ads run by GDevelop on platforms like **TikTok and other social media channels**.
+* Be featured in ads run by GDevelop on platforms like **TikTok**.
+* We reserve the right to promote your game on our social channels, provided it meets basic quality standards (see Best Practices below for details).
 
 The ads GDevelop runs are designed to attract new players, many of whom may not know about GDevelop or your game. These ads are usually generic gaming ads that promote games in general.
 
