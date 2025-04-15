@@ -563,7 +563,7 @@ Change the object opacity. [Read more explanations about it.](/gdevelop5/objects
 
 ## Text capability 
 
-Access objects text. [Read more explanations about it.](/gdevelop5/objects)
+Allows an object to contain a text, usually shown on screen, that can be modified.. [Read more explanations about it.](/gdevelop5/objects)
 
 | Expression | Description |  |
 |-----|-----|-----|

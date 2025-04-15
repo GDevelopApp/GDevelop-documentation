@@ -1,12 +1,12 @@
 # Text capability Reference
 
-Animate objects. [Read more explanations about it.](/gdevelop5/objects)
+Allows an object to contain a text, usually shown on screen, that can be modified. [Read more explanations about it.](/gdevelop5/objects)
 
 
 
 ## Text capability 
 
-Access objects text. 
+Allows an object to contain a text, usually shown on screen, that can be modified.. 
 
 ### Behavior actions
 
