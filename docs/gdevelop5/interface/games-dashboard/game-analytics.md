@@ -14,15 +14,14 @@ Find the game you'd like to access on GDevelop home and click "Manage". Under th
 
 The Game Analytics section provides the following metrics and indicators:
 
-* **Number of sessions:** Number of times the game was launched.
-* **Bounce rate:** Percentage of players who leave a webpage without interacting further.
-* **Average minutes per player:** Time spent by each player engaged with a game. The graphs show how this average stayed true across time.
-* **Number of players with more than X minutes:** Players who engage with a game for at least X minutes. The graph also displays players with more than 3, 5, 10 and 15 minutes.
- This information is crucial for understanding player retention and game performance.
-
 ![Game-Analytics](Game-Analytics.png)
 
-![Games-Analytics](Game-Analytics-hover.png)
+* **1) Number of sessions:** Number of times the game was launched.
+* **2) Bounce rate:** Percentage of players who leave a webpage without interacting further.
+* **3) Average minutes per player:** Time spent by each player engaged with a game. The graphs show how this average stayed true across time.
+* **4) Number of players with more than X minutes:** Players who engage with a game for at least X minutes. The graph also displays players with more than 3, 5, 10 and 15 minutes.
+ This information is crucial for understanding player retention and game performance.
+
 
 !!! note
 
