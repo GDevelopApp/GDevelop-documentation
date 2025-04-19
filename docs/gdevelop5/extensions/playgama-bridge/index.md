@@ -92,6 +92,12 @@ Payments Get Purchases.
 **Payments Purchase**  
 Payments Purchase.
 
+**Platform Get All Games**  
+Platform Get All Games.
+
+**Platform Get Game By Id**  
+Platform Get Game By Id.
+
 **Rate**  
 Rate.
 
@@ -172,6 +178,12 @@ Is Desktop.
 **Is External Links Allowed**  
 Is External Links Allowed.
 
+**Is Get All Games Supported**  
+Is Get All Games Supported.
+
+**Is Get Game By Id Supported**  
+Is Get Game By Id Supported.
+
 **Is Initialized**  
 Is Initialized.
 
@@ -204,15 +216,6 @@ Is Leaderboard Supported.
 
 **Is Mobile**  
 Is Mobile.
-
-**Is Payments Consume Purchase Supported**  
-Is Payments Consume Purchase Supported.
-
-**Is Payments Get Catalog Supported**  
-Is Payments Get Catalog Supported.
-
-**Is Payments Get Purchases Supported**  
-Is Payments Get Purchases Supported.
 
 **Is Payments Supported**  
 Is Payments Supported.
@@ -282,6 +285,12 @@ On Check AdBlock Completed.
 
 **On Create Post Completed**  
 On Create Post Completed.
+
+**On Get All Games Completed**  
+On Get All Games Completed.
+
+**On Get Game By Id Completed**  
+On Get Game By Id Completed.
 
 **On Get Server Time Completed**  
 On Get Server Time Completed.
@@ -397,10 +406,14 @@ On Visibility State Changed.
 | `PlaygamaBridge::PaymentsCatalogItemPropertiesCount()` | Payments Catalog Item Properties Count. ||
 | `PlaygamaBridge::PaymentsCatalogItemPropertyName(number)` | Payments Catalog Item Property Name. ||
 | | _🔢 Number_ | Property Index |
-| `PlaygamaBridge::PaymentsCatalogItemPropertyValue(number, string)` | Payments Last Purchase Property Value. ||
+| `PlaygamaBridge::PaymentsCatalogItemPropertyValue(number, string)` | Payments Catalog Item Property Value. ||
 | | _🔢 Number_ | Product Index |
 | | _string_ | Property |
 | `PlaygamaBridge::PaymentsCatalogItemsCount()` | Payments Catalog Items Count. ||
+| `PlaygamaBridge::PaymentsFirstCatalogItemPropertyValue(string, string, string)` | Payments First Catalog Item Property Value. ||
+| | _string_ | Filter Property |
+| | _string_ | Filter Property Value |
+| | _string_ | Property |
 | `PlaygamaBridge::PaymentsLastPurchasePropertiesCount()` | Payments Last Purchase Properties Count. ||
 | `PlaygamaBridge::PaymentsLastPurchasePropertyName(number)` | Payments Last Purchase Property Name. ||
 | | _🔢 Number_ | Property Index |
@@ -413,6 +426,15 @@ On Visibility State Changed.
 | | _🔢 Number_ | Purchase Index |
 | | _string_ | Property |
 | `PlaygamaBridge::PaymentsPurchasesCount()` | Payments Purchases Count. ||
+| `PlaygamaBridge::PlatformAllGamePropertiesCount()` | Platform All Game Properties Count. ||
+| `PlaygamaBridge::PlatformAllGamesCount()` | Platform All Games Count. ||
+| `PlaygamaBridge::PlatformAllGamesPropertyName(number)` | Platform All Games Property Name. ||
+| | _🔢 Number_ | Property Index |
+| `PlaygamaBridge::PlatformAllGamesPropertyValue(number, string)` | Platform All Games Property Value. ||
+| | _🔢 Number_ | Game Index |
+| | _string_ | Property |
+| `PlaygamaBridge::PlatformGameByIdPropertyValue(string)` | Platform Game By Id Property Value. ||
+| | _string_ | Property |
 | `PlaygamaBridge::PlatformId()` | Platform Id. ||
 | `PlaygamaBridge::PlatformLanguage()` | Platform Language. ||
 | `PlaygamaBridge::PlatformPayload()` | Platform Payload. ||

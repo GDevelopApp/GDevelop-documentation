@@ -236,7 +236,6 @@ nav:
             - Clock: clock
             - Dialog Box: dialog-box
             - Flexbox: flex-box
-            - Input Manager: input-manager
             - Pause when losing focus: pause-focus-lost
             - Star Rating: star-rating
             - Console (commands handler for Text Entry objects): text-entry-console
