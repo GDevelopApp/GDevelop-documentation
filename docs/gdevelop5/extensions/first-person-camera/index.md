@@ -3,7 +3,7 @@
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Security and Protection/e8248ffd504c314e6a9d9d560c3a0fdad3398a5f125ae6a4c0654d4e68c86376_Security and Protection_security_protection_eye_scan_lock.svg" class="extension-icon"></img>
 Move the camera to look though objects eyes.
 
-**Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).
+**Authors and contributors** to this community extension: [D8H](https://gd.games/D8H), [Eldarduil](https://gd.games/Eldarduil).
 
 ---
 
@@ -19,7 +19,7 @@ The first person example uses this extension ([open the project online](https://
 ## Actions
 
 **Look through object eyes**  
-Move the camera to look though _PARAM1_ eyes. The object must look to the right when all its angles are 0 and the top of its head be toward Z+.
+Move the camera to look though the object eyes. The object must look to the right when all its angles are 0 and the top of its head be toward Z+.
 
 
 

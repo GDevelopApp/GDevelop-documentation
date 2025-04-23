@@ -6,7 +6,7 @@ Allows an object to contain a text, usually shown on screen, that can be modifie
 
 ## Text capability 
 
-Allows an object to contain a text, usually shown on screen, that can be modified.. 
+Allows an object to contain a text, usually shown on screen, that can be modified. 
 
 ### Behavior actions
 
