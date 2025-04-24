@@ -58,13 +58,13 @@ Enable or disable a mask for an object. Two objects collide if any layer of the 
 Change the object angular damping. How much angular speed is lost across the time..
 
 **Angular velocity X**  
-Change the object angular velocity around X..
+Change the object angular velocity around X.
 
 **Angular velocity Y**  
-Change the object angular velocity around Y..
+Change the object angular velocity around Y.
 
 **Angular velocity Z**  
-Change the object angular velocity around Z..
+Change the object angular velocity around Z.
 
 **Treat as bullet**  
 Treat the object as a bullet. Better collision handling on high speeds at cost of some performance.
@@ -94,13 +94,13 @@ Change the world gravity on Z axis While an object is needed, this will apply to
 Change the object linear damping. How much movement speed is lost across the time..
 
 **Linear velocity X**  
-Change the object linear velocity on X..
+Change the object linear velocity on X.
 
 **Linear velocity Y**  
-Change the object linear velocity on Y..
+Change the object linear velocity on Y.
 
 **Linear velocity Z**  
-Change the object linear velocity on Z..
+Change the object linear velocity on Z.
 
 **Restitution**  
 Change the object restitution. Energy conservation on collision. The combined restitution from two bodies is calculated as 'max(bodyA.restitution, bodyB.restitution)'..
@@ -114,13 +114,13 @@ Modify an object shape scale. It affects custom shape dimensions, if custom dime
 Compare the object angular damping. How much angular speed is lost across the time..
 
 **Angular velocity X**  
-Compare the object angular velocity around X..
+Compare the object angular velocity around X.
 
 **Angular velocity Y**  
-Compare the object angular velocity around Y..
+Compare the object angular velocity around Y.
 
 **Angular velocity Z**  
-Compare the object angular velocity around Z..
+Compare the object angular velocity around Z.
 
 **Density**  
 Compare the object density. The body's density and volume determine its mass..
@@ -162,16 +162,16 @@ Check if an object has a specific layer enabled.
 Compare the object linear damping. How much movement speed is lost across the time..
 
 **Linear velocity**  
-Compare the object linear velocity length..
+Compare the object linear velocity length.
 
 **Linear velocity X**  
-Compare the object linear velocity on X..
+Compare the object linear velocity on X.
 
 **Linear velocity Y**  
-Compare the object linear velocity on Y..
+Compare the object linear velocity on Y.
 
 **Linear velocity Z**  
-Compare the object linear velocity on Z..
+Compare the object linear velocity on Z.
 
 **Mask enabled**  
 Check if an object has a specific mask enabled.
@@ -184,9 +184,9 @@ Compare the object restitution. Energy conservation on collision. The combined r
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.Physics3D::AngularDamping()` | Return the object angular damping. How much angular speed is lost across the time.. ||
-| `Object.Physics3D::AngularVelocityX()` | Return the object angular velocity around X.. ||
-| `Object.Physics3D::AngularVelocityY()` | Return the object angular velocity around Y.. ||
-| `Object.Physics3D::AngularVelocityZ()` | Return the object angular velocity around Z.. ||
+| `Object.Physics3D::AngularVelocityX()` | Return the object angular velocity around X. ||
+| `Object.Physics3D::AngularVelocityY()` | Return the object angular velocity around Y. ||
+| `Object.Physics3D::AngularVelocityZ()` | Return the object angular velocity around Z. ||
 | `Object.Physics3D::Density()` | Return the object density. The body's density and volume determine its mass.. ||
 | `Object.Physics3D::Friction()` | Return the object friction. How much energy is lost from the movement of one object over another. The combined friction from two bodies is calculated as 'sqrt(bodyA.friction * bodyB.friction)'.. ||
 | `Object.Physics3D::GravityScale()` | Return the object gravity scale. The gravity applied to an object is the world gravity multiplied by the object gravity scale.. ||
@@ -197,10 +197,10 @@ Compare the object restitution. Energy conservation on collision. The combined r
 | `Object.Physics3D::InertiaAroundY()` | Return the inertia around Y axis of the object (in kilograms · meters²) when for its default rotation is (0°; 0°; 0°) ||
 | `Object.Physics3D::InertiaAroundZ()` | Return the inertia around Z axis of the object (in kilograms · meters²) when for its default rotation is (0°; 0°; 0°) ||
 | `Object.Physics3D::LinearDamping()` | Return the object linear damping. How much movement speed is lost across the time.. ||
-| `Object.Physics3D::LinearVelocityLength()` | Return the object linear velocity length.. ||
-| `Object.Physics3D::LinearVelocityX()` | Return the object linear velocity on X.. ||
-| `Object.Physics3D::LinearVelocityY()` | Return the object linear velocity on Y.. ||
-| `Object.Physics3D::LinearVelocityZ()` | Return the object linear velocity on Z.. ||
+| `Object.Physics3D::LinearVelocityLength()` | Return the object linear velocity length. ||
+| `Object.Physics3D::LinearVelocityX()` | Return the object linear velocity on X. ||
+| `Object.Physics3D::LinearVelocityY()` | Return the object linear velocity on Y. ||
+| `Object.Physics3D::LinearVelocityZ()` | Return the object linear velocity on Z. ||
 | `Object.Physics3D::Mass()` | Return the mass of the object (in kilograms) ||
 | `Object.Physics3D::MassCenterX()` | Mass center X ||
 | `Object.Physics3D::MassCenterY()` | Mass center Y ||
@@ -238,22 +238,22 @@ Change Compare the current jump speed of the object. Its value is always positiv
 Change the current sideways speed of the object. The object moves to the left with negative values and to the right with positive ones.
 
 **Forward acceleration**  
-Change the forward acceleration of an object..
+Change the forward acceleration of an object.
 
 **Forward angle**  
 Change the angle used by the character to go forward.
 
 **Forward deceleration**  
-Change the forward deceleration of an object..
+Change the forward deceleration of an object.
 
 **Forward max speed**  
-Change the forward max speed of the object..
+Change the forward max speed of the object.
 
 **Gravity**  
-Change the gravity applied on an object..
+Change the gravity applied on an object.
 
 **Jump speed**  
-Change the jump speed of an object. Its value is always positive..
+Change the jump speed of an object. Its value is always positive.
 
 **Jump sustain time**  
 Change the jump sustain time of an object. This is the time during which keeping the jump button held allow the initial jump speed to be maintained..
@@ -262,13 +262,13 @@ Change the jump sustain time of an object. This is the time during which keeping
 Enable or disable keeping the object angle and forward angle the same.
 
 **Sideways acceleration**  
-Change the sideways acceleration of an object..
+Change the sideways acceleration of an object.
 
 **Sideways deceleration**  
-Change the sideways deceleration of an object..
+Change the sideways deceleration of an object.
 
 **Sideways max speed**  
-Change the sideways max speed of the object..
+Change the sideways max speed of the object.
 
 **Simulate move backward key press**  
 Simulate a press of the move backward key.
@@ -306,19 +306,19 @@ Compare Compare the current jump speed of the object. Its value is always positi
 Compare the current sideways speed of the object. The object moves to the left with negative values and to the right with positive ones.
 
 **Maximum falling speed**  
-Compare the maximum falling speed of an object..
+Compare the maximum falling speed of an object.
 
 **Forward acceleration**  
-Compare the forward acceleration of an object..
+Compare the forward acceleration of an object.
 
 **Forward deceleration**  
-Compare the forward deceleration of an object..
+Compare the forward deceleration of an object.
 
 **Forward max speed**  
-Compare the forward max speed of the object..
+Compare the forward max speed of the object.
 
 **Gravity**  
-Compare the gravity applied on an object..
+Compare the gravity applied on an object.
 
 **Is falling**  
 Check if the object is falling.  
@@ -337,7 +337,7 @@ Check if the object is moving (whether it is on the floor or in the air).
 Check if the object is on a platform.
 
 **Jump speed**  
-Compare the jump speed of an object. Its value is always positive..
+Compare the jump speed of an object. Its value is always positive.
 
 **Jump sustain time**  
 Compare the jump sustain time of an object. This is the time during which keeping the jump button held allow the initial jump speed to be maintained..
@@ -346,13 +346,13 @@ Compare the jump sustain time of an object. This is the time during which keepin
 Check if the object angle and forward angle should be kept the same.
 
 **Sideways acceleration**  
-Compare the sideways acceleration of an object..
+Compare the sideways acceleration of an object.
 
 **Sideways deceleration**  
-Compare the sideways deceleration of an object..
+Compare the sideways deceleration of an object.
 
 **Sideways max speed**  
-Compare the sideways max speed of the object..
+Compare the sideways max speed of the object.
 
 ### Behavior expressions
 
@@ -362,17 +362,17 @@ Compare the sideways max speed of the object..
 | `Object.PhysicsCharacter3D::CurrentForwardSpeed()` | Return the current forward speed of the object. The object moves backward with negative values and forward with positive ones. ||
 | `Object.PhysicsCharacter3D::CurrentJumpSpeed()` | Return Compare the current jump speed of the object. Its value is always positive.. ||
 | `Object.PhysicsCharacter3D::CurrentSidewaysSpeed()` | Return the current sideways speed of the object. The object moves to the left with negative values and to the right with positive ones. ||
-| `Object.PhysicsCharacter3D::FallingSpeedMax()` | Return the maximum falling speed of an object.. ||
-| `Object.PhysicsCharacter3D::ForwardAcceleration()` | Return the forward acceleration of an object.. ||
+| `Object.PhysicsCharacter3D::FallingSpeedMax()` | Return the maximum falling speed of an object. ||
+| `Object.PhysicsCharacter3D::ForwardAcceleration()` | Return the forward acceleration of an object. ||
 | `Object.PhysicsCharacter3D::ForwardAngle()` | Return the angle used by the character to go forward. ||
-| `Object.PhysicsCharacter3D::ForwardDeceleration()` | Return the forward deceleration of an object.. ||
-| `Object.PhysicsCharacter3D::ForwardSpeedMax()` | Return the forward max speed of the object.. ||
-| `Object.PhysicsCharacter3D::Gravity()` | Return the gravity applied on an object.. ||
-| `Object.PhysicsCharacter3D::JumpSpeed()` | Return the jump speed of an object. Its value is always positive.. ||
+| `Object.PhysicsCharacter3D::ForwardDeceleration()` | Return the forward deceleration of an object. ||
+| `Object.PhysicsCharacter3D::ForwardSpeedMax()` | Return the forward max speed of the object. ||
+| `Object.PhysicsCharacter3D::Gravity()` | Return the gravity applied on an object. ||
+| `Object.PhysicsCharacter3D::JumpSpeed()` | Return the jump speed of an object. Its value is always positive. ||
 | `Object.PhysicsCharacter3D::JumpSustainTime()` | Return the jump sustain time of an object. This is the time during which keeping the jump button held allow the initial jump speed to be maintained.. ||
-| `Object.PhysicsCharacter3D::SidewaysAcceleration()` | Return the sideways acceleration of an object.. ||
-| `Object.PhysicsCharacter3D::SidewaysDeceleration()` | Return the sideways deceleration of an object.. ||
-| `Object.PhysicsCharacter3D::SidewaysSpeedMax()` | Return the sideways max speed of the object.. ||
+| `Object.PhysicsCharacter3D::SidewaysAcceleration()` | Return the sideways acceleration of an object. ||
+| `Object.PhysicsCharacter3D::SidewaysDeceleration()` | Return the sideways deceleration of an object. ||
+| `Object.PhysicsCharacter3D::SidewaysSpeedMax()` | Return the sideways max speed of the object. ||
 
 ---
 *This page is an auto-generated reference page about the **3D physics engine** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
