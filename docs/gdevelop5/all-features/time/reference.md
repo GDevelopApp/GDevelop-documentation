@@ -25,7 +25,7 @@ Waits a number of seconds before running the next actions (and sub-events).
 ## Conditions
 
 **Value of a scene timer**  
-Compare the elapsed time of a scene timer. This condition doesn't start the timer.
+Compare the elapsed time of a scene timer. This condition doesn't start the timer and will always be false if the timer was not started previously (whatever the comparison being made).
 
 **Time scale**  
 Compare the time scale of the scene.
