@@ -16,12 +16,11 @@ The Game Analytics section provides the following metrics and indicators:
 
 ![Game-Analytics](Game-Analytics.png)
 
-* **1) Number of sessions:** Number of times the game was launched.
-* **2) Bounce rate:** Percentage of players who leave a webpage without interacting further.
+* **1) Number of sessions:** Number of people who launched the game. Viewers are considered players when they stayed at least 60 seconds including loading screens.
+* **2) Bounce rate:** Percentage of people who leave before 60 seconds including loading screens.
 * **3) Average minutes per player:** Time spent by each player engaged with a game. The graphs show how this average stayed true across time.
-* **4) Number of players with more than X minutes:** Players who engage with a game for at least X minutes.
-* **5) Percentage of players with more than X minutes:** Displays the most representative sample (in percentage) on a specific time length. The graph also displays players with more than 3, 5, 10 and 15 minutes.
- This information is crucial for understanding player retention and game performance.
+* **4) Number of players with more than X minutes:** Average of players still active after 15 minutes. This graph shows how long players stay in the game after X minutes. It helps to see if the players quit quickly or keep playing for a while.
+* **5) Percentage of players with more than X minutes:** Shows how long players stay in the game over time. The percentages are showing people playing for more than 3, 5, 10, and 15 minutes based on the best day. A higher value means better player retention on the day. This helps you understand when players are most engaged — and when they drop off quickly.
 
 
 !!! note
