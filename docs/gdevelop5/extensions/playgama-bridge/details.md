@@ -1,3 +1,6 @@
+---
+title: Details
+---
 # Step-by-Step Guide to Monetizing HTML5 Games in GDevelop with PlaygamaBridge
 
 Welcome to our guide on integrating PlaygamaBridge with your GDevelop game! In this tutorial, we’ll be using a [GDevelop game](https://www.youtube.com/watch?v=P1MYDHdWDNw) as a working example to demonstrate how you can enhance your game's reach and monetization capabilities.
