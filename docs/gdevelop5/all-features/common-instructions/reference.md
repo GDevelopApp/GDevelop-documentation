@@ -5,7 +5,7 @@ GDevelop comes with a set of events and conditions that allow to express the gam
 ## Conditions
 
 **And**  
-Check if all sub conditions are true
+Checks if all sub-conditions are true. If no sub-condition is specified, it will always be false. This is rarely needed, as events already check all conditions before running actions.
 
 **Compare two numbers**  
 Compare the two numbers.
@@ -14,13 +14,13 @@ Compare the two numbers.
 Compare the two strings.
 
 **Not**  
-Return the contrary of the result of the sub conditions
+Returns the opposite of the sub-condition(s) result. This is rarely needed, as most conditions can be inverted or expressed more simply.
 
 **Trigger once while true**  
 Run actions only once, for each time the conditions have been met.
 
 **Or**  
-Check if one of the sub conditions is true
+Checks if at least one sub-condition is true. If no sub-condition is specified, it will always be false. This is rarely used — multiple events and sub-events are usually a better approach.
 
 
 
