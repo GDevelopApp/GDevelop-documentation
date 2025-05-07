@@ -1,7 +1,7 @@
 nav:
-    - "Sell asset packs": sell-asset-pack-store
+    - "Seller on GDevelop's Asset Store": sell-asset-pack-store
     - "Submit asset packs": contribute-to-the-assets-store
-    - "Submit examples": guide-for-submitting-an-example
+    - "Submit a game template": guide-for-submitting-an-example
     - "Contribute to the documentation": contribute-to-the-wiki
     - "Report a bug": guide-to-reporting-a-bug
     - ...
