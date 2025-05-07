@@ -9,24 +9,22 @@ By providing easy-to-use and high-quality assets, we're enabling creators to get
 
 ![](asset-store.png)
 
-## In short
-
 You will be required to:
 
 1. Agree to revenue sharing.
 2. Choose for your pack: a title, a description, a price (free or paid), and a license.
 3. Produce a cover image in 16:9 format.
 4. Produce between 1 and 10 images (or audio) representing the content of the pack.
-5. Integrate your assets into a GDevelop project and export a '.gdo' file.
+5. Integrate your assets into a GDevelop project and export valid files for the store.
 6. Send us your files.
 
 Read on to learn more about revenue sharing, transactions, and other agreements to know before becoming a seller.
 
 ## Revenue sharing
 
-When an asset is sold on GDevelop's Asset Store, the purchase is distributed as follows: 40% for the Asset creator, 33% for GDevelop, and 27% for government taxes (VAT) and payment provider fees.
-
 ![](revenue-sharing.png)
+
+When an asset is sold on GDevelop's Asset Store, the purchase is distributed as follows: 40% for the Asset creator, 33% for GDevelop, and 27% for government taxes (VAT) and payment provider fees.
 
 Note that:
 
@@ -102,8 +100,10 @@ This way, we ensure that the files are available for instant purchase and in-app
 
 ## Submitting your assets
 
-First and foremost, we want to ensure the Asset Store remains a place of high quality and safe for everyone's use. Assets must be fully functional within the game engine to be eligible for the Asset Store. Two types are distinct; follow the guide that interests you:
+First and foremost, we want to ensure the Asset Store remains a place of high quality and safe for everyone's use. Assets must be fully functional within the game engine to be eligible for the Asset Store.
 
-[Game template](/gdevelop5/community/guide-for-submitting-an-example/){ .md-button .md-button--primary }
+Two types are distinct; follow the guide that interests you:
 
-[Asset pack](/gdevelop5/community/contribute-to-the-assets-store/){ .md-button .md-button--primary }
+[Submitting an asset pack](/gdevelop5/community/contribute-to-the-assets-store/){ .md-button .md-button--primary }
+
+[Submitting a game template](/gdevelop5/community/guide-for-submitting-an-example/){ .md-button .md-button--primary }
