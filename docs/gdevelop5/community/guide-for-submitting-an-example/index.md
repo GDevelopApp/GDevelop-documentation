@@ -3,7 +3,10 @@ title: Guide for submitting examples
 ---
 # Guide for submitting examples
 
-Submitting example is a great way to contribute to GDevelop and help others. If your example is good enough, it will be accepted and will be available in GDevelop.
+Submitting example is a great way to contribute to GDevelop and help others. If your example is good enough, it will be accepted to the example library and will be available in GDevelop.
+
+This Guide shows how you can submit an example to GDevelop example library.
+
 
 ## Choose a scope
 

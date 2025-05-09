@@ -1,22 +1,25 @@
 ---
-title: Contributing to the assets store
+title: Submit an asset pack
 ---
 
-# Contributing to the assets store
-
-
-Pour commencer à exporter vos assets graphique pour
-c'est pourquoi chaque assets doit être importer dans le moteur puis exporté dans un format spécial que l'Asset Store pendra en charge.
-
-If you're an artist and wish to submit your assets to the store, use **[this form to sell premium assets on GDevelop's store](https://forms.gle/rqQajpDWEF3Em8HS6)**.
-
-
+# Soumettre un asset pack
 
 You can contribute or sell on the GDevelop's Assets Store, with royalty free/public domain assets or with your own game art you would sell.
+Certain criteria are necessary to be eligible for the asset store, such as having fully functional assets in the game engine.
+This is why assets must be imported into the engine, and once properly integrated can be exported at once in a format that the Asset Store will support.
 
 !!! note
 
     Learn more about the splitselling process on the [selling assets page](/gdevelop5/community/sell-asset-pack-store).
+
+
+
+
+---
+
+
+
+
 
 GDevelop creators can add assets to their projects without having to worry about editing. This means that submitted art, has to follow a number of technical constraints.
 
@@ -88,6 +91,7 @@ It contains the pack's name, description, the price and the categories.
      - Categories: Remove words that don't correspond to your pack.
 
 pack.json
+
 ```
 {
   "longDescription": "Write the description of your pack here. You can add a new line like this:\nThis is a new line.",
@@ -305,3 +309,8 @@ The goal is to make objects more or less automatically!
 ## How to send my assets when they are ready?
 
 Zip the folder containing them and send them to the GDevelop team on Github by opening an [issue here](https://github.com/4ian/GDevelop/issues/new?assignees=&labels=%F0%9F%93%A6+Asset+Store+submission&template=--asset-store-submission.md&title=).
+
+
+
+
+If you're an artist and wish to submit your assets to the store, use **[this form to sell premium assets on GDevelop's store](https://forms.gle/rqQajpDWEF3Em8HS6)**.
