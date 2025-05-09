@@ -1,6 +1,6 @@
 # 3D Reference
 
-Support for 3D in GDevelop. 
+Support for 3D in GDevelop: this provides 3D objects and the common features for all 3D objects. 
 
 ## Actions
 
@@ -108,7 +108,7 @@ _No expressions for this object._
 
 ## 3D capability 
 
-Move the object in 3D space. 
+Common features for all 3D objects: position in 3D space (including the Z axis, in addition to X and Y), size (including depth, in addition to width and height), rotation (on X and Y axis, in addition to the Z axis), scale (including Z axis, in addition to X and Y), flipping (on Z axis, in addition to horizontal (Y)/vertical (X) flipping). 
 
 ### Behavior actions
 
