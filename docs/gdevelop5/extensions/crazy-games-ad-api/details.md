@@ -11,8 +11,8 @@ This extension allows games to be hosted on the CrazyGames website and display m
 
 ## Try the CrazyGames SDK demo
 
-A **demo project** showcases the features from the CrazyGames SDK in GDevelop.
-The project can be exported as an HTML5 game, then imported in the **QA Tool** on [CrazyGames Developer Portal](https://developer.crazygames.com/games) when submitting a new game on their platform.
+A **demo project** highlights how to use the CrazyGames SDK in GDevelop.
+It can be exported as an HTML5 game and uploaded as a new submission for QA on the [CrazyGames Developer Portal](https://developer.crazygames.com/games).
 
 ![CrazyGames SDK demo](CrazyGames_SDK_demo.png)
 
@@ -25,11 +25,6 @@ A video ad filling the entire game screen can be displayed using the **Display v
 - **Midgame**: Show an advertisement when a user dies, a level has been completed, etc.
 
 - **Rewarded**: An advertisement that can be requested by the user in exchange for a reward (an additional life, a retry when the user dies, a bonus starting item, extra starting health, etc.). Rewarded ads should be shown when users explicitly consent to watch an advertisement.
-
-!!! warning
-
-    When testing your game in CrazyGames' QA Tool, midgame ads won’t work, only rewarded ads will. You must really submit your game in their Developer environment. After this, test again in the QA Tool. The ads should now work. This is the only way to test midgame ads in your game.
-
 
 ![](crazy-games-video-ad-action.png)
 
