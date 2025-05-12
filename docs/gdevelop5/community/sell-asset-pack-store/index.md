@@ -9,7 +9,7 @@ By providing easy-to-use and high-quality assets, we're enabling creators to get
 
 ![](asset-store.png)
 
-You will be required to:
+To become a seller you will be required to:
 
 1. Agree to revenue sharing.
 2. Choose for your pack: a title, a description, a price (free or paid), and a license.

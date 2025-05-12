@@ -2,39 +2,17 @@
 title: Submit an asset pack
 ---
 
-# Soumettre un asset pack
+# Submit an asset pack
 
-You can contribute or sell on the GDevelop's Assets Store, with royalty free/public domain assets or with your own game art you would sell.
-Certain criteria are necessary to be eligible for the asset store, such as having fully functional assets in the game engine.
-This is why assets must be imported into the engine, and once properly integrated can be exported at once in a format that the Asset Store will support.
+Publish on the GDevelop's Assets Store, with royalty free/public domain assets or with your own game art you would sell.
+
+GDevelop creators can add assets to their projects without having to worry about editing. This means that submitted art, has to follow a number of technical constraints that is handle with ease by importing into it into the engine, and once properly integrated, they can be exported at once in a format that the Asset Store will support.
 
 !!! note
 
     Learn more about the splitselling process on the [selling assets page](/gdevelop5/community/sell-asset-pack-store).
 
-
-
-
----
-
-
-
-
-
-GDevelop creators can add assets to their projects without having to worry about editing. This means that submitted art, has to follow a number of technical constraints.
-
-In a nutshell: these are the basic rules to submit video game asset images. Make sure that your files respect the following guidelines:
-
-- Each image frame, has to be a png transparency file
-- Every animation frame has to be the same pixel size as the other animation states
-- Tiles and GUI images have to be properly aligned
-
-!!! note
-
-        Sprite sheets **are not supported**! Each animation frame must **be a separate image**.
-    GDevelop does not support image the origin point for different animations yet.
-
-## Prepare an asset pack packaging
+## Determine your asset pack
 
 ### Get a title
 
@@ -44,13 +22,18 @@ Avoir un bon titre, les acheteurs cherchent par mots clés, choissisez un titre 
 
 A pack with an attractive thumbnail makes it more visible. Additional images can help them figuring out if a pack suit their needs. Contrasted colors can be used. The thumbnail should reflect the pack's. Thumbnails that put assets in context are preferred to grids of assets.
 
-- Thumbnail must be 16:9, 1280x720 pixels or 1920x1080 in .png.
-- The thumbnail must be named: `thumbnail.png`.
+- Get a thumbnail:
+    - Must be 16:9, `1280x720` or `1920x1080`.
+    - File format in `.png`.
+    - Must be named: `thumbnail.png`.
 
-The previews files, are using the same format, 16:9, 1280x720 pixels or 1920x1080 in .png.
-They can be from 1 to 9.
+- Get previews:
+    - They can be from 1 to 9.
+    - Must be named `preview1.png`, `preview2.png`, ..., `preview9.png`.
+    - Must be 16:9, `1280x720` or `1920x1080`.
+    - File format in `.png` or `.gif`.
 
-- They must be named `preview1.png`, `preview2.png`, ..., `preview9.png`.
+
 
 ### The pricing
 
@@ -115,21 +98,45 @@ pack.json
 }
 ```
 
-## Package images using GDevelop
+
+## Package using GDevelop
+
+To get a 100% valid file for the asset store you can add your resource as object into GDevelop, then export a `.gdo` file that will contains the whole object as your set them into the engine.
 
 You can create an asset pack with GDevelop editor following these steps:
 
 - Create an empty scene
-- Create objects that use the images
+- Create objects that use the your art
 - Right click on **Scene Objects** and choose **Export as a pack**
 
 ![](export-gdo.png)
 
 The exported GDO file contains all the objects configuration and the images files that they use.
 
-### Still images
+### The audio files
 
-Still images don't need any configuration with GDevelop editor. You can put them in a folder next to the GDO file. You Still have to make sure to follow the [naming best practices](#follow-naming-best-practices).
+The audio files aren't supported yet in .gdo. You can put them in a folder next to the GDO file. Then compress the whole thing to send the .zip or .rar for application to the form.
+
+
+## Package manually
+
+
+In a nutshell: these are the basic rules to submit video game asset images. Make sure that your files respect the following guidelines:
+
+- Each image frame, has to be a png transparency file
+- Every animation frame has to be the same pixel size as the other animation states
+- Tiles and GUI images have to be properly aligned
+
+!!! note
+
+        - Sprite sheets **are not supported**! Each animation frame must **be a separate image**.
+
+        - GDevelop does not support image the origin point for different animations yet.
+
+
+### Static images
+
+Static images don't need any configuration with GDevelop editor. You can put them in a folder next to the GDO file. You Still have to make sure to follow the [naming best practices](#follow-naming-best-practices).
 
 ### Sprites with animations or states
 
