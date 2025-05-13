@@ -126,7 +126,7 @@ Check if the user is signed in.
 | `CrazyGamesAdApi::IsUserAccountAvailable()` | Return the availability of the user's account. ||
 | `CrazyGamesAdApi::LastError()` | Return the last error from the CrazyGames API. ||
 | `CrazyGamesAdApi::LinkAccountResponse()` | Get link account response. ||
-| `CrazyGamesAdApi::ProfilePic()` | Get user signed in profile picture url. ||
+| `CrazyGamesAdApi::ProfilePic()` | Gets the signed-in user's profile picture URL. ||
 | `CrazyGamesAdApi::SessionData(string)` | Get user session data. ||
 | | _string_ | Id |
 | `CrazyGamesAdApi::SystemInfo()` | Retrieves user system info, browser, version and device. ||
