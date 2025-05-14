@@ -104,6 +104,7 @@ nav:
         - Stay On Screen: stay-on-screen
         - Stick objects to others: sticker
         - Timed Back and Forth Movement: timed-back-and-forth-movement
+        - Top-down movement animator: top-down-movement-animator
         - Make object travel to random positions: travel-to-random-positions
         - Turret movement: turret
     - Network:
@@ -215,7 +216,6 @@ nav:
             - Rectangular Movement (deprecated): rectangular-movement
             - Sine (or ellipsis) Movement (deprecated): sine-movement
             - Top-down corner sliding: top-down-corner-sliding
-            - Top-down movement animator: top-down-movement-animator
             - Trampoline Platform: trampoline-platform
             - Top-down walk: walk3d
         - Network:
