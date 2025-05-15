@@ -9,7 +9,7 @@ Move objects on a straight line.
 
 Move objects on a straight line or according to their angle.
 
-It can be used for simple enemies or bullets.
+It can be used for simple enemies or bullets. It's usually not adapted for players (other behaviors are a better choice) or bullets fired with the actions provided by the "Fire Bullet" behavior (these bullets are already moved using a force).
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

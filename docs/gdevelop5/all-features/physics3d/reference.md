@@ -207,6 +207,76 @@ Compare the object restitution. Energy conservation on collision. The combined r
 | `Object.Physics3D::Restitution()` | Return the object restitution. Energy conservation on collision. The combined restitution from two bodies is calculated as 'max(bodyA.restitution, bodyB.restitution)'.. ||
 | `Object.Physics3D::WorldScale()` | Return the world scale. ||
 
+## 3D physics car 
+
+Simulate a realistic car using the 3D physics engine. 
+
+### Behavior actions
+
+**Engine inertia**  
+Change the engine inertia (kg·m²). It slows down car acceleration.
+
+**Engine max speed**  
+Change the engine max speed (RPM).
+
+**Engine max torque**  
+Change the engine max torque (N·m). It allows cars to climb steep slopes and push heavy obstacles.
+
+**Simulate accelerator stick control**  
+Simulate an accelerator stick control.
+
+**Simulate move backward key press**  
+Simulate a press of the move backward key.
+
+**Simulate move forward key press**  
+Simulate a press of the move forward key.
+
+**Simulate hand break key press**  
+Simulate a press of the hand break key.
+
+**Simulate move left key press**  
+Simulate a press of the move left key.
+
+**Simulate move right key press**  
+Simulate a press of the move right key.
+
+**Simulate steering stick control**  
+Simulate a steering stick control.
+
+### Behavior conditions
+
+**Current gear**  
+Compare the current gear (-1 = reverse, 0 = neutral, 1 = 1st gear).
+
+**Engine inertia**  
+Compare the engine inertia (kg·m²). It slows down car acceleration.
+
+**Engine speed**  
+Compare the current engine speed (RPM).
+
+**Engine max speed**  
+Compare the engine max speed (RPM).
+
+**Engine max torque**  
+Compare the engine max torque (N·m). It allows cars to climb steep slopes and push heavy obstacles.
+
+**Is on floor**  
+Check if any wheel is in contact with the ground.
+
+**Steer angle**  
+Compare the current steer angle (in degree). The value is negative when cars turn left.
+
+### Behavior expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.PhysicsCar3D::CurrentGear()` | Return the current gear (-1 = reverse, 0 = neutral, 1 = 1st gear). ||
+| `Object.PhysicsCar3D::EngineInertia()` | Return the engine inertia (kg·m²). It slows down car acceleration. ||
+| `Object.PhysicsCar3D::EngineSpeed()` | Return the current engine speed (RPM). ||
+| `Object.PhysicsCar3D::EngineSpeedMax()` | Return the engine max speed (RPM). ||
+| `Object.PhysicsCar3D::EngineTorqueMax()` | Return the engine max torque (N·m). It allows cars to climb steep slopes and push heavy obstacles. ||
+| `Object.PhysicsCar3D::SteerAngle()` | Return the current steer angle (in degree). The value is negative when cars turn left. ||
+
 ## 3D physics character 
 
 Jump and run on platforms. 

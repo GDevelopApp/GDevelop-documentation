@@ -1348,6 +1348,19 @@ Simulate realistic 3D physics for this object including gravity, forces, collisi
 | `Object.Physics3D::Restitution()` | Return the object restitution. Energy conservation on collision. The combined restitution from two bodies is calculated as 'max(bodyA.restitution, bodyB.restitution)'.. ||
 | `Object.Physics3D::WorldScale()` | Return the world scale. ||
 
+## 3D physics car (from extension 3D physics engine)
+
+Simulate a realistic car using the 3D physics engine. [Read more explanations about it.](/gdevelop5/behaviors/physics3d)
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.PhysicsCar3D::CurrentGear()` | Return the current gear (-1 = reverse, 0 = neutral, 1 = 1st gear). ||
+| `Object.PhysicsCar3D::EngineInertia()` | Return the engine inertia (kg·m²). It slows down car acceleration. ||
+| `Object.PhysicsCar3D::EngineSpeed()` | Return the current engine speed (RPM). ||
+| `Object.PhysicsCar3D::EngineSpeedMax()` | Return the engine max speed (RPM). ||
+| `Object.PhysicsCar3D::EngineTorqueMax()` | Return the engine max torque (N·m). It allows cars to climb steep slopes and push heavy obstacles. ||
+| `Object.PhysicsCar3D::SteerAngle()` | Return the current steer angle (in degree). The value is negative when cars turn left. ||
+
 ## 3D physics character (from extension 3D physics engine)
 
 Jump and run on platforms. [Read more explanations about it.](/gdevelop5/behaviors/physics3d)
