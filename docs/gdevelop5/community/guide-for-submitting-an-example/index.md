@@ -6,6 +6,16 @@ title: Guide for submitting examples
 
 Submitting example is a great way to contribute to GDevelop and help others. If your example is good enough, it will be accepted to the example library and will be available in GDevelop.
 
+## Check if the same example already exists
+
+The first thing you should do is check if an example that does the same thing already exists. You won't be excited to take your time making something that already has been done.
+
+Search through the examples list in GDevelop (**Create a new project** → **Examples tab**), and make sure the same example doesn't exist.
+
+## Discussing with the community
+
+You can discuss with the GDevelop community on [Discord](https://discord.com/invite/rjdYHvj) or open a new thread on the [GDevelop forum](https://forum.gdevelop.io) on how the example can be improved or if you have any doubts before starting something.
+
 ## Choose a scope
 
 ### Make a full game template
@@ -32,21 +42,14 @@ An example that focuses on 1 feature and allows users to see how it works in eve
 
     The engine is checked with automatic tests, but these examples can be useful for users to check the features themselves and investigate an issue before retorting it.
 
-## Check if the same example already exists
-
-The first thing you should do is check if an example that does the same thing already exists. You won't be excited to take your time making something that already has been done.
-
-Search through the examples list in GDevelop (**Create a new project** → **Examples tab**), and make sure the same example doesn't exist.
-
-## Discussing with the community
-
-You can discuss with the GDevelop community on [Discord](https://discord.com/invite/rjdYHvj) or open a new thread on the [GDevelop forum](https://forum.gdevelop.io) on how the example can be improved or if you have any doubts before starting something.
-
 ## License
 
-The free examples will be MIT licensed (see this [Wikipedia page](https://en.wikipedia.org/wiki/MIT_License) for more info about the MIT license).
+- **Free**: The free games template are also know as example projects. The free examples are all [MIT licensed](https://en.wikipedia.org/wiki/MIT_License).
+- **Paid**: You are agreeing to this final license for the end-user buying your assets: [Asset Store License Agreement](https://gdevelop.io/page/asset-store-license-agreement)
 
-You will have to make sure the example can be MIT licensed and make sure the resources can also be distributed under the MIT license. If you are having doubts about the license of the resources, ask the creator and ask for permission (this is important!).
+!!! warning
+
+     Ensure that the example and the associate resources can be MIT licensed, or that you hold full rights for your paid game template and the associate resources. If you are uncertain about the licensing of any resource, consult the original creator or contact the GDevelop team for verification.
 
 ## Best Practices
 
@@ -102,26 +105,21 @@ Sometimes words alone are not enough. If you feel diagrams will help, you can [s
 
 You can change the color of the comments according to its use (for example, green for a tip, orange for a warning). Otherwise, just keep the default color.
 
-#### Resources
-
-- Remove unused resources from both the [resource manager](/gdevelop5/interface/project-manager/resources) and then from the project folder
-
-- It is recommended to add all the resources in a folder called `assets`, and add sub-folders according to the use of the assets (GUI, Player, Power-ups) if needed.
-- The images should not be too large (2000x2000 is a maximum).
-- You will have to confirm that this example and all of its resources can be integrated to the GitHub repository (where all the example are stored), distributed and MIT licensed.
-
-#### Keep everything clean
+#### Keep a project clean
 
 - Remove any unnecessary scenes, external events, external layouts
 - Remove unused variables
+- Remove unused resources from both the [resource manager](/gdevelop5/interface/project-manager/resources) and then from the project folder
+- The images should not be too large (2000x2000 is a maximum).
+- It is recommended to add all the resources in a folder called `assets`, and add sub-folders according to the use of the assets (GUI, Player, Power-ups) if needed.
 - Remove unused resources, images, sounds, fonts, from the project folder
 - Remove any unnecessary events from the event sheet
 
 #### Projects folder
 
-- the `.json` file and the project folder's name should be renamed to the example's name, with `-` instead of spaces. For example: an example with `Not a vania` as name should have `not-a-vania` as its folder name and its `.json` filename.
+- The `.json` file and the project folder's name should be renamed to the example's name, with `-` instead of spaces. For example: an example with `Not a vania` as name should have `not-a-vania` as its folder name and its `.json` filename.
 - The project should not be using multiple files for saving (using a single JSON file).
-- The project should have a `README.md` file with a text describing the example (see _Submitting examples_ section for more information).
+- The project should have a `README.md` file with a text describing the example.
 
 #### Project Properties
 
@@ -136,22 +134,33 @@ You can change the color of the comments according to its use (for example, gree
 - Game resolution shouldn't exceed **1920x1080** so that the example can run on all devices without any performance issues .
 - If the example uses pixel art with small assets, "nearest neighbor" rendering is recommended.
 
-## Thumbnail and example description
-
-- You can include a `thumbnail.png` which is the icon for the example and will be shown in the examples library
-- The project folder should include a `README.md` file that has a description of the example.
-  You can create a `.md` file by opening any text editor (like Notepad on Windows), writing the description and saving the files with the name `README.md`.
-- Both the thumbnail and the Readme.md file should be in the main folder and not in any sub-folders.
-
-## Submitting the example
+## Submitting the game
 
 ### Paid game template
 
-Open your game in GDevelop, do a Save As in a new folder, then zip the folder containing the game and the resources and send them to the GDevelop team with **[this form to publish on the GDevelop's store](https://forms.gle/rqQajpDWEF3Em8HS6)**.
+Open your game in GDevelop, do a Save As in a new folder, then zip the folder containing the game, the resources, and send them to the GDevelop team with **[this form to publish on the GDevelop's store](https://forms.gle/rqQajpDWEF3Em8HS6)**.
 
 ### Free game template
 
-You can submit a free example to the [Example repository](https://github.com/GDevelopApp/GDevelop-examples/issues) as an issue.
+Open your game in GDevelop, do a Save As in a new folder, then zip the folder containing the game, the resources, and send them to the GDevelop team with these additional files and informations:
+
+- Get a thumbnail:
+
+  - Must be 16:9, `1280x720` or `1920x1080`.
+  - File format in `.png`.
+  - Must be named: `thumbnail.png`.
+
+- Get a description:
+
+  - Must be an inline description that represent the game shortly.
+  - File format in `.md`.
+  - Must be named: `readme.md`.
+
+!!! note
+
+    Both the thumbnail and the Readme.md file should be in the main folder and not in any sub-folders.
+
+Then you can submit your free example directly to the [Example repository](https://github.com/GDevelopApp/GDevelop-examples/issues) as an issue.
 
 - Go to the site,
 - Click The Green **New Issue** button:
@@ -189,5 +198,4 @@ Congratulations! Now your example has been submitted, but it won't be directly a
 
 !!! warning
 
-        There is no guarantee that your example will be accepted, it can be rejected if the example is not suitable
-     for the library. Also remember that while it's hard to get some feedback, reviewers are asking for changes because they believe this will improve your example. Try to rework the example using their feedback! Once you think it's good enough, you can ask for another review or discuss points where you might disagree.
+        There is no guarantee that your example will be accepted, it can be rejected if the example is not for the library. Also remember that while it's hard to get some feedback, reviewers are asking for changes because they believe this will improve your example. Try to rework the example using their feedback! Once you think it's good enough, you can ask for another review or discuss points where you might disagree.
