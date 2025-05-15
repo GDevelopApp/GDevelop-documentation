@@ -82,42 +82,29 @@ French food
 
 `TAGS.md` files can be used in folders to add additional tags that could describes the assets if the words aren't already in the folder name or the asset name.
 
-
-
-## Package fonts
-
-Put the fonts in to a `Font` folders.
-Formats supported are:
-
-- .ttf
-- .otf
-
-### Static
+### Sprite
 
 You can put them in a folder of your choice. You Still have to make sure to follow the [naming best practices](/gdevelop5/community/contribute-to-the-assets-store#follow-naming-best-practices).
 
-### Sprites with animations or states
+#### Static sprite
 
-Images that represent a same object at different states should be in the same [Sprite](/gdevelop5/objects/sprite) object as animations.
+For unanimated [Sprites](/gdevelop5/objects/sprite), a single image with the name of the object is enough.
 
-!!! tip
+`Chair.png`
 
-    Frames of all animations of an object can be imported at once by selecting several files. The editor will detect animation names automatically.
+#### Sprites with animations or states
 
-Each state (called **Animation** in the editor) can be animated or not.
+For animated sprites require multiple animated frames, which have to be named properly. While writing your file names, it is important that you follow a specific naming structure:
 
-Some instances of states:
+`BaseName_AnimationState_frame#.png`
 
-- Empty or Filled
-- Close or Open
-- Locked or Unlocked
-- On or Off
+### Tiled Sprite
 
-If your pack contains color variations of the same, it's recommended to create an object for each one.
+### Panel Sprite
 
-Collections of images like playing cards should be merged into one object that contains an animation for each card.
+### 3D Box
 
-## Package 3D models
+### 3D models
 
 Supported 3D file formats are:
 
@@ -141,11 +128,19 @@ Supported 3D file formats are:
 
     There's no need to add images preview for the models, the asset store will automatically generate them.
 
-## Tile maps
+### Tile map
 
-[Tile map](/gdevelop5/objects/tilemap) are not supported by the asset store.
+[Tile map](/gdevelop5/objects/tilemap) are not yet supported for manual packaging. It must be integrated and configured in GDevelop then exported as `.gdo` by a right-click on the object.
 
-## Package audio
+### Fonts
+
+Put the fonts in to a `Font` folders.
+Formats supported are:
+
+- .ttf
+- .otf
+
+### Audio, sound, music
 
 Put your audio files `.aac`, `.wav`, `.mp3` (prefer `.aac`) directly in a `Audio` folder, with the name to be displayed: `Laser effect.aac`, `Background music.aac`.
 
@@ -166,21 +161,27 @@ This will create high-quality audio files, but using a variable bit rate that wo
 
 ![](freac-quality.jpg)
 
-!!! tip
+### Spine
 
-        **How to submit my sounds and music when they are ready?**
+[Spine](/gdevelop5/objects/spine) are not yet supported for manual packaging. It must be integrated and configured in GDevelop then exported as `.gdo` by a right-click on the object.
 
-    Zip the folder containing them and send them to the GDevelop team on Github by opening an [issue here](https://github.com/4ian/GDevelop/issues/new?assignees=&labels=%F0%9F%93%A6+Asset+Store+submission&template=--asset-store-submission.md&title=).
+### Custom objects
 
-## Tiled images
+[Custom object (prefab)](/gdevelop5/objects/custom-objects-prefab-template/) with and without variant(s) are not yet supported for manual packaging. It must be integrated and configured in GDevelop then exported as `.gdo` by a right-click on the object.
 
-Images that can be used as a pattern should be [Tiled sprites](/gdevelop5/objects/tiled_sprite).
+### 2D & 3D Particules emitter
 
-## 9-patches
+3D and [2D particle emitter](/gdevelop5/objects/particles_emitter/) with and without variant(s) are not yet supported for manual packaging. It must be integrated and configured in GDevelop then exported as `.gdo` by a right-click on the object.
 
-[Panel Sprite ("9-patch")](/gdevelop5/objects/panel_sprite) is an object where its image is split into 9 pieces or slices and each slice is scaled separately.
+---
 
-Corners should be fit as precisely as possible. This allows to use smaller objects size (where the center reaches 0 pixel).
+---
+
+---
+
+---
+
+---
 
 ## License
 
