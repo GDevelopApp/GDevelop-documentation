@@ -76,7 +76,7 @@ These behaviors make the character move according to player inputs automatically
 
 The **3D physics car** behavior simulates a realistic car using the 3D physics engine.
 
-Physics properties often have an impact on several part of the car movement. Following the these steps can help to save time:
+Physics properties often have an impact on several parts of the car movement. Following these steps can help to save time:
 
 - Avoid the car to roll when it turns
 - Setup how quick the car falls back on the road
@@ -86,7 +86,7 @@ Physics properties often have an impact on several part of the car movement. Fol
 You may need to do the last 2 steps many times to finely tweak your game feel.
 
 !!! tip 
-    It can be a good idea to start from an example and change some properties to see how they affect the gameplay.
+    It can be a good idea to start from an example and change some properties to see how they affect the game feel.
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://3d-car-coin-hunt){ .md-button .md-button--primary }
 
@@ -98,7 +98,7 @@ The first thing to setup for any realistic game that uses the physics behavior i
 
 ### Avoid cars to levitate
 
-By default the physics shape encompass the whole 3D model. If your 3d model include the wheels, you need to set a custom shape size to exclude them. For instance, let's say:
+By default, the physics shape encompasses the whole 3D model. If your 3d model includes the wheels, you need to set a custom shape size to exclude them. For instance, let's say:
 
 - the whole car **depth** is `30` pixels
 - the wheel radius is `6` pixels
@@ -107,7 +107,7 @@ You would set:
 - a custom depth of `30 - 6` which is `24`
 - a **shape offset Z** of `6 / 2` which is `3` to move the shape up on the car chassis
 
-The default position of the wheels are in the bottom corners of the car. The wheels are centered in Z axis on the bottom of the physics shape, but don't stick out on X and Y axis.
+The default positions of the wheels are in the bottom corners of the car. The wheels are centered in Z axis on the bottom of the physics shape, but don't stick out on X and Y axis.
 
 ![](wheels-default-position.png)
 
@@ -129,7 +129,7 @@ A car usually weight about 1,500 kg. It can be a good value to start
 
 **Gravity scale**
 
-When a car jump off from a slope, you may want to give back control to the player by making quickly it go back on the road. It's better to use the gravity scale instead of the mass for this because it won't affect the car acceleration and collision.
+When a car jumps off from a slope, you may want to give back control to the player by making quickly it go back on the road. It's better to use the gravity scale instead of the mass for this because it won't affect the car acceleration and collision.
 
 ### Avoid cars to slip when it turns
 
