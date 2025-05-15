@@ -74,16 +74,23 @@ These behaviors make the character move according to player inputs automatically
 
 ## Move a 3D car with controls
 
-Physics properties often have an impact on several part of the car movement. Following the following steps can help to save time:
+The **3D physics car** behavior simulates a realistic car using the 3D physics engine.
+
+Physics properties often have an impact on several part of the car movement. Following the these steps can help to save time:
 
 - Avoid the car to roll when it turns
-- Setup how quick the car fall back on the road
-- Avoid the cars to slip when it turns
+- Setup how quick the car falls back on the road
+- Avoid the car to slip when it turns
 - Setup how fast the car moves
 
 You may need to do the last 2 steps many times to finely tweak your game feel.
 
-**World scale**
+!!! tip 
+    It can be a good idea to star from an example and change some properties to see how they affect the gameplay.
+
+[![](car-coin-hunt.png){ width="320" }](https://editor.gdevelop.io/?project=example://3d-car-coin-hunt)
+
+### Choose a realistic world scale
 
 The first thing to setup for any realistic game that uses the physics behavior is the world scale. Objects are placed in a scene using pixels but the physics behavior works with meters. The world scale allows to do the conversion. For instance, let's say the car is 40 pixels wide in the scene. Considering a car is about 2 meters wide, you would set a world scale of `40 / 2` which is `20`.
 
