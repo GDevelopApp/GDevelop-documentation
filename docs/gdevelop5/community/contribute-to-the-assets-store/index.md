@@ -121,6 +121,31 @@ To export a a `.gdo` file from the GDevelop editor following these steps:
 
 ![](export-gdo.png)
 
+### Fit art with an object
+
+Your files must all match an object type, please [follow the object page](gdevelop5/objects/) which details each type and will help you to integrate your files correctly.
+
+### Fonts
+
+Put the fonts in to a `Font` folders.
+Formats supported are:
+
+- .ttf
+- .otf
+
+### Package audio
+
+Put your audio files `.aac`, `.wav`, `.mp3` (prefer `.aac`) directly in a `Audio` folder, with the name to be displayed: `Laser effect.aac`, `Background music.aac`.
+
+!!! warning
+
+        🚨 Careful about the size! Players are sensitive to the size of a game download (especially on mobile and on the web). **Try to keep music file sizes around 1 to 2 MB.  In rare cases, these can be 4 or 5 MB, but not larger.** Consider downgrading the quality a bit to keep the music files around these sizes.
+    Sound effects are usually even smaller. If a sound file is larger than 200 or 300 KB, consider downgrading the quality.
+
+### Other objects
+
+If you are in doubt, ask to the GDevelop team or the community if your files can be supported by an objects, or fit a [custom objects (prefab)](gdevelop5/objects/custom-objects-prefab-template/).
+
 ## Package manually
 
 You can create an pack by packaging yourself the files without the game engine editor. It can be achieve by following these [technical speficications](./technical-speficication.md).
