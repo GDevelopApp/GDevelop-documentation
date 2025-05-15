@@ -13,9 +13,9 @@ To become a seller you will be required to:
 
 1. Agree to revenue sharing.
 2. Choose for your pack: a title, a description, a price (free or paid), and a license.
-3. Produce a cover image in 16:9 format.
+3. Produce a thumbnail image in 16:9 format.
 4. Produce between 1 and 10 images (or audio) representing the content of the pack.
-5. Integrate your assets into a GDevelop project and export valid files for the store.
+5. Integrate your assets into a GDevelop project or export valid files for the store.
 6. Send us your files.
 
 Read on to learn more about revenue sharing, transactions, and other agreements to know before becoming a seller.
@@ -103,7 +103,7 @@ See the table below to check if your country is eligible. If your country is not
 All Asset Packs are safely stored on GDevelop's cloud.
 This way, we ensure that the files are available for instant purchase and in-app use.
 
-## Submitting your assets
+## Submitting on the asset store
 
 First and foremost, we want to ensure the Asset Store remains a place of high quality and safe for everyone's use. Assets must be fully functional within the game engine to be eligible for the Asset Store.
 

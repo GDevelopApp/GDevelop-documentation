@@ -2,6 +2,8 @@
 title: Manually package the assets
 ---
 
+https://web.archive.org/web/20231129030022/https://wiki.gdevelop.io/gdevelop5/community/contribute-to-the-assets-store/#the-title-description-and-price
+
 !!! warning
 
     This page is not yet complete.
