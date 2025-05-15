@@ -231,8 +231,8 @@ Simulate a press of the move backward key.
 **Simulate move forward key press**  
 Simulate a press of the move forward key.
 
-**Simulate hand break key press**  
-Simulate a press of the hand break key.
+**Simulate hand brake key press**  
+Simulate a press of the hand brake key.
 
 **Simulate move left key press**  
 Simulate a press of the move left key.

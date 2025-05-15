@@ -71,6 +71,7 @@ nav:
         - Konami Code: konami-code
         - Cursor object: mouse-helper
         - Mouse Pointer Lock: mouse-pointer-lock
+        - 3D car keyboard mapper: physics-car3dkey-mapper
         - 3D character keyboard mapper: physics-character3dkey-mapper
         - Pinching gesture: pinch-gesture
         - Multitouch joystick and buttons (sprite): sprite-multitouch-joystick

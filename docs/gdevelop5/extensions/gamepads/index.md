@@ -183,6 +183,13 @@ Compare the maximum vertical rotation speed of the object.
 | `Object.FirstPersonGamepadMapper::VerticalRotationDeceleration()` | Return the vertical rotation deceleration of the object. ||
 | `Object.FirstPersonGamepadMapper::VerticalRotationSpeedMax()` | Return the maximum vertical rotation speed of the object. ||
 
+## 3D car gamepad mapper 
+
+Control a 3D physics car with a gamepad. 
+
+_No expressions for this behavior._
+
+
 ## 3D platformer gamepad mapper 
 
 Control a 3D physics character with a gamepad. 

@@ -211,6 +211,13 @@ Check if button is released.
 _No expressions for this behavior._
 
 
+## 3D car multitouch controller mapper 
+
+Control a 3D physics car with a multitouch controller. 
+
+_No expressions for this behavior._
+
+
 ## 3D platformer multitouch controller mapper 
 
 Control a 3D physics character with a multitouch controller. 

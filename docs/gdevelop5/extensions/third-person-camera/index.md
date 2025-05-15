@@ -35,6 +35,9 @@ Smoothly follow an object at a distance.
 
 ### Behavior actions
 
+**Rotate the camera all the way**  
+Rotate the camera all the way to the targeted angle.
+
 **Move the camera closer**  
 Move the camera closer to the object. This action must be called after the object has moved for the frame.
 
@@ -46,6 +49,9 @@ Change the camera distance of the object.
 
 **Elevation angle offset**  
 Change the elevation angle offset of the object.
+
+**Halfway  time for elevation rotation**  
+Change the halfway  time for elevation rotation of the object.
 
 **Follow free area top border on Z axis**  
 Change the follow free area top border on Z axis of the object.
@@ -82,6 +88,9 @@ Compare the camera distance of the object.
 **Elevation angle offset**  
 Compare the elevation angle offset of the object.
 
+**Halfway  time for elevation rotation**  
+Compare the halfway  time for elevation rotation of the object.
+
 **Follow free area top border on Z axis**  
 Compare the follow free area top border on Z axis of the object.
 
@@ -115,6 +124,7 @@ Compare the halfway time on Z axis of the object.
 |-----|-----|-----|
 | `Object.ThirdPersonCamera::Distance()` | Return the camera distance of the object. ||
 | `Object.ThirdPersonCamera::ElevationAngleOffset()` | Return the elevation angle offset of the object. ||
+| `Object.ThirdPersonCamera::ElevationHalfwayDuration()` | Return the halfway  time for elevation rotation of the object. ||
 | `Object.ThirdPersonCamera::FollowFreeAreaZMax()` | Return the follow free area top border on Z axis of the object. ||
 | `Object.ThirdPersonCamera::FollowFreeAreaZMin()` | Return the follow free area bottom border on Z axis of the object. ||
 | `Object.ThirdPersonCamera::OffsetX()` | Return the lateral distance offset of the object. ||
