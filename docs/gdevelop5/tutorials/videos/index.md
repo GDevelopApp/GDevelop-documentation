@@ -38,7 +38,7 @@ title: Video Tutorials
 
 ## Use objects
 
-- **[GDevelop Intro Tutorial: Object Types](https://www.youtube.com/watch?v=KpLAYMSgoDI)**
+- **[GDevelop Intro Tutorial: Object Types](https://www.youtube.com/watch?v=r_Z8N9asT14)**
 - [How to create a water/surface reflection](https://youtu.be/TJYVjn5jYjU)
 - [How to use Orbiting objects to create a spinner](https://youtu.be/WbH7ChC9g0w)
 - [How to use the Screen Wrap Extension](https://youtu.be/it-dIjfmQJs)
