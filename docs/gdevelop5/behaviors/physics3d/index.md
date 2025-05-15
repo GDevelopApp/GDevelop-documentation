@@ -86,7 +86,9 @@ Physics properties often have an impact on several part of the car movement. Fol
 You may need to do the last 2 steps many times to finely tweak your game feel.
 
 !!! tip 
-    It can be a good idea to star from an example and change some properties to see how they affect the gameplay.
+    It can be a good idea to start from an example and change some properties to see how they affect the gameplay.
+
+[Open example in GDevelop](https://editor.gdevelop.io/?project=example://3d-car-coin-hunt){ .md-button .md-button--primary }
 
 [![](car-coin-hunt.png){ width="320" }](https://editor.gdevelop.io/?project=example://3d-car-coin-hunt)
 
