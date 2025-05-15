@@ -141,7 +141,7 @@ GDevelop have several limitation for now, as they are:
 Ask a question on [this Trello board](https://trello.com/c/s8RctC9M/2-asset-rules-and-regulations) card. If the rules here are too complicated or are giving you too much work, you can suggest a new rule and we'll see if we can adapt the importer so that it can understand your asset structure.
 The goal is to make objects more or less automatically!
 
-## How to send my files when they are ready?
+## Submitting the asset pack
 
 Compress the folder containing the `.gdo` or the other folders of your pack, then send it to the GDevelop by filling the application form with the button below:
 
