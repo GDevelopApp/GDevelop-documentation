@@ -20,7 +20,7 @@ To become a seller you will be required to:
 
 Read on to learn more about revenue sharing, transactions, and other agreements to know before becoming a seller.
 
-## Revenue sharing
+## Revenue Sharing
 
 ![](revenue-sharing.png)
 
@@ -36,32 +36,33 @@ Note that:
 
     Earnings from GDevelop paying services (including [premium licenses](https://gdevelop.io/pricing)) are reinvested in internet hosting fees, engine development, product research, and feature development.
 
-## The pricing
+## The Pricing
 
-It contains 2 types of pricing:
+Products on the store can be:
 
 - **Free**: These assets are accessible to anyone, royalty-free, and open for any type of modification.
 - **Paid**: These assets are of higher quality and are carefully selected by the GDevelop team for a more unique game style.
 
-Getting a good price for your work is important. A lower price means your percentage of revenue will be lower, while a higher price might mean your work won't sell well. See the prices in the store to get an idea of the current pricing.
-Nevertheless, if the GDevelop team thinks that the price of a creator is either too high or too low compared to the average price on the Asset Store, we will reach out to you to let you know the price must be adjusted.
+Setting the right price for your work is important. A lower price reduces your revenue share, while a higher price may lead to fewer sales. Check some products on the Asset Store to understand current pricing.
+
+If your price is significantly above or below the average, the GDevelop team may contact you to suggest an adjustment.
 
 !!! note
 
     Please note that if you would like to change the price of the pack afterward, you will have to get in touch with us.
 
-## The license(s)
+## The License(s)
 
-Licenses are complex. To keep it simple, if you're not sure what to choose, we suggest these:
+We suggest these licenses for your assets:
 
-- **Free**: [CC0](https://creativecommons.org/public-domain/cc0/) or [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-- **Paid**: You are agreeing to this final license for the end-user buying your assets: [Asset Store License Agreement](https://gdevelop.io/page/asset-store-license-agreement)
+- **Free**: [CC0](https://creativecommons.org/public-domain/cc0/), [MIT licensed](https://en.wikipedia.org/wiki/MIT_License) or [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- **Paid**: Assets are covered by the [Asset Store License Agreement](https://gdevelop.io/page/asset-store-license-agreement).
 
 !!! warning
 
     You have to own the rights to your assets. If an asset is flagged for infringing copyright after being accepted and uploaded to the store, we reserve the right to remove the entire pack or the asset and cancel all purchases that have been processed for it.
 
-## Invoices management
+## Invoices Management
 
 GDevelop's Asset Store is built as a marketplace: GDevelop hosts a digital solution that allows users to sell their products (sellers) to users that would like to use them in their projects (buyers).
 
@@ -77,19 +78,19 @@ As a seller, by selling your products on GDevelop's Asset Store, you accept that
 
 ## Transaction Management
 
-When the number of sales becomes significant, we proceess to the payment with Stripe or [Tremendous](https://www.tremendous.com/catalog/).
+Every few months or when you have a significant number of sales, payments are sent to you through Stripe or [Tremendous](https://www.tremendous.com/catalog/).
 
-- **Stripe**: Better for pros and mosts countries from the EU. We can give you thanks to Stripe a dashboard with the transactions and invoices. To do that the GDevelop's team will create a Stripe vendor account for you. That you will have to complete your registration with your email address, home address, full name, and bank details. Once you've filled in this information, your Stripe account will be up and running with a purchases dashboard, where you'll be able to follow all your transactions. Payments to your bank account can be scheduled directly on Stripe to happen on a daily basis.
+- **Stripe:** Recommended for professionals and most EU countries. With Stripe, you’ll get access to a dashboard where you can view your transactions and invoices. The GDevelop team will create a Stripe vendor account for you. To activate it, you’ll need to complete your registration by providing your email address, home address, full name, and bank details. Once set up, you’ll be able to track all your transactions through the dashboard. Payouts to your bank account can be scheduled directly from Stripe, with daily transfers available.
 
-- **Tremendous**: You will get an email with a private access to get a code of your gift card or for a Virtual Visa Card.
+- **Tremendous:** You will receive an email with a private link to claim your gift card or Virtual Visa Card.
 
-GDevelop issue invoices, to do this, and to be eligible to sell on the asset store, we'll need:
+GDevelop issues invoices. To do this, and to be eligible to sell on the Asset Store, we require the following:
 
 - Your full name.
 - Email address.
 - An address in your country of residence.
 - Bank details (Stripe only)
-- You need to be older than 13 years old. ( According to [Stripe's terms and conditions](https://support.stripe.com/questions/age-requirement-to-create-a-stripe-account) users under 18 years old will need the permission of a legal tutor to withdraw their earnings.)
+- You need to be older than 13 years old. (According to [Stripe's terms and conditions](https://support.stripe.com/questions/age-requirement-to-create-a-stripe-account) users under 18 years old will need the permission of a legal tutor to withdraw their earnings.)
 
 See the table below to check if your country is eligible. If your country is not on the list, please reach out to us so we can verify and let you know.
 
@@ -98,12 +99,12 @@ See the table below to check if your country is eligible. If your country is not
 | Stripe      | Estonia, Finland, Croatia, Cyprus, Australia, Belgium, Bulgaria, Czech Republic, Denmark, France, Germany, Gibraltar, Greece, Hungary, Ireland, Italy, Liechtenstein, Lithuania, Luxembourg, Malta, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, United Kingdom,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Tremendous  | Albania, Algeria, American Samoa, Andorra, Angola, Anguilla, Antarctica, Antigua and Barbuda, Argentina, Armenia, Aruba, Austria, Azerbaijan, Bahamas, Bahrain, Bangladesh, Barbados, Belize, Benin, Bermuda, Bhutan, Bolivia, Bonaire, Bosnia and Herzegovina, Botswana, Bouvet Island, Brazil, British Indian Ocean Territory, British Virgin Islands, Brunei Darussalam, Burkina Faso, Burundi, Cambodia, Cameroon, Canada, Cape Verde, Cayman Islands, Chad, Chile, Christmas Island, Cocos (Keeling) Islands, Colombia, Comoros, Congo, Cook Islands, Costa Rica, Cote d'Ivoire, Curacao, Djibouti, Dominica, Dominican Republic, East Timor, Ecuador, Egypt, El Salvador, Equatorial Guinea, Eritrea, Eswatini, Falkland Islands (Malvinas), Faroe Islands, Fiji, French Guiana, French Polynesia, French Southern Territories, Gabon, Gambia, Georgia, Ghana, Greenland, Grenada, Guadeloupe, Guam, Guatemala, Guernsey, Guinea, Guinea-Bissau, Guyana, Haiti, Heard Island and McDonald Islands, Honduras, Iceland, Isle of Man, Israel, Jamaica, Japan, Jersey, Jordan, Kazakhstan, Kenya, Kiribati, Kuwait, Kyrgyzstan, Laos, Latvia, Lesotho, Liberia, Macao, Madagascar, Malawi, Maldives, Marshall Islands, Martinique, Mauritania, Mauritius, Mayotte, Mexico, Micronesia, Moldova, Monaco, Mongolia, Montenegro, Montserrat, Morocco, Mozambique, Namibia, Nauru, Nepal, Netherlands, New Caledonia, New Zealand, Niger, Nigeria, Niue, Norfolk Island, North Macedonia, Northern Mariana Islands, Oman, Pakistan, Palau, Palestine, Panama, Paraguay, Peru, Pitcairn, Puerto Rico, Qatar, Reunion, Rwanda, Saint Barthelemy, Saint Helena, Saint Kitts and Nevis, Saint Lucia, Saint Martin (French part), Saint Pierre and Miquelon, Saint Vincent and the Grenadines, Samoa, San Marino, Sao Tome and Principe, Saudi Arabia, Senegal, Serbia, Seychelles, Sierra Leone, Singapore, Sint Maarten (Dutch part), Solomon Islands, South Africa, South Georgia and the South Sandwich Islands, South Korea, Sri Lanka, Suriname, Svalbard and Jan Mayen, Taiwan, Tajikistan, Tanzania, Togo, Tokelau, Tonga, Trinidad and Tobago, Tunisia, Turkey, Turkmenistan, Turks and Caicos Islands, Tuvalu, United Arab Emirates, United States, United States Minor Outlying Islands, Uruguay, US Virgin Islands, Uzbekistan, Vatican City, Vietnam, Wallis and Futuna, Western Sahara, Zambia, Estonia, Finland, Croatia, Cyprus, Australia, Belgium, Bulgaria, Czech Republic, Denmark, France, Germany, Gibraltar, Greece, Hungary, Ireland, Italy, Liechtenstein, Lithuania, Luxembourg, Malta, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, United Kingdom, |
 
-## Asset Pack storage and safety
+## Asset Pack Storage and Safety
 
 All Asset Packs are safely stored on GDevelop's cloud.
 This way, we ensure that the files are available for instant purchase and in-app use.
 
-## Submitting on the asset store
+## Submitting on the Asset Store
 
 First and foremost, we want to ensure the Asset Store remains a place of high quality and safe for everyone's use. Assets must be fully functional within the game engine to be eligible for the Asset Store.
 
