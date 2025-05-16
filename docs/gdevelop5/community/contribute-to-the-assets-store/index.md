@@ -10,18 +10,20 @@ GDevelop streamlines the integration of assets into game projects, eliminating t
 
 Before integrating your art into a pack, you'll need to think its fundamental elements, such as a thumbnail, the title, a description, and other key details. Let's explore each of these components that determine an asset pack.
 
-## Determine your Asset Pack
+## Get your Pack Ready
 
 ### Get a Thumbnail & Previews Files
 
 A pack with an attractive thumbnail makes it more visible. Additional images can help them figuring out if a pack suit their needs. Contrasted colors can be used. The thumbnail should reflect the pack's. Thumbnails that put assets in context are preferred to grids of assets.
 
 - Get a thumbnail:
+
   - Must be 16:9, `1280x720` or `1920x1080`
   - File format in `.png`
   - Must be named: `thumbnail.png`
 
 - Get previews (This step can be skipped for free packs.):
+
   - They can be from 1 to 9
   - Must be named `preview1.png`, `preview2.png`, ..., `preview9.png`
   - Must be 16:9, `1280x720` or `1920x1080`
@@ -106,10 +108,13 @@ Generic names to avoid:
 - Item 37
 - Robert (a proper noun)
 
-## Package Using GDevelop
+## Package your Art
 
-To ensure a fully valid file for the asset store, add your resources as objects within GDevelop.
-Then, export a `.gdo` file, which will contain the complete object configuration, and the folders structure you built as you've set it up in the engine.
+To ensure your asset package is valid for the Asset Store, there are two options:
+
+- **Export from the engine:** Package your art files directly in GDevelop and export a `.gdo` file. This file includes the complete object configuration and folder structure as set up in the engine.
+
+- **Manual packaging:** If you have a large number of assets, you can create a pack by manually organizing the files without using the game engine editor, following [the provided technical specifications](./technical-speficication.md).
 
 To export a a `.gdo` file from the GDevelop editor following these steps:
 
@@ -143,10 +148,6 @@ Put your audio files `.aac`, `.wav`, `.mp3` (prefer `.aac`) directly in a `Audio
 ### Other Objects
 
 If you are in doubt, ask to the GDevelop team or the community if your files can be supported by an objects, or fit a [custom objects (prefab)](gdevelop5/objects/custom-objects-prefab-template/).
-
-## Package Manually
-
-You can create an pack by packaging yourself the files without the game engine editor. It can be achieve by following these [technical speficications](./technical-speficication.md).
 
 ### Limitations
 
