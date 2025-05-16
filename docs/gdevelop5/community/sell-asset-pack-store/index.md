@@ -62,7 +62,7 @@ We suggest these licenses for your assets:
 
     You have to own the rights to your assets. If an asset is flagged for infringing copyright after being accepted and uploaded to the store, we reserve the right to remove the entire pack or the asset and cancel all purchases that have been processed for it.
 
-## Invoices Management
+## Invoice Management
 
 GDevelop's Asset Store is built as a marketplace: GDevelop hosts a digital solution that allows users to sell their products (sellers) to users that would like to use them in their projects (buyers).
 
@@ -90,7 +90,7 @@ GDevelop issues invoices. To do this, and to be eligible to sell on the Asset St
 - Email address.
 - An address in your country of residence.
 - Bank details (Stripe only)
-- You need to be older than 13 years old. (According to [Stripe's terms and conditions](https://support.stripe.com/questions/age-requirement-to-create-a-stripe-account) users under 18 years old will need the permission of a legal tutor to withdraw their earnings.)
+- You need to be older than 13 years old. (According to [Stripe's terms and conditions](https://support.stripe.com/questions/age-requirement-to-create-a-stripe-account) users under 18 years old will need the permission of a legal guardian to withdraw their earnings.)
 
 See the table below to check if your country is eligible. If your country is not on the list, please reach out to us so we can verify and let you know.
 
@@ -106,9 +106,9 @@ This way, we ensure that the files are available for instant purchase and in-app
 
 ## Submitting on the Asset Store
 
-First and foremost, we want to ensure the Asset Store remains a place of high quality and safe for everyone's use. Assets must be fully functional within the game engine to be eligible for the Asset Store.
+First and foremost, we want to ensure the Asset Store remains a place of high quality and is safe for everyone to use. Assets must be fully functional within the game engine to be eligible for the Asset Store.
 
-Two types are distinct; follow the guide that interests you:
+Follow the guide that applies to your submission:
 
 [Submitting an asset pack](/gdevelop5/community/contribute-to-the-assets-store/){ .md-button .md-button--primary }
 

@@ -4,11 +4,11 @@ title: Guide for submitting examples
 
 # Guide for submitting examples
 
-Submitting example is a great way to contribute to GDevelop and help others. If your example is good enough, it will be accepted to the example library and will be available in GDevelop.
+Submitting an example is a great way to contribute to GDevelop and help others. If your example is good enough, it will be accepted to the example library and will be available in GDevelop.
 
 ## Check if the same example already exists
 
-The first thing you should do is check if an example that does the same thing already exists. You won't be excited to take your time making something that already has been done.
+The first thing you should do is check if an example that does the same thing already exists. So you don't spend your time making something that has already been done.
 
 Search through the examples list in GDevelop (**Create a new project** → **Examples tab**), and make sure the same example doesn't exist.
 
@@ -24,11 +24,11 @@ A game that could almost be published as it is. It should be well organized and 
 
 !!! note
 
-    Full games templates are good candidates to be sold in the asset store.
+    Full game templates are good candidates to be sold in the asset store.
 
 ### Make a game as a proof of concept
 
-A game that is as simple as possible. The amount of content should be kept to the bare minimum. Visual effects are welcomed but functions must be used to avoid to cluttered events.
+A game that is as simple as possible. The amount of content should be kept to the bare minimum. Visual effects are welcomed but functions must be used to avoid cluttered events.
 
 ### Showcase engine or extension features
 

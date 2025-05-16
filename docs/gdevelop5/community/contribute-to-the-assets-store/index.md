@@ -4,11 +4,11 @@ title: Submit an Asset Pack
 
 # Submit an Asset Pack
 
-Publish on the GDevelop's asset store, you can publish royalty-free, public domain assets, or even [sell your own game art](/gdevelop5/community/sell-asset-pack-store).
+Publish on GDevelop's asset store, you can publish royalty-free, public domain assets, or even [sell your own game art](/gdevelop5/community/sell-asset-pack-store).
 
-GDevelop streamlines the integration of assets into game projects, eliminating the need for manual editing the assets. To ensure seamless compatibility with the asset store, submitted art must adhere to specific technical requirements. These constraints are easily managed within the engine: simply create objects with your art, configure the objects appropriately, and GDevelop will handle the necessary processing to export your assets in a `.gdo` file format ready for the asset store.
+GDevelop streamlines the integration of assets into game projects, eliminating the need for manually editing the assets. To ensure seamless compatibility with the asset store, submitted art must adhere to specific technical requirements. These constraints are easily managed within the engine: simply create objects with your art, configure the objects appropriately, and GDevelop will handle the necessary processing to export your assets in a `.gdo` file format ready for the asset store.
 
-Before integrating your art into a pack, you'll need to think its fundamental elements, such as a thumbnail, the title, a description, and other key details. Let's explore each of these components that determine an asset pack.
+Before integrating your art into a pack, you'll need to consider its fundamental elements, such as a thumbnail, title, description, and other key details. Let's explore each of these components that define an asset pack.
 
 ## Get your Pack Ready
 
@@ -36,7 +36,7 @@ A pack with an attractive thumbnail makes it more visible. Additional images can
 Having a good title is important, buyers search using keywords, choose a unique and short title that represents your pack.
 A good asset pack title is concise, descriptive, and engaging, clearly indicating the pack's primary content and making it easily discoverable and memorable for users.
 
-### Get a dDescription
+### Get a Description
 
 A good asset pack description clearly and concisely communicates the contents and value of the pack to potential users by highlighting included items, intended use cases, and any relevant details.
 
@@ -44,7 +44,7 @@ A good asset pack description clearly and concisely communicates the contents an
 
 (This step can be skipped for free packs.)
 
-A paid pack can have two pricing in the same time, depending of the use of the buyer.
+A paid pack can have two different prices, to fit the needs of the buyer.
 
 - **Single Commercial**: The price for one commercial game only.
 - **Unlimited Commercial**: The price for unlimited commercial games, an unlimited number of projects and platforms.
@@ -71,7 +71,7 @@ Your pack must comply with at least one of these main categories:
 A pack is organized into folders. Each folders names will be used by the asset store as tags to let users search for assets.
 Folders name should not be too specific because it's the purpose of object names. For example, objects `BlueCar` and `RedCar` should be in a folder named `Vehicle` and not `Car` because it allows users to browse every vehicle in the asset store. They can already find cars as the search also use object names.
 
-Some examples of folders names
+Some examples of folder names
 
 - Character
 - Animal
@@ -93,7 +93,7 @@ Some examples of folders names
 
 ### Follow Naming Best Practices
 
-The objects names must be descriptive. They are used by the search engine of the asset store.
+The object names must be descriptive. They are used by the search engine of the asset store.
 
 Instances of good names:
 
@@ -116,7 +116,7 @@ To ensure your asset package is valid for the Asset Store, there are two options
 
 - **Manual packaging:** If you have a large number of assets, you can create a pack by manually organizing the files without using the game engine editor, following [the provided technical specifications](./technical-speficication.md).
 
-To export a a `.gdo` file from the GDevelop editor following these steps:
+To export a `.gdo` file from the GDevelop editor, follow these steps:
 
 - Create an empty scene.
 - Create objects that use your art.
@@ -126,7 +126,7 @@ To export a a `.gdo` file from the GDevelop editor following these steps:
 
 ### Fit Art with an Object
 
-Your files must all match an object type, please [follow the object page](gdevelop5/objects/) which details each type and will help you to integrate your files correctly.
+Your files must all match an object type, please [follow the object page](/gdevelop5/objects/) which details each type and will help you to integrate your files correctly.
 
 ### Fonts
 
@@ -138,7 +138,7 @@ Formats supported are:
 
 ### Package Audio
 
-Put your audio files `.aac`, `.wav`, `.mp3` (prefer `.aac`) directly in a `Audio` folder, with the name to be displayed: `Laser effect.aac`, `Background music.aac`.
+Put your audio files `.aac`, `.wav`, `.mp3` (prefer `.aac`) directly into an `Audio` folder, with the name to be displayed: `Laser effect.aac`, `Background music.aac`.
 
 !!! warning
 
