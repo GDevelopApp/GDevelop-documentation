@@ -248,6 +248,5 @@ nav:
             - Make it rain: make-it-rain
             - Reflection: reflection
             - 3D Sky and sun: sky3d
-            - Sprite-based lighting: sprite-based-lighting
             - Advanced 3D tween: tween3d
     - ...
