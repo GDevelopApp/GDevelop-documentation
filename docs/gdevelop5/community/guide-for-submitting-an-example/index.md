@@ -32,7 +32,7 @@ A game that is as simple as possible. The amount of content should be kept to th
 
 ### Showcase engine or extension features
 
-A toy that uses some features in a smart or fun way. They are a good way to show how a feature may help to make a game without actually making one.
+A project that uses some features in a smart or fun way. They are a good way to show how a feature may help to make a game without actually making one.
 
 ### Test an extension
 

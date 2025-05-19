@@ -14,33 +14,33 @@ Before integrating your art into a pack, you'll need to consider its fundamental
 
 ### Get a Thumbnail & Previews Files
 
-A pack with an attractive thumbnail makes it more visible. Additional images can help them figuring out if a pack suit their needs. Contrasted colors can be used. The thumbnail should reflect the pack's. Thumbnails that put assets in context are preferred to grids of assets.
+A pack with an attractive thumbnail makes it more visible. Additional images can help them decide if a pack suits their needs. Use contrasting colors to make your thumbnail stand out. The thumbnail should accurately represent the contents of the pack. Thumbnails that show assets in context are preferred over simple grids of assets.
 
-- Get a thumbnail:
+- Thumbnail requirements:
 
-  - Must be 16:9, `1280x720` or `1920x1080`
-  - File format in `.png`
-  - Must be named: `thumbnail.png`
+  - Size: 16:9 ratio. Example: `1280x720` or `1920x1080`
+  - File:  `.png`
+  - Name: `thumbnail.png`
 
-- Get previews (This step can be skipped for free packs.):
+- Previews of your assets: extra images that display your pack to convince the user to purchase it.  If you contribute a Free Asset Pack, preview assets are not mandatory:
 
   - They can be from 1 to 9
   - Must be named `preview1.png`, `preview2.png`, ..., `preview9.png`
   - Must be 16:9, `1280x720` or `1920x1080`
   - File format in `.png` or `.gif`
 
-  These files must be in a new `previewImages` folder.
+  All preview images must be submitted inside a folder named `previewImages`.
 
-### Get a Title
+### Name your Pack
 
-Having a good title is important, buyers search using keywords, choose a unique and short title that represents your pack.
+Having a good title is important, buyers search using keywords. Choose a unique and short title that represents your pack.
 A good asset pack title is concise, descriptive, and engaging, clearly indicating the pack's primary content and making it easily discoverable and memorable for users.
 
 ### Get a Description
 
 A good asset pack description clearly and concisely communicates the contents and value of the pack to potential users by highlighting included items, intended use cases, and any relevant details.
 
-### The Pricing
+### Define a Price
 
 (This step can be skipped for free packs.)
 
@@ -49,7 +49,7 @@ A paid pack can have two different prices, to fit the needs of the buyer.
 - **Single Commercial**: The price for one commercial game only.
 - **Unlimited Commercial**: The price for unlimited commercial games, an unlimited number of projects and platforms.
 
-Usually the Unlimited Commercial is more expensive from 20% to 30%.
+Usually the Unlimited Commercial price is 20% to 30% more expensive.
 You can mention the prices in Euro (€) or USD ($).
 
 ### Choose a Category
@@ -66,9 +66,9 @@ Your pack must comply with at least one of these main categories:
 - Sounds and musics
 - Ready-made games
 
-### Organize Assets into Folders
+### File organization for submission
 
-A pack is organized into folders. Each folders names will be used by the asset store as tags to let users search for assets.
+A pack is organized into folders. Each folders name will be used by the asset store as tags to let users search for assets.
 Folders name should not be too specific because it's the purpose of object names. For example, objects `BlueCar` and `RedCar` should be in a folder named `Vehicle` and not `Car` because it allows users to browse every vehicle in the asset store. They can already find cars as the search also use object names.
 
 Some examples of folder names
@@ -95,7 +95,7 @@ Some examples of folder names
 
 The object names must be descriptive. They are used by the search engine of the asset store.
 
-Instances of good names:
+Examples of good names:
 
 - Tall Palm Tree
 - Desert Background
@@ -110,9 +110,9 @@ Generic names to avoid:
 
 ## Package your Art
 
-To ensure your asset package is valid for the Asset Store, there are two options:
+There are two ways you can package your Asset Pack to submit it to the GDevelop Store:
 
-- **Export from the engine:** Package your art files directly in GDevelop and export a `.gdo` file. This file includes the complete object configuration and folder structure as set up in the engine.
+- **Recommended: Through the engine:** Set your objects in the engine and export the `.gdo` file that was automatically generated.  This file will include the complete object configuration and folder structure as set up in the engine.
 
 - **Manual packaging:** If you have a large number of assets, you can create a pack by manually organizing the files without using the game engine editor, following [the provided technical specifications](./technical-speficication.md).
 
@@ -130,7 +130,7 @@ Your files must all match an object type, please [follow the object page](/gdeve
 
 ### Fonts
 
-Put the fonts in to a `Font` folders.
+Put the fonts into a `Font` folder.
 Formats supported are:
 
 - .ttf
@@ -167,6 +167,6 @@ The goal is to make objects more or less automatically!
 
 ## Submitting the Asset Pack
 
-When you're ready to submit your asset pack (free or paid), compress the folder containing the `.gdo` or the other folders of your pack, then send it to the GDevelop by filling the application form with the button below:
+When you're ready to submit your asset pack (free or paid), compress the folder containing the `.gdo` or the other folders of your pack, then send it to GDevelop by filling the application form with the button below:
 
 [Send my asset pack on the GDevelop's store](https://forms.gle/F1qU2V3MwZ91zqRn9){ .md-button .md-button--primary }
