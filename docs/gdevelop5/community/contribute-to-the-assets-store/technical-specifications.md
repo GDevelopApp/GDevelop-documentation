@@ -8,7 +8,7 @@ title: Manually package the assets
 
 !!! warning
 
-    This page is not yet complete.
+    This page may be not exhaustive. Contact the GDevelop team if you need help, or use the `.gdo` export.
 
 If you have too many files, you can manually package an asset pack without the game engine editor.
 
@@ -211,7 +211,7 @@ If the same character is carrying a prop, the naming should appear on the Animat
 **Note on animation states:**
 If the **animated** object only has one animation state, there is no need to specify if the animation is "Walk, Idle, Climb, Death..." on the name. An animation index will do: `Jewel_1.png`, `Jewel_2.png`, `Jewel_3.png`.
 
-#### Assets with Specific Time Duration
+#### Assets with specific time duration
 
 To specify FPS and looping for an animation, you'll need to add some metadata with the animations files.
 
