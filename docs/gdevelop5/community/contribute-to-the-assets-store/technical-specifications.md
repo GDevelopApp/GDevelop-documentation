@@ -2,7 +2,9 @@
 title: Manually package the assets
 ---
 
-# Overview of a pack
+# Manually package the assets
+
+## Overview of a pack
 
 !!! warning
 
@@ -80,7 +82,7 @@ French food
 
 ```
 
-# The title, description, and price
+## The title, description, and price
 
 Each pack needs to be defined in a `pack.json` file located at the root of your pack folder. In it, you'll put the pack's name, description, price in Euro or USD in cents, and the categories.
 
@@ -112,7 +114,7 @@ Each pack needs to be defined in a `pack.json` file located at the root of your 
 }
 ```
 
-# Make a thumbnail & previews files
+## Make a thumbnail & previews files
 
 A pack with an attractive thumbnail makes it more visible. Additional images can help them decide if a pack suits their needs. Use contrasting colors to make your thumbnail stand out. The thumbnail should accurately represent the contents of the pack. Thumbnails that show assets in context are preferred over simple grids of assets.
 
@@ -131,7 +133,7 @@ All preview images and the thumbnail must be submitted inside a folder named `pr
 - Must be 16:9, `1280x720` or `1920x1080`
 - File format in `.png` or `.gif`
 
-# License
+## License
 
 Put a license.txt file in your folder. Make sure to put your name in this license file too (or the name of the original author).
 The importer will be adapted to understand the license file.
@@ -144,7 +146,7 @@ The importer will be adapted to understand the license file.
     - Allow modifications or derived work
     - State if attribution is required or not
 
-# Adding tags to your assets
+## Adding tags to your assets
 
 Tags allow creators to search your assets. These tags can be things like "side view," "pixel art," and so on. We recommend you use the Asset Store's existing tags.
 
@@ -159,17 +161,30 @@ For example:
 - You can put your images in different subfolders. Each subfolder will be used as a tag name. Some folder names like "PNG," "SVG," etc., will be ignored (so don't change the whole structure of your assets, we'll ignore anything that does not make sense).
 - Note that you can put assets in a folder called `Unimplemented`, `TODO`, and `SOURCE FILE` if the packaging isn't completely done, or if you want to keep source files of the pack. These folders will be entirely hidden in the store but are useful for updates or edits on the pack.
 
-# Sprite
+## Limitations
+
+GDevelop have several limitation for now, as they are:
+
+!!! note
+
+    - Sprite sheets **are not supported yet**! Each animation frame must **be a separate image**.
+    - Each animation image must have the same pixel size as the other animation states.
+    - GDevelop does not support image the origin point for different animations yet.
+    - Audio files are not yet supported within the `.gdo` format. Please place your audio files in an `Audio` folder located in the same directory as your `.gdo` file. Subsequently, compress both the `.gdo` file and the Audio folder into a `.zip` or `.rar` archive for submission via the application form.
+
+## Package your art
+
+### Sprite
 
 You can put them in a folder of your choice. You Still have to make sure to follow the [naming best practices](/gdevelop5/community/contribute-to-the-assets-store#follow-naming-best-practices).
 
-## Static sprite
+#### Static sprite
 
 For unanimated [Sprites](/gdevelop5/objects/sprite), a single image with the name of the object is enough.
 
 `Chair.png`
 
-## Sprites with animations or states
+#### Sprites with animations or states
 
 For animated sprites require multiple animated frames, which have to be named properly. While writing your file names, it is important that you follow a specific naming structure:
 
@@ -196,7 +211,7 @@ If the same character is carrying a prop, the naming should appear on the Animat
 **Note on animation states:**
 If the **animated** object only has one animation state, there is no need to specify if the animation is "Walk, Idle, Climb, Death..." on the name. An animation index will do: `Jewel_1.png`, `Jewel_2.png`, `Jewel_3.png`.
 
-### Assets with Specific Time Duration
+#### Assets with Specific Time Duration
 
 To specify FPS and looping for an animation, you'll need to add some metadata with the animations files.
 
@@ -226,12 +241,12 @@ If you are not sure about the number that "time between frames" will represent, 
 
 ![](fps.png)
 
-# Tiled sprite
+### Tiled sprite
 
 If you want to create a [Tiled sprite](/gdevelop5/objects/tiled_sprite) (for backgrounds or repeating patterns):
 Prefix the **base name** by `tiled_`. For example: `tiled_Grass Background.png`
 
-# Panel sprite
+### Panel sprite
 
 A [Panel sprite](/gdevelop5/objects/tiled_sprite) object can be stretched with the center and the border repeated.
 
@@ -249,11 +264,11 @@ For example:
 - `9patch_Grass_southwest.png`
 - `9patch_Grass_west.png`
 
-# 3D Box
+### 3D Box
 
 [3D Box](/gdevelop5/objects/3d-box) are not yet supported for manual packaging. It must be integrated and configured in GDevelop then exported as `.gdo` by a right-click on the object.
 
-# 3D Models
+### 3D Models
 
 Supported 3D file formats are:
 
@@ -277,11 +292,11 @@ Supported 3D file formats are:
 
     There's no need to add images preview for the models, the asset store will automatically generate them.
 
-# Tile map
+### Tile map
 
 [Tile map](/gdevelop5/objects/tilemap) are not yet supported for manual packaging. It must be integrated and configured in GDevelop then exported as `.gdo` by a right-click on the object.
 
-# Fonts
+### Fonts
 
 Put the fonts in to a `Font` folders.
 Formats supported are:
@@ -289,7 +304,7 @@ Formats supported are:
 - .ttf
 - .otf
 
-# Package audio
+### Package audio
 
 Put your audio files `.aac`, `.wav`, `.mp3` (prefer `.aac`) directly in a `Audio` folder, with the name to be displayed: `Laser effect.aac`, `Background music.aac`.
 
@@ -312,25 +327,14 @@ This will create high-quality audio files, but using a variable bit rate that wo
 
 ![](freac-quality.jpg)
 
-# Spine
+### Spine
 
 [Spine](/gdevelop5/objects/spine) are not yet supported for manual packaging. It must be integrated and configured in GDevelop then exported as `.gdo` by a right-click on the object.
 
-# Custom objects
+### Custom objects
 
 [Custom object (prefab)](/gdevelop5/objects/custom-objects-prefab-template/) with and without variant(s) are not yet supported for manual packaging. It must be integrated and configured in GDevelop then exported as `.gdo` by a right-click on the object.
 
-# 2D & 3D Particules emitter
+### 2D & 3D Particules emitter
 
 3D and [2D particle emitter](/gdevelop5/objects/particles_emitter/) with and without variant(s) are not yet supported for manual packaging. It must be integrated and configured in GDevelop then exported as `.gdo` by a right-click on the object.
-
-# Limitations
-
-GDevelop have several limitation for now, as they are:
-
-!!! note
-
-    - Sprite sheets **are not supported yet**! Each animation frame must **be a separate image**.
-    - Each animation image must have the same pixel size as the other animation states.
-    - GDevelop does not support image the origin point for different animations yet.
-    - Audio files are not yet supported within the `.gdo` format. Please place your audio files in an `Audio` folder located in the same directory as your `.gdo` file. Subsequently, compress both the `.gdo` file and the Audio folder into a `.zip` or `.rar` archive for submission via the application form.
