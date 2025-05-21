@@ -51,7 +51,7 @@ An example that focuses on 1 feature and allows users to see how it works in eve
 
      Ensure that the example and the associate resources can be MIT licensed, or that you hold full rights for your paid game template and the associate resources. If you are uncertain about the licensing of any resource, consult the original creator or contact the GDevelop team for verification.
 
-## Best Practices
+## Best practices
 
 #### Naming conventions
 
@@ -121,7 +121,7 @@ You can change the color of the comments according to its use (for example, gree
 - The project should not be using multiple files for saving (using a single JSON file).
 - The project should have a `README.md` file with a text describing the example.
 
-#### Project Properties
+#### Project properties
 
 - The project properties should be properly filled out.
 - _Project Name_ The project name should be the example name.
@@ -129,7 +129,7 @@ You can change the color of the comments according to its use (for example, gree
 - _Version_ The version that is added to the library (after review) should be `1.0.0`, and incremented as changes are added after it's added.
 - _Author_ is your username. An account will have to be registered and a proper username will be needed to be able to add the username. Type the username and pick the username from the drop-down menu
 
-##### Game Resolution
+##### Game resolution
 
 - Game resolution shouldn't exceed **1920x1080** so that the example can run on all devices without any performance issues .
 - If the example uses pixel art with small assets, "nearest neighbor" rendering is recommended.
