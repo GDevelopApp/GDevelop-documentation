@@ -12,7 +12,7 @@ Before integrating your art into a pack, you'll need to consider its fundamental
 
 ## Get your Pack Ready
 
-### Get a Thumbnail & Previews Files
+### Make a Thumbnail & Previews Files
 
 A pack with an attractive thumbnail makes it more visible. Additional images can help them decide if a pack suits their needs. Use contrasting colors to make your thumbnail stand out. The thumbnail should accurately represent the contents of the pack. Thumbnails that show assets in context are preferred over simple grids of assets.
 
@@ -69,7 +69,7 @@ Your pack must comply with at least one of these main categories:
 ### File organization for submission
 
 A pack is organized into folders. Each folders name will be used by the asset store as tags to let users search for assets.
-Folders name should not be too specific because it's the purpose of object names. For example, objects `BlueCar` and `RedCar` should be in a folder named `Vehicle` and not `Car` because it allows users to browse every vehicle in the asset store. They can already find cars as the search also use object names.
+The folders name should not be too specific, because that is the purpose of object names. For example, objects `BlueCar` and `RedCar` should be in a folder named `Vehicle` and not `Car` because it allows users to browse every vehicle in the asset store. Users can still find cars easily, since the search bar also looks at object names.
 
 Some examples of folder names
 
