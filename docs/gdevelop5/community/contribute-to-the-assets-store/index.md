@@ -1,153 +1,77 @@
 ---
-title: Contributing to the assets store
+title: Submit an Asset Pack
 ---
-# Contributing to the assets store
 
-You can contribute to GDevelop's Assets Store with royalty free/public domain resources that can be used by everyone for any kind of project, or submit your own game art.
-Assets have to be submitted into category and sub-category folders. Images, audio and fonts should be named in plain English as the final user will read them.
+# Submit an Asset Pack
 
-GDevelop creators can add assets to the project without having to worry about editing. This means that submitted art, has to follow a number of technical constraints.
+Publish on GDevelop's asset store, you can publish royalty-free, public domain assets, or even [sell your own game art](/gdevelop5/community/sell-asset-pack-store).
 
+GDevelop streamlines the integration of assets into game projects, eliminating the need for manually editing the assets. To ensure seamless compatibility with the asset store, submitted art must adhere to specific technical requirements. These constraints are easily managed within the engine: simply create objects with your art, configure the objects appropriately, and GDevelop will handle the necessary processing to export your assets in a `.gdo` file format ready for the asset store.
 
-## Prepare an asset pack packaging
+Before integrating your art into a pack, you'll need to consider its fundamental elements, such as a thumbnail, title, description, and other key details. Let's explore each of these components that define an asset pack.
 
-A pack with an attractive thumbnail makes it more visible, contrasted colors can be used. The thumbnail should reflect the pack's. Thumbnails that put assets in context should be preferred to grids of assets.
+## Get your pack ready
 
-- Thumbnail and previews must be 16:9 1280x720 pixels or 1920x1080 in PNG only.
-- The thumbnail must be named: `thumbnail.png`.
+### Make a thumbnail & previews files
 
+A pack with an attractive thumbnail makes it more visible. Additional images can help them decide if a pack suits their needs. Use contrasting colors to make your thumbnail stand out. The thumbnail should accurately represent the contents of the pack. Thumbnails that show assets in context are preferred over simple grids of assets.
 
-### Prepare additional packaging for paid packs
+All preview images and the thumbnail must be submitted inside a folder named `previewImages`.
 
-Users won't be able to browse the content of a pack before they buy it. Additional images can help them figuring out if a pack suit their needs.
-There can be up 9 of them. They must be named `preview1.png`, `preview2.png`, ..., `preview9.png`.
+**Thumbnail requirements:**
 
-Paid packs also need an extra `pack.json` file located at the root of the pack folder.
-It contains the pack's name, description, price in Euro, and the categories.
+- Size: 16:9 ratio. Example: `1280x720` or `1920x1080`
+- File: `.png`
+- Name: `thumbnail.png`
 
-!!! note
+**Previews of your assets:** Extra images that display your pack to convince the user to purchase it. If you contribute a Free Asset Pack, preview assets are not mandatory.
 
-     - Value: 123 = 1.23€ (Euro)
-     - Categories: Remove words that don't correspond to your pack.
+- They can be from 1 to 9
+- Must be named `preview1.png`, `preview2.png`, ..., `preview9.png`
+- Must be 16:9, `1280x720` or `1920x1080`
+- File format in `.png` or `.gif`
 
+### Name your pack
 
-pack.json
-```
-{
-  "longDescription": "Write the description of your pack here. You can add a new line like this:\nThis is a new line.",
-  "tag": "The name of your pack",
-  "sellerId": "LEAVE EMPTY",
-  "sellerStripeAccountId": "LEAVE EMPTY",
-  "prices": [
-    {
-      "value": 123,
-      "name": "default"
-    }
-  ],
-  "categories": ["full-game-pack", "character", "props", "background", "visual-effect", "interface", "prefab", "sounds"]
-}
-```
+Having a good title is important, buyers search using keywords. Choose a unique and short title that represents your pack.
+A good asset pack title is concise, descriptive, and engaging, clearly indicating the pack's primary content and making it easily discoverable and memorable for users.
 
-!!! note
+### Get a description
 
-    Learn more about the selling process on the [selling assets page](/gdevelop5/community/sell-asset-pack-store).
+A good asset pack description clearly and concisely communicates the contents and value of the pack to potential users by highlighting included items, intended use cases, and any relevant details.
 
+### Define a price
 
-## Package the asset images
+(This step can be skipped for free packs.)
 
-In a nutshell: these are the basic rules to submit video game asset images. Make sure that your files respect the following guidelines:
+A paid pack can have two different prices, to fit the needs of the buyer.
 
-  * Each image frame, has to be a png transparency file
-  * Every animation frame has to be the same pixel size as the other animation states
-  * Tiles and GUI images have to be properly aligned
+- **Single Commercial**: The price for one commercial game only.
+- **Unlimited Commercial**: The price for unlimited commercial games, an unlimited number of projects and platforms.
 
-!!! note
+Usually the Unlimited Commercial price is 20% to 30% more expensive.
+You can mention the prices in Euro (€) or USD ($).
 
-        Sprite sheets **are not supported**! Each animation frame must **be a separate image**.
-    GDevelop does not support image the origin point for different animations yet.
+### Choose a category
 
+Your pack must comply with at least one of these main categories:
 
-GDevelop's most common sizes for animation assets are:
+- Full Game Asset Packs
+- Prefabs (Ready-to-use Objects)
+- UI/Interface
+- Visual Effects
+- Backgrounds
+- Characters
+- Props
+- Sounds and musics
+- Ready-made games
 
-  * Mobile: 720x1280
-  * Desktop: 1280x720
-  * Desktop full HD: 1920x1080
+### File organization for submission
 
+A pack is organized into folders. Each folders name will be used by the asset store as tags to let users search for assets.
+The folders name should not be too specific, because that is the purpose of object names. For example, objects `BlueCar` and `RedCar` should be in a folder named `Vehicle` and not `Car` because it allows users to browse every vehicle in the asset store. Users can still find cars easily, since the search bar also looks at object names.
 
-## Package images using GDevelop
-
-You can create an asset pack with GDevelop editor following these steps:
-
-- Create an empty scene
-- Create objects that use the images
-- Right click on **Scene Objects** and choose **Export as a pack**
-
-![](export-gdo.png)
-
-The exported GDO file contains all the objects configuration and the images files that they use.
-
-### Still images
-
-Still images don't need any configuration with GDevelop editor. You can put them in a folder next to the GDO file. You Still have to make sure to follow the [naming best practices](#follow-naming-best-practices).
-
-
-### Sprites with animations or states
-
-Images that represent a same object at different states should be in the same [Sprite](/gdevelop5/objects/sprite) object as animations.
-
-!!! tip
-
-    Frames of all animations of an object can be imported at once by selecting several files. The editor will detect animation names automatically.
-
-Each state (called **Animation** in the editor) can be animated or not.
-
-Some instances of states:
-
-- Empty or Filled
-- Close or Open
-- Locked or Unlocked
-- On or Off
-
-If your pack contains color variations of the same, it's recommended to create an object for each one.
-
-Collections of images like playing cards should be merged into one object that contains an animation for each card.
-
-
-### Tiled images
-
-Images that can be used as a pattern should be [Tiled sprites](/gdevelop5/objects/tiled_sprite).
-
-
-### 9-patches
-
-[Panel Sprite ("9-patch")](/gdevelop5/objects/panel_sprite) is an object where its image is split into 9 pieces or slices and each slice is scaled separately.
-
-Corners should be fit as precisely as possible. This allows to use smaller objects size (where the center reaches 0 pixel).
-
-
-### Tile maps
-
-[Tile map](/gdevelop5/objects/tilemap) are not supported by the asset store.
-
-
-### UI assets
-
-Some instances of UI objects that can be included in an asset pack:
-
-- [Button](/gdevelop5/objects/button)
-- [Multi-touch joystick](/gdevelop5/objects/multitouch-joystick)
-- [Slider](/gdevelop5/objects/slider)
-- [Toggle switch](/gdevelop5/objects/toggle-switch)
-- [Resource bar](/gdevelop5/objects/resource-bar)
-
-
-### Organize assets into folders
-
-In the editor, objects can be organized into folder. The asset store will display the same folders and use them as tags to let users search for assets. 
-
-Folders name should not be too specific because it's the purpose of object names. For example, objects "BlueCar" and "RedCar" should be in a folder named "Vehicle" and not "Car" because it allows users to browse every vehicle in the asset store. They can already find cars as the search also use object names.
-
-Some examples of folders names
+Some examples of folder names
 
 - Character
 - Animal
@@ -165,82 +89,13 @@ Some examples of folders names
 
 !!! note
 
-    When a pack contains a lot of objects, more specific folders can be used.
+    When a pack contains a lot of objects, more specific folders and sub-folders can be used.
 
+### Follow naming best practices
 
-## Package 3D models
+The object names must be descriptive. They are used by the search engine of the asset store.
 
-3D models don't need any configuration with GDevelop editor. You send them in an archive directly. You Still have to make sure to follow the [naming best practices](#follow-naming-best-practices).
-
-Supported 3D file formats are:
-
-- .glb
-- .blend
-- .gltf
-- .obj
-- .fbx
-- .x3d
-- .vrml
-
-**Animation names** should be meaningful such as `run`, `jump`, `idle`, etc.
-
-**Dimensions** of 3d models must be consistent across a pack. For instance, props should fit characters hands.
-
-**The point of origin** is important, it will be used as the position and rotation center of object in GDevelop.
-
-**Textures** are supported only in format types that are contained, such as `.glb`, `.blend`, `.fbx`.
-
-
-!!! note
-    
-    There's no need to add images preview for the models, the asset store will automatically generate them.
-
-
-## Package audio
-
-Put your .aac or .wav files (prefer .aac) directly in a folder, with the name to be displayed: `Laser effect.aac`, `Background music.aac`.
-
-!!! warning
-
-        🚨 Careful about the size! Players are sensitive to the size of a game download (especially on mobile and on the web). **Try to keep music file sizes around 1 to 2 MB.  In rare cases, these can be 4 or 5 MB, but not larger.** Consider downgrading the quality a bit to keep the music files around these sizes.
-    Sound effects are usually even smaller. If a sound file is larger than 200 or 300 KB, consider downgrading the quality.
-
-`TAGS.md` files will work like for images. Sub folders are also used for tags as described for images.
-
-A great tool to convert audio files to AAC format is [fre:ac](https://www.freac.org/).  fre:ac is free, open-source, and cross-platform.  It can process batches of files, with many options on how they are named and put into folders.
-
-- Choose the encoder called "Fraunhofer FDK AAC Encoder".
-- Select "File format > AAC"
-- Select "Quality > Set Quality > 3"
-
-This will create high-quality audio files, but using a variable bit rate that won't exceed 96 kbps (assuming stereo input).
-
-
-![](freac-aac.jpg)
-
-![](freac-quality.jpg)
-
-!!! tip
-
-        **How to submit my sounds and music when they are ready?**
-
-    Zip the folder containing them and send them to the GDevelop team on Github by opening an [issue here](https://github.com/4ian/GDevelop/issues/new?assignees=&labels=%F0%9F%93%A6+Asset+Store+submission&template=--asset-store-submission.md&title=).
-
-
-## Package fonts
-
-Put the fonts in to a `Font` folders.
-Formats supported are:
-
-- .ttf
-- .otf
-
-
-## Follow naming best practices
-
-Object (or file) names must be descriptive. They are used by the search engine of the asset store.
-
-Instances of good names:
+Examples of good names:
 
 - Tall Palm Tree
 - Desert Background
@@ -253,32 +108,65 @@ Generic names to avoid:
 - Item 37
 - Robert (a proper noun)
 
-If your file names are already set, you don't need to change them unless they are only numbers.
+## Package your art
+
+There are two ways you can package your Asset Pack to submit it to the GDevelop Store:
+
+- **Recommended:** Set your objects through the engine, and export the `.gdo` file that was automatically generated. This file will include the complete object configuration and folder structure as set up in the engine.
+
+- **Manual packaging:** Set your files manually, if you have a large number of assets, you can create a pack by manually organizing the files without using the game engine editor, following [the provided technical specifications](./technical-speficication.md).
+
+To export a `.gdo` file from the GDevelop editor, follow these steps:
+
+- Create an empty scene.
+- Create objects that use your art.
+- Right click on **Scene Objects** and choose **Export as a pack**.
+
+![](export-gdo.png)
+
+### Fit art with an object
+
+Your files must all match an object type, please [follow the object page](/gdevelop5/objects/) which details each type and will help you to integrate your files correctly.
+
+### Fonts
+
+Put the fonts into a `Font` folder.
+Formats supported are:
+
+- .ttf
+- .otf
+
+### Package audio
+
+Put your audio files `.aac`, `.wav`, `.mp3` (prefer `.aac`) directly into an `Audio` folder, with the name to be displayed: `Laser effect.aac`, `Background music.aac`.
+
+!!! warning
+
+        🚨 Careful about the size! Players are sensitive to the size of a game download (especially on mobile and on the web). **Try to keep music file sizes around 1 to 2 MB.  In rare cases, these can be 4 or 5 MB, but not larger.** Consider downgrading the quality a bit to keep the music files around these sizes.
+    Sound effects are usually even smaller. If a sound file is larger than 200 or 300 KB, consider downgrading the quality.
+
+### Other objects
+
+If you are in doubt, ask to the GDevelop team or the community if your files can be supported by an objects, or fit a [custom objects (prefab)](gdevelop5/objects/custom-objects-prefab-template/).
+
+### Limitations
+
+GDevelop have several limitation for now, as they are:
 
 !!! note
 
-    In this last case, you can rename several files at once by selecting them in the file explorer and using a shortcuts (F2 to rename on Windows, Enter on macOS...). The file explorer will automatically add a number suffix to them.
-
-
-## License
-
-Put a license.txt file in your folder. Make sure to put your name in this license file too (or the name of the original author).
-The importer will be adapted to understand the license file.
-
-!!! danger
-
-    Free asset packs with unclear licenses won't be accepted. In this case, you should get in touch with the author for clarifications and ask if they allow redistribution of their assets. The license must:
-    
-    - Allow to Use the assets for free and for any purpose
-    - Allow modifications or derived work
-    - State if attribution is required or not
+    - Sprite sheets **are not supported yet**! Each animation frame must **be a separate image**.
+    - Each animation image must have the same pixel size as the other animation states.
+    - GDevelop does not support image the origin point for different animations yet.
+    - Audio files are not yet supported within the `.gdo` format. Please place your audio files in an `Audio` folder located in the same directory as your `.gdo` file. Subsequently, compress both the `.gdo` file and the Audio folder into a `.zip` or `.rar` archive for submission via the application form.
 
 ## Something unclear?
 
 Ask a question on [this Trello board](https://trello.com/c/s8RctC9M/2-asset-rules-and-regulations) card. If the rules here are too complicated or are giving you too much work, you can suggest a new rule and we'll see if we can adapt the importer so that it can understand your asset structure.
 The goal is to make objects more or less automatically!
 
+## Submitting the asset pack
 
-## How to send my assets when they are ready?
+When you're ready to submit your asset pack (free or paid), compress the folder containing the `.gdo` or the other folders of your pack, then send it to GDevelop by filling the application form with the button below:
 
-Zip the folder containing them and send them to the GDevelop team on Github by opening an [issue here](https://github.com/4ian/GDevelop/issues/new?assignees=&labels=%F0%9F%93%A6+Asset+Store+submission&template=--asset-store-submission.md&title=).
+[Send my asset pack on the GDevelop's store](https://forms.gle/F1qU2V3MwZ91zqRn9){ .md-button .md-button--primary }
