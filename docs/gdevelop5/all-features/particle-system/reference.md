@@ -1,12 +1,12 @@
 # Particle system Reference
 
-A particle emitter allows to create various effects by showing a lot of tiny images called particles. It's ideal for fires, smoke, explosions, magical effects, etc... [Read more explanations about it.](/gdevelop5/objects/particles_emitter)
+A 2D particle emitter allows to create various effects by showing a lot of tiny images called particles. It's ideal for fires, smoke, explosions, magical effects, etc... in 2D games. For 3D games, use the 3D particle emitter instead. [Read more explanations about it.](/gdevelop5/objects/particles_emitter)
 
 
 
 ## Particles emitter 
 
-Displays a large number of small particles to create visual effects. 
+Displays a large number of small 2D particles to create visual effects. 
 
 ### Object actions
 

@@ -679,7 +679,7 @@ Displays a text on the screen. [Read more explanations about it.](/gdevelop5/obj
 
 ## Particles emitter (from extension Particle system)
 
-Displays a large number of small particles to create visual effects. [Read more explanations about it.](/gdevelop5/objects/particles_emitter)
+Displays a large number of small 2D particles to create visual effects. [Read more explanations about it.](/gdevelop5/objects/particles_emitter)
 
 | Expression | Description |  |
 |-----|-----|-----|
