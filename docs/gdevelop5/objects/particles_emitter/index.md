@@ -1,11 +1,11 @@
 ---
-title: Particles emitters
+title: Particle emitters
 ---
-# Particles emitters
+# Particle emitters
 
-Particle emitters can be used to display a large number of small particles. They can be used to simulate effects in a game. A few examples of particle emitters are fire, explosions, smoke, and dust.
+Particle emitters let you create and display many small particles to simulate visual effects in your game—like fire, explosions, smoke, or dust. GDevelop includes both 2D and 3D particle emitters to bring these effects to life.
 
-The Particles Emitter object parameters can be configured in multiple different ways to create a specific desired effect.
+This pages mostly describes the 2D particle emitter object, but the [3D particle emitters](/gdevelop5/extensions/particle-emitter3d) work the same.
 
 <div class="video-container">
   <iframe src="https://www.youtube.com/embed/mqXYlsOENpg" frameborder="0" allowfullscreen></iframe>
@@ -58,4 +58,5 @@ You can also change the maximum number of particles rendered by the object on th
 
 ## Reference
 
-All actions, conditions and expressions are listed in [the particle system reference page](/gdevelop5/all-features/particle-system/reference/).
+All actions, conditions and expressions for the 2D particle emitter are listed in [this reference page](/gdevelop5/all-features/particle-system/reference/).
+All actions, conditions and expressions for the 23 particle emitter are listed in [this reference page](/gdevelop5/extensions/particle-emitter3d).
