@@ -604,7 +604,7 @@ Jump and run on platforms. [Read more explanations about it.](/gdevelop5/behavio
 
 ## Destroy when outside of the screen (from extension Destroy Outside Screen Behavior)
 
-Destroy objects automatically when they go outside of the screen's borders. [Read more explanations about it.](/gdevelop5/behaviors/destroyoutside)
+Destroy objects automatically when they go outside of the 2D camera borders. [Read more explanations about it.](/gdevelop5/behaviors/destroyoutside)
 
 _No expressions for this behavior._
 
@@ -677,9 +677,9 @@ Displays a text on the screen. [Read more explanations about it.](/gdevelop5/obj
 
 
 
-## Particles emitter (from extension Particle system)
+## 2D particles emitter (from extension Particle system)
 
-Displays a large number of small 2D particles to create visual effects. [Read more explanations about it.](/gdevelop5/objects/particles_emitter)
+Displays a large number of small 2D particles to create visual effects in a 2D game or user interface. [Read more explanations about it.](/gdevelop5/objects/particles_emitter)
 
 | Expression | Description |  |
 |-----|-----|-----|

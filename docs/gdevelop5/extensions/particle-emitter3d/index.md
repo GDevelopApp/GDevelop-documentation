@@ -1,25 +1,17 @@
 # 3D particle emitter
 
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/f2e5a34bf465f781866677762d385d6c8e9e8d203383f2df9a3b7e0fad6a2cb5_fire.svg" class="extension-icon"></img>
-Display a large number of particles to create visual effects.
+Display a large number of particles in 3D to create visual effects in a 3D game.
 
 **Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).
 
 ---
 
-Particle emitters can be used to display:
+3D particle emitters let you create and display many small particles to simulate visual effects in your game — like fire, explosions, smoke, or dust.
 
-- Fire
-- Smoke
-- Splashes
-- Lights
+The parameters of the object can be configured in multiple different ways to create a specific desired effect. GDevelop will give a set of a pre-configured 3D particle emitters that you should try first.
 
-Breaking change
-
-- 2.0.0
-  - Object properties for position and rotation have been removed. They must be set with the instance editor or the action.
-- 1.0.0
-  - Particles were 3 times too small
+Use these 3D particle emitters in 3D games. For 2D games or particles that appear on a game's 2D user interface, use the 2D particle emitter object instead.
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
