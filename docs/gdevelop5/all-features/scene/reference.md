@@ -51,6 +51,8 @@ Compare The progress of resources loading in background for a scene (between 0 a
 | `CurrentSceneName()` | Name of the current scene ||
 | `SceneLoadingProgress(scene name)` | Return The progress of resources loading in background for a scene (between 0 and 1).. ||
 | | _🔤 Name of a scene (String)_ | Scene name |
-
 ---
+
+The Scene extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+
 *This page is an auto-generated reference page about the **Scene** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

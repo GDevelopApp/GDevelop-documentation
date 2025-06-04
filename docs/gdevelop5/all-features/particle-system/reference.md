@@ -231,6 +231,8 @@ Test creation radius of particles.
 | `Object.Tank()` | Capacity of the particle tank. ||
 | `Object.Texture()` | Name of the image displayed by particles. ||
 | `Object.ZoneRadius()` | The radius of the emission zone. ||
-
 ---
+
+The Particle system extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+
 *This page is an auto-generated reference page about the **Particle system** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

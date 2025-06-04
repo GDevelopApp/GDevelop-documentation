@@ -60,6 +60,8 @@ Compare the width, in pixels, after which the text is wrapped on next line.
 | `Object.GetFontFamily()` | Get the base font family ||
 | `Object.GetFontSize()` | Get the base font size ||
 | `Object.GetWrappingWidth()` | Get the wrapping width ||
-
 ---
+
+The BBCode Text Object extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+
 *This page is an auto-generated reference page about the **BBCode Text Object** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

@@ -47,6 +47,8 @@ Check if an element (example : PlayerState/CurrentLevel) exists in the stored da
 Spaces are forbidden in element names.
 
 
-
 ---
+
+The Storage extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+
 *This page is an auto-generated reference page about the **Storage** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

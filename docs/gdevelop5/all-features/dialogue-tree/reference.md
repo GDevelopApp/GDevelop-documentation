@@ -126,6 +126,8 @@ Check if a branch has been visited
 | `DialogueTree::VerticalOptionsList(string)` | Get the text of all available options from an options line type as a vertical list. You can also pass the selected option's cursor string, which by default is -> ||
 | | _string_ | Options Selection Cursor |
 | `DialogueTree::VisitedBranchTitles()` | Get a list of all visited branches ||
-
 ---
+
+The Dialogue Tree extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+
 *This page is an auto-generated reference page about the **Dialogue Tree** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

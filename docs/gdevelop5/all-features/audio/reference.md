@@ -136,6 +136,8 @@ Test if the sound on the specified channel is stopped.
 | | _🔢 Number_ | Channel |
 | `SoundChannelVolume(number)` | Sound volume ||
 | | _🔢 Number_ | Channel |
-
 ---
+
+The Sounds and music extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+
 *This page is an auto-generated reference page about the **Sounds and music** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

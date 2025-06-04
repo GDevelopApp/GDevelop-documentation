@@ -33,6 +33,8 @@ Check if the player is authenticated.
 |-----|-----|-----|
 | `PlayerAuthentication::UserID()` | Get the unique user ID of the authenticated player. ||
 | `PlayerAuthentication::Username()` | Get the username of the authenticated player. ||
-
 ---
+
+The Player Authentication extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+
 *This page is an auto-generated reference page about the **Player Authentication** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

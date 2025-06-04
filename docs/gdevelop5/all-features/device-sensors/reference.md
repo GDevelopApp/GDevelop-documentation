@@ -65,6 +65,8 @@ Compare the value of rotation gamma. (Note: few devices support this sensor)
 | `DeviceSensors::RotationAlpha()` | Get the devices rotation Alpha ||
 | `DeviceSensors::RotationBeta()` | Get the devices rotation Beta ||
 | `DeviceSensors::RotationGamma()` | Get the devices rotation Gamma ||
-
 ---
+
+The Device sensors extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+
 *This page is an auto-generated reference page about the **Device sensors** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

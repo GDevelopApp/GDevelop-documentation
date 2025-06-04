@@ -44,6 +44,8 @@ Test if the specified scene timer is paused.
 | `TimeScale()` | Returns the time scale of the scene. ||
 | `TimerElapsedTime(string)` | Value of a scene timer ||
 | | _🔤 Name (String)_ | Timer's name |
-
 ---
+
+The Timers and time extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+
 *This page is an auto-generated reference page about the **Timers and time** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

@@ -175,6 +175,8 @@ Compare the Z position (the "elevation").
 | `Object.Object3D::RotationY()` | Return the rotation on Y axis. ||
 | `Object.Object3D::ScaleZ()` | Return the scale on Z axis of an object (default scale is 1). ||
 | `Object.Object3D::Z()` | Return the Z position (the "elevation"). ||
-
 ---
+
+The 3D extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+
 *This page is an auto-generated reference page about the **3D** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

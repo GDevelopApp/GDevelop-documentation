@@ -71,6 +71,8 @@ Compare the Y position of a specific touch.
 | | _🔢 Number_ | Touch identifier |
 | | _🔤 Layer name (String)_ | Layer _Optional_. |
 | | _🔢 Number_ | Camera number (default : 0) _Optional_. |
-
 ---
+
+The Mouse and touch extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+
 *This page is an auto-generated reference page about the **Mouse and touch** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

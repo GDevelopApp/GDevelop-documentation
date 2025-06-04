@@ -50,6 +50,8 @@ Check if a score is currently being saved in leaderboard.
 | | _string_ | Raw player name |
 | `Leaderboards::LastSaveError(leaderboard identifier)` | Get the error of the last save attempt. ||
 | | _🔤 Leaderboard Identifier (String)_ | Leaderboard If no leaderboard is specified, will return the value related to the last leaderboard save action. _Optional_. |
-
 ---
+
+The Leaderboards extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+
 *This page is an auto-generated reference page about the **Leaderboards** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

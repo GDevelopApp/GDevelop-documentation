@@ -39,6 +39,8 @@ Provides expressions to manipulate strings (also called texts).
 | | _string_ | Text |
 | `ToUpperCase(string)` | Uppercase a text ||
 | | _string_ | Text |
-
 ---
+
+The Text manipulation extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+
 *This page is an auto-generated reference page about the **Text manipulation** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

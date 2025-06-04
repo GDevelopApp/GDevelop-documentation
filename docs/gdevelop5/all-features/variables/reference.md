@@ -65,6 +65,8 @@ Check if the specified child of the structure variable exists.
 | | _🗄️ Any variable_ | Array variable |
 | `VariableLastString(variable)` | Get the value of the last element of an array variable, if it is a text (string). ||
 | | _🗄️ Any variable_ | Array variable |
-
 ---
+
+The Variables extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+
 *This page is an auto-generated reference page about the **Variables** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

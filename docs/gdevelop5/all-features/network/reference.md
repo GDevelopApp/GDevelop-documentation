@@ -17,6 +17,8 @@ Send an asynchronous request to the specified web page.
 Please note that for the web games, the game must be hosted on the same host as specified below, except if the server is configured to answer to all requests (cross-domain requests).
 
 
-
 ---
+
+The Network extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+
 *This page is an auto-generated reference page about the **Network** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

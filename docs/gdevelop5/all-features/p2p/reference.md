@@ -78,6 +78,8 @@ Triggers once when a connected client sends the event
 | `P2P::GetLastConnectedPeer()` | Gets the ID of the newly connected peer. ||
 | `P2P::GetLastDisconnectedPeer()` | Gets the ID of the latest peer that has disconnected. ||
 | `P2P::GetLastError()` | Gets the description of the last P2P error ||
-
 ---
+
+The P2P extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+
 *This page is an auto-generated reference page about the **P2P** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

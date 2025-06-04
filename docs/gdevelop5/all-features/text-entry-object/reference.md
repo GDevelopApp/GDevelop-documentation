@@ -29,6 +29,8 @@ Test the text of a Text Entry object.
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.String()` | Text entered with keyboard ||
-
 ---
+
+The Text entry object extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+
 *This page is an auto-generated reference page about the **Text entry object** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

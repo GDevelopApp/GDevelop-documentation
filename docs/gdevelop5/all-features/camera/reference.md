@@ -134,6 +134,8 @@ Test if a layer is set as visible.
 | | _🔤 Layer name (String)_ | Layer |
 | `LayerTimeScale(layer name)` | Returns the time scale of the specified layer. ||
 | | _🔤 Layer name (String)_ | Layer |
-
 ---
+
+The Layers and cameras extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+
 *This page is an auto-generated reference page about the **Layers and cameras** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

@@ -154,6 +154,8 @@ Check whether a state flag is set for a Workshop item.
 | | _🔤 Name (String)_ | Workshop Item ID |
 | `Steamworks::WorkshopItemSize(string)` | The size on disk taken by the contents file of an installed workshop item. ||
 | | _🔤 Name (String)_ | Workshop Item ID |
-
 ---
+
+The Steamworks (Steam) (experimental) extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+
 *This page is an auto-generated reference page about the **Steamworks (Steam) (experimental)** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

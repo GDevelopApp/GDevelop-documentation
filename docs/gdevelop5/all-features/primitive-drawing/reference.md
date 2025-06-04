@@ -152,6 +152,8 @@ Test the size of the outline.
 | `Object.ToSceneY(number, number)` | Y scene coordinate of a point from the drawing ||
 | | _🔢 Number_ | X drawing position |
 | | _🔢 Number_ | Y drawing position |
-
 ---
+
+The Shape painter extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+
 *This page is an auto-generated reference page about the **Shape painter** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

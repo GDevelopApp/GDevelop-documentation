@@ -38,6 +38,8 @@ Compare the index of the current frame in the animation displayed by the specifi
 | `Object.PointY(object point name)` | Y position of a point ||
 | | _🔤 Object Point Name (String)_ | Name of the point |
 | `Object.Sprite()` | Current frame of the animation of the object ||
-
 ---
+
+The Sprite extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+
 *This page is an auto-generated reference page about the **Sprite** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

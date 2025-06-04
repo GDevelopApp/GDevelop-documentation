@@ -123,6 +123,8 @@ Compare the word wrapping width of a Text object.
 | `Object.ShadowBlurRadius()` | Return the shadow blur radius of the text. ||
 | `Object.ShadowDistance()` | Return the shadow distance of the text. ||
 | `Object.ShadowOpacity()` | Return the shadow opacity of the text. ||
-
 ---
+
+The Text object extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+
 *This page is an auto-generated reference page about the **Text object** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

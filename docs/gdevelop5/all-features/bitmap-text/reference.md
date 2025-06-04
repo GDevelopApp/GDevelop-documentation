@@ -51,6 +51,8 @@ Check if word wrapping is enabled.
 | `Object.FontSize()` | Return the font size, defined in the Bitmap Font. ||
 | `Object.Text()` | Return the text. ||
 | `Object.WrappingWidth()` | Return the width, in pixels, after which the text is wrapped on next line. ||
-
 ---
+
+The Bitmap Text extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+
 *This page is an auto-generated reference page about the **Bitmap Text** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

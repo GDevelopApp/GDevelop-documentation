@@ -23,6 +23,8 @@ Run actions only once, for each time the conditions have been met.
 Checks if at least one sub-condition is true. If no sub-condition is specified, it will always be false. This is rarely used — multiple events and sub-events are usually a better approach.
 
 
-
 ---
+
+The Events and control flow extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+
 *This page is an auto-generated reference page about the **Events and control flow** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
