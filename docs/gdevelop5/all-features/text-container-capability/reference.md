@@ -23,6 +23,8 @@ Compare the text.
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.Text::Value()` | Return the text. ||
+
+
 ---
 
 The Text capability extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

@@ -60,6 +60,8 @@ Compare the width, in pixels, after which the text is wrapped on next line.
 | `Object.GetFontFamily()` | Get the base font family ||
 | `Object.GetFontSize()` | Get the base font size ||
 | `Object.GetWrappingWidth()` | Get the wrapping width ||
+
+
 ---
 
 The BBCode Text Object extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

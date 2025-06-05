@@ -112,6 +112,8 @@ Checks if the window is enabled.
 | `AdvancedWindow::WindowOpacity()` | Returns the current window opacity (a number from 0 to 1, 1 being fully opaque). ||
 | `AdvancedWindow::WindowX()` | Returns the current window X position. ||
 | `AdvancedWindow::WindowY()` | Returns the current window Y position. ||
+
+
 ---
 
 The Advanced window management extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

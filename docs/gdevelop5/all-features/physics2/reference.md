@@ -491,6 +491,8 @@ Check if a wheel joint motor is enabled.
 | `Object.Physics2::WheelJointTranslation(number)` | Wheel joint current translation ||
 | | _🔢 Number_ | Joint ID |
 | `Object.Physics2::WorldScale()` | Return the world scale. ||
+
+
 ---
 
 The 2D Physics Engine extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

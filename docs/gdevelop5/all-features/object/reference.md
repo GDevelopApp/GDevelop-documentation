@@ -365,6 +365,8 @@ Compare the overall speed of an object
 | | _🔢 Number_ | Angle, in degrees |
 | | _🔢 Number_ | Distance |
 | `Object.ZOrder()` | Z-order of an object ||
+
+
 ---
 
 The Objects extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

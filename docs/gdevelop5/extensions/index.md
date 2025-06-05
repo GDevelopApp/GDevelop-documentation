@@ -104,7 +104,7 @@ Here are listed all the extensions available in GDevelop. The list is divided in
 
 ||Name|Description||
 |---|---|---|---|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/keyboard-backspace.svg" class="extension-icon"></img>|**Back button**|Adds interactions with the back button.|[Read more...](/gdevelop5/extensions/back-button)|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/keyboard-backspace.svg" class="extension-icon"></img>|**Android back button**|Allow to customize the behavior of the Android back button.|[Read more...](/gdevelop5/extensions/back-button)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/alpha-w-box-outline.svg" class="extension-icon"></img>|**Platformer and top-down remapper**|Quickly remap keyboard controls.|[Read more...](/gdevelop5/extensions/behavior-remapper)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Computers and Hardware/Computers and Hardware_mouse_pc.svg" class="extension-icon"></img>|**Cursor movement conditions**|Conditions to check the cursor movement (still or moving).|[Read more...](/gdevelop5/extensions/cursor-movement)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Computers and Hardware/Computers and Hardware_mouse_wireless_pc.svg" class="extension-icon"></img>|**Double-click and tap**|Check for a double-click or a tap.|[Read more...](/gdevelop5/extensions/double-click)|

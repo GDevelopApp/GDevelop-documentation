@@ -32,6 +32,8 @@ Check if the effect on an object is enabled.
 
 _No expressions for this behavior._
 
+
+
 ---
 
 The Effect capability extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

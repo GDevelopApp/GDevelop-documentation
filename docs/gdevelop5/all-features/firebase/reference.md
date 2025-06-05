@@ -238,6 +238,8 @@ You should always use this before actions requiring authentications.
 | `Firebase::GetUserEmail()` | Return the user email address. ||
 | `Firebase::GetUserUID()` | Return the user Unique IDentifier. Use that to link data to an user instead of the name or email. ||
 | `Firebase::ServerTimestamp()` | Set a field to the timestamp on the server when the request arrives there ||
+
+
 ---
 
 The Firebase extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

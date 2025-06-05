@@ -122,6 +122,8 @@ Compare the velocity of the top-down movement of the object on the Y axis.
 | `Object.TopDownMovement::StickAngle()` | Return the angle of the simulated stick input (in degrees) ||
 | `Object.TopDownMovement::XVelocity()` | Speed on the X axis of the movement ||
 | `Object.TopDownMovement::YVelocity()` | Speed on the Y axis of the movement ||
+
+
 ---
 
 The Top-down movement extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

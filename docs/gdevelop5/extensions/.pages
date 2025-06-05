@@ -63,7 +63,7 @@ nav:
         - Extended variables support: extended-variables
         - Repeat every X seconds: repeat-every-xseconds
     - Input:
-        - Back button: back-button
+        - Android back button: back-button
         - Platformer and top-down remapper: behavior-remapper
         - Cursor movement conditions: cursor-movement
         - Double-click and tap: double-click

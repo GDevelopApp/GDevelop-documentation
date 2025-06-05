@@ -49,6 +49,8 @@ Check if an item has reached its maximum number allowed in the inventory.
 | `Inventory::Maximum(string, string)` | Get the maximum of an item in the inventory, or 0 if it is unlimited ||
 | | _string_ | Inventory name |
 | | _string_ | Item name |
+
+
 ---
 
 The Inventories extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

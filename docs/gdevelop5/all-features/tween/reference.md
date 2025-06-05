@@ -1,6 +1,6 @@
 # Tweening Reference
 
-Animate object properties over time. This allows smooth transitions, animations or movement of objects to specified positions. [Read more explanations about it.](/gdevelop5/behaviors/tween)
+Smoothly animate object properties over time — such as position, rotation scale, opacity, and more — as well as variables. Ideal for creating fluid transitions and UI animations. While you can use tweens to move objects, other behaviors (like platform, physics, ellipse movement...) or forces are often better suited for dynamic movement. Tween is best used for animating UI elements, static objects that need to move from one point to another, or other values like variables. [Read more explanations about it.](/gdevelop5/behaviors/tween)
 
 ## Actions
 
@@ -171,6 +171,8 @@ Compare the progress of a tween (between 0.0 and 1.0).
 | | _🔤 Name (String)_ | Tween Identifier |
 | `Object.Tween::Value(string)` | Return the value of a tween. It is always 0 for tweens with several values. ||
 | | _🔤 Name (String)_ | Tween Identifier |
+
+
 ---
 
 The Tweening extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

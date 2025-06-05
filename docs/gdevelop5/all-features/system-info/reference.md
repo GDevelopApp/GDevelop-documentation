@@ -23,6 +23,8 @@ Check if the game is currently being previewed in the editor. This can be used t
 Check if GPU accelerated WebGL is supported on the target device.
 
 
+
+
 ---
 
 The System information extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

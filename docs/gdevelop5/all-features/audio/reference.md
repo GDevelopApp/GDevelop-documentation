@@ -136,6 +136,8 @@ Test if the sound on the specified channel is stopped.
 | | _🔢 Number_ | Channel |
 | `SoundChannelVolume(number)` | Sound volume ||
 | | _🔢 Number_ | Channel |
+
+
 ---
 
 The Sounds and music extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

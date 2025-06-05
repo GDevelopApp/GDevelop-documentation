@@ -171,6 +171,8 @@ Check the tileset JSON file being used.
 | `Object.AnimationSpeedScale()` | Get the Animation speed scale ||
 | `Object.LayerIndex()` | Get the layer index being displayed ||
 | `Object.LevelIndex()` | Return the level index being displayed.. ||
+
+
 ---
 
 The Tile map extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

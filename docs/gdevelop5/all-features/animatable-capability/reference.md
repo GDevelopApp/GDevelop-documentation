@@ -57,6 +57,8 @@ Compare the animation speed scale (1 = the default speed, >1 = faster and <1 = s
 | `Object.Animation::Index()` | Return the animation played by the object using the animation number (from the animations list). ||
 | `Object.Animation::Name()` | Return the animation played by the object using the name of the animation. ||
 | `Object.Animation::SpeedScale()` | Return the animation speed scale (1 = the default speed, >1 = faster and <1 = slower). ||
+
+
 ---
 
 The Animatable capability extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

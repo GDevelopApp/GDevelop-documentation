@@ -149,6 +149,8 @@ Check if the obstacle is impassable.
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.PathfindingObstacle::Cost()` | Obstacle cost ||
+
+
 ---
 
 The Pathfinding behavior extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

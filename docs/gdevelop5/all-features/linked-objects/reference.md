@@ -23,6 +23,8 @@ Take some objects linked to the object into account for next conditions and acti
 The condition will return false if no object was taken into account.
 
 
+
+
 ---
 
 The Linked objects extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

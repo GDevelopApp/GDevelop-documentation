@@ -7,16 +7,7 @@ Allows to zoom camera on a layer with a speed (factor per second).
 
 ---
 
-## Description
-
 This extension allows to zoom a camera on a layer at a given speed. The zoom speed is configurable and allows a constant as well as a variable zoom speed. An anchor point can be defined, for instance, to keep what is under the cursor at the same place on screen.
-
-### Actions
-
-
-- Zoom at a given speed
-- Change the zoom with an anchor point
-- Zoom at a given speed and with an anchor point
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

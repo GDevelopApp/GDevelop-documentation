@@ -156,6 +156,8 @@ Compare the player owning the object.
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.MultiplayerObject::PlayerObjectOwnership()` | Return the player owning the object. ||
+
+
 ---
 
 The Multiplayer extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

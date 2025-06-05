@@ -3,6 +3,8 @@
 Lots of different effects to be used in your game. [Read more explanations about it.](/gdevelop5/interface/scene-editor/layer-effects)
 
 
+
+
 ---
 
 The Effects extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

@@ -37,6 +37,8 @@ Compare the scale on Y axis of the object (default scale is 1).
 | `Object.Scale::Value()` | Return the scale of the object (default scale is 1). ||
 | `Object.Scale::X()` | Return the scale on X axis of the object (default scale is 1). ||
 | `Object.Scale::Y()` | Return the scale on Y axis of the object (default scale is 1). ||
+
+
 ---
 
 The Scalable capability extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

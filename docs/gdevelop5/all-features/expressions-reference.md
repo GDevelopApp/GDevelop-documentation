@@ -1542,7 +1542,7 @@ Displays a tiled-based map, made with the Tiled editor (https://www.mapeditor.or
 
 ## Tweening
 
-Animate object properties over time. This allows smooth transitions, animations or movement of objects to specified positions. [Read more explanations about it.](/gdevelop5/behaviors/tween)
+Smoothly animate object properties over time — such as position, rotation scale, opacity, and more — as well as variables. Ideal for creating fluid transitions and UI animations. While you can use tweens to move objects, other behaviors (like platform, physics, ellipse movement...) or forces are often better suited for dynamic movement. Tween is best used for animating UI elements, static objects that need to move from one point to another, or other values like variables. [Read more explanations about it.](/gdevelop5/behaviors/tween)
 
 | Expression | Description |  |
 |-----|-----|-----|

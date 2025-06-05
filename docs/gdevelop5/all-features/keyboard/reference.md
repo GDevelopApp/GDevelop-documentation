@@ -21,6 +21,8 @@ Check if a key was just released
 | Expression | Description |  |
 |-----|-----|-----|
 | `LastPressedKey()` | Get the name of the latest key pressed on the keyboard ||
+
+
 ---
 
 The Keyboard extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

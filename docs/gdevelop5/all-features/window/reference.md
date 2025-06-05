@@ -42,6 +42,8 @@ Check if the game is currently in fullscreen.
 | `ScreenHeight()` | Height of the screen (or the page for HTML5 games in browser) ||
 | `ScreenWidth()` | Width of the screen (or the page for HTML5 games in browser) ||
 | `WindowTitle()` | Window's title ||
+
+
 ---
 
 The Game window and resolution extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
