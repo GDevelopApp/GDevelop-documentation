@@ -9,7 +9,7 @@ Reveal a text one letter after the other.
 
 Reveal a text one letter after the other (a "typewriter" effect).
 
-It can be used for dialogue scenes or visual novels on Text, Bitmap Text and BBText objects.
+It can be used for dialogue scenes or visual novels on Text and Bitmap Text objects.
 
 The top-down RPG example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://top-down-rpg)).
 
