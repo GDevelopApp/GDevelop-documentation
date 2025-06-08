@@ -179,6 +179,7 @@ nav:
             - Voice Recognition API: voice-recognition
         - Game mechanic:
             - Extra inventory functions: extra-inventory
+            - 3D height map: height-map3d
             - Ink Dialog Tree: ink-js
             - Secret Code: secret-code
             - Slot system: slot-system
