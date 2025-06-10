@@ -316,6 +316,8 @@ static std::set&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> 
 static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_whole_project_refactorer.html#a95206f7ad5288d5f28ba13b25be4af85">GetLayoutAndExternalLayoutLayerInstancesCount</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, <a class="el" href="classgd_1_1_layout.html">gd::Layout</a> &amp;layout, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;layerName)</td></tr>
 <tr class="memdesc:a95206f7ad5288d5f28ba13b25be4af85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of instances on the layer named <em>layerName</em> and all its associated layouts. <br /></td></tr>
 <tr class="separator:a95206f7ad5288d5f28ba13b25be4af85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4bce5192917a3748ef35fe1eb3275e1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_whole_project_refactorer.html#af4bce5192917a3748ef35fe1eb3275e1">UpdateBehaviorsSharedData</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project)</td></tr>
+<tr class="separator:af4bce5192917a3748ef35fe1eb3275e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Tool functions to do refactoring on the whole project after changes like deletion or renaming of an object. </p>
@@ -1543,6 +1545,34 @@ static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 
 <p>Refactor the function <b>before</b> a parameter is renamed. </p>
 <dl class="section warning"><dt>Warning</dt><dd>Do the renaming of the specified parameter after calling this. This is because the function is expected to have its old name for the refactoring. </dd></dl>
+
+</div>
+</div>
+<a id="af4bce5192917a3748ef35fe1eb3275e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4bce5192917a3748ef35fe1eb3275e1">&#9670;&nbsp;</a></span>UpdateBehaviorsSharedData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gd::WholeProjectRefactorer::UpdateBehaviorsSharedData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;&#160;</td>
+          <td class="paramname"><em>project</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This ensures that the scenes had an instance of shared data for every behavior of every object that can be used on the scene (i.e. the objects of the scene and the global objects)</p>
+<p>Must be called when a behavior have been added/deleted from a global object or an object has been made global. </p>
 
 </div>
 </div>

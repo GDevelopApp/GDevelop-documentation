@@ -465,82 +465,84 @@ $(function() {
 <div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">size_t</span> GetLayoutAndExternalLayoutLayerInstancesCount(</div>
 <div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;      <a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project, <a class="code" href="classgd_1_1_layout.html">gd::Layout</a> &amp;layout, <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;layerName);</div>
 <div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160; </div>
-<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;  <span class="keyword">virtual</span> ~<a class="code" href="classgd_1_1_whole_project_refactorer.html">WholeProjectRefactorer</a>(){};</div>
-<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160; </div>
-<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> ObjectOrGroupRenamedInScene(<a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project,</div>
-<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;                                          <a class="code" href="classgd_1_1_layout.html">gd::Layout</a> &amp;scene,</div>
-<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;                                          <span class="keyword">const</span> <a class="code" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;targetedObjectsContainer,</div>
-<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;                                          <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;oldName,</div>
-<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;                                          <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;newName,</div>
-<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;                                          <span class="keywordtype">bool</span> isObjectGroup);</div>
-<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;  <span class="keyword">static</span> std::vector&lt;gd::String&gt; GetAssociatedExternalLayouts(</div>
-<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;      <a class="code" href="classgd_1_1_project.html">gd::Project</a>&amp; project, <a class="code" href="classgd_1_1_layout.html">gd::Layout</a>&amp; layout);</div>
-<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;  <span class="keyword">static</span> std::vector&lt;gd::String&gt;</div>
-<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;  GetAssociatedExternalLayouts(<a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project,</div>
-<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;                               <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;layoutName);</div>
-<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;  <span class="keyword">static</span> std::vector&lt;gd::String&gt;</div>
-<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;  GetAssociatedExternalEvents(<a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project,</div>
-<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;                               <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;layoutName);</div>
-<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160; </div>
-<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> DoRenameEventsFunction(<a class="code" href="classgd_1_1_project.html">gd::Project</a>&amp; project,</div>
-<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;                                     <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_function.html">gd::EventsFunction</a>&amp; eventsFunction,</div>
-<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;                                     <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; oldFullType,</div>
-<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;                                     <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; newFullType,</div>
-<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;                                     <span class="keyword">const</span> <a class="code" href="classgd_1_1_project_browser.html">gd::ProjectBrowser</a>&amp; projectBrowser);</div>
-<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160; </div>
-<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> DoRenameBehavior(<a class="code" href="classgd_1_1_project.html">gd::Project</a>&amp; project,</div>
-<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;                               <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; oldBehaviorType,</div>
-<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;                               <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; newBehaviorType,</div>
-<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;                               <span class="keyword">const</span> <a class="code" href="classgd_1_1_project_browser.html">gd::ProjectBrowser</a>&amp; projectBrowser);</div>
-<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160; </div>
-<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> DoRenameObject(<a class="code" href="classgd_1_1_project.html">gd::Project</a>&amp; project,</div>
-<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;                             <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; oldObjectType,</div>
-<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;                             <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; newObjectType,</div>
-<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;                             <span class="keyword">const</span> <a class="code" href="classgd_1_1_project_browser.html">gd::ProjectBrowser</a>&amp; projectBrowser);</div>
+<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> UpdateBehaviorsSharedData(<a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project);</div>
+<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160; </div>
+<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;  <span class="keyword">virtual</span> ~<a class="code" href="classgd_1_1_whole_project_refactorer.html">WholeProjectRefactorer</a>(){};</div>
+<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160; </div>
+<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160; <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> ObjectOrGroupRenamedInScene(<a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project,</div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;                                          <a class="code" href="classgd_1_1_layout.html">gd::Layout</a> &amp;scene,</div>
+<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;                                          <span class="keyword">const</span> <a class="code" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;targetedObjectsContainer,</div>
+<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;                                          <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;oldName,</div>
+<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;                                          <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;newName,</div>
+<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;                                          <span class="keywordtype">bool</span> isObjectGroup);</div>
+<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;  <span class="keyword">static</span> std::vector&lt;gd::String&gt; GetAssociatedExternalLayouts(</div>
+<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;      <a class="code" href="classgd_1_1_project.html">gd::Project</a>&amp; project, <a class="code" href="classgd_1_1_layout.html">gd::Layout</a>&amp; layout);</div>
+<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;  <span class="keyword">static</span> std::vector&lt;gd::String&gt;</div>
+<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;  GetAssociatedExternalLayouts(<a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project,</div>
+<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;                               <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;layoutName);</div>
+<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;  <span class="keyword">static</span> std::vector&lt;gd::String&gt;</div>
+<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;  GetAssociatedExternalEvents(<a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project,</div>
+<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;                               <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;layoutName);</div>
+<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160; </div>
+<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> DoRenameEventsFunction(<a class="code" href="classgd_1_1_project.html">gd::Project</a>&amp; project,</div>
+<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;                                     <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_function.html">gd::EventsFunction</a>&amp; eventsFunction,</div>
+<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;                                     <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; oldFullType,</div>
+<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;                                     <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; newFullType,</div>
+<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;                                     <span class="keyword">const</span> <a class="code" href="classgd_1_1_project_browser.html">gd::ProjectBrowser</a>&amp; projectBrowser);</div>
 <div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160; </div>
-<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> RenameEventsFunctionsExtension(</div>
-<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;      <a class="code" href="classgd_1_1_project.html">gd::Project</a>&amp; project,</div>
-<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_functions_extension.html">gd::EventsFunctionsExtension</a>&amp; eventsFunctionsExtension,</div>
-<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; oldName,</div>
-<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; newName,</div>
-<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_project_browser.html">gd::ProjectBrowser</a>&amp; projectBrowser);</div>
-<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160; </div>
-<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> RenameEventsBasedBehavior(</div>
-<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;      <a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project,</div>
-<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_functions_extension.html">gd::EventsFunctionsExtension</a> &amp;eventsFunctionsExtension,</div>
-<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_based_behavior.html">gd::EventsBasedBehavior</a> &amp;eventsBasedBehavior,</div>
-<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;oldBehaviorName,</div>
-<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;newBehaviorName,</div>
-<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_project_browser.html">gd::ProjectBrowser</a> &amp;projectBrowser);</div>
-<div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160; </div>
-<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> RenameEventsBasedObject(</div>
-<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;      <a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project,</div>
-<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_functions_extension.html">gd::EventsFunctionsExtension</a> &amp;eventsFunctionsExtension,</div>
-<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_based_object.html">gd::EventsBasedObject</a> &amp;eventsBasedObject,</div>
-<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;oldObjectName, <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;newObjectName,</div>
-<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_project_browser.html">gd::ProjectBrowser</a> &amp;projectBrowser);</div>
-<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160; </div>
-<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> FindDependentBehaviorNames(</div>
-<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_project.html">gd::Project</a>&amp; project,</div>
-<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_object.html">gd::Object</a>&amp; <span class="keywordtype">object</span>,</div>
-<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; behaviorName,</div>
-<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;      std::unordered_set&lt;gd::String&gt;&amp; dependentBehaviorNames);</div>
-<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160; </div>
-<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;  <span class="keyword">static</span> std::shared_ptr&lt;VariablesRenamingChangesetNode&gt;</div>
-<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;  ComputeChangesetForVariable(<span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a> &amp;oldVariable,</div>
-<div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;                              <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a> &amp;newVariable);</div>
+<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> DoRenameBehavior(<a class="code" href="classgd_1_1_project.html">gd::Project</a>&amp; project,</div>
+<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;                               <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; oldBehaviorType,</div>
+<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;                               <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; newBehaviorType,</div>
+<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;                               <span class="keyword">const</span> <a class="code" href="classgd_1_1_project_browser.html">gd::ProjectBrowser</a>&amp; projectBrowser);</div>
+<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160; </div>
+<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> DoRenameObject(<a class="code" href="classgd_1_1_project.html">gd::Project</a>&amp; project,</div>
+<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;                             <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; oldObjectType,</div>
+<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;                             <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; newObjectType,</div>
+<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;                             <span class="keyword">const</span> <a class="code" href="classgd_1_1_project_browser.html">gd::ProjectBrowser</a>&amp; projectBrowser);</div>
+<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160; </div>
+<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> RenameEventsFunctionsExtension(</div>
+<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;      <a class="code" href="classgd_1_1_project.html">gd::Project</a>&amp; project,</div>
+<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_functions_extension.html">gd::EventsFunctionsExtension</a>&amp; eventsFunctionsExtension,</div>
+<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; oldName,</div>
+<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; newName,</div>
+<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_project_browser.html">gd::ProjectBrowser</a>&amp; projectBrowser);</div>
+<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160; </div>
+<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> RenameEventsBasedBehavior(</div>
+<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;      <a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project,</div>
+<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_functions_extension.html">gd::EventsFunctionsExtension</a> &amp;eventsFunctionsExtension,</div>
+<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_based_behavior.html">gd::EventsBasedBehavior</a> &amp;eventsBasedBehavior,</div>
+<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;oldBehaviorName,</div>
+<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;newBehaviorName,</div>
+<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_project_browser.html">gd::ProjectBrowser</a> &amp;projectBrowser);</div>
+<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160; </div>
+<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> RenameEventsBasedObject(</div>
+<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;      <a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project,</div>
+<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_functions_extension.html">gd::EventsFunctionsExtension</a> &amp;eventsFunctionsExtension,</div>
+<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_based_object.html">gd::EventsBasedObject</a> &amp;eventsBasedObject,</div>
+<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;oldObjectName, <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;newObjectName,</div>
+<div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_project_browser.html">gd::ProjectBrowser</a> &amp;projectBrowser);</div>
 <div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160; </div>
-<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">bool</span> HasAnyVariableTypeChanged(<span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a> &amp;oldVariable,</div>
-<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;                                        <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a> &amp;newVariable);</div>
-<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160; </div>
-<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> behaviorObjectParameterName;</div>
-<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> parentObjectParameterName;</div>
+<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> FindDependentBehaviorNames(</div>
+<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_project.html">gd::Project</a>&amp; project,</div>
+<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_object.html">gd::Object</a>&amp; <span class="keywordtype">object</span>,</div>
+<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; behaviorName,</div>
+<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;      std::unordered_set&lt;gd::String&gt;&amp; dependentBehaviorNames);</div>
 <div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160; </div>
-<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;  <a class="code" href="classgd_1_1_whole_project_refactorer.html">WholeProjectRefactorer</a>(){};</div>
-<div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;};</div>
-<div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160; </div>
-<div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160;}  <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;  <span class="keyword">static</span> std::shared_ptr&lt;VariablesRenamingChangesetNode&gt;</div>
+<div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;  ComputeChangesetForVariable(<span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a> &amp;oldVariable,</div>
+<div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;                              <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a> &amp;newVariable);</div>
+<div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160; </div>
+<div class="line"><a name="l00805"></a><span class="lineno">  805</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">bool</span> HasAnyVariableTypeChanged(<span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a> &amp;oldVariable,</div>
+<div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;                                        <span class="keyword">const</span> <a class="code" href="classgd_1_1_variable.html">gd::Variable</a> &amp;newVariable);</div>
+<div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160; </div>
+<div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> behaviorObjectParameterName;</div>
+<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> parentObjectParameterName;</div>
+<div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160; </div>
+<div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160;  <a class="code" href="classgd_1_1_whole_project_refactorer.html">WholeProjectRefactorer</a>(){};</div>
+<div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160;};</div>
+<div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160; </div>
+<div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;}  <span class="comment">// namespace gd</span></div>
 <div class="ttc" id="aclassgd_1_1_events_based_behavior_html"><div class="ttname"><a href="classgd_1_1_events_based_behavior.html">gd::EventsBasedBehavior</a></div><div class="ttdoc">Represents a behavior that is implemented with events.</div><div class="ttdef"><b>Definition:</b> EventsBasedBehavior.h:31</div></div>
 <div class="ttc" id="aclassgd_1_1_events_based_object_html"><div class="ttname"><a href="classgd_1_1_events_based_object.html">gd::EventsBasedObject</a></div><div class="ttdoc">Represents an object that is implemented with events.</div><div class="ttdef"><b>Definition:</b> EventsBasedObject.h:32</div></div>
 <div class="ttc" id="aclassgd_1_1_events_function_html"><div class="ttname"><a href="classgd_1_1_events_function.html">gd::EventsFunction</a></div><div class="ttdoc">Events that can be generated as a stand-alone function, and used as a condition, action or expression...</div><div class="ttdef"><b>Definition:</b> EventsFunction.h:38</div></div>
