@@ -31,9 +31,9 @@ Behaviors are grouped into [extensions](/gdevelop5/extensions). They are the sam
 
 Click on **Create or search for new extensions** at the bottom. Then, select **Create a new extension** to [create a new extension](/gdevelop5/extensions/create).
 
-By default, extensions don't have any behavior. Add one by clicking on **Add a new behavior** on the left.
+By default, extensions don't have any behavior. Add one by clicking on the "+" button on the left next to **Behaviors**.
 
-![](pasted/20210906-234614.png)
+![](/gdevelop5/events/functions/empty-extension.png)
 
 You can choose the description and the name to display to users when they will add your behavior to an object. If you need to use a specific object (sprites, texts...), you can choose it with the drop-down list at the bottom.
 
@@ -161,6 +161,18 @@ If you create a behavior and want to use this, just go to the properties of this
 
 To use a behavior based on another, you don't need to do anything special! Just add it to your object as usual: any missing behavior will be added to your object, so you can start using it immediately.
 
+## Write behaviors dedicated to your project
+
+You probably used extensions from the community. These extensions aim to be usable in many projects, but extensions can also be created with only one project in mind.
+
+The [platformer template](https://gdevelop.io/game-example/free/platformer) has a `Enemy` extension with a `MonsterEnemy` behavior. This behavior toggle between
+- a **Fire** state where it hurts the player
+- a **NoFire** state where the player can jump on it
+
+![](platformer-enemy-extension.png)
+
+The [Bomberman-like template](https://gdevelop.io/game-example/free/3d-bomber-bunny) shows how a game can be organized into extensions. The players, bombs and bonuses have their own custom behavior. It allows to gather the logic of each object in one place: their extension. The main events can then focus on how these objects interact with each other.
+
 ## A word about the advantages of behaviors
 
 Creating your own behaviors has multiple advantages:
@@ -174,6 +186,11 @@ Creating your own behaviors has multiple advantages:
     Encapsulation and reusability are core concepts in programming. In other game engines, like Unity, objects and behaviors might be named entities and components.
 
 ## Examples/ideas for custom behaviors
+
+Installing and opening existing extensions can be a good way to see how behaviors work. The following extensions are simple enough not to feel lost when looking at their events: 
+
+- [Animated back and forth movement](https://wiki.gdevelop.io/gdevelop5/extensions/animated-back-and-forth-movement/)
+- [Flash object](https://wiki.gdevelop.io/gdevelop5/extensions/flash/)
 
 You can imagine tons of different behaviors. Here are a few examples:
 
