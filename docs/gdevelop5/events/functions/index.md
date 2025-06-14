@@ -25,9 +25,9 @@ Functions are grouped into [extensions](/gdevelop5/extensions). They are the sam
 
 Click on **Create or search for new extensions** at the bottom. Then, select **Create a new extension** to [create a new extension](/gdevelop5/extensions/create).
 
-By default, extensions don't have any function. Add one by clicking on **Add a new function** on the left.
+By default, extensions don't have any function. Add one by clicking on the "+" button on the left next to **Functions**.
 
-![](pasted/20221118-093435.png)
+![](empty-extension.png)
 
 A new function is added, it's time to give it a name. By convention:
 
@@ -79,9 +79,11 @@ Conditions and actions from behaviors can also be used in functions events. For 
 
 #### Use parameter values
 
-A number, string and boolean parameter values can be compared with conditions.
+Number, string and boolean parameters can be compared with the same conditions as global and scene [variables](/gdevelop5/all-features/variables).
 
-![](functionn-parameter-condition.png)
+!!! note
+
+    Parameter values can't be changed with actions. If you want to give back a value to scene events, you have to create a [custom expression](#return-a-value-from-a-function).
 
 Parameters can also be used directly in expressions by writing their name. For instance, a parameter called "ScoreToMultiply" can be used the following: `2 * ScoreToMultiply`.
 
@@ -109,18 +111,29 @@ Function that are conditions or expressions must return a value. The returned va
 
 ### Use variables from function events
 
-Variable can be useful within functions for intermediary results or to keep a state in the extension.
-From function events, expressions must be used to access variable values:
+Variables can be useful within functions for intermediary results or to keep a state in the extension. You can declare new [variables](/gdevelop5/all-features/variables) that are accessible only inside the extension by clicking on **Extension global variables** or **Extension scene variables**.
 
-- `GlobalVariable(MyVariable)` for global variables
-- `Variable(MyVariable)` for scene variables
-- `MyObject.Variable(MyVariable)` for object variables
+!!! tip
+
+    If you feel the need to modify object variables, there is a good chance that you should rather make a [custom behavior](/gdevelop5/behaviors/events-based-behaviors/) and use properties.
 
 ## Use functions in events
 
 Extension functions can be found in conditions and actions lists like any other feature of the engine.
 
 ![](pasted/20221118-094110.png)
+
+## Write functions dedicated to your project
+
+You probably used extensions from the community. These extensions aim to be usable in many projects, but extensions can also be created with only one project in mind.
+
+The [platformer template](https://gdevelop.io/game-example/free/platformer) has a `Player` extension with a few functions. For instance, the function `AnimateFallingIntoPortal` uses a few actions to make an animation that is played at the end of the level.
+
+![](platformer-player-extension.png)
+
+Visual and sound effects can quickly take a lot of space. Making small functions like this allow to keep the scene events easy to follow.
+
+![](platformer-player-extension-usage.png)
 
 ## Advanced usages
 
