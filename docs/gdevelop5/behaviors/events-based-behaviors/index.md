@@ -142,14 +142,11 @@ Properties can also be used to required behaviors as described in a following se
 
 ### Use actions and conditions to manipulate the properties
 
-Once you have created some properties on your behavior, conditions and actions will be automatically added in the events sheet. For each property, there will be a condition to compare its value, and an action for changing it.
-Strings and numbers will also have an expression to get their values.
+Number, string and boolean parameters can be used with the same actions and conditions as global and scene [variables](/gdevelop5/all-features/variables). Properties can also be used directly in expressions by writing their name. For instance, a property called "ScoreToMultiply" can be used the following: `2 * ScoreToMultiply`.
 
-!!! note
+Properties won't be usable from outside of the behavior. Properties are said to be "private", they can only be manipulated by the behavior. If you want to let extension users modifying them from the scene events, you can generate an action and a condition from the drop-down menu of the property.
 
-    If you rename your properties, the actions/conditions/expressions will be updated automatically.
-
-These actions/conditions/expressions won't be usable from outside of the behavior. Properties are said to be "private", they can only be manipulated by the behavior. If you want to let extension user modifying them from the scene events, you can generate an action and a condition from the drop-down menu of the property.
+![](generate-property-accessors.png)
 
 ## Behaviors using other behaviors as properties
 
