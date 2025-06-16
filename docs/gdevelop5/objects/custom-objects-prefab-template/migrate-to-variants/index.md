@@ -13,6 +13,7 @@ The migration to variants is recommended but not mandatory. You can keep using y
 ## Migrate custom objects from the asset-store
 
 The assets of the store are now using variants. If your custom object comes from the asset-store, you only have to follow a few steps:
+
 - Find back your assets in the store
 - Install them in your project
 - Accept the extension update
@@ -34,6 +35,7 @@ The following sections give specific instructions for each custom object.
 ### Migrate buttons
 
 After upgrading the button extension, you will notice that the label of all buttons disappeared.
+
 - Copy and paste the text from **Initial text to display** to the **Label** property.
 
 ![](./button-properties.png)
@@ -58,6 +60,7 @@ For the other buttons in your project, you can choose the new variant you create
 ### Migrate sliders
 
 After upgrading the button extension, you will notice that the slider is deformed.
+
 - Open the object editor and duplicate the default variant by clicking on the **Duplicate** button below the **Variant** title.
 - Choose a name for your new slider style.
 - To edit the new variant, click on the **Edit** button, close the dialog and select the new opened tab.
@@ -79,6 +82,7 @@ For the other sliders in your project, you can choose the new variant you create
 ### Migrate toggle switches
 
 After upgrading the button extension, you will notice that the toggle switch is deformed.
+
 - Open the object editor and duplicate the default variant by clicking on the **Duplicate** button below the **Variant** title.
 - Choose a name for your new toggle switch style.
 - To edit the new variant, click on the **Edit** button, close the dialog and select the new opened tab.
@@ -93,6 +97,7 @@ For the other toggle switch in your project, you can choose the new variant you 
 ### Migrate resource bars (continuous)
 
 After upgrading the button extension, you will notice that the slider is deformed.
+
 - Open the object editor and duplicate the default variant by clicking on the **Duplicate** button below the **Variant** title.
 - Choose a name for your new resource bar style.
 - To edit the new variant, click on the **Edit** button, close the dialog and select the new opened tab.
@@ -114,6 +119,7 @@ For the other resource bars in your project, you can choose the new variant you 
 ### Migrate Resource bars (separated units)
 
 After upgrading the button extension, you will notice that the slider is deformed.
+
 - Open the object editor and duplicate the default variant by clicking on the **Duplicate** button below the **Variant** title.
 - Choose a name for your new resource bar style.
 - To edit the new variant, click on the **Edit** button, close the dialog and select the new opened tab.
@@ -130,5 +136,3 @@ You should see something like this:
 The **Bar right margin** and **Bar bottom margin** properties no longer exist. You can adjust the bar position directly with the graphical editor.
 
 For the other resource bars in your project, you can choose the new variant you created, no additional change is required.
-
-
