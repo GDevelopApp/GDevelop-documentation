@@ -31,9 +31,9 @@ Behaviors are grouped into [extensions](/gdevelop5/extensions). They are the sam
 
 Click on **Create or search for new extensions** at the bottom. Then, select **Create a new extension** to [create a new extension](/gdevelop5/extensions/create).
 
-By default, extensions don't have any behavior. Add one by clicking on **Add a new behavior** on the left.
+By default, extensions don't have any behavior. Add one by clicking on the "+" button on the left next to **Behaviors**.
 
-![](pasted/20210906-234614.png)
+![](/gdevelop5/events/functions/empty-extension.png)
 
 You can choose the description and the name to display to users when they will add your behavior to an object. If you need to use a specific object (sprites, texts...), you can choose it with the drop-down list at the bottom.
 
@@ -142,14 +142,11 @@ Properties can also be used to required behaviors as described in a following se
 
 ### Use actions and conditions to manipulate the properties
 
-Once you have created some properties on your behavior, conditions and actions will be automatically added in the events sheet. For each property, there will be a condition to compare its value, and an action for changing it.
-Strings and numbers will also have an expression to get their values.
+Number, string and boolean parameters can be used with the same actions and conditions as global and scene [variables](/gdevelop5/all-features/variables). Properties can also be used directly in expressions by writing their name. For instance, a property called "ScoreToMultiply" can be used the following: `2 * ScoreToMultiply`.
 
-!!! note
+Properties won't be usable from outside of the behavior. Properties are said to be "private", they can only be manipulated by the behavior. If you want to let extension users modifying them from the scene events, you can generate an action and a condition from the drop-down menu of the property.
 
-    If you rename your properties, the actions/conditions/expressions will be updated automatically.
-
-These actions/conditions/expressions won't be usable from outside of the behavior. Properties are said to be "private", they can only be manipulated by the behavior. If you want to let extension user modifying them from the scene events, you can generate an action and a condition from the drop-down menu of the property.
+![](generate-property-accessors.png)
 
 ## Behaviors using other behaviors as properties
 
@@ -164,6 +161,18 @@ If you create a behavior and want to use this, just go to the properties of this
 
 To use a behavior based on another, you don't need to do anything special! Just add it to your object as usual: any missing behavior will be added to your object, so you can start using it immediately.
 
+## Write behaviors dedicated to your project
+
+You probably used extensions from the community. These extensions aim to be usable in many projects, but extensions can also be created with only one project in mind.
+
+The [platformer template](https://gdevelop.io/game-example/free/platformer) has a `Enemy` extension with a `MonsterEnemy` behavior. This behavior toggle between
+- a **Fire** state where it hurts the player
+- a **NoFire** state where the player can jump on it
+
+![](platformer-enemy-extension.png)
+
+The [Bomberman-like template](https://gdevelop.io/game-example/free/3d-bomber-bunny) shows how a game can be organized into extensions. The players, bombs and bonuses have their own custom behavior. It allows to gather the logic of each object in one place: their extension. The main events can then focus on how these objects interact with each other.
+
 ## A word about the advantages of behaviors
 
 Creating your own behaviors has multiple advantages:
@@ -177,6 +186,11 @@ Creating your own behaviors has multiple advantages:
     Encapsulation and reusability are core concepts in programming. In other game engines, like Unity, objects and behaviors might be named entities and components.
 
 ## Examples/ideas for custom behaviors
+
+Installing and opening existing extensions can be a good way to see how behaviors work. The following extensions are simple enough not to feel lost when looking at their events: 
+
+- [Animated back and forth movement](https://wiki.gdevelop.io/gdevelop5/extensions/animated-back-and-forth-movement/)
+- [Flash object](https://wiki.gdevelop.io/gdevelop5/extensions/flash/)
 
 You can imagine tons of different behaviors. Here are a few examples:
 
