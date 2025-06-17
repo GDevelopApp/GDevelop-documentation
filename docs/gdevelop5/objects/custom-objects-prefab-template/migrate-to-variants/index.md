@@ -24,7 +24,7 @@ The assets of the store are now using variants. If your custom object comes from
 
 ## Migrate custom objects with your own assets
 
-Custom object variants use a graphical editor to place the child-objects. Properties that once fit this role has been removed in the new extensions. It means that after the extension update the custom objects will look deformed. You can fix this by adjusting the child-object positions with the graphical editor.
+Custom object variants use a graphical editor to place the instances. Properties that once fit this role has been removed in the new extensions. It means that after the extension update the custom objects will look deformed. You can fix this by adjusting the instances positions inside the custom object with the graphical editor.
 
 !!! note
 
