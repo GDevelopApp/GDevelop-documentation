@@ -110,9 +110,8 @@ VariableExistence&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_containers_list.html#afb19f4bfc9fb4a31658ee63c780281c5">HasObjectOrGroupVariablesContainer</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectOrGroupName, const <a class="el" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> &amp;variablesContainer) const</td></tr>
 <tr class="memdesc:afb19f4bfc9fb4a31658ee63c780281c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the specified object or group has the specified variables container. <br /></td></tr>
 <tr class="separator:afb19f4bfc9fb4a31658ee63c780281c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05264a806d2998ff99a4b4fbcb0f075b"><td class="memItemLeft" align="right" valign="top"><a id="a05264a806d2998ff99a4b4fbcb0f075b"></a>
-const <a class="el" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_containers_list.html#a05264a806d2998ff99a4b4fbcb0f075b">GetObjectOrGroupVariablesContainer</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectOrGroupName) const</td></tr>
-<tr class="memdesc:a05264a806d2998ff99a4b4fbcb0f075b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the container of the variables for the specified object or group of objects. <br /></td></tr>
+<tr class="memitem:a05264a806d2998ff99a4b4fbcb0f075b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_containers_list.html#a05264a806d2998ff99a4b4fbcb0f075b">GetObjectOrGroupVariablesContainer</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectOrGroupName) const</td></tr>
+<tr class="memdesc:a05264a806d2998ff99a4b4fbcb0f075b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the container of the variables for the specified object or group of objects.  <a href="classgd_1_1_objects_containers_list.html#a05264a806d2998ff99a4b4fbcb0f075b">More...</a><br /></td></tr>
 <tr class="separator:a05264a806d2998ff99a4b4fbcb0f075b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1884f0c9d6e65a73df886ed953553001"><td class="memItemLeft" align="right" valign="top"><a id="a1884f0c9d6e65a73df886ed953553001"></a>
 <a class="el" href="classgd_1_1_variable.html#a06d83e4a398f4b54603c8ce1c4b18ece">gd::Variable::Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_objects_containers_list.html#a1884f0c9d6e65a73df886ed953553001">GetTypeOfObjectOrGroupVariable</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;objectOrGroupName, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;variableName) const</td></tr>
@@ -346,6 +345,27 @@ static <a class="el" href="classgd_1_1_objects_containers_list.html">ObjectsCont
 <p>Get behaviors of an object/group. </p>
 <dl class="section note"><dt>Note</dt><dd>The behaviors of a group are the behaviors which are found in common when looking all the objects of the group.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Vector containing names of behaviors </dd></dl>
+
+</div>
+</div>
+<a id="a05264a806d2998ff99a4b4fbcb0f075b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05264a806d2998ff99a4b4fbcb0f075b">&#9670;&nbsp;</a></span>GetObjectOrGroupVariablesContainer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> * gd::ObjectsContainersList::GetObjectOrGroupVariablesContainer </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>objectOrGroupName</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the container of the variables for the specified object or group of objects. </p>
+<dl class="section warning"><dt>Warning</dt><dd>In most cases, prefer to use other methods to access variables or use <a class="el" href="classgd_1_1_object_variable_helper.html#a40899b42ea27e4c97fd5cb03dc019ceb">ObjectVariableHelper::MergeVariableContainers</a> if you know you're dealing with a group. This is because the variables container of an object group does not exist and the one from first object of the group will be returned. </dd></dl>
 
 </div>
 </div>
