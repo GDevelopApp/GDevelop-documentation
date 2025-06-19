@@ -11,10 +11,10 @@ Move objects by holding a mouse button (or touch).
 ### Behavior conditions
 
 **Being dragged**  
-Check if the object is being dragged.
+Check if the object is being dragged. This means the mouse button or touch is pressed on it. When the mouse button or touch is released,  the object is no longer being considered dragged (use the condition "Was just dropped" to check when the dragging is ending).
 
 **Was just dropped**  
-Check if the object was just dropped after being dragged.
+Check if the object was just dropped after being dragged (the mouse button or touch was just released this frame).
 
 _No expressions for this behavior._
 
