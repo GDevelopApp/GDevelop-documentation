@@ -7,7 +7,7 @@ nav:
     - Preview: preview.md
     - debugger
     - profile
-    - Ask AI: ask-ai
+    - ai
     - ...
     - More:
       - command-palette-and-shortcuts.md
