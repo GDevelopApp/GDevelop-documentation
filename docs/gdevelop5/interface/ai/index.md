@@ -23,7 +23,7 @@ The AI understands all built-in GDevelop features and official, reviewed extensi
 
 The AI has two operating modes:
 
-- **[Build for me (AI agent)](./agent)**: the AI will build your request inside your game. This can range from simple changes ("Make this object bigger") to more complex requests ("Create an enemy that attack my player when approaching them").
+- **[Build for me (AI agent)](./agent)**: the AI will build your request inside your game. This can range from simple changes ("Make this object bigger") to more complex requests ("Create an enemy that starts attacking when the player comes near").
 - **[Ask a question (AI chat)](./chat)**: the AI will answer any question you ask it about game development and usage of GDevelop.
 
 [Learn more about the GDevelop AI agent](./agent){ .md-button .md-button--primary .full-width }
