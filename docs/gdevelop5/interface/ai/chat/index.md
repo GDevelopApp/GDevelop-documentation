@@ -3,15 +3,17 @@ title: Chat with AI
 ---
 # Chat with AI: Get Help Building Your Game with AI
 
-The **AI chat** is a chat assistant designed specifically to help you create your game in GDevelop.
+The **AI chat** is a chat assistant designed specifically to answer questions about GDevelop and game creation.
+
+![A conversation with the AI chat](./ai-chat-conversation.png)
 
 ## How to use it
 
-To open Ask AI, click the "Ask AI" button in the top-right corner of the GDevelop interface. Select **"Ask a question"**, then type your question and click Send — that’s it.
+To open the AI, click the "Ask AI" button in the top-right corner of the GDevelop interface. Select **"Ask a question"**, then type your question and send it — that’s it.
 
 The AI will reply in a few seconds. Answers often include **links to helpful resources, extensions, behaviors**, and relevant GDevelop concepts like actions or conditions.
 
-!!! warning
+!!! note
 
     As with every AI tool, the AI answers are not perfect. From time to time, it can confuse some concepts, misunderstanding your game or what you're trying to do.
     Always double check the answers and use the AI answers as suggestions to build your game. It's a good idea to follow the **[Complete GDevelop Master Course](https://gdevelop.io/academy)** to quickly learn the basics of GDevelop and make your first games.
@@ -36,7 +38,7 @@ The AI chat is perfect for getting a better understanding of a game develpment n
 
 Each account starts with a few **free AI answers**. If you have a GDevelop Gold or Pro subscription, you’ll receive more every month — 25 with Gold and 75 with Pro.
 
-!!! note
+!!! tip
 
     Once you've used all free answers, a message you send to the AI costs 5 credits. This means that with [a package of 500 credits](/gdevelop5/interface/profile/credits), you can make up to 100 requests. Remember you can get **free credits by following GDevelop accounts** on socials — check your profile!
 
