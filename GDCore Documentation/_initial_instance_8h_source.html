@@ -214,43 +214,45 @@ $(function() {
 <div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> UnserializeFrom(<span class="keyword">const</span> <a class="code" href="classgd_1_1_serializer_element.html">SerializerElement</a>&amp; element);</div>
 <div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160; </div>
 <div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;  <a class="code" href="classgd_1_1_initial_instance.html">InitialInstance</a>&amp; ResetPersistentUuid();</div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160; </div>
-<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;  <span class="comment">// More properties can be stored in numberProperties and stringProperties.</span></div>
-<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;  <span class="comment">// These properties are then managed by the Object class.</span></div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;  std::map&lt;gd::String, double&gt;</div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;      numberProperties;  </div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;  std::map&lt;gd::String, gd::String&gt;</div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;      stringProperties;  </div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160; </div>
-<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> objectName;  </div>
-<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;  <span class="keywordtype">double</span> x;               </div>
-<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;  <span class="keywordtype">double</span> y;               </div>
-<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;  <span class="keywordtype">double</span> z;               </div>
-<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;  <span class="keywordtype">double</span> angle;           </div>
-<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;  <span class="keywordtype">double</span> rotationX;       </div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;  <span class="keywordtype">double</span> rotationY;       </div>
-<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;  <span class="keywordtype">int</span> zOrder;             </div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;  <span class="keywordtype">int</span> opacity;            </div>
-<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;  <span class="keywordtype">bool</span> flippedX;          </div>
-<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;  <span class="keywordtype">bool</span> flippedY;          </div>
-<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;  <span class="keywordtype">bool</span> flippedZ;          </div>
-<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> layer;       </div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;  <span class="keywordtype">bool</span> customSize;        </div>
-<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;  <span class="keywordtype">bool</span> customDepth;       </div>
-<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;  <span class="keywordtype">double</span> width;           </div>
-<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;  <span class="keywordtype">double</span> height;          </div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;  <span class="keywordtype">double</span> depth;           </div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;  <a class="code" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> initialVariables;  </div>
-<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;  <span class="keywordtype">bool</span> locked;                              </div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;  <span class="keywordtype">bool</span> sealed;                              </div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;  <span class="keywordtype">bool</span> keepRatio;                     </div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;  <span class="keyword">mutable</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> persistentUuid;  </div>
-<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160; </div>
-<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;  <span class="keyword">static</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>* badStringPropertyValue;  </div>
-<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;};</div>
-<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160; </div>
-<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;}  <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160; </div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; GetPersistentUuid()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> persistentUuid; }</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160; </div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160; <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;  <span class="comment">// More properties can be stored in numberProperties and stringProperties.</span></div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;  <span class="comment">// These properties are then managed by the Object class.</span></div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;  std::map&lt;gd::String, double&gt;</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;      numberProperties;  </div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;  std::map&lt;gd::String, gd::String&gt;</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;      stringProperties;  </div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160; </div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> objectName;  </div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;  <span class="keywordtype">double</span> x;               </div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;  <span class="keywordtype">double</span> y;               </div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;  <span class="keywordtype">double</span> z;               </div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;  <span class="keywordtype">double</span> angle;           </div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;  <span class="keywordtype">double</span> rotationX;       </div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;  <span class="keywordtype">double</span> rotationY;       </div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;  <span class="keywordtype">int</span> zOrder;             </div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;  <span class="keywordtype">int</span> opacity;            </div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;  <span class="keywordtype">bool</span> flippedX;          </div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;  <span class="keywordtype">bool</span> flippedY;          </div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;  <span class="keywordtype">bool</span> flippedZ;          </div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> layer;       </div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;  <span class="keywordtype">bool</span> customSize;        </div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;  <span class="keywordtype">bool</span> customDepth;       </div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;  <span class="keywordtype">double</span> width;           </div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;  <span class="keywordtype">double</span> height;          </div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;  <span class="keywordtype">double</span> depth;           </div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;  <a class="code" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> initialVariables;  </div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;  <span class="keywordtype">bool</span> locked;                              </div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;  <span class="keywordtype">bool</span> sealed;                              </div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;  <span class="keywordtype">bool</span> keepRatio;                     </div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;  <span class="keyword">mutable</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> persistentUuid;  </div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160; </div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;  <span class="keyword">static</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>* badStringPropertyValue;  </div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;};</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160; </div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;}  <span class="comment">// namespace gd</span></div>
 <div class="ttc" id="aclassgd_1_1_initial_instance_html"><div class="ttname"><a href="classgd_1_1_initial_instance.html">gd::InitialInstance</a></div><div class="ttdoc">Represents an instance of an object to be created on a layout start up.</div><div class="ttdef"><b>Definition:</b> InitialInstance.h:26</div></div>
 <div class="ttc" id="aclassgd_1_1_initial_instance_html_a02e4b295b087daf70f3b5fbbcf2dc3e6"><div class="ttname"><a href="classgd_1_1_initial_instance.html#a02e4b295b087daf70f3b5fbbcf2dc3e6">gd::InitialInstance::GetRotationY</a></div><div class="ttdeci">double GetRotationY() const</div><div class="ttdoc">Get the rotation of the instance on Y axis, in radians.</div><div class="ttdef"><b>Definition:</b> InitialInstance.h:109</div></div>
 <div class="ttc" id="aclassgd_1_1_initial_instance_html_a0623cb3df5ce0194c1a029babb96b2da"><div class="ttname"><a href="classgd_1_1_initial_instance.html#a0623cb3df5ce0194c1a029babb96b2da">gd::InitialInstance::GetRotationX</a></div><div class="ttdeci">double GetRotationX() const</div><div class="ttdoc">Get the rotation of the instance on X axis, in radians.</div><div class="ttdef"><b>Definition:</b> InitialInstance.h:99</div></div>
