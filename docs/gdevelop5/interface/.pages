@@ -7,7 +7,7 @@ nav:
     - Preview: preview.md
     - debugger
     - profile
-    - ai
+    - AI (Chat and AI Agent): ai
     - ...
     - More:
       - command-palette-and-shortcuts.md
