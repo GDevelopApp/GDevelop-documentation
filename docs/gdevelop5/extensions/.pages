@@ -43,7 +43,6 @@ nav:
         - Third person camera: third-person-camera
     - Game mechanic:
         - Checkpoints: checkpoints
-        - Dungeon generator: dungeon-generator
         - Fire bullets: fire-bullet
         - Health points and damage: health
         - Hexagonal grid: hexagonal-grid
@@ -152,7 +151,6 @@ nav:
         - Marching Squares (experimental): marching-squares
         - Slice an object into pieces: object-slicer
         - 3D particle emitter: particle-emitter3d
-        - Object recolorizer (experimental): recolorizer
         - Rolling counter: rolling-counter
         - Animate Shadow Clones: shadow-clones
         - Shake object: shake-object
@@ -178,14 +176,15 @@ nav:
             - GPS: geolocation
             - Voice Recognition API: voice-recognition
         - Game mechanic:
-            - Extra inventory functions: extra-inventory
+            - Dungeon generator: dungeon-generator
+            - Extra inventory functions (deprecated): extra-inventory
             - 3D height map: height-map3d
             - Ink Dialog Tree: ink-js
             - Slot system: slot-system
         - General:
             - With Three JS: with-three-js
             - 3D collision: collision3d
-            - Countdown Timer: countdown-timer
+            - Countdown timer (deprecated): countdown-timer
             - JSON Resource Loading: jsonresource-loader
             - Load images from a URL: load-image-from-url
             - Maze Generator: maze-generator
@@ -195,7 +194,6 @@ nav:
             - 3D sprite: sprite3d
         - Input:
             - Double key press: double-key-press
-            - Multitouch joystick and buttons (deprecated): multitouch-joystick
             - Screen Orientation Checker: screen-orientation-checker
             - Selection tools: selection-tools
         - Movement:
@@ -211,8 +209,6 @@ nav:
             - Point and Orbit: point-and-orbit
             - Pushable/Pullable Box: pushable-and-pullable-box
             - Record Movements: record-movements
-            - Rectangular Movement (deprecated): rectangular-movement
-            - Sine (or ellipsis) Movement (deprecated): sine-movement
             - Top-down corner sliding: top-down-corner-sliding
             - Trampoline Platform: trampoline-platform
             - Top-down walk: walk3d
@@ -236,13 +232,12 @@ nav:
             - Flexbox: flex-box
             - Pause when losing focus: pause-focus-lost
             - Star Rating: star-rating
-            - Console (commands handler for Text Entry objects): text-entry-console
-            - Mobile virtual keyboard for Text Entry: text-entry-virtual-keyboard
         - Visual effect:
             - Animation system: animation-system
             - Character game feel: character-game-feel
             - Dynamic Water: dynamic-water
             - Make it rain: make-it-rain
+            - Object recolorizer (experimental): recolorizer
             - Reflection: reflection
             - 3D Sky and sun: sky3d
             - Advanced 3D tween: tween3d

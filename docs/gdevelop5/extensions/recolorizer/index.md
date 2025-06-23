@@ -5,6 +5,13 @@ Independently change the colors of a sprite, a tiled sprite or a panel sprite.
 
 **Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).
 
+!!! warning
+    This is an extension made by a community member — but not reviewed
+    by the GDevelop extension team. As such, we can't guarantee it
+    meets all the quality standards of official extensions. In case of
+    doubt, contact the author to know more about what the extension
+    does or inspect its content before using it.
+
 ---
 
 This extension allows to restyle a sprite, a tiled sprite or a panel sprite.
@@ -18,6 +25,7 @@ It can be used to:
 An example shows how to change the 2 main colors of an object ([open the project online](https://editor.gdevelop.io/?project=example://recolorizer)).
 
 This extension is experimental and might no longer work in future version of GDevelop.
+The [color map effect](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/layer-effects/#color-map) is the prefered way to recolorize 2D objects.
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
