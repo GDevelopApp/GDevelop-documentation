@@ -27,7 +27,7 @@ Common features that can be used for all objects in GDevelop. [Read more explana
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Object.Angle()` | Current angle, in degrees, of the object ||
+| `Object.Angle()` | Current angle, in degrees, of the object. For 3D objects, this is the angle around the Z axis. ||
 | `Object.AngleToObject(object)` | Compute the angle between two objects (in degrees). If you need the angle to an arbitrary position, use AngleToPosition. ||
 | | _👾 Object_ | Object |
 | `Object.AngleToPosition(number, number)` | Compute the angle between the object center and a "target" position (in degrees). If you need the angle between two objects, use AngleToObject. ||

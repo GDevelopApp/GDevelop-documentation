@@ -168,7 +168,7 @@ Delete an object timer from memory.
 Reset the specified object timer, if the timer doesn't exist it's created and started.
 
 **Rotate**  
-Rotate an object, clockwise if the speed is positive, counterclockwise otherwise.
+Rotate an object, clockwise if the speed is positive, counterclockwise otherwise. For 3D objects, this is the rotation around the Z axis.
 
 **Rotate toward angle**  
 Rotate an object towards an angle with the specified speed.
@@ -182,7 +182,7 @@ Be sure to call this action on a reasonable number of objects
 to avoid slowing down the game.
 
 **Angle**  
-Change the angle of rotation of an object (in degrees).
+Change the angle of rotation of an object (in degrees). For 3D objects, this is the rotation around the Z axis.
 
 **Change object variable value**  
 Modify the boolean value of an object variable.
@@ -218,7 +218,7 @@ Unpause an object timer.
 ### Object conditions
 
 **Angle**  
-Compare the angle of the specified object.
+Compare the angle, in degrees, of the specified object. For 3D objects, this is the angle around the Z axis.
 
 **Object is stopped (no forces applied on it)**  
 Check if an object is not moving
@@ -308,7 +308,7 @@ Compare the overall speed of an object
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Object.Angle()` | Current angle, in degrees, of the object ||
+| `Object.Angle()` | Current angle, in degrees, of the object. For 3D objects, this is the angle around the Z axis. ||
 | `Object.AngleToObject(object)` | Compute the angle between two objects (in degrees). If you need the angle to an arbitrary position, use AngleToPosition. ||
 | | _👾 Object_ | Object |
 | `Object.AngleToPosition(number, number)` | Compute the angle between the object center and a "target" position (in degrees). If you need the angle between two objects, use AngleToObject. ||
