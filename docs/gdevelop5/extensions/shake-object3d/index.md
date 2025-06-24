@@ -11,10 +11,6 @@ Shake 3D objects with translation and rotation.
 
 The 3D racing game example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://3d-racing-game)).
 
-Breaking changes from 2.0.0
-
-- The behavior for 3D box has been removed. The other behavior can be used for both models and boxes.
-
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 

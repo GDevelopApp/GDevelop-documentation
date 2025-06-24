@@ -34,11 +34,6 @@ Tips:
 
 Watch this [tutorial video](https://youtu.be/rlGSlNSRR9w) to see examples of how to use this extension.
 
-Breaking changes from 2.0.0
-
-- The action no longer set "BatchID" variables. It can be done on the created objects after calling the action.
-- Spacing parameters have been inverted.
-
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 

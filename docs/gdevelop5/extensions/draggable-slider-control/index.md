@@ -23,11 +23,6 @@ Tips:
 
 Further details can be found in [this tutorial video](https://youtu.be/iiTUwdAT_hs).
 
-Breaking changes (1.0.0)
-
-- Track thickness and length properties replaced track width and height. These 2 properties must be set again if they were different from the default size.
-- Hidden sliders can be dragged. The "enable" action must be used to disable them.
-
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

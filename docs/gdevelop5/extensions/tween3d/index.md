@@ -20,10 +20,6 @@ It's used in this example:
 
 * a 3D Bomberman-like game ([open the project online](https://editor.gdevelop.io/?project=example://3d-bomber-bunny))
 
-Breaking changes of 0.1.0:
-
-- The Tween behavior is now required by the 3D Tween behavior. Add the Tween behavior on any object that uses the 3D Tween behavior
-
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 

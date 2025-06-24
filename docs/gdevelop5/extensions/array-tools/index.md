@@ -19,10 +19,6 @@ This extension adds features like:
 - Sort numbers in an array
 - String inter-operation (split string into array, join array array children to string)
 
-Breaking changes from 3.0.0
-
-- Variables have to be declared
-
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 

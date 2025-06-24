@@ -11,11 +11,6 @@ Check for a double-click with a mouse, or a tap and double-click on a touchscree
 
 Please note: Touch devices do not have alternatives for middle/right clicks. Taps on a touch device will get counted for _any_ use of these conditions, so you should either design your controls accordingly, or build out separate events if the device has a touch screen.
 
-Breaking changes from 2.0.0:
-
-- Mouse button value now needs quotes
-- The double-click sensitivity now relies on the device settings
-
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
