@@ -133,8 +133,7 @@ const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</t
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_custom_object_configuration.html#a77cc0f8ecf80dc802895e1f373977898">SetVariantName</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;variantName_)</td></tr>
 <tr class="memdesc:a77cc0f8ecf80dc802895e1f373977898"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the name of the events-based object variant used by this custom object. <br /></td></tr>
 <tr class="separator:a77cc0f8ecf80dc802895e1f373977898"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48480acfd057c27fcd6930e2b5719782"><td class="memItemLeft" align="right" valign="top"><a id="a48480acfd057c27fcd6930e2b5719782"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsForcedToOverrideEventsBasedObjectChildrenConfiguration</b> () const</td></tr>
+<tr class="memitem:a48480acfd057c27fcd6930e2b5719782"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_custom_object_configuration.html#a48480acfd057c27fcd6930e2b5719782">IsForcedToOverrideEventsBasedObjectChildrenConfiguration</a> () const</td></tr>
 <tr class="separator:a48480acfd057c27fcd6930e2b5719782"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6d086ca2e6fb74cae3805d475ee3cc7"><td class="memItemLeft" align="right" valign="top"><a id="ab6d086ca2e6fb74cae3805d475ee3cc7"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsMarkedAsOverridingEventsBasedObjectChildrenConfiguration</b> () const</td></tr>
@@ -399,6 +398,25 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Check if a child object properties must be displayed as folded in the editor. This is only useful when the object can override its children configuration (which is something being deprecated). </p>
+
+</div>
+</div>
+<a id="a48480acfd057c27fcd6930e2b5719782"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48480acfd057c27fcd6930e2b5719782">&#9670;&nbsp;</a></span>IsForcedToOverrideEventsBasedObjectChildrenConfiguration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CustomObjectConfiguration::IsForcedToOverrideEventsBasedObjectChildrenConfiguration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Legacy events-based objects don't have any instance in their default variant since there wasn't a graphical editor at the time. In this case, the editor doesn't allow to choose a variant, but a variant may have stayed after a user rolled back the extension. This variant must be ignored.</p>
+<dl class="section return"><dt>Returns</dt><dd>true when its events-based object doesn't have any initial instance. </dd></dl>
 
 </div>
 </div>
