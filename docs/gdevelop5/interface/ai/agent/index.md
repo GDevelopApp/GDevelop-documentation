@@ -41,6 +41,16 @@ The AI will try to fulfill the request as much as it can. It will show on the sc
 
 You can continue the conversation by asking follow-up requests. If you want to switch topics or ask something unrelated, click **"Start a new chat"** — this helps the AI better focus on your new request.
 
+## Tips to use properly the AI agent
+
+Before using the AI agent, **make sure to save your project**. This way, you can easily undo any changes the AI makes. In the future, cloud projects will support automatic restore points.
+Here are a few best practices for working with the AI agent:
+
+- Be **specific in your prompt**. Think of it like explaining your idea to someone who’s about to build it for you. Avoid vague instructions: clear language helps the AI understand your goals.
+- Use **one chat per task**. When you’ve finished a task, start a new conversation. This keeps things focused and avoids confusing the AI with unrelated details.
+- **Keep an eye on what the AI is doing**. If things start going off-track, you can click Pause to stop the process.
+- **Expect variation**. Results may differ from one attempt to another—feel free to retry or rephrase your request for better outcomes.
+
 ## Cost of an AI request
 
 Each account starts with a few **free AI requests**. If you have a GDevelop Gold or Pro subscription, you’ll receive more every month — 25 with Gold and 75 with Pro.
