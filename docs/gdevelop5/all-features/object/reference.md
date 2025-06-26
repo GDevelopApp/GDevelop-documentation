@@ -11,7 +11,7 @@ Pick one object from all the specified objects. When an object is picked, the ne
 Pick all instances of the specified object(s). When you pick all instances, the next conditions and actions of this event work on all of them.
 
 **Create an object**  
-Create an object at specified position
+Create an instance of the object at the specified position.The created object instance will be available for the next actions and sub-events.
 
 **Create an object from its name**  
 Among the objects of the specified group, this action will create the object with the specified name.
