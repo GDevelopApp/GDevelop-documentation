@@ -5,7 +5,7 @@ title: GDevelop FAQ
 
 ## What is the DNA of GD ?
 
-4ian : My idea with GDevelop, when I started it a while ago (~10 years ago :) ) was to make anyone able to create games - so that not only people with a heavy programming background could create their own games.
+4ian : My idea with GDevelop, when I started it a while ago was to make anyone able to create games - so that not only people with a heavy programming background could create their own games.
 For this I worked on making an editor that is accessible (with an interface not cluttered and easy to learn) and for making the rules of the game, a system based on visual events.
 
 I initially worked on a more targeted software to create adventure games. But as the time was passing, I was always adding new features and wondered if I could make a game engine that was both general purpose for 2D games and with a gentle learning curve.
@@ -52,16 +52,14 @@ It's open source, meaning you can check all the code online.
 
 ## When 3D will be supported in GDevelop?
 
-GDevelop is a 2D-centric engine, we strive to provide a fast and easy to use engine for everyone.
-There are many things left to do in 2D, exploring the totally different world of 3D is not yet planned.
-If you're looking for a 3D game engine here's a list: https://en.wikipedia.org/wiki/List_of_game_engines
+In 2025. Stay tune on GDevelop socials to know more.
 
 ## I saw an update being announced, but GDevelop isn't auto-updating.
 
 When an update is published, we do not directly mark it as latest for the auto-updater, as we don't want to make everyone update in case the new version has an important issue.
 Note that it sometimes happen that the auto-updater breaks, you'll need to manually download the next version in that case.
-To download a new version that just got published, download it on GDevelop's GitHub releases page:
-https://github.com/4ian/GDevelop/releases/
+To download a new version that just got published, download it on [GDevelop's GitHub releases page](https://github.com/4ian/GDevelop/releases/).
+
 
 ## The text objects are blurry when scaled, how can I fix that?
 
@@ -85,19 +83,23 @@ npm run build -- -l AppImage --arm64
 ## Where can I find the latest nightly build?
 
 You can find it here:
+
+```
 https://gdevelop-releases.s3.amazonaws.com/master/latest/GDevelop%205%20Setup%205.0.0-beta103.exe
+```
+
 You may need to replace the "beta103" with the latest released version of GDevelop.
-For more details, see this document: https://github.com/4ian/GDevelop/blob/master/newIDE/docs/Nightly-Builds-and-continuous-deployment.md
+For more details, [see this document](https://github.com/4ian/GDevelop/blob/master/newIDE/docs/Nightly-Builds-and-continuous-deployment.md).
 
 ## How can I make multiplayer?
 
 You can do networking in GDevelop using the P2P, MQTT or Firebase extension.
 Using those, you can communicate data over the internet from one game instance to the other. By sending data like player position and the general state of the game, you can make multiplayer.
-P2P docs: http://wiki.compilgames.net/doku.php/gdevelop5/all-features/p2p
-MQTT docs: http://wiki.compilgames.net/doku.php/gdevelop5/extensions#mqtt_client_advanced
-Firebase docs: http://wiki.compilgames.net/doku.php/gdevelop5/all-features/firebase
-P2P example: https://editor.gdevelop.io/?project=example://p2p-networking
-Firebase example: https://editor.gdevelop.io/?project=example://firebase-example
+- [P2P docs](http://wiki.compilgames.net/doku.php/gdevelop5/all-features/p2p). 
+- [MQTT docs](http://wiki.compilgames.net/doku.php/gdevelop5/extensions#mqtt_client_advanced)
+- [Firebase docs](http://wiki.compilgames.net/doku.php/gdevelop5/all-features/firebase)
+- [P2P example](https://editor.gdevelop.io/?project=example://p2p-networking)
+- [Firebase example](https://editor.gdevelop.io/?project=example://firebase-example) 
 
 
 ## How can I contribute to GDevelop?
