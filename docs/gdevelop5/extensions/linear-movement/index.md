@@ -20,15 +20,48 @@ It can be used for simple enemies or bullets. It's usually not adapted for playe
 
 Move objects on a straight line. 
 
-_No expressions for this behavior._
+### Behavior actions
 
+**Speed on X axis**  
+Change the speed on X axis of the object.
+
+**Speed on Y axis**  
+Change the speed on Y axis of the object.
+
+### Behavior conditions
+
+**Speed on X axis**  
+Compare the speed on X axis of the object.
+
+**Speed on Y axis**  
+Compare the speed on Y axis of the object.
+
+### Behavior expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.LinearMovement::SpeedX()` | Return the speed on X axis of the object. ||
+| `Object.LinearMovement::SpeedY()` | Return the speed on Y axis of the object. ||
 
 ## Linear movement by angle 
 
 Move objects ahead according to their angle. 
 
-_No expressions for this behavior._
+### Behavior actions
 
+**Speed**  
+Change the speed of the object.
+
+### Behavior conditions
+
+**Speed**  
+Compare the speed of the object.
+
+### Behavior expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.LinearMovementByAngle::Speed()` | Return the speed of the object. ||
 
 ---
 

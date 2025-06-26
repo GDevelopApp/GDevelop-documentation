@@ -7,9 +7,9 @@ Fire bullets, manage ammo, reloading and overheating.
 
 ---
 
-This extension allows objects to fire bullets.
+This extension allows objects to fire bullets. To use it, add the behavior to the object that will shoot, then use the provided action to launch another object as the bullet.
 
-It handles:
+The properties of the behavior can be used to customize:
 
 - Cooldown between shots
 - Firing multiple bullets at a time ([open the project online](https://editor.gdevelop.io/?project=example://fire-bullet))
@@ -32,7 +32,7 @@ A simple example shows how to make firing patterns ([open the project online](ht
 
 ## Fire bullets 
 
-Fire bullets, manage ammo, reloading, and overheating. 
+Fire bullets, manage ammo, reloading, and overheating. Once added to your object that must shoot, use the behavior action in your events to fire another object as a bullet. 
 
 ### Behavior actions
 
