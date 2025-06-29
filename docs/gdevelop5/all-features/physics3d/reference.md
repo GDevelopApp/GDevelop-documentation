@@ -204,6 +204,7 @@ Compare the object restitution. Energy conservation on collision. The combined r
 | `Object.Physics3D::Mass()` | Return the mass of the object (in kilograms) ||
 | `Object.Physics3D::MassCenterX()` | Mass center X ||
 | `Object.Physics3D::MassCenterY()` | Mass center Y ||
+| `Object.Physics3D::MassCenterZ()` | Mass center Z ||
 | `Object.Physics3D::Restitution()` | Return the object restitution. Energy conservation on collision. The combined restitution from two bodies is calculated as 'max(bodyA.restitution, bodyB.restitution)'.. ||
 | `Object.Physics3D::WorldScale()` | Return the world scale. ||
 
