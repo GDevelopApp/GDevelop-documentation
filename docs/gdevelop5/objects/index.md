@@ -3,17 +3,17 @@ title: Objects
 ---
 # Objects
 
-In GDevelop, everything on the screen is an _object_. This includes — but is not limited to — the playable character, enemies, and parts of the environment.
+In GDevelop, everything displayed on screen is an _object_. This includes—but is not limited to—the playable character, enemies, and parts of the environment.
 
-You can use different types of objects in your game, each serving a specific role. For example, [Sprite](/gdevelop5/objects/sprite) objects display animated visuals, while [Text](/gdevelop5/objects/text) objects show written content.
+You can use different types of objects in your game, each serving a specific purpose. For example, [Sprite](/gdevelop5/objects/sprite) objects display animated visuals, while [Text](/gdevelop5/objects/text) objects show written content.
 
-Objects can also include [behaviors](/gdevelop5/behaviors), which give them built-in abilities—like moving, jumping, or following a path. To control what happens during the game, you can use [events](/gdevelop5/events) to make objects do things like move, rotate, switch animations, or apply effects.
+Objects can also include [behaviors](/gdevelop5/behaviors), which give them built-in abilities—like moving, jumping, or following a path. To control what happens during gameplay, you can use [events](/gdevelop5/events) to make objects move, rotate, switch animations, or apply effects.
 
 <div class="video-container">
   <iframe src="https://www.youtube.com/embed/r_Z8N9asT14" frameborder="0" allowfullscreen></iframe>
 </div>
 
-## Common Object Types in GDevelop
+## Common object types in GDevelop
 
 GDevelop offers a wide variety of objects, each designed for a specific use. Below is a selection of commonly used ones, grouped by purpose:
 
@@ -61,12 +61,12 @@ GDevelop offers a wide variety of objects, each designed for a specific use. Bel
 
 ## Choosing a name for your object
 
-Objects are given a default name when they are created. You can change this from the object editor or using the context menu on the object in the objects list.
+Objects are given a default name when they are created. You can change this from the object editor or by using the context menu on the object in the objects list.
 
-Note that there are limitations on how you name your object: you can only use alphanumeric characters and no spaces. You can use an underscore if you want to make a separation between words (though usually, games are using casing to separate words. For example: `EnemyBullet`).
-This is to make sure your object will be recognized properly when used in [expressions](/gdevelop5/all-features/expressions).
+Note that there are limitations on how you name your object: you can only use alphanumeric characters and no spaces. You can use an underscore if you want to separate words (though games typically use camelCase to separate words, for example: `EnemyBullet`).
+This is to ensure your object will be recognized properly when used in [expressions](/gdevelop5/all-features/expressions).
 
-Some good exampless of names are: `Player`, `RedEnemy`, `Red_Enemy`, `Car1`, `FinalBoss`, `Final_Boss`, `Wall`... Giving a descriptive name is useful to make sure you can quickly identify objects in the events.
+Some good examples of names are: `Player`, `RedEnemy`, `Red_Enemy`, `Car1`, `FinalBoss`, `Final_Boss`, `Wall`... Giving a descriptive name is useful to help you quickly identify objects in events.
 
 ## Adding an instance of an object to a scene
 
@@ -86,7 +86,7 @@ You can customize the following properties of an object's instance:
 
 ### Position
 
-Every object has a position in the game world, defined by coordinates. These coordinates follow the [Cartesian plane](https://en.wikipedia.org/wiki/Cartesian_coordinate_system), with **X** for horizontal placement and **Y** for vertical placement. The X value increases as you move right and decreases to the left. The Y value increases as you move down and decreases as you go up.
+Every object has a position in the game world, defined by coordinates. These coordinates follow the [Cartesian coordinate system](https://en.wikipedia.org/wiki/Cartesian_coordinate_system), with **X** for horizontal placement and **Y** for vertical placement. The X value increases as you move right and decreases as you move left. The Y value increases as you move down and decreases as you move up.
 
 If you're working with 3D objects, there's also a **Z** coordinate, which adds depth alongside X and Y.
 
@@ -98,11 +98,11 @@ The **Angle** option defines the rotation of an object, in degrees. The followin
 
 ![](gdevelop_co.png)
 
-3D objects also have a **rotation**, in degrees, around the X and Y axis.
+3D objects also have **rotation**, in degrees, around the X and Y axes.
 
 !!! warning
 
-    If you use trigonometric functions like the sine or the cosine, you need to express the angles in radians. (1 radian = 180/PI degrees and 1 degree = PI/180 radians. PI is the number which is approximately equal to 3.14159). You can use expressions `ToRad` and `ToDeg` in events to convert between degrees and radians.
+    If you use trigonometric functions like sine or cosine, you need to express angles in radians. (1 radian = 180/PI degrees and 1 degree = PI/180 radians. PI is the number approximately equal to 3.14159). You can use the expressions `ToRad` and `ToDeg` in events to convert between degrees and radians.
 
 !!! tip
 
@@ -110,15 +110,15 @@ The **Angle** option defines the rotation of an object, in degrees. The followin
 
 ### Z Order (for 2D objects)
 
-When objects on the same layer overlap, the **Z Order** of the object determines whether the objects appear in front or behind one another. For example, an object with a **Z Order** of `2` appears in front of an object with a **Z Order** of `1`.
+When objects on the same layer overlap, the **Z Order** of the object determines whether the objects appear in front of or behind one another. For example, an object with a **Z Order** of `2` appears in front of an object with a **Z Order** of `1`.
 
-In the following image, the Z order of the bush on left is `2`, the Z order of the coin is `1`, and the Z order of the bush on the right is `0`:
+In the following image, the Z order of the bush on the left is `2`, the Z order of the coin is `1`, and the Z order of the bush on the right is `0`:
 
 ![](coin-bush-zorder.png)
 
 The value of the **Z Order** field can be any integer, including negative numbers and zero.
 
-Note that 3D objects don't have a Z order, but just a Z coordinate in the 3D space.
+Note that 3D objects don't have a Z order, but rather a Z coordinate in 3D space.
 
 ### Layer
 
@@ -130,7 +130,7 @@ Typically, background objects, interactive objects (such as the playable charact
 
 ### Lock position/angle in the editor
 
-Sometimes, a scene has a lot of objects and it's difficult to select a specific instance. If you enable the **Lock position/angle in the editor** option, you can no longer select the instance, which makes it easier to select the instance you _do_ want to select.
+Sometimes, a scene has many objects and it's difficult to select a specific instance. If you enable the **Lock position/angle in the editor** option, you can no longer select the instance, which makes it easier to select the instance you _do_ want to select.
 
 ![](base_object/pasted/20200406-093052.png)
 
@@ -154,15 +154,15 @@ Each instance of an object living on the scene can have timers set during the ga
 
 ### Visibility
 
-By default, object instances are all marked as visible, meaning that they are displayed on the screen. Using events, you can **hide** any instance during the game. An hidden object instance won't be displayed anymore, but will still live on the scene (reacting to collisions, and following all other events as usual).
+By default, object instances are all marked as visible, meaning they are displayed on the screen. Using events, you can **hide** any instance during the game. A hidden object instance won't be displayed anymore, but will still exist on the scene (reacting to collisions and following all other events as usual).
 
 !!! tip
 
-    Some objects, like Sprite or Text objects, can also have an **opacity**. The opacity, between 0 and 255, defines how transparent an object is (0 being fully transparent, 255 is the fully opaque and is the default). This can be changed independently from the visibility.
+    Some objects, like Sprite or Text objects, can also have an **opacity**. The opacity, between 0 and 255, defines how transparent an object is (0 being fully transparent, 255 being fully opaque and is the default). This can be changed independently from the visibility.
 
 ## Adding effects to objects
 
-You can add extra visual effects to objects. For example, you could use the "Outline" effect to make an object to pick up or to use more visible. You can also use more advanced visual effects that change the shape of the object or create interesting visual results.
+You can add extra visual effects to objects. For example, you could use the "Outline" effect to make an object easier to pick up or more visible. You can also use more advanced visual effects that change the shape of the object or create interesting visual results.
 
 ![](pasted/20210820-093809.png)
 
@@ -170,20 +170,20 @@ Read [this page to learn more about adding effects to your objects](/gdevelop5/o
 
 !!! note
 
-    You can also add visual effects to a layer of the scene - useful for example to animate a background or change the atmosphere of the whole level at once. Read more about [adding effects to layers here](/gdevelop5/interface/scene-editor/layer-effects).
+    You can also add visual effects to a layer of the scene—useful for example to animate a background or change the atmosphere of the whole level at once. Read more about [adding effects to layers here](/gdevelop5/interface/scene-editor/layer-effects).
 
 ## In the events editor
 
-You can change and manipulate the properties of an instance of an object, or of multiple instances, using events during the game. This is even what game making is all about in GDevelop: to manipulate objects in real-time as we play the game. As the events and events editor are out of the scope of this page, refer to [the basic game making concepts](/gdevelop5/tutorials/basic-game-making-concepts) page to get started.
+You can change and manipulate the properties of an instance of an object, or of multiple instances, using events during the game. This is the essence of game making in GDevelop: manipulating objects in real-time as the game is played. Since events and the events editor are beyond the scope of this page, refer to [the basic game making concepts](/gdevelop5/tutorials/basic-game-making-concepts) page to get started.
 
-* All objects share the **same common features** (like position, angle and everything that is written on this page), and there are a lot of conditions and actions that you can use for all objects.
-* Objects can also provides you with specific feature. For example, [Sprite objects](/gdevelop5/objects/sprite) can have animations, and the animation being played can be changed using an action. Find more information in the page of each specific object.
+* All objects share the **same common features** (like position, angle, and everything that is written on this page), and there are many conditions and actions that you can use for all objects.
+* Objects can also provide you with specific features. For example, [Sprite objects](/gdevelop5/objects/sprite) can have animations, and the animation being played can be changed using an action. Find more information on the page for each specific object.
 
 ### Organizing objects into groups for events
 
 You can organize objects into _groups_ and then refer to all of the objects in that group by a single name.
 
-This makes it possible to create events that applies to lots of objects without repeating events multiple times, increasing performance of your game, maintainability, and readability of your events.
+This makes it possible to create events that apply to many objects without repeating events multiple times, increasing the performance of your game, maintainability, and readability of your events.
 
 !!! tip
 
@@ -193,8 +193,8 @@ This makes it possible to create events that applies to lots of objects without 
 
 Thanks to its modular extension system, you can create custom objects, which are reusable objects containing one or more other objects. ["Custom objects" are also called "Prefabs" or "templates"](/gdevelop5/objects/custom-objects-prefab-template) in some game engines.
 
-For example, the [multitouch joysticks](/gdevelop5/objects/multitouch-joystick), buttons, sliders and other user interface objects that you can find in the list of objects are "custom objects" built with other objects.
+For example, the [multitouch joysticks](/gdevelop5/objects/multitouch-joystick), buttons, sliders, and other user interface objects that you can find in the list of objects are "custom objects" built with other objects.
 
 ## Reference
 
-All actions, conditions and expressions are listed in [the object reference page](/gdevelop5/all-features/object/reference)
+All actions, conditions, and expressions are listed in [the object reference page](/gdevelop5/all-features/object/reference).
