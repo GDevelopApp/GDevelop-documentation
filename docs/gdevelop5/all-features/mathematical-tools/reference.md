@@ -103,7 +103,7 @@ A set of mathematical functions that can be used in expressions.
 | `min(number, number)` | Minimum of two numbers ||
 | | _🔢 Number_ | First expression |
 | | _🔢 Number_ | Second expression |
-| `mod(number, number)` | x mod y ||
+| `mod(number, number)` | Compute "x mod y". GDevelop does NOT support the % operator. Use this mod(x, y) function instead. ||
 | | _🔢 Number_ | x (as in x mod y) |
 | | _🔢 Number_ | y (as in x mod y) |
 | `normalize(number, number, number)` | Remap a value between 0 and 1. ||
@@ -119,8 +119,8 @@ A set of mathematical functions that can be used in expressions.
 | `round(number)` | Round a number ||
 | | _🔢 Number_ | Expression |
 | `roundTo(number, number)` | Round a number to the Nth decimal place ||
-| | _🔢 Number_ | Expression |
-| | _🔢 Number_ | Expression _Optional_. |
+| | _🔢 Number_ | Number to Round |
+| | _🔢 Number_ | Decimal Places _Optional_. |
 | `sec(number)` | Secant ||
 | | _🔢 Number_ | Expression |
 | `sign(number)` | Return the sign of a number (1,-1 or 0) ||
