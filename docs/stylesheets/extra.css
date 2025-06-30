@@ -39,6 +39,12 @@ nav.md-tabs {
   padding: 4px;
 }
 
+/** Change admonition (call-outs) tweaks */
+.md-typeset .admonition {
+    /* Default font size was too small. */
+    font-size: 14px;
+}
+
 /**
  * Fix the performance of the sidebar menu on mobile/tablets:
  * Use `display: none` to ensure submenus are not rendered at all and so don't take
