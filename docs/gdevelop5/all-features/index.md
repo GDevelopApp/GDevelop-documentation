@@ -1,8 +1,8 @@
 # All features
 
-This page lists **all the features** that are provided in GDevelop. These can be objects, behaviors but also features that can be used directly using actions, conditions or expressions (without requiring an object to be existing on the scene).
+This page lists **all the features** that are provided in GDevelop. These can be objects, behaviors, or features that can be used directly using actions, conditions, or expressions (without requiring an object to exist on the scene).
 
-Note that GDevelop can also be extended with extensions: take a look at [the list of community extensions](/gdevelop5/extensions) or learn how to create your [own set of features (behaviors, actions, conditions or expressions)](/gdevelop5/extensions/create).
+Note that GDevelop can also be extended with extensions: take a look at [the list of community extensions](/gdevelop5/extensions) or learn how to create your [own set of features (behaviors, actions, conditions, or expressions)](/gdevelop5/extensions/create).
 
 
 * [Objects](/gdevelop5/objects/base_object/events) ([reference](/gdevelop5/all-features/object/reference))
@@ -83,4 +83,4 @@ You can also find a **reference sheet of all expressions**:
 
 ## More features as extensions
 
-Remember that you can also [search for new features in the community extensions](/gdevelop5/extensions), or create your [own set of features (behaviors, actions, conditions or expressions)](/gdevelop5/extensions/create).
+Remember that you can also [search for new features in the community extensions](/gdevelop5/extensions) or create your [own set of features (behaviors, actions, conditions, or expressions)](/gdevelop5/extensions/create).

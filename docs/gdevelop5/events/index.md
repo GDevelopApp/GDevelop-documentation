@@ -3,23 +3,23 @@ title: Events
 ---
 # Events
 
-In GDevelop, **events** define the logic of a game. You can use events to create cause and effect. For example, an event might detect when the player has collided with a collectable item and, as a result, increment the player's score. You can create and manage events via the [Events editor](/gdevelop5/interface/events-editor).
+In GDevelop, **events** define the logic of a game. You can use events to create cause and effect. For example, an event might detect when the player has collided with a collectible item and, as a result, increment the player's score. You can create and manage events via the [Events editor](/gdevelop5/interface/events-editor).
 
 ![](event-screenshot.png)
 
 !!! note
 
-    You don't have to be familiar with programming to create events. If you are familiar with programming though, some of the concepts will feel familiar.
+    You don't have to be familiar with programming to create events. If you are familiar with programming, though, some of the concepts will feel familiar.
 
 <div class="video-container">
   <iframe src="https://www.youtube.com/embed/rBZ3kuvr9G0" frameborder="0" allowfullscreen></iframe>
 </div>
 
-## Event Structure - Conditions and actions
+## Event structure - Conditions and actions
 
 Events are made up of **conditions** and **actions**.
 
-**Conditions** are used to trigger when an action should happen and also select which objects or instances of an object are affected by the actions of the event. For instance, a condition can check when the player is colliding with another object.  In this case, the actions in the event will only take place when the objects are touching each other and they will only affect the objects that are colliding.
+**Conditions** are used to trigger when an action should happen and also select which objects or instances of an object are affected by the actions of the event. For instance, a condition can check when the player is colliding with another object. In this case, the actions in the event will only take place when the objects are touching each other and they will only affect the objects that are colliding.
 
 !!! note
 
@@ -33,18 +33,18 @@ Events can have multiple conditions and multiple actions. For example, an event 
 
     You can use events to create custom conditions, actions, and [expressions](/gdevelop5/all-features/expressions). For more information, refer to [Functions](/gdevelop5/events/functions).
 
-## Event Execution Logic
+## Event execution logic
 ### Execution order
 
 **Events** run in the order they are listed from top to bottom. The order of events can have a significant effect on what happens when an event is executed.
 
-If an event is causing an unintended side-effect, verify that events listed higher in the event sheet aren't impacting events defined later in the frame.
+If an event is causing an unintended side effect, verify that events listed higher in the event sheet aren't impacting events defined later in the frame.
 
-### Object Picking
+### Object picking
 
-When a condition refers to objects, the game must decide which objects instances will be affected by any following actions and subevents. This process is called [object picking](/gdevelop5/events/object-picking).
+When a condition refers to objects, the game must decide which object instances will be affected by any following actions and subevents. This process is called [object picking](/gdevelop5/events/object-picking).
 
-By default, actions and conditions will apply to all instances of the object in the scene.  Conditions (and a small number of actions) can then be used to "filter" (or "pick") which objects the following actions or conditions will apply to.
+By default, actions and conditions will apply to all instances of the object in the scene. Conditions (and a small number of actions) can then be used to "filter" (or "pick") which objects the following actions or conditions will apply to.
 
 !!! note
 
@@ -87,7 +87,7 @@ This action also increments a variable in every frame, but the value of the vari
 
 !!! tip
 
-    If you select the **Add an new empty event** icon, left click on the **Add a new event** shortcut link at the bottom of the event list, or click **Standard Event** in the **Choose and add an event** list above, GDevelop immediately creates a Standard event. Right-clicking the shortcut in the event list will show the list above, and choosing any special event type from either will will immediately create that event type
+    If you select the **Add a new empty event** icon, left-click on the **Add a new event** shortcut link at the bottom of the event list, or click **Standard Event** in the **Choose and add an event** list above, GDevelop immediately creates a Standard event. Right-clicking the shortcut in the event list will show the list above, and choosing any special event type from either will immediately create that event type.
 
 ### Adding conditions to an event
 
