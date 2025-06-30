@@ -5,24 +5,30 @@ title: Objects
 
 In GDevelop, everything on the screen is an _object_. This includes — but is not limited to — the playable character, enemies, and parts of the environment.
 
-You can create different types of objects for different purposes. For example, [Sprite](/gdevelop5/objects/sprite) objects add animated graphics to a game, while [Text](/gdevelop5/objects/text) objects add text to a game.
+You can use different types of objects in your game, each serving a specific role. For example, [Sprite](/gdevelop5/objects/sprite) objects display animated visuals, while [Text](/gdevelop5/objects/text) objects show written content.
 
-Objects can have [behaviors](/gdevelop5/behaviors) attached to them, adding to objects some pre-defined functionalities. You can use [events](/gdevelop5/events) to manipulate an object during the game (change its position, rotate it, change its animation, add an effect, etc...).
+Objects can also include [behaviors](/gdevelop5/behaviors), which give them built-in abilities—like moving, jumping, or following a path. To control what happens during the game, you can use [events](/gdevelop5/events) to make objects do things like move, rotate, switch animations, or apply effects.
 
-## List of objects
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/r_Z8N9asT14" frameborder="0" allowfullscreen></iframe>
+</div>
 
-This section lists the different types of objects, each of which serves a unique purpose.
+## Common Object Types in GDevelop
 
-- General:
+GDevelop offers a wide variety of objects, each designed for a specific use. Below is a selection of commonly used ones, grouped by purpose:
+
+- **General objects** (used for visuals, layouts, or 3D elements):
     - [Sprite](/gdevelop5/objects/sprite)
-    - [Tiled sprite](/gdevelop5/objects/tiled_sprite)
+    - [Tiled Sprite](/gdevelop5/objects/tiled_sprite)
     - [Panel Sprite ("9-patch")](/gdevelop5/objects/panel_sprite)
     - [Tilemap](/gdevelop5/objects/simple-tilemap)
-- Display a text (score, name, explanation):
+    - [3D Model](/gdevelop5/objects/3d-model)
+    - [3D Box](/gdevelop5/objects/3d-box)
+- **Display text** (like scores, dialogue, or labels):
     - [Text](/gdevelop5/objects/text)
     - [Bitmap text](/gdevelop5/objects/bitmap_text)
     - [BBText](/gdevelop5/objects/bbtext)
-- Build user interfaces:
+- **Create user interfaces** (menus, controls, input fields, etc.):
     - [Text input](/gdevelop5/objects/text_input)
     - [Button](/gdevelop5/objects/button)
     - [Multi-touch joystick](/gdevelop5/objects/multitouch-joystick)
@@ -30,18 +36,17 @@ This section lists the different types of objects, each of which serves a unique
     - [Toggle switch](/gdevelop5/objects/toggle-switch)
     - [Resource bar](/gdevelop5/objects/resource-bar)
     - [Video](/gdevelop5/objects/video)
-- Make visual effects:
-    - [Particles emitter](/gdevelop5/objects/particles_emitter)
-    - [Light](/gdevelop5/objects/light)
+- **Add visual effects** (particles, lighting, drawing shapes):
+    - [2D Particle emitter](/gdevelop5/objects/particles_emitter)
+    - [3D Particle Emitter](/gdevelop5/extensions/particle-emitter3d/)
+    - [2D Light](/gdevelop5/objects/light)
     - [Shape painter](/gdevelop5/objects/shape_painter)
-- Advanced effects or rendering:
+- **Advanced effects or rendering**:
     - [External Tilemap (LDtk/Tiled)](/gdevelop5/objects/tilemap)
 
-## Learn about some objects with this video tutorial
+!!! tip
 
-<div class="video-container">
-  <iframe src="https://www.youtube.com/embed/r_Z8N9asT14" frameborder="0" allowfullscreen></iframe>
-</div>
+    Many more objects are available through extensions, which you can add from the extension library. Advanced users can also **create their own custom objects**, either to create an entirely new kind of object on the screen or to [assemble multiple objects into one ("prefabs")](/gdevelop5/objects/custom-objects-prefab-template).
 
 ## Adding an object to your game
 
@@ -81,15 +86,19 @@ You can customize the following properties of an object's instance:
 
 ### Position
 
-All objects have coordinates. These coordinates correspond to the horizontal position (X-axis) and the vertical position (Y-axis) on the [Cartesian plane](https://en.wikipedia.org/wiki/Cartesian_coordinate_system). The X-coordinate decreases as you go to the left and increases as you go to the right. The Y-coordinate increases as you go down and decreases as you go up.
+Every object has a position in the game world, defined by coordinates. These coordinates follow the [Cartesian plane](https://en.wikipedia.org/wiki/Cartesian_coordinate_system), with **X** for horizontal placement and **Y** for vertical placement. The X value increases as you move right and decreases to the left. The Y value increases as you move down and decreases as you go up.
+
+If you're working with 3D objects, there's also a **Z** coordinate, which adds depth alongside X and Y.
 
 ![](/gdevelop5/tutorials/basic-game-making-concepts/pasted/20201015-145909.png)
 
 ### Angle
 
-The **Angle** option defines the rotation of an object in degrees. The following illustration demonstrates how GDevelop understands the angle of rotation:
+The **Angle** option defines the rotation of an object, in degrees. The following illustration demonstrates how GDevelop understands the angle of rotation for 2D objects:
 
 ![](gdevelop_co.png)
+
+3D objects also have a **rotation**, in degrees, around the X and Y axis.
 
 !!! warning
 
@@ -99,7 +108,7 @@ The **Angle** option defines the rotation of an object in degrees. The following
 
     Also see more details about [How to rotate objects](/gdevelop5/objects/how-to-rotate-objects).
 
-### Z Order
+### Z Order (for 2D objects)
 
 When objects on the same layer overlap, the **Z Order** of the object determines whether the objects appear in front or behind one another. For example, an object with a **Z Order** of `2` appears in front of an object with a **Z Order** of `1`.
 
@@ -108,6 +117,8 @@ In the following image, the Z order of the bush on left is `2`, the Z order of t
 ![](coin-bush-zorder.png)
 
 The value of the **Z Order** field can be any integer, including negative numbers and zero.
+
+Note that 3D objects don't have a Z order, but just a Z coordinate in the 3D space.
 
 ### Layer
 
@@ -148,6 +159,7 @@ By default, object instances are all marked as visible, meaning that they are di
 !!! tip
 
     Some objects, like Sprite or Text objects, can also have an **opacity**. The opacity, between 0 and 255, defines how transparent an object is (0 being fully transparent, 255 is the fully opaque and is the default). This can be changed independently from the visibility.
+
 ## Adding effects to objects
 
 You can add extra visual effects to objects. For example, you could use the "Outline" effect to make an object to pick up or to use more visible. You can also use more advanced visual effects that change the shape of the object or create interesting visual results.
