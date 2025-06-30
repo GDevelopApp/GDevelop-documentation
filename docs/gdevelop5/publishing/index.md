@@ -16,7 +16,7 @@ To export the game, click **Share** in the GDevelop interface. You will be prese
 ## Publish and share on GDevelop's free service gd.games
 
 **[gd.games](https://gd.games)** is the gaming platform hosted by GDevelop, dedicated to games powered by GDevelop.
-It's a perfect place to publish your game and share it to get feedback from players or friends. Hosting is free, and you can redirect your audience to the game page.
+It's a great place to publish your game and gather feedback from players or friends. Hosting is free, and you can redirect your audience to the game page.
 
 You can customize the link to your game, activate feedback, and benefit from the GDevelop community of players and creators.
 

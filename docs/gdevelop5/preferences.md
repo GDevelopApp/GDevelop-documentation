@@ -21,32 +21,32 @@ The preferences window will look like this:
 
 ![](/gdevelop5/properties-appearance.png)
 
-Themes allow you to change how the interface looks.
+Themes let you customize the look of the interface.
 
-**UI theme** changes the UI's appearance
+**UI theme** changes the application's appearance.
 
-**Code editor theme** changes the appearance of the code editor in the JavaScript code block
+**Code editor theme** changes how the JavaScript code block looks.
 
 ![](/gdevelop5/codeblockmonokai.png)
 
-There are multiple themes you can choose from. You can also create your own themes! See [how you can make one](https://github.com/4ian/GDevelop/blob/master/newIDE/README-themes.md).
+There are multiple themes to choose from, and you can even create your own. See [how you can make one](https://github.com/4ian/GDevelop/blob/master/newIDE/README-themes.md).
 
 ## Changing backdrop click behavior
 
 ![](/gdevelop5/properties-dialogue.png)
 
-This allows you to choose what will happen when the backdrop (the faded part outside a window) is clicked.
+This setting controls what happens when the backdrop (the faded area outside a window) is clicked.
 
 If **No changes** is selected, clicking the backdrop won't close the window.
 
-If **Cancel changes** is selected, the changes made in the current window will be **abandoned** (only happens in some windows).
+If **Cancel changes** is selected, any edits in the current window are **abandoned** (only available in some windows).
 
-If **Apply changes** (default) is selected, the changes made in the current window will be **applied** (only happens in some windows).
+If **Apply changes** (default) is selected, any edits in the current window are **applied** (only available in some windows).
 
 
 ## Hints and explanations
 
-GDevelop shows some hints/explanations for certain features in the UI. You can toggle them off if you don't want them to be shown.
+GDevelop displays hints and explanations for certain features. You can turn them off if you prefer.
 
 Example of a hint/explanation:
 ![](/gdevelop5/hints2.png)
@@ -65,11 +65,11 @@ Go to the **Start Page**:
 
 ![](/gdevelop5/home-page-language-select.png)
 
-You can choose from the available languages in the list.
+Choose from the available languages in the list.
 
-Some languages might not be fully supported—you can see an estimate of how much has been translated.
+Some languages might not be fully supported—you can see an estimate of the translation progress.
 
-You can help translate GDevelop to your language and report any mistakes. It would be much appreciated.
+You can help translate GDevelop into your language and report any mistakes. Your help is greatly appreciated.
 
 ![](/gdevelop5/changinglanguage2.png)
 

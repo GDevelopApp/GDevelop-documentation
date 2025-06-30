@@ -11,11 +11,11 @@ The GDevelop Solutions Provider Program is an initiative designed to foster coll
 The program functions on a dual basis:
 
 #### For Professionals:
-GDevelop users operating as freelancers, consultants, agencies or companies can apply to become a GDevelop Solutions Provider. To be eligible, candidates must:
+GDevelop users operating as freelancers, consultants, agencies, or companies can apply to become a GDevelop Solutions Provider. To be eligible, candidates must:
 
-- Have legal age to operate as a professional in their country
-- Demonstrate active registration and/or tax compliance as a professional entity
-- Express willingness to engage in projects.
+- Be of legal age to operate as a professional in their country
+- Demonstrate active registration and tax compliance as a professional entity
+- Express a willingness to engage in projects.
 
 Accepted partners gain access to exclusive project opportunities from clients seeking GDevelop expertise. Partners also benefit from increased industry recognition, networking prospects within the GDevelop ecosystem, and the ability to connect with potential clients.
 
@@ -50,11 +50,11 @@ The validation process is as follows:
 
 1. The candidate fills the online form with their professional profile
 2. The GDevelop team will look at the application and contact the candidate if more information is needed
-3. A possible video call between a GDevelop member and the candidate might be required to better seize the profile's specialization.
+3. A video call with a GDevelop team member might be required to better understand the candidate's specialization.
 4. If the profile is validated, the professional will join GDevelop's channels where they'll be able to see the projects hiring.
 
-**Once a GDevelop Professional establishes contact with a Client, the GDevelop team leaves the process. From that moment the Professional and the Client remain responsible for the Project's management, delivery and billing process.
-GDevelop **does not** take any cut nor percentage for head hunting during 2023 and 2024.*
+**Once a GDevelop Professional establishes contact with a Client, the GDevelop team steps out of the process. From that moment on, the Professional and the Client remain responsible for the project's management, delivery, and billing.
+GDevelop **does not** take any cut or percentage for head hunting during 2023 and 2024.*
 
 ### Legal requirements
 To join the GDevelop Solutions Provider Program as a professional, candidates must meet the following legal requisites:
@@ -73,16 +73,16 @@ To contact a GDevelop specialist send an email to [business@gdevelop.io](mailto:
 - Budget: Clearly specify your project budget or budget range to help the specialist understand your expectations.
 - Timeline: Communicate your project's expected timeline, including key milestones or deadlines.
 - Contact Information: Include your contact details, such as your name, email address, or phone number, to facilitate effective communication.
-- Preferred Language: Specify if you have a prefered language
+- Preferred Language: Specify if you have a preferred language
 
-**Plese consider sending your project at least **2 weeks** before the desired starting date so the professionals have the time to see it.*
+**Please consider sending your project at least **2 weeks** before the desired start date so professionals have time to review it.*
 
 Once the project information is complete, the GDevelop team will publish the project for the Professionals to see. 
-Based on the project's specificities, some professional profiles might be suggested by the GDevelop team as the project brief gets published.
-The client is in **no obligation** to choose from the recommended profiles.
+Based on the project's specificities, some professional profiles might be suggested by the GDevelop team as the project brief is published.
+The client is under **no obligation** to choose from the recommended profiles.
 
-**Once a Project Owner stablished contact with a GDevelop Professional, the GDevelop team leaves the process. From that moment the Professional and the Project Owner remain responsible for the Project's management, delivery and billing process.
-GDevelop **does not** take any cut nor percentage for head hunting during 2023 and 2024.*
+**Once a Project Owner has established contact with a GDevelop Professional, the GDevelop team steps out of the process. From that moment on, the Professional and the Project Owner remain responsible for the project's management, delivery, and billing.
+GDevelop **does not** take any cut or percentage for head hunting during 2023 and 2024.*
 
 [Contact a GDevelop Specialist](mailto:business@gdevelop.io){ .md-button .md-button--primary }
 
@@ -92,15 +92,15 @@ GDevelop **does not** take any cut nor percentage for head hunting during 2023 a
 
 **1. I work in an agency that uses GDevelop. Can I register the agency where I work?**
 
-Yes, you can register your agency with their permision.
+Yes, you can register your agency with their permission.
 
 **2. Can GDevelop help me with invoices or contracts for my clients?**
 
-No, GDevelop will not assist with project management ressources once the contact between the Client and the Professional is stablished.
+No, GDevelop will not assist with project management resources once contact between the Client and the Professional is established.
 
 **3. Can I still work as a professional if I don't have the legal requirements?**
 
-You can not be listed as a GDevelop Professional on GDevelop's official Solutions Providers if you do not have the minimim legal requirements.
+You cannot be listed as a GDevelop Professional on GDevelop's official Solutions Providers if you do not meet the minimum legal requirements.
 However, you are always welcome to join [the GDevelop Advocate's program](https://gdevelop.io/page/community-advocate).
 
 
@@ -108,7 +108,7 @@ However, you are always welcome to join [the GDevelop Advocate's program](https:
 
 **1. Are contracts and invoices between the two parts managed by GDevelop?**
 
-No, GDevelop will not assist with project management ressources once the contact between the Client and the Professional is stablished.
+No, GDevelop will not assist with project management resources once contact between the Client and the Professional is established.
 
 **2. What kind of professionals can I expect to find on GDevelop's Solutions Provider Program?**
 

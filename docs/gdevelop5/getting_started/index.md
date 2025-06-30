@@ -15,7 +15,7 @@ GDevelop is available for all devices—computers (Windows, macOS, and Linux), t
 * **Linux (AppImage)**: Open a terminal. Make the AppImage file executable by typing `chmod a+x GDevelop*.AppImage` and pressing Enter. Then run it: `./GDevelop*.AppImage` (or double-click the file).
 * **iOS**: Download [GDevelop from the App Store](https://apps.apple.com/us/app/gdevelop-game-maker/id1663675754).
 * **Android**: Download [GDevelop from Google Play](https://play.google.com/store/apps/details?id=io.gdevelop.ide).
-* **Chromebooks or other devices**: Open your browser and go to [editor.gdevelop.io](https://editor.gdevelop.io). If you're on Android or a Chromebook, choose the option to "Add to Home Screen."
+* **Chromebooks or other devices**: Open your browser and go to [editor.gdevelop.io](https://editor.gdevelop.io). If you're on Android or a Chromebook, choose the option to add it to your home screen.
 
 !!! warning
 
