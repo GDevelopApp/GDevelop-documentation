@@ -73,7 +73,7 @@ Treat the object as a bullet. Better collision handling on high speeds at cost o
 Change the object density. The body's density and volume determine its mass..
 
 **Fixed rotation**  
-Enable or disable an object fixed rotation. If enabled the object won't be able to rotate.
+Enable or disable an object fixed rotation. If enabled the object won't be able to rotate. This action has no effect on characters.
 
 **Friction**  
 Change the object friction. How much energy is lost from the movement of one object over another. The combined friction from two bodies is calculated as 'sqrt(bodyA.friction * bodyB.friction)'..
