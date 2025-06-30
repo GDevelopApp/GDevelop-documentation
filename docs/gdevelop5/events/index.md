@@ -124,7 +124,7 @@ Sub-events appear nested within their parent events.
 
 ## List of event types
 
-This section lists the different types of events, each of which is useful for adding different types of logic to a game. If you're not familiar with the concept of events, refer to the previous sections.
+This section lists the different types of events, each useful for adding logic to your game. If you're not familiar with events, refer to the previous sections.
 
 - [Standard events](/gdevelop5/events/standard)
 - [For each object events](/gdevelop5/events/foreach)
@@ -141,3 +141,4 @@ Refer to the linked pages to learn more about each type of event.
 !!! note
 
     The most commonly used types of events are **[Standard events](https://wiki.gdevelop.io/gdevelop5/events/standard)**.
+

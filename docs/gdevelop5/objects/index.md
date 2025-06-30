@@ -144,7 +144,7 @@ For more information, refer to [Object variables](/gdevelop5/all-features/variab
 
 ### Custom size
 
-If enabled, you can change the height and width of the object instance. This height and width is distinct from the dimensions of the original object.
+If enabled, you can change the height and width of the object instance. These dimensions are distinct from those of the original object.
 
 ![](pasted/20230305-104815.png)
 

@@ -35,8 +35,8 @@ We also offer a unique solution through our hosting platform, [gd.games](https:/
 
 !!! note
 
-    If you choose to host your game on gd.games, it's important to know that you can opt-out of this monetization feature if you prefer not to display ads on your game page and earn money.
-    Just go to your game dashboard, in "Marketing & Ads" tab to disable the option.
+    If you choose to host your game on gd.games, it's important to know that you can opt out of this monetization feature if you prefer not to display ads on your game page and earn money.
+    Just go to your game dashboard, open the "Marketing & Ads" tab, and disable the option.
 
 Once you've earned money through gd.games, from your games dashboard, you have two options to cash out your earnings:
 
