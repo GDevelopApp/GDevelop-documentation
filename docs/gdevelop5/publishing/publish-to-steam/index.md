@@ -36,6 +36,12 @@ You then configure a "Build" that is using the "depots". You can use the web int
 
 ![](./builds-upload-web.png)
 
+After uploading, scroll down and click on "Commit", select the correct branch, and make the build live.
+Finally, press "Publish" to make the build available for users.
+
+The build page should look like this:
+![](./builds-upload-commit-done.png)
+
 ### Issue when uploading a macOS build: how to properly upload your macOS game
 
 There is an issue making the macOS application not working after uploading the macOS zip file (this is because [the Steam web uploader breaks the symlinks](https://github.com/electron-userland/electron-builder/issues/5767#issuecomment-813920169)). This results in a **broken app**:
@@ -47,7 +53,7 @@ To solve this, you must always use the **steamcmd** command line tool to upload 
 
 - Start by extracting the macOS zip file somewhere. Use Linux or macOS `unzip` command line tool. **Windows won't work** as it will break the "symlinks" when extracting the zip file. Extract the files in a folder called `mac`. You should have a single folder, "Your Game.app" inside this `mac` folder.
 
-    !!! danger
+  !!! danger
 
         Windows, and some archiver softwares on Linux, will break the "symlinks" when extracting the zip file - making it impossible to run the app. Use `unzip` on macOS or Linux.
 
