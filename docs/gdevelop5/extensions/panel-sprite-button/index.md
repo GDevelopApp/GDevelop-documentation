@@ -50,6 +50,9 @@ Check if the button is not used.
 **Is pressed**  
 Check if the button is currently being pressed with mouse or touch.
 
+**Label text**  
+Compare the label text.
+
 ### Object expressions
 
 | Expression | Description |  |
