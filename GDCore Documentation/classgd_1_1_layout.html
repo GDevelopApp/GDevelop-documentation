@@ -218,6 +218,14 @@ const <a class="el" href="classgd_1_1_layers_container.html">gd::LayersContainer
 <tr class="separator:ac5e5702de1db2a34894fbc0889b4f5d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00c3a891a8a0e94d793515ca6917860b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#a00c3a891a8a0e94d793515ca6917860b">StopSoundsOnStartup</a> () const</td></tr>
 <tr class="separator:a00c3a891a8a0e94d793515ca6917860b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3f232b491e22dafbef4dced1040b533"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#ab3f232b491e22dafbef4dced1040b533">SetResourcesPreloading</a> (<a class="el" href="classgd_1_1_string.html">gd::String</a> resourcesPreloading_)</td></tr>
+<tr class="separator:ab3f232b491e22dafbef4dced1040b533"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b91f943c86c31f086e9b9c1c844d388"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#a5b91f943c86c31f086e9b9c1c844d388">GetResourcesPreloading</a> () const</td></tr>
+<tr class="separator:a5b91f943c86c31f086e9b9c1c844d388"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af88f0b4fbefe8f1977579918febcd5a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#af88f0b4fbefe8f1977579918febcd5a2">SetResourcesUnloading</a> (<a class="el" href="classgd_1_1_string.html">gd::String</a> resourcesUnloading_)</td></tr>
+<tr class="separator:af88f0b4fbefe8f1977579918febcd5a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b5322146410f11c530387869e0115ea"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_layout.html#a5b5322146410f11c530387869e0115ea">GetResourcesUnloading</a> () const</td></tr>
+<tr class="separator:a5b5322146410f11c530387869e0115ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Saving and loading</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Members functions related to saving and loading the object. </p>
 </div></td></tr>
@@ -659,6 +667,58 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 </div>
 </div>
+<a id="a5b91f943c86c31f086e9b9c1c844d388"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b91f943c86c31f086e9b9c1c844d388">&#9670;&nbsp;</a></span>GetResourcesPreloading()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classgd_1_1_string.html">gd::String</a>&amp; gd::Layout::GetResourcesPreloading </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Get when the scene must preload its resources: <code>at-startup</code>, <code>never</code> or <code>inherit</code> (default). </p>
+
+</div>
+</div>
+<a id="a5b5322146410f11c530387869e0115ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b5322146410f11c530387869e0115ea">&#9670;&nbsp;</a></span>GetResourcesUnloading()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classgd_1_1_string.html">gd::String</a>&amp; gd::Layout::GetResourcesUnloading </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Get when the scene must unload its resources: <code>at-scene-exit</code>, <code>never</code> or <code>inherit</code> (default). </p>
+
+</div>
+</div>
 <a id="aedee494497ac1e393d5ec4337a4598f8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aedee494497ac1e393d5ec4337a4598f8">&#9670;&nbsp;</a></span>GetVariables() <span class="overload">[1/2]</span></h2>
 
@@ -951,6 +1011,60 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
       </table>
 </div><div class="memdoc">
 <p>Change the name of the layout with the name passed as parameter. </p>
+
+</div>
+</div>
+<a id="ab3f232b491e22dafbef4dced1040b533"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3f232b491e22dafbef4dced1040b533">&#9670;&nbsp;</a></span>SetResourcesPreloading()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gd::Layout::SetResourcesPreloading </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td>
+          <td class="paramname"><em>resourcesPreloading_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set when the scene must preload its resources: <code>at-startup</code>, <code>never</code> or <code>inherit</code> (default). </p>
+
+</div>
+</div>
+<a id="af88f0b4fbefe8f1977579918febcd5a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af88f0b4fbefe8f1977579918febcd5a2">&#9670;&nbsp;</a></span>SetResourcesUnloading()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gd::Layout::SetResourcesUnloading </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td>
+          <td class="paramname"><em>resourcesUnloading_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set when the scene must unload its resources: <code>at-scene-exit</code>, <code>never</code> or <code>inherit</code> (default). </p>
 
 </div>
 </div>
