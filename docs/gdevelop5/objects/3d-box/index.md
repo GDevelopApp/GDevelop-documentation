@@ -24,6 +24,33 @@ Lighting can be set up through [layers effects](../../interface/scene-editor/lay
 - Either it does not react to light, meaning that it's always shown with the colors of the texture that was set (like a 2D object)
 - Or it does react to light. In this case, don't forget to set up a light in the layer effects.
 
+## Shadows
+
+3D boxes can cast and receive shadows when proper lighting is configured. Shadows are rendered using Three.js shadow maps and provide realistic depth and spatial relationships in your 3D scenes.
+
+### Requirements for shadows
+
+To enable shadows for 3D boxes, you need:
+
+- **A Directional Light** set up on your scene layer. New games and new layers automatically include both a Directional Light and an Ambient Light by default.
+- **Standard material type** in the 3D box configuration (not "Basic" material, which doesn't react to light).
+- **Shadow casting enabled** - allows the box to cast shadows on other objects.
+- **Shadow receiving enabled** - allows the box to receive shadows from other objects.
+
+!!! tip
+
+    For new objects created or imported from the Asset Store, shadow casting and shadow receiving are enabled by default.
+
+### Configuring shadows
+
+Shadow quality, light intensity, and the size of the shadow rendering area can be customized by editing the **Effects** of the layer in the scene editor. This allows you to:
+
+- Adjust shadow quality for better visual results or performance
+- Control the intensity of the directional light (which affects shadow strength)
+- Modify the size of the area where shadows are rendered
+
+Shadows are automatically rendered around the camera in an area that's large enough for most games while maintaining good quality results. This means they should work out of the box for most games, including those with large maps.
+
 ## About transparency
 
 Support for transparency (faces with transparent or semi opaque colors) can be enabled by checking the checkbox **"Enable texture transparency"** when editing a 3D box object.

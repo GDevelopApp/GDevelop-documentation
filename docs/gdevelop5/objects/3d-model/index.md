@@ -13,6 +13,33 @@ Lighting can be set up through [layers effects](../../interface/scene-editor/lay
 
 The model can be set up to react to lighting in different ways. The GLTF format can include data about light reflection. The 3D model can either use this data or use a forced configuration.
 
+## Shadows
+
+3D models can cast and receive shadows when proper lighting is configured. Shadows are rendered using Three.js shadow maps and provide realistic depth and spatial relationships in your 3D scenes.
+
+### Requirements for shadows
+
+To enable shadows for 3D models, you need:
+
+- **A Directional Light** set up on your scene layer. New games and new layers automatically include both a Directional Light and an Ambient Light by default.
+- **Standard material type** in the 3D model configuration (not "Basic" material, which doesn't react to light).
+- **Shadow casting enabled** - allows the model to cast shadows on other objects.
+- **Shadow receiving enabled** - allows the model to receive shadows from other objects.
+
+!!! tip
+
+    For new objects created or imported from the Asset Store, shadow casting and shadow receiving are enabled by default.
+
+### Configuring shadows
+
+Shadow quality, light intensity, and the size of the shadow rendering area can be customized by editing the **Effects** of the layer in the scene editor. This allows you to:
+
+- Adjust shadow quality for better visual results or performance
+- Control the intensity of the directional light (which affects shadow strength)
+- Modify the size of the area where shadows are rendered
+
+Shadows are automatically rendered around the camera in an area that's large enough for most games while maintaining good quality results. This means they should work out of the box for most games, including those with large maps.
+
 ## File format
 
 GDevelop supports 3D models saved in the **GLB (.glb) format**. It is a standardized file format used to share 3D data. Notably, it includes the 3D mesh of the object, as well as its textures or material specifications. This format is also sometimes called **GLTF**, for "GL Transmission Format". You can sometimes find .gltf files, but only the **.glb** files are supported by GDevelop, as they can embed the textures whereas .gltf files can't do this.
