@@ -13,6 +13,16 @@ Lighting can be set up through [layers effects](../../interface/scene-editor/lay
 
 The model can be set up to react to lighting in different ways. The GLTF format can include data about light reflection. The 3D model can either use this data or use a forced configuration.
 
+## Shadows
+
+3D models can cast and receive shadows. To display shadows:
+
+- Ensure the layer has a **Directional Light** effect. New layers in new games include this effect along with an Ambient Light by default.
+- Set the object's material to **Standard** (not **Basic**, which ignores lighting).
+- Enable **Shadow casting** and **Shadow receiving** in the object's properties (enabled by default for new assets from the store).
+
+Shadows are computed around the camera with a range suitable for most games. You can adjust the light intensity, shadow quality and range by editing the Directional Light effect in the layer's effects.
+
 ## File format
 
 GDevelop supports 3D models saved in the **GLB (.glb) format**. It is a standardized file format used to share 3D data. Notably, it includes the 3D mesh of the object, as well as its textures or material specifications. This format is also sometimes called **GLTF**, for "GL Transmission Format". You can sometimes find .gltf files, but only the **.glb** files are supported by GDevelop, as they can embed the textures whereas .gltf files can't do this.
