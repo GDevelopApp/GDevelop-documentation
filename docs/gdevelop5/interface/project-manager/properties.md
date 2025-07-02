@@ -23,9 +23,28 @@ It is in these properties, you can find:
 * **Maximum FPS:** By default, 60 is the maximum number of frames per second. If this value is set to 0, the game will run at the highest framerate the device/computer it's running on can handle.
 * **Scale mode (also called "Sampling"):** when set to linear, textures will be antialiased, meaning that their edges will be smoothed and the image will render well even if resized. Set to "nearest" to keep pixels visible, without any interpolation. This is the setting for games that use pixel art, or games are pixel perfect.
 * **Project file type:** By default, your game is saved in a single file. You can also choose to save it as multiple files: each scene, external layout, and external event sheet will be saved in a different file. This is perfect for working on a large game in a team and sharing your game in a version control system like Github or Mercurial.
+* **Resources preloading:** Controls the default strategy for preloading scene resources across your entire game. By default, all scene resources are preloaded in the background for fast scene switching. You can disable this globally to reduce initial loading time, especially useful for large or modular games, or web games where you want to minimize the resources that need to be loaded. Individual scenes can override this setting in their [scene properties](#scene-specific-resource-settings).
 * **AdMob application ID (for iOS and Android):** ID number used to connect your game with your AdMob account. Only required if you're running ads in your game. [Read more about AdMob](/gdevelop5/all-features/admob).
 * **Firebase configuration string:** The mandatory authentication key for use with Firebase events. Only required if you're using Firebase in your project. [Read more about Firebase](https://wiki.gdevelop.io/gdevelop5/all-features/firebase/quickstart).
 
+## Scene-specific resource settings
+
+While the project properties control the global default for resource preloading, each scene can have its own resource management settings that override the project defaults. To access these settings:
+
+1. Open the scene in the Scene Editor
+2. Right-click on the scene background
+3. Select "Scene properties" from the context menu
+
+In the Scene Properties dialog, you can configure:
+
+* **Resources preloading:** Override the project's default preloading strategy for this specific scene. Choose to enable or disable preloading for this scene regardless of the project setting.
+* **Resources unloading:** Specify when the scene's resources should be unloaded from memory. By default, scene resources are kept in memory after leaving the scene for fast re-entry. You can choose to unload resources when the scene is left to free up memory, though this means resources will need to be reloaded if the scene is accessed again later.
+
+These settings are particularly useful for:
+- **Large scenes with many assets:** Disable preloading and enable unloading to manage memory usage
+- **Rarely accessed scenes:** Disable preloading to reduce initial game loading time
+- **Critical scenes:** Keep preloading enabled for scenes that need instant access
+- **Web games:** Optimize loading strategies to balance performance and bandwidth usage
 
 ## Branding and Loading screen
 

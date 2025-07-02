@@ -8,6 +8,28 @@ You can find the resource manager at **Project manager** â†’ **Game settings** â
 
 ![](/gdevelop5/interface/project-manager/resources/pasted/20230309-205340.png)
 
+## Resource Preloading and Unloading Strategies
+
+GDevelop offers flexible resource management strategies to optimize your game's performance and memory usage. These strategies control when resources are loaded and unloaded:
+
+### Global Settings
+In the [project properties](/gdevelop5/interface/project-manager/properties), you can set the default resource preloading strategy for all scenes:
+- **Preload all scenes (default):** All scene resources are preloaded in the background for fast scene switching
+- **Disable global preloading:** Scenes only load resources when accessed, reducing initial loading time
+
+### Scene-Specific Settings  
+Each scene can override the global settings through its Scene Properties dialog (right-click on the scene in the Scene Editor):
+- **Resources preloading:** Enable or disable preloading for individual scenes
+- **Resources unloading:** Choose when to unload scene resources from memory when leaving the scene
+
+These strategies are particularly beneficial for:
+- **Large games:** Manage memory usage by selectively loading/unloading resources
+- **Web games:** Reduce bandwidth and initial loading time
+- **Mobile games:** Optimize memory usage on devices with limited RAM
+- **Modular games:** Load only the content players are likely to use
+
+For detailed information about these strategies, see the [Scene Resource Management documentation](/gdevelop5/all-features/scene/reference#resource-management-strategies).
+
 ## Interface
 
 When you click on **Resources**, a new tab is opened where you can edit and control the resources in your game, all the resources in this new tab will be exported during the export of the game.
@@ -57,7 +79,9 @@ Images can appear blurry if they're scaled to a ratio they were not meant to be,
 
 ### Preload as sound/music
 
-This allows you to preload audio files as music/sound, making them start quickly as you don't have to wait for the audio to load. If the appropriate toggle isn't checked, the first time this audio file is played it may be distorted as it's loaded in.
+This allows you to preload individual audio files as music/sound, making them start quickly as you don't have to wait for the audio to load. If the appropriate toggle isn't checked, the first time this audio file is played it may be distorted as it's loaded in.
+
+Note that this individual resource preloading setting works independently of the [global and scene-specific resource strategies](#resource-preloading-and-unloading-strategies) described above, which control when entire scenes' resources are loaded and unloaded.
 
 ![](/gdevelop5/interface/project-manager/resources/pasted/20230310-181721.png)
 
