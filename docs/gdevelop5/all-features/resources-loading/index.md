@@ -15,6 +15,17 @@ The resources used by other scenes are downloaded in background while users inte
 
 It may happen that all the resources needed for a scene are not ready when the scene must be displayed. In this case, the loading is shown a second time while its resources are downloaded as soon as possible.
 
+## Control preloading and unloading
+
+By default, the resources of every scene are preloaded in the background and kept in memory even after leaving a scene. This makes switching scenes faster but increases memory usage.
+
+You can change this behavior:
+
+* In **Project properties**, modify **Scenes resources preloading** to disable preloading for all scenes.
+* In **Scene properties**, override the preloading for a particular scene and use **Resources unloading** to remove its resources from memory when leaving it.
+
+When a scene with unloading enabled is displayed again, its resources are loaded once more. These options are helpful for large or modular games or to reduce memory usage in web games.
+
 ## Optimize resource loading
 
 Intermediary loading screens can be avoided by choosing in which order scenes are pre-loaded.
