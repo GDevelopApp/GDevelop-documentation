@@ -24,6 +24,16 @@ Lighting can be set up through [layers effects](../../interface/scene-editor/lay
 - Either it does not react to light, meaning that it's always shown with the colors of the texture that was set (like a 2D object)
 - Or it does react to light. In this case, don't forget to set up a light in the layer effects.
 
+## Shadows
+
+3D boxes can cast and receive shadows. To see them:
+
+- Add a **Directional Light** effect to the layer (new layers already include one and an Ambient Light).
+- Ensure the box uses the **Standard** material.
+- Enable **Shadow casting** and **Shadow receiving** in the object's properties (these are enabled for new objects by default).
+
+Shadows are rendered around the camera. You can tweak their range, quality and the light intensity by editing the Directional Light effect in the layer.
+
 ## About transparency
 
 Support for transparency (faces with transparent or semi opaque colors) can be enabled by checking the checkbox **"Enable texture transparency"** when editing a 3D box object.
