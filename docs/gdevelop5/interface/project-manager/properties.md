@@ -25,6 +25,8 @@ It is in these properties, you can find:
 * **Project file type:** By default, your game is saved in a single file. You can also choose to save it as multiple files: each scene, external layout, and external event sheet will be saved in a different file. This is perfect for working on a large game in a team and sharing your game in a version control system like Github or Mercurial.
 * **AdMob application ID (for iOS and Android):** ID number used to connect your game with your AdMob account. Only required if you're running ads in your game. [Read more about AdMob](/gdevelop5/all-features/admob).
 * **Firebase configuration string:** The mandatory authentication key for use with Firebase events. Only required if you're using Firebase in your project. [Read more about Firebase](https://wiki.gdevelop.io/gdevelop5/all-features/firebase/quickstart).
+* **Scenes resources preloading:** Choose if all scenes should preload their resources in background (default), or disable preloading. This setting can be overridden for each scene from the Scene properties.
+* **Resources unloading:** Decide whether the resources of a scene are unloaded when the scene is left. If enabled, they will be loaded again the next time the scene starts.
 
 
 ## Branding and Loading screen
