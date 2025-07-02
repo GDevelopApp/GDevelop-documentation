@@ -182,7 +182,7 @@ nav:
             - Ink Dialog Tree: ink-js
             - Slot system: slot-system
         - General:
-            - With Three JS: with-three-js
+            - Advanced 3D Features: a3f
             - 3D collision: collision3d
             - Countdown timer (deprecated): countdown-timer
             - JSON Resource Loading: jsonresource-loader

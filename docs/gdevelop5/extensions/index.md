@@ -274,7 +274,7 @@ does or inspect its content before using it.
 
 ||Name|Description||
 |---|---|---|---|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/rotate-3d.svg" class="extension-icon"></img>|**With Three JS**|Create a simple 3D scene.|[Read more...](https://pandako.itch.io/with-threejs-extension-for-gdevelop) ([reference](/gdevelop5/extensions/with-three-js))|
+|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Graphic Design/f4c71080f9213188ee5556b1acb45ad46fe6e5225947301c363105b080fca008_Graphic Design_3d_cube_isometric.svg" class="extension-icon"></img>|**Advanced 3D Features**|This extension adds features to the built-in 3D.|[Read more...](https://pandako.itch.io/a3f) ([reference](/gdevelop5/extensions/a3f))|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/7a5696a515bf40813692e118147568392a854f65f5b50750c9b9aaa967aba7df_vector-intersection.svg" class="extension-icon"></img>|**3D collision**|Check collision and distance between 3D objects.|[Read more...](/gdevelop5/extensions/collision3d)|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/UI Essentials/a87576ab3a35744221b26f87e4409ec174fb8fb79435b181232c40c29ac7340e_UI Essentials_sand_clock_time.svg" class="extension-icon"></img>|**Countdown timer (deprecated)**|A timer against the clock to create timer challenges in your projects. Countdown functionality.|[Read more...](/gdevelop5/extensions/countdown-timer)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/file-code-outline.svg" class="extension-icon"></img>|**JSON Resource Loading**|Loads a JSON resource into a variable.|[Read more...](/gdevelop5/extensions/jsonresource-loader)|
