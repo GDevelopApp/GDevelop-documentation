@@ -7,6 +7,8 @@ A 3D model displays an object modeled in a 3D modeling software, with one or mor
 
 If you need to create walls, plane grounds or other rectangular/cubic 3D objects, consider using the [3D box object](../3d-box).
 
+![A 3D game with multiple 3D models](3d-platformer-shadows-models.png)
+
 ## Lighting
 
 Lighting can be set up through [layers effects](../../interface/scene-editor/layer-effects). Ambient and directional light effects allow to configure basic lighting for 3D layers.
