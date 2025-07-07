@@ -8,7 +8,7 @@ hide:
 
 GDevelop is a full-featured, no-code, open-source game creation tool. Build **2D, 3D, and multiplayer games**, as well as interactive presentations and experiences, for mobile (iOS and Android), desktop, and web platforms.
 
-GDevelop is designed to be fast and intuitive: game logic is built using an easy-to-understand yet powerful event-based system and reusable behaviors.
+GDevelop is designed to be fast and intuitive: build games using an easy-to-understand yet powerful event-based system, reusable behaviors and an AI that guides or builds alongside you.
 
 ![The GDevelop game editor](./gdevelop-screenshot.png)
 
