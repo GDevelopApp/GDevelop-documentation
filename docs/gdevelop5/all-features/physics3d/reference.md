@@ -105,6 +105,15 @@ Change the object linear velocity on Z.
 **Restitution**  
 Change the object restitution. Energy conservation on collision. The combined restitution from two bodies is calculated as 'max(bodyA.restitution, bodyB.restitution)'..
 
+**Shape offset X**  
+Change the object shape offset on X..
+
+**Shape offset Y**  
+Change the object shape offset on Y..
+
+**Shape offset Z**  
+Change the object shape offset on Z..
+
 **Shape scale**  
 Modify an object shape scale. It affects custom shape dimensions, if custom dimensions are not set the body will be scaled automatically to the object size.
 
@@ -179,6 +188,15 @@ Check if an object has a specific mask enabled.
 **Restitution**  
 Compare the object restitution. Energy conservation on collision. The combined restitution from two bodies is calculated as 'max(bodyA.restitution, bodyB.restitution)'..
 
+**Shape offset X**  
+Compare the object shape offset on X..
+
+**Shape offset Y**  
+Compare the object shape offset on Y..
+
+**Shape offset Z**  
+Compare the object shape offset on Z..
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -206,6 +224,9 @@ Compare the object restitution. Energy conservation on collision. The combined r
 | `Object.Physics3D::MassCenterY()` | Mass center Y ||
 | `Object.Physics3D::MassCenterZ()` | Mass center Z ||
 | `Object.Physics3D::Restitution()` | Return the object restitution. Energy conservation on collision. The combined restitution from two bodies is calculated as 'max(bodyA.restitution, bodyB.restitution)'.. ||
+| `Object.Physics3D::ShapeOffsetX()` | Return the object shape offset on X.. ||
+| `Object.Physics3D::ShapeOffsetY()` | Return the object shape offset on Y.. ||
+| `Object.Physics3D::ShapeOffsetZ()` | Return the object shape offset on Z.. ||
 | `Object.Physics3D::WorldScale()` | Return the world scale. ||
 
 ## 3D physics car 

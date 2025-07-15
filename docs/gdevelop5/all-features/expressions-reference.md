@@ -1347,6 +1347,9 @@ Simulate realistic 3D physics for this object including gravity, forces, collisi
 | `Object.Physics3D::MassCenterY()` | Mass center Y ||
 | `Object.Physics3D::MassCenterZ()` | Mass center Z ||
 | `Object.Physics3D::Restitution()` | Return the object restitution. Energy conservation on collision. The combined restitution from two bodies is calculated as 'max(bodyA.restitution, bodyB.restitution)'.. ||
+| `Object.Physics3D::ShapeOffsetX()` | Return the object shape offset on X.. ||
+| `Object.Physics3D::ShapeOffsetY()` | Return the object shape offset on Y.. ||
+| `Object.Physics3D::ShapeOffsetZ()` | Return the object shape offset on Z.. ||
 | `Object.Physics3D::WorldScale()` | Return the world scale. ||
 
 ## 3D physics car (from extension 3D physics engine)
