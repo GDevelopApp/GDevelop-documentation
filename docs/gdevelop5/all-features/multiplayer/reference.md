@@ -25,6 +25,9 @@ Open the game lobbies window, where players can join lobbies or see the one they
 **Join the next available lobby**  
 Join the next available lobby. The player will join the game instantly if this is possible.
 
+**Join a specific lobby by its ID**  
+Join a specific lobby. The player will join the game instantly if this is possible.
+
 **Remove ownership of variable**  
 Remove the ownership of the variable. It will still be synchronized to other players, but the host owns it.
 
@@ -106,6 +109,7 @@ Quick join failed to join a lobby.
 
 | Expression | Description |  |
 |-----|-----|-----|
+| `Multiplayer::CurrentLobbyID()` | Returns current lobby ID. ||
 | `Multiplayer::CurrentPlayerNumber()` | Return the current player number in the lobby (1, 2, ...). ||
 | `Multiplayer::CurrentPlayerPing()` | Get the ping of the current player in the lobby. ||
 | `Multiplayer::CurrentPlayerUsername()` | Get the username of the current player in the lobby. ||

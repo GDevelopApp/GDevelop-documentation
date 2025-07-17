@@ -1117,6 +1117,7 @@ Allow players to connect to lobbies and play together. [Read more explanations a
 
 | Expression | Description |  |
 |-----|-----|-----|
+| `Multiplayer::CurrentLobbyID()` | Returns current lobby ID. ||
 | `Multiplayer::CurrentPlayerNumber()` | Return the current player number in the lobby (1, 2, ...). ||
 | `Multiplayer::CurrentPlayerPing()` | Get the ping of the current player in the lobby. ||
 | `Multiplayer::CurrentPlayerUsername()` | Get the username of the current player in the lobby. ||
