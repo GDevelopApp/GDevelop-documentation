@@ -46,6 +46,9 @@ Change the placeholder.
 **Read-only**  
 Set (or unset) if the text input is read-only.
 
+**Spell check enabled**  
+Set (or unset) if spell check is enabled.
+
 **Text color**  
 Set the text color of the object.
 
@@ -83,6 +86,9 @@ Compare the placeholder.
 
 **Read-only**  
 Check if the text input is read-only.
+
+**Spell check enabled**  
+Check if spell check is enabled.
 
 ### Object expressions
 
