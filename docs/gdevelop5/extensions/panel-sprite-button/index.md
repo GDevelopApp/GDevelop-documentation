@@ -28,7 +28,7 @@ A button that can be customized.
 De/activate interactions with the button.
 
 **Label text**  
-Change the text of the button label.
+Change the label text.
 
 ### Object conditions
 
