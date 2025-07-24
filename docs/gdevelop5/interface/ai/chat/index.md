@@ -16,7 +16,7 @@ The AI will reply in a few seconds. Answers often include **links to helpful res
 !!! note
 
     As with every AI tool, the AI answers are not perfect. From time to time, it can confuse some concepts, misunderstanding your game or what you're trying to do.
-    Always double check the answers and use the AI answers as suggestions to build your game. It's a good idea to follow the **[Complete GDevelop Master Course](https://gdevelop.io/academy)** to quickly learn the basics of GDevelop and make your first games.
+    Always double check the answers and use the AI answers as suggestions to build your game. It's a good idea to follow the **[GDevelop Essentials Course](https://gdevelop.io/academy)** to quickly learn the basics of GDevelop and make your first games.
 
 You can continue the conversation by asking follow-up questions. If you want to switch topics or ask something unrelated, click **"Start a new chat"** — this helps the AI better focus on your new request.
 
