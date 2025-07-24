@@ -48,10 +48,10 @@ GDevelop requires an internet connection to access services such as: exporting a
 *.liluo.io
 *.gd.games
 *.gdevelop-app.com
-*.compilgames.net
-*.github.com
+*.amazonaws.com
 *.cloudfront.net
 *.googleapis.com
+*.github.com
 gdevelop-services.firebaseapp.com
 gdevelop-services.firebaseio.com
 gdevelop-services.appspot.com
