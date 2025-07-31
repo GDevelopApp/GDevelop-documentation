@@ -473,6 +473,14 @@ Provides expressions to manipulate strings (also called texts).
 | `StrRepeat(string, number)` | Repeat a text ||
 | | _string_ | Text to repeat |
 | | _🔢 Number_ | Repetition count |
+| `StrReplaceAll(string, string, string)` | Replace all occurrences of a text by another. ||
+| | _string_ | Text in which the replacement(s) must be done |
+| | _string_ | Text to find inside the first text |
+| | _string_ | Replacement to put instead of the text to find |
+| `StrReplaceOne(string, string, string)` | Replace the first occurrence of a text by another. ||
+| | _string_ | Text in which the replacement must be done |
+| | _string_ | Text to find inside the first text |
+| | _string_ | Replacement to put instead of the text to find |
 | `SubStr(string, number, number)` | Get a portion of a text ||
 | | _string_ | Text |
 | | _🔢 Number_ | Start position of the portion (the first letter is at position 0) |
