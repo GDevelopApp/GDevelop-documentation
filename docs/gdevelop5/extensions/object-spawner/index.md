@@ -1,4 +1,4 @@
-# Object spawner area
+# Object spawner 2D area
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/plus-one.svg" class="extension-icon"></img>
 Spawn (create) objects periodically.
@@ -7,18 +7,16 @@ Spawn (create) objects periodically.
 
 ---
 
-Spawn objects periodically based on the location of the spawner.  
+Spawn objects periodically based on the 2D location of the spawner.  
 
 If "random position" is enabled, objects will spawn in a random position inside the spawner object. 
-This allows the size of the spawner object to define an area that objects will spawn.
+This allows the size of the spawner object to define an area where objects will spawn.
 
 It can be used to create:
 
 - Enemies
 - NPCs
 - Environmental objects
-
-Note: Offset properties were deprecated in version 1.0.0.
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
@@ -80,4 +78,4 @@ Check if spawner has unlimited capacity.
 
 ---
 
-*This page is an auto-generated reference page about the **Object spawner area** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Object spawner 2D area** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

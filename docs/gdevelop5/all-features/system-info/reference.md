@@ -1,6 +1,6 @@
 # System information Reference
 
-Get information about the system and device running the game. 
+Conditions to check if the device has a touchscreen, is a mobile, or if the game runs as a preview. 
 
 ## Conditions
 

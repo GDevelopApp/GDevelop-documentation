@@ -7,7 +7,7 @@
 
 ---
 
-3D physics car keyboard controls.
+3D physics car keyboard controls. Add this "mapper" behavior on the object having the 3D Physics Car behavior so that it's automatically controlled by the keyboard.
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

@@ -1,4 +1,4 @@
-# Hexagonal grid
+# Hexagonal 2D grid
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/hexagon-multiple-outline.svg" class="extension-icon"></img>
 Snap objects to an hexagonal grid.
@@ -7,7 +7,7 @@ Snap objects to an hexagonal grid.
 
 ---
 
-It allows to snap objects on an hexagonal grid.
+It allows to snap objects on a 2D hexagonal grid.
 
 It's useful for:
 
@@ -34,4 +34,4 @@ Snap object to a virtual pointy topped hexagonal grid (this is not the grid used
 
 ---
 
-*This page is an auto-generated reference page about the **Hexagonal grid** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Hexagonal 2D grid** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

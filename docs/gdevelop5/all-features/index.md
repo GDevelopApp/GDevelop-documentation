@@ -24,7 +24,7 @@ Note that GDevelop can also be extended with extensions: take a look at [the lis
 * [Text manipulation](/gdevelop5/all-features/string-instructions/reference)
 * [Event functions](/gdevelop5/all-features/advanced/reference)
 * [External layouts](/gdevelop5/interface/scene-editor/external-layouts) ([reference](/gdevelop5/all-features/external-layouts/reference))
-* [Animatable capability](/gdevelop5/objects) ([reference](/gdevelop5/all-features/animatable-capability/reference))
+* [Actions and conditions for objects having animations (sprite, 3D models...).](/gdevelop5/objects) ([reference](/gdevelop5/all-features/animatable-capability/reference))
 * [Effect capability](/gdevelop5/objects) ([reference](/gdevelop5/all-features/effect-capability/reference))
 * [Flippable capability](/gdevelop5/objects) ([reference](/gdevelop5/all-features/flippable-capability/reference))
 * [Resizable capability](/gdevelop5/objects) ([reference](/gdevelop5/all-features/resizable-capability/reference))

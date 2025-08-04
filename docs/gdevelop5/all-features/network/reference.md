@@ -1,6 +1,6 @@
 # Network Reference
 
-Features to send web requests, communicate with external "APIs" and other network related tasks. [Read more explanations about it.](/gdevelop5/all-features/network)
+Actions to send web requests, communicate with external "APIs" and other network related tasks. Also contains an action to open a URL on the device browser. [Read more explanations about it.](/gdevelop5/all-features/network)
 
 ## Actions
 

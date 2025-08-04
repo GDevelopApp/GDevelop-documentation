@@ -7,9 +7,9 @@ Adds various object picking related tools.
 
 ---
 
-Adds various actions and conditions for advanced object selection. Includes picking objects with the highest or lowest zOrder, an object variable, and the ability to unpick all objects.
+Adds various actions and conditions for advanced object selection. Includes picking objects with the highest or lowest Z-order (for 2D objects), an object variable, and the ability to unpick all objects.
 
-Note: Version 2.0.0 changed Z-order picking to pick all instances with the highest/lowest Z-order. Version 1.x.x only picked one instance.
+If multiple instances have the highest/lowest Z-order, all of these instances will be picked.
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

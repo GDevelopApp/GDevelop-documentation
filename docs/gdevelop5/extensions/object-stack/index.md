@@ -7,11 +7,11 @@ An ordered list of objects and a shuffle action.
 
 ---
 
-It provides:
+This keep in memory a stack of object instances, with:
 
-* Actions to modify a stack of objects
-* Conditions to access the objects of a stack
-* A shuffle action
+* Actions to modify the stack,
+* Conditions to access the objects of a stack,
+* A shuffle action.
 
 It can be helpful for:
 

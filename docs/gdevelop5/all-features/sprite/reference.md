@@ -1,12 +1,12 @@
 # Sprite Reference
 
-Sprite are animated object which can be used for most elements of a game. [Read more explanations about it.](/gdevelop5/objects/sprite)
+Sprite are animated objects which can be used for most elements of a 2D game. [Read more explanations about it.](/gdevelop5/objects/sprite)
 
 
 
 ## Sprite 
 
-Animated object which can be used for most elements of a game. 
+Animated object which can be used for most elements of a 2D game. 
 
 ### Object actions
 

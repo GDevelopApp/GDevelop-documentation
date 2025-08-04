@@ -19,7 +19,6 @@ Note: animations must be facing **Right** (for horizontal) or **Down** (for vert
 ## Timed Back and Forth Movement 
 
 Move an object (e.g. enemy) for a chosen time or distance, then flip it and start over. 
-Note: animations should be facing LEFT. 
 
 _No expressions for this behavior._
 

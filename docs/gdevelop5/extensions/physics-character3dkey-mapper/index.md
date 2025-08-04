@@ -7,7 +7,7 @@
 
 ---
 
-3D platformer and 3D shooter keyboard controls.
+3D platformer and 3D shooter keyboard controls. Add one of the "mapper" behaviors on an object having the "3D physics character" behavior so that it is controlled by the keyboard.
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

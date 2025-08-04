@@ -1,13 +1,13 @@
 # Speed restrictions
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/speedometer.svg" class="extension-icon"></img>
-Limit the maximum movement and rotation speed of an object from forces or the physics behavior.
+Limit the maximum movement and rotation speed of an object from forces or the 2D Physics behavior.
 
 **Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 
-Limit the maximum movement and rotation speed of an object from forces or the physics behavior.
+Limit the maximum movement and rotation speed of an object from forces or the 2D Physics behavior.
 
 How to use:
 

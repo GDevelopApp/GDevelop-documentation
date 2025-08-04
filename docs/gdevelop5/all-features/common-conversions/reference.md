@@ -1,6 +1,6 @@
 # Conversion Reference
 
-Expressions to convert number, texts and quantities. [Read more explanations about it.](/gdevelop5/all-features/common-conversions)
+Expressions to convert numbers to string, strings to numbers, angles (degrees from/to radians) and a GDevelop variable to/from a JSON string. [Read more explanations about it.](/gdevelop5/all-features/common-conversions)
 
 ## Actions
 

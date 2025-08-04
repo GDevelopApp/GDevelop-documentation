@@ -91,7 +91,7 @@ Common features that can be used for all objects in GDevelop. [Read more explana
 
 ## Sprite 
 
-Animated object which can be used for most elements of a game. [Read more explanations about it.](/gdevelop5/objects/sprite)
+Animated object which can be used for most elements of a 2D game. [Read more explanations about it.](/gdevelop5/objects/sprite)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -107,7 +107,7 @@ Animated object which can be used for most elements of a game. [Read more explan
 
 ## Conversion
 
-Expressions to convert number, texts and quantities. [Read more explanations about it.](/gdevelop5/all-features/common-conversions)
+Expressions to convert numbers to string, strings to numbers, angles (degrees from/to radians) and a GDevelop variable to/from a JSON string. [Read more explanations about it.](/gdevelop5/all-features/common-conversions)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -152,7 +152,9 @@ Actions, conditions and expressions to handle variables, from simple variables l
 
 ## Mouse and touch
 
-Conditions and actions to handle either the mouse or touches on touchscreen. By default, conditions related to the mouse will also handle the touches - so that it's easier to handle both in your game. You can disable this behavior if you want to handle them separately in different events. [Read more explanations about it.](/gdevelop5/all-features/mouse-touch)
+Conditions, actions and expressions to handle either the mouse or touches on a touchscreen. Notably: cursor position, mouse wheel, mouse buttons, touch positions, started/end touches, etc...
+
+By default, conditions related to the mouse will also handle the touches - so that it's easier to handle both in your game. You can disable this behavior if you want to handle them separately in different events. [Read more explanations about it.](/gdevelop5/all-features/mouse-touch)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -180,7 +182,7 @@ Conditions and actions to handle either the mouse or touches on touchscreen. By 
 
 ## Keyboard
 
-Allows your game to respond to keyboard input. Note that this does not work with on-screen keyboard on touch devices: use instead conditions related to touch when making a game for mobile/touchscreen devices. [Read more explanations about it.](/gdevelop5/all-features/keyboard)
+Conditions to check keys pressed on a keyboard. Note that this does not work with on-screen keyboard on touch devices: use instead mouse/touch conditions when making a game for mobile/touchscreen devices or when making a new game from scratch. [Read more explanations about it.](/gdevelop5/all-features/keyboard)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -191,7 +193,7 @@ Allows your game to respond to keyboard input. Note that this does not work with
 
 ## Scene
 
-Actions and conditions to manipulate the scenes during the game. 
+Actions/conditions to change the current scene (or pause it and launch another one, or go back to the previous one), check if a scene or the game has just started/resumed, preload assets of a scene, get the current scene name or loading progress, quit the game, set background color, or disable input when focus is lost. 
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -204,16 +206,16 @@ Actions and conditions to manipulate the scenes during the game.
 
 ## Timers and time
 
-Actions and conditions to run timers, get the current time or modify the time scale (speed at which the game is running - useful for slow motion effects). [Read more explanations about it.](/gdevelop5/all-features/timers-and-time)
+Actions and conditions to start, pause or reset scene timers, modify the time scale (speed at which the game is running - useful for slow motion effects). Also contains an action that wait for a delay before running the next actions and sub-events and expressions to read the time scale, time delta of the last frame or timer elapsed time. [Read more explanations about it.](/gdevelop5/all-features/timers-and-time)
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Time(string)` | Current time ||
-| | _🔤 String_ | Hour: hour - Minutes: min - Seconds: sec - Day of month: mday - Months since January: mon - Year since 1900: year - Days since Sunday: wday - Days since Jan 1st: yday - Timestamp (ms): timestamp" |
+| `Time(string)` | Gives the current time ||
+| | _🔤 String_ | - Hour of the day: "hour"- Minutes: "min"- Seconds: "sec"- Day of month: "mday"- Months since January: "mon"- Year since 1900: "year"- Days since Sunday: "wday"- Days since Jan 1st: "yday"- Timestamp (ms): "timestamp" |
 | `TimeDelta()` | Time elapsed since the last frame rendered on screen ||
-| `TimeFromStart()` | Time elapsed since the beginning of the scene ||
+| `TimeFromStart()` | Time elapsed since the beginning of the scene (in seconds). ||
 | `TimeScale()` | Returns the time scale of the scene. ||
-| `TimerElapsedTime(string)` | Value of a scene timer ||
+| `TimerElapsedTime(string)` | Value of a scene timer (in seconds) ||
 | | _🔤 Name (String)_ | Timer's name |
 
 ---
@@ -429,7 +431,8 @@ GDevelop provides several conditions and actions to play audio files. They can b
 
 ## Game window and resolution
 
-Provides actions and conditions to manipulate the game window. Depending on the platform on which the game is running, not all of these features can be applied. [Read more explanations about it.](/gdevelop5/all-features/window)
+Actions and conditions to manipulate the game window or change how the game is resized according to the screen size. Depending on the platform on which the game is running, not all of these features can be applied.
+Also contains expressions to read the screen size. [Read more explanations about it.](/gdevelop5/all-features/window)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -444,7 +447,7 @@ Provides actions and conditions to manipulate the game window. Depending on the 
 
 ## Text manipulation
 
-Provides expressions to manipulate strings (also called texts). 
+Provides expressions to manipulate strings (also called texts): new line, upper/lowercase, substring, find, replace, etc... 
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -494,9 +497,9 @@ Provides expressions to manipulate strings (also called texts).
 
 
 
-## Animatable capability 
+## Animatable capability (from extension Actions and conditions for objects having animations (sprite, 3D models...).)
 
-Animate objects. [Read more explanations about it.](/gdevelop5/objects)
+Actions and conditions for objects having animations (sprite, 3D models...).. [Read more explanations about it.](/gdevelop5/objects)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -512,7 +515,7 @@ Animate objects. [Read more explanations about it.](/gdevelop5/objects)
 
 ## Effect capability 
 
-Apply visual effects to objects. [Read more explanations about it.](/gdevelop5/objects)
+Actions/conditions to enable/disable and change parameters of visual effects applied on objects. [Read more explanations about it.](/gdevelop5/objects)
 
 _No expressions for this behavior._
 
@@ -523,7 +526,7 @@ _No expressions for this behavior._
 
 ## Flippable capability 
 
-Flip objects. [Read more explanations about it.](/gdevelop5/objects)
+Actions/conditions for objects which can be flipped horizontally or vertically. [Read more explanations about it.](/gdevelop5/objects)
 
 _No expressions for this behavior._
 
@@ -534,7 +537,7 @@ _No expressions for this behavior._
 
 ## Resizable capability 
 
-Change the object dimensions. [Read more explanations about it.](/gdevelop5/objects)
+Change or compare the size (width/height) of an object which can be resized (i.e: most objects). [Read more explanations about it.](/gdevelop5/objects)
 
 _No expressions for this behavior._
 
@@ -545,7 +548,7 @@ _No expressions for this behavior._
 
 ## Scalable capability 
 
-Change the object scale. [Read more explanations about it.](/gdevelop5/objects)
+Actions/conditions/expression to change or check the scale of an object (default: 1). [Read more explanations about it.](/gdevelop5/objects)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -559,7 +562,7 @@ Change the object scale. [Read more explanations about it.](/gdevelop5/objects)
 
 ## Opacity capability 
 
-Change the object opacity. [Read more explanations about it.](/gdevelop5/objects)
+Action/condition/expression to change or check the opacity of an object (0-255). [Read more explanations about it.](/gdevelop5/objects)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -750,7 +753,7 @@ _No expressions for this behavior._
 
 ## Shape painter 
 
-Allows you to draw simple shapes on the screen using the events. [Read more explanations about it.](/gdevelop5/objects/shape_painter)
+Allows to draw simple 2D shapes on the screen using the events. [Read more explanations about it.](/gdevelop5/objects/shape_painter)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -794,7 +797,7 @@ Invisible object used to get the text entered with the keyboard. [Read more expl
 
 ## Inventories
 
-Provides actions and conditions to add an inventory to your game, with items in memory. [Read more explanations about it.](/gdevelop5/all-features/inventory)
+Actions and conditions to store named inventories in memory, with items (indexed by their name), a count for each of them, a maximum count and an equipped state. Can be loaded/saved from/to a GDevelop variable. [Read more explanations about it.](/gdevelop5/all-features/inventory)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -903,7 +906,7 @@ _No expressions for this object._
 
 ## 3D Model (from extension 3D)
 
-An animated 3D model. 
+An animated 3D model, useful for most elements of a 3D game. 
 
 _No expressions for this object._
 
@@ -1038,7 +1041,7 @@ Allow your game to send scores and interact with the Facebook Instant Games plat
 
 ## File system
 
-Access the filesystem of the operating system. [Read more explanations about it.](/gdevelop5/all-features/filesystem)
+Access the filesystem of the operating system - only works on native, desktop games exported to Windows, Linux or macOS. [Read more explanations about it.](/gdevelop5/all-features/filesystem)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -1089,7 +1092,7 @@ Use Google Firebase services (database, functions, storage...) in your game. [Re
 
 ## Leaderboards
 
-Allow your game to send scores to your leaderboards. [Read more explanations about it.](/gdevelop5/all-features/leaderboards)
+Allow your game to send scores to your leaderboards (anonymously or from the logged-in player) or display existing leaderboards to the player. [Read more explanations about it.](/gdevelop5/all-features/leaderboards)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -1104,14 +1107,14 @@ Allow your game to send scores to your leaderboards. [Read more explanations abo
 
 ## Light (from extension Lights)
 
-Displays a light on the scene, with a customizable radius and color. Add then the Light Obstacle behavior to the objects that must act as obstacle to the lights. 
+Displays a 2D light on the scene, with a customizable radius and color. Add then the Light Obstacle behavior to the objects that must act as obstacle to the lights. 
 
 _No expressions for this object._
 
 
 ## Light Obstacle Behavior (from extension Lights)
 
-Flag objects as being obstacles to light. The light emitted by light objects will be stopped by the object. 
+Flag objects as being obstacles to 2D lights. The light emitted by light objects will be stopped by the object. This does not work on 3D objects and 3D games. 
 
 _No expressions for this behavior._
 
@@ -1121,7 +1124,9 @@ _No expressions for this behavior._
 
 ## Multiplayer
 
-Allow players to connect to lobbies and play together. [Read more explanations about it.](/gdevelop5/all-features/multiplayer)
+This allows players to join online lobbies and synchronize gameplay across devices without needing to manage servers or networking.
+
+Use the "Open game lobbies" action to let players join a game, and use conditions like "Lobby game has just started" to begin gameplay. Add the "Multiplayer object" behavior to game objects that should be synchronized, and assign or change their ownership using player numbers. Variables and game state (like scenes, scores, or timers) are automatically synced by the host, with options to change ownership or disable sync when needed. Common multiplayer logic —like handling joins/leaves, collisions, and host migration— is supported out-of-the-box for up to 8 players per game. [Read more explanations about it.](/gdevelop5/all-features/multiplayer)
 
 | Expression | Description |  |
 |-----|-----|-----|

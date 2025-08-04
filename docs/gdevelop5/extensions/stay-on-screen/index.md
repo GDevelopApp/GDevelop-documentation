@@ -1,4 +1,4 @@
-# Stay On Screen
+# Stay On Screen (2D)
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/monitor-screenshot.svg" class="extension-icon"></img>
 Move the object to keep it visible on the screen.
@@ -7,7 +7,7 @@ Move the object to keep it visible on the screen.
 
 ---
 
-Force the object to stay visible on the screen by setting back its position inside the viewport of the camera.
+Force the object to stay visible on the screen by setting back its 2D position (X and Y coordinates) inside the viewport of the camera.
 
 The shoot'em up example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://space-shooter)).
 
@@ -18,7 +18,7 @@ The shoot'em up example uses this extension ([open the project online](https://e
 
 ## Stay on Screen 
 
-Force the object to stay visible on the screen by setting back its position inside the viewport of the camera. 
+Force the object to stay visible on the screen by setting back its 2D position inside the viewport of the camera. 
 
 ### Behavior actions
 
@@ -59,4 +59,4 @@ Compare the top margin (in pixels) to leave between the object and the screen bo
 
 ---
 
-*This page is an auto-generated reference page about the **Stay On Screen** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Stay On Screen (2D)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

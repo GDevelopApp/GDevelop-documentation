@@ -7,7 +7,7 @@ Create objects as a grid to cover a rectangular area or an other object.
 
 ---
 
-This extension can be used to create multiple copies of an object in a wide variety of arrangements, including:
+This extension can be used to create multiple copies of an object in a wide variety of 2D arrangements, including:
 
 - horizontal row(s)
 - vertical column(s)
@@ -18,9 +18,9 @@ This extension can be used to create multiple copies of an object in a wide vari
 How To Use:
 
 - Place target objects in the scene in the places you want fill objects to be created
-- This action only needs to be run once (at the beginning of the scene or using TriggerOnce)
+- This action only needs to be run once (at the beginning of the scene or using "Trigger Once")
 
-Object variables (on Fill objects): 
+Object variables (automatically added on Fill objects): 
 
 - "CreationID" (number)
 - "RowID" (number)

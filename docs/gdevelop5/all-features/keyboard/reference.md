@@ -1,6 +1,6 @@
 # Keyboard Reference
 
-Allows your game to respond to keyboard input. Note that this does not work with on-screen keyboard on touch devices: use instead conditions related to touch when making a game for mobile/touchscreen devices. [Read more explanations about it.](/gdevelop5/all-features/keyboard)
+Conditions to check keys pressed on a keyboard. Note that this does not work with on-screen keyboard on touch devices: use instead mouse/touch conditions when making a game for mobile/touchscreen devices or when making a new game from scratch. [Read more explanations about it.](/gdevelop5/all-features/keyboard)
 
 ## Conditions
 

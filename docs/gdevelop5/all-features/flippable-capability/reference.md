@@ -1,12 +1,12 @@
 # Flippable capability Reference
 
-Flip objects. [Read more explanations about it.](/gdevelop5/objects)
+Actions/conditions for objects which can be flipped horizontally or vertically. [Read more explanations about it.](/gdevelop5/objects)
 
 
 
 ## Flippable capability 
 
-Flip objects. 
+Actions/conditions for objects which can be flipped horizontally or vertically. 
 
 ### Behavior actions
 

@@ -1,12 +1,12 @@
 # Resizable capability Reference
 
-Change the object dimensions. [Read more explanations about it.](/gdevelop5/objects)
+Change or compare the size (width/height) of an object which can be resized (i.e: most objects). [Read more explanations about it.](/gdevelop5/objects)
 
 
 
 ## Resizable capability 
 
-Change the object dimensions. 
+Change or compare the size (width/height) of an object which can be resized (i.e: most objects). 
 
 ### Behavior actions
 

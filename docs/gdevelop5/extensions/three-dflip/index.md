@@ -1,13 +1,13 @@
-# 3D Flip
+# 3D-like Flip for 2D Sprites
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/flip-horizontal.svg" class="extension-icon"></img>
-Flip sprites with a 3D rotation effect.
+Flip sprites with a 3D-like rotation effect.
 
 **Authors and contributors** to this community extension: [VegeTato](https://gd.games/VegeTato), [D8H](https://gd.games/D8H).
 
 ---
 
-It can be used to flip cards or characters.
+Flip sprites with a 3D-like rotation effect.
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
@@ -42,4 +42,4 @@ _No expressions for this behavior._
 
 ---
 
-*This page is an auto-generated reference page about the **3D Flip** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **3D-like Flip for 2D Sprites** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

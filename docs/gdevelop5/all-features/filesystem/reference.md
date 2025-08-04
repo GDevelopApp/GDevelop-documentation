@@ -1,6 +1,6 @@
 # File system Reference
 
-Access the filesystem of the operating system. [Read more explanations about it.](/gdevelop5/all-features/filesystem)
+Access the filesystem of the operating system - only works on native, desktop games exported to Windows, Linux or macOS. [Read more explanations about it.](/gdevelop5/all-features/filesystem)
 
 ## Actions
 

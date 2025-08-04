@@ -1,4 +1,4 @@
-# Rectangular grid
+# Rectangular 2D grid
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/view-grid-plus-outline.svg" class="extension-icon"></img>
 Snap objects on a virtual grid.
@@ -7,7 +7,7 @@ Snap objects on a virtual grid.
 
 ---
 
-It allows to snap objects on a *virtual grid*.
+It allows to snap objects on a *virtual 2D grid*.
 
 It's useful for:
 
@@ -28,4 +28,4 @@ Snap object to a virtual grid (i.e: this is not the grid used in the editor).
 
 ---
 
-*This page is an auto-generated reference page about the **Rectangular grid** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Rectangular 2D grid** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

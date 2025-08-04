@@ -7,7 +7,7 @@ Functions for using regular expressions to manipulate strings.
 
 ---
 
-Adds function to use regular expressions with strings, such as  
+Conditions, actions and expressions to use regular expressions with strings, such as:  
 
 - Find the position of pattern in a string 
 - Find a pattern in a string

@@ -7,7 +7,7 @@ Manage health (life) points, shield and armor.
 
 ---
 
-Manage health (life) points, shield and armor. 
+Manage health (life) points, shield and armor of instances of an object. 
 
 It handles:
 

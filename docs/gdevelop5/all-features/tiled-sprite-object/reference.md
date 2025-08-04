@@ -1,6 +1,6 @@
 # Tiled Sprite Object Reference
 
-Displays an image in a repeating pattern over an area. Useful for making backgrounds, including background that are scrolling when the camera moves. This is more performant than using multiple Sprite objects. [Read more explanations about it.](/gdevelop5/objects/tiled_sprite)
+Displays a 2D image in a repeating pattern over an area. Useful for making backgrounds, including background that are scrolling when the camera moves. This is more performant than using multiple Sprite objects. [Read more explanations about it.](/gdevelop5/objects/tiled_sprite)
 
 
 

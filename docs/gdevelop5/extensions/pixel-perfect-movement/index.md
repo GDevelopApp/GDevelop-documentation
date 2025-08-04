@@ -23,7 +23,7 @@ It can be used for:
 
 ## Pixel perfect platformer character 
 
-Seamlessly align big pixels using a platformer character movement. 
+Seamlessly align big pixels using a 2D platformer character movement. 
 
 _No expressions for this behavior._
 

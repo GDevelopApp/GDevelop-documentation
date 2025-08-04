@@ -96,7 +96,7 @@ _No expressions for this object._
 
 ## 3D Model 
 
-An animated 3D model. 
+An animated 3D model, useful for most elements of a 3D game. 
 
 ### Object actions
 

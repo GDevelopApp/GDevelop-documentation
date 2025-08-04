@@ -1,15 +1,13 @@
-# Physics car
+# 2D Top-Down Physics Car
 
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/b4a3bb68575adbecb4418e0397ef8c05913e1f0757dfd111de7e6a4ff31eb149_car-back.svg" class="extension-icon"></img>
-Simulate car motion with drifting.
+Simulate top-down car motion with drifting.
 
 **Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).
 
 ---
 
-Simulate car motion with the Physics 2 behavior.
-
-The 3D car coin hunt game example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://3d-car-coin-hunt)).
+Simulate car motion, from a top-down view, with the 2D Physics Engine behavior.
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
@@ -18,7 +16,7 @@ The 3D car coin hunt game example uses this extension ([open the project online]
 
 ## Physics car 
 
-Simulate car motion. 
+Simulate 2D car motion, from a top-down view. 
 
 ### Behavior actions
 
@@ -101,4 +99,4 @@ Compare the wheel grip ratio of the object (from 0 to 1). A ratio of 0 is like d
 
 ---
 
-*This page is an auto-generated reference page about the **Physics car** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **2D Top-Down Physics Car** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

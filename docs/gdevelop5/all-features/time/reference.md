@@ -1,6 +1,6 @@
 # Timers and time Reference
 
-Actions and conditions to run timers, get the current time or modify the time scale (speed at which the game is running - useful for slow motion effects). [Read more explanations about it.](/gdevelop5/all-features/timers-and-time)
+Actions and conditions to start, pause or reset scene timers, modify the time scale (speed at which the game is running - useful for slow motion effects). Also contains an action that wait for a delay before running the next actions and sub-events and expressions to read the time scale, time delta of the last frame or timer elapsed time. [Read more explanations about it.](/gdevelop5/all-features/timers-and-time)
 
 ## Actions
 
@@ -37,12 +37,12 @@ Test if the specified scene timer is paused.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Time(string)` | Current time ||
-| | _🔤 String_ | Hour: hour - Minutes: min - Seconds: sec - Day of month: mday - Months since January: mon - Year since 1900: year - Days since Sunday: wday - Days since Jan 1st: yday - Timestamp (ms): timestamp" |
+| `Time(string)` | Gives the current time ||
+| | _🔤 String_ | - Hour of the day: "hour"- Minutes: "min"- Seconds: "sec"- Day of month: "mday"- Months since January: "mon"- Year since 1900: "year"- Days since Sunday: "wday"- Days since Jan 1st: "yday"- Timestamp (ms): "timestamp" |
 | `TimeDelta()` | Time elapsed since the last frame rendered on screen ||
-| `TimeFromStart()` | Time elapsed since the beginning of the scene ||
+| `TimeFromStart()` | Time elapsed since the beginning of the scene (in seconds). ||
 | `TimeScale()` | Returns the time scale of the scene. ||
-| `TimerElapsedTime(string)` | Value of a scene timer ||
+| `TimerElapsedTime(string)` | Value of a scene timer (in seconds) ||
 | | _🔤 Name (String)_ | Timer's name |
 
 

@@ -1,6 +1,6 @@
 # Top-down movement Reference
 
-Allows to move objects in either 4 or 8 directions, with the keyboard or using events. [Read more explanations about it.](/gdevelop5/behaviors/topdown)
+Allows to move an object in either 4 or 8 directions, with the keyboard (default), a virtual stick (for this, also add the "Top-down multitouch controller mapper" behavior and a"Multitouch Joystick" object), gamepad or manually using events. [Read more explanations about it.](/gdevelop5/behaviors/topdown)
 
 
 

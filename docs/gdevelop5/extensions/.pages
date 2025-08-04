@@ -36,7 +36,7 @@ nav:
         - Drag camera with the mouse (or touchscreen): drag-camera-with-pointer
         - Edge scroll camera: edge-scroll-camera
         - First person 3D camera: first-person-camera
-        - Follow multiple objects with camera: follow-objects-with-camera
+        - Follow multiple 2D objects with the camera: follow-objects-with-camera
         - Parallax for Tiled Sprite: parallax
         - Room-based camera movement: room-based-camera-movement
         - Smooth Camera: smooth-camera
@@ -45,17 +45,17 @@ nav:
         - Checkpoints: checkpoints
         - Fire bullets: fire-bullet
         - Health points and damage: health
-        - Hexagonal grid: hexagonal-grid
+        - Hexagonal 2D grid: hexagonal-grid
         - Idle object tracker: idle-tracker
         - Simple inventories: inventories
         - Object "Is On Screen" Detection: is-on-screen
         - Linked Objects Tools: link-tools
         - Noise generator: noise
-        - Object spawner area: object-spawner
+        - Object spawner 2D area: object-spawner
         - Object Stack: object-stack
         - RTS-like unit selection: rtsunit-selection
         - Rectangular flood fill: rectangular-flood-fill
-        - Rectangular grid: snap-to-grid
+        - Rectangular 2D grid: snap-to-grid
         - Values of multiple objects: values-of-multiple-objects
     - General:
         - Array tools: array-tools
@@ -92,7 +92,7 @@ nav:
         - Homing projectile: homing-projectile
         - Linear Movement: linear-movement
         - Make objects orbit around a center object: orbiting-objects
-        - Physics car: physics-car
+        - 2D Top-Down Physics Car: physics-car
         - 3D physics character animator: physics-character3danimator
         - 3D ellipse movement: physics-ellipse-movement3d
         - Pixel perfect movement: pixel-perfect-movement
@@ -101,7 +101,7 @@ nav:
         - Rectangular movement: rectangle-movement
         - Screen wrap: screen-wrap
         - Speed restrictions: speed-restrictions
-        - Stay On Screen: stay-on-screen
+        - Stay On Screen (2D): stay-on-screen
         - Stick objects to others: sticker
         - Timed Back and Forth Movement: timed-back-and-forth-movement
         - Top-down movement animator: top-down-movement-animator
@@ -149,7 +149,7 @@ nav:
         - Flash layer: flash-layer
         - Flash and transition painter: flash-transition-painter
         - Marching Squares (experimental): marching-squares
-        - Slice an object into pieces: object-slicer
+        - Slice a 2D object into pieces: object-slicer
         - 3D particle emitter: particle-emitter3d
         - Rolling counter: rolling-counter
         - Animate Shadow Clones: shadow-clones
@@ -158,7 +158,7 @@ nav:
         -  Shock wave effect: shock-wave-effect
         - Object Masking: sprite-masking
         - Sway: sway
-        - 3D Flip: three-dflip
+        - 3D-like Flip for 2D Sprites: three-dflip
         - YSort: ysort
     - Community extensions:
         - Advanced:

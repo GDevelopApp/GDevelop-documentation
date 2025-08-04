@@ -1,6 +1,7 @@
 # Game window and resolution Reference
 
-Provides actions and conditions to manipulate the game window. Depending on the platform on which the game is running, not all of these features can be applied. [Read more explanations about it.](/gdevelop5/all-features/window)
+Actions and conditions to manipulate the game window or change how the game is resized according to the screen size. Depending on the platform on which the game is running, not all of these features can be applied.
+Also contains expressions to read the screen size. [Read more explanations about it.](/gdevelop5/all-features/window)
 
 ## Actions
 

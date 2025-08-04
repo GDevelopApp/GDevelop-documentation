@@ -1,6 +1,6 @@
 # Text manipulation Reference
 
-Provides expressions to manipulate strings (also called texts). 
+Provides expressions to manipulate strings (also called texts): new line, upper/lowercase, substring, find, replace, etc... 
 
 ## Expressions
 

@@ -1,6 +1,6 @@
 # Scene Reference
 
-Actions and conditions to manipulate the scenes during the game. 
+Actions/conditions to change the current scene (or pause it and launch another one, or go back to the previous one), check if a scene or the game has just started/resumed, preload assets of a scene, get the current scene name or loading progress, quit the game, set background color, or disable input when focus is lost. 
 
 ## Actions
 

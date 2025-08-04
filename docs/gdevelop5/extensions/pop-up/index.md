@@ -22,9 +22,6 @@ This extension adds actions to display three kinds of pop-ups.
 **Note that this pop-up type is unsupported on previews and PC exports.**
  - Displays a message to the player with a text field to write an answer in. The player will also have the option to either confirm or discard their input.
 
-### Usage to save a value from a popup box:
-![Screenshot of the way to use the extension to save a value in a variable](https://i.imgur.com/2iR5ofz.png)
-
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

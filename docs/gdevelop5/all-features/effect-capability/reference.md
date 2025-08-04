@@ -1,12 +1,12 @@
 # Effect capability Reference
 
-Apply visual effects to objects. [Read more explanations about it.](/gdevelop5/objects)
+Actions/conditions to enable/disable and change parameters of visual effects applied on objects. [Read more explanations about it.](/gdevelop5/objects)
 
 
 
 ## Effect capability 
 
-Apply visual effects to objects. 
+Actions/conditions to enable/disable and change parameters of visual effects applied on objects. 
 
 ### Behavior actions
 

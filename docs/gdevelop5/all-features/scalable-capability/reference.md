@@ -1,12 +1,12 @@
 # Scalable capability Reference
 
-Change the object scale. [Read more explanations about it.](/gdevelop5/objects)
+Actions/conditions/expression to change or check the scale of an object (default: 1). [Read more explanations about it.](/gdevelop5/objects)
 
 
 
 ## Scalable capability 
 
-Change the object scale. 
+Actions/conditions/expression to change or check the scale of an object (default: 1). 
 
 ### Behavior actions
 

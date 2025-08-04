@@ -1,6 +1,6 @@
 # Leaderboards Reference
 
-Allow your game to send scores to your leaderboards. [Read more explanations about it.](/gdevelop5/all-features/leaderboards)
+Allow your game to send scores to your leaderboards (anonymously or from the logged-in player) or display existing leaderboards to the player. [Read more explanations about it.](/gdevelop5/all-features/leaderboards)
 
 ## Actions
 

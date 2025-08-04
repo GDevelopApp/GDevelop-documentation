@@ -1,12 +1,12 @@
 # Opacity capability Reference
 
-Change the object opacity. [Read more explanations about it.](/gdevelop5/objects)
+Action/condition/expression to change or check the opacity of an object (0-255). [Read more explanations about it.](/gdevelop5/objects)
 
 
 
 ## Opacity capability 
 
-Change the object opacity. 
+Action/condition/expression to change or check the opacity of an object (0-255). 
 
 ### Behavior actions
 

@@ -1,6 +1,6 @@
 # Inventories Reference
 
-Provides actions and conditions to add an inventory to your game, with items in memory. [Read more explanations about it.](/gdevelop5/all-features/inventory)
+Actions and conditions to store named inventories in memory, with items (indexed by their name), a count for each of them, a maximum count and an equipped state. Can be loaded/saved from/to a GDevelop variable. [Read more explanations about it.](/gdevelop5/all-features/inventory)
 
 ## Actions
 

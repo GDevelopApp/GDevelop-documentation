@@ -7,15 +7,7 @@ Read the values of pixels on the screen.
 
 ---
 
-
-This extension allow to read pixels on screen.
-
-| Expression | Argument  | Type returned |
-|--|--|--|
-|  ReadPixelRed(x, y)  | position x: number, position y: number | number (0-255) |
-|  ReadPixelGreen(x, y)  | position x: number, position  y: number | number (0-255) |
-|  ReadPixelBlue(x, y)  | position x: number, position y: number | number (0-255) |
-|  ReadPixelAlpha(x, y)  | position x: number, position y: number | number (0-255) |
+Provides expressions allowing to read the RGB value of pixels on screen.
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

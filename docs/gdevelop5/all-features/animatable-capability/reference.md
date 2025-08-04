@@ -1,4 +1,4 @@
-# Animatable capability Reference
+# Actions and conditions for objects having animations (sprite, 3D models...). Reference
 
 Animate objects. [Read more explanations about it.](/gdevelop5/objects)
 
@@ -6,7 +6,7 @@ Animate objects. [Read more explanations about it.](/gdevelop5/objects)
 
 ## Animatable capability 
 
-Animate objects. 
+Actions and conditions for objects having animations (sprite, 3D models...).. 
 
 ### Behavior actions
 
@@ -61,6 +61,6 @@ Compare the animation speed scale (1 = the default speed, >1 = faster and <1 = s
 
 ---
 
-The Animatable capability extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+The Actions and conditions for objects having animations (sprite, 3D models...). extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Animatable capability** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Actions and conditions for objects having animations (sprite, 3D models...).** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
