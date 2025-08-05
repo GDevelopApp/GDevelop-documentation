@@ -1,4 +1,4 @@
-# Turret movement
+# Turret 2D movement
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Cleaning/Cleaning_cleaning_clean_plunger.svg" class="extension-icon"></img>
 A turret movement with customizable speed, acceleration and stop angles.
@@ -7,7 +7,7 @@ A turret movement with customizable speed, acceleration and stop angles.
 
 ---
 
-With this behavior, you can make an object rotate like a turret toward a position.
+With this behavior, you can make an object rotate like a turret toward a 2D position.
 It may be used with the **Bullet** extension to fire objects.
 
 !!! tip
@@ -49,4 +49,4 @@ Check if the turret is moving.
 
 ---
 
-*This page is an auto-generated reference page about the **Turret movement** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Turret 2D movement** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

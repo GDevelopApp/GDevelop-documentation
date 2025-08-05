@@ -106,7 +106,7 @@ nav:
         - Timed Back and Forth Movement: timed-back-and-forth-movement
         - Top-down movement animator: top-down-movement-animator
         - Make object travel to random positions: travel-to-random-positions
-        - Turret movement: turret
+        - Turret 2D movement: turret
     - Network:
         - Advanced HTTP: advanced-http
         - Advanced p2p event handling: advanced-p2pevent-handling

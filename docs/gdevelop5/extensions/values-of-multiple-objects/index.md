@@ -7,7 +7,7 @@ Values of picked object instances (including position, size, force and angle).
 
 ---
 
-Provides values based on picked object instances.  
+Provides values based on picked object instances: minimum or average X or Y position, center position, width, height, 2D Z-order.  
 Useful for camera tracking, flocking behaviors, and more.
 
 An example shows how to use the extension ([open the Itch.io page](https://victrisgames.itch.io/values-of-multiple-objects)).

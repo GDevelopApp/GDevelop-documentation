@@ -1,13 +1,13 @@
 # Webpage URL tools (Web browser)
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/web.svg" class="extension-icon"></img>
-Allows to read URL on Web browser exports of the game and manipulate URLs generally.
+Allows to read URL where a web-game is hosted and manipulate URL strings.
 
 **Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555).
 
 ---
 
-This extension allows to 
+This extension allows to: 
 
 - Get the URL of the game page
 - Reload the page

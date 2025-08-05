@@ -12,7 +12,7 @@ Multitouch joysticks are objects showing a joystick on the screen, useful for mo
 - 4 or 8 directions
 - Analogus pads
 - Player selection
-- Automatic "mapper" behaviors for 2D and 3D movement behaviors (platformer characters, top-down movement, 3D character etc...). Add one of these to the object with the movement behavior (i.e: the player most of the time) and the behavior will then be controlled automatically by the virtual joystick (it works by reading the multitouch joystick state and simulating controls).
+- Automatic "mapper" behaviors for 2D and 3D movement behaviors (platformer characters, top-down movement, 3D character etc...). Add one of these to the object with the movement behavior (i.e: the player most of the time) and the behavior will then be controlled automatically by the virtual joystick (it works by reading the multitouch joystick state and simulating controls). No need for additional events to make it work once the behaviors are set up.
 
 There are ready-to-use joysticks in the asset-store [multitouch joysticks pack](https://editor.gdevelop.io/?initial-dialog=asset-store&asset-pack=multitouch-joysticks-multitouch-joysticks).
 
@@ -198,7 +198,7 @@ Compare the maximum vertical rotation speed of the object.
 
 ## Multitouch button 
 
-Detect button presses made on a touchscreen. 
+Detect presses made on a touchscreen on the object so it acts like a button and automatically trigger the button having the same identifier for the mapper behaviors. 
 
 ### Behavior conditions
 
