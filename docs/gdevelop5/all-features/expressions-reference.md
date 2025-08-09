@@ -497,7 +497,7 @@ Provides expressions to manipulate strings (also called texts): new line, upper/
 
 
 
-## Animatable capability (from extension Actions and conditions for objects having animations (sprite, 3D models...).)
+## Objects with animations 
 
 Actions and conditions for objects having animations (sprite, 3D models...).. [Read more explanations about it.](/gdevelop5/objects)
 
@@ -513,7 +513,7 @@ Actions and conditions for objects having animations (sprite, 3D models...).. [R
 
 
 
-## Effect capability 
+## Objects with effects 
 
 Actions/conditions to enable/disable and change parameters of visual effects applied on objects. [Read more explanations about it.](/gdevelop5/objects)
 
@@ -524,7 +524,7 @@ _No expressions for this behavior._
 
 
 
-## Flippable capability 
+## Flippable objects 
 
 Actions/conditions for objects which can be flipped horizontally or vertically. [Read more explanations about it.](/gdevelop5/objects)
 
@@ -535,7 +535,7 @@ _No expressions for this behavior._
 
 
 
-## Resizable capability 
+## Resizable objects 
 
 Change or compare the size (width/height) of an object which can be resized (i.e: most objects). [Read more explanations about it.](/gdevelop5/objects)
 
@@ -546,7 +546,7 @@ _No expressions for this behavior._
 
 
 
-## Scalable capability 
+## Scalable objects 
 
 Actions/conditions/expression to change or check the scale of an object (default: 1). [Read more explanations about it.](/gdevelop5/objects)
 
@@ -560,7 +560,7 @@ Actions/conditions/expression to change or check the scale of an object (default
 
 
 
-## Opacity capability 
+## Objects with opacity 
 
 Action/condition/expression to change or check the opacity of an object (0-255). [Read more explanations about it.](/gdevelop5/objects)
 
@@ -572,7 +572,7 @@ Action/condition/expression to change or check the opacity of an object (0-255).
 
 
 
-## Text capability 
+## Objects containing a text 
 
 Allows an object to contain a text, usually shown on screen, that can be modified. [Read more explanations about it.](/gdevelop5/objects)
 
@@ -677,6 +677,7 @@ Displays a text on the screen. [Read more explanations about it.](/gdevelop5/obj
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.FontSize()` | Return the font size of a text object. ||
+| `Object.LineHeight()` | Return the line height of a text object. ||
 | `Object.OutlineThickness()` | Return the outline thickness of the text. ||
 | `Object.Padding()` | Padding ||
 | `Object.ShadowAngle()` | Return the shadow angle of the text. ||

@@ -1,10 +1,10 @@
-# Flippable capability Reference
+# Flippable objects Reference
 
 Actions/conditions for objects which can be flipped horizontally or vertically. [Read more explanations about it.](/gdevelop5/objects)
 
 
 
-## Flippable capability 
+## Flippable objects 
 
 Actions/conditions for objects which can be flipped horizontally or vertically. 
 
@@ -30,6 +30,6 @@ _No expressions for this behavior._
 
 ---
 
-The Flippable capability extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+The Flippable objects extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Flippable capability** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Flippable objects** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

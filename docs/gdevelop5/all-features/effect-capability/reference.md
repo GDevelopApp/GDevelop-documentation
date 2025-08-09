@@ -1,10 +1,10 @@
-# Effect capability Reference
+# Objects with effects Reference
 
 Actions/conditions to enable/disable and change parameters of visual effects applied on objects. [Read more explanations about it.](/gdevelop5/objects)
 
 
 
-## Effect capability 
+## Objects with effects 
 
 Actions/conditions to enable/disable and change parameters of visual effects applied on objects. 
 
@@ -36,6 +36,6 @@ _No expressions for this behavior._
 
 ---
 
-The Effect capability extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+The Objects with effects extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Effect capability** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Objects with effects** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

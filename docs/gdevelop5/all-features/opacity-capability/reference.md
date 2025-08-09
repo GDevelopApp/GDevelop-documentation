@@ -1,10 +1,10 @@
-# Opacity capability Reference
+# Objects with opacity Reference
 
 Action/condition/expression to change or check the opacity of an object (0-255). [Read more explanations about it.](/gdevelop5/objects)
 
 
 
-## Opacity capability 
+## Objects with opacity 
 
 Action/condition/expression to change or check the opacity of an object (0-255). 
 
@@ -27,6 +27,6 @@ Compare the opacity of an object, between 0 (fully transparent) to 255 (opaque).
 
 ---
 
-The Opacity capability extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+The Objects with opacity extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Opacity capability** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Objects with opacity** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

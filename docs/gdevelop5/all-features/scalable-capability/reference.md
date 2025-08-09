@@ -1,10 +1,10 @@
-# Scalable capability Reference
+# Scalable objects Reference
 
 Actions/conditions/expression to change or check the scale of an object (default: 1). [Read more explanations about it.](/gdevelop5/objects)
 
 
 
-## Scalable capability 
+## Scalable objects 
 
 Actions/conditions/expression to change or check the scale of an object (default: 1). 
 
@@ -41,6 +41,6 @@ Compare the scale on Y axis of the object (default scale is 1).
 
 ---
 
-The Scalable capability extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+The Scalable objects extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Scalable capability** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Scalable objects** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

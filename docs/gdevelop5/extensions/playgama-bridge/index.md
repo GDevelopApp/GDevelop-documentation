@@ -10,7 +10,7 @@ One SDK for cross-platform publishing HTML5 games.
 One SDK for cross-platform publishing HTML5 games. 
 Please refer to [Playgama documentation](https://wiki.playgama.com/playgama/sdk/engines/gdevelop) for detailed guidance.
 
-[Read more...](/gdevelop5/extensions/playgama-bridge/details)
+[Read more...](https://wiki.playgama.com/playgama/sdk/engines/gdevelop)
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
@@ -68,17 +68,11 @@ Invite Friends.
 **Join Community**  
 Join Community.
 
-**Leaderboard Get Entries**  
-Leaderboard Get Entries.
+**Leaderboards Get Entries**  
+Leaderboards Get Entries.
 
-**Leaderboard Get Score**  
-Leaderboard Get Score.
-
-**Leaderboard Set Score**  
-Leaderboard Set Score.
-
-**Leaderboard Show Native Popup**  
-Leaderboard Show Native Popup.
+**Leaderboards Set Score**  
+Leaderboards Set Score.
 
 **Payments Consume Purchase**  
 Payments Consume Purchase.
@@ -187,6 +181,9 @@ Is Get Game By Id Supported.
 **Is Initialized**  
 Is Initialized.
 
+**Is Interstitial Supported**  
+Is Interstitial Supported.
+
 **Is Invite Friends Supported**  
 Is Invite Friends Supported.
 
@@ -195,24 +192,6 @@ Is Join Community Supported.
 
 **Is Last Action Completed Successfully**  
 Is Last Action Completed Successfully.
-
-**Is Leaderboard Get Entries Supported**  
-Is Leaderboard Get Entries Supported.
-
-**Is Leaderboard Get Score Supported**  
-Is Leaderboard Get Score Supported.
-
-**Is Leaderboard Multiple Boards Supported**  
-Is Leaderboard Multiple Boards Supported.
-
-**Is Leaderboard Native Popup Supported**  
-Is Leaderboard Native Popup Supported.
-
-**Is Leaderboard Set Score Supported**  
-Is Leaderboard Set Score Supported.
-
-**Is Leaderboard Supported**  
-Is Leaderboard Supported.
 
 **Is Mobile**  
 Is Mobile.
@@ -232,6 +211,9 @@ Is Rate Supported.
 **Is Remote Config Supported**  
 Is Remote Config Supported.
 
+**Is Rewarded Supported**  
+Is Rewarded Supported.
+
 **Is Share Supported**  
 Is Share Supported.
 
@@ -246,6 +228,15 @@ Is Tablet.
 
 **Is Tv**  
 Is Tv.
+
+**The leaderboard is of type In Game**  
+The leaderboard is of type In Game.
+
+**The leaderboard is of type Native**  
+The leaderboard is of type Native.
+
+**The leaderboard is of type Not Available**  
+The leaderboard is of type Not Available.
 
 **On Achievements Get List Completed**  
 On Achievements Get List Completed.
@@ -316,17 +307,11 @@ On Invite Friends Completed.
 **On Join Community Completed**  
 On Join Community Completed.
 
-**On Leaderboard Get Entries Completed**  
-On Leaderboard Get Entries Completed.
+**On Leaderboards Get Entries Completed**  
+On Leaderboards Get Entries Completed.
 
-**On Leaderboard Get Score Completed**  
-On Leaderboard Get Score Completed.
-
-**On Leaderboard Set Score Completed**  
-On Leaderboard Set Score Completed.
-
-**On Leaderboard Show Native Popup Completed**  
-On Leaderboard Show Native Popup Completed.
+**On Leaderboards Set Score Completed**  
+On Leaderboards Set Score Completed.
 
 **On Payments Consume Purchase Completed**  
 On Payments Consume Purchase Completed.
@@ -379,6 +364,18 @@ On Storage Data Set Request Completed.
 **On Visibility State Changed**  
 On Visibility State Changed.
 
+**Platform Is Audio Enabled**  
+Platform Is Audio Enabled.
+
+**Platform Is Paused**  
+Platform Is Paused.
+
+**Platform On Audio State Changed**  
+Platform On Audio State Changed.
+
+**Platform On Pause State Changed**  
+Platform On Pause State Changed.
+
 ## Expressions
 
 | Expression | Description |  |
@@ -395,13 +392,17 @@ On Visibility State Changed.
 | `PlaygamaBridge::DeviceType()` | Device Type. ||
 | `PlaygamaBridge::InterstitialState()` | Interstitial State. ||
 | `PlaygamaBridge::LeaderboardEntriesCount()` | Leaderboard Entries Count. ||
-| `PlaygamaBridge::LeaderboardEntryPropertiesCount()` | Leaderboard Entry Properties Count. ||
-| `PlaygamaBridge::LeaderboardEntryPropertyName(number)` | Leaderboard Entry Property Name. ||
-| | _🔢 Number_ | Property Index |
-| `PlaygamaBridge::LeaderboardEntryPropertyValue(number, string)` | Leaderboard Entry Property Value. ||
+| `PlaygamaBridge::LeaderboardEntryId(number)` | Leaderboard Entry Id. ||
 | | _🔢 Number_ | Entry Index |
-| | _string_ | Property |
-| `PlaygamaBridge::LeaderboardPlayerScore()` | Leaderboard Player Score. ||
+| `PlaygamaBridge::LeaderboardEntryName(number)` | Leaderboard Entry Name. ||
+| | _🔢 Number_ | Entry Index |
+| `PlaygamaBridge::LeaderboardEntryPhoto(number)` | Leaderboard Entry Photo. ||
+| | _🔢 Number_ | Entry Index |
+| `PlaygamaBridge::LeaderboardEntryRank(number)` | Leaderboard Entry Rank. ||
+| | _🔢 Number_ | Entry Index |
+| `PlaygamaBridge::LeaderboardEntryScore(number)` | Leaderboard Entry Score. ||
+| | _🔢 Number_ | Entry Index |
+| `PlaygamaBridge::LeaderboardsType()` | Leaderboards Type. ||
 | `PlaygamaBridge::MinimumDelayBetweenInterstitial()` | Minimum Delay Between Interstitial. ||
 | `PlaygamaBridge::PaymentsCatalogItemPropertiesCount()` | Payments Catalog Item Properties Count. ||
 | `PlaygamaBridge::PaymentsCatalogItemPropertyName(number)` | Payments Catalog Item Property Name. ||
@@ -446,11 +447,12 @@ On Visibility State Changed.
 | `PlaygamaBridge::PlayerPhotosCount()` | Player Photos Count. ||
 | `PlaygamaBridge::RemoteConfigValue(string)` | Remote Config Value. ||
 | | _string_ | Key |
+| `PlaygamaBridge::RewardedPlacement()` | Rewarded Placement. ||
 | `PlaygamaBridge::RewardedState()` | Rewarded State. ||
 | `PlaygamaBridge::ServerTime()` | Server Time. ||
-| `PlaygamaBridge::StorageDataKey(string)` | Storage Data Key. ||
+| `PlaygamaBridge::StorageData(string)` | Storage Data. ||
 | | _string_ | Key |
-| `PlaygamaBridge::StorageDataKeyAsJSON(string)` | Storage Data Key As JSON. ||
+| `PlaygamaBridge::StorageDataAsJSON(string)` | Storage Data As JSON. ||
 | | _string_ | Key |
 | `PlaygamaBridge::VisibilityState()` | Visibility State. ||
 

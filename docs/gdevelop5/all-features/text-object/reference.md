@@ -41,6 +41,9 @@ Enable or disable the shadow of the text.
 **Font size**  
 Change the font size of a text object.
 
+**Line height**  
+Change the line height of a text object.
+
 **Outline color**  
 Change the outline color of the text.
 
@@ -91,6 +94,9 @@ Check if the text outline is enabled.
 **Shadow enabled**  
 Check if the text shadow is enabled.
 
+**Line height**  
+Compare the line height of a text object.
+
 **Outline thickness**  
 Compare the outline thickness of the text.
 
@@ -117,6 +123,7 @@ Compare the word wrapping width of a Text object.
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.FontSize()` | Return the font size of a text object. ||
+| `Object.LineHeight()` | Return the line height of a text object. ||
 | `Object.OutlineThickness()` | Return the outline thickness of the text. ||
 | `Object.Padding()` | Padding ||
 | `Object.ShadowAngle()` | Return the shadow angle of the text. ||

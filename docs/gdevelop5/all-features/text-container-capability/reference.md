@@ -1,10 +1,10 @@
-# Text capability Reference
+# Objects containing a text Reference
 
 Allows an object to contain a text, usually shown on screen, that can be modified. [Read more explanations about it.](/gdevelop5/objects)
 
 
 
-## Text capability 
+## Objects containing a text 
 
 Allows an object to contain a text, usually shown on screen, that can be modified. 
 
@@ -27,6 +27,6 @@ Compare the text.
 
 ---
 
-The Text capability extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
+The Objects containing a text extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Text capability** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Objects containing a text** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
