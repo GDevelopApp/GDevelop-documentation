@@ -1,32 +1,3 @@
----
-title: Creating a private web link
----
-
-## Creating a private web link
-
-Using GDevelop hosting servers, you can export your game for publication on the web. These servers are backed by Amazon's robust services. Sharing your game this way is free, and your game will be available through this link indefinitely!
-
-First make sure you have logged in within GDevelop. To upload to the servers click the publish button in the upper middle section of your screen, and in the exports window click "generate link".
-
-![](/gdevelop5/publishing/lilou_upload_click_publish_to_get_a_link.gif)
-
-When your link is generated, you'll see it on screen. You can copy and paste this link and share it with people you'd like to play your game. To copy it to your clipboard, click on the clipboard icon that is highlighted in the image below.
-
-This link is currently private, only those you share the link with will be able to play your game.
-
-![](/gdevelop5/publishing/web/pasted/20220202-210531.png)
-
-## Publishing on gd.games
-
-To post your game publicly on gd.games, click on the "publish this build to the game's page" button below the link. gd.games is GDevelop's game hosting platform, where free games created with GDevelop can be shared and played.
-
-![](/gdevelop5/publishing/web/pasted/20220202-215845.png)
-
-From here you are given a new link and some new options for sharing your game through social media.
-
-!!! tip
-
-    Games published can be promoted on gd.games homepage, checkout the [Marketing Campaigns](/gdevelop5/interface/games-dashboard/marketing)!
 
 ![](/gdevelop5/publishing/web/pasted/20220202-225818.png)
 
