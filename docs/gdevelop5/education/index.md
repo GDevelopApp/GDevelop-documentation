@@ -59,7 +59,14 @@ Student accounts also have access to the version history feature for Cloud proje
 
 ## Manage seats
 
-From the "Manage Seats" page, it is possible to administrate your plan.
+From the "Manage Seats" page, it is possible to administrate your plan and student accounts.
+
+### Set or change a student full name
+
+By default, a student account is fully anonymous (the email and passwords are auto-generated). 
+If you have a lot of students, you can set for each account a full name (for example, the first and/or last name of a student).
+
+Click on the "Edit" icon next to the student account username to change it. It will then be displayed next to the username.
 
 ### Change account password
 
