@@ -1369,7 +1369,9 @@ Simulate realistic 3D physics for this object including gravity, forces, collisi
 
 ## 3D physics car (from extension 3D physics engine)
 
-Simulate a realistic car using the 3D physics engine. [Read more explanations about it.](/gdevelop5/behaviors/physics3d)
+Simulate a realistic car using the 3D physics engine. This is mostly useful for the car controlled by the player (it's usually too complex for other cars in a game).
+
+This behavior is usually used with one or more "mapper" behavior to let the player move it. [Read more explanations about it.](/gdevelop5/behaviors/physics3d)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -1382,7 +1384,9 @@ Simulate a realistic car using the 3D physics engine. [Read more explanations ab
 
 ## 3D physics character (from extension 3D physics engine)
 
-Jump and run on platforms. [Read more explanations about it.](/gdevelop5/behaviors/physics3d)
+Allow an object to jump and run on platforms that have the 3D physics behavior(and which are generally set to "Static" as type, unless the platform is animated/moved in events).
+
+This behavior is usually used with one or more "mapper" behavior to let the player move it. [Read more explanations about it.](/gdevelop5/behaviors/physics3d)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -1397,7 +1401,7 @@ Jump and run on platforms. [Read more explanations about it.](/gdevelop5/behavio
 | `Object.PhysicsCharacter3D::ForwardSpeedMax()` | Return the forward max speed of the object. ||
 | `Object.PhysicsCharacter3D::Gravity()` | Return the gravity applied on an object. ||
 | `Object.PhysicsCharacter3D::JumpSpeed()` | Return the jump speed of an object. Its value is always positive. ||
-| `Object.PhysicsCharacter3D::JumpSustainTime()` | Return the jump sustain time of an object. This is the time during which keeping the jump button held allow the initial jump speed to be maintained.. ||
+| `Object.PhysicsCharacter3D::JumpSustainTime()` | Return the jump sustain time of an object. This is the time during which keeping the jump button held allow the initial jump speed to be maintained. ||
 | `Object.PhysicsCharacter3D::SidewaysAcceleration()` | Return the sideways acceleration of an object. ||
 | `Object.PhysicsCharacter3D::SidewaysDeceleration()` | Return the sideways deceleration of an object. ||
 | `Object.PhysicsCharacter3D::SidewaysSpeedMax()` | Return the sideways max speed of the object. ||

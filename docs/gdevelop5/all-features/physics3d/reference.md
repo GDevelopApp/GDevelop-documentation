@@ -1,6 +1,10 @@
 # 3D physics engine Reference
 
-The 3D physics engine simulates realistic object physics, with gravity, forces, collisions, joints, etc. It's perfect for almost all 3D games. [Read more explanations about it.](/gdevelop5/behaviors/physics3d)
+The 3D physics engine simulates realistic object physics, with gravity, forces, collisions, joints, etc. It's perfect for almost all 3D games.
+
+Objects like floors or wall objects should usually be set to "Static" as type. Objects that should be moveable are usually "Dynamic" (default). "Kinematic" objects (typically, players or controlled characters) are only moved by their "linear velocity" and "angular velocity" - they can interact with other objects but only these other objects will move.
+
+Forces (and impulses) are expressed in all conditions/expressions/actions of the 3D physics engine in Newtons (N). Typical values for a force are 10-200 N. One meter is 100 pixels by default in the game (check the world scale). Mass is expressed in kilograms (kg). [Read more explanations about it.](/gdevelop5/behaviors/physics3d)
 
 ## Conditions
 
@@ -231,7 +235,9 @@ Compare the object shape offset on Z..
 
 ## 3D physics car 
 
-Simulate a realistic car using the 3D physics engine. 
+Simulate a realistic car using the 3D physics engine. This is mostly useful for the car controlled by the player (it's usually too complex for other cars in a game).
+
+This behavior is usually used with one or more "mapper" behavior to let the player move it. 
 
 ### Behavior actions
 
@@ -301,7 +307,9 @@ Compare the current steer angle (in degree). The value is negative when cars tur
 
 ## 3D physics character 
 
-Jump and run on platforms. 
+Allow an object to jump and run on platforms that have the 3D physics behavior(and which are generally set to "Static" as type, unless the platform is animated/moved in events).
+
+This behavior is usually used with one or more "mapper" behavior to let the player move it. 
 
 ### Behavior actions
 
@@ -348,7 +356,7 @@ Change the gravity applied on an object.
 Change the jump speed of an object. Its value is always positive.
 
 **Jump sustain time**  
-Change the jump sustain time of an object. This is the time during which keeping the jump button held allow the initial jump speed to be maintained..
+Change the jump sustain time of an object. This is the time during which keeping the jump button held allow the initial jump speed to be maintained.
 
 **Should bind object and forward angle**  
 Enable or disable keeping the object angle and forward angle the same.
@@ -432,7 +440,7 @@ Check if the object is on a platform.
 Compare the jump speed of an object. Its value is always positive.
 
 **Jump sustain time**  
-Compare the jump sustain time of an object. This is the time during which keeping the jump button held allow the initial jump speed to be maintained..
+Compare the jump sustain time of an object. This is the time during which keeping the jump button held allow the initial jump speed to be maintained.
 
 **Should bind object and forward angle**  
 Check if the object angle and forward angle should be kept the same.
@@ -461,7 +469,7 @@ Compare the sideways max speed of the object.
 | `Object.PhysicsCharacter3D::ForwardSpeedMax()` | Return the forward max speed of the object. ||
 | `Object.PhysicsCharacter3D::Gravity()` | Return the gravity applied on an object. ||
 | `Object.PhysicsCharacter3D::JumpSpeed()` | Return the jump speed of an object. Its value is always positive. ||
-| `Object.PhysicsCharacter3D::JumpSustainTime()` | Return the jump sustain time of an object. This is the time during which keeping the jump button held allow the initial jump speed to be maintained.. ||
+| `Object.PhysicsCharacter3D::JumpSustainTime()` | Return the jump sustain time of an object. This is the time during which keeping the jump button held allow the initial jump speed to be maintained. ||
 | `Object.PhysicsCharacter3D::SidewaysAcceleration()` | Return the sideways acceleration of an object. ||
 | `Object.PhysicsCharacter3D::SidewaysDeceleration()` | Return the sideways deceleration of an object. ||
 | `Object.PhysicsCharacter3D::SidewaysSpeedMax()` | Return the sideways max speed of the object. ||
