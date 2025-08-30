@@ -48,9 +48,9 @@ In GDevelop, click on **Add/edit** button next to the certifcate/provisioning pr
 - CLick on the **+** button to add a new API key.
 - Enter a name for your key and choose **Administrator** access. Click on **Generate**.
 
-  !!!! warning
+!!! warning
 
-       The automatic upload won't work if you don't have an Authentication Key or if you have not chosen "Administrator" access.
+    The automatic upload won't work if you don't have an Authentication Key or if you have not chosen "Administrator" access.
 
 - Download the key that was generated thanks to the *Download* button on the right of the row showing the key.
 - Copy and paste in GDevelop the **Key ID** (in the row showing the key) and the **Issuer ID** (shown at the top of the page).
