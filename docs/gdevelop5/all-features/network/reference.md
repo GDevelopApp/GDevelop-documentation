@@ -19,6 +19,7 @@ Please note that for the web games, the game must be hosted on the same host as 
 
 
 
+
 ---
 
 The Network extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

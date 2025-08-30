@@ -74,6 +74,7 @@ Compare the value of the slider.
 | `Object.StepSize()` | Return the step size of the slider. ||
 | `Object.Value()` | Return the value of the slider. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Slider** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

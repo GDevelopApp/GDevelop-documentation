@@ -134,6 +134,7 @@ Check if the user is signed in.
 | `CrazyGamesAdApi::UserToken()` | Retrieve the user's session token for authentication. ||
 | `CrazyGamesAdApi::XsollaToken()` | Retrieve the authentication token from Xsolla. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **CrazyGames SDK v3** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

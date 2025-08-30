@@ -59,6 +59,7 @@ Compare the animation speed scale (1 = the default speed, >1 = faster and <1 = s
 | `Object.Animation::SpeedScale()` | Return the animation speed scale (1 = the default speed, >1 = faster and <1 = slower). ||
 
 
+
 ---
 
 The Objects with animations extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

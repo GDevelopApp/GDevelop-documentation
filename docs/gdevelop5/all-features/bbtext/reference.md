@@ -62,6 +62,7 @@ Compare the width, in pixels, after which the text is wrapped on next line.
 | `Object.GetWrappingWidth()` | Get the wrapping width ||
 
 
+
 ---
 
 The BBCode Text Object extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

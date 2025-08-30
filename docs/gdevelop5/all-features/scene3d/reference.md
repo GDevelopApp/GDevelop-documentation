@@ -175,7 +175,8 @@ Compare the Z position (the "elevation").
 | `Object.Object3D::RotationY()` | Return the rotation on Y axis. ||
 | `Object.Object3D::ScaleZ()` | Return the scale on Z axis of an object (default scale is 1). ||
 | `Object.Object3D::Z()` | Return the Z position (the "elevation"). ||
-### Effect "Ambient light":
+
+### Effect "Ambient light"
 
 A light that illuminates all objects from every direction. Often used along with a Directional light (though a Hemisphere light can be used instead of an Ambient light).
 
@@ -186,7 +187,7 @@ Properties of this effect are:
 - **Light color**. Default value is `255;255;255`. For events, write: `"color"`.
 - **Intensity**. Default value is `0.75`. For events, write: `"intensity"`.
 
-### Effect "Bloom":
+### Effect "Bloom"
 
 Apply a bloom effect.
 
@@ -198,7 +199,7 @@ Properties of this effect are:
 - **Strength (between 0 and 3)**. Default value is `1`. For events, write: `"strength"`.
 - **Threshold (between 0 and 1)**. Default value is `0`. For events, write: `"threshold"`.
 
-### Effect "Brightness and contrast.":
+### Effect "Brightness and contrast."
 
 Adjust brightness and contrast.
 
@@ -209,7 +210,7 @@ Properties of this effect are:
 - **Brightness (between -1 and 1)**. Default value is `0`. For events, write: `"brightness"`.
 - **Contrast (between -1 and 1)**. Default value is `0`. For events, write: `"contrast"`.
 
-### Effect "Directional light":
+### Effect "Directional light"
 
 A very far light source like the sun. This is the light to use for casting shadows for 3D objects (other lights won't emit shadows). Often used along with a Hemisphere light.
 
@@ -228,7 +229,7 @@ Properties of this effect are:
 - **Shadow quality**. Default value is `medium`. For events, write: `"shadowQuality"`.
 - **3D world top**. Default value is `Z+`. For events, write: `"top"`.
 
-### Effect "Fog (exponential)":
+### Effect "Fog (exponential)"
 
 Exponential fog for 3D objects.
 
@@ -239,7 +240,7 @@ Properties of this effect are:
 - **Fog color**. Default value is `255;255;255`. For events, write: `"color"`.
 - **Density**. Default value is `0.0012`. For events, write: `"density"`.
 
-### Effect "Exposure":
+### Effect "Exposure"
 
 Adjust exposure.
 
@@ -249,7 +250,7 @@ Properties of this effect are:
 
 - **Exposure (positive value)**. Default value is `1`. For events, write: `"exposure"`.
 
-### Effect "Hemisphere light":
+### Effect "Hemisphere light"
 
 A light that illuminates objects from every direction with a gradient. Often used along with a Directional light.
 
@@ -264,7 +265,7 @@ Properties of this effect are:
 - **Sky color**. Default value is `255;255;255`. For events, write: `"skyColor"`.
 - **3D world top**. Default value is `Z+`. For events, write: `"top"`.
 
-### Effect "Hue and saturation":
+### Effect "Hue and saturation"
 
 Adjust hue and saturation.
 
@@ -275,7 +276,7 @@ Properties of this effect are:
 - **Hue in degrees (between -180 and 180)**. Default value is `0`. For events, write: `"hue"`.
 - **Saturation (between -1 and 1)**. Default value is `0`. For events, write: `"saturation"`.
 
-### Effect "Fog (linear)":
+### Effect "Fog (linear)"
 
 Linear fog for 3D objects.
 

@@ -53,6 +53,7 @@ Compare The progress of resources loading in background for a scene (between 0 a
 | | _🔤 Name of a scene (String)_ | Scene name |
 
 
+
 ---
 
 The Scene extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

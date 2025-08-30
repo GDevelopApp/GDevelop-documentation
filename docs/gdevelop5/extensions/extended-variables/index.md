@@ -79,6 +79,7 @@ Check if the scene variable exists.
 | `ExtendedVariables::VariableString(string)` | Return the text of a scene variable. ||
 | | _string_ | Name of the scene variable |
 
+
 ---
 
 *This page is an auto-generated reference page about the **Extended variables support** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

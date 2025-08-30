@@ -38,6 +38,7 @@ That randomness does come at a cost of performance so be aware of your usage of 
 | | _🔢 Number_ | Minimum Value  |
 | | _🔢 Number_ | Maximum Value  |
 
+
 ---
 
 *This page is an auto-generated reference page about the **Crypto Api** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

@@ -34,6 +34,7 @@ Detects when the player's device is moved and get its new location. If the permi
 |-----|-----|-----|
 | `Geolocation::PermissionStatus()` | Returns the status of the geolocation permission. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **GPS** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

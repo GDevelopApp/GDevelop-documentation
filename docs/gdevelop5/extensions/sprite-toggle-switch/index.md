@@ -56,6 +56,7 @@ Check if the cursor is hovered over the button.
 _No expressions for this object._
 
 
+
 ---
 
 *This page is an auto-generated reference page about the **Toggle switch** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

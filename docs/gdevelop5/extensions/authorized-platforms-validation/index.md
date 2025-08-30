@@ -44,6 +44,7 @@ Checks if the game is executed on an authorized platform (preferably, run this o
 |-----|-----|-----|
 | `AuthorizedPlatformsValidation::CurrentRefferer()` | Get the referrer's location (the domain of the website that hosts your game). ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Platforms Validation** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

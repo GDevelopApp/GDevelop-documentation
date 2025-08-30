@@ -188,6 +188,7 @@ Gradually changes the intensity of the 3D Light.
 _No expressions for this behavior._
 
 
+
 ---
 
 *This page is an auto-generated reference page about the **Advanced 3D Features** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

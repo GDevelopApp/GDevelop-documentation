@@ -13,6 +13,7 @@ Sets the spatial position of a sound. When a sound is at a distance of 1 to the 
 
 
 
+
 ---
 
 The Spatial sound extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

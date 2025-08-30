@@ -278,6 +278,7 @@ Compare the chapter visit count of the story.
 | | _🔤 Name (String)_ | Story name |
 | | _🔤 Name (String)_ | Chapter name In Ink, a chapter (or knot) is a large part of the story.You can combine it with a subchapter (a stich) for reaching a specific part of the chapter. The format is "knot.stich".For example:- castle- castle.hallare valid chapter names. |
 
+
 ---
 
 *This page is an auto-generated reference page about the **Ink Dialog Tree** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

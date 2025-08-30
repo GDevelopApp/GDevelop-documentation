@@ -133,6 +133,7 @@ Compare the linear velocity on the Y axis of the object.
 | `Object.Physics::PolygonScaleY()` | Collision polygon Y scale ||
 
 
+
 ---
 
 The Physics Engine (deprecated) extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

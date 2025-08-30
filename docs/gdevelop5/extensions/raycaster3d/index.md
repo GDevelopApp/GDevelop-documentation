@@ -55,6 +55,7 @@ Sends a ray from the given source position and angle, intersecting the closest o
 | `Raycaster3D::NormalY()` | Return the last recast intersection normal on X axis. ||
 | `Raycaster3D::NormalZ()` | Return the last recast intersection normal on Z axis. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **3D raycast** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

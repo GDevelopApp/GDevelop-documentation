@@ -76,6 +76,7 @@ Compare the vertical rotation amplitude of the shaking (in degrees).
 | `CameraShake3D::VerticalAmplitudeAngle(layer name)` | Return the vertical rotation amplitude of the shaking (in degrees). ||
 | | _🔤 Layer name (String)_ | Layer |
 
+
 ---
 
 *This page is an auto-generated reference page about the **3D camera shake** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

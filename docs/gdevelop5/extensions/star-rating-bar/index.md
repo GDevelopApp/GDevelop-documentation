@@ -42,6 +42,7 @@ Compare the rate of the object.
 |-----|-----|-----|
 | `Object.Rate()` | Return the rate of the object. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Star Rating Bar** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

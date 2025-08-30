@@ -62,6 +62,7 @@ Compare the number of times the timer has repeated.
 | `Object.RepeatTimer::Repetition(string)` | Return the number of times the timer has repeated. ||
 | | _string_ | Timer name used to loop |
 
+
 ---
 
 *This page is an auto-generated reference page about the **Repeat every X seconds** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

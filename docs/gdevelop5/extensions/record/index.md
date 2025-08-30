@@ -83,6 +83,7 @@ Check if recording has just stopped.
 | `Record::Status()` | Returns the current status of the reccorder: inactive (not recording), recording, or paused. ||
 | `Record::VideoBitRate()` | Returns the current video bit rate per second. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Record** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

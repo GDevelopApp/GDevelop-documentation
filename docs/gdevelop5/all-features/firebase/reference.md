@@ -240,6 +240,7 @@ You should always use this before actions requiring authentications.
 | `Firebase::ServerTimestamp()` | Set a field to the timestamp on the server when the request arrives there ||
 
 
+
 ---
 
 The Firebase extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

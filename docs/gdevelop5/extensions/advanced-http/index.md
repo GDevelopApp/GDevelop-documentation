@@ -109,6 +109,7 @@ Checks whether the server marked the response as a success (status code 1XX/2XX)
 | `AdvancedHTTP::ResponseStatusText(scene variable)` | Gets the status text for a response. For example, for a response with the status code 404, the status text will be "Not Found". ||
 | | _🗄️ Scene variable_ | Variable containing the response |
 
+
 ---
 
 *This page is an auto-generated reference page about the **Advanced HTTP** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

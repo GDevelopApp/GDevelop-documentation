@@ -91,6 +91,7 @@ The seed is a number used to generate the random noise. Setting the same seed wi
 | | _string_ | Generator name |
 | `Noise::Seed()` | The seed used for noise generation. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Noise generator** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

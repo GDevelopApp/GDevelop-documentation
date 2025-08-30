@@ -40,6 +40,7 @@ Checks if a flipping animation is currently playing.
 _No expressions for this behavior._
 
 
+
 ---
 
 *This page is an auto-generated reference page about the **3D-like Flip for 2D Sprites** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

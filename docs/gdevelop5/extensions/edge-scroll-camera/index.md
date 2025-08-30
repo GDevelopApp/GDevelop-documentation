@@ -60,6 +60,7 @@ Check if the camera is scrolling up.
 | `EdgeScrollCamera::SpeedX()` | Return the speed the camera is currently scrolling in horizontal direction (in pixels per second). ||
 | `EdgeScrollCamera::SpeedY()` | Return the speed the camera is currently scrolling in vertical direction (in pixels per second). ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Edge scroll camera** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

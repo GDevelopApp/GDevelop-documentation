@@ -35,6 +35,7 @@ Check if the player is authenticated.
 | `PlayerAuthentication::Username()` | Get the username of the authenticated player. ||
 
 
+
 ---
 
 The Player Authentication extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

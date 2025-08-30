@@ -53,6 +53,7 @@ Check if word wrapping is enabled.
 | `Object.WrappingWidth()` | Return the width, in pixels, after which the text is wrapped on next line. ||
 
 
+
 ---
 
 The Bitmap Text extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

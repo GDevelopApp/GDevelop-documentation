@@ -13,6 +13,7 @@ Get the URL for buying a product from a shop. The URL will be stored in the scen
 
 
 
+
 ---
 
 The Shopify extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

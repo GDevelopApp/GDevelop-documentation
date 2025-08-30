@@ -28,6 +28,7 @@ _No expressions for this behavior._
 
 
 
+
 ---
 
 The Flippable objects extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

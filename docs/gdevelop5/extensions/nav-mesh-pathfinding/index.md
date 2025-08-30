@@ -180,6 +180,7 @@ Compare the cell size for obstacle collision mask rasterization. While an object
 | `Object.NavMeshPathfindingObstacleBehavior::AreaTopBound()` | Return the area top bound. The top bound of the area where objects can go in the scene. While an object is needed, this will apply to all objects using the behavior. ||
 | `Object.NavMeshPathfindingObstacleBehavior::CellSize()` | Return the cell size for obstacle collision mask rasterization. While an object is needed, this will apply to all objects using the behavior. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Navigation mesh pathfinding (experimental)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

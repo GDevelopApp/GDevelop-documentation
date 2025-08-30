@@ -37,6 +37,7 @@ Compare y position of spine point attachment.
 | | _string_ | Slot name (use "" if names are the same) |
 
 
+
 ---
 
 The Spine (experimental) extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

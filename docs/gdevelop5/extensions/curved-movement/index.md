@@ -230,6 +230,7 @@ Check if the object has reached one of the 2 ends of the path.
 |-----|-----|-----|
 | `Object.TweenPathMovement::MovementAngle()` | Return the angle of movement on its path. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Curved movement** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

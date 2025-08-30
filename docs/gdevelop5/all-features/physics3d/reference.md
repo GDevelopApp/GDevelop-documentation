@@ -475,6 +475,7 @@ Compare the sideways max speed of the object.
 | `Object.PhysicsCharacter3D::SidewaysSpeedMax()` | Return the sideways max speed of the object. ||
 
 
+
 ---
 
 The 3D physics engine extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

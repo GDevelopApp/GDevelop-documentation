@@ -25,6 +25,7 @@ Compare the text.
 | `Object.Text::Value()` | Return the text. ||
 
 
+
 ---
 
 The Objects containing a text extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

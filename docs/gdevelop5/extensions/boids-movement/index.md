@@ -84,6 +84,7 @@ Check if the object is rotated while moving on its path.
 | `Object.BoidsMovement::VelocityX()` | Return the current horizontal speed. ||
 | `Object.BoidsMovement::VelocityY()` | Return the current vertical  speed. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Boids movement** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

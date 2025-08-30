@@ -51,6 +51,7 @@ Check if the object is stopping to shake.
 |-----|-----|-----|
 | `Object.ShakeModel3D::Frequency()` | Return the shaking frequency of the object. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **3D object shake** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

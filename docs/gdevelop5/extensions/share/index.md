@@ -33,6 +33,7 @@ Compare the result of the last share dialog.
 |-----|-----|-----|
 | `Share::LastShareResult()` | Return the result of the last share dialog. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Share dialog and sharing options** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

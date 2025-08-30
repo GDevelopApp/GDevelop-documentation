@@ -31,6 +31,7 @@ Replaces the image contained by a sprite by a new one, from a URL. This will onl
 
 
 
+
 ---
 
 *This page is an auto-generated reference page about the **Load images from a URL** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

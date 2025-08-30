@@ -54,6 +54,7 @@ Change the jump speed to reach a given height.
 | `Object.PlatformerEvaluator::StoppingX(number)` | The X displacement at a given time from now if decelerating (always positive). ||
 | | _🔢 Number_ | Time |
 
+
 ---
 
 *This page is an auto-generated reference page about the **Platformer trajectory** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

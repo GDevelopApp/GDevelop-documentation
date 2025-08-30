@@ -57,6 +57,7 @@ Compare the top margin (in pixels) to leave between the object and the screen bo
 | `Object.StayOnScreen::MarginRight()` | Return the right margin (in pixels) to leave between the object and the screen border. ||
 | `Object.StayOnScreen::MarginTop()` | Return the top margin (in pixels) to leave between the object and the screen border. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Stay On Screen (2D)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

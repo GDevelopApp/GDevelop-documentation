@@ -29,6 +29,7 @@ Renders a defined area of a scene and puts the rendered image into a sprite obje
 
 
 
+
 ---
 
 *This page is an auto-generated reference page about the **Sprite Snapshot** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

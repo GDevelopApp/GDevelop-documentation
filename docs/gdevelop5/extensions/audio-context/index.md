@@ -64,6 +64,7 @@ Check if the context already created.
 | | _🔢 Number_ | Chord index |
 | `AudioContext::NumberOfChords()` | Number of chords (For looping). ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Audio Context** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

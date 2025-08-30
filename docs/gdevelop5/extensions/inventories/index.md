@@ -71,6 +71,7 @@ Compare the number of an item in an inventory.
 | | _🔤 Name (String)_ | Inventory name |
 | | _🔤 Name (String)_ | Item name |
 
+
 ---
 
 *This page is an auto-generated reference page about the **Simple inventories** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

@@ -66,6 +66,7 @@ Check if the file or directory exists.
 | `FileSystem::UserdataPath()` | Get the path to userdata folder (for application settings). ||
 
 
+
 ---
 
 The File system extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

@@ -126,6 +126,7 @@ Check if a point is inside the contour.
 | | _🔢 Number_ | X position of the point |
 | | _🔢 Number_ | Y position of the point |
 
+
 ---
 
 *This page is an auto-generated reference page about the **Marching Squares (experimental)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

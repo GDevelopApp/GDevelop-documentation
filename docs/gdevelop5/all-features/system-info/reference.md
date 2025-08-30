@@ -25,6 +25,7 @@ Check if GPU accelerated WebGL is supported on the target device.
 
 
 
+
 ---
 
 The System information extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

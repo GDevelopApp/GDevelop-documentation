@@ -105,6 +105,7 @@ Compare the vertical rotation speed factor of the object.
 | `Object.FirstPersonPointerMapper::VerticalAngleMin()` | Return the minimum vertical camera angle of the object. ||
 | `Object.FirstPersonPointerMapper::VerticalSpeed()` | Return the vertical rotation speed factor of the object. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Mouse Pointer Lock** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

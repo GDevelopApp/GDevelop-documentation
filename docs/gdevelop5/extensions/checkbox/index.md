@@ -92,6 +92,7 @@ Check if the checkbox interations are enabled.
 | `Object.Checkbox::SecondaryColor()` | Return the color used to fill the checkbox (when unchecked) and to draw the checkmark (when checked). ||
 | `Object.Checkbox::SideLength()` | Return the side length of checkbox (pixels). ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Checkbox (for Shape Painter)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

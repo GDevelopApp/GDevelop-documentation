@@ -49,6 +49,7 @@ Check if the countdown timer has reached zero.
 | `CountdownTimer::RemainingTime(string)` | Get the remaining time of the countdown timer. ||
 | | _string_ | Clock name |
 
+
 ---
 
 *This page is an auto-generated reference page about the **Countdown timer (deprecated)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

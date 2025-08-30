@@ -35,6 +35,7 @@ Check if the object is idle: it has not moved from its last position (or within 
 _No expressions for this behavior._
 
 
+
 ---
 
 *This page is an auto-generated reference page about the **Idle object tracker** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

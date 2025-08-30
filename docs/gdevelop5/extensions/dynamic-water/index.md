@@ -90,6 +90,7 @@ Test the collision between the object and the fluid surface.
 | `Object.DynamicWaterBody::SurfaceSize()` | Size of the edge of the surface. ||
 | `Object.DynamicWaterBody::Tension()` | Tension. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Dynamic Water** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

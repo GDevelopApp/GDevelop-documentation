@@ -155,6 +155,7 @@ Compare the word wrapping width of a Text object.
 | `Object.TextAlignment()` | Return the text alignment of a multiline text object. ||
 | `Object.WrappingWidth()` | Return the word wrapping width of a Text object. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **3D text** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

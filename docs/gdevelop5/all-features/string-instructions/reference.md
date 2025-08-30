@@ -49,6 +49,7 @@ Provides expressions to manipulate strings (also called texts): new line, upper/
 | | _string_ | Text |
 
 
+
 ---
 
 The Text manipulation extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

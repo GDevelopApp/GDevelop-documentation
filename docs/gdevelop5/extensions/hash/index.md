@@ -21,6 +21,7 @@ Adds expressions to allow hashing strings via MD5 or SHA256.
 | `Hash::GenerateHashSHA256(string)` | Returns a Hash a SHA256 based on a string. ||
 | | _string_ | String to be hashed |
 
+
 ---
 
 *This page is an auto-generated reference page about the **Hash** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

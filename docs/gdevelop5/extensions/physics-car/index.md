@@ -97,6 +97,7 @@ Compare the wheel grip ratio of the object (from 0 to 1). A ratio of 0 is like d
 | `Object.PhysicsCar::SteeringSpeed()` | Return the steering speed of the object. ||
 | `Object.PhysicsCar::WheelGripRatio()` | Return the wheel grip ratio of the object (from 0 to 1). A ratio of 0 is like driving on ice. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **2D Top-Down Physics Car** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

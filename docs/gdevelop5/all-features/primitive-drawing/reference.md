@@ -154,6 +154,7 @@ Test the size of the outline.
 | | _🔢 Number_ | Y drawing position |
 
 
+
 ---
 
 The Shape painter extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

@@ -45,6 +45,7 @@ Check if the game is currently in fullscreen.
 | `WindowTitle()` | Window's title ||
 
 
+
 ---
 
 The Game window and resolution extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

@@ -119,6 +119,7 @@ Check if mouse is hovering over toggle switch.
 | `Object.ToggleSwitch::TrackHeight()` | Track height. ||
 | `Object.ToggleSwitch::TrackWidth()` | Track width. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Toggle switch (for Shape Painter)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

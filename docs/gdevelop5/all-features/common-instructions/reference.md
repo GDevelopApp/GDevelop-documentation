@@ -25,6 +25,7 @@ Checks if at least one sub-condition is true. If no sub-condition is specified, 
 
 
 
+
 ---
 
 The Events and control flow extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

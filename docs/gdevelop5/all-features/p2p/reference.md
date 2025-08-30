@@ -80,6 +80,7 @@ Triggers once when a connected client sends the event
 | `P2P::GetLastError()` | Gets the description of the last P2P error ||
 
 
+
 ---
 
 The P2P extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

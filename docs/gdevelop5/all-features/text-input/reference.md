@@ -103,6 +103,7 @@ Check if spell check is enabled.
 | `Object.Placeholder()` | Return the placeholder. ||
 
 
+
 ---
 
 The Text Input extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

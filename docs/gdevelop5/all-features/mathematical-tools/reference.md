@@ -139,6 +139,7 @@ A set of mathematical functions that can be used in expressions.
 | | _🔢 Number_ | Expression |
 
 
+
 ---
 
 The Mathematical tools extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

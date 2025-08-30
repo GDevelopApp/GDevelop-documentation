@@ -103,6 +103,7 @@ Compare the starting speed of the object. Object will move in the direction it i
 | `Object.AdvancedProjectile::MinSpeed()` | Return the minSpeed of the object. Object forces cannot go below this value. Use "0" to ignore this property. ||
 | `Object.AdvancedProjectile::StartingSpeed()` | Return the starting speed of the object. Object will move in the direction it is facing when it is created. Use "0" to ignore this property. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Advanced projectile** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

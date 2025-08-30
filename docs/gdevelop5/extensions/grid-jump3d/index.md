@@ -36,6 +36,7 @@ Rotate the object in a direction.
 _No expressions for this behavior._
 
 
+
 ---
 
 *This page is an auto-generated reference page about the **3D grid jump** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

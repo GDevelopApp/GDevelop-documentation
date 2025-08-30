@@ -67,6 +67,7 @@ Check if the specified child of the structure variable exists.
 | | _🗄️ Any variable_ | Array variable |
 
 
+
 ---
 
 The Variables extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

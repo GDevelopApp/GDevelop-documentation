@@ -64,6 +64,7 @@ Triggers whenever a message was received. Note that you first need to subcribe t
 | | _string_ | The topic to get the message from |
 | `MQTT::getCurrentError()` | Gets the last error. Returns an empty string if there was no errors. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **MQTT Client (advanced)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

@@ -199,6 +199,7 @@ Compare the time since last taken hit (seconds).
 | `Object.Health::ShieldTimeRemaining()` | Return the time before the shield duration ends (seconds). ||
 | `Object.Health::TimeSinceLastHit()` | Return the time since last taken hit (seconds). ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Health points and damage** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

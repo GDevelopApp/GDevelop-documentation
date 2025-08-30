@@ -46,6 +46,7 @@ Test if the specified scene timer is paused.
 | | _🔤 Name (String)_ | Timer's name |
 
 
+
 ---
 
 The Timers and time extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

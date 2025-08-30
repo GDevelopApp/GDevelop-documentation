@@ -31,6 +31,7 @@ Parse a JSON object and store it into a variable
 | | _🔢 Number_ | Expression to be converted to text |
 
 
+
 ---
 
 The Conversion extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

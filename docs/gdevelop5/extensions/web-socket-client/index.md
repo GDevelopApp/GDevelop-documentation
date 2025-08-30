@@ -64,6 +64,7 @@ Triggers when a WebSocket error has occurred.
 | `WebSocketClient::Data()` | Returns the piece of data from the server that is currently being processed. ||
 | `WebSocketClient::LastError()` | Gets the last error that occurred. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **WebSocket client** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

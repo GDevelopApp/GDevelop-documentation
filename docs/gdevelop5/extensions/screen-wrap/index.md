@@ -113,6 +113,7 @@ Check if the object is wrapping on the top and bottom borders.
 | `Object.ScreenWrapPhysics::BorderTop()` | Top border (Y position). ||
 | `Object.ScreenWrapPhysics::TriggerOffset()` | Number of pixels past the center where the object teleports and appears. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Screen wrap** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

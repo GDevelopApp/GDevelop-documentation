@@ -31,6 +31,7 @@ Test the text of a Text Entry object.
 | `Object.String()` | Text entered with keyboard ||
 
 
+
 ---
 
 The Text entry object extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

@@ -70,6 +70,7 @@ Compare the current volume of a video object.
 | `Object.Volume()` | Get the volume of a video object, between 0 (muted) and 100 (maximum). ||
 
 
+
 ---
 
 The Video extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

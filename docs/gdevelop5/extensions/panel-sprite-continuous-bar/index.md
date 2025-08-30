@@ -64,6 +64,7 @@ Compare the value of the object.
 | `Object.PreviousValueDuration()` | Return the previous value conservation duration (in seconds) of the object. ||
 | `Object.Value()` | Return the value of the object. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Resource bar (continuous)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

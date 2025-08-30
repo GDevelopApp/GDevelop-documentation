@@ -328,6 +328,7 @@ Compare the pressed state size scale of the object.
 | `Object.ButtonScaleTween::IdleScale()` | Return the idle state size scale of the object. ||
 | `Object.ButtonScaleTween::PressedScale()` | Return the pressed state size scale of the object. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Button states and effects** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

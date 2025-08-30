@@ -35,6 +35,7 @@ A 3D model with corners that don't stretch and sides that can be tiled.
 _No expressions for this object._
 
 
+
 ---
 
 *This page is an auto-generated reference page about the **3D model 9-patch** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

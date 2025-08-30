@@ -170,6 +170,7 @@ Compare the stretch cycle offset of the object.
 | `Object.Wobble::StretchMin()` | Return the minimum stretch of the object. ||
 | `Object.Wobble::StretchPeriodOffset()` | Return the stretch cycle offset of the object. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Advanced 3D tween** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

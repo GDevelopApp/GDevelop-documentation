@@ -116,6 +116,7 @@ Check if the slider interations are enabled.
 | `Object.DraggableSliderControl::ValueMax()` | The maximum value of a slider. ||
 | `Object.DraggableSliderControl::ValueMin()` | The minimum value of a slider. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Draggable slider (for Shape Painter)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

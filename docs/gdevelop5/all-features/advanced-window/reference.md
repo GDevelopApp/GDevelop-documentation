@@ -114,6 +114,7 @@ Checks if the window is enabled.
 | `AdvancedWindow::WindowY()` | Returns the current window Y position. ||
 
 
+
 ---
 
 The Advanced window management extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

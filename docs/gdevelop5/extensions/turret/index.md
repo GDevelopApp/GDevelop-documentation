@@ -47,6 +47,7 @@ Check if the turret is moving.
 |-----|-----|-----|
 | `Object.Turret::AimingAngle()` | Aiming angle (between 0° and 360° if no stop angle are set). ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Turret 2D movement** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

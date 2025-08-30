@@ -40,6 +40,7 @@ Sets a new total stars count.
 | `Object.StarRating::Rating()` | Gets the current rating. ||
 | `Object.StarRating::TotalStars()` | Get the total amount of stars. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Star Rating** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

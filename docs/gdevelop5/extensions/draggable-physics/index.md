@@ -78,6 +78,7 @@ Compare the mouse button used to move the object.
 | `Object.DraggablePhysics::MaxForce()` | Return the maximum joint force (in Newtons) of the object. ||
 | `Object.DraggablePhysics::MouseButton()` | Return the mouse button used to move the object. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Draggable (for physics objects)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

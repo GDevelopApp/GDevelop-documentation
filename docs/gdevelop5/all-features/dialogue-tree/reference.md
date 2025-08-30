@@ -128,6 +128,7 @@ Check if a branch has been visited
 | `DialogueTree::VisitedBranchTitles()` | Get a list of all visited branches ||
 
 
+
 ---
 
 The Dialogue Tree extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

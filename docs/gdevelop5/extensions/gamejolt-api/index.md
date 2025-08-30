@@ -159,6 +159,7 @@ Compare Authenticated username used for requests.
 | `GamejoltAPI::UserToken()` | Return Authenticated user game token used for requests. ||
 | `GamejoltAPI::Username()` | Return Authenticated username used for requests. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Gamejolt** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

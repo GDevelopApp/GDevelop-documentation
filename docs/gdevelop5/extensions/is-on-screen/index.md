@@ -29,6 +29,7 @@ Checks if an object position is within the viewport of its layer.
 _No expressions for this behavior._
 
 
+
 ---
 
 *This page is an auto-generated reference page about the **Object "Is On Screen" Detection** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

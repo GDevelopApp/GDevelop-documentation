@@ -46,6 +46,7 @@ Check if animations are scaled according to speed.
 |-----|-----|-----|
 | `Object.TopDownMovementAnimator::AnimationName()` | Return the animation name of the object. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Top-down movement animator** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

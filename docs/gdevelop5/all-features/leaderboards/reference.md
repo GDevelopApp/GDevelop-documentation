@@ -52,6 +52,7 @@ Check if a score is currently being saved in leaderboard.
 | | _🔤 Leaderboard Identifier (String)_ | Leaderboard If no leaderboard is specified, will return the value related to the last leaderboard save action. _Optional_. |
 
 
+
 ---
 
 The Leaderboards extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

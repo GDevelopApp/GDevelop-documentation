@@ -3,7 +3,8 @@
 Lots of different effects to be used in your game. [Read more explanations about it.](/gdevelop5/interface/scene-editor/layer-effects)
 
 
-### Effect "Adjustment":
+
+### Effect "Adjustment"
 
 Adjust gamma, contrast, saturation, brightness, alpha or color-channel shift.
 
@@ -20,7 +21,7 @@ Properties of this effect are:
 - **Red (between 0 and 5)**. Default value is `1`. For events, write: `"red"`.
 - **Saturation (between 0 and 5)**. Default value is `1`. For events, write: `"saturation"`.
 
-### Effect "Advanced bloom":
+### Effect "Advanced bloom"
 
 Applies a bloom effect.
 
@@ -35,7 +36,7 @@ Properties of this effect are:
 - **Quality (between 0 and 20)**. Default value is `7`. For events, write: `"quality"`.
 - **Threshold (between 0 and 1)**. Default value is `0.5`. For events, write: `"threshold"`.
 
-### Effect "ASCII":
+### Effect "ASCII"
 
 Render the image with ASCII characters only.
 
@@ -45,7 +46,7 @@ Properties of this effect are:
 
 - **Size (between 2 and 20)**. Default value is `8`. For events, write: `"size"`.
 
-### Effect "Beveled edges":
+### Effect "Beveled edges"
 
 Add beveled edges around the rendered image.
 
@@ -61,7 +62,7 @@ Properties of this effect are:
 - **Shadow color (color of the outline)**. Default value is `0;0;0`. For events, write: `"shadowColor"`.
 - **Outer strength (between 0 and 5)**. Default value is `2`. For events, write: `"thickness"`.
 
-### Effect "Black and White":
+### Effect "Black and White"
 
 Alter the colors to make the image black and white
 
@@ -71,7 +72,7 @@ Properties of this effect are:
 
 - **Opacity (between 0 and 1)**. Default value is `1`. For events, write: `"opacity"`.
 
-### Effect "Blending mode":
+### Effect "Blending mode"
 
 Alter the rendered image with the specified blend mode.
 
@@ -82,7 +83,7 @@ Properties of this effect are:
 - **Mode (0: Normal, 1: Add, 2: Multiply, 3: Screen)**. Default value is `0`. For events, write: `"blendmode"`.
 - **Opacity (between 0 and 1)**. Default value is `1`. For events, write: `"opacity"`.
 
-### Effect "Blur (Gaussian, slow - prefer to use Kawase blur)":
+### Effect "Blur (Gaussian, slow - prefer to use Kawase blur)"
 
 Blur the rendered image. This is slow, so prefer to use Kawase blur in most cases.
 
@@ -95,7 +96,7 @@ Properties of this effect are:
 - **Number of render passes. An high value will cause lags/poor performance.**. Default value is `1`. For events, write: `"quality"`.
 - **Resolution**. Default value is `2`. For events, write: `"resolution"`.
 
-### Effect "Brightness":
+### Effect "Brightness"
 
 Make the image brighter.
 
@@ -105,7 +106,7 @@ Properties of this effect are:
 
 - **Brightness (between 0 and 1)**. Default value is `0.8`. For events, write: `"brightness"`.
 
-### Effect "Bulge Pinch":
+### Effect "Bulge Pinch"
 
 Bulges or pinches the image in a circle.
 
@@ -118,7 +119,7 @@ Properties of this effect are:
 - **Radius**. Default value is `100`. For events, write: `"radius"`.
 - **strength (between -1 and 1)**: -1 is strong pinch, 0 is no effect, 1 is strong bulge. Default value is `1`. For events, write: `"strength"`.
 
-### Effect "CRT":
+### Effect "CRT"
 
 Apply an effect resembling old CRT monitors.
 
@@ -139,7 +140,7 @@ Properties of this effect are:
 - **Vignetting alpha (between 0 and 1)**. Default value is `1`. For events, write: `"vignettingAlpha"`.
 - **Vignetting blur (between 0 and 1)**. Default value is `0.3`. For events, write: `"vignettingBlur"`.
 
-### Effect "Color Map":
+### Effect "Color Map"
 
 Change the color rendered on screen.
 
@@ -151,7 +152,7 @@ Properties of this effect are:
 - **Mix**: Mix value of the effect on the layer (in percent). Default value is `100`. For events, write: `"mix"`.
 - **Disable anti-aliasing ("nearest" pixel rounding)**. Default value is `false`. For events, write: `"nearest"`.
 
-### Effect "Color Replace":
+### Effect "Color Replace"
 
 Effect replacing a color (or similar) by another.
 
@@ -163,7 +164,7 @@ Properties of this effect are:
 - **New Color**: The new color. Default value is `255;255;255`. For events, write: `"newColor"`.
 - **Original Color**: The color that will be changed. Default value is `252;3;65`. For events, write: `"originalColor"`.
 
-### Effect "Displacement":
+### Effect "Displacement"
 
 Uses the pixel values from the specified texture (called the displacement map) to perform a displacement of an object.
 
@@ -175,7 +176,7 @@ Properties of this effect are:
 - **Scale on X axis**. Default value is `20`. For events, write: `"scaleX"`.
 - **Scale on Y axis**. Default value is `20`. For events, write: `"scaleY"`.
 
-### Effect "Dot":
+### Effect "Dot"
 
 Applies a dotscreen effect making objects appear to be made out of black and white halftone dots like an old printer.
 
@@ -186,7 +187,7 @@ Properties of this effect are:
 - **Angle (between 0 and 5)**: The radius of the effect. Default value is `5`. For events, write: `"angle"`.
 - **Scale (between 0.3 and 1)**: The scale of the effect. Default value is `1`. For events, write: `"scale"`.
 
-### Effect "Drop shadow":
+### Effect "Drop shadow"
 
 Add a shadow around the rendered image.
 
@@ -203,7 +204,7 @@ Properties of this effect are:
 - **Rotation (between 0 and 360)**. Default value is `0`. For events, write: `"rotation"`.
 - **Shadow only (shows only the shadow when enabled)**. Default value is `false`. For events, write: `"shadowOnly"`.
 
-### Effect "Glitch":
+### Effect "Glitch"
 
 Applies a glitch effect to an object.
 
@@ -226,7 +227,7 @@ Properties of this effect are:
 - **Sample Size**: The resolution of the displacement image. Default value is `512`. For events, write: `"sampleSize"`.
 - **Slices (between 2 and infinite)**: The maximum number of slices. Default value is `5`. For events, write: `"slices"`.
 
-### Effect "Glow":
+### Effect "Glow"
 
 Add a glow effect around the rendered image.
 
@@ -239,7 +240,7 @@ Properties of this effect are:
 - **Inner strength (between 0 and 20)**. Default value is `1`. For events, write: `"innerStrength"`.
 - **Outer strength (between 0 and 20)**. Default value is `2`. For events, write: `"outerStrength"`.
 
-### Effect "Godray":
+### Effect "Godray"
 
 Apply and animate atmospheric light rays.
 
@@ -257,7 +258,7 @@ Properties of this effect are:
 - **Center X (between 100 and 1000)**. Default value is `100`. For events, write: `"x"`.
 - **Center Y (between -1000 and 100)**. Default value is `100`. For events, write: `"y"`.
 
-### Effect "HSL Adjustment":
+### Effect "HSL Adjustment"
 
 Adjust hue, saturation and lightness.
 
@@ -271,7 +272,7 @@ Properties of this effect are:
 - **Lightness (between -1 and 1)**. Default value is `0`. For events, write: `"lightness"`.
 - **Saturation (between -1 and 1)**. Default value is `0`. For events, write: `"saturation"`.
 
-### Effect "Blur (Kawase, fast)":
+### Effect "Blur (Kawase, fast)"
 
 Blur the rendered image, with much better performance than Gaussian blur.
 
@@ -285,7 +286,7 @@ Properties of this effect are:
 - **Pixelize Y (between 0 and 10)**. Default value is `1`. For events, write: `"pixelizeY"`.
 - **Quality (between 1 and 20)**. Default value is `3`. For events, write: `"quality"`.
 
-### Effect "Light Night":
+### Effect "Light Night"
 
 Alter the colors to simulate night.
 
@@ -295,7 +296,7 @@ Properties of this effect are:
 
 - **Opacity (between 0 and 1)**. Default value is `1`. For events, write: `"opacity"`.
 
-### Effect "Motion Blur":
+### Effect "Motion Blur"
 
 Blur the rendered image to give a feeling of speed.
 
@@ -308,7 +309,7 @@ Properties of this effect are:
 - **Velocity on X axis**. Default value is `0`. For events, write: `"velocityX"`.
 - **Velocity on Y axis**. Default value is `0`. For events, write: `"velocityY"`.
 
-### Effect "Dark Night":
+### Effect "Dark Night"
 
 Alter the colors to simulate a dark night.
 
@@ -319,7 +320,7 @@ Properties of this effect are:
 - **Intensity (between 0 and 1)**. Default value is `0.5`. For events, write: `"intensity"`.
 - **Opacity (between 0 and 1)**. Default value is `0.5`. For events, write: `"opacity"`.
 
-### Effect "Noise":
+### Effect "Noise"
 
 Add some noise on the rendered image.
 
@@ -329,7 +330,7 @@ Properties of this effect are:
 
 - **Noise intensity (between 0 and 1)**. Default value is `0.5`. For events, write: `"noise"`.
 
-### Effect "Old Film":
+### Effect "Old Film"
 
 Add a Old film effect around the rendered image.
 
@@ -348,7 +349,7 @@ Properties of this effect are:
 - **Vignetting Alpha (between 0 and 1)**. Default value is `1.0`. For events, write: `"vignettingAlpha"`.
 - **Vignetting Blur (between 0 and 1)**. Default value is `0.3`. For events, write: `"vignettingBlur"`.
 
-### Effect "Outline":
+### Effect "Outline"
 
 Draws an outline around the rendered image.
 
@@ -360,7 +361,7 @@ Properties of this effect are:
 - **Padding**: Padding for the visual effect area. Default value is `0`. For events, write: `"padding"`.
 - **Thickness (between 0 and 20)**. Default value is `2`. For events, write: `"thickness"`.
 
-### Effect "Pixelate":
+### Effect "Pixelate"
 
 Applies a pixelate effect, making display objects appear 'blocky'.
 
@@ -370,7 +371,7 @@ Properties of this effect are:
 
 - **Size**: Size of the pixels (10 pixels by default). Default value is `10`. For events, write: `"size"`.
 
-### Effect "RGB split (chromatic aberration)":
+### Effect "RGB split (chromatic aberration)"
 
 Applies a RGB split effect also known as chromatic aberration.
 
@@ -385,7 +386,7 @@ Properties of this effect are:
 - **Red X offset (between -20 and 20)**. Default value is `-10`. For events, write: `"redX"`.
 - **Red Y offset (between -20 and 20)**. Default value is `1`. For events, write: `"redY"`.
 
-### Effect "Radial Blur":
+### Effect "Radial Blur"
 
 Applies a Motion blur to an object.
 
@@ -400,7 +401,7 @@ Properties of this effect are:
 - **Padding**: Padding for the visual effect area. Default value is `0`. For events, write: `"padding"`.
 - **Radius**: The maximum size of the blur radius, -1 is infinite. Default value is `-1`. For events, write: `"radius"`.
 
-### Effect "Reflection":
+### Effect "Reflection"
 
 Applies a reflection effect to simulate the reflection on water with waves.
 
@@ -418,7 +419,7 @@ Properties of this effect are:
 - **Wave length ending**: Ending wave length (100 by default). Default value is `100`. For events, write: `"waveLengthEnding"`.
 - **Wave length start**: Starting wave length (30 by default). Default value is `30`. For events, write: `"waveLengthStart"`.
 
-### Effect "Sepia":
+### Effect "Sepia"
 
 Alter the colors to sepia.
 
@@ -428,7 +429,7 @@ Properties of this effect are:
 
 - **Opacity (between 0 and 1)**. Default value is `1`. For events, write: `"opacity"`.
 
-### Effect "Shockwave":
+### Effect "Shockwave"
 
 Deform the image the way a drop deforms a water surface.
 
@@ -445,7 +446,7 @@ Properties of this effect are:
 - **Elapsed time**: It can be set back to 0 to play the shockwave animation again.. Default value is `0`. For events, write: `"time"`.
 - **Wavelength**. Default value is `200`. For events, write: `"wavelength"`.
 
-### Effect "Tilt shift":
+### Effect "Tilt shift"
 
 Render a tilt-shift-like camera effect.
 
@@ -456,7 +457,7 @@ Properties of this effect are:
 - **Blur (between 0 and 200)**. Default value is `30`. For events, write: `"blur"`.
 - **Gradient blur (between 0 and 2000)**. Default value is `1000`. For events, write: `"gradientBlur"`.
 
-### Effect "Twist":
+### Effect "Twist"
 
 Applies a twist effect making objects appear twisted in the given direction.
 
@@ -470,7 +471,7 @@ Properties of this effect are:
 - **Padding**: Padding for the visual effect area. Default value is `20`. For events, write: `"padding"`.
 - **Radius**: The radius of the twist. Default value is `200`. For events, write: `"radius"`.
 
-### Effect "Zoom blur":
+### Effect "Zoom blur"
 
 Applies a Zoom blur.
 

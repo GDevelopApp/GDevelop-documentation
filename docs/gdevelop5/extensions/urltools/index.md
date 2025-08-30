@@ -50,6 +50,7 @@ Reloads the current web page.
 | | _string_ | The URL to get a query string parameter from |
 | | _string_ | The query string parameter to get |
 
+
 ---
 
 *This page is an auto-generated reference page about the **Webpage URL tools (Web browser)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

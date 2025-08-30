@@ -33,6 +33,7 @@ This can be used for basic secrets, passwords, or very insecure encryption of da
 | `Rotate13::rot13(string)` | Rotate String _PARAM1_  13 Characters. ||
 | | _string_ | String to Rotate |
 
+
 ---
 
 *This page is an auto-generated reference page about the **Rotate a string 13 characters** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

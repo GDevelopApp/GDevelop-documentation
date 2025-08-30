@@ -74,6 +74,7 @@ Compare the ellipse width of the object.
 | `Object.PhysicsEllipseMovement3D::MovementAngle()` | Return the movement angle of the object. ||
 | `Object.PhysicsEllipseMovement3D::Width()` | Return the ellipse width of the object. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **3D ellipse movement** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

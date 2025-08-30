@@ -83,6 +83,7 @@ Check if the unit is "Selected".
 | `RTSUnitSelection::TotalSelectedUnits(object)` | Provides the total number of _PARAM1_ that are currently "Selected". ||
 | | _👾 Object_ | Unit |
 
+
 ---
 
 *This page is an auto-generated reference page about the **RTS-like unit selection** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

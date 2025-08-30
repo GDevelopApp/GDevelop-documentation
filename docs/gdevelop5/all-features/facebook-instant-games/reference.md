@@ -47,6 +47,7 @@ Check if the rewarded video requested from Facebook is loaded and ready to be sh
 | `FacebookInstantGames::PlayerName()` | Get the player name ||
 
 
+
 ---
 
 The Facebook Instant Games extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

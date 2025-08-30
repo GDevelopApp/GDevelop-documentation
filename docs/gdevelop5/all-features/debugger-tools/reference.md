@@ -16,6 +16,7 @@ This pauses the game, useful for inspecting the game state through the debugger.
 
 
 
+
 ---
 
 The Debugger Tools extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

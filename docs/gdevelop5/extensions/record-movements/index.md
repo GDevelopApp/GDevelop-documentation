@@ -55,6 +55,7 @@ Set recording limit to object (per frame).
 
 
 
+
 ---
 
 *This page is an auto-generated reference page about the **Record Movements** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

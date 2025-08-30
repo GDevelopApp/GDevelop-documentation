@@ -47,6 +47,7 @@ Create fill objects that cover the rectangular area of target objects.
 
 
 
+
 ---
 
 *This page is an auto-generated reference page about the **Rectangular flood fill** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

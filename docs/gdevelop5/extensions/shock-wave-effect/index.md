@@ -263,6 +263,7 @@ Compare the start radius of the object.
 | `Object.StarShockWave::StartOutlineThickness()` | Return the start outline thickness of the object. ||
 | `Object.StarShockWave::StartRadius()` | Return the start radius of the object. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the ** Shock wave effect** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

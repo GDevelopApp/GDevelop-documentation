@@ -22,6 +22,7 @@ Set the return value of the events function to the specified text (to be used wi
 
 
 
+
 ---
 
 The Event functions extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

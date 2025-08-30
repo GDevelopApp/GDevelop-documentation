@@ -25,6 +25,7 @@ The condition will return false if no object was taken into account.
 
 
 
+
 ---
 
 The Linked objects extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

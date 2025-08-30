@@ -172,6 +172,7 @@ Check if the object is wall jumping.
 | `Object.WallJump::WallSlidingMaxFallingSpeed()` | The wall sliding maximum falling speed of an object (in pixels per second). ||
 | `Object.WallJump::WallSlidingSpeedAbsorption()` | Change the impact speed absorption of an object. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Advanced platformer movements** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

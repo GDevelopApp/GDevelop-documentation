@@ -132,6 +132,7 @@ Compare the word wrapping width of a Text object.
 | `Object.ShadowOpacity()` | Return the shadow opacity of the text. ||
 
 
+
 ---
 
 The Text object extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

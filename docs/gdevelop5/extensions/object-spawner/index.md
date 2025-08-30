@@ -76,6 +76,7 @@ Check if spawner has unlimited capacity.
 | `Object.ObjectSpawner::SpawnerCapacity()` | Return the number of objects that can be created by this spawner. This is reduced everytime an objects is spawned. ||
 | `Object.ObjectSpawner::TimeBeforeSpawn()` | Return the remaining time before the next spawn (in seconds). Useful for triggering visual and sound effects. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Object spawner 2D area** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

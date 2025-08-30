@@ -53,6 +53,7 @@ Check if the full text has been typed.
 |-----|-----|-----|
 | `Object.AutoTyping::Interval()` | Return the time between characters beign typed. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Auto typing animation for text ("typewriter" effect)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

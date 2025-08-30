@@ -22,6 +22,7 @@ _No expressions for this behavior._
 
 
 
+
 ---
 
 The Destroy Outside Screen Behavior extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

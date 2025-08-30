@@ -173,6 +173,7 @@ Check the tileset JSON file being used.
 | `Object.LevelIndex()` | Return the level index being displayed.. ||
 
 
+
 ---
 
 The Tile map extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

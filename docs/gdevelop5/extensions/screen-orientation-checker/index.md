@@ -38,6 +38,7 @@ Check if the screen should be forced to be shown. Use this to test the screen in
 _No expressions for this object._
 
 
+
 ---
 
 *This page is an auto-generated reference page about the **Screen Orientation Checker** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

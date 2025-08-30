@@ -51,6 +51,7 @@ Check if an item has reached its maximum number allowed in the inventory.
 | | _string_ | Item name |
 
 
+
 ---
 
 The Inventories extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

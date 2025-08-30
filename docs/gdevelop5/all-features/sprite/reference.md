@@ -40,6 +40,7 @@ Compare the index of the current frame in the animation displayed by the specifi
 | `Object.Sprite()` | Current frame of the animation of the object ||
 
 
+
 ---
 
 The Sprite extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.

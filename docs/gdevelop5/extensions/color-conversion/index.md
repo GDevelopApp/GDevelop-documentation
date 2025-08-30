@@ -45,6 +45,7 @@ Expressions to convert color values between various formats (RGB, HSV, HSL, name
 | `ColorConversion::RgbToLuminance(color)` | Calculate luminance of a RGB color.  Example input: "0;128;255". ||
 | | _color_ | RGB color |
 
+
 ---
 
 *This page is an auto-generated reference page about the **Color Conversion** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

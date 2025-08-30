@@ -57,6 +57,7 @@ Pick the object of this type that is nearest to the specified position in 3D.
 | | _🔢 Number_ | Y position |
 | | _🔢 Number_ | Z position |
 
+
 ---
 
 *This page is an auto-generated reference page about the **3D collision** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

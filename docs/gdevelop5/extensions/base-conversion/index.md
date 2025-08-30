@@ -23,6 +23,7 @@ Adds expressions to convert numbers to a different base and back. Can be used to
 | | _string_ | String representing a number |
 | | _🔢 Number_ | The base the number in the string is in |
 
+
 ---
 
 *This page is an auto-generated reference page about the **Base conversion** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

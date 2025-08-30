@@ -66,6 +66,7 @@ On Voice Recognition Success.
 | `VoiceRecognition::RetrieveStatus()` | Retrieves Voice Recognition Error Status. ||
 | `VoiceRecognition::RetrievetResultText()` | Retrieves Voice Recognition Result Text. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Voice Recognition API** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

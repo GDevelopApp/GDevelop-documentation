@@ -115,6 +115,7 @@ Check if stop falling when Z equals 0.
 | `Object.Jump3D::JumpSustainDurationMax()` | Return the jump sustain time of the object. Maximum time (in seconds) during which the jump strength is sustained if the jump key is held - allowing variable height jumps. ||
 | `Object.Jump3D::MaxFallingSpeed()` | Return the maximum falling speed of the object. Its value is always positive. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **3D jump (deprecated)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

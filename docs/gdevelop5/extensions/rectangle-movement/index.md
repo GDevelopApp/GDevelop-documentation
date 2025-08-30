@@ -116,6 +116,7 @@ Object is on the top side of the rectangle.
 | `Object.RectangleMovement::VerticalEdgeDuration()` | Return the time the object takes to go through a vertical edge (in seconds). ||
 | `Object.RectangleMovement::Width()` | Return the rectangle width. ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Rectangular movement** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

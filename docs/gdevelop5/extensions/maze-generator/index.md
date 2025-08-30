@@ -125,6 +125,7 @@ Check if maze object is a wall in a particular direction.
 | `Object.MazeObject::MazeObjectRow()` | Return the row number of the maze object as a number. ||
 | `Object.MazeObject::MazeObjectWallDirection()` | Return the wall direction of the maze object as a string (only exists for wall objects). ||
 
+
 ---
 
 *This page is an auto-generated reference page about the **Maze Generator** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

@@ -136,6 +136,7 @@ Test if a layer is set as visible.
 | | _🔤 Layer name (String)_ | Layer |
 
 
+
 ---
 
 The Layers and cameras extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
