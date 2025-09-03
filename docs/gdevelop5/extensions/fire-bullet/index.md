@@ -16,6 +16,9 @@ The properties of the behavior can be used to customize:
 - Ammo management
 - Overheat
 
+The speed can be specified when using the actions to fire the bullets.
+The bullets are automatically given a permanent force to make them move (no need to use a linear movement or move them with another behavior).
+
 It can be used for:
 
 - Twin-stick shooters ([open the project online](https://editor.gdevelop.io/?project=example://conviction-of-gun-dude-desktop))
@@ -32,18 +35,18 @@ A simple example shows how to make firing patterns ([open the project online](ht
 
 ## Fire bullets 
 
-Fire bullets, manage ammo, reloading, and overheating. Once added to your object that must shoot, use the behavior action in your events to fire another object as a bullet. 
+Fire bullets, manage ammo, reloading, and overheating. Once added to your object that must shoot, use the behavior action in your events to fire another object as a bullet. This action will also make the bullet move (using a permanent force) at the speed specified in the action. 
 
 ### Behavior actions
 
 **Fire bullets toward an angle**  
-Fire bullets in the direction of a given angle.
+Fire bullets in the direction of a given angle at a specified speed.
 
 **Fire bullets toward an object**  
-Fire bullets toward an object.
+Fire bullets toward an object at a specified speed.
 
 **Fire bullets toward a position**  
-Fire bullets toward a position.
+Fire bullets toward a position at a specified speed.
 
 **Increase ammo**  
 Increase ammo quantity.
