@@ -10,11 +10,14 @@ Check if any key is pressed
 **Any key released**  
 Check if any key is released
 
+**Key just pressed**  
+Check if a key was just pressed.
+
 **Key pressed**  
-Check if a key is pressed
+Check if a key is pressed. This stays true as long as the key is held down. To check if a key was pressed during the frame, use "Key just pressed" instead.
 
 **Key released**  
-Check if a key was just released
+Check if a key was just released.
 
 ## Expressions
 
