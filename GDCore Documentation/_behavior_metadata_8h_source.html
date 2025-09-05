@@ -248,85 +248,95 @@ $(function() {
 <div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;  }</div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160; </div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;  <a class="code" href="classgd_1_1_quick_customization.html#a8ecdd723f37f8b4147d375aaabcda952">QuickCustomization::Visibility</a> GetQuickCustomizationVisibility()<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    <span class="keywordflow">return</span> quickCustomizationVisibility;</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;  }</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160; </div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;  BehaviorMetadata &amp;SetQuickCustomizationVisibility(<a class="code" href="classgd_1_1_quick_customization.html#a8ecdd723f37f8b4147d375aaabcda952">QuickCustomization::Visibility</a> visibility) {</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    quickCustomizationVisibility = visibility;</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;  }</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160; </div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;  BehaviorMetadata &amp;SetOpenFullEditorLabel(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; label) {</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    openFullEditorLabel = label;</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;  }</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160; </div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; GetOpenFullEditorLabel()<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    <span class="keywordflow">return</span> openFullEditorLabel;</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;  }</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160; </div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;  <a class="code" href="classgd_1_1_behavior.html">gd::Behavior</a>&amp; Get() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160; </div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;  std::map&lt;gd::String, gd::PropertyDescriptor&gt; GetProperties() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160; </div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;  <a class="code" href="classgd_1_1_behaviors_shared_data.html">gd::BehaviorsSharedData</a>* GetSharedDataInstance() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160; </div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;  std::map&lt;gd::String, gd::PropertyDescriptor&gt; GetSharedProperties() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160; </div>
-<div class="line"><a name="l00358"></a><span class="lineno"><a class="line" href="classgd_1_1_behavior_metadata.html#abde8f281d2d78453604893552dea63ae">  358</a></span>&#160;  std::map&lt;gd::String, gd::InstructionMetadata&gt;&amp; <a class="code" href="classgd_1_1_behavior_metadata.html#abde8f281d2d78453604893552dea63ae">GetAllActions</a>()<span class="keyword"> override </span>{ <span class="keywordflow">return</span> actionsInfos; };</div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160; </div>
-<div class="line"><a name="l00363"></a><span class="lineno"><a class="line" href="classgd_1_1_behavior_metadata.html#a2caea421e64398f977b23250bcf140dd">  363</a></span>&#160;  std::map&lt;gd::String, gd::InstructionMetadata&gt;&amp; <a class="code" href="classgd_1_1_behavior_metadata.html#a2caea421e64398f977b23250bcf140dd">GetAllConditions</a>()<span class="keyword"> override </span>{ <span class="keywordflow">return</span> conditionsInfos; };</div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160; </div>
-<div class="line"><a name="l00368"></a><span class="lineno"><a class="line" href="classgd_1_1_behavior_metadata.html#aecb4bd9d5b04f623eff213c33ced1293">  368</a></span>&#160;  std::map&lt;gd::String, gd::ExpressionMetadata&gt;&amp; <a class="code" href="classgd_1_1_behavior_metadata.html#aecb4bd9d5b04f623eff213c33ced1293">GetAllExpressions</a>()<span class="keyword"> override </span>{ <span class="keywordflow">return</span> expressionsInfos; };</div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160; </div>
-<div class="line"><a name="l00373"></a><span class="lineno"><a class="line" href="classgd_1_1_behavior_metadata.html#aa1aa333336b196d01ffd8d49abcac412">  373</a></span>&#160;  std::map&lt;gd::String, gd::ExpressionMetadata&gt;&amp; <a class="code" href="classgd_1_1_behavior_metadata.html#aa1aa333336b196d01ffd8d49abcac412">GetAllStrExpressions</a>()<span class="keyword"> override </span>{ <span class="keywordflow">return</span> strExpressionsInfos; };</div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160; </div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;  std::map&lt;gd::String, gd::InstructionMetadata&gt; conditionsInfos;</div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;  std::map&lt;gd::String, gd::InstructionMetadata&gt; actionsInfos;</div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;  std::map&lt;gd::String, gd::ExpressionMetadata&gt; expressionsInfos;</div>
-<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;  std::map&lt;gd::String, gd::ExpressionMetadata&gt; strExpressionsInfos;</div>
-<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160; </div>
-<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;  std::vector&lt;gd::String&gt; includeFiles;</div>
-<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;  std::vector&lt;gd::String&gt; requiredFiles;</div>
-<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> className;</div>
-<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160; </div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> extensionNamespace;</div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> helpPath;</div>
-<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> fullname;</div>
-<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> defaultName;</div>
-<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> description;</div>
-<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> group;</div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> iconFilename;</div>
-<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> objectType;</div>
-<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;  <span class="keyword">mutable</span> std::vector&lt;gd::String&gt; requiredBehaviors;</div>
-<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;  <span class="keywordtype">bool</span> isPrivate = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;  <span class="keywordtype">bool</span> isHidden = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> openFullEditorLabel;</div>
-<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;  <a class="code" href="classgd_1_1_quick_customization.html#a8ecdd723f37f8b4147d375aaabcda952">QuickCustomization::Visibility</a> quickCustomizationVisibility = QuickCustomization::Visibility::Default;</div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160; </div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;  <span class="comment">// TODO: Nitpicking: convert these to std::unique_ptr to clarify ownership.</span></div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;  std::shared_ptr&lt;gd::Behavior&gt; instance;</div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;  std::shared_ptr&lt;gd::BehaviorsSharedData&gt; sharedDatasInstance;</div>
-<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160; </div>
-<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> std::map&lt;gd::String, gd::PropertyDescriptor&gt; badProperties;</div>
-<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;};</div>
-<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160; </div>
-<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;}  <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00304"></a><span class="lineno"><a class="line" href="classgd_1_1_behavior_metadata.html#ad1946aac491a49ac51d7eff50c1fc3dc">  304</a></span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="classgd_1_1_behavior_metadata.html#ad1946aac491a49ac51d7eff50c1fc3dc">IsRelevantForChildObjects</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> isRelevantForChildObjects; }</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160; </div>
+<div class="line"><a name="l00309"></a><span class="lineno"><a class="line" href="classgd_1_1_behavior_metadata.html#a7170f06846c8834d087470345442d07a">  309</a></span>&#160;  <a class="code" href="classgd_1_1_behavior_metadata.html">BehaviorMetadata</a> &amp;<a class="code" href="classgd_1_1_behavior_metadata.html#a7170f06846c8834d087470345442d07a">MarkAsIrrelevantForChildObjects</a>() {</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    isRelevantForChildObjects = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;  }</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160; </div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;  <a class="code" href="classgd_1_1_quick_customization.html#a8ecdd723f37f8b4147d375aaabcda952">QuickCustomization::Visibility</a> GetQuickCustomizationVisibility()<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;    <span class="keywordflow">return</span> quickCustomizationVisibility;</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;  }</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160; </div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;  BehaviorMetadata &amp;SetQuickCustomizationVisibility(<a class="code" href="classgd_1_1_quick_customization.html#a8ecdd723f37f8b4147d375aaabcda952">QuickCustomization::Visibility</a> visibility) {</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    quickCustomizationVisibility = visibility;</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;  }</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160; </div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;  BehaviorMetadata &amp;SetOpenFullEditorLabel(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; label) {</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    openFullEditorLabel = label;</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;  }</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160; </div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; GetOpenFullEditorLabel()<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    <span class="keywordflow">return</span> openFullEditorLabel;</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;  }</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160; </div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;  <a class="code" href="classgd_1_1_behavior.html">gd::Behavior</a>&amp; Get() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160; </div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;  std::map&lt;gd::String, gd::PropertyDescriptor&gt; GetProperties() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160; </div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;  <a class="code" href="classgd_1_1_behaviors_shared_data.html">gd::BehaviorsSharedData</a>* GetSharedDataInstance() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160; </div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;  std::map&lt;gd::String, gd::PropertyDescriptor&gt; GetSharedProperties() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160; </div>
+<div class="line"><a name="l00371"></a><span class="lineno"><a class="line" href="classgd_1_1_behavior_metadata.html#abde8f281d2d78453604893552dea63ae">  371</a></span>&#160;  std::map&lt;gd::String, gd::InstructionMetadata&gt;&amp; <a class="code" href="classgd_1_1_behavior_metadata.html#abde8f281d2d78453604893552dea63ae">GetAllActions</a>()<span class="keyword"> override </span>{ <span class="keywordflow">return</span> actionsInfos; };</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160; </div>
+<div class="line"><a name="l00376"></a><span class="lineno"><a class="line" href="classgd_1_1_behavior_metadata.html#a2caea421e64398f977b23250bcf140dd">  376</a></span>&#160;  std::map&lt;gd::String, gd::InstructionMetadata&gt;&amp; <a class="code" href="classgd_1_1_behavior_metadata.html#a2caea421e64398f977b23250bcf140dd">GetAllConditions</a>()<span class="keyword"> override </span>{ <span class="keywordflow">return</span> conditionsInfos; };</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160; </div>
+<div class="line"><a name="l00381"></a><span class="lineno"><a class="line" href="classgd_1_1_behavior_metadata.html#aecb4bd9d5b04f623eff213c33ced1293">  381</a></span>&#160;  std::map&lt;gd::String, gd::ExpressionMetadata&gt;&amp; <a class="code" href="classgd_1_1_behavior_metadata.html#aecb4bd9d5b04f623eff213c33ced1293">GetAllExpressions</a>()<span class="keyword"> override </span>{ <span class="keywordflow">return</span> expressionsInfos; };</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160; </div>
+<div class="line"><a name="l00386"></a><span class="lineno"><a class="line" href="classgd_1_1_behavior_metadata.html#aa1aa333336b196d01ffd8d49abcac412">  386</a></span>&#160;  std::map&lt;gd::String, gd::ExpressionMetadata&gt;&amp; <a class="code" href="classgd_1_1_behavior_metadata.html#aa1aa333336b196d01ffd8d49abcac412">GetAllStrExpressions</a>()<span class="keyword"> override </span>{ <span class="keywordflow">return</span> strExpressionsInfos; };</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160; </div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;  std::map&lt;gd::String, gd::InstructionMetadata&gt; conditionsInfos;</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;  std::map&lt;gd::String, gd::InstructionMetadata&gt; actionsInfos;</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;  std::map&lt;gd::String, gd::ExpressionMetadata&gt; expressionsInfos;</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;  std::map&lt;gd::String, gd::ExpressionMetadata&gt; strExpressionsInfos;</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160; </div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;  std::vector&lt;gd::String&gt; includeFiles;</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;  std::vector&lt;gd::String&gt; requiredFiles;</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> className;</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160; </div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160; <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> extensionNamespace;</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> helpPath;</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> fullname;</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> defaultName;</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> description;</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> group;</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> iconFilename;</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> objectType;</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;  <span class="keyword">mutable</span> std::vector&lt;gd::String&gt; requiredBehaviors;</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;  <span class="keywordtype">bool</span> isPrivate = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;  <span class="keywordtype">bool</span> isHidden = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;  <span class="keywordtype">bool</span> isRelevantForChildObjects = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> openFullEditorLabel;</div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;  <a class="code" href="classgd_1_1_quick_customization.html#a8ecdd723f37f8b4147d375aaabcda952">QuickCustomization::Visibility</a> quickCustomizationVisibility = QuickCustomization::Visibility::Default;</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160; </div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;  <span class="comment">// TODO: Nitpicking: convert these to std::unique_ptr to clarify ownership.</span></div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;  std::shared_ptr&lt;gd::Behavior&gt; instance;</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;  std::shared_ptr&lt;gd::BehaviorsSharedData&gt; sharedDatasInstance;</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160; </div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> std::map&lt;gd::String, gd::PropertyDescriptor&gt; badProperties;</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;};</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160; </div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;}  <span class="comment">// namespace gd</span></div>
 <div class="ttc" id="aclassgd_1_1_behavior_html"><div class="ttname"><a href="classgd_1_1_behavior.html">gd::Behavior</a></div><div class="ttdoc">Base class used to represents a behavior that can be applied to an object. It stores the content (i....</div><div class="ttdef"><b>Definition:</b> Behavior.h:23</div></div>
 <div class="ttc" id="aclassgd_1_1_behavior_metadata_html"><div class="ttname"><a href="classgd_1_1_behavior_metadata.html">gd::BehaviorMetadata</a></div><div class="ttdoc">Contains user-friendly information about a behavior type.</div><div class="ttdef"><b>Definition:</b> BehaviorMetadata.h:32</div></div>
 <div class="ttc" id="aclassgd_1_1_behavior_metadata_html_a107e94c490c976021a1ee90f86c598fd"><div class="ttname"><a href="classgd_1_1_behavior_metadata.html#a107e94c490c976021a1ee90f86c598fd">gd::BehaviorMetadata::SetPrivate</a></div><div class="ttdeci">BehaviorMetadata &amp; SetPrivate()</div><div class="ttdef"><b>Definition:</b> BehaviorMetadata.h:281</div></div>
-<div class="ttc" id="aclassgd_1_1_behavior_metadata_html_a2caea421e64398f977b23250bcf140dd"><div class="ttname"><a href="classgd_1_1_behavior_metadata.html#a2caea421e64398f977b23250bcf140dd">gd::BehaviorMetadata::GetAllConditions</a></div><div class="ttdeci">std::map&lt; gd::String, gd::InstructionMetadata &gt; &amp; GetAllConditions() override</div><div class="ttdef"><b>Definition:</b> BehaviorMetadata.h:363</div></div>
+<div class="ttc" id="aclassgd_1_1_behavior_metadata_html_a2caea421e64398f977b23250bcf140dd"><div class="ttname"><a href="classgd_1_1_behavior_metadata.html#a2caea421e64398f977b23250bcf140dd">gd::BehaviorMetadata::GetAllConditions</a></div><div class="ttdeci">std::map&lt; gd::String, gd::InstructionMetadata &gt; &amp; GetAllConditions() override</div><div class="ttdef"><b>Definition:</b> BehaviorMetadata.h:376</div></div>
 <div class="ttc" id="aclassgd_1_1_behavior_metadata_html_a542f60b691dcacfa244cc02ec6257b2f"><div class="ttname"><a href="classgd_1_1_behavior_metadata.html#a542f60b691dcacfa244cc02ec6257b2f">gd::BehaviorMetadata::SetHidden</a></div><div class="ttdeci">BehaviorMetadata &amp; SetHidden()</div><div class="ttdef"><b>Definition:</b> BehaviorMetadata.h:296</div></div>
 <div class="ttc" id="aclassgd_1_1_behavior_metadata_html_a592df48281f4515a7ec36ee2e7b17e93"><div class="ttname"><a href="classgd_1_1_behavior_metadata.html#a592df48281f4515a7ec36ee2e7b17e93">gd::BehaviorMetadata::IsPrivate</a></div><div class="ttdeci">bool IsPrivate() const override</div><div class="ttdef"><b>Definition:</b> BehaviorMetadata.h:275</div></div>
+<div class="ttc" id="aclassgd_1_1_behavior_metadata_html_a7170f06846c8834d087470345442d07a"><div class="ttname"><a href="classgd_1_1_behavior_metadata.html#a7170f06846c8834d087470345442d07a">gd::BehaviorMetadata::MarkAsIrrelevantForChildObjects</a></div><div class="ttdeci">BehaviorMetadata &amp; MarkAsIrrelevantForChildObjects()</div><div class="ttdef"><b>Definition:</b> BehaviorMetadata.h:309</div></div>
 <div class="ttc" id="aclassgd_1_1_behavior_metadata_html_a7cda070a2e7cbe58457372c8bbc6ad01"><div class="ttname"><a href="classgd_1_1_behavior_metadata.html#a7cda070a2e7cbe58457372c8bbc6ad01">gd::BehaviorMetadata::IsHidden</a></div><div class="ttdeci">bool IsHidden() const</div><div class="ttdef"><b>Definition:</b> BehaviorMetadata.h:290</div></div>
 <div class="ttc" id="aclassgd_1_1_behavior_metadata_html_a9cd1439a8abcb5f4fcb71ed495b7d7a9"><div class="ttname"><a href="classgd_1_1_behavior_metadata.html#a9cd1439a8abcb5f4fcb71ed495b7d7a9">gd::BehaviorMetadata::GetHelpPath</a></div><div class="ttdeci">const gd::String &amp; GetHelpPath() const override</div><div class="ttdef"><b>Definition:</b> BehaviorMetadata.h:230</div></div>
-<div class="ttc" id="aclassgd_1_1_behavior_metadata_html_aa1aa333336b196d01ffd8d49abcac412"><div class="ttname"><a href="classgd_1_1_behavior_metadata.html#aa1aa333336b196d01ffd8d49abcac412">gd::BehaviorMetadata::GetAllStrExpressions</a></div><div class="ttdeci">std::map&lt; gd::String, gd::ExpressionMetadata &gt; &amp; GetAllStrExpressions() override</div><div class="ttdef"><b>Definition:</b> BehaviorMetadata.h:373</div></div>
+<div class="ttc" id="aclassgd_1_1_behavior_metadata_html_aa1aa333336b196d01ffd8d49abcac412"><div class="ttname"><a href="classgd_1_1_behavior_metadata.html#aa1aa333336b196d01ffd8d49abcac412">gd::BehaviorMetadata::GetAllStrExpressions</a></div><div class="ttdeci">std::map&lt; gd::String, gd::ExpressionMetadata &gt; &amp; GetAllStrExpressions() override</div><div class="ttdef"><b>Definition:</b> BehaviorMetadata.h:386</div></div>
 <div class="ttc" id="aclassgd_1_1_behavior_metadata_html_ab06a2d297d74650a7faa1495d138304b"><div class="ttname"><a href="classgd_1_1_behavior_metadata.html#ab06a2d297d74650a7faa1495d138304b">gd::BehaviorMetadata::GetObjectType</a></div><div class="ttdeci">const gd::String &amp; GetObjectType() const</div><div class="ttdoc">Get the type of the object that this behavior can be used on.</div><div class="ttdef"><b>Definition:</b> BehaviorMetadata.h:264</div></div>
-<div class="ttc" id="aclassgd_1_1_behavior_metadata_html_abde8f281d2d78453604893552dea63ae"><div class="ttname"><a href="classgd_1_1_behavior_metadata.html#abde8f281d2d78453604893552dea63ae">gd::BehaviorMetadata::GetAllActions</a></div><div class="ttdeci">std::map&lt; gd::String, gd::InstructionMetadata &gt; &amp; GetAllActions() override</div><div class="ttdoc">Return a reference to a map containing the names of the actions (as keys) and the metadata associated...</div><div class="ttdef"><b>Definition:</b> BehaviorMetadata.h:358</div></div>
+<div class="ttc" id="aclassgd_1_1_behavior_metadata_html_abde8f281d2d78453604893552dea63ae"><div class="ttname"><a href="classgd_1_1_behavior_metadata.html#abde8f281d2d78453604893552dea63ae">gd::BehaviorMetadata::GetAllActions</a></div><div class="ttdeci">std::map&lt; gd::String, gd::InstructionMetadata &gt; &amp; GetAllActions() override</div><div class="ttdoc">Return a reference to a map containing the names of the actions (as keys) and the metadata associated...</div><div class="ttdef"><b>Definition:</b> BehaviorMetadata.h:371</div></div>
+<div class="ttc" id="aclassgd_1_1_behavior_metadata_html_ad1946aac491a49ac51d7eff50c1fc3dc"><div class="ttname"><a href="classgd_1_1_behavior_metadata.html#ad1946aac491a49ac51d7eff50c1fc3dc">gd::BehaviorMetadata::IsRelevantForChildObjects</a></div><div class="ttdeci">bool IsRelevantForChildObjects() const</div><div class="ttdef"><b>Definition:</b> BehaviorMetadata.h:304</div></div>
 <div class="ttc" id="aclassgd_1_1_behavior_metadata_html_ae8cbf6f8eb0929a5767a35e0102f46b7"><div class="ttname"><a href="classgd_1_1_behavior_metadata.html#ae8cbf6f8eb0929a5767a35e0102f46b7">gd::BehaviorMetadata::SetHelpPath</a></div><div class="ttdeci">BehaviorMetadata &amp; SetHelpPath(const gd::String &amp;path) override</div><div class="ttdef"><b>Definition:</b> BehaviorMetadata.h:239</div></div>
-<div class="ttc" id="aclassgd_1_1_behavior_metadata_html_aecb4bd9d5b04f623eff213c33ced1293"><div class="ttname"><a href="classgd_1_1_behavior_metadata.html#aecb4bd9d5b04f623eff213c33ced1293">gd::BehaviorMetadata::GetAllExpressions</a></div><div class="ttdeci">std::map&lt; gd::String, gd::ExpressionMetadata &gt; &amp; GetAllExpressions() override</div><div class="ttdef"><b>Definition:</b> BehaviorMetadata.h:368</div></div>
+<div class="ttc" id="aclassgd_1_1_behavior_metadata_html_aecb4bd9d5b04f623eff213c33ced1293"><div class="ttname"><a href="classgd_1_1_behavior_metadata.html#aecb4bd9d5b04f623eff213c33ced1293">gd::BehaviorMetadata::GetAllExpressions</a></div><div class="ttdeci">std::map&lt; gd::String, gd::ExpressionMetadata &gt; &amp; GetAllExpressions() override</div><div class="ttdef"><b>Definition:</b> BehaviorMetadata.h:381</div></div>
 <div class="ttc" id="aclassgd_1_1_behavior_metadata_html_aee4646a4396e110d8e1a3b53ad32457f"><div class="ttname"><a href="classgd_1_1_behavior_metadata.html#aee4646a4396e110d8e1a3b53ad32457f">gd::BehaviorMetadata::BehaviorMetadata</a></div><div class="ttdeci">BehaviorMetadata(const gd::String &amp;extensionNamespace, const gd::String &amp;nameWithNamespace, const gd::String &amp;fullname_, const gd::String &amp;defaultName_, const gd::String &amp;description_, const gd::String &amp;group_, const gd::String &amp;icon24x24_)</div><div class="ttdoc">Construct a behavior metadata, without &quot;blueprint&quot; behavior.</div></div>
 <div class="ttc" id="aclassgd_1_1_behavior_metadata_html_afa997fd38f02f18303e6335f3d0c7219"><div class="ttname"><a href="classgd_1_1_behavior_metadata.html#afa997fd38f02f18303e6335f3d0c7219">gd::BehaviorMetadata::SetObjectType</a></div><div class="ttdeci">BehaviorMetadata &amp; SetObjectType(const gd::String &amp;objectType_)</div><div class="ttdoc">Set the type of the object that this behavior can be used on.</div><div class="ttdef"><b>Definition:</b> BehaviorMetadata.h:254</div></div>
 <div class="ttc" id="aclassgd_1_1_behaviors_shared_data_html"><div class="ttname"><a href="classgd_1_1_behaviors_shared_data.html">gd::BehaviorsSharedData</a></div><div class="ttdoc">Base class for defining data shared by behaviors having the same type and name.</div><div class="ttdef"><b>Definition:</b> BehaviorsSharedData.h:24</div></div>
