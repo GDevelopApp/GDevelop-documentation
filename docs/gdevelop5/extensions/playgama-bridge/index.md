@@ -10,7 +10,7 @@ One SDK for cross-platform publishing HTML5 games.
 One SDK for cross-platform publishing HTML5 games. 
 Please refer to [Playgama documentation](https://wiki.playgama.com/playgama/sdk/engines/gdevelop) for detailed guidance.
 
-[Read more...](https://wiki.playgama.com/playgama/sdk/engines/gdevelop)
+[Read more...](/gdevelop5/extensions/playgama-bridge/details)
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
@@ -73,6 +73,9 @@ Leaderboards Get Entries.
 
 **Leaderboards Set Score**  
 Leaderboards Set Score.
+
+**Leaderboards Show Native Popup**  
+Leaderboards Show Native Popup.
 
 **Payments Consume Purchase**  
 Payments Consume Purchase.
@@ -235,6 +238,9 @@ The leaderboard is of type In Game.
 **The leaderboard is of type Native**  
 The leaderboard is of type Native.
 
+**The leaderboard is of type Native Popup**  
+The leaderboard is of type Native Popup.
+
 **The leaderboard is of type Not Available**  
 The leaderboard is of type Not Available.
 
@@ -312,6 +318,9 @@ On Leaderboards Get Entries Completed.
 
 **On Leaderboards Set Score Completed**  
 On Leaderboards Set Score Completed.
+
+**On Leaderboards Show Native Popup Completed**  
+On Leaderboards Show Native Popup Completed.
 
 **On Payments Consume Purchase Completed**  
 On Payments Consume Purchase Completed.
@@ -440,6 +449,11 @@ Platform On Pause State Changed.
 | `PlaygamaBridge::PlatformLanguage()` | Platform Language. ||
 | `PlaygamaBridge::PlatformPayload()` | Platform Payload. ||
 | `PlaygamaBridge::PlatformTld()` | Platform Tld. ||
+| `PlaygamaBridge::PlayerExtraPropertiesCount()` | Player Extra Properties Count. ||
+| `PlaygamaBridge::PlayerExtraPropertyName(number)` | Player Extra Property Name. ||
+| | _🔢 Number_ | Property Index |
+| `PlaygamaBridge::PlayerExtraPropertyValue(string)` | Player Extra Property Value. ||
+| | _string_ | Property |
 | `PlaygamaBridge::PlayerId()` | Player Id. ||
 | `PlaygamaBridge::PlayerName()` | Player Name. ||
 | `PlaygamaBridge::PlayerPhoto(number)` | Player Photo # _PARAM1_. ||
