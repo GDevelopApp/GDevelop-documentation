@@ -113,6 +113,7 @@ nav:
         - Platforms Validation: authorized-platforms-validation
         - Internet Connectivity : internet-connectivity
         - MQTT Client (advanced): mqtt
+        - Multiplayer custom lobbies: multiplayer-custom-lobbies
         - Webpage URL tools (Web browser): urltools
         - WebSocket client: web-socket-client
     - Third-party:
@@ -231,6 +232,7 @@ nav:
             - Dialog Box: dialog-box
             - Flexbox: flex-box
             - Pause when losing focus: pause-focus-lost
+            - Scrollbar: scrollbar
             - Star Rating: star-rating
         - Visual effect:
             - Animation system: animation-system
