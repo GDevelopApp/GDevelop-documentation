@@ -1,0 +1,4 @@
+nav:
+    - "Extract Events to a Function": extract-events
+    - "Example of replacing external events by a function": replace-external-events
+    - ...
