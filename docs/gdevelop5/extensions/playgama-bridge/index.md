@@ -3,7 +3,7 @@
 <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xMTcgMTU0LjM2MlY5Ni4wMDAxSDIyMy4xMjlWNDE2SDExN1YzNTkuMjU0SDE1OC40NFYxNTQuMzYySDExN1oiIGZpbGw9ImJsYWNrIi8+CjxwYXRoIGQ9Ik0zOTUgMTU0LjM2MlY5NkgyODguODcxVjQxNkgzOTVWMzU5LjI1NEgzNTMuNTZWMTU0LjM2MkgzOTVaIiBmaWxsPSJibGFjayIvPgo8L3N2Zz4K" class="extension-icon"></img>
 One SDK for cross-platform publishing HTML5 games.
 
-**Authors and contributors** to this community extension: [playgama](https://gd.games/playgama).
+**Authors and contributors** to this experimental extension: [playgama](https://gd.games/playgama).
 
 ---
 

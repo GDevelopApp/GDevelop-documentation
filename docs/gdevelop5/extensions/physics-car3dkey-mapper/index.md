@@ -3,7 +3,7 @@
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/Glyphster Pack/Master/SVG/Computers and Hardware/3e5871434a72821bf3ecb44a6857e62a438cf23dc8f95966f56ae97e95315468_Computers and Hardware_keyboard.svg" class="extension-icon"></img>
 3D car keyboard controls.
 
-**Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).
+**Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
 
 ---
 

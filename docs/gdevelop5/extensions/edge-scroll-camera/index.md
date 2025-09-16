@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/camera-metering-matrix.svg" class="extension-icon"></img>
 Scroll camera when cursor is near edge of screen.
 
-**Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames), [D8H](https://gd.games/D8H).
+**Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames), [D8H](https://gd.games/D8H).
 
 ---
 

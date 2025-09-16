@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/folder-zip-outline.svg" class="extension-icon"></img>
 Compress and decompress strings.
 
-**Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555).
+**Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555).
 
 ---
 

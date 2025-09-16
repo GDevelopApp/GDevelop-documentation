@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/earth.svg" class="extension-icon"></img>
 Get the preferred language of the user, set on their browser or device.
 
-**Authors and contributors** to this community extension: [TheGemDev](https://gd.games/TheGemDev).
+**Authors and contributors** to this experimental extension: [TheGemDev](https://gd.games/TheGemDev).
 
 ---
 

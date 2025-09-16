@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/flash-outline.svg" class="extension-icon"></img>
 Make an object flash visibility (blink), color tint, object effect, or opacity (fade).
 
-**Authors and contributors** to this community extension: [4ian](https://gd.games/4ian), [Entropy](https://gd.games/Entropy), [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this experimental extension: [4ian](https://gd.games/4ian), [Entropy](https://gd.games/Entropy), [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 

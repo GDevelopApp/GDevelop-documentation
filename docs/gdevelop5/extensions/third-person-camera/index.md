@@ -3,7 +3,7 @@
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Virtual Reality/94e95d2c318e1f3dc7151a351024e13c574e1e44669c6696aa107d60230073f6_Virtual Reality_3d_vision_eye_vr.svg" class="extension-icon"></img>
 Move the camera  to look at an object from a given distance.
 
-**Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).
+**Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
 
 ---
 

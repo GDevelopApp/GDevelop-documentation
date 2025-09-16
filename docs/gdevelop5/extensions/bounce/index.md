@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/volleyball.svg" class="extension-icon"></img>
 Bounce the object off another object it just touched.
 
-**Authors and contributors** to this community extension: [4ian](https://gd.games/4ian).
+**Authors and contributors** to this experimental extension: [4ian](https://gd.games/4ian).
 
 ---
 

@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/dots-hexagon.svg" class="extension-icon"></img>
 Values of picked object instances (including position, size, force and angle).
 
-**Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames), [Bouh](https://gd.games/Bouh), [Uiles](https://gd.games/Uiles).
+**Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames), [Bouh](https://gd.games/Bouh), [Uiles](https://gd.games/Uiles).
 
 ---
 

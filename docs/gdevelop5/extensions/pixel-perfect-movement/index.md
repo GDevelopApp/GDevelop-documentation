@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Graphic Design/Graphic Design_grid.svg" class="extension-icon"></img>
 Grid-based or pixel perfect platformer and top-down movements.
 
-**Authors and contributors** to this community extension: [D8H](https://gd.games/D8H), [MikeSheldon](https://gd.games/MikeSheldon), [Mistafixxa069](https://gd.games/Mistafixxa069).
+**Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H), [MikeSheldon](https://gd.games/MikeSheldon), [Mistafixxa069](https://gd.games/Mistafixxa069).
 
 ---
 

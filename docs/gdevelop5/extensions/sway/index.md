@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/swap-horizontal-variant.svg" class="extension-icon"></img>
 Sway objects like grass in the wind.
 
-**Authors and contributors** to this community extension: [Bubble](https://gd.games/Bubble).
+**Authors and contributors** to this experimental extension: [Bubble](https://gd.games/Bubble).
 
 ---
 

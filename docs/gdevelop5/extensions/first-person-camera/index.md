@@ -3,7 +3,7 @@
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Security and Protection/e8248ffd504c314e6a9d9d560c3a0fdad3398a5f125ae6a4c0654d4e68c86376_Security and Protection_security_protection_eye_scan_lock.svg" class="extension-icon"></img>
 Move the camera to look though objects eyes.
 
-**Authors and contributors** to this community extension: [D8H](https://gd.games/D8H), [Eldarduil](https://gd.games/Eldarduil).
+**Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H), [Eldarduil](https://gd.games/Eldarduil).
 
 ---
 

@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/layers-triple-outline.svg" class="extension-icon"></img>
 Copy the camera settings of a layer and apply them to another layer.
 
-**Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 

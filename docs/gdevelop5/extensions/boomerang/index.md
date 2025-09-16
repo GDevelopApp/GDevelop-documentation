@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/boomerang.svg" class="extension-icon"></img>
 Throw an object that returns to the thrower like a boomerang.
 
-**Authors and contributors** to this community extension: [Entropy](https://gd.games/Entropy), [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this experimental extension: [Entropy](https://gd.games/Entropy), [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 

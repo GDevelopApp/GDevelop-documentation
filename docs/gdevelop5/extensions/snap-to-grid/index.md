@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/view-grid-plus-outline.svg" class="extension-icon"></img>
 Snap objects on a virtual grid.
 
-**Authors and contributors** to this community extension: (not specified).
+**Authors and contributors** to this experimental extension: (not specified).
 
 ---
 

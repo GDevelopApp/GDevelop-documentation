@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/clock-digital.svg" class="extension-icon"></img>
 Converts seconds into standard time formats, such as HH:MM:SS. 
 
-**Authors and contributors** to this community extension: [Bouh](https://gd.games/Bouh).
+**Authors and contributors** to this experimental extension: [Bouh](https://gd.games/Bouh).
 
 ---
 

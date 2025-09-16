@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/axis-arrow.svg" class="extension-icon"></img>
 Make object travel to random positions (with the pathfinding behavior).
 
-**Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 

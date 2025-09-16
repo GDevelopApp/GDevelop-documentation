@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Virtual Reality/Virtual Reality_hand_vr_ar_360.svg" class="extension-icon"></img>
 Drag a physics object with the mouse (or touch).
 
-**Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 

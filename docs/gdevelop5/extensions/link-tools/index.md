@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/graph-outline.svg" class="extension-icon"></img>
 Conditions to use Linked Objects as a graph and a path finding movement behavior.
 
-**Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).
+**Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
 
 ---
 

@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Applications and Programming/Applications and Programming_sitemap_map_ux_application.svg" class="extension-icon"></img>
 Allows handling all received P2P events at once instead of one per frame. It is more complex but also potentially more performant.
 
-**Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555).
+**Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555).
 
 ---
 

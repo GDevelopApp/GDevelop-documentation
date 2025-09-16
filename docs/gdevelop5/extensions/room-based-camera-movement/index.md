@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Applications and Programming/Applications and Programming_app_apps_applications_tiles.svg" class="extension-icon"></img>
 Move and zoom camera to the room object that contains the trigger object (usually the player).
 
-**Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames), [Silver-Streak](https://gd.games/Silver-Streak), [Jurfix](https://gd.games/Jurfix).
+**Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames), [Silver-Streak](https://gd.games/Silver-Streak), [Jurfix](https://gd.games/Jurfix).
 
 ---
 

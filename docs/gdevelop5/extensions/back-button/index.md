@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/keyboard-backspace.svg" class="extension-icon"></img>
 Allow to customize the behavior of the Android back button.
 
-**Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555).
+**Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555).
 
 ---
 

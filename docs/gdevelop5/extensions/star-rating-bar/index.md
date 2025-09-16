@@ -3,7 +3,7 @@
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/745c5811a2856b9b828e959b496d50dd52e0b5879f372e411675f38a5708775d_star-half-full.svg" class="extension-icon"></img>
 An animated bar to rate out of 5.
 
-**Authors and contributors** to this community extension: [Bouh](https://gd.games/Bouh).
+**Authors and contributors** to this experimental extension: [Bouh](https://gd.games/Bouh).
 
 ---
 

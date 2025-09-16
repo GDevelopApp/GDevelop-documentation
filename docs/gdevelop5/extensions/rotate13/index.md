@@ -3,14 +3,12 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/format-text-rotation-none.svg" class="extension-icon"></img>
 This extension rotates all alphabetic characters in a string by 13 characters.
 
-**Authors and contributors** to this community extension: [Silver-Streak](https://gd.games/Silver-Streak).
+**Authors and contributors** to this experimental extension: [Silver-Streak](https://gd.games/Silver-Streak).
 
 !!! warning
-    This is an extension made by a community member — but not reviewed
-    by the GDevelop extension team. As such, we can't guarantee it
-    meets all the quality standards of official extensions. In case of
-    doubt, contact the author to know more about what the extension
-    does or inspect its content before using it.
+    This is an extension made by a community member and it only got through a
+    light review by the GDevelop extension team. As such, we can't guarantee it
+    meets all the quality standards of fully reviewed extensions.
 
 ---
 

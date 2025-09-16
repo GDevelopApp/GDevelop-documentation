@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/chart-bell-curve.svg" class="extension-icon"></img>
 Platformer character jump easy configuration and platformer AI tools.
 
-**Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).
+**Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
 
 ---
 

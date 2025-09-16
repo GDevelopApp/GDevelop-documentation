@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/drag-variant.svg" class="extension-icon"></img>
 Move a camera by dragging the mouse (or touchscreen).
 
-**Authors and contributors** to this community extension: [ddabrahim](https://gd.games/ddabrahim), [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this experimental extension: [ddabrahim](https://gd.games/ddabrahim), [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 

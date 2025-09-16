@@ -3,14 +3,12 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/format-vertical-align-center.svg" class="extension-icon"></img>
 Align objects on the scene relatively to the window (or screen size).
 
-**Authors and contributors** to this community extension: [grymmjack](https://gd.games/grymmjack).
+**Authors and contributors** to this experimental extension: [grymmjack](https://gd.games/grymmjack).
 
 !!! warning
-    This is an extension made by a community member — but not reviewed
-    by the GDevelop extension team. As such, we can't guarantee it
-    meets all the quality standards of official extensions. In case of
-    doubt, contact the author to know more about what the extension
-    does or inspect its content before using it.
+    This is an extension made by a community member and it only got through a
+    light review by the GDevelop extension team. As such, we can't guarantee it
+    meets all the quality standards of fully reviewed extensions.
 
 ---
 

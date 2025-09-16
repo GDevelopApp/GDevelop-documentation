@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/bomb.svg" class="extension-icon"></img>
 Simulate an explosion with physics forces on target objects.
 
-**Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 

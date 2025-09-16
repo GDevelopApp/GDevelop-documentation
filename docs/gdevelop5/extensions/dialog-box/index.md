@@ -3,14 +3,12 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/UI Essentials/UI Essentials_chat_message_sms.svg" class="extension-icon"></img>
 Dialog Boxes that can be used for RPGs, visual novels, and more.
 
-**Authors and contributors** to this community extension: [PANDAKO](https://gd.games/PANDAKO).
+**Authors and contributors** to this experimental extension: [PANDAKO](https://gd.games/PANDAKO).
 
 !!! warning
-    This is an extension made by a community member — but not reviewed
-    by the GDevelop extension team. As such, we can't guarantee it
-    meets all the quality standards of official extensions. In case of
-    doubt, contact the author to know more about what the extension
-    does or inspect its content before using it.
+    This is an extension made by a community member and it only got through a
+    light review by the GDevelop extension team. As such, we can't guarantee it
+    meets all the quality standards of fully reviewed extensions.
 
 ---
 

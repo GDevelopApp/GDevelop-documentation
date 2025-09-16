@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Graphic Design/Graphic Design_grid.svg" class="extension-icon"></img>
 Create objects as a grid to cover a rectangular area or an other object.
 
-**Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 

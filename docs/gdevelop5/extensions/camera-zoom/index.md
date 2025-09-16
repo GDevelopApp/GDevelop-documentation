@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/UI Essentials/UI Essentials_zoom_in_plus.svg" class="extension-icon"></img>
 Allows to zoom camera on a layer with a speed (factor per second).
 
-**Authors and contributors** to this community extension: [D8H](https://gd.games/D8H), [Elairyx](https://gd.games/Elairyx).
+**Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H), [Elairyx](https://gd.games/Elairyx).
 
 ---
 

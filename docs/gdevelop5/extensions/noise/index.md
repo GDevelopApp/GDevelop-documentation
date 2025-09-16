@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/sprinkler.svg" class="extension-icon"></img>
 Generate noise values for procedural generation.
 
-**Authors and contributors** to this community extension: [Add00](https://gd.games/Add00), [VictrisGames](https://gd.games/VictrisGames), [D8H](https://gd.games/D8H).
+**Authors and contributors** to this experimental extension: [Add00](https://gd.games/Add00), [VictrisGames](https://gd.games/VictrisGames), [D8H](https://gd.games/D8H).
 
 ---
 

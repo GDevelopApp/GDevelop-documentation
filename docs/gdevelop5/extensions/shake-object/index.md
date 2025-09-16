@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/arrow-all.svg" class="extension-icon"></img>
 Shake an object.
 
-**Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 

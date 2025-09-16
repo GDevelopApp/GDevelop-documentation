@@ -3,14 +3,12 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/arrow-bottom-right-bold-outline.svg" class="extension-icon"></img>
 Point and orbit an object toward a position or angle.
 
-**Authors and contributors** to this community extension: [VegeTato](https://gd.games/VegeTato), [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this experimental extension: [VegeTato](https://gd.games/VegeTato), [VictrisGames](https://gd.games/VictrisGames).
 
 !!! warning
-    This is an extension made by a community member — but not reviewed
-    by the GDevelop extension team. As such, we can't guarantee it
-    meets all the quality standards of official extensions. In case of
-    doubt, contact the author to know more about what the extension
-    does or inspect its content before using it.
+    This is an extension made by a community member and it only got through a
+    light review by the GDevelop extension team. As such, we can't guarantee it
+    meets all the quality standards of fully reviewed extensions.
 
 ---
 

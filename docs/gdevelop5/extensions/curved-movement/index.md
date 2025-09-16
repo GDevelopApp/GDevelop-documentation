@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Graphic Design/Graphic Design_bezier_curve.svg" class="extension-icon"></img>
 Move objects on curved paths.
 
-**Authors and contributors** to this community extension: [pampogokiraly](https://gd.games/pampogokiraly), [D8H](https://gd.games/D8H).
+**Authors and contributors** to this experimental extension: [pampogokiraly](https://gd.games/pampogokiraly), [D8H](https://gd.games/D8H).
 
 ---
 

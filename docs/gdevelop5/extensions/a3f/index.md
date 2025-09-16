@@ -3,14 +3,12 @@
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Graphic Design/f4c71080f9213188ee5556b1acb45ad46fe6e5225947301c363105b080fca008_Graphic Design_3d_cube_isometric.svg" class="extension-icon"></img>
 This extension adds features to the built-in 3D.
 
-**Authors and contributors** to this community extension: [PANDAKO](https://gd.games/PANDAKO).
+**Authors and contributors** to this experimental extension: [PANDAKO](https://gd.games/PANDAKO).
 
 !!! warning
-    This is an extension made by a community member — but not reviewed
-    by the GDevelop extension team. As such, we can't guarantee it
-    meets all the quality standards of official extensions. In case of
-    doubt, contact the author to know more about what the extension
-    does or inspect its content before using it.
+    This is an extension made by a community member and it only got through a
+    light review by the GDevelop extension team. As such, we can't guarantee it
+    meets all the quality standards of fully reviewed extensions.
 
 ---
 

@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/alpha-a-circle-outline.svg" class="extension-icon"></img>
 Allows to input the classic Konami Code ("Up, Up, Down, Down, Left, Right, Left, Right, B, A") into a scene for cheats and easter eggs.
 
-**Authors and contributors** to this community extension: [Giampiero](https://gd.games/Giampiero).
+**Authors and contributors** to this experimental extension: [Giampiero](https://gd.games/Giampiero).
 
 ---
 

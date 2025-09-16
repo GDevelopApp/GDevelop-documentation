@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/cart-arrow-right.svg" class="extension-icon"></img>
 Face object towards the direction of movement.
 
-**Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames), [TheGemDev](https://gd.games/TheGemDev).
+**Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames), [TheGemDev](https://gd.games/TheGemDev).
 
 ---
 

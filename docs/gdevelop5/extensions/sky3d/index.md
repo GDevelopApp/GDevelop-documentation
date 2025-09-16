@@ -3,14 +3,12 @@
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Summer Holidays/512b9e875fbd9fe3ae1049df4ca9cdea12eeb439cfcd15c9e20ca654477ae532_Summer Holidays_holidays_vacation_summer_sun_sunny_hot.svg" class="extension-icon"></img>
 Fully animated 3D sky with sun.
 
-**Authors and contributors** to this community extension: [TheAvIGOLD](https://gd.games/TheAvIGOLD).
+**Authors and contributors** to this experimental extension: [TheAvIGOLD](https://gd.games/TheAvIGOLD).
 
 !!! warning
-    This is an extension made by a community member — but not reviewed
-    by the GDevelop extension team. As such, we can't guarantee it
-    meets all the quality standards of official extensions. In case of
-    doubt, contact the author to know more about what the extension
-    does or inspect its content before using it.
+    This is an extension made by a community member and it only got through a
+    light review by the GDevelop extension team. As such, we can't guarantee it
+    meets all the quality standards of fully reviewed extensions.
 
 ---
 

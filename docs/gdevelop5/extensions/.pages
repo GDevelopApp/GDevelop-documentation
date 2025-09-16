@@ -161,7 +161,7 @@ nav:
         - Sway: sway
         - 3D-like Flip for 2D Sprites: three-dflip
         - YSort: ysort
-    - Community extensions:
+    - Experimental extensions:
         - Advanced:
             - Crypto Api: crypto-api
             - Game properties data: get-properties-data

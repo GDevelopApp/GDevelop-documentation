@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/identifier.svg" class="extension-icon"></img>
 A collection of UID generation expressions.
 
-**Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555).
+**Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555).
 
 ---
 

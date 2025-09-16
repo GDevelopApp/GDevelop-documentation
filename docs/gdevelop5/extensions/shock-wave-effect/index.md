@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/octagram-outline.svg" class="extension-icon"></img>
 Draw shock wave.
 
-**Authors and contributors** to this community extension: [Alios](https://gd.games/Alios).
+**Authors and contributors** to this experimental extension: [Alios](https://gd.games/Alios).
 
 ---
 

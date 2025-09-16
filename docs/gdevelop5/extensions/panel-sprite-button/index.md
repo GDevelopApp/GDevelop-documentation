@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Interface Elements/Interface Elements_interface_ui_button_ok_cta_clock_tap.svg" class="extension-icon"></img>
 A button that can be customized.
 
-**Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).
+**Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
 
 ---
 

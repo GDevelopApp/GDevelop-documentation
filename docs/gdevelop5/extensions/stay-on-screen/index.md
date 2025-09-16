@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/monitor-screenshot.svg" class="extension-icon"></img>
 Move the object to keep it visible on the screen.
 
-**Authors and contributors** to this community extension: [4ian](https://gd.games/4ian), [Bouh](https://gd.games/Bouh), [D8H](https://gd.games/D8H).
+**Authors and contributors** to this experimental extension: [4ian](https://gd.games/4ian), [Bouh](https://gd.games/Bouh), [D8H](https://gd.games/D8H).
 
 ---
 

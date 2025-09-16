@@ -3,14 +3,12 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/sitemap.svg" class="extension-icon"></img>
 Create a procedurally generated dungeon.  Includes two layouts: "rooms and hallways" and "dungeon cave".
 
-**Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames), [oscuridad666](https://gd.games/oscuridad666).
+**Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames), [oscuridad666](https://gd.games/oscuridad666).
 
 !!! warning
-    This is an extension made by a community member — but not reviewed
-    by the GDevelop extension team. As such, we can't guarantee it
-    meets all the quality standards of official extensions. In case of
-    doubt, contact the author to know more about what the extension
-    does or inspect its content before using it.
+    This is an extension made by a community member and it only got through a
+    light review by the GDevelop extension team. As such, we can't guarantee it
+    meets all the quality standards of fully reviewed extensions.
 
 ---
 

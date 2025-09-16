@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/flag-variant.svg" class="extension-icon"></img>
 Respawn objects at checkpoints.
 
-**Authors and contributors** to this community extension: [Elairyx](https://gd.games/Elairyx), [Bouh](https://gd.games/Bouh).
+**Authors and contributors** to this experimental extension: [Elairyx](https://gd.games/Elairyx), [Bouh](https://gd.games/Bouh).
 
 ---
 

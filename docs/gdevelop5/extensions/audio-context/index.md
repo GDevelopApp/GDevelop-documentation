@@ -3,14 +3,12 @@
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/Glyphster Pack/Master/SVG/Music/308ee40b08fc7798832654e3ab95d1df6a66bfb8e7aae0a19697e120449931d0_Music_speaker_audio_sound.svg" class="extension-icon"></img>
 Create procedural audio.
 
-**Authors and contributors** to this community extension: [aliustaoglu](https://gd.games/aliustaoglu).
+**Authors and contributors** to this experimental extension: [aliustaoglu](https://gd.games/aliustaoglu).
 
 !!! warning
-    This is an extension made by a community member — but not reviewed
-    by the GDevelop extension team. As such, we can't guarantee it
-    meets all the quality standards of official extensions. In case of
-    doubt, contact the author to know more about what the extension
-    does or inspect its content before using it.
+    This is an extension made by a community member and it only got through a
+    light review by the GDevelop extension team. As such, we can't guarantee it
+    meets all the quality standards of fully reviewed extensions.
 
 ---
 

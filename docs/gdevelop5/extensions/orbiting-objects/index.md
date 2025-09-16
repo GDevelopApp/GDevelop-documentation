@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Space/Space_earth_moon_orbit.svg" class="extension-icon"></img>
 Make objects orbit around a center object in a circular or elliptical shape.
 
-**Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames), [VegeTato](https://gd.games/VegeTato).
+**Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames), [VegeTato](https://gd.games/VegeTato).
 
 ---
 

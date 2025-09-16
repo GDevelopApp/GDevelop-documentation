@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/movie-filter.svg" class="extension-icon"></img>
 Paint transition effects with a plain color.
 
-**Authors and contributors** to this community extension: (not specified).
+**Authors and contributors** to this experimental extension: (not specified).
 
 ---
 

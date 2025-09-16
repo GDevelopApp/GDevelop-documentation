@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/web.svg" class="extension-icon"></img>
 Allows to read URL where a web-game is hosted and manipulate URL strings.
 
-**Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555).
+**Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555).
 
 ---
 

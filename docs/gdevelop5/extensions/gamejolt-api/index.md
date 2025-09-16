@@ -3,14 +3,12 @@
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/Glyphster Pack/Master/SVG/Graphic Design/7e88b8d233e2643ac7abf20c1c7373e93ab9d8b42236b431709fa910883c818a_Graphic Design_flash_light_on_bolt_lightning.svg" class="extension-icon"></img>
 Support the complete Gamejolt API.
 
-**Authors and contributors** to this community extension: [infokubarcade](https://gd.games/infokubarcade).
+**Authors and contributors** to this experimental extension: [infokubarcade](https://gd.games/infokubarcade).
 
 !!! warning
-    This is an extension made by a community member — but not reviewed
-    by the GDevelop extension team. As such, we can't guarantee it
-    meets all the quality standards of official extensions. In case of
-    doubt, contact the author to know more about what the extension
-    does or inspect its content before using it.
+    This is an extension made by a community member and it only got through a
+    light review by the GDevelop extension team. As such, we can't guarantee it
+    meets all the quality standards of fully reviewed extensions.
 
 ---
 

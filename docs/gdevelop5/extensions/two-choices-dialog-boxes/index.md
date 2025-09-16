@@ -3,7 +3,7 @@
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Interface Elements/0842ffc478006e9b6687fca9a5761494c4efd1df873220637af5b4ac7253f850_Interface Elements_interface_ui_window_application_app_button_cta.svg" class="extension-icon"></img>
 A dialog box with buttons to let users make a choice.
 
-**Authors and contributors** to this community extension: [Bouh](https://gd.games/Bouh).
+**Authors and contributors** to this experimental extension: [Bouh](https://gd.games/Bouh).
 
 ---
 

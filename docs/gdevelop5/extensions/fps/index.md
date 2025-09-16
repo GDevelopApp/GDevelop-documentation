@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/SEO/SEO_board_performance_profit.svg" class="extension-icon"></img>
 Calculate and display the frames per second (FPS) of the game.
 
-**Authors and contributors** to this community extension: [Ahnaf30e](https://gd.games/Ahnaf30e), [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this experimental extension: [Ahnaf30e](https://gd.games/Ahnaf30e), [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 

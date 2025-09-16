@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/discord.svg" class="extension-icon"></img>
 Adds discord rich presence to your games.
 
-**Authors and contributors** to this community extension: [arthuro555](https://gd.games/arthuro555).
+**Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555).
 
 ---
 

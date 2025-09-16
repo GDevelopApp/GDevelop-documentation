@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/video-vintage.svg" class="extension-icon"></img>
 Actions to record the game and players download the clips. Works on desktop, and in the browser.
 
-**Authors and contributors** to this community extension: [Add00](https://gd.games/Add00).
+**Authors and contributors** to this experimental extension: [Add00](https://gd.games/Add00).
 
 ---
 

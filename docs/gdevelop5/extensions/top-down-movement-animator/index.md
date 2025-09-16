@@ -3,7 +3,7 @@
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/Glyphster Pack/Master/SVG/Arrows/a6026156355ae5f03613b03971e4ddb50d0c95b8901e7a21edc57f33f0032e42_Arrows_thin_arrows_all_directions_cross.svg" class="extension-icon"></img>
 Change the animation according to the movement direction.
 
-**Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).
+**Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
 
 ---
 

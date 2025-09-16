@@ -16,7 +16,7 @@ Read more about this:
 Here are listed all the extensions available in GDevelop. The list is divided in [two tiers](/gdevelop5/extensions/tiers/):
 
 - [Reviewed extensions](#reviewed-extensions)
-- [Community extensions](#community-extensions)
+- [Experimental extensions](#experimental-extensions)
 
 ## Reviewed extensions
 
@@ -223,13 +223,11 @@ Here are listed all the extensions available in GDevelop. The list is divided in
 |<img src="https://resources.gdevelop-app.com/assets/Icons/flip-horizontal.svg" class="extension-icon"></img>|**3D-like Flip for 2D Sprites**|Flip sprites with a 3D-like rotation effect.|[Read more...](/gdevelop5/extensions/three-dflip)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/sort-ascending.svg" class="extension-icon"></img>|**YSort**|Create an illusion of depth by setting the Z-order based on the Y position of the object. Useful for isometric games, 2D games with a "Top-Down" view, RPG...|[Read more...](/gdevelop5/extensions/ysort)|
 
-## Community extensions
+## Experimental extensions
 
-The following extensions are made by community members — but not reviewed
-by the GDevelop extension team. As such, we can't guarantee it
-meets all the quality standards of official extensions. In case of
-doubt, contact the author to know more about what the extension
-does or inspect its content before using it.
+The following extensions are made by a community members and they only got
+though a light review by the GDevelop extension team. As such, we can't
+guarantee they meet all the quality standards of fully reviewed extensions.
 
 ### Advanced
 

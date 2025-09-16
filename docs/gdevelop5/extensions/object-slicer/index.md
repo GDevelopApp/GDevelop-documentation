@@ -3,7 +3,7 @@
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/2ea979b9db9294f26b40687e214f26d7926682457113ccc6dca4174bce6033aa_knife.svg" class="extension-icon"></img>
 Slice an object into smaller pieces that match the color of original object.
 
-**Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 

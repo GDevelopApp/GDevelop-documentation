@@ -3,14 +3,12 @@
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/9183b1a2c466ffc831a749b3a2692200b070a88f807696d99caa662632c2ed73_selection-drag.svg" class="extension-icon"></img>
 Select object instances by drawing rectangular, polygonal or lasso selection.
 
-**Authors and contributors** to this community extension: [AshBadas](https://gd.games/AshBadas).
+**Authors and contributors** to this experimental extension: [AshBadas](https://gd.games/AshBadas).
 
 !!! warning
-    This is an extension made by a community member — but not reviewed
-    by the GDevelop extension team. As such, we can't guarantee it
-    meets all the quality standards of official extensions. In case of
-    doubt, contact the author to know more about what the extension
-    does or inspect its content before using it.
+    This is an extension made by a community member and it only got through a
+    light review by the GDevelop extension team. As such, we can't guarantee it
+    meets all the quality standards of fully reviewed extensions.
 
 ---
 

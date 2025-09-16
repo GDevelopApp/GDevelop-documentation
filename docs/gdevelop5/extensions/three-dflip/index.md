@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/flip-horizontal.svg" class="extension-icon"></img>
 Flip sprites with a 3D-like rotation effect.
 
-**Authors and contributors** to this community extension: [VegeTato](https://gd.games/VegeTato), [D8H](https://gd.games/D8H).
+**Authors and contributors** to this experimental extension: [VegeTato](https://gd.games/VegeTato), [D8H](https://gd.games/D8H).
 
 ---
 

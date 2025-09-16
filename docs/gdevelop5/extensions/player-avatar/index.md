@@ -3,7 +3,7 @@
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Users/1f89f002e87f1e836320f69725d21e3294e7e2e18ff7dd645c6973e9775d24c3_Users_avatar_user_profile_male.svg" class="extension-icon"></img>
 Display player avatars according to their GDevelop account.
 
-**Authors and contributors** to this community extension: [Bouh](https://gd.games/Bouh).
+**Authors and contributors** to this experimental extension: [Bouh](https://gd.games/Bouh).
 
 ---
 

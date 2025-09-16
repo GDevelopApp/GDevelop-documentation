@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/rocket-launch.svg" class="extension-icon"></img>
 Make a projectile object move towards a target object.
 
-**Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 

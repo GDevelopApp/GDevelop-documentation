@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/repeat.svg" class="extension-icon"></img>
 This behavior moves objects back and forth for a chosen time or distance, vertically or horizontally.
 
-**Authors and contributors** to this community extension: [Greench](https://gd.games/Greench).
+**Authors and contributors** to this experimental extension: [Greench](https://gd.games/Greench).
 
 ---
 

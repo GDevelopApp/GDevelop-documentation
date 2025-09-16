@@ -3,7 +3,7 @@
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/e509cccd7fb426978c4a79b639670f624f773a886848d288a12be5c28dd7d380_sort-numeric-variant.svg" class="extension-icon"></img>
 Smoothly change a counter value in a text object.
 
-**Authors and contributors** to this community extension: [Jurfix](https://gd.games/Jurfix).
+**Authors and contributors** to this experimental extension: [Jurfix](https://gd.games/Jurfix).
 
 ---
 

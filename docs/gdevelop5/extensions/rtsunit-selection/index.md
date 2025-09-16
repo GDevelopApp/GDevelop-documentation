@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/pencil-box-outline.svg" class="extension-icon"></img>
 Allow player to select units by clicking on them or dragging a selection box.
 
-**Authors and contributors** to this community extension: [VictrisGames](https://gd.games/VictrisGames), [Slash](https://gd.games/Slash).
+**Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames), [Slash](https://gd.games/Slash).
 
 ---
 

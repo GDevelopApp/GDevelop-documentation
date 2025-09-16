@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/sticker-outline.svg" class="extension-icon"></img>
 Make objects follow the position and rotation of the object they are stuck to.
 
-**Authors and contributors** to this community extension: [D8H](https://gd.games/D8H).
+**Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
 
 ---
 
