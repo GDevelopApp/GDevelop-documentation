@@ -55,7 +55,7 @@ This can also be used to rotate bones.
 Note that if a child is affected by a playing animation, it will override this change. In that case, please pause the animation.
 
 **😀Change morph target value**  
-Change morph target values of 3D models.  
+Change morph target values of 3D objects.  
 The names of the morph target must be checked in advance using the "🛟Output morph target names" action or a 3D modeling tool.
 Note that if a morph target is affected by a playing animation, it will override this change. In that case, please pause the animation.
 
