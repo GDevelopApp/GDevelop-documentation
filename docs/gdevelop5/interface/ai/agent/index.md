@@ -53,7 +53,7 @@ Here are a few best practices for working with the AI agent:
 
 ## Cost of an AI request
 
-Each account starts with a few **free AI requests**. If you have a GDevelop Gold or Pro subscription, you’ll receive more every month — 25 with Gold and 75 with Pro.
+Each account starts with a few **free AI requests**. If you have a GDevelop Silver, Gold or Pro subscription, you’ll receive more every day — 4 with Silver, 20 with Gold and 100 with Pro.
 
 Once you've used all free requests, a request to the AI agent you send costs **4 to 20 credits**. The actual price depends on how much work and thinking the AI agent has to do. A simple request for a small change will be 4 credits, while a work involved request that needs for example to generate multiple events can be 16 or 20 credits.
 
