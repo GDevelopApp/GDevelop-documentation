@@ -36,7 +36,7 @@ The AI chat is perfect for getting a better understanding of a game develpment n
 
 ## Cost of an answer from the AI
 
-Each account starts with a few **free AI answers**. If you have a GDevelop Gold or Pro subscription, you’ll receive more every month — 25 with Gold and 75 with Pro.
+Each account starts with a few **free AI requests**. If you have a GDevelop Silver, Gold or Pro subscription, you’ll receive more every day — 4 with Silver, 20 with Gold and 100 with Pro.
 
 !!! tip
 
