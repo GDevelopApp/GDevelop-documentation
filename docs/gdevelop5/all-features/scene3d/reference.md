@@ -288,6 +288,21 @@ Properties of this effect are:
 - **Distance where the fog is fully opaque**. Default value is `2000`. For events, write: `"far"`.
 - **Distance where the fog starts**. Default value is `200`. For events, write: `"near"`.
 
+### Effect "Skybox"
+
+Display a background on a cube surrounding the scene.
+
+This effect is for 3D layers only.
+
+Properties of this effect are:
+
+- **Back face (Z-)**. Default value is ``. For events, write: `"backFaceResourceName"`.
+- **Bottom face (Y+)**. Default value is ``. For events, write: `"bottomFaceResourceName"`.
+- **Front face (Z+)**. Default value is ``. For events, write: `"frontFaceResourceName"`.
+- **Left face (X-)**. Default value is ``. For events, write: `"leftFaceResourceName"`.
+- **Right face (X+)**. Default value is ``. For events, write: `"rightFaceResourceName"`.
+- **Top face (Y-)**. Default value is ``. For events, write: `"topFaceResourceName"`.
+
 
 
 ---
