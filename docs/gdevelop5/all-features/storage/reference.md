@@ -22,10 +22,10 @@ Save the text in the specified storage, in the specified element.
 Specify the structure leading to the element using / (example : Root/Level/Current)
 Spaces are forbidden in element names.
 
-**Load a storage in memory**  
-This action loads the specified storage in memory, so you can write and read it.  
-You can open and write without using this action, but it will be slower.
-If you use this action, do not forget to unload the storage from memory.
+**Manually preload a storage in memory**  
+Forces the specified storage to be loaded and kept in memory, allowing faster reads/writes. However, it requires manual management: if you use this action, you *must* also unload the storage manually when it's no longer needed to ensure data is persisted.  
+
+Unless you have a specific performance need, avoid using this action. The system already handles loading/unloading automatically.
 
 **Load a value**  
 Load the value saved in the specified element and store it in a variable.  
@@ -37,8 +37,8 @@ Load the text saved in the specified element and store it in a variable.
 Specify the structure leading to the element using / (example : Root/Level/Current)
 Spaces are forbidden in element names.
 
-**Close a storage**  
-This action closes the structured data previously loaded in memory, saving all changes made.
+**Manually unload and persist a storage**  
+Close the specified storage previously loaded in memory, saving all changes made.
 
 ## Conditions
 
