@@ -46,12 +46,17 @@ GDevelop requires an internet connection to access services such as: exporting a
 ```
 *.gdevelop.io
 *.gdevelop-app.com
-*.amazonaws.com
-*.cloudfront.net
 *.googleapis.com
+*.amazonaws.com
+*.cloudflarestorage.com
+```
+
+If you can, also whitelist these domains to ensure games exported from GDevelop can be played:
+
+```
+*.cloudfront.net
+app.posthog.com
 *.github.com
 *.gd.games
-gdevelop-services.firebaseapp.com
-gdevelop-services.firebaseio.com
-gdevelop-services.appspot.com
+gravatar.com
 ```
