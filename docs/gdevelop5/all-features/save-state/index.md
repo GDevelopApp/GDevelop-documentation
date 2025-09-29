@@ -8,6 +8,8 @@ title: GDevelop Save State
 
 GDevelop provides a built-in solution for **saving and loading**. It is built to be very easy to use, with a simple action to save the game state and another one to load it.
 
+![](save-action.png)
+
 Save & Load can be done in 2 different ways:
 
 - **Using the device storage** This is the easiest way to save/load the game state, and is recommended for most games, as it works on all platforms (web, desktop, mobile) and ensure the date is persisted between game sessions (closing and reopening the game).
