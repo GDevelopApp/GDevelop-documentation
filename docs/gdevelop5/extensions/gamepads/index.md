@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/gamepad-variant-outline.svg" class="extension-icon"></img>
 Add support for gamepads (or other controllers) to your game, giving access to information such as button presses, axis positions, trigger pressure, etc...
 
-**Authors and contributors** to this experimental extension: [Bouh](https://gd.games/Bouh), [lhphr](https://gd.games/lhphr), [ZachjuKamashi](https://gd.games/ZachjuKamashi).
+**Authors and contributors** to this experimental extension: [Bouh](https://gd.games/Bouh), [lhphr](https://gd.games/lhphr), [ZachjuKamashi](https://gd.games/ZachjuKamashi), [D8H](https://gd.games/D8H).
 
 ---
 
@@ -68,6 +68,12 @@ Check if the specified gamepad has the specified information in its description.
 
 **Any gamepad button released**  
 Check if any button is released on a gamepad.
+
+**Gamepad button just pressed**  
+Check if a button was just pressed on a gamepad. Buttons can be:  
+* Xbox: "A", "B", "X", "Y", "LB", "RB", "LT", "RT", "BACK", "START",
+* PS4: "CROSS", "SQUARE", "CIRCLE", "TRIANGLE", "L1", "L2", "R1", "R2", "SHARE", "OPTIONS", "PS_BUTTON", "CLICK_TOUCHPAD",
+* Other: "UP", "DOWN", "LEFT", "RIGHT", "CLICK_STICK_LEFT", "CLICK_STICK_RIGHT".
 
 **Stick force**  
 Compare the force of gamepad stick (from 0 to 1).
