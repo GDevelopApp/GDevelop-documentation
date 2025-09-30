@@ -1421,6 +1421,18 @@ Allow your game to authenticate players. [Read more explanations about it.](/gde
 ---
 
 
+## Save State (experimental)
+
+Allows to save and load the full state of a game. [Read more explanations about it.](/gdevelop5/all-features/save-state)
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `SaveState::TimeSinceLastLoad()` | Return Time since the last load, in seconds. Returns -1 if no load happened, and a positive number otherwise.. ||
+| `SaveState::TimeSinceLastSave()` | Return Time since the last save, in seconds. Returns -1 if no save happened, and a positive number otherwise.. ||
+
+---
+
+
 
 ## Spine (experimental) 
 

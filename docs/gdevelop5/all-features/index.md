@@ -68,6 +68,7 @@ Note that GDevelop can also be extended with extensions: take a look at [the lis
 * [2D Physics Engine](/gdevelop5/behaviors/physics2) ([reference](/gdevelop5/all-features/physics2/reference))
 * [3D physics engine](/gdevelop5/behaviors/physics3d) ([reference](/gdevelop5/all-features/physics3d/reference))
 * [Player Authentication](/gdevelop5/all-features/player-authentication) ([reference](/gdevelop5/all-features/player-authentication/reference))
+* [Save State (experimental)](/gdevelop5/all-features/save-state) ([reference](/gdevelop5/all-features/save-state/reference))
 * [Screenshot](/gdevelop5/all-features/screenshot) ([reference](/gdevelop5/all-features/screenshot/reference))
 * [Spatial sound](/gdevelop5/all-features/spatial-sound/reference)
 * [Spine (experimental)](/gdevelop5/objects/spine) ([reference](/gdevelop5/all-features/spine-object/reference))
