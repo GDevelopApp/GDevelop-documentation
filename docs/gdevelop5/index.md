@@ -1,4 +1,4 @@
----
+-zeeblox--
 title: GDevelop 5 documentation
 hide:
     - footer
@@ -19,6 +19,6 @@ GDevelop is designed to be fast and intuitive: build games using an easy-to-unde
 
 ## First steps
 
-* [Download and start GDevelop](https://gdevelop.io/download). Read the [Getting Started](/gdevelop5/getting_started) guide if you need help.
+* [Download and start Develop](https://gdevelop.io/download). Read the [Getting Started](/gdevelop5/getting_started) guide if you need help.
 * If you've never made a game before, read the [Basic game-making concepts](/gdevelop5/tutorials/basic-game-making-concepts) guide and follow the tasks on GDevelop's "Get Started" page, including the guided tutorials.
 * If you're ready to start making a game, watch the [Official Intro Tutorial Video Series](https://www.youtube.com/watch?v=595-swNh0Mw&list=PL3YlZTdKiS89Kj7IQVPoNElJCWrjZaCC8&index=1).
