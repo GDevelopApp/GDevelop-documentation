@@ -26,11 +26,14 @@ There are ready-to-use joysticks in the asset-store [multitouch joysticks pack](
 **New touch on a screen side**  
 Check if a new touch has started on the right or left side of the screen.
 
+**Multitouch controller button just pressed**  
+Check if a button was just pressed on a multitouch controller.
+
 **Multitouch controller button pressed**  
-Check if a button is pressed on a gamepad.
+Check if a button is pressed on a multitouch controller.
 
 **Multitouch controller button released**  
-Check if a button is released on a gamepad.
+Check if a button is released on a multitouch controller.
 
 **Joystick pushed in a direction (4-way)**  
 Check if joystick is pushed in a given direction.
@@ -202,11 +205,14 @@ Detect presses made on a touchscreen on the object so it acts like a button and 
 
 ### Behavior conditions
 
+**Button just pressed**  
+Check if the button was just pressed.
+
 **Button pressed**  
-Check if button is pressed.
+Check if the button is pressed.
 
 **Button released**  
-Check if button is released.
+Check if the button is released.
 
 _No expressions for this behavior._
 

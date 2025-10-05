@@ -238,7 +238,7 @@ This effect is for 3D layers only.
 Properties of this effect are:
 
 - **Fog color**. Default value is `255;255;255`. For events, write: `"color"`.
-- **Density**. Default value is `0.0012`. For events, write: `"density"`.
+- **Density**: Density of the fog. Usual values are between 0.0005 (far away) and 0.005 (very thick fog).. Default value is `0.0012`. For events, write: `"density"`.
 
 ### Effect "Exposure"
 

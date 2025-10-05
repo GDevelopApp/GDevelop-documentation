@@ -1,6 +1,6 @@
 # Debugger Tools Reference
 
-Allow to interact with the editor debugger from the game. 
+Allow to interact with the editor debugger from the game (notably: enable 2D debug draw, log a message in the debugger console). 
 
 ## Actions
 
