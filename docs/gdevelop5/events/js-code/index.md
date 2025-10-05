@@ -101,11 +101,15 @@ Equivalent events would be:
 
 By writing the **annotation** `/** @type {gdjs.XXX} */` just before the declaration of a variable in JavaScript, you let the code editor know that the variable has the type gdjs.XXX. The editor will be able to assist you by providing **autocompletion** while you type (or when you hover over a word).
 
-Most of the time annotations are not needed. The methods that you are using are already setup with [type annotations](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/modules/gdjs.html). But when you use a list of objects, you may want to access this object specific method (for example, methods to modify the animation of a sprite object). In this case, you could write `/** @type {gdjs.SpriteRuntimeObject} */`.
+Most of the time annotations are not needed. The methods that you are using are already setup with type annotations. But when you use a list of objects, you may want to access this object specific method (for example, methods to modify the animation of a sprite object). In this case, you could write `/** @type {gdjs.SpriteRuntimeObject} */`.
 
-If you don't do this, the code will still work, but the editor will only be able to provide you with the methods of `gdjs.RuntimeObject` (the base class).
+If you don't do this, the code will still work, but the editor will only be able to provide you with the methods of [gdjs.RuntimeObject](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/classes/gdjs.RuntimeObject.html) (the base class).
 
-When you get the behavior from an object, you also know what kind of behavior you're getting. Let the editor know this using an annotation (otherwise, you'll only get autocompletion for the base class, `gdjs.RuntimeBehavior`).
+When you get the behavior from an object, you also know what kind of behavior you're getting. Let the editor know this using an annotation (otherwise, you'll only get autocompletion for the base class, [gdjs.RuntimeBehavior](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/classes/gdjs.RuntimeBehavior.html)).
+
+!!! tip
+
+    [gdjs.RuntimeObject](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/classes/gdjs.RuntimeObject.html) and [gdjs.RuntimeBehavior](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/classes/gdjs.RuntimeBehavior.html) pages give the list of all the objects and behaviors you can use in type annotations.
 
 ```javascript
 const players = runtimeScene.getObjects("Player");
