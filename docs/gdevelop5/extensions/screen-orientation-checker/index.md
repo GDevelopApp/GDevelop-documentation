@@ -28,13 +28,22 @@ Automatically display a screen asking the player to rotate their screen if neede
 **Force show the screen**  
 Change if the screen should be forced to be shown. Use this to test the screen in your game.
 
+**Message**  
+Change the message of the object.
+
 ### Object conditions
 
 **Force show the screen**  
 Check if the screen should be forced to be shown. Use this to test the screen in your game.
 
-_No expressions for this object._
+**Message**  
+Compare the message of the object.
 
+### Object expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.Message()` | Return the message of the object. ||
 
 
 ---
