@@ -5,9 +5,9 @@ Common features that can be used for all objects in GDevelop. [Read more explana
 ## Actions
 
 **Pick a random object**  
-Pick one object from all the specified objects. When an object is picked, the next conditions and actions of this event work only on that object.
+Pick one instance from all the specified objects. When an instance is picked, the next conditions and actions of this event work only on that object instance.
 
-**Pick all instances**  
+**Pick all object instances**  
 Pick all instances of the specified object(s). When you pick all instances, the next conditions and actions of this event work on all of them.
 
 **Create an object**  
@@ -19,13 +19,16 @@ Among the objects of the specified group, this action will create the object wit
 **Apply movement to all objects**  
 Moves all objects according to the forces they have. GDevelop calls this action at the end of the events by default.
 
+**Pick nearest object**  
+Pick the instance of this object that is nearest to the specified position.
+
 ## Conditions
 
 **Pick a random object**  
-Pick one object from all the specified objects. When an object is picked, the next conditions and actions of this event work only on that object.
+Pick one instance from all the specified objects. When an instance is picked, the next conditions and actions of this event work only on that object instance.
 
-**Pick all objects**  
-Pick all the specified objects. When you pick all objects, the next conditions and actions of this event work on all of them.
+**Pick all object instances**  
+Pick all instances of the specified object(s). When you pick all instances, the next conditions and actions of this event work on all of them.
 
 **Collision**  
 Test the collision between two objects using their collision masks.
@@ -38,7 +41,7 @@ If condition is inverted, only objects that have a distance greater than specifi
 Check if an object is turned toward another
 
 **Pick nearest object**  
-Pick the object of this type that is nearest to the specified position. If the condition is inverted, the object farthest from the specified position is picked instead.
+Pick the instance of this object that is nearest to the specified position. If the condition is inverted, the instance farthest from the specified position is picked instead.
 
 **Number of object instances currently picked**  
 Compare the number of instances picked by the previous conditions (or actions).
@@ -172,6 +175,9 @@ Rotate an object, clockwise if the speed is positive, counterclockwise otherwise
 
 **Rotate toward angle**  
 Rotate an object towards an angle with the specified speed.
+
+**Rotate toward another object**  
+Rotate an object towards another object, with the specified speed. Note that if multiple instances of the target object are picked, only the first one will be used. Use a For Each event or actions like "Pick nearest object", "Pick a random object" to refine the choice of the target object.
 
 **Rotate toward position**  
 Rotate an object towards a position, with the specified speed.

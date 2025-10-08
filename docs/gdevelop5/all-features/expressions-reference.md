@@ -617,8 +617,10 @@ Jump and run on platforms. [Read more explanations about it.](/gdevelop5/behavio
 
 Destroy objects automatically when they go outside of the 2D camera borders. [Read more explanations about it.](/gdevelop5/behaviors/destroyoutside)
 
-_No expressions for this behavior._
-
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.DestroyOutside::ExtraBorder()` | Return the extra distance (in pixels) the object must travel beyond the screen before it gets deleted. ||
+| `Object.DestroyOutside::UnseenGraceDistance()` | Return the grace distance (in pixels) before deleting the object if it has never been visible on the screen. Useful to avoid objects being deleted before they are visible when they spawn. ||
 
 ---
 

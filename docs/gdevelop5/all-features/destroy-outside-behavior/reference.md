@@ -1,6 +1,6 @@
 # Destroy Outside Screen Behavior Reference
 
-This behavior can be used to destroy objects when they go outside of the bounds of the 2D camera. Useful for 2D bullets or other short-lived objects. Don't use it for 3D objects in a FPS/TPS game or any game with a camera not being a top view (for 3D objects, prefer comparing the position, for example Z position to see if an object goes outside of the bound of the map). Be careful when using this behavior because if the object appears outside of the screen, it will be immediately removed. [Read more explanations about it.](/gdevelop5/behaviors/destroyoutside)
+This behavior can be used to destroy objects when they go outside of the bounds of the 2D camera. Useful for 2D bullets or other short-lived objects. Don't use it for 3D objects in a FPS/TPS game or any game with a camera not being a top view (for 3D objects, prefer comparing the position, for example Z position to see if an object goes outside of the bound of the map). If the object appears outside of the screen, it's not removed unless it goes beyond the unseen object grace distance. [Read more explanations about it.](/gdevelop5/behaviors/destroyoutside)
 
 
 
@@ -13,13 +13,23 @@ Destroy objects automatically when they go outside of the 2D camera borders.
 **Additional border (extra distance before deletion)**  
 Change the extra distance (in pixels) the object must travel beyond the screen before it gets deleted.
 
+**Unseen object grace distance**  
+Change the grace distance (in pixels) before deleting the object if it has never been visible on the screen. Useful to avoid objects being deleted before they are visible when they spawn.
+
 ### Behavior conditions
 
 **Additional border (extra distance before deletion)**  
 Compare the extra distance (in pixels) the object must travel beyond the screen before it gets deleted.
 
-_No expressions for this behavior._
+**Unseen object grace distance**  
+Compare the grace distance (in pixels) before deleting the object if it has never been visible on the screen. Useful to avoid objects being deleted before they are visible when they spawn.
 
+### Behavior expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.DestroyOutside::ExtraBorder()` | Return the extra distance (in pixels) the object must travel beyond the screen before it gets deleted. ||
+| `Object.DestroyOutside::UnseenGraceDistance()` | Return the grace distance (in pixels) before deleting the object if it has never been visible on the screen. Useful to avoid objects being deleted before they are visible when they spawn. ||
 
 
 
