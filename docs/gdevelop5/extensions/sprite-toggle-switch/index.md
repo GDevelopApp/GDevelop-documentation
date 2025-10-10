@@ -53,6 +53,12 @@ Check if the toggle switch is checked.
 **Is hovered**  
 Check if the cursor is hovered over the button.
 
+**Is pressed**  
+Check if the button is currently being pressed with mouse or touch.
+
+**Is held outside**  
+Check if the button is currently being pressed outside with mouse or touch.
+
 _No expressions for this object._
 
 
