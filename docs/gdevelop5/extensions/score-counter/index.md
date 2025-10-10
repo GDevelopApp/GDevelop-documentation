@@ -9,6 +9,8 @@ An animated score counter with an icon and a customisable font.
 
 An animated score counter with an icon and a customisable font.
 
+There are ready-to-use counters in the asset-store [score counters pack](https://editor.gdevelop.io/?initial-dialog=asset-store&asset-pack=score-counters-score-counters).
+
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 

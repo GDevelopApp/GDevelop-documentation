@@ -14,6 +14,8 @@ A scrollbar to help making a scroll view.
 
 A scrollbar to help making a scroll view.
 
+An example of scroll view can be found in the [multiplayer custom lobbies](https://wiki.gdevelop.io/gdevelop5/extensions/multiplayer-custom-lobbies/) extension.
+
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 

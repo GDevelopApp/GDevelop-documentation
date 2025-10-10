@@ -11,6 +11,8 @@ An animated bar to rate out of 5, or more by editing and adding more stars in th
 The animation can be disabled.
 The star icon and background are customizable.
 
+There are ready-to-use bars in the asset-store [star rating bars pack](https://editor.gdevelop.io/?initial-dialog=asset-store&asset-pack=star-rating-bars-star-rating-bars).
+
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 

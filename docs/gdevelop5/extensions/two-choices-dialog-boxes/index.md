@@ -10,6 +10,8 @@ A dialog box with buttons to let users make a choice.
 A dialog box showing multiple options (usually "yes" and "no") and a customizable text message.
 It handles keyboard, gamepad and touch controls.
 
+There are ready-to-use dialog boxes in the asset-store [dialog boxes pack](https://editor.gdevelop.io/?initial-dialog=asset-store&asset-pack=dialog-boxes-dialog-boxes).
+
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
