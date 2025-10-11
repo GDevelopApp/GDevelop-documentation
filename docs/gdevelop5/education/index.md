@@ -1,5 +1,6 @@
 ---
 title: GDevelop for Education
+icon: material/school
 ---
 
 # GDevelop for Education
