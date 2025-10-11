@@ -1,5 +1,6 @@
 ---
 title: Publishing games
+icon: material/upload
 ---
 # Publishing games
 

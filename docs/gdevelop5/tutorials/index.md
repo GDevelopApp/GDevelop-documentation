@@ -1,5 +1,6 @@
 ---
 title: GDevelop 5 tutorials
+icon: material/book-open-variant
 ---
 
 # GDevelop 5 tutorials

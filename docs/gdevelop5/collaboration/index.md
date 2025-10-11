@@ -1,5 +1,6 @@
 ---
 title: Collaborate on a GDevelop project
+icon: material/account-multiple-check
 ---
 
 # Collaborate on a GDevelop project

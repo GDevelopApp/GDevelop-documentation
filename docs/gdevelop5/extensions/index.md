@@ -1,3 +1,7 @@
+---
+icon: material/puzzle-outline
+---
+
 # Extensions
 
 GDevelop is built in a flexible way. In addition to [core features](/gdevelop5/all-features), new capabilities are provided by extensions. Extensions can contain objects, behaviors, actions, conditions, expressions or events.
