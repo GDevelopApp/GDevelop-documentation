@@ -1,6 +1,6 @@
 ---
 title: Publishing games
-icon: material/upload
+icon: material/cloud-upload
 ---
 # Publishing games
 
