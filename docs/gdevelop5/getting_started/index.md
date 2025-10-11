@@ -1,5 +1,6 @@
 ---
 title: Getting Started with GDevelop
+icon: material/rocket-launch
 ---
 # Getting Started with GDevelop
 
