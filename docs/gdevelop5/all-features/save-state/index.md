@@ -75,6 +75,7 @@ You can also configure **scene or global variables** to be included or excluded 
 - Include it only in certain save profiles (see next section).
 
 Similarly, you can use these actions for fine-grained control on what is saved/loaded in the rest of the game:
+
 - **Change the save configuration of the global game data**: this does the same for global variables and audio (sounds/musics being played).
 - **Change the save configuration of a scene data**: this does the same for the scene variables, timers, layers, asynchronous actions (Wait X seconds).
 
