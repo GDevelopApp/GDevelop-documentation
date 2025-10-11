@@ -1,12 +1,12 @@
 title: GDevelop 5
 nav:
   - index.md
-  - getting_started
-  - interface
-  - objects
-  - behaviors
-  - events
-  - all-features
+  - ":material-rocket-launch: Getting started": getting_started
+  - ":material-view-dashboard-outline: Interface": interface
+  - ":material-cube-outline: Objects": objects
+  - ":material-cog-outline: Behaviors": behaviors
+  - ":material-flash-outline: Events": events
+  - ":material-view-grid-outline: All features": all-features
   - extensions
   - Tutorials and Guides: tutorials
   - Publishing games: publishing
