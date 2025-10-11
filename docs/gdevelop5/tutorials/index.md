@@ -1,6 +1,5 @@
 ---
 title: GDevelop 5 tutorials
-icon: material/school
 ---
 
 # GDevelop 5 tutorials
