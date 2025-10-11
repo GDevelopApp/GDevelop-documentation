@@ -1425,12 +1425,19 @@ Allow your game to authenticate players. [Read more explanations about it.](/gde
 
 ## Save State (experimental)
 
-Allows to save and load the full state of a game. [Read more explanations about it.](/gdevelop5/all-features/save-state)
+Allows to save and load the full state of a game, usually on the device storage. A Save State, by default, contains the full state of the game (objects, variables, sounds, music, effects etc.). Using the "Save Configuration" behavior, you can customize which objects should not be saved in a Save State. You can also use the "Change the save configuration of a variable" action to change the save configuration of a variable. Finally, both objects, variables and scene/game data can be given a profile name: in this case, when saving or loading with one or more profile names specified, only the object/variables/data belonging to one of the specified profiles will be saved or loaded. [Read more explanations about it.](/gdevelop5/all-features/save-state)
 
 | Expression | Description |  |
 |-----|-----|-----|
 | `SaveState::TimeSinceLastLoad()` | Return Time since the last load, in seconds. Returns -1 if no load happened, and a positive number otherwise.. ||
 | `SaveState::TimeSinceLastSave()` | Return Time since the last save, in seconds. Returns -1 if no save happened, and a positive number otherwise.. ||
+
+## Save state configuration (from extension Save State (experimental))
+
+Allow the customize how the object is persisted in a save state. [Read more explanations about it.](/gdevelop5/all-features/save-state)
+
+_No expressions for this behavior._
+
 
 ---
 
