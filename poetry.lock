@@ -377,14 +377,11 @@ wcmatch = ">=7"
 
 [[package]]
 name = "mkdocs-material"
-version = "9.2.7"
+version = "9.6.21"
 description = "Documentation that simply works"
 optional = false
 python-versions = ">=3.7"
-files = [
-    {file = "mkdocs_material-9.2.7-py3-none-any.whl", hash = "sha256:92e4160d191cc76121fed14ab9f14638e43a6da0f2e9d7a9194d377f0a4e7f18"},
-    {file = "mkdocs_material-9.2.7.tar.gz", hash = "sha256:b44da35b0d98cd762d09ef74f1ddce5b6d6e35c13f13beb0c9d82a629e5f229e"},
-]
+files = []
 
 [package.dependencies]
 babel = ">=2.10,<3.0"
