@@ -1,5 +1,6 @@
 ---
 title: Objects
+icon: material/cube-outline
 ---
 # Objects
 

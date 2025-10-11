@@ -1,5 +1,6 @@
 ---
 title: Events
+icon: material/flash
 ---
 # Events
 

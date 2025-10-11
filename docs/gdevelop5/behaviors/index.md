@@ -1,5 +1,6 @@
 ---
 title: Behaviors
+icon: material/tune
 ---
 # Behaviors
 

@@ -1,5 +1,6 @@
 ---
 title: GDevelop interface
+icon: material/monitor
 ---
 # GDevelop's user interface
 
