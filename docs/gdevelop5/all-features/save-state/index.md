@@ -8,28 +8,34 @@ The **Save State** extension allows you to **save and restore the full state of 
 
 It is designed to be **easy to use by default**, while also providing **advanced configuration options** for developers who need finer control over what gets saved or loaded.
 
-![](save-action.png)
+<div class="video-container">
+  <video muted="true" autoplay="true" loop="true">
+    <source src="save-load-demo.mp4" type="video/mp4">
+  </video>
+</div>
 
 ## Basic Usage
 
-You can save and load the game state in **two main ways**:
+You can save and load the game state in **two main ways**: to a device storage handled by GDevelop or to a variable.
 
 ### 1. Save to Device Storage
 
 This is the **recommended** approach for most games. It automatically stores the save data in the player’s **device storage** (web, desktop, or mobile), ensuring that the save persists between sessions — even if the game is closed or restarted.
 
-Use these actions:
+For this, use actions **Save game to device storage** and **Load game from device storage**.
 
-- **Save game to device storage**
-- **Load game from device storage**
+![](save-device-storage-action.png)
 
 Each save uses a **storage key**, such as `"Save1"`, `"CheckpointA"`, or `"Autosave"`, to identify the save slot. This enables you to offer multiple save slots (in some games, it's usual to have 3 to 5 save slots that the player can use).
 
-While there is no hard limitation on the number of saves, some devices or browsers might have a limitation on the total size occupied by the saves. It's usually safer to limit the number of saves the player can do.
+
+!!! tip
+
+    While there is no hard limitation on the number of saves, some devices or browsers might have a limitation on the total size occupied by the saves. It's usually safer to limit the number of saves the player can do.
 
 ### 2. Save to a Variable (Advanced)
 
-You can also save the entire game state into a **scene or global variable**.  
+You can also save the entire game state into a **scene or global variable**.
 This is useful for:
 
 - Implementing checkpoints or quicksaves that don’t persist after closing the game. In this case, be sure to exclude the variable from the save state (see "Exclude Variables or other scene/game data from Save States" section below).
@@ -46,47 +52,42 @@ The extension provides a few **expressions and conditions** to help you monitor 
 
 ## Advanced: Excluding Objects from Save States with the “Save Configuration” Behavior.
 
-By default, everything in the game is saved — all objects, scene data, and variables.
-However, you can customize this behavior using the **Save Configuration** behavior or dedicated actions.
+By default, everything in the game is saved — all objects, scene data, and variables. In practice, there are objects you might want not to save, like interface elements, virtual joystick, backgrounds, etc...
 
-Add the **Save Configuration** behavior to any object you don’t want to include in save states or only in some save states.
-It has two properties:
+You can customize this behavior using the **Save Configuration** behavior or dedicated actions.
 
-- **Persistence mode**:
-  - `Persisted` (default): the object is included in save states.
-  - `Do not save`: the object is excluded.
-- **Save profile names**: optional comma-separated list of profiles (see below) in which this object should be included.
+Add the **Save Configuration** behavior to any object you don’t want to include in save states or only in some save states. Then, set up the properties
 
-For example, you can exclude a particle system object or UI elements like Joysticks or health bars that doesn’t need to be saved.
+- **Default persistence mode**:
+  - `Persisted` (default): the object is included in save states and loaded back.
+  - `Do not save`: the object is excluded. It won't be saved, and even if it was saved, it won't be loaded.
+- **Profile names**: optional comma-separated list of profiles (see below) in which this object should be included.
+
+!!! tip
+
+    The best practice is to tag all objects from your game interface, virtual controls as well as objects that are not part of the gameplay with this behavior and the "Do not save" mode.
 
 ### Exclude Variables or other Scene/Game Data from Save States
 
-You can also configure **scene or global variables** to be included or excluded from save states dynamically. Use the action **"Change the save configuration of a variable"**.
+You can also configure **scene or global variables** to be included or excluded from save states dynamically. Use the action **"Change the save configuration of a variable"**. It lets you:
 
-This lets you:
-- Exclude a variable from all saves.
+- Exclude a variable from all saves. This is helpful for variables that must stay the same or that are already loaded from another storage, like game settings (audio volume, custom control schemes or keys, etc...).
 - Include it only in certain save profiles (see next section).
-- Adjust what gets persisted during gameplay (for example, disable autosave for debug data).
 
-Similarly, you can use these actions for broader control:
-- **Change the save configuration of the global game data**
-- **Change the save configuration of a scene data**
-
----
+Similarly, you can use these actions for fine-grained control on what is saved/loaded in the rest of the game:
+- **Change the save configuration of the global game data**: this does the same for global variables and audio (sounds/musics being played).
+- **Change the save configuration of a scene data**: this does the same for the scene variables, timers, layers, asynchronous actions (Wait X seconds).
 
 ## Even More Advanced: Using Save Profiles
 
-The Save State system supports **profiles**, allowing you to organize save data into different categories.
+The Save State system supports **profiles**, allowing you to save only some part of the game. For example, you could:
 
-Each object, variable, or piece of scene/game data can be assigned one or more **profile names** (like `"default"`, `"checkpoint"`, `"player"`, etc.).
+- Make a full save of the game after a level is completed (this is what happens when you don't specify a profile: the "default" profile is used).
+- During a level, use the save state with a specific profile `"enemies"` to save enemies positions when a checkpoint is reached. If they player dies, you put it back to the checkpoint position and the save state with the profile `"enemies"` so that enemies are restored - but the rest of the game continues to run.
+
+Each object, variable, or piece of scene/game data can be assigned one or more **profile names** (like `"default"`, `"checkpoint"`, `"player"`, etc.). For example, a coin can be `items, coins`.
 
 When you perform a save or load, you can specify one or more profiles — and only the data tagged with those profiles will be affected.
-
-### Example Use Cases
-
-- **Split save data:** Save “player” progress separately from “world” state.
-- **Selective restore:** Load only some data (for instance, restore player stats without reloading the entire scene).
-- **Checkpoints:** Save lightweight data per checkpoint using profiles.
 
 ## Known Limitations
 
