@@ -8,6 +8,14 @@ The **Save State** extension allows you to **save and restore the full state of 
 
 It is designed to be **easy to use by default**, while also providing **advanced configuration options** for developers who need finer control over what gets saved or loaded.
 
+These two short videos are illustrating save states being used/restored in a 3D game (using the 3D physics engine) and a 2D game:
+
+<div class="video-container">
+  <video muted="true" autoplay="true" loop="true">
+    <source src="save-load-3d-demo.mp4" type="video/mp4">
+  </video>
+</div>
+
 <div class="video-container">
   <video muted="true" autoplay="true" loop="true">
     <source src="save-load-demo.mp4" type="video/mp4">
