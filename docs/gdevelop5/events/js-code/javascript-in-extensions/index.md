@@ -7,7 +7,7 @@ title: Use JavaScript in extensions
 
 After [creating a new extension](/gdevelop5/extensions/create/), you need to define an action with a [JS event](/gdevelop5/events/js-code/) to declare the library code.
 
-In order to get the library code, you can copy the content of a bundled library for instance a UMD one. You can usually find bundled libraries in the **node_modules** folder of a JS project after the installation of the library with a packet manager.
+In order to get the library code, you can copy the content of a bundled library for instance a UMD one. You can usually find bundled libraries in the **node_modules** folder of a JS project after the installation of the library with a package manager.
 
 Bundled libraries have some extra code at the beginning and the end of the file to bundle the library. This code is not needed. Instead, the classes are added to the `gdjs` namespace like in the following code:
 

@@ -22,7 +22,7 @@ You can use this data type to organize related variables within a single variabl
 
     In programming languages, this data type is often referred to as an _object_, _map_, _hash_, or *dictionary*.
 
-Structures can be created in the Variables Editor, using events or by using an extension like [JSON resource loader](../../extensions/jsonresource-loader/).
+Structures can be created in the Variables Editor, using events or by using an extension like [JSON resource loader](../../../extensions/jsonresource-loader/).
 
 ![](structure-variable.png)
 
@@ -33,7 +33,7 @@ An Array variable, also sometimes called _list_ in programming languages, is lik
 Each variable in an Array has an index, which defines their position in the array.
 The indices begin at 0 and go up to however long the array is.
 
-Arrays can be created in the Variables Editor, using events or by using an extension like [JSON resource loader](../../extensions/jsonresource-loader/).
+Arrays can be created in the Variables Editor, using events or by using an extension like [JSON resource loader](../../../extensions/jsonresource-loader/).
 
 ![](array-variable.png)
 
