@@ -29,7 +29,7 @@ It can be helpful for:
 
 ## Conditions
 
-**Contain**
+**Contain**  
 Check if the stack contains the object.
 
 ??? quote "See parameters"
@@ -40,7 +40,7 @@ Check if the stack contains the object.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Contain at**
+**Contain at**  
 Check if the stack contains the object at a height.
 
 ??? quote "See parameters"
@@ -52,7 +52,7 @@ Check if the stack contains the object at a height.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Contain between a range**
+**Contain between a range**  
 Check if the stack contains the object between a range. The lower and upper bounds are included.
 
 ??? quote "See parameters"
@@ -65,7 +65,7 @@ Check if the stack contains the object between a range. The lower and upper boun
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Stack top**
+**Stack top**  
 Check if an object is on the stack top.
 
 ??? quote "See parameters"
@@ -84,7 +84,7 @@ Hold an ordered list of objects.
 
 ### Behavior actions
 
-**Add on top**
+**Add on top**  
 Add the object on the top of the stack.
 
 ??? quote "See parameters"
@@ -95,7 +95,7 @@ Add the object on the top of the stack.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Clear**
+**Clear**  
 Remove any object from the stack.
 
 ??? quote "See parameters"
@@ -105,7 +105,7 @@ Remove any object from the stack.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Insert into the stack**
+**Insert into the stack**  
 Insert the object into the stack.
 
 ??? quote "See parameters"
@@ -117,7 +117,7 @@ Insert the object into the stack.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Move all into the stack**
+**Move all into the stack**  
 Move all the object from a stack into another.
 
 ??? quote "See parameters"
@@ -130,7 +130,7 @@ Move all the object from a stack into another.
 
     > Technical note: parameter 5 are internal parameters handled by GDevelop.
 
-**Move all on top of the stack**
+**Move all on top of the stack**  
 Move all the object from a stack into another one at the top.
 
 ??? quote "See parameters"
@@ -142,7 +142,7 @@ Move all the object from a stack into another one at the top.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Move into the stack**
+**Move into the stack**  
 Move the objects from a stack into another.
 
 ??? quote "See parameters"
@@ -157,7 +157,7 @@ Move the objects from a stack into another.
 
     > Technical note: parameter 7 are internal parameters handled by GDevelop.
 
-**Remove from the stack**
+**Remove from the stack**  
 Remove the object from the stack.
 
 ??? quote "See parameters"
@@ -168,7 +168,7 @@ Remove the object from the stack.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Shuffle**
+**Shuffle**  
 Shuffle the stack.
 
 ??? quote "See parameters"
@@ -180,7 +180,7 @@ Shuffle the stack.
 
 ### Behavior conditions
 
-**Stack height**
+**Stack height**  
 Compare the number of objects in the stack.
 
 ??? quote "See parameters"
@@ -192,7 +192,7 @@ Compare the number of objects in the stack.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Is empty**
+**Is empty**  
 Check if the stack is empty.
 
 ??? quote "See parameters"

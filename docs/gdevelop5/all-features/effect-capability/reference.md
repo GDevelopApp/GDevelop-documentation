@@ -10,7 +10,7 @@ Actions/conditions to enable/disable and change parameters of visual effects app
 
 ### Behavior actions
 
-**Enable an object effect**
+**Enable an object effect**  
 Enable an effect on the object
 
 ??? quote "See parameters"
@@ -20,7 +20,7 @@ Enable an effect on the object
     - Parameter 2: 🔤 Object Effect Name (String)
     - Parameter 3 (❓ Yes or No): Enable?
 
-**Effect property (enable or disable)**
+**Effect property (enable or disable)**  
 Enable or disable a property of an effect.  
 You can find the property names (and change the effect names) in the effects window.
 
@@ -32,7 +32,7 @@ You can find the property names (and change the effect names) in the effects win
     - Parameter 3: 🔤 Object Effect Property Name (String)
     - Parameter 4 (❓ Yes or No): Enable this property
 
-**Effect property (number)**
+**Effect property (number)**  
 Change the value of a property of an effect.  
 You can find the property names (and change the effect names) in the effects window.
 
@@ -44,7 +44,7 @@ You can find the property names (and change the effect names) in the effects win
     - Parameter 3: 🔤 Object Effect Property Name (String)
     - Parameter 4 (🔢 Number): New value
 
-**Effect property (string)**
+**Effect property (string)**  
 Change the value (string) of a property of an effect.  
 You can find the property names (and change the effect names) in the effects window.
 
@@ -58,7 +58,7 @@ You can find the property names (and change the effect names) in the effects win
 
 ### Behavior conditions
 
-**Effect is enabled**
+**Effect is enabled**  
 Check if the effect on an object is enabled.
 
 ??? quote "See parameters"

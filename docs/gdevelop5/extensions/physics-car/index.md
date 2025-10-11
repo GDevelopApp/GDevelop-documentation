@@ -20,7 +20,7 @@ Simulate 2D car motion, from a top-down view.
 
 ### Behavior actions
 
-**Draw forces for debug**
+**Draw forces for debug**  
 Draw forces applying on the car for debug purpose.
 
 ??? quote "See parameters"
@@ -31,7 +31,7 @@ Draw forces applying on the car for debug purpose.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Acceleration**
+**Acceleration**  
 Change the acceleration of the object.
 
 ??? quote "See parameters"
@@ -43,7 +43,7 @@ Change the acceleration of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum speed**
+**Maximum speed**  
 Change the maximum speed of the object.
 
 ??? quote "See parameters"
@@ -55,7 +55,7 @@ Change the maximum speed of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Steering angle**
+**Steering angle**  
 Change the steering angle of the object.
 
 ??? quote "See parameters"
@@ -67,7 +67,7 @@ Change the steering angle of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum steering angle**
+**Maximum steering angle**  
 Change the maximum steering angle of the object.
 
 ??? quote "See parameters"
@@ -79,7 +79,7 @@ Change the maximum steering angle of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Sterring back speed**
+**Sterring back speed**  
 Change the sterring speed when turning back of the object.
 
 ??? quote "See parameters"
@@ -91,7 +91,7 @@ Change the sterring speed when turning back of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Steering speed**
+**Steering speed**  
 Change the steering speed of the object.
 
 ??? quote "See parameters"
@@ -103,7 +103,7 @@ Change the steering speed of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Wheel grip ratio**
+**Wheel grip ratio**  
 Change the wheel grip ratio of the object (from 0 to 1). A ratio of 0 is like driving on ice.
 
 ??? quote "See parameters"
@@ -115,7 +115,7 @@ Change the wheel grip ratio of the object (from 0 to 1). A ratio of 0 is like dr
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Simulate acceleration stick**
+**Simulate acceleration stick**  
 Simulate an acceleration stick for a given axis force.
 
 ??? quote "See parameters"
@@ -126,7 +126,7 @@ Simulate an acceleration stick for a given axis force.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Simulate down key press**
+**Simulate down key press**  
 Simulate a press of the down key.
 
 ??? quote "See parameters"
@@ -136,7 +136,7 @@ Simulate a press of the down key.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Simulate left key press**
+**Simulate left key press**  
 Simulate a press of the left key.
 
 ??? quote "See parameters"
@@ -146,7 +146,7 @@ Simulate a press of the left key.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Simulate right key press**
+**Simulate right key press**  
 Simulate a press of the right key.
 
 ??? quote "See parameters"
@@ -156,7 +156,7 @@ Simulate a press of the right key.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Simulate steering stick**
+**Simulate steering stick**  
 Simulate a steering stick for a given axis force.
 
 ??? quote "See parameters"
@@ -167,7 +167,7 @@ Simulate a steering stick for a given axis force.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Simulate up key press**
+**Simulate up key press**  
 Simulate a press of the up key.
 
 ??? quote "See parameters"
@@ -179,7 +179,7 @@ Simulate a press of the up key.
 
 ### Behavior conditions
 
-**Acceleration**
+**Acceleration**  
 Compare the acceleration of the object.
 
 ??? quote "See parameters"
@@ -191,7 +191,7 @@ Compare the acceleration of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum speed**
+**Maximum speed**  
 Compare the maximum speed of the object.
 
 ??? quote "See parameters"
@@ -203,7 +203,7 @@ Compare the maximum speed of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Steering angle**
+**Steering angle**  
 Compare the steering angle of the object.
 
 ??? quote "See parameters"
@@ -215,7 +215,7 @@ Compare the steering angle of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum steering angle**
+**Maximum steering angle**  
 Compare the maximum steering angle of the object.
 
 ??? quote "See parameters"
@@ -227,7 +227,7 @@ Compare the maximum steering angle of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Sterring back speed**
+**Sterring back speed**  
 Compare the sterring speed when turning back of the object.
 
 ??? quote "See parameters"
@@ -239,7 +239,7 @@ Compare the sterring speed when turning back of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Steering speed**
+**Steering speed**  
 Compare the steering speed of the object.
 
 ??? quote "See parameters"
@@ -251,7 +251,7 @@ Compare the steering speed of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Wheel grip ratio**
+**Wheel grip ratio**  
 Compare the wheel grip ratio of the object (from 0 to 1). A ratio of 0 is like driving on ice.
 
 ??? quote "See parameters"

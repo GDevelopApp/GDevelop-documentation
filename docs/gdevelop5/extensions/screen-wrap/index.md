@@ -23,7 +23,7 @@ Teleport the object when leaving one side of the screen so that it immediately r
 
 ### Behavior actions
 
-**Enable horizontal wrapping**
+**Enable horizontal wrapping**  
 Enable wrapping on the left and right borders.
 
 ??? quote "See parameters"
@@ -34,7 +34,7 @@ Enable wrapping on the left and right borders.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Enable vertical wrapping**
+**Enable vertical wrapping**  
 Enable wrapping on the top and bottom borders.
 
 ??? quote "See parameters"
@@ -45,7 +45,7 @@ Enable wrapping on the top and bottom borders.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set bottom border**
+**Set bottom border**  
 Set bottom border (Y position).
 
 ??? quote "See parameters"
@@ -56,7 +56,7 @@ Set bottom border (Y position).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set left border**
+**Set left border**  
 Set left border (X position).
 
 ??? quote "See parameters"
@@ -67,7 +67,7 @@ Set left border (X position).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set right border**
+**Set right border**  
 Set right border (X position).
 
 ??? quote "See parameters"
@@ -78,7 +78,7 @@ Set right border (X position).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set top border**
+**Set top border**  
 Set top border (Y position).
 
 ??? quote "See parameters"
@@ -89,7 +89,7 @@ Set top border (Y position).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set trigger offset**
+**Set trigger offset**  
 Set trigger offset (pixels).
 
 ??? quote "See parameters"
@@ -102,7 +102,7 @@ Set trigger offset (pixels).
 
 ### Behavior conditions
 
-**Is horizontal wrapping**
+**Is horizontal wrapping**  
 Check if the object is wrapping on the left and right borders.
 
 ??? quote "See parameters"
@@ -112,7 +112,7 @@ Check if the object is wrapping on the left and right borders.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is vertical wrapping**
+**Is vertical wrapping**  
 Check if the object is wrapping on the top and bottom borders.
 
 ??? quote "See parameters"
@@ -138,7 +138,7 @@ Teleport the object when leaving one side of the screen so that it immediately r
 
 ### Behavior actions
 
-**Apply saved velocity values**
+**Apply saved velocity values**  
 Apply saved velocity values.
 
 ??? quote "See parameters"
@@ -148,7 +148,7 @@ Apply saved velocity values.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Enable horizontal wrapping**
+**Enable horizontal wrapping**  
 Enable wrapping on the left and right borders.
 
 ??? quote "See parameters"
@@ -159,7 +159,7 @@ Enable wrapping on the left and right borders.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Enable vertical wrapping**
+**Enable vertical wrapping**  
 Enable wrapping on the top and bottom borders.
 
 ??? quote "See parameters"
@@ -170,7 +170,7 @@ Enable wrapping on the top and bottom borders.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Save current velocity values**
+**Save current velocity values**  
 Save current velocity values.
 
 ??? quote "See parameters"
@@ -180,7 +180,7 @@ Save current velocity values.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Set bottom border**
+**Set bottom border**  
 Set bottom border (Y position).
 
 ??? quote "See parameters"
@@ -191,7 +191,7 @@ Set bottom border (Y position).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set left border**
+**Set left border**  
 Set left border (X position).
 
 ??? quote "See parameters"
@@ -202,7 +202,7 @@ Set left border (X position).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set right border**
+**Set right border**  
 Set right border (X position).
 
 ??? quote "See parameters"
@@ -213,7 +213,7 @@ Set right border (X position).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set top border**
+**Set top border**  
 Set top border (Y position).
 
 ??? quote "See parameters"
@@ -224,7 +224,7 @@ Set top border (Y position).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set trigger offset**
+**Set trigger offset**  
 Set trigger offset (pixels).
 
 ??? quote "See parameters"
@@ -237,7 +237,7 @@ Set trigger offset (pixels).
 
 ### Behavior conditions
 
-**Is horizontal wrapping**
+**Is horizontal wrapping**  
 Check if the object is wrapping on the left and right borders.
 
 ??? quote "See parameters"
@@ -247,7 +247,7 @@ Check if the object is wrapping on the left and right borders.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is vertical wrapping**
+**Is vertical wrapping**  
 Check if the object is wrapping on the top and bottom borders.
 
 ??? quote "See parameters"

@@ -30,7 +30,7 @@ Throw an object that returns to the thrower like a boomerang.
 
 ### Behavior actions
 
-**Send boomerang back to thrower**
+**Send boomerang back to thrower**  
 Send boomerang back to thrower.
 
 ??? quote "See parameters"
@@ -40,7 +40,7 @@ Send boomerang back to thrower.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Set amount of time before boomerang changes directions**
+**Set amount of time before boomerang changes directions**  
 Set amount of time before boomerang changes directions (seconds).
 
 ??? quote "See parameters"
@@ -51,7 +51,7 @@ Set amount of time before boomerang changes directions (seconds).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Throw boomerang toward an angle**
+**Throw boomerang toward an angle**  
 Throw boomerang toward an angle.
 
 ??? quote "See parameters"
@@ -65,7 +65,7 @@ Throw boomerang toward an angle.
 
     > Technical note: parameter 6 are internal parameters handled by GDevelop.
 
-**Throw boomerang toward a position**
+**Throw boomerang toward a position**  
 Throw boomerang toward a position.
 
 ??? quote "See parameters"
@@ -80,7 +80,7 @@ Throw boomerang toward a position.
 
     > Technical note: parameter 7 are internal parameters handled by GDevelop.
 
-**Track position of boomerang thrower**
+**Track position of boomerang thrower**  
 Track position of boomerang thrower.
 
 ??? quote "See parameters"
@@ -93,7 +93,7 @@ Track position of boomerang thrower.
 
 ### Behavior conditions
 
-**Boomerang is returning to thrower**
+**Boomerang is returning to thrower**  
 Boomerang is returning to thrower.
 
 ??? quote "See parameters"

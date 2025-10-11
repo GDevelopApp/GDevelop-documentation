@@ -27,7 +27,7 @@ The Bomberman-like example handles 4 players with gamepads ([open the project on
 
 ## Actions
 
-**Advanced gamepad vibration**
+**Advanced gamepad vibration**  
 Generate an advanced vibration on the specified controller. Incompatible with Firefox.
 
 ??? quote "See parameters"
@@ -39,7 +39,7 @@ Generate an advanced vibration on the specified controller. Incompatible with Fi
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Change gamepad active vibration**
+**Change gamepad active vibration**  
 Change a vibration on the specified controller. Incompatible with Firefox.
 
 ??? quote "See parameters"
@@ -50,7 +50,7 @@ Change a vibration on the specified controller. Incompatible with Firefox.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Set gamepad deadzone for sticks**
+**Set gamepad deadzone for sticks**  
 Set the deadzone for sticks of the gamepad. The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved). Deadzone is between 0 and 1, and is by default 0.2.
 
 ??? quote "See parameters"
@@ -60,7 +60,7 @@ Set the deadzone for sticks of the gamepad. The deadzone is an area for which mo
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Gamepad vibration**
+**Gamepad vibration**  
 Generate a vibration on the specified controller. Might only work if the game is running in a recent web browser.
 
 ??? quote "See parameters"
@@ -72,7 +72,7 @@ Generate a vibration on the specified controller. Might only work if the game is
 
 ## Conditions
 
-**Any gamepad button pressed**
+**Any gamepad button pressed**  
 Check if any button is pressed on a gamepad.
 
 ??? quote "See parameters"
@@ -81,7 +81,7 @@ Check if any button is pressed on a gamepad.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Gamepad stick pushed (axis)**
+**Gamepad stick pushed (axis)**  
 Check if a stick of a gamepad is pushed in a given direction.
 
 ??? quote "See parameters"
@@ -92,7 +92,7 @@ Check if a stick of a gamepad is pushed in a given direction.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Gamepad button pressed**
+**Gamepad button pressed**  
 Check if a button is pressed on a gamepad.   
 Buttons can be:
 * Xbox: "A", "B", "X", "Y", "LB", "RB", "LT", "RT", "BACK", "START",
@@ -106,7 +106,7 @@ Buttons can be:
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Gamepad button released**
+**Gamepad button released**  
 Test if a button is released on a gamepad. Buttons can be:  
 * Xbox: "A", "B", "X", "Y", "LB", "RB", "LT", "RT", "BACK", "START",
 * PS4: "CROSS", "SQUARE", "CIRCLE", "TRIANGLE", "L1", "L2", "R1", "R2", "SHARE", "OPTIONS", "PS_BUTTON", "CLICK_TOUCHPAD",
@@ -119,7 +119,7 @@ Test if a button is released on a gamepad. Buttons can be:
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Gamepad connected**
+**Gamepad connected**  
 Check if a gamepad is connected.
 
 ??? quote "See parameters"
@@ -128,7 +128,7 @@ Check if a gamepad is connected.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Gamepad type**
+**Gamepad type**  
 Check if the specified gamepad has the specified information in its description. Useful to know if the gamepad is a Xbox or PS4 controller.
 
 ??? quote "See parameters"
@@ -138,7 +138,7 @@ Check if the specified gamepad has the specified information in its description.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Any gamepad button released**
+**Any gamepad button released**  
 Check if any button is released on a gamepad.
 
 ??? quote "See parameters"
@@ -147,7 +147,7 @@ Check if any button is released on a gamepad.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Gamepad button just pressed**
+**Gamepad button just pressed**  
 Check if a button was just pressed on a gamepad. Buttons can be:  
 * Xbox: "A", "B", "X", "Y", "LB", "RB", "LT", "RT", "BACK", "START",
 * PS4: "CROSS", "SQUARE", "CIRCLE", "TRIANGLE", "L1", "L2", "R1", "R2", "SHARE", "OPTIONS", "PS_BUTTON", "CLICK_TOUCHPAD",
@@ -160,7 +160,7 @@ Check if a button was just pressed on a gamepad. Buttons can be:
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Stick force**
+**Stick force**  
 Compare the force of gamepad stick (from 0 to 1).
 
 ??? quote "See parameters"
@@ -213,7 +213,7 @@ Control camera rotations with a gamepad.
 
 ### Behavior actions
 
-**Horizontal rotation acceleration**
+**Horizontal rotation acceleration**  
 Change the horizontal rotation acceleration of the object.
 
 ??? quote "See parameters"
@@ -225,7 +225,7 @@ Change the horizontal rotation acceleration of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Horizontal rotation deceleration**
+**Horizontal rotation deceleration**  
 Change the horizontal rotation deceleration of the object.
 
 ??? quote "See parameters"
@@ -237,7 +237,7 @@ Change the horizontal rotation deceleration of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum horizontal rotation speed**
+**Maximum horizontal rotation speed**  
 Change the maximum horizontal rotation speed of the object.
 
 ??? quote "See parameters"
@@ -249,7 +249,7 @@ Change the maximum horizontal rotation speed of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Z position offset**
+**Z position offset**  
 Change the z position offset of the object.
 
 ??? quote "See parameters"
@@ -261,7 +261,7 @@ Change the z position offset of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum vertical camera angle**
+**Maximum vertical camera angle**  
 Change the maximum vertical camera angle of the object.
 
 ??? quote "See parameters"
@@ -273,7 +273,7 @@ Change the maximum vertical camera angle of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Minimum vertical camera angle**
+**Minimum vertical camera angle**  
 Change the minimum vertical camera angle of the object.
 
 ??? quote "See parameters"
@@ -285,7 +285,7 @@ Change the minimum vertical camera angle of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Vertical rotation acceleration**
+**Vertical rotation acceleration**  
 Change the vertical rotation acceleration of the object.
 
 ??? quote "See parameters"
@@ -297,7 +297,7 @@ Change the vertical rotation acceleration of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Vertical rotation deceleration**
+**Vertical rotation deceleration**  
 Change the vertical rotation deceleration of the object.
 
 ??? quote "See parameters"
@@ -309,7 +309,7 @@ Change the vertical rotation deceleration of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum vertical rotation speed**
+**Maximum vertical rotation speed**  
 Change the maximum vertical rotation speed of the object.
 
 ??? quote "See parameters"
@@ -323,7 +323,7 @@ Change the maximum vertical rotation speed of the object.
 
 ### Behavior conditions
 
-**Horizontal rotation acceleration**
+**Horizontal rotation acceleration**  
 Compare the horizontal rotation acceleration of the object.
 
 ??? quote "See parameters"
@@ -335,7 +335,7 @@ Compare the horizontal rotation acceleration of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Horizontal rotation deceleration**
+**Horizontal rotation deceleration**  
 Compare the horizontal rotation deceleration of the object.
 
 ??? quote "See parameters"
@@ -347,7 +347,7 @@ Compare the horizontal rotation deceleration of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum horizontal rotation speed**
+**Maximum horizontal rotation speed**  
 Compare the maximum horizontal rotation speed of the object.
 
 ??? quote "See parameters"
@@ -359,7 +359,7 @@ Compare the maximum horizontal rotation speed of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Z position offset**
+**Z position offset**  
 Compare the z position offset of the object.
 
 ??? quote "See parameters"
@@ -371,7 +371,7 @@ Compare the z position offset of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum vertical camera angle**
+**Maximum vertical camera angle**  
 Compare the maximum vertical camera angle of the object.
 
 ??? quote "See parameters"
@@ -383,7 +383,7 @@ Compare the maximum vertical camera angle of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Minimum vertical camera angle**
+**Minimum vertical camera angle**  
 Compare the minimum vertical camera angle of the object.
 
 ??? quote "See parameters"
@@ -395,7 +395,7 @@ Compare the minimum vertical camera angle of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Vertical rotation acceleration**
+**Vertical rotation acceleration**  
 Compare the vertical rotation acceleration of the object.
 
 ??? quote "See parameters"
@@ -407,7 +407,7 @@ Compare the vertical rotation acceleration of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Vertical rotation deceleration**
+**Vertical rotation deceleration**  
 Compare the vertical rotation deceleration of the object.
 
 ??? quote "See parameters"
@@ -419,7 +419,7 @@ Compare the vertical rotation deceleration of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum vertical rotation speed**
+**Maximum vertical rotation speed**  
 Compare the maximum vertical rotation speed of the object.
 
 ??? quote "See parameters"

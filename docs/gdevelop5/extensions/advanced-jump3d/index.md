@@ -24,7 +24,7 @@ Let 3D physics characters jump shortly after leaving a platform and also jump in
 
 ### Behavior actions
 
-**Remove a remaining air jump**
+**Remove a remaining air jump**  
 Remove one of the remaining air jumps of a character.
 
 ??? quote "See parameters"
@@ -34,7 +34,7 @@ Remove one of the remaining air jumps of a character.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Reset air jumps**
+**Reset air jumps**  
 Allow back all air jumps of a character.
 
 ??? quote "See parameters"
@@ -44,7 +44,7 @@ Allow back all air jumps of a character.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Air jumps**
+**Air jumps**  
 Change the number of times the character can jump in mid-air.
 
 ??? quote "See parameters"
@@ -55,7 +55,7 @@ Change the number of times the character can jump in mid-air.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Coyote timeframe**
+**Coyote timeframe**  
 Change the coyote time duration of an object (in seconds).
 
 ??? quote "See parameters"
@@ -69,7 +69,7 @@ Change the coyote time duration of an object (in seconds).
 
 ### Behavior conditions
 
-**Floor jumps count as air jumps**
+**Floor jumps count as air jumps**  
 Check if floor jumps are counted as air jumps for an object.
 
 ??? quote "See parameters"
@@ -79,7 +79,7 @@ Check if floor jumps are counted as air jumps for an object.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Can coyote jump**
+**Can coyote jump**  
 Check if a coyote jump can currently happen.
 
 ??? quote "See parameters"

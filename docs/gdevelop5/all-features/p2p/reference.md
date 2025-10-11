@@ -4,37 +4,37 @@ Allow game instances to communicate remotely using messages sent via WebRTC (P2P
 
 ## Actions
 
-**Connect to another client**
+**Connect to another client**  
 Connects the current client to another client using its id.
 
 ??? quote "See parameters"
 
     - Parameter 0 (string): ID of the other client
 
-**Disconnect from all**
+**Disconnect from all**  
 Disconnects the client from the broker server and all other clients.
 
-**Disconnect from all peers**
+**Disconnect from all peers**  
 Disconnects this client from all other clients.
 
-**Disconnect from broker**
+**Disconnect from broker**  
 Disconnects the client from the broker server.
 
-**Disconnect from a peer**
+**Disconnect from a peer**  
 Disconnects this client from another client.
 
 ??? quote "See parameters"
 
     - Parameter 0 (string): ID of the peer to disconnect from
 
-**Disable IP address sharing**
+**Disable IP address sharing**  
 Disables the sharing of IP addresses with the other peers. This action needs to be called BEFORE connecting to the broker server.
 
 ??? quote "See parameters"
 
     - Parameter 0 (❓ Yes or No): Disable sharing of IP addresses
 
-**Get event data (variable)**
+**Get event data (variable)**  
 Store the data of the specified event in a variable. Check in the conditions that the event was received using the "Event received" condition.
 
 ??? quote "See parameters"
@@ -42,14 +42,14 @@ Store the data of the specified event in a variable. Check in the conditions tha
     - Parameter 0 (string): Event name
     - Parameter 1 (🗄️ Scene variable): Variable where to store the received data
 
-**Override the client ID**
+**Override the client ID**  
 Overrides the client ID of the current game instance with a specified ID. Must be called BEFORE connecting to a broker.
 
 ??? quote "See parameters"
 
     - Parameter 0 (string): ID
 
-**Trigger event on all connected clients**
+**Trigger event on all connected clients**  
 Triggers an event on all connected clients
 
 ??? quote "See parameters"
@@ -57,7 +57,7 @@ Triggers an event on all connected clients
     - Parameter 0 (string): Event name
     - Parameter 1 (string): Extra data (optional)
 
-**Trigger event on all connected clients (variable)**
+**Trigger event on all connected clients (variable)**  
 Triggers an event on all connected clients
 
 ??? quote "See parameters"
@@ -65,7 +65,7 @@ Triggers an event on all connected clients
     - Parameter 0 (string): Event name
     - Parameter 1 (🗄️ Scene variable): Variable containing the extra data
 
-**Trigger event on a specific client**
+**Trigger event on a specific client**  
 Triggers an event on a specific connected client
 
 ??? quote "See parameters"
@@ -74,7 +74,7 @@ Triggers an event on a specific connected client
     - Parameter 1 (string): Event name
     - Parameter 2 (string): Extra data (optional)
 
-**Trigger event on a specific client (variable)**
+**Trigger event on a specific client (variable)**  
 Triggers an event on a specific connected client
 
 ??? quote "See parameters"
@@ -83,10 +83,10 @@ Triggers an event on a specific connected client
     - Parameter 1 (string): Event name
     - Parameter 2 (🗄️ Scene variable): Variable containing the extra data
 
-**Connect to the default broker server**
+**Connect to the default broker server**  
 Connects to the default broker server.
 
-**Connect to a broker server**
+**Connect to a broker server**  
 Connects the extension to a broker server.
 
 ??? quote "See parameters"
@@ -97,7 +97,7 @@ Connects the extension to a broker server.
     - Parameter 3 (string): Key
     - Parameter 4 (❓ Yes or No): SSl enabled?
 
-**Use a custom ICE server**
+**Use a custom ICE server**  
 Disables the default ICE (STUN or TURN) servers list and use one of your own. Note that it is recommended to add at least 1 self-hosted STUN and TURN server for games that are not over LAN but over the internet. This action can be used multiple times to add multiple servers. This action needs to be called BEFORE connecting to the broker server.
 
 ??? quote "See parameters"
@@ -108,19 +108,19 @@ Disables the default ICE (STUN or TURN) servers list and use one of your own. No
 
 ## Conditions
 
-**Is P2P ready**
+**Is P2P ready**  
 True if the peer-to-peer extension initialized and is ready to use.
 
-**Peer Connected**
+**Peer Connected**  
 Triggers once when a remote peer initiates a connection.
 
-**Peer disconnected**
+**Peer disconnected**  
 Triggers once when a peer disconnects.
 
-**An error occurred**
+**An error occurred**  
 Triggers once when an error occurs. Use P2P::GetLastError() expression to get the content of the error if you want to analyse it or display it to the user.
 
-**Event triggered by peer**
+**Event triggered by peer**  
 Triggers once when a connected client sends the event
 
 ??? quote "See parameters"

@@ -29,7 +29,7 @@ Spawn (create) objects periodically.
 
 ### Behavior actions
 
-**Restart spawning cooldown**
+**Restart spawning cooldown**  
 Restart the cooldown of a spawner.
 
 ??? quote "See parameters"
@@ -39,7 +39,7 @@ Restart the cooldown of a spawner.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Max objects in the scene (per spawner)**
+**Max objects in the scene (per spawner)**  
 Change the max objects in the scene (per spawner) of the object. Limits the number of objects in the scene that were created by this spawner. Set this to 0 for no limit.
 
 ??? quote "See parameters"
@@ -51,7 +51,7 @@ Change the max objects in the scene (per spawner) of the object. Limits the numb
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Use random positions**
+**Use random positions**  
 Enable (or disable) random positions. Useful for making large spawner areas.
 
 ??? quote "See parameters"
@@ -62,7 +62,7 @@ Enable (or disable) random positions. Useful for making large spawner areas.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Spawn period**
+**Spawn period**  
 Change the spawn period (in seconds).
 
 ??? quote "See parameters"
@@ -73,7 +73,7 @@ Change the spawn period (in seconds).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Spawner capacity**
+**Spawner capacity**  
 Change the number of objects that can be created by this spawner. This is reduced everytime an objects is spawned.
 
 ??? quote "See parameters"
@@ -85,7 +85,7 @@ Change the number of objects that can be created by this spawner. This is reduce
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Unlimited object capacity**
+**Unlimited object capacity**  
 Change unlimited capacity of spawner.
 
 ??? quote "See parameters"
@@ -96,7 +96,7 @@ Change unlimited capacity of spawner.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Spawn objects periodically**
+**Spawn objects periodically**  
 Spawn (create) objects periodically. This action must be run every frame to work. When the max quantity is reached and an instance is deleted, the spawner waits the duration of the spawn period before creating another instance. Spawned objects are automatically linked to the spawner.
 
 ??? quote "See parameters"
@@ -109,7 +109,7 @@ Spawn (create) objects periodically. This action must be run every frame to work
 
 ### Behavior conditions
 
-**Max objects in the scene (per spawner)**
+**Max objects in the scene (per spawner)**  
 Compare the max objects in the scene (per spawner) of the object. Limits the number of objects in the scene that were created by this spawner. Set this to 0 for no limit.
 
 ??? quote "See parameters"
@@ -121,7 +121,7 @@ Compare the max objects in the scene (per spawner) of the object. Limits the num
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Object was just spawned**
+**Object was just spawned**  
 Check if an object has just been created by this spawner. Useful for triggering visual and sound effects.
 
 ??? quote "See parameters"
@@ -131,7 +131,7 @@ Check if an object has just been created by this spawner. Useful for triggering 
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Use random positions**
+**Use random positions**  
 Check if using random positions. Useful for making large spawner areas.
 
 ??? quote "See parameters"
@@ -141,7 +141,7 @@ Check if using random positions. Useful for making large spawner areas.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Spawner capacity**
+**Spawner capacity**  
 Compare the number of objects that can be created by this spawner. This is reduced everytime an objects is spawned.
 
 ??? quote "See parameters"
@@ -153,7 +153,7 @@ Compare the number of objects that can be created by this spawner. This is reduc
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Unlimited capacity**
+**Unlimited capacity**  
 Check if spawner has unlimited capacity.
 
 ??? quote "See parameters"

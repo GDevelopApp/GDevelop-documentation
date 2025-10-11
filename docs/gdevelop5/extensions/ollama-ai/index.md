@@ -24,7 +24,7 @@ Create a simple action to send the following data to a Ollama AI server:
 
 ## Actions
 
-**Send prompt to a model**
+**Send prompt to a model**  
 Sends the prompt string, the model string, and the stream boolean from the given structure.
 
 ??? quote "See parameters"

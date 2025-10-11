@@ -10,7 +10,7 @@ An image with edges and corners that are stretched separately from the full imag
 
 ### Object actions
 
-**Tint color**
+**Tint color**  
 Change the tint of a Panel Sprite. The default color is white.
 
 ??? quote "See parameters"
@@ -18,7 +18,7 @@ Change the tint of a Panel Sprite. The default color is white.
     - Parameter 0: 👾 Object
     - Parameter 1 (color): Tint
 
-**Image name**
+**Image name**  
 Change the image of a Panel Sprite.
 
 ??? quote "See parameters"

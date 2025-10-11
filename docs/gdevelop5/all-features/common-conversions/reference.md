@@ -4,7 +4,7 @@ Expressions to convert numbers to string, strings to numbers, angles (degrees fr
 
 ## Actions
 
-**Convert JSON to object variable**
+**Convert JSON to object variable**  
 Parse a JSON object and store it into an object variable
 
 ??? quote "See parameters"
@@ -13,7 +13,7 @@ Parse a JSON object and store it into an object variable
     - Parameter 1: 👾 Object
     - Parameter 2 (🗄️ Object variable): Object variable where store the JSON object
 
-**Convert JSON to a variable**
+**Convert JSON to a variable**  
 Parse a JSON object and store it into a variable
 
 ??? quote "See parameters"

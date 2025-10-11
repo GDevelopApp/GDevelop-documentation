@@ -32,7 +32,7 @@ Tips:
 
 ## Actions
 
-**Lock projectile to target**
+**Lock projectile to target**  
 Lock projectile object to target object.  (This is required for "Move projectile towards target").
 
 ??? quote "See parameters"
@@ -42,7 +42,7 @@ Lock projectile object to target object.  (This is required for "Move projectile
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Move projectile towards target**
+**Move projectile towards target**  
 Move projectile towards the object that it has been locked to.  This action must be run every frame.
 
 ??? quote "See parameters"
@@ -59,7 +59,7 @@ Move projectile towards the object that it has been locked to.  This action must
 
     > Technical note: parameters 0, 9 are internal parameters handled by GDevelop.
 
-**Move physics projectile towards target**
+**Move physics projectile towards target**  
 Move physics projectile towards the object that it has been locked to.  This action must be run every frame.
 
 ??? quote "See parameters"

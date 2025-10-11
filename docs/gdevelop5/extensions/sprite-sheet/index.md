@@ -73,7 +73,7 @@ Animates a horizontal (left to right) sprite sheet.
 
 ### Behavior actions
 
-**Pause animation**
+**Pause animation**  
 Pause the animation of a sprite sheet.
 
 ??? quote "See parameters"
@@ -83,7 +83,7 @@ Pause the animation of a sprite sheet.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Play animation**
+**Play animation**  
 Play an animation from the sprite sheet.
 
 ??? quote "See parameters"
@@ -97,7 +97,7 @@ Play an animation from the sprite sheet.
 
     > Technical note: parameter 6 are internal parameters handled by GDevelop.
 
-**Resume animation**
+**Resume animation**  
 Resume a paused animation of a sprite sheet.
 
 ??? quote "See parameters"
@@ -119,7 +119,7 @@ Animates a sprite sheet using JSON (see extension description).
 
 ### Behavior actions
 
-**Display a frame**
+**Display a frame**  
 Display one frame without animating the object.
 
 ??? quote "See parameters"
@@ -130,7 +130,7 @@ Display one frame without animating the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Load data from a JSON resource**
+**Load data from a JSON resource**  
 Loads a new JSON spritesheet data into the behavior.
 
 ??? quote "See parameters"
@@ -141,7 +141,7 @@ Loads a new JSON spritesheet data into the behavior.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Pause animation**
+**Pause animation**  
 Pause the animation of a sprite sheet.
 
 ??? quote "See parameters"
@@ -151,7 +151,7 @@ Pause the animation of a sprite sheet.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Play Animation**
+**Play Animation**  
 Play an animation from the sprite sheet.
 
 ??? quote "See parameters"
@@ -162,7 +162,7 @@ Play an animation from the sprite sheet.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Resume animation**
+**Resume animation**  
 Resume a paused animation of a sprite sheet.
 
 ??? quote "See parameters"
@@ -185,7 +185,7 @@ Animates a vertical (top to bottom) sprite sheet.
 
 ### Behavior actions
 
-**Pause animation**
+**Pause animation**  
 Pause the animation of a sprite sheet.
 
 ??? quote "See parameters"
@@ -195,7 +195,7 @@ Pause the animation of a sprite sheet.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Play animation**
+**Play animation**  
 Play an animation from the sprite sheet.
 
 ??? quote "See parameters"
@@ -209,7 +209,7 @@ Play an animation from the sprite sheet.
 
     > Technical note: parameter 6 are internal parameters handled by GDevelop.
 
-**Resume animation**
+**Resume animation**  
 Resume a paused animation of a sprite sheet.
 
 ??? quote "See parameters"

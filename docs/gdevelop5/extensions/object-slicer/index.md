@@ -22,7 +22,7 @@ This example shows how to slice objects: [open the project online](https://edito
 
 ## Actions
 
-**Slice object into smaller pieces**
+**Slice object into smaller pieces**  
 Slice an object into smaller pieces that match color of the original object. The new object should be a solid white color.
 
 ??? quote "See parameters"

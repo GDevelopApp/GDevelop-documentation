@@ -40,7 +40,7 @@ This extension adds features to the built-in 3D.
 
 ## Actions
 
-**🛟Add axes helper**
+**🛟Add axes helper**  
 The axis helper is added to the 3D object.  
 Note that it is added to the center point, not the origin point.
 
@@ -51,7 +51,7 @@ Note that it is added to the center point, not the origin point.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**🧱Change blend mode**
+**🧱Change blend mode**  
 Change the blend mode of the 3D objects and all their children.  
 This affects all 3d objects that use the same material.
 
@@ -65,7 +65,7 @@ This affects all 3d objects that use the same material.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**🔄️Change child angle**
+**🔄️Change child angle**  
 Changes the angle of the 3D object's child along the child’s local axes.  
 The names of the children must be checked in advance using the "🛟Output children hierarchy" action or a 3D modeling tool.
 This can also be used to rotate bones.
@@ -82,7 +82,7 @@ Note that if a child is affected by a playing animation, it will override this c
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
-**😀Change morph target value**
+**😀Change morph target value**  
 Change morph target values of 3D objects.  
 The names of the morph target must be checked in advance using the "🛟Output morph target names" action or a 3D modeling tool.
 Note that if a morph target is affected by a playing animation, it will override this change. In that case, please pause the animation.
@@ -97,7 +97,7 @@ Note that if a morph target is affected by a playing animation, it will override
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**🥛Change opacity**
+**🥛Change opacity**  
 Change the opacity of the 3D objects and all their children.
 
 ??? quote "See parameters"
@@ -111,7 +111,7 @@ Change the opacity of the 3D objects and all their children.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**👤Change 3D shadow**
+**👤Change 3D shadow**  
 Change the shadow settings of 3D objects.  
 If both "Cast Shadow" and "Receive Shadow" are enabled, striped patterns are likely to occur in the shadow.
 
@@ -124,7 +124,7 @@ If both "Cast Shadow" and "Receive Shadow" are enabled, striped patterns are lik
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**🔄️Rotate child by angle**
+**🔄️Rotate child by angle**  
 Rotate a child of the 3D objects along its local axes.  
 The names of the children must be checked in advance using the "🛟Output children hierarchy" action or a 3D modeling tool.
 This can also be used to rotate bones.
@@ -140,7 +140,7 @@ Note that if a child is affected by a playing animation, it will override this c
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**🔄️Rotate child by speed**
+**🔄️Rotate child by speed**  
 Rotate a child of the 3D objects along its local axes.  
 The names of the children must be checked in advance using the "🛟Output children hierarchy" action or a 3D modeling tool.
 This can also be used to rotate bones.
@@ -156,7 +156,7 @@ Note that if a child is affected by a playing animation, it will override this c
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**🔜Linearly interpolate camera**
+**🔜Linearly interpolate camera**  
 Moves and/or rotates a 3D camera closer to another object’s position and rotation using linear and spherical linear interpolation.  
 Use the "factor" parameter to specify how much the camera should move and/or rotate (0 = no change, 0.5 = halfway, 1 = exact match).
 
@@ -174,7 +174,7 @@ Use the "factor" parameter to specify how much the camera should move and/or rot
 
     > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
 
-**🔜Linearly interpolate 3D object**
+**🔜Linearly interpolate 3D object**  
 Moves and/or rotates a 3D object closer to another object’s position and rotation using linear and spherical linear interpolation.  
 Use the "factor" parameter to specify how much the object should move and/or rotate (0 = no change, 0.5 = halfway, 1 = exact match).
 
@@ -191,7 +191,7 @@ Use the "factor" parameter to specify how much the object should move and/or rot
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
-**🔜Linearly interpolate toward child of 3D object (Experimental)**
+**🔜Linearly interpolate toward child of 3D object (Experimental)**  
 Linearly interpolates 3D objects toward a child of another 3D object.  
 The names of the children must be checked in advance using the "🛟Output children hierarchy" action or a 3D modeling tool.
 
@@ -209,7 +209,7 @@ The names of the children must be checked in advance using the "🛟Output child
 
     > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
 
-**🔄️Local rotate by angle**
+**🔄️Local rotate by angle**  
 Rotates the 3D object along its local axis.
 
 ??? quote "See parameters"
@@ -221,7 +221,7 @@ Rotates the 3D object along its local axis.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**🔄️Local rotate camera by angle**
+**🔄️Local rotate camera by angle**  
 Rotates the camera along its local axis.
 
 ??? quote "See parameters"
@@ -233,7 +233,7 @@ Rotates the camera along its local axis.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**🔄️Local rotate camera by speed**
+**🔄️Local rotate camera by speed**  
 Rotates the camera along its local axis.
 
 ??? quote "See parameters"
@@ -245,7 +245,7 @@ Rotates the camera along its local axis.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**🔄️Local rotate by speed**
+**🔄️Local rotate by speed**  
 Rotates the 3D object along its local axis.
 
 ??? quote "See parameters"
@@ -257,7 +257,7 @@ Rotates the 3D object along its local axis.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**↔️Local translate camera by distance**
+**↔️Local translate camera by distance**  
 Translates the camera along its local axis.
 
 ??? quote "See parameters"
@@ -269,7 +269,7 @@ Translates the camera along its local axis.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**↔️Local translate camera by speed**
+**↔️Local translate camera by speed**  
 Translates the camera along its local axis.
 
 ??? quote "See parameters"
@@ -281,7 +281,7 @@ Translates the camera along its local axis.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**↔️Local translate by distance**
+**↔️Local translate by distance**  
 Translates the 3D object along its local axis.
 
 ??? quote "See parameters"
@@ -293,7 +293,7 @@ Translates the 3D object along its local axis.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**↔️Local translate by speed**
+**↔️Local translate by speed**  
 Translates the 3D object along its local axis.
 
 ??? quote "See parameters"
@@ -305,7 +305,7 @@ Translates the 3D object along its local axis.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**👀Look at 3D object**
+**👀Look at 3D object**  
 Rotates the 3D object so that its local +X direction points toward the target 3D object.
 
 ??? quote "See parameters"
@@ -318,7 +318,7 @@ Rotates the 3D object so that its local +X direction points toward the target 3D
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**👀Look at position**
+**👀Look at position**  
 Rotates the 3D object so that its local +X direction points toward a specified 3D position.
 
 ??? quote "See parameters"
@@ -331,7 +331,7 @@ Rotates the 3D object so that its local +X direction points toward a specified 3
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**↗️Store normalized direction in variable**
+**↗️Store normalized direction in variable**  
 Stores the normalized direction vector of the 3D object in a variable.  
 The variable will be a structure variable with child variables x, y, and z.
 Note that the variable will only store the value of the first referenced 3D object.
@@ -345,7 +345,7 @@ Note that the variable will only store the value of the first referenced 3D obje
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**🛟Output children hierarchy**
+**🛟Output children hierarchy**  
 Outputs the hierarchy of the 3D object's children to the console.  
 It is recommended to check in the developer tools console, where line breaks and indentation are displayed, rather than in GDevelop's debugger console.
 Use the following shortcut in the preview window to open the Developer Tools and select the Console tab:
@@ -358,7 +358,7 @@ Ctrl + Shift + I (Cmd + Option + I).
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**🛟Output morph target names**
+**🛟Output morph target names**  
 Outputs the morph target names of the 3D object to the console.  
 It is recommended to check in the developer tools console, where line breaks and indentation are displayed, rather than in GDevelop's debugger console.
 Use the following shortcut in the preview window to open the Developer Tools and select the Console tab:
@@ -371,7 +371,7 @@ Ctrl + Shift + I (Cmd + Option + I).
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**📚Overlap objects**
+**📚Overlap objects**  
 Overlay the object on the 3D object.  
 ⚠️ For objects to overlap correctly, they must be on a different layer than the 3D object. In the layer properties, the 'Default camera behavior' under 'Camera positioning' must be set to 'Keep top-left corner fixed'.
 
@@ -389,7 +389,7 @@ Overlay the object on the 3D object.
 
     > Technical note: parameters 0, 9 are internal parameters handled by GDevelop.
 
-**😀Reset morph targets**
+**😀Reset morph targets**  
 Sets all morph target values of the 3D object to 0.  
 Note that if a morph target is affected by a playing animation, it will override this change. In that case, please pause the animation.
 
@@ -402,7 +402,7 @@ Note that if a morph target is affected by a playing animation, it will override
 
 ## Conditions
 
-**↔️Check the distance between two objects in 3D**
+**↔️Check the distance between two objects in 3D**  
 Checks the distance between two objects (origin points) in 3D.
 
 ??? quote "See parameters"
@@ -416,7 +416,7 @@ Checks the distance between two objects (origin points) in 3D.
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
-**🥛Check opacity**
+**🥛Check opacity**  
 Check the opacity of the 3D object, or the first opacity found among its children.  
 This condition can be used for non-3D objects as well, but in those cases the opacity is always compared as 255.
 
@@ -452,7 +452,7 @@ _No expressions for this behavior._
 
 ### Behavior actions
 
-**💡Change Light Color**
+**💡Change Light Color**  
 Gradually changes the color of the 3D Light.
 
 ??? quote "See parameters"
@@ -466,7 +466,7 @@ Gradually changes the color of the 3D Light.
 
     > Technical note: parameter 5 are internal parameters handled by GDevelop.
 
-**💡Change Light Intensity**
+**💡Change Light Intensity**  
 Gradually changes the intensity of the 3D Light.
 
 ??? quote "See parameters"

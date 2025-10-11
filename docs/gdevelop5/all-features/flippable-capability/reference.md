@@ -10,7 +10,7 @@ Actions/conditions for objects which can be flipped horizontally or vertically.
 
 ### Behavior actions
 
-**Flip the object horizontally**
+**Flip the object horizontally**  
 Flip the object horizontally
 
 ??? quote "See parameters"
@@ -19,7 +19,7 @@ Flip the object horizontally
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Activate flipping
 
-**Flip the object vertically**
+**Flip the object vertically**  
 Flip the object vertically
 
 ??? quote "See parameters"
@@ -30,7 +30,7 @@ Flip the object vertically
 
 ### Behavior conditions
 
-**Horizontally flipped**
+**Horizontally flipped**  
 Check if the object is horizontally flipped
 
 ??? quote "See parameters"
@@ -38,7 +38,7 @@ Check if the object is horizontally flipped
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Vertically flipped**
+**Vertically flipped**  
 Check if the object is vertically flipped
 
 ??? quote "See parameters"

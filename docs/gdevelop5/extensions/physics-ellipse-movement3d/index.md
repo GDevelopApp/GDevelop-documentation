@@ -31,7 +31,7 @@ Move objects on ellipses or smoothly back and forth in one direction.
 
 ### Behavior actions
 
-**Ellipse height**
+**Ellipse height**  
 Change the ellipse height of the object.
 
 ??? quote "See parameters"
@@ -43,7 +43,7 @@ Change the ellipse height of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Loop duration**
+**Loop duration**  
 Change the loop duration (in seconds).
 
 ??? quote "See parameters"
@@ -55,7 +55,7 @@ Change the loop duration (in seconds).
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Teleport at an angle**
+**Teleport at an angle**  
 Change the movement angle. The object is teleported according to the angle.
 
 ??? quote "See parameters"
@@ -66,7 +66,7 @@ Change the movement angle. The object is teleported according to the angle.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Turn left or right**
+**Turn left or right**  
 Change the in which side the object is turning (left or right).
 
 ??? quote "See parameters"
@@ -77,7 +77,7 @@ Change the in which side the object is turning (left or right).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Ellipse width**
+**Ellipse width**  
 Change the ellipse width of the object.
 
 ??? quote "See parameters"
@@ -89,7 +89,7 @@ Change the ellipse width of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Turn the other way**
+**Turn the other way**  
 Change the turning direction (left or right).
 
 ??? quote "See parameters"
@@ -101,7 +101,7 @@ Change the turning direction (left or right).
 
 ### Behavior conditions
 
-**Ellipse height**
+**Ellipse height**  
 Compare the ellipse height of the object.
 
 ??? quote "See parameters"
@@ -113,7 +113,7 @@ Compare the ellipse height of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Is turning left**
+**Is turning left**  
 Check if the object is turning left.
 
 ??? quote "See parameters"
@@ -123,7 +123,7 @@ Check if the object is turning left.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Loop duration**
+**Loop duration**  
 Compare the loop duration (in seconds).
 
 ??? quote "See parameters"
@@ -135,7 +135,7 @@ Compare the loop duration (in seconds).
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Ellipse width**
+**Ellipse width**  
 Compare the ellipse width of the object.
 
 ??? quote "See parameters"

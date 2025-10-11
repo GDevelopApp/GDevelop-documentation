@@ -28,7 +28,7 @@ Shake objects with translation and rotation.
 
 ### Behavior actions
 
-**Shake object (position, angle)**
+**Shake object (position, angle)**  
 Shake an object, using one or more ways to shake (position, angle). Make sure to "Stop shaking" before starting a new shake if it uses different parameters. 
 
 ??? quote "See parameters"
@@ -47,7 +47,7 @@ Shake an object, using one or more ways to shake (position, angle). Make sure to
 
     > Technical note: parameter 8 are internal parameters handled by GDevelop.
 
-**Stop shaking the object**
+**Stop shaking the object**  
 Stop any shaking of object that was initiated by the Shake Object extension.
 
 ??? quote "See parameters"
@@ -59,7 +59,7 @@ Stop any shaking of object that was initiated by the Shake Object extension.
 
 ### Behavior conditions
 
-**Check if an object is shaking**
+**Check if an object is shaking**  
 Check if an object is shaking.
 
 ??? quote "See parameters"
@@ -78,7 +78,7 @@ Shake objects with translation, rotation and scale.
 
 ### Behavior actions
 
-**Shake object (position, angle, scale)**
+**Shake object (position, angle, scale)**  
 Shake an object, using one or more ways to shake (position, angle, scale). Make sure to "Stop shaking" before starting a new shake if it uses different parameters.
 
 ??? quote "See parameters"
@@ -98,7 +98,7 @@ Shake an object, using one or more ways to shake (position, angle, scale). Make 
 
     > Technical note: parameter 9 are internal parameters handled by GDevelop.
 
-**Stop shaking an object**
+**Stop shaking an object**  
 Stop shaking an object.
 
 ??? quote "See parameters"
@@ -110,7 +110,7 @@ Stop shaking an object.
 
 ### Behavior conditions
 
-**Check if an object is shaking**
+**Check if an object is shaking**  
 Check if an object is shaking.
 
 ??? quote "See parameters"

@@ -24,7 +24,7 @@ This extension adds features like:
 
 ## Actions
 
-**Append all variable to another array**
+**Append all variable to another array**  
 Appends a copy of all variables of one array to another array.
 
 ??? quote "See parameters"
@@ -34,7 +34,7 @@ Appends a copy of all variables of one array to another array.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Combine 2 arrays**
+**Combine 2 arrays**  
 Combines all elements of 2 scene arrays into one new scene array.
 
 ??? quote "See parameters"
@@ -45,7 +45,7 @@ Combines all elements of 2 scene arrays into one new scene array.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Fill array with number**
+**Fill array with number**  
 Fill an element with a number.
 
 ??? quote "See parameters"
@@ -58,7 +58,7 @@ Fill an element with a number.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Flatten array**
+**Flatten array**  
 Replaces all arrays inside of an array with their children. For example, [[1,2], [3,4]] becomes [1,2,3,4].
 
 ??? quote "See parameters"
@@ -69,7 +69,7 @@ Replaces all arrays inside of an array with their children. For example, [[1,2],
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Insert variable at**
+**Insert variable at**  
 Insert a variable at a specific index of an array.
 
 ??? quote "See parameters"
@@ -80,7 +80,7 @@ Insert a variable at a specific index of an array.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Append all variable to another array**
+**Append all variable to another array**  
 Appends a copy of all variables of one array to another array.
 
 ??? quote "See parameters"
@@ -92,7 +92,7 @@ Appends a copy of all variables of one array to another array.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Combine 2 arrays**
+**Combine 2 arrays**  
 Combines all elements of 2 scene arrays into one new scene array.
 
 ??? quote "See parameters"
@@ -106,7 +106,7 @@ Combines all elements of 2 scene arrays into one new scene array.
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
-**Fill array with number**
+**Fill array with number**  
 Fill an element with a number.
 
 ??? quote "See parameters"
@@ -120,7 +120,7 @@ Fill an element with a number.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Flatten array**
+**Flatten array**  
 Replaces all arrays inside of an array with their children. For example, [[1,2], [3,4]] becomes [1,2,3,4].
 
 ??? quote "See parameters"
@@ -132,7 +132,7 @@ Replaces all arrays inside of an array with their children. For example, [[1,2],
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Insert variable at**
+**Insert variable at**  
 Insert a variable at a specific index of an array.
 
 ??? quote "See parameters"
@@ -145,7 +145,7 @@ Insert a variable at a specific index of an array.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Pop array child**
+**Pop array child**  
 Removes the last array child of an array, and stores it in another variable.
 
 ??? quote "See parameters"
@@ -157,7 +157,7 @@ Removes the last array child of an array, and stores it in another variable.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Reverse an array**
+**Reverse an array**  
 Reverses children of an array. The first array child becomes the last, and the last array child becomes the first.
 
 ??? quote "See parameters"
@@ -167,7 +167,7 @@ Reverses children of an array. The first array child becomes the last, and the l
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Shift array child**
+**Shift array child**  
 Removes the first array child of an array, and stores it in another variable.
 
 ??? quote "See parameters"
@@ -179,7 +179,7 @@ Removes the first array child of an array, and stores it in another variable.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Shuffle array**
+**Shuffle array**  
 Shuffles all children of an array.
 
 ??? quote "See parameters"
@@ -189,7 +189,7 @@ Shuffles all children of an array.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Slice an array**
+**Slice an array**  
 Copies a portion of a scene array variable into a new scene array variable.
 
 ??? quote "See parameters"
@@ -205,7 +205,7 @@ Copies a portion of a scene array variable into a new scene array variable.
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
-**Sort an array**
+**Sort an array**  
 Sort an array of number from smallest to biggest.
 
 ??? quote "See parameters"
@@ -215,7 +215,7 @@ Sort an array of number from smallest to biggest.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Splice an array**
+**Splice an array**  
 Cuts a portion of an array off.
 
 ??? quote "See parameters"
@@ -229,7 +229,7 @@ Cuts a portion of an array off.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Split string into array**
+**Split string into array**  
 Split a string into an array of strings via a separator.
 
 ??? quote "See parameters"
@@ -242,7 +242,7 @@ Split a string into an array of strings via a separator.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Pop array child**
+**Pop array child**  
 Removes the last array child of an array, and stores it in another variable.
 
 ??? quote "See parameters"
@@ -252,7 +252,7 @@ Removes the last array child of an array, and stores it in another variable.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Reverse an array**
+**Reverse an array**  
 Reverses children of an array. The first array child becomes the last, and the last array child becomes the first.
 
 ??? quote "See parameters"
@@ -261,7 +261,7 @@ Reverses children of an array. The first array child becomes the last, and the l
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Shift array child**
+**Shift array child**  
 Removes the first array child of an array, and stores it in another variable.
 
 ??? quote "See parameters"
@@ -271,7 +271,7 @@ Removes the first array child of an array, and stores it in another variable.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Shuffle array**
+**Shuffle array**  
 Shuffles all children of an array.
 
 ??? quote "See parameters"
@@ -280,7 +280,7 @@ Shuffles all children of an array.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Slice an array**
+**Slice an array**  
 Copies a portion of a scene array variable into a new scene array variable.
 
 ??? quote "See parameters"
@@ -294,7 +294,7 @@ Copies a portion of a scene array variable into a new scene array variable.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Sort an array**
+**Sort an array**  
 Sort an array of number from smallest to biggest.
 
 ??? quote "See parameters"
@@ -303,7 +303,7 @@ Sort an array of number from smallest to biggest.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Splice an array**
+**Splice an array**  
 Cuts a portion of an array off.
 
 ??? quote "See parameters"
@@ -316,7 +316,7 @@ Cuts a portion of an array off.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Split string into array**
+**Split string into array**  
 Split a string into an array of strings via a separator.
 
 ??? quote "See parameters"
@@ -330,7 +330,7 @@ Split a string into an array of strings via a separator.
 
 ## Conditions
 
-**Array has number**
+**Array has number**  
 Checks if an array contains a specific number.
 
 ??? quote "See parameters"
@@ -340,7 +340,7 @@ Checks if an array contains a specific number.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Array has string**
+**Array has string**  
 Checks if an array contains a specific string.
 
 ??? quote "See parameters"
@@ -350,7 +350,7 @@ Checks if an array contains a specific string.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Index of number**
+**Index of number**  
 Compare The index of the first variable that equals to a specific number in an array.
 
 ??? quote "See parameters"
@@ -362,7 +362,7 @@ Compare The index of the first variable that equals to a specific number in an a
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Index of text**
+**Index of text**  
 Compare The index of the first variable that equals to a specific text in an array.
 
 ??? quote "See parameters"
@@ -374,7 +374,7 @@ Compare The index of the first variable that equals to a specific text in an arr
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Last index of number**
+**Last index of number**  
 Compare The index of the last variable that equals to a specific number in an array.
 
 ??? quote "See parameters"
@@ -386,7 +386,7 @@ Compare The index of the last variable that equals to a specific number in an ar
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Last index of text**
+**Last index of text**  
 Compare The index of the last variable that equals to a specific text in an array.
 
 ??? quote "See parameters"
@@ -398,7 +398,7 @@ Compare The index of the last variable that equals to a specific text in an arra
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Array has number**
+**Array has number**  
 Checks if an array contains a specific number.
 
 ??? quote "See parameters"
@@ -409,7 +409,7 @@ Checks if an array contains a specific number.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Array has string**
+**Array has string**  
 Checks if an array contains a specific string.
 
 ??? quote "See parameters"
@@ -420,7 +420,7 @@ Checks if an array contains a specific string.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Index of number**
+**Index of number**  
 Compare The index of the first variable that equals to a specific number in an array.
 
 ??? quote "See parameters"
@@ -433,7 +433,7 @@ Compare The index of the first variable that equals to a specific number in an a
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Index of text**
+**Index of text**  
 Compare The index of the first variable that equals to a specific text in an array.
 
 ??? quote "See parameters"
@@ -446,7 +446,7 @@ Compare The index of the first variable that equals to a specific text in an arr
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Last index of number**
+**Last index of number**  
 Compare The index of the last variable that equals to a specific number in an array.
 
 ??? quote "See parameters"
@@ -459,7 +459,7 @@ Compare The index of the last variable that equals to a specific number in an ar
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Last index of text**
+**Last index of text**  
 Compare The index of the last variable that equals to a specific text in an array.
 
 ??? quote "See parameters"
@@ -472,7 +472,7 @@ Compare The index of the last variable that equals to a specific text in an arra
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Get and remove last variable from array (as number)**
+**Get and remove last variable from array (as number)**  
 Compare Removes the last array child of an array, and return it as a number.
 
 ??? quote "See parameters"
@@ -484,7 +484,7 @@ Compare Removes the last array child of an array, and return it as a number.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Random number in array**
+**Random number in array**  
 Compare Returns a random number of an array of numbers.
 
 ??? quote "See parameters"
@@ -496,7 +496,7 @@ Compare Returns a random number of an array of numbers.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Random string in array**
+**Random string in array**  
 Compare a random string of an array of strings.
 
 ??? quote "See parameters"
@@ -508,7 +508,7 @@ Compare a random string of an array of strings.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Get and remove last variable from array (as number)**
+**Get and remove last variable from array (as number)**  
 Compare Removes the last array child of an array, and return it as a number.
 
 ??? quote "See parameters"
@@ -519,7 +519,7 @@ Compare Removes the last array child of an array, and return it as a number.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Random number in array**
+**Random number in array**  
 Compare Returns a random number of an array of numbers.
 
 ??? quote "See parameters"
@@ -530,7 +530,7 @@ Compare Returns a random number of an array of numbers.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Random string in array**
+**Random string in array**  
 Compare a random string of an array of strings.
 
 ??? quote "See parameters"

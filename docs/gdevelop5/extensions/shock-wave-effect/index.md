@@ -28,7 +28,7 @@ Draw ellipse shock waves.
 
 ### Behavior actions
 
-**Duration**
+**Duration**  
 Change the duration of the animation.
 
 ??? quote "See parameters"
@@ -40,7 +40,7 @@ Change the duration of the animation.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Easing**
+**Easing**  
 Change the easing of the animation.
 
 ??? quote "See parameters"
@@ -52,7 +52,7 @@ Change the easing of the animation.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**End angle**
+**End angle**  
 Change the end angle of the object.
 
 ??? quote "See parameters"
@@ -64,7 +64,7 @@ Change the end angle of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**End Color**
+**End Color**  
 Change the end Color of the object.
 
 ??? quote "See parameters"
@@ -76,7 +76,7 @@ Change the end Color of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**End height**
+**End height**  
 Change the end height of the object.
 
 ??? quote "See parameters"
@@ -88,7 +88,7 @@ Change the end height of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**End Opacity**
+**End Opacity**  
 Change the end Opacity of the object.
 
 ??? quote "See parameters"
@@ -100,7 +100,7 @@ Change the end Opacity of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**End outline thickness**
+**End outline thickness**  
 Change the end outline thickness of the object.
 
 ??? quote "See parameters"
@@ -112,7 +112,7 @@ Change the end outline thickness of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**End width**
+**End width**  
 Change the end width of the object.
 
 ??? quote "See parameters"
@@ -124,7 +124,7 @@ Change the end width of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Enable filling**
+**Enable filling**  
 Enable or disable the filling of the shape.
 
 ??? quote "See parameters"
@@ -135,7 +135,7 @@ Enable or disable the filling of the shape.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Start angle**
+**Start angle**  
 Change the start angle of the object.
 
 ??? quote "See parameters"
@@ -147,7 +147,7 @@ Change the start angle of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Start color**
+**Start color**  
 Change the start color of the object.
 
 ??? quote "See parameters"
@@ -159,7 +159,7 @@ Change the start color of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Start height**
+**Start height**  
 Change the start height of the object.
 
 ??? quote "See parameters"
@@ -171,7 +171,7 @@ Change the start height of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Start opacity**
+**Start opacity**  
 Change the start opacity of the object.
 
 ??? quote "See parameters"
@@ -183,7 +183,7 @@ Change the start opacity of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Start outline thickness**
+**Start outline thickness**  
 Change the start outline of the object.
 
 ??? quote "See parameters"
@@ -195,7 +195,7 @@ Change the start outline of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Start width**
+**Start width**  
 Change the start width of the object.
 
 ??? quote "See parameters"
@@ -209,7 +209,7 @@ Change the start width of the object.
 
 ### Behavior conditions
 
-**Duration**
+**Duration**  
 Compare the duration of the animation.
 
 ??? quote "See parameters"
@@ -221,7 +221,7 @@ Compare the duration of the animation.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Easing**
+**Easing**  
 Compare the easing of the animation.
 
 ??? quote "See parameters"
@@ -233,7 +233,7 @@ Compare the easing of the animation.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**End angle**
+**End angle**  
 Compare the end angle of the object.
 
 ??? quote "See parameters"
@@ -245,7 +245,7 @@ Compare the end angle of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**End Color**
+**End Color**  
 Compare the end Color of the object.
 
 ??? quote "See parameters"
@@ -257,7 +257,7 @@ Compare the end Color of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**End height**
+**End height**  
 Compare the end height of the object.
 
 ??? quote "See parameters"
@@ -269,7 +269,7 @@ Compare the end height of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**End Opacity**
+**End Opacity**  
 Compare the end Opacity of the object.
 
 ??? quote "See parameters"
@@ -281,7 +281,7 @@ Compare the end Opacity of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**End outline thickness**
+**End outline thickness**  
 Compare the end outline thickness of the object.
 
 ??? quote "See parameters"
@@ -293,7 +293,7 @@ Compare the end outline thickness of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**End width**
+**End width**  
 Compare the end width of the object.
 
 ??? quote "See parameters"
@@ -305,7 +305,7 @@ Compare the end width of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Shape filled**
+**Shape filled**  
 Check if the shape is filled.
 
 ??? quote "See parameters"
@@ -315,7 +315,7 @@ Check if the shape is filled.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Start angle**
+**Start angle**  
 Compare the start angle of the object.
 
 ??? quote "See parameters"
@@ -327,7 +327,7 @@ Compare the start angle of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Start color**
+**Start color**  
 Compare the start color of the object.
 
 ??? quote "See parameters"
@@ -339,7 +339,7 @@ Compare the start color of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Start height**
+**Start height**  
 Compare the start height of the object.
 
 ??? quote "See parameters"
@@ -351,7 +351,7 @@ Compare the start height of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Start opacity**
+**Start opacity**  
 Compare the start opacity of the object.
 
 ??? quote "See parameters"
@@ -363,7 +363,7 @@ Compare the start opacity of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Start outline thickness**
+**Start outline thickness**  
 Compare the start outline of the object.
 
 ??? quote "See parameters"
@@ -375,7 +375,7 @@ Compare the start outline of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Start width**
+**Start width**  
 Compare the start width of the object.
 
 ??? quote "See parameters"
@@ -412,7 +412,7 @@ Draw star shock waves.
 
 ### Behavior actions
 
-**Duration**
+**Duration**  
 Change the duration of the animation.
 
 ??? quote "See parameters"
@@ -424,7 +424,7 @@ Change the duration of the animation.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Easing**
+**Easing**  
 Change the easing of the animation.
 
 ??? quote "See parameters"
@@ -436,7 +436,7 @@ Change the easing of the animation.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**End angle**
+**End angle**  
 Change the end angle of the object.
 
 ??? quote "See parameters"
@@ -448,7 +448,7 @@ Change the end angle of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**End color**
+**End color**  
 Change the end color of the object.
 
 ??? quote "See parameters"
@@ -460,7 +460,7 @@ Change the end color of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**End inner radius**
+**End inner radius**  
 Change the end inner radius of the object.
 
 ??? quote "See parameters"
@@ -472,7 +472,7 @@ Change the end inner radius of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**End opacity**
+**End opacity**  
 Change the end opacity of the object.
 
 ??? quote "See parameters"
@@ -484,7 +484,7 @@ Change the end opacity of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**End outline thickness**
+**End outline thickness**  
 Change the end outline thickness of the object.
 
 ??? quote "See parameters"
@@ -496,7 +496,7 @@ Change the end outline thickness of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**End radius**
+**End radius**  
 Change the end radius of the object.
 
 ??? quote "See parameters"
@@ -508,7 +508,7 @@ Change the end radius of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Enable filling**
+**Enable filling**  
 Enable or disable the filling of the shape.
 
 ??? quote "See parameters"
@@ -519,7 +519,7 @@ Enable or disable the filling of the shape.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Number of points**
+**Number of points**  
 Change the number of points of the star.
 
 ??? quote "See parameters"
@@ -531,7 +531,7 @@ Change the number of points of the star.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Start angle**
+**Start angle**  
 Change the start angle of the object.
 
 ??? quote "See parameters"
@@ -543,7 +543,7 @@ Change the start angle of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Start color**
+**Start color**  
 Change the start color of the object.
 
 ??? quote "See parameters"
@@ -555,7 +555,7 @@ Change the start color of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Start inner radius**
+**Start inner radius**  
 Change the start inner radius of the object.
 
 ??? quote "See parameters"
@@ -567,7 +567,7 @@ Change the start inner radius of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Start opacity**
+**Start opacity**  
 Change the start opacity of the object.
 
 ??? quote "See parameters"
@@ -579,7 +579,7 @@ Change the start opacity of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Start outline thickness**
+**Start outline thickness**  
 Change the start outline thickness of the object.
 
 ??? quote "See parameters"
@@ -591,7 +591,7 @@ Change the start outline thickness of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Start radius**
+**Start radius**  
 Change the start radius of the object.
 
 ??? quote "See parameters"
@@ -605,7 +605,7 @@ Change the start radius of the object.
 
 ### Behavior conditions
 
-**Duration**
+**Duration**  
 Compare the duration of the animation.
 
 ??? quote "See parameters"
@@ -617,7 +617,7 @@ Compare the duration of the animation.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Easing**
+**Easing**  
 Compare the easing of the animation.
 
 ??? quote "See parameters"
@@ -629,7 +629,7 @@ Compare the easing of the animation.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**End angle**
+**End angle**  
 Compare the end angle of the object.
 
 ??? quote "See parameters"
@@ -641,7 +641,7 @@ Compare the end angle of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**End color**
+**End color**  
 Compare the end color of the object.
 
 ??? quote "See parameters"
@@ -653,7 +653,7 @@ Compare the end color of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**End inner radius**
+**End inner radius**  
 Compare the end inner radius of the object.
 
 ??? quote "See parameters"
@@ -665,7 +665,7 @@ Compare the end inner radius of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**End opacity**
+**End opacity**  
 Compare the end opacity of the object.
 
 ??? quote "See parameters"
@@ -677,7 +677,7 @@ Compare the end opacity of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**End outline thickness**
+**End outline thickness**  
 Compare the end outline thickness of the object.
 
 ??? quote "See parameters"
@@ -689,7 +689,7 @@ Compare the end outline thickness of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**End radius**
+**End radius**  
 Compare the end radius of the object.
 
 ??? quote "See parameters"
@@ -701,7 +701,7 @@ Compare the end radius of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Shape filled**
+**Shape filled**  
 Check if the shape is filled.
 
 ??? quote "See parameters"
@@ -711,7 +711,7 @@ Check if the shape is filled.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Number of points**
+**Number of points**  
 Compare the number of points of the star.
 
 ??? quote "See parameters"
@@ -723,7 +723,7 @@ Compare the number of points of the star.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Start angle**
+**Start angle**  
 Compare the start angle of the object.
 
 ??? quote "See parameters"
@@ -735,7 +735,7 @@ Compare the start angle of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Start color**
+**Start color**  
 Compare the start color of the object.
 
 ??? quote "See parameters"
@@ -747,7 +747,7 @@ Compare the start color of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Start inner radius**
+**Start inner radius**  
 Compare the start inner radius of the object.
 
 ??? quote "See parameters"
@@ -759,7 +759,7 @@ Compare the start inner radius of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Start opacity**
+**Start opacity**  
 Compare the start opacity of the object.
 
 ??? quote "See parameters"
@@ -771,7 +771,7 @@ Compare the start opacity of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Start outline thickness**
+**Start outline thickness**  
 Compare the start outline thickness of the object.
 
 ??? quote "See parameters"
@@ -783,7 +783,7 @@ Compare the start outline thickness of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Start radius**
+**Start radius**  
 Compare the start radius of the object.
 
 ??? quote "See parameters"

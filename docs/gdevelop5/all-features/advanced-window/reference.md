@@ -4,7 +4,7 @@ Provides advanced features related to the game window positioning and interactio
 
 ## Actions
 
-**Enable content protection**
+**Enable content protection**  
 Enables or disables the content protection mode. This should prevent screenshots of the game from being taken.
 
 ??? quote "See parameters"
@@ -13,7 +13,7 @@ Enables or disables the content protection mode. This should prevent screenshots
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Enable the window**
+**Enable the window**  
 Enables or disables the window.
 
 ??? quote "See parameters"
@@ -22,7 +22,7 @@ Enables or disables the window.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Flash the window**
+**Flash the window**  
 Make the window flash or end flashing.
 
 ??? quote "See parameters"
@@ -31,7 +31,7 @@ Make the window flash or end flashing.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Window focus**
+**Window focus**  
 Make the window gain or lose focus.
 
 ??? quote "See parameters"
@@ -40,7 +40,7 @@ Make the window gain or lose focus.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Maximize the window**
+**Maximize the window**  
 Maximize or unmaximize the window.
 
 ??? quote "See parameters"
@@ -49,7 +49,7 @@ Maximize or unmaximize the window.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Minimize the window**
+**Minimize the window**  
 Minimize or unminimize the window.
 
 ??? quote "See parameters"
@@ -58,7 +58,7 @@ Minimize or unminimize the window.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Make the window always on top**
+**Make the window always on top**  
 Puts the window constantly above all other windows.
 
 ??? quote "See parameters"
@@ -69,7 +69,7 @@ Puts the window constantly above all other windows.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Allow closing**
+**Allow closing**  
 Enables or disables closing of the window by the user.
 
 ??? quote "See parameters"
@@ -78,7 +78,7 @@ Enables or disables closing of the window by the user.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Allow focusing**
+**Allow focusing**  
 Allow or disallow the user to focus the window.
 
 ??? quote "See parameters"
@@ -87,7 +87,7 @@ Allow or disallow the user to focus the window.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Allow full-screening**
+**Allow full-screening**  
 Enables or disables full-screening of the window by the user.
 
 ??? quote "See parameters"
@@ -96,7 +96,7 @@ Enables or disables full-screening of the window by the user.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Enable window shadow**
+**Enable window shadow**  
 Enables or disables the window shadow.
 
 ??? quote "See parameters"
@@ -105,7 +105,7 @@ Enables or disables the window shadow.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Enable kiosk mode**
+**Enable kiosk mode**  
 Puts the window in kiosk mode. This prevents the user from exiting fullscreen.
 
 ??? quote "See parameters"
@@ -114,7 +114,7 @@ Puts the window in kiosk mode. This prevents the user from exiting fullscreen.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Allow maximizing**
+**Allow maximizing**  
 Enables or disables maximizing of the window by the user.
 
 ??? quote "See parameters"
@@ -123,7 +123,7 @@ Enables or disables maximizing of the window by the user.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Allow minimizing**
+**Allow minimizing**  
 Enables or disables minimizing of the window by the user.
 
 ??? quote "See parameters"
@@ -132,7 +132,7 @@ Enables or disables minimizing of the window by the user.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Allow moving**
+**Allow moving**  
 Enables or disables moving of the window by the user.
 
 ??? quote "See parameters"
@@ -141,7 +141,7 @@ Enables or disables moving of the window by the user.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Window opacity**
+**Window opacity**  
 Changes the window opacity.
 
 ??? quote "See parameters"
@@ -151,7 +151,7 @@ Changes the window opacity.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Allow resizing**
+**Allow resizing**  
 Enables or disables resizing of the window by the user.
 
 ??? quote "See parameters"
@@ -160,7 +160,7 @@ Enables or disables resizing of the window by the user.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Window position**
+**Window position**  
 Changes the window position.
 
 ??? quote "See parameters"
@@ -170,7 +170,7 @@ Changes the window position.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Window visibility**
+**Window visibility**  
 Make the window visible or invisible.
 
 ??? quote "See parameters"
@@ -181,7 +181,7 @@ Make the window visible or invisible.
 
 ## Conditions
 
-**Shadow enabled**
+**Shadow enabled**  
 Checks if the window currently has it's shadow enabled.
 
 ??? quote "See parameters"
@@ -190,7 +190,7 @@ Checks if the window currently has it's shadow enabled.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Window always on top**
+**Window always on top**  
 Checks if the window is always on top.
 
 ??? quote "See parameters"
@@ -199,7 +199,7 @@ Checks if the window is always on top.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Window closable**
+**Window closable**  
 Checks if the window can be closed.
 
 ??? quote "See parameters"
@@ -208,7 +208,7 @@ Checks if the window can be closed.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Window focused**
+**Window focused**  
 Checks if the window is focused.
 
 ??? quote "See parameters"
@@ -217,7 +217,7 @@ Checks if the window is focused.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Window full-screenable**
+**Window full-screenable**  
 Checks if the window can be full-screened.
 
 ??? quote "See parameters"
@@ -226,7 +226,7 @@ Checks if the window can be full-screened.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Kiosk mode**
+**Kiosk mode**  
 Checks if the window is currently in kiosk mode.
 
 ??? quote "See parameters"
@@ -235,7 +235,7 @@ Checks if the window is currently in kiosk mode.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Window maximizable**
+**Window maximizable**  
 Checks if the window can be maximized.
 
 ??? quote "See parameters"
@@ -244,7 +244,7 @@ Checks if the window can be maximized.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Window maximized**
+**Window maximized**  
 Checks if the window is maximized.
 
 ??? quote "See parameters"
@@ -253,7 +253,7 @@ Checks if the window is maximized.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Window minimizable**
+**Window minimizable**  
 Checks if the window can be minimized.
 
 ??? quote "See parameters"
@@ -262,7 +262,7 @@ Checks if the window can be minimized.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Window minimized**
+**Window minimized**  
 Checks if the window is minimized.
 
 ??? quote "See parameters"
@@ -271,7 +271,7 @@ Checks if the window is minimized.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Window movable**
+**Window movable**  
 Checks if the window can be moved.
 
 ??? quote "See parameters"
@@ -280,7 +280,7 @@ Checks if the window can be moved.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Window resizable**
+**Window resizable**  
 Checks if the window can be resized.
 
 ??? quote "See parameters"
@@ -289,7 +289,7 @@ Checks if the window can be resized.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Window visible**
+**Window visible**  
 Checks if the window is visible.
 
 ??? quote "See parameters"
@@ -298,7 +298,7 @@ Checks if the window is visible.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Window enabled**
+**Window enabled**  
 Checks if the window is enabled.
 
 ??? quote "See parameters"

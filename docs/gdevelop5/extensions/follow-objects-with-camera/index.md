@@ -20,7 +20,7 @@ If you want to select which object instances are tracked by the camera, add cond
 
 ## Actions
 
-**Follow multiple objects with camera**
+**Follow multiple objects with camera**  
 Change the zoom and position of the camera to keep all instances of an object (or object group) on the screen.
 
 ??? quote "See parameters"

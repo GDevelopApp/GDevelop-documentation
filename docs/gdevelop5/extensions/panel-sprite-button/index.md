@@ -24,7 +24,7 @@ A button that can be customized.
 
 ### Object actions
 
-**De/activate interactions**
+**De/activate interactions**  
 De/activate interactions with the button.
 
 ??? quote "See parameters"
@@ -34,7 +34,7 @@ De/activate interactions with the button.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Label text**
+**Label text**  
 Change the label text.
 
 ??? quote "See parameters"
@@ -47,7 +47,7 @@ Change the label text.
 
 ### Object conditions
 
-**Interactions activated**
+**Interactions activated**  
 Check if interactions are activated on the button.
 
 ??? quote "See parameters"
@@ -56,7 +56,7 @@ Check if interactions are activated on the button.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Is clicked**
+**Is clicked**  
 Check if the button was just clicked.
 
 ??? quote "See parameters"
@@ -65,7 +65,7 @@ Check if the button was just clicked.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Is focused**
+**Is focused**  
 Check if the button is either hovered or pressed but not hovered.
 
 ??? quote "See parameters"
@@ -74,7 +74,7 @@ Check if the button is either hovered or pressed but not hovered.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Is hovered**
+**Is hovered**  
 Check if the cursor is hovered over the button.
 
 ??? quote "See parameters"
@@ -83,7 +83,7 @@ Check if the cursor is hovered over the button.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Is idle**
+**Is idle**  
 Check if the button is not used.
 
 ??? quote "See parameters"
@@ -92,7 +92,7 @@ Check if the button is not used.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Is pressed**
+**Is pressed**  
 Check if the button is currently being pressed with mouse or touch.
 
 ??? quote "See parameters"
@@ -101,7 +101,7 @@ Check if the button is currently being pressed with mouse or touch.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Label text**
+**Label text**  
 Compare the label text.
 
 ??? quote "See parameters"

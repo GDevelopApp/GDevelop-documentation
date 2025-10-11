@@ -39,7 +39,7 @@ Watch this [tutorial video](https://youtu.be/rlGSlNSRR9w) to see examples of how
 
 ## Actions
 
-**Create objects to flood fill a rectanglular area**
+**Create objects to flood fill a rectanglular area**  
 Create multiple copies of an object.
 
 ??? quote "See parameters"
@@ -56,7 +56,7 @@ Create multiple copies of an object.
 
     > Technical note: parameters 0, 10 are internal parameters handled by GDevelop.
 
-**Create objects to flood fill other objects**
+**Create objects to flood fill other objects**  
 Create fill objects that cover the rectangular area of target objects.
 
 ??? quote "See parameters"

@@ -4,7 +4,7 @@ Actions and conditions to store named inventories in memory, with items (indexed
 
 ## Actions
 
-**Add an item**
+**Add an item**  
 Add an item in an inventory.
 
 ??? quote "See parameters"
@@ -14,7 +14,7 @@ Add an item in an inventory.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Equip an item**
+**Equip an item**  
 Mark an item as being equipped. If the item count is 0, it won't be marked as equipped.
 
 ??? quote "See parameters"
@@ -25,7 +25,7 @@ Mark an item as being equipped. If the item count is 0, it won't be marked as eq
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Remove an item**
+**Remove an item**  
 Remove an item from an inventory.
 
 ??? quote "See parameters"
@@ -35,7 +35,7 @@ Remove an item from an inventory.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Save an inventory in a scene variable**
+**Save an inventory in a scene variable**  
 Save all the items of the inventory in a scene variable, so that it can be restored later.
 
 ??? quote "See parameters"
@@ -45,7 +45,7 @@ Save all the items of the inventory in a scene variable, so that it can be resto
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Set a maximum count for an item**
+**Set a maximum count for an item**  
 Set the maximum number of the specified item that can be added in the inventory. By default, the number allowed for each item is unlimited.
 
 ??? quote "See parameters"
@@ -56,7 +56,7 @@ Set the maximum number of the specified item that can be added in the inventory.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Set unlimited count for an item**
+**Set unlimited count for an item**  
 Allow an unlimited amount of an object to be in an inventory. This is the case by default for each item.
 
 ??? quote "See parameters"
@@ -67,7 +67,7 @@ Allow an unlimited amount of an object to be in an inventory. This is the case b
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Load an inventory from a scene variable**
+**Load an inventory from a scene variable**  
 Load the content of the inventory from a scene variable.
 
 ??? quote "See parameters"
@@ -79,7 +79,7 @@ Load the content of the inventory from a scene variable.
 
 ## Conditions
 
-**Item count**
+**Item count**  
 Compare the number of an item in an inventory.
 
 ??? quote "See parameters"
@@ -91,7 +91,7 @@ Compare the number of an item in an inventory.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Has an item**
+**Has an item**  
 Check if at least one of the specified items is in the inventory.
 
 ??? quote "See parameters"
@@ -101,7 +101,7 @@ Check if at least one of the specified items is in the inventory.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Item equipped**
+**Item equipped**  
 Check if an item is equipped.
 
 ??? quote "See parameters"
@@ -111,7 +111,7 @@ Check if an item is equipped.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Item full**
+**Item full**  
 Check if an item has reached its maximum number allowed in the inventory.
 
 ??? quote "See parameters"

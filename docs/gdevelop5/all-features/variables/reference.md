@@ -4,14 +4,14 @@ Actions, conditions and expressions to handle variables, from simple variables l
 
 ## Actions
 
-**Clear children**
+**Clear children**  
 Remove all the children from the structure or array variable.
 
 ??? quote "See parameters"
 
     - Parameter 0 (🗄️ Any variable): Structure or array variable
 
-**Add value to array variable**
+**Add value to array variable**  
 Adds a boolean at the end of an array variable.
 
 ??? quote "See parameters"
@@ -19,7 +19,7 @@ Adds a boolean at the end of an array variable.
     - Parameter 0 (🗄️ Any variable): Array variable
     - Parameter 1 (❓ True or False): Boolean to add
 
-**Add value to array variable**
+**Add value to array variable**  
 Adds a number at the end of an array variable.
 
 ??? quote "See parameters"
@@ -27,7 +27,7 @@ Adds a number at the end of an array variable.
     - Parameter 0 (🗄️ Any variable): Array variable
     - Parameter 1 (🔢 Number): Number to add
 
-**Add value to array variable**
+**Add value to array variable**  
 Adds a text (string) at the end of a array variable.
 
 ??? quote "See parameters"
@@ -35,7 +35,7 @@ Adds a text (string) at the end of a array variable.
     - Parameter 0 (🗄️ Any variable): Array variable
     - Parameter 1 (string): Text to add
 
-**Add existing variable**
+**Add existing variable**  
 Adds an existing variable at the end of an array variable.
 
 ??? quote "See parameters"
@@ -44,7 +44,7 @@ Adds an existing variable at the end of an array variable.
     - Parameter 1 (🗄️ Any variable): Variable with the content to add
       The content of the variable will *be copied* and added at the end of the array.
 
-**Remove variable by index**
+**Remove variable by index**  
 Removes a variable at the specified index of an array variable.
 
 ??? quote "See parameters"
@@ -52,7 +52,7 @@ Removes a variable at the specified index of an array variable.
     - Parameter 0 (🗄️ Any variable): Array variable
     - Parameter 1 (🔢 Number): Index to remove
 
-**Remove a child**
+**Remove a child**  
 Remove a child from a structure variable.
 
 ??? quote "See parameters"
@@ -60,7 +60,7 @@ Remove a child from a structure variable.
     - Parameter 0 (🗄️ Any variable): Structure variable
     - Parameter 1 (string): Child's name
 
-**Change variable value**
+**Change variable value**  
 Modify the boolean value of a variable.
 
 ??? quote "See parameters"
@@ -70,7 +70,7 @@ Modify the boolean value of a variable.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Change variable value**
+**Change variable value**  
 Modify the number value of a variable.
 
 ??? quote "See parameters"
@@ -79,7 +79,7 @@ Modify the number value of a variable.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-**Change variable value**
+**Change variable value**  
 Modify the text (string) of a variable.
 
 ??? quote "See parameters"
@@ -90,7 +90,7 @@ Modify the text (string) of a variable.
 
 ## Conditions
 
-**Variable value**
+**Variable value**  
 Compare the boolean value of a variable.
 
 ??? quote "See parameters"
@@ -100,7 +100,7 @@ Compare the boolean value of a variable.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Variable value**
+**Variable value**  
 Compare the number value of a variable.
 
 ??? quote "See parameters"
@@ -109,7 +109,7 @@ Compare the number value of a variable.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Variable value**
+**Variable value**  
 Compare the text (string) of a variable.
 
 ??? quote "See parameters"
@@ -118,7 +118,7 @@ Compare the text (string) of a variable.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
 
-**Number of children**
+**Number of children**  
 Compare the number of children in an array variable.
 
 ??? quote "See parameters"
@@ -127,7 +127,7 @@ Compare the number of children in an array variable.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Child existence**
+**Child existence**  
 Check if the specified child of the structure variable exists.
 
 ??? quote "See parameters"

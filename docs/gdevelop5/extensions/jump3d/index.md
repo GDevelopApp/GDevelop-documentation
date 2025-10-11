@@ -27,7 +27,7 @@ Jump and fall along Z axis.
 
 ### Behavior actions
 
-**Abort jump**
+**Abort jump**  
 Abort the current jump and stop the object vertically. This action doesn't have any effect when the character is not jumping.
 
 ??? quote "See parameters"
@@ -37,7 +37,7 @@ Abort the current jump and stop the object vertically. This action doesn't have 
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Land on the floor**
+**Land on the floor**  
 Stop the object from falling and land on the floor. The object will start falling again the next frame.
 
 ??? quote "See parameters"
@@ -47,7 +47,7 @@ Stop the object from falling and land on the floor. The object will start fallin
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Separate from platforms**
+**Separate from platforms**  
 Separate from walls and land on platforms. 3D boxes rotated around X and Y axes are not supported.
 
 ??? quote "See parameters"
@@ -59,7 +59,7 @@ Separate from walls and land on platforms. 3D boxes rotated around X and Y axes 
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Allow jumping again**
+**Allow jumping again**  
 When this action is executed, the object is able to jump again, even if it is in the air: this can be useful to allow a double jump for example. This is not a permanent effect: you must call again this action everytime you want to allow the object to jump (apart if it's on the floor).
 
 ??? quote "See parameters"
@@ -69,7 +69,7 @@ When this action is executed, the object is able to jump again, even if it is in
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Current falling speed**
+**Current falling speed**  
 Change the current falling speed of the object. Its value is always positive.
 
 ??? quote "See parameters"
@@ -81,7 +81,7 @@ Change the current falling speed of the object. Its value is always positive.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Current jump speed**
+**Current jump speed**  
 Change the current jump speed of the object. Its value is always positive.
 
 ??? quote "See parameters"
@@ -93,7 +93,7 @@ Change the current jump speed of the object. Its value is always positive.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Gravity**
+**Gravity**  
 Change the gravity of the object. Its value is always positive.
 
 ??? quote "See parameters"
@@ -105,7 +105,7 @@ Change the gravity of the object. Its value is always positive.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Jump height**
+**Jump height**  
 Change the jump height of the object. Its value is always positive.
 
 ??? quote "See parameters"
@@ -117,7 +117,7 @@ Change the jump height of the object. Its value is always positive.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Jump sustain time**
+**Jump sustain time**  
 Change the jump sustain time of the object. Maximum time (in seconds) during which the jump strength is sustained if the jump key is held - allowing variable height jumps.
 
 ??? quote "See parameters"
@@ -129,7 +129,7 @@ Change the jump sustain time of the object. Maximum time (in seconds) during whi
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum falling speed**
+**Maximum falling speed**  
 Change the maximum falling speed of the object. Its value is always positive.
 
 ??? quote "See parameters"
@@ -141,7 +141,7 @@ Change the maximum falling speed of the object. Its value is always positive.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Stop falling when Z equals 0**
+**Stop falling when Z equals 0**  
 Change if stop falling when Z equals 0.
 
 ??? quote "See parameters"
@@ -152,7 +152,7 @@ Change if stop falling when Z equals 0.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Simulate jump key press**
+**Simulate jump key press**  
 Simulate a press of the jump key.
 
 ??? quote "See parameters"
@@ -164,7 +164,7 @@ Simulate a press of the jump key.
 
 ### Behavior conditions
 
-**Can jump**
+**Can jump**  
 Check if the object can jump.
 
 ??? quote "See parameters"
@@ -174,7 +174,7 @@ Check if the object can jump.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Current falling speed**
+**Current falling speed**  
 Compare the current falling speed of the object. Its value is always positive.
 
 ??? quote "See parameters"
@@ -186,7 +186,7 @@ Compare the current falling speed of the object. Its value is always positive.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Current jump speed**
+**Current jump speed**  
 Compare the current jump speed of the object. Its value is always positive.
 
 ??? quote "See parameters"
@@ -198,7 +198,7 @@ Compare the current jump speed of the object. Its value is always positive.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Current vertical speed**
+**Current vertical speed**  
 Compare the current speed of the object on Z axis. Its value is negative when the object falls.
 
 ??? quote "See parameters"
@@ -210,7 +210,7 @@ Compare the current speed of the object on Z axis. Its value is negative when th
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Gravity**
+**Gravity**  
 Compare the gravity of the object. Its value is always positive.
 
 ??? quote "See parameters"
@@ -222,7 +222,7 @@ Compare the gravity of the object. Its value is always positive.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Is falling**
+**Is falling**  
 Check if the object is falling.\nNote that the object can be flagged as jumping and falling at the same time: at the end of a jump, the fall speed becomes higher than the jump speed.
 
 ??? quote "See parameters"
@@ -232,7 +232,7 @@ Check if the object is falling.\nNote that the object can be flagged as jumping 
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is jumping**
+**Is jumping**  
 Check if the object is jumping.
 
 ??? quote "See parameters"
@@ -242,7 +242,7 @@ Check if the object is jumping.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is on floor**
+**Is on floor**  
 Check if the object is on a platform.
 
 ??? quote "See parameters"
@@ -252,7 +252,7 @@ Check if the object is on a platform.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Jump height**
+**Jump height**  
 Compare the jump height of the object. Its value is always positive.
 
 ??? quote "See parameters"
@@ -264,7 +264,7 @@ Compare the jump height of the object. Its value is always positive.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Jump sustain time**
+**Jump sustain time**  
 Compare the jump sustain time of the object. Maximum time (in seconds) during which the jump strength is sustained if the jump key is held - allowing variable height jumps.
 
 ??? quote "See parameters"
@@ -276,7 +276,7 @@ Compare the jump sustain time of the object. Maximum time (in seconds) during wh
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum falling speed**
+**Maximum falling speed**  
 Compare the maximum falling speed of the object. Its value is always positive.
 
 ??? quote "See parameters"
@@ -288,7 +288,7 @@ Compare the maximum falling speed of the object. Its value is always positive.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Stop falling when Z equals 0**
+**Stop falling when Z equals 0**  
 Check if stop falling when Z equals 0.
 
 ??? quote "See parameters"

@@ -4,7 +4,7 @@ These actions and conditions allow to virtually link two objects. It's then usef
 
 ## Actions
 
-**Link two objects**
+**Link two objects**  
 Link two objects together, so as to be able to get one from the other.
 
 ??? quote "See parameters"
@@ -14,7 +14,7 @@ Link two objects together, so as to be able to get one from the other.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Take into account linked objects**
+**Take into account linked objects**  
 Take objects linked to the object into account for next actions.
 
 ??? quote "See parameters"
@@ -24,7 +24,7 @@ Take objects linked to the object into account for next actions.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Unlink all objects from an object**
+**Unlink all objects from an object**  
 Unlink all objects from an object.
 
 ??? quote "See parameters"
@@ -33,7 +33,7 @@ Unlink all objects from an object.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Unlink two objects**
+**Unlink two objects**  
 Unlink two objects.
 
 ??? quote "See parameters"
@@ -45,7 +45,7 @@ Unlink two objects.
 
 ## Conditions
 
-**Take into account linked objects**
+**Take into account linked objects**  
 Take some objects linked to the object into account for next conditions and actions.  
 The condition will return false if no object was taken into account.
 

@@ -31,7 +31,7 @@ Use a shape-painter object to draw a toggle switch that users can click or touch
 
 ### Behavior actions
 
-**Thumb color (when checked)**
+**Thumb color (when checked)**  
 Change the thumb color (when checked).
 
 ??? quote "See parameters"
@@ -42,7 +42,7 @@ Change the thumb color (when checked).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Active track color**
+**Active track color**  
 Change the active track color (the part on the thumb left).
 
 ??? quote "See parameters"
@@ -53,7 +53,7 @@ Change the active track color (the part on the thumb left).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Active track opacity**
+**Active track opacity**  
 Change the active track opacity.
 
 ??? quote "See parameters"
@@ -64,7 +64,7 @@ Change the active track opacity.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Check (or uncheck) the toggle switch**
+**Check (or uncheck) the toggle switch**  
 Check (or uncheck) the toggle switch.
 
 ??? quote "See parameters"
@@ -75,7 +75,7 @@ Check (or uncheck) the toggle switch.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Disable (or enable) the toggle switch**
+**Disable (or enable) the toggle switch**  
 Disable (or enable) the toggle switch.
 
 ??? quote "See parameters"
@@ -86,7 +86,7 @@ Disable (or enable) the toggle switch.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Halo opacity (hover)**
+**Halo opacity (hover)**  
 Change opacity of the halo when the thumb is hovered.
 
 ??? quote "See parameters"
@@ -97,7 +97,7 @@ Change opacity of the halo when the thumb is hovered.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Halo opacity (pressed)**
+**Halo opacity (pressed)**  
 Change the halo opacity when the thumb is pressed.
 
 ??? quote "See parameters"
@@ -108,7 +108,7 @@ Change the halo opacity when the thumb is pressed.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Halo radius**
+**Halo radius**  
 Change the halo radius.
 
 ??? quote "See parameters"
@@ -119,7 +119,7 @@ Change the halo radius.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Thumb color (when unchecked)**
+**Thumb color (when unchecked)**  
 Change the thumb color (when unchecked).
 
 ??? quote "See parameters"
@@ -130,7 +130,7 @@ Change the thumb color (when unchecked).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Inactive track color**
+**Inactive track color**  
 Change the inactive track color (the part on the thumb right).
 
 ??? quote "See parameters"
@@ -141,7 +141,7 @@ Change the inactive track color (the part on the thumb right).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Inactive track opacity**
+**Inactive track opacity**  
 Change the inactive track opacity.
 
 ??? quote "See parameters"
@@ -152,7 +152,7 @@ Change the inactive track opacity.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Thumb opacity**
+**Thumb opacity**  
 Change the thumb opacity.
 
 ??? quote "See parameters"
@@ -163,7 +163,7 @@ Change the thumb opacity.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Thumb radius**
+**Thumb radius**  
 Change the thumb radius.
 
 ??? quote "See parameters"
@@ -174,7 +174,7 @@ Change the thumb radius.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Thumb shadow offset on X axis**
+**Thumb shadow offset on X axis**  
 Change the offset on X axis of the thumb shadow.
 
 ??? quote "See parameters"
@@ -185,7 +185,7 @@ Change the offset on X axis of the thumb shadow.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Thumb shadow offset on Y axis**
+**Thumb shadow offset on Y axis**  
 Change the offset on Y axis of the thumb shadow.
 
 ??? quote "See parameters"
@@ -196,7 +196,7 @@ Change the offset on Y axis of the thumb shadow.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Thumb shadow opacity**
+**Thumb shadow opacity**  
 Change the thumb shadow opacity.
 
 ??? quote "See parameters"
@@ -207,7 +207,7 @@ Change the thumb shadow opacity.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Track height**
+**Track height**  
 Change the track height.
 
 ??? quote "See parameters"
@@ -218,7 +218,7 @@ Change the track height.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Track width**
+**Track width**  
 Change the track width.
 
 ??? quote "See parameters"
@@ -229,7 +229,7 @@ Change the track width.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Toggle the switch**
+**Toggle the switch**  
 If checked, change to unchecked. If unchecked, change to checked.
 
 ??? quote "See parameters"
@@ -241,7 +241,7 @@ If checked, change to unchecked. If unchecked, change to checked.
 
 ### Behavior conditions
 
-**Is checked**
+**Is checked**  
 Check if the toggle switch is checked.
 
 ??? quote "See parameters"
@@ -251,7 +251,7 @@ Check if the toggle switch is checked.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is disabled**
+**Is disabled**  
 Check if the toggle switch is disabled.
 
 ??? quote "See parameters"
@@ -261,7 +261,7 @@ Check if the toggle switch is disabled.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is mouse hovered over toggle switch?**
+**Is mouse hovered over toggle switch?**  
 Check if mouse is hovering over toggle switch.
 
 ??? quote "See parameters"

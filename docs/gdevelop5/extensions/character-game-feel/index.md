@@ -56,7 +56,7 @@ For platformer character.
 
 ### Behavior actions
 
-**Disable animation**
+**Disable animation**  
 Disable game feel animation.
 
 ??? quote "See parameters"
@@ -67,7 +67,7 @@ Disable game feel animation.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Enable animation**
+**Enable animation**  
 Enable game feel animation.
 
 ??? quote "See parameters"
@@ -80,7 +80,7 @@ Enable game feel animation.
 
 ### Behavior conditions
 
-**Animation is playing**
+**Animation is playing**  
 Check if the object game feel animation is playing.
 
 ??? quote "See parameters"

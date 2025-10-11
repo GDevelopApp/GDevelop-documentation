@@ -36,7 +36,7 @@ Independently change the colors of a panel sprite.
 
 ### Behavior actions
 
-**Recolorize**
+**Recolorize**  
 Replace a given color of an object with another one. The scope allows to change similar colors at once.
 
 ??? quote "See parameters"
@@ -51,7 +51,7 @@ Replace a given color of an object with another one. The scope allows to change 
 
     > Technical note: parameter 7 are internal parameters handled by GDevelop.
 
-**Reset color**
+**Reset color**  
 Set back the original colors of an object.
 
 ??? quote "See parameters"
@@ -70,7 +70,7 @@ Independently change the colors of a sprite.
 
 ### Behavior actions
 
-**Recolorize**
+**Recolorize**  
 Replace a given color of an object with another one. The scope allows to change similar colors at once.
 
 ??? quote "See parameters"
@@ -85,7 +85,7 @@ Replace a given color of an object with another one. The scope allows to change 
 
     > Technical note: parameter 7 are internal parameters handled by GDevelop.
 
-**Reset color**
+**Reset color**  
 Set back the original colors of an object.
 
 ??? quote "See parameters"
@@ -104,7 +104,7 @@ Independently change the colors of a tiled sprite.
 
 ### Behavior actions
 
-**Recolorize**
+**Recolorize**  
 Replace a given color of an object with another one. The scope allows to change similar colors at once.
 
 ??? quote "See parameters"
@@ -119,7 +119,7 @@ Replace a given color of an object with another one. The scope allows to change 
 
     > Technical note: parameter 7 are internal parameters handled by GDevelop.
 
-**Reset color**
+**Reset color**  
 Set back the original colors of an object.
 
 ??? quote "See parameters"

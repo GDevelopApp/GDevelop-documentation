@@ -4,7 +4,7 @@ Allow your game to authenticate players. [Read more explanations about it.](/gde
 
 ## Actions
 
-**Display authentication banner**
+**Display authentication banner**  
 Display an authentication banner at the top of the game screen, for the player to log in.
 
 ??? quote "See parameters"
@@ -13,7 +13,7 @@ Display an authentication banner at the top of the game screen, for the player t
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Hide authentication banner**
+**Hide authentication banner**  
 Hide the authentication banner from the top of the game screen.
 
 ??? quote "See parameters"
@@ -22,7 +22,7 @@ Hide the authentication banner from the top of the game screen.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Log out the player**
+**Log out the player**  
 Log out the player.
 
 ??? quote "See parameters"
@@ -31,7 +31,7 @@ Log out the player.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Open authentication window**
+**Open authentication window**  
 Open an authentication window for the player to log in.
 
 ??? quote "See parameters"
@@ -42,13 +42,13 @@ Open an authentication window for the player to log in.
 
 ## Conditions
 
-**Player has logged in**
+**Player has logged in**  
 Check if the player has just logged in.
 
-**Authentication window is open**
+**Authentication window is open**  
 Check if the authentication window is open.
 
-**Player is authenticated**
+**Player is authenticated**  
 Check if the player is authenticated.
 
 ## Expressions

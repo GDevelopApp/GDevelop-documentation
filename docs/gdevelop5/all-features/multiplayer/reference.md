@@ -6,7 +6,7 @@ Use the "Open game lobbies" action to let players join a game, and use condition
 
 ## Actions
 
-**Disable variable synchronization**
+**Disable variable synchronization**  
 Disable synchronization of the variable over the network. It will not be sent to other players anymore.
 
 ??? quote "See parameters"
@@ -15,17 +15,17 @@ Disable synchronization of the variable over the network. It will not be sent to
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**End Lobby Game**
+**End Lobby Game**  
 End the lobby game. This will trigger the "Lobby game has just ended" condition.
 
-**Configure lobby game to end when host leaves**
+**Configure lobby game to end when host leaves**  
 Configure the lobby game to end when the host leaves. This will trigger the "Lobby game has just ended" condition. (Default behavior is to migrate the host)
 
 ??? quote "See parameters"
 
     - Parameter 0 (❓ Yes or No): End lobby game when host leaves
 
-**Get message variable**
+**Get message variable**  
 Store the data of the specified message in a variable. Use with the condition 'Message has been received' to know when the message has been properly processed by the host.
 
 ??? quote "See parameters"
@@ -33,10 +33,10 @@ Store the data of the specified message in a variable. Use with the condition 'M
     - Parameter 0 (string): Message name
     - Parameter 1: 🗄️ Any variable
 
-**Leave Game Lobby**
+**Leave Game Lobby**  
 Leave the current game lobby. This will trigger the "Player has left" condition on the other players, and the "Lobby game has ended" condition on the player leaving.
 
-**Open Game Lobbies**
+**Open Game Lobbies**  
 Open the game lobbies window, where players can join lobbies or see the one they are in.
 
 ??? quote "See parameters"
@@ -45,7 +45,7 @@ Open the game lobbies window, where players can join lobbies or see the one they
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Join the next available lobby**
+**Join the next available lobby**  
 Join the next available lobby. The player will join the game instantly if this is possible.
 
 ??? quote "See parameters"
@@ -55,7 +55,7 @@ Join the next available lobby. The player will join the game instantly if this i
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Join a specific lobby by its ID**
+**Join a specific lobby by its ID**  
 Join a specific lobby. The player will join the game instantly if this is possible.
 
 ??? quote "See parameters"
@@ -66,7 +66,7 @@ Join a specific lobby. The player will join the game instantly if this is possib
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Remove ownership of variable**
+**Remove ownership of variable**  
 Remove the ownership of the variable. It will still be synchronized to other players, but the host owns it.
 
 ??? quote "See parameters"
@@ -76,7 +76,7 @@ Remove the ownership of the variable. It will still be synchronized to other pla
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Send custom message to other players**
+**Send custom message to other players**  
 Send a custom message to other players in the lobby, with an automatic retry system if it hasn't been received. Use with the condition 'Message has been received' to know when the message has been properly processed by the host.
 
 ??? quote "See parameters"
@@ -84,7 +84,7 @@ Send a custom message to other players in the lobby, with an automatic retry sys
     - Parameter 0 (string): Message name
     - Parameter 1 (string): Message content
 
-**Send custom message to other players with a variable**
+**Send custom message to other players with a variable**  
 Send a custom message to other players in the lobby containing a variable, with an automatic retry system if it hasn't been received. Use with the condition 'Message has been received' to know when the message has been properly processed by the host.
 
 ??? quote "See parameters"
@@ -92,7 +92,7 @@ Send a custom message to other players in the lobby containing a variable, with 
     - Parameter 0 (string): Message name
     - Parameter 1: 🗄️ Any variable
 
-**Objects synchronization rate**
+**Objects synchronization rate**  
 Change objects synchronization rate (between 1 and 60, default is 30 times per second).
 
 ??? quote "See parameters"
@@ -100,7 +100,7 @@ Change objects synchronization rate (between 1 and 60, default is 30 times per s
     - Parameter 0: 🟰 Operator
     - Parameter 1 (🔢 Number): Sync rate
 
-**Player variable ownership**
+**Player variable ownership**  
 Change the player owning the variable.
 
 ??? quote "See parameters"
@@ -112,7 +112,7 @@ Change the player owning the variable.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Allow players to close the lobbies window**
+**Allow players to close the lobbies window**  
 Allow players to close the lobbies window. Allowed by default.
 
 ??? quote "See parameters"
@@ -121,7 +121,7 @@ Allow players to close the lobbies window. Allowed by default.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Take ownership of variable**
+**Take ownership of variable**  
 Take the ownership of the variable. It will then be synchronized to other players, with the current player as the owner.
 
 ??? quote "See parameters"
@@ -133,7 +133,7 @@ Take the ownership of the variable. It will then be synchronized to other player
 
 ## Conditions
 
-**Current player number in lobby**
+**Current player number in lobby**  
 Compare the current player number in the lobby (1, 2, ...).
 
 ??? quote "See parameters"
@@ -141,40 +141,40 @@ Compare the current player number in the lobby (1, 2, ...).
     - Parameter 0: 🟰 Relational operator
     - Parameter 1 (🔢 Number): Value to compare
 
-**Any player has joined**
+**Any player has joined**  
 Check if any player has joined the lobby.
 
-**Any player has left**
+**Any player has left**  
 Check if any player has left the lobby game.
 
-**Lobby game has just ended**
+**Lobby game has just ended**  
 Check if the lobby game has just ended.
 
-**Lobby game has just started**
+**Lobby game has just started**  
 Check if the lobby game has just started.
 
-**Custom message has been received from another player**
+**Custom message has been received from another player**  
 Check if a custom message has been received from another player. Will be true only for one frame.
 
 ??? quote "See parameters"
 
     - Parameter 0 (string): Message name
 
-**Player has joined**
+**Player has joined**  
 Check if the player has joined the lobby.
 
 ??? quote "See parameters"
 
     - Parameter 0 (🔢 Number): Player number
 
-**Player has left**
+**Player has left**  
 Check if the player has left the lobby game.
 
 ??? quote "See parameters"
 
     - Parameter 0 (🔢 Number): Player number
 
-**Lobbies window is open**
+**Lobbies window is open**  
 Check if the lobbies window is open.
 
 ??? quote "See parameters"
@@ -183,23 +183,23 @@ Check if the lobbies window is open.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Lobby game is running**
+**Lobby game is running**  
 Check if the lobby game is running.
 
-**Host is migrating**
+**Host is migrating**  
 Check if the host is migrating, in order to adapt the game state (like pausing the game).
 
-**Player is connected**
+**Player is connected**  
 Check if the specified player is connected to the lobby.
 
 ??? quote "See parameters"
 
     - Parameter 0 (🔢 Number): The position of the player in the lobby (1, 2, ...)
 
-**Player is host**
+**Player is host**  
 Check if the player is the host. (Player 1 is the host)
 
-**Is searching for a lobby to join**
+**Is searching for a lobby to join**  
 Is searching for a lobby to join.
 
 ??? quote "See parameters"
@@ -208,7 +208,7 @@ Is searching for a lobby to join.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Objects synchronization rate**
+**Objects synchronization rate**  
 Compare objects synchronization rate (between 1 and 60, default is 30 times per second).
 
 ??? quote "See parameters"
@@ -216,7 +216,7 @@ Compare objects synchronization rate (between 1 and 60, default is 30 times per 
     - Parameter 0: 🟰 Relational operator
     - Parameter 1 (🔢 Number): Sync rate
 
-**Player variable ownership**
+**Player variable ownership**  
 Compare the player owning the variable.
 
 ??? quote "See parameters"
@@ -228,7 +228,7 @@ Compare the player owning the variable.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Number of players in lobby**
+**Number of players in lobby**  
 Compare the number of players in the lobby.
 
 ??? quote "See parameters"
@@ -236,7 +236,7 @@ Compare the number of players in the lobby.
     - Parameter 0: 🟰 Relational operator
     - Parameter 1 (🔢 Number): Value to compare
 
-**Quick join failed to join a lobby**
+**Quick join failed to join a lobby**  
 Quick join failed to join a lobby.
 
 ??? quote "See parameters"
@@ -275,7 +275,7 @@ Allow the object to be synchronized with other players in the lobby.
 
 ### Behavior actions
 
-**Enable (or disable) the synchronization of a behavior**
+**Enable (or disable) the synchronization of a behavior**  
 Enable or disable the synchronization of a behavior over the network. If disabled, the behavior's current state will not be sent to other players anymore.
 
 ??? quote "See parameters"
@@ -285,7 +285,7 @@ Enable or disable the synchronization of a behavior over the network. If disable
     - Parameter 2 (🧩 Behavior): Object behavior
     - Parameter 3 (❓ Yes or No): Enable synchronization
 
-**Remove object ownership**
+**Remove object ownership**  
 Remove the ownership of the object from the player. It will still be synchronized to other players, but the host owns it.
 
 ??? quote "See parameters"
@@ -293,7 +293,7 @@ Remove the ownership of the object from the player. It will still be synchronize
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Player object ownership**
+**Player object ownership**  
 Change the player owning the object.
 
 ??? quote "See parameters"
@@ -303,7 +303,7 @@ Change the player owning the object.
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Player number
 
-**Take ownership of object**
+**Take ownership of object**  
 Take the ownership of the object. It will then be synchronized to other players, with the current player as the owner.
 
 ??? quote "See parameters"
@@ -313,7 +313,7 @@ Take the ownership of the object. It will then be synchronized to other players,
 
 ### Behavior conditions
 
-**Is object owned by current player**
+**Is object owned by current player**  
 Check if the object is owned by the current player, as a player or the host.
 
 ??? quote "See parameters"
@@ -321,7 +321,7 @@ Check if the object is owned by the current player, as a player or the host.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Player object ownership**
+**Player object ownership**  
 Compare the player owning the object.
 
 ??? quote "See parameters"

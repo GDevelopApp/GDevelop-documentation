@@ -22,7 +22,7 @@ Move objects on a straight line.
 
 ### Behavior actions
 
-**Speed on X axis**
+**Speed on X axis**  
 Change the speed on X axis of the object.
 
 ??? quote "See parameters"
@@ -34,7 +34,7 @@ Change the speed on X axis of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Speed on Y axis**
+**Speed on Y axis**  
 Change the speed on Y axis of the object.
 
 ??? quote "See parameters"
@@ -48,7 +48,7 @@ Change the speed on Y axis of the object.
 
 ### Behavior conditions
 
-**Speed on X axis**
+**Speed on X axis**  
 Compare the speed on X axis of the object.
 
 ??? quote "See parameters"
@@ -60,7 +60,7 @@ Compare the speed on X axis of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Speed on Y axis**
+**Speed on Y axis**  
 Compare the speed on Y axis of the object.
 
 ??? quote "See parameters"
@@ -85,7 +85,7 @@ Move objects ahead according to their angle.
 
 ### Behavior actions
 
-**Speed**
+**Speed**  
 Change the speed of the object.
 
 ??? quote "See parameters"
@@ -99,7 +99,7 @@ Change the speed of the object.
 
 ### Behavior conditions
 
-**Speed**
+**Speed**  
 Compare the speed of the object.
 
 ??? quote "See parameters"

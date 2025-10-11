@@ -4,7 +4,7 @@ Actions/conditions to change the current scene (or pause it and launch another o
 
 ## Actions
 
-**Stop and go back to previous scene**
+**Stop and go back to previous scene**  
 Stop this scene and go back to the previous paused one.  
 To pause a scene, use the "Pause and start a new scene" action.
 
@@ -14,7 +14,7 @@ To pause a scene, use the "Pause and start a new scene" action.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Preload scene**
+**Preload scene**  
 Preload a scene resources as soon as possible in background.
 
 ??? quote "See parameters"
@@ -23,7 +23,7 @@ Preload a scene resources as soon as possible in background.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Pause and start a new scene**
+**Pause and start a new scene**  
 Pause this scene and start the specified one.  
 Later, you can use the "Stop and go back to previous scene" action to go back to this scene.
 
@@ -33,7 +33,7 @@ Later, you can use the "Stop and go back to previous scene" action to go back to
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Quit the game**
+**Quit the game**  
 Quit the game
 
 ??? quote "See parameters"
@@ -42,7 +42,7 @@ Quit the game
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Change the scene**
+**Change the scene**  
 Stop this scene and start the specified one instead.
 
 ??? quote "See parameters"
@@ -52,7 +52,7 @@ Stop this scene and start the specified one instead.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Background color**
+**Background color**  
 Change the background color of the scene.
 
 ??? quote "See parameters"
@@ -63,7 +63,7 @@ Change the background color of the scene.
 
 ## Conditions
 
-**Scene preloaded**
+**Scene preloaded**  
 Check if scene resources have finished to load in background.
 
 ??? quote "See parameters"
@@ -72,7 +72,7 @@ Check if scene resources have finished to load in background.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**At the beginning of the scene**
+**At the beginning of the scene**  
 Is true only when scene just begins.
 
 ??? quote "See parameters"
@@ -81,7 +81,7 @@ Is true only when scene just begins.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Does scene exist**
+**Does scene exist**  
 Check if a scene exists.
 
 ??? quote "See parameters"
@@ -90,7 +90,7 @@ Check if a scene exists.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Game has just resumed**
+**Game has just resumed**  
 Check if the game has just resumed from being hidden. It happens when the game tab is selected, a minimized window is restored or the application is put back on front.
 
 ??? quote "See parameters"
@@ -99,7 +99,7 @@ Check if the game has just resumed from being hidden. It happens when the game t
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Scene just resumed**
+**Scene just resumed**  
 The scene has just resumed after being paused.
 
 ??? quote "See parameters"
@@ -108,7 +108,7 @@ The scene has just resumed after being paused.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Scene loading progress**
+**Scene loading progress**  
 Compare The progress of resources loading in background for a scene (between 0 and 1)..
 
 ??? quote "See parameters"

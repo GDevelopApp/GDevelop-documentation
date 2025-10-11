@@ -37,7 +37,7 @@ An example shows how to use this extension ([open the project online](https://ed
 
 ## Actions
 
-**Move objects in elliptical orbit around a center object**
+**Move objects in elliptical orbit around a center object**  
 Move objects in elliptical orbit around a center object. Z-order is changed to make 3D effect.
 
 ??? quote "See parameters"
@@ -58,7 +58,7 @@ Move objects in elliptical orbit around a center object. Z-order is changed to m
 
     > Technical note: parameters 0, 11 are internal parameters handled by GDevelop.
 
-**Move objects in orbit around a center object**
+**Move objects in orbit around a center object**  
 Move objects in orbit around a center object.
 
 ??? quote "See parameters"
@@ -79,7 +79,7 @@ Move objects in orbit around a center object.
 
     > Technical note: parameters 0, 11 are internal parameters handled by GDevelop.
 
-**Delete orbiting objects that are linked to a center object**
+**Delete orbiting objects that are linked to a center object**  
 Delete orbiting objects that are linked to a center object.
 
 ??? quote "See parameters"

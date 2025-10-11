@@ -24,7 +24,7 @@ An animated score counter with an icon and a customisable font.
 
 ### Object actions
 
-**Disable the rating**
+**Disable the rating**  
 Enable or disable the object.
 
 ??? quote "See parameters"
@@ -34,7 +34,7 @@ Enable or disable the object.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Rate**
+**Rate**  
 Change the rate of the object.
 
 ??? quote "See parameters"
@@ -47,7 +47,7 @@ Change the rate of the object.
 
 ### Object conditions
 
-**Disable the rating**
+**Disable the rating**  
 Check if the object is disabled.
 
 ??? quote "See parameters"
@@ -56,7 +56,7 @@ Check if the object is disabled.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Rate**
+**Rate**  
 Compare the rate of the object.
 
 ??? quote "See parameters"

@@ -30,7 +30,7 @@ An authorized platform is a domain name of a website where the game is supposed 
 
 ## Actions
 
-**Add a valid platform**
+**Add a valid platform**  
 Adds a new valid platform (domain name where the game is expected to be played, for example, gd.games).
 
 ??? quote "See parameters"
@@ -41,7 +41,7 @@ Adds a new valid platform (domain name where the game is expected to be played, 
 
 ## Conditions
 
-**Is the game running on an authorized platform**
+**Is the game running on an authorized platform**  
 Checks if the game is executed on an authorized platform (preferably, run this only once at beginning of the game).
 
 ??? quote "See parameters"

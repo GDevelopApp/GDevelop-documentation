@@ -39,7 +39,7 @@ Rope joint
 
 ## Actions
 
-**Connect objects with a distance joint**
+**Connect objects with a distance joint**  
 Connect physics objects with a distance joint if the joint connector covers the center point of both objects.
 
 ??? quote "See parameters"
@@ -51,7 +51,7 @@ Connect physics objects with a distance joint if the joint connector covers the 
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Connect overlapping objects with a revolute joint**
+**Connect overlapping objects with a revolute joint**  
 Connect overlapping physics objects with a revolute joint.
 
 ??? quote "See parameters"
@@ -63,7 +63,7 @@ Connect overlapping physics objects with a revolute joint.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Connect objects with a rope joint**
+**Connect objects with a rope joint**  
 Connect physics objects with a rope joint if the joint connector covers the center point of both objects.
 
 ??? quote "See parameters"
@@ -75,7 +75,7 @@ Connect physics objects with a rope joint if the joint connector covers the cent
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Connect overlapping objects with a weld joint**
+**Connect overlapping objects with a weld joint**  
 Connect overlapping physics objects with a weld joint.
 
 ??? quote "See parameters"
@@ -96,7 +96,7 @@ Acts like a spring because the objects try to stay the same distance apart.
 
 ### Behavior actions
 
-**Break distance joint if it exceeds breaking force**
+**Break distance joint if it exceeds breaking force**  
 Break distance joint if it exceeds breaking force.
 
 ??? quote "See parameters"
@@ -108,7 +108,7 @@ Break distance joint if it exceeds breaking force.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Set the breaking force of a joint**
+**Set the breaking force of a joint**  
 Set the breaking force of a joint.
 
 ??? quote "See parameters"
@@ -119,7 +119,7 @@ Set the breaking force of a joint.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set damping ratio of joint**
+**Set damping ratio of joint**  
 Set dampting ratio of joint.  Range: 0 to 1.
 
 ??? quote "See parameters"
@@ -130,7 +130,7 @@ Set dampting ratio of joint.  Range: 0 to 1.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set frequency of joint**
+**Set frequency of joint**  
 Set frequency of joint.  Range: 0 to 60 (or the maximum FPS of game).
 
 ??? quote "See parameters"
@@ -151,7 +151,7 @@ Also known as a hinge joint because the objects act like they are connected with
 
 ### Behavior actions
 
-**Break revolute joint if it exceeds breaking force**
+**Break revolute joint if it exceeds breaking force**  
 Break revolute joint if it exceeds breaking force.
 
 ??? quote "See parameters"
@@ -163,7 +163,7 @@ Break revolute joint if it exceeds breaking force.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Set the breaking force of a joint**
+**Set the breaking force of a joint**  
 Set the breaking force of a joint.
 
 ??? quote "See parameters"
@@ -174,7 +174,7 @@ Set the breaking force of a joint.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set clockwise angle limit of joint**
+**Set clockwise angle limit of joint**  
 Set clockwise angle limit of joint.
 
 ??? quote "See parameters"
@@ -185,7 +185,7 @@ Set clockwise angle limit of joint.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set counter-clockwise angle limit of joint**
+**Set counter-clockwise angle limit of joint**  
 Set counter-clockwise angle limit of joint.
 
 ??? quote "See parameters"
@@ -196,7 +196,7 @@ Set counter-clockwise angle limit of joint.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Enable (or disable) angle limits on joint**
+**Enable (or disable) angle limits on joint**  
 Enable (or disable) angle limits on joint.
 
 ??? quote "See parameters"
@@ -207,7 +207,7 @@ Enable (or disable) angle limits on joint.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Enable (or disable) motor of joint**
+**Enable (or disable) motor of joint**  
 Enable (or disable) motor of joint.
 
 ??? quote "See parameters"
@@ -218,7 +218,7 @@ Enable (or disable) motor of joint.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Motor enabled (or disabled) on joint**
+**Motor enabled (or disabled) on joint**  
 Change if motor enabled (or disabled) on joint.
 
 ??? quote "See parameters"
@@ -229,7 +229,7 @@ Change if motor enabled (or disabled) on joint.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set motor rotation speed of joint**
+**Set motor rotation speed of joint**  
 Set motor rotation speed of joint.
 
 ??? quote "See parameters"
@@ -240,7 +240,7 @@ Set motor rotation speed of joint.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set motor strength of joint**
+**Set motor strength of joint**  
 Set motor strength (torque) of joint.
 
 ??? quote "See parameters"
@@ -253,7 +253,7 @@ Set motor strength (torque) of joint.
 
 ### Behavior conditions
 
-**Motor enabled (or disabled) on joint**
+**Motor enabled (or disabled) on joint**  
 Check if motor enabled (or disabled) on joint.
 
 ??? quote "See parameters"
@@ -274,7 +274,7 @@ Objects can get closer, but they cannot exceed the starting distance from each o
 
 ### Behavior actions
 
-**Break rope joint if it exceeds breaking force**
+**Break rope joint if it exceeds breaking force**  
 Break rope joint if it exceeds breaking force.
 
 ??? quote "See parameters"
@@ -286,7 +286,7 @@ Break rope joint if it exceeds breaking force.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Breaking force**
+**Breaking force**  
 Change the force required to break joint apart.
 
 ??? quote "See parameters"
@@ -298,7 +298,7 @@ Change the force required to break joint apart.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Damping ratio**
+**Damping ratio**  
 Change the damping ratio of the object. Set a number between 0 and 1.
 
 ??? quote "See parameters"
@@ -310,7 +310,7 @@ Change the damping ratio of the object. Set a number between 0 and 1.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Frequency**
+**Frequency**  
 Change the frequency of the object. Set a number between 0 and 60. Higher numbers represent a stiffer spring.
 
 ??? quote "See parameters"
@@ -322,7 +322,7 @@ Change the frequency of the object. Set a number between 0 and 60. Higher number
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Max distance between objects**
+**Max distance between objects**  
 Change the max distance between objects.
 
 ??? quote "See parameters"
@@ -336,7 +336,7 @@ Change the max distance between objects.
 
 ### Behavior conditions
 
-**Breaking force**
+**Breaking force**  
 Compare the force required to break joint apart.
 
 ??? quote "See parameters"
@@ -348,7 +348,7 @@ Compare the force required to break joint apart.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Damping ratio**
+**Damping ratio**  
 Compare the damping ratio of the object. Set a number between 0 and 1.
 
 ??? quote "See parameters"
@@ -360,7 +360,7 @@ Compare the damping ratio of the object. Set a number between 0 and 1.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Frequency**
+**Frequency**  
 Compare the frequency of the object. Set a number between 0 and 60. Higher numbers represent a stiffer spring.
 
 ??? quote "See parameters"
@@ -372,7 +372,7 @@ Compare the frequency of the object. Set a number between 0 and 60. Higher numbe
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Max distance between objects**
+**Max distance between objects**  
 Compare the max distance between objects.
 
 ??? quote "See parameters"
@@ -400,7 +400,7 @@ Also known as a static joint because the objects stay glued in the same relative
 
 ### Behavior actions
 
-**Break weld joint if it exceeds breaking force**
+**Break weld joint if it exceeds breaking force**  
 Break weld joint if it exceeds breaking force.
 
 ??? quote "See parameters"
@@ -412,7 +412,7 @@ Break weld joint if it exceeds breaking force.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Set the breaking force of a joint**
+**Set the breaking force of a joint**  
 Set the breaking force of a joint.
 
 ??? quote "See parameters"
@@ -423,7 +423,7 @@ Set the breaking force of a joint.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set frequency of joint**
+**Set frequency of joint**  
 Set frequency of joint.  Range: 0 to 60 (or the maximum FPS of game).
 
 ??? quote "See parameters"

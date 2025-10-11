@@ -14,7 +14,7 @@ Provides conditions to check if a string is a valid phone number, url, email, nu
 
 ## Conditions
 
-**Check if a string has only latin alphabet letters**
+**Check if a string has only latin alphabet letters**  
 Check if the string has only latin alphabet letters.
 
 ??? quote "See parameters"
@@ -23,7 +23,7 @@ Check if the string has only latin alphabet letters.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Check if a string is a valid email**
+**Check if a string is a valid email**  
 Check if the string is a valid email.
 
 ??? quote "See parameters"
@@ -32,7 +32,7 @@ Check if the string is a valid email.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Check if a string represents a number**
+**Check if a string represents a number**  
 Check if the string represents a number (potentially with a minus sign and potentially with a decimal point).
 
 ??? quote "See parameters"
@@ -41,7 +41,7 @@ Check if the string represents a number (potentially with a minus sign and poten
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Check if a string is a valid phone number**
+**Check if a string is a valid phone number**  
 Check if the string is a valid phone number.
 
 ??? quote "See parameters"
@@ -50,7 +50,7 @@ Check if the string is a valid phone number.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Check if a string is a valid URL**
+**Check if a string is a valid URL**  
 Check if the string is a valid URL.
 
 ??? quote "See parameters"

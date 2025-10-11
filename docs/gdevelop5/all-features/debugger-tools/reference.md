@@ -4,7 +4,7 @@ Allow to interact with the editor debugger from the game (notably: enable 2D deb
 
 ## Actions
 
-**Log a message to the console**
+**Log a message to the console**  
 Logs a message to the debugger's console.
 
 ??? quote "See parameters"
@@ -13,7 +13,7 @@ Logs a message to the debugger's console.
     - Parameter 1 (🔤 String): Message type (one of: "info", "warning", "error")
     - Parameter 2 (string): Group of messages
 
-**Draw collisions hitboxes and points**
+**Draw collisions hitboxes and points**  
 This activates the display of rectangles and information on screen showing the objects bounding boxes (blue), the hitboxes (red) and some points of objects.
 
 ??? quote "See parameters"
@@ -25,7 +25,7 @@ This activates the display of rectangles and information on screen showing the o
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Pause game execution**
+**Pause game execution**  
 This pauses the game, useful for inspecting the game state through the debugger. Note that events will be still executed until the end before the game is paused.
 
 ??? quote "See parameters"

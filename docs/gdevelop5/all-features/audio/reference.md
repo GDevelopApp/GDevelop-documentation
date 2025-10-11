@@ -4,7 +4,7 @@ GDevelop provides several conditions and actions to play audio files. They can b
 
 ## Actions
 
-**Fade the volume of a music played on a channel.**
+**Fade the volume of a music played on a channel.**  
 Fade the volume of a music played on a channel to the specified volume within the specified duration.
 
 ??? quote "See parameters"
@@ -15,7 +15,7 @@ Fade the volume of a music played on a channel to the specified volume within th
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Fade the volume of a sound played on a channel.**
+**Fade the volume of a sound played on a channel.**  
 Fade the volume of a sound played on a channel to the specified volume within the specified duration.
 
 ??? quote "See parameters"
@@ -26,7 +26,7 @@ Fade the volume of a sound played on a channel to the specified volume within th
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Game global volume**
+**Game global volume**  
 This action modifies the global volume of the game.
 
 ??? quote "See parameters"
@@ -36,7 +36,7 @@ This action modifies the global volume of the game.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Pitch of the music on a channel**
+**Pitch of the music on a channel**  
 This action modifies the pitch of the music on the specified channel.
 
 ??? quote "See parameters"
@@ -47,7 +47,7 @@ This action modifies the pitch of the music on the specified channel.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Pitch of the sound of a channel**
+**Pitch of the sound of a channel**  
 This action modifies the pitch (speed) of the sound on a channel.
 
 ??? quote "See parameters"
@@ -58,7 +58,7 @@ This action modifies the pitch (speed) of the sound on a channel.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Playing offset of the music on a channel**
+**Playing offset of the music on a channel**  
 This action modifies the playing offset of the music on the specified channel
 
 ??? quote "See parameters"
@@ -69,7 +69,7 @@ This action modifies the playing offset of the music on the specified channel
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Playing offset of the sound on a channel**
+**Playing offset of the sound on a channel**  
 This action modifies the playing offset of the sound on a channel
 
 ??? quote "See parameters"
@@ -80,7 +80,7 @@ This action modifies the playing offset of the sound on a channel
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Volume of the music on a channel**
+**Volume of the music on a channel**  
 This action modifies the volume of the music on the specified channel.
 
 ??? quote "See parameters"
@@ -91,7 +91,7 @@ This action modifies the volume of the music on the specified channel.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Volume of the sound on a channel**
+**Volume of the sound on a channel**  
 This action modifies the volume of the sound on the specified channel.
 
 ??? quote "See parameters"
@@ -102,7 +102,7 @@ This action modifies the volume of the sound on the specified channel.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Pause the music of a channel**
+**Pause the music of a channel**  
 Pause the music on the specified channel.
 
 ??? quote "See parameters"
@@ -111,7 +111,7 @@ Pause the music on the specified channel.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Pause the sound of a channel**
+**Pause the sound of a channel**  
 Pause the sound played on the specified channel.
 
 ??? quote "See parameters"
@@ -120,7 +120,7 @@ Pause the sound played on the specified channel.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Play a music file**
+**Play a music file**  
 Play a music file.
 
 ??? quote "See parameters"
@@ -134,7 +134,7 @@ Play a music file.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Play a music file on a channel**
+**Play a music file on a channel**  
 Play a music file on a specific channel,  
 so you'll be able to interact with it later.
 
@@ -150,7 +150,7 @@ so you'll be able to interact with it later.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Play a sound**
+**Play a sound**  
 Play a sound.
 
 ??? quote "See parameters"
@@ -164,7 +164,7 @@ Play a sound.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Play a sound on a channel**
+**Play a sound on a channel**  
 Play a sound (small audio file) on a specific channel,  
 so you'll be able to manipulate it.
 
@@ -180,7 +180,7 @@ so you'll be able to manipulate it.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Preload a music file**
+**Preload a music file**  
 Preload a music file in memory.
 
 ??? quote "See parameters"
@@ -189,7 +189,7 @@ Preload a music file in memory.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Preload a sound file**
+**Preload a sound file**  
 Preload a sound file in memory.
 
 ??? quote "See parameters"
@@ -198,7 +198,7 @@ Preload a sound file in memory.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Resume playing a music on a channel**
+**Resume playing a music on a channel**  
 Resume playing a music on a channel that was paused.
 
 ??? quote "See parameters"
@@ -207,7 +207,7 @@ Resume playing a music on a channel that was paused.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Resume playing a sound on a channel**
+**Resume playing a sound on a channel**  
 Resume playing a sound on a channel that was paused.
 
 ??? quote "See parameters"
@@ -216,7 +216,7 @@ Resume playing a sound on a channel that was paused.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Stop the music on a channel**
+**Stop the music on a channel**  
 Stop the music on the specified channel
 
 ??? quote "See parameters"
@@ -225,7 +225,7 @@ Stop the music on the specified channel
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Stop the sound of a channel**
+**Stop the sound of a channel**  
 Stop the sound on the specified channel.
 
 ??? quote "See parameters"
@@ -234,7 +234,7 @@ Stop the sound on the specified channel.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Unload all audio**
+**Unload all audio**  
 Unload all the audio in memory. This will cause every sound and music of the game to stop.
 
 ??? quote "See parameters"
@@ -243,7 +243,7 @@ Unload all the audio in memory. This will cause every sound and music of the gam
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Unload a music file**
+**Unload a music file**  
 Unload a music file from memory. Unloading a music file will cause any music playing it to stop.
 
 ??? quote "See parameters"
@@ -252,7 +252,7 @@ Unload a music file from memory. Unloading a music file will cause any music pla
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Unload a sound file**
+**Unload a sound file**  
 Unload a sound file from memory. Unloading a sound file will cause any sounds playing it to stop.
 
 ??? quote "See parameters"
@@ -263,7 +263,7 @@ Unload a sound file from memory. Unloading a sound file will cause any sounds pl
 
 ## Conditions
 
-**Global volume**
+**Global volume**  
 Test the global sound level. The volume is between 0 and 100.
 
 ??? quote "See parameters"
@@ -273,7 +273,7 @@ Test the global sound level. The volume is between 0 and 100.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Volume of the music on a channel**
+**Volume of the music on a channel**  
 Test the volume of the music on a specified channel. The volume is between 0 and 100.
 
 ??? quote "See parameters"
@@ -284,7 +284,7 @@ Test the volume of the music on a specified channel. The volume is between 0 and
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Pitch of the music on a channel**
+**Pitch of the music on a channel**  
 Test the pitch (speed) of the music on a specified channel.
 
 ??? quote "See parameters"
@@ -295,7 +295,7 @@ Test the pitch (speed) of the music on a specified channel.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Playing offset of the music on a channel**
+**Playing offset of the music on a channel**  
 Test the playing offset of the music on the specified channel.
 
 ??? quote "See parameters"
@@ -306,7 +306,7 @@ Test the playing offset of the music on the specified channel.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**A music file is paused**
+**A music file is paused**  
 Test if the music on the specified channel is paused.
 
 ??? quote "See parameters"
@@ -315,7 +315,7 @@ Test if the music on the specified channel is paused.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**A music file is being played**
+**A music file is being played**  
 Test if the music on a channel is being played
 
 ??? quote "See parameters"
@@ -324,7 +324,7 @@ Test if the music on a channel is being played
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**A music file is stopped**
+**A music file is stopped**  
 Test if the music on the specified channel is stopped.
 
 ??? quote "See parameters"
@@ -333,7 +333,7 @@ Test if the music on the specified channel is stopped.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Volume of the sound on a channel**
+**Volume of the sound on a channel**  
 Test the volume of the sound on the specified channel.
 
 ??? quote "See parameters"
@@ -344,7 +344,7 @@ Test the volume of the sound on the specified channel.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Pitch of the sound of a channel**
+**Pitch of the sound of a channel**  
 Test the pitch of the sound on the specified channel. 1 is the default pitch.
 
 ??? quote "See parameters"
@@ -355,7 +355,7 @@ Test the pitch of the sound on the specified channel. 1 is the default pitch.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Playing offset of the sound on a channel**
+**Playing offset of the sound on a channel**  
 Test the playing offset of the sound on the specified channel.
 
 ??? quote "See parameters"
@@ -366,7 +366,7 @@ Test the playing offset of the sound on the specified channel.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**A sound is paused**
+**A sound is paused**  
 Test if the sound on the specified channel is paused.
 
 ??? quote "See parameters"
@@ -375,7 +375,7 @@ Test if the sound on the specified channel is paused.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**A sound is being played**
+**A sound is being played**  
 Test if the sound on a channel is being played.
 
 ??? quote "See parameters"
@@ -384,7 +384,7 @@ Test if the sound on a channel is being played.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**A sound is stopped**
+**A sound is stopped**  
 Test if the sound on the specified channel is stopped.
 
 ??? quote "See parameters"

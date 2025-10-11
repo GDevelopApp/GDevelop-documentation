@@ -22,7 +22,7 @@ Allows to input the classic Konami Code ("Up, Up, Down, Down, Left, Right, Left,
 
 ### Behavior conditions
 
-**Is Inputted**
+**Is Inputted**  
 Checks if the Konami Code is correctly inputted.
 
 ??? quote "See parameters"

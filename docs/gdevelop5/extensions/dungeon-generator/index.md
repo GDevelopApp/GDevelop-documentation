@@ -35,7 +35,7 @@ An example shows how to procedurally generate dungeons or caves ([open the proje
 
 ## Actions
 
-**Calculate the number of grid neighbors around an object**
+**Calculate the number of grid neighbors around an object**  
 Calculate the number of grid neighbors around an object.  Use "NeighborCount(Object)" expression to retrieve this value.
 
 ??? quote "See parameters"
@@ -45,7 +45,7 @@ Calculate the number of grid neighbors around an object.  Use "NeighborCount(Obj
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Generate a dungeon cave**
+**Generate a dungeon cave**  
 Generate a dungeon cave using a random walk algorithm.  When the walker touches an edge of the map, it is moved back to the center of map.
 
 ??? quote "See parameters"
@@ -75,7 +75,7 @@ Generate a dungeon cave using a random walk algorithm.  When the walker touches 
 
     > Technical note: parameters 0, 14 are internal parameters handled by GDevelop.
 
-**Generate a dungeon with room and hallways**
+**Generate a dungeon with room and hallways**  
 Generate a dungeon by placing rooms in random locations and moving them if they collide with each other.  Rooms are connected with hallways.
 
 ??? quote "See parameters"
@@ -112,7 +112,7 @@ Generate a dungeon by placing rooms in random locations and moving them if they 
 
 ## Conditions
 
-**Hallway is a room entrance**
+**Hallway is a room entrance**  
 Check if hallway is a room entrance.
 
 ??? quote "See parameters"

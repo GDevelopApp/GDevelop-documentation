@@ -29,7 +29,7 @@ Let platformer characters jump shortly after leaving a platform and also jump in
 
 ### Behavior actions
 
-**Remove a remaining air jump**
+**Remove a remaining air jump**  
 Remove one of the remaining air jumps of a character.
 
 ??? quote "See parameters"
@@ -39,7 +39,7 @@ Remove one of the remaining air jumps of a character.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Reset air jumps**
+**Reset air jumps**  
 Allow back all air jumps of a character.
 
 ??? quote "See parameters"
@@ -49,7 +49,7 @@ Allow back all air jumps of a character.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Air jumps**
+**Air jumps**  
 Change the number of times the character can jump in mid-air.
 
 ??? quote "See parameters"
@@ -60,7 +60,7 @@ Change the number of times the character can jump in mid-air.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Coyote timeframe**
+**Coyote timeframe**  
 Change the coyote time duration of an object (in seconds).
 
 ??? quote "See parameters"
@@ -74,7 +74,7 @@ Change the coyote time duration of an object (in seconds).
 
 ### Behavior conditions
 
-**Floor jumps count as air jumps**
+**Floor jumps count as air jumps**  
 Check if floor jumps are counted as air jumps for an object.
 
 ??? quote "See parameters"
@@ -84,7 +84,7 @@ Check if floor jumps are counted as air jumps for an object.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Can coyote jump**
+**Can coyote jump**  
 Check if a coyote jump can currently happen.
 
 ??? quote "See parameters"
@@ -107,7 +107,7 @@ Make platformer characters dash toward the floor.
 
 ### Behavior actions
 
-**Simulate dive key**
+**Simulate dive key**  
 Simulate a press of dive key to make the object dives to the floor if it can dive.
 
 ??? quote "See parameters"
@@ -119,7 +119,7 @@ Simulate a press of dive key to make the object dives to the floor if it can div
 
 ### Behavior conditions
 
-**Can dive**
+**Can dive**  
 Check if the object can dive.
 
 ??? quote "See parameters"
@@ -129,7 +129,7 @@ Check if the object can dive.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is diving**
+**Is diving**  
 Check if the object is diving.
 
 ??? quote "See parameters"
@@ -148,7 +148,7 @@ Make platformer characters dash horizontally.
 
 ### Behavior actions
 
-**Abort dash**
+**Abort dash**  
 Abort the current dash and set the object to its usual horizontal speed.
 
 ??? quote "See parameters"
@@ -158,7 +158,7 @@ Abort the current dash and set the object to its usual horizontal speed.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Simulate dash key**
+**Simulate dash key**  
 Simulate a press of dash key.
 
 ??? quote "See parameters"
@@ -170,7 +170,7 @@ Simulate a press of dash key.
 
 ### Behavior conditions
 
-**Is dashing**
+**Is dashing**  
 Check if the object is dashing.
 
 ??? quote "See parameters"
@@ -189,7 +189,7 @@ Resolve conflict between platformer character configuration changes.
 
 ### Behavior actions
 
-**Configure horizontal acceleration**
+**Configure horizontal acceleration**  
 Configure character acceleration for a given configuration layer and move this layer on top.
 
 ??? quote "See parameters"
@@ -201,7 +201,7 @@ Configure character acceleration for a given configuration layer and move this l
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Configure horizontal deceleration**
+**Configure horizontal deceleration**  
 Configure character deceleration for a given configuration layer and move this layer on top.
 
 ??? quote "See parameters"
@@ -213,7 +213,7 @@ Configure character deceleration for a given configuration layer and move this l
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Configure gravity**
+**Configure gravity**  
 Configure character gravity for a given configuration layer and move this layer on top.
 
 ??? quote "See parameters"
@@ -225,7 +225,7 @@ Configure character gravity for a given configuration layer and move this layer 
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Configure maximum falling speed**
+**Configure maximum falling speed**  
 Configure character maximum falling speed for a given configuration layer and move this layer on top.
 
 ??? quote "See parameters"
@@ -237,7 +237,7 @@ Configure character maximum falling speed for a given configuration layer and mo
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Configure maximum horizontal speed**
+**Configure maximum horizontal speed**  
 Configure character maximum speed for a given configuration layer and move this layer on top.
 
 ??? quote "See parameters"
@@ -249,7 +249,7 @@ Configure character maximum speed for a given configuration layer and move this 
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Revert configuration**
+**Revert configuration**  
 Revert configuration changes for one identifier and update the character configuration to use the most recent ones.
 
 ??? quote "See parameters"
@@ -272,7 +272,7 @@ Let platformer characters jump and slide against walls.
 
 ### Behavior actions
 
-**Jump time frame**
+**Jump time frame**  
 Change the wall jump detection time frame of an object (in seconds).
 
 ??? quote "See parameters"
@@ -283,7 +283,7 @@ Change the wall jump detection time frame of an object (in seconds).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Side acceleration**
+**Side acceleration**  
 Change the side acceleration of wall jumps of an object (in pixels per second per second).
 
 ??? quote "See parameters"
@@ -294,7 +294,7 @@ Change the side acceleration of wall jumps of an object (in pixels per second pe
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Side speed**
+**Side speed**  
 Change the side speed of wall jumps of an object (in pixels per second).
 
 ??? quote "See parameters"
@@ -305,7 +305,7 @@ Change the side speed of wall jumps of an object (in pixels per second).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Gravity**
+**Gravity**  
 Change the wall sliding gravity of an object (in pixels per second per second).
 
 ??? quote "See parameters"
@@ -316,7 +316,7 @@ Change the wall sliding gravity of an object (in pixels per second per second).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Maximum falling speed**
+**Maximum falling speed**  
 Change the wall sliding maximum falling speed of an object (in pixels per second).
 
 ??? quote "See parameters"
@@ -327,7 +327,7 @@ Change the wall sliding maximum falling speed of an object (in pixels per second
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Impact speed absorption**
+**Impact speed absorption**  
 Change the impact speed absorption of an object.
 
 ??? quote "See parameters"
@@ -340,7 +340,7 @@ Change the impact speed absorption of an object.
 
 ### Behavior conditions
 
-**Has just wall jumped**
+**Has just wall jumped**  
 Check if the object has just wall jumped.
 
 ??? quote "See parameters"
@@ -350,7 +350,7 @@ Check if the object has just wall jumped.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Against a wall**
+**Against a wall**  
 Check if the object is against a wall.
 
 ??? quote "See parameters"
@@ -360,7 +360,7 @@ Check if the object is against a wall.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is wall jumping**
+**Is wall jumping**  
 Check if the object is wall jumping.
 
 ??? quote "See parameters"

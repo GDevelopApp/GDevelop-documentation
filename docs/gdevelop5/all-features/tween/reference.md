@@ -4,7 +4,7 @@ Smoothly animate object properties over time — such as position, rotation scal
 
 ## Actions
 
-**Tween a layer value**
+**Tween a layer value**  
 Tweens a layer value that can be use with the expression Tween::Value.
 
 ??? quote "See parameters"
@@ -19,7 +19,7 @@ Tweens a layer value that can be use with the expression Tween::Value.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Tween a scene value**
+**Tween a scene value**  
 Tweens a scene value that can be use with the expression Tween::Value.
 
 ??? quote "See parameters"
@@ -33,7 +33,7 @@ Tweens a scene value that can be use with the expression Tween::Value.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Pause a scene tween**
+**Pause a scene tween**  
 Pause the running scene tween.
 
 ??? quote "See parameters"
@@ -42,7 +42,7 @@ Pause the running scene tween.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Remove a scene tween**
+**Remove a scene tween**  
 Remove the scene tween. Call this when the tween is no longer needed to free memory.
 
 ??? quote "See parameters"
@@ -51,7 +51,7 @@ Remove the scene tween. Call this when the tween is no longer needed to free mem
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Resume a scene tween**
+**Resume a scene tween**  
 Resume the scene tween.
 
 ??? quote "See parameters"
@@ -60,7 +60,7 @@ Resume the scene tween.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Stop a scene tween**
+**Stop a scene tween**  
 Stop the running scene tween.
 
 ??? quote "See parameters"
@@ -70,7 +70,7 @@ Stop the running scene tween.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Tween the camera position**
+**Tween the camera position**  
 Tweens the camera position from the current one to a new one.
 
 ??? quote "See parameters"
@@ -84,7 +84,7 @@ Tweens the camera position from the current one to a new one.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Tween the camera rotation**
+**Tween the camera rotation**  
 Tweens the camera rotation from the current angle to a new one.
 
 ??? quote "See parameters"
@@ -97,7 +97,7 @@ Tweens the camera rotation from the current angle to a new one.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Tween the camera zoom**
+**Tween the camera zoom**  
 Tweens the camera zoom from the current zoom factor to a new one.
 
 ??? quote "See parameters"
@@ -110,7 +110,7 @@ Tweens the camera zoom from the current zoom factor to a new one.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Tween color effect property**
+**Tween color effect property**  
 Tweens a color effect property from its current value to a new one.
 
 ??? quote "See parameters"
@@ -125,7 +125,7 @@ Tweens a color effect property from its current value to a new one.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Tween number effect property**
+**Tween number effect property**  
 Tweens a number effect property from its current value to a new one.
 
 ??? quote "See parameters"
@@ -140,7 +140,7 @@ Tweens a number effect property from its current value to a new one.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Tween a number in a scene variable**
+**Tween a number in a scene variable**  
 Tweens a scene variable's numeric value from its current value to a new one.
 
 ??? quote "See parameters"
@@ -155,7 +155,7 @@ Tweens a scene variable's numeric value from its current value to a new one.
 
 ## Conditions
 
-**Tween progress**
+**Tween progress**  
 Compare the progress of a tween (between 0.0 and 1.0).
 
 ??? quote "See parameters"
@@ -166,7 +166,7 @@ Compare the progress of a tween (between 0.0 and 1.0).
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Scene tween exists**
+**Scene tween exists**  
 Check if the scene tween exists.
 
 ??? quote "See parameters"
@@ -175,7 +175,7 @@ Check if the scene tween exists.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Scene tween finished playing**
+**Scene tween finished playing**  
 Check if the scene tween has finished playing.
 
 ??? quote "See parameters"
@@ -184,7 +184,7 @@ Check if the scene tween has finished playing.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Scene tween is playing**
+**Scene tween is playing**  
 Check if the scene tween is currently playing.
 
 ??? quote "See parameters"
@@ -213,7 +213,7 @@ Smoothly animate position, angle, scale and other properties of objects.
 
 ### Behavior actions
 
-**Tween object depth**
+**Tween object depth**  
 Tweens an object depth (suitable 3D objects only) from its current depth to a new one.
 
 ??? quote "See parameters"
@@ -227,7 +227,7 @@ Tweens an object depth (suitable 3D objects only) from its current depth to a ne
     - Parameter 6 (🔢 Number): Duration (in seconds)
     - Parameter 7 (❓ Yes or No): Destroy this object when tween finishes
 
-**Tween object Z position**
+**Tween object Z position**  
 Tweens an object Z position (3D objects only) from its current Z position to a new one.
 
 ??? quote "See parameters"
@@ -241,7 +241,7 @@ Tweens an object Z position (3D objects only) from its current Z position to a n
     - Parameter 6 (🔢 Number): Duration (in seconds)
     - Parameter 7 (❓ Yes or No): Destroy this object when tween finishes
 
-**Pause a tween**
+**Pause a tween**  
 Pause the running tween animation.
 
 ??? quote "See parameters"
@@ -250,7 +250,7 @@ Pause the running tween animation.
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔤 Name (String)): Tween Identifier
 
-**Remove a tween**
+**Remove a tween**  
 Remove the tween animation from the object.
 
 ??? quote "See parameters"
@@ -259,7 +259,7 @@ Remove the tween animation from the object.
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔤 Name (String)): Tween Identifier
 
-**Resume a tween**
+**Resume a tween**  
 Resume the tween animation.
 
 ??? quote "See parameters"
@@ -268,7 +268,7 @@ Resume the tween animation.
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔤 Name (String)): Tween Identifier
 
-**Stop a tween**
+**Stop a tween**  
 Stop the running tween animation.
 
 ??? quote "See parameters"
@@ -278,7 +278,7 @@ Stop the running tween animation.
     - Parameter 2 (🔤 Name (String)): Tween Identifier
     - Parameter 3 (❓ Yes or No): Jump to end
 
-**Tween color effect property**
+**Tween color effect property**  
 Tweens a color effect property from its current value to a new one.
 
 ??? quote "See parameters"
@@ -294,7 +294,7 @@ Tweens a color effect property from its current value to a new one.
     - Parameter 8 (🔢 Number): Duration (in seconds)
     - Parameter 9 (❓ Yes or No): Destroy this object when tween finishes
 
-**Tween number effect property**
+**Tween number effect property**  
 Tweens a number effect property from its current value to a new one.
 
 ??? quote "See parameters"
@@ -310,7 +310,7 @@ Tweens a number effect property from its current value to a new one.
     - Parameter 8 (🔢 Number): Duration (in seconds)
     - Parameter 9 (❓ Yes or No): Destroy this object when tween finishes
 
-**Tween object angle**
+**Tween object angle**  
 Tweens an object angle from its current angle to a new one.
 
 ??? quote "See parameters"
@@ -323,7 +323,7 @@ Tweens an object angle from its current angle to a new one.
     - Parameter 5 (🔢 Number): Duration (in seconds)
     - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
 
-**Tween object HSL color**
+**Tween object HSL color**  
 Tweens the object color using Hue/Saturation/Lightness. Hue is in degrees, Saturation and Lightness are between 0 and 100. Use -1 for Saturation and Lightness to let them unchanged.
 
 ??? quote "See parameters"
@@ -339,7 +339,7 @@ Tweens the object color using Hue/Saturation/Lightness. Hue is in degrees, Satur
     - Parameter 8 (🔢 Number): Duration (in seconds)
     - Parameter 9 (❓ Yes or No): Destroy this object when tween finishes
 
-**Tween object color**
+**Tween object color**  
 Tweens the object color from its current value to a new one. Format: "128;200;255" with values between 0 and 255 for red, green and blue
 
 ??? quote "See parameters"
@@ -354,7 +354,7 @@ Tweens the object color from its current value to a new one. Format: "128;200;25
     - Parameter 7 (❓ Yes or No): Tween on the Hue/Saturation/Lightness (HSL)
       Useful to have a more natural change between colors.
 
-**Tween object height**
+**Tween object height**  
 Tweens an object height from its current height to a new one.
 
 ??? quote "See parameters"
@@ -367,7 +367,7 @@ Tweens an object height from its current height to a new one.
     - Parameter 5 (🔢 Number): Duration (in seconds)
     - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
 
-**Tween object opacity**
+**Tween object opacity**  
 Tweens the object opacity from its current value to a new one (note: the value shall stay between 0 and 255).
 
 ??? quote "See parameters"
@@ -380,7 +380,7 @@ Tweens the object opacity from its current value to a new one (note: the value s
     - Parameter 5 (🔢 Number): Duration (in seconds)
     - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
 
-**Tween object position**
+**Tween object position**  
 Tweens an object position from its current position to a new one.
 
 ??? quote "See parameters"
@@ -394,7 +394,7 @@ Tweens an object position from its current position to a new one.
     - Parameter 6 (🔢 Number): Duration (in seconds)
     - Parameter 7 (❓ Yes or No): Destroy this object when tween finishes
 
-**Tween object X position**
+**Tween object X position**  
 Tweens an object X position from its current X position to a new one.
 
 ??? quote "See parameters"
@@ -407,7 +407,7 @@ Tweens an object X position from its current X position to a new one.
     - Parameter 5 (🔢 Number): Duration (in seconds)
     - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
 
-**Tween object Y position**
+**Tween object Y position**  
 Tweens an object Y position from its current Y position to a new one.
 
 ??? quote "See parameters"
@@ -420,7 +420,7 @@ Tweens an object Y position from its current Y position to a new one.
     - Parameter 5 (🔢 Number): Duration (in seconds)
     - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
 
-**Tween object rotation on X axis**
+**Tween object rotation on X axis**  
 Tweens an object rotation on X axis from its current angle to a new one.
 
 ??? quote "See parameters"
@@ -434,7 +434,7 @@ Tweens an object rotation on X axis from its current angle to a new one.
     - Parameter 6 (🔢 Number): Duration (in seconds)
     - Parameter 7 (❓ Yes or No): Destroy this object when tween finishes
 
-**Tween object rotation on Y axis**
+**Tween object rotation on Y axis**  
 Tweens an object rotation on Y axis from its current angle to a new one.
 
 ??? quote "See parameters"
@@ -448,7 +448,7 @@ Tweens an object rotation on Y axis from its current angle to a new one.
     - Parameter 6 (🔢 Number): Duration (in seconds)
     - Parameter 7 (❓ Yes or No): Destroy this object when tween finishes
 
-**Tween object scale**
+**Tween object scale**  
 Tweens an object scale from its current value to a new one (note: the scale can never be 0 or less).
 
 ??? quote "See parameters"
@@ -462,7 +462,7 @@ Tweens an object scale from its current value to a new one (note: the scale can 
     - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
     - Parameter 7 (❓ Yes or No): Scale from center of object
 
-**Tween object X-scale**
+**Tween object X-scale**  
 Tweens an object X-scale from its current value to a new one (note: the scale can never be 0 or less).
 
 ??? quote "See parameters"
@@ -476,7 +476,7 @@ Tweens an object X-scale from its current value to a new one (note: the scale ca
     - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
     - Parameter 7 (❓ Yes or No): Scale from center of object
 
-**Tween object Y-scale**
+**Tween object Y-scale**  
 Tweens an object Y-scale from its current value to a new one (note: the scale can never be 0 or less).
 
 ??? quote "See parameters"
@@ -490,7 +490,7 @@ Tweens an object Y-scale from its current value to a new one (note: the scale ca
     - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
     - Parameter 7 (❓ Yes or No): Scale from center of object
 
-**Tween an object value**
+**Tween an object value**  
 Tweens an object value that can be use with the object expression Tween::Value.
 
 ??? quote "See parameters"
@@ -505,7 +505,7 @@ Tweens an object value that can be use with the object expression Tween::Value.
     - Parameter 7 (❓ Yes or No): Exponential interpolation
     - Parameter 8 (❓ Yes or No): Destroy this object when tween finishes
 
-**Tween a number in an object variable**
+**Tween a number in an object variable**  
 Tweens an object variable's numeric value from its current value to a new one.
 
 ??? quote "See parameters"
@@ -519,7 +519,7 @@ Tweens an object variable's numeric value from its current value to a new one.
     - Parameter 6 (🔢 Number): Duration (in seconds)
     - Parameter 7 (❓ Yes or No): Destroy this object when tween finishes
 
-**Tween object width**
+**Tween object width**  
 Tweens an object width from its current width to a new one.
 
 ??? quote "See parameters"
@@ -532,7 +532,7 @@ Tweens an object width from its current width to a new one.
     - Parameter 5 (🔢 Number): Duration (in seconds)
     - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
 
-**Tween text size**
+**Tween text size**  
 Tweens the text object character size from its current value to a new one (note: the size can never be less than 1).
 
 ??? quote "See parameters"
@@ -547,7 +547,7 @@ Tweens the text object character size from its current value to a new one (note:
 
 ### Behavior conditions
 
-**Tween exists**
+**Tween exists**  
 Check if the tween animation exists.
 
 ??? quote "See parameters"
@@ -556,7 +556,7 @@ Check if the tween animation exists.
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔤 Name (String)): Tween Identifier
 
-**Tween finished playing**
+**Tween finished playing**  
 Check if the tween animation has finished playing.
 
 ??? quote "See parameters"
@@ -565,7 +565,7 @@ Check if the tween animation has finished playing.
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔤 Name (String)): Tween Identifier
 
-**Tween is playing**
+**Tween is playing**  
 Check if the tween animation is currently playing.
 
 ??? quote "See parameters"
@@ -574,7 +574,7 @@ Check if the tween animation is currently playing.
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔤 Name (String)): Tween Identifier
 
-**Tween progress**
+**Tween progress**  
 Compare the progress of a tween (between 0.0 and 1.0).
 
 ??? quote "See parameters"

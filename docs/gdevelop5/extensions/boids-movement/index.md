@@ -24,7 +24,7 @@ Move as part of a flock.
 
 ### Behavior actions
 
-**Avoid an object**
+**Avoid an object**  
 Intend to avoid an area from an object center and a given radius.
 
 ??? quote "See parameters"
@@ -37,7 +37,7 @@ Intend to avoid an area from an object center and a given radius.
 
     > Technical note: parameter 5 are internal parameters handled by GDevelop.
 
-**Avoid a position**
+**Avoid a position**  
 Intend to avoid an area with a given center and radius.
 
 ??? quote "See parameters"
@@ -51,7 +51,7 @@ Intend to avoid an area with a given center and radius.
 
     > Technical note: parameter 6 are internal parameters handled by GDevelop.
 
-**Move in a direction**
+**Move in a direction**  
 Intend to move in a given direction.
 
 ??? quote "See parameters"
@@ -64,7 +64,7 @@ Intend to move in a given direction.
 
     > Technical note: parameter 5 are internal parameters handled by GDevelop.
 
-**Move toward an object**
+**Move toward an object**  
 Intend to move toward an object.
 
 ??? quote "See parameters"
@@ -76,7 +76,7 @@ Intend to move toward an object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Move toward a position**
+**Move toward a position**  
 Intend to move toward a position.
 
 ??? quote "See parameters"
@@ -89,7 +89,7 @@ Intend to move toward a position.
 
     > Technical note: parameter 5 are internal parameters handled by GDevelop.
 
-**Alignment sight radius**
+**Alignment sight radius**  
 Return the alignment sight radius.
 
 ??? quote "See parameters"
@@ -100,7 +100,7 @@ Return the alignment sight radius.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Alignment weight**
+**Alignment weight**  
 Change the weight the alignment takes in the chosen direction.
 
 ??? quote "See parameters"
@@ -111,7 +111,7 @@ Change the weight the alignment takes in the chosen direction.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Cohesion sight radius**
+**Cohesion sight radius**  
 Change the cohesion sight radius.
 
 ??? quote "See parameters"
@@ -122,7 +122,7 @@ Change the cohesion sight radius.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Cohesion weight**
+**Cohesion weight**  
 Change the weight the cohesion takes in the chosen direction.
 
 ??? quote "See parameters"
@@ -133,7 +133,7 @@ Change the weight the cohesion takes in the chosen direction.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Maximum acceleration**
+**Maximum acceleration**  
 Change the maximum acceleration of the object.
 
 ??? quote "See parameters"
@@ -144,7 +144,7 @@ Change the maximum acceleration of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Maximum speed**
+**Maximum speed**  
 Change the maximum speed of the object.
 
 ??? quote "See parameters"
@@ -155,7 +155,7 @@ Change the maximum speed of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Separation sight radius**
+**Separation sight radius**  
 Return the separation sight radius.
 
 ??? quote "See parameters"
@@ -166,7 +166,7 @@ Return the separation sight radius.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Separation weight**
+**Separation weight**  
 Change the weight the separation takes in the chosen direction.
 
 ??? quote "See parameters"
@@ -179,7 +179,7 @@ Change the weight the separation takes in the chosen direction.
 
 ### Behavior conditions
 
-**Object Rotated**
+**Object Rotated**  
 Check if the object is rotated while moving on its path.
 
 ??? quote "See parameters"

@@ -10,7 +10,7 @@ Actions and conditions for objects having animations (sprite, 3D models...)..
 
 ### Behavior actions
 
-**Pause the animation**
+**Pause the animation**  
 Pause the animation of the object.
 
 ??? quote "See parameters"
@@ -18,7 +18,7 @@ Pause the animation of the object.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Resume the animation**
+**Resume the animation**  
 Resume the animation of the object.
 
 ??? quote "See parameters"
@@ -26,7 +26,7 @@ Resume the animation of the object.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Animation elapsed time**
+**Animation elapsed time**  
 Change the elapsed time from the beginning of the animation (in seconds).
 
 ??? quote "See parameters"
@@ -36,7 +36,7 @@ Change the elapsed time from the beginning of the animation (in seconds).
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Elapsed time (in seconds)
 
-**Animation (by number)**
+**Animation (by number)**  
 Change the animation played by the object using the animation number (from the animations list).
 
 ??? quote "See parameters"
@@ -46,7 +46,7 @@ Change the animation played by the object using the animation number (from the a
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Animation index
 
-**Animation (by name)**
+**Animation (by name)**  
 Change the animation played by the object using the name of the animation.
 
 ??? quote "See parameters"
@@ -56,7 +56,7 @@ Change the animation played by the object using the name of the animation.
     - Parameter 2: 🟰 Operator
     - Parameter 3: 🔤 Object Animation Name (String)
 
-**Animation speed scale**
+**Animation speed scale**  
 Change the animation speed scale (1 = the default speed, >1 = faster and <1 = slower).
 
 ??? quote "See parameters"
@@ -68,7 +68,7 @@ Change the animation speed scale (1 = the default speed, >1 = faster and <1 = sl
 
 ### Behavior conditions
 
-**Animation elapsed time**
+**Animation elapsed time**  
 Compare the elapsed time from the beginning of the animation (in seconds).
 
 ??? quote "See parameters"
@@ -78,7 +78,7 @@ Compare the elapsed time from the beginning of the animation (in seconds).
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Elapsed time (in seconds)
 
-**Animation finished**
+**Animation finished**  
 Check if the animation being played by the Sprite object is finished.
 
 ??? quote "See parameters"
@@ -86,7 +86,7 @@ Check if the animation being played by the Sprite object is finished.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Animation (by number)**
+**Animation (by number)**  
 Compare the animation played by the object using the animation number (from the animations list).
 
 ??? quote "See parameters"
@@ -96,7 +96,7 @@ Compare the animation played by the object using the animation number (from the 
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Animation index
 
-**Animation paused**
+**Animation paused**  
 Check if the animation of an object is paused.
 
 ??? quote "See parameters"
@@ -104,7 +104,7 @@ Check if the animation of an object is paused.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Animation (by name)**
+**Animation (by name)**  
 Compare the animation played by the object using the name of the animation.
 
 ??? quote "See parameters"
@@ -114,7 +114,7 @@ Compare the animation played by the object using the name of the animation.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3: 🔤 Object Animation Name (String)
 
-**Animation speed scale**
+**Animation speed scale**  
 Compare the animation speed scale (1 = the default speed, >1 = faster and <1 = slower).
 
 ??? quote "See parameters"

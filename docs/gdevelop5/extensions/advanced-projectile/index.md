@@ -30,7 +30,7 @@ Control how a projectile object moves including lifetime, distance, speed, and a
 
 ### Behavior actions
 
-**Restart lifetime timer**
+**Restart lifetime timer**  
 Restart lifetime timer of object.
 
 ??? quote "See parameters"
@@ -40,7 +40,7 @@ Restart lifetime timer of object.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Acceleration**
+**Acceleration**  
 Change the acceleration of the object. Use a negative number to slow down.
 
 ??? quote "See parameters"
@@ -52,7 +52,7 @@ Change the acceleration of the object. Use a negative number to slow down.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Change automatic deletion when distance from starting position is exceeded**
+**Change automatic deletion when distance from starting position is exceeded**  
 Change automatic deletion when distance from starting position is exceeded.
 
 ??? quote "See parameters"
@@ -63,7 +63,7 @@ Change automatic deletion when distance from starting position is exceeded.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Change automatic deletion when lifetime is exceeded**
+**Change automatic deletion when lifetime is exceeded**  
 Change automatic deletion of object when lifetime is exceeded.
 
 ??? quote "See parameters"
@@ -74,7 +74,7 @@ Change automatic deletion of object when lifetime is exceeded.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Max distance from starting position**
+**Max distance from starting position**  
 Change the max distance from starting position of the object. Object is deleted after property has been exceeded. Use "0" to ignore this property.
 
 ??? quote "See parameters"
@@ -86,7 +86,7 @@ Change the max distance from starting position of the object. Object is deleted 
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Lifetime**
+**Lifetime**  
 Change the lifetime of the object. Object is deleted after property has been exceeded. Use "0" to ignore this property.
 
 ??? quote "See parameters"
@@ -98,7 +98,7 @@ Change the lifetime of the object. Object is deleted after property has been exc
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Max speed**
+**Max speed**  
 Change the max speed of the object. Object forces cannot exceed this value. Use "0" to ignore this property.
 
 ??? quote "See parameters"
@@ -110,7 +110,7 @@ Change the max speed of the object. Object forces cannot exceed this value. Use 
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**MinSpeed**
+**MinSpeed**  
 Change the minSpeed of the object. Object forces cannot go below this value. Use "0" to ignore this property.
 
 ??? quote "See parameters"
@@ -122,7 +122,7 @@ Change the minSpeed of the object. Object forces cannot go below this value. Use
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Change starting position to the current position**
+**Change starting position to the current position**  
 Change the starting position of object to it's current position.
 
 ??? quote "See parameters"
@@ -132,7 +132,7 @@ Change the starting position of object to it's current position.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Starting speed**
+**Starting speed**  
 Change the starting speed of the object. Object will move in the direction it is facing when it is created. Use "0" to ignore this property.
 
 ??? quote "See parameters"
@@ -146,7 +146,7 @@ Change the starting speed of the object. Object will move in the direction it is
 
 ### Behavior conditions
 
-**Acceleration**
+**Acceleration**  
 Compare the acceleration of the object. Use a negative number to slow down.
 
 ??? quote "See parameters"
@@ -158,7 +158,7 @@ Compare the acceleration of the object. Use a negative number to slow down.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Automatic deletion is enabled when distance from starting position is exceeded**
+**Automatic deletion is enabled when distance from starting position is exceeded**  
 Check if automatic deletion is enabled when distance from starting position is exceeded.
 
 ??? quote "See parameters"
@@ -168,7 +168,7 @@ Check if automatic deletion is enabled when distance from starting position is e
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Automatic deletion is enabled when lifetime is exceeded**
+**Automatic deletion is enabled when lifetime is exceeded**  
 Check if automatic deletion is enabled when lifetime is exceeded.
 
 ??? quote "See parameters"
@@ -178,7 +178,7 @@ Check if automatic deletion is enabled when lifetime is exceeded.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Lifetime has been exceeded**
+**Lifetime has been exceeded**  
 Check if lifetime has been exceeded (object will be deleted next frame).
 
 ??? quote "See parameters"
@@ -188,7 +188,7 @@ Check if lifetime has been exceeded (object will be deleted next frame).
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Max distance from starting position has been exceeded**
+**Max distance from starting position has been exceeded**  
 Check if max distance from starting position has been exceeded (object will be deleted next frame).
 
 ??? quote "See parameters"
@@ -198,7 +198,7 @@ Check if max distance from starting position has been exceeded (object will be d
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Max distance from starting position**
+**Max distance from starting position**  
 Compare the max distance from starting position of the object. Object is deleted after property has been exceeded. Use "0" to ignore this property.
 
 ??? quote "See parameters"
@@ -210,7 +210,7 @@ Compare the max distance from starting position of the object. Object is deleted
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Lifetime**
+**Lifetime**  
 Compare the lifetime of the object. Object is deleted after property has been exceeded. Use "0" to ignore this property.
 
 ??? quote "See parameters"
@@ -222,7 +222,7 @@ Compare the lifetime of the object. Object is deleted after property has been ex
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Max speed**
+**Max speed**  
 Compare the max speed of the object. Object forces cannot exceed this value. Use "0" to ignore this property.
 
 ??? quote "See parameters"
@@ -234,7 +234,7 @@ Compare the max speed of the object. Object forces cannot exceed this value. Use
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**MinSpeed**
+**MinSpeed**  
 Compare the minSpeed of the object. Object forces cannot go below this value. Use "0" to ignore this property.
 
 ??? quote "See parameters"
@@ -246,7 +246,7 @@ Compare the minSpeed of the object. Object forces cannot go below this value. Us
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Starting speed**
+**Starting speed**  
 Compare the starting speed of the object. Object will move in the direction it is facing when it is created. Use "0" to ignore this property.
 
 ??? quote "See parameters"

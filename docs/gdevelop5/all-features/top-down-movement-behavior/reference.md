@@ -10,7 +10,7 @@ Move objects left, up, right, and down (and, optionally, diagonally).
 
 ### Behavior actions
 
-**Acceleration**
+**Acceleration**  
 Change the acceleration of the object
 
 ??? quote "See parameters"
@@ -20,7 +20,7 @@ Change the acceleration of the object
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Acceleration (in pixels per second per second)
 
-**Diagonal movement**
+**Diagonal movement**  
 Allow or restrict diagonal movement
 
 ??? quote "See parameters"
@@ -29,7 +29,7 @@ Allow or restrict diagonal movement
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Allow?
 
-**Rotation offset**
+**Rotation offset**  
 Change the rotation offset applied when moving the object
 
 ??? quote "See parameters"
@@ -39,7 +39,7 @@ Change the rotation offset applied when moving the object
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Angle (in degrees)
 
-**Angular maximum speed**
+**Angular maximum speed**  
 Change the maximum angular speed of the object
 
 ??? quote "See parameters"
@@ -49,7 +49,7 @@ Change the maximum angular speed of the object
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Max angular speed (in degrees per second)
 
-**Deceleration**
+**Deceleration**  
 Change the deceleration of the object
 
 ??? quote "See parameters"
@@ -59,7 +59,7 @@ Change the deceleration of the object
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Deceleration (in pixels per second per second)
 
-**Ignore default controls**
+**Ignore default controls**  
 De/activate the use of default controls.  
 If deactivated, use the simulated actions to move the object.
 
@@ -69,7 +69,7 @@ If deactivated, use the simulated actions to move the object.
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Ignore controls
 
-**Maximum speed**
+**Maximum speed**  
 Change the maximum speed of the object
 
 ??? quote "See parameters"
@@ -79,7 +79,7 @@ Change the maximum speed of the object
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Max speed (in pixels per second)
 
-**Rotate the object**
+**Rotate the object**  
 Enable or disable rotation of the object
 
 ??? quote "See parameters"
@@ -88,7 +88,7 @@ Enable or disable rotation of the object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Rotate object?
 
-**Simulate control**
+**Simulate control**  
 Simulate a press of a key.  
 Valid keys are Left, Right, Up, Down.
 
@@ -98,7 +98,7 @@ Valid keys are Left, Right, Up, Down.
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔤 String): Key (one of: "Left", "Right", "Up", "Down")
 
-**Simulate down key press**
+**Simulate down key press**  
 Simulate a press of down key.
 
 ??? quote "See parameters"
@@ -106,7 +106,7 @@ Simulate a press of down key.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Simulate left key press**
+**Simulate left key press**  
 Simulate a press of left key.
 
 ??? quote "See parameters"
@@ -114,7 +114,7 @@ Simulate a press of left key.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Simulate right key press**
+**Simulate right key press**  
 Simulate a press of right key.
 
 ??? quote "See parameters"
@@ -122,7 +122,7 @@ Simulate a press of right key.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Simulate stick control**
+**Simulate stick control**  
 Simulate a stick control.
 
 ??? quote "See parameters"
@@ -132,7 +132,7 @@ Simulate a stick control.
     - Parameter 2 (🔢 Number): Stick angle (in degrees)
     - Parameter 3 (🔢 Number): Stick force (between 0 and 1)
 
-**Simulate up key press**
+**Simulate up key press**  
 Simulate a press of up key.
 
 ??? quote "See parameters"
@@ -140,7 +140,7 @@ Simulate a press of up key.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Movement angle offset**
+**Movement angle offset**  
 Change the movement angle offset.
 
 ??? quote "See parameters"
@@ -150,7 +150,7 @@ Change the movement angle offset.
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Angle (in degrees)
 
-**Speed on the X axis**
+**Speed on the X axis**  
 Change the speed on the X axis of the movement
 
 ??? quote "See parameters"
@@ -160,7 +160,7 @@ Change the speed on the X axis of the movement
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Speed (in pixels per second)
 
-**Speed on the Y axis**
+**Speed on the Y axis**  
 Change the speed on the Y axis of the movement
 
 ??? quote "See parameters"
@@ -172,7 +172,7 @@ Change the speed on the Y axis of the movement
 
 ### Behavior conditions
 
-**Acceleration**
+**Acceleration**  
 Compare the acceleration of the object
 
 ??? quote "See parameters"
@@ -182,7 +182,7 @@ Compare the acceleration of the object
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Acceleration to compare to (in pixels per second per second)
 
-**Rotation offset**
+**Rotation offset**  
 Compare the rotation offset applied when moving the object
 
 ??? quote "See parameters"
@@ -192,7 +192,7 @@ Compare the rotation offset applied when moving the object
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Angle to compare to (in degrees)
 
-**Angular maximum speed**
+**Angular maximum speed**  
 Compare the maximum angular speed of the object
 
 ??? quote "See parameters"
@@ -202,7 +202,7 @@ Compare the maximum angular speed of the object
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Max angular speed to compare to (in degrees per second)
 
-**Deceleration**
+**Deceleration**  
 Compare the deceleration of the object
 
 ??? quote "See parameters"
@@ -212,7 +212,7 @@ Compare the deceleration of the object
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Deceleration to compare to (in pixels per second per second)
 
-**Diagonal movement**
+**Diagonal movement**  
 Check if the object is allowed to move diagonally
 
 ??? quote "See parameters"
@@ -220,7 +220,7 @@ Check if the object is allowed to move diagonally
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Is moving**
+**Is moving**  
 Check if the object is moving.
 
 ??? quote "See parameters"
@@ -228,7 +228,7 @@ Check if the object is moving.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Maximum speed**
+**Maximum speed**  
 Compare the maximum speed of the object
 
 ??? quote "See parameters"
@@ -238,7 +238,7 @@ Compare the maximum speed of the object
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Max speed to compare to (in pixels per second)
 
-**Object rotated**
+**Object rotated**  
 Check if the object is rotated while traveling on its path.
 
 ??? quote "See parameters"
@@ -246,7 +246,7 @@ Check if the object is rotated while traveling on its path.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Speed**
+**Speed**  
 Compare the speed of the object
 
 ??? quote "See parameters"
@@ -256,7 +256,7 @@ Compare the speed of the object
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Speed to compare to (in pixels per second)
 
-**Angle of movement**
+**Angle of movement**  
 Compare the angle of the top-down movement of the object.
 
 ??? quote "See parameters"
@@ -266,7 +266,7 @@ Compare the angle of the top-down movement of the object.
     - Parameter 2 (🔢 Number): Angle (in degrees)
     - Parameter 3 (🔢 Number): Tolerance (in degrees)
 
-**Control pressed or simulated**
+**Control pressed or simulated**  
 A control was applied from a default control or simulated by an action.
 
 ??? quote "See parameters"
@@ -275,7 +275,7 @@ A control was applied from a default control or simulated by an action.
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔤 String): Key (one of: "Left", "Right", "Up", "Down", "Stick")
 
-**Movement angle offset**
+**Movement angle offset**  
 Compare the movement angle offset.
 
 ??? quote "See parameters"
@@ -285,7 +285,7 @@ Compare the movement angle offset.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Angle (in degrees)
 
-**Speed on X axis**
+**Speed on X axis**  
 Compare the velocity of the top-down movement of the object on the X axis.
 
 ??? quote "See parameters"
@@ -295,7 +295,7 @@ Compare the velocity of the top-down movement of the object on the X axis.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Speed to compare to (in pixels per second)
 
-**Speed on Y axis**
+**Speed on Y axis**  
 Compare the velocity of the top-down movement of the object on the Y axis.
 
 ??? quote "See parameters"

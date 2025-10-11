@@ -21,7 +21,7 @@ Please note, you may need to preload your audio files via events or resources pa
 
 ## Actions
 
-**Play music on a channel by name**
+**Play music on a channel by name**  
 Play a music file on a specific channel by name or string expression.   
 This can be useful to reduce the number of events needed to dynamically play different music files.  e.g. Playing music based off a room ID variable for the current room the player is in.
 
@@ -40,7 +40,7 @@ Note: Music files should be preloaded before using these actions, such at the st
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Play sound on a channel by name**
+**Play sound on a channel by name**  
 Play a sound file on a specific channel by name or string expression.   
 This can be useful to reduce the number of events needed to dynamically play different sound files. e.g. Playing a voice over line based off the current dialogue node name.
 
@@ -59,7 +59,7 @@ Note: Sound files should be preloaded before using these actions, such at the st
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Preload a music file by name**
+**Preload a music file by name**  
 Preload a music file by name or string expression.
 
 ??? quote "See parameters"
@@ -69,7 +69,7 @@ Preload a music file by name or string expression.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Preload a sound file by name**
+**Preload a sound file by name**  
 Preload a sound file by name or string expression. 
 
 ??? quote "See parameters"

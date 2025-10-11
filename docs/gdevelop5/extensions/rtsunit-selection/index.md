@@ -43,7 +43,7 @@ Tips:
 
 ## Actions
 
-**Assign unit to a control group**
+**Assign unit to a control group**  
 Assign unit to a control group.
 
 ??? quote "See parameters"
@@ -53,7 +53,7 @@ Assign unit to a control group.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Assign a unique ID to each "Selected" unit**
+**Assign a unique ID to each "Selected" unit**  
 Assign a unique ID to each "Selected" unit.  This should be ran every time there is a change in the number of "Selected" units.
 
 ??? quote "See parameters"
@@ -62,7 +62,7 @@ Assign a unique ID to each "Selected" unit.  This should be ran every time there
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Enable control groups using default controls**
+**Enable control groups using default controls**  
 Enable control groups using default controls.
 
 ??? quote "See parameters"
@@ -72,7 +72,7 @@ Enable control groups using default controls.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Allow player to select units by clicking on them or dragging a selection box**
+**Allow player to select units by clicking on them or dragging a selection box**  
 Allow player to select units by clicking on them or dragging a selection box.
 
 ??? quote "See parameters"
@@ -93,7 +93,7 @@ Allow player to select units by clicking on them or dragging a selection box.
 
     > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
 
-**Set unit as "Preselected"**
+**Set unit as "Preselected"**  
 Set unit as "Preselected".
 
 ??? quote "See parameters"
@@ -103,7 +103,7 @@ Set unit as "Preselected".
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Set unit as "Selected"**
+**Set unit as "Selected"**  
 Set unit as "Selected".
 
 ??? quote "See parameters"
@@ -115,7 +115,7 @@ Set unit as "Selected".
 
 ## Conditions
 
-**Check if a unit is assigned to a control group**
+**Check if a unit is assigned to a control group**  
 Check if a unit is assigned to a control group.
 
 ??? quote "See parameters"
@@ -125,7 +125,7 @@ Check if a unit is assigned to a control group.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Is unit "Preselected"**
+**Is unit "Preselected"**  
 Check if the unit is "Preselected".
 
 ??? quote "See parameters"
@@ -134,7 +134,7 @@ Check if the unit is "Preselected".
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Is unit "Selected"**
+**Is unit "Selected"**  
 Check if the unit is "Selected".
 
 ??? quote "See parameters"

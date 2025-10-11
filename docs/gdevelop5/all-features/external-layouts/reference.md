@@ -4,7 +4,7 @@ Provides actions and conditions related to external layouts. [Read more explanat
 
 ## Actions
 
-**Create objects from an external layout**
+**Create objects from an external layout**  
 Create objects from an external layout.
 
 ??? quote "See parameters"

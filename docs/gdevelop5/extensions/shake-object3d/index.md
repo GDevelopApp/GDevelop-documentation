@@ -22,7 +22,7 @@ Shake 3D objects with translation and rotation.
 
 ### Behavior actions
 
-**Shaking frequency**
+**Shaking frequency**  
 Change the shaking frequency of the object.
 
 ??? quote "See parameters"
@@ -34,7 +34,7 @@ Change the shaking frequency of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Shake**
+**Shake**  
 Shake the object with a linear easing at the start and the end.
 
 ??? quote "See parameters"
@@ -47,7 +47,7 @@ Shake the object with a linear easing at the start and the end.
 
     > Technical note: parameter 5 are internal parameters handled by GDevelop.
 
-**Start shaking**
+**Start shaking**  
 Shake the object with a linear easing at the start and keep shaking until the stop action is used.
 
 ??? quote "See parameters"
@@ -58,7 +58,7 @@ Shake the object with a linear easing at the start and keep shaking until the st
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Stop shaking**
+**Stop shaking**  
 Stop shaking the object with a linear easing.
 
 ??? quote "See parameters"
@@ -71,7 +71,7 @@ Stop shaking the object with a linear easing.
 
 ### Behavior conditions
 
-**Shaking frequency**
+**Shaking frequency**  
 Compare the shaking frequency of the object.
 
 ??? quote "See parameters"
@@ -83,7 +83,7 @@ Compare the shaking frequency of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Is shaking**
+**Is shaking**  
 Check if the object is shaking.
 
 ??? quote "See parameters"
@@ -93,7 +93,7 @@ Check if the object is shaking.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is stopping to shake**
+**Is stopping to shake**  
 Check if the object is stopping to shake.
 
 ??? quote "See parameters"

@@ -4,7 +4,7 @@ Actions and conditions to start, pause or reset scene timers, modify the time sc
 
 ## Actions
 
-**Time scale**
+**Time scale**  
 Change the time scale of the scene.
 
 ??? quote "See parameters"
@@ -13,7 +13,7 @@ Change the time scale of the scene.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Pause a scene timer**
+**Pause a scene timer**  
 Pause a scene timer.
 
 ??? quote "See parameters"
@@ -22,7 +22,7 @@ Pause a scene timer.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Delete a scene timer**
+**Delete a scene timer**  
 Delete a scene timer from memory.
 
 ??? quote "See parameters"
@@ -31,7 +31,7 @@ Delete a scene timer from memory.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Start (or reset) a scene timer**
+**Start (or reset) a scene timer**  
 Reset the specified scene timer, if the timer doesn't exist it's created and started.
 
 ??? quote "See parameters"
@@ -40,7 +40,7 @@ Reset the specified scene timer, if the timer doesn't exist it's created and sta
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Unpause a scene timer**
+**Unpause a scene timer**  
 Unpause a scene timer.
 
 ??? quote "See parameters"
@@ -49,7 +49,7 @@ Unpause a scene timer.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Wait X seconds**
+**Wait X seconds**  
 Waits a number of seconds before running the next actions (and sub-events).
 
 ??? quote "See parameters"
@@ -58,7 +58,7 @@ Waits a number of seconds before running the next actions (and sub-events).
 
 ## Conditions
 
-**Value of a scene timer**
+**Value of a scene timer**  
 Compare the elapsed time of a scene timer. This condition doesn't start the timer and will always be false if the timer was not started previously (whatever the comparison being made).
 
 ??? quote "See parameters"
@@ -69,7 +69,7 @@ Compare the elapsed time of a scene timer. This condition doesn't start the time
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Time scale**
+**Time scale**  
 Compare the time scale of the scene.
 
 ??? quote "See parameters"
@@ -79,7 +79,7 @@ Compare the time scale of the scene.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Scene timer paused**
+**Scene timer paused**  
 Test if the specified scene timer is paused.
 
 ??? quote "See parameters"

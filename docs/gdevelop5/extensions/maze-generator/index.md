@@ -37,7 +37,7 @@ Finally, there is a **MazeObject** behavior that can be attached to wall or floo
 
 ## Actions
 
-**Add a maze wall**
+**Add a maze wall**  
 Add a wall in a particular direction for a maze cell.
 
 ??? quote "See parameters"
@@ -49,7 +49,7 @@ Add a wall in a particular direction for a maze cell.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Create Maze Corner Objects**
+**Create Maze Corner Objects**  
 For a previously created maze, create maze corner objects at the intersection point of maze cells.
 
 ??? quote "See parameters"
@@ -63,7 +63,7 @@ For a previously created maze, create maze corner objects at the intersection po
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
-**Create Maze Floor Objects**
+**Create Maze Floor Objects**  
 For a previously created maze, create maze floor objects that will tile the cells of the maze.
 
 ??? quote "See parameters"
@@ -77,7 +77,7 @@ For a previously created maze, create maze floor objects that will tile the cell
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
-**Create Maze Wall Objects**
+**Create Maze Wall Objects**  
 For a previously created maze, create maze wall objects along the edges of the cells of the maze.
 
 ??? quote "See parameters"
@@ -94,7 +94,7 @@ For a previously created maze, create maze wall objects along the edges of the c
 
     > Technical note: parameters 0, 10 are internal parameters handled by GDevelop.
 
-**Find Maze Path**
+**Find Maze Path**  
 Finds a path through a maze between two cells, storing the result in a scene variable array.
 
 ??? quote "See parameters"
@@ -109,7 +109,7 @@ Finds a path through a maze between two cells, storing the result in a scene var
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
-**Generate a maze**
+**Generate a maze**  
 Specify the overall size of a maze, and the size of the tile "cells" inside the maze. Walls are randomly generated to form the maze. The maze is stored in memory, and can be referenced using a name called MazeID that is chosen here. The maze generator extension comes with other actions that reference this mazeID, which can be used to create actual wall and floor objects to place the maze into the scene. 
 
 ??? quote "See parameters"
@@ -124,7 +124,7 @@ Specify the overall size of a maze, and the size of the tile "cells" inside the 
 
     > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
 
-**Remove a maze wall**
+**Remove a maze wall**  
 Remove a wall in a particular direction for a maze cell.
 
 ??? quote "See parameters"
@@ -138,7 +138,7 @@ Remove a wall in a particular direction for a maze cell.
 
 ## Conditions
 
-**Cell within a maze has a wall**
+**Cell within a maze has a wall**  
 Chosen cell within a maze has a wall in a particular direction.
 
 ??? quote "See parameters"
@@ -187,7 +187,7 @@ This behavior adds some helper functions to be used with Maze Generator extensio
 
 ### Behavior actions
 
-**Delete Maze Object**
+**Delete Maze Object**  
 Delete the Maze Object, also updating the corresponding maze scene variables.
 
 ??? quote "See parameters"
@@ -199,7 +199,7 @@ Delete the Maze Object, also updating the corresponding maze scene variables.
 
 ### Behavior conditions
 
-**Maze object has particular row and column numbers**
+**Maze object has particular row and column numbers**  
 Maze object is in a certain row and column of a maze.
 
 ??? quote "See parameters"
@@ -211,7 +211,7 @@ Maze object is in a certain row and column of a maze.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Check mazeID of object**
+**Check mazeID of object**  
 Check if maze object belongs to a certain maze, by the MazeID.
 
 ??? quote "See parameters"
@@ -222,7 +222,7 @@ Check if maze object belongs to a certain maze, by the MazeID.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Check Wall Direction of Maze Object**
+**Check Wall Direction of Maze Object**  
 Check if maze object is a wall in a particular direction.
 
 ??? quote "See parameters"

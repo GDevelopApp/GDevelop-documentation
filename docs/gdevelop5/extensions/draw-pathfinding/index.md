@@ -20,7 +20,7 @@ Draw the path followed by the object using a shape painter.
 
 ### Behavior actions
 
-**Draw pathfinding**
+**Draw pathfinding**  
 Draw the path followed by the object using a shape painter. It automatically creates an instance of the shape painter object if there is none.
 
 ??? quote "See parameters"

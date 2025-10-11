@@ -10,14 +10,14 @@ A text field the player can type text into.
 
 ### Object actions
 
-**Focus**
+**Focus**  
 Focus the input so that text can be entered (like if it was touched/clicked).
 
 ??? quote "See parameters"
 
     - Parameter 0 (👾 Object): Text input
 
-**Border color**
+**Border color**  
 Set the border color of the object.
 
 ??? quote "See parameters"
@@ -25,7 +25,7 @@ Set the border color of the object.
     - Parameter 0 (👾 Object): Text input
     - Parameter 1: color
 
-**Border opacity**
+**Border opacity**  
 Change the border opacity, between 0 (fully transparent) and 255 (opaque).
 
 ??? quote "See parameters"
@@ -34,7 +34,7 @@ Change the border opacity, between 0 (fully transparent) and 255 (opaque).
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Opacity (0-255)
 
-**Border width**
+**Border width**  
 Change the border width.
 
 ??? quote "See parameters"
@@ -43,7 +43,7 @@ Change the border width.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-**Disabled**
+**Disabled**  
 Set (or unset) if the text input is disabled.
 
 ??? quote "See parameters"
@@ -51,7 +51,7 @@ Set (or unset) if the text input is disabled.
     - Parameter 0 (👾 Object): Text input
     - Parameter 1 (❓ Yes or No): New value
 
-**Fill color**
+**Fill color**  
 Set the fill color of the object.
 
 ??? quote "See parameters"
@@ -59,7 +59,7 @@ Set the fill color of the object.
     - Parameter 0 (👾 Object): Text input
     - Parameter 1: color
 
-**Fill opacity**
+**Fill opacity**  
 Change the fill opacity, between 0 (fully transparent) and 255 (opaque).
 
 ??? quote "See parameters"
@@ -68,7 +68,7 @@ Change the fill opacity, between 0 (fully transparent) and 255 (opaque).
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Opacity (0-255)
 
-**Font size**
+**Font size**  
 Change the font size.
 
 ??? quote "See parameters"
@@ -77,7 +77,7 @@ Change the font size.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-**Font name**
+**Font name**  
 Set the font of the object.
 
 ??? quote "See parameters"
@@ -85,7 +85,7 @@ Set the font of the object.
     - Parameter 0 (👾 Object): Text input
     - Parameter 1 (fontResource): Font resource name
 
-**Input type**
+**Input type**  
 Change the input type.
 
 ??? quote "See parameters"
@@ -94,7 +94,7 @@ Change the input type.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔤 String): Input type (one of: "text", "text area", "email", "password", "number", "telephone number", "url", "search")
 
-**Placeholder**
+**Placeholder**  
 Change the placeholder.
 
 ??? quote "See parameters"
@@ -103,7 +103,7 @@ Change the placeholder.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (string): Text
 
-**Read-only**
+**Read-only**  
 Set (or unset) if the text input is read-only.
 
 ??? quote "See parameters"
@@ -111,7 +111,7 @@ Set (or unset) if the text input is read-only.
     - Parameter 0 (👾 Object): Text input
     - Parameter 1 (❓ Yes or No): Read-only?
 
-**Spell check enabled**
+**Spell check enabled**  
 Set (or unset) if spell check is enabled.
 
 ??? quote "See parameters"
@@ -119,7 +119,7 @@ Set (or unset) if spell check is enabled.
     - Parameter 0 (👾 Object): Text input
     - Parameter 1 (❓ Yes or No): New value
 
-**Text color**
+**Text color**  
 Set the text color of the object.
 
 ??? quote "See parameters"
@@ -129,7 +129,7 @@ Set the text color of the object.
 
 ### Object conditions
 
-**Border opacity**
+**Border opacity**  
 Compare the border opacity, between 0 (fully transparent) and 255 (opaque).
 
 ??? quote "See parameters"
@@ -138,7 +138,7 @@ Compare the border opacity, between 0 (fully transparent) and 255 (opaque).
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Opacity (0-255)
 
-**Border width**
+**Border width**  
 Compare the border width.
 
 ??? quote "See parameters"
@@ -147,14 +147,14 @@ Compare the border width.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Disabled**
+**Disabled**  
 Check if the text input is disabled.
 
 ??? quote "See parameters"
 
     - Parameter 0 (👾 Object): Text input
 
-**Fill opacity**
+**Fill opacity**  
 Compare the fill opacity, between 0 (fully transparent) and 255 (opaque).
 
 ??? quote "See parameters"
@@ -163,14 +163,14 @@ Compare the fill opacity, between 0 (fully transparent) and 255 (opaque).
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Opacity (0-255)
 
-**Focused**
+**Focused**  
 Check if the text input is focused (the cursor is in the field and player can type text in).
 
 ??? quote "See parameters"
 
     - Parameter 0 (👾 Object): Text input
 
-**Font size**
+**Font size**  
 Compare the font size.
 
 ??? quote "See parameters"
@@ -179,7 +179,7 @@ Compare the font size.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Font name**
+**Font name**  
 Compare the font name.
 
 ??? quote "See parameters"
@@ -188,7 +188,7 @@ Compare the font name.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
 
-**Input type**
+**Input type**  
 Compare the input type.
 
 ??? quote "See parameters"
@@ -197,14 +197,14 @@ Compare the input type.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔤 String): Input type (one of: "text", "text area", "email", "password", "number", "telephone number", "url", "search")
 
-**Input is submitted**
+**Input is submitted**  
 Check if the input is submitted, which usually happens when the Enter key is pressed on a keyboard, or a specific button on mobile virtual keyboards.
 
 ??? quote "See parameters"
 
     - Parameter 0 (👾 Object): Text input
 
-**Placeholder**
+**Placeholder**  
 Compare the placeholder.
 
 ??? quote "See parameters"
@@ -213,14 +213,14 @@ Compare the placeholder.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Text
 
-**Read-only**
+**Read-only**  
 Check if the text input is read-only.
 
 ??? quote "See parameters"
 
     - Parameter 0 (👾 Object): Text input
 
-**Spell check enabled**
+**Spell check enabled**  
 Check if spell check is enabled.
 
 ??? quote "See parameters"

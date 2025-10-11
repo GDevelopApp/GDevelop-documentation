@@ -25,7 +25,7 @@ This extension can easily create chiptunes.
 
 ## Actions
 
-**Add detune to a synth**
+**Add detune to a synth**  
 Add detune on top of the main frequency to get cool synth effects.
 
 ??? quote "See parameters"
@@ -35,7 +35,7 @@ Add detune on top of the main frequency to get cool synth effects.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Add multiple detunes to a synth**
+**Add multiple detunes to a synth**  
 Add comma separated detune values to a synth.
 
 ??? quote "See parameters"
@@ -45,7 +45,7 @@ Add comma separated detune values to a synth.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Add/update filter**
+**Add/update filter**  
 Add or update biquad filter.
 
 ??? quote "See parameters"
@@ -58,7 +58,7 @@ Add or update biquad filter.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Create chord**
+**Create chord**  
 Create a new chord.
 
 ??? quote "See parameters"
@@ -68,7 +68,7 @@ Create a new chord.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Create an Audio Context**
+**Create an Audio Context**  
 Create a new audio context (In most cases you only need one context and reuse it with the name).
 
 ??? quote "See parameters"
@@ -77,7 +77,7 @@ Create a new audio context (In most cases you only need one context and reuse it
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Create/update synth**
+**Create/update synth**  
 Create or update synth with attack, decay, sustain, release gain and apply filters.
 
 ??? quote "See parameters"
@@ -92,7 +92,7 @@ Create or update synth with attack, decay, sustain, release gain and apply filte
 
     > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
 
-**Play chord**
+**Play chord**  
 Play an existing chord on a synth.
 
 ??? quote "See parameters"
@@ -103,7 +103,7 @@ Play an existing chord on a synth.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Play note**
+**Play note**  
 Play a note a synth you've created before.
 
 ??? quote "See parameters"
@@ -117,7 +117,7 @@ Play a note a synth you've created before.
 
 ## Conditions
 
-**Context exists**
+**Context exists**  
 Check if the context already created.
 
 ??? quote "See parameters"

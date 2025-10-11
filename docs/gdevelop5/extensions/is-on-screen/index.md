@@ -23,7 +23,7 @@ Note that object visibility, such as being hidden or 0 opacity, is not considere
 
 ### Behavior conditions
 
-**Is on screen**
+**Is on screen**  
 Checks if an object position is within the viewport of its layer.
 
 ??? quote "See parameters"

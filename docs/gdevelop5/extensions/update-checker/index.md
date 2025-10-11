@@ -20,7 +20,7 @@ If you want your users to see that an update is available, simply change the ver
 
 ## Actions
 
-**Re-check for updates**
+**Re-check for updates**  
 Loads the latest game version from liluo. This is already called at the beginnign of the scene, but you can still re-call it if it failed or if you want to add a "check again" button. Make sure to not call this too often (or at all), as otherwise it will DDoS the version-checking server!.
 
 ??? quote "See parameters"
@@ -31,7 +31,7 @@ Loads the latest game version from liluo. This is already called at the beginnig
 
 ## Conditions
 
-**Update is available**
+**Update is available**  
 Checks if the game version on liluo is different from the one of the currently running game. It may take a few seconds for the liluo game version to be obtained, and in this time frame, the condition will not trigger. If disconnected from the internet, this will not function.
 
 ??? quote "See parameters"
@@ -40,7 +40,7 @@ Checks if the game version on liluo is different from the one of the currently r
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Updates check failed**
+**Updates check failed**  
 Checks if the fetching of the latest version from liluo succeeded.
 
 ??? quote "See parameters"

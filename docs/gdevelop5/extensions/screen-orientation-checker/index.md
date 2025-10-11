@@ -25,7 +25,7 @@ Automatically display a screen asking the player to rotate their screen if neede
 
 ### Object actions
 
-**Force show the screen**
+**Force show the screen**  
 Change if the screen should be forced to be shown. Use this to test the screen in your game.
 
 ??? quote "See parameters"
@@ -35,7 +35,7 @@ Change if the screen should be forced to be shown. Use this to test the screen i
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Message**
+**Message**  
 Change the message of the object.
 
 ??? quote "See parameters"
@@ -48,7 +48,7 @@ Change the message of the object.
 
 ### Object conditions
 
-**Force show the screen**
+**Force show the screen**  
 Check if the screen should be forced to be shown. Use this to test the screen in your game.
 
 ??? quote "See parameters"
@@ -57,7 +57,7 @@ Check if the screen should be forced to be shown. Use this to test the screen in
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Message**
+**Message**  
 Compare the message of the object.
 
 ??? quote "See parameters"

@@ -21,7 +21,7 @@ A [simple example](https://editor.gdevelop.io/?project=example://snap-object-to-
 
 ## Actions
 
-**Snap objects to a virtual grid**
+**Snap objects to a virtual grid**  
 Snap object to a virtual grid (i.e: this is not the grid used in the editor).
 
 ??? quote "See parameters"

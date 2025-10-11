@@ -25,7 +25,7 @@ Tips:
 
 ## Actions
 
-**Drag camera with the mouse**
+**Drag camera with the mouse**  
 Move a camera by dragging the mouse (or touchscreen).
 
 ??? quote "See parameters"

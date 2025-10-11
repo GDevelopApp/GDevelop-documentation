@@ -35,7 +35,7 @@ Let users select a numerical value by dragging a slider.
 
 ### Behavior actions
 
-**Active track color **
+**Active track color **  
 Change the color of the track that is LEFT of the thumb.
 
 ??? quote "See parameters"
@@ -46,7 +46,7 @@ Change the color of the track that is LEFT of the thumb.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Active track opacity**
+**Active track opacity**  
 Change opacity of active track.
 
 ??? quote "See parameters"
@@ -57,7 +57,7 @@ Change opacity of active track.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Enable interactions**
+**Enable interactions**  
 Enable or disable the slider. Users cannot interact while it is disabled.
 
 ??? quote "See parameters"
@@ -68,7 +68,7 @@ Enable or disable the slider. Users cannot interact while it is disabled.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Halo opacity (hover)**
+**Halo opacity (hover)**  
 Change the halo opacity when the thumb is hovered.
 
 ??? quote "See parameters"
@@ -79,7 +79,7 @@ Change the halo opacity when the thumb is hovered.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Halo opacity (pressed)**
+**Halo opacity (pressed)**  
 Change opacity of halo when pressed.
 
 ??? quote "See parameters"
@@ -90,7 +90,7 @@ Change opacity of halo when pressed.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Halo radius**
+**Halo radius**  
 Change radius of the halo around the thumb.  This size is also used to detect interaction with the slider.
 
 ??? quote "See parameters"
@@ -101,7 +101,7 @@ Change radius of the halo around the thumb.  This size is also used to detect in
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Inactive track color**
+**Inactive track color**  
 Change the color of the track that is RIGHT of the thumb.
 
 ??? quote "See parameters"
@@ -112,7 +112,7 @@ Change the color of the track that is RIGHT of the thumb.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Inactive track opacity**
+**Inactive track opacity**  
 Change opacity of inactive track.
 
 ??? quote "See parameters"
@@ -123,7 +123,7 @@ Change opacity of inactive track.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Rounded track ends**
+**Rounded track ends**  
 Make track use rounded ends.
 
 ??? quote "See parameters"
@@ -134,7 +134,7 @@ Make track use rounded ends.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Thumb color**
+**Thumb color**  
 Change the thumb color to a specific value.
 
 ??? quote "See parameters"
@@ -145,7 +145,7 @@ Change the thumb color to a specific value.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Thumb height**
+**Thumb height**  
 Change height of thumb.
 
 ??? quote "See parameters"
@@ -156,7 +156,7 @@ Change height of thumb.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Thumb opacity**
+**Thumb opacity**  
 Change opacity of thumb.
 
 ??? quote "See parameters"
@@ -167,7 +167,7 @@ Change opacity of thumb.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Thumb shape**
+**Thumb shape**  
 Change shape of thumb (circle or rectangle).
 
 ??? quote "See parameters"
@@ -178,7 +178,7 @@ Change shape of thumb (circle or rectangle).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Thumb width**
+**Thumb width**  
 Change width of thumb.
 
 ??? quote "See parameters"
@@ -189,7 +189,7 @@ Change width of thumb.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Tick spacing**
+**Tick spacing**  
 Change the tick spacing of a slider.
 
 ??? quote "See parameters"
@@ -200,7 +200,7 @@ Change the tick spacing of a slider.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Track length**
+**Track length**  
 Change length of track.
 
 ??? quote "See parameters"
@@ -211,7 +211,7 @@ Change length of track.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Track thickness**
+**Track thickness**  
 Change thickness of track.
 
 ??? quote "See parameters"
@@ -222,7 +222,7 @@ Change thickness of track.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Slider value**
+**Slider value**  
 Change the value of a slider (this will move the thumb to the correct position).
 
 ??? quote "See parameters"
@@ -233,7 +233,7 @@ Change the value of a slider (this will move the thumb to the correct position).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Slider maximum value**
+**Slider maximum value**  
 Change the maximum value of a slider.
 
 ??? quote "See parameters"
@@ -244,7 +244,7 @@ Change the maximum value of a slider.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Slider minimum value**
+**Slider minimum value**  
 Change the minimum value of a slider.
 
 ??? quote "See parameters"
@@ -257,7 +257,7 @@ Change the minimum value of a slider.
 
 ### Behavior conditions
 
-**Being dragged**
+**Being dragged**  
 Check if the slider is being dragged.
 
 ??? quote "See parameters"
@@ -267,7 +267,7 @@ Check if the slider is being dragged.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Interactions enabled**
+**Interactions enabled**  
 Check if the slider interations are enabled.
 
 ??? quote "See parameters"

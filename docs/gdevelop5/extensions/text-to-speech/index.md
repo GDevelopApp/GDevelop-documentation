@@ -14,7 +14,7 @@ Text to Speech extension allows you to use the system's Text-to-Speech features 
 
 ## Actions
 
-**Speak out a message**
+**Speak out a message**  
 Speaks a text message aloud through the system text-to-speech.
 
 ??? quote "See parameters"
@@ -30,7 +30,7 @@ Speaks a text message aloud through the system text-to-speech.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Force stop speaking**
+**Force stop speaking**  
 Forces all Text-to-Speech to be stopped.
 
 ??? quote "See parameters"

@@ -45,7 +45,7 @@ Features:
 
 ## Actions
 
-**Listen for speeches**
+**Listen for speeches**  
 Listen for speeches.
 
 ??? quote "See parameters"
@@ -56,7 +56,7 @@ Listen for speeches.
 
 ## Conditions
 
-**On Voice Recognition Error**
+**On Voice Recognition Error**  
 On Voice Recognition Error.
 
 ??? quote "See parameters"
@@ -65,7 +65,7 @@ On Voice Recognition Error.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**On Voice Recognition Success**
+**On Voice Recognition Success**  
 On Voice Recognition Success.
 
 ??? quote "See parameters"

@@ -30,7 +30,7 @@ A container for flex items.
 
 ### Behavior actions
 
-**Set flex direction**
+**Set flex direction**  
 Sets the flexbox direction property.
 
 ??? quote "See parameters"
@@ -41,7 +41,7 @@ Sets the flexbox direction property.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set flex wrap**
+**Set flex wrap**  
 Sets the flexbox wrap property.
 
 ??? quote "See parameters"
@@ -52,7 +52,7 @@ Sets the flexbox wrap property.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set alignement of the lines**
+**Set alignement of the lines**  
 Sets the alignement method for the lines/rows of objects in the box.
 
 ??? quote "See parameters"
@@ -63,7 +63,7 @@ Sets the alignement method for the lines/rows of objects in the box.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set alignement on the X axis**
+**Set alignement on the X axis**  
 Sets the alignement method for items on the X axis.
 
 ??? quote "See parameters"
@@ -74,7 +74,7 @@ Sets the alignement method for items on the X axis.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set alignement on the Y axis**
+**Set alignement on the Y axis**  
 Sets the alignement method for items on the Y axis.
 
 ??? quote "See parameters"
@@ -94,7 +94,7 @@ An item in a flex container.
 
 ### Behavior actions
 
-**Set alignement of the object**
+**Set alignement of the object**  
 Sets the alignement method for this object.
 
 ??? quote "See parameters"
@@ -105,7 +105,7 @@ Sets the alignement method for this object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set growth of the object**
+**Set growth of the object**  
 Sets the growth for this object.
 
 ??? quote "See parameters"
@@ -116,7 +116,7 @@ Sets the growth for this object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set order of the object**
+**Set order of the object**  
 Sets the order for this object.
 
 ??? quote "See parameters"
@@ -127,7 +127,7 @@ Sets the order for this object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set shrink of the object**
+**Set shrink of the object**  
 Sets the shrink for this object.
 
 ??? quote "See parameters"

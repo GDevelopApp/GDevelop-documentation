@@ -14,7 +14,7 @@ Actions to record the game and let players download the clips. Includes options 
 
 ## Actions
 
-**Pause recording**
+**Pause recording**  
 Pause recording.
 
 ??? quote "See parameters"
@@ -23,7 +23,7 @@ Pause recording.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Resume recording**
+**Resume recording**  
 Resume recording.
 
 ??? quote "See parameters"
@@ -32,7 +32,7 @@ Resume recording.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Save recording**
+**Save recording**  
 Save recording to the file system on destop, or to the downloads folder for web. Always ask for permission to save a file.
 
 ??? quote "See parameters"
@@ -42,7 +42,7 @@ Save recording to the file system on destop, or to the downloads folder for web.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Set codec**
+**Set codec**  
 Set the video codec, if a selected codec is unsupported on the users platform a supported one will be picked by deafult.
 
 ??? quote "See parameters"
@@ -51,7 +51,7 @@ Set the video codec, if a selected codec is unsupported on the users platform a 
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Set GIF Dithering**
+**Set GIF Dithering**  
 Enable dithering in GIF, must be set before starting a recording. Defaults to false.
 
 ??? quote "See parameters"
@@ -60,7 +60,7 @@ Enable dithering in GIF, must be set before starting a recording. Defaults to fa
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Set file format**
+**Set file format**  
 Set the file format, if a selected file format is unsupported on the users platform a supported one will be picked by deafult.
 
 ??? quote "See parameters"
@@ -69,7 +69,7 @@ Set the file format, if a selected file format is unsupported on the users platf
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Set frame rate**
+**Set frame rate**  
 Set the frame rate, must be set before starting a recording. Defaults to the min FPS set in the game properties.
 
 ??? quote "See parameters"
@@ -78,7 +78,7 @@ Set the frame rate, must be set before starting a recording. Defaults to the min
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Set GIF quality**
+**Set GIF quality**  
 Set the GIF quality, must be set before starting a recording. Defaults to 10.
 
 ??? quote "See parameters"
@@ -87,7 +87,7 @@ Set the GIF quality, must be set before starting a recording. Defaults to 10.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Set video bit rate**
+**Set video bit rate**  
 Set the video bit rate, must be set before starting a recording. Defaults to 2500000.
 
 ??? quote "See parameters"
@@ -96,7 +96,7 @@ Set the video bit rate, must be set before starting a recording. Defaults to 250
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Start recording**
+**Start recording**  
 Start the recording.
 
 ??? quote "See parameters"
@@ -105,7 +105,7 @@ Start the recording.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Stop recording**
+**Stop recording**  
 End the recording.
 
 ??? quote "See parameters"
@@ -116,7 +116,7 @@ End the recording.
 
 ## Conditions
 
-**Is format supported on user device**
+**Is format supported on user device**  
 Check if the specified format is available on the users device. To avoid unsupported formats pick commons ones like MP4 or WebM.
 
 ??? quote "See parameters"
@@ -125,7 +125,7 @@ Check if the specified format is available on the users device. To avoid unsuppo
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**When an errror has occurred **
+**When an errror has occurred **  
 Check if an error has occurred.
 
 ??? quote "See parameters"
@@ -134,7 +134,7 @@ Check if an error has occurred.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**When recording has paused**
+**When recording has paused**  
 Check if a recording has just been paused.
 
 ??? quote "See parameters"
@@ -143,7 +143,7 @@ Check if a recording has just been paused.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**When recording has resumed**
+**When recording has resumed**  
 Check if a recording has just been resumed.
 
 ??? quote "See parameters"
@@ -152,7 +152,7 @@ Check if a recording has just been resumed.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**When recording has saved**
+**When recording has saved**  
 Check if recording has just been saved.
 
 ??? quote "See parameters"
@@ -161,7 +161,7 @@ Check if recording has just been saved.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**When recording has started**
+**When recording has started**  
 Check if recording has just started.
 
 ??? quote "See parameters"
@@ -170,7 +170,7 @@ Check if recording has just started.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**When recording has stopped**
+**When recording has stopped**  
 Check if recording has just stopped.
 
 ??? quote "See parameters"

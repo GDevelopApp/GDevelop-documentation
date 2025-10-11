@@ -29,7 +29,7 @@ Add to a Shape painter object and use the actions to draw a field. Useful for fo
 
 ### Behavior actions
 
-**Add a disk**
+**Add a disk**  
 Add a disk to the field.
 
 ??? quote "See parameters"
@@ -46,7 +46,7 @@ Add a disk to the field.
 
     > Technical note: parameter 7 are internal parameters handled by GDevelop.
 
-**Add a hill**
+**Add a hill**  
 Add a hill to the field.
 
 ??? quote "See parameters"
@@ -67,7 +67,7 @@ Add a hill to the field.
 
     > Technical note: parameter 9 are internal parameters handled by GDevelop.
 
-**Add a line**
+**Add a line**  
 Add a line to the field.
 
 ??? quote "See parameters"
@@ -85,7 +85,7 @@ Add a line to the field.
 
     > Technical note: parameter 9 are internal parameters handled by GDevelop.
 
-**Clamp the field**
+**Clamp the field**  
 Cap every value of the field to a range.
 
 ??? quote "See parameters"
@@ -97,7 +97,7 @@ Cap every value of the field to a range.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Clear the field**
+**Clear the field**  
 Clear the field by setting every values to 0.
 
 ??? quote "See parameters"
@@ -107,7 +107,7 @@ Clear the field by setting every values to 0.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Draw the contours**
+**Draw the contours**  
 Draw the field contours.
 
 ??? quote "See parameters"
@@ -117,7 +117,7 @@ Draw the field contours.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Fill area**
+**Fill area**  
 Fill an area of the field from a given location until a given height is reached.
 
 ??? quote "See parameters"
@@ -133,7 +133,7 @@ Fill an area of the field from a given location until a given height is reached.
 
     > Technical note: parameter 7 are internal parameters handled by GDevelop.
 
-**Mask a disk**
+**Mask a disk**  
 Mask a disk to the field.
 
 ??? quote "See parameters"
@@ -149,7 +149,7 @@ Mask a disk to the field.
 
     > Technical note: parameter 6 are internal parameters handled by GDevelop.
 
-**Mask a line**
+**Mask a line**  
 Mask a line to the field.
 
 ??? quote "See parameters"
@@ -167,7 +167,7 @@ Mask a line to the field.
 
     > Technical note: parameter 8 are internal parameters handled by GDevelop.
 
-**Merge a field**
+**Merge a field**  
 Apply a given operation on every value of the field using the value from the other field at the same position.
 
 ??? quote "See parameters"
@@ -180,7 +180,7 @@ Apply a given operation on every value of the field using the value from the oth
 
     > Technical note: parameter 5 are internal parameters handled by GDevelop.
 
-**Area bounds**
+**Area bounds**  
 Change the field area bounds.
 
 ??? quote "See parameters"
@@ -194,7 +194,7 @@ Change the field area bounds.
 
     > Technical note: parameter 6 are internal parameters handled by GDevelop.
 
-**Height of the cells**
+**Height of the cells**  
 Change the height of the field cells.
 
 ??? quote "See parameters"
@@ -205,7 +205,7 @@ Change the height of the field cells.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Width of the cells**
+**Width of the cells**  
 Change the width of the field cells.
 
 ??? quote "See parameters"
@@ -216,7 +216,7 @@ Change the width of the field cells.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Fill outside**
+**Fill outside**  
 Fill outside or inside of the contours.
 
 ??? quote "See parameters"
@@ -227,7 +227,7 @@ Fill outside or inside of the contours.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Grid value**
+**Grid value**  
 Change the field value at a grid point.
 
 ??? quote "See parameters"
@@ -240,7 +240,7 @@ Change the field value at a grid point.
 
     > Technical note: parameter 5 are internal parameters handled by GDevelop.
 
-**Contour threshold**
+**Contour threshold**  
 Change the contour threshold.
 
 ??? quote "See parameters"
@@ -251,7 +251,7 @@ Change the contour threshold.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Transform the field**
+**Transform the field**  
 Apply an affine on the field values.
 
 ??? quote "See parameters"
@@ -263,7 +263,7 @@ Apply an affine on the field values.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Update hitboxes**
+**Update hitboxes**  
 Update the field hitboxes.
 
 ??? quote "See parameters"
@@ -273,7 +273,7 @@ Update the field hitboxes.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Unfill area**
+**Unfill area**  
 Unfill an area of the field from a given location until a given height is reached.
 
 ??? quote "See parameters"
@@ -291,7 +291,7 @@ Unfill an area of the field from a given location until a given height is reache
 
 ### Behavior conditions
 
-**Field value**
+**Field value**  
 Check if a field is greater than a given value.
 
 ??? quote "See parameters"
@@ -304,7 +304,7 @@ Check if a field is greater than a given value.
 
     > Technical note: parameter 5 are internal parameters handled by GDevelop.
 
-**Fill outside**
+**Fill outside**  
 Check if the contours are filled outside.
 
 ??? quote "See parameters"
@@ -314,7 +314,7 @@ Check if the contours are filled outside.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Point is inside**
+**Point is inside**  
 Check if a point is inside the contour.
 
 ??? quote "See parameters"

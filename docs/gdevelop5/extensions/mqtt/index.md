@@ -33,7 +33,7 @@ You can find a free test broker server over at https://test.mosquitto.org/ - kee
 
 ## Actions
 
-**Connect to a broker**
+**Connect to a broker**  
 Connects to an MQTT broker. 
 
 ??? quote "See parameters"
@@ -46,7 +46,7 @@ Connects to an MQTT broker.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Disconnect from broker**
+**Disconnect from broker**  
 Disconnects from the current MQTT broker.
 
 ??? quote "See parameters"
@@ -56,7 +56,7 @@ Disconnects from the current MQTT broker.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Publish message**
+**Publish message**  
 Publishes a message on a topic.
 
 ??? quote "See parameters"
@@ -71,7 +71,7 @@ Publishes a message on a topic.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Subscribe to a topic**
+**Subscribe to a topic**  
 Subcribe to a topic. All messages published on that topic will be received.
 
 ??? quote "See parameters"
@@ -84,7 +84,7 @@ Subcribe to a topic. All messages published on that topic will be received.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Unsubscribe from a topic**
+**Unsubscribe from a topic**  
 Unsubcribe from a topic. No more messages from this topic will be received.
 
 ??? quote "See parameters"
@@ -95,7 +95,7 @@ Unsubcribe from a topic. No more messages from this topic will be received.
 
 ## Conditions
 
-**Is connected to a broker?**
+**Is connected to a broker?**  
 Triggers if the client is connected to an MQTT broker server.
 
 ??? quote "See parameters"
@@ -104,7 +104,7 @@ Triggers if the client is connected to an MQTT broker server.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**On message**
+**On message**  
 Triggers whenever a message was received. Note that you first need to subcribe to a topic in order to get messages from it.
 
 ??? quote "See parameters"

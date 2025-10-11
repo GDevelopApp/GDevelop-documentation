@@ -47,7 +47,7 @@ StringExpressions:
 
 ## Actions
 
-**Load Newgrounds API**
+**Load Newgrounds API**  
 Load Newgrounds API.
 
 ??? quote "See parameters"
@@ -57,7 +57,7 @@ Load Newgrounds API.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Login to Newgrounds**
+**Login to Newgrounds**  
 Login to Newgrounds (A webpage popup will display).
 
 ??? quote "See parameters"
@@ -66,7 +66,7 @@ Login to Newgrounds (A webpage popup will display).
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Logout from Newgrounds**
+**Logout from Newgrounds**  
 Logout from Newgrounds.
 
 ??? quote "See parameters"
@@ -75,7 +75,7 @@ Logout from Newgrounds.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Post Score on Newgrounds**
+**Post Score on Newgrounds**  
 Post Score on Newgrounds (you can create scoreboards from the game edit page on newgrounds).
 
 ??? quote "See parameters"
@@ -85,7 +85,7 @@ Post Score on Newgrounds (you can create scoreboards from the game edit page on 
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Unlock a game Medal**
+**Unlock a game Medal**  
 Unlock a game Medal (you can create medals from the game edit page on newgrounds).
 
 ??? quote "See parameters"
@@ -96,7 +96,7 @@ Unlock a game Medal (you can create medals from the game edit page on newgrounds
 
 ## Conditions
 
-**User Is logged In?**
+**User Is logged In?**  
 User Is logged In?.
 
 ??? quote "See parameters"

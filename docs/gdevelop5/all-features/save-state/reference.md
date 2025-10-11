@@ -4,7 +4,7 @@ Allows to save and load the full state of a game, usually on the device storage.
 
 ## Actions
 
-**Save game to device storage**
+**Save game to device storage**  
 Create a Save State and save it to device storage.
 
 ??? quote "See parameters"
@@ -15,7 +15,7 @@ Create a Save State and save it to device storage.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Save game to a variable**
+**Save game to a variable**  
 Create a Save State and save it to a variable. This is for advanced usage, prefer to use "Save game to device storage" in most cases.
 
 ??? quote "See parameters"
@@ -26,7 +26,7 @@ Create a Save State and save it to a variable. This is for advanced usage, prefe
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Load game from device storage**
+**Load game from device storage**  
 Restore the game from a Save State stored on the device.
 
 ??? quote "See parameters"
@@ -38,7 +38,7 @@ Restore the game from a Save State stored on the device.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Load game from variable**
+**Load game from variable**  
 Restore the game from a Save State stored in the specified variable. This is for advanced usage, prefer to use "Load game from device storage" in most cases.
 
 ??? quote "See parameters"
@@ -50,7 +50,7 @@ Restore the game from a Save State stored in the specified variable. This is for
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Change the save configuration of the global game data**
+**Change the save configuration of the global game data**  
 Set if the global game data (audio & global variables) should be saved in the default save state. Also allow to specify one or more profiles in which the global game data should be saved.
 
 ??? quote "See parameters"
@@ -61,7 +61,7 @@ Set if the global game data (audio & global variables) should be saved in the de
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Change the save configuration of a scene data**
+**Change the save configuration of a scene data**  
 Set if the data of the specified scene (scene variables, timers, trigger once, wait actions, layers, etc.) should be saved in the default save state. Also allow to specify one or more profiles in which the scene data should be saved. Note: objects are always saved separately from the scene data (use the "Save Configuration" behavior to customize the configuration of objects).
 
 ??? quote "See parameters"
@@ -73,7 +73,7 @@ Set if the data of the specified scene (scene variables, timers, trigger once, w
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Change the save configuration of a variable**
+**Change the save configuration of a variable**  
 Set if a scene or global variable should be saved in the default save state. Also allow to specify one or more profiles in which the variable should be saved.
 
 ??? quote "See parameters"
@@ -87,7 +87,7 @@ Set if a scene or global variable should be saved in the default save state. Als
 
 ## Conditions
 
-**Load just failed**
+**Load just failed**  
 The last load attempt just failed.
 
 ??? quote "See parameters"
@@ -96,7 +96,7 @@ The last load attempt just failed.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Load just succeeded**
+**Load just succeeded**  
 The last load attempt just succeeded.
 
 ??? quote "See parameters"
@@ -105,7 +105,7 @@ The last load attempt just succeeded.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Save just failed**
+**Save just failed**  
 The last save attempt just failed.
 
 ??? quote "See parameters"
@@ -114,7 +114,7 @@ The last save attempt just failed.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Save just succeeded**
+**Save just succeeded**  
 The last save attempt just succeeded.
 
 ??? quote "See parameters"
@@ -123,7 +123,7 @@ The last save attempt just succeeded.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Time since last load**
+**Time since last load**  
 Compare Time since the last load, in seconds. Returns -1 if no load happened, and a positive number otherwise..
 
 ??? quote "See parameters"
@@ -133,7 +133,7 @@ Compare Time since the last load, in seconds. Returns -1 if no load happened, an
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Time since last save**
+**Time since last save**  
 Compare Time since the last save, in seconds. Returns -1 if no save happened, and a positive number otherwise..
 
 ??? quote "See parameters"

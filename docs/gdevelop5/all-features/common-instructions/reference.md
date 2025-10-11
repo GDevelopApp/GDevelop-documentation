@@ -4,10 +4,10 @@ GDevelop comes with a set of events and conditions that allow to express the gam
 
 ## Conditions
 
-**And**
+**And**  
 Checks if all sub-conditions are true. If no sub-condition is specified, it will always be false. This is rarely needed, as events already check all conditions before running actions.
 
-**Compare two numbers**
+**Compare two numbers**  
 Compare the two numbers.
 
 ??? quote "See parameters"
@@ -16,7 +16,7 @@ Compare the two numbers.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Second expression
 
-**Compare two strings**
+**Compare two strings**  
 Compare the two strings.
 
 ??? quote "See parameters"
@@ -25,13 +25,13 @@ Compare the two strings.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Second string expression
 
-**Not**
+**Not**  
 Returns the opposite of the sub-condition(s) result. This is rarely needed, as most conditions can be inverted or expressed more simply.
 
-**Trigger once while true**
+**Trigger once while true**  
 Run actions only once, for each time the conditions have been met.
 
-**Or**
+**Or**  
 Checks if at least one sub-condition is true. If no sub-condition is specified, it will always be false. This is rarely used — multiple events and sub-events are usually a better approach.
 
 

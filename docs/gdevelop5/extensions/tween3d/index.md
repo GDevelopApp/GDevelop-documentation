@@ -23,7 +23,7 @@ It's used in this example:
 
 ## Actions
 
-**Tint color**
+**Tint color**  
 Change the tint of an object. The default color is white.
 
 ??? quote "See parameters"
@@ -42,7 +42,7 @@ Smoothly squash, strentch and tint 3D models.
 
 ### Behavior actions
 
-**Pause a tween**
+**Pause a tween**  
 Pause the running tween animation.
 
 ??? quote "See parameters"
@@ -53,7 +53,7 @@ Pause the running tween animation.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Remove a tween**
+**Remove a tween**  
 Remove the tween animation from the object.
 
 ??? quote "See parameters"
@@ -64,7 +64,7 @@ Remove the tween animation from the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Resume a tween**
+**Resume a tween**  
 Resume the tween animation.
 
 ??? quote "See parameters"
@@ -75,7 +75,7 @@ Resume the tween animation.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Scale volume**
+**Scale volume**  
 Change the scale volume.
 
 ??? quote "See parameters"
@@ -87,7 +87,7 @@ Change the scale volume.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Stretch on Y axis**
+**Stretch on Y axis**  
 Change the stretch on Y axis. The object volume is conserved. A stretch of 2 makes the object appear 2 times longer on Y in proportion to the dimensions on X and Z.
 
 ??? quote "See parameters"
@@ -99,7 +99,7 @@ Change the stretch on Y axis. The object volume is conserved. A stretch of 2 mak
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Stretch on Z axis**
+**Stretch on Z axis**  
 Change the stretch on Z axis. The object volume is conserved. A stretch of 2 makes the object appear 2 times longer on Z in proportion to the dimensions on X and Y.
 
 ??? quote "See parameters"
@@ -111,7 +111,7 @@ Change the stretch on Z axis. The object volume is conserved. A stretch of 2 mak
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Stop a tween**
+**Stop a tween**  
 Stop the running tween animation.
 
 ??? quote "See parameters"
@@ -123,7 +123,7 @@ Stop the running tween animation.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Tween scale volume**
+**Tween scale volume**  
 Tweens an object scale volume from its current value to a new one. The scale volume can never be 0 or less.
 
 ??? quote "See parameters"
@@ -137,7 +137,7 @@ Tweens an object scale volume from its current value to a new one. The scale vol
 
     > Technical note: parameter 6 are internal parameters handled by GDevelop.
 
-**Tween stretch Y**
+**Tween stretch Y**  
 Tweens an object stretch Y from its current value to a new one. The stretch can never be 0 or less.
 
 ??? quote "See parameters"
@@ -151,7 +151,7 @@ Tweens an object stretch Y from its current value to a new one. The stretch can 
 
     > Technical note: parameter 6 are internal parameters handled by GDevelop.
 
-**Tween stretch Z**
+**Tween stretch Z**  
 Tweens an object stretch Z from its current value to a new one. The stretch can never be 0 or less.
 
 ??? quote "See parameters"
@@ -165,7 +165,7 @@ Tweens an object stretch Z from its current value to a new one. The stretch can 
 
     > Technical note: parameter 6 are internal parameters handled by GDevelop.
 
-**Tween object color**
+**Tween object color**  
 Tweens the object color from its current value to a new one.
 
 ??? quote "See parameters"
@@ -181,7 +181,7 @@ Tweens the object color from its current value to a new one.
 
 ### Behavior conditions
 
-**Tween exists**
+**Tween exists**  
 Check if the tween animation exists.
 
 ??? quote "See parameters"
@@ -192,7 +192,7 @@ Check if the tween animation exists.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Tween finished playing**
+**Tween finished playing**  
 Check if the tween animation has finished playing.
 
 ??? quote "See parameters"
@@ -203,7 +203,7 @@ Check if the tween animation has finished playing.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Tween is playing**
+**Tween is playing**  
 Check if the tween animation is currently playing.
 
 ??? quote "See parameters"
@@ -214,7 +214,7 @@ Check if the tween animation is currently playing.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Progress of a tween**
+**Progress of a tween**  
 Compare the progress of a tween (between 0.0 and 1.0).
 
 ??? quote "See parameters"
@@ -227,7 +227,7 @@ Compare the progress of a tween (between 0.0 and 1.0).
 
     > Technical note: parameter 5 are internal parameters handled by GDevelop.
 
-**Scale volume**
+**Scale volume**  
 Compare the scale volume.
 
 ??? quote "See parameters"
@@ -239,7 +239,7 @@ Compare the scale volume.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Stretch on Y axis**
+**Stretch on Y axis**  
 Compare the stretch on Y axis. The object volume is conserved. A stretch of 2 makes the object appear 2 times longer on Y in proportion to the dimensions on X and Z.
 
 ??? quote "See parameters"
@@ -251,7 +251,7 @@ Compare the stretch on Y axis. The object volume is conserved. A stretch of 2 ma
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Stretch on Z axis**
+**Stretch on Z axis**  
 Compare the stretch on Z axis. The object volume is conserved. A stretch of 2 makes the object appear 2 times longer on Z in proportion to the dimensions on X and Y.
 
 ??? quote "See parameters"
@@ -279,7 +279,7 @@ Squash and stretch a 3D model in loop.
 
 ### Behavior actions
 
-**Cycle duration**
+**Cycle duration**  
 Change the cycle duration of the object.
 
 ??? quote "See parameters"
@@ -291,7 +291,7 @@ Change the cycle duration of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum scale volume**
+**Maximum scale volume**  
 Change the maximum scale volume of the object.
 
 ??? quote "See parameters"
@@ -303,7 +303,7 @@ Change the maximum scale volume of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Minimum scale volume**
+**Minimum scale volume**  
 Change the minimum scale volume of the object.
 
 ??? quote "See parameters"
@@ -315,7 +315,7 @@ Change the minimum scale volume of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Scale cycle offset**
+**Scale cycle offset**  
 Change the scale cycle offset of the object.
 
 ??? quote "See parameters"
@@ -327,7 +327,7 @@ Change the scale cycle offset of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum stretch**
+**Maximum stretch**  
 Change the maximum stretch of the object.
 
 ??? quote "See parameters"
@@ -339,7 +339,7 @@ Change the maximum stretch of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Minimum stretch**
+**Minimum stretch**  
 Change the minimum stretch of the object.
 
 ??? quote "See parameters"
@@ -351,7 +351,7 @@ Change the minimum stretch of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Stretch cycle offset**
+**Stretch cycle offset**  
 Change the stretch cycle offset of the object.
 
 ??? quote "See parameters"
@@ -363,7 +363,7 @@ Change the stretch cycle offset of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Tween maximum scale volume**
+**Tween maximum scale volume**  
 Tweens the maximum scale volume from its current value to a new one. The scale volume can never be 0 or less.
 
 ??? quote "See parameters"
@@ -376,7 +376,7 @@ Tweens the maximum scale volume from its current value to a new one. The scale v
 
     > Technical note: parameter 5 are internal parameters handled by GDevelop.
 
-**Tween minimum scale volume**
+**Tween minimum scale volume**  
 Tweens the minimum scale volume from its current value to a new one. The scale volume can never be 0 or less.
 
 ??? quote "See parameters"
@@ -391,7 +391,7 @@ Tweens the minimum scale volume from its current value to a new one. The scale v
 
 ### Behavior conditions
 
-**Cycle duration**
+**Cycle duration**  
 Compare the cycle duration of the object.
 
 ??? quote "See parameters"
@@ -403,7 +403,7 @@ Compare the cycle duration of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum scale volume**
+**Maximum scale volume**  
 Compare the maximum scale volume of the object.
 
 ??? quote "See parameters"
@@ -415,7 +415,7 @@ Compare the maximum scale volume of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Minimum scale volume**
+**Minimum scale volume**  
 Compare the minimum scale volume of the object.
 
 ??? quote "See parameters"
@@ -427,7 +427,7 @@ Compare the minimum scale volume of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Scale cycle offset**
+**Scale cycle offset**  
 Compare the scale cycle offset of the object.
 
 ??? quote "See parameters"
@@ -439,7 +439,7 @@ Compare the scale cycle offset of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum stretch**
+**Maximum stretch**  
 Compare the maximum stretch of the object.
 
 ??? quote "See parameters"
@@ -451,7 +451,7 @@ Compare the maximum stretch of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Minimum stretch**
+**Minimum stretch**  
 Compare the minimum stretch of the object.
 
 ??? quote "See parameters"
@@ -463,7 +463,7 @@ Compare the minimum stretch of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Stretch cycle offset**
+**Stretch cycle offset**  
 Compare the stretch cycle offset of the object.
 
 ??? quote "See parameters"

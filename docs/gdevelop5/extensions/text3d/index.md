@@ -25,7 +25,7 @@ A text in 3D.
 
 ### Object actions
 
-**Bold**
+**Bold**  
 De/activate bold.
 
 ??? quote "See parameters"
@@ -35,7 +35,7 @@ De/activate bold.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Color**
+**Color**  
 Change the color of the text.
 
 ??? quote "See parameters"
@@ -46,7 +46,7 @@ Change the color of the text.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Font**
+**Font**  
 Change the font of the text.
 
 ??? quote "See parameters"
@@ -57,7 +57,7 @@ Change the font of the text.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Font size**
+**Font size**  
 Change the font size of a text object.
 
 ??? quote "See parameters"
@@ -68,7 +68,7 @@ Change the font size of a text object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Italic**
+**Italic**  
 De/activate italic.
 
 ??? quote "See parameters"
@@ -78,7 +78,7 @@ De/activate italic.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Line spacing**
+**Line spacing**  
 Change the line spacing of the object.
 
 ??? quote "See parameters"
@@ -89,7 +89,7 @@ Change the line spacing of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Outline color**
+**Outline color**  
 Change the outline color of the text.
 
 ??? quote "See parameters"
@@ -100,7 +100,7 @@ Change the outline color of the text.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Enable outline**
+**Enable outline**  
 Enable or disable the outline of the text.
 
 ??? quote "See parameters"
@@ -110,7 +110,7 @@ Enable or disable the outline of the text.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Outline thickness**
+**Outline thickness**  
 Change the outline thickness of the text.
 
 ??? quote "See parameters"
@@ -121,7 +121,7 @@ Change the outline thickness of the text.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Shadow angle**
+**Shadow angle**  
 Change the shadow angle of the text.
 
 ??? quote "See parameters"
@@ -132,7 +132,7 @@ Change the shadow angle of the text.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Shadow blur radius**
+**Shadow blur radius**  
 Change the shadow blur radius of the text.
 
 ??? quote "See parameters"
@@ -143,7 +143,7 @@ Change the shadow blur radius of the text.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Shadow color**
+**Shadow color**  
 Change the shadow color of the text.
 
 ??? quote "See parameters"
@@ -154,7 +154,7 @@ Change the shadow color of the text.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Shadow distance**
+**Shadow distance**  
 Change the shadow distance of the text.
 
 ??? quote "See parameters"
@@ -165,7 +165,7 @@ Change the shadow distance of the text.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Enable shadow**
+**Enable shadow**  
 Enable or disable the shadow of the text.
 
 ??? quote "See parameters"
@@ -175,7 +175,7 @@ Enable or disable the shadow of the text.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Shadow opacity**
+**Shadow opacity**  
 Change the shadow opacity of the text.
 
 ??? quote "See parameters"
@@ -186,7 +186,7 @@ Change the shadow opacity of the text.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Alignment**
+**Alignment**  
 Change the text alignment of a multiline text object.
 
 ??? quote "See parameters"
@@ -197,7 +197,7 @@ Change the text alignment of a multiline text object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Wrapping**
+**Wrapping**  
 De/activate word wrapping. Note that word wrapping is a graphical option, you can't get the number of lines displayed.
 
 ??? quote "See parameters"
@@ -207,7 +207,7 @@ De/activate word wrapping. Note that word wrapping is a graphical option, you ca
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Wrapping width**
+**Wrapping width**  
 Change the word wrapping width of a Text object.
 
 ??? quote "See parameters"
@@ -220,7 +220,7 @@ Change the word wrapping width of a Text object.
 
 ### Object conditions
 
-**Color**
+**Color**  
 Compare the color of the text.
 
 ??? quote "See parameters"
@@ -231,7 +231,7 @@ Compare the color of the text.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Font**
+**Font**  
 Compare the font of the text.
 
 ??? quote "See parameters"
@@ -242,7 +242,7 @@ Compare the font of the text.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Font size**
+**Font size**  
 Compare the font size of a text object.
 
 ??? quote "See parameters"
@@ -253,7 +253,7 @@ Compare the font size of a text object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Bold**
+**Bold**  
 Check if the boldstyle is activated.
 
 ??? quote "See parameters"
@@ -262,7 +262,7 @@ Check if the boldstyle is activated.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Italic**
+**Italic**  
 Check if the italic style is activated.
 
 ??? quote "See parameters"
@@ -271,7 +271,7 @@ Check if the italic style is activated.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Outline enabled**
+**Outline enabled**  
 Check if the text outline is enabled.
 
 ??? quote "See parameters"
@@ -280,7 +280,7 @@ Check if the text outline is enabled.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Shadow enabled**
+**Shadow enabled**  
 Check if the text shadowis enabled.
 
 ??? quote "See parameters"
@@ -289,7 +289,7 @@ Check if the text shadowis enabled.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Wrapping**
+**Wrapping**  
 Check if the word wrapping style of an object is set.
 
 ??? quote "See parameters"
@@ -298,7 +298,7 @@ Check if the word wrapping style of an object is set.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Line spacing**
+**Line spacing**  
 Compare the line spacing of the object.
 
 ??? quote "See parameters"
@@ -309,7 +309,7 @@ Compare the line spacing of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Outline color**
+**Outline color**  
 Compare the outline color of the text.
 
 ??? quote "See parameters"
@@ -320,7 +320,7 @@ Compare the outline color of the text.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Outline thickness**
+**Outline thickness**  
 Compare the outline thickness of the text.
 
 ??? quote "See parameters"
@@ -331,7 +331,7 @@ Compare the outline thickness of the text.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Shadow angle**
+**Shadow angle**  
 Compare the shadow angle of the text.
 
 ??? quote "See parameters"
@@ -342,7 +342,7 @@ Compare the shadow angle of the text.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Shadow blur radius**
+**Shadow blur radius**  
 Compare the shadow blur radius of the text.
 
 ??? quote "See parameters"
@@ -353,7 +353,7 @@ Compare the shadow blur radius of the text.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Shadow color**
+**Shadow color**  
 Compare the shadow color of the text.
 
 ??? quote "See parameters"
@@ -364,7 +364,7 @@ Compare the shadow color of the text.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Shadow distance**
+**Shadow distance**  
 Compare the shadow distance of the text.
 
 ??? quote "See parameters"
@@ -375,7 +375,7 @@ Compare the shadow distance of the text.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Shadow opacity**
+**Shadow opacity**  
 Compare the shadow opacity of the text.
 
 ??? quote "See parameters"
@@ -386,7 +386,7 @@ Compare the shadow opacity of the text.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Alignment**
+**Alignment**  
 Compare the text alignment of a multiline text object.
 
 ??? quote "See parameters"
@@ -397,7 +397,7 @@ Compare the text alignment of a multiline text object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Wrapping width**
+**Wrapping width**  
 Compare the word wrapping width of a Text object.
 
 ??? quote "See parameters"

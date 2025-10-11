@@ -10,7 +10,7 @@ Make objects move as if they are subject to the laws of physics. If you're creat
 
 ### Behavior actions
 
-**Add a gear between two objects**
+**Add a gear between two objects**  
 Add a virtual gear between two objects.
 
 ??? quote "See parameters"
@@ -22,7 +22,7 @@ Add a virtual gear between two objects.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Add a hinge**
+**Add a hinge**  
 Add a hinge that the object will rotate around.  
 The distance between the hinge and the object will remain identical.
 
@@ -35,7 +35,7 @@ The distance between the hinge and the object will remain identical.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Add a hinge between two objects**
+**Add a hinge between two objects**  
 Add a hinge that the object will rotate around.
 
 ??? quote "See parameters"
@@ -48,7 +48,7 @@ Add a hinge that the object will rotate around.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Add a force**
+**Add a force**  
 Add a force to the object
 
 ??? quote "See parameters"
@@ -60,7 +60,7 @@ Add a force to the object
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Apply a force toward a position**
+**Apply a force toward a position**  
 Apply a force, directed toward a position, to the object.
 
 ??? quote "See parameters"
@@ -73,7 +73,7 @@ Apply a force, directed toward a position, to the object.
 
     > Technical note: parameter 5 are internal parameters handled by GDevelop.
 
-**Apply a force ( angle )**
+**Apply a force ( angle )**  
 Apply a force to an object, using an angle and a length as coordinates.
 
 ??? quote "See parameters"
@@ -85,7 +85,7 @@ Apply a force to an object, using an angle and a length as coordinates.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Apply an impulse**
+**Apply an impulse**  
 Apply an impulse to the object.
 
 ??? quote "See parameters"
@@ -97,7 +97,7 @@ Apply an impulse to the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Apply an impulse toward a position**
+**Apply an impulse toward a position**  
 Apply an impulse, directed toward a position, to the object.
 
 ??? quote "See parameters"
@@ -110,7 +110,7 @@ Apply an impulse, directed toward a position, to the object.
 
     > Technical note: parameter 5 are internal parameters handled by GDevelop.
 
-**Apply an impulse (angle)**
+**Apply an impulse (angle)**  
 Apply an impulse to an object, using an angle and a length as coordinates.
 
 ??? quote "See parameters"
@@ -122,7 +122,7 @@ Apply an impulse to an object, using an angle and a length as coordinates.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Add a torque (a rotation)**
+**Add a torque (a rotation)**  
 Add a torque (a rotation) to the object.
 
 ??? quote "See parameters"
@@ -133,7 +133,7 @@ Add a torque (a rotation) to the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Do not treat object like a bullet**
+**Do not treat object like a bullet**  
 Do not treat the object like a bullet, so it will use standard collision handling.
 
 ??? quote "See parameters"
@@ -143,7 +143,7 @@ Do not treat the object like a bullet, so it will use standard collision handlin
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Angular damping**
+**Angular damping**  
 Modify the angular damping of the object.
 
 ??? quote "See parameters"
@@ -154,7 +154,7 @@ Modify the angular damping of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Angular speed**
+**Angular speed**  
 Modify the angular velocity of the object.
 
 ??? quote "See parameters"
@@ -165,7 +165,7 @@ Modify the angular velocity of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Treat object like a bullet.**
+**Treat object like a bullet.**  
 Treat the object like a bullet, so it will have better collision handling.
 
 ??? quote "See parameters"
@@ -175,7 +175,7 @@ Treat the object like a bullet, so it will have better collision handling.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Make the object dynamic**
+**Make the object dynamic**  
 Make the object dynamic ( affected by forces and other objects ).
 
 ??? quote "See parameters"
@@ -185,7 +185,7 @@ Make the object dynamic ( affected by forces and other objects ).
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Fix rotation**
+**Fix rotation**  
 Prevent the object from rotating
 
 ??? quote "See parameters"
@@ -195,7 +195,7 @@ Prevent the object from rotating
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Make object's rotation free**
+**Make object's rotation free**  
 Allows the object to rotate.
 
 ??? quote "See parameters"
@@ -205,7 +205,7 @@ Allows the object to rotate.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Gravity**
+**Gravity**  
 Modify the gravity
 
 ??? quote "See parameters"
@@ -217,7 +217,7 @@ Modify the gravity
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Linear damping**
+**Linear damping**  
 Modify the linear damping of the object.
 
 ??? quote "See parameters"
@@ -228,7 +228,7 @@ Modify the linear damping of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Linear velocity**
+**Linear velocity**  
 Modify the velocity of an object.
 
 ??? quote "See parameters"
@@ -240,7 +240,7 @@ Modify the velocity of an object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Change the X scale of a collision polygon**
+**Change the X scale of a collision polygon**  
 Change the X scale of the polygon. Use a value greater than 1 to enlarge the polygon, less than 1 to reduce it.
 
 ??? quote "See parameters"
@@ -251,7 +251,7 @@ Change the X scale of the polygon. Use a value greater than 1 to enlarge the pol
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Change the Y scale of a collision polygon**
+**Change the Y scale of a collision polygon**  
 Change the Y scale of the polygon. Use a value greater than 1 to enlarge the polygon, less than 1 to reduce it.
 
 ??? quote "See parameters"
@@ -262,7 +262,7 @@ Change the Y scale of the polygon. Use a value greater than 1 to enlarge the pol
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Make the object static**
+**Make the object static**  
 Make the object immovable.
 
 ??? quote "See parameters"
@@ -274,7 +274,7 @@ Make the object immovable.
 
 ### Behavior conditions
 
-**Angular damping**
+**Angular damping**  
 Test the object's angular damping
 
 ??? quote "See parameters"
@@ -286,7 +286,7 @@ Test the object's angular damping
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Angular speed**
+**Angular speed**  
 Compare the angular speed of the object.
 
 ??? quote "See parameters"
@@ -298,7 +298,7 @@ Compare the angular speed of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Collision**
+**Collision**  
 Test if two objects are colliding.  
 Attention! Only objects specified in the first parameter will be taken into account by the next actions and conditions, if they are colliding with the other objects.
 
@@ -310,7 +310,7 @@ Attention! Only objects specified in the first parameter will be taken into acco
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Collision polygon X scale**
+**Collision polygon X scale**  
 Test the value of the X scale of the collision polygon.
 
 ??? quote "See parameters"
@@ -322,7 +322,7 @@ Test the value of the X scale of the collision polygon.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Collision polygon Y scale**
+**Collision polygon Y scale**  
 Test the value of the Y scale of the collision polygon.
 
 ??? quote "See parameters"
@@ -334,7 +334,7 @@ Test the value of the Y scale of the collision polygon.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Object is treated like a bullet**
+**Object is treated like a bullet**  
 Test if the object is treated like a bullet
 
 ??? quote "See parameters"
@@ -344,7 +344,7 @@ Test if the object is treated like a bullet
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**The object is dynamic**
+**The object is dynamic**  
 Test if an object is dynamic ( affected by forces and other objects ).
 
 ??? quote "See parameters"
@@ -352,7 +352,7 @@ Test if an object is dynamic ( affected by forces and other objects ).
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Fixed rotation**
+**Fixed rotation**  
 Test if the object's rotation is fixed.
 
 ??? quote "See parameters"
@@ -362,7 +362,7 @@ Test if the object's rotation is fixed.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Linear damping**
+**Linear damping**  
 Compare the linear damping of the object.
 
 ??? quote "See parameters"
@@ -374,7 +374,7 @@ Compare the linear damping of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Linear speed**
+**Linear speed**  
 Compare the linear velocity of the object.
 
 ??? quote "See parameters"
@@ -386,7 +386,7 @@ Compare the linear velocity of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**X component**
+**X component**  
 Compare the linear velocity on the X axis of the object.
 
 ??? quote "See parameters"
@@ -398,7 +398,7 @@ Compare the linear velocity on the X axis of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Y component**
+**Y component**  
 Compare the linear velocity on the Y axis of the object.
 
 ??? quote "See parameters"

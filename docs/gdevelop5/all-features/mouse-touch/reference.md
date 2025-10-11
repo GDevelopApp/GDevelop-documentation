@@ -6,7 +6,7 @@ By default, conditions related to the mouse will also handle the touches - so th
 
 ## Actions
 
-**Hide the cursor**
+**Hide the cursor**  
 Hide the cursor.
 
 ??? quote "See parameters"
@@ -15,7 +15,7 @@ Hide the cursor.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Show the cursor**
+**Show the cursor**  
 Show the cursor.
 
 ??? quote "See parameters"
@@ -24,7 +24,7 @@ Show the cursor.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**De/activate moving the mouse cursor with touches**
+**De/activate moving the mouse cursor with touches**  
 When activated, any touch made on a touchscreen will also move the mouse cursor. When deactivated, mouse and touch positions will be completely independent.  
 By default, this is activated so that you can simply use the mouse conditions to also support touchscreens. If you want to have multitouch and differentiate mouse movement and touches, just deactivate it with this action.
 
@@ -36,7 +36,7 @@ By default, this is activated so that you can simply use the mouse conditions to
 
 ## Conditions
 
-**Cursor X position**
+**Cursor X position**  
 Compare the X position of the cursor or of a touch.
 
 ??? quote "See parameters"
@@ -48,7 +48,7 @@ Compare the X position of the cursor or of a touch.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Cursor Y position**
+**Cursor Y position**  
 Compare the Y position of the cursor or of a touch.
 
 ??? quote "See parameters"
@@ -60,7 +60,7 @@ Compare the Y position of the cursor or of a touch.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**A new touch has started**
+**A new touch has started**  
 Check if a touch has just started or the mouse left button has been pressed on this frame. The touch identifiers can be accessed using StartedTouchOrMouseId() and StartedTouchOrMouseCount().
 
 ??? quote "See parameters"
@@ -69,7 +69,7 @@ Check if a touch has just started or the mouse left button has been pressed on t
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**A touch has ended**
+**A touch has ended**  
 Check if a touch has ended or a mouse left button has been released.
 
 ??? quote "See parameters"
@@ -78,7 +78,7 @@ Check if a touch has ended or a mouse left button has been released.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Mouse cursor is inside the window**
+**Mouse cursor is inside the window**  
 Check if the mouse cursor is inside the window.
 
 ??? quote "See parameters"
@@ -87,7 +87,7 @@ Check if the mouse cursor is inside the window.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**The mouse wheel is scrolling down**
+**The mouse wheel is scrolling down**  
 Check if the mouse wheel is scrolling down. Use MouseWheelDelta expression if you want to know the amount that was scrolled.
 
 ??? quote "See parameters"
@@ -96,7 +96,7 @@ Check if the mouse wheel is scrolling down. Use MouseWheelDelta expression if yo
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**The mouse wheel is scrolling up**
+**The mouse wheel is scrolling up**  
 Check if the mouse wheel is scrolling up. Use MouseWheelDelta expression if you want to know the amount that was scrolled.
 
 ??? quote "See parameters"
@@ -105,7 +105,7 @@ Check if the mouse wheel is scrolling up. Use MouseWheelDelta expression if you 
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Mouse button pressed or touch held**
+**Mouse button pressed or touch held**  
 Check if the specified mouse button is pressed or if a touch is in contact with the screen.
 
 ??? quote "See parameters"
@@ -114,7 +114,7 @@ Check if the specified mouse button is pressed or if a touch is in contact with 
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Mouse button released**
+**Mouse button released**  
 Check if the specified mouse button was released.
 
 ??? quote "See parameters"
@@ -123,7 +123,7 @@ Check if the specified mouse button was released.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Touch X position**
+**Touch X position**  
 Compare the X position of a specific touch.
 
 ??? quote "See parameters"
@@ -136,7 +136,7 @@ Compare the X position of a specific touch.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Touch Y position**
+**Touch Y position**  
 Compare the Y position of a specific touch.
 
 ??? quote "See parameters"

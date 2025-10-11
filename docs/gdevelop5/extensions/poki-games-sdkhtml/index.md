@@ -16,7 +16,7 @@ Please refer to [Poki's guide](https://sdk.poki.com/sdk-documentation.html) to k
 
 ## Actions
 
-**Game loading finished**
+**Game loading finished**  
 Inform Poki game finished loading.
 
 ??? quote "See parameters"
@@ -25,7 +25,7 @@ Inform Poki game finished loading.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Gameplay started**
+**Gameplay started**  
 Inform Poki gameplay started.
 
 ??? quote "See parameters"
@@ -34,7 +34,7 @@ Inform Poki gameplay started.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Gameplay stopped**
+**Gameplay stopped**  
 Inform Poki gameplay stopped.
 
 ??? quote "See parameters"
@@ -43,7 +43,7 @@ Inform Poki gameplay stopped.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Commercial break**
+**Commercial break**  
 Request commercial break.
 
 ??? quote "See parameters"
@@ -52,7 +52,7 @@ Request commercial break.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Rewarded break**
+**Rewarded break**  
 Request rewarded break.
 
 ??? quote "See parameters"
@@ -63,7 +63,7 @@ Request rewarded break.
 
 ## Conditions
 
-**Commercial break just finished playing**
+**Commercial break just finished playing**  
 Checks if a commercial break just finished playing.
 
 ??? quote "See parameters"
@@ -72,7 +72,7 @@ Checks if a commercial break just finished playing.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Rewarded break just finished playing**
+**Rewarded break just finished playing**  
 Checks if a rewarded break just finished playing.
 
 ??? quote "See parameters"
@@ -81,7 +81,7 @@ Checks if a rewarded break just finished playing.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Commercial break is playing**
+**Commercial break is playing**  
 Checks if a commercial break is playing.
 
 ??? quote "See parameters"
@@ -90,7 +90,7 @@ Checks if a commercial break is playing.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Rewarded break is playing**
+**Rewarded break is playing**  
 Checks if a rewarded break is playing.
 
 ??? quote "See parameters"
@@ -99,7 +99,7 @@ Checks if a rewarded break is playing.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Poki SDK is ready**
+**Poki SDK is ready**  
 Check if the Poki SDK is ready to be used.
 
 ??? quote "See parameters"
@@ -108,7 +108,7 @@ Check if the Poki SDK is ready to be used.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Should reward player**
+**Should reward player**  
 Checks if player should be rewarded after a rewarded break finished playing.
 
 ??? quote "See parameters"

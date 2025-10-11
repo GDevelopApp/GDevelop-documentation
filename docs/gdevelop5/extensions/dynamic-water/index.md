@@ -33,7 +33,7 @@ Easily create a realistic liquid surface simulation.
 
 ### Behavior actions
 
-**Force application**
+**Force application**  
 Apply a force when an object collides with its surface.
 
 ??? quote "See parameters"
@@ -45,7 +45,7 @@ Apply a force when an object collides with its surface.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Auto Wave**
+**Auto Wave**  
 Enable automatic waves.
 
 ??? quote "See parameters"
@@ -56,7 +56,7 @@ Enable automatic waves.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Show Columns**
+**Show Columns**  
 Show the different Column .
 
 ??? quote "See parameters"
@@ -67,7 +67,7 @@ Show the different Column .
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Springs Number**
+**Springs Number**  
 The number of springs controls the distance between the joints and the number of springs. (between 0 and the object width).  
 PS: Change the quality of the waves, the more columns the more they use the performance.
 
@@ -79,7 +79,7 @@ PS: Change the quality of the waves, the more columns the more they use the perf
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Damping(d)**
+**Damping(d)**  
 The spring dampenig value. (between 0 and 0.1).
 
 ??? quote "See parameters"
@@ -90,7 +90,7 @@ The spring dampenig value. (between 0 and 0.1).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Change Period**
+**Change Period**  
 Change Period.
 
 ??? quote "See parameters"
@@ -101,7 +101,7 @@ Change Period.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Spread**
+**Spread**  
 The Spread value will dictate how much a wave oscillation will pass pnto their neighboors.(Between 0 and 0.1).
 
 ??? quote "See parameters"
@@ -112,7 +112,7 @@ The Spread value will dictate how much a wave oscillation will pass pnto their n
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Surface Size**
+**Surface Size**  
 Change the size of the surface edge.
 
 ??? quote "See parameters"
@@ -123,7 +123,7 @@ Change the size of the surface edge.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Tension(k)**
+**Tension(k)**  
 Greater values will pull the water with greater force. (between 0 and 0.1).
 
 ??? quote "See parameters"
@@ -134,7 +134,7 @@ Greater values will pull the water with greater force. (between 0 and 0.1).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Wave horizontal direction**
+**Wave horizontal direction**  
 Change the direction of the waves.
 
 ??? quote "See parameters"
@@ -145,7 +145,7 @@ Change the direction of the waves.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Wave Length**
+**Wave Length**  
 Change the length of the waves.
 
 ??? quote "See parameters"
@@ -156,7 +156,7 @@ Change the length of the waves.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Wave magnitude**
+**Wave magnitude**  
 Change the wave magnitude.
 
 ??? quote "See parameters"
@@ -167,7 +167,7 @@ Change the wave magnitude.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Components**
+**Components**  
 Component additions (Visual and Surface Collision).
 
 ??? quote "See parameters"
@@ -181,7 +181,7 @@ Component additions (Visual and Surface Collision).
 
 ### Behavior conditions
 
-**Surface collision**
+**Surface collision**  
 Test the collision between the object and the fluid surface.
 
 ??? quote "See parameters"

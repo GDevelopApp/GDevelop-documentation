@@ -16,7 +16,7 @@ This will work for Android and iOS on browsers (Google Chrome, Safari...) and on
 
 ## Actions
 
-**Share**
+**Share**  
 Share a link or text via another app using the system share dialog.
 
 ??? quote "See parameters"
@@ -29,7 +29,7 @@ Share a link or text via another app using the system share dialog.
 
 ## Conditions
 
-**Sharing is supported**
+**Sharing is supported**  
 Check if the browser/operating system of the device supports sharing. Sharing is typically not supported on desktop browsers or desktop apps.
 
 ??? quote "See parameters"
@@ -38,7 +38,7 @@ Check if the browser/operating system of the device supports sharing. Sharing is
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Result of the last share dialog**
+**Result of the last share dialog**  
 Compare the result of the last share dialog.
 
 ??? quote "See parameters"

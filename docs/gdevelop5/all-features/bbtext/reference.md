@@ -10,7 +10,7 @@ Displays a rich text label using BBCode markup (allowing to set parts of the tex
 
 ### Object actions
 
-**Alignment**
+**Alignment**  
 Change the alignment of the text.
 
 ??? quote "See parameters"
@@ -19,7 +19,7 @@ Change the alignment of the text.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔤 String): Alignment (one of: "left", "right", "center")
 
-**BBCode text**
+**BBCode text**  
 Set BBCode text
 
 ??? quote "See parameters"
@@ -28,7 +28,7 @@ Set BBCode text
     - Parameter 1: 🟰 Operator
     - Parameter 2 (string): Text
 
-**Color**
+**Color**  
 Set base color
 
 ??? quote "See parameters"
@@ -36,7 +36,7 @@ Set base color
     - Parameter 0 (👾 Object): BBText
     - Parameter 1 (color): Color (R;G;B)
 
-**Font family**
+**Font family**  
 Set font family
 
 ??? quote "See parameters"
@@ -44,7 +44,7 @@ Set font family
     - Parameter 0 (👾 Object): BBText
     - Parameter 1 (fontResource): Font family
 
-**Font size**
+**Font size**  
 Set base font size
 
 ??? quote "See parameters"
@@ -53,7 +53,7 @@ Set base font size
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Font size
 
-**Word wrapping**
+**Word wrapping**  
 De/activate word wrapping.
 
 ??? quote "See parameters"
@@ -61,7 +61,7 @@ De/activate word wrapping.
     - Parameter 0 (👾 Object): BBText
     - Parameter 1 (❓ Yes or No): Activate word wrapping
 
-**Wrapping width**
+**Wrapping width**  
 Change the width, in pixels, after which the text is wrapped on next line.
 
 ??? quote "See parameters"
@@ -72,7 +72,7 @@ Change the width, in pixels, after which the text is wrapped on next line.
 
 ### Object conditions
 
-**Alignment**
+**Alignment**  
 Check the current text alignment.
 
 ??? quote "See parameters"
@@ -81,7 +81,7 @@ Check the current text alignment.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔤 String): Alignment (one of: "left", "right", "center")
 
-**BBCode text**
+**BBCode text**  
 Compare the value of the BBCode text.
 
 ??? quote "See parameters"
@@ -90,7 +90,7 @@ Compare the value of the BBCode text.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Text
 
-**Font family**
+**Font family**  
 Compare the value of font family
 
 ??? quote "See parameters"
@@ -99,7 +99,7 @@ Compare the value of font family
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Font family
 
-**Font size**
+**Font size**  
 Compare the base font size of the text.
 
 ??? quote "See parameters"
@@ -108,14 +108,14 @@ Compare the base font size of the text.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Font size
 
-**Word wrapping**
+**Word wrapping**  
 Check if word wrapping is enabled.
 
 ??? quote "See parameters"
 
     - Parameter 0 (👾 Object): BBText
 
-**Wrapping width**
+**Wrapping width**  
 Compare the width, in pixels, after which the text is wrapped on next line.
 
 ??? quote "See parameters"

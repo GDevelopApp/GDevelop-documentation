@@ -28,7 +28,7 @@ An action let you set the reflection for specific objects with a lot of options:
 
 ## Actions
 
-**Add reflection to object**
+**Add reflection to object**  
 Reflect your object.
 
 ??? quote "See parameters"

@@ -23,7 +23,7 @@ This extension is deprecated. The [simple inventory extension](https://wiki.gdev
 
 ## Actions
 
-**Add multiple items**
+**Add multiple items**  
 Adds multiple items to an inventory.
 
 ??? quote "See parameters"
@@ -34,7 +34,7 @@ Adds multiple items to an inventory.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Remove multiple items**
+**Remove multiple items**  
 Removes multiple items from an inventory.
 
 ??? quote "See parameters"
@@ -45,7 +45,7 @@ Removes multiple items from an inventory.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Set the number of items**
+**Set the number of items**  
 Sets the number of items in an inventory.
 
 ??? quote "See parameters"

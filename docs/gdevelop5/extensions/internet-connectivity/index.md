@@ -14,7 +14,7 @@ Checks if the device running the game is connected to the internet.
 
 ## Conditions
 
-**Is the device online?**
+**Is the device online?**  
 Checks if the device is connected to the internet.
 
 ??? quote "See parameters"

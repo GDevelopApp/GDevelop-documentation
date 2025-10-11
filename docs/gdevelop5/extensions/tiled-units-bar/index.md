@@ -24,7 +24,7 @@ A bar that represents a resource in the game (health, mana, ammo, etc).
 
 ### Object actions
 
-**Maximum value**
+**Maximum value**  
 Change the maximum value of the object.
 
 ??? quote "See parameters"
@@ -35,7 +35,7 @@ Change the maximum value of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Value**
+**Value**  
 Change the value of the object.
 
 ??? quote "See parameters"
@@ -48,7 +48,7 @@ Change the value of the object.
 
 ### Object conditions
 
-**Empty**
+**Empty**  
 Check if the bar is empty.
 
 ??? quote "See parameters"
@@ -57,7 +57,7 @@ Check if the bar is empty.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Full**
+**Full**  
 Check if the bar is full.
 
 ??? quote "See parameters"
@@ -66,7 +66,7 @@ Check if the bar is full.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Maximum value**
+**Maximum value**  
 Compare the maximum value of the object.
 
 ??? quote "See parameters"
@@ -77,7 +77,7 @@ Compare the maximum value of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Value**
+**Value**  
 Compare the value of the object.
 
 ??? quote "See parameters"

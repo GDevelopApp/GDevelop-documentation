@@ -21,7 +21,7 @@ A small demo shows how to use this extension ([open the project online](https://
 
 ## Conditions
 
-**Character is on given platform**
+**Character is on given platform**  
 Check if a platformer character is on a given platform.
 
 ??? quote "See parameters"
@@ -33,7 +33,7 @@ Check if a platformer character is on a given platform.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Character is pushing platform**
+**Character is pushing platform**  
 Check if a platformer character is pushing against a platform.
 
 ??? quote "See parameters"
@@ -53,7 +53,7 @@ Jump and run on platforms at 360°.
 
 ### Behavior actions
 
-**Follow current platform**
+**Follow current platform**  
 Follow the current platform.
 
 ??? quote "See parameters"
@@ -63,7 +63,7 @@ Follow the current platform.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Movement angle**
+**Movement angle**  
 Check if the movement angle is around a given direction.
 
 ??? quote "See parameters"
@@ -75,7 +75,7 @@ Check if the movement angle is around a given direction.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Air drag**
+**Air drag**  
 Change the air drag of the object. The air drag reduce the speed on X axis.
 
 ??? quote "See parameters"
@@ -87,7 +87,7 @@ Change the air drag of the object. The air drag reduce the speed on X axis.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Air drag min speed Y**
+**Air drag min speed Y**  
 Change the air drag min speed Y of the object.
 
 ??? quote "See parameters"
@@ -99,7 +99,7 @@ Change the air drag min speed Y of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Airborne acceleration**
+**Airborne acceleration**  
 Change the acceleration when the object is in the air.
 
 ??? quote "See parameters"
@@ -111,7 +111,7 @@ Change the acceleration when the object is in the air.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Allow jumping again**
+**Allow jumping again**  
 When this action is executed, the object is able to jump again, even if it is in the air: this can be useful to allow a double jump for example. This is not a permanent effect: you must call again this action every time you want to allow the object to jump (apart if it's on the floor).
 
 ??? quote "See parameters"
@@ -121,7 +121,7 @@ When this action is executed, the object is able to jump again, even if it is in
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Forbid jumping again in the air**
+**Forbid jumping again in the air**  
 This revokes the effect of "Allow jumping again". The object is made unable to jump while in mid air. This has no effect if the object is not in the air.
 
 ??? quote "See parameters"
@@ -131,7 +131,7 @@ This revokes the effect of "Allow jumping again". The object is made unable to j
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Collision layer**
+**Collision layer**  
 Change the collision layer of the object, only interacts with hedgehog platforms of the same layer. 
 
 ??? quote "See parameters"
@@ -143,7 +143,7 @@ Change the collision layer of the object, only interacts with hedgehog platforms
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Deceleration**
+**Deceleration**  
 Change the deceleration of the object when changing of direction on the ground.
 
 ??? quote "See parameters"
@@ -155,7 +155,7 @@ Change the deceleration of the object when changing of direction on the ground.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Downwards slope factor**
+**Downwards slope factor**  
 Change the acceleration when running down a slope. The actual deceleration applied to the character depends on how steep the slope is.
 
 ??? quote "See parameters"
@@ -167,7 +167,7 @@ Change the acceleration when running down a slope. The actual deceleration appli
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Friction**
+**Friction**  
 Change the friction of the object. The friction is a deceleration when there is no input.
 
 ??? quote "See parameters"
@@ -179,7 +179,7 @@ Change the friction of the object. The friction is a deceleration when there is 
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Gravity**
+**Gravity**  
 Change the gravity of the object.
 
 ??? quote "See parameters"
@@ -191,7 +191,7 @@ Change the gravity of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Grounded acceleration**
+**Grounded acceleration**  
 Change the acceleration when the object is on the ground.
 
 ??? quote "See parameters"
@@ -203,7 +203,7 @@ Change the acceleration when the object is on the ground.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Jump height reducer**
+**Jump height reducer**  
 Change the Jump height reducer factor of the object.
 
 ??? quote "See parameters"
@@ -215,7 +215,7 @@ Change the Jump height reducer factor of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Jump speed**
+**Jump speed**  
 Change the jump speed of the object.
 
 ??? quote "See parameters"
@@ -227,7 +227,7 @@ Change the jump speed of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Max speed**
+**Max speed**  
 Change the max speed of the object while grounded.
 
 ??? quote "See parameters"
@@ -239,7 +239,7 @@ Change the max speed of the object while grounded.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Running lock remaining duration**
+**Running lock remaining duration**  
 Change the duration during which the character can't run left or right.
 
 ??? quote "See parameters"
@@ -251,7 +251,7 @@ Change the duration during which the character can't run left or right.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Rotate the object**
+**Rotate the object**  
 Enable or disable rotation of the character when moving on the ground of falling from the ceilling.
 
 ??? quote "See parameters"
@@ -262,7 +262,7 @@ Enable or disable rotation of the character when moving on the ground of falling
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Speed**
+**Speed**  
 Change the current speed of the object. The speed can be negative when the object is on the ground.
 
 ??? quote "See parameters"
@@ -274,7 +274,7 @@ Change the current speed of the object. The speed can be negative when the objec
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Horizontal speed**
+**Horizontal speed**  
 Change the current horizontal speed of the object. The object is automatically set in airborne state.
 
 ??? quote "See parameters"
@@ -286,7 +286,7 @@ Change the current horizontal speed of the object. The object is automatically s
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Vertical speed**
+**Vertical speed**  
 Change the current vertical speed of the object. The object is automatically set in airborne state.
 
 ??? quote "See parameters"
@@ -298,7 +298,7 @@ Change the current vertical speed of the object. The object is automatically set
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Stand max angle**
+**Stand max angle**  
 Change the stand max angle of the object. Allow characters to fully stop on not too steep floors.
 
 ??? quote "See parameters"
@@ -310,7 +310,7 @@ Change the stand max angle of the object. Allow characters to fully stop on not 
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Upwards slope factor**
+**Upwards slope factor**  
 Change the deceleration factor when running up a slope. The actual deceleration applied to the character depends on how steep the slope is.
 
 ??? quote "See parameters"
@@ -322,7 +322,7 @@ Change the deceleration factor when running up a slope. The actual deceleration 
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Simulate jump key press**
+**Simulate jump key press**  
 Simulate a press of the jump key.
 
 ??? quote "See parameters"
@@ -332,7 +332,7 @@ Simulate a press of the jump key.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Simulate left key press**
+**Simulate left key press**  
 Simulate a press of the left key.
 
 ??? quote "See parameters"
@@ -342,7 +342,7 @@ Simulate a press of the left key.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Simulate right key press**
+**Simulate right key press**  
 Simulate a press of the right key.
 
 ??? quote "See parameters"
@@ -354,7 +354,7 @@ Simulate a press of the right key.
 
 ### Behavior conditions
 
-**Air drag**
+**Air drag**  
 Compare the air drag of the object. The air drag reduce the speed on X axis.
 
 ??? quote "See parameters"
@@ -366,7 +366,7 @@ Compare the air drag of the object. The air drag reduce the speed on X axis.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Air drag min speed Y**
+**Air drag min speed Y**  
 Compare the air drag min speed Y of the object.
 
 ??? quote "See parameters"
@@ -378,7 +378,7 @@ Compare the air drag min speed Y of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Airborne acceleration**
+**Airborne acceleration**  
 Compare the acceleration when the object is in the air.
 
 ??? quote "See parameters"
@@ -390,7 +390,7 @@ Compare the acceleration when the object is in the air.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Can jump**
+**Can jump**  
 Check if the object can jump.
 
 ??? quote "See parameters"
@@ -400,7 +400,7 @@ Check if the object can jump.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Collision layer**
+**Collision layer**  
 Compare the collision layer of the object, only interacts with hedgehog platforms of the same layer. .
 
 ??? quote "See parameters"
@@ -412,7 +412,7 @@ Compare the collision layer of the object, only interacts with hedgehog platform
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Deceleration**
+**Deceleration**  
 Compare the deceleration of the object when changing of direction on the ground.
 
 ??? quote "See parameters"
@@ -424,7 +424,7 @@ Compare the deceleration of the object when changing of direction on the ground.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Downwards slope factor**
+**Downwards slope factor**  
 Compare the acceleration when running down a slope. The actual deceleration applied to the character depends on how steep the slope is.
 
 ??? quote "See parameters"
@@ -436,7 +436,7 @@ Compare the acceleration when running down a slope. The actual deceleration appl
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Friction**
+**Friction**  
 Compare the friction of the object. The friction is a deceleration when there is no input.
 
 ??? quote "See parameters"
@@ -448,7 +448,7 @@ Compare the friction of the object. The friction is a deceleration when there is
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Gravity**
+**Gravity**  
 Compare the gravity of the object.
 
 ??? quote "See parameters"
@@ -460,7 +460,7 @@ Compare the gravity of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Grounded acceleration**
+**Grounded acceleration**  
 Compare the acceleration when the object is on the ground.
 
 ??? quote "See parameters"
@@ -472,7 +472,7 @@ Compare the acceleration when the object is on the ground.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Is facing forward**
+**Is facing forward**  
 Check if the character is facing forward.
 
 ??? quote "See parameters"
@@ -482,7 +482,7 @@ Check if the character is facing forward.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is jumping**
+**Is jumping**  
 Check if the object is in the air because of a jump.
 
 ??? quote "See parameters"
@@ -492,7 +492,7 @@ Check if the object is in the air because of a jump.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is moving**
+**Is moving**  
 Checks if the object is moving.
 
 ??? quote "See parameters"
@@ -502,7 +502,7 @@ Checks if the object is moving.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is on floor**
+**Is on floor**  
 Check if the object is on a platform.
 
 ??? quote "See parameters"
@@ -512,7 +512,7 @@ Check if the object is on a platform.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is on left ledge**
+**Is on left ledge**  
 Check if the object is on the left ledge of a platform.
 
 ??? quote "See parameters"
@@ -522,7 +522,7 @@ Check if the object is on the left ledge of a platform.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is on right ledge**
+**Is on right ledge**  
 Check if the object is on the right ledge of a platform.
 
 ??? quote "See parameters"
@@ -532,7 +532,7 @@ Check if the object is on the right ledge of a platform.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is pushing**
+**Is pushing**  
 Check if the object is pushing againgst a wall.
 
 ??? quote "See parameters"
@@ -542,7 +542,7 @@ Check if the object is pushing againgst a wall.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is slipping**
+**Is slipping**  
 Check if the object is slipping.
 
 ??? quote "See parameters"
@@ -552,7 +552,7 @@ Check if the object is slipping.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Control pressed or simulated**
+**Control pressed or simulated**  
 A control was applied from a default control or simulated by an action.
 
 ??? quote "See parameters"
@@ -563,7 +563,7 @@ A control was applied from a default control or simulated by an action.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Jump height reducer**
+**Jump height reducer**  
 Compare the Jump height reducer factor of the object.
 
 ??? quote "See parameters"
@@ -575,7 +575,7 @@ Compare the Jump height reducer factor of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Jump speed**
+**Jump speed**  
 Compare the jump speed of the object.
 
 ??? quote "See parameters"
@@ -587,7 +587,7 @@ Compare the jump speed of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Max speed**
+**Max speed**  
 Compare the max speed of the object while grounded.
 
 ??? quote "See parameters"
@@ -599,7 +599,7 @@ Compare the max speed of the object while grounded.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Running lock remaining duration**
+**Running lock remaining duration**  
 Compare the duration during which the character can't run left or right.
 
 ??? quote "See parameters"
@@ -611,7 +611,7 @@ Compare the duration during which the character can't run left or right.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Rotate the object**
+**Rotate the object**  
 Check if the character is rotated while moving on the ground of falling from the ceilling.
 
 ??? quote "See parameters"
@@ -621,7 +621,7 @@ Check if the character is rotated while moving on the ground of falling from the
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Speed**
+**Speed**  
 Compare the current speed of the object. The speed can be negative when the object is on the ground.
 
 ??? quote "See parameters"
@@ -633,7 +633,7 @@ Compare the current speed of the object. The speed can be negative when the obje
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Horizontal speed**
+**Horizontal speed**  
 Compare the current horizontal speed of the object. The object is automatically set in airborne state.
 
 ??? quote "See parameters"
@@ -645,7 +645,7 @@ Compare the current horizontal speed of the object. The object is automatically 
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Vertical speed**
+**Vertical speed**  
 Compare the current vertical speed of the object. The object is automatically set in airborne state.
 
 ??? quote "See parameters"
@@ -657,7 +657,7 @@ Compare the current vertical speed of the object. The object is automatically se
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Stand max angle**
+**Stand max angle**  
 Compare the stand max angle of the object. Allow characters to fully stop on not too steep floors.
 
 ??? quote "See parameters"
@@ -669,7 +669,7 @@ Compare the stand max angle of the object. Allow characters to fully stop on not
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Upwards slope factor**
+**Upwards slope factor**  
 Compare the deceleration factor when running up a slope. The actual deceleration applied to the character depends on how steep the slope is.
 
 ??? quote "See parameters"
@@ -718,7 +718,7 @@ Toggle rolling mode.
 
 ### Behavior actions
 
-**Simulate roll key press**
+**Simulate roll key press**  
 Simulate a press of the Roll key. When characters stand still, they chouch instead of rolling.
 
 ??? quote "See parameters"
@@ -728,7 +728,7 @@ Simulate a press of the Roll key. When characters stand still, they chouch inste
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Simulate spindash key press**
+**Simulate spindash key press**  
 Simulate a press of the spindash key.
 
 ??? quote "See parameters"
@@ -738,7 +738,7 @@ Simulate a press of the spindash key.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Simulate spindash or jump key press**
+**Simulate spindash or jump key press**  
 Simulate a press of the Spindash key when the character is crouching or the jump key otherwise.
 
 ??? quote "See parameters"
@@ -750,7 +750,7 @@ Simulate a press of the Spindash key when the character is crouching or the jump
 
 ### Behavior conditions
 
-**Started a spindash**
+**Started a spindash**  
 Check if the character has just started a spindash.
 
 ??? quote "See parameters"
@@ -760,7 +760,7 @@ Check if the character has just started a spindash.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is charging a spindash**
+**Is charging a spindash**  
 Check if the character is charging a spindash.
 
 ??? quote "See parameters"
@@ -770,7 +770,7 @@ Check if the character is charging a spindash.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is crouching**
+**Is crouching**  
 Check if the character is crouching.
 
 ??? quote "See parameters"
@@ -780,7 +780,7 @@ Check if the character is crouching.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is rolling**
+**Is rolling**  
 Check if the character is rolling.
 
 ??? quote "See parameters"
@@ -806,7 +806,7 @@ Push hedgehog characters.
 
 ### Behavior actions
 
-**Push character**
+**Push character**  
 Make the spring push the character.
 
 ??? quote "See parameters"
@@ -820,7 +820,7 @@ Make the spring push the character.
 
 ### Behavior conditions
 
-**Can push**
+**Can push**  
 Check if the spring can push the character.
 
 ??? quote "See parameters"

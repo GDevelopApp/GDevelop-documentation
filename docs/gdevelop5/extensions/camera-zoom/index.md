@@ -14,7 +14,7 @@ This extension allows to zoom a camera on a layer at a given speed. The zoom spe
 
 ## Actions
 
-**Zoom with anchor**
+**Zoom with anchor**  
 Change the camera zoom and keep an anchor point fixed on screen (instead of the center).
 
 ??? quote "See parameters"
@@ -28,7 +28,7 @@ Change the camera zoom and keep an anchor point fixed on screen (instead of the 
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Zoom camera with speed**
+**Zoom camera with speed**  
 Change the camera zoom at a given speed (in factor per second).
 
 ??? quote "See parameters"
@@ -40,7 +40,7 @@ Change the camera zoom at a given speed (in factor per second).
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Zoom camera with speed and anchor**
+**Zoom camera with speed and anchor**  
 Change the camera zoom at a given speed (in factor per second) and keep an anchor point fixed on screen (instead of the center).
 
 ??? quote "See parameters"

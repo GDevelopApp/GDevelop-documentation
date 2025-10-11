@@ -4,7 +4,7 @@ Actions to send web requests, communicate with external "APIs" and other network
 
 ## Actions
 
-**Enable (or disable) metrics collection**
+**Enable (or disable) metrics collection**  
 Enable, or disable, the sending of anonymous data used to compute the number of sessions and other metrics from your game players.  
 Be sure to only send metrics if in accordance with the terms of service of your game and if they player gave their consent, depending on how your game/company handles this.
 
@@ -14,7 +14,7 @@ Be sure to only send metrics if in accordance with the terms of service of your 
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Open a URL (web page) or a file**
+**Open a URL (web page) or a file**  
 This action launches the specified file or URL, in a browser (or in a new tab if the game is using the Web platform and is launched inside a browser).
 
 ??? quote "See parameters"
@@ -23,7 +23,7 @@ This action launches the specified file or URL, in a browser (or in a new tab if
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Send a request to a web page**
+**Send a request to a web page**  
 Send an asynchronous request to the specified web page.  
 
 Please note that for the web games, the game must be hosted on the same host as specified below, except if the server is configured to answer to all requests (cross-domain requests).

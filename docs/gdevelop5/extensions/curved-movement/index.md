@@ -33,7 +33,7 @@ A collection of [small examples](https://editor.gdevelop.io/?project=example://c
 
 ## Actions
 
-**Append a curve**
+**Append a curve**  
 Append a cubic Bezier curve at the end of the path.
 
 ??? quote "See parameters"
@@ -49,7 +49,7 @@ Append a cubic Bezier curve at the end of the path.
 
     > Technical note: parameters 0, 9 are internal parameters handled by GDevelop.
 
-**Append a line**
+**Append a line**  
 Append a line at the end of the path.
 
 ??? quote "See parameters"
@@ -61,7 +61,7 @@ Append a line at the end of the path.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Append a smooth curve**
+**Append a smooth curve**  
 Append a cubic Bezier curve to the end of an object's path. The first control point is symmetrical to the last control point of the path.
 
 ??? quote "See parameters"
@@ -75,7 +75,7 @@ Append a cubic Bezier curve to the end of an object's path. The first control po
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
-**Append a path**
+**Append a path**  
 Append a path to another path.
 
 ??? quote "See parameters"
@@ -85,7 +85,7 @@ Append a path to another path.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Append a rotated path**
+**Append a rotated path**  
 Append a path to another path. The appended path is rotated to have a smooth junction.
 
 ??? quote "See parameters"
@@ -96,7 +96,7 @@ Append a path to another path. The appended path is rotated to have a smooth jun
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Close a path**
+**Close a path**  
 Append a line to close the path.
 
 ??? quote "See parameters"
@@ -105,7 +105,7 @@ Append a line to close the path.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Create a path from SVG**
+**Create a path from SVG**  
 Create a path from SVG commands, for instance "M 0,0 C 55,0 100,45 100,100". Commands are: M = Move, C = Curve, S = Smooth, L = Line. Lower case is for relative positions. The preferred way to build the commands is to use an external SVG editor like Inkscape.
 
 ??? quote "See parameters"
@@ -115,7 +115,7 @@ Create a path from SVG commands, for instance "M 0,0 C 55,0 100,45 100,100". Com
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Delete a path**
+**Delete a path**  
 Delete a path from the memory.
 
 ??? quote "See parameters"
@@ -124,7 +124,7 @@ Delete a path from the memory.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Duplicate a path**
+**Duplicate a path**  
 Duplicate a path.
 
 ??? quote "See parameters"
@@ -134,7 +134,7 @@ Duplicate a path.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Invert a path**
+**Invert a path**  
 Invert a path, the end becomes the beginning.
 
 ??? quote "See parameters"
@@ -143,7 +143,7 @@ Invert a path, the end becomes the beginning.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Rotate a path**
+**Rotate a path**  
 Rotate a path.
 
 ??? quote "See parameters"
@@ -153,7 +153,7 @@ Rotate a path.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Scale a path**
+**Scale a path**  
 Scale a path.
 
 ??? quote "See parameters"
@@ -164,7 +164,7 @@ Scale a path.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Speed scale Y**
+**Speed scale Y**  
 Change the speed scale on Y axis. This allows to change the view point of a path (top-dwon or isometry).
 
 ??? quote "See parameters"
@@ -176,7 +176,7 @@ Change the speed scale on Y axis. This allows to change the view point of a path
 
 ## Conditions
 
-**Is  closed**
+**Is  closed**  
 Check if a path is closed.
 
 ??? quote "See parameters"
@@ -185,7 +185,7 @@ Check if a path is closed.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Path exists**
+**Path exists**  
 Path exists.
 
 ??? quote "See parameters"
@@ -250,7 +250,7 @@ Move objects on curved paths at a given speed.
 
 ### Behavior actions
 
-**Accelerate**
+**Accelerate**  
 Make an object accelerate until it reaches a given speed.
 
 ??? quote "See parameters"
@@ -262,7 +262,7 @@ Make an object accelerate until it reaches a given speed.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Accelerate during**
+**Accelerate during**  
 Make an object accelerate to reaches a speed in a given amount of time.
 
 ??? quote "See parameters"
@@ -274,7 +274,7 @@ Make an object accelerate to reaches a speed in a given amount of time.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Draw the trajectory**
+**Draw the trajectory**  
 Draw the object trajectory.
 
 ??? quote "See parameters"
@@ -285,7 +285,7 @@ Draw the object trajectory.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Follow a path**
+**Follow a path**  
 Change the path followed by an object.
 
 ??? quote "See parameters"
@@ -299,7 +299,7 @@ Change the path followed by an object.
 
     > Technical note: parameter 5 are internal parameters handled by GDevelop.
 
-**Follow a path to a position**
+**Follow a path to a position**  
 Change the path followed by an object to reach a position.
 
 ??? quote "See parameters"
@@ -315,7 +315,7 @@ Change the path followed by an object to reach a position.
 
     > Technical note: parameter 7 are internal parameters handled by GDevelop.
 
-**Position on the path**
+**Position on the path**  
 Change the length between the trajectory origin and the current position counting the loops.
 
 ??? quote "See parameters"
@@ -327,7 +327,7 @@ Change the length between the trajectory origin and the current position countin
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Speed**
+**Speed**  
 Change the speed of the object.
 
 ??? quote "See parameters"
@@ -341,7 +341,7 @@ Change the speed of the object.
 
 ### Behavior conditions
 
-**Can move further**
+**Can move further**  
 Check if the object can still move in the current direction.
 
 ??? quote "See parameters"
@@ -351,7 +351,7 @@ Check if the object can still move in the current direction.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Reach an end**
+**Reach an end**  
 Check if the object has reached one of the 2 ends of the path.
 
 ??? quote "See parameters"
@@ -361,7 +361,7 @@ Check if the object has reached one of the 2 ends of the path.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Reached path origin**
+**Reached path origin**  
 Check if the object has reached the origin position of the path.
 
 ??? quote "See parameters"
@@ -371,7 +371,7 @@ Check if the object has reached the origin position of the path.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Reached path target**
+**Reached path target**  
 Check if the object has reached the target position of the path.
 
 ??? quote "See parameters"
@@ -381,7 +381,7 @@ Check if the object has reached the target position of the path.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Current loop**
+**Current loop**  
 Compare the number time the object loop the trajectory.
 
 ??? quote "See parameters"
@@ -393,7 +393,7 @@ Compare the number time the object loop the trajectory.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Position on the loop**
+**Position on the loop**  
 Compare the length between the trajectory origin and the current position without counting the loops.
 
 ??? quote "See parameters"
@@ -405,7 +405,7 @@ Compare the length between the trajectory origin and the current position withou
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Position on the path**
+**Position on the path**  
 Compare the length between the trajectory origin and the current position counting the loops.
 
 ??? quote "See parameters"
@@ -417,7 +417,7 @@ Compare the length between the trajectory origin and the current position counti
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Speed**
+**Speed**  
 Compare the speed of the object.
 
 ??? quote "See parameters"
@@ -447,7 +447,7 @@ Move objects on curved paths in a given duration and tween easing function.
 
 ### Behavior actions
 
-**Draw the trajectory**
+**Draw the trajectory**  
 Draw the object trajectory.
 
 ??? quote "See parameters"
@@ -458,7 +458,7 @@ Draw the object trajectory.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Move on path**
+**Move on path**  
 Move the object by following a path.
 
 ??? quote "See parameters"
@@ -473,7 +473,7 @@ Move the object by following a path.
 
     > Technical note: parameter 6 are internal parameters handled by GDevelop.
 
-**Move back and forth**
+**Move back and forth**  
 Move the object by following a path and go back.
 
 ??? quote "See parameters"
@@ -490,7 +490,7 @@ Move the object by following a path and go back.
 
     > Technical note: parameter 8 are internal parameters handled by GDevelop.
 
-**Move on path to a position**
+**Move on path to a position**  
 Move the object to a position by following a path.
 
 ??? quote "See parameters"
@@ -507,7 +507,7 @@ Move the object to a position by following a path.
 
     > Technical note: parameter 8 are internal parameters handled by GDevelop.
 
-**Move back and forth to a position**
+**Move back and forth to a position**  
 Move the object to a position by following a path and go back.
 
 ??? quote "See parameters"
@@ -528,7 +528,7 @@ Move the object to a position by following a path and go back.
 
 ### Behavior conditions
 
-**Finished to move**
+**Finished to move**  
 Check if the object has finished to move on the path.
 
 ??? quote "See parameters"
@@ -538,7 +538,7 @@ Check if the object has finished to move on the path.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Reached an end**
+**Reached an end**  
 Check if the object has reached one of the 2 ends of the path.
 
 ??? quote "See parameters"

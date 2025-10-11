@@ -16,7 +16,7 @@ The platformer example uses this extension ([open the project online](https://ed
 
 ## Actions
 
-**Load checkpoint**
+**Load checkpoint**  
 Change the position of the object to the saved checkpoint.
 
 ??? quote "See parameters"
@@ -29,7 +29,7 @@ Change the position of the object to the saved checkpoint.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Save checkpoint**
+**Save checkpoint**  
 Update a checkpoint of an object.
 
 ??? quote "See parameters"
@@ -43,7 +43,7 @@ Update a checkpoint of an object.
 
 ## Conditions
 
-**Checkpoint exists**
+**Checkpoint exists**  
 Check if a checkpoint has a position saved / does exist.
 
 ??? quote "See parameters"

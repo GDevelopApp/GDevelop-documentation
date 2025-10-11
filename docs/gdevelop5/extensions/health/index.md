@@ -35,7 +35,7 @@ Manage health (life) points, shield and armor.
 
 ### Behavior actions
 
-**Activate shield**
+**Activate shield**  
 Activate the shield by setting the shield points and renewing the shield duration (optional).
 
 ??? quote "See parameters"
@@ -47,7 +47,7 @@ Activate the shield by setting the shield points and renewing the shield duratio
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Allow over-healing**
+**Allow over-healing**  
 Allow heals to increase health above max health.  Regeneration will not exceed max health.
 
 ??? quote "See parameters"
@@ -58,7 +58,7 @@ Allow heals to increase health above max health.  Regeneration will not exceed m
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Heal object**
+**Heal object**  
 Heal the object by increasing its health points.
 
 ??? quote "See parameters"
@@ -69,7 +69,7 @@ Heal the object by increasing its health points.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Apply damage to an object**
+**Apply damage to an object**  
 Apply damage to the object. Shield and armor can reduce this damage if enabled.
 
 ??? quote "See parameters"
@@ -82,7 +82,7 @@ Apply damage to the object. Shield and armor can reduce this damage if enabled.
 
     > Technical note: parameter 5 are internal parameters handled by GDevelop.
 
-**Renew shield duration**
+**Renew shield duration**  
 Renew shield duration to it's full value.
 
 ??? quote "See parameters"
@@ -92,7 +92,7 @@ Renew shield duration to it's full value.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Dodge chance**
+**Dodge chance**  
 Change the chance to dodge incoming damage (range: 0 to 1).
 
 ??? quote "See parameters"
@@ -104,7 +104,7 @@ Change the chance to dodge incoming damage (range: 0 to 1).
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Damage cooldown**
+**Damage cooldown**  
 Change the duration of damage cooldown (seconds).
 
 ??? quote "See parameters"
@@ -116,7 +116,7 @@ Change the duration of damage cooldown (seconds).
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Armor flat damage reduction**
+**Armor flat damage reduction**  
 Change the flat damage reduction from the armor. Incoming damage is reduced by this value.
 
 ??? quote "See parameters"
@@ -128,7 +128,7 @@ Change the flat damage reduction from the armor. Incoming damage is reduced by t
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Change health points**
+**Change health points**  
 Change the health points of the object. Will not trigger damage cooldown.
 
 ??? quote "See parameters"
@@ -139,7 +139,7 @@ Change the health points of the object. Will not trigger damage cooldown.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Health regeneration delay**
+**Health regeneration delay**  
 Change the delay before health regeneration starts after last being hit (seconds).
 
 ??? quote "See parameters"
@@ -151,7 +151,7 @@ Change the delay before health regeneration starts after last being hit (seconds
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Rate of health regeneration**
+**Rate of health regeneration**  
 Change the rate of health regeneration (points per second).
 
 ??? quote "See parameters"
@@ -163,7 +163,7 @@ Change the rate of health regeneration (points per second).
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum health points**
+**Maximum health points**  
 Change the maximum health points of the object.
 
 ??? quote "See parameters"
@@ -175,7 +175,7 @@ Change the maximum health points of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum shield points**
+**Maximum shield points**  
 Change the maximum shield points of the object.
 
 ??? quote "See parameters"
@@ -187,7 +187,7 @@ Change the maximum shield points of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Armor percent damage reduction**
+**Armor percent damage reduction**  
 Change the percent damage reduction from armor (range: 0 to 1).
 
 ??? quote "See parameters"
@@ -199,7 +199,7 @@ Change the percent damage reduction from armor (range: 0 to 1).
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Block excess damage when shield breaks**
+**Block excess damage when shield breaks**  
 Enable (or disable) blocking excess damage when shield breaks.
 
 ??? quote "See parameters"
@@ -210,7 +210,7 @@ Enable (or disable) blocking excess damage when shield breaks.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Duration of shield**
+**Duration of shield**  
 Change the duration of the shield (seconds). A value of "0" means the shield is permanent.
 
 ??? quote "See parameters"
@@ -222,7 +222,7 @@ Change the duration of the shield (seconds). A value of "0" means the shield is 
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Shield points**
+**Shield points**  
 Change the current shield points of the object.
 
 ??? quote "See parameters"
@@ -234,7 +234,7 @@ Change the current shield points of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Shield regeneration delay**
+**Shield regeneration delay**  
 Change the delay before shield regeneration starts after being hit (seconds).
 
 ??? quote "See parameters"
@@ -246,7 +246,7 @@ Change the delay before shield regeneration starts after being hit (seconds).
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Rate of shield regeneration**
+**Rate of shield regeneration**  
 Change the rate of shield regeneration (points per second).
 
 ??? quote "See parameters"
@@ -258,7 +258,7 @@ Change the rate of shield regeneration (points per second).
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Trigger damage cooldown**
+**Trigger damage cooldown**  
 Trigger damage cooldown.
 
 ??? quote "See parameters"
@@ -270,7 +270,7 @@ Trigger damage cooldown.
 
 ### Behavior conditions
 
-**Dodge chance**
+**Dodge chance**  
 Compare the chance to dodge incoming damage (range: 0 to 1).
 
 ??? quote "See parameters"
@@ -282,7 +282,7 @@ Compare the chance to dodge incoming damage (range: 0 to 1).
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Damage cooldown**
+**Damage cooldown**  
 Compare the duration of damage cooldown (seconds).
 
 ??? quote "See parameters"
@@ -294,7 +294,7 @@ Compare the duration of damage cooldown (seconds).
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Time remaining in damage cooldown**
+**Time remaining in damage cooldown**  
 Compare the time before damage cooldown ends (seconds).
 
 ??? quote "See parameters"
@@ -306,7 +306,7 @@ Compare the time before damage cooldown ends (seconds).
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Armor flat damage reduction**
+**Armor flat damage reduction**  
 Compare the flat damage reduction from the armor. Incoming damage is reduced by this value.
 
 ??? quote "See parameters"
@@ -318,7 +318,7 @@ Compare the flat damage reduction from the armor. Incoming damage is reduced by 
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Health points**
+**Health points**  
 Compare current health points of the object.
 
 ??? quote "See parameters"
@@ -330,7 +330,7 @@ Compare current health points of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Health regeneration delay**
+**Health regeneration delay**  
 Compare the delay before health regeneration starts after last being hit (seconds).
 
 ??? quote "See parameters"
@@ -342,7 +342,7 @@ Compare the delay before health regeneration starts after last being hit (second
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Rate of health regeneration**
+**Rate of health regeneration**  
 Compare the rate of health regeneration (points per second).
 
 ??? quote "See parameters"
@@ -354,7 +354,7 @@ Compare the rate of health regeneration (points per second).
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Is damage cooldown active**
+**Is damage cooldown active**  
 Check if damage cooldown is active. Object and shield cannot be damaged while this is active.
 
 ??? quote "See parameters"
@@ -364,7 +364,7 @@ Check if damage cooldown is active. Object and shield cannot be damaged while th
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is dead**
+**Is dead**  
 Check if the object is considered dead (no health points).
 
 ??? quote "See parameters"
@@ -374,7 +374,7 @@ Check if the object is considered dead (no health points).
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is health just damaged**
+**Is health just damaged**  
 Check if health was just damaged previously in the events.
 
 ??? quote "See parameters"
@@ -384,7 +384,7 @@ Check if health was just damaged previously in the events.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Damage was just dodged**
+**Damage was just dodged**  
 Check if incoming damage was just dodged.
 
 ??? quote "See parameters"
@@ -394,7 +394,7 @@ Check if incoming damage was just dodged.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is just healed**
+**Is just healed**  
 Check if the object was just healed previously in the events.
 
 ??? quote "See parameters"
@@ -404,7 +404,7 @@ Check if the object was just healed previously in the events.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is shield active**
+**Is shield active**  
 Check if the shield is active (based on shield points and duration).
 
 ??? quote "See parameters"
@@ -414,7 +414,7 @@ Check if the shield is active (based on shield points and duration).
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is shield just damaged**
+**Is shield just damaged**  
 Check if the shield was just damaged previously in the events.
 
 ??? quote "See parameters"
@@ -424,7 +424,7 @@ Check if the shield was just damaged previously in the events.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Maximum health points**
+**Maximum health points**  
 Compare the maximum health points of the object.
 
 ??? quote "See parameters"
@@ -436,7 +436,7 @@ Compare the maximum health points of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum shield points**
+**Maximum shield points**  
 Compare the maximum shield points of the object.
 
 ??? quote "See parameters"
@@ -448,7 +448,7 @@ Compare the maximum shield points of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Armor percent damage reduction**
+**Armor percent damage reduction**  
 Compare the percent damage reduction from armor (range: 0 to 1).
 
 ??? quote "See parameters"
@@ -460,7 +460,7 @@ Compare the percent damage reduction from armor (range: 0 to 1).
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Health damage taken from most recent hit**
+**Health damage taken from most recent hit**  
 Compare the health damage taken from most recent hit.
 
 ??? quote "See parameters"
@@ -472,7 +472,7 @@ Compare the health damage taken from most recent hit.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Shield damage taken from most recent hit**
+**Shield damage taken from most recent hit**  
 Compare the shield damage taken from most recent hit.
 
 ??? quote "See parameters"
@@ -484,7 +484,7 @@ Compare the shield damage taken from most recent hit.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Health points gained from previous heal**
+**Health points gained from previous heal**  
 Compare the health points gained from previous heal.
 
 ??? quote "See parameters"
@@ -496,7 +496,7 @@ Compare the health points gained from previous heal.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Duration of shield**
+**Duration of shield**  
 Compare the duration of the shield (seconds). A value of "0" means the shield is permanent.
 
 ??? quote "See parameters"
@@ -508,7 +508,7 @@ Compare the duration of the shield (seconds). A value of "0" means the shield is
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Shield points**
+**Shield points**  
 Compare the current shield points of the object.
 
 ??? quote "See parameters"
@@ -520,7 +520,7 @@ Compare the current shield points of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Shield regeneration delay**
+**Shield regeneration delay**  
 Compare the delay before shield regeneration starts after being hit (seconds).
 
 ??? quote "See parameters"
@@ -532,7 +532,7 @@ Compare the delay before shield regeneration starts after being hit (seconds).
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Rate of shield regeneration**
+**Rate of shield regeneration**  
 Compare the rate of shield regeneration (points per second).
 
 ??? quote "See parameters"
@@ -544,7 +544,7 @@ Compare the rate of shield regeneration (points per second).
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Time before shield duration ends**
+**Time before shield duration ends**  
 Compare the time before the shield duration ends (seconds).
 
 ??? quote "See parameters"
@@ -556,7 +556,7 @@ Compare the time before the shield duration ends (seconds).
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Time since last hit**
+**Time since last hit**  
 Compare the time since last taken hit (seconds).
 
 ??? quote "See parameters"

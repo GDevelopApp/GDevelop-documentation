@@ -22,7 +22,7 @@ Rotate to always face the camera (only the front face of the cube should be enab
 
 ### Behavior actions
 
-**Rotate to face the camera**
+**Rotate to face the camera**  
 Rotate the object to the camera. This is also done automatically at the end of the scene events.
 
 ??? quote "See parameters"
@@ -32,7 +32,7 @@ Rotate the object to the camera. This is also done automatically at the end of t
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Should rotate on X axis**
+**Should rotate on X axis**  
 Change if the object should rotate on X axis.
 
 ??? quote "See parameters"
@@ -43,7 +43,7 @@ Change if the object should rotate on X axis.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Should rotate on Y axis**
+**Should rotate on Y axis**  
 Change if the object should rotate on Y axis.
 
 ??? quote "See parameters"
@@ -54,7 +54,7 @@ Change if the object should rotate on Y axis.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Should rotate on Z axis**
+**Should rotate on Z axis**  
 Change if the object should rotate on Z axis.
 
 ??? quote "See parameters"
@@ -67,7 +67,7 @@ Change if the object should rotate on Z axis.
 
 ### Behavior conditions
 
-**Should rotate on X axis**
+**Should rotate on X axis**  
 Check if the object should rotate on X axis.
 
 ??? quote "See parameters"
@@ -77,7 +77,7 @@ Check if the object should rotate on X axis.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Should rotate on Y axis**
+**Should rotate on Y axis**  
 Check if the object should rotate on Y axis.
 
 ??? quote "See parameters"
@@ -87,7 +87,7 @@ Check if the object should rotate on Y axis.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Should rotate on Z axis**
+**Should rotate on Z axis**  
 Check if the object should rotate on Z axis.
 
 ??? quote "See parameters"

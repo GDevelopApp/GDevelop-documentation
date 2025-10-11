@@ -17,7 +17,7 @@ Allows handling all events at once instead of one per frame.
 
 ## Actions
 
-**Dismiss event**
+**Dismiss event**  
 Marks the event as handled, to go on to the next.
 
 ??? quote "See parameters"

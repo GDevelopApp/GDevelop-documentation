@@ -21,7 +21,7 @@ Allow developer to use one SDK to deliver their games everywhere. To learn more 
 
 ## Actions
 
-**Can subscribe to bot asynchronously**
+**Can subscribe to bot asynchronously**  
 Checks if the current user can subscribe to the game's bot.
 
 ??? quote "See parameters"
@@ -30,7 +30,7 @@ Checks if the current user can subscribe to the game's bot.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Cancel all notifications async**
+**Cancel all notifications async**  
 Cancel all scheduled notifications.
 
 ??? quote "See parameters"
@@ -39,7 +39,7 @@ Cancel all scheduled notifications.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Cancel notification async**
+**Cancel notification async**  
 Cancel a notification async.
 
 ??? quote "See parameters"
@@ -48,7 +48,7 @@ Cancel a notification async.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Choose context async**
+**Choose context async**  
 Opens a context selection dialog for the player. If the player selects an available context, the client will attempt to switch into that context, and resolve if successful. Otherwise, if the player exits the menu or the client fails to switch into the new context, this function will reject.
 
 ??? quote "See parameters"
@@ -57,7 +57,7 @@ Opens a context selection dialog for the player. If the player selects an availa
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Consume purchase async**
+**Consume purchase async**  
 Consumes a specific purchase belonging to the current player.
 
 ??? quote "See parameters"
@@ -66,7 +66,7 @@ Consumes a specific purchase belonging to the current player.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Create context async**
+**Create context async**  
 Attempts to create a context between the current player and a specified player or a list of players.
 
 ??? quote "See parameters"
@@ -75,7 +75,7 @@ Attempts to create a context between the current player and a specified player o
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Create a tournament async**
+**Create a tournament async**  
 Opens the tournament creation dialog if the player is not currently in a tournament session.
 
 ??? quote "See parameters"
@@ -85,7 +85,7 @@ Opens the tournament creation dialog if the player is not currently in a tournam
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Flush data asynchronously**
+**Flush data asynchronously**  
 Flushes any unsaved data to the platform's storage. This function is expensive, and should primarily be used for critical changes where persistence needs to be immediate and known by the game. Non-critical changes should rely on the platform to persist them in the background.
 
 ??? quote "See parameters"
@@ -94,7 +94,7 @@ Flushes any unsaved data to the platform's storage. This function is expensive, 
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Start the gameplay session**
+**Start the gameplay session**  
 Tracks the start of a gameplay session.
 
 ??? quote "See parameters"
@@ -103,7 +103,7 @@ Tracks the start of a gameplay session.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Stop the gameplay session**
+**Stop the gameplay session**  
 Tracks the end of a gameplay session.
 
 ??? quote "See parameters"
@@ -112,7 +112,7 @@ Tracks the end of a gameplay session.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Get ASID asynchronously**
+**Get ASID asynchronously**  
 A unique identifier for the player. This is the standard Facebook Application-Scoped ID which is used for all Graph API calls. If your game shares an AppID with a native game this is the ID you will see in the native game too.
 
 ??? quote "See parameters"
@@ -121,7 +121,7 @@ A unique identifier for the player. This is the standard Facebook Application-Sc
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Get achievements async**
+**Get achievements async**  
 Gets a player's achievements. This method returns all achievements, regardless of whether they are unlocked or not.
 
 ??? quote "See parameters"
@@ -130,7 +130,7 @@ Gets a player's achievements. This method returns all achievements, regardless o
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Get all tournaments async**
+**Get all tournaments async**  
 Returns a list of eligible tournaments that can be surfaced in-game.
 
 ??? quote "See parameters"
@@ -139,7 +139,7 @@ Returns a list of eligible tournaments that can be surfaced in-game.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Get catalog async**
+**Get catalog async**  
 Gets the catalog of available products the player can purchase.
 
 ??? quote "See parameters"
@@ -148,7 +148,7 @@ Gets the catalog of available products the player can purchase.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Get connected players async**
+**Get connected players async**  
 Gets ConnectedPlayers containing information about active players that are connected to the current player.
 
 ??? quote "See parameters"
@@ -158,7 +158,7 @@ Gets ConnectedPlayers containing information about active players that are conne
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Get connected players entries**
+**Get connected players entries**  
 Retrieves the leaderboard score entries of the current player's connected players (including the current player), ordered by local rank within the set of connected players.
 
 ??? quote "See parameters"
@@ -170,7 +170,7 @@ Retrieves the leaderboard score entries of the current player's connected player
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Get current player leaderboard entry async**
+**Get current player leaderboard entry async**  
 Retrieves the leaderboard's entry for the current player, or null if the player has not set one yet.
 
 ??? quote "See parameters"
@@ -180,7 +180,7 @@ Retrieves the leaderboard's entry for the current player, or null if the player 
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Get current tournament async**
+**Get current tournament async**  
 Fetch the tournament out of the current context the user is playing.
 
 ??? quote "See parameters"
@@ -189,7 +189,7 @@ Fetch the tournament out of the current context the user is playing.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Get player data async**
+**Get player data async**  
 Retrieve data from the designated cloud storage of the current player.
 
 ??? quote "See parameters"
@@ -199,7 +199,7 @@ Retrieve data from the designated cloud storage of the current player.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Get entry point asynchronously**
+**Get entry point asynchronously**  
 Get entry point that the game was launched from asynchronously.
 
 ??? quote "See parameters"
@@ -208,7 +208,7 @@ Get entry point that the game was launched from asynchronously.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Get entry point data**
+**Get entry point data**  
 Get any data object associated with the entry point that the game was launched from.
 
 ??? quote "See parameters"
@@ -217,7 +217,7 @@ Get any data object associated with the entry point that the game was launched f
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Get leaderboard async**
+**Get leaderboard async**  
 Fetch a specific leaderboard belonging to this game.
 
 ??? quote "See parameters"
@@ -227,7 +227,7 @@ Fetch a specific leaderboard belonging to this game.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Get leaderboard entries**
+**Get leaderboard entries**  
 Retrieves a set of leaderboard entries, ordered by score ranking in the leaderboard.
 
 ??? quote "See parameters"
@@ -239,7 +239,7 @@ Retrieves a set of leaderboard entries, ordered by score ranking in the leaderbo
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Get leaderboard entry count async**
+**Get leaderboard entry count async**  
 Gets the total number of entries in the leaderboard.
 
 ??? quote "See parameters"
@@ -249,7 +249,7 @@ Gets the total number of entries in the leaderboard.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Get notification history async**
+**Get notification history async**  
 Gets the history of scheduled notifications for the past 30 days.
 
 ??? quote "See parameters"
@@ -258,7 +258,7 @@ Gets the history of scheduled notifications for the past 30 days.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Get players async**
+**Get players async**  
 Gets an array of ConnectedPlayer objects containing information about active players in the current context (people who played the game in the current context in the last 90 days).
 
 ??? quote "See parameters"
@@ -267,7 +267,7 @@ Gets an array of ConnectedPlayer objects containing information about active pla
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Get purchased products async**
+**Get purchased products async**  
 Gets purchased products.
 
 ??? quote "See parameters"
@@ -276,7 +276,7 @@ Gets purchased products.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Get signed ASID async**
+**Get signed ASID async**  
 A unique identifier for the player. This is the standard Facebook Application-Scoped ID which is used for all Graph API calls. If your game shares an AppID with a native game this is the ID you will see in the native game too.
 
 ??? quote "See parameters"
@@ -285,7 +285,7 @@ A unique identifier for the player. This is the standard Facebook Application-Sc
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Get stats async**
+**Get stats async**  
 Gets a player's stats.
 
 ??? quote "See parameters"
@@ -296,7 +296,7 @@ Gets a player's stats.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Get traffic source**
+**Get traffic source**  
 Gets the traffic source info for the game. This is useful for tracking where players are coming from.
 
 ??? quote "See parameters"
@@ -305,7 +305,7 @@ Gets the traffic source info for the game. This is useful for tracking where pla
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Invite Async**
+**Invite Async**  
 This invokes a dialog to let the user invite one or more people to the game.
 
 ??? quote "See parameters"
@@ -314,7 +314,7 @@ This invokes a dialog to let the user invite one or more people to the game.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Join tournament async**
+**Join tournament async**  
 Request a switch into a specific tournament context.
 
 ??? quote "See parameters"
@@ -323,7 +323,7 @@ Request a switch into a specific tournament context.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Log game choice**
+**Log game choice**  
 Logs a choice the player made in the game. This can be a powerful tool for balancing the game and understanding what content the players are interacting with the most.
 
 ??? quote "See parameters"
@@ -333,7 +333,7 @@ Logs a choice the player made in the game. This can be a powerful tool for balan
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Log level end**
+**Log level end**  
 Logs the end of a level. To ensure the level timer is recorded the level name must match the name passed into the previous logLevelStart call. If it does not match then the timer will be logged at 0.
 
 ??? quote "See parameters"
@@ -344,7 +344,7 @@ Logs the end of a level. To ensure the level timer is recorded the level name mu
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Log level start**
+**Log level start**  
 Logs the start of a level.
 
 ??? quote "See parameters"
@@ -353,7 +353,7 @@ Logs the start of a level.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Log level up**
+**Log level up**  
 Logs the player achieving a new level.
 
 ??? quote "See parameters"
@@ -362,7 +362,7 @@ Logs the player achieving a new level.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Log score**
+**Log score**  
 Logs the player's score.
 
 ??? quote "See parameters"
@@ -371,7 +371,7 @@ Logs the player's score.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Log social invite**
+**Log social invite**  
 Logs the player's social invite.
 
 ??? quote "See parameters"
@@ -380,7 +380,7 @@ Logs the player's social invite.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Log social share**
+**Log social share**  
 Logs the player's social share.
 
 ??? quote "See parameters"
@@ -389,7 +389,7 @@ Logs the player's social share.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Log tutorial end**
+**Log tutorial end**  
 Logs the end of a tutorial. To ensure the level timer is recorded the tutorial name must match the name passed into the previous logTutorialStart call. If it does not match then the timer will be logged at 0.
 
 ??? quote "See parameters"
@@ -399,7 +399,7 @@ Logs the end of a tutorial. To ensure the level timer is recorded the tutorial n
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Log turotial start**
+**Log turotial start**  
 Logs the start of a tutorial.
 
 ??? quote "See parameters"
@@ -408,7 +408,7 @@ Logs the start of a tutorial.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Make purchase async**
+**Make purchase async**  
 Make purchase for specified product.
 
 ??? quote "See parameters"
@@ -418,7 +418,7 @@ Make purchase for specified product.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Post stats async**
+**Post stats async**  
 Posts a player's stats.
 
 ??? quote "See parameters"
@@ -429,7 +429,7 @@ Posts a player's stats.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Post tournament score async**
+**Post tournament score async**  
 Posts a player's score. This API should only be called within a tournament context at the end of an activity (example: when the player doesn't have "lives" to continue the game).
 
 ??? quote "See parameters"
@@ -438,7 +438,7 @@ Posts a player's score. This API should only be called within a tournament conte
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Schedule notification async**
+**Schedule notification async**  
 Schedule a notification to be delivered to the player at a later time. Limit of 5 pending scheduled notifications per recipient.
 
 ??? quote "See parameters"
@@ -448,7 +448,7 @@ Schedule a notification to be delivered to the player at a later time. Limit of 
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Send leaderboard entry async**
+**Send leaderboard entry async**  
 Updates the player's score. If the player has an existing score, the old score will only be replaced if the new score is better than it.
 
 ??? quote "See parameters"
@@ -459,7 +459,7 @@ Updates the player's score. If the player has an existing score, the old score w
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Save data async**
+**Save data async**  
 Set data to be saved to the designated cloud storage of the current player.
 
 ??? quote "See parameters"
@@ -468,7 +468,7 @@ Set data to be saved to the designated cloud storage of the current player.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Set Wortal loading progress**
+**Set Wortal loading progress**  
 Set the loading progress of your game.
 
 ??? quote "See parameters"
@@ -477,7 +477,7 @@ Set the loading progress of your game.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Set session data**
+**Set session data**  
 Set the data associated with the individual gameplay session for the current context.
 
 ??? quote "See parameters"
@@ -486,7 +486,7 @@ Set the data associated with the individual gameplay session for the current con
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Share async**
+**Share async**  
 This invokes a dialog to let the user share specified content, as a post on the user's timeline.
 
 ??? quote "See parameters"
@@ -495,7 +495,7 @@ This invokes a dialog to let the user share specified content, as a post on the 
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Share link async**
+**Share link async**  
 This invokes a dialog that contains a custom game link that users can copy to their clipboard, or share.
 
 ??? quote "See parameters"
@@ -504,7 +504,7 @@ This invokes a dialog that contains a custom game link that users can copy to th
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Share tournament async**
+**Share tournament async**  
 Opens the share tournament dialog if the player is currently in a tournament session.
 
 ??? quote "See parameters"
@@ -513,7 +513,7 @@ Opens the share tournament dialog if the player is currently in a tournament ses
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Show auth prompt async**
+**Show auth prompt async**  
 Shows the authentication prompt to the player. This allows the player to log in or register for an account. If the player successfully logs in or registers, the player API will be updated with the new player information.
 
 ??? quote "See parameters"
@@ -522,7 +522,7 @@ Shows the authentication prompt to the player. This allows the player to log in 
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Show banner ad**
+**Show banner ad**  
 Shows a banner ad.
 
 ??? quote "See parameters"
@@ -531,7 +531,7 @@ Shows a banner ad.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Show happy time**
+**Show happy time**  
 Can be called on various player achievements (beating a boss, reaching a high score, etc.). It makes the website celebrate (for example by launching some confetti).
 
 ??? quote "See parameters"
@@ -540,7 +540,7 @@ Can be called on various player achievements (beating a boss, reaching a high sc
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Show interstitial ad**
+**Show interstitial ad**  
 Shows an interstitial ad. These can be shown at various points in the game such as a level end, restart or a timed interval in games with longer levels.
 
 ??? quote "See parameters"
@@ -550,7 +550,7 @@ Shows an interstitial ad. These can be shown at various points in the game such 
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Show link account prompt async**
+**Show link account prompt async**  
 Shows the link account prompt to the player. This allows the player to link their account to a different platform.
 
 ??? quote "See parameters"
@@ -559,7 +559,7 @@ Shows the link account prompt to the player. This allows the player to link thei
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Show rewarded ad**
+**Show rewarded ad**  
 Shows a rewarded ad. These are longer, optional ads that the player can earn a reward for watching. The player must be notified of the ad and give permission to show before it can be shown.
 
 ??? quote "See parameters"
@@ -568,7 +568,7 @@ Shows a rewarded ad. These are longer, optional ads that the player can earn a r
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Start Game**
+**Start Game**  
 Start Game.
 
 ??? quote "See parameters"
@@ -577,7 +577,7 @@ Start Game.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Subscribe bot async**
+**Subscribe bot async**  
 Request that the player subscribe the bot associated to the game. The API will reject if the subscription fails - else, the player will subscribe the game bot.
 
 ??? quote "See parameters"
@@ -586,7 +586,7 @@ Request that the player subscribe the bot associated to the game. The API will r
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Swith context async**
+**Swith context async**  
 Request a switch into a specific context.
 
 ??? quote "See parameters"
@@ -595,7 +595,7 @@ Request a switch into a specific context.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Switch game async**
+**Switch game async**  
 Switch to another game. The API will reject if the switch fails - else, the client will load the new game.
 
 ??? quote "See parameters"
@@ -605,7 +605,7 @@ Switch to another game. The API will reject if the switch fails - else, the clie
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Unlock achivement**
+**Unlock achivement**  
 Unlocks an achievement for the player. This method will only unlock the achievement if it has not already been unlocked.
 
 ??? quote "See parameters"
@@ -615,7 +615,7 @@ Unlocks an achievement for the player. This method will only unlock the achievem
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Update context async**
+**Update context async**  
 Posts an update to the current context.
 
 ??? quote "See parameters"
@@ -626,7 +626,7 @@ Posts an update to the current context.
 
 ## Conditions
 
-**Ad has just finished showing**
+**Ad has just finished showing**  
 Check if ad just finished showing.
 
 ??? quote "See parameters"
@@ -635,7 +635,7 @@ Check if ad just finished showing.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Ad is blocked**
+**Ad is blocked**  
 Returns whether ads are blocked for the current session.
 
 ??? quote "See parameters"
@@ -644,7 +644,7 @@ Returns whether ads are blocked for the current session.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Ad is enabled**
+**Ad is enabled**  
 Returns whether ads are enabled for the current session.
 
 ??? quote "See parameters"
@@ -653,7 +653,7 @@ Returns whether ads are enabled for the current session.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Ad is showing**
+**Ad is showing**  
 Check if ad is showing.
 
 ??? quote "See parameters"
@@ -662,7 +662,7 @@ Check if ad is showing.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Audio is enabled**
+**Audio is enabled**  
 Returns whether the audio is enabled for the player.
 
 ??? quote "See parameters"
@@ -671,7 +671,7 @@ Returns whether the audio is enabled for the player.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Player is playing for first time**
+**Player is playing for first time**  
 Checks whether this is the first time the player has played this game.
 
 ??? quote "See parameters"
@@ -680,7 +680,7 @@ Checks whether this is the first time the player has played this game.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**IAP is enabled**
+**IAP is enabled**  
 Checks whether IAP is enabled in this session.
 
 ??? quote "See parameters"
@@ -689,7 +689,7 @@ Checks whether IAP is enabled in this session.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Wortal SDK is ready**
+**Wortal SDK is ready**  
 Check if Wortal SDK is ready.
 
 ??? quote "See parameters"
@@ -698,7 +698,7 @@ Check if Wortal SDK is ready.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Player should be rewarded**
+**Player should be rewarded**  
 To check if should reward player after showing rewarded ad.
 
 ??? quote "See parameters"

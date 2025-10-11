@@ -26,7 +26,7 @@ Helpful for making animations for sprites without having to spend time animating
 
 ## Conditions
 
-**Check if the animation has finished**
+**Check if the animation has finished**  
 Check if the selected animation has finished.
 
 ??? quote "See parameters"
@@ -37,7 +37,7 @@ Check if the selected animation has finished.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Check if the door is open**
+**Check if the door is open**  
 From *3D open door* animation.
 
 ??? quote "See parameters"
@@ -54,7 +54,7 @@ Animate any sprite with this extension.
 
 ### Behavior actions
 
-**Animation system**
+**Animation system**  
 edit the object ("Origin" point) to control how the animation goes.
 
 ??? quote "See parameters"

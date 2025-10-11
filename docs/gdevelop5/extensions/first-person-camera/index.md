@@ -18,7 +18,7 @@ The first person example uses this extension ([open the project online](https://
 
 ## Actions
 
-**Look through object eyes**
+**Look through object eyes**  
 Move the camera to look though the object eyes. The object must look to the right when all its angles are 0 and the top of its head be toward Z+.
 
 ??? quote "See parameters"

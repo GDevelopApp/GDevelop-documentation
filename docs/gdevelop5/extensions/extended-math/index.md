@@ -25,7 +25,7 @@ Conditions:
 
 ## Conditions
 
-**Is even?**
+**Is even?**  
 Check if the number is even (divisible by 2).  To check for odd numbers, invert this condition.
 
 ??? quote "See parameters"

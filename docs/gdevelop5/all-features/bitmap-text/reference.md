@@ -10,7 +10,7 @@ Displays a text using a "Bitmap Font" (an image representing characters). This i
 
 ### Object actions
 
-**Wrapping width**
+**Wrapping width**  
 Change the width, in pixels, after which the text is wrapped on next line.
 
 ??? quote "See parameters"
@@ -19,7 +19,7 @@ Change the width, in pixels, after which the text is wrapped on next line.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-**Alignment**
+**Alignment**  
 Change the alignment of a Bitmap text object.
 
 ??? quote "See parameters"
@@ -27,7 +27,7 @@ Change the alignment of a Bitmap text object.
     - Parameter 0 (👾 Object): Bitmap text
     - Parameter 1 (🔤 String): Alignment (one of: "left", "center", "right")
 
-**Bitmap files resources**
+**Bitmap files resources**  
 Change the Bitmap Font and/or the atlas image used by the object.
 
 ??? quote "See parameters"
@@ -36,7 +36,7 @@ Change the Bitmap Font and/or the atlas image used by the object.
     - Parameter 1 (bitmapFontResource): Bitmap font resource name
     - Parameter 2 (imageResource): Texture atlas resource name
 
-**Tint**
+**Tint**  
 Set the tint of the Bitmap Text object.
 
 ??? quote "See parameters"
@@ -44,7 +44,7 @@ Set the tint of the Bitmap Text object.
     - Parameter 0 (👾 Object): Bitmap text
     - Parameter 1: color
 
-**Word wrapping**
+**Word wrapping**  
 De/activate word wrapping.
 
 ??? quote "See parameters"
@@ -54,7 +54,7 @@ De/activate word wrapping.
 
 ### Object conditions
 
-**Alignment**
+**Alignment**  
 Compare the text alignment.
 
 ??? quote "See parameters"
@@ -63,7 +63,7 @@ Compare the text alignment.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Alignment ("left", "right" or "center")
 
-**Font name**
+**Font name**  
 Compare the font name (defined in the Bitmap font).
 
 ??? quote "See parameters"
@@ -72,7 +72,7 @@ Compare the font name (defined in the Bitmap font).
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
 
-**Font size**
+**Font size**  
 Compare the font size, defined in the Bitmap Font.
 
 ??? quote "See parameters"
@@ -81,7 +81,7 @@ Compare the font size, defined in the Bitmap Font.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Wrapping width**
+**Wrapping width**  
 Compare the width, in pixels, after which the text is wrapped on next line.
 
 ??? quote "See parameters"
@@ -90,7 +90,7 @@ Compare the width, in pixels, after which the text is wrapped on next line.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Word wrapping**
+**Word wrapping**  
 Check if word wrapping is enabled.
 
 ??? quote "See parameters"

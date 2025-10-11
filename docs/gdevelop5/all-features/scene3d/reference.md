@@ -4,7 +4,7 @@ Support for 3D in GDevelop: this provides 3D objects and the common features for
 
 ## Actions
 
-**Camera far plane**
+**Camera far plane**  
 Change the camera far plane distance.
 
 ??? quote "See parameters"
@@ -16,7 +16,7 @@ Change the camera far plane distance.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Camera field of view (fov)**
+**Camera field of view (fov)**  
 Change the camera field of view.
 
 ??? quote "See parameters"
@@ -28,7 +28,7 @@ Change the camera field of view.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Camera near plane**
+**Camera near plane**  
 Change the camera near plane distance.
 
 ??? quote "See parameters"
@@ -40,7 +40,7 @@ Change the camera near plane distance.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Camera X rotation**
+**Camera X rotation**  
 Change the camera rotation on X axis.
 
 ??? quote "See parameters"
@@ -52,7 +52,7 @@ Change the camera rotation on X axis.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Camera Y rotation**
+**Camera Y rotation**  
 Change the camera rotation on Y axis.
 
 ??? quote "See parameters"
@@ -64,7 +64,7 @@ Change the camera rotation on Y axis.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Camera Z position**
+**Camera Z position**  
 Change the camera position on Z axis.
 
 ??? quote "See parameters"
@@ -76,7 +76,7 @@ Change the camera position on Z axis.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Look at an object**
+**Look at an object**  
 Change the camera rotation to look at an object. The camera top always face the screen.
 
 ??? quote "See parameters"
@@ -88,7 +88,7 @@ Change the camera rotation to look at an object. The camera top always face the 
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Look at a position**
+**Look at a position**  
 Change the camera rotation to look at a position. The camera top always face the screen.
 
 ??? quote "See parameters"
@@ -104,7 +104,7 @@ Change the camera rotation to look at a position. The camera top always face the
 
 ## Conditions
 
-**Camera far plane**
+**Camera far plane**  
 Compare the camera far plane distance.
 
 ??? quote "See parameters"
@@ -116,7 +116,7 @@ Compare the camera far plane distance.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Camera field of view (fov)**
+**Camera field of view (fov)**  
 Compare the camera field of view.
 
 ??? quote "See parameters"
@@ -128,7 +128,7 @@ Compare the camera field of view.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Camera near plane**
+**Camera near plane**  
 Compare the camera near plane distance.
 
 ??? quote "See parameters"
@@ -140,7 +140,7 @@ Compare the camera near plane distance.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Camera X rotation**
+**Camera X rotation**  
 Compare the camera rotation on X axis.
 
 ??? quote "See parameters"
@@ -152,7 +152,7 @@ Compare the camera rotation on X axis.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Camera Y rotation**
+**Camera Y rotation**  
 Compare the camera rotation on Y axis.
 
 ??? quote "See parameters"
@@ -164,7 +164,7 @@ Compare the camera rotation on Y axis.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Camera Z position**
+**Camera Z position**  
 Compare the camera position on Z axis.
 
 ??? quote "See parameters"
@@ -205,7 +205,7 @@ A box with images for each face
 
 ### Object actions
 
-**Face image**
+**Face image**  
 Change the image of the face.
 
 ??? quote "See parameters"
@@ -214,7 +214,7 @@ Change the image of the face.
     - Parameter 1 (🔤 String): Face (one of: "front", "back", "left", "right", "top", "bottom")
     - Parameter 2 (imageResource): Image
 
-**Face visibility**
+**Face visibility**  
 Set (or unset) if a face should be visible.
 
 ??? quote "See parameters"
@@ -223,7 +223,7 @@ Set (or unset) if a face should be visible.
     - Parameter 1 (🔤 String): Face (one of: "front", "back", "left", "right", "top", "bottom")
     - Parameter 2 (❓ Yes or No): Visible?
 
-**Tint color**
+**Tint color**  
 Change the tint of the cube.
 
 ??? quote "See parameters"
@@ -233,7 +233,7 @@ Change the tint of the cube.
 
 ### Object conditions
 
-**Face visibility**
+**Face visibility**  
 Check if a face should be visible.
 
 ??? quote "See parameters"
@@ -250,7 +250,7 @@ An animated 3D model, useful for most elements of a 3D game.
 
 ### Object actions
 
-**Set crossfade duration**
+**Set crossfade duration**  
 Set the crossfade duration when switching to a new animation.
 
 ??? quote "See parameters"
@@ -267,7 +267,7 @@ Common features for all 3D objects: position in 3D space (including the Z axis, 
 
 ### Behavior actions
 
-**Flip the object on Z**
+**Flip the object on Z**  
 Flip the object on Z axis
 
 ??? quote "See parameters"
@@ -276,7 +276,7 @@ Flip the object on Z axis
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Activate flipping
 
-**Center Z position**
+**Center Z position**  
 Change the Z position of the center of rotation.
 
 ??? quote "See parameters"
@@ -286,7 +286,7 @@ Change the Z position of the center of rotation.
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-**Depth (size on Z axis)**
+**Depth (size on Z axis)**  
 Change the depth (size on Z axis).
 
 ??? quote "See parameters"
@@ -296,7 +296,7 @@ Change the depth (size on Z axis).
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-**Rotation on X axis**
+**Rotation on X axis**  
 Change the rotation on X axis.
 
 ??? quote "See parameters"
@@ -306,7 +306,7 @@ Change the rotation on X axis.
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Angle (in degrees)
 
-**Rotation on Y axis**
+**Rotation on Y axis**  
 Change the rotation on Y axis.
 
 ??? quote "See parameters"
@@ -316,7 +316,7 @@ Change the rotation on Y axis.
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Angle (in degrees)
 
-**Scale on Z axis**
+**Scale on Z axis**  
 Change the scale on Z axis of an object (default scale is 1).
 
 ??? quote "See parameters"
@@ -326,7 +326,7 @@ Change the scale on Z axis of an object (default scale is 1).
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Scale (1 by default)
 
-**Z (elevation)**
+**Z (elevation)**  
 Change the Z position (the "elevation").
 
 ??? quote "See parameters"
@@ -336,7 +336,7 @@ Change the Z position (the "elevation").
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-**Turn around X axis**
+**Turn around X axis**  
 Turn the object around X axis. This axis doesn't move with the object rotation.
 
 ??? quote "See parameters"
@@ -345,7 +345,7 @@ Turn the object around X axis. This axis doesn't move with the object rotation.
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Angle to add (in degrees)
 
-**Turn around Y axis**
+**Turn around Y axis**  
 Turn the object around Y axis. This axis doesn't move with the object rotation.
 
 ??? quote "See parameters"
@@ -354,7 +354,7 @@ Turn the object around Y axis. This axis doesn't move with the object rotation.
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Angle to add (in degrees)
 
-**Turn around Z axis**
+**Turn around Z axis**  
 Turn the object around Z axis. This axis doesn't move with the object rotation.
 
 ??? quote "See parameters"
@@ -365,7 +365,7 @@ Turn the object around Z axis. This axis doesn't move with the object rotation.
 
 ### Behavior conditions
 
-**Center Z position**
+**Center Z position**  
 Compare the Z position of the center of rotation.
 
 ??? quote "See parameters"
@@ -375,7 +375,7 @@ Compare the Z position of the center of rotation.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-**Depth (size on Z axis)**
+**Depth (size on Z axis)**  
 Compare the depth (size on Z axis).
 
 ??? quote "See parameters"
@@ -385,7 +385,7 @@ Compare the depth (size on Z axis).
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-**Flipped on Z**
+**Flipped on Z**  
 Check if the object is flipped on Z axis
 
 ??? quote "See parameters"
@@ -393,7 +393,7 @@ Check if the object is flipped on Z axis
     - Parameter 0 (👾 Object): 3D object
     - Parameter 1: 🧩 Behavior
 
-**Rotation on X axis**
+**Rotation on X axis**  
 Compare the rotation on X axis.
 
 ??? quote "See parameters"
@@ -403,7 +403,7 @@ Compare the rotation on X axis.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Angle (in degrees)
 
-**Rotation on Y axis**
+**Rotation on Y axis**  
 Compare the rotation on Y axis.
 
 ??? quote "See parameters"
@@ -413,7 +413,7 @@ Compare the rotation on Y axis.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Angle (in degrees)
 
-**Scale on Z axis**
+**Scale on Z axis**  
 Compare the scale on Z axis of an object (default scale is 1).
 
 ??? quote "See parameters"
@@ -423,7 +423,7 @@ Compare the scale on Z axis of an object (default scale is 1).
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Scale (1 by default)
 
-**Z (elevation)**
+**Z (elevation)**  
 Compare the Z position (the "elevation").
 
 ??? quote "See parameters"

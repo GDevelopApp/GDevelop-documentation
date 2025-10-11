@@ -20,7 +20,7 @@ You can also track whether or not you've gotten the permission to use the GPS se
 
 ## Actions
 
-**Locate the player**
+**Locate the player**  
 Locates the player. If the permission status is pending, it will ask for user permission. Once the location is fetched, stores it in the callback variable.
 
 ??? quote "See parameters"
@@ -29,7 +29,7 @@ Locates the player. If the permission status is pending, it will ask for user pe
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Watch the player**
+**Watch the player**  
 Detects when the player's device is moved and get its new location. If the permission status is pending, it will ask for user permission. Every time the location is updated, stores it in the callback variable.
 
 ??? quote "See parameters"

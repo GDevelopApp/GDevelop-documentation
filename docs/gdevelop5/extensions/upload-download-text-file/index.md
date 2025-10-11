@@ -24,7 +24,7 @@ Allows users to upload/download text content to a filename and vice versa.
 
 ## Actions
 
-**Download file with text content**
+**Download file with text content**  
 Download file with text content.
 
 ??? quote "See parameters"
@@ -34,7 +34,7 @@ Download file with text content.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Upload a text file to text input**
+**Upload a text file to text input**  
 Upload a text file to text input.
 
 ??? quote "See parameters"
@@ -45,7 +45,7 @@ Upload a text file to text input.
 
 ## Conditions
 
-**Uploading text file finished?**
+**Uploading text file finished?**  
 Uploading text file finished.
 
 ??? quote "See parameters"

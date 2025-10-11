@@ -25,7 +25,7 @@ Any key double pressed
 
 ## Conditions
 
-**Key double pressed**
+**Key double pressed**  
 Check if a specific key was double pressed.
 
 ??? quote "See parameters"
@@ -35,7 +35,7 @@ Check if a specific key was double pressed.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Key double pressed (any key)**
+**Key double pressed (any key)**  
 Check if any key was double pressed.
 
 ??? quote "See parameters"
@@ -44,7 +44,7 @@ Check if any key was double pressed.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Key double pressed (text expression)**
+**Key double pressed (text expression)**  
 Check if a specific key was double pressed using a text expression.
 
 ??? quote "See parameters"

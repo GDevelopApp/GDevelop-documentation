@@ -37,7 +37,7 @@ Recommended: Set the platformer character sprite Origin and Center points to spr
 
 ## Actions
 
-**Flip gravity 1 object (Floor, Roof)**
+**Flip gravity 1 object (Floor, Roof)**  
 Flip the gravity for platformer character (you have 1 object), Example:  
 • Floor object at the bottom, Floor object at the top.
 
@@ -66,7 +66,7 @@ Flip the gravity for platformer character (you have 1 object), Example:
 
     > Technical note: parameters 0, 16 are internal parameters handled by GDevelop.
 
-**Flip gravity 2 objects (1 for floor, 1 for roof)**
+**Flip gravity 2 objects (1 for floor, 1 for roof)**  
 Flip the gravity for platformer character (you have 2 objects), Examples:  
 • Floor object at the bottom, Roof object at the top.
 • Floor object at the bottom, Floor object at the top.
@@ -98,7 +98,7 @@ Flip the gravity for platformer character (you have 2 objects), Examples:
 
     > Technical note: parameters 0, 17 are internal parameters handled by GDevelop.
 
-**Reset gravity back to normal**
+**Reset gravity back to normal**  
 Reset the gravity back to normal for the selected object.
 
 ??? quote "See parameters"

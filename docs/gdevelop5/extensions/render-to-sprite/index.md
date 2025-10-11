@@ -15,7 +15,7 @@ This allows to make optimizations by transforming the resulting image of a shape
 
 ## Actions
 
-**Render a layer into a sprite**
+**Render a layer into a sprite**  
 Renders a layer and puts the rendered image into a sprite object.
 
 ??? quote "See parameters"
@@ -25,7 +25,7 @@ Renders a layer and puts the rendered image into a sprite object.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Render an object into a sprite**
+**Render an object into a sprite**  
 Renders an object and puts the rendered image into a sprite object.
 
 ??? quote "See parameters"
@@ -35,7 +35,7 @@ Renders an object and puts the rendered image into a sprite object.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Render a scene into a sprite**
+**Render a scene into a sprite**  
 Renders a scene and puts the rendered image into a sprite object.
 
 ??? quote "See parameters"
@@ -44,7 +44,7 @@ Renders a scene and puts the rendered image into a sprite object.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Render an area of a scene into a sprite**
+**Render an area of a scene into a sprite**  
 Renders a defined area of a scene and puts the rendered image into a sprite object.
 
 ??? quote "See parameters"

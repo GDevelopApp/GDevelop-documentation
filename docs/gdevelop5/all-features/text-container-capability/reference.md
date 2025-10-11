@@ -10,7 +10,7 @@ Allows an object to contain a text, usually shown on screen, that can be modifie
 
 ### Behavior actions
 
-**Text**
+**Text**  
 Change the text.
 
 ??? quote "See parameters"
@@ -22,7 +22,7 @@ Change the text.
 
 ### Behavior conditions
 
-**Text**
+**Text**  
 Compare the text.
 
 ??? quote "See parameters"

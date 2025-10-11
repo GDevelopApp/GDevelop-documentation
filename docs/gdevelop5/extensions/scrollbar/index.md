@@ -27,7 +27,7 @@ A scrollbar to help making a scroll view.
 
 ### Object actions
 
-**Content length**
+**Content length**  
 Change the content length of the object. The length of the content to scroll. The scroll bar don't actually scroll the content. You have to do it yourself with camera actions.
 
 ??? quote "See parameters"
@@ -38,7 +38,7 @@ Change the content length of the object. The length of the content to scroll. Th
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Scroll position**
+**Scroll position**  
 Change the scroll position.
 
 ??? quote "See parameters"
@@ -51,7 +51,7 @@ Change the scroll position.
 
 ### Object conditions
 
-**Content length**
+**Content length**  
 Compare the content length of the object. The length of the content to scroll. The scroll bar don't actually scroll the content. You have to do it yourself with camera actions.
 
 ??? quote "See parameters"
@@ -62,7 +62,7 @@ Compare the content length of the object. The length of the content to scroll. T
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Scrolling is required**
+**Scrolling is required**  
 Check if the content is big enough to require scrolling.
 
 ??? quote "See parameters"
@@ -71,7 +71,7 @@ Check if the content is big enough to require scrolling.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Thumb is dragged**
+**Thumb is dragged**  
 Check if the thumb of the scrollbar is dragged.
 
 ??? quote "See parameters"
@@ -80,7 +80,7 @@ Check if the thumb of the scrollbar is dragged.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Scroll position**
+**Scroll position**  
 Compare the scroll position.
 
 ??? quote "See parameters"

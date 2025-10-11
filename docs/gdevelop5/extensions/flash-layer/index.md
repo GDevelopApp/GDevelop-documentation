@@ -16,7 +16,7 @@ It is recommended to select a layer on the top, and one that is hidden by defaul
 
 ## Actions
 
-**Flash layer**
+**Flash layer**  
 Make a layer visible for a specified duration, and then hide the layer.
 
 ??? quote "See parameters"

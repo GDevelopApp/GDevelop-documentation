@@ -4,7 +4,7 @@ Allow your game to send scores to your leaderboards (anonymously or from the log
 
 ## Actions
 
-**Close current leaderboard**
+**Close current leaderboard**  
 Close the leaderboard currently displayed on top of the game.
 
 ??? quote "See parameters"
@@ -13,7 +13,7 @@ Close the leaderboard currently displayed on top of the game.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Display leaderboard**
+**Display leaderboard**  
 Display the specified leaderboard on top of the game. If a leaderboard was already displayed on top of the game, the new leaderboard will replace it.
 
 ??? quote "See parameters"
@@ -23,7 +23,7 @@ Display the specified leaderboard on top of the game. If a leaderboard was alrea
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Save connected player score**
+**Save connected player score**  
 Save the connected player's score to the given leaderboard.
 
 ??? quote "See parameters"
@@ -33,7 +33,7 @@ Save the connected player's score to the given leaderboard.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Save player score**
+**Save player score**  
 Save the player's score to the given leaderboard. If the player is connected, the score will be attached to the connected player (unless disabled).
 
 ??? quote "See parameters"
@@ -45,7 +45,7 @@ Save the player's score to the given leaderboard. If the player is connected, th
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Always attach scores to the connected player**
+**Always attach scores to the connected player**  
 Set if the score sent to a leaderboard is always attached to the connected player - if any. This is on by default.
 
 ??? quote "See parameters"
@@ -56,7 +56,7 @@ Set if the score sent to a leaderboard is always attached to the connected playe
 
 ## Conditions
 
-**Last score save has errored**
+**Last score save has errored**  
 Check if the last attempt to save a score has errored.
 
 ??? quote "See parameters"
@@ -64,7 +64,7 @@ Check if the last attempt to save a score has errored.
     - Parameter 0 (🔤 Leaderboard Identifier (String)): Leaderboard
       If no leaderboard is specified, will return the value related to the last leaderboard save action.
 
-**Last score save has succeeded**
+**Last score save has succeeded**  
 Check if the last attempt to save a score has succeeded.
 
 ??? quote "See parameters"
@@ -72,19 +72,19 @@ Check if the last attempt to save a score has succeeded.
     - Parameter 0 (🔤 Leaderboard Identifier (String)): Leaderboard
       If no leaderboard is specified, will return the value related to the last leaderboard save action that successfully ended.
 
-**Closed by player**
+**Closed by player**  
 Check if the player has just closed the leaderboard view.
 
-**Leaderboard display has errored**
+**Leaderboard display has errored**  
 Check if the display of the leaderboard errored.
 
-**Leaderboard display has loaded**
+**Leaderboard display has loaded**  
 Check if the display of the leaderboard has finished loading and been displayed on screen.
 
-**Leaderboard display is loading**
+**Leaderboard display is loading**  
 Check if the display of the leaderboard is loading.
 
-**Score is saving**
+**Score is saving**  
 Check if a score is currently being saved in leaderboard.
 
 ??? quote "See parameters"

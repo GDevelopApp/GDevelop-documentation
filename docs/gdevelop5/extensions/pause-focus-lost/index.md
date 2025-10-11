@@ -21,7 +21,7 @@ When focus is regained, the game continues.
 
 ## Actions
 
-**Active pause on blur**
+**Active pause on blur**  
 Pause when game lost focus.
 
 ??? quote "See parameters"

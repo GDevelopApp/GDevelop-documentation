@@ -25,7 +25,7 @@ Shake layer cameras on 3 rotations.
 
 ## Actions
 
-**Horizontal rotation amplitude**
+**Horizontal rotation amplitude**  
 Change the horizontal rotation amplitude of the shaking (in degrees).
 
 ??? quote "See parameters"
@@ -36,7 +36,7 @@ Change the horizontal rotation amplitude of the shaking (in degrees).
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Shakable layer**
+**Shakable layer**  
 Mark a layer as shakable.
 
 ??? quote "See parameters"
@@ -46,7 +46,7 @@ Mark a layer as shakable.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Layer shaking frequency**
+**Layer shaking frequency**  
 Change the number of back and forth per seconds.
 
 ??? quote "See parameters"
@@ -56,7 +56,7 @@ Change the number of back and forth per seconds.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Spinning shake amplitude**
+**Spinning shake amplitude**  
 Change the spinning amplitude of the shaking (in degrees).
 
 ??? quote "See parameters"
@@ -67,7 +67,7 @@ Change the spinning amplitude of the shaking (in degrees).
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Vertical rotation amplitude**
+**Vertical rotation amplitude**  
 Change the vertical rotation amplitude of the shaking (in degrees).
 
 ??? quote "See parameters"
@@ -78,7 +78,7 @@ Change the vertical rotation amplitude of the shaking (in degrees).
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Shake camera**
+**Shake camera**  
 Shake the camera on layers chosen with configuration actions.
 
 ??? quote "See parameters"
@@ -89,7 +89,7 @@ Shake the camera on layers chosen with configuration actions.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Start camera shaking**
+**Start camera shaking**  
 Start shaking the camera indefinitely.
 
 ??? quote "See parameters"
@@ -98,7 +98,7 @@ Start shaking the camera indefinitely.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Stop camera shaking**
+**Stop camera shaking**  
 Stop shaking the camera.
 
 ??? quote "See parameters"
@@ -109,7 +109,7 @@ Stop shaking the camera.
 
 ## Conditions
 
-**Horizontal rotation amplitude**
+**Horizontal rotation amplitude**  
 Compare the horizontal rotation amplitude of the shaking (in degrees).
 
 ??? quote "See parameters"
@@ -120,7 +120,7 @@ Compare the horizontal rotation amplitude of the shaking (in degrees).
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Camera is shaking**
+**Camera is shaking**  
 Check if the camera is shaking.
 
 ??? quote "See parameters"
@@ -129,7 +129,7 @@ Check if the camera is shaking.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Spinning shake amplitude**
+**Spinning shake amplitude**  
 Compare the spinning amplitude of the shaking (in degrees).
 
 ??? quote "See parameters"
@@ -140,7 +140,7 @@ Compare the spinning amplitude of the shaking (in degrees).
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Vertical rotation amplitude**
+**Vertical rotation amplitude**  
 Compare the vertical rotation amplitude of the shaking (in degrees).
 
 ??? quote "See parameters"

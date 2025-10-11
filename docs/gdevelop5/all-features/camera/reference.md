@@ -4,7 +4,7 @@ Each scene can be composed of multiple layers. These conditions and actions allo
 
 ## Actions
 
-**Center the camera on an object**
+**Center the camera on an object**  
 Center the camera on the specified object.
 
 ??? quote "See parameters"
@@ -16,7 +16,7 @@ Center the camera on the specified object.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Layer time scale**
+**Layer time scale**  
 Change the time scale applied to the objects of the layer.
 
 ??? quote "See parameters"
@@ -26,7 +26,7 @@ Change the time scale applied to the objects of the layer.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Enforce camera boundaries**
+**Enforce camera boundaries**  
 Enforce camera boundaries by moving the camera back inside specified boundaries.
 
 ??? quote "See parameters"
@@ -40,7 +40,7 @@ Enforce camera boundaries by moving the camera back inside specified boundaries.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Enable layer effect**
+**Enable layer effect**  
 Enable an effect on a layer
 
 ??? quote "See parameters"
@@ -51,7 +51,7 @@ Enable an effect on a layer
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Hide a layer**
+**Hide a layer**  
 Hide a layer.
 
 ??? quote "See parameters"
@@ -60,7 +60,7 @@ Hide a layer.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Angle of a camera of a layer**
+**Angle of a camera of a layer**  
 Change the angle of rotation of a camera (in degrees).
 
 ??? quote "See parameters"
@@ -72,7 +72,7 @@ Change the angle of rotation of a camera (in degrees).
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Camera center X position**
+**Camera center X position**  
 Change the X position of the center of a camera.
 
 ??? quote "See parameters"
@@ -84,7 +84,7 @@ Change the X position of the center of a camera.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Camera center Y position**
+**Camera center Y position**  
 Change the Y position of the center of a camera.
 
 ??? quote "See parameters"
@@ -96,7 +96,7 @@ Change the Y position of the center of a camera.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Ambient light color**
+**Ambient light color**  
 Set the ambient light color of the lighting layer in format "R;G;B" string.
 
 ??? quote "See parameters"
@@ -106,7 +106,7 @@ Set the ambient light color of the lighting layer in format "R;G;B" string.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Layer default Z order**
+**Layer default Z order**  
 Change the default Z order set to objects when they are created on a layer.
 
 ??? quote "See parameters"
@@ -116,7 +116,7 @@ Change the default Z order set to objects when they are created on a layer.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Effect property (enable or disable)**
+**Effect property (enable or disable)**  
 Enable or disable a property of an effect.  
 You can find the property names (and change the effect names) in the effects window.
 
@@ -129,7 +129,7 @@ You can find the property names (and change the effect names) in the effects win
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Effect property (number)**
+**Effect property (number)**  
 Change the value of a property of an effect.  
 You can find the property names (and change the effect names) in the effects window.
 
@@ -142,7 +142,7 @@ You can find the property names (and change the effect names) in the effects win
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Effect property (string)**
+**Effect property (string)**  
 Change the value (string) of a property of an effect.  
 You can find the property names (and change the effect names) in the effects window.
 
@@ -155,7 +155,7 @@ You can find the property names (and change the effect names) in the effects win
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Show a layer**
+**Show a layer**  
 Show a layer.
 
 ??? quote "See parameters"
@@ -164,7 +164,7 @@ Show a layer.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Camera zoom**
+**Camera zoom**  
 Change camera zoom.
 
 ??? quote "See parameters"
@@ -177,7 +177,7 @@ Change camera zoom.
 
 ## Conditions
 
-**Angle of a camera of a layer**
+**Angle of a camera of a layer**  
 Compare the angle of rotation of a camera (in degrees).
 
 ??? quote "See parameters"
@@ -189,7 +189,7 @@ Compare the angle of rotation of a camera (in degrees).
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Camera bottom border position**
+**Camera bottom border position**  
 Compare the position of the bottom border of a camera.
 
 ??? quote "See parameters"
@@ -201,7 +201,7 @@ Compare the position of the bottom border of a camera.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Camera left border position**
+**Camera left border position**  
 Compare the position of the left border of a camera.
 
 ??? quote "See parameters"
@@ -213,7 +213,7 @@ Compare the position of the left border of a camera.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Camera right border position**
+**Camera right border position**  
 Compare the position of the right border of a camera.
 
 ??? quote "See parameters"
@@ -225,7 +225,7 @@ Compare the position of the right border of a camera.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Camera top border position**
+**Camera top border position**  
 Compare the position of the top border of a camera.
 
 ??? quote "See parameters"
@@ -237,7 +237,7 @@ Compare the position of the top border of a camera.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Camera center X position**
+**Camera center X position**  
 Compare the X position of the center of a camera.
 
 ??? quote "See parameters"
@@ -249,7 +249,7 @@ Compare the X position of the center of a camera.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Camera center Y position**
+**Camera center Y position**  
 Compare the Y position of the center of a camera.
 
 ??? quote "See parameters"
@@ -261,7 +261,7 @@ Compare the Y position of the center of a camera.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Height of a camera**
+**Height of a camera**  
 Compare the height of a camera of a layer.
 
 ??? quote "See parameters"
@@ -273,7 +273,7 @@ Compare the height of a camera of a layer.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Width of a camera**
+**Width of a camera**  
 Compare the width of a camera of a layer.
 
 ??? quote "See parameters"
@@ -285,7 +285,7 @@ Compare the width of a camera of a layer.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Camera zoom**
+**Camera zoom**  
 Compare the zoom of a camera of a layer.
 
 ??? quote "See parameters"
@@ -297,7 +297,7 @@ Compare the zoom of a camera of a layer.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Layer default Z order**
+**Layer default Z order**  
 Compare the default Z order set to objects when they are created on a layer.
 
 ??? quote "See parameters"
@@ -308,7 +308,7 @@ Compare the default Z order set to objects when they are created on a layer.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Layer effect is enabled**
+**Layer effect is enabled**  
 The effect on a layer is enabled
 
 ??? quote "See parameters"
@@ -318,7 +318,7 @@ The effect on a layer is enabled
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Layer time scale**
+**Layer time scale**  
 Compare the time scale applied to the objects of the layer.
 
 ??? quote "See parameters"
@@ -329,7 +329,7 @@ Compare the time scale applied to the objects of the layer.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Visibility of a layer**
+**Visibility of a layer**  
 Test if a layer is set as visible.
 
 ??? quote "See parameters"

@@ -10,7 +10,7 @@ Animated object which can be used for most elements of a 2D game.
 
 ### Object actions
 
-**Blend mode**
+**Blend mode**  
 Change the number of the blend mode of an object.  
 The default blend mode is 0 (Normal).
 
@@ -19,7 +19,7 @@ The default blend mode is 0 (Normal).
     - Parameter 0: 👾 Object
     - Parameter 1 (🔢 Number): Mode (0: Normal, 1: Add, 2: Multiply, 3: Screen)
 
-**Tint color**
+**Tint color**  
 Change the tint of an object. The default color is white.
 
 ??? quote "See parameters"
@@ -27,7 +27,7 @@ Change the tint of an object. The default color is white.
     - Parameter 0: 👾 Object
     - Parameter 1 (color): Tint
 
-**Current frame**
+**Current frame**  
 Modify the current frame of the object
 
 ??? quote "See parameters"
@@ -38,7 +38,7 @@ Modify the current frame of the object
 
 ### Object conditions
 
-**Blend mode**
+**Blend mode**  
 Compare the number of the blend mode currently used by an object
 
 ??? quote "See parameters"
@@ -47,7 +47,7 @@ Compare the number of the blend mode currently used by an object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Current frame**
+**Current frame**  
 Compare the index of the current frame in the animation displayed by the specified object. The first frame in an animation starts at index 0.
 
 ??? quote "See parameters"

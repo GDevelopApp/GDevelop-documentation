@@ -20,7 +20,7 @@ Change the animation according to the movement direction.
 
 ### Behavior actions
 
-**Animation name**
+**Animation name**  
 Change the animation name of the object.
 
 ??? quote "See parameters"
@@ -32,7 +32,7 @@ Change the animation name of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Pause animations when objects stop**
+**Pause animations when objects stop**  
 Change whether animations are paused when objects stop.
 
 ??? quote "See parameters"
@@ -43,7 +43,7 @@ Change whether animations are paused when objects stop.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Scale animations according to speed**
+**Scale animations according to speed**  
 Change whether animations are scaled according to speed or not.
 
 ??? quote "See parameters"
@@ -56,7 +56,7 @@ Change whether animations are scaled according to speed or not.
 
 ### Behavior conditions
 
-**Animation name**
+**Animation name**  
 Compare the animation name of the object.
 
 ??? quote "See parameters"
@@ -68,7 +68,7 @@ Compare the animation name of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Pause animations when objects stop**
+**Pause animations when objects stop**  
 Check if animations are paused when objects stop.
 
 ??? quote "See parameters"
@@ -78,7 +78,7 @@ Check if animations are paused when objects stop.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Scale animations according to speed**
+**Scale animations according to speed**  
 Check if animations are scaled according to speed.
 
 ??? quote "See parameters"

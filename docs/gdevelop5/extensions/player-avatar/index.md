@@ -25,7 +25,7 @@ Display a player avatar according to their GDevelop account.
 
 ### Object actions
 
-**Player unique ID**
+**Player unique ID**  
 Change the player unique ID of the avatar.
 
 ??? quote "See parameters"
@@ -38,7 +38,7 @@ Change the player unique ID of the avatar.
 
 ### Object conditions
 
-**Player unique ID**
+**Player unique ID**  
 Compare the player unique ID of the avatar.
 
 ??? quote "See parameters"

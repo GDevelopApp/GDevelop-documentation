@@ -22,7 +22,7 @@ Change animations of a 3D physics character automatically.
 
 ### Behavior actions
 
-**Rotation speed**
+**Rotation speed**  
 Change the rotation speed of the object.
 
 ??? quote "See parameters"
@@ -36,7 +36,7 @@ Change the rotation speed of the object.
 
 ### Behavior conditions
 
-**Rotation speed**
+**Rotation speed**  
 Compare the rotation speed of the object.
 
 ??? quote "See parameters"

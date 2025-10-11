@@ -8,7 +8,7 @@ Forces (and impulses) are expressed in all conditions/expressions/actions of the
 
 ## Actions
 
-**World time scale**
+**World time scale**  
 Modify the world time scale. While an object is needed, this will apply to all objects using the behavior.
 
 ??? quote "See parameters"
@@ -19,7 +19,7 @@ Modify the world time scale. While an object is needed, this will apply to all o
 
 ## Conditions
 
-**Collision**
+**Collision**  
 Check if two objects collide.
 
 ??? quote "See parameters"
@@ -30,7 +30,7 @@ Check if two objects collide.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Collision started**
+**Collision started**  
 Check if two objects just started colliding during this frame.
 
 ??? quote "See parameters"
@@ -41,7 +41,7 @@ Check if two objects just started colliding during this frame.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Collision stopped**
+**Collision stopped**  
 Check if two objects just stopped colliding at this frame.
 
 ??? quote "See parameters"
@@ -60,7 +60,7 @@ Simulate realistic 2D physics for the object including gravity, forces, collisio
 
 ### Behavior actions
 
-**Add distance joint**
+**Add distance joint**  
 Add a distance joint between two objects. The length is converted to meters using the world scale on X. The frequency and damping ratio are related to the joint speed of oscillation and how fast it stops.
 
 ??? quote "See parameters"
@@ -78,7 +78,7 @@ Add a distance joint between two objects. The length is converted to meters usin
     - Parameter 10 (❓ Yes or No): Allow collision between connected bodies? (default: no)
     - Parameter 11 (🗄️ Scene variable): Variable where to store the joint ID (default: none)
 
-**Add friction joint**
+**Add friction joint**  
 Add a friction joint between two objects.
 
 ??? quote "See parameters"
@@ -95,7 +95,7 @@ Add a friction joint between two objects.
     - Parameter 9 (❓ Yes or No): Allow collision between connected bodies? (default: no)
     - Parameter 10 (🗄️ Scene variable): Variable where to store the joint ID (default: none)
 
-**Add gear joint**
+**Add gear joint**  
 Add a gear joint between two joints. Attention: Gear joints require the joints to be revolute or prismatic, and both of them to be attached to a static body as first object.
 
 ??? quote "See parameters"
@@ -108,7 +108,7 @@ Add a gear joint between two joints. Attention: Gear joints require the joints t
     - Parameter 5 (❓ Yes or No): Allow collision between connected bodies? (default: no)
     - Parameter 6 (🗄️ Scene variable): Variable where to store the joint ID (default: none)
 
-**Add motor joint**
+**Add motor joint**  
 Add a motor joint between two objects. The position and angle offsets are relative to the first object.
 
 ??? quote "See parameters"
@@ -125,7 +125,7 @@ Add a motor joint between two objects. The position and angle offsets are relati
     - Parameter 9 (❓ Yes or No): Allow collision between connected bodies? (default: no)
     - Parameter 10 (🗄️ Scene variable): Variable where to store the joint ID (default: none)
 
-**Add mouse joint**
+**Add mouse joint**  
 Add a mouse joint to an object (makes the object move towards a specific point).
 
 ??? quote "See parameters"
@@ -139,7 +139,7 @@ Add a mouse joint to an object (makes the object move towards a specific point).
     - Parameter 6 (🔢 Number): Damping ratio (non-negative) (default: 1)
     - Parameter 7 (🗄️ Scene variable): Variable where to store the joint ID (default: none)
 
-**Add prismatic joint**
+**Add prismatic joint**  
 Add a prismatic joint between two objects. The translation limits are converted to meters using the world scale on X.
 
 ??? quote "See parameters"
@@ -162,7 +162,7 @@ Add a prismatic joint between two objects. The translation limits are converted 
     - Parameter 15 (❓ Yes or No): Allow collision between connected bodies? (default: no)
     - Parameter 16 (🗄️ Scene variable): Variable where to store the joint ID (default: none)
 
-**Add pulley joint**
+**Add pulley joint**  
 Add a pulley joint between two objects. Lengths are converted to meters using the world scale on X.
 
 ??? quote "See parameters"
@@ -184,7 +184,7 @@ Add a pulley joint between two objects. Lengths are converted to meters using th
     - Parameter 14 (❓ Yes or No): Allow collision between connected bodies? (default: no)
     - Parameter 15 (🗄️ Scene variable): Variable where to store the joint ID (default: none)
 
-**Add revolute joint**
+**Add revolute joint**  
 Add a revolute joint to an object at a fixed point. The object is attached as the second object in the joint, so you can use this for gear joints.
 
 ??? quote "See parameters"
@@ -202,7 +202,7 @@ Add a revolute joint to an object at a fixed point. The object is attached as th
     - Parameter 10 (🔢 Number): Motor maximum torque (default: 0)
     - Parameter 11 (🗄️ Scene variable): Variable where to store the joint ID (default: none)
 
-**Add revolute joint between two bodies**
+**Add revolute joint between two bodies**  
 Add a revolute joint between two objects. The reference angle determines what is considered as the base angle at the initial state.
 
 ??? quote "See parameters"
@@ -224,7 +224,7 @@ Add a revolute joint between two objects. The reference angle determines what is
     - Parameter 14 (❓ Yes or No): Allow collision between connected bodies? (default: no)
     - Parameter 15 (🗄️ Scene variable): Variable where to store the joint ID (default: none)
 
-**Add rope joint**
+**Add rope joint**  
 Add a rope joint between two objects. The maximum length is converted to meters using the world scale on X.
 
 ??? quote "See parameters"
@@ -240,7 +240,7 @@ Add a rope joint between two objects. The maximum length is converted to meters 
     - Parameter 8 (❓ Yes or No): Allow collision between connected bodies? (default: no)
     - Parameter 9 (🗄️ Scene variable): Variable where to store the joint ID (default: none)
 
-**Add weld joint**
+**Add weld joint**  
 Add a weld joint between two objects.
 
 ??? quote "See parameters"
@@ -258,7 +258,7 @@ Add a weld joint between two objects.
     - Parameter 10 (❓ Yes or No): Allow collision between connected bodies? (default: no)
     - Parameter 11 (🗄️ Scene variable): Variable where to store the joint ID (default: none)
 
-**Add wheel joint**
+**Add wheel joint**  
 Add a wheel joint between two objects. Higher frequencies means higher suspensions. Damping determines oscillations, critical damping of 1 means no oscillations.
 
 ??? quote "See parameters"
@@ -279,7 +279,7 @@ Add a wheel joint between two objects. Higher frequencies means higher suspensio
     - Parameter 13 (❓ Yes or No): Allow collision between connected bodies? (default: no)
     - Parameter 14 (🗄️ Scene variable): Variable where to store the joint ID (default: none)
 
-**Angular damping**
+**Angular damping**  
 Modify an object angular damping. How much angular speed is lost across the time.
 
 ??? quote "See parameters"
@@ -289,7 +289,7 @@ Modify an object angular damping. How much angular speed is lost across the time
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-**Angular velocity**
+**Angular velocity**  
 Modify an object angular velocity.
 
 ??? quote "See parameters"
@@ -299,7 +299,7 @@ Modify an object angular velocity.
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Angular speed (in degrees per second)
 
-**Apply angular impulse (rotational impulse)**
+**Apply angular impulse (rotational impulse)**  
 Apply an angular impulse (also called a "rotational impulse") to the object. It instantly changes the rotation speed, to give an initial speed for instance.
 
 ??? quote "See parameters"
@@ -309,7 +309,7 @@ Apply an angular impulse (also called a "rotational impulse") to the object. It 
     - Parameter 2 (🔢 Number): Angular impulse (N·m·s)
       An impulse is like a rotation speed addition but depends on the mass.
 
-**Apply force**
+**Apply force**  
 Apply a force to the object over time. It "accelerates" an object and must be used every frame during a time period.
 
 ??? quote "See parameters"
@@ -323,7 +323,7 @@ Apply a force to the object over time. It "accelerates" an object and must be us
     - Parameter 5 (🔢 Number): Application point on Y axis
       Use `MassCenterX` and `MassCenterY` expressions to avoid any rotation.
 
-**Apply force toward position**
+**Apply force toward position**  
 Apply a force to the object over time to move it toward a position. It "accelerates" an object and must be used every frame during a time period.
 
 ??? quote "See parameters"
@@ -338,7 +338,7 @@ Apply a force to the object over time to move it toward a position. It "accelera
     - Parameter 6 (🔢 Number): Application point on Y axis
       Use `MassCenterX` and `MassCenterY` expressions to avoid any rotation.
 
-**Apply impulse**
+**Apply impulse**  
 Apply an impulse to the object. It instantly changes the speed, to give an initial speed for instance.
 
 ??? quote "See parameters"
@@ -352,7 +352,7 @@ Apply an impulse to the object. It instantly changes the speed, to give an initi
     - Parameter 5 (🔢 Number): Application point on Y axis
       Use `MassCenterX` and `MassCenterY` expressions to avoid any rotation.
 
-**Apply impulse toward position**
+**Apply impulse toward position**  
 Apply an impulse to the object to move it toward a position. It instantly changes the speed, to give an initial speed for instance.
 
 ??? quote "See parameters"
@@ -367,7 +367,7 @@ Apply an impulse to the object to move it toward a position. It instantly change
     - Parameter 6 (🔢 Number): Application point on Y axis
       Use `MassCenterX` and `MassCenterY` expressions to avoid any rotation.
 
-**Apply force (angle)**
+**Apply force (angle)**  
 Apply a force to the object over time using polar coordinates. It "accelerates" an object and must be used every frame during a time period.
 
 ??? quote "See parameters"
@@ -381,7 +381,7 @@ Apply a force to the object over time using polar coordinates. It "accelerates" 
     - Parameter 5 (🔢 Number): Application point on Y axis
       Use `MassCenterX` and `MassCenterY` expressions to avoid any rotation.
 
-**Apply impulse (angle)**
+**Apply impulse (angle)**  
 Apply an impulse to the object using polar coordinates. It instantly changes the speed, to give an initial speed for instance.
 
 ??? quote "See parameters"
@@ -395,7 +395,7 @@ Apply an impulse to the object using polar coordinates. It instantly changes the
     - Parameter 5 (🔢 Number): Application point on Y axis
       Use `MassCenterX` and `MassCenterY` expressions to avoid any rotation.
 
-**Apply torque (rotational force)**
+**Apply torque (rotational force)**  
 Apply a torque (also called "rotational force") to the object. It "accelerates" an object rotation and must be used every frame during a time period.
 
 ??? quote "See parameters"
@@ -405,7 +405,7 @@ Apply a torque (also called "rotational force") to the object. It "accelerates" 
     - Parameter 2 (🔢 Number): Torque (N·m)
       A torque is like a rotation acceleration but depends on the mass.
 
-**Density**
+**Density**  
 Modify an object density. The body's density and volume determine its mass.
 
 ??? quote "See parameters"
@@ -415,7 +415,7 @@ Modify an object density. The body's density and volume determine its mass.
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-**Distance joint damping ratio**
+**Distance joint damping ratio**  
 Modify a distance joint damping ratio.
 
 ??? quote "See parameters"
@@ -426,7 +426,7 @@ Modify a distance joint damping ratio.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
-**Distance joint frequency**
+**Distance joint frequency**  
 Modify a distance joint frequency.
 
 ??? quote "See parameters"
@@ -437,7 +437,7 @@ Modify a distance joint frequency.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
-**Distance joint length**
+**Distance joint length**  
 Modify a distance joint length.
 
 ??? quote "See parameters"
@@ -448,7 +448,7 @@ Modify a distance joint length.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
-**Enable layer**
+**Enable layer**  
 Enable or disable a layer for an object. Two objects collide if any layer of the first object matches any mask of the second one and vice versa.
 
 ??? quote "See parameters"
@@ -458,7 +458,7 @@ Enable or disable a layer for an object. Two objects collide if any layer of the
     - Parameter 2 (🔢 Number): Layer (1 - 16)
     - Parameter 3 (❓ Yes or No): Enable
 
-**Enable mask**
+**Enable mask**  
 Enable or disable a mask for an object. Two objects collide if any layer of the first object matches any mask of the second one and vice versa.
 
 ??? quote "See parameters"
@@ -468,7 +468,7 @@ Enable or disable a mask for an object. Two objects collide if any layer of the 
     - Parameter 2 (🔢 Number): Mask (1 - 16)
     - Parameter 3 (❓ Yes or No): Enable
 
-**Enable prismatic joint limits**
+**Enable prismatic joint limits**  
 Enable or disable a prismatic joint limits.
 
 ??? quote "See parameters"
@@ -478,7 +478,7 @@ Enable or disable a prismatic joint limits.
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3 (❓ Yes or No): Enable
 
-**Enable prismatic joint motor**
+**Enable prismatic joint motor**  
 Enable or disable a prismatic joint motor.
 
 ??? quote "See parameters"
@@ -488,7 +488,7 @@ Enable or disable a prismatic joint motor.
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3 (❓ Yes or No): Enable
 
-**Enable revolute joint limits**
+**Enable revolute joint limits**  
 Enable or disable a revolute joint angle limits.
 
 ??? quote "See parameters"
@@ -498,7 +498,7 @@ Enable or disable a revolute joint angle limits.
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3 (❓ Yes or No): Enable
 
-**Enable revolute joint motor**
+**Enable revolute joint motor**  
 Enable or disable a revolute joint motor.
 
 ??? quote "See parameters"
@@ -508,7 +508,7 @@ Enable or disable a revolute joint motor.
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3 (❓ Yes or No): Enable
 
-**Enable wheel joint motor**
+**Enable wheel joint motor**  
 Enable or disable a wheel joint motor.
 
 ??? quote "See parameters"
@@ -518,7 +518,7 @@ Enable or disable a wheel joint motor.
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3 (❓ Yes or No): Enable
 
-**Friction**
+**Friction**  
 Modify an object friction. How much energy is lost from the movement of one object over another. The combined friction from two bodies is calculated as 'sqrt(bodyA.friction * bodyB.friction)'.
 
 ??? quote "See parameters"
@@ -528,7 +528,7 @@ Modify an object friction. How much energy is lost from the movement of one obje
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-**Friction joint max force**
+**Friction joint max force**  
 Modify a friction joint maximum force.
 
 ??? quote "See parameters"
@@ -539,7 +539,7 @@ Modify a friction joint maximum force.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
-**Friction joint max torque**
+**Friction joint max torque**  
 Modify a friction joint maximum torque.
 
 ??? quote "See parameters"
@@ -550,7 +550,7 @@ Modify a friction joint maximum torque.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
-**Gear joint ratio**
+**Gear joint ratio**  
 Modify a Gear joint ratio.
 
 ??? quote "See parameters"
@@ -561,7 +561,7 @@ Modify a Gear joint ratio.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
-**World gravity**
+**World gravity**  
 Modify the world gravity. While an object is needed, this will apply to all objects using the behavior.
 
 ??? quote "See parameters"
@@ -571,7 +571,7 @@ Modify the world gravity. While an object is needed, this will apply to all obje
     - Parameter 2 (🔢 Number): Gravity X
     - Parameter 3 (🔢 Number): Gravity Y
 
-**Gravity scale**
+**Gravity scale**  
 Modify an object gravity scale. The gravity applied to an object is the world gravity multiplied by the object gravity scale.
 
 ??? quote "See parameters"
@@ -581,7 +581,7 @@ Modify an object gravity scale. The gravity applied to an object is the world gr
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Scale (1 by default)
 
-**Linear damping**
+**Linear damping**  
 Modify an object linear damping. How much movement speed is lost across the time.
 
 ??? quote "See parameters"
@@ -591,7 +591,7 @@ Modify an object linear damping. How much movement speed is lost across the time
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-**Linear velocity towards an angle**
+**Linear velocity towards an angle**  
 Set the linear velocity towards an angle.
 
 ??? quote "See parameters"
@@ -601,7 +601,7 @@ Set the linear velocity towards an angle.
     - Parameter 2 (🔢 Number): Angle
     - Parameter 3 (🔢 Number): Speed (in pixels per second)
 
-**Linear velocity X**
+**Linear velocity X**  
 Modify an object linear velocity on X.
 
 ??? quote "See parameters"
@@ -611,7 +611,7 @@ Modify an object linear velocity on X.
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Speed (in pixels per second)
 
-**Linear velocity Y**
+**Linear velocity Y**  
 Modify an object linear velocity on Y.
 
 ??? quote "See parameters"
@@ -621,7 +621,7 @@ Modify an object linear velocity on Y.
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Speed (in pixels per second)
 
-**Motor joint angular offset**
+**Motor joint angular offset**  
 Modify a motor joint angular offset.
 
 ??? quote "See parameters"
@@ -632,7 +632,7 @@ Modify a motor joint angular offset.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
-**Motor joint correction factor**
+**Motor joint correction factor**  
 Modify a motor joint correction factor.
 
 ??? quote "See parameters"
@@ -643,7 +643,7 @@ Modify a motor joint correction factor.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
-**Motor joint max force**
+**Motor joint max force**  
 Modify a motor joint maximum force.
 
 ??? quote "See parameters"
@@ -654,7 +654,7 @@ Modify a motor joint maximum force.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
-**Motor joint max torque**
+**Motor joint max torque**  
 Modify a motor joint maximum torque.
 
 ??? quote "See parameters"
@@ -665,7 +665,7 @@ Modify a motor joint maximum torque.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
-**Motor joint offset**
+**Motor joint offset**  
 Modify a motor joint offset.
 
 ??? quote "See parameters"
@@ -676,7 +676,7 @@ Modify a motor joint offset.
     - Parameter 3 (🔢 Number): Offset X
     - Parameter 4 (🔢 Number): Offset Y
 
-**Mouse joint damping ratio**
+**Mouse joint damping ratio**  
 Set a mouse joint damping ratio.
 
 ??? quote "See parameters"
@@ -687,7 +687,7 @@ Set a mouse joint damping ratio.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
-**Mouse joint frequency**
+**Mouse joint frequency**  
 Set a mouse joint frequency.
 
 ??? quote "See parameters"
@@ -698,7 +698,7 @@ Set a mouse joint frequency.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
-**Mouse joint max force**
+**Mouse joint max force**  
 Set a mouse joint maximum force.
 
 ??? quote "See parameters"
@@ -709,7 +709,7 @@ Set a mouse joint maximum force.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
-**Mouse joint target**
+**Mouse joint target**  
 Set a mouse joint target.
 
 ??? quote "See parameters"
@@ -720,7 +720,7 @@ Set a mouse joint target.
     - Parameter 3 (🔢 Number): Target X
     - Parameter 4 (🔢 Number): Target Y
 
-**Prismatic joint limits**
+**Prismatic joint limits**  
 Modify a prismatic joint limits.
 
 ??? quote "See parameters"
@@ -731,7 +731,7 @@ Modify a prismatic joint limits.
     - Parameter 3 (🔢 Number): Minimum translation
     - Parameter 4 (🔢 Number): Maximum translation
 
-**Prismatic joint max motor force**
+**Prismatic joint max motor force**  
 Modify a prismatic joint maximum motor force.
 
 ??? quote "See parameters"
@@ -742,7 +742,7 @@ Modify a prismatic joint maximum motor force.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
-**Prismatic joint motor speed**
+**Prismatic joint motor speed**  
 Modify a prismatic joint motor speed.
 
 ??? quote "See parameters"
@@ -753,7 +753,7 @@ Modify a prismatic joint motor speed.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
-**Remove joint**
+**Remove joint**  
 Remove a joint from the scene.
 
 ??? quote "See parameters"
@@ -762,7 +762,7 @@ Remove a joint from the scene.
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
 
-**Restitution**
+**Restitution**  
 Modify an object restitution. Energy conservation on collision. The combined restitution from two bodies is calculated as 'max(bodyA.restitution, bodyB.restitution)'.
 
 ??? quote "See parameters"
@@ -772,7 +772,7 @@ Modify an object restitution. Energy conservation on collision. The combined res
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-**Revolute joint limits**
+**Revolute joint limits**  
 Modify a revolute joint angle limits.
 
 ??? quote "See parameters"
@@ -783,7 +783,7 @@ Modify a revolute joint angle limits.
     - Parameter 3 (🔢 Number): Minimum angle
     - Parameter 4 (🔢 Number): Maximum angle
 
-**Revolute joint max motor torque**
+**Revolute joint max motor torque**  
 Modify a revolute joint maximum motor torque.
 
 ??? quote "See parameters"
@@ -794,7 +794,7 @@ Modify a revolute joint maximum motor torque.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
-**Revolute joint motor speed**
+**Revolute joint motor speed**  
 Modify a revolute joint motor speed.
 
 ??? quote "See parameters"
@@ -805,7 +805,7 @@ Modify a revolute joint motor speed.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
-**Rope joint max length**
+**Rope joint max length**  
 Modify a rope joint maximum length.
 
 ??? quote "See parameters"
@@ -816,7 +816,7 @@ Modify a rope joint maximum length.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
-**Treat as bullet**
+**Treat as bullet**  
 Treat the object as a bullet. Better collision handling on high speeds at cost of some performance.
 
 ??? quote "See parameters"
@@ -825,7 +825,7 @@ Treat the object as a bullet. Better collision handling on high speeds at cost o
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Treat as bullet
 
-**Set as dynamic**
+**Set as dynamic**  
 Set an object as dynamic. Is affected by gravity, forces and velocities.
 
 ??? quote "See parameters"
@@ -833,7 +833,7 @@ Set an object as dynamic. Is affected by gravity, forces and velocities.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Fixed rotation**
+**Fixed rotation**  
 Enable or disable an object fixed rotation. If enabled the object won't be able to rotate.
 
 ??? quote "See parameters"
@@ -842,7 +842,7 @@ Enable or disable an object fixed rotation. If enabled the object won't be able 
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Fixed rotation
 
-**Set as kinematic**
+**Set as kinematic**  
 Set an object as kinematic. Is like a static body but can be moved through its velocity.
 
 ??? quote "See parameters"
@@ -850,7 +850,7 @@ Set an object as kinematic. Is like a static body but can be moved through its v
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Sleeping allowed**
+**Sleeping allowed**  
 Allow or not an object to sleep. If enabled the object will be able to sleep, improving performance for non-currently-moving objects.
 
 ??? quote "See parameters"
@@ -859,7 +859,7 @@ Allow or not an object to sleep. If enabled the object will be able to sleep, im
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Can sleep
 
-**Set as static**
+**Set as static**  
 Set an object as static. Is not affected by gravity, and can't be moved by forces or velocities at all.
 
 ??? quote "See parameters"
@@ -867,7 +867,7 @@ Set an object as static. Is not affected by gravity, and can't be moved by force
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Shape scale**
+**Shape scale**  
 Modify an object shape scale. It affects custom shape dimensions and shape offset, if custom dimensions are not set the body will be scaled automatically to the object size.
 
 ??? quote "See parameters"
@@ -877,7 +877,7 @@ Modify an object shape scale. It affects custom shape dimensions and shape offse
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Scale (1 by default)
 
-**Weld joint damping ratio**
+**Weld joint damping ratio**  
 Modify a weld joint damping ratio.
 
 ??? quote "See parameters"
@@ -888,7 +888,7 @@ Modify a weld joint damping ratio.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
-**Weld joint frequency**
+**Weld joint frequency**  
 Modify a weld joint frequency.
 
 ??? quote "See parameters"
@@ -899,7 +899,7 @@ Modify a weld joint frequency.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
-**Wheel joint damping ratio**
+**Wheel joint damping ratio**  
 Modify a wheel joint damping ratio.
 
 ??? quote "See parameters"
@@ -910,7 +910,7 @@ Modify a wheel joint damping ratio.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
-**Wheel joint frequency**
+**Wheel joint frequency**  
 Modify a wheel joint frequency.
 
 ??? quote "See parameters"
@@ -921,7 +921,7 @@ Modify a wheel joint frequency.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
-**Wheel joint max motor torque**
+**Wheel joint max motor torque**  
 Modify a wheel joint maximum motor torque.
 
 ??? quote "See parameters"
@@ -932,7 +932,7 @@ Modify a wheel joint maximum motor torque.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
-**Wheel joint motor speed**
+**Wheel joint motor speed**  
 Modify a wheel joint motor speed.
 
 ??? quote "See parameters"
@@ -945,7 +945,7 @@ Modify a wheel joint motor speed.
 
 ### Behavior conditions
 
-**Angular damping**
+**Angular damping**  
 Test an object angular damping.
 
 ??? quote "See parameters"
@@ -955,7 +955,7 @@ Test an object angular damping.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-**Angular velocity**
+**Angular velocity**  
 Test an object angular velocity.
 
 ??? quote "See parameters"
@@ -965,7 +965,7 @@ Test an object angular velocity.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Angular speed to compare to (in degrees per second)
 
-**Density**
+**Density**  
 Test an object density.
 
 ??? quote "See parameters"
@@ -975,7 +975,7 @@ Test an object density.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-**Friction**
+**Friction**  
 Test an object friction.
 
 ??? quote "See parameters"
@@ -985,7 +985,7 @@ Test an object friction.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-**Gravity scale**
+**Gravity scale**  
 Test an object gravity scale.
 
 ??? quote "See parameters"
@@ -995,7 +995,7 @@ Test an object gravity scale.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Scale to compare to (1 by default)
 
-**World gravity on X axis**
+**World gravity on X axis**  
 Compare the world gravity on X axis.
 
 ??? quote "See parameters"
@@ -1005,7 +1005,7 @@ Compare the world gravity on X axis.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Gravity to compare to (in pixels per second per second)
 
-**World gravity on Y axis**
+**World gravity on Y axis**  
 Compare the world gravity on Y axis.
 
 ??? quote "See parameters"
@@ -1015,7 +1015,7 @@ Compare the world gravity on Y axis.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Gravity to compare to (in pixels per second per second)
 
-**Has fixed rotation**
+**Has fixed rotation**  
 Check if an object has fixed rotation.
 
 ??? quote "See parameters"
@@ -1023,7 +1023,7 @@ Check if an object has fixed rotation.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Is treated as a bullet**
+**Is treated as a bullet**  
 Check if the object is being treated as a bullet.
 
 ??? quote "See parameters"
@@ -1031,7 +1031,7 @@ Check if the object is being treated as a bullet.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Is dynamic**
+**Is dynamic**  
 Check if an object is dynamic.
 
 ??? quote "See parameters"
@@ -1039,7 +1039,7 @@ Check if an object is dynamic.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Is kinematic**
+**Is kinematic**  
 Check if an object is kinematic.
 
 ??? quote "See parameters"
@@ -1047,7 +1047,7 @@ Check if an object is kinematic.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Is sleeping**
+**Is sleeping**  
 Check if an object is sleeping.
 
 ??? quote "See parameters"
@@ -1055,7 +1055,7 @@ Check if an object is sleeping.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Is sleeping allowed**
+**Is sleeping allowed**  
 Check if an object can sleep.
 
 ??? quote "See parameters"
@@ -1063,7 +1063,7 @@ Check if an object can sleep.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Is static**
+**Is static**  
 Check if an object is static.
 
 ??? quote "See parameters"
@@ -1071,7 +1071,7 @@ Check if an object is static.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Joint first object**
+**Joint first object**  
 Check if an object is the first object on a joint.
 
 ??? quote "See parameters"
@@ -1080,7 +1080,7 @@ Check if an object is the first object on a joint.
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
 
-**Joint reaction force**
+**Joint reaction force**  
 Test a joint reaction force.
 
 ??? quote "See parameters"
@@ -1091,7 +1091,7 @@ Test a joint reaction force.
     - Parameter 3: 🟰 Relational operator
     - Parameter 4 (🔢 Number): Value to compare
 
-**Joint reaction torque**
+**Joint reaction torque**  
 Test a joint reaction torque.
 
 ??? quote "See parameters"
@@ -1102,7 +1102,7 @@ Test a joint reaction torque.
     - Parameter 3: 🟰 Relational operator
     - Parameter 4 (🔢 Number): Value to compare
 
-**Joint second object**
+**Joint second object**  
 Check if an object is the second object on a joint.
 
 ??? quote "See parameters"
@@ -1111,7 +1111,7 @@ Check if an object is the second object on a joint.
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
 
-**Layer enabled**
+**Layer enabled**  
 Check if an object has a specific layer enabled.
 
 ??? quote "See parameters"
@@ -1120,7 +1120,7 @@ Check if an object has a specific layer enabled.
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Layer (1 - 16)
 
-**Linear damping**
+**Linear damping**  
 Test an object linear damping.
 
 ??? quote "See parameters"
@@ -1130,7 +1130,7 @@ Test an object linear damping.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-**Linear velocity**
+**Linear velocity**  
 Test an object linear velocity length.
 
 ??? quote "See parameters"
@@ -1140,7 +1140,7 @@ Test an object linear velocity length.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Speed to compare to (in pixels per second)
 
-**Linear velocity X**
+**Linear velocity X**  
 Test an object linear velocity on X.
 
 ??? quote "See parameters"
@@ -1150,7 +1150,7 @@ Test an object linear velocity on X.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Speed to compare to (in pixels per second)
 
-**Linear velocity Y**
+**Linear velocity Y**  
 Test an object linear velocity on Y.
 
 ??? quote "See parameters"
@@ -1160,7 +1160,7 @@ Test an object linear velocity on Y.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Speed to compare to (in pixels per second)
 
-**Mask enabled**
+**Mask enabled**  
 Check if an object has a specific mask enabled.
 
 ??? quote "See parameters"
@@ -1169,7 +1169,7 @@ Check if an object has a specific mask enabled.
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Mask (1 - 16)
 
-**Linear velocity angle**
+**Linear velocity angle**  
 Compare the linear velocity angle of the object.
 
 ??? quote "See parameters"
@@ -1179,7 +1179,7 @@ Compare the linear velocity angle of the object.
     - Parameter 2 (🔢 Number): Angle (in degrees)
     - Parameter 3 (🔢 Number): Tolerance (in degrees)
 
-**Prismatic joint limits enabled**
+**Prismatic joint limits enabled**  
 Check if a prismatic joint limits are enabled.
 
 ??? quote "See parameters"
@@ -1188,7 +1188,7 @@ Check if a prismatic joint limits are enabled.
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
 
-**Prismatic joint motor enabled**
+**Prismatic joint motor enabled**  
 Check if a prismatic joint motor is enabled.
 
 ??? quote "See parameters"
@@ -1197,7 +1197,7 @@ Check if a prismatic joint motor is enabled.
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
 
-**Restitution**
+**Restitution**  
 Test an object restitution.
 
 ??? quote "See parameters"
@@ -1207,7 +1207,7 @@ Test an object restitution.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-**Revolute joint limits enabled**
+**Revolute joint limits enabled**  
 Check if a revolute joint limits are enabled.
 
 ??? quote "See parameters"
@@ -1216,7 +1216,7 @@ Check if a revolute joint limits are enabled.
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
 
-**Revolute joint motor enabled**
+**Revolute joint motor enabled**  
 Check if a revolute joint motor is enabled.
 
 ??? quote "See parameters"
@@ -1225,7 +1225,7 @@ Check if a revolute joint motor is enabled.
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
 
-**World time scale**
+**World time scale**  
 Compare the world time scale.
 
 ??? quote "See parameters"
@@ -1235,7 +1235,7 @@ Compare the world time scale.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Time scale to compare to (1 by default)
 
-**Wheel joint motor enabled**
+**Wheel joint motor enabled**  
 Check if a wheel joint motor is enabled.
 
 ??? quote "See parameters"

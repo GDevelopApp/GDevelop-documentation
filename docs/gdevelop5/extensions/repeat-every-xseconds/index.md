@@ -14,7 +14,7 @@ Convenience conditions, actions and behaviors for timers to trigger a condition 
 
 ## Actions
 
-**Reset repetition count of a scene timer**
+**Reset repetition count of a scene timer**  
 Reset repetition count of a scene timer.
 
 ??? quote "See parameters"
@@ -25,7 +25,7 @@ Reset repetition count of a scene timer.
 
 ## Conditions
 
-**Repeat with a scene timer**
+**Repeat with a scene timer**  
 Triggers every X seconds.
 
 ??? quote "See parameters"
@@ -35,7 +35,7 @@ Triggers every X seconds.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Repeat with a scene timer X times**
+**Repeat with a scene timer X times**  
 Triggers every X seconds X amount of times.
 
 ??? quote "See parameters"
@@ -47,7 +47,7 @@ Triggers every X seconds X amount of times.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Repetition number of a scene timer**
+**Repetition number of a scene timer**  
 Compare the number of times the timer has repeated.
 
 ??? quote "See parameters"
@@ -71,7 +71,7 @@ Allows to repeat an object timer every X seconds.
 
 ### Behavior actions
 
-**Reset repetition count of an object timer**
+**Reset repetition count of an object timer**  
 Reset repetition count of an object timer.
 
 ??? quote "See parameters"
@@ -84,7 +84,7 @@ Reset repetition count of an object timer.
 
 ### Behavior conditions
 
-**Repeat with an object timer**
+**Repeat with an object timer**  
 Triggers every X seconds.
 
 ??? quote "See parameters"
@@ -96,7 +96,7 @@ Triggers every X seconds.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Repeat with an object timer X times**
+**Repeat with an object timer X times**  
 Triggers every X seconds X amount of times.
 
 ??? quote "See parameters"
@@ -110,7 +110,7 @@ Triggers every X seconds X amount of times.
 
     > Technical note: parameter 5 are internal parameters handled by GDevelop.
 
-**Repetition number of an object timer**
+**Repetition number of an object timer**  
 Compare the number of times the timer has repeated.
 
 ??? quote "See parameters"

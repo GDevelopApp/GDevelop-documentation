@@ -24,7 +24,7 @@ Face object towards the direction of movement.
 
 ### Behavior actions
 
-**Set offset angle**
+**Set offset angle**  
 Set offset angle.
 
 ??? quote "See parameters"
@@ -35,7 +35,7 @@ Set offset angle.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set rotation speed**
+**Set rotation speed**  
 Set rotation speed (degrees per second).  Use "0" for immediate turning.
 
 ??? quote "See parameters"

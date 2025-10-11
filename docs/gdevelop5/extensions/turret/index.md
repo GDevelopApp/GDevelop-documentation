@@ -21,7 +21,7 @@ A turret movement with customizable speed, acceleration and stop angles.
 
 ### Behavior actions
 
-**Move clockwise**
+**Move clockwise**  
 Move clockwise.
 
 ??? quote "See parameters"
@@ -31,7 +31,7 @@ Move clockwise.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Move counter-clockwise**
+**Move counter-clockwise**  
 Move counter-clockwise.
 
 ??? quote "See parameters"
@@ -41,7 +41,7 @@ Move counter-clockwise.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Move toward a position**
+**Move toward a position**  
 Move toward a position.
 
 ??? quote "See parameters"
@@ -54,7 +54,7 @@ Move toward a position.
 
     > Technical note: parameter 5 are internal parameters handled by GDevelop.
 
-**Aiming angle**
+**Aiming angle**  
 Change the aiming angle.
 
 ??? quote "See parameters"
@@ -65,7 +65,7 @@ Change the aiming angle.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set aiming angle toward a position**
+**Set aiming angle toward a position**  
 Set angle toward a position.
 
 ??? quote "See parameters"
@@ -79,7 +79,7 @@ Set angle toward a position.
 
 ### Behavior conditions
 
-**Is moving**
+**Is moving**  
 Check if the turret is moving.
 
 ??? quote "See parameters"

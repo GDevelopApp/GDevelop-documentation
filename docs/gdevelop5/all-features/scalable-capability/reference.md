@@ -10,7 +10,7 @@ Actions/conditions/expression to change or check the scale of an object (default
 
 ### Behavior actions
 
-**Scale**
+**Scale**  
 Change the scale of the object (default scale is 1).
 
 ??? quote "See parameters"
@@ -20,7 +20,7 @@ Change the scale of the object (default scale is 1).
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Scale (1 by default)
 
-**Scale on X axis**
+**Scale on X axis**  
 Change the scale on X axis of the object (default scale is 1).
 
 ??? quote "See parameters"
@@ -30,7 +30,7 @@ Change the scale on X axis of the object (default scale is 1).
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Scale (1 by default)
 
-**Scale on Y axis**
+**Scale on Y axis**  
 Change the scale on Y axis of the object (default scale is 1).
 
 ??? quote "See parameters"
@@ -42,7 +42,7 @@ Change the scale on Y axis of the object (default scale is 1).
 
 ### Behavior conditions
 
-**Scale**
+**Scale**  
 Compare the scale of the object (default scale is 1).
 
 ??? quote "See parameters"
@@ -52,7 +52,7 @@ Compare the scale of the object (default scale is 1).
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Scale (1 by default)
 
-**Scale on X axis**
+**Scale on X axis**  
 Compare the scale on X axis of the object (default scale is 1).
 
 ??? quote "See parameters"
@@ -62,7 +62,7 @@ Compare the scale on X axis of the object (default scale is 1).
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Scale (1 by default)
 
-**Scale on Y axis**
+**Scale on Y axis**  
 Compare the scale on Y axis of the object (default scale is 1).
 
 ??? quote "See parameters"

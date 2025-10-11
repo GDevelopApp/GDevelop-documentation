@@ -20,7 +20,7 @@ Displays the player score and allows to submit it to a leaderboard.
 
 ### Object actions
 
-**Best score**
+**Best score**  
 Change the best score of the object.
 
 ??? quote "See parameters"
@@ -31,7 +31,7 @@ Change the best score of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Default player name**
+**Default player name**  
 Change the default player name.
 
 ??? quote "See parameters"
@@ -42,7 +42,7 @@ Change the default player name.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Leaderboard**
+**Leaderboard**  
 Change the leaderboard of the object.
 
 ??? quote "See parameters"
@@ -53,7 +53,7 @@ Change the leaderboard of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Score**
+**Score**  
 Change the score.
 
 ??? quote "See parameters"
@@ -64,7 +64,7 @@ Change the score.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Title**
+**Title**  
 Change the title of the object.
 
 ??? quote "See parameters"
@@ -77,7 +77,7 @@ Change the title of the object.
 
 ### Object conditions
 
-**Best score**
+**Best score**  
 Compare the best score of the object.
 
 ??? quote "See parameters"
@@ -88,7 +88,7 @@ Compare the best score of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Default player name**
+**Default player name**  
 Compare the default player name.
 
 ??? quote "See parameters"
@@ -99,7 +99,7 @@ Compare the default player name.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Back button clicked**
+**Back button clicked**  
 Check if the back button of the dialog is clicked.
 
 ??? quote "See parameters"
@@ -108,7 +108,7 @@ Check if the back button of the dialog is clicked.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Next button clicked**
+**Next button clicked**  
 Check if the next button of the dialog is clicked.
 
 ??? quote "See parameters"
@@ -117,7 +117,7 @@ Check if the next button of the dialog is clicked.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Restart button clicked**
+**Restart button clicked**  
 Check if the restart button of the dialog is clicked.
 
 ??? quote "See parameters"
@@ -126,7 +126,7 @@ Check if the restart button of the dialog is clicked.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Score is submitted**
+**Score is submitted**  
 Check if the score has been sucessfully submitted by the dialog.
 
 ??? quote "See parameters"
@@ -135,7 +135,7 @@ Check if the score has been sucessfully submitted by the dialog.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Leaderboard**
+**Leaderboard**  
 Compare the leaderboard of the object.
 
 ??? quote "See parameters"
@@ -146,7 +146,7 @@ Compare the leaderboard of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Player name**
+**Player name**  
 Compare the player name.
 
 ??? quote "See parameters"
@@ -157,7 +157,7 @@ Compare the player name.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Score**
+**Score**  
 Compare the score.
 
 ??? quote "See parameters"

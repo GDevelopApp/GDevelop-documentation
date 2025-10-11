@@ -31,7 +31,7 @@ Sway multiple instances of an object at different times - useful for random gras
 
 ### Behavior actions
 
-**Set sway angle left and right**
+**Set sway angle left and right**  
 Set sway angle left and right.
 
 ??? quote "See parameters"
@@ -43,7 +43,7 @@ Set sway angle left and right.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Set sway angle time range**
+**Set sway angle time range**  
 Set sway angle time range.
 
 ??? quote "See parameters"
@@ -55,7 +55,7 @@ Set sway angle time range.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Set sway Y scale mininum and maximum**
+**Set sway Y scale mininum and maximum**  
 Set sway Y scale mininum and maximum.
 
 ??? quote "See parameters"
@@ -67,7 +67,7 @@ Set sway Y scale mininum and maximum.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Set sway Y scale time range**
+**Set sway Y scale time range**  
 Set Y scale time range.
 
 ??? quote "See parameters"

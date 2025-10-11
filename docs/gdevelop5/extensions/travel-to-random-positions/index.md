@@ -20,7 +20,7 @@ If you want to modify the speed of the object, edit the Pathfinding behavior of 
 
 ## Actions
 
-**Make object travel to a random position, with optional direction**
+**Make object travel to a random position, with optional direction**  
 Make object travel to a random position around the object current position. The movement is initiated only when the object is not moving already (its Pathfinding behavior speed is 0).  Move towards a specified angle, if desired.
 
 ??? quote "See parameters"

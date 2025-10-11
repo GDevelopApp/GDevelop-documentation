@@ -32,7 +32,7 @@ The scale of the object decreases the closer it is to the horizon, giving the il
 
 ### Behavior actions
 
-**Set exponential rate of change**
+**Set exponential rate of change**  
 Set Y exponential rate of change (Default: 2).
 
 ??? quote "See parameters"
@@ -43,7 +43,7 @@ Set Y exponential rate of change (Default: 2).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set Y position of horizon**
+**Set Y position of horizon**  
 Set Y position of the horizon, where objects are infinitely small (Default: 0).
 
 ??? quote "See parameters"
@@ -54,7 +54,7 @@ Set Y position of the horizon, where objects are infinitely small (Default: 0).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set max scale**
+**Set max scale**  
 Set max scale when the object is at the bottom of the screen (Default: 2).
 
 ??? quote "See parameters"

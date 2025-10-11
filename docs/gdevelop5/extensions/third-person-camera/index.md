@@ -21,7 +21,7 @@ It can be useful for:
 
 ## Actions
 
-**Look at an object from a distance**
+**Look at an object from a distance**  
 Move the camera to look at an object from a distance.
 
 ??? quote "See parameters"
@@ -35,7 +35,7 @@ Move the camera to look at an object from a distance.
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
-**Look at a position from a distance**
+**Look at a position from a distance**  
 Move the camera to look at a position from a distance.
 
 ??? quote "See parameters"
@@ -58,7 +58,7 @@ Smoothly follow an object at a distance.
 
 ### Behavior actions
 
-**Rotate the camera all the way**
+**Rotate the camera all the way**  
 Rotate the camera all the way to the targeted angle.
 
 ??? quote "See parameters"
@@ -68,7 +68,7 @@ Rotate the camera all the way to the targeted angle.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Move the camera closer**
+**Move the camera closer**  
 Move the camera closer to the object. This action must be called after the object has moved for the frame.
 
 ??? quote "See parameters"
@@ -78,7 +78,7 @@ Move the camera closer to the object. This action must be called after the objec
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Camera rotation**
+**Camera rotation**  
 Change the camera rotation.
 
 ??? quote "See parameters"
@@ -90,7 +90,7 @@ Change the camera rotation.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Camera distance**
+**Camera distance**  
 Change the camera distance of the object.
 
 ??? quote "See parameters"
@@ -102,7 +102,7 @@ Change the camera distance of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Elevation angle offset**
+**Elevation angle offset**  
 Change the elevation angle offset of the object.
 
 ??? quote "See parameters"
@@ -114,7 +114,7 @@ Change the elevation angle offset of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Halfway  time for elevation rotation**
+**Halfway  time for elevation rotation**  
 Change the halfway  time for elevation rotation of the object.
 
 ??? quote "See parameters"
@@ -126,7 +126,7 @@ Change the halfway  time for elevation rotation of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Follow free area top border on Z axis**
+**Follow free area top border on Z axis**  
 Change the follow free area top border on Z axis of the object.
 
 ??? quote "See parameters"
@@ -138,7 +138,7 @@ Change the follow free area top border on Z axis of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Follow free area bottom border on Z axis**
+**Follow free area bottom border on Z axis**  
 Change the follow free area bottom border on Z axis of the object.
 
 ??? quote "See parameters"
@@ -150,7 +150,7 @@ Change the follow free area bottom border on Z axis of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Lateral distance offset**
+**Lateral distance offset**  
 Change the lateral distance offset of the object.
 
 ??? quote "See parameters"
@@ -162,7 +162,7 @@ Change the lateral distance offset of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Ahead distance offset**
+**Ahead distance offset**  
 Change the ahead distance offset of the object.
 
 ??? quote "See parameters"
@@ -174,7 +174,7 @@ Change the ahead distance offset of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Z offset**
+**Z offset**  
 Change the z offset of the object.
 
 ??? quote "See parameters"
@@ -186,7 +186,7 @@ Change the z offset of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Rotation angle offset**
+**Rotation angle offset**  
 Change the rotation angle offset of the object.
 
 ??? quote "See parameters"
@@ -198,7 +198,7 @@ Change the rotation angle offset of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Halfway time for rotation**
+**Halfway time for rotation**  
 Change the halfway time for rotation of the object.
 
 ??? quote "See parameters"
@@ -210,7 +210,7 @@ Change the halfway time for rotation of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Targeted rotation angle**
+**Targeted rotation angle**  
 Change the targeted camera rotation angle of the object. When this angle is set, the camera follow this value instead of the object angle.
 
 ??? quote "See parameters"
@@ -222,7 +222,7 @@ Change the targeted camera rotation angle of the object. When this angle is set,
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Halfway time on Z axis**
+**Halfway time on Z axis**  
 Change the halfway time on Z axis of the object.
 
 ??? quote "See parameters"
@@ -236,7 +236,7 @@ Change the halfway time on Z axis of the object.
 
 ### Behavior conditions
 
-**Camera distance**
+**Camera distance**  
 Compare the camera distance of the object.
 
 ??? quote "See parameters"
@@ -248,7 +248,7 @@ Compare the camera distance of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Elevation angle offset**
+**Elevation angle offset**  
 Compare the elevation angle offset of the object.
 
 ??? quote "See parameters"
@@ -260,7 +260,7 @@ Compare the elevation angle offset of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Halfway  time for elevation rotation**
+**Halfway  time for elevation rotation**  
 Compare the halfway  time for elevation rotation of the object.
 
 ??? quote "See parameters"
@@ -272,7 +272,7 @@ Compare the halfway  time for elevation rotation of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Follow free area top border on Z axis**
+**Follow free area top border on Z axis**  
 Compare the follow free area top border on Z axis of the object.
 
 ??? quote "See parameters"
@@ -284,7 +284,7 @@ Compare the follow free area top border on Z axis of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Follow free area bottom border on Z axis**
+**Follow free area bottom border on Z axis**  
 Compare the follow free area bottom border on Z axis of the object.
 
 ??? quote "See parameters"
@@ -296,7 +296,7 @@ Compare the follow free area bottom border on Z axis of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Lateral distance offset**
+**Lateral distance offset**  
 Compare the lateral distance offset of the object.
 
 ??? quote "See parameters"
@@ -308,7 +308,7 @@ Compare the lateral distance offset of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Ahead distance offset**
+**Ahead distance offset**  
 Compare the ahead distance offset of the object.
 
 ??? quote "See parameters"
@@ -320,7 +320,7 @@ Compare the ahead distance offset of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Z offset**
+**Z offset**  
 Compare the z offset of the object.
 
 ??? quote "See parameters"
@@ -332,7 +332,7 @@ Compare the z offset of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Rotation angle offset**
+**Rotation angle offset**  
 Compare the rotation angle offset of the object.
 
 ??? quote "See parameters"
@@ -344,7 +344,7 @@ Compare the rotation angle offset of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Halfway time for rotation**
+**Halfway time for rotation**  
 Compare the halfway time for rotation of the object.
 
 ??? quote "See parameters"
@@ -356,7 +356,7 @@ Compare the halfway time for rotation of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Targeted rotation angle**
+**Targeted rotation angle**  
 Compare the targeted camera rotation angle of the object. When this angle is set, the camera follow this value instead of the object angle.
 
 ??? quote "See parameters"
@@ -368,7 +368,7 @@ Compare the targeted camera rotation angle of the object. When this angle is set
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Halfway time on Z axis**
+**Halfway time on Z axis**  
 Compare the halfway time on Z axis of the object.
 
 ??? quote "See parameters"

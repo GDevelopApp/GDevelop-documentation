@@ -16,7 +16,7 @@ Find the list of cursors here: https://developer.mozilla.org/en-US/docs/Web/CSS/
 
 ## Actions
 
-**Cursor type**
+**Cursor type**  
 Change the type of the cursor.
 
 ??? quote "See parameters"

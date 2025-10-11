@@ -28,7 +28,7 @@ Doesn't contain:
 
 ## Actions
 
-**Connect to server**
+**Connect to server**  
 Connects to a WebSocket server. 
 
 ??? quote "See parameters"
@@ -37,7 +37,7 @@ Connects to a WebSocket server.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Disconnect from server**
+**Disconnect from server**  
 Disconnects from the current WebSocket server.
 
 ??? quote "See parameters"
@@ -46,7 +46,7 @@ Disconnects from the current WebSocket server.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Mark as processed**
+**Mark as processed**  
 Dismisses an event after processing it to allow processing the next one without waiting for the next frame.
 
 ??? quote "See parameters"
@@ -55,7 +55,7 @@ Dismisses an event after processing it to allow processing the next one without 
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Send data to the server**
+**Send data to the server**  
 Sends a string to the server.
 
 ??? quote "See parameters"
@@ -66,7 +66,7 @@ Sends a string to the server.
 
 ## Conditions
 
-**An event was received**
+**An event was received**  
 Triggers when the server has sent the client some data.
 
 ??? quote "See parameters"
@@ -75,7 +75,7 @@ Triggers when the server has sent the client some data.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Connection to a server was closed**
+**Connection to a server was closed**  
 Triggers if the connection to a WebSocket server was closed.
 
 ??? quote "See parameters"
@@ -84,7 +84,7 @@ Triggers if the connection to a WebSocket server was closed.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Connected to a server**
+**Connected to a server**  
 Triggers if the client is connected to a WebSocket server.
 
 ??? quote "See parameters"
@@ -93,7 +93,7 @@ Triggers if the client is connected to a WebSocket server.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Connecting to a server**
+**Connecting to a server**  
 Triggers if the client is currently connecting to the WebSocket server.
 
 ??? quote "See parameters"
@@ -102,7 +102,7 @@ Triggers if the client is currently connecting to the WebSocket server.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**An error occurred**
+**An error occurred**  
 Triggers when a WebSocket error has occurred.
 
 ??? quote "See parameters"

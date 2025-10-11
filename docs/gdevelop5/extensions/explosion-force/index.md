@@ -34,7 +34,7 @@ Variables given to Target Objects:
 
 ## Actions
 
-**Simulate explosion with physics forces**
+**Simulate explosion with physics forces**  
 Simulate an explosion with physics forces on target objects.
 
 ??? quote "See parameters"

@@ -28,7 +28,7 @@ Drag a physics object with the mouse (or touch).
 
 ### Behavior actions
 
-**Release dragged object**
+**Release dragged object**  
 Release dragged object.
 
 ??? quote "See parameters"
@@ -38,7 +38,7 @@ Release dragged object.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Damping ratio**
+**Damping ratio**  
 Change the joint damping ratio (range: 0 to 1) of the object. 
 
 ??? quote "See parameters"
@@ -50,7 +50,7 @@ Change the joint damping ratio (range: 0 to 1) of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Enable (or disable) automatic dragging**
+**Enable (or disable) automatic dragging**  
 Enable (or disable) automatic dragging with the mouse or touch.
 
 ??? quote "See parameters"
@@ -61,7 +61,7 @@ Enable (or disable) automatic dragging with the mouse or touch.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Frequency**
+**Frequency**  
 Change the joint frequency (per second) of the object.
 
 ??? quote "See parameters"
@@ -73,7 +73,7 @@ Change the joint frequency (per second) of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum force**
+**Maximum force**  
 Change the maximum joint force (in Newtons) of the object.
 
 ??? quote "See parameters"
@@ -85,7 +85,7 @@ Change the maximum joint force (in Newtons) of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Mouse button**
+**Mouse button**  
 Change the mouse button used to move the object.
 
 ??? quote "See parameters"
@@ -97,7 +97,7 @@ Change the mouse button used to move the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Start dragging object**
+**Start dragging object**  
 Start dragging object.
 
 ??? quote "See parameters"
@@ -109,7 +109,7 @@ Start dragging object.
 
 ### Behavior conditions
 
-**Damping ratio**
+**Damping ratio**  
 Compare the joint damping ratio (range: 0 to 1) of the object. .
 
 ??? quote "See parameters"
@@ -121,7 +121,7 @@ Compare the joint damping ratio (range: 0 to 1) of the object. .
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Frequency**
+**Frequency**  
 Compare the joint frequency (per second) of the object.
 
 ??? quote "See parameters"
@@ -133,7 +133,7 @@ Compare the joint frequency (per second) of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Automatic dragging**
+**Automatic dragging**  
 Check if automatic dragging is enabled.
 
 ??? quote "See parameters"
@@ -143,7 +143,7 @@ Check if automatic dragging is enabled.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is being dragged**
+**Is being dragged**  
 Check if object is being dragged.
 
 ??? quote "See parameters"
@@ -153,7 +153,7 @@ Check if object is being dragged.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Maximum force**
+**Maximum force**  
 Compare the maximum joint force (in Newtons) of the object.
 
 ??? quote "See parameters"
@@ -165,7 +165,7 @@ Compare the maximum joint force (in Newtons) of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Mouse button**
+**Mouse button**  
 Compare the mouse button used to move the object.
 
 ??? quote "See parameters"

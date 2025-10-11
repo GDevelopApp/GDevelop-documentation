@@ -26,7 +26,7 @@ For instance, it can be helpful for grid-based games like:
 
 ## Actions
 
-**Link to neighbors on a hexagonal grid**
+**Link to neighbors on a hexagonal grid**  
 Link to neighbors on a hexagonal grid.
 
 ??? quote "See parameters"
@@ -39,7 +39,7 @@ Link to neighbors on a hexagonal grid.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Link to neighbors on an isometric grid**
+**Link to neighbors on an isometric grid**  
 Link to neighbors on an isometric grid.
 
 ??? quote "See parameters"
@@ -53,7 +53,7 @@ Link to neighbors on an isometric grid.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Link to neighbors on a rectangular grid**
+**Link to neighbors on a rectangular grid**  
 Link to neighbors on a rectangular grid.
 
 ??? quote "See parameters"
@@ -69,7 +69,7 @@ Link to neighbors on a rectangular grid.
 
 ## Conditions
 
-**Can reach**
+**Can reach**  
 Can reach through links.
 
 ??? quote "See parameters"
@@ -79,7 +79,7 @@ Can reach through links.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Can reach with links limited by length**
+**Can reach with links limited by length**  
 Can reach through a given number of links.
 
 ??? quote "See parameters"
@@ -92,7 +92,7 @@ Can reach through a given number of links.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Can reach with links limited by cost**
+**Can reach with links limited by cost**  
 Can reach through a given cost sum.
 
 ??? quote "See parameters"
@@ -122,7 +122,7 @@ The object will move from one object instance to another according to how they a
 
 ### Behavior actions
 
-**Forget the path**
+**Forget the path**  
 Forget the path.
 
 ??? quote "See parameters"
@@ -132,7 +132,7 @@ Forget the path.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Move to a position**
+**Move to a position**  
 Move the object to a position.
 
 ??? quote "See parameters"
@@ -145,7 +145,7 @@ Move the object to a position.
 
     > Technical note: parameter 5 are internal parameters handled by GDevelop.
 
-**Acceleration**
+**Acceleration**  
 Change the acceleration of the object.
 
 ??? quote "See parameters"
@@ -157,7 +157,7 @@ Change the acceleration of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Angle offset**
+**Angle offset**  
 Change the rotation offset applied when moving the object.
 
 ??? quote "See parameters"
@@ -169,7 +169,7 @@ Change the rotation offset applied when moving the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Rotate the object**
+**Rotate the object**  
 Enable or disable rotation of the object on the path.
 
 ??? quote "See parameters"
@@ -180,7 +180,7 @@ Enable or disable rotation of the object on the path.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Rotation speed**
+**Rotation speed**  
 Change the rotation speed of the object.
 
 ??? quote "See parameters"
@@ -192,7 +192,7 @@ Change the rotation speed of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum speed**
+**Maximum speed**  
 Change the maximum speed of the object.
 
 ??? quote "See parameters"
@@ -206,7 +206,7 @@ Change the maximum speed of the object.
 
 ### Behavior conditions
 
-**Acceleration**
+**Acceleration**  
 Compare the acceleration of the object.
 
 ??? quote "See parameters"
@@ -218,7 +218,7 @@ Compare the acceleration of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Angle offset**
+**Angle offset**  
 Compare the rotation offset applied when moving the object.
 
 ??? quote "See parameters"
@@ -230,7 +230,7 @@ Compare the rotation offset applied when moving the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Destination reached**
+**Destination reached**  
 Check if the destination was reached.
 
 ??? quote "See parameters"
@@ -240,7 +240,7 @@ Check if the destination was reached.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is at a node**
+**Is at a node**  
 Check if the object position is the on a path node.
 
 ??? quote "See parameters"
@@ -250,7 +250,7 @@ Check if the object position is the on a path node.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is moving**
+**Is moving**  
 Check if the object is moving.
 
 ??? quote "See parameters"
@@ -260,7 +260,7 @@ Check if the object is moving.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Path found**
+**Path found**  
 Check if a path has been found.
 
 ??? quote "See parameters"
@@ -270,7 +270,7 @@ Check if a path has been found.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Object rotated**
+**Object rotated**  
 Check if the object is rotated when traveling on its path.
 
 ??? quote "See parameters"
@@ -280,7 +280,7 @@ Check if the object is rotated when traveling on its path.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Rotation speed**
+**Rotation speed**  
 Compare the rotation speed of the object.
 
 ??? quote "See parameters"
@@ -292,7 +292,7 @@ Compare the rotation speed of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum speed**
+**Maximum speed**  
 Compare the maximum speed of the object.
 
 ??? quote "See parameters"

@@ -44,7 +44,7 @@ Convert object to trampoline platform.
 
 ## Actions
 
-**Trampoline Platform**
+**Trampoline Platform**  
 Convert object to trampoline platform.
 
 ??? quote "See parameters"
@@ -61,7 +61,7 @@ Convert object to trampoline platform.
 
 ## Conditions
 
-**Trampoline has been triggered**
+**Trampoline has been triggered**  
 Check if a trampoline has been triggered.
 
 ??? quote "See parameters"

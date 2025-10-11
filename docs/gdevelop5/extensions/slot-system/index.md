@@ -42,7 +42,7 @@ Use a 2D grid position to retrieve your informations. It uses the basic slot sys
 
 ## Actions
 
-**Add item automatically**
+**Add item automatically**  
 Add automatically an item to its slot, or the next empty slot if necessary.
 
 ??? quote "See parameters"
@@ -56,7 +56,7 @@ Add automatically an item to its slot, or the next empty slot if necessary.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Add named slot**
+**Add named slot**  
 Add a special slot with a name to the space.
 
 ??? quote "See parameters"
@@ -66,7 +66,7 @@ Add a special slot with a name to the space.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Import JSON string**
+**Import JSON string**  
 Import a JSON string and convert it in a slot system.
 
 ??? quote "See parameters"
@@ -76,7 +76,7 @@ Import a JSON string and convert it in a slot system.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Delete the grid slot**
+**Delete the grid slot**  
 Delete a grid slot from a space.
 
 ??? quote "See parameters"
@@ -87,7 +87,7 @@ Delete a grid slot from a space.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Delete the named slot**
+**Delete the named slot**  
 Delete a slot from a space.
 
 ??? quote "See parameters"
@@ -97,7 +97,7 @@ Delete a slot from a space.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Delete the slot**
+**Delete the slot**  
 Delete a slot from a space.
 
 ??? quote "See parameters"
@@ -107,7 +107,7 @@ Delete a slot from a space.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Move item on the grid**
+**Move item on the grid**  
 Move an item from a position to an other on the grid.
 
 ??? quote "See parameters"
@@ -122,7 +122,7 @@ Move an item from a position to an other on the grid.
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
-**Move item from named slot to named slot**
+**Move item from named slot to named slot**  
 Move an item from a named slot to an other.
 
 ??? quote "See parameters"
@@ -136,7 +136,7 @@ Move an item from a named slot to an other.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Move item from named slot to slot**
+**Move item from named slot to slot**  
 Move an item from a slot to an other.
 
 ??? quote "See parameters"
@@ -150,7 +150,7 @@ Move an item from a slot to an other.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Move item from slot to named slot**
+**Move item from slot to named slot**  
 Move an item from a slot to an other.
 
 ??? quote "See parameters"
@@ -164,7 +164,7 @@ Move an item from a slot to an other.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Move item from slot to slot**
+**Move item from slot to slot**  
 Move an item from a slot to an other.
 
 ??? quote "See parameters"
@@ -178,7 +178,7 @@ Move an item from a slot to an other.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Delete grid slot property**
+**Delete grid slot property**  
 Delete a property content from a grid slot.
 
 ??? quote "See parameters"
@@ -190,7 +190,7 @@ Delete a property content from a grid slot.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Delete named slot property**
+**Delete named slot property**  
 Delete a property content from a named slot.
 
 ??? quote "See parameters"
@@ -201,7 +201,7 @@ Delete a property content from a named slot.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Delete slot property**
+**Delete slot property**  
 Delete a property content from a slot.
 
 ??? quote "See parameters"
@@ -212,7 +212,7 @@ Delete a property content from a slot.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Grid slot count**
+**Grid slot count**  
 Change the grid slot count of a space.
 
 ??? quote "See parameters"
@@ -225,7 +225,7 @@ Change the grid slot count of a space.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Empty the grid slot**
+**Empty the grid slot**  
 Empty the grid slot of the space only. It still exists in the space.
 
 ??? quote "See parameters"
@@ -236,7 +236,7 @@ Empty the grid slot of the space only. It still exists in the space.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Set an item in a grid slot**
+**Set an item in a grid slot**  
 Set an item in a grid slot of a space.
 
 ??? quote "See parameters"
@@ -248,7 +248,7 @@ Set an item in a grid slot of a space.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Grid slot max count**
+**Grid slot max count**  
 Change the grid slot max count, or 0 if unlimited.
 
 ??? quote "See parameters"
@@ -261,7 +261,7 @@ Change the grid slot max count, or 0 if unlimited.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Grid slot number property**
+**Grid slot number property**  
 Change the number property of a grid slot.
 
 ??? quote "See parameters"
@@ -275,7 +275,7 @@ Change the number property of a grid slot.
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
-**Grid slot text property**
+**Grid slot text property**  
 Change the text property of a grid slot.
 
 ??? quote "See parameters"
@@ -289,7 +289,7 @@ Change the text property of a grid slot.
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
-**Set grid slot unlimited**
+**Set grid slot unlimited**  
 Set the max count of a grid slot to be unlimited.
 
 ??? quote "See parameters"
@@ -300,7 +300,7 @@ Set the max count of a grid slot to be unlimited.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Named slot count**
+**Named slot count**  
 Change the named slot count of a space.
 
 ??? quote "See parameters"
@@ -312,7 +312,7 @@ Change the named slot count of a space.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Empty the named slot**
+**Empty the named slot**  
 Empty the named slot of the space only. It still exists in the space.
 
 ??? quote "See parameters"
@@ -322,7 +322,7 @@ Empty the named slot of the space only. It still exists in the space.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Set an item in a named slot**
+**Set an item in a named slot**  
 Set an item in a named slot of a space.
 
 ??? quote "See parameters"
@@ -333,7 +333,7 @@ Set an item in a named slot of a space.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Named slot max count**
+**Named slot max count**  
 Change the named slot max count, or 0 if unlimited.
 
 ??? quote "See parameters"
@@ -345,7 +345,7 @@ Change the named slot max count, or 0 if unlimited.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Named slot number property**
+**Named slot number property**  
 Change the number property of a named slot.
 
 ??? quote "See parameters"
@@ -358,7 +358,7 @@ Change the number property of a named slot.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Named slot text property**
+**Named slot text property**  
 Change the text property of a named slot.
 
 ??? quote "See parameters"
@@ -371,7 +371,7 @@ Change the text property of a named slot.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Set named slot unlimited**
+**Set named slot unlimited**  
 Set the max count of a named slot to be unlimited.
 
 ??? quote "See parameters"
@@ -381,7 +381,7 @@ Set the max count of a named slot to be unlimited.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Slot count**
+**Slot count**  
 Change the slot count of a space.
 
 ??? quote "See parameters"
@@ -393,7 +393,7 @@ Change the slot count of a space.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Empty the slot**
+**Empty the slot**  
 Empty the slot of the space only. It still exists in the space.
 
 ??? quote "See parameters"
@@ -403,7 +403,7 @@ Empty the slot of the space only. It still exists in the space.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Set an item in a slot**
+**Set an item in a slot**  
 Set an item in a slot of a space.
 
 ??? quote "See parameters"
@@ -414,7 +414,7 @@ Set an item in a slot of a space.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Slot max count**
+**Slot max count**  
 Change the slot max count, or 0 if unlimited.
 
 ??? quote "See parameters"
@@ -426,7 +426,7 @@ Change the slot max count, or 0 if unlimited.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Slot number property**
+**Slot number property**  
 Change the number property of a slot.
 
 ??? quote "See parameters"
@@ -439,7 +439,7 @@ Change the number property of a slot.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Slot text property**
+**Slot text property**  
 Change the text property of a slot.
 
 ??? quote "See parameters"
@@ -452,7 +452,7 @@ Change the text property of a slot.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Set slot unlimited**
+**Set slot unlimited**  
 Set the max count of a slot to be unlimited.
 
 ??? quote "See parameters"
@@ -462,7 +462,7 @@ Set the max count of a slot to be unlimited.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Set grid size**
+**Set grid size**  
 Set the space size using grid dimension.
 
 ??? quote "See parameters"
@@ -473,7 +473,7 @@ Set the space size using grid dimension.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Set space size**
+**Set space size**  
 Set the amount of slots in the space.
 
 ??? quote "See parameters"
@@ -483,7 +483,7 @@ Set the amount of slots in the space.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Sort items by property**
+**Sort items by property**  
 Sort items and move them into a new slot order.
 
 ??? quote "See parameters"
@@ -496,7 +496,7 @@ Sort items and move them into a new slot order.
 
 ## Conditions
 
-**Convert grid position to slot index**
+**Convert grid position to slot index**  
 Compare a slot index of a grid position.
 
 ??? quote "See parameters"
@@ -509,7 +509,7 @@ Compare a slot index of a grid position.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Convert a slot to a grid column index**
+**Convert a slot to a grid column index**  
 Compare the column index from a slot.
 
 ??? quote "See parameters"
@@ -521,7 +521,7 @@ Compare the column index from a slot.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Convert a slot to a grid row index**
+**Convert a slot to a grid row index**  
 Compare the row index from a slot.
 
 ??? quote "See parameters"
@@ -533,7 +533,7 @@ Compare the row index from a slot.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Named slot exists**
+**Named slot exists**  
 Check if the named slot exists.
 
 ??? quote "See parameters"
@@ -543,7 +543,7 @@ Check if the named slot exists.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**The space exists**
+**The space exists**  
 Check if the space exists.
 
 ??? quote "See parameters"
@@ -552,7 +552,7 @@ Check if the space exists.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Filled named slots**
+**Filled named slots**  
 Compare the amount of filled named slots of a space.
 
 ??? quote "See parameters"
@@ -563,7 +563,7 @@ Compare the amount of filled named slots of a space.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Filled slots**
+**Filled slots**  
 Compare the amount of filled slots of a space.
 
 ??? quote "See parameters"
@@ -574,7 +574,7 @@ Compare the amount of filled slots of a space.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**First empty slot**
+**First empty slot**  
 Compare First empty slot. Set to -1 if no slot is found.
 
 ??? quote "See parameters"
@@ -585,7 +585,7 @@ Compare First empty slot. Set to -1 if no slot is found.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**First item slot**
+**First item slot**  
 Compare First slot containing a specific item. Set to -1 if no slot is found.
 
 ??? quote "See parameters"
@@ -597,7 +597,7 @@ Compare First slot containing a specific item. Set to -1 if no slot is found.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**First available slot**
+**First available slot**  
 Compare First slot containing a specific item that is not full. Set to -1 if no slot is found.
 
 ??? quote "See parameters"
@@ -609,7 +609,7 @@ Compare First slot containing a specific item that is not full. Set to -1 if no 
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Item at a grid position**
+**Item at a grid position**  
 Compare the item at grid postion.
 
 ??? quote "See parameters"
@@ -622,7 +622,7 @@ Compare the item at grid postion.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Grid slot count**
+**Grid slot count**  
 Compare the grid slot count of a space.
 
 ??? quote "See parameters"
@@ -635,7 +635,7 @@ Compare the grid slot count of a space.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Grid slot max count**
+**Grid slot max count**  
 Compare the grid slot max count, or 0 if unlimited.
 
 ??? quote "See parameters"
@@ -648,7 +648,7 @@ Compare the grid slot max count, or 0 if unlimited.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**The space has empty named slots**
+**The space has empty named slots**  
 Check if the space contains empty named slots.
 
 ??? quote "See parameters"
@@ -657,7 +657,7 @@ Check if the space contains empty named slots.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**The space has empty slots**
+**The space has empty slots**  
 Check if the space contains empty slots.
 
 ??? quote "See parameters"
@@ -666,7 +666,7 @@ Check if the space contains empty slots.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Grid slot has property**
+**Grid slot has property**  
 Check if a property is set on a slot.
 
 ??? quote "See parameters"
@@ -678,7 +678,7 @@ Check if a property is set on a slot.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Named slot has property**
+**Named slot has property**  
 Check if a property is set on a named slot.
 
 ??? quote "See parameters"
@@ -689,7 +689,7 @@ Check if a property is set on a named slot.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Slot has property**
+**Slot has property**  
 Check if a property is set on a slot.
 
 ??? quote "See parameters"
@@ -700,7 +700,7 @@ Check if a property is set on a slot.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Grid slot contains an item**
+**Grid slot contains an item**  
 The grid slot contains one or more items.
 
 ??? quote "See parameters"
@@ -711,7 +711,7 @@ The grid slot contains one or more items.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Grid slot is full**
+**Grid slot is full**  
 The grid slot is full.
 
 ??? quote "See parameters"
@@ -722,7 +722,7 @@ The grid slot is full.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Grid slot is unlimited**
+**Grid slot is unlimited**  
 Check if the slot has an unlimited count.
 
 ??? quote "See parameters"
@@ -733,7 +733,7 @@ Check if the slot has an unlimited count.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Named slot contains an item**
+**Named slot contains an item**  
 The named slot contains one or more items.
 
 ??? quote "See parameters"
@@ -743,7 +743,7 @@ The named slot contains one or more items.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Named slot is full**
+**Named slot is full**  
 The slot is full.
 
 ??? quote "See parameters"
@@ -753,7 +753,7 @@ The slot is full.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Named slot is unlimited**
+**Named slot is unlimited**  
 Check if the named slot has an unlimited count.
 
 ??? quote "See parameters"
@@ -763,7 +763,7 @@ Check if the named slot has an unlimited count.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Slot contains an item**
+**Slot contains an item**  
 The slot contains one or more items.
 
 ??? quote "See parameters"
@@ -773,7 +773,7 @@ The slot contains one or more items.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Slot is full**
+**Slot is full**  
 The slot is full.
 
 ??? quote "See parameters"
@@ -783,7 +783,7 @@ The slot is full.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Slot position in grid**
+**Slot position in grid**  
 Check if the slot position is inside the grid boundaries.
 
 ??? quote "See parameters"
@@ -794,7 +794,7 @@ Check if the slot position is inside the grid boundaries.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Slot is unlimited**
+**Slot is unlimited**  
 Check if the slot has an unlimited count.
 
 ??? quote "See parameters"
@@ -804,7 +804,7 @@ Check if the slot has an unlimited count.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**The grid exists**
+**The grid exists**  
 Check if the space has a grid.
 
 ??? quote "See parameters"
@@ -813,7 +813,7 @@ Check if the space has a grid.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Named slot count**
+**Named slot count**  
 Compare the named slot count of a space.
 
 ??? quote "See parameters"
@@ -825,7 +825,7 @@ Compare the named slot count of a space.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Named slot item name**
+**Named slot item name**  
 Compare the item name of a slot.
 
 ??? quote "See parameters"
@@ -837,7 +837,7 @@ Compare the item name of a slot.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Named slot max count**
+**Named slot max count**  
 Compare the named slot max count, or 0 if unlimited.
 
 ??? quote "See parameters"
@@ -849,7 +849,7 @@ Compare the named slot max count, or 0 if unlimited.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Slot property count**
+**Slot property count**  
 Compare the property count of a space.
 
 ??? quote "See parameters"
@@ -861,7 +861,7 @@ Compare the property count of a space.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Grid slot number property**
+**Grid slot number property**  
 Compare the number property of a grid slot.
 
 ??? quote "See parameters"
@@ -875,7 +875,7 @@ Compare the number property of a grid slot.
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
-**Named slot number property**
+**Named slot number property**  
 Compare the number property of a named slot.
 
 ??? quote "See parameters"
@@ -888,7 +888,7 @@ Compare the number property of a named slot.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Slot number property**
+**Slot number property**  
 Compare the number property of a slot.
 
 ??? quote "See parameters"
@@ -901,7 +901,7 @@ Compare the number property of a slot.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Remaining named slots**
+**Remaining named slots**  
 Compare the remaining named slots of a space.
 
 ??? quote "See parameters"
@@ -912,7 +912,7 @@ Compare the remaining named slots of a space.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Remaining slots**
+**Remaining slots**  
 Compare the remaining slots of a space.
 
 ??? quote "See parameters"
@@ -923,7 +923,7 @@ Compare the remaining slots of a space.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Slot count**
+**Slot count**  
 Compare the slot count of a space.
 
 ??? quote "See parameters"
@@ -935,7 +935,7 @@ Compare the slot count of a space.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Slot item name**
+**Slot item name**  
 Compare the item name of a slot.
 
 ??? quote "See parameters"
@@ -947,7 +947,7 @@ Compare the item name of a slot.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Slot max count**
+**Slot max count**  
 Compare the slot max count, or 0 if unlimited.
 
 ??? quote "See parameters"
@@ -959,7 +959,7 @@ Compare the slot max count, or 0 if unlimited.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Slot property count**
+**Slot property count**  
 Compare the property count of a space.
 
 ??? quote "See parameters"
@@ -971,7 +971,7 @@ Compare the property count of a space.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Space grid height**
+**Space grid height**  
 Compare the space grid height.
 
 ??? quote "See parameters"
@@ -982,7 +982,7 @@ Compare the space grid height.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Space grid width**
+**Space grid width**  
 Compare the space grid width.
 
 ??? quote "See parameters"
@@ -993,7 +993,7 @@ Compare the space grid width.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Space named slot size**
+**Space named slot size**  
 Compare how many slots the space has.
 
 ??? quote "See parameters"
@@ -1004,7 +1004,7 @@ Compare how many slots the space has.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Space slot size**
+**Space slot size**  
 Compare how many slots the space has.
 
 ??? quote "See parameters"
@@ -1015,7 +1015,7 @@ Compare how many slots the space has.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Sum of named slot properties**
+**Sum of named slot properties**  
 Compare Sum all the values of a slot property.
 
 ??? quote "See parameters"
@@ -1027,7 +1027,7 @@ Compare Sum all the values of a slot property.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Sum of slot properties**
+**Sum of slot properties**  
 Compare Sum all the values of a slot property.
 
 ??? quote "See parameters"
@@ -1039,7 +1039,7 @@ Compare Sum all the values of a slot property.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Grid slot text property**
+**Grid slot text property**  
 Compare the text property of a grid slot.
 
 ??? quote "See parameters"
@@ -1053,7 +1053,7 @@ Compare the text property of a grid slot.
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
-**Named slot text property**
+**Named slot text property**  
 Compare the text property of a named slot.
 
 ??? quote "See parameters"
@@ -1066,7 +1066,7 @@ Compare the text property of a named slot.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Slot text property**
+**Slot text property**  
 Compare the text property of a slot.
 
 ??? quote "See parameters"

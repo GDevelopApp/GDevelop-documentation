@@ -37,7 +37,7 @@ This extension does not support:
 
 ## Actions
 
-**Activate story history**
+**Activate story history**  
 Set a scene variable for saving the story choice history.
 
 ??? quote "See parameters"
@@ -47,7 +47,7 @@ Set a scene variable for saving the story choice history.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Add parameter for Ink function**
+**Add parameter for Ink function**  
 Call an internal Ink function set inside the story.
 
 ??? quote "See parameters"
@@ -58,7 +58,7 @@ Call an internal Ink function set inside the story.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Link story event**
+**Link story event**  
 Link an external Ink function to the game.
 
 ??? quote "See parameters"
@@ -68,7 +68,7 @@ Link an external Ink function to the game.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Call Ink function**
+**Call Ink function**  
 Call an internal Ink function set inside the story.
 
 ??? quote "See parameters"
@@ -79,7 +79,7 @@ Call an internal Ink function set inside the story.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Call Ink function with story output**
+**Call Ink function with story output**  
 Call an internal Ink function set inside the story and collect value and text output.
 
 ??? quote "See parameters"
@@ -91,7 +91,7 @@ Call an internal Ink function set inside the story and collect value and text ou
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Change story chapter**
+**Change story chapter**  
 Change the current story chapter.
 
 ??? quote "See parameters"
@@ -110,7 +110,7 @@ Change the current story chapter.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Change story variable boolean**
+**Change story variable boolean**  
 Change the story variable boolean.
 
 ??? quote "See parameters"
@@ -121,7 +121,7 @@ Change the story variable boolean.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Story variable value**
+**Story variable value**  
 Change the story variable value.
 
 ??? quote "See parameters"
@@ -133,7 +133,7 @@ Change the story variable value.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Story variable text**
+**Story variable text**  
 Change the story variable text.
 
 ??? quote "See parameters"
@@ -145,7 +145,7 @@ Change the story variable text.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Chapter tags to array**
+**Chapter tags to array**  
 Export the chapter tag list to an array variable.
 
 ??? quote "See parameters"
@@ -165,7 +165,7 @@ Export the chapter tag list to an array variable.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Choice tags to array**
+**Choice tags to array**  
 Export the choice tag list to an array variable.
 
 ??? quote "See parameters"
@@ -176,7 +176,7 @@ Export the choice tag list to an array variable.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Continue the story**
+**Continue the story**  
 Load the next story line.
 
 ??? quote "See parameters"
@@ -185,7 +185,7 @@ Load the next story line.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Create story snapshot**
+**Create story snapshot**  
 Create a temporary snapshot of the story.
 
 ??? quote "See parameters"
@@ -194,7 +194,7 @@ Create a temporary snapshot of the story.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Current line tags to array**
+**Current line tags to array**  
 Export the current line tag list to an array variable.
 
 ??? quote "See parameters"
@@ -204,7 +204,7 @@ Export the current line tag list to an array variable.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Discard story snapshot**
+**Discard story snapshot**  
 Discard the last snapshot of the story.
 
 ??? quote "See parameters"
@@ -213,7 +213,7 @@ Discard the last snapshot of the story.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Global tags to array**
+**Global tags to array**  
 Export the global tag list to an array variable.
 
 ??? quote "See parameters"
@@ -223,7 +223,7 @@ Export the global tag list to an array variable.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Load story state from JSON**
+**Load story state from JSON**  
 Load a previous state of an existing story from a JSON string.
 
 ??? quote "See parameters"
@@ -233,7 +233,7 @@ Load a previous state of an existing story from a JSON string.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Load story history**
+**Load story history**  
 Load an already prepared scene variable for saving the story choice history.
 
 ??? quote "See parameters"
@@ -243,7 +243,7 @@ Load an already prepared scene variable for saving the story choice history.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Load JSON Story**
+**Load JSON Story**  
 Create a story from an Ink JSON resource.
 
 ??? quote "See parameters"
@@ -253,7 +253,7 @@ Create a story from an Ink JSON resource.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Observe a story variable**
+**Observe a story variable**  
 Activate the observation of any change to the story variable.
 
 ??? quote "See parameters"
@@ -263,7 +263,7 @@ Activate the observation of any change to the story variable.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Reset story state**
+**Reset story state**  
 Reset the story back to its initial state.
 
 ??? quote "See parameters"
@@ -272,7 +272,7 @@ Reset the story back to its initial state.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Restore story snapshot**
+**Restore story snapshot**  
 Restore the last snapshot of the story.
 
 ??? quote "See parameters"
@@ -281,7 +281,7 @@ Restore the last snapshot of the story.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Rewind last choice**
+**Rewind last choice**  
 Come back to the previous state of the story.
 
 ??? quote "See parameters"
@@ -290,7 +290,7 @@ Come back to the previous state of the story.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Validate a choice**
+**Validate a choice**  
 Validate a choice using its Ink index before continuing the story.
 
 ??? quote "See parameters"
@@ -302,7 +302,7 @@ Validate a choice using its Ink index before continuing the story.
 
 ## Conditions
 
-**Can continue**
+**Can continue**  
 The story flow can progress.
 
 ??? quote "See parameters"
@@ -311,7 +311,7 @@ The story flow can progress.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Chapter tag value**
+**Chapter tag value**  
 Compare chapter tag.
 
 ??? quote "See parameters"
@@ -333,7 +333,7 @@ Compare chapter tag.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Chapter tag count**
+**Chapter tag count**  
 Compare chapter tag count.
 
 ??? quote "See parameters"
@@ -354,7 +354,7 @@ Compare chapter tag count.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Current choices count**
+**Current choices count**  
 Compare current choice count.
 
 ??? quote "See parameters"
@@ -365,7 +365,7 @@ Compare current choice count.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Choice tag value**
+**Choice tag value**  
 Compare choice tag.
 
 ??? quote "See parameters"
@@ -378,7 +378,7 @@ Compare choice tag.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Choice tag count**
+**Choice tag count**  
 Compare choice tag count.
 
 ??? quote "See parameters"
@@ -390,7 +390,7 @@ Compare choice tag count.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Current story chapter**
+**Current story chapter**  
 Compare current story chapter.
 
 ??? quote "See parameters"
@@ -401,7 +401,7 @@ Compare current story chapter.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Current Story Line**
+**Current Story Line**  
 Compare the current story line.
 
 ??? quote "See parameters"
@@ -412,7 +412,7 @@ Compare the current story line.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Current line tag value**
+**Current line tag value**  
 Compare current line tag.
 
 ??? quote "See parameters"
@@ -424,7 +424,7 @@ Compare current line tag.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Current line tag count**
+**Current line tag count**  
 Compare current line tag count.
 
 ??? quote "See parameters"
@@ -435,7 +435,7 @@ Compare current line tag count.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Ink function story output**
+**Ink function story output**  
 Compare the internal Ink function story output.
 
 ??? quote "See parameters"
@@ -447,7 +447,7 @@ Compare the internal Ink function story output.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Ink function text result**
+**Ink function text result**  
 Compare the internal Ink function text value.
 
 ??? quote "See parameters"
@@ -459,7 +459,7 @@ Compare the internal Ink function text value.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Ink function result value**
+**Ink function result value**  
 Compare the internal Ink function value.
 
 ??? quote "See parameters"
@@ -471,7 +471,7 @@ Compare the internal Ink function value.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Event parameter count**
+**Event parameter count**  
 Compare the event parameter count.
 
 ??? quote "See parameters"
@@ -483,7 +483,7 @@ Compare the event parameter count.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Event parameter value**
+**Event parameter value**  
 Compare the event parameter value.
 
 ??? quote "See parameters"
@@ -496,7 +496,7 @@ Compare the event parameter value.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Event parameter text**
+**Event parameter text**  
 Compare the event parameter text.
 
 ??? quote "See parameters"
@@ -509,7 +509,7 @@ Compare the event parameter text.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Global tag value**
+**Global tag value**  
 Compare global tag.
 
 ??? quote "See parameters"
@@ -521,7 +521,7 @@ Compare global tag.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Global tag count**
+**Global tag count**  
 Compare global tag count.
 
 ??? quote "See parameters"
@@ -532,7 +532,7 @@ Compare global tag count.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Has ended**
+**Has ended**  
 The story reached its end.
 
 ??? quote "See parameters"
@@ -541,7 +541,7 @@ The story reached its end.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Chapter has tags**
+**Chapter has tags**  
 Check if the current story chapter contains tags.
 
 ??? quote "See parameters"
@@ -559,7 +559,7 @@ Check if the current story chapter contains tags.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Choice has tags**
+**Choice has tags**  
 Check if the choice contains tags.
 
 ??? quote "See parameters"
@@ -569,7 +569,7 @@ Check if the choice contains tags.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Current line has tags**
+**Current line has tags**  
 Check if the current story line contains tags.
 
 ??? quote "See parameters"
@@ -578,7 +578,7 @@ Check if the current story line contains tags.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Has global tags**
+**Has global tags**  
 Check if the current story contains global tags.
 
 ??? quote "See parameters"
@@ -587,7 +587,7 @@ Check if the current story contains global tags.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Event is called**
+**Event is called**  
 Check if the story event is called by Ink.
 
 ??? quote "See parameters"
@@ -597,7 +597,7 @@ Check if the story event is called by Ink.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Is loaded**
+**Is loaded**  
 Check if the story is already loaded.
 
 ??? quote "See parameters"
@@ -606,7 +606,7 @@ Check if the story is already loaded.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Story variable boolean**
+**Story variable boolean**  
 The story variable boolean is true.
 
 ??? quote "See parameters"
@@ -616,7 +616,7 @@ The story variable boolean is true.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Story variable changed**
+**Story variable changed**  
 A story variable observed has changed.
 
 ??? quote "See parameters"
@@ -626,7 +626,7 @@ A story variable observed has changed.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Story variable exists**
+**Story variable exists**  
 Check if the story variable exists.
 
 ??? quote "See parameters"
@@ -636,7 +636,7 @@ Check if the story variable exists.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Story variable value**
+**Story variable value**  
 Compare the story variable value.
 
 ??? quote "See parameters"
@@ -648,7 +648,7 @@ Compare the story variable value.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Story variable text**
+**Story variable text**  
 Compare the story variable text.
 
 ??? quote "See parameters"
@@ -660,7 +660,7 @@ Compare the story variable text.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Story chapter visit count**
+**Story chapter visit count**  
 Compare the chapter visit count of the story.
 
 ??? quote "See parameters"

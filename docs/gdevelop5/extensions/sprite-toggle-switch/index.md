@@ -24,7 +24,7 @@ A toggle switch that users can click or touch.
 
 ### Object actions
 
-**De/activate interactions**
+**De/activate interactions**  
 De/activate interactions with the button.
 
 ??? quote "See parameters"
@@ -34,7 +34,7 @@ De/activate interactions with the button.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Check (or uncheck)**
+**Check (or uncheck)**  
 Check (or uncheck) the toggle switch.
 
 ??? quote "See parameters"
@@ -44,7 +44,7 @@ Check (or uncheck) the toggle switch.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Toggle**
+**Toggle**  
 Toggle the switch.
 
 ??? quote "See parameters"
@@ -55,7 +55,7 @@ Toggle the switch.
 
 ### Object conditions
 
-**Has just been checked**
+**Has just been checked**  
 Check if the toggle switch was checked in the current frame.
 
 ??? quote "See parameters"
@@ -64,7 +64,7 @@ Check if the toggle switch was checked in the current frame.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Has just been toggled**
+**Has just been toggled**  
 Check if the toggle switch was checked or unchecked in the current frame.
 
 ??? quote "See parameters"
@@ -73,7 +73,7 @@ Check if the toggle switch was checked or unchecked in the current frame.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Has just been unchecked**
+**Has just been unchecked**  
 Check if the toggle switch was unchecked in the current frame.
 
 ??? quote "See parameters"
@@ -82,7 +82,7 @@ Check if the toggle switch was unchecked in the current frame.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Interactions activated**
+**Interactions activated**  
 Check if interactions are activated on the button.
 
 ??? quote "See parameters"
@@ -91,7 +91,7 @@ Check if interactions are activated on the button.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Is checked**
+**Is checked**  
 Check if the toggle switch is checked.
 
 ??? quote "See parameters"
@@ -100,7 +100,7 @@ Check if the toggle switch is checked.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Is hovered**
+**Is hovered**  
 Check if the cursor is hovered over the button.
 
 ??? quote "See parameters"
@@ -109,7 +109,7 @@ Check if the cursor is hovered over the button.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Is pressed**
+**Is pressed**  
 Check if the button is currently being pressed with mouse or touch.
 
 ??? quote "See parameters"
@@ -118,7 +118,7 @@ Check if the button is currently being pressed with mouse or touch.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Is held outside**
+**Is held outside**  
 Check if the button is currently being pressed outside with mouse or touch.
 
 ??? quote "See parameters"

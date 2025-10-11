@@ -39,7 +39,7 @@ Draws a chat bubble into a text object.
 
 ### Behavior actions
 
-**Draw a chat bubble**
+**Draw a chat bubble**  
 Draw a chat bubble.
 
 ??? quote "See parameters"
@@ -53,7 +53,7 @@ Draw a chat bubble.
 
     > Technical note: parameter 6 are internal parameters handled by GDevelop.
 
-**Draw a chat bubble with name tag**
+**Draw a chat bubble with name tag**  
 Draw a chat bubble with name tag.
 
 ??? quote "See parameters"

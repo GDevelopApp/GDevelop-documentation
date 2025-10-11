@@ -4,7 +4,7 @@ Conditions to check keys pressed on a keyboard. Note that this does not work wit
 
 ## Conditions
 
-**Any key pressed**
+**Any key pressed**  
 Check if any key is pressed
 
 ??? quote "See parameters"
@@ -13,7 +13,7 @@ Check if any key is pressed
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Any key released**
+**Any key released**  
 Check if any key is released
 
 ??? quote "See parameters"
@@ -22,7 +22,7 @@ Check if any key is released
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Key just pressed**
+**Key just pressed**  
 Check if a key was just pressed.
 
 ??? quote "See parameters"
@@ -31,7 +31,7 @@ Check if a key was just pressed.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Key pressed**
+**Key pressed**  
 Check if a key is pressed. This stays true as long as the key is held down. To check if a key was pressed during the frame, use "Key just pressed" instead.
 
 ??? quote "See parameters"
@@ -40,7 +40,7 @@ Check if a key is pressed. This stays true as long as the key is held down. To c
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Key released**
+**Key released**  
 Check if a key was just released.
 
 ??? quote "See parameters"

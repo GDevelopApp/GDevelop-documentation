@@ -31,7 +31,7 @@ Smoothly scroll to follow an object.
 
 ### Behavior actions
 
-**Draw debug**
+**Draw debug**  
 Draw the targeted and actual camera position.
 
 ??? quote "See parameters"
@@ -42,7 +42,7 @@ Draw the targeted and actual camera position.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Move the camera closer**
+**Move the camera closer**  
 Move the camera closer to the object. This action must be called after the object has moved for the frame.
 
 ??? quote "See parameters"
@@ -52,7 +52,7 @@ Move the camera closer to the object. This action must be called after the objec
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Camera delay**
+**Camera delay**  
 Change the camera delay (in seconds).
 
 ??? quote "See parameters"
@@ -63,7 +63,7 @@ Change the camera delay (in seconds).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Downward catch-up speed**
+**Downward catch-up speed**  
 Change the camera downward catch-up speed (in ratio per second).
 
 ??? quote "See parameters"
@@ -74,7 +74,7 @@ Change the camera downward catch-up speed (in ratio per second).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Downward maximum speed**
+**Downward maximum speed**  
 Change the camera downward maximum speed (in pixels per second).
 
 ??? quote "See parameters"
@@ -85,7 +85,7 @@ Change the camera downward maximum speed (in pixels per second).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Follow free area bottom border**
+**Follow free area bottom border**  
 Change the camera follow free area bottom border.
 
 ??? quote "See parameters"
@@ -96,7 +96,7 @@ Change the camera follow free area bottom border.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Follow free area left border**
+**Follow free area left border**  
 Change the camera follow free area left border.
 
 ??? quote "See parameters"
@@ -107,7 +107,7 @@ Change the camera follow free area left border.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Follow free area right border**
+**Follow free area right border**  
 Change the camera follow free area right border.
 
 ??? quote "See parameters"
@@ -118,7 +118,7 @@ Change the camera follow free area right border.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Follow free area top border**
+**Follow free area top border**  
 Change the camera follow free area top border.
 
 ??? quote "See parameters"
@@ -129,7 +129,7 @@ Change the camera follow free area top border.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Follow on X**
+**Follow on X**  
 Enable or disable the following on X axis.
 
 ??? quote "See parameters"
@@ -140,7 +140,7 @@ Enable or disable the following on X axis.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Follow on Y**
+**Follow on Y**  
 Enable or disable the following on Y axis.
 
 ??? quote "See parameters"
@@ -151,7 +151,7 @@ Enable or disable the following on Y axis.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Forecast time**
+**Forecast time**  
 Change the camera forecast time (in seconds).
 
 ??? quote "See parameters"
@@ -162,7 +162,7 @@ Change the camera forecast time (in seconds).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Leftward catch-up speed**
+**Leftward catch-up speed**  
 Change the camera leftward catch-up speed (in ratio per second).
 
 ??? quote "See parameters"
@@ -173,7 +173,7 @@ Change the camera leftward catch-up speed (in ratio per second).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Leftward maximum speed**
+**Leftward maximum speed**  
 Change the camera leftward maximum speed (in pixels per second).
 
 ??? quote "See parameters"
@@ -184,7 +184,7 @@ Change the camera leftward maximum speed (in pixels per second).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Camera offset X**
+**Camera offset X**  
 Change the camera offset on X axis of the object. This is not the current difference between the object and the camera position.
 
 ??? quote "See parameters"
@@ -196,7 +196,7 @@ Change the camera offset on X axis of the object. This is not the current differ
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Camera offset Y**
+**Camera offset Y**  
 Change the camera offset on Y axis of the object. This is not the current difference between the object and the camera position.
 
 ??? quote "See parameters"
@@ -208,7 +208,7 @@ Change the camera offset on Y axis of the object. This is not the current differ
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Rightward catch-up speed**
+**Rightward catch-up speed**  
 Change the camera rightward catch-up speed (in ratio per second).
 
 ??? quote "See parameters"
@@ -219,7 +219,7 @@ Change the camera rightward catch-up speed (in ratio per second).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Rightward maximum speed**
+**Rightward maximum speed**  
 Change the camera rightward maximum speed (in pixels per second).
 
 ??? quote "See parameters"
@@ -230,7 +230,7 @@ Change the camera rightward maximum speed (in pixels per second).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Upward catch-up speed**
+**Upward catch-up speed**  
 Change the camera upward catch-up speed (in ratio per second).
 
 ??? quote "See parameters"
@@ -241,7 +241,7 @@ Change the camera upward catch-up speed (in ratio per second).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Upward maximum speed**
+**Upward maximum speed**  
 Change the camera upward maximum speed (in pixels per second).
 
 ??? quote "See parameters"
@@ -252,7 +252,7 @@ Change the camera upward maximum speed (in pixels per second).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Wait and catch up**
+**Wait and catch up**  
 Delay the camera according to a maximum speed and catch up the delay.
 
 ??? quote "See parameters"
@@ -268,7 +268,7 @@ Delay the camera according to a maximum speed and catch up the delay.
 
 ### Behavior conditions
 
-**Camera offset X**
+**Camera offset X**  
 Compare the camera offset on X axis of the object. This is not the current difference between the object and the camera position.
 
 ??? quote "See parameters"
@@ -280,7 +280,7 @@ Compare the camera offset on X axis of the object. This is not the current diffe
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Camera offset Y**
+**Camera offset Y**  
 Compare the camera offset on Y axis of the object. This is not the current difference between the object and the camera position.
 
 ??? quote "See parameters"

@@ -27,7 +27,7 @@ Tips:
 
 ## Actions
 
-**Configure camera edge scrolling**
+**Configure camera edge scrolling**  
 Configure camera edge scrolling that moves when mouse is near an edge of the screen.
 
 ??? quote "See parameters"
@@ -40,7 +40,7 @@ Configure camera edge scrolling that moves when mouse is near an edge of the scr
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Draw edge scrolling screen margin**
+**Draw edge scrolling screen margin**  
 Draw a rectangle that shows where edge scrolling will be triggered.
 
 ??? quote "See parameters"
@@ -49,7 +49,7 @@ Draw a rectangle that shows where edge scrolling will be triggered.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Enable (or disable) camera edge scrolling**
+**Enable (or disable) camera edge scrolling**  
 Enable (or disable) camera edge scrolling .  Use "Configure camera edge scrolling" to adjust settings.
 
 ??? quote "See parameters"
@@ -60,7 +60,7 @@ Enable (or disable) camera edge scrolling .  Use "Configure camera edge scrollin
 
 ## Conditions
 
-**Camera is scrolling**
+**Camera is scrolling**  
 Check if the camera is scrolling.
 
 ??? quote "See parameters"
@@ -69,7 +69,7 @@ Check if the camera is scrolling.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Camera is scrolling down**
+**Camera is scrolling down**  
 Check if the camera is scrolling down.
 
 ??? quote "See parameters"
@@ -78,7 +78,7 @@ Check if the camera is scrolling down.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Camera is scrolling left**
+**Camera is scrolling left**  
 Check if the camera is scrolling left.
 
 ??? quote "See parameters"
@@ -87,7 +87,7 @@ Check if the camera is scrolling left.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Camera is scrolling right**
+**Camera is scrolling right**  
 Check if the camera is scrolling right.
 
 ??? quote "See parameters"
@@ -96,7 +96,7 @@ Check if the camera is scrolling right.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Camera is scrolling up**
+**Camera is scrolling up**  
 Check if the camera is scrolling up.
 
 ??? quote "See parameters"

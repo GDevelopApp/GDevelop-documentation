@@ -57,7 +57,7 @@ Remap keyboard controls of the platformer character movement.
 
 ### Behavior actions
 
-**Remap Platformer controls to a custom scheme**
+**Remap Platformer controls to a custom scheme**  
 Remaps Platformer behavior controls to a custom control scheme.
 
 ??? quote "See parameters"
@@ -72,7 +72,7 @@ Remaps Platformer behavior controls to a custom control scheme.
 
     > Technical note: parameter 7 are internal parameters handled by GDevelop.
 
-**Remap Platformer controls to a preset**
+**Remap Platformer controls to a preset**  
 Remaps Platformer behavior controls to a preset control scheme.
 
 ??? quote "See parameters"
@@ -92,7 +92,7 @@ Remap keyboard controls of the top-down movement.
 
 ### Behavior actions
 
-**Remap Top-Down controls to a custom scheme**
+**Remap Top-Down controls to a custom scheme**  
 Remaps Top-Down behavior controls to a custom control scheme.
 
 ??? quote "See parameters"
@@ -106,7 +106,7 @@ Remaps Top-Down behavior controls to a custom control scheme.
 
     > Technical note: parameter 6 are internal parameters handled by GDevelop.
 
-**Remap Top-Down controls to a preset**
+**Remap Top-Down controls to a preset**  
 Remaps Top-Down behavior controls to a preset control scheme.
 
 ??? quote "See parameters"

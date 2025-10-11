@@ -10,7 +10,7 @@ Displays a text on the screen.
 
 ### Object actions
 
-**Color**
+**Color**  
 Change the color of the text. The color is white by default.
 
 ??? quote "See parameters"
@@ -18,7 +18,7 @@ Change the color of the text. The color is white by default.
     - Parameter 0: 👾 Object
     - Parameter 1: color
 
-**Font**
+**Font**  
 Change the font of the text.
 
 ??? quote "See parameters"
@@ -26,7 +26,7 @@ Change the font of the text.
     - Parameter 0: 👾 Object
     - Parameter 1 (fontResource): Font resource name
 
-**Bold**
+**Bold**  
 De/activate bold
 
 ??? quote "See parameters"
@@ -34,7 +34,7 @@ De/activate bold
     - Parameter 0: 👾 Object
     - Parameter 1 (❓ Yes or No): Set bold style
 
-**Gradient**
+**Gradient**  
 Change the gradient of the text.
 
 ??? quote "See parameters"
@@ -46,7 +46,7 @@ Change the gradient of the text.
     - Parameter 4 (color): Third Color
     - Parameter 5 (color): Fourth Color
 
-**Italic**
+**Italic**  
 De/activate italic.
 
 ??? quote "See parameters"
@@ -54,7 +54,7 @@ De/activate italic.
     - Parameter 0: 👾 Object
     - Parameter 1 (❓ Yes or No): Set italic
 
-**Padding**
+**Padding**  
 Set the number of pixels around a text object. If the shadow or the outline around the text are getting cropped, raise this value.
 
 ??? quote "See parameters"
@@ -63,7 +63,7 @@ Set the number of pixels around a text object. If the shadow or the outline arou
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-**Alignment**
+**Alignment**  
 Change the text alignment of a multiline text object.
 
 ??? quote "See parameters"
@@ -71,7 +71,7 @@ Change the text alignment of a multiline text object.
     - Parameter 0: 👾 Object
     - Parameter 1 (🔤 String): Alignment (one of: "left", "center", "right")
 
-**Word wrapping**
+**Word wrapping**  
 De/activate word wrapping. Note that word wrapping is a graphical option,  
 you can't get the number of lines displayed
 
@@ -80,7 +80,7 @@ you can't get the number of lines displayed
     - Parameter 0: 👾 Object
     - Parameter 1 (❓ Yes or No): Wrapping
 
-**Enable shadow**
+**Enable shadow**  
 Enable or disable the shadow of the text.
 
 ??? quote "See parameters"
@@ -88,7 +88,7 @@ Enable or disable the shadow of the text.
     - Parameter 0: 👾 Object
     - Parameter 1 (❓ Yes or No): Show the shadow
 
-**Font size**
+**Font size**  
 Change the font size of a text object.
 
 ??? quote "See parameters"
@@ -97,7 +97,7 @@ Change the font size of a text object.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-**Line height**
+**Line height**  
 Change the line height of a text object.
 
 ??? quote "See parameters"
@@ -106,7 +106,7 @@ Change the line height of a text object.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-**Outline color**
+**Outline color**  
 Change the outline color of the text.
 
 ??? quote "See parameters"
@@ -114,7 +114,7 @@ Change the outline color of the text.
     - Parameter 0: 👾 Object
     - Parameter 1: color
 
-**Enable outline**
+**Enable outline**  
 Enable or disable the outline of the text.
 
 ??? quote "See parameters"
@@ -122,7 +122,7 @@ Enable or disable the outline of the text.
     - Parameter 0: 👾 Object
     - Parameter 1 (❓ Yes or No): Enable outline
 
-**Outline thickness**
+**Outline thickness**  
 Change the outline thickness of the text.
 
 ??? quote "See parameters"
@@ -131,7 +131,7 @@ Change the outline thickness of the text.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Thickness
 
-**Shadow angle**
+**Shadow angle**  
 Change the shadow angle of the text.
 
 ??? quote "See parameters"
@@ -140,7 +140,7 @@ Change the shadow angle of the text.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Angle (in degrees)
 
-**Shadow blur radius**
+**Shadow blur radius**  
 Change the shadow blur radius of the text.
 
 ??? quote "See parameters"
@@ -149,7 +149,7 @@ Change the shadow blur radius of the text.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Blur radius
 
-**Shadow color**
+**Shadow color**  
 Change the shadow color of the text.
 
 ??? quote "See parameters"
@@ -157,7 +157,7 @@ Change the shadow color of the text.
     - Parameter 0: 👾 Object
     - Parameter 1: color
 
-**Shadow distance**
+**Shadow distance**  
 Change the shadow distance of the text.
 
 ??? quote "See parameters"
@@ -166,7 +166,7 @@ Change the shadow distance of the text.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Distance
 
-**Shadow opacity**
+**Shadow opacity**  
 Change the shadow opacity of the text.
 
 ??? quote "See parameters"
@@ -175,7 +175,7 @@ Change the shadow opacity of the text.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Opacity (0 - 255)
 
-**Wrapping width**
+**Wrapping width**  
 Change the word wrapping width of a Text object.
 
 ??? quote "See parameters"
@@ -186,28 +186,28 @@ Change the word wrapping width of a Text object.
 
 ### Object conditions
 
-**Bold**
+**Bold**  
 Check if the bold style is activated
 
 ??? quote "See parameters"
 
     - Parameter 0: 👾 Object
 
-**Italic**
+**Italic**  
 Check if the italic style is activated
 
 ??? quote "See parameters"
 
     - Parameter 0: 👾 Object
 
-**Wrapping**
+**Wrapping**  
 Check if word wrapping is enabled.
 
 ??? quote "See parameters"
 
     - Parameter 0: 👾 Object
 
-**Padding**
+**Padding**  
 Compare the number of pixels around a text object. If the shadow or the outline around the text are getting cropped, raise this value.
 
 ??? quote "See parameters"
@@ -216,7 +216,7 @@ Compare the number of pixels around a text object. If the shadow or the outline 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Font size**
+**Font size**  
 Compare the font size of a text object.
 
 ??? quote "See parameters"
@@ -225,21 +225,21 @@ Compare the font size of a text object.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Outline enabled**
+**Outline enabled**  
 Check if the text outline is enabled.
 
 ??? quote "See parameters"
 
     - Parameter 0: 👾 Object
 
-**Shadow enabled**
+**Shadow enabled**  
 Check if the text shadow is enabled.
 
 ??? quote "See parameters"
 
     - Parameter 0: 👾 Object
 
-**Line height**
+**Line height**  
 Compare the line height of a text object.
 
 ??? quote "See parameters"
@@ -248,7 +248,7 @@ Compare the line height of a text object.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Outline thickness**
+**Outline thickness**  
 Compare the outline thickness of the text.
 
 ??? quote "See parameters"
@@ -257,7 +257,7 @@ Compare the outline thickness of the text.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Thickness
 
-**Shadow angle**
+**Shadow angle**  
 Compare the shadow angle of the text.
 
 ??? quote "See parameters"
@@ -266,7 +266,7 @@ Compare the shadow angle of the text.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Angle (in degrees)
 
-**Shadow blur radius**
+**Shadow blur radius**  
 Compare the shadow blur radius of the text.
 
 ??? quote "See parameters"
@@ -275,7 +275,7 @@ Compare the shadow blur radius of the text.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Blur radius
 
-**Shadow distance**
+**Shadow distance**  
 Compare the shadow distance of the text.
 
 ??? quote "See parameters"
@@ -284,7 +284,7 @@ Compare the shadow distance of the text.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Distance
 
-**Shadow opacity**
+**Shadow opacity**  
 Compare the shadow opacity of the text.
 
 ??? quote "See parameters"
@@ -293,7 +293,7 @@ Compare the shadow opacity of the text.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Opacity (0 - 255)
 
-**Alignment**
+**Alignment**  
 Compare the text alignment of a multiline text object.
 
 ??? quote "See parameters"
@@ -302,7 +302,7 @@ Compare the text alignment of a multiline text object.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔤 String): Alignment (one of: "left", "center", "right")
 
-**Wrapping width**
+**Wrapping width**  
 Compare the word wrapping width of a Text object.
 
 ??? quote "See parameters"

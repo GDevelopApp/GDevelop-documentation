@@ -63,7 +63,7 @@ Add this to the sprite object that will be the background of the dialog box.
 
 ### Behavior actions
 
-**Change Dialog Box contents**
+**Change Dialog Box contents**  
 Change the Name, Image, and Text in the Dialog Box.
 
 ??? quote "See parameters"
@@ -76,7 +76,7 @@ Change the Name, Image, and Text in the Dialog Box.
 
     > Technical note: parameter 5 are internal parameters handled by GDevelop.
 
-**Change Dialog Box Text**
+**Change Dialog Box Text**  
 Change the Dialog Box Text.
 
 ??? quote "See parameters"
@@ -87,7 +87,7 @@ Change the Dialog Box Text.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Change Dialog Box typing interval**
+**Change Dialog Box typing interval**  
 Changes the typing interval of the Dialog Box (in seconds).
 
 ??? quote "See parameters"
@@ -98,7 +98,7 @@ Changes the typing interval of the Dialog Box (in seconds).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Change Dialog Box typing sound**
+**Change Dialog Box typing sound**  
 Changes the typing sound effect of the Dialog Box (File name) (The audio file must be registered as a resource!).
 
 ??? quote "See parameters"
@@ -109,7 +109,7 @@ Changes the typing sound effect of the Dialog Box (File name) (The audio file mu
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Close Dialog Box**
+**Close Dialog Box**  
 Close the Dialog Box.
 
 ??? quote "See parameters"
@@ -119,7 +119,7 @@ Close the Dialog Box.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Open Dialog Box**
+**Open Dialog Box**  
 Open the Dialog Box.
 
 ??? quote "See parameters"
@@ -132,7 +132,7 @@ Open the Dialog Box.
 
     > Technical note: parameter 5 are internal parameters handled by GDevelop.
 
-**Setup Dialog Box**
+**Setup Dialog Box**  
 Setup the Dialog Box.
 
 ??? quote "See parameters"
@@ -146,7 +146,7 @@ Setup the Dialog Box.
 
     > Technical note: parameter 6 are internal parameters handled by GDevelop.
 
-**Skip Dialog Box typing**
+**Skip Dialog Box typing**  
 Skip typing in the Dialog Box.
 
 ??? quote "See parameters"
@@ -158,7 +158,7 @@ Skip typing in the Dialog Box.
 
 ### Behavior conditions
 
-**Number of times the Text in Dialog Box has changed**
+**Number of times the Text in Dialog Box has changed**  
 Compare the number of times the Text in the Dialog Box has changed.
 
 ??? quote "See parameters"
@@ -169,7 +169,7 @@ Compare the number of times the Text in the Dialog Box has changed.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Dialog Box is close**
+**Dialog Box is close**  
 Dialog Box is close.
 
 ??? quote "See parameters"
@@ -179,7 +179,7 @@ Dialog Box is close.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Dialog Box is open**
+**Dialog Box is open**  
 Dialog Box is open.
 
 ??? quote "See parameters"
@@ -189,7 +189,7 @@ Dialog Box is open.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Dialog Box is typing**
+**Dialog Box is typing**  
 Text in the Dialog Box is typing.
 
 ??? quote "See parameters"

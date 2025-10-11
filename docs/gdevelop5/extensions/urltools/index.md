@@ -21,7 +21,7 @@ This extension allows to:
 
 ## Actions
 
-**Redirect to another page**
+**Redirect to another page**  
 Loads another page in place of the current one.
 
 ??? quote "See parameters"
@@ -30,7 +30,7 @@ Loads another page in place of the current one.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Reload the web page**
+**Reload the web page**  
 Reloads the current web page.
 
 ??? quote "See parameters"

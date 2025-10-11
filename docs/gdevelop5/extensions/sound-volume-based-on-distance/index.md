@@ -27,7 +27,7 @@ Make any sound volume on any channel increase and decrease based on distance.
 
 ## Actions
 
-**Sound volume based on distance**
+**Sound volume based on distance**  
 Change a channel volume based on distance between 2 objects.
 
 ??? quote "See parameters"

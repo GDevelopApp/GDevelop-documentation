@@ -27,7 +27,7 @@ Release notes:
 
 ## Actions
 
-**Default rotation amplitude**
+**Default rotation amplitude**  
 Change the default rotation amplitude of the shaking (in degrees).
 
 ??? quote "See parameters"
@@ -36,7 +36,7 @@ Change the default rotation amplitude of the shaking (in degrees).
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Default shaking frequency**
+**Default shaking frequency**  
 Change the default number of back and forth per seconds.
 
 ??? quote "See parameters"
@@ -45,7 +45,7 @@ Change the default number of back and forth per seconds.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Default translation amplitude**
+**Default translation amplitude**  
 Change the default translation amplitude of the shaking (in pixels).
 
 ??? quote "See parameters"
@@ -55,7 +55,7 @@ Change the default translation amplitude of the shaking (in pixels).
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Default zoom amplitude**
+**Default zoom amplitude**  
 Change the default zoom factor amplitude of the shaking. The shaking will zoom and unzoom by this factor (for instance 1.0625 is a valid value).
 
 ??? quote "See parameters"
@@ -64,7 +64,7 @@ Change the default zoom factor amplitude of the shaking. The shaking will zoom a
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Layer rotation amplitude**
+**Layer rotation amplitude**  
 Change the rotation amplitude of the shaking (in degrees).
 
 ??? quote "See parameters"
@@ -74,7 +74,7 @@ Change the rotation amplitude of the shaking (in degrees).
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Shakable layer**
+**Shakable layer**  
 Mark a layer as shakable.
 
 ??? quote "See parameters"
@@ -84,7 +84,7 @@ Mark a layer as shakable.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Layer shaking frequency**
+**Layer shaking frequency**  
 Change the number of back and forth per seconds.
 
 ??? quote "See parameters"
@@ -94,7 +94,7 @@ Change the number of back and forth per seconds.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Layer translation amplitude**
+**Layer translation amplitude**  
 Change the translation amplitude of the shaking (in pixels).
 
 ??? quote "See parameters"
@@ -105,7 +105,7 @@ Change the translation amplitude of the shaking (in pixels).
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Layer zoom amplitude**
+**Layer zoom amplitude**  
 Change the zoom factor amplitude of the shaking. The shaking will zoom and unzoom by this factor (for instance 1.0625 is a valid value).
 
 ??? quote "See parameters"
@@ -115,7 +115,7 @@ Change the zoom factor amplitude of the shaking. The shaking will zoom and unzoo
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Shake camera**
+**Shake camera**  
 Shake the camera on layers chosen with configuration actions.
 
 ??? quote "See parameters"
@@ -126,7 +126,7 @@ Shake the camera on layers chosen with configuration actions.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Start camera shaking**
+**Start camera shaking**  
 Start shaking the camera indefinitely.
 
 ??? quote "See parameters"
@@ -135,7 +135,7 @@ Start shaking the camera indefinitely.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Stop camera shaking**
+**Stop camera shaking**  
 Stop shaking the camera.
 
 ??? quote "See parameters"
@@ -146,7 +146,7 @@ Stop shaking the camera.
 
 ## Conditions
 
-**Camera is shaking**
+**Camera is shaking**  
 Check if the camera is shaking.
 
 ??? quote "See parameters"

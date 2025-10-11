@@ -22,7 +22,7 @@ Read more: [Same-origin policy](https://developer.mozilla.org/en-US/docs/Web/Sec
 
 ## Actions
 
-**Create an Iframe**
+**Create an Iframe**  
 Create a new Iframe to embed a website inside the game.
 
 ??? quote "See parameters"
@@ -40,7 +40,7 @@ Create a new Iframe to embed a website inside the game.
 
     > Technical note: parameters 0, 10 are internal parameters handled by GDevelop.
 
-**Delete an Iframe**
+**Delete an Iframe**  
 Delete the specified Iframe.
 
 ??? quote "See parameters"

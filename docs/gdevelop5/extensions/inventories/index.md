@@ -16,7 +16,7 @@ Manage inventory items with limited or unlimited item capacity.
 
 ## Actions
 
-**Add an item**
+**Add an item**  
 Add an item in an inventory.
 
 ??? quote "See parameters"
@@ -26,7 +26,7 @@ Add an item in an inventory.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Save an inventory in a scene variable**
+**Save an inventory in a scene variable**  
 Save all the items of the inventory in a scene variable, so that it can be restored later.
 
 ??? quote "See parameters"
@@ -36,7 +36,7 @@ Save all the items of the inventory in a scene variable, so that it can be resto
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Load an inventory from a scene variable**
+**Load an inventory from a scene variable**  
 Load the content of the inventory from a scene variable.
 
 ??? quote "See parameters"
@@ -46,7 +46,7 @@ Load the content of the inventory from a scene variable.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Remove an item**
+**Remove an item**  
 Remove an item from an inventory.
 
 ??? quote "See parameters"
@@ -56,7 +56,7 @@ Remove an item from an inventory.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Equip an item**
+**Equip an item**  
 Mark an item as being equipped. If the item count is 0, it won't be marked as equipped.
 
 ??? quote "See parameters"
@@ -67,7 +67,7 @@ Mark an item as being equipped. If the item count is 0, it won't be marked as eq
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Limit item capacity**
+**Limit item capacity**  
 Allow a limited amount of an object to be in an inventory. Item capacity is unlimited by default.
 
 ??? quote "See parameters"
@@ -78,7 +78,7 @@ Allow a limited amount of an object to be in an inventory. Item capacity is unli
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Item capacity**
+**Item capacity**  
 Change the maximum number of the specified item that can be added in the inventory. By default, the number allowed for each item is unlimited.
 
 ??? quote "See parameters"
@@ -90,7 +90,7 @@ Change the maximum number of the specified item that can be added in the invento
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Item count**
+**Item count**  
 Change the number of an item in an inventory.
 
 ??? quote "See parameters"
@@ -104,7 +104,7 @@ Change the number of an item in an inventory.
 
 ## Conditions
 
-**Has an item**
+**Has an item**  
 Check if at least one of the specified items is in the inventory.
 
 ??? quote "See parameters"
@@ -114,7 +114,7 @@ Check if at least one of the specified items is in the inventory.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Item full**
+**Item full**  
 Check if an item has reached its maximum number allowed in the inventory.
 
 ??? quote "See parameters"
@@ -124,7 +124,7 @@ Check if an item has reached its maximum number allowed in the inventory.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Item equipped**
+**Item equipped**  
 Check if an item is equipped.
 
 ??? quote "See parameters"
@@ -134,7 +134,7 @@ Check if an item is equipped.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Limited item capacity**
+**Limited item capacity**  
 Check if a limited amount of an object is allowed by the inventory. Item capacity is unlimited by default.
 
 ??? quote "See parameters"
@@ -144,7 +144,7 @@ Check if a limited amount of an object is allowed by the inventory. Item capacit
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Item capacity**
+**Item capacity**  
 Compare the maximum number of the specified item that can be added in the inventory. By default, the number allowed for each item is unlimited.
 
 ??? quote "See parameters"
@@ -156,7 +156,7 @@ Compare the maximum number of the specified item that can be added in the invent
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Item count**
+**Item count**  
 Compare the number of an item in an inventory.
 
 ??? quote "See parameters"

@@ -4,7 +4,7 @@ Common features that can be used for all objects in GDevelop. [Read more explana
 
 ## Actions
 
-**Pick a random object**
+**Pick a random object**  
 Pick one instance from all the specified objects. When an instance is picked, the next conditions and actions of this event work only on that object instance.
 
 ??? quote "See parameters"
@@ -13,7 +13,7 @@ Pick one instance from all the specified objects. When an instance is picked, th
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Pick all object instances**
+**Pick all object instances**  
 Pick all instances of the specified object(s). When you pick all instances, the next conditions and actions of this event work on all of them.
 
 ??? quote "See parameters"
@@ -22,7 +22,7 @@ Pick all instances of the specified object(s). When you pick all instances, the 
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Create an object**
+**Create an object**  
 Create an instance of the object at the specified position.The created object instance will be available for the next actions and sub-events.
 
 ??? quote "See parameters"
@@ -34,7 +34,7 @@ Create an instance of the object at the specified position.The created object in
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Create an object from its name**
+**Create an object from its name**  
 Among the objects of the specified group, this action will create the object with the specified name.
 
 ??? quote "See parameters"
@@ -49,7 +49,7 @@ Among the objects of the specified group, this action will create the object wit
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Apply movement to all objects**
+**Apply movement to all objects**  
 Moves all objects according to the forces they have. GDevelop calls this action at the end of the events by default.
 
 ??? quote "See parameters"
@@ -58,7 +58,7 @@ Moves all objects according to the forces they have. GDevelop calls this action 
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Pick nearest object**
+**Pick nearest object**  
 Pick the instance of this object that is nearest to the specified position.
 
 ??? quote "See parameters"
@@ -69,7 +69,7 @@ Pick the instance of this object that is nearest to the specified position.
 
 ## Conditions
 
-**Pick a random object**
+**Pick a random object**  
 Pick one instance from all the specified objects. When an instance is picked, the next conditions and actions of this event work only on that object instance.
 
 ??? quote "See parameters"
@@ -78,7 +78,7 @@ Pick one instance from all the specified objects. When an instance is picked, th
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Pick all object instances**
+**Pick all object instances**  
 Pick all instances of the specified object(s). When you pick all instances, the next conditions and actions of this event work on all of them.
 
 ??? quote "See parameters"
@@ -87,7 +87,7 @@ Pick all instances of the specified object(s). When you pick all instances, the 
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**Collision**
+**Collision**  
 Test the collision between two objects using their collision masks.
 
 ??? quote "See parameters"
@@ -98,7 +98,7 @@ Test the collision between two objects using their collision masks.
 
     > Technical note: parameters 2, 3 are internal parameters handled by GDevelop.
 
-**Distance between two objects**
+**Distance between two objects**  
 Compare the distance between two objects.  
 If condition is inverted, only objects that have a distance greater than specified to any other object will be picked.
 
@@ -110,7 +110,7 @@ If condition is inverted, only objects that have a distance greater than specifi
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**An object is turned toward another**
+**An object is turned toward another**  
 Check if an object is turned toward another
 
 ??? quote "See parameters"
@@ -121,7 +121,7 @@ Check if an object is turned toward another
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Pick nearest object**
+**Pick nearest object**  
 Pick the instance of this object that is nearest to the specified position. If the condition is inverted, the instance farthest from the specified position is picked instead.
 
 ??? quote "See parameters"
@@ -132,7 +132,7 @@ Pick the instance of this object that is nearest to the specified position. If t
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Number of object instances currently picked**
+**Number of object instances currently picked**  
 Compare the number of instances picked by the previous conditions (or actions).
 
 ??? quote "See parameters"
@@ -141,7 +141,7 @@ Compare the number of instances picked by the previous conditions (or actions).
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Raycast**
+**Raycast**  
 Sends a ray from the given source position and angle, intersecting the closest object.  
 The intersected object will become the only one taken into account.
 If the condition is inverted, the object to be intersected will be the farthest one within the ray radius.
@@ -160,7 +160,7 @@ If the condition is inverted, the object to be intersected will be the farthest 
 
     > Technical note: parameter 7 are internal parameters handled by GDevelop.
 
-**Raycast to position**
+**Raycast to position**  
 Sends a ray from the given source position to the final point, intersecting the closest object.  
 The intersected object will become the only one taken into account.
 If the condition is inverted, the object to be intersected will be the farthest one within the ray radius.
@@ -179,7 +179,7 @@ If the condition is inverted, the object to be intersected will be the farthest 
 
     > Technical note: parameter 7 are internal parameters handled by GDevelop.
 
-**Number of object instances on the scene**
+**Number of object instances on the scene**  
 Compare the number of instances of the specified objects living on the scene.
 
 ??? quote "See parameters"
@@ -190,7 +190,7 @@ Compare the number of instances of the specified objects living on the scene.
 
     > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
-**An object is moving toward another (using forces)**
+**An object is moving toward another (using forces)**  
 Check if an object moves toward another.  
 The first object must move.
 
@@ -202,7 +202,7 @@ The first object must move.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**The cursor/touch is on an object**
+**The cursor/touch is on an object**  
 Test if the cursor is over an object, or if the object is being touched.
 
 ??? quote "See parameters"
@@ -223,7 +223,7 @@ Test if the cursor is over an object, or if the object is being touched.
 
 ### Object actions
 
-**De/activate a behavior**
+**De/activate a behavior**  
 De/activate the behavior for the object.
 
 ??? quote "See parameters"
@@ -232,7 +232,7 @@ De/activate the behavior for the object.
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Activate?
 
-**Add a force (angle)**
+**Add a force (angle)**  
 Add a force to an object. The object will move according to all of the forces it has. This action creates the force using the specified angle and length.
 
 ??? quote "See parameters"
@@ -242,7 +242,7 @@ Add a force to an object. The object will move according to all of the forces it
     - Parameter 2 (🔢 Number): Speed (in pixels per second)
     - Parameter 3: forceMultiplier
 
-**Add a force to move toward an object**
+**Add a force to move toward an object**  
 Add a force to an object to make it move toward another.
 
 ??? quote "See parameters"
@@ -252,7 +252,7 @@ Add a force to an object to make it move toward another.
     - Parameter 2 (🔢 Number): Speed (in pixels per second)
     - Parameter 3: forceMultiplier
 
-**Add a force to move toward a position**
+**Add a force to move toward a position**  
 Add a force to an object to make it move toward a position.
 
 ??? quote "See parameters"
@@ -263,7 +263,7 @@ Add a force to an object to make it move toward a position.
     - Parameter 3 (🔢 Number): Speed (in pixels per second)
     - Parameter 4: forceMultiplier
 
-**Add a force**
+**Add a force**  
 Add a force to an object. The object will move according to all of the forces it has.
 
 ??? quote "See parameters"
@@ -273,21 +273,21 @@ Add a force to an object. The object will move according to all of the forces it
     - Parameter 2 (🔢 Number): Speed on Y axis (in pixels per second)
     - Parameter 3: forceMultiplier
 
-**Stop the object**
+**Stop the object**  
 Stop the object by deleting all of its forces.
 
 ??? quote "See parameters"
 
     - Parameter 0: 👾 Object
 
-**Hide**
+**Hide**  
 Hide the specified object.
 
 ??? quote "See parameters"
 
     - Parameter 0: 👾 Object
 
-**Layer**
+**Layer**  
 Move the object to a different layer.
 
 ??? quote "See parameters"
@@ -295,7 +295,7 @@ Move the object to a different layer.
     - Parameter 0: 👾 Object
     - Parameter 1 (🔤 Layer name (String)): Move it to this layer
 
-**Z order**
+**Z order**  
 Modify the Z-order of an object
 
 ??? quote "See parameters"
@@ -304,7 +304,7 @@ Modify the Z-order of an object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-**Delete the object**
+**Delete the object**  
 Delete the specified object.
 
 ??? quote "See parameters"
@@ -313,7 +313,7 @@ Delete the specified object.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Put the object around another**
+**Put the object around another**  
 Position an object around another, with the specified angle and distance. The center of the objects are used for positioning them.
 
 ??? quote "See parameters"
@@ -323,7 +323,7 @@ Position an object around another, with the specified angle and distance. The ce
     - Parameter 2 (🔢 Number): Distance
     - Parameter 3 (🔢 Number): Angle, in degrees
 
-**Put around a position**
+**Put around a position**  
 Position the center of the given object around a position, using the specified angle and distance.
 
 ??? quote "See parameters"
@@ -334,7 +334,7 @@ Position the center of the given object around a position, using the specified a
     - Parameter 3 (🔢 Number): Distance
     - Parameter 4 (🔢 Number): Angle, in degrees
 
-**X position**
+**X position**  
 Change the X position of an object.
 
 ??? quote "See parameters"
@@ -343,7 +343,7 @@ Change the X position of an object.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-**Position**
+**Position**  
 Change the position of an object.
 
 ??? quote "See parameters"
@@ -354,7 +354,7 @@ Change the position of an object.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Y position
 
-**Y position**
+**Y position**  
 Change the Y position of an object.
 
 ??? quote "See parameters"
@@ -363,7 +363,7 @@ Change the Y position of an object.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-**Change number variable**
+**Change number variable**  
 Modify the number value of an object variable.
 
 ??? quote "See parameters"
@@ -373,7 +373,7 @@ Modify the number value of an object variable.
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-**Change text variable**
+**Change text variable**  
 Modify the text of an object variable.
 
 ??? quote "See parameters"
@@ -383,7 +383,7 @@ Modify the text of an object variable.
     - Parameter 2: 🟰 Operator
     - Parameter 3 (string): Value
 
-**Show**
+**Show**  
 Show the specified object.
 
 ??? quote "See parameters"
@@ -392,7 +392,7 @@ Show the specified object.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Clear children**
+**Clear children**  
 Remove all the children from the object array or structure variable.
 
 ??? quote "See parameters"
@@ -400,7 +400,7 @@ Remove all the children from the object array or structure variable.
     - Parameter 0: 👾 Object
     - Parameter 1 (🗄️ Object variable): Array or structure variable
 
-**Add existing variable**
+**Add existing variable**  
 Adds an existing variable to the end of an object array variable.
 
 ??? quote "See parameters"
@@ -410,7 +410,7 @@ Adds an existing variable to the end of an object array variable.
     - Parameter 2 (🗄️ Any variable): Scene variable with the content to add
       The content of the object variable will *be copied* and added at the end of the array.
 
-**Add boolean variable**
+**Add boolean variable**  
 Adds a boolean to the end of an object array variable.
 
 ??? quote "See parameters"
@@ -419,7 +419,7 @@ Adds a boolean to the end of an object array variable.
     - Parameter 1 (🗄️ Object variable): Array variable
     - Parameter 2 (❓ True or False): Boolean to add
 
-**Add number variable**
+**Add number variable**  
 Adds a number to the end of an object array variable.
 
 ??? quote "See parameters"
@@ -428,7 +428,7 @@ Adds a number to the end of an object array variable.
     - Parameter 1 (🗄️ Object variable): Array variable
     - Parameter 2 (🔢 Number): Number to add
 
-**Add text variable**
+**Add text variable**  
 Adds a text (string) to the end of an object array variable.
 
 ??? quote "See parameters"
@@ -437,7 +437,7 @@ Adds a text (string) to the end of an object array variable.
     - Parameter 1 (🗄️ Object variable): Array variable
     - Parameter 2 (string): Text to add
 
-**Remove variable by index**
+**Remove variable by index**  
 Removes a variable at the specified index of an object array variable.
 
 ??? quote "See parameters"
@@ -446,7 +446,7 @@ Removes a variable at the specified index of an object array variable.
     - Parameter 1 (🗄️ Object variable): Array variable
     - Parameter 2 (🔢 Number): Index to remove
 
-**Remove a child**
+**Remove a child**  
 Remove a child from an object structure variable.
 
 ??? quote "See parameters"
@@ -455,7 +455,7 @@ Remove a child from an object structure variable.
     - Parameter 1 (🗄️ Object variable): Structure variable
     - Parameter 2 (string): Child's name
 
-**Pause an object timer**
+**Pause an object timer**  
 Pause an object timer.
 
 ??? quote "See parameters"
@@ -463,7 +463,7 @@ Pause an object timer.
     - Parameter 0: 👾 Object
     - Parameter 1 (🔤 Name (String)): Timer's name
 
-**Add value to object array variable**
+**Add value to object array variable**  
 Adds a boolean to the end of an object array variable.
 
 ??? quote "See parameters"
@@ -472,7 +472,7 @@ Adds a boolean to the end of an object array variable.
     - Parameter 1 (🗄️ Object variable): Array variable
     - Parameter 2 (❓ True or False): Boolean to add
 
-**Add value to object array variable**
+**Add value to object array variable**  
 Adds a number to the end of an object array variable.
 
 ??? quote "See parameters"
@@ -481,7 +481,7 @@ Adds a number to the end of an object array variable.
     - Parameter 1 (🗄️ Object variable): Array variable
     - Parameter 2 (🔢 Number): Number to add
 
-**Add value to object array variable**
+**Add value to object array variable**  
 Adds a text (string) to the end of an object array variable.
 
 ??? quote "See parameters"
@@ -490,7 +490,7 @@ Adds a text (string) to the end of an object array variable.
     - Parameter 1 (🗄️ Object variable): Array variable
     - Parameter 2 (string): Text to add
 
-**Delete an object timer**
+**Delete an object timer**  
 Delete an object timer from memory.
 
 ??? quote "See parameters"
@@ -498,7 +498,7 @@ Delete an object timer from memory.
     - Parameter 0: 👾 Object
     - Parameter 1 (🔤 Name (String)): Timer's name
 
-**Start (or reset) an object timer**
+**Start (or reset) an object timer**  
 Reset the specified object timer, if the timer doesn't exist it's created and started.
 
 ??? quote "See parameters"
@@ -506,7 +506,7 @@ Reset the specified object timer, if the timer doesn't exist it's created and st
     - Parameter 0: 👾 Object
     - Parameter 1 (🔤 Name (String)): Timer's name
 
-**Rotate**
+**Rotate**  
 Rotate an object, clockwise if the speed is positive, counterclockwise otherwise. For 3D objects, this is the rotation around the Z axis.
 
 ??? quote "See parameters"
@@ -516,7 +516,7 @@ Rotate an object, clockwise if the speed is positive, counterclockwise otherwise
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Rotate toward angle**
+**Rotate toward angle**  
 Rotate an object towards an angle with the specified speed.
 
 ??? quote "See parameters"
@@ -528,7 +528,7 @@ Rotate an object towards an angle with the specified speed.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Rotate toward another object**
+**Rotate toward another object**  
 Rotate an object towards another object, with the specified speed. Note that if multiple instances of the target object are picked, only the first one will be used. Use a For Each event or actions like "Pick nearest object", "Pick a random object" to refine the choice of the target object.
 
 ??? quote "See parameters"
@@ -540,7 +540,7 @@ Rotate an object towards another object, with the specified speed. Note that if 
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Rotate toward position**
+**Rotate toward position**  
 Rotate an object towards a position, with the specified speed.
 
 ??? quote "See parameters"
@@ -553,7 +553,7 @@ Rotate an object towards a position, with the specified speed.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Separate objects**
+**Separate objects**  
 Move an object away from another using their collision masks.  
 Be sure to call this action on a reasonable number of objects
 to avoid slowing down the game.
@@ -564,7 +564,7 @@ to avoid slowing down the game.
     - Parameter 1 (👾 Object): Objects (won't move)
     - Parameter 2 (❓ Yes or No): Ignore objects that are touching each other on their edges, but are not overlapping (default: no)
 
-**Angle**
+**Angle**  
 Change the angle of rotation of an object (in degrees). For 3D objects, this is the rotation around the Z axis.
 
 ??? quote "See parameters"
@@ -573,7 +573,7 @@ Change the angle of rotation of an object (in degrees). For 3D objects, this is 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Angle (in degrees)
 
-**Change object variable value**
+**Change object variable value**  
 Modify the boolean value of an object variable.
 
 ??? quote "See parameters"
@@ -584,7 +584,7 @@ Modify the boolean value of an object variable.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Center position**
+**Center position**  
 Change the position of an object, using its center.
 
 ??? quote "See parameters"
@@ -595,7 +595,7 @@ Change the position of an object, using its center.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Y position
 
-**Center X position**
+**Center X position**  
 Change the X position of the center of rotation.
 
 ??? quote "See parameters"
@@ -604,7 +604,7 @@ Change the X position of the center of rotation.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-**Center Y position**
+**Center Y position**  
 Change the Y position of the center of rotation.
 
 ??? quote "See parameters"
@@ -613,7 +613,7 @@ Change the Y position of the center of rotation.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-**Include in parent collision mask**
+**Include in parent collision mask**  
 Include or exclude a child from its parent collision mask.
 
 ??? quote "See parameters"
@@ -621,7 +621,7 @@ Include or exclude a child from its parent collision mask.
     - Parameter 0: 👾 Object
     - Parameter 1 (❓ Yes or No): Include in parent collision mask
 
-**Change object variable value**
+**Change object variable value**  
 Modify the number value of an object variable.
 
 ??? quote "See parameters"
@@ -631,7 +631,7 @@ Modify the number value of an object variable.
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-**Change boolean variable**
+**Change boolean variable**  
 Modify the boolean value of an object variable.
 
 ??? quote "See parameters"
@@ -640,7 +640,7 @@ Modify the boolean value of an object variable.
     - Parameter 1 (🗄️ Object variable): Variable
     - Parameter 2 (❓ True or False): New Value:
 
-**Change object variable value**
+**Change object variable value**  
 Modify the text of an object variable.
 
 ??? quote "See parameters"
@@ -650,7 +650,7 @@ Modify the text of an object variable.
     - Parameter 2: 🟰 Operator
     - Parameter 3 (string): Value
 
-**Toggle boolean variable**
+**Toggle boolean variable**  
 Toggles the boolean value of an object variable.  
 If it was true, it will become false, and if it was false it will become true.
 
@@ -659,7 +659,7 @@ If it was true, it will become false, and if it was false it will become true.
     - Parameter 0: 👾 Object
     - Parameter 1 (🗄️ Object variable): Variable
 
-**Unpause an object timer**
+**Unpause an object timer**  
 Unpause an object timer.
 
 ??? quote "See parameters"
@@ -669,7 +669,7 @@ Unpause an object timer.
 
 ### Object conditions
 
-**Angle**
+**Angle**  
 Compare the angle, in degrees, of the specified object. For 3D objects, this is the angle around the Z axis.
 
 ??? quote "See parameters"
@@ -678,14 +678,14 @@ Compare the angle, in degrees, of the specified object. For 3D objects, this is 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Angle to compare to (in degrees)
 
-**Object is stopped (no forces applied on it)**
+**Object is stopped (no forces applied on it)**  
 Check if an object is not moving
 
 ??? quote "See parameters"
 
     - Parameter 0: 👾 Object
 
-**Behavior activated**
+**Behavior activated**  
 Check if the behavior is activated for the object.
 
 ??? quote "See parameters"
@@ -693,7 +693,7 @@ Check if the behavior is activated for the object.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Object variable value**
+**Object variable value**  
 Compare the boolean value of an object variable.
 
 ??? quote "See parameters"
@@ -704,7 +704,7 @@ Compare the boolean value of an object variable.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Bounding box bottom position**
+**Bounding box bottom position**  
 Compare the bounding box (the area encapsulating the object) bottom position.
 
 ??? quote "See parameters"
@@ -713,7 +713,7 @@ Compare the bounding box (the area encapsulating the object) bottom position.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Bounding box center X position**
+**Bounding box center X position**  
 Compare the bounding box (the area encapsulating the object) center X position.
 
 ??? quote "See parameters"
@@ -722,7 +722,7 @@ Compare the bounding box (the area encapsulating the object) center X position.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Bounding box center Y position**
+**Bounding box center Y position**  
 Compare the bounding box (the area encapsulating the object) center Y position.
 
 ??? quote "See parameters"
@@ -731,7 +731,7 @@ Compare the bounding box (the area encapsulating the object) center Y position.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Bounding box left position**
+**Bounding box left position**  
 Compare the bounding box (the area encapsulating the object) left position.
 
 ??? quote "See parameters"
@@ -740,7 +740,7 @@ Compare the bounding box (the area encapsulating the object) left position.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Bounding box right position**
+**Bounding box right position**  
 Compare the bounding box (the area encapsulating the object) right position.
 
 ??? quote "See parameters"
@@ -749,7 +749,7 @@ Compare the bounding box (the area encapsulating the object) right position.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Bounding box top position**
+**Bounding box top position**  
 Compare the bounding box (the area encapsulating the object) top position.
 
 ??? quote "See parameters"
@@ -758,7 +758,7 @@ Compare the bounding box (the area encapsulating the object) top position.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Center X position**
+**Center X position**  
 Compare the X position of the center of rotation.
 
 ??? quote "See parameters"
@@ -767,7 +767,7 @@ Compare the X position of the center of rotation.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Center Y position**
+**Center Y position**  
 Compare the Y position of the center of rotation.
 
 ??? quote "See parameters"
@@ -776,7 +776,7 @@ Compare the Y position of the center of rotation.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Point inside object**
+**Point inside object**  
 Test if a point is inside the object collision masks.
 
 ??? quote "See parameters"
@@ -785,7 +785,7 @@ Test if a point is inside the object collision masks.
     - Parameter 1 (🔢 Number): X position of the point
     - Parameter 2 (🔢 Number): Y position of the point
 
-**Value of an object timer**
+**Value of an object timer**  
 Compare the elapsed time of an object timer. This condition doesn't start the timer.
 
 ??? quote "See parameters"
@@ -795,7 +795,7 @@ Compare the elapsed time of an object timer. This condition doesn't start the ti
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Time in seconds
 
-**Angle of movement (using forces)**
+**Angle of movement (using forces)**  
 Compare the angle of movement of an object according to the forces applied on it.
 
 ??? quote "See parameters"
@@ -804,7 +804,7 @@ Compare the angle of movement of an object according to the forces applied on it
     - Parameter 1 (🔢 Number): Angle, in degrees
     - Parameter 2 (🔢 Number): Tolerance, in degrees
 
-**Current layer**
+**Current layer**  
 Check if the object is on the specified layer.
 
 ??? quote "See parameters"
@@ -812,7 +812,7 @@ Check if the object is on the specified layer.
     - Parameter 0: 👾 Object
     - Parameter 1: 🔤 Layer name (String)
 
-**Object variable value**
+**Object variable value**  
 Compare the number value of an object variable.
 
 ??? quote "See parameters"
@@ -822,7 +822,7 @@ Compare the number value of an object variable.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-**Object timer paused**
+**Object timer paused**  
 Test if specified object timer is paused.
 
 ??? quote "See parameters"
@@ -830,7 +830,7 @@ Test if specified object timer is paused.
     - Parameter 0: 👾 Object
     - Parameter 1 (🔤 Name (String)): Timer's name
 
-**Boolean variable**
+**Boolean variable**  
 Compare the boolean value of an object variable.
 
 ??? quote "See parameters"
@@ -839,7 +839,7 @@ Compare the boolean value of an object variable.
     - Parameter 1 (🗄️ Object variable): Variable
     - Parameter 2 (❓ True or False): Check if the value is
 
-**Number of children**
+**Number of children**  
 Compare the number of children in an object array variable.
 
 ??? quote "See parameters"
@@ -849,7 +849,7 @@ Compare the number of children in an object array variable.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-**Child existence**
+**Child existence**  
 Check if the specified child of the object structure variable exists.
 
 ??? quote "See parameters"
@@ -858,7 +858,7 @@ Check if the specified child of the object structure variable exists.
     - Parameter 1 (🗄️ Object variable): Structure variable
     - Parameter 2 (string): Name of the child
 
-**Z-order**
+**Z-order**  
 Compare the Z-order of the specified object.
 
 ??? quote "See parameters"
@@ -867,7 +867,7 @@ Compare the Z-order of the specified object.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**X position**
+**X position**  
 Compare the X position of the object.
 
 ??? quote "See parameters"
@@ -876,7 +876,7 @@ Compare the X position of the object.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Y position**
+**Y position**  
 Compare the Y position of an object.
 
 ??? quote "See parameters"
@@ -885,7 +885,7 @@ Compare the Y position of an object.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Object variable value**
+**Object variable value**  
 Compare the text of an object variable.
 
 ??? quote "See parameters"
@@ -895,7 +895,7 @@ Compare the text of an object variable.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (string): Value to compare
 
-**Number variable**
+**Number variable**  
 Compare the number value of an object variable.
 
 ??? quote "See parameters"
@@ -905,7 +905,7 @@ Compare the number value of an object variable.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-**Text variable**
+**Text variable**  
 Compare the text of an object variable.
 
 ??? quote "See parameters"
@@ -915,14 +915,14 @@ Compare the text of an object variable.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (string): Value to compare
 
-**Visibility**
+**Visibility**  
 Check if an object is visible.
 
 ??? quote "See parameters"
 
     - Parameter 0: 👾 Object
 
-**Speed (from forces)**
+**Speed (from forces)**  
 Compare the overall speed of an object
 
 ??? quote "See parameters"

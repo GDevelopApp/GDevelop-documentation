@@ -38,7 +38,7 @@ Make object pushable or/and pullable by another object.
 
 ## Actions
 
-**Pullable Box**
+**Pullable Box**  
 Make object pullable by platformer character object.
 
 ??? quote "See parameters"
@@ -63,7 +63,7 @@ Make object pullable by platformer character object.
 
     > Technical note: parameters 0, 12 are internal parameters handled by GDevelop.
 
-**Pushable Box**
+**Pushable Box**  
 Make object pushable by platformer character object.
 
 ??? quote "See parameters"
@@ -92,7 +92,7 @@ Make object pushable by platformer character object.
 
 ## Conditions
 
-**Objct is pulling**
+**Objct is pulling**  
 Check if the player object is pulling.
 
 ??? quote "See parameters"
@@ -101,7 +101,7 @@ Check if the player object is pulling.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Objct is pushing**
+**Objct is pushing**  
 Check if the player object is pushing.
 
 ??? quote "See parameters"

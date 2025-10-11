@@ -16,7 +16,7 @@ It can be used to simulate earthquakes or impacts.
 
 ## Actions
 
-**Add a camera impulse**
+**Add a camera impulse**  
 Add an impulse to the camera position.
 
 ??? quote "See parameters"
@@ -33,7 +33,7 @@ Add an impulse to the camera position.
 
     > Technical note: parameters 0, 10 are internal parameters handled by GDevelop.
 
-**Add a camera impulse (angle)**
+**Add a camera impulse (angle)**  
 Add an impulse to the camera position.
 
 ??? quote "See parameters"
@@ -52,7 +52,7 @@ Add an impulse to the camera position.
 
 ## Conditions
 
-**Camera impulse is playing**
+**Camera impulse is playing**  
 Check if a camera impulse is playing.
 
 ??? quote "See parameters"

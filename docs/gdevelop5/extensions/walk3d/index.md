@@ -25,7 +25,7 @@ Turn and move objects forward and sideways.
 
 ### Behavior actions
 
-**Current forward speed**
+**Current forward speed**  
 Change the current forward speed of the object.
 
 ??? quote "See parameters"
@@ -37,7 +37,7 @@ Change the current forward speed of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Current rotation speed**
+**Current rotation speed**  
 Change the current rotation speed of the object.
 
 ??? quote "See parameters"
@@ -49,7 +49,7 @@ Change the current rotation speed of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Current sideways speed**
+**Current sideways speed**  
 Change the current sideways speed of the object.
 
 ??? quote "See parameters"
@@ -61,7 +61,7 @@ Change the current sideways speed of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Rotation acceleration**
+**Rotation acceleration**  
 Change the rotation acceleration of the object.
 
 ??? quote "See parameters"
@@ -73,7 +73,7 @@ Change the rotation acceleration of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Rotation deceleration**
+**Rotation deceleration**  
 Change the rotation deceleration of the object.
 
 ??? quote "See parameters"
@@ -85,7 +85,7 @@ Change the rotation deceleration of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum rotation speed**
+**Maximum rotation speed**  
 Change the maximum rotation speed of the object.
 
 ??? quote "See parameters"
@@ -97,7 +97,7 @@ Change the maximum rotation speed of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Acceleration**
+**Acceleration**  
 Change the acceleration of the object.
 
 ??? quote "See parameters"
@@ -109,7 +109,7 @@ Change the acceleration of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Deceleration**
+**Deceleration**  
 Change the deceleration of the object.
 
 ??? quote "See parameters"
@@ -121,7 +121,7 @@ Change the deceleration of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum speed**
+**Maximum speed**  
 Change the maximum speed of the object.
 
 ??? quote "See parameters"
@@ -133,7 +133,7 @@ Change the maximum speed of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Simulate move backward key press**
+**Simulate move backward key press**  
 Simulate a press of the move backward key.
 
 ??? quote "See parameters"
@@ -143,7 +143,7 @@ Simulate a press of the move backward key.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Simulate move forward key press**
+**Simulate move forward key press**  
 Simulate a press of the move forward key.
 
 ??? quote "See parameters"
@@ -153,7 +153,7 @@ Simulate a press of the move forward key.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Simulate move left key press**
+**Simulate move left key press**  
 Simulate a press of the move left key.
 
 ??? quote "See parameters"
@@ -163,7 +163,7 @@ Simulate a press of the move left key.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Simulate move right key press**
+**Simulate move right key press**  
 Simulate a press of the move right key.
 
 ??? quote "See parameters"
@@ -173,7 +173,7 @@ Simulate a press of the move right key.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Simulate stick control**
+**Simulate stick control**  
 Simulate a stick control.
 
 ??? quote "See parameters"
@@ -185,7 +185,7 @@ Simulate a stick control.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Simulate stick control for rotation**
+**Simulate stick control for rotation**  
 Simulate a stick control for rotation.
 
 ??? quote "See parameters"
@@ -196,7 +196,7 @@ Simulate a stick control for rotation.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Simulate turn left key press**
+**Simulate turn left key press**  
 Simulate a press of the turn left key.
 
 ??? quote "See parameters"
@@ -206,7 +206,7 @@ Simulate a press of the turn left key.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Simulate turn right key press**
+**Simulate turn right key press**  
 Simulate a press of the turn right key.
 
 ??? quote "See parameters"
@@ -218,7 +218,7 @@ Simulate a press of the turn right key.
 
 ### Behavior conditions
 
-**Current forward speed**
+**Current forward speed**  
 Compare the current forward speed of the object.
 
 ??? quote "See parameters"
@@ -230,7 +230,7 @@ Compare the current forward speed of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Current rotation speed**
+**Current rotation speed**  
 Compare the current rotation speed of the object.
 
 ??? quote "See parameters"
@@ -242,7 +242,7 @@ Compare the current rotation speed of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Current sideways speed**
+**Current sideways speed**  
 Compare the current sideways speed of the object.
 
 ??? quote "See parameters"
@@ -254,7 +254,7 @@ Compare the current sideways speed of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Rotation acceleration**
+**Rotation acceleration**  
 Compare the rotation acceleration of the object.
 
 ??? quote "See parameters"
@@ -266,7 +266,7 @@ Compare the rotation acceleration of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Rotation deceleration**
+**Rotation deceleration**  
 Compare the rotation deceleration of the object.
 
 ??? quote "See parameters"
@@ -278,7 +278,7 @@ Compare the rotation deceleration of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum rotation speed**
+**Maximum rotation speed**  
 Compare the maximum rotation speed of the object.
 
 ??? quote "See parameters"
@@ -290,7 +290,7 @@ Compare the maximum rotation speed of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Acceleration**
+**Acceleration**  
 Compare the acceleration of the object.
 
 ??? quote "See parameters"
@@ -302,7 +302,7 @@ Compare the acceleration of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Deceleration**
+**Deceleration**  
 Compare the deceleration of the object.
 
 ??? quote "See parameters"
@@ -314,7 +314,7 @@ Compare the deceleration of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum speed**
+**Maximum speed**  
 Compare the maximum speed of the object.
 
 ??? quote "See parameters"

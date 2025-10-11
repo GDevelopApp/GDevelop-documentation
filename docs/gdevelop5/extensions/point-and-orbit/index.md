@@ -27,7 +27,7 @@ The target angle action can be used to follow hte direction of a gamepad stick
 
 ## Actions
 
-**Point and Orbit toward a position**
+**Point and Orbit toward a position**  
 Point and Orbit an object toward a position.
 
 ??? quote "See parameters"
@@ -50,7 +50,7 @@ Point and Orbit an object toward a position.
 
     > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
 
-**Point and Orbit toward an angle**
+**Point and Orbit toward an angle**  
 Point and Orbit an object toward an angle.
 
 ??? quote "See parameters"

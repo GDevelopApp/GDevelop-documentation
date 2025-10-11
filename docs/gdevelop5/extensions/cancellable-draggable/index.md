@@ -21,7 +21,7 @@ Allow to cancel the drag of an object and make it smoothly return to its origina
 
 ### Behavior actions
 
-**Cancel drag**
+**Cancel drag**  
 Cancel last drag.
 
 ??? quote "See parameters"
@@ -35,7 +35,7 @@ Cancel last drag.
 
 ### Behavior conditions
 
-**Dragging is cancelled**
+**Dragging is cancelled**  
 Dragging is cancelled, the object is returning to its original position.
 
 ??? quote "See parameters"

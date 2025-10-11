@@ -21,7 +21,7 @@ This extension is deprecated. Prefer using a timer and a substraction like in th
 
 ## Actions
 
-**Restart the countdown timer**
+**Restart the countdown timer**  
 Reset the countdown to its initial value.
 
 ??? quote "See parameters"
@@ -30,7 +30,7 @@ Reset the countdown to its initial value.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Set the countdown of the clock**
+**Set the countdown of the clock**  
 Set the countdown timer in seconds.
 
 ??? quote "See parameters"
@@ -40,7 +40,7 @@ Set the countdown timer in seconds.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Start countdown timer**
+**Start countdown timer**  
 Starts the countdown from the value set previously.
 
 ??? quote "See parameters"
@@ -52,7 +52,7 @@ Starts the countdown from the value set previously.
 
 ## Conditions
 
-**Countdown timer is in x sec**
+**Countdown timer is in x sec**  
 Check if the countdown timer has reached a specific time in seconds.
 
 ??? quote "See parameters"
@@ -62,7 +62,7 @@ Check if the countdown timer has reached a specific time in seconds.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**The countdown timer has ended**
+**The countdown timer has ended**  
 Check if the countdown timer has reached zero.
 
 ??? quote "See parameters"

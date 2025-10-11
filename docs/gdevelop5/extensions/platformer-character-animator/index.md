@@ -22,7 +22,7 @@ Change animations and horizontal flipping of a platformer character automaticall
 
 ### Behavior actions
 
-**Enable (or disable) automated animation changes**
+**Enable (or disable) automated animation changes**  
 Enable (or disable) automated animation changes a platformer character. Disabling animation changes is useful to play custom animations.
 
 ??? quote "See parameters"
@@ -33,7 +33,7 @@ Enable (or disable) automated animation changes a platformer character. Disablin
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Enable (or disable) automated horizontal flipping**
+**Enable (or disable) automated horizontal flipping**  
 Enable (or disable) automated horizontal flipping of a platform character.
 
 ??? quote "See parameters"
@@ -44,7 +44,7 @@ Enable (or disable) automated horizontal flipping of a platform character.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**"Climb" animation name**
+**"Climb" animation name**  
 Set the "Climb" animation name. Do not use quotation marks.
 
 ??? quote "See parameters"
@@ -55,7 +55,7 @@ Set the "Climb" animation name. Do not use quotation marks.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**"Fall" animation name**
+**"Fall" animation name**  
 Set the "Fall" animation name. Do not use quotation marks.
 
 ??? quote "See parameters"
@@ -66,7 +66,7 @@ Set the "Fall" animation name. Do not use quotation marks.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**"Idle" animation name**
+**"Idle" animation name**  
 Set the "Idle" animation name. Do not use quotation marks.
 
 ??? quote "See parameters"
@@ -77,7 +77,7 @@ Set the "Idle" animation name. Do not use quotation marks.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**"Jump" animation name**
+**"Jump" animation name**  
 Set the "Jump" animation name. Do not use quotation marks.
 
 ??? quote "See parameters"
@@ -88,7 +88,7 @@ Set the "Jump" animation name. Do not use quotation marks.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**"Move" animation name**
+**"Move" animation name**  
 Set the "Move" animation name. Do not use quotation marks.
 
 ??? quote "See parameters"

@@ -4,7 +4,7 @@ Advanced control features for functions made with events.
 
 ## Actions
 
-**Copy function parameter to variable**
+**Copy function parameter to variable**  
 Copy a function parameter (also called "argument") to a variable. The parameter type must be a variable.
 
 ??? quote "See parameters"
@@ -12,7 +12,7 @@ Copy a function parameter (also called "argument") to a variable. The parameter 
     - Parameter 0 (🔤 Function Parameter Name (String)): Parameter name
     - Parameter 1: 🗄️ Any variable
 
-**Copy variable to function parameter**
+**Copy variable to function parameter**  
 Copy a variable to function parameter (also called "argument"). The parameter type must be a variable.
 
 ??? quote "See parameters"
@@ -20,21 +20,21 @@ Copy a variable to function parameter (also called "argument"). The parameter ty
     - Parameter 0 (🔤 Function Parameter Name (String)): Parameter name
     - Parameter 1: 🗄️ Any variable
 
-**Set condition return value**
+**Set condition return value**  
 Set the return value of the Condition events function to either true (condition will pass) or false.
 
 ??? quote "See parameters"
 
     - Parameter 0 (❓ True or False): Should the condition be true or false?
 
-**Set number return value**
+**Set number return value**  
 Set the return value of the events function to the specified number (to be used with "Expression" functions).
 
 ??? quote "See parameters"
 
     - Parameter 0 (🔢 Number): The number to be returned
 
-**Set text return value**
+**Set text return value**  
 Set the return value of the events function to the specified text (to be used with "String Expression" functions).
 
 ??? quote "See parameters"

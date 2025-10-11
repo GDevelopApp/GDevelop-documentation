@@ -10,7 +10,7 @@ Change or compare the size (width/height) of an object which can be resized (i.e
 
 ### Behavior actions
 
-**Height**
+**Height**  
 Change the height of the object.
 
 ??? quote "See parameters"
@@ -20,7 +20,7 @@ Change the height of the object.
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Height
 
-**Size**
+**Size**  
 Change the size of an object.
 
 ??? quote "See parameters"
@@ -30,7 +30,7 @@ Change the size of an object.
     - Parameter 2 (🔢 Number): Width
     - Parameter 3 (🔢 Number): Height
 
-**Width**
+**Width**  
 Change the width of the object.
 
 ??? quote "See parameters"
@@ -42,7 +42,7 @@ Change the width of the object.
 
 ### Behavior conditions
 
-**Height**
+**Height**  
 Compare the height of the object.
 
 ??? quote "See parameters"
@@ -52,7 +52,7 @@ Compare the height of the object.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Height
 
-**Width**
+**Width**  
 Compare the width of the object.
 
 ??? quote "See parameters"

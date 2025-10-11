@@ -10,7 +10,7 @@ Move objects to a target while avoiding all objects that are flagged as obstacle
 
 ### Behavior actions
 
-**Acceleration**
+**Acceleration**  
 Change the acceleration when moving the object
 
 ??? quote "See parameters"
@@ -20,7 +20,7 @@ Change the acceleration when moving the object
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-**Diagonal movement**
+**Diagonal movement**  
 Allow or restrict diagonal movement on the path
 
 ??? quote "See parameters"
@@ -29,7 +29,7 @@ Allow or restrict diagonal movement on the path
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Allow?
 
-**Rotation offset**
+**Rotation offset**  
 Change the rotation offset applied when moving the object
 
 ??? quote "See parameters"
@@ -39,7 +39,7 @@ Change the rotation offset applied when moving the object
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Angle (in degrees)
 
-**Angular maximum speed**
+**Angular maximum speed**  
 Change the maximum angular speed when moving the object
 
 ??? quote "See parameters"
@@ -49,7 +49,7 @@ Change the maximum angular speed when moving the object
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Max angular speed (in degrees per second)
 
-**Height of the cells**
+**Height of the cells**  
 Change the height of the cells of the virtual grid.
 
 ??? quote "See parameters"
@@ -59,7 +59,7 @@ Change the height of the cells of the virtual grid.
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-**Width of the cells**
+**Width of the cells**  
 Change the width of the cells of the virtual grid.
 
 ??? quote "See parameters"
@@ -69,7 +69,7 @@ Change the width of the cells of the virtual grid.
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-**Extra border**
+**Extra border**  
 Change the size of the extra border applied to the object when planning a path
 
 ??? quote "See parameters"
@@ -79,7 +79,7 @@ Change the size of the extra border applied to the object when planning a path
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-**Maximum speed**
+**Maximum speed**  
 Change the maximum speed when moving the object
 
 ??? quote "See parameters"
@@ -89,7 +89,7 @@ Change the maximum speed when moving the object
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Max speed (in pixels per second)
 
-**Grid X offset**
+**Grid X offset**  
 Change X offset of the virtual grid.
 
 ??? quote "See parameters"
@@ -99,7 +99,7 @@ Change X offset of the virtual grid.
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-**Grid Y offset**
+**Grid Y offset**  
 Change Y offset of the virtual grid.
 
 ??? quote "See parameters"
@@ -109,7 +109,7 @@ Change Y offset of the virtual grid.
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-**Rotate the object**
+**Rotate the object**  
 Enable or disable rotation of the object on the path
 
 ??? quote "See parameters"
@@ -118,7 +118,7 @@ Enable or disable rotation of the object on the path
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Rotate object?
 
-**Move to a position**
+**Move to a position**  
 Move the object to a position
 
 ??? quote "See parameters"
@@ -130,7 +130,7 @@ Move the object to a position
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Speed**
+**Speed**  
 Change the speed of the object on the path
 
 ??? quote "See parameters"
@@ -142,7 +142,7 @@ Change the speed of the object on the path
 
 ### Behavior conditions
 
-**Acceleration**
+**Acceleration**  
 Compare the acceleration when moving the object
 
 ??? quote "See parameters"
@@ -152,7 +152,7 @@ Compare the acceleration when moving the object
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-**Rotation offset**
+**Rotation offset**  
 Compare the rotation offset when moving the object
 
 ??? quote "See parameters"
@@ -162,7 +162,7 @@ Compare the rotation offset when moving the object
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Angle to compare to (in degrees)
 
-**Angular maximum speed**
+**Angular maximum speed**  
 Compare the maximum angular speed when moving the object
 
 ??? quote "See parameters"
@@ -172,7 +172,7 @@ Compare the maximum angular speed when moving the object
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Max angular speed to compare to (in degrees per second)
 
-**Height of the virtual grid**
+**Height of the virtual grid**  
 Compare the height of the cells of the virtual grid.
 
 ??? quote "See parameters"
@@ -182,7 +182,7 @@ Compare the height of the cells of the virtual grid.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-**Width of the virtual grid**
+**Width of the virtual grid**  
 Compare the width of the cells of the virtual grid.
 
 ??? quote "See parameters"
@@ -192,7 +192,7 @@ Compare the width of the cells of the virtual grid.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-**Destination reached**
+**Destination reached**  
 Check if the destination was reached.
 
 ??? quote "See parameters"
@@ -200,7 +200,7 @@ Check if the destination was reached.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Diagonal movement**
+**Diagonal movement**  
 Check if the object is allowed to move diagonally on the path
 
 ??? quote "See parameters"
@@ -208,7 +208,7 @@ Check if the object is allowed to move diagonally on the path
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Extra border**
+**Extra border**  
 Compare the size of the extra border applied to the object when planning a path
 
 ??? quote "See parameters"
@@ -218,7 +218,7 @@ Compare the size of the extra border applied to the object when planning a path
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-**Maximum speed**
+**Maximum speed**  
 Compare the maximum speed when moving the object
 
 ??? quote "See parameters"
@@ -228,7 +228,7 @@ Compare the maximum speed when moving the object
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Max speed to compare to (in pixels per second)
 
-**Object rotated**
+**Object rotated**  
 Check if the object is rotated when traveling on its path.
 
 ??? quote "See parameters"
@@ -236,7 +236,7 @@ Check if the object is rotated when traveling on its path.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Path found**
+**Path found**  
 Check if a path has been found.
 
 ??? quote "See parameters"
@@ -244,7 +244,7 @@ Check if a path has been found.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-**Grid X offset**
+**Grid X offset**  
 Compare X offset of the virtual grid.
 
 ??? quote "See parameters"
@@ -254,7 +254,7 @@ Compare X offset of the virtual grid.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-**Grid Y offset**
+**Grid Y offset**  
 Compare Y offset of the virtual grid.
 
 ??? quote "See parameters"
@@ -264,7 +264,7 @@ Compare Y offset of the virtual grid.
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-**Angle of movement on its path**
+**Angle of movement on its path**  
 Compare the angle of movement of an object on its path.
 
 ??? quote "See parameters"
@@ -274,7 +274,7 @@ Compare the angle of movement of an object on its path.
     - Parameter 2 (🔢 Number): Angle, in degrees
     - Parameter 3 (🔢 Number): Tolerance, in degrees
 
-**Speed on its path**
+**Speed on its path**  
 Compare the speed of the object on its path.
 
 ??? quote "See parameters"
@@ -318,7 +318,7 @@ Flag objects as being obstacles for pathfinding.
 
 ### Behavior actions
 
-**Cost**
+**Cost**  
 Change the cost of going through the object.
 
 ??? quote "See parameters"
@@ -328,7 +328,7 @@ Change the cost of going through the object.
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-**Should object be impassable**
+**Should object be impassable**  
 Decide if the object is an impassable obstacle.
 
 ??? quote "See parameters"
@@ -339,7 +339,7 @@ Decide if the object is an impassable obstacle.
 
 ### Behavior conditions
 
-**Cost**
+**Cost**  
 Compare the cost of going through the object
 
 ??? quote "See parameters"
@@ -349,7 +349,7 @@ Compare the cost of going through the object
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-**Impassable obstacle**
+**Impassable obstacle**  
 Check if the obstacle is impassable.
 
 ??? quote "See parameters"

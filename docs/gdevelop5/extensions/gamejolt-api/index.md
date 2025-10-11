@@ -34,7 +34,7 @@ The request result is stored in a Scene variable of your choice that you can use
 
 ## Actions
 
-**Add score to the leaderboard**
+**Add score to the leaderboard**  
 Add score to the Gamejolt leaderboard.
 
 ??? quote "See parameters"
@@ -50,7 +50,7 @@ Add score to the Gamejolt leaderboard.
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
-**Add score with label to the leaderboard**
+**Add score with label to the leaderboard**  
 Add a labelled score in the leaderboard.
 
 ??? quote "See parameters"
@@ -66,7 +66,7 @@ Add a labelled score in the leaderboard.
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
-**Achieve a trophy**
+**Achieve a trophy**  
 Set that a trophy has been obtained by the player.
 
 ??? quote "See parameters"
@@ -75,7 +75,7 @@ Set that a trophy has been obtained by the player.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Gamejolt authentication**
+**Gamejolt authentication**  
 Authenticate Gamejolt user before using the account functionalities.
 
 ??? quote "See parameters"
@@ -85,7 +85,7 @@ Authenticate Gamejolt user before using the account functionalities.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Check a game session**
+**Check a game session**  
 Check on the server the session status.
 
 ??? quote "See parameters"
@@ -94,7 +94,7 @@ Check on the server the session status.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Close a game session**
+**Close a game session**  
 Close a game session for the connected user.
 
 ??? quote "See parameters"
@@ -103,7 +103,7 @@ Close a game session for the connected user.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Change number**
+**Change number**  
 Update a numerical value in the cloud storage.
 
 ??? quote "See parameters"
@@ -115,7 +115,7 @@ Update a numerical value in the cloud storage.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Change text**
+**Change text**  
 Update a text value in the cloud storage.
 
 ??? quote "See parameters"
@@ -127,7 +127,7 @@ Update a text value in the cloud storage.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Fetch stored data**
+**Fetch stored data**  
 Fetch cloud game data from Gamejolt.
 
 ??? quote "See parameters"
@@ -141,7 +141,7 @@ Fetch cloud game data from Gamejolt.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Fetch data keys**
+**Fetch data keys**  
 Fetch all the data keys.
 
 ??? quote "See parameters"
@@ -160,7 +160,7 @@ Fetch all the data keys.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Fetch the best scores**
+**Fetch the best scores**  
 Fetch the best scores on the leaderboard.
 
 ??? quote "See parameters"
@@ -183,7 +183,7 @@ Fetch the best scores on the leaderboard.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Fetch scores of a user**
+**Fetch scores of a user**  
 Fetch user's scores on the leaderboard.
 
 ??? quote "See parameters"
@@ -208,7 +208,7 @@ Fetch user's scores on the leaderboard.
 
     > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
 
-**Fetch leaderboard rank**
+**Fetch leaderboard rank**  
 Fetch the score rank in the leaderboard.
 
 ??? quote "See parameters"
@@ -222,7 +222,7 @@ Fetch the score rank in the leaderboard.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Fetch all leaderboard's informations**
+**Fetch all leaderboard's informations**  
 Fetch all the leaderboard informations (without scores).
 
 ??? quote "See parameters"
@@ -237,7 +237,7 @@ Fetch all the leaderboard informations (without scores).
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Get the server time**
+**Get the server time**  
 Retrieve the server time.
 
 ??? quote "See parameters"
@@ -256,7 +256,7 @@ Retrieve the server time.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Fetch the user trophies**
+**Fetch the user trophies**  
 Fetch trophies informations of the connected user.
 
 ??? quote "See parameters"
@@ -274,7 +274,7 @@ Fetch trophies informations of the connected user.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Fetch the user trophies (by identifier)**
+**Fetch the user trophies (by identifier)**  
 Fetch trophies (by identifier) informations of the connected user.
 
 ??? quote "See parameters"
@@ -294,7 +294,7 @@ Fetch trophies (by identifier) informations of the connected user.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Fetch user data**
+**Fetch user data**  
 Fetch complete user data from Gamejolt.
 
 ??? quote "See parameters"
@@ -322,7 +322,7 @@ Fetch complete user data from Gamejolt.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Fetch user friends**
+**Fetch user friends**  
 Fetch the connected user friend list.
 
 ??? quote "See parameters"
@@ -334,7 +334,7 @@ Fetch the connected user friend list.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Open a game session**
+**Open a game session**  
 Open a game session for the connected user.
 
 ??? quote "See parameters"
@@ -343,7 +343,7 @@ Open a game session for the connected user.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Register Gamejolt game**
+**Register Gamejolt game**  
 Setup a game before using the Gamejolt API.
 
 ??? quote "See parameters"
@@ -354,7 +354,7 @@ Setup a game before using the Gamejolt API.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Remove stored data**
+**Remove stored data**  
 Remove cloud game data from Gamejolt.
 
 ??? quote "See parameters"
@@ -364,7 +364,7 @@ Remove cloud game data from Gamejolt.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Remove a trophy**
+**Remove a trophy**  
 Remove a trophy from the player achievements.
 
 ??? quote "See parameters"
@@ -373,7 +373,7 @@ Remove a trophy from the player achievements.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Activate test user**
+**Activate test user**  
 Activate a test user for the Gamejolt API.
 
 ??? quote "See parameters"
@@ -383,7 +383,7 @@ Activate a test user for the Gamejolt API.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Store data**
+**Store data**  
 Save game data in the Gamejolt cloud storage.
 
 ??? quote "See parameters"
@@ -394,7 +394,7 @@ Save game data in the Gamejolt cloud storage.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Change the session status**
+**Change the session status**  
 Change the game session status on the server.
 
 ??? quote "See parameters"
@@ -411,7 +411,7 @@ Change the game session status on the server.
 
 ## Conditions
 
-**Player is authenticated**
+**Player is authenticated**  
 Check if the user is authenticated on Gamejolt.
 
 ??? quote "See parameters"
@@ -420,7 +420,7 @@ Check if the user is authenticated on Gamejolt.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**The request is finished**
+**The request is finished**  
 The named request is finished. You can read its content.
 
 ??? quote "See parameters"
@@ -429,7 +429,7 @@ The named request is finished. You can read its content.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Last error message**
+**Last error message**  
 Compare Error message from the last request.
 
 ??? quote "See parameters"
@@ -439,7 +439,7 @@ Compare Error message from the last request.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Last request is successful**
+**Last request is successful**  
 Check if the last request is successful.
 
 ??? quote "See parameters"
@@ -448,7 +448,7 @@ Check if the last request is successful.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Request error message**
+**Request error message**  
 Compare Error message from a specific request.
 
 ??? quote "See parameters"
@@ -459,7 +459,7 @@ Compare Error message from a specific request.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Request is successful**
+**Request is successful**  
 Check if a specific request is successful.
 
 ??? quote "See parameters"
@@ -468,7 +468,7 @@ Check if a specific request is successful.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Session is active**
+**Session is active**  
 Check if the user session is active.
 
 ??? quote "See parameters"
@@ -477,7 +477,7 @@ Check if the user session is active.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Is in test mode**
+**Is in test mode**  
 Check if the API is in test mode.
 
 ??? quote "See parameters"
@@ -486,7 +486,7 @@ Check if the API is in test mode.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**User game token**
+**User game token**  
 Compare Authenticated user game token used for requests.
 
 ??? quote "See parameters"
@@ -496,7 +496,7 @@ Compare Authenticated user game token used for requests.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Username**
+**Username**  
 Compare Authenticated username used for requests.
 
 ??? quote "See parameters"

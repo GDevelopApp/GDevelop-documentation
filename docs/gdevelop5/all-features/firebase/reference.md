@@ -4,17 +4,17 @@ Use Google Firebase services (database, functions, storage...) in your game. [Re
 
 ## Actions
 
-**Create a custom performance tracker**
+**Create a custom performance tracker**  
 Creates a new custom performance tracker (If it doesn't already exists). They are used to measure performance of custom events.
 
 ??? quote "See parameters"
 
     - Parameter 0 (string): Tracker Name
 
-**Enable analytics**
+**Enable analytics**  
 Enables Analytics for that project.
 
-**Log an Event**
+**Log an Event**  
 Triggers an Event/Conversion for the current user on the Analytics.Can also pass additional data to the Analytics
 
 ??? quote "See parameters"
@@ -22,7 +22,7 @@ Triggers an Event/Conversion for the current user on the Analytics.Can also pass
     - Parameter 0 (string): Event Name
     - Parameter 1 (string): Additional Data
 
-**Set a user's property**
+**Set a user's property**  
 Sets an user's properties.Can be used to classify user in Analytics.
 
 ??? quote "See parameters"
@@ -30,21 +30,21 @@ Sets an user's properties.Can be used to classify user in Analytics.
     - Parameter 0 (string): Property Name
     - Parameter 1 (string): Property Data
 
-**User UID**
+**User UID**  
 Changes the current user's analytics identifier. This is what let Analytics differentiate user, so it should always be unique for each user. For advanced usage only.
 
 ??? quote "See parameters"
 
     - Parameter 0 (string): New Unique ID
 
-**Sign In as an anonymous guest**
+**Sign In as an anonymous guest**  
 Sign into a temporary anonymous account.
 
 ??? quote "See parameters"
 
     - Parameter 0 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Sign into an account with email**
+**Sign into an account with email**  
 Sign into an account with email and password as credentials. 
 
 ??? quote "See parameters"
@@ -53,7 +53,7 @@ Sign into an account with email and password as credentials.
     - Parameter 1 (string): Password
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Call a HTTP function**
+**Call a HTTP function**  
 Calls a HTTP function by name, and store the result in a variable.
 
 ??? quote "See parameters"
@@ -63,7 +63,7 @@ Calls a HTTP function by name, and store the result in a variable.
     - Parameter 2 (🗄️ Scene variable): Callback variable with returned value
     - Parameter 3 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**User email**
+**User email**  
 This action is dangerous so it requires reauthentication.  
 Changes the user's email address.
 
@@ -75,7 +75,7 @@ Changes the user's email address.
     - Parameter 3 (❓ Yes or No): Send a verification email before doing the change?
     - Parameter 4 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**User email (Provider)**
+**User email (Provider)**  
 This action is dangerous so it requires reauthentication.  
 Changes the user's email address.
 This is the same as Change the user email but reauthenticates via an external provider.
@@ -86,7 +86,7 @@ This is the same as Change the user email but reauthenticates via an external pr
     - Parameter 1 (❓ Yes or No): Send a verification email before doing the change?
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**User password**
+**User password**  
 This action is dangerous so it requires reauthentication.  
 Changes the user password.
 
@@ -98,7 +98,7 @@ Changes the user password.
     - Parameter 3 (❓ Yes or No): Send a verification email before doing the change?
     - Parameter 4 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**User password (Provider)**
+**User password (Provider)**  
 This action is dangerous so it requires reauthentication.  
 Changes the user password.
 This is the same as "Change the user password" but reauthenticates via an external provider.
@@ -109,7 +109,7 @@ This is the same as "Change the user password" but reauthenticates via an extern
     - Parameter 1 (❓ Yes or No): Send a verification email before doing the change?
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Create account with email**
+**Create account with email**  
 Create an account with email and password as credentials.
 
 ??? quote "See parameters"
@@ -118,7 +118,7 @@ Create an account with email and password as credentials.
     - Parameter 1 (string): Password
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Delete a field of a variable**
+**Delete a field of a variable**  
 Deletes a field of a variable on the database.
 
 ??? quote "See parameters"
@@ -127,7 +127,7 @@ Deletes a field of a variable on the database.
     - Parameter 1 (string): Field to delete
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Delete a database variable**
+**Delete a database variable**  
 Deletes a variable from the database.
 
 ??? quote "See parameters"
@@ -135,7 +135,7 @@ Deletes a variable from the database.
     - Parameter 0 (string): Path
     - Parameter 1 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Get a field of a variable**
+**Get a field of a variable**  
 Return the value of a field in a variable from the database and store it in a scene variable.
 
 ??? quote "See parameters"
@@ -145,7 +145,7 @@ Return the value of a field in a variable from the database and store it in a sc
     - Parameter 2 (🗄️ Scene variable): Callback variable where to store the field's value
     - Parameter 3 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Get a variable from the database**
+**Get a variable from the database**  
 Gets a variable from the database and store it in a Scene variable.
 
 ??? quote "See parameters"
@@ -154,7 +154,7 @@ Gets a variable from the database and store it in a Scene variable.
     - Parameter 1 (🗄️ Scene variable): Callback variable where to store the data
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Check for existence of a variable's field**
+**Check for existence of a variable's field**  
 Checks for the existence of a field in a variable. Sets the result variable to 1 if it exists else to 2.
 
 ??? quote "See parameters"
@@ -164,7 +164,7 @@ Checks for the existence of a field in a variable. Sets the result variable to 1
     - Parameter 2 (🗄️ Scene variable): Callback Variable where to store the result
     - Parameter 3 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Check for a variable's existence**
+**Check for a variable's existence**  
 Checks for the existence of a variable. Sets the result variable to 1 if it exists else to 2.
 
 ??? quote "See parameters"
@@ -173,7 +173,7 @@ Checks for the existence of a variable. Sets the result variable to 1 if it exis
     - Parameter 1 (🗄️ Scene variable): Callback variable where to store the result
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Update a field of a document**
+**Update a field of a document**  
 Updates a field of a Database document.
 
 ??? quote "See parameters"
@@ -183,7 +183,7 @@ Updates a field of a Database document.
     - Parameter 2 (string): Value to write
     - Parameter 3 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Update a document in Database**
+**Update a document in Database**  
 Updates a variable on the database.
 
 ??? quote "See parameters"
@@ -192,7 +192,7 @@ Updates a variable on the database.
     - Parameter 1 (🗄️ Scene variable): Variable to update with
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Write a field in Database**
+**Write a field in Database**  
 Writes a field of a Database document.
 
 ??? quote "See parameters"
@@ -202,7 +202,7 @@ Writes a field of a Database document.
     - Parameter 2 (string): Value to write
     - Parameter 3 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Write a variable to Database**
+**Write a variable to Database**  
 Writes a variable to Database.
 
 ??? quote "See parameters"
@@ -211,7 +211,7 @@ Writes a variable to Database.
     - Parameter 1 (🗄️ Scene variable): Variable to write
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Delete the user account**
+**Delete the user account**  
 This action is dangerous so it requires reauthentication.  
 Deletes the user account.
 
@@ -221,7 +221,7 @@ Deletes the user account.
     - Parameter 1 (string): Password
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Delete the user account (Provider)**
+**Delete the user account (Provider)**  
 This action is dangerous so it requires reauthentication.  
 Deletes the user account.
 This is the same as "Delete the user account" but reauthenticates via an external provider.
@@ -230,10 +230,10 @@ This is the same as "Delete the user account" but reauthenticates via an externa
 
     - Parameter 0 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Enable performance measuring**
+**Enable performance measuring**  
 Enables performance measuring.
 
-**Add a document to firestore**
+**Add a document to firestore**  
 Adds a document (variable) to cloud firestore with a unique name.
 
 ??? quote "See parameters"
@@ -242,7 +242,7 @@ Adds a document (variable) to cloud firestore with a unique name.
     - Parameter 1 (🗄️ Scene variable): Variable to write
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Delete a document in firestore**
+**Delete a document in firestore**  
 Deletes a firestore document (variable).
 
 ??? quote "See parameters"
@@ -251,7 +251,7 @@ Deletes a firestore document (variable).
     - Parameter 1 (string): Document
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Delete a field of a document**
+**Delete a field of a document**  
 Deletes a field of a firestore document.
 
 ??? quote "See parameters"
@@ -261,22 +261,22 @@ Deletes a field of a firestore document.
     - Parameter 2 (string): Field to delete
     - Parameter 3 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Disable network**
+**Disable network**  
 Disables the connection to the database.  
 While the network is disabled, any read operations will return results from cache, and any write operations will be queued until the network is restored.
 
-**Disable persistence**
+**Disable persistence**  
 Disables the storing of fetched data and clear all the data that has been stored.  
 This needs to be called before any other firestore operation, otherwise it will fail.
 
-**Re-enable network**
+**Re-enable network**  
 Re-enables the connection to the database after disabling it.
 
-**Enable persistence**
+**Enable persistence**  
 When persistence is enabled, all data that is fetched from the database is being automatically stored to allow to continue accessing the data if cut off from the network, instead of waiting for reconnection.  
 This needs to be called before any other firestore operation, otherwise it will fail.
 
-**Run a query once**
+**Run a query once**  
 Runs the query once and store results in a scene variable.
 
 ??? quote "See parameters"
@@ -286,7 +286,7 @@ Runs the query once and store results in a scene variable.
       See how the data will be filled in this structure variable on [the wiki page](https://wiki.gdevelop.io/gdevelop5/all-features/firebase/firestore#the_query_result).
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error message)
 
-**Get a document from firestore**
+**Get a document from firestore**  
 Gets a firestore document and store it in a variable.
 
 ??? quote "See parameters"
@@ -296,7 +296,7 @@ Gets a firestore document and store it in a variable.
     - Parameter 2 (🗄️ Scene variable): Callback variable where to load the document
     - Parameter 3 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Get a field of a document**
+**Get a field of a document**  
 Return the value of a field in a firestore document.
 
 ??? quote "See parameters"
@@ -307,7 +307,7 @@ Return the value of a field in a firestore document.
     - Parameter 3 (🗄️ Scene variable): Callback variable where to store the field's value
     - Parameter 4 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Check for a document's existence**
+**Check for a document's existence**  
 Checks for the existence of a document. Sets the result variable to true if it exists else to false.
 
 ??? quote "See parameters"
@@ -317,7 +317,7 @@ Checks for the existence of a document. Sets the result variable to true if it e
     - Parameter 2 (🗄️ Scene variable): Callback variable where to store the result
     - Parameter 3 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Check for existence of a document's field**
+**Check for existence of a document's field**  
 Checks for the existence of a field in a document. Sets the result variable to 1 if it exists else to 2.
 
 ??? quote "See parameters"
@@ -328,7 +328,7 @@ Checks for the existence of a field in a document. Sets the result variable to 1
     - Parameter 3 (🗄️ Scene variable): Callback Variable where to store the result
     - Parameter 4 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Limit amount of documents**
+**Limit amount of documents**  
 Limits the amount of documents returned by the query. Can only be used after an order filter.
 
 ??? quote "See parameters"
@@ -338,7 +338,7 @@ Limits the amount of documents returned by the query. Can only be used after an 
     - Parameter 2 (❓ Yes or No): Begin from the end
       If yes, the last X documents will be kept, else the first X documents will be kept.
 
-**Order by field value**
+**Order by field value**  
 Orders all documents in the query by a the value of a field.
 
 ??? quote "See parameters"
@@ -348,7 +348,7 @@ Orders all documents in the query by a the value of a field.
       Note that [some limitations may apply when combined with a where query](https://firebase.google.com/docs/firestore/query-data/order-limit-data#limitations).
     - Parameter 2 (🔤 String): Direction (ascending or descending) (one of: "asc", "desc")
 
-**Skip some documents**
+**Skip some documents**  
 Removes documents before or after a certain value on the field ordered by in a query. Can only be used after an order filter.
 
 ??? quote "See parameters"
@@ -359,7 +359,7 @@ Removes documents before or after a certain value on the field ordered by in a q
       If yes, the documents with a bigger field value will be kept, else the documents with a smaller field value be kept by the query.
     - Parameter 3 (❓ Yes or No): Include documents which field value equals the value to skip after?
 
-**Filter by field value**
+**Filter by field value**  
 Only match the documents that have a field passing a check.
 
 ??? quote "See parameters"
@@ -370,7 +370,7 @@ Only match the documents that have a field passing a check.
       See the [Firebase documentation](https://firebase.google.com/docs/firestore/query-data/queries#query_operators) to understand the operators. It is important as some [don't work when combined](https://firebase.google.com/docs/firestore/query-data/queries#query_limitations). (one of: "<", "<=", "==", "!=", ">=", ">", "array-contains")
     - Parameter 3 (🔢 Number): Value to check
 
-**Filter by field text**
+**Filter by field text**  
 Only match the documents that have a field passing a check.
 
 ??? quote "See parameters"
@@ -381,7 +381,7 @@ Only match the documents that have a field passing a check.
       See the [Firebase documentation](https://firebase.google.com/docs/firestore/query-data/queries#query_operators) to understand the operators. It is important as some [don't work when combined](https://firebase.google.com/docs/firestore/query-data/queries#query_limitations). (one of: "<", "<=", "==", "!=", ">=", ">", "array-contains")
     - Parameter 3 (string): Text to check
 
-**Start a query**
+**Start a query**  
 Start a query on a collection. A query allows to get a filtered and ordered list of documents in a collection.
 
 ??? quote "See parameters"
@@ -389,7 +389,7 @@ Start a query on a collection. A query allows to get a filtered and ordered list
     - Parameter 0 (string): Query name
     - Parameter 1 (string): Collection
 
-**Start a query from another query**
+**Start a query from another query**  
 Start a query with the same collection and filters as another one.
 
 ??? quote "See parameters"
@@ -397,7 +397,7 @@ Start a query with the same collection and filters as another one.
     - Parameter 0 (string): Query name
     - Parameter 1 (string): Source query name
 
-**Update a document in firestore**
+**Update a document in firestore**  
 Updates a firestore document (variable).
 
 ??? quote "See parameters"
@@ -407,7 +407,7 @@ Updates a firestore document (variable).
     - Parameter 2 (🗄️ Scene variable): Variable to update with
     - Parameter 3 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Update a field of a document**
+**Update a field of a document**  
 Updates a field of a firestore document.
 
 ??? quote "See parameters"
@@ -418,7 +418,7 @@ Updates a field of a firestore document.
     - Parameter 3 (string): Value to write
     - Parameter 4 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Continuously run (watch) a query**
+**Continuously run (watch) a query**  
 Runs a query continuously, so that every time a new documents starts or stops matching the query, or a document that matches the query has been changed, the variables will be filled with the new results.
 
 ??? quote "See parameters"
@@ -428,7 +428,7 @@ Runs a query continuously, so that every time a new documents starts or stops ma
       See the shape of the returned data on [the wiki page]().
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error message)
 
-**Write a document to firestore**
+**Write a document to firestore**  
 Writes a document (variable) to cloud firestore.
 
 ??? quote "See parameters"
@@ -438,7 +438,7 @@ Writes a document (variable) to cloud firestore.
     - Parameter 2 (🗄️ Scene variable): Variable to write
     - Parameter 3 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Write a field in firestore**
+**Write a field in firestore**  
 Writes a field of a firestore document.
 
 ??? quote "See parameters"
@@ -450,13 +450,13 @@ Writes a field of a firestore document.
     - Parameter 4 (🗄️ Scene variable): Callback variable with state (ok or error)
     - Parameter 5 (❓ Yes or No): If the document already exists, merge them instead of replacing the old one?
 
-**Force sync the configuration**
+**Force sync the configuration**  
 Use this to sync the Remote Config with the client at any time.
 
-**Log out of the account**
+**Log out of the account**  
 Logs out of the current account. 
 
-**Sign into an account via an external provider**
+**Sign into an account via an external provider**  
 Signs into an account using an external provider's system. The available providers are: "google", "facebook", "github" and "twitter".  
 Provider authentication only works in the browser! Not on previews or pc/mobile exports.
 
@@ -465,7 +465,7 @@ Provider authentication only works in the browser! Not on previews or pc/mobile 
     - Parameter 0 (🔤 String): Provider (one of: "google", "facebook", "github", "twitter")
     - Parameter 1 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Record performance**
+**Record performance**  
 Record performance for a delimited period of time. Use this if you want to measure the performance for a specified duration.
 
 ??? quote "See parameters"
@@ -474,59 +474,59 @@ Record performance for a delimited period of time. Use this if you want to measu
     - Parameter 1 (🔢 Number): Delay before measuring start (in ms)
     - Parameter 2 (🔢 Number): Measuring duration (in ms)
 
-**Send a verification email**
+**Send a verification email**  
 Send a link per email to verify the user email.
 
-**Send a password reset email**
+**Send a password reset email**  
 Send a password reset link per email.
 
 ??? quote "See parameters"
 
     - Parameter 0 (string): Email of the user whose password must be reset
 
-**Display name**
+**Display name**  
 Sets the user display name.
 
 ??? quote "See parameters"
 
     - Parameter 0 (string): New display name
 
-**Profile picture**
+**Profile picture**  
 Change the user profile picture URL to a new one.
 
 ??? quote "See parameters"
 
     - Parameter 0 (string): New profile picture URL
 
-**Set Remote Config Auto Update Interval**
+**Set Remote Config Auto Update Interval**  
 Sets Remote Config Auto Update Interval.
 
 ??? quote "See parameters"
 
     - Parameter 0 (🔢 Number): Update Interval in ms
 
-**Set the default configuration**
+**Set the default configuration**  
 As the Remote Config is stored online, you need to set default values or the Remote Config expressions to return while there is no internet or the config is still loading.
 
 ??? quote "See parameters"
 
     - Parameter 0 (🗄️ Scene variable): Structure with defaults
 
-**Start a tracer**
+**Start a tracer**  
 Start measuring performance for that tracer
 
 ??? quote "See parameters"
 
     - Parameter 0 (string): Tracker Name
 
-**Stop a tracer**
+**Stop a tracer**  
 Stop measuring performance for that tracer
 
 ??? quote "See parameters"
 
     - Parameter 0 (string): Tracker Name
 
-**Get Download URL**
+**Get Download URL**  
 Get a unique download URL for a file.
 
 ??? quote "See parameters"
@@ -535,7 +535,7 @@ Get a unique download URL for a file.
     - Parameter 1 (🗄️ Scene variable): Callback variable where to store the result
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error)
 
-**Upload a file**
+**Upload a file**  
 Upload a file to firebase Storage.
 
 ??? quote "See parameters"
@@ -549,10 +549,10 @@ Upload a file to firebase Storage.
 
 ## Conditions
 
-**Is the user email address verified**
+**Is the user email address verified**  
 Checks if the email address of the user got verified.
 
-**Is the user signed in?**
+**Is the user signed in?**  
 Checks if the user is signed in.   
 You should always use this before actions requiring authentications.
 

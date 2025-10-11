@@ -33,7 +33,7 @@ A terrain with hills in 3D.
 
 ### Object actions
 
-**Update height map**
+**Update height map**  
 Update the height map. This is done automatically at the  end of every frame, but it can be used manually to avoid a 1-frame delay.
 
 ??? quote "See parameters"
@@ -42,7 +42,7 @@ Update the height map. This is done automatically at the  end of every frame, bu
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Load height map**
+**Load height map**  
 Load a height map from an image file.
 
 ??? quote "See parameters"
@@ -54,7 +54,7 @@ Load a height map from an image file.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Grid value**
+**Grid value**  
 Change the field value at a grid index. The value is bewteen 0 and 1.
 
 ??? quote "See parameters"
@@ -69,7 +69,7 @@ Change the field value at a grid index. The value is bewteen 0 and 1.
 
 ### Object conditions
 
-**Field point Z**
+**Field point Z**  
 Compare the field Z for a given position in the scene.
 
 ??? quote "See parameters"
@@ -82,7 +82,7 @@ Compare the field Z for a given position in the scene.
 
     > Technical note: parameter 5 are internal parameters handled by GDevelop.
 
-**Grid dimension X**
+**Grid dimension X**  
 Compare the number of points in the grid on X axis.
 
 ??? quote "See parameters"
@@ -93,7 +93,7 @@ Compare the number of points in the grid on X axis.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Grid dimension Y**
+**Grid dimension Y**  
 Compare the number of points in the grid on Y axis.
 
 ??? quote "See parameters"
@@ -104,7 +104,7 @@ Compare the number of points in the grid on Y axis.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Grid value**
+**Grid value**  
 Compare the field value at a grid index. The value is bewteen 0 and 1.
 
 ??? quote "See parameters"

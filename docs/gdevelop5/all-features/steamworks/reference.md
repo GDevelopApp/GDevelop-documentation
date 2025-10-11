@@ -4,7 +4,7 @@ Adds integrations for Steam's Steamworks game development SDK.
 
 ## Actions
 
-**Activate an action set**
+**Activate an action set**  
 Activates a Steam Input action set of a Steam Input controller.
 
 ??? quote "See parameters"
@@ -12,14 +12,14 @@ Activates a Steam Input action set of a Steam Input controller.
     - Parameter 0 (🔢 Number): Controller number
     - Parameter 1 (🔤 Name (String)): ActionName
 
-**Claim achievement**
+**Claim achievement**  
 Marks a Steam achievement as obtained. Steam will pop-up a notification with the achievement's data defined on the Steamworks partner website.
 
 ??? quote "See parameters"
 
     - Parameter 0 (🔤 Name (String)): Achievement ID
 
-**Create a lobby**
+**Create a lobby**  
 Creates a new steam lobby owned by the player, for other players to join.
 
 ??? quote "See parameters"
@@ -30,7 +30,7 @@ Creates a new steam lobby owned by the player, for other players to join.
     - Parameter 2 (🗄️ Scene variable): Store results in
       The variable will be set to the ID of the lobby if successful, otherwise to "failure".
 
-**Create a Workshop item**
+**Create a Workshop item**  
 Creates an item owned by the current player on the Steam Workshop. This only assignes an ID to an item for the user - use the action "Update workshop item" to set the item data and upload the workshop file.
 
 ??? quote "See parameters"
@@ -38,7 +38,7 @@ Creates an item owned by the current player on the Steam Workshop. This only ass
     - Parameter 0 (🗄️ Scene variable): The variable where to store the result
       This will be set to the Workshop item ID if successful and to the string "failure" otherwise.
 
-**Delete a file**
+**Delete a file**  
 Deletes a file from the Steam Cloud.
 
 ??? quote "See parameters"
@@ -47,7 +47,7 @@ Deletes a file from the Steam Cloud.
     - Parameter 1 (🗄️ Scene variable): Variable where to store the result
       The variable will be set to true if the file was successfully deleted and to false if it could not be.
 
-**Download a Workshop item**
+**Download a Workshop item**  
 Initiates the download of a Workshop item now.
 
 ??? quote "See parameters"
@@ -56,14 +56,14 @@ Initiates the download of a Workshop item now.
     - Parameter 1 (❓ Yes or No): Stop other downloads?
       This will temporarily pause any other Steam download on the player's machine to download the Workshop item NOW without waiting for other pending downloads to finish.
 
-**Get the lobby's members**
+**Get the lobby's members**  
 Gets the Steam ID of all players in the current lobby.
 
 ??? quote "See parameters"
 
     - Parameter 0 (🗄️ Scene variable): Variable where to store the player list
 
-**Get a list of lobbies**
+**Get a list of lobbies**  
 Fills an array variable with a list of lobbies for the player to join.
 
 ??? quote "See parameters"
@@ -71,7 +71,7 @@ Fills an array variable with a list of lobbies for the player to join.
     - Parameter 0 (🗄️ Scene variable): Array to fill with lobbies
       The variable will be set to an array of the IDs of the lobbies if they could be successfully obtained. If they could not be obtained, it is set to the string "failure".
 
-**Get a lobby's members**
+**Get a lobby's members**  
 Gets the Steam ID of all players in a lobby.
 
 ??? quote "See parameters"
@@ -79,7 +79,7 @@ Gets the Steam ID of all players in a lobby.
     - Parameter 0 (string): The lobby ID
     - Parameter 1 (🗄️ Scene variable): Variable where to store the player list
 
-**Join a lobby (by ID)**
+**Join a lobby (by ID)**  
 Join a Steam lobby, using its lobby ID.
 
 ??? quote "See parameters"
@@ -88,13 +88,13 @@ Join a Steam lobby, using its lobby ID.
     - Parameter 1 (🗄️ Scene variable): Store results in
       The variable will be set to the ID of the lobby if successful, otherwise to "failure".
 
-**Leave current lobby**
+**Leave current lobby**  
 Marks the player as having left the current lobby.
 
-**Open invite dialogue**
+**Open invite dialogue**  
 Opens the steam invitation dialogue to let the player invite their Steam friends to the current lobby. Only works if the player is currently in a lobby.
 
-**Set a lobby attribute**
+**Set a lobby attribute**  
 Sets an attribute of the current lobby. Attributes are readable to anyone that can see the lobby. They can contain public information about the lobby like a description, or for example a P2P ID for knowing where to connect to join this lobby.
 
 ??? quote "See parameters"
@@ -104,7 +104,7 @@ Sets an attribute of the current lobby. Attributes are readable to anyone that c
     - Parameter 2 (🗄️ Scene variable): Variable where to store the result
       The variable will be set to true if the attribute was successfully set and to false if it could not be set.
 
-**Set the lobby joinability**
+**Set the lobby joinability**  
 Sets whether other users can join the current lobby or not.
 
 ??? quote "See parameters"
@@ -113,7 +113,7 @@ Sets whether other users can join the current lobby or not.
     - Parameter 1 (🗄️ Scene variable): Variable where to store the result
       The variable will be set to true if the joinability was successfully set and to false if it could not be changed.
 
-**Steam rich presence**
+**Steam rich presence**  
 Changes an attribute of Steam's rich presence. Allows other player to see exactly what the player's currently doing in the game.
 
 ??? quote "See parameters"
@@ -122,7 +122,7 @@ Changes an attribute of Steam's rich presence. Allows other player to see exactl
       [Click here](https://partner.steamgames.com/doc/api/ISteamFriends#SetRichPresence) to find out more about the different default rich-presence attributes. (one of: "status", "connect", "steam_display", "steam_player_group", "steam_player_group_size")
     - Parameter 1 (string): The new value for that attribute
 
-**Subscribe to a Workshop item**
+**Subscribe to a Workshop item**  
 Makes the player subscribe to a workshop item. This will cause it to be downloaded and installed ASAP.
 
 ??? quote "See parameters"
@@ -131,14 +131,14 @@ Makes the player subscribe to a workshop item. This will cause it to be download
     - Parameter 1 (🗄️ Scene variable): The variable where to store the result
       This will be set to `true` if successful and to `false` otherwise.
 
-**Unclaim achievement**
+**Unclaim achievement**  
 Removes a player's Steam achievement.
 
 ??? quote "See parameters"
 
     - Parameter 0 (🔤 Name (String)): Achievement ID
 
-**Unsubscribe to a Workshop item**
+**Unsubscribe to a Workshop item**  
 Makes the player unsubscribe to a workshop item. This will cause it to removed after quitting the game.
 
 ??? quote "See parameters"
@@ -147,7 +147,7 @@ Makes the player unsubscribe to a workshop item. This will cause it to removed a
     - Parameter 1 (🗄️ Scene variable): The variable where to store the result
       This will be set to `true` if successful and to `false` otherwise.
 
-**Update a Workshop item**
+**Update a Workshop item**  
 Releases an update to a Workshop item owned by the player. If you leave a field empty, it will be kept unmodified as it was before the update.
 
 ??? quote "See parameters"
@@ -166,7 +166,7 @@ Releases an update to a Workshop item owned by the player. If you leave a field 
     - Parameter 8 (🗄️ Scene variable): The variable where to store the result
       This will be set to `true` if the update is successfully release and to `false` otherwise.
 
-**Write a file**
+**Write a file**  
 Writes a file onto the Steam Cloud.
 
 ??? quote "See parameters"
@@ -178,38 +178,38 @@ Writes a file onto the Steam Cloud.
 
 ## Conditions
 
-**Has achievement**
+**Has achievement**  
 Checks if a player owns one of this game's Steam achievement.
 
 ??? quote "See parameters"
 
     - Parameter 0 (🔤 Name (String)): Achievement ID
 
-**Player bought the game**
+**Player bought the game**  
 Checks if the current user actually bought & owns the game. If the "Require Steam" checkbox has been checked in the game properties, this will always be true as Steam will not allow to launch the game if it is not owned. Can be used to display an anti-piracy message instead of straight up blocking the launch of the game.
 
-**Player installed an application**
+**Player installed an application**  
 Checks if the current user has a Steam application currently installed.
 
 ??? quote "See parameters"
 
     - Parameter 0 (🔤 Name (String)): The Steam App ID of the application
 
-**Player installed DLC**
+**Player installed DLC**  
 Checks if the current user has installed a piece of DLC.
 
 ??? quote "See parameters"
 
     - Parameter 0 (🔤 Name (String)): The Steam App ID of the DLC
 
-**File exists**
+**File exists**  
 Checks if a file exists on Steam Cloud.
 
 ??? quote "See parameters"
 
     - Parameter 0 (🔤 Name (String)): File name
 
-**Digital action activated**
+**Digital action activated**  
 Triggers when a digital action (a button that is either pressed or not) of a Steam Input controller has been triggered.
 
 ??? quote "See parameters"
@@ -217,29 +217,29 @@ Triggers when a digital action (a button that is either pressed or not) of a Ste
     - Parameter 0 (🔢 Number): Controller number
     - Parameter 1 (🔤 Name (String)): ActionName
 
-**Is on Steam Deck**
+**Is on Steam Deck**  
 Checks whether the game is currently running on a Steam Deck or not.
 
-**Player cannot be exposed to violence**
+**Player cannot be exposed to violence**  
 Checks if the current user may only be exposed to low violence, due to e.g. their age and content restrictions in their country.
 
-**Player owns an application**
+**Player owns an application**  
 Checks if the current user owns an application on Steam.
 
 ??? quote "See parameters"
 
     - Parameter 0 (🔤 Name (String)): The Steam App ID of the application
 
-**Player has a VAC ban**
+**Player has a VAC ban**  
 Checks if the current user has a VAC ban on their account.
 
-**Is Steam Cloud enabled?**
+**Is Steam Cloud enabled?**  
 Checks whether steam cloud has been enabled or not for this application.
 
-**Is Steamworks Loaded**
+**Is Steamworks Loaded**  
 Checks whether the Steamworks SDK could be properly loaded. If steam is not installed, the game is not running on PC, or for any other reason Steamworks features will not be able to function, this function will trigger allowing you to disable functionality that relies on Steamworks.
 
-**Check workshop item state**
+**Check workshop item state**  
 Check whether a state flag is set for a Workshop item.
 
 ??? quote "See parameters"

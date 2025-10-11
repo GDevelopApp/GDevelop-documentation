@@ -14,7 +14,7 @@ An extension to create HTTP requests with more advanced settings than the built-
 
 ## Actions
 
-**Copy a request template**
+**Copy a request template**  
 Creates a new request template with all the attributes from an existing one.
 
 ??? quote "See parameters"
@@ -24,7 +24,7 @@ Creates a new request template with all the attributes from an existing one.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Create a new request template**
+**Create a new request template**  
 Creates a template for your request. All requests must be made from a request template.
 
 ??? quote "See parameters"
@@ -34,7 +34,7 @@ Creates a template for your request. All requests must be made from a request te
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Execute the request**
+**Execute the request**  
 Executes the request defined by a request template.
 
 ??? quote "See parameters"
@@ -44,7 +44,7 @@ Executes the request defined by a request template.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Get response body (JSON)**
+**Get response body (JSON)**  
 Reads the body sent by the server, parses it as JSON and stores the resulting structure in a variable.
 
 ??? quote "See parameters"
@@ -54,7 +54,7 @@ Reads the body sent by the server, parses it as JSON and stores the resulting st
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Get response body (text)**
+**Get response body (text)**  
 Reads the body sent by the server, and store it as a string in a variable.
 
 ??? quote "See parameters"
@@ -64,7 +64,7 @@ Reads the body sent by the server, and store it as a string in a variable.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Body as form data**
+**Body as form data**  
 Sets the body of an HTTP request to a form data representation of a structure variable.
 
 ??? quote "See parameters"
@@ -74,7 +74,7 @@ Sets the body of an HTTP request to a form data representation of a structure va
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Body as JSON**
+**Body as JSON**  
 Sets the body of an HTTP request to a JSON representation of a structure variable.
 
 ??? quote "See parameters"
@@ -84,7 +84,7 @@ Sets the body of an HTTP request to a JSON representation of a structure variabl
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Body**
+**Body**  
 Change the body of the HTTP request. Contains data to send to the server, ususally in plain text, JSON or FormData format. This cannot be set for GET requests.
 
 ??? quote "See parameters"
@@ -95,7 +95,7 @@ Change the body of the HTTP request. Contains data to send to the server, ususal
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**HTTP Caching strategy**
+**HTTP Caching strategy**  
 Defines to what extent the results of the request is can/must be cached. When cached, instead of sending a request to the server, the browser will avoid making a real request to the server and will use a previous response given by the server for the same request.  
 
 The server also has a say in this via the Cache-Control header.
@@ -108,7 +108,7 @@ The server also has a say in this via the Cache-Control header.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Header**
+**Header**  
 Change an HTTP header to be sent with the request.
 
 ??? quote "See parameters"
@@ -120,7 +120,7 @@ Change an HTTP header to be sent with the request.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**HTTP Method (Verb)**
+**HTTP Method (Verb)**  
 The HTTP method of the request. GET is the default and what you should use if you are unsure which to pick. A request to a REST API endpoint may have a different effect depending on the method - refer to the documentation of the API you are calling to learn about the appropriate method to use.
 
 ??? quote "See parameters"
@@ -130,7 +130,7 @@ The HTTP method of the request. GET is the default and what you should use if yo
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**URL**
+**URL**  
 Change the request template's target URL.
 
 ??? quote "See parameters"
@@ -141,7 +141,7 @@ Change the request template's target URL.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Enable CORS Bypass**
+**Enable CORS Bypass**  
 CORS prevents most external websites from being queried with the browser's HTTP client, since the browser may be authenticated on that website and as such another website would be able to impersonate the player on that other website.  
 
 When the CORS Bypass is enabled, the request will be made from a server that is not authenticated anywhere and as such is not blocked by CORS, and it will share the response with your game. Note that as such, authentication cookies are ignored! If you own the REST API you are requesting, add CORS headers to your server instead of using this CORS Bypass.
@@ -156,7 +156,7 @@ When the CORS Bypass is enabled, the request will be made from a server that is 
 
 ## Conditions
 
-**CORS Bypass enabled**
+**CORS Bypass enabled**  
 Checks whether or not CORS Bypass has been enabled for the request template.
 
 ??? quote "See parameters"
@@ -165,7 +165,7 @@ Checks whether or not CORS Bypass has been enabled for the request template.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Body**
+**Body**  
 Compare the body of the HTTP request. Contains data to send to the server, ususally in plain text, JSON or FormData format. This cannot be set for GET requests.
 
 ??? quote "See parameters"
@@ -176,7 +176,7 @@ Compare the body of the HTTP request. Contains data to send to the server, ususa
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**HTTP Caching**
+**HTTP Caching**  
 Compare the HTTP method of the request. GET is the default and what you should use if you are unsure which to pick. A request to a REST API endpoint may have a different effect depending on the method - refer to the documentation of the API you are calling to learn about the appropriate method to use.
 
 ??? quote "See parameters"
@@ -187,7 +187,7 @@ Compare the HTTP method of the request. GET is the default and what you should u
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Header**
+**Header**  
 Compare an HTTP header to be sent with the request.
 
 ??? quote "See parameters"
@@ -199,7 +199,7 @@ Compare an HTTP header to be sent with the request.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**HTTP Method (Verb)**
+**HTTP Method (Verb)**  
 Compare the HTTP method of the request. GET is the default and what you should use if you are unsure which to pick. A request to a REST API endpoint may have a different effect depending on the method - refer to the documentation of the API you are calling to learn about the appropriate method to use.
 
 ??? quote "See parameters"
@@ -210,7 +210,7 @@ Compare the HTTP method of the request. GET is the default and what you should u
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**URL**
+**URL**  
 Compare the request template's target URL.
 
 ??? quote "See parameters"
@@ -221,7 +221,7 @@ Compare the request template's target URL.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Header**
+**Header**  
 Compare one of the HTTP headers included in the server's response.
 
 ??? quote "See parameters"
@@ -233,7 +233,7 @@ Compare one of the HTTP headers included in the server's response.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Status code**
+**Status code**  
 Compare the status code of the HTTP request (e.g. 200 if succeeded, 404 if not found, etc).
 
 ??? quote "See parameters"
@@ -244,7 +244,7 @@ Compare the status code of the HTTP request (e.g. 200 if succeeded, 404 if not f
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Success**
+**Success**  
 Checks whether the server marked the response as a success (status code 1XX/2XX), not as a failure (status code 4XX/5XX).
 
 ??? quote "See parameters"

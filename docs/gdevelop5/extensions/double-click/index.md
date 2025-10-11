@@ -16,7 +16,7 @@ Please note: Touch devices do not have alternatives for middle/right clicks. Tap
 
 ## Conditions
 
-**Double-clicked (or double-tapped)**
+**Double-clicked (or double-tapped)**  
 Check if the specified mouse button is clicked twice in a short amount of time.
 
 ??? quote "See parameters"
@@ -26,7 +26,7 @@ Check if the specified mouse button is clicked twice in a short amount of time.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Clicked (or tapped)**
+**Clicked (or tapped)**  
 Check if the specified mouse button is clicked.
 
 ??? quote "See parameters"

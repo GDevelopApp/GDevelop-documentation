@@ -14,7 +14,7 @@ Prevents the Android phone/tablet back button from quitting the game and provide
 
 ## Actions
 
-**Trigger back button**
+**Trigger back button**  
 This simulates the normal action of the back button.   
 This action will quit the app when in a mobile app, and go back to the previous page when in a web browser.
 
@@ -26,7 +26,7 @@ This action will quit the app when in a mobile app, and go back to the previous 
 
 ## Conditions
 
-**Back button is pressed**
+**Back button is pressed**  
 Triggers whenever the player presses the back button.
 
 ??? quote "See parameters"

@@ -39,7 +39,7 @@ Fire bullets, manage ammo, reloading, and overheating. Once added to your object
 
 ### Behavior actions
 
-**Fire bullets toward an angle**
+**Fire bullets toward an angle**  
 Fire bullets in the direction of a given angle at a specified speed.
 
 ??? quote "See parameters"
@@ -54,7 +54,7 @@ Fire bullets in the direction of a given angle at a specified speed.
 
     > Technical note: parameter 7 are internal parameters handled by GDevelop.
 
-**Fire bullets toward an object**
+**Fire bullets toward an object**  
 Fire bullets toward an object at a specified speed.
 
 ??? quote "See parameters"
@@ -69,7 +69,7 @@ Fire bullets toward an object at a specified speed.
 
     > Technical note: parameter 7 are internal parameters handled by GDevelop.
 
-**Fire bullets toward a position**
+**Fire bullets toward a position**  
 Fire bullets toward a position at a specified speed.
 
 ??? quote "See parameters"
@@ -85,7 +85,7 @@ Fire bullets toward a position at a specified speed.
 
     > Technical note: parameter 8 are internal parameters handled by GDevelop.
 
-**Increase ammo**
+**Increase ammo**  
 Increase ammo quantity.
 
 ??? quote "See parameters"
@@ -96,7 +96,7 @@ Increase ammo quantity.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Reload ammo**
+**Reload ammo**  
 Reload ammo.
 
 ??? quote "See parameters"
@@ -106,7 +106,7 @@ Reload ammo.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Reset total bullets created**
+**Reset total bullets created**  
 Reset total bullets created.
 
 ??? quote "See parameters"
@@ -116,7 +116,7 @@ Reset total bullets created.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Reset total reloads completed**
+**Reset total reloads completed**  
 Reset total reloads completed.
 
 ??? quote "See parameters"
@@ -126,7 +126,7 @@ Reset total reloads completed.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Reset total shots fired**
+**Reset total shots fired**  
 Reset total shots fired.
 
 ??? quote "See parameters"
@@ -136,7 +136,7 @@ Reset total shots fired.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Ammo quantity**
+**Ammo quantity**  
 Change the ammo quantity.
 
 ??? quote "See parameters"
@@ -148,7 +148,7 @@ Change the ammo quantity.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Angle variance**
+**Angle variance**  
 Change the angle variance (in degrees) applied to each bullet.
 
 ??? quote "See parameters"
@@ -160,7 +160,7 @@ Change the angle variance (in degrees) applied to each bullet.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Enable (or disable) automatic reloading**
+**Enable (or disable) automatic reloading**  
 Enable (or disable) automatic reloading.
 
 ??? quote "See parameters"
@@ -171,7 +171,7 @@ Enable (or disable) automatic reloading.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set bullet layer**
+**Set bullet layer**  
 Change the layer that bullets are created on.
 
 ??? quote "See parameters"
@@ -182,7 +182,7 @@ Change the layer that bullets are created on.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Bullets per shot**
+**Bullets per shot**  
 Change the number of bullets shot every time the "fire bullet" action is used.
 
 ??? quote "See parameters"
@@ -194,7 +194,7 @@ Change the number of bullets shot every time the "fire bullet" action is used.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Bullet speed variance**
+**Bullet speed variance**  
 Change the bullet speed variance (pixels per second) applied to each bullet.
 
 ??? quote "See parameters"
@@ -206,7 +206,7 @@ Change the bullet speed variance (pixels per second) applied to each bullet.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Firing cooldown**
+**Firing cooldown**  
 Change the firing cooldown (in seconds) also known as rate of fire.
 
 ??? quote "See parameters"
@@ -218,7 +218,7 @@ Change the firing cooldown (in seconds) also known as rate of fire.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Exponential cooling rate**
+**Exponential cooling rate**  
 Change the exponential cooling rate, per second.
 
 ??? quote "See parameters"
@@ -230,7 +230,7 @@ Change the exponential cooling rate, per second.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Firing arc**
+**Firing arc**  
 Change the firing arc (in degrees) where bullets are shot. Bullets are evenly spaced out inside the firing arc.
 
 ??? quote "See parameters"
@@ -242,7 +242,7 @@ Change the firing arc (in degrees) where bullets are shot. Bullets are evenly sp
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Heat increase per shot**
+**Heat increase per shot**  
 Change the heat increase per shot.
 
 ??? quote "See parameters"
@@ -254,7 +254,7 @@ Change the heat increase per shot.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Linear cooling rate**
+**Linear cooling rate**  
 Change the linear cooling rate (per second).
 
 ??? quote "See parameters"
@@ -266,7 +266,7 @@ Change the linear cooling rate (per second).
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Max ammo**
+**Max ammo**  
 Change the max ammo.
 
 ??? quote "See parameters"
@@ -278,7 +278,7 @@ Change the max ammo.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Overheat duration**
+**Overheat duration**  
 Change the overheat duration (in seconds). When an object is overheated, it can't fire for this duration.
 
 ??? quote "See parameters"
@@ -290,7 +290,7 @@ Change the overheat duration (in seconds). When an object is overheated, it can'
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Reload duration**
+**Reload duration**  
 Change the reload duration (in seconds).
 
 ??? quote "See parameters"
@@ -302,7 +302,7 @@ Change the reload duration (in seconds).
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Enable (or disable) bullet rotation**
+**Enable (or disable) bullet rotation**  
 Enable bullet rotation.
 
 ??? quote "See parameters"
@@ -313,7 +313,7 @@ Enable bullet rotation.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Shots per reload**
+**Shots per reload**  
 Change the number of shots per reload.
 
 ??? quote "See parameters"
@@ -325,7 +325,7 @@ Change the number of shots per reload.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Enable (or disable) unlimited ammo**
+**Enable (or disable) unlimited ammo**  
 Enable unlimited ammo.
 
 ??? quote "See parameters"
@@ -338,7 +338,7 @@ Enable unlimited ammo.
 
 ### Behavior conditions
 
-**Ammo quantity**
+**Ammo quantity**  
 Compare the ammo quantity.
 
 ??? quote "See parameters"
@@ -350,7 +350,7 @@ Compare the ammo quantity.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Angle variance**
+**Angle variance**  
 Compare the angle variance (in degrees) applied to each bullet.
 
 ??? quote "See parameters"
@@ -362,7 +362,7 @@ Compare the angle variance (in degrees) applied to each bullet.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Bullets per shot**
+**Bullets per shot**  
 Compare the number of bullets shot every time the "fire bullet" action is used.
 
 ??? quote "See parameters"
@@ -374,7 +374,7 @@ Compare the number of bullets shot every time the "fire bullet" action is used.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Is bullet rotation enabled**
+**Is bullet rotation enabled**  
 Check if bullet rotates to match trajectory.
 
 ??? quote "See parameters"
@@ -384,7 +384,7 @@ Check if bullet rotates to match trajectory.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Bullet speed variance**
+**Bullet speed variance**  
 Compare the bullet speed variance (pixels per second) applied to each bullet.
 
 ??? quote "See parameters"
@@ -396,7 +396,7 @@ Compare the bullet speed variance (pixels per second) applied to each bullet.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Firing cooldown**
+**Firing cooldown**  
 Compare the firing cooldown (in seconds) also known as rate of fire.
 
 ??? quote "See parameters"
@@ -408,7 +408,7 @@ Compare the firing cooldown (in seconds) also known as rate of fire.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Duration before cooldown end**
+**Duration before cooldown end**  
 Compare the remaining duration before the cooldown will permit a bullet to be fired, in seconds.
 
 ??? quote "See parameters"
@@ -420,7 +420,7 @@ Compare the remaining duration before the cooldown will permit a bullet to be fi
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Exponential cooling rate**
+**Exponential cooling rate**  
 Compare the exponential cooling rate, per second.
 
 ??? quote "See parameters"
@@ -432,7 +432,7 @@ Compare the exponential cooling rate, per second.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Firing arc**
+**Firing arc**  
 Compare the firing arc (in degrees) where bullets are shot. Bullets are evenly spaced out inside the firing arc.
 
 ??? quote "See parameters"
@@ -444,7 +444,7 @@ Compare the firing arc (in degrees) where bullets are shot. Bullets are evenly s
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Has just fired**
+**Has just fired**  
 Check if the object has just fired something.
 
 ??? quote "See parameters"
@@ -454,7 +454,7 @@ Check if the object has just fired something.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Heat increase per shot**
+**Heat increase per shot**  
 Compare the heat increase per shot.
 
 ??? quote "See parameters"
@@ -466,7 +466,7 @@ Compare the heat increase per shot.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Heat level**
+**Heat level**  
 Compare the heat level (range: 0 to 1).
 
 ??? quote "See parameters"
@@ -478,7 +478,7 @@ Compare the heat level (range: 0 to 1).
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Is automatic reloading enabled**
+**Is automatic reloading enabled**  
 Check if automatic reloading is enabled.
 
 ??? quote "See parameters"
@@ -488,7 +488,7 @@ Check if automatic reloading is enabled.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is firing cooldown active**
+**Is firing cooldown active**  
 Check if firing cooldown is active.
 
 ??? quote "See parameters"
@@ -498,7 +498,7 @@ Check if firing cooldown is active.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is out of ammo**
+**Is out of ammo**  
 Check if object has no ammo available.
 
 ??? quote "See parameters"
@@ -508,7 +508,7 @@ Check if object has no ammo available.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is overheated**
+**Is overheated**  
 Check if object is overheated.
 
 ??? quote "See parameters"
@@ -518,7 +518,7 @@ Check if object is overheated.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is ready to shoot**
+**Is ready to shoot**  
 Check if object is ready to shoot.
 
 ??? quote "See parameters"
@@ -528,7 +528,7 @@ Check if object is ready to shoot.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is ammo reloading in progress**
+**Is ammo reloading in progress**  
 Check if object is currently performing an ammo reload.
 
 ??? quote "See parameters"
@@ -538,7 +538,7 @@ Check if object is currently performing an ammo reload.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is a reload needed**
+**Is a reload needed**  
 Check if object needs to reload ammo.
 
 ??? quote "See parameters"
@@ -548,7 +548,7 @@ Check if object needs to reload ammo.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is ammo unlimited**
+**Is ammo unlimited**  
 Check if ammo is unlimited.
 
 ??? quote "See parameters"
@@ -558,7 +558,7 @@ Check if ammo is unlimited.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Linear cooling rate**
+**Linear cooling rate**  
 Compare the linear cooling rate (per second).
 
 ??? quote "See parameters"
@@ -570,7 +570,7 @@ Compare the linear cooling rate (per second).
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Max ammo**
+**Max ammo**  
 Compare the max ammo.
 
 ??? quote "See parameters"
@@ -582,7 +582,7 @@ Compare the max ammo.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Overheat duration**
+**Overheat duration**  
 Compare the overheat duration (in seconds). When an object is overheated, it can't fire for this duration.
 
 ??? quote "See parameters"
@@ -594,7 +594,7 @@ Compare the overheat duration (in seconds). When an object is overheated, it can
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Duration before overheat end**
+**Duration before overheat end**  
 Compare the remaining duration before the overheat penalty ends, in seconds.
 
 ??? quote "See parameters"
@@ -606,7 +606,7 @@ Compare the remaining duration before the overheat penalty ends, in seconds.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Reload duration**
+**Reload duration**  
 Compare the reload duration (in seconds).
 
 ??? quote "See parameters"
@@ -618,7 +618,7 @@ Compare the reload duration (in seconds).
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Duration before the reload finishes**
+**Duration before the reload finishes**  
 Compare the remaining duration before the reload finishes, in seconds.
 
 ??? quote "See parameters"
@@ -630,7 +630,7 @@ Compare the remaining duration before the reload finishes, in seconds.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Shots before next reload**
+**Shots before next reload**  
 Compare the remaining shots before the next reload is required.
 
 ??? quote "See parameters"
@@ -642,7 +642,7 @@ Compare the remaining shots before the next reload is required.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Shots per reload**
+**Shots per reload**  
 Compare the number of shots per reload.
 
 ??? quote "See parameters"

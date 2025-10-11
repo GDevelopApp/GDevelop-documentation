@@ -23,7 +23,7 @@ It can be useful to:
 
 ## Conditions
 
-**Last recast distance**
+**Last recast distance**  
 Compare the last recast intersection distance.
 
 ??? quote "See parameters"
@@ -33,7 +33,7 @@ Compare the last recast intersection distance.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Raycast to a position**
+**Raycast to a position**  
 Sends a ray from the given source position to the final point, intersecting the closest object. The intersected object will become the only one taken into account.
 
 ??? quote "See parameters"
@@ -48,7 +48,7 @@ Sends a ray from the given source position to the final point, intersecting the 
 
     > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
 
-**Raycast from camera center**
+**Raycast from camera center**  
 Sends a ray from the center of the camera, intersecting the closest object. The intersected object will become the only one taken into account.
 
 ??? quote "See parameters"
@@ -58,7 +58,7 @@ Sends a ray from the center of the camera, intersecting the closest object. The 
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Raycast from cursor**
+**Raycast from cursor**  
 Sends a ray from the cursor on the camera screen, intersecting the closest object. The intersected object will become the only one taken into account.
 
 ??? quote "See parameters"
@@ -69,7 +69,7 @@ Sends a ray from the cursor on the camera screen, intersecting the closest objec
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Raycast from a camera point**
+**Raycast from a camera point**  
 Sends a ray from the given source point on the camera screen, intersecting the closest object. The intersected object will become the only one taken into account.
 
 ??? quote "See parameters"
@@ -81,7 +81,7 @@ Sends a ray from the given source point on the camera screen, intersecting the c
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Raycast**
+**Raycast**  
 Sends a ray from the given source position and angle, intersecting the closest object. The intersected object will become the only one taken into account.
 
 ??? quote "See parameters"

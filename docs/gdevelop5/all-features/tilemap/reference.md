@@ -10,7 +10,7 @@ Invisible object handling collisions with parts of a tilemap.
 
 ### Object actions
 
-**Tilemap JSON file**
+**Tilemap JSON file**  
 Set the JSON file containing the Tilemap data to display. This is usually the JSON file exported from Tiled.
 
 ??? quote "See parameters"
@@ -18,7 +18,7 @@ Set the JSON file containing the Tilemap data to display. This is usually the JS
     - Parameter 0 (👾 Object): Tile map collision mask
     - Parameter 1 (jsonResource): Tilemap JSON file
 
-**Tileset JSON file**
+**Tileset JSON file**  
 Set the JSON file with the tileset data (sometimes that is embedded in the Tilemap, so not needed)
 
 ??? quote "See parameters"
@@ -28,7 +28,7 @@ Set the JSON file with the tileset data (sometimes that is embedded in the Tilem
 
 ### Object conditions
 
-**Tilemap JSON file**
+**Tilemap JSON file**  
 Check the Tilemap JSON file being used.
 
 ??? quote "See parameters"
@@ -36,7 +36,7 @@ Check the Tilemap JSON file being used.
     - Parameter 0 (👾 Object): Tile map collision mask
     - Parameter 1 (jsonResource): Tilemap JSON file
 
-**Tileset JSON file**
+**Tileset JSON file**  
 Check the tileset JSON file being used.
 
 ??? quote "See parameters"
@@ -53,7 +53,7 @@ Displays a tile-based map. Recommended for most games that need to use static ti
 
 ### Object actions
 
-**Flip tile horizontally (on the grid)**
+**Flip tile horizontally (on the grid)**  
 Flip tile horizontally at grid coordinates.
 
 ??? quote "See parameters"
@@ -63,7 +63,7 @@ Flip tile horizontally at grid coordinates.
     - Parameter 2 (🔢 Number): Grid Y
     - Parameter 3 (❓ Yes or No): Flip horizontally
 
-**Flip tile horizontally (at position)**
+**Flip tile horizontally (at position)**  
 Flip tile horizontally at scene coordinates.
 
 ??? quote "See parameters"
@@ -73,7 +73,7 @@ Flip tile horizontally at scene coordinates.
     - Parameter 2 (🔢 Number): Position Y
     - Parameter 3 (❓ Yes or No): Flip horizontally
 
-**Flip tile vertically (on the grid)**
+**Flip tile vertically (on the grid)**  
 Flip tile vertically at grid coordinates.
 
 ??? quote "See parameters"
@@ -83,7 +83,7 @@ Flip tile vertically at grid coordinates.
     - Parameter 2 (🔢 Number): Grid Y
     - Parameter 3 (❓ Yes or No): Flip vertically
 
-**Flip tile vertically (at position)**
+**Flip tile vertically (at position)**  
 Flip tile vertically at scene coordinates.
 
 ??? quote "See parameters"
@@ -93,7 +93,7 @@ Flip tile vertically at scene coordinates.
     - Parameter 2 (🔢 Number): Position Y
     - Parameter 3 (❓ Yes or No): Flip vertically
 
-**Remove tile (on the grid)**
+**Remove tile (on the grid)**  
 Remove the tile at the grid coordinates.
 
 ??? quote "See parameters"
@@ -102,7 +102,7 @@ Remove the tile at the grid coordinates.
     - Parameter 1 (🔢 Number): Grid X
     - Parameter 2 (🔢 Number): Grid Y
 
-**Remove tile (at position)**
+**Remove tile (at position)**  
 Remove the tile at the scene coordinates.
 
 ??? quote "See parameters"
@@ -111,7 +111,7 @@ Remove the tile at the scene coordinates.
     - Parameter 1 (🔢 Number): Position X
     - Parameter 2 (🔢 Number): Position Y
 
-**Grid column count**
+**Grid column count**  
 Change the grid column count in the tile map.
 
 ??? quote "See parameters"
@@ -120,7 +120,7 @@ Change the grid column count in the tile map.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-**Grid row count**
+**Grid row count**  
 Change the grid row count in the tile map.
 
 ??? quote "See parameters"
@@ -129,7 +129,7 @@ Change the grid row count in the tile map.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-**Tile (on the grid)**
+**Tile (on the grid)**  
 Change the id of the tile at the grid coordinates.
 
 ??? quote "See parameters"
@@ -140,7 +140,7 @@ Change the id of the tile at the grid coordinates.
     - Parameter 3 (🔢 Number): Grid X
     - Parameter 4 (🔢 Number): Grid Y
 
-**Tile (at position)**
+**Tile (at position)**  
 Change the id of the tile at the scene coordinates.
 
 ??? quote "See parameters"
@@ -153,7 +153,7 @@ Change the id of the tile at the scene coordinates.
 
 ### Object conditions
 
-**Tile flipped horizontally (on the grid)**
+**Tile flipped horizontally (on the grid)**  
 Check if tile at grid coordinates is flipped horizontally.
 
 ??? quote "See parameters"
@@ -162,7 +162,7 @@ Check if tile at grid coordinates is flipped horizontally.
     - Parameter 1 (🔢 Number): Grid X
     - Parameter 2 (🔢 Number): Grid Y
 
-**Tile flipped horizontally (at position)**
+**Tile flipped horizontally (at position)**  
 Check if tile at scene coordinates is flipped horizontally.
 
 ??? quote "See parameters"
@@ -171,7 +171,7 @@ Check if tile at scene coordinates is flipped horizontally.
     - Parameter 1 (🔢 Number): Position X
     - Parameter 2 (🔢 Number): Position Y
 
-**Tile flipped vertically (on the grid)**
+**Tile flipped vertically (on the grid)**  
 Check if tile at grid coordinates is flipped vertically.
 
 ??? quote "See parameters"
@@ -180,7 +180,7 @@ Check if tile at grid coordinates is flipped vertically.
     - Parameter 1 (🔢 Number): Grid X
     - Parameter 2 (🔢 Number): Grid Y
 
-**Tile flipped vertically (at position)**
+**Tile flipped vertically (at position)**  
 Check if tile at scene coordinates is flipped vertically.
 
 ??? quote "See parameters"
@@ -189,7 +189,7 @@ Check if tile at scene coordinates is flipped vertically.
     - Parameter 1 (🔢 Number): Position X
     - Parameter 2 (🔢 Number): Position Y
 
-**Grid column count**
+**Grid column count**  
 Compare the grid column count in the tile map.
 
 ??? quote "See parameters"
@@ -198,7 +198,7 @@ Compare the grid column count in the tile map.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Grid row count**
+**Grid row count**  
 Compare the grid row count in the tile map.
 
 ??? quote "See parameters"
@@ -207,7 +207,7 @@ Compare the grid row count in the tile map.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Tile (on the grid)**
+**Tile (on the grid)**  
 Compare the id of the tile at the grid coordinates.
 
 ??? quote "See parameters"
@@ -218,7 +218,7 @@ Compare the id of the tile at the grid coordinates.
     - Parameter 3 (🔢 Number): Grid X
     - Parameter 4 (🔢 Number): Grid Y
 
-**Tile (at position)**
+**Tile (at position)**  
 Compare the id of the tile at the scene coordinates.
 
 ??? quote "See parameters"
@@ -262,7 +262,7 @@ Displays a tiled-based map, made with the Tiled editor (https://www.mapeditor.or
 
 ### Object actions
 
-**Animation speed (FPS)**
+**Animation speed (FPS)**  
 Set the animation speed of the Tilemap.
 
 ??? quote "See parameters"
@@ -271,7 +271,7 @@ Set the animation speed of the Tilemap.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Animation speed (in frames per second)
 
-**Animation speed scale**
+**Animation speed scale**  
 Set the animation speed scale of the Tilemap.
 
 ??? quote "See parameters"
@@ -280,7 +280,7 @@ Set the animation speed scale of the Tilemap.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Speed scale (1 by default)
 
-**Display mode**
+**Display mode**  
 Set the display mode
 
 ??? quote "See parameters"
@@ -288,7 +288,7 @@ Set the display mode
     - Parameter 0 (👾 Object): Tile map
     - Parameter 1 (🔤 String): Display mode (one of: "visible", "all", "index")
 
-**Layer index**
+**Layer index**  
 Set the layer index of the Tilemap.
 
 ??? quote "See parameters"
@@ -297,7 +297,7 @@ Set the layer index of the Tilemap.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-**Tilemap file (Tiled or LDtk)**
+**Tilemap file (Tiled or LDtk)**  
 Set the Tiled or LDtk file containing the Tilemap data to display. This is usually the main file exported from Tiled/LDtk.
 
 ??? quote "See parameters"
@@ -305,7 +305,7 @@ Set the Tiled or LDtk file containing the Tilemap data to display. This is usual
     - Parameter 0 (👾 Object): Tile map
     - Parameter 1 (tilemapResource): Tilemap file (Tiled or LDtk)
 
-**Tileset JSON file**
+**Tileset JSON file**  
 Set the JSON file with the tileset data (sometimes that is embedded in the Tilemap, so not needed)
 
 ??? quote "See parameters"
@@ -315,7 +315,7 @@ Set the JSON file with the tileset data (sometimes that is embedded in the Tilem
 
 ### Object conditions
 
-**Animation speed (FPS)**
+**Animation speed (FPS)**  
 Compare the animation speed.
 
 ??? quote "See parameters"
@@ -324,7 +324,7 @@ Compare the animation speed.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Animation speed to compare to (in frames per second)
 
-**Animation speed scale**
+**Animation speed scale**  
 Compare the animation speed scale.
 
 ??? quote "See parameters"
@@ -333,7 +333,7 @@ Compare the animation speed scale.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Speed scale to compare to (1 by default)
 
-**Display mode**
+**Display mode**  
 Compare the value of the display mode.
 
 ??? quote "See parameters"
@@ -341,7 +341,7 @@ Compare the value of the display mode.
     - Parameter 0 (👾 Object): Tile map
     - Parameter 1 (🔤 String): Display mode (one of: "visible", "all", "index")
 
-**Layer index**
+**Layer index**  
 Compare the value of the layer index.
 
 ??? quote "See parameters"
@@ -350,7 +350,7 @@ Compare the value of the layer index.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Level index**
+**Level index**  
 Compare the level index being displayed..
 
 ??? quote "See parameters"
@@ -359,7 +359,7 @@ Compare the level index being displayed..
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Tilemap file (Tiled or LDtk)**
+**Tilemap file (Tiled or LDtk)**  
 Check the tilemap file (Tiled or LDtk) being used.
 
 ??? quote "See parameters"
@@ -367,7 +367,7 @@ Check the tilemap file (Tiled or LDtk) being used.
     - Parameter 0 (👾 Object): Tile map
     - Parameter 1 (tilemapResource): Tilemap file (Tiled or LDtk)
 
-**Tileset JSON file**
+**Tileset JSON file**  
 Check the tileset JSON file being used.
 
 ??? quote "See parameters"

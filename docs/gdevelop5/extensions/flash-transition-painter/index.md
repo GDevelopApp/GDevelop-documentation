@@ -27,7 +27,7 @@ Paint all over the screen a color for a period of time.
 
 ### Behavior actions
 
-**Paint Effect**
+**Paint Effect**  
 Paint Effect.
 
 ??? quote "See parameters"
@@ -44,7 +44,7 @@ Paint Effect.
 
 ### Behavior conditions
 
-**Paint effect ended **
+**Paint effect ended **  
 Paint effect ended.
 
 ??? quote "See parameters"

@@ -24,7 +24,7 @@ Reveal a text one letter after the other.
 
 ### Behavior actions
 
-**Show Nth first characters**
+**Show Nth first characters**  
 Jump to a specific position in the text. Positions start at "0" and increase by one for every character.
 
 ??? quote "See parameters"
@@ -35,7 +35,7 @@ Jump to a specific position in the text. Positions start at "0" and increase by 
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Restart typing from the beginning**
+**Restart typing from the beginning**  
 Restart typing from the beginning of text. The autotyping also start automatically when a new text is set for the object.
 
 ??? quote "See parameters"
@@ -45,7 +45,7 @@ Restart typing from the beginning of text. The autotyping also start automatical
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Time between characters**
+**Time between characters**  
 Change the time between characters beign typed.
 
 ??? quote "See parameters"
@@ -57,7 +57,7 @@ Change the time between characters beign typed.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Show the full text**
+**Show the full text**  
 Show the full text.
 
 ??? quote "See parameters"
@@ -69,7 +69,7 @@ Show the full text.
 
 ### Behavior conditions
 
-**Has just typed**
+**Has just typed**  
 Check if a character has just been typed. Useful for triggering sound effects.
 
 ??? quote "See parameters"
@@ -79,7 +79,7 @@ Check if a character has just been typed. Useful for triggering sound effects.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Time between characters**
+**Time between characters**  
 Compare the time between characters beign typed.
 
 ??? quote "See parameters"
@@ -91,7 +91,7 @@ Compare the time between characters beign typed.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Finished typing**
+**Finished typing**  
 Check if the full text has been typed.
 
 ??? quote "See parameters"

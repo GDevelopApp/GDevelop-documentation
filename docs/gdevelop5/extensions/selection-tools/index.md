@@ -58,7 +58,7 @@ Select object instances by drawing rectangular, polygonal or lasso selection.
 
 ## Actions
 
-**Activate lasso selection**
+**Activate lasso selection**  
 Change the current selection type to lasso selection.
 
 ??? quote "See parameters"
@@ -69,7 +69,7 @@ Change the current selection type to lasso selection.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Activate polygonal selection**
+**Activate polygonal selection**  
 Change the current selection type to polygonal selection.
 
 ??? quote "See parameters"
@@ -84,7 +84,7 @@ Change the current selection type to polygonal selection.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Activate rectangular selection**
+**Activate rectangular selection**  
 Change the current selection type to rectangular selection.
 
 ??? quote "See parameters"
@@ -93,7 +93,7 @@ Change the current selection type to rectangular selection.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Clear selection**
+**Clear selection**  
 Clear the selection (Note: This action does not deslect selected objects).
 
 ??? quote "See parameters"
@@ -102,7 +102,7 @@ Clear the selection (Note: This action does not deslect selected objects).
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**De/Activate selection tools**
+**De/Activate selection tools**  
 De/Activate selection tools.
 
 ??? quote "See parameters"
@@ -113,7 +113,7 @@ De/Activate selection tools.
 
 ## Conditions
 
-**Current selection type**
+**Current selection type**  
 Current selection type.
 
 ??? quote "See parameters"
@@ -122,7 +122,7 @@ Current selection type.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Select**
+**Select**  
 Select objects inside the selection boundary.
 
 ??? quote "See parameters"
@@ -135,7 +135,7 @@ Select objects inside the selection boundary.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Selection activated**
+**Selection activated**  
 Selection tools is activated.
 
 ??? quote "See parameters"

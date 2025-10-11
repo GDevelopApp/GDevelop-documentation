@@ -22,7 +22,7 @@ Tips:
 
 ## Actions
 
-**Copy camera settings**
+**Copy camera settings**  
 Copy camera settings of a layer and apply them to another layer.
 
 ??? quote "See parameters"

@@ -23,7 +23,7 @@ Use `MovementX()` and `MovementY()` instead.
 
 ## Actions
 
-**Exit pointer lock**
+**Exit pointer lock**  
 Unlocks the mouse pointer and show it.
 
 ??? quote "See parameters"
@@ -32,7 +32,7 @@ Unlocks the mouse pointer and show it.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Request Pointer Lock**
+**Request Pointer Lock**  
 Lock the mouse pointer to hide it.
 
 ??? quote "See parameters"
@@ -41,7 +41,7 @@ Lock the mouse pointer to hide it.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Speed factor for touch movement**
+**Speed factor for touch movement**  
 Change the speed factor for touch movement.
 
 ??? quote "See parameters"
@@ -53,7 +53,7 @@ Change the speed factor for touch movement.
 
 ## Conditions
 
-**Locked pointer is moving**
+**Locked pointer is moving**  
 Check if the locked pointer is moving.
 
 ??? quote "See parameters"
@@ -62,7 +62,7 @@ Check if the locked pointer is moving.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Pointer X movement**
+**Pointer X movement**  
 Compare the movement of the locked pointer on the X axis.
 
 ??? quote "See parameters"
@@ -72,7 +72,7 @@ Compare the movement of the locked pointer on the X axis.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Pointer Y movement**
+**Pointer Y movement**  
 Compare the movement of the pointer on the Y axis.
 
 ??? quote "See parameters"
@@ -82,7 +82,7 @@ Compare the movement of the pointer on the Y axis.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Speed factor for touch movement**
+**Speed factor for touch movement**  
 Compare the speed factor for touch movement.
 
 ??? quote "See parameters"
@@ -92,7 +92,7 @@ Compare the speed factor for touch movement.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Pointer is locked**
+**Pointer is locked**  
 Check if the mouse pointer is locked.
 
 ??? quote "See parameters"
@@ -115,7 +115,7 @@ Control camera rotations with a mouse.
 
 ### Behavior actions
 
-**Horizontal rotation speed factor**
+**Horizontal rotation speed factor**  
 Change the horizontal rotation speed factor of the object.
 
 ??? quote "See parameters"
@@ -127,7 +127,7 @@ Change the horizontal rotation speed factor of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Z position offset**
+**Z position offset**  
 Change the z position offset of the object.
 
 ??? quote "See parameters"
@@ -139,7 +139,7 @@ Change the z position offset of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum vertical camera angle**
+**Maximum vertical camera angle**  
 Change the maximum vertical camera angle of the object.
 
 ??? quote "See parameters"
@@ -151,7 +151,7 @@ Change the maximum vertical camera angle of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Minimum vertical camera angle**
+**Minimum vertical camera angle**  
 Change the minimum vertical camera angle of the object.
 
 ??? quote "See parameters"
@@ -163,7 +163,7 @@ Change the minimum vertical camera angle of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Vertical rotation speed factor**
+**Vertical rotation speed factor**  
 Change the vertical rotation speed factor of the object.
 
 ??? quote "See parameters"
@@ -177,7 +177,7 @@ Change the vertical rotation speed factor of the object.
 
 ### Behavior conditions
 
-**Horizontal rotation speed factor**
+**Horizontal rotation speed factor**  
 Compare the horizontal rotation speed factor of the object.
 
 ??? quote "See parameters"
@@ -189,7 +189,7 @@ Compare the horizontal rotation speed factor of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Z position offset**
+**Z position offset**  
 Compare the z position offset of the object.
 
 ??? quote "See parameters"
@@ -201,7 +201,7 @@ Compare the z position offset of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Maximum vertical camera angle**
+**Maximum vertical camera angle**  
 Compare the maximum vertical camera angle of the object.
 
 ??? quote "See parameters"
@@ -213,7 +213,7 @@ Compare the maximum vertical camera angle of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Minimum vertical camera angle**
+**Minimum vertical camera angle**  
 Compare the minimum vertical camera angle of the object.
 
 ??? quote "See parameters"
@@ -225,7 +225,7 @@ Compare the minimum vertical camera angle of the object.
 
     > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
-**Vertical rotation speed factor**
+**Vertical rotation speed factor**  
 Compare the vertical rotation speed factor of the object.
 
 ??? quote "See parameters"

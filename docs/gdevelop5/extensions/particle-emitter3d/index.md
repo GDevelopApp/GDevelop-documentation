@@ -24,7 +24,7 @@ Display a large number of particles to create visual effects.
 
 ### Object actions
 
-**Restart**
+**Restart**  
 Restart particule emission from the beginning.
 
 ??? quote "See parameters"
@@ -33,7 +33,7 @@ Restart particule emission from the beginning.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Particles move with the emitter**
+**Particles move with the emitter**  
 Change if particles move with the emitter.
 
 ??? quote "See parameters"
@@ -43,7 +43,7 @@ Change if particles move with the emitter.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Emission duration**
+**Emission duration**  
 Change the emission duration of the object.
 
 ??? quote "See parameters"
@@ -54,7 +54,7 @@ Change the emission duration of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**End color**
+**End color**  
 Change the end color of the object.
 
 ??? quote "See parameters"
@@ -65,7 +65,7 @@ Change the end color of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**End opacity**
+**End opacity**  
 Change the end opacity of the object.
 
 ??? quote "See parameters"
@@ -76,7 +76,7 @@ Change the end opacity of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**End scale**
+**End scale**  
 Change the end scale of the object.
 
 ??? quote "See parameters"
@@ -87,7 +87,7 @@ Change the end scale of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Flow of particles**
+**Flow of particles**  
 Change the flow of particles of the object  (particles per second).
 
 ??? quote "See parameters"
@@ -98,7 +98,7 @@ Change the flow of particles of the object  (particles per second).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Gravity**
+**Gravity**  
 Change the gravity of the object.
 
 ??? quote "See parameters"
@@ -109,7 +109,7 @@ Change the gravity of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Gravity top**
+**Gravity top**  
 Change the gravity top of the object.
 
 ??? quote "See parameters"
@@ -120,7 +120,7 @@ Change the gravity top of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Max lifespan**
+**Max lifespan**  
 Change the max lifespan of the object.
 
 ??? quote "See parameters"
@@ -131,7 +131,7 @@ Change the max lifespan of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Min lifespan**
+**Min lifespan**  
 Change the min lifespan of the object.
 
 ??? quote "See parameters"
@@ -142,7 +142,7 @@ Change the min lifespan of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Delete when emission ends**
+**Delete when emission ends**  
 Change if delete when emission ends.
 
 ??? quote "See parameters"
@@ -152,7 +152,7 @@ Change if delete when emission ends.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Spay cone angle**
+**Spay cone angle**  
 Change the spay cone angle of the object.
 
 ??? quote "See parameters"
@@ -163,7 +163,7 @@ Change the spay cone angle of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Start color**
+**Start color**  
 Change the start color of the object.
 
 ??? quote "See parameters"
@@ -174,7 +174,7 @@ Change the start color of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Start opacity**
+**Start opacity**  
 Change the start opacity of the object.
 
 ??? quote "See parameters"
@@ -185,7 +185,7 @@ Change the start opacity of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Start max size**
+**Start max size**  
 Change the start max size of the object.
 
 ??? quote "See parameters"
@@ -196,7 +196,7 @@ Change the start max size of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Start min size**
+**Start min size**  
 Change the start min size of the object.
 
 ??? quote "See parameters"
@@ -207,7 +207,7 @@ Change the start min size of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Max start speed**
+**Max start speed**  
 Change the max start speed of the object.
 
 ??? quote "See parameters"
@@ -218,7 +218,7 @@ Change the max start speed of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Min start speed**
+**Min start speed**  
 Change the min start speed of the object.
 
 ??? quote "See parameters"
@@ -231,7 +231,7 @@ Change the min start speed of the object.
 
 ### Object conditions
 
-**Particles move with the emitter**
+**Particles move with the emitter**  
 Check if particles move with the emitter.
 
 ??? quote "See parameters"
@@ -240,7 +240,7 @@ Check if particles move with the emitter.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Blending**
+**Blending**  
 Compare the blending of the object.
 
 ??? quote "See parameters"
@@ -251,7 +251,7 @@ Compare the blending of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Emission duration**
+**Emission duration**  
 Compare the emission duration of the object.
 
 ??? quote "See parameters"
@@ -262,7 +262,7 @@ Compare the emission duration of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**End color**
+**End color**  
 Compare the end color of the object.
 
 ??? quote "See parameters"
@@ -273,7 +273,7 @@ Compare the end color of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**End opacity**
+**End opacity**  
 Compare the end opacity of the object.
 
 ??? quote "See parameters"
@@ -284,7 +284,7 @@ Compare the end opacity of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**End scale**
+**End scale**  
 Compare the end scale of the object.
 
 ??? quote "See parameters"
@@ -295,7 +295,7 @@ Compare the end scale of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Flow of particles**
+**Flow of particles**  
 Compare the flow of particles of the object  (particles per second).
 
 ??? quote "See parameters"
@@ -306,7 +306,7 @@ Compare the flow of particles of the object  (particles per second).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Gravity**
+**Gravity**  
 Compare the gravity of the object.
 
 ??? quote "See parameters"
@@ -317,7 +317,7 @@ Compare the gravity of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Gravity top**
+**Gravity top**  
 Compare the gravity top of the object.
 
 ??? quote "See parameters"
@@ -328,7 +328,7 @@ Compare the gravity top of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Emission has ended**
+**Emission has ended**  
 Check that emission has ended and no particle is alive anymore.
 
 ??? quote "See parameters"
@@ -337,7 +337,7 @@ Check that emission has ended and no particle is alive anymore.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Max lifespan**
+**Max lifespan**  
 Compare the max lifespan of the object.
 
 ??? quote "See parameters"
@@ -348,7 +348,7 @@ Compare the max lifespan of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Min lifespan**
+**Min lifespan**  
 Compare the min lifespan of the object.
 
 ??? quote "See parameters"
@@ -359,7 +359,7 @@ Compare the min lifespan of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Delete when emission ends**
+**Delete when emission ends**  
 Check if delete when emission ends.
 
 ??? quote "See parameters"
@@ -368,7 +368,7 @@ Check if delete when emission ends.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Spay cone angle**
+**Spay cone angle**  
 Compare the spay cone angle of the object.
 
 ??? quote "See parameters"
@@ -379,7 +379,7 @@ Compare the spay cone angle of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Start color**
+**Start color**  
 Compare the start color of the object.
 
 ??? quote "See parameters"
@@ -390,7 +390,7 @@ Compare the start color of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Start opacity**
+**Start opacity**  
 Compare the start opacity of the object.
 
 ??? quote "See parameters"
@@ -401,7 +401,7 @@ Compare the start opacity of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Start max size**
+**Start max size**  
 Compare the start max size of the object.
 
 ??? quote "See parameters"
@@ -412,7 +412,7 @@ Compare the start max size of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Start min size**
+**Start min size**  
 Compare the start min size of the object.
 
 ??? quote "See parameters"
@@ -423,7 +423,7 @@ Compare the start min size of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Max start speed**
+**Max start speed**  
 Compare the max start speed of the object.
 
 ??? quote "See parameters"
@@ -434,7 +434,7 @@ Compare the max start speed of the object.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Min start speed**
+**Min start speed**  
 Compare the min start speed of the object.
 
 ??? quote "See parameters"

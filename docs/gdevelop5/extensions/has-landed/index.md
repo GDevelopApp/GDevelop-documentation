@@ -19,7 +19,7 @@ Checks if the object has landed on a floor with the given settings.
 
 ## Conditions
 
-**HasLanded**
+**HasLanded**  
 Checks if the object has landed on floor.
 
 ??? quote "See parameters"
@@ -34,7 +34,7 @@ Checks if the object has landed on floor.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**HasLandedOnGivenFloor**
+**HasLandedOnGivenFloor**  
 Checks if the object has landed on a given floor.
 
 ??? quote "See parameters"

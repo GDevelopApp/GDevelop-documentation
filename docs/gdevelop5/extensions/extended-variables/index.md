@@ -22,7 +22,7 @@ Text expressions allows to enter the name of the variable with an expression lik
 
 ## Actions
 
-**Copy all object variables**
+**Copy all object variables**  
 Copy all object variables from one object to another.
 
 ??? quote "See parameters"
@@ -33,7 +33,7 @@ Copy all object variables from one object to another.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Copy a global variable to scene**
+**Copy a global variable to scene**  
 Copy the global variable to scene. This copy everything from the types to the values.
 
 ??? quote "See parameters"
@@ -44,7 +44,7 @@ Copy the global variable to scene. This copy everything from the types to the va
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Copy an object variable**
+**Copy an object variable**  
 Copy the object variable from one object to another.
 
 ??? quote "See parameters"
@@ -58,7 +58,7 @@ Copy the object variable from one object to another.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Copy a scene variable to global **
+**Copy a scene variable to global **  
 Copy the scene variable to global. This copy everything from the types to the values.
 
 ??? quote "See parameters"
@@ -69,7 +69,7 @@ Copy the scene variable to global. This copy everything from the types to the va
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Delete global variable**
+**Delete global variable**  
 Delete the global variable, removing it from memory.
 
 ??? quote "See parameters"
@@ -78,7 +78,7 @@ Delete the global variable, removing it from memory.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Delete object variable**
+**Delete object variable**  
 Delete an object variable, removing it from memory.
 
 ??? quote "See parameters"
@@ -88,7 +88,7 @@ Delete an object variable, removing it from memory.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Delete scene variable**
+**Delete scene variable**  
 Delete the scene variable, the variable will be deleted from the memory.
 
 ??? quote "See parameters"
@@ -97,7 +97,7 @@ Delete the scene variable, the variable will be deleted from the memory.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Value of a global variable**
+**Value of a global variable**  
 Modify the value of a global variable.
 
 ??? quote "See parameters"
@@ -107,7 +107,7 @@ Modify the value of a global variable.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**String of a global variable**
+**String of a global variable**  
 Modify the text of a global variable.
 
 ??? quote "See parameters"
@@ -117,7 +117,7 @@ Modify the text of a global variable.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Value of a scene variable**
+**Value of a scene variable**  
 Modify the value of a scene variable.
 
 ??? quote "See parameters"
@@ -127,7 +127,7 @@ Modify the value of a scene variable.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**String of a scene variable**
+**String of a scene variable**  
 Modify the text of a scene variable.
 
 ??? quote "See parameters"
@@ -139,7 +139,7 @@ Modify the text of a scene variable.
 
 ## Conditions
 
-**Global variable exists**
+**Global variable exists**  
 Check if the global variable exists.
 
 ??? quote "See parameters"
@@ -148,7 +148,7 @@ Check if the global variable exists.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Object variable exists**
+**Object variable exists**  
 Check if an object variable exists.
 
 ??? quote "See parameters"
@@ -158,7 +158,7 @@ Check if an object variable exists.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Scene variable exists**
+**Scene variable exists**  
 Check if the scene variable exists.
 
 ??? quote "See parameters"

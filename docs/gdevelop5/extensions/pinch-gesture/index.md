@@ -22,7 +22,7 @@ Limitations:
 
 ## Actions
 
-**Enable or disable camera pinch**
+**Enable or disable camera pinch**  
 Enable or disable camera pinch.
 
 ??? quote "See parameters"
@@ -31,7 +31,7 @@ Enable or disable camera pinch.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Camera pinch constraints**
+**Camera pinch constraints**  
 Change the camera pinch constraint.
 
 ??? quote "See parameters"
@@ -40,7 +40,7 @@ Change the camera pinch constraint.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Camera pinch layer**
+**Camera pinch layer**  
 Choose the layer to move with pinch gestures.
 
 ??? quote "See parameters"
@@ -51,7 +51,7 @@ Choose the layer to move with pinch gestures.
 
 ## Conditions
 
-**Camera pinch is enabled**
+**Camera pinch is enabled**  
 Check if camera pinch is enabled.
 
 ??? quote "See parameters"
@@ -60,7 +60,7 @@ Check if camera pinch is enabled.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**Touch is pinching**
+**Touch is pinching**  
 Check if a touch is pinching, if 2 touches are pressed.
 
 ??? quote "See parameters"
@@ -110,7 +110,7 @@ Move objects by holding 2 touches on them.
 
 ### Behavior actions
 
-**Abort pinching**
+**Abort pinching**  
 Abort the pinching of this object.
 
 ??? quote "See parameters"
@@ -122,7 +122,7 @@ Abort the pinching of this object.
 
 ### Behavior conditions
 
-**Is being pinched**
+**Is being pinched**  
 Check if the object is being pinched.
 
 ??? quote "See parameters"

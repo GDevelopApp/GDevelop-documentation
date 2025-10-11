@@ -31,7 +31,7 @@ such as (Xposition, Yposition, AnimationID, FrameID, HorziontalFlip, VerticalFli
 
 ## Actions
 
-**Clear all object records**
+**Clear all object records**  
 Clear object records and reset all records back to 0.
 
 ??? quote "See parameters"
@@ -40,7 +40,7 @@ Clear object records and reset all records back to 0.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Load Movements**
+**Load Movements**  
 Allow the user to load saved object movements.
 
 ??? quote "See parameters"
@@ -49,7 +49,7 @@ Allow the user to load saved object movements.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Record Movements**
+**Record Movements**  
 Allow the user to record object movements.
 
 ??? quote "See parameters"
@@ -73,7 +73,7 @@ Allow the user to record object movements.
 
 ## Conditions
 
-**Recorded frames has finished loading**
+**Recorded frames has finished loading**  
 Check if the recorded frames has finished loading (= to 0).
 
 ??? quote "See parameters"
@@ -82,7 +82,7 @@ Check if the recorded frames has finished loading (= to 0).
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Record limit is (below) number**
+**Record limit is (below) number**  
 Set recording limit to object (per frame).
 
 ??? quote "See parameters"
@@ -93,7 +93,7 @@ Set recording limit to object (per frame).
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Record limit is (above) number**
+**Record limit is (above) number**  
 Set recording limit to object (per frame).
 
 ??? quote "See parameters"

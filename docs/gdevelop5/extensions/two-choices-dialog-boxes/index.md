@@ -23,7 +23,7 @@ A dialog box showing two options.
 
 ### Object conditions
 
-**"No" button is clicked**
+**"No" button is clicked**  
 Check if the "No" button of the dialog was selected.
 
 ??? quote "See parameters"
@@ -32,7 +32,7 @@ Check if the "No" button of the dialog was selected.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**"Yes" button is clicked**
+**"Yes" button is clicked**  
 Check if the "Yes" button of the dialog was selected.
 
 ??? quote "See parameters"

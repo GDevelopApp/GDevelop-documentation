@@ -10,7 +10,7 @@ Displays a large number of small 2D particles to create visual effects in a 2D g
 
 ### Object actions
 
-**Angle of the spray cone**
+**Angle of the spray cone**  
 Modify the angle of the spray cone.
 
 ??? quote "See parameters"
@@ -19,7 +19,7 @@ Modify the angle of the spray cone.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Angle (in degrees)
 
-**Emission angle**
+**Emission angle**  
 Modify emission angle.
 
 ??? quote "See parameters"
@@ -28,7 +28,7 @@ Modify emission angle.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Angle (in degrees)
 
-**Emission maximal force**
+**Emission maximal force**  
 Modify maximal emission force of particles.
 
 ??? quote "See parameters"
@@ -37,7 +37,7 @@ Modify maximal emission force of particles.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-**Emission minimal force**
+**Emission minimal force**  
 Modify minimal emission force of particles.
 
 ??? quote "See parameters"
@@ -46,7 +46,7 @@ Modify minimal emission force of particles.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-**Jump emitter forward in time**
+**Jump emitter forward in time**  
 Simulate the passage of time for an emitter, including creating and moving particles
 
 ??? quote "See parameters"
@@ -54,7 +54,7 @@ Simulate the passage of time for an emitter, including creating and moving parti
     - Parameter 0: 👾 Object
     - Parameter 1 (🔢 Number): Seconds of time
 
-**Start opacity**
+**Start opacity**  
 Modify the start opacity of particles.
 
 ??? quote "See parameters"
@@ -63,7 +63,7 @@ Modify the start opacity of particles.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value (0-255)
 
-**End opacity**
+**End opacity**  
 Modify the end opacity of particles.
 
 ??? quote "See parameters"
@@ -72,7 +72,7 @@ Modify the end opacity of particles.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value (0-255)
 
-**Start color blue component**
+**Start color blue component**  
 Modify the start color blue component.
 
 ??? quote "See parameters"
@@ -81,7 +81,7 @@ Modify the start color blue component.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value (0-255)
 
-**End color blue component**
+**End color blue component**  
 Modify the end color blue component.
 
 ??? quote "See parameters"
@@ -90,7 +90,7 @@ Modify the end color blue component.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value (0-255)
 
-**Start color**
+**Start color**  
 Modify start color of particles.
 
 ??? quote "See parameters"
@@ -98,7 +98,7 @@ Modify start color of particles.
     - Parameter 0: 👾 Object
     - Parameter 1 (color): Start color
 
-**End color**
+**End color**  
 Modify end color of particles.
 
 ??? quote "See parameters"
@@ -106,7 +106,7 @@ Modify end color of particles.
     - Parameter 0: 👾 Object
     - Parameter 1 (color): End color
 
-**Activate particles additive rendering**
+**Activate particles additive rendering**  
 Set (or unset) if the particles additive rendering is activated.
 
 ??? quote "See parameters"
@@ -114,7 +114,7 @@ Set (or unset) if the particles additive rendering is activated.
     - Parameter 0: 👾 Object
     - Parameter 1 (❓ Yes or No): New value
 
-**Number of displayed particles**
+**Number of displayed particles**  
 Change the maximum number of displayed particles.
 
 ??? quote "See parameters"
@@ -123,7 +123,7 @@ Change the maximum number of displayed particles.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-**Particle rotation max speed**
+**Particle rotation max speed**  
 Change the maximum rotation speed of the particles.
 
 ??? quote "See parameters"
@@ -132,7 +132,7 @@ Change the maximum rotation speed of the particles.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Angular speed (in degrees per second)
 
-**Particle rotation min speed**
+**Particle rotation min speed**  
 Change the minimum rotation speed of the particles.
 
 ??? quote "See parameters"
@@ -141,7 +141,7 @@ Change the minimum rotation speed of the particles.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Angular speed (in degrees per second)
 
-**Gravity angle**
+**Gravity angle**  
 Change gravity angle
 
 ??? quote "See parameters"
@@ -150,7 +150,7 @@ Change gravity angle
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Angle (in degrees)
 
-**Gravity**
+**Gravity**  
 Change the gravity of the emitter.
 
 ??? quote "See parameters"
@@ -159,7 +159,7 @@ Change the gravity of the emitter.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-**Gravity value on X axis**
+**Gravity value on X axis**  
 Change value of the gravity on X axis.
 
 ??? quote "See parameters"
@@ -168,7 +168,7 @@ Change value of the gravity on X axis.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-**Gravity value on Y axis**
+**Gravity value on Y axis**  
 Change value of the gravity on Y axis.
 
 ??? quote "See parameters"
@@ -177,7 +177,7 @@ Change value of the gravity on Y axis.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-**Start color green component**
+**Start color green component**  
 Modify the start color green component.
 
 ??? quote "See parameters"
@@ -186,7 +186,7 @@ Modify the start color green component.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value (0-255)
 
-**End color green component**
+**End color green component**  
 Modify the end color green component.
 
 ??? quote "See parameters"
@@ -195,7 +195,7 @@ Modify the end color green component.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value (0-255)
 
-**Maximum lifetime**
+**Maximum lifetime**  
 Modify particles maximum lifetime.  
 Particles have to be recreated in order to take changes in account.
 
@@ -205,7 +205,7 @@ Particles have to be recreated in order to take changes in account.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Duration (in seconds)
 
-**Minimum lifetime**
+**Minimum lifetime**  
 Modify particles minimum lifetime. Particles have to be recreated in order to take changes in account.
 
 ??? quote "See parameters"
@@ -214,7 +214,7 @@ Modify particles minimum lifetime. Particles have to be recreated in order to ta
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Duration (in seconds)
 
-**Start color red component**
+**Start color red component**  
 Modify the start color red component.
 
 ??? quote "See parameters"
@@ -223,7 +223,7 @@ Modify the start color red component.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value (0-255)
 
-**End color red component**
+**End color red component**  
 Modify the end color red component.
 
 ??? quote "See parameters"
@@ -232,7 +232,7 @@ Modify the end color red component.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value (0-255)
 
-**Start size**
+**Start size**  
 Modify the particle start size.
 
 ??? quote "See parameters"
@@ -241,7 +241,7 @@ Modify the particle start size.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-**End size**
+**End size**  
 Modify the particle end size.
 
 ??? quote "See parameters"
@@ -250,14 +250,14 @@ Modify the particle end size.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-**Recreate particles**
+**Recreate particles**  
 Destroy and recreate particles, so as to take changes made to setup of the emitter in account.
 
 ??? quote "See parameters"
 
     - Parameter 0: 👾 Object
 
-**Flow**
+**Flow**  
 Change the flow of the emitter.
 
 ??? quote "See parameters"
@@ -266,7 +266,7 @@ Change the flow of the emitter.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Flow (in particles per second)
 
-**Capacity**
+**Capacity**  
 Change the capacity of the emitter.
 
 ??? quote "See parameters"
@@ -275,7 +275,7 @@ Change the capacity of the emitter.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Capacity
 
-**Particle image**
+**Particle image**  
 Change the image of particles (if displayed).
 
 ??? quote "See parameters"
@@ -285,21 +285,21 @@ Change the image of particles (if displayed).
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Start emission**
+**Start emission**  
 Refill tank (if not infinite) and start emission of the particles.
 
 ??? quote "See parameters"
 
     - Parameter 0: 👾 Object
 
-**Stop emission**
+**Stop emission**  
 Stop the emission of particles.
 
 ??? quote "See parameters"
 
     - Parameter 0: 👾 Object
 
-**Creation radius**
+**Creation radius**  
 Modify creation radius of particles.  
 Particles have to be recreated in order to take changes in account.
 
@@ -311,7 +311,7 @@ Particles have to be recreated in order to take changes in account.
 
 ### Object conditions
 
-**Angle of the spray cone**
+**Angle of the spray cone**  
 Test the angle of the spray cone of the emitter
 
 ??? quote "See parameters"
@@ -320,7 +320,7 @@ Test the angle of the spray cone of the emitter
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Angle to compare to (in degrees)
 
-**Emission angle**
+**Emission angle**  
 Test the value of emission angle of the emitter.
 
 ??? quote "See parameters"
@@ -329,7 +329,7 @@ Test the value of emission angle of the emitter.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Angle to compare to (in degrees)
 
-**Flow**
+**Flow**  
 Test the flow of the emitter.
 
 ??? quote "See parameters"
@@ -338,14 +338,14 @@ Test the flow of the emitter.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Flow to compare to (in particles per second)
 
-**No more particles**
+**No more particles**  
 Check if the object does not emit particles any longer, so as to destroy it for example.
 
 ??? quote "See parameters"
 
     - Parameter 0: 👾 Object
 
-**Start opacity**
+**Start opacity**  
 Compare the start opacity of particles.
 
 ??? quote "See parameters"
@@ -354,7 +354,7 @@ Compare the start opacity of particles.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare to (0-255)
 
-**End opacity**
+**End opacity**  
 Compare the end opacity of particles.
 
 ??? quote "See parameters"
@@ -363,7 +363,7 @@ Compare the end opacity of particles.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare to (0-255)
 
-**Start color blue component**
+**Start color blue component**  
 Compare the start color blue component.
 
 ??? quote "See parameters"
@@ -372,7 +372,7 @@ Compare the start color blue component.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare to (0-255)
 
-**End color blue component**
+**End color blue component**  
 Compare the end color blue component.
 
 ??? quote "See parameters"
@@ -381,14 +381,14 @@ Compare the end color blue component.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare to (0-255)
 
-**Activate particles additive rendering**
+**Activate particles additive rendering**  
 Check if the particles additive rendering is activated.
 
 ??? quote "See parameters"
 
     - Parameter 0: 👾 Object
 
-**Number of displayed particles**
+**Number of displayed particles**  
 Compare the maximum number of displayed particles.
 
 ??? quote "See parameters"
@@ -397,7 +397,7 @@ Compare the maximum number of displayed particles.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Particle rotation max speed**
+**Particle rotation max speed**  
 Compare the maximum rotation speed of the particles.
 
 ??? quote "See parameters"
@@ -406,7 +406,7 @@ Compare the maximum rotation speed of the particles.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Angular speed (in degrees per second)
 
-**Particle rotation min speed**
+**Particle rotation min speed**  
 Compare the minimum rotation speed of the particles.
 
 ??? quote "See parameters"
@@ -415,7 +415,7 @@ Compare the minimum rotation speed of the particles.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Angular speed (in degrees per second)
 
-**Gravity angle**
+**Gravity angle**  
 Test the gravity angle of the emitter
 
 ??? quote "See parameters"
@@ -424,7 +424,7 @@ Test the gravity angle of the emitter
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Angle to compare to (in degrees)
 
-**Gravity**
+**Gravity**  
 Test the gravity of the emitter.
 
 ??? quote "See parameters"
@@ -433,7 +433,7 @@ Test the gravity of the emitter.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Gravity value on X axis**
+**Gravity value on X axis**  
 Compare value of the gravity on X axis.
 
 ??? quote "See parameters"
@@ -442,7 +442,7 @@ Compare value of the gravity on X axis.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Gravity value on Y axis**
+**Gravity value on Y axis**  
 Compare value of the gravity on Y axis.
 
 ??? quote "See parameters"
@@ -451,7 +451,7 @@ Compare value of the gravity on Y axis.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Start color green component**
+**Start color green component**  
 Compare the start color green component.
 
 ??? quote "See parameters"
@@ -460,7 +460,7 @@ Compare the start color green component.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare to (0-255)
 
-**End color green component**
+**End color green component**  
 Compare the end color green component.
 
 ??? quote "See parameters"
@@ -469,7 +469,7 @@ Compare the end color green component.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare to (0-255)
 
-**Maximum lifetime**
+**Maximum lifetime**  
 Test maximum lifetime of particles.
 
 ??? quote "See parameters"
@@ -478,7 +478,7 @@ Test maximum lifetime of particles.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Duration to compare to (in seconds)
 
-**Minimum lifetime**
+**Minimum lifetime**  
 Test minimum lifetime of particles.
 
 ??? quote "See parameters"
@@ -487,7 +487,7 @@ Test minimum lifetime of particles.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Duration to compare to (in seconds)
 
-**Start color red component**
+**Start color red component**  
 Compare the start color red component.
 
 ??? quote "See parameters"
@@ -496,7 +496,7 @@ Compare the start color red component.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare to (0-255)
 
-**End color red component**
+**End color red component**  
 Compare the end color red component.
 
 ??? quote "See parameters"
@@ -505,7 +505,7 @@ Compare the end color red component.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare to (0-255)
 
-**Start size**
+**Start size**  
 Compare the particle start size.
 
 ??? quote "See parameters"
@@ -514,7 +514,7 @@ Compare the particle start size.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**End size**
+**End size**  
 Compare the particle end size.
 
 ??? quote "See parameters"
@@ -523,7 +523,7 @@ Compare the particle end size.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-**Capacity**
+**Capacity**  
 Test the capacity of the emitter.
 
 ??? quote "See parameters"
@@ -532,7 +532,7 @@ Test the capacity of the emitter.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Capacity to compare to
 
-**Image**
+**Image**  
 Test the name of the image displayed by particles.
 
 ??? quote "See parameters"
@@ -541,7 +541,7 @@ Test the name of the image displayed by particles.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
 
-**Creation radius**
+**Creation radius**  
 Test creation radius of particles.
 
 ??? quote "See parameters"

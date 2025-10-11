@@ -24,7 +24,7 @@ Let users select a numerical value by dragging a slider.
 
 ### Object actions
 
-**De/activate interactions**
+**De/activate interactions**  
 De/activate interactions with the button.
 
 ??? quote "See parameters"
@@ -34,7 +34,7 @@ De/activate interactions with the button.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Show label**
+**Show label**  
 Show (or hide) the label on the bar.
 
 ??? quote "See parameters"
@@ -44,7 +44,7 @@ Show (or hide) the label on the bar.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Maximum value**
+**Maximum value**  
 Change the maximum value of the slider.
 
 ??? quote "See parameters"
@@ -55,7 +55,7 @@ Change the maximum value of the slider.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Minimum value**
+**Minimum value**  
 Change the minimum value of the slider.
 
 ??? quote "See parameters"
@@ -66,7 +66,7 @@ Change the minimum value of the slider.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Step size**
+**Step size**  
 Change the step size of the slider.
 
 ??? quote "See parameters"
@@ -77,7 +77,7 @@ Change the step size of the slider.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Value**
+**Value**  
 Change the value of the slider.
 
 ??? quote "See parameters"
@@ -90,7 +90,7 @@ Change the value of the slider.
 
 ### Object conditions
 
-**Interactions activated**
+**Interactions activated**  
 Check if the slider allows interactions.
 
 ??? quote "See parameters"
@@ -99,7 +99,7 @@ Check if the slider allows interactions.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Being dragged**
+**Being dragged**  
 Check if the slider is being dragged.
 
 ??? quote "See parameters"
@@ -108,7 +108,7 @@ Check if the slider is being dragged.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Label is shown**
+**Label is shown**  
 Check if the label is shown.
 
 ??? quote "See parameters"
@@ -117,7 +117,7 @@ Check if the label is shown.
 
     > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
-**Maximum value**
+**Maximum value**  
 Compare the maximum value of the slider.
 
 ??? quote "See parameters"
@@ -128,7 +128,7 @@ Compare the maximum value of the slider.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Minimum value**
+**Minimum value**  
 Compare the minimum value of the slider.
 
 ??? quote "See parameters"
@@ -139,7 +139,7 @@ Compare the minimum value of the slider.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Step size**
+**Step size**  
 Compare the step size of the slider.
 
 ??? quote "See parameters"
@@ -150,7 +150,7 @@ Compare the step size of the slider.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Value**
+**Value**  
 Compare the value of the slider.
 
 ??? quote "See parameters"

@@ -10,7 +10,7 @@ Action/condition/expression to change or check the opacity of an object (0-255).
 
 ### Behavior actions
 
-**Opacity**
+**Opacity**  
 Change the opacity of an object, between 0 (fully transparent) to 255 (opaque).
 
 ??? quote "See parameters"
@@ -22,7 +22,7 @@ Change the opacity of an object, between 0 (fully transparent) to 255 (opaque).
 
 ### Behavior conditions
 
-**Opacity**
+**Opacity**  
 Compare the opacity of an object, between 0 (fully transparent) to 255 (opaque).
 
 ??? quote "See parameters"

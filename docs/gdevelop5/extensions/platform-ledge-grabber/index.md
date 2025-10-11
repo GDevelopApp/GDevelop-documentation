@@ -30,7 +30,7 @@ Grab platforms ledges within reach automatically.
 
 ### Behavior actions
 
-**Only grab facing ledges**
+**Only grab facing ledges**  
 Change whether the character only grabs facing ledges or any ledges at reach.
 
 ??? quote "See parameters"
@@ -41,7 +41,7 @@ Change whether the character only grabs facing ledges or any ledges at reach.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Maximum ledge distance**
+**Maximum ledge distance**  
 Change the maximum ledge distance on X axis where the character moves toward the ledge. Note that the character won't move unless it can actually grab the platform.
 
 ??? quote "See parameters"
@@ -54,7 +54,7 @@ Change the maximum ledge distance on X axis where the character moves toward the
 
 ### Behavior conditions
 
-**Is moving toward a ledge**
+**Is moving toward a ledge**  
 Check if the character is moving toward a ledge.
 
 ??? quote "See parameters"

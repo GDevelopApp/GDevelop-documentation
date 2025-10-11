@@ -4,21 +4,21 @@ This allows to trigger vibrations on mobile devices. [Read more explanations abo
 
 ## Actions
 
-**Vibrate**
+**Vibrate**  
 Vibrate (Duration in ms).
 
 ??? quote "See parameters"
 
     - Parameter 0 (🔢 Number): Duration
 
-**Vibrate by pattern**
+**Vibrate by pattern**  
 Vibrate (Duration in ms). You can add multiple comma-separated values where every second value determines the period of silence between two vibrations. This is a string value so use quotes.
 
 ??? quote "See parameters"
 
     - Parameter 0 (string): Intervals (for example "500,100,200"
 
-**Stop vibration**
+**Stop vibration**  
 Stop the vibration
 
 

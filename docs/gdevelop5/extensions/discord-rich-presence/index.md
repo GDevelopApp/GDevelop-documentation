@@ -16,7 +16,7 @@ You can get more infos on each field via [the discord documentation](https://dis
 
 ## Actions
 
-**Initialize rich presence**
+**Initialize rich presence**  
 Attempts to connect to discord if it is installed, and initialize rich presence.
 
 ??? quote "See parameters"
@@ -25,7 +25,7 @@ Attempts to connect to discord if it is installed, and initialize rich presence.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Update rich presence**
+**Update rich presence**  
 Update the data in the rich presence. See the discord documentation for more info on each field. Each field except state is optional.
 
 ??? quote "See parameters"

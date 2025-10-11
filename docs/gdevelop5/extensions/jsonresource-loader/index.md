@@ -21,7 +21,7 @@ NEVER use this to load your game.json into a variable - this would increase your
 
 ## Actions
 
-**Load a JSON resource in a global variable**
+**Load a JSON resource in a global variable**  
 Loads a JSON resource into a global structure variable.
 
 ??? quote "See parameters"
@@ -31,7 +31,7 @@ Loads a JSON resource into a global structure variable.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Load a JSON resource in an object variable**
+**Load a JSON resource in an object variable**  
 Loads a JSON resource into an object structure variable.
 
 ??? quote "See parameters"
@@ -42,7 +42,7 @@ Loads a JSON resource into an object structure variable.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**Load a JSON resource in a scene variable**
+**Load a JSON resource in a scene variable**  
 Loads a JSON resource into a scene structure variable.
 
 ??? quote "See parameters"

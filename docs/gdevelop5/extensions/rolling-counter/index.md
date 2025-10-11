@@ -20,7 +20,7 @@ Smoothly changes a counter value in a text object.
 
 ### Behavior actions
 
-**Jump to the counter animation end**
+**Jump to the counter animation end**  
 Directly display the counter value without playing the animation.
 
 ??? quote "See parameters"
@@ -30,7 +30,7 @@ Directly display the counter value without playing the animation.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Counter value**
+**Counter value**  
 Change the value of the counter.
 
 ??? quote "See parameters"
@@ -44,7 +44,7 @@ Change the value of the counter.
 
 ### Behavior conditions
 
-**Counter value**
+**Counter value**  
 Compare the value of the counter.
 
 ??? quote "See parameters"

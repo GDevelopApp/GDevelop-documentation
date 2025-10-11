@@ -21,7 +21,7 @@ A [simple example](https://editor.gdevelop.io/?project=example://snap-object-to-
 
 ## Actions
 
-**Snap objects to a virtual bubble grid**
+**Snap objects to a virtual bubble grid**  
 Snap object to a virtual bubble grid (this is not the grid used in the editor).
 
 ??? quote "See parameters"
@@ -36,7 +36,7 @@ Snap object to a virtual bubble grid (this is not the grid used in the editor).
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Snap objects to a virtual flat topped hexagonal grid**
+**Snap objects to a virtual flat topped hexagonal grid**  
 Snap object to a virtual flat topped hexagonal grid (this is not the grid used in the editor).
 
 ??? quote "See parameters"
@@ -51,7 +51,7 @@ Snap object to a virtual flat topped hexagonal grid (this is not the grid used i
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
-**Snap objects to a virtual pointy topped hexagonal grid**
+**Snap objects to a virtual pointy topped hexagonal grid**  
 Snap object to a virtual pointy topped hexagonal grid (this is not the grid used in the editor).
 
 ??? quote "See parameters"

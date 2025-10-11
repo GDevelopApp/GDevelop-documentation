@@ -10,7 +10,7 @@ Allows to draw simple 2D shapes on the screen using the events.
 
 ### Object actions
 
-**Arc**
+**Arc**  
 Draw an arc on screen. If "Close path" is set to yes, a line will be drawn between the start and end point of the arc, closing the shape.
 
 ??? quote "See parameters"
@@ -24,7 +24,7 @@ Draw an arc on screen. If "Close path" is set to yes, a line will be drawn betwe
     - Parameter 6 (❓ Yes or No): Anticlockwise
     - Parameter 7 (❓ Yes or No): Close path
 
-**Begin fill path**
+**Begin fill path**  
 Begin to draw a simple one-color fill. Subsequent actions, such as "Path line" (in the Advanced category) can be used to draw. Be sure to use "End fill path" action when you're done drawing the shape.
 
 ??? quote "See parameters"
@@ -33,7 +33,7 @@ Begin to draw a simple one-color fill. Subsequent actions, such as "Path line" (
     - Parameter 1 (🔢 Number): Start drawing x
     - Parameter 2 (🔢 Number): Start drawing y
 
-**Bezier curve**
+**Bezier curve**  
 Draw a bezier curve on screen
 
 ??? quote "See parameters"
@@ -48,7 +48,7 @@ Draw a bezier curve on screen
     - Parameter 7 (🔢 Number): Destination point x
     - Parameter 8 (🔢 Number): Destination point y
 
-**Chamfer Rectangle**
+**Chamfer Rectangle**  
 Draw a chamfer rectangle on screen
 
 ??? quote "See parameters"
@@ -60,7 +60,7 @@ Draw a chamfer rectangle on screen
     - Parameter 4 (🔢 Number): Bottom Y position
     - Parameter 5 (🔢 Number): Chamfer (in pixels)
 
-**Circle**
+**Circle**  
 Draw a circle on screen
 
 ??? quote "See parameters"
@@ -70,7 +70,7 @@ Draw a circle on screen
     - Parameter 2 (🔢 Number): Y position of center
     - Parameter 3 (🔢 Number): Radius (in pixels)
 
-**Clear between frames**
+**Clear between frames**  
 Activate (or deactivate) the clearing of the rendered shape at the beginning of each frame.
 
 ??? quote "See parameters"
@@ -78,14 +78,14 @@ Activate (or deactivate) the clearing of the rendered shape at the beginning of 
     - Parameter 0 (👾 Object): Shape Painter object
     - Parameter 1 (❓ Yes or No): Clear between each frame
 
-**Clear shapes**
+**Clear shapes**  
 Clear the rendered shape(s). Useful if not set to be done automatically.
 
 ??? quote "See parameters"
 
     - Parameter 0 (👾 Object): Shape Painter object
 
-**Ellipse**
+**Ellipse**  
 Draw an ellipse on screen
 
 ??? quote "See parameters"
@@ -96,14 +96,14 @@ Draw an ellipse on screen
     - Parameter 3 (🔢 Number): The width of the ellipse
     - Parameter 4 (🔢 Number): The height of the ellipse
 
-**End fill path**
+**End fill path**  
 Finish the filling drawing in an advanced path
 
 ??? quote "See parameters"
 
     - Parameter 0 (👾 Object): Shape Painter object
 
-**Fill color**
+**Fill color**  
 Change the color used when filling
 
 ??? quote "See parameters"
@@ -111,7 +111,7 @@ Change the color used when filling
     - Parameter 0 (👾 Object): Shape Painter object
     - Parameter 1 (color): Fill color
 
-**Fill opacity**
+**Fill opacity**  
 Modify the opacity level used when filling future drawings.
 
 ??? quote "See parameters"
@@ -120,7 +120,7 @@ Modify the opacity level used when filling future drawings.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Opacity (0-255)
 
-**Fillet Rectangle**
+**Fillet Rectangle**  
 Draw a fillet rectangle on screen
 
 ??? quote "See parameters"
@@ -132,7 +132,7 @@ Draw a fillet rectangle on screen
     - Parameter 4 (🔢 Number): Bottom Y position
     - Parameter 5 (🔢 Number): Fillet (in pixels)
 
-**Line**
+**Line**  
 Draw a line on screen
 
 ??? quote "See parameters"
@@ -144,7 +144,7 @@ Draw a line on screen
     - Parameter 4 (🔢 Number): Y position of end point
     - Parameter 5 (🔢 Number): Thickness (in pixels)
 
-**Move path drawing position**
+**Move path drawing position**  
 Move the drawing position for the current path
 
 ??? quote "See parameters"
@@ -153,7 +153,7 @@ Move the drawing position for the current path
     - Parameter 1 (🔢 Number): X position of start point
     - Parameter 2 (🔢 Number): Y position of start point
 
-**Outline color**
+**Outline color**  
 Modify the color of the outline of future drawings.
 
 ??? quote "See parameters"
@@ -161,7 +161,7 @@ Modify the color of the outline of future drawings.
     - Parameter 0 (👾 Object): Shape Painter object
     - Parameter 1: color
 
-**Outline opacity**
+**Outline opacity**  
 Modify the opacity of the outline of future drawings.
 
 ??? quote "See parameters"
@@ -170,7 +170,7 @@ Modify the opacity of the outline of future drawings.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Opacity (0-255)
 
-**Outline size**
+**Outline size**  
 Modify the size of the outline of future drawings.
 
 ??? quote "See parameters"
@@ -179,7 +179,7 @@ Modify the size of the outline of future drawings.
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-**Path arc**
+**Path arc**  
 Add to a path an arc to a position. The origin comes from the previous action or from "Begin fill path" or "Move path drawing position". By default, the start position will be the object's position.
 
 ??? quote "See parameters"
@@ -192,7 +192,7 @@ Add to a path an arc to a position. The origin comes from the previous action or
     - Parameter 5 (🔢 Number): End angle
     - Parameter 6 (❓ Yes or No): Anticlockwise
 
-**Path bezier curve**
+**Path bezier curve**  
 Add to a path a bezier curve to a position. The origin comes from the previous action or from "Begin fill path" or "Move path drawing position". By default, the start position will be the object's position.
 
 ??? quote "See parameters"
@@ -205,7 +205,7 @@ Add to a path a bezier curve to a position. The origin comes from the previous a
     - Parameter 5 (🔢 Number): Destination point x
     - Parameter 6 (🔢 Number): Destination point y
 
-**Path line**
+**Path line**  
 Add to a path a line to a position. The origin comes from the previous action or from "Begin fill path" or "Move path drawing position". By default, the start position will be the object's position.
 
 ??? quote "See parameters"
@@ -214,7 +214,7 @@ Add to a path a line to a position. The origin comes from the previous action or
     - Parameter 1 (🔢 Number): X position of start point
     - Parameter 2 (🔢 Number): Y position of start point
 
-**Path quadratic curve**
+**Path quadratic curve**  
 Add to a path a quadratic curve to a position. The origin comes from the previous action or from "Begin fill path" or "Move path drawing position". By default, the start position will be the object's position.
 
 ??? quote "See parameters"
@@ -225,7 +225,7 @@ Add to a path a quadratic curve to a position. The origin comes from the previou
     - Parameter 3 (🔢 Number): Destination point x
     - Parameter 4 (🔢 Number): Destination point y
 
-**Quadratic curve**
+**Quadratic curve**  
 Draw a quadratic curve on screen
 
 ??? quote "See parameters"
@@ -238,7 +238,7 @@ Draw a quadratic curve on screen
     - Parameter 5 (🔢 Number): Destination point x
     - Parameter 6 (🔢 Number): Destination point y
 
-**Rectangle**
+**Rectangle**  
 Draw a rectangle on screen
 
 ??? quote "See parameters"
@@ -249,7 +249,7 @@ Draw a rectangle on screen
     - Parameter 3 (🔢 Number): Right X position
     - Parameter 4 (🔢 Number): Bottom Y position
 
-**Regular Polygon**
+**Regular Polygon**  
 Draw a regular polygon on screen
 
 ??? quote "See parameters"
@@ -261,7 +261,7 @@ Draw a regular polygon on screen
     - Parameter 4 (🔢 Number): Radius (in pixels)
     - Parameter 5 (🔢 Number): Rotation (in degrees)
 
-**Rounded rectangle**
+**Rounded rectangle**  
 Draw a rounded rectangle on screen
 
 ??? quote "See parameters"
@@ -273,7 +273,7 @@ Draw a rounded rectangle on screen
     - Parameter 4 (🔢 Number): Bottom Y position
     - Parameter 5 (🔢 Number): Radius (in pixels)
 
-**Anti-aliasing**
+**Anti-aliasing**  
 Anti-aliasing
 
 ??? quote "See parameters"
@@ -281,7 +281,7 @@ Anti-aliasing
     - Parameter 0: 👾 Object
     - Parameter 1 (🔤 String): Anti-aliasing quality level (one of: "none", "low", "medium", "high")
 
-**Collision Mask**
+**Collision Mask**  
 Change the collision mask of an object to a rectangle relatively to the object origin.
 
 ??? quote "See parameters"
@@ -292,7 +292,7 @@ Change the collision mask of an object to a rectangle relatively to the object o
     - Parameter 3 (🔢 Number): Right X position
     - Parameter 4 (🔢 Number): Bottom Y position
 
-**Center of rotation**
+**Center of rotation**  
 Change the center of rotation of an object relatively to the object origin.
 
 ??? quote "See parameters"
@@ -301,7 +301,7 @@ Change the center of rotation of an object relatively to the object origin.
     - Parameter 1 (🔢 Number): X position
     - Parameter 2 (🔢 Number): Y position
 
-**Star**
+**Star**  
 Draw a star on screen
 
 ??? quote "See parameters"
@@ -314,7 +314,7 @@ Draw a star on screen
     - Parameter 5 (🔢 Number): Inner radius (in pixels, half radius by default)
     - Parameter 6 (🔢 Number): Rotation (in degrees)
 
-**Torus**
+**Torus**  
 Draw a torus on screen
 
 ??? quote "See parameters"
@@ -327,7 +327,7 @@ Draw a torus on screen
     - Parameter 5 (🔢 Number): Start Arc (in degrees)
     - Parameter 6 (🔢 Number): End Arc (in degrees)
 
-**Use relative coordinates**
+**Use relative coordinates**  
 Set if the object should use relative coordinates (by default) or not. It's recommended to use relative coordinates.
 
 ??? quote "See parameters"
@@ -335,7 +335,7 @@ Set if the object should use relative coordinates (by default) or not. It's reco
     - Parameter 0 (👾 Object): Shape Painter object
     - Parameter 1 (❓ Yes or No): Use relative coordinates?
 
-**Close Path**
+**Close Path**  
 Close the path of the advanced shape. This closes the outline between the last and the first point.
 
 ??? quote "See parameters"
@@ -344,14 +344,14 @@ Close the path of the advanced shape. This closes the outline between the last a
 
 ### Object conditions
 
-**Relative coordinates**
+**Relative coordinates**  
 Check if the coordinates of the shape painter is relative.
 
 ??? quote "See parameters"
 
     - Parameter 0 (👾 Object): Shape Painter object
 
-**Anti-aliasing type**
+**Anti-aliasing type**  
 Checks the selected type of anti-aliasing
 
 ??? quote "See parameters"
@@ -359,14 +359,14 @@ Checks the selected type of anti-aliasing
     - Parameter 0: 👾 Object
     - Parameter 1 (🔤 String): Type of anti-aliasing to check the object against (one of: "none", "low", "medium", "high")
 
-**Clear between frames**
+**Clear between frames**  
 Check if the rendered image is cleared between frames.
 
 ??? quote "See parameters"
 
     - Parameter 0 (👾 Object): Shape Painter object
 
-**Fill opacity**
+**Fill opacity**  
 Test the value of the opacity level used when filling.
 
 ??? quote "See parameters"
@@ -375,7 +375,7 @@ Test the value of the opacity level used when filling.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Opacity to compare to (0-255)
 
-**Outline opacity**
+**Outline opacity**  
 Test the opacity of the outline.
 
 ??? quote "See parameters"
@@ -384,7 +384,7 @@ Test the opacity of the outline.
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Opacity to compare to (0-255)
 
-**Outline size**
+**Outline size**  
 Test the size of the outline.
 
 ??? quote "See parameters"

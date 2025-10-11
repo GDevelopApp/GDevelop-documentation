@@ -14,7 +14,7 @@ When masked, the masked object is only visible through the mask.
 
 ## Actions
 
-**Mask an object with a sprite**
+**Mask an object with a sprite**  
 Define a sprite as a mask of an object.
 
 ??? quote "See parameters"
@@ -24,7 +24,7 @@ Define a sprite as a mask of an object.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Mask an object with a shape painter**
+**Mask an object with a shape painter**  
 Define a shape painter as a mask of an object.
 
 ??? quote "See parameters"
@@ -34,7 +34,7 @@ Define a shape painter as a mask of an object.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Remove the mask**
+**Remove the mask**  
 Remove the mask of the specified object.
 
 ??? quote "See parameters"

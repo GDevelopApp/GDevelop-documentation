@@ -22,7 +22,7 @@ An animated score counter with an icon and a customisable font.
 
 ### Object actions
 
-**Score**
+**Score**  
 Change the score of the object.
 
 ??? quote "See parameters"
@@ -35,7 +35,7 @@ Change the score of the object.
 
 ### Object conditions
 
-**Score**
+**Score**  
 Compare the score of the object.
 
 ??? quote "See parameters"

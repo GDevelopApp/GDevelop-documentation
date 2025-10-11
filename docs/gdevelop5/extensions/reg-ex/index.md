@@ -20,7 +20,7 @@ Conditions, actions and expressions to use regular expressions with strings, suc
 
 ## Actions
 
-**Find all matches for a regex pattern**
+**Find all matches for a regex pattern**  
 Builds an array containing all matches for a regex pattern.
 
 ??? quote "See parameters"
@@ -32,7 +32,7 @@ Builds an array containing all matches for a regex pattern.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Find all matches with their groups for a regex pattern**
+**Find all matches with their groups for a regex pattern**  
 Builds an array containing for each regex pattern match an array with the match followed by its regex groups.
 
 ??? quote "See parameters"
@@ -44,7 +44,7 @@ Builds an array containing for each regex pattern match an array with the match 
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Find first match with groups for a regex pattern**
+**Find first match with groups for a regex pattern**  
 Builds an array containing the first match for a regex pattern followed by the regex groups.
 
 ??? quote "See parameters"
@@ -56,7 +56,7 @@ Builds an array containing the first match for a regex pattern followed by the r
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Split a string into an array**
+**Split a string into an array**  
 Split a string by each part of it that matches a regex pattern and stores each part into an array.
 
 ??? quote "See parameters"
@@ -70,7 +70,7 @@ Split a string by each part of it that matches a regex pattern and stores each p
 
 ## Conditions
 
-**String matches regex pattern**
+**String matches regex pattern**  
 Checks if a string matches a regex pattern.
 
 ??? quote "See parameters"

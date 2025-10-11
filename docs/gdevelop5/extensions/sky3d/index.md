@@ -21,7 +21,7 @@ The color of the sky changes depending on the position of the sun: reddish at su
 
 ## Actions
 
-**Create sky**
+**Create sky**  
 Create sky and sun.
 
 ??? quote "See parameters"
@@ -37,7 +37,7 @@ Create sky and sun.
 
     > Technical note: parameters 0, 9 are internal parameters handled by GDevelop.
 
-**Set sky parameters**
+**Set sky parameters**  
 Set sky parameters.
 
 ??? quote "See parameters"

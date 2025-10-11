@@ -25,7 +25,7 @@ A rating system indicated by stars using the shape painter.
 
 ### Behavior actions
 
-**Set the rating**
+**Set the rating**  
 Sets the rating to a new value.
 
 ??? quote "See parameters"
@@ -36,7 +36,7 @@ Sets the rating to a new value.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Set total star count**
+**Set total star count**  
 Sets a new total stars count.
 
 ??? quote "See parameters"

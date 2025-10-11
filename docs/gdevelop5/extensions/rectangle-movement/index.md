@@ -28,7 +28,7 @@ This example can be used to test different settings ([open the project online](h
 
 ## Actions
 
-**Update rectangular movement to follow the border of an object**
+**Update rectangular movement to follow the border of an object**  
 Update rectangular movement to follow the border of an object. Run once, or every time the center object moves.
 
 ??? quote "See parameters"
@@ -40,7 +40,7 @@ Update rectangular movement to follow the border of an object. Run once, or ever
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
-**Move to the nearest corner of the center object**
+**Move to the nearest corner of the center object**  
 Move to the nearest corner of the center object.
 
 ??? quote "See parameters"
@@ -59,7 +59,7 @@ Move objects in a rectangular pattern.
 
 ### Behavior actions
 
-**Bottom bound**
+**Bottom bound**  
 Change the bottom bound of the rectangular movement.
 
 ??? quote "See parameters"
@@ -70,7 +70,7 @@ Change the bottom bound of the rectangular movement.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Clockwise**
+**Clockwise**  
 Change the direction to clockwise or counter-clockwise.
 
 ??? quote "See parameters"
@@ -81,7 +81,7 @@ Change the direction to clockwise or counter-clockwise.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Easing**
+**Easing**  
 Change the easing function of the movement.
 
 ??? quote "See parameters"
@@ -92,7 +92,7 @@ Change the easing function of the movement.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Horizontal edge duration**
+**Horizontal edge duration**  
 Change the time the object takes to go through a horizontal edge (in seconds).
 
 ??? quote "See parameters"
@@ -103,7 +103,7 @@ Change the time the object takes to go through a horizontal edge (in seconds).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Left bound**
+**Left bound**  
 Change the left bound of the rectangular movement.
 
 ??? quote "See parameters"
@@ -114,7 +114,7 @@ Change the left bound of the rectangular movement.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Right bound**
+**Right bound**  
 Change the right bound of the rectangular movement.
 
 ??? quote "See parameters"
@@ -125,7 +125,7 @@ Change the right bound of the rectangular movement.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Top bound**
+**Top bound**  
 Change the top bound of the rectangular movement.
 
 ??? quote "See parameters"
@@ -136,7 +136,7 @@ Change the top bound of the rectangular movement.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Vertical edge duration**
+**Vertical edge duration**  
 Change the time the object takes to go through a vertical edge (in seconds).
 
 ??? quote "See parameters"
@@ -147,7 +147,7 @@ Change the time the object takes to go through a vertical edge (in seconds).
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Teleport at a corner**
+**Teleport at a corner**  
 Teleport the object to a corner of the movement rectangle.
 
 ??? quote "See parameters"
@@ -158,7 +158,7 @@ Teleport the object to a corner of the movement rectangle.
 
     > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
-**Toggle direction**
+**Toggle direction**  
 Toggle the direction to clockwise or counter-clockwise.
 
 ??? quote "See parameters"
@@ -170,7 +170,7 @@ Toggle the direction to clockwise or counter-clockwise.
 
 ### Behavior conditions
 
-**Is moving clockwise**
+**Is moving clockwise**  
 Check if the object is moving clockwise.
 
 ??? quote "See parameters"
@@ -180,7 +180,7 @@ Check if the object is moving clockwise.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is moving down**
+**Is moving down**  
 Check if the object is moving down.
 
 ??? quote "See parameters"
@@ -190,7 +190,7 @@ Check if the object is moving down.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is moving left**
+**Is moving left**  
 Check if the object is moving to the left.
 
 ??? quote "See parameters"
@@ -200,7 +200,7 @@ Check if the object is moving to the left.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is moving right**
+**Is moving right**  
 Object is moving to the right.
 
 ??? quote "See parameters"
@@ -210,7 +210,7 @@ Object is moving to the right.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is moving up**
+**Is moving up**  
 Check if the object is moving up.
 
 ??? quote "See parameters"
@@ -220,7 +220,7 @@ Check if the object is moving up.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is on bottom**
+**Is on bottom**  
 Object is on the bottom side of the rectangle.
 
 ??? quote "See parameters"
@@ -230,7 +230,7 @@ Object is on the bottom side of the rectangle.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is on left**
+**Is on left**  
 Object is on the left side of the rectangle.
 
 ??? quote "See parameters"
@@ -240,7 +240,7 @@ Object is on the left side of the rectangle.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is on right**
+**Is on right**  
 Object is on the right side of the rectangle.
 
 ??? quote "See parameters"
@@ -250,7 +250,7 @@ Object is on the right side of the rectangle.
 
     > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
-**Is on top**
+**Is on top**  
 Object is on the top side of the rectangle.
 
 ??? quote "See parameters"

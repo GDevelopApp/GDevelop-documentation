@@ -19,7 +19,7 @@ YGameSDK.
 
 ## Actions
 
-**GetLang**
+**GetLang**  
 GetLang.
 
 ??? quote "See parameters"
@@ -28,7 +28,7 @@ GetLang.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**GetPlayerName**
+**GetPlayerName**  
 GetPlayerName.
 
 ??? quote "See parameters"
@@ -37,7 +37,7 @@ GetPlayerName.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**InitPayments**
+**InitPayments**  
 InitPayments.
 
 ??? quote "See parameters"
@@ -46,7 +46,7 @@ InitPayments.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**InitPlayer**
+**InitPlayer**  
 InitPlayer.
 
 ??? quote "See parameters"
@@ -55,7 +55,7 @@ InitPlayer.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**InitSDK**
+**InitSDK**  
 Init SDK.
 
 ??? quote "See parameters"
@@ -66,7 +66,7 @@ Init SDK.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
-**LoadLeaderboardByName**
+**LoadLeaderboardByName**  
 LoadLeaderboardByName.
 
 ??? quote "See parameters"
@@ -76,7 +76,7 @@ LoadLeaderboardByName.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**LoadPurchaseByID**
+**LoadPurchaseByID**  
 LoadPurchaseByID.
 
 ??? quote "See parameters"
@@ -86,7 +86,7 @@ LoadPurchaseByID.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**PurchaseByID**
+**PurchaseByID**  
 PurchaseByID.
 
 ??? quote "See parameters"
@@ -96,7 +96,7 @@ PurchaseByID.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**SetScoreLeaderboard**
+**SetScoreLeaderboard**  
 SetScoreLeaderboard.
 
 ??? quote "See parameters"
@@ -106,7 +106,7 @@ SetScoreLeaderboard.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**ShowBanner**
+**ShowBanner**  
 ShowBanner.
 
 ??? quote "See parameters"
@@ -115,7 +115,7 @@ ShowBanner.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**ShowVideo**
+**ShowVideo**  
 ShowVideo.
 
 ??? quote "See parameters"
@@ -126,7 +126,7 @@ ShowVideo.
 
 ## Conditions
 
-**IsInit**
+**IsInit**  
 IsInit SDK.
 
 ??? quote "See parameters"
@@ -135,7 +135,7 @@ IsInit SDK.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**IsInitLeaderboard**
+**IsInitLeaderboard**  
 IsInitLeaderboard.
 
 ??? quote "See parameters"
@@ -144,7 +144,7 @@ IsInitLeaderboard.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**IsInitPayments**
+**IsInitPayments**  
 IsInitPayments.
 
 ??? quote "See parameters"
@@ -153,7 +153,7 @@ IsInitPayments.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**IsInitPlayer**
+**IsInitPlayer**  
 IsInitPlayer.
 
 ??? quote "See parameters"
@@ -162,7 +162,7 @@ IsInitPlayer.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**IsVideoClosed**
+**IsVideoClosed**  
 IsVideoClosed.
 
 ??? quote "See parameters"
@@ -171,7 +171,7 @@ IsVideoClosed.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**IsVideoFailed**
+**IsVideoFailed**  
 IsVideoFailed.
 
 ??? quote "See parameters"
@@ -180,7 +180,7 @@ IsVideoFailed.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**IsVideoOpen**
+**IsVideoOpen**  
 IsVideoOpen.
 
 ??? quote "See parameters"
@@ -189,7 +189,7 @@ IsVideoOpen.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-**IsVideoRewarded**
+**IsVideoRewarded**  
 IsVideoRewarded.
 
 ??? quote "See parameters"

@@ -29,7 +29,7 @@ Make an object rain from a selected direction or a selected object.
 
 ## Actions
 
-**Make object rain**
+**Make object rain**  
 Make object rain from a selected direction.
 
 ??? quote "See parameters"
@@ -58,7 +58,7 @@ Make object rain from a selected direction.
 
     > Technical note: parameters 0, 13 are internal parameters handled by GDevelop.
 
-**Make it rain from object**
+**Make it rain from object**  
 Make object rain from another object.
 
 ??? quote "See parameters"
@@ -89,7 +89,7 @@ Make object rain from another object.
 
     > Technical note: parameters 0, 15 are internal parameters handled by GDevelop.
 
-**Pause raining object (rain)**
+**Pause raining object (rain)**  
 Pause raning object (rain).
 
 ??? quote "See parameters"
@@ -98,7 +98,7 @@ Pause raning object (rain).
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Pause raining from object (cloud)**
+**Pause raining from object (cloud)**  
 Pause raning from object (cloud).
 
 ??? quote "See parameters"
@@ -107,7 +107,7 @@ Pause raning from object (cloud).
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Rain collision animation**
+**Rain collision animation**  
 Change rain animation when it collides with other object.
 
 ??? quote "See parameters"
@@ -123,7 +123,7 @@ Change rain animation when it collides with other object.
 
     > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
 
-**Resume raining object (rain)**
+**Resume raining object (rain)**  
 Resume raining object.
 
 ??? quote "See parameters"
@@ -132,7 +132,7 @@ Resume raining object.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
-**Resume raining from object (cloud)**
+**Resume raining from object (cloud)**  
 Resume raining object from object.
 
 ??? quote "See parameters"
@@ -142,7 +142,7 @@ Resume raining object from object.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-**Stop moving rain**
+**Stop moving rain**  
 Could be used with collision condition.
 
 ??? quote "See parameters"
