@@ -1,5 +1,6 @@
 ---
 title: GDevelop for Education
+icon: material/human-male-board
 ---
 
 # GDevelop for Education

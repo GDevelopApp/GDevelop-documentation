@@ -1,5 +1,6 @@
 ---
 title: Events
+icon: material/lightning-bolt
 ---
 # Events
 

@@ -1,5 +1,6 @@
 ---
 title: Monetizing Your Games
+icon: material/currency-usd
 ---
 
 # Monetizing Your Games

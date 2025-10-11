@@ -1,5 +1,6 @@
 ---
 title: GDevelop community
+icon: material/account-group
 ---
 # GDevelop community
 
