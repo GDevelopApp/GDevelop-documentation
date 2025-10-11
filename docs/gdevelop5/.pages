@@ -1,16 +1,16 @@
 title: GDevelop 5
 nav:
   - index.md
-  - :material-rocket-launch: Getting Started: getting_started
-  - :material-view-dashboard: Interface: interface
-  - :material-cube-outline: Objects: objects
-  - :material-widgets: Behaviors: behaviors
-  - :material-lightning-bolt: Events: events
-  - :material-feature-search: All features: all-features
-  - :material-puzzle: Extensions: extensions
-  - :material-school: Tutorials and Guides: tutorials
-  - :material-publish: Publishing games: publishing
-  - :material-account-group: Community: community
-  - :material-account-multiple: Collaboration: collaboration
-  - :material-cash-multiple: Monetization: monetization
-  - :material-human-male-board: GDevelop for Education: education
+  - ":material-rocket-launch: Getting Started": getting_started
+  - ":material-view-dashboard: Interface": interface
+  - ":material-cube-outline: Objects": objects
+  - ":material-widgets: Behaviors": behaviors
+  - ":material-lightning-bolt: Events": events
+  - ":material-feature-search: All features": all-features
+  - ":material-puzzle: Extensions": extensions
+  - ":material-school: Tutorials and Guides": tutorials
+  - ":material-publish: Publishing games": publishing
+  - ":material-account-group: Community": community
+  - ":material-account-multiple: Collaboration": collaboration
+  - ":material-cash-multiple: Monetization": monetization
+  - ":material-human-male-board: GDevelop for Education": education
