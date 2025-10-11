@@ -44,6 +44,9 @@ jobs:
           # For non-Pull Requests, run in compressOnly mode and we'll PR after.
           compressOnly: ${{ github.event_name != 'pull_request' }}
           ignorePaths: 'docs/es/**,docs/de/**,docs/fr/**,docs/ru/**,docs/sl/**'
+          # Avoid progressive degradation of quality
+          pngQuality: '100'
+          minPctChange: '30'
       - name: Create Pull Request
         # If it's not a Pull Request then commit any changes as a new PR.
         if: |
