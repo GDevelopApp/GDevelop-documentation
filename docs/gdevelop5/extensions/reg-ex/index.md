@@ -20,22 +20,66 @@ Conditions, actions and expressions to use regular expressions with strings, suc
 
 ## Actions
 
-**Find all matches for a regex pattern**  
+**Find all matches for a regex pattern**
 Builds an array containing all matches for a regex pattern.
 
-**Find all matches with their groups for a regex pattern**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Pattern
+    - Parameter 2 (string): RegEx flags
+    - Parameter 3: string
+    - Parameter 4 (string): The name of the variable to store the result in
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Find all matches with their groups for a regex pattern**
 Builds an array containing for each regex pattern match an array with the match followed by its regex groups.
 
-**Find first match with groups for a regex pattern**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Pattern
+    - Parameter 2 (string): RegEx flags
+    - Parameter 3: string
+    - Parameter 4 (string): The name of the variable to store the result in
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Find first match with groups for a regex pattern**
 Builds an array containing the first match for a regex pattern followed by the regex groups.
 
-**Split a string into an array**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Pattern
+    - Parameter 2 (string): Flags
+    - Parameter 3: string
+    - Parameter 4 (string): Variable name
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Split a string into an array**
 Split a string by each part of it that matches a regex pattern and stores each part into an array.
+
+??? quote "See parameters"
+
+    - Parameter 1 (string): The pattern to split by
+    - Parameter 2 (string): RegEx flags
+    - Parameter 3 (string): The string to split by the pattern
+    - Parameter 4 (string): The name of the variable to store the result in
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**String matches regex pattern**  
+**String matches regex pattern**
 Checks if a string matches a regex pattern.
+
+??? quote "See parameters"
+
+    - Parameter 1 (string): The pattern to check for
+    - Parameter 2 (string): RegEx flags
+    - Parameter 3 (string): The string to check for a pattern
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
 ## Expressions
 

@@ -16,8 +16,15 @@ Find the list of cursors here: https://developer.mozilla.org/en-US/docs/Web/CSS/
 
 ## Actions
 
-**Cursor type**  
+**Cursor type**
 Change the type of the cursor.
+
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 String): The new cursor type
+      List of available cursors on https://developer.mozilla.org/en-US/docs/Web/CSS/cursor (one of: "auto", "default", "none", "context-menu", "help", "pointer", "progress", "wait", "cell", "crosshair", "text", "vertical-text", "alias", "copy", "move", "no-drop", "not-allowed", "grab", "grabbing", "all-scroll", "col-resize", "row-resize", "n-resize", "e-resize", "s-resize", "w-resize", "ne-resize", "nw-resize", "se-resize", "sw-resize", "ew-resize", "ns-resize", "nwse-resize", "zoom-in", "zoom-out")
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 
 

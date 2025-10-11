@@ -35,61 +35,180 @@ Conditions:
 
 ## Actions
 
-**Draw swipe gesture**  
+**Draw swipe gesture**
 Draw a line that indicates the current swipe gesture.  Edit "Outline Size" of the shape painter to adjust the thickness of the line.
 
-**Enable (or disable) swipe gesture detection**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Shape painter used to draw swipe
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Enable (or disable) swipe gesture detection**
 Enable (or disable) swipe gesture detection.
 
-**Layer used to detect swipe gestures**  
+??? quote "See parameters"
+
+    - Parameter 1 (❓ True or False): Enable swipe detection
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Layer used to detect swipe gestures**
 Change the Layer used to detect swipe gestures.
+
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔤 Layer name (String)): Value
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**Swipe angle (degrees)**  
+**Swipe angle (degrees)**
 Compare Swipe angle (degrees).
 
-**Swipe distance (pixels)**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Swipe distance (pixels)**
 Compare Swipe distance (pixels).
 
-**Swipe distance in horizontal direction (pixels)**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Swipe distance in horizontal direction (pixels)**
 Compare Swipe distance in horizontal direction (pixels).
 
-**Swipe distance in vertical direction (pixels)**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Swipe distance in vertical direction (pixels)**
 Compare Swipe distance in vertical direction (pixels).
 
-**Swipe duration (seconds)**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Swipe duration (seconds)**
 Compare Swipe duration (seconds).
 
-**End point of the swipe X position**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**End point of the swipe X position**
 Compare End point of the swipe X position.
 
-**End point of the swipe Y position**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**End point of the swipe Y position**
 Compare End point of the swipe Y position.
 
-**Swipe just ended**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Swipe just ended**
 Check if the swipe has just ended.
 
-**Is swipe detection enabled**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is swipe detection enabled**
 Check if swipe detection is enabled.
 
-**Swipe is in progress**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Swipe is in progress**
 Check if a swipe is currently in progress.
 
-**Layer used to detect swipe gestures**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Layer used to detect swipe gestures**
 Compare the Layer used to detect swipe gestures.
 
-**Start point of the swipe X position**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 Layer name (String)): Value to compare
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Start point of the swipe X position**
 Compare Start point of the swipe X position.
 
-**Start point of the swipe Y position**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Start point of the swipe Y position**
 Compare Start point of the swipe Y position.
 
-**Swipe moved in a direction (4-way movement)**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Swipe moved in a direction (4-way movement)**
 Check if swipe moved in a given direction.
 
-**Swipe moved in a direction (8-way movement)**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 String): Direction (one of: "Up", "Down", "Left", "Right")
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Swipe moved in a direction (8-way movement)**
 Check if swipe moved in a given direction.
+
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 String): Direction (one of: "Up", "Down", "Left", "Right", "UpLeft", "UpRight", "DownLeft", "DownRight")
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 ## Expressions
 

@@ -27,25 +27,69 @@ A scrollbar to help making a scroll view.
 
 ### Object actions
 
-**Content length**  
+**Content length**
 Change the content length of the object. The length of the content to scroll. The scroll bar don't actually scroll the content. You have to do it yourself with camera actions.
 
-**Scroll position**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Scroll position**
 Change the scroll position.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Object conditions
 
-**Content length**  
+**Content length**
 Compare the content length of the object. The length of the content to scroll. The scroll bar don't actually scroll the content. You have to do it yourself with camera actions.
 
-**Scrolling is required**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Scrolling is required**
 Check if the content is big enough to require scrolling.
 
-**Thumb is dragged**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Thumb is dragged**
 Check if the thumb of the scrollbar is dragged.
 
-**Scroll position**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Scroll position**
 Compare the scroll position.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Object expressions
 

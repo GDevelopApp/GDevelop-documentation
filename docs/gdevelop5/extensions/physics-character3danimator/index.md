@@ -22,13 +22,31 @@ Change animations of a 3D physics character automatically.
 
 ### Behavior actions
 
-**Rotation speed**  
+**Rotation speed**
 Change the rotation speed of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Rotation speed**  
+**Rotation speed**
 Compare the rotation speed of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

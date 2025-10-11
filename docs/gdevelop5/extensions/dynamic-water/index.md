@@ -33,50 +33,165 @@ Easily create a realistic liquid surface simulation.
 
 ### Behavior actions
 
-**Force application**  
+**Force application**
 Apply a force when an object collides with its surface.
 
-**Auto Wave**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Apply force
+    - Parameter 3 (👾 Object): Surface collision of the fluid
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Auto Wave**
 Enable automatic waves.
 
-**Show Columns**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): The water spring constant
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Show Columns**
 Show the different Column .
 
-**Springs Number**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): The water spring constant
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Springs Number**
 The number of springs controls the distance between the joints and the number of springs. (between 0 and the object width).  
 PS: Change the quality of the waves, the more columns the more they use the performance.
 
-**Damping(d)**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): The water spring constant
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Damping(d)**
 The spring dampenig value. (between 0 and 0.1).
 
-**Change Period**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): The water spring constant
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Change Period**
 Change Period.
 
-**Spread**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): The water spring constant
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Spread**
 The Spread value will dictate how much a wave oscillation will pass pnto their neighboors.(Between 0 and 0.1).
 
-**Surface Size**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): The water spring constant
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Surface Size**
 Change the size of the surface edge.
 
-**Tension(k)**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): The water spring constant
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Tension(k)**
 Greater values will pull the water with greater force. (between 0 and 0.1).
 
-**Wave horizontal direction**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): The water spring constant
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Wave horizontal direction**
 Change the direction of the waves.
 
-**Wave Length**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 String): The water spring constant (one of: "Right", "Left")
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Wave Length**
 Change the length of the waves.
 
-**Wave magnitude**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): The water spring constant
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Wave magnitude**
 Change the wave magnitude.
 
-**Components**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): The water spring constant
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Components**
 Component additions (Visual and Surface Collision).
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): Body display
+    - Parameter 3 (👾 Object): Object that will be used to detect the collision on the surface
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Surface collision**  
+**Surface collision**
 Test the collision between the object and the fluid surface.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): Define the (physical) object that can interact with the fluid
+    - Parameter 3 (👾 Object): Surface collision of the fluid
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

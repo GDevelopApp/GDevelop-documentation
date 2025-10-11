@@ -4,52 +4,136 @@ Actions, conditions and expressions to handle variables, from simple variables l
 
 ## Actions
 
-**Clear children**  
+**Clear children**
 Remove all the children from the structure or array variable.
 
-**Add value to array variable**  
+??? quote "See parameters"
+
+    - Parameter 0 (🗄️ Any variable): Structure or array variable
+
+**Add value to array variable**
 Adds a boolean at the end of an array variable.
 
-**Add value to array variable**  
+??? quote "See parameters"
+
+    - Parameter 0 (🗄️ Any variable): Array variable
+    - Parameter 1 (❓ True or False): Boolean to add
+
+**Add value to array variable**
 Adds a number at the end of an array variable.
 
-**Add value to array variable**  
+??? quote "See parameters"
+
+    - Parameter 0 (🗄️ Any variable): Array variable
+    - Parameter 1 (🔢 Number): Number to add
+
+**Add value to array variable**
 Adds a text (string) at the end of a array variable.
 
-**Add existing variable**  
+??? quote "See parameters"
+
+    - Parameter 0 (🗄️ Any variable): Array variable
+    - Parameter 1 (string): Text to add
+
+**Add existing variable**
 Adds an existing variable at the end of an array variable.
 
-**Remove variable by index**  
+??? quote "See parameters"
+
+    - Parameter 0 (🗄️ Any variable): Array variable
+    - Parameter 1 (🗄️ Any variable): Variable with the content to add
+      The content of the variable will *be copied* and added at the end of the array.
+
+**Remove variable by index**
 Removes a variable at the specified index of an array variable.
 
-**Remove a child**  
+??? quote "See parameters"
+
+    - Parameter 0 (🗄️ Any variable): Array variable
+    - Parameter 1 (🔢 Number): Index to remove
+
+**Remove a child**
 Remove a child from a structure variable.
 
-**Change variable value**  
+??? quote "See parameters"
+
+    - Parameter 0 (🗄️ Any variable): Structure variable
+    - Parameter 1 (string): Child's name
+
+**Change variable value**
 Modify the boolean value of a variable.
 
-**Change variable value**  
+??? quote "See parameters"
+
+    - Parameter 0 (variableOrProperty): Variable
+    - Parameter 1: 🟰 Operator
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Change variable value**
 Modify the number value of a variable.
 
-**Change variable value**  
+??? quote "See parameters"
+
+    - Parameter 0 (variableOrProperty): Variable
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+**Change variable value**
 Modify the text (string) of a variable.
+
+??? quote "See parameters"
+
+    - Parameter 0 (variableOrProperty): Variable
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (string): Value
 
 ## Conditions
 
-**Variable value**  
+**Variable value**
 Compare the boolean value of a variable.
 
-**Variable value**  
+??? quote "See parameters"
+
+    - Parameter 0 (variableOrPropertyOrParameter): Variable
+    - Parameter 1 (❓ True or False): Check if the value is
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Variable value**
 Compare the number value of a variable.
 
-**Variable value**  
+??? quote "See parameters"
+
+    - Parameter 0 (variableOrPropertyOrParameter): Variable
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+**Variable value**
 Compare the text (string) of a variable.
 
-**Number of children**  
+??? quote "See parameters"
+
+    - Parameter 0 (variableOrPropertyOrParameter): Variable
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+
+**Number of children**
 Compare the number of children in an array variable.
 
-**Child existence**  
+??? quote "See parameters"
+
+    - Parameter 0 (🗄️ Any variable): Array variable
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+**Child existence**
 Check if the specified child of the structure variable exists.
+
+??? quote "See parameters"
+
+    - Parameter 0: 🗄️ Any variable
+    - Parameter 1 (string): Name of the child
 
 ## Expressions
 

@@ -27,11 +27,49 @@ The target angle action can be used to follow hte direction of a gamepad stick
 
 ## Actions
 
-**Point and Orbit toward a position**  
+**Point and Orbit toward a position**
 Point and Orbit an object toward a position.
 
-**Point and Orbit toward an angle**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Gun object
+      The object that is going to orbit and rotate.
+    - Parameter 2 (🔢 Number): Orbit around this X position
+      Gun object will orbit around this X position.
+    - Parameter 3 (🔢 Number): Orbit around this Y position
+      Gun object will orbit around this Y position.
+    - Parameter 4 (🔢 Number): Orbit distance (in pixels)
+      Distance between the Gun object and the Orbit positions X and Y.  
+      Example: 50 .
+    - Parameter 5 (🔢 Number): Point to this X position
+      Point the gun object to this Xposition.
+    - Parameter 6 (🔢 Number): Point to this Y position
+      Point the gun object to this Yposition.
+    - Parameter 7 (🔢 Number): Pointing speed (in deg/second)
+      Set to 0 for an immediate pointing.
+
+    > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
+
+**Point and Orbit toward an angle**
 Point and Orbit an object toward an angle.
+
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Gun object
+      The object that is going to orbit and rotate.
+    - Parameter 2 (🔢 Number): Orbit around this X position
+      Gun object will orbit around this X position.
+    - Parameter 3 (🔢 Number): Orbit around this Y position
+      Gun object will orbit around this Y position.
+    - Parameter 4 (🔢 Number): Orbit distance (in pixels)
+      Distance between the Gun object and the Orbit positions X and Y.  
+      Example: 50 .
+    - Parameter 5 (🔢 Number): Angle
+      Point the gun object to this angle
+    - Parameter 6 (🔢 Number): Pointing speed (in deg/second)
+      Set to 0 for an immediate pointing.
+
+    > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
 
 

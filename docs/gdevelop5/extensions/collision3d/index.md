@@ -19,20 +19,57 @@ Check collision and distance between 3D objects and separate them from each othe
 
 ## Actions
 
-**Separate objects in 3D**  
+**Separate objects in 3D**
 Move an object away from another using their collision masks. Object rotation around X and Y axes are ignored.  
 Be sure to call this action on a reasonable number of objects to avoid slowing down the game.
 
+??? quote "See parameters"
+
+    - Parameter 1: 👾 Object
+    - Parameter 2 (🧩 Behavior): 3D capability
+    - Parameter 3 (👾 Object): Objects (won't move)
+    - Parameter 4 (🧩 Behavior): 3D capability
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
 ## Conditions
 
-**Collision in 3D**  
+**Collision in 3D**
 Check the collision between two objects using their collision masks. Object rotation around X and Y axes are ignored.
 
-**Distance between two objects in 3D**  
+??? quote "See parameters"
+
+    - Parameter 1: 👾 Object
+    - Parameter 2 (🧩 Behavior): 3D capability
+    - Parameter 3 (👾 Object): Other object
+    - Parameter 4 (🧩 Behavior): 3D capability
+    - Parameter 5 (❓ Yes or No): Ignore objects that are touching each other on their edges, but are not overlapping (default: no)
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Distance between two objects in 3D**
 Compare the distance between two objects in 3D.
 
-**Pick nearest object in 3D**  
+??? quote "See parameters"
+
+    - Parameter 1: 👾 Object
+    - Parameter 2 (👾 Object): Other object
+    - Parameter 3 (🔢 Number): Distance
+    - Parameter 4 (❓ Yes or No): Use custom center
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Pick nearest object in 3D**
 Pick the object of this type that is nearest to the specified position in 3D.
+
+??? quote "See parameters"
+
+    - Parameter 1: 👾 Object
+    - Parameter 2 (🔢 Number): X position
+    - Parameter 3 (🔢 Number): Y position
+    - Parameter 4 (🔢 Number): Z position
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
 ## Expressions
 

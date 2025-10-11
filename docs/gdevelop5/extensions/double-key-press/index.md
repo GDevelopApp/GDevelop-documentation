@@ -25,14 +25,34 @@ Any key double pressed
 
 ## Conditions
 
-**Key double pressed**  
+**Key double pressed**
 Check if a specific key was double pressed.
 
-**Key double pressed (any key)**  
+??? quote "See parameters"
+
+    - Parameter 1 (key): Which key should it work on?
+    - Parameter 2 (🔢 Number): Time window for the double tap (in seconds)
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Key double pressed (any key)**
 Check if any key was double pressed.
 
-**Key double pressed (text expression)**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Time window for the double tap (in seconds)
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Key double pressed (text expression)**
 Check if a specific key was double pressed using a text expression.
+
+??? quote "See parameters"
+
+    - Parameter 1 (string): Which key should it work on?
+    - Parameter 2 (🔢 Number): Time window for the double tap (in seconds)
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
 
 

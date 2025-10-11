@@ -26,25 +26,88 @@ For instance, it can be helpful for grid-based games like:
 
 ## Actions
 
-**Link to neighbors on a hexagonal grid**  
+**Link to neighbors on a hexagonal grid**
 Link to neighbors on a hexagonal grid.
 
-**Link to neighbors on an isometric grid**  
+??? quote "See parameters"
+
+    - Parameter 1: 👾 Object
+    - Parameter 2 (👾 Object): Neighbor
+      The 2 objects can't be the same.
+    - Parameter 3 (🔢 Number): Cell width
+    - Parameter 4 (🔢 Number): Cell height
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Link to neighbors on an isometric grid**
 Link to neighbors on an isometric grid.
 
-**Link to neighbors on a rectangular grid**  
+??? quote "See parameters"
+
+    - Parameter 1: 👾 Object
+    - Parameter 2 (👾 Object): Neighbor
+      The 2 objects can't be the same.
+    - Parameter 3 (🔢 Number): Cell width
+    - Parameter 4 (🔢 Number): Cell height
+    - Parameter 5 (❓ Yes or No): Allows diagonals
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Link to neighbors on a rectangular grid**
 Link to neighbors on a rectangular grid.
+
+??? quote "See parameters"
+
+    - Parameter 1: 👾 Object
+    - Parameter 2 (👾 Object): Neighbor
+      The 2 objects can't be the same.
+    - Parameter 3 (🔢 Number): Cell width
+    - Parameter 4 (🔢 Number): Cell height
+    - Parameter 5 (❓ Yes or No): Allows diagonals
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**Can reach**  
+**Can reach**
 Can reach through links.
 
-**Can reach with links limited by length**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Pick these objects...
+    - Parameter 2 (👾 Object): if they can reach this object
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Can reach with links limited by length**
 Can reach through a given number of links.
 
-**Can reach with links limited by cost**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Pick these objects...
+    - Parameter 2 (👾 Object): if they can reach this object
+    - Parameter 3 (🔢 Number): Maximum link length
+    - Parameter 4 (string): Cost class
+      Leave empty to make everything crossable with cost = 1. It looks in the variable children of linktools_Cost. No child means not crossable, the cost can be 0 or 1.
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Can reach with links limited by cost**
 Can reach through a given cost sum.
+
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Pick these objects...
+    - Parameter 2 (👾 Object): if they can reach this object
+    - Parameter 3 (string): Initial length variable
+      Start to 0 if left empty
+    - Parameter 4 (🔢 Number): Maximum cost
+    - Parameter 5 (string): Cost class
+      Leave empty to make everything crossable with cost = 1. It looks in the variable children of linktools_Cost. No child means not crossable, the cost must be positive.
+    - Parameter 6 (🔢 Number): Maximum depth
+    - Parameter 7 (❓ Yes or No): Ignore first node cost
+
+    > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
 
 ## Expressions
 
@@ -59,55 +122,187 @@ The object will move from one object instance to another according to how they a
 
 ### Behavior actions
 
-**Forget the path**  
+**Forget the path**
 Forget the path.
 
-**Move to a position**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Move to a position**
 Move the object to a position.
 
-**Acceleration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): Crossable objects
+    - Parameter 3 (👾 Object): Destination objects
+    - Parameter 4 (string): Cost class
+
+    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+
+**Acceleration**
 Change the acceleration of the object.
 
-**Angle offset**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Angle offset**
 Change the rotation offset applied when moving the object.
 
-**Rotate the object**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Rotate the object**
 Enable or disable rotation of the object on the path.
 
-**Rotation speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): Rotate
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Rotation speed**
 Change the rotation speed of the object.
 
-**Maximum speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Maximum speed**
 Change the maximum speed of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Acceleration**  
+**Acceleration**
 Compare the acceleration of the object.
 
-**Angle offset**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Angle offset**
 Compare the rotation offset applied when moving the object.
 
-**Destination reached**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Destination reached**
 Check if the destination was reached.
 
-**Is at a node**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is at a node**
 Check if the object position is the on a path node.
 
-**Is moving**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is moving**
 Check if the object is moving.
 
-**Path found**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Path found**
 Check if a path has been found.
 
-**Object rotated**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Object rotated**
 Check if the object is rotated when traveling on its path.
 
-**Rotation speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Rotation speed**
 Compare the rotation speed of the object.
 
-**Maximum speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Maximum speed**
 Compare the maximum speed of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

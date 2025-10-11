@@ -20,22 +20,60 @@ Flip a Sprite with a 3D effect.
 
 ### Behavior actions
 
-**Flip the object**  
+**Flip the object**
 Start a flipping animation on the object. The X origin point must be set at the object center.
 
-**Flip to a side**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Duration (in seconds)
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Flip to a side**
 Flips the object to one specific side. The X origin point must be set at the object center.
 
-**Jump to flipping end**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): Reverse side
+    - Parameter 3 (🔢 Number): Duration (in seconds)
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Jump to flipping end**
 Jump to the end of the flipping animation.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Is flipped**  
+**Is flipped**
 Checks if the object is flipped or will be flipped.
 
-**Flipping is playing**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Flipping is playing**
 Checks if a flipping animation is currently playing.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 _No expressions for this behavior._
 

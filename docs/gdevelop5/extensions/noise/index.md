@@ -29,35 +29,102 @@ Version 2.0.0 compatibility break:
 
 ## Actions
 
-**Create a noise generator**  
+**Create a noise generator**
 Create a noise generator with default settings (frequency = 1,  octaves = 1, persistence = 0.5, lacunarity = 2).
 
-**Delete a noise generator**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Generator name
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Delete a noise generator**
 Delete a noise generators and loose its settings.
 
-**Delete all noise generators**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Generator name
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Delete all noise generators**
 Delete all noise generators and loose their settings.
 
-**Noise base frequency**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Noise base frequency**
 Change the base frequency used for noise generation. A lower frequency will zoom in the noise.
 
-**Noise lacunarity**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Frequency
+    - Parameter 2 (string): Generator name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Noise lacunarity**
 Change the lacunarity used for noise generation. At its default value "2", it doubles the frequency at each octave.
 
-**Noise looping period on X**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Lacunarity
+    - Parameter 2 (string): Generator name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Noise looping period on X**
 Change the looping period on X used for noise generation. The noise will wrap-around on X.
 
-**Noise looping period on Y**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Looping period on X
+    - Parameter 2 (string): Generator name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Noise looping period on Y**
 Change the looping period on Y used for noise generation. The noise will wrap-around on Y.
 
-**Noise octaves**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Looping period on Y
+    - Parameter 2 (string): Generator name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Noise octaves**
 Change the number of octaves used for noise generation. It can be seen as layers of noise with different zoom.
 
-**Noise persistence**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Octaves
+    - Parameter 2 (string): Generator name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Noise persistence**
 Change the persistence used for noise generation. At its default value "0.5", it halves the noise amplitude at each octave.
 
-**Noise seed**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Persistence
+    - Parameter 2 (string): Generator name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Noise seed**
 The seed is a number used to generate the random noise. Setting the same seed will result in the same random noise generation. It's for example useful to generate the same world, by saving this seed value and reusing it later to generate again a world.
+
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Seed
+      15 digits numbers maximum
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 ## Expressions
 

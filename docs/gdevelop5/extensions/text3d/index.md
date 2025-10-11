@@ -25,115 +25,388 @@ A text in 3D.
 
 ### Object actions
 
-**Bold**  
+**Bold**
 De/activate bold.
 
-**Color**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1 (❓ Yes or No): Bold
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Color**
 Change the color of the text.
 
-**Font**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (string): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Font**
 Change the font of the text.
 
-**Font size**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (string): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Font size**
 Change the font size of a text object.
 
-**Italic**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Italic**
 De/activate italic.
 
-**Line spacing**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1 (❓ Yes or No): Italic
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Line spacing**
 Change the line spacing of the object.
 
-**Outline color**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Outline color**
 Change the outline color of the text.
 
-**Enable outline**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (string): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Enable outline**
 Enable or disable the outline of the text.
 
-**Outline thickness**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1 (❓ Yes or No): Enable outline
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Outline thickness**
 Change the outline thickness of the text.
 
-**Shadow angle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Shadow angle**
 Change the shadow angle of the text.
 
-**Shadow blur radius**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Shadow blur radius**
 Change the shadow blur radius of the text.
 
-**Shadow color**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Shadow color**
 Change the shadow color of the text.
 
-**Shadow distance**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (string): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Shadow distance**
 Change the shadow distance of the text.
 
-**Enable shadow**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Enable shadow**
 Enable or disable the shadow of the text.
 
-**Shadow opacity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1 (❓ Yes or No): Show the shadow
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Shadow opacity**
 Change the shadow opacity of the text.
 
-**Alignment**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Alignment**
 Change the text alignment of a multiline text object.
 
-**Wrapping**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔤 String): Value (one of: "left", "center", "right")
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Wrapping**
 De/activate word wrapping. Note that word wrapping is a graphical option, you can't get the number of lines displayed.
 
-**Wrapping width**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1 (❓ Yes or No): Enable outline
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Wrapping width**
 Change the word wrapping width of a Text object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Object conditions
 
-**Color**  
+**Color**
 Compare the color of the text.
 
-**Font**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Font**
 Compare the font of the text.
 
-**Font size**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Font size**
 Compare the font size of a text object.
 
-**Bold**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Bold**
 Check if the boldstyle is activated.
 
-**Italic**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Italic**
 Check if the italic style is activated.
 
-**Outline enabled**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Outline enabled**
 Check if the text outline is enabled.
 
-**Shadow enabled**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Shadow enabled**
 Check if the text shadowis enabled.
 
-**Wrapping**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Wrapping**
 Check if the word wrapping style of an object is set.
 
-**Line spacing**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Line spacing**
 Compare the line spacing of the object.
 
-**Outline color**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Outline color**
 Compare the outline color of the text.
 
-**Outline thickness**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Outline thickness**
 Compare the outline thickness of the text.
 
-**Shadow angle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Shadow angle**
 Compare the shadow angle of the text.
 
-**Shadow blur radius**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Shadow blur radius**
 Compare the shadow blur radius of the text.
 
-**Shadow color**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Shadow color**
 Compare the shadow color of the text.
 
-**Shadow distance**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Shadow distance**
 Compare the shadow distance of the text.
 
-**Shadow opacity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Shadow opacity**
 Compare the shadow opacity of the text.
 
-**Alignment**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Alignment**
 Compare the text alignment of a multiline text object.
 
-**Wrapping width**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare (one of: "left", "center", "right")
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Wrapping width**
 Compare the word wrapping width of a Text object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Object expressions
 

@@ -36,25 +36,79 @@ Change the animation of buttons according to their state.
 
 ### Behavior actions
 
-**Focused state animation name**  
+**Focused state animation name**
 Change the focused state animation name of the object. The state is Focused when the button is hovered or held outside.
 
-**Idle state animation name**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (string): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Idle state animation name**
 Change the idle state animation name of the object.
 
-**Pressed state animation name**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (string): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Pressed state animation name**
 Change the pressed state animation name of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (string): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Focused state animation name**  
+**Focused state animation name**
 Compare the focused state animation name of the object. The state is Focused when the button is hovered or held outside.
 
-**Idle state animation name**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (string): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Idle state animation name**
 Compare the idle state animation name of the object.
 
-**Pressed state animation name**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (string): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Pressed state animation name**
 Compare the pressed state animation name of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (string): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 
@@ -70,49 +124,175 @@ Smoothly change the color tint of buttons according to their state.
 
 ### Behavior actions
 
-**Fade-in duration**  
+**Fade-in duration**
 Change the fade-in duration of the object.
 
-**Fade-in easing**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Fade-in easing**
 Change the fade-in easing of the object.
 
-**Fade-out duration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔤 String): Value (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Fade-out duration**
 Change the fade-out duration of the object.
 
-**Fade-out easing**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Fade-out easing**
 Change the fade-out easing of the object.
 
-**Focused state color tint**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔤 String): Value (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Focused state color tint**
 Change the focused state color tint of the object. The state is Focused when the button is hovered or held outside.
 
-**Idle state color tint**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (color): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Idle state color tint**
 Change the idle state color tint of the object.
 
-**Pressed state color tint**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (color): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Pressed state color tint**
 Change the pressed state color tint of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (color): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Fade-in duration**  
+**Fade-in duration**
 Compare the fade-in duration of the object.
 
-**Fade-in easing**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Fade-in easing**
 Compare the fade-in easing of the object.
 
-**Fade-out duration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔤 String): Value to compare (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Fade-out duration**
 Compare the fade-out duration of the object.
 
-**Fade-out easing**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Fade-out easing**
 Compare the fade-out easing of the object.
 
-**Focused state color tint**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔤 String): Value to compare (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Focused state color tint**
 Compare the focused state color tint of the object. The state is Focused when the button is hovered or held outside.
 
-**Idle state color tint**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (color): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Idle state color tint**
 Compare the idle state color tint of the object.
 
-**Pressed state color tint**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (color): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Pressed state color tint**
 Compare the pressed state color tint of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (color): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 
@@ -132,26 +312,77 @@ Use objects as buttons.
 
 ### Behavior conditions
 
-**Is clicked**  
+**Is clicked**
 Check if the button was just clicked.
 
-**Is focused**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is focused**
 Check if the button is either hovered or pressed but not hovered.
 
-**Is hovered**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is hovered**
 Check if the cursor is hovered over the button.
 
-**Is idle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is idle**
 Check if the button is not used.
 
-**Is pressed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is pressed**
 Check if the button is currently being pressed with mouse or touch.
 
-**Is held outside**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is held outside**
 Check if the button is currently being pressed outside with mouse or touch.
 
-**Touch id**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Touch id**
 Compare the touch id that is using the button or 0 if none.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 
@@ -165,58 +396,211 @@ Smoothly change an effect on buttons according to their state.
 
 ### Behavior actions
 
-**Effect parameter**  
+**Effect parameter**
 Change the effect parameter of the object. The effect parameter names can be found in the effects tab with the "Show parameter names" action of the drop down menu.
 
-**Fade-in duration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (string): Effect name
+    - Parameter 3 (string): Parameter name
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Fade-in duration**
 Change the fade-in duration of the object.
 
-**Fade-in easing**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Fade-in easing**
 Change the fade-in easing of the object.
 
-**Fade-out duration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔤 String): Value (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Fade-out duration**
 Change the fade-out duration of the object.
 
-**Fade-out easing**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Fade-out easing**
 Change the fade-out easing of the object.
 
-**Focused effect parameter value**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔤 String): Value (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Focused effect parameter value**
 Change the focused effect parameter value of the object. The state is Focused when the button is hovered or held outside.
 
-**Idle effect parameter value**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Idle effect parameter value**
 Change the idle effect parameter value of the object.
 
-**Pressed effect parameter value**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Pressed effect parameter value**
 Change the pressed effect parameter value of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Effect name**  
+**Effect name**
 Compare the effect name of the object.
 
-**Effect parameter**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (string): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Effect parameter**
 Compare the effect parameter of the object. The effect parameter names can be found in the effects tab with the "Show parameter names" action of the drop down menu.
 
-**Fade-in duration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (string): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Fade-in duration**
 Compare the fade-in duration of the object.
 
-**Fade-in easing**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Fade-in easing**
 Compare the fade-in easing of the object.
 
-**Fade-out duration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔤 String): Value to compare (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Fade-out duration**
 Compare the fade-out duration of the object.
 
-**Fade-out easing**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Fade-out easing**
 Compare the fade-out easing of the object.
 
-**Focused effect parameter value**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔤 String): Value to compare (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Focused effect parameter value**
 Compare the focused effect parameter value of the object. The state is Focused when the button is hovered or held outside.
 
-**Idle effect parameter value**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Idle effect parameter value**
 Compare the idle effect parameter value of the object.
 
-**Pressed effect parameter value**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Pressed effect parameter value**
 Compare the pressed effect parameter value of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 
@@ -238,25 +622,79 @@ Enable effects on buttons based on their state.
 
 ### Behavior actions
 
-**Focused state effect**  
+**Focused state effect**
 Change the focused state effect of the object. The state is Focused when the button is hovered or held outside.
 
-**Idle state effect**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (string): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Idle state effect**
 Change the idle state effect of the object.
 
-**Pressed state effect**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (string): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Pressed state effect**
 Change the pressed state effect of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (string): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Focused state effect**  
+**Focused state effect**
 Compare the focused state effect of the object. The state is Focused when the button is hovered or held outside.
 
-**Idle state effect**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (string): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Idle state effect**
 Compare the idle state effect of the object.
 
-**Pressed state effect**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (string): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Pressed state effect**
 Compare the pressed state effect of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (string): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 
@@ -272,49 +710,175 @@ Smoothly resize buttons according to their state.
 
 ### Behavior actions
 
-**Fade-in duration**  
+**Fade-in duration**
 Change the fade-in duration of the object.
 
-**Fade-in easing**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Fade-in easing**
 Change the fade-in easing of the object.
 
-**Fade-out duration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔤 String): Value (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Fade-out duration**
 Change the fade-out duration of the object.
 
-**Fade-out easing**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Fade-out easing**
 Change the fade-out easing of the object.
 
-**Focused state size scale**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔤 String): Value (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Focused state size scale**
 Change the focused state size scale of the object. The state is Focused when the button is hovered or held outside.
 
-**Idle state size scale**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Idle state size scale**
 Change the idle state size scale of the object.
 
-**Pressed state size scale**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Pressed state size scale**
 Change the pressed state size scale of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Fade-in duration**  
+**Fade-in duration**
 Compare the fade-in duration of the object.
 
-**Fade-in easing**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Fade-in easing**
 Compare the fade-in easing of the object.
 
-**Fade-out duration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔤 String): Value to compare (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Fade-out duration**
 Compare the fade-out duration of the object.
 
-**Fade-out easing**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Fade-out easing**
 Compare the fade-out easing of the object.
 
-**Focused state size scale**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔤 String): Value to compare (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Focused state size scale**
 Compare the focused state size scale of the object. The state is Focused when the button is hovered or held outside.
 
-**Idle state size scale**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Idle state size scale**
 Compare the idle state size scale of the object.
 
-**Pressed state size scale**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Pressed state size scale**
 Compare the pressed state size scale of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

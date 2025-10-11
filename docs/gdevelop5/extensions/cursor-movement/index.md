@@ -17,11 +17,23 @@ Provides two conditions:
 
 ## Conditions
 
-**Cursor is moving**  
+**Cursor is moving**
 Check if the cursor is moving on the default layer.
 
-**Cursor stays still**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Cursor stays still**
 Check if the cursor has stayed still for the specified time on the default layer.
+
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Duration (in seconds)
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 
 

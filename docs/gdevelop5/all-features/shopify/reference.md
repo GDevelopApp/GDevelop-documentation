@@ -4,11 +4,31 @@ Interact with products and generate URLs for checkouts with your Shopify shop. [
 
 ## Actions
 
-**Initialize a shop**  
+**Initialize a shop**
 Initialize a shop with your credentials. Call this action first, and then use the shop name in the other actions to interact with products.
 
-**Get the URL for buying a product**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Shop name
+    - Parameter 2 (string): Domain (xxx.myshopify.com)
+    - Parameter 3 (string): App Id
+    - Parameter 4 (string): Access Token
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Get the URL for buying a product**
 Get the URL for buying a product from a shop. The URL will be stored in the scene variable that you specify. You can then use the action to open an URL to redirect the player to the checkout.
+
+??? quote "See parameters"
+
+    - Parameter 1 (string): Shop name (initialized with "Initialize a shop" action)
+    - Parameter 2 (string): Product id
+    - Parameter 3 (🔢 Number): Quantity
+    - Parameter 4 (🔢 Number): Variant (0 by default)
+    - Parameter 5 (🗄️ Scene variable): Scene variable where the URL for checkout must be stored
+    - Parameter 6 (🗄️ Scene variable): Scene variable containing the error (if any)
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
 
 

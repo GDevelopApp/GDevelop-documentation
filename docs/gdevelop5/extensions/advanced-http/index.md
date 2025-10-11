@@ -14,77 +14,244 @@ An extension to create HTTP requests with more advanced settings than the built-
 
 ## Actions
 
-**Copy a request template**  
+**Copy a request template**
 Creates a new request template with all the attributes from an existing one.
 
-**Create a new request template**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): New request template name
+    - Parameter 2 (🔤 Name (String)): Request to copy
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Create a new request template**
 Creates a template for your request. All requests must be made from a request template.
 
-**Execute the request**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): New request template name
+    - Parameter 2 (🔤 Name (String)): URL the request will be sent to
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Execute the request**
 Executes the request defined by a request template.
 
-**Get response body (JSON)**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Request to execute
+    - Parameter 2 (🗄️ Scene variable): Variable where to store the response to the request
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Get response body (JSON)**
 Reads the body sent by the server, parses it as JSON and stores the resulting structure in a variable.
 
-**Get response body (text)**  
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Scene variable): Variable containing the response
+    - Parameter 2 (🗄️ Scene variable): Variable where to write the body contents into
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Get response body (text)**
 Reads the body sent by the server, and store it as a string in a variable.
 
-**Body as form data**  
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Scene variable): Variable containing the response
+    - Parameter 2 (🗄️ Scene variable): Variable where to write the body contents into
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Body as form data**
 Sets the body of an HTTP request to a form data representation of a structure variable.
 
-**Body as JSON**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Request template name
+    - Parameter 2 (🗄️ Scene variable): Variable with body contents
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Body as JSON**
 Sets the body of an HTTP request to a JSON representation of a structure variable.
 
-**Body**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Request template name
+    - Parameter 2 (🗄️ Scene variable): Variable with body contents
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Body**
 Change the body of the HTTP request. Contains data to send to the server, ususally in plain text, JSON or FormData format. This cannot be set for GET requests.
 
-**HTTP Caching strategy**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (string): Value
+    - Parameter 3 (🔤 Name (String)): Request template name
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**HTTP Caching strategy**
 Defines to what extent the results of the request is can/must be cached. When cached, instead of sending a request to the server, the browser will avoid making a real request to the server and will use a previous response given by the server for the same request.  
 
 The server also has a say in this via the Cache-Control header.
 
-**Header**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Request template name
+    - Parameter 2 (🔤 String): HTTP Caching strategy
+      Learn more about what each caching strategy does [on the MDN page for cache](https://developer.mozilla.org/en-US/docs/Web/API/Request/cache). (one of: "default", "no-store", "reload", "no-cache", "force-cache", "only-if-cached")
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Header**
 Change an HTTP header to be sent with the request.
 
-**HTTP Method (Verb)**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (string): Value
+    - Parameter 3 (🔤 Name (String)): Request template name
+    - Parameter 4 (🔤 Name (String)): HTTP header name
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**HTTP Method (Verb)**
 The HTTP method of the request. GET is the default and what you should use if you are unsure which to pick. A request to a REST API endpoint may have a different effect depending on the method - refer to the documentation of the API you are calling to learn about the appropriate method to use.
 
-**URL**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Request template name
+    - Parameter 2 (🔤 String): HTTP Method (one of: "GET", "POST", "PUT", "PATCH", "DELETE", "HEAD", "TRACE", "CONNECT", "OPTIONS")
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**URL**
 Change the request template's target URL.
 
-**Enable CORS Bypass**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔤 Name (String)): Value
+    - Parameter 3 (🔤 Name (String)): Request template name
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Enable CORS Bypass**
 CORS prevents most external websites from being queried with the browser's HTTP client, since the browser may be authenticated on that website and as such another website would be able to impersonate the player on that other website.  
 
 When the CORS Bypass is enabled, the request will be made from a server that is not authenticated anywhere and as such is not blocked by CORS, and it will share the response with your game. Note that as such, authentication cookies are ignored! If you own the REST API you are requesting, add CORS headers to your server instead of using this CORS Bypass.
 
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Request template name
+    - Parameter 2 (❓ Yes or No): Enable the CORS Bypass?
+      The CORS Bypass server is offered for free by [arthuro555](https://twitter.com/arthuro555). Consider making a [donation](https://ko-fi.com/arthuro555) to help keep the CORS Bypass server running.
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
 ## Conditions
 
-**CORS Bypass enabled**  
+**CORS Bypass enabled**
 Checks whether or not CORS Bypass has been enabled for the request template.
 
-**Body**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Request template name
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Body**
 Compare the body of the HTTP request. Contains data to send to the server, ususally in plain text, JSON or FormData format. This cannot be set for GET requests.
 
-**HTTP Caching**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+    - Parameter 3 (🔤 Name (String)): Request template name
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**HTTP Caching**
 Compare the HTTP method of the request. GET is the default and what you should use if you are unsure which to pick. A request to a REST API endpoint may have a different effect depending on the method - refer to the documentation of the API you are calling to learn about the appropriate method to use.
 
-**Header**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare (one of: "default", "reload", "no-cache", "force-cache", "only-if-cached")
+    - Parameter 3 (🔤 Name (String)): Request template name
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Header**
 Compare an HTTP header to be sent with the request.
 
-**HTTP Method (Verb)**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+    - Parameter 3 (🔤 Name (String)): Request template name
+    - Parameter 4 (🔤 Name (String)): HTTP header name
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**HTTP Method (Verb)**
 Compare the HTTP method of the request. GET is the default and what you should use if you are unsure which to pick. A request to a REST API endpoint may have a different effect depending on the method - refer to the documentation of the API you are calling to learn about the appropriate method to use.
 
-**URL**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare (one of: "GET", "HEAD", "POST", "PUT", "OPTIONS", "CONNECT", "TRACE")
+    - Parameter 3 (🔤 Name (String)): Request template name
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**URL**
 Compare the request template's target URL.
 
-**Header**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 Name (String)): Value to compare
+    - Parameter 3 (🔤 Name (String)): Request template name
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Header**
 Compare one of the HTTP headers included in the server's response.
 
-**Status code**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+    - Parameter 3 (🗄️ Scene variable): Variable containing the response
+    - Parameter 4 (🔤 Name (String)): Header
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Status code**
 Compare the status code of the HTTP request (e.g. 200 if succeeded, 404 if not found, etc).
 
-**Success**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🗄️ Scene variable): Variable containing the response
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Success**
 Checks whether the server marked the response as a success (status code 1XX/2XX), not as a failure (status code 4XX/5XX).
+
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Scene variable): Variable containing the response
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 ## Expressions
 

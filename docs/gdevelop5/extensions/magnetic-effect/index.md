@@ -25,16 +25,41 @@ Attraction to another object, with customisable speed and distance.
 
 ### Behavior actions
 
-**Attraction to a target object**  
+**Attraction to a target object**
 Attraction to a target object.
 
-**Stop attraction**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): Target Object
+    - Parameter 3 (🔢 Number): Distance (Default: 128)
+    - Parameter 4 (🔢 Number): Speed (Default: 48)
+    - Parameter 5 (❓ Yes or No): Permanent
+
+    > Technical note: parameter 6 are internal parameters handled by GDevelop.
+
+**Stop attraction**
 Stop the attraction to the target object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Is attracted to the target object**  
+**Is attracted to the target object**
 Check if the object is attracted to the target object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 _No expressions for this behavior._
 

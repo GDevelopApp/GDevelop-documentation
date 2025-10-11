@@ -27,79 +27,276 @@ Jump and fall along Z axis.
 
 ### Behavior actions
 
-**Abort jump**  
+**Abort jump**
 Abort the current jump and stop the object vertically. This action doesn't have any effect when the character is not jumping.
 
-**Land on the floor**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Land on the floor**
 Stop the object from falling and land on the floor. The object will start falling again the next frame.
 
-**Separate from platforms**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Separate from platforms**
 Separate from walls and land on platforms. 3D boxes rotated around X and Y axes are not supported.
 
-**Allow jumping again**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): Platform
+    - Parameter 3 (🧩 Behavior): 3D capability
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Allow jumping again**
 When this action is executed, the object is able to jump again, even if it is in the air: this can be useful to allow a double jump for example. This is not a permanent effect: you must call again this action everytime you want to allow the object to jump (apart if it's on the floor).
 
-**Current falling speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Current falling speed**
 Change the current falling speed of the object. Its value is always positive.
 
-**Current jump speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Current jump speed**
 Change the current jump speed of the object. Its value is always positive.
 
-**Gravity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Gravity**
 Change the gravity of the object. Its value is always positive.
 
-**Jump height**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Jump height**
 Change the jump height of the object. Its value is always positive.
 
-**Jump sustain time**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Jump sustain time**
 Change the jump sustain time of the object. Maximum time (in seconds) during which the jump strength is sustained if the jump key is held - allowing variable height jumps.
 
-**Maximum falling speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Maximum falling speed**
 Change the maximum falling speed of the object. Its value is always positive.
 
-**Stop falling when Z equals 0**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Stop falling when Z equals 0**
 Change if stop falling when Z equals 0.
 
-**Simulate jump key press**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): StopAtZero
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Simulate jump key press**
 Simulate a press of the jump key.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Can jump**  
+**Can jump**
 Check if the object can jump.
 
-**Current falling speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Current falling speed**
 Compare the current falling speed of the object. Its value is always positive.
 
-**Current jump speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Current jump speed**
 Compare the current jump speed of the object. Its value is always positive.
 
-**Current vertical speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Current vertical speed**
 Compare the current speed of the object on Z axis. Its value is negative when the object falls.
 
-**Gravity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Gravity**
 Compare the gravity of the object. Its value is always positive.
 
-**Is falling**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Is falling**
 Check if the object is falling.\nNote that the object can be flagged as jumping and falling at the same time: at the end of a jump, the fall speed becomes higher than the jump speed.
 
-**Is jumping**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is jumping**
 Check if the object is jumping.
 
-**Is on floor**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is on floor**
 Check if the object is on a platform.
 
-**Jump height**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Jump height**
 Compare the jump height of the object. Its value is always positive.
 
-**Jump sustain time**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Jump sustain time**
 Compare the jump sustain time of the object. Maximum time (in seconds) during which the jump strength is sustained if the jump key is held - allowing variable height jumps.
 
-**Maximum falling speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Maximum falling speed**
 Compare the maximum falling speed of the object. Its value is always positive.
 
-**Stop falling when Z equals 0**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Stop falling when Z equals 0**
 Check if stop falling when Z equals 0.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

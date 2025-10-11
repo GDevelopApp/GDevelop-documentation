@@ -4,23 +4,47 @@ Conditions to check if the device has a touchscreen, is a mobile, or if the game
 
 ## Conditions
 
-**Device has a touchscreen**  
+**Device has a touchscreen**
 Check if the device running the game has a touchscreen (typically Android phones, iPhones, iPads, but also some laptops).
 
-**Is a mobile device**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Is a mobile device**
 Check if the device running the game is a mobile device (phone or tablet on iOS, Android or other mobile devices). The game itself might be a web game or distributed as a native mobile app (to check this precisely, use other conditions).
 
-**Is a native desktop app**  
+**Is a native desktop app**
 Check if the game is running as a native desktop app.
 
-**Is a native mobile app**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Is a native mobile app**
 Check if the game is running as a native mobile app (iOS or Android app).
 
-**Is the game running as a preview**  
+**Is the game running as a preview**
 Check if the game is currently being previewed in the editor. This can be used to enable a "Debug mode" or do some work only in previews.
 
-**Is WebGL supported**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Is WebGL supported**
 Check if GPU accelerated WebGL is supported on the target device.
+
+??? quote "See parameters"
+
+
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
 
 

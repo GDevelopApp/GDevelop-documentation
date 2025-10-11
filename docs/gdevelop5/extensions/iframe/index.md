@@ -22,11 +22,32 @@ Read more: [Same-origin policy](https://developer.mozilla.org/en-US/docs/Web/Sec
 
 ## Actions
 
-**Create an Iframe**  
+**Create an Iframe**
 Create a new Iframe to embed a website inside the game.
 
-**Delete an Iframe**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Name (DOM id)
+    - Parameter 2 (string): URL
+    - Parameter 3 (🔢 Number): Width
+    - Parameter 4 (🔢 Number): Height
+    - Parameter 5 (🔢 Number): Position X
+    - Parameter 6 (🔢 Number): Position Y
+    - Parameter 7 (❓ Yes or No): Show scrollbar
+    - Parameter 8 (❓ Yes or No): Show border
+    - Parameter 9 (string): Extra CSS styles (optional)
+      e.g: `"border: 10px #f00 solid;"`
+
+    > Technical note: parameters 0, 10 are internal parameters handled by GDevelop.
+
+**Delete an Iframe**
 Delete the specified Iframe.
+
+??? quote "See parameters"
+
+    - Parameter 1 (string): Name (DOM id)
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 
 

@@ -24,124 +24,426 @@ Display a large number of particles to create visual effects.
 
 ### Object actions
 
-**Restart**  
+**Restart**
 Restart particule emission from the beginning.
 
-**Particles move with the emitter**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Particles move with the emitter**
 Change if particles move with the emitter.
 
-**Emission duration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1 (❓ Yes or No): AreParticlesRelative
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Emission duration**
 Change the emission duration of the object.
 
-**End color**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**End color**
 Change the end color of the object.
 
-**End opacity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (color): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**End opacity**
 Change the end opacity of the object.
 
-**End scale**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**End scale**
 Change the end scale of the object.
 
-**Flow of particles**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Flow of particles**
 Change the flow of particles of the object  (particles per second).
 
-**Gravity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Gravity**
 Change the gravity of the object.
 
-**Gravity top**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Gravity top**
 Change the gravity top of the object.
 
-**Max lifespan**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔤 String): Value (one of: "Y-", "Z+")
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Max lifespan**
 Change the max lifespan of the object.
 
-**Min lifespan**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Min lifespan**
 Change the min lifespan of the object.
 
-**Delete when emission ends**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Delete when emission ends**
 Change if delete when emission ends.
 
-**Spay cone angle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1 (❓ Yes or No): ShouldAutodestruct
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Spay cone angle**
 Change the spay cone angle of the object.
 
-**Start color**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Start color**
 Change the start color of the object.
 
-**Start opacity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (color): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Start opacity**
 Change the start opacity of the object.
 
-**Start max size**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Start max size**
 Change the start max size of the object.
 
-**Start min size**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Start min size**
 Change the start min size of the object.
 
-**Max start speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Max start speed**
 Change the max start speed of the object.
 
-**Min start speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Min start speed**
 Change the min start speed of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Object conditions
 
-**Particles move with the emitter**  
+**Particles move with the emitter**
 Check if particles move with the emitter.
 
-**Blending**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Blending**
 Compare the blending of the object.
 
-**Emission duration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare (one of: "Normal", "Additive", "Substractive", "Multiply", "None")
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Emission duration**
 Compare the emission duration of the object.
 
-**End color**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**End color**
 Compare the end color of the object.
 
-**End opacity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (color): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**End opacity**
 Compare the end opacity of the object.
 
-**End scale**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**End scale**
 Compare the end scale of the object.
 
-**Flow of particles**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Flow of particles**
 Compare the flow of particles of the object  (particles per second).
 
-**Gravity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Gravity**
 Compare the gravity of the object.
 
-**Gravity top**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Gravity top**
 Compare the gravity top of the object.
 
-**Emission has ended**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare (one of: "Y-", "Z+")
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Emission has ended**
 Check that emission has ended and no particle is alive anymore.
 
-**Max lifespan**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Max lifespan**
 Compare the max lifespan of the object.
 
-**Min lifespan**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Min lifespan**
 Compare the min lifespan of the object.
 
-**Delete when emission ends**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Delete when emission ends**
 Check if delete when emission ends.
 
-**Spay cone angle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Spay cone angle**
 Compare the spay cone angle of the object.
 
-**Start color**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Start color**
 Compare the start color of the object.
 
-**Start opacity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (color): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Start opacity**
 Compare the start opacity of the object.
 
-**Start max size**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Start max size**
 Compare the start max size of the object.
 
-**Start min size**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Start min size**
 Compare the start min size of the object.
 
-**Max start speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Max start speed**
 Compare the max start speed of the object.
 
-**Min start speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Min start speed**
 Compare the min start speed of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Object expressions
 

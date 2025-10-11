@@ -4,8 +4,14 @@ Functions that defer the execution of the events after it.
 
 ## Actions
 
-**End asynchronous function**  
+**End asynchronous function**
 Mark an asynchronous function as finished. This will allow the actions and subevents following it to be run.
+
+??? quote "See parameters"
+
+
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
 
 

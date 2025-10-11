@@ -73,14 +73,39 @@ Animates a horizontal (left to right) sprite sheet.
 
 ### Behavior actions
 
-**Pause animation**  
+**Pause animation**
 Pause the animation of a sprite sheet.
 
-**Play animation**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Play animation**
 Play an animation from the sprite sheet.
 
-**Resume animation**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): First Frame of the animation
+    - Parameter 3 (🔢 Number): Last Frame of animation
+    - Parameter 4 (🔢 Number): Duration for each frame (seconds)
+    - Parameter 5 (🔢 Number): What row is the animation in
+
+    > Technical note: parameter 6 are internal parameters handled by GDevelop.
+
+**Resume animation**
 Resume a paused animation of a sprite sheet.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 
@@ -94,20 +119,58 @@ Animates a sprite sheet using JSON (see extension description).
 
 ### Behavior actions
 
-**Display a frame**  
+**Display a frame**
 Display one frame without animating the object.
 
-**Load data from a JSON resource**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (string): The frame to display
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Load data from a JSON resource**
 Loads a new JSON spritesheet data into the behavior.
 
-**Pause animation**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (string): The JSON to load
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Pause animation**
 Pause the animation of a sprite sheet.
 
-**Play Animation**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Play Animation**
 Play an animation from the sprite sheet.
 
-**Resume animation**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (string): The name of the animation
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Resume animation**
 Resume a paused animation of a sprite sheet.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 
@@ -122,14 +185,39 @@ Animates a vertical (top to bottom) sprite sheet.
 
 ### Behavior actions
 
-**Pause animation**  
+**Pause animation**
 Pause the animation of a sprite sheet.
 
-**Play animation**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Play animation**
 Play an animation from the sprite sheet.
 
-**Resume animation**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): First frame of the animation
+    - Parameter 3 (🔢 Number): Last frame of the animation
+    - Parameter 4 (🔢 Number): Duration for each frame (seconds)
+    - Parameter 5 (🔢 Number): The column containing the animation
+
+    > Technical note: parameter 6 are internal parameters handled by GDevelop.
+
+**Resume animation**
 Resume a paused animation of a sprite sheet.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

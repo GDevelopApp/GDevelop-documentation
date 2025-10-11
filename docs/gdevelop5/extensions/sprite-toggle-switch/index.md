@@ -24,40 +24,108 @@ A toggle switch that users can click or touch.
 
 ### Object actions
 
-**De/activate interactions**  
+**De/activate interactions**
 De/activate interactions with the button.
 
-**Check (or uncheck)**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1 (❓ Yes or No): Activate
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Check (or uncheck)**
 Check (or uncheck) the toggle switch.
 
-**Toggle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1 (❓ Yes or No): IsChecked
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Toggle**
 Toggle the switch.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
 ### Object conditions
 
-**Has just been checked**  
+**Has just been checked**
 Check if the toggle switch was checked in the current frame.
 
-**Has just been toggled**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Has just been toggled**
 Check if the toggle switch was checked or unchecked in the current frame.
 
-**Has just been unchecked**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Has just been unchecked**
 Check if the toggle switch was unchecked in the current frame.
 
-**Interactions activated**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Interactions activated**
 Check if interactions are activated on the button.
 
-**Is checked**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Is checked**
 Check if the toggle switch is checked.
 
-**Is hovered**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Is hovered**
 Check if the cursor is hovered over the button.
 
-**Is pressed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Is pressed**
 Check if the button is currently being pressed with mouse or touch.
 
-**Is held outside**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Is held outside**
 Check if the button is currently being pressed outside with mouse or touch.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
 _No expressions for this object._
 

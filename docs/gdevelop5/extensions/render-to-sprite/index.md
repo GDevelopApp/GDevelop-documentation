@@ -15,17 +15,47 @@ This allows to make optimizations by transforming the resulting image of a shape
 
 ## Actions
 
-**Render a layer into a sprite**  
+**Render a layer into a sprite**
 Renders a layer and puts the rendered image into a sprite object.
 
-**Render an object into a sprite**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Layer name (String)): The layer to render
+    - Parameter 2 (👾 Object): The sprite to render to
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Render an object into a sprite**
 Renders an object and puts the rendered image into a sprite object.
 
-**Render a scene into a sprite**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): The object to render
+    - Parameter 2 (👾 Object): The sprite to render to
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Render a scene into a sprite**
 Renders a scene and puts the rendered image into a sprite object.
 
-**Render an area of a scene into a sprite**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): The sprite to render to
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Render an area of a scene into a sprite**
 Renders a defined area of a scene and puts the rendered image into a sprite object.
+
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): The sprite to render to
+    - Parameter 2 (🔢 Number): Origin X position of the render area
+    - Parameter 3 (🔢 Number): Origin Y Position of the render area
+    - Parameter 4 (🔢 Number): Width of the are to render
+    - Parameter 5 (🔢 Number): Height of the area to render
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
 
 

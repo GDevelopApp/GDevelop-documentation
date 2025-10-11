@@ -4,55 +4,194 @@ Smoothly animate object properties over time — such as position, rotation scal
 
 ## Actions
 
-**Tween a layer value**  
+**Tween a layer value**
 Tweens a layer value that can be use with the expression Tween::Value.
 
-**Tween a scene value**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Tween Identifier
+    - Parameter 2 (🔢 Number): From value
+    - Parameter 3 (🔢 Number): To value
+    - Parameter 4 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 5 (🔢 Number): Duration (in seconds)
+    - Parameter 6 (❓ Yes or No): Exponential interpolation
+    - Parameter 7: 🔤 Layer name (String)
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Tween a scene value**
 Tweens a scene value that can be use with the expression Tween::Value.
 
-**Pause a scene tween**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Tween Identifier
+    - Parameter 2 (🔢 Number): From value
+    - Parameter 3 (🔢 Number): To value
+    - Parameter 4 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 5 (🔢 Number): Duration (in seconds)
+    - Parameter 6 (❓ Yes or No): Exponential interpolation
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Pause a scene tween**
 Pause the running scene tween.
 
-**Remove a scene tween**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Tween Identifier
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Remove a scene tween**
 Remove the scene tween. Call this when the tween is no longer needed to free memory.
 
-**Resume a scene tween**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Tween Identifier
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Resume a scene tween**
 Resume the scene tween.
 
-**Stop a scene tween**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Tween Identifier
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Stop a scene tween**
 Stop the running scene tween.
 
-**Tween the camera position**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Tween Identifier
+    - Parameter 2 (❓ Yes or No): Jump to the end
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Tween the camera position**
 Tweens the camera position from the current one to a new one.
 
-**Tween the camera rotation**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Tween Identifier
+    - Parameter 2 (🔢 Number): Target X position
+    - Parameter 3 (🔢 Number): Target Y position
+    - Parameter 4: 🔤 Layer name (String)
+    - Parameter 5 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 6 (🔢 Number): Duration (in seconds)
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Tween the camera rotation**
 Tweens the camera rotation from the current angle to a new one.
 
-**Tween the camera zoom**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Tween Identifier
+    - Parameter 2 (🔢 Number): Target rotation (in degrees)
+    - Parameter 3: 🔤 Layer name (String)
+    - Parameter 4 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 5 (🔢 Number): Duration (in seconds)
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Tween the camera zoom**
 Tweens the camera zoom from the current zoom factor to a new one.
 
-**Tween color effect property**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Tween Identifier
+    - Parameter 2 (🔢 Number): Target zoom
+    - Parameter 3: 🔤 Layer name (String)
+    - Parameter 4 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 5 (🔢 Number): Duration (in seconds)
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Tween color effect property**
 Tweens a color effect property from its current value to a new one.
 
-**Tween number effect property**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Tween Identifier
+    - Parameter 2 (color): To color
+    - Parameter 3: 🔤 Layer name (String)
+    - Parameter 4: 🔤 Layer Effect Name (String)
+    - Parameter 5: 🔤 Layer Effect Property Name (String)
+    - Parameter 6 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 7 (🔢 Number): Duration (in seconds)
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Tween number effect property**
 Tweens a number effect property from its current value to a new one.
 
-**Tween a number in a scene variable**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Tween Identifier
+    - Parameter 2 (🔢 Number): To value
+    - Parameter 3: 🔤 Layer name (String)
+    - Parameter 4: 🔤 Layer Effect Name (String)
+    - Parameter 5: 🔤 Layer Effect Property Name (String)
+    - Parameter 6 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 7 (🔢 Number): Duration (in seconds)
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Tween a number in a scene variable**
 Tweens a scene variable's numeric value from its current value to a new one.
+
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Tween Identifier
+    - Parameter 2 (🗄️ Scene variable): The variable to tween
+    - Parameter 3 (🔢 Number): Final value
+    - Parameter 4 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 5 (🔢 Number): Duration (in seconds)
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**Tween progress**  
+**Tween progress**
 Compare the progress of a tween (between 0.0 and 1.0).
 
-**Scene tween exists**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Tween Identifier
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Scene tween exists**
 Check if the scene tween exists.
 
-**Scene tween finished playing**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Tween Identifier
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Scene tween finished playing**
 Check if the scene tween has finished playing.
 
-**Scene tween is playing**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Tween Identifier
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Scene tween is playing**
 Check if the scene tween is currently playing.
+
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Tween Identifier
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
 ## Expressions
 
@@ -74,94 +213,377 @@ Smoothly animate position, angle, scale and other properties of objects.
 
 ### Behavior actions
 
-**Tween object depth**  
+**Tween object depth**
 Tweens an object depth (suitable 3D objects only) from its current depth to a new one.
 
-**Tween object Z position**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🧩 Behavior): 3D capability
+    - Parameter 3 (🔤 Name (String)): Tween Identifier
+    - Parameter 4 (🔢 Number): To depth
+    - Parameter 5 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 6 (🔢 Number): Duration (in seconds)
+    - Parameter 7 (❓ Yes or No): Destroy this object when tween finishes
+
+**Tween object Z position**
 Tweens an object Z position (3D objects only) from its current Z position to a new one.
 
-**Pause a tween**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🧩 Behavior): 3D capability
+    - Parameter 3 (🔤 Name (String)): Tween Identifier
+    - Parameter 4 (🔢 Number): To Z
+    - Parameter 5 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 6 (🔢 Number): Duration (in seconds)
+    - Parameter 7 (❓ Yes or No): Destroy this object when tween finishes
+
+**Pause a tween**
 Pause the running tween animation.
 
-**Remove a tween**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Tween Identifier
+
+**Remove a tween**
 Remove the tween animation from the object.
 
-**Resume a tween**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Tween Identifier
+
+**Resume a tween**
 Resume the tween animation.
 
-**Stop a tween**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Tween Identifier
+
+**Stop a tween**
 Stop the running tween animation.
 
-**Tween color effect property**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Tween Identifier
+    - Parameter 3 (❓ Yes or No): Jump to end
+
+**Tween color effect property**
 Tweens a color effect property from its current value to a new one.
 
-**Tween number effect property**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🧩 Behavior): Effect capability
+    - Parameter 3 (🔤 Name (String)): Tween Identifier
+    - Parameter 4 (color): To color
+    - Parameter 5: 🔤 Object Effect Name (String)
+    - Parameter 6: 🔤 Object Effect Property Name (String)
+    - Parameter 7 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 8 (🔢 Number): Duration (in seconds)
+    - Parameter 9 (❓ Yes or No): Destroy this object when tween finishes
+
+**Tween number effect property**
 Tweens a number effect property from its current value to a new one.
 
-**Tween object angle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🧩 Behavior): Effect capability
+    - Parameter 3 (🔤 Name (String)): Tween Identifier
+    - Parameter 4 (🔢 Number): To value
+    - Parameter 5: 🔤 Object Effect Name (String)
+    - Parameter 6: 🔤 Object Effect Property Name (String)
+    - Parameter 7 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 8 (🔢 Number): Duration (in seconds)
+    - Parameter 9 (❓ Yes or No): Destroy this object when tween finishes
+
+**Tween object angle**
 Tweens an object angle from its current angle to a new one.
 
-**Tween object HSL color**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Tween Identifier
+    - Parameter 3 (🔢 Number): To angle (in degrees)
+    - Parameter 4 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 5 (🔢 Number): Duration (in seconds)
+    - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
+
+**Tween object HSL color**
 Tweens the object color using Hue/Saturation/Lightness. Hue is in degrees, Saturation and Lightness are between 0 and 100. Use -1 for Saturation and Lightness to let them unchanged.
 
-**Tween object color**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Tween Identifier
+    - Parameter 3 (🔢 Number): To Hue (in degrees)
+    - Parameter 4 (❓ Yes or No): Animate Hue
+    - Parameter 5 (🔢 Number): To Saturation (0 to 100, -1 to ignore)
+    - Parameter 6 (🔢 Number): To Lightness (0 to 100, -1 to ignore)
+    - Parameter 7 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 8 (🔢 Number): Duration (in seconds)
+    - Parameter 9 (❓ Yes or No): Destroy this object when tween finishes
+
+**Tween object color**
 Tweens the object color from its current value to a new one. Format: "128;200;255" with values between 0 and 255 for red, green and blue
 
-**Tween object height**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Tween Identifier
+    - Parameter 3 (color): To color
+    - Parameter 4 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 5 (🔢 Number): Duration (in seconds)
+    - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
+    - Parameter 7 (❓ Yes or No): Tween on the Hue/Saturation/Lightness (HSL)
+      Useful to have a more natural change between colors.
+
+**Tween object height**
 Tweens an object height from its current height to a new one.
 
-**Tween object opacity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Tween Identifier
+    - Parameter 3 (🔢 Number): To height
+    - Parameter 4 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 5 (🔢 Number): Duration (in seconds)
+    - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
+
+**Tween object opacity**
 Tweens the object opacity from its current value to a new one (note: the value shall stay between 0 and 255).
 
-**Tween object position**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Tween Identifier
+    - Parameter 3 (🔢 Number): To opacity
+    - Parameter 4 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 5 (🔢 Number): Duration (in seconds)
+    - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
+
+**Tween object position**
 Tweens an object position from its current position to a new one.
 
-**Tween object X position**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Tween Identifier
+    - Parameter 3 (🔢 Number): To X
+    - Parameter 4 (🔢 Number): To Y
+    - Parameter 5 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 6 (🔢 Number): Duration (in seconds)
+    - Parameter 7 (❓ Yes or No): Destroy this object when tween finishes
+
+**Tween object X position**
 Tweens an object X position from its current X position to a new one.
 
-**Tween object Y position**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Tween Identifier
+    - Parameter 3 (🔢 Number): To X
+    - Parameter 4 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 5 (🔢 Number): Duration (in seconds)
+    - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
+
+**Tween object Y position**
 Tweens an object Y position from its current Y position to a new one.
 
-**Tween object rotation on X axis**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Tween Identifier
+    - Parameter 3 (🔢 Number): To Y
+    - Parameter 4 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 5 (🔢 Number): Duration (in seconds)
+    - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
+
+**Tween object rotation on X axis**
 Tweens an object rotation on X axis from its current angle to a new one.
 
-**Tween object rotation on Y axis**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🧩 Behavior): 3D capability
+    - Parameter 3 (🔤 Name (String)): Tween Identifier
+    - Parameter 4 (🔢 Number): To angle (in degrees)
+    - Parameter 5 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 6 (🔢 Number): Duration (in seconds)
+    - Parameter 7 (❓ Yes or No): Destroy this object when tween finishes
+
+**Tween object rotation on Y axis**
 Tweens an object rotation on Y axis from its current angle to a new one.
 
-**Tween object scale**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🧩 Behavior): 3D capability
+    - Parameter 3 (🔤 Name (String)): Tween Identifier
+    - Parameter 4 (🔢 Number): To angle (in degrees)
+    - Parameter 5 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 6 (🔢 Number): Duration (in seconds)
+    - Parameter 7 (❓ Yes or No): Destroy this object when tween finishes
+
+**Tween object scale**
 Tweens an object scale from its current value to a new one (note: the scale can never be 0 or less).
 
-**Tween object X-scale**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Tween Identifier
+    - Parameter 3 (🔢 Number): To scale
+    - Parameter 4 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 5 (🔢 Number): Duration (in seconds)
+    - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
+    - Parameter 7 (❓ Yes or No): Scale from center of object
+
+**Tween object X-scale**
 Tweens an object X-scale from its current value to a new one (note: the scale can never be 0 or less).
 
-**Tween object Y-scale**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Tween Identifier
+    - Parameter 3 (🔢 Number): To scale X
+    - Parameter 4 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 5 (🔢 Number): Duration (in seconds)
+    - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
+    - Parameter 7 (❓ Yes or No): Scale from center of object
+
+**Tween object Y-scale**
 Tweens an object Y-scale from its current value to a new one (note: the scale can never be 0 or less).
 
-**Tween an object value**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Tween Identifier
+    - Parameter 3 (🔢 Number): To scale Y
+    - Parameter 4 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 5 (🔢 Number): Duration (in seconds)
+    - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
+    - Parameter 7 (❓ Yes or No): Scale from center of object
+
+**Tween an object value**
 Tweens an object value that can be use with the object expression Tween::Value.
 
-**Tween a number in an object variable**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Tween Identifier
+    - Parameter 3 (🔢 Number): From value
+    - Parameter 4 (🔢 Number): To value
+    - Parameter 5 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 6 (🔢 Number): Duration (in seconds)
+    - Parameter 7 (❓ Yes or No): Exponential interpolation
+    - Parameter 8 (❓ Yes or No): Destroy this object when tween finishes
+
+**Tween a number in an object variable**
 Tweens an object variable's numeric value from its current value to a new one.
 
-**Tween object width**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Tween Identifier
+    - Parameter 3 (🗄️ Object variable): Object variable
+    - Parameter 4 (🔢 Number): To value
+    - Parameter 5 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 6 (🔢 Number): Duration (in seconds)
+    - Parameter 7 (❓ Yes or No): Destroy this object when tween finishes
+
+**Tween object width**
 Tweens an object width from its current width to a new one.
 
-**Tween text size**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Tween Identifier
+    - Parameter 3 (🔢 Number): To width
+    - Parameter 4 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 5 (🔢 Number): Duration (in seconds)
+    - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
+
+**Tween text size**
 Tweens the text object character size from its current value to a new one (note: the size can never be less than 1).
+
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Text object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Tween Identifier
+    - Parameter 3 (🔢 Number): To character size
+    - Parameter 4 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 5 (🔢 Number): Duration (in seconds)
+    - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
 
 ### Behavior conditions
 
-**Tween exists**  
+**Tween exists**
 Check if the tween animation exists.
 
-**Tween finished playing**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Tween Identifier
+
+**Tween finished playing**
 Check if the tween animation has finished playing.
 
-**Tween is playing**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Tween Identifier
+
+**Tween is playing**
 Check if the tween animation is currently playing.
 
-**Tween progress**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Tween Identifier
+
+**Tween progress**
 Compare the progress of a tween (between 0.0 and 1.0).
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Tween Identifier
+    - Parameter 3: 🟰 Relational operator
+    - Parameter 4 (🔢 Number): Value to compare
 
 ### Behavior expressions
 

@@ -22,49 +22,150 @@ Text expressions allows to enter the name of the variable with an expression lik
 
 ## Actions
 
-**Copy all object variables**  
+**Copy all object variables**
 Copy all object variables from one object to another.
 
-**Copy a global variable to scene**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Source object
+    - Parameter 2 (👾 Object): Destination object
+    - Parameter 3 (❓ Yes or No): Clear the destination variable before copying
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Copy a global variable to scene**
 Copy the global variable to scene. This copy everything from the types to the values.
 
-**Copy an object variable**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Global variable to copy
+    - Parameter 2 (string): Scene variable destination
+    - Parameter 3 (❓ Yes or No): Clear the destination variable before copying
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Copy an object variable**
 Copy the object variable from one object to another.
 
-**Copy a scene variable to global **  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Source object
+    - Parameter 2 (string): Variable to copy
+    - Parameter 3 (👾 Object): Destination object
+      To copy the variable between 2 instances of the same object, the variable has to be copied to another object first.
+    - Parameter 4 (string): Destination variable
+    - Parameter 5 (❓ Yes or No): Clear the destination variable before copying
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Copy a scene variable to global **
 Copy the scene variable to global. This copy everything from the types to the values.
 
-**Delete global variable**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Scene variable to copy
+    - Parameter 2 (string): Global variable destination
+    - Parameter 3 (❓ Yes or No): Clear the destination variable before copying
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Delete global variable**
 Delete the global variable, removing it from memory.
 
-**Delete object variable**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Name of the global variable to delete
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Delete object variable**
 Delete an object variable, removing it from memory.
 
-**Delete scene variable**  
+??? quote "See parameters"
+
+    - Parameter 1: 👾 Object
+    - Parameter 2 (string): Name of object variable
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Delete scene variable**
 Delete the scene variable, the variable will be deleted from the memory.
 
-**Value of a global variable**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Name of the scene variable to delete
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Value of a global variable**
 Modify the value of a global variable.
 
-**String of a global variable**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Name of the global variable
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**String of a global variable**
 Modify the text of a global variable.
 
-**Value of a scene variable**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Name of the global variable
+    - Parameter 2 (string): Value
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Value of a scene variable**
 Modify the value of a scene variable.
 
-**String of a scene variable**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Name of the scene variable
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**String of a scene variable**
 Modify the text of a scene variable.
+
+??? quote "See parameters"
+
+    - Parameter 1 (string): Name of the scene variable
+    - Parameter 2 (string): Value
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**Global variable exists**  
+**Global variable exists**
 Check if the global variable exists.
 
-**Object variable exists**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Name of the global variable
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Object variable exists**
 Check if an object variable exists.
 
-**Scene variable exists**  
+??? quote "See parameters"
+
+    - Parameter 1: 👾 Object
+    - Parameter 2 (string): Name of object variable
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Scene variable exists**
 Check if the scene variable exists.
+
+??? quote "See parameters"
+
+    - Parameter 1 (string): Name of the scene variable
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 ## Expressions
 

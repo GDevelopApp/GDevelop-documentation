@@ -40,47 +40,131 @@ Actions provided are:
 
 ## Actions
 
-**Align object to bottom of scene**  
+**Align object to bottom of scene**
 Align object to vertical bottom of scene.
 
-**Align object to horizontal center in scene**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object to align
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Align object to horizontal center in scene**
 Align object to horizontal center in scene.
 
-**Center object in scene horizontally and vertically**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object to align
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Center object in scene horizontally and vertically**
 Center object in scene horizontally and vertically.
 
-**Align object to horizontal left in scene**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object to align
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Align object to horizontal left in scene**
 Align object to horizontal left in scene.
 
-**Align object to vertical middle of scene**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object to align
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Align object to vertical middle of scene**
 Align object to vertical middle of scene.
 
-**Align object to horizontal right in scene**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object to align
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Align object to horizontal right in scene**
 Align object to horizontal right in scene.
 
-**Align object to vertical top of scene**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object to align
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Align object to vertical top of scene**
 Align object to vertical top of scene.
 
-**Align object to bottom of screen**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object to align
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Align object to bottom of screen**
 Align object to vertical bottom of screen.
 
-**Align object to horizontal center in screen**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object to align
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Align object to horizontal center in screen**
 Align object to horizontal center in screen.
 
-**Center object in screen horizontally and vertically**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object to align
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Center object in screen horizontally and vertically**
 Center object in screen horizontally and vertically.
 
-**Align object to horizontal left in screen**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object to align
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Align object to horizontal left in screen**
 Align object to horizontal left in screen.
 
-**Align object to vertical middle of screen**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object to align
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Align object to vertical middle of screen**
 Align object to vertical middle of screen.
 
-**Align object to horizontal right in screen**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object to align
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Align object to horizontal right in screen**
 Align object to horizontal right in screen.
 
-**Align object to vertical top of screen**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object to align
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Align object to vertical top of screen**
 Align object to vertical top of screen.
+
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object to align
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 
 

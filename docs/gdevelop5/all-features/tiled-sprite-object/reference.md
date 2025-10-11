@@ -10,22 +10,51 @@ Displays an image repeated over an area.
 
 ### Object actions
 
-**Tint color**  
+**Tint color**
 Change the tint of a Tiled Sprite. The default color is white.
 
-**Image X Offset**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1 (color): Tint
+
+**Image X Offset**
 Modify the offset used on the X axis when displaying the image.
 
-**Image Y Offset**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+**Image Y Offset**
 Modify the offset used on the Y axis when displaying the image.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
 
 ### Object conditions
 
-**Image X Offset**  
+**Image X Offset**
 Test the offset used on the X axis when displaying the image.
 
-**Image Y Offset**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+**Image Y Offset**
 Test the offset used on the Y axis when displaying the image.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
 
 ### Object expressions
 

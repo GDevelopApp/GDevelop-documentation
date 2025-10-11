@@ -14,11 +14,30 @@ Text to Speech extension allows you to use the system's Text-to-Speech features 
 
 ## Actions
 
-**Speak out a message**  
+**Speak out a message**
 Speaks a text message aloud through the system text-to-speech.
 
-**Force stop speaking**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): The message to be spoken
+    - Parameter 2 (string): The voice to be used
+      Voices vary depending on the operating system. 
+      Here is a list of windows voice names: https://bit.ly/windows-voices 
+      And here is a list of voice names for MacOS: https://bit.ly/mac-voices
+    - Parameter 3 (🔢 Number): Volume between 0% and 100%
+    - Parameter 4 (🔢 Number): Speed between 10% and 1000%
+    - Parameter 5 (🔢 Number): Pitch between 0% and 200%
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Force stop speaking**
 Forces all Text-to-Speech to be stopped.
+
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
 
 

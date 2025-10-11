@@ -35,73 +35,247 @@ Let users select a numerical value by dragging a slider.
 
 ### Behavior actions
 
-**Active track color **  
+**Active track color **
 Change the color of the track that is LEFT of the thumb.
 
-**Active track opacity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (color): Active track color
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Active track opacity**
 Change opacity of active track.
 
-**Enable interactions**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Active track opacity
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Enable interactions**
 Enable or disable the slider. Users cannot interact while it is disabled.
 
-**Halo opacity (hover)**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): Enable
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Halo opacity (hover)**
 Change the halo opacity when the thumb is hovered.
 
-**Halo opacity (pressed)**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Halo opacity (hover)
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Halo opacity (pressed)**
 Change opacity of halo when pressed.
 
-**Halo radius**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Halo opacity (pressed)
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Halo radius**
 Change radius of the halo around the thumb.  This size is also used to detect interaction with the slider.
 
-**Inactive track color**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Halo radius
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Inactive track color**
 Change the color of the track that is RIGHT of the thumb.
 
-**Inactive track opacity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (color): Inactive track color
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Inactive track opacity**
 Change opacity of inactive track.
 
-**Rounded track ends**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Inactive track opacity
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Rounded track ends**
 Make track use rounded ends.
 
-**Thumb color**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): Rounded track
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Thumb color**
 Change the thumb color to a specific value.
 
-**Thumb height**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (color): Thumb color
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Thumb height**
 Change height of thumb.
 
-**Thumb opacity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Thumb height
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Thumb opacity**
 Change opacity of thumb.
 
-**Thumb shape**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Thumb opacity
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Thumb shape**
 Change shape of thumb (circle or rectangle).
 
-**Thumb width**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 String): New thumb shape (one of: "circle", "rectangle")
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Thumb width**
 Change width of thumb.
 
-**Tick spacing**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Thumb width
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Tick spacing**
 Change the tick spacing of a slider.
 
-**Track length**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Tick spacing
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Track length**
 Change length of track.
 
-**Track thickness**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Track width
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Track thickness**
 Change thickness of track.
 
-**Slider value**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Track thickness
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Slider value**
 Change the value of a slider (this will move the thumb to the correct position).
 
-**Slider maximum value**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Slider value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Slider maximum value**
 Change the maximum value of a slider.
 
-**Slider minimum value**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Maximum value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Slider minimum value**
 Change the minimum value of a slider.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Minimum value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Being dragged**  
+**Being dragged**
 Check if the slider is being dragged.
 
-**Interactions enabled**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Interactions enabled**
 Check if the slider interations are enabled.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

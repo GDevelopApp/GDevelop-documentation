@@ -21,11 +21,27 @@ Loading it into a resource will discard the old image that a resource was using 
 
 ## Actions
 
-**Load URL into an image resource**  
+**Load URL into an image resource**
 Replaces the image contained by a resource by a new one, from a URL. This will update all sprites displaying the resource.
 
-**Load URL into a sprite**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): The URL to load the new image for the resource from
+    - Parameter 2 (imageResource): The resource to modify
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Load URL into a sprite**
 Replaces the image contained by a sprite by a new one, from a URL. This will only affect the sprite in question and only until the image in it is changed through its animation or another action, unless you also modify the resource.
+
+??? quote "See parameters"
+
+    - Parameter 1 (string): The URL to load the new image for the sprite from
+    - Parameter 2 (👾 Object): The object to modify
+    - Parameter 3 (❓ Yes or No): Modify the resource?
+      If yes, modifies the image contained in the resource of the sprite's current frame instead of just the sprite's displayed image. This makes the changes affect all other sprites that also display this resource, and allows the change to persist after changing animations or the current frame.
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
 
 

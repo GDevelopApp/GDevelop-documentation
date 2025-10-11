@@ -20,8 +20,20 @@ If you want to modify the speed of the object, edit the Pathfinding behavior of 
 
 ## Actions
 
-**Make object travel to a random position, with optional direction**  
+**Make object travel to a random position, with optional direction**
 Make object travel to a random position around the object current position. The movement is initiated only when the object is not moving already (its Pathfinding behavior speed is 0).  Move towards a specified angle, if desired.
+
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object that will be travelling (must have Pathfinding behavior)
+    - Parameter 2 (🧩 Behavior): Pathfinding Behavior (required)
+    - Parameter 3 (🔢 Number): Minimum distance between each position (Default: 100px)
+    - Parameter 4 (🔢 Number): Maximum distance between each position (Default: 200px)
+    - Parameter 5 (🔢 Number): Direction (in degrees) the object will move towards (Range: 0-360)
+    - Parameter 6 (🔢 Number): Direction bias (Range: 0-1) 
+      For example: "0" picks a completely random direction, "0.5" will select a direction within the half-circle that faces the specified direction, and "1" simply uses the specified direction.
+
+    > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
 
 

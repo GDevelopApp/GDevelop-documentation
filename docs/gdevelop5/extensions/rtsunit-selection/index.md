@@ -43,34 +43,105 @@ Tips:
 
 ## Actions
 
-**Assign unit to a control group**  
+**Assign unit to a control group**
 Assign unit to a control group.
 
-**Assign a unique ID to each "Selected" unit**  
+??? quote "See parameters"
+
+    - Parameter 1: 👾 Object
+    - Parameter 2 (🔢 Number): Control group ID
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Assign a unique ID to each "Selected" unit**
 Assign a unique ID to each "Selected" unit.  This should be ran every time there is a change in the number of "Selected" units.
 
-**Enable control groups using default controls**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Units
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Enable control groups using default controls**
 Enable control groups using default controls.
 
-**Allow player to select units by clicking on them or dragging a selection box**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Units
+      Object (or object group) that will be assigned to a control group
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Allow player to select units by clicking on them or dragging a selection box**
 Allow player to select units by clicking on them or dragging a selection box.
 
-**Set unit as "Preselected"**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Units
+      Object (or object group) that can be Selected
+    - Parameter 2 (👾 Object): Selection box
+      Edit shape painter properties to change the appearance of this selection box
+    - Parameter 3 (🔤 Layer name (String)): Layer (of selection box)
+      Must be the same layer as the units being selected
+    - Parameter 4 (🔢 Number): Z order (of selection box)
+      Z order of the selection box
+    - Parameter 5 (key): Additive select key
+      Hold this key to add units to selection
+    - Parameter 6 (key): Subtractive select key
+      Hold this key to remove units from selection
+    - Parameter 7 (mouse): Mouse button used to select units
+
+    > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
+
+**Set unit as "Preselected"**
 Set unit as "Preselected".
 
-**Set unit as "Selected"**  
+??? quote "See parameters"
+
+    - Parameter 1: 👾 Object
+    - Parameter 2 (❓ True or False): Value
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Set unit as "Selected"**
 Set unit as "Selected".
+
+??? quote "See parameters"
+
+    - Parameter 1: 👾 Object
+    - Parameter 2 (❓ True or False): Value
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**Check if a unit is assigned to a control group**  
+**Check if a unit is assigned to a control group**
 Check if a unit is assigned to a control group.
 
-**Is unit "Preselected"**  
+??? quote "See parameters"
+
+    - Parameter 1: 👾 Object
+    - Parameter 2 (🔢 Number): Control group ID
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Is unit "Preselected"**
 Check if the unit is "Preselected".
 
-**Is unit "Selected"**  
+??? quote "See parameters"
+
+    - Parameter 1: 👾 Object
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Is unit "Selected"**
 Check if the unit is "Selected".
+
+??? quote "See parameters"
+
+    - Parameter 1: 👾 Object
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 ## Expressions
 

@@ -21,11 +21,34 @@ It can be useful for:
 
 ## Actions
 
-**Look at an object from a distance**  
+**Look at an object from a distance**
 Move the camera to look at an object from a distance.
 
-**Look at a position from a distance**  
+??? quote "See parameters"
+
+    - Parameter 1: 👾 Object
+    - Parameter 2 (🧩 Behavior): 3D capability
+    - Parameter 3 (🔢 Number): Distance
+    - Parameter 4 (🔢 Number): Rotation angle (around Z axis)
+    - Parameter 5 (🔢 Number): Elevation angle (around Y axis)
+    - Parameter 6: 🔤 Layer name (String)
+
+    > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
+
+**Look at a position from a distance**
 Move the camera to look at a position from a distance.
+
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Position on X axis
+    - Parameter 2 (🔢 Number): Position on Y axis
+    - Parameter 3 (🔢 Number): Position on Z axis
+    - Parameter 4 (🔢 Number): Distance
+    - Parameter 5 (🔢 Number): Rotation angle (around Z axis)
+    - Parameter 6 (🔢 Number): Elevation angle (around Y axis)
+    - Parameter 7: 🔤 Layer name (String)
+
+    > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
 
 
 
@@ -35,88 +58,327 @@ Smoothly follow an object at a distance.
 
 ### Behavior actions
 
-**Rotate the camera all the way**  
+**Rotate the camera all the way**
 Rotate the camera all the way to the targeted angle.
 
-**Move the camera closer**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Move the camera closer**
 Move the camera closer to the object. This action must be called after the object has moved for the frame.
 
-**Camera rotation**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Camera rotation**
 Change the camera rotation.
 
-**Camera distance**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Camera distance**
 Change the camera distance of the object.
 
-**Elevation angle offset**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Elevation angle offset**
 Change the elevation angle offset of the object.
 
-**Halfway  time for elevation rotation**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Halfway  time for elevation rotation**
 Change the halfway  time for elevation rotation of the object.
 
-**Follow free area top border on Z axis**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Follow free area top border on Z axis**
 Change the follow free area top border on Z axis of the object.
 
-**Follow free area bottom border on Z axis**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Follow free area bottom border on Z axis**
 Change the follow free area bottom border on Z axis of the object.
 
-**Lateral distance offset**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Lateral distance offset**
 Change the lateral distance offset of the object.
 
-**Ahead distance offset**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Ahead distance offset**
 Change the ahead distance offset of the object.
 
-**Z offset**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Z offset**
 Change the z offset of the object.
 
-**Rotation angle offset**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Rotation angle offset**
 Change the rotation angle offset of the object.
 
-**Halfway time for rotation**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Halfway time for rotation**
 Change the halfway time for rotation of the object.
 
-**Targeted rotation angle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Targeted rotation angle**
 Change the targeted camera rotation angle of the object. When this angle is set, the camera follow this value instead of the object angle.
 
-**Halfway time on Z axis**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Halfway time on Z axis**
 Change the halfway time on Z axis of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Camera distance**  
+**Camera distance**
 Compare the camera distance of the object.
 
-**Elevation angle offset**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Elevation angle offset**
 Compare the elevation angle offset of the object.
 
-**Halfway  time for elevation rotation**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Halfway  time for elevation rotation**
 Compare the halfway  time for elevation rotation of the object.
 
-**Follow free area top border on Z axis**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Follow free area top border on Z axis**
 Compare the follow free area top border on Z axis of the object.
 
-**Follow free area bottom border on Z axis**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Follow free area bottom border on Z axis**
 Compare the follow free area bottom border on Z axis of the object.
 
-**Lateral distance offset**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Lateral distance offset**
 Compare the lateral distance offset of the object.
 
-**Ahead distance offset**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Ahead distance offset**
 Compare the ahead distance offset of the object.
 
-**Z offset**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Z offset**
 Compare the z offset of the object.
 
-**Rotation angle offset**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Rotation angle offset**
 Compare the rotation angle offset of the object.
 
-**Halfway time for rotation**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Halfway time for rotation**
 Compare the halfway time for rotation of the object.
 
-**Targeted rotation angle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Targeted rotation angle**
 Compare the targeted camera rotation angle of the object. When this angle is set, the camera follow this value instead of the object angle.
 
-**Halfway time on Z axis**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Halfway time on Z axis**
 Compare the halfway time on Z axis of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

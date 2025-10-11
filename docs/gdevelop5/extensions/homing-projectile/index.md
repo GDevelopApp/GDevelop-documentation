@@ -32,14 +32,49 @@ Tips:
 
 ## Actions
 
-**Lock projectile to target**  
+**Lock projectile to target**
 Lock projectile object to target object.  (This is required for "Move projectile towards target").
 
-**Move projectile towards target**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Projectile object
+    - Parameter 2 (👾 Object): Target object
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Move projectile towards target**
 Move projectile towards the object that it has been locked to.  This action must be run every frame.
 
-**Move physics projectile towards target**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Projectile object
+    - Parameter 2 (👾 Object): Target object
+    - Parameter 3 (🔢 Number): Rotation speed (degrees per second)
+    - Parameter 4 (🔢 Number): Initial speed (pixels per second)
+    - Parameter 5 (🔢 Number): Acceleration (speed increase per second)
+    - Parameter 6 (🔢 Number): Max speed
+    - Parameter 7 (🔢 Number): Max lifetime (seconds)
+      Projectile will be deleted after this value is reached.
+    - Parameter 8 (❓ Yes or No): Delete Projectile if it collides with Target:
+
+    > Technical note: parameters 0, 9 are internal parameters handled by GDevelop.
+
+**Move physics projectile towards target**
 Move physics projectile towards the object that it has been locked to.  This action must be run every frame.
+
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Projectile object
+    - Parameter 2 (🧩 Behavior): Physics Behavior
+    - Parameter 3 (👾 Object): Target object
+    - Parameter 4 (🔢 Number): Rotation speed (degrees per second)
+    - Parameter 5 (🔢 Number): Initial speed (pixels per second)
+    - Parameter 6 (🔢 Number): Acceleration (speed increase per second)
+    - Parameter 7 (🔢 Number): Max lifetime (seconds)
+      Projectile will be deleted after this value is reached.
+    - Parameter 8 (❓ Yes or No): Delete Projectile if it collides with Target:
+
+    > Technical note: parameters 0, 9 are internal parameters handled by GDevelop.
 
 
 

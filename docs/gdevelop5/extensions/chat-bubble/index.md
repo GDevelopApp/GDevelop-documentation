@@ -39,11 +39,34 @@ Draws a chat bubble into a text object.
 
 ### Behavior actions
 
-**Draw a chat bubble**  
+**Draw a chat bubble**
 Draw a chat bubble.
 
-**Draw a chat bubble with name tag**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): X position
+    - Parameter 3 (🔢 Number): Y position
+    - Parameter 4 (👾 Object): Chat bubble text object
+    - Parameter 5: 🔤 Layer name (String)
+
+    > Technical note: parameter 6 are internal parameters handled by GDevelop.
+
+**Draw a chat bubble with name tag**
 Draw a chat bubble with name tag.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): X position
+    - Parameter 3 (🔢 Number): Y position
+    - Parameter 4 (👾 Object): Chat bubble text object
+    - Parameter 5: 🔤 Layer name (String)
+    - Parameter 6 (👾 Object): Name tag text object (optional)
+
+    > Technical note: parameter 7 are internal parameters handled by GDevelop.
 
 _No expressions for this behavior._
 

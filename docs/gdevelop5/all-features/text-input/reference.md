@@ -10,85 +10,222 @@ A text field the player can type text into.
 
 ### Object actions
 
-**Focus**  
+**Focus**
 Focus the input so that text can be entered (like if it was touched/clicked).
 
-**Border color**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Text input
+
+**Border color**
 Set the border color of the object.
 
-**Border opacity**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Text input
+    - Parameter 1: color
+
+**Border opacity**
 Change the border opacity, between 0 (fully transparent) and 255 (opaque).
 
-**Border width**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Text input
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Opacity (0-255)
+
+**Border width**
 Change the border width.
 
-**Disabled**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Text input
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+**Disabled**
 Set (or unset) if the text input is disabled.
 
-**Fill color**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Text input
+    - Parameter 1 (❓ Yes or No): New value
+
+**Fill color**
 Set the fill color of the object.
 
-**Fill opacity**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Text input
+    - Parameter 1: color
+
+**Fill opacity**
 Change the fill opacity, between 0 (fully transparent) and 255 (opaque).
 
-**Font size**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Text input
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Opacity (0-255)
+
+**Font size**
 Change the font size.
 
-**Font name**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Text input
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+**Font name**
 Set the font of the object.
 
-**Input type**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Text input
+    - Parameter 1 (fontResource): Font resource name
+
+**Input type**
 Change the input type.
 
-**Placeholder**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Text input
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔤 String): Input type (one of: "text", "text area", "email", "password", "number", "telephone number", "url", "search")
+
+**Placeholder**
 Change the placeholder.
 
-**Read-only**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Text input
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (string): Text
+
+**Read-only**
 Set (or unset) if the text input is read-only.
 
-**Spell check enabled**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Text input
+    - Parameter 1 (❓ Yes or No): Read-only?
+
+**Spell check enabled**
 Set (or unset) if spell check is enabled.
 
-**Text color**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Text input
+    - Parameter 1 (❓ Yes or No): New value
+
+**Text color**
 Set the text color of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Text input
+    - Parameter 1: color
 
 ### Object conditions
 
-**Border opacity**  
+**Border opacity**
 Compare the border opacity, between 0 (fully transparent) and 255 (opaque).
 
-**Border width**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Text input
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Opacity (0-255)
+
+**Border width**
 Compare the border width.
 
-**Disabled**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Text input
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+**Disabled**
 Check if the text input is disabled.
 
-**Fill opacity**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Text input
+
+**Fill opacity**
 Compare the fill opacity, between 0 (fully transparent) and 255 (opaque).
 
-**Focused**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Text input
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Opacity (0-255)
+
+**Focused**
 Check if the text input is focused (the cursor is in the field and player can type text in).
 
-**Font size**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Text input
+
+**Font size**
 Compare the font size.
 
-**Font name**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Text input
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+**Font name**
 Compare the font name.
 
-**Input type**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Text input
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+
+**Input type**
 Compare the input type.
 
-**Input is submitted**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Text input
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Input type (one of: "text", "text area", "email", "password", "number", "telephone number", "url", "search")
+
+**Input is submitted**
 Check if the input is submitted, which usually happens when the Enter key is pressed on a keyboard, or a specific button on mobile virtual keyboards.
 
-**Placeholder**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Text input
+
+**Placeholder**
 Compare the placeholder.
 
-**Read-only**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Text input
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Text
+
+**Read-only**
 Check if the text input is read-only.
 
-**Spell check enabled**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Text input
+
+**Spell check enabled**
 Check if spell check is enabled.
+
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Text input
 
 ### Object expressions
 

@@ -6,50 +6,148 @@ By default, conditions related to the mouse will also handle the touches - so th
 
 ## Actions
 
-**Hide the cursor**  
+**Hide the cursor**
 Hide the cursor.
 
-**Show the cursor**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Show the cursor**
 Show the cursor.
 
-**De/activate moving the mouse cursor with touches**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**De/activate moving the mouse cursor with touches**
 When activated, any touch made on a touchscreen will also move the mouse cursor. When deactivated, mouse and touch positions will be completely independent.  
 By default, this is activated so that you can simply use the mouse conditions to also support touchscreens. If you want to have multitouch and differentiate mouse movement and touches, just deactivate it with this action.
 
+??? quote "See parameters"
+
+    - Parameter 1 (❓ Yes or No): Activate (yes by default when game is launched)
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
 ## Conditions
 
-**Cursor X position**  
+**Cursor X position**
 Compare the X position of the cursor or of a touch.
 
-**Cursor Y position**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3: 🔤 Layer name (String)
+    - Parameter 4 (🔢 Number): Camera number
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Cursor Y position**
 Compare the Y position of the cursor or of a touch.
 
-**A new touch has started**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3: 🔤 Layer name (String)
+    - Parameter 4 (🔢 Number): Camera number
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**A new touch has started**
 Check if a touch has just started or the mouse left button has been pressed on this frame. The touch identifiers can be accessed using StartedTouchOrMouseId() and StartedTouchOrMouseCount().
 
-**A touch has ended**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**A touch has ended**
 Check if a touch has ended or a mouse left button has been released.
 
-**Mouse cursor is inside the window**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Touch identifier
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Mouse cursor is inside the window**
 Check if the mouse cursor is inside the window.
 
-**The mouse wheel is scrolling down**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**The mouse wheel is scrolling down**
 Check if the mouse wheel is scrolling down. Use MouseWheelDelta expression if you want to know the amount that was scrolled.
 
-**The mouse wheel is scrolling up**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**The mouse wheel is scrolling up**
 Check if the mouse wheel is scrolling up. Use MouseWheelDelta expression if you want to know the amount that was scrolled.
 
-**Mouse button pressed or touch held**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Mouse button pressed or touch held**
 Check if the specified mouse button is pressed or if a touch is in contact with the screen.
 
-**Mouse button released**  
+??? quote "See parameters"
+
+    - Parameter 1 (mouseButton): Button to check
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Mouse button released**
 Check if the specified mouse button was released.
 
-**Touch X position**  
+??? quote "See parameters"
+
+    - Parameter 1 (mouseButton): Button to check
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Touch X position**
 Compare the X position of a specific touch.
 
-**Touch Y position**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Touch identifier
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+    - Parameter 4: 🔤 Layer name (String)
+    - Parameter 5 (🔢 Number): Camera number
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Touch Y position**
 Compare the Y position of a specific touch.
+
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Touch identifier
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+    - Parameter 4: 🔤 Layer name (String)
+    - Parameter 5 (🔢 Number): Camera number
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
 ## Expressions
 

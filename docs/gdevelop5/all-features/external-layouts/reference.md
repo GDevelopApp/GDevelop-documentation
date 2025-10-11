@@ -4,8 +4,17 @@ Provides actions and conditions related to external layouts. [Read more explanat
 
 ## Actions
 
-**Create objects from an external layout**  
+**Create objects from an external layout**
 Create objects from an external layout.
+
+??? quote "See parameters"
+
+    - Parameter 1: 🔤 External Layout Name (String)
+    - Parameter 2 (🔢 Number): X position of the origin
+    - Parameter 3 (🔢 Number): Y position of the origin
+    - Parameter 4 (🔢 Number): Z position of the origin
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
 
 

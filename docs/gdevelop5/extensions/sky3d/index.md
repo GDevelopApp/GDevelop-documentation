@@ -21,11 +21,37 @@ The color of the sky changes depending on the position of the sun: reddish at su
 
 ## Actions
 
-**Create sky**  
+**Create sky**
 Create sky and sun.
 
-**Set sky parameters**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Turbidity (0-20, default 10)
+    - Parameter 2 (🔢 Number): Rayleigh (0-4, default 3)
+    - Parameter 3 (🔢 Number): Mie coefficient (0-100, default 1)
+    - Parameter 4 (🔢 Number): Mie Directional (0-1, default 0.965)
+    - Parameter 5 (🔢 Number): Elevation (0-360, default 10)
+    - Parameter 6 (🔢 Number): Azimuth (0-360, default 0)
+    - Parameter 7 (🔢 Number): Exposure (0-1, default 0.5)
+    - Parameter 8: 🔤 Layer name (String)
+
+    > Technical note: parameters 0, 9 are internal parameters handled by GDevelop.
+
+**Set sky parameters**
 Set sky parameters.
+
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Turbidity (0-20, default 10)
+    - Parameter 2 (🔢 Number): Rayleigh (0-4, default 3)
+    - Parameter 3 (🔢 Number): Mie coefficient (0-100, default 1)
+    - Parameter 4 (🔢 Number): Mie Directional (0-1, default 0.965)
+    - Parameter 5 (🔢 Number): Elevation (0-360, default 10)
+    - Parameter 6 (🔢 Number): Azimuth (0-360, default 0)
+    - Parameter 7 (🔢 Number): Exposure (0-1, default 0.5)
+    - Parameter 8: 🔤 Layer name (String)
+
+    > Technical note: parameters 0, 9 are internal parameters handled by GDevelop.
 
 
 

@@ -57,11 +57,31 @@ Remap keyboard controls of the platformer character movement.
 
 ### Behavior actions
 
-**Remap Platformer controls to a custom scheme**  
+**Remap Platformer controls to a custom scheme**
 Remaps Platformer behavior controls to a custom control scheme.
 
-**Remap Platformer controls to a preset**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (keyboardKey): Up key
+    - Parameter 3 (keyboardKey): Left key
+    - Parameter 4 (keyboardKey): Down key
+    - Parameter 5 (keyboardKey): Right key
+    - Parameter 6 (keyboardKey): Jump key
+
+    > Technical note: parameter 7 are internal parameters handled by GDevelop.
+
+**Remap Platformer controls to a preset**
 Remaps Platformer behavior controls to a preset control scheme.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 String): Preset name (one of: "WASD", "ZQSD", "Numpad", "IJKL")
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 _No expressions for this behavior._
 
@@ -72,11 +92,30 @@ Remap keyboard controls of the top-down movement.
 
 ### Behavior actions
 
-**Remap Top-Down controls to a custom scheme**  
+**Remap Top-Down controls to a custom scheme**
 Remaps Top-Down behavior controls to a custom control scheme.
 
-**Remap Top-Down controls to a preset**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (keyboardKey): Up key
+    - Parameter 3 (keyboardKey): Left key
+    - Parameter 4 (keyboardKey): Down key
+    - Parameter 5 (keyboardKey): Right key
+
+    > Technical note: parameter 6 are internal parameters handled by GDevelop.
+
+**Remap Top-Down controls to a preset**
 Remaps Top-Down behavior controls to a preset control scheme.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 String): Preset name (one of: "WASD", "ZQSD", "Numpad", "IJKL")
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 _No expressions for this behavior._
 

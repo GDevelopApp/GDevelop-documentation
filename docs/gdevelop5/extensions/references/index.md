@@ -19,14 +19,36 @@ Adds actions to use references (variable that redirect any read/write to another
 
 ## Actions
 
-**Create reference to global variable**  
+**Create reference to global variable**
 Transforms a scene variable into a reference to a global variable.
 
-**Create reference to object variable**  
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Scene variable): The scene variable to turn into a reference
+    - Parameter 2 (🗄️ Global variable): The global variable the reference will refer to
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Create reference to object variable**
 Transforms a scene variable into a reference to an object's variable.
 
-**Create reference to scene variable**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): The object that possesses the variable to refer to
+    - Parameter 2 (🗄️ Scene variable): The scene variable to turn into a reference
+    - Parameter 3 (🗄️ Object variable): The object variable the reference will refer to
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Create reference to scene variable**
 Transforms a scene variable into a reference to another scene variable.
+
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Scene variable): The scene variable to turn into a reference
+    - Parameter 2 (🗄️ Scene variable): The scene variable the reference will refer to
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
 
 

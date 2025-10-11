@@ -30,67 +30,233 @@ Control how a projectile object moves including lifetime, distance, speed, and a
 
 ### Behavior actions
 
-**Restart lifetime timer**  
+**Restart lifetime timer**
 Restart lifetime timer of object.
 
-**Acceleration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Acceleration**
 Change the acceleration of the object. Use a negative number to slow down.
 
-**Change automatic deletion when distance from starting position is exceeded**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Change automatic deletion when distance from starting position is exceeded**
 Change automatic deletion when distance from starting position is exceeded.
 
-**Change automatic deletion when lifetime is exceeded**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): DeleteWhenDistanceExceeded
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Change automatic deletion when lifetime is exceeded**
 Change automatic deletion of object when lifetime is exceeded.
 
-**Max distance from starting position**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): DeleteWhenLifetimeExceeded
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Max distance from starting position**
 Change the max distance from starting position of the object. Object is deleted after property has been exceeded. Use "0" to ignore this property.
 
-**Lifetime**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Lifetime**
 Change the lifetime of the object. Object is deleted after property has been exceeded. Use "0" to ignore this property.
 
-**Max speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Max speed**
 Change the max speed of the object. Object forces cannot exceed this value. Use "0" to ignore this property.
 
-**MinSpeed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**MinSpeed**
 Change the minSpeed of the object. Object forces cannot go below this value. Use "0" to ignore this property.
 
-**Change starting position to the current position**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Change starting position to the current position**
 Change the starting position of object to it's current position.
 
-**Starting speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Starting speed**
 Change the starting speed of the object. Object will move in the direction it is facing when it is created. Use "0" to ignore this property.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Acceleration**  
+**Acceleration**
 Compare the acceleration of the object. Use a negative number to slow down.
 
-**Automatic deletion is enabled when distance from starting position is exceeded**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Automatic deletion is enabled when distance from starting position is exceeded**
 Check if automatic deletion is enabled when distance from starting position is exceeded.
 
-**Automatic deletion is enabled when lifetime is exceeded**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Automatic deletion is enabled when lifetime is exceeded**
 Check if automatic deletion is enabled when lifetime is exceeded.
 
-**Lifetime has been exceeded**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Lifetime has been exceeded**
 Check if lifetime has been exceeded (object will be deleted next frame).
 
-**Max distance from starting position has been exceeded**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Max distance from starting position has been exceeded**
 Check if max distance from starting position has been exceeded (object will be deleted next frame).
 
-**Max distance from starting position**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Max distance from starting position**
 Compare the max distance from starting position of the object. Object is deleted after property has been exceeded. Use "0" to ignore this property.
 
-**Lifetime**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Lifetime**
 Compare the lifetime of the object. Object is deleted after property has been exceeded. Use "0" to ignore this property.
 
-**Max speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Max speed**
 Compare the max speed of the object. Object forces cannot exceed this value. Use "0" to ignore this property.
 
-**MinSpeed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**MinSpeed**
 Compare the minSpeed of the object. Object forces cannot go below this value. Use "0" to ignore this property.
 
-**Starting speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Starting speed**
 Compare the starting speed of the object. Object will move in the direction it is facing when it is created. Use "0" to ignore this property.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

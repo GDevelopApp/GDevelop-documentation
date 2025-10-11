@@ -34,8 +34,21 @@ Variables given to Target Objects:
 
 ## Actions
 
-**Simulate explosion with physics forces**  
+**Simulate explosion with physics forces**
 Simulate an explosion with physics forces on target objects.
+
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Target Object
+    - Parameter 2 (🧩 Behavior): Physics Behavior (required)
+    - Parameter 3 (🔢 Number): Explosion center (X)
+    - Parameter 4 (🔢 Number): Explosion center (Y)
+    - Parameter 5 (🔢 Number): Max force (of explosion)
+      Force decreases the farther an object is from the explosion center.
+    - Parameter 6 (🔢 Number): Max distance (from center of explosion) (pixels)
+      Objects less than this distance will be affected by the explosion.
+
+    > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
 
 

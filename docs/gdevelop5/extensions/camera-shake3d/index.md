@@ -25,43 +25,131 @@ Shake layer cameras on 3 rotations.
 
 ## Actions
 
-**Horizontal rotation amplitude**  
+**Horizontal rotation amplitude**
 Change the horizontal rotation amplitude of the shaking (in degrees).
 
-**Shakable layer**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+    - Parameter 3: 🔤 Layer name (String)
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Shakable layer**
 Mark a layer as shakable.
 
-**Layer shaking frequency**  
+??? quote "See parameters"
+
+    - Parameter 1 (❓ Yes or No): Shakable
+    - Parameter 2: 🔤 Layer name (String)
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Layer shaking frequency**
 Change the number of back and forth per seconds.
 
-**Spinning shake amplitude**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Frequency
+    - Parameter 2: 🔤 Layer name (String)
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Spinning shake amplitude**
 Change the spinning amplitude of the shaking (in degrees).
 
-**Vertical rotation amplitude**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+    - Parameter 3: 🔤 Layer name (String)
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Vertical rotation amplitude**
 Change the vertical rotation amplitude of the shaking (in degrees).
 
-**Shake camera**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+    - Parameter 3: 🔤 Layer name (String)
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Shake camera**
 Shake the camera on layers chosen with configuration actions.
 
-**Start camera shaking**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Duration (in seconds)
+    - Parameter 2 (🔢 Number): Ease duration to start (in seconds)
+    - Parameter 3 (🔢 Number): Ease duration to stop (in seconds)
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Start camera shaking**
 Start shaking the camera indefinitely.
 
-**Stop camera shaking**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Ease duration (in seconds)
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Stop camera shaking**
 Stop shaking the camera.
+
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Ease duration (in seconds)
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**Horizontal rotation amplitude**  
+**Horizontal rotation amplitude**
 Compare the horizontal rotation amplitude of the shaking (in degrees).
 
-**Camera is shaking**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3: 🔤 Layer name (String)
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Camera is shaking**
 Check if the camera is shaking.
 
-**Spinning shake amplitude**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Spinning shake amplitude**
 Compare the spinning amplitude of the shaking (in degrees).
 
-**Vertical rotation amplitude**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3: 🔤 Layer name (String)
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Vertical rotation amplitude**
 Compare the vertical rotation amplitude of the shaking (in degrees).
+
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3: 🔤 Layer name (String)
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
 ## Expressions
 

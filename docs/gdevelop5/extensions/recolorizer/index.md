@@ -36,11 +36,30 @@ Independently change the colors of a panel sprite.
 
 ### Behavior actions
 
-**Recolorize**  
+**Recolorize**
 Replace a given color of an object with another one. The scope allows to change similar colors at once.
 
-**Reset color**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (color): Origin color
+    - Parameter 3 (color): Target color
+    - Parameter 4 (🔢 Number): Hue scope (from 0° to 180°)
+    - Parameter 5 (🔢 Number): Saturation scope (in percent)
+    - Parameter 6 (🔢 Number): Lightness scope (in percent)
+
+    > Technical note: parameter 7 are internal parameters handled by GDevelop.
+
+**Reset color**
 Set back the original colors of an object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 _No expressions for this behavior._
 
@@ -51,11 +70,30 @@ Independently change the colors of a sprite.
 
 ### Behavior actions
 
-**Recolorize**  
+**Recolorize**
 Replace a given color of an object with another one. The scope allows to change similar colors at once.
 
-**Reset color**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (color): Origin color
+    - Parameter 3 (color): Target color
+    - Parameter 4 (🔢 Number): Hue scope (from 0° to 180°)
+    - Parameter 5 (🔢 Number): Saturation scope (in percent)
+    - Parameter 6 (🔢 Number): Lightness scope (in percent)
+
+    > Technical note: parameter 7 are internal parameters handled by GDevelop.
+
+**Reset color**
 Set back the original colors of an object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 _No expressions for this behavior._
 
@@ -66,11 +104,30 @@ Independently change the colors of a tiled sprite.
 
 ### Behavior actions
 
-**Recolorize**  
+**Recolorize**
 Replace a given color of an object with another one. The scope allows to change similar colors at once.
 
-**Reset color**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (color): Origin color
+    - Parameter 3 (color): Target color
+    - Parameter 4 (🔢 Number): Hue scope (from 0° to 180°)
+    - Parameter 5 (🔢 Number): Saturation scope (in percent)
+    - Parameter 6 (🔢 Number): Lightness scope (in percent)
+
+    > Technical note: parameter 7 are internal parameters handled by GDevelop.
+
+**Reset color**
 Set back the original colors of an object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 _No expressions for this behavior._
 

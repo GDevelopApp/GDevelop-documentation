@@ -42,274 +42,1042 @@ Use a 2D grid position to retrieve your informations. It uses the basic slot sys
 
 ## Actions
 
-**Add item automatically**  
+**Add item automatically**
 Add automatically an item to its slot, or the next empty slot if necessary.
 
-**Add named slot**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔤 Name (String)): Item
+    - Parameter 3 (🔢 Number): Quantity
+    - Parameter 4 (🔢 Number): Maximum quantity
+      Set 0 for unlimited slot.
+    - Parameter 5 (❓ Yes or No): Can flood on other empty slots
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Add named slot**
 Add a special slot with a name to the space.
 
-**Import JSON string**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔤 Name (String)): Slot name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Import JSON string**
 Import a JSON string and convert it in a slot system.
 
-**Delete the grid slot**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (string): JSON string
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Delete the grid slot**
 Delete a grid slot from a space.
 
-**Delete the named slot**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔢 Number): Column index
+    - Parameter 3 (🔢 Number): Row index
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Delete the named slot**
 Delete a slot from a space.
 
-**Delete the slot**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔤 Name (String)): Slot name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Delete the slot**
 Delete a slot from a space.
 
-**Move item on the grid**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔢 Number): Slot
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Move item on the grid**
 Move an item from a position to an other on the grid.
 
-**Move item from named slot to named slot**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔢 Number): From column index
+    - Parameter 3 (🔢 Number): From row index
+    - Parameter 4 (🔢 Number): To column index
+      If this slot already contains an item, it will be erased.
+    - Parameter 5 (🔢 Number): To row index
+    - Parameter 6 (❓ Yes or No): Exchange if the target already contains an item
+
+    > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
+
+**Move item from named slot to named slot**
 Move an item from a named slot to an other.
 
-**Move item from named slot to slot**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): From space name
+    - Parameter 2 (🔤 Name (String)): From slot name
+    - Parameter 3 (🔤 Name (String)): To space name
+    - Parameter 4 (🔤 Name (String)): To slot name
+      If this slot already contains an item, it will be erased.
+    - Parameter 5 (❓ Yes or No): Exchange if the target already contains an item
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Move item from named slot to slot**
 Move an item from a slot to an other.
 
-**Move item from slot to named slot**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): From space name
+    - Parameter 2 (🔤 Name (String)): From slot name
+    - Parameter 3 (🔤 Name (String)): To space name
+    - Parameter 4 (🔢 Number): To slot
+      If this slot already contains an item, it will be erased.
+    - Parameter 5 (❓ Yes or No): Exchange if the target already contains an item
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Move item from slot to named slot**
 Move an item from a slot to an other.
 
-**Move item from slot to slot**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): From space name
+    - Parameter 2 (🔢 Number): From slot
+    - Parameter 3 (🔤 Name (String)): To space name
+    - Parameter 4 (🔤 Name (String)): To slot name
+      If this slot already contains an item, it will be erased.
+    - Parameter 5 (❓ Yes or No): Exchange if the target already contains an item
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Move item from slot to slot**
 Move an item from a slot to an other.
 
-**Delete grid slot property**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): From space name
+    - Parameter 2 (🔢 Number): From slot
+    - Parameter 3 (🔤 Name (String)): To space name
+    - Parameter 4 (🔢 Number): To slot
+      If this slot already contains an item, it will be erased.
+    - Parameter 5 (❓ Yes or No): Exchange if the target already contains an item
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Delete grid slot property**
 Delete a property content from a grid slot.
 
-**Delete named slot property**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔢 Number): Column index
+    - Parameter 3 (🔢 Number): Row index
+    - Parameter 4 (🔤 Name (String)): Property name
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Delete named slot property**
 Delete a property content from a named slot.
 
-**Delete slot property**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔤 Name (String)): Slot name
+    - Parameter 3 (🔤 Name (String)): Property name
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Delete slot property**
 Delete a property content from a slot.
 
-**Grid slot count**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔢 Number): Slot
+    - Parameter 3 (🔤 Name (String)): Property name
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Grid slot count**
 Change the grid slot count of a space.
 
-**Empty the grid slot**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔢 Number): Column index
+    - Parameter 5 (🔢 Number): Row index
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Empty the grid slot**
 Empty the grid slot of the space only. It still exists in the space.
 
-**Set an item in a grid slot**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔢 Number): Column index
+    - Parameter 3 (🔢 Number): Row index
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Set an item in a grid slot**
 Set an item in a grid slot of a space.
 
-**Grid slot max count**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔢 Number): Column index
+    - Parameter 3 (🔢 Number): Row index
+    - Parameter 4 (🔤 Name (String)): Item name
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Grid slot max count**
 Change the grid slot max count, or 0 if unlimited.
 
-**Grid slot number property**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔢 Number): Column index
+    - Parameter 5 (🔢 Number): Row index
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Grid slot number property**
 Change the number property of a grid slot.
 
-**Grid slot text property**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔢 Number): Column index
+    - Parameter 5 (🔢 Number): Row index
+    - Parameter 6 (🔤 Name (String)): Property name
+
+    > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
+
+**Grid slot text property**
 Change the text property of a grid slot.
 
-**Set grid slot unlimited**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (string): Value
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔢 Number): Column index
+    - Parameter 5 (🔢 Number): Row index
+    - Parameter 6 (🔤 Name (String)): Property name
+
+    > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
+
+**Set grid slot unlimited**
 Set the max count of a grid slot to be unlimited.
 
-**Named slot count**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔢 Number): Column index
+    - Parameter 3 (🔢 Number): Row index
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Named slot count**
 Change the named slot count of a space.
 
-**Empty the named slot**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔤 Name (String)): Slot name
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Empty the named slot**
 Empty the named slot of the space only. It still exists in the space.
 
-**Set an item in a named slot**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔤 Name (String)): Slot name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Set an item in a named slot**
 Set an item in a named slot of a space.
 
-**Named slot max count**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔤 Name (String)): Slot name
+    - Parameter 3 (🔤 Name (String)): Item name
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Named slot max count**
 Change the named slot max count, or 0 if unlimited.
 
-**Named slot number property**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔤 Name (String)): Slot name
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Named slot number property**
 Change the number property of a named slot.
 
-**Named slot text property**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔤 Name (String)): Slot name
+    - Parameter 5 (🔤 Name (String)): Property name
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Named slot text property**
 Change the text property of a named slot.
 
-**Set named slot unlimited**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (string): Value
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔤 Name (String)): Slot name
+    - Parameter 5 (🔤 Name (String)): Property name
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Set named slot unlimited**
 Set the max count of a named slot to be unlimited.
 
-**Slot count**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔤 Name (String)): Slot name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Slot count**
 Change the slot count of a space.
 
-**Empty the slot**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔢 Number): Slot
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Empty the slot**
 Empty the slot of the space only. It still exists in the space.
 
-**Set an item in a slot**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔢 Number): Slot
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Set an item in a slot**
 Set an item in a slot of a space.
 
-**Slot max count**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔢 Number): Slot
+    - Parameter 3 (🔤 Name (String)): Item name
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Slot max count**
 Change the slot max count, or 0 if unlimited.
 
-**Slot number property**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔢 Number): Slot
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Slot number property**
 Change the number property of a slot.
 
-**Slot text property**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔢 Number): Slot
+    - Parameter 5 (🔤 Name (String)): Property name
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Slot text property**
 Change the text property of a slot.
 
-**Set slot unlimited**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (string): Value
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔢 Number): Slot
+    - Parameter 5 (🔤 Name (String)): Property name
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Set slot unlimited**
 Set the max count of a slot to be unlimited.
 
-**Set grid size**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔢 Number): Slot
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Set grid size**
 Set the space size using grid dimension.
 
-**Set space size**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔢 Number): Columns
+    - Parameter 3 (🔢 Number): Rows
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Set space size**
 Set the amount of slots in the space.
 
-**Sort items by property**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔢 Number): Size
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Sort items by property**
 Sort items and move them into a new slot order.
+
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔤 Name (String)): Property name
+    - Parameter 3 (❓ True or False): From named slots
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**Convert grid position to slot index**  
+**Convert grid position to slot index**
 Compare a slot index of a grid position.
 
-**Convert a slot to a grid column index**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔢 Number): Column index
+    - Parameter 5 (🔢 Number): Row index
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Convert a slot to a grid column index**
 Compare the column index from a slot.
 
-**Convert a slot to a grid row index**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔢 Number): Slot
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Convert a slot to a grid row index**
 Compare the row index from a slot.
 
-**Named slot exists**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔢 Number): Slot
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Named slot exists**
 Check if the named slot exists.
 
-**The space exists**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔤 Name (String)): Slot name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**The space exists**
 Check if the space exists.
 
-**Filled named slots**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Filled named slots**
 Compare the amount of filled named slots of a space.
 
-**Filled slots**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Filled slots**
 Compare the amount of filled slots of a space.
 
-**First empty slot**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**First empty slot**
 Compare First empty slot. Set to -1 if no slot is found.
 
-**First item slot**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**First item slot**
 Compare First slot containing a specific item. Set to -1 if no slot is found.
 
-**First available slot**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔤 Name (String)): Item
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**First available slot**
 Compare First slot containing a specific item that is not full. Set to -1 if no slot is found.
 
-**Item at a grid position**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔤 Name (String)): Item
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Item at a grid position**
 Compare the item at grid postion.
 
-**Grid slot count**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 Name (String)): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔢 Number): Column index
+    - Parameter 5 (🔢 Number): Row index
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Grid slot count**
 Compare the grid slot count of a space.
 
-**Grid slot max count**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔢 Number): Column index
+    - Parameter 5 (🔢 Number): Row index
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Grid slot max count**
 Compare the grid slot max count, or 0 if unlimited.
 
-**The space has empty named slots**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔢 Number): Column index
+    - Parameter 5 (🔢 Number): Row index
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**The space has empty named slots**
 Check if the space contains empty named slots.
 
-**The space has empty slots**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**The space has empty slots**
 Check if the space contains empty slots.
 
-**Grid slot has property**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Grid slot has property**
 Check if a property is set on a slot.
 
-**Named slot has property**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔢 Number): Column index
+    - Parameter 3 (🔢 Number): Row index
+    - Parameter 4 (🔤 Name (String)): Property name
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Named slot has property**
 Check if a property is set on a named slot.
 
-**Slot has property**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔤 Name (String)): Slot name
+    - Parameter 3 (🔤 Name (String)): Property name
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Slot has property**
 Check if a property is set on a slot.
 
-**Grid slot contains an item**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔢 Number): Slot
+    - Parameter 3 (🔤 Name (String)): Property name
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Grid slot contains an item**
 The grid slot contains one or more items.
 
-**Grid slot is full**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔢 Number): Column index
+    - Parameter 3 (🔢 Number): Row index
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Grid slot is full**
 The grid slot is full.
 
-**Grid slot is unlimited**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔢 Number): Column index
+    - Parameter 3 (🔢 Number): Row index
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Grid slot is unlimited**
 Check if the slot has an unlimited count.
 
-**Named slot contains an item**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔢 Number): Column index
+    - Parameter 3 (🔢 Number): Row index
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Named slot contains an item**
 The named slot contains one or more items.
 
-**Named slot is full**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔤 Name (String)): Slot name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Named slot is full**
 The slot is full.
 
-**Named slot is unlimited**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔤 Name (String)): Slot name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Named slot is unlimited**
 Check if the named slot has an unlimited count.
 
-**Slot contains an item**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔤 Name (String)): Slot name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Slot contains an item**
 The slot contains one or more items.
 
-**Slot is full**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔢 Number): Slot
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Slot is full**
 The slot is full.
 
-**Slot position in grid**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔢 Number): Slot
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Slot position in grid**
 Check if the slot position is inside the grid boundaries.
 
-**Slot is unlimited**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔢 Number): Column index
+    - Parameter 3 (🔢 Number): Row index
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Slot is unlimited**
 Check if the slot has an unlimited count.
 
-**The grid exists**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+    - Parameter 2 (🔢 Number): Slot
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**The grid exists**
 Check if the space has a grid.
 
-**Named slot count**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Space name
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Named slot count**
 Compare the named slot count of a space.
 
-**Named slot item name**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔤 Name (String)): Slot name
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Named slot item name**
 Compare the item name of a slot.
 
-**Named slot max count**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔤 Name (String)): Slot name
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Named slot max count**
 Compare the named slot max count, or 0 if unlimited.
 
-**Slot property count**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔤 Name (String)): Slot name
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Slot property count**
 Compare the property count of a space.
 
-**Grid slot number property**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔤 Name (String)): Property name
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Grid slot number property**
 Compare the number property of a grid slot.
 
-**Named slot number property**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔢 Number): Column index
+    - Parameter 5 (🔢 Number): Row index
+    - Parameter 6 (🔤 Name (String)): Property name
+
+    > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
+
+**Named slot number property**
 Compare the number property of a named slot.
 
-**Slot number property**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔤 Name (String)): Slot name
+    - Parameter 5 (🔤 Name (String)): Property name
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Slot number property**
 Compare the number property of a slot.
 
-**Remaining named slots**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔢 Number): Slot
+    - Parameter 5 (🔤 Name (String)): Property name
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Remaining named slots**
 Compare the remaining named slots of a space.
 
-**Remaining slots**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Remaining slots**
 Compare the remaining slots of a space.
 
-**Slot count**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Slot count**
 Compare the slot count of a space.
 
-**Slot item name**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔢 Number): Slot
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Slot item name**
 Compare the item name of a slot.
 
-**Slot max count**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔢 Number): Slot
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Slot max count**
 Compare the slot max count, or 0 if unlimited.
 
-**Slot property count**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔢 Number): Slot
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Slot property count**
 Compare the property count of a space.
 
-**Space grid height**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔤 Name (String)): Property name
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Space grid height**
 Compare the space grid height.
 
-**Space grid width**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Space grid width**
 Compare the space grid width.
 
-**Space named slot size**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Space named slot size**
 Compare how many slots the space has.
 
-**Space slot size**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Space slot size**
 Compare how many slots the space has.
 
-**Sum of named slot properties**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Sum of named slot properties**
 Compare Sum all the values of a slot property.
 
-**Sum of slot properties**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔤 Name (String)): Property name
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Sum of slot properties**
 Compare Sum all the values of a slot property.
 
-**Grid slot text property**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔤 Name (String)): Property name
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Grid slot text property**
 Compare the text property of a grid slot.
 
-**Named slot text property**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔢 Number): Column index
+    - Parameter 5 (🔢 Number): Row index
+    - Parameter 6 (🔤 Name (String)): Property name
+
+    > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
+
+**Named slot text property**
 Compare the text property of a named slot.
 
-**Slot text property**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔤 Name (String)): Slot name
+    - Parameter 5 (🔤 Name (String)): Property name
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Slot text property**
 Compare the text property of a slot.
+
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+    - Parameter 3 (🔤 Name (String)): Space name
+    - Parameter 4 (🔢 Number): Slot
+    - Parameter 5 (🔤 Name (String)): Property name
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
 ## Expressions
 

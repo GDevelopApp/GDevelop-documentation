@@ -4,142 +4,195 @@ Allow to display AdMob banners, app open, interstitials, rewarded interstitials 
 
 ## Actions
 
-**Mark the reward of the rewarded interstitial as claimed**  
+**Mark the reward of the rewarded interstitial as claimed**
 Mark the rewarded interstitial reward as claimed. Useful if you used the condition to check if the reward was given to the user without clearing the reward.
 
-**Mark the reward of the rewarded video as claimed**  
+**Mark the reward of the rewarded video as claimed**
 Mark the rewarded video reward as claimed. Useful if you used the condition to check if the reward was given to the user without clearing the reward.
 
-**Hide banner**  
+**Hide banner**
 Hide the banner. You can show it again with the corresponding action.
 
-**Initialize AdMob manually**  
+**Initialize AdMob manually**
 Initialize AdMob manually. This will trigger the consent dialog if needed, and then load the ads.  
 Use this action if you have disabled the auto init and want to control when the consent dialog will be shown.
 
-**Load app open**  
+**Load app open**
 Start loading an app open (that can be displayed automatically when the loading is finished).  
 If test mode is set, a test app open will be displayed.
 
-**Load interstitial**  
+??? quote "See parameters"
+
+    - Parameter 0 (string): Android app open ID
+      Get it from your AdMob account. You can use `"ca-app-pub-3940256099942544/9257395921"` for loading a test app open.
+    - Parameter 1 (string): iOS app open ID
+      Get it from your AdMob account. You can use `"ca-app-pub-3940256099942544/5575463023"` for loading a test app open.
+    - Parameter 2 (❓ Yes or No): Display in landscape? (portrait otherwise)
+    - Parameter 3 (❓ Yes or No): Displayed automatically when loading is finished?
+
+**Load interstitial**
 Start loading an interstitial (that can be displayed automatically when the loading is finished).  
 If test mode is set, a test interstitial will be displayed.
 
-**Load rewarded interstitial**  
+??? quote "See parameters"
+
+    - Parameter 0 (string): Android interstitial ID
+      Get it from your AdMob account. You can use `"ca-app-pub-3940256099942544/1033173712"` for loading a test interstitial.
+    - Parameter 1 (string): iOS interstitial ID
+      Get it from your AdMob account. You can use `"ca-app-pub-3940256099942544/4411468910"` for loading a test interstitial.
+    - Parameter 2 (❓ Yes or No): Displayed automatically when loading is finished?
+
+**Load rewarded interstitial**
 Start loading a rewarded interstitial (that can be displayed automatically when the loading is finished).  
 If test mode is set, a test rewarded interstitial will be displayed.
 This is similar to a rewarded video, but can be displayed at any time, and the user can close it.
 
-**Load rewarded video**  
+??? quote "See parameters"
+
+    - Parameter 0 (string): Android rewarded interstitial ID
+      Get it from your AdMob account. You can use `"ca-app-pub-3940256099942544/5354046379"` for loading a test rewarded interstitial.
+    - Parameter 1 (string): iOS interstitial ID
+      Get it from your AdMob account. You can use `"ca-app-pub-3940256099942544/6978759866"` for loading a test rewarded interstitial.
+    - Parameter 2 (❓ Yes or No): Displayed automatically when loading is finished?
+
+**Load rewarded video**
 Start loading a reward video (that can be displayed automatically when the loading is finished).  
 If test mode is set, a test video will be displayed.
 
-**Prevent AdMob auto initialization**  
+??? quote "See parameters"
+
+    - Parameter 0 (string): Android reward video ID
+      Get it from your AdMob account. You can use `"ca-app-pub-3940256099942544/5224354917"` for loading a test rewarded video.
+    - Parameter 1 (string): iOS reward video ID
+      Get it from your AdMob account. You can use `"ca-app-pub-3940256099942544/1712485313"` for loading a test rewarded video.
+    - Parameter 2 (❓ Yes or No): Displayed automatically when loading is finished?
+
+**Prevent AdMob auto initialization**
 Prevent AdMob from initializing automatically. You will need to call "Initialize AdMob" action manually.  
 This is useful if you want to control when the consent dialog will be shown (for example, after the user has accepted your game terms).
 
-**Enable test mode**  
+**Enable test mode**
 Activate or deactivate the test mode ("development" mode).  
 When activated, tests ads will be served instead of real ones.
 
 It is important to enable test ads during development so that you can click on them without charging advertisers. If you click on too many ads without being in test mode, you risk your account being flagged for invalid activity.
 
-**Configure the banner**  
+??? quote "See parameters"
+
+    - Parameter 0 (❓ Yes or No): Enable test mode?
+
+**Configure the banner**
 Configure a banner, which can then be displayed.  
 If a banner is already displayed, it will be removed
 If test mode is set, a test banner will be displayed.
 
 Once a banner is positioned (at the top or bottom of the game), it can't be moved anymore.
 
-**Show app open**  
+??? quote "See parameters"
+
+    - Parameter 0 (string): Android banner ID
+      Get it from your AdMob account. You can use `"ca-app-pub-3940256099942544/6300978111"` for showing a test banner.
+    - Parameter 1 (string): iOS banner ID
+      Get it from your AdMob account. You can use `"ca-app-pub-3940256099942544/2934735716"` for showing a test banner.
+    - Parameter 2 (❓ Yes or No): Display at top? (bottom otherwise)
+
+**Show app open**
 Show the app open that was loaded. Will work only when the app open is fully loaded.
 
-**Show banner**  
+**Show banner**
 Show the banner that was previously set up.
 
-**Show interstitial**  
+**Show interstitial**
 Show the interstitial that was loaded. Will work only when the interstitial is fully loaded.
 
-**Show rewarded interstitial**  
+**Show rewarded interstitial**
 Show the rewarded interstitial that was loaded. Will work only when the rewarded interstitial is fully loaded.
 
-**Show rewarded video**  
+**Show rewarded video**
 Show the reward video that was loaded. Will work only when the video is fully loaded.
 
 ## Conditions
 
-**AdMob initialized**  
+**AdMob initialized**
 Check if AdMob has been initialized.
 
-**AdMob initializing**  
+**AdMob initializing**
 Check if AdMob is initializing.
 
-**App open errored**  
+**App open errored**
 Check if there was an error while loading the app open.
 
-**App open loading**  
+**App open loading**
 Check if an app open is currently loading.
 
-**App open ready**  
+**App open ready**
 Check if an app open is ready to be displayed.
 
-**App open showing**  
+**App open showing**
 Check if there is an app open being displayed.
 
-**Banner configured**  
+**Banner configured**
 Check if there is a banner correctly configured ready to be shown.
 
-**Banner had an error**  
+**Banner had an error**
 Check if there was a error while displaying a banner.
 
-**Banner loaded**  
+**Banner loaded**
 Check if there is a banner correctly loaded ready to be shown.
 
-**Banner showing**  
+**Banner showing**
 Check if there is a banner being displayed.
 
-**Interstitial had an error**  
+**Interstitial had an error**
 Check if there was a error while loading the interstitial.
 
-**Interstitial loading**  
+**Interstitial loading**
 Check if an interstitial is currently loading.
 
-**Interstitial ready**  
+**Interstitial ready**
 Check if an interstitial is ready to be displayed.
 
-**Interstitial showing**  
+**Interstitial showing**
 Check if there is an interstitial being displayed.
 
-**Rewarded interstitial had an error**  
+**Rewarded interstitial had an error**
 Check if there was a error while loading the rewarded interstitial.
 
-**Rewarded interstitial loading**  
+**Rewarded interstitial loading**
 Check if a rewarded interstitial is currently loading.
 
-**Rewarded interstitial ready**  
+**Rewarded interstitial ready**
 Check if a rewarded interstitial is ready to be displayed.
 
-**Rewarded Interstitial reward received**  
+**Rewarded Interstitial reward received**
 Check if the reward of the rewarded interstitial was given to the user.  
 You can mark this reward as cleared, so that the condition will be false and you can show later another rewarded interstitial.
 
-**Rewarded interstitial showing**  
+??? quote "See parameters"
+
+    - Parameter 0 (❓ Yes or No): Clear the reward (needed to show another rewarded interstitial)
+
+**Rewarded interstitial showing**
 Check if there is a rewarded interstitial being displayed.
 
-**Rewarded video had an error**  
+**Rewarded video had an error**
 Check if there was a error while loading the rewarded video.
 
-**Rewarded video loading**  
+**Rewarded video loading**
 Check if a rewarded video is currently loading.
 
-**Rewarded video ready**  
+**Rewarded video ready**
 Check if a rewarded video is ready to be displayed.
 
-**Rewarded Video reward received**  
+**Rewarded Video reward received**
 Check if the reward of the rewarded video was given to the user.  
 You can mark this reward as cleared, so that the condition will be false and you can show later another rewarded video.
 
-**Rewarded video showing**  
+??? quote "See parameters"
+
+    - Parameter 0 (❓ Yes or No): Clear the reward (needed to show another rewarded video)
+
+**Rewarded video showing**
 Check if there is a rewarded video being displayed.
 
 

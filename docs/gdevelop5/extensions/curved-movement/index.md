@@ -33,52 +33,166 @@ A collection of [small examples](https://editor.gdevelop.io/?project=example://c
 
 ## Actions
 
-**Append a curve**  
+**Append a curve**
 Append a cubic Bezier curve at the end of the path.
 
-**Append a line**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Path name
+    - Parameter 2 (🔢 Number): First control point X
+    - Parameter 3 (🔢 Number): First control point Y
+    - Parameter 4 (🔢 Number): Second Control point X
+    - Parameter 5 (🔢 Number): Second Control point Y
+    - Parameter 6 (🔢 Number): Destination point X
+    - Parameter 7 (🔢 Number): Destination point Y
+    - Parameter 8 (❓ Yes or No): Relative
+
+    > Technical note: parameters 0, 9 are internal parameters handled by GDevelop.
+
+**Append a line**
 Append a line at the end of the path.
 
-**Append a smooth curve**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Path name
+    - Parameter 2 (🔢 Number): Destination point X
+    - Parameter 3 (🔢 Number): Destination point Y
+    - Parameter 4 (❓ Yes or No): Relative
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Append a smooth curve**
 Append a cubic Bezier curve to the end of an object's path. The first control point is symmetrical to the last control point of the path.
 
-**Append a path**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Path name
+    - Parameter 2 (🔢 Number): Second Control point X
+    - Parameter 3 (🔢 Number): Second Control point Y
+    - Parameter 4 (🔢 Number): Destination point X
+    - Parameter 5 (🔢 Number): Destination point Y
+    - Parameter 6 (❓ Yes or No): Relative
+
+    > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
+
+**Append a path**
 Append a path to another path.
 
-**Append a rotated path**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Name of the path to modify
+    - Parameter 2 (🔤 Name (String)): Name of the path to add to the first one
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Append a rotated path**
 Append a path to another path. The appended path is rotated to have a smooth junction.
 
-**Close a path**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Name of the path to modify
+    - Parameter 2 (🔤 Name (String)): Name of the path to add to the first one
+    - Parameter 3 (❓ Yes or No): Flip the appended path
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Close a path**
 Append a line to close the path.
 
-**Create a path from SVG**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Path name
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Create a path from SVG**
 Create a path from SVG commands, for instance "M 0,0 C 55,0 100,45 100,100". Commands are: M = Move, C = Curve, S = Smooth, L = Line. Lower case is for relative positions. The preferred way to build the commands is to use an external SVG editor like Inkscape.
 
-**Delete a path**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Path name
+    - Parameter 2 (string): SVG commands
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Delete a path**
 Delete a path from the memory.
 
-**Duplicate a path**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Path name
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Duplicate a path**
 Duplicate a path.
 
-**Invert a path**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Name of the path to create
+    - Parameter 2 (🔤 Name (String)): Name of the source path
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Invert a path**
 Invert a path, the end becomes the beginning.
 
-**Rotate a path**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Path name
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Rotate a path**
 Rotate a path.
 
-**Scale a path**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Path name
+    - Parameter 2 (🔢 Number): Rotation angle
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Scale a path**
 Scale a path.
 
-**Speed scale Y**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Path name
+    - Parameter 2 (🔢 Number): Scale on X axis
+    - Parameter 3 (🔢 Number): Scale on Y axis
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Speed scale Y**
 Change the speed scale on Y axis. This allows to change the view point of a path (top-dwon or isometry).
+
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Path name
+    - Parameter 2 (🔢 Number): Speed scale on Y axis (0.5 for pixel isometry)
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**Is  closed**  
+**Is  closed**
 Check if a path is closed.
 
-**Path exists**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Path name
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Path exists**
 Path exists.
+
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Path name
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 ## Expressions
 
@@ -136,52 +250,184 @@ Move objects on curved paths at a given speed.
 
 ### Behavior actions
 
-**Accelerate**  
+**Accelerate**
 Make an object accelerate until it reaches a given speed.
 
-**Accelerate during**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Targeted speed (in pixels per second)
+    - Parameter 3 (🔢 Number): Acceleration (in pixels per second per second)
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Accelerate during**
 Make an object accelerate to reaches a speed in a given amount of time.
 
-**Draw the trajectory**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Targeted speed (in pixels per second)
+    - Parameter 3 (🔢 Number): Duration (in seconds)
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Draw the trajectory**
 Draw the object trajectory.
 
-**Follow a path**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): Shape painter
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Follow a path**
 Change the path followed by an object.
 
-**Follow a path to a position**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Path name
+      The path can be define with the "Append curve" action.
+    - Parameter 3 (🔢 Number): Number of repetitions
+    - Parameter 4 (❓ Yes or No): Loop
+
+    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+
+**Follow a path to a position**
 Change the path followed by an object to reach a position.
 
-**Position on the path**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Path name
+      The path can be define with the "Append curve" action.
+    - Parameter 3 (🔢 Number): Number of repetitions
+    - Parameter 4 (❓ Yes or No): Loop
+    - Parameter 5 (🔢 Number): Destination X
+    - Parameter 6 (🔢 Number): Destination Y
+
+    > Technical note: parameter 7 are internal parameters handled by GDevelop.
+
+**Position on the path**
 Change the length between the trajectory origin and the current position counting the loops.
 
-**Speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Speed**
 Change the speed of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Can move further**  
+**Can move further**
 Check if the object can still move in the current direction.
 
-**Reach an end**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Reach an end**
 Check if the object has reached one of the 2 ends of the path.
 
-**Reached path origin**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Reached path origin**
 Check if the object has reached the origin position of the path.
 
-**Reached path target**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Reached path target**
 Check if the object has reached the target position of the path.
 
-**Current loop**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Current loop**
 Compare the number time the object loop the trajectory.
 
-**Position on the loop**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Position on the loop**
 Compare the length between the trajectory origin and the current position without counting the loops.
 
-**Position on the path**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Position on the path**
 Compare the length between the trajectory origin and the current position counting the loops.
 
-**Speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Speed**
 Compare the speed of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 
@@ -201,28 +447,106 @@ Move objects on curved paths in a given duration and tween easing function.
 
 ### Behavior actions
 
-**Draw the trajectory**  
+**Draw the trajectory**
 Draw the object trajectory.
 
-**Move on path**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): Shape painter
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Move on path**
 Move the object by following a path.
 
-**Move back and forth**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Path name
+      The path can be define with the "Append curve" action.
+    - Parameter 3 (🔢 Number): Number of repetitions
+    - Parameter 4 (🔢 Number): Duration in seconds
+    - Parameter 5 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+
+    > Technical note: parameter 6 are internal parameters handled by GDevelop.
+
+**Move back and forth**
 Move the object by following a path and go back.
 
-**Move on path to a position**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Path name
+      The path can be define with the "Append curve" action.
+    - Parameter 3 (🔢 Number): Number of repetitions
+    - Parameter 4 (🔢 Number): Duration in seconds
+    - Parameter 5 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 6 (🔢 Number): Duration to wait before going back
+    - Parameter 7 (❓ Yes or No): Loop
+
+    > Technical note: parameter 8 are internal parameters handled by GDevelop.
+
+**Move on path to a position**
 Move the object to a position by following a path.
 
-**Move back and forth to a position**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Path name
+      The path can be define with the "Append curve" action.
+    - Parameter 3 (🔢 Number): Number of repetitions
+    - Parameter 4 (🔢 Number): Duration in seconds
+    - Parameter 5 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 6 (🔢 Number): Destination X
+    - Parameter 7 (🔢 Number): Destination Y
+
+    > Technical note: parameter 8 are internal parameters handled by GDevelop.
+
+**Move back and forth to a position**
 Move the object to a position by following a path and go back.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 Name (String)): Path name
+      The path can be define with the "Append curve" action.
+    - Parameter 3 (🔢 Number): Number of repetitions
+    - Parameter 4 (🔢 Number): Duration in seconds
+    - Parameter 5 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 6 (🔢 Number): Destination X
+    - Parameter 7 (🔢 Number): Destination Y
+    - Parameter 8 (🔢 Number): Duration to wait before going back
+    - Parameter 9 (❓ Yes or No): Loop
+
+    > Technical note: parameter 10 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Finished to move**  
+**Finished to move**
 Check if the object has finished to move on the path.
 
-**Reached an end**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Reached an end**
 Check if the object has reached one of the 2 ends of the path.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

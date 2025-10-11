@@ -21,14 +21,50 @@ A [simple example](https://editor.gdevelop.io/?project=example://snap-object-to-
 
 ## Actions
 
-**Snap objects to a virtual bubble grid**  
+**Snap objects to a virtual bubble grid**
 Snap object to a virtual bubble grid (this is not the grid used in the editor).
 
-**Snap objects to a virtual flat topped hexagonal grid**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Objects to snap to the virtual grid
+    - Parameter 2 (🔢 Number): Width of a cell of the virtual grid (in pixels)
+    - Parameter 3 (🔢 Number): Height of a cell of the virtual grid (in pixels)
+      The actual row height will be 7/8 of this.
+    - Parameter 4 (🔢 Number): Offset on the X axis of the virtual grid (in pixels)
+    - Parameter 5 (🔢 Number): Offset on the Y axis of the virtual grid (in pixels)
+      Odd rows are shifted from half a cell, use a "CellHeight * 7/8" offset to make it the other way
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Snap objects to a virtual flat topped hexagonal grid**
 Snap object to a virtual flat topped hexagonal grid (this is not the grid used in the editor).
 
-**Snap objects to a virtual pointy topped hexagonal grid**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Objects to snap to the virtual grid
+    - Parameter 2 (🔢 Number): Width of a cell of the virtual grid (in pixels)
+      The actual column width will be 3/4 of this.
+    - Parameter 3 (🔢 Number): Height of a cell of the virtual grid (in pixels)
+    - Parameter 4 (🔢 Number): Offset on the X axis of the virtual grid (in pixels)
+      Odd columns are shifted from half a cell, use a "CellHeight * 3/4" offset to make it the other way.
+    - Parameter 5 (🔢 Number): Offset on the Y axis of the virtual grid (in pixels)
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Snap objects to a virtual pointy topped hexagonal grid**
 Snap object to a virtual pointy topped hexagonal grid (this is not the grid used in the editor).
+
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Objects to snap to the virtual grid
+    - Parameter 2 (🔢 Number): Width of a cell of the virtual grid (in pixels)
+    - Parameter 3 (🔢 Number): Height of a cell of the virtual grid (in pixels)
+      The actual row height will be 3/4 of this.
+    - Parameter 4 (🔢 Number): Offset on the X axis of the virtual grid (in pixels)
+    - Parameter 5 (🔢 Number): Offset on the Y axis of the virtual grid (in pixels)
+      Odd rows are shifted from half a cell, use a "CellHeight * 3/4" offset to make it the other way.
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
 
 

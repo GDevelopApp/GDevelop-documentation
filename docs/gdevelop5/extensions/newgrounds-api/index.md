@@ -47,25 +47,63 @@ StringExpressions:
 
 ## Actions
 
-**Load Newgrounds API**  
+**Load Newgrounds API**
 Load Newgrounds API.
 
-**Login to Newgrounds**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): App ID (You can find this in your newground game edit page)
+    - Parameter 2 (string): Encrypt Key (You can find this in your newground game edit page)
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Login to Newgrounds**
 Login to Newgrounds (A webpage popup will display).
 
-**Logout from Newgrounds**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Logout from Newgrounds**
 Logout from Newgrounds.
 
-**Post Score on Newgrounds**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Post Score on Newgrounds**
 Post Score on Newgrounds (you can create scoreboards from the game edit page on newgrounds).
 
-**Unlock a game Medal**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Scoreboard Id
+    - Parameter 2 (🔢 Number): Score Value
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Unlock a game Medal**
 Unlock a game Medal (you can create medals from the game edit page on newgrounds).
+
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Medal ID
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**User Is logged In?**  
+**User Is logged In?**
 User Is logged In?.
+
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
 ## Expressions
 

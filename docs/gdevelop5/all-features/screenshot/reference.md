@@ -4,8 +4,14 @@ Allows to save screenshots of a running game. [Read more explanations about it.]
 
 ## Actions
 
-**Take screenshot**  
+**Take screenshot**
 Take a screenshot of the game, and save it to a png file (supported only when running on Windows/Linux/macOS).
+
+??? quote "See parameters"
+
+    - Parameter 1 (string): Save path
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
 
 

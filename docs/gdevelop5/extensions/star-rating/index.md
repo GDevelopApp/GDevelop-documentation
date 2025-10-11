@@ -25,11 +25,27 @@ A rating system indicated by stars using the shape painter.
 
 ### Behavior actions
 
-**Set the rating**  
+**Set the rating**
 Sets the rating to a new value.
 
-**Set total star count**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): New rating
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Set total star count**
 Sets a new total stars count.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Total star count
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

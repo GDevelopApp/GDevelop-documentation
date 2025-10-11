@@ -22,13 +22,29 @@ An animated score counter with an icon and a customisable font.
 
 ### Object actions
 
-**Score**  
+**Score**
 Change the score of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Object conditions
 
-**Score**  
+**Score**
 Compare the score of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Object expressions
 

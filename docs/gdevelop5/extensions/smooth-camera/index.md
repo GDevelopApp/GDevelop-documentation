@@ -31,76 +31,266 @@ Smoothly scroll to follow an object.
 
 ### Behavior actions
 
-**Draw debug**  
+**Draw debug**
 Draw the targeted and actual camera position.
 
-**Move the camera closer**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): Shape painter
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Move the camera closer**
 Move the camera closer to the object. This action must be called after the object has moved for the frame.
 
-**Camera delay**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Camera delay**
 Change the camera delay (in seconds).
 
-**Downward catch-up speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Camera delay
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Downward catch-up speed**
 Change the camera downward catch-up speed (in ratio per second).
 
-**Downward maximum speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Downward catch-up speed (in ratio per second)
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Downward maximum speed**
 Change the camera downward maximum speed (in pixels per second).
 
-**Follow free area bottom border**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Downward maximum speed (in pixels per second)
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Follow free area bottom border**
 Change the camera follow free area bottom border.
 
-**Follow free area left border**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Follow free area bottom border
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Follow free area left border**
 Change the camera follow free area left border.
 
-**Follow free area right border**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Follow free area left border
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Follow free area right border**
 Change the camera follow free area right border.
 
-**Follow free area top border**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Follow free area right border
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Follow free area top border**
 Change the camera follow free area top border.
 
-**Follow on X**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Follow free area top border
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Follow on X**
 Enable or disable the following on X axis.
 
-**Follow on Y**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): Follow on X axis
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Follow on Y**
 Enable or disable the following on Y axis.
 
-**Forecast time**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): Follow on Y axis
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Forecast time**
 Change the camera forecast time (in seconds).
 
-**Leftward catch-up speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Forecast time
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Leftward catch-up speed**
 Change the camera leftward catch-up speed (in ratio per second).
 
-**Leftward maximum speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Leftward catch-up speed (in ratio per second)
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Leftward maximum speed**
 Change the camera leftward maximum speed (in pixels per second).
 
-**Camera offset X**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Leftward maximum speed (in pixels per second)
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Camera offset X**
 Change the camera offset on X axis of the object. This is not the current difference between the object and the camera position.
 
-**Camera offset Y**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Camera offset Y**
 Change the camera offset on Y axis of the object. This is not the current difference between the object and the camera position.
 
-**Rightward catch-up speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Rightward catch-up speed**
 Change the camera rightward catch-up speed (in ratio per second).
 
-**Rightward maximum speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Rightward catch-up speed (in ratio per second)
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Rightward maximum speed**
 Change the camera rightward maximum speed (in pixels per second).
 
-**Upward catch-up speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Rightward maximum speed (in pixels per second)
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Upward catch-up speed**
 Change the camera upward catch-up speed (in ratio per second).
 
-**Upward maximum speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Upward catch-up speed (in ratio per second)
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Upward maximum speed**
 Change the camera upward maximum speed (in pixels per second).
 
-**Wait and catch up**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Upward maximum speed (in pixels per second)
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Wait and catch up**
 Delay the camera according to a maximum speed and catch up the delay.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Waiting duration (in seconds)
+    - Parameter 3 (🔢 Number): Waiting maximum camera target speed X
+    - Parameter 4 (🔢 Number): Waiting maximum camera target speed Y
+    - Parameter 5 (🔢 Number): Catch up duration (in seconds)
+
+    > Technical note: parameter 6 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Camera offset X**  
+**Camera offset X**
 Compare the camera offset on X axis of the object. This is not the current difference between the object and the camera position.
 
-**Camera offset Y**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Camera offset Y**
 Compare the camera offset on Y axis of the object. This is not the current difference between the object and the camera position.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

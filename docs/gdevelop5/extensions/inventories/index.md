@@ -16,49 +16,157 @@ Manage inventory items with limited or unlimited item capacity.
 
 ## Actions
 
-**Add an item**  
+**Add an item**
 Add an item in an inventory.
 
-**Save an inventory in a scene variable**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Inventory name
+    - Parameter 2 (🔤 Name (String)): Item name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Save an inventory in a scene variable**
 Save all the items of the inventory in a scene variable, so that it can be restored later.
 
-**Load an inventory from a scene variable**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Inventory name
+    - Parameter 2 (🗄️ Scene variable): Scene variable
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Load an inventory from a scene variable**
 Load the content of the inventory from a scene variable.
 
-**Remove an item**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Inventory name
+    - Parameter 2 (🗄️ Scene variable): Scene variable
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Remove an item**
 Remove an item from an inventory.
 
-**Equip an item**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Inventory name
+    - Parameter 2 (🔤 Name (String)): Item name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Equip an item**
 Mark an item as being equipped. If the item count is 0, it won't be marked as equipped.
 
-**Limit item capacity**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Inventory name
+    - Parameter 2 (🔤 Name (String)): Item name
+    - Parameter 3 (❓ Yes or No): Equip
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Limit item capacity**
 Allow a limited amount of an object to be in an inventory. Item capacity is unlimited by default.
 
-**Item capacity**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Inventory name
+    - Parameter 2 (🔤 Name (String)): Item name
+    - Parameter 3 (❓ Yes or No): Limit the item capacity
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Item capacity**
 Change the maximum number of the specified item that can be added in the inventory. By default, the number allowed for each item is unlimited.
 
-**Item count**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+    - Parameter 3 (🔤 Name (String)): Inventory name
+    - Parameter 4 (🔤 Name (String)): Item name
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Item count**
 Change the number of an item in an inventory.
+
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+    - Parameter 3 (🔤 Name (String)): Inventory name
+    - Parameter 4 (🔤 Name (String)): Item name
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**Has an item**  
+**Has an item**
 Check if at least one of the specified items is in the inventory.
 
-**Item full**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Inventory name
+    - Parameter 2 (🔤 Name (String)): Item name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Item full**
 Check if an item has reached its maximum number allowed in the inventory.
 
-**Item equipped**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Inventory name
+    - Parameter 2 (🔤 Name (String)): Item name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Item equipped**
 Check if an item is equipped.
 
-**Limited item capacity**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Inventory name
+    - Parameter 2 (🔤 Name (String)): Item name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Limited item capacity**
 Check if a limited amount of an object is allowed by the inventory. Item capacity is unlimited by default.
 
-**Item capacity**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Inventory name
+    - Parameter 2 (🔤 Name (String)): Item name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Item capacity**
 Compare the maximum number of the specified item that can be added in the inventory. By default, the number allowed for each item is unlimited.
 
-**Item count**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Inventory name
+    - Parameter 4 (🔤 Name (String)): Item name
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Item count**
 Compare the number of an item in an inventory.
+
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Inventory name
+    - Parameter 4 (🔤 Name (String)): Item name
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
 ## Expressions
 

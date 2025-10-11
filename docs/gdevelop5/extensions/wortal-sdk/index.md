@@ -21,226 +21,691 @@ Allow developer to use one SDK to deliver their games everywhere. To learn more 
 
 ## Actions
 
-**Can subscribe to bot asynchronously**  
+**Can subscribe to bot asynchronously**
 Checks if the current user can subscribe to the game's bot.
 
-**Cancel all notifications async**  
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Any variable): Boolean variable to set the result
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Cancel all notifications async**
 Cancel all scheduled notifications.
 
-**Cancel notification async**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Notification label
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Cancel notification async**
 Cancel a notification async.
 
-**Choose context async**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Notification ID
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Choose context async**
 Opens a context selection dialog for the player. If the player selects an available context, the client will attempt to switch into that context, and resolve if successful. Otherwise, if the player exits the menu or the client fails to switch into the new context, this function will reject.
 
-**Consume purchase async**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Consume purchase async**
 Consumes a specific purchase belonging to the current player.
 
-**Create context async**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Token of the Purchased product
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Create context async**
 Attempts to create a context between the current player and a specified player or a list of players.
 
-**Create a tournament async**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): ID of players separated by comma
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Create a tournament async**
 Opens the tournament creation dialog if the player is not currently in a tournament session.
 
-**Flush data asynchronously**  
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Any variable): Tournament creation payload structure variable
+    - Parameter 2 (🗄️ Any variable): Tournament structure variable callback
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Flush data asynchronously**
 Flushes any unsaved data to the platform's storage. This function is expensive, and should primarily be used for critical changes where persistence needs to be immediate and known by the game. Non-critical changes should rely on the platform to persist them in the background.
 
-**Start the gameplay session**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Start the gameplay session**
 Tracks the start of a gameplay session.
 
-**Stop the gameplay session**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Stop the gameplay session**
 Tracks the end of a gameplay session.
 
-**Get ASID asynchronously**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Get ASID asynchronously**
 A unique identifier for the player. This is the standard Facebook Application-Scoped ID which is used for all Graph API calls. If your game shares an AppID with a native game this is the ID you will see in the native game too.
 
-**Get achievements async**  
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Any variable): String variable to save ASID
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Get achievements async**
 Gets a player's achievements. This method returns all achievements, regardless of whether they are unlocked or not.
 
-**Get all tournaments async**  
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Any variable): Array of Achivement structure variable callback
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Get all tournaments async**
 Returns a list of eligible tournaments that can be surfaced in-game.
 
-**Get catalog async**  
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Any variable): Array of tournament structure variable callback
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Get catalog async**
 Gets the catalog of available products the player can purchase.
 
-**Get connected players async**  
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Any variable): Array of product structure variable callback
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Get connected players async**
 Gets ConnectedPlayers containing information about active players that are connected to the current player.
 
-**Get connected players entries**  
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Any variable): Payload variable with structure type
+    - Parameter 2 (🗄️ Any variable): Array of connected player
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Get connected players entries**
 Retrieves the leaderboard score entries of the current player's connected players (including the current player), ordered by local rank within the set of connected players.
 
-**Get current player leaderboard entry async**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): The name of the leaderboard
+    - Parameter 2 (🔢 Number): The number of entries to attempt to fetch from the leaderboard
+    - Parameter 3 (🔢 Number): The offset from the set of ordered connected player score entries to fetch from
+    - Parameter 4 (🗄️ Any variable): Array of Leaderboard structure result variable callback
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Get current player leaderboard entry async**
 Retrieves the leaderboard's entry for the current player, or null if the player has not set one yet.
 
-**Get current tournament async**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): The name of the leaderboard
+    - Parameter 2 (🗄️ Any variable): Leaderboard entry structure variable callback
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Get current tournament async**
 Fetch the tournament out of the current context the user is playing.
 
-**Get player data async**  
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Any variable): Tournament structure variable callback
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Get player data async**
 Retrieve data from the designated cloud storage of the current player.
 
-**Get entry point asynchronously**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): String of data keys (separated them with comma for multiple data points)
+    - Parameter 2 (🗄️ Any variable): Variable to save data received from server
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Get entry point asynchronously**
 Get entry point that the game was launched from asynchronously.
 
-**Get entry point data**  
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Any variable): String variable callback
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Get entry point data**
 Get any data object associated with the entry point that the game was launched from.
 
-**Get leaderboard async**  
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Any variable): Structure variable callback to set the result
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Get leaderboard async**
 Fetch a specific leaderboard belonging to this game.
 
-**Get leaderboard entries**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): The name of the leaderboard. Each leaderboard for a game must have its own distinct name
+    - Parameter 2 (🗄️ Any variable): Leaderboard structure variable callback
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Get leaderboard entries**
 Retrieves a set of leaderboard entries, ordered by score ranking in the leaderboard.
 
-**Get leaderboard entry count async**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): The name of the leaderboard
+    - Parameter 2 (🔢 Number): The number of entries to attempt to fetch from the leaderboard
+    - Parameter 3 (🔢 Number): The offset from the set of ordered connected player score entries to fetch from
+    - Parameter 4 (🗄️ Any variable): Array of Leaderboard structure result variable callback
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Get leaderboard entry count async**
 Gets the total number of entries in the leaderboard.
 
-**Get notification history async**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): The name of the leaderboard
+    - Parameter 2 (🗄️ Any variable): Entry count variable callback
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Get notification history async**
 Gets the history of scheduled notifications for the past 30 days.
 
-**Get players async**  
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Any variable): Variable callback to save the notification
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Get players async**
 Gets an array of ConnectedPlayer objects containing information about active players in the current context (people who played the game in the current context in the last 90 days).
 
-**Get purchased products async**  
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Any variable): Variable to save the result of connected players of current context
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Get purchased products async**
 Gets purchased products.
 
-**Get signed ASID async**  
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Any variable): Array of purchased products structure variable callback
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Get signed ASID async**
 A unique identifier for the player. This is the standard Facebook Application-Scoped ID which is used for all Graph API calls. If your game shares an AppID with a native game this is the ID you will see in the native game too.
 
-**Get stats async**  
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Any variable): Signed ASID Structure variable callback
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Get stats async**
 Gets a player's stats.
 
-**Get traffic source**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Level
+    - Parameter 2 (🔤 String): Period of stat (one of: "alltime", "daily", "monthly", "weekly")
+    - Parameter 3 (🗄️ Any variable): Variable to save the result (Array)
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Get traffic source**
 Gets the traffic source info for the game. This is useful for tracking where players are coming from.
 
-**Invite Async**  
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Any variable): Structure variable to set traffic source
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Invite Async**
 This invokes a dialog to let the user invite one or more people to the game.
 
-**Join tournament async**  
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Any variable): Invite players payload
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Join tournament async**
 Request a switch into a specific tournament context.
 
-**Log game choice**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Tournament ID
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Log game choice**
 Logs a choice the player made in the game. This can be a powerful tool for balancing the game and understanding what content the players are interacting with the most.
 
-**Log level end**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Decision
+    - Parameter 2 (string): Choice
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Log level end**
 Logs the end of a level. To ensure the level timer is recorded the level name must match the name passed into the previous logLevelStart call. If it does not match then the timer will be logged at 0.
 
-**Log level start**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Level
+    - Parameter 2 (string): Score
+    - Parameter 3 (🔤 String): Flag if level is completed or not (one of: "completed", "not completed")
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Log level start**
 Logs the start of a level.
 
-**Log level up**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Level
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Log level up**
 Logs the player achieving a new level.
 
-**Log score**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Level
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Log score**
 Logs the player's score.
 
-**Log social invite**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Score
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Log social invite**
 Logs the player's social invite.
 
-**Log social share**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Placement of the invite
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Log social share**
 Logs the player's social share.
 
-**Log tutorial end**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Placement of the share
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Log tutorial end**
 Logs the end of a tutorial. To ensure the level timer is recorded the tutorial name must match the name passed into the previous logTutorialStart call. If it does not match then the timer will be logged at 0.
 
-**Log turotial start**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Name of the tutorial
+    - Parameter 2 (🔤 String): Was the tutorial completed (one of: "compeleted", "not compeleted")
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Log turotial start**
 Logs the start of a tutorial.
 
-**Make purchase async**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Name of the tutorial
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Make purchase async**
 Make purchase for specified product.
 
-**Post stats async**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): ID of product
+    - Parameter 2 (🗄️ Any variable): Purchase result structure variable callback
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Post stats async**
 Posts a player's stats.
 
-**Post tournament score async**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Level
+    - Parameter 2 (🔢 Number): The value of the stat
+    - Parameter 3 (🗄️ Any variable): Payload structure variable
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Post tournament score async**
 Posts a player's score. This API should only be called within a tournament context at the end of an activity (example: when the player doesn't have "lives" to continue the game).
 
-**Schedule notification async**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Score
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Schedule notification async**
 Schedule a notification to be delivered to the player at a later time. Limit of 5 pending scheduled notifications per recipient.
 
-**Send leaderboard entry async**  
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Any variable): Notification payload structure variable
+    - Parameter 2 (🗄️ Any variable): Schedule result structure variable callbacl to save result
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Send leaderboard entry async**
 Updates the player's score. If the player has an existing score, the old score will only be replaced if the new score is better than it.
 
-**Save data async**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): The name of the leaderboard
+    - Parameter 2 (🔢 Number): Score for the entry. Must be a 64-bit integer number
+    - Parameter 3 (🗄️ Any variable): Leaderboard entry sturcture variable callback
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Save data async**
 Set data to be saved to the designated cloud storage of the current player.
 
-**Set Wortal loading progress**  
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Any variable): Game progress structure variable
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Set Wortal loading progress**
 Set the loading progress of your game.
 
-**Set session data**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Progress (0-100)
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Set session data**
 Set the data associated with the individual gameplay session for the current context.
 
-**Share async**  
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Any variable): Structure Variable to set the session data
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Share async**
 This invokes a dialog to let the user share specified content, as a post on the user's timeline.
 
-**Share link async**  
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Any variable): Share payload structure variable
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Share link async**
 This invokes a dialog that contains a custom game link that users can copy to their clipboard, or share.
 
-**Share tournament async**  
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Any variable): Payload structure variable
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Share tournament async**
 Opens the share tournament dialog if the player is currently in a tournament session.
 
-**Show auth prompt async**  
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Any variable): Payload structure variable
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Show auth prompt async**
 Shows the authentication prompt to the player. This allows the player to log in or register for an account. If the player successfully logs in or registers, the player API will be updated with the new player information.
 
-**Show banner ad**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Show banner ad**
 Shows a banner ad.
 
-**Show happy time**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 String): Ad position on the screen (one of: "top", "bottom")
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Show happy time**
 Can be called on various player achievements (beating a boss, reaching a high score, etc.). It makes the website celebrate (for example by launching some confetti).
 
-**Show interstitial ad**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Show interstitial ad**
 Shows an interstitial ad. These can be shown at various points in the game such as a level end, restart or a timed interval in games with longer levels.
 
-**Show link account prompt async**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 String): Placement type (one of: "start", "pause", "next", "browse")
+    - Parameter 2 (string): Ad placement
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Show link account prompt async**
 Shows the link account prompt to the player. This allows the player to link their account to a different platform.
 
-**Show rewarded ad**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Show rewarded ad**
 Shows a rewarded ad. These are longer, optional ads that the player can earn a reward for watching. The player must be notified of the ad and give permission to show before it can be shown.
 
-**Start Game**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Ad description
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Start Game**
 Start Game.
 
-**Subscribe bot async**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Subscribe bot async**
 Request that the player subscribe the bot associated to the game. The API will reject if the subscription fails - else, the player will subscribe the game bot.
 
-**Swith context async**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Swith context async**
 Request a switch into a specific context.
 
-**Switch game async**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): ID of context
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Switch game async**
 Switch to another game. The API will reject if the switch fails - else, the client will load the new game.
 
-**Unlock achivement**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): ID of game
+    - Parameter 2 (🗄️ Any variable): Optional payload structure variable
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Unlock achivement**
 Unlocks an achievement for the player. This method will only unlock the achievement if it has not already been unlocked.
 
-**Update context async**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Achivement name
+    - Parameter 2 (🗄️ Any variable): Is unlocked variable callback
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Update context async**
 Posts an update to the current context.
+
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Any variable): Payload structure variable
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**Ad has just finished showing**  
+**Ad has just finished showing**
 Check if ad just finished showing.
 
-**Ad is blocked**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Ad is blocked**
 Returns whether ads are blocked for the current session.
 
-**Ad is enabled**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Ad is enabled**
 Returns whether ads are enabled for the current session.
 
-**Ad is showing**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Ad is showing**
 Check if ad is showing.
 
-**Audio is enabled**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Audio is enabled**
 Returns whether the audio is enabled for the player.
 
-**Player is playing for first time**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Player is playing for first time**
 Checks whether this is the first time the player has played this game.
 
-**IAP is enabled**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**IAP is enabled**
 Checks whether IAP is enabled in this session.
 
-**Wortal SDK is ready**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Wortal SDK is ready**
 Check if Wortal SDK is ready.
 
-**Player should be rewarded**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Player should be rewarded**
 To check if should reward player after showing rewarded ad.
+
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
 ## Expressions
 

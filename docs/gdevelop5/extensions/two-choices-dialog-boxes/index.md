@@ -23,11 +23,23 @@ A dialog box showing two options.
 
 ### Object conditions
 
-**"No" button is clicked**  
+**"No" button is clicked**
 Check if the "No" button of the dialog was selected.
 
-**"Yes" button is clicked**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**"Yes" button is clicked**
 Check if the "Yes" button of the dialog was selected.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
 _No expressions for this object._
 

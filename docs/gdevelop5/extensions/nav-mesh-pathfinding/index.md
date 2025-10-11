@@ -30,19 +30,52 @@ Change the animation according to the movement direction.
 
 ### Behavior actions
 
-**Animation name**  
+**Animation name**
 Change the animation name of the object.
 
-**Scale animation according to speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (string): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Scale animation according to speed**
 Change whether the animation is scaled according to speed or not.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): IsScalingAnimation
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Animation name**  
+**Animation name**
 Compare the animation name of the object.
 
-**Scale animation according to speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (string): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Scale animation according to speed**
 Check if the animation is scaled according to speed.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 
@@ -56,71 +89,250 @@ Move objects to a target in straight lines while avoiding all objects that are f
 
 ### Behavior actions
 
-**Draw navigation mesh**  
+**Draw navigation mesh**
 Draw the navigation mesh used for the object.  
 This action must be used after "Move to a position".
 
-**Acceleration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): Shape painter
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Acceleration**
 Change the acceleration of the object.
 
-**Angle offset**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Angle offset**
 Change the angle offset of the object.
 
-**Rotation speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Rotation speed**
 Change the rotation speed of the object.
 
-**Collision shape**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Collision shape**
 Change the collision shape of the object.
 
-**Move to a position**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔤 String): Value (one of: "Bounding disk", "Dot at center")
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Move to a position**
 Move the object to a position.
 
-**Extra border size**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Destination X position
+    - Parameter 3 (🔢 Number): Destination Y position
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Extra border size**
 Change the extra border size of the object.
 
-**Maximum speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Maximum speed**
 Change the maximum speed of the object.
 
-**Rotate object**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Rotate object**
 Enable or disable the rotation of the object when following its path.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): Rotate object
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Acceleration**  
+**Acceleration**
 Compare the acceleration of the object.
 
-**Angle offset**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Angle offset**
 Compare the angle offset of the object.
 
-**Rotation speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Rotation speed**
 Compare the rotation speed of the object.
 
-**Collision shape**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Collision shape**
 Compare the collision shape of the object.
 
-**Destination reached**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔤 String): Value to compare (one of: "Bounding disk", "Dot at center")
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Destination reached**
 Check if the destination was reached.
 
-**Extra border size**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Extra border size**
 Compare the extra border size of the object.
 
-**Is moving**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Is moving**
 Check if the object is moving on a path.
 
-**Maximum speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Maximum speed**
 Compare the maximum speed of the object.
 
-**Angle of movement on its path**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Angle of movement on its path**
 Compare the angle of movement of an object on its path.
 
-**Path found**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Angle (in degrees)
+    - Parameter 3 (🔢 Number): Tolerance (in degrees)
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Path found**
 Check if a path has been found.
 
-**Rotate object**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Rotate object**
 Check if the object should rotate when following its path.
 
-**Speed on the path**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Speed on the path**
 Compare the number of waypoints on the path.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 
@@ -153,20 +365,65 @@ Flag objects as being an obstacle for pathfinding.
 
 ### Behavior conditions
 
-**Area bottom bound**  
+**Area bottom bound**
 Compare the area bottom bound. The bottom bound of the area where objects can go in the scene (default to the game resolution). While an object is needed, this will apply to all objects using the behavior.
 
-**Area left bound**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Area left bound**
 Compare the area left bound. The left bound of the area where objects can go in the scene. While an object is needed, this will apply to all objects using the behavior.
 
-**Area right bound**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Area right bound**
 Compare the area right bound. The right bound of the area where objects can go in the scene (default to the game resolution). While an object is needed, this will apply to all objects using the behavior.
 
-**Area top bound**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Area top bound**
 Compare the area top bound. The top bound of the area where objects can go in the scene. While an object is needed, this will apply to all objects using the behavior.
 
-**Cell size**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Cell size**
 Compare the cell size for obstacle collision mask rasterization. While an object is needed, this will apply to all objects using the behavior.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

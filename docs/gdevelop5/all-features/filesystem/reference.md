@@ -4,46 +4,127 @@ Access the filesystem of the operating system - only works on native, desktop ga
 
 ## Actions
 
-**Delete a file**  
+**Delete a file**
 Delete a file from the filesystem.
 
-**Delete a file (Async)**  
+??? quote "See parameters"
+
+    - Parameter 0 (string): File path
+    - Parameter 1 (🗄️ Scene variable): (Optional) Variable to store the result. 'ok': task was successful, 'error': an error occurred.
+
+**Delete a file (Async)**
 Delete a file from the filesystem asynchronously. The option result variable will be updated once the file is deleted.
 
-**Load a text from a file (Async)**  
+??? quote "See parameters"
+
+    - Parameter 0 (string): File path
+    - Parameter 1 (🗄️ Scene variable): (Optional) Variable to store the result. 'ok': task was successful, 'error': an error occurred.
+
+**Load a text from a file (Async)**
 Load a text from a file, asynchronously. Use this for large files to avoid any lag or freeze during game execution. The content of the file will be available in the scene variable after a small delay (usually a few milliseconds). The 'result' variable gets updated when the operation has finished.
 
-**Load a text from a file**  
+??? quote "See parameters"
+
+    - Parameter 0 (🗄️ Scene variable): Scene variable
+    - Parameter 1 (string): Load path
+    - Parameter 2 (🗄️ Scene variable): (Optional) Variable to store the result. 'ok': task was successful, 'error': an error occurred.
+    - Parameter 3 (❓ Yes or No): Normalize the file content (recommended)
+      This replaces Windows new lines characters ("CRLF") by a single new line character.
+
+**Load a text from a file**
 Load a text from a file. Only use this on small files to avoid any lag or freeze during the game execution.
 
-**Load a scene variable from a JSON file (Async)**  
+??? quote "See parameters"
+
+    - Parameter 0 (🗄️ Scene variable): Scene variable
+    - Parameter 1 (string): Load path
+    - Parameter 2 (🗄️ Scene variable): (Optional) Variable to store the result. 'ok': task was successful, 'error': an error occurred.
+    - Parameter 3 (❓ Yes or No): Normalize the file content (recommended)
+      This replaces Windows new lines characters ("CRLF") by a single new line character.
+
+**Load a scene variable from a JSON file (Async)**
 Load a JSON formatted text from a file and convert it to a scene variable (potentially a structure variable with children), asynchronously. Use this for large files to avoid any lag or freeze during game execution. The content of the file will be available as a scene variable after a small delay (usually a few milliseconds). The 'result' variable gets updated when the operation has finished.
 
-**Load a scene variable from a JSON file**  
+??? quote "See parameters"
+
+    - Parameter 0 (🗄️ Scene variable): Scene variable
+    - Parameter 1 (string): Load path
+    - Parameter 2 (🗄️ Scene variable): (Optional) Variable to store the result. 'ok': task was successful, 'error': an error occurred.
+    - Parameter 3 (❓ Yes or No): Normalize the file content (recommended)
+      This replaces Windows new lines characters ("CRLF") by a single new line character.
+
+**Load a scene variable from a JSON file**
 Load a JSON formatted text from a file and convert it to a scene variable (potentially a structure variable with children). Only use this on small files to avoid any lag or freeze during the game execution.
 
-**Create a directory**  
+??? quote "See parameters"
+
+    - Parameter 0 (🗄️ Scene variable): Scene variable
+    - Parameter 1 (string): Load path
+    - Parameter 2 (🗄️ Scene variable): (Optional) Variable to store the result. 'ok': task was successful, 'error': an error occurred.
+    - Parameter 3 (❓ Yes or No): Normalize the file content (recommended)
+      This replaces Windows new lines characters ("CRLF") by a single new line character.
+
+**Create a directory**
 Create a new directory at the specified path.
 
-**Read a directory**  
+??? quote "See parameters"
+
+    - Parameter 0 (string): Directory
+    - Parameter 1 (🗄️ Scene variable): (Optional) Variable to store the result. 'ok': task was successful, 'error': an error occurred.
+
+**Read a directory**
 Reads the contents of a directory (all files and sub-directories) and stores them in an array.
 
-**Save a text into a file (Async)**  
+??? quote "See parameters"
+
+    - Parameter 0 (string): Directory path
+    - Parameter 1 (🗄️ Scene variable): Variable to store the result
+      It is set to `"error"` if an error has occured, otherwise it is set to an array of all files and sub-directories present in the directory.
+
+**Save a text into a file (Async)**
 Save a text into a file asynchronously. Use this for large files to avoid any lag or freeze during game execution. The 'result' variable gets updated when the operation has finished.
 
-**Save a text into a file**  
+??? quote "See parameters"
+
+    - Parameter 0 (string): String (text)
+    - Parameter 1 (string): Save path
+    - Parameter 2 (🗄️ Scene variable): (Optional) Variable to store the result. 'ok': task was successful, 'error': an error occurred.
+
+**Save a text into a file**
 Save a text into a file. Only use this on small files to avoid any lag or freeze during the game execution.
 
-**Save a scene variable into a JSON file (Async)**  
+??? quote "See parameters"
+
+    - Parameter 0 (string): String (text)
+    - Parameter 1 (string): Save path
+    - Parameter 2 (🗄️ Scene variable): (Optional) Variable to store the result. 'ok': task was successful, 'error': an error occurred.
+
+**Save a scene variable into a JSON file (Async)**
 Save the scene variable (including, for structures, all the children) into a file in JSON format, asynchronously. Use this for large files to avoid any lag or freeze during game execution. The 'result' variable gets updated when the operation has finished.
 
-**Save a scene variable into a JSON file**  
+??? quote "See parameters"
+
+    - Parameter 0 (🗄️ Scene variable): Scene variable
+    - Parameter 1 (string): Save path
+    - Parameter 2 (🗄️ Scene variable): (Optional) Variable to store the result. 'ok': task was successful, 'error': an error occurred.
+
+**Save a scene variable into a JSON file**
 Save a scene variable (including, for structure, all the children) into a file in JSON format. Only use this on small files to avoid any lag or freeze during the game execution.
+
+??? quote "See parameters"
+
+    - Parameter 0 (🗄️ Scene variable): Scene variable
+    - Parameter 1 (string): Save path
+    - Parameter 2 (🗄️ Scene variable): (Optional) Variable to store the result. 'ok': task was successful, 'error': an error occurred.
 
 ## Conditions
 
-**File or directory exists**  
+**File or directory exists**
 Check if the file or directory exists.
+
+??? quote "See parameters"
+
+    - Parameter 0 (string): Path to file or directory
 
 ## Expressions
 

@@ -63,43 +63,141 @@ Add this to the sprite object that will be the background of the dialog box.
 
 ### Behavior actions
 
-**Change Dialog Box contents**  
+**Change Dialog Box contents**
 Change the Name, Image, and Text in the Dialog Box.
 
-**Change Dialog Box Text**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (string): Name
+    - Parameter 3: 🔤 Object Animation Name (String)
+    - Parameter 4 (string): Text
+
+    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+
+**Change Dialog Box Text**
 Change the Dialog Box Text.
 
-**Change Dialog Box typing interval**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (string): Text
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Change Dialog Box typing interval**
 Changes the typing interval of the Dialog Box (in seconds).
 
-**Change Dialog Box typing sound**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Typing interval (in seconds)
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Change Dialog Box typing sound**
 Changes the typing sound effect of the Dialog Box (File name) (The audio file must be registered as a resource!).
 
-**Close Dialog Box**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (string): Audio file name (The audio file must be registered as a resource!)
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Close Dialog Box**
 Close the Dialog Box.
 
-**Open Dialog Box**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Open Dialog Box**
 Open the Dialog Box.
 
-**Setup Dialog Box**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (string): Name
+    - Parameter 3: 🔤 Object Animation Name (String)
+    - Parameter 4 (string): Text
+
+    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+
+**Setup Dialog Box**
 Setup the Dialog Box.
 
-**Skip Dialog Box typing**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): Name (BB Text)
+    - Parameter 3 (👾 Object): Image (Sprite)
+    - Parameter 4 (👾 Object): Text (BB Text)
+    - Parameter 5 (👾 Object): Arrow (Sprite)
+
+    > Technical note: parameter 6 are internal parameters handled by GDevelop.
+
+**Skip Dialog Box typing**
 Skip typing in the Dialog Box.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Number of times the Text in Dialog Box has changed**  
+**Number of times the Text in Dialog Box has changed**
 Compare the number of times the Text in the Dialog Box has changed.
 
-**Dialog Box is close**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Number (0-based)
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Dialog Box is close**
 Dialog Box is close.
 
-**Dialog Box is open**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Dialog Box is open**
 Dialog Box is open.
 
-**Dialog Box is typing**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Dialog Box is typing**
 Text in the Dialog Box is typing.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

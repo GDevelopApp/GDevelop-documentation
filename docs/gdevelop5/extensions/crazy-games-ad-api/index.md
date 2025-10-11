@@ -16,100 +16,294 @@ Refer to the [CrazyGames guide](https://docs.crazygames.com/sdk/intro/) for a fu
 
 ## Actions
 
-**Retrieve user data**  
+**Retrieve user data**
 Retrieve user data.
 
-**Display a banner**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Display a banner**
 Display a banner that can be called once per 60 seconds.
 
-**Display video ad**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Banner name
+    - Parameter 2 (🔤 String): Ad size (one of: "970x90", "320x50", "160x600", "336x280", "728x90", "300x600", "468x60", "970x250", "300x250", "250x250", "120x600")
+    - Parameter 3 (🔢 Number): Position X
+    - Parameter 4 (🔢 Number): Position Y
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Display video ad**
 Display a video ad. The game is automatically muted while the video is playing.
 
-**Display happy time**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 String): Ad Type (one of: "midgame", "rewarded")
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Display happy time**
 Display an happy time by emitting sparkling confetti. The celebration should remain a special moment.
 
-**Generate an invite link**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Generate an invite link**
 Generate an invite link to invite friends to join your game sessions. This URL can be added to the clipboard or displayed in the game to let the user select it.
 
-**Generate Xsolla token**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Room id
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Generate Xsolla token**
 Generate Xsolla token.
 
-**Hide all banners**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Hide all banners**
 Hide all banners.
 
-**Hide a banner**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Hide a banner**
 Hide a banner.
 
-**Hide invite button**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Banner name
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Hide invite button**
 Hide the invite button.
 
-**Display invite button**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Display invite button**
 Display an invite button.
 
-**Show account link prompt**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Room id
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Show account link prompt**
 Show account link prompt.
 
-**Load SDK**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Load SDK**
 Load CrazyGames SDK.
 
-**Save session data**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Save session data**
 Save the session data.
 
-**Scan for ad blockers**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Id
+    - Parameter 2 (string): Value
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Scan for ad blockers**
 Scan for ad blockers.
 
-**Gameplay started**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Gameplay started**
 Let CrazyGames know gameplay started.
 
-**Gameplay stopped**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Gameplay stopped**
 Let CrazyGames know gameplay stopped.
 
-**Loading started**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Loading started**
 Let CrazyGames know loading started.
 
-**Loading stopped**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Loading stopped**
 Let CrazyGames know loading stopped.
 
-**Show CrazyGames login window**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Show CrazyGames login window**
 Show CrazyGames login window.
 
-**Check and load if an user is signed in CrazyGames**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Check and load if an user is signed in CrazyGames**
 Check if an user is signed into CrazyGames. If signed in, retrieves username and profile picture.
+
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**Video ad just finished playing**  
+**Video ad just finished playing**
 Checks if a video ad just finished playing successfully.
 
-**Video ad had an error**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Video ad had an error**
 Check if a video ad had an error.
 
-**CrazyGames User ID**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**CrazyGames User ID**
 Compare the CrazyGames User ID.
 
-**Ad blocker is detected**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Ad blocker is detected**
 Check if user is using an ad blocker. This condition is always false before the "Scan for ad blockers" is called.
 
-**CrazyGames SDK is ready**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**CrazyGames SDK is ready**
 Check if the CrazyGames SDK is ready to be used.
 
-**Is user account available**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is user account available**
 Compare the availability of the user's account.
 
-**Video ad is playing**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Video ad is playing**
 Checks if a video ad is playing.
 
-**Get last error**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Get last error**
 Compare the last error from the CrazyGames API.
 
-**User changed**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**User changed**
 Check if the user changed.
 
-**Username**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Username**
 Compare the username.
 
-**User is signed in**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**User is signed in**
 Check if the user is signed in.
+
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
 ## Expressions
 

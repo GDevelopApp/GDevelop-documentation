@@ -39,166 +39,620 @@ Fire bullets, manage ammo, reloading, and overheating. Once added to your object
 
 ### Behavior actions
 
-**Fire bullets toward an angle**  
+**Fire bullets toward an angle**
 Fire bullets in the direction of a given angle at a specified speed.
 
-**Fire bullets toward an object**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): X position, where to create the bullet
+    - Parameter 3 (🔢 Number): Y position, where to create the bullet
+    - Parameter 4 (👾 Object): The bullet object
+    - Parameter 5 (🔢 Number): Angle of the bullet, in degrees
+    - Parameter 6 (🔢 Number): Speed of the bullet, in pixels per second
+
+    > Technical note: parameter 7 are internal parameters handled by GDevelop.
+
+**Fire bullets toward an object**
 Fire bullets toward an object at a specified speed.
 
-**Fire bullets toward a position**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): X position, where to create the bullet
+    - Parameter 3 (🔢 Number): Y position, where to create the bullet
+    - Parameter 4 (👾 Object): The bullet object
+    - Parameter 5 (👾 Object): Target object
+    - Parameter 6 (🔢 Number): Speed of the bullet, in pixels per second
+
+    > Technical note: parameter 7 are internal parameters handled by GDevelop.
+
+**Fire bullets toward a position**
 Fire bullets toward a position at a specified speed.
 
-**Increase ammo**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): X position, where to create the bullet
+    - Parameter 3 (🔢 Number): Y position, where to create the bullet
+    - Parameter 4 (👾 Object): The bullet object
+    - Parameter 5 (🔢 Number): Target X position
+    - Parameter 6 (🔢 Number): Target Y position
+    - Parameter 7 (🔢 Number): Speed of the bullet, in pixels per second
+
+    > Technical note: parameter 8 are internal parameters handled by GDevelop.
+
+**Increase ammo**
 Increase ammo quantity.
 
-**Reload ammo**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Ammo gained
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Reload ammo**
 Reload ammo.
 
-**Reset total bullets created**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Reset total bullets created**
 Reset total bullets created.
 
-**Reset total reloads completed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Reset total reloads completed**
 Reset total reloads completed.
 
-**Reset total shots fired**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Reset total shots fired**
 Reset total shots fired.
 
-**Ammo quantity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Ammo quantity**
 Change the ammo quantity.
 
-**Angle variance**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Angle variance**
 Change the angle variance (in degrees) applied to each bullet.
 
-**Enable (or disable) automatic reloading**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Enable (or disable) automatic reloading**
 Enable (or disable) automatic reloading.
 
-**Set bullet layer**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): Enable automatic reloading
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Set bullet layer**
 Change the layer that bullets are created on.
 
-**Bullets per shot**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🔤 Layer name (String)
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Bullets per shot**
 Change the number of bullets shot every time the "fire bullet" action is used.
 
-**Bullet speed variance**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Bullet speed variance**
 Change the bullet speed variance (pixels per second) applied to each bullet.
 
-**Firing cooldown**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Firing cooldown**
 Change the firing cooldown (in seconds) also known as rate of fire.
 
-**Exponential cooling rate**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Exponential cooling rate**
 Change the exponential cooling rate, per second.
 
-**Firing arc**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Firing arc**
 Change the firing arc (in degrees) where bullets are shot. Bullets are evenly spaced out inside the firing arc.
 
-**Heat increase per shot**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Heat increase per shot**
 Change the heat increase per shot.
 
-**Linear cooling rate**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Linear cooling rate**
 Change the linear cooling rate (per second).
 
-**Max ammo**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Max ammo**
 Change the max ammo.
 
-**Overheat duration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Overheat duration**
 Change the overheat duration (in seconds). When an object is overheated, it can't fire for this duration.
 
-**Reload duration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Reload duration**
 Change the reload duration (in seconds).
 
-**Enable (or disable) bullet rotation**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Enable (or disable) bullet rotation**
 Enable bullet rotation.
 
-**Shots per reload**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): Rotate bullet to match trajetory
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Shots per reload**
 Change the number of shots per reload.
 
-**Enable (or disable) unlimited ammo**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Enable (or disable) unlimited ammo**
 Enable unlimited ammo.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): Unlimited ammo
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Ammo quantity**  
+**Ammo quantity**
 Compare the ammo quantity.
 
-**Angle variance**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Angle variance**
 Compare the angle variance (in degrees) applied to each bullet.
 
-**Bullets per shot**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Bullets per shot**
 Compare the number of bullets shot every time the "fire bullet" action is used.
 
-**Is bullet rotation enabled**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Is bullet rotation enabled**
 Check if bullet rotates to match trajectory.
 
-**Bullet speed variance**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Bullet speed variance**
 Compare the bullet speed variance (pixels per second) applied to each bullet.
 
-**Firing cooldown**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Firing cooldown**
 Compare the firing cooldown (in seconds) also known as rate of fire.
 
-**Duration before cooldown end**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Duration before cooldown end**
 Compare the remaining duration before the cooldown will permit a bullet to be fired, in seconds.
 
-**Exponential cooling rate**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Exponential cooling rate**
 Compare the exponential cooling rate, per second.
 
-**Firing arc**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Firing arc**
 Compare the firing arc (in degrees) where bullets are shot. Bullets are evenly spaced out inside the firing arc.
 
-**Has just fired**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Has just fired**
 Check if the object has just fired something.
 
-**Heat increase per shot**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Heat increase per shot**
 Compare the heat increase per shot.
 
-**Heat level**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Heat level**
 Compare the heat level (range: 0 to 1).
 
-**Is automatic reloading enabled**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Is automatic reloading enabled**
 Check if automatic reloading is enabled.
 
-**Is firing cooldown active**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is firing cooldown active**
 Check if firing cooldown is active.
 
-**Is out of ammo**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is out of ammo**
 Check if object has no ammo available.
 
-**Is overheated**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is overheated**
 Check if object is overheated.
 
-**Is ready to shoot**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is ready to shoot**
 Check if object is ready to shoot.
 
-**Is ammo reloading in progress**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is ammo reloading in progress**
 Check if object is currently performing an ammo reload.
 
-**Is a reload needed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is a reload needed**
 Check if object needs to reload ammo.
 
-**Is ammo unlimited**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is ammo unlimited**
 Check if ammo is unlimited.
 
-**Linear cooling rate**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Linear cooling rate**
 Compare the linear cooling rate (per second).
 
-**Max ammo**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Max ammo**
 Compare the max ammo.
 
-**Overheat duration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Overheat duration**
 Compare the overheat duration (in seconds). When an object is overheated, it can't fire for this duration.
 
-**Duration before overheat end**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Duration before overheat end**
 Compare the remaining duration before the overheat penalty ends, in seconds.
 
-**Reload duration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Reload duration**
 Compare the reload duration (in seconds).
 
-**Duration before the reload finishes**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Duration before the reload finishes**
 Compare the remaining duration before the reload finishes, in seconds.
 
-**Shots before next reload**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Shots before next reload**
 Compare the remaining shots before the next reload is required.
 
-**Shots per reload**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Shots per reload**
 Compare the number of shots per reload.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

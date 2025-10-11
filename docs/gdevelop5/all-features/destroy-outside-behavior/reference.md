@@ -10,19 +10,47 @@ Destroy objects automatically when they go outside of the 2D camera borders.
 
 ### Behavior actions
 
-**Additional border (extra distance before deletion)**  
+**Additional border (extra distance before deletion)**
 Change the extra distance (in pixels) the object must travel beyond the screen before it gets deleted.
 
-**Unseen object grace distance**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+**Unseen object grace distance**
 Change the grace distance (in pixels) before deleting the object if it has never been visible on the screen. Useful to avoid objects being deleted before they are visible when they spawn.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
 
 ### Behavior conditions
 
-**Additional border (extra distance before deletion)**  
+**Additional border (extra distance before deletion)**
 Compare the extra distance (in pixels) the object must travel beyond the screen before it gets deleted.
 
-**Unseen object grace distance**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+**Unseen object grace distance**
 Compare the grace distance (in pixels) before deleting the object if it has never been visible on the screen. Useful to avoid objects being deleted before they are visible when they spawn.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
 
 ### Behavior expressions
 

@@ -4,8 +4,16 @@ The platformer engine allows to create controllable objects that can run and jum
 
 ## Conditions
 
-**Character is on given platform**  
+**Character is on given platform**
 Check if a platformer character is on a given platform.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): Platforms
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 
 
@@ -15,8 +23,14 @@ Flag objects as being platforms which characters can run on.
 
 ### Behavior actions
 
-**Platform type**  
+**Platform type**
 Change the platform type of the object: Platform, Jump-Through, or Ladder.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 String): Platform type (one of: "Platform", "Jumpthru", "Ladder")
 
 _No expressions for this behavior._
 
@@ -27,142 +41,409 @@ Jump and run on platforms.
 
 ### Behavior actions
 
-**Acceleration**  
+**Acceleration**
 Change the horizontal acceleration of an object.
 
-**Platform grabbing**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Acceleration (in pixels per second per second)
+
+**Platform grabbing**
 Enable (or disable) the ability of the object to grab platforms when falling near to one.
 
-**Deceleration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): Can grab platforms
+
+**Deceleration**
 Change the horizontal deceleration of an object.
 
-**Gravity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Deceleration (in pixels per second per second)
+
+**Gravity**
 Change the gravity applied on an object.
 
-**Ignore default controls**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Gravity (in pixels per second per second)
+
+**Ignore default controls**
 De/activate the use of default controls.  
 If deactivated, use the simulated actions to move the object.
 
-**Jump speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): Ignore controls
+
+**Jump speed**
 Change the jump speed of an object. Its value is always positive.
 
-**Jump sustain time**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Speed (in pixels per second)
+
+**Jump sustain time**
 Change the jump sustain time of an object.This is the time during which keeping the jump button held allow the initial jump speed to be maintained.
 
-**Ladder climbing speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Duration (in seconds)
+
+**Ladder climbing speed**
 Change the ladder climbing speed.
 
-**Maximum falling speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Speed (in pixels per second)
+
+**Maximum falling speed**
 Change the maximum falling speed of an object.
 
-**Maximum horizontal speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Max speed (in pixels per second)
+    - Parameter 4 (❓ Yes or No): If jumping, try to preserve the current speed in the air
+
+**Maximum horizontal speed**
 Change the maximum horizontal speed of an object.
 
-**Abort jump**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Max speed (in pixels per second)
+
+**Abort jump**
 Abort the current jump and stop the object vertically. This action doesn't have any effect when the character is not jumping.
 
-**Forbid jumping again in the air**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Forbid jumping again in the air**
 This revokes the effect of "Allow jumping again". The object is made unable to jump while in mid air. This has no effect if the object is not in the air.
 
-**Current falling speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Current falling speed**
 Change the current falling speed of the object. This action doesn't have any effect when the character is not falling or is in the first phase of a jump.
 
-**Current horizontal speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Speed (in pixels per second)
+
+**Current horizontal speed**
 Change the current horizontal speed of the object. The object moves to the left with negative values and to the right with positive ones
 
-**Allow jumping again**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Speed (in pixels per second)
+
+**Allow jumping again**
 When this action is executed, the object is able to jump again, even if it is in the air: this can be useful to allow a double jump for example. This is not a permanent effect: you must call again this action everytime you want to allow the object to jump (apart if it's on the floor).
 
-**Simulate control**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Simulate control**
 Simulate a press of a key.  
 Valid keys are Left, Right, Jump, Ladder, Release Ladder, Up, Down.
 
-**Simulate down key press**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 String): Key (one of: "Left", "Right", "Jump", "Ladder", "Release Ladder", "Up", "Down")
+
+**Simulate down key press**
 Simulate a press of the down key (used when on a ladder).
 
-**Simulate jump key press**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Simulate jump key press**
 Simulate a press of the jump key.
 
-**Simulate ladder key press**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Simulate ladder key press**
 Simulate a press of the ladder key (used to grab a ladder).
 
-**Simulate left key press**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Simulate left key press**
 Simulate a press of the left key.
 
-**Simulate release ladder key press**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Simulate release ladder key press**
 Simulate a press of the Release Ladder key (used to get off a ladder).
 
-**Simulate release platform key press**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Simulate release platform key press**
 Simulate a press of the release platform key (used when grabbing a platform ledge).
 
-**Simulate right key press**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Simulate right key press**
 Simulate a press of the right key.
 
-**Simulate up key press**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Simulate up key press**
 Simulate a press of the up key (used when on a ladder).
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
 
 ### Behavior conditions
 
-**Acceleration**  
+**Acceleration**
 Compare the horizontal acceleration of the object.
 
-**Can grab platforms**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Acceleration to compare to (in pixels per second per second)
+
+**Can grab platforms**
 Check if the object can grab the platforms.
 
-**Can jump**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Can jump**
 Check if the object can jump.
 
-**Current falling speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Current falling speed**
 Compare the current falling speed of the object. Its value is always positive.
 
-**Current jump speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Speed to compare to (in pixels per second)
+
+**Current jump speed**
 Compare the current jump speed of the object. Its value is always positive.
 
-**Current horizontal speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Speed to compare to (in pixels per second)
+
+**Current horizontal speed**
 Compare the current horizontal speed of the object. The object moves to the left with negative values and to the right with positive ones
 
-**Deceleration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Speed to compare to (in pixels per second)
+
+**Deceleration**
 Compare the horizontal deceleration of the object.
 
-**Gravity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Deceleration to compare to (in pixels per second per second)
+
+**Gravity**
 Compare the gravity applied on the object.
 
-**Is falling**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Gravity to compare to (in pixels per second per second)
+
+**Is falling**
 Check if the object is falling.  
 Note that the object can be flagged as jumping and falling at the same time: at the end of a jump, the fall speed becomes higher than the jump speed.
 
-**Is grabbing platform ledge**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Is grabbing platform ledge**
 Check if the object is grabbing a platform ledge.
 
-**Is jumping**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Is jumping**
 Check if the object is jumping.
 
-**Is on floor**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Is on floor**
 Check if the object is on a platform.
 
-**Is on ladder**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Is on ladder**
 Check if the object is on a ladder.
 
-**Jump speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Jump speed**
 Compare the jump speed of the object.Its value is always positive.
 
-**Jump sustain time**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Speed to compare to (in pixels per second)
+
+**Jump sustain time**
 Compare the jump sustain time of the object.This is the time during which keeping the jump button held allow the initial jump speed to be maintained.
 
-**Ladder climbing speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Duration to compare to (in seconds)
+
+**Ladder climbing speed**
 Compare the ladder climbing speed (in pixels per second).
 
-**Maximum falling speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Speed to compare to (in pixels per second)
+
+**Maximum falling speed**
 Compare the maximum falling speed of the object.
 
-**Maximum horizontal speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Max speed to compare to (in pixels per second)
+
+**Maximum horizontal speed**
 Compare the maximum horizontal speed of the object.
 
-**Is moving**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Max speed to compare to (in pixels per second)
+
+**Is moving**
 Check if the object is moving (whether it is on the floor or in the air).
 
-**Control pressed or simulated**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Control pressed or simulated**
 A control was applied from a default control or simulated by an action.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 String): Key (one of: "Left", "Right", "Jump", "Ladder", "Release Ladder", "Up", "Down")
 
 ### Behavior expressions
 

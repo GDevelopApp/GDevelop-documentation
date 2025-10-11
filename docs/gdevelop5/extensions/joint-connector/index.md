@@ -39,17 +39,53 @@ Rope joint
 
 ## Actions
 
-**Connect objects with a distance joint**  
+**Connect objects with a distance joint**
 Connect physics objects with a distance joint if the joint connector covers the center point of both objects.
 
-**Connect overlapping objects with a revolute joint**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object to connect
+    - Parameter 2 (🧩 Behavior): Physics Behavior
+    - Parameter 3 (👾 Object): Joint connector (center of this object is used to create the joint)
+    - Parameter 4 (🧩 Behavior): Distance joint connector
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Connect overlapping objects with a revolute joint**
 Connect overlapping physics objects with a revolute joint.
 
-**Connect objects with a rope joint**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object to connect
+    - Parameter 2 (🧩 Behavior): Physics Behavior
+    - Parameter 3 (👾 Object): Joint connector (center of this object is used to create the joint)
+    - Parameter 4 (🧩 Behavior): Revolute joint connector
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Connect objects with a rope joint**
 Connect physics objects with a rope joint if the joint connector covers the center point of both objects.
 
-**Connect overlapping objects with a weld joint**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object to connect
+    - Parameter 2 (🧩 Behavior): Physics Behavior
+    - Parameter 3 (👾 Object): Joint connector (center of this object is used to create the joint)
+    - Parameter 4 (🧩 Behavior): Rope joint connector
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Connect overlapping objects with a weld joint**
 Connect overlapping physics objects with a weld joint.
+
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object to connect
+    - Parameter 2 (🧩 Behavior): Physics Behavior
+    - Parameter 3 (👾 Object): Joint connector (center of this object is used to create the joint)
+    - Parameter 4 (🧩 Behavior): Weld joint connector
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
 
 
@@ -60,17 +96,50 @@ Acts like a spring because the objects try to stay the same distance apart.
 
 ### Behavior actions
 
-**Break distance joint if it exceeds breaking force**  
+**Break distance joint if it exceeds breaking force**
 Break distance joint if it exceeds breaking force.
 
-**Set the breaking force of a joint**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): Object with joint
+    - Parameter 3 (🧩 Behavior): Physics behavior
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Set the breaking force of a joint**
 Set the breaking force of a joint.
 
-**Set damping ratio of joint**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Breaking force
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Set damping ratio of joint**
 Set dampting ratio of joint.  Range: 0 to 1.
 
-**Set frequency of joint**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Damping ratio
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Set frequency of joint**
 Set frequency of joint.  Range: 0 to 60 (or the maximum FPS of game).
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Frequency
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 _No expressions for this behavior._
 
@@ -82,37 +151,117 @@ Also known as a hinge joint because the objects act like they are connected with
 
 ### Behavior actions
 
-**Break revolute joint if it exceeds breaking force**  
+**Break revolute joint if it exceeds breaking force**
 Break revolute joint if it exceeds breaking force.
 
-**Set the breaking force of a joint**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): Object with joint
+    - Parameter 3 (🧩 Behavior): Physics behavior
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Set the breaking force of a joint**
 Set the breaking force of a joint.
 
-**Set clockwise angle limit of joint**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Breaking force
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Set clockwise angle limit of joint**
 Set clockwise angle limit of joint.
 
-**Set counter-clockwise angle limit of joint**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Clockwise angle limit (degrees)
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Set counter-clockwise angle limit of joint**
 Set counter-clockwise angle limit of joint.
 
-**Enable (or disable) angle limits on joint**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Couter-clockwise angle limit (degrees)
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Enable (or disable) angle limits on joint**
 Enable (or disable) angle limits on joint.
 
-**Enable (or disable) motor of joint**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): Enable angle limits
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Enable (or disable) motor of joint**
 Enable (or disable) motor of joint.
 
-**Motor enabled (or disabled) on joint**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): Enable motor
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Motor enabled (or disabled) on joint**
 Change if motor enabled (or disabled) on joint.
 
-**Set motor rotation speed of joint**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): MotorEnabled
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Set motor rotation speed of joint**
 Set motor rotation speed of joint.
 
-**Set motor strength of joint**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Motor rotation speed
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Set motor strength of joint**
 Set motor strength (torque) of joint.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Motor strength
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Motor enabled (or disabled) on joint**  
+**Motor enabled (or disabled) on joint**
 Check if motor enabled (or disabled) on joint.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 _No expressions for this behavior._
 
@@ -125,34 +274,115 @@ Objects can get closer, but they cannot exceed the starting distance from each o
 
 ### Behavior actions
 
-**Break rope joint if it exceeds breaking force**  
+**Break rope joint if it exceeds breaking force**
 Break rope joint if it exceeds breaking force.
 
-**Breaking force**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): Object with joint
+    - Parameter 3 (🧩 Behavior): Physics behavior
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Breaking force**
 Change the force required to break joint apart.
 
-**Damping ratio**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Damping ratio**
 Change the damping ratio of the object. Set a number between 0 and 1.
 
-**Frequency**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Frequency**
 Change the frequency of the object. Set a number between 0 and 60. Higher numbers represent a stiffer spring.
 
-**Max distance between objects**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Max distance between objects**
 Change the max distance between objects.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Breaking force**  
+**Breaking force**
 Compare the force required to break joint apart.
 
-**Damping ratio**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Damping ratio**
 Compare the damping ratio of the object. Set a number between 0 and 1.
 
-**Frequency**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Frequency**
 Compare the frequency of the object. Set a number between 0 and 60. Higher numbers represent a stiffer spring.
 
-**Max distance between objects**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Max distance between objects**
 Compare the max distance between objects.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 
@@ -170,14 +400,39 @@ Also known as a static joint because the objects stay glued in the same relative
 
 ### Behavior actions
 
-**Break weld joint if it exceeds breaking force**  
+**Break weld joint if it exceeds breaking force**
 Break weld joint if it exceeds breaking force.
 
-**Set the breaking force of a joint**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): Object with joint
+    - Parameter 3 (🧩 Behavior): Physics behavior
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Set the breaking force of a joint**
 Set the breaking force of a joint.
 
-**Set frequency of joint**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Breaking force
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Set frequency of joint**
 Set frequency of joint.  Range: 0 to 60 (or the maximum FPS of game).
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Frequency
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 _No expressions for this behavior._
 

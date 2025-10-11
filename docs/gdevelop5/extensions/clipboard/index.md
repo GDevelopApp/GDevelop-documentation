@@ -14,13 +14,25 @@ This extension allows to access the clipboard.
 
 ## Actions
 
-**Get text from the clipboard**  
+**Get text from the clipboard**
 Read the text from the clipboard asynchronously.   
 
 Note also that on web browsers, the user might be asked for permissions to read from the clipboard.
 
-**Write text to the clipboard**  
+??? quote "See parameters"
+
+    - Parameter 1 (🗄️ Scene variable): Callback variable where to store the clipboard contents
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Write text to the clipboard**
 Write the text in the clipboard.
+
+??? quote "See parameters"
+
+    - Parameter 1 (string): Text to write to clipboard
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 
 

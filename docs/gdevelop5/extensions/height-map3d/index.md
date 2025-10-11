@@ -33,28 +33,89 @@ A terrain with hills in 3D.
 
 ### Object actions
 
-**Update height map**  
+**Update height map**
 Update the height map. This is done automatically at the  end of every frame, but it can be used manually to avoid a 1-frame delay.
 
-**Load height map**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Load height map**
 Load a height map from an image file.
 
-**Grid value**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1 (imageResource): Image
+    - Parameter 2 (🔢 Number): Image cropping offset on X
+    - Parameter 3 (🔢 Number): Image cropping offset on Y
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Grid value**
 Change the field value at a grid index. The value is bewteen 0 and 1.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+    - Parameter 3 (🔢 Number): X grid index
+    - Parameter 4 (🔢 Number): Y grid index
+
+    > Technical note: parameter 5 are internal parameters handled by GDevelop.
 
 ### Object conditions
 
-**Field point Z**  
+**Field point Z**
 Compare the field Z for a given position in the scene.
 
-**Grid dimension X**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔢 Number): X position in the scene
+    - Parameter 4 (🔢 Number): Y position in the scene
+
+    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+
+**Grid dimension X**
 Compare the number of points in the grid on X axis.
 
-**Grid dimension Y**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Grid dimension Y**
 Compare the number of points in the grid on Y axis.
 
-**Grid value**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Grid value**
 Compare the field value at a grid index. The value is bewteen 0 and 1.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔢 Number): X grid index
+    - Parameter 4 (🔢 Number): Y grid index
+
+    > Technical note: parameter 5 are internal parameters handled by GDevelop.
 
 ### Object expressions
 

@@ -31,52 +31,168 @@ Checkbox that can be toggled by a left-click or touch.
 
 ### Behavior actions
 
-**Border thickness of checkbox**  
+**Border thickness of checkbox**
 Change the border thickness of checkbox.
 
-**Check (or uncheck) the checkbox**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Track thickness
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Check (or uncheck) the checkbox**
 Check (or uncheck) the checkbox.
 
-**Enable interactions with checkbox**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): Check the checkbox?
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Enable interactions with checkbox**
 Enable or disable interactions with the checkbox. Users cannot interact while it is disabled.
 
-**Halo opacity when hovered**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): Enable
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Halo opacity when hovered**
 Change the halo opacity when hovered.
 
-**Halo opacity when pressed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Halo opacity
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Halo opacity when pressed**
 Change the halo opacity when pressed.
 
-**Halo radius when hovered**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Halo opacity
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Halo radius when hovered**
 Change the halo radius when hovered. This size is also used to detect interaction with the checkbox.
 
-**Halo radius when pressed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Halo radius
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Halo radius when pressed**
 Change the halo radius when pressed.
 
-**Line width of checkmark**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Halo radius
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Line width of checkmark**
 Change the line width of checkmark.
 
-**Primary color of checkbox**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Line width (px)
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Primary color of checkbox**
 Change the primary color of checkbox.
 
-**Secondary color of checkbox**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (color): Primary color
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Secondary color of checkbox**
 Change the secondary color of checkbox.
 
-**Side length of checkbox**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (color): Secondary color
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Side length of checkbox**
 Change the side length of checkbox.
 
-**Toggle checkmark**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Track width (px)
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Toggle checkmark**
 If checked, change to unchecked.  If unchecked, change to checked.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Checkbox is being pressed**  
+**Checkbox is being pressed**
 Check if the checkbox is being pressed by mouse or touch.
 
-**Is checked**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is checked**
 Check if the checkbox is checked.
 
-**Interactions enabled**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Interactions enabled**
 Check if the checkbox interations are enabled.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

@@ -10,25 +10,62 @@ Actions/conditions to enable/disable and change parameters of visual effects app
 
 ### Behavior actions
 
-**Enable an object effect**  
+**Enable an object effect**
 Enable an effect on the object
 
-**Effect property (enable or disable)**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🔤 Object Effect Name (String)
+    - Parameter 3 (❓ Yes or No): Enable?
+
+**Effect property (enable or disable)**
 Enable or disable a property of an effect.  
 You can find the property names (and change the effect names) in the effects window.
 
-**Effect property (number)**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🔤 Object Effect Name (String)
+    - Parameter 3: 🔤 Object Effect Property Name (String)
+    - Parameter 4 (❓ Yes or No): Enable this property
+
+**Effect property (number)**
 Change the value of a property of an effect.  
 You can find the property names (and change the effect names) in the effects window.
 
-**Effect property (string)**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🔤 Object Effect Name (String)
+    - Parameter 3: 🔤 Object Effect Property Name (String)
+    - Parameter 4 (🔢 Number): New value
+
+**Effect property (string)**
 Change the value (string) of a property of an effect.  
 You can find the property names (and change the effect names) in the effects window.
 
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🔤 Object Effect Name (String)
+    - Parameter 3: 🔤 Object Effect Property Name (String)
+    - Parameter 4 (string): New value
+
 ### Behavior conditions
 
-**Effect is enabled**  
+**Effect is enabled**
 Check if the effect on an object is enabled.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🔤 Object Effect Name (String)
 
 _No expressions for this behavior._
 

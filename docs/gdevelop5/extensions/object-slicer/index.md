@@ -22,8 +22,19 @@ This example shows how to slice objects: [open the project online](https://edito
 
 ## Actions
 
-**Slice object into smaller pieces**  
+**Slice object into smaller pieces**
 Slice an object into smaller pieces that match color of the original object. The new object should be a solid white color.
+
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object to be sliced
+    - Parameter 2 (👾 Object): Object used for sliced pieces
+      Recommended: Use a sprite that is a single white pixel
+    - Parameter 3 (🔢 Number): Vertical slices
+    - Parameter 4 (🔢 Number): Horizontal slices
+    - Parameter 5 (❓ Yes or No): Delete original object
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
 
 

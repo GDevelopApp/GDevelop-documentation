@@ -23,26 +23,79 @@ There are ready-to-use joysticks in the asset-store [multitouch joysticks pack](
 
 ## Conditions
 
-**New touch on a screen side**  
+**New touch on a screen side**
 Check if a new touch has started on the right or left side of the screen.
 
-**Multitouch controller button just pressed**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Multitouch joystick
+    - Parameter 2 (🔤 String): Screen side (one of: "Left", "Right")
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Multitouch controller button just pressed**
 Check if a button was just pressed on a multitouch controller.
 
-**Multitouch controller button pressed**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Multitouch controller identifier (1, 2, 3, 4...)
+    - Parameter 2 (string): Button name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Multitouch controller button pressed**
 Check if a button is pressed on a multitouch controller.
 
-**Multitouch controller button released**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Multitouch controller identifier (1, 2, 3, 4...)
+    - Parameter 2 (string): Button name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Multitouch controller button released**
 Check if a button is released on a multitouch controller.
 
-**Joystick pushed in a direction (4-way)**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Multitouch controller identifier (1, 2, 3, 4...)
+    - Parameter 2 (string): Button name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Joystick pushed in a direction (4-way)**
 Check if joystick is pushed in a given direction.
 
-**Joystick pushed in a direction (8-way)**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Multitouch controller identifier (1, 2, 3, 4...)
+    - Parameter 2 (🔤 String): Joystick name (one of: "Primary", "Secondary")
+    - Parameter 3 (🔤 String): Direction (one of: "Up", "Down", "Left", "Right")
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Joystick pushed in a direction (8-way)**
 Check if joystick is pushed in a given direction.
 
-**Stick force**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Multitouch controller identifier (1, 2, 3, 4...)
+    - Parameter 2 (🔤 String): Joystick name (one of: "Primary", "Secondary")
+    - Parameter 3 (🔤 String): Direction (one of: "Up", "Down", "Left", "Right", "UpLeft", "UpRight", "DownLeft", "DownRight")
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Stick force**
 Compare the force of multitouch contoller stick (from 0 to 1).
+
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔢 Number): Multitouch controller identifier (1, 2, 3, 4...)
+    - Parameter 4 (🔤 String): Stick name (one of: "Primary", "Secondary")
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
 ## Expressions
 
@@ -67,49 +120,154 @@ Joystick for touchscreens.
 
 ### Object actions
 
-**De/activate control**  
+**De/activate control**
 De/activate control of the joystick.
 
-**Multitouch controller identifier**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1 (❓ Yes or No): Activate
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Multitouch controller identifier**
 Change the multitouch controller identifier (1, 2, 3, 4...).
 
-**Dead zone radius**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Dead zone radius**
 Change the dead zone radius of the joystick (range: 0 to 1). The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved).
 
-**Joystick name**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Joystick name**
 Change the joystick name of the object.
 
-**Show and start pressing**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (string): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Show and start pressing**
 Show the joystick until it is released.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
 
 ### Object conditions
 
-**Multitouch controller identifier**  
+**Multitouch controller identifier**
 Compare the multitouch controller identifier (1, 2, 3, 4...).
 
-**Dead zone radius**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Dead zone radius**
 Compare the dead zone radius of the joystick (range: 0 to 1). The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved).
 
-**Joystick pushed in a direction (4-way movement)**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Joystick pushed in a direction (4-way movement)**
 Check if joystick is pushed in a given direction.
 
-**Joystick pushed in a direction (8-way movement)**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1 (🔤 String): Direction (one of: "Up", "Down", "Left", "Right")
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Joystick pushed in a direction (8-way movement)**
 Check if joystick is pushed in a given direction.
 
-**Stick pressed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1 (🔤 String): Direction (one of: "Up", "Down", "Left", "Right", "UpLeft", "UpRight", "DownLeft", "DownRight")
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Stick pressed**
 Check if a stick is pressed.
 
-**Joystick name**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Joystick name**
 Compare the joystick name of the object.
 
-**Stick force**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Stick force**
 Compare the strick force (from 0 to 1).
 
-**Stick X force**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Stick X force**
 Compare the stick force on X axis (from -1 at the left to 1 at the right).
 
-**Stick Y force**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Stick Y force**
 Compare the stick force on Y axis (from -1 at the top to 1 at the bottom).
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Object expressions
 
@@ -129,61 +287,223 @@ Control camera rotations with a multitouch controller.
 
 ### Behavior actions
 
-**Horizontal rotation acceleration**  
+**Horizontal rotation acceleration**
 Change the horizontal rotation acceleration of the object.
 
-**Horizontal rotation deceleration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Horizontal rotation deceleration**
 Change the horizontal rotation deceleration of the object.
 
-**Maximum horizontal rotation speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Maximum horizontal rotation speed**
 Change the maximum horizontal rotation speed of the object.
 
-**Z position offset**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Z position offset**
 Change the z position offset of the object.
 
-**Maximum vertical camera angle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Maximum vertical camera angle**
 Change the maximum vertical camera angle of the object.
 
-**Minimum vertical camera angle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Minimum vertical camera angle**
 Change the minimum vertical camera angle of the object.
 
-**Vertical rotation acceleration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Vertical rotation acceleration**
 Change the vertical rotation acceleration of the object.
 
-**Vertical rotation deceleration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Vertical rotation deceleration**
 Change the vertical rotation deceleration of the object.
 
-**Maximum vertical rotation speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Maximum vertical rotation speed**
 Change the maximum vertical rotation speed of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Horizontal rotation acceleration**  
+**Horizontal rotation acceleration**
 Compare the horizontal rotation acceleration of the object.
 
-**Horizontal rotation deceleration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Horizontal rotation deceleration**
 Compare the horizontal rotation deceleration of the object.
 
-**Maximum horizontal rotation speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Maximum horizontal rotation speed**
 Compare the maximum horizontal rotation speed of the object.
 
-**Z position offset**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Z position offset**
 Compare the z position offset of the object.
 
-**Maximum vertical camera angle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Maximum vertical camera angle**
 Compare the maximum vertical camera angle of the object.
 
-**Minimum vertical camera angle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Minimum vertical camera angle**
 Compare the minimum vertical camera angle of the object.
 
-**Vertical rotation acceleration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Vertical rotation acceleration**
 Compare the vertical rotation acceleration of the object.
 
-**Vertical rotation deceleration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Vertical rotation deceleration**
 Compare the vertical rotation deceleration of the object.
 
-**Maximum vertical rotation speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Maximum vertical rotation speed**
 Compare the maximum vertical rotation speed of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 
@@ -205,14 +525,35 @@ Detect presses made on a touchscreen on the object so it acts like a button and 
 
 ### Behavior conditions
 
-**Button just pressed**  
+**Button just pressed**
 Check if the button was just pressed.
 
-**Button pressed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Button pressed**
 Check if the button is pressed.
 
-**Button released**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Button released**
 Check if the button is released.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 _No expressions for this behavior._
 

@@ -24,28 +24,82 @@ Reveal a text one letter after the other.
 
 ### Behavior actions
 
-**Show Nth first characters**  
+**Show Nth first characters**
 Jump to a specific position in the text. Positions start at "0" and increase by one for every character.
 
-**Restart typing from the beginning**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Character position
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Restart typing from the beginning**
 Restart typing from the beginning of text. The autotyping also start automatically when a new text is set for the object.
 
-**Time between characters**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Time between characters**
 Change the time between characters beign typed.
 
-**Show the full text**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Show the full text**
 Show the full text.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Has just typed**  
+**Has just typed**
 Check if a character has just been typed. Useful for triggering sound effects.
 
-**Time between characters**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Time between characters**
 Compare the time between characters beign typed.
 
-**Finished typing**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Finished typing**
 Check if the full text has been typed.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

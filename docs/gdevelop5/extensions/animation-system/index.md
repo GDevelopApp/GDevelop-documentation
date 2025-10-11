@@ -26,11 +26,25 @@ Helpful for making animations for sprites without having to spend time animating
 
 ## Conditions
 
-**Check if the animation has finished**  
+**Check if the animation has finished**
 Check if the selected animation has finished.
 
-**Check if the door is open**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 String): Animation
+      Animation must be set to Trigger once in order to check if it finished (one of: "Pulse", "Breath", "Smooth rotation", "Instant rotation", "3D rotation", "3D rotation X", "3D rotation Y", "Float", "Triangle transition", "Square transition", "Rhombus transition", "Maze transition", "Fade out", "Fade in", "Squash & Stretch", "Rainbow effect", "Shake rotation", "Shake horizontal", "Shake vertical", "Line rotation", "Land", "Low health")
+    - Parameter 2 (👾 Object): Animated object
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Check if the door is open**
 From *3D open door* animation.
+
+??? quote "See parameters"
+
+    - Parameter 1: 👾 Object
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 
 
@@ -40,8 +54,39 @@ Animate any sprite with this extension.
 
 ### Behavior actions
 
-**Animation system**  
+**Animation system**
 edit the object ("Origin" point) to control how the animation goes.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 String): Animations list (one of: "Pulse", "Breath", "Smooth rotation", "Instant rotation", "Wobble", "Wobble2", "Wobble3", "3D rotation", "3D rotation X", "3D rotation Y", "3D door loop", "3D open door", "3D close door", "Float", "Triangle transition", "Square transition", "Rhombus transition", "Maze transition", "Fade loop", "Fade out", "Fade in", "Squash & Stretch", "Rainbow effect", "Shake rotation", "Shake horizontal", "Shake vertical", "Line rotation", "Land", "Low health")
+    - Parameter 3 (🔢 Number): Animation speed
+    - Parameter 4 (🔢 Number): Object width
+    - Parameter 5 (🔢 Number): Object height
+      Animations information:  
+      Pulse/Breath: recommended speed, 0.03  
+      Smooth rotation: recommended speed, 5  
+      Wobble/wobble2/wobble3: Do not have trigger once/ recommended speed, 0.1  
+      3D rotation: recommended speed, 1  
+      3D rotationX: recommended speed, 1.2  
+      3D rotationY: Origin point must be at center/ recommended speed, 1.2  
+      3D door loop: do not have trigger once/ recommended speed, 1.2  
+      3D open/close door: Trigger once must be YES/ recommended speed, 1.2  
+      Float: recommended speed, 0.02  
+      Triangle/Square/Rhombus/Maze transition: recommended speed, 3  
+      Fade loop: do not have trigger once/ recommended speed, 5  
+      Fade Out/In: Trigger once must be YES/ recommended speed, 5  
+      Squash&Stretch: recommended speed, 0.06  
+      Rainbow effect: The higher the speed the slower effect/ recommended speed, 1  
+      Shake rotation/Horizontal/Vertical: recommended speed, 4  
+      Line rotation: recommended speed, 3  
+      Land: Trigger once must be YES/ Best results, set the condition of the player to "is on floor" > start animation land / recommended speed, 5  
+      Low health: recommended speed, 30
+    - Parameter 6 (❓ Yes or No): Trigger animation once ?
+
+    > Technical note: parameter 7 are internal parameters handled by GDevelop.
 
 _No expressions for this behavior._
 

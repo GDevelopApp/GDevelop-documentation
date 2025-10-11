@@ -19,11 +19,36 @@ Checks if the object has landed on a floor with the given settings.
 
 ## Conditions
 
-**HasLanded**  
+**HasLanded**
 Checks if the object has landed on floor.
 
-**HasLandedOnGivenFloor**  
+??? quote "See parameters"
+
+    - Parameter 1: 👾 Object
+    - Parameter 2: 🧩 Behavior
+    - Parameter 3 (🔤 String): Type (one of: "Must have jump", "Cant have jump", "Any")
+    - Parameter 4 (🔢 Number): Fall distance
+      Based of orgin point Y axie and The number will mean the lowest ammount until true so anything thats the number or higher will be true
+    - Parameter 5 (🔢 Number): Fall speed
+      The number will mean the lowest ammount until true so anything thats the number or higher will be true
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**HasLandedOnGivenFloor**
 Checks if the object has landed on a given floor.
+
+??? quote "See parameters"
+
+    - Parameter 1: 👾 Object
+    - Parameter 2: 🧩 Behavior
+    - Parameter 3 (🔤 String): Type (one of: "Must have jump", "Cant have jump", "Any")
+    - Parameter 4 (🔢 Number): Fall distance
+      Based of orgin point Y axie and The number will mean the lowest ammount until true so anything thats the number or higher will be true
+    - Parameter 5 (🔢 Number): Fall speed
+      The number will mean the lowest ammount until true so anything thats the number or higher will be true
+    - Parameter 6 (👾 Object): Given Floor
+
+    > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
 
 

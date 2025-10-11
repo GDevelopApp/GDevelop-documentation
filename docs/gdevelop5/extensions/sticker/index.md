@@ -20,8 +20,16 @@ An example allows to check it out ([open the project online](https://editor.gdev
 
 ## Conditions
 
-**Is stuck to another object**  
+**Is stuck to another object**
 Check if the object is stuck to another object.
+
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Sticker
+    - Parameter 2 (🧩 Behavior): Sticker behavior
+    - Parameter 3 (👾 Object): Basis
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
 
 
@@ -31,11 +39,26 @@ Stick the object to another. Use the action to stick the object, or unstick it l
 
 ### Behavior actions
 
-**Stick**  
+**Stick**
 Stick on another object.
 
-**Unstick**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): Object to stick to
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Unstick**
 Unstick from the object it was stuck to.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 _No expressions for this behavior._
 

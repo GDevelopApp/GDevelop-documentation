@@ -24,19 +24,48 @@ An animated score counter with an icon and a customisable font.
 
 ### Object actions
 
-**Disable the rating**  
+**Disable the rating**
 Enable or disable the object.
 
-**Rate**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1 (❓ Yes or No): Disable
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Rate**
 Change the rate of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Object conditions
 
-**Disable the rating**  
+**Disable the rating**
 Check if the object is disabled.
 
-**Rate**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Rate**
 Compare the rate of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Object expressions
 

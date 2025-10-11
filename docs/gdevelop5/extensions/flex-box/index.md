@@ -30,20 +30,60 @@ A container for flex items.
 
 ### Behavior actions
 
-**Set flex direction**  
+**Set flex direction**
 Sets the flexbox direction property.
 
-**Set flex wrap**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 String): Flex direction (one of: "right", "left", "down", "right")
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Set flex wrap**
 Sets the flexbox wrap property.
 
-**Set alignement of the lines**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 String): Flex wrap (one of: "nowrap", "wrap", "wrap-reverse")
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Set alignement of the lines**
 Sets the alignement method for the lines/rows of objects in the box.
 
-**Set alignement on the X axis**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 String): Alignement method (one of: "stretch", "flex-start", "flex-end", "center")
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Set alignement on the X axis**
 Sets the alignement method for items on the X axis.
 
-**Set alignement on the Y axis**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 String): Alignement method (one of: "flex-start", "flex-end", "center", "space-between", "space-around", "space-evenly")
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Set alignement on the Y axis**
 Sets the alignement method for items on the Y axis.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 String): Alignement method (one of: "stretch", "flex-start", "flex-end", "center")
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 _No expressions for this behavior._
 
@@ -54,17 +94,49 @@ An item in a flex container.
 
 ### Behavior actions
 
-**Set alignement of the object**  
+**Set alignement of the object**
 Sets the alignement method for this object.
 
-**Set growth of the object**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 String): Alignement method (one of: "auto", "flex-start", "flex-end", "center", "stretch")
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Set growth of the object**
 Sets the growth for this object.
 
-**Set order of the object**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Growth
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Set order of the object**
 Sets the order for this object.
 
-**Set shrink of the object**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Order
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Set shrink of the object**
 Sets the shrink for this object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Shrink
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 _No expressions for this behavior._
 

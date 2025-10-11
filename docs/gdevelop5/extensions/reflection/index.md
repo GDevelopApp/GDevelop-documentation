@@ -28,8 +28,27 @@ An action let you set the reflection for specific objects with a lot of options:
 
 ## Actions
 
-**Add reflection to object**  
+**Add reflection to object**
 Reflect your object.
+
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Reflection object
+      A different object than the original object
+    - Parameter 2 (👾 Object): Original object
+    - Parameter 3 (🔢 Number): (Optional) Distance offset
+      Distance in pixel, default: 0px
+    - Parameter 4 (🔢 Number): (Optional) Reflection opacity
+      Between 0 transparent to 255 opaque
+    - Parameter 5 (👾 Object): Reflective surface object
+    - Parameter 6 (🔢 Number): Reflection object Z order
+    - Parameter 7 (🔤 Layer name (String)): Layer to create the reflection (Base layer by default)
+    - Parameter 8 (❓ Yes or No): Delete reflection when it collides with the original object (default: no)
+    - Parameter 9 (🔢 Number): Distance before removing the reflection
+      Distance between the reflection and the original object before deleting the reflection (0 by default for immediate delete when touch)
+    - Parameter 10 (🔢 Number): (Optional) Between 0 transparent to 255 opaque
+
+    > Technical note: parameters 0, 11 are internal parameters handled by GDevelop.
 
 
 

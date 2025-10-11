@@ -56,16 +56,41 @@ For platformer character.
 
 ### Behavior actions
 
-**Disable animation**  
+**Disable animation**
 Disable game feel animation.
 
-**Enable animation**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 String): Animation (one of: "Idle", "Jump", "Fall", "Land")
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Enable animation**
 Enable game feel animation.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 String): Animation (one of: "Idle", "Jump", "Fall", "Land")
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Animation is playing**  
+**Animation is playing**
 Check if the object game feel animation is playing.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🧩 Behavior): Tween behavior
+    - Parameter 3 (🔤 String): Animation (one of: "Idle", "Jump", "Fall", "Land")
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 _No expressions for this behavior._
 

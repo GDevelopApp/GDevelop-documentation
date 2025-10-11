@@ -17,373 +17,1110 @@ Please refer to [Playgama documentation](https://wiki.playgama.com/playgama/sdk/
 
 ## Actions
 
-**Achievements Get List**  
+**Achievements Get List**
 Achievements Get List.
 
-**Achievements Show Native Popup**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Achievements Show Native Popup**
 Achievements Show Native Popup.
 
-**Achievements Unlock**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Achievements Unlock**
 Achievements Unlock.
 
-**Add Action Parameter**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Add Action Parameter**
 Add Action Parameter.
 
-**Add Bool Action Parameter**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Path
+    - Parameter 2 (string): Value
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Add Bool Action Parameter**
 Add Bool Action Parameter.
 
-**Add To Favorites**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Path
+    - Parameter 2 (❓ True or False): Value
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Add To Favorites**
 Add To Favorites.
 
-**Add To Home Screen**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Add To Home Screen**
 Add To Home Screen.
 
-**Append Parameter to Storage Data Delete Request**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Append Parameter to Storage Data Delete Request**
 Append Parameter to Storage Data Delete Request.
 
-**Append Parameter to Storage Data Get Request**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Key
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Append Parameter to Storage Data Get Request**
 Append Parameter to Storage Data Get Request.
 
-**Append Parameter to Storage Data Set Request**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Key
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Append Parameter to Storage Data Set Request**
 Append Parameter to Storage Data Set Request.
 
-**Authorize Player**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Key
+    - Parameter 2 (string): Value
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Authorize Player**
 Authorize Player.
 
-**Check AdBlock**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Check AdBlock**
 Check AdBlock.
 
-**Create Post**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Create Post**
 Create Post.
 
-**Get Server Time**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Get Server Time**
 Get Server Time.
 
-**Hide Banner**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Hide Banner**
 Hide Banner.
 
-**Invite Friends**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Invite Friends**
 Invite Friends.
 
-**Join Community**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Join Community**
 Join Community.
 
-**Leaderboards Get Entries**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Leaderboards Get Entries**
 Leaderboards Get Entries.
 
-**Leaderboards Set Score**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Id
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Leaderboards Set Score**
 Leaderboards Set Score.
 
-**Leaderboards Show Native Popup**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Id
+    - Parameter 2 (🔢 Number): Score
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Leaderboards Show Native Popup**
 Leaderboards Show Native Popup.
 
-**Payments Consume Purchase**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Id
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Payments Consume Purchase**
 Payments Consume Purchase.
 
-**Payments Get Catalog**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Id
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Payments Get Catalog**
 Payments Get Catalog.
 
-**Payments Get Purchases**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Payments Get Purchases**
 Payments Get Purchases.
 
-**Payments Purchase**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Payments Purchase**
 Payments Purchase.
 
-**Platform Get All Games**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Id
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Platform Get All Games**
 Platform Get All Games.
 
-**Platform Get Game By Id**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Platform Get Game By Id**
 Platform Get Game By Id.
 
-**Rate**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Rate**
 Rate.
 
-**Send Message**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Send Message**
 Send Message.
 
-**Send Remote Config Get Request**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 String): Message (one of: "GAME_READY", "IN_GAME_LOADING_STARTED", "IN_GAME_LOADING_STOPPED", "GAMEPLAY_STARTED", "GAMEPLAY_STOPPED", "PLAYER_GOT_ACHIEVEMENT")
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Send Remote Config Get Request**
 Send Remote Config Get Request.
 
-**Send Storage Data Delete Request**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Send Storage Data Delete Request**
 Send Storage Data Delete Request.
 
-**Send Storage Data Get Request**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 String): Storage Type (one of: "default", "local_storage", "platform_internal")
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Send Storage Data Get Request**
 Send Storage Data Get Request.
 
-**Send Storage Data Set Request**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 String): Storage Type (one of: "default", "local_storage", "platform_internal")
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Send Storage Data Set Request**
 Send Storage Data Set Request.
 
-**Set Minimum Delay Between Interstitial**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 String): Storage Type (one of: "default", "local_storage", "platform_internal")
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Set Minimum Delay Between Interstitial**
 Set Minimum Delay Between Interstitial.
 
-**Share**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Seconds
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Share**
 Share.
 
-**Show Banner**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Show Banner**
 Show Banner.
 
-**Show Interstitial**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 String): Position (one of: "bottom", "top")
+    - Parameter 2 (string): Placement (optional)
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Show Interstitial**
 Show Interstitial.
 
-**Show Rewarded**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Placement (optional)
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Show Rewarded**
 Show Rewarded.
+
+??? quote "See parameters"
+
+    - Parameter 1 (string): Placement (optional)
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**Does Player Have Name**  
+**Does Player Have Name**
 Does Player Have Name.
 
-**Does Player Have Photo**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Does Player Have Photo**
 Does Player Have Photo.
 
-**Has Remote Config Value**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔢 Number): Index
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Has Remote Config Value**
 Has Remote Config Value.
 
-**Has Server Time**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Key
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Has Server Time**
 Has Server Time.
 
-**Has Storage Data**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Has Storage Data**
 Has Storage Data.
 
-**Is Achievements Get List Supported**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Key
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Is Achievements Get List Supported**
 Is Achievements Get List Supported.
 
-**Is Achievements Native Popup Supported**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is Achievements Native Popup Supported**
 Is Achievements Native Popup Supported.
 
-**Is Achievements Supported**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is Achievements Supported**
 Is Achievements Supported.
 
-**Is Ad Block Detected**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is Ad Block Detected**
 Is Ad Block Detected.
 
-**Is Add To Favorites Supported**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is Add To Favorites Supported**
 Is Add To Favorites Supported.
 
-**Is Add To Home Screen Supported**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is Add To Home Screen Supported**
 Is Add To Home Screen Supported.
 
-**Is Banner Supported**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is Banner Supported**
 Is Banner Supported.
 
-**Is Create Post Supported**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is Create Post Supported**
 Is Create Post Supported.
 
-**Is Desktop**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is Desktop**
 Is Desktop.
 
-**Is External Links Allowed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is External Links Allowed**
 Is External Links Allowed.
 
-**Is Get All Games Supported**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is Get All Games Supported**
 Is Get All Games Supported.
 
-**Is Get Game By Id Supported**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is Get Game By Id Supported**
 Is Get Game By Id Supported.
 
-**Is Initialized**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is Initialized**
 Is Initialized.
 
-**Is Interstitial Supported**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is Interstitial Supported**
 Is Interstitial Supported.
 
-**Is Invite Friends Supported**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is Invite Friends Supported**
 Is Invite Friends Supported.
 
-**Is Join Community Supported**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is Join Community Supported**
 Is Join Community Supported.
 
-**Is Last Action Completed Successfully**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is Last Action Completed Successfully**
 Is Last Action Completed Successfully.
 
-**Is Mobile**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is Mobile**
 Is Mobile.
 
-**Is Payments Supported**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is Payments Supported**
 Is Payments Supported.
 
-**Is Player Authorization Supported**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is Player Authorization Supported**
 Is Player Authorization Supported.
 
-**Is Player Authorized**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is Player Authorized**
 Is Player Authorized.
 
-**Is Rate Supported**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is Rate Supported**
 Is Rate Supported.
 
-**Is Remote Config Supported**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is Remote Config Supported**
 Is Remote Config Supported.
 
-**Is Rewarded Supported**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is Rewarded Supported**
 Is Rewarded Supported.
 
-**Is Share Supported**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is Share Supported**
 Is Share Supported.
 
-**Is Storage Available**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is Storage Available**
 Is Storage Available.
 
-**Is Storage Supported**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 String): Storage Type (one of: "platform_internal", "local_storage")
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Is Storage Supported**
 Is Storage Supported.
 
-**Is Tablet**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 String): Storage Type (one of: "platform_internal", "local_storage")
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Is Tablet**
 Is Tablet.
 
-**Is Tv**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Is Tv**
 Is Tv.
 
-**The leaderboard is of type In Game**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**The leaderboard is of type In Game**
 The leaderboard is of type In Game.
 
-**The leaderboard is of type Native**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**The leaderboard is of type Native**
 The leaderboard is of type Native.
 
-**The leaderboard is of type Native Popup**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**The leaderboard is of type Native Popup**
 The leaderboard is of type Native Popup.
 
-**The leaderboard is of type Not Available**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**The leaderboard is of type Not Available**
 The leaderboard is of type Not Available.
 
-**On Achievements Get List Completed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Achievements Get List Completed**
 On Achievements Get List Completed.
 
-**On Achievements Show Native Popup Completed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Achievements Show Native Popup Completed**
 On Achievements Show Native Popup Completed.
 
-**On Achievements Unlock Completed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Achievements Unlock Completed**
 On Achievements Unlock Completed.
 
-**On Add To Favorites Completed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Add To Favorites Completed**
 On Add To Favorites Completed.
 
-**On Add To Home Screen Completed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Add To Home Screen Completed**
 On Add To Home Screen Completed.
 
-**On Authorize Player Completed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Authorize Player Completed**
 On Authorize Player Completed.
 
-**On Banner Failed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Banner Failed**
 On Banner Failed.
 
-**On Banner Hidden**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Banner Hidden**
 On Banner Hidden.
 
-**On Banner Loading**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Banner Loading**
 On Banner Loading.
 
-**On Banner Shown**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Banner Shown**
 On Banner Shown.
 
-**On Banner State Changed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Banner State Changed**
 On Banner State Changed.
 
-**On Check AdBlock Completed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Check AdBlock Completed**
 On Check AdBlock Completed.
 
-**On Create Post Completed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Create Post Completed**
 On Create Post Completed.
 
-**On Get All Games Completed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Get All Games Completed**
 On Get All Games Completed.
 
-**On Get Game By Id Completed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Get Game By Id Completed**
 On Get Game By Id Completed.
 
-**On Get Server Time Completed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Get Server Time Completed**
 On Get Server Time Completed.
 
-**On Interstitial Closed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Interstitial Closed**
 On Interstitial Closed.
 
-**On Interstitial Failed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Interstitial Failed**
 On Interstitial Failed.
 
-**On Interstitial Loading**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Interstitial Loading**
 On Interstitial Loading.
 
-**On Interstitial Opened**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Interstitial Opened**
 On Interstitial Opened.
 
-**On Interstitial State Changed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Interstitial State Changed**
 On Interstitial State Changed.
 
-**On Invite Friends Completed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Invite Friends Completed**
 On Invite Friends Completed.
 
-**On Join Community Completed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Join Community Completed**
 On Join Community Completed.
 
-**On Leaderboards Get Entries Completed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Leaderboards Get Entries Completed**
 On Leaderboards Get Entries Completed.
 
-**On Leaderboards Set Score Completed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Leaderboards Set Score Completed**
 On Leaderboards Set Score Completed.
 
-**On Leaderboards Show Native Popup Completed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Leaderboards Show Native Popup Completed**
 On Leaderboards Show Native Popup Completed.
 
-**On Payments Consume Purchase Completed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Payments Consume Purchase Completed**
 On Payments Consume Purchase Completed.
 
-**On Payments Get Catalog Completed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Payments Get Catalog Completed**
 On Payments Get Catalog Completed.
 
-**On Payments Get Purchases Completed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Payments Get Purchases Completed**
 On Payments Get Purchases Completed.
 
-**On Payments Purchase Completed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Payments Purchase Completed**
 On Payments Purchase Completed.
 
-**On Rate Completed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Rate Completed**
 On Rate Completed.
 
-**On Remote Config Got Completed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Remote Config Got Completed**
 On Remote Config Got Completed.
 
-**On Rewarded Closed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Rewarded Closed**
 On Rewarded Closed.
 
-**On Rewarded Failed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Rewarded Failed**
 On Rewarded Failed.
 
-**On Rewarded Loading**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Rewarded Loading**
 On Rewarded Loading.
 
-**On Rewarded Opened**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Rewarded Opened**
 On Rewarded Opened.
 
-**On Rewarded Rewarded**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Rewarded Rewarded**
 On Rewarded Rewarded.
 
-**On Rewarded State Changed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Rewarded State Changed**
 On Rewarded State Changed.
 
-**On Share Completed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Share Completed**
 On Share Completed.
 
-**On Storage Data Delete Request Completed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Storage Data Delete Request Completed**
 On Storage Data Delete Request Completed.
 
-**On Storage Data Get Request Completed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Storage Data Get Request Completed**
 On Storage Data Get Request Completed.
 
-**On Storage Data Set Request Completed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Storage Data Set Request Completed**
 On Storage Data Set Request Completed.
 
-**On Visibility State Changed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On Visibility State Changed**
 On Visibility State Changed.
 
-**Platform Is Audio Enabled**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Platform Is Audio Enabled**
 Platform Is Audio Enabled.
 
-**Platform Is Paused**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Platform Is Paused**
 Platform Is Paused.
 
-**Platform On Audio State Changed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Platform On Audio State Changed**
 Platform On Audio State Changed.
 
-**Platform On Pause State Changed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Platform On Pause State Changed**
 Platform On Pause State Changed.
+
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
 ## Expressions
 

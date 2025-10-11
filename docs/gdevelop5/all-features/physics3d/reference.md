@@ -8,17 +8,53 @@ Forces (and impulses) are expressed in all conditions/expressions/actions of the
 
 ## Conditions
 
-**Collision**  
+**Collision**
 Check if two objects collide.
 
-**Collision started**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 👾 Object
+    - Parameter 3: 🧩 Behavior
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Collision started**
 Check if two objects just started colliding during this frame.
 
-**Collision stopped**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 👾 Object
+    - Parameter 3: 🧩 Behavior
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Collision stopped**
 Check if two objects just stopped colliding at this frame.
 
-**Character is on given platform**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 👾 Object
+    - Parameter 3: 🧩 Behavior
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Character is on given platform**
 Check if a 3D physics character is on a given platform.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): Platforms
+    - Parameter 3: 🧩 Behavior
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 
 
@@ -28,178 +64,589 @@ Simulate realistic 3D physics for this object including gravity, forces, collisi
 
 ### Behavior actions
 
-**Apply angular impulse (rotational impulse)**  
+**Apply angular impulse (rotational impulse)**
 Apply an angular impulse (also called a "rotational impulse") to the object. It instantly changes the rotation speed, to give an initial speed for instance.
 
-**Apply force (at a point)**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Angular impulse around X (N·m·s)
+    - Parameter 3 (🔢 Number): Angular impulse around Y (N·m·s)
+    - Parameter 4 (🔢 Number): Angular impulse around Z (N·m·s)
+      An impulse is like a rotation speed addition but depends on the mass.
+
+**Apply force (at a point)**
 Apply a force to the object over time. It "accelerates" an object and must be used every frame during a time period.
 
-**Apply force (at center)**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): X component (N)
+    - Parameter 3 (🔢 Number): Y component (N)
+    - Parameter 4 (🔢 Number): Z component (N)
+      A force is like an acceleration but depends on the mass.
+    - Parameter 5 (🔢 Number): Application point on X axis
+    - Parameter 6 (🔢 Number): Application point on Y axis
+    - Parameter 7 (🔢 Number): Application point on Z axis
+      Use `MassCenterX`, `MassCenterY` and `MassCenterZ` expressions to avoid any rotation.
+
+**Apply force (at center)**
 Apply a force to the object over time. It "accelerates" an object and must be used every frame during a time period.
 
-**Apply force toward position**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): X component (N)
+    - Parameter 3 (🔢 Number): Y component (N)
+    - Parameter 4 (🔢 Number): Z component (N)
+      A force is like an acceleration but depends on the mass.
+
+**Apply force toward position**
 Apply a force to the object over time to move it toward a position. It "accelerates" an object and must be used every frame during a time period.
 
-**Apply impulse (at a point)**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Length (N)
+      A force is like an acceleration but depends on the mass.
+    - Parameter 3 (🔢 Number): X position
+    - Parameter 4 (🔢 Number): Y position
+    - Parameter 5 (🔢 Number): Z position
+
+**Apply impulse (at a point)**
 Apply an impulse to the object. It instantly changes the speed, to give an initial speed for instance.
 
-**Apply impulse (at center)**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): X component (N·s or kg·m·s⁻¹)
+    - Parameter 3 (🔢 Number): Y component (N·s or kg·m·s⁻¹)
+    - Parameter 4 (🔢 Number): Z component (N·s or kg·m·s⁻¹)
+      An impulse is like a speed addition but depends on the mass.
+    - Parameter 5 (🔢 Number): Application point on X axis
+    - Parameter 6 (🔢 Number): Application point on Y axis
+    - Parameter 7 (🔢 Number): Application point on Z axis
+      Use `MassCenterX`, `MassCenterY` and `MassCenterZ` expressions to avoid any rotation.
+
+**Apply impulse (at center)**
 Apply an impulse to the object. It instantly changes the speed, to give an initial speed for instance.
 
-**Apply impulse toward position**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): X component (N·s or kg·m·s⁻¹)
+    - Parameter 3 (🔢 Number): Y component (N·s or kg·m·s⁻¹)
+    - Parameter 4 (🔢 Number): Z component (N·s or kg·m·s⁻¹)
+      An impulse is like a speed addition but depends on the mass.
+
+**Apply impulse toward position**
 Apply an impulse to the object to move it toward a position. It instantly changes the speed, to give an initial speed for instance.
 
-**Apply torque (rotational force)**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Length (N·s or kg·m·s⁻¹)
+      An impulse is like a speed addition but depends on the mass.
+    - Parameter 3 (🔢 Number): X position
+    - Parameter 4 (🔢 Number): Y position
+    - Parameter 5 (🔢 Number): Z position
+
+**Apply torque (rotational force)**
 Apply a torque (also called "rotational force") to the object. It "accelerates" an object rotation and must be used every frame during a time period.
 
-**Enable layer**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Torque around X (N·m)
+    - Parameter 3 (🔢 Number): Torque around Y (N·m)
+    - Parameter 4 (🔢 Number): Torque around Z (N·m)
+      A torque is like a rotation acceleration but depends on the mass.
+
+**Enable layer**
 Enable or disable a layer for an object. Two objects collide if any layer of the first object matches any mask of the second one and vice versa.
 
-**Enable mask**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Layer (1 - 8)
+    - Parameter 3 (❓ Yes or No): Enable
+
+**Enable mask**
 Enable or disable a mask for an object. Two objects collide if any layer of the first object matches any mask of the second one and vice versa.
 
-**Angular damping**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Mask (1 - 8)
+    - Parameter 3 (❓ Yes or No): Enable
+
+**Angular damping**
 Change the object angular damping. How much angular speed is lost across the time..
 
-**Angular velocity X**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+**Angular velocity X**
 Change the object angular velocity around X.
 
-**Angular velocity Y**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Angular speed (in degrees per second)
+
+**Angular velocity Y**
 Change the object angular velocity around Y.
 
-**Angular velocity Z**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Angular speed (in degrees per second)
+
+**Angular velocity Z**
 Change the object angular velocity around Z.
 
-**Treat as bullet**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Angular speed (in degrees per second)
+
+**Treat as bullet**
 Treat the object as a bullet. Better collision handling on high speeds at cost of some performance.
 
-**Density**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): Treat as bullet
+
+**Density**
 Change the object density. The body's density and volume determine its mass..
 
-**Fixed rotation**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+**Fixed rotation**
 Enable or disable an object fixed rotation. If enabled the object won't be able to rotate. This action has no effect on characters.
 
-**Friction**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): Fixed rotation
+
+**Friction**
 Change the object friction. How much energy is lost from the movement of one object over another. The combined friction from two bodies is calculated as 'sqrt(bodyA.friction * bodyB.friction)'..
 
-**Gravity scale**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+**Gravity scale**
 Change the object gravity scale. The gravity applied to an object is the world gravity multiplied by the object gravity scale..
 
-**World gravity on X axis**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Scale (1 by default)
+
+**World gravity on X axis**
 Change the world gravity on X axis While an object is needed, this will apply to all objects using the behavior..
 
-**World gravity on Y axis**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Gravity (in Newton)
+
+**World gravity on Y axis**
 Change the world gravity on Y axis While an object is needed, this will apply to all objects using the behavior..
 
-**World gravity on Z axis**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Gravity (in Newton)
+
+**World gravity on Z axis**
 Change the world gravity on Z axis While an object is needed, this will apply to all objects using the behavior..
 
-**Linear damping**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Gravity (in Newton)
+
+**Linear damping**
 Change the object linear damping. How much movement speed is lost across the time..
 
-**Linear velocity X**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+**Linear velocity X**
 Change the object linear velocity on X.
 
-**Linear velocity Y**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Speed (in pixels per second)
+
+**Linear velocity Y**
 Change the object linear velocity on Y.
 
-**Linear velocity Z**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Speed (in pixels per second)
+
+**Linear velocity Z**
 Change the object linear velocity on Z.
 
-**Restitution**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Speed (in pixels per second)
+
+**Restitution**
 Change the object restitution. Energy conservation on collision. The combined restitution from two bodies is calculated as 'max(bodyA.restitution, bodyB.restitution)'..
 
-**Shape offset X**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+**Shape offset X**
 Change the object shape offset on X..
 
-**Shape offset Y**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+**Shape offset Y**
 Change the object shape offset on Y..
 
-**Shape offset Z**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+**Shape offset Z**
 Change the object shape offset on Z..
 
-**Shape scale**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+**Shape scale**
 Modify an object shape scale. It affects custom shape dimensions, if custom dimensions are not set the body will be scaled automatically to the object size.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Scale (1 by default)
 
 ### Behavior conditions
 
-**Angular damping**  
+**Angular damping**
 Compare the object angular damping. How much angular speed is lost across the time..
 
-**Angular velocity X**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+**Angular velocity X**
 Compare the object angular velocity around X.
 
-**Angular velocity Y**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Angular speed (in degrees per second)
+
+**Angular velocity Y**
 Compare the object angular velocity around Y.
 
-**Angular velocity Z**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Angular speed (in degrees per second)
+
+**Angular velocity Z**
 Compare the object angular velocity around Z.
 
-**Density**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Angular speed (in degrees per second)
+
+**Density**
 Compare the object density. The body's density and volume determine its mass..
 
-**Friction**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+**Friction**
 Compare the object friction. How much energy is lost from the movement of one object over another. The combined friction from two bodies is calculated as 'sqrt(bodyA.friction * bodyB.friction)'..
 
-**Gravity scale**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+**Gravity scale**
 Compare the object gravity scale. The gravity applied to an object is the world gravity multiplied by the object gravity scale..
 
-**World gravity on X axis**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Scale (1 by default)
+
+**World gravity on X axis**
 Compare the world gravity on X axis While an object is needed, this will apply to all objects using the behavior..
 
-**World gravity on Y axis**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Gravity (in Newton)
+
+**World gravity on Y axis**
 Compare the world gravity on Y axis While an object is needed, this will apply to all objects using the behavior..
 
-**World gravity on Z axis**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Gravity (in Newton)
+
+**World gravity on Z axis**
 Compare the world gravity on Z axis While an object is needed, this will apply to all objects using the behavior..
 
-**Has fixed rotation**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Gravity (in Newton)
+
+**Has fixed rotation**
 Check if an object has fixed rotation.
 
-**Is treated as a bullet**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Is treated as a bullet**
 Check if the object is being treated as a bullet.
 
-**Is dynamic**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Is dynamic**
 Check if an object is dynamic.
 
-**Is kinematic**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Is kinematic**
 Check if an object is kinematic.
 
-**Is static**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Is static**
 Check if an object is static.
 
-**Layer enabled**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Layer enabled**
 Check if an object has a specific layer enabled.
 
-**Linear damping**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Layer (1 - 8)
+
+**Linear damping**
 Compare the object linear damping. How much movement speed is lost across the time..
 
-**Linear velocity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+**Linear velocity**
 Compare the object linear velocity length.
 
-**Linear velocity X**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Speed to compare to (in pixels per second)
+
+**Linear velocity X**
 Compare the object linear velocity on X.
 
-**Linear velocity Y**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Speed (in pixels per second)
+
+**Linear velocity Y**
 Compare the object linear velocity on Y.
 
-**Linear velocity Z**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Speed (in pixels per second)
+
+**Linear velocity Z**
 Compare the object linear velocity on Z.
 
-**Mask enabled**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Speed (in pixels per second)
+
+**Mask enabled**
 Check if an object has a specific mask enabled.
 
-**Restitution**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Mask (1 - 8)
+
+**Restitution**
 Compare the object restitution. Energy conservation on collision. The combined restitution from two bodies is calculated as 'max(bodyA.restitution, bodyB.restitution)'..
 
-**Shape offset X**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+**Shape offset X**
 Compare the object shape offset on X..
 
-**Shape offset Y**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+**Shape offset Y**
 Compare the object shape offset on Y..
 
-**Shape offset Z**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+**Shape offset Z**
 Compare the object shape offset on Z..
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
 
 ### Behavior expressions
 
@@ -241,58 +688,163 @@ This behavior is usually used with one or more "mapper" behavior to let the play
 
 ### Behavior actions
 
-**Engine inertia**  
+**Engine inertia**
 Change the engine inertia (kg·m²). It slows down car acceleration.
 
-**Engine max speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Engine inertia (kg·m²)
+
+**Engine max speed**
 Change the engine max speed (RPM).
 
-**Engine max torque**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Engine max speed (RPM)
+
+**Engine max torque**
 Change the engine max torque (N·m). It allows cars to climb steep slopes and push heavy obstacles.
 
-**Simulate accelerator stick control**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Engine max torque (N·m)
+
+**Simulate accelerator stick control**
 Simulate an accelerator stick control.
 
-**Simulate move backward key press**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Stick force (between -1 and 1)
+
+**Simulate move backward key press**
 Simulate a press of the move backward key.
 
-**Simulate move forward key press**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Simulate move forward key press**
 Simulate a press of the move forward key.
 
-**Simulate hand brake key press**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Simulate hand brake key press**
 Simulate a press of the hand brake key.
 
-**Simulate move left key press**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Simulate move left key press**
 Simulate a press of the move left key.
 
-**Simulate move right key press**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Simulate move right key press**
 Simulate a press of the move right key.
 
-**Simulate steering stick control**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Simulate steering stick control**
 Simulate a steering stick control.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Stick force (between -1 and 1)
 
 ### Behavior conditions
 
-**Current gear**  
+**Current gear**
 Compare the current gear (-1 = reverse, 0 = neutral, 1 = 1st gear).
 
-**Engine inertia**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Current gear
+
+**Engine inertia**
 Compare the engine inertia (kg·m²). It slows down car acceleration.
 
-**Engine speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Engine inertia (kg·m²)
+
+**Engine speed**
 Compare the current engine speed (RPM).
 
-**Engine max speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Engine speed (RPM)
+
+**Engine max speed**
 Compare the engine max speed (RPM).
 
-**Engine max torque**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Engine max speed (RPM)
+
+**Engine max torque**
 Compare the engine max torque (N·m). It allows cars to climb steep slopes and push heavy obstacles.
 
-**Is on floor**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Engine max torque (N·m)
+
+**Is on floor**
 Check if any wheel is in contact with the ground.
 
-**Steer angle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Steer angle**
 Compare the current steer angle (in degree). The value is negative when cars turn left.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Steer angle (in degree)
 
 ### Behavior expressions
 
@@ -313,146 +865,440 @@ This behavior is usually used with one or more "mapper" behavior to let the play
 
 ### Behavior actions
 
-**Abort jump**  
+**Abort jump**
 Abort the current jump and stop the object vertically. This action doesn't have any effect when the character is not jumping.
 
-**Maximum falling speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Maximum falling speed**
 Change the maximum falling speed of an object.
 
-**Allow jumping again**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Max speed (in pixels per second)
+    - Parameter 4 (❓ Yes or No): If jumping, try to preserve the current speed in the air
+
+**Allow jumping again**
 When this action is executed, the object is able to jump again, even if it is in the air: this can be useful to allow a double jump for example. This is not a permanent effect: you must call again this action every time you want to allow the object to jump (apart if it's on the floor).
 
-**Forbid jumping again in the air**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Forbid jumping again in the air**
 This revokes the effect of "Allow jumping again". The object is made unable to jump while in mid air. This has no effect if the object is not in the air.
 
-**Current falling speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Current falling speed**
 Change Compare the current falling speed of the object. Its value is always positive..
 
-**Current forward speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Speed to compare to (in pixels per second)
+
+**Current forward speed**
 Change the current forward speed of the object. The object moves backward with negative values and forward with positive ones.
 
-**Current jump speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Speed (in pixels per second)
+
+**Current jump speed**
 Change Compare the current jump speed of the object. Its value is always positive..
 
-**Current sideways speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Speed to compare to (in pixels per second)
+
+**Current sideways speed**
 Change the current sideways speed of the object. The object moves to the left with negative values and to the right with positive ones.
 
-**Forward acceleration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Speed (in pixels per second)
+
+**Forward acceleration**
 Change the forward acceleration of an object.
 
-**Forward angle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Acceleration (in pixels per second per second)
+
+**Forward angle**
 Change the angle used by the character to go forward.
 
-**Forward deceleration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Angle (in degrees)
+
+**Forward deceleration**
 Change the forward deceleration of an object.
 
-**Forward max speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Deceleration (in pixels per second per second)
+
+**Forward max speed**
 Change the forward max speed of the object.
 
-**Gravity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Speed (in pixels per second)
+
+**Gravity**
 Change the gravity applied on an object.
 
-**Jump speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Gravity (in pixels per second per second)
+
+**Jump speed**
 Change the jump speed of an object. Its value is always positive.
 
-**Jump sustain time**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Speed (in pixels per second)
+
+**Jump sustain time**
 Change the jump sustain time of an object. This is the time during which keeping the jump button held allow the initial jump speed to be maintained.
 
-**Should bind object and forward angle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Duration (in seconds)
+
+**Should bind object and forward angle**
 Enable or disable keeping the object angle and forward angle the same.
 
-**Sideways acceleration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): Keep object angle and forward direction the same
+
+**Sideways acceleration**
 Change the sideways acceleration of an object.
 
-**Sideways deceleration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Acceleration (in pixels per second per second)
+
+**Sideways deceleration**
 Change the sideways deceleration of an object.
 
-**Sideways max speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Deceleration (in pixels per second per second)
+
+**Sideways max speed**
 Change the sideways max speed of the object.
 
-**Simulate move backward key press**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Speed (in pixels per second)
+
+**Simulate move backward key press**
 Simulate a press of the move backward key.
 
-**Simulate move forward key press**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Simulate move forward key press**
 Simulate a press of the move forward key.
 
-**Simulate jump key press**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Simulate jump key press**
 Simulate a press of the jump key.
 
-**Simulate move left key press**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Simulate move left key press**
 Simulate a press of the move left key.
 
-**Simulate move right key press**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Simulate move right key press**
 Simulate a press of the move right key.
 
-**Simulate stick control**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Simulate stick control**
 Simulate a stick control.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Stick angle (in degrees)
+    - Parameter 3 (🔢 Number): Stick force (between 0 and 1)
 
 ### Behavior conditions
 
-**Can jump**  
+**Can jump**
 Check if the object can jump.
 
-**Current falling speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Current falling speed**
 Compare Compare the current falling speed of the object. Its value is always positive..
 
-**Current forward speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Speed to compare to (in pixels per second)
+
+**Current forward speed**
 Compare the current forward speed of the object. The object moves backward with negative values and forward with positive ones.
 
-**Current jump speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Speed (in pixels per second)
+
+**Current jump speed**
 Compare Compare the current jump speed of the object. Its value is always positive..
 
-**Current sideways speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Speed to compare to (in pixels per second)
+
+**Current sideways speed**
 Compare the current sideways speed of the object. The object moves to the left with negative values and to the right with positive ones.
 
-**Maximum falling speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Speed (in pixels per second)
+
+**Maximum falling speed**
 Compare the maximum falling speed of an object.
 
-**Forward acceleration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Max speed (in pixels per second)
+
+**Forward acceleration**
 Compare the forward acceleration of an object.
 
-**Forward deceleration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Acceleration (in pixels per second per second)
+
+**Forward deceleration**
 Compare the forward deceleration of an object.
 
-**Forward max speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Deceleration (in pixels per second per second)
+
+**Forward max speed**
 Compare the forward max speed of the object.
 
-**Gravity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Speed (in pixels per second)
+
+**Gravity**
 Compare the gravity applied on an object.
 
-**Is falling**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Gravity (in pixels per second per second)
+
+**Is falling**
 Check if the object is falling.  
 Note that the object can be flagged as jumping and falling at the same time: at the end of a jump, the fall speed becomes higher than the jump speed.
 
-**Forward angle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Forward angle**
 Compare the angle used by the character to go forward.
 
-**Is jumping**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Angle (in degrees)
+    - Parameter 3 (🔢 Number): Tolerance (in degrees)
+
+**Is jumping**
 Check if the object is jumping.
 
-**Is moving**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Is moving**
 Check if the object is moving (whether it is on the floor or in the air).
 
-**Is on floor**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Is on floor**
 Check if the object is on a platform.
 
-**Jump speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Jump speed**
 Compare the jump speed of an object. Its value is always positive.
 
-**Jump sustain time**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Speed (in pixels per second)
+
+**Jump sustain time**
 Compare the jump sustain time of an object. This is the time during which keeping the jump button held allow the initial jump speed to be maintained.
 
-**Should bind object and forward angle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Duration (in seconds)
+
+**Should bind object and forward angle**
 Check if the object angle and forward angle should be kept the same.
 
-**Sideways acceleration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Sideways acceleration**
 Compare the sideways acceleration of an object.
 
-**Sideways deceleration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Acceleration (in pixels per second per second)
+
+**Sideways deceleration**
 Compare the sideways deceleration of an object.
 
-**Sideways max speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Deceleration (in pixels per second per second)
+
+**Sideways max speed**
 Compare the sideways max speed of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Speed (in pixels per second)
 
 ### Behavior expressions
 

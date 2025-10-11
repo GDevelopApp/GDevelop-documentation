@@ -22,22 +22,52 @@ Limitations:
 
 ## Actions
 
-**Enable or disable camera pinch**  
+**Enable or disable camera pinch**
 Enable or disable camera pinch.
 
-**Camera pinch constraints**  
+??? quote "See parameters"
+
+    - Parameter 1 (❓ Yes or No): Enable camera pinch
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Camera pinch constraints**
 Change the camera pinch constraint.
 
-**Camera pinch layer**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 String): Constraint (one of: "No constraint", "Zoom only", "Rotation only", "Zoom and rotation only")
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Camera pinch layer**
 Choose the layer to move with pinch gestures.
+
+??? quote "See parameters"
+
+    - Parameter 1: 🔤 Layer name (String)
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**Camera pinch is enabled**  
+**Camera pinch is enabled**
 Check if camera pinch is enabled.
 
-**Touch is pinching**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Touch is pinching**
 Check if a touch is pinching, if 2 touches are pressed.
+
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
 ## Expressions
 
@@ -80,13 +110,27 @@ Move objects by holding 2 touches on them.
 
 ### Behavior actions
 
-**Abort pinching**  
+**Abort pinching**
 Abort the pinching of this object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Is being pinched**  
+**Is being pinched**
 Check if the object is being pinched.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 _No expressions for this behavior._
 

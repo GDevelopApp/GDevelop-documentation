@@ -64,25 +64,61 @@ GamePix SDK provides following javascript API:
 
 ## Actions
 
-**Show the interstitial ad**  
+**Show the interstitial ad**
 Show the interstitial ad (full screen).
 
-**Show the reward ad**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Show the reward ad**
 Show the reward ad (full screen).
+
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**GamePix SDK is initialised**  
+**GamePix SDK is initialised**
 Check if GamePix SDK is ready to use.
 
-**Check if interstitial has ended**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Check if interstitial has ended**
 Check if interstitial has ended.
 
-**Check that the reward ad has ended**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Check that the reward ad has ended**
 Check that the reward ad has ended.
 
-**Check if player should be rewarded**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Check if player should be rewarded**
 Check if player should be rewarded.
+
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
 ## Expressions
 

@@ -21,11 +21,23 @@ This extension allows to:
 
 ## Actions
 
-**Redirect to another page**  
+**Redirect to another page**
 Loads another page in place of the current one.
 
-**Reload the web page**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): URL to redirect to
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Reload the web page**
 Reloads the current web page.
+
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
 ## Expressions
 

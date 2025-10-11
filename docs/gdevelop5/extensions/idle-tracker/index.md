@@ -26,11 +26,25 @@ Check if an object has not moved (with some tolerance, 20 pixels by default) for
 
 ### Behavior conditions
 
-**Has just moved from last position**  
+**Has just moved from last position**
 Check if the object has just moved from its last position (using the tolerance configured in the behavior).
 
-**Is idle (since enough time)**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is idle (since enough time)**
 Check if the object is idle: it has not moved from its last position (or within the tolerance) for the time configured in the behavior.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 _No expressions for this behavior._
 

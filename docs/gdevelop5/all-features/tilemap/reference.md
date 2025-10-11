@@ -10,19 +10,39 @@ Invisible object handling collisions with parts of a tilemap.
 
 ### Object actions
 
-**Tilemap JSON file**  
+**Tilemap JSON file**
 Set the JSON file containing the Tilemap data to display. This is usually the JSON file exported from Tiled.
 
-**Tileset JSON file**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map collision mask
+    - Parameter 1 (jsonResource): Tilemap JSON file
+
+**Tileset JSON file**
 Set the JSON file with the tileset data (sometimes that is embedded in the Tilemap, so not needed)
+
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map collision mask
+    - Parameter 1 (jsonResource): Tileset JSON file
 
 ### Object conditions
 
-**Tilemap JSON file**  
+**Tilemap JSON file**
 Check the Tilemap JSON file being used.
 
-**Tileset JSON file**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map collision mask
+    - Parameter 1 (jsonResource): Tilemap JSON file
+
+**Tileset JSON file**
 Check the tileset JSON file being used.
+
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map collision mask
+    - Parameter 1 (jsonResource): Tileset JSON file
 
 _No expressions for this object._
 
@@ -33,61 +53,181 @@ Displays a tile-based map. Recommended for most games that need to use static ti
 
 ### Object actions
 
-**Flip tile horizontally (on the grid)**  
+**Flip tile horizontally (on the grid)**
 Flip tile horizontally at grid coordinates.
 
-**Flip tile horizontally (at position)**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1 (🔢 Number): Grid X
+    - Parameter 2 (🔢 Number): Grid Y
+    - Parameter 3 (❓ Yes or No): Flip horizontally
+
+**Flip tile horizontally (at position)**
 Flip tile horizontally at scene coordinates.
 
-**Flip tile vertically (on the grid)**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1 (🔢 Number): Position X
+    - Parameter 2 (🔢 Number): Position Y
+    - Parameter 3 (❓ Yes or No): Flip horizontally
+
+**Flip tile vertically (on the grid)**
 Flip tile vertically at grid coordinates.
 
-**Flip tile vertically (at position)**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1 (🔢 Number): Grid X
+    - Parameter 2 (🔢 Number): Grid Y
+    - Parameter 3 (❓ Yes or No): Flip vertically
+
+**Flip tile vertically (at position)**
 Flip tile vertically at scene coordinates.
 
-**Remove tile (on the grid)**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1 (🔢 Number): Position X
+    - Parameter 2 (🔢 Number): Position Y
+    - Parameter 3 (❓ Yes or No): Flip vertically
+
+**Remove tile (on the grid)**
 Remove the tile at the grid coordinates.
 
-**Remove tile (at position)**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1 (🔢 Number): Grid X
+    - Parameter 2 (🔢 Number): Grid Y
+
+**Remove tile (at position)**
 Remove the tile at the scene coordinates.
 
-**Grid column count**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1 (🔢 Number): Position X
+    - Parameter 2 (🔢 Number): Position Y
+
+**Grid column count**
 Change the grid column count in the tile map.
 
-**Grid row count**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+**Grid row count**
 Change the grid row count in the tile map.
 
-**Tile (on the grid)**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+**Tile (on the grid)**
 Change the id of the tile at the grid coordinates.
 
-**Tile (at position)**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+    - Parameter 3 (🔢 Number): Grid X
+    - Parameter 4 (🔢 Number): Grid Y
+
+**Tile (at position)**
 Change the id of the tile at the scene coordinates.
+
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+    - Parameter 3 (🔢 Number): Position X
+    - Parameter 4 (🔢 Number): Position Y
 
 ### Object conditions
 
-**Tile flipped horizontally (on the grid)**  
+**Tile flipped horizontally (on the grid)**
 Check if tile at grid coordinates is flipped horizontally.
 
-**Tile flipped horizontally (at position)**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1 (🔢 Number): Grid X
+    - Parameter 2 (🔢 Number): Grid Y
+
+**Tile flipped horizontally (at position)**
 Check if tile at scene coordinates is flipped horizontally.
 
-**Tile flipped vertically (on the grid)**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1 (🔢 Number): Position X
+    - Parameter 2 (🔢 Number): Position Y
+
+**Tile flipped vertically (on the grid)**
 Check if tile at grid coordinates is flipped vertically.
 
-**Tile flipped vertically (at position)**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1 (🔢 Number): Grid X
+    - Parameter 2 (🔢 Number): Grid Y
+
+**Tile flipped vertically (at position)**
 Check if tile at scene coordinates is flipped vertically.
 
-**Grid column count**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1 (🔢 Number): Position X
+    - Parameter 2 (🔢 Number): Position Y
+
+**Grid column count**
 Compare the grid column count in the tile map.
 
-**Grid row count**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+**Grid row count**
 Compare the grid row count in the tile map.
 
-**Tile (on the grid)**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+**Tile (on the grid)**
 Compare the id of the tile at the grid coordinates.
 
-**Tile (at position)**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔢 Number): Grid X
+    - Parameter 4 (🔢 Number): Grid Y
+
+**Tile (at position)**
 Compare the id of the tile at the scene coordinates.
+
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔢 Number): Position X
+    - Parameter 4 (🔢 Number): Position Y
 
 ### Object expressions
 
@@ -122,46 +262,118 @@ Displays a tiled-based map, made with the Tiled editor (https://www.mapeditor.or
 
 ### Object actions
 
-**Animation speed (FPS)**  
+**Animation speed (FPS)**
 Set the animation speed of the Tilemap.
 
-**Animation speed scale**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Animation speed (in frames per second)
+
+**Animation speed scale**
 Set the animation speed scale of the Tilemap.
 
-**Display mode**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Speed scale (1 by default)
+
+**Display mode**
 Set the display mode
 
-**Layer index**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1 (🔤 String): Display mode (one of: "visible", "all", "index")
+
+**Layer index**
 Set the layer index of the Tilemap.
 
-**Tilemap file (Tiled or LDtk)**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+**Tilemap file (Tiled or LDtk)**
 Set the Tiled or LDtk file containing the Tilemap data to display. This is usually the main file exported from Tiled/LDtk.
 
-**Tileset JSON file**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1 (tilemapResource): Tilemap file (Tiled or LDtk)
+
+**Tileset JSON file**
 Set the JSON file with the tileset data (sometimes that is embedded in the Tilemap, so not needed)
+
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1 (tilesetResource): Tileset JSON file
 
 ### Object conditions
 
-**Animation speed (FPS)**  
+**Animation speed (FPS)**
 Compare the animation speed.
 
-**Animation speed scale**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Animation speed to compare to (in frames per second)
+
+**Animation speed scale**
 Compare the animation speed scale.
 
-**Display mode**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Speed scale to compare to (1 by default)
+
+**Display mode**
 Compare the value of the display mode.
 
-**Layer index**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1 (🔤 String): Display mode (one of: "visible", "all", "index")
+
+**Layer index**
 Compare the value of the layer index.
 
-**Level index**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+**Level index**
 Compare the level index being displayed..
 
-**Tilemap file (Tiled or LDtk)**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+**Tilemap file (Tiled or LDtk)**
 Check the tilemap file (Tiled or LDtk) being used.
 
-**Tileset JSON file**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1 (tilemapResource): Tilemap file (Tiled or LDtk)
+
+**Tileset JSON file**
 Check the tileset JSON file being used.
+
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1 (tilesetResource): Tileset JSON file
 
 ### Object expressions
 

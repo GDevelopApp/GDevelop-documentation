@@ -14,19 +14,49 @@ Convenience conditions, actions and behaviors for timers to trigger a condition 
 
 ## Actions
 
-**Reset repetition count of a scene timer**  
+**Reset repetition count of a scene timer**
 Reset repetition count of a scene timer.
+
+??? quote "See parameters"
+
+    - Parameter 1 (string): Timer name used to loop
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**Repeat with a scene timer**  
+**Repeat with a scene timer**
 Triggers every X seconds.
 
-**Repeat with a scene timer X times**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Timer name used to loop
+    - Parameter 2 (🔢 Number): Duration in seconds between each repetition
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Repeat with a scene timer X times**
 Triggers every X seconds X amount of times.
 
-**Repetition number of a scene timer**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Timer name used to loop
+    - Parameter 2 (🔢 Number): Duration in seconds between each repetition
+    - Parameter 3 (🔢 Number): The limit of loops
+      Maximum nuber of repetition (-1 to repeat forever).
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Repetition number of a scene timer**
 Compare the number of times the timer has repeated.
+
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (string): Timer name used to loop
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
 ## Expressions
 
@@ -41,19 +71,57 @@ Allows to repeat an object timer every X seconds.
 
 ### Behavior actions
 
-**Reset repetition count of an object timer**  
+**Reset repetition count of an object timer**
 Reset repetition count of an object timer.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (string): Timer name used to loop
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Repeat with an object timer**  
+**Repeat with an object timer**
 Triggers every X seconds.
 
-**Repeat with an object timer X times**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (string): Timer name used to loop
+    - Parameter 3 (🔢 Number): Duration in seconds between each repetition
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Repeat with an object timer X times**
 Triggers every X seconds X amount of times.
 
-**Repetition number of an object timer**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (string): Timer name used to loop
+    - Parameter 3 (🔢 Number): Duration in seconds between each repetition
+    - Parameter 4 (🔢 Number): The limit of loops
+      Maximum nuber of repetition (-1 to repeat forever).
+
+    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+
+**Repetition number of an object timer**
 Compare the number of times the timer has repeated.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+    - Parameter 4 (string): Timer name used to loop
+
+    > Technical note: parameter 5 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

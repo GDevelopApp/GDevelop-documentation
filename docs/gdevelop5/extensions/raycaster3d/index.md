@@ -23,23 +23,78 @@ It can be useful to:
 
 ## Conditions
 
-**Last recast distance**  
+**Last recast distance**
 Compare the last recast intersection distance.
 
-**Raycast to a position**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Raycast to a position**
 Sends a ray from the given source position to the final point, intersecting the closest object. The intersected object will become the only one taken into account.
 
-**Raycast from camera center**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Objects to test against the ray
+    - Parameter 2 (🔢 Number): Ray source X position
+    - Parameter 3 (🔢 Number): Ray source Y position
+    - Parameter 4 (🔢 Number): Ray source Z position
+    - Parameter 5 (🔢 Number): Ray target X position
+    - Parameter 6 (🔢 Number): Ray target Y position
+    - Parameter 7 (🔢 Number): Ray target Z position
+
+    > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
+
+**Raycast from camera center**
 Sends a ray from the center of the camera, intersecting the closest object. The intersected object will become the only one taken into account.
 
-**Raycast from cursor**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Objects to test against the ray
+    - Parameter 2 (🔢 Number): Ray maximum distance (in pixels)
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Raycast from cursor**
 Sends a ray from the cursor on the camera screen, intersecting the closest object. The intersected object will become the only one taken into account.
 
-**Raycast from a camera point**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Objects to test against the ray
+    - Parameter 2 (🔤 Layer name (String)): 2D layer
+    - Parameter 3 (🔢 Number): Ray maximum distance (in pixels)
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Raycast from a camera point**
 Sends a ray from the given source point on the camera screen, intersecting the closest object. The intersected object will become the only one taken into account.
 
-**Raycast**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Objects to test against the ray
+    - Parameter 2 (🔢 Number): X position on the screen (from 0 to 1)
+    - Parameter 3 (🔢 Number): Y position on the screen (from 0 to 1)
+    - Parameter 4 (🔢 Number): Ray maximum distance (in pixels)
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Raycast**
 Sends a ray from the given source position and angle, intersecting the closest object. The intersected object will become the only one taken into account.
+
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Objects to test against the ray
+    - Parameter 2 (🔢 Number): Ray source X position
+    - Parameter 3 (🔢 Number): Ray source Y position
+    - Parameter 4 (🔢 Number): Ray source Z position
+    - Parameter 5 (🔢 Number): Rotation angle (in degrees)
+    - Parameter 6 (🔢 Number): Elevation angle (in degrees)
+    - Parameter 7 (🔢 Number): Ray maximum distance (in pixels)
+
+    > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
 
 ## Expressions
 

@@ -44,13 +44,31 @@ Convert object to trampoline platform.
 
 ## Actions
 
-**Trampoline Platform**  
+**Trampoline Platform**
 Convert object to trampoline platform.
+
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Platformer character object (player)
+    - Parameter 2 (🧩 Behavior): Platformer character behavior
+    - Parameter 3 (👾 Object): Trampoline object
+    - Parameter 4 (🔢 Number): Trampoline force (in pixels per second)
+    - Parameter 5 (❓ Yes or No): Player must be on top of the trampoline in order to start the force
+      **Yes:** Insert platform behavior (jump through) on trampoline object.  
+      **No:** No need for platform behavior.
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**Trampoline has been triggered**  
+**Trampoline has been triggered**
 Check if a trampoline has been triggered.
+
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Trampoline object
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 
 

@@ -31,73 +31,245 @@ Use a shape-painter object to draw a toggle switch that users can click or touch
 
 ### Behavior actions
 
-**Thumb color (when checked)**  
+**Thumb color (when checked)**
 Change the thumb color (when checked).
 
-**Active track color**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (color): Thumb color
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Active track color**
 Change the active track color (the part on the thumb left).
 
-**Active track opacity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (color): Color of active track
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Active track opacity**
 Change the active track opacity.
 
-**Check (or uncheck) the toggle switch**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Active track opacity
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Check (or uncheck) the toggle switch**
 Check (or uncheck) the toggle switch.
 
-**Disable (or enable) the toggle switch**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): Checked
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Disable (or enable) the toggle switch**
 Disable (or enable) the toggle switch.
 
-**Halo opacity (hover)**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): Disabled
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Halo opacity (hover)**
 Change opacity of the halo when the thumb is hovered.
 
-**Halo opacity (pressed)**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Halo opacity (hover)
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Halo opacity (pressed)**
 Change the halo opacity when the thumb is pressed.
 
-**Halo radius**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Halo opacity (pressed)
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Halo radius**
 Change the halo radius.
 
-**Thumb color (when unchecked)**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Halo radius 
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Thumb color (when unchecked)**
 Change the thumb color (when unchecked).
 
-**Inactive track color**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (color): Thumb color
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Inactive track color**
 Change the inactive track color (the part on the thumb right).
 
-**Inactive track opacity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (color): Color of inactive track
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Inactive track opacity**
 Change the inactive track opacity.
 
-**Thumb opacity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Inactive track opacity
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Thumb opacity**
 Change the thumb opacity.
 
-**Thumb radius**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Thumb opacity
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Thumb radius**
 Change the thumb radius.
 
-**Thumb shadow offset on X axis**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Thumb radius
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Thumb shadow offset on X axis**
 Change the offset on X axis of the thumb shadow.
 
-**Thumb shadow offset on Y axis**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): X offset (pixels)
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Thumb shadow offset on Y axis**
 Change the offset on Y axis of the thumb shadow.
 
-**Thumb shadow opacity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Y offset (pixels)
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Thumb shadow opacity**
 Change the thumb shadow opacity.
 
-**Track height**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Opacity of shadow on thumb
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Track height**
 Change the track height.
 
-**Track width**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Track height
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Track width**
 Change the track width.
 
-**Toggle the switch**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Track width
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Toggle the switch**
 If checked, change to unchecked. If unchecked, change to checked.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Is checked**  
+**Is checked**
 Check if the toggle switch is checked.
 
-**Is disabled**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is disabled**
 Check if the toggle switch is disabled.
 
-**Is mouse hovered over toggle switch?**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is mouse hovered over toggle switch?**
 Check if mouse is hovering over toggle switch.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

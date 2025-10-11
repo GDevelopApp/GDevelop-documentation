@@ -28,34 +28,88 @@ Doesn't contain:
 
 ## Actions
 
-**Connect to server**  
+**Connect to server**
 Connects to a WebSocket server. 
 
-**Disconnect from server**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): The server address
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Disconnect from server**
 Disconnects from the current WebSocket server.
 
-**Mark as processed**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): The reason for disconnection
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Mark as processed**
 Dismisses an event after processing it to allow processing the next one without waiting for the next frame.
 
-**Send data to the server**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Send data to the server**
 Sends a string to the server.
+
+??? quote "See parameters"
+
+    - Parameter 1 (string): The data to send to the server
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**An event was received**  
+**An event was received**
 Triggers when the server has sent the client some data.
 
-**Connection to a server was closed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Connection to a server was closed**
 Triggers if the connection to a WebSocket server was closed.
 
-**Connected to a server**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Connected to a server**
 Triggers if the client is connected to a WebSocket server.
 
-**Connecting to a server**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Connecting to a server**
 Triggers if the client is currently connecting to the WebSocket server.
 
-**An error occurred**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**An error occurred**
 Triggers when a WebSocket error has occurred.
+
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
 ## Expressions
 

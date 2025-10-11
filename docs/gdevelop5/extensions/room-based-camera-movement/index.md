@@ -28,19 +28,54 @@ Tips:
 
 ## Actions
 
-**Move and zoom camera to the room object that contains the trigger object (player)**  
+**Move and zoom camera to the room object that contains the trigger object (player)**
 Move and zoom camera to the room object that contains the trigger object (usually the player).
+
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Room object
+      Room objects are used to mark areas that should be seen by the camera.
+    - Parameter 2 (👾 Object): Trigger object (player)
+      When the Trigger Object touches a new Room Object, the camera will move to the new room
+    - Parameter 3: 🔤 Layer name (String)
+    - Parameter 4 (🔢 Number): Lerp speed
+      Range: 0 to 1
+    - Parameter 5 (🔢 Number): Maximum zoom
+    - Parameter 6 (🔢 Number): Minimum zoom
+    - Parameter 7 (🔢 Number): Outside buffer (pixels)
+      Minimum extra space displayed around each side the room
+    - Parameter 8 (🔢 Number): Camera
+
+    > Technical note: parameters 0, 9 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**Check if trigger object (player) has entered a new room**  
+**Check if trigger object (player) has entered a new room**
 Check if trigger object (usually the player) has entered a new room on this frame.
 
-**Check if camera is moving**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Trigger object (player)
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Check if camera is moving**
 Check if camera is moving (requires the use of "Move and zoom camera" action in this extension).
 
-**Check if camera is zooming**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Check if camera is zooming**
 Check if camera is zooming (requires the use of "Move and zoom camera" action in this extension).
+
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
 
 

@@ -10,19 +10,47 @@ Display and smoothly animate a 2D object with skeletal animations made with Spin
 
 ### Object actions
 
-**Animation mixing duration**  
+**Animation mixing duration**
 Change the duration of the smooth transition between 2 animations (in second).
+
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Spine
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
 
 ### Object conditions
 
-**Animation mixing duration**  
+**Animation mixing duration**
 Compare the duration of the smooth transition between 2 animations (in second).
 
-**Point attachment X position**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Spine
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+**Point attachment X position**
 Compare x position of spine point attachment.
 
-**Point attachment Y position**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Spine
+    - Parameter 1 (string): Attachment name
+    - Parameter 2 (string): Slot name (use "" if names are the same)
+    - Parameter 3: 🟰 Relational operator
+    - Parameter 4 (🔢 Number): Value to compare
+
+**Point attachment Y position**
 Compare y position of spine point attachment.
+
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Spine
+    - Parameter 1 (string): Attachment name
+    - Parameter 2 (string): Slot name (use "" if names are the same)
+    - Parameter 3: 🟰 Relational operator
+    - Parameter 4 (🔢 Number): Value to compare
 
 ### Object expressions
 

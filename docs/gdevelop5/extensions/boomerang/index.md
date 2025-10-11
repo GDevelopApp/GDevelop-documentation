@@ -30,25 +30,78 @@ Throw an object that returns to the thrower like a boomerang.
 
 ### Behavior actions
 
-**Send boomerang back to thrower**  
+**Send boomerang back to thrower**
 Send boomerang back to thrower.
 
-**Set amount of time before boomerang changes directions**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Set amount of time before boomerang changes directions**
 Set amount of time before boomerang changes directions (seconds).
 
-**Throw boomerang toward an angle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Time before boomerange changes direction (seconds)
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Throw boomerang toward an angle**
 Throw boomerang toward an angle.
 
-**Throw boomerang toward a position**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Angle (degrees)
+    - Parameter 3 (🔢 Number): Throw speed (pixels per second)
+    - Parameter 4 (🔢 Number): Time before changing directions (seconds)
+    - Parameter 5 (🔢 Number): Rotation (degrees per second)
+
+    > Technical note: parameter 6 are internal parameters handled by GDevelop.
+
+**Throw boomerang toward a position**
 Throw boomerang toward a position.
 
-**Track position of boomerang thrower**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Target X position
+    - Parameter 3 (🔢 Number): Target Y position
+    - Parameter 4 (🔢 Number): Throw speed (pixels per second)
+    - Parameter 5 (🔢 Number): Time before changing directions (seconds)
+    - Parameter 6 (🔢 Number): Rotation (degrees per second)
+
+    > Technical note: parameter 7 are internal parameters handled by GDevelop.
+
+**Track position of boomerang thrower**
 Track position of boomerang thrower.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): Thrower
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Boomerang is returning to thrower**  
+**Boomerang is returning to thrower**
 Boomerang is returning to thrower.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 _No expressions for this behavior._
 

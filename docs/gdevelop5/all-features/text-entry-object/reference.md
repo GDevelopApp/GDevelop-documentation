@@ -10,19 +10,40 @@ Invisible object used to get the text entered with the keyboard.
 
 ### Object actions
 
-**De/activate capturing text input**  
+**De/activate capturing text input**
 Activate or deactivate the capture of text entered with keyboard.
 
-**Text in memory**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1 (❓ Yes or No): Activate
+
+**Text in memory**
 Modify text in memory of the object
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (string): Text
 
 ### Object conditions
 
-**Text input**  
+**Text input**
 Test if the object captured text entered with keyboard.
 
-**Text in memory**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+**Text in memory**
 Test the text of a Text Entry object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Text to compare to
 
 ### Object expressions
 

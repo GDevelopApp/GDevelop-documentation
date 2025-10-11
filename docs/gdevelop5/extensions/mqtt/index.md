@@ -33,28 +33,85 @@ You can find a free test broker server over at https://test.mosquitto.org/ - kee
 
 ## Actions
 
-**Connect to a broker**  
+**Connect to a broker**
 Connects to an MQTT broker. 
 
-**Disconnect from broker**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Host port
+    - Parameter 2 (string): Settings as JSON
+      You can find the list of settings at [the MQTT.js docs](https://github.com/mqttjs/MQTT.js/#client).  
+      An example of valid configuration would be `"{\"clientId\": \"myUserName\"}"`.
+    - Parameter 3 (❓ Yes or No): Use secure WebSockets?
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Disconnect from broker**
 Disconnects from the current MQTT broker.
 
-**Publish message**  
+??? quote "See parameters"
+
+    - Parameter 1 (❓ Yes or No): Force end the connection?
+      By default, MQTT waits for pending messages or messages in the process of being sent to finish being sent before ending the connection. Use this to cancel any request and immediately shutdown the connection.
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Publish message**
 Publishes a message on a topic.
 
-**Subscribe to a topic**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Text to publish
+    - Parameter 2 (string): Topic to publish to
+    - Parameter 3 (🔢 Number): The QoS
+      See [this](https://github.com/mqttjs/MQTT.js#qos) for more details.
+    - Parameter 4 (❓ Yes or No): Should the message be retained?
+      When a message is retained, it will be sent to every client that subscribe to the topic. Only one message can be retained per topic, if another retained message is sent it will overwrite the previous one.  
+      Read more [here](https://www.hivemq.com/blog/mqtt-essentials-part-8-retained-messages/#retained-messages).
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Subscribe to a topic**
 Subcribe to a topic. All messages published on that topic will be received.
 
-**Unsubscribe from a topic**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): The topic to subscribe to
+    - Parameter 2 (🔢 Number): The QoS
+      See https://github.com/mqttjs/MQTT.js#qos for more details
+    - Parameter 3 (❓ Yes or No): Is dataloss allowed?
+      See https://wiki.gdevelop.io/gdevelop5/all-features/p2p#choosing_if_you_want_to_activate_data_loss_mode for more details
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Unsubscribe from a topic**
 Unsubcribe from a topic. No more messages from this topic will be received.
+
+??? quote "See parameters"
+
+    - Parameter 1 (string): The topic to subscribe to
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**Is connected to a broker?**  
+**Is connected to a broker?**
 Triggers if the client is connected to an MQTT broker server.
 
-**On message**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**On message**
 Triggers whenever a message was received. Note that you first need to subcribe to a topic in order to get messages from it.
+
+??? quote "See parameters"
+
+    - Parameter 1 (string): The topic to listen to
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 ## Expressions
 

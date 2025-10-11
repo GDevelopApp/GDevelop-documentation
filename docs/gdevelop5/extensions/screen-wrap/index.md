@@ -23,34 +23,104 @@ Teleport the object when leaving one side of the screen so that it immediately r
 
 ### Behavior actions
 
-**Enable horizontal wrapping**  
+**Enable horizontal wrapping**
 Enable wrapping on the left and right borders.
 
-**Enable vertical wrapping**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Enable vertical wrapping**
 Enable wrapping on the top and bottom borders.
 
-**Set bottom border**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Set bottom border**
 Set bottom border (Y position).
 
-**Set left border**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Bottom border value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Set left border**
 Set left border (X position).
 
-**Set right border**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Left border value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Set right border**
 Set right border (X position).
 
-**Set top border**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Right border value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Set top border**
 Set top border (Y position).
 
-**Set trigger offset**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Top border value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Set trigger offset**
 Set trigger offset (pixels).
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): SetScreen Offset Leaving Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Is horizontal wrapping**  
+**Is horizontal wrapping**
 Check if the object is wrapping on the left and right borders.
 
-**Is vertical wrapping**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is vertical wrapping**
 Check if the object is wrapping on the top and bottom borders.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 
@@ -68,40 +138,124 @@ Teleport the object when leaving one side of the screen so that it immediately r
 
 ### Behavior actions
 
-**Apply saved velocity values**  
+**Apply saved velocity values**
 Apply saved velocity values.
 
-**Enable horizontal wrapping**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Enable horizontal wrapping**
 Enable wrapping on the left and right borders.
 
-**Enable vertical wrapping**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Enable vertical wrapping**
 Enable wrapping on the top and bottom borders.
 
-**Save current velocity values**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Save current velocity values**
 Save current velocity values.
 
-**Set bottom border**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Set bottom border**
 Set bottom border (Y position).
 
-**Set left border**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Bottom border value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Set left border**
 Set left border (X position).
 
-**Set right border**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Left border value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Set right border**
 Set right border (X position).
 
-**Set top border**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Right border value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Set top border**
 Set top border (Y position).
 
-**Set trigger offset**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Top border value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Set trigger offset**
 Set trigger offset (pixels).
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): SetScreen Offset Leaving Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Is horizontal wrapping**  
+**Is horizontal wrapping**
 Check if the object is wrapping on the left and right borders.
 
-**Is vertical wrapping**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is vertical wrapping**
 Check if the object is wrapping on the top and bottom borders.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

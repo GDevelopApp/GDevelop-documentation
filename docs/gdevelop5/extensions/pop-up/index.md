@@ -28,22 +28,54 @@ This extension adds actions to display three kinds of pop-ups.
 
 ## Actions
 
-**Alert**  
+**Alert**
 Displays an alert box with a message and an OK button in a pop-up window.
 
-**Confirm**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Alert message
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Confirm**
 Ask confirmation of user with a message in a dialog box with an OK button, and a Cancel button.
 
-**Prompt**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Confirmation message
+      The text to display in the confirm box.
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Prompt**
 Displays a prompt in a pop-up that prompts the user for input. This action return the text input or the false boolean if canceled.
+
+??? quote "See parameters"
+
+    - Parameter 1 (string): Prompt message
+    - Parameter 2 (string): Input placeholder
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**Pop-up message confirmed**  
+**Pop-up message confirmed**
 Check if a confirmation was accepted.
 
-**Existing prompt response**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Existing prompt response**
 The response to a pop-up message is filled.
+
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
 ## Expressions
 

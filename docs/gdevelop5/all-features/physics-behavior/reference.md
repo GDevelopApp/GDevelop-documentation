@@ -10,114 +10,405 @@ Make objects move as if they are subject to the laws of physics. If you're creat
 
 ### Behavior actions
 
-**Add a gear between two objects**  
+**Add a gear between two objects**
 Add a virtual gear between two objects.
 
-**Add a hinge**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 👾 Object
+    - Parameter 3 (🔢 Number): Ratio
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Add a hinge**
 Add a hinge that the object will rotate around.  
 The distance between the hinge and the object will remain identical.
 
-**Add a hinge between two objects**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Hinge X position
+    - Parameter 3 (🔢 Number): Hinge Y position
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Add a hinge between two objects**
 Add a hinge that the object will rotate around.
 
-**Add a force**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 👾 Object
+    - Parameter 4 (🔢 Number): X position of the hinge, from the first object mass center
+    - Parameter 5 (🔢 Number): Y position of the hinge, from the first object mass center
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Add a force**
 Add a force to the object
 
-**Apply a force toward a position**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): X component ( Newtons )
+    - Parameter 3 (🔢 Number): Y component ( Newtons )
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Apply a force toward a position**
 Apply a force, directed toward a position, to the object.
 
-**Apply a force ( angle )**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): X position
+    - Parameter 3 (🔢 Number): Y position
+    - Parameter 4 (🔢 Number): Length of the force ( Newtons )
+
+    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+
+**Apply a force ( angle )**
 Apply a force to an object, using an angle and a length as coordinates.
 
-**Apply an impulse**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Angle
+    - Parameter 3 (🔢 Number): Length of the force ( Newtons )
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Apply an impulse**
 Apply an impulse to the object.
 
-**Apply an impulse toward a position**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): X component ( Newtons/Seconds )
+    - Parameter 3 (🔢 Number): Y component ( Newtons/Seconds )
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Apply an impulse toward a position**
 Apply an impulse, directed toward a position, to the object.
 
-**Apply an impulse (angle)**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): X position
+    - Parameter 3 (🔢 Number): Y position
+    - Parameter 4 (🔢 Number): Impulse value ( Newton/seconds )
+
+    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+
+**Apply an impulse (angle)**
 Apply an impulse to an object, using an angle and a length as coordinates.
 
-**Add a torque (a rotation)**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Angle
+    - Parameter 3 (🔢 Number): Impulse value ( Newton/seconds )
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Add a torque (a rotation)**
 Add a torque (a rotation) to the object.
 
-**Do not treat object like a bullet**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Torque value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Do not treat object like a bullet**
 Do not treat the object like a bullet, so it will use standard collision handling.
 
-**Angular damping**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Angular damping**
 Modify the angular damping of the object.
 
-**Angular speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Angular speed**
 Modify the angular velocity of the object.
 
-**Treat object like a bullet.**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): New value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Treat object like a bullet.**
 Treat the object like a bullet, so it will have better collision handling.
 
-**Make the object dynamic**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Make the object dynamic**
 Make the object dynamic ( affected by forces and other objects ).
 
-**Fix rotation**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Fix rotation**
 Prevent the object from rotating
 
-**Make object's rotation free**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Make object's rotation free**
 Allows the object to rotate.
 
-**Gravity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Gravity**
 Modify the gravity
 
-**Linear damping**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): X Coordinate
+    - Parameter 3 (🔢 Number): Y Coordinate
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Linear damping**
 Modify the linear damping of the object.
 
-**Linear velocity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Linear velocity**
 Modify the velocity of an object.
 
-**Change the X scale of a collision polygon**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): X Coordinate
+    - Parameter 3 (🔢 Number): Y Coordinate
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Change the X scale of a collision polygon**
 Change the X scale of the polygon. Use a value greater than 1 to enlarge the polygon, less than 1 to reduce it.
 
-**Change the Y scale of a collision polygon**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Scale
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Change the Y scale of a collision polygon**
 Change the Y scale of the polygon. Use a value greater than 1 to enlarge the polygon, less than 1 to reduce it.
 
-**Make the object static**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Scale
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Make the object static**
 Make the object immovable.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Angular damping**  
+**Angular damping**
 Test the object's angular damping
 
-**Angular speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Angular speed**
 Compare the angular speed of the object.
 
-**Collision**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Collision**
 Test if two objects are colliding.  
 Attention! Only objects specified in the first parameter will be taken into account by the next actions and conditions, if they are colliding with the other objects.
 
-**Collision polygon X scale**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 👾 Object
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Collision polygon X scale**
 Test the value of the X scale of the collision polygon.
 
-**Collision polygon Y scale**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Collision polygon Y scale**
 Test the value of the Y scale of the collision polygon.
 
-**Object is treated like a bullet**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Object is treated like a bullet**
 Test if the object is treated like a bullet
 
-**The object is dynamic**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**The object is dynamic**
 Test if an object is dynamic ( affected by forces and other objects ).
 
-**Fixed rotation**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+**Fixed rotation**
 Test if the object's rotation is fixed.
 
-**Linear damping**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Linear damping**
 Compare the linear damping of the object.
 
-**Linear speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Linear speed**
 Compare the linear velocity of the object.
 
-**X component**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**X component**
 Compare the linear velocity on the X axis of the object.
 
-**Y component**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Y component**
 Compare the linear velocity on the Y axis of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

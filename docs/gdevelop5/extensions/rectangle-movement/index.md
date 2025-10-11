@@ -28,11 +28,28 @@ This example can be used to test different settings ([open the project online](h
 
 ## Actions
 
-**Update rectangular movement to follow the border of an object**  
+**Update rectangular movement to follow the border of an object**
 Update rectangular movement to follow the border of an object. Run once, or every time the center object moves.
 
-**Move to the nearest corner of the center object**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Moving object
+    - Parameter 2 (🧩 Behavior): Rectangle Movement (required)
+    - Parameter 3 (👾 Object): Center object
+    - Parameter 4 (🔤 String): Position on border (one of: "Inside", "Center", "Outside")
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Move to the nearest corner of the center object**
 Move to the nearest corner of the center object.
+
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Moving object
+    - Parameter 2 (🧩 Behavior): Rectangle Movement (required)
+    - Parameter 3 (👾 Object): Center object
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
 
 
@@ -42,64 +59,206 @@ Move objects in a rectangular pattern.
 
 ### Behavior actions
 
-**Bottom bound**  
+**Bottom bound**
 Change the bottom bound of the rectangular movement.
 
-**Clockwise**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Clockwise**
 Change the direction to clockwise or counter-clockwise.
 
-**Easing**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): Clockwise
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Easing**
 Change the easing function of the movement.
 
-**Horizontal edge duration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Horizontal edge duration**
 Change the time the object takes to go through a horizontal edge (in seconds).
 
-**Left bound**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Left bound**
 Change the left bound of the rectangular movement.
 
-**Right bound**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Right bound**
 Change the right bound of the rectangular movement.
 
-**Top bound**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Top bound**
 Change the top bound of the rectangular movement.
 
-**Vertical edge duration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Vertical edge duration**
 Change the time the object takes to go through a vertical edge (in seconds).
 
-**Teleport at a corner**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Teleport at a corner**
 Teleport the object to a corner of the movement rectangle.
 
-**Toggle direction**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔤 String): Corner (one of: "Top-left corner", "Top-right corner", "Bottom-left corner", "Bottom-right corner")
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Toggle direction**
 Toggle the direction to clockwise or counter-clockwise.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Is moving clockwise**  
+**Is moving clockwise**
 Check if the object is moving clockwise.
 
-**Is moving down**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is moving down**
 Check if the object is moving down.
 
-**Is moving left**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is moving left**
 Check if the object is moving to the left.
 
-**Is moving right**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is moving right**
 Object is moving to the right.
 
-**Is moving up**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is moving up**
 Check if the object is moving up.
 
-**Is on bottom**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is on bottom**
 Object is on the bottom side of the rectangle.
 
-**Is on left**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is on left**
 Object is on the left side of the rectangle.
 
-**Is on right**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is on right**
 Object is on the right side of the rectangle.
 
-**Is on top**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Is on top**
 Object is on the top side of the rectangle.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

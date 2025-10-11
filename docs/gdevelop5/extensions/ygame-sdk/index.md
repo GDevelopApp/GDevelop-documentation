@@ -19,64 +19,184 @@ YGameSDK.
 
 ## Actions
 
-**GetLang**  
+**GetLang**
 GetLang.
 
-**GetPlayerName**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Global variable (string)
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**GetPlayerName**
 GetPlayerName.
 
-**InitPayments**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Global variable (string)
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**InitPayments**
 InitPayments.
 
-**InitPlayer**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**InitPlayer**
 InitPlayer.
 
-**InitSDK**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**InitSDK**
 Init SDK.
 
-**LoadLeaderboardByName**  
+??? quote "See parameters"
+
+    - Parameter 1 (❓ Yes or No): Fullscreen
+    - Parameter 2 (🔤 String): Screen orientation (one of: "portrait", "landscape")
+    - Parameter 3 (❓ Yes or No): Lock screen
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**LoadLeaderboardByName**
 LoadLeaderboardByName.
 
-**LoadPurchaseByID**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): TableNameYandex
+    - Parameter 2 (string): GlobalVariableName
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**LoadPurchaseByID**
 LoadPurchaseByID.
 
-**PurchaseByID**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): product ID
+    - Parameter 2 (string): Glodal variable result true/false
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**PurchaseByID**
 PurchaseByID.
 
-**SetScoreLeaderboard**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): product ID
+    - Parameter 2 (string): Global variable true/false
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**SetScoreLeaderboard**
 SetScoreLeaderboard.
 
-**ShowBanner**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): GlobalVariableName
+    - Parameter 2 (string): TableNameYandex
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**ShowBanner**
 ShowBanner.
 
-**ShowVideo**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**ShowVideo**
 ShowVideo.
+
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**IsInit**  
+**IsInit**
 IsInit SDK.
 
-**IsInitLeaderboard**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**IsInitLeaderboard**
 IsInitLeaderboard.
 
-**IsInitPayments**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**IsInitPayments**
 IsInitPayments.
 
-**IsInitPlayer**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**IsInitPlayer**
 IsInitPlayer.
 
-**IsVideoClosed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**IsVideoClosed**
 IsVideoClosed.
 
-**IsVideoFailed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**IsVideoFailed**
 IsVideoFailed.
 
-**IsVideoOpen**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**IsVideoOpen**
 IsVideoOpen.
 
-**IsVideoRewarded**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**IsVideoRewarded**
 IsVideoRewarded.
+
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
 
 

@@ -28,16 +28,46 @@ Shake objects with translation and rotation.
 
 ### Behavior actions
 
-**Shake object (position, angle)**  
+**Shake object (position, angle)**
 Shake an object, using one or more ways to shake (position, angle). Make sure to "Stop shaking" before starting a new shake if it uses different parameters. 
 
-**Stop shaking the object**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Duration of shake (in seconds) (Default: 0.5)  
+    - Parameter 3 (🔢 Number): Amplitude of postion shake in X direction (in pixels)  (For example: 5)
+    - Parameter 4 (🔢 Number): Amplitude of position shake in Y direction (in pixels)  (For example: 5)
+      Use a negative number to make the single-shake move in the opposite direction.
+    - Parameter 5 (🔢 Number): Amplitude of angle rotation shake (in degrees)  (For example: 5)
+    - Parameter 6 (🔢 Number): Amount of time between shakes (in seconds) (Default: 0.08)
+      For a single-shake effect, set it to the same value as "Duration".
+    - Parameter 7 (❓ Yes or No): Keep shaking until stopped
+      Duration value will be ignored
+
+    > Technical note: parameter 8 are internal parameters handled by GDevelop.
+
+**Stop shaking the object**
 Stop any shaking of object that was initiated by the Shake Object extension.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Check if an object is shaking**  
+**Check if an object is shaking**
 Check if an object is shaking.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 _No expressions for this behavior._
 
@@ -48,16 +78,47 @@ Shake objects with translation, rotation and scale.
 
 ### Behavior actions
 
-**Shake object (position, angle, scale)**  
+**Shake object (position, angle, scale)**
 Shake an object, using one or more ways to shake (position, angle, scale). Make sure to "Stop shaking" before starting a new shake if it uses different parameters.
 
-**Stop shaking an object**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Duration of shake (in seconds) (Default: 0.5)
+    - Parameter 3 (🔢 Number): Amplitude of postion shake in X direction (in pixels)  (For example: 5)
+    - Parameter 4 (🔢 Number): Amplitude of position shake in Y direction (in pixels)  (For example: 5)
+      Use a negative number to make the single-shake move in the opposite direction.
+    - Parameter 5 (🔢 Number): Amplitude of angle rotation shake (in degrees)  (For example: 5)
+    - Parameter 6 (🔢 Number): Amplitude of scale shake (in percent change)  (For example: 5)
+    - Parameter 7 (🔢 Number): Amount of time between shakes (in seconds) (Default: 0.08)
+      For a single-shake effect, set it to the same value as "Duration".
+    - Parameter 8 (❓ Yes or No): Keep shaking until stopped
+      Duration value will be ignored
+
+    > Technical note: parameter 9 are internal parameters handled by GDevelop.
+
+**Stop shaking an object**
 Stop shaking an object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Check if an object is shaking**  
+**Check if an object is shaking**
 Check if an object is shaking.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 _No expressions for this behavior._
 

@@ -21,25 +21,73 @@ A turret movement with customizable speed, acceleration and stop angles.
 
 ### Behavior actions
 
-**Move clockwise**  
+**Move clockwise**
 Move clockwise.
 
-**Move counter-clockwise**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Move counter-clockwise**
 Move counter-clockwise.
 
-**Move toward a position**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Move toward a position**
 Move toward a position.
 
-**Aiming angle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): X position
+    - Parameter 3 (🔢 Number): Y position
+    - Parameter 4 (🔢 Number): Angle margin
+
+    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+
+**Aiming angle**
 Change the aiming angle.
 
-**Set aiming angle toward a position**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Aiming angle
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Set aiming angle toward a position**
 Set angle toward a position.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): X position
+    - Parameter 3 (🔢 Number): Y position
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Is moving**  
+**Is moving**
 Check if the turret is moving.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

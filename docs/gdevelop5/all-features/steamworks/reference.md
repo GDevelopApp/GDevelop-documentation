@@ -4,106 +4,248 @@ Adds integrations for Steam's Steamworks game development SDK.
 
 ## Actions
 
-**Activate an action set**  
+**Activate an action set**
 Activates a Steam Input action set of a Steam Input controller.
 
-**Claim achievement**  
+??? quote "See parameters"
+
+    - Parameter 0 (🔢 Number): Controller number
+    - Parameter 1 (🔤 Name (String)): ActionName
+
+**Claim achievement**
 Marks a Steam achievement as obtained. Steam will pop-up a notification with the achievement's data defined on the Steamworks partner website.
 
-**Create a lobby**  
+??? quote "See parameters"
+
+    - Parameter 0 (🔤 Name (String)): Achievement ID
+
+**Create a lobby**
 Creates a new steam lobby owned by the player, for other players to join.
 
-**Create a Workshop item**  
+??? quote "See parameters"
+
+    - Parameter 0 (🔤 String): Visibility
+      [Click here](https://partner.steamgames.com/doc/api/ISteamMatchmaking#ELobbyType) to learn more about the different lobby visibilities. (one of: "Private", "FriendsOnly", "Public", "Invisible")
+    - Parameter 1 (🔢 Number): Maximal player count
+    - Parameter 2 (🗄️ Scene variable): Store results in
+      The variable will be set to the ID of the lobby if successful, otherwise to "failure".
+
+**Create a Workshop item**
 Creates an item owned by the current player on the Steam Workshop. This only assignes an ID to an item for the user - use the action "Update workshop item" to set the item data and upload the workshop file.
 
-**Delete a file**  
+??? quote "See parameters"
+
+    - Parameter 0 (🗄️ Scene variable): The variable where to store the result
+      This will be set to the Workshop item ID if successful and to the string "failure" otherwise.
+
+**Delete a file**
 Deletes a file from the Steam Cloud.
 
-**Download a Workshop item**  
+??? quote "See parameters"
+
+    - Parameter 0 (🔤 Name (String)): Name of file to delete
+    - Parameter 1 (🗄️ Scene variable): Variable where to store the result
+      The variable will be set to true if the file was successfully deleted and to false if it could not be.
+
+**Download a Workshop item**
 Initiates the download of a Workshop item now.
 
-**Get the lobby's members**  
+??? quote "See parameters"
+
+    - Parameter 0 (🔤 Name (String)): Workshop Item ID
+    - Parameter 1 (❓ Yes or No): Stop other downloads?
+      This will temporarily pause any other Steam download on the player's machine to download the Workshop item NOW without waiting for other pending downloads to finish.
+
+**Get the lobby's members**
 Gets the Steam ID of all players in the current lobby.
 
-**Get a list of lobbies**  
+??? quote "See parameters"
+
+    - Parameter 0 (🗄️ Scene variable): Variable where to store the player list
+
+**Get a list of lobbies**
 Fills an array variable with a list of lobbies for the player to join.
 
-**Get a lobby's members**  
+??? quote "See parameters"
+
+    - Parameter 0 (🗄️ Scene variable): Array to fill with lobbies
+      The variable will be set to an array of the IDs of the lobbies if they could be successfully obtained. If they could not be obtained, it is set to the string "failure".
+
+**Get a lobby's members**
 Gets the Steam ID of all players in a lobby.
 
-**Join a lobby (by ID)**  
+??? quote "See parameters"
+
+    - Parameter 0 (string): The lobby ID
+    - Parameter 1 (🗄️ Scene variable): Variable where to store the player list
+
+**Join a lobby (by ID)**
 Join a Steam lobby, using its lobby ID.
 
-**Leave current lobby**  
+??? quote "See parameters"
+
+    - Parameter 0 (string): Lobby ID
+    - Parameter 1 (🗄️ Scene variable): Store results in
+      The variable will be set to the ID of the lobby if successful, otherwise to "failure".
+
+**Leave current lobby**
 Marks the player as having left the current lobby.
 
-**Open invite dialogue**  
+**Open invite dialogue**
 Opens the steam invitation dialogue to let the player invite their Steam friends to the current lobby. Only works if the player is currently in a lobby.
 
-**Set a lobby attribute**  
+**Set a lobby attribute**
 Sets an attribute of the current lobby. Attributes are readable to anyone that can see the lobby. They can contain public information about the lobby like a description, or for example a P2P ID for knowing where to connect to join this lobby.
 
-**Set the lobby joinability**  
+??? quote "See parameters"
+
+    - Parameter 0 (🔤 Name (String)): The attribute to set
+    - Parameter 1 (string): Value to set the attribute to
+    - Parameter 2 (🗄️ Scene variable): Variable where to store the result
+      The variable will be set to true if the attribute was successfully set and to false if it could not be set.
+
+**Set the lobby joinability**
 Sets whether other users can join the current lobby or not.
 
-**Steam rich presence**  
+??? quote "See parameters"
+
+    - Parameter 0 (❓ Yes or No): Should the lobby be joinable?
+    - Parameter 1 (🗄️ Scene variable): Variable where to store the result
+      The variable will be set to true if the joinability was successfully set and to false if it could not be changed.
+
+**Steam rich presence**
 Changes an attribute of Steam's rich presence. Allows other player to see exactly what the player's currently doing in the game.
 
-**Subscribe to a Workshop item**  
+??? quote "See parameters"
+
+    - Parameter 0 (🔤 String): The attribute to change
+      [Click here](https://partner.steamgames.com/doc/api/ISteamFriends#SetRichPresence) to find out more about the different default rich-presence attributes. (one of: "status", "connect", "steam_display", "steam_player_group", "steam_player_group_size")
+    - Parameter 1 (string): The new value for that attribute
+
+**Subscribe to a Workshop item**
 Makes the player subscribe to a workshop item. This will cause it to be downloaded and installed ASAP.
 
-**Unclaim achievement**  
+??? quote "See parameters"
+
+    - Parameter 0 (🔤 Name (String)): Workshop Item ID
+    - Parameter 1 (🗄️ Scene variable): The variable where to store the result
+      This will be set to `true` if successful and to `false` otherwise.
+
+**Unclaim achievement**
 Removes a player's Steam achievement.
 
-**Unsubscribe to a Workshop item**  
+??? quote "See parameters"
+
+    - Parameter 0 (🔤 Name (String)): Achievement ID
+
+**Unsubscribe to a Workshop item**
 Makes the player unsubscribe to a workshop item. This will cause it to removed after quitting the game.
 
-**Update a Workshop item**  
+??? quote "See parameters"
+
+    - Parameter 0 (🔤 Name (String)): Workshop Item ID
+    - Parameter 1 (🗄️ Scene variable): The variable where to store the result
+      This will be set to `true` if successful and to `false` otherwise.
+
+**Update a Workshop item**
 Releases an update to a Workshop item owned by the player. If you leave a field empty, it will be kept unmodified as it was before the update.
 
-**Write a file**  
+??? quote "See parameters"
+
+    - Parameter 0 (🔤 Name (String)): Workshop Item ID
+    - Parameter 1 (string): Title
+    - Parameter 2 (string): Description
+    - Parameter 3 (string): Changelog
+    - Parameter 4 (string): Path to the preview image file
+      An absolute file-path to an image file to be shown as preview of the workshop item on Steam.
+    - Parameter 5 (string): Path to the file with the item's file
+      An absolute file-path to a file that contains the all the data for your workshop item. You can use the Filesystem actions to write a JSON file with your player's Workshop item's data to a file in the temporary data folder, and pass the path here.
+    - Parameter 6 (string): Tags
+      The tags must be comma-separated without spaces after the comma, for example: `mytag,another tag,my_last_tag`.
+    - Parameter 7 (🔤 String): Visibility (one of: "Public", "FriendsOnly", "Private", "Unlisted")
+    - Parameter 8 (🗄️ Scene variable): The variable where to store the result
+      This will be set to `true` if the update is successfully release and to `false` otherwise.
+
+**Write a file**
 Writes a file onto the Steam Cloud.
+
+??? quote "See parameters"
+
+    - Parameter 0 (🔤 Name (String)): Name of file to write
+    - Parameter 1 (string): File contents
+    - Parameter 2 (🗄️ Scene variable): Variable where to store the result
+      The variable will be set to true if the file was successfully written and to false if it could not be.
 
 ## Conditions
 
-**Has achievement**  
+**Has achievement**
 Checks if a player owns one of this game's Steam achievement.
 
-**Player bought the game**  
+??? quote "See parameters"
+
+    - Parameter 0 (🔤 Name (String)): Achievement ID
+
+**Player bought the game**
 Checks if the current user actually bought & owns the game. If the "Require Steam" checkbox has been checked in the game properties, this will always be true as Steam will not allow to launch the game if it is not owned. Can be used to display an anti-piracy message instead of straight up blocking the launch of the game.
 
-**Player installed an application**  
+**Player installed an application**
 Checks if the current user has a Steam application currently installed.
 
-**Player installed DLC**  
+??? quote "See parameters"
+
+    - Parameter 0 (🔤 Name (String)): The Steam App ID of the application
+
+**Player installed DLC**
 Checks if the current user has installed a piece of DLC.
 
-**File exists**  
+??? quote "See parameters"
+
+    - Parameter 0 (🔤 Name (String)): The Steam App ID of the DLC
+
+**File exists**
 Checks if a file exists on Steam Cloud.
 
-**Digital action activated**  
+??? quote "See parameters"
+
+    - Parameter 0 (🔤 Name (String)): File name
+
+**Digital action activated**
 Triggers when a digital action (a button that is either pressed or not) of a Steam Input controller has been triggered.
 
-**Is on Steam Deck**  
+??? quote "See parameters"
+
+    - Parameter 0 (🔢 Number): Controller number
+    - Parameter 1 (🔤 Name (String)): ActionName
+
+**Is on Steam Deck**
 Checks whether the game is currently running on a Steam Deck or not.
 
-**Player cannot be exposed to violence**  
+**Player cannot be exposed to violence**
 Checks if the current user may only be exposed to low violence, due to e.g. their age and content restrictions in their country.
 
-**Player owns an application**  
+**Player owns an application**
 Checks if the current user owns an application on Steam.
 
-**Player has a VAC ban**  
+??? quote "See parameters"
+
+    - Parameter 0 (🔤 Name (String)): The Steam App ID of the application
+
+**Player has a VAC ban**
 Checks if the current user has a VAC ban on their account.
 
-**Is Steam Cloud enabled?**  
+**Is Steam Cloud enabled?**
 Checks whether steam cloud has been enabled or not for this application.
 
-**Is Steamworks Loaded**  
+**Is Steamworks Loaded**
 Checks whether the Steamworks SDK could be properly loaded. If steam is not installed, the game is not running on PC, or for any other reason Steamworks features will not be able to function, this function will trigger allowing you to disable functionality that relies on Steamworks.
 
-**Check workshop item state**  
+**Check workshop item state**
 Check whether a state flag is set for a Workshop item.
+
+??? quote "See parameters"
+
+    - Parameter 0 (🔤 Name (String)): Workshop Item ID
+    - Parameter 1 (🔤 String): State flag to check for (one of: "None", "Subscribed", "LegacyItem", "Installed", "NeedsUpdate", "Downloading", "DownloadPending")
 
 ## Expressions
 

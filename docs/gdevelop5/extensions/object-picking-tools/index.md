@@ -16,37 +16,101 @@ If multiple instances have the highest/lowest Z-order, all of these instances wi
 
 ## Actions
 
-**Pick objects with highest variable value**  
+**Pick objects with highest variable value**
 Pick object instances that have the highest value of an object variable.
 
-**Pick objects with highest Z-order**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object to select instances from
+    - Parameter 2 (string): Object variable name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Pick objects with highest Z-order**
 Pick object instances that have the highest Z-order.
 
-**Pick objects with lowest variable value**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object to select instances from
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Pick objects with lowest variable value**
 Pick object instances that have the lowest value of an object variable.
 
-**Pick objects with lowest Z-order**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object to select instances from
+    - Parameter 2 (string): Object variable name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Pick objects with lowest Z-order**
 Pick object instances that have the lowest Z-order.
 
-**Unpick all instances**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object to select instances from
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Unpick all instances**
 Unpicks all instances of an object.
+
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): The object to unpick all instances from
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**Pick objects with highest variable value**  
+**Pick objects with highest variable value**
 Pick object instances that have the highest value of an object variable.
 
-**Pick objects with highest Z-order**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object to select instances from
+    - Parameter 2 (string): Object variable name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Pick objects with highest Z-order**
 Pick object instances that have the highest Z-order.
 
-**Pick objects with lowest variable value**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object to select instances from
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Pick objects with lowest variable value**
 Pick object instances that have the lowest value of an object variable.
 
-**Pick objects with lowest Z-order**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object to select instances from
+    - Parameter 2 (string): Object variable name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Pick objects with lowest Z-order**
 Pick object instances that have the lowest Z-order.
 
-**Unpick all instances**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Object to select instances from
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Unpick all instances**
 Unpicks all instances of an object.
+
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): The object to unpick all instances from
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 
 

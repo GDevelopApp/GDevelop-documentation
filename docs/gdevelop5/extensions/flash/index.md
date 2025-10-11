@@ -29,22 +29,63 @@ Make the object flash (blink) for a period of time so it alternates between visi
 
 ### Behavior actions
 
-**Flash visibility (blink)**  
+**Flash visibility (blink)**
 Make an object flash (blink) visibility for a period of time.
 
-**Half period**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Duration of the flashing, in seconds
+      Use "0" to keep flashing until stopped.
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Half period**
 Change the half period of the object (time the object is invisible).
 
-**Stop flashing visibility (blink)**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Stop flashing visibility (blink)**
 Stop flashing visibility (blink) of an object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Half period**  
+**Half period**
 Compare the half period of the object (time the object is invisible).
 
-**Is object flashing visibility**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Is object flashing visibility**
 Check if an object is flashing visibility.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 
@@ -58,22 +99,64 @@ Make an object flash a color tint for a period of time.
 
 ### Behavior actions
 
-**Flash a color tint**  
+**Flash a color tint**
 Make an object flash a color tint for a period of time.
 
-**Half period**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Duration of the flashing, in seconds
+      Use "0" to keep flashing until stopped.
+    - Parameter 3 (color): Color tint
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Half period**
 Change the half period (time between flashes) of the object.
 
-**Stop flashing color tint**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Stop flashing color tint**
 Stop flashing a color tint on an object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Half period**  
+**Half period**
 Compare the half period (time between flashes) of the object.
 
-**Is object flashing a color tint**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Is object flashing a color tint**
 Check if an object is flashing a color tint.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 
@@ -87,22 +170,64 @@ Make the object flash an effect for a period of time.
 
 ### Behavior actions
 
-**Flash an effect**  
+**Flash an effect**
 Make an object flash an effect for a period of time.
 
-**Half period**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Duration of the flashing, in seconds
+      Use "0" to keep flashing until stopped.
+    - Parameter 3: 🔤 Object Effect Name (String)
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Half period**
 Change the half period (time between flashes) of the object.
 
-**Stop flashing an effect**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Stop flashing an effect**
 Stop flashing an effect of an object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Half period**  
+**Half period**
 Compare the half period (time between flashes) of the object.
 
-**Is object flashing an effect**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Is object flashing an effect**
 Check if an object is flashing an effect.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 
@@ -116,22 +241,65 @@ Flash opacity smoothly (fade) in a repeating loop.
 
 ### Behavior actions
 
-**Flash the opacity (fade)**  
+**Flash the opacity (fade)**
 Make an object flash opacity smoothly (fade) in a repeating loop.
 
-**Half period**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🧩 Behavior): Tween behavior (required)
+    - Parameter 3 (🔢 Number): Duration of the flashing, in seconds
+      Use "0" to keep flashing until stopped.
+    - Parameter 4 (🔢 Number): Target opacity
+
+    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+
+**Half period**
 Change the half period (time between flashes) of the object.
 
-**Stop flashing opacity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Stop flashing opacity**
 Stop flashing opacity of an object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Half period**  
+**Half period**
 Compare the half period (time between flashes) of the object.
 
-**Is object flashing opacity**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Is object flashing opacity**
 Check if an object is flashing opacity.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

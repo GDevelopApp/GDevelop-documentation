@@ -10,55 +10,135 @@ Displays a video.
 
 ### Object actions
 
-**Loop a video**  
+**Loop a video**
 Loop the specified video.
 
-**Mute a video**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Video object
+    - Parameter 1 (❓ Yes or No): Activate loop
+
+**Mute a video**
 Mute, or unmute, the specified video.
 
-**Pause a video**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Video object
+    - Parameter 1 (❓ Yes or No): Activate mute
+
+**Pause a video**
 Pause the specified video.
 
-**Play a video**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Video object
+
+**Play a video**
 Play a video (recommended file format is MPEG4, with H264 video codec and AAC audio codec).
 
-**Set playback speed**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Video object
+
+**Set playback speed**
 Set playback speed of the specified video object, (1 = the default speed, >1 = faster and <1 = slower).
 
-**Current time**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Video object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Playback speed (1 by default)
+
+**Current time**
 Set the time of the video
 
-**Volume**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Video object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Position (in seconds)
+
+**Volume**
 Set the volume of the video object.
+
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Video object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Volume (0-100)
 
 ### Object conditions
 
-**Current time**  
+**Current time**
 Compare the current time of a video object
 
-**Duration**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Video object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Time to compare to (in seconds)
+
+**Duration**
 Compare the duration of a video object
 
-**Is ended**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Video object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Duration to compare to (in seconds)
+
+**Is ended**
 Check if a video is ended
 
-**Playback speed **  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Video object
+
+**Playback speed **
 Compare the playback speed of a video object
 
-**Is looped**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Video object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Playback speed (1 by default)
+
+**Is looped**
 Check if the video is looped.
 
-**Is muted**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Video object
+
+**Is muted**
 Check if a video is muted.
 
-**Is paused**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Video object
+
+**Is paused**
 Check if the video is paused.
 
-**Is played**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Video object
+
+**Is played**
 Check if a video is played.
 
-**Volume**  
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Video object
+
+**Volume**
 Compare the current volume of a video object.
+
+??? quote "See parameters"
+
+    - Parameter 0 (👾 Object): Video object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Volume to compare to (0-100)
 
 ### Object expressions
 

@@ -16,16 +16,50 @@ It can be used to simulate earthquakes or impacts.
 
 ## Actions
 
-**Add a camera impulse**  
+**Add a camera impulse**
 Add an impulse to the camera position.
 
-**Add a camera impulse (angle)**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Identifier
+    - Parameter 2 (string): Layer
+    - Parameter 3 (🔢 Number): Displacement X
+    - Parameter 4 (🔢 Number): Displacement Y
+    - Parameter 5 (🔢 Number): Get away duration (in seconds)
+    - Parameter 6 (🔤 String): Get away easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 7 (🔢 Number): Stay duration (in seconds)
+    - Parameter 8 (🔢 Number): Get back duration (in seconds)
+    - Parameter 9 (🔤 String): Get back easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+
+    > Technical note: parameters 0, 10 are internal parameters handled by GDevelop.
+
+**Add a camera impulse (angle)**
 Add an impulse to the camera position.
+
+??? quote "See parameters"
+
+    - Parameter 1 (string): Identifier
+    - Parameter 2 (string): Layer
+    - Parameter 3 (🔢 Number): Amplitude
+    - Parameter 4 (🔢 Number): Angle (in degree)
+    - Parameter 5 (🔢 Number): Get away duration (in seconds)
+    - Parameter 6 (🔤 String): Get away easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 7 (🔢 Number): Stay duration (in seconds)
+    - Parameter 8 (🔢 Number): Get back duration (in seconds)
+    - Parameter 9 (🔤 String): Get back easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+
+    > Technical note: parameters 0, 10 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**Camera impulse is playing**  
+**Camera impulse is playing**
 Check if a camera impulse is playing.
+
+??? quote "See parameters"
+
+    - Parameter 1 (string): Identifier
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 
 

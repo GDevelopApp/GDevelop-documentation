@@ -24,11 +24,27 @@ Configure the height of a jump and evaluate the jump trajectory.
 
 ### Behavior actions
 
-**Draw jump**  
+**Draw jump**
 Draw the jump trajectories from no sustain to full sustain.
 
-**Jump height**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): Shape painter
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Jump height**
 Change the jump speed to reach a given height.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Jump height
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

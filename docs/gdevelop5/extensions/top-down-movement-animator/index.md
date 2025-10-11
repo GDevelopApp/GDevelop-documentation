@@ -20,25 +20,73 @@ Change the animation according to the movement direction.
 
 ### Behavior actions
 
-**Animation name**  
+**Animation name**
 Change the animation name of the object.
 
-**Pause animations when objects stop**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (string): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Pause animations when objects stop**
 Change whether animations are paused when objects stop.
 
-**Scale animations according to speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): IsPausingAnimation
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Scale animations according to speed**
 Change whether animations are scaled according to speed or not.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): IsScalingAnimation
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Animation name**  
+**Animation name**
 Compare the animation name of the object.
 
-**Pause animations when objects stop**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (string): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Pause animations when objects stop**
 Check if animations are paused when objects stop.
 
-**Scale animations according to speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Scale animations according to speed**
 Check if animations are scaled according to speed.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

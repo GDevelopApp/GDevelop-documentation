@@ -29,17 +29,52 @@ It can be helpful for:
 
 ## Conditions
 
-**Contain**  
+**Contain**
 Check if the stack contains the object.
 
-**Contain at**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Stack
+    - Parameter 2 (🧩 Behavior): Stack behavior
+    - Parameter 3 (👾 Object): Element
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Contain at**
 Check if the stack contains the object at a height.
 
-**Contain between a range**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Stack
+    - Parameter 2 (🧩 Behavior): Stack behavior
+    - Parameter 3 (👾 Object): Element
+    - Parameter 4 (🔢 Number): Height
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Contain between a range**
 Check if the stack contains the object between a range. The lower and upper bounds are included.
 
-**Stack top**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Stack
+    - Parameter 2 (🧩 Behavior): Stack behavior
+    - Parameter 3 (👾 Object): Element
+    - Parameter 4 (🔢 Number): Lower bound
+    - Parameter 5 (🔢 Number): Upper bound
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Stack top**
 Check if an object is on the stack top.
+
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Stack
+    - Parameter 2 (🧩 Behavior): Stack behavior
+    - Parameter 3 (👾 Object): Element
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
 
 
@@ -49,37 +84,123 @@ Hold an ordered list of objects.
 
 ### Behavior actions
 
-**Add on top**  
+**Add on top**
 Add the object on the top of the stack.
 
-**Clear**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 👾 Object
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Clear**
 Remove any object from the stack.
 
-**Insert into the stack**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Insert into the stack**
 Insert the object into the stack.
 
-**Move all into the stack**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 👾 Object
+    - Parameter 3 (🔢 Number): Height
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Move all into the stack**
 Move all the object from a stack into another.
 
-**Move all on top of the stack**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Height
+    - Parameter 3 (👾 Object): Stack
+    - Parameter 4 (🧩 Behavior): Stack behavior
+
+    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+
+**Move all on top of the stack**
 Move all the object from a stack into another one at the top.
 
-**Move into the stack**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): Stack
+    - Parameter 3 (🧩 Behavior): Stack behavior
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Move into the stack**
 Move the objects from a stack into another.
 
-**Remove from the stack**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Height
+    - Parameter 3 (👾 Object): Stack
+    - Parameter 4 (🧩 Behavior): Stack behavior
+    - Parameter 5 (🔢 Number): Lower bound
+    - Parameter 6 (🔢 Number): Upper bound
+
+    > Technical note: parameter 7 are internal parameters handled by GDevelop.
+
+**Remove from the stack**
 Remove the object from the stack.
 
-**Shuffle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 👾 Object
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Shuffle**
 Shuffle the stack.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Stack height**  
+**Stack height**
 Compare the number of objects in the stack.
 
-**Is empty**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Is empty**
 Check if the stack is empty.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

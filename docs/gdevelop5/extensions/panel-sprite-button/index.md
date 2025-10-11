@@ -24,34 +24,93 @@ A button that can be customized.
 
 ### Object actions
 
-**De/activate interactions**  
+**De/activate interactions**
 De/activate interactions with the button.
 
-**Label text**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1 (❓ Yes or No): Activate
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+
+**Label text**
 Change the label text.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (string): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Object conditions
 
-**Interactions activated**  
+**Interactions activated**
 Check if interactions are activated on the button.
 
-**Is clicked**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Is clicked**
 Check if the button was just clicked.
 
-**Is focused**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Is focused**
 Check if the button is either hovered or pressed but not hovered.
 
-**Is hovered**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Is hovered**
 Check if the cursor is hovered over the button.
 
-**Is idle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Is idle**
 Check if the button is not used.
 
-**Is pressed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Is pressed**
 Check if the button is currently being pressed with mouse or touch.
 
-**Label text**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Label text**
 Compare the label text.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Object expressions
 

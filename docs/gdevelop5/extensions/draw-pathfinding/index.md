@@ -20,8 +20,17 @@ Draw the path followed by the object using a shape painter.
 
 ### Behavior actions
 
-**Draw pathfinding**  
+**Draw pathfinding**
 Draw the path followed by the object using a shape painter. It automatically creates an instance of the shape painter object if there is none.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🧩 Behavior): Pathfinding behavior
+    - Parameter 3 (👾 Object): Shape painter used to draw the path
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 _No expressions for this behavior._
 

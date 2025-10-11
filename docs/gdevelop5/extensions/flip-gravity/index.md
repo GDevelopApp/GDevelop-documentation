@@ -37,18 +37,76 @@ Recommended: Set the platformer character sprite Origin and Center points to spr
 
 ## Actions
 
-**Flip gravity 1 object (Floor, Roof)**  
+**Flip gravity 1 object (Floor, Roof)**
 Flip the gravity for platformer character (you have 1 object), Example:  
 • Floor object at the bottom, Floor object at the top.
 
-**Flip gravity 2 objects (1 for floor, 1 for roof)**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Platformer character object
+    - Parameter 2 (🧩 Behavior): Platformer character behavior
+    - Parameter 3 (key): Flip gravity key
+      Any key will work except the Jump key.
+    - Parameter 4 (👾 Object): Floor object
+    - Parameter 5 (🔢 Number): Flip gravity force power
+      The higher number the stronger the force.
+      0 for object falling speed.
+    - Parameter 6 (key): Moving right key
+    - Parameter 7 (key): Moving left key
+    - Parameter 8 (🔢 Number): Idle animation number
+    - Parameter 9 (🔢 Number): Move animation number
+    - Parameter 10 (🔢 Number): Fall animation number
+    - Parameter 11 (❓ Yes or No): Can flip gravity while in air after performing a jump
+    - Parameter 12 (❓ Yes or No): Trigger gravity flip once every single press until flip key is released
+    - Parameter 13 (❓ Yes or No): Ability to jump while the gravity is flipped
+    - Parameter 14 (key): Jump key
+      Leave it empty if you select No for Jump ability.
+    - Parameter 15 (🔢 Number): Jump strength
+      Leave it empty if you select No for Jump ability.
+
+    > Technical note: parameters 0, 16 are internal parameters handled by GDevelop.
+
+**Flip gravity 2 objects (1 for floor, 1 for roof)**
 Flip the gravity for platformer character (you have 2 objects), Examples:  
 • Floor object at the bottom, Roof object at the top.
 • Floor object at the bottom, Floor object at the top.
 • Roof object at the bottom, Roof object at the top.
 
-**Reset gravity back to normal**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Platformer character object
+    - Parameter 2 (🧩 Behavior): Platformer character behavior
+    - Parameter 3 (key): Flip gravity key
+      Any key will work except the Jump key.
+    - Parameter 4 (👾 Object): Floor object
+    - Parameter 5 (👾 Object): Roof object
+    - Parameter 6 (🔢 Number): Flip gravity force power
+      The higher number the stronger the force.
+      0 for object falling speed.
+    - Parameter 7 (key): Moving right key
+    - Parameter 8 (key): Moving left key
+    - Parameter 9 (🔢 Number): Idle animation number
+    - Parameter 10 (🔢 Number): Move animation number
+    - Parameter 11 (🔢 Number): Fall animation number
+    - Parameter 12 (❓ Yes or No): Can flip gravity while in air after performing a jump
+    - Parameter 13 (❓ Yes or No): Trigger gravity flip once every single press until flip key is released
+    - Parameter 14 (❓ Yes or No): Ability to jump while the gravity is flipped
+    - Parameter 15 (key): Jump key
+      Leave it empty if you select No for Jump ability.
+    - Parameter 16 (🔢 Number): Jump strength
+      Leave it empty if you select No for Jump ability.
+
+    > Technical note: parameters 0, 17 are internal parameters handled by GDevelop.
+
+**Reset gravity back to normal**
 Reset the gravity back to normal for the selected object.
+
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Platformer character object
+    - Parameter 2 (🧩 Behavior): Platformer character behavior
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
 
 

@@ -34,28 +34,82 @@ Move objects on ellipses or smoothly back and forth in one direction.
 
 ### Behavior actions
 
-**Loop duration**  
+**Loop duration**
 Change the loop duration.
 
-**Teleport at an angle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Speed (in degrees per second)
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Teleport at an angle**
 Change the movement angle. The object is teleported according to the angle.
 
-**Radius X**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Movement angle
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Radius X**
 Change the radius on X axis of the movement.
 
-**Radius Y**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Radius X
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Radius Y**
 Change the radius on Y axis of the movement.
 
-**Turn left or right**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Radius Y
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Turn left or right**
 Change the in which side the object is turning (left or right).
 
-**Turn the other way**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (❓ Yes or No): Turn left
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Turn the other way**
 Change the turning direction (left or right).
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Is turning left**  
+**Is turning left**
 Check if the object is turning left.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

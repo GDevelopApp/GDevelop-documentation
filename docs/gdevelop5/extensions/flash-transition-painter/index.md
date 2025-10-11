@@ -27,13 +27,32 @@ Paint all over the screen a color for a period of time.
 
 ### Behavior actions
 
-**Paint Effect**  
+**Paint Effect**
 Paint Effect.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: color
+    - Parameter 3 (🔢 Number): Duration
+    - Parameter 4 (🔤 String): Type of effect  (one of: "Flash", "Horizontal", "Vertical", "Circular")
+    - Parameter 5 (🔤 String): Direction transition (one of: "Both", "Forward", "Backward")
+    - Parameter 6 (🔢 Number): End opacity
+
+    > Technical note: parameter 7 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Paint effect ended **  
+**Paint effect ended **
 Paint effect ended.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 _No expressions for this behavior._
 

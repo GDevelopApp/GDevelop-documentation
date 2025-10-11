@@ -39,11 +39,38 @@ Watch this [tutorial video](https://youtu.be/rlGSlNSRR9w) to see examples of how
 
 ## Actions
 
-**Create objects to flood fill a rectanglular area**  
+**Create objects to flood fill a rectanglular area**
 Create multiple copies of an object.
 
-**Create objects to flood fill other objects**  
+??? quote "See parameters"
+
+    - Parameter 1: 👾 Object
+    - Parameter 2 (🔢 Number): Number of columns (default: 1)
+    - Parameter 3 (🔢 Number): Number of rows (default: 1)
+    - Parameter 4 (🔢 Number): Top-left starting position (X) (default: 0)
+    - Parameter 5 (🔢 Number): Top-left starting position (Y) (default: 0)
+    - Parameter 6 (🔢 Number): Amount of space between columns (default: 0)
+    - Parameter 7 (🔢 Number): Amount of space between rows (default: 0)
+    - Parameter 8: 🔤 Layer name (String)
+    - Parameter 9 (🔢 Number): Z order
+
+    > Technical note: parameters 0, 10 are internal parameters handled by GDevelop.
+
+**Create objects to flood fill other objects**
 Create fill objects that cover the rectangular area of target objects.
+
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Target object
+      Rectangular area that will be covered by fill objects
+    - Parameter 2 (👾 Object): Fill object
+      Object that is created to cover the rectangular area of target objects
+    - Parameter 3 (🔢 Number): Space between columns (pixels)
+    - Parameter 4 (🔢 Number): Space between rows (pixels)
+    - Parameter 5: 🔤 Layer name (String)
+    - Parameter 6 (🔢 Number): Z order
+
+    > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
 
 

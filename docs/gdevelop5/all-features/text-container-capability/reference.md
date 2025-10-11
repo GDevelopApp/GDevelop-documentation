@@ -10,13 +10,27 @@ Allows an object to contain a text, usually shown on screen, that can be modifie
 
 ### Behavior actions
 
-**Text**  
+**Text**
 Change the text.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (string): Text
 
 ### Behavior conditions
 
-**Text**  
+**Text**
 Compare the text.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (string): Text
 
 ### Behavior expressions
 

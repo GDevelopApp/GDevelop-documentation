@@ -37,172 +37,646 @@ This extension does not support:
 
 ## Actions
 
-**Activate story history**  
+**Activate story history**
 Set a scene variable for saving the story choice history.
 
-**Add parameter for Ink function**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+    - Parameter 2 (🗄️ Scene variable): History array
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Add parameter for Ink function**
 Call an internal Ink function set inside the story.
 
-**Link story event**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+    - Parameter 2 (🔤 Name (String)): Internal Ink method name
+    - Parameter 3 (string): Parameter value
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Link story event**
 Link an external Ink function to the game.
 
-**Call Ink function**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+    - Parameter 2 (🔤 Name (String)): Ink event name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Call Ink function**
 Call an internal Ink function set inside the story.
 
-**Call Ink function with story output**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+    - Parameter 2 (🔤 Name (String)): Internal Ink method name
+    - Parameter 3 (🗄️ Scene variable): Save result in
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Call Ink function with story output**
 Call an internal Ink function set inside the story and collect value and text output.
 
-**Change story chapter**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+    - Parameter 2 (🔤 Name (String)): Internal Ink method name
+    - Parameter 3 (🗄️ Scene variable): Save result in
+    - Parameter 4 (🗄️ Scene variable): Save text output in
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Change story chapter**
 Change the current story chapter.
 
-**Change story variable boolean**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+    - Parameter 2 (🔤 Name (String)): Chapter name
+      In Ink, a chapter (or knot) is a large part of the story.
+      
+      You can combine it with a subchapter (a stich) for reaching a specific part of the chapter. The format is "knot.stich".
+      
+      For example:
+      - castle
+      - castle.hall
+      
+      are valid chapter names.
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Change story variable boolean**
 Change the story variable boolean.
 
-**Story variable value**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+    - Parameter 2 (🔤 Name (String)): Variable name
+    - Parameter 3 (❓ True or False): Value
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Story variable value**
 Change the story variable value.
 
-**Story variable text**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+    - Parameter 3 (🔤 Name (String)): Story name
+    - Parameter 4 (🔤 Name (String)): Variable name
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Story variable text**
 Change the story variable text.
 
-**Chapter tags to array**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (string): Value
+    - Parameter 3 (🔤 Name (String)): Story name
+    - Parameter 4 (🔤 Name (String)): Variable name
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Chapter tags to array**
 Export the chapter tag list to an array variable.
 
-**Choice tags to array**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+    - Parameter 2 (🔤 Name (String)): Chapter name
+      In Ink, a chapter (or knot) is a large part of the story.
+      
+      You can combine it with a subchapter (a stich) for reaching a specific part of the chapter. The format is "knot.stich".
+      
+      For example:
+      - castle
+      - castle.hall
+      
+      are valid chapter names.
+    - Parameter 3 (🗄️ Scene variable): Scene array variable
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Choice tags to array**
 Export the choice tag list to an array variable.
 
-**Continue the story**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+    - Parameter 2 (🔢 Number): Choice index
+    - Parameter 3 (🗄️ Scene variable): Scene array variable
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Continue the story**
 Load the next story line.
 
-**Create story snapshot**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Create story snapshot**
 Create a temporary snapshot of the story.
 
-**Current line tags to array**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Current line tags to array**
 Export the current line tag list to an array variable.
 
-**Discard story snapshot**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+    - Parameter 2 (🗄️ Scene variable): Scene array variable
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Discard story snapshot**
 Discard the last snapshot of the story.
 
-**Global tags to array**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Global tags to array**
 Export the global tag list to an array variable.
 
-**Load story state from JSON**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+    - Parameter 2 (🗄️ Scene variable): Scene array variable
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Load story state from JSON**
 Load a previous state of an existing story from a JSON string.
 
-**Load story history**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+    - Parameter 2 (string): JSON text
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Load story history**
 Load an already prepared scene variable for saving the story choice history.
 
-**Load JSON Story**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+    - Parameter 2 (🗄️ Scene variable): History array
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Load JSON Story**
 Create a story from an Ink JSON resource.
 
-**Observe a story variable**  
+??? quote "See parameters"
+
+    - Parameter 1: jsonResource
+    - Parameter 2 (🔤 Name (String)): Story name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Observe a story variable**
 Activate the observation of any change to the story variable.
 
-**Reset story state**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+    - Parameter 2 (🔤 Name (String)): Variable name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Reset story state**
 Reset the story back to its initial state.
 
-**Restore story snapshot**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Restore story snapshot**
 Restore the last snapshot of the story.
 
-**Rewind last choice**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Rewind last choice**
 Come back to the previous state of the story.
 
-**Validate a choice**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Validate a choice**
 Validate a choice using its Ink index before continuing the story.
+
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+    - Parameter 2 (🔢 Number): Choice index
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**Can continue**  
+**Can continue**
 The story flow can progress.
 
-**Chapter tag value**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Chapter tag value**
 Compare chapter tag.
 
-**Chapter tag count**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+    - Parameter 3 (🔤 Name (String)): Story name
+    - Parameter 4 (🔤 Name (String)): Chapter name
+      In Ink, a chapter (or knot) is a large part of the story.
+      
+      You can combine it with a subchapter (a stich) for reaching a specific part of the chapter. The format is "knot.stich".
+      
+      For example:
+      - castle
+      - castle.hall
+      
+      are valid chapter names.
+    - Parameter 5 (🔢 Number): Tag list index
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Chapter tag count**
 Compare chapter tag count.
 
-**Current choices count**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Story name
+    - Parameter 4 (🔤 Name (String)): Chapter name
+      In Ink, a chapter (or knot) is a large part of the story.
+      
+      You can combine it with a subchapter (a stich) for reaching a specific part of the chapter. The format is "knot.stich".
+      
+      For example:
+      - castle
+      - castle.hall
+      
+      are valid chapter names.
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Current choices count**
 Compare current choice count.
 
-**Choice tag value**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Story name
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Choice tag value**
 Compare choice tag.
 
-**Choice tag count**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+    - Parameter 3 (🔤 Name (String)): Story name
+    - Parameter 4 (🔢 Number): Choice index
+    - Parameter 5 (🔢 Number): Tag list index
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Choice tag count**
 Compare choice tag count.
 
-**Current story chapter**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Story name
+    - Parameter 4 (🔢 Number): Choice index
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Current story chapter**
 Compare current story chapter.
 
-**Current Story Line**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+    - Parameter 3 (🔤 Name (String)): Story name
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Current Story Line**
 Compare the current story line.
 
-**Current line tag value**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+    - Parameter 3 (🔤 Name (String)): Story name
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Current line tag value**
 Compare current line tag.
 
-**Current line tag count**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+    - Parameter 3 (🔤 Name (String)): Story name
+    - Parameter 4 (🔢 Number): Tag list index
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Current line tag count**
 Compare current line tag count.
 
-**Ink function story output**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Story name
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Ink function story output**
 Compare the internal Ink function story output.
 
-**Ink function text result**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+    - Parameter 3 (🔤 Name (String)): Story name
+    - Parameter 4 (🔤 Name (String)): Internal Ink method name
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Ink function text result**
 Compare the internal Ink function text value.
 
-**Ink function result value**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+    - Parameter 3 (🔤 Name (String)): Story name
+    - Parameter 4 (🔤 Name (String)): Internal Ink method name
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Ink function result value**
 Compare the internal Ink function value.
 
-**Event parameter count**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Story name
+    - Parameter 4 (🔤 Name (String)): Internal Ink method name
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Event parameter count**
 Compare the event parameter count.
 
-**Event parameter value**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Story name
+    - Parameter 4 (🔤 Name (String)): Ink event name
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Event parameter value**
 Compare the event parameter value.
 
-**Event parameter text**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Story name
+    - Parameter 4 (🔤 Name (String)): Ink event name
+    - Parameter 5 (🔢 Number): Parameter index
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Event parameter text**
 Compare the event parameter text.
 
-**Global tag value**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+    - Parameter 3 (🔤 Name (String)): Story name
+    - Parameter 4 (🔤 Name (String)): Ink event name
+    - Parameter 5 (🔢 Number): Parameter index
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Global tag value**
 Compare global tag.
 
-**Global tag count**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+    - Parameter 3 (🔤 Name (String)): Story name
+    - Parameter 4 (🔢 Number): Tag list index
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Global tag count**
 Compare global tag count.
 
-**Has ended**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Story name
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Has ended**
 The story reached its end.
 
-**Chapter has tags**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Chapter has tags**
 Check if the current story chapter contains tags.
 
-**Choice has tags**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+    - Parameter 2 (🔤 Name (String)): Chapter name
+      In Ink, a chapter (or knot) is a large part of the story.
+      You can combine it with a subchapter (a stich) for reaching a specific part of the chapter. The format is "knot.stich".
+      For example:
+      
+      - castle
+      - castle.hall
+      
+      are valid chapter names.
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Choice has tags**
 Check if the choice contains tags.
 
-**Current line has tags**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+    - Parameter 2 (🔢 Number): Choice index
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Current line has tags**
 Check if the current story line contains tags.
 
-**Has global tags**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Has global tags**
 Check if the current story contains global tags.
 
-**Event is called**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Event is called**
 Check if the story event is called by Ink.
 
-**Is loaded**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+    - Parameter 2 (🔤 Name (String)): Ink event name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Is loaded**
 Check if the story is already loaded.
 
-**Story variable boolean**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Story variable boolean**
 The story variable boolean is true.
 
-**Story variable changed**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+    - Parameter 2 (🔤 Name (String)): Variable name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Story variable changed**
 A story variable observed has changed.
 
-**Story variable exists**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+    - Parameter 2 (🔤 Name (String)): Variable name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Story variable exists**
 Check if the story variable exists.
 
-**Story variable value**  
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Name (String)): Story name
+    - Parameter 2 (🔤 Name (String)): Variable name
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Story variable value**
 Compare the story variable value.
 
-**Story variable text**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Story name
+    - Parameter 4 (🔤 Name (String)): Variable name
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Story variable text**
 Compare the story variable text.
 
-**Story chapter visit count**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+    - Parameter 3 (🔤 Name (String)): Story name
+    - Parameter 4 (🔤 Name (String)): Variable name
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+**Story chapter visit count**
 Compare the chapter visit count of the story.
+
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+    - Parameter 3 (🔤 Name (String)): Story name
+    - Parameter 4 (🔤 Name (String)): Chapter name
+      In Ink, a chapter (or knot) is a large part of the story.
+      You can combine it with a subchapter (a stich) for reaching a specific part of the chapter. The format is "knot.stich".
+      For example:
+      - castle
+      - castle.hall
+      are valid chapter names.
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
 ## Expressions
 

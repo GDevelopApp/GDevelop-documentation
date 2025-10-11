@@ -22,8 +22,21 @@ Tips:
 
 ## Actions
 
-**Copy camera settings**  
+**Copy camera settings**
 Copy camera settings of a layer and apply them to another layer.
+
+??? quote "See parameters"
+
+    - Parameter 1 (🔤 Layer name (String)): Source layer
+    - Parameter 2 (🔢 Number): Source camera
+    - Parameter 3 (🔤 Layer name (String)): Destination layer
+    - Parameter 4 (🔢 Number): Destination camera
+    - Parameter 5 (❓ Yes or No): Clone X position
+    - Parameter 6 (❓ Yes or No): Clone Y position
+    - Parameter 7 (❓ Yes or No): Clone zoom
+    - Parameter 8 (❓ Yes or No): Clone angle
+
+    > Technical note: parameters 0, 9 are internal parameters handled by GDevelop.
 
 
 

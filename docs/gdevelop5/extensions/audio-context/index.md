@@ -25,34 +25,106 @@ This extension can easily create chiptunes.
 
 ## Actions
 
-**Add detune to a synth**  
+**Add detune to a synth**
 Add detune on top of the main frequency to get cool synth effects.
 
-**Add multiple detunes to a synth**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Synth name
+    - Parameter 2 (🔢 Number): Detune value in chips
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Add multiple detunes to a synth**
 Add comma separated detune values to a synth.
 
-**Add/update filter**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Synth name
+    - Parameter 2 (string): Comma separated detune values
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Add/update filter**
 Add or update biquad filter.
 
-**Create chord**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Synth name
+    - Parameter 2 (🔤 String): Filter type (one of: "lowpass", "highpass", "bandpass", "lowshelf", "highshelf", "peaking", "notch", "allpass")
+    - Parameter 3 (🔢 Number): Frequency [0-20,000]
+    - Parameter 4 (🔢 Number): Quality factor [0-100]
+    - Parameter 5 (🔢 Number): Gain value
+
+    > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+**Create chord**
 Create a new chord.
 
-**Create an Audio Context**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Chord name (imaginary or real)
+    - Parameter 2 (string): Comma separated notes including octave eg. "C#4, Eb4, G4"
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Create an Audio Context**
 Create a new audio context (In most cases you only need one context and reuse it with the name).
 
-**Create/update synth**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Context name
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Create/update synth**
 Create or update synth with attack, decay, sustain, release gain and apply filters.
 
-**Play chord**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Name of the synth
+    - Parameter 2 (string): Context name
+    - Parameter 3 (🔤 String): Wave type (one of: "sine", "square", "triangle", "sawtooth")
+    - Parameter 4 (🔢 Number): Attack value
+    - Parameter 5 (🔢 Number): Decay value
+    - Parameter 6 (🔢 Number): Sustain value
+    - Parameter 7 (🔢 Number): Release value
+
+    > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
+
+**Play chord**
 Play an existing chord on a synth.
 
-**Play note**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Chord name
+    - Parameter 2 (string): Synth name to play the chord on
+    - Parameter 3 (🔢 Number): Duration
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Play note**
 Play a note a synth you've created before.
+
+??? quote "See parameters"
+
+    - Parameter 1 (string): Synth name
+    - Parameter 2 (🔤 String): Note name (one of: "C", "C#", "Db", "D", "D#", "Eb", "E", "F", "F#", "Gb", "G", "G#", "Ab", "A", "A#", "Bb", "B")
+    - Parameter 3 (🔢 Number): Octave (0-8)
+    - Parameter 4 (🔢 Number): Note duration (-1 to play until stopped manually)
+
+    > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**Context exists**  
+**Context exists**
 Check if the context already created.
+
+??? quote "See parameters"
+
+    - Parameter 1 (string): Context name
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 ## Expressions
 

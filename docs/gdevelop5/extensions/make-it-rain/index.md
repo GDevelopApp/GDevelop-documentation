@@ -29,29 +29,127 @@ Make an object rain from a selected direction or a selected object.
 
 ## Actions
 
-**Make object rain**  
+**Make object rain**
 Make object rain from a selected direction.
 
-**Make it rain from object**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Make this object rain
+    - Parameter 2 (🔢 Number): Rain object width
+    - Parameter 3 (🔢 Number): Rain object height
+    - Parameter 4 (🔢 Number): Raining speed (in pixel)
+      Example: 10
+    - Parameter 5 (🔤 String): Rain direction (one of: "Top to bottom", "Bottom to top", "Left to right", "Right to left")
+    - Parameter 6 (🔢 Number): Respawning object timer speed (in seconds)
+      Example: 0.01
+    - Parameter 7 (string): Timer name for each object
+    - Parameter 8 (🔤 Layer name (String)): Rain object at this layer
+    - Parameter 9 (🔢 Number): Create rain object at zorder
+    - Parameter 10 (🔢 Number): Rain intensity
+    - Parameter 11 (🔢 Number): Rain angle (in degree)
+      90, for "Top to bottom".  
+      -90, for "Bottom to top".  
+      0, for "Left to right".  
+      180, for "Right to left".  
+      You can adjust the angle as you like but keep in mind the rain angle must be related to rain direction.
+    - Parameter 12 (❓ Yes or No): Delete the rain object when its out of the screen
+      (Recommended: Yes)
+      Setting this option to No might reduce your game performance.
+
+    > Technical note: parameters 0, 13 are internal parameters handled by GDevelop.
+
+**Make it rain from object**
 Make object rain from another object.
 
-**Pause raining object (rain)**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Make this object rain
+    - Parameter 2 (🔢 Number): Rain object width
+    - Parameter 3 (🔢 Number): Rain object height
+    - Parameter 4 (👾 Object): Rain from this object
+    - Parameter 5 (🔢 Number): Raining speed (in pixel)
+      Example: 10
+    - Parameter 6 (🔤 String): Rain from object at direction (one of: "Top to bottom", "Bottom to top", "Left to right", "Right to left")
+    - Parameter 7 (🔢 Number): Respawning object timer speed (in seconds)
+      Example: 0.01
+    - Parameter 8 (string): Timer name for each object
+    - Parameter 9 (🔤 Layer name (String)): Rain object at this layer
+    - Parameter 10 (🔢 Number): Create rain object at zorder
+    - Parameter 11 (🔢 Number): Rain intensity
+    - Parameter 12 (🔢 Number): Rain angle (in degree)
+      90, for "Top to bottom".  
+      -90, for "Bottom to top".  
+      0, for "Left to right".  
+      180, for "Right to left".  
+      You can adjust the angle as you like but keep in mind the rain angle must be related to rain direction.
+    - Parameter 13 (❓ Yes or No): Create rain object from object2 center
+    - Parameter 14 (❓ Yes or No): Delete the rain objects when its out of the screen
+      (Recommended: Yes)
+      Setting this option to No might reduce your game performance.
+
+    > Technical note: parameters 0, 15 are internal parameters handled by GDevelop.
+
+**Pause raining object (rain)**
 Pause raning object (rain).
 
-**Pause raining from object (cloud)**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Stop raining this object
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Pause raining from object (cloud)**
 Pause raning from object (cloud).
 
-**Rain collision animation**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Stop raining from this object (cloud)
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Rain collision animation**
 Change rain animation when it collides with other object.
 
-**Resume raining object (rain)**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Rain object
+    - Parameter 2 (👾 Object): Collided object
+    - Parameter 3 (🔢 Number): Rain animation after the collide
+      You can set the animation to 0 if you don't want or have rain animation (splash).
+    - Parameter 4 (❓ Yes or No): Change the rain position to surface when collision happen
+    - Parameter 5 (❓ Yes or No): Remove the rain object after its animation finished
+    - Parameter 6 (❓ Yes or No): Remove the rain object if it collides with the edge of the other object
+    - Parameter 7 (❓ Yes or No): Stop rain movement after the collide with the other object
+
+    > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
+
+**Resume raining object (rain)**
 Resume raining object.
 
-**Resume raining from object (cloud)**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Start raining this object
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+**Resume raining from object (cloud)**
 Resume raining object from object.
 
-**Stop moving rain**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Start raining this object (rain)
+    - Parameter 2 (👾 Object): Start raining from this object (cloud)
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Stop moving rain**
 Could be used with collision condition.
+
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Rain object
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 
 

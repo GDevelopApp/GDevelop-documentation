@@ -37,14 +37,58 @@ An example shows how to use this extension ([open the project online](https://ed
 
 ## Actions
 
-**Move objects in elliptical orbit around a center object**  
+**Move objects in elliptical orbit around a center object**
 Move objects in elliptical orbit around a center object. Z-order is changed to make 3D effect.
 
-**Move objects in orbit around a center object**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Center object
+    - Parameter 2 (👾 Object): Orbiting object
+      Cannot be the same object used for the Center object
+    - Parameter 3 (🔢 Number): Quantity of orbiting objects
+    - Parameter 4 (🔢 Number): Orbit speed (in degrees per second)
+      Use negative numbers to orbit counter-clockwise
+    - Parameter 5 (🔢 Number): Vertical distance from the center object (pixels)
+    - Parameter 6 (🔢 Number): Angular speed (in degrees per second)
+      Use negative numbers to rotate counter-clockwise
+    - Parameter 7 (🔢 Number): Starting angle offset (in degrees)
+    - Parameter 8 (❓ Yes or No): Reset locations of orbiting objects after quantity is reduced
+    - Parameter 9 (🔢 Number): Horizontal distance from the center object (pixels)
+    - Parameter 10 (🔤 String): Foreground Side (one of: "Top", "Bottom", "Left", "Right")
+
+    > Technical note: parameters 0, 11 are internal parameters handled by GDevelop.
+
+**Move objects in orbit around a center object**
 Move objects in orbit around a center object.
 
-**Delete orbiting objects that are linked to a center object**  
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Center object
+    - Parameter 2 (👾 Object): Orbiting object
+      Cannot be the same object used for the Center object
+    - Parameter 3 (🔢 Number): Quantity of orbiting objects
+    - Parameter 4 (🔢 Number): Orbit speed (in degrees per second)
+      Use negative numbers to orbit counter-clockwise
+    - Parameter 5 (🔢 Number): Distance from the center object (in pixels)
+    - Parameter 6 (🔢 Number): Angular speed (in degrees per second)
+      Use negative numbers to rotate counter-clockwise
+    - Parameter 7 (🔤 Layer name (String)): Layer that orbiting objects will be created on (base layer if empty)
+    - Parameter 8 (🔢 Number): Z order of orbiting objects
+    - Parameter 9 (🔢 Number): Starting angle offset (in degrees)
+    - Parameter 10 (❓ Yes or No): Reset locations of orbiting objects after quantity is reduced
+
+    > Technical note: parameters 0, 11 are internal parameters handled by GDevelop.
+
+**Delete orbiting objects that are linked to a center object**
 Delete orbiting objects that are linked to a center object.
+
+??? quote "See parameters"
+
+    - Parameter 1 (👾 Object): Center object
+    - Parameter 2 (👾 Object): Orbiting object
+      Cannot be the same object that was used for the Center object
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
 
 

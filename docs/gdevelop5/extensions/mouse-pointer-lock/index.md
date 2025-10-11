@@ -23,31 +23,83 @@ Use `MovementX()` and `MovementY()` instead.
 
 ## Actions
 
-**Exit pointer lock**  
+**Exit pointer lock**
 Unlocks the mouse pointer and show it.
 
-**Request Pointer Lock**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Request Pointer Lock**
 Lock the mouse pointer to hide it.
 
-**Speed factor for touch movement**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Speed factor for touch movement**
 Change the speed factor for touch movement.
+
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**Locked pointer is moving**  
+**Locked pointer is moving**
 Check if the locked pointer is moving.
 
-**Pointer X movement**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Pointer X movement**
 Compare the movement of the locked pointer on the X axis.
 
-**Pointer Y movement**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Pointer Y movement**
 Compare the movement of the pointer on the Y axis.
 
-**Speed factor for touch movement**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Speed factor for touch movement**
 Compare the speed factor for touch movement.
 
-**Pointer is locked**  
+??? quote "See parameters"
+
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+**Pointer is locked**
 Check if the mouse pointer is locked.
+
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
 ## Expressions
 
@@ -63,37 +115,127 @@ Control camera rotations with a mouse.
 
 ### Behavior actions
 
-**Horizontal rotation speed factor**  
+**Horizontal rotation speed factor**
 Change the horizontal rotation speed factor of the object.
 
-**Z position offset**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Z position offset**
 Change the z position offset of the object.
 
-**Maximum vertical camera angle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Maximum vertical camera angle**
 Change the maximum vertical camera angle of the object.
 
-**Minimum vertical camera angle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Minimum vertical camera angle**
 Change the minimum vertical camera angle of the object.
 
-**Vertical rotation speed factor**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Vertical rotation speed factor**
 Change the vertical rotation speed factor of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Horizontal rotation speed factor**  
+**Horizontal rotation speed factor**
 Compare the horizontal rotation speed factor of the object.
 
-**Z position offset**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Z position offset**
 Compare the z position offset of the object.
 
-**Maximum vertical camera angle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Maximum vertical camera angle**
 Compare the maximum vertical camera angle of the object.
 
-**Minimum vertical camera angle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Minimum vertical camera angle**
 Compare the minimum vertical camera angle of the object.
 
-**Vertical rotation speed factor**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Vertical rotation speed factor**
 Compare the vertical rotation speed factor of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

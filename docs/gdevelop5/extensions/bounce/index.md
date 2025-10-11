@@ -26,32 +26,75 @@ Provides an action to make the object bounce from another object it just touched
 
 ### Behavior actions
 
-**Bounce off another object**  
+**Bounce off another object**
 Bounce the object off another object it is currently colliding with, according to the angle and the speed of forces applied on the object.  
 Make sure to test for a collision between the two objects before launching this action. All the forces will be removed from the object, and a new permanent force will be added to make the object bounce.
 
-**Bounce horizontally**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): The objects to bounce on
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Bounce horizontally**
 Bounce the object off another object it is currently colliding with, according to the angle and the speed of forces applied on the object.  
 The bounce will always be horizontal, like if the object is *colliding a perfectly vertical obstacle* (like paddles in a pong game). For example, if the object is arriving with an angle of exactly 0 degrees, it will bounce in the opposite direction: 180 degrees.
 
 Make sure to test for a collision between the two objects before launching this action. All the forces will be removed from the object, and a new permanent force will be added to make the object bounce.
 
-**Bounce off another object toward a specified angle**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): The objects to bounce on
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Bounce off another object toward a specified angle**
 Bounce the object off another object it is currently colliding with, according to the angle and the speed of forces applied on the object.  
 The bounce will always be calculated *to go toward the specified angle (the "normal angle")*. For example, if the object is arriving at this exact angle, it will bounce in the opposite direction.
 
 Make sure to test for a collision between the two objects before launching this action. All the forces will be removed from the object, and a new permanent force will be added to make the object bounce.
 
-**Bounce vertically**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): The objects to bounce on
+    - Parameter 3 (🔢 Number): The "normal" angle, in degrees, to bounce against
+      This can be understood at the direction that the bounce must go toward.
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Bounce vertically**
 Bounce the object off another object it is currently colliding with, according to the angle and the speed of forces applied on the object.  
 The bounce will always be vertical, like if the object is *colliding a perfectly horizontal obstacle* (like the top/bottom of the screen in a pong game). For example, if the object is arriving with an angle of exactly 90 degrees, it will bounce in the opposite direction: -90 degrees.
 
 Make sure to test for a collision between the two objects before launching this action. All the forces will be removed from the object, and a new permanent force will be added to make the object bounce.
 
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): The objects to bounce on
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
 ### Behavior conditions
 
-**Bounce count**  
+**Bounce count**
 Compare the number of times this object has bounced off another object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

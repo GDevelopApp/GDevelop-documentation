@@ -10,11 +10,23 @@ An image with edges and corners that are stretched separately from the full imag
 
 ### Object actions
 
-**Tint color**  
+**Tint color**
 Change the tint of a Panel Sprite. The default color is white.
 
-**Image name**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1 (color): Tint
+
+**Image name**
 Change the image of a Panel Sprite.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1 (imageResource): Image file (or image resource name)
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 _No expressions for this object._
 

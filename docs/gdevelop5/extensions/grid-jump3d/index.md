@@ -25,11 +25,27 @@ Move objects by jumping on a grid like a frog.
 
 ### Behavior actions
 
-**Simulate jump key press at angle**  
+**Simulate jump key press at angle**
 Simulate a press of the jump key in a direction.
 
-**Rotate toward**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Angle
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Rotate toward**
 Rotate the object in a direction.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Angle
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 _No expressions for this behavior._
 

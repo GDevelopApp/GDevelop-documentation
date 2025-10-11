@@ -16,40 +16,106 @@ Please refer to [Poki's guide](https://sdk.poki.com/sdk-documentation.html) to k
 
 ## Actions
 
-**Game loading finished**  
+**Game loading finished**
 Inform Poki game finished loading.
 
-**Gameplay started**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Gameplay started**
 Inform Poki gameplay started.
 
-**Gameplay stopped**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Gameplay stopped**
 Inform Poki gameplay stopped.
 
-**Commercial break**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Commercial break**
 Request commercial break.
 
-**Rewarded break**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Rewarded break**
 Request rewarded break.
+
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
 ## Conditions
 
-**Commercial break just finished playing**  
+**Commercial break just finished playing**
 Checks if a commercial break just finished playing.
 
-**Rewarded break just finished playing**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Rewarded break just finished playing**
 Checks if a rewarded break just finished playing.
 
-**Commercial break is playing**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Commercial break is playing**
 Checks if a commercial break is playing.
 
-**Rewarded break is playing**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Rewarded break is playing**
 Checks if a rewarded break is playing.
 
-**Poki SDK is ready**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Poki SDK is ready**
 Check if the Poki SDK is ready to be used.
 
-**Should reward player**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+**Should reward player**
 Checks if player should be rewarded after a rewarded break finished playing.
+
+??? quote "See parameters"
+
+
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
 
 

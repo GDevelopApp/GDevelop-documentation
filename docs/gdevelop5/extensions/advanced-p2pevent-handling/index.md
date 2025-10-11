@@ -17,8 +17,14 @@ Allows handling all events at once instead of one per frame.
 
 ## Actions
 
-**Dismiss event**  
+**Dismiss event**
 Marks the event as handled, to go on to the next.
+
+??? quote "See parameters"
+
+    - Parameter 1 (string): The event to dismiss
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
 
 

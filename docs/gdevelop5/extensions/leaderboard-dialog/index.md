@@ -20,49 +20,153 @@ Displays the player score and allows to submit it to a leaderboard.
 
 ### Object actions
 
-**Best score**  
+**Best score**
 Change the best score of the object.
 
-**Default player name**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Default player name**
 Change the default player name.
 
-**Leaderboard**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (string): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Leaderboard**
 Change the leaderboard of the object.
 
-**Score**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔤 Leaderboard Identifier (String)): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Score**
 Change the score.
 
-**Title**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Title**
 Change the title of the object.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (string): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Object conditions
 
-**Best score**  
+**Best score**
 Compare the best score of the object.
 
-**Default player name**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Default player name**
 Compare the default player name.
 
-**Back button clicked**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Back button clicked**
 Check if the back button of the dialog is clicked.
 
-**Next button clicked**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Next button clicked**
 Check if the next button of the dialog is clicked.
 
-**Restart button clicked**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Restart button clicked**
 Check if the restart button of the dialog is clicked.
 
-**Score is submitted**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Score is submitted**
 Check if the score has been sucessfully submitted by the dialog.
 
-**Leaderboard**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+
+**Leaderboard**
 Compare the leaderboard of the object.
 
-**Player name**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 Leaderboard Identifier (String)): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Player name**
 Compare the player name.
 
-**Score**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Score**
 Compare the score.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Object expressions
 

@@ -10,11 +10,21 @@ Displays a 2D light on the scene, with a customizable radius and color. Add then
 
 ### Object actions
 
-**Light color**  
+**Light color**
 Set the color of light object in format "R;G;B" string.
 
-**Light radius**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: color
+
+**Light radius**
 Set the radius of light object
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1 (🔢 Number): Radius
 
 _No expressions for this object._
 

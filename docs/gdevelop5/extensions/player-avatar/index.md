@@ -25,13 +25,29 @@ Display a player avatar according to their GDevelop account.
 
 ### Object actions
 
-**Player unique ID**  
+**Player unique ID**
 Change the player unique ID of the avatar.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (string): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Object conditions
 
-**Player unique ID**  
+**Player unique ID**
 Compare the player unique ID of the avatar.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (string): Value to compare
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Object expressions
 

@@ -4,20 +4,50 @@ Conditions to check keys pressed on a keyboard. Note that this does not work wit
 
 ## Conditions
 
-**Any key pressed**  
+**Any key pressed**
 Check if any key is pressed
 
-**Any key released**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Any key released**
 Check if any key is released
 
-**Key just pressed**  
+??? quote "See parameters"
+
+
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Key just pressed**
 Check if a key was just pressed.
 
-**Key pressed**  
+??? quote "See parameters"
+
+    - Parameter 1 (keyboardKey): Key to check
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Key pressed**
 Check if a key is pressed. This stays true as long as the key is held down. To check if a key was pressed during the frame, use "Key just pressed" instead.
 
-**Key released**  
+??? quote "See parameters"
+
+    - Parameter 1 (keyboardKey): Key to check
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+
+**Key released**
 Check if a key was just released.
+
+??? quote "See parameters"
+
+    - Parameter 1 (keyboardKey): Key to check
+
+    > Technical note: parameter 0 are internal parameters handled by GDevelop.
 
 ## Expressions
 

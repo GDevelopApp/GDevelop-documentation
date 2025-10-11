@@ -24,49 +24,170 @@ Move as part of a flock.
 
 ### Behavior actions
 
-**Avoid an object**  
+**Avoid an object**
 Intend to avoid an area from an object center and a given radius.
 
-**Avoid a position**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): Avoided object
+    - Parameter 3 (🔢 Number): Radius
+    - Parameter 4 (🔢 Number): Decision weight
+
+    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+
+**Avoid a position**
 Intend to avoid an area with a given center and radius.
 
-**Move in a direction**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Center X
+    - Parameter 3 (🔢 Number): Center Y
+    - Parameter 4 (🔢 Number): Radius
+    - Parameter 5 (🔢 Number): Decision weight
+
+    > Technical note: parameter 6 are internal parameters handled by GDevelop.
+
+**Move in a direction**
 Intend to move in a given direction.
 
-**Move toward an object**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Direction X
+    - Parameter 3 (🔢 Number): Direction Y
+    - Parameter 4 (🔢 Number): Decision weight
+
+    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+
+**Move toward an object**
 Intend to move toward an object.
 
-**Move toward a position**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): Targeted object
+    - Parameter 3 (🔢 Number): Decision weight
+
+    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+
+**Move toward a position**
 Intend to move toward a position.
 
-**Alignment sight radius**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Target X
+    - Parameter 3 (🔢 Number): Target Y
+    - Parameter 4 (🔢 Number): Decision weight
+
+    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+
+**Alignment sight radius**
 Return the alignment sight radius.
 
-**Alignment weight**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Alignment weight**
 Change the weight the alignment takes in the chosen direction.
 
-**Cohesion sight radius**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Cohesion sight radius**
 Change the cohesion sight radius.
 
-**Cohesion weight**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Cohesion weight**
 Change the weight the cohesion takes in the chosen direction.
 
-**Maximum acceleration**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Maximum acceleration**
 Change the maximum acceleration of the object.
 
-**Maximum speed**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Steering Force
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Maximum speed**
 Change the maximum speed of the object.
 
-**Separation sight radius**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Max Speed
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Separation sight radius**
 Return the separation sight radius.
 
-**Separation weight**  
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+
+**Separation weight**
 Change the weight the separation takes in the chosen direction.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 are internal parameters handled by GDevelop.
 
 ### Behavior conditions
 
-**Object Rotated**  
+**Object Rotated**
 Check if the object is rotated while moving on its path.
+
+??? quote "See parameters"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 are internal parameters handled by GDevelop.
 
 ### Behavior expressions
 

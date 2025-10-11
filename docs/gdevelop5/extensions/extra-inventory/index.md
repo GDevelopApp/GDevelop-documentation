@@ -23,14 +23,38 @@ This extension is deprecated. The [simple inventory extension](https://wiki.gdev
 
 ## Actions
 
-**Add multiple items**  
+**Add multiple items**
 Adds multiple items to an inventory.
 
-**Remove multiple items**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Inventory name
+    - Parameter 2 (string): Item name
+    - Parameter 3 (🔢 Number): How many objects to add?
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Remove multiple items**
 Removes multiple items from an inventory.
 
-**Set the number of items**  
+??? quote "See parameters"
+
+    - Parameter 1 (string): Inventory name
+    - Parameter 2 (string): Item name
+    - Parameter 3 (🔢 Number): How many objects to remove?
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+**Set the number of items**
 Sets the number of items in an inventory.
+
+??? quote "See parameters"
+
+    - Parameter 1 (string): Inventory name
+    - Parameter 2 (string): Item name
+    - Parameter 3 (🔢 Number): New amount of items
+
+    > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
 
 
