@@ -5,8 +5,8 @@ description = "GDevelop wiki made with Wiki.js"
 authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.7"
-mkdocs-material = "^9.1.3"
+python = "^3.8"
+mkdocs-material = "^9.6.21"
 mkdocs-redirects = "^1.2.0"
 mkdocs-awesome-pages-plugin = "^2.8.0"
 
