@@ -215,7 +215,7 @@ JavaScript can be used with [JavaScript Code events](/gdevelop5/events/js-code),
 - Extensions are meant to be editable by any GDevelop user
 - Extensions made in events will stay compatible **if** we were to make a new native non-JavaScript engine.
 
-If you have to store javascript variables/functions, store them on the global `gdjs` object, inside a `namespace` of the same name as your extension. You can read more about it in the [Use JavaScript in extensions](gdevelop5/events/js-code/javascript-in-extensions) page.
+If you have to store javascript variables/functions, store them on the global `gdjs` object, inside a `namespace` of the same name as your extension. You can read more about it in the [Use JavaScript in extensions](/gdevelop5/events/js-code/javascript-in-extensions) page.
 
 When you declare a new namespace in gdjs, you must declare it in the file:
 ```javascript

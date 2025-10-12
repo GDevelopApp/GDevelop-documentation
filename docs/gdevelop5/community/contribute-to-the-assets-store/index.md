@@ -147,7 +147,7 @@ Put your audio files `.aac`, `.wav`, `.mp3` (prefer `.aac`) directly into an `Au
 
 ### Other objects
 
-If you are in doubt, ask to the GDevelop team or the community if your files can be supported by an objects, or fit a [custom objects (prefab)](gdevelop5/objects/custom-objects-prefab-template/).
+If you are in doubt, ask to the GDevelop team or the community if your files can be supported by an objects, or fit a [custom objects (prefab)](/gdevelop5/objects/custom-objects-prefab-template/).
 
 ### Limitations
 

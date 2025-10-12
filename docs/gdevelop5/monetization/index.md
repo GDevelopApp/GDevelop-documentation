@@ -21,7 +21,7 @@ You can sell your game on various digital storefronts such as:
 
 - **Steam:** One of the most popular platforms for PC games. You can follow our [tutorial](/gdevelop5/publishing/publish-to-steam/) to learn how to publish your game on Steam.
 - **App Stores:** Including the Google Play Store for Android and the Apple App Store for iOS. You can use the built-in One-Click exporters inside GDevelop to export your game for these platforms.
-- **Itch.io:** A popular platform for indie developers to sell games. Here's a [tutorial](gdevelop5/publishing/publishing-to-itch-io/).
+- **Itch.io:** A popular platform for indie developers to sell games. Here's a [tutorial](/gdevelop5/publishing/publishing-to-itch-io/).
 
 ### Using Ads
 
