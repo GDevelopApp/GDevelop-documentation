@@ -1,17 +1,28 @@
-[tool.poetry]
+[project]
 name = "gdevelop-documentation"
 version = "0.1.0"
 description = "GDevelop wiki made with Wiki.js"
-authors = ["Your Name <you@example.com>"]
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.8,<4"
+dependencies = [
+    "mkdocs-material>=9.6.21,<10",
+    "mkdocs-redirects>=1.2.0,<2",
+    "mkdocs-awesome-pages-plugin>=2.8.0,<3",
+]
 
-[tool.poetry.dependencies]
-python = "^3.8"
-mkdocs-material = "^9.6.21"
-mkdocs-redirects = "^1.2.0"
-mkdocs-awesome-pages-plugin = "^2.8.0"
-
-[tool.poetry.dev-dependencies]
+[dependency-groups]
+dev = []
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+requires = ["hatchling>=1.21"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/gdevelop_documentation"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "pyproject.toml",
+  "src/gdevelop_documentation/**",
+  "README*",
+]

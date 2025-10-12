@@ -55,7 +55,7 @@ GDevelop's Marketplace offers pre-made assets, including:
 
 ![Home-shop](Home-shop.png)
 
-Creators can contribute and sell their assets. [Learn more about selling assets here](gdevelop5/community/sell-asset-pack-store/).
+Creators can contribute and sell their assets. [Learn more about selling assets here](/gdevelop5/community/sell-asset-pack-store/).
 
 ### 5. Learn
 The **Learn section** includes courses, tutorials, videos, and documentation to help users start their game creation journey with GDevelop.
