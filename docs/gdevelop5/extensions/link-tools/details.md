@@ -1,5 +1,5 @@
 ---
-title: Linked Objects Tools Extension
+title: Details
 ---
 # Linked Objects Tools Extension
 

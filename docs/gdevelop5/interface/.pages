@@ -12,3 +12,4 @@ nav:
     - More:
       - command-palette-and-shortcuts.md
       - Updates: updates.md
+      - themes

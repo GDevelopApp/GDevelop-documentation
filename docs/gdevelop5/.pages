@@ -6,8 +6,8 @@ nav:
   - objects
   - behaviors
   - events
-  - all-features
-  - extensions
+  - Core features: all-features
+  - Extended features: extensions
   - Publishing games: publishing
   - community
   - collaboration
