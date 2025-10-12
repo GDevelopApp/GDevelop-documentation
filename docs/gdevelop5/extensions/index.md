@@ -1,5 +1,5 @@
 ---
-icon: material/puzzle
+icon: material/star-plus
 ---
 # Extensions
 
@@ -15,13 +15,6 @@ Read more about this:
 * [Create your own extensions](/gdevelop5/extensions/create)
 * [Share extensions with the community](/gdevelop5/extensions/share-extension)
 * [Use JavaScript in events](/gdevelop5/events/js-code)
-
-## Extensions list
-
-Here are listed all the extensions available in GDevelop. The list is divided in [two tiers](/gdevelop5/extensions/tiers/):
-
-- [Reviewed extensions](#reviewed-extensions)
-- [Experimental extensions](#experimental-extensions)
 
 ## Reviewed extensions
 

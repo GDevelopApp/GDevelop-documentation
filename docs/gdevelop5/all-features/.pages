@@ -1,0 +1,90 @@
+nav:
+    - index.md
+    - Ads:
+        - AdMob: admob
+    - Advanced:
+        - Asynchronous functions: async
+        - Debugger Tools: debugger-tools
+        - Event functions: advanced
+        - Events and control flow: common-instructions
+        - External layouts: external-layouts
+        - File system: filesystem
+        - Linked objects: linked-objects
+        - Screenshot: screenshot
+        - Spine (experimental): spine-object
+        - Storage: storage
+        - System information: system-info
+        - Tile map: tilemap
+    - Audio:
+        - Sounds and music: audio
+        - Spatial sound: spatial-sound
+    - Camera:
+        - Layers and cameras: camera
+    - Game mechanic:
+        - Destroy Outside Screen Behavior: destroy-outside-behavior
+        - Dialogue Tree: dialogue-tree
+        - Inventories: inventory
+        - Save State (experimental): save-state
+    - General:
+        - 3D: scene3d
+        - Conversion: common-conversions
+        - Flippable objects: flippable-capability
+        - Mathematical tools: mathematical-tools
+        - Objects: object
+        - Objects containing a text: text-container-capability
+        - Objects with animations: animatable-capability
+        - Objects with effects: effect-capability
+        - Objects with opacity: opacity-capability
+        - Panel Sprite (9-patch) Object: panel-sprite-object
+        - Resizable objects: resizable-capability
+        - Scalable objects: scalable-capability
+        - Scene: scene
+        - Shape painter: primitive-drawing
+        - Sprite: sprite
+        - Text manipulation: string-instructions
+        - Tiled Sprite Object: tiled-sprite-object
+        - Timers and time: time
+        - Variables: variables
+    - Input:
+        - Device sensors: device-sensors
+        - Keyboard: keyboard
+        - Mouse and touch: mouse-touch
+    - Movement:
+        - 2D Physics Engine: physics2
+        - 3D physics engine: physics3d
+        - Pathfinding behavior: pathfinding-behavior
+        - Physics Engine (deprecated): physics-behavior
+        - Platform behavior: platform-behavior
+        - Top-down movement: top-down-movement-behavior
+    - Network:
+        - Firebase: firebase
+        - Network: network
+        - P2P: p2p
+    - Players:
+        - Leaderboards: leaderboards
+        - Multiplayer: multiplayer
+        - Player Authentication: player-authentication
+    - Text:
+        - BBCode Text Object: bbtext
+        - Bitmap Text: bitmap-text
+        - Text object: text-object
+    - Third-party:
+        - Facebook Instant Games: facebook-instant-games
+        - Shopify: shopify
+        - Steamworks (Steam) (experimental): steamworks
+    - User interface:
+        - Advanced window management: advanced-window
+        - Anchor: anchor-behavior
+        - Device vibration: device-vibration
+        - Draggable Behavior: draggable-behavior
+        - Game window and resolution: window
+        - Text entry object: text-entry-object
+        - Text Input: text-input
+        - Video: video
+    - Visual effect:
+        - Effects: effects
+        - Lights: lighting
+        - Particle system: particle-system
+        - Tweening: tween
+    - ...
+    - expressions-reference.md

@@ -1,5 +1,5 @@
 ---
-icon: material/star-circle
+icon: material/star
 ---
 # All GDevelop core features
 

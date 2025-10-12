@@ -2,10 +2,6 @@ nav:
     - index.md
     - search.md
     - tiers.md
-    - Create your own extensions:
-        - Create a new extension : create.md
-        - best-practices.md
-        - share-extension.md
     - Ads:
         - Mobile In-App Purchase (experimental): in-app-purchase
         - Playgama Bridge: playgama-bridge
@@ -245,3 +241,7 @@ nav:
             - 3D Sky and sun: sky3d
             - Advanced 3D tween: tween3d
     - ...
+    - Create your own extensions:
+        - Create a new extension : create.md
+        - best-practices.md
+        - share-extension.md
