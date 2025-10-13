@@ -64,12 +64,12 @@ By default, everything in the game is saved — all objects, scene data, and var
 
 You can customize this behavior using the **Save Configuration** behavior or dedicated actions.
 
-Add the **Save Configuration** behavior to any object you don’t want to include in save states or only in some save states. Then, set up the properties
+Add the **Save Configuration** behavior to any object you don’t want to include in save states or only in some save states. Then, set up the properties:
 
-- **Default persistence mode**:
-  - `Persisted` (default): the object is included in save states and loaded back.
-  - `Do not save`: the object is excluded. It won't be saved, and even if it was saved, it won't be loaded.
-- **Profile names**: optional comma-separated list of profiles (see below) in which this object should be included.
+- **Default persistence**:
+    - "Persisted" (default): the object is included in save states and loaded back.
+    - "Do not save": the object is excluded. It won't be saved, and even if it was saved, it won't be loaded.
+- **Profile names** (advanced usage): optional comma-separated list of profiles (see below) in which this object should be included.
 
 !!! tip
 
