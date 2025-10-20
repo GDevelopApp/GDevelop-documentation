@@ -10,7 +10,8 @@ In GDevelop, **events** define the logic of a game. You can use events to create
 
 !!! note
 
-    You don't have to be familiar with programming to create events. If you are familiar with programming, though, some of the concepts will feel familiar.
+    You don't have to be familiar with programming to build your game with events. If you are familiar with programming, though, some of the concepts will feel familiar.
+    You can use [the GDevelop AI](/gdevelop5/interface/ai) to help you build your game, including the events running the game logic.
 
 <div class="video-container">
   <iframe src="https://www.youtube.com/embed/rBZ3kuvr9G0" frameborder="0" allowfullscreen></iframe>
