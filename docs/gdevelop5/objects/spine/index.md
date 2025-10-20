@@ -2,7 +2,7 @@
 title: Spine
 ---
 
-# Spine Object (Experimental)
+# Spine (Experimental)
 
 The **Spine** object allows you to display and smoothly animate 2D skeletal animations created with [**Spine editor**](https://esotericsoftware.com/spine).
 
