@@ -3,13 +3,10 @@ title: Spine
 ---
 # Spine Object (Experimental)
 
-The **Spine** object allows you to display and smoothly animate 2D skeletal animations created with [**Spine**](https://esotericsoftware.com/spine).
+The **Spine** object allows you to display and smoothly animate 2D skeletal animations created with [**Spine editor**](https://esotericsoftware.com/spine).
 
-This object is currently experimental — please share your feedback on the forum so we can improve it in future versions of GDevelop.
-
-| ![Calcopus Spine Demo](image.png)
-
-## Overview
+!!! warning
+    This object is currently experimental — please share your feedback on the forum so we can improve it in future versions of GDevelop.
 
 The Spine object is ideal for animating complex 2D characters with bones and meshes.
 It supports smooth transitions between animations, as well as access to points and attachments defined in Spine.
@@ -26,6 +23,8 @@ It uses files exported from Spine (`.json`, `.atlas`, and image files) to render
 !!! note
     To ensure proper compatibility with GDevelop, use **Spine version 4.1** when exporting your animations. You can select the Spine version in the **Spine launcher** before exporting your files.
 
+
+![Calcopus Spine Demo](image.png)
 
 ## Properties
 
