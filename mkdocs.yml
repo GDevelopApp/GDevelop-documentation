@@ -39,6 +39,7 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 extra:
+  homepage: https://wiki.gdevelop.io
   analytics:
     provider: google
     property: G-X8HPPE6EPT
@@ -51,10 +52,6 @@ extra:
         - icon: material/thumb-down-outline
           name: This page could be improved
           data: 0
-  homepage: https://wiki.gdevelop.io
-  analytics:
-    provider: google
-    property: G-X8HPPE6EPT
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/4ian/GDevelop
