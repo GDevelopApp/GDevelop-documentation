@@ -39,6 +39,18 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 extra:
+  analytics:
+    provider: google
+    property: G-X8HPPE6EPT
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/thumb-up-outline
+          name: This page was helpful
+          data: 1
+        - icon: material/thumb-down-outline
+          name: This page could be improved
+          data: 0
   homepage: https://wiki.gdevelop.io
   analytics:
     provider: google
