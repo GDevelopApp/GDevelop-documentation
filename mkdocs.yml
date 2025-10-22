@@ -43,6 +43,15 @@ extra:
   analytics:
     provider: google
     property: G-X8HPPE6EPT
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/thumb-up-outline
+          name: This page was helpful
+          data: 1
+        - icon: material/thumb-down-outline
+          name: This page could be improved
+          data: 0
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/4ian/GDevelop
