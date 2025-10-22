@@ -4,6 +4,7 @@ hide:
   - navigation
   - toc
   - footer
+  - feedback
 ---
 
 # GDevelop documentation: guides, tutorials and help
