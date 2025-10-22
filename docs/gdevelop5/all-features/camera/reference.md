@@ -1,6 +1,9 @@
 # Layers and cameras Reference
 
-Each scene can be composed of multiple layers. These conditions and actions allow to manipulate them during the game. In particular, you can move the camera of a layer to center it on an object or a position. [Read more explanations about it.](/gdevelop5/interface/scene-editor/layers-and-cameras)
+Each scene can be composed of multiple layers. These conditions and actions allow to manipulate them during the game. In particular, you can move the camera of a layer to center it on an object or a position. The zoom of a layer camera (in 2D) or its position in the 3D space (for 3D games) can be changed.
+
+Each layer can be hidden or shown (but layers do not have opacity). Actions/conditions are available to enable/disable 2D/3D effects on layers. Parameters of each effect can be modified with actions.
+ [Read more explanations about it.](/gdevelop5/interface/scene-editor/layers-and-cameras)
 
 ## Actions
 
