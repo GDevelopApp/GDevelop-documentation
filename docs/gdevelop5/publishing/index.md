@@ -1,5 +1,5 @@
 ---
-title: Publishing games
+title: Omo ola games
 icon: material/cloud-upload
 ---
 # Publishing games
