@@ -19,47 +19,55 @@ Manage inventory items with limited or unlimited item capacity.
 **Add an item**  
 Add an item in an inventory.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Inventory name
     - Parameter 2 (🔤 Name (String)): Item name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Inventories::AddItem`.
 
 **Save an inventory in a scene variable**  
 Save all the items of the inventory in a scene variable, so that it can be restored later.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Inventory name
     - Parameter 2 (🗄️ Scene variable): Scene variable
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Inventories::CopyInventoryToVariable`.
 
 **Load an inventory from a scene variable**  
 Load the content of the inventory from a scene variable.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Inventory name
     - Parameter 2 (🗄️ Scene variable): Scene variable
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Inventories::CopyToVariableToInventory`.
+
 **Remove an item**  
 Remove an item from an inventory.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Inventory name
     - Parameter 2 (🔤 Name (String)): Item name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Inventories::RemoveItem`.
+
 **Equip an item**  
 Mark an item as being equipped. If the item count is 0, it won't be marked as equipped.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Inventory name
     - Parameter 2 (🔤 Name (String)): Item name
@@ -67,10 +75,12 @@ Mark an item as being equipped. If the item count is 0, it won't be marked as eq
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Inventories::SetIsItemEquipped`.
+
 **Limit item capacity**  
 Allow a limited amount of an object to be in an inventory. Item capacity is unlimited by default.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Inventory name
     - Parameter 2 (🔤 Name (String)): Item name
@@ -78,10 +88,12 @@ Allow a limited amount of an object to be in an inventory. Item capacity is unli
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Inventories::SetIsLimitedItemCapacity`.
+
 **Item capacity**  
 Change the maximum number of the specified item that can be added in the inventory. By default, the number allowed for each item is unlimited.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
@@ -89,11 +101,13 @@ Change the maximum number of the specified item that can be added in the invento
     - Parameter 4 (🔤 Name (String)): Item name
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Inventories::SetItemCapacity`.
 
 **Item count**  
 Change the number of an item in an inventory.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
@@ -101,53 +115,63 @@ Change the number of an item in an inventory.
     - Parameter 4 (🔤 Name (String)): Item name
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Inventories::SetItemCount`.
 
 ## Conditions
 
 **Has an item**  
 Check if at least one of the specified items is in the inventory.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Inventory name
     - Parameter 2 (🔤 Name (String)): Item name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Inventories::HasItem`.
 
 **Item full**  
 Check if an item has reached its maximum number allowed in the inventory.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Inventory name
     - Parameter 2 (🔤 Name (String)): Item name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Inventories::IsItemCapacityReached`.
 
 **Item equipped**  
 Check if an item is equipped.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Inventory name
     - Parameter 2 (🔤 Name (String)): Item name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Inventories::IsItemEquipped`.
 
 **Limited item capacity**  
 Check if a limited amount of an object is allowed by the inventory. Item capacity is unlimited by default.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Inventory name
     - Parameter 2 (🔤 Name (String)): Item name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Inventories::IsLimitedItemCapacity`.
+
 **Item capacity**  
 Compare the maximum number of the specified item that can be added in the inventory. By default, the number allowed for each item is unlimited.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -155,11 +179,13 @@ Compare the maximum number of the specified item that can be added in the invent
     - Parameter 4 (🔤 Name (String)): Item name
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Inventories::ItemCapacity`.
 
 **Item count**  
 Compare the number of an item in an inventory.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -167,6 +193,8 @@ Compare the number of an item in an inventory.
     - Parameter 4 (🔤 Name (String)): Item name
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Inventories::ItemCount`.
 
 ## Expressions
 

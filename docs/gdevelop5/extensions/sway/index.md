@@ -34,50 +34,58 @@ Sway multiple instances of an object at different times - useful for random gras
 **Set sway angle left and right**  
 Set sway angle left and right.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Angle to the left (degrees) - Use negative number
     - Parameter 3 (🔢 Number): Angle to the right (degrees) - Use positive number
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Sway::Sway::ChangeSwayAngle`.
 
 **Set sway angle time range**  
 Set sway angle time range.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Angle tween time minimum (seconds)
     - Parameter 3 (🔢 Number): Angle tween time maximum (seconds)
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Sway::Sway::ChangeSwayAngleTime`.
 
 **Set sway Y scale mininum and maximum**  
 Set sway Y scale mininum and maximum.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Minimum Y scale
     - Parameter 3 (🔢 Number): Maximum Y scale
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Sway::Sway::ChangeSwayYScale`.
 
 **Set sway Y scale time range**  
 Set Y scale time range.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Y scale tween time minimum (seconds)
     - Parameter 3 (🔢 Number): Y scale tween time maximum (seconds)
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Sway::Sway::ChangeSwayYScaleTime`.
 
 _No expressions for this behavior._
 

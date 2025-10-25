@@ -39,7 +39,7 @@ Independently change the colors of a panel sprite.
 **Recolorize**  
 Replace a given color of an object with another one. The scope allows to change similar colors at once.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -49,17 +49,21 @@ Replace a given color of an object with another one. The scope allows to change 
     - Parameter 5 (🔢 Number): Saturation scope (in percent)
     - Parameter 6 (🔢 Number): Lightness scope (in percent)
 
-    > Technical note: parameter 7 are internal parameters handled by GDevelop.
+    > Technical note: parameter 7 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Recolorizer::PanelSpriteRecolorizer::Recolorize`.
 
 **Reset color**  
 Set back the original colors of an object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Recolorizer::PanelSpriteRecolorizer::ResetColor`.
 
 _No expressions for this behavior._
 
@@ -73,7 +77,7 @@ Independently change the colors of a sprite.
 **Recolorize**  
 Replace a given color of an object with another one. The scope allows to change similar colors at once.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -83,17 +87,21 @@ Replace a given color of an object with another one. The scope allows to change 
     - Parameter 5 (🔢 Number): Saturation scope (in percent)
     - Parameter 6 (🔢 Number): Lightness scope (in percent)
 
-    > Technical note: parameter 7 are internal parameters handled by GDevelop.
+    > Technical note: parameter 7 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Recolorizer::SpriteRecolorizer::Recolorize`.
 
 **Reset color**  
 Set back the original colors of an object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Recolorizer::SpriteRecolorizer::ResetColor`.
 
 _No expressions for this behavior._
 
@@ -107,7 +115,7 @@ Independently change the colors of a tiled sprite.
 **Recolorize**  
 Replace a given color of an object with another one. The scope allows to change similar colors at once.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -117,17 +125,21 @@ Replace a given color of an object with another one. The scope allows to change 
     - Parameter 5 (🔢 Number): Saturation scope (in percent)
     - Parameter 6 (🔢 Number): Lightness scope (in percent)
 
-    > Technical note: parameter 7 are internal parameters handled by GDevelop.
+    > Technical note: parameter 7 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Recolorizer::TiledSpriteRecolorizer::Recolorize`.
 
 **Reset color**  
 Set back the original colors of an object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Recolorizer::TiledSpriteRecolorizer::ResetColor`.
 
 _No expressions for this behavior._
 

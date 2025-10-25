@@ -26,14 +26,16 @@ Note that object visibility, such as being hidden or 0 opacity, is not considere
 **Is on screen**  
 Checks if an object position is within the viewport of its layer.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Padding (in pixels)
       Number of pixels to pad the screen border. Zero by default. A negative value goes inside the screen, a positive value go outside.
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `IsOnScreen::InOnScreen::IsOnScreen`.
 
 _No expressions for this behavior._
 

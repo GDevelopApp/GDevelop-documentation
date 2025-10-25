@@ -50,60 +50,72 @@ StringExpressions:
 **Load Newgrounds API**  
 Load Newgrounds API.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): App ID (You can find this in your newground game edit page)
     - Parameter 2 (string): Encrypt Key (You can find this in your newground game edit page)
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `NewgroundsAPI::LoadNewgroundsAPI`.
+
 **Login to Newgrounds**  
 Login to Newgrounds (A webpage popup will display).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `NewgroundsAPI::LogInToNewGrounds`.
 
 **Logout from Newgrounds**  
 Logout from Newgrounds.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `NewgroundsAPI::LogoutFromNewGrounds`.
 
 **Post Score on Newgrounds**  
 Post Score on Newgrounds (you can create scoreboards from the game edit page on newgrounds).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Scoreboard Id
     - Parameter 2 (🔢 Number): Score Value
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `NewgroundsAPI::PostScoreOnScoreBoard`.
+
 **Unlock a game Medal**  
 Unlock a game Medal (you can create medals from the game edit page on newgrounds).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Medal ID
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `NewgroundsAPI::UnlockMedal`.
 
 ## Conditions
 
 **User Is logged In?**  
 User Is logged In?.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `NewgroundsAPI::UserIsLoggedIn`.
 
 ## Expressions
 

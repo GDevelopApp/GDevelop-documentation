@@ -26,20 +26,24 @@ A dialog box showing two options.
 **"No" button is clicked**  
 Check if the "No" button of the dialog was selected.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `TwoChoicesDialogBoxes::TwoChoicesDialogBox::IsNoClicked`.
 
 **"Yes" button is clicked**  
 Check if the "Yes" button of the dialog was selected.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `TwoChoicesDialogBoxes::TwoChoicesDialogBox::IsYesClicked`.
 
 _No expressions for this object._
 

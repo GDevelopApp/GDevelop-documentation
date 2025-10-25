@@ -7,11 +7,13 @@ Functions that defer the execution of the events after it.
 **End asynchronous function**  
 Mark an asynchronous function as finished. This will allow the actions and subevents following it to be run.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
+    There are no parameters to set for this action.
 
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: this action internal type (in GDevelop JSON) is `BuiltinAsync::ResolveAsyncEventsFunction`.
 
 
 

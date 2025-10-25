@@ -23,13 +23,15 @@ An example allows to check it out ([open the project online](https://editor.gdev
 **Is stuck to another object**  
 Check if the object is stuck to another object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Sticker
     - Parameter 2 (🧩 Behavior): Sticker behavior
     - Parameter 3 (👾 Object): Basis
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Sticker::IsStuck`.
 
 
 
@@ -42,23 +44,27 @@ Stick the object to another. Use the action to stick the object, or unstick it l
 **Stick**  
 Stick on another object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (👾 Object): Object to stick to
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Sticker::Sticker::Stick`.
 
 **Unstick**  
 Unstick from the object it was stuck to.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Sticker::Sticker::Unstick`.
 
 _No expressions for this behavior._
 

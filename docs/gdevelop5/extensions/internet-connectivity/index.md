@@ -17,11 +17,13 @@ Checks if the device running the game is connected to the internet.
 **Is the device online?**  
 Checks if the device is connected to the internet.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `InternetConnectivity::IsDeviceOnline`.
 
 
 

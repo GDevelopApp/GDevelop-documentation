@@ -24,11 +24,13 @@ When focus is regained, the game continues.
 **Active pause on blur**  
 Pause when game lost focus.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PauseFocusLost::Active`.
 
 
 

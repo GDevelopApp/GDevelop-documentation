@@ -22,43 +22,51 @@ YGameSDK.
 **GetLang**  
 GetLang.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Global variable (string)
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `YGameSDK::GetLang`.
 
 **GetPlayerName**  
 GetPlayerName.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Global variable (string)
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `YGameSDK::GetPlayerName`.
+
 **InitPayments**  
 InitPayments.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `YGameSDK::InitPayments`.
 
 **InitPlayer**  
 InitPlayer.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `YGameSDK::InitPlayer`.
 
 **InitSDK**  
 Init SDK.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (❓ Yes or No): Fullscreen
     - Parameter 2 (🔤 String): Screen orientation (one of: "portrait", "landscape")
@@ -66,137 +74,167 @@ Init SDK.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `YGameSDK::InitSDK`.
+
 **LoadLeaderboardByName**  
 LoadLeaderboardByName.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): TableNameYandex
     - Parameter 2 (string): GlobalVariableName
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `YGameSDK::LoadLeaderboardByName`.
+
 **LoadPurchaseByID**  
 LoadPurchaseByID.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): product ID
     - Parameter 2 (string): Glodal variable result true/false
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `YGameSDK::LoadPurchaseByID`.
+
 **PurchaseByID**  
 PurchaseByID.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): product ID
     - Parameter 2 (string): Global variable true/false
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `YGameSDK::PurchaseByID`.
+
 **SetScoreLeaderboard**  
 SetScoreLeaderboard.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): GlobalVariableName
     - Parameter 2 (string): TableNameYandex
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `YGameSDK::SetScoreLeaderboard`.
+
 **ShowBanner**  
 ShowBanner.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `YGameSDK::ShowBanner`.
 
 **ShowVideo**  
 ShowVideo.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `YGameSDK::ShowVideo`.
 
 ## Conditions
 
 **IsInit**  
 IsInit SDK.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `YGameSDK::IsInit`.
 
 **IsInitLeaderboard**  
 IsInitLeaderboard.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `YGameSDK::IsInitLeaderboard`.
 
 **IsInitPayments**  
 IsInitPayments.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `YGameSDK::IsInitPayments`.
 
 **IsInitPlayer**  
 IsInitPlayer.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `YGameSDK::IsInitPlayer`.
 
 **IsVideoClosed**  
 IsVideoClosed.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `YGameSDK::IsVideoClosed`.
 
 **IsVideoFailed**  
 IsVideoFailed.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `YGameSDK::IsVideoFailed`.
 
 **IsVideoOpen**  
 IsVideoOpen.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `YGameSDK::IsVideoOpen`.
 
 **IsVideoRewarded**  
 IsVideoRewarded.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `YGameSDK::IsVideoRewarded`.
 
 
 

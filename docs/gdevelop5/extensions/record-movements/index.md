@@ -34,25 +34,29 @@ such as (Xposition, Yposition, AnimationID, FrameID, HorziontalFlip, VerticalFli
 **Clear all object records**  
 Clear object records and reset all records back to 0.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Remove this object records
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `RecordMovements::ClearRecords`.
+
 **Load Movements**  
 Allow the user to load saved object movements.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Object to load its movements
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `RecordMovements::Load`.
+
 **Record Movements**  
 Allow the user to record object movements.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Object to record its movements
     - Parameter 2 (🔢 Number): Recording speed .per second (Ex: 0.01 | 0.02 | 0.03 | 0.06)
@@ -71,38 +75,46 @@ Allow the user to record object movements.
 
     > Technical note: parameters 0, 13 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `RecordMovements::Record`.
+
 ## Conditions
 
 **Recorded frames has finished loading**  
 Check if the recorded frames has finished loading (= to 0).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Object to check its recorded frames
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `RecordMovements::RecordFinished`.
+
 **Record limit is (below) number**  
 Set recording limit to object (per frame).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Set recording limit to this object
     - Parameter 2 (🔢 Number): The maximum recorded frames
       Set to 0 or remove the limit condition for infinite recording frames
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `RecordMovements::RecordLimit`.
 
 **Record limit is (above) number**  
 Set recording limit to object (per frame).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Set recording limit to this object
     - Parameter 2 (🔢 Number): The maximum recorded frames
       Set to 0 or remove the limit condition for infinite recording frames
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `RecordMovements::RecordLimit2`.
 
 
 

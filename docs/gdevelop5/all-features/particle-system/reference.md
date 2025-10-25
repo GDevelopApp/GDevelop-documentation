@@ -13,542 +13,664 @@ Displays a large number of small 2D particles to create visual effects in a 2D g
 **Angle of the spray cone**  
 Modify the angle of the spray cone.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Angle (in degrees)
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::ConeSprayAngle`.
 
 **Emission angle**  
 Modify emission angle.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Angle (in degrees)
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::EmitterAngle`.
 
 **Emission maximal force**  
 Modify maximal emission force of particles.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::EmitterForceMax`.
 
 **Emission minimal force**  
 Modify minimal emission force of particles.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::EmitterForceMin`.
 
 **Jump emitter forward in time**  
 Simulate the passage of time for an emitter, including creating and moving particles
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1 (🔢 Number): Seconds of time
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::JumpEmitterForwardInTime`.
+
 **Start opacity**  
 Modify the start opacity of particles.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value (0-255)
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::ParticleAlpha1`.
 
 **End opacity**  
 Modify the end opacity of particles.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value (0-255)
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::ParticleAlpha2`.
 
 **Start color blue component**  
 Modify the start color blue component.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value (0-255)
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::ParticleBlue1`.
 
 **End color blue component**  
 Modify the end color blue component.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value (0-255)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::ParticleBlue2`.
+
 **Start color**  
 Modify start color of particles.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1 (color): Start color
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::ParticleColor1`.
+
 **End color**  
 Modify end color of particles.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1 (color): End color
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::ParticleColor2`.
+
 **Activate particles additive rendering**  
 Set (or unset) if the particles additive rendering is activated.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1 (❓ Yes or No): New value
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::ParticleEmitter::SetAdditiveRendering`.
+
 **Number of displayed particles**  
 Change the maximum number of displayed particles.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::ParticleEmitter::SetMaxParticlesCount`.
+
 **Particle rotation max speed**  
 Change the maximum rotation speed of the particles.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Angular speed (in degrees per second)
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::ParticleEmitter::SetParticleRotationMaxSpeed`.
 
 **Particle rotation min speed**  
 Change the minimum rotation speed of the particles.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Angular speed (in degrees per second)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::ParticleEmitter::SetParticleRotationMinSpeed`.
+
 **Gravity angle**  
 Change gravity angle
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Angle (in degrees)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::ParticleGravityAngle`.
+
 **Gravity**  
 Change the gravity of the emitter.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::ParticleGravityLength`.
 
 **Gravity value on X axis**  
 Change value of the gravity on X axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::ParticleGravityX`.
 
 **Gravity value on Y axis**  
 Change value of the gravity on Y axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::ParticleGravityY`.
+
 **Start color green component**  
 Modify the start color green component.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value (0-255)
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::ParticleGreen1`.
 
 **End color green component**  
 Modify the end color green component.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value (0-255)
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::ParticleGreen2`.
 
 **Maximum lifetime**  
 Modify particles maximum lifetime.  
 Particles have to be recreated in order to take changes in account.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Duration (in seconds)
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::ParticleLifeTimeMax`.
 
 **Minimum lifetime**  
 Modify particles minimum lifetime. Particles have to be recreated in order to take changes in account.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Duration (in seconds)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::ParticleLifeTimeMin`.
+
 **Start color red component**  
 Modify the start color red component.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value (0-255)
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::ParticleRed1`.
 
 **End color red component**  
 Modify the end color red component.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value (0-255)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::ParticleRed2`.
+
 **Start size**  
 Modify the particle start size.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::ParticleSize1`.
 
 **End size**  
 Modify the particle end size.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::ParticleSize2`.
+
 **Recreate particles**  
 Destroy and recreate particles, so as to take changes made to setup of the emitter in account.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::RecreateParticleSystem`.
 
 **Flow**  
 Change the flow of the emitter.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Flow (in particles per second)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::SetFlow`.
+
 **Capacity**  
 Change the capacity of the emitter.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Capacity
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::SetTank`.
+
 **Particle image**  
 Change the image of particles (if displayed).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1 (imageResource): Image file (or image resource name)
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::SetTextureFromResource`.
 
 **Start emission**  
 Refill tank (if not infinite) and start emission of the particles.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::StartEmission`.
 
 **Stop emission**  
 Stop the emission of particles.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::StopEmission`.
 
 **Creation radius**  
 Modify creation radius of particles.  
 Particles have to be recreated in order to take changes in account.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::ZoneRadius`.
 
 ### Object conditions
 
 **Angle of the spray cone**  
 Test the angle of the spray cone of the emitter
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Angle to compare to (in degrees)
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::ConeSprayAngle`.
 
 **Emission angle**  
 Test the value of emission angle of the emitter.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Angle to compare to (in degrees)
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::EmitterAngle`.
+
 **Flow**  
 Test the flow of the emitter.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Flow to compare to (in particles per second)
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::Flow`.
+
 **No more particles**  
 Check if the object does not emit particles any longer, so as to destroy it for example.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::NoMoreParticles`.
 
 **Start opacity**  
 Compare the start opacity of particles.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare to (0-255)
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::ParticleAlpha1`.
 
 **End opacity**  
 Compare the end opacity of particles.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare to (0-255)
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::ParticleAlpha2`.
 
 **Start color blue component**  
 Compare the start color blue component.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare to (0-255)
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::ParticleBlue1`.
 
 **End color blue component**  
 Compare the end color blue component.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare to (0-255)
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::ParticleBlue2`.
+
 **Activate particles additive rendering**  
 Check if the particles additive rendering is activated.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::ParticleEmitter::AdditiveRendering`.
 
 **Number of displayed particles**  
 Compare the maximum number of displayed particles.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::ParticleEmitter::MaxParticlesCount`.
+
 **Particle rotation max speed**  
 Compare the maximum rotation speed of the particles.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Angular speed (in degrees per second)
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::ParticleEmitter::ParticleRotationMaxSpeed`.
 
 **Particle rotation min speed**  
 Compare the minimum rotation speed of the particles.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Angular speed (in degrees per second)
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::ParticleEmitter::ParticleRotationMinSpeed`.
+
 **Gravity angle**  
 Test the gravity angle of the emitter
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Angle to compare to (in degrees)
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::ParticleGravityAngle`.
+
 **Gravity**  
 Test the gravity of the emitter.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::ParticleGravityLength`.
 
 **Gravity value on X axis**  
 Compare value of the gravity on X axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::ParticleGravityX`.
 
 **Gravity value on Y axis**  
 Compare value of the gravity on Y axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::ParticleGravityY`.
 
 **Start color green component**  
 Compare the start color green component.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare to (0-255)
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::ParticleGreen1`.
 
 **End color green component**  
 Compare the end color green component.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare to (0-255)
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::ParticleGreen2`.
 
 **Maximum lifetime**  
 Test maximum lifetime of particles.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Duration to compare to (in seconds)
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::ParticleLifeTimeMax`.
 
 **Minimum lifetime**  
 Test minimum lifetime of particles.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Duration to compare to (in seconds)
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::ParticleLifeTimeMin`.
+
 **Start color red component**  
 Compare the start color red component.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare to (0-255)
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::ParticleRed1`.
 
 **End color red component**  
 Compare the end color red component.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare to (0-255)
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::ParticleRed2`.
+
 **Start size**  
 Compare the particle start size.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::ParticleSize1`.
 
 **End size**  
 Compare the particle end size.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::ParticleSize2`.
+
 **Capacity**  
 Test the capacity of the emitter.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Capacity to compare to
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::Tank`.
+
 **Image**  
 Test the name of the image displayed by particles.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::Texture`.
+
 **Creation radius**  
 Test creation radius of particles.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::ZoneRadius`.
 
 ### Object expressions
 

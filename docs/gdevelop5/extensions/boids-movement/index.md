@@ -27,7 +27,7 @@ Move as part of a flock.
 **Avoid an object**  
 Intend to avoid an area from an object center and a given radius.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -35,12 +35,14 @@ Intend to avoid an area from an object center and a given radius.
     - Parameter 3 (🔢 Number): Radius
     - Parameter 4 (🔢 Number): Decision weight
 
-    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+    > Technical note: parameter 5 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `BoidsMovement::BoidsMovement::AvoidObject`.
 
 **Avoid a position**  
 Intend to avoid an area with a given center and radius.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -49,12 +51,14 @@ Intend to avoid an area with a given center and radius.
     - Parameter 4 (🔢 Number): Radius
     - Parameter 5 (🔢 Number): Decision weight
 
-    > Technical note: parameter 6 are internal parameters handled by GDevelop.
+    > Technical note: parameter 6 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `BoidsMovement::BoidsMovement::AvoidPosition`.
 
 **Move in a direction**  
 Intend to move in a given direction.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -62,24 +66,28 @@ Intend to move in a given direction.
     - Parameter 3 (🔢 Number): Direction Y
     - Parameter 4 (🔢 Number): Decision weight
 
-    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+    > Technical note: parameter 5 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `BoidsMovement::BoidsMovement::MoveInDirection`.
 
 **Move toward an object**  
 Intend to move toward an object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (👾 Object): Targeted object
     - Parameter 3 (🔢 Number): Decision weight
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `BoidsMovement::BoidsMovement::MoveToObject`.
 
 **Move toward a position**  
 Intend to move toward a position.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -87,107 +95,127 @@ Intend to move toward a position.
     - Parameter 3 (🔢 Number): Target Y
     - Parameter 4 (🔢 Number): Decision weight
 
-    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+    > Technical note: parameter 5 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `BoidsMovement::BoidsMovement::MoveToPosition`.
 
 **Alignment sight radius**  
 Return the alignment sight radius.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `BoidsMovement::BoidsMovement::SetAlignmentRadius`.
 
 **Alignment weight**  
 Change the weight the alignment takes in the chosen direction.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `BoidsMovement::BoidsMovement::SetAlignmentWeight`.
 
 **Cohesion sight radius**  
 Change the cohesion sight radius.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `BoidsMovement::BoidsMovement::SetCohesionRadius`.
 
 **Cohesion weight**  
 Change the weight the cohesion takes in the chosen direction.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `BoidsMovement::BoidsMovement::SetCohesionWeight`.
 
 **Maximum acceleration**  
 Change the maximum acceleration of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Steering Force
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `BoidsMovement::BoidsMovement::SetMaxAcceleration`.
 
 **Maximum speed**  
 Change the maximum speed of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Max Speed
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `BoidsMovement::BoidsMovement::SetMaxSpeed`.
 
 **Separation sight radius**  
 Return the separation sight radius.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `BoidsMovement::BoidsMovement::SetSeparationRadius`.
 
 **Separation weight**  
 Change the weight the separation takes in the chosen direction.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `BoidsMovement::BoidsMovement::SetSeparationWeight`.
 
 ### Behavior conditions
 
 **Object Rotated**  
 Check if the object is rotated while moving on its path.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `BoidsMovement::BoidsMovement::ShouldRotate`.
 
 ### Behavior expressions
 

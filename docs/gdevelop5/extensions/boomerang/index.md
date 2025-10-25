@@ -33,28 +33,32 @@ Throw an object that returns to the thrower like a boomerang.
 **Send boomerang back to thrower**  
 Send boomerang back to thrower.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Boomerang::Boomerang::ReturnBoomerang`.
 
 **Set amount of time before boomerang changes directions**  
 Set amount of time before boomerang changes directions (seconds).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Time before boomerange changes direction (seconds)
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Boomerang::Boomerang::SetReturnTime`.
 
 **Throw boomerang toward an angle**  
 Throw boomerang toward an angle.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -63,12 +67,14 @@ Throw boomerang toward an angle.
     - Parameter 4 (🔢 Number): Time before changing directions (seconds)
     - Parameter 5 (🔢 Number): Rotation (degrees per second)
 
-    > Technical note: parameter 6 are internal parameters handled by GDevelop.
+    > Technical note: parameter 6 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Boomerang::Boomerang::ThrowBoomerangAngle`.
 
 **Throw boomerang toward a position**  
 Throw boomerang toward a position.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -78,30 +84,36 @@ Throw boomerang toward a position.
     - Parameter 5 (🔢 Number): Time before changing directions (seconds)
     - Parameter 6 (🔢 Number): Rotation (degrees per second)
 
-    > Technical note: parameter 7 are internal parameters handled by GDevelop.
+    > Technical note: parameter 7 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Boomerang::Boomerang::ThrowBoomerangPosition`.
 
 **Track position of boomerang thrower**  
 Track position of boomerang thrower.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (👾 Object): Thrower
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Boomerang::Boomerang::TrackingThrower`.
 
 ### Behavior conditions
 
 **Boomerang is returning to thrower**  
 Boomerang is returning to thrower.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Boomerang::Boomerang::IsBoomerangReturning`.
 
 _No expressions for this behavior._
 

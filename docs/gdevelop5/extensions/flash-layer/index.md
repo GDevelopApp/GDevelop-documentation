@@ -19,12 +19,14 @@ It is recommended to select a layer on the top, and one that is hidden by defaul
 **Flash layer**  
 Make a layer visible for a specified duration, and then hide the layer.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🔤 Layer name (String)
     - Parameter 2 (🔢 Number): Duration (in seconds)
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FlashLayer::FlashLayer`.
 
 
 

@@ -23,7 +23,7 @@ If you want to select which object instances are tracked by the camera, add cond
 **Follow multiple objects with camera**  
 Change the zoom and position of the camera to keep all instances of an object (or object group) on the screen.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Object (or Object group)
     - Parameter 2 (🔢 Number): Extra space on sides of screen
@@ -36,6 +36,8 @@ Change the zoom and position of the camera to keep all instances of an object (o
       Percent of distance to destination that will be travelled each frame (used by lerp function)
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FollowObjectsWithCamera::FollowMultipleObjectsWithCamera`.
 
 
 

@@ -25,79 +25,93 @@ Change animations and horizontal flipping of a platformer character automaticall
 **Enable (or disable) automated animation changes**  
 Enable (or disable) automated animation changes a platformer character. Disabling animation changes is useful to play custom animations.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Change animations automatically
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PlatformerCharacterAnimator::PlatformerCharacterAnimator::EnableChangingAnimations`.
 
 **Enable (or disable) automated horizontal flipping**  
 Enable (or disable) automated horizontal flipping of a platform character.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Enable horizontal flipping
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PlatformerCharacterAnimator::PlatformerCharacterAnimator::EnableHorizontalFlipping`.
 
 **"Climb" animation name**  
 Set the "Climb" animation name. Do not use quotation marks.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (string): Animation name
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PlatformerCharacterAnimator::PlatformerCharacterAnimator::SetClimbAnimationName`.
 
 **"Fall" animation name**  
 Set the "Fall" animation name. Do not use quotation marks.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (string): Animation name
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PlatformerCharacterAnimator::PlatformerCharacterAnimator::SetFallAnimationName`.
 
 **"Idle" animation name**  
 Set the "Idle" animation name. Do not use quotation marks.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (string): Animation name
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PlatformerCharacterAnimator::PlatformerCharacterAnimator::SetIdleAnimationName`.
 
 **"Jump" animation name**  
 Set the "Jump" animation name. Do not use quotation marks.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (string): Animation name
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PlatformerCharacterAnimator::PlatformerCharacterAnimator::SetJumpAnimationName`.
 
 **"Move" animation name**  
 Set the "Move" animation name. Do not use quotation marks.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (string): Animation name
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PlatformerCharacterAnimator::PlatformerCharacterAnimator::SetMoveAnimationName`.
 
 _No expressions for this behavior._
 

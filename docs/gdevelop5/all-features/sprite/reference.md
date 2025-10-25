@@ -14,47 +14,57 @@ Animated object which can be used for most elements of a 2D game.
 Change the number of the blend mode of an object.  
 The default blend mode is 0 (Normal).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1 (🔢 Number): Mode (0: Normal, 1: Add, 2: Multiply, 3: Screen)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ChangeBlendMode`.
+
 **Tint color**  
 Change the tint of an object. The default color is white.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1 (color): Tint
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ChangeColor`.
+
 **Current frame**  
 Modify the current frame of the object
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ChangeSprite`.
 
 ### Object conditions
 
 **Blend mode**  
 Compare the number of the blend mode currently used by an object
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `BlendMode`.
 
 **Current frame**  
 Compare the index of the current frame in the animation displayed by the specified object. The first frame in an animation starts at index 0.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Sprite`.
 
 ### Object expressions
 

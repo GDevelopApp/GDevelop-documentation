@@ -37,7 +37,7 @@ The request result is stored in a Scene variable of your choice that you can use
 **Add score to the leaderboard**  
 Add score to the Gamejolt leaderboard.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (❓ Yes or No): Force guest record
     - Parameter 2 (string): Guest username (fallback if the player is not connected)
@@ -50,10 +50,12 @@ Add score to the Gamejolt leaderboard.
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `GamejoltAPI::AddScore`.
+
 **Add score with label to the leaderboard**  
 Add a labelled score in the leaderboard.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (❓ Yes or No): Force guest record
     - Parameter 2 (string): Guest username (fallback if the player is not connected)
@@ -66,47 +68,57 @@ Add a labelled score in the leaderboard.
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `GamejoltAPI::AddScoreWithLabel`.
+
 **Achieve a trophy**  
 Set that a trophy has been obtained by the player.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Trophy identifier
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `GamejoltAPI::AddTrophies`.
+
 **Gamejolt authentication**  
 Authenticate Gamejolt user before using the account functionalities.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Gamejolt Username
     - Parameter 2 (string): Gamejolt user secret game token
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `GamejoltAPI::AuthenticateUser`.
+
 **Check a game session**  
 Check on the server the session status.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `GamejoltAPI::CheckSession`.
 
 **Close a game session**  
 Close a game session for the connected user.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `GamejoltAPI::CloseSession`.
 
 **Change number**  
 Update a numerical value in the cloud storage.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (❓ Yes or No): Use global storage (instead of user storage)
     - Parameter 2 (string): Storage key
@@ -115,10 +127,12 @@ Update a numerical value in the cloud storage.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `GamejoltAPI::DoDataOperation`.
+
 **Change text**  
 Update a text value in the cloud storage.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (❓ Yes or No): Use global storage (instead of user storage)
     - Parameter 2 (string): Storage key
@@ -127,10 +141,12 @@ Update a text value in the cloud storage.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `GamejoltAPI::DoDataOperationText`.
+
 **Fetch stored data**  
 Fetch cloud game data from Gamejolt.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Request name (default: empty)
       **Result format** - 
@@ -141,10 +157,12 @@ Fetch cloud game data from Gamejolt.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `GamejoltAPI::FetchData`.
+
 **Fetch data keys**  
 Fetch all the data keys.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Request name (default: empty)
       **Result format** - 
@@ -160,10 +178,12 @@ Fetch all the data keys.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `GamejoltAPI::FetchDataKeys`.
+
 **Fetch the best scores**  
 Fetch the best scores on the leaderboard.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Request name (default: empty)
       **Result format** - 
@@ -183,10 +203,12 @@ Fetch the best scores on the leaderboard.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `GamejoltAPI::FetchScore`.
+
 **Fetch scores of a user**  
 Fetch user's scores on the leaderboard.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Request name (default: empty)
       **Result format** - 
@@ -208,10 +230,12 @@ Fetch user's scores on the leaderboard.
 
     > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `GamejoltAPI::FetchScoreFromUser`.
+
 **Fetch leaderboard rank**  
 Fetch the score rank in the leaderboard.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Request name (default: empty)
       **Result format** - 
@@ -222,10 +246,12 @@ Fetch the score rank in the leaderboard.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `GamejoltAPI::FetchScoreRank`.
+
 **Fetch all leaderboard's informations**  
 Fetch all the leaderboard informations (without scores).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Request name (default: empty)
       **Result format** - 
@@ -237,10 +263,12 @@ Fetch all the leaderboard informations (without scores).
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `GamejoltAPI::FetchScoreTables`.
+
 **Get the server time**  
 Retrieve the server time.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Request name (default: empty)
       **Result format** - 
@@ -256,10 +284,12 @@ Retrieve the server time.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `GamejoltAPI::FetchServerTime`.
+
 **Fetch the user trophies**  
 Fetch trophies informations of the connected user.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Request name (default: empty)
       **Result format** - 
@@ -274,10 +304,12 @@ Fetch trophies informations of the connected user.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `GamejoltAPI::FetchTrophies`.
+
 **Fetch the user trophies (by identifier)**  
 Fetch trophies (by identifier) informations of the connected user.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Request name (default: empty)
       **Result format** - 
@@ -294,10 +326,12 @@ Fetch trophies (by identifier) informations of the connected user.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `GamejoltAPI::FetchTrophiesByIdentifier`.
+
 **Fetch user data**  
 Fetch complete user data from Gamejolt.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Request name (default: empty)
       **Result format** - 
@@ -322,10 +356,12 @@ Fetch complete user data from Gamejolt.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `GamejoltAPI::FetchUser`.
+
 **Fetch user friends**  
 Fetch the connected user friend list.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Request name (default: empty)
       **Result format** - 
@@ -334,19 +370,23 @@ Fetch the connected user friend list.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `GamejoltAPI::FetchUserFriends`.
+
 **Open a game session**  
 Open a game session for the connected user.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `GamejoltAPI::OpenSession`.
 
 **Register Gamejolt game**  
 Setup a game before using the Gamejolt API.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Gamejolt game identifier
     - Parameter 2 (string): Gamejolt game secret key
@@ -354,39 +394,47 @@ Setup a game before using the Gamejolt API.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `GamejoltAPI::RegisterGame`.
+
 **Remove stored data**  
 Remove cloud game data from Gamejolt.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (❓ Yes or No): Use global storage (instead of user storage)
     - Parameter 2 (string): Storage key
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `GamejoltAPI::RemoveData`.
+
 **Remove a trophy**  
 Remove a trophy from the player achievements.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Trophy identifier
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `GamejoltAPI::RemoveTrophies`.
+
 **Activate test user**  
 Activate a test user for the Gamejolt API.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Test username
     - Parameter 2 (string): Test user game token
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `GamejoltAPI::SetTestUser`.
+
 **Store data**  
 Save game data in the Gamejolt cloud storage.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (❓ Yes or No): Use global storage (instead of user storage)
     - Parameter 2 (string): Storage key
@@ -394,10 +442,12 @@ Save game data in the Gamejolt cloud storage.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `GamejoltAPI::StoreData`.
+
 **Change the session status**  
 Change the game session status on the server.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 String): Session status
       Status role : 
@@ -409,49 +459,59 @@ Change the game session status on the server.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `GamejoltAPI::UpdateSession`.
+
 ## Conditions
 
 **Player is authenticated**  
 Check if the user is authenticated on Gamejolt.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `GamejoltAPI::Authenticated`.
 
 **The request is finished**  
 The named request is finished. You can read its content.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Request name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `GamejoltAPI::Finished`.
+
 **Last error message**  
 Compare Error message from the last request.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `GamejoltAPI::LastErrorMessage`.
+
 **Last request is successful**  
 Check if the last request is successful.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `GamejoltAPI::LastSuccess`.
 
 **Request error message**  
 Compare Error message from a specific request.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
@@ -459,52 +519,64 @@ Compare Error message from a specific request.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `GamejoltAPI::RequestErrorMessage`.
+
 **Request is successful**  
 Check if a specific request is successful.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Request name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `GamejoltAPI::RequestSuccess`.
+
 **Session is active**  
 Check if the user session is active.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `GamejoltAPI::Session`.
 
 **Is in test mode**  
 Check if the API is in test mode.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `GamejoltAPI::TestMode`.
 
 **User game token**  
 Compare Authenticated user game token used for requests.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `GamejoltAPI::UserToken`.
 
 **Username**  
 Compare Authenticated username used for requests.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `GamejoltAPI::Username`.
 
 ## Expressions
 

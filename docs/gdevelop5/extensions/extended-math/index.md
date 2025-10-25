@@ -28,11 +28,13 @@ Conditions:
 **Is even?**  
 Check if the number is even (divisible by 2).  To check for odd numbers, invert this condition.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Value
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ExtendedMath::IsEven`.
 
 ## Expressions
 

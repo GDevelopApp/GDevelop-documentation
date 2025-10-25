@@ -28,7 +28,7 @@ Shake layer cameras on 3 rotations.
 **Horizontal rotation amplitude**  
 Change the horizontal rotation amplitude of the shaking (in degrees).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
@@ -36,41 +36,49 @@ Change the horizontal rotation amplitude of the shaking (in degrees).
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `CameraShake3D::SetHorizontalAmplitudeAngle`.
+
 **Shakable layer**  
 Mark a layer as shakable.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (❓ Yes or No): Shakable
     - Parameter 2: 🔤 Layer name (String)
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `CameraShake3D::SetLayerShakable`.
+
 **Layer shaking frequency**  
 Change the number of back and forth per seconds.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Frequency
     - Parameter 2: 🔤 Layer name (String)
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `CameraShake3D::SetLayerShakingFrequency`.
+
 **Spinning shake amplitude**  
 Change the spinning amplitude of the shaking (in degrees).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
     - Parameter 3: 🔤 Layer name (String)
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `CameraShake3D::SetSpineAmplitudeAngle`.
 
 **Vertical rotation amplitude**  
 Change the vertical rotation amplitude of the shaking (in degrees).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
@@ -78,10 +86,12 @@ Change the vertical rotation amplitude of the shaking (in degrees).
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `CameraShake3D::SetVerticalAmplitudeAngle`.
+
 **Shake camera**  
 Shake the camera on layers chosen with configuration actions.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Duration (in seconds)
     - Parameter 2 (🔢 Number): Ease duration to start (in seconds)
@@ -89,67 +99,81 @@ Shake the camera on layers chosen with configuration actions.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `CameraShake3D::ShakeCamera`.
+
 **Start camera shaking**  
 Start shaking the camera indefinitely.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Ease duration (in seconds)
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `CameraShake3D::StartShaking`.
 
 **Stop camera shaking**  
 Stop shaking the camera.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Ease duration (in seconds)
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `CameraShake3D::StopShaking`.
 
 ## Conditions
 
 **Horizontal rotation amplitude**  
 Compare the horizontal rotation amplitude of the shaking (in degrees).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3: 🔤 Layer name (String)
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `CameraShake3D::HorizontalAmplitudeAngle`.
 
 **Camera is shaking**  
 Check if the camera is shaking.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `CameraShake3D::IsShaking`.
 
 **Spinning shake amplitude**  
 Compare the spinning amplitude of the shaking (in degrees).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3: 🔤 Layer name (String)
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `CameraShake3D::SpineAmplitudeAngle`.
 
 **Vertical rotation amplitude**  
 Compare the vertical rotation amplitude of the shaking (in degrees).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3: 🔤 Layer name (String)
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `CameraShake3D::VerticalAmplitudeAngle`.
 
 ## Expressions
 

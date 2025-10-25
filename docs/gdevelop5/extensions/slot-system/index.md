@@ -45,7 +45,7 @@ Use a 2D grid position to retrieve your informations. It uses the basic slot sys
 **Add item automatically**  
 Add automatically an item to its slot, or the next empty slot if necessary.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔤 Name (String)): Item
@@ -56,30 +56,36 @@ Add automatically an item to its slot, or the next empty slot if necessary.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::AddItemAuto`.
+
 **Add named slot**  
 Add a special slot with a name to the space.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔤 Name (String)): Slot name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::AddNamedSlot`.
+
 **Import JSON string**  
 Import a JSON string and convert it in a slot system.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (string): JSON string
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::CopyFromJSON`.
+
 **Delete the grid slot**  
 Delete a grid slot from a space.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔢 Number): Column index
@@ -87,30 +93,36 @@ Delete a grid slot from a space.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::DeleteGridSlot`.
+
 **Delete the named slot**  
 Delete a slot from a space.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔤 Name (String)): Slot name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::DeleteNamedSlot`.
+
 **Delete the slot**  
 Delete a slot from a space.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔢 Number): Slot
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::DeleteSlot`.
+
 **Move item on the grid**  
 Move an item from a position to an other on the grid.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔢 Number): From column index
@@ -122,10 +134,12 @@ Move an item from a position to an other on the grid.
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::MoveGridSlotToGridSlot`.
+
 **Move item from named slot to named slot**  
 Move an item from a named slot to an other.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): From space name
     - Parameter 2 (🔤 Name (String)): From slot name
@@ -135,11 +149,13 @@ Move an item from a named slot to an other.
     - Parameter 5 (❓ Yes or No): Exchange if the target already contains an item
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::MoveNamedSlotToNamedSlot`.
 
 **Move item from named slot to slot**  
 Move an item from a slot to an other.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): From space name
     - Parameter 2 (🔤 Name (String)): From slot name
@@ -150,10 +166,12 @@ Move an item from a slot to an other.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::MoveNamedSlotToSlot`.
+
 **Move item from slot to named slot**  
 Move an item from a slot to an other.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): From space name
     - Parameter 2 (🔢 Number): From slot
@@ -164,10 +182,12 @@ Move an item from a slot to an other.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::MoveSlotToNamedSlot`.
+
 **Move item from slot to slot**  
 Move an item from a slot to an other.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): From space name
     - Parameter 2 (🔢 Number): From slot
@@ -178,10 +198,12 @@ Move an item from a slot to an other.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::MoveSlotToSlot`.
+
 **Delete grid slot property**  
 Delete a property content from a grid slot.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔢 Number): Column index
@@ -190,10 +212,12 @@ Delete a property content from a grid slot.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::RemoveGridSlotProperty`.
+
 **Delete named slot property**  
 Delete a property content from a named slot.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔤 Name (String)): Slot name
@@ -201,10 +225,12 @@ Delete a property content from a named slot.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::RemoveNamedSlotProperty`.
+
 **Delete slot property**  
 Delete a property content from a slot.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔢 Number): Slot
@@ -212,10 +238,12 @@ Delete a property content from a slot.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::RemoveSlotProperty`.
+
 **Grid slot count**  
 Change the grid slot count of a space.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
@@ -225,10 +253,12 @@ Change the grid slot count of a space.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::SetGridSlotCount`.
+
 **Empty the grid slot**  
 Empty the grid slot of the space only. It still exists in the space.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔢 Number): Column index
@@ -236,10 +266,12 @@ Empty the grid slot of the space only. It still exists in the space.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::SetGridSlotEmpty`.
+
 **Set an item in a grid slot**  
 Set an item in a grid slot of a space.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔢 Number): Column index
@@ -248,10 +280,12 @@ Set an item in a grid slot of a space.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::SetGridSlotItem`.
+
 **Grid slot max count**  
 Change the grid slot max count, or 0 if unlimited.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
@@ -261,10 +295,12 @@ Change the grid slot max count, or 0 if unlimited.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::SetGridSlotMax`.
+
 **Grid slot number property**  
 Change the number property of a grid slot.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
@@ -275,10 +311,12 @@ Change the number property of a grid slot.
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::SetGridSlotPropertyNumber`.
+
 **Grid slot text property**  
 Change the text property of a grid slot.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (string): Value
@@ -289,10 +327,12 @@ Change the text property of a grid slot.
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::SetGridSlotPropertyText`.
+
 **Set grid slot unlimited**  
 Set the max count of a grid slot to be unlimited.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔢 Number): Column index
@@ -300,10 +340,12 @@ Set the max count of a grid slot to be unlimited.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::SetGridSlotUnlimited`.
+
 **Named slot count**  
 Change the named slot count of a space.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
@@ -311,32 +353,38 @@ Change the named slot count of a space.
     - Parameter 4 (🔤 Name (String)): Slot name
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::SetNamedSlotCount`.
 
 **Empty the named slot**  
 Empty the named slot of the space only. It still exists in the space.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔤 Name (String)): Slot name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::SetNamedSlotEmpty`.
 
 **Set an item in a named slot**  
 Set an item in a named slot of a space.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔤 Name (String)): Slot name
     - Parameter 3 (🔤 Name (String)): Item name
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::SetNamedSlotItem`.
 
 **Named slot max count**  
 Change the named slot max count, or 0 if unlimited.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
@@ -345,10 +393,12 @@ Change the named slot max count, or 0 if unlimited.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::SetNamedSlotMax`.
+
 **Named slot number property**  
 Change the number property of a named slot.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
@@ -358,10 +408,12 @@ Change the number property of a named slot.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::SetNamedSlotPropertyNumber`.
+
 **Named slot text property**  
 Change the text property of a named slot.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (string): Value
@@ -371,20 +423,24 @@ Change the text property of a named slot.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::SetNamedSlotPropertyText`.
+
 **Set named slot unlimited**  
 Set the max count of a named slot to be unlimited.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔤 Name (String)): Slot name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::SetNamedSlotUnlimited`.
+
 **Slot count**  
 Change the slot count of a space.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
@@ -393,20 +449,24 @@ Change the slot count of a space.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::SetSlotCount`.
+
 **Empty the slot**  
 Empty the slot of the space only. It still exists in the space.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔢 Number): Slot
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::SetSlotEmpty`.
+
 **Set an item in a slot**  
 Set an item in a slot of a space.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔢 Number): Slot
@@ -414,10 +474,12 @@ Set an item in a slot of a space.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::SetSlotItem`.
+
 **Slot max count**  
 Change the slot max count, or 0 if unlimited.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
@@ -426,10 +488,12 @@ Change the slot max count, or 0 if unlimited.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::SetSlotMax`.
+
 **Slot number property**  
 Change the number property of a slot.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
@@ -439,10 +503,12 @@ Change the number property of a slot.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::SetSlotPropertyNumber`.
+
 **Slot text property**  
 Change the text property of a slot.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (string): Value
@@ -452,20 +518,24 @@ Change the text property of a slot.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::SetSlotPropertyText`.
+
 **Set slot unlimited**  
 Set the max count of a slot to be unlimited.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔢 Number): Slot
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::SetSlotUnlimited`.
+
 **Set grid size**  
 Set the space size using grid dimension.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔢 Number): Columns
@@ -473,20 +543,24 @@ Set the space size using grid dimension.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::SetSpaceGridSize`.
+
 **Set space size**  
 Set the amount of slots in the space.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔢 Number): Size
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::SetSpaceSize`.
+
 **Sort items by property**  
 Sort items and move them into a new slot order.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔤 Name (String)): Property name
@@ -494,12 +568,14 @@ Sort items and move them into a new slot order.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SlotSystem::SortSlotsByProperty`.
+
 ## Conditions
 
 **Convert grid position to slot index**  
 Compare a slot index of a grid position.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -509,10 +585,12 @@ Compare a slot index of a grid position.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::ConvertGridPositionToSlot`.
+
 **Convert a slot to a grid column index**  
 Compare the column index from a slot.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -520,11 +598,13 @@ Compare the column index from a slot.
     - Parameter 4 (🔢 Number): Slot
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::ConvertSlotToGridColumn`.
 
 **Convert a slot to a grid row index**  
 Compare the row index from a slot.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -533,51 +613,61 @@ Compare the row index from a slot.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::ConvertSlotToGridRow`.
+
 **Named slot exists**  
 Check if the named slot exists.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔤 Name (String)): Slot name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::DoesNamedSlotExist`.
+
 **The space exists**  
 Check if the space exists.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::DoesSpaceExists`.
+
 **Filled named slots**  
 Compare the amount of filled named slots of a space.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::FilledNamedSlots`.
 
 **Filled slots**  
 Compare the amount of filled slots of a space.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::FilledSlots`.
 
 **First empty slot**  
 Compare First empty slot. Set to -1 if no slot is found.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -585,10 +675,12 @@ Compare First empty slot. Set to -1 if no slot is found.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::FirstEmptySlot`.
+
 **First item slot**  
 Compare First slot containing a specific item. Set to -1 if no slot is found.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -596,11 +688,13 @@ Compare First slot containing a specific item. Set to -1 if no slot is found.
     - Parameter 4 (🔤 Name (String)): Item
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::FirstItemSlot`.
 
 **First available slot**  
 Compare First slot containing a specific item that is not full. Set to -1 if no slot is found.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -609,10 +703,12 @@ Compare First slot containing a specific item that is not full. Set to -1 if no 
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::FirstItemSlotAvailable`.
+
 **Item at a grid position**  
 Compare the item at grid postion.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔤 Name (String)): Value to compare
@@ -622,10 +718,12 @@ Compare the item at grid postion.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::GridItemName`.
+
 **Grid slot count**  
 Compare the grid slot count of a space.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -634,11 +732,13 @@ Compare the grid slot count of a space.
     - Parameter 5 (🔢 Number): Row index
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::GridSlotCount`.
 
 **Grid slot max count**  
 Compare the grid slot max count, or 0 if unlimited.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -647,29 +747,35 @@ Compare the grid slot max count, or 0 if unlimited.
     - Parameter 5 (🔢 Number): Row index
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::GridSlotMax`.
 
 **The space has empty named slots**  
 Check if the space contains empty named slots.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::HasEmptyNamedSlots`.
 
 **The space has empty slots**  
 Check if the space contains empty slots.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::HasEmptySlots`.
 
 **Grid slot has property**  
 Check if a property is set on a slot.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔢 Number): Column index
@@ -678,21 +784,25 @@ Check if a property is set on a slot.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::HasGridSlotProperty`.
+
 **Named slot has property**  
 Check if a property is set on a named slot.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔤 Name (String)): Slot name
     - Parameter 3 (🔤 Name (String)): Property name
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::HasNamedSlotProperty`.
 
 **Slot has property**  
 Check if a property is set on a slot.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔢 Number): Slot
@@ -700,93 +810,111 @@ Check if a property is set on a slot.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::HasSlotProperty`.
+
 **Grid slot contains an item**  
 The grid slot contains one or more items.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔢 Number): Column index
     - Parameter 3 (🔢 Number): Row index
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::IsGridSlotFilled`.
 
 **Grid slot is full**  
 The grid slot is full.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔢 Number): Column index
     - Parameter 3 (🔢 Number): Row index
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::IsGridSlotFull`.
 
 **Grid slot is unlimited**  
 Check if the slot has an unlimited count.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔢 Number): Column index
     - Parameter 3 (🔢 Number): Row index
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::IsGridSlotUnlimited`.
 
 **Named slot contains an item**  
 The named slot contains one or more items.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔤 Name (String)): Slot name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::IsNamedSlotFilled`.
 
 **Named slot is full**  
 The slot is full.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔤 Name (String)): Slot name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::IsNamedSlotFull`.
 
 **Named slot is unlimited**  
 Check if the named slot has an unlimited count.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔤 Name (String)): Slot name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::IsNamedSlotUnlimited`.
+
 **Slot contains an item**  
 The slot contains one or more items.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔢 Number): Slot
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::IsSlotFilled`.
 
 **Slot is full**  
 The slot is full.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔢 Number): Slot
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::IsSlotFull`.
+
 **Slot position in grid**  
 Check if the slot position is inside the grid boundaries.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔢 Number): Column index
@@ -794,29 +922,35 @@ Check if the slot position is inside the grid boundaries.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::IsSlotPositionInGrid`.
+
 **Slot is unlimited**  
 Check if the slot has an unlimited count.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
     - Parameter 2 (🔢 Number): Slot
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::IsSlotUnlimited`.
+
 **The grid exists**  
 Check if the space has a grid.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::IsSpaceGrid`.
+
 **Named slot count**  
 Compare the named slot count of a space.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -824,11 +958,13 @@ Compare the named slot count of a space.
     - Parameter 4 (🔤 Name (String)): Slot name
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::NamedSlotCount`.
 
 **Named slot item name**  
 Compare the item name of a slot.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
@@ -836,11 +972,13 @@ Compare the item name of a slot.
     - Parameter 4 (🔤 Name (String)): Slot name
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::NamedSlotItemName`.
 
 **Named slot max count**  
 Compare the named slot max count, or 0 if unlimited.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -849,10 +987,12 @@ Compare the named slot max count, or 0 if unlimited.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::NamedSlotMax`.
+
 **Slot property count**  
 Compare the property count of a space.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -860,11 +1000,13 @@ Compare the property count of a space.
     - Parameter 4 (🔤 Name (String)): Property name
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::NamedSlotPropertyCount`.
 
 **Grid slot number property**  
 Compare the number property of a grid slot.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -874,11 +1016,13 @@ Compare the number property of a grid slot.
     - Parameter 6 (🔤 Name (String)): Property name
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::NumberOfGridSlotProperty`.
 
 **Named slot number property**  
 Compare the number property of a named slot.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -888,10 +1032,12 @@ Compare the number property of a named slot.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::NumberOfNamedSlotProperty`.
+
 **Slot number property**  
 Compare the number property of a slot.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -901,21 +1047,25 @@ Compare the number property of a slot.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::NumberOfSlotProperty`.
+
 **Remaining named slots**  
 Compare the remaining named slots of a space.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::RemainingNamedSlots`.
 
 **Remaining slots**  
 Compare the remaining slots of a space.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -923,10 +1073,12 @@ Compare the remaining slots of a space.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::RemainingSlots`.
+
 **Slot count**  
 Compare the slot count of a space.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -935,10 +1087,12 @@ Compare the slot count of a space.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::SlotCount`.
+
 **Slot item name**  
 Compare the item name of a slot.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
@@ -947,10 +1101,12 @@ Compare the item name of a slot.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::SlotItemName`.
+
 **Slot max count**  
 Compare the slot max count, or 0 if unlimited.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -959,10 +1115,12 @@ Compare the slot max count, or 0 if unlimited.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::SlotMax`.
+
 **Slot property count**  
 Compare the property count of a space.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -970,44 +1128,52 @@ Compare the property count of a space.
     - Parameter 4 (🔤 Name (String)): Property name
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::SlotPropertyCount`.
 
 **Space grid height**  
 Compare the space grid height.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::SpaceGridHeight`.
 
 **Space grid width**  
 Compare the space grid width.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::SpaceGridWidth`.
 
 **Space named slot size**  
 Compare how many slots the space has.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::SpaceNamedSlotSize`.
 
 **Space slot size**  
 Compare how many slots the space has.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -1015,10 +1181,12 @@ Compare how many slots the space has.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::SpaceSlotSize`.
+
 **Sum of named slot properties**  
 Compare Sum all the values of a slot property.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -1026,11 +1194,13 @@ Compare Sum all the values of a slot property.
     - Parameter 4 (🔤 Name (String)): Property name
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::SumNamedSlotProperty`.
 
 **Sum of slot properties**  
 Compare Sum all the values of a slot property.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -1039,10 +1209,12 @@ Compare Sum all the values of a slot property.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::SumSlotProperty`.
+
 **Grid slot text property**  
 Compare the text property of a grid slot.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
@@ -1053,10 +1225,12 @@ Compare the text property of a grid slot.
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::TextOfGridSlotProperty`.
+
 **Named slot text property**  
 Compare the text property of a named slot.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
@@ -1066,10 +1240,12 @@ Compare the text property of a named slot.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::TextOfNamedSlotProperty`.
+
 **Slot text property**  
 Compare the text property of a slot.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
@@ -1078,6 +1254,8 @@ Compare the text property of a slot.
     - Parameter 5 (🔤 Name (String)): Property name
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SlotSystem::TextOfSlotProperty`.
 
 ## Expressions
 

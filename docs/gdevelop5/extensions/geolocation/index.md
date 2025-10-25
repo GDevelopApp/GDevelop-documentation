@@ -23,20 +23,24 @@ You can also track whether or not you've gotten the permission to use the GPS se
 **Locate the player**  
 Locates the player. If the permission status is pending, it will ask for user permission. Once the location is fetched, stores it in the callback variable.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Scene variable): Callback variable
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Geolocation::LocatePlayer`.
 
 **Watch the player**  
 Detects when the player's device is moved and get its new location. If the permission status is pending, it will ask for user permission. Every time the location is updated, stores it in the callback variable.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Scene variable): Callback variable
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Geolocation::WatchPlayer`.
 
 ## Expressions
 

@@ -31,7 +31,7 @@ Shake objects with translation and rotation.
 **Shake object (position, angle)**  
 Shake an object, using one or more ways to shake (position, angle). Make sure to "Stop shaking" before starting a new shake if it uses different parameters. 
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -45,29 +45,35 @@ Shake an object, using one or more ways to shake (position, angle). Make sure to
     - Parameter 7 (❓ Yes or No): Keep shaking until stopped
       Duration value will be ignored
 
-    > Technical note: parameter 8 are internal parameters handled by GDevelop.
+    > Technical note: parameter 8 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle`.
 
 **Stop shaking the object**  
 Stop any shaking of object that was initiated by the Shake Object extension.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ShakeObject::ShakeObject_PositionAngle::StopShaking`.
 
 ### Behavior conditions
 
 **Check if an object is shaking**  
 Check if an object is shaking.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ShakeObject::ShakeObject_PositionAngle::IsShaking`.
 
 _No expressions for this behavior._
 
@@ -81,7 +87,7 @@ Shake objects with translation, rotation and scale.
 **Shake object (position, angle, scale)**  
 Shake an object, using one or more ways to shake (position, angle, scale). Make sure to "Stop shaking" before starting a new shake if it uses different parameters.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -96,29 +102,35 @@ Shake an object, using one or more ways to shake (position, angle, scale). Make 
     - Parameter 8 (❓ Yes or No): Keep shaking until stopped
       Duration value will be ignored
 
-    > Technical note: parameter 9 are internal parameters handled by GDevelop.
+    > Technical note: parameter 9 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ShakeObject::ShakeObject_PositionAngleScale::ShakeObject_PositionAngleScale`.
 
 **Stop shaking an object**  
 Stop shaking an object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ShakeObject::ShakeObject_PositionAngleScale::StopShaking`.
 
 ### Behavior conditions
 
 **Check if an object is shaking**  
 Check if an object is shaking.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ShakeObject::ShakeObject_PositionAngleScale::IsShaking`.
 
 _No expressions for this behavior._
 

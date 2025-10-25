@@ -24,52 +24,62 @@ This extension is deprecated. Prefer using a timer and a substraction like in th
 **Restart the countdown timer**  
 Reset the countdown to its initial value.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Clock name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `CountdownTimer::RestartCountdown`.
+
 **Set the countdown of the clock**  
 Set the countdown timer in seconds.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Clock name
     - Parameter 2 (🔢 Number): Time remaining in seconds
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `CountdownTimer::SetCountdown`.
+
 **Start countdown timer**  
 Starts the countdown from the value set previously.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Clock name
     - Parameter 2 (❓ Yes or No): Allow negative numbers
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `CountdownTimer::StartCountdown`.
+
 ## Conditions
 
 **Countdown timer is in x sec**  
 Check if the countdown timer has reached a specific time in seconds.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Clock name
     - Parameter 2 (🔢 Number): Time in seconds
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `CountdownTimer::IsTimerAtTime`.
+
 **The countdown timer has ended**  
 Check if the countdown timer has reached zero.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Clock name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `CountdownTimer::IsTimerFinished`.
 
 ## Expressions
 

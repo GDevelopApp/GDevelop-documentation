@@ -42,7 +42,7 @@ Watch this [tutorial video](https://youtu.be/rlGSlNSRR9w) to see examples of how
 **Create objects to flood fill a rectanglular area**  
 Create multiple copies of an object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🔢 Number): Number of columns (default: 1)
@@ -56,10 +56,12 @@ Create multiple copies of an object.
 
     > Technical note: parameters 0, 10 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `RectangularFloodFill::CreateObjectsOverRectangle`.
+
 **Create objects to flood fill other objects**  
 Create fill objects that cover the rectangular area of target objects.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Target object
       Rectangular area that will be covered by fill objects
@@ -71,6 +73,8 @@ Create fill objects that cover the rectangular area of target objects.
     - Parameter 6 (🔢 Number): Z order
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `RectangularFloodFill::RectangularFloodFill`.
 
 
 

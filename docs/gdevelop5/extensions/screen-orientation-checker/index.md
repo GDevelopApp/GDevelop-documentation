@@ -28,45 +28,53 @@ Automatically display a screen asking the player to rotate their screen if neede
 **Force show the screen**  
 Change if the screen should be forced to be shown. Use this to test the screen in your game.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1 (❓ Yes or No): Force show the screen?
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ScreenOrientationChecker::ScreenOrientationChecker::SetIsForceShown`.
 
 **Message**  
 Change the message of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (string): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ScreenOrientationChecker::ScreenOrientationChecker::SetMessage`.
 
 ### Object conditions
 
 **Force show the screen**  
 Check if the screen should be forced to be shown. Use this to test the screen in your game.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ScreenOrientationChecker::ScreenOrientationChecker::IsForceShown`.
 
 **Message**  
 Compare the message of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ScreenOrientationChecker::ScreenOrientationChecker::Message`.
 
 ### Object expressions
 

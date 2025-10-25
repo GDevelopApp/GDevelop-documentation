@@ -13,54 +13,64 @@ Change or compare the size (width/height) of an object which can be resized (i.e
 **Height**  
 Change the height of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Height
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ResizableCapability::ResizableBehavior::SetHeight`.
+
 **Size**  
 Change the size of an object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Width
     - Parameter 3 (🔢 Number): Height
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ResizableCapability::ResizableBehavior::SetSize`.
+
 **Width**  
 Change the width of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Width
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ResizableCapability::ResizableBehavior::SetWidth`.
+
 ### Behavior conditions
 
 **Height**  
 Compare the height of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Height
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ResizableCapability::ResizableBehavior::Height`.
+
 **Width**  
 Compare the width of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Width
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ResizableCapability::ResizableBehavior::Width`.
 
 _No expressions for this behavior._
 

@@ -13,37 +13,45 @@ Invisible object used to get the text entered with the keyboard.
 **De/activate capturing text input**  
 Activate or deactivate the capture of text entered with keyboard.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1 (❓ Yes or No): Activate
 
+    > Technical note: this action internal type (in GDevelop JSON) is `TextEntryObject::Activate`.
+
 **Text in memory**  
 Modify text in memory of the object
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (string): Text
+
+    > Technical note: this action internal type (in GDevelop JSON) is `TextEntryObject::String`.
 
 ### Object conditions
 
 **Text input**  
 Test if the object captured text entered with keyboard.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `TextEntryObject::Activated`.
 
 **Text in memory**  
 Test the text of a Text Entry object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Text to compare to
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `TextEntryObject::String`.
 
 ### Object expressions
 

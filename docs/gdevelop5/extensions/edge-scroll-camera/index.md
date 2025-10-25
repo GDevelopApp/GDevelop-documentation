@@ -30,7 +30,7 @@ Tips:
 **Configure camera edge scrolling**  
 Configure camera edge scrolling that moves when mouse is near an edge of the screen.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Screen margin (pixels)
     - Parameter 2 (🔢 Number): Scroll speed (in pixels per second)
@@ -40,70 +40,86 @@ Configure camera edge scrolling that moves when mouse is near an edge of the scr
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `EdgeScrollCamera::ConfigureEdgeScrollCamera`.
+
 **Draw edge scrolling screen margin**  
 Draw a rectangle that shows where edge scrolling will be triggered.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Shape painter
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `EdgeScrollCamera::DrawEdgeScrollingBorder`.
+
 **Enable (or disable) camera edge scrolling**  
 Enable (or disable) camera edge scrolling .  Use "Configure camera edge scrolling" to adjust settings.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (❓ Yes or No): Enable camera edge scrolling
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `EdgeScrollCamera::EnableEdgeScrollCamera`.
 
 ## Conditions
 
 **Camera is scrolling**  
 Check if the camera is scrolling.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `EdgeScrollCamera::IsCameraScrolling`.
 
 **Camera is scrolling down**  
 Check if the camera is scrolling down.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `EdgeScrollCamera::IsCameraScrollingDown`.
 
 **Camera is scrolling left**  
 Check if the camera is scrolling left.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `EdgeScrollCamera::IsCameraScrollingLeft`.
 
 **Camera is scrolling right**  
 Check if the camera is scrolling right.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `EdgeScrollCamera::IsCameraScrollingRight`.
 
 **Camera is scrolling up**  
 Check if the camera is scrolling up.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `EdgeScrollCamera::IsCameraScrollingUp`.
 
 ## Expressions
 

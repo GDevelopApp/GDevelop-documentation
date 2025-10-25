@@ -76,17 +76,19 @@ Animates a horizontal (left to right) sprite sheet.
 **Pause animation**  
 Pause the animation of a sprite sheet.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SpriteSheet::HorizontalSpriteSheetAnimator::PauseAnimation`.
 
 **Play animation**  
 Play an animation from the sprite sheet.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -95,17 +97,21 @@ Play an animation from the sprite sheet.
     - Parameter 4 (🔢 Number): Duration for each frame (seconds)
     - Parameter 5 (🔢 Number): What row is the animation in
 
-    > Technical note: parameter 6 are internal parameters handled by GDevelop.
+    > Technical note: parameter 6 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SpriteSheet::HorizontalSpriteSheetAnimator::PlayAnimation`.
 
 **Resume animation**  
 Resume a paused animation of a sprite sheet.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SpriteSheet::HorizontalSpriteSheetAnimator::ResumeAnimation`.
 
 ### Behavior expressions
 
@@ -122,55 +128,65 @@ Animates a sprite sheet using JSON (see extension description).
 **Display a frame**  
 Display one frame without animating the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (string): The frame to display
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SpriteSheet::JSONSpriteSheetAnimator::DisplayFrame`.
 
 **Load data from a JSON resource**  
 Loads a new JSON spritesheet data into the behavior.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (string): The JSON to load
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SpriteSheet::JSONSpriteSheetAnimator::LoadFromJSON`.
 
 **Pause animation**  
 Pause the animation of a sprite sheet.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SpriteSheet::JSONSpriteSheetAnimator::PauseAnimation`.
 
 **Play Animation**  
 Play an animation from the sprite sheet.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (string): The name of the animation
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SpriteSheet::JSONSpriteSheetAnimator::PlayAnimation`.
 
 **Resume animation**  
 Resume a paused animation of a sprite sheet.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SpriteSheet::JSONSpriteSheetAnimator::ResumeAnimation`.
 
 ### Behavior expressions
 
@@ -188,17 +204,19 @@ Animates a vertical (top to bottom) sprite sheet.
 **Pause animation**  
 Pause the animation of a sprite sheet.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SpriteSheet::VerticalSpriteSheetAnimator::PauseAnimation`.
 
 **Play animation**  
 Play an animation from the sprite sheet.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -207,17 +225,21 @@ Play an animation from the sprite sheet.
     - Parameter 4 (🔢 Number): Duration for each frame (seconds)
     - Parameter 5 (🔢 Number): The column containing the animation
 
-    > Technical note: parameter 6 are internal parameters handled by GDevelop.
+    > Technical note: parameter 6 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SpriteSheet::VerticalSpriteSheetAnimator::PlayAnimation`.
 
 **Resume animation**  
 Resume a paused animation of a sprite sheet.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SpriteSheet::VerticalSpriteSheetAnimator::ResumeAnimation`.
 
 ### Behavior expressions
 

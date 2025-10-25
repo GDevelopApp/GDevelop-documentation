@@ -30,7 +30,7 @@ Make any sound volume on any channel increase and decrease based on distance.
 **Sound volume based on distance**  
 Change a channel volume based on distance between 2 objects.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Player object
     - Parameter 2 (👾 Object): Sound source object
@@ -42,6 +42,8 @@ Change a channel volume based on distance between 2 objects.
       *Note: increasing max volume range will also increase the sound range.*
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SoundVolumeBasedOnDistance::SoundObjects`.
 
 
 

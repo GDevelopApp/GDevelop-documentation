@@ -13,64 +13,76 @@ Actions/conditions/expression to change or check the scale of an object (default
 **Scale**  
 Change the scale of the object (default scale is 1).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Scale (1 by default)
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ScalableCapability::ScalableBehavior::SetValue`.
 
 **Scale on X axis**  
 Change the scale on X axis of the object (default scale is 1).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Scale (1 by default)
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ScalableCapability::ScalableBehavior::SetX`.
 
 **Scale on Y axis**  
 Change the scale on Y axis of the object (default scale is 1).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Scale (1 by default)
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ScalableCapability::ScalableBehavior::SetY`.
 
 ### Behavior conditions
 
 **Scale**  
 Compare the scale of the object (default scale is 1).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Scale (1 by default)
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ScalableCapability::ScalableBehavior::Value`.
 
 **Scale on X axis**  
 Compare the scale on X axis of the object (default scale is 1).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Scale (1 by default)
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ScalableCapability::ScalableBehavior::X`.
 
 **Scale on Y axis**  
 Compare the scale on Y axis of the object (default scale is 1).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Scale (1 by default)
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ScalableCapability::ScalableBehavior::Y`.
 
 ### Behavior expressions
 

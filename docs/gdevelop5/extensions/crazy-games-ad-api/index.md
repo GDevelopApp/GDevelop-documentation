@@ -19,16 +19,18 @@ Refer to the [CrazyGames guide](https://docs.crazygames.com/sdk/intro/) for a fu
 **Retrieve user data**  
 Retrieve user data.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `CrazyGamesAdApi::AuthenticateUser`.
 
 **Display a banner**  
 Display a banner that can be called once per 60 seconds.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Banner name
     - Parameter 2 (🔤 String): Ad size (one of: "970x90", "320x50", "160x600", "336x280", "728x90", "300x600", "468x60", "970x250", "300x250", "250x250", "120x600")
@@ -37,273 +39,333 @@ Display a banner that can be called once per 60 seconds.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `CrazyGamesAdApi::DisplayBanner`.
+
 **Display video ad**  
 Display a video ad. The game is automatically muted while the video is playing.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 String): Ad Type (one of: "midgame", "rewarded")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `CrazyGamesAdApi::DisplayCrazyGamesAd`.
+
 **Display happy time**  
 Display an happy time by emitting sparkling confetti. The celebration should remain a special moment.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `CrazyGamesAdApi::DisplayHappyTime`.
 
 **Generate an invite link**  
 Generate an invite link to invite friends to join your game sessions. This URL can be added to the clipboard or displayed in the game to let the user select it.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Room id
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `CrazyGamesAdApi::GenerateInviteLink`.
+
 **Generate Xsolla token**  
 Generate Xsolla token.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `CrazyGamesAdApi::GenerateXsollaToken`.
 
 **Hide all banners**  
 Hide all banners.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `CrazyGamesAdApi::HideAllBanners`.
 
 **Hide a banner**  
 Hide a banner.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Banner name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `CrazyGamesAdApi::HideBanner`.
+
 **Hide invite button**  
 Hide the invite button.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `CrazyGamesAdApi::HideInviteButton`.
 
 **Display invite button**  
 Display an invite button.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Room id
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `CrazyGamesAdApi::InviteButton`.
+
 **Show account link prompt**  
 Show account link prompt.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `CrazyGamesAdApi::LinkAccount`.
 
 **Load SDK**  
 Load CrazyGames SDK.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `CrazyGamesAdApi::LoadSDK`.
 
 **Save session data**  
 Save the session data.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Id
     - Parameter 2 (string): Value
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `CrazyGamesAdApi::SaveSessionData`.
+
 **Scan for ad blockers**  
 Scan for ad blockers.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `CrazyGamesAdApi::ScanForAdBlockers`.
 
 **Gameplay started**  
 Let CrazyGames know gameplay started.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `CrazyGamesAdApi::SetGameplayStarted`.
 
 **Gameplay stopped**  
 Let CrazyGames know gameplay stopped.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `CrazyGamesAdApi::SetGameplayStopped`.
 
 **Loading started**  
 Let CrazyGames know loading started.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `CrazyGamesAdApi::SetLoadingStarted`.
 
 **Loading stopped**  
 Let CrazyGames know loading stopped.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `CrazyGamesAdApi::SetLoadingStopped`.
 
 **Show CrazyGames login window**  
 Show CrazyGames login window.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `CrazyGamesAdApi::ShowAuthWindow`.
 
 **Check and load if an user is signed in CrazyGames**  
 Check if an user is signed into CrazyGames. If signed in, retrieves username and profile picture.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `CrazyGamesAdApi::UserSignIn`.
 
 ## Conditions
 
 **Video ad just finished playing**  
 Checks if a video ad just finished playing successfully.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `CrazyGamesAdApi::AdFinishedPlaying`.
 
 **Video ad had an error**  
 Check if a video ad had an error.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `CrazyGamesAdApi::AdHadAnError`.
 
 **CrazyGames User ID**  
 Compare the CrazyGames User ID.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `CrazyGamesAdApi::CrazyGamesUserID`.
 
 **Ad blocker is detected**  
 Check if user is using an ad blocker. This condition is always false before the "Scan for ad blockers" is called.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `CrazyGamesAdApi::IsAdBlocked`.
 
 **CrazyGames SDK is ready**  
 Check if the CrazyGames SDK is ready to be used.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `CrazyGamesAdApi::IsSDKLoaded`.
 
 **Is user account available**  
 Compare the availability of the user's account.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `CrazyGamesAdApi::IsUserAccountAvailable`.
 
 **Video ad is playing**  
 Checks if a video ad is playing.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `CrazyGamesAdApi::IsVideoAdPlaying`.
 
 **Get last error**  
 Compare the last error from the CrazyGames API.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `CrazyGamesAdApi::LastError`.
 
 **User changed**  
 Check if the user changed.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `CrazyGamesAdApi::UserChanged`.
 
 **Username**  
 Compare the username.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `CrazyGamesAdApi::UserName`.
+
 **User is signed in**  
 Check if the user is signed in.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `CrazyGamesAdApi::UserSignedIn`.
 
 ## Expressions
 

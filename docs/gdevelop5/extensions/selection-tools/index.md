@@ -61,7 +61,7 @@ Select object instances by drawing rectangular, polygonal or lasso selection.
 **Activate lasso selection**  
 Change the current selection type to lasso selection.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Length of each side of the shape representing the lasso (in pixels)
     - Parameter 2 (🔢 Number): Maximum number of vertices that the shape representing the lasso can have
@@ -69,10 +69,12 @@ Change the current selection type to lasso selection.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SelectionTools::ActivateLassoSelection`.
+
 **Activate polygonal selection**  
 Change the current selection type to polygonal selection.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Minimum length of each side of the shape/polygon (in pixels)
     - Parameter 2 (🔢 Number): Maximum number of vertices that the shape/polygon can have
@@ -84,48 +86,58 @@ Change the current selection type to polygonal selection.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SelectionTools::ActivatePolygonalSelection`.
+
 **Activate rectangular selection**  
 Change the current selection type to rectangular selection.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SelectionTools::ActivateRectangularSelection`.
 
 **Clear selection**  
 Clear the selection (Note: This action does not deslect selected objects).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SelectionTools::ClearSelection`.
 
 **De/Activate selection tools**  
 De/Activate selection tools.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (❓ Yes or No): Activate?
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SelectionTools::De_ActivateSelectionTools`.
 
 ## Conditions
 
 **Current selection type**  
 Current selection type.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 String): Selection type (one of: "Rectangular", "Polygonal", "Lasso")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SelectionTools::CurrentSelectionType`.
+
 **Select**  
 Select objects inside the selection boundary.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Object or group that is to be selected
     - Parameter 2 (❓ Yes or No): Invert selection?
@@ -135,14 +147,18 @@ Select objects inside the selection boundary.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SelectionTools::Select`.
+
 **Selection activated**  
 Selection tools is activated.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SelectionTools::SelectionActivated`.
 
 
 

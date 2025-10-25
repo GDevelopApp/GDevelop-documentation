@@ -20,20 +20,24 @@ Provides two conditions:
 **Cursor is moving**  
 Check if the cursor is moving on the default layer.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `CursorMovement::CursorIsMoving`.
 
 **Cursor stays still**  
 Check if the cursor has stayed still for the specified time on the default layer.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Duration (in seconds)
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `CursorMovement::CursorStayStill`.
 
 
 

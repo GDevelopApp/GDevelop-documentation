@@ -13,24 +13,28 @@ Action/condition/expression to change or check the opacity of an object (0-255).
 **Opacity**  
 Change the opacity of an object, between 0 (fully transparent) to 255 (opaque).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Opacity (0-255)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `OpacityCapability::OpacityBehavior::SetValue`.
+
 ### Behavior conditions
 
 **Opacity**  
 Compare the opacity of an object, between 0 (fully transparent) to 255 (opaque).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Opacity (0-255)
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `OpacityCapability::OpacityBehavior::Value`.
 
 ### Behavior expressions
 

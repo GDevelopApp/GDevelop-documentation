@@ -17,7 +17,7 @@ Text to Speech extension allows you to use the system's Text-to-Speech features 
 **Speak out a message**  
 Speaks a text message aloud through the system text-to-speech.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): The message to be spoken
     - Parameter 2 (string): The voice to be used
@@ -30,14 +30,18 @@ Speaks a text message aloud through the system text-to-speech.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `TextToSpeech::Speak`.
+
 **Force stop speaking**  
 Forces all Text-to-Speech to be stopped.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `TextToSpeech::StopSpeaking`.
 
 
 

@@ -36,28 +36,32 @@ A terrain with hills in 3D.
 **Update height map**  
 Update the height map. This is done automatically at the  end of every frame, but it can be used manually to avoid a 1-frame delay.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `HeightMap3D::HeightMap3D::ForceUpdate`.
 
 **Load height map**  
 Load a height map from an image file.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1 (imageResource): Image
     - Parameter 2 (🔢 Number): Image cropping offset on X
     - Parameter 3 (🔢 Number): Image cropping offset on Y
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `HeightMap3D::HeightMap3D::LoadFromImage`.
 
 **Grid value**  
 Change the field value at a grid index. The value is bewteen 0 and 1.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
@@ -65,14 +69,16 @@ Change the field value at a grid index. The value is bewteen 0 and 1.
     - Parameter 3 (🔢 Number): X grid index
     - Parameter 4 (🔢 Number): Y grid index
 
-    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+    > Technical note: parameter 5 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `HeightMap3D::HeightMap3D::SetGridValue`.
 
 ### Object conditions
 
 **Field point Z**  
 Compare the field Z for a given position in the scene.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
@@ -80,34 +86,40 @@ Compare the field Z for a given position in the scene.
     - Parameter 3 (🔢 Number): X position in the scene
     - Parameter 4 (🔢 Number): Y position in the scene
 
-    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+    > Technical note: parameter 5 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `HeightMap3D::HeightMap3D::FieldZ`.
 
 **Grid dimension X**  
 Compare the number of points in the grid on X axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `HeightMap3D::HeightMap3D::GridDimensionX`.
 
 **Grid dimension Y**  
 Compare the number of points in the grid on Y axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `HeightMap3D::HeightMap3D::GridDimensionY`.
 
 **Grid value**  
 Compare the field value at a grid index. The value is bewteen 0 and 1.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
@@ -115,7 +127,9 @@ Compare the field value at a grid index. The value is bewteen 0 and 1.
     - Parameter 3 (🔢 Number): X grid index
     - Parameter 4 (🔢 Number): Y grid index
 
-    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+    > Technical note: parameter 5 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `HeightMap3D::HeightMap3D::GridValue`.
 
 ### Object expressions
 

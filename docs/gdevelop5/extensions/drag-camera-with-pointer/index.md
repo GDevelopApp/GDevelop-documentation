@@ -28,7 +28,7 @@ Tips:
 **Drag camera with the mouse**  
 Move a camera by dragging the mouse (or touchscreen).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Camera number
     - Parameter 2 (🔤 Layer name (String)): Camera layer (default: "")
@@ -36,6 +36,8 @@ Move a camera by dragging the mouse (or touchscreen).
     - Parameter 4 (mouse): Mouse button (use "Left" for touchscreen)
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `DragCameraWithPointer::DragCameraWithPointer`.
 
 
 

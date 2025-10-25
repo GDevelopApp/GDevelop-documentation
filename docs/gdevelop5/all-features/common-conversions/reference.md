@@ -7,19 +7,23 @@ Expressions to convert numbers to string, strings to numbers, angles (degrees fr
 **Convert JSON to object variable**  
 Parse a JSON object and store it into an object variable
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (string): JSON string
     - Parameter 1: 👾 Object
     - Parameter 2 (🗄️ Object variable): Object variable where store the JSON object
 
+    > Technical note: this action internal type (in GDevelop JSON) is `JSONToObjectVariableStructure`.
+
 **Convert JSON to a variable**  
 Parse a JSON object and store it into a variable
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (string): JSON string
     - Parameter 1 (🗄️ Any variable): Variable where to store the JSON object
+
+    > Technical note: this action internal type (in GDevelop JSON) is `JSONToVariableStructure2`.
 
 ## Expressions
 

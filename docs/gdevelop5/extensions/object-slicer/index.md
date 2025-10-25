@@ -25,7 +25,7 @@ This example shows how to slice objects: [open the project online](https://edito
 **Slice object into smaller pieces**  
 Slice an object into smaller pieces that match color of the original object. The new object should be a solid white color.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Object to be sliced
     - Parameter 2 (👾 Object): Object used for sliced pieces
@@ -35,6 +35,8 @@ Slice an object into smaller pieces that match color of the original object. The
     - Parameter 5 (❓ Yes or No): Delete original object
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ObjectSlicer::SliceObjectIntoPieces`.
 
 
 

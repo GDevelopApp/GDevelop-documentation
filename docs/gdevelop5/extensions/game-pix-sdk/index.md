@@ -67,58 +67,70 @@ GamePix SDK provides following javascript API:
 **Show the interstitial ad**  
 Show the interstitial ad (full screen).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `GamePixSDK::InterstitialAd`.
 
 **Show the reward ad**  
 Show the reward ad (full screen).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `GamePixSDK::RewardAd`.
 
 ## Conditions
 
 **GamePix SDK is initialised**  
 Check if GamePix SDK is ready to use.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `GamePixSDK::Initialized`.
 
 **Check if interstitial has ended**  
 Check if interstitial has ended.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `GamePixSDK::InterstitialAdEnded`.
 
 **Check that the reward ad has ended**  
 Check that the reward ad has ended.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `GamePixSDK::RewardAdEnded`.
 
 **Check if player should be rewarded**  
 Check if player should be rewarded.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `GamePixSDK::RewardAdRewardPlayer`.
 
 ## Expressions
 

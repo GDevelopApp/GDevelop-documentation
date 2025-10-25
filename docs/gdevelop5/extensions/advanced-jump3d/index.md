@@ -27,67 +27,79 @@ Let 3D physics characters jump shortly after leaving a platform and also jump in
 **Remove a remaining air jump**  
 Remove one of the remaining air jumps of a character.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `AdvancedJump3D::AdvancedJump3D::RemoveOneRemainingAirJump`.
 
 **Reset air jumps**  
 Allow back all air jumps of a character.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `AdvancedJump3D::AdvancedJump3D::ResetAirJumpCounter`.
 
 **Air jumps**  
 Change the number of times the character can jump in mid-air.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Number of air jumps
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `AdvancedJump3D::AdvancedJump3D::SetAirJumpCountMaximum`.
 
 **Coyote timeframe**  
 Change the coyote time duration of an object (in seconds).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Duration
       Coyote time duration in seconds.
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `AdvancedJump3D::AdvancedJump3D::SetCoyoteTime`.
 
 ### Behavior conditions
 
 **Floor jumps count as air jumps**  
 Check if floor jumps are counted as air jumps for an object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `AdvancedJump3D::AdvancedJump3D::AreFloorJumpCountedAsAirJump`.
 
 **Can coyote jump**  
 Check if a coyote jump can currently happen.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `AdvancedJump3D::AdvancedJump3D::CanCoyoteJump`.
 
 ### Behavior expressions
 

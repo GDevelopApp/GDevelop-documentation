@@ -22,7 +22,7 @@ Checks if the object has landed on a floor with the given settings.
 **HasLanded**  
 Checks if the object has landed on floor.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2: 🧩 Behavior
@@ -34,10 +34,12 @@ Checks if the object has landed on floor.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `HasLanded::Landed`.
+
 **HasLandedOnGivenFloor**  
 Checks if the object has landed on a given floor.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2: 🧩 Behavior
@@ -49,6 +51,8 @@ Checks if the object has landed on a given floor.
     - Parameter 6 (👾 Object): Given Floor
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `HasLanded::LandedOnGivenFloor`.
 
 
 

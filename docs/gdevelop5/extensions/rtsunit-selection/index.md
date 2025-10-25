@@ -46,36 +46,42 @@ Tips:
 **Assign unit to a control group**  
 Assign unit to a control group.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🔢 Number): Control group ID
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `RTSUnitSelection::AssignControlGroup`.
+
 **Assign a unique ID to each "Selected" unit**  
 Assign a unique ID to each "Selected" unit.  This should be ran every time there is a change in the number of "Selected" units.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Units
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `RTSUnitSelection::AssignUnitID`.
+
 **Enable control groups using default controls**  
 Enable control groups using default controls.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Units
       Object (or object group) that will be assigned to a control group
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `RTSUnitSelection::RTSControlGroups`.
+
 **Allow player to select units by clicking on them or dragging a selection box**  
 Allow player to select units by clicking on them or dragging a selection box.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Units
       Object (or object group) that can be Selected
@@ -93,55 +99,67 @@ Allow player to select units by clicking on them or dragging a selection box.
 
     > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `RTSUnitSelection::RTSUnitSelection`.
+
 **Set unit as "Preselected"**  
 Set unit as "Preselected".
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (❓ True or False): Value
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `RTSUnitSelection::SetPreSelected`.
 
 **Set unit as "Selected"**  
 Set unit as "Selected".
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (❓ True or False): Value
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `RTSUnitSelection::SetSelected`.
 
 ## Conditions
 
 **Check if a unit is assigned to a control group**  
 Check if a unit is assigned to a control group.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🔢 Number): Control group ID
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `RTSUnitSelection::IsAssignedToControlGroup`.
+
 **Is unit "Preselected"**  
 Check if the unit is "Preselected".
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `RTSUnitSelection::IsPreSelected`.
 
 **Is unit "Selected"**  
 Check if the unit is "Selected".
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `RTSUnitSelection::IsSelected`.
 
 ## Expressions
 

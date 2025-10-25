@@ -13,116 +13,142 @@ Displays a rich text label using BBCode markup (allowing to set parts of the tex
 **Alignment**  
 Change the alignment of the text.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): BBText
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔤 String): Alignment (one of: "left", "right", "center")
 
+    > Technical note: this action internal type (in GDevelop JSON) is `BBText::SetAlignment`.
+
 **BBCode text**  
 Set BBCode text
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): BBText
     - Parameter 1: 🟰 Operator
     - Parameter 2 (string): Text
 
+    > Technical note: this action internal type (in GDevelop JSON) is `BBText::SetBBText`.
+
 **Color**  
 Set base color
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): BBText
     - Parameter 1 (color): Color (R;G;B)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `BBText::SetColor`.
+
 **Font family**  
 Set font family
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): BBText
     - Parameter 1 (fontResource): Font family
 
+    > Technical note: this action internal type (in GDevelop JSON) is `BBText::SetFontFamily2`.
+
 **Font size**  
 Set base font size
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): BBText
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Font size
 
+    > Technical note: this action internal type (in GDevelop JSON) is `BBText::SetFontSize`.
+
 **Word wrapping**  
 De/activate word wrapping.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): BBText
     - Parameter 1 (❓ Yes or No): Activate word wrapping
 
+    > Technical note: this action internal type (in GDevelop JSON) is `BBText::SetWordWrap`.
+
 **Wrapping width**  
 Change the width, in pixels, after which the text is wrapped on next line.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): BBText
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Wrapping width
+
+    > Technical note: this action internal type (in GDevelop JSON) is `BBText::SetWrappingWidth`.
 
 ### Object conditions
 
 **Alignment**  
 Check the current text alignment.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): BBText
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔤 String): Alignment (one of: "left", "right", "center")
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `BBText::IsAlignment`.
+
 **BBCode text**  
 Compare the value of the BBCode text.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): BBText
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Text
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `BBText::IsBBText`.
+
 **Font family**  
 Compare the value of font family
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): BBText
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Font family
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `BBText::IsFontFamily`.
+
 **Font size**  
 Compare the base font size of the text.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): BBText
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Font size
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `BBText::IsFontSize`.
+
 **Word wrapping**  
 Check if word wrapping is enabled.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): BBText
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `BBText::IsWordWrap`.
 
 **Wrapping width**  
 Compare the width, in pixels, after which the text is wrapped on next line.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): BBText
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Wrapping width
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `BBText::IsWrappingWidth`.
 
 ### Object expressions
 

@@ -27,7 +27,7 @@ Create a simple action to send the following data to a Ollama AI server:
 **Send prompt to a model**  
 Sends the prompt string, the model string, and the stream boolean from the given structure.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 String): The URL where the Ollama model is hosted (e.g. http://localhost:11434/api/generate)
       The URL should be in this format: "http://<ip address>:11434/api/generate". If you are hosting and testing locally, use this URL: "http://localhost:11434/api/generate". Read the extension's GitHub issue on how to host your own server. (one of: "http://localhost:11434/api/generate")
@@ -37,6 +37,8 @@ Sends the prompt string, the model string, and the stream boolean from the given
       The response will be stored in JSON in the variable "Ollama_AI_JSON". After that, you can convert the JSON to a structure. You can see how you can do it in the example on the extension's GitHub.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `OllamaAI::Request`.
 
 
 

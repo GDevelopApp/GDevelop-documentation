@@ -13,89 +13,109 @@ Displays a text using a "Bitmap Font" (an image representing characters). This i
 **Wrapping width**  
 Change the width, in pixels, after which the text is wrapped on next line.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): Bitmap text
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
+    > Technical note: this action internal type (in GDevelop JSON) is `BitmapText::BitmapTextObject::SetWrappingWidth`.
+
 **Alignment**  
 Change the alignment of a Bitmap text object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): Bitmap text
     - Parameter 1 (🔤 String): Alignment (one of: "left", "center", "right")
 
+    > Technical note: this action internal type (in GDevelop JSON) is `BitmapText::SetAlignment`.
+
 **Bitmap files resources**  
 Change the Bitmap Font and/or the atlas image used by the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): Bitmap text
     - Parameter 1 (bitmapFontResource): Bitmap font resource name
     - Parameter 2 (imageResource): Texture atlas resource name
 
+    > Technical note: this action internal type (in GDevelop JSON) is `BitmapText::SetBitmapFontAndTextureAtlasResourceName2`.
+
 **Tint**  
 Set the tint of the Bitmap Text object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): Bitmap text
     - Parameter 1: color
 
+    > Technical note: this action internal type (in GDevelop JSON) is `BitmapText::SetTint`.
+
 **Word wrapping**  
 De/activate word wrapping.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): Bitmap text
     - Parameter 1 (❓ Yes or No): Activate word wrapping
+
+    > Technical note: this action internal type (in GDevelop JSON) is `BitmapText::SetWordWrap`.
 
 ### Object conditions
 
 **Alignment**  
 Compare the text alignment.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): Bitmap text
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Alignment ("left", "right" or "center")
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `BitmapText::BitmapTextObject::Alignment`.
+
 **Font name**  
 Compare the font name (defined in the Bitmap font).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): Bitmap text
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `BitmapText::BitmapTextObject::FontName`.
+
 **Font size**  
 Compare the font size, defined in the Bitmap Font.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): Bitmap text
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `BitmapText::BitmapTextObject::FontSize`.
 
 **Wrapping width**  
 Compare the width, in pixels, after which the text is wrapped on next line.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): Bitmap text
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `BitmapText::BitmapTextObject::WrappingWidth`.
+
 **Word wrapping**  
 Check if word wrapping is enabled.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): Bitmap text
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `BitmapText::WordWrap`.
 
 ### Object expressions
 

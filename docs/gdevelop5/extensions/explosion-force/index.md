@@ -37,7 +37,7 @@ Variables given to Target Objects:
 **Simulate explosion with physics forces**  
 Simulate an explosion with physics forces on target objects.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Target Object
     - Parameter 2 (🧩 Behavior): Physics Behavior (required)
@@ -49,6 +49,8 @@ Simulate an explosion with physics forces on target objects.
       Objects less than this distance will be affected by the explosion.
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ExplosionForce::ApplyExplosionForce`.
 
 
 

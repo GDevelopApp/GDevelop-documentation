@@ -25,7 +25,7 @@ Read more: [Same-origin policy](https://developer.mozilla.org/en-US/docs/Web/Sec
 **Create an Iframe**  
 Create a new Iframe to embed a website inside the game.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Name (DOM id)
     - Parameter 2 (string): URL
@@ -40,14 +40,18 @@ Create a new Iframe to embed a website inside the game.
 
     > Technical note: parameters 0, 10 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Iframe::Create`.
+
 **Delete an Iframe**  
 Delete the specified Iframe.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Name (DOM id)
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Iframe::Delete`.
 
 
 

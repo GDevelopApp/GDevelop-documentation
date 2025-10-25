@@ -23,7 +23,7 @@ Conditions, actions and expressions to use regular expressions with strings, suc
 **Find all matches for a regex pattern**  
 Builds an array containing all matches for a regex pattern.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Pattern
     - Parameter 2 (string): RegEx flags
@@ -31,11 +31,13 @@ Builds an array containing all matches for a regex pattern.
     - Parameter 4 (string): The name of the variable to store the result in
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `RegEx::GetAllMatches`.
 
 **Find all matches with their groups for a regex pattern**  
 Builds an array containing for each regex pattern match an array with the match followed by its regex groups.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Pattern
     - Parameter 2 (string): RegEx flags
@@ -44,10 +46,12 @@ Builds an array containing for each regex pattern match an array with the match 
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `RegEx::GetAllMatchesAndGroups`.
+
 **Find first match with groups for a regex pattern**  
 Builds an array containing the first match for a regex pattern followed by the regex groups.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Pattern
     - Parameter 2 (string): Flags
@@ -56,10 +60,12 @@ Builds an array containing the first match for a regex pattern followed by the r
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `RegEx::GetFirstMatchAndGroups`.
+
 **Split a string into an array**  
 Split a string by each part of it that matches a regex pattern and stores each part into an array.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): The pattern to split by
     - Parameter 2 (string): RegEx flags
@@ -68,18 +74,22 @@ Split a string by each part of it that matches a regex pattern and stores each p
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `RegEx::Split`.
+
 ## Conditions
 
 **String matches regex pattern**  
 Checks if a string matches a regex pattern.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): The pattern to check for
     - Parameter 2 (string): RegEx flags
     - Parameter 3 (string): The string to check for a pattern
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `RegEx::HasPattern`.
 
 ## Expressions
 

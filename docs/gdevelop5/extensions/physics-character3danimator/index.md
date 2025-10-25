@@ -25,28 +25,32 @@ Change animations of a 3D physics character automatically.
 **Rotation speed**  
 Change the rotation speed of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PhysicsCharacter3DAnimator::PhysicsCharacter3DAnimator::SetRotationSpeed`.
 
 ### Behavior conditions
 
 **Rotation speed**  
 Compare the rotation speed of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PhysicsCharacter3DAnimator::PhysicsCharacter3DAnimator::RotationSpeed`.
 
 ### Behavior expressions
 

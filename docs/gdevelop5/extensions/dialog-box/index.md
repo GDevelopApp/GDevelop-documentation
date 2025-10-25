@@ -66,7 +66,7 @@ Add this to the sprite object that will be the background of the dialog box.
 **Change Dialog Box contents**  
 Change the Name, Image, and Text in the Dialog Box.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -74,55 +74,65 @@ Change the Name, Image, and Text in the Dialog Box.
     - Parameter 3: 🔤 Object Animation Name (String)
     - Parameter 4 (string): Text
 
-    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+    > Technical note: parameter 5 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `DialogBox::DialogBoxBackGround::ChangeNameImageText`.
 
 **Change Dialog Box Text**  
 Change the Dialog Box Text.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (string): Text
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `DialogBox::DialogBoxBackGround::ChangeText`.
 
 **Change Dialog Box typing interval**  
 Changes the typing interval of the Dialog Box (in seconds).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Typing interval (in seconds)
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `DialogBox::DialogBoxBackGround::ChangeTypingInterval`.
 
 **Change Dialog Box typing sound**  
 Changes the typing sound effect of the Dialog Box (File name) (The audio file must be registered as a resource!).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (string): Audio file name (The audio file must be registered as a resource!)
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `DialogBox::DialogBoxBackGround::ChangeTypingSound`.
 
 **Close Dialog Box**  
 Close the Dialog Box.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `DialogBox::DialogBoxBackGround::Close`.
 
 **Open Dialog Box**  
 Open the Dialog Box.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -130,12 +140,14 @@ Open the Dialog Box.
     - Parameter 3: 🔤 Object Animation Name (String)
     - Parameter 4 (string): Text
 
-    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+    > Technical note: parameter 5 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `DialogBox::DialogBoxBackGround::Open`.
 
 **Setup Dialog Box**  
 Setup the Dialog Box.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -144,60 +156,72 @@ Setup the Dialog Box.
     - Parameter 4 (👾 Object): Text (BB Text)
     - Parameter 5 (👾 Object): Arrow (Sprite)
 
-    > Technical note: parameter 6 are internal parameters handled by GDevelop.
+    > Technical note: parameter 6 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `DialogBox::DialogBoxBackGround::Setup`.
 
 **Skip Dialog Box typing**  
 Skip typing in the Dialog Box.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `DialogBox::DialogBoxBackGround::SkipTyping`.
 
 ### Behavior conditions
 
 **Number of times the Text in Dialog Box has changed**  
 Compare the number of times the Text in the Dialog Box has changed.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Number (0-based)
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `DialogBox::DialogBoxBackGround::CompareChangeCounter`.
 
 **Dialog Box is close**  
 Dialog Box is close.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `DialogBox::DialogBoxBackGround::IsClose`.
 
 **Dialog Box is open**  
 Dialog Box is open.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `DialogBox::DialogBoxBackGround::IsOpen`.
 
 **Dialog Box is typing**  
 Text in the Dialog Box is typing.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `DialogBox::DialogBoxBackGround::IsTyping`.
 
 ### Behavior expressions
 

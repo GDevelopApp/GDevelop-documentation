@@ -47,7 +47,7 @@ Convert object to trampoline platform.
 **Trampoline Platform**  
 Convert object to trampoline platform.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Platformer character object (player)
     - Parameter 2 (🧩 Behavior): Platformer character behavior
@@ -59,16 +59,20 @@ Convert object to trampoline platform.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `TrampolinePlatform::Trampoline`.
+
 ## Conditions
 
 **Trampoline has been triggered**  
 Check if a trampoline has been triggered.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Trampoline object
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `TrampolinePlatform::Jumped`.
 
 
 

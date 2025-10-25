@@ -37,26 +37,30 @@ The general worflow is the following:
 **Finalize a purchase**  
 Mark a purchase as delivered, after you delivered the rewards the user has paid for and saved it somewhere. If you don't do so, the user will get the money refunded as the purchase will be considered as incomplete, with the rewards not given.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): The id or alias of the product to finalize
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `InAppPurchase::FinalizePurchase`.
+
 **Finalize registration**  
 Finalize store registration. Do this after registering every product and before ordering or getting information about a product.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `InAppPurchase::FinalizeRegistration`.
 
 **Load product data in a variable**  
 Get all the data about a product from the IAP provider and store it into a structure variable.  
 Check [this page](https://github.com/j3k0/cordova-plugin-purchase/blob/master/api/classes/CdvPurchase.Product.md) for the exhaustive list of what can be retrieved from the product.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): The id or alias of the product to get info about
     - Parameter 2 (string): The name of the scene variable to store the product data in
@@ -64,23 +68,27 @@ Check [this page](https://github.com/j3k0/cordova-plugin-purchase/blob/master/ap
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `InAppPurchase::GetProduct`.
+
 **Order a product**  
 Opens the purchase menu to let the user buy a product.  
 
 Ensure you use the condition to check if the store is ready and that the product ID has been registered and finalized before calling this action.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): The id of the product to buy
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `InAppPurchase::OrderItem`.
 
 **Register a Product**  
 Register a Product of your store. This is required to do for all products you want to display or order from the app.   
 
 Make sure you register them all and finalize registration before ordering a product.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): The internal ID of the product
       Use the ID of the product you entered on the IAP provider (Google play, Apple store...)
@@ -88,6 +96,8 @@ Make sure you register them all and finalize registration before ordering a prod
     - Parameter 3 (🔤 String): Which platform you're registering the product to (one of: "android-playstore", "ios-appstore", "braintree", "windows-store-transaction")
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `InAppPurchase::RegisterItem`.
 
 **Update a variable when a product event is triggered**  
 When an event is triggered for a product (approved or finished), this sets a scene variable to true.   
@@ -97,7 +107,7 @@ Use with Trigger Once to avoid registering multiple watchers unnecessarily.
 Approved is triggered after the purchase is complete.
 Finished is triggered after you have marked the purchased as delivered (less useful).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): The id of the product to watch
     - Parameter 2 (string): The name of the scene variable to set to "true" when the event happens
@@ -105,16 +115,20 @@ Finished is triggered after you have marked the purchased as delivered (less use
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `InAppPurchase::WatchItemEvent`.
+
 ## Conditions
 
 **Store is ready**  
 Triggers after finalizing the registration. Products can then be retrieved and purchased (you can get data of a product like the price, you can use the action to order a product...).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `InAppPurchase::StoreReady`.
 
 
 

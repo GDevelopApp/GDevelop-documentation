@@ -60,7 +60,7 @@ Remap keyboard controls of the platformer character movement.
 **Remap Platformer controls to a custom scheme**  
 Remaps Platformer behavior controls to a custom control scheme.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -70,18 +70,22 @@ Remaps Platformer behavior controls to a custom control scheme.
     - Parameter 5 (keyboardKey): Right key
     - Parameter 6 (keyboardKey): Jump key
 
-    > Technical note: parameter 7 are internal parameters handled by GDevelop.
+    > Technical note: parameter 7 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `BehaviorRemapper::RemapForPlatformer::SetCustom`.
 
 **Remap Platformer controls to a preset**  
 Remaps Platformer behavior controls to a preset control scheme.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔤 String): Preset name (one of: "WASD", "ZQSD", "Numpad", "IJKL")
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `BehaviorRemapper::RemapForPlatformer::SetPreset`.
 
 _No expressions for this behavior._
 
@@ -95,7 +99,7 @@ Remap keyboard controls of the top-down movement.
 **Remap Top-Down controls to a custom scheme**  
 Remaps Top-Down behavior controls to a custom control scheme.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -104,18 +108,22 @@ Remaps Top-Down behavior controls to a custom control scheme.
     - Parameter 4 (keyboardKey): Down key
     - Parameter 5 (keyboardKey): Right key
 
-    > Technical note: parameter 6 are internal parameters handled by GDevelop.
+    > Technical note: parameter 6 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `BehaviorRemapper::RemapForTopdown::SetCustom`.
 
 **Remap Top-Down controls to a preset**  
 Remaps Top-Down behavior controls to a preset control scheme.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔤 String): Preset name (one of: "WASD", "ZQSD", "Numpad", "IJKL")
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `BehaviorRemapper::RemapForTopdown::SetPreset`.
 
 _No expressions for this behavior._
 

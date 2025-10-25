@@ -30,7 +30,7 @@ The target angle action can be used to follow hte direction of a gamepad stick
 **Point and Orbit toward a position**  
 Point and Orbit an object toward a position.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Gun object
       The object that is going to orbit and rotate.
@@ -50,10 +50,12 @@ Point and Orbit an object toward a position.
 
     > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `PointAndOrbit::PointAndOrbit`.
+
 **Point and Orbit toward an angle**  
 Point and Orbit an object toward an angle.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Gun object
       The object that is going to orbit and rotate.
@@ -70,6 +72,8 @@ Point and Orbit an object toward an angle.
       Set to 0 for an immediate pointing.
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PointAndOrbit::PointAndOrbitAngle`.
 
 
 

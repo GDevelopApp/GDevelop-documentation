@@ -28,24 +28,28 @@ Move objects by jumping on a grid like a frog.
 **Simulate jump key press at angle**  
 Simulate a press of the jump key in a direction.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Angle
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `GridJump3D::GridJump3D::JumpAtSnappedAngle`.
 
 **Rotate toward**  
 Rotate the object in a direction.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Angle
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `GridJump3D::GridJump3D::Rotate`.
 
 _No expressions for this behavior._
 

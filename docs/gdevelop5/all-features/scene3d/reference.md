@@ -7,91 +7,105 @@ Support for 3D in GDevelop: this provides 3D objects and the common features for
 **Camera far plane**  
 Change the camera far plane distance.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Distance (> 0)
     - Parameter 3: 🔤 Layer name (String)
     - Parameter 4 (🔢 Number): Camera number
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Scene3D::SetCameraFarPlane`.
 
 **Camera field of view (fov)**  
 Change the camera field of view.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Field of view in degrees (between 0° and 180°)
     - Parameter 3: 🔤 Layer name (String)
     - Parameter 4 (🔢 Number): Camera number
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Scene3D::SetCameraFov`.
 
 **Camera near plane**  
 Change the camera near plane distance.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Distance (> 0)
     - Parameter 3: 🔤 Layer name (String)
     - Parameter 4 (🔢 Number): Camera number
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Scene3D::SetCameraNearPlane`.
 
 **Camera X rotation**  
 Change the camera rotation on X axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Angle (in degrees)
     - Parameter 3: 🔤 Layer name (String)
     - Parameter 4 (🔢 Number): Camera number
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Scene3D::SetCameraRotationX`.
 
 **Camera Y rotation**  
 Change the camera rotation on Y axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Angle (in degrees)
     - Parameter 3: 🔤 Layer name (String)
     - Parameter 4 (🔢 Number): Camera number
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Scene3D::SetCameraRotationY`.
 
 **Camera Z position**  
 Change the camera position on Z axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
     - Parameter 3: 🔤 Layer name (String)
     - Parameter 4 (🔢 Number): Camera number
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Scene3D::SetCameraZ`.
 
 **Look at an object**  
 Change the camera rotation to look at an object. The camera top always face the screen.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2: 🔤 Layer name (String)
     - Parameter 3 (🔢 Number): Camera number
     - Parameter 4 (❓ Yes or No): Stand on Y instead of Z
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Scene3D::TurnCameraTowardObject`.
 
 **Look at a position**  
 Change the camera rotation to look at a position. The camera top always face the screen.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): X position
     - Parameter 2 (🔢 Number): Y position
@@ -100,81 +114,95 @@ Change the camera rotation to look at a position. The camera top always face the
     - Parameter 5 (🔢 Number): Camera number
     - Parameter 6 (❓ Yes or No): Stand on Y instead of Z
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Scene3D::TurnCameraTowardPosition`.
 
 ## Conditions
 
 **Camera far plane**  
 Compare the camera far plane distance.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Distance (> 0)
     - Parameter 3: 🔤 Layer name (String)
     - Parameter 4 (🔢 Number): Camera number
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Scene3D::CameraFarPlane`.
 
 **Camera field of view (fov)**  
 Compare the camera field of view.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Field of view in degrees (between 0° and 180°)
     - Parameter 3: 🔤 Layer name (String)
     - Parameter 4 (🔢 Number): Camera number
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Scene3D::CameraFov`.
 
 **Camera near plane**  
 Compare the camera near plane distance.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Distance (> 0)
     - Parameter 3: 🔤 Layer name (String)
     - Parameter 4 (🔢 Number): Camera number
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Scene3D::CameraNearPlane`.
 
 **Camera X rotation**  
 Compare the camera rotation on X axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Angle (in degrees)
     - Parameter 3: 🔤 Layer name (String)
     - Parameter 4 (🔢 Number): Camera number
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Scene3D::CameraRotationX`.
 
 **Camera Y rotation**  
 Compare the camera rotation on Y axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Angle (in degrees)
     - Parameter 3: 🔤 Layer name (String)
     - Parameter 4 (🔢 Number): Camera number
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Scene3D::CameraRotationY`.
 
 **Camera Z position**  
 Compare the camera position on Z axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3: 🔤 Layer name (String)
     - Parameter 4 (🔢 Number): Camera number
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Scene3D::CameraZ`.
 
 ## Expressions
 
@@ -208,38 +236,46 @@ A box with images for each face
 **Face image**  
 Change the image of the face.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): 3D cube
     - Parameter 1 (🔤 String): Face (one of: "front", "back", "left", "right", "top", "bottom")
     - Parameter 2 (imageResource): Image
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Scene3D::Cube3DObject::SetFaceResource`.
+
 **Face visibility**  
 Set (or unset) if a face should be visible.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): 3D cube
     - Parameter 1 (🔤 String): Face (one of: "front", "back", "left", "right", "top", "bottom")
     - Parameter 2 (❓ Yes or No): Visible?
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Scene3D::Cube3DObject::SetFaceVisibility`.
+
 **Tint color**  
 Change the tint of the cube.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): 3D Cube
     - Parameter 1 (color): Tint
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Scene3D::Cube3DObject::SetTint`.
 
 ### Object conditions
 
 **Face visibility**  
 Check if a face should be visible.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): 3D cube
     - Parameter 1 (🔤 String): Face (one of: "front", "back", "left", "right", "top", "bottom")
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Scene3D::Cube3DObject::FaceVisibility`.
 
 _No expressions for this object._
 
@@ -253,10 +289,12 @@ An animated 3D model, useful for most elements of a 3D game.
 **Set crossfade duration**  
 Set the crossfade duration when switching to a new animation.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): 3D model
     - Parameter 1 (🔢 Number): Crossfade duration (in seconds)
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Scene3D::Model3DObject::SetCrossfadeDuration`.
 
 _No expressions for this object._
 
@@ -270,168 +308,202 @@ Common features for all 3D objects: position in 3D space (including the Z axis, 
 **Flip the object on Z**  
 Flip the object on Z axis
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): 3D object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Activate flipping
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Scene3D::Base3DBehavior::FlipZ`.
+
 **Center Z position**  
 Change the Z position of the center of rotation.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): 3D object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Scene3D::Base3DBehavior::SetCenterZ`.
 
 **Depth (size on Z axis)**  
 Change the depth (size on Z axis).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): 3D object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Scene3D::Base3DBehavior::SetDepth`.
+
 **Rotation on X axis**  
 Change the rotation on X axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): 3D object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Angle (in degrees)
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Scene3D::Base3DBehavior::SetRotationX`.
 
 **Rotation on Y axis**  
 Change the rotation on Y axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): 3D object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Angle (in degrees)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Scene3D::Base3DBehavior::SetRotationY`.
+
 **Scale on Z axis**  
 Change the scale on Z axis of an object (default scale is 1).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): 3D object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Scale (1 by default)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Scene3D::Base3DBehavior::SetScaleZ`.
+
 **Z (elevation)**  
 Change the Z position (the "elevation").
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): 3D object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Scene3D::Base3DBehavior::SetZ`.
+
 **Turn around X axis**  
 Turn the object around X axis. This axis doesn't move with the object rotation.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): 3D object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Angle to add (in degrees)
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Scene3D::Base3DBehavior::TurnAroundX`.
 
 **Turn around Y axis**  
 Turn the object around Y axis. This axis doesn't move with the object rotation.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): 3D object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Angle to add (in degrees)
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Scene3D::Base3DBehavior::TurnAroundY`.
 
 **Turn around Z axis**  
 Turn the object around Z axis. This axis doesn't move with the object rotation.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): 3D object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Angle to add (in degrees)
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Scene3D::Base3DBehavior::TurnAroundZ`.
 
 ### Behavior conditions
 
 **Center Z position**  
 Compare the Z position of the center of rotation.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): 3D object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Scene3D::Base3DBehavior::CenterZ`.
 
 **Depth (size on Z axis)**  
 Compare the depth (size on Z axis).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): 3D object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Scene3D::Base3DBehavior::Depth`.
+
 **Flipped on Z**  
 Check if the object is flipped on Z axis
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): 3D object
     - Parameter 1: 🧩 Behavior
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Scene3D::Base3DBehavior::FlippedZ`.
 
 **Rotation on X axis**  
 Compare the rotation on X axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): 3D object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Angle (in degrees)
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Scene3D::Base3DBehavior::RotationX`.
 
 **Rotation on Y axis**  
 Compare the rotation on Y axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): 3D object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Angle (in degrees)
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Scene3D::Base3DBehavior::RotationY`.
+
 **Scale on Z axis**  
 Compare the scale on Z axis of an object (default scale is 1).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): 3D object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Scale (1 by default)
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Scene3D::Base3DBehavior::ScaleZ`.
+
 **Z (elevation)**  
 Compare the Z position (the "elevation").
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): 3D object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Scene3D::Base3DBehavior::Z`.
 
 ### Behavior expressions
 

@@ -18,36 +18,42 @@ This allows to make optimizations by transforming the resulting image of a shape
 **Render a layer into a sprite**  
 Renders a layer and puts the rendered image into a sprite object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Layer name (String)): The layer to render
     - Parameter 2 (👾 Object): The sprite to render to
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `RenderToSprite::RenderLayer`.
+
 **Render an object into a sprite**  
 Renders an object and puts the rendered image into a sprite object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): The object to render
     - Parameter 2 (👾 Object): The sprite to render to
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `RenderToSprite::RenderObject`.
+
 **Render a scene into a sprite**  
 Renders a scene and puts the rendered image into a sprite object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): The sprite to render to
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `RenderToSprite::RenderScene`.
+
 **Render an area of a scene into a sprite**  
 Renders a defined area of a scene and puts the rendered image into a sprite object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): The sprite to render to
     - Parameter 2 (🔢 Number): Origin X position of the render area
@@ -56,6 +62,8 @@ Renders a defined area of a scene and puts the rendered image into a sprite obje
     - Parameter 5 (🔢 Number): Height of the area to render
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `RenderToSprite::RenderSceneArea`.
 
 
 

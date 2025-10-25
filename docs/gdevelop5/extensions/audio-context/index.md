@@ -28,27 +28,31 @@ This extension can easily create chiptunes.
 **Add detune to a synth**  
 Add detune on top of the main frequency to get cool synth effects.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Synth name
     - Parameter 2 (🔢 Number): Detune value in chips
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `AudioContext::AddDetuneToSynth`.
+
 **Add multiple detunes to a synth**  
 Add comma separated detune values to a synth.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Synth name
     - Parameter 2 (string): Comma separated detune values
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `AudioContext::AddDetunesToSynth`.
+
 **Add/update filter**  
 Add or update biquad filter.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Synth name
     - Parameter 2 (🔤 String): Filter type (one of: "lowpass", "highpass", "bandpass", "lowshelf", "highshelf", "peaking", "notch", "allpass")
@@ -58,29 +62,35 @@ Add or update biquad filter.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `AudioContext::AddFilterToSynth`.
+
 **Create chord**  
 Create a new chord.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Chord name (imaginary or real)
     - Parameter 2 (string): Comma separated notes including octave eg. "C#4, Eb4, G4"
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `AudioContext::CreateChord`.
+
 **Create an Audio Context**  
 Create a new audio context (In most cases you only need one context and reuse it with the name).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Context name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `AudioContext::CreateContext`.
+
 **Create/update synth**  
 Create or update synth with attack, decay, sustain, release gain and apply filters.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Name of the synth
     - Parameter 2 (string): Context name
@@ -92,10 +102,12 @@ Create or update synth with attack, decay, sustain, release gain and apply filte
 
     > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `AudioContext::CreateSynth`.
+
 **Play chord**  
 Play an existing chord on a synth.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Chord name
     - Parameter 2 (string): Synth name to play the chord on
@@ -103,10 +115,12 @@ Play an existing chord on a synth.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `AudioContext::PlayChord`.
+
 **Play note**  
 Play a note a synth you've created before.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Synth name
     - Parameter 2 (🔤 String): Note name (one of: "C", "C#", "Db", "D", "D#", "Eb", "E", "F", "F#", "Gb", "G", "G#", "Ab", "A", "A#", "Bb", "B")
@@ -115,16 +129,20 @@ Play a note a synth you've created before.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `AudioContext::PlayNote`.
+
 ## Conditions
 
 **Context exists**  
 Check if the context already created.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Context name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `AudioContext::ContextExists`.
 
 ## Expressions
 

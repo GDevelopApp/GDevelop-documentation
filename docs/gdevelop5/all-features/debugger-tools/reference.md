@@ -7,32 +7,38 @@ Allow to interact with the editor debugger from the game (notably: enable 2D deb
 **Log a message to the console**  
 Logs a message to the debugger's console.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (string): Message to log
     - Parameter 1 (🔤 String): Message type (one of: "info", "warning", "error")
     - Parameter 2 (string): Group of messages
 
+    > Technical note: this action internal type (in GDevelop JSON) is `DebuggerTools::ConsoleLog`.
+
 **Draw collisions hitboxes and points**  
 This activates the display of rectangles and information on screen showing the objects bounding boxes (blue), the hitboxes (red) and some points of objects.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (❓ Yes or No): Enable debug draw
     - Parameter 2 (❓ Yes or No): Show collisions for hidden objects
     - Parameter 3 (❓ Yes or No): Show points names
     - Parameter 4 (❓ Yes or No): Show custom points
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `DebuggerTools::EnableDebugDraw`.
 
 **Pause game execution**  
 This pauses the game, useful for inspecting the game state through the debugger. Note that events will be still executed until the end before the game is paused.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
+    There are no parameters to set for this action.
 
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: this action internal type (in GDevelop JSON) is `DebuggerTools::Pause`.
 
 
 

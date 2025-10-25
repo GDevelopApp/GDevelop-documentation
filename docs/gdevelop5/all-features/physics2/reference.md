@@ -11,46 +11,54 @@ Forces (and impulses) are expressed in all conditions/expressions/actions of the
 **World time scale**  
 Modify the world time scale. While an object is needed, this will apply to all objects using the behavior.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Time scale (1 by default)
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::TimeScale`.
 
 ## Conditions
 
 **Collision**  
 Check if two objects collide.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 👾 Object
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::Collision`.
 
 **Collision started**  
 Check if two objects just started colliding during this frame.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 👾 Object
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::CollisionStarted`.
 
 **Collision stopped**  
 Check if two objects just stopped colliding at this frame.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 👾 Object
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::CollisionStopped`.
 
 
 
@@ -63,7 +71,7 @@ Simulate realistic 2D physics for the object including gravity, forces, collisio
 **Add distance joint**  
 Add a distance joint between two objects. The length is converted to meters using the world scale on X. The frequency and damping ratio are related to the joint speed of oscillation and how fast it stops.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): First object
     - Parameter 1: 🧩 Behavior
@@ -78,10 +86,12 @@ Add a distance joint between two objects. The length is converted to meters usin
     - Parameter 10 (❓ Yes or No): Allow collision between connected bodies? (default: no)
     - Parameter 11 (🗄️ Scene variable): Variable where to store the joint ID (default: none)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::AddDistanceJoint`.
+
 **Add friction joint**  
 Add a friction joint between two objects.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): First object
     - Parameter 1: 🧩 Behavior
@@ -95,10 +105,12 @@ Add a friction joint between two objects.
     - Parameter 9 (❓ Yes or No): Allow collision between connected bodies? (default: no)
     - Parameter 10 (🗄️ Scene variable): Variable where to store the joint ID (default: none)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::AddFrictionJoint`.
+
 **Add gear joint**  
 Add a gear joint between two joints. Attention: Gear joints require the joints to be revolute or prismatic, and both of them to be attached to a static body as first object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): First object
     - Parameter 1: 🧩 Behavior
@@ -108,10 +120,12 @@ Add a gear joint between two joints. Attention: Gear joints require the joints t
     - Parameter 5 (❓ Yes or No): Allow collision between connected bodies? (default: no)
     - Parameter 6 (🗄️ Scene variable): Variable where to store the joint ID (default: none)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::AddGearJoint`.
+
 **Add motor joint**  
 Add a motor joint between two objects. The position and angle offsets are relative to the first object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): First object
     - Parameter 1: 🧩 Behavior
@@ -125,10 +139,12 @@ Add a motor joint between two objects. The position and angle offsets are relati
     - Parameter 9 (❓ Yes or No): Allow collision between connected bodies? (default: no)
     - Parameter 10 (🗄️ Scene variable): Variable where to store the joint ID (default: none)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::AddMotorJoint`.
+
 **Add mouse joint**  
 Add a mouse joint to an object (makes the object move towards a specific point).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -139,10 +155,12 @@ Add a mouse joint to an object (makes the object move towards a specific point).
     - Parameter 6 (🔢 Number): Damping ratio (non-negative) (default: 1)
     - Parameter 7 (🗄️ Scene variable): Variable where to store the joint ID (default: none)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::AddMouseJoint`.
+
 **Add prismatic joint**  
 Add a prismatic joint between two objects. The translation limits are converted to meters using the world scale on X.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): First object
     - Parameter 1: 🧩 Behavior
@@ -162,10 +180,12 @@ Add a prismatic joint between two objects. The translation limits are converted 
     - Parameter 15 (❓ Yes or No): Allow collision between connected bodies? (default: no)
     - Parameter 16 (🗄️ Scene variable): Variable where to store the joint ID (default: none)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::AddPrismaticJoint`.
+
 **Add pulley joint**  
 Add a pulley joint between two objects. Lengths are converted to meters using the world scale on X.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): First object
     - Parameter 1: 🧩 Behavior
@@ -184,10 +204,12 @@ Add a pulley joint between two objects. Lengths are converted to meters using th
     - Parameter 14 (❓ Yes or No): Allow collision between connected bodies? (default: no)
     - Parameter 15 (🗄️ Scene variable): Variable where to store the joint ID (default: none)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::AddPulleyJoint`.
+
 **Add revolute joint**  
 Add a revolute joint to an object at a fixed point. The object is attached as the second object in the joint, so you can use this for gear joints.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -202,10 +224,12 @@ Add a revolute joint to an object at a fixed point. The object is attached as th
     - Parameter 10 (🔢 Number): Motor maximum torque (default: 0)
     - Parameter 11 (🗄️ Scene variable): Variable where to store the joint ID (default: none)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::AddRevoluteJoint`.
+
 **Add revolute joint between two bodies**  
 Add a revolute joint between two objects. The reference angle determines what is considered as the base angle at the initial state.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): First object
     - Parameter 1: 🧩 Behavior
@@ -224,10 +248,12 @@ Add a revolute joint between two objects. The reference angle determines what is
     - Parameter 14 (❓ Yes or No): Allow collision between connected bodies? (default: no)
     - Parameter 15 (🗄️ Scene variable): Variable where to store the joint ID (default: none)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::AddRevoluteJointBetweenTwoBodies`.
+
 **Add rope joint**  
 Add a rope joint between two objects. The maximum length is converted to meters using the world scale on X.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): First object
     - Parameter 1: 🧩 Behavior
@@ -240,10 +266,12 @@ Add a rope joint between two objects. The maximum length is converted to meters 
     - Parameter 8 (❓ Yes or No): Allow collision between connected bodies? (default: no)
     - Parameter 9 (🗄️ Scene variable): Variable where to store the joint ID (default: none)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::AddRopeJoint`.
+
 **Add weld joint**  
 Add a weld joint between two objects.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): First object
     - Parameter 1: 🧩 Behavior
@@ -258,10 +286,12 @@ Add a weld joint between two objects.
     - Parameter 10 (❓ Yes or No): Allow collision between connected bodies? (default: no)
     - Parameter 11 (🗄️ Scene variable): Variable where to store the joint ID (default: none)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::AddWeldJoint`.
+
 **Add wheel joint**  
 Add a wheel joint between two objects. Higher frequencies means higher suspensions. Damping determines oscillations, critical damping of 1 means no oscillations.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): First object
     - Parameter 1: 🧩 Behavior
@@ -279,40 +309,48 @@ Add a wheel joint between two objects. Higher frequencies means higher suspensio
     - Parameter 13 (❓ Yes or No): Allow collision between connected bodies? (default: no)
     - Parameter 14 (🗄️ Scene variable): Variable where to store the joint ID (default: none)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::AddWheelJoint`.
+
 **Angular damping**  
 Modify an object angular damping. How much angular speed is lost across the time.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::AngularDamping`.
+
 **Angular velocity**  
 Modify an object angular velocity.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Angular speed (in degrees per second)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::AngularVelocity`.
+
 **Apply angular impulse (rotational impulse)**  
 Apply an angular impulse (also called a "rotational impulse") to the object. It instantly changes the rotation speed, to give an initial speed for instance.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Angular impulse (N·m·s)
       An impulse is like a rotation speed addition but depends on the mass.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::ApplyAngularImpulse`.
+
 **Apply force**  
 Apply a force to the object over time. It "accelerates" an object and must be used every frame during a time period.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -323,10 +361,12 @@ Apply a force to the object over time. It "accelerates" an object and must be us
     - Parameter 5 (🔢 Number): Application point on Y axis
       Use `MassCenterX` and `MassCenterY` expressions to avoid any rotation.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::ApplyForce`.
+
 **Apply force toward position**  
 Apply a force to the object over time to move it toward a position. It "accelerates" an object and must be used every frame during a time period.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -338,10 +378,12 @@ Apply a force to the object over time to move it toward a position. It "accelera
     - Parameter 6 (🔢 Number): Application point on Y axis
       Use `MassCenterX` and `MassCenterY` expressions to avoid any rotation.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::ApplyForceTowardPosition`.
+
 **Apply impulse**  
 Apply an impulse to the object. It instantly changes the speed, to give an initial speed for instance.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -352,10 +394,12 @@ Apply an impulse to the object. It instantly changes the speed, to give an initi
     - Parameter 5 (🔢 Number): Application point on Y axis
       Use `MassCenterX` and `MassCenterY` expressions to avoid any rotation.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::ApplyImpulse`.
+
 **Apply impulse toward position**  
 Apply an impulse to the object to move it toward a position. It instantly changes the speed, to give an initial speed for instance.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -367,10 +411,12 @@ Apply an impulse to the object to move it toward a position. It instantly change
     - Parameter 6 (🔢 Number): Application point on Y axis
       Use `MassCenterX` and `MassCenterY` expressions to avoid any rotation.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::ApplyImpulseTowardPosition`.
+
 **Apply force (angle)**  
 Apply a force to the object over time using polar coordinates. It "accelerates" an object and must be used every frame during a time period.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -381,10 +427,12 @@ Apply a force to the object over time using polar coordinates. It "accelerates" 
     - Parameter 5 (🔢 Number): Application point on Y axis
       Use `MassCenterX` and `MassCenterY` expressions to avoid any rotation.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::ApplyPolarForce`.
+
 **Apply impulse (angle)**  
 Apply an impulse to the object using polar coordinates. It instantly changes the speed, to give an initial speed for instance.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -395,52 +443,62 @@ Apply an impulse to the object using polar coordinates. It instantly changes the
     - Parameter 5 (🔢 Number): Application point on Y axis
       Use `MassCenterX` and `MassCenterY` expressions to avoid any rotation.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::ApplyPolarImpulse`.
+
 **Apply torque (rotational force)**  
 Apply a torque (also called "rotational force") to the object. It "accelerates" an object rotation and must be used every frame during a time period.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Torque (N·m)
       A torque is like a rotation acceleration but depends on the mass.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::ApplyTorque`.
+
 **Density**  
 Modify an object density. The body's density and volume determine its mass.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::Density`.
+
 **Distance joint damping ratio**  
 Modify a distance joint damping ratio.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::DistanceJointDampingRatio`.
 
 **Distance joint frequency**  
 Modify a distance joint frequency.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::DistanceJointFrequency`.
 
 **Distance joint length**  
 Modify a distance joint length.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -448,112 +506,134 @@ Modify a distance joint length.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::DistanceJointLength`.
+
 **Enable layer**  
 Enable or disable a layer for an object. Two objects collide if any layer of the first object matches any mask of the second one and vice versa.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Layer (1 - 16)
     - Parameter 3 (❓ Yes or No): Enable
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::EnableLayer`.
+
 **Enable mask**  
 Enable or disable a mask for an object. Two objects collide if any layer of the first object matches any mask of the second one and vice versa.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Mask (1 - 16)
     - Parameter 3 (❓ Yes or No): Enable
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::EnableMask`.
+
 **Enable prismatic joint limits**  
 Enable or disable a prismatic joint limits.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3 (❓ Yes or No): Enable
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::EnablePrismaticJointLimits`.
 
 **Enable prismatic joint motor**  
 Enable or disable a prismatic joint motor.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3 (❓ Yes or No): Enable
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::EnablePrismaticJointMotor`.
 
 **Enable revolute joint limits**  
 Enable or disable a revolute joint angle limits.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3 (❓ Yes or No): Enable
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::EnableRevoluteJointLimits`.
 
 **Enable revolute joint motor**  
 Enable or disable a revolute joint motor.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3 (❓ Yes or No): Enable
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::EnableRevoluteJointMotor`.
 
 **Enable wheel joint motor**  
 Enable or disable a wheel joint motor.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3 (❓ Yes or No): Enable
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::EnableWheelJointMotor`.
+
 **Friction**  
 Modify an object friction. How much energy is lost from the movement of one object over another. The combined friction from two bodies is calculated as 'sqrt(bodyA.friction * bodyB.friction)'.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::Friction`.
+
 **Friction joint max force**  
 Modify a friction joint maximum force.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::FrictionJointMaxForce`.
 
 **Friction joint max torque**  
 Modify a friction joint maximum torque.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::FrictionJointMaxTorque`.
 
 **Gear joint ratio**  
 Modify a Gear joint ratio.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -561,103 +641,123 @@ Modify a Gear joint ratio.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::GearJointRatio`.
+
 **World gravity**  
 Modify the world gravity. While an object is needed, this will apply to all objects using the behavior.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Gravity X
     - Parameter 3 (🔢 Number): Gravity Y
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::Gravity`.
+
 **Gravity scale**  
 Modify an object gravity scale. The gravity applied to an object is the world gravity multiplied by the object gravity scale.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Scale (1 by default)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::GravityScale`.
+
 **Linear damping**  
 Modify an object linear damping. How much movement speed is lost across the time.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::LinearDamping`.
+
 **Linear velocity towards an angle**  
 Set the linear velocity towards an angle.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Angle
     - Parameter 3 (🔢 Number): Speed (in pixels per second)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::LinearVelocityAngle`.
+
 **Linear velocity X**  
 Modify an object linear velocity on X.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Speed (in pixels per second)
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::LinearVelocityX`.
 
 **Linear velocity Y**  
 Modify an object linear velocity on Y.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Speed (in pixels per second)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::LinearVelocityY`.
+
 **Motor joint angular offset**  
 Modify a motor joint angular offset.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::MotorJointAngularOffset`.
 
 **Motor joint correction factor**  
 Modify a motor joint correction factor.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::MotorJointCorrectionFactor`.
 
 **Motor joint max force**  
 Modify a motor joint maximum force.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::MotorJointMaxForce`.
 
 **Motor joint max torque**  
 Modify a motor joint maximum torque.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -665,10 +765,12 @@ Modify a motor joint maximum torque.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::MotorJointMaxTorque`.
+
 **Motor joint offset**  
 Modify a motor joint offset.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -676,32 +778,38 @@ Modify a motor joint offset.
     - Parameter 3 (🔢 Number): Offset X
     - Parameter 4 (🔢 Number): Offset Y
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::MotorJointOffset`.
+
 **Mouse joint damping ratio**  
 Set a mouse joint damping ratio.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::MouseJointDampingRatio`.
 
 **Mouse joint frequency**  
 Set a mouse joint frequency.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::MouseJointFrequency`.
 
 **Mouse joint max force**  
 Set a mouse joint maximum force.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -709,10 +817,12 @@ Set a mouse joint maximum force.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::MouseJointMaxForce`.
+
 **Mouse joint target**  
 Set a mouse joint target.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -720,10 +830,12 @@ Set a mouse joint target.
     - Parameter 3 (🔢 Number): Target X
     - Parameter 4 (🔢 Number): Target Y
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::MouseJointTarget`.
+
 **Prismatic joint limits**  
 Modify a prismatic joint limits.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -731,21 +843,25 @@ Modify a prismatic joint limits.
     - Parameter 3 (🔢 Number): Minimum translation
     - Parameter 4 (🔢 Number): Maximum translation
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::PrismaticJointLimits`.
+
 **Prismatic joint max motor force**  
 Modify a prismatic joint maximum motor force.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::PrismaticJointMaxMotorForce`.
 
 **Prismatic joint motor speed**  
 Modify a prismatic joint motor speed.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -753,29 +869,35 @@ Modify a prismatic joint motor speed.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::PrismaticJointMotorSpeed`.
+
 **Remove joint**  
 Remove a joint from the scene.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::Remove joint`.
+
 **Restitution**  
 Modify an object restitution. Energy conservation on collision. The combined restitution from two bodies is calculated as 'max(bodyA.restitution, bodyB.restitution)'.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::Restitution`.
+
 **Revolute joint limits**  
 Modify a revolute joint angle limits.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -783,32 +905,38 @@ Modify a revolute joint angle limits.
     - Parameter 3 (🔢 Number): Minimum angle
     - Parameter 4 (🔢 Number): Maximum angle
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::RevoluteJointLimits`.
+
 **Revolute joint max motor torque**  
 Modify a revolute joint maximum motor torque.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::RevoluteJointMaxMotorTorque`.
 
 **Revolute joint motor speed**  
 Modify a revolute joint motor speed.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::RevoluteJointMotorSpeed`.
 
 **Rope joint max length**  
 Modify a rope joint maximum length.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -816,285 +944,345 @@ Modify a rope joint maximum length.
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::RopeJointMaxLength`.
+
 **Treat as bullet**  
 Treat the object as a bullet. Better collision handling on high speeds at cost of some performance.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Treat as bullet
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::SetBullet`.
+
 **Set as dynamic**  
 Set an object as dynamic. Is affected by gravity, forces and velocities.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::SetDynamic`.
+
 **Fixed rotation**  
 Enable or disable an object fixed rotation. If enabled the object won't be able to rotate.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Fixed rotation
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::SetFixedRotation`.
+
 **Set as kinematic**  
 Set an object as kinematic. Is like a static body but can be moved through its velocity.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::SetKinematic`.
+
 **Sleeping allowed**  
 Allow or not an object to sleep. If enabled the object will be able to sleep, improving performance for non-currently-moving objects.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Can sleep
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::SetSleepingAllowed`.
+
 **Set as static**  
 Set an object as static. Is not affected by gravity, and can't be moved by forces or velocities at all.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::SetStatic`.
+
 **Shape scale**  
 Modify an object shape scale. It affects custom shape dimensions and shape offset, if custom dimensions are not set the body will be scaled automatically to the object size.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Scale (1 by default)
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::ShapeScale`.
+
 **Weld joint damping ratio**  
 Modify a weld joint damping ratio.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::WeldJointDampingRatio`.
 
 **Weld joint frequency**  
 Modify a weld joint frequency.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::WeldJointFrequency`.
 
 **Wheel joint damping ratio**  
 Modify a wheel joint damping ratio.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::WheelJointDampingRatio`.
 
 **Wheel joint frequency**  
 Modify a wheel joint frequency.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::WheelJointFrequency`.
 
 **Wheel joint max motor torque**  
 Modify a wheel joint maximum motor torque.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::WheelJointMaxMotorTorque`.
 
 **Wheel joint motor speed**  
 Modify a wheel joint motor speed.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3: 🟰 Operator
     - Parameter 4 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Physics2::WheelJointMotorSpeed`.
 
 ### Behavior conditions
 
 **Angular damping**  
 Test an object angular damping.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::AngularDamping`.
+
 **Angular velocity**  
 Test an object angular velocity.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Angular speed to compare to (in degrees per second)
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::AngularVelocity`.
+
 **Density**  
 Test an object density.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::Density`.
 
 **Friction**  
 Test an object friction.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::Friction`.
+
 **Gravity scale**  
 Test an object gravity scale.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Scale to compare to (1 by default)
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::GravityScale`.
+
 **World gravity on X axis**  
 Compare the world gravity on X axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Gravity to compare to (in pixels per second per second)
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::GravityX`.
 
 **World gravity on Y axis**  
 Compare the world gravity on Y axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Gravity to compare to (in pixels per second per second)
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::GravityY`.
+
 **Has fixed rotation**  
 Check if an object has fixed rotation.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::HasFixedRotation`.
 
 **Is treated as a bullet**  
 Check if the object is being treated as a bullet.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::IsBullet`.
 
 **Is dynamic**  
 Check if an object is dynamic.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::IsDynamic`.
 
 **Is kinematic**  
 Check if an object is kinematic.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::IsKinematic`.
 
 **Is sleeping**  
 Check if an object is sleeping.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::IsSleeping`.
 
 **Is sleeping allowed**  
 Check if an object can sleep.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::IsSleepingAllowed`.
 
 **Is static**  
 Check if an object is static.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::IsStatic`.
 
 **Joint first object**  
 Check if an object is the first object on a joint.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::JointFirstObject`.
 
 **Joint reaction force**  
 Test a joint reaction force.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
     - Parameter 3: 🟰 Relational operator
     - Parameter 4 (🔢 Number): Value to compare
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::JointReactionForce`.
 
 **Joint reaction torque**  
 Test a joint reaction torque.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -1102,147 +1290,179 @@ Test a joint reaction torque.
     - Parameter 3: 🟰 Relational operator
     - Parameter 4 (🔢 Number): Value to compare
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::JointReactionTorque`.
+
 **Joint second object**  
 Check if an object is the second object on a joint.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::JointSecondObject`.
+
 **Layer enabled**  
 Check if an object has a specific layer enabled.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Layer (1 - 16)
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::LayerEnabled`.
+
 **Linear damping**  
 Test an object linear damping.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::LinearDamping`.
+
 **Linear velocity**  
 Test an object linear velocity length.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Speed to compare to (in pixels per second)
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::LinearVelocityLength`.
 
 **Linear velocity X**  
 Test an object linear velocity on X.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Speed to compare to (in pixels per second)
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::LinearVelocityX`.
 
 **Linear velocity Y**  
 Test an object linear velocity on Y.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Speed to compare to (in pixels per second)
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::LinearVelocityY`.
+
 **Mask enabled**  
 Check if an object has a specific mask enabled.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Mask (1 - 16)
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::MaskEnabled`.
+
 **Linear velocity angle**  
 Compare the linear velocity angle of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Angle (in degrees)
     - Parameter 3 (🔢 Number): Tolerance (in degrees)
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::Physics2Behavior::IsLinearVelocityAngleAround`.
+
 **Prismatic joint limits enabled**  
 Check if a prismatic joint limits are enabled.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::PrismaticJointLimitsEnabled`.
 
 **Prismatic joint motor enabled**  
 Check if a prismatic joint motor is enabled.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::PrismaticJointMotorEnabled`.
+
 **Restitution**  
 Test an object restitution.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::Restitution`.
+
 **Revolute joint limits enabled**  
 Check if a revolute joint limits are enabled.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::RevoluteJointLimitsEnabled`.
 
 **Revolute joint motor enabled**  
 Check if a revolute joint motor is enabled.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::RevoluteJointMotorEnabled`.
+
 **World time scale**  
 Compare the world time scale.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Time scale to compare to (1 by default)
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::TimeScale`.
+
 **Wheel joint motor enabled**  
 Check if a wheel joint motor is enabled.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Joint ID
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::WheelJointMotorEnabled`.
 
 ### Behavior expressions
 

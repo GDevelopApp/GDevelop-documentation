@@ -32,7 +32,7 @@ Make an object rain from a selected direction or a selected object.
 **Make object rain**  
 Make object rain from a selected direction.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Make this object rain
     - Parameter 2 (🔢 Number): Rain object width
@@ -58,10 +58,12 @@ Make object rain from a selected direction.
 
     > Technical note: parameters 0, 13 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `MakeItRain::MakeItRain`.
+
 **Make it rain from object**  
 Make object rain from another object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Make this object rain
     - Parameter 2 (🔢 Number): Rain object width
@@ -89,28 +91,34 @@ Make object rain from another object.
 
     > Technical note: parameters 0, 15 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `MakeItRain::MakeItRainFromObject`.
+
 **Pause raining object (rain)**  
 Pause raning object (rain).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Stop raining this object
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `MakeItRain::PauseRain`.
+
 **Pause raining from object (cloud)**  
 Pause raning from object (cloud).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Stop raining from this object (cloud)
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `MakeItRain::PauseRainFromObject`.
+
 **Rain collision animation**  
 Change rain animation when it collides with other object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Rain object
     - Parameter 2 (👾 Object): Collided object
@@ -123,33 +131,41 @@ Change rain animation when it collides with other object.
 
     > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `MakeItRain::RainAnimation`.
+
 **Resume raining object (rain)**  
 Resume raining object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Start raining this object
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `MakeItRain::ResumeRain`.
+
 **Resume raining from object (cloud)**  
 Resume raining object from object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Start raining this object (rain)
     - Parameter 2 (👾 Object): Start raining from this object (cloud)
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `MakeItRain::ResumeRainFromObject`.
+
 **Stop moving rain**  
 Could be used with collision condition.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Rain object
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MakeItRain::StopSingleRain`.
 
 
 

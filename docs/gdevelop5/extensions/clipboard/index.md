@@ -19,20 +19,24 @@ Read the text from the clipboard asynchronously.
 
 Note also that on web browsers, the user might be asked for permissions to read from the clipboard.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Scene variable): Callback variable where to store the clipboard contents
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Clipboard::AsynchronouslyReadTextCrossPlaform`.
+
 **Write text to the clipboard**  
 Write the text in the clipboard.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Text to write to clipboard
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Clipboard::WriteText`.
 
 
 

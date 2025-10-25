@@ -18,22 +18,26 @@ Prevents the Android phone/tablet back button from quitting the game and provide
 This simulates the normal action of the back button.   
 This action will quit the app when in a mobile app, and go back to the previous page when in a web browser.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `BackButton::doDefault`.
 
 ## Conditions
 
 **Back button is pressed**  
 Triggers whenever the player presses the back button.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `BackButton::onBackButtonPressed`.
 
 
 

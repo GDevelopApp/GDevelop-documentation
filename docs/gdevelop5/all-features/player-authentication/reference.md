@@ -7,49 +7,75 @@ Allow your game to authenticate players. [Read more explanations about it.](/gde
 **Display authentication banner**  
 Display an authentication banner at the top of the game screen, for the player to log in.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
+    There are no parameters to set for this action.
 
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: this action internal type (in GDevelop JSON) is `PlayerAuthentication::DisplayAuthenticationBanner`.
 
 **Hide authentication banner**  
 Hide the authentication banner from the top of the game screen.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
+    There are no parameters to set for this action.
 
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: this action internal type (in GDevelop JSON) is `PlayerAuthentication::HideAuthenticationBanner`.
 
 **Log out the player**  
 Log out the player.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
+    There are no parameters to set for this action.
 
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: this action internal type (in GDevelop JSON) is `PlayerAuthentication::LogOut`.
 
 **Open authentication window**  
 Open an authentication window for the player to log in.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
+    There are no parameters to set for this action.
 
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: this action internal type (in GDevelop JSON) is `PlayerAuthentication::OpenAuthenticationWindow`.
 
 ## Conditions
 
 **Player has logged in**  
 Check if the player has just logged in.
 
+??? quote "See parameters & details"
+
+    There are no parameters to set for this condition.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PlayerAuthentication::HasPlayerLoggedIn`.
+
 **Authentication window is open**  
 Check if the authentication window is open.
 
+??? quote "See parameters & details"
+
+    There are no parameters to set for this condition.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PlayerAuthentication::IsAuthenticationWindowOpen`.
+
 **Player is authenticated**  
 Check if the player is authenticated.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this condition.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PlayerAuthentication::IsPlayerAuthenticated`.
 
 ## Expressions
 

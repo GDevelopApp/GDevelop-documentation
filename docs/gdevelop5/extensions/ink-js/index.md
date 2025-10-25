@@ -40,17 +40,19 @@ This extension does not support:
 **Activate story history**  
 Set a scene variable for saving the story choice history.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
     - Parameter 2 (🗄️ Scene variable): History array
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `InkJS::ActivateHistory`.
+
 **Add parameter for Ink function**  
 Call an internal Ink function set inside the story.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
     - Parameter 2 (🔤 Name (String)): Internal Ink method name
@@ -58,20 +60,24 @@ Call an internal Ink function set inside the story.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `InkJS::AddInternalMethodParameter`.
+
 **Link story event**  
 Link an external Ink function to the game.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
     - Parameter 2 (🔤 Name (String)): Ink event name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `InkJS::BindExternalFunction`.
+
 **Call Ink function**  
 Call an internal Ink function set inside the story.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
     - Parameter 2 (🔤 Name (String)): Internal Ink method name
@@ -79,10 +85,12 @@ Call an internal Ink function set inside the story.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `InkJS::CallInternalMethod`.
+
 **Call Ink function with story output**  
 Call an internal Ink function set inside the story and collect value and text output.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
     - Parameter 2 (🔤 Name (String)): Internal Ink method name
@@ -91,10 +99,12 @@ Call an internal Ink function set inside the story and collect value and text ou
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `InkJS::CallInternalMethodWithStoryOutput`.
+
 **Change story chapter**  
 Change the current story chapter.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
     - Parameter 2 (🔤 Name (String)): Chapter name
@@ -110,10 +120,12 @@ Change the current story chapter.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `InkJS::ChangeChapter`.
+
 **Change story variable boolean**  
 Change the story variable boolean.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
     - Parameter 2 (🔤 Name (String)): Variable name
@@ -121,10 +133,12 @@ Change the story variable boolean.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `InkJS::ChangeVariableBoolean`.
+
 **Story variable value**  
 Change the story variable value.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
@@ -133,10 +147,12 @@ Change the story variable value.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `InkJS::ChangeVariableNumber`.
+
 **Story variable text**  
 Change the story variable text.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (string): Value
@@ -145,10 +161,12 @@ Change the story variable text.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `InkJS::ChangeVariableText`.
+
 **Chapter tags to array**  
 Export the chapter tag list to an array variable.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
     - Parameter 2 (🔤 Name (String)): Chapter name
@@ -165,10 +183,12 @@ Export the chapter tag list to an array variable.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `InkJS::ChapterTagsToArray`.
+
 **Choice tags to array**  
 Export the choice tag list to an array variable.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
     - Parameter 2 (🔢 Number): Choice index
@@ -176,145 +196,175 @@ Export the choice tag list to an array variable.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `InkJS::ChoiceTagToArray`.
+
 **Continue the story**  
 Load the next story line.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `InkJS::ContinueStory`.
 
 **Create story snapshot**  
 Create a temporary snapshot of the story.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `InkJS::CreateSnapshot`.
 
 **Current line tags to array**  
 Export the current line tag list to an array variable.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
     - Parameter 2 (🗄️ Scene variable): Scene array variable
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `InkJS::CurrentLineTagToArray`.
+
 **Discard story snapshot**  
 Discard the last snapshot of the story.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `InkJS::DiscardSnapshot`.
+
 **Global tags to array**  
 Export the global tag list to an array variable.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
     - Parameter 2 (🗄️ Scene variable): Scene array variable
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `InkJS::GlobalTagsToArray`.
+
 **Load story state from JSON**  
 Load a previous state of an existing story from a JSON string.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
     - Parameter 2 (string): JSON text
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `InkJS::LoadFromJSON`.
+
 **Load story history**  
 Load an already prepared scene variable for saving the story choice history.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
     - Parameter 2 (🗄️ Scene variable): History array
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `InkJS::LoadHistory`.
+
 **Load JSON Story**  
 Create a story from an Ink JSON resource.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: jsonResource
     - Parameter 2 (🔤 Name (String)): Story name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `InkJS::LoadStory`.
+
 **Observe a story variable**  
 Activate the observation of any change to the story variable.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
     - Parameter 2 (🔤 Name (String)): Variable name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `InkJS::ObserveVariable`.
+
 **Reset story state**  
 Reset the story back to its initial state.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `InkJS::ResetStory`.
 
 **Restore story snapshot**  
 Restore the last snapshot of the story.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `InkJS::RestoreSnapshot`.
 
 **Rewind last choice**  
 Come back to the previous state of the story.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `InkJS::RewindChoice`.
+
 **Validate a choice**  
 Validate a choice using its Ink index before continuing the story.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
     - Parameter 2 (🔢 Number): Choice index
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `InkJS::ValidateChoice`.
+
 ## Conditions
 
 **Can continue**  
 The story flow can progress.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::CanContinue`.
 
 **Chapter tag value**  
 Compare chapter tag.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
@@ -332,11 +382,13 @@ Compare chapter tag.
     - Parameter 5 (🔢 Number): Tag list index
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::ChapterTag`.
 
 **Chapter tag count**  
 Compare chapter tag count.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -354,10 +406,12 @@ Compare chapter tag count.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::ChapterTagCount`.
+
 **Current choices count**  
 Compare current choice count.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -365,10 +419,12 @@ Compare current choice count.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::ChoiceCount`.
+
 **Choice tag value**  
 Compare choice tag.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
@@ -378,10 +434,12 @@ Compare choice tag.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::ChoiceTag`.
+
 **Choice tag count**  
 Compare choice tag count.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -390,32 +448,38 @@ Compare choice tag count.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::ChoiceTagCount`.
+
 **Current story chapter**  
 Compare current story chapter.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
     - Parameter 3 (🔤 Name (String)): Story name
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::CurrentChapter`.
 
 **Current Story Line**  
 Compare the current story line.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
     - Parameter 3 (🔤 Name (String)): Story name
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::CurrentLine`.
 
 **Current line tag value**  
 Compare current line tag.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
@@ -423,11 +487,13 @@ Compare current line tag.
     - Parameter 4 (🔢 Number): Tag list index
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::CurrentLineTag`.
 
 **Current line tag count**  
 Compare current line tag count.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -435,10 +501,12 @@ Compare current line tag count.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::CurrentLineTagCount`.
+
 **Ink function story output**  
 Compare the internal Ink function story output.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
@@ -446,11 +514,13 @@ Compare the internal Ink function story output.
     - Parameter 4 (🔤 Name (String)): Internal Ink method name
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::EvaluateInternalMethodOuput`.
 
 **Ink function text result**  
 Compare the internal Ink function text value.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
@@ -458,11 +528,13 @@ Compare the internal Ink function text value.
     - Parameter 4 (🔤 Name (String)): Internal Ink method name
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::EvaluateInternalMethodText`.
 
 **Ink function result value**  
 Compare the internal Ink function value.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -471,10 +543,12 @@ Compare the internal Ink function value.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::EvaluateInternalMethodValue`.
+
 **Event parameter count**  
 Compare the event parameter count.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -483,10 +557,12 @@ Compare the event parameter count.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::ExternalFunctionParameterCount`.
+
 **Event parameter value**  
 Compare the event parameter value.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -496,10 +572,12 @@ Compare the event parameter value.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::ExternalFunctionParameterNumber`.
+
 **Event parameter text**  
 Compare the event parameter text.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
@@ -509,10 +587,12 @@ Compare the event parameter text.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::ExternalFunctionParameterText`.
+
 **Global tag value**  
 Compare global tag.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
@@ -521,10 +601,12 @@ Compare global tag.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::GlobalTag`.
+
 **Global tag count**  
 Compare global tag count.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -532,19 +614,23 @@ Compare global tag count.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::GlobalTagCount`.
+
 **Has ended**  
 The story reached its end.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::HasEnded`.
+
 **Chapter has tags**  
 Check if the current story chapter contains tags.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
     - Parameter 2 (🔤 Name (String)): Chapter name
@@ -559,87 +645,105 @@ Check if the current story chapter contains tags.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::HasTagsChapter`.
+
 **Choice has tags**  
 Check if the choice contains tags.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
     - Parameter 2 (🔢 Number): Choice index
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::HasTagsChoice`.
+
 **Current line has tags**  
 Check if the current story line contains tags.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::HasTagsCurrentLine`.
 
 **Has global tags**  
 Check if the current story contains global tags.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::HasTagsGlobal`.
+
 **Event is called**  
 Check if the story event is called by Ink.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
     - Parameter 2 (🔤 Name (String)): Ink event name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::IsExternalFunctionCalled`.
+
 **Is loaded**  
 Check if the story is already loaded.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::IsLoaded`.
+
 **Story variable boolean**  
 The story variable boolean is true.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
     - Parameter 2 (🔤 Name (String)): Variable name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::VariableBoolean`.
 
 **Story variable changed**  
 A story variable observed has changed.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
     - Parameter 2 (🔤 Name (String)): Variable name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::VariableChanged`.
 
 **Story variable exists**  
 Check if the story variable exists.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
     - Parameter 2 (🔤 Name (String)): Variable name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::VariableExists`.
+
 **Story variable value**  
 Compare the story variable value.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -648,10 +752,12 @@ Compare the story variable value.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::VariableNumber`.
+
 **Story variable text**  
 Compare the story variable text.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
@@ -660,10 +766,12 @@ Compare the story variable text.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::VariableText`.
+
 **Story chapter visit count**  
 Compare the chapter visit count of the story.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -677,6 +785,8 @@ Compare the chapter visit count of the story.
       are valid chapter names.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `InkJS::VisitCount`.
 
 ## Expressions
 

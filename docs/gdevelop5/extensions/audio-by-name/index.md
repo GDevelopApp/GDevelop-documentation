@@ -27,7 +27,7 @@ This can be useful to reduce the number of events needed to dynamically play dif
 
 Note: Music files should be preloaded before using these actions, such at the start of the first scene, current scene, or in the resources panel for the entire game. This is to avoid any potential audio pause since the normal resource loading at the start of the game or scene won't load these files by default. For web games, music files must be preloaded to start at all.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Audio file resource name
       The final string must match the full resource name as displayed in the resource list.
@@ -39,6 +39,8 @@ Note: Music files should be preloaded before using these actions, such at the st
       1 for normal speed
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `AudioByName::PlayMusicOnChannelByName`.
 
 **Play sound on a channel by name**  
 Play a sound file on a specific channel by name or string expression.   
@@ -46,7 +48,7 @@ This can be useful to reduce the number of events needed to dynamically play dif
 
 Note: Sound files should be preloaded before using these actions, such at the start of the first scene, current scene, or in the resources panel for the entire game. This is to avoid any potential audio pause since the normal resource loading at the start of the game or scene won't load these files by default.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Audio file resource name
       The final string must match the full resource name as displayed in the resource list.
@@ -59,25 +61,31 @@ Note: Sound files should be preloaded before using these actions, such at the st
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `AudioByName::PlaySoundOnChannelByName`.
+
 **Preload a music file by name**  
 Preload a music file by name or string expression.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Audio file resource name
       The final string must match the full resource name as displayed in the resource list.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `AudioByName::PreloadMusicByName`.
 
 **Preload a sound file by name**  
 Preload a sound file by name or string expression. 
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Audio file resource name
       The final string must match the full resource name as displayed in the resource list.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `AudioByName::PreloadSoundByName`.
 
 
 

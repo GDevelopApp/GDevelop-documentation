@@ -29,7 +29,7 @@ Helpful for making animations for sprites without having to spend time animating
 **Check if the animation has finished**  
 Check if the selected animation has finished.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 String): Animation
       Animation must be set to Trigger once in order to check if it finished (one of: "Pulse", "Breath", "Smooth rotation", "Instant rotation", "3D rotation", "3D rotation X", "3D rotation Y", "Float", "Triangle transition", "Square transition", "Rhombus transition", "Maze transition", "Fade out", "Fade in", "Squash & Stretch", "Rainbow effect", "Shake rotation", "Shake horizontal", "Shake vertical", "Line rotation", "Land", "Low health")
@@ -37,14 +37,18 @@ Check if the selected animation has finished.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `AnimationSystem::AnimationFinished`.
+
 **Check if the door is open**  
 From *3D open door* animation.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `AnimationSystem::DoorIsOpen`.
 
 
 
@@ -57,7 +61,7 @@ Animate any sprite with this extension.
 **Animation system**  
 edit the object ("Origin" point) to control how the animation goes.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -86,7 +90,9 @@ edit the object ("Origin" point) to control how the animation goes.
       Low health: recommended speed, 30
     - Parameter 6 (❓ Yes or No): Trigger animation once ?
 
-    > Technical note: parameter 7 are internal parameters handled by GDevelop.
+    > Technical note: parameter 7 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `AnimationSystem::AnimationBehavior::AnimationSystem`.
 
 _No expressions for this behavior._
 

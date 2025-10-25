@@ -31,51 +31,61 @@ This extension adds actions to display three kinds of pop-ups.
 **Alert**  
 Displays an alert box with a message and an OK button in a pop-up window.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Alert message
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `PopUp::Alert`.
+
 **Confirm**  
 Ask confirmation of user with a message in a dialog box with an OK button, and a Cancel button.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Confirmation message
       The text to display in the confirm box.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `PopUp::Confirm`.
+
 **Prompt**  
 Displays a prompt in a pop-up that prompts the user for input. This action return the text input or the false boolean if canceled.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Prompt message
     - Parameter 2 (string): Input placeholder
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `PopUp::Prompt`.
+
 ## Conditions
 
 **Pop-up message confirmed**  
 Check if a confirmation was accepted.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PopUp::ConfimationResponse`.
 
 **Existing prompt response**  
 The response to a pop-up message is filled.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PopUp::PromptValidResponse`.
 
 ## Expressions
 

@@ -30,7 +30,7 @@ The Bomberman-like example handles 4 players with gamepads ([open the project on
 **Advanced gamepad vibration**  
 Generate an advanced vibration on the specified controller. Incompatible with Firefox.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): The gamepad identifier: 1, 2, 3 or 4
     - Parameter 2 (🔢 Number): Time of the vibration, in seconds (optional, default value is 1)
@@ -39,10 +39,12 @@ Generate an advanced vibration on the specified controller. Incompatible with Fi
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Gamepads::A_Advanced_Vibration_Controller`.
+
 **Change gamepad active vibration**  
 Change a vibration on the specified controller. Incompatible with Firefox.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): The gamepad identifier: 1, 2, 3 or 4
     - Parameter 2 (🔢 Number): Strong rumble magnitude (from 0 to 1)
@@ -50,47 +52,57 @@ Change a vibration on the specified controller. Incompatible with Firefox.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Gamepads::A_Change_Vibration_Magnitude`.
+
 **Set gamepad deadzone for sticks**  
 Set the deadzone for sticks of the gamepad. The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved). Deadzone is between 0 and 1, and is by default 0.2.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): The gamepad identifier: 1, 2, 3 or 4
     - Parameter 2 (🔢 Number): Deadzone for sticks, 0.2 by default (0 to 1)
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Gamepads::A_Set_deadzone`.
+
 **Gamepad vibration**  
 Generate a vibration on the specified controller. Might only work if the game is running in a recent web browser.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): The gamepad identifier: 1, 2, 3 or 4
     - Parameter 2 (🔢 Number): Time of the vibration, in seconds (optional, default value is 1)
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Gamepads::A_Vibrate_controller`.
+
 ## Conditions
 
 **Any gamepad button pressed**  
 Check if any button is pressed on a gamepad.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): The gamepad identifier: 1, 2, 3 or 4
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Gamepads::C_Any_Button_pressed`.
+
 **Gamepad stick pushed (axis)**  
 Check if a stick of a gamepad is pushed in a given direction.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): The gamepad identifier: 1, 2, 3 or 4
     - Parameter 2 (🔤 String): Stick: "Left" or "Right" (one of: "Left", "Right")
     - Parameter 3 (🔤 String): Direction (one of: "Up", "Down", "Left", "Right", "Any")
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Gamepads::C_Axis_pushed`.
 
 **Gamepad button pressed**  
 Check if a button is pressed on a gamepad.   
@@ -99,12 +111,14 @@ Buttons can be:
 * PS4: "CROSS", "SQUARE", "CIRCLE", "TRIANGLE", "L1", "L2", "R1", "R2", "SHARE", "OPTIONS", "PS_BUTTON", "CLICK_TOUCHPAD",
 * Other: "UP", "DOWN", "LEFT", "RIGHT", "CLICK_STICK_LEFT", "CLICK_STICK_RIGHT".
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): The gamepad identifier: 1, 2, 3 or 4
     - Parameter 2 (🔤 String): Name of the button (one of: "A", "Cross", "B", "Circle", "X", "Square", "Y", "Triangle", "LB", "L1", "RB", "R1", "LT", "L2", "RT", "R2", "Up", "Down", "Left", "Right", "Back", "Share", "Start", "Options", "Click_Stick_Left", "Click_Stick_Right", "PS_Button", "Click_Touchpad")
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Gamepads::C_Button_pressed`.
 
 **Gamepad button released**  
 Test if a button is released on a gamepad. Buttons can be:  
@@ -112,40 +126,48 @@ Test if a button is released on a gamepad. Buttons can be:
 * PS4: "CROSS", "SQUARE", "CIRCLE", "TRIANGLE", "L1", "L2", "R1", "R2", "SHARE", "OPTIONS", "PS_BUTTON", "CLICK_TOUCHPAD",
 * Other: "UP", "DOWN", "LEFT", "RIGHT", "CLICK_STICK_LEFT", "CLICK_STICK_RIGHT".
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): The gamepad identifier: 1, 2, 3 or 4
     - Parameter 2 (🔤 String): Name of the button (one of: "A", "Cross", "B", "Circle", "X", "Square", "Y", "Triangle", "LB", "L1", "RB", "R1", "LT", "L2", "RT", "R2", "Up", "Down", "Left", "Right", "Back", "Share", "Start", "Options", "Click_Stick_Left", "Click_Stick_Right", "PS_Button", "Click_Touchpad")
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Gamepads::C_Button_released`.
+
 **Gamepad connected**  
 Check if a gamepad is connected.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): The gamepad identifier: 1, 2, 3 or 4
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Gamepads::C_Controller_X_is_connected`.
+
 **Gamepad type**  
 Check if the specified gamepad has the specified information in its description. Useful to know if the gamepad is a Xbox or PS4 controller.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): The gamepad identifier: 1, 2, 3 or 4
     - Parameter 2 (string): Type: "Xbox", "PS4", "Steam" or "PS3" (among other)
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Gamepads::C_Controller_type`.
+
 **Any gamepad button released**  
 Check if any button is released on a gamepad.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): The gamepad identifier: 1, 2, 3 or 4
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Gamepads::C_any_button_released`.
 
 **Gamepad button just pressed**  
 Check if a button was just pressed on a gamepad. Buttons can be:  
@@ -153,17 +175,19 @@ Check if a button was just pressed on a gamepad. Buttons can be:
 * PS4: "CROSS", "SQUARE", "CIRCLE", "TRIANGLE", "L1", "L2", "R1", "R2", "SHARE", "OPTIONS", "PS_BUTTON", "CLICK_TOUCHPAD",
 * Other: "UP", "DOWN", "LEFT", "RIGHT", "CLICK_STICK_LEFT", "CLICK_STICK_RIGHT".
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): The gamepad identifier: 1, 2, 3 or 4
     - Parameter 2 (🔤 String): Name of the button (one of: "A", "Cross", "B", "Circle", "X", "Square", "Y", "Triangle", "LB", "L1", "RB", "R1", "LT", "L2", "RT", "R2", "Up", "Down", "Left", "Right", "Back", "Share", "Start", "Options", "Click_Stick_Left", "Click_Stick_Right", "PS_Button", "Click_Touchpad")
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Gamepads::IsButtonJustPressed`.
+
 **Stick force**  
 Compare the force of gamepad stick (from 0 to 1).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -171,6 +195,8 @@ Compare the force of gamepad stick (from 0 to 1).
     - Parameter 4 (🔤 String): Stick: "Left" or "Right" (one of: "Left", "Right")
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Gamepads::StickForce`.
 
 ## Expressions
 
@@ -216,220 +242,256 @@ Control camera rotations with a gamepad.
 **Horizontal rotation acceleration**  
 Change the horizontal rotation acceleration of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Gamepads::FirstPersonGamepadMapper::SetHorizontalRotationAcceleration`.
 
 **Horizontal rotation deceleration**  
 Change the horizontal rotation deceleration of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Gamepads::FirstPersonGamepadMapper::SetHorizontalRotationDeceleration`.
 
 **Maximum horizontal rotation speed**  
 Change the maximum horizontal rotation speed of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Gamepads::FirstPersonGamepadMapper::SetHorizontalRotationSpeedMax`.
 
 **Z position offset**  
 Change the z position offset of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Gamepads::FirstPersonGamepadMapper::SetOffsetZ`.
 
 **Maximum vertical camera angle**  
 Change the maximum vertical camera angle of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Gamepads::FirstPersonGamepadMapper::SetVerticalAngleMax`.
 
 **Minimum vertical camera angle**  
 Change the minimum vertical camera angle of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Gamepads::FirstPersonGamepadMapper::SetVerticalAngleMin`.
 
 **Vertical rotation acceleration**  
 Change the vertical rotation acceleration of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Gamepads::FirstPersonGamepadMapper::SetVerticalRotationAcceleration`.
 
 **Vertical rotation deceleration**  
 Change the vertical rotation deceleration of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Gamepads::FirstPersonGamepadMapper::SetVerticalRotationDeceleration`.
 
 **Maximum vertical rotation speed**  
 Change the maximum vertical rotation speed of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Gamepads::FirstPersonGamepadMapper::SetVerticalRotationSpeedMax`.
 
 ### Behavior conditions
 
 **Horizontal rotation acceleration**  
 Compare the horizontal rotation acceleration of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Gamepads::FirstPersonGamepadMapper::HorizontalRotationAcceleration`.
 
 **Horizontal rotation deceleration**  
 Compare the horizontal rotation deceleration of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Gamepads::FirstPersonGamepadMapper::HorizontalRotationDeceleration`.
 
 **Maximum horizontal rotation speed**  
 Compare the maximum horizontal rotation speed of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Gamepads::FirstPersonGamepadMapper::HorizontalRotationSpeedMax`.
 
 **Z position offset**  
 Compare the z position offset of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Gamepads::FirstPersonGamepadMapper::OffsetZ`.
 
 **Maximum vertical camera angle**  
 Compare the maximum vertical camera angle of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Gamepads::FirstPersonGamepadMapper::VerticalAngleMax`.
 
 **Minimum vertical camera angle**  
 Compare the minimum vertical camera angle of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Gamepads::FirstPersonGamepadMapper::VerticalAngleMin`.
 
 **Vertical rotation acceleration**  
 Compare the vertical rotation acceleration of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Gamepads::FirstPersonGamepadMapper::VerticalRotationAcceleration`.
 
 **Vertical rotation deceleration**  
 Compare the vertical rotation deceleration of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Gamepads::FirstPersonGamepadMapper::VerticalRotationDeceleration`.
 
 **Maximum vertical rotation speed**  
 Compare the maximum vertical rotation speed of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Gamepads::FirstPersonGamepadMapper::VerticalRotationSpeedMax`.
 
 ### Behavior expressions
 

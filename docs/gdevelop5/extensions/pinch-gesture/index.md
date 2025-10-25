@@ -25,49 +25,59 @@ Limitations:
 **Enable or disable camera pinch**  
 Enable or disable camera pinch.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (❓ Yes or No): Enable camera pinch
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `PinchGesture::EnableCameraPinch`.
+
 **Camera pinch constraints**  
 Change the camera pinch constraint.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 String): Constraint (one of: "No constraint", "Zoom only", "Rotation only", "Zoom and rotation only")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `PinchGesture::SetCameraPinchConstraint`.
+
 **Camera pinch layer**  
 Choose the layer to move with pinch gestures.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🔤 Layer name (String)
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PinchGesture::SetCameraPinchLayer`.
 
 ## Conditions
 
 **Camera pinch is enabled**  
 Check if camera pinch is enabled.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PinchGesture::IsCameraPinchEnabled`.
 
 **Touch is pinching**  
 Check if a touch is pinching, if 2 touches are pressed.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PinchGesture::IsPinching`.
 
 ## Expressions
 
@@ -113,24 +123,28 @@ Move objects by holding 2 touches on them.
 **Abort pinching**  
 Abort the pinching of this object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PinchGesture::Pichable::AbortPinching`.
 
 ### Behavior conditions
 
 **Is being pinched**  
 Check if the object is being pinched.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PinchGesture::Pichable::IsPinched`.
 
 _No expressions for this behavior._
 

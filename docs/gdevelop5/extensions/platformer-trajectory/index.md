@@ -27,24 +27,28 @@ Configure the height of a jump and evaluate the jump trajectory.
 **Draw jump**  
 Draw the jump trajectories from no sustain to full sustain.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (👾 Object): Shape painter
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PlatformerTrajectory::PlatformerEvaluator::DrawJump`.
 
 **Jump height**  
 Change the jump speed to reach a given height.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Jump height
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PlatformerTrajectory::PlatformerEvaluator::SetJumpHeight`.
 
 ### Behavior expressions
 
