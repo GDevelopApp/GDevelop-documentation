@@ -19,16 +19,18 @@ You can get more infos on each field via [the discord documentation](https://dis
 **Initialize rich presence**  
 Attempts to connect to discord if it is installed, and initialize rich presence.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): The discord client ID
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `DiscordRichPresence::ConnectToDiscord`.
+
 **Update rich presence**  
 Update the data in the rich presence. See the discord documentation for more info on each field. Each field except state is optional.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): The current state
     - Parameter 2 (string): The details of the current state
@@ -42,6 +44,8 @@ Update the data in the rich presence. See the discord documentation for more inf
     - Parameter 8 (string): The text of the small image
 
     > Technical note: parameters 0, 9 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `DiscordRichPresence::UpdateRichPresence`.
 
 
 

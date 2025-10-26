@@ -27,423 +27,501 @@ Display a large number of particles to create visual effects.
 **Restart**  
 Restart particule emission from the beginning.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::Restart`.
 
 **Particles move with the emitter**  
 Change if particles move with the emitter.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1 (❓ Yes or No): AreParticlesRelative
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SetAreParticlesRelative`.
 
 **Emission duration**  
 Change the emission duration of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SetDuration`.
 
 **End color**  
 Change the end color of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (color): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SetEndColor`.
 
 **End opacity**  
 Change the end opacity of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SetEndOpacity`.
 
 **End scale**  
 Change the end scale of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SetEndScale`.
 
 **Flow of particles**  
 Change the flow of particles of the object  (particles per second).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SetFlow`.
 
 **Gravity**  
 Change the gravity of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SetGravity`.
 
 **Gravity top**  
 Change the gravity top of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔤 String): Value (one of: "Y-", "Z+")
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SetGravityTop`.
 
 **Max lifespan**  
 Change the max lifespan of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SetLifespanMax`.
 
 **Min lifespan**  
 Change the min lifespan of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SetLifespanMin`.
 
 **Delete when emission ends**  
 Change if delete when emission ends.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1 (❓ Yes or No): ShouldAutodestruct
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SetShouldAutodestruct`.
 
 **Spay cone angle**  
 Change the spay cone angle of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SetSpayConeAngle`.
 
 **Start color**  
 Change the start color of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (color): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SetStartColor`.
 
 **Start opacity**  
 Change the start opacity of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SetStartOpacity`.
 
 **Start max size**  
 Change the start max size of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SetStartSizeMax`.
 
 **Start min size**  
 Change the start min size of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SetStartSizeMin`.
 
 **Max start speed**  
 Change the max start speed of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SetStartSpeedMax`.
 
 **Min start speed**  
 Change the min start speed of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SetStartSpeedMin`.
 
 ### Object conditions
 
 **Particles move with the emitter**  
 Check if particles move with the emitter.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::AreParticlesRelative`.
 
 **Blending**  
 Compare the blending of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔤 String): Value to compare (one of: "Normal", "Additive", "Substractive", "Multiply", "None")
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::Blending`.
 
 **Emission duration**  
 Compare the emission duration of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::Duration`.
 
 **End color**  
 Compare the end color of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (color): Value to compare
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::EndColor`.
 
 **End opacity**  
 Compare the end opacity of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::EndOpacity`.
 
 **End scale**  
 Compare the end scale of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::EndScale`.
 
 **Flow of particles**  
 Compare the flow of particles of the object  (particles per second).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::Flow`.
 
 **Gravity**  
 Compare the gravity of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::Gravity`.
 
 **Gravity top**  
 Compare the gravity top of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔤 String): Value to compare (one of: "Y-", "Z+")
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::GravityTop`.
 
 **Emission has ended**  
 Check that emission has ended and no particle is alive anymore.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::HasEnded`.
 
 **Max lifespan**  
 Compare the max lifespan of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::LifespanMax`.
 
 **Min lifespan**  
 Compare the min lifespan of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::LifespanMin`.
 
 **Delete when emission ends**  
 Check if delete when emission ends.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::ShouldAutodestruct`.
 
 **Spay cone angle**  
 Compare the spay cone angle of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SpayConeAngle`.
 
 **Start color**  
 Compare the start color of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (color): Value to compare
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::StartColor`.
 
 **Start opacity**  
 Compare the start opacity of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::StartOpacity`.
 
 **Start max size**  
 Compare the start max size of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::StartSizeMax`.
 
 **Start min size**  
 Compare the start min size of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::StartSizeMin`.
 
 **Max start speed**  
 Compare the max start speed of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::StartSpeedMax`.
 
 **Min start speed**  
 Compare the min start speed of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::StartSpeedMin`.
 
 ### Object expressions
 

@@ -17,31 +17,37 @@ When masked, the masked object is only visible through the mask.
 **Mask an object with a sprite**  
 Define a sprite as a mask of an object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Object to mask
     - Parameter 2 (👾 Object): Sprite object to use as a mask
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SpriteMasking::Mask`.
+
 **Mask an object with a shape painter**  
 Define a shape painter as a mask of an object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Object to mask
     - Parameter 2 (👾 Object): Shape painter to use as a mask
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SpriteMasking::MaskWithShapePainter`.
+
 **Remove the mask**  
 Remove the mask of the specified object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Object with a mask to remove
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SpriteMasking::Unmask`.
 
 
 

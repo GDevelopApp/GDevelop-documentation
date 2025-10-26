@@ -7,47 +7,57 @@ Conditions to check keys pressed on a keyboard. Note that this does not work wit
 **Any key pressed**  
 Check if any key is pressed
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
+    There are no parameters to set for this condition.
 
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: this condition internal type (in GDevelop JSON) is `AnyKeyPressed`.
 
 **Any key released**  
 Check if any key is released
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
+    There are no parameters to set for this condition.
 
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: this condition internal type (in GDevelop JSON) is `AnyKeyReleased`.
 
 **Key just pressed**  
 Check if a key was just pressed.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (keyboardKey): Key to check
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `KeyFromTextJustPressed`.
 
 **Key pressed**  
 Check if a key is pressed. This stays true as long as the key is held down. To check if a key was pressed during the frame, use "Key just pressed" instead.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (keyboardKey): Key to check
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `KeyFromTextPressed`.
 
 **Key released**  
 Check if a key was just released.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (keyboardKey): Key to check
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `KeyFromTextReleased`.
 
 ## Expressions
 

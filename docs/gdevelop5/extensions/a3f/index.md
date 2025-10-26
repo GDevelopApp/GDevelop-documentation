@@ -44,18 +44,20 @@ This extension adds features to the built-in 3D.
 The axis helper is added to the 3D object.  
 Note that it is added to the center point, not the origin point.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): 3D object
     - Parameter 2 (🧩 Behavior): 3D capability
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::AddAxesHelper`.
+
 **🧱Change blend mode**  
 Change the blend mode of the 3D objects and all their children.  
 This affects all 3d objects that use the same material.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
@@ -65,13 +67,15 @@ This affects all 3d objects that use the same material.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::ChangeBlendModeV2`.
+
 **🔄️Change child angle**  
 Changes the angle of the 3D object's child along the child’s local axes.  
 The names of the children must be checked in advance using the "🛟Output children hierarchy" action or a 3D modeling tool.
 This can also be used to rotate bones.
 Note that if a child is affected by a playing animation, it will override this change. In that case, please pause the animation.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
@@ -82,12 +86,14 @@ Note that if a child is affected by a playing animation, it will override this c
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::ChangeChildAngle`.
+
 **😀Change morph target value**  
 Change morph target values of 3D objects.  
 The names of the morph target must be checked in advance using the "🛟Output morph target names" action or a 3D modeling tool.
 Note that if a morph target is affected by a playing animation, it will override this change. In that case, please pause the animation.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
@@ -97,10 +103,12 @@ Note that if a morph target is affected by a playing animation, it will override
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::ChangeMorphTarget`.
+
 **🥛Change opacity**  
 Change the opacity of the 3D objects and all their children.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
@@ -111,11 +119,13 @@ Change the opacity of the 3D objects and all their children.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::ChangeOpacityV2`.
+
 **👤Change 3D shadow**  
 Change the shadow settings of 3D objects.  
 If both "Cast Shadow" and "Receive Shadow" are enabled, striped patterns are likely to occur in the shadow.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
@@ -124,13 +134,15 @@ If both "Cast Shadow" and "Receive Shadow" are enabled, striped patterns are lik
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::ChangeShadow`.
+
 **🔄️Rotate child by angle**  
 Rotate a child of the 3D objects along its local axes.  
 The names of the children must be checked in advance using the "🛟Output children hierarchy" action or a 3D modeling tool.
 This can also be used to rotate bones.
 Note that if a child is affected by a playing animation, it will override this change. In that case, please pause the animation.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
@@ -140,13 +152,15 @@ Note that if a child is affected by a playing animation, it will override this c
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::ChildRotateAngle`.
+
 **🔄️Rotate child by speed**  
 Rotate a child of the 3D objects along its local axes.  
 The names of the children must be checked in advance using the "🛟Output children hierarchy" action or a 3D modeling tool.
 This can also be used to rotate bones.
 Note that if a child is affected by a playing animation, it will override this change. In that case, please pause the animation.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
@@ -156,11 +170,13 @@ Note that if a child is affected by a playing animation, it will override this c
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::ChildRotateSpeed`.
+
 **🔜Linearly interpolate camera**  
 Moves and/or rotates a 3D camera closer to another object’s position and rotation using linear and spherical linear interpolation.  
 Use the "factor" parameter to specify how much the camera should move and/or rotate (0 = no change, 0.5 = halfway, 1 = exact match).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🔤 Layer name (String)
     - Parameter 2 (🔢 Number): Camera number
@@ -174,11 +190,13 @@ Use the "factor" parameter to specify how much the camera should move and/or rot
 
     > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::LerpCamera`.
+
 **🔜Linearly interpolate 3D object**  
 Moves and/or rotates a 3D object closer to another object’s position and rotation using linear and spherical linear interpolation.  
 Use the "factor" parameter to specify how much the object should move and/or rotate (0 = no change, 0.5 = halfway, 1 = exact match).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
@@ -191,11 +209,13 @@ Use the "factor" parameter to specify how much the object should move and/or rot
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::LerpObject`.
+
 **🔜Linearly interpolate toward child of 3D object (Experimental)**  
 Linearly interpolates 3D objects toward a child of another 3D object.  
 The names of the children must be checked in advance using the "🛟Output children hierarchy" action or a 3D modeling tool.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
@@ -209,10 +229,12 @@ The names of the children must be checked in advance using the "🛟Output child
 
     > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::LerpTowardChild`.
+
 **🔄️Local rotate by angle**  
 Rotates the 3D object along its local axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
@@ -221,10 +243,12 @@ Rotates the 3D object along its local axis.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::LocalRotateAngle`.
+
 **🔄️Local rotate camera by angle**  
 Rotates the camera along its local axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 String): Axis (one of: "X", "Y", "Z")
     - Parameter 2 (🔢 Number): Angle (in degrees)
@@ -233,10 +257,12 @@ Rotates the camera along its local axis.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::LocalRotateCameraAngle`.
+
 **🔄️Local rotate camera by speed**  
 Rotates the camera along its local axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 String): Axis (one of: "X", "Y", "Z")
     - Parameter 2 (🔢 Number): Speed (in degrees per second)
@@ -245,10 +271,12 @@ Rotates the camera along its local axis.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::LocalRotateCameraSpeed`.
+
 **🔄️Local rotate by speed**  
 Rotates the 3D object along its local axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
@@ -257,10 +285,12 @@ Rotates the 3D object along its local axis.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::LocalRotateSpeed`.
+
 **↔️Local translate camera by distance**  
 Translates the camera along its local axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 String): Axis (one of: "X", "Y", "Z")
     - Parameter 2 (🔢 Number): Distance (in pixels)
@@ -269,10 +299,12 @@ Translates the camera along its local axis.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::LocalTranslateCameraDistance`.
+
 **↔️Local translate camera by speed**  
 Translates the camera along its local axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 String): Axis (one of: "X", "Y", "Z")
     - Parameter 2 (🔢 Number): Speed (in pixels per second)
@@ -281,10 +313,12 @@ Translates the camera along its local axis.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::LocalTranslateCameraSpeed`.
+
 **↔️Local translate by distance**  
 Translates the 3D object along its local axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
@@ -293,10 +327,12 @@ Translates the 3D object along its local axis.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::LocalTranslateDistance`.
+
 **↔️Local translate by speed**  
 Translates the 3D object along its local axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
@@ -305,10 +341,12 @@ Translates the 3D object along its local axis.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::LocalTranslateSpeed`.
+
 **👀Look at 3D object**  
 Rotates the 3D object so that its local +X direction points toward the target 3D object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
@@ -318,10 +356,12 @@ Rotates the 3D object so that its local +X direction points toward the target 3D
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::LookAtObject`.
+
 **👀Look at position**  
 Rotates the 3D object so that its local +X direction points toward a specified 3D position.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
@@ -331,12 +371,14 @@ Rotates the 3D object so that its local +X direction points toward a specified 3
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::LookAtPosition`.
+
 **↗️Store normalized direction in variable**  
 Stores the normalized direction vector of the 3D object in a variable.  
 The variable will be a structure variable with child variables x, y, and z.
 Note that the variable will only store the value of the first referenced 3D object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
@@ -345,18 +387,22 @@ Note that the variable will only store the value of the first referenced 3D obje
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::NormalizedDirection`.
+
 **🛟Output children hierarchy**  
 Outputs the hierarchy of the 3D object's children to the console.  
 It is recommended to check in the developer tools console, where line breaks and indentation are displayed, rather than in GDevelop's debugger console.
 Use the following shortcut in the preview window to open the Developer Tools and select the Console tab:
 Ctrl + Shift + I (Cmd + Option + I).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::OutputHierarchy`.
 
 **🛟Output morph target names**  
 Outputs the morph target names of the 3D object to the console.  
@@ -364,18 +410,20 @@ It is recommended to check in the developer tools console, where line breaks and
 Use the following shortcut in the preview window to open the Developer Tools and select the Console tab:
 Ctrl + Shift + I (Cmd + Option + I).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::OutputMorphTarget`.
+
 **📚Overlap objects**  
 Overlay the object on the 3D object.  
 ⚠️ For objects to overlap correctly, they must be on a different layer than the 3D object. In the layer properties, the 'Default camera behavior' under 'Camera positioning' must be set to 'Keep top-left corner fixed'.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Any object
     - Parameter 2 (❓ Yes or No): Hide when behind the 3D camera
@@ -389,23 +437,27 @@ Overlay the object on the 3D object.
 
     > Technical note: parameters 0, 9 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::OverlapObjectsV2`.
+
 **😀Reset morph targets**  
 Sets all morph target values of the 3D object to 0.  
 Note that if a morph target is affected by a playing animation, it will override this change. In that case, please pause the animation.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::ResetMorphTargets`.
+
 ## Conditions
 
 **↔️Check the distance between two objects in 3D**  
 Checks the distance between two objects (origin points) in 3D.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
@@ -416,11 +468,13 @@ Checks the distance between two objects (origin points) in 3D.
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `A3F::CheckDistance`.
+
 **🥛Check opacity**  
 Check the opacity of the 3D object, or the first opacity found among its children.  
 This condition can be used for non-3D objects as well, but in those cases the opacity is always compared as 255.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
@@ -428,6 +482,8 @@ This condition can be used for non-3D objects as well, but in those cases the op
     - Parameter 4 (🔢 Number): Opacity (0 to 255)
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `A3F::CheckOpacity`.
 
 ## Expressions
 
@@ -455,7 +511,7 @@ _No expressions for this behavior._
 **💡Change Light Color**  
 Gradually changes the color of the 3D Light.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -464,12 +520,14 @@ Gradually changes the color of the 3D Light.
       If the duration is set to 0, the change is immediate.
     - Parameter 4 (🔤 String): Gradient color space (one of: "RGB", "HSL")
 
-    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+    > Technical note: parameter 5 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::A3L::ChangeColor`.
 
 **💡Change Light Intensity**  
 Gradually changes the intensity of the 3D Light.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -477,7 +535,9 @@ Gradually changes the intensity of the 3D Light.
     - Parameter 3 (🔢 Number): Duration (in seconds)
       If the duration is set to 0, the change is immediate.
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::A3L::ChangeIntensity`.
 
 _No expressions for this behavior._
 

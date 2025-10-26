@@ -23,7 +23,7 @@ Check collision and distance between 3D objects and separate them from each othe
 Move an object away from another using their collision masks. Object rotation around X and Y axes are ignored.  
 Be sure to call this action on a reasonable number of objects to avoid slowing down the game.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
@@ -32,12 +32,14 @@ Be sure to call this action on a reasonable number of objects to avoid slowing d
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Collision3D::SeparateFromObjects`.
+
 ## Conditions
 
 **Collision in 3D**  
 Check the collision between two objects using their collision masks. Object rotation around X and Y axes are ignored.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
@@ -47,10 +49,12 @@ Check the collision between two objects using their collision masks. Object rota
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Collision3D::AreInCollision`.
+
 **Distance between two objects in 3D**  
 Compare the distance between two objects in 3D.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (👾 Object): Other object
@@ -59,10 +63,12 @@ Compare the distance between two objects in 3D.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Collision3D::AreWithinDistance`.
+
 **Pick nearest object in 3D**  
 Pick the object of this type that is nearest to the specified position in 3D.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🔢 Number): X position
@@ -70,6 +76,8 @@ Pick the object of this type that is nearest to the specified position in 3D.
     - Parameter 4 (🔢 Number): Z position
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Collision3D::PickNearest`.
 
 ## Expressions
 

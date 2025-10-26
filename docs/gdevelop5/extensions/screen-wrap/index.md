@@ -26,101 +26,119 @@ Teleport the object when leaving one side of the screen so that it immediately r
 **Enable horizontal wrapping**  
 Enable wrapping on the left and right borders.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ScreenWrap::ScreenWrap::EnableHorizontalWrapping`.
 
 **Enable vertical wrapping**  
 Enable wrapping on the top and bottom borders.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ScreenWrap::ScreenWrap::EnableVerticalWrapping`.
 
 **Set bottom border**  
 Set bottom border (Y position).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Bottom border value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ScreenWrap::ScreenWrap::SetBottomBorder`.
 
 **Set left border**  
 Set left border (X position).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Left border value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ScreenWrap::ScreenWrap::SetLeftBorder`.
 
 **Set right border**  
 Set right border (X position).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Right border value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ScreenWrap::ScreenWrap::SetRightBorder`.
 
 **Set top border**  
 Set top border (Y position).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Top border value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ScreenWrap::ScreenWrap::SetTopBorder`.
 
 **Set trigger offset**  
 Set trigger offset (pixels).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): SetScreen Offset Leaving Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ScreenWrap::ScreenWrap::SetTriggerOffset`.
 
 ### Behavior conditions
 
 **Is horizontal wrapping**  
 Check if the object is wrapping on the left and right borders.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ScreenWrap::ScreenWrap::IsHorizontalWrapping`.
 
 **Is vertical wrapping**  
 Check if the object is wrapping on the top and bottom borders.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ScreenWrap::ScreenWrap::IsVerticalWrapping`.
 
 ### Behavior expressions
 
@@ -141,121 +159,143 @@ Teleport the object when leaving one side of the screen so that it immediately r
 **Apply saved velocity values**  
 Apply saved velocity values.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ScreenWrap::ScreenWrapPhysics::ApplySavedVelocities`.
 
 **Enable horizontal wrapping**  
 Enable wrapping on the left and right borders.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ScreenWrap::ScreenWrapPhysics::EnableHorizontalWrapping`.
 
 **Enable vertical wrapping**  
 Enable wrapping on the top and bottom borders.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ScreenWrap::ScreenWrapPhysics::EnableVerticalWrapping`.
 
 **Save current velocity values**  
 Save current velocity values.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ScreenWrap::ScreenWrapPhysics::SaveCurrentVelocities`.
 
 **Set bottom border**  
 Set bottom border (Y position).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Bottom border value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ScreenWrap::ScreenWrapPhysics::SetBottomBorder`.
 
 **Set left border**  
 Set left border (X position).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Left border value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ScreenWrap::ScreenWrapPhysics::SetLeftBorder`.
 
 **Set right border**  
 Set right border (X position).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Right border value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ScreenWrap::ScreenWrapPhysics::SetRightBorder`.
 
 **Set top border**  
 Set top border (Y position).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Top border value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ScreenWrap::ScreenWrapPhysics::SetTopBorder`.
 
 **Set trigger offset**  
 Set trigger offset (pixels).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): SetScreen Offset Leaving Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ScreenWrap::ScreenWrapPhysics::SetTriggerOffset`.
 
 ### Behavior conditions
 
 **Is horizontal wrapping**  
 Check if the object is wrapping on the left and right borders.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ScreenWrap::ScreenWrapPhysics::IsHorizontalWrapping`.
 
 **Is vertical wrapping**  
 Check if the object is wrapping on the top and bottom borders.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ScreenWrap::ScreenWrapPhysics::IsVerticalWrapping`.
 
 ### Behavior expressions
 

@@ -19,7 +19,7 @@ It can be used to simulate earthquakes or impacts.
 **Add a camera impulse**  
 Add an impulse to the camera position.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Identifier
     - Parameter 2 (string): Layer
@@ -33,10 +33,12 @@ Add an impulse to the camera position.
 
     > Technical note: parameters 0, 10 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `CameraImpulse::AddImpulse`.
+
 **Add a camera impulse (angle)**  
 Add an impulse to the camera position.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Identifier
     - Parameter 2 (string): Layer
@@ -50,16 +52,20 @@ Add an impulse to the camera position.
 
     > Technical note: parameters 0, 10 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `CameraImpulse::AddImpulseAngle`.
+
 ## Conditions
 
 **Camera impulse is playing**  
 Check if a camera impulse is playing.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Identifier
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `CameraImpulse::IsPlaying`.
 
 
 

@@ -36,162 +36,190 @@ Easily create a realistic liquid surface simulation.
 **Force application**  
 Apply a force when an object collides with its surface.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Apply force
     - Parameter 3 (👾 Object): Surface collision of the fluid
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `DynamicWater::DynamicWaterBody::AddForce`.
 
 **Auto Wave**  
 Enable automatic waves.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): The water spring constant
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `DynamicWater::DynamicWaterBody::SetAutoWave`.
 
 **Show Columns**  
 Show the different Column .
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): The water spring constant
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `DynamicWater::DynamicWaterBody::SetColumn`.
 
 **Springs Number**  
 The number of springs controls the distance between the joints and the number of springs. (between 0 and the object width).  
 PS: Change the quality of the waves, the more columns the more they use the performance.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): The water spring constant
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `DynamicWater::DynamicWaterBody::SetColumnNumber`.
 
 **Damping(d)**  
 The spring dampenig value. (between 0 and 0.1).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): The water spring constant
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `DynamicWater::DynamicWaterBody::SetDamping`.
 
 **Change Period**  
 Change Period.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): The water spring constant
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `DynamicWater::DynamicWaterBody::SetPeriod`.
 
 **Spread**  
 The Spread value will dictate how much a wave oscillation will pass pnto their neighboors.(Between 0 and 0.1).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): The water spring constant
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `DynamicWater::DynamicWaterBody::SetSpread`.
 
 **Surface Size**  
 Change the size of the surface edge.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): The water spring constant
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `DynamicWater::DynamicWaterBody::SetSurfaceSize`.
 
 **Tension(k)**  
 Greater values will pull the water with greater force. (between 0 and 0.1).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): The water spring constant
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `DynamicWater::DynamicWaterBody::SetTension`.
 
 **Wave horizontal direction**  
 Change the direction of the waves.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔤 String): The water spring constant (one of: "Right", "Left")
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `DynamicWater::DynamicWaterBody::SetWaveDirection`.
 
 **Wave Length**  
 Change the length of the waves.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): The water spring constant
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `DynamicWater::DynamicWaterBody::SetWaveLength`.
 
 **Wave magnitude**  
 Change the wave magnitude.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): The water spring constant
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `DynamicWater::DynamicWaterBody::SetWaveMagnitude`.
 
 **Components**  
 Component additions (Visual and Surface Collision).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (👾 Object): Body display
     - Parameter 3 (👾 Object): Object that will be used to detect the collision on the surface
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `DynamicWater::DynamicWaterBody::WaterBodyAndCollision`.
 
 ### Behavior conditions
 
 **Surface collision**  
 Test the collision between the object and the fluid surface.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (👾 Object): Define the (physical) object that can interact with the fluid
     - Parameter 3 (👾 Object): Surface collision of the fluid
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `DynamicWater::DynamicWaterBody::CheckSurfaceCollisions`.
 
 ### Behavior expressions
 

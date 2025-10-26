@@ -27,90 +27,108 @@ A button that can be customized.
 **De/activate interactions**  
 De/activate interactions with the button.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1 (❓ Yes or No): Activate
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PanelSpriteButton::PanelSpriteButton::Activate`.
 
 **Label text**  
 Change the label text.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (string): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PanelSpriteButton::PanelSpriteButton::SetLabelTextOp`.
 
 ### Object conditions
 
 **Interactions activated**  
 Check if interactions are activated on the button.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PanelSpriteButton::PanelSpriteButton::IsActivated`.
 
 **Is clicked**  
 Check if the button was just clicked.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PanelSpriteButton::PanelSpriteButton::IsClicked`.
 
 **Is focused**  
 Check if the button is either hovered or pressed but not hovered.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PanelSpriteButton::PanelSpriteButton::IsFocused`.
 
 **Is hovered**  
 Check if the cursor is hovered over the button.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PanelSpriteButton::PanelSpriteButton::IsHovered`.
 
 **Is idle**  
 Check if the button is not used.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PanelSpriteButton::PanelSpriteButton::IsIdle`.
 
 **Is pressed**  
 Check if the button is currently being pressed with mouse or touch.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PanelSpriteButton::PanelSpriteButton::IsPressed`.
 
 **Label text**  
 Compare the label text.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PanelSpriteButton::PanelSpriteButton::LabelText`.
 
 ### Object expressions
 

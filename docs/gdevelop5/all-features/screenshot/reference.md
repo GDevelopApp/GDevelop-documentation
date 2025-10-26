@@ -7,11 +7,13 @@ Allows to save screenshots of a running game. [Read more explanations about it.]
 **Take screenshot**  
 Take a screenshot of the game, and save it to a png file (supported only when running on Windows/Linux/macOS).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Save path
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Screenshot::TakeScreenshot`.
 
 
 

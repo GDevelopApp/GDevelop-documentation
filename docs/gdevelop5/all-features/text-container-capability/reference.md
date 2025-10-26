@@ -13,24 +13,28 @@ Allows an object to contain a text, usually shown on screen, that can be modifie
 **Text**  
 Change the text.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (string): Text
 
+    > Technical note: this action internal type (in GDevelop JSON) is `TextContainerCapability::TextContainerBehavior::SetValue`.
+
 ### Behavior conditions
 
 **Text**  
 Compare the text.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (string): Text
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `TextContainerCapability::TextContainerBehavior::Value`.
 
 ### Behavior expressions
 

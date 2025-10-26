@@ -27,105 +27,127 @@ A toggle switch that users can click or touch.
 **De/activate interactions**  
 De/activate interactions with the button.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1 (❓ Yes or No): Activate
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SpriteToggleSwitch::SpriteToggleSwitch::Activate`.
 
 **Check (or uncheck)**  
 Check (or uncheck) the toggle switch.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1 (❓ Yes or No): IsChecked
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SpriteToggleSwitch::SpriteToggleSwitch::SetChecked`.
 
 **Toggle**  
 Toggle the switch.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SpriteToggleSwitch::SpriteToggleSwitch::ToggleChecked`.
 
 ### Object conditions
 
 **Has just been checked**  
 Check if the toggle switch was checked in the current frame.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenChecked`.
 
 **Has just been toggled**  
 Check if the toggle switch was checked or unchecked in the current frame.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenToggled`.
 
 **Has just been unchecked**  
 Check if the toggle switch was unchecked in the current frame.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenUnchecked`.
 
 **Interactions activated**  
 Check if interactions are activated on the button.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SpriteToggleSwitch::SpriteToggleSwitch::IsActivated`.
 
 **Is checked**  
 Check if the toggle switch is checked.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SpriteToggleSwitch::SpriteToggleSwitch::IsChecked`.
 
 **Is hovered**  
 Check if the cursor is hovered over the button.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SpriteToggleSwitch::SpriteToggleSwitch::IsHovered`.
 
 **Is pressed**  
 Check if the button is currently being pressed with mouse or touch.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SpriteToggleSwitch::SpriteToggleSwitch::IsPressed`.
 
 **Is held outside**  
 Check if the button is currently being pressed outside with mouse or touch.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SpriteToggleSwitch::SpriteToggleSwitch::IsPressedOutside`.
 
 _No expressions for this object._
 

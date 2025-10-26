@@ -13,18 +13,22 @@ Displays a 2D light on the scene, with a customizable radius and color. Add then
 **Light color**  
 Set the color of light object in format "R;G;B" string.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: color
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Lighting::SetColor`.
+
 **Light radius**  
 Set the radius of light object
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1 (🔢 Number): Radius
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Lighting::SetRadius`.
 
 _No expressions for this object._
 

@@ -24,27 +24,31 @@ A turret movement with customizable speed, acceleration and stop angles.
 **Move clockwise**  
 Move clockwise.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Turret::Turret::MoveClockwise`.
 
 **Move counter-clockwise**  
 Move counter-clockwise.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Turret::Turret::MoveCounterClockwise`.
 
 **Move toward a position**  
 Move toward a position.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -52,42 +56,50 @@ Move toward a position.
     - Parameter 3 (🔢 Number): Y position
     - Parameter 4 (🔢 Number): Angle margin
 
-    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+    > Technical note: parameter 5 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Turret::Turret::MoveToward`.
 
 **Aiming angle**  
 Change the aiming angle.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Aiming angle
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Turret::Turret::SetAimingAngle`.
 
 **Set aiming angle toward a position**  
 Set angle toward a position.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): X position
     - Parameter 3 (🔢 Number): Y position
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Turret::Turret::SetAimingAngleToward`.
 
 ### Behavior conditions
 
 **Is moving**  
 Check if the turret is moving.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Turret::Turret::IsMoving`.
 
 ### Behavior expressions
 

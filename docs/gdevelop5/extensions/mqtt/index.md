@@ -36,7 +36,7 @@ You can find a free test broker server over at https://test.mosquitto.org/ - kee
 **Connect to a broker**  
 Connects to an MQTT broker. 
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Host port
     - Parameter 2 (string): Settings as JSON
@@ -46,20 +46,24 @@ Connects to an MQTT broker.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `MQTT::connect`.
+
 **Disconnect from broker**  
 Disconnects from the current MQTT broker.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (❓ Yes or No): Force end the connection?
       By default, MQTT waits for pending messages or messages in the process of being sent to finish being sent before ending the connection. Use this to cancel any request and immediately shutdown the connection.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `MQTT::disconnect`.
+
 **Publish message**  
 Publishes a message on a topic.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Text to publish
     - Parameter 2 (string): Topic to publish to
@@ -71,10 +75,12 @@ Publishes a message on a topic.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `MQTT::publish`.
+
 **Subscribe to a topic**  
 Subcribe to a topic. All messages published on that topic will be received.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): The topic to subscribe to
     - Parameter 2 (🔢 Number): The QoS
@@ -84,34 +90,42 @@ Subcribe to a topic. All messages published on that topic will be received.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `MQTT::subscribe`.
+
 **Unsubscribe from a topic**  
 Unsubcribe from a topic. No more messages from this topic will be received.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): The topic to subscribe to
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MQTT::unsubscribe`.
 
 ## Conditions
 
 **Is connected to a broker?**  
 Triggers if the client is connected to an MQTT broker server.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `MQTT::isConnected`.
 
 **On message**  
 Triggers whenever a message was received. Note that you first need to subcribe to a topic in order to get messages from it.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): The topic to listen to
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `MQTT::onMessage`.
 
 ## Expressions
 

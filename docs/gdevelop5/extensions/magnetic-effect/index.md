@@ -28,7 +28,7 @@ Attraction to another object, with customisable speed and distance.
 **Attraction to a target object**  
 Attraction to a target object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -37,29 +37,35 @@ Attraction to a target object.
     - Parameter 4 (🔢 Number): Speed (Default: 48)
     - Parameter 5 (❓ Yes or No): Permanent
 
-    > Technical note: parameter 6 are internal parameters handled by GDevelop.
+    > Technical note: parameter 6 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MagneticEffect::MagneticEffect::Attraction`.
 
 **Stop attraction**  
 Stop the attraction to the target object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MagneticEffect::MagneticEffect::StopAttraction`.
 
 ### Behavior conditions
 
 **Is attracted to the target object**  
 Check if the object is attracted to the target object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `MagneticEffect::MagneticEffect::IsAttracted`.
 
 _No expressions for this behavior._
 

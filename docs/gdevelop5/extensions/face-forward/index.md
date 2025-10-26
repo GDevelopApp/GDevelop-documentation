@@ -27,24 +27,28 @@ Face object towards the direction of movement.
 **Set offset angle**  
 Set offset angle.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Offset angle
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FaceForward::FaceForward::SetOffsetAngle`.
 
 **Set rotation speed**  
 Set rotation speed (degrees per second).  Use "0" for immediate turning.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Rotation Speed
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FaceForward::FaceForward::SetRotationSpeed`.
 
 ### Behavior expressions
 

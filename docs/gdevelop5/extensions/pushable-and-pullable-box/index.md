@@ -41,7 +41,7 @@ Make object pushable or/and pullable by another object.
 **Pullable Box**  
 Make object pullable by platformer character object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Player object
       This object will pull the box.
@@ -63,10 +63,12 @@ Make object pullable by platformer character object.
 
     > Technical note: parameters 0, 12 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `PushableAndPullableBox::Pulling`.
+
 **Pushable Box**  
 Make object pushable by platformer character object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Player object
       This object will push the box.
@@ -90,25 +92,31 @@ Make object pushable by platformer character object.
 
     > Technical note: parameters 0, 14 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `PushableAndPullableBox::Pushing`.
+
 ## Conditions
 
 **Objct is pulling**  
 Check if the player object is pulling.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Player object
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PushableAndPullableBox::IsPulling`.
 
 **Objct is pushing**  
 Check if the player object is pushing.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Player object
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PushableAndPullableBox::IsPushing`.
 
 
 

@@ -38,177 +38,213 @@ Conditions:
 **Draw swipe gesture**  
 Draw a line that indicates the current swipe gesture.  Edit "Outline Size" of the shape painter to adjust the thickness of the line.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Shape painter used to draw swipe
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SwipeGesture::DrawSwipe`.
+
 **Enable (or disable) swipe gesture detection**  
 Enable (or disable) swipe gesture detection.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (❓ True or False): Enable swipe detection
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SwipeGesture::EnableSwipeDetection`.
+
 **Layer used to detect swipe gestures**  
 Change the Layer used to detect swipe gestures.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔤 Layer name (String)): Value
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `SwipeGesture::SetLayer`.
+
 ## Conditions
 
 **Swipe angle (degrees)**  
 Compare Swipe angle (degrees).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SwipeGesture::Angle`.
 
 **Swipe distance (pixels)**  
 Compare Swipe distance (pixels).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SwipeGesture::Distance`.
 
 **Swipe distance in horizontal direction (pixels)**  
 Compare Swipe distance in horizontal direction (pixels).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SwipeGesture::DistanceX`.
 
 **Swipe distance in vertical direction (pixels)**  
 Compare Swipe distance in vertical direction (pixels).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SwipeGesture::DistanceY`.
 
 **Swipe duration (seconds)**  
 Compare Swipe duration (seconds).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SwipeGesture::Duration`.
 
 **End point of the swipe X position**  
 Compare End point of the swipe X position.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SwipeGesture::EndX`.
 
 **End point of the swipe Y position**  
 Compare End point of the swipe Y position.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SwipeGesture::EndY`.
+
 **Swipe just ended**  
 Check if the swipe has just ended.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SwipeGesture::HasSwipeJustEnded`.
 
 **Is swipe detection enabled**  
 Check if swipe detection is enabled.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SwipeGesture::IsSwipeDetectionEnabled`.
 
 **Swipe is in progress**  
 Check if a swipe is currently in progress.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SwipeGesture::IsSwipeInProgress`.
 
 **Layer used to detect swipe gestures**  
 Compare the Layer used to detect swipe gestures.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔤 Layer name (String)): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SwipeGesture::Layer`.
+
 **Start point of the swipe X position**  
 Compare Start point of the swipe X position.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SwipeGesture::StartX`.
 
 **Start point of the swipe Y position**  
 Compare Start point of the swipe Y position.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SwipeGesture::StartY`.
+
 **Swipe moved in a direction (4-way movement)**  
 Check if swipe moved in a given direction.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 String): Direction (one of: "Up", "Down", "Left", "Right")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `SwipeGesture::SwipeDirection_4way`.
+
 **Swipe moved in a direction (8-way movement)**  
 Check if swipe moved in a given direction.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 String): Direction (one of: "Up", "Down", "Left", "Right", "UpLeft", "UpRight", "DownLeft", "DownRight")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SwipeGesture::SwipeDirection_8way`.
 
 ## Expressions
 

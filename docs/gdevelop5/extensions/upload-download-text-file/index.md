@@ -27,32 +27,38 @@ Allows users to upload/download text content to a filename and vice versa.
 **Download file with text content**  
 Download file with text content.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): FileName
     - Parameter 2 (string): TextContent
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `UploadDownloadTextFile::DownloadTextFile`.
+
 **Upload a text file to text input**  
 Upload a text file to text input.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Scene variable): SceneVariable
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `UploadDownloadTextFile::UploadTextFile`.
 
 ## Conditions
 
 **Uploading text file finished?**  
 Uploading text file finished.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `UploadDownloadTextFile::UploadFinished`.
 
 
 

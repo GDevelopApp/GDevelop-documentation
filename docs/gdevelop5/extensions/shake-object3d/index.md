@@ -25,19 +25,21 @@ Shake 3D objects with translation and rotation.
 **Shaking frequency**  
 Change the shaking frequency of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ShakeObject3D::ShakeModel3D::SetFrequency`.
 
 **Shake**  
 Shake the object with a linear easing at the start and the end.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -45,63 +47,75 @@ Shake the object with a linear easing at the start and the end.
     - Parameter 3 (🔢 Number): Ease duration to start (in seconds)
     - Parameter 4 (🔢 Number): Ease duration to stop (in seconds)
 
-    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+    > Technical note: parameter 5 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ShakeObject3D::ShakeModel3D::Shake`.
 
 **Start shaking**  
 Shake the object with a linear easing at the start and keep shaking until the stop action is used.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Ease duration (in seconds)
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ShakeObject3D::ShakeModel3D::StartShaking`.
 
 **Stop shaking**  
 Stop shaking the object with a linear easing.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Ease duration (in seconds)
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ShakeObject3D::ShakeModel3D::StopShaking`.
 
 ### Behavior conditions
 
 **Shaking frequency**  
 Compare the shaking frequency of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ShakeObject3D::ShakeModel3D::Frequency`.
 
 **Is shaking**  
 Check if the object is shaking.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ShakeObject3D::ShakeModel3D::IsShaking`.
 
 **Is stopping to shake**  
 Check if the object is stopping to shake.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ShakeObject3D::ShakeModel3D::IsStopping`.
 
 ### Behavior expressions
 

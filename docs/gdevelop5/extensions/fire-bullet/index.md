@@ -42,7 +42,7 @@ Fire bullets, manage ammo, reloading, and overheating. Once added to your object
 **Fire bullets toward an angle**  
 Fire bullets in the direction of a given angle at a specified speed.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -52,12 +52,14 @@ Fire bullets in the direction of a given angle at a specified speed.
     - Parameter 5 (🔢 Number): Angle of the bullet, in degrees
     - Parameter 6 (🔢 Number): Speed of the bullet, in pixels per second
 
-    > Technical note: parameter 7 are internal parameters handled by GDevelop.
+    > Technical note: parameter 7 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::Fire`.
 
 **Fire bullets toward an object**  
 Fire bullets toward an object at a specified speed.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -67,12 +69,14 @@ Fire bullets toward an object at a specified speed.
     - Parameter 5 (👾 Object): Target object
     - Parameter 6 (🔢 Number): Speed of the bullet, in pixels per second
 
-    > Technical note: parameter 7 are internal parameters handled by GDevelop.
+    > Technical note: parameter 7 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::FireTowardObject`.
 
 **Fire bullets toward a position**  
 Fire bullets toward a position at a specified speed.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -83,576 +87,678 @@ Fire bullets toward a position at a specified speed.
     - Parameter 6 (🔢 Number): Target Y position
     - Parameter 7 (🔢 Number): Speed of the bullet, in pixels per second
 
-    > Technical note: parameter 8 are internal parameters handled by GDevelop.
+    > Technical note: parameter 8 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::FireTowardPosition`.
 
 **Increase ammo**  
 Increase ammo quantity.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Ammo gained
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::IncreaseAmmo`.
 
 **Reload ammo**  
 Reload ammo.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::ReloadAmmo`.
 
 **Reset total bullets created**  
 Reset total bullets created.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::ResetTotalBulletsCreated`.
 
 **Reset total reloads completed**  
 Reset total reloads completed.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::ResetTotalReloadsCompleted`.
 
 **Reset total shots fired**  
 Reset total shots fired.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::ResetTotalShotsFired`.
 
 **Ammo quantity**  
 Change the ammo quantity.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::SetAmmoQuantityOp`.
 
 **Angle variance**  
 Change the angle variance (in degrees) applied to each bullet.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::SetAngleVarianceOp`.
 
 **Enable (or disable) automatic reloading**  
 Enable (or disable) automatic reloading.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Enable automatic reloading
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::SetAutomaticReload`.
 
 **Set bullet layer**  
 Change the layer that bullets are created on.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🔤 Layer name (String)
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::SetBulletLayer`.
 
 **Bullets per shot**  
 Change the number of bullets shot every time the "fire bullet" action is used.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::SetBulletQuantityOp`.
 
 **Bullet speed variance**  
 Change the bullet speed variance (pixels per second) applied to each bullet.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::SetBulletSpeedVarianceOp`.
 
 **Firing cooldown**  
 Change the firing cooldown (in seconds) also known as rate of fire.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::SetCooldownOp`.
 
 **Exponential cooling rate**  
 Change the exponential cooling rate, per second.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::SetExponentialCoolingRateOp`.
 
 **Firing arc**  
 Change the firing arc (in degrees) where bullets are shot. Bullets are evenly spaced out inside the firing arc.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::SetFiringArcOp`.
 
 **Heat increase per shot**  
 Change the heat increase per shot.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::SetHeatPerShotOp`.
 
 **Linear cooling rate**  
 Change the linear cooling rate (per second).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::SetLinearCoolingRateOp`.
 
 **Max ammo**  
 Change the max ammo.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::SetMaxAmmoOp`.
 
 **Overheat duration**  
 Change the overheat duration (in seconds). When an object is overheated, it can't fire for this duration.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::SetOverheatDurationOp`.
 
 **Reload duration**  
 Change the reload duration (in seconds).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::SetReloadDurationOp`.
 
 **Enable (or disable) bullet rotation**  
 Enable bullet rotation.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Rotate bullet to match trajetory
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::SetRotateBullet`.
 
 **Shots per reload**  
 Change the number of shots per reload.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::SetShotsPerReloadOp`.
 
 **Enable (or disable) unlimited ammo**  
 Enable unlimited ammo.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Unlimited ammo
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::SetUnlimitedAmmo`.
 
 ### Behavior conditions
 
 **Ammo quantity**  
 Compare the ammo quantity.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::AmmoQuantity`.
 
 **Angle variance**  
 Compare the angle variance (in degrees) applied to each bullet.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::AngleVariance`.
 
 **Bullets per shot**  
 Compare the number of bullets shot every time the "fire bullet" action is used.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::BulletQuantity`.
 
 **Is bullet rotation enabled**  
 Check if bullet rotates to match trajectory.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::BulletRotationEnabled`.
 
 **Bullet speed variance**  
 Compare the bullet speed variance (pixels per second) applied to each bullet.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::BulletSpeedVariance`.
 
 **Firing cooldown**  
 Compare the firing cooldown (in seconds) also known as rate of fire.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::Cooldown`.
 
 **Duration before cooldown end**  
 Compare the remaining duration before the cooldown will permit a bullet to be fired, in seconds.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::CooldownTimeLeft`.
 
 **Exponential cooling rate**  
 Compare the exponential cooling rate, per second.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::ExponentialCoolingRate`.
 
 **Firing arc**  
 Compare the firing arc (in degrees) where bullets are shot. Bullets are evenly spaced out inside the firing arc.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::FiringArc`.
 
 **Has just fired**  
 Check if the object has just fired something.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::HasJustFired`.
 
 **Heat increase per shot**  
 Compare the heat increase per shot.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::HeatIncreasePerShot`.
 
 **Heat level**  
 Compare the heat level (range: 0 to 1).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::HeatLevel`.
 
 **Is automatic reloading enabled**  
 Check if automatic reloading is enabled.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::IsAutomaticReloadingEnabled`.
 
 **Is firing cooldown active**  
 Check if firing cooldown is active.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::IsFiringCooldownActive`.
 
 **Is out of ammo**  
 Check if object has no ammo available.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::IsOutOfAmmo`.
 
 **Is overheated**  
 Check if object is overheated.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::IsOverheated`.
 
 **Is ready to shoot**  
 Check if object is ready to shoot.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::IsReadyToShoot`.
 
 **Is ammo reloading in progress**  
 Check if object is currently performing an ammo reload.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::IsReloadInProgress`.
 
 **Is a reload needed**  
 Check if object needs to reload ammo.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::IsReloadNeeded`.
 
 **Is ammo unlimited**  
 Check if ammo is unlimited.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::IsUnlimitedAmmo`.
 
 **Linear cooling rate**  
 Compare the linear cooling rate (per second).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::LinearCoolingRate`.
 
 **Max ammo**  
 Compare the max ammo.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::MaxAmmo`.
 
 **Overheat duration**  
 Compare the overheat duration (in seconds). When an object is overheated, it can't fire for this duration.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::OverheatDuration`.
 
 **Duration before overheat end**  
 Compare the remaining duration before the overheat penalty ends, in seconds.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::OverheatTimeLeft`.
 
 **Reload duration**  
 Compare the reload duration (in seconds).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::ReloadDuration`.
 
 **Duration before the reload finishes**  
 Compare the remaining duration before the reload finishes, in seconds.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::ReloadTimeLeft`.
 
 **Shots before next reload**  
 Compare the remaining shots before the next reload is required.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::ShotsBeforeNextReload`.
 
 **Shots per reload**  
 Compare the number of shots per reload.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::ShotsPerReload`.
 
 ### Behavior expressions
 

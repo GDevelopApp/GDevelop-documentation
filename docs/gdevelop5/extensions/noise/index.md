@@ -32,99 +32,119 @@ Version 2.0.0 compatibility break:
 **Create a noise generator**  
 Create a noise generator with default settings (frequency = 1,  octaves = 1, persistence = 0.5, lacunarity = 2).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Generator name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Noise::Create`.
 
 **Delete a noise generator**  
 Delete a noise generators and loose its settings.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Generator name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Noise::Delete`.
+
 **Delete all noise generators**  
 Delete all noise generators and loose their settings.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Noise::DeleteAll`.
 
 **Noise base frequency**  
 Change the base frequency used for noise generation. A lower frequency will zoom in the noise.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Frequency
     - Parameter 2 (string): Generator name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Noise::SetFrequency`.
+
 **Noise lacunarity**  
 Change the lacunarity used for noise generation. At its default value "2", it doubles the frequency at each octave.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Lacunarity
     - Parameter 2 (string): Generator name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Noise::SetLacunarity`.
+
 **Noise looping period on X**  
 Change the looping period on X used for noise generation. The noise will wrap-around on X.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Looping period on X
     - Parameter 2 (string): Generator name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Noise::SetLoopPeriodX`.
+
 **Noise looping period on Y**  
 Change the looping period on Y used for noise generation. The noise will wrap-around on Y.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Looping period on Y
     - Parameter 2 (string): Generator name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Noise::SetLoopPeriodY`.
+
 **Noise octaves**  
 Change the number of octaves used for noise generation. It can be seen as layers of noise with different zoom.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Octaves
     - Parameter 2 (string): Generator name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Noise::SetOctaves`.
+
 **Noise persistence**  
 Change the persistence used for noise generation. At its default value "0.5", it halves the noise amplitude at each octave.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Persistence
     - Parameter 2 (string): Generator name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Noise::SetPersistence`.
+
 **Noise seed**  
 The seed is a number used to generate the random noise. Setting the same seed will result in the same random noise generation. It's for example useful to generate the same world, by saving this seed value and reusing it later to generate again a world.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Seed
       15 digits numbers maximum
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Noise::SetSeed`.
 
 ## Expressions
 

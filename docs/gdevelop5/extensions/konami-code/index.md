@@ -25,12 +25,14 @@ Allows to input the classic Konami Code ("Up, Up, Down, Down, Left, Right, Left,
 **Is Inputted**  
 Checks if the Konami Code is correctly inputted.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `KonamiCode::KonamiCode::KC_Inputted`.
 
 _No expressions for this behavior._
 

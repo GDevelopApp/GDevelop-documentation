@@ -30,7 +30,7 @@ Paint all over the screen a color for a period of time.
 **Paint Effect**  
 Paint Effect.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -40,19 +40,23 @@ Paint Effect.
     - Parameter 5 (🔤 String): Direction transition (one of: "Both", "Forward", "Backward")
     - Parameter 6 (🔢 Number): End opacity
 
-    > Technical note: parameter 7 are internal parameters handled by GDevelop.
+    > Technical note: parameter 7 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FlashTransitionPainter::FlashTransitionPainter::PaintEffect`.
 
 ### Behavior conditions
 
 **Paint effect ended **  
 Paint effect ended.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FlashTransitionPainter::FlashTransitionPainter::PaintEffectIsEnd`.
 
 _No expressions for this behavior._
 

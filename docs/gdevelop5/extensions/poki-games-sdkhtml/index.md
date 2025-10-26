@@ -19,103 +19,125 @@ Please refer to [Poki's guide](https://sdk.poki.com/sdk-documentation.html) to k
 **Game loading finished**  
 Inform Poki game finished loading.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PokiGamesSDKHtml::CallGameLoadingFinished`.
 
 **Gameplay started**  
 Inform Poki gameplay started.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PokiGamesSDKHtml::CallGameplayStart`.
 
 **Gameplay stopped**  
 Inform Poki gameplay stopped.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PokiGamesSDKHtml::CallGameplayStop`.
 
 **Commercial break**  
 Request commercial break.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PokiGamesSDKHtml::RequestCommercialBreak`.
 
 **Rewarded break**  
 Request rewarded break.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PokiGamesSDKHtml::RequestRewardedBreak`.
 
 ## Conditions
 
 **Commercial break just finished playing**  
 Checks if a commercial break just finished playing.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PokiGamesSDKHtml::DidCommercialBreakJustFinishPlaying`.
 
 **Rewarded break just finished playing**  
 Checks if a rewarded break just finished playing.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PokiGamesSDKHtml::DidRewardedBreakJustFinishPlaying`.
 
 **Commercial break is playing**  
 Checks if a commercial break is playing.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PokiGamesSDKHtml::IsCommercialBreakPlaying`.
 
 **Rewarded break is playing**  
 Checks if a rewarded break is playing.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PokiGamesSDKHtml::IsRewardedBreakPlaying`.
 
 **Poki SDK is ready**  
 Check if the Poki SDK is ready to be used.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PokiGamesSDKHtml::IsSdkReady`.
 
 **Should reward player**  
 Checks if player should be rewarded after a rewarded break finished playing.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PokiGamesSDKHtml::ShouldRewardPlayer`.
 
 
 

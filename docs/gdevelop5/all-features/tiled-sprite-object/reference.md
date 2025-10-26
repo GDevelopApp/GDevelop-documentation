@@ -13,48 +13,58 @@ Displays an image repeated over an area.
 **Tint color**  
 Change the tint of a Tiled Sprite. The default color is white.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1 (color): Tint
 
+    > Technical note: this action internal type (in GDevelop JSON) is `TiledSpriteObject::SetColor`.
+
 **Image X Offset**  
 Modify the offset used on the X axis when displaying the image.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `TiledSpriteObject::XOffset`.
 
 **Image Y Offset**  
 Modify the offset used on the Y axis when displaying the image.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `TiledSpriteObject::YOffset`.
 
 ### Object conditions
 
 **Image X Offset**  
 Test the offset used on the X axis when displaying the image.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `TiledSpriteObject::XOffset`.
 
 **Image Y Offset**  
 Test the offset used on the Y axis when displaying the image.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `TiledSpriteObject::YOffset`.
 
 ### Object expressions
 

@@ -29,7 +29,7 @@ For instance, it can be helpful for grid-based games like:
 **Link to neighbors on a hexagonal grid**  
 Link to neighbors on a hexagonal grid.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (👾 Object): Neighbor
@@ -39,10 +39,12 @@ Link to neighbors on a hexagonal grid.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `LinkTools::LinkHexagonalNeighbors`.
+
 **Link to neighbors on an isometric grid**  
 Link to neighbors on an isometric grid.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (👾 Object): Neighbor
@@ -52,11 +54,13 @@ Link to neighbors on an isometric grid.
     - Parameter 5 (❓ Yes or No): Allows diagonals
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `LinkTools::LinkIsometricRectangularNeighbors`.
 
 **Link to neighbors on a rectangular grid**  
 Link to neighbors on a rectangular grid.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (👾 Object): Neighbor
@@ -66,23 +70,27 @@ Link to neighbors on a rectangular grid.
     - Parameter 5 (❓ Yes or No): Allows diagonals
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `LinkTools::LinkRectangularNeighbors`.
 
 ## Conditions
 
 **Can reach**  
 Can reach through links.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Pick these objects...
     - Parameter 2 (👾 Object): if they can reach this object
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `LinkTools::CanReach`.
+
 **Can reach with links limited by length**  
 Can reach through a given number of links.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Pick these objects...
     - Parameter 2 (👾 Object): if they can reach this object
@@ -92,10 +100,12 @@ Can reach through a given number of links.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `LinkTools::CanReachWithMaxLength`.
+
 **Can reach with links limited by cost**  
 Can reach through a given cost sum.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Pick these objects...
     - Parameter 2 (👾 Object): if they can reach this object
@@ -108,6 +118,8 @@ Can reach through a given cost sum.
     - Parameter 7 (❓ Yes or No): Ignore first node cost
 
     > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `LinkTools::CanReachWithMaxWeight`.
 
 ## Expressions
 
@@ -125,17 +137,19 @@ The object will move from one object instance to another according to how they a
 **Forget the path**  
 Forget the path.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `LinkTools::LinkPathFinding::ForgetPath`.
 
 **Move to a position**  
 Move the object to a position.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -143,166 +157,196 @@ Move the object to a position.
     - Parameter 3 (👾 Object): Destination objects
     - Parameter 4 (string): Cost class
 
-    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+    > Technical note: parameter 5 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `LinkTools::LinkPathFinding::MoveTo`.
 
 **Acceleration**  
 Change the acceleration of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `LinkTools::LinkPathFinding::SetAcceleration`.
 
 **Angle offset**  
 Change the rotation offset applied when moving the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `LinkTools::LinkPathFinding::SetAngleOffset`.
 
 **Rotate the object**  
 Enable or disable rotation of the object on the path.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Rotate
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `LinkTools::LinkPathFinding::SetRotate`.
 
 **Rotation speed**  
 Change the rotation speed of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `LinkTools::LinkPathFinding::SetRotationSpeed`.
 
 **Maximum speed**  
 Change the maximum speed of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `LinkTools::LinkPathFinding::SetSpeedMax`.
 
 ### Behavior conditions
 
 **Acceleration**  
 Compare the acceleration of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `LinkTools::LinkPathFinding::Acceleration`.
 
 **Angle offset**  
 Compare the rotation offset applied when moving the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `LinkTools::LinkPathFinding::AngleOffset`.
 
 **Destination reached**  
 Check if the destination was reached.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `LinkTools::LinkPathFinding::HasReachedDestination`.
 
 **Is at a node**  
 Check if the object position is the on a path node.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `LinkTools::LinkPathFinding::HasReachedNode`.
 
 **Is moving**  
 Check if the object is moving.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `LinkTools::LinkPathFinding::IsMoving`.
 
 **Path found**  
 Check if a path has been found.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `LinkTools::LinkPathFinding::PathFound`.
 
 **Object rotated**  
 Check if the object is rotated when traveling on its path.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `LinkTools::LinkPathFinding::Rotate`.
 
 **Rotation speed**  
 Compare the rotation speed of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `LinkTools::LinkPathFinding::RotationSpeed`.
 
 **Maximum speed**  
 Compare the maximum speed of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `LinkTools::LinkPathFinding::SpeedMax`.
 
 ### Behavior expressions
 

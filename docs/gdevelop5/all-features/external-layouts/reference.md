@@ -7,14 +7,16 @@ Provides actions and conditions related to external layouts. [Read more explanat
 **Create objects from an external layout**  
 Create objects from an external layout.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🔤 External Layout Name (String)
     - Parameter 2 (🔢 Number): X position of the origin
     - Parameter 3 (🔢 Number): Y position of the origin
     - Parameter 4 (🔢 Number): Z position of the origin
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `BuiltinExternalLayouts::CreateObjectsFromExternalLayout`.
 
 
 

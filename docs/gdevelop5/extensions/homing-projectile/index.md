@@ -35,17 +35,19 @@ Tips:
 **Lock projectile to target**  
 Lock projectile object to target object.  (This is required for "Move projectile towards target").
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Projectile object
     - Parameter 2 (👾 Object): Target object
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `HomingProjectile::LockOnTarget`.
+
 **Move projectile towards target**  
 Move projectile towards the object that it has been locked to.  This action must be run every frame.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Projectile object
     - Parameter 2 (👾 Object): Target object
@@ -59,10 +61,12 @@ Move projectile towards the object that it has been locked to.  This action must
 
     > Technical note: parameters 0, 9 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `HomingProjectile::MoveTowardsTarget`.
+
 **Move physics projectile towards target**  
 Move physics projectile towards the object that it has been locked to.  This action must be run every frame.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Projectile object
     - Parameter 2 (🧩 Behavior): Physics Behavior
@@ -75,6 +79,8 @@ Move physics projectile towards the object that it has been locked to.  This act
     - Parameter 8 (❓ Yes or No): Delete Projectile if it collides with Target:
 
     > Technical note: parameters 0, 9 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `HomingProjectile::MoveTowardsTargetPhysics`.
 
 
 

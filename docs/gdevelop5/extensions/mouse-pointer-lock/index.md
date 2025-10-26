@@ -26,80 +26,96 @@ Use `MovementX()` and `MovementY()` instead.
 **Exit pointer lock**  
 Unlocks the mouse pointer and show it.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MousePointerLock::ExitPointerLock`.
 
 **Request Pointer Lock**  
 Lock the mouse pointer to hide it.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MousePointerLock::RequestPointerLock`.
 
 **Speed factor for touch movement**  
 Change the speed factor for touch movement.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `MousePointerLock::SetTouchSpeedFactor`.
+
 ## Conditions
 
 **Locked pointer is moving**  
 Check if the locked pointer is moving.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `MousePointerLock::IsMoving`.
 
 **Pointer X movement**  
 Compare the movement of the locked pointer on the X axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `MousePointerLock::MovementX`.
 
 **Pointer Y movement**  
 Compare the movement of the pointer on the Y axis.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `MousePointerLock::MovementY`.
 
 **Speed factor for touch movement**  
 Compare the speed factor for touch movement.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `MousePointerLock::TouchSpeedFactor`.
+
 **Pointer is locked**  
 Check if the mouse pointer is locked.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `MousePointerLock::isPointerLocked`.
 
 ## Expressions
 
@@ -118,124 +134,144 @@ Control camera rotations with a mouse.
 **Horizontal rotation speed factor**  
 Change the horizontal rotation speed factor of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MousePointerLock::FirstPersonPointerMapper::SetHorizontalSpeed`.
 
 **Z position offset**  
 Change the z position offset of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MousePointerLock::FirstPersonPointerMapper::SetOffsetZ`.
 
 **Maximum vertical camera angle**  
 Change the maximum vertical camera angle of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MousePointerLock::FirstPersonPointerMapper::SetVerticalAngleMax`.
 
 **Minimum vertical camera angle**  
 Change the minimum vertical camera angle of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MousePointerLock::FirstPersonPointerMapper::SetVerticalAngleMin`.
 
 **Vertical rotation speed factor**  
 Change the vertical rotation speed factor of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MousePointerLock::FirstPersonPointerMapper::SetVerticalSpeed`.
 
 ### Behavior conditions
 
 **Horizontal rotation speed factor**  
 Compare the horizontal rotation speed factor of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `MousePointerLock::FirstPersonPointerMapper::HorizontalSpeed`.
 
 **Z position offset**  
 Compare the z position offset of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `MousePointerLock::FirstPersonPointerMapper::OffsetZ`.
 
 **Maximum vertical camera angle**  
 Compare the maximum vertical camera angle of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `MousePointerLock::FirstPersonPointerMapper::VerticalAngleMax`.
 
 **Minimum vertical camera angle**  
 Compare the minimum vertical camera angle of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `MousePointerLock::FirstPersonPointerMapper::VerticalAngleMin`.
 
 **Vertical rotation speed factor**  
 Compare the vertical rotation speed factor of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `MousePointerLock::FirstPersonPointerMapper::VerticalSpeed`.
 
 ### Behavior expressions
 

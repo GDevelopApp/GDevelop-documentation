@@ -48,31 +48,37 @@ Features:
 **Listen for speeches**  
 Listen for speeches.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 String): Language (Optional, defaults to the browser language setting if none given) (one of: "ar-SA (Arabic)", "bn-BD (Bangla)", "bn-IN (Bangla)", "cs-CZ (Czech)", "da-DK (Danish)", "de-AT (German)", "de-CH (German)", "de-DE (German)", "el-GR (Greek)", "en-AU (English)", "en-CA (English)", "en-GB (English)", "en-IE (English)", "en-IN (English)", "en-NZ (English)", "en-US (English)", "en-ZA (English)", "es-AR (Spanish)", "es-CL (Spanish)", "es-CO (Spanish)", "es-ES (Spanish)", "es-MX (Spanish)", "es-US (Spanish)", "fi-FI (Finnish)", "fr-BE (French)", "fr-CA (French)", "fr-CH (French)", "fr-FR (French)", "he-IL (Hebrew)", "hi-IN (Hindi)", "hu-HU (Hungarian)", "id-ID (Indonesian)", "it-CH (Italian)", "it-IT (Italian)", "jp-JP (Japanese)", "ko-KR (Korean)", "nl-BE (Dutch)", "nl-NL (Dutch)", "no-NO (Norwegian)", "pl-PL (Polish)", "pt-BR (Portugese)", "pt-PT (Portugese)", "ro-RO (Romanian)", "ru-RU (Russian)", "sk-SK (Slovak)", "sv-SE (Swedish)", "ta-IN (Tamil)", "ta-LK (Tamil)", "th-TH (Thai)", "tr-TR (Turkish)", "zh-CN (Chinese)", "zh-HK (Chinese)", "zh-TW (Chinese)")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `VoiceRecognition::StartListening`.
 
 ## Conditions
 
 **On Voice Recognition Error**  
 On Voice Recognition Error.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `VoiceRecognition::OnError`.
 
 **On Voice Recognition Success**  
 On Voice Recognition Success.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `VoiceRecognition::OnSuccess`.
 
 ## Expressions
 

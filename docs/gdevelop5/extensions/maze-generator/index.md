@@ -40,7 +40,7 @@ Finally, there is a **MazeObject** behavior that can be attached to wall or floo
 **Add a maze wall**  
 Add a wall in a particular direction for a maze cell.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Maze ID
     - Parameter 2 (🔢 Number): Row Number
@@ -49,10 +49,12 @@ Add a wall in a particular direction for a maze cell.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `MazeGenerator::AddMazeWall`.
+
 **Create Maze Corner Objects**  
 For a previously created maze, create maze corner objects at the intersection point of maze cells.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): MazeID chosen during maze creation
     - Parameter 2 (👾 Object): Corner Object
@@ -63,10 +65,12 @@ For a previously created maze, create maze corner objects at the intersection po
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `MazeGenerator::CreateMazeCornerObjects`.
+
 **Create Maze Floor Objects**  
 For a previously created maze, create maze floor objects that will tile the cells of the maze.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): MazeID chosen during maze creation
     - Parameter 2 (👾 Object): Floor Object
@@ -77,10 +81,12 @@ For a previously created maze, create maze floor objects that will tile the cell
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `MazeGenerator::CreateMazeFloorObjects`.
+
 **Create Maze Wall Objects**  
 For a previously created maze, create maze wall objects along the edges of the cells of the maze.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): MazeID chosen during maze creation
     - Parameter 2 (👾 Object): Horizontal Wall Object
@@ -94,10 +100,12 @@ For a previously created maze, create maze wall objects along the edges of the c
 
     > Technical note: parameters 0, 10 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `MazeGenerator::CreateMazeWallObjects`.
+
 **Find Maze Path**  
 Finds a path through a maze between two cells, storing the result in a scene variable array.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): MazeID
     - Parameter 2 (🔢 Number): Start Row
@@ -109,10 +117,12 @@ Finds a path through a maze between two cells, storing the result in a scene var
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `MazeGenerator::FindMazePath`.
+
 **Generate a maze**  
 Specify the overall size of a maze, and the size of the tile "cells" inside the maze. Walls are randomly generated to form the maze. The maze is stored in memory, and can be referenced using a name called MazeID that is chosen here. The maze generator extension comes with other actions that reference this mazeID, which can be used to create actual wall and floor objects to place the maze into the scene. 
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Top-left point, X coordinate of maze in scene
     - Parameter 2 (🔢 Number): Top-left point, Y coordinate of maze in scene
@@ -124,10 +134,12 @@ Specify the overall size of a maze, and the size of the tile "cells" inside the 
 
     > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `MazeGenerator::GenerateMaze`.
+
 **Remove a maze wall**  
 Remove a wall in a particular direction for a maze cell.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Maze ID
     - Parameter 2 (🔢 Number): Row Number
@@ -136,12 +148,14 @@ Remove a wall in a particular direction for a maze cell.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `MazeGenerator::RemoveMazeWall`.
+
 ## Conditions
 
 **Cell within a maze has a wall**  
 Chosen cell within a maze has a wall in a particular direction.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Maze ID
     - Parameter 2 (🔢 Number): Row Number
@@ -149,6 +163,8 @@ Chosen cell within a maze has a wall in a particular direction.
     - Parameter 4 (🔤 String): Wall Direction (one of: "LeftWall", "RightWall", "UpWall", "DownWall")
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `MazeGenerator::CheckMazeWall`.
 
 ## Expressions
 
@@ -190,48 +206,56 @@ This behavior adds some helper functions to be used with Maze Generator extensio
 **Delete Maze Object**  
 Delete the Maze Object, also updating the corresponding maze scene variables.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MazeGenerator::MazeObject::DeleteMazeObject`.
 
 ### Behavior conditions
 
 **Maze object has particular row and column numbers**  
 Maze object is in a certain row and column of a maze.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Row Number
     - Parameter 3 (🔢 Number): Column Number
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `MazeGenerator::MazeObject::CheckMazeObjectLocation`.
 
 **Check mazeID of object**  
 Check if maze object belongs to a certain maze, by the MazeID.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (string): MazeID of maze, set during maze creation
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `MazeGenerator::MazeObject::CheckMazeObjectMazeID`.
 
 **Check Wall Direction of Maze Object**  
 Check if maze object is a wall in a particular direction.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔤 String): Wall Direction of Maze Object (one of: "LeftWall", "RightWall", "UpWall", "DownWall")
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `MazeGenerator::MazeObject::CheckMazeObjectWallDirection`.
 
 ### Behavior expressions
 

@@ -13,32 +13,36 @@ Make objects move as if they are subject to the laws of physics. If you're creat
 **Add a gear between two objects**  
 Add a virtual gear between two objects.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 👾 Object
     - Parameter 3 (🔢 Number): Ratio
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PhysicsBehavior::ActAddGearJointBetweenObjects`.
 
 **Add a hinge**  
 Add a hinge that the object will rotate around.  
 The distance between the hinge and the object will remain identical.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Hinge X position
     - Parameter 3 (🔢 Number): Hinge Y position
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PhysicsBehavior::AddRevoluteJoint`.
 
 **Add a hinge between two objects**  
 Add a hinge that the object will rotate around.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -46,24 +50,28 @@ Add a hinge that the object will rotate around.
     - Parameter 4 (🔢 Number): X position of the hinge, from the first object mass center
     - Parameter 5 (🔢 Number): Y position of the hinge, from the first object mass center
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PhysicsBehavior::AddRevoluteJointBetweenObjects`.
 
 **Add a force**  
 Add a force to the object
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): X component ( Newtons )
     - Parameter 3 (🔢 Number): Y component ( Newtons )
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PhysicsBehavior::ApplyForce`.
 
 **Apply a force toward a position**  
 Apply a force, directed toward a position, to the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -71,36 +79,42 @@ Apply a force, directed toward a position, to the object.
     - Parameter 3 (🔢 Number): Y position
     - Parameter 4 (🔢 Number): Length of the force ( Newtons )
 
-    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+    > Technical note: parameter 5 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PhysicsBehavior::ApplyForceTowardPosition`.
 
 **Apply a force ( angle )**  
 Apply a force to an object, using an angle and a length as coordinates.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Angle
     - Parameter 3 (🔢 Number): Length of the force ( Newtons )
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PhysicsBehavior::ApplyForceUsingPolarCoordinates`.
 
 **Apply an impulse**  
 Apply an impulse to the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): X component ( Newtons/Seconds )
     - Parameter 3 (🔢 Number): Y component ( Newtons/Seconds )
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PhysicsBehavior::ApplyImpulse`.
 
 **Apply an impulse toward a position**  
 Apply an impulse, directed toward a position, to the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -108,307 +122,363 @@ Apply an impulse, directed toward a position, to the object.
     - Parameter 3 (🔢 Number): Y position
     - Parameter 4 (🔢 Number): Impulse value ( Newton/seconds )
 
-    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+    > Technical note: parameter 5 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PhysicsBehavior::ApplyImpulseTowardPosition`.
 
 **Apply an impulse (angle)**  
 Apply an impulse to an object, using an angle and a length as coordinates.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Angle
     - Parameter 3 (🔢 Number): Impulse value ( Newton/seconds )
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PhysicsBehavior::ApplyImpulseUsingPolarCoordinates`.
 
 **Add a torque (a rotation)**  
 Add a torque (a rotation) to the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Torque value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PhysicsBehavior::ApplyTorque`.
 
 **Do not treat object like a bullet**  
 Do not treat the object like a bullet, so it will use standard collision handling.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PhysicsBehavior::DontSetAsBullet`.
 
 **Angular damping**  
 Modify the angular damping of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PhysicsBehavior::SetAngularDamping`.
 
 **Angular speed**  
 Modify the angular velocity of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): New value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PhysicsBehavior::SetAngularVelocity`.
 
 **Treat object like a bullet.**  
 Treat the object like a bullet, so it will have better collision handling.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PhysicsBehavior::SetAsBullet`.
 
 **Make the object dynamic**  
 Make the object dynamic ( affected by forces and other objects ).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PhysicsBehavior::SetDynamic`.
 
 **Fix rotation**  
 Prevent the object from rotating
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PhysicsBehavior::SetFixedRotation`.
 
 **Make object's rotation free**  
 Allows the object to rotate.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PhysicsBehavior::SetFreeRotation`.
 
 **Gravity**  
 Modify the gravity
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): X Coordinate
     - Parameter 3 (🔢 Number): Y Coordinate
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PhysicsBehavior::SetGravity`.
 
 **Linear damping**  
 Modify the linear damping of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PhysicsBehavior::SetLinearDamping`.
 
 **Linear velocity**  
 Modify the velocity of an object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): X Coordinate
     - Parameter 3 (🔢 Number): Y Coordinate
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PhysicsBehavior::SetLinearVelocity`.
 
 **Change the X scale of a collision polygon**  
 Change the X scale of the polygon. Use a value greater than 1 to enlarge the polygon, less than 1 to reduce it.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Scale
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PhysicsBehavior::SetPolygonScaleX`.
 
 **Change the Y scale of a collision polygon**  
 Change the Y scale of the polygon. Use a value greater than 1 to enlarge the polygon, less than 1 to reduce it.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Scale
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PhysicsBehavior::SetPolygonScaleY`.
 
 **Make the object static**  
 Make the object immovable.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PhysicsBehavior::SetStatic`.
 
 ### Behavior conditions
 
 **Angular damping**  
 Test the object's angular damping
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PhysicsBehavior::AngularDamping`.
 
 **Angular speed**  
 Compare the angular speed of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PhysicsBehavior::AngularVelocity`.
 
 **Collision**  
 Test if two objects are colliding.  
 Attention! Only objects specified in the first parameter will be taken into account by the next actions and conditions, if they are colliding with the other objects.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 👾 Object
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PhysicsBehavior::CollisionWith`.
 
 **Collision polygon X scale**  
 Test the value of the X scale of the collision polygon.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PhysicsBehavior::GetPolygonScaleX`.
 
 **Collision polygon Y scale**  
 Test the value of the Y scale of the collision polygon.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PhysicsBehavior::GetPolygonScaleY`.
 
 **Object is treated like a bullet**  
 Test if the object is treated like a bullet
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PhysicsBehavior::IsBullet`.
 
 **The object is dynamic**  
 Test if an object is dynamic ( affected by forces and other objects ).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PhysicsBehavior::IsDynamic`.
 
 **Fixed rotation**  
 Test if the object's rotation is fixed.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PhysicsBehavior::IsFixedRotation`.
 
 **Linear damping**  
 Compare the linear damping of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PhysicsBehavior::LinearDamping`.
 
 **Linear speed**  
 Compare the linear velocity of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PhysicsBehavior::LinearVelocity`.
 
 **X component**  
 Compare the linear velocity on the X axis of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PhysicsBehavior::LinearVelocityX`.
 
 **Y component**  
 Compare the linear velocity on the Y axis of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PhysicsBehavior::LinearVelocityY`.
 
 ### Behavior expressions
 

@@ -26,17 +26,19 @@ It can be useful to:
 **Last recast distance**  
 Compare the last recast intersection distance.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Raycaster3D::Distance`.
+
 **Raycast to a position**  
 Sends a ray from the given source position to the final point, intersecting the closest object. The intersected object will become the only one taken into account.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Objects to test against the ray
     - Parameter 2 (🔢 Number): Ray source X position
@@ -48,20 +50,24 @@ Sends a ray from the given source position to the final point, intersecting the 
 
     > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Raycaster3D::RaycastBetweenPosition`.
+
 **Raycast from camera center**  
 Sends a ray from the center of the camera, intersecting the closest object. The intersected object will become the only one taken into account.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Objects to test against the ray
     - Parameter 2 (🔢 Number): Ray maximum distance (in pixels)
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Raycaster3D::RaycastFromCameraCenter`.
+
 **Raycast from cursor**  
 Sends a ray from the cursor on the camera screen, intersecting the closest object. The intersected object will become the only one taken into account.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Objects to test against the ray
     - Parameter 2 (🔤 Layer name (String)): 2D layer
@@ -69,10 +75,12 @@ Sends a ray from the cursor on the camera screen, intersecting the closest objec
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Raycaster3D::RaycastFromCameraCursor`.
+
 **Raycast from a camera point**  
 Sends a ray from the given source point on the camera screen, intersecting the closest object. The intersected object will become the only one taken into account.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Objects to test against the ray
     - Parameter 2 (🔢 Number): X position on the screen (from 0 to 1)
@@ -81,10 +89,12 @@ Sends a ray from the given source point on the camera screen, intersecting the c
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Raycaster3D::RaycastFromCameraPoint`.
+
 **Raycast**  
 Sends a ray from the given source position and angle, intersecting the closest object. The intersected object will become the only one taken into account.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Objects to test against the ray
     - Parameter 2 (🔢 Number): Ray source X position
@@ -95,6 +105,8 @@ Sends a ray from the given source position and angle, intersecting the closest o
     - Parameter 7 (🔢 Number): Ray maximum distance (in pixels)
 
     > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Raycaster3D::RaycastWithAngle`.
 
 ## Expressions
 

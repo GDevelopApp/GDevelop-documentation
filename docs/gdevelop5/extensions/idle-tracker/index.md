@@ -29,22 +29,26 @@ Check if an object has not moved (with some tolerance, 20 pixels by default) for
 **Has just moved from last position**  
 Check if the object has just moved from its last position (using the tolerance configured in the behavior).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `IdleTracker::IdleTracker::HasMovedFromLastPosition`.
 
 **Is idle (since enough time)**  
 Check if the object is idle: it has not moved from its last position (or within the tolerance) for the time configured in the behavior.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `IdleTracker::IdleTracker::IsIdle`.
 
 _No expressions for this behavior._
 

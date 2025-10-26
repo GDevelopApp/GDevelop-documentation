@@ -31,7 +31,7 @@ Tips:
 **Move and zoom camera to the room object that contains the trigger object (player)**  
 Move and zoom camera to the room object that contains the trigger object (usually the player).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Room object
       Room objects are used to mark areas that should be seen by the camera.
@@ -48,34 +48,42 @@ Move and zoom camera to the room object that contains the trigger object (usuall
 
     > Technical note: parameters 0, 9 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `RoomBasedCameraMovement::MoveCameraToActiveRoom`.
+
 ## Conditions
 
 **Check if trigger object (player) has entered a new room**  
 Check if trigger object (usually the player) has entered a new room on this frame.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Trigger object (player)
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `RoomBasedCameraMovement::ActiveRoomChanged`.
+
 **Check if camera is moving**  
 Check if camera is moving (requires the use of "Move and zoom camera" action in this extension).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `RoomBasedCameraMovement::IsCameraMoving`.
 
 **Check if camera is zooming**  
 Check if camera is zooming (requires the use of "Move and zoom camera" action in this extension).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `RoomBasedCameraMovement::IsCameraZooming`.
 
 
 

@@ -42,7 +42,7 @@ Watch this [tutorial video](https://youtu.be/2t4ANYgrrak) to see examples of how
 **Animate shadow clones that follow the path of a primary object**  
 Select the primary object, the shadow clone object, the number of shadow clones, the number of frames between shadow clones, the rate that shadow clones will fade away (if desired), the Z-value of the shadow clones, and the layer the shadow clones will be created on.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Object that shadow clones will follow
     - Parameter 2 (👾 Object): Shadows clones will be made of this object (Cannot be the same object used for primary object)
@@ -64,15 +64,19 @@ Select the primary object, the shadow clone object, the number of shadow clones,
 
     > Technical note: parameters 0, 16 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ShadowClones::AnimateShadowClones`.
+
 **Delete shadow clone objects that are linked to a primary object**  
 Delete shadow clone objects that are linked to a primary object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Primary object
     - Parameter 2 (👾 Object): Shadow clones
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ShadowClones::DeleteShadowClones`.
 
 
 

@@ -17,7 +17,7 @@ This extension allows to zoom a camera on a layer at a given speed. The zoom spe
 **Zoom with anchor**  
 Change the camera zoom and keep an anchor point fixed on screen (instead of the center).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Zoom
       1: Initial zoom, 2: zoom in x2, 0.5: zoom out x2...
@@ -28,10 +28,12 @@ Change the camera zoom and keep an anchor point fixed on screen (instead of the 
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `CameraZoom::ZoomWithAnchor`.
+
 **Zoom camera with speed**  
 Change the camera zoom at a given speed (in factor per second).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Zoom speed
       Zoom by a factor per second. 1: no effect, 2: zoom in x2 every second, 0.5: zoom out x2 every second.
@@ -40,10 +42,12 @@ Change the camera zoom at a given speed (in factor per second).
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `CameraZoom::ZoomWithSpeed`.
+
 **Zoom camera with speed and anchor**  
 Change the camera zoom at a given speed (in factor per second) and keep an anchor point fixed on screen (instead of the center).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Zoom speed
       Zoom by a factor per second. 1: no effect, 2: zoom in x2 every second, 0.5: zoom out x2 every second.
@@ -53,6 +57,8 @@ Change the camera zoom at a given speed (in factor per second) and keep an ancho
     - Parameter 5 (🔢 Number): Anchor Y
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `CameraZoom::ZoomWithSpeedAndAnchor`.
 
 
 

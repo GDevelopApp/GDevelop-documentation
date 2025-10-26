@@ -33,230 +33,270 @@ Control how a projectile object moves including lifetime, distance, speed, and a
 **Restart lifetime timer**  
 Restart lifetime timer of object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `AdvancedProjectile::AdvancedProjectile::RestartLifetimeTimer`.
 
 **Acceleration**  
 Change the acceleration of the object. Use a negative number to slow down.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `AdvancedProjectile::AdvancedProjectile::SetAcceleration`.
 
 **Change automatic deletion when distance from starting position is exceeded**  
 Change automatic deletion when distance from starting position is exceeded.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): DeleteWhenDistanceExceeded
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `AdvancedProjectile::AdvancedProjectile::SetDeleteWhenDistanceExceeded`.
 
 **Change automatic deletion when lifetime is exceeded**  
 Change automatic deletion of object when lifetime is exceeded.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): DeleteWhenLifetimeExceeded
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `AdvancedProjectile::AdvancedProjectile::SetDeleteWhenLifetimeExceeded`.
 
 **Max distance from starting position**  
 Change the max distance from starting position of the object. Object is deleted after property has been exceeded. Use "0" to ignore this property.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `AdvancedProjectile::AdvancedProjectile::SetMaxDistanceFromStart`.
 
 **Lifetime**  
 Change the lifetime of the object. Object is deleted after property has been exceeded. Use "0" to ignore this property.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `AdvancedProjectile::AdvancedProjectile::SetMaxLifetime`.
 
 **Max speed**  
 Change the max speed of the object. Object forces cannot exceed this value. Use "0" to ignore this property.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `AdvancedProjectile::AdvancedProjectile::SetMaxSpeed`.
 
 **MinSpeed**  
 Change the minSpeed of the object. Object forces cannot go below this value. Use "0" to ignore this property.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `AdvancedProjectile::AdvancedProjectile::SetMinSpeed`.
 
 **Change starting position to the current position**  
 Change the starting position of object to it's current position.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `AdvancedProjectile::AdvancedProjectile::SetStartingPositionToCurrentPosition`.
 
 **Starting speed**  
 Change the starting speed of the object. Object will move in the direction it is facing when it is created. Use "0" to ignore this property.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
     - Parameter 3 (🔢 Number): Value
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `AdvancedProjectile::AdvancedProjectile::SetStartingSpeed`.
 
 ### Behavior conditions
 
 **Acceleration**  
 Compare the acceleration of the object. Use a negative number to slow down.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `AdvancedProjectile::AdvancedProjectile::Acceleration`.
 
 **Automatic deletion is enabled when distance from starting position is exceeded**  
 Check if automatic deletion is enabled when distance from starting position is exceeded.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `AdvancedProjectile::AdvancedProjectile::DeleteWhenDistanceExceeded`.
 
 **Automatic deletion is enabled when lifetime is exceeded**  
 Check if automatic deletion is enabled when lifetime is exceeded.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `AdvancedProjectile::AdvancedProjectile::DeleteWhenLifetimeExceeded`.
 
 **Lifetime has been exceeded**  
 Check if lifetime has been exceeded (object will be deleted next frame).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `AdvancedProjectile::AdvancedProjectile::IsLifetimeExceeded`.
 
 **Max distance from starting position has been exceeded**  
 Check if max distance from starting position has been exceeded (object will be deleted next frame).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `AdvancedProjectile::AdvancedProjectile::IsMaxDistanceExceeded`.
 
 **Max distance from starting position**  
 Compare the max distance from starting position of the object. Object is deleted after property has been exceeded. Use "0" to ignore this property.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `AdvancedProjectile::AdvancedProjectile::MaxDistanceFromStart`.
 
 **Lifetime**  
 Compare the lifetime of the object. Object is deleted after property has been exceeded. Use "0" to ignore this property.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `AdvancedProjectile::AdvancedProjectile::MaxLifetime`.
 
 **Max speed**  
 Compare the max speed of the object. Object forces cannot exceed this value. Use "0" to ignore this property.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `AdvancedProjectile::AdvancedProjectile::MaxSpeed`.
 
 **MinSpeed**  
 Compare the minSpeed of the object. Object forces cannot go below this value. Use "0" to ignore this property.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `AdvancedProjectile::AdvancedProjectile::MinSpeed`.
 
 **Starting speed**  
 Compare the starting speed of the object. Object will move in the direction it is facing when it is created. Use "0" to ignore this property.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `AdvancedProjectile::AdvancedProjectile::StartingSpeed`.
 
 ### Behavior expressions
 

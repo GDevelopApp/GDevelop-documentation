@@ -24,20 +24,24 @@ This extension allows to:
 **Redirect to another page**  
 Loads another page in place of the current one.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): URL to redirect to
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `URLTools::Redirect`.
+
 **Reload the web page**  
 Reloads the current web page.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `URLTools::Reload`.
 
 ## Expressions
 

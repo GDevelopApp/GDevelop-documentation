@@ -27,107 +27,127 @@ A bar that represents a resource in the game (health, mana, ammo, etc).
 **Show label**  
 Show (or hide) the label on the bar.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1 (❓ Yes or No): Show the label
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetLabelShown`.
 
 **Maximum value**  
 Change the maximum value of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue`.
 
 **Previous value conservation duration**  
 Change the previous value conservation duration (in seconds) of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetPreviousValueDuration`.
 
 **Value**  
 Change the value of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue`.
 
 ### Object conditions
 
 **Empty**  
 Check if the bar is empty.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsEmpty`.
 
 **Full**  
 Check if the bar is full.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull`.
 
 **Label is shown**  
 Check if the label is shown.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsLabelShown`.
 
 **Maximum value**  
 Compare the maximum value of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PanelSpriteContinuousBar::PanelSpriteContinuousBar::MaxValue`.
 
 **Previous value conservation duration**  
 Compare the previous value conservation duration (in seconds) of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PanelSpriteContinuousBar::PanelSpriteContinuousBar::PreviousValueDuration`.
 
 **Value**  
 Compare the value of the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value`.
 
 ### Object expressions
 

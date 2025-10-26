@@ -24,7 +24,7 @@ A [simple example](https://editor.gdevelop.io/?project=example://snap-object-to-
 **Snap objects to a virtual bubble grid**  
 Snap object to a virtual bubble grid (this is not the grid used in the editor).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Objects to snap to the virtual grid
     - Parameter 2 (🔢 Number): Width of a cell of the virtual grid (in pixels)
@@ -36,10 +36,12 @@ Snap object to a virtual bubble grid (this is not the grid used in the editor).
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `HexagonalGrid::SnapObjectToBubbleGrid`.
+
 **Snap objects to a virtual flat topped hexagonal grid**  
 Snap object to a virtual flat topped hexagonal grid (this is not the grid used in the editor).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Objects to snap to the virtual grid
     - Parameter 2 (🔢 Number): Width of a cell of the virtual grid (in pixels)
@@ -51,10 +53,12 @@ Snap object to a virtual flat topped hexagonal grid (this is not the grid used i
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `HexagonalGrid::SnapObjectToFlatToppedHexagonalGrid`.
+
 **Snap objects to a virtual pointy topped hexagonal grid**  
 Snap object to a virtual pointy topped hexagonal grid (this is not the grid used in the editor).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Objects to snap to the virtual grid
     - Parameter 2 (🔢 Number): Width of a cell of the virtual grid (in pixels)
@@ -65,6 +69,8 @@ Snap object to a virtual pointy topped hexagonal grid (this is not the grid used
       Odd rows are shifted from half a cell, use a "CellHeight * 3/4" offset to make it the other way.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `HexagonalGrid::SnapObjectToPointyToppedHexagonalGrid`.
 
 
 

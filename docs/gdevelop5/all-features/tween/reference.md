@@ -7,7 +7,7 @@ Smoothly animate object properties over time — such as position, rotation scal
 **Tween a layer value**  
 Tweens a layer value that can be use with the expression Tween::Value.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Tween Identifier
     - Parameter 2 (🔢 Number): From value
@@ -17,12 +17,14 @@ Tweens a layer value that can be use with the expression Tween::Value.
     - Parameter 6 (❓ Yes or No): Exponential interpolation
     - Parameter 7: 🔤 Layer name (String)
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::AddLayerValueTween`.
 
 **Tween a scene value**  
 Tweens a scene value that can be use with the expression Tween::Value.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Tween Identifier
     - Parameter 2 (🔢 Number): From value
@@ -31,49 +33,59 @@ Tweens a scene value that can be use with the expression Tween::Value.
     - Parameter 5 (🔢 Number): Duration (in seconds)
     - Parameter 6 (❓ Yes or No): Exponential interpolation
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::AddLayoutValueTween`.
 
 **Pause a scene tween**  
 Pause the running scene tween.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Tween Identifier
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::PauseSceneTween`.
 
 **Remove a scene tween**  
 Remove the scene tween. Call this when the tween is no longer needed to free memory.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Tween Identifier
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::RemoveSceneTween`.
 
 **Resume a scene tween**  
 Resume the scene tween.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Tween Identifier
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::ResumeSceneTween`.
 
 **Stop a scene tween**  
 Stop the running scene tween.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Tween Identifier
     - Parameter 2 (❓ Yes or No): Jump to the end
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::StopSceneTween`.
 
 **Tween the camera position**  
 Tweens the camera position from the current one to a new one.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Tween Identifier
     - Parameter 2 (🔢 Number): Target X position
@@ -82,12 +94,14 @@ Tweens the camera position from the current one to a new one.
     - Parameter 5 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
     - Parameter 6 (🔢 Number): Duration (in seconds)
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenCameraPosition2`.
 
 **Tween the camera rotation**  
 Tweens the camera rotation from the current angle to a new one.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Tween Identifier
     - Parameter 2 (🔢 Number): Target rotation (in degrees)
@@ -95,12 +109,14 @@ Tweens the camera rotation from the current angle to a new one.
     - Parameter 4 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
     - Parameter 5 (🔢 Number): Duration (in seconds)
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenCameraRotation2`.
 
 **Tween the camera zoom**  
 Tweens the camera zoom from the current zoom factor to a new one.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Tween Identifier
     - Parameter 2 (🔢 Number): Target zoom
@@ -108,12 +124,14 @@ Tweens the camera zoom from the current zoom factor to a new one.
     - Parameter 4 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
     - Parameter 5 (🔢 Number): Duration (in seconds)
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenCameraZoom2`.
 
 **Tween color effect property**  
 Tweens a color effect property from its current value to a new one.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Tween Identifier
     - Parameter 2 (color): To color
@@ -123,12 +141,14 @@ Tweens a color effect property from its current value to a new one.
     - Parameter 6 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
     - Parameter 7 (🔢 Number): Duration (in seconds)
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenColorEffectPropertyTween`.
 
 **Tween number effect property**  
 Tweens a number effect property from its current value to a new one.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Tween Identifier
     - Parameter 2 (🔢 Number): To value
@@ -138,12 +158,14 @@ Tweens a number effect property from its current value to a new one.
     - Parameter 6 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
     - Parameter 7 (🔢 Number): Duration (in seconds)
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenNumberEffectPropertyTween`.
 
 **Tween a number in a scene variable**  
 Tweens a scene variable's numeric value from its current value to a new one.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Tween Identifier
     - Parameter 2 (🗄️ Scene variable): The variable to tween
@@ -151,47 +173,57 @@ Tweens a scene variable's numeric value from its current value to a new one.
     - Parameter 4 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
     - Parameter 5 (🔢 Number): Duration (in seconds)
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenSceneVariableNumber3`.
 
 ## Conditions
 
 **Tween progress**  
 Compare the progress of a tween (between 0.0 and 1.0).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Tween Identifier
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Tween::Progress`.
 
 **Scene tween exists**  
 Check if the scene tween exists.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Tween Identifier
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Tween::SceneTweenExists`.
 
 **Scene tween finished playing**  
 Check if the scene tween has finished playing.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Tween Identifier
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Tween::SceneTweenHasFinished`.
 
 **Scene tween is playing**  
 Check if the scene tween is currently playing.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Tween Identifier
 
-    > Technical note: parameter 0 are internal parameters handled by GDevelop.
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Tween::SceneTweenIsPlaying`.
 
 ## Expressions
 
@@ -216,7 +248,7 @@ Smoothly animate position, angle, scale and other properties of objects.
 **Tween object depth**  
 Tweens an object depth (suitable 3D objects only) from its current depth to a new one.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -227,10 +259,12 @@ Tweens an object depth (suitable 3D objects only) from its current depth to a ne
     - Parameter 6 (🔢 Number): Duration (in seconds)
     - Parameter 7 (❓ Yes or No): Destroy this object when tween finishes
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::AddObjectDepthTween2`.
+
 **Tween object Z position**  
 Tweens an object Z position (3D objects only) from its current Z position to a new one.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -241,47 +275,57 @@ Tweens an object Z position (3D objects only) from its current Z position to a n
     - Parameter 6 (🔢 Number): Duration (in seconds)
     - Parameter 7 (❓ Yes or No): Destroy this object when tween finishes
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::AddObjectPositionZTween2`.
+
 **Pause a tween**  
 Pause the running tween animation.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔤 Name (String)): Tween Identifier
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::PauseTween`.
 
 **Remove a tween**  
 Remove the tween animation from the object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔤 Name (String)): Tween Identifier
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::RemoveTween`.
 
 **Resume a tween**  
 Resume the tween animation.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔤 Name (String)): Tween Identifier
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::ResumeTween`.
+
 **Stop a tween**  
 Stop the running tween animation.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔤 Name (String)): Tween Identifier
     - Parameter 3 (❓ Yes or No): Jump to end
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::StopTween`.
+
 **Tween color effect property**  
 Tweens a color effect property from its current value to a new one.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -294,10 +338,12 @@ Tweens a color effect property from its current value to a new one.
     - Parameter 8 (🔢 Number): Duration (in seconds)
     - Parameter 9 (❓ Yes or No): Destroy this object when tween finishes
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenBehavior::AddColorEffectPropertyTween`.
+
 **Tween number effect property**  
 Tweens a number effect property from its current value to a new one.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -310,10 +356,12 @@ Tweens a number effect property from its current value to a new one.
     - Parameter 8 (🔢 Number): Duration (in seconds)
     - Parameter 9 (❓ Yes or No): Destroy this object when tween finishes
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenBehavior::AddNumberEffectPropertyTween`.
+
 **Tween object angle**  
 Tweens an object angle from its current angle to a new one.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -323,10 +371,12 @@ Tweens an object angle from its current angle to a new one.
     - Parameter 5 (🔢 Number): Duration (in seconds)
     - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenBehavior::AddObjectAngleTween2`.
+
 **Tween object HSL color**  
 Tweens the object color using Hue/Saturation/Lightness. Hue is in degrees, Saturation and Lightness are between 0 and 100. Use -1 for Saturation and Lightness to let them unchanged.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -339,10 +389,12 @@ Tweens the object color using Hue/Saturation/Lightness. Hue is in degrees, Satur
     - Parameter 8 (🔢 Number): Duration (in seconds)
     - Parameter 9 (❓ Yes or No): Destroy this object when tween finishes
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenBehavior::AddObjectColorHSLTween2`.
+
 **Tween object color**  
 Tweens the object color from its current value to a new one. Format: "128;200;255" with values between 0 and 255 for red, green and blue
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -354,10 +406,12 @@ Tweens the object color from its current value to a new one. Format: "128;200;25
     - Parameter 7 (❓ Yes or No): Tween on the Hue/Saturation/Lightness (HSL)
       Useful to have a more natural change between colors.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenBehavior::AddObjectColorTween2`.
+
 **Tween object height**  
 Tweens an object height from its current height to a new one.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -367,10 +421,12 @@ Tweens an object height from its current height to a new one.
     - Parameter 5 (🔢 Number): Duration (in seconds)
     - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenBehavior::AddObjectHeightTween2`.
+
 **Tween object opacity**  
 Tweens the object opacity from its current value to a new one (note: the value shall stay between 0 and 255).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -380,10 +436,12 @@ Tweens the object opacity from its current value to a new one (note: the value s
     - Parameter 5 (🔢 Number): Duration (in seconds)
     - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenBehavior::AddObjectOpacityTween2`.
+
 **Tween object position**  
 Tweens an object position from its current position to a new one.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -394,10 +452,12 @@ Tweens an object position from its current position to a new one.
     - Parameter 6 (🔢 Number): Duration (in seconds)
     - Parameter 7 (❓ Yes or No): Destroy this object when tween finishes
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenBehavior::AddObjectPositionTween2`.
+
 **Tween object X position**  
 Tweens an object X position from its current X position to a new one.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -407,10 +467,12 @@ Tweens an object X position from its current X position to a new one.
     - Parameter 5 (🔢 Number): Duration (in seconds)
     - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenBehavior::AddObjectPositionXTween2`.
+
 **Tween object Y position**  
 Tweens an object Y position from its current Y position to a new one.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -420,10 +482,12 @@ Tweens an object Y position from its current Y position to a new one.
     - Parameter 5 (🔢 Number): Duration (in seconds)
     - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenBehavior::AddObjectPositionYTween2`.
+
 **Tween object rotation on X axis**  
 Tweens an object rotation on X axis from its current angle to a new one.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -433,11 +497,13 @@ Tweens an object rotation on X axis from its current angle to a new one.
     - Parameter 5 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
     - Parameter 6 (🔢 Number): Duration (in seconds)
     - Parameter 7 (❓ Yes or No): Destroy this object when tween finishes
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenBehavior::AddObjectRotationXTween`.
 
 **Tween object rotation on Y axis**  
 Tweens an object rotation on Y axis from its current angle to a new one.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -448,10 +514,12 @@ Tweens an object rotation on Y axis from its current angle to a new one.
     - Parameter 6 (🔢 Number): Duration (in seconds)
     - Parameter 7 (❓ Yes or No): Destroy this object when tween finishes
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenBehavior::AddObjectRotationYTween`.
+
 **Tween object scale**  
 Tweens an object scale from its current value to a new one (note: the scale can never be 0 or less).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -462,10 +530,12 @@ Tweens an object scale from its current value to a new one (note: the scale can 
     - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
     - Parameter 7 (❓ Yes or No): Scale from center of object
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenBehavior::AddObjectScaleTween3`.
+
 **Tween object X-scale**  
 Tweens an object X-scale from its current value to a new one (note: the scale can never be 0 or less).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -476,10 +546,12 @@ Tweens an object X-scale from its current value to a new one (note: the scale ca
     - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
     - Parameter 7 (❓ Yes or No): Scale from center of object
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenBehavior::AddObjectScaleXTween2`.
+
 **Tween object Y-scale**  
 Tweens an object Y-scale from its current value to a new one (note: the scale can never be 0 or less).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -490,10 +562,12 @@ Tweens an object Y-scale from its current value to a new one (note: the scale ca
     - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
     - Parameter 7 (❓ Yes or No): Scale from center of object
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenBehavior::AddObjectScaleYTween2`.
+
 **Tween an object value**  
 Tweens an object value that can be use with the object expression Tween::Value.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -505,10 +579,12 @@ Tweens an object value that can be use with the object expression Tween::Value.
     - Parameter 7 (❓ Yes or No): Exponential interpolation
     - Parameter 8 (❓ Yes or No): Destroy this object when tween finishes
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenBehavior::AddObjectValueTween`.
+
 **Tween a number in an object variable**  
 Tweens an object variable's numeric value from its current value to a new one.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -519,10 +595,12 @@ Tweens an object variable's numeric value from its current value to a new one.
     - Parameter 6 (🔢 Number): Duration (in seconds)
     - Parameter 7 (❓ Yes or No): Destroy this object when tween finishes
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenBehavior::AddObjectVariableTween3`.
+
 **Tween object width**  
 Tweens an object width from its current width to a new one.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -532,10 +610,12 @@ Tweens an object width from its current width to a new one.
     - Parameter 5 (🔢 Number): Duration (in seconds)
     - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenBehavior::AddObjectWidthTween2`.
+
 **Tween text size**  
 Tweens the text object character size from its current value to a new one (note: the size can never be less than 1).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): Text object
     - Parameter 1: 🧩 Behavior
@@ -545,45 +625,55 @@ Tweens the text object character size from its current value to a new one (note:
     - Parameter 5 (🔢 Number): Duration (in seconds)
     - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenBehavior::AddTextObjectCharacterSizeTween2`.
+
 ### Behavior conditions
 
 **Tween exists**  
 Check if the tween animation exists.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔤 Name (String)): Tween Identifier
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Tween::Exists`.
 
 **Tween finished playing**  
 Check if the tween animation has finished playing.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔤 Name (String)): Tween Identifier
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Tween::HasFinished`.
 
 **Tween is playing**  
 Check if the tween animation is currently playing.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔤 Name (String)): Tween Identifier
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Tween::IsPlaying`.
+
 **Tween progress**  
 Compare the progress of a tween (between 0.0 and 1.0).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔤 Name (String)): Tween Identifier
     - Parameter 3: 🟰 Relational operator
     - Parameter 4 (🔢 Number): Value to compare
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Tween::TweenBehavior::Progress`.
 
 ### Behavior expressions
 

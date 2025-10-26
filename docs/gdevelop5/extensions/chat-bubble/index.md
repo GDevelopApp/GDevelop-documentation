@@ -42,7 +42,7 @@ Draws a chat bubble into a text object.
 **Draw a chat bubble**  
 Draw a chat bubble.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -51,12 +51,14 @@ Draw a chat bubble.
     - Parameter 4 (👾 Object): Chat bubble text object
     - Parameter 5: 🔤 Layer name (String)
 
-    > Technical note: parameter 6 are internal parameters handled by GDevelop.
+    > Technical note: parameter 6 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ChatBubble::ChatBubble::DrawChatBubble`.
 
 **Draw a chat bubble with name tag**  
 Draw a chat bubble with name tag.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -66,7 +68,9 @@ Draw a chat bubble with name tag.
     - Parameter 5: 🔤 Layer name (String)
     - Parameter 6 (👾 Object): Name tag text object (optional)
 
-    > Technical note: parameter 7 are internal parameters handled by GDevelop.
+    > Technical note: parameter 7 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ChatBubble::ChatBubble::DrawChatBubbleWithNameTag`.
 
 _No expressions for this behavior._
 

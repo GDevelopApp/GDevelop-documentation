@@ -27,139 +27,165 @@ Let users select a numerical value by dragging a slider.
 **De/activate interactions**  
 De/activate interactions with the button.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1 (❓ Yes or No): Activate
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PanelSpriteSlider::PanelSpriteSlider::Activate`.
 
 **Show label**  
 Show (or hide) the label on the bar.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1 (❓ Yes or No): Show the label
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PanelSpriteSlider::PanelSpriteSlider::SetLabelShown`.
 
 **Maximum value**  
 Change the maximum value of the slider.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PanelSpriteSlider::PanelSpriteSlider::SetMaxValue`.
 
 **Minimum value**  
 Change the minimum value of the slider.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PanelSpriteSlider::PanelSpriteSlider::SetMinValue`.
 
 **Step size**  
 Change the step size of the slider.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PanelSpriteSlider::PanelSpriteSlider::SetStepSize`.
 
 **Value**  
 Change the value of the slider.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PanelSpriteSlider::PanelSpriteSlider::SetValue`.
 
 ### Object conditions
 
 **Interactions activated**  
 Check if the slider allows interactions.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PanelSpriteSlider::PanelSpriteSlider::IsActivated`.
 
 **Being dragged**  
 Check if the slider is being dragged.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged`.
 
 **Label is shown**  
 Check if the label is shown.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
 
-    > Technical note: parameter 1 are internal parameters handled by GDevelop.
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PanelSpriteSlider::PanelSpriteSlider::IsLabelShown`.
 
 **Maximum value**  
 Compare the maximum value of the slider.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PanelSpriteSlider::PanelSpriteSlider::MaxValue`.
 
 **Minimum value**  
 Compare the minimum value of the slider.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PanelSpriteSlider::PanelSpriteSlider::MinValue`.
 
 **Step size**  
 Compare the step size of the slider.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PanelSpriteSlider::PanelSpriteSlider::StepSize`.
 
 **Value**  
 Compare the value of the slider.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PanelSpriteSlider::PanelSpriteSlider::Value`.
 
 ### Object expressions
 

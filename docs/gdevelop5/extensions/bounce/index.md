@@ -30,13 +30,15 @@ Provides an action to make the object bounce from another object it just touched
 Bounce the object off another object it is currently colliding with, according to the angle and the speed of forces applied on the object.  
 Make sure to test for a collision between the two objects before launching this action. All the forces will be removed from the object, and a new permanent force will be added to make the object bounce.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (👾 Object): The objects to bounce on
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Bounce::Bounce::BounceOff`.
 
 **Bounce horizontally**  
 Bounce the object off another object it is currently colliding with, according to the angle and the speed of forces applied on the object.  
@@ -44,13 +46,15 @@ The bounce will always be horizontal, like if the object is *colliding a perfect
 
 Make sure to test for a collision between the two objects before launching this action. All the forces will be removed from the object, and a new permanent force will be added to make the object bounce.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (👾 Object): The objects to bounce on
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Bounce::Bounce::BounceOffHorizontally`.
 
 **Bounce off another object toward a specified angle**  
 Bounce the object off another object it is currently colliding with, according to the angle and the speed of forces applied on the object.  
@@ -58,7 +62,7 @@ The bounce will always be calculated *to go toward the specified angle (the "nor
 
 Make sure to test for a collision between the two objects before launching this action. All the forces will be removed from the object, and a new permanent force will be added to make the object bounce.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -66,7 +70,9 @@ Make sure to test for a collision between the two objects before launching this 
     - Parameter 3 (🔢 Number): The "normal" angle, in degrees, to bounce against
       This can be understood at the direction that the bounce must go toward.
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Bounce::Bounce::BounceOffSpecificAngle`.
 
 **Bounce vertically**  
 Bounce the object off another object it is currently colliding with, according to the angle and the speed of forces applied on the object.  
@@ -74,27 +80,31 @@ The bounce will always be vertical, like if the object is *colliding a perfectly
 
 Make sure to test for a collision between the two objects before launching this action. All the forces will be removed from the object, and a new permanent force will be added to make the object bounce.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (👾 Object): The objects to bounce on
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Bounce::Bounce::BounceOffVertically`.
 
 ### Behavior conditions
 
 **Bounce count**  
 Compare the number of times this object has bounced off another object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Bounce::Bounce::BounceCount`.
 
 ### Behavior expressions
 

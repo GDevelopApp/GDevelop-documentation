@@ -19,7 +19,7 @@ The platformer example uses this extension ([open the project online](https://ed
 **Load checkpoint**  
 Change the position of the object to the saved checkpoint.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Load checkpoint from object
     - Parameter 2 (👾 Object): Change position of object
@@ -29,10 +29,12 @@ Change the position of the object to the saved checkpoint.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Checkpoints::LoadCheckpoint`.
+
 **Save checkpoint**  
 Update a checkpoint of an object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Save checkpoint of object
     - Parameter 2 (🔢 Number): X position
@@ -41,17 +43,21 @@ Update a checkpoint of an object.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Checkpoints::SaveCheckpoint`.
+
 ## Conditions
 
 **Checkpoint exists**  
 Check if a checkpoint has a position saved / does exist.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Check checkpoint from object
     - Parameter 2 (🔤 Name (String)): Checkpoint name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Checkpoints::CheckpointExist`.
 
 
 

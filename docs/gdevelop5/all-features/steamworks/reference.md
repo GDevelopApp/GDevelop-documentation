@@ -7,22 +7,26 @@ Adds integrations for Steam's Steamworks game development SDK.
 **Activate an action set**  
 Activates a Steam Input action set of a Steam Input controller.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (🔢 Number): Controller number
     - Parameter 1 (🔤 Name (String)): ActionName
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Steamworks::ActivateActionSet`.
+
 **Claim achievement**  
 Marks a Steam achievement as obtained. Steam will pop-up a notification with the achievement's data defined on the Steamworks partner website.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (🔤 Name (String)): Achievement ID
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Steamworks::ClaimAchievement`.
 
 **Create a lobby**  
 Creates a new steam lobby owned by the player, for other players to join.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (🔤 String): Visibility
       [Click here](https://partner.steamgames.com/doc/api/ISteamMatchmaking#ELobbyType) to learn more about the different lobby visibilities. (one of: "Private", "FriendsOnly", "Public", "Invisible")
@@ -30,127 +34,167 @@ Creates a new steam lobby owned by the player, for other players to join.
     - Parameter 2 (🗄️ Scene variable): Store results in
       The variable will be set to the ID of the lobby if successful, otherwise to "failure".
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Steamworks::CreateLobby`.
+
 **Create a Workshop item**  
 Creates an item owned by the current player on the Steam Workshop. This only assignes an ID to an item for the user - use the action "Update workshop item" to set the item data and upload the workshop file.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (🗄️ Scene variable): The variable where to store the result
       This will be set to the Workshop item ID if successful and to the string "failure" otherwise.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Steamworks::CreateWorkshopItem`.
+
 **Delete a file**  
 Deletes a file from the Steam Cloud.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (🔤 Name (String)): Name of file to delete
     - Parameter 1 (🗄️ Scene variable): Variable where to store the result
       The variable will be set to true if the file was successfully deleted and to false if it could not be.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Steamworks::DeleteCloudFile`.
+
 **Download a Workshop item**  
 Initiates the download of a Workshop item now.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (🔤 Name (String)): Workshop Item ID
     - Parameter 1 (❓ Yes or No): Stop other downloads?
       This will temporarily pause any other Steam download on the player's machine to download the Workshop item NOW without waiting for other pending downloads to finish.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Steamworks::DownloadWorkshopItem`.
+
 **Get the lobby's members**  
 Gets the Steam ID of all players in the current lobby.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (🗄️ Scene variable): Variable where to store the player list
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Steamworks::GetCurrentLobbyMembers`.
 
 **Get a list of lobbies**  
 Fills an array variable with a list of lobbies for the player to join.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (🗄️ Scene variable): Array to fill with lobbies
       The variable will be set to an array of the IDs of the lobbies if they could be successfully obtained. If they could not be obtained, it is set to the string "failure".
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Steamworks::GetLobbies`.
+
 **Get a lobby's members**  
 Gets the Steam ID of all players in a lobby.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (string): The lobby ID
     - Parameter 1 (🗄️ Scene variable): Variable where to store the player list
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Steamworks::GetLobbyMembers`.
+
 **Join a lobby (by ID)**  
 Join a Steam lobby, using its lobby ID.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (string): Lobby ID
     - Parameter 1 (🗄️ Scene variable): Store results in
       The variable will be set to the ID of the lobby if successful, otherwise to "failure".
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Steamworks::JoinLobby`.
+
 **Leave current lobby**  
 Marks the player as having left the current lobby.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this action.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Steamworks::LeaveLobby`.
 
 **Open invite dialogue**  
 Opens the steam invitation dialogue to let the player invite their Steam friends to the current lobby. Only works if the player is currently in a lobby.
 
+??? quote "See parameters & details"
+
+    There are no parameters to set for this action.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Steamworks::OpenInviteDialogue`.
+
 **Set a lobby attribute**  
 Sets an attribute of the current lobby. Attributes are readable to anyone that can see the lobby. They can contain public information about the lobby like a description, or for example a P2P ID for knowing where to connect to join this lobby.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (🔤 Name (String)): The attribute to set
     - Parameter 1 (string): Value to set the attribute to
     - Parameter 2 (🗄️ Scene variable): Variable where to store the result
       The variable will be set to true if the attribute was successfully set and to false if it could not be set.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Steamworks::SetCurrentLobbyAttribute`.
+
 **Set the lobby joinability**  
 Sets whether other users can join the current lobby or not.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (❓ Yes or No): Should the lobby be joinable?
     - Parameter 1 (🗄️ Scene variable): Variable where to store the result
       The variable will be set to true if the joinability was successfully set and to false if it could not be changed.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Steamworks::SetCurrentLobbyJoinability`.
+
 **Steam rich presence**  
 Changes an attribute of Steam's rich presence. Allows other player to see exactly what the player's currently doing in the game.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (🔤 String): The attribute to change
       [Click here](https://partner.steamgames.com/doc/api/ISteamFriends#SetRichPresence) to find out more about the different default rich-presence attributes. (one of: "status", "connect", "steam_display", "steam_player_group", "steam_player_group_size")
     - Parameter 1 (string): The new value for that attribute
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Steamworks::SetRichPresence`.
+
 **Subscribe to a Workshop item**  
 Makes the player subscribe to a workshop item. This will cause it to be downloaded and installed ASAP.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (🔤 Name (String)): Workshop Item ID
     - Parameter 1 (🗄️ Scene variable): The variable where to store the result
       This will be set to `true` if successful and to `false` otherwise.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Steamworks::SubscribeWorkshopItem`.
 
 **Unclaim achievement**  
 Removes a player's Steam achievement.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (🔤 Name (String)): Achievement ID
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Steamworks::UnclaimAchievement`.
 
 **Unsubscribe to a Workshop item**  
 Makes the player unsubscribe to a workshop item. This will cause it to removed after quitting the game.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (🔤 Name (String)): Workshop Item ID
     - Parameter 1 (🗄️ Scene variable): The variable where to store the result
       This will be set to `true` if successful and to `false` otherwise.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Steamworks::UnsubscribeWorkshopItem`.
+
 **Update a Workshop item**  
 Releases an update to a Workshop item owned by the player. If you leave a field empty, it will be kept unmodified as it was before the update.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (🔤 Name (String)): Workshop Item ID
     - Parameter 1 (string): Title
@@ -166,86 +210,140 @@ Releases an update to a Workshop item owned by the player. If you leave a field 
     - Parameter 8 (🗄️ Scene variable): The variable where to store the result
       This will be set to `true` if the update is successfully release and to `false` otherwise.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Steamworks::UpdateWorkshopItem`.
+
 **Write a file**  
 Writes a file onto the Steam Cloud.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (🔤 Name (String)): Name of file to write
     - Parameter 1 (string): File contents
     - Parameter 2 (🗄️ Scene variable): Variable where to store the result
       The variable will be set to true if the file was successfully written and to false if it could not be.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Steamworks::WriteCloudFile`.
+
 ## Conditions
 
 **Has achievement**  
 Checks if a player owns one of this game's Steam achievement.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (🔤 Name (String)): Achievement ID
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Steamworks::HasAchievement`.
 
 **Player bought the game**  
 Checks if the current user actually bought & owns the game. If the "Require Steam" checkbox has been checked in the game properties, this will always be true as Steam will not allow to launch the game if it is not owned. Can be used to display an anti-piracy message instead of straight up blocking the launch of the game.
 
+??? quote "See parameters & details"
+
+    There are no parameters to set for this condition.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Steamworks::HasPlayerBoughtGame`.
+
 **Player installed an application**  
 Checks if the current user has a Steam application currently installed.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (🔤 Name (String)): The Steam App ID of the application
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Steamworks::HasPlayerInstalledApp`.
 
 **Player installed DLC**  
 Checks if the current user has installed a piece of DLC.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (🔤 Name (String)): The Steam App ID of the DLC
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Steamworks::HasPlayerInstalledDLC`.
 
 **File exists**  
 Checks if a file exists on Steam Cloud.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (🔤 Name (String)): File name
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Steamworks::IsCloudFileExisting`.
 
 **Digital action activated**  
 Triggers when a digital action (a button that is either pressed or not) of a Steam Input controller has been triggered.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (🔢 Number): Controller number
     - Parameter 1 (🔤 Name (String)): ActionName
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `Steamworks::IsDigitalActionPressed`.
+
 **Is on Steam Deck**  
 Checks whether the game is currently running on a Steam Deck or not.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this condition.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Steamworks::IsOnSteamDeck`.
 
 **Player cannot be exposed to violence**  
 Checks if the current user may only be exposed to low violence, due to e.g. their age and content restrictions in their country.
 
+??? quote "See parameters & details"
+
+    There are no parameters to set for this condition.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Steamworks::IsPlayerLowViolence`.
+
 **Player owns an application**  
 Checks if the current user owns an application on Steam.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (🔤 Name (String)): The Steam App ID of the application
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Steamworks::IsPlayerOwningApp`.
 
 **Player has a VAC ban**  
 Checks if the current user has a VAC ban on their account.
 
+??? quote "See parameters & details"
+
+    There are no parameters to set for this condition.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Steamworks::IsPlayerVACBanned`.
+
 **Is Steam Cloud enabled?**  
 Checks whether steam cloud has been enabled or not for this application.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this condition.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Steamworks::IsSteamCloudEnabled`.
 
 **Is Steamworks Loaded**  
 Checks whether the Steamworks SDK could be properly loaded. If steam is not installed, the game is not running on PC, or for any other reason Steamworks features will not be able to function, this function will trigger allowing you to disable functionality that relies on Steamworks.
 
+??? quote "See parameters & details"
+
+    There are no parameters to set for this condition.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Steamworks::IsSteamworksLoaded`.
+
 **Check workshop item state**  
 Check whether a state flag is set for a Workshop item.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0 (🔤 Name (String)): Workshop Item ID
     - Parameter 1 (🔤 String): State flag to check for (one of: "None", "Subscribed", "LegacyItem", "Installed", "NeedsUpdate", "Downloading", "DownloadPending")
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Steamworks::IsWorkshopItemState`.
 
 ## Expressions
 

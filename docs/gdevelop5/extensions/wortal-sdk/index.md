@@ -24,144 +24,174 @@ Allow developer to use one SDK to deliver their games everywhere. To learn more 
 **Can subscribe to bot asynchronously**  
 Checks if the current user can subscribe to the game's bot.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): Boolean variable to set the result
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::CanSubscribeBotAsync`.
+
 **Cancel all notifications async**  
 Cancel all scheduled notifications.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Notification label
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::CancelAllNotificationsAsync`.
+
 **Cancel notification async**  
 Cancel a notification async.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Notification ID
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::CancelNotificationAsync`.
+
 **Choose context async**  
 Opens a context selection dialog for the player. If the player selects an available context, the client will attempt to switch into that context, and resolve if successful. Otherwise, if the player exits the menu or the client fails to switch into the new context, this function will reject.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::ChooseContextAsync`.
 
 **Consume purchase async**  
 Consumes a specific purchase belonging to the current player.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Token of the Purchased product
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::ConsumePurchaseAsync`.
+
 **Create context async**  
 Attempts to create a context between the current player and a specified player or a list of players.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): ID of players separated by comma
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::CreateContextAsync`.
+
 **Create a tournament async**  
 Opens the tournament creation dialog if the player is not currently in a tournament session.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): Tournament creation payload structure variable
     - Parameter 2 (🗄️ Any variable): Tournament structure variable callback
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::CreateTournamentAsync`.
+
 **Flush data asynchronously**  
 Flushes any unsaved data to the platform's storage. This function is expensive, and should primarily be used for critical changes where persistence needs to be immediate and known by the game. Non-critical changes should rely on the platform to persist them in the background.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::FlushDataAsync`.
 
 **Start the gameplay session**  
 Tracks the start of a gameplay session.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::GamePlayStart`.
 
 **Stop the gameplay session**  
 Tracks the end of a gameplay session.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::GamePlayStop`.
 
 **Get ASID asynchronously**  
 A unique identifier for the player. This is the standard Facebook Application-Scoped ID which is used for all Graph API calls. If your game shares an AppID with a native game this is the ID you will see in the native game too.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): String variable to save ASID
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::GetASIDAsync`.
+
 **Get achievements async**  
 Gets a player's achievements. This method returns all achievements, regardless of whether they are unlocked or not.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): Array of Achivement structure variable callback
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::GetAchievementsAsync`.
+
 **Get all tournaments async**  
 Returns a list of eligible tournaments that can be surfaced in-game.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): Array of tournament structure variable callback
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::GetAllTournamentsAsync`.
+
 **Get catalog async**  
 Gets the catalog of available products the player can purchase.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): Array of product structure variable callback
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::GetCatalogAsync`.
+
 **Get connected players async**  
 Gets ConnectedPlayers containing information about active players that are connected to the current player.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): Payload variable with structure type
     - Parameter 2 (🗄️ Any variable): Array of connected player
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::GetConnectedPlayersAsync`.
+
 **Get connected players entries**  
 Retrieves the leaderboard score entries of the current player's connected players (including the current player), ordered by local rank within the set of connected players.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): The name of the leaderboard
     - Parameter 2 (🔢 Number): The number of entries to attempt to fetch from the leaderboard
@@ -170,67 +200,81 @@ Retrieves the leaderboard score entries of the current player's connected player
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::GetConnectedPlayersEntriesAsync`.
+
 **Get current player leaderboard entry async**  
 Retrieves the leaderboard's entry for the current player, or null if the player has not set one yet.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): The name of the leaderboard
     - Parameter 2 (🗄️ Any variable): Leaderboard entry structure variable callback
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::GetCurrentPlayerEntryAsync`.
+
 **Get current tournament async**  
 Fetch the tournament out of the current context the user is playing.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): Tournament structure variable callback
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::GetCurrentTournamentAsync`.
+
 **Get player data async**  
 Retrieve data from the designated cloud storage of the current player.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): String of data keys (separated them with comma for multiple data points)
     - Parameter 2 (🗄️ Any variable): Variable to save data received from server
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::GetDataAsync`.
+
 **Get entry point asynchronously**  
 Get entry point that the game was launched from asynchronously.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): String variable callback
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::GetEntryPointAsync`.
+
 **Get entry point data**  
 Get any data object associated with the entry point that the game was launched from.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): Structure variable callback to set the result
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::GetEntryPointData`.
+
 **Get leaderboard async**  
 Fetch a specific leaderboard belonging to this game.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): The name of the leaderboard. Each leaderboard for a game must have its own distinct name
     - Parameter 2 (🗄️ Any variable): Leaderboard structure variable callback
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::GetLeaderboardAsync`.
+
 **Get leaderboard entries**  
 Retrieves a set of leaderboard entries, ordered by score ranking in the leaderboard.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): The name of the leaderboard
     - Parameter 2 (🔢 Number): The number of entries to attempt to fetch from the leaderboard
@@ -239,56 +283,68 @@ Retrieves a set of leaderboard entries, ordered by score ranking in the leaderbo
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::GetLeaderboardEntriesAsync`.
+
 **Get leaderboard entry count async**  
 Gets the total number of entries in the leaderboard.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): The name of the leaderboard
     - Parameter 2 (🗄️ Any variable): Entry count variable callback
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::GetLeaderboardEntryCountAsync`.
+
 **Get notification history async**  
 Gets the history of scheduled notifications for the past 30 days.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): Variable callback to save the notification
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::GetNotificationHistoryAsync`.
+
 **Get players async**  
 Gets an array of ConnectedPlayer objects containing information about active players in the current context (people who played the game in the current context in the last 90 days).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): Variable to save the result of connected players of current context
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::GetPlayersAsync`.
+
 **Get purchased products async**  
 Gets purchased products.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): Array of purchased products structure variable callback
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::GetPurchaseAsync`.
+
 **Get signed ASID async**  
 A unique identifier for the player. This is the standard Facebook Application-Scoped ID which is used for all Graph API calls. If your game shares an AppID with a native game this is the ID you will see in the native game too.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): Signed ASID Structure variable callback
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::GetSignedASIDAsync`.
+
 **Get stats async**  
 Gets a player's stats.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Level
     - Parameter 2 (🔤 String): Period of stat (one of: "alltime", "daily", "monthly", "weekly")
@@ -296,47 +352,57 @@ Gets a player's stats.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::GetStatsAsync`.
+
 **Get traffic source**  
 Gets the traffic source info for the game. This is useful for tracking where players are coming from.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): Structure variable to set traffic source
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::GetTrafficSource`.
+
 **Invite Async**  
 This invokes a dialog to let the user invite one or more people to the game.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): Invite players payload
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::InviteAsync`.
+
 **Join tournament async**  
 Request a switch into a specific tournament context.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Tournament ID
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::JoinTournamentAsync`.
+
 **Log game choice**  
 Logs a choice the player made in the game. This can be a powerful tool for balancing the game and understanding what content the players are interacting with the most.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Decision
     - Parameter 2 (string): Choice
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::LogGameChoice`.
+
 **Log level end**  
 Logs the end of a level. To ensure the level timer is recorded the level name must match the name passed into the previous logLevelStart call. If it does not match then the timer will be logged at 0.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Level
     - Parameter 2 (string): Score
@@ -344,84 +410,102 @@ Logs the end of a level. To ensure the level timer is recorded the level name mu
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::LogLevelEnd`.
+
 **Log level start**  
 Logs the start of a level.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Level
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::LogLevelStart`.
 
 **Log level up**  
 Logs the player achieving a new level.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Level
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::LogLevelUp`.
+
 **Log score**  
 Logs the player's score.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Score
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::LogScore`.
+
 **Log social invite**  
 Logs the player's social invite.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Placement of the invite
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::LogSocialInvite`.
+
 **Log social share**  
 Logs the player's social share.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Placement of the share
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::LogSocialShare`.
+
 **Log tutorial end**  
 Logs the end of a tutorial. To ensure the level timer is recorded the tutorial name must match the name passed into the previous logTutorialStart call. If it does not match then the timer will be logged at 0.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Name of the tutorial
     - Parameter 2 (🔤 String): Was the tutorial completed (one of: "compeleted", "not compeleted")
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::LogTutorialEnd`.
+
 **Log turotial start**  
 Logs the start of a tutorial.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Name of the tutorial
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::LogTutorialStart`.
+
 **Make purchase async**  
 Make purchase for specified product.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): ID of product
     - Parameter 2 (🗄️ Any variable): Purchase result structure variable callback
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::MakePurchaseAsync`.
+
 **Post stats async**  
 Posts a player's stats.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Level
     - Parameter 2 (🔢 Number): The value of the stat
@@ -429,29 +513,35 @@ Posts a player's stats.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::PostStatsAsync`.
+
 **Post tournament score async**  
 Posts a player's score. This API should only be called within a tournament context at the end of an activity (example: when the player doesn't have "lives" to continue the game).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Score
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::PostTournamentScoreAsync`.
+
 **Schedule notification async**  
 Schedule a notification to be delivered to the player at a later time. Limit of 5 pending scheduled notifications per recipient.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): Notification payload structure variable
     - Parameter 2 (🗄️ Any variable): Schedule result structure variable callbacl to save result
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::ScheduleNotificationAsync`.
+
 **Send leaderboard entry async**  
 Updates the player's score. If the player has an existing score, the old score will only be replaced if the new score is better than it.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): The name of the leaderboard
     - Parameter 2 (🔢 Number): Score for the entry. Must be a 64-bit integer number
@@ -459,253 +549,309 @@ Updates the player's score. If the player has an existing score, the old score w
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::SendEntryAsync`.
+
 **Save data async**  
 Set data to be saved to the designated cloud storage of the current player.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): Game progress structure variable
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::SetDataAsync`.
+
 **Set Wortal loading progress**  
 Set the loading progress of your game.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Progress (0-100)
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::SetLoadingProgress`.
+
 **Set session data**  
 Set the data associated with the individual gameplay session for the current context.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): Structure Variable to set the session data
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::SetSessionData`.
+
 **Share async**  
 This invokes a dialog to let the user share specified content, as a post on the user's timeline.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): Share payload structure variable
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::ShareAsync`.
+
 **Share link async**  
 This invokes a dialog that contains a custom game link that users can copy to their clipboard, or share.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): Payload structure variable
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::ShareLinkAsync`.
 
 **Share tournament async**  
 Opens the share tournament dialog if the player is currently in a tournament session.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): Payload structure variable
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::ShareTournamentAsync`.
+
 **Show auth prompt async**  
 Shows the authentication prompt to the player. This allows the player to log in or register for an account. If the player successfully logs in or registers, the player API will be updated with the new player information.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::ShowAuthPromptAsync`.
 
 **Show banner ad**  
 Shows a banner ad.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 String): Ad position on the screen (one of: "top", "bottom")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::ShowBannerAd`.
+
 **Show happy time**  
 Can be called on various player achievements (beating a boss, reaching a high score, etc.). It makes the website celebrate (for example by launching some confetti).
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::ShowHappyTime`.
 
 **Show interstitial ad**  
 Shows an interstitial ad. These can be shown at various points in the game such as a level end, restart or a timed interval in games with longer levels.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔤 String): Placement type (one of: "start", "pause", "next", "browse")
     - Parameter 2 (string): Ad placement
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::ShowInterstitialAd`.
+
 **Show link account prompt async**  
 Shows the link account prompt to the player. This allows the player to link their account to a different platform.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::ShowLinkAccountPromptAsync`.
 
 **Show rewarded ad**  
 Shows a rewarded ad. These are longer, optional ads that the player can earn a reward for watching. The player must be notified of the ad and give permission to show before it can be shown.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Ad description
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::ShowRewardedAd`.
+
 **Start Game**  
 Start Game.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::StartGameAsync`.
 
 **Subscribe bot async**  
 Request that the player subscribe the bot associated to the game. The API will reject if the subscription fails - else, the player will subscribe the game bot.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this action.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::SubscribeBotAsync`.
 
 **Swith context async**  
 Request a switch into a specific context.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): ID of context
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::SwitchContextAsync`.
+
 **Switch game async**  
 Switch to another game. The API will reject if the switch fails - else, the client will load the new game.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): ID of game
     - Parameter 2 (🗄️ Any variable): Optional payload structure variable
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::SwitchGameAsync`.
+
 **Unlock achivement**  
 Unlocks an achievement for the player. This method will only unlock the achievement if it has not already been unlocked.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Achivement name
     - Parameter 2 (🗄️ Any variable): Is unlocked variable callback
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::UnlockAchivementAsync`.
+
 **Update context async**  
 Posts an update to the current context.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): Payload structure variable
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::UpdateContextAsync`.
 
 ## Conditions
 
 **Ad has just finished showing**  
 Check if ad just finished showing.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `WortalSDK::HasAdJustFinishedShowing`.
 
 **Ad is blocked**  
 Returns whether ads are blocked for the current session.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `WortalSDK::IsAdBlocked`.
 
 **Ad is enabled**  
 Returns whether ads are enabled for the current session.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `WortalSDK::IsAdEnabled`.
 
 **Ad is showing**  
 Check if ad is showing.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `WortalSDK::IsAdShowing`.
 
 **Audio is enabled**  
 Returns whether the audio is enabled for the player.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `WortalSDK::IsAudioEnabled`.
 
 **Player is playing for first time**  
 Checks whether this is the first time the player has played this game.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `WortalSDK::IsFirstPlay`.
 
 **IAP is enabled**  
 Checks whether IAP is enabled in this session.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `WortalSDK::IsIAPEnabled`.
 
 **Wortal SDK is ready**  
 Check if Wortal SDK is ready.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `WortalSDK::IsWortalInitialized`.
 
 **Player should be rewarded**  
 To check if should reward player after showing rewarded ad.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `WortalSDK::ShouldRewardPlayer`.
 
 ## Expressions
 

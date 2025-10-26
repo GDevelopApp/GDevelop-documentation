@@ -32,7 +32,7 @@ Add to a Shape painter object and use the actions to draw a field. Useful for fo
 **Add a disk**  
 Add a disk to the field.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -44,12 +44,14 @@ Add a disk to the field.
       Small values allow quicker process, but can result to tearing. Try values around 8.
     - Parameter 6 (🔤 String): Operation (one of: "Maximum", "Addition", "Subtraction")
 
-    > Technical note: parameter 7 are internal parameters handled by GDevelop.
+    > Technical note: parameter 7 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MarchingSquares::MarchingSquaresBehavior::AddDisk`.
 
 **Add a hill**  
 Add a hill to the field.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -65,12 +67,14 @@ Add a hill to the field.
       Small values allow quicker process, but can result to tearing. Try values around 8.
     - Parameter 8 (🔤 String): Operation (one of: "Maximum", "Addition", "Subtraction")
 
-    > Technical note: parameter 9 are internal parameters handled by GDevelop.
+    > Technical note: parameter 9 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MarchingSquares::MarchingSquaresBehavior::AddHill`.
 
 **Add a line**  
 Add a line to the field.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -83,44 +87,52 @@ Add a line to the field.
       Small values allow quicker process, but can result to tearing. Try values around 8.
     - Parameter 8 (🔤 String): Operation (one of: "Maximum", "Addition", "Subtraction")
 
-    > Technical note: parameter 9 are internal parameters handled by GDevelop.
+    > Technical note: parameter 9 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MarchingSquares::MarchingSquaresBehavior::AddLine`.
 
 **Clamp the field**  
 Cap every value of the field to a range.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Minimum
     - Parameter 3 (🔢 Number): Maximum
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MarchingSquares::MarchingSquaresBehavior::ClampField`.
 
 **Clear the field**  
 Clear the field by setting every values to 0.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MarchingSquares::MarchingSquaresBehavior::ClearField`.
 
 **Draw the contours**  
 Draw the field contours.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MarchingSquares::MarchingSquaresBehavior::DrawField`.
 
 **Fill area**  
 Fill an area of the field from a given location until a given height is reached.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -131,12 +143,14 @@ Fill an area of the field from a given location until a given height is reached.
     - Parameter 6 (🔢 Number): Capping radius ratio
       Small values allow quicker process, but can result to tearing. Try values around 8.
 
-    > Technical note: parameter 7 are internal parameters handled by GDevelop.
+    > Technical note: parameter 7 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MarchingSquares::MarchingSquaresBehavior::FloodFrom`.
 
 **Mask a disk**  
 Mask a disk to the field.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -147,12 +161,14 @@ Mask a disk to the field.
     - Parameter 5 (🔢 Number): Capping radius ratio
       Small values allow quicker process, but can result to tearing. Try values around 8.
 
-    > Technical note: parameter 6 are internal parameters handled by GDevelop.
+    > Technical note: parameter 6 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MarchingSquares::MarchingSquaresBehavior::MaskDisk`.
 
 **Mask a line**  
 Mask a line to the field.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -165,12 +181,14 @@ Mask a line to the field.
     - Parameter 7 (🔢 Number): Capping radius ratio
       Small values allow quicker process, but can result to tearing. Try values around 8.
 
-    > Technical note: parameter 8 are internal parameters handled by GDevelop.
+    > Technical note: parameter 8 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MarchingSquares::MarchingSquaresBehavior::MaskLine`.
 
 **Merge a field**  
 Apply a given operation on every value of the field using the value from the other field at the same position.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -178,12 +196,14 @@ Apply a given operation on every value of the field using the value from the oth
     - Parameter 3 (🧩 Behavior): Field behavior
     - Parameter 4 (🔤 String): Operation (one of: "Maximum", "Addition", "Subtraction", "Minimum", "Multiplication", "Division")
 
-    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+    > Technical note: parameter 5 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MarchingSquares::MarchingSquaresBehavior::MergeField`.
 
 **Area bounds**  
 Change the field area bounds.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -192,45 +212,53 @@ Change the field area bounds.
     - Parameter 4 (🔢 Number): Right bound
     - Parameter 5 (🔢 Number): Bottom bound
 
-    > Technical note: parameter 6 are internal parameters handled by GDevelop.
+    > Technical note: parameter 6 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MarchingSquares::MarchingSquaresBehavior::SetAreaBounds`.
 
 **Height of the cells**  
 Change the height of the field cells.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MarchingSquares::MarchingSquaresBehavior::SetCellHeight`.
 
 **Width of the cells**  
 Change the width of the field cells.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MarchingSquares::MarchingSquaresBehavior::SetCellWidth`.
 
 **Fill outside**  
 Fill outside or inside of the contours.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Fill outside?
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MarchingSquares::MarchingSquaresBehavior::SetFillOutside`.
 
 **Grid value**  
 Change the field value at a grid point.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -238,45 +266,53 @@ Change the field value at a grid point.
     - Parameter 3 (🔢 Number): Y grid index
     - Parameter 4 (🔢 Number): Field value
 
-    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+    > Technical note: parameter 5 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MarchingSquares::MarchingSquaresBehavior::SetGridValue`.
 
 **Contour threshold**  
 Change the contour threshold.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Value
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MarchingSquares::MarchingSquaresBehavior::SetThreshold`.
 
 **Transform the field**  
 Apply an affine on the field values.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Coefficient
     - Parameter 3 (🔢 Number): Offset
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MarchingSquares::MarchingSquaresBehavior::TransformField`.
 
 **Update hitboxes**  
 Update the field hitboxes.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MarchingSquares::MarchingSquaresBehavior::UpdateHitboxes`.
 
 **Unfill area**  
 Unfill an area of the field from a given location until a given height is reached.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -287,14 +323,16 @@ Unfill an area of the field from a given location until a given height is reache
     - Parameter 6 (🔢 Number): Capping radius ratio
       Small values allow quicker process, but can result to tearing. Try values around 8.
 
-    > Technical note: parameter 7 are internal parameters handled by GDevelop.
+    > Technical note: parameter 7 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `MarchingSquares::MarchingSquaresBehavior::UpsidedownFloodFrom`.
 
 ### Behavior conditions
 
 **Field value**  
 Check if a field is greater than a given value.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -302,29 +340,35 @@ Check if a field is greater than a given value.
     - Parameter 3 (🔢 Number): Y position of the point
     - Parameter 4 (🔢 Number): Value
 
-    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+    > Technical note: parameter 5 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `MarchingSquares::MarchingSquaresBehavior::CheckFieldValue`.
 
 **Fill outside**  
 Check if the contours are filled outside.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
 
-    > Technical note: parameter 2 are internal parameters handled by GDevelop.
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `MarchingSquares::MarchingSquaresBehavior::CheckFillOutside`.
 
 **Point is inside**  
 Check if a point is inside the contour.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): X position of the point
     - Parameter 3 (🔢 Number): Y position of the point
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `MarchingSquares::MarchingSquaresBehavior::ContainsPoint`.
 
 ### Behavior expressions
 

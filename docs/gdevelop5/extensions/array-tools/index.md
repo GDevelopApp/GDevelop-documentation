@@ -27,17 +27,19 @@ This extension adds features like:
 **Append all variable to another array**  
 Appends a copy of all variables of one array to another array.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): The array to get the variables from
     - Parameter 2 (🗄️ Any variable): The variable to append the variables in
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ArrayTools::AppendAll`.
+
 **Combine 2 arrays**  
 Combines all elements of 2 scene arrays into one new scene array.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): The first array
     - Parameter 2 (🗄️ Any variable): The second array
@@ -45,10 +47,12 @@ Combines all elements of 2 scene arrays into one new scene array.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ArrayTools::Concatenate`.
+
 **Fill array with number**  
 Fill an element with a number.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): The array to fill
     - Parameter 2 (🔢 Number): The number to fill
@@ -58,10 +62,12 @@ Fill an element with a number.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ArrayTools::FillNumber`.
+
 **Flatten array**  
 Replaces all arrays inside of an array with their children. For example, [[1,2], [3,4]] becomes [1,2,3,4].
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): The array to flatten
     - Parameter 2 (❓ Yes or No): Deeply flatten
@@ -69,10 +75,12 @@ Replaces all arrays inside of an array with their children. For example, [[1,2],
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ArrayTools::Flatten`.
+
 **Insert variable at**  
 Insert a variable at a specific index of an array.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): The array to insert a variable in
     - Parameter 2 (🔢 Number): The index to insert the variable at
@@ -80,10 +88,12 @@ Insert a variable at a specific index of an array.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ArrayTools::InsertAt`.
+
 **Append all variable to another array**  
 Appends a copy of all variables of one array to another array.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): The object the variable is from
     - Parameter 2 (🗄️ Object variable): The array to get the variables from
@@ -92,10 +102,12 @@ Appends a copy of all variables of one array to another array.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ArrayTools::ObjectAppendAll`.
+
 **Combine 2 arrays**  
 Combines all elements of 2 scene arrays into one new scene array.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): The object the variable is from
     - Parameter 2 (🗄️ Object variable): The first array
@@ -106,10 +118,12 @@ Combines all elements of 2 scene arrays into one new scene array.
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ArrayTools::ObjectConcatenate`.
+
 **Fill array with number**  
 Fill an element with a number.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): The object the variable is from
     - Parameter 2 (🗄️ Object variable): The array to fill
@@ -120,10 +134,12 @@ Fill an element with a number.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ArrayTools::ObjectFillNumber`.
+
 **Flatten array**  
 Replaces all arrays inside of an array with their children. For example, [[1,2], [3,4]] becomes [1,2,3,4].
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): The object the variable is from
     - Parameter 2 (🗄️ Object variable): The array to flatten
@@ -132,10 +148,12 @@ Replaces all arrays inside of an array with their children. For example, [[1,2],
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ArrayTools::ObjectFlatten`.
+
 **Insert variable at**  
 Insert a variable at a specific index of an array.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): The object the variable is from
     - Parameter 2 (🗄️ Object variable): The array to insert a variable in
@@ -145,10 +163,12 @@ Insert a variable at a specific index of an array.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ArrayTools::ObjectInsertAt`.
+
 **Pop array child**  
 Removes the last array child of an array, and stores it in another variable.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): The object the variable is from
     - Parameter 2 (🗄️ Object variable): The array to pop a child from
@@ -157,20 +177,24 @@ Removes the last array child of an array, and stores it in another variable.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ArrayTools::ObjectPop`.
+
 **Reverse an array**  
 Reverses children of an array. The first array child becomes the last, and the last array child becomes the first.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): The object the variable is from
     - Parameter 2 (🗄️ Object variable): The array to reverse
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ArrayTools::ObjectReverse`.
+
 **Shift array child**  
 Removes the first array child of an array, and stores it in another variable.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): The object the variable is from
     - Parameter 2 (🗄️ Object variable): The array to shift a child from
@@ -179,20 +203,24 @@ Removes the first array child of an array, and stores it in another variable.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ArrayTools::ObjectShift`.
+
 **Shuffle array**  
 Shuffles all children of an array.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): The object the variable is from
     - Parameter 2 (🗄️ Object variable): The array to shuffle
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ArrayTools::ObjectShuffle`.
+
 **Slice an array**  
 Copies a portion of a scene array variable into a new scene array variable.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): The object the variable is from
     - Parameter 2 (🗄️ Object variable): The array to take a slice from
@@ -205,20 +233,24 @@ Copies a portion of a scene array variable into a new scene array variable.
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ArrayTools::ObjectSlice`.
+
 **Sort an array**  
 Sort an array of number from smallest to biggest.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): The object the variable is from
     - Parameter 2 (🗄️ Object variable): The array to sort
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ArrayTools::ObjectSort`.
+
 **Splice an array**  
 Cuts a portion of an array off.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): The object the variable is from
     - Parameter 2 (🗄️ Object variable): The array to remove items from
@@ -229,10 +261,12 @@ Cuts a portion of an array off.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ArrayTools::ObjectSplice`.
+
 **Split string into array**  
 Split a string into an array of strings via a separator.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): The string to split
     - Parameter 2 (string): The separator to use to split the string
@@ -242,48 +276,58 @@ Split a string into an array of strings via a separator.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ArrayTools::ObjectSplitString`.
+
 **Pop array child**  
 Removes the last array child of an array, and stores it in another variable.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): The array to pop a child from
     - Parameter 2 (🗄️ Any variable): The variable to store the popped value into
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ArrayTools::Pop`.
+
 **Reverse an array**  
 Reverses children of an array. The first array child becomes the last, and the last array child becomes the first.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): The array to reverse
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ArrayTools::Reverse`.
+
 **Shift array child**  
 Removes the first array child of an array, and stores it in another variable.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): The array to shift a child from
     - Parameter 2 (🗄️ Any variable): The variable to store the shifted value into
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ArrayTools::Shift`.
+
 **Shuffle array**  
 Shuffles all children of an array.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): The array to shuffle
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ArrayTools::Shuffle`.
+
 **Slice an array**  
 Copies a portion of a scene array variable into a new scene array variable.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): The array to take a slice from
     - Parameter 2 (🗄️ Any variable): The array to store the slice into
@@ -294,19 +338,23 @@ Copies a portion of a scene array variable into a new scene array variable.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ArrayTools::Slice`.
+
 **Sort an array**  
 Sort an array of number from smallest to biggest.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): The array to sort
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ArrayTools::Sort`.
+
 **Splice an array**  
 Cuts a portion of an array off.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): The array to remove items from
     - Parameter 2 (🔢 Number): The index to start removing from
@@ -316,10 +364,12 @@ Cuts a portion of an array off.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ArrayTools::Splice`.
+
 **Split string into array**  
 Split a string into an array of strings via a separator.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): The string to split
     - Parameter 2 (string): The separator to use to split the string
@@ -328,32 +378,38 @@ Split a string into an array of strings via a separator.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ArrayTools::SplitString`.
+
 ## Conditions
 
 **Array has number**  
 Checks if an array contains a specific number.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): Array to search the value in
     - Parameter 2 (🔢 Number): The number to search
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ArrayTools::HasNumber`.
+
 **Array has string**  
 Checks if an array contains a specific string.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): Array to search the value in
     - Parameter 2 (string): The text to search
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ArrayTools::HasString`.
+
 **Index of number**  
 Compare The index of the first variable that equals to a specific number in an array.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -361,11 +417,13 @@ Compare The index of the first variable that equals to a specific number in an a
     - Parameter 4 (🔢 Number): Number to search in the array
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ArrayTools::IndexOf`.
 
 **Index of text**  
 Compare The index of the first variable that equals to a specific text in an array.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -374,10 +432,12 @@ Compare The index of the first variable that equals to a specific text in an arr
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ArrayTools::IndexOfStr`.
+
 **Last index of number**  
 Compare The index of the last variable that equals to a specific number in an array.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -386,10 +446,12 @@ Compare The index of the last variable that equals to a specific number in an ar
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ArrayTools::LastIndexOf`.
+
 **Last index of text**  
 Compare The index of the last variable that equals to a specific text in an array.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -398,10 +460,12 @@ Compare The index of the last variable that equals to a specific text in an arra
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ArrayTools::LastIndexOfStr`.
+
 **Array has number**  
 Checks if an array contains a specific number.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): The object the variable is from
     - Parameter 2 (🗄️ Object variable): Array to search the value in
@@ -409,10 +473,12 @@ Checks if an array contains a specific number.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ArrayTools::ObjectHasNumber`.
+
 **Array has string**  
 Checks if an array contains a specific string.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): The object the variable is from
     - Parameter 2 (🗄️ Object variable): Array to search the value in
@@ -420,10 +486,12 @@ Checks if an array contains a specific string.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ArrayTools::ObjectHasString`.
+
 **Index of number**  
 Compare The index of the first variable that equals to a specific number in an array.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -432,11 +500,13 @@ Compare The index of the first variable that equals to a specific number in an a
     - Parameter 5 (🔢 Number): Number to search in the array
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ArrayTools::ObjectIndexOf`.
 
 **Index of text**  
 Compare The index of the first variable that equals to a specific text in an array.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -446,10 +516,12 @@ Compare The index of the first variable that equals to a specific text in an arr
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ArrayTools::ObjectIndexOfStr`.
+
 **Last index of number**  
 Compare The index of the last variable that equals to a specific number in an array.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -459,10 +531,12 @@ Compare The index of the last variable that equals to a specific number in an ar
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ArrayTools::ObjectLastIndexOf`.
+
 **Last index of text**  
 Compare The index of the last variable that equals to a specific text in an array.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -472,10 +546,12 @@ Compare The index of the last variable that equals to a specific text in an arra
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ArrayTools::ObjectLastIndexOfStr`.
+
 **Get and remove last variable from array (as number)**  
 Compare Removes the last array child of an array, and return it as a number.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -484,10 +560,12 @@ Compare Removes the last array child of an array, and return it as a number.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ArrayTools::ObjectPopNumber`.
+
 **Random number in array**  
 Compare Returns a random number of an array of numbers.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -496,10 +574,12 @@ Compare Returns a random number of an array of numbers.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ArrayTools::ObjectRandomNumberInArray`.
+
 **Random string in array**  
 Compare a random string of an array of strings.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
@@ -508,10 +588,12 @@ Compare a random string of an array of strings.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ArrayTools::ObjectRandomStringInArray`.
+
 **Get and remove last variable from array (as number)**  
 Compare Removes the last array child of an array, and return it as a number.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -519,10 +601,12 @@ Compare Removes the last array child of an array, and return it as a number.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ArrayTools::PopNumber`.
+
 **Random number in array**  
 Compare Returns a random number of an array of numbers.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
@@ -530,16 +614,20 @@ Compare Returns a random number of an array of numbers.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ArrayTools::RandomNumberInArray`.
+
 **Random string in array**  
 Compare a random string of an array of strings.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (string): Value to compare
     - Parameter 3 (🗄️ Any variable): Array to get a string from
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ArrayTools::RandomStringInArray`.
 
 ## Expressions
 

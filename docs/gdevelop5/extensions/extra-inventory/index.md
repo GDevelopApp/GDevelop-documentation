@@ -26,7 +26,7 @@ This extension is deprecated. The [simple inventory extension](https://wiki.gdev
 **Add multiple items**  
 Adds multiple items to an inventory.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Inventory name
     - Parameter 2 (string): Item name
@@ -34,10 +34,12 @@ Adds multiple items to an inventory.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ExtraInventory::InventoryAdd`.
+
 **Remove multiple items**  
 Removes multiple items from an inventory.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Inventory name
     - Parameter 2 (string): Item name
@@ -45,16 +47,20 @@ Removes multiple items from an inventory.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ExtraInventory::InventoryRemove`.
+
 **Set the number of items**  
 Sets the number of items in an inventory.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Inventory name
     - Parameter 2 (string): Item name
     - Parameter 3 (🔢 Number): New amount of items
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ExtraInventory::InventorySet`.
 
 
 

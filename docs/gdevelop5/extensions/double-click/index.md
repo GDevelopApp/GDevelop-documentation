@@ -19,22 +19,26 @@ Please note: Touch devices do not have alternatives for middle/right clicks. Tap
 **Double-clicked (or double-tapped)**  
 Check if the specified mouse button is clicked twice in a short amount of time.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (mouseButton): Mouse button to track
       As touch devices do not have middle/right tap equivalents, you will need to account for this within your events if you're not using the left mouse button and building for touch devices.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `DoubleClick::HasDoubleClicked`.
 
 **Clicked (or tapped)**  
 Check if the specified mouse button is clicked.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (mouseButton): Mouse button to track
       As touch devices do not have middle/right tap equivalents, you will need to account for this within your events if you're not using the left mouse button and building for touch devices.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `DoubleClick::HasSimpleClicked`.
 
 
 

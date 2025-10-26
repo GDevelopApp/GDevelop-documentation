@@ -19,98 +19,118 @@ If multiple instances have the highest/lowest Z-order, all of these instances wi
 **Pick objects with highest variable value**  
 Pick object instances that have the highest value of an object variable.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Object to select instances from
     - Parameter 2 (string): Object variable name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ObjectPickingTools::PickHighestVariableValueAction`.
 
 **Pick objects with highest Z-order**  
 Pick object instances that have the highest Z-order.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Object to select instances from
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ObjectPickingTools::PickHighestZAction`.
+
 **Pick objects with lowest variable value**  
 Pick object instances that have the lowest value of an object variable.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Object to select instances from
     - Parameter 2 (string): Object variable name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ObjectPickingTools::PickLowestVariableValueAction`.
+
 **Pick objects with lowest Z-order**  
 Pick object instances that have the lowest Z-order.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Object to select instances from
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ObjectPickingTools::PickLowestZAction`.
+
 **Unpick all instances**  
 Unpicks all instances of an object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): The object to unpick all instances from
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ObjectPickingTools::UnpickAction`.
 
 ## Conditions
 
 **Pick objects with highest variable value**  
 Pick object instances that have the highest value of an object variable.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Object to select instances from
     - Parameter 2 (string): Object variable name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ObjectPickingTools::PickHighestVariableValueCondition`.
 
 **Pick objects with highest Z-order**  
 Pick object instances that have the highest Z-order.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Object to select instances from
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ObjectPickingTools::PickHighestZCondition`.
+
 **Pick objects with lowest variable value**  
 Pick object instances that have the lowest value of an object variable.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Object to select instances from
     - Parameter 2 (string): Object variable name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ObjectPickingTools::PickLowestVariableValueCondition`.
+
 **Pick objects with lowest Z-order**  
 Pick object instances that have the lowest Z-order.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Object to select instances from
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ObjectPickingTools::PickLowestZCondition`.
+
 **Unpick all instances**  
 Unpicks all instances of an object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): The object to unpick all instances from
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ObjectPickingTools::UnpickCondition`.
 
 
 

@@ -31,7 +31,7 @@ An action let you set the reflection for specific objects with a lot of options:
 **Add reflection to object**  
 Reflect your object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Reflection object
       A different object than the original object
@@ -49,6 +49,8 @@ Reflect your object.
     - Parameter 10 (🔢 Number): (Optional) Between 0 transparent to 255 opaque
 
     > Technical note: parameters 0, 11 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Reflection::Reflect`.
 
 
 

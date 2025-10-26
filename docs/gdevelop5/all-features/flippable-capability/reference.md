@@ -13,38 +13,46 @@ Actions/conditions for objects which can be flipped horizontally or vertically.
 **Flip the object horizontally**  
 Flip the object horizontally
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Activate flipping
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FlippableCapability::FlippableBehavior::FlipX`.
 
 **Flip the object vertically**  
 Flip the object vertically
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (❓ Yes or No): Activate flipping
+
+    > Technical note: this action internal type (in GDevelop JSON) is `FlippableCapability::FlippableBehavior::FlipY`.
 
 ### Behavior conditions
 
 **Horizontally flipped**  
 Check if the object is horizontally flipped
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FlippableCapability::FlippableBehavior::FlippedX`.
 
 **Vertically flipped**  
 Check if the object is vertically flipped
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `FlippableCapability::FlippableBehavior::FlippedY`.
 
 _No expressions for this behavior._
 

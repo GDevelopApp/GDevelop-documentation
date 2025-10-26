@@ -25,7 +25,7 @@ Text expressions allows to enter the name of the variable with an expression lik
 **Copy all object variables**  
 Copy all object variables from one object to another.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Source object
     - Parameter 2 (👾 Object): Destination object
@@ -33,10 +33,12 @@ Copy all object variables from one object to another.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ExtendedVariables::CopyAllObjectVariables`.
+
 **Copy a global variable to scene**  
 Copy the global variable to scene. This copy everything from the types to the values.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Global variable to copy
     - Parameter 2 (string): Scene variable destination
@@ -44,10 +46,12 @@ Copy the global variable to scene. This copy everything from the types to the va
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ExtendedVariables::CopyGlobalVariableToScene`.
+
 **Copy an object variable**  
 Copy the object variable from one object to another.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Source object
     - Parameter 2 (string): Variable to copy
@@ -58,10 +62,12 @@ Copy the object variable from one object to another.
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ExtendedVariables::CopyObjectVariable`.
+
 **Copy a scene variable to global **  
 Copy the scene variable to global. This copy everything from the types to the values.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Scene variable to copy
     - Parameter 2 (string): Global variable destination
@@ -69,103 +75,125 @@ Copy the scene variable to global. This copy everything from the types to the va
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ExtendedVariables::CopySceneVariableToGlobal`.
+
 **Delete global variable**  
 Delete the global variable, removing it from memory.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Name of the global variable to delete
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ExtendedVariables::DeleteGlobalVariable`.
+
 **Delete object variable**  
 Delete an object variable, removing it from memory.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (string): Name of object variable
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ExtendedVariables::DeleteObjectVariable`.
+
 **Delete scene variable**  
 Delete the scene variable, the variable will be deleted from the memory.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Name of the scene variable to delete
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ExtendedVariables::DeleteSceneVariable`.
+
 **Value of a global variable**  
 Modify the value of a global variable.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Name of the global variable
     - Parameter 2 (🔢 Number): Value
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ExtendedVariables::ModifyGlobalVariable`.
 
 **String of a global variable**  
 Modify the text of a global variable.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Name of the global variable
     - Parameter 2 (string): Value
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ExtendedVariables::ModifyGlobalVariableString`.
+
 **Value of a scene variable**  
 Modify the value of a scene variable.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Name of the scene variable
     - Parameter 2 (🔢 Number): Value
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `ExtendedVariables::ModifySceneVariable`.
+
 **String of a scene variable**  
 Modify the text of a scene variable.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Name of the scene variable
     - Parameter 2 (string): Value
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ExtendedVariables::ModifySceneVariableString`.
 
 ## Conditions
 
 **Global variable exists**  
 Check if the global variable exists.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Name of the global variable
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ExtendedVariables::GlobalVariableExist`.
+
 **Object variable exists**  
 Check if an object variable exists.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
     - Parameter 2 (string): Name of object variable
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `ExtendedVariables::ObjectVariableExist`.
+
 **Scene variable exists**  
 Check if the scene variable exists.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Name of the scene variable
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ExtendedVariables::SceneVariableExist`.
 
 ## Expressions
 

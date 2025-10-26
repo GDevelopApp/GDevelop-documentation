@@ -17,28 +17,32 @@ Convenience conditions, actions and behaviors for timers to trigger a condition 
 **Reset repetition count of a scene timer**  
 Reset repetition count of a scene timer.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Timer name used to loop
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `RepeatEveryXSeconds::DeleteTimer`.
 
 ## Conditions
 
 **Repeat with a scene timer**  
 Triggers every X seconds.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Timer name used to loop
     - Parameter 2 (🔢 Number): Duration in seconds between each repetition
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `RepeatEveryXSeconds::Repeat`.
+
 **Repeat with a scene timer X times**  
 Triggers every X seconds X amount of times.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Timer name used to loop
     - Parameter 2 (🔢 Number): Duration in seconds between each repetition
@@ -47,16 +51,20 @@ Triggers every X seconds X amount of times.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `RepeatEveryXSeconds::RepeatXTimes`.
+
 **Repetition number of a scene timer**  
 Compare the number of times the timer has repeated.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (string): Timer name used to loop
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `RepeatEveryXSeconds::Repetition`.
 
 ## Expressions
 
@@ -74,32 +82,36 @@ Allows to repeat an object timer every X seconds.
 **Reset repetition count of an object timer**  
 Reset repetition count of an object timer.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (string): Timer name used to loop
 
-    > Technical note: parameter 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `RepeatEveryXSeconds::RepeatTimer::DeleteTimer`.
 
 ### Behavior conditions
 
 **Repeat with an object timer**  
 Triggers every X seconds.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (string): Timer name used to loop
     - Parameter 3 (🔢 Number): Duration in seconds between each repetition
 
-    > Technical note: parameter 4 are internal parameters handled by GDevelop.
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `RepeatEveryXSeconds::RepeatTimer::Repeat2`.
 
 **Repeat with an object timer X times**  
 Triggers every X seconds X amount of times.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -108,12 +120,14 @@ Triggers every X seconds X amount of times.
     - Parameter 4 (🔢 Number): The limit of loops
       Maximum nuber of repetition (-1 to repeat forever).
 
-    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+    > Technical note: parameter 5 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `RepeatEveryXSeconds::RepeatTimer::RepeatXTimes`.
 
 **Repetition number of an object timer**  
 Compare the number of times the timer has repeated.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
@@ -121,7 +135,9 @@ Compare the number of times the timer has repeated.
     - Parameter 3 (🔢 Number): Value to compare
     - Parameter 4 (string): Timer name used to loop
 
-    > Technical note: parameter 5 are internal parameters handled by GDevelop.
+    > Technical note: parameter 5 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `RepeatEveryXSeconds::RepeatTimer::Repetition`.
 
 ### Behavior expressions
 

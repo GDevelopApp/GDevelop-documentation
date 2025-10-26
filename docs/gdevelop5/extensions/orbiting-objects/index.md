@@ -40,7 +40,7 @@ An example shows how to use this extension ([open the project online](https://ed
 **Move objects in elliptical orbit around a center object**  
 Move objects in elliptical orbit around a center object. Z-order is changed to make 3D effect.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Center object
     - Parameter 2 (👾 Object): Orbiting object
@@ -58,10 +58,12 @@ Move objects in elliptical orbit around a center object. Z-order is changed to m
 
     > Technical note: parameters 0, 11 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `OrbitingObjects::AnimateEllipticalOrbitingObjects`.
+
 **Move objects in orbit around a center object**  
 Move objects in orbit around a center object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Center object
     - Parameter 2 (👾 Object): Orbiting object
@@ -79,16 +81,20 @@ Move objects in orbit around a center object.
 
     > Technical note: parameters 0, 11 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `OrbitingObjects::AnimateOrbitingObjects`.
+
 **Delete orbiting objects that are linked to a center object**  
 Delete orbiting objects that are linked to a center object.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Center object
     - Parameter 2 (👾 Object): Orbiting object
       Cannot be the same object that was used for the Center object
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `OrbitingObjects::DeleteOrbitingObjects`.
 
 
 

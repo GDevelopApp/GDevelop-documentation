@@ -28,31 +28,37 @@ Any key double pressed
 **Key double pressed**  
 Check if a specific key was double pressed.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (key): Which key should it work on?
     - Parameter 2 (🔢 Number): Time window for the double tap (in seconds)
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `DoubleKeyPress::DoubleKeyPress`.
+
 **Key double pressed (any key)**  
 Check if any key was double pressed.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Time window for the double tap (in seconds)
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
+    > Technical note: this condition internal type (in GDevelop JSON) is `DoubleKeyPress::DoubleKeyPressAny`.
+
 **Key double pressed (text expression)**  
 Check if a specific key was double pressed using a text expression.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Which key should it work on?
     - Parameter 2 (🔢 Number): Time window for the double tap (in seconds)
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `DoubleKeyPress::DoubleKeyPressExpression`.
 
 
 

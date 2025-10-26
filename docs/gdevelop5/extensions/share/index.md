@@ -19,7 +19,7 @@ This will work for Android and iOS on browsers (Google Chrome, Safari...) and on
 **Share**  
 Share a link or text via another app using the system share dialog.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (string): Text to share
     - Parameter 2 (string): Url to share
@@ -27,26 +27,32 @@ Share a link or text via another app using the system share dialog.
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
+    > Technical note: this action internal type (in GDevelop JSON) is `Share::Share`.
+
 ## Conditions
 
 **Sharing is supported**  
 Check if the browser/operating system of the device supports sharing. Sharing is typically not supported on desktop browsers or desktop apps.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
-
+    There are no parameters to set for this condition.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Share::IsSharingSupported`.
 
 **Result of the last share dialog**  
 Compare the result of the last share dialog.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔤 String): Value to compare (one of: "unsupported", "ok", "canceled")
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Share::LastShareResult`.
 
 ## Expressions
 

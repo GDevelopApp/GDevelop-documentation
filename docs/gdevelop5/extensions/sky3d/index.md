@@ -24,7 +24,7 @@ The color of the sky changes depending on the position of the sun: reddish at su
 **Create sky**  
 Create sky and sun.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Turbidity (0-20, default 10)
     - Parameter 2 (🔢 Number): Rayleigh (0-4, default 3)
@@ -36,11 +36,13 @@ Create sky and sun.
     - Parameter 8: 🔤 Layer name (String)
 
     > Technical note: parameters 0, 9 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Sky3D::Create_Sky`.
 
 **Set sky parameters**  
 Set sky parameters.
 
-??? quote "See parameters"
+??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Turbidity (0-20, default 10)
     - Parameter 2 (🔢 Number): Rayleigh (0-4, default 3)
@@ -52,6 +54,8 @@ Set sky parameters.
     - Parameter 8: 🔤 Layer name (String)
 
     > Technical note: parameters 0, 9 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Sky3D::Edit_Sky`.
 
 
 
