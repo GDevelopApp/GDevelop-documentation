@@ -365,3 +365,4 @@ plugins:
         "fr/gdevelop5/publishing/publishing-to-itch-io.md": "gdevelop5/publishing/publishing-to-itch-io.md"
         "es/gdevelop5/behaviors/platformer/index.md": "gdevelop5/behaviors/platformer/index.md"
         "ja/gdevelop5/publishing/android_and_ios.md": "gdevelop5/publishing/android_and_ios_with_cordova.md"
+        "gdevelop5/all-features/spine/reference.md": "gdevelop5/all-features/spine-object/reference.md"
