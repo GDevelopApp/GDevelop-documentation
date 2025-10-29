@@ -636,12 +636,12 @@ This effect is for 3D layers only.
 
 Properties of this effect are:
 
-- **Back face (Z-)**. Default value is ``. For events, write: `"backFaceResourceName"`.
-- **Bottom face (Y+)**. Default value is ``. For events, write: `"bottomFaceResourceName"`.
-- **Front face (Z+)**. Default value is ``. For events, write: `"frontFaceResourceName"`.
-- **Left face (X-)**. Default value is ``. For events, write: `"leftFaceResourceName"`.
-- **Right face (X+)**. Default value is ``. For events, write: `"rightFaceResourceName"`.
-- **Top face (Y-)**. Default value is ``. For events, write: `"topFaceResourceName"`.
+- **Back face (Z-)**. For events, write: `"backFaceResourceName"`.
+- **Bottom face (Y+)**. For events, write: `"bottomFaceResourceName"`.
+- **Front face (Z+)**. For events, write: `"frontFaceResourceName"`.
+- **Left face (X-)**. For events, write: `"leftFaceResourceName"`.
+- **Right face (X+)**. For events, write: `"rightFaceResourceName"`.
+- **Top face (Y-)**. For events, write: `"topFaceResourceName"`.
 
 
 

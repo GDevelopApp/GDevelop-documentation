@@ -148,7 +148,7 @@ This effect is for 2D layers or objects only.
 
 Properties of this effect are:
 
-- **Color map texture for the effect**: You can change colors of pixels by modifying a reference color image, containing each colors, called the *Color Map Texture*. To get started, **download** [a default color map texture here](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/layer-effects).. Default value is ``. For events, write: `"colorMapTexture"`.
+- **Color map texture for the effect**: You can change colors of pixels by modifying a reference color image, containing each colors, called the *Color Map Texture*. To get started, **download** [a default color map texture here](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/layer-effects).. For events, write: `"colorMapTexture"`.
 - **Mix**: Mix value of the effect on the layer (in percent). Default value is `100`. For events, write: `"mix"`.
 - **Disable anti-aliasing ("nearest" pixel rounding)**. Default value is `false`. For events, write: `"nearest"`.
 
@@ -172,7 +172,7 @@ This effect is for 2D layers or objects only.
 
 Properties of this effect are:
 
-- **Displacement map texture**: Displacement map texture for the effect. To get started, **download** [a default displacement map texture here](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/layer-effects).. Default value is ``. For events, write: `"displacementMapTexture"`.
+- **Displacement map texture**: Displacement map texture for the effect. To get started, **download** [a default displacement map texture here](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/layer-effects).. For events, write: `"displacementMapTexture"`.
 - **Scale on X axis**. Default value is `20`. For events, write: `"scaleX"`.
 - **Scale on Y axis**. Default value is `20`. For events, write: `"scaleY"`.
 
