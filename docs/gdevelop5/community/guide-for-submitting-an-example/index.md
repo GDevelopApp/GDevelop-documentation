@@ -138,7 +138,7 @@ You can change the color of the comments according to its use (for example, gree
 
 ### Paid game template
 
-Open your game in GDevelop, do a Save As in a new folder, then zip the folder containing the game, the resources, and send them to the GDevelop team with **[this form to publish on the GDevelop's store](https://forms.gle/rqQajpDWEF3Em8HS6)**.
+Open your game in GDevelop, do a Save As in a new folder, then zip the folder containing the game, the resources, and send them to the GDevelop team with **[this form to publish on the GDevelop's store](https://forms.gle/F1qU2V3MwZ91zqRn9)**.
 
 ### Free game template
 
