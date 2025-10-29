@@ -7,10 +7,6 @@ After building your game for Android (either using the [one-click build for Andr
 
 To do this, you need to have an account on the Google Play Store. There is a one-time $25 registration fee asked by Google.
 
-!!! warning
-
-    Have you in the past published a game by uploading an APK? You need to do [the steps to upgrade your game from an APK to an Android App Bundle](/gdevelop5/publishing/android/play-store/upgrading-from-apk-to-aab) to continue publishing. [Read this page](/gdevelop5/publishing/android/play-store/upgrading-from-apk-to-aab), as it's mandatory to do since August 2021.
-
 ## Create your Google Play Developer account
 
 To create your account, go on the [Google Player Console](https://play.google.com/console/about/).
@@ -62,10 +58,6 @@ If there is an error telling you that the upload failed, read the error message 
 
 * The package name is not correct. In GDevelop, using [the project manager](http://wiki.compilgames.net/doku.php/gdevelop5/interface/project-manager), enter a new, unique package name
 * Or you used the same package name as an existing application. Choose another in the [the project manager](http://wiki.compilgames.net/doku.php/gdevelop5/interface/project-manager) and package again your game to create a new AAB.
-
-!!! note
-
-    If you used to publish your app using an APK, you need to upgrade to Android App Bundles. [Read this page to learn how to do this](/gdevelop5/publishing/android/play-store/upgrading-from-apk-to-aab).
 
 ## Finish entering all the details about the game
 
