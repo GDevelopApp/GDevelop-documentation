@@ -8,6 +8,13 @@ title: Randomness
 
 Random numbers can be generated using the [expressions](/gdevelop5/all-features/expressions/): `Random`, `RandomFloat`, `RandomFloatInRange`, `RandomInRange` and `RandomWithStep`.
 
+## Pick a random string
+
+Random strings can be generated using the [expressions](/gdevelop5/all-features/expressions/): `ArrayTools::RandomNumberInArray` from the [Array tools](/gdevelop5/extensions/array-tools/) extension.
+
+!!! tip
+
+    When you want to pick each string only once, refer to the [Pick cards from a deck](#pick-cards-from-a-deck) section.
 
 ## Create a random object
 
