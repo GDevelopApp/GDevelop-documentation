@@ -1,4 +1,4 @@
----
+Juego de carro 
 title: Gamepad
 ---
 # Gamepad
