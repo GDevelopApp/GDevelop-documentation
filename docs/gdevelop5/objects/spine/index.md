@@ -49,4 +49,4 @@ You can explore example(s) to see how a Spine object is integrated in a GDevelop
 
 ## References
 
-You can browse all the actions, conditions and expressions related to [the Spine object on this reference page](/gdevelop5/all-features/spine/reference/)
+You can browse all the actions, conditions and expressions related to [the Spine object on this reference page](/gdevelop5/all-features/spine-object/reference/)
