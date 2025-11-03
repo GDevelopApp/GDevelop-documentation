@@ -1,6 +1,8 @@
----
+---gta v
+
 title: Publish your game to Android
----
+mobile
+
 # Publish your game to Android
 
 GDevelop allows you to publish your games to multiple platforms, including Android and iOS with the Cloud Build services, or [manually](/gdevelop5/publishing/android_and_ios_with_cordova).
