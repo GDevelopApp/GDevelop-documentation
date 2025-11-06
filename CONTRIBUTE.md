@@ -2,17 +2,17 @@
 
 Thank you for investing your time in contributing to GDevelop's documentation! Any contribution you make will be reflected on wiki.gdevelop.io ✨.
 
-In this guide you will get an overview of the contribution workflow.
+In this guide, you will get an overview of the contribution workflow.
 
 ## Make a contribution
 
-To make a contribution, you shall follow those steps:
+To make a contribution, follow those steps:
 
 1. [Fork this repository](https://docs.github.com/fr/get-started/quickstart/fork-a-repo)
 2. [Install the project](#installation)
 3. [Find an issue that you can resolve](https://github.com/GDevelopApp/GDevelop-documentation/issues)
 4. [Open a Pull Request](https://docs.github.com/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork)
-5. Once your Pull Request is merged, the documentation will be automatically be updated with your changes (a few minutes for changes to take effect)
+5. Once your Pull Request is merged, the documentation will automatically be updated with your changes (a few minutes for changes to take effect)
 
 ## Installation
 
