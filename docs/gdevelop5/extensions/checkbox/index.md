@@ -29,6 +29,35 @@ Tips:
 
 Checkbox that can be toggled by a left-click or touch. 
 
+### Behavior properties
+
+- **Border thickness (px) This border is only visible when the checkbox is unchecked. ** (🔢 Number). Default value is `2`.
+- **Checked** (🔘 Boolean). Default value is `false`.
+- **Enable interactions** (🔘 Boolean). Default value is `true`.
+- **Halo opacity (pressed)** (🔢 Number). Default value is `128`.
+- **Halo opacity (hover)** (🔢 Number). Default value is `64`.
+- **Halo size (hover). If blank, this is set to "SideLength".** (🔢 Number). Default value is `2.02468e-320`.
+- **Halo size (pressed). If blank, this is set to "HaloRadiusHover * 1.1"** (🔢 Number). Default value is `2`.
+- **Line width of checkmark (px) (Min: 1, Max: 1/4 * SideLength)** (🔢 Number). Default value is `5`.
+- **Primary color of checkbox. (Example: 24;119;211) Fill color when box is checked.** (🎨 Color). Default value is ` 24;119;211`.
+- **Secondary color of checkbox. (Example: 255;255;255) Color of checkmark when box is checked.** (🎨 Color). Default value is `255;255;255`.
+- **Length of each side (px) Minimum: 10** (🔢 Number). Default value is `24`.
+
+??? quote "See internal technical details"
+
+
+    - **Border thickness (px) This border is only visible when the checkbox is unchecked. ** is stored as `BorderThickness` (Number). Default value is `2`.
+    - **Checked** is stored as `Checked` (Boolean). Default value is `false`.
+    - **Enable interactions** is stored as `Enabled` (Boolean). Default value is `true`.
+    - **Halo opacity (pressed)** is stored as `HaloOpacityClick` (Number). Default value is `128`.
+    - **Halo opacity (hover)** is stored as `HaloOpacityHover` (Number). Default value is `64`.
+    - **Halo size (hover). If blank, this is set to "SideLength".** is stored as `HaloRadiusHover` (Number). Default value is `2.02468e-320`.
+    - **Halo size (pressed). If blank, this is set to "HaloRadiusHover * 1.1"** is stored as `HaloRadiusPressed` (Number). Default value is `2`.
+    - **Line width of checkmark (px) (Min: 1, Max: 1/4 * SideLength)** is stored as `LineWidth` (Number). Default value is `5`.
+    - **Primary color of checkbox. (Example: 24;119;211) Fill color when box is checked.** is stored as `PrimaryColor` (Color). Default value is ` 24;119;211`.
+    - **Secondary color of checkbox. (Example: 255;255;255) Color of checkmark when box is checked.** is stored as `SecondaryColor` (Color). Default value is `255;255;255`.
+    - **Length of each side (px) Minimum: 10** is stored as `SideLength` (Number). Default value is `24`.
+
 ### Behavior actions
 
 **Border thickness of checkbox**  
@@ -142,7 +171,7 @@ Change the primary color of checkbox.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (color): Primary color
+    - Parameter 2 (🎨 Color): Primary color
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -155,7 +184,7 @@ Change the secondary color of checkbox.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (color): Secondary color
+    - Parameter 2 (🎨 Color): Secondary color
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -185,6 +214,7 @@ If checked, change to unchecked.  If unchecked, change to checked.
     > Technical note: parameter 2 is an internal parameter handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Checkbox::Checkbox::ToggleChecked`.
+
 
 ### Behavior conditions
 
@@ -224,6 +254,7 @@ Check if the checkbox interations are enabled.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Checkbox::Checkbox::IsEnabled`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -241,4 +272,4 @@ Check if the checkbox interations are enabled.
 
 ---
 
-*This page is an auto-generated reference page about the **Checkbox (for Shape Painter)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Checkbox (for Shape Painter)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

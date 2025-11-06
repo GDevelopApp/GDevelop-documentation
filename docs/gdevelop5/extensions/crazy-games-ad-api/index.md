@@ -33,7 +33,7 @@ Display a banner that can be called once per 60 seconds.
 ??? quote "See parameters & details"
 
     - Parameter 1 (string): Banner name
-    - Parameter 2 (🔤 String): Ad size (one of: "970x90", "320x50", "160x600", "336x280", "728x90", "300x600", "468x60", "970x250", "300x250", "250x250", "120x600")
+    - Parameter 2 (stringwithselector): Ad size (one of: "970x90", "320x50", "160x600", "336x280", "728x90", "300x600", "468x60", "970x250", "300x250", "250x250", "120x600")
     - Parameter 3 (🔢 Number): Position X
     - Parameter 4 (🔢 Number): Position Y
 
@@ -46,7 +46,7 @@ Display a video ad. The game is automatically muted while the video is playing.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (🔤 String): Ad Type (one of: "midgame", "rewarded")
+    - Parameter 1 (stringwithselector): Ad Type (one of: "midgame", "rewarded")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -240,6 +240,7 @@ Check if an user is signed into CrazyGames. If signed in, retrieves username and
 
     > Technical note: this action internal type (in GDevelop JSON) is `CrazyGamesAdApi::UserSignIn`.
 
+
 ## Conditions
 
 **Video ad just finished playing**  
@@ -269,7 +270,7 @@ Compare the CrazyGames User ID.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (string): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -303,7 +304,7 @@ Compare the availability of the user's account.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (string): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -326,7 +327,7 @@ Compare the last error from the CrazyGames API.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (string): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -349,7 +350,7 @@ Compare the username.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (string): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -366,6 +367,7 @@ Check if the user is signed in.
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `CrazyGamesAdApi::UserSignedIn`.
+
 
 ## Expressions
 
@@ -393,4 +395,4 @@ Check if the user is signed in.
 
 ---
 
-*This page is an auto-generated reference page about the **CrazyGames SDK v3** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **CrazyGames SDK v3** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

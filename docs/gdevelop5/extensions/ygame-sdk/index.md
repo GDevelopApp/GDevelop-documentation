@@ -69,7 +69,7 @@ Init SDK.
 ??? quote "See parameters & details"
 
     - Parameter 1 (❓ Yes or No): Fullscreen
-    - Parameter 2 (🔤 String): Screen orientation (one of: "portrait", "landscape")
+    - Parameter 2 (stringwithselector): Screen orientation (one of: "portrait", "landscape")
     - Parameter 3 (❓ Yes or No): Lock screen
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
@@ -145,6 +145,7 @@ ShowVideo.
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `YGameSDK::ShowVideo`.
+
 
 ## Conditions
 
@@ -239,6 +240,7 @@ IsVideoRewarded.
 
 
 
+
 ---
 
-*This page is an auto-generated reference page about the **Yandex Games SDK for GDevelop** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Yandex Games SDK for GDevelop** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

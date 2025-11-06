@@ -65,6 +65,7 @@ Sets the number of items in an inventory.
 
 
 
+
 ---
 
-*This page is an auto-generated reference page about the **Extra inventory functions (deprecated)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Extra inventory functions (deprecated)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

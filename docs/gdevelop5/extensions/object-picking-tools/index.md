@@ -73,6 +73,7 @@ Unpicks all instances of an object.
 
     > Technical note: this action internal type (in GDevelop JSON) is `ObjectPickingTools::UnpickAction`.
 
+
 ## Conditions
 
 **Pick objects with highest variable value**  
@@ -135,6 +136,7 @@ Unpicks all instances of an object.
 
 
 
+
 ---
 
-*This page is an auto-generated reference page about the **Object picking tools** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Object picking tools** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

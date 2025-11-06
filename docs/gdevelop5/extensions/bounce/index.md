@@ -90,6 +90,7 @@ Make sure to test for a collision between the two objects before launching this 
 
     > Technical note: this action internal type (in GDevelop JSON) is `Bounce::Bounce::BounceOffVertically`.
 
+
 ### Behavior conditions
 
 **Bounce count**  
@@ -99,12 +100,13 @@ Compare the number of times this object has bounced off another object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Bounce::Bounce::BounceCount`.
+
 
 ### Behavior expressions
 
@@ -115,4 +117,4 @@ Compare the number of times this object has bounced off another object.
 
 ---
 
-*This page is an auto-generated reference page about the **Bounce (using forces)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Bounce (using forces)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

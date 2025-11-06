@@ -26,6 +26,25 @@ The Parking Jam example uses this extension ([open the project online](https://e
 
 Drag a physics object with the mouse (or touch). 
 
+### Behavior properties
+
+- **Damping ratio (Range: 0 to 1)** (🔢 Number). Default value is `1`.
+- **Enable automatic dragging** (🔘 Boolean). If automatic dragging is disabled, use the "Start drag" and "Release drag" actions. Default value is `true`.
+- **Frequency (Hz) ** (🔢 Number). Default value is `10`.
+- **Maximum force** (🔢 Number, Force (in Newton)). Default value is `500`.
+- **Mouse button** (choice, one of: "Left", "Right", "Middle"). Default value is `Left`.
+
+??? quote "See internal technical details"
+
+
+    - **Damping ratio (Range: 0 to 1)** is stored as `Damping` (Number). Default value is `1`.
+    - **Enable automatic dragging** is stored as `EnableAutomaticDragging` (Boolean). Default value is `true`.
+    - **Frequency (Hz) ** is stored as `Frequency` (Number). Default value is `10`.
+    - **Maximum force** is stored as `MaxForce` (Number). Unit is Newton. Default value is `500`.
+    - **Mouse button** is stored as `MouseButton` (Choice). Default value is `Left`.
+    > This behavior must be used on an object also having a behavior with type "Physics2::Physics2Behavior". This is stored on property `PhysicsBehavior`.
+
+
 ### Behavior actions
 
 **Release dragged object**  
@@ -103,7 +122,7 @@ Change the mouse button used to move the object.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
-    - Parameter 3 (🔤 String): Value (one of: "Left", "Right", "Middle")
+    - Parameter 3 (stringwithselector): Value (one of: "Left", "Right", "Middle")
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -121,6 +140,7 @@ Start dragging object.
 
     > Technical note: this action internal type (in GDevelop JSON) is `DraggablePhysics::DraggablePhysics::StartDragging`.
 
+
 ### Behavior conditions
 
 **Damping ratio**  
@@ -130,7 +150,7 @@ Compare the joint damping ratio (range: 0 to 1) of the object. .
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -144,7 +164,7 @@ Compare the joint frequency (per second) of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -182,7 +202,7 @@ Compare the maximum joint force (in Newtons) of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -196,12 +216,13 @@ Compare the mouse button used to move the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
-    - Parameter 3 (🔤 String): Value to compare (one of: "Left", "Right", "Middle")
+    - Parameter 2: relationaloperator
+    - Parameter 3 (stringwithselector): Value to compare (one of: "Left", "Right", "Middle")
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `DraggablePhysics::DraggablePhysics::MouseButton`.
+
 
 ### Behavior expressions
 
@@ -215,4 +236,4 @@ Compare the mouse button used to move the object.
 
 ---
 
-*This page is an auto-generated reference page about the **Draggable (for physics objects)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Draggable (for physics objects)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

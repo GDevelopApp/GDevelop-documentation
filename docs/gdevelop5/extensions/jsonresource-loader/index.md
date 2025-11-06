@@ -26,7 +26,7 @@ Loads a JSON resource into a global structure variable.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (jsonResource): The resource to load the JSON from
+    - Parameter 1 (jsonresource): The resource to load the JSON from
     - Parameter 2 (🗄️ Global variable): The global variable to load the JSON to
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -38,7 +38,7 @@ Loads a JSON resource into an object structure variable.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (jsonResource): The resource to load the JSON from
+    - Parameter 1 (jsonresource): The resource to load the JSON from
     - Parameter 2 (👾 Object): The object where to find the variable
     - Parameter 3 (🗄️ Object variable): The object variable to load the JSON to
 
@@ -51,7 +51,7 @@ Loads a JSON resource into a scene structure variable.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (jsonResource): The resource to load the JSON from
+    - Parameter 1 (jsonresource): The resource to load the JSON from
     - Parameter 2 (🗄️ Scene variable): The scene variable to load the JSON to
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -61,6 +61,7 @@ Loads a JSON resource into a scene structure variable.
 
 
 
+
 ---
 
-*This page is an auto-generated reference page about the **JSON Resource Loading** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **JSON Resource Loading** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

@@ -56,9 +56,47 @@ Move the camera to look at a position from a distance.
 
 
 
+
 ## Third person camera 
 
 Smoothly follow an object at a distance. 
+
+### Behavior properties
+
+- **Camera distance** (🔢 Number, Distance). Default value is `500`.
+- **Elevation angle offset** (🔢 Number, Angle). Default value is `20`.
+- **Halfway  time for elevation rotation** (🔢 Number, Duration). Only used by Z and ZY rotation modes. Default value is `0`.
+- **Follow free area top border on Z axis** (🔢 Number, Distance). Default value is `0`.
+- **Follow free area bottom border on Z axis** (🔢 Number, Distance). Default value is `0`.
+- **Automatically rotate the camera with the object (elevation)** (🔘 Boolean). Best left unchecked, use the rotation mode instead. Default value is `false`.
+- **Automatically rotate the camera with the object** (🔘 Boolean). Default value is `true`.
+- **Lateral distance offset** (🔢 Number, Distance). Default value is `0`.
+- **Ahead distance offset** (🔢 Number, Distance). Default value is `0`.
+- **Z offset** (🔢 Number, Distance). Default value is `0`.
+- **Rotation angle offset** (🔢 Number, Angle). Default value is `0`.
+- **Halfway  time for rotation** (🔢 Number, Duration). Default value is `0.125`.
+- **Rotation mode** (choice, one of: "Z", "ZY", "ZYX"). Default value is `Z`.
+- **Halfway time on Z axis** (🔢 Number, Duration). Only used by Z and ZY rotation modes. Default value is `0.125`.
+
+??? quote "See internal technical details"
+
+
+    - **Camera distance** is stored as `Distance` (Number). Unit is Pixel. Default value is `500`.
+    - **Elevation angle offset** is stored as `ElevationAngleOffset` (Number). Unit is DegreeAngle. Default value is `20`.
+    - **Halfway  time for elevation rotation** is stored as `ElevationHalfwayDuration` (Number). Unit is Second. Default value is `0`.
+    - **Follow free area top border on Z axis** is stored as `FollowFreeAreaZMax` (Number). Unit is Pixel. Default value is `0`.
+    - **Follow free area bottom border on Z axis** is stored as `FollowFreeAreaZMin` (Number). Unit is Pixel. Default value is `0`.
+    - **Automatically rotate the camera with the object (elevation)** is stored as `IsElevatingWithObject` (Boolean). Default value is `false`.
+    - **Automatically rotate the camera with the object** is stored as `IsRotatingWithObject` (Boolean). Default value is `true`.
+    > This behavior must be used on an object also having a behavior with type "Scene3D::Base3DBehavior". This is stored on property `Object3D`.
+
+    - **Lateral distance offset** is stored as `OffsetX` (Number). Unit is Pixel. Default value is `0`.
+    - **Ahead distance offset** is stored as `OffsetY` (Number). Unit is Pixel. Default value is `0`.
+    - **Z offset** is stored as `OffsetZ` (Number). Unit is Pixel. Default value is `0`.
+    - **Rotation angle offset** is stored as `RotationAngleOffset` (Number). Unit is DegreeAngle. Default value is `0`.
+    - **Halfway  time for rotation** is stored as `RotationHalfwayDuration` (Number). Unit is Second. Default value is `0.125`.
+    - **Rotation mode** is stored as `RotationMode` (Choice). Default value is `Z`.
+    - **Halfway time on Z axis** is stored as `TranslationZHalfwayDuration` (Number). Unit is Second. Default value is `0.125`.
 
 ### Behavior actions
 
@@ -268,6 +306,7 @@ Change the halfway time on Z axis of the object.
 
     > Technical note: this action internal type (in GDevelop JSON) is `ThirdPersonCamera::ThirdPersonCamera::SetTranslationZHalfwayDuration`.
 
+
 ### Behavior conditions
 
 **Camera distance**  
@@ -277,7 +316,7 @@ Compare the camera distance of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -291,7 +330,7 @@ Compare the elevation angle offset of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -305,7 +344,7 @@ Compare the halfway  time for elevation rotation of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -319,7 +358,7 @@ Compare the follow free area top border on Z axis of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -333,7 +372,7 @@ Compare the follow free area bottom border on Z axis of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -347,7 +386,7 @@ Compare the lateral distance offset of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -361,7 +400,7 @@ Compare the ahead distance offset of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -375,7 +414,7 @@ Compare the z offset of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -389,7 +428,7 @@ Compare the rotation angle offset of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -403,7 +442,7 @@ Compare the halfway time for rotation of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -417,7 +456,7 @@ Compare the targeted camera rotation angle of the object. When this angle is set
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -431,12 +470,13 @@ Compare the halfway time on Z axis of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `ThirdPersonCamera::ThirdPersonCamera::TranslationZHalfwayDuration`.
+
 
 ### Behavior expressions
 
@@ -458,4 +498,4 @@ Compare the halfway time on Z axis of the object.
 
 ---
 
-*This page is an auto-generated reference page about the **Third person camera** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Third person camera** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

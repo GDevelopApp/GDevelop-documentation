@@ -18,10 +18,25 @@ Make the object go on the left, then when some distance is reached, flip and go 
 
 Make the object go on the left, then when some distance is reached, flip and go back to the right. Make sure that your object has two animations called "GoLeft" and "TurnLeft". 
 
+### Behavior properties
+
+- **Distance traveled on X axis, in pixels** (🔢 Number, Distance). Default value is `300`.
+- **Speed on X axis, in pixels per second** (🔢 Number, Speed). Default value is `200`.
+
+??? quote "See internal technical details"
+
+
+    > This behavior must be used on an object also having a behavior with type "AnimatableCapability::AnimatableBehavior". This is stored on property `Animation`.
+
+    - **Distance traveled on X axis, in pixels** is stored as `DistanceX` (Number). Unit is Pixel. Default value is `300`.
+    > This behavior must be used on an object also having a behavior with type "FlippableCapability::FlippableBehavior". This is stored on property `Flippable`.
+
+    - **Speed on X axis, in pixels per second** is stored as `SpeedX` (Number). Unit is PixelSpeed. Default value is `200`.
+
 _No expressions for this behavior._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **Animated Back and Forth Movement** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Animated Back and Forth Movement** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

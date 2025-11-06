@@ -18,6 +18,23 @@ Smoothly change a counter value in a text object.
 
 Smoothly changes a counter value in a text object. 
 
+### Behavior properties
+
+- **Animation duration** (🔢 Number, Duration). Default value is `1`.
+- **Increment** (🔢 Number, Dimensionless). Default value is `1`.
+- **Prefix** (string). Default value is `Score: `.
+- **Suffix** (string).
+
+??? quote "See internal technical details"
+
+
+    - **Animation duration** is stored as `Duration` (Number). Unit is Second. Default value is `1`.
+    - **Increment** is stored as `Increment` (Number). Unit is Dimensionless. Default value is `1`.
+    - **Prefix** is stored as `Prefix` (String). Default value is `Score: `.
+    - **Suffix** is stored as `Suffix` (String). Default value is ``.
+    > This behavior must be used on an object also having a behavior with type "TextContainerCapability::TextContainerBehavior". This is stored on property `Text`.
+
+
 ### Behavior actions
 
 **Jump to the counter animation end**  
@@ -46,6 +63,7 @@ Change the value of the counter.
 
     > Technical note: this action internal type (in GDevelop JSON) is `RollingCounter::RollingCounter::SetValue`.
 
+
 ### Behavior conditions
 
 **Counter value**  
@@ -55,12 +73,13 @@ Compare the value of the counter.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `RollingCounter::RollingCounter::Value`.
+
 
 ### Behavior expressions
 
@@ -71,4 +90,4 @@ Compare the value of the counter.
 
 ---
 
-*This page is an auto-generated reference page about the **Rolling counter** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Rolling counter** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

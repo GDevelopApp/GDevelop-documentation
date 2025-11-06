@@ -25,6 +25,21 @@ It can be used for:
 
 Seamlessly align big pixels using a 2D platformer character movement. 
 
+### Behavior properties
+
+- **Pixel grid offset X** (🔢 Number). Default value is `0`.
+- **Pixel grid offset Y** (🔢 Number). Default value is `0`.
+- **Pixel size** (🔢 Number). Default value is `1`.
+
+??? quote "See internal technical details"
+
+
+    - **Pixel grid offset X** is stored as `OffsetX` (Number). Default value is `0`.
+    - **Pixel grid offset Y** is stored as `OffsetY` (Number). Default value is `0`.
+    - **Pixel size** is stored as `PixelSize` (Number). Default value is `1`.
+    > This behavior must be used on an object also having a behavior with type "PlatformBehavior::PlatformerObjectBehavior". This is stored on property `PlatformerCharacter`.
+
+
 _No expressions for this behavior._
 
 
@@ -32,10 +47,25 @@ _No expressions for this behavior._
 
 Seamlessly align big pixels using a top-down movement. 
 
+### Behavior properties
+
+- **Pixel grid offset X** (🔢 Number). Default value is `0`.
+- **Pixel grid offset Y** (🔢 Number). Default value is `0`.
+- **Pixel size** (🔢 Number). Default value is `1`.
+
+??? quote "See internal technical details"
+
+
+    - **Pixel grid offset X** is stored as `OffsetX` (Number). Default value is `0`.
+    - **Pixel grid offset Y** is stored as `OffsetY` (Number). Default value is `0`.
+    - **Pixel size** is stored as `PixelSize` (Number). Default value is `1`.
+    > This behavior must be used on an object also having a behavior with type "TopDownMovementBehavior::TopDownMovementBehavior". This is stored on property `TopDownMovement`.
+
+
 _No expressions for this behavior._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **Pixel perfect movement** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Pixel perfect movement** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

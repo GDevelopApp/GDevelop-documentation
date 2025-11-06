@@ -380,6 +380,7 @@ Split a string into an array of strings via a separator.
 
     > Technical note: this action internal type (in GDevelop JSON) is `ArrayTools::SplitString`.
 
+
 ## Conditions
 
 **Array has number**  
@@ -411,7 +412,7 @@ Compare The index of the first variable that equals to a specific number in an a
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🗄️ Any variable): Array to search the value in
     - Parameter 4 (🔢 Number): Number to search in the array
@@ -425,7 +426,7 @@ Compare The index of the first variable that equals to a specific text in an arr
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🗄️ Any variable): Array to search the value in
     - Parameter 4 (string): String to search in the array
@@ -439,7 +440,7 @@ Compare The index of the last variable that equals to a specific number in an ar
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🗄️ Any variable): Array to search the value in
     - Parameter 4 (🔢 Number): Number to search in the array
@@ -453,7 +454,7 @@ Compare The index of the last variable that equals to a specific text in an arra
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🗄️ Any variable): Array to search the value in
     - Parameter 4 (string): String to search in the array
@@ -493,7 +494,7 @@ Compare The index of the first variable that equals to a specific number in an a
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (👾 Object): The object the variable is from
     - Parameter 4 (🗄️ Object variable): Array to search the value in
@@ -508,7 +509,7 @@ Compare The index of the first variable that equals to a specific text in an arr
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (👾 Object): The object the variable is from
     - Parameter 4 (🗄️ Object variable): Array to search the value in
@@ -523,7 +524,7 @@ Compare The index of the last variable that equals to a specific number in an ar
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (👾 Object): The object the variable is from
     - Parameter 4 (🗄️ Object variable): Array to search the value in
@@ -538,7 +539,7 @@ Compare The index of the last variable that equals to a specific text in an arra
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (👾 Object): The object the variable is from
     - Parameter 4 (🗄️ Object variable): Array to search the value in
@@ -553,7 +554,7 @@ Compare Removes the last array child of an array, and return it as a number.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (👾 Object): The object the variable is from
     - Parameter 4 (🗄️ Object variable): Array to pop a child from
@@ -567,7 +568,7 @@ Compare Returns a random number of an array of numbers.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (👾 Object): The object the variable is from
     - Parameter 4 (🗄️ Object variable): Array to get a number from
@@ -581,7 +582,7 @@ Compare a random string of an array of strings.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (string): Value to compare
     - Parameter 3 (👾 Object): The object the variable is from
     - Parameter 4 (🗄️ Object variable): Array to get a string from
@@ -595,7 +596,7 @@ Compare Removes the last array child of an array, and return it as a number.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🗄️ Any variable): Array to pop a child from
 
@@ -608,7 +609,7 @@ Compare Returns a random number of an array of numbers.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🗄️ Any variable): Array to get a number from
 
@@ -621,13 +622,14 @@ Compare a random string of an array of strings.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (string): Value to compare
     - Parameter 3 (🗄️ Any variable): Array to get a string from
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `ArrayTools::RandomStringInArray`.
+
 
 ## Expressions
 
@@ -657,57 +659,57 @@ Compare a random string of an array of strings.
 | `ArrayTools::Min(variable)` | Gets the smallest number in an array. ||
 | | _🗄️ Any variable_ | The array |
 | `ArrayTools::ObjectIndexOf(object, object variable, number)` | Return The index of the first variable that equals to a specific number in an array. ||
-| | _👾 Object_ | The object the variable is from |
+| | _objectlist_ | The object the variable is from |
 | | _🗄️ Object variable_ | Array to search the value in |
 | | _🔢 Number_ | Number to search in the array |
 | `ArrayTools::ObjectIndexOfStr(object, object variable, string)` | Return The index of the first variable that equals to a specific text in an array. ||
-| | _👾 Object_ | The object the variable is from |
+| | _objectlist_ | The object the variable is from |
 | | _🗄️ Object variable_ | Array to search the value in |
 | | _string_ | String to search in the array |
 | `ArrayTools::ObjectJoin(object, object variable, string)` | Returns a string made from all strings in an array. ||
-| | _👾 Object_ | The object the variable is from |
+| | _objectlist_ | The object the variable is from |
 | | _🗄️ Object variable_ | The name of the array to join into a string |
 | | _string_ | Optional separator text between each element |
 | `ArrayTools::ObjectLastIndexOf(object, object variable, number)` | Return The index of the last variable that equals to a specific number in an array. ||
-| | _👾 Object_ | The object the variable is from |
+| | _objectlist_ | The object the variable is from |
 | | _🗄️ Object variable_ | Array to search the value in |
 | | _🔢 Number_ | Number to search in the array |
 | `ArrayTools::ObjectLastIndexOfStr(object, object variable, string)` | Return The index of the last variable that equals to a specific text in an array. ||
-| | _👾 Object_ | The object the variable is from |
+| | _objectlist_ | The object the variable is from |
 | | _🗄️ Object variable_ | Array to search the value in |
 | | _string_ | String to search in the array |
 | `ArrayTools::ObjectMax(object, object variable)` | Gets the biggest number in an array. ||
-| | _👾 Object_ | The object the variable is from |
+| | _objectlist_ | The object the variable is from |
 | | _🗄️ Object variable_ | The array |
 | `ArrayTools::ObjectMean(object, object variable)` | Gets the average number in an array. ||
-| | _👾 Object_ | The object the variable is from |
+| | _objectlist_ | The object the variable is from |
 | | _🗄️ Object variable_ | The array |
 | `ArrayTools::ObjectMedian(object, object variable)` | Gets the median number in an array. ||
-| | _👾 Object_ | The object the variable is from |
+| | _objectlist_ | The object the variable is from |
 | | _🗄️ Object variable_ | The array |
 | `ArrayTools::ObjectMin(object, object variable)` | Gets the smallest number in an array. ||
-| | _👾 Object_ | The object the variable is from |
+| | _objectlist_ | The object the variable is from |
 | | _🗄️ Object variable_ | The array |
 | `ArrayTools::ObjectPopNumber(object, object variable)` | Return Removes the last array child of an array, and return it as a number. ||
-| | _👾 Object_ | The object the variable is from |
+| | _objectlist_ | The object the variable is from |
 | | _🗄️ Object variable_ | Array to pop a child from |
 | `ArrayTools::ObjectPopString(object, object variable)` | Removes the last array child of an array, and return it as a string. ||
-| | _👾 Object_ | The object the variable is from |
+| | _objectlist_ | The object the variable is from |
 | | _🗄️ Object variable_ | Array to pop a child from |
 | `ArrayTools::ObjectRandomNumberInArray(object, object variable)` | Return Returns a random number of an array of numbers. ||
-| | _👾 Object_ | The object the variable is from |
+| | _objectlist_ | The object the variable is from |
 | | _🗄️ Object variable_ | Array to get a number from |
 | `ArrayTools::ObjectRandomStringInArray(object, object variable)` | Return a random string of an array of strings. ||
-| | _👾 Object_ | The object the variable is from |
+| | _objectlist_ | The object the variable is from |
 | | _🗄️ Object variable_ | Array to get a string from |
 | `ArrayTools::ObjectShiftNumber(object, object variable)` | Removes the first array child of an array, and return it as a number. ||
-| | _👾 Object_ | The object the variable is from |
+| | _objectlist_ | The object the variable is from |
 | | _🗄️ Object variable_ | Array to shift a child from |
 | `ArrayTools::ObjectShiftString(object, object variable)` | Removes the first array child of an array, and return it as a string. ||
-| | _👾 Object_ | The object the variable is from |
+| | _objectlist_ | The object the variable is from |
 | | _🗄️ Object variable_ | Array to shift a child from |
 | `ArrayTools::ObjectSum(object, object variable)` | Get the sum of all numbers in an array. ||
-| | _👾 Object_ | The object the variable is from |
+| | _objectlist_ | The object the variable is from |
 | | _🗄️ Object variable_ | The array |
 | `ArrayTools::PopNumber(variable)` | Return Removes the last array child of an array, and return it as a number. ||
 | | _🗄️ Any variable_ | Array to pop a child from |
@@ -727,4 +729,4 @@ Compare a random string of an array of strings.
 
 ---
 
-*This page is an auto-generated reference page about the **Array tools** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Array tools** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

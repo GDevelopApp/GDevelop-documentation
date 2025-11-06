@@ -22,6 +22,17 @@ This works with any kind of movement (forces, physics, dragging, etc) because it
 
 Face object towards the direction of movement. 
 
+### Behavior properties
+
+- **Offset angle** (🔢 Number, Angle). Can be used when the image of the object is not facing to the right. Default value is `0`.
+- **Rotation speed (degrees per second)** (🔢 Number). Use "0" for immediate turning. Default value is `0`.
+
+??? quote "See internal technical details"
+
+
+    - **Offset angle** is stored as `OffsetAngle` (Number). Unit is DegreeAngle. Default value is `0`.
+    - **Rotation speed (degrees per second)** is stored as `RotationSpeed` (Number). Default value is `0`.
+
 ### Behavior actions
 
 **Set offset angle**  
@@ -50,6 +61,7 @@ Set rotation speed (degrees per second).  Use "0" for immediate turning.
 
     > Technical note: this action internal type (in GDevelop JSON) is `FaceForward::FaceForward::SetRotationSpeed`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -61,4 +73,4 @@ Set rotation speed (degrees per second).  Use "0" for immediate turning.
 
 ---
 
-*This page is an auto-generated reference page about the **Face Forward** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Face Forward** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

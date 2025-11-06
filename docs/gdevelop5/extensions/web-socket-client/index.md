@@ -72,6 +72,7 @@ Sends a string to the server.
 
     > Technical note: this action internal type (in GDevelop JSON) is `WebSocketClient::Send`.
 
+
 ## Conditions
 
 **An event was received**  
@@ -129,6 +130,7 @@ Triggers when a WebSocket error has occurred.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `WebSocketClient::OnError`.
 
+
 ## Expressions
 
 | Expression | Description |  |
@@ -139,4 +141,4 @@ Triggers when a WebSocket error has occurred.
 
 ---
 
-*This page is an auto-generated reference page about the **WebSocket client** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **WebSocket client** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

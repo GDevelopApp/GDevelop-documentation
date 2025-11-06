@@ -22,6 +22,23 @@ There are ready-to-use resource bars in the asset-store [resource bars pack](htt
 
 A bar that represents a resource in the game (health, mana, ammo, etc). 
 
+### Object properties
+
+- **Maximum value** (🔢 Number). Default value is `3`.
+- **Initial value** (🔢 Number). Default value is `3`.
+- **Previous high value conservation duration (in seconds)** (🔢 Number, Duration). Default value is `1`.
+- **Easing duration** (🔢 Number, Duration). Default value is `0.25`.
+- **Show the label** (🔘 Boolean). Default value is `true`.
+
+??? quote "See internal technical details"
+
+
+    - **Maximum value** is stored as `MaxValue` (Number). Default value is `3`.
+    - **Initial value** is stored as `InitialValue` (Number). Default value is `3`.
+    - **Previous high value conservation duration (in seconds)** is stored as `PreviousHighValueDuration` (Number). Unit is Second. Default value is `1`.
+    - **Easing duration** is stored as `EasingDuration` (Number). Unit is Second. Default value is `0.25`.
+    - **Show the label** is stored as `ShowLabel` (Boolean). Default value is `true`.
+
 ### Object actions
 
 **Show label**  
@@ -75,6 +92,7 @@ Change the value of the object.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue`.
 
+
 ### Object conditions
 
 **Empty**  
@@ -116,7 +134,7 @@ Compare the maximum value of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -129,7 +147,7 @@ Compare the previous value conservation duration (in seconds) of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -142,12 +160,13 @@ Compare the value of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value`.
+
 
 ### Object expressions
 
@@ -160,4 +179,4 @@ Compare the value of the object.
 
 ---
 
-*This page is an auto-generated reference page about the **Resource bar (continuous)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Resource bar (continuous)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

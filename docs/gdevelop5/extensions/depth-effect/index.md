@@ -30,6 +30,21 @@ Tips:
 
 The scale of the object decreases the closer it is to the horizon, giving the illusion that the object is travelling away from the viewer. 
 
+### Behavior properties
+
+- **Y position that represents a horizon where objects appear infinitely small  (Default: 0)** (🔢 Number). Default value is `0`.
+- **Max scale when the object is at the bottom of the screen (Default: 1)** (🔢 Number). Default value is `1`.
+- **Exponential rate of change (Default: 2)** (🔢 Number). Default value is `2`.
+
+??? quote "See internal technical details"
+
+
+    - **Y position that represents a horizon where objects appear infinitely small  (Default: 0)** is stored as `HorizonY` (Number). Default value is `0`.
+    - **Max scale when the object is at the bottom of the screen (Default: 1)** is stored as `MaxScale` (Number). Default value is `1`.
+    - **Exponential rate of change (Default: 2)** is stored as `PowerY` (Number). Default value is `2`.
+    > This behavior must be used on an object also having a behavior with type "ScalableCapability::ScalableBehavior". This is stored on property `Scale`.
+
+
 ### Behavior actions
 
 **Set exponential rate of change**  
@@ -71,6 +86,7 @@ Set max scale when the object is at the bottom of the screen (Default: 2).
 
     > Technical note: this action internal type (in GDevelop JSON) is `DepthEffect::DepthEffect_Sprite::SetMaxScale`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -83,4 +99,4 @@ Set max scale when the object is at the bottom of the screen (Default: 2).
 
 ---
 
-*This page is an auto-generated reference page about the **Depth effect** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Depth effect** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

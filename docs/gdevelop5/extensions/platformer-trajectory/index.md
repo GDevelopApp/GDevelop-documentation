@@ -22,6 +22,17 @@ For objects having the 2D platformer character behavior, this provides a behavio
 
 Configure the height of a jump and evaluate the jump trajectory. 
 
+### Behavior properties
+
+- **Jump height** (🔢 Number). Default value is `9.88131e-323`.
+
+??? quote "See internal technical details"
+
+
+    - **Jump height** is stored as `JumpHeight` (Number). Default value is `9.88131e-323`.
+    > This behavior must be used on an object also having a behavior with type "PlatformBehavior::PlatformerObjectBehavior". This is stored on property `PlatformerCharacter`.
+
+
 ### Behavior actions
 
 **Draw jump**  
@@ -50,6 +61,7 @@ Change the jump speed to reach a given height.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PlatformerTrajectory::PlatformerEvaluator::SetJumpHeight`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -77,4 +89,4 @@ Change the jump speed to reach a given height.
 
 ---
 
-*This page is an auto-generated reference page about the **Platformer trajectory** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Platformer trajectory** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

@@ -29,6 +29,33 @@ It can be used for:
 
 Move objects on ellipses or smoothly back and forth in one direction. 
 
+### Behavior properties
+
+- **Ellipse height** (🔢 Number, Distance). Default value is `0`.
+- **Initial direction** (🔢 Number, Angle). Default value is `0`.
+- **Turn left** (🔘 Boolean). Default value is `false`.
+- **Loop duration** (🔢 Number, Duration). Default value is `6`.
+- **Plane** (choice, one of: "Z", "Y", "X"). Default value is `Z`.
+- **Rotation offset** (🔢 Number, Angle). Default value is `0`.
+- **Rotate** (🔘 Boolean). Default value is `false`.
+- **Ellipse width** (🔢 Number, Distance). Default value is `100`.
+
+??? quote "See internal technical details"
+
+
+    - **Ellipse height** is stored as `Height` (Number). Unit is Pixel. Default value is `0`.
+    - **Initial direction** is stored as `InitialDirectionAngle` (Number). Unit is DegreeAngle. Default value is `0`.
+    - **Turn left** is stored as `InitialTurningLeft` (Boolean). Default value is `false`.
+    - **Loop duration** is stored as `LoopDuration` (Number). Unit is Second. Default value is `6`.
+    > This behavior must be used on an object also having a behavior with type "Scene3D::Base3DBehavior". This is stored on property `Object3D`.
+
+    > This behavior must be used on an object also having a behavior with type "Physics3D::Physics3DBehavior". This is stored on property `Physics3D`.
+
+    - **Plane** is stored as `Plane` (Choice). Default value is `Z`.
+    - **Rotation offset** is stored as `RotationOffset` (Number). Unit is DegreeAngle. Default value is `0`.
+    - **Rotate** is stored as `ShouldRotate` (Boolean). Default value is `false`.
+    - **Ellipse width** is stored as `Width` (Number). Unit is Pixel. Default value is `100`.
+
 ### Behavior actions
 
 **Ellipse height**  
@@ -111,6 +138,7 @@ Change the turning direction (left or right).
 
     > Technical note: this action internal type (in GDevelop JSON) is `PhysicsEllipseMovement3D::PhysicsEllipseMovement3D::ToggleTurningLeft`.
 
+
 ### Behavior conditions
 
 **Ellipse height**  
@@ -120,7 +148,7 @@ Compare the ellipse height of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -146,7 +174,7 @@ Compare the loop duration (in seconds).
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -160,12 +188,13 @@ Compare the ellipse width of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PhysicsEllipseMovement3D::PhysicsEllipseMovement3D::Width`.
+
 
 ### Behavior expressions
 
@@ -181,4 +210,4 @@ Compare the ellipse width of the object.
 
 ---
 
-*This page is an auto-generated reference page about the **3D ellipse movement** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **3D ellipse movement** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

@@ -29,6 +29,33 @@ Check out [this demo](https://gd.games/bubble/swayexamples) to see what this ext
 
 Sway multiple instances of an object at different times - useful for random grass swaying. 
 
+### Behavior properties
+
+- **Maximum angle to the left (in degrees) - Use a negative number** (🔢 Number). Default value is `-5`.
+- **Maximum angle to the right (in degrees) - Use a positive number** (🔢 Number). Default value is `5`.
+- **Maximum value for random tween time range for angle (seconds)** (🔢 Number). Default value is `3`.
+- **Mininum value for random tween time range for angle (seconds)** (🔢 Number). Default value is `1`.
+- **Maximum Y scale amount** (🔢 Number). Default value is `1.2`.
+- **Minimum Y scale amount** (🔢 Number). Default value is `1`.
+- **Maximum value for random tween time range for Y scale (seconds)** (🔢 Number). Default value is `3`.
+- **Mininum value for random tween time range for Y scale (seconds)** (🔢 Number). Default value is `1`.
+
+??? quote "See internal technical details"
+
+
+    - **Maximum angle to the left (in degrees) - Use a negative number** is stored as `AngleLeft` (Number). Default value is `-5`.
+    - **Maximum angle to the right (in degrees) - Use a positive number** is stored as `AngleRight` (Number). Default value is `5`.
+    - **Maximum value for random tween time range for angle (seconds)** is stored as `AngleTimeMax` (Number). Default value is `3`.
+    - **Mininum value for random tween time range for angle (seconds)** is stored as `AngleTimeMin` (Number). Default value is `1`.
+    > This behavior must be used on an object also having a behavior with type "ScalableCapability::ScalableBehavior". This is stored on property `Scale`.
+
+    > This behavior must be used on an object also having a behavior with type "Tween::TweenBehavior". This is stored on property `TweenBehavior`.
+
+    - **Maximum Y scale amount** is stored as `YScaleMax` (Number). Default value is `1.2`.
+    - **Minimum Y scale amount** is stored as `YScaleMin` (Number). Default value is `1`.
+    - **Maximum value for random tween time range for Y scale (seconds)** is stored as `YScaleTimeMax` (Number). Default value is `3`.
+    - **Mininum value for random tween time range for Y scale (seconds)** is stored as `YScaleTimeMin` (Number). Default value is `1`.
+
 ### Behavior actions
 
 **Set sway angle left and right**  
@@ -87,10 +114,11 @@ Set Y scale time range.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Sway::Sway::ChangeSwayYScaleTime`.
 
+
 _No expressions for this behavior._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **Sway** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Sway** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

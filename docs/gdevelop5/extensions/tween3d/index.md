@@ -30,11 +30,12 @@ Change the tint of an object. The default color is white.
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): Object capability
-    - Parameter 3: color
+    - Parameter 3: 🎨 Color
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Tween3D::SetTint`.
+
 
 
 
@@ -149,7 +150,7 @@ Tweens an object scale volume from its current value to a new one. The scale vol
     - Parameter 2 (🔤 Name (String)): Tween identifier
     - Parameter 3 (🔢 Number): Scale volume
     - Parameter 4 (🔢 Number): Duration (in seconds)
-    - Parameter 5 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 5 (stringwithselector): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
 
     > Technical note: parameter 6 is an internal parameter handled by GDevelop.
 
@@ -165,7 +166,7 @@ Tweens an object stretch Y from its current value to a new one. The stretch can 
     - Parameter 2 (🔤 Name (String)): Tween identifier
     - Parameter 3 (🔢 Number): Stretch on Y axis
     - Parameter 4 (🔢 Number): Duration (in seconds)
-    - Parameter 5 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 5 (stringwithselector): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
 
     > Technical note: parameter 6 is an internal parameter handled by GDevelop.
 
@@ -181,7 +182,7 @@ Tweens an object stretch Z from its current value to a new one. The stretch can 
     - Parameter 2 (🔤 Name (String)): Tween identifier
     - Parameter 3 (🔢 Number): Stretch on Z axis
     - Parameter 4 (🔢 Number): Duration (in seconds)
-    - Parameter 5 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 5 (stringwithselector): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
 
     > Technical note: parameter 6 is an internal parameter handled by GDevelop.
 
@@ -195,13 +196,14 @@ Tweens the object color from its current value to a new one.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔤 Name (String)): Tween identifier
-    - Parameter 3: color
+    - Parameter 3: 🎨 Color
     - Parameter 4 (🔢 Number): Duration (in seconds)
-    - Parameter 5 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 5 (stringwithselector): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
 
     > Technical note: parameter 6 is an internal parameter handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Tween3D::Tween3D::TweenTint`.
+
 
 ### Behavior conditions
 
@@ -251,7 +253,7 @@ Compare the progress of a tween (between 0.0 and 1.0).
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
     - Parameter 4 (🔤 Name (String)): Tween identifier
 
@@ -266,7 +268,7 @@ Compare the scale volume.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -280,7 +282,7 @@ Compare the stretch on Y axis. The object volume is conserved. A stretch of 2 ma
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -294,12 +296,13 @@ Compare the stretch on Z axis. The object volume is conserved. A stretch of 2 ma
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Tween3D::Tween3D::StretchZ`.
+
 
 ### Behavior expressions
 
@@ -314,6 +317,31 @@ Compare the stretch on Z axis. The object volume is conserved. A stretch of 2 ma
 ## 3D wobble 
 
 Squash and stretch a 3D model in loop. 
+
+### Behavior properties
+
+- **Cycle duration** (🔢 Number, Duration). Default value is `1`.
+- **Maximum scale volume** (🔢 Number, Dimensionless). Default value is `1`.
+- **Minimum scale volume** (🔢 Number, Dimensionless). Default value is `0.75`.
+- **Scale cycle offset** (🔢 Number, Duration). Default value is `0`.
+- **Maximum stretch** (🔢 Number, Dimensionless). Default value is `1.25`.
+- **Minimum stretch** (🔢 Number, Dimensionless). Default value is `1`.
+- **Stretch cycle offset** (🔢 Number, Duration). Default value is `-0.25`.
+- **Top orientation** (choice, one of: "Z+", "Y-"). Default value is `Z+`.
+
+??? quote "See internal technical details"
+
+
+    - **Cycle duration** is stored as `PeriodDuration` (Number). Unit is Second. Default value is `1`.
+    - **Maximum scale volume** is stored as `ScaleMax` (Number). Unit is Dimensionless. Default value is `1`.
+    - **Minimum scale volume** is stored as `ScaleMin` (Number). Unit is Dimensionless. Default value is `0.75`.
+    - **Scale cycle offset** is stored as `ScalePeriodOffset` (Number). Unit is Second. Default value is `0`.
+    - **Maximum stretch** is stored as `StretchMax` (Number). Unit is Dimensionless. Default value is `1.25`.
+    - **Minimum stretch** is stored as `StretchMin` (Number). Unit is Dimensionless. Default value is `1`.
+    - **Stretch cycle offset** is stored as `StretchPeriodOffset` (Number). Unit is Second. Default value is `-0.25`.
+    - **Top orientation** is stored as `Top` (Choice). Default value is `Z+`.
+    > This behavior must be used on an object also having a behavior with type "Tween3D::Tween3D". This is stored on property `Tween3D`.
+
 
 ### Behavior actions
 
@@ -424,7 +452,7 @@ Tweens the maximum scale volume from its current value to a new one. The scale v
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Maximum scale volume
     - Parameter 3 (🔢 Number): Duration (in seconds)
-    - Parameter 4 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 4 (stringwithselector): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
 
     > Technical note: parameter 5 is an internal parameter handled by GDevelop.
 
@@ -439,11 +467,12 @@ Tweens the minimum scale volume from its current value to a new one. The scale v
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Minimum scale volume
     - Parameter 3 (🔢 Number): Duration (in seconds)
-    - Parameter 4 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 4 (stringwithselector): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
 
     > Technical note: parameter 5 is an internal parameter handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Tween3D::Wobble::TweenScaleMin`.
+
 
 ### Behavior conditions
 
@@ -454,7 +483,7 @@ Compare the cycle duration of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -468,7 +497,7 @@ Compare the maximum scale volume of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -482,7 +511,7 @@ Compare the minimum scale volume of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -496,7 +525,7 @@ Compare the scale cycle offset of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -510,7 +539,7 @@ Compare the maximum stretch of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -524,7 +553,7 @@ Compare the minimum stretch of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -538,12 +567,13 @@ Compare the stretch cycle offset of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Tween3D::Wobble::StretchPeriodOffset`.
+
 
 ### Behavior expressions
 
@@ -560,4 +590,4 @@ Compare the stretch cycle offset of the object.
 
 ---
 
-*This page is an auto-generated reference page about the **Advanced 3D tween** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Advanced 3D tween** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

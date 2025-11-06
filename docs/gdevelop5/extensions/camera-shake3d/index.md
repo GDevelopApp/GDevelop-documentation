@@ -123,6 +123,7 @@ Stop shaking the camera.
 
     > Technical note: this action internal type (in GDevelop JSON) is `CameraShake3D::StopShaking`.
 
+
 ## Conditions
 
 **Horizontal rotation amplitude**  
@@ -130,7 +131,7 @@ Compare the horizontal rotation amplitude of the shaking (in degrees).
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3: 🔤 Layer name (String)
 
@@ -154,7 +155,7 @@ Compare the spinning amplitude of the shaking (in degrees).
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3: 🔤 Layer name (String)
 
@@ -167,13 +168,14 @@ Compare the vertical rotation amplitude of the shaking (in degrees).
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3: 🔤 Layer name (String)
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `CameraShake3D::VerticalAmplitudeAngle`.
+
 
 ## Expressions
 
@@ -189,4 +191,4 @@ Compare the vertical rotation amplitude of the shaking (in degrees).
 
 ---
 
-*This page is an auto-generated reference page about the **3D camera shake** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **3D camera shake** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

@@ -29,11 +29,12 @@ Cancel last drag.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Duration in seconds
-    - Parameter 3 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 3 (stringwithselector): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `CancellableDraggable::CancellableDraggable::CancelLastDraggingS`.
+
 
 ### Behavior conditions
 
@@ -49,10 +50,11 @@ Dragging is cancelled, the object is returning to its original position.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `CancellableDraggable::CancellableDraggable::DraggingIsCancelled`.
 
+
 _No expressions for this behavior._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **Cancellable draggable object** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Cancellable draggable object** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

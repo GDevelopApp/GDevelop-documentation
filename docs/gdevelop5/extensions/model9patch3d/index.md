@@ -23,6 +23,21 @@
 
 A 3D model with corners that don't stretch and sides that can be tiled. 
 
+### Object properties
+
+- **Patch size** (🔢 Number, Distance). Default value is `100`.
+- **Tiled on X** (🔘 Boolean).
+- **Tiled on Y** (🔘 Boolean).
+- **Tiled on Z** (🔘 Boolean).
+
+??? quote "See internal technical details"
+
+
+    - **Patch size** is stored as `Size` (Number). Unit is Pixel. Default value is `100`.
+    - **Tiled on X** is stored as `IsTiledOnX` (Boolean). Default value is ``.
+    - **Tiled on Y** is stored as `IsTiledOnY` (Boolean). Default value is ``.
+    - **Tiled on Z** is stored as `IsTiledOnZ` (Boolean). Default value is ``.
+
 _No expressions for this object._
 
 
@@ -30,10 +45,23 @@ _No expressions for this object._
 
 A 3D model with corners that don't stretch and sides that can be tiled. 
 
+### Object properties
+
+- **Patch size** (🔢 Number, Distance). Default value is `100`.
+- **Tiled on X** (🔘 Boolean).
+- **Tiled on Y** (🔘 Boolean).
+
+??? quote "See internal technical details"
+
+
+    - **Patch size** is stored as `Size` (Number). Unit is Pixel. Default value is `100`.
+    - **Tiled on X** is stored as `IsTiledOnX` (Boolean). Default value is ``.
+    - **Tiled on Y** is stored as `IsTiledOnY` (Boolean). Default value is ``.
+
 _No expressions for this object._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **3D model 9-patch** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **3D model 9-patch** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

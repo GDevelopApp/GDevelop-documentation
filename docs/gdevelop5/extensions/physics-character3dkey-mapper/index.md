@@ -18,6 +18,25 @@
 
 Control a 3D physics character with a keyboard for a platformer or a top-down game. 
 
+### Behavior properties
+
+- **Down key** (keyboardkey). Default value is `s`.
+- **Jump key** (keyboardkey). Default value is `Space`.
+- **Left key** (keyboardkey). Default value is `a`.
+- **Right key** (keyboardkey). Default value is `d`.
+- **Up key** (keyboardkey). Default value is `w`.
+
+??? quote "See internal technical details"
+
+
+    - **Down key** is stored as `Down` (KeyboardKey). Default value is `s`.
+    - **Jump key** is stored as `Jump` (KeyboardKey). Default value is `Space`.
+    - **Left key** is stored as `Left` (KeyboardKey). Default value is `a`.
+    > This behavior must be used on an object also having a behavior with type "Physics3D::PhysicsCharacter3D". This is stored on property `PhysicsCharacter3D`.
+
+    - **Right key** is stored as `Right` (KeyboardKey). Default value is `d`.
+    - **Up key** is stored as `Up` (KeyboardKey). Default value is `w`.
+
 _No expressions for this behavior._
 
 
@@ -25,10 +44,29 @@ _No expressions for this behavior._
 
 Control a 3D physics character with a keyboard for a first or third person shooter. 
 
+### Behavior properties
+
+- **Down key** (keyboardkey). Default value is `s`.
+- **Jump key** (keyboardkey). Default value is `Space`.
+- **Left key** (keyboardkey). Default value is `a`.
+- **Right key** (keyboardkey). Default value is `d`.
+- **Up key** (keyboardkey). Default value is `w`.
+
+??? quote "See internal technical details"
+
+
+    - **Down key** is stored as `Down` (KeyboardKey). Default value is `s`.
+    - **Jump key** is stored as `Jump` (KeyboardKey). Default value is `Space`.
+    - **Left key** is stored as `Left` (KeyboardKey). Default value is `a`.
+    > This behavior must be used on an object also having a behavior with type "Physics3D::PhysicsCharacter3D". This is stored on property `PhysicsCharacter3D`.
+
+    - **Right key** is stored as `Right` (KeyboardKey). Default value is `d`.
+    - **Up key** is stored as `Up` (KeyboardKey). Default value is `w`.
+
 _No expressions for this behavior._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **3D character keyboard mapper** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **3D character keyboard mapper** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

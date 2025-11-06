@@ -34,12 +34,30 @@ Add clocks to your game with ease including
 
 Modify a text object to display the date. 
 
+### Behavior properties
+
+- **Display date in the format of:** (choice, one of: "Words", "Numbers").
+
+??? quote "See internal technical details"
+
+
+    - **Display date in the format of:** is stored as `Property` (Choice). Default value is ``.
+
 _No expressions for this behavior._
 
 
 ## Time 
 
 Modify a text object to display the time. 
+
+### Behavior properties
+
+- **Display time in the format of:** (choice, one of: "12 - Hour", "24 - Hour").
+
+??? quote "See internal technical details"
+
+
+    - **Display time in the format of:** is stored as `Property` (Choice). Default value is ``.
 
 _No expressions for this behavior._
 
@@ -54,4 +72,4 @@ _No expressions for this behavior._
 
 ---
 
-*This page is an auto-generated reference page about the **Clock** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Clock** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

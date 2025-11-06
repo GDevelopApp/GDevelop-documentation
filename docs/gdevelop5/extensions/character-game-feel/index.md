@@ -54,6 +54,41 @@ Add game feel behavior to your platformer character object to get the animations
 
 For platformer character. 
 
+### Behavior properties
+
+- **Idle animation** (🔘 Boolean). Apply breath animation on the object. Default value is `true`.
+- **Scale strength** (🔢 Number). Default value is `0.1`.
+- **Scaling speed** (🔢 Number, Duration). Default value is `500`.
+- **Jump animation** (🔘 Boolean). Apply squash and stretch animation on the object. Default value is `true`.
+- **Scale strength** (🔢 Number). Default value is `0.2`.
+- **Scaling speed** (🔢 Number). Default value is `200`.
+- **Fall animation** (🔘 Boolean). Apply stretch animation on the object. Default value is `true`.
+- **Scale strength** (🔢 Number). Default value is `0.3`.
+- **Scaling speed** (🔢 Number). Default value is `200`.
+- **Land animation** (🔘 Boolean). Apply squash animation on the object. Default value is `true`.
+- **Scale strength** (🔢 Number). Default value is `0.6`.
+- **Scaling speed** (🔢 Number). Default value is `100`.
+
+??? quote "See internal technical details"
+
+
+    - **Idle animation** is stored as `AIdleCheck` (Boolean). Default value is `true`.
+    - **Scale strength** is stored as `BIdleScale` (Number). Default value is `0.1`.
+    - **Scaling speed** is stored as `CIdleScalingSpeed` (Number). Unit is Second. Default value is `500`.
+    > This behavior must be used on an object also having a behavior with type "PlatformBehavior::PlatformerObjectBehavior". This is stored on property `DPlatformerCharacterBehavior`.
+
+    > This behavior must be used on an object also having a behavior with type "Tween::TweenBehavior". This is stored on property `ETweenBehavior`.
+
+    - **Jump animation** is stored as `FJumpCheck` (Boolean). Default value is `true`.
+    - **Scale strength** is stored as `GJumpScale` (Number). Default value is `0.2`.
+    - **Scaling speed** is stored as `HJumpScalingSpeed` (Number). Default value is `200`.
+    - **Fall animation** is stored as `IallCheck` (Boolean). Default value is `true`.
+    - **Scale strength** is stored as `JFallScale` (Number). Default value is `0.3`.
+    - **Scaling speed** is stored as `KFallScalingSpeed` (Number). Default value is `200`.
+    - **Land animation** is stored as `LandCheck` (Boolean). Default value is `true`.
+    - **Scale strength** is stored as `MLandScale` (Number). Default value is `0.6`.
+    - **Scaling speed** is stored as `NLandScalingSpeed` (Number). Default value is `100`.
+
 ### Behavior actions
 
 **Disable animation**  
@@ -63,7 +98,7 @@ Disable game feel animation.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (🔤 String): Animation (one of: "Idle", "Jump", "Fall", "Land")
+    - Parameter 2 (stringwithselector): Animation (one of: "Idle", "Jump", "Fall", "Land")
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -76,11 +111,12 @@ Enable game feel animation.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (🔤 String): Animation (one of: "Idle", "Jump", "Fall", "Land")
+    - Parameter 2 (stringwithselector): Animation (one of: "Idle", "Jump", "Fall", "Land")
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `CharacterGameFeel::CharacterGameFeel::EnableAnimation`.
+
 
 ### Behavior conditions
 
@@ -92,11 +128,12 @@ Check if the object game feel animation is playing.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🧩 Behavior): Tween behavior
-    - Parameter 3 (🔤 String): Animation (one of: "Idle", "Jump", "Fall", "Land")
+    - Parameter 3 (stringwithselector): Animation (one of: "Idle", "Jump", "Fall", "Land")
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `CharacterGameFeel::CharacterGameFeel::AnimationIsPlaying`.
+
 
 _No expressions for this behavior._
 
@@ -104,4 +141,4 @@ _No expressions for this behavior._
 
 ---
 
-*This page is an auto-generated reference page about the **Character game feel** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Character game feel** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

@@ -29,6 +29,7 @@ Share a link or text via another app using the system share dialog.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Share::Share`.
 
+
 ## Conditions
 
 **Sharing is supported**  
@@ -47,12 +48,13 @@ Compare the result of the last share dialog.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
-    - Parameter 2 (🔤 String): Value to compare (one of: "unsupported", "ok", "canceled")
+    - Parameter 1: relationaloperator
+    - Parameter 2 (stringwithselector): Value to compare (one of: "unsupported", "ok", "canceled")
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Share::LastShareResult`.
+
 
 ## Expressions
 
@@ -63,4 +65,4 @@ Compare the result of the last share dialog.
 
 ---
 
-*This page is an auto-generated reference page about the **Share dialog and sharing options** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Share dialog and sharing options** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

@@ -48,6 +48,7 @@ Change a channel volume based on distance between 2 objects.
 
 
 
+
 ---
 
-*This page is an auto-generated reference page about the **Sound volume based on distance** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Sound volume based on distance** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

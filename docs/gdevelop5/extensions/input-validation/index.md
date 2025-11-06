@@ -69,6 +69,7 @@ Check if the string is a valid URL.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `InputValidation::IsValidUrl`.
 
+
 ## Expressions
 
 | Expression | Description |  |
@@ -85,4 +86,4 @@ Check if the string is a valid URL.
 
 ---
 
-*This page is an auto-generated reference page about the **Input Validation** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Input Validation** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

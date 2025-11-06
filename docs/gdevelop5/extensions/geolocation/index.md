@@ -42,6 +42,7 @@ Detects when the player's device is moved and get its new location. If the permi
 
     > Technical note: this action internal type (in GDevelop JSON) is `Geolocation::WatchPlayer`.
 
+
 ## Expressions
 
 | Expression | Description |  |
@@ -51,4 +52,4 @@ Detects when the player's device is moved and get its new location. If the permi
 
 ---
 
-*This page is an auto-generated reference page about the **GPS** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **GPS** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

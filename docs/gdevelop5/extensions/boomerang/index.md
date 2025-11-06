@@ -28,6 +28,19 @@ Tips:
 
 Throw an object that returns to the thrower like a boomerang. 
 
+### Behavior properties
+
+- **Time before changing directions (seconds)** (🔢 Number). Default value is `1`.
+- **Rotation (degrees per second)** (🔢 Number). Default value is `360`.
+- **Throw speed (pixels per second)** (🔢 Number). Default value is `100`.
+
+??? quote "See internal technical details"
+
+
+    - **Time before changing directions (seconds)** is stored as `ReturnTime` (Number). Default value is `1`.
+    - **Rotation (degrees per second)** is stored as `Rotation` (Number). Default value is `360`.
+    - **Throw speed (pixels per second)** is stored as `ThrowSpeed` (Number). Default value is `100`.
+
 ### Behavior actions
 
 **Send boomerang back to thrower**  
@@ -101,6 +114,7 @@ Track position of boomerang thrower.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Boomerang::Boomerang::TrackingThrower`.
 
+
 ### Behavior conditions
 
 **Boomerang is returning to thrower**  
@@ -115,10 +129,11 @@ Boomerang is returning to thrower.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Boomerang::Boomerang::IsBoomerangReturning`.
 
+
 _No expressions for this behavior._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **Boomerang** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Boomerang** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

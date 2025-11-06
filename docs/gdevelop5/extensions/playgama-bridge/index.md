@@ -323,7 +323,7 @@ Send Message.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (🔤 String): Message (one of: "GAME_READY", "IN_GAME_LOADING_STARTED", "IN_GAME_LOADING_STOPPED", "GAMEPLAY_STARTED", "GAMEPLAY_STOPPED", "PLAYER_GOT_ACHIEVEMENT")
+    - Parameter 1 (stringwithselector): Message (one of: "GAME_READY", "IN_GAME_LOADING_STARTED", "IN_GAME_LOADING_STOPPED", "GAMEPLAY_STARTED", "GAMEPLAY_STOPPED", "PLAYER_GOT_ACHIEVEMENT")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -345,7 +345,7 @@ Send Storage Data Delete Request.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (🔤 String): Storage Type (one of: "default", "local_storage", "platform_internal")
+    - Parameter 1 (stringwithselector): Storage Type (one of: "default", "local_storage", "platform_internal")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -356,7 +356,7 @@ Send Storage Data Get Request.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (🔤 String): Storage Type (one of: "default", "local_storage", "platform_internal")
+    - Parameter 1 (stringwithselector): Storage Type (one of: "default", "local_storage", "platform_internal")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -367,7 +367,7 @@ Send Storage Data Set Request.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (🔤 String): Storage Type (one of: "default", "local_storage", "platform_internal")
+    - Parameter 1 (stringwithselector): Storage Type (one of: "default", "local_storage", "platform_internal")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -400,7 +400,7 @@ Show Banner.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (🔤 String): Position (one of: "bottom", "top")
+    - Parameter 1 (stringwithselector): Position (one of: "bottom", "top")
     - Parameter 2 (string): Placement (optional)
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -428,6 +428,7 @@ Show Rewarded.
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::ShowRewarded`.
+
 
 ## Conditions
 
@@ -766,7 +767,7 @@ Is Storage Available.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (🔤 String): Storage Type (one of: "platform_internal", "local_storage")
+    - Parameter 1 (stringwithselector): Storage Type (one of: "platform_internal", "local_storage")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -777,7 +778,7 @@ Is Storage Supported.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (🔤 String): Storage Type (one of: "platform_internal", "local_storage")
+    - Parameter 1 (stringwithselector): Storage Type (one of: "platform_internal", "local_storage")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -1366,6 +1367,7 @@ Platform On Pause State Changed.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::PlatformOnPauseStateChanged`.
 
+
 ## Expressions
 
 | Expression | Description |  |
@@ -1454,4 +1456,4 @@ Platform On Pause State Changed.
 
 ---
 
-*This page is an auto-generated reference page about the **Playgama Bridge** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Playgama Bridge** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

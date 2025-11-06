@@ -29,6 +29,49 @@ Toggle switch can always be changed by an action.
 
 Use a shape-painter object to draw a toggle switch that users can click or touch. 
 
+### Behavior properties
+
+- **Active thumb color string. Example:  24;119;211** (string). Default value is `24;119;211`.
+- **Color string for the track that is LEFT of the thumb. Example:  24;119;211 (Leave blank to use thumb color)** (string).
+- **Opacity of the track that is LEFT of the thumb.  Example: 128** (🔢 Number). Default value is `128`.
+- **Checked** (🔘 Boolean). Default value is `false`.
+- **Disabled** (🔘 Boolean). Default value is `false`.
+- **Opacity of halo when the mouse hovers on the thumb. Example: 32** (🔢 Number). Default value is `32`.
+- **Opacity of the halo that appears when the toggle switch is pressed. Example: 64** (🔢 Number). Default value is `64`.
+- **Size of halo when the mouse hovers and clicks on the thumb. Example: 24** (🔢 Number). Default value is `24`.
+- **Inactive thumb color string. Example:  255;255;255** (string). Default value is `255;255;255`.
+- **Color string for the track that is RIGHT of the thumb. Example:  150;150;150  (Leave blank to use thumb color)** (string). Default value is `150;150;150`.
+- **Opacity of the track that is RIGHT of the thumb.  Example: 255** (🔢 Number). Default value is `255`.
+- **Opacity of the thumb. Example: 255** (🔢 Number). Default value is `255`.
+- **Radius of the thumb (px) Example: 10** (🔢 Number). Default value is `10`.
+- **Offset (X) of shadow on thumb.  Positive numbers move shadow right, negative numbers move shadow left. Example: 0** (🔢 Number). Default value is `0`.
+- **Offset (Y) of shadow on thumb.  Positive numbers move shadow down, negative numbers move shadow up. Example: 4** (🔢 Number). Default value is `4`.
+- **Opacity of shadow on thumb. Example: 32** (🔢 Number). Default value is `32`.
+- **Height of the track (pixels) Example: 14** (🔢 Number). Default value is `14`.
+- **Width of the track (pixels) Example: 20** (🔢 Number). Default value is `20`.
+
+??? quote "See internal technical details"
+
+
+    - **Active thumb color string. Example:  24;119;211** is stored as `ActiveThumbColor` (String). Default value is `24;119;211`.
+    - **Color string for the track that is LEFT of the thumb. Example:  24;119;211 (Leave blank to use thumb color)** is stored as `ActiveTrackColor` (String). Default value is ``.
+    - **Opacity of the track that is LEFT of the thumb.  Example: 128** is stored as `ActiveTrackOpacity` (Number). Default value is `128`.
+    - **Checked** is stored as `Checked` (Boolean). Default value is `false`.
+    - **Disabled** is stored as `Disabled` (Boolean). Default value is `false`.
+    - **Opacity of halo when the mouse hovers on the thumb. Example: 32** is stored as `HaloOpacityHover` (Number). Default value is `32`.
+    - **Opacity of the halo that appears when the toggle switch is pressed. Example: 64** is stored as `HaloOpacityPressed` (Number). Default value is `64`.
+    - **Size of halo when the mouse hovers and clicks on the thumb. Example: 24** is stored as `HaloRadius` (Number). Default value is `24`.
+    - **Inactive thumb color string. Example:  255;255;255** is stored as `InactiveThumbColor` (String). Default value is `255;255;255`.
+    - **Color string for the track that is RIGHT of the thumb. Example:  150;150;150  (Leave blank to use thumb color)** is stored as `InactiveTrackColor` (String). Default value is `150;150;150`.
+    - **Opacity of the track that is RIGHT of the thumb.  Example: 255** is stored as `InactiveTrackOpacity` (Number). Default value is `255`.
+    - **Opacity of the thumb. Example: 255** is stored as `ThumbOpacity` (Number). Default value is `255`.
+    - **Radius of the thumb (px) Example: 10** is stored as `ThumbRadius` (Number). Default value is `10`.
+    - **Offset (X) of shadow on thumb.  Positive numbers move shadow right, negative numbers move shadow left. Example: 0** is stored as `ThumbShadowOffsetX` (Number). Default value is `0`.
+    - **Offset (Y) of shadow on thumb.  Positive numbers move shadow down, negative numbers move shadow up. Example: 4** is stored as `ThumbShadowOffsetY` (Number). Default value is `4`.
+    - **Opacity of shadow on thumb. Example: 32** is stored as `ThumbShadowOpacity` (Number). Default value is `32`.
+    - **Height of the track (pixels) Example: 14** is stored as `TrackHeight` (Number). Default value is `14`.
+    - **Width of the track (pixels) Example: 20** is stored as `TrackWidth` (Number). Default value is `20`.
+
 ### Behavior actions
 
 **Thumb color (when checked)**  
@@ -38,7 +81,7 @@ Change the thumb color (when checked).
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (color): Thumb color
+    - Parameter 2 (🎨 Color): Thumb color
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -51,7 +94,7 @@ Change the active track color (the part on the thumb left).
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (color): Color of active track
+    - Parameter 2 (🎨 Color): Color of active track
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -142,7 +185,7 @@ Change the thumb color (when unchecked).
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (color): Thumb color
+    - Parameter 2 (🎨 Color): Thumb color
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -155,7 +198,7 @@ Change the inactive track color (the part on the thumb right).
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (color): Color of inactive track
+    - Parameter 2 (🎨 Color): Color of inactive track
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -277,6 +320,7 @@ If checked, change to unchecked. If unchecked, change to checked.
 
     > Technical note: this action internal type (in GDevelop JSON) is `ToggleSwitch::ToggleSwitch::ToggleChecked`.
 
+
 ### Behavior conditions
 
 **Is checked**  
@@ -315,6 +359,7 @@ Check if mouse is hovering over toggle switch.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `ToggleSwitch::ToggleSwitch::IsHoveredOver`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -338,4 +383,4 @@ Check if mouse is hovering over toggle switch.
 
 ---
 
-*This page is an auto-generated reference page about the **Toggle switch (for Shape Painter)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Toggle switch (for Shape Painter)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

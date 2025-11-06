@@ -20,6 +20,15 @@ There are ready-to-use counters in the asset-store [score counters pack](https:/
 
 An animated score counter with an icon and a customisable font. 
 
+### Object properties
+
+- **Score** (🔢 Number, Dimensionless). Default score. Default value is `0`.
+
+??? quote "See internal technical details"
+
+
+    - **Score** is stored as `Score` (Number). Unit is Dimensionless. Default value is `0`.
+
 ### Object actions
 
 **Score**  
@@ -35,6 +44,7 @@ Change the score of the object.
 
     > Technical note: this action internal type (in GDevelop JSON) is `ScoreCounter::ScoreCounter::SetScore`.
 
+
 ### Object conditions
 
 **Score**  
@@ -43,12 +53,13 @@ Compare the score of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `ScoreCounter::ScoreCounter::Score`.
+
 
 ### Object expressions
 
@@ -59,4 +70,4 @@ Compare the score of the object.
 
 ---
 
-*This page is an auto-generated reference page about the **Animated Score Counter** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Animated Score Counter** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

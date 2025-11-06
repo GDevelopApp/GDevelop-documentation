@@ -19,6 +19,25 @@ It may be used with the **Bullet** extension to fire objects.
 
 A turret movement with customizable speed, acceleration and stop angles. 
 
+### Behavior properties
+
+- **Acceleration** (🔢 Number, Acceleration). Default value is `1440`.
+- **Maximum angle (use the same value for min and max to set no constraint)** (🔢 Number, Angle). Default value is `0`.
+- **Minimum angle (use the same value for min and max to set no constraint)** (🔢 Number, Angle). Default value is `0`.
+- **Deceleration** (🔢 Number, Acceleration). Default value is `36000`.
+- **Rotate the object** (🔘 Boolean). Default value is `true`.
+- **Maximum rotation speed (in degrees per second)** (🔢 Number, Speed). Default value is `360`.
+
+??? quote "See internal technical details"
+
+
+    - **Acceleration** is stored as `Acceleration` (Number). Unit is PixelAcceleration. Default value is `1440`.
+    - **Maximum angle (use the same value for min and max to set no constraint)** is stored as `AngleMax` (Number). Unit is DegreeAngle. Default value is `0`.
+    - **Minimum angle (use the same value for min and max to set no constraint)** is stored as `AngleMin` (Number). Unit is DegreeAngle. Default value is `0`.
+    - **Deceleration** is stored as `Deceleration` (Number). Unit is PixelAcceleration. Default value is `36000`.
+    - **Rotate the object** is stored as `Rotate` (Boolean). Default value is `true`.
+    - **Maximum rotation speed (in degrees per second)** is stored as `SpeedMax` (Number). Unit is PixelSpeed. Default value is `360`.
+
 ### Behavior actions
 
 **Move clockwise**  
@@ -87,6 +106,7 @@ Set angle toward a position.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Turret::Turret::SetAimingAngleToward`.
 
+
 ### Behavior conditions
 
 **Is moving**  
@@ -101,6 +121,7 @@ Check if the turret is moving.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Turret::Turret::IsMoving`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -110,4 +131,4 @@ Check if the turret is moving.
 
 ---
 
-*This page is an auto-generated reference page about the **Turret 2D movement** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Turret 2D movement** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

@@ -31,6 +31,7 @@ Loads the latest game version from liluo. This is already called at the beginnig
 
     > Technical note: this action internal type (in GDevelop JSON) is `UpdateChecker::RecheckForUpdates`.
 
+
 ## Conditions
 
 **Update is available**  
@@ -58,6 +59,7 @@ Checks if the fetching of the latest version from liluo succeeded.
 
 
 
+
 ---
 
-*This page is an auto-generated reference page about the **Update checker** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Update checker** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

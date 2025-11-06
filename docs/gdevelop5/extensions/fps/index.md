@@ -27,10 +27,23 @@ Note: Use the Performance Profiler (inside in the Debugger) for detailed perform
 
 Makes a text object display the current FPS. 
 
+### Behavior properties
+
+- **Number of decimal digits** (🔢 Number, Dimensionless). Default value is `0`.
+- **FPS counter prefix** (string). Default value is `FPS: `.
+
+??? quote "See internal technical details"
+
+
+    - **Number of decimal digits** is stored as `DecimalDigits` (Number). Unit is Dimensionless. Default value is `0`.
+    > This behavior must be used on an object also having a behavior with type "TextContainerCapability::TextContainerBehavior". This is stored on property `Text`.
+
+    - **FPS counter prefix** is stored as `prefix` (String). Default value is `FPS: `.
+
 _No expressions for this behavior._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **Frames per second (FPS)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Frames per second (FPS)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

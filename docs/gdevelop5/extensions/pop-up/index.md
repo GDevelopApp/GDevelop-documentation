@@ -63,6 +63,7 @@ Displays a prompt in a pop-up that prompts the user for input. This action retur
 
     > Technical note: this action internal type (in GDevelop JSON) is `PopUp::Prompt`.
 
+
 ## Conditions
 
 **Pop-up message confirmed**  
@@ -87,6 +88,7 @@ The response to a pop-up message is filled.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PopUp::PromptValidResponse`.
 
+
 ## Expressions
 
 | Expression | Description |  |
@@ -96,4 +98,4 @@ The response to a pop-up message is filled.
 
 ---
 
-*This page is an auto-generated reference page about the **Pop-up** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Pop-up** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

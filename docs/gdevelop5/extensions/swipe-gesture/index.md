@@ -69,6 +69,7 @@ Change the Layer used to detect swipe gestures.
 
     > Technical note: this action internal type (in GDevelop JSON) is `SwipeGesture::SetLayer`.
 
+
 ## Conditions
 
 **Swipe angle (degrees)**  
@@ -76,7 +77,7 @@ Compare Swipe angle (degrees).
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -88,7 +89,7 @@ Compare Swipe distance (pixels).
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -100,7 +101,7 @@ Compare Swipe distance in horizontal direction (pixels).
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -112,7 +113,7 @@ Compare Swipe distance in vertical direction (pixels).
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -124,7 +125,7 @@ Compare Swipe duration (seconds).
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -136,7 +137,7 @@ Compare End point of the swipe X position.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -148,7 +149,7 @@ Compare End point of the swipe Y position.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -193,7 +194,7 @@ Compare the Layer used to detect swipe gestures.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔤 Layer name (String)): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -205,7 +206,7 @@ Compare Start point of the swipe X position.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -217,7 +218,7 @@ Compare Start point of the swipe Y position.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -229,7 +230,7 @@ Check if swipe moved in a given direction.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (🔤 String): Direction (one of: "Up", "Down", "Left", "Right")
+    - Parameter 1 (stringwithselector): Direction (one of: "Up", "Down", "Left", "Right")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -240,11 +241,12 @@ Check if swipe moved in a given direction.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (🔤 String): Direction (one of: "Up", "Down", "Left", "Right", "UpLeft", "UpRight", "DownLeft", "DownRight")
+    - Parameter 1 (stringwithselector): Direction (one of: "Up", "Down", "Left", "Right", "UpLeft", "UpRight", "DownLeft", "DownRight")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `SwipeGesture::SwipeDirection_8way`.
+
 
 ## Expressions
 
@@ -264,4 +266,4 @@ Check if swipe moved in a given direction.
 
 ---
 
-*This page is an auto-generated reference page about the **Swipe Gesture** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Swipe Gesture** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

@@ -23,6 +23,27 @@ It can be used for board games.
 
 Move objects by jumping on a grid like a frog. 
 
+### Behavior properties
+
+- **Grid cell size** (🔢 Number, Distance). Default value is `100`.
+- **Downward jump duration** (🔢 Number, Duration). Default value is `0.08`.
+- **Jump height** (🔢 Number, Distance). Default value is `70`.
+- **Upward jump duration** (🔢 Number, Duration). Default value is `0.12`.
+- **Rotate duration** (🔢 Number, Duration). Default value is `0.1`.
+
+??? quote "See internal technical details"
+
+
+    - **Grid cell size** is stored as `GridСellSize` (Number). Unit is Pixel. Default value is `100`.
+    - **Downward jump duration** is stored as `JumpDownDuration` (Number). Unit is Second. Default value is `0.08`.
+    - **Jump height** is stored as `JumpHeight` (Number). Unit is Pixel. Default value is `70`.
+    - **Upward jump duration** is stored as `JumpUpDuration` (Number). Unit is Second. Default value is `0.12`.
+    > This behavior must be used on an object also having a behavior with type "Scene3D::Base3DBehavior". This is stored on property `Object3D`.
+
+    - **Rotate duration** is stored as `RotateDuration` (Number). Unit is Second. Default value is `0.1`.
+    > This behavior must be used on an object also having a behavior with type "Tween::TweenBehavior". This is stored on property `TweenBehavior`.
+
+
 ### Behavior actions
 
 **Simulate jump key press at angle**  
@@ -51,10 +72,11 @@ Rotate the object in a direction.
 
     > Technical note: this action internal type (in GDevelop JSON) is `GridJump3D::GridJump3D::Rotate`.
 
+
 _No expressions for this behavior._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **3D grid jump** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **3D grid jump** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

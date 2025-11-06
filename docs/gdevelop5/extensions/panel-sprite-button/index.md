@@ -22,6 +22,19 @@ There are ready-to-use buttons in the asset-store [menu buttons pack](https://ed
 
 A button that can be customized. 
 
+### Object properties
+
+- **Label** (🔤 Multiline text (String)).
+- **Hovered fade out duration** (🔢 Number, Duration). Default value is `0.25`.
+- **Label offset on Y axis when pressed** (🔢 Number, Distance). Default value is `0`.
+
+??? quote "See internal technical details"
+
+
+    - **Label** is stored as `LabelText` (MultilineString). Default value is ``.
+    - **Hovered fade out duration** is stored as `HoveredFadeOutDuration` (Number). Unit is Second. Default value is `0.25`.
+    - **Label offset on Y axis when pressed** is stored as `PressedLabelOffsetY` (Number). Unit is Pixel. Default value is `0`.
+
 ### Object actions
 
 **De/activate interactions**  
@@ -48,6 +61,7 @@ Change the label text.
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PanelSpriteButton::PanelSpriteButton::SetLabelTextOp`.
+
 
 ### Object conditions
 
@@ -123,12 +137,13 @@ Compare the label text.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (string): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PanelSpriteButton::PanelSpriteButton::LabelText`.
+
 
 ### Object expressions
 
@@ -139,4 +154,4 @@ Compare the label text.
 
 ---
 
-*This page is an auto-generated reference page about the **Panel sprite button** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Panel sprite button** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

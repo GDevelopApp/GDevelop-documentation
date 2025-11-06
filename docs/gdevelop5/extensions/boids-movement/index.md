@@ -22,6 +22,33 @@ The [Fish School example](https://editor.gdevelop.io/?project=example://fish-sch
 
 Move as part of a flock. 
 
+### Behavior properties
+
+- **Alignement sight radius** (🔢 Number, Distance). Default value is `48`.
+- **Alignment decision weight** (🔢 Number, Dimensionless). Default value is `1`.
+- **Cohesion sight radius** (🔢 Number, Distance). Default value is `64`.
+- **Cohesion decision weight** (🔢 Number, Dimensionless). Default value is `1`.
+- **Collision layer** (🔢 Number, Dimensionless). Default value is `0`.
+- **Maximum acceleration** (🔢 Number, Acceleration). Default value is `720`.
+- **Maximum speed** (🔢 Number, Speed). Default value is `360`.
+- **Separation sight radius** (🔢 Number, Distance). Default value is `32`.
+- **Separation decision weight** (🔢 Number, Dimensionless). Default value is `2`.
+- **Rotate object** (🔘 Boolean). Default value is `true`.
+
+??? quote "See internal technical details"
+
+
+    - **Alignement sight radius** is stored as `AlignmentRadius` (Number). Unit is Pixel. Default value is `48`.
+    - **Alignment decision weight** is stored as `AlignmentWeight` (Number). Unit is Dimensionless. Default value is `1`.
+    - **Cohesion sight radius** is stored as `CohesionRadius` (Number). Unit is Pixel. Default value is `64`.
+    - **Cohesion decision weight** is stored as `CohesionWeight` (Number). Unit is Dimensionless. Default value is `1`.
+    - **Collision layer** is stored as `CollisionLayer` (Number). Unit is Dimensionless. Default value is `0`.
+    - **Maximum acceleration** is stored as `MaxAcceleration` (Number). Unit is PixelAcceleration. Default value is `720`.
+    - **Maximum speed** is stored as `MaxSpeed` (Number). Unit is PixelSpeed. Default value is `360`.
+    - **Separation sight radius** is stored as `SeparationRadius` (Number). Unit is Pixel. Default value is `32`.
+    - **Separation decision weight** is stored as `SeparationWeight` (Number). Unit is Dimensionless. Default value is `2`.
+    - **Rotate object** is stored as `ShouldRotate` (Boolean). Default value is `true`.
+
 ### Behavior actions
 
 **Avoid an object**  
@@ -203,6 +230,7 @@ Change the weight the separation takes in the chosen direction.
 
     > Technical note: this action internal type (in GDevelop JSON) is `BoidsMovement::BoidsMovement::SetSeparationWeight`.
 
+
 ### Behavior conditions
 
 **Object Rotated**  
@@ -216,6 +244,7 @@ Check if the object is rotated while moving on its path.
     > Technical note: parameter 2 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `BoidsMovement::BoidsMovement::ShouldRotate`.
+
 
 ### Behavior expressions
 
@@ -236,4 +265,4 @@ Check if the object is rotated while moving on its path.
 
 ---
 
-*This page is an auto-generated reference page about the **Boids movement** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Boids movement** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

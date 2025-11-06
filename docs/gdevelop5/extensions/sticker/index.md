@@ -35,9 +35,21 @@ Check if the object is stuck to another object.
 
 
 
+
 ## Sticker 
 
 Stick the object to another. Use the action to stick the object, or unstick it later. 
+
+### Behavior properties
+
+- **Destroy when the object it's stuck on is destroyed** (🔘 Boolean). Default value is `false`.
+- **Only follow the position** (🔘 Boolean). Default value is `false`.
+
+??? quote "See internal technical details"
+
+
+    - **Destroy when the object it's stuck on is destroyed** is stored as `IsDestroyedWithParent` (Boolean). Default value is `false`.
+    - **Only follow the position** is stored as `OnlyFollowPosition` (Boolean). Default value is `false`.
 
 ### Behavior actions
 
@@ -66,10 +78,11 @@ Unstick from the object it was stuck to.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Sticker::Sticker::Unstick`.
 
+
 _No expressions for this behavior._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **Stick objects to others** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Stick objects to others** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

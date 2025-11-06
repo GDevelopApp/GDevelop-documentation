@@ -159,6 +159,7 @@ Modify the text of a scene variable.
 
     > Technical note: this action internal type (in GDevelop JSON) is `ExtendedVariables::ModifySceneVariableString`.
 
+
 ## Conditions
 
 **Global variable exists**  
@@ -195,6 +196,7 @@ Check if the scene variable exists.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `ExtendedVariables::SceneVariableExist`.
 
+
 ## Expressions
 
 | Expression | Description |  |
@@ -211,4 +213,4 @@ Check if the scene variable exists.
 
 ---
 
-*This page is an auto-generated reference page about the **Extended variables support** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Extended variables support** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

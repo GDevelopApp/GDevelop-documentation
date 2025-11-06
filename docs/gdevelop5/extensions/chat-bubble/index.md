@@ -37,6 +37,15 @@ future support:
 
 Draws a chat bubble into a text object. 
 
+### Behavior properties
+
+- **Name Tag Background Color (if you only call draw with name tag)** (🎨 Color). Default value is `155;155;155`.
+
+??? quote "See internal technical details"
+
+
+    - **Name Tag Background Color (if you only call draw with name tag)** is stored as `NameTagBackgroundColor` (Color). Default value is `155;155;155`.
+
 ### Behavior actions
 
 **Draw a chat bubble**  
@@ -72,10 +81,11 @@ Draw a chat bubble with name tag.
 
     > Technical note: this action internal type (in GDevelop JSON) is `ChatBubble::ChatBubble::DrawChatBubbleWithNameTag`.
 
+
 _No expressions for this behavior._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **ChatBubble** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **ChatBubble** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

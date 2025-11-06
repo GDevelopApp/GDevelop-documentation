@@ -119,7 +119,7 @@ The server also has a say in this via the Cache-Control header.
 ??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Request template name
-    - Parameter 2 (🔤 String): HTTP Caching strategy
+    - Parameter 2 (stringwithselector): HTTP Caching strategy
       Learn more about what each caching strategy does [on the MDN page for cache](https://developer.mozilla.org/en-US/docs/Web/API/Request/cache). (one of: "default", "no-store", "reload", "no-cache", "force-cache", "only-if-cached")
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -146,7 +146,7 @@ The HTTP method of the request. GET is the default and what you should use if yo
 ??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Request template name
-    - Parameter 2 (🔤 String): HTTP Method (one of: "GET", "POST", "PUT", "PATCH", "DELETE", "HEAD", "TRACE", "CONNECT", "OPTIONS")
+    - Parameter 2 (stringwithselector): HTTP Method (one of: "GET", "POST", "PUT", "PATCH", "DELETE", "HEAD", "TRACE", "CONNECT", "OPTIONS")
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -180,6 +180,7 @@ When the CORS Bypass is enabled, the request will be made from a server that is 
 
     > Technical note: this action internal type (in GDevelop JSON) is `AdvancedHTTP::UseCORSBypass`.
 
+
 ## Conditions
 
 **CORS Bypass enabled**  
@@ -198,7 +199,7 @@ Compare the body of the HTTP request. Contains data to send to the server, ususa
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (string): Value to compare
     - Parameter 3 (🔤 Name (String)): Request template name
 
@@ -211,8 +212,8 @@ Compare the HTTP method of the request. GET is the default and what you should u
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
-    - Parameter 2 (🔤 String): Value to compare (one of: "default", "reload", "no-cache", "force-cache", "only-if-cached")
+    - Parameter 1: relationaloperator
+    - Parameter 2 (stringwithselector): Value to compare (one of: "default", "reload", "no-cache", "force-cache", "only-if-cached")
     - Parameter 3 (🔤 Name (String)): Request template name
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
@@ -224,7 +225,7 @@ Compare an HTTP header to be sent with the request.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (string): Value to compare
     - Parameter 3 (🔤 Name (String)): Request template name
     - Parameter 4 (🔤 Name (String)): HTTP header name
@@ -238,8 +239,8 @@ Compare the HTTP method of the request. GET is the default and what you should u
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
-    - Parameter 2 (🔤 String): Value to compare (one of: "GET", "HEAD", "POST", "PUT", "OPTIONS", "CONNECT", "TRACE")
+    - Parameter 1: relationaloperator
+    - Parameter 2 (stringwithselector): Value to compare (one of: "GET", "HEAD", "POST", "PUT", "OPTIONS", "CONNECT", "TRACE")
     - Parameter 3 (🔤 Name (String)): Request template name
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
@@ -251,7 +252,7 @@ Compare the request template's target URL.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔤 Name (String)): Value to compare
     - Parameter 3 (🔤 Name (String)): Request template name
 
@@ -264,7 +265,7 @@ Compare one of the HTTP headers included in the server's response.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (string): Value to compare
     - Parameter 3 (🗄️ Scene variable): Variable containing the response
     - Parameter 4 (🔤 Name (String)): Header
@@ -278,7 +279,7 @@ Compare the status code of the HTTP request (e.g. 200 if succeeded, 404 if not f
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🗄️ Scene variable): Variable containing the response
 
@@ -296,6 +297,7 @@ Checks whether the server marked the response as a success (status code 1XX/2XX)
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `AdvancedHTTP::ResponseSuccess`.
+
 
 ## Expressions
 
@@ -323,4 +325,4 @@ Checks whether the server marked the response as a success (status code 1XX/2XX)
 
 ---
 
-*This page is an auto-generated reference page about the **Advanced HTTP** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Advanced HTTP** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

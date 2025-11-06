@@ -29,6 +29,51 @@ A platformer dedicated behavior allows to switch of settings when the character 
 
 Smoothly scroll to follow an object. 
 
+### Behavior properties
+
+- **Camera delay** (🔢 Number, Duration). Default value is `0`.
+- **Camera offset X** (🔢 Number, Distance). Default value is `0`.
+- **Camera offset Y** (🔢 Number, Distance). Default value is `0`.
+- **Downward catch-up speed (in ratio per second)** (🔢 Number). Default value is `0.9`.
+- **Downward maximum speed** (🔢 Number, Speed). Default value is `9000`.
+- **Follow free area bottom border** (🔢 Number, Distance). Default value is `0`.
+- **Follow free area left border** (🔢 Number, Distance). Default value is `0`.
+- **Follow free area right border** (🔢 Number, Distance). Default value is `0`.
+- **Follow free area top border** (🔢 Number, Distance). Default value is `0`.
+- **Follow on X axis** (🔘 Boolean). Default value is `true`.
+- **Follow on Y axis** (🔘 Boolean). Default value is `true`.
+- **Forecast history duration** (🔢 Number, Duration). Default value is `0`.
+- **Forecast time** (🔢 Number, Duration). Default value is `0`.
+- **Leftward catch-up speed (in ratio per second)** (🔢 Number). Default value is `0.9`.
+- **Leftward maximum speed** (🔢 Number, Speed). Default value is `9000`.
+- **Rightward catch-up speed (in ratio per second)** (🔢 Number). Default value is `0.9`.
+- **Rightward maximum speed** (🔢 Number, Speed). Default value is `9000`.
+- **Upward catch-up speed (in ratio per second)** (🔢 Number). Default value is `0.9`.
+- **Upward maximum speed** (🔢 Number, Speed). Default value is `9000`.
+
+??? quote "See internal technical details"
+
+
+    - **Camera delay** is stored as `CameraDelay` (Number). Unit is Second. Default value is `0`.
+    - **Camera offset X** is stored as `CameraOffsetX` (Number). Unit is Pixel. Default value is `0`.
+    - **Camera offset Y** is stored as `CameraOffsetY` (Number). Unit is Pixel. Default value is `0`.
+    - **Downward catch-up speed (in ratio per second)** is stored as `DownwardSpeed` (Number). Default value is `0.9`.
+    - **Downward maximum speed** is stored as `DownwardSpeedMax` (Number). Unit is PixelSpeed. Default value is `9000`.
+    - **Follow free area bottom border** is stored as `FollowFreeAreaBottom` (Number). Unit is Pixel. Default value is `0`.
+    - **Follow free area left border** is stored as `FollowFreeAreaLeft` (Number). Unit is Pixel. Default value is `0`.
+    - **Follow free area right border** is stored as `FollowFreeAreaRight` (Number). Unit is Pixel. Default value is `0`.
+    - **Follow free area top border** is stored as `FollowFreeAreaTop` (Number). Unit is Pixel. Default value is `0`.
+    - **Follow on X axis** is stored as `FollowOnX` (Boolean). Default value is `true`.
+    - **Follow on Y axis** is stored as `FollowOnY` (Boolean). Default value is `true`.
+    - **Forecast history duration** is stored as `ForecastHistoryDuration` (Number). Unit is Second. Default value is `0`.
+    - **Forecast time** is stored as `ForecastTime` (Number). Unit is Second. Default value is `0`.
+    - **Leftward catch-up speed (in ratio per second)** is stored as `LeftwardSpeed` (Number). Default value is `0.9`.
+    - **Leftward maximum speed** is stored as `LeftwardSpeedMax` (Number). Unit is PixelSpeed. Default value is `9000`.
+    - **Rightward catch-up speed (in ratio per second)** is stored as `RightwardSpeed` (Number). Default value is `0.9`.
+    - **Rightward maximum speed** is stored as `RightwardSpeedMax` (Number). Unit is PixelSpeed. Default value is `9000`.
+    - **Upward catch-up speed (in ratio per second)** is stored as `UpwardSpeed` (Number). Default value is `0.9`.
+    - **Upward maximum speed** is stored as `UpwardSpeedMax` (Number). Unit is PixelSpeed. Default value is `9000`.
+
 ### Behavior actions
 
 **Draw debug**  
@@ -308,6 +353,7 @@ Delay the camera according to a maximum speed and catch up the delay.
 
     > Technical note: this action internal type (in GDevelop JSON) is `SmoothCamera::SmoothCamera::WaitAndCatchUp`.
 
+
 ### Behavior conditions
 
 **Camera offset X**  
@@ -317,7 +363,7 @@ Compare the camera offset on X axis of the object. This is not the current diffe
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -331,12 +377,13 @@ Compare the camera offset on Y axis of the object. This is not the current diffe
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `SmoothCamera::SmoothCamera::OffsetY`.
+
 
 ### Behavior expressions
 
@@ -349,10 +396,45 @@ Compare the camera offset on Y axis of the object. This is not the current diffe
 
 Smoothly scroll to follow a character and stabilize the camera when jumping. 
 
+### Behavior properties
+
+- **Downward speed in the air (in ratio per second)** (🔢 Number). Default value is `0.95`.
+- **Downward maximum speed in the air** (🔢 Number, Speed). Default value is `9000`.
+- **Follow free area bottom in the air** (🔢 Number, Distance). Default value is `0`.
+- **Follow free area top in the air** (🔢 Number, Distance). Default value is `0`.
+- **Upward speed in the air (in ratio per second)** (🔢 Number). Default value is `0.95`.
+- **Upward maximum speed in the air** (🔢 Number, Speed). Default value is `9000`.
+- **Downward speed on the floor (in ratio per second)** (🔢 Number). Default value is `0.9`.
+- **Downward maximum speed on the floor** (🔢 Number, Speed). Default value is `9000`.
+- **Follow free area bottom on the floor** (🔢 Number, Distance). Default value is `0`.
+- **Follow free area top on the floor** (🔢 Number, Distance). Default value is `0`.
+- **Upward speed on the floor (in ratio per second)** (🔢 Number). Default value is `0.9`.
+- **Upward maximum speed on the floor** (🔢 Number, Speed). Default value is `9000`.
+
+??? quote "See internal technical details"
+
+
+    - **Downward speed in the air (in ratio per second)** is stored as `AirDownwardSpeed` (Number). Default value is `0.95`.
+    - **Downward maximum speed in the air** is stored as `AirDownwardSpeedMax` (Number). Unit is PixelSpeed. Default value is `9000`.
+    - **Follow free area bottom in the air** is stored as `AirFollowFreeAreaBottom` (Number). Unit is Pixel. Default value is `0`.
+    - **Follow free area top in the air** is stored as `AirFollowFreeAreaTop` (Number). Unit is Pixel. Default value is `0`.
+    - **Upward speed in the air (in ratio per second)** is stored as `AirUpwardSpeed` (Number). Default value is `0.95`.
+    - **Upward maximum speed in the air** is stored as `AirUpwardSpeedMax` (Number). Unit is PixelSpeed. Default value is `9000`.
+    - **Downward speed on the floor (in ratio per second)** is stored as `FloorDownwardSpeed` (Number). Default value is `0.9`.
+    - **Downward maximum speed on the floor** is stored as `FloorDownwardSpeedMax` (Number). Unit is PixelSpeed. Default value is `9000`.
+    - **Follow free area bottom on the floor** is stored as `FloorFollowFreeAreaBottom` (Number). Unit is Pixel. Default value is `0`.
+    - **Follow free area top on the floor** is stored as `FloorFollowFreeAreaTop` (Number). Unit is Pixel. Default value is `0`.
+    - **Upward speed on the floor (in ratio per second)** is stored as `FloorUpwardSpeed` (Number). Default value is `0.9`.
+    - **Upward maximum speed on the floor** is stored as `FloorUpwardSpeedMax` (Number). Unit is PixelSpeed. Default value is `9000`.
+    > This behavior must be used on an object also having a behavior with type "PlatformBehavior::PlatformerObjectBehavior". This is stored on property `PlatformerCharacter`.
+
+    > This behavior must be used on an object also having a behavior with type "SmoothCamera::SmoothCamera". This is stored on property `SmoothCamera`.
+
+
 _No expressions for this behavior._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **Smooth Camera** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Smooth Camera** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

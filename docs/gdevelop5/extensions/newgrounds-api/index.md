@@ -104,6 +104,7 @@ Unlock a game Medal (you can create medals from the game edit page on newgrounds
 
     > Technical note: this action internal type (in GDevelop JSON) is `NewgroundsAPI::UnlockMedal`.
 
+
 ## Conditions
 
 **User Is logged In?**  
@@ -116,6 +117,7 @@ User Is logged In?.
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `NewgroundsAPI::UserIsLoggedIn`.
+
 
 ## Expressions
 
@@ -130,4 +132,4 @@ User Is logged In?.
 
 ---
 
-*This page is an auto-generated reference page about the **Newgrounds API** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Newgrounds API** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

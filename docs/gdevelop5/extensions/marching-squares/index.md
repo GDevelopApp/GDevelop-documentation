@@ -27,6 +27,31 @@ It can be helpful for:
 
 Add to a Shape painter object and use the actions to draw a field. Useful for fog of wars, liquid effects (water, lava, blobs...). 
 
+### Behavior properties
+
+- **Area bottom bound** (🔢 Number, Distance). Default value is `0`.
+- **Area left bound** (🔢 Number, Distance). Default value is `0`.
+- **Area right bound** (🔢 Number, Distance). Default value is `0`.
+- **Area top bound** (🔢 Number, Distance). Default value is `0`.
+- **Cell height** (🔢 Number, Distance). Default value is `20`.
+- **Cell width** (🔢 Number, Distance). Default value is `20`.
+- **Fill outside** (🔘 Boolean). Default value is `false`.
+- **Must only draw what is on the screen** (🔘 Boolean). Default value is `false`.
+- **Contour threshold** (🔢 Number, Dimensionless). Default value is `1`.
+
+??? quote "See internal technical details"
+
+
+    - **Area bottom bound** is stored as `AreaBottomBound` (Number). Unit is Pixel. Default value is `0`.
+    - **Area left bound** is stored as `AreaLeftBound` (Number). Unit is Pixel. Default value is `0`.
+    - **Area right bound** is stored as `AreaRightBound` (Number). Unit is Pixel. Default value is `0`.
+    - **Area top bound** is stored as `AreaTopBound` (Number). Unit is Pixel. Default value is `0`.
+    - **Cell height** is stored as `CellHeight` (Number). Unit is Pixel. Default value is `20`.
+    - **Cell width** is stored as `CellWidth` (Number). Unit is Pixel. Default value is `20`.
+    - **Fill outside** is stored as `FillOutside` (Boolean). Default value is `false`.
+    - **Must only draw what is on the screen** is stored as `MustOnlyDrawScreen` (Boolean). Default value is `false`.
+    - **Contour threshold** is stored as `Threshold` (Number). Unit is Dimensionless. Default value is `1`.
+
 ### Behavior actions
 
 **Add a disk**  
@@ -42,7 +67,7 @@ Add a disk to the field.
       The spike height is 1 at this radius.
     - Parameter 5 (🔢 Number): Capping radius ratio
       Small values allow quicker process, but can result to tearing. Try values around 8.
-    - Parameter 6 (🔤 String): Operation (one of: "Maximum", "Addition", "Subtraction")
+    - Parameter 6 (stringwithselector): Operation (one of: "Maximum", "Addition", "Subtraction")
 
     > Technical note: parameter 7 is an internal parameter handled by GDevelop.
 
@@ -65,7 +90,7 @@ Add a hill to the field.
       Set to 1 to apply the hill instantly or repeat this action with a lower value to make is progressive.
     - Parameter 7 (🔢 Number): Capping radius ratio
       Small values allow quicker process, but can result to tearing. Try values around 8.
-    - Parameter 8 (🔤 String): Operation (one of: "Maximum", "Addition", "Subtraction")
+    - Parameter 8 (stringwithselector): Operation (one of: "Maximum", "Addition", "Subtraction")
 
     > Technical note: parameter 9 is an internal parameter handled by GDevelop.
 
@@ -85,7 +110,7 @@ Add a line to the field.
     - Parameter 6 (🔢 Number): Thickness
     - Parameter 7 (🔢 Number): Capping radius ratio
       Small values allow quicker process, but can result to tearing. Try values around 8.
-    - Parameter 8 (🔤 String): Operation (one of: "Maximum", "Addition", "Subtraction")
+    - Parameter 8 (stringwithselector): Operation (one of: "Maximum", "Addition", "Subtraction")
 
     > Technical note: parameter 9 is an internal parameter handled by GDevelop.
 
@@ -194,7 +219,7 @@ Apply a given operation on every value of the field using the value from the oth
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (👾 Object): Field object
     - Parameter 3 (🧩 Behavior): Field behavior
-    - Parameter 4 (🔤 String): Operation (one of: "Maximum", "Addition", "Subtraction", "Minimum", "Multiplication", "Division")
+    - Parameter 4 (stringwithselector): Operation (one of: "Maximum", "Addition", "Subtraction", "Minimum", "Multiplication", "Division")
 
     > Technical note: parameter 5 is an internal parameter handled by GDevelop.
 
@@ -327,6 +352,7 @@ Unfill an area of the field from a given location until a given height is reache
 
     > Technical note: this action internal type (in GDevelop JSON) is `MarchingSquares::MarchingSquaresBehavior::UpsidedownFloodFrom`.
 
+
 ### Behavior conditions
 
 **Field value**  
@@ -370,6 +396,7 @@ Check if a point is inside the contour.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `MarchingSquares::MarchingSquaresBehavior::ContainsPoint`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -402,4 +429,4 @@ Check if a point is inside the contour.
 
 ---
 
-*This page is an auto-generated reference page about the **Marching Squares (experimental)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Marching Squares (experimental)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

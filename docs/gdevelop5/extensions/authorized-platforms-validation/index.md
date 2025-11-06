@@ -41,6 +41,7 @@ Adds a new valid platform (domain name where the game is expected to be played, 
 
     > Technical note: this action internal type (in GDevelop JSON) is `AuthorizedPlatformsValidation::AddExecution`.
 
+
 ## Conditions
 
 **Is the game running on an authorized platform**  
@@ -54,6 +55,7 @@ Checks if the game is executed on an authorized platform (preferably, run this o
 
     > Technical note: this condition internal type (in GDevelop JSON) is `AuthorizedPlatformsValidation::CheckExecution`.
 
+
 ## Expressions
 
 | Expression | Description |  |
@@ -63,4 +65,4 @@ Checks if the game is executed on an authorized platform (preferably, run this o
 
 ---
 
-*This page is an auto-generated reference page about the **Platforms Validation** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Platforms Validation** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

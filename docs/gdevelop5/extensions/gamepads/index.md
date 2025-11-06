@@ -78,6 +78,7 @@ Generate a vibration on the specified controller. Might only work if the game is
 
     > Technical note: this action internal type (in GDevelop JSON) is `Gamepads::A_Vibrate_controller`.
 
+
 ## Conditions
 
 **Any gamepad button pressed**  
@@ -97,8 +98,8 @@ Check if a stick of a gamepad is pushed in a given direction.
 ??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): The gamepad identifier: 1, 2, 3 or 4
-    - Parameter 2 (🔤 String): Stick: "Left" or "Right" (one of: "Left", "Right")
-    - Parameter 3 (🔤 String): Direction (one of: "Up", "Down", "Left", "Right", "Any")
+    - Parameter 2 (stringwithselector): Stick: "Left" or "Right" (one of: "Left", "Right")
+    - Parameter 3 (stringwithselector): Direction (one of: "Up", "Down", "Left", "Right", "Any")
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
@@ -114,7 +115,7 @@ Buttons can be:
 ??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): The gamepad identifier: 1, 2, 3 or 4
-    - Parameter 2 (🔤 String): Name of the button (one of: "A", "Cross", "B", "Circle", "X", "Square", "Y", "Triangle", "LB", "L1", "RB", "R1", "LT", "L2", "RT", "R2", "Up", "Down", "Left", "Right", "Back", "Share", "Start", "Options", "Click_Stick_Left", "Click_Stick_Right", "PS_Button", "Click_Touchpad")
+    - Parameter 2 (stringwithselector): Name of the button (one of: "A", "Cross", "B", "Circle", "X", "Square", "Y", "Triangle", "LB", "L1", "RB", "R1", "LT", "L2", "RT", "R2", "Up", "Down", "Left", "Right", "Back", "Share", "Start", "Options", "Click_Stick_Left", "Click_Stick_Right", "PS_Button", "Click_Touchpad")
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -129,7 +130,7 @@ Test if a button is released on a gamepad. Buttons can be:
 ??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): The gamepad identifier: 1, 2, 3 or 4
-    - Parameter 2 (🔤 String): Name of the button (one of: "A", "Cross", "B", "Circle", "X", "Square", "Y", "Triangle", "LB", "L1", "RB", "R1", "LT", "L2", "RT", "R2", "Up", "Down", "Left", "Right", "Back", "Share", "Start", "Options", "Click_Stick_Left", "Click_Stick_Right", "PS_Button", "Click_Touchpad")
+    - Parameter 2 (stringwithselector): Name of the button (one of: "A", "Cross", "B", "Circle", "X", "Square", "Y", "Triangle", "LB", "L1", "RB", "R1", "LT", "L2", "RT", "R2", "Up", "Down", "Left", "Right", "Back", "Share", "Start", "Options", "Click_Stick_Left", "Click_Stick_Right", "PS_Button", "Click_Touchpad")
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -178,7 +179,7 @@ Check if a button was just pressed on a gamepad. Buttons can be:
 ??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): The gamepad identifier: 1, 2, 3 or 4
-    - Parameter 2 (🔤 String): Name of the button (one of: "A", "Cross", "B", "Circle", "X", "Square", "Y", "Triangle", "LB", "L1", "RB", "R1", "LT", "L2", "RT", "R2", "Up", "Down", "Left", "Right", "Back", "Share", "Start", "Options", "Click_Stick_Left", "Click_Stick_Right", "PS_Button", "Click_Touchpad")
+    - Parameter 2 (stringwithselector): Name of the button (one of: "A", "Cross", "B", "Circle", "X", "Square", "Y", "Triangle", "LB", "L1", "RB", "R1", "LT", "L2", "RT", "R2", "Up", "Down", "Left", "Right", "Back", "Share", "Start", "Options", "Click_Stick_Left", "Click_Stick_Right", "PS_Button", "Click_Touchpad")
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -189,14 +190,15 @@ Compare the force of gamepad stick (from 0 to 1).
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔢 Number): The gamepad identifier: 1, 2, 3 or 4
-    - Parameter 4 (🔤 String): Stick: "Left" or "Right" (one of: "Left", "Right")
+    - Parameter 4 (stringwithselector): Stick: "Left" or "Right" (one of: "Left", "Right")
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Gamepads::StickForce`.
+
 
 ## Expressions
 
@@ -212,30 +214,61 @@ Compare the force of gamepad stick (from 0 to 1).
 | | _🔢 Number_ | The gamepad identifier: 1, 2, 3 or 4 |
 | `Gamepads::LastButtonString(number, string)` | Return the last button pressed. Buttons for Xbox and PS4 can be:* Xbox: "A", "B", "X", "Y", "LB", "RB", "LT", "RT", "BACK", "START",* PS4: "CROSS", "SQUARE", "CIRCLE", "TRIANGLE", "L1", "L2", "R1", "R2", "SHARE", "OPTIONS", "PS_BUTTON", "CLICK_TOUCHPAD",* Both: "UP", "DOWN", "LEFT", "RIGHT", "CLICK_STICK_LEFT", "CLICK_STICK_RIGHT". ||
 | | _🔢 Number_ | The gamepad identifier: 1, 2, 3 or 4 |
-| | _🔤 String_ | Controller type |
+| | _stringwithselector_ | Controller type |
 | `Gamepads::StickAngle(number, string)` | Return the angle of a gamepad stick.If the deadzone value is high, the angle value is rounded to main axes, left, left, up, down.An zero deadzone value give a total freedom on the angle value. ||
 | | _🔢 Number_ | The gamepad identifier: 1, 2, 3 or 4 |
-| | _🔤 String_ | Stick: "Left" or "Right" |
+| | _stringwithselector_ | Stick: "Left" or "Right" |
 | `Gamepads::StickForce(number, string)` | Return the force of gamepad stick (from 0 to 1). ||
 | | _🔢 Number_ | The gamepad identifier: 1, 2, 3 or 4 |
-| | _🔤 String_ | Stick: "Left" or "Right" |
+| | _stringwithselector_ | Stick: "Left" or "Right" |
 | `Gamepads::StickForceX(number, string)` | Return the gamepad stick force on X axis (from -1 at the left to 1 at the right). ||
 | | _🔢 Number_ | The gamepad identifier: 1, 2, 3 or 4 |
-| | _🔤 String_ | Stick: "Left" or "Right" |
+| | _stringwithselector_ | Stick: "Left" or "Right" |
 | `Gamepads::StickForceY(number, string)` | Return the gamepad stick force on Y axis (from -1 at the top to 1 at the bottom). ||
 | | _🔢 Number_ | The gamepad identifier: 1, 2, 3 or 4 |
-| | _🔤 String_ | Stick: "Left" or "Right" |
+| | _stringwithselector_ | Stick: "Left" or "Right" |
 | `Gamepads::StrongVibrationMagnitude(number)` | Return the strength of the strong vibration motor on the gamepad of a player. ||
 | | _🔢 Number_ | The gamepad identifier: 1, 2, 3 or 4 |
 | `Gamepads::TriggerPressure(number, string)` | Get the value of the pressure on a gamepad trigger. ||
 | | _🔢 Number_ | The gamepad identifier: 1, 2, 3 or 4 |
-| | _🔤 String_ | Trigger button |
+| | _stringwithselector_ | Trigger button |
 | `Gamepads::WeakVibrationMagnitude(number)` | Return the strength of the weak vibration motor on the gamepad of a player. ||
 | | _🔢 Number_ | The gamepad identifier: 1, 2, 3 or 4 |
 
 ## First person camera gamepad mapper 
 
 Control camera rotations with a gamepad. 
+
+### Behavior properties
+
+- **Camera joystick** (choice, one of: "Left", "Right"). Default value is `Right`.
+- **Gamepad identifier (1, 2, 3 or 4)** (🔢 Number). Default value is `1`.
+- **Rotation acceleration** (🔢 Number). Default value is `360`.
+- **Rotation deceleration** (🔢 Number). Default value is `720`.
+- **Maximum rotation speed** (🔢 Number, Angular speed). Default value is `180`.
+- **Z position offset** (🔢 Number, Distance). Default value is `0`.
+- **Maximum angle** (🔢 Number, Angle). Default value is `90`.
+- **Minimum angle** (🔢 Number, Angle). Default value is `-90`.
+- **Rotation acceleration** (🔢 Number). Default value is `240`.
+- **Rotation deceleration** (🔢 Number). Default value is `480`.
+- **Maximum rotation speed** (🔢 Number, Angular speed). Default value is `120`.
+
+??? quote "See internal technical details"
+
+
+    - **Camera joystick** is stored as `CameraStick` (Choice). Default value is `Right`.
+    - **Gamepad identifier (1, 2, 3 or 4)** is stored as `GamepadIdentifier` (Number). Default value is `1`.
+    - **Rotation acceleration** is stored as `HorizontalRotationAcceleration` (Number). Default value is `360`.
+    - **Rotation deceleration** is stored as `HorizontalRotationDeceleration` (Number). Default value is `720`.
+    - **Maximum rotation speed** is stored as `HorizontalRotationSpeedMax` (Number). Unit is AngularSpeed. Default value is `180`.
+    > This behavior must be used on an object also having a behavior with type "Scene3D::Base3DBehavior". This is stored on property `Object3D`.
+
+    - **Z position offset** is stored as `OffsetZ` (Number). Unit is Pixel. Default value is `0`.
+    - **Maximum angle** is stored as `VerticalAngleMax` (Number). Unit is DegreeAngle. Default value is `90`.
+    - **Minimum angle** is stored as `VerticalAngleMin` (Number). Unit is DegreeAngle. Default value is `-90`.
+    - **Rotation acceleration** is stored as `VerticalRotationAcceleration` (Number). Default value is `240`.
+    - **Rotation deceleration** is stored as `VerticalRotationDeceleration` (Number). Default value is `480`.
+    - **Maximum rotation speed** is stored as `VerticalRotationSpeedMax` (Number). Unit is AngularSpeed. Default value is `120`.
 
 ### Behavior actions
 
@@ -365,6 +398,7 @@ Change the maximum vertical rotation speed of the object.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Gamepads::FirstPersonGamepadMapper::SetVerticalRotationSpeedMax`.
 
+
 ### Behavior conditions
 
 **Horizontal rotation acceleration**  
@@ -374,7 +408,7 @@ Compare the horizontal rotation acceleration of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -388,7 +422,7 @@ Compare the horizontal rotation deceleration of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -402,7 +436,7 @@ Compare the maximum horizontal rotation speed of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -416,7 +450,7 @@ Compare the z position offset of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -430,7 +464,7 @@ Compare the maximum vertical camera angle of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -444,7 +478,7 @@ Compare the minimum vertical camera angle of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -458,7 +492,7 @@ Compare the vertical rotation acceleration of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -472,7 +506,7 @@ Compare the vertical rotation deceleration of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -486,12 +520,13 @@ Compare the maximum vertical rotation speed of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Gamepads::FirstPersonGamepadMapper::VerticalRotationSpeedMax`.
+
 
 ### Behavior expressions
 
@@ -511,12 +546,46 @@ Compare the maximum vertical rotation speed of the object.
 
 Control a 3D physics car with a gamepad. 
 
+### Behavior properties
+
+- **Gamepad identifier (1, 2, 3 or 4)** (🔢 Number). Default value is `1`.
+- **Hand brake button** (choice, one of: "A or Cross", "B or Circle", "X or Square", "Y or Triangle", "LB or L1", "RB or R1", "LT or L2", "RT or R2"). Default value is `B or Circle`.
+- **Use directional pad** (🔘 Boolean). Default value is `true`.
+- **Use left stick** (🔘 Boolean). Default value is `true`.
+- **Use right stick** (🔘 Boolean). Default value is `false`.
+
+??? quote "See internal technical details"
+
+
+    - **Gamepad identifier (1, 2, 3 or 4)** is stored as `GamepadIdentifier` (Number). Default value is `1`.
+    - **Hand brake button** is stored as `HandBrakeButton` (Choice). Default value is `B or Circle`.
+    > This behavior must be used on an object also having a behavior with type "Physics3D::PhysicsCar3D". This is stored on property `PhysicsCar3D`.
+
+    - **Use directional pad** is stored as `UseArrows` (Boolean). Default value is `true`.
+    - **Use left stick** is stored as `UseLeftStick` (Boolean). Default value is `true`.
+    - **Use right stick** is stored as `UseRightStick` (Boolean). Default value is `false`.
+
 _No expressions for this behavior._
 
 
 ## 3D platformer gamepad mapper 
 
 Control a 3D physics character with a gamepad. 
+
+### Behavior properties
+
+- **Gamepad identifier (1, 2, 3 or 4)** (🔢 Number). Default value is `1`.
+- **Walk joystick** (choice, one of: "Left", "Right"). Default value is `Left`.
+- **Jump button** (choice, one of: "A or Cross", "B or Circle", "X or Square", "Y or Triangle", "LB or L1", "RB or R1", "LT or L2", "RT or R2"). Default value is `A or Cross`.
+
+??? quote "See internal technical details"
+
+
+    - **Gamepad identifier (1, 2, 3 or 4)** is stored as `GamepadIdentifier` (Number). Default value is `1`.
+    - **Walk joystick** is stored as `JoystickIdentifier` (Choice). Default value is `Left`.
+    - **Jump button** is stored as `JumpButton` (Choice). Default value is `A or Cross`.
+    > This behavior must be used on an object also having a behavior with type "Physics3D::PhysicsCharacter3D". This is stored on property `PhysicsCharacter3D`.
+
 
 _No expressions for this behavior._
 
@@ -525,12 +594,48 @@ _No expressions for this behavior._
 
 Control a platformer character with a gamepad. 
 
+### Behavior properties
+
+- **Gamepad identifier (1, 2, 3 or 4)** (🔢 Number). Default value is `1`.
+- **Jump button** (choice, one of: "A or Cross", "B or Circle", "X or Square", "Y or Triangle", "LB or L1", "RB or R1", "LT or L2", "RT or R2"). Default value is `A or Cross`.
+- **Use directional pad** (🔘 Boolean). Default value is `true`.
+- **Use left stick** (🔘 Boolean). Default value is `true`.
+- **Use right stick** (🔘 Boolean). Default value is `false`.
+
+??? quote "See internal technical details"
+
+
+    - **Gamepad identifier (1, 2, 3 or 4)** is stored as `GamepadIdentifier` (Number). Default value is `1`.
+    - **Jump button** is stored as `JumpButton` (Choice). Default value is `A or Cross`.
+    > This behavior must be used on an object also having a behavior with type "PlatformBehavior::PlatformerObjectBehavior". This is stored on property `PlatformerCharacter`.
+
+    - **Use directional pad** is stored as `UseArrows` (Boolean). Default value is `true`.
+    - **Use left stick** is stored as `UseLeftStick` (Boolean). Default value is `true`.
+    - **Use right stick** is stored as `UseRightStick` (Boolean). Default value is `false`.
+
 _No expressions for this behavior._
 
 
 ## 3D shooter gamepad mapper 
 
 Control a 3D physics character with a gamepad. 
+
+### Behavior properties
+
+- **Camera joystick** (choice, one of: "Left", "Right"). Default value is `Right`.
+- **Gamepad identifier (1, 2, 3 or 4)** (🔢 Number). Default value is `1`.
+- **Jump button** (choice, one of: "A or Cross", "B or Circle", "X or Square", "Y or Triangle", "LB or L1", "RB or R1", "LT or L2", "RT or R2"). Default value is `A or Cross`.
+- **Walk joystick** (choice, one of: "Left", "Right"). Default value is `Left`.
+
+??? quote "See internal technical details"
+
+
+    - **Camera joystick** is stored as `CameraStick` (Choice). Default value is `Right`.
+    - **Gamepad identifier (1, 2, 3 or 4)** is stored as `GamepadIdentifier` (Number). Default value is `1`.
+    - **Jump button** is stored as `JumpButton` (Choice). Default value is `A or Cross`.
+    > This behavior must be used on an object also having a behavior with type "Physics3D::PhysicsCharacter3D". This is stored on property `PhysicsCharacter3D`.
+
+    - **Walk joystick** is stored as `WalkStick` (Choice). Default value is `Left`.
 
 _No expressions for this behavior._
 
@@ -539,10 +644,29 @@ _No expressions for this behavior._
 
 Control a top-down character with a gamepad. 
 
+### Behavior properties
+
+- **Gamepad identifier (1, 2, 3 or 4)** (🔢 Number). Default value is `1`.
+- **Stick mode** (choice, one of: "Analog", "360°", "8 Directions"). Default value is `Analog`.
+- **Use directional pad** (🔘 Boolean). Default value is `true`.
+- **Use left stick** (🔘 Boolean). Default value is `true`.
+- **Use right stick** (🔘 Boolean). Default value is `false`.
+
+??? quote "See internal technical details"
+
+
+    - **Gamepad identifier (1, 2, 3 or 4)** is stored as `GamepadIdentifier` (Number). Default value is `1`.
+    - **Stick mode** is stored as `StickMode` (Choice). Default value is `Analog`.
+    > This behavior must be used on an object also having a behavior with type "TopDownMovementBehavior::TopDownMovementBehavior". This is stored on property `TopDownMovement`.
+
+    - **Use directional pad** is stored as `UseArrows` (Boolean). Default value is `true`.
+    - **Use left stick** is stored as `UseLeftStick` (Boolean). Default value is `true`.
+    - **Use right stick** is stored as `UseRightStick` (Boolean). Default value is `false`.
+
 _No expressions for this behavior._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **Gamepads (controllers)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Gamepads (controllers)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

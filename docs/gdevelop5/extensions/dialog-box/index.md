@@ -61,6 +61,19 @@ In typing, style tags in BBText OBjects are also counted as characters.
 This extension adds the functionality of a dialog box to your game.
 Add this to the sprite object that will be the background of the dialog box. 
 
+### Behavior properties
+
+- **Tween Duration. (in milliseconds)** (🔢 Number). Default value is `250`.
+- **Typing interval. (in seconds)** (🔢 Number). Default value is `0.05`.
+- **Typing sound effect. (File name) (The audio file must be registered as a resource!)** (string).
+
+??? quote "See internal technical details"
+
+
+    - **Tween Duration. (in milliseconds)** is stored as `Duration` (Number). Default value is `250`.
+    - **Typing interval. (in seconds)** is stored as `Interval` (Number). Default value is `0.05`.
+    - **Typing sound effect. (File name) (The audio file must be registered as a resource!)** is stored as `Se` (String). Default value is ``.
+
 ### Behavior actions
 
 **Change Dialog Box contents**  
@@ -71,7 +84,7 @@ Change the Name, Image, and Text in the Dialog Box.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (string): Name
-    - Parameter 3: 🔤 Object Animation Name (String)
+    - Parameter 3: objectanimationname
     - Parameter 4 (string): Text
 
     > Technical note: parameter 5 is an internal parameter handled by GDevelop.
@@ -137,7 +150,7 @@ Open the Dialog Box.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (string): Name
-    - Parameter 3: 🔤 Object Animation Name (String)
+    - Parameter 3: objectanimationname
     - Parameter 4 (string): Text
 
     > Technical note: parameter 5 is an internal parameter handled by GDevelop.
@@ -171,6 +184,7 @@ Skip typing in the Dialog Box.
     > Technical note: parameter 2 is an internal parameter handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `DialogBox::DialogBoxBackGround::SkipTyping`.
+
 
 ### Behavior conditions
 
@@ -223,6 +237,7 @@ Text in the Dialog Box is typing.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `DialogBox::DialogBoxBackGround::IsTyping`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -233,4 +248,4 @@ Text in the Dialog Box is typing.
 
 ---
 
-*This page is an auto-generated reference page about the **Dialog Box** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Dialog Box** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

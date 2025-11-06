@@ -20,6 +20,27 @@ The 3D platformer example uses this extension ([open the project online](https:/
 
 Change animations of a 3D physics character automatically. 
 
+### Behavior properties
+
+- **"Fall" animation name** (string). Default value is `Fall`.
+- **"Idle" animation name ** (string). Default value is `Idle`.
+- **"Jump" animation name** (string). Default value is `Jump`.
+- **Rotation speed** (🔢 Number, Angular speed). Default value is `720`.
+- **"Run" animation name** (string). Default value is `Run`.
+
+??? quote "See internal technical details"
+
+
+    > This behavior must be used on an object also having a behavior with type "AnimatableCapability::AnimatableBehavior". This is stored on property `Animation`.
+
+    - **"Fall" animation name** is stored as `FallAnimationName` (String). Default value is `Fall`.
+    - **"Idle" animation name ** is stored as `IdleAnimationName` (String). Default value is `Idle`.
+    - **"Jump" animation name** is stored as `JumpAnimationName` (String). Default value is `Jump`.
+    > This behavior must be used on an object also having a behavior with type "Physics3D::PhysicsCharacter3D". This is stored on property `PhysicsCharacter3D`.
+
+    - **Rotation speed** is stored as `RotationSpeed` (Number). Unit is AngularSpeed. Default value is `720`.
+    - **"Run" animation name** is stored as `RunAnimationName` (String). Default value is `Run`.
+
 ### Behavior actions
 
 **Rotation speed**  
@@ -36,6 +57,7 @@ Change the rotation speed of the object.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PhysicsCharacter3DAnimator::PhysicsCharacter3DAnimator::SetRotationSpeed`.
 
+
 ### Behavior conditions
 
 **Rotation speed**  
@@ -45,12 +67,13 @@ Compare the rotation speed of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PhysicsCharacter3DAnimator::PhysicsCharacter3DAnimator::RotationSpeed`.
+
 
 ### Behavior expressions
 
@@ -61,4 +84,4 @@ Compare the rotation speed of the object.
 
 ---
 
-*This page is an auto-generated reference page about the **3D physics character animator** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **3D physics character animator** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

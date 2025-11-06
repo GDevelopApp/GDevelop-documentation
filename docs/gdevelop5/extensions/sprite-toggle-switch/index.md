@@ -22,6 +22,15 @@ There are ready-to-use toggle switches in the asset-store [settings UI pack](htt
 
 A toggle switch that users can click or touch. 
 
+### Object properties
+
+- **Is checked** (🔘 Boolean). Default value is `true`.
+
+??? quote "See internal technical details"
+
+
+    - **Is checked** is stored as `IsChecked` (Boolean). Default value is `true`.
+
 ### Object actions
 
 **De/activate interactions**  
@@ -58,6 +67,7 @@ Toggle the switch.
     > Technical note: parameter 1 is an internal parameter handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `SpriteToggleSwitch::SpriteToggleSwitch::ToggleChecked`.
+
 
 ### Object conditions
 
@@ -149,10 +159,11 @@ Check if the button is currently being pressed outside with mouse or touch.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `SpriteToggleSwitch::SpriteToggleSwitch::IsPressedOutside`.
 
+
 _No expressions for this object._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **Toggle switch** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Toggle switch** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

@@ -27,7 +27,7 @@ Replaces the image contained by a resource by a new one, from a URL. This will u
 ??? quote "See parameters & details"
 
     - Parameter 1 (string): The URL to load the new image for the resource from
-    - Parameter 2 (imageResource): The resource to modify
+    - Parameter 2 (imageresource): The resource to modify
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -50,6 +50,7 @@ Replaces the image contained by a sprite by a new one, from a URL. This will onl
 
 
 
+
 ---
 
-*This page is an auto-generated reference page about the **Load images from a URL** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Load images from a URL** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

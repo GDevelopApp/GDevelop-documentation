@@ -22,6 +22,21 @@ This extension provides behaviors to:
 
 Let 3D physics characters jump shortly after leaving a platform and also jump in mid-air. 
 
+### Behavior properties
+
+- **Number of air jumps** (🔢 Number). Default value is `1`.
+- **Floor jumps count as air jumps** (🔘 Boolean). Default value is `false`.
+- **Coyote time duration** (🔢 Number, Duration). Default value is `0.25`.
+
+??? quote "See internal technical details"
+
+
+    - **Number of air jumps** is stored as `AirJumpCountMaximum` (Number). Default value is `1`.
+    - **Floor jumps count as air jumps** is stored as `AreFloorJumpCountedAsAirJump` (Boolean). Default value is `false`.
+    - **Coyote time duration** is stored as `CoyoteTimeFrameDuration` (Number). Unit is Second. Default value is `0.25`.
+    > This behavior must be used on an object also having a behavior with type "Physics3D::PhysicsCharacter3D". This is stored on property `PhysicsCharacter3D`.
+
+
 ### Behavior actions
 
 **Remove a remaining air jump**  
@@ -75,6 +90,7 @@ Change the coyote time duration of an object (in seconds).
 
     > Technical note: this action internal type (in GDevelop JSON) is `AdvancedJump3D::AdvancedJump3D::SetCoyoteTime`.
 
+
 ### Behavior conditions
 
 **Floor jumps count as air jumps**  
@@ -101,6 +117,7 @@ Check if a coyote jump can currently happen.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `AdvancedJump3D::AdvancedJump3D::CanCoyoteJump`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -111,4 +128,4 @@ Check if a coyote jump can currently happen.
 
 ---
 
-*This page is an auto-generated reference page about the **Advanced movements for 3D physics characters** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Advanced movements for 3D physics characters** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

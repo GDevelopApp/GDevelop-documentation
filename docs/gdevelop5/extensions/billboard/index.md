@@ -20,6 +20,17 @@ The 3D racing game example uses this extension ([open the project online](https:
 
 Rotate to always face the camera (only the front face of the cube should be enabled). 
 
+### Behavior properties
+
+- **Offset position** (choice, one of: "No change", "Standing on Z axis"). Default value is `No change`.
+
+??? quote "See internal technical details"
+
+
+    > This behavior must be used on an object also having a behavior with type "Scene3D::Base3DBehavior". This is stored on property `Object3D`.
+
+    - **Offset position** is stored as `OffsetPositionMode` (Choice). Default value is `No change`.
+
 ### Behavior actions
 
 **Rotate to face the camera**  
@@ -73,6 +84,7 @@ Change if the object should rotate on Z axis.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Billboard::Billboard::SetShouldRotateZ`.
 
+
 ### Behavior conditions
 
 **Should rotate on X axis**  
@@ -111,10 +123,11 @@ Check if the object should rotate on Z axis.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Billboard::Billboard::ShouldRotateZ`.
 
+
 _No expressions for this behavior._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **3D Billboard** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **3D Billboard** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

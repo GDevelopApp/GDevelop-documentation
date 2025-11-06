@@ -18,6 +18,25 @@ Flip sprites with a 3D-like rotation effect.
 
 Flip a Sprite with a 3D effect. 
 
+### Behavior properties
+
+- **Back animation name** (string). Default value is `Back`.
+- **Flipping method** (choice, one of: "Mirror", "Animation"). Default value is `Mirror`.
+- **Front animation name** (string). Default value is `Front`.
+
+??? quote "See internal technical details"
+
+
+    > This behavior must be used on an object also having a behavior with type "AnimatableCapability::AnimatableBehavior". This is stored on property `Animation`.
+
+    - **Back animation name** is stored as `BackAnimation` (String). Default value is `Back`.
+    > This behavior must be used on an object also having a behavior with type "FlippableCapability::FlippableBehavior". This is stored on property `Flippable`.
+
+    - **Flipping method** is stored as `FlippingMethod` (Choice). Default value is `Mirror`.
+    - **Front animation name** is stored as `FrontAnimation` (String). Default value is `Front`.
+    > This behavior must be used on an object also having a behavior with type "ResizableCapability::ResizableBehavior". This is stored on property `Resizable`.
+
+
 ### Behavior actions
 
 **Flip the object**  
@@ -59,6 +78,7 @@ Jump to the end of the flipping animation.
 
     > Technical note: this action internal type (in GDevelop JSON) is `ThreeDFlip::ThreeDFlip::StopFlip`.
 
+
 ### Behavior conditions
 
 **Is flipped**  
@@ -85,10 +105,11 @@ Checks if a flipping animation is currently playing.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `ThreeDFlip::ThreeDFlip::IsFlipping`.
 
+
 _No expressions for this behavior._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **3D-like Flip for 2D Sprites** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **3D-like Flip for 2D Sprites** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

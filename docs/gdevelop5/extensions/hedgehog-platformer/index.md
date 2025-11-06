@@ -51,9 +51,69 @@ Check if a platformer character is pushing against a platform.
 
 
 
+
 ## Hedgehog platformer character 
 
 Jump and run on platforms at 360°. 
+
+### Behavior properties
+
+- **Air acceleration** (🔢 Number, Acceleration). Default value is `1012`.
+- **Air drag** (🔢 Number, Dimensionless). The air drag reduce the speed on X axis. Default value is `0`.
+- **Air drag min speed Y** (🔢 Number, Speed). Default value is `-720`.
+- **Ceil bounce factor (-1 to 1)** (🔢 Number). 0: set the vertical speed to 0, 1: keep the speed, -1: bounce. Default value is `0`.
+- **Deceleration** (🔢 Number, Acceleration). When changing of direction on the ground. Default value is `5400`.
+- **Downwards slope factor** (🔢 Number, Acceleration). Speed gain when moving downwards. Default value is `1350`.
+- **Rotation speed when falling** (🔢 Number, Angular speed). Default value is `168.75`.
+- **Max floor magnet distance (in character height per seconds)** (🔢 Number). At high speeds. Default value is `13`.
+- **Min floor magnet distance (in character height per seconds)** (🔢 Number). At low speeds. Default value is `3`.
+- **Friction** (🔢 Number, Acceleration). When there is no input. Default value is `506.25`.
+- **Gravity** (🔢 Number, Acceleration). Default value is `2362.5`.
+- **Ground acceleration** (🔢 Number, Acceleration). Default value is `506.25`.
+- **Default controls** (🔘 Boolean). Default value is `true`.
+- **Jump height reducer (0 to 1)** (🔢 Number). Vertical speed is multiplied by this value when the jump key is released during a jump. Default value is `0.615`.
+- **Jump speed** (🔢 Number, Speed). Default value is `1170`.
+- **Max falling speed** (🔢 Number, Speed). Default value is `2880`.
+- **Max speed** (🔢 Number, Speed). The maximum speed obtained with input. Default value is `720`.
+- **Rotate** (🔘 Boolean). Default value is `true`.
+- **Slip duration** (🔢 Number, Duration). Time needed for the platformer to regain control after slipping down a slope. Default value is `0.5`.
+- **Min angle for ground slipping** (🔢 Number, Angle). Default value is `35`.
+- **Stand max angle** (🔢 Number, Angle). Allow characters to fully stop on not too steep floors. Default value is `24`.
+- **Max sub-step number** (🔢 Number, Dimensionless). Default value is `3`.
+- **Sub-step max time delta** (🔢 Number, Duration). Default value is `0.02`.
+- **Min angle for ground unattaching** (🔢 Number, Angle). Default value is `68`.
+- **Min speed for ground unattach** (🔢 Number, Distance). Default value is `450`.
+- **Upwards slope factor** (🔢 Number, Acceleration). Speed loss when moving upwards. Default value is `1350`.
+
+??? quote "See internal technical details"
+
+
+    - **Air acceleration** is stored as `AirAcceleration` (Number). Unit is PixelAcceleration. Default value is `1012`.
+    - **Air drag** is stored as `AirDrag` (Number). Unit is Dimensionless. Default value is `0`.
+    - **Air drag min speed Y** is stored as `AirDragMinSpeedY` (Number). Unit is PixelSpeed. Default value is `-720`.
+    - **Ceil bounce factor (-1 to 1)** is stored as `CeilBounceFactor` (Number). Default value is `0`.
+    - **Deceleration** is stored as `Deceleration` (Number). Unit is PixelAcceleration. Default value is `5400`.
+    - **Downwards slope factor** is stored as `DownSlopeFactor` (Number). Unit is PixelAcceleration. Default value is `1350`.
+    - **Rotation speed when falling** is stored as `FallingRotationSpeed` (Number). Unit is AngularSpeed. Default value is `168.75`.
+    - **Max floor magnet distance (in character height per seconds)** is stored as `FloorMagnetDistanceMax` (Number). Default value is `13`.
+    - **Min floor magnet distance (in character height per seconds)** is stored as `FloorMagnetDistanceMin` (Number). Default value is `3`.
+    - **Friction** is stored as `Friction` (Number). Unit is PixelAcceleration. Default value is `506.25`.
+    - **Gravity** is stored as `Gravity` (Number). Unit is PixelAcceleration. Default value is `2362.5`.
+    - **Ground acceleration** is stored as `GroundAcceleration` (Number). Unit is PixelAcceleration. Default value is `506.25`.
+    - **Default controls** is stored as `IsDefaultControlsEnabled` (Boolean). Default value is `true`.
+    - **Jump height reducer (0 to 1)** is stored as `JumpHeightReducer` (Number). Default value is `0.615`.
+    - **Jump speed** is stored as `JumpSpeed` (Number). Unit is PixelSpeed. Default value is `1170`.
+    - **Max falling speed** is stored as `MaxFallingSpeed` (Number). Unit is PixelSpeed. Default value is `2880`.
+    - **Max speed** is stored as `MaxSpeed` (Number). Unit is PixelSpeed. Default value is `720`.
+    - **Rotate** is stored as `ShouldRotate` (Boolean). Default value is `true`.
+    - **Slip duration** is stored as `SlipDuration` (Number). Unit is Second. Default value is `0.5`.
+    - **Min angle for ground slipping** is stored as `SlipMinAngle` (Number). Unit is DegreeAngle. Default value is `35`.
+    - **Stand max angle** is stored as `StandMaxAngle` (Number). Unit is DegreeAngle. Default value is `24`.
+    - **Max sub-step number** is stored as `SubstepCountMax` (Number). Unit is Dimensionless. Default value is `3`.
+    - **Sub-step max time delta** is stored as `SubstepTimeDeltaMax` (Number). Unit is Second. Default value is `0.02`.
+    - **Min angle for ground unattaching** is stored as `UnattachMinAngle` (Number). Unit is DegreeAngle. Default value is `68`.
+    - **Min speed for ground unattach** is stored as `UnattachMinSpeed` (Number). Unit is Pixel. Default value is `450`.
+    - **Upwards slope factor** is stored as `UpSlopeFactor` (Number). Unit is PixelAcceleration. Default value is `1350`.
 
 ### Behavior actions
 
@@ -408,6 +468,7 @@ Simulate a press of the right key.
 
     > Technical note: this action internal type (in GDevelop JSON) is `HedgehogPlatformer::HedgehogCharacter::SimulateRightKey`.
 
+
 ### Behavior conditions
 
 **Air drag**  
@@ -417,7 +478,7 @@ Compare the air drag of the object. The air drag reduce the speed on X axis.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -431,7 +492,7 @@ Compare the air drag min speed Y of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -445,7 +506,7 @@ Compare the acceleration when the object is in the air.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -471,7 +532,7 @@ Compare the collision layer of the object, only interacts with hedgehog platform
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -485,7 +546,7 @@ Compare the deceleration of the object when changing of direction on the ground.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -499,7 +560,7 @@ Compare the acceleration when running down a slope. The actual deceleration appl
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -513,7 +574,7 @@ Compare the friction of the object. The friction is a deceleration when there is
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -527,7 +588,7 @@ Compare the gravity of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -541,7 +602,7 @@ Compare the acceleration when the object is on the ground.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -651,7 +712,7 @@ A control was applied from a default control or simulated by an action.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (🔤 String): Key to check (one of: "Left", "Right", "Jump")
+    - Parameter 2 (stringwithselector): Key to check (one of: "Left", "Right", "Jump")
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -664,7 +725,7 @@ Compare the Jump height reducer factor of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -678,7 +739,7 @@ Compare the jump speed of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -692,7 +753,7 @@ Compare the max speed of the object while grounded.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -706,7 +767,7 @@ Compare the duration during which the character can't run left or right.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -732,7 +793,7 @@ Compare the current speed of the object. The speed can be negative when the obje
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -746,7 +807,7 @@ Compare the current horizontal speed of the object. The object is automatically 
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -760,7 +821,7 @@ Compare the current vertical speed of the object. The object is automatically se
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -774,7 +835,7 @@ Compare the stand max angle of the object. Allow characters to fully stop on not
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -788,12 +849,13 @@ Compare the deceleration factor when running up a slope. The actual deceleration
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `HedgehogPlatformer::HedgehogCharacter::UpSlopeFactor`.
+
 
 ### Behavior expressions
 
@@ -823,12 +885,70 @@ Compare the deceleration factor when running up a slope. The actual deceleration
 
 Change animations and horizontal flipping of hedgehog characters automatically. 
 
+### Behavior properties
+
+- **Balance on ledge** (string). Default value is `BalanceOnLedge`.
+- **Brake** (string). Default value is `Brake`.
+- **Brake animation min speed** (🔢 Number, Speed). Default value is `720`.
+- **Fall** (string). Default value is `Fall`.
+- **Idle** (string). Default value is `Idle`.
+- **Jump** (string). Default value is `Jump`.
+- **Jump rotation speed** (🔢 Number, Angular speed). Default value is `360`.
+- **Push** (string). Default value is `Push`.
+- **Run** (string). Default value is `Run`.
+- **Run animation min speed** (🔢 Number, Speed). Default value is `1080`.
+- **Walk** (string). Default value is `Walk`.
+
+??? quote "See internal technical details"
+
+
+    > This behavior must be used on an object also having a behavior with type "AnimatableCapability::AnimatableBehavior". This is stored on property `Animation`.
+
+    - **Balance on ledge** is stored as `BalanceOnLedgeAnimationName` (String). Default value is `BalanceOnLedge`.
+    - **Brake** is stored as `BrakeAnimationName` (String). Default value is `Brake`.
+    - **Brake animation min speed** is stored as `BrakeMinSpeed` (Number). Unit is PixelSpeed. Default value is `720`.
+    - **Fall** is stored as `FallAnimationName` (String). Default value is `Fall`.
+    > This behavior must be used on an object also having a behavior with type "FlippableCapability::FlippableBehavior". This is stored on property `Flippable`.
+
+    > This behavior must be used on an object also having a behavior with type "HedgehogPlatformer::HedgehogCharacter". This is stored on property `HedgehogCharacter`.
+
+    - **Idle** is stored as `IdleAnimationName` (String). Default value is `Idle`.
+    - **Jump** is stored as `JumpAnimationName` (String). Default value is `Jump`.
+    - **Jump rotation speed** is stored as `JumpRotationSpeed` (Number). Unit is AngularSpeed. Default value is `360`.
+    - **Push** is stored as `PushAnimationName` (String). Default value is `Push`.
+    - **Run** is stored as `RunAnimationName` (String). Default value is `Run`.
+    - **Run animation min speed** is stored as `RunMinSpeed` (Number). Unit is PixelSpeed. Default value is `1080`.
+    - **Walk** is stored as `WalkAnimationName` (String). Default value is `Walk`.
+
 _No expressions for this behavior._
 
 
 ## Hedgehog character rolling 
 
 Toggle rolling mode. 
+
+### Behavior properties
+
+- **Deceleration** (🔢 Number, Acceleration). When changing of direction on the ground. Default value is `1350`.
+- **Downwards slope factor** (🔢 Number, Acceleration). Speed gain when moving downwards. Default value is `843.75`.
+- **Friction** (🔢 Number, Acceleration). When there is no input. Default value is `253.125`.
+- **Max speed** (🔢 Number, Speed). Default value is `2880`.
+- **Min speed** (🔢 Number, Speed). The minimal speed to be able to start rolling. Default value is `180`.
+- **Spindash speed** (🔢 Number, Speed). Default value is `1440`.
+- **Upwards slope factor** (🔢 Number, Acceleration). Speed loss when moving upwards. Default value is `3375`.
+
+??? quote "See internal technical details"
+
+
+    - **Deceleration** is stored as `Deceleration` (Number). Unit is PixelAcceleration. Default value is `1350`.
+    - **Downwards slope factor** is stored as `DownSlopeFactor` (Number). Unit is PixelAcceleration. Default value is `843.75`.
+    - **Friction** is stored as `Friction` (Number). Unit is PixelAcceleration. Default value is `253.125`.
+    > This behavior must be used on an object also having a behavior with type "HedgehogPlatformer::HedgehogCharacter". This is stored on property `HedgehogCharacter`.
+
+    - **Max speed** is stored as `MaxSpeed` (Number). Unit is PixelSpeed. Default value is `2880`.
+    - **Min speed** is stored as `MinSpeed` (Number). Unit is PixelSpeed. Default value is `180`.
+    - **Spindash speed** is stored as `SpinDashSpeed` (Number). Unit is PixelSpeed. Default value is `1440`.
+    - **Upwards slope factor** is stored as `UpSlopeFactor` (Number). Unit is PixelAcceleration. Default value is `3375`.
 
 ### Behavior actions
 
@@ -867,6 +987,7 @@ Simulate a press of the Spindash key when the character is crouching or the jump
     > Technical note: parameter 2 is an internal parameter handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `HedgehogPlatformer::HedgehogCharacterRolling::SimulateSpindashOrJumpKey`.
+
 
 ### Behavior conditions
 
@@ -918,6 +1039,7 @@ Check if the character is rolling.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `HedgehogPlatformer::HedgehogCharacterRolling::IsRolling`.
 
+
 _No expressions for this behavior._
 
 
@@ -925,12 +1047,48 @@ _No expressions for this behavior._
 
 Flag objects as being platforms which characters can run on. 
 
+### Behavior properties
+
+- **Collision layer** (🔢 Number, Dimensionless). Only interacts with characters of the same layer. Default value is `0`.
+- **Only for grounded characters** (🔘 Boolean). Default value is `false`.
+- **Type** (choice, one of: "Platform", "Jumpthru", "Angle lock marker", "Left-right layer toggle marker", "Top-bottom layer toggle marker"). Default value is `Platform`.
+- **Rotate characters** (🔘 Boolean). Default value is `true`.
+- **Snap horizontally** (🔘 Boolean). Snap movement angle to 0° or 180°. Default value is `true`.
+- **Snap vertically** (🔘 Boolean). Snap movement angle to 90° or 270°. Default value is `true`.
+- **Targeted layer** (🔢 Number, Dimensionless). The layer given to player on the right or bottom. The marker layer is used for the other side. Default value is `1`.
+
+??? quote "See internal technical details"
+
+
+    - **Collision layer** is stored as `CollisionLayer` (Number). Unit is Dimensionless. Default value is `0`.
+    - **Only for grounded characters** is stored as `IsRequiringGrounded` (Boolean). Default value is `false`.
+    - **Type** is stored as `PlatformType` (Choice). Default value is `Platform`.
+    - **Rotate characters** is stored as `ShouldRotateCharacters` (Boolean). Default value is `true`.
+    - **Snap horizontally** is stored as `ShouldSnapAngleHorizontally` (Boolean). Default value is `true`.
+    - **Snap vertically** is stored as `ShouldSnapAngleVertically` (Boolean). Default value is `true`.
+    - **Targeted layer** is stored as `TargetedCollisionLayer` (Number). Unit is Dimensionless. Default value is `1`.
+
 _No expressions for this behavior._
 
 
 ## Hedgehog spring 
 
 Push hedgehog characters. 
+
+### Behavior properties
+
+- **Character running lock duration** (🔢 Number, Duration). Default value is `0.267`.
+- **Push speed** (🔢 Number, Speed). Default value is `1800`.
+
+??? quote "See internal technical details"
+
+
+    - **Character running lock duration** is stored as `CharacterRunningLockDuration` (Number). Unit is Second. Default value is `0.267`.
+    > This behavior must be used on an object also having a behavior with type "FlippableCapability::FlippableBehavior". This is stored on property `Flip`.
+
+    > This behavior must be used on an object also having a behavior with type "HedgehogPlatformer::HedgehogPlatform". This is stored on property `HedgehogPlatform`.
+
+    - **Push speed** is stored as `PushSpeed` (Number). Unit is PixelSpeed. Default value is `1800`.
 
 ### Behavior actions
 
@@ -948,6 +1106,7 @@ Make the spring push the character.
 
     > Technical note: this action internal type (in GDevelop JSON) is `HedgehogPlatformer::Spring::Push`.
 
+
 ### Behavior conditions
 
 **Can push**  
@@ -964,10 +1123,11 @@ Check if the spring can push the character.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `HedgehogPlatformer::Spring::CanPush`.
 
+
 _No expressions for this behavior._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **Hedgehog platformer** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Hedgehog platformer** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

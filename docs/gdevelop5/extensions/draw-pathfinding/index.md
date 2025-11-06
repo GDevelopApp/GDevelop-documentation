@@ -34,10 +34,11 @@ Draw the path followed by the object using a shape painter. It automatically cre
 
     > Technical note: this action internal type (in GDevelop JSON) is `DrawPathfinding::DrawPathfinding::DrawPathfinding`.
 
+
 _No expressions for this behavior._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **Pathfinding painter** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Pathfinding painter** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

@@ -24,6 +24,17 @@ To use:
 
 Check if an object has not moved (with some tolerance, 20 pixels by default) for a certain duration (1 second by default). 
 
+### Behavior properties
+
+- **Time, in seconds, before considering the object as idle** (🔢 Number). Default value is `1`.
+- **Distance, in pixels, allowed for the object to travel and still be considered idle** (🔢 Number). Default value is `20`.
+
+??? quote "See internal technical details"
+
+
+    - **Time, in seconds, before considering the object as idle** is stored as `DurationBeforeIdle` (Number). Default value is `1`.
+    - **Distance, in pixels, allowed for the object to travel and still be considered idle** is stored as `IdleDistanceTolerance` (Number). Default value is `20`.
+
 ### Behavior conditions
 
 **Has just moved from last position**  
@@ -50,10 +61,11 @@ Check if the object is idle: it has not moved from its last position (or within 
 
     > Technical note: this condition internal type (in GDevelop JSON) is `IdleTracker::IdleTracker::IsIdle`.
 
+
 _No expressions for this behavior._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **Idle object tracker** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Idle object tracker** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

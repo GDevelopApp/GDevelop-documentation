@@ -36,7 +36,7 @@ Configure camera edge scrolling that moves when mouse is near an edge of the scr
     - Parameter 2 (🔢 Number): Scroll speed (in pixels per second)
     - Parameter 3: 🔤 Layer name (String)
     - Parameter 4 (🔢 Number): Camera
-    - Parameter 5 (🔤 String): Scroll style (one of: "Progressive speed", "Constant speed")
+    - Parameter 5 (stringwithselector): Scroll style (one of: "Progressive speed", "Constant speed")
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
@@ -63,6 +63,7 @@ Enable (or disable) camera edge scrolling .  Use "Configure camera edge scrollin
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `EdgeScrollCamera::EnableEdgeScrollCamera`.
+
 
 ## Conditions
 
@@ -121,6 +122,7 @@ Check if the camera is scrolling up.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `EdgeScrollCamera::IsCameraScrollingUp`.
 
+
 ## Expressions
 
 | Expression | Description |  |
@@ -131,4 +133,4 @@ Check if the camera is scrolling up.
 
 ---
 
-*This page is an auto-generated reference page about the **Edge scroll camera** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Edge scroll camera** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

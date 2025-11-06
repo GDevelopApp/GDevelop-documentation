@@ -28,12 +28,32 @@ Tips:
 
 Limit the maximum speed an object will move from (non-physics) forces. 
 
+### Behavior properties
+
+- **Maximum speed (pixels/second)** (🔢 Number). Default value is `0`.
+
+??? quote "See internal technical details"
+
+
+    - **Maximum speed (pixels/second)** is stored as `MaximumSpeed` (Number). Default value is `0`.
+
 _No expressions for this behavior._
 
 
 ## Enforce max movement speed (physics) 
 
 Limit the maximum speed an object will move from physics forces. 
+
+### Behavior properties
+
+- **Maximum speed (pixels/second)** (🔢 Number). Default value is `9.88131e-323`.
+
+??? quote "See internal technical details"
+
+
+    - **Maximum speed (pixels/second)** is stored as `MaximumSpeed` (Number). Default value is `9.88131e-323`.
+    > This behavior must be used on an object also having a behavior with type "Physics2::Physics2Behavior". This is stored on property `PhysicsBehavior`.
+
 
 _No expressions for this behavior._
 
@@ -42,10 +62,21 @@ _No expressions for this behavior._
 
 Limit the maximum rotation speed of an object from physics forces. 
 
+### Behavior properties
+
+- **Maximum rotation speed (degrees/second)** (🔢 Number). Default value is `9.88131e-323`.
+
+??? quote "See internal technical details"
+
+
+    - **Maximum rotation speed (degrees/second)** is stored as `MaximumRotationSpeed` (Number). Default value is `9.88131e-323`.
+    > This behavior must be used on an object also having a behavior with type "Physics2::Physics2Behavior". This is stored on property `PhysicsBehavior`.
+
+
 _No expressions for this behavior._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **Speed restrictions** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Speed restrictions** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

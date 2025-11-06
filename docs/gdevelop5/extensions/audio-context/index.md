@@ -55,7 +55,7 @@ Add or update biquad filter.
 ??? quote "See parameters & details"
 
     - Parameter 1 (string): Synth name
-    - Parameter 2 (🔤 String): Filter type (one of: "lowpass", "highpass", "bandpass", "lowshelf", "highshelf", "peaking", "notch", "allpass")
+    - Parameter 2 (stringwithselector): Filter type (one of: "lowpass", "highpass", "bandpass", "lowshelf", "highshelf", "peaking", "notch", "allpass")
     - Parameter 3 (🔢 Number): Frequency [0-20,000]
     - Parameter 4 (🔢 Number): Quality factor [0-100]
     - Parameter 5 (🔢 Number): Gain value
@@ -94,7 +94,7 @@ Create or update synth with attack, decay, sustain, release gain and apply filte
 
     - Parameter 1 (string): Name of the synth
     - Parameter 2 (string): Context name
-    - Parameter 3 (🔤 String): Wave type (one of: "sine", "square", "triangle", "sawtooth")
+    - Parameter 3 (stringwithselector): Wave type (one of: "sine", "square", "triangle", "sawtooth")
     - Parameter 4 (🔢 Number): Attack value
     - Parameter 5 (🔢 Number): Decay value
     - Parameter 6 (🔢 Number): Sustain value
@@ -123,13 +123,14 @@ Play a note a synth you've created before.
 ??? quote "See parameters & details"
 
     - Parameter 1 (string): Synth name
-    - Parameter 2 (🔤 String): Note name (one of: "C", "C#", "Db", "D", "D#", "Eb", "E", "F", "F#", "Gb", "G", "G#", "Ab", "A", "A#", "Bb", "B")
+    - Parameter 2 (stringwithselector): Note name (one of: "C", "C#", "Db", "D", "D#", "Eb", "E", "F", "F#", "Gb", "G", "G#", "Ab", "A", "A#", "Bb", "B")
     - Parameter 3 (🔢 Number): Octave (0-8)
     - Parameter 4 (🔢 Number): Note duration (-1 to play until stopped manually)
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `AudioContext::PlayNote`.
+
 
 ## Conditions
 
@@ -144,6 +145,7 @@ Check if the context already created.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `AudioContext::ContextExists`.
 
+
 ## Expressions
 
 | Expression | Description |  |
@@ -155,4 +157,4 @@ Check if the context already created.
 
 ---
 
-*This page is an auto-generated reference page about the **Audio Context** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Audio Context** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

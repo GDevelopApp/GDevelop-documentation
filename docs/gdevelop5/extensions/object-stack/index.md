@@ -86,6 +86,7 @@ Check if an object is on the stack top.
 
 
 
+
 ## Object Stack 
 
 Hold an ordered list of objects. 
@@ -202,6 +203,7 @@ Shuffle the stack.
 
     > Technical note: this action internal type (in GDevelop JSON) is `ObjectStack::ObjectStack::Shuffle`.
 
+
 ### Behavior conditions
 
 **Stack height**  
@@ -211,7 +213,7 @@ Compare the number of objects in the stack.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -230,15 +232,16 @@ Check if the stack is empty.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `ObjectStack::ObjectStack::IsEmpty`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.ObjectStack::Height()` | Return the number of objects in the stack. ||
 | `Object.ObjectStack::HeightOf(object)` | The height of an element in the stack. ||
-| | _👾 Object_ | Object |
+| | _objectlist_ | Object |
 
 
 ---
 
-*This page is an auto-generated reference page about the **Object Stack** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Object Stack** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

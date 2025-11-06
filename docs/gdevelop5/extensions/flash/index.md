@@ -27,6 +27,15 @@ This can be used to:
 
 Make the object flash (blink) for a period of time so it alternates between visible and invisible. 
 
+### Behavior properties
+
+- **Half period ** (🔢 Number, Duration). Time that the object is invisible. Default value is `0.1`.
+
+??? quote "See internal technical details"
+
+
+    - **Half period ** is stored as `HalfPeriodTime` (Number). Unit is Second. Default value is `0.1`.
+
 ### Behavior actions
 
 **Flash visibility (blink)**  
@@ -69,6 +78,7 @@ Stop flashing visibility (blink) of an object.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Flash::Flash::Stop`.
 
+
 ### Behavior conditions
 
 **Half period**  
@@ -78,7 +88,7 @@ Compare the half period of the object (time the object is invisible).
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -97,6 +107,7 @@ Check if an object is flashing visibility.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Flash::Flash::IsFlashing`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -106,6 +117,15 @@ Check if an object is flashing visibility.
 ## Flash color tint 
 
 Make an object flash a color tint for a period of time. 
+
+### Behavior properties
+
+- **Half period** (🔢 Number, Duration). Time between flashes. Default value is `0.1`.
+
+??? quote "See internal technical details"
+
+
+    - **Half period** is stored as `HalfPeriodTime` (Number). Unit is Second. Default value is `0.1`.
 
 ### Behavior actions
 
@@ -118,7 +138,7 @@ Make an object flash a color tint for a period of time.
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Duration of the flashing, in seconds
       Use "0" to keep flashing until stopped.
-    - Parameter 3 (color): Color tint
+    - Parameter 3 (🎨 Color): Color tint
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -150,6 +170,7 @@ Stop flashing a color tint on an object.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Flash::FlashColor::Stop`.
 
+
 ### Behavior conditions
 
 **Half period**  
@@ -159,7 +180,7 @@ Compare the half period (time between flashes) of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -178,6 +199,7 @@ Check if an object is flashing a color tint.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Flash::FlashColor::IsFlashing`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -187,6 +209,17 @@ Check if an object is flashing a color tint.
 ## Flash effect 
 
 Make the object flash an effect for a period of time. 
+
+### Behavior properties
+
+- **Half period** (🔢 Number, Duration). Time between flashes. Default value is `0.1`.
+
+??? quote "See internal technical details"
+
+
+    > This behavior must be used on an object also having a behavior with type "EffectCapability::EffectBehavior". This is stored on property `Effect`.
+
+    - **Half period** is stored as `HalfPeriodTime` (Number). Unit is Second. Default value is `0.1`.
 
 ### Behavior actions
 
@@ -199,7 +232,7 @@ Make an object flash an effect for a period of time.
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Duration of the flashing, in seconds
       Use "0" to keep flashing until stopped.
-    - Parameter 3: 🔤 Object Effect Name (String)
+    - Parameter 3: objecteffectname
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -231,6 +264,7 @@ Stop flashing an effect of an object.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Flash::FlashEffect::Stop`.
 
+
 ### Behavior conditions
 
 **Half period**  
@@ -240,7 +274,7 @@ Compare the half period (time between flashes) of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -259,6 +293,7 @@ Check if an object is flashing an effect.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Flash::FlashEffect::IsFlashing`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -268,6 +303,19 @@ Check if an object is flashing an effect.
 ## Flash opacity smothly (fade) 
 
 Flash opacity smoothly (fade) in a repeating loop. 
+
+### Behavior properties
+
+- **Half period** (🔢 Number, Duration). Time between flashes. Default value is `0.1`.
+
+??? quote "See internal technical details"
+
+
+    - **Half period** is stored as `HalfPeriodTime` (Number). Unit is Second. Default value is `0.1`.
+    > This behavior must be used on an object also having a behavior with type "OpacityCapability::OpacityBehavior". This is stored on property `Opacity`.
+
+    > This behavior must be used on an object also having a behavior with type "Tween::TweenBehavior". This is stored on property `TweenBehavior`.
+
 
 ### Behavior actions
 
@@ -313,6 +361,7 @@ Stop flashing opacity of an object.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Flash::FlashOpacity::Stop`.
 
+
 ### Behavior conditions
 
 **Half period**  
@@ -322,7 +371,7 @@ Compare the half period (time between flashes) of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -341,6 +390,7 @@ Check if an object is flashing opacity.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Flash::FlashOpacity::IsFlashing`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -350,4 +400,4 @@ Check if an object is flashing opacity.
 
 ---
 
-*This page is an auto-generated reference page about the **Flash object** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Flash object** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

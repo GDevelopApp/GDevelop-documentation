@@ -122,7 +122,7 @@ Update a numerical value in the cloud storage.
 
     - Parameter 1 (❓ Yes or No): Use global storage (instead of user storage)
     - Parameter 2 (string): Storage key
-    - Parameter 3 (🔤 String): Operation to do on the data (one of: "add", "subtract", "multiply", "divide")
+    - Parameter 3 (stringwithselector): Operation to do on the data (one of: "add", "subtract", "multiply", "divide")
     - Parameter 4 (🔢 Number): Operation value
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
@@ -136,7 +136,7 @@ Update a text value in the cloud storage.
 
     - Parameter 1 (❓ Yes or No): Use global storage (instead of user storage)
     - Parameter 2 (string): Storage key
-    - Parameter 3 (🔤 String): Operation to do on the data (one of: "append", "prepend")
+    - Parameter 3 (stringwithselector): Operation to do on the data (one of: "append", "prepend")
     - Parameter 4 (🔢 Number): Operation value
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
@@ -198,7 +198,7 @@ Fetch the best scores on the leaderboard.
       * **``stored_timestamp``** (number): returns the timestamp (in seconds) of when the score was logged by the user
     - Parameter 2 (🔢 Number): Result limit (between 1 and 100, default : 10)
     - Parameter 3 (string): Leaderboard identifier (keep empty for default)
-    - Parameter 4 (🔤 String): Score filter (optional, default : none) (one of: "none", "better_than", "worse_than")
+    - Parameter 4 (stringwithselector): Score filter (optional, default : none) (one of: "none", "better_than", "worse_than")
     - Parameter 5 (🔢 Number): (optional) If a filter is selected, set the score basis to use
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
@@ -225,7 +225,7 @@ Fetch user's scores on the leaderboard.
     - Parameter 3 (string): Guest username (fallback if the player is not connected)
     - Parameter 4 (🔢 Number): Result limit (between 1 and 100, default : 10)
     - Parameter 5 (string): Leaderboard identifier (keep empty for default)
-    - Parameter 6 (🔤 String): Score filter (optional, default : none) (one of: "none", "better_than", "worse_than")
+    - Parameter 6 (stringwithselector): Score filter (optional, default : none) (one of: "none", "better_than", "worse_than")
     - Parameter 7 (🔢 Number): (optional) If a filter is selected, set the score basis to use
 
     > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
@@ -300,7 +300,7 @@ Fetch trophies informations of the connected user.
       * **``difficulty``** (string): ``Bronze``, ``Silver``, ``Gold``, or ``Platinum``
       * **``image_url``** (string): the URL of the trophy thumbnail image
       * **``achieved``** (string): the date when the trophy was achieved, "false" instead - Example: "5 days ago"
-    - Parameter 2 (🔤 String): Filter the trophies (default: none) (one of: "none", "achieved", "not_achieved")
+    - Parameter 2 (stringwithselector): Filter the trophies (default: none) (one of: "none", "achieved", "not_achieved")
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -449,7 +449,7 @@ Change the game session status on the server.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (🔤 String): Session status
+    - Parameter 1 (stringwithselector): Session status
       Status role : 
       - keep : keep the same status as before
       - active : set that the player is playing the game
@@ -460,6 +460,7 @@ Change the game session status on the server.
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `GamejoltAPI::UpdateSession`.
+
 
 ## Conditions
 
@@ -490,7 +491,7 @@ Compare Error message from the last request.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (string): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -513,7 +514,7 @@ Compare Error message from a specific request.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (string): Value to compare
     - Parameter 3 (string): Request name
 
@@ -559,7 +560,7 @@ Compare Authenticated user game token used for requests.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (string): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -571,12 +572,13 @@ Compare Authenticated username used for requests.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (string): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `GamejoltAPI::Username`.
+
 
 ## Expressions
 
@@ -594,4 +596,4 @@ Compare Authenticated username used for requests.
 
 ---
 
-*This page is an auto-generated reference page about the **Gamejolt** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Gamejolt** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

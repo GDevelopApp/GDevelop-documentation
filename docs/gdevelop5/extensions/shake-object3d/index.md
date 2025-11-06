@@ -20,6 +20,31 @@ The 3D racing game example uses this extension ([open the project online](https:
 
 Shake 3D objects with translation and rotation. 
 
+### Behavior properties
+
+- **Frequency** (🔢 Number). Default value is `5`.
+- **Start to shake at the object creation** (🔘 Boolean). Default value is `false`.
+- **Rotation amplitude around X axis** (🔢 Number, Angle). Default value is `5`.
+- **Rotation amplitude around Y axis** (🔢 Number, Angle). Default value is `5`.
+- **Rotation amplitude around Z axis** (🔢 Number, Angle). Default value is `5`.
+- **Translation amplitude on X axis** (🔢 Number, Distance). Default value is `0`.
+- **Translation amplitude on Y axis** (🔢 Number, Distance). Default value is `0`.
+- **Translation amplitude on Z axis** (🔢 Number, Distance). Default value is `0`.
+
+??? quote "See internal technical details"
+
+
+    - **Frequency** is stored as `Frequency` (Number). Default value is `5`.
+    - **Start to shake at the object creation** is stored as `IsStartingAtCreation` (Boolean). Default value is `false`.
+    > This behavior must be used on an object also having a behavior with type "Scene3D::Base3DBehavior". This is stored on property `Object3D`.
+
+    - **Rotation amplitude around X axis** is stored as `RotationAmplitudeX` (Number). Unit is DegreeAngle. Default value is `5`.
+    - **Rotation amplitude around Y axis** is stored as `RotationAmplitudeY` (Number). Unit is DegreeAngle. Default value is `5`.
+    - **Rotation amplitude around Z axis** is stored as `RotationAmplitudeZ` (Number). Unit is DegreeAngle. Default value is `5`.
+    - **Translation amplitude on X axis** is stored as `TranslationAmplitudeX` (Number). Unit is Pixel. Default value is `0`.
+    - **Translation amplitude on Y axis** is stored as `TranslationAmplitudeY` (Number). Unit is Pixel. Default value is `0`.
+    - **Translation amplitude on Z axis** is stored as `TranslationAmplitudeZ` (Number). Unit is Pixel. Default value is `0`.
+
 ### Behavior actions
 
 **Shaking frequency**  
@@ -77,6 +102,7 @@ Stop shaking the object with a linear easing.
 
     > Technical note: this action internal type (in GDevelop JSON) is `ShakeObject3D::ShakeModel3D::StopShaking`.
 
+
 ### Behavior conditions
 
 **Shaking frequency**  
@@ -86,7 +112,7 @@ Compare the shaking frequency of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -117,6 +143,7 @@ Check if the object is stopping to shake.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `ShakeObject3D::ShakeModel3D::IsStopping`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -126,4 +153,4 @@ Check if the object is stopping to shake.
 
 ---
 
-*This page is an auto-generated reference page about the **3D object shake** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **3D object shake** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

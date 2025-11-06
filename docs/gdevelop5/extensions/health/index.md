@@ -33,6 +33,41 @@ The top-down RPG example uses this extension ([open the project online](https://
 
 Manage health (life) points, shield and armor. 
 
+### Behavior properties
+
+- **Allow heals to increase health above max health (regen will never exceed max health)** (🔘 Boolean). Default value is `false`.
+- **Block excess damage when shield is broken** (🔘 Boolean). Default value is `false`.
+- **Chance to dodge incoming damage (between 0 and 1)** (🔢 Number). When a damage is dodged, no damage is applied. Default value is `0`.
+- **Damage cooldown** (🔢 Number, Duration). Default value is `0`.
+- **Flat damage reduction from armor** (🔢 Number). Incoming damages are reduced by this value. Default value is `0`.
+- **Starting health** (🔢 Number). Default value is `100`.
+- **Health regeneration delay ** (🔢 Number, Duration). Delay before health regeneration starts after a hit. Default value is `0`.
+- **Rate of health regeneration (points per second)** (🔢 Number). Default value is `0`.
+- **Maximum health** (🔢 Number). Use 0 for no maximum. Default value is `100`.
+- **Maximum shield** (🔢 Number). Leave 0 for unlimited. Default value is `0`.
+- **Percentage damage reduction from armor (between 0 and 1)** (🔢 Number). Default value is `0`.
+- **Duration of shield** (🔢 Number, Duration). Use 0 to make the shield permanent. Default value is `5`.
+- **Shield regeneration delay** (🔢 Number, Duration). Delay before shield regeneration starts after a hit. Default value is `0`.
+- **Rate of shield regeneration (points per second)** (🔢 Number). Default value is `0`.
+
+??? quote "See internal technical details"
+
+
+    - **Allow heals to increase health above max health (regen will never exceed max health)** is stored as `AllowOverHealing` (Boolean). Default value is `false`.
+    - **Block excess damage when shield is broken** is stored as `BlockExcessDamage` (Boolean). Default value is `false`.
+    - **Chance to dodge incoming damage (between 0 and 1)** is stored as `ChanceToDodge` (Number). Default value is `0`.
+    - **Damage cooldown** is stored as `DamageCooldown` (Number). Unit is Second. Default value is `0`.
+    - **Flat damage reduction from armor** is stored as `FlatDamageReduction` (Number). Default value is `0`.
+    - **Starting health** is stored as `Health` (Number). Default value is `100`.
+    - **Health regeneration delay ** is stored as `HealthRegenDelay` (Number). Unit is Second. Default value is `0`.
+    - **Rate of health regeneration (points per second)** is stored as `HealthRegenRate` (Number). Default value is `0`.
+    - **Maximum health** is stored as `MaxHealth` (Number). Default value is `100`.
+    - **Maximum shield** is stored as `MaxShieldPoints` (Number). Default value is `0`.
+    - **Percentage damage reduction from armor (between 0 and 1)** is stored as `PercentDamageReduction` (Number). Default value is `0`.
+    - **Duration of shield** is stored as `ShieldDuration` (Number). Unit is Second. Default value is `5`.
+    - **Shield regeneration delay** is stored as `ShieldRegenDelay` (Number). Unit is Second. Default value is `0`.
+    - **Rate of shield regeneration (points per second)** is stored as `ShieldRegenRate` (Number). Default value is `0`.
+
 ### Behavior actions
 
 **Activate shield**  
@@ -308,6 +343,7 @@ Trigger damage cooldown.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Health::Health::TriggerDamageCooldown`.
 
+
 ### Behavior conditions
 
 **Dodge chance**  
@@ -317,7 +353,7 @@ Compare the chance to dodge incoming damage (range: 0 to 1).
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -331,7 +367,7 @@ Compare the duration of damage cooldown (seconds).
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -345,7 +381,7 @@ Compare the time before damage cooldown ends (seconds).
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -359,7 +395,7 @@ Compare the flat damage reduction from the armor. Incoming damage is reduced by 
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -373,7 +409,7 @@ Compare current health points of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -387,7 +423,7 @@ Compare the delay before health regeneration starts after last being hit (second
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -401,7 +437,7 @@ Compare the rate of health regeneration (points per second).
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -499,7 +535,7 @@ Compare the maximum health points of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -513,7 +549,7 @@ Compare the maximum shield points of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -527,7 +563,7 @@ Compare the percent damage reduction from armor (range: 0 to 1).
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -541,7 +577,7 @@ Compare the health damage taken from most recent hit.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -555,7 +591,7 @@ Compare the shield damage taken from most recent hit.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -569,7 +605,7 @@ Compare the health points gained from previous heal.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -583,7 +619,7 @@ Compare the duration of the shield (seconds). A value of "0" means the shield is
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -597,7 +633,7 @@ Compare the current shield points of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -611,7 +647,7 @@ Compare the delay before shield regeneration starts after being hit (seconds).
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -625,7 +661,7 @@ Compare the rate of shield regeneration (points per second).
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -639,7 +675,7 @@ Compare the time before the shield duration ends (seconds).
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -653,12 +689,13 @@ Compare the time since last taken hit (seconds).
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Health::Health::TimeSinceLastHit`.
+
 
 ### Behavior expressions
 
@@ -687,4 +724,4 @@ Compare the time since last taken hit (seconds).
 
 ---
 
-*This page is an auto-generated reference page about the **Health points and damage** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Health points and damage** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

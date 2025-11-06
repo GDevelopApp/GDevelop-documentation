@@ -21,6 +21,27 @@ The Asteroid-like example uses this extension ([open the project online](https:/
 
 Teleport the object when leaving one side of the screen so that it immediately reappears on the opposite side, maintaining speed and trajectory. 
 
+### Behavior properties
+
+- **Bottom border of wrapped area (Y)** (🔢 Number, Distance). If blank, the value will be scene height. Default value is `0`.
+- **Left border of wrapped area (X)** (🔢 Number, Distance). Default value is `0`.
+- **Right border of wrapped area (X)** (🔢 Number, Distance). If blank, the value will be the scene width. Default value is `0`.
+- **Top border of wrapped area (Y)** (🔢 Number, Distance). Default value is `0`.
+- **Horizontal wrapping** (🔘 Boolean). Default value is `true`.
+- **Number of pixels past the center where the object teleports and appears** (🔢 Number, Distance). Default value is `0`.
+- **Vertical wrapping** (🔘 Boolean). Default value is `true`.
+
+??? quote "See internal technical details"
+
+
+    - **Bottom border of wrapped area (Y)** is stored as `BorderBottom` (Number). Unit is Pixel. Default value is `0`.
+    - **Left border of wrapped area (X)** is stored as `BorderLeft` (Number). Unit is Pixel. Default value is `0`.
+    - **Right border of wrapped area (X)** is stored as `BorderRight` (Number). Unit is Pixel. Default value is `0`.
+    - **Top border of wrapped area (Y)** is stored as `BorderTop` (Number). Unit is Pixel. Default value is `0`.
+    - **Horizontal wrapping** is stored as `HorizontalWrapping` (Boolean). Default value is `true`.
+    - **Number of pixels past the center where the object teleports and appears** is stored as `TriggerOffset` (Number). Unit is Pixel. Default value is `0`.
+    - **Vertical wrapping** is stored as `VerticalWrapping` (Boolean). Default value is `true`.
+
 ### Behavior actions
 
 **Enable horizontal wrapping**  
@@ -114,6 +135,7 @@ Set trigger offset (pixels).
 
     > Technical note: this action internal type (in GDevelop JSON) is `ScreenWrap::ScreenWrap::SetTriggerOffset`.
 
+
 ### Behavior conditions
 
 **Is horizontal wrapping**  
@@ -140,6 +162,7 @@ Check if the object is wrapping on the top and bottom borders.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `ScreenWrap::ScreenWrap::IsVerticalWrapping`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -153,6 +176,29 @@ Check if the object is wrapping on the top and bottom borders.
 ## Screen Wrap (physics objects) 
 
 Teleport the object when leaving one side of the screen so that it immediately reappears on the opposite side, maintaining speed and trajectory. 
+
+### Behavior properties
+
+- **Bottom border of wrapped area (Y)** (🔢 Number, Distance). If blank, the value will be scene height. Default value is `0`.
+- **Left border of wrapped area (X)** (🔢 Number, Distance). Default value is `0`.
+- **Right border of wrapped area (X)** (🔢 Number, Distance). If blank, the value will be the scene width. Default value is `0`.
+- **Top border of wrapped area (Y)** (🔢 Number, Distance). Default value is `0`.
+- **Horizontal wrapping** (🔘 Boolean). Default value is `true`.
+- **Number of pixels past the center where the object teleports and appears** (🔢 Number, Distance). Default value is `0`.
+- **Vertical wrapping** (🔘 Boolean). Default value is `true`.
+
+??? quote "See internal technical details"
+
+
+    - **Bottom border of wrapped area (Y)** is stored as `BorderBottom` (Number). Unit is Pixel. Default value is `0`.
+    - **Left border of wrapped area (X)** is stored as `BorderLeft` (Number). Unit is Pixel. Default value is `0`.
+    - **Right border of wrapped area (X)** is stored as `BorderRight` (Number). Unit is Pixel. Default value is `0`.
+    - **Top border of wrapped area (Y)** is stored as `BorderTop` (Number). Unit is Pixel. Default value is `0`.
+    - **Horizontal wrapping** is stored as `HorizontalWrapping` (Boolean). Default value is `true`.
+    > This behavior must be used on an object also having a behavior with type "Physics2::Physics2Behavior". This is stored on property `RequiredPhysicsBehavior`.
+
+    - **Number of pixels past the center where the object teleports and appears** is stored as `TriggerOffset` (Number). Unit is Pixel. Default value is `0`.
+    - **Vertical wrapping** is stored as `VerticalWrapping` (Boolean). Default value is `true`.
 
 ### Behavior actions
 
@@ -271,6 +317,7 @@ Set trigger offset (pixels).
 
     > Technical note: this action internal type (in GDevelop JSON) is `ScreenWrap::ScreenWrapPhysics::SetTriggerOffset`.
 
+
 ### Behavior conditions
 
 **Is horizontal wrapping**  
@@ -297,6 +344,7 @@ Check if the object is wrapping on the top and bottom borders.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `ScreenWrap::ScreenWrapPhysics::IsVerticalWrapping`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -310,4 +358,4 @@ Check if the object is wrapping on the top and bottom borders.
 
 ---
 
-*This page is an auto-generated reference page about the **Screen wrap** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Screen wrap** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

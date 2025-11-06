@@ -31,6 +31,47 @@ FEATURES
 
 Easily create a realistic liquid surface simulation. 
 
+### Behavior properties
+
+- **Auto waves ** (🔘 Boolean). Default value is `false`.
+- **BodyColor** (🎨 Color). Default value is `74;144;226`.
+- **Body opacity** (🔢 Number). Default value is `100`.
+- **ColorOfColumns** (🎨 Color). Default value is `255;255;255`.
+- **The number of columns (springs) extended on the water surface ** (🔢 Number). Default value is `50`.
+- **The Damping value. Controls how fast the springs will return to their original position** (🔢 Number). Default value is `0.025`.
+- **Show the spring columns** (🔘 Boolean). Default value is `false`.
+- **The Spread value will dictacte how much a wave oscilliation wil pass onto their neighboors. BEWARE, super high values may make the water oscilliate forever !** (🔢 Number). Default value is `0.1`.
+- **SufaceOpacity** (🔢 Number). Default value is `100`.
+- **SurfaceColor** (🎨 Color). Default value is `107;165;233`.
+- **SurfaceSize** (🔢 Number). Default value is `1`.
+- **The water spring constant. Grater values will pull the water with greater force.** (🔢 Number). Default value is `0.025`.
+- **Thickness of the surface collision** (🔢 Number). Default value is `8`.
+- **WaveDirection** (choice, one of: "Right", "Left"). Default value is `Right`.
+- **Wave length, the smaller the value, the longer the wave** (🔢 Number). Default value is `0.5`.
+- **Wave magnitude, in pixels** (🔢 Number). Default value is `16`.
+- **Wave period. between 0 and 1** (🔢 Number). Default value is `0.1`.
+
+??? quote "See internal technical details"
+
+
+    - **Auto waves ** is stored as `AutoWave` (Boolean). Default value is `false`.
+    - **BodyColor** is stored as `BodyColor` (Color). Default value is `74;144;226`.
+    - **Body opacity** is stored as `BodyOpacity` (Number). Default value is `100`.
+    - **ColorOfColumns** is stored as `ColorOfColumns` (Color). Default value is `255;255;255`.
+    - **The number of columns (springs) extended on the water surface ** is stored as `Columns` (Number). Default value is `50`.
+    - **The Damping value. Controls how fast the springs will return to their original position** is stored as `Dampening` (Number). Default value is `0.025`.
+    - **Show the spring columns** is stored as `ShowColumns` (Boolean). Default value is `false`.
+    - **The Spread value will dictacte how much a wave oscilliation wil pass onto their neighboors. BEWARE, super high values may make the water oscilliate forever !** is stored as `Spread` (Number). Default value is `0.1`.
+    - **SufaceOpacity** is stored as `SufaceOpacity` (Number). Default value is `100`.
+    - **SurfaceColor** is stored as `SurfaceColor` (Color). Default value is `107;165;233`.
+    - **SurfaceSize** is stored as `SurfaceSize` (Number). Default value is `1`.
+    - **The water spring constant. Grater values will pull the water with greater force.** is stored as `Tension` (Number). Default value is `0.025`.
+    - **Thickness of the surface collision** is stored as `Thickness` (Number). Default value is `8`.
+    - **WaveDirection** is stored as `WaveDirection` (Choice). Default value is `Right`.
+    - **Wave length, the smaller the value, the longer the wave** is stored as `WaveLength` (Number). Default value is `0.5`.
+    - **Wave magnitude, in pixels** is stored as `WaveMagnitude` (Number). Default value is `16`.
+    - **Wave period. between 0 and 1** is stored as `WavePeriod` (Number). Default value is `0.1`.
+
 ### Behavior actions
 
 **Force application**  
@@ -159,7 +200,7 @@ Change the direction of the waves.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (🔤 String): The water spring constant (one of: "Right", "Left")
+    - Parameter 2 (stringwithselector): The water spring constant (one of: "Right", "Left")
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -205,6 +246,7 @@ Component additions (Visual and Surface Collision).
 
     > Technical note: this action internal type (in GDevelop JSON) is `DynamicWater::DynamicWaterBody::WaterBodyAndCollision`.
 
+
 ### Behavior conditions
 
 **Surface collision**  
@@ -221,6 +263,7 @@ Test the collision between the object and the fluid surface.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `DynamicWater::DynamicWaterBody::CheckSurfaceCollisions`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -234,4 +277,4 @@ Test the collision between the object and the fluid surface.
 
 ---
 
-*This page is an auto-generated reference page about the **Dynamic Water** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Dynamic Water** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

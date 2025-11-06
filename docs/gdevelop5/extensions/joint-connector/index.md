@@ -97,10 +97,24 @@ Connect overlapping physics objects with a weld joint.
 
 
 
+
 ## Distance joint connector 
 
 Create and manage distance joints between two objects. 
 Acts like a spring because the objects try to stay the same distance apart. 
+
+### Behavior properties
+
+- **Breaking force** (🔢 Number, Force (in Newton)). Force required to break joint apart. Default value is `0`.
+- **Damping ratio** (🔢 Number). Set a number between 0 and 1. Default value is `1`.
+- **Frequency** (🔢 Number). Set a number between 0 and 60. Higher numbers represent a stiffer spring. Default value is `20`.
+
+??? quote "See internal technical details"
+
+
+    - **Breaking force** is stored as `BreakingForce` (Number). Unit is Newton. Default value is `0`.
+    - **Damping ratio** is stored as `DampingRatio` (Number). Default value is `1`.
+    - **Frequency** is stored as `Frequency` (Number). Default value is `20`.
 
 ### Behavior actions
 
@@ -157,6 +171,7 @@ Set frequency of joint.  Range: 0 to 60 (or the maximum FPS of game).
 
     > Technical note: this action internal type (in GDevelop JSON) is `JointConnector::DistanceJoint::SetFrequency`.
 
+
 _No expressions for this behavior._
 
 
@@ -164,6 +179,27 @@ _No expressions for this behavior._
 
 Create and manage revolute joints between two objects.
 Also known as a hinge joint because the objects act like they are connected with a hinge that pivots. 
+
+### Behavior properties
+
+- **Enable (or disable) angle limits on joint** (🔘 Boolean). Default value is `false`.
+- **Breaking force** (🔢 Number). Force required to break joint apart. Default value is `0`.
+- **Angle movement allowed in clockwise direction (degrees)** (🔢 Number). Default value is `0`.
+- **Angle movement allowed in counter-clockwise direction (degrees)** (🔢 Number). Default value is `0`.
+- **Motor enabled (or disabled) on joint** (🔘 Boolean). Default value is `false`.
+- **Motor rotation speed of joint** (🔢 Number). Use negative values to rotate in the opposite direction. Default value is `0`.
+- **Motor strength (torque) of joint** (🔢 Number). If motor speed is 0, then the motor will try to prevent rotation based on motor torque. Default value is `0`.
+
+??? quote "See internal technical details"
+
+
+    - **Enable (or disable) angle limits on joint** is stored as `AngleLimitsEnabled` (Boolean). Default value is `false`.
+    - **Breaking force** is stored as `BreakingForce` (Number). Default value is `0`.
+    - **Angle movement allowed in clockwise direction (degrees)** is stored as `ClockwiseAngleLimit` (Number). Default value is `0`.
+    - **Angle movement allowed in counter-clockwise direction (degrees)** is stored as `CounterClockwiseAngleLimit` (Number). Default value is `0`.
+    - **Motor enabled (or disabled) on joint** is stored as `MotorEnabled` (Boolean). Default value is `false`.
+    - **Motor rotation speed of joint** is stored as `MotorSpeed` (Number). Default value is `0`.
+    - **Motor strength (torque) of joint** is stored as `MotorTorque` (Number). Default value is `0`.
 
 ### Behavior actions
 
@@ -285,6 +321,7 @@ Set motor strength (torque) of joint.
 
     > Technical note: this action internal type (in GDevelop JSON) is `JointConnector::RevoluteJoint::SetMotorStrength`.
 
+
 ### Behavior conditions
 
 **Motor enabled (or disabled) on joint**  
@@ -299,6 +336,7 @@ Check if motor enabled (or disabled) on joint.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `JointConnector::RevoluteJoint::MotorEnabled`.
 
+
 _No expressions for this behavior._
 
 
@@ -307,6 +345,19 @@ _No expressions for this behavior._
 Create and manage rope joints between two objects. 
 Objects can get closer, but they cannot exceed the starting distance from each other.
  
+
+### Behavior properties
+
+- **Breaking force** (🔢 Number, Force (in Newton)). Force required to break joint apart. Default value is `0`.
+- **Damping ratio** (🔢 Number). Set a number between 0 and 1. Default value is `1`.
+- **Frequency** (🔢 Number). Set a number between 0 and 60. Higher numbers represent a stiffer spring. Default value is `20`.
+
+??? quote "See internal technical details"
+
+
+    - **Breaking force** is stored as `BreakingForce` (Number). Unit is Newton. Default value is `0`.
+    - **Damping ratio** is stored as `DampingRatio` (Number). Default value is `1`.
+    - **Frequency** is stored as `Frequency` (Number). Default value is `20`.
 
 ### Behavior actions
 
@@ -380,6 +431,7 @@ Change the max distance between objects.
 
     > Technical note: this action internal type (in GDevelop JSON) is `JointConnector::RopeJoint::SetMaxDistance`.
 
+
 ### Behavior conditions
 
 **Breaking force**  
@@ -389,7 +441,7 @@ Compare the force required to break joint apart.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -403,7 +455,7 @@ Compare the damping ratio of the object. Set a number between 0 and 1.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -417,7 +469,7 @@ Compare the frequency of the object. Set a number between 0 and 60. Higher numbe
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -431,12 +483,13 @@ Compare the max distance between objects.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `JointConnector::RopeJoint::MaxDistance`.
+
 
 ### Behavior expressions
 
@@ -451,6 +504,19 @@ Compare the max distance between objects.
 
 Create and manage weld joints between two objects.
 Also known as a static joint because the objects stay glued in the same relative position to each other. 
+
+### Behavior properties
+
+- **Breaking force** (🔢 Number, Force (in Newton)). Force required to break joint apart. Default value is `0`.
+- **Damping ratio** (🔢 Number). Set a number between 0 and 1. Default value is `1`.
+- **Frequency** (🔢 Number). Set a number between 0 and 60. Higher numbers represent a stronger bond. Default value is `30`.
+
+??? quote "See internal technical details"
+
+
+    - **Breaking force** is stored as `BreakingForce` (Number). Unit is Newton. Default value is `0`.
+    - **Damping ratio** is stored as `DampingRatio` (Number). Default value is `1`.
+    - **Frequency** is stored as `Frequency` (Number). Default value is `30`.
 
 ### Behavior actions
 
@@ -494,10 +560,11 @@ Set frequency of joint.  Range: 0 to 60 (or the maximum FPS of game).
 
     > Technical note: this action internal type (in GDevelop JSON) is `JointConnector::WeldJoint::SetFrequency`.
 
+
 _No expressions for this behavior._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **Joint connector** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Joint connector** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

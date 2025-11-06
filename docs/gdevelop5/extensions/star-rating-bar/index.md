@@ -22,6 +22,19 @@ There are ready-to-use bars in the asset-store [star rating bars pack](https://e
 
 An animated score counter with an icon and a customisable font. 
 
+### Object properties
+
+- **Default rate** (🔢 Number, Dimensionless). Default value is `3`.
+- **Shake the stars on value changes** (🔘 Boolean). Default value is `true`.
+- **Disable the rating** (🔘 Boolean).
+
+??? quote "See internal technical details"
+
+
+    - **Default rate** is stored as `Rate` (Number). Unit is Dimensionless. Default value is `3`.
+    - **Shake the stars on value changes** is stored as `ShakingOnHoverEnabled` (Boolean). Default value is `true`.
+    - **Disable the rating** is stored as `Disabled` (Boolean). Default value is ``.
+
 ### Object actions
 
 **Disable the rating**  
@@ -49,6 +62,7 @@ Change the rate of the object.
 
     > Technical note: this action internal type (in GDevelop JSON) is `StarRatingBar::StarRatingBar::SetRate`.
 
+
 ### Object conditions
 
 **Disable the rating**  
@@ -68,12 +82,13 @@ Compare the rate of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `StarRatingBar::StarRatingBar::Rate`.
+
 
 ### Object expressions
 
@@ -84,4 +99,4 @@ Compare the rate of the object.
 
 ---
 
-*This page is an auto-generated reference page about the **Star Rating Bar** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Star Rating Bar** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

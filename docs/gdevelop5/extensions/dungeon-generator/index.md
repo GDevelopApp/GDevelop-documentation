@@ -116,6 +116,7 @@ Generate a dungeon by placing rooms in random locations and moving them if they 
 
     > Technical note: this action internal type (in GDevelop JSON) is `DungeonGenerator::GenerateDungeonRooms`.
 
+
 ## Conditions
 
 **Hallway is a room entrance**  
@@ -129,16 +130,17 @@ Check if hallway is a room entrance.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `DungeonGenerator::IsRoomEntrance`.
 
+
 ## Expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
 | `DungeonGenerator::NeighborCount(object)` | Number of grid neighbors of an object.  Requires running the "CalculateGridNeighbors" action before using this expression. ||
-| | _👾 Object_ | Object |
+| | _objectlist_ | Object |
 | `DungeonGenerator::RoomID(object)` | The numerical order this room was created.  (Range: 1 to total number of rooms). ||
-| | _👾 Object_ | Room object |
+| | _objectlist_ | Room object |
 
 
 ---
 
-*This page is an auto-generated reference page about the **Dungeon generator** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Dungeon generator** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

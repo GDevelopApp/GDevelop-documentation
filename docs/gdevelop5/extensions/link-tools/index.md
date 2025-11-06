@@ -73,6 +73,7 @@ Link to neighbors on a rectangular grid.
 
     > Technical note: this action internal type (in GDevelop JSON) is `LinkTools::LinkRectangularNeighbors`.
 
+
 ## Conditions
 
 **Can reach**  
@@ -121,16 +122,34 @@ Can reach through a given cost sum.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `LinkTools::CanReachWithMaxWeight`.
 
+
 ## Expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
 | `LinkTools::CostSum(object)` | Cost sum. ||
-| | _👾 Object_ | Object |
+| | _objectlist_ | Object |
 
 ## Link path finding 
 
 The object will move from one object instance to another according to how they are linked to one another to reach a targeted object. 
+
+### Behavior properties
+
+- **Acceleration** (🔢 Number, Acceleration). Default value is `400`.
+- **Angle offset** (🔢 Number, Angle). Default value is `0`.
+- **Rotate object** (🔘 Boolean). Default value is `true`.
+- **Rotation speed** (🔢 Number, Angular speed). Default value is `180`.
+- **Maximum speed** (🔢 Number, Speed). Default value is `200`.
+
+??? quote "See internal technical details"
+
+
+    - **Acceleration** is stored as `Acceleration` (Number). Unit is PixelAcceleration. Default value is `400`.
+    - **Angle offset** is stored as `AngleOffset` (Number). Unit is DegreeAngle. Default value is `0`.
+    - **Rotate object** is stored as `Rotate` (Boolean). Default value is `true`.
+    - **Rotation speed** is stored as `RotationSpeed` (Number). Unit is AngularSpeed. Default value is `180`.
+    - **Maximum speed** is stored as `SpeedMax` (Number). Unit is PixelSpeed. Default value is `200`.
 
 ### Behavior actions
 
@@ -230,6 +249,7 @@ Change the maximum speed of the object.
 
     > Technical note: this action internal type (in GDevelop JSON) is `LinkTools::LinkPathFinding::SetSpeedMax`.
 
+
 ### Behavior conditions
 
 **Acceleration**  
@@ -239,7 +259,7 @@ Compare the acceleration of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -253,7 +273,7 @@ Compare the rotation offset applied when moving the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -327,7 +347,7 @@ Compare the rotation speed of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -341,12 +361,13 @@ Compare the maximum speed of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `LinkTools::LinkPathFinding::SpeedMax`.
+
 
 ### Behavior expressions
 
@@ -371,4 +392,4 @@ Compare the maximum speed of the object.
 
 ---
 
-*This page is an auto-generated reference page about the **Linked Objects Tools** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Linked Objects Tools** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

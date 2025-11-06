@@ -50,6 +50,7 @@ Update the data in the rich presence. See the discord documentation for more inf
 
 
 
+
 ---
 
-*This page is an auto-generated reference page about the **Discord rich presence (Windows, Mac, Linux)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Discord rich presence (Windows, Mac, Linux)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

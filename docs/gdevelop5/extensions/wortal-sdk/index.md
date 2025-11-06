@@ -347,7 +347,7 @@ Gets a player's stats.
 ??? quote "See parameters & details"
 
     - Parameter 1 (string): Level
-    - Parameter 2 (🔤 String): Period of stat (one of: "alltime", "daily", "monthly", "weekly")
+    - Parameter 2 (stringwithselector): Period of stat (one of: "alltime", "daily", "monthly", "weekly")
     - Parameter 3 (🗄️ Any variable): Variable to save the result (Array)
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
@@ -406,7 +406,7 @@ Logs the end of a level. To ensure the level timer is recorded the level name mu
 
     - Parameter 1 (string): Level
     - Parameter 2 (string): Score
-    - Parameter 3 (🔤 String): Flag if level is completed or not (one of: "completed", "not completed")
+    - Parameter 3 (stringwithselector): Flag if level is completed or not (one of: "completed", "not completed")
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
@@ -473,7 +473,7 @@ Logs the end of a tutorial. To ensure the level timer is recorded the tutorial n
 ??? quote "See parameters & details"
 
     - Parameter 1 (string): Name of the tutorial
-    - Parameter 2 (🔤 String): Was the tutorial completed (one of: "compeleted", "not compeleted")
+    - Parameter 2 (stringwithselector): Was the tutorial completed (one of: "compeleted", "not compeleted")
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -633,7 +633,7 @@ Shows a banner ad.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (🔤 String): Ad position on the screen (one of: "top", "bottom")
+    - Parameter 1 (stringwithselector): Ad position on the screen (one of: "top", "bottom")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -655,7 +655,7 @@ Shows an interstitial ad. These can be shown at various points in the game such 
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (🔤 String): Placement type (one of: "start", "pause", "next", "browse")
+    - Parameter 1 (stringwithselector): Placement type (one of: "start", "pause", "next", "browse")
     - Parameter 2 (string): Ad placement
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -751,6 +751,7 @@ Posts an update to the current context.
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `WortalSDK::UpdateContextAsync`.
+
 
 ## Conditions
 
@@ -853,6 +854,7 @@ To check if should reward player after showing rewarded ad.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `WortalSDK::ShouldRewardPlayer`.
 
+
 ## Expressions
 
 | Expression | Description |  |
@@ -870,4 +872,4 @@ To check if should reward player after showing rewarded ad.
 
 ---
 
-*This page is an auto-generated reference page about the **Wortal SDK** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Wortal SDK** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

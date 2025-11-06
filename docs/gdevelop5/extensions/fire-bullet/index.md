@@ -37,6 +37,45 @@ A simple example shows how to make firing patterns ([open the project online](ht
 
 Fire bullets, manage ammo, reloading, and overheating. Once added to your object that must shoot, use the behavior action in your events to fire another object as a bullet. This action will also make the bullet move (using a permanent force) at the speed specified in the action. 
 
+### Behavior properties
+
+- **Angle variance** (🔢 Number, Angle). Make imperfect aim (between 0 and 180 degrees). Default value is `0`.
+- **Reload automatically** (🔘 Boolean). Default value is `true`.
+- **Number of bullets created at once** (🔢 Number). Multi-Fire bullets will be evenly spaced inside the firing arc. Default value is `1`.
+- **Bullet speed variance** (🔢 Number, Speed). Bullet speed will be adjusted by a random value within this range. Default value is `0`.
+- **Exponential cooling rate (per second)** (🔢 Number). Happens faster when heat is high and slower when heat is low. Default value is `0.3`.
+- **Firing cooldown** (🔢 Number, Duration). Objects cannot shoot while firing cooldown is active. Default value is `0.1`.
+- **Firing arc** (🔢 Number, Angle). Multi-Fire bullets will be evenly spaced inside the firing arc. Default value is `45`.
+- **Heat increase per shot (between 0 and 1)** (🔢 Number). Object is overheated when Heat reaches 1. Default value is `0`.
+- **Linear cooling rate (per second)** (🔢 Number). Default value is `0.1`.
+- **Max ammo ** (🔢 Number). Default value is `0`.
+- **Overheat duration** (🔢 Number, Duration). Object cannot shoot while overheat duration is active. Default value is `0`.
+- **Reloading duration** (🔢 Number, Duration). Objects cannot shoot while reloading is in progress. Default value is `1`.
+- **Rotate bullets to match their trajectory** (🔘 Boolean). Default value is `true`.
+- **Shots per reload ** (🔢 Number). Use 0 to disable reloading. Default value is `0`.
+- **Starting ammo** (🔢 Number). Default value is `0`.
+- **Unlimited ammo** (🔘 Boolean). Default value is `true`.
+
+??? quote "See internal technical details"
+
+
+    - **Angle variance** is stored as `AngleVariance` (Number). Unit is DegreeAngle. Default value is `0`.
+    - **Reload automatically** is stored as `AutomaticReloading` (Boolean). Default value is `true`.
+    - **Number of bullets created at once** is stored as `BulletQuantity` (Number). Default value is `1`.
+    - **Bullet speed variance** is stored as `BulletSpeedVariance` (Number). Unit is PixelSpeed. Default value is `0`.
+    - **Exponential cooling rate (per second)** is stored as `ExponentialCoolingRate` (Number). Default value is `0.3`.
+    - **Firing cooldown** is stored as `FireCooldown` (Number). Unit is Second. Default value is `0.1`.
+    - **Firing arc** is stored as `FiringArc` (Number). Unit is DegreeAngle. Default value is `45`.
+    - **Heat increase per shot (between 0 and 1)** is stored as `HeatIncreasePerShot` (Number). Default value is `0`.
+    - **Linear cooling rate (per second)** is stored as `LinearCoolingRate` (Number). Default value is `0.1`.
+    - **Max ammo ** is stored as `MaxAmmo` (Number). Default value is `0`.
+    - **Overheat duration** is stored as `OverheatDuration` (Number). Unit is Second. Default value is `0`.
+    - **Reloading duration** is stored as `ReloadDuration` (Number). Unit is Second. Default value is `1`.
+    - **Rotate bullets to match their trajectory** is stored as `RotateBullet` (Boolean). Default value is `true`.
+    - **Shots per reload ** is stored as `ShotsPerReload` (Number). Default value is `0`.
+    - **Starting ammo** is stored as `StartingAmmo` (Number). Default value is `0`.
+    - **Unlimited ammo** is stored as `UnlimitedAmmo` (Boolean). Default value is `true`.
+
 ### Behavior actions
 
 **Fire bullets toward an angle**  
@@ -386,6 +425,7 @@ Enable unlimited ammo.
 
     > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::SetUnlimitedAmmo`.
 
+
 ### Behavior conditions
 
 **Ammo quantity**  
@@ -395,7 +435,7 @@ Compare the ammo quantity.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -409,7 +449,7 @@ Compare the angle variance (in degrees) applied to each bullet.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -423,7 +463,7 @@ Compare the number of bullets shot every time the "fire bullet" action is used.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -449,7 +489,7 @@ Compare the bullet speed variance (pixels per second) applied to each bullet.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -463,7 +503,7 @@ Compare the firing cooldown (in seconds) also known as rate of fire.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -477,7 +517,7 @@ Compare the remaining duration before the cooldown will permit a bullet to be fi
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -491,7 +531,7 @@ Compare the exponential cooling rate, per second.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -505,7 +545,7 @@ Compare the firing arc (in degrees) where bullets are shot. Bullets are evenly s
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -531,7 +571,7 @@ Compare the heat increase per shot.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -545,7 +585,7 @@ Compare the heat level (range: 0 to 1).
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -655,7 +695,7 @@ Compare the linear cooling rate (per second).
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -669,7 +709,7 @@ Compare the max ammo.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -683,7 +723,7 @@ Compare the overheat duration (in seconds). When an object is overheated, it can
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -697,7 +737,7 @@ Compare the remaining duration before the overheat penalty ends, in seconds.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -711,7 +751,7 @@ Compare the reload duration (in seconds).
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -725,7 +765,7 @@ Compare the remaining duration before the reload finishes, in seconds.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -739,7 +779,7 @@ Compare the remaining shots before the next reload is required.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -753,12 +793,13 @@ Compare the number of shots per reload.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `FireBullet::FireBullet::ShotsPerReload`.
+
 
 ### Behavior expressions
 
@@ -790,4 +831,4 @@ Compare the number of shots per reload.
 
 ---
 
-*This page is an auto-generated reference page about the **Fire bullets** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Fire bullets** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

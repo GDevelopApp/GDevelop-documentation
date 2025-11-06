@@ -26,7 +26,7 @@ Checks if the object has landed on floor.
 
     - Parameter 1: 👾 Object
     - Parameter 2: 🧩 Behavior
-    - Parameter 3 (🔤 String): Type (one of: "Must have jump", "Cant have jump", "Any")
+    - Parameter 3 (stringwithselector): Type (one of: "Must have jump", "Cant have jump", "Any")
     - Parameter 4 (🔢 Number): Fall distance
       Based of orgin point Y axie and The number will mean the lowest ammount until true so anything thats the number or higher will be true
     - Parameter 5 (🔢 Number): Fall speed
@@ -43,7 +43,7 @@ Checks if the object has landed on a given floor.
 
     - Parameter 1: 👾 Object
     - Parameter 2: 🧩 Behavior
-    - Parameter 3 (🔤 String): Type (one of: "Must have jump", "Cant have jump", "Any")
+    - Parameter 3 (stringwithselector): Type (one of: "Must have jump", "Cant have jump", "Any")
     - Parameter 4 (🔢 Number): Fall distance
       Based of orgin point Y axie and The number will mean the lowest ammount until true so anything thats the number or higher will be true
     - Parameter 5 (🔢 Number): Fall speed
@@ -57,6 +57,7 @@ Checks if the object has landed on a given floor.
 
 
 
+
 ---
 
-*This page is an auto-generated reference page about the **HasLanded** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **HasLanded** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

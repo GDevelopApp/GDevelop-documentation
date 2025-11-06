@@ -22,6 +22,19 @@ There are ready-to-use resource bars in the asset-store [resource bars pack](htt
 
 A bar that represents a resource in the game (health, mana, ammo, etc). 
 
+### Object properties
+
+- **Maximum value** (🔢 Number, Dimensionless). Default value is `3`.
+- **Initial value** (🔢 Number, Dimensionless). Default value is `3`.
+- **Unit width** (🔢 Number, Distance). How much pixels to show for a value of 1. Default value is `24`.
+
+??? quote "See internal technical details"
+
+
+    - **Maximum value** is stored as `MaxValue` (Number). Unit is Dimensionless. Default value is `3`.
+    - **Initial value** is stored as `InitialValue` (Number). Unit is Dimensionless. Default value is `3`.
+    - **Unit width** is stored as `UnitWidth` (Number). Unit is Pixel. Default value is `24`.
+
 ### Object actions
 
 **Maximum value**  
@@ -49,6 +62,7 @@ Change the value of the object.
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `TiledUnitsBar::TiledUnitsBar::SetValue`.
+
 
 ### Object conditions
 
@@ -80,7 +94,7 @@ Compare the maximum value of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -93,12 +107,13 @@ Compare the value of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `TiledUnitsBar::TiledUnitsBar::Value`.
+
 
 ### Object expressions
 
@@ -110,4 +125,4 @@ Compare the value of the object.
 
 ---
 
-*This page is an auto-generated reference page about the **Resource bar (separated units)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Resource bar (separated units)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

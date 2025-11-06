@@ -61,7 +61,7 @@ This affects all 3d objects that use the same material.
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
-    - Parameter 3 (🔤 String): Blend mode (one of: "Keep model blend mode", "Normal", "Additive", "Subtractive", "Multiply")
+    - Parameter 3 (stringwithselector): Blend mode (one of: "Keep model blend mode", "Normal", "Additive", "Subtractive", "Multiply")
     - Parameter 4 (❓ Yes or No): Make the material unique to this object
       If No, it will affect all 3D objects that use the same material.
 
@@ -98,7 +98,7 @@ Note that if a morph target is affected by a playing animation, it will override
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
     - Parameter 3 (string): Morph target name
-    - Parameter 4 (🔤 String): Operator (one of: "=", "+", "-", "*", "/")
+    - Parameter 4 (stringwithselector): Operator (one of: "=", "+", "-", "*", "/")
     - Parameter 5 (🔢 Number): Value (0 to 1.0)
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
@@ -112,7 +112,7 @@ Change the opacity of the 3D objects and all their children.
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
-    - Parameter 3 (🔤 String): Operator (one of: "=", "+", "-", "*", "/")
+    - Parameter 3 (stringwithselector): Operator (one of: "=", "+", "-", "*", "/")
     - Parameter 4 (🔢 Number): Opacity (0 to 255)
     - Parameter 5 (❓ Yes or No): Make the material unique to this object
       If No, it will affect all 3D objects that use the same material.
@@ -147,7 +147,7 @@ Note that if a child is affected by a playing animation, it will override this c
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
     - Parameter 3 (string): Child name
-    - Parameter 4 (🔤 String): Axis (one of: "X", "Y", "Z")
+    - Parameter 4 (stringwithselector): Axis (one of: "X", "Y", "Z")
     - Parameter 5 (🔢 Number): Angle (in degrees)
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
@@ -165,7 +165,7 @@ Note that if a child is affected by a playing animation, it will override this c
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
     - Parameter 3 (string): Child name
-    - Parameter 4 (🔤 String): Axis (one of: "X", "Y", "Z")
+    - Parameter 4 (stringwithselector): Axis (one of: "X", "Y", "Z")
     - Parameter 5 (🔢 Number): Speed (in degrees per second)
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
@@ -238,7 +238,7 @@ Rotates the 3D object along its local axis.
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
-    - Parameter 3 (🔤 String): Axis (one of: "X", "Y", "Z")
+    - Parameter 3 (stringwithselector): Axis (one of: "X", "Y", "Z")
     - Parameter 4 (🔢 Number): Angle (in degrees)
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
@@ -250,7 +250,7 @@ Rotates the camera along its local axis.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (🔤 String): Axis (one of: "X", "Y", "Z")
+    - Parameter 1 (stringwithselector): Axis (one of: "X", "Y", "Z")
     - Parameter 2 (🔢 Number): Angle (in degrees)
     - Parameter 3: 🔤 Layer name (String)
     - Parameter 4 (🔢 Number): Camera number
@@ -264,7 +264,7 @@ Rotates the camera along its local axis.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (🔤 String): Axis (one of: "X", "Y", "Z")
+    - Parameter 1 (stringwithselector): Axis (one of: "X", "Y", "Z")
     - Parameter 2 (🔢 Number): Speed (in degrees per second)
     - Parameter 3: 🔤 Layer name (String)
     - Parameter 4 (🔢 Number): Camera number
@@ -280,7 +280,7 @@ Rotates the 3D object along its local axis.
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
-    - Parameter 3 (🔤 String): Axis (one of: "X", "Y", "Z")
+    - Parameter 3 (stringwithselector): Axis (one of: "X", "Y", "Z")
     - Parameter 4 (🔢 Number): Speed (in degrees per second)
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
@@ -292,7 +292,7 @@ Translates the camera along its local axis.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (🔤 String): Axis (one of: "X", "Y", "Z")
+    - Parameter 1 (stringwithselector): Axis (one of: "X", "Y", "Z")
     - Parameter 2 (🔢 Number): Distance (in pixels)
     - Parameter 3: 🔤 Layer name (String)
     - Parameter 4 (🔢 Number): Camera number
@@ -306,7 +306,7 @@ Translates the camera along its local axis.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (🔤 String): Axis (one of: "X", "Y", "Z")
+    - Parameter 1 (stringwithselector): Axis (one of: "X", "Y", "Z")
     - Parameter 2 (🔢 Number): Speed (in pixels per second)
     - Parameter 3: 🔤 Layer name (String)
     - Parameter 4 (🔢 Number): Camera number
@@ -322,7 +322,7 @@ Translates the 3D object along its local axis.
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
-    - Parameter 3 (🔤 String): Axis (one of: "X", "Y", "Z")
+    - Parameter 3 (stringwithselector): Axis (one of: "X", "Y", "Z")
     - Parameter 4 (🔢 Number): Distance (in pixels)
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
@@ -336,7 +336,7 @@ Translates the 3D object along its local axis.
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
-    - Parameter 3 (🔤 String): Axis (one of: "X", "Y", "Z")
+    - Parameter 3 (stringwithselector): Axis (one of: "X", "Y", "Z")
     - Parameter 4 (🔢 Number): Speed (in pixels per second)
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
@@ -352,7 +352,7 @@ Rotates the 3D object so that its local +X direction points toward the target 3D
     - Parameter 2 (🧩 Behavior): 3D capability
     - Parameter 3 (👾 Object): Target 3D Object
     - Parameter 4 (🧩 Behavior): Target 3D capability
-    - Parameter 5 (🔤 String): The point of the target 3D object to look at (one of: "Center point", "Origin point")
+    - Parameter 5 (stringwithselector): The point of the target 3D object to look at (one of: "Center point", "Origin point")
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
@@ -382,7 +382,7 @@ Note that the variable will only store the value of the first referenced 3D obje
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
-    - Parameter 3 (🔤 String): Axis (one of: "X", "Y", "Z", "-X", "-Y", "-Z")
+    - Parameter 3 (stringwithselector): Axis (one of: "X", "Y", "Z", "-X", "-Y", "-Z")
     - Parameter 4: 🗄️ Any variable
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
@@ -430,7 +430,7 @@ Overlay the object on the 3D object.
       Hides the 2D object when the 3D object is behind the 3D camera.
     - Parameter 3 (👾 Object): Target 3D object
     - Parameter 4 (🧩 Behavior): Target 3D Capability
-    - Parameter 5 (🔤 String): Target point (one of: "Origin point", "Center point")
+    - Parameter 5 (stringwithselector): Target point (one of: "Origin point", "Center point")
     - Parameter 6 (🔢 Number): X Offset
     - Parameter 7 (🔢 Number): Y Offset
     - Parameter 8 (🔢 Number): Z Offset
@@ -452,6 +452,7 @@ Note that if a morph target is affected by a playing animation, it will override
 
     > Technical note: this action internal type (in GDevelop JSON) is `A3F::ResetMorphTargets`.
 
+
 ## Conditions
 
 **↔️Check the distance between two objects in 3D**  
@@ -463,7 +464,7 @@ Checks the distance between two objects (origin points) in 3D.
     - Parameter 2 (🧩 Behavior): 3D capability
     - Parameter 3: 👾 Object
     - Parameter 4 (🧩 Behavior): Target 3D capability
-    - Parameter 5 (🔤 String): Operator (one of: "=", "<", ">", "≤", "≥", "≠")
+    - Parameter 5 (stringwithselector): Operator (one of: "=", "<", ">", "≤", "≥", "≠")
     - Parameter 6 (🔢 Number): Distance
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
@@ -478,26 +479,46 @@ This condition can be used for non-3D objects as well, but in those cases the op
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
-    - Parameter 3 (🔤 String): Operator (one of: "=", "<", ">", "≤", "≥", "≠")
+    - Parameter 3 (stringwithselector): Operator (one of: "=", "<", ">", "≤", "≥", "≠")
     - Parameter 4 (🔢 Number): Opacity (0 to 255)
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `A3F::CheckOpacity`.
 
+
 ## Expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
 | `A3F::DistanceObjects(object, object)` | Returns the distance between objects in 3D. (Distance between origin points)This expression always returns 0 when a 2D object is selected. ||
-| | _👾 Object_ | Object |
-| | _👾 Object_ | Target Object |
+| | _objectlist_ | Object |
+| | _objectlist_ | Target Object |
 | `A3F::Opacity(object)` | Returns the opacity of the 3D object, or the first opacity found among its children. ||
-| | _👾 Object_ | Object |
+| | _objectlist_ | Object |
 
 ## Advanced 3D Initial Properties 
 
 Use this when you want to set the initial properties of a 3D object. 
+
+### Behavior properties
+
+- **Axes helper** (🔘 Boolean). Default value is `false`.
+- **Blend mode** (choice, one of: "Keep model blend mode", "Normal", "Additive", "Subtractive", "Multiply"). This affects all 3d objects that use the same material. Default value is `Keep model blend mode`.
+- **Cast Shadow** (🔘 Boolean). If both "Cast Shadow" and "Receive Shadow" are enabled, striped patterns are likely to occur in the shadow. Default value is `false`.
+- **Opacity (0 to 255)** (🔢 Number). This affects all 3d objects that use the same material. Default value is `255`.
+- **Receive Shadow** (🔘 Boolean). If both "Cast Shadow" and "Receive Shadow" are enabled, striped patterns are likely to occur in the shadow. Default value is `false`.
+
+??? quote "See internal technical details"
+
+
+    - **Axes helper** is stored as `AxesHelper` (Boolean). Default value is `false`.
+    - **Blend mode** is stored as `Blend` (Choice). Default value is `Keep model blend mode`.
+    > This behavior must be used on an object also having a behavior with type "Scene3D::Base3DBehavior". This is stored on property `Capability3d`.
+
+    - **Cast Shadow** is stored as `CastShadow` (Boolean). Default value is `false`.
+    - **Opacity (0 to 255)** is stored as `Opacity` (Number). Default value is `255`.
+    - **Receive Shadow** is stored as `ReceiveShadow` (Boolean). Default value is `false`.
 
 _No expressions for this behavior._
 
@@ -505,6 +526,41 @@ _No expressions for this behavior._
 ## Advanced 3D Light 
 
 ⚠️ 3D Lights are highly loaded. 
+
+### Behavior properties
+
+- **Cast Shadow** (🔘 Boolean). ⚠️ This is expensive and requires tweaking to get shadows looking right. Default value is `false`.
+- **Color** (🎨 Color). Default value is `255;255;255`.
+- **Distance (Default: 0)** (🔢 Number). For Point and Spot Lights. 0 is no limit. Default value is `0`.
+- **Intensity (Default: 1)** (🔢 Number). Default value is `1`.
+- **Light Helper** (🔘 Boolean). Default value is `false`.
+- **Shadow Depth Bias (Default: 0)** (🔢 Number). It is mainly effective for filling gaps between objects and shadows. Reference value: [Directional Light: 0.002] [Point Light: 0.001] [Spot Light: 0.00001]. Default value is `0`.
+- **Shadow Range Helper** (🔘 Boolean). Default value is `false`.
+- **Shadow Map Size** (choice, one of: "128px", "256px", "512px", "1024px", "2048px"). The larger the map, the better the shadow quality, but the greater the load. Default value is `512px`.
+- **Shadow Normal Bias (Default: 0)** (🔢 Number). It is mainly effective in reducing striped patterns. Reference value: [Directional Light: 2] [Point Light: 1] [Spot Light: 1]. Default value is `0`.
+- **Range to Draw Shadows** (🔢 Number). The smaller the range, the better the shadow quality. For Point and Spot Lights, this value is valid only if the Distance is 0. Default value is `256`.
+- **Spot Angle (0 to 180)** (🔢 Number). For Spot Lights. The narrower the angle, the better the shadow quality. If it is a multiple of 90, the shadow will not be cast correctly. Default value is `45`.
+- **Spot Penumbra (0 to 1)** (🔢 Number). For Spot Lights. Default value is `0.5`.
+- **Type** (choice, one of: "Directional Light", "Point Light", "Spot Light"). Default value is `Directional Light`.
+
+??? quote "See internal technical details"
+
+
+    > This behavior must be used on an object also having a behavior with type "Scene3D::Base3DBehavior". This is stored on property `Capability3d`.
+
+    - **Cast Shadow** is stored as `CastShadow` (Boolean). Default value is `false`.
+    - **Color** is stored as `Color` (Color). Default value is `255;255;255`.
+    - **Distance (Default: 0)** is stored as `Distance` (Number). Default value is `0`.
+    - **Intensity (Default: 1)** is stored as `Intensity` (Number). Default value is `1`.
+    - **Light Helper** is stored as `LightHelper` (Boolean). Default value is `false`.
+    - **Shadow Depth Bias (Default: 0)** is stored as `ShadowDepthBias` (Number). Default value is `0`.
+    - **Shadow Range Helper** is stored as `ShadowHelper` (Boolean). Default value is `false`.
+    - **Shadow Map Size** is stored as `ShadowMapSize` (Choice). Default value is `512px`.
+    - **Shadow Normal Bias (Default: 0)** is stored as `ShadowNormalBias` (Number). Default value is `0`.
+    - **Range to Draw Shadows** is stored as `ShadowRange` (Number). Default value is `256`.
+    - **Spot Angle (0 to 180)** is stored as `SpotAngle` (Number). Default value is `45`.
+    - **Spot Penumbra (0 to 1)** is stored as `SpotPenumbra` (Number). Default value is `0.5`.
+    - **Type** is stored as `Type` (Choice). Default value is `Directional Light`.
 
 ### Behavior actions
 
@@ -515,10 +571,10 @@ Gradually changes the color of the 3D Light.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: color
+    - Parameter 2: 🎨 Color
     - Parameter 3 (🔢 Number): Duration (in seconds)
       If the duration is set to 0, the change is immediate.
-    - Parameter 4 (🔤 String): Gradient color space (one of: "RGB", "HSL")
+    - Parameter 4 (stringwithselector): Gradient color space (one of: "RGB", "HSL")
 
     > Technical note: parameter 5 is an internal parameter handled by GDevelop.
 
@@ -539,10 +595,11 @@ Gradually changes the intensity of the 3D Light.
 
     > Technical note: this action internal type (in GDevelop JSON) is `A3F::A3L::ChangeIntensity`.
 
+
 _No expressions for this behavior._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **Advanced 3D Features** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Advanced 3D Features** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

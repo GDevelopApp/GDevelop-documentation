@@ -18,6 +18,27 @@ Change the animation according to the movement direction.
 
 Change the animation according to the movement direction. 
 
+### Behavior properties
+
+- **Angle offset** (🔢 Number, Angle). Set to 90°, "Walk0" becomes the animation for down. Default value is `0`.
+- **Animation name** (string). Animations must be called "Walk0", "Walk1"... for left, down... Default value is `Walk`.
+- **Number of directions** (🔢 Number, Dimensionless). Leave to 0 to automatically use 8 when diagonals are allowed and 4 otherwise. Default value is `0`.
+- **Pause animations when objects stop** (🔘 Boolean). Default value is `true`.
+- **Scale animations according to speed** (🔘 Boolean). Default value is `true`.
+
+??? quote "See internal technical details"
+
+
+    - **Angle offset** is stored as `AngleOffset` (Number). Unit is DegreeAngle. Default value is `0`.
+    > This behavior must be used on an object also having a behavior with type "AnimatableCapability::AnimatableBehavior". This is stored on property `Animation`.
+
+    - **Animation name** is stored as `AnimationName` (String). Default value is `Walk`.
+    - **Number of directions** is stored as `DirectionCount` (Number). Unit is Dimensionless. Default value is `0`.
+    - **Pause animations when objects stop** is stored as `IsPausingAnimation` (Boolean). Default value is `true`.
+    - **Scale animations according to speed** is stored as `IsScalingAnimation` (Boolean). Default value is `true`.
+    > This behavior must be used on an object also having a behavior with type "TopDownMovementBehavior::TopDownMovementBehavior". This is stored on property `TopDownMovement`.
+
+
 ### Behavior actions
 
 **Animation name**  
@@ -60,6 +81,7 @@ Change whether animations are scaled according to speed or not.
 
     > Technical note: this action internal type (in GDevelop JSON) is `TopDownMovementAnimator::TopDownMovementAnimator::SetIsScalingAnimation`.
 
+
 ### Behavior conditions
 
 **Animation name**  
@@ -69,7 +91,7 @@ Compare the animation name of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (string): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -100,6 +122,7 @@ Check if animations are scaled according to speed.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `TopDownMovementAnimator::TopDownMovementAnimator::IsScalingAnimation`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -109,4 +132,4 @@ Check if animations are scaled according to speed.
 
 ---
 
-*This page is an auto-generated reference page about the **Top-down movement animator** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Top-down movement animator** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

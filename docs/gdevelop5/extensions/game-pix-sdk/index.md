@@ -86,6 +86,7 @@ Show the reward ad (full screen).
 
     > Technical note: this action internal type (in GDevelop JSON) is `GamePixSDK::RewardAd`.
 
+
 ## Conditions
 
 **GamePix SDK is initialised**  
@@ -132,6 +133,7 @@ Check if player should be rewarded.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `GamePixSDK::RewardAdRewardPlayer`.
 
+
 ## Expressions
 
 | Expression | Description |  |
@@ -141,4 +143,4 @@ Check if player should be rewarded.
 
 ---
 
-*This page is an auto-generated reference page about the **GamePix SDK** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **GamePix SDK** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

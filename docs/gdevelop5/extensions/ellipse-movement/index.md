@@ -32,6 +32,27 @@ It can be used for:
 
 Move objects on ellipses or smoothly back and forth in one direction. 
 
+### Behavior properties
+
+- **Initial direction** (🔢 Number, Angle). Default value is `0`.
+- **Turn left** (🔘 Boolean). Default value is `false`.
+- **Loop duration** (🔢 Number, Duration). Default value is `6`.
+- **Radius of the movement on X axis** (🔢 Number, Distance). Default value is `100`.
+- **Radius of the movement on Y axis** (🔢 Number, Distance). Default value is `0`.
+- **Rotation offset** (🔢 Number, Angle). Default value is `0`.
+- **Rotate** (🔘 Boolean). Default value is `false`.
+
+??? quote "See internal technical details"
+
+
+    - **Initial direction** is stored as `InitialDirectionAngle` (Number). Unit is DegreeAngle. Default value is `0`.
+    - **Turn left** is stored as `InitialTurningLeft` (Boolean). Default value is `false`.
+    - **Loop duration** is stored as `LoopDuration` (Number). Unit is Second. Default value is `6`.
+    - **Radius of the movement on X axis** is stored as `RadiusX` (Number). Unit is Pixel. Default value is `100`.
+    - **Radius of the movement on Y axis** is stored as `RadiusY` (Number). Unit is Pixel. Default value is `0`.
+    - **Rotation offset** is stored as `RotationOffset` (Number). Unit is DegreeAngle. Default value is `0`.
+    - **Rotate** is stored as `ShouldRotate` (Boolean). Default value is `false`.
+
 ### Behavior actions
 
 **Loop duration**  
@@ -111,6 +132,7 @@ Change the turning direction (left or right).
 
     > Technical note: this action internal type (in GDevelop JSON) is `EllipseMovement::EllipseMovement::ToggleTurningLeft`.
 
+
 ### Behavior conditions
 
 **Is turning left**  
@@ -124,6 +146,7 @@ Check if the object is turning left.
     > Technical note: parameter 2 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `EllipseMovement::EllipseMovement::IsTurningLeft`.
+
 
 ### Behavior expressions
 
@@ -139,4 +162,4 @@ Check if the object is turning left.
 
 ---
 
-*This page is an auto-generated reference page about the **Ellipse movement** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Ellipse movement** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

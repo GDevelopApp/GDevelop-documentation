@@ -28,6 +28,29 @@ Tips:
 
 Control how a projectile object moves including lifetime, distance, speed, and acceleration. 
 
+### Behavior properties
+
+- **Acceleration** (🔢 Number, Acceleration). Negative acceleration can be used to stop a projectile. Default value is `0`.
+- **Delete when distance from starting position is exceeded** (🔘 Boolean). Default value is `true`.
+- **Delete when lifetime is exceeded** (🔘 Boolean). Default value is `true`.
+- **Max distance from starting position** (🔢 Number, Distance). Use "0" to ignore this property. Default value is `0`.
+- **Lifetime** (🔢 Number, Duration). Use "0" to ignore this property. Default value is `0`.
+- **Max speed** (🔢 Number, Speed). Speed from object forces will not exceed this value. Use "0" to ignore this property. Default value is `0`.
+- **MinSpeed** (🔢 Number, Speed). Speed from object forces will not go below this value. Use "0" to ignore this property. Default value is `0`.
+- **Starting speed** (🔢 Number, Speed). Object will move in the direction it is facing when it is created. Use "0" to ignore this property. Default value is `0`.
+
+??? quote "See internal technical details"
+
+
+    - **Acceleration** is stored as `Acceleration` (Number). Unit is PixelAcceleration. Default value is `0`.
+    - **Delete when distance from starting position is exceeded** is stored as `DeleteWhenDistanceExceeded` (Boolean). Default value is `true`.
+    - **Delete when lifetime is exceeded** is stored as `DeleteWhenLifetimeExceeded` (Boolean). Default value is `true`.
+    - **Max distance from starting position** is stored as `MaxDistanceFromStartingPosition` (Number). Unit is Pixel. Default value is `0`.
+    - **Lifetime** is stored as `MaxLifetime` (Number). Unit is Second. Default value is `0`.
+    - **Max speed** is stored as `MaxSpeed` (Number). Unit is PixelSpeed. Default value is `0`.
+    - **MinSpeed** is stored as `MinSpeed` (Number). Unit is PixelSpeed. Default value is `0`.
+    - **Starting speed** is stored as `StartingSpeed` (Number). Unit is PixelSpeed. Default value is `0`.
+
 ### Behavior actions
 
 **Restart lifetime timer**  
@@ -164,6 +187,7 @@ Change the starting speed of the object. Object will move in the direction it is
 
     > Technical note: this action internal type (in GDevelop JSON) is `AdvancedProjectile::AdvancedProjectile::SetStartingSpeed`.
 
+
 ### Behavior conditions
 
 **Acceleration**  
@@ -173,7 +197,7 @@ Compare the acceleration of the object. Use a negative number to slow down.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -235,7 +259,7 @@ Compare the max distance from starting position of the object. Object is deleted
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -249,7 +273,7 @@ Compare the lifetime of the object. Object is deleted after property has been ex
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -263,7 +287,7 @@ Compare the max speed of the object. Object forces cannot exceed this value. Use
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -277,7 +301,7 @@ Compare the minSpeed of the object. Object forces cannot go below this value. Us
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -291,12 +315,13 @@ Compare the starting speed of the object. Object will move in the direction it i
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `AdvancedProjectile::AdvancedProjectile::StartingSpeed`.
+
 
 ### Behavior expressions
 
@@ -312,4 +337,4 @@ Compare the starting speed of the object. Object will move in the direction it i
 
 ---
 
-*This page is an auto-generated reference page about the **Advanced projectile** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Advanced projectile** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

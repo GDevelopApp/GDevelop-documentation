@@ -23,6 +23,17 @@ An object that displays a player avatar according to their GDevelop account. It 
 
 Display a player avatar according to their GDevelop account. 
 
+### Object properties
+
+- **Lobby player number** (🔢 Number, Dimensionless). Default value is `0`.
+- **Border enabled** (🔘 Boolean). Enable the border on the avatar. Default value is `true`.
+
+??? quote "See internal technical details"
+
+
+    - **Lobby player number** is stored as `PlayerNumber` (Number). Unit is Dimensionless. Default value is `0`.
+    - **Border enabled** is stored as `BorderEnabled` (Boolean). Default value is `true`.
+
 ### Object actions
 
 **Player unique ID**  
@@ -38,6 +49,7 @@ Change the player unique ID of the avatar.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PlayerAvatar::PlayerAvatar::SetUserID`.
 
+
 ### Object conditions
 
 **Player unique ID**  
@@ -46,12 +58,13 @@ Compare the player unique ID of the avatar.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (string): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PlayerAvatar::PlayerAvatar::UserID`.
+
 
 ### Object expressions
 
@@ -62,4 +75,4 @@ Compare the player unique ID of the avatar.
 
 ---
 
-*This page is an auto-generated reference page about the **Player avatar** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Player avatar** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

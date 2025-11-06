@@ -25,6 +25,17 @@ An example of scroll view can be found in the [multiplayer custom lobbies](https
 
 A scrollbar to help making a scroll view. 
 
+### Object properties
+
+- **Min thumb length** (🔢 Number, Distance). Default value is `40`.
+- **Hide the bar when the content is too small** (🔘 Boolean). Default value is `true`.
+
+??? quote "See internal technical details"
+
+
+    - **Min thumb length** is stored as `ThumbLengthMin` (Number). Unit is Pixel. Default value is `40`.
+    - **Hide the bar when the content is too small** is stored as `ShouldHideWhenUseless` (Boolean). Default value is `true`.
+
 ### Object actions
 
 **Content length**  
@@ -53,6 +64,7 @@ Change the scroll position.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Scrollbar::Scrollbar::SetScrollPosition`.
 
+
 ### Object conditions
 
 **Content length**  
@@ -61,7 +73,7 @@ Compare the content length of the object. The length of the content to scroll. T
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -96,12 +108,13 @@ Compare the scroll position.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Scrollbar::Scrollbar::ScrollPosition`.
+
 
 ### Object expressions
 
@@ -113,4 +126,4 @@ Compare the scroll position.
 
 ---
 
-*This page is an auto-generated reference page about the **Scrollbar** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Scrollbar** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

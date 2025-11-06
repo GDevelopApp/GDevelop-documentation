@@ -39,7 +39,7 @@ Make object rain from a selected direction.
     - Parameter 3 (🔢 Number): Rain object height
     - Parameter 4 (🔢 Number): Raining speed (in pixel)
       Example: 10
-    - Parameter 5 (🔤 String): Rain direction (one of: "Top to bottom", "Bottom to top", "Left to right", "Right to left")
+    - Parameter 5 (stringwithselector): Rain direction (one of: "Top to bottom", "Bottom to top", "Left to right", "Right to left")
     - Parameter 6 (🔢 Number): Respawning object timer speed (in seconds)
       Example: 0.01
     - Parameter 7 (string): Timer name for each object
@@ -71,7 +71,7 @@ Make object rain from another object.
     - Parameter 4 (👾 Object): Rain from this object
     - Parameter 5 (🔢 Number): Raining speed (in pixel)
       Example: 10
-    - Parameter 6 (🔤 String): Rain from object at direction (one of: "Top to bottom", "Bottom to top", "Left to right", "Right to left")
+    - Parameter 6 (stringwithselector): Rain from object at direction (one of: "Top to bottom", "Bottom to top", "Left to right", "Right to left")
     - Parameter 7 (🔢 Number): Respawning object timer speed (in seconds)
       Example: 0.01
     - Parameter 8 (string): Timer name for each object
@@ -170,6 +170,7 @@ Could be used with collision condition.
 
 
 
+
 ---
 
-*This page is an auto-generated reference page about the **Make it rain** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Make it rain** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

@@ -22,6 +22,25 @@ There are ready-to-use sliders in the asset-store [settings UI pack](https://edi
 
 Let users select a numerical value by dragging a slider. 
 
+### Object properties
+
+- **Show the label when the value is changed** (🔘 Boolean). Default value is `true`.
+- **Label margin** (🔢 Number, Distance). Default value is `8`.
+- **Minimum value** (🔢 Number, Dimensionless). Default value is `0`.
+- **Maximum value** (🔢 Number, Dimensionless). Default value is `100`.
+- **Step size** (🔢 Number, Dimensionless). Default value is `1`.
+- **Initial value** (🔢 Number, Dimensionless). Default value is `50`.
+
+??? quote "See internal technical details"
+
+
+    - **Show the label when the value is changed** is stored as `ShowLabelAtChanges` (Boolean). Default value is `true`.
+    - **Label margin** is stored as `LabelMargin` (Number). Unit is Pixel. Default value is `8`.
+    - **Minimum value** is stored as `MinValue` (Number). Unit is Dimensionless. Default value is `0`.
+    - **Maximum value** is stored as `MaxValue` (Number). Unit is Dimensionless. Default value is `100`.
+    - **Step size** is stored as `StepSize` (Number). Unit is Dimensionless. Default value is `1`.
+    - **Initial value** is stored as `InitialValue` (Number). Unit is Dimensionless. Default value is `50`.
+
 ### Object actions
 
 **De/activate interactions**  
@@ -100,6 +119,7 @@ Change the value of the slider.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PanelSpriteSlider::PanelSpriteSlider::SetValue`.
 
+
 ### Object conditions
 
 **Interactions activated**  
@@ -141,7 +161,7 @@ Compare the maximum value of the slider.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -154,7 +174,7 @@ Compare the minimum value of the slider.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -167,7 +187,7 @@ Compare the step size of the slider.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -180,12 +200,13 @@ Compare the value of the slider.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PanelSpriteSlider::PanelSpriteSlider::Value`.
+
 
 ### Object expressions
 
@@ -199,4 +220,4 @@ Compare the value of the slider.
 
 ---
 
-*This page is an auto-generated reference page about the **Slider** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Slider** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

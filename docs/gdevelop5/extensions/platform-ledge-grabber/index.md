@@ -28,6 +28,19 @@ Additional constraints can be added to:
 
 Grab platforms ledges within reach automatically. 
 
+### Behavior properties
+
+- **Only grab facing ledges** (🔘 Boolean). Default value is `false`.
+- **Maximum ledge distance on X axis** (🔢 Number). Default value is `32`.
+
+??? quote "See internal technical details"
+
+
+    - **Only grab facing ledges** is stored as `IsOnlyGabbingFacingLedges` (Boolean). Default value is `false`.
+    - **Maximum ledge distance on X axis** is stored as `LedgeMarginX` (Number). Default value is `32`.
+    > This behavior must be used on an object also having a behavior with type "PlatformBehavior::PlatformerObjectBehavior". This is stored on property `PlatformerCharacter`.
+
+
 ### Behavior actions
 
 **Only grab facing ledges**  
@@ -56,6 +69,7 @@ Change the maximum ledge distance on X axis where the character moves toward the
 
     > Technical note: this action internal type (in GDevelop JSON) is `PlatformLedgeGrabber::PlatformLedgeGrabber::SetLedgeMarginX`.
 
+
 ### Behavior conditions
 
 **Is moving toward a ledge**  
@@ -70,10 +84,11 @@ Check if the character is moving toward a ledge.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PlatformLedgeGrabber::PlatformLedgeGrabber::IsMovingToLedge`.
 
+
 _No expressions for this behavior._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **Platform ledge grabber** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Platform ledge grabber** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

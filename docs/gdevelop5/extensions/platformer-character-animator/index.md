@@ -20,6 +20,33 @@ The platformer example uses this extension ([open the project online](https://ed
 
 Change animations and horizontal flipping of a platformer character automatically. 
 
+### Behavior properties
+
+- **"Climb" animation name** (string). Default value is `Climb`.
+- **Enable animation changes** (🔘 Boolean). Default value is `true`.
+- **Enable horizontal flipping** (🔘 Boolean). Default value is `true`.
+- **"Fall" animation name** (string). Default value is `Fall`.
+- **"Idle" animation name ** (string). Default value is `Idle`.
+- **"Jump" animation name** (string). Default value is `Jump`.
+- **"Run" animation name** (string). Default value is `Run`.
+
+??? quote "See internal technical details"
+
+
+    > This behavior must be used on an object also having a behavior with type "AnimatableCapability::AnimatableBehavior". This is stored on property `Animation`.
+
+    - **"Climb" animation name** is stored as `ClimbAnimationName` (String). Default value is `Climb`.
+    - **Enable animation changes** is stored as `EnableAnimationChanges` (Boolean). Default value is `true`.
+    - **Enable horizontal flipping** is stored as `EnableHorizontalFlipping` (Boolean). Default value is `true`.
+    - **"Fall" animation name** is stored as `FallAnimationName` (String). Default value is `Fall`.
+    > This behavior must be used on an object also having a behavior with type "FlippableCapability::FlippableBehavior". This is stored on property `Flippable`.
+
+    - **"Idle" animation name ** is stored as `IdleAnimationName` (String). Default value is `Idle`.
+    - **"Jump" animation name** is stored as `JumpAnimationName` (String). Default value is `Jump`.
+    > This behavior must be used on an object also having a behavior with type "PlatformBehavior::PlatformerObjectBehavior". This is stored on property `PlatformerBehavior`.
+
+    - **"Run" animation name** is stored as `RunAnimationName` (String). Default value is `Run`.
+
 ### Behavior actions
 
 **Enable (or disable) automated animation changes**  
@@ -113,10 +140,11 @@ Set the "Move" animation name. Do not use quotation marks.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PlatformerCharacterAnimator::PlatformerCharacterAnimator::SetMoveAnimationName`.
 
+
 _No expressions for this behavior._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **Platformer character animator** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Platformer character animator** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

@@ -125,6 +125,7 @@ Set unit as "Selected".
 
     > Technical note: this action internal type (in GDevelop JSON) is `RTSUnitSelection::SetSelected`.
 
+
 ## Conditions
 
 **Check if a unit is assigned to a control group**  
@@ -161,18 +162,19 @@ Check if the unit is "Selected".
 
     > Technical note: this condition internal type (in GDevelop JSON) is `RTSUnitSelection::IsSelected`.
 
+
 ## Expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
 | `RTSUnitSelection::ControlGroupID(object)` | Control group this unit is assigned to. ||
-| | _👾 Object_ | Unit |
+| | _objectlist_ | Unit |
 | `RTSUnitSelection::SelectedUnitID(object)` | Unit ID of a selected unit. ||
-| | _👾 Object_ | Unit |
+| | _objectlist_ | Unit |
 | `RTSUnitSelection::TotalSelectedUnits(object)` | Provides the total number of _PARAM1_ that are currently "Selected". ||
-| | _👾 Object_ | Unit |
+| | _objectlist_ | Unit |
 
 
 ---
 
-*This page is an auto-generated reference page about the **RTS-like unit selection** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **RTS-like unit selection** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

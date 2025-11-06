@@ -26,6 +26,7 @@ This action will quit the app when in a mobile app, and go back to the previous 
 
     > Technical note: this action internal type (in GDevelop JSON) is `BackButton::doDefault`.
 
+
 ## Conditions
 
 **Back button is pressed**  
@@ -42,6 +43,7 @@ Triggers whenever the player presses the back button.
 
 
 
+
 ---
 
-*This page is an auto-generated reference page about the **Android back button** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Android back button** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

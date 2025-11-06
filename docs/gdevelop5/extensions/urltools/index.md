@@ -43,13 +43,14 @@ Reloads the current web page.
 
     > Technical note: this action internal type (in GDevelop JSON) is `URLTools::Reload`.
 
+
 ## Expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
 | `URLTools::ChangeURLAttribute(string, string, string)` | Updates a specific part of a URL. ||
 | | _string_ | The URL to change |
-| | _🔤 String_ | The attribute to update |
+| | _stringwithselector_ | The attribute to update |
 | | _string_ | The new value of this attribute |
 | `URLTools::ChangeURLQueryStringParameter(string, string, string)` | Sets or replaces a query string parameter of a URL. ||
 | | _string_ | The URL to change |
@@ -61,7 +62,7 @@ Reloads the current web page.
 | | _string_ | The query string parameter to remove |
 | `URLTools::URLAttribute(string, string)` | Get an attribute from a URL. ||
 | | _string_ | The URL to get the attribute from |
-| | _🔤 String_ | The attribute to get |
+| | _stringwithselector_ | The attribute to get |
 | `URLTools::URLQueryStringParameter(string, string)` | Gets a parameter of a URL query string. ||
 | | _string_ | The URL to get a query string parameter from |
 | | _string_ | The query string parameter to get |
@@ -69,4 +70,4 @@ Reloads the current web page.
 
 ---
 
-*This page is an auto-generated reference page about the **Webpage URL tools (Web browser)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Webpage URL tools (Web browser)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

@@ -146,6 +146,7 @@ The seed is a number used to generate the random noise. Setting the same seed wi
 
     > Technical note: this action internal type (in GDevelop JSON) is `Noise::SetSeed`.
 
+
 ## Expressions
 
 | Expression | Description |  |
@@ -181,4 +182,4 @@ The seed is a number used to generate the random noise. Setting the same seed wi
 
 ---
 
-*This page is an auto-generated reference page about the **Noise generator** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Noise generator** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

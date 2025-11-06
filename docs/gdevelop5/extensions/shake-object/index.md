@@ -61,6 +61,7 @@ Stop any shaking of object that was initiated by the Shake Object extension.
 
     > Technical note: this action internal type (in GDevelop JSON) is `ShakeObject::ShakeObject_PositionAngle::StopShaking`.
 
+
 ### Behavior conditions
 
 **Check if an object is shaking**  
@@ -74,6 +75,7 @@ Check if an object is shaking.
     > Technical note: parameter 2 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `ShakeObject::ShakeObject_PositionAngle::IsShaking`.
+
 
 _No expressions for this behavior._
 
@@ -118,6 +120,7 @@ Stop shaking an object.
 
     > Technical note: this action internal type (in GDevelop JSON) is `ShakeObject::ShakeObject_PositionAngleScale::StopShaking`.
 
+
 ### Behavior conditions
 
 **Check if an object is shaking**  
@@ -132,10 +135,11 @@ Check if an object is shaking.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `ShakeObject::ShakeObject_PositionAngleScale::IsShaking`.
 
+
 _No expressions for this behavior._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **Shake object** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Shake object** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

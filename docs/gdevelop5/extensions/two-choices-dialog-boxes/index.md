@@ -21,6 +21,21 @@ There are ready-to-use dialog boxes in the asset-store [dialog boxes pack](https
 
 A dialog box showing two options. 
 
+### Object properties
+
+- **Message** (🔤 Multiline text (String)). Default value is `Default message. Continue?`.
+- **Cancel with Escape key** (🔘 Boolean). Enable or disable the escape key to close the dialog. Default value is `true`.
+- **Label for the "Yes" button** (string). This is the button with identifier 0. Default value is `Yes`.
+- **Label for the "No" button** (string). This is the button with identifier 1. Default value is `No`.
+
+??? quote "See internal technical details"
+
+
+    - **Message** is stored as `TextMessage` (MultilineString). Default value is `Default message. Continue?`.
+    - **Cancel with Escape key** is stored as `EnableEscape` (Boolean). Default value is `true`.
+    - **Label for the "Yes" button** is stored as `LabelButtonID0` (String). Default value is `Yes`.
+    - **Label for the "No" button** is stored as `LabelButtonID1` (String). Default value is `No`.
+
 ### Object conditions
 
 **"No" button is clicked**  
@@ -45,10 +60,11 @@ Check if the "Yes" button of the dialog was selected.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `TwoChoicesDialogBoxes::TwoChoicesDialogBox::IsYesClicked`.
 
+
 _No expressions for this object._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **Two choices dialog boxes** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Two choices dialog boxes** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

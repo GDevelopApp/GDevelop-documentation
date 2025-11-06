@@ -23,6 +23,19 @@ Display a customizable screen asking the user to rotate their phone/tablet if no
 
 Automatically display a screen asking the player to rotate their screen if needed - on mobile phones and tablets only. Set up Anchor behavior on this object so that top/bottom/left/right edges are anchored to the screen top/bottom/left/right. 
 
+### Object properties
+
+- **Force show the screen** (🔘 Boolean). Use this to test the screen in your game.
+- **Padding** (🔢 Number, Distance). Default value is `5`.
+- **Corner radius** (🔢 Number, Distance). Corner radius for the background. Default value is `10`.
+
+??? quote "See internal technical details"
+
+
+    - **Force show the screen** is stored as `IsForceShown` (Boolean). Default value is ``.
+    - **Padding** is stored as `Padding` (Number). Unit is Pixel. Default value is `5`.
+    - **Corner radius** is stored as `CornerRadius` (Number). Unit is Pixel. Default value is `10`.
+
 ### Object actions
 
 **Force show the screen**  
@@ -50,6 +63,7 @@ Change the message of the object.
 
     > Technical note: this action internal type (in GDevelop JSON) is `ScreenOrientationChecker::ScreenOrientationChecker::SetMessage`.
 
+
 ### Object conditions
 
 **Force show the screen**  
@@ -69,12 +83,13 @@ Compare the message of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (string): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `ScreenOrientationChecker::ScreenOrientationChecker::Message`.
+
 
 ### Object expressions
 
@@ -85,4 +100,4 @@ Compare the message of the object.
 
 ---
 
-*This page is an auto-generated reference page about the **Screen Orientation Checker** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Screen Orientation Checker** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

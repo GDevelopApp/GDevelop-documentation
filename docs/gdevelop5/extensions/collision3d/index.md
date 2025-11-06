@@ -34,6 +34,7 @@ Be sure to call this action on a reasonable number of objects to avoid slowing d
 
     > Technical note: this action internal type (in GDevelop JSON) is `Collision3D::SeparateFromObjects`.
 
+
 ## Conditions
 
 **Collision in 3D**  
@@ -79,23 +80,24 @@ Pick the object of this type that is nearest to the specified position in 3D.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Collision3D::PickNearest`.
 
+
 ## Expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
 | `Collision3D::Distance(object, object)` | Distance between two objects in 3D. ||
-| | _👾 Object_ | Object |
-| | _👾 Object_ | Other object |
+| | _objectlist_ | Object |
+| | _objectlist_ | Other object |
 | `Collision3D::DistanceToPosition(object, number, number, number)` | Distance between an object and a position in 3D. ||
-| | _👾 Object_ | Object |
+| | _objectlist_ | Object |
 | | _🔢 Number_ | X position |
 | | _🔢 Number_ | Y position |
 | | _🔢 Number_ | Z position |
 | `Collision3D::SqDistance(object, object)` | Square distance between two objects in 3D. ||
-| | _👾 Object_ | Object |
-| | _👾 Object_ | Other object |
+| | _objectlist_ | Object |
+| | _objectlist_ | Other object |
 | `Collision3D::SqDistanceToPosition(object, number, number, number)` | Square distance between an object and a position in 3D. ||
-| | _👾 Object_ | Object |
+| | _objectlist_ | Object |
 | | _🔢 Number_ | X position |
 | | _🔢 Number_ | Y position |
 | | _🔢 Number_ | Z position |
@@ -103,4 +105,4 @@ Pick the object of this type that is nearest to the specified position in 3D.
 
 ---
 
-*This page is an auto-generated reference page about the **3D collision** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **3D collision** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

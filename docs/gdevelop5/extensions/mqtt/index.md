@@ -103,6 +103,7 @@ Unsubcribe from a topic. No more messages from this topic will be received.
 
     > Technical note: this action internal type (in GDevelop JSON) is `MQTT::unsubscribe`.
 
+
 ## Conditions
 
 **Is connected to a broker?**  
@@ -127,6 +128,7 @@ Triggers whenever a message was received. Note that you first need to subcribe t
 
     > Technical note: this condition internal type (in GDevelop JSON) is `MQTT::onMessage`.
 
+
 ## Expressions
 
 | Expression | Description |  |
@@ -138,4 +140,4 @@ Triggers whenever a message was received. Note that you first need to subcribe t
 
 ---
 
-*This page is an auto-generated reference page about the **MQTT Client (advanced)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **MQTT Client (advanced)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

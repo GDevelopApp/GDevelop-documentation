@@ -29,9 +29,9 @@ Sends the prompt string, the model string, and the stream boolean from the given
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (🔤 String): The URL where the Ollama model is hosted (e.g. http://localhost:11434/api/generate)
+    - Parameter 1 (stringwithselector): The URL where the Ollama model is hosted (e.g. http://localhost:11434/api/generate)
       The URL should be in this format: "http://<ip address>:11434/api/generate". If you are hosting and testing locally, use this URL: "http://localhost:11434/api/generate". Read the extension's GitHub issue on how to host your own server. (one of: "http://localhost:11434/api/generate")
-    - Parameter 2 (🔤 String): The model to be used when generating a response
+    - Parameter 2 (stringwithselector): The model to be used when generating a response
       The recommended one is "llama3", an older version is "llama2", but you can also customize the models and use those. Read the extension's GitHub issue on how to do this. (one of: "llama3", "llama2", "codegemma")
     - Parameter 3 (string): Your prompt to the AI, for example: "Why is the sky blue?"
       The response will be stored in JSON in the variable "Ollama_AI_JSON". After that, you can convert the JSON to a structure. You can see how you can do it in the example on the extension's GitHub.
@@ -43,6 +43,7 @@ Sends the prompt string, the model string, and the stream boolean from the given
 
 
 
+
 ---
 
-*This page is an auto-generated reference page about the **OllamaAI** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **OllamaAI** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

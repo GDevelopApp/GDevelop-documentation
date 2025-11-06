@@ -43,8 +43,8 @@ Replace a given color of an object with another one. The scope allows to change 
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (color): Origin color
-    - Parameter 3 (color): Target color
+    - Parameter 2 (🎨 Color): Origin color
+    - Parameter 3 (🎨 Color): Target color
     - Parameter 4 (🔢 Number): Hue scope (from 0° to 180°)
     - Parameter 5 (🔢 Number): Saturation scope (in percent)
     - Parameter 6 (🔢 Number): Lightness scope (in percent)
@@ -65,6 +65,7 @@ Set back the original colors of an object.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Recolorizer::PanelSpriteRecolorizer::ResetColor`.
 
+
 _No expressions for this behavior._
 
 
@@ -81,8 +82,8 @@ Replace a given color of an object with another one. The scope allows to change 
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (color): Origin color
-    - Parameter 3 (color): Target color
+    - Parameter 2 (🎨 Color): Origin color
+    - Parameter 3 (🎨 Color): Target color
     - Parameter 4 (🔢 Number): Hue scope (from 0° to 180°)
     - Parameter 5 (🔢 Number): Saturation scope (in percent)
     - Parameter 6 (🔢 Number): Lightness scope (in percent)
@@ -103,6 +104,7 @@ Set back the original colors of an object.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Recolorizer::SpriteRecolorizer::ResetColor`.
 
+
 _No expressions for this behavior._
 
 
@@ -119,8 +121,8 @@ Replace a given color of an object with another one. The scope allows to change 
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (color): Origin color
-    - Parameter 3 (color): Target color
+    - Parameter 2 (🎨 Color): Origin color
+    - Parameter 3 (🎨 Color): Target color
     - Parameter 4 (🔢 Number): Hue scope (from 0° to 180°)
     - Parameter 5 (🔢 Number): Saturation scope (in percent)
     - Parameter 6 (🔢 Number): Lightness scope (in percent)
@@ -141,10 +143,11 @@ Set back the original colors of an object.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Recolorizer::TiledSpriteRecolorizer::ResetColor`.
 
+
 _No expressions for this behavior._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **Object recolorizer (experimental)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Object recolorizer (experimental)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

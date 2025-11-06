@@ -23,6 +23,34 @@ Move objects forward and sideways according to the direction they're facing.
 
 Turn and move objects forward and sideways. 
 
+### Behavior properties
+
+- **Rotation acceleration** (🔢 Number). Default value is `720`.
+- **Rotation deceleration** (🔢 Number). Default value is `720`.
+- **Maximum rotation speed** (🔢 Number, Angular speed). Default value is `180`.
+- **Acceleration** (🔢 Number, Acceleration). Default value is `1600`.
+- **Deceleration** (🔢 Number, Acceleration). Default value is `1600`.
+- **Maximum speed** (🔢 Number, Speed). Default value is `400`.
+
+??? quote "See internal technical details"
+
+
+    - **Rotation acceleration** is stored as `RotationAcceleration` (Number). Default value is `720`.
+    - **Rotation deceleration** is stored as `RotationDeceleration` (Number). Default value is `720`.
+    - **Maximum rotation speed** is stored as `RotationSpeedMax` (Number). Unit is AngularSpeed. Default value is `180`.
+    - **Acceleration** is stored as `TranslationAcceleration` (Number). Unit is PixelAcceleration. Default value is `1600`.
+    - **Deceleration** is stored as `TranslationDeceleration` (Number). Unit is PixelAcceleration. Default value is `1600`.
+    - **Maximum speed** is stored as `TranslationSpeedMax` (Number). Unit is PixelSpeed. Default value is `400`.
+
+### Behavior shared properties
+
+- **Sin** (🔢 Number). Default value is `0`.
+
+??? quote "See internal technical details"
+
+
+    - **Sin** is stored as `Sin` (Number). Default value is `0`.
+
 ### Behavior actions
 
 **Current forward speed**  
@@ -250,6 +278,7 @@ Simulate a press of the turn right key.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Walk3D::Walk3D::SimulateTurnRightKey`.
 
+
 ### Behavior conditions
 
 **Current forward speed**  
@@ -259,7 +288,7 @@ Compare the current forward speed of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -273,7 +302,7 @@ Compare the current rotation speed of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -287,7 +316,7 @@ Compare the current sideways speed of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -301,7 +330,7 @@ Compare the rotation acceleration of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -315,7 +344,7 @@ Compare the rotation deceleration of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -329,7 +358,7 @@ Compare the maximum rotation speed of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -343,7 +372,7 @@ Compare the acceleration of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -357,7 +386,7 @@ Compare the deceleration of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -371,12 +400,13 @@ Compare the maximum speed of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Walk3D::Walk3D::TranslationSpeedMax`.
+
 
 ### Behavior expressions
 
@@ -395,4 +425,4 @@ Compare the maximum speed of the object.
 
 ---
 
-*This page is an auto-generated reference page about the **Top-down walk** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Top-down walk** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

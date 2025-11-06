@@ -76,6 +76,7 @@ Split a string by each part of it that matches a regex pattern and stores each p
 
     > Technical note: this action internal type (in GDevelop JSON) is `RegEx::Split`.
 
+
 ## Conditions
 
 **String matches regex pattern**  
@@ -90,6 +91,7 @@ Checks if a string matches a regex pattern.
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `RegEx::HasPattern`.
+
 
 ## Expressions
 
@@ -108,4 +110,4 @@ Checks if a string matches a regex pattern.
 
 ---
 
-*This page is an auto-generated reference page about the **Regular Expressions** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Regular Expressions** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

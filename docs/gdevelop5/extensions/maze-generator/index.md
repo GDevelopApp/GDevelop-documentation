@@ -45,7 +45,7 @@ Add a wall in a particular direction for a maze cell.
     - Parameter 1 (string): Maze ID
     - Parameter 2 (🔢 Number): Row Number
     - Parameter 3 (🔢 Number): Column Number
-    - Parameter 4 (🔤 String): Wall Direction (one of: "LeftWall", "RightWall", "UpWall", "DownWall")
+    - Parameter 4 (stringwithselector): Wall Direction (one of: "LeftWall", "RightWall", "UpWall", "DownWall")
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
@@ -150,6 +150,7 @@ Remove a wall in a particular direction for a maze cell.
 
     > Technical note: this action internal type (in GDevelop JSON) is `MazeGenerator::RemoveMazeWall`.
 
+
 ## Conditions
 
 **Cell within a maze has a wall**  
@@ -160,11 +161,12 @@ Chosen cell within a maze has a wall in a particular direction.
     - Parameter 1 (string): Maze ID
     - Parameter 2 (🔢 Number): Row Number
     - Parameter 3 (🔢 Number): Column Number
-    - Parameter 4 (🔤 String): Wall Direction (one of: "LeftWall", "RightWall", "UpWall", "DownWall")
+    - Parameter 4 (stringwithselector): Wall Direction (one of: "LeftWall", "RightWall", "UpWall", "DownWall")
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `MazeGenerator::CheckMazeWall`.
+
 
 ## Expressions
 
@@ -215,6 +217,7 @@ Delete the Maze Object, also updating the corresponding maze scene variables.
 
     > Technical note: this action internal type (in GDevelop JSON) is `MazeGenerator::MazeObject::DeleteMazeObject`.
 
+
 ### Behavior conditions
 
 **Maze object has particular row and column numbers**  
@@ -251,11 +254,12 @@ Check if maze object is a wall in a particular direction.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (🔤 String): Wall Direction of Maze Object (one of: "LeftWall", "RightWall", "UpWall", "DownWall")
+    - Parameter 2 (stringwithselector): Wall Direction of Maze Object (one of: "LeftWall", "RightWall", "UpWall", "DownWall")
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `MazeGenerator::MazeObject::CheckMazeObjectWallDirection`.
+
 
 ### Behavior expressions
 
@@ -269,4 +273,4 @@ Check if maze object is a wall in a particular direction.
 
 ---
 
-*This page is an auto-generated reference page about the **Maze Generator** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Maze Generator** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

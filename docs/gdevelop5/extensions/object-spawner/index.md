@@ -27,6 +27,23 @@ It can be used to create:
 
 Spawn (create) objects periodically. 
 
+### Behavior properties
+
+- **Max objects in the scene (per spawner)** (🔢 Number). Limits the number of objects in the scene that were created by this spawner. Set this to 0 for no limit. Default value is `0`.
+- **Use random positions** (🔘 Boolean). Objects will be created at a random position inside the spawner. Useful for making large spawner areas. Default value is `false`.
+- **Spawn period** (🔢 Number, Duration). Default value is `1`.
+- **Spawner capacity** (🔢 Number). Number of objects that can be created by this spawner. This is reduced everytime an objects is spawned. Default value is `0`.
+- **Unlimited capacity** (🔘 Boolean). Default value is `true`.
+
+??? quote "See internal technical details"
+
+
+    - **Max objects in the scene (per spawner)** is stored as `MaxQuantity` (Number). Default value is `0`.
+    - **Use random positions** is stored as `RandomPosition` (Boolean). Default value is `false`.
+    - **Spawn period** is stored as `SpawnPeriod` (Number). Unit is Second. Default value is `1`.
+    - **Spawner capacity** is stored as `SpawnerCapacity` (Number). Default value is `0`.
+    - **Unlimited capacity** is stored as `UnlimitedCapacity` (Boolean). Default value is `true`.
+
 ### Behavior actions
 
 **Restart spawning cooldown**  
@@ -121,6 +138,7 @@ Spawn (create) objects periodically. This action must be run every frame to work
 
     > Technical note: this action internal type (in GDevelop JSON) is `ObjectSpawner::ObjectSpawner::SpawnObject`.
 
+
 ### Behavior conditions
 
 **Max objects in the scene (per spawner)**  
@@ -130,7 +148,7 @@ Compare the max objects in the scene (per spawner) of the object. Limits the num
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -168,7 +186,7 @@ Compare the number of objects that can be created by this spawner. This is reduc
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -187,6 +205,7 @@ Check if spawner has unlimited capacity.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `ObjectSpawner::ObjectSpawner::UnlimitedObjectCapacity`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -199,4 +218,4 @@ Check if spawner has unlimited capacity.
 
 ---
 
-*This page is an auto-generated reference page about the **Object spawner 2D area** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Object spawner 2D area** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

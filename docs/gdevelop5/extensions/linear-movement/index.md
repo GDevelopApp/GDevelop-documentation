@@ -20,6 +20,17 @@ It can be used for simple enemies or bullets. It's usually not adapted for playe
 
 Move objects on a straight line. 
 
+### Behavior properties
+
+- **Speed on X axis** (🔢 Number, Speed). Default value is `0`.
+- **Speed on Y axis** (🔢 Number, Speed). Default value is `0`.
+
+??? quote "See internal technical details"
+
+
+    - **Speed on X axis** is stored as `SpeedX` (Number). Unit is PixelSpeed. Default value is `0`.
+    - **Speed on Y axis** is stored as `SpeedY` (Number). Unit is PixelSpeed. Default value is `0`.
+
 ### Behavior actions
 
 **Speed on X axis**  
@@ -50,6 +61,7 @@ Change the speed on Y axis of the object.
 
     > Technical note: this action internal type (in GDevelop JSON) is `LinearMovement::LinearMovement::SetSpeedY`.
 
+
 ### Behavior conditions
 
 **Speed on X axis**  
@@ -59,7 +71,7 @@ Compare the speed on X axis of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -73,12 +85,13 @@ Compare the speed on Y axis of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `LinearMovement::LinearMovement::SpeedY`.
+
 
 ### Behavior expressions
 
@@ -90,6 +103,15 @@ Compare the speed on Y axis of the object.
 ## Linear movement by angle 
 
 Move objects ahead according to their angle. 
+
+### Behavior properties
+
+- **Speed** (🔢 Number, Speed). Default value is `200`.
+
+??? quote "See internal technical details"
+
+
+    - **Speed** is stored as `Speed` (Number). Unit is PixelSpeed. Default value is `200`.
 
 ### Behavior actions
 
@@ -107,6 +129,7 @@ Change the speed of the object.
 
     > Technical note: this action internal type (in GDevelop JSON) is `LinearMovement::LinearMovementByAngle::SetSpeed`.
 
+
 ### Behavior conditions
 
 **Speed**  
@@ -116,12 +139,13 @@ Compare the speed of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `LinearMovement::LinearMovementByAngle::Speed`.
+
 
 ### Behavior expressions
 
@@ -132,4 +156,4 @@ Compare the speed of the object.
 
 ---
 
-*This page is an auto-generated reference page about the **Linear Movement** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Linear Movement** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

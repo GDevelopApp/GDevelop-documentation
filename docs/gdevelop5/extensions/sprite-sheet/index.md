@@ -71,6 +71,19 @@ This behavior allows displaying frames or animations from a more intelligent spr
 
 Animates a horizontal (left to right) sprite sheet. 
 
+### Behavior properties
+
+- **Empty space between each sprite (in pixels)** (🔢 Number). Default value is `0`.
+- **Horizontal width of sprite (in pixels)** (🔢 Number). Default value is `16`.
+- **Vertical height of sprite (in pixels)** (🔢 Number). Default value is `16`.
+
+??? quote "See internal technical details"
+
+
+    - **Empty space between each sprite (in pixels)** is stored as `SpriteSpacing` (Number). Default value is `0`.
+    - **Horizontal width of sprite (in pixels)** is stored as `SpriteX` (Number). Default value is `16`.
+    - **Vertical height of sprite (in pixels)** is stored as `SpriteY` (Number). Default value is `16`.
+
 ### Behavior actions
 
 **Pause animation**  
@@ -113,6 +126,7 @@ Resume a paused animation of a sprite sheet.
 
     > Technical note: this action internal type (in GDevelop JSON) is `SpriteSheet::HorizontalSpriteSheetAnimator::ResumeAnimation`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -122,6 +136,17 @@ Resume a paused animation of a sprite sheet.
 ## JSON sprite sheet animator 
 
 Animates a sprite sheet using JSON (see extension description). 
+
+### Behavior properties
+
+- **Speed of the animation (in seconds)** (🔢 Number). Default value is `0.2`.
+- **JSON formatted text describing the sprite sheet** (string).
+
+??? quote "See internal technical details"
+
+
+    - **Speed of the animation (in seconds)** is stored as `AnimationSpeed` (Number). Default value is `0.2`.
+    - **JSON formatted text describing the sprite sheet** is stored as `JSON` (String). Default value is ``.
 
 ### Behavior actions
 
@@ -188,6 +213,7 @@ Resume a paused animation of a sprite sheet.
 
     > Technical note: this action internal type (in GDevelop JSON) is `SpriteSheet::JSONSpriteSheetAnimator::ResumeAnimation`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -198,6 +224,19 @@ Resume a paused animation of a sprite sheet.
 ## Vertical sprite sheet animator 
 
 Animates a vertical (top to bottom) sprite sheet. 
+
+### Behavior properties
+
+- **Empty space between each sprite (in pixels)** (🔢 Number). Default value is `0`.
+- **Horizontal width of sprite (in pixels)** (🔢 Number). Default value is `16`.
+- **Vertical height of sprite (in pixels)** (🔢 Number). Default value is `16`.
+
+??? quote "See internal technical details"
+
+
+    - **Empty space between each sprite (in pixels)** is stored as `SpriteSpacing` (Number). Default value is `0`.
+    - **Horizontal width of sprite (in pixels)** is stored as `SpriteX` (Number). Default value is `16`.
+    - **Vertical height of sprite (in pixels)** is stored as `SpriteY` (Number). Default value is `16`.
 
 ### Behavior actions
 
@@ -241,6 +280,7 @@ Resume a paused animation of a sprite sheet.
 
     > Technical note: this action internal type (in GDevelop JSON) is `SpriteSheet::VerticalSpriteSheetAnimator::ResumeAnimation`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -250,4 +290,4 @@ Resume a paused animation of a sprite sheet.
 
 ---
 
-*This page is an auto-generated reference page about the **Sprite Sheet Animations** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Sprite Sheet Animations** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

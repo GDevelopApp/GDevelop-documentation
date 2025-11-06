@@ -27,6 +27,21 @@ An example allows to check it out ([open the project online](https://editor.gdev
 
 Let platformer characters jump shortly after leaving a platform and also jump in mid-air. 
 
+### Behavior properties
+
+- **Number of air jumps** (🔢 Number). Default value is `1`.
+- **Floor jumps count as air jumps** (🔘 Boolean). Default value is `false`.
+- **Coyote time duration** (🔢 Number, Duration). Default value is `0.25`.
+
+??? quote "See internal technical details"
+
+
+    - **Number of air jumps** is stored as `AirJumpCountMaximum` (Number). Default value is `1`.
+    - **Floor jumps count as air jumps** is stored as `AreFloorJumpCountedAsAirJump` (Boolean). Default value is `false`.
+    - **Coyote time duration** is stored as `CoyoteTimeFrameDuration` (Number). Unit is Second. Default value is `0.25`.
+    > This behavior must be used on an object also having a behavior with type "PlatformBehavior::PlatformerObjectBehavior". This is stored on property `PlatformerBehavior`.
+
+
 ### Behavior actions
 
 **Remove a remaining air jump**  
@@ -80,6 +95,7 @@ Change the coyote time duration of an object (in seconds).
 
     > Technical note: this action internal type (in GDevelop JSON) is `AdvancedJump::AdvancedJump::SetCoyoteTime`.
 
+
 ### Behavior conditions
 
 **Floor jumps count as air jumps**  
@@ -106,6 +122,7 @@ Check if a coyote jump can currently happen.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `AdvancedJump::AdvancedJump::CanCoyoteJump`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -116,6 +133,23 @@ Check if a coyote jump can currently happen.
 ## Dive dash 
 
 Make platformer characters dash toward the floor. 
+
+### Behavior properties
+
+- **Gravity** (🔢 Number, Acceleration). Default value is `8000`.
+- **Initial falling speed** (🔢 Number, Speed). Default value is `1000`.
+- **Maximum falling speed** (🔢 Number, Speed). Default value is `3000`.
+
+??? quote "See internal technical details"
+
+
+    - **Gravity** is stored as `DiveGravity` (Number). Unit is PixelAcceleration. Default value is `8000`.
+    - **Initial falling speed** is stored as `DiveInitialFallingSpeed` (Number). Unit is PixelSpeed. Default value is `1000`.
+    - **Maximum falling speed** is stored as `DiveMaxFallingSpeed` (Number). Unit is PixelSpeed. Default value is `3000`.
+    > This behavior must be used on an object also having a behavior with type "PlatformBehavior::PlatformerObjectBehavior". This is stored on property `PlatformerCharacter`.
+
+    > This behavior must be used on an object also having a behavior with type "AdvancedJump::PlatformerConfigurationStack". This is stored on property `PlatformerConfigurationStack`.
+
 
 ### Behavior actions
 
@@ -130,6 +164,7 @@ Simulate a press of dive key to make the object dives to the floor if it can div
     > Technical note: parameter 2 is an internal parameter handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `AdvancedJump::DiveDash::SimulateDiveKey`.
+
 
 ### Behavior conditions
 
@@ -157,12 +192,42 @@ Check if the object is diving.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `AdvancedJump::DiveDash::IsDiving`.
 
+
 _No expressions for this behavior._
 
 
 ## Horizontal dash 
 
 Make platformer characters dash horizontally. 
+
+### Behavior properties
+
+- **Cool down duration** (🔢 Number). Default value is `0.25`.
+- **Decceleration** (🔢 Number). Default value is `3000`.
+- **DashGravity** (🔢 Number). Default value is `1000`.
+- **Initial speed** (🔢 Number). Default value is `500`.
+- **Sustain acceleration** (🔢 Number). Default value is `1500`.
+- **Sustain maxiumum duration** (🔢 Number). Default value is `0.25`.
+- **Sustain minimum duration** (🔢 Number). Default value is `0`.
+- **Sustain gravity** (🔢 Number). Default value is `0`.
+- **Sustain maxiumum speed** (🔢 Number). Default value is `750`.
+
+??? quote "See internal technical details"
+
+
+    - **Cool down duration** is stored as `CoolDownDuration` (Number). Default value is `0.25`.
+    - **Decceleration** is stored as `DashDecceleration` (Number). Default value is `3000`.
+    - **DashGravity** is stored as `DashGravity` (Number). Default value is `1000`.
+    - **Initial speed** is stored as `DashInitialSpeed` (Number). Default value is `500`.
+    - **Sustain acceleration** is stored as `DashSustainAcceleration` (Number). Default value is `1500`.
+    - **Sustain maxiumum duration** is stored as `DashSustainDurationMax` (Number). Default value is `0.25`.
+    - **Sustain minimum duration** is stored as `DashSustainDurationMin` (Number). Default value is `0`.
+    - **Sustain gravity** is stored as `DashSustainGravity` (Number). Default value is `0`.
+    - **Sustain maxiumum speed** is stored as `DashSustainSpeedMax` (Number). Default value is `750`.
+    > This behavior must be used on an object also having a behavior with type "PlatformBehavior::PlatformerObjectBehavior". This is stored on property `PlatformerCharacter`.
+
+    > This behavior must be used on an object also having a behavior with type "AdvancedJump::PlatformerConfigurationStack". This is stored on property `PlatformerConfigurationStack`.
+
 
 ### Behavior actions
 
@@ -190,6 +255,7 @@ Simulate a press of dash key.
 
     > Technical note: this action internal type (in GDevelop JSON) is `AdvancedJump::HorizontalDash::SimulateDashKey`.
 
+
 ### Behavior conditions
 
 **Is dashing**  
@@ -203,6 +269,7 @@ Check if the object is dashing.
     > Technical note: parameter 2 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `AdvancedJump::HorizontalDash::IsDashing`.
+
 
 _No expressions for this behavior._
 
@@ -296,6 +363,7 @@ Revert configuration changes for one identifier and update the character configu
 
     > Technical note: this action internal type (in GDevelop JSON) is `AdvancedJump::PlatformerConfigurationStack::RevertConfiguration`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -305,6 +373,35 @@ Revert configuration changes for one identifier and update the character configu
 ## Wall jump 
 
 Let platformer characters jump and slide against walls. 
+
+### Behavior properties
+
+- **Keep sliding without holding a key** (🔘 Boolean). Default value is `false`.
+- **Jump detection time frame** (🔢 Number, Duration). Default value is `0.125`.
+- **Side speed sustain time** (🔢 Number, Duration). Default value is `0.2`.
+- **Side acceleration** (🔢 Number, Acceleration). Default value is `1500`.
+- **Side speed** (🔢 Number, Speed). Default value is `250`.
+- **Minimal falling speed** (🔢 Number, Speed). Default value is `50`.
+- **Gravity** (🔢 Number, Acceleration). Default value is `500`.
+- **Maximum falling speed** (🔢 Number, Speed). Default value is `350`.
+- **Impact speed absorption** (🔢 Number, Speed). Default value is `350`.
+
+??? quote "See internal technical details"
+
+
+    - **Keep sliding without holding a key** is stored as `AutomaticSliding` (Boolean). Default value is `false`.
+    - **Jump detection time frame** is stored as `JumpTimeFrame` (Number). Unit is Second. Default value is `0.125`.
+    > This behavior must be used on an object also having a behavior with type "PlatformBehavior::PlatformerObjectBehavior". This is stored on property `PlatformerCharacter`.
+
+    > This behavior must be used on an object also having a behavior with type "AdvancedJump::PlatformerConfigurationStack". This is stored on property `PlatformerConfigurationStack`.
+
+    - **Side speed sustain time** is stored as `SideSpeedSustainTime` (Number). Unit is Second. Default value is `0.2`.
+    - **Side acceleration** is stored as `WallJumpAccelerationX` (Number). Unit is PixelAcceleration. Default value is `1500`.
+    - **Side speed** is stored as `WallJumpSpeedX` (Number). Unit is PixelSpeed. Default value is `250`.
+    - **Minimal falling speed** is stored as `WallSlidingFallingSpeedMin` (Number). Unit is PixelSpeed. Default value is `50`.
+    - **Gravity** is stored as `WallSlidingGravity` (Number). Unit is PixelAcceleration. Default value is `500`.
+    - **Maximum falling speed** is stored as `WallSlidingMaxFallingSpeed` (Number). Unit is PixelSpeed. Default value is `350`.
+    - **Impact speed absorption** is stored as `WallSlidingSpeedAbsorption` (Number). Unit is PixelSpeed. Default value is `350`.
 
 ### Behavior actions
 
@@ -386,6 +483,7 @@ Change the impact speed absorption of an object.
 
     > Technical note: this action internal type (in GDevelop JSON) is `AdvancedJump::WallJump::SetWallSlidingSpeedAbsorption`.
 
+
 ### Behavior conditions
 
 **Has just wall jumped**  
@@ -424,6 +522,7 @@ Check if the object is wall jumping.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `AdvancedJump::WallJump::IsWallJumping`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -438,4 +537,4 @@ Check if the object is wall jumping.
 
 ---
 
-*This page is an auto-generated reference page about the **Advanced platformer movements** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Advanced platformer movements** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

@@ -75,7 +75,7 @@ Set the file format, if a selected file format is unsupported on the users platf
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (🔤 String): Recording format (one of: "webm", "mp4", "ogg", "gif")
+    - Parameter 1 (stringwithselector): Recording format (one of: "webm", "mp4", "ogg", "gif")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -136,6 +136,7 @@ End the recording.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Record::Stop`.
 
+
 ## Conditions
 
 **Is format supported on user device**  
@@ -143,7 +144,7 @@ Check if the specified format is available on the users device. To avoid unsuppo
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (🔤 String): Select a common format for the best results (one of: "webm", "mp4", "ogg", "gif")
+    - Parameter 1 (stringwithselector): Select a common format for the best results (one of: "webm", "mp4", "ogg", "gif")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -215,6 +216,7 @@ Check if recording has just stopped.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Record::OnStop`.
 
+
 ## Expressions
 
 | Expression | Description |  |
@@ -231,4 +233,4 @@ Check if recording has just stopped.
 
 ---
 
-*This page is an auto-generated reference page about the **Record** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Record** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

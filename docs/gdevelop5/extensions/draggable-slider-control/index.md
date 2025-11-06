@@ -33,6 +33,51 @@ Further details can be found in [this tutorial video](https://youtu.be/iiTUwdAT_
 
 Let users select a numerical value by dragging a slider. 
 
+### Behavior properties
+
+- **Active track color (thumb color by default)** (string). Default value is ` `.
+- **Active track opacity** (🔢 Number). Default value is `255`.
+- **Enable interactions** (🔘 Boolean). Default value is `true`.
+- **Halo opacity (pressed)** (🔢 Number). Default value is `64`.
+- **Halo opacity (hover)** (🔢 Number). Default value is `32`.
+- **Halo size (hover)** (🔢 Number). Default value is `24`.
+- **Inactive track color (thumb color by default)** (string).
+- **Inactive track opacity** (🔢 Number). Default value is `96`.
+- **Rounded track ends** (🔘 Boolean). Default value is `true`.
+- **Thumb Color** (🎨 Color). Default value is ` 24;119;211`.
+- **Thumb height** (🔢 Number). Default value is `20`.
+- **Thumb opacity** (🔢 Number). Default value is `255`.
+- **Thumb shape** (choice, one of: "circle", "rectangle"). Default value is `circle`.
+- **Thumb width** (🔢 Number). Default value is `20`.
+- **Tick spacing** (🔢 Number). Default value is `0`.
+- **Track length** (🔢 Number). Default value is `200`.
+- **Track thickness** (🔢 Number). Default value is `4`.
+- **Maximum value** (🔢 Number). Default value is `1`.
+- **Minimum value** (🔢 Number). Default value is `0`.
+
+??? quote "See internal technical details"
+
+
+    - **Active track color (thumb color by default)** is stored as `ActiveTrackColor` (String). Default value is ` `.
+    - **Active track opacity** is stored as `ActiveTrackOpacity` (Number). Default value is `255`.
+    - **Enable interactions** is stored as `Enabled` (Boolean). Default value is `true`.
+    - **Halo opacity (pressed)** is stored as `HaloOpacityClick` (Number). Default value is `64`.
+    - **Halo opacity (hover)** is stored as `HaloOpacityHover` (Number). Default value is `32`.
+    - **Halo size (hover)** is stored as `HaloRadius` (Number). Default value is `24`.
+    - **Inactive track color (thumb color by default)** is stored as `InactiveTrackColor` (String). Default value is ``.
+    - **Inactive track opacity** is stored as `InactiveTrackOpacity` (Number). Default value is `96`.
+    - **Rounded track ends** is stored as `RoundedTrack` (Boolean). Default value is `true`.
+    - **Thumb Color** is stored as `ThumbColor` (Color). Default value is ` 24;119;211`.
+    - **Thumb height** is stored as `ThumbHeight` (Number). Default value is `20`.
+    - **Thumb opacity** is stored as `ThumbOpacity` (Number). Default value is `255`.
+    - **Thumb shape** is stored as `ThumbShape` (Choice). Default value is `circle`.
+    - **Thumb width** is stored as `ThumbWidth` (Number). Default value is `20`.
+    - **Tick spacing** is stored as `TickSpacing` (Number). Default value is `0`.
+    - **Track length** is stored as `TrackLength` (Number). Default value is `200`.
+    - **Track thickness** is stored as `TrackThickness` (Number). Default value is `4`.
+    - **Maximum value** is stored as `ValueMax` (Number). Default value is `1`.
+    - **Minimum value** is stored as `ValueMin` (Number). Default value is `0`.
+
 ### Behavior actions
 
 **Active track color **  
@@ -42,7 +87,7 @@ Change the color of the track that is LEFT of the thumb.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (color): Active track color
+    - Parameter 2 (🎨 Color): Active track color
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -120,7 +165,7 @@ Change the color of the track that is RIGHT of the thumb.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (color): Inactive track color
+    - Parameter 2 (🎨 Color): Inactive track color
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -159,7 +204,7 @@ Change the thumb color to a specific value.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (color): Thumb color
+    - Parameter 2 (🎨 Color): Thumb color
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -198,7 +243,7 @@ Change shape of thumb (circle or rectangle).
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (🔤 String): New thumb shape (one of: "circle", "rectangle")
+    - Parameter 2 (stringwithselector): New thumb shape (one of: "circle", "rectangle")
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -295,6 +340,7 @@ Change the minimum value of a slider.
 
     > Technical note: this action internal type (in GDevelop JSON) is `DraggableSliderControl::DraggableSliderControl::SetValueMin`.
 
+
 ### Behavior conditions
 
 **Being dragged**  
@@ -321,6 +367,7 @@ Check if the slider interations are enabled.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `DraggableSliderControl::DraggableSliderControl::IsEnabled`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -337,4 +384,4 @@ Check if the slider interations are enabled.
 
 ---
 
-*This page is an auto-generated reference page about the **Draggable slider (for Shape Painter)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Draggable slider (for Shape Painter)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

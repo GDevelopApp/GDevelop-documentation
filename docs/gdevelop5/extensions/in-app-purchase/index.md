@@ -92,8 +92,8 @@ Make sure you register them all and finalize registration before ordering a prod
 
     - Parameter 1 (string): The internal ID of the product
       Use the ID of the product you entered on the IAP provider (Google play, Apple store...)
-    - Parameter 2 (🔤 String): The type of product (one of: "paid subscription", "non renewing subscription", "consumable", "non consumable")
-    - Parameter 3 (🔤 String): Which platform you're registering the product to (one of: "android-playstore", "ios-appstore", "braintree", "windows-store-transaction")
+    - Parameter 2 (stringwithselector): The type of product (one of: "paid subscription", "non renewing subscription", "consumable", "non consumable")
+    - Parameter 3 (stringwithselector): Which platform you're registering the product to (one of: "android-playstore", "ios-appstore", "braintree", "windows-store-transaction")
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
@@ -111,11 +111,12 @@ Finished is triggered after you have marked the purchased as delivered (less use
 
     - Parameter 1 (string): The id of the product to watch
     - Parameter 2 (string): The name of the scene variable to set to "true" when the event happens
-    - Parameter 3 (🔤 String): The event to listen to (one of: "finished", "approved")
+    - Parameter 3 (stringwithselector): The event to listen to (one of: "finished", "approved")
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `InAppPurchase::WatchItemEvent`.
+
 
 ## Conditions
 
@@ -133,6 +134,7 @@ Triggers after finalizing the registration. Products can then be retrieved and p
 
 
 
+
 ---
 
-*This page is an auto-generated reference page about the **Mobile In-App Purchase (experimental)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Mobile In-App Purchase (experimental)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

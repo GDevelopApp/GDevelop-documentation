@@ -31,6 +31,7 @@ Marks the event as handled, to go on to the next.
 
 
 
+
 ---
 
-*This page is an auto-generated reference page about the **Advanced p2p event handling** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Advanced p2p event handling** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

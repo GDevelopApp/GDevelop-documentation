@@ -22,6 +22,17 @@ The top-down RPG example uses this extension ([open the project online](https://
 
 Reveal a text one letter after the other. 
 
+### Behavior properties
+
+- **Time between characters** (🔢 Number, Duration). Default value is `0.05`.
+
+??? quote "See internal technical details"
+
+
+    - **Time between characters** is stored as `Interval` (Number). Unit is Second. Default value is `0.05`.
+    > This behavior must be used on an object also having a behavior with type "TextContainerCapability::TextContainerBehavior". This is stored on property `Text`.
+
+
 ### Behavior actions
 
 **Show Nth first characters**  
@@ -75,6 +86,7 @@ Show the full text.
 
     > Technical note: this action internal type (in GDevelop JSON) is `AutoTyping::AutoTyping::ShowFullText`.
 
+
 ### Behavior conditions
 
 **Has just typed**  
@@ -96,7 +108,7 @@ Compare the time between characters beign typed.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -115,6 +127,7 @@ Check if the full text has been typed.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `AutoTyping::AutoTyping::IsFinished`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -124,4 +137,4 @@ Check if the full text has been typed.
 
 ---
 
-*This page is an auto-generated reference page about the **Auto typing animation for text ("typewriter" effect)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Auto typing animation for text ("typewriter" effect)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

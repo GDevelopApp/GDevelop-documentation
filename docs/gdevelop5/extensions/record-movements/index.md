@@ -77,6 +77,7 @@ Allow the user to record object movements.
 
     > Technical note: this action internal type (in GDevelop JSON) is `RecordMovements::Record`.
 
+
 ## Conditions
 
 **Recorded frames has finished loading**  
@@ -119,6 +120,7 @@ Set recording limit to object (per frame).
 
 
 
+
 ---
 
-*This page is an auto-generated reference page about the **Record Movements** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Record Movements** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

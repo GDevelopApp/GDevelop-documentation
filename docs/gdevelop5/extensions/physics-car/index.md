@@ -18,6 +18,31 @@ Simulate car motion, from a top-down view, with the 2D Physics Engine behavior.
 
 Simulate 2D car motion, from a top-down view. 
 
+### Behavior properties
+
+- **Acceleration** (🔢 Number, Acceleration). Default value is `500`.
+- **Front wheels position** (🔢 Number). 0 means at the center, 1 means at the front. Default value is `0.8`.
+- **Rear wheels position** (🔢 Number, Dimensionless). 0 means at the center, 1 means at the back. Default value is `0.8`.
+- **Maximum speed** (🔢 Number, Speed). Default value is `800`.
+- **Maximum steering angle** (🔢 Number, Angle). Default value is `30`.
+- **Sterring speed when turning back** (🔢 Number, Angular speed). Default value is `240`.
+- **Steering speed** (🔢 Number, Angular speed). Default value is `50`.
+- **Wheel grip ratio (from 0 to 1)** (🔢 Number, Dimensionless). A ratio of 0 is like driving on ice. Default value is `0.5`.
+
+??? quote "See internal technical details"
+
+
+    - **Acceleration** is stored as `Acceleration` (Number). Unit is PixelAcceleration. Default value is `500`.
+    - **Front wheels position** is stored as `FrontWheelsPosition` (Number). Default value is `0.8`.
+    > This behavior must be used on an object also having a behavior with type "Physics2::Physics2Behavior". This is stored on property `Physics2`.
+
+    - **Rear wheels position** is stored as `RearWheelsPosition` (Number). Unit is Dimensionless. Default value is `0.8`.
+    - **Maximum speed** is stored as `SpeedMax` (Number). Unit is PixelSpeed. Default value is `800`.
+    - **Maximum steering angle** is stored as `SteeringAngleMax` (Number). Unit is DegreeAngle. Default value is `30`.
+    - **Sterring speed when turning back** is stored as `SteeringBackSpeed` (Number). Unit is AngularSpeed. Default value is `240`.
+    - **Steering speed** is stored as `SteeringSpeed` (Number). Unit is AngularSpeed. Default value is `50`.
+    - **Wheel grip ratio (from 0 to 1)** is stored as `WheelGripRatio` (Number). Unit is Dimensionless. Default value is `0.5`.
+
 ### Behavior actions
 
 **Draw forces for debug**  
@@ -205,6 +230,7 @@ Simulate a press of the up key.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PhysicsCar::PhysicsCar::SimulateUpKey`.
 
+
 ### Behavior conditions
 
 **Acceleration**  
@@ -214,7 +240,7 @@ Compare the acceleration of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -228,7 +254,7 @@ Compare the maximum speed of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -242,7 +268,7 @@ Compare the steering angle of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -256,7 +282,7 @@ Compare the maximum steering angle of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -270,7 +296,7 @@ Compare the sterring speed when turning back of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -284,7 +310,7 @@ Compare the steering speed of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -298,12 +324,13 @@ Compare the wheel grip ratio of the object (from 0 to 1). A ratio of 0 is like d
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PhysicsCar::PhysicsCar::WheelGripRatio`.
+
 
 ### Behavior expressions
 
@@ -320,4 +347,4 @@ Compare the wheel grip ratio of the object (from 0 to 1). A ratio of 0 is like d
 
 ---
 
-*This page is an auto-generated reference page about the **2D Top-Down Physics Car** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **2D Top-Down Physics Car** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

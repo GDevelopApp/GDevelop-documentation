@@ -25,6 +25,25 @@ This extension is deprecated. The [3D physics engine](https://wiki.gdevelop.io/g
 
 Jump and fall along Z axis. 
 
+### Behavior properties
+
+- **Gravity** (🔢 Number, Acceleration). Its value is always positive. Default value is `1000`.
+- **Jump height** (🔢 Number). Its value is always positive. Default value is `150`.
+- **Jump sustain time** (🔢 Number, Duration). Maximum time (in seconds) during which the jump strength is sustained if the jump key is held - allowing variable height jumps. Default value is `0.2`.
+- **Maximum falling speed** (🔢 Number, Speed). Its value is always positive. Default value is `700`.
+- **Stop falling when Z equals 0** (🔘 Boolean). Default value is `true`.
+
+??? quote "See internal technical details"
+
+
+    - **Gravity** is stored as `Gravity` (Number). Unit is PixelAcceleration. Default value is `1000`.
+    - **Jump height** is stored as `JumpHeight` (Number). Default value is `150`.
+    - **Jump sustain time** is stored as `JumpSustainDurationMax` (Number). Unit is Second. Default value is `0.2`.
+    - **Maximum falling speed** is stored as `MaxFallingSpeed` (Number). Unit is PixelSpeed. Default value is `700`.
+    > This behavior must be used on an object also having a behavior with type "Scene3D::Base3DBehavior". This is stored on property `Object3D`.
+
+    - **Stop falling when Z equals 0** is stored as `ShouldStopAtZero` (Boolean). Default value is `true`.
+
 ### Behavior actions
 
 **Abort jump**  
@@ -186,6 +205,7 @@ Simulate a press of the jump key.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Jump3D::Jump3D::SimulateJumpKey`.
 
+
 ### Behavior conditions
 
 **Can jump**  
@@ -207,7 +227,7 @@ Compare the current falling speed of the object. Its value is always positive.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -221,7 +241,7 @@ Compare the current jump speed of the object. Its value is always positive.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -235,7 +255,7 @@ Compare the current speed of the object on Z axis. Its value is negative when th
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -249,7 +269,7 @@ Compare the gravity of the object. Its value is always positive.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -299,7 +319,7 @@ Compare the jump height of the object. Its value is always positive.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -313,7 +333,7 @@ Compare the jump sustain time of the object. Maximum time (in seconds) during wh
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -327,7 +347,7 @@ Compare the maximum falling speed of the object. Its value is always positive.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -346,6 +366,7 @@ Check if stop falling when Z equals 0.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Jump3D::Jump3D::ShouldStopAtZero`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -361,4 +382,4 @@ Check if stop falling when Z equals 0.
 
 ---
 
-*This page is an auto-generated reference page about the **3D jump (deprecated)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **3D jump (deprecated)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

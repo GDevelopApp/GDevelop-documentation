@@ -57,6 +57,7 @@ Change the speed factor for touch movement.
 
     > Technical note: this action internal type (in GDevelop JSON) is `MousePointerLock::SetTouchSpeedFactor`.
 
+
 ## Conditions
 
 **Locked pointer is moving**  
@@ -75,7 +76,7 @@ Compare the movement of the locked pointer on the X axis.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -87,7 +88,7 @@ Compare the movement of the pointer on the Y axis.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -99,7 +100,7 @@ Compare the speed factor for touch movement.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -117,6 +118,7 @@ Check if the mouse pointer is locked.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `MousePointerLock::isPointerLocked`.
 
+
 ## Expressions
 
 | Expression | Description |  |
@@ -128,6 +130,27 @@ Check if the mouse pointer is locked.
 ## First person camera mouse mapper 
 
 Control camera rotations with a mouse. 
+
+### Behavior properties
+
+- **Horizontal rotation speed factor** (🔢 Number, Dimensionless). Default value is `200`.
+- **Z position offset** (🔢 Number, Distance). Default value is `0`.
+- **Lock the pointer on click** (🔘 Boolean). Default value is `true`.
+- **Maximum vertical camera angle** (🔢 Number, Angle). Default value is `90`.
+- **Minimum vertical camera angle** (🔢 Number, Angle). Default value is `-90`.
+- **Vertical rotation speed factor** (🔢 Number, Dimensionless). Default value is `100`.
+
+??? quote "See internal technical details"
+
+
+    - **Horizontal rotation speed factor** is stored as `HorizontalSpeed` (Number). Unit is Dimensionless. Default value is `200`.
+    > This behavior must be used on an object also having a behavior with type "Scene3D::Base3DBehavior". This is stored on property `Object3D`.
+
+    - **Z position offset** is stored as `OffsetZ` (Number). Unit is Pixel. Default value is `0`.
+    - **Lock the pointer on click** is stored as `ShouldLock` (Boolean). Default value is `true`.
+    - **Maximum vertical camera angle** is stored as `VerticalAngleMax` (Number). Unit is DegreeAngle. Default value is `90`.
+    - **Minimum vertical camera angle** is stored as `VerticalAngleMin` (Number). Unit is DegreeAngle. Default value is `-90`.
+    - **Vertical rotation speed factor** is stored as `VerticalSpeed` (Number). Unit is Dimensionless. Default value is `100`.
 
 ### Behavior actions
 
@@ -201,6 +224,7 @@ Change the vertical rotation speed factor of the object.
 
     > Technical note: this action internal type (in GDevelop JSON) is `MousePointerLock::FirstPersonPointerMapper::SetVerticalSpeed`.
 
+
 ### Behavior conditions
 
 **Horizontal rotation speed factor**  
@@ -210,7 +234,7 @@ Compare the horizontal rotation speed factor of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -224,7 +248,7 @@ Compare the z position offset of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -238,7 +262,7 @@ Compare the maximum vertical camera angle of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -252,7 +276,7 @@ Compare the minimum vertical camera angle of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -266,12 +290,13 @@ Compare the vertical rotation speed factor of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `MousePointerLock::FirstPersonPointerMapper::VerticalSpeed`.
+
 
 ### Behavior expressions
 
@@ -286,4 +311,4 @@ Compare the vertical rotation speed factor of the object.
 
 ---
 
-*This page is an auto-generated reference page about the **Mouse Pointer Lock** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Mouse Pointer Lock** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

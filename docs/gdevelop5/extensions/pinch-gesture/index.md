@@ -38,7 +38,7 @@ Change the camera pinch constraint.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (🔤 String): Constraint (one of: "No constraint", "Zoom only", "Rotation only", "Zoom and rotation only")
+    - Parameter 1 (stringwithselector): Constraint (one of: "No constraint", "Zoom only", "Rotation only", "Zoom and rotation only")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -54,6 +54,7 @@ Choose the layer to move with pinch gestures.
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PinchGesture::SetCameraPinchLayer`.
+
 
 ## Conditions
 
@@ -78,6 +79,7 @@ Check if a touch is pinching, if 2 touches are pressed.
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PinchGesture::IsPinching`.
+
 
 ## Expressions
 
@@ -118,6 +120,17 @@ Check if a touch is pinching, if 2 touches are pressed.
 
 Move objects by holding 2 touches on them. 
 
+### Behavior properties
+
+- **Lock object size** (🔘 Boolean). Default value is `false`.
+
+??? quote "See internal technical details"
+
+
+    - **Lock object size** is stored as `LockSize` (Boolean). Default value is `false`.
+    > This behavior must be used on an object also having a behavior with type "ResizableCapability::ResizableBehavior". This is stored on property `Resizable`.
+
+
 ### Behavior actions
 
 **Abort pinching**  
@@ -131,6 +144,7 @@ Abort the pinching of this object.
     > Technical note: parameter 2 is an internal parameter handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PinchGesture::Pichable::AbortPinching`.
+
 
 ### Behavior conditions
 
@@ -146,10 +160,11 @@ Check if the object is being pinched.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PinchGesture::Pichable::IsPinched`.
 
+
 _No expressions for this behavior._
 
 
 
 ---
 
-*This page is an auto-generated reference page about the **Pinching gesture** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Pinching gesture** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

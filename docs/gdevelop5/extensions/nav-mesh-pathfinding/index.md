@@ -28,6 +28,25 @@ The isometric example shows how to use this extension to move a character to a d
 
 Change the animation according to the movement direction. 
 
+### Behavior properties
+
+- **Angle offset** (🔢 Number, Angle). Set to 90°, "Walk0" becomes the animation for down. Default value is `0`.
+- **Animation name** (string). Animations must be called "Walk0", "Walk1"... for left, down... Default value is `Walk`.
+- **Number of directions** (🔢 Number, Dimensionless). Default value is `8`.
+- **Scale animation according to speed** (🔘 Boolean). Default value is `true`.
+
+??? quote "See internal technical details"
+
+
+    - **Angle offset** is stored as `AngleOffset` (Number). Unit is DegreeAngle. Default value is `0`.
+    > This behavior must be used on an object also having a behavior with type "AnimatableCapability::AnimatableBehavior". This is stored on property `Animation`.
+
+    - **Animation name** is stored as `AnimationName` (String). Default value is `Walk`.
+    - **Number of directions** is stored as `DirectionCount` (Number). Unit is Dimensionless. Default value is `8`.
+    - **Scale animation according to speed** is stored as `IsScalingAnimation` (Boolean). Default value is `true`.
+    > This behavior must be used on an object also having a behavior with type "NavMeshPathfinding::NavMeshPathfindingBehavior". This is stored on property `NavMeshPathfinding`.
+
+
 ### Behavior actions
 
 **Animation name**  
@@ -57,6 +76,7 @@ Change whether the animation is scaled according to speed or not.
 
     > Technical note: this action internal type (in GDevelop JSON) is `NavMeshPathfinding::NavMeshPathfindingAnimator::SetIsScalingAnimation`.
 
+
 ### Behavior conditions
 
 **Animation name**  
@@ -66,7 +86,7 @@ Compare the animation name of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (string): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -85,6 +105,7 @@ Check if the animation is scaled according to speed.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `NavMeshPathfinding::NavMeshPathfindingAnimator::IsScalingAnimation`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -94,6 +115,27 @@ Check if the animation is scaled according to speed.
 ## Navigation mesh pathfinding (experimental) 
 
 Move objects to a target in straight lines while avoiding all objects that are flagged as obstacles. 
+
+### Behavior properties
+
+- **Acceleration** (🔢 Number, Acceleration). Default value is `400`.
+- **Angle offset** (🔢 Number, Angle). Default value is `0`.
+- **Rotation speed** (🔢 Number, Angular speed). Default value is `180`.
+- **Collision shape** (choice, one of: "Bounding disk", "Dot at center"). Default value is `Bounding disk`.
+- **Extra border size** (🔢 Number, Distance). Default value is `0`.
+- **Maximum speed** (🔢 Number, Speed). Default value is `200`.
+- **Rotate object** (🔘 Boolean). Default value is `false`.
+
+??? quote "See internal technical details"
+
+
+    - **Acceleration** is stored as `Acceleration` (Number). Unit is PixelAcceleration. Default value is `400`.
+    - **Angle offset** is stored as `AngleOffset` (Number). Unit is DegreeAngle. Default value is `0`.
+    - **Rotation speed** is stored as `AngularMaxSpeed` (Number). Unit is AngularSpeed. Default value is `180`.
+    - **Collision shape** is stored as `CollisionShape` (Choice). Default value is `Bounding disk`.
+    - **Extra border size** is stored as `ExtraBorder` (Number). Unit is Pixel. Default value is `0`.
+    - **Maximum speed** is stored as `MaxSpeed` (Number). Unit is PixelSpeed. Default value is `200`.
+    - **Rotate object** is stored as `RotateObject` (Boolean). Default value is `false`.
 
 ### Behavior actions
 
@@ -161,7 +203,7 @@ Change the collision shape of the object.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
-    - Parameter 3 (🔤 String): Value (one of: "Bounding disk", "Dot at center")
+    - Parameter 3 (stringwithselector): Value (one of: "Bounding disk", "Dot at center")
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -222,6 +264,7 @@ Enable or disable the rotation of the object when following its path.
 
     > Technical note: this action internal type (in GDevelop JSON) is `NavMeshPathfinding::NavMeshPathfindingBehavior::SetRotateObject`.
 
+
 ### Behavior conditions
 
 **Acceleration**  
@@ -231,7 +274,7 @@ Compare the acceleration of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -245,7 +288,7 @@ Compare the angle offset of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -259,7 +302,7 @@ Compare the rotation speed of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -273,8 +316,8 @@ Compare the collision shape of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
-    - Parameter 3 (🔤 String): Value to compare (one of: "Bounding disk", "Dot at center")
+    - Parameter 2: relationaloperator
+    - Parameter 3 (stringwithselector): Value to compare (one of: "Bounding disk", "Dot at center")
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -299,7 +342,7 @@ Compare the extra border size of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -325,7 +368,7 @@ Compare the maximum speed of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -377,12 +420,13 @@ Compare the number of waypoints on the path.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `NavMeshPathfinding::NavMeshPathfindingBehavior::Speed`.
+
 
 ### Behavior expressions
 
@@ -413,6 +457,25 @@ Compare the number of waypoints on the path.
 
 Flag objects as being an obstacle for pathfinding. 
 
+### Behavior shared properties
+
+- **Area bottom bound** (🔢 Number, Distance). The bottom bound of the area where objects can go in the scene (default to the game resolution). Default value is `0`.
+- **Area left bound** (🔢 Number, Distance). The left bound of the area where objects can go in the scene. Default value is `0`.
+- **Area right bound** (🔢 Number, Distance). The right bound of the area where objects can go in the scene (default to the game resolution). Default value is `0`.
+- **Area top bound** (🔢 Number, Distance). The top bound of the area where objects can go in the scene. Default value is `0`.
+- **Cell size** (🔢 Number, Distance). Cell size for obstacle collision mask rasterization. Default value is `10`.
+- **Viewpoint** (choice, one of: "Top-Down", "Isometry 2:1 (26.565°)", "True Isometry (30°)"). Default value is `Top-Down`.
+
+??? quote "See internal technical details"
+
+
+    - **Area bottom bound** is stored as `AreaBottomBound` (Number). Unit is Pixel. Default value is `0`.
+    - **Area left bound** is stored as `AreaLeftBound` (Number). Unit is Pixel. Default value is `0`.
+    - **Area right bound** is stored as `AreaRightBound` (Number). Unit is Pixel. Default value is `0`.
+    - **Area top bound** is stored as `AreaTopBound` (Number). Unit is Pixel. Default value is `0`.
+    - **Cell size** is stored as `CellSize` (Number). Unit is Pixel. Default value is `10`.
+    - **Viewpoint** is stored as `Viewpoint` (Choice). Default value is `Top-Down`.
+
 ### Behavior conditions
 
 **Area bottom bound**  
@@ -422,7 +485,7 @@ Compare the area bottom bound. The bottom bound of the area where objects can go
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -436,7 +499,7 @@ Compare the area left bound. The left bound of the area where objects can go in 
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -450,7 +513,7 @@ Compare the area right bound. The right bound of the area where objects can go i
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -464,7 +527,7 @@ Compare the area top bound. The top bound of the area where objects can go in th
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -478,12 +541,13 @@ Compare the cell size for obstacle collision mask rasterization. While an object
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Relational operator
+    - Parameter 2: relationaloperator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `NavMeshPathfinding::NavMeshPathfindingObstacleBehavior::CellSize`.
+
 
 ### Behavior expressions
 
@@ -498,4 +562,4 @@ Compare the cell size for obstacle collision mask rasterization. While an object
 
 ---
 
-*This page is an auto-generated reference page about the **Navigation mesh pathfinding (experimental)** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Navigation mesh pathfinding (experimental)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).

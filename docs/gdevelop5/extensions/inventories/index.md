@@ -118,6 +118,7 @@ Change the number of an item in an inventory.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Inventories::SetItemCount`.
 
+
 ## Conditions
 
 **Has an item**  
@@ -173,7 +174,7 @@ Compare the maximum number of the specified item that can be added in the invent
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Inventory name
     - Parameter 4 (🔤 Name (String)): Item name
@@ -187,7 +188,7 @@ Compare the number of an item in an inventory.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: 🟰 Relational operator
+    - Parameter 1: relationaloperator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Inventory name
     - Parameter 4 (🔤 Name (String)): Item name
@@ -195,6 +196,7 @@ Compare the number of an item in an inventory.
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Inventories::ItemCount`.
+
 
 ## Expressions
 
@@ -210,4 +212,4 @@ Compare the number of an item in an inventory.
 
 ---
 
-*This page is an auto-generated reference page about the **Simple inventories** extension, made by the community of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Simple inventories** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
