@@ -18,9 +18,10 @@ Change the text.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
-    - Parameter 3 (string): Text
+    - Parameter 3 (🔤 String): Text
 
     > Technical note: this action internal type (in GDevelop JSON) is `TextContainerCapability::TextContainerBehavior::SetValue`.
+
 
 ### Behavior conditions
 
@@ -32,9 +33,10 @@ Compare the text.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Relational operator
-    - Parameter 3 (string): Text
+    - Parameter 3 (🔤 String): Text
 
     > Technical note: this condition internal type (in GDevelop JSON) is `TextContainerCapability::TextContainerBehavior::Value`.
+
 
 ### Behavior expressions
 
@@ -48,4 +50,4 @@ Compare the text.
 
 The Objects containing a text extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Objects containing a text** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Objects containing a text** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

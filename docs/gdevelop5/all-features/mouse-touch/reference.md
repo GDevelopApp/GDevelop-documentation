@@ -40,6 +40,7 @@ By default, this is activated so that you can simply use the mouse conditions to
 
     > Technical note: this action internal type (in GDevelop JSON) is `TouchSimulateMouse`.
 
+
 ## Conditions
 
 **Cursor X position**  
@@ -177,6 +178,7 @@ Compare the Y position of a specific touch.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `TouchY`.
 
+
 ## Expressions
 
 | Expression | Description |  |
@@ -206,4 +208,4 @@ Compare the Y position of a specific touch.
 
 The Mouse and touch extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Mouse and touch** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Mouse and touch** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

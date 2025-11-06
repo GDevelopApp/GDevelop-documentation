@@ -20,10 +20,10 @@ Adds expressions to convert numbers to a different base and back. Can be used to
 | | _🔢 Number_ | Number to convert |
 | | _🔢 Number_ | The base to convert the number to |
 | `BaseConversion::ToDecimal(string, number)` | Converts a string representing a number in a different base to a decimal number. ||
-| | _string_ | String representing a number |
+| | _🔤 String_ | String representing a number |
 | | _🔢 Number_ | The base the number in the string is in |
 
 
 ---
 
-*This page is an auto-generated reference page about the **Base conversion** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Base conversion** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

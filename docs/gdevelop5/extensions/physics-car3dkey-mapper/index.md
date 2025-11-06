@@ -20,11 +20,11 @@ Control a 3D physics car with a keyboard.
 
 ### Behavior properties
 
-- **Down key** (keyboardkey). Default value is `Down`.
-- **Hand brake key** (keyboardkey). Default value is `Space`.
-- **Left key** (keyboardkey). Default value is `Left`.
-- **Right key** (keyboardkey). Default value is `Right`.
-- **Up key** (keyboardkey). Default value is `Up`.
+- **Down key** (KeyboardKey). Default value is `Down`.
+- **Hand brake key** (KeyboardKey). Default value is `Space`.
+- **Left key** (KeyboardKey). Default value is `Left`.
+- **Right key** (KeyboardKey). Default value is `Right`.
+- **Up key** (KeyboardKey). Default value is `Up`.
 
 ??? quote "See internal technical details"
 
@@ -43,4 +43,4 @@ _No expressions for this behavior._
 
 ---
 
-*This page is an auto-generated reference page about the **3D car keyboard mapper** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **3D car keyboard mapper** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

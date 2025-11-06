@@ -123,7 +123,7 @@ Create a path from SVG commands, for instance "M 0,0 C 55,0 100,45 100,100". Com
 ??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Path name
-    - Parameter 2 (string): SVG commands
+    - Parameter 2 (🔤 String): SVG commands
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -284,7 +284,7 @@ Move objects on curved paths at a given speed.
 
 - **Rotate object** (🔘 Boolean). Default value is `true`.
 - **Rotation offset** (🔢 Number, Angle). Default value is `0`.
-- **Viewpoint** (choice, one of: "Top-Down", "Isometry 2:1 (26.565°)"). Default value is `Top-Down`.
+- **Viewpoint** (Choice, one of: "Top-Down", "Isometry 2:1 (26.565°)"). Default value is `Top-Down`.
 
 ??? quote "See internal technical details"
 
@@ -456,7 +456,7 @@ Compare the number time the object loop the trajectory.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -470,7 +470,7 @@ Compare the length between the trajectory origin and the current position withou
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -484,7 +484,7 @@ Compare the length between the trajectory origin and the current position counti
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -498,7 +498,7 @@ Compare the speed of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -528,7 +528,7 @@ Move objects on curved paths in a given duration and tween easing function.
 - **Flip on Y to go back** (🔘 Boolean). Default value is `false`.
 - **Rotate object** (🔘 Boolean). Default value is `true`.
 - **Rotation offset** (🔢 Number, Angle). Default value is `0`.
-- **Viewpoint** (choice, one of: "Top-Down", "Isometry 2:1 (26.565°)"). Default value is `Top-Down`.
+- **Viewpoint** (Choice, one of: "Top-Down", "Isometry 2:1 (26.565°)"). Default value is `Top-Down`.
 
 ??? quote "See internal technical details"
 
@@ -567,7 +567,7 @@ Move the object by following a path.
       The path can be define with the "Append curve" action.
     - Parameter 3 (🔢 Number): Number of repetitions
     - Parameter 4 (🔢 Number): Duration in seconds
-    - Parameter 5 (stringwithselector): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 5 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
 
     > Technical note: parameter 6 is an internal parameter handled by GDevelop.
 
@@ -584,7 +584,7 @@ Move the object by following a path and go back.
       The path can be define with the "Append curve" action.
     - Parameter 3 (🔢 Number): Number of repetitions
     - Parameter 4 (🔢 Number): Duration in seconds
-    - Parameter 5 (stringwithselector): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 5 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
     - Parameter 6 (🔢 Number): Duration to wait before going back
     - Parameter 7 (❓ Yes or No): Loop
 
@@ -603,7 +603,7 @@ Move the object to a position by following a path.
       The path can be define with the "Append curve" action.
     - Parameter 3 (🔢 Number): Number of repetitions
     - Parameter 4 (🔢 Number): Duration in seconds
-    - Parameter 5 (stringwithselector): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 5 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
     - Parameter 6 (🔢 Number): Destination X
     - Parameter 7 (🔢 Number): Destination Y
 
@@ -622,7 +622,7 @@ Move the object to a position by following a path and go back.
       The path can be define with the "Append curve" action.
     - Parameter 3 (🔢 Number): Number of repetitions
     - Parameter 4 (🔢 Number): Duration in seconds
-    - Parameter 5 (stringwithselector): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 5 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
     - Parameter 6 (🔢 Number): Destination X
     - Parameter 7 (🔢 Number): Destination Y
     - Parameter 8 (🔢 Number): Duration to wait before going back
@@ -669,4 +669,4 @@ Check if the object has reached one of the 2 ends of the path.
 
 ---
 
-*This page is an auto-generated reference page about the **Curved movement** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Curved movement** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

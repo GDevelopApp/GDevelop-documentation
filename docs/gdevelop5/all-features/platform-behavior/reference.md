@@ -19,9 +19,23 @@ Check if a platformer character is on a given platform.
 
 
 
+
 ## Platform 
 
 Flag objects as being platforms which characters can run on. 
+
+### Behavior properties
+
+- **Ledges can be grabbed** (🔘 Boolean). Default value is `true`.
+- **Type** (Choice, one of: "Platform", "Jumpthru platform", "Ladder"). Default value is `Platform`.
+- **Grab offset on Y axis** (). Default value is `0`.
+
+??? quote "See internal technical details"
+
+
+    - **Ledges can be grabbed** is stored as `CanBeGrabbed` (Boolean). Default value is `true`.
+    - **Type** is stored as `PlatformType` (Choice). Default value is `Platform`.
+    - **Grab offset on Y axis** is stored as `YGrabOffset` (). Default value is `0`.
 
 ### Behavior actions
 
@@ -36,12 +50,54 @@ Change the platform type of the object: Platform, Jump-Through, or Ladder.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PlatformBehavior::ChangePlatformType`.
 
+
 _No expressions for this behavior._
 
 
 ## Platformer character 
 
 Jump and run on platforms. 
+
+### Behavior properties
+
+- **Acceleration** (🔢 Number, Acceleration). Default value is `1500`.
+- **Can go down from jumpthru platforms** (🔘 Boolean). Default value is `true`.
+- **Can grab platform ledges** (🔘 Boolean). Default value is `false`.
+- **Automatically grab platform ledges without having to move horizontally** (🔘 Boolean). Default value is `true`.
+- **Deceleration** (🔢 Number, Acceleration). Default value is `1500`.
+- **Gravity** (🔢 Number, Acceleration). Default value is `1000`.
+- **Disable default keyboard controls** (🔘 Boolean). Default value is `false`.
+- **Jump speed** (🔢 Number, Speed). Default value is `600`.
+- **Jump sustain time** (🔢 Number, Duration). Maximum time (in seconds) during which the jump strength is sustained if the jump key is held - allowing variable height jumps. Default value is `0.2`.
+- **Ladder climbing speed** (🔢 Number, Speed). Default value is `150`.
+- **Max. falling speed** (🔢 Number, Speed). Default value is `700`.
+- **Max. speed** (🔢 Number, Speed). Default value is `250`.
+- **Slope max. angle** (🔢 Number, Angle). Default value is `60`.
+- **Use frame rate dependent trajectories (deprecated — best left unchecked)** (🔘 Boolean). Default value is `false`.
+- **Allows repeated jumps while holding the jump key (deprecated — best left unchecked)** (🔘 Boolean). Default value is `false`.
+- **Grab tolerance on X axis** (🔢 Number, Distance). Default value is `10`.
+- **Grab offset on Y axis** (🔢 Number, Distance). Default value is `0`.
+
+??? quote "See internal technical details"
+
+
+    - **Acceleration** is stored as `Acceleration` (Number). Unit is PixelAcceleration. Default value is `1500`.
+    - **Can go down from jumpthru platforms** is stored as `CanGoDownFromJumpthru` (Boolean). Default value is `true`.
+    - **Can grab platform ledges** is stored as `CanGrabPlatforms` (Boolean). Default value is `false`.
+    - **Automatically grab platform ledges without having to move horizontally** is stored as `CanGrabWithoutMoving` (Boolean). Default value is `true`.
+    - **Deceleration** is stored as `Deceleration` (Number). Unit is PixelAcceleration. Default value is `1500`.
+    - **Gravity** is stored as `Gravity` (Number). Unit is PixelAcceleration. Default value is `1000`.
+    - **Disable default keyboard controls** is stored as `IgnoreDefaultControls` (Boolean). Default value is `false`.
+    - **Jump speed** is stored as `JumpSpeed` (Number). Unit is PixelSpeed. Default value is `600`.
+    - **Jump sustain time** is stored as `JumpSustainTime` (Number). Unit is Second. Default value is `0.2`.
+    - **Ladder climbing speed** is stored as `LadderClimbingSpeed` (Number). Unit is PixelSpeed. Default value is `150`.
+    - **Max. falling speed** is stored as `MaxFallingSpeed` (Number). Unit is PixelSpeed. Default value is `700`.
+    - **Max. speed** is stored as `MaxSpeed` (Number). Unit is PixelSpeed. Default value is `250`.
+    - **Slope max. angle** is stored as `SlopeMaxAngle` (Number). Unit is DegreeAngle. Default value is `60`.
+    - **Use frame rate dependent trajectories (deprecated — best left unchecked)** is stored as `UseLegacyTrajectory` (Boolean). Default value is `false`.
+    - **Allows repeated jumps while holding the jump key (deprecated — best left unchecked)** is stored as `UseRepeatedJump` (Boolean). Default value is `false`.
+    - **Grab tolerance on X axis** is stored as `XGrabTolerance` (Number). Unit is Pixel. Default value is `10`.
+    - **Grab offset on Y axis** is stored as `YGrabOffset` (Number). Unit is Pixel. Default value is `0`.
 
 ### Behavior actions
 
@@ -311,6 +367,7 @@ Simulate a press of the up key (used when on a ladder).
 
     > Technical note: this action internal type (in GDevelop JSON) is `PlatformBehavior::SimulateUpKey`.
 
+
 ### Behavior conditions
 
 **Acceleration**  
@@ -537,6 +594,7 @@ A control was applied from a default control or simulated by an action.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PlatformBehavior::PlatformerObjectBehavior::IsUsingControl`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -559,4 +617,4 @@ A control was applied from a default control or simulated by an action.
 
 The Platform behavior extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Platform behavior** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Platform behavior** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

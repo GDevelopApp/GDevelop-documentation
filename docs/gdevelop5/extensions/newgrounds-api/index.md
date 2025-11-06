@@ -52,8 +52,8 @@ Load Newgrounds API.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): App ID (You can find this in your newground game edit page)
-    - Parameter 2 (string): Encrypt Key (You can find this in your newground game edit page)
+    - Parameter 1 (🔤 String): App ID (You can find this in your newground game edit page)
+    - Parameter 2 (🔤 String): Encrypt Key (You can find this in your newground game edit page)
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -132,4 +132,4 @@ User Is logged In?.
 
 ---
 
-*This page is an auto-generated reference page about the **Newgrounds API** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Newgrounds API** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

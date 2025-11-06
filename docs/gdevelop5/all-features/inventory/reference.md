@@ -9,8 +9,8 @@ Add an item in an inventory.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Inventory name
-    - Parameter 2 (string): Item name
+    - Parameter 1 (🔤 String): Inventory name
+    - Parameter 2 (🔤 String): Item name
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
@@ -21,8 +21,8 @@ Mark an item as being equipped. If the item count is 0, it won't be marked as eq
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Inventory name
-    - Parameter 2 (string): Item name
+    - Parameter 1 (🔤 String): Inventory name
+    - Parameter 2 (🔤 String): Item name
     - Parameter 3 (❓ Yes or No): Equip?
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
@@ -34,8 +34,8 @@ Remove an item from an inventory.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Inventory name
-    - Parameter 2 (string): Item name
+    - Parameter 1 (🔤 String): Inventory name
+    - Parameter 2 (🔤 String): Item name
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
@@ -46,7 +46,7 @@ Save all the items of the inventory in a scene variable, so that it can be resto
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Inventory name
+    - Parameter 1 (🔤 String): Inventory name
     - Parameter 2 (🗄️ Scene variable): Scene variable
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
@@ -58,8 +58,8 @@ Set the maximum number of the specified item that can be added in the inventory.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Inventory name
-    - Parameter 2 (string): Item name
+    - Parameter 1 (🔤 String): Inventory name
+    - Parameter 2 (🔤 String): Item name
     - Parameter 3 (🔢 Number): Maximum count
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
@@ -71,8 +71,8 @@ Allow an unlimited amount of an object to be in an inventory. This is the case b
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Inventory name
-    - Parameter 2 (string): Item name
+    - Parameter 1 (🔤 String): Inventory name
+    - Parameter 2 (🔤 String): Item name
     - Parameter 3 (❓ Yes or No): Allow an unlimited amount?
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
@@ -84,12 +84,13 @@ Load the content of the inventory from a scene variable.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Inventory name
+    - Parameter 1 (🔤 String): Inventory name
     - Parameter 2 (🗄️ Scene variable): Scene variable
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Inventory::UnserializeFromVariable`.
+
 
 ## Conditions
 
@@ -98,8 +99,8 @@ Compare the number of an item in an inventory.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Inventory name
-    - Parameter 2 (string): Item name
+    - Parameter 1 (🔤 String): Inventory name
+    - Parameter 2 (🔤 String): Item name
     - Parameter 3: 🟰 Relational operator
     - Parameter 4 (🔢 Number): Value to compare
 
@@ -112,8 +113,8 @@ Check if at least one of the specified items is in the inventory.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Inventory name
-    - Parameter 2 (string): Item name
+    - Parameter 1 (🔤 String): Inventory name
+    - Parameter 2 (🔤 String): Item name
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
@@ -124,8 +125,8 @@ Check if an item is equipped.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Inventory name
-    - Parameter 2 (string): Item name
+    - Parameter 1 (🔤 String): Inventory name
+    - Parameter 2 (🔤 String): Item name
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
@@ -136,23 +137,24 @@ Check if an item has reached its maximum number allowed in the inventory.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Inventory name
-    - Parameter 2 (string): Item name
+    - Parameter 1 (🔤 String): Inventory name
+    - Parameter 2 (🔤 String): Item name
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Inventory::IsFull`.
+
 
 ## Expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
 | `Inventory::Count(string, string)` | Get the number of an item in the inventory ||
-| | _string_ | Inventory name |
-| | _string_ | Item name |
+| | _🔤 String_ | Inventory name |
+| | _🔤 String_ | Item name |
 | `Inventory::Maximum(string, string)` | Get the maximum of an item in the inventory, or 0 if it is unlimited ||
-| | _string_ | Inventory name |
-| | _string_ | Item name |
+| | _🔤 String_ | Inventory name |
+| | _🔤 String_ | Item name |
 
 
 
@@ -160,4 +162,4 @@ Check if an item has reached its maximum number allowed in the inventory.
 
 The Inventories extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Inventories** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Inventories** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

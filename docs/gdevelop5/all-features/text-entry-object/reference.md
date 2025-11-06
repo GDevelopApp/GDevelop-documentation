@@ -27,9 +27,10 @@ Modify text in memory of the object
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
-    - Parameter 2 (string): Text
+    - Parameter 2 (🔤 String): Text
 
     > Technical note: this action internal type (in GDevelop JSON) is `TextEntryObject::String`.
+
 
 ### Object conditions
 
@@ -49,9 +50,10 @@ Test the text of a Text Entry object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
-    - Parameter 2 (string): Text to compare to
+    - Parameter 2 (🔤 String): Text to compare to
 
     > Technical note: this condition internal type (in GDevelop JSON) is `TextEntryObject::String`.
+
 
 ### Object expressions
 
@@ -65,4 +67,4 @@ Test the text of a Text Entry object.
 
 The Text entry object extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Text entry object** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Text entry object** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

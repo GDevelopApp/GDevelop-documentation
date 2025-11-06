@@ -20,9 +20,9 @@ Flip a Sprite with a 3D effect.
 
 ### Behavior properties
 
-- **Back animation name** (string). Default value is `Back`.
-- **Flipping method** (choice, one of: "Mirror", "Animation"). Default value is `Mirror`.
-- **Front animation name** (string). Default value is `Front`.
+- **Back animation name** (🔤 String). Default value is `Back`.
+- **Flipping method** (Choice, one of: "Mirror", "Animation"). Default value is `Mirror`.
+- **Front animation name** (🔤 String). Default value is `Front`.
 
 ??? quote "See internal technical details"
 
@@ -112,4 +112,4 @@ _No expressions for this behavior._
 
 ---
 
-*This page is an auto-generated reference page about the **3D-like Flip for 2D Sprites** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **3D-like Flip for 2D Sprites** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

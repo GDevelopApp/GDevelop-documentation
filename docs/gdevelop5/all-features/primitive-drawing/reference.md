@@ -8,6 +8,29 @@ An object that can be used to draw arbitrary 2D shapes on the screen using event
 
 Allows to draw simple 2D shapes on the screen using the events. 
 
+### Object properties
+
+- **Use absolute coordinates** (🔘 Boolean). Default value is `false`.
+- **Antialiasing** (choice, one of: "none", "low", "medium", "high"). Antialiasing mode. Default value is `none`.
+- **Clear drawing at each frame** (🔘 Boolean). When activated, clear the previous render at each frame. Otherwise, shapes are staying on the screen until you clear manually the object in events. Default value is `true`.
+- **Fill color** (🎨 Color). Default value is `255;255;255`.
+- **Fill opacity** (🔢 Number). Default value is `255`.
+- **Outline color** (🎨 Color). Default value is `0;0;0`.
+- **Outline opacity** (🔢 Number). Default value is `255`.
+- **Outline size** (🔢 Number). Default value is `1`.
+
+??? quote "See internal technical details"
+
+
+    - **Use absolute coordinates** is stored as `absoluteCoordinates` (boolean). Default value is `false`.
+    - **Antialiasing** is stored as `antialiasing` (choice). Default value is `none`.
+    - **Clear drawing at each frame** is stored as `clearBetweenFrames` (boolean). Default value is `true`.
+    - **Fill color** is stored as `fillColor` (color). Default value is `255;255;255`.
+    - **Fill opacity** is stored as `fillOpacity` (number). Default value is `255`.
+    - **Outline color** is stored as `outlineColor` (color). Default value is `0;0;0`.
+    - **Outline opacity** is stored as `outlineOpacity` (number). Default value is `255`.
+    - **Outline size** is stored as `outlineSize` (number). Default value is `1`.
+
 ### Object actions
 
 **Arc**  
@@ -127,7 +150,7 @@ Change the color used when filling
 ??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): Shape Painter object
-    - Parameter 1 (color): Fill color
+    - Parameter 1 (🎨 Color): Fill color
 
     > Technical note: this action internal type (in GDevelop JSON) is `PrimitiveDrawing::FillColor`.
 
@@ -187,7 +210,7 @@ Modify the color of the outline of future drawings.
 ??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): Shape Painter object
-    - Parameter 1: color
+    - Parameter 1: 🎨 Color
 
     > Technical note: this action internal type (in GDevelop JSON) is `PrimitiveDrawing::OutlineColor`.
 
@@ -406,6 +429,7 @@ Close the path of the advanced shape. This closes the outline between the last a
 
     > Technical note: this action internal type (in GDevelop JSON) is `PrimitiveDrawing::closePath`.
 
+
 ### Object conditions
 
 **Relative coordinates**  
@@ -469,6 +493,7 @@ Test the size of the outline.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PrimitiveDrawing::OutlineSize`.
 
+
 ### Object expressions
 
 | Expression | Description |  |
@@ -502,4 +527,4 @@ Test the size of the outline.
 
 The Shape painter extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Shape painter** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Shape painter** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

@@ -57,11 +57,11 @@ Remap keyboard controls of the platformer character movement.
 
 ### Behavior properties
 
-- **Down key** (keyboardkey).
-- **Jump key** (keyboardkey).
-- **Left key** (keyboardkey).
-- **Right key** (keyboardkey).
-- **Up key** (keyboardkey).
+- **Down key** (KeyboardKey).
+- **Jump key** (KeyboardKey).
+- **Left key** (KeyboardKey).
+- **Right key** (KeyboardKey).
+- **Up key** (KeyboardKey).
 
 ??? quote "See internal technical details"
 
@@ -83,11 +83,11 @@ Remaps Platformer behavior controls to a custom control scheme.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (keyboardkey): Up key
-    - Parameter 3 (keyboardkey): Left key
-    - Parameter 4 (keyboardkey): Down key
-    - Parameter 5 (keyboardkey): Right key
-    - Parameter 6 (keyboardkey): Jump key
+    - Parameter 2 (keyboardKey): Up key
+    - Parameter 3 (keyboardKey): Left key
+    - Parameter 4 (keyboardKey): Down key
+    - Parameter 5 (keyboardKey): Right key
+    - Parameter 6 (keyboardKey): Jump key
 
     > Technical note: parameter 7 is an internal parameter handled by GDevelop.
 
@@ -100,7 +100,7 @@ Remaps Platformer behavior controls to a preset control scheme.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (stringwithselector): Preset name (one of: "WASD", "ZQSD", "Numpad", "IJKL")
+    - Parameter 2 (🔤 String): Preset name (one of: "WASD", "ZQSD", "Numpad", "IJKL")
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -116,10 +116,10 @@ Remap keyboard controls of the top-down movement.
 
 ### Behavior properties
 
-- **Down key** (keyboardkey). Default value is `s`.
-- **Left key** (keyboardkey). Default value is `a`.
-- **Right key** (keyboardkey). Default value is `d`.
-- **Up key** (keyboardkey). Default value is `w`.
+- **Down key** (KeyboardKey). Default value is `s`.
+- **Left key** (KeyboardKey). Default value is `a`.
+- **Right key** (KeyboardKey). Default value is `d`.
+- **Up key** (KeyboardKey). Default value is `w`.
 
 ??? quote "See internal technical details"
 
@@ -140,10 +140,10 @@ Remaps Top-Down behavior controls to a custom control scheme.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (keyboardkey): Up key
-    - Parameter 3 (keyboardkey): Left key
-    - Parameter 4 (keyboardkey): Down key
-    - Parameter 5 (keyboardkey): Right key
+    - Parameter 2 (keyboardKey): Up key
+    - Parameter 3 (keyboardKey): Left key
+    - Parameter 4 (keyboardKey): Down key
+    - Parameter 5 (keyboardKey): Right key
 
     > Technical note: parameter 6 is an internal parameter handled by GDevelop.
 
@@ -156,7 +156,7 @@ Remaps Top-Down behavior controls to a preset control scheme.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (stringwithselector): Preset name (one of: "WASD", "ZQSD", "Numpad", "IJKL")
+    - Parameter 2 (🔤 String): Preset name (one of: "WASD", "ZQSD", "Numpad", "IJKL")
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -169,4 +169,4 @@ _No expressions for this behavior._
 
 ---
 
-*This page is an auto-generated reference page about the **Platformer and top-down remapper** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Platformer and top-down remapper** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

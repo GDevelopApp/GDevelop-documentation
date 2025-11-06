@@ -36,8 +36,8 @@ Paint Effect.
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🎨 Color
     - Parameter 3 (🔢 Number): Duration
-    - Parameter 4 (stringwithselector): Type of effect  (one of: "Flash", "Horizontal", "Vertical", "Circular")
-    - Parameter 5 (stringwithselector): Direction transition (one of: "Both", "Forward", "Backward")
+    - Parameter 4 (🔤 String): Type of effect  (one of: "Flash", "Horizontal", "Vertical", "Circular")
+    - Parameter 5 (🔤 String): Direction transition (one of: "Both", "Forward", "Backward")
     - Parameter 6 (🔢 Number): End opacity
 
     > Technical note: parameter 7 is an internal parameter handled by GDevelop.
@@ -66,4 +66,4 @@ _No expressions for this behavior._
 
 ---
 
-*This page is an auto-generated reference page about the **Flash and transition painter** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Flash and transition painter** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

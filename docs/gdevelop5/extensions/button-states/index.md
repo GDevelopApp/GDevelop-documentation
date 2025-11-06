@@ -36,9 +36,9 @@ Change the animation of buttons according to their state.
 
 ### Behavior properties
 
-- **Focused state animation name** (string). The state is Focused when the button is hovered or held outside. Default value is `Focused`.
-- **Idle state animation name** (string). Default value is `Idle`.
-- **Pressed state animation name** (string). Default value is `Pressed`.
+- **Focused state animation name** (🔤 String). The state is Focused when the button is hovered or held outside. Default value is `Focused`.
+- **Idle state animation name** (🔤 String). Default value is `Idle`.
+- **Pressed state animation name** (🔤 String). Default value is `Pressed`.
 
 ??? quote "See internal technical details"
 
@@ -61,7 +61,7 @@ Change the focused state animation name of the object. The state is Focused when
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
-    - Parameter 3 (string): Value
+    - Parameter 3 (🔤 String): Value
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -75,7 +75,7 @@ Change the idle state animation name of the object.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
-    - Parameter 3 (string): Value
+    - Parameter 3 (🔤 String): Value
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -89,7 +89,7 @@ Change the pressed state animation name of the object.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
-    - Parameter 3 (string): Value
+    - Parameter 3 (🔤 String): Value
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -105,8 +105,8 @@ Compare the focused state animation name of the object. The state is Focused whe
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
-    - Parameter 3 (string): Value to compare
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔤 String): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -119,8 +119,8 @@ Compare the idle state animation name of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
-    - Parameter 3 (string): Value to compare
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔤 String): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -133,8 +133,8 @@ Compare the pressed state animation name of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
-    - Parameter 3 (string): Value to compare
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔤 String): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -156,9 +156,9 @@ Smoothly change the color tint of buttons according to their state.
 ### Behavior properties
 
 - **Fade-in duration** (🔢 Number, Duration). Default value is `0.1`.
-- **Fade-in easing** (choice, one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo"). Default value is `easeInOutQuad`.
+- **Fade-in easing** (Choice, one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo"). Default value is `easeInOutQuad`.
 - **Fade-out duration** (🔢 Number, Duration). Default value is `0.2`.
-- **Fade-out easing** (choice, one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo"). Default value is `easeInOutQuad`.
+- **Fade-out easing** (Choice, one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo"). Default value is `easeInOutQuad`.
 - **Focused state color tint** (🎨 Color). The state is Focused when the button is hovered or held outside. Default value is `192;192;192`.
 - **Idle state color tint** (🎨 Color). Default value is `255;255;255`.
 - **Pressed state color tint** (🎨 Color). Default value is `64;64;64`.
@@ -202,7 +202,7 @@ Change the fade-in easing of the object.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
-    - Parameter 3 (stringwithselector): Value (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 3 (🔤 String): Value (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -230,7 +230,7 @@ Change the fade-out easing of the object.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
-    - Parameter 3 (stringwithselector): Value (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 3 (🔤 String): Value (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -288,7 +288,7 @@ Compare the fade-in duration of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -302,8 +302,8 @@ Compare the fade-in easing of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
-    - Parameter 3 (stringwithselector): Value to compare (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔤 String): Value to compare (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -316,7 +316,7 @@ Compare the fade-out duration of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -330,8 +330,8 @@ Compare the fade-out easing of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
-    - Parameter 3 (stringwithselector): Value to compare (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔤 String): Value to compare (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -344,7 +344,7 @@ Compare the focused state color tint of the object. The state is Focused when th
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🎨 Color): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -358,7 +358,7 @@ Compare the idle state color tint of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🎨 Color): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -372,7 +372,7 @@ Compare the pressed state color tint of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🎨 Color): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -477,7 +477,7 @@ Compare the touch id that is using the button or 0 if none.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -497,12 +497,12 @@ Smoothly change an effect on buttons according to their state.
 
 ### Behavior properties
 
-- **Effect name** (string). Default value is `Effect`.
-- **Effect parameter** (string). The effect parameter names can be found in the effects tab with the "Show parameter names" action of the drop down menu.
+- **Effect name** (🔤 String). Default value is `Effect`.
+- **Effect parameter** (🔤 String). The effect parameter names can be found in the effects tab with the "Show parameter names" action of the drop down menu.
 - **Fade-in duration** (🔢 Number, Duration). Default value is `0.125`.
-- **Fade-in easing** (choice, one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo"). Default value is `easeInOutQuad`.
+- **Fade-in easing** (Choice, one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo"). Default value is `easeInOutQuad`.
 - **Fade-out duration** (🔢 Number, Duration). Default value is `0.5`.
-- **Fade-out easing** (choice, one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo"). Default value is `easeInOutQuad`.
+- **Fade-out easing** (Choice, one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo"). Default value is `easeInOutQuad`.
 - **Focused effect parameter value** (🔢 Number). The state is Focused when the button is hovered or held outside. Default value is `0`.
 - **Idle effect parameter value** (🔢 Number). Default value is `0`.
 - **Pressed effect parameter value** (🔢 Number). Default value is `0`.
@@ -533,8 +533,8 @@ Change the effect parameter of the object. The effect parameter names can be fou
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (string): Effect name
-    - Parameter 3 (string): Parameter name
+    - Parameter 2 (🔤 String): Effect name
+    - Parameter 3 (🔤 String): Parameter name
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -562,7 +562,7 @@ Change the fade-in easing of the object.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
-    - Parameter 3 (stringwithselector): Value (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 3 (🔤 String): Value (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -590,7 +590,7 @@ Change the fade-out easing of the object.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
-    - Parameter 3 (stringwithselector): Value (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 3 (🔤 String): Value (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -648,8 +648,8 @@ Compare the effect name of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
-    - Parameter 3 (string): Value to compare
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔤 String): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -662,8 +662,8 @@ Compare the effect parameter of the object. The effect parameter names can be fo
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
-    - Parameter 3 (string): Value to compare
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔤 String): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -676,7 +676,7 @@ Compare the fade-in duration of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -690,8 +690,8 @@ Compare the fade-in easing of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
-    - Parameter 3 (stringwithselector): Value to compare (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔤 String): Value to compare (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -704,7 +704,7 @@ Compare the fade-out duration of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -718,8 +718,8 @@ Compare the fade-out easing of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
-    - Parameter 3 (stringwithselector): Value to compare (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔤 String): Value to compare (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -732,7 +732,7 @@ Compare the focused effect parameter value of the object. The state is Focused w
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -746,7 +746,7 @@ Compare the idle effect parameter value of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -760,7 +760,7 @@ Compare the pressed effect parameter value of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -788,9 +788,9 @@ Enable effects on buttons based on their state.
 
 ### Behavior properties
 
-- **Focused state effect** (string). The state is Focused when the button is hovered or held outside.
-- **Idle state effect** (string).
-- **Pressed state effect** (string).
+- **Focused state effect** (🔤 String). The state is Focused when the button is hovered or held outside.
+- **Idle state effect** (🔤 String).
+- **Pressed state effect** (🔤 String).
 
 ??? quote "See internal technical details"
 
@@ -813,7 +813,7 @@ Change the focused state effect of the object. The state is Focused when the but
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
-    - Parameter 3 (string): Value
+    - Parameter 3 (🔤 String): Value
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -827,7 +827,7 @@ Change the idle state effect of the object.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
-    - Parameter 3 (string): Value
+    - Parameter 3 (🔤 String): Value
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -841,7 +841,7 @@ Change the pressed state effect of the object.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
-    - Parameter 3 (string): Value
+    - Parameter 3 (🔤 String): Value
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -857,8 +857,8 @@ Compare the focused state effect of the object. The state is Focused when the bu
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
-    - Parameter 3 (string): Value to compare
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔤 String): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -871,8 +871,8 @@ Compare the idle state effect of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
-    - Parameter 3 (string): Value to compare
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔤 String): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -885,8 +885,8 @@ Compare the pressed state effect of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
-    - Parameter 3 (string): Value to compare
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔤 String): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -908,9 +908,9 @@ Smoothly resize buttons according to their state.
 ### Behavior properties
 
 - **Fade-in duration** (🔢 Number, Duration). Default value is `0.1`.
-- **Fade-in easing** (choice, one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo"). Default value is `easeInOutQuad`.
+- **Fade-in easing** (Choice, one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo"). Default value is `easeInOutQuad`.
 - **Fade-out duration** (🔢 Number, Duration). Default value is `0.2`.
-- **Fade-out easing** (choice, one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo"). Default value is `easeInOutQuad`.
+- **Fade-out easing** (Choice, one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo"). Default value is `easeInOutQuad`.
 - **Focused state size scale** (🔢 Number, Dimensionless). The state is Focused when the button is hovered or held outside. Default value is `1`.
 - **Idle state size scale** (🔢 Number, Dimensionless). Default value is `1`.
 - **Pressed state size scale** (🔢 Number, Dimensionless). Default value is `0.95`.
@@ -956,7 +956,7 @@ Change the fade-in easing of the object.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
-    - Parameter 3 (stringwithselector): Value (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 3 (🔤 String): Value (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -984,7 +984,7 @@ Change the fade-out easing of the object.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
-    - Parameter 3 (stringwithselector): Value (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 3 (🔤 String): Value (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -1042,7 +1042,7 @@ Compare the fade-in duration of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -1056,8 +1056,8 @@ Compare the fade-in easing of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
-    - Parameter 3 (stringwithselector): Value to compare (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔤 String): Value to compare (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -1070,7 +1070,7 @@ Compare the fade-out duration of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -1084,8 +1084,8 @@ Compare the fade-out easing of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
-    - Parameter 3 (stringwithselector): Value to compare (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔤 String): Value to compare (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -1098,7 +1098,7 @@ Compare the focused state size scale of the object. The state is Focused when th
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -1112,7 +1112,7 @@ Compare the idle state size scale of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -1126,7 +1126,7 @@ Compare the pressed state size scale of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -1149,4 +1149,4 @@ Compare the pressed state size scale of the object.
 
 ---
 
-*This page is an auto-generated reference page about the **Button states and effects** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Button states and effects** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

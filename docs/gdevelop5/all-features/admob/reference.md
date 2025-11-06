@@ -47,9 +47,9 @@ If test mode is set, a test app open will be displayed.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Android app open ID
+    - Parameter 0 (🔤 String): Android app open ID
       Get it from your AdMob account. You can use `"ca-app-pub-3940256099942544/9257395921"` for loading a test app open.
-    - Parameter 1 (string): iOS app open ID
+    - Parameter 1 (🔤 String): iOS app open ID
       Get it from your AdMob account. You can use `"ca-app-pub-3940256099942544/5575463023"` for loading a test app open.
     - Parameter 2 (❓ Yes or No): Display in landscape? (portrait otherwise)
     - Parameter 3 (❓ Yes or No): Displayed automatically when loading is finished?
@@ -62,9 +62,9 @@ If test mode is set, a test interstitial will be displayed.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Android interstitial ID
+    - Parameter 0 (🔤 String): Android interstitial ID
       Get it from your AdMob account. You can use `"ca-app-pub-3940256099942544/1033173712"` for loading a test interstitial.
-    - Parameter 1 (string): iOS interstitial ID
+    - Parameter 1 (🔤 String): iOS interstitial ID
       Get it from your AdMob account. You can use `"ca-app-pub-3940256099942544/4411468910"` for loading a test interstitial.
     - Parameter 2 (❓ Yes or No): Displayed automatically when loading is finished?
 
@@ -77,9 +77,9 @@ This is similar to a rewarded video, but can be displayed at any time, and the u
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Android rewarded interstitial ID
+    - Parameter 0 (🔤 String): Android rewarded interstitial ID
       Get it from your AdMob account. You can use `"ca-app-pub-3940256099942544/5354046379"` for loading a test rewarded interstitial.
-    - Parameter 1 (string): iOS interstitial ID
+    - Parameter 1 (🔤 String): iOS interstitial ID
       Get it from your AdMob account. You can use `"ca-app-pub-3940256099942544/6978759866"` for loading a test rewarded interstitial.
     - Parameter 2 (❓ Yes or No): Displayed automatically when loading is finished?
 
@@ -91,9 +91,9 @@ If test mode is set, a test video will be displayed.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Android reward video ID
+    - Parameter 0 (🔤 String): Android reward video ID
       Get it from your AdMob account. You can use `"ca-app-pub-3940256099942544/5224354917"` for loading a test rewarded video.
-    - Parameter 1 (string): iOS reward video ID
+    - Parameter 1 (🔤 String): iOS reward video ID
       Get it from your AdMob account. You can use `"ca-app-pub-3940256099942544/1712485313"` for loading a test rewarded video.
     - Parameter 2 (❓ Yes or No): Displayed automatically when loading is finished?
 
@@ -130,9 +130,9 @@ Once a banner is positioned (at the top or bottom of the game), it can't be move
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Android banner ID
+    - Parameter 0 (🔤 String): Android banner ID
       Get it from your AdMob account. You can use `"ca-app-pub-3940256099942544/6300978111"` for showing a test banner.
-    - Parameter 1 (string): iOS banner ID
+    - Parameter 1 (🔤 String): iOS banner ID
       Get it from your AdMob account. You can use `"ca-app-pub-3940256099942544/2934735716"` for showing a test banner.
     - Parameter 2 (❓ Yes or No): Display at top? (bottom otherwise)
 
@@ -182,6 +182,7 @@ Show the reward video that was loaded. Will work only when the video is fully lo
     There are no parameters to set for this action.
 
     > Technical note: this action internal type (in GDevelop JSON) is `AdMob::ShowRewardedVideo`.
+
 
 ## Conditions
 
@@ -407,8 +408,9 @@ Check if there is a rewarded video being displayed.
 
 
 
+
 ---
 
 The AdMob extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **AdMob** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **AdMob** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

@@ -21,7 +21,7 @@ This action launches the specified file or URL, in a browser (or in a new tab if
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): URL (or filename)
+    - Parameter 0 (🔤 String): URL (or filename)
 
     > Technical note: parameter 1 is an internal parameter handled by GDevelop.
 
@@ -34,12 +34,12 @@ Please note that for the web games, the game must be hosted on the same host as 
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): URL (API or web-page address)
+    - Parameter 0 (🔤 String): URL (API or web-page address)
       Example: "https://example.com/user/123". Using *https* is highly recommended.
-    - Parameter 1 (string): Request body content
+    - Parameter 1 (🔤 String): Request body content
     - Parameter 2 (🔤 String): Request method
       If empty, "GET" will be used. (one of: "GET", "POST", "PUT", "HEAD", "DELETE", "PATCH", "OPTIONS")
-    - Parameter 3 (string): Content type
+    - Parameter 3 (🔤 String): Content type
       If empty, "application/x-www-form-urlencoded" will be used.
     - Parameter 4 (🗄️ Scene variable): Variable where to store the response
       The response of the server will be stored, as a string, in this variable. If the server returns *JSON*, you may want to use the action "Convert JSON to a scene variable" afterwards, to explore the results with a *structure variable*.
@@ -52,8 +52,9 @@ Please note that for the web games, the game must be hosted on the same host as 
 
 
 
+
 ---
 
 The Network extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Network** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Network** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

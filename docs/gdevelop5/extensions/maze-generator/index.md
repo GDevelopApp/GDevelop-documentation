@@ -42,10 +42,10 @@ Add a wall in a particular direction for a maze cell.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Maze ID
+    - Parameter 1 (🔤 String): Maze ID
     - Parameter 2 (🔢 Number): Row Number
     - Parameter 3 (🔢 Number): Column Number
-    - Parameter 4 (stringwithselector): Wall Direction (one of: "LeftWall", "RightWall", "UpWall", "DownWall")
+    - Parameter 4 (🔤 String): Wall Direction (one of: "LeftWall", "RightWall", "UpWall", "DownWall")
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
@@ -56,9 +56,9 @@ For a previously created maze, create maze corner objects at the intersection po
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): MazeID chosen during maze creation
+    - Parameter 1 (🔤 String): MazeID chosen during maze creation
     - Parameter 2 (👾 Object): Corner Object
-    - Parameter 3 (string): Layer
+    - Parameter 3 (🔤 String): Layer
     - Parameter 4 (🔢 Number): Z Order
     - Parameter 5 (🔢 Number): Resize Width of Corner (Optional)
     - Parameter 6 (🔢 Number): Resize Height of Corner (Optional)
@@ -72,9 +72,9 @@ For a previously created maze, create maze floor objects that will tile the cell
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): MazeID chosen during maze creation
+    - Parameter 1 (🔤 String): MazeID chosen during maze creation
     - Parameter 2 (👾 Object): Floor Object
-    - Parameter 3 (string): Layer
+    - Parameter 3 (🔤 String): Layer
     - Parameter 4 (🔢 Number): Z Order
     - Parameter 5 (🔢 Number): Resize Width (optional)
     - Parameter 6 (🔢 Number): Resize Height (optional)
@@ -88,10 +88,10 @@ For a previously created maze, create maze wall objects along the edges of the c
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): MazeID chosen during maze creation
+    - Parameter 1 (🔤 String): MazeID chosen during maze creation
     - Parameter 2 (👾 Object): Horizontal Wall Object
     - Parameter 3 (👾 Object): Vertical Wall Object
-    - Parameter 4 (string): Layer
+    - Parameter 4 (🔤 String): Layer
     - Parameter 5 (🔢 Number): Z Order
     - Parameter 6 (🔢 Number): Resize Width of Horizontal Wall (Optional)
     - Parameter 7 (🔢 Number): Resize Height of Horizontal Wall (Optional)
@@ -107,12 +107,12 @@ Finds a path through a maze between two cells, storing the result in a scene var
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): MazeID
+    - Parameter 1 (🔤 String): MazeID
     - Parameter 2 (🔢 Number): Start Row
     - Parameter 3 (🔢 Number): Start Column
     - Parameter 4 (🔢 Number): End Row
     - Parameter 5 (🔢 Number): End Column
-    - Parameter 6 (string): Path Name
+    - Parameter 6 (🔤 String): Path Name
       This will be the name of the child array stored in the __MazeGeneratorPath scene structure variable
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
@@ -130,7 +130,7 @@ Specify the overall size of a maze, and the size of the tile "cells" inside the 
     - Parameter 4 (🔢 Number): Height of whole maze (in pixels)
     - Parameter 5 (🔢 Number): Cell Width (in pixels)
     - Parameter 6 (🔢 Number): Cell Height (in pixels)
-    - Parameter 7 (string): Custom name for new maze (MazeID)
+    - Parameter 7 (🔤 String): Custom name for new maze (MazeID)
 
     > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
 
@@ -141,10 +141,10 @@ Remove a wall in a particular direction for a maze cell.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Maze ID
+    - Parameter 1 (🔤 String): Maze ID
     - Parameter 2 (🔢 Number): Row Number
     - Parameter 3 (🔢 Number): Column Number
-    - Parameter 4 (string): Wall Direction
+    - Parameter 4 (🔤 String): Wall Direction
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
@@ -158,10 +158,10 @@ Chosen cell within a maze has a wall in a particular direction.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Maze ID
+    - Parameter 1 (🔤 String): Maze ID
     - Parameter 2 (🔢 Number): Row Number
     - Parameter 3 (🔢 Number): Column Number
-    - Parameter 4 (stringwithselector): Wall Direction (one of: "LeftWall", "RightWall", "UpWall", "DownWall")
+    - Parameter 4 (🔤 String): Wall Direction (one of: "LeftWall", "RightWall", "UpWall", "DownWall")
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
@@ -173,31 +173,31 @@ Chosen cell within a maze has a wall in a particular direction.
 | Expression | Description |  |
 |-----|-----|-----|
 | `MazeGenerator::MazeCellDepth(string, number, number)` | Returns how many cells away from a cell with at least three exits. ||
-| | _string_ | MazeID |
+| | _🔤 String_ | MazeID |
 | | _🔢 Number_ | Row Number |
 | | _🔢 Number_ | Column Number |
 | `MazeGenerator::MazeCellHeight(string)` | Height of maze cells. ||
-| | _string_ | Maze ID |
+| | _🔤 String_ | Maze ID |
 | `MazeGenerator::MazeCellWidth(string)` | Width of maze cells. ||
-| | _string_ | Maze ID |
+| | _🔤 String_ | Maze ID |
 | `MazeGenerator::MazeHeight(string)` | Height of whole maze. ||
-| | _string_ | Maze ID |
+| | _🔤 String_ | Maze ID |
 | `MazeGenerator::MazeNumCells(string)` | The number of cells (floor tiles) inside of a maze. ||
-| | _string_ | Maze ID |
+| | _🔤 String_ | Maze ID |
 | `MazeGenerator::MazeNumColumns(string)` | The number of columns in a maze. ||
-| | _string_ | Maze ID |
+| | _🔤 String_ | Maze ID |
 | `MazeGenerator::MazeNumRows(string)` | The number of rows in a maze. ||
-| | _string_ | Maze ID |
+| | _🔤 String_ | Maze ID |
 | `MazeGenerator::MazeNumWalls(string, number, number)` | The number of directions with walls. ||
-| | _string_ | MazeID chosen during maze creation |
+| | _🔤 String_ | MazeID chosen during maze creation |
 | | _🔢 Number_ | Row Number |
 | | _🔢 Number_ | Column Number |
 | `MazeGenerator::MazeWidth(string)` | Width of whole maze. ||
-| | _string_ | Maze ID |
+| | _🔤 String_ | Maze ID |
 | `MazeGenerator::MazeX(string)` | X position of maze. ||
-| | _string_ | Maze ID |
+| | _🔤 String_ | Maze ID |
 | `MazeGenerator::MazeY(string)` | Y position of maze. ||
-| | _string_ | Maze ID |
+| | _🔤 String_ | Maze ID |
 
 ## Maze Object 
 
@@ -241,7 +241,7 @@ Check if maze object belongs to a certain maze, by the MazeID.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (string): MazeID of maze, set during maze creation
+    - Parameter 2 (🔤 String): MazeID of maze, set during maze creation
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -254,7 +254,7 @@ Check if maze object is a wall in a particular direction.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (stringwithselector): Wall Direction of Maze Object (one of: "LeftWall", "RightWall", "UpWall", "DownWall")
+    - Parameter 2 (🔤 String): Wall Direction of Maze Object (one of: "LeftWall", "RightWall", "UpWall", "DownWall")
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -273,4 +273,4 @@ Check if maze object is a wall in a particular direction.
 
 ---
 
-*This page is an auto-generated reference page about the **Maze Generator** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Maze Generator** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

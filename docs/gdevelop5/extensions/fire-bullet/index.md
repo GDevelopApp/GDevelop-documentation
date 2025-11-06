@@ -435,7 +435,7 @@ Compare the ammo quantity.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -449,7 +449,7 @@ Compare the angle variance (in degrees) applied to each bullet.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -463,7 +463,7 @@ Compare the number of bullets shot every time the "fire bullet" action is used.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -489,7 +489,7 @@ Compare the bullet speed variance (pixels per second) applied to each bullet.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -503,7 +503,7 @@ Compare the firing cooldown (in seconds) also known as rate of fire.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -517,7 +517,7 @@ Compare the remaining duration before the cooldown will permit a bullet to be fi
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -531,7 +531,7 @@ Compare the exponential cooling rate, per second.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -545,7 +545,7 @@ Compare the firing arc (in degrees) where bullets are shot. Bullets are evenly s
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -571,7 +571,7 @@ Compare the heat increase per shot.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -585,7 +585,7 @@ Compare the heat level (range: 0 to 1).
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -695,7 +695,7 @@ Compare the linear cooling rate (per second).
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -709,7 +709,7 @@ Compare the max ammo.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -723,7 +723,7 @@ Compare the overheat duration (in seconds). When an object is overheated, it can
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -737,7 +737,7 @@ Compare the remaining duration before the overheat penalty ends, in seconds.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -751,7 +751,7 @@ Compare the reload duration (in seconds).
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -765,7 +765,7 @@ Compare the remaining duration before the reload finishes, in seconds.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -779,7 +779,7 @@ Compare the remaining shots before the next reload is required.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -793,7 +793,7 @@ Compare the number of shots per reload.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -831,4 +831,4 @@ Compare the number of shots per reload.
 
 ---
 
-*This page is an auto-generated reference page about the **Fire bullets** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Fire bullets** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

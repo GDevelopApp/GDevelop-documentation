@@ -29,7 +29,7 @@ Note: Music files should be preloaded before using these actions, such at the st
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Audio file resource name
+    - Parameter 1 (🔤 String): Audio file resource name
       The final string must match the full resource name as displayed in the resource list.
     - Parameter 2 (🔢 Number): Channel identifier
     - Parameter 3 (❓ Yes or No): Repeat the sound
@@ -50,7 +50,7 @@ Note: Sound files should be preloaded before using these actions, such at the st
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Audio file resource name
+    - Parameter 1 (🔤 String): Audio file resource name
       The final string must match the full resource name as displayed in the resource list.
     - Parameter 2 (🔢 Number): Channel identifier
     - Parameter 3 (❓ Yes or No): Repeat the sound
@@ -68,7 +68,7 @@ Preload a music file by name or string expression.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Audio file resource name
+    - Parameter 1 (🔤 String): Audio file resource name
       The final string must match the full resource name as displayed in the resource list.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
@@ -80,7 +80,7 @@ Preload a sound file by name or string expression.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Audio file resource name
+    - Parameter 1 (🔤 String): Audio file resource name
       The final string must match the full resource name as displayed in the resource list.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
@@ -93,4 +93,4 @@ Preload a sound file by name or string expression.
 
 ---
 
-*This page is an auto-generated reference page about the **Sounds and music by filename** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Sounds and music by filename** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

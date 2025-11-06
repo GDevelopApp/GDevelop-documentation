@@ -47,7 +47,7 @@ Among the objects of the specified group, this action will create the object wit
 
     - Parameter 1 (👾 Object): Group of potential objects
       Group containing objects that can be created by the action.
-    - Parameter 2 (string): Name of the object to create
+    - Parameter 2 (🔤 String): Name of the object to create
       Text representing the name of the object to create. If no objects with this name are found in the group, no object will be created.
     - Parameter 3 (🔢 Number): X position
     - Parameter 4 (🔢 Number): Y position
@@ -78,6 +78,7 @@ Pick the instance of this object that is nearest to the specified position.
     - Parameter 2 (🔢 Number): Y position
 
     > Technical note: this action internal type (in GDevelop JSON) is `PickNearest`.
+
 
 ## Conditions
 
@@ -247,6 +248,7 @@ Test if the cursor is over an object, or if the object is being touched.
     > Technical note: parameters 1, 3 are internal parameters handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `SourisSurObjet`.
+
 
 ## Expressions
 
@@ -449,7 +451,7 @@ Modify the text of an object variable.
     - Parameter 0: 👾 Object
     - Parameter 1 (🗄️ Object variable): Variable
     - Parameter 2: 🟰 Operator
-    - Parameter 3 (string): Value
+    - Parameter 3 (🔤 String): Value
 
     > Technical note: this action internal type (in GDevelop JSON) is `ModVarObjetTxt`.
 
@@ -515,7 +517,7 @@ Adds a text (string) to the end of an object array variable.
 
     - Parameter 0: 👾 Object
     - Parameter 1 (🗄️ Object variable): Array variable
-    - Parameter 2 (string): Text to add
+    - Parameter 2 (🔤 String): Text to add
 
     > Technical note: this action internal type (in GDevelop JSON) is `ObjectVariablePushString`.
 
@@ -537,7 +539,7 @@ Remove a child from an object structure variable.
 
     - Parameter 0: 👾 Object
     - Parameter 1 (🗄️ Object variable): Structure variable
-    - Parameter 2 (string): Child's name
+    - Parameter 2 (🔤 String): Child's name
 
     > Technical note: this action internal type (in GDevelop JSON) is `ObjectVariableRemoveChild`.
 
@@ -580,7 +582,7 @@ Adds a text (string) to the end of an object array variable.
 
     - Parameter 0: 👾 Object
     - Parameter 1 (🗄️ Object variable): Array variable
-    - Parameter 2 (string): Text to add
+    - Parameter 2 (🔤 String): Text to add
 
     > Technical note: this action internal type (in GDevelop JSON) is `PushStringToObjectVariable`.
 
@@ -772,7 +774,7 @@ Modify the text of an object variable.
     - Parameter 0: 👾 Object
     - Parameter 1 (🗄️ Object variable): Variable
     - Parameter 2: 🟰 Operator
-    - Parameter 3 (string): Value
+    - Parameter 3 (🔤 String): Value
 
     > Technical note: this action internal type (in GDevelop JSON) is `SetStringObjectVariable`.
 
@@ -796,6 +798,7 @@ Unpause an object timer.
     - Parameter 1 (🔤 Name (String)): Timer's name
 
     > Technical note: this action internal type (in GDevelop JSON) is `UnPauseObjectTimer`.
+
 
 ### Object conditions
 
@@ -1026,7 +1029,7 @@ Check if the specified child of the object structure variable exists.
 
     - Parameter 0: 👾 Object
     - Parameter 1 (🗄️ Object variable): Structure variable
-    - Parameter 2 (string): Name of the child
+    - Parameter 2 (🔤 String): Name of the child
 
     > Technical note: this condition internal type (in GDevelop JSON) is `ObjectVariableChildExists`.
 
@@ -1071,7 +1074,7 @@ Compare the text of an object variable.
     - Parameter 0: 👾 Object
     - Parameter 1 (🗄️ Object variable): Variable
     - Parameter 2: 🟰 Relational operator
-    - Parameter 3 (string): Value to compare
+    - Parameter 3 (🔤 String): Value to compare
 
     > Technical note: this condition internal type (in GDevelop JSON) is `StringObjectVariable`.
 
@@ -1095,7 +1098,7 @@ Compare the text of an object variable.
     - Parameter 0: 👾 Object
     - Parameter 1 (🗄️ Object variable): Variable
     - Parameter 2: 🟰 Relational operator
-    - Parameter 3 (string): Value to compare
+    - Parameter 3 (🔤 String): Value to compare
 
     > Technical note: this condition internal type (in GDevelop JSON) is `VarObjetTxt`.
 
@@ -1118,6 +1121,7 @@ Compare the overall speed of an object
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Vitesse`.
+
 
 ### Object expressions
 
@@ -1187,4 +1191,4 @@ Compare the overall speed of an object
 
 The Objects extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Objects** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Objects** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

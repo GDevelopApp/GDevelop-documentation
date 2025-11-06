@@ -31,7 +31,7 @@ Change the animation according to the movement direction.
 ### Behavior properties
 
 - **Angle offset** (🔢 Number, Angle). Set to 90°, "Walk0" becomes the animation for down. Default value is `0`.
-- **Animation name** (string). Animations must be called "Walk0", "Walk1"... for left, down... Default value is `Walk`.
+- **Animation name** (🔤 String). Animations must be called "Walk0", "Walk1"... for left, down... Default value is `Walk`.
 - **Number of directions** (🔢 Number, Dimensionless). Default value is `8`.
 - **Scale animation according to speed** (🔘 Boolean). Default value is `true`.
 
@@ -57,7 +57,7 @@ Change the animation name of the object.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
-    - Parameter 3 (string): Value
+    - Parameter 3 (🔤 String): Value
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -86,8 +86,8 @@ Compare the animation name of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
-    - Parameter 3 (string): Value to compare
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔤 String): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -121,7 +121,7 @@ Move objects to a target in straight lines while avoiding all objects that are f
 - **Acceleration** (🔢 Number, Acceleration). Default value is `400`.
 - **Angle offset** (🔢 Number, Angle). Default value is `0`.
 - **Rotation speed** (🔢 Number, Angular speed). Default value is `180`.
-- **Collision shape** (choice, one of: "Bounding disk", "Dot at center"). Default value is `Bounding disk`.
+- **Collision shape** (Choice, one of: "Bounding disk", "Dot at center"). Default value is `Bounding disk`.
 - **Extra border size** (🔢 Number, Distance). Default value is `0`.
 - **Maximum speed** (🔢 Number, Speed). Default value is `200`.
 - **Rotate object** (🔘 Boolean). Default value is `false`.
@@ -203,7 +203,7 @@ Change the collision shape of the object.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🟰 Operator
-    - Parameter 3 (stringwithselector): Value (one of: "Bounding disk", "Dot at center")
+    - Parameter 3 (🔤 String): Value (one of: "Bounding disk", "Dot at center")
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -274,7 +274,7 @@ Compare the acceleration of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -288,7 +288,7 @@ Compare the angle offset of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -302,7 +302,7 @@ Compare the rotation speed of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -316,8 +316,8 @@ Compare the collision shape of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
-    - Parameter 3 (stringwithselector): Value to compare (one of: "Bounding disk", "Dot at center")
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔤 String): Value to compare (one of: "Bounding disk", "Dot at center")
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -342,7 +342,7 @@ Compare the extra border size of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -368,7 +368,7 @@ Compare the maximum speed of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -420,7 +420,7 @@ Compare the number of waypoints on the path.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -464,7 +464,7 @@ Flag objects as being an obstacle for pathfinding.
 - **Area right bound** (🔢 Number, Distance). The right bound of the area where objects can go in the scene (default to the game resolution). Default value is `0`.
 - **Area top bound** (🔢 Number, Distance). The top bound of the area where objects can go in the scene. Default value is `0`.
 - **Cell size** (🔢 Number, Distance). Cell size for obstacle collision mask rasterization. Default value is `10`.
-- **Viewpoint** (choice, one of: "Top-Down", "Isometry 2:1 (26.565°)", "True Isometry (30°)"). Default value is `Top-Down`.
+- **Viewpoint** (Choice, one of: "Top-Down", "Isometry 2:1 (26.565°)", "True Isometry (30°)"). Default value is `Top-Down`.
 
 ??? quote "See internal technical details"
 
@@ -485,7 +485,7 @@ Compare the area bottom bound. The bottom bound of the area where objects can go
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -499,7 +499,7 @@ Compare the area left bound. The left bound of the area where objects can go in 
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -513,7 +513,7 @@ Compare the area right bound. The right bound of the area where objects can go i
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -527,7 +527,7 @@ Compare the area top bound. The top bound of the area where objects can go in th
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -541,7 +541,7 @@ Compare the cell size for obstacle collision mask rasterization. While an object
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -562,4 +562,4 @@ Compare the cell size for obstacle collision mask rasterization. While an object
 
 ---
 
-*This page is an auto-generated reference page about the **Navigation mesh pathfinding (experimental)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Navigation mesh pathfinding (experimental)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

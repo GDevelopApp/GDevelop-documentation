@@ -39,7 +39,7 @@ Mark a purchase as delivered, after you delivered the rewards the user has paid 
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): The id or alias of the product to finalize
+    - Parameter 1 (🔤 String): The id or alias of the product to finalize
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -62,8 +62,8 @@ Check [this page](https://github.com/j3k0/cordova-plugin-purchase/blob/master/ap
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): The id or alias of the product to get info about
-    - Parameter 2 (string): The name of the scene variable to store the product data in
+    - Parameter 1 (🔤 String): The id or alias of the product to get info about
+    - Parameter 2 (🔤 String): The name of the scene variable to store the product data in
       The variable will be a structure, see [this page](https://github.com/j3k0/cordova-plugin-purchase/blob/master/api/classes/CdvPurchase.Product.md) to know what child variables are accessible.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -77,7 +77,7 @@ Ensure you use the condition to check if the store is ready and that the product
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): The id of the product to buy
+    - Parameter 1 (🔤 String): The id of the product to buy
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -90,10 +90,10 @@ Make sure you register them all and finalize registration before ordering a prod
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): The internal ID of the product
+    - Parameter 1 (🔤 String): The internal ID of the product
       Use the ID of the product you entered on the IAP provider (Google play, Apple store...)
-    - Parameter 2 (stringwithselector): The type of product (one of: "paid subscription", "non renewing subscription", "consumable", "non consumable")
-    - Parameter 3 (stringwithselector): Which platform you're registering the product to (one of: "android-playstore", "ios-appstore", "braintree", "windows-store-transaction")
+    - Parameter 2 (🔤 String): The type of product (one of: "paid subscription", "non renewing subscription", "consumable", "non consumable")
+    - Parameter 3 (🔤 String): Which platform you're registering the product to (one of: "android-playstore", "ios-appstore", "braintree", "windows-store-transaction")
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
@@ -109,9 +109,9 @@ Finished is triggered after you have marked the purchased as delivered (less use
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): The id of the product to watch
-    - Parameter 2 (string): The name of the scene variable to set to "true" when the event happens
-    - Parameter 3 (stringwithselector): The event to listen to (one of: "finished", "approved")
+    - Parameter 1 (🔤 String): The id of the product to watch
+    - Parameter 2 (🔤 String): The name of the scene variable to set to "true" when the event happens
+    - Parameter 3 (🔤 String): The event to listen to (one of: "finished", "approved")
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
@@ -137,4 +137,4 @@ Triggers after finalizing the registration. Products can then be retrieved and p
 
 ---
 
-*This page is an auto-generated reference page about the **Mobile In-App Purchase (experimental)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Mobile In-App Purchase (experimental)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

@@ -18,11 +18,11 @@ Using the well know zip compression algorithm, you can minimify strings and rest
 | Expression | Description |  |
 |-----|-----|-----|
 | `Compressor::Compress(string)` | Compress a string. ||
-| | _string_ | String to compress |
+| | _🔤 String_ | String to compress |
 | `Compressor::Decompress(string)` | Decompress a string. ||
-| | _string_ | String to decompress |
+| | _🔤 String_ | String to decompress |
 
 
 ---
 
-*This page is an auto-generated reference page about the **Compressor** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Compressor** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

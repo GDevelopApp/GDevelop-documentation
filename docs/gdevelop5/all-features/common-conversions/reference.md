@@ -9,7 +9,7 @@ Parse a JSON object and store it into an object variable
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): JSON string
+    - Parameter 0 (🔤 String): JSON string
     - Parameter 1: 👾 Object
     - Parameter 2 (🗄️ Object variable): Object variable where store the JSON object
 
@@ -20,10 +20,11 @@ Parse a JSON object and store it into a variable
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): JSON string
+    - Parameter 0 (🔤 String): JSON string
     - Parameter 1 (🗄️ Any variable): Variable where to store the JSON object
 
     > Technical note: this action internal type (in GDevelop JSON) is `JSONToVariableStructure2`.
+
 
 ## Expressions
 
@@ -39,7 +40,7 @@ Parse a JSON object and store it into a variable
 | `ToJSON(variable)` | Convert a variable to JSON ||
 | | _🗄️ Any variable_ | The variable to be stringified |
 | `ToNumber(string)` | Convert the text to a number ||
-| | _string_ | Text to convert to a number |
+| | _🔤 String_ | Text to convert to a number |
 | `ToRad(number)` | Converts the angle, expressed in degrees, into radians ||
 | | _🔢 Number_ | Angle, in degrees |
 | `ToString(number)` | Convert the result of the expression to text ||
@@ -51,4 +52,4 @@ Parse a JSON object and store it into a variable
 
 The Conversion extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Conversion** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Conversion** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

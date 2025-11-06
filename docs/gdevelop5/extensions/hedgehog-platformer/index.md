@@ -478,7 +478,7 @@ Compare the air drag of the object. The air drag reduce the speed on X axis.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -492,7 +492,7 @@ Compare the air drag min speed Y of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -506,7 +506,7 @@ Compare the acceleration when the object is in the air.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -532,7 +532,7 @@ Compare the collision layer of the object, only interacts with hedgehog platform
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -546,7 +546,7 @@ Compare the deceleration of the object when changing of direction on the ground.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -560,7 +560,7 @@ Compare the acceleration when running down a slope. The actual deceleration appl
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -574,7 +574,7 @@ Compare the friction of the object. The friction is a deceleration when there is
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -588,7 +588,7 @@ Compare the gravity of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -602,7 +602,7 @@ Compare the acceleration when the object is on the ground.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -712,7 +712,7 @@ A control was applied from a default control or simulated by an action.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (stringwithselector): Key to check (one of: "Left", "Right", "Jump")
+    - Parameter 2 (🔤 String): Key to check (one of: "Left", "Right", "Jump")
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -725,7 +725,7 @@ Compare the Jump height reducer factor of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -739,7 +739,7 @@ Compare the jump speed of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -753,7 +753,7 @@ Compare the max speed of the object while grounded.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -767,7 +767,7 @@ Compare the duration during which the character can't run left or right.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -793,7 +793,7 @@ Compare the current speed of the object. The speed can be negative when the obje
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -807,7 +807,7 @@ Compare the current horizontal speed of the object. The object is automatically 
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -821,7 +821,7 @@ Compare the current vertical speed of the object. The object is automatically se
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -835,7 +835,7 @@ Compare the stand max angle of the object. Allow characters to fully stop on not
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -849,7 +849,7 @@ Compare the deceleration factor when running up a slope. The actual deceleration
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -887,17 +887,17 @@ Change animations and horizontal flipping of hedgehog characters automatically.
 
 ### Behavior properties
 
-- **Balance on ledge** (string). Default value is `BalanceOnLedge`.
-- **Brake** (string). Default value is `Brake`.
+- **Balance on ledge** (🔤 String). Default value is `BalanceOnLedge`.
+- **Brake** (🔤 String). Default value is `Brake`.
 - **Brake animation min speed** (🔢 Number, Speed). Default value is `720`.
-- **Fall** (string). Default value is `Fall`.
-- **Idle** (string). Default value is `Idle`.
-- **Jump** (string). Default value is `Jump`.
+- **Fall** (🔤 String). Default value is `Fall`.
+- **Idle** (🔤 String). Default value is `Idle`.
+- **Jump** (🔤 String). Default value is `Jump`.
 - **Jump rotation speed** (🔢 Number, Angular speed). Default value is `360`.
-- **Push** (string). Default value is `Push`.
-- **Run** (string). Default value is `Run`.
+- **Push** (🔤 String). Default value is `Push`.
+- **Run** (🔤 String). Default value is `Run`.
 - **Run animation min speed** (🔢 Number, Speed). Default value is `1080`.
-- **Walk** (string). Default value is `Walk`.
+- **Walk** (🔤 String). Default value is `Walk`.
 
 ??? quote "See internal technical details"
 
@@ -1051,7 +1051,7 @@ Flag objects as being platforms which characters can run on.
 
 - **Collision layer** (🔢 Number, Dimensionless). Only interacts with characters of the same layer. Default value is `0`.
 - **Only for grounded characters** (🔘 Boolean). Default value is `false`.
-- **Type** (choice, one of: "Platform", "Jumpthru", "Angle lock marker", "Left-right layer toggle marker", "Top-bottom layer toggle marker"). Default value is `Platform`.
+- **Type** (Choice, one of: "Platform", "Jumpthru", "Angle lock marker", "Left-right layer toggle marker", "Top-bottom layer toggle marker"). Default value is `Platform`.
 - **Rotate characters** (🔘 Boolean). Default value is `true`.
 - **Snap horizontally** (🔘 Boolean). Snap movement angle to 0° or 180°. Default value is `true`.
 - **Snap vertically** (🔘 Boolean). Snap movement angle to 90° or 270°. Default value is `true`.
@@ -1130,4 +1130,4 @@ _No expressions for this behavior._
 
 ---
 
-*This page is an auto-generated reference page about the **Hedgehog platformer** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Hedgehog platformer** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

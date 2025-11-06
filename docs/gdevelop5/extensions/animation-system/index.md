@@ -31,7 +31,7 @@ Check if the selected animation has finished.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (stringwithselector): Animation
+    - Parameter 1 (🔤 String): Animation
       Animation must be set to Trigger once in order to check if it finished (one of: "Pulse", "Breath", "Smooth rotation", "Instant rotation", "3D rotation", "3D rotation X", "3D rotation Y", "Float", "Triangle transition", "Square transition", "Rhombus transition", "Maze transition", "Fade out", "Fade in", "Squash & Stretch", "Rainbow effect", "Shake rotation", "Shake horizontal", "Shake vertical", "Line rotation", "Land", "Low health")
     - Parameter 2 (👾 Object): Animated object
 
@@ -66,7 +66,7 @@ edit the object ("Origin" point) to control how the animation goes.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (stringwithselector): Animations list (one of: "Pulse", "Breath", "Smooth rotation", "Instant rotation", "Wobble", "Wobble2", "Wobble3", "3D rotation", "3D rotation X", "3D rotation Y", "3D door loop", "3D open door", "3D close door", "Float", "Triangle transition", "Square transition", "Rhombus transition", "Maze transition", "Fade loop", "Fade out", "Fade in", "Squash & Stretch", "Rainbow effect", "Shake rotation", "Shake horizontal", "Shake vertical", "Line rotation", "Land", "Low health")
+    - Parameter 2 (🔤 String): Animations list (one of: "Pulse", "Breath", "Smooth rotation", "Instant rotation", "Wobble", "Wobble2", "Wobble3", "3D rotation", "3D rotation X", "3D rotation Y", "3D door loop", "3D open door", "3D close door", "Float", "Triangle transition", "Square transition", "Rhombus transition", "Maze transition", "Fade loop", "Fade out", "Fade in", "Squash & Stretch", "Rainbow effect", "Shake rotation", "Shake horizontal", "Shake vertical", "Line rotation", "Land", "Low health")
     - Parameter 3 (🔢 Number): Animation speed
     - Parameter 4 (🔢 Number): Object width
     - Parameter 5 (🔢 Number): Object height
@@ -102,4 +102,4 @@ _No expressions for this behavior._
 
 ---
 
-*This page is an auto-generated reference page about the **Animation system** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Animation system** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

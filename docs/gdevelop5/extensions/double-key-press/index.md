@@ -53,7 +53,7 @@ Check if a specific key was double pressed using a text expression.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Which key should it work on?
+    - Parameter 1 (🔤 String): Which key should it work on?
     - Parameter 2 (🔢 Number): Time window for the double tap (in seconds)
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -66,4 +66,4 @@ Check if a specific key was double pressed using a text expression.
 
 ---
 
-*This page is an auto-generated reference page about the **Double key press** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Double key press** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

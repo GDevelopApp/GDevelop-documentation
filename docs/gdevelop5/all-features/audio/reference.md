@@ -309,6 +309,7 @@ Unload a sound file from memory. Unloading a sound file will cause any sounds pl
 
     > Technical note: this action internal type (in GDevelop JSON) is `UnloadSound`.
 
+
 ## Conditions
 
 **Global volume**  
@@ -467,6 +468,7 @@ Test if the sound on the specified channel is stopped.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `SoundStopped`.
 
+
 ## Expressions
 
 | Expression | Description |  |
@@ -491,4 +493,4 @@ Test if the sound on the specified channel is stopped.
 
 The Sounds and music extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Sounds and music** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Sounds and music** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

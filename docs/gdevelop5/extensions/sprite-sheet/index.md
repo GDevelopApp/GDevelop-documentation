@@ -140,7 +140,7 @@ Animates a sprite sheet using JSON (see extension description).
 ### Behavior properties
 
 - **Speed of the animation (in seconds)** (🔢 Number). Default value is `0.2`.
-- **JSON formatted text describing the sprite sheet** (string).
+- **JSON formatted text describing the sprite sheet** (🔤 String).
 
 ??? quote "See internal technical details"
 
@@ -157,7 +157,7 @@ Display one frame without animating the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (string): The frame to display
+    - Parameter 2 (🔤 String): The frame to display
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -170,7 +170,7 @@ Loads a new JSON spritesheet data into the behavior.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (string): The JSON to load
+    - Parameter 2 (🔤 String): The JSON to load
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -195,7 +195,7 @@ Play an animation from the sprite sheet.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (string): The name of the animation
+    - Parameter 2 (🔤 String): The name of the animation
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -290,4 +290,4 @@ Resume a paused animation of a sprite sheet.
 
 ---
 
-*This page is an auto-generated reference page about the **Sprite Sheet Animations** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Sprite Sheet Animations** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

@@ -9,7 +9,7 @@ Delete a file from the filesystem.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): File path
+    - Parameter 0 (🔤 String): File path
     - Parameter 1 (🗄️ Scene variable): (Optional) Variable to store the result. 'ok': task was successful, 'error': an error occurred.
 
     > Technical note: this action internal type (in GDevelop JSON) is `FileSystem::DeleteFile`.
@@ -19,7 +19,7 @@ Delete a file from the filesystem asynchronously. The option result variable wil
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): File path
+    - Parameter 0 (🔤 String): File path
     - Parameter 1 (🗄️ Scene variable): (Optional) Variable to store the result. 'ok': task was successful, 'error': an error occurred.
 
     > Technical note: this action internal type (in GDevelop JSON) is `FileSystem::DeleteFileAsync`.
@@ -30,7 +30,7 @@ Load a text from a file, asynchronously. Use this for large files to avoid any l
 ??? quote "See parameters & details"
 
     - Parameter 0 (🗄️ Scene variable): Scene variable
-    - Parameter 1 (string): Load path
+    - Parameter 1 (🔤 String): Load path
     - Parameter 2 (🗄️ Scene variable): (Optional) Variable to store the result. 'ok': task was successful, 'error': an error occurred.
     - Parameter 3 (❓ Yes or No): Normalize the file content (recommended)
       This replaces Windows new lines characters ("CRLF") by a single new line character.
@@ -43,7 +43,7 @@ Load a text from a file. Only use this on small files to avoid any lag or freeze
 ??? quote "See parameters & details"
 
     - Parameter 0 (🗄️ Scene variable): Scene variable
-    - Parameter 1 (string): Load path
+    - Parameter 1 (🔤 String): Load path
     - Parameter 2 (🗄️ Scene variable): (Optional) Variable to store the result. 'ok': task was successful, 'error': an error occurred.
     - Parameter 3 (❓ Yes or No): Normalize the file content (recommended)
       This replaces Windows new lines characters ("CRLF") by a single new line character.
@@ -56,7 +56,7 @@ Load a JSON formatted text from a file and convert it to a scene variable (poten
 ??? quote "See parameters & details"
 
     - Parameter 0 (🗄️ Scene variable): Scene variable
-    - Parameter 1 (string): Load path
+    - Parameter 1 (🔤 String): Load path
     - Parameter 2 (🗄️ Scene variable): (Optional) Variable to store the result. 'ok': task was successful, 'error': an error occurred.
     - Parameter 3 (❓ Yes or No): Normalize the file content (recommended)
       This replaces Windows new lines characters ("CRLF") by a single new line character.
@@ -69,7 +69,7 @@ Load a JSON formatted text from a file and convert it to a scene variable (poten
 ??? quote "See parameters & details"
 
     - Parameter 0 (🗄️ Scene variable): Scene variable
-    - Parameter 1 (string): Load path
+    - Parameter 1 (🔤 String): Load path
     - Parameter 2 (🗄️ Scene variable): (Optional) Variable to store the result. 'ok': task was successful, 'error': an error occurred.
     - Parameter 3 (❓ Yes or No): Normalize the file content (recommended)
       This replaces Windows new lines characters ("CRLF") by a single new line character.
@@ -81,7 +81,7 @@ Create a new directory at the specified path.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Directory
+    - Parameter 0 (🔤 String): Directory
     - Parameter 1 (🗄️ Scene variable): (Optional) Variable to store the result. 'ok': task was successful, 'error': an error occurred.
 
     > Technical note: this action internal type (in GDevelop JSON) is `FileSystem::MakeDirectory`.
@@ -91,7 +91,7 @@ Reads the contents of a directory (all files and sub-directories) and stores the
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Directory path
+    - Parameter 0 (🔤 String): Directory path
     - Parameter 1 (🗄️ Scene variable): Variable to store the result
       It is set to `"error"` if an error has occured, otherwise it is set to an array of all files and sub-directories present in the directory.
 
@@ -102,8 +102,8 @@ Save a text into a file asynchronously. Use this for large files to avoid any la
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): String (text)
-    - Parameter 1 (string): Save path
+    - Parameter 0 (🔤 String): String (text)
+    - Parameter 1 (🔤 String): Save path
     - Parameter 2 (🗄️ Scene variable): (Optional) Variable to store the result. 'ok': task was successful, 'error': an error occurred.
 
     > Technical note: this action internal type (in GDevelop JSON) is `FileSystem::SaveStringToFileAsync`.
@@ -113,8 +113,8 @@ Save a text into a file. Only use this on small files to avoid any lag or freeze
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): String (text)
-    - Parameter 1 (string): Save path
+    - Parameter 0 (🔤 String): String (text)
+    - Parameter 1 (🔤 String): Save path
     - Parameter 2 (🗄️ Scene variable): (Optional) Variable to store the result. 'ok': task was successful, 'error': an error occurred.
 
     > Technical note: this action internal type (in GDevelop JSON) is `FileSystem::SaveStringToFileSync`.
@@ -125,7 +125,7 @@ Save the scene variable (including, for structures, all the children) into a fil
 ??? quote "See parameters & details"
 
     - Parameter 0 (🗄️ Scene variable): Scene variable
-    - Parameter 1 (string): Save path
+    - Parameter 1 (🔤 String): Save path
     - Parameter 2 (🗄️ Scene variable): (Optional) Variable to store the result. 'ok': task was successful, 'error': an error occurred.
 
     > Technical note: this action internal type (in GDevelop JSON) is `FileSystem::SaveVariableToJSONFileAsync`.
@@ -136,10 +136,11 @@ Save a scene variable (including, for structure, all the children) into a file i
 ??? quote "See parameters & details"
 
     - Parameter 0 (🗄️ Scene variable): Scene variable
-    - Parameter 1 (string): Save path
+    - Parameter 1 (🔤 String): Save path
     - Parameter 2 (🗄️ Scene variable): (Optional) Variable to store the result. 'ok': task was successful, 'error': an error occurred.
 
     > Technical note: this action internal type (in GDevelop JSON) is `FileSystem::SaveVariableToJSONFileSync`.
+
 
 ## Conditions
 
@@ -148,9 +149,10 @@ Check if the file or directory exists.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Path to file or directory
+    - Parameter 0 (🔤 String): Path to file or directory
 
     > Technical note: this condition internal type (in GDevelop JSON) is `FileSystem::PathExists`.
+
 
 ## Expressions
 
@@ -158,14 +160,14 @@ Check if the file or directory exists.
 |-----|-----|-----|
 | `FileSystem::DesktopPath()` | Get the path to the desktop folder. ||
 | `FileSystem::DirectoryName(string)` | Returns the portion of the path that represents the directories, without the ending file name. ||
-| | _string_ | File or folder path |
+| | _🔤 String_ | File or folder path |
 | `FileSystem::DocumentsPath()` | Get the path to the documents folder. ||
 | `FileSystem::ExecutableFolderPath()` | Get the path to this game executable folder. ||
 | `FileSystem::ExecutablePath()` | Get the path to this game executable file. ||
 | `FileSystem::ExtensionName(string)` | Returns the extension of the file designated by the given path, including the extension period. For example: ".txt". ||
-| | _string_ | File path |
+| | _🔤 String_ | File path |
 | `FileSystem::FileName(string)` | Returns the name of the file with its extension, if any. ||
-| | _string_ | File path |
+| | _🔤 String_ | File path |
 | `FileSystem::PathDelimiter()` | Get the operating system path delimiter. ||
 | `FileSystem::PicturesPath()` | Get the path to the pictures folder. ||
 | `FileSystem::TempPath()` | Get the path to temp folder. ||
@@ -178,4 +180,4 @@ Check if the file or directory exists.
 
 The File system extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **File system** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **File system** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

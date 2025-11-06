@@ -98,7 +98,7 @@ Disable game feel animation.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (stringwithselector): Animation (one of: "Idle", "Jump", "Fall", "Land")
+    - Parameter 2 (🔤 String): Animation (one of: "Idle", "Jump", "Fall", "Land")
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -111,7 +111,7 @@ Enable game feel animation.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (stringwithselector): Animation (one of: "Idle", "Jump", "Fall", "Land")
+    - Parameter 2 (🔤 String): Animation (one of: "Idle", "Jump", "Fall", "Land")
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -128,7 +128,7 @@ Check if the object game feel animation is playing.
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🧩 Behavior): Tween behavior
-    - Parameter 3 (stringwithselector): Animation (one of: "Idle", "Jump", "Fall", "Land")
+    - Parameter 3 (🔤 String): Animation (one of: "Idle", "Jump", "Fall", "Land")
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -141,4 +141,4 @@ _No expressions for this behavior._
 
 ---
 
-*This page is an auto-generated reference page about the **Character game feel** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Character game feel** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

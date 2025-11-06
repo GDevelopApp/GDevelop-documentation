@@ -25,10 +25,10 @@ Builds an array containing all matches for a regex pattern.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Pattern
-    - Parameter 2 (string): RegEx flags
-    - Parameter 3: string
-    - Parameter 4 (string): The name of the variable to store the result in
+    - Parameter 1 (🔤 String): Pattern
+    - Parameter 2 (🔤 String): RegEx flags
+    - Parameter 3: 🔤 String
+    - Parameter 4 (🔤 String): The name of the variable to store the result in
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
@@ -39,10 +39,10 @@ Builds an array containing for each regex pattern match an array with the match 
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Pattern
-    - Parameter 2 (string): RegEx flags
-    - Parameter 3: string
-    - Parameter 4 (string): The name of the variable to store the result in
+    - Parameter 1 (🔤 String): Pattern
+    - Parameter 2 (🔤 String): RegEx flags
+    - Parameter 3: 🔤 String
+    - Parameter 4 (🔤 String): The name of the variable to store the result in
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
@@ -53,10 +53,10 @@ Builds an array containing the first match for a regex pattern followed by the r
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Pattern
-    - Parameter 2 (string): Flags
-    - Parameter 3: string
-    - Parameter 4 (string): Variable name
+    - Parameter 1 (🔤 String): Pattern
+    - Parameter 2 (🔤 String): Flags
+    - Parameter 3: 🔤 String
+    - Parameter 4 (🔤 String): Variable name
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
@@ -67,10 +67,10 @@ Split a string by each part of it that matches a regex pattern and stores each p
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): The pattern to split by
-    - Parameter 2 (string): RegEx flags
-    - Parameter 3 (string): The string to split by the pattern
-    - Parameter 4 (string): The name of the variable to store the result in
+    - Parameter 1 (🔤 String): The pattern to split by
+    - Parameter 2 (🔤 String): RegEx flags
+    - Parameter 3 (🔤 String): The string to split by the pattern
+    - Parameter 4 (🔤 String): The name of the variable to store the result in
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
@@ -84,9 +84,9 @@ Checks if a string matches a regex pattern.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): The pattern to check for
-    - Parameter 2 (string): RegEx flags
-    - Parameter 3 (string): The string to check for a pattern
+    - Parameter 1 (🔤 String): The pattern to check for
+    - Parameter 2 (🔤 String): RegEx flags
+    - Parameter 3 (🔤 String): The string to check for a pattern
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
@@ -98,16 +98,16 @@ Checks if a string matches a regex pattern.
 | Expression | Description |  |
 |-----|-----|-----|
 | `RegEx::Find(string, string, string)` | Finds a regex pattern in a string, and returns the index of the position of the match, or -1 if it doesn't match the pattern. ||
-| | _string_ | Pattern |
-| | _string_ | RegEx flags |
-| | _string_ | String |
+| | _🔤 String_ | Pattern |
+| | _🔤 String_ | RegEx flags |
+| | _🔤 String_ | String |
 | `RegEx::Replace(string, string, string, string)` | Replaces a part of a string that matches a regex pattern with another string. ||
-| | _string_ | The pattern to check for |
-| | _string_ | RegEx flags |
-| | _string_ | The string to search for pattern matches in |
-| | _string_ | The string to replace the matching patterns with |
+| | _🔤 String_ | The pattern to check for |
+| | _🔤 String_ | RegEx flags |
+| | _🔤 String_ | The string to search for pattern matches in |
+| | _🔤 String_ | The string to replace the matching patterns with |
 
 
 ---
 
-*This page is an auto-generated reference page about the **Regular Expressions** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Regular Expressions** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

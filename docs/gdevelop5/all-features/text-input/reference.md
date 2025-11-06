@@ -8,6 +8,49 @@ A text field the player can type text into.
 
 A text field the player can type text into. 
 
+### Object properties
+
+- **Color** (🎨 Color). Default value is `0;0;0`.
+- **Opacity** (🔢 Number). Default value is `255`.
+- **Width** (🔢 Number). Default value is `1`.
+- **Disabled** (🔘 Boolean). Default value is `false`.
+- **Fill color** (🎨 Color). Default value is `255;255;255`.
+- **Fill opacity** (🔢 Number). Default value is `255`.
+- **Font** (🗂️ Resource).
+- **Font size (px)** (🔢 Number). Default value is `20`.
+- **Initial value** (🔤 String).
+- **Input type** (choice, one of: "text", "text area", "email", "password", "number", "telephone number", "url", "search"). By default, a "text" is single line. Choose "text area" to allow multiple lines to be entered. Default value is `text`.
+- **Max length** (🔢 Number). The maximum length of the input value (this property will be ignored if the input type is a number). Default value is `0`.
+- **Padding (horizontal)** (🔢 Number). Default value is `2`.
+- **Padding (vertical)** (🔢 Number). Default value is `1`.
+- **Placeholder** (🔤 String). Default value is `Touch to start typing`.
+- **Read only** (🔘 Boolean). Default value is `false`.
+- **Enable spell check** (🔘 Boolean). Default value is `false`.
+- **Text alignment** (choice, one of: "left", "center", "right"). Default value is `left`.
+- **Text color** (🎨 Color). Default value is `0;0;0`.
+
+??? quote "See internal technical details"
+
+
+    - **Color** is stored as `borderColor` (color). Default value is `0;0;0`.
+    - **Opacity** is stored as `borderOpacity` (number). Default value is `255`.
+    - **Width** is stored as `borderWidth` (number). Default value is `1`.
+    - **Disabled** is stored as `disabled` (boolean). Default value is `false`.
+    - **Fill color** is stored as `fillColor` (color). Default value is `255;255;255`.
+    - **Fill opacity** is stored as `fillOpacity` (number). Default value is `255`.
+    - **Font** is stored as `fontResourceName` (resource). Default value is ``.
+    - **Font size (px)** is stored as `fontSize` (number). Default value is `20`.
+    - **Initial value** is stored as `initialValue` (string). Default value is ``.
+    - **Input type** is stored as `inputType` (choice). Default value is `text`.
+    - **Max length** is stored as `maxLength` (number). Default value is `0`.
+    - **Padding (horizontal)** is stored as `paddingX` (number). Default value is `2`.
+    - **Padding (vertical)** is stored as `paddingY` (number). Default value is `1`.
+    - **Placeholder** is stored as `placeholder` (string). Default value is `Touch to start typing`.
+    - **Read only** is stored as `readOnly` (boolean). Default value is `false`.
+    - **Enable spell check** is stored as `spellCheck` (boolean). Default value is `false`.
+    - **Text alignment** is stored as `textAlign` (choice). Default value is `left`.
+    - **Text color** is stored as `textColor` (color). Default value is `0;0;0`.
+
 ### Object actions
 
 **Focus**  
@@ -25,7 +68,7 @@ Set the border color of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): Text input
-    - Parameter 1: color
+    - Parameter 1: 🎨 Color
 
     > Technical note: this action internal type (in GDevelop JSON) is `TextInput::TextInputObject::SetBorderColor`.
 
@@ -67,7 +110,7 @@ Set the fill color of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): Text input
-    - Parameter 1: color
+    - Parameter 1: 🎨 Color
 
     > Technical note: this action internal type (in GDevelop JSON) is `TextInput::TextInputObject::SetFillColor`.
 
@@ -121,7 +164,7 @@ Change the placeholder.
 
     - Parameter 0 (👾 Object): Text input
     - Parameter 1: 🟰 Operator
-    - Parameter 2 (string): Text
+    - Parameter 2 (🔤 String): Text
 
     > Technical note: this action internal type (in GDevelop JSON) is `TextInput::TextInputObject::SetPlaceholder`.
 
@@ -151,9 +194,10 @@ Set the text color of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): Text input
-    - Parameter 1: color
+    - Parameter 1: 🎨 Color
 
     > Technical note: this action internal type (in GDevelop JSON) is `TextInput::TextInputObject::SetTextColor`.
+
 
 ### Object conditions
 
@@ -226,7 +270,7 @@ Compare the font name.
 
     - Parameter 0 (👾 Object): Text input
     - Parameter 1: 🟰 Relational operator
-    - Parameter 2 (string): Value to compare
+    - Parameter 2 (🔤 String): Value to compare
 
     > Technical note: this condition internal type (in GDevelop JSON) is `TextInput::TextInputObject::FontResourceName`.
 
@@ -257,7 +301,7 @@ Compare the placeholder.
 
     - Parameter 0 (👾 Object): Text input
     - Parameter 1: 🟰 Relational operator
-    - Parameter 2 (string): Text
+    - Parameter 2 (🔤 String): Text
 
     > Technical note: this condition internal type (in GDevelop JSON) is `TextInput::TextInputObject::Placeholder`.
 
@@ -279,6 +323,7 @@ Check if spell check is enabled.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `TextInput::TextInputObject::SpellCheck`.
 
+
 ### Object expressions
 
 | Expression | Description |  |
@@ -297,4 +342,4 @@ Check if spell check is enabled.
 
 The Text Input extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Text Input** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Text Input** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

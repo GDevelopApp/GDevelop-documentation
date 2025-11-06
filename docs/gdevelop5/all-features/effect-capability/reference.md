@@ -60,9 +60,10 @@ You can find the property names (and change the effect names) in the effects win
     - Parameter 1: 🧩 Behavior
     - Parameter 2: 🔤 Object Effect Name (String)
     - Parameter 3: 🔤 Object Effect Property Name (String)
-    - Parameter 4 (string): New value
+    - Parameter 4 (🔤 String): New value
 
     > Technical note: this action internal type (in GDevelop JSON) is `EffectCapability::EffectBehavior::SetEffectStringParameter`.
+
 
 ### Behavior conditions
 
@@ -77,6 +78,7 @@ Check if the effect on an object is enabled.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `EffectCapability::EffectBehavior::IsEffectEnabled`.
 
+
 _No expressions for this behavior._
 
 
@@ -86,4 +88,4 @@ _No expressions for this behavior._
 
 The Objects with effects extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Objects with effects** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Objects with effects** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

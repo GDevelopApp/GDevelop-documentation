@@ -121,7 +121,7 @@ Set the ambient light color of the lighting layer in format "R;G;B" string.
 ??? quote "See parameters & details"
 
     - Parameter 1: 🔤 Layer name (String)
-    - Parameter 2: color
+    - Parameter 2: 🎨 Color
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
@@ -178,7 +178,7 @@ You can find the property names (and change the effect names) in the effects win
     - Parameter 1: 🔤 Layer name (String)
     - Parameter 2: 🔤 Layer Effect Name (String)
     - Parameter 3: 🔤 Layer Effect Property Name (String)
-    - Parameter 4 (string): New value
+    - Parameter 4 (🔤 String): New value
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
@@ -207,6 +207,7 @@ Change camera zoom.
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `ZoomCamera`.
+
 
 ## Conditions
 
@@ -399,6 +400,7 @@ Test if a layer is set as visible.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `LayerVisible`.
 
+
 ## Expressions
 
 | Expression | Description |  |
@@ -444,4 +446,4 @@ Test if a layer is set as visible.
 
 The Layers and cameras extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Layers and cameras** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Layers and cameras** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

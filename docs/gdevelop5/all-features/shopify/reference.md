@@ -9,10 +9,10 @@ Initialize a shop with your credentials. Call this action first, and then use th
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Shop name
-    - Parameter 2 (string): Domain (xxx.myshopify.com)
-    - Parameter 3 (string): App Id
-    - Parameter 4 (string): Access Token
+    - Parameter 1 (🔤 String): Shop name
+    - Parameter 2 (🔤 String): Domain (xxx.myshopify.com)
+    - Parameter 3 (🔤 String): App Id
+    - Parameter 4 (🔤 String): Access Token
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
@@ -23,8 +23,8 @@ Get the URL for buying a product from a shop. The URL will be stored in the scen
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Shop name (initialized with "Initialize a shop" action)
-    - Parameter 2 (string): Product id
+    - Parameter 1 (🔤 String): Shop name (initialized with "Initialize a shop" action)
+    - Parameter 2 (🔤 String): Product id
     - Parameter 3 (🔢 Number): Quantity
     - Parameter 4 (🔢 Number): Variant (0 by default)
     - Parameter 5 (🗄️ Scene variable): Scene variable where the URL for checkout must be stored
@@ -38,8 +38,9 @@ Get the URL for buying a product from a shop. The URL will be stored in the scen
 
 
 
+
 ---
 
 The Shopify extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Shopify** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Shopify** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

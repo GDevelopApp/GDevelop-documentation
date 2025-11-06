@@ -78,4 +78,4 @@ Snap object to a virtual pointy topped hexagonal grid (this is not the grid used
 
 ---
 
-*This page is an auto-generated reference page about the **Hexagonal 2D grid** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Hexagonal 2D grid** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

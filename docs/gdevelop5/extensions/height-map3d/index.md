@@ -71,7 +71,7 @@ Load a height map from an image file.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1 (imageresource): Image
+    - Parameter 1 (imageResource): Image
     - Parameter 2 (🔢 Number): Image cropping offset on X
     - Parameter 3 (🔢 Number): Image cropping offset on Y
 
@@ -103,7 +103,7 @@ Compare the field Z for a given position in the scene.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔢 Number): X position in the scene
     - Parameter 4 (🔢 Number): Y position in the scene
@@ -118,7 +118,7 @@ Compare the number of points in the grid on X axis.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -131,7 +131,7 @@ Compare the number of points in the grid on Y axis.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -144,7 +144,7 @@ Compare the field value at a grid index. The value is bewteen 0 and 1.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔢 Number): X grid index
     - Parameter 4 (🔢 Number): Y grid index
@@ -177,4 +177,4 @@ _No expressions for this behavior._
 
 ---
 
-*This page is an auto-generated reference page about the **3D height map** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **3D height map** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

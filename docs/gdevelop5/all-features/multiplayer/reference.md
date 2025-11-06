@@ -40,7 +40,7 @@ Store the data of the specified message in a variable. Use with the condition 'M
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Message name
+    - Parameter 0 (🔤 String): Message name
     - Parameter 1: 🗄️ Any variable
 
     > Technical note: this action internal type (in GDevelop JSON) is `Multiplayer::GetMessageVariable`.
@@ -82,7 +82,7 @@ Join a specific lobby. The player will join the game instantly if this is possib
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Lobby ID
+    - Parameter 1 (🔤 String): Lobby ID
     - Parameter 2 (❓ Yes or No): Display loader while joining a lobby.
     - Parameter 3 (❓ Yes or No): Display game lobbies if unable to join a specific one.
 
@@ -107,8 +107,8 @@ Send a custom message to other players in the lobby, with an automatic retry sys
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Message name
-    - Parameter 1 (string): Message content
+    - Parameter 0 (🔤 String): Message name
+    - Parameter 1 (🔤 String): Message content
 
     > Technical note: this action internal type (in GDevelop JSON) is `Multiplayer::SendMessage`.
 
@@ -117,7 +117,7 @@ Send a custom message to other players in the lobby containing a variable, with 
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Message name
+    - Parameter 0 (🔤 String): Message name
     - Parameter 1: 🗄️ Any variable
 
     > Technical note: this action internal type (in GDevelop JSON) is `Multiplayer::SendVariableMessage`.
@@ -168,6 +168,7 @@ Take the ownership of the variable. It will then be synchronized to other player
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Multiplayer::TakeVariableOwnership`.
+
 
 ## Conditions
 
@@ -222,7 +223,7 @@ Check if a custom message has been received from another player. Will be true on
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Message name
+    - Parameter 0 (🔤 String): Message name
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Multiplayer::HasMessageBeenReceived`.
 
@@ -347,6 +348,7 @@ Quick join failed to join a lobby.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Multiplayer::QuickJoinJustFailed`.
 
+
 ## Expressions
 
 | Expression | Description |  |
@@ -358,9 +360,9 @@ Quick join failed to join a lobby.
 | `Multiplayer::LastJoinedPlayerNumber()` | Returns the player number of the player that has just joined the lobby. ||
 | `Multiplayer::LastLeftPlayerNumber()` | Returns the player number of the player that has just left the lobby. ||
 | `Multiplayer::MessageData(string)` | Returns the data received when the specified message was received from another player. ||
-| | _string_ | Message name |
+| | _🔤 String_ | Message name |
 | `Multiplayer::MessageSender(string)` | Returns the player number of the sender of the specified message. ||
-| | _string_ | Message name |
+| | _🔤 String_ | Message name |
 | `Multiplayer::ObjectsSynchronizationRate()` | Return objects synchronization rate (between 1 and 60, default is 30 times per second). ||
 | `Multiplayer::PlayerPing(number)` | Get the ping of the player in the lobby. ||
 | | _🔢 Number_ | The position of the player in the lobby (1, 2, ...) |
@@ -374,6 +376,17 @@ Quick join failed to join a lobby.
 ## Multiplayer object 
 
 Allow the object to be synchronized with other players in the lobby. 
+
+### Behavior properties
+
+- **Action when player disconnects** (Choice, one of: "DestroyObject", "GiveOwnershipToHost", "DoNothing"). Default value is `DestroyObject`.
+- **Player owning the object** (Choice, one of: "Host", "1", "2", "3", "4", "5", "6", "7", "8"). Who is synchronizing the object to the players. If this is an object controlled by a player, then assign the player number. Otherwise just leave "Host" and the host of the game will synchronize the object to the players. (Note: you can change the ownership of the object during the game with corresponding actions). Default value is `Host`.
+
+??? quote "See internal technical details"
+
+
+    - **Action when player disconnects** is stored as `actionOnPlayerDisconnect` (Choice). Default value is `DestroyObject`.
+    - **Player owning the object** is stored as `playerNumber` (Choice). Default value is `Host`.
 
 ### Behavior actions
 
@@ -421,6 +434,7 @@ Take the ownership of the object. It will then be synchronized to other players,
 
     > Technical note: this action internal type (in GDevelop JSON) is `Multiplayer::MultiplayerObjectBehavior::TakeObjectOwnership`.
 
+
 ### Behavior conditions
 
 **Is object owned by current player**  
@@ -445,6 +459,7 @@ Compare the player owning the object.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Multiplayer::MultiplayerObjectBehavior::PlayerObjectOwnership`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -457,4 +472,4 @@ Compare the player owning the object.
 
 The Multiplayer extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Multiplayer** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Multiplayer** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

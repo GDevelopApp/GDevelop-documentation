@@ -24,7 +24,7 @@ GetLang.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Global variable (string)
+    - Parameter 1 (🔤 String): Global variable (string)
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -35,7 +35,7 @@ GetPlayerName.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Global variable (string)
+    - Parameter 1 (🔤 String): Global variable (string)
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -69,7 +69,7 @@ Init SDK.
 ??? quote "See parameters & details"
 
     - Parameter 1 (❓ Yes or No): Fullscreen
-    - Parameter 2 (stringwithselector): Screen orientation (one of: "portrait", "landscape")
+    - Parameter 2 (🔤 String): Screen orientation (one of: "portrait", "landscape")
     - Parameter 3 (❓ Yes or No): Lock screen
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
@@ -81,8 +81,8 @@ LoadLeaderboardByName.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): TableNameYandex
-    - Parameter 2 (string): GlobalVariableName
+    - Parameter 1 (🔤 String): TableNameYandex
+    - Parameter 2 (🔤 String): GlobalVariableName
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -93,8 +93,8 @@ LoadPurchaseByID.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): product ID
-    - Parameter 2 (string): Glodal variable result true/false
+    - Parameter 1 (🔤 String): product ID
+    - Parameter 2 (🔤 String): Glodal variable result true/false
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -105,8 +105,8 @@ PurchaseByID.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): product ID
-    - Parameter 2 (string): Global variable true/false
+    - Parameter 1 (🔤 String): product ID
+    - Parameter 2 (🔤 String): Global variable true/false
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -117,8 +117,8 @@ SetScoreLeaderboard.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): GlobalVariableName
-    - Parameter 2 (string): TableNameYandex
+    - Parameter 1 (🔤 String): GlobalVariableName
+    - Parameter 2 (🔤 String): TableNameYandex
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -243,4 +243,4 @@ IsVideoRewarded.
 
 ---
 
-*This page is an auto-generated reference page about the **Yandex Games SDK for GDevelop** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Yandex Games SDK for GDevelop** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

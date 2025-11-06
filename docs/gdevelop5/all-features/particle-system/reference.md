@@ -8,6 +8,61 @@ A 2D particle emitter allows to create various effects by showing a lot of tiny 
 
 Displays a large number of small 2D particles to create visual effects in a 2D game or user interface. 
 
+### Object properties
+
+- **Additive rendering** (🔘 Boolean). Default value is `false`.
+- **Cone spray angle** (🔢 Number, Angle). Default value is `90`.
+- **Delete when out of particles** (🔘 Boolean). Default value is `true`.
+- **Emitter force max** (🔢 Number). Default value is `85`.
+- **Emitter force min** (🔢 Number). Default value is `45`.
+- **Flow** (🔢 Number). Default value is `45`.
+- **Jump forward in time on creation** (🔢 Number, Duration). Default value is `0`.
+- **Max particles count** (🔢 Number). Default value is `300`.
+- **Gravity X** (🔢 Number, Distance). Default value is `0`.
+- **Gravity Y** (🔢 Number, Distance). Default value is `0`.
+- **Maximum lifetime** (🔢 Number, Duration). Default value is `2.5`.
+- **Minimum lifetime** (🔢 Number, Duration). Default value is `0.5`.
+- **Maximum rotation speed** (🔢 Number, Angle). Default value is `0`.
+- **Minimum rotation speed** (🔢 Number, Angle). Default value is `0`.
+- **End color** (🎨 Color). Default value is `255;255;0`.
+- **End opacity (0-255)** (🔢 Number). Default value is `0`.
+- **End size (in percents)** (🔢 Number). Default value is `100`.
+- **Size** (🔢 Number, Distance). Default value is `3`.
+- **Start color** (🎨 Color). Default value is `255;51;51`.
+- **Start opacity (0-255)** (🔢 Number). Default value is `204`.
+- **Start size (in percents)** (🔢 Number). Default value is `100`.
+- **Particle type** (choice, one of: "Circle", "Line", "Image"). Default value is `Circle`.
+- **Tank** (🔢 Number). Default value is `-1`.
+- **Emitter radius** (🔢 Number, Distance). Default value is `3`.
+
+??? quote "See internal technical details"
+
+
+    - **Additive rendering** is stored as `additiveRendering` (boolean). Default value is `false`.
+    - **Cone spray angle** is stored as `coneSprayAngle` (number). Unit is DegreeAngle. Default value is `90`.
+    - **Delete when out of particles** is stored as `deleteWhenOutOfParticles` (boolean). Default value is `true`.
+    - **Emitter force max** is stored as `emitterForceMax` (number). Default value is `85`.
+    - **Emitter force min** is stored as `emitterForceMin` (number). Default value is `45`.
+    - **Flow** is stored as `flow` (number). Default value is `45`.
+    - **Jump forward in time on creation** is stored as `jumpForwardInTimeOnCreation` (number). Unit is Second. Default value is `0`.
+    - **Max particles count** is stored as `maxParticlesCount` (number). Default value is `300`.
+    - **Gravity X** is stored as `particleGravityX` (number). Unit is Pixel. Default value is `0`.
+    - **Gravity Y** is stored as `particleGravityY` (number). Unit is Pixel. Default value is `0`.
+    - **Maximum lifetime** is stored as `particleLifeTimeMax` (number). Unit is Second. Default value is `2.5`.
+    - **Minimum lifetime** is stored as `particleLifeTimeMin` (number). Unit is Second. Default value is `0.5`.
+    - **Maximum rotation speed** is stored as `particleRotationSpeedMax` (number). Unit is DegreeAngle. Default value is `0`.
+    - **Minimum rotation speed** is stored as `particleRotationSpeedMin` (number). Unit is DegreeAngle. Default value is `0`.
+    - **End color** is stored as `particlesEndColor` (color). Default value is `255;255;0`.
+    - **End opacity (0-255)** is stored as `particlesEndOpacity` (number). Default value is `0`.
+    - **End size (in percents)** is stored as `particlesEndSize` (number). Default value is `100`.
+    - **Size** is stored as `particlesSize` (number). Unit is Pixel. Default value is `3`.
+    - **Start color** is stored as `particlesStartColor` (color). Default value is `255;51;51`.
+    - **Start opacity (0-255)** is stored as `particlesStartOpacity` (number). Default value is `204`.
+    - **Start size (in percents)** is stored as `particlesStartSize` (number). Default value is `100`.
+    - **Particle type** is stored as `rendererType` (choice). Default value is `Circle`.
+    - **Tank** is stored as `tank` (number). Default value is `-1`.
+    - **Emitter radius** is stored as `zoneRadius` (number). Unit is Pixel. Default value is `3`.
+
 ### Object actions
 
 **Angle of the spray cone**  
@@ -114,7 +169,7 @@ Modify start color of particles.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1 (color): Start color
+    - Parameter 1 (🎨 Color): Start color
 
     > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::ParticleColor1`.
 
@@ -124,7 +179,7 @@ Modify end color of particles.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1 (color): End color
+    - Parameter 1 (🎨 Color): End color
 
     > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::ParticleColor2`.
 
@@ -376,6 +431,7 @@ Particles have to be recreated in order to take changes in account.
     - Parameter 2 (🔢 Number): Value
 
     > Technical note: this action internal type (in GDevelop JSON) is `ParticleSystem::ZoneRadius`.
+
 
 ### Object conditions
 
@@ -657,7 +713,7 @@ Test the name of the image displayed by particles.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Relational operator
-    - Parameter 2 (string): Value to compare
+    - Parameter 2 (🔤 String): Value to compare
 
     > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::Texture`.
 
@@ -671,6 +727,7 @@ Test creation radius of particles.
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: this condition internal type (in GDevelop JSON) is `ParticleSystem::ZoneRadius`.
+
 
 ### Object expressions
 
@@ -713,4 +770,4 @@ Test creation radius of particles.
 
 The Particle system extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Particle system** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Particle system** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

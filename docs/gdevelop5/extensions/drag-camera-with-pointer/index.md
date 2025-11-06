@@ -32,7 +32,7 @@ Move a camera by dragging the mouse (or touchscreen).
 
     - Parameter 1 (🔢 Number): Camera number
     - Parameter 2 (🔤 Layer name (String)): Camera layer (default: "")
-    - Parameter 3 (stringwithselector): Directions that the camera can move (horizontal, vertical, both) (one of: "vertical", "horizontal", "both")
+    - Parameter 3 (🔤 String): Directions that the camera can move (horizontal, vertical, both) (one of: "vertical", "horizontal", "both")
     - Parameter 4 (mouse): Mouse button (use "Left" for touchscreen)
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
@@ -45,4 +45,4 @@ Move a camera by dragging the mouse (or touchscreen).
 
 ---
 
-*This page is an auto-generated reference page about the **Drag camera with the mouse (or touchscreen)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Drag camera with the mouse (or touchscreen)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

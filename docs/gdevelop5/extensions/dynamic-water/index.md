@@ -46,7 +46,7 @@ Easily create a realistic liquid surface simulation.
 - **SurfaceSize** (🔢 Number). Default value is `1`.
 - **The water spring constant. Grater values will pull the water with greater force.** (🔢 Number). Default value is `0.025`.
 - **Thickness of the surface collision** (🔢 Number). Default value is `8`.
-- **WaveDirection** (choice, one of: "Right", "Left"). Default value is `Right`.
+- **WaveDirection** (Choice, one of: "Right", "Left"). Default value is `Right`.
 - **Wave length, the smaller the value, the longer the wave** (🔢 Number). Default value is `0.5`.
 - **Wave magnitude, in pixels** (🔢 Number). Default value is `16`.
 - **Wave period. between 0 and 1** (🔢 Number). Default value is `0.1`.
@@ -200,7 +200,7 @@ Change the direction of the waves.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (stringwithselector): The water spring constant (one of: "Right", "Left")
+    - Parameter 2 (🔤 String): The water spring constant (one of: "Right", "Left")
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -277,4 +277,4 @@ Test the collision between the object and the fluid surface.
 
 ---
 
-*This page is an auto-generated reference page about the **Dynamic Water** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Dynamic Water** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

@@ -35,7 +35,7 @@ Move objects on ellipses or smoothly back and forth in one direction.
 - **Initial direction** (🔢 Number, Angle). Default value is `0`.
 - **Turn left** (🔘 Boolean). Default value is `false`.
 - **Loop duration** (🔢 Number, Duration). Default value is `6`.
-- **Plane** (choice, one of: "Z", "Y", "X"). Default value is `Z`.
+- **Plane** (Choice, one of: "Z", "Y", "X"). Default value is `Z`.
 - **Rotation offset** (🔢 Number, Angle). Default value is `0`.
 - **Rotate** (🔘 Boolean). Default value is `false`.
 - **Ellipse width** (🔢 Number, Distance). Default value is `100`.
@@ -148,7 +148,7 @@ Compare the ellipse height of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -174,7 +174,7 @@ Compare the loop duration (in seconds).
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -188,7 +188,7 @@ Compare the ellipse width of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -210,4 +210,4 @@ Compare the ellipse width of the object.
 
 ---
 
-*This page is an auto-generated reference page about the **3D ellipse movement** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **3D ellipse movement** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

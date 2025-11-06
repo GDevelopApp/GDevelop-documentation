@@ -8,6 +8,37 @@ Allows to move an object in either 4 or 8 directions, with the keyboard (default
 
 Move objects left, up, right, and down (and, optionally, diagonally). 
 
+### Behavior properties
+
+- **Acceleration** (🔢 Number, Acceleration). Default value is `400`.
+- **Allow diagonals** (🔘 Boolean). Default value is `true`.
+- **Angle offset** (🔢 Number, Angle). Default value is `0`.
+- **Rotation speed** (🔢 Number, Angular speed). Default value is `180`.
+- **Custom isometry angle (between 1deg and 44deg)** (🔢 Number, Angle). If you choose "Custom Isometry", this allows to specify the angle of your isometry projection. Default value is `30`.
+- **Deceleration** (🔢 Number, Acceleration). Default value is `800`.
+- **Disable default keyboard controls** (🔘 Boolean). Default value is `false`.
+- **Max. speed** (🔢 Number, Speed). Default value is `200`.
+- **Movement angle offset** (🔢 Number, Angle). Usually 0, unless you choose an *Isometry* viewpoint in which case -45 is recommended. Default value is `0`.
+- **Rotate object** (🔘 Boolean). Default value is `true`.
+- **Only use acceleration to turn back (deprecated — best left unchecked)** (🔘 Boolean). Default value is `false`.
+- **Viewpoint** (Choice, one of: "Top-Down", "Isometry 2:1 (26.565°)", "True Isometry (30°)", "Custom Isometry"). Default value is `Top-Down`.
+
+??? quote "See internal technical details"
+
+
+    - **Acceleration** is stored as `Acceleration` (Number). Unit is PixelAcceleration. Default value is `400`.
+    - **Allow diagonals** is stored as `AllowDiagonals` (Boolean). Default value is `true`.
+    - **Angle offset** is stored as `AngleOffset` (Number). Unit is DegreeAngle. Default value is `0`.
+    - **Rotation speed** is stored as `AngularMaxSpeed` (Number). Unit is AngularSpeed. Default value is `180`.
+    - **Custom isometry angle (between 1deg and 44deg)** is stored as `CustomIsometryAngle` (Number). Unit is DegreeAngle. Default value is `30`.
+    - **Deceleration** is stored as `Deceleration` (Number). Unit is PixelAcceleration. Default value is `800`.
+    - **Disable default keyboard controls** is stored as `IgnoreDefaultControls` (Boolean). Default value is `false`.
+    - **Max. speed** is stored as `MaxSpeed` (Number). Unit is PixelSpeed. Default value is `200`.
+    - **Movement angle offset** is stored as `MovementAngleOffset` (Number). Unit is DegreeAngle. Default value is `0`.
+    - **Rotate object** is stored as `RotateObject` (Boolean). Default value is `true`.
+    - **Only use acceleration to turn back (deprecated — best left unchecked)** is stored as `UseLegacyTurnBack` (Boolean). Default value is `false`.
+    - **Viewpoint** is stored as `Viewpoint` (Choice). Default value is `Top-Down`.
+
 ### Behavior actions
 
 **Acceleration**  
@@ -204,6 +235,7 @@ Change the speed on the Y axis of the movement
 
     > Technical note: this action internal type (in GDevelop JSON) is `TopDownMovementBehavior::TopDownMovementBehavior::SetVelocityY`.
 
+
 ### Behavior conditions
 
 **Acceleration**  
@@ -367,6 +399,7 @@ Compare the velocity of the top-down movement of the object on the Y axis.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `TopDownMovementBehavior::YVelocity`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -389,4 +422,4 @@ Compare the velocity of the top-down movement of the object on the Y axis.
 
 The Top-down movement extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Top-down movement** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Top-down movement** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

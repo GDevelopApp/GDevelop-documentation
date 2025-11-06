@@ -25,8 +25,8 @@ A dialog box showing two options.
 
 - **Message** (🔤 Multiline text (String)). Default value is `Default message. Continue?`.
 - **Cancel with Escape key** (🔘 Boolean). Enable or disable the escape key to close the dialog. Default value is `true`.
-- **Label for the "Yes" button** (string). This is the button with identifier 0. Default value is `Yes`.
-- **Label for the "No" button** (string). This is the button with identifier 1. Default value is `No`.
+- **Label for the "Yes" button** (🔤 String). This is the button with identifier 0. Default value is `Yes`.
+- **Label for the "No" button** (🔤 String). This is the button with identifier 1. Default value is `No`.
 
 ??? quote "See internal technical details"
 
@@ -67,4 +67,4 @@ _No expressions for this object._
 
 ---
 
-*This page is an auto-generated reference page about the **Two choices dialog boxes** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Two choices dialog boxes** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

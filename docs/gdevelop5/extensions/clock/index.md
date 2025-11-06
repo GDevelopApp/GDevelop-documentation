@@ -36,7 +36,7 @@ Modify a text object to display the date.
 
 ### Behavior properties
 
-- **Display date in the format of:** (choice, one of: "Words", "Numbers").
+- **Display date in the format of:** (Choice, one of: "Words", "Numbers").
 
 ??? quote "See internal technical details"
 
@@ -52,7 +52,7 @@ Modify a text object to display the time.
 
 ### Behavior properties
 
-- **Display time in the format of:** (choice, one of: "12 - Hour", "24 - Hour").
+- **Display time in the format of:** (Choice, one of: "12 - Hour", "24 - Hour").
 
 ??? quote "See internal technical details"
 
@@ -72,4 +72,4 @@ _No expressions for this behavior._
 
 ---
 
-*This page is an auto-generated reference page about the **Clock** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Clock** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

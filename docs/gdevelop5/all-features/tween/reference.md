@@ -134,7 +134,7 @@ Tweens a color effect property from its current value to a new one.
 ??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Tween Identifier
-    - Parameter 2 (color): To color
+    - Parameter 2 (🎨 Color): To color
     - Parameter 3: 🔤 Layer name (String)
     - Parameter 4: 🔤 Layer Effect Name (String)
     - Parameter 5: 🔤 Layer Effect Property Name (String)
@@ -176,6 +176,7 @@ Tweens a scene variable's numeric value from its current value to a new one.
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenSceneVariableNumber3`.
+
 
 ## Conditions
 
@@ -224,6 +225,7 @@ Check if the scene tween is currently playing.
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Tween::SceneTweenIsPlaying`.
+
 
 ## Expressions
 
@@ -331,7 +333,7 @@ Tweens a color effect property from its current value to a new one.
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🧩 Behavior): Effect capability
     - Parameter 3 (🔤 Name (String)): Tween Identifier
-    - Parameter 4 (color): To color
+    - Parameter 4 (🎨 Color): To color
     - Parameter 5: 🔤 Object Effect Name (String)
     - Parameter 6: 🔤 Object Effect Property Name (String)
     - Parameter 7 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
@@ -399,7 +401,7 @@ Tweens the object color from its current value to a new one. Format: "128;200;25
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔤 Name (String)): Tween Identifier
-    - Parameter 3 (color): To color
+    - Parameter 3 (🎨 Color): To color
     - Parameter 4 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInSine", "easeOutSine", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
     - Parameter 5 (🔢 Number): Duration (in seconds)
     - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
@@ -627,6 +629,7 @@ Tweens the text object character size from its current value to a new one (note:
 
     > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenBehavior::AddTextObjectCharacterSizeTween2`.
 
+
 ### Behavior conditions
 
 **Tween exists**  
@@ -675,6 +678,7 @@ Compare the progress of a tween (between 0.0 and 1.0).
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Tween::TweenBehavior::Progress`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -690,4 +694,4 @@ Compare the progress of a tween (between 0.0 and 1.0).
 
 The Tweening extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Tweening** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Tweening** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

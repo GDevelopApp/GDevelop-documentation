@@ -92,7 +92,7 @@ Gets the Steam ID of all players in a lobby.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): The lobby ID
+    - Parameter 0 (🔤 String): The lobby ID
     - Parameter 1 (🗄️ Scene variable): Variable where to store the player list
 
     > Technical note: this action internal type (in GDevelop JSON) is `Steamworks::GetLobbyMembers`.
@@ -102,7 +102,7 @@ Join a Steam lobby, using its lobby ID.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Lobby ID
+    - Parameter 0 (🔤 String): Lobby ID
     - Parameter 1 (🗄️ Scene variable): Store results in
       The variable will be set to the ID of the lobby if successful, otherwise to "failure".
 
@@ -132,7 +132,7 @@ Sets an attribute of the current lobby. Attributes are readable to anyone that c
 ??? quote "See parameters & details"
 
     - Parameter 0 (🔤 Name (String)): The attribute to set
-    - Parameter 1 (string): Value to set the attribute to
+    - Parameter 1 (🔤 String): Value to set the attribute to
     - Parameter 2 (🗄️ Scene variable): Variable where to store the result
       The variable will be set to true if the attribute was successfully set and to false if it could not be set.
 
@@ -156,7 +156,7 @@ Changes an attribute of Steam's rich presence. Allows other player to see exactl
 
     - Parameter 0 (🔤 String): The attribute to change
       [Click here](https://partner.steamgames.com/doc/api/ISteamFriends#SetRichPresence) to find out more about the different default rich-presence attributes. (one of: "status", "connect", "steam_display", "steam_player_group", "steam_player_group_size")
-    - Parameter 1 (string): The new value for that attribute
+    - Parameter 1 (🔤 String): The new value for that attribute
 
     > Technical note: this action internal type (in GDevelop JSON) is `Steamworks::SetRichPresence`.
 
@@ -197,14 +197,14 @@ Releases an update to a Workshop item owned by the player. If you leave a field 
 ??? quote "See parameters & details"
 
     - Parameter 0 (🔤 Name (String)): Workshop Item ID
-    - Parameter 1 (string): Title
-    - Parameter 2 (string): Description
-    - Parameter 3 (string): Changelog
-    - Parameter 4 (string): Path to the preview image file
+    - Parameter 1 (🔤 String): Title
+    - Parameter 2 (🔤 String): Description
+    - Parameter 3 (🔤 String): Changelog
+    - Parameter 4 (🔤 String): Path to the preview image file
       An absolute file-path to an image file to be shown as preview of the workshop item on Steam.
-    - Parameter 5 (string): Path to the file with the item's file
+    - Parameter 5 (🔤 String): Path to the file with the item's file
       An absolute file-path to a file that contains the all the data for your workshop item. You can use the Filesystem actions to write a JSON file with your player's Workshop item's data to a file in the temporary data folder, and pass the path here.
-    - Parameter 6 (string): Tags
+    - Parameter 6 (🔤 String): Tags
       The tags must be comma-separated without spaces after the comma, for example: `mytag,another tag,my_last_tag`.
     - Parameter 7 (🔤 String): Visibility (one of: "Public", "FriendsOnly", "Private", "Unlisted")
     - Parameter 8 (🗄️ Scene variable): The variable where to store the result
@@ -218,11 +218,12 @@ Writes a file onto the Steam Cloud.
 ??? quote "See parameters & details"
 
     - Parameter 0 (🔤 Name (String)): Name of file to write
-    - Parameter 1 (string): File contents
+    - Parameter 1 (🔤 String): File contents
     - Parameter 2 (🗄️ Scene variable): Variable where to store the result
       The variable will be set to true if the file was successfully written and to false if it could not be.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Steamworks::WriteCloudFile`.
+
 
 ## Conditions
 
@@ -345,6 +346,7 @@ Check whether a state flag is set for a Workshop item.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Steamworks::IsWorkshopItemState`.
 
+
 ## Expressions
 
 | Expression | Description |  |
@@ -371,14 +373,14 @@ Check whether a state flag is set for a Workshop item.
 | | _🔤 Name (String)_ | The Steam App ID of the application |
 | `Steamworks::Level()` | Obtains the player's Steam level ||
 | `Steamworks::LobbyAttribute(string, string)` | Obtains the value of one of a lobby's attributes. ||
-| | _string_ | The ID of the lobby |
+| | _🔤 String_ | The ID of the lobby |
 | | _🔤 Name (String)_ | The attribute to read |
 | `Steamworks::LobbyMemberCount(string)` | Obtains a lobby's member count. ||
-| | _string_ | The ID of the lobby |
+| | _🔤 String_ | The ID of the lobby |
 | `Steamworks::LobbyMemberLimit(string)` | Obtains a lobby's maximum member limit. ||
-| | _string_ | The ID of the lobby |
+| | _🔤 String_ | The ID of the lobby |
 | `Steamworks::LobbyOwner(string)` | Obtains the Steam ID of the user that owns a lobby. ||
-| | _string_ | The ID of the lobby |
+| | _🔤 String_ | The ID of the lobby |
 | `Steamworks::Name()` | The player's registered name on Steam. ||
 | `Steamworks::ReadCloudFile(string)` | Reads a file from Steam Cloud and returns its contents. ||
 | | _🔤 Name (String)_ | Name of file to read |
@@ -401,4 +403,4 @@ Check whether a state flag is set for a Workshop item.
 
 The Steamworks (Steam) (experimental) extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Steamworks (Steam) (experimental)** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Steamworks (Steam) (experimental)** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

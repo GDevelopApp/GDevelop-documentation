@@ -29,8 +29,8 @@ Download file with text content.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): FileName
-    - Parameter 2 (string): TextContent
+    - Parameter 1 (🔤 String): FileName
+    - Parameter 2 (🔤 String): TextContent
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -67,4 +67,4 @@ Uploading text file finished.
 
 ---
 
-*This page is an auto-generated reference page about the **Upload Download Text File** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Upload Download Text File** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

@@ -76,7 +76,7 @@ Import a JSON string and convert it in a slot system.
 ??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Space name
-    - Parameter 2 (string): JSON string
+    - Parameter 2 (🔤 String): JSON string
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -319,7 +319,7 @@ Change the text property of a grid slot.
 ??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
-    - Parameter 2 (string): Value
+    - Parameter 2 (🔤 String): Value
     - Parameter 3 (🔤 Name (String)): Space name
     - Parameter 4 (🔢 Number): Column index
     - Parameter 5 (🔢 Number): Row index
@@ -416,7 +416,7 @@ Change the text property of a named slot.
 ??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
-    - Parameter 2 (string): Value
+    - Parameter 2 (🔤 String): Value
     - Parameter 3 (🔤 Name (String)): Space name
     - Parameter 4 (🔤 Name (String)): Slot name
     - Parameter 5 (🔤 Name (String)): Property name
@@ -511,7 +511,7 @@ Change the text property of a slot.
 ??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
-    - Parameter 2 (string): Value
+    - Parameter 2 (🔤 String): Value
     - Parameter 3 (🔤 Name (String)): Space name
     - Parameter 4 (🔢 Number): Slot
     - Parameter 5 (🔤 Name (String)): Property name
@@ -578,7 +578,7 @@ Compare a slot index of a grid position.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
     - Parameter 4 (🔢 Number): Column index
@@ -593,7 +593,7 @@ Compare the column index from a slot.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
     - Parameter 4 (🔢 Number): Slot
@@ -607,7 +607,7 @@ Compare the row index from a slot.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
     - Parameter 4 (🔢 Number): Slot
@@ -644,7 +644,7 @@ Compare the amount of filled named slots of a space.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
 
@@ -657,7 +657,7 @@ Compare the amount of filled slots of a space.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
 
@@ -670,7 +670,7 @@ Compare First empty slot. Set to -1 if no slot is found.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
 
@@ -683,7 +683,7 @@ Compare First slot containing a specific item. Set to -1 if no slot is found.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
     - Parameter 4 (🔤 Name (String)): Item
@@ -697,7 +697,7 @@ Compare First slot containing a specific item that is not full. Set to -1 if no 
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
     - Parameter 4 (🔤 Name (String)): Item
@@ -711,7 +711,7 @@ Compare the item at grid postion.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔤 Name (String)): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
     - Parameter 4 (🔢 Number): Column index
@@ -726,7 +726,7 @@ Compare the grid slot count of a space.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
     - Parameter 4 (🔢 Number): Column index
@@ -741,7 +741,7 @@ Compare the grid slot max count, or 0 if unlimited.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
     - Parameter 4 (🔢 Number): Column index
@@ -953,7 +953,7 @@ Compare the named slot count of a space.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
     - Parameter 4 (🔤 Name (String)): Slot name
@@ -967,8 +967,8 @@ Compare the item name of a slot.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
     - Parameter 4 (🔤 Name (String)): Slot name
 
@@ -981,7 +981,7 @@ Compare the named slot max count, or 0 if unlimited.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
     - Parameter 4 (🔤 Name (String)): Slot name
@@ -995,7 +995,7 @@ Compare the property count of a space.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
     - Parameter 4 (🔤 Name (String)): Property name
@@ -1009,7 +1009,7 @@ Compare the number property of a grid slot.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
     - Parameter 4 (🔢 Number): Column index
@@ -1025,7 +1025,7 @@ Compare the number property of a named slot.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
     - Parameter 4 (🔤 Name (String)): Slot name
@@ -1040,7 +1040,7 @@ Compare the number property of a slot.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
     - Parameter 4 (🔢 Number): Slot
@@ -1055,7 +1055,7 @@ Compare the remaining named slots of a space.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
 
@@ -1068,7 +1068,7 @@ Compare the remaining slots of a space.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
 
@@ -1081,7 +1081,7 @@ Compare the slot count of a space.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
     - Parameter 4 (🔢 Number): Slot
@@ -1095,8 +1095,8 @@ Compare the item name of a slot.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
     - Parameter 4 (🔢 Number): Slot
 
@@ -1109,7 +1109,7 @@ Compare the slot max count, or 0 if unlimited.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
     - Parameter 4 (🔢 Number): Slot
@@ -1123,7 +1123,7 @@ Compare the property count of a space.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
     - Parameter 4 (🔤 Name (String)): Property name
@@ -1137,7 +1137,7 @@ Compare the space grid height.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
 
@@ -1150,7 +1150,7 @@ Compare the space grid width.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
 
@@ -1163,7 +1163,7 @@ Compare how many slots the space has.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
 
@@ -1176,7 +1176,7 @@ Compare how many slots the space has.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
 
@@ -1189,7 +1189,7 @@ Compare Sum all the values of a slot property.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
     - Parameter 4 (🔤 Name (String)): Property name
@@ -1203,7 +1203,7 @@ Compare Sum all the values of a slot property.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
     - Parameter 4 (🔤 Name (String)): Property name
@@ -1217,8 +1217,8 @@ Compare the text property of a grid slot.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
     - Parameter 4 (🔢 Number): Column index
     - Parameter 5 (🔢 Number): Row index
@@ -1233,8 +1233,8 @@ Compare the text property of a named slot.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
     - Parameter 4 (🔤 Name (String)): Slot name
     - Parameter 5 (🔤 Name (String)): Property name
@@ -1248,8 +1248,8 @@ Compare the text property of a slot.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
     - Parameter 3 (🔤 Name (String)): Space name
     - Parameter 4 (🔢 Number): Slot
     - Parameter 5 (🔤 Name (String)): Property name
@@ -1371,4 +1371,4 @@ Compare the text property of a slot.
 
 ---
 
-*This page is an auto-generated reference page about the **Slot system** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Slot system** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

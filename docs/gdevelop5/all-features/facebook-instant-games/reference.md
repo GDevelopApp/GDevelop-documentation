@@ -9,7 +9,7 @@ Request and load an interstitial ad from Facebook, so that it is ready to be sho
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): The Ad Placement id (can be found while setting up the ad on Facebook)
+    - Parameter 0 (🔤 String): The Ad Placement id (can be found while setting up the ad on Facebook)
     - Parameter 1 (🗄️ Scene variable): Variable where to store the error message (optional, if an error occurs)
 
     > Technical note: this action internal type (in GDevelop JSON) is `FacebookInstantGames::LoadInterstitialAd`.
@@ -19,7 +19,7 @@ Load the player data with the given key in a variable
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Data key name (e.g: "Lives")
+    - Parameter 0 (🔤 String): Data key name (e.g: "Lives")
     - Parameter 1 (🗄️ Scene variable): Variable where to store loaded data
     - Parameter 2 (🗄️ Scene variable): Variable where to store the error message (optional, if an error occurs)
 
@@ -30,7 +30,7 @@ Load the player entry in the given leaderboard
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Leaderboard name (e.g: "PlayersBestTimes")
+    - Parameter 0 (🔤 String): Leaderboard name (e.g: "PlayersBestTimes")
     - Parameter 1 (🗄️ Scene variable): Variable where to store the player rank (of -1 if not ranked)
     - Parameter 2 (🗄️ Scene variable): Variable where to store the player score (of -1 if no score)
     - Parameter 3 (🗄️ Scene variable): Variable where to store extra data (if any)
@@ -43,7 +43,7 @@ Request and load a rewarded video from Facebook, so that it is ready to be shown
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): The Ad Placement id (can be found while setting up the ad on Facebook)
+    - Parameter 0 (🔤 String): The Ad Placement id (can be found while setting up the ad on Facebook)
     - Parameter 1 (🗄️ Scene variable): Variable where to store the error message (optional, if an error occurs)
 
     > Technical note: this action internal type (in GDevelop JSON) is `FacebookInstantGames::LoadRewardedVideo`.
@@ -53,7 +53,7 @@ Save the content of the given scene variable in the player data, stored on Faceb
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Data key name (e.g: "Lives")
+    - Parameter 0 (🔤 String): Data key name (e.g: "Lives")
     - Parameter 1 (🗄️ Scene variable): Scene variable with the content to save
     - Parameter 2 (🗄️ Scene variable): Variable where to store the success message (optional)
     - Parameter 3 (🗄️ Scene variable): Variable where to store the error message (optional, if an error occurs)
@@ -65,7 +65,7 @@ Save the score, and optionally the content of the given variable in the player s
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Leaderboard name (e.g: "PlayersBestTimes")
+    - Parameter 0 (🔤 String): Leaderboard name (e.g: "PlayersBestTimes")
     - Parameter 1 (🔢 Number): Score to register for the player
     - Parameter 2 (🗄️ Scene variable): Optional variable with metadata to save
     - Parameter 3 (🗄️ Scene variable): Variable where to store the success message (optional)
@@ -90,6 +90,7 @@ Show the rewarded video previously loaded in memory. This won't work if you did 
     - Parameter 0 (🗄️ Scene variable): Variable where to store the error message (optional, if an error occurs)
 
     > Technical note: this action internal type (in GDevelop JSON) is `FacebookInstantGames::ShowRewardedVideo`.
+
 
 ## Conditions
 
@@ -120,6 +121,7 @@ Check if the rewarded video requested from Facebook is loaded and ready to be sh
 
     > Technical note: this condition internal type (in GDevelop JSON) is `FacebookInstantGames::IsRewardedVideoReady`.
 
+
 ## Expressions
 
 | Expression | Description |  |
@@ -133,4 +135,4 @@ Check if the rewarded video requested from Facebook is loaded and ready to be sh
 
 The Facebook Instant Games extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Facebook Instant Games** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Facebook Instant Games** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

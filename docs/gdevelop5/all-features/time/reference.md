@@ -68,6 +68,7 @@ Waits a number of seconds before running the next actions (and sub-events).
 
     > Technical note: this action internal type (in GDevelop JSON) is `Wait`.
 
+
 ## Conditions
 
 **Value of a scene timer**  
@@ -106,6 +107,7 @@ Test if the specified scene timer is paused.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `TimerPaused`.
 
+
 ## Expressions
 
 | Expression | Description |  |
@@ -124,4 +126,4 @@ Test if the specified scene timer is paused.
 
 The Timers and time extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Timers and time** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Timers and time** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

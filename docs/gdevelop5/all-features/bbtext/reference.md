@@ -8,6 +8,31 @@ A BBText is an object displaying on the screen a rich text formatted using BBCod
 
 Displays a rich text label using BBCode markup (allowing to set parts of the text as bold, italic, use different colors and shadows). 
 
+### Object properties
+
+- **Base alignment** (choice, one of: "left", "center", "right"). Default value is `left`.
+- **Base color** (🎨 Color). Default value is `0;0;0`.
+- **Font** (🗂️ Resource). Default value is `Arial`.
+- **Base size** (🔢 Number). Default value is `20`.
+- **BBCode text** (🔤 Multiline text (String)). Default value is `[b]bold[/b] [i]italic[/i] [size=15]smaller[/size] [font=times]times[/font] font
+[spacing=12]spaced out[/spacing]
+[outline=yellow]outlined[/outline] [shadow=red]DropShadow[/shadow] `.
+- **Vertical alignment** (choice, one of: "top", "center", "bottom"). Default value is `top`.
+- **Visible on start** (🔘 Boolean). Default value is `true`.
+
+??? quote "See internal technical details"
+
+
+    - **Base alignment** is stored as `align` (choice). Default value is `left`.
+    - **Base color** is stored as `color` (color). Default value is `0;0;0`.
+    - **Font** is stored as `fontFamily` (resource). Default value is `Arial`.
+    - **Base size** is stored as `fontSize` (number). Default value is `20`.
+    - **BBCode text** is stored as `text` (multilinestring). Default value is `[b]bold[/b] [i]italic[/i] [size=15]smaller[/size] [font=times]times[/font] font
+[spacing=12]spaced out[/spacing]
+[outline=yellow]outlined[/outline] [shadow=red]DropShadow[/shadow] `.
+    - **Vertical alignment** is stored as `verticalTextAlignment` (choice). Default value is `top`.
+    - **Visible on start** is stored as `visible` (boolean). Default value is `true`.
+
 ### Object actions
 
 **Alignment**  
@@ -28,7 +53,7 @@ Set BBCode text
 
     - Parameter 0 (👾 Object): BBText
     - Parameter 1: 🟰 Operator
-    - Parameter 2 (string): Text
+    - Parameter 2 (🔤 String): Text
 
     > Technical note: this action internal type (in GDevelop JSON) is `BBText::SetBBText`.
 
@@ -38,7 +63,7 @@ Set base color
 ??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): BBText
-    - Parameter 1 (color): Color (R;G;B)
+    - Parameter 1 (🎨 Color): Color (R;G;B)
 
     > Technical note: this action internal type (in GDevelop JSON) is `BBText::SetColor`.
 
@@ -84,6 +109,7 @@ Change the width, in pixels, after which the text is wrapped on next line.
 
     > Technical note: this action internal type (in GDevelop JSON) is `BBText::SetWrappingWidth`.
 
+
 ### Object conditions
 
 **Alignment**  
@@ -104,7 +130,7 @@ Compare the value of the BBCode text.
 
     - Parameter 0 (👾 Object): BBText
     - Parameter 1: 🟰 Relational operator
-    - Parameter 2 (string): Text
+    - Parameter 2 (🔤 String): Text
 
     > Technical note: this condition internal type (in GDevelop JSON) is `BBText::IsBBText`.
 
@@ -115,7 +141,7 @@ Compare the value of font family
 
     - Parameter 0 (👾 Object): BBText
     - Parameter 1: 🟰 Relational operator
-    - Parameter 2 (string): Font family
+    - Parameter 2 (🔤 String): Font family
 
     > Technical note: this condition internal type (in GDevelop JSON) is `BBText::IsFontFamily`.
 
@@ -150,6 +176,7 @@ Compare the width, in pixels, after which the text is wrapped on next line.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `BBText::IsWrappingWidth`.
 
+
 ### Object expressions
 
 | Expression | Description |  |
@@ -166,4 +193,4 @@ Compare the width, in pixels, after which the text is wrapped on next line.
 
 The BBCode Text Object extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **BBCode Text Object** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **BBCode Text Object** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

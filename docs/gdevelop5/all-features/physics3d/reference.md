@@ -66,9 +66,58 @@ Check if a 3D physics character is on a given platform.
 
 
 
+
 ## 3D physics engine 
 
 Simulate realistic 3D physics for this object including gravity, forces, collisions, etc. 
+
+### Behavior properties
+
+- **Angular Damping** (🔢 Number). Default value is `0.1`.
+- **Type** (Choice, one of: "Static", "Dynamic", "Kinematic"). A static object won't move (perfect for obstacles). Dynamic objects can move. Kinematic will move according to forces applied to it only (useful for characters or specific mechanisms). Default value is `Dynamic`.
+- **Considered as a bullet** (🔘 Boolean). Useful for fast moving objects which requires a more accurate collision detection. Default value is `false`.
+- **Density** (🔢 Number). Define the weight of the object, according to its size. The bigger the density, the heavier the object. Default value is `123`.
+- **Fixed Rotation** (🔘 Boolean). If enabled, the object won't rotate and will stay at the same angle. Default value is `false`.
+- **Friction** (🔢 Number). The friction applied when touching other objects. The higher the value, the more friction. Default value is `0.3`.
+- **Gravity Scale** (🔢 Number). Default value is `1`.
+- **Linear Damping** (🔢 Number). Default value is `0.1`.
+- **Mass override** (🔢 Number). Leave at 0 to use the density. Default value is `0`.
+- **Restitution** (🔢 Number). The "bounciness" of the object. The higher the value, the more other objects will bounce against it. Default value is `0.1`.
+- **Shape** (Choice, one of: "Box", "Capsule", "Cylinder", "Sphere"). Default value is `Box`.
+- **Shape orientation** (Choice, one of: "Z", "Y", "X"). Default value is `Z`.
+
+??? quote "See internal technical details"
+
+
+    - **Angular Damping** is stored as `angularDamping` (Number). Default value is `0.1`.
+    - **Type** is stored as `bodyType` (Choice). Default value is `Dynamic`.
+    - **Considered as a bullet** is stored as `bullet` (Boolean). Default value is `false`.
+    - **Density** is stored as `density` (Number). Default value is `123`.
+    - **Fixed Rotation** is stored as `fixedRotation` (Boolean). Default value is `false`.
+    - **Friction** is stored as `friction` (Number). Default value is `0.3`.
+    - **Gravity Scale** is stored as `gravityScale` (Number). Default value is `1`.
+    - **Linear Damping** is stored as `linearDamping` (Number). Default value is `0.1`.
+    - **Mass override** is stored as `massOverride` (Number). Default value is `0`.
+    > This behavior must be used on an object also having a behavior with type "Scene3D::Base3DBehavior". This is stored on property `object3D`.
+
+    - **Restitution** is stored as `restitution` (Number). Default value is `0.1`.
+    - **Shape** is stored as `shape` (Choice). Default value is `Box`.
+    - **Shape orientation** is stored as `shapeOrientation` (Choice). Default value is `Z`.
+
+### Behavior shared properties
+
+- **gravityX** (🔢 Number, Force (in Newton)). Default value is `0`.
+- **gravityY** (🔢 Number, Force (in Newton)). Default value is `456`.
+- **gravityZ** (🔢 Number, Force (in Newton)). Default value is `-9.8`.
+- **worldScale** (🔢 Number). Default value is `100`.
+
+??? quote "See internal technical details"
+
+
+    - **gravityX** is stored as `gravityX` (Number). Unit is Newton. Default value is `0`.
+    - **gravityY** is stored as `gravityY` (Number). Unit is Newton. Default value is `456`.
+    - **gravityZ** is stored as `gravityZ` (Number). Unit is Newton. Default value is `-9.8`.
+    - **worldScale** is stored as `worldScale` (Number). Default value is `100`.
 
 ### Behavior actions
 
@@ -468,6 +517,7 @@ Modify an object shape scale. It affects custom shape dimensions, if custom dime
 
     > Technical note: this action internal type (in GDevelop JSON) is `Physics3D::Physics3DBehavior::ShapeScale`.
 
+
 ### Behavior conditions
 
 **Angular damping**  
@@ -770,6 +820,7 @@ Compare the object shape offset on Z..
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Physics3D::Physics3DBehavior::ShapeOffsetZ`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -807,6 +858,63 @@ Compare the object shape offset on Z..
 Simulate a realistic car using the 3D physics engine. This is mostly useful for the car controlled by the player (it's usually too complex for other cars in a game).
 
 This behavior is usually used with one or more "mapper" behavior to let the player move it. 
+
+### Behavior properties
+
+- **Back wheel offset X** (🔢 Number, Distance). Positive values move wheels outside. Default value is `0`.
+- **Beginning steer speed** (🔢 Number, Angular speed). Default value is `140`.
+- **Brake max torque** (🔢 Number). Default value is `1500`.
+- **End steer speed** (🔢 Number, Angular speed). Default value is `10`.
+- **Engine inertia** (🔢 Number). Slow down car acceleration. Default value is `0.5`.
+- **Max engine speed** (🔢 Number). Default value is `6000`.
+- **Max engine torque** (🔢 Number). Allow cars to climb steep slopes and push heavy obstacles. Default value is `4500`.
+- **Front wheel offset X** (🔢 Number, Distance). Positive values move wheels outside. Default value is `0`.
+- **1st gear ratio** (🔢 Number). Default value is `2.66`.
+- **2nd gear ratio** (🔢 Number). Default value is `1.78`.
+- **3rd gear ratio** (🔢 Number). Default value is `1.3`.
+- **4th gear ratio** (🔢 Number). Default value is `1`.
+- **5th gear ratio** (🔢 Number). Default value is `0.74`.
+- **6th gear ratio** (🔢 Number). Default value is `0`.
+- **Hand brake max torque** (🔢 Number). Default value is `4000`.
+- **Back wheel drive** (🔘 Boolean). Default value is `false`.
+- **Front wheel drive** (🔘 Boolean). Default value is `true`.
+- **Pitch and roll max angle** (🔢 Number, Angle). Default value is `90`.
+- **Reverse gear ratio** (🔢 Number). Default value is `-2.9`.
+- **Max steer angle** (🔢 Number, Angle). Default value is `70`.
+- **Wheel offset Y** (🔢 Number, Distance). Positive values move wheels outside. Default value is `0`.
+- **Wheel offset Z** (🔢 Number, Distance). Positive values move wheels outside. Default value is `0`.
+- **Wheel radius** (🔢 Number, Distance). Default value is `10`.
+- **Wheel width** (🔢 Number, Distance). Default value is `5`.
+
+??? quote "See internal technical details"
+
+
+    - **Back wheel offset X** is stored as `backWheelOffsetX` (Number). Unit is Pixel. Default value is `0`.
+    - **Beginning steer speed** is stored as `beginningSteerSpeed` (Number). Unit is AngularSpeed. Default value is `140`.
+    - **Brake max torque** is stored as `brakeTorqueMax` (Number). Default value is `1500`.
+    - **End steer speed** is stored as `endSteerSpeed` (Number). Unit is AngularSpeed. Default value is `10`.
+    - **Engine inertia** is stored as `engineInertia` (Number). Default value is `0.5`.
+    - **Max engine speed** is stored as `engineSpeedMax` (Number). Default value is `6000`.
+    - **Max engine torque** is stored as `engineTorqueMax` (Number). Default value is `4500`.
+    - **Front wheel offset X** is stored as `frontWheelOffsetX` (Number). Unit is Pixel. Default value is `0`.
+    - **1st gear ratio** is stored as `gearRatio1` (Number). Default value is `2.66`.
+    - **2nd gear ratio** is stored as `gearRatio2` (Number). Default value is `1.78`.
+    - **3rd gear ratio** is stored as `gearRatio3` (Number). Default value is `1.3`.
+    - **4th gear ratio** is stored as `gearRatio4` (Number). Default value is `1`.
+    - **5th gear ratio** is stored as `gearRatio5` (Number). Default value is `0.74`.
+    - **6th gear ratio** is stored as `gearRatio6` (Number). Default value is `0`.
+    - **Hand brake max torque** is stored as `handBrakeTorqueMax` (Number). Default value is `4000`.
+    - **Back wheel drive** is stored as `hasBackWheelDrive` (Boolean). Default value is `false`.
+    - **Front wheel drive** is stored as `hasFrontWheelDrive` (Boolean). Default value is `true`.
+    > This behavior must be used on an object also having a behavior with type "Physics3D::Physics3DBehavior". This is stored on property `physics3D`.
+
+    - **Pitch and roll max angle** is stored as `pitchRollAngleMax` (Number). Unit is DegreeAngle. Default value is `90`.
+    - **Reverse gear ratio** is stored as `reverseGearRatio1` (Number). Default value is `-2.9`.
+    - **Max steer angle** is stored as `steerAngleMax` (Number). Unit is DegreeAngle. Default value is `70`.
+    - **Wheel offset Y** is stored as `wheelOffsetY` (Number). Unit is Pixel. Default value is `0`.
+    - **Wheel offset Z** is stored as `wheelOffsetZ` (Number). Unit is Pixel. Default value is `0`.
+    - **Wheel radius** is stored as `wheelRadius` (Number). Unit is Pixel. Default value is `10`.
+    - **Wheel width** is stored as `wheelWidth` (Number). Unit is Pixel. Default value is `5`.
 
 ### Behavior actions
 
@@ -918,6 +1026,7 @@ Simulate a steering stick control.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Physics3D::PhysicsCar3D::SimulateSteeringStick`.
 
+
 ### Behavior conditions
 
 **Current gear**  
@@ -1002,6 +1111,7 @@ Compare the current steer angle (in degree). The value is negative when cars tur
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Physics3D::PhysicsCar3D::SteerAngle`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -1018,6 +1128,43 @@ Compare the current steer angle (in degree). The value is negative when cars tur
 Allow an object to jump and run on platforms that have the 3D physics behavior(and which are generally set to "Static" as type, unless the platform is animated/moved in events).
 
 This behavior is usually used with one or more "mapper" behavior to let the player move it. 
+
+### Behavior properties
+
+- **Can be pushed by other characters** (🔘 Boolean). Default value is `true`.
+- **Max. falling speed** (🔢 Number, Speed). Default value is `700`.
+- **Forward acceleration** (🔢 Number, Acceleration). Default value is `1200`.
+- **Forward deceleration** (🔢 Number, Acceleration). Default value is `1200`.
+- **Max. forward speed** (🔢 Number, Speed). Default value is `600`.
+- **Gravity** (🔢 Number, Acceleration). Default value is `1000`.
+- **Jump height** (🔢 Number, Distance). Default value is `200`.
+- **Jump sustain time** (🔢 Number, Duration). Maximum time (in seconds) during which the jump strength is sustained if the jump key is held - allowing variable height jumps. Default value is `0.2`.
+- **Keep object angle and forward direction the same** (🔘 Boolean). Default value is `true`.
+- **Sideways acceleration** (🔢 Number, Acceleration). Default value is `800`.
+- **Sideways deceleration** (🔢 Number, Acceleration). Default value is `800`.
+- **Max. sideways speed** (🔢 Number, Speed). Default value is `400`.
+- **Slope max. angle** (🔢 Number, Angle). Default value is `50`.
+- **Max. stair height** (🔢 Number, Distance). Default value is `20`.
+
+??? quote "See internal technical details"
+
+
+    - **Can be pushed by other characters** is stored as `canBePushed` (Boolean). Default value is `true`.
+    - **Max. falling speed** is stored as `fallingSpeedMax` (Number). Unit is PixelSpeed. Default value is `700`.
+    - **Forward acceleration** is stored as `forwardAcceleration` (Number). Unit is PixelAcceleration. Default value is `1200`.
+    - **Forward deceleration** is stored as `forwardDeceleration` (Number). Unit is PixelAcceleration. Default value is `1200`.
+    - **Max. forward speed** is stored as `forwardSpeedMax` (Number). Unit is PixelSpeed. Default value is `600`.
+    - **Gravity** is stored as `gravity` (Number). Unit is PixelAcceleration. Default value is `1000`.
+    - **Jump height** is stored as `jumpHeight` (Number). Unit is Pixel. Default value is `200`.
+    - **Jump sustain time** is stored as `jumpSustainTime` (Number). Unit is Second. Default value is `0.2`.
+    > This behavior must be used on an object also having a behavior with type "Physics3D::Physics3DBehavior". This is stored on property `physics3D`.
+
+    - **Keep object angle and forward direction the same** is stored as `shouldBindObjectAndForwardAngle` (Boolean). Default value is `true`.
+    - **Sideways acceleration** is stored as `sidewaysAcceleration` (Number). Unit is PixelAcceleration. Default value is `800`.
+    - **Sideways deceleration** is stored as `sidewaysDeceleration` (Number). Unit is PixelAcceleration. Default value is `800`.
+    - **Max. sideways speed** is stored as `sidewaysSpeedMax` (Number). Unit is PixelSpeed. Default value is `400`.
+    - **Slope max. angle** is stored as `slopeMaxAngle` (Number). Unit is DegreeAngle. Default value is `50`.
+    - **Max. stair height** is stored as `stairHeightMax` (Number). Unit is Pixel. Default value is `20`.
 
 ### Behavior actions
 
@@ -1305,6 +1452,7 @@ Simulate a stick control.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Physics3D::PhysicsCharacter3D::SimulateStick`.
 
+
 ### Behavior conditions
 
 **Can jump**  
@@ -1548,6 +1696,7 @@ Compare the sideways max speed of the object.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Physics3D::PhysicsCharacter3D::SidewaysSpeedMax`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -1574,4 +1723,4 @@ Compare the sideways max speed of the object.
 
 The 3D physics engine extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **3D physics engine** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **3D physics engine** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

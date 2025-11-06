@@ -119,7 +119,7 @@ Set dialogue state boolean variable. Use this to set a variable that the dialogu
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): State variable name
+    - Parameter 0 (🔤 String): State variable name
     - Parameter 1 (❓ True or False): New value
 
     > Technical note: this action internal type (in GDevelop JSON) is `DialogueTree::SetBooleanVariable`.
@@ -129,7 +129,7 @@ Set dialogue state number variable. Use this to set a variable that the dialogue
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): State variable name
+    - Parameter 0 (🔤 String): State variable name
     - Parameter 1 (🔢 Number): New value
 
     > Technical note: this action internal type (in GDevelop JSON) is `DialogueTree::SetNumberVariable`.
@@ -139,8 +139,8 @@ Set dialogue state string variable. Use this to set a variable that the dialogue
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): State variable name
-    - Parameter 1 (string): New value
+    - Parameter 0 (🔤 String): State variable name
+    - Parameter 1 (🔤 String): New value
 
     > Technical note: this action internal type (in GDevelop JSON) is `DialogueTree::SetStringVariable`.
 
@@ -149,7 +149,7 @@ Start dialogue from branch. Use this to initiate the dialogue from a specified b
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Dialogue branch
+    - Parameter 0 (🔤 String): Dialogue branch
 
     > Technical note: this action internal type (in GDevelop JSON) is `DialogueTree::StartDialogueFromBranch`.
 
@@ -162,6 +162,7 @@ Stop the running dialogue. Use this to interrupt dialogue parsing.
 
     > Technical note: this action internal type (in GDevelop JSON) is `DialogueTree::StopRunningDialogue`.
 
+
 ## Conditions
 
 **Compare dialogue state boolean variable**  
@@ -169,7 +170,7 @@ Compare dialogue state variable. Use this to trigger game events via dialogue va
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): State variable
+    - Parameter 0 (🔤 String): State variable
     - Parameter 1 (❓ True or False): Equal to
 
     > Technical note: this condition internal type (in GDevelop JSON) is `DialogueTree::CompareDialogueStateBooleanVariable`.
@@ -179,7 +180,7 @@ Compare dialogue state number variable. Use this to trigger game events via dial
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): State variable
+    - Parameter 0 (🔤 String): State variable
     - Parameter 1 (🔢 Number): Equal to
 
     > Technical note: this condition internal type (in GDevelop JSON) is `DialogueTree::CompareDialogueStateNumberVariable`.
@@ -189,8 +190,8 @@ Compare dialogue state string variable. Use this to trigger game events via dial
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): State variable
-    - Parameter 1 (string): Equal to
+    - Parameter 0 (🔤 String): State variable
+    - Parameter 1 (🔤 String): Equal to
 
     > Technical note: this condition internal type (in GDevelop JSON) is `DialogueTree::CompareDialogueStateStringVariable`.
 
@@ -199,7 +200,7 @@ Check if the current dialogue branch contains a specific tag. Tags are an altern
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): tag name
+    - Parameter 0 (🔤 String): tag name
 
     > Technical note: this condition internal type (in GDevelop JSON) is `DialogueTree::CurrentBranchContainsTag`.
 
@@ -208,7 +209,7 @@ Check if the current dialogue branch title is equal to a string. Use this to tri
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): title name
+    - Parameter 0 (🔤 String): title name
 
     > Technical note: this condition internal type (in GDevelop JSON) is `DialogueTree::CurrentBranchTitle`.
 
@@ -217,7 +218,7 @@ Check if the dialogue has a branch with specified name. Use this to check if a d
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Branch name
+    - Parameter 0 (🔤 String): Branch name
 
     > Technical note: this condition internal type (in GDevelop JSON) is `DialogueTree::HasBranch`.
 
@@ -244,7 +245,7 @@ Check if a specific Command is called. If it is a <<command withParameter>>, you
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Command String
+    - Parameter 0 (🔤 String): Command String
 
     > Technical note: this condition internal type (in GDevelop JSON) is `DialogueTree::IsCommandCalled`.
 
@@ -275,9 +276,10 @@ Check if a branch has been visited
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): branch title
+    - Parameter 0 (🔤 String): branch title
 
     > Technical note: this condition internal type (in GDevelop JSON) is `DialogueTree::WasBranchVisited`.
+
 
 ## Expressions
 
@@ -293,7 +295,7 @@ Check if a branch has been visited
 | | _🔢 Number_ | parameter Index Number _Optional_. |
 | `DialogueTree::CommandParametersCount()` | Get the number of parameters in the currently passed command ||
 | `DialogueTree::HorizontalOptionsList(string)` | Get the text of all available options from an options line type as a horizontal list. You can also pass the selected option's cursor string, which by default is -> ||
-| | _string_ | Options Selection Cursor |
+| | _🔤 String_ | Options Selection Cursor |
 | `DialogueTree::LineText()` | Returns the current dialogue line text ||
 | `DialogueTree::Option(number)` | Get the text of an option from an options line type, using the option's Number. The numbers start from 0. ||
 | | _🔢 Number_ | Option Index Number |
@@ -302,11 +304,11 @@ Check if a branch has been visited
 | `DialogueTree::TagParameter(number)` | Get parameter from a Tag found by the branch contains tag condition ||
 | | _🔢 Number_ | parameter Index Number _Optional_. |
 | `DialogueTree::Variable(string)` | Get the number stored in a dialogue state variable ||
-| | _string_ | Dialogue state variable name |
+| | _🔤 String_ | Dialogue state variable name |
 | `DialogueTree::VariableString(string)` | Get the string stored in a dialogue state variable ||
-| | _string_ | Dialogue state variable name |
+| | _🔤 String_ | Dialogue state variable name |
 | `DialogueTree::VerticalOptionsList(string)` | Get the text of all available options from an options line type as a vertical list. You can also pass the selected option's cursor string, which by default is -> ||
-| | _string_ | Options Selection Cursor |
+| | _🔤 String_ | Options Selection Cursor |
 | `DialogueTree::VisitedBranchTitles()` | Get a list of all visited branches ||
 
 
@@ -315,4 +317,4 @@ Check if a branch has been visited
 
 The Dialogue Tree extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Dialogue Tree** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Dialogue Tree** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

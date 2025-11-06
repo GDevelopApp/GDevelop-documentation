@@ -19,7 +19,7 @@ Reset repetition count of a scene timer.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Timer name used to loop
+    - Parameter 1 (🔤 String): Timer name used to loop
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -33,7 +33,7 @@ Triggers every X seconds.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Timer name used to loop
+    - Parameter 1 (🔤 String): Timer name used to loop
     - Parameter 2 (🔢 Number): Duration in seconds between each repetition
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -45,7 +45,7 @@ Triggers every X seconds X amount of times.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Timer name used to loop
+    - Parameter 1 (🔤 String): Timer name used to loop
     - Parameter 2 (🔢 Number): Duration in seconds between each repetition
     - Parameter 3 (🔢 Number): The limit of loops
       Maximum nuber of repetition (-1 to repeat forever).
@@ -59,9 +59,9 @@ Compare the number of times the timer has repeated.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
-    - Parameter 3 (string): Timer name used to loop
+    - Parameter 3 (🔤 String): Timer name used to loop
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
@@ -73,7 +73,7 @@ Compare the number of times the timer has repeated.
 | Expression | Description |  |
 |-----|-----|-----|
 | `RepeatEveryXSeconds::Repetition(string)` | Return the number of times the timer has repeated. ||
-| | _string_ | Timer name used to loop |
+| | _🔤 String_ | Timer name used to loop |
 
 ## Repeat every X seconds 
 
@@ -83,7 +83,7 @@ Allows to repeat an object timer every X seconds.
 
 - **How many times should the timer trigger? -1 for forever.** (🔢 Number). Default value is `-1`.
 - **The time between each trigger (in seconds)** (🔢 Number). Default value is `1`.
-- **The name of the timer to repeat** (string). Default value is `MyTimer`.
+- **The name of the timer to repeat** (🔤 String). Default value is `MyTimer`.
 
 ??? quote "See internal technical details"
 
@@ -101,7 +101,7 @@ Reset repetition count of an object timer.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (string): Timer name used to loop
+    - Parameter 2 (🔤 String): Timer name used to loop
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -117,7 +117,7 @@ Triggers every X seconds.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (string): Timer name used to loop
+    - Parameter 2 (🔤 String): Timer name used to loop
     - Parameter 3 (🔢 Number): Duration in seconds between each repetition
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -131,7 +131,7 @@ Triggers every X seconds X amount of times.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (string): Timer name used to loop
+    - Parameter 2 (🔤 String): Timer name used to loop
     - Parameter 3 (🔢 Number): Duration in seconds between each repetition
     - Parameter 4 (🔢 Number): The limit of loops
       Maximum nuber of repetition (-1 to repeat forever).
@@ -147,9 +147,9 @@ Compare the number of times the timer has repeated.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
-    - Parameter 4 (string): Timer name used to loop
+    - Parameter 4 (🔤 String): Timer name used to loop
 
     > Technical note: parameter 5 is an internal parameter handled by GDevelop.
 
@@ -161,9 +161,9 @@ Compare the number of times the timer has repeated.
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.RepeatTimer::Repetition(string)` | Return the number of times the timer has repeated. ||
-| | _string_ | Timer name used to loop |
+| | _🔤 String_ | Timer name used to loop |
 
 
 ---
 
-*This page is an auto-generated reference page about the **Repeat every X seconds** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Repeat every X seconds** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

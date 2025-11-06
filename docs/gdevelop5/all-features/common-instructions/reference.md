@@ -29,9 +29,9 @@ Compare the two strings.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): First string expression
+    - Parameter 0 (🔤 String): First string expression
     - Parameter 1: 🟰 Relational operator
-    - Parameter 2 (string): Second string expression
+    - Parameter 2 (🔤 String): Second string expression
 
     > Technical note: this condition internal type (in GDevelop JSON) is `BuiltinCommonInstructions::CompareStrings`.
 
@@ -66,8 +66,9 @@ Checks if at least one sub-condition is true. If no sub-condition is specified, 
 
 
 
+
 ---
 
 The Events and control flow extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Events and control flow** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Events and control flow** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

@@ -37,7 +37,7 @@ Cancel all scheduled notifications.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Notification label
+    - Parameter 1 (🔤 String): Notification label
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -48,7 +48,7 @@ Cancel a notification async.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Notification ID
+    - Parameter 1 (🔤 String): Notification ID
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -70,7 +70,7 @@ Consumes a specific purchase belonging to the current player.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Token of the Purchased product
+    - Parameter 1 (🔤 String): Token of the Purchased product
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -81,7 +81,7 @@ Attempts to create a context between the current player and a specified player o
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): ID of players separated by comma
+    - Parameter 1 (🔤 String): ID of players separated by comma
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -193,7 +193,7 @@ Retrieves the leaderboard score entries of the current player's connected player
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): The name of the leaderboard
+    - Parameter 1 (🔤 String): The name of the leaderboard
     - Parameter 2 (🔢 Number): The number of entries to attempt to fetch from the leaderboard
     - Parameter 3 (🔢 Number): The offset from the set of ordered connected player score entries to fetch from
     - Parameter 4 (🗄️ Any variable): Array of Leaderboard structure result variable callback
@@ -207,7 +207,7 @@ Retrieves the leaderboard's entry for the current player, or null if the player 
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): The name of the leaderboard
+    - Parameter 1 (🔤 String): The name of the leaderboard
     - Parameter 2 (🗄️ Any variable): Leaderboard entry structure variable callback
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -230,7 +230,7 @@ Retrieve data from the designated cloud storage of the current player.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): String of data keys (separated them with comma for multiple data points)
+    - Parameter 1 (🔤 String): String of data keys (separated them with comma for multiple data points)
     - Parameter 2 (🗄️ Any variable): Variable to save data received from server
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -264,7 +264,7 @@ Fetch a specific leaderboard belonging to this game.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): The name of the leaderboard. Each leaderboard for a game must have its own distinct name
+    - Parameter 1 (🔤 String): The name of the leaderboard. Each leaderboard for a game must have its own distinct name
     - Parameter 2 (🗄️ Any variable): Leaderboard structure variable callback
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -276,7 +276,7 @@ Retrieves a set of leaderboard entries, ordered by score ranking in the leaderbo
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): The name of the leaderboard
+    - Parameter 1 (🔤 String): The name of the leaderboard
     - Parameter 2 (🔢 Number): The number of entries to attempt to fetch from the leaderboard
     - Parameter 3 (🔢 Number): The offset from the set of ordered connected player score entries to fetch from
     - Parameter 4 (🗄️ Any variable): Array of Leaderboard structure result variable callback
@@ -290,7 +290,7 @@ Gets the total number of entries in the leaderboard.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): The name of the leaderboard
+    - Parameter 1 (🔤 String): The name of the leaderboard
     - Parameter 2 (🗄️ Any variable): Entry count variable callback
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -346,8 +346,8 @@ Gets a player's stats.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Level
-    - Parameter 2 (stringwithselector): Period of stat (one of: "alltime", "daily", "monthly", "weekly")
+    - Parameter 1 (🔤 String): Level
+    - Parameter 2 (🔤 String): Period of stat (one of: "alltime", "daily", "monthly", "weekly")
     - Parameter 3 (🗄️ Any variable): Variable to save the result (Array)
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
@@ -381,7 +381,7 @@ Request a switch into a specific tournament context.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Tournament ID
+    - Parameter 1 (🔤 String): Tournament ID
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -392,8 +392,8 @@ Logs a choice the player made in the game. This can be a powerful tool for balan
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Decision
-    - Parameter 2 (string): Choice
+    - Parameter 1 (🔤 String): Decision
+    - Parameter 2 (🔤 String): Choice
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -404,9 +404,9 @@ Logs the end of a level. To ensure the level timer is recorded the level name mu
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Level
-    - Parameter 2 (string): Score
-    - Parameter 3 (stringwithselector): Flag if level is completed or not (one of: "completed", "not completed")
+    - Parameter 1 (🔤 String): Level
+    - Parameter 2 (🔤 String): Score
+    - Parameter 3 (🔤 String): Flag if level is completed or not (one of: "completed", "not completed")
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
@@ -417,7 +417,7 @@ Logs the start of a level.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Level
+    - Parameter 1 (🔤 String): Level
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -428,7 +428,7 @@ Logs the player achieving a new level.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Level
+    - Parameter 1 (🔤 String): Level
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -439,7 +439,7 @@ Logs the player's score.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Score
+    - Parameter 1 (🔤 String): Score
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -450,7 +450,7 @@ Logs the player's social invite.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Placement of the invite
+    - Parameter 1 (🔤 String): Placement of the invite
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -461,7 +461,7 @@ Logs the player's social share.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Placement of the share
+    - Parameter 1 (🔤 String): Placement of the share
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -472,8 +472,8 @@ Logs the end of a tutorial. To ensure the level timer is recorded the tutorial n
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Name of the tutorial
-    - Parameter 2 (stringwithselector): Was the tutorial completed (one of: "compeleted", "not compeleted")
+    - Parameter 1 (🔤 String): Name of the tutorial
+    - Parameter 2 (🔤 String): Was the tutorial completed (one of: "compeleted", "not compeleted")
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -484,7 +484,7 @@ Logs the start of a tutorial.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Name of the tutorial
+    - Parameter 1 (🔤 String): Name of the tutorial
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -495,7 +495,7 @@ Make purchase for specified product.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): ID of product
+    - Parameter 1 (🔤 String): ID of product
     - Parameter 2 (🗄️ Any variable): Purchase result structure variable callback
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -507,7 +507,7 @@ Posts a player's stats.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Level
+    - Parameter 1 (🔤 String): Level
     - Parameter 2 (🔢 Number): The value of the stat
     - Parameter 3 (🗄️ Any variable): Payload structure variable
 
@@ -543,7 +543,7 @@ Updates the player's score. If the player has an existing score, the old score w
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): The name of the leaderboard
+    - Parameter 1 (🔤 String): The name of the leaderboard
     - Parameter 2 (🔢 Number): Score for the entry. Must be a 64-bit integer number
     - Parameter 3 (🗄️ Any variable): Leaderboard entry sturcture variable callback
 
@@ -633,7 +633,7 @@ Shows a banner ad.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (stringwithselector): Ad position on the screen (one of: "top", "bottom")
+    - Parameter 1 (🔤 String): Ad position on the screen (one of: "top", "bottom")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -655,8 +655,8 @@ Shows an interstitial ad. These can be shown at various points in the game such 
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (stringwithselector): Placement type (one of: "start", "pause", "next", "browse")
-    - Parameter 2 (string): Ad placement
+    - Parameter 1 (🔤 String): Placement type (one of: "start", "pause", "next", "browse")
+    - Parameter 2 (🔤 String): Ad placement
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -678,7 +678,7 @@ Shows a rewarded ad. These are longer, optional ads that the player can earn a r
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Ad description
+    - Parameter 1 (🔤 String): Ad description
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -711,7 +711,7 @@ Request a switch into a specific context.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): ID of context
+    - Parameter 1 (🔤 String): ID of context
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -722,7 +722,7 @@ Switch to another game. The API will reject if the switch fails - else, the clie
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): ID of game
+    - Parameter 1 (🔤 String): ID of game
     - Parameter 2 (🗄️ Any variable): Optional payload structure variable
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -734,7 +734,7 @@ Unlocks an achievement for the player. This method will only unlock the achievem
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Achivement name
+    - Parameter 1 (🔤 String): Achivement name
     - Parameter 2 (🗄️ Any variable): Is unlocked variable callback
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -872,4 +872,4 @@ To check if should reward player after showing rewarded ad.
 
 ---
 
-*This page is an auto-generated reference page about the **Wortal SDK** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Wortal SDK** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

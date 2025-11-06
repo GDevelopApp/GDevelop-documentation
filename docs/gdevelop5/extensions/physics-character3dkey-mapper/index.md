@@ -20,11 +20,11 @@ Control a 3D physics character with a keyboard for a platformer or a top-down ga
 
 ### Behavior properties
 
-- **Down key** (keyboardkey). Default value is `s`.
-- **Jump key** (keyboardkey). Default value is `Space`.
-- **Left key** (keyboardkey). Default value is `a`.
-- **Right key** (keyboardkey). Default value is `d`.
-- **Up key** (keyboardkey). Default value is `w`.
+- **Down key** (KeyboardKey). Default value is `s`.
+- **Jump key** (KeyboardKey). Default value is `Space`.
+- **Left key** (KeyboardKey). Default value is `a`.
+- **Right key** (KeyboardKey). Default value is `d`.
+- **Up key** (KeyboardKey). Default value is `w`.
 
 ??? quote "See internal technical details"
 
@@ -46,11 +46,11 @@ Control a 3D physics character with a keyboard for a first or third person shoot
 
 ### Behavior properties
 
-- **Down key** (keyboardkey). Default value is `s`.
-- **Jump key** (keyboardkey). Default value is `Space`.
-- **Left key** (keyboardkey). Default value is `a`.
-- **Right key** (keyboardkey). Default value is `d`.
-- **Up key** (keyboardkey). Default value is `w`.
+- **Down key** (KeyboardKey). Default value is `s`.
+- **Jump key** (KeyboardKey). Default value is `Space`.
+- **Left key** (KeyboardKey). Default value is `a`.
+- **Right key** (KeyboardKey). Default value is `d`.
+- **Up key** (KeyboardKey). Default value is `w`.
 
 ??? quote "See internal technical details"
 
@@ -69,4 +69,4 @@ _No expressions for this behavior._
 
 ---
 
-*This page is an auto-generated reference page about the **3D character keyboard mapper** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **3D character keyboard mapper** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

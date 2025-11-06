@@ -38,7 +38,7 @@ Change the camera pinch constraint.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (stringwithselector): Constraint (one of: "No constraint", "Zoom only", "Rotation only", "Zoom and rotation only")
+    - Parameter 1 (🔤 String): Constraint (one of: "No constraint", "Zoom only", "Rotation only", "Zoom and rotation only")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -86,13 +86,13 @@ Check if a touch is pinching, if 2 touches are pressed.
 | Expression | Description |  |
 |-----|-----|-----|
 | `PinchGesture::BeginningCenterX(string)` | Return the X position of the pinch center at the beginning of the gesture. ||
-| | _string_ | Layer |
+| | _🔤 String_ | Layer |
 | `PinchGesture::BeginningCenterY(string)` | Return the Y position of the pinch center at the beginning of the gesture. ||
-| | _string_ | Layer |
+| | _🔤 String_ | Layer |
 | `PinchGesture::CurrentCenterX(string)` | Return the X position of the pinch center. ||
-| | _string_ | Layer |
+| | _🔤 String_ | Layer |
 | `PinchGesture::CurrentCenterY(string)` | Return the Y position of the pinch center. ||
-| | _string_ | Layer |
+| | _🔤 String_ | Layer |
 | `PinchGesture::InversedX(number, number, layer name)` | Return the original X position of a point before the pinch gesture. ||
 | | _🔢 Number_ | Position X after the pinch |
 | | _🔢 Number_ | Position Y after the pinch |
@@ -167,4 +167,4 @@ _No expressions for this behavior._
 
 ---
 
-*This page is an auto-generated reference page about the **Pinching gesture** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Pinching gesture** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

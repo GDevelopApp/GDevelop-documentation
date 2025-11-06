@@ -30,7 +30,7 @@ Add detune on top of the main frequency to get cool synth effects.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Synth name
+    - Parameter 1 (🔤 String): Synth name
     - Parameter 2 (🔢 Number): Detune value in chips
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -42,8 +42,8 @@ Add comma separated detune values to a synth.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Synth name
-    - Parameter 2 (string): Comma separated detune values
+    - Parameter 1 (🔤 String): Synth name
+    - Parameter 2 (🔤 String): Comma separated detune values
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -54,8 +54,8 @@ Add or update biquad filter.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Synth name
-    - Parameter 2 (stringwithselector): Filter type (one of: "lowpass", "highpass", "bandpass", "lowshelf", "highshelf", "peaking", "notch", "allpass")
+    - Parameter 1 (🔤 String): Synth name
+    - Parameter 2 (🔤 String): Filter type (one of: "lowpass", "highpass", "bandpass", "lowshelf", "highshelf", "peaking", "notch", "allpass")
     - Parameter 3 (🔢 Number): Frequency [0-20,000]
     - Parameter 4 (🔢 Number): Quality factor [0-100]
     - Parameter 5 (🔢 Number): Gain value
@@ -69,8 +69,8 @@ Create a new chord.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Chord name (imaginary or real)
-    - Parameter 2 (string): Comma separated notes including octave eg. "C#4, Eb4, G4"
+    - Parameter 1 (🔤 String): Chord name (imaginary or real)
+    - Parameter 2 (🔤 String): Comma separated notes including octave eg. "C#4, Eb4, G4"
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -81,7 +81,7 @@ Create a new audio context (In most cases you only need one context and reuse it
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Context name
+    - Parameter 1 (🔤 String): Context name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -92,9 +92,9 @@ Create or update synth with attack, decay, sustain, release gain and apply filte
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Name of the synth
-    - Parameter 2 (string): Context name
-    - Parameter 3 (stringwithselector): Wave type (one of: "sine", "square", "triangle", "sawtooth")
+    - Parameter 1 (🔤 String): Name of the synth
+    - Parameter 2 (🔤 String): Context name
+    - Parameter 3 (🔤 String): Wave type (one of: "sine", "square", "triangle", "sawtooth")
     - Parameter 4 (🔢 Number): Attack value
     - Parameter 5 (🔢 Number): Decay value
     - Parameter 6 (🔢 Number): Sustain value
@@ -109,8 +109,8 @@ Play an existing chord on a synth.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Chord name
-    - Parameter 2 (string): Synth name to play the chord on
+    - Parameter 1 (🔤 String): Chord name
+    - Parameter 2 (🔤 String): Synth name to play the chord on
     - Parameter 3 (🔢 Number): Duration
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
@@ -122,8 +122,8 @@ Play a note a synth you've created before.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Synth name
-    - Parameter 2 (stringwithselector): Note name (one of: "C", "C#", "Db", "D", "D#", "Eb", "E", "F", "F#", "Gb", "G", "G#", "Ab", "A", "A#", "Bb", "B")
+    - Parameter 1 (🔤 String): Synth name
+    - Parameter 2 (🔤 String): Note name (one of: "C", "C#", "Db", "D", "D#", "Eb", "E", "F", "F#", "Gb", "G", "G#", "Ab", "A", "A#", "Bb", "B")
     - Parameter 3 (🔢 Number): Octave (0-8)
     - Parameter 4 (🔢 Number): Note duration (-1 to play until stopped manually)
 
@@ -139,7 +139,7 @@ Check if the context already created.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Context name
+    - Parameter 1 (🔤 String): Context name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -157,4 +157,4 @@ Check if the context already created.
 
 ---
 
-*This page is an auto-generated reference page about the **Audio Context** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Audio Context** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

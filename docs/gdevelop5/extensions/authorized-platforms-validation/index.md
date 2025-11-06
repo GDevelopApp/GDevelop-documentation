@@ -35,7 +35,7 @@ Adds a new valid platform (domain name where the game is expected to be played, 
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Domain name (e.g : gd.games)
+    - Parameter 1 (🔤 String): Domain name (e.g : gd.games)
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -65,4 +65,4 @@ Checks if the game is executed on an authorized platform (preferably, run this o
 
 ---
 
-*This page is an auto-generated reference page about the **Platforms Validation** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Platforms Validation** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

@@ -9,9 +9,9 @@ Logs a message to the debugger's console.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Message to log
+    - Parameter 0 (🔤 String): Message to log
     - Parameter 1 (🔤 String): Message type (one of: "info", "warning", "error")
-    - Parameter 2 (string): Group of messages
+    - Parameter 2 (🔤 String): Group of messages
 
     > Technical note: this action internal type (in GDevelop JSON) is `DebuggerTools::ConsoleLog`.
 
@@ -44,8 +44,9 @@ This pauses the game, useful for inspecting the game state through the debugger.
 
 
 
+
 ---
 
 The Debugger Tools extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Debugger Tools** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Debugger Tools** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

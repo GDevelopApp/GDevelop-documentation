@@ -9,7 +9,7 @@ Creates a new custom performance tracker (If it doesn't already exists). They ar
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Tracker Name
+    - Parameter 0 (🔤 String): Tracker Name
 
     > Technical note: this action internal type (in GDevelop JSON) is `Firebase::AddTracer`.
 
@@ -27,8 +27,8 @@ Triggers an Event/Conversion for the current user on the Analytics.Can also pass
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Event Name
-    - Parameter 1 (string): Additional Data
+    - Parameter 0 (🔤 String): Event Name
+    - Parameter 1 (🔤 String): Additional Data
 
     > Technical note: this action internal type (in GDevelop JSON) is `Firebase::AnalyticsLog`.
 
@@ -37,8 +37,8 @@ Sets an user's properties.Can be used to classify user in Analytics.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Property Name
-    - Parameter 1 (string): Property Data
+    - Parameter 0 (🔤 String): Property Name
+    - Parameter 1 (🔤 String): Property Data
 
     > Technical note: this action internal type (in GDevelop JSON) is `Firebase::AnalyticsSetProperty`.
 
@@ -47,7 +47,7 @@ Changes the current user's analytics identifier. This is what let Analytics diff
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): New Unique ID
+    - Parameter 0 (🔤 String): New Unique ID
 
     > Technical note: this action internal type (in GDevelop JSON) is `Firebase::AnalyticsSetUID`.
 
@@ -65,8 +65,8 @@ Sign into an account with email and password as credentials.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Email
-    - Parameter 1 (string): Password
+    - Parameter 0 (🔤 String): Email
+    - Parameter 1 (🔤 String): Password
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error)
 
     > Technical note: this action internal type (in GDevelop JSON) is `Firebase::BasicAccountSignIn`.
@@ -76,8 +76,8 @@ Calls a HTTP function by name, and store the result in a variable.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): HTTP Function Name
-    - Parameter 1 (string): Parameter(s) as JSON or string.
+    - Parameter 0 (🔤 String): HTTP Function Name
+    - Parameter 1 (🔤 String): Parameter(s) as JSON or string.
     - Parameter 2 (🗄️ Scene variable): Callback variable with returned value
     - Parameter 3 (🗄️ Scene variable): Callback variable with state (ok or error)
 
@@ -89,9 +89,9 @@ Changes the user's email address.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Old email
-    - Parameter 1 (string): Password
-    - Parameter 2 (string): New email
+    - Parameter 0 (🔤 String): Old email
+    - Parameter 1 (🔤 String): Password
+    - Parameter 2 (🔤 String): New email
     - Parameter 3 (❓ Yes or No): Send a verification email before doing the change?
     - Parameter 4 (🗄️ Scene variable): Callback variable with state (ok or error)
 
@@ -104,7 +104,7 @@ This is the same as Change the user email but reauthenticates via an external pr
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): New email
+    - Parameter 0 (🔤 String): New email
     - Parameter 1 (❓ Yes or No): Send a verification email before doing the change?
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error)
 
@@ -116,9 +116,9 @@ Changes the user password.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Email
-    - Parameter 1 (string): Old password
-    - Parameter 2 (string): New password
+    - Parameter 0 (🔤 String): Email
+    - Parameter 1 (🔤 String): Old password
+    - Parameter 2 (🔤 String): New password
     - Parameter 3 (❓ Yes or No): Send a verification email before doing the change?
     - Parameter 4 (🗄️ Scene variable): Callback variable with state (ok or error)
 
@@ -131,7 +131,7 @@ This is the same as "Change the user password" but reauthenticates via an extern
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): New Password
+    - Parameter 0 (🔤 String): New Password
     - Parameter 1 (❓ Yes or No): Send a verification email before doing the change?
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error)
 
@@ -142,8 +142,8 @@ Create an account with email and password as credentials.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Email
-    - Parameter 1 (string): Password
+    - Parameter 0 (🔤 String): Email
+    - Parameter 1 (🔤 String): Password
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error)
 
     > Technical note: this action internal type (in GDevelop JSON) is `Firebase::CreateBasicAccount`.
@@ -153,8 +153,8 @@ Deletes a field of a variable on the database.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Path
-    - Parameter 1 (string): Field to delete
+    - Parameter 0 (🔤 String): Path
+    - Parameter 1 (🔤 String): Field to delete
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error)
 
     > Technical note: this action internal type (in GDevelop JSON) is `Firebase::DatabaseDeleteField`.
@@ -164,7 +164,7 @@ Deletes a variable from the database.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Path
+    - Parameter 0 (🔤 String): Path
     - Parameter 1 (🗄️ Scene variable): Callback variable with state (ok or error)
 
     > Technical note: this action internal type (in GDevelop JSON) is `Firebase::DatabaseDeleteVariable`.
@@ -174,8 +174,8 @@ Return the value of a field in a variable from the database and store it in a sc
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Path
-    - Parameter 1 (string): Field to get
+    - Parameter 0 (🔤 String): Path
+    - Parameter 1 (🔤 String): Field to get
     - Parameter 2 (🗄️ Scene variable): Callback variable where to store the field's value
     - Parameter 3 (🗄️ Scene variable): Callback variable with state (ok or error)
 
@@ -186,7 +186,7 @@ Gets a variable from the database and store it in a Scene variable.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Path
+    - Parameter 0 (🔤 String): Path
     - Parameter 1 (🗄️ Scene variable): Callback variable where to store the data
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error)
 
@@ -197,8 +197,8 @@ Checks for the existence of a field in a variable. Sets the result variable to 1
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Path
-    - Parameter 1 (string): Field to check
+    - Parameter 0 (🔤 String): Path
+    - Parameter 1 (🔤 String): Field to check
     - Parameter 2 (🗄️ Scene variable): Callback Variable where to store the result
     - Parameter 3 (🗄️ Scene variable): Callback variable with state (ok or error)
 
@@ -209,7 +209,7 @@ Checks for the existence of a variable. Sets the result variable to 1 if it exis
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Path
+    - Parameter 0 (🔤 String): Path
     - Parameter 1 (🗄️ Scene variable): Callback variable where to store the result
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error)
 
@@ -220,9 +220,9 @@ Updates a field of a Database document.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Path
-    - Parameter 1 (string): Field to update
-    - Parameter 2 (string): Value to write
+    - Parameter 0 (🔤 String): Path
+    - Parameter 1 (🔤 String): Field to update
+    - Parameter 2 (🔤 String): Value to write
     - Parameter 3 (🗄️ Scene variable): Callback variable with state (ok or error)
 
     > Technical note: this action internal type (in GDevelop JSON) is `Firebase::DatabaseUpdateField`.
@@ -232,7 +232,7 @@ Updates a variable on the database.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Path
+    - Parameter 0 (🔤 String): Path
     - Parameter 1 (🗄️ Scene variable): Variable to update with
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error)
 
@@ -243,9 +243,9 @@ Writes a field of a Database document.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Path
-    - Parameter 1 (string): Field to write
-    - Parameter 2 (string): Value to write
+    - Parameter 0 (🔤 String): Path
+    - Parameter 1 (🔤 String): Field to write
+    - Parameter 2 (🔤 String): Value to write
     - Parameter 3 (🗄️ Scene variable): Callback variable with state (ok or error)
 
     > Technical note: this action internal type (in GDevelop JSON) is `Firebase::DatabaseWriteField`.
@@ -255,7 +255,7 @@ Writes a variable to Database.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Path
+    - Parameter 0 (🔤 String): Path
     - Parameter 1 (🗄️ Scene variable): Variable to write
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error)
 
@@ -267,8 +267,8 @@ Deletes the user account.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Email
-    - Parameter 1 (string): Password
+    - Parameter 0 (🔤 String): Email
+    - Parameter 1 (🔤 String): Password
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error)
 
     > Technical note: this action internal type (in GDevelop JSON) is `Firebase::DeleteUser`.
@@ -298,7 +298,7 @@ Adds a document (variable) to cloud firestore with a unique name.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Collection
+    - Parameter 0 (🔤 String): Collection
     - Parameter 1 (🗄️ Scene variable): Variable to write
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error)
 
@@ -309,8 +309,8 @@ Deletes a firestore document (variable).
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Collection
-    - Parameter 1 (string): Document
+    - Parameter 0 (🔤 String): Collection
+    - Parameter 1 (🔤 String): Document
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error)
 
     > Technical note: this action internal type (in GDevelop JSON) is `Firebase::FirestoreDeleteDocument`.
@@ -320,9 +320,9 @@ Deletes a field of a firestore document.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Collection
-    - Parameter 1 (string): Document
-    - Parameter 2 (string): Field to delete
+    - Parameter 0 (🔤 String): Collection
+    - Parameter 1 (🔤 String): Document
+    - Parameter 2 (🔤 String): Field to delete
     - Parameter 3 (🗄️ Scene variable): Callback variable with state (ok or error)
 
     > Technical note: this action internal type (in GDevelop JSON) is `Firebase::FirestoreDeleteField`.
@@ -371,7 +371,7 @@ Runs the query once and store results in a scene variable.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Query name
+    - Parameter 0 (🔤 String): Query name
     - Parameter 1 (🗄️ Scene variable): Callback variable where to load the results
       See how the data will be filled in this structure variable on [the wiki page](https://wiki.gdevelop.io/gdevelop5/all-features/firebase/firestore#the_query_result).
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error message)
@@ -383,8 +383,8 @@ Gets a firestore document and store it in a variable.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Collection
-    - Parameter 1 (string): Document
+    - Parameter 0 (🔤 String): Collection
+    - Parameter 1 (🔤 String): Document
     - Parameter 2 (🗄️ Scene variable): Callback variable where to load the document
     - Parameter 3 (🗄️ Scene variable): Callback variable with state (ok or error)
 
@@ -395,9 +395,9 @@ Return the value of a field in a firestore document.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Collection
-    - Parameter 1 (string): Document
-    - Parameter 2 (string): Field to get
+    - Parameter 0 (🔤 String): Collection
+    - Parameter 1 (🔤 String): Document
+    - Parameter 2 (🔤 String): Field to get
     - Parameter 3 (🗄️ Scene variable): Callback variable where to store the field's value
     - Parameter 4 (🗄️ Scene variable): Callback variable with state (ok or error)
 
@@ -408,8 +408,8 @@ Checks for the existence of a document. Sets the result variable to true if it e
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Collection
-    - Parameter 1 (string): Document
+    - Parameter 0 (🔤 String): Collection
+    - Parameter 1 (🔤 String): Document
     - Parameter 2 (🗄️ Scene variable): Callback variable where to store the result
     - Parameter 3 (🗄️ Scene variable): Callback variable with state (ok or error)
 
@@ -420,9 +420,9 @@ Checks for the existence of a field in a document. Sets the result variable to 1
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Collection
-    - Parameter 1 (string): Document
-    - Parameter 2 (string): Field to check
+    - Parameter 0 (🔤 String): Collection
+    - Parameter 1 (🔤 String): Document
+    - Parameter 2 (🔤 String): Field to check
     - Parameter 3 (🗄️ Scene variable): Callback Variable where to store the result
     - Parameter 4 (🗄️ Scene variable): Callback variable with state (ok or error)
 
@@ -433,7 +433,7 @@ Limits the amount of documents returned by the query. Can only be used after an 
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Query name
+    - Parameter 0 (🔤 String): Query name
     - Parameter 1 (🔢 Number): Amount to limit by
     - Parameter 2 (❓ Yes or No): Begin from the end
       If yes, the last X documents will be kept, else the first X documents will be kept.
@@ -445,8 +445,8 @@ Orders all documents in the query by a the value of a field.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Query name
-    - Parameter 1 (string): Field to order by
+    - Parameter 0 (🔤 String): Query name
+    - Parameter 1 (🔤 String): Field to order by
       Note that [some limitations may apply when combined with a where query](https://firebase.google.com/docs/firestore/query-data/order-limit-data#limitations).
     - Parameter 2 (🔤 String): Direction (ascending or descending) (one of: "asc", "desc")
 
@@ -457,7 +457,7 @@ Removes documents before or after a certain value on the field ordered by in a q
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Query name
+    - Parameter 0 (🔤 String): Query name
     - Parameter 1 (🔢 Number): The value of the field ordered by to skip after
     - Parameter 2 (❓ Yes or No): Skip documents before?
       If yes, the documents with a bigger field value will be kept, else the documents with a smaller field value be kept by the query.
@@ -470,8 +470,8 @@ Only match the documents that have a field passing a check.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Query name
-    - Parameter 1 (string): Field to check
+    - Parameter 0 (🔤 String): Query name
+    - Parameter 1 (🔤 String): Field to check
     - Parameter 2 (🔤 String): Check type
       See the [Firebase documentation](https://firebase.google.com/docs/firestore/query-data/queries#query_operators) to understand the operators. It is important as some [don't work when combined](https://firebase.google.com/docs/firestore/query-data/queries#query_limitations). (one of: "<", "<=", "==", "!=", ">=", ">", "array-contains")
     - Parameter 3 (🔢 Number): Value to check
@@ -483,11 +483,11 @@ Only match the documents that have a field passing a check.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Query name
-    - Parameter 1 (string): Field to check
+    - Parameter 0 (🔤 String): Query name
+    - Parameter 1 (🔤 String): Field to check
     - Parameter 2 (🔤 String): Check type
       See the [Firebase documentation](https://firebase.google.com/docs/firestore/query-data/queries#query_operators) to understand the operators. It is important as some [don't work when combined](https://firebase.google.com/docs/firestore/query-data/queries#query_limitations). (one of: "<", "<=", "==", "!=", ">=", ">", "array-contains")
-    - Parameter 3 (string): Text to check
+    - Parameter 3 (🔤 String): Text to check
 
     > Technical note: this action internal type (in GDevelop JSON) is `Firebase::FirestoreQueryWhereText`.
 
@@ -496,8 +496,8 @@ Start a query on a collection. A query allows to get a filtered and ordered list
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Query name
-    - Parameter 1 (string): Collection
+    - Parameter 0 (🔤 String): Query name
+    - Parameter 1 (🔤 String): Collection
 
     > Technical note: this action internal type (in GDevelop JSON) is `Firebase::FirestoreStartQuery`.
 
@@ -506,8 +506,8 @@ Start a query with the same collection and filters as another one.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Query name
-    - Parameter 1 (string): Source query name
+    - Parameter 0 (🔤 String): Query name
+    - Parameter 1 (🔤 String): Source query name
 
     > Technical note: this action internal type (in GDevelop JSON) is `Firebase::FirestoreStartQueryFrom`.
 
@@ -516,8 +516,8 @@ Updates a firestore document (variable).
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Collection
-    - Parameter 1 (string): Document
+    - Parameter 0 (🔤 String): Collection
+    - Parameter 1 (🔤 String): Document
     - Parameter 2 (🗄️ Scene variable): Variable to update with
     - Parameter 3 (🗄️ Scene variable): Callback variable with state (ok or error)
 
@@ -528,10 +528,10 @@ Updates a field of a firestore document.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Collection
-    - Parameter 1 (string): Document
-    - Parameter 2 (string): Field to update
-    - Parameter 3 (string): Value to write
+    - Parameter 0 (🔤 String): Collection
+    - Parameter 1 (🔤 String): Document
+    - Parameter 2 (🔤 String): Field to update
+    - Parameter 3 (🔤 String): Value to write
     - Parameter 4 (🗄️ Scene variable): Callback variable with state (ok or error)
 
     > Technical note: this action internal type (in GDevelop JSON) is `Firebase::FirestoreUpdateField`.
@@ -541,7 +541,7 @@ Runs a query continuously, so that every time a new documents starts or stops ma
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Query name
+    - Parameter 0 (🔤 String): Query name
     - Parameter 1 (🗄️ Scene variable): Callback variable where to load the results
       See the shape of the returned data on [the wiki page]().
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error message)
@@ -553,8 +553,8 @@ Writes a document (variable) to cloud firestore.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Collection
-    - Parameter 1 (string): Document
+    - Parameter 0 (🔤 String): Collection
+    - Parameter 1 (🔤 String): Document
     - Parameter 2 (🗄️ Scene variable): Variable to write
     - Parameter 3 (🗄️ Scene variable): Callback variable with state (ok or error)
 
@@ -565,10 +565,10 @@ Writes a field of a firestore document.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Collection
-    - Parameter 1 (string): Document
-    - Parameter 2 (string): Field to write
-    - Parameter 3 (string): Value to write
+    - Parameter 0 (🔤 String): Collection
+    - Parameter 1 (🔤 String): Document
+    - Parameter 2 (🔤 String): Field to write
+    - Parameter 3 (🔤 String): Value to write
     - Parameter 4 (🗄️ Scene variable): Callback variable with state (ok or error)
     - Parameter 5 (❓ Yes or No): If the document already exists, merge them instead of replacing the old one?
 
@@ -608,7 +608,7 @@ Record performance for a delimited period of time. Use this if you want to measu
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Tracker Name
+    - Parameter 0 (🔤 String): Tracker Name
     - Parameter 1 (🔢 Number): Delay before measuring start (in ms)
     - Parameter 2 (🔢 Number): Measuring duration (in ms)
 
@@ -628,7 +628,7 @@ Send a password reset link per email.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Email of the user whose password must be reset
+    - Parameter 0 (🔤 String): Email of the user whose password must be reset
 
     > Technical note: this action internal type (in GDevelop JSON) is `Firebase::SendPasswordResetEmail`.
 
@@ -637,7 +637,7 @@ Sets the user display name.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): New display name
+    - Parameter 0 (🔤 String): New display name
 
     > Technical note: this action internal type (in GDevelop JSON) is `Firebase::SetDisplayName`.
 
@@ -646,7 +646,7 @@ Change the user profile picture URL to a new one.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): New profile picture URL
+    - Parameter 0 (🔤 String): New profile picture URL
 
     > Technical note: this action internal type (in GDevelop JSON) is `Firebase::SetPhotoURL`.
 
@@ -673,7 +673,7 @@ Start measuring performance for that tracer
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Tracker Name
+    - Parameter 0 (🔤 String): Tracker Name
 
     > Technical note: this action internal type (in GDevelop JSON) is `Firebase::StartTracer`.
 
@@ -682,7 +682,7 @@ Stop measuring performance for that tracer
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Tracker Name
+    - Parameter 0 (🔤 String): Tracker Name
 
     > Technical note: this action internal type (in GDevelop JSON) is `Firebase::StopTracer`.
 
@@ -691,7 +691,7 @@ Get a unique download URL for a file.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Storage path to the file
+    - Parameter 0 (🔤 String): Storage path to the file
     - Parameter 1 (🗄️ Scene variable): Callback variable where to store the result
     - Parameter 2 (🗄️ Scene variable): Callback variable with state (ok or error)
 
@@ -702,14 +702,15 @@ Upload a file to firebase Storage.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Upload ID
-    - Parameter 1 (string): File content
-    - Parameter 2 (string): Storage path
+    - Parameter 0 (🔤 String): Upload ID
+    - Parameter 1 (🔤 String): File content
+    - Parameter 2 (🔤 String): Storage path
     - Parameter 3 (🔤 String): File content format (one of: "none", "base64", "base64url", "data_url")
     - Parameter 4 (🗄️ Scene variable): Callback variable with state (ok or error)
     - Parameter 5 (🗄️ Scene variable): Callback variable with the url to the uploaded file
 
     > Technical note: this action internal type (in GDevelop JSON) is `Firebase::StorageUpload`.
+
 
 ## Conditions
 
@@ -732,21 +733,22 @@ You should always use this before actions requiring authentications.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Firebase::IsSignedIn`.
 
+
 ## Expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
 | `Firebase::GetAccountCreationTime()` | Return the accounts creation time. ||
 | `Firebase::GetAuthToken(string)` | Get the user authentication token. The token is the proof of authentication. ||
-| | _string_ | Setting Name |
+| | _🔤 String_ | Setting Name |
 | `Firebase::GetLastLoginTime()` | Return the user last login time. ||
 | `Firebase::GetPhoneNumber()` | Return the user phone number. ||
 | `Firebase::GetPhotoURL()` | Gets an URL to the user profile picture. ||
 | `Firebase::GetRefreshToken()` | Return the user refresh token. For advanced usage only. ||
 | `Firebase::GetRemoteConfigNumber(string)` | Get a setting from Firebase Remote Config as Number. ||
-| | _string_ | Setting Name |
+| | _🔤 String_ | Setting Name |
 | `Firebase::GetRemoteConfigString(string)` | Get a setting from Firebase Remote Config as a string. ||
-| | _string_ | Setting Name |
+| | _🔤 String_ | Setting Name |
 | `Firebase::GetTenantID()` | Return the user tenant ID. For advanced usage only. ||
 | `Firebase::GetUserDisplayName()` | Return the user display name. ||
 | `Firebase::GetUserEmail()` | Return the user email address. ||
@@ -759,4 +761,4 @@ You should always use this before actions requiring authentications.
 
 The Firebase extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Firebase** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Firebase** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

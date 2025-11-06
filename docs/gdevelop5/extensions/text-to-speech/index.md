@@ -19,8 +19,8 @@ Speaks a text message aloud through the system text-to-speech.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): The message to be spoken
-    - Parameter 2 (string): The voice to be used
+    - Parameter 1 (🔤 String): The message to be spoken
+    - Parameter 2 (🔤 String): The voice to be used
       Voices vary depending on the operating system. 
       Here is a list of windows voice names: https://bit.ly/windows-voices 
       And here is a list of voice names for MacOS: https://bit.ly/mac-voices
@@ -49,4 +49,4 @@ Forces all Text-to-Speech to be stopped.
 
 ---
 
-*This page is an auto-generated reference page about the **Text-to-Speech** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Text-to-Speech** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

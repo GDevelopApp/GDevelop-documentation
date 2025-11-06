@@ -21,7 +21,7 @@ Attempts to connect to discord if it is installed, and initialize rich presence.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): The discord client ID
+    - Parameter 1 (🔤 String): The discord client ID
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -32,16 +32,16 @@ Update the data in the rich presence. See the discord documentation for more inf
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): The current state
-    - Parameter 2 (string): The details of the current state
+    - Parameter 1 (🔤 String): The current state
+    - Parameter 2 (🔤 String): The details of the current state
     - Parameter 3 (🔢 Number): The timstamp of the start of the match
       If this is filled, discord will show the time elapsed since the start.
     - Parameter 4 (🔢 Number): The timestamp of the end of the match
       If this is filled, discord will display the remaining time.
-    - Parameter 5 (string): The name of the big image
-    - Parameter 6 (string): The text of the large image
-    - Parameter 7 (string): The name of the small image
-    - Parameter 8 (string): The text of the small image
+    - Parameter 5 (🔤 String): The name of the big image
+    - Parameter 6 (🔤 String): The text of the large image
+    - Parameter 7 (🔤 String): The name of the small image
+    - Parameter 8 (🔤 String): The text of the small image
 
     > Technical note: parameters 0, 9 are internal parameters handled by GDevelop.
 
@@ -53,4 +53,4 @@ Update the data in the rich presence. See the discord documentation for more inf
 
 ---
 
-*This page is an auto-generated reference page about the **Discord rich presence (Windows, Mac, Linux)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Discord rich presence (Windows, Mac, Linux)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

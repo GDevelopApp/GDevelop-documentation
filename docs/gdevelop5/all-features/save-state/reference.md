@@ -9,8 +9,8 @@ Create a Save State and save it to device storage.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Storage key to save to
-    - Parameter 2 (string): Profile(s) to save
+    - Parameter 1 (🔤 String): Storage key to save to
+    - Parameter 2 (🔤 String): Profile(s) to save
       Comma-separated list of profile names that must be saved. Only objects tagged with at least one of these profiles will be saved. If no profile names are specified, all objects will be saved (unless they have a "Save Configuration" behavior set to "Do not save").
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
@@ -23,7 +23,7 @@ Create a Save State and save it to a variable. This is for advanced usage, prefe
 ??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): Variable to store the save to
-    - Parameter 2 (string): Profile(s) to save
+    - Parameter 2 (🔤 String): Profile(s) to save
       Comma-separated list of profile names that must be saved. Only objects tagged with at least one of these profiles will be saved. If no profile names are specified, all objects will be saved (unless they have a "Save Configuration" behavior set to "Do not save").
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
@@ -35,8 +35,8 @@ Restore the game from a Save State stored on the device.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Storage name to load the game from
-    - Parameter 2 (string): Profile(s) to load
+    - Parameter 1 (🔤 String): Storage name to load the game from
+    - Parameter 2 (🔤 String): Profile(s) to load
       Comma-separated list of profile names that must be loaded. Only objects tagged with at least one of these profiles will be loaded - others will be left alone. If no profile names are specified, all objects will be loaded.
     - Parameter 3 (❓ Yes or No): Stop and restart all the scenes currently played?
 
@@ -50,7 +50,7 @@ Restore the game from a Save State stored in the specified variable. This is for
 ??? quote "See parameters & details"
 
     - Parameter 1 (🗄️ Any variable): Variable to load the game from
-    - Parameter 2 (string): Profile(s) to load
+    - Parameter 2 (🔤 String): Profile(s) to load
       Comma-separated list of profile names that must be loaded. Only objects tagged with at least one of these profiles will be loaded - others will be left alone. If no profile names are specified, all objects will be loaded (unless they have a "Save Configuration" behavior set to "Do not save").
     - Parameter 3 (❓ Yes or No): Stop and restart all the scenes currently played?
 
@@ -64,7 +64,7 @@ Set if the global game data (audio & global variables) should be saved in the de
 ??? quote "See parameters & details"
 
     - Parameter 1 (❓ Yes or No): Persist in default save states
-    - Parameter 2 (string): Profiles in which the global game data should be saved
+    - Parameter 2 (🔤 String): Profiles in which the global game data should be saved
       Comma-separated list of profile names in which the global game data will be saved. When a save state is created with one or more profile names specified, the global game data will be saved only if it matches one of these profiles.
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
@@ -78,7 +78,7 @@ Set if the data of the specified scene (scene variables, timers, trigger once, w
 
     - Parameter 1 (🔤 Name of a scene (String)): Scene name for which configuration should be changed
     - Parameter 2 (❓ Yes or No): Persist in default save states
-    - Parameter 3 (string): Profiles in which the scene data should be saved
+    - Parameter 3 (🔤 String): Profiles in which the scene data should be saved
       Comma-separated list of profile names in which the scene data will be saved. When a save state is created with one or more profile names specified, the scene data will be saved only if it matches one of these profiles.
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
@@ -92,12 +92,13 @@ Set if a scene or global variable should be saved in the default save state. Als
 
     - Parameter 1 (🗄️ Any variable): Variable for which configuration should be changed
     - Parameter 2 (❓ Yes or No): Persist in default save states
-    - Parameter 3 (string): Profiles in which the variable should be saved
+    - Parameter 3 (🔤 String): Profiles in which the variable should be saved
       Comma-separated list of profile names in which the variable will be saved. When a save state is created with one or more profile names specified, the variable will be saved only if it matches one of these profiles.
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `SaveState::SetVariableSaveConfiguration`.
+
 
 ## Conditions
 
@@ -169,6 +170,7 @@ Compare Time since the last save, in seconds. Returns -1 if no save happened, an
 
     > Technical note: this condition internal type (in GDevelop JSON) is `SaveState::TimeSinceLastSave`.
 
+
 ## Expressions
 
 | Expression | Description |  |
@@ -180,6 +182,17 @@ Compare Time since the last save, in seconds. Returns -1 if no save happened, an
 
 Allow the customize how the object is persisted in a save state. 
 
+### Behavior properties
+
+- **Persistence mode** (Choice, one of: "Persisted", "DoNotSave"). Default value is `Persisted`.
+- **Save profile names** (🔤 String). Comma-separated list of profile names in which the object is saved. When a save state is created with one or more profile names specified, the object will be saved only if it matches one of these profiles.
+
+??? quote "See internal technical details"
+
+
+    - **Persistence mode** is stored as `defaultProfilePersistence` (Choice). Default value is `Persisted`.
+    - **Save profile names** is stored as `persistedInProfiles` (String). Default value is ``.
+
 _No expressions for this behavior._
 
 
@@ -189,4 +202,4 @@ _No expressions for this behavior._
 
 The Save State (experimental) extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Save State (experimental)** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Save State (experimental)** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

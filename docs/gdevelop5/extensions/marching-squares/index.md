@@ -67,7 +67,7 @@ Add a disk to the field.
       The spike height is 1 at this radius.
     - Parameter 5 (🔢 Number): Capping radius ratio
       Small values allow quicker process, but can result to tearing. Try values around 8.
-    - Parameter 6 (stringwithselector): Operation (one of: "Maximum", "Addition", "Subtraction")
+    - Parameter 6 (🔤 String): Operation (one of: "Maximum", "Addition", "Subtraction")
 
     > Technical note: parameter 7 is an internal parameter handled by GDevelop.
 
@@ -90,7 +90,7 @@ Add a hill to the field.
       Set to 1 to apply the hill instantly or repeat this action with a lower value to make is progressive.
     - Parameter 7 (🔢 Number): Capping radius ratio
       Small values allow quicker process, but can result to tearing. Try values around 8.
-    - Parameter 8 (stringwithselector): Operation (one of: "Maximum", "Addition", "Subtraction")
+    - Parameter 8 (🔤 String): Operation (one of: "Maximum", "Addition", "Subtraction")
 
     > Technical note: parameter 9 is an internal parameter handled by GDevelop.
 
@@ -110,7 +110,7 @@ Add a line to the field.
     - Parameter 6 (🔢 Number): Thickness
     - Parameter 7 (🔢 Number): Capping radius ratio
       Small values allow quicker process, but can result to tearing. Try values around 8.
-    - Parameter 8 (stringwithselector): Operation (one of: "Maximum", "Addition", "Subtraction")
+    - Parameter 8 (🔤 String): Operation (one of: "Maximum", "Addition", "Subtraction")
 
     > Technical note: parameter 9 is an internal parameter handled by GDevelop.
 
@@ -219,7 +219,7 @@ Apply a given operation on every value of the field using the value from the oth
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (👾 Object): Field object
     - Parameter 3 (🧩 Behavior): Field behavior
-    - Parameter 4 (stringwithselector): Operation (one of: "Maximum", "Addition", "Subtraction", "Minimum", "Multiplication", "Division")
+    - Parameter 4 (🔤 String): Operation (one of: "Maximum", "Addition", "Subtraction", "Minimum", "Multiplication", "Division")
 
     > Technical note: parameter 5 is an internal parameter handled by GDevelop.
 
@@ -429,4 +429,4 @@ Check if a point is inside the contour.
 
 ---
 
-*This page is an auto-generated reference page about the **Marching Squares (experimental)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Marching Squares (experimental)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

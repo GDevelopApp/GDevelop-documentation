@@ -8,6 +8,19 @@ Provides an object to display a video on the scene. The recommended file format 
 
 Displays a video. 
 
+### Object properties
+
+- **Loop the video** (🔘 Boolean). Default value is `false`.
+- **Video volume (0-100)** (🔢 Number). Default value is `100`.
+- **Video resource** (🗂️ Resource).
+
+??? quote "See internal technical details"
+
+
+    - **Loop the video** is stored as `Looped` (boolean). Default value is `false`.
+    - **Video volume (0-100)** is stored as `Volume` (number). Default value is `100`.
+    - **Video resource** is stored as `videoResource` (resource). Default value is ``.
+
 ### Object actions
 
 **Loop a video**  
@@ -80,6 +93,7 @@ Set the volume of the video object.
     - Parameter 2 (🔢 Number): Volume (0-100)
 
     > Technical note: this action internal type (in GDevelop JSON) is `Video::SetVolume`.
+
 
 ### Object conditions
 
@@ -172,6 +186,7 @@ Compare the current volume of a video object.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Video::Volume`.
 
+
 ### Object expressions
 
 | Expression | Description |  |
@@ -187,4 +202,4 @@ Compare the current volume of a video object.
 
 The Video extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Video** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Video** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

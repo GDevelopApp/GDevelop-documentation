@@ -46,7 +46,7 @@ Save the player's score to the given leaderboard. If the player is connected, th
 
     - Parameter 1 (🔤 Leaderboard Identifier (String)): Leaderboard
     - Parameter 2 (🔢 Number): Score to register for the player
-    - Parameter 3 (string): Name to register for the player
+    - Parameter 3 (🔤 String): Name to register for the player
       Let this empty to let the leaderboard auto-generate a player name (e.g: "Player23464"). You can configure this in the leaderboard administration.
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
@@ -63,6 +63,7 @@ Set if the score sent to a leaderboard is always attached to the connected playe
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Leaderboards::SetPreferSendConnectedPlayerScore`.
+
 
 ## Conditions
 
@@ -132,12 +133,13 @@ Check if a score is currently being saved in leaderboard.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Leaderboards::IsSaving`.
 
+
 ## Expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
 | `Leaderboards::FormatPlayerName(string)` | Formats a name so that it can be submitted to a leaderboard. ||
-| | _string_ | Raw player name |
+| | _🔤 String_ | Raw player name |
 | `Leaderboards::LastSaveError(leaderboard identifier)` | Get the error of the last save attempt. ||
 | | _🔤 Leaderboard Identifier (String)_ | Leaderboard If no leaderboard is specified, will return the value related to the last leaderboard save action. _Optional_. |
 
@@ -147,4 +149,4 @@ Check if a score is currently being saved in leaderboard.
 
 The Leaderboards extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Leaderboards** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Leaderboards** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

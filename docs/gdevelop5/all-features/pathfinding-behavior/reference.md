@@ -8,6 +8,37 @@ Pathfinding allows to compute an efficient path for objects, avoiding obstacles 
 
 Move objects to a target while avoiding all objects that are flagged as obstacles. 
 
+### Behavior properties
+
+- **Acceleration** (🔢 Number, Acceleration). Default value is `400`.
+- **Allows diagonals** (🔘 Boolean). Default value is `true`.
+- **Angle offset** (🔢 Number, Angle). Default value is `0`.
+- **Rotation speed** (🔢 Number, Angular speed). Default value is `180`.
+- **Cell height** (🔢 Number, Distance). Default value is `20`.
+- **Cell width** (🔢 Number, Distance). Default value is `20`.
+- **ExtraBorder** (🔢 Number, Distance). Extra border size. Default value is `0`.
+- **X offset** (🔢 Number, Distance). Default value is `0`.
+- **Y offset** (🔢 Number, Distance). Default value is `0`.
+- **Max. speed** (🔢 Number, Speed). Default value is `200`.
+- **Rotate object** (🔘 Boolean). Default value is `true`.
+- **Smoothing max cell gap** (). It's recommended to leave a max gap of 1 cell. Setting it to 0 disable the smoothing. Default value is `1`.
+
+??? quote "See internal technical details"
+
+
+    - **Acceleration** is stored as `Acceleration` (Number). Unit is PixelAcceleration. Default value is `400`.
+    - **Allows diagonals** is stored as `AllowDiagonals` (Boolean). Default value is `true`.
+    - **Angle offset** is stored as `AngleOffset` (Number). Unit is DegreeAngle. Default value is `0`.
+    - **Rotation speed** is stored as `AngularMaxSpeed` (Number). Unit is AngularSpeed. Default value is `180`.
+    - **Cell height** is stored as `CellHeight` (Number). Unit is Pixel. Default value is `20`.
+    - **Cell width** is stored as `CellWidth` (Number). Unit is Pixel. Default value is `20`.
+    - **ExtraBorder** is stored as `ExtraBorder` (Number). Unit is Pixel. Default value is `0`.
+    - **X offset** is stored as `GridOffsetX` (Number). Unit is Pixel. Default value is `0`.
+    - **Y offset** is stored as `GridOffsetY` (Number). Unit is Pixel. Default value is `0`.
+    - **Max. speed** is stored as `MaxSpeed` (Number). Unit is PixelSpeed. Default value is `200`.
+    - **Rotate object** is stored as `RotateObject` (Boolean). Default value is `true`.
+    - **Smoothing max cell gap** is stored as `SmoothingMaxCellGap` (). Default value is `1`.
+
 ### Behavior actions
 
 **Acceleration**  
@@ -165,6 +196,7 @@ Change the speed of the object on the path
     - Parameter 3 (🔢 Number): Speed (in pixels per second)
 
     > Technical note: this action internal type (in GDevelop JSON) is `PathfindingBehavior::Speed`.
+
 
 ### Behavior conditions
 
@@ -340,6 +372,7 @@ Compare the speed of the object on its path.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PathfindingBehavior::Speed`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -372,6 +405,17 @@ Compare the speed of the object on its path.
 
 Flag objects as being obstacles for pathfinding. 
 
+### Behavior properties
+
+- **Cost (if not impassable)** (). Default value is `2`.
+- **Impassable obstacle** (🔘 Boolean). Default value is `true`.
+
+??? quote "See internal technical details"
+
+
+    - **Cost (if not impassable)** is stored as `Cost` (). Default value is `2`.
+    - **Impassable obstacle** is stored as `Impassable` (Boolean). Default value is `true`.
+
 ### Behavior actions
 
 **Cost**  
@@ -397,6 +441,7 @@ Decide if the object is an impassable obstacle.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PathfindingBehavior::SetImpassable`.
 
+
 ### Behavior conditions
 
 **Cost**  
@@ -421,6 +466,7 @@ Check if the obstacle is impassable.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PathfindingBehavior::IsImpassable`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -433,4 +479,4 @@ Check if the obstacle is impassable.
 
 The Pathfinding behavior extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Pathfinding behavior** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Pathfinding behavior** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

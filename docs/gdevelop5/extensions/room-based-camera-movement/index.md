@@ -92,4 +92,4 @@ Check if camera is zooming (requires the use of "Move and zoom camera" action in
 
 ---
 
-*This page is an auto-generated reference page about the **Room-based camera movement** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Room-based camera movement** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

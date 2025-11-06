@@ -40,13 +40,13 @@ Add score to the Gamejolt leaderboard.
 ??? quote "See parameters & details"
 
     - Parameter 1 (❓ Yes or No): Force guest record
-    - Parameter 2 (string): Guest username (fallback if the player is not connected)
+    - Parameter 2 (🔤 String): Guest username (fallback if the player is not connected)
     - Parameter 3 (🔢 Number): Score to send
       Example: 120 for 120km.
-    - Parameter 4 (string): Score unit (km, points, seconds...)
+    - Parameter 4 (🔤 String): Score unit (km, points, seconds...)
       Example: "km" for 120km.
-    - Parameter 5 (string): (optional) Extra data you want to save with the score record
-    - Parameter 6 (string): Leaderboard identifier (keep empty for default)
+    - Parameter 5 (🔤 String): (optional) Extra data you want to save with the score record
+    - Parameter 6 (🔤 String): Leaderboard identifier (keep empty for default)
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
@@ -58,13 +58,13 @@ Add a labelled score in the leaderboard.
 ??? quote "See parameters & details"
 
     - Parameter 1 (❓ Yes or No): Force guest record
-    - Parameter 2 (string): Guest username (fallback if the player is not connected)
+    - Parameter 2 (🔤 String): Guest username (fallback if the player is not connected)
     - Parameter 3 (🔢 Number): Score to send
       Example: 80 for 80s.
-    - Parameter 4 (string): Label of the score
+    - Parameter 4 (🔤 String): Label of the score
       Example: "01:20" for 80s.
-    - Parameter 5 (string): (optional) Extra data you want to save with the score record
-    - Parameter 6 (string): Leaderboard identifier (keep empty for default)
+    - Parameter 5 (🔤 String): (optional) Extra data you want to save with the score record
+    - Parameter 6 (🔤 String): Leaderboard identifier (keep empty for default)
 
     > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
 
@@ -75,7 +75,7 @@ Set that a trophy has been obtained by the player.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Trophy identifier
+    - Parameter 1 (🔤 String): Trophy identifier
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -86,8 +86,8 @@ Authenticate Gamejolt user before using the account functionalities.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Gamejolt Username
-    - Parameter 2 (string): Gamejolt user secret game token
+    - Parameter 1 (🔤 String): Gamejolt Username
+    - Parameter 2 (🔤 String): Gamejolt user secret game token
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -121,8 +121,8 @@ Update a numerical value in the cloud storage.
 ??? quote "See parameters & details"
 
     - Parameter 1 (❓ Yes or No): Use global storage (instead of user storage)
-    - Parameter 2 (string): Storage key
-    - Parameter 3 (stringwithselector): Operation to do on the data (one of: "add", "subtract", "multiply", "divide")
+    - Parameter 2 (🔤 String): Storage key
+    - Parameter 3 (🔤 String): Operation to do on the data (one of: "add", "subtract", "multiply", "divide")
     - Parameter 4 (🔢 Number): Operation value
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
@@ -135,8 +135,8 @@ Update a text value in the cloud storage.
 ??? quote "See parameters & details"
 
     - Parameter 1 (❓ Yes or No): Use global storage (instead of user storage)
-    - Parameter 2 (string): Storage key
-    - Parameter 3 (stringwithselector): Operation to do on the data (one of: "append", "prepend")
+    - Parameter 2 (🔤 String): Storage key
+    - Parameter 3 (🔤 String): Operation to do on the data (one of: "append", "prepend")
     - Parameter 4 (🔢 Number): Operation value
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
@@ -148,12 +148,12 @@ Fetch cloud game data from Gamejolt.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Request name (default: empty)
+    - Parameter 1 (🔤 String): Request name (default: empty)
       **Result format** - 
       Structure of elements:
       * **``data``** (string): the content of the storage for the specified key
     - Parameter 2 (❓ Yes or No): Use global storage (instead of user storage)
-    - Parameter 3 (string): Storage key
+    - Parameter 3 (🔤 String): Storage key
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
@@ -164,12 +164,12 @@ Fetch all the data keys.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Request name (default: empty)
+    - Parameter 1 (🔤 String): Request name (default: empty)
       **Result format** - 
       Array named **``keys``** of elements having the following structure:
       * **``key``** (string): the key of the data
     - Parameter 2 (❓ Yes or No): Use global storage (instead of user storage)
-    - Parameter 3 (string): (optional) Pattern to filter keys
+    - Parameter 3 (🔤 String): (optional) Pattern to filter keys
       How to use patterns : 
       - write the part of the key you know, for example "room"
       - then put a * where the key can change
@@ -185,7 +185,7 @@ Fetch the best scores on the leaderboard.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Request name (default: empty)
+    - Parameter 1 (🔤 String): Request name (default: empty)
       **Result format** - 
       Array named **``scores``** of elements having the following structure:
       * **``score``** (number): the score string
@@ -197,8 +197,8 @@ Fetch the best scores on the leaderboard.
       * **``stored``** (string): when the score was logged by the user - Example: "1 week ago"
       * **``stored_timestamp``** (number): returns the timestamp (in seconds) of when the score was logged by the user
     - Parameter 2 (🔢 Number): Result limit (between 1 and 100, default : 10)
-    - Parameter 3 (string): Leaderboard identifier (keep empty for default)
-    - Parameter 4 (stringwithselector): Score filter (optional, default : none) (one of: "none", "better_than", "worse_than")
+    - Parameter 3 (🔤 String): Leaderboard identifier (keep empty for default)
+    - Parameter 4 (🔤 String): Score filter (optional, default : none) (one of: "none", "better_than", "worse_than")
     - Parameter 5 (🔢 Number): (optional) If a filter is selected, set the score basis to use
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
@@ -210,7 +210,7 @@ Fetch user's scores on the leaderboard.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Request name (default: empty)
+    - Parameter 1 (🔤 String): Request name (default: empty)
       **Result format** - 
       Array named **``scores``** of elements having the following structure:
       * **``score``** (number): the score string
@@ -222,10 +222,10 @@ Fetch user's scores on the leaderboard.
       * **``stored``** (string): when the score was logged by the user - Example: "1 week ago"
       * **``stored_timestamp``** (number): returns the timestamp (in seconds) of when the score was logged by the user
     - Parameter 2 (❓ Yes or No): Search in guest records
-    - Parameter 3 (string): Guest username (fallback if the player is not connected)
+    - Parameter 3 (🔤 String): Guest username (fallback if the player is not connected)
     - Parameter 4 (🔢 Number): Result limit (between 1 and 100, default : 10)
-    - Parameter 5 (string): Leaderboard identifier (keep empty for default)
-    - Parameter 6 (stringwithselector): Score filter (optional, default : none) (one of: "none", "better_than", "worse_than")
+    - Parameter 5 (🔤 String): Leaderboard identifier (keep empty for default)
+    - Parameter 6 (🔤 String): Score filter (optional, default : none) (one of: "none", "better_than", "worse_than")
     - Parameter 7 (🔢 Number): (optional) If a filter is selected, set the score basis to use
 
     > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
@@ -237,12 +237,12 @@ Fetch the score rank in the leaderboard.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Request name (default: empty)
+    - Parameter 1 (🔤 String): Request name (default: empty)
       **Result format** - 
       Structure of elements:
       * **``rank``** (number): the rank of the score on the score table
     - Parameter 2 (🔢 Number): Score to evaluate
-    - Parameter 3 (string): Leaderboard identifier (keep empty for default)
+    - Parameter 3 (🔤 String): Leaderboard identifier (keep empty for default)
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
@@ -253,7 +253,7 @@ Fetch all the leaderboard informations (without scores).
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Request name (default: empty)
+    - Parameter 1 (🔤 String): Request name (default: empty)
       **Result format** - 
       Array named **``tables``** of elements having the following structure:
       * **``id``** (number): the identifier of the table
@@ -270,7 +270,7 @@ Retrieve the server time.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Request name (default: empty)
+    - Parameter 1 (🔤 String): Request name (default: empty)
       **Result format** - 
       Structure of elements:
       * **``timestamp``** (number): the UNIX time stamp (in seconds) representing the server's time
@@ -291,7 +291,7 @@ Fetch trophies informations of the connected user.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Request name (default: empty)
+    - Parameter 1 (🔤 String): Request name (default: empty)
       **Result format** - 
       Array named **``trophies``** of elements having the following structure:
       * **``id``** (number): the identifier of the table
@@ -300,7 +300,7 @@ Fetch trophies informations of the connected user.
       * **``difficulty``** (string): ``Bronze``, ``Silver``, ``Gold``, or ``Platinum``
       * **``image_url``** (string): the URL of the trophy thumbnail image
       * **``achieved``** (string): the date when the trophy was achieved, "false" instead - Example: "5 days ago"
-    - Parameter 2 (stringwithselector): Filter the trophies (default: none) (one of: "none", "achieved", "not_achieved")
+    - Parameter 2 (🔤 String): Filter the trophies (default: none) (one of: "none", "achieved", "not_achieved")
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -311,7 +311,7 @@ Fetch trophies (by identifier) informations of the connected user.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Request name (default: empty)
+    - Parameter 1 (🔤 String): Request name (default: empty)
       **Result format** - 
       Array named **``trophies``** of elements having the following structure:
       * **``id``** (number): the identifier of the table
@@ -320,7 +320,7 @@ Fetch trophies (by identifier) informations of the connected user.
       * **``difficulty``** (string): ``Bronze``, ``Silver``, ``Gold``, or ``Platinum``
       * **``image_url``** (string): the URL of the trophy thumbnail image
       * **``achieved``** (string): the date when the trophy was achieved, "false" instead - Example: "5 days ago"
-    - Parameter 2 (string): Trophy identifier
+    - Parameter 2 (🔤 String): Trophy identifier
       You can use a comma-separated list to fetch multiple trophies.
       Example: 123123,505050,98700
 
@@ -333,7 +333,7 @@ Fetch complete user data from Gamejolt.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Request name (default: empty)
+    - Parameter 1 (🔤 String): Request name (default: empty)
       **Result format** - 
       Array named **``users``** of elements having the following structure:
       * **``id``** (number): the identifier of the user
@@ -348,7 +348,7 @@ Fetch complete user data from Gamejolt.
       * **``developer_name``** (string): the user's display name
       * **``developer_website``** (string): the user's website (or empty string if not specified) 
       * **``developer_description``** (string): the user's profile markdown description
-    - Parameter 2 (string): Username or identifier
+    - Parameter 2 (🔤 String): Username or identifier
       You can use comma-separated list to find multiple users
       Example 1: gdevelop,player123,snailmaster
       Example 2: 321123,505050,778899
@@ -363,7 +363,7 @@ Fetch the connected user friend list.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Request name (default: empty)
+    - Parameter 1 (🔤 String): Request name (default: empty)
       **Result format** - 
       Array named **``friends``** of elements having the following structure:
       * **``friend_id``** (number): the friend's user identifier
@@ -388,8 +388,8 @@ Setup a game before using the Gamejolt API.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Gamejolt game identifier
-    - Parameter 2 (string): Gamejolt game secret key
+    - Parameter 1 (🔤 String): Gamejolt game identifier
+    - Parameter 2 (🔤 String): Gamejolt game secret key
       You can find all these informations in the Gamejolt API Settings of your game.
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -402,7 +402,7 @@ Remove cloud game data from Gamejolt.
 ??? quote "See parameters & details"
 
     - Parameter 1 (❓ Yes or No): Use global storage (instead of user storage)
-    - Parameter 2 (string): Storage key
+    - Parameter 2 (🔤 String): Storage key
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -413,7 +413,7 @@ Remove a trophy from the player achievements.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Trophy identifier
+    - Parameter 1 (🔤 String): Trophy identifier
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -424,8 +424,8 @@ Activate a test user for the Gamejolt API.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Test username
-    - Parameter 2 (string): Test user game token
+    - Parameter 1 (🔤 String): Test username
+    - Parameter 2 (🔤 String): Test user game token
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -437,8 +437,8 @@ Save game data in the Gamejolt cloud storage.
 ??? quote "See parameters & details"
 
     - Parameter 1 (❓ Yes or No): Use global storage (instead of user storage)
-    - Parameter 2 (string): Storage key
-    - Parameter 3 (string): Data to save
+    - Parameter 2 (🔤 String): Storage key
+    - Parameter 3 (🔤 String): Data to save
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
@@ -449,7 +449,7 @@ Change the game session status on the server.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (stringwithselector): Session status
+    - Parameter 1 (🔤 String): Session status
       Status role : 
       - keep : keep the same status as before
       - active : set that the player is playing the game
@@ -480,7 +480,7 @@ The named request is finished. You can read its content.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Request name
+    - Parameter 1 (🔤 String): Request name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -491,8 +491,8 @@ Compare Error message from the last request.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -514,9 +514,9 @@ Compare Error message from a specific request.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
-    - Parameter 3 (string): Request name
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
+    - Parameter 3 (🔤 String): Request name
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
@@ -527,7 +527,7 @@ Check if a specific request is successful.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Request name
+    - Parameter 1 (🔤 String): Request name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -560,8 +560,8 @@ Compare Authenticated user game token used for requests.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -572,8 +572,8 @@ Compare Authenticated username used for requests.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -587,13 +587,13 @@ Compare Authenticated username used for requests.
 | `GamejoltAPI::LastErrorMessage()` | Return Error message from the last request. ||
 | `GamejoltAPI::LastResponse()` | JSON response from the last request. ||
 | `GamejoltAPI::RequestErrorMessage(string)` | Return Error message from a specific request. ||
-| | _string_ | Request name |
+| | _🔤 String_ | Request name |
 | `GamejoltAPI::RequestResponse(string)` | JSON response from a specific request. ||
-| | _string_ | Request name |
+| | _🔤 String_ | Request name |
 | `GamejoltAPI::UserToken()` | Return Authenticated user game token used for requests. ||
 | `GamejoltAPI::Username()` | Return Authenticated username used for requests. ||
 
 
 ---
 
-*This page is an auto-generated reference page about the **Gamejolt** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Gamejolt** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

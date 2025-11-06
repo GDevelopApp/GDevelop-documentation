@@ -53,7 +53,7 @@ Change the color of the text.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
-    - Parameter 2 (string): Value
+    - Parameter 2 (🔤 String): Value
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -66,7 +66,7 @@ Change the font of the text.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
-    - Parameter 2 (string): Value
+    - Parameter 2 (🔤 String): Value
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -117,7 +117,7 @@ Change the outline color of the text.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
-    - Parameter 2 (string): Value
+    - Parameter 2 (🔤 String): Value
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -181,7 +181,7 @@ Change the shadow color of the text.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
-    - Parameter 2 (string): Value
+    - Parameter 2 (🔤 String): Value
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -232,7 +232,7 @@ Change the text alignment of a multiline text object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
-    - Parameter 2 (stringwithselector): Value (one of: "left", "center", "right")
+    - Parameter 2 (🔤 String): Value (one of: "left", "center", "right")
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -272,8 +272,8 @@ Compare the color of the text.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -285,8 +285,8 @@ Compare the font of the text.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -298,7 +298,7 @@ Compare the font size of a text object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -366,7 +366,7 @@ Compare the line spacing of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -379,8 +379,8 @@ Compare the outline color of the text.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -392,7 +392,7 @@ Compare the outline thickness of the text.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -405,7 +405,7 @@ Compare the shadow angle of the text.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -418,7 +418,7 @@ Compare the shadow blur radius of the text.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -431,8 +431,8 @@ Compare the shadow color of the text.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -444,7 +444,7 @@ Compare the shadow distance of the text.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -457,7 +457,7 @@ Compare the shadow opacity of the text.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -470,8 +470,8 @@ Compare the text alignment of a multiline text object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
-    - Parameter 2 (stringwithselector): Value to compare (one of: "left", "center", "right")
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare (one of: "left", "center", "right")
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -483,7 +483,7 @@ Compare the word wrapping width of a Text object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -512,4 +512,4 @@ Compare the word wrapping width of a Text object.
 
 ---
 
-*This page is an auto-generated reference page about the **3D text** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **3D text** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

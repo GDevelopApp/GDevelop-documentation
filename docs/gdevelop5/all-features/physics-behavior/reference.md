@@ -8,6 +8,48 @@ This is the old, deprecated physics engine. Prefer to use the Physics Engine 2.0
 
 Make objects move as if they are subject to the laws of physics. If you're creating a new game, prefer Physics Engine 2.0 
 
+### Behavior properties
+
+- **Angular Damping** (). Default value is `0.1`.
+- **Consider as bullet (better collision handling)** (🔘 Boolean). Default value is `false`.
+- **Dynamic object** (🔘 Boolean). Default value is `true`.
+- **Fixed rotation** (🔘 Boolean). Default value is `false`.
+- **Friction** (). Default value is `0.8`.
+- **Linear Damping** (). Default value is `0.1`.
+- **Mass density** (). Default value is `1`.
+- **PLEASE_ALSO_SHOW_EDIT_BUTTON_THANKS** ().
+- **Restitution (elasticity)** (). Default value is `0`.
+- **Shape** (Choice, one of: "Box (rectangle)", "Circle"). Default value is `Box (rectangle)`.
+
+??? quote "See internal technical details"
+
+
+    - **Angular Damping** is stored as `Angular Damping` (). Default value is `0.1`.
+    - **Consider as bullet (better collision handling)** is stored as `Consider as bullet (better collision handling)` (Boolean). Default value is `false`.
+    - **Dynamic object** is stored as `Dynamic object` (Boolean). Default value is `true`.
+    - **Fixed rotation** is stored as `Fixed rotation` (Boolean). Default value is `false`.
+    - **Friction** is stored as `Friction` (). Default value is `0.8`.
+    - **Linear Damping** is stored as `Linear Damping` (). Default value is `0.1`.
+    - **Mass density** is stored as `Mass density` (). Default value is `1`.
+    - **PLEASE_ALSO_SHOW_EDIT_BUTTON_THANKS** is stored as `PLEASE_ALSO_SHOW_EDIT_BUTTON_THANKS` (). Default value is ``.
+    - **Restitution (elasticity)** is stored as `Restitution (elasticity)` (). Default value is `0`.
+    - **Shape** is stored as `Shape` (Choice). Default value is `Box (rectangle)`.
+
+### Behavior shared properties
+
+- **Gravity on X axis (in m/s²)** (). Default value is `0`.
+- **Gravity on Y axis (in m/s²)** (). Default value is `9`.
+- **X Scale: number of pixels for 1 meter** (). Default value is `100`.
+- **Y Scale: number of pixels for 1 meter** (). Default value is `100`.
+
+??? quote "See internal technical details"
+
+
+    - **Gravity on X axis (in m/s²)** is stored as `Gravity on X axis (in m/s²)` (). Default value is `0`.
+    - **Gravity on Y axis (in m/s²)** is stored as `Gravity on Y axis (in m/s²)` (). Default value is `9`.
+    - **X Scale: number of pixels for 1 meter** is stored as `X Scale: number of pixels for 1 meter` (). Default value is `100`.
+    - **Y Scale: number of pixels for 1 meter** is stored as `Y Scale: number of pixels for 1 meter` (). Default value is `100`.
+
 ### Behavior actions
 
 **Add a gear between two objects**  
@@ -318,6 +360,7 @@ Make the object immovable.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PhysicsBehavior::SetStatic`.
 
+
 ### Behavior conditions
 
 **Angular damping**  
@@ -480,6 +523,7 @@ Compare the linear velocity on the Y axis of the object.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PhysicsBehavior::LinearVelocityY`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -499,4 +543,4 @@ Compare the linear velocity on the Y axis of the object.
 
 The Physics Engine (deprecated) extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Physics Engine (deprecated)** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Physics Engine (deprecated)** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

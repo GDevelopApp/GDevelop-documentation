@@ -67,11 +67,12 @@ Change the background color of the scene.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: color
+    - Parameter 1: 🎨 Color
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `SceneBackground`.
+
 
 ## Conditions
 
@@ -143,6 +144,7 @@ Compare The progress of resources loading in background for a scene (between 0 a
 
     > Technical note: this condition internal type (in GDevelop JSON) is `SceneLoadingProgress`.
 
+
 ## Expressions
 
 | Expression | Description |  |
@@ -157,4 +159,4 @@ Compare The progress of resources loading in background for a scene (between 0 a
 
 The Scene extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Scene** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Scene** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

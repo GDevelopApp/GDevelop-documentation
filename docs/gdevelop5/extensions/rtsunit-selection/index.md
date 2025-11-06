@@ -168,13 +168,13 @@ Check if the unit is "Selected".
 | Expression | Description |  |
 |-----|-----|-----|
 | `RTSUnitSelection::ControlGroupID(object)` | Control group this unit is assigned to. ||
-| | _objectlist_ | Unit |
+| | _👾 Object_ | Unit |
 | `RTSUnitSelection::SelectedUnitID(object)` | Unit ID of a selected unit. ||
-| | _objectlist_ | Unit |
+| | _👾 Object_ | Unit |
 | `RTSUnitSelection::TotalSelectedUnits(object)` | Provides the total number of _PARAM1_ that are currently "Selected". ||
-| | _objectlist_ | Unit |
+| | _👾 Object_ | Unit |
 
 
 ---
 
-*This page is an auto-generated reference page about the **RTS-like unit selection** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **RTS-like unit selection** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

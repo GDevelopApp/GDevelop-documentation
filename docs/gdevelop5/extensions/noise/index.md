@@ -34,7 +34,7 @@ Create a noise generator with default settings (frequency = 1,  octaves = 1, per
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Generator name
+    - Parameter 1 (🔤 String): Generator name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -45,7 +45,7 @@ Delete a noise generators and loose its settings.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Generator name
+    - Parameter 1 (🔤 String): Generator name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -68,7 +68,7 @@ Change the base frequency used for noise generation. A lower frequency will zoom
 ??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Frequency
-    - Parameter 2 (string): Generator name
+    - Parameter 2 (🔤 String): Generator name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -80,7 +80,7 @@ Change the lacunarity used for noise generation. At its default value "2", it do
 ??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Lacunarity
-    - Parameter 2 (string): Generator name
+    - Parameter 2 (🔤 String): Generator name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -92,7 +92,7 @@ Change the looping period on X used for noise generation. The noise will wrap-ar
 ??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Looping period on X
-    - Parameter 2 (string): Generator name
+    - Parameter 2 (🔤 String): Generator name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -104,7 +104,7 @@ Change the looping period on Y used for noise generation. The noise will wrap-ar
 ??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Looping period on Y
-    - Parameter 2 (string): Generator name
+    - Parameter 2 (🔤 String): Generator name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -116,7 +116,7 @@ Change the number of octaves used for noise generation. It can be seen as layers
 ??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Octaves
-    - Parameter 2 (string): Generator name
+    - Parameter 2 (🔤 String): Generator name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -128,7 +128,7 @@ Change the persistence used for noise generation. At its default value "0.5", it
 ??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Persistence
-    - Parameter 2 (string): Generator name
+    - Parameter 2 (🔤 String): Generator name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -152,34 +152,34 @@ The seed is a number used to generate the random noise. Setting the same seed wi
 | Expression | Description |  |
 |-----|-----|-----|
 | `Noise::Frequency(string)` | The base frequency used for noise generation. ||
-| | _string_ | Generator name |
+| | _🔤 String_ | Generator name |
 | `Noise::Lacunarity(string)` | The lacunarity used for noise generation. ||
-| | _string_ | Generator name |
+| | _🔤 String_ | Generator name |
 | `Noise::Noise1d(string, number)` | Generate a number between -1 and 1 from 1 dimensional simplex noise. The "Map" expression from Extended Math extension can be used to map values to any chosen bounds. ||
-| | _string_ | Generator name |
+| | _🔤 String_ | Generator name |
 | | _🔢 Number_ | X coordinate |
 | `Noise::Noise2d(string, number, number)` | Generate a number between -1 and 1 from 2 dimensional simplex noise. The "Map" expression from Extended Math extension can be used to map values to any chosen bounds. ||
-| | _string_ | Generator name |
+| | _🔤 String_ | Generator name |
 | | _🔢 Number_ | X coordinate |
 | | _🔢 Number_ | Y coordinate |
 | `Noise::Noise3d(string, number, number, number)` | Generate a number between -1 and 1 from 3 dimensional simplex noise. The "Map" expression from Extended Math extension can be used to map values to any chosen bounds. ||
-| | _string_ | Generator name |
+| | _🔤 String_ | Generator name |
 | | _🔢 Number_ | X coordinate |
 | | _🔢 Number_ | Y coordinate |
 | | _🔢 Number_ | Z coordinate |
 | `Noise::Noise4d(string, number, number, number, number)` | Generate a number between -1 and 1 from 4 dimensional simplex noise. The "Map" expression from Extended Math extension can be used to map values to any chosen bounds. ||
-| | _string_ | Generator name |
+| | _🔤 String_ | Generator name |
 | | _🔢 Number_ | X coordinate |
 | | _🔢 Number_ | Y coordinate |
 | | _🔢 Number_ | Z coordinate |
 | | _🔢 Number_ | W coordinate |
 | `Noise::Octaves(string)` | The number of octaves used for noise generation. ||
-| | _string_ | Generator name |
+| | _🔤 String_ | Generator name |
 | `Noise::Persistence(string)` | The persistence used for noise generation. ||
-| | _string_ | Generator name |
+| | _🔤 String_ | Generator name |
 | `Noise::Seed()` | The seed used for noise generation. ||
 
 
 ---
 
-*This page is an auto-generated reference page about the **Noise generator** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Noise generator** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

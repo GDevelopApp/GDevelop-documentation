@@ -9,7 +9,7 @@ Take a screenshot of the game, and save it to a png file (supported only when ru
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Save path
+    - Parameter 1 (🔤 String): Save path
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
@@ -19,8 +19,9 @@ Take a screenshot of the game, and save it to a png file (supported only when ru
 
 
 
+
 ---
 
 The Screenshot extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Screenshot** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Screenshot** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

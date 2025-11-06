@@ -33,7 +33,7 @@ Connects to a WebSocket server.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): The server address
+    - Parameter 1 (🔤 String): The server address
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -44,7 +44,7 @@ Disconnects from the current WebSocket server.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): The reason for disconnection
+    - Parameter 1 (🔤 String): The reason for disconnection
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -66,7 +66,7 @@ Sends a string to the server.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): The data to send to the server
+    - Parameter 1 (🔤 String): The data to send to the server
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -141,4 +141,4 @@ Triggers when a WebSocket error has occurred.
 
 ---
 
-*This page is an auto-generated reference page about the **WebSocket client** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **WebSocket client** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

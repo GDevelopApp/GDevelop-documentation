@@ -29,7 +29,7 @@ Check if a new touch has started on the right or left side of the screen.
 ??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Multitouch joystick
-    - Parameter 2 (stringwithselector): Screen side (one of: "Left", "Right")
+    - Parameter 2 (🔤 String): Screen side (one of: "Left", "Right")
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -41,7 +41,7 @@ Check if a button was just pressed on a multitouch controller.
 ??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Multitouch controller identifier (1, 2, 3, 4...)
-    - Parameter 2 (string): Button name
+    - Parameter 2 (🔤 String): Button name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -53,7 +53,7 @@ Check if a button is pressed on a multitouch controller.
 ??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Multitouch controller identifier (1, 2, 3, 4...)
-    - Parameter 2 (string): Button name
+    - Parameter 2 (🔤 String): Button name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -65,7 +65,7 @@ Check if a button is released on a multitouch controller.
 ??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Multitouch controller identifier (1, 2, 3, 4...)
-    - Parameter 2 (string): Button name
+    - Parameter 2 (🔤 String): Button name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -77,8 +77,8 @@ Check if joystick is pushed in a given direction.
 ??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Multitouch controller identifier (1, 2, 3, 4...)
-    - Parameter 2 (stringwithselector): Joystick name (one of: "Primary", "Secondary")
-    - Parameter 3 (stringwithselector): Direction (one of: "Up", "Down", "Left", "Right")
+    - Parameter 2 (🔤 String): Joystick name (one of: "Primary", "Secondary")
+    - Parameter 3 (🔤 String): Direction (one of: "Up", "Down", "Left", "Right")
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
@@ -90,8 +90,8 @@ Check if joystick is pushed in a given direction.
 ??? quote "See parameters & details"
 
     - Parameter 1 (🔢 Number): Multitouch controller identifier (1, 2, 3, 4...)
-    - Parameter 2 (stringwithselector): Joystick name (one of: "Primary", "Secondary")
-    - Parameter 3 (stringwithselector): Direction (one of: "Up", "Down", "Left", "Right", "UpLeft", "UpRight", "DownLeft", "DownRight")
+    - Parameter 2 (🔤 String): Joystick name (one of: "Primary", "Secondary")
+    - Parameter 3 (🔤 String): Direction (one of: "Up", "Down", "Left", "Right", "UpLeft", "UpRight", "DownLeft", "DownRight")
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
@@ -102,10 +102,10 @@ Compare the force of multitouch contoller stick (from 0 to 1).
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔢 Number): Multitouch controller identifier (1, 2, 3, 4...)
-    - Parameter 4 (stringwithselector): Stick name (one of: "Primary", "Secondary")
+    - Parameter 4 (🔤 String): Stick name (one of: "Primary", "Secondary")
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
@@ -118,16 +118,16 @@ Compare the force of multitouch contoller stick (from 0 to 1).
 |-----|-----|-----|
 | `SpriteMultitouchJoystick::StickAngle(number, string)` | Return the angle the multitouch controller stick is pointing towards (Range: -180 to 180). ||
 | | _🔢 Number_ | Multitouch controller identifier (1, 2, 3, 4...) |
-| | _stringwithselector_ | Joystick name |
+| | _🔤 String_ | Joystick name |
 | `SpriteMultitouchJoystick::StickForce(number, string)` | Return the force of multitouch contoller stick (from 0 to 1). ||
 | | _🔢 Number_ | Multitouch controller identifier (1, 2, 3, 4...) |
-| | _stringwithselector_ | Stick name |
+| | _🔤 String_ | Stick name |
 | `SpriteMultitouchJoystick::StickForceX(number, string)` | Return the multitouch contoller stick force on X axis (from -1 at the left to 1 at the right). ||
 | | _🔢 Number_ | Multitouch controller identifier (1, 2, 3, 4...) |
-| | _stringwithselector_ | Joystick name |
+| | _🔤 String_ | Joystick name |
 | `SpriteMultitouchJoystick::StickForceY(number, string)` | Return the multitouch contoller stick force on Y axis (from -1 at the top to 1 at the bottom). ||
 | | _🔢 Number_ | Multitouch controller identifier (1, 2, 3, 4...) |
-| | _stringwithselector_ | Joystick name |
+| | _🔤 String_ | Joystick name |
 
 ## Multitouch Joystick 
 
@@ -136,7 +136,7 @@ Joystick for touchscreens.
 ### Object properties
 
 - **Multitouch controller identifier (1, 2, 3, 4...)** (🔢 Number). Default value is `1`.
-- **Joystick name** (choice, one of: "Primary", "Secondary"). Default value is `Primary`.
+- **Joystick name** (Choice, one of: "Primary", "Secondary"). Default value is `Primary`.
 - **Dead zone radius (range: 0 to 1)** (🔢 Number). The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved). Default value is `0.4`.
 
 ??? quote "See internal technical details"
@@ -193,7 +193,7 @@ Change the joystick name of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
-    - Parameter 2 (string): Value
+    - Parameter 2 (🔤 String): Value
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -219,7 +219,7 @@ Compare the multitouch controller identifier (1, 2, 3, 4...).
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -232,7 +232,7 @@ Compare the dead zone radius of the joystick (range: 0 to 1). The deadzone is an
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -245,7 +245,7 @@ Check if joystick is pushed in a given direction.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1 (stringwithselector): Direction (one of: "Up", "Down", "Left", "Right")
+    - Parameter 1 (🔤 String): Direction (one of: "Up", "Down", "Left", "Right")
 
     > Technical note: parameter 2 is an internal parameter handled by GDevelop.
 
@@ -257,7 +257,7 @@ Check if joystick is pushed in a given direction.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1 (stringwithselector): Direction (one of: "Up", "Down", "Left", "Right", "UpLeft", "UpRight", "DownLeft", "DownRight")
+    - Parameter 1 (🔤 String): Direction (one of: "Up", "Down", "Left", "Right", "UpLeft", "UpRight", "DownLeft", "DownRight")
 
     > Technical note: parameter 2 is an internal parameter handled by GDevelop.
 
@@ -280,8 +280,8 @@ Compare the joystick name of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -293,7 +293,7 @@ Compare the strick force (from 0 to 1).
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -306,7 +306,7 @@ Compare the stick force on X axis (from -1 at the left to 1 at the right).
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -319,7 +319,7 @@ Compare the stick force on Y axis (from -1 at the top to 1 at the bottom).
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -345,7 +345,7 @@ Control camera rotations with a multitouch controller.
 
 ### Behavior properties
 
-- **Camera joystick** (choice, one of: "Primary", "Secondary"). Default value is `Secondary`.
+- **Camera joystick** (Choice, one of: "Primary", "Secondary"). Default value is `Secondary`.
 - **Controller identifier (1, 2, 3, 4...)** (🔢 Number). Default value is `1`.
 - **Rotation acceleration** (🔢 Number). Default value is `360`.
 - **Rotation deceleration** (🔢 Number). Default value is `720`.
@@ -512,7 +512,7 @@ Compare the horizontal rotation acceleration of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -526,7 +526,7 @@ Compare the horizontal rotation deceleration of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -540,7 +540,7 @@ Compare the maximum horizontal rotation speed of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -554,7 +554,7 @@ Compare the z position offset of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -568,7 +568,7 @@ Compare the maximum vertical camera angle of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -582,7 +582,7 @@ Compare the minimum vertical camera angle of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -596,7 +596,7 @@ Compare the vertical rotation acceleration of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -610,7 +610,7 @@ Compare the vertical rotation deceleration of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -624,7 +624,7 @@ Compare the maximum vertical rotation speed of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -652,7 +652,7 @@ Detect presses made on a touchscreen on the object so it acts like a button and 
 
 ### Behavior properties
 
-- **Button identifier** (string). Default value is `A`.
+- **Button identifier** (🔤 String). Default value is `A`.
 - **Multitouch controller identifier (1, 2, 3, 4...)** (🔢 Number). Default value is `1`.
 - **Triggering circle radius** (🔢 Number, Distance). This circle adds up to the object collision mask. Default value is `0`.
 
@@ -712,9 +712,9 @@ Control a 3D physics car with a multitouch controller.
 ### Behavior properties
 
 - **Controller identifier (1, 2, 3, 4...)** (🔢 Number). Default value is `1`.
-- **Hand brake button name** (string). Default value is `B`.
-- **Speed joystick** (choice, one of: "Primary", "Secondary"). Default value is `Secondary`.
-- **Steer joystick** (choice, one of: "Primary", "Secondary"). Default value is `Primary`.
+- **Hand brake button name** (🔤 String). Default value is `B`.
+- **Speed joystick** (Choice, one of: "Primary", "Secondary"). Default value is `Secondary`.
+- **Steer joystick** (Choice, one of: "Primary", "Secondary"). Default value is `Primary`.
 
 ??? quote "See internal technical details"
 
@@ -736,8 +736,8 @@ Control a 3D physics character with a multitouch controller.
 ### Behavior properties
 
 - **Controller identifier (1, 2, 3, 4...)** (🔢 Number). Default value is `1`.
-- **Walk joystick** (choice, one of: "Primary", "Secondary"). Default value is `Primary`.
-- **Jump button name** (string). Default value is `A`.
+- **Walk joystick** (Choice, one of: "Primary", "Secondary"). Default value is `Primary`.
+- **Jump button name** (🔤 String). Default value is `A`.
 
 ??? quote "See internal technical details"
 
@@ -758,8 +758,8 @@ Control a platformer character with a multitouch controller.
 ### Behavior properties
 
 - **Controller identifier (1, 2, 3, 4...)** (🔢 Number). Default value is `1`.
-- **Joystick name** (choice, one of: "Primary", "Secondary"). Default value is `Primary`.
-- **Jump button name** (string). Default value is `A`.
+- **Joystick name** (Choice, one of: "Primary", "Secondary"). Default value is `Primary`.
+- **Jump button name** (🔤 String). Default value is `A`.
 
 ??? quote "See internal technical details"
 
@@ -780,8 +780,8 @@ Control a 3D physics character with a multitouch controller.
 ### Behavior properties
 
 - **Controller identifier (1, 2, 3, 4...)** (🔢 Number). Default value is `1`.
-- **Walk joystick** (choice, one of: "Primary", "Secondary"). Default value is `Primary`.
-- **Jump button name** (string). Default value is `A`.
+- **Walk joystick** (Choice, one of: "Primary", "Secondary"). Default value is `Primary`.
+- **Jump button name** (🔤 String). Default value is `A`.
 
 ??? quote "See internal technical details"
 
@@ -802,8 +802,8 @@ Control a top-down character with a multitouch controller.
 ### Behavior properties
 
 - **Controller identifier (1, 2, 3, 4...)** (🔢 Number). Default value is `1`.
-- **Joystick name** (choice, one of: "Primary", "Secondary"). Default value is `Primary`.
-- **Stick mode** (choice, one of: "Analog", "360°", "8 Directions"). Default value is `Analog`.
+- **Joystick name** (Choice, one of: "Primary", "Secondary"). Default value is `Primary`.
+- **Stick mode** (Choice, one of: "Analog", "360°", "8 Directions"). Default value is `Analog`.
 
 ??? quote "See internal technical details"
 
@@ -820,4 +820,4 @@ _No expressions for this behavior._
 
 ---
 
-*This page is an auto-generated reference page about the **Multitouch joystick and buttons (sprite)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Multitouch joystick and buttons (sprite)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

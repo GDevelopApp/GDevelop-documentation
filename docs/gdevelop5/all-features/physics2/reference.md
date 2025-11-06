@@ -19,6 +19,7 @@ Modify the world time scale. While an object is needed, this will apply to all o
 
     > Technical note: this action internal type (in GDevelop JSON) is `Physics2::TimeScale`.
 
+
 ## Conditions
 
 **Collision**  
@@ -62,9 +63,52 @@ Check if two objects just stopped colliding at this frame.
 
 
 
+
 ## 2D Physics Engine 
 
 Simulate realistic 2D physics for the object including gravity, forces, collisions, and joints. 
+
+### Behavior properties
+
+- **Angular Damping** (🔢 Number). Default value is `0.1`.
+- **Type** (Choice, one of: "Static", "Dynamic", "Kinematic"). A static object won't move (perfect for obstacles). Dynamic objects can move. Kinematic will move according to forces applied to it only (useful for characters or specific mechanisms). Default value is `Dynamic`.
+- **Considered as a bullet** (🔘 Boolean). Useful for fast moving objects which requires a more accurate collision detection. Default value is `false`.
+- **Can be put to sleep by the engine** (🔘 Boolean). Allows the physics engine to stop computing interaction with the object when it's not touched. It's recommended to keep this on. Default value is `true`.
+- **Density** (🔢 Number). Define the weight of the object, according to its size. The bigger the density, the heavier the object. Default value is `123`.
+- **Fixed Rotation** (🔘 Boolean). If enabled, the object won't rotate and will stay at the same angle. Useful for characters for example. Default value is `false`.
+- **Friction** (🔢 Number). The friction applied when touching other objects. The higher the value, the more friction. Default value is `0.3`.
+- **Gravity Scale** (🔢 Number). Default value is `1`.
+- **Linear Damping** (🔢 Number). Default value is `0.1`.
+- **Restitution** (🔢 Number). The "bounciness" of the object. The higher the value, the more other objects will bounce against it. Default value is `0.1`.
+- **Shape** (Choice, one of: "Box", "Circle", "Edge", "Polygon"). Default value is `Box`.
+
+??? quote "See internal technical details"
+
+
+    - **Angular Damping** is stored as `angularDamping` (Number). Default value is `0.1`.
+    - **Type** is stored as `bodyType` (Choice). Default value is `Dynamic`.
+    - **Considered as a bullet** is stored as `bullet` (Boolean). Default value is `false`.
+    - **Can be put to sleep by the engine** is stored as `canSleep` (Boolean). Default value is `true`.
+    - **Density** is stored as `density` (Number). Default value is `123`.
+    - **Fixed Rotation** is stored as `fixedRotation` (Boolean). Default value is `false`.
+    - **Friction** is stored as `friction` (Number). Default value is `0.3`.
+    - **Gravity Scale** is stored as `gravityScale` (Number). Default value is `1`.
+    - **Linear Damping** is stored as `linearDamping` (Number). Default value is `0.1`.
+    - **Restitution** is stored as `restitution` (Number). Default value is `0.1`.
+    - **Shape** is stored as `shape` (Choice). Default value is `Box`.
+
+### Behavior shared properties
+
+- **gravityX** (🔢 Number, Force (in Newton)). Default value is `0`.
+- **gravityY** (🔢 Number, Force (in Newton)). Default value is `456`.
+- **worldScale** (🔢 Number). Default value is `100`.
+
+??? quote "See internal technical details"
+
+
+    - **gravityX** is stored as `gravityX` (Number). Unit is Newton. Default value is `0`.
+    - **gravityY** is stored as `gravityY` (Number). Unit is Newton. Default value is `456`.
+    - **worldScale** is stored as `worldScale` (Number). Default value is `100`.
 
 ### Behavior actions
 
@@ -1099,6 +1143,7 @@ Modify a wheel joint motor speed.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Physics2::WheelJointMotorSpeed`.
 
+
 ### Behavior conditions
 
 **Angular damping**  
@@ -1464,6 +1509,7 @@ Check if a wheel joint motor is enabled.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Physics2::WheelJointMotorEnabled`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -1616,4 +1662,4 @@ Check if a wheel joint motor is enabled.
 
 The 2D Physics Engine extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **2D Physics Engine** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **2D Physics Engine** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

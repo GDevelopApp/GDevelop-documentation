@@ -33,7 +33,7 @@ Displays an alert box with a message and an OK button in a pop-up window.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Alert message
+    - Parameter 1 (🔤 String): Alert message
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -44,7 +44,7 @@ Ask confirmation of user with a message in a dialog box with an OK button, and a
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Confirmation message
+    - Parameter 1 (🔤 String): Confirmation message
       The text to display in the confirm box.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
@@ -56,8 +56,8 @@ Displays a prompt in a pop-up that prompts the user for input. This action retur
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Prompt message
-    - Parameter 2 (string): Input placeholder
+    - Parameter 1 (🔤 String): Prompt message
+    - Parameter 2 (🔤 String): Input placeholder
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -98,4 +98,4 @@ The response to a pop-up message is filled.
 
 ---
 
-*This page is an auto-generated reference page about the **Pop-up** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Pop-up** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

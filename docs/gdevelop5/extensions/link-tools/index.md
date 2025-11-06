@@ -96,7 +96,7 @@ Can reach through a given number of links.
     - Parameter 1 (👾 Object): Pick these objects...
     - Parameter 2 (👾 Object): if they can reach this object
     - Parameter 3 (🔢 Number): Maximum link length
-    - Parameter 4 (string): Cost class
+    - Parameter 4 (🔤 String): Cost class
       Leave empty to make everything crossable with cost = 1. It looks in the variable children of linktools_Cost. No child means not crossable, the cost can be 0 or 1.
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
@@ -110,10 +110,10 @@ Can reach through a given cost sum.
 
     - Parameter 1 (👾 Object): Pick these objects...
     - Parameter 2 (👾 Object): if they can reach this object
-    - Parameter 3 (string): Initial length variable
+    - Parameter 3 (🔤 String): Initial length variable
       Start to 0 if left empty
     - Parameter 4 (🔢 Number): Maximum cost
-    - Parameter 5 (string): Cost class
+    - Parameter 5 (🔤 String): Cost class
       Leave empty to make everything crossable with cost = 1. It looks in the variable children of linktools_Cost. No child means not crossable, the cost must be positive.
     - Parameter 6 (🔢 Number): Maximum depth
     - Parameter 7 (❓ Yes or No): Ignore first node cost
@@ -128,7 +128,7 @@ Can reach through a given cost sum.
 | Expression | Description |  |
 |-----|-----|-----|
 | `LinkTools::CostSum(object)` | Cost sum. ||
-| | _objectlist_ | Object |
+| | _👾 Object_ | Object |
 
 ## Link path finding 
 
@@ -174,7 +174,7 @@ Move the object to a position.
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (👾 Object): Crossable objects
     - Parameter 3 (👾 Object): Destination objects
-    - Parameter 4 (string): Cost class
+    - Parameter 4 (🔤 String): Cost class
 
     > Technical note: parameter 5 is an internal parameter handled by GDevelop.
 
@@ -259,7 +259,7 @@ Compare the acceleration of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -273,7 +273,7 @@ Compare the rotation offset applied when moving the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -347,7 +347,7 @@ Compare the rotation speed of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -361,7 +361,7 @@ Compare the maximum speed of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -392,4 +392,4 @@ Compare the maximum speed of the object.
 
 ---
 
-*This page is an auto-generated reference page about the **Linked Objects Tools** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Linked Objects Tools** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

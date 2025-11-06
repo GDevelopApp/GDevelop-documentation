@@ -288,7 +288,7 @@ Configure character acceleration for a given configuration layer and move this l
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Acceleration
-    - Parameter 3 (string): Configuration identifier
+    - Parameter 3 (🔤 String): Configuration identifier
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -302,7 +302,7 @@ Configure character deceleration for a given configuration layer and move this l
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Acceleration
-    - Parameter 3 (string): Configuration identifier
+    - Parameter 3 (🔤 String): Configuration identifier
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -316,7 +316,7 @@ Configure character gravity for a given configuration layer and move this layer 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Gravity
-    - Parameter 3 (string): Configuration identifier
+    - Parameter 3 (🔤 String): Configuration identifier
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -330,7 +330,7 @@ Configure character maximum falling speed for a given configuration layer and mo
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Maximum falling speed
-    - Parameter 3 (string): Configuration identifier
+    - Parameter 3 (🔤 String): Configuration identifier
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -344,7 +344,7 @@ Configure character maximum speed for a given configuration layer and move this 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Maximum horizontal speed
-    - Parameter 3 (string): Configuration identifier
+    - Parameter 3 (🔤 String): Configuration identifier
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -357,7 +357,7 @@ Revert configuration changes for one identifier and update the character configu
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (string): Configuration identifier
+    - Parameter 2 (🔤 String): Configuration identifier
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -537,4 +537,4 @@ Check if the object is wall jumping.
 
 ---
 
-*This page is an auto-generated reference page about the **Advanced platformer movements** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Advanced platformer movements** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

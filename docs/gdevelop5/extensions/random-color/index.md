@@ -27,4 +27,4 @@ To use it, go in the text area to set a color and type `RandomColor::CreateRando
 
 ---
 
-*This page is an auto-generated reference page about the **Random Color Generator** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Random Color Generator** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

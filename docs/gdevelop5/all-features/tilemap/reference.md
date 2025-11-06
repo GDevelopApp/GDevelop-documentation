@@ -8,6 +8,35 @@ The Tilemap object can be used to display tile-based objects. It's a good way to
 
 Invisible object handling collisions with parts of a tilemap. 
 
+### Object properties
+
+- **Class filter** (🔤 String). Only the tiles with the given class (set in Tiled 1.9+) will have hitboxes created.
+- **Debug mode** (🔘 Boolean). When activated, it displays the hitboxes in the given color. Default value is `false`.
+- **Fill color** (🎨 Color). Default value is `255;255;255`.
+- **Fill opacity (0-255)** (🔢 Number). Default value is `64`.
+- **Layer index** (🔢 Number). Default value is `1`.
+- **Outline color** (🎨 Color). Default value is `255;255;255`.
+- **Outline opacity (0-255)** (🔢 Number). Default value is `128`.
+- **Outline size (in pixels)** (🔢 Number). Default value is `1`.
+- **Tilemap JSON file** (🗂️ Resource). This is the JSON file that was saved or exported from Tiled. LDtk is not supported yet for collisions.
+- **Tileset JSON file (optional)** (🗂️ Resource). Optional, don't specify it if you've not saved the tileset in a different file.
+- **Use all layers** (🔘 Boolean). Default value is `true`.
+
+??? quote "See internal technical details"
+
+
+    - **Class filter** is stored as `collisionMaskTag` (string). Default value is ``.
+    - **Debug mode** is stored as `debugMode` (boolean). Default value is `false`.
+    - **Fill color** is stored as `fillColor` (color). Default value is `255;255;255`.
+    - **Fill opacity (0-255)** is stored as `fillOpacity` (number). Default value is `64`.
+    - **Layer index** is stored as `layerIndex` (number). Default value is `1`.
+    - **Outline color** is stored as `outlineColor` (color). Default value is `255;255;255`.
+    - **Outline opacity (0-255)** is stored as `outlineOpacity` (number). Default value is `128`.
+    - **Outline size (in pixels)** is stored as `outlineSize` (number). Default value is `1`.
+    - **Tilemap JSON file** is stored as `tilemapJsonFile` (resource). Default value is ``.
+    - **Tileset JSON file (optional)** is stored as `tilesetJsonFile` (resource). Default value is ``.
+    - **Use all layers** is stored as `useAllLayers` (boolean). Default value is `true`.
+
 ### Object actions
 
 **Tilemap JSON file**  
@@ -30,6 +59,7 @@ Set the JSON file with the tileset data (sometimes that is embedded in the Tilem
 
     > Technical note: this action internal type (in GDevelop JSON) is `TileMap::CollisionMask::SetTilesetJsonFile`.
 
+
 ### Object conditions
 
 **Tilemap JSON file**  
@@ -51,6 +81,7 @@ Check the tileset JSON file being used.
     - Parameter 1 (jsonResource): Tileset JSON file
 
     > Technical note: this condition internal type (in GDevelop JSON) is `TileMap::CollisionMask::TilesetJsonFile`.
+
 
 _No expressions for this object._
 
@@ -179,6 +210,7 @@ Change the id of the tile at the scene coordinates.
 
     > Technical note: this action internal type (in GDevelop JSON) is `TileMap::SimpleTileMap::SetTileIdAtPosition`.
 
+
 ### Object conditions
 
 **Tile flipped horizontally (on the grid)**  
@@ -273,6 +305,7 @@ Compare the id of the tile at the scene coordinates.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `TileMap::SimpleTileMap::TileIdAtPosition`.
 
+
 ### Object expressions
 
 | Expression | Description |  |
@@ -303,6 +336,29 @@ Compare the id of the tile at the scene coordinates.
 ## External Tilemap (Tiled/LDtk) 
 
 Displays a tiled-based map, made with the Tiled editor (https://www.mapeditor.org/) or the LDtk editor (https://ldtk.io/). 
+
+### Object properties
+
+- **Animation FPS** (🔢 Number). Default value is `4`.
+- **Animation speed scale** (🔢 Number). Default value is `1`.
+- **Display mode** (choice, one of: "visible", "all", "index"). Default value is `visible`.
+- **Layer index to display** (🔢 Number). If "index" is selected as the display mode, this is the index of the layer to display. Default value is `0`.
+- **Level index to display** (🔢 Number). Select which level to render via its index (LDtk). Default value is `0`.
+- **Atlas image** (🗂️ Resource). The Atlas image containing the tileset.
+- **Tilemap file (Tiled or LDtk)** (🗂️ Resource). This is the file that was saved or exported from Tiled or LDtk.
+- **Tileset JSON file (optional)** (🗂️ Resource). Optional: specify this if you've saved the tileset in a different file as the Tiled tilemap.
+
+??? quote "See internal technical details"
+
+
+    - **Animation FPS** is stored as `animationFps` (number). Default value is `4`.
+    - **Animation speed scale** is stored as `animationSpeedScale` (number). Default value is `1`.
+    - **Display mode** is stored as `displayMode` (choice). Default value is `visible`.
+    - **Layer index to display** is stored as `layerIndex` (number). Default value is `0`.
+    - **Level index to display** is stored as `levelIndex` (number). Default value is `0`.
+    - **Atlas image** is stored as `tilemapAtlasImage` (resource). Default value is ``.
+    - **Tilemap file (Tiled or LDtk)** is stored as `tilemapJsonFile` (resource). Default value is ``.
+    - **Tileset JSON file (optional)** is stored as `tilesetJsonFile` (resource). Default value is ``.
 
 ### Object actions
 
@@ -368,6 +424,7 @@ Set the JSON file with the tileset data (sometimes that is embedded in the Tilem
     - Parameter 1 (tilesetResource): Tileset JSON file
 
     > Technical note: this action internal type (in GDevelop JSON) is `TileMap::SetTilesetJsonFile`.
+
 
 ### Object conditions
 
@@ -445,6 +502,7 @@ Check the tileset JSON file being used.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `TileMap::TilesetJsonFile`.
 
+
 ### Object expressions
 
 | Expression | Description |  |
@@ -460,4 +518,4 @@ Check the tileset JSON file being used.
 
 The Tile map extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Tile map** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Tile map** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

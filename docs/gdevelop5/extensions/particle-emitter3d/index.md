@@ -39,8 +39,8 @@ Display a large number of particles to create visual effects.
 - **Emission duration** (🔢 Number, Duration). Default value is `5`.
 - **Particles move with the emitter** (🔘 Boolean).
 - **Spay cone angle** (🔢 Number, Angle). Default value is `30`.
-- **Blending** (choice, one of: "Normal", "Additive", "Subtractive", "Multiply", "None"). Default value is `Additive`.
-- **Gravity top** (choice, one of: "Y-", "Z+"). Default value is `Y-`.
+- **Blending** (Choice, one of: "Normal", "Additive", "Subtractive", "Multiply", "None"). Default value is `Additive`.
+- **Gravity top** (Choice, one of: "Y-", "Z+"). Default value is `Y-`.
 - **Gravity** (🔢 Number, Acceleration). Default value is `0`.
 - **Delete when emission ends** (🔘 Boolean). Default value is `true`.
 
@@ -177,7 +177,7 @@ Change the gravity top of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
-    - Parameter 2 (stringwithselector): Value (one of: "Y-", "Z+")
+    - Parameter 2 (🔤 String): Value (one of: "Y-", "Z+")
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -332,8 +332,8 @@ Compare the blending of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
-    - Parameter 2 (stringwithselector): Value to compare (one of: "Normal", "Additive", "Substractive", "Multiply", "None")
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare (one of: "Normal", "Additive", "Substractive", "Multiply", "None")
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -345,7 +345,7 @@ Compare the emission duration of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -358,7 +358,7 @@ Compare the end color of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🎨 Color): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -371,7 +371,7 @@ Compare the end opacity of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -384,7 +384,7 @@ Compare the end scale of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -397,7 +397,7 @@ Compare the flow of particles of the object  (particles per second).
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -410,7 +410,7 @@ Compare the gravity of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -423,8 +423,8 @@ Compare the gravity top of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
-    - Parameter 2 (stringwithselector): Value to compare (one of: "Y-", "Z+")
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare (one of: "Y-", "Z+")
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -447,7 +447,7 @@ Compare the max lifespan of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -460,7 +460,7 @@ Compare the min lifespan of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -484,7 +484,7 @@ Compare the spay cone angle of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -497,7 +497,7 @@ Compare the start color of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🎨 Color): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -510,7 +510,7 @@ Compare the start opacity of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -523,7 +523,7 @@ Compare the start max size of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -536,7 +536,7 @@ Compare the start min size of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -549,7 +549,7 @@ Compare the max start speed of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -562,7 +562,7 @@ Compare the min start speed of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -595,4 +595,4 @@ Compare the min start speed of the object.
 
 ---
 
-*This page is an auto-generated reference page about the **3D particle emitter** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **3D particle emitter** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

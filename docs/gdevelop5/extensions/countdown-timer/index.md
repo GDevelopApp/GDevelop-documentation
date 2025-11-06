@@ -26,7 +26,7 @@ Reset the countdown to its initial value.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Clock name
+    - Parameter 1 (🔤 String): Clock name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -37,7 +37,7 @@ Set the countdown timer in seconds.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Clock name
+    - Parameter 1 (🔤 String): Clock name
     - Parameter 2 (🔢 Number): Time remaining in seconds
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -49,7 +49,7 @@ Starts the countdown from the value set previously.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Clock name
+    - Parameter 1 (🔤 String): Clock name
     - Parameter 2 (❓ Yes or No): Allow negative numbers
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -64,7 +64,7 @@ Check if the countdown timer has reached a specific time in seconds.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Clock name
+    - Parameter 1 (🔤 String): Clock name
     - Parameter 2 (🔢 Number): Time in seconds
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -76,7 +76,7 @@ Check if the countdown timer has reached zero.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Clock name
+    - Parameter 1 (🔤 String): Clock name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -88,11 +88,11 @@ Check if the countdown timer has reached zero.
 | Expression | Description |  |
 |-----|-----|-----|
 | `CountdownTimer::InitialConfigurationValue(string)` | Get the initial setting time value of the clock. ||
-| | _string_ | Clock name |
+| | _🔤 String_ | Clock name |
 | `CountdownTimer::RemainingTime(string)` | Get the remaining time of the countdown timer. ||
-| | _string_ | Clock name |
+| | _🔤 String_ | Clock name |
 
 
 ---
 
-*This page is an auto-generated reference page about the **Countdown timer (deprecated)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Countdown timer (deprecated)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

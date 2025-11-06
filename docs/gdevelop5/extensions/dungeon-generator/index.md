@@ -136,11 +136,11 @@ Check if hallway is a room entrance.
 | Expression | Description |  |
 |-----|-----|-----|
 | `DungeonGenerator::NeighborCount(object)` | Number of grid neighbors of an object.  Requires running the "CalculateGridNeighbors" action before using this expression. ||
-| | _objectlist_ | Object |
+| | _👾 Object_ | Object |
 | `DungeonGenerator::RoomID(object)` | The numerical order this room was created.  (Range: 1 to total number of rooms). ||
-| | _objectlist_ | Room object |
+| | _👾 Object_ | Room object |
 
 
 ---
 
-*This page is an auto-generated reference page about the **Dungeon generator** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Dungeon generator** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

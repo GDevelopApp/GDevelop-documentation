@@ -21,9 +21,9 @@ Share a link or text via another app using the system share dialog.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Text to share
-    - Parameter 2 (string): Url to share
-    - Parameter 3 (string): Title to show in the Share dialog
+    - Parameter 1 (🔤 String): Text to share
+    - Parameter 2 (🔤 String): Url to share
+    - Parameter 3 (🔤 String): Title to show in the Share dialog
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
@@ -48,8 +48,8 @@ Compare the result of the last share dialog.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
-    - Parameter 2 (stringwithselector): Value to compare (one of: "unsupported", "ok", "canceled")
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare (one of: "unsupported", "ok", "canceled")
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -65,4 +65,4 @@ Compare the result of the last share dialog.
 
 ---
 
-*This page is an auto-generated reference page about the **Share dialog and sharing options** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Share dialog and sharing options** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

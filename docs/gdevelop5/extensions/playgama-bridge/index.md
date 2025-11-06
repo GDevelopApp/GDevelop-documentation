@@ -55,8 +55,8 @@ Add Action Parameter.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Path
-    - Parameter 2 (string): Value
+    - Parameter 1 (🔤 String): Path
+    - Parameter 2 (🔤 String): Value
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -67,7 +67,7 @@ Add Bool Action Parameter.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Path
+    - Parameter 1 (🔤 String): Path
     - Parameter 2 (❓ True or False): Value
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -101,7 +101,7 @@ Append Parameter to Storage Data Delete Request.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Key
+    - Parameter 1 (🔤 String): Key
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -112,7 +112,7 @@ Append Parameter to Storage Data Get Request.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Key
+    - Parameter 1 (🔤 String): Key
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -123,8 +123,8 @@ Append Parameter to Storage Data Set Request.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Key
-    - Parameter 2 (string): Value
+    - Parameter 1 (🔤 String): Key
+    - Parameter 2 (🔤 String): Value
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -212,7 +212,7 @@ Leaderboards Get Entries.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Id
+    - Parameter 1 (🔤 String): Id
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -223,7 +223,7 @@ Leaderboards Set Score.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Id
+    - Parameter 1 (🔤 String): Id
     - Parameter 2 (🔢 Number): Score
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -235,7 +235,7 @@ Leaderboards Show Native Popup.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Id
+    - Parameter 1 (🔤 String): Id
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -246,7 +246,7 @@ Payments Consume Purchase.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Id
+    - Parameter 1 (🔤 String): Id
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -279,7 +279,7 @@ Payments Purchase.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Id
+    - Parameter 1 (🔤 String): Id
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -323,7 +323,7 @@ Send Message.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (stringwithselector): Message (one of: "GAME_READY", "IN_GAME_LOADING_STARTED", "IN_GAME_LOADING_STOPPED", "GAMEPLAY_STARTED", "GAMEPLAY_STOPPED", "PLAYER_GOT_ACHIEVEMENT")
+    - Parameter 1 (🔤 String): Message (one of: "GAME_READY", "IN_GAME_LOADING_STARTED", "IN_GAME_LOADING_STOPPED", "GAMEPLAY_STARTED", "GAMEPLAY_STOPPED", "PLAYER_GOT_ACHIEVEMENT")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -345,7 +345,7 @@ Send Storage Data Delete Request.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (stringwithselector): Storage Type (one of: "default", "local_storage", "platform_internal")
+    - Parameter 1 (🔤 String): Storage Type (one of: "default", "local_storage", "platform_internal")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -356,7 +356,7 @@ Send Storage Data Get Request.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (stringwithselector): Storage Type (one of: "default", "local_storage", "platform_internal")
+    - Parameter 1 (🔤 String): Storage Type (one of: "default", "local_storage", "platform_internal")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -367,7 +367,7 @@ Send Storage Data Set Request.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (stringwithselector): Storage Type (one of: "default", "local_storage", "platform_internal")
+    - Parameter 1 (🔤 String): Storage Type (one of: "default", "local_storage", "platform_internal")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -400,8 +400,8 @@ Show Banner.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (stringwithselector): Position (one of: "bottom", "top")
-    - Parameter 2 (string): Placement (optional)
+    - Parameter 1 (🔤 String): Position (one of: "bottom", "top")
+    - Parameter 2 (🔤 String): Placement (optional)
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -412,7 +412,7 @@ Show Interstitial.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Placement (optional)
+    - Parameter 1 (🔤 String): Placement (optional)
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -423,7 +423,7 @@ Show Rewarded.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Placement (optional)
+    - Parameter 1 (🔤 String): Placement (optional)
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -459,7 +459,7 @@ Has Remote Config Value.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Key
+    - Parameter 1 (🔤 String): Key
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -481,7 +481,7 @@ Has Storage Data.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Key
+    - Parameter 1 (🔤 String): Key
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -767,7 +767,7 @@ Is Storage Available.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (stringwithselector): Storage Type (one of: "platform_internal", "local_storage")
+    - Parameter 1 (🔤 String): Storage Type (one of: "platform_internal", "local_storage")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -778,7 +778,7 @@ Is Storage Supported.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (stringwithselector): Storage Type (one of: "platform_internal", "local_storage")
+    - Parameter 1 (🔤 String): Storage Type (one of: "platform_internal", "local_storage")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -1377,7 +1377,7 @@ Platform On Pause State Changed.
 | | _🔢 Number_ | Property Index |
 | `PlaygamaBridge::AchievementPropertyValue(number, string)` | Achievement Property Value. ||
 | | _🔢 Number_ | Achievement Index |
-| | _string_ | Property |
+| | _🔤 String_ | Property |
 | `PlaygamaBridge::AchievementsCount()` | Achievements Count. ||
 | `PlaygamaBridge::BannerState()` | Banner State. ||
 | `PlaygamaBridge::DefaultStorageType()` | Default Storage Type. ||
@@ -1401,23 +1401,23 @@ Platform On Pause State Changed.
 | | _🔢 Number_ | Property Index |
 | `PlaygamaBridge::PaymentsCatalogItemPropertyValue(number, string)` | Payments Catalog Item Property Value. ||
 | | _🔢 Number_ | Product Index |
-| | _string_ | Property |
+| | _🔤 String_ | Property |
 | `PlaygamaBridge::PaymentsCatalogItemsCount()` | Payments Catalog Items Count. ||
 | `PlaygamaBridge::PaymentsFirstCatalogItemPropertyValue(string, string, string)` | Payments First Catalog Item Property Value. ||
-| | _string_ | Filter Property |
-| | _string_ | Filter Property Value |
-| | _string_ | Property |
+| | _🔤 String_ | Filter Property |
+| | _🔤 String_ | Filter Property Value |
+| | _🔤 String_ | Property |
 | `PlaygamaBridge::PaymentsLastPurchasePropertiesCount()` | Payments Last Purchase Properties Count. ||
 | `PlaygamaBridge::PaymentsLastPurchasePropertyName(number)` | Payments Last Purchase Property Name. ||
 | | _🔢 Number_ | Property Index |
 | `PlaygamaBridge::PaymentsLastPurchasePropertyValue(string)` | Payments Last Purchase Property Value. ||
-| | _string_ | Property |
+| | _🔤 String_ | Property |
 | `PlaygamaBridge::PaymentsPurchasePropertiesCount()` | Payments Purchase Properties Count. ||
 | `PlaygamaBridge::PaymentsPurchasePropertyName(number)` | Payments Purchase Property Name. ||
 | | _🔢 Number_ | Property Index |
 | `PlaygamaBridge::PaymentsPurchasePropertyValue(number, string)` | Payments Last Purchase Property Value. ||
 | | _🔢 Number_ | Purchase Index |
-| | _string_ | Property |
+| | _🔤 String_ | Property |
 | `PlaygamaBridge::PaymentsPurchasesCount()` | Payments Purchases Count. ||
 | `PlaygamaBridge::PlatformAllGamePropertiesCount()` | Platform All Game Properties Count. ||
 | `PlaygamaBridge::PlatformAllGamesCount()` | Platform All Games Count. ||
@@ -1425,9 +1425,9 @@ Platform On Pause State Changed.
 | | _🔢 Number_ | Property Index |
 | `PlaygamaBridge::PlatformAllGamesPropertyValue(number, string)` | Platform All Games Property Value. ||
 | | _🔢 Number_ | Game Index |
-| | _string_ | Property |
+| | _🔤 String_ | Property |
 | `PlaygamaBridge::PlatformGameByIdPropertyValue(string)` | Platform Game By Id Property Value. ||
-| | _string_ | Property |
+| | _🔤 String_ | Property |
 | `PlaygamaBridge::PlatformId()` | Platform Id. ||
 | `PlaygamaBridge::PlatformLanguage()` | Platform Language. ||
 | `PlaygamaBridge::PlatformPayload()` | Platform Payload. ||
@@ -1436,24 +1436,24 @@ Platform On Pause State Changed.
 | `PlaygamaBridge::PlayerExtraPropertyName(number)` | Player Extra Property Name. ||
 | | _🔢 Number_ | Property Index |
 | `PlaygamaBridge::PlayerExtraPropertyValue(string)` | Player Extra Property Value. ||
-| | _string_ | Property |
+| | _🔤 String_ | Property |
 | `PlaygamaBridge::PlayerId()` | Player Id. ||
 | `PlaygamaBridge::PlayerName()` | Player Name. ||
 | `PlaygamaBridge::PlayerPhoto(number)` | Player Photo # _PARAM1_. ||
 | | _🔢 Number_ | Index |
 | `PlaygamaBridge::PlayerPhotosCount()` | Player Photos Count. ||
 | `PlaygamaBridge::RemoteConfigValue(string)` | Remote Config Value. ||
-| | _string_ | Key |
+| | _🔤 String_ | Key |
 | `PlaygamaBridge::RewardedPlacement()` | Rewarded Placement. ||
 | `PlaygamaBridge::RewardedState()` | Rewarded State. ||
 | `PlaygamaBridge::ServerTime()` | Server Time. ||
 | `PlaygamaBridge::StorageData(string)` | Storage Data. ||
-| | _string_ | Key |
+| | _🔤 String_ | Key |
 | `PlaygamaBridge::StorageDataAsJSON(string)` | Storage Data As JSON. ||
-| | _string_ | Key |
+| | _🔤 String_ | Key |
 | `PlaygamaBridge::VisibilityState()` | Visibility State. ||
 
 
 ---
 
-*This page is an auto-generated reference page about the **Playgama Bridge** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Playgama Bridge** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

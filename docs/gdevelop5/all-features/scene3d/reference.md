@@ -118,6 +118,7 @@ Change the camera rotation to look at a position. The camera top always face the
 
     > Technical note: this action internal type (in GDevelop JSON) is `Scene3D::TurnCameraTowardPosition`.
 
+
 ## Conditions
 
 **Camera far plane**  
@@ -204,6 +205,7 @@ Compare the camera position on Z axis.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Scene3D::CameraZ`.
 
+
 ## Expressions
 
 | Expression | Description |  |
@@ -230,6 +232,69 @@ Compare the camera position on Z axis.
 ## 3D Box 
 
 A box with images for each face 
+
+### Object properties
+
+- **Back face** (🗂️ Resource).
+- **Tile** (🔘 Boolean). Default value is `false`.
+- **Back face orientation** (choice, one of: "X", "Y"). The top of the image can touch the **top face** (Y) or the **bottom face** (X). Default value is `X`.
+- **Back face** (🔘 Boolean). Default value is `true`.
+- **Bottom face** (🗂️ Resource).
+- **Tile** (🔘 Boolean). Default value is `false`.
+- **Bottom face** (🔘 Boolean). Default value is `true`.
+- **Depth** (🔢 Number, Distance). Default value is `100`.
+- **Enable texture transparency** (🔘 Boolean). Enabling texture transparency has an impact on rendering performance. Default value is `false`.
+- **Faces orientation** (choice, one of: "Y", "Z"). The top of each image can touch the **top face** (Y) or the **front face** (Z). Default value is `Y`.
+- **Front face** (🗂️ Resource).
+- **Tile** (🔘 Boolean). Default value is `false`.
+- **Front face** (🔘 Boolean). Default value is `true`.
+- **Height** (🔢 Number, Distance). Default value is `100`.
+- **Shadow casting** (🔘 Boolean). Default value is `true`.
+- **Shadow receiving** (🔘 Boolean). Default value is `true`.
+- **Left face** (🗂️ Resource).
+- **Tile** (🔘 Boolean). Default value is `false`.
+- **Left face** (🔘 Boolean). Default value is `true`.
+- **Material type** (choice, one of: "Basic", "StandardWithoutMetalness"). Default value is `StandardWithoutMetalness`.
+- **Right face** (🗂️ Resource).
+- **Tile** (🔘 Boolean). Default value is `false`.
+- **Right face** (🔘 Boolean). Default value is `true`.
+- **Tint** (🎨 Color). Default value is `255;255;255`.
+- **Top face** (🗂️ Resource).
+- **Tile** (🔘 Boolean). Default value is `false`.
+- **Top face** (🔘 Boolean). Default value is `true`.
+- **Width** (🔢 Number, Distance). Default value is `100`.
+
+??? quote "See internal technical details"
+
+
+    - **Back face** is stored as `backFaceResourceName` (resource). Default value is ``.
+    - **Tile** is stored as `backFaceResourceRepeat` (boolean). Default value is `false`.
+    - **Back face orientation** is stored as `backFaceUpThroughWhichAxisRotation` (choice). Default value is `X`.
+    - **Back face** is stored as `backFaceVisible` (boolean). Default value is `true`.
+    - **Bottom face** is stored as `bottomFaceResourceName` (resource). Default value is ``.
+    - **Tile** is stored as `bottomFaceResourceRepeat` (boolean). Default value is `false`.
+    - **Bottom face** is stored as `bottomFaceVisible` (boolean). Default value is `true`.
+    - **Depth** is stored as `depth` (number). Unit is Pixel. Default value is `100`.
+    - **Enable texture transparency** is stored as `enableTextureTransparency` (boolean). Default value is `false`.
+    - **Faces orientation** is stored as `facesOrientation` (choice). Default value is `Y`.
+    - **Front face** is stored as `frontFaceResourceName` (resource). Default value is ``.
+    - **Tile** is stored as `frontFaceResourceRepeat` (boolean). Default value is `false`.
+    - **Front face** is stored as `frontFaceVisible` (boolean). Default value is `true`.
+    - **Height** is stored as `height` (number). Unit is Pixel. Default value is `100`.
+    - **Shadow casting** is stored as `isCastingShadow` (boolean). Default value is `true`.
+    - **Shadow receiving** is stored as `isReceivingShadow` (boolean). Default value is `true`.
+    - **Left face** is stored as `leftFaceResourceName` (resource). Default value is ``.
+    - **Tile** is stored as `leftFaceResourceRepeat` (boolean). Default value is `false`.
+    - **Left face** is stored as `leftFaceVisible` (boolean). Default value is `true`.
+    - **Material type** is stored as `materialType` (choice). Default value is `StandardWithoutMetalness`.
+    - **Right face** is stored as `rightFaceResourceName` (resource). Default value is ``.
+    - **Tile** is stored as `rightFaceResourceRepeat` (boolean). Default value is `false`.
+    - **Right face** is stored as `rightFaceVisible` (boolean). Default value is `true`.
+    - **Tint** is stored as `tint` (Color). Default value is `255;255;255`.
+    - **Top face** is stored as `topFaceResourceName` (resource). Default value is ``.
+    - **Tile** is stored as `topFaceResourceRepeat` (boolean). Default value is `false`.
+    - **Top face** is stored as `topFaceVisible` (boolean). Default value is `true`.
+    - **Width** is stored as `width` (number). Unit is Pixel. Default value is `100`.
 
 ### Object actions
 
@@ -261,9 +326,10 @@ Change the tint of the cube.
 ??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): 3D Cube
-    - Parameter 1 (color): Tint
+    - Parameter 1 (🎨 Color): Tint
 
     > Technical note: this action internal type (in GDevelop JSON) is `Scene3D::Cube3DObject::SetTint`.
+
 
 ### Object conditions
 
@@ -277,12 +343,48 @@ Check if a face should be visible.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Scene3D::Cube3DObject::FaceVisibility`.
 
+
 _No expressions for this object._
 
 
 ## 3D Model 
 
 An animated 3D model, useful for most elements of a 3D game. 
+
+### Object properties
+
+- **Center point** (choice, one of: "ModelOrigin", "ObjectCenter", "BottomCenterZ", "BottomCenterY"). Default value is `ModelOrigin`.
+- **Crossfade duration** (🔢 Number, Duration). Default value is `0.1`.
+- **Depth** (🔢 Number, Distance). Default value is `100`.
+- **Height** (🔢 Number, Distance). Default value is `100`.
+- **Shadow casting** (🔘 Boolean). Default value is `true`.
+- **Shadow receiving** (🔘 Boolean). Default value is `true`.
+- **Reduce initial dimensions to keep aspect ratio** (🔘 Boolean). Default value is `true`.
+- **Material** (choice, one of: "Basic", "StandardWithoutMetalness", "KeepOriginal"). Default value is `StandardWithoutMetalness`.
+- **3D model** (🗂️ Resource).
+- **Origin point** (choice, one of: "ModelOrigin", "TopLeft", "ObjectCenter", "BottomCenterZ", "BottomCenterY"). Default value is `ModelOrigin`.
+- **X** (🔢 Number, Angle). Rotation around X axis. Default value is `0`.
+- **Y** (🔢 Number, Angle). Rotation around Y axis. Default value is `0`.
+- **Z** (🔢 Number, Angle). Rotation around Z axis. Default value is `0`.
+- **Width** (🔢 Number, Distance). Default value is `100`.
+
+??? quote "See internal technical details"
+
+
+    - **Center point** is stored as `centerLocation` (choice). Default value is `ModelOrigin`.
+    - **Crossfade duration** is stored as `crossfadeDuration` (number). Unit is Second. Default value is `0.1`.
+    - **Depth** is stored as `depth` (number). Unit is Pixel. Default value is `100`.
+    - **Height** is stored as `height` (number). Unit is Pixel. Default value is `100`.
+    - **Shadow casting** is stored as `isCastingShadow` (boolean). Default value is `true`.
+    - **Shadow receiving** is stored as `isReceivingShadow` (boolean). Default value is `true`.
+    - **Reduce initial dimensions to keep aspect ratio** is stored as `keepAspectRatio` (boolean). Default value is `true`.
+    - **Material** is stored as `materialType` (choice). Default value is `StandardWithoutMetalness`.
+    - **3D model** is stored as `modelResourceName` (resource). Default value is ``.
+    - **Origin point** is stored as `originLocation` (choice). Default value is `ModelOrigin`.
+    - **X** is stored as `rotationX` (number). Unit is DegreeAngle. Default value is `0`.
+    - **Y** is stored as `rotationY` (number). Unit is DegreeAngle. Default value is `0`.
+    - **Z** is stored as `rotationZ` (number). Unit is DegreeAngle. Default value is `0`.
+    - **Width** is stored as `width` (number). Unit is Pixel. Default value is `100`.
 
 ### Object actions
 
@@ -295,6 +397,7 @@ Set the crossfade duration when switching to a new animation.
     - Parameter 1 (🔢 Number): Crossfade duration (in seconds)
 
     > Technical note: this action internal type (in GDevelop JSON) is `Scene3D::Model3DObject::SetCrossfadeDuration`.
+
 
 _No expressions for this object._
 
@@ -421,6 +524,7 @@ Turn the object around Z axis. This axis doesn't move with the object rotation.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Scene3D::Base3DBehavior::TurnAroundZ`.
 
+
 ### Behavior conditions
 
 **Center Z position**  
@@ -504,6 +608,7 @@ Compare the Z position (the "elevation").
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Scene3D::Base3DBehavior::Z`.
+
 
 ### Behavior expressions
 
@@ -649,4 +754,4 @@ Properties of this effect are:
 
 The 3D extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **3D** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **3D** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

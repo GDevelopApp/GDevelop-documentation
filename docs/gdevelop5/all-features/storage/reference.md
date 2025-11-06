@@ -9,7 +9,7 @@ Clear the specified storage, removing all data saved in it.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Storage name
+    - Parameter 0 (🔤 String): Storage name
 
     > Technical note: this action internal type (in GDevelop JSON) is `DeleteFichier`.
 
@@ -20,8 +20,8 @@ Spaces are forbidden in element names.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Storage name
-    - Parameter 1 (string): Group
+    - Parameter 0 (🔤 String): Storage name
+    - Parameter 1 (🔤 String): Group
 
     > Technical note: this action internal type (in GDevelop JSON) is `DeleteGroupFichier`.
 
@@ -32,8 +32,8 @@ Spaces are forbidden in element names.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Storage name
-    - Parameter 1 (string): Group
+    - Parameter 0 (🔤 String): Storage name
+    - Parameter 1 (🔤 String): Group
     - Parameter 2: 🔢 Number
 
     > Technical note: this action internal type (in GDevelop JSON) is `EcrireFichierExp`.
@@ -45,9 +45,9 @@ Spaces are forbidden in element names.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Storage name
-    - Parameter 1 (string): Group
-    - Parameter 2 (string): Text
+    - Parameter 0 (🔤 String): Storage name
+    - Parameter 1 (🔤 String): Group
+    - Parameter 2 (🔤 String): Text
 
     > Technical note: this action internal type (in GDevelop JSON) is `EcrireFichierTxt`.
 
@@ -58,7 +58,7 @@ Unless you have a specific performance need, avoid using this action. The system
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Storage name
+    - Parameter 0 (🔤 String): Storage name
 
     > Technical note: this action internal type (in GDevelop JSON) is `LoadFile`.
 
@@ -69,8 +69,8 @@ Spaces are forbidden in element names.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Storage name
-    - Parameter 1 (string): Group
+    - Parameter 0 (🔤 String): Storage name
+    - Parameter 1 (🔤 String): Group
     - Parameter 3: 🗄️ Any variable
 
     > Technical note: parameter 2 is an internal parameter handled by GDevelop.
@@ -84,8 +84,8 @@ Spaces are forbidden in element names.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Storage name
-    - Parameter 1 (string): Group
+    - Parameter 0 (🔤 String): Storage name
+    - Parameter 1 (🔤 String): Group
     - Parameter 3: 🗄️ Any variable
 
     > Technical note: parameter 2 is an internal parameter handled by GDevelop.
@@ -97,9 +97,10 @@ Close the specified storage previously loaded in memory, saving all changes made
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Storage name
+    - Parameter 0 (🔤 String): Storage name
 
     > Technical note: this action internal type (in GDevelop JSON) is `UnloadFile`.
+
 
 ## Conditions
 
@@ -109,10 +110,11 @@ Spaces are forbidden in element names.
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): Storage name
-    - Parameter 1 (string): Group
+    - Parameter 0 (🔤 String): Storage name
+    - Parameter 1 (🔤 String): Group
 
     > Technical note: this condition internal type (in GDevelop JSON) is `GroupExists`.
+
 
 
 
@@ -122,4 +124,4 @@ Spaces are forbidden in element names.
 
 The Storage extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Storage** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Storage** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

@@ -21,7 +21,7 @@ Check if the specified mouse button is clicked twice in a short amount of time.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (mousebutton): Mouse button to track
+    - Parameter 1 (mouseButton): Mouse button to track
       As touch devices do not have middle/right tap equivalents, you will need to account for this within your events if you're not using the left mouse button and building for touch devices.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
@@ -33,7 +33,7 @@ Check if the specified mouse button is clicked.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (mousebutton): Mouse button to track
+    - Parameter 1 (mouseButton): Mouse button to track
       As touch devices do not have middle/right tap equivalents, you will need to account for this within your events if you're not using the left mouse button and building for touch devices.
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
@@ -46,4 +46,4 @@ Check if the specified mouse button is clicked.
 
 ---
 
-*This page is an auto-generated reference page about the **Double-click and tap** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Double-click and tap** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

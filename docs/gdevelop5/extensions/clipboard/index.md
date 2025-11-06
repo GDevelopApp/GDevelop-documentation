@@ -32,7 +32,7 @@ Write the text in the clipboard.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Text to write to clipboard
+    - Parameter 1 (🔤 String): Text to write to clipboard
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -44,4 +44,4 @@ Write the text in the clipboard.
 
 ---
 
-*This page is an auto-generated reference page about the **Clipboard** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Clipboard** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

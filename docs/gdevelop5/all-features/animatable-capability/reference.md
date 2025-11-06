@@ -78,6 +78,7 @@ Change the animation speed scale (1 = the default speed, >1 = faster and <1 = sl
 
     > Technical note: this action internal type (in GDevelop JSON) is `AnimatableCapability::AnimatableBehavior::SetSpeedScale`.
 
+
 ### Behavior conditions
 
 **Animation elapsed time**  
@@ -148,6 +149,7 @@ Compare the animation speed scale (1 = the default speed, >1 = faster and <1 = s
 
     > Technical note: this condition internal type (in GDevelop JSON) is `AnimatableCapability::AnimatableBehavior::SpeedScale`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -164,4 +166,4 @@ Compare the animation speed scale (1 = the default speed, >1 = faster and <1 = s
 
 The Objects with animations extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Objects with animations** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Objects with animations** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

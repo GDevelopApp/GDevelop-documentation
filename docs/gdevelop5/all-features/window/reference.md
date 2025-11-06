@@ -95,11 +95,12 @@ This action changes the title of the game's window.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): New title
+    - Parameter 1 (🔤 String): New title
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `SetWindowTitle`.
+
 
 ## Conditions
 
@@ -113,6 +114,7 @@ Check if the game is currently in fullscreen.
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `IsFullScreen`.
+
 
 ## Expressions
 
@@ -130,4 +132,4 @@ Check if the game is currently in fullscreen.
 
 The Game window and resolution extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Game window and resolution** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Game window and resolution** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

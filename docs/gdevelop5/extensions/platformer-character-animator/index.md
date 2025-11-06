@@ -22,13 +22,13 @@ Change animations and horizontal flipping of a platformer character automaticall
 
 ### Behavior properties
 
-- **"Climb" animation name** (string). Default value is `Climb`.
+- **"Climb" animation name** (🔤 String). Default value is `Climb`.
 - **Enable animation changes** (🔘 Boolean). Default value is `true`.
 - **Enable horizontal flipping** (🔘 Boolean). Default value is `true`.
-- **"Fall" animation name** (string). Default value is `Fall`.
-- **"Idle" animation name ** (string). Default value is `Idle`.
-- **"Jump" animation name** (string). Default value is `Jump`.
-- **"Run" animation name** (string). Default value is `Run`.
+- **"Fall" animation name** (🔤 String). Default value is `Fall`.
+- **"Idle" animation name ** (🔤 String). Default value is `Idle`.
+- **"Jump" animation name** (🔤 String). Default value is `Jump`.
+- **"Run" animation name** (🔤 String). Default value is `Run`.
 
 ??? quote "See internal technical details"
 
@@ -82,7 +82,7 @@ Set the "Climb" animation name. Do not use quotation marks.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (string): Animation name
+    - Parameter 2 (🔤 String): Animation name
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -95,7 +95,7 @@ Set the "Fall" animation name. Do not use quotation marks.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (string): Animation name
+    - Parameter 2 (🔤 String): Animation name
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -108,7 +108,7 @@ Set the "Idle" animation name. Do not use quotation marks.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (string): Animation name
+    - Parameter 2 (🔤 String): Animation name
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -121,7 +121,7 @@ Set the "Jump" animation name. Do not use quotation marks.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (string): Animation name
+    - Parameter 2 (🔤 String): Animation name
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -134,7 +134,7 @@ Set the "Move" animation name. Do not use quotation marks.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (string): Animation name
+    - Parameter 2 (🔤 String): Animation name
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -147,4 +147,4 @@ _No expressions for this behavior._
 
 ---
 
-*This page is an auto-generated reference page about the **Platformer character animator** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Platformer character animator** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

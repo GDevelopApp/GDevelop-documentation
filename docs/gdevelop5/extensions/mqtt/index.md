@@ -38,8 +38,8 @@ Connects to an MQTT broker.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Host port
-    - Parameter 2 (string): Settings as JSON
+    - Parameter 1 (🔤 String): Host port
+    - Parameter 2 (🔤 String): Settings as JSON
       You can find the list of settings at [the MQTT.js docs](https://github.com/mqttjs/MQTT.js/#client).  
       An example of valid configuration would be `"{\"clientId\": \"myUserName\"}"`.
     - Parameter 3 (❓ Yes or No): Use secure WebSockets?
@@ -65,8 +65,8 @@ Publishes a message on a topic.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Text to publish
-    - Parameter 2 (string): Topic to publish to
+    - Parameter 1 (🔤 String): Text to publish
+    - Parameter 2 (🔤 String): Topic to publish to
     - Parameter 3 (🔢 Number): The QoS
       See [this](https://github.com/mqttjs/MQTT.js#qos) for more details.
     - Parameter 4 (❓ Yes or No): Should the message be retained?
@@ -82,7 +82,7 @@ Subcribe to a topic. All messages published on that topic will be received.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): The topic to subscribe to
+    - Parameter 1 (🔤 String): The topic to subscribe to
     - Parameter 2 (🔢 Number): The QoS
       See https://github.com/mqttjs/MQTT.js#qos for more details
     - Parameter 3 (❓ Yes or No): Is dataloss allowed?
@@ -97,7 +97,7 @@ Unsubcribe from a topic. No more messages from this topic will be received.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): The topic to subscribe to
+    - Parameter 1 (🔤 String): The topic to subscribe to
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -122,7 +122,7 @@ Triggers whenever a message was received. Note that you first need to subcribe t
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): The topic to listen to
+    - Parameter 1 (🔤 String): The topic to listen to
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -134,10 +134,10 @@ Triggers whenever a message was received. Note that you first need to subcribe t
 | Expression | Description |  |
 |-----|-----|-----|
 | `MQTT::GetLastMessage(string)` | Get the last received message of a topic. ||
-| | _string_ | The topic to get the message from |
+| | _🔤 String_ | The topic to get the message from |
 | `MQTT::getCurrentError()` | Gets the last error. Returns an empty string if there was no errors. ||
 
 
 ---
 
-*This page is an auto-generated reference page about the **MQTT Client (advanced)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **MQTT Client (advanced)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

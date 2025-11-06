@@ -31,16 +31,16 @@ Use a shape-painter object to draw a toggle switch that users can click or touch
 
 ### Behavior properties
 
-- **Active thumb color string. Example:  24;119;211** (string). Default value is `24;119;211`.
-- **Color string for the track that is LEFT of the thumb. Example:  24;119;211 (Leave blank to use thumb color)** (string).
+- **Active thumb color string. Example:  24;119;211** (🔤 String). Default value is `24;119;211`.
+- **Color string for the track that is LEFT of the thumb. Example:  24;119;211 (Leave blank to use thumb color)** (🔤 String).
 - **Opacity of the track that is LEFT of the thumb.  Example: 128** (🔢 Number). Default value is `128`.
 - **Checked** (🔘 Boolean). Default value is `false`.
 - **Disabled** (🔘 Boolean). Default value is `false`.
 - **Opacity of halo when the mouse hovers on the thumb. Example: 32** (🔢 Number). Default value is `32`.
 - **Opacity of the halo that appears when the toggle switch is pressed. Example: 64** (🔢 Number). Default value is `64`.
 - **Size of halo when the mouse hovers and clicks on the thumb. Example: 24** (🔢 Number). Default value is `24`.
-- **Inactive thumb color string. Example:  255;255;255** (string). Default value is `255;255;255`.
-- **Color string for the track that is RIGHT of the thumb. Example:  150;150;150  (Leave blank to use thumb color)** (string). Default value is `150;150;150`.
+- **Inactive thumb color string. Example:  255;255;255** (🔤 String). Default value is `255;255;255`.
+- **Color string for the track that is RIGHT of the thumb. Example:  150;150;150  (Leave blank to use thumb color)** (🔤 String). Default value is `150;150;150`.
 - **Opacity of the track that is RIGHT of the thumb.  Example: 255** (🔢 Number). Default value is `255`.
 - **Opacity of the thumb. Example: 255** (🔢 Number). Default value is `255`.
 - **Radius of the thumb (px) Example: 10** (🔢 Number). Default value is `10`.
@@ -383,4 +383,4 @@ Check if mouse is hovering over toggle switch.
 
 ---
 
-*This page is an auto-generated reference page about the **Toggle switch (for Shape Painter)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Toggle switch (for Shape Painter)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

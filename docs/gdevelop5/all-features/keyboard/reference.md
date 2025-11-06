@@ -59,6 +59,7 @@ Check if a key was just released.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `KeyFromTextReleased`.
 
+
 ## Expressions
 
 | Expression | Description |  |
@@ -71,4 +72,4 @@ Check if a key was just released.
 
 The Keyboard extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Keyboard** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Keyboard** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

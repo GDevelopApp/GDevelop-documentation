@@ -30,13 +30,13 @@ A container for flex items.
 
 ### Behavior properties
 
-- **The alignement of the lines (row/columns)** (choice, one of: "normal", "flex-start", "flex-end", "center", "space-between", "space-around", "space-evenly", "stretch"). Default value is `normal`.
-- **The alignement of the items on the Y axis** (choice, one of: "stretch", "flex-start", "flex-end", "center"). Default value is `stretch`.
-- **The direction of the items** (choice, one of: "right", "left", "up", "down"). Default value is `right`.
+- **The alignement of the lines (row/columns)** (Choice, one of: "normal", "flex-start", "flex-end", "center", "space-between", "space-around", "space-evenly", "stretch"). Default value is `normal`.
+- **The alignement of the items on the Y axis** (Choice, one of: "stretch", "flex-start", "flex-end", "center"). Default value is `stretch`.
+- **The direction of the items** (Choice, one of: "right", "left", "up", "down"). Default value is `right`.
 - **Minimal gap between each item in pixels** (🔢 Number). Default value is `0`.
-- **The ID of the container** (string). Default value is `Default`.
-- **The alignement of the items on the X axis** (choice, one of: "flex-start", "flex-end", "center", "space-between", "space-around", "space-evenly"). Default value is `flex-start`.
-- **Warpping (adding lines to fit everything inside the Flexbox)** (choice, one of: "wrap", "nowrap", "wrap-reverse"). Default value is `nowrap`.
+- **The ID of the container** (🔤 String). Default value is `Default`.
+- **The alignement of the items on the X axis** (Choice, one of: "flex-start", "flex-end", "center", "space-between", "space-around", "space-evenly"). Default value is `flex-start`.
+- **Warpping (adding lines to fit everything inside the Flexbox)** (Choice, one of: "wrap", "nowrap", "wrap-reverse"). Default value is `nowrap`.
 
 ??? quote "See internal technical details"
 
@@ -58,7 +58,7 @@ Sets the flexbox direction property.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (stringwithselector): Flex direction (one of: "right", "left", "down", "right")
+    - Parameter 2 (🔤 String): Flex direction (one of: "right", "left", "down", "right")
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -71,7 +71,7 @@ Sets the flexbox wrap property.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (stringwithselector): Flex wrap (one of: "nowrap", "wrap", "wrap-reverse")
+    - Parameter 2 (🔤 String): Flex wrap (one of: "nowrap", "wrap", "wrap-reverse")
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -84,7 +84,7 @@ Sets the alignement method for the lines/rows of objects in the box.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (stringwithselector): Alignement method (one of: "stretch", "flex-start", "flex-end", "center")
+    - Parameter 2 (🔤 String): Alignement method (one of: "stretch", "flex-start", "flex-end", "center")
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -97,7 +97,7 @@ Sets the alignement method for items on the X axis.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (stringwithselector): Alignement method (one of: "flex-start", "flex-end", "center", "space-between", "space-around", "space-evenly")
+    - Parameter 2 (🔤 String): Alignement method (one of: "flex-start", "flex-end", "center", "space-between", "space-around", "space-evenly")
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -110,7 +110,7 @@ Sets the alignement method for items on the Y axis.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (stringwithselector): Alignement method (one of: "stretch", "flex-start", "flex-end", "center")
+    - Parameter 2 (🔤 String): Alignement method (one of: "stretch", "flex-start", "flex-end", "center")
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -126,8 +126,8 @@ An item in a flex container.
 
 ### Behavior properties
 
-- **Override the alignement for that object** (choice, one of: "auto", "flex-start", "flex-end", "center", "stretch").
-- **The ID of the container** (string). Default value is `Default`.
+- **Override the alignement for that object** (Choice, one of: "auto", "flex-start", "flex-end", "center", "stretch").
+- **The ID of the container** (🔤 String). Default value is `Default`.
 - **Occupy the maximum height possible** (🔘 Boolean). Default value is `false`.
 - **Occupy the maximum width possible** (🔘 Boolean). Default value is `false`.
 - **Ability to grow (flex-grow)** (🔢 Number). Default value is `1`.
@@ -154,7 +154,7 @@ Sets the alignement method for this object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (stringwithselector): Alignement method (one of: "auto", "flex-start", "flex-end", "center", "stretch")
+    - Parameter 2 (🔤 String): Alignement method (one of: "auto", "flex-start", "flex-end", "center", "stretch")
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -206,4 +206,4 @@ _No expressions for this behavior._
 
 ---
 
-*This page is an auto-generated reference page about the **Flexbox** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Flexbox** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

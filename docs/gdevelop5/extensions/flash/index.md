@@ -88,7 +88,7 @@ Compare the half period of the object (time the object is invisible).
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -180,7 +180,7 @@ Compare the half period (time between flashes) of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -232,7 +232,7 @@ Make an object flash an effect for a period of time.
     - Parameter 1: 🧩 Behavior
     - Parameter 2 (🔢 Number): Duration of the flashing, in seconds
       Use "0" to keep flashing until stopped.
-    - Parameter 3: objecteffectname
+    - Parameter 3: 🔤 Object Effect Name (String)
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
@@ -274,7 +274,7 @@ Compare the half period (time between flashes) of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -371,7 +371,7 @@ Compare the half period (time between flashes) of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -400,4 +400,4 @@ Check if an object is flashing opacity.
 
 ---
 
-*This page is an auto-generated reference page about the **Flash object** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Flash object** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

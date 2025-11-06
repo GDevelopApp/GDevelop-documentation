@@ -65,7 +65,7 @@ Add this to the sprite object that will be the background of the dialog box.
 
 - **Tween Duration. (in milliseconds)** (🔢 Number). Default value is `250`.
 - **Typing interval. (in seconds)** (🔢 Number). Default value is `0.05`.
-- **Typing sound effect. (File name) (The audio file must be registered as a resource!)** (string).
+- **Typing sound effect. (File name) (The audio file must be registered as a resource!)** (🔤 String).
 
 ??? quote "See internal technical details"
 
@@ -83,9 +83,9 @@ Change the Name, Image, and Text in the Dialog Box.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (string): Name
-    - Parameter 3: objectanimationname
-    - Parameter 4 (string): Text
+    - Parameter 2 (🔤 String): Name
+    - Parameter 3: 🔤 Object Animation Name (String)
+    - Parameter 4 (🔤 String): Text
 
     > Technical note: parameter 5 is an internal parameter handled by GDevelop.
 
@@ -98,7 +98,7 @@ Change the Dialog Box Text.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (string): Text
+    - Parameter 2 (🔤 String): Text
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -124,7 +124,7 @@ Changes the typing sound effect of the Dialog Box (File name) (The audio file mu
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (string): Audio file name (The audio file must be registered as a resource!)
+    - Parameter 2 (🔤 String): Audio file name (The audio file must be registered as a resource!)
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -149,9 +149,9 @@ Open the Dialog Box.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (string): Name
-    - Parameter 3: objectanimationname
-    - Parameter 4 (string): Text
+    - Parameter 2 (🔤 String): Name
+    - Parameter 3: 🔤 Object Animation Name (String)
+    - Parameter 4 (🔤 String): Text
 
     > Technical note: parameter 5 is an internal parameter handled by GDevelop.
 
@@ -248,4 +248,4 @@ Text in the Dialog Box is typing.
 
 ---
 
-*This page is an auto-generated reference page about the **Dialog Box** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Dialog Box** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

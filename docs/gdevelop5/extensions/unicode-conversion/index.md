@@ -18,19 +18,19 @@ The `UnicodeConversion::ReverseUnicode(string, range, base)` string expression c
 | Expression | Description |  |
 |-----|-----|-----|
 | `UnicodeConversion::ReverseUnicode(string, number, number)` | Reverses the unicode of a string with a base. ||
-| | _string_ | String to reverse |
+| | _🔤 String_ | String to reverse |
 | | _🔢 Number_ | Base of the reverse (Default: 2) |
 | | _🔢 Number_ | Range of unicode characters (Put 16 here to support the most characters if you put 2 in the base) |
 | `UnicodeConversion::TextToUnicode(string, number, string)` | Converts a string into unicode representation with a base. ||
-| | _string_ | The string to convert to unicode |
+| | _🔤 String_ | The string to convert to unicode |
 | | _🔢 Number_ | Base |
-| | _string_ | Seperator text (Optional) |
+| | _🔤 String_ | Seperator text (Optional) |
 | `UnicodeConversion::UnicodeToText(string, number, string)` | Converts a unicode representation into String with a base. ||
-| | _string_ | The unicode to convert to String |
+| | _🔤 String_ | The unicode to convert to String |
 | | _🔢 Number_ | Base |
-| | _string_ | Seperator text (Optional) |
+| | _🔤 String_ | Seperator text (Optional) |
 
 
 ---
 
-*This page is an auto-generated reference page about the **Unicode** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Unicode** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

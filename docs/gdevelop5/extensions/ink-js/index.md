@@ -56,7 +56,7 @@ Call an internal Ink function set inside the story.
 
     - Parameter 1 (🔤 Name (String)): Story name
     - Parameter 2 (🔤 Name (String)): Internal Ink method name
-    - Parameter 3 (string): Parameter value
+    - Parameter 3 (🔤 String): Parameter value
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
 
@@ -155,7 +155,7 @@ Change the story variable text.
 ??? quote "See parameters & details"
 
     - Parameter 1: 🟰 Operator
-    - Parameter 2 (string): Value
+    - Parameter 2 (🔤 String): Value
     - Parameter 3 (🔤 Name (String)): Story name
     - Parameter 4 (🔤 Name (String)): Variable name
 
@@ -261,7 +261,7 @@ Load a previous state of an existing story from a JSON string.
 ??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Story name
-    - Parameter 2 (string): JSON text
+    - Parameter 2 (🔤 String): JSON text
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -284,7 +284,7 @@ Create a story from an Ink JSON resource.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: jsonresource
+    - Parameter 1: jsonResource
     - Parameter 2 (🔤 Name (String)): Story name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -367,8 +367,8 @@ Compare chapter tag.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
     - Parameter 3 (🔤 Name (String)): Story name
     - Parameter 4 (🔤 Name (String)): Chapter name
       In Ink, a chapter (or knot) is a large part of the story.
@@ -391,7 +391,7 @@ Compare chapter tag count.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Story name
     - Parameter 4 (🔤 Name (String)): Chapter name
@@ -414,7 +414,7 @@ Compare current choice count.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Story name
 
@@ -427,8 +427,8 @@ Compare choice tag.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
     - Parameter 3 (🔤 Name (String)): Story name
     - Parameter 4 (🔢 Number): Choice index
     - Parameter 5 (🔢 Number): Tag list index
@@ -442,7 +442,7 @@ Compare choice tag count.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Story name
     - Parameter 4 (🔢 Number): Choice index
@@ -456,8 +456,8 @@ Compare current story chapter.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
     - Parameter 3 (🔤 Name (String)): Story name
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
@@ -469,8 +469,8 @@ Compare the current story line.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
     - Parameter 3 (🔤 Name (String)): Story name
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
@@ -482,8 +482,8 @@ Compare current line tag.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
     - Parameter 3 (🔤 Name (String)): Story name
     - Parameter 4 (🔢 Number): Tag list index
 
@@ -496,7 +496,7 @@ Compare current line tag count.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Story name
 
@@ -509,8 +509,8 @@ Compare the internal Ink function story output.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
     - Parameter 3 (🔤 Name (String)): Story name
     - Parameter 4 (🔤 Name (String)): Internal Ink method name
 
@@ -523,8 +523,8 @@ Compare the internal Ink function text value.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
     - Parameter 3 (🔤 Name (String)): Story name
     - Parameter 4 (🔤 Name (String)): Internal Ink method name
 
@@ -537,7 +537,7 @@ Compare the internal Ink function value.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Story name
     - Parameter 4 (🔤 Name (String)): Internal Ink method name
@@ -551,7 +551,7 @@ Compare the event parameter count.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Story name
     - Parameter 4 (🔤 Name (String)): Ink event name
@@ -565,7 +565,7 @@ Compare the event parameter value.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Story name
     - Parameter 4 (🔤 Name (String)): Ink event name
@@ -580,8 +580,8 @@ Compare the event parameter text.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
     - Parameter 3 (🔤 Name (String)): Story name
     - Parameter 4 (🔤 Name (String)): Ink event name
     - Parameter 5 (🔢 Number): Parameter index
@@ -595,8 +595,8 @@ Compare global tag.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
     - Parameter 3 (🔤 Name (String)): Story name
     - Parameter 4 (🔢 Number): Tag list index
 
@@ -609,7 +609,7 @@ Compare global tag count.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Story name
 
@@ -746,7 +746,7 @@ Compare the story variable value.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Story name
     - Parameter 4 (🔤 Name (String)): Variable name
@@ -760,8 +760,8 @@ Compare the story variable text.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
     - Parameter 3 (🔤 Name (String)): Story name
     - Parameter 4 (🔤 Name (String)): Variable name
 
@@ -774,7 +774,7 @@ Compare the chapter visit count of the story.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
     - Parameter 3 (🔤 Name (String)): Story name
     - Parameter 4 (🔤 Name (String)): Chapter name
@@ -865,4 +865,4 @@ Compare the chapter visit count of the story.
 
 ---
 
-*This page is an auto-generated reference page about the **Ink Dialog Tree** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Ink Dialog Tree** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

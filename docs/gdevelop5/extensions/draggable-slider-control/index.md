@@ -35,19 +35,19 @@ Let users select a numerical value by dragging a slider.
 
 ### Behavior properties
 
-- **Active track color (thumb color by default)** (string). Default value is ` `.
+- **Active track color (thumb color by default)** (🔤 String). Default value is ` `.
 - **Active track opacity** (🔢 Number). Default value is `255`.
 - **Enable interactions** (🔘 Boolean). Default value is `true`.
 - **Halo opacity (pressed)** (🔢 Number). Default value is `64`.
 - **Halo opacity (hover)** (🔢 Number). Default value is `32`.
 - **Halo size (hover)** (🔢 Number). Default value is `24`.
-- **Inactive track color (thumb color by default)** (string).
+- **Inactive track color (thumb color by default)** (🔤 String).
 - **Inactive track opacity** (🔢 Number). Default value is `96`.
 - **Rounded track ends** (🔘 Boolean). Default value is `true`.
 - **Thumb Color** (🎨 Color). Default value is ` 24;119;211`.
 - **Thumb height** (🔢 Number). Default value is `20`.
 - **Thumb opacity** (🔢 Number). Default value is `255`.
-- **Thumb shape** (choice, one of: "circle", "rectangle"). Default value is `circle`.
+- **Thumb shape** (Choice, one of: "circle", "rectangle"). Default value is `circle`.
 - **Thumb width** (🔢 Number). Default value is `20`.
 - **Tick spacing** (🔢 Number). Default value is `0`.
 - **Track length** (🔢 Number). Default value is `200`.
@@ -243,7 +243,7 @@ Change shape of thumb (circle or rectangle).
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (stringwithselector): New thumb shape (one of: "circle", "rectangle")
+    - Parameter 2 (🔤 String): New thumb shape (one of: "circle", "rectangle")
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -384,4 +384,4 @@ Check if the slider interations are enabled.
 
 ---
 
-*This page is an auto-generated reference page about the **Draggable slider (for Shape Painter)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Draggable slider (for Shape Painter)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

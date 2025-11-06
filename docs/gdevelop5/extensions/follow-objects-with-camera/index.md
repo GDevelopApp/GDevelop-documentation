@@ -45,4 +45,4 @@ Change the zoom and position of the camera to keep all instances of an object (o
 
 ---
 
-*This page is an auto-generated reference page about the **Follow multiple 2D objects with the camera** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Follow multiple 2D objects with the camera** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

@@ -20,14 +20,14 @@ Displays the player score and allows to submit it to a leaderboard.
 
 ### Object properties
 
-- **Default player name** (string).
-- **Leaderboard** (leaderboardid).
-- **Format** (choice, one of: "Number", "MM:SS.ms", "MM:SS", "SS.ms", "SS", "ms", "HH:MM:SS.ms", "HH:MM:SS"). Default value is `Number`.
-- **Prefix** (string).
-- **Suffix** (string).
+- **Default player name** (🔤 String).
+- **Leaderboard** (🔤 Leaderboard Identifier (String)).
+- **Format** (Choice, one of: "Number", "MM:SS.ms", "MM:SS", "SS.ms", "SS", "ms", "HH:MM:SS.ms", "HH:MM:SS"). Default value is `Number`.
+- **Prefix** (🔤 String).
+- **Suffix** (🔤 String).
 - **Round to decimal point** (🔢 Number). Default value is `3`.
-- **Score label** (string). Default value is `Score: `.
-- **Best score label** (string). Default value is `Best: `.
+- **Score label** (🔤 String). Default value is `Score: `.
+- **Best score label** (🔤 String). Default value is `Best: `.
 
 ??? quote "See internal technical details"
 
@@ -63,7 +63,7 @@ Change the default player name.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
-    - Parameter 2 (string): Value
+    - Parameter 2 (🔤 String): Value
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -76,7 +76,7 @@ Change the leaderboard of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
-    - Parameter 2 (leaderboardid): Value
+    - Parameter 2 (🔤 Leaderboard Identifier (String)): Value
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -102,7 +102,7 @@ Change the title of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🟰 Operator
-    - Parameter 2 (string): Value
+    - Parameter 2 (🔤 String): Value
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -117,7 +117,7 @@ Compare the best score of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -130,8 +130,8 @@ Compare the default player name.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -187,8 +187,8 @@ Compare the leaderboard of the object.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
-    - Parameter 2 (leaderboardid): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 Leaderboard Identifier (String)): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -200,8 +200,8 @@ Compare the player name.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -213,7 +213,7 @@ Compare the score.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: relationaloperator
+    - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
@@ -234,4 +234,4 @@ Compare the score.
 
 ---
 
-*This page is an auto-generated reference page about the **Leaderboard dialog** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Leaderboard dialog** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

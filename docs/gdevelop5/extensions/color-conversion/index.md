@@ -17,7 +17,7 @@ Expressions to convert color values between various formats (RGB, HSV, HSL, name
 | Expression | Description |  |
 |-----|-----|-----|
 | `ColorConversion::HexToLuminance(string)` | Calculate luminance of a hexadecimal color.  Example input: "0459AF". ||
-| | _string_ | Hex value |
+| | _🔤 String_ | Hex value |
 | `ColorConversion::HexToRgb(color)` | Converts a hexadecimal string into a RGB string.  Example input: "0459AF". ||
 | | _🎨 Color_ | Hex value |
 | `ColorConversion::HslToRgb(number, number, number)` | Converts HSL color values into a RGB string.  Valid input ranges:  H(0 to 360), S(0 to 100), L(0 to 100). ||
@@ -48,4 +48,4 @@ Expressions to convert color values between various formats (RGB, HSV, HSL, name
 
 ---
 
-*This page is an auto-generated reference page about the **Color Conversion** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Color Conversion** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

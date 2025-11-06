@@ -32,8 +32,8 @@ Display a banner that can be called once per 60 seconds.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Banner name
-    - Parameter 2 (stringwithselector): Ad size (one of: "970x90", "320x50", "160x600", "336x280", "728x90", "300x600", "468x60", "970x250", "300x250", "250x250", "120x600")
+    - Parameter 1 (🔤 String): Banner name
+    - Parameter 2 (🔤 String): Ad size (one of: "970x90", "320x50", "160x600", "336x280", "728x90", "300x600", "468x60", "970x250", "300x250", "250x250", "120x600")
     - Parameter 3 (🔢 Number): Position X
     - Parameter 4 (🔢 Number): Position Y
 
@@ -46,7 +46,7 @@ Display a video ad. The game is automatically muted while the video is playing.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (stringwithselector): Ad Type (one of: "midgame", "rewarded")
+    - Parameter 1 (🔤 String): Ad Type (one of: "midgame", "rewarded")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -68,7 +68,7 @@ Generate an invite link to invite friends to join your game sessions. This URL c
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Room id
+    - Parameter 1 (🔤 String): Room id
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -101,7 +101,7 @@ Hide a banner.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Banner name
+    - Parameter 1 (🔤 String): Banner name
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -123,7 +123,7 @@ Display an invite button.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Room id
+    - Parameter 1 (🔤 String): Room id
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -156,8 +156,8 @@ Save the session data.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Id
-    - Parameter 2 (string): Value
+    - Parameter 1 (🔤 String): Id
+    - Parameter 2 (🔤 String): Value
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -270,8 +270,8 @@ Compare the CrazyGames User ID.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -304,8 +304,8 @@ Compare the availability of the user's account.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -327,8 +327,8 @@ Compare the last error from the CrazyGames API.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -350,8 +350,8 @@ Compare the username.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1: relationaloperator
-    - Parameter 2 (string): Value to compare
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Value to compare
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -376,9 +376,9 @@ Check if the user is signed in.
 | `CrazyGamesAdApi::CrazyGamesUserID()` | Return the CrazyGames User ID. ||
 | `CrazyGamesAdApi::Environment()` | Get the environment. ||
 | `CrazyGamesAdApi::InviteLink(string)` | Return an invite link. ||
-| | _string_ | Room id |
+| | _🔤 String_ | Room id |
 | `CrazyGamesAdApi::InviteParam(string)` | Get invite parameters if user is invited to this game. ||
-| | _string_ | Param |
+| | _🔤 String_ | Param |
 | `CrazyGamesAdApi::IsDisableChat()` | Return true if the user prefers the chat disabled. ||
 | `CrazyGamesAdApi::IsInstantMultiplayer()` | Return true when the user prefers to instantly join a lobby. ||
 | `CrazyGamesAdApi::IsUserAccountAvailable()` | Return the availability of the user's account. ||
@@ -386,7 +386,7 @@ Check if the user is signed in.
 | `CrazyGamesAdApi::LinkAccountResponse()` | Get link account response. ||
 | `CrazyGamesAdApi::ProfilePic()` | Gets the signed-in user's profile picture URL. ||
 | `CrazyGamesAdApi::SessionData(string)` | Get user session data, if there is no saved data, "null" will be returned. ||
-| | _string_ | Id |
+| | _🔤 String_ | Id |
 | `CrazyGamesAdApi::SystemInfo()` | Retrieves user system info, browser, version and device. ||
 | `CrazyGamesAdApi::UserName()` | Return the username. ||
 | `CrazyGamesAdApi::UserToken()` | Retrieve the user's session token for authentication. ||
@@ -395,4 +395,4 @@ Check if the user is signed in.
 
 ---
 
-*This page is an auto-generated reference page about the **CrazyGames SDK v3** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **CrazyGames SDK v3** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

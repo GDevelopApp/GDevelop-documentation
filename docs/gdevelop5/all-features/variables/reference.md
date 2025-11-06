@@ -39,7 +39,7 @@ Adds a text (string) at the end of a array variable.
 ??? quote "See parameters & details"
 
     - Parameter 0 (🗄️ Any variable): Array variable
-    - Parameter 1 (string): Text to add
+    - Parameter 1 (🔤 String): Text to add
 
     > Technical note: this action internal type (in GDevelop JSON) is `PushString`.
 
@@ -70,7 +70,7 @@ Remove a child from a structure variable.
 ??? quote "See parameters & details"
 
     - Parameter 0 (🗄️ Any variable): Structure variable
-    - Parameter 1 (string): Child's name
+    - Parameter 1 (🔤 String): Child's name
 
     > Technical note: this action internal type (in GDevelop JSON) is `RemoveVariableChild`.
 
@@ -104,9 +104,10 @@ Modify the text (string) of a variable.
 
     - Parameter 0 (variableOrProperty): Variable
     - Parameter 1: 🟰 Operator
-    - Parameter 2 (string): Value
+    - Parameter 2 (🔤 String): Value
 
     > Technical note: this action internal type (in GDevelop JSON) is `SetStringVariable`.
+
 
 ## Conditions
 
@@ -140,7 +141,7 @@ Compare the text (string) of a variable.
 
     - Parameter 0 (variableOrPropertyOrParameter): Variable
     - Parameter 1: 🟰 Relational operator
-    - Parameter 2 (string): Value to compare
+    - Parameter 2 (🔤 String): Value to compare
 
     > Technical note: this condition internal type (in GDevelop JSON) is `StringVariable`.
 
@@ -161,9 +162,10 @@ Check if the specified child of the structure variable exists.
 ??? quote "See parameters & details"
 
     - Parameter 0: 🗄️ Any variable
-    - Parameter 1 (string): Name of the child
+    - Parameter 1 (🔤 String): Name of the child
 
     > Technical note: this condition internal type (in GDevelop JSON) is `VariableChildExists2`.
+
 
 ## Expressions
 
@@ -186,4 +188,4 @@ Check if the specified child of the structure variable exists.
 
 The Variables extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Variables** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Variables** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

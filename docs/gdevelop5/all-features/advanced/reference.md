@@ -47,9 +47,10 @@ Set the return value of the events function to the specified text (to be used wi
 
 ??? quote "See parameters & details"
 
-    - Parameter 0 (string): The text to be returned
+    - Parameter 0 (🔤 String): The text to be returned
 
     > Technical note: this action internal type (in GDevelop JSON) is `SetReturnString`.
+
 
 
 
@@ -59,4 +60,4 @@ Set the return value of the events function to the specified text (to be used wi
 
 The Event functions extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Event functions** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Event functions** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

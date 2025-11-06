@@ -25,10 +25,10 @@ A rating system indicated by stars using the shape painter.
 
 ### Behavior properties
 
-- **Empty Star Fill Color** (string). Default value is `155;155;155`.
-- **Empty Star Outline Color** (string). Default value is `155;155;155`.
-- **Star Fill Color** (string). Default value is `248;231;28`.
-- **Star Outline Color** (string). Default value is `248;231;28`.
+- **Empty Star Fill Color** (🔤 String). Default value is `155;155;155`.
+- **Empty Star Outline Color** (🔤 String). Default value is `155;155;155`.
+- **Star Fill Color** (🔤 String). Default value is `248;231;28`.
+- **Star Outline Color** (🔤 String). Default value is `248;231;28`.
 - **Number of Points on Star** (🔢 Number). Default value is `5`.
 - **Star Rotation** (🔢 Number). Default value is `0`.
 - **Size** (🔢 Number). Default value is `32`.
@@ -89,4 +89,4 @@ Sets a new total stars count.
 
 ---
 
-*This page is an auto-generated reference page about the **Star Rating** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Star Rating** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

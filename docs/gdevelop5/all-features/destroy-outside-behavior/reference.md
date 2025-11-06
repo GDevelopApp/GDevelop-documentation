@@ -8,6 +8,17 @@ This behavior can be used to destroy objects when they go outside of the bounds 
 
 Destroy objects automatically when they go outside of the 2D camera borders. 
 
+### Behavior properties
+
+- **Deletion margin** (🔢 Number, Distance). Margin before deleting the object, in pixels. Default value is `200`.
+- **Unseen object grace distance** (🔢 Number, Distance). If the object hasn't been visible yet, don't delete it until it travels this far beyond the screen (in pixels). Useful to avoid objects being deleted before they are visible when they spawn. Default value is `10000`.
+
+??? quote "See internal technical details"
+
+
+    - **Deletion margin** is stored as `extraBorder` (Number). Unit is Pixel. Default value is `200`.
+    - **Unseen object grace distance** is stored as `unseenGraceDistance` (Number). Unit is Pixel. Default value is `10000`.
+
 ### Behavior actions
 
 **Additional border (extra distance before deletion)**  
@@ -33,6 +44,7 @@ Change the grace distance (in pixels) before deleting the object if it has never
     - Parameter 3 (🔢 Number): Value
 
     > Technical note: this action internal type (in GDevelop JSON) is `DestroyOutsideBehavior::DestroyOutside::SetUnseenGraceDistance`.
+
 
 ### Behavior conditions
 
@@ -60,6 +72,7 @@ Compare the grace distance (in pixels) before deleting the object if it has neve
 
     > Technical note: this condition internal type (in GDevelop JSON) is `DestroyOutsideBehavior::DestroyOutside::UnseenGraceDistance`.
 
+
 ### Behavior expressions
 
 | Expression | Description |  |
@@ -73,4 +86,4 @@ Compare the grace distance (in pixels) before deleting the object if it has neve
 
 The Destroy Outside Screen Behavior extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Destroy Outside Screen Behavior** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Destroy Outside Screen Behavior** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

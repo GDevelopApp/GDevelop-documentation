@@ -28,8 +28,8 @@ Adds multiple items to an inventory.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Inventory name
-    - Parameter 2 (string): Item name
+    - Parameter 1 (🔤 String): Inventory name
+    - Parameter 2 (🔤 String): Item name
     - Parameter 3 (🔢 Number): How many objects to add?
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
@@ -41,8 +41,8 @@ Removes multiple items from an inventory.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Inventory name
-    - Parameter 2 (string): Item name
+    - Parameter 1 (🔤 String): Inventory name
+    - Parameter 2 (🔤 String): Item name
     - Parameter 3 (🔢 Number): How many objects to remove?
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
@@ -54,8 +54,8 @@ Sets the number of items in an inventory.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Inventory name
-    - Parameter 2 (string): Item name
+    - Parameter 1 (🔤 String): Inventory name
+    - Parameter 2 (🔤 String): Item name
     - Parameter 3 (🔢 Number): New amount of items
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
@@ -68,4 +68,4 @@ Sets the number of items in an inventory.
 
 ---
 
-*This page is an auto-generated reference page about the **Extra inventory functions (deprecated)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Extra inventory functions (deprecated)** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

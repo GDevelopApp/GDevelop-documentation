@@ -121,7 +121,7 @@ Expressions to convert numbers to string, strings to numbers, angles (degrees fr
 | `ToJSON(variable)` | Convert a variable to JSON ||
 | | _🗄️ Any variable_ | The variable to be stringified |
 | `ToNumber(string)` | Convert the text to a number ||
-| | _string_ | Text to convert to a number |
+| | _🔤 String_ | Text to convert to a number |
 | `ToRad(number)` | Converts the angle, expressed in degrees, into radians ||
 | | _🔢 Number_ | Angle, in degrees |
 | `ToString(number)` | Convert the result of the expression to text ||
@@ -458,43 +458,43 @@ Provides expressions to manipulate strings (also called texts): new line, upper/
 | | _🔢 Number_ | Code point |
 | `NewLine()` | Insert a new line ||
 | `StrAt(string, number)` | Get a character from a text ||
-| | _string_ | Text |
+| | _🔤 String_ | Text |
 | | _🔢 Number_ | Position of the character (the first letter is at position 0) |
 | `StrFind(string, string)` | Search in a text (return the position of the result or -1 if not found) ||
-| | _string_ | Text |
-| | _string_ | Text to search for |
+| | _🔤 String_ | Text |
+| | _🔤 String_ | Text to search for |
 | `StrFindFrom(string, string, number)` | Search in a text, starting from a position (return the position of the result or -1 if not found) ||
-| | _string_ | Text |
-| | _string_ | Text to search for |
+| | _🔤 String_ | Text |
+| | _🔤 String_ | Text to search for |
 | | _🔢 Number_ | Position of the first character in the string to be considered in the search |
 | `StrFindLast(string, string)` | Search the last occurrence in a string (return the position of the result, from the beginning of the string, or -1 if not found) ||
-| | _string_ | Text |
-| | _string_ | Text to search for |
+| | _🔤 String_ | Text |
+| | _🔤 String_ | Text to search for |
 | `StrFindLastFrom(string, string, number)` | Search in a text the last occurrence, starting from a position (return the position of the result, from the beginning of the string, or -1 if not found) ||
-| | _string_ | Text |
-| | _string_ | Text to search for |
+| | _🔤 String_ | Text |
+| | _🔤 String_ | Text to search for |
 | | _🔢 Number_ | Position of the last character in the string to be considered in the search |
 | `StrLength(string)` | Length of a text ||
-| | _string_ | Text |
+| | _🔤 String_ | Text |
 | `StrRepeat(string, number)` | Repeat a text ||
-| | _string_ | Text to repeat |
+| | _🔤 String_ | Text to repeat |
 | | _🔢 Number_ | Repetition count |
 | `StrReplaceAll(string, string, string)` | Replace all occurrences of a text by another. ||
-| | _string_ | Text in which the replacement(s) must be done |
-| | _string_ | Text to find inside the first text |
-| | _string_ | Replacement to put instead of the text to find |
+| | _🔤 String_ | Text in which the replacement(s) must be done |
+| | _🔤 String_ | Text to find inside the first text |
+| | _🔤 String_ | Replacement to put instead of the text to find |
 | `StrReplaceOne(string, string, string)` | Replace the first occurrence of a text by another. ||
-| | _string_ | Text in which the replacement must be done |
-| | _string_ | Text to find inside the first text |
-| | _string_ | Replacement to put instead of the text to find |
+| | _🔤 String_ | Text in which the replacement must be done |
+| | _🔤 String_ | Text to find inside the first text |
+| | _🔤 String_ | Replacement to put instead of the text to find |
 | `SubStr(string, number, number)` | Get a portion of a text ||
-| | _string_ | Text |
+| | _🔤 String_ | Text |
 | | _🔢 Number_ | Start position of the portion (the first letter is at position 0) |
 | | _🔢 Number_ | Length of the portion |
 | `ToLowerCase(string)` | Lowercase a text ||
-| | _string_ | Text |
+| | _🔤 String_ | Text |
 | `ToUpperCase(string)` | Uppercase a text ||
-| | _string_ | Text |
+| | _🔤 String_ | Text |
 
 ---
 
@@ -808,11 +808,11 @@ Actions and conditions to store named inventories in memory, with items (indexed
 | Expression | Description |  |
 |-----|-----|-----|
 | `Inventory::Count(string, string)` | Get the number of an item in the inventory ||
-| | _string_ | Inventory name |
-| | _string_ | Item name |
+| | _🔤 String_ | Inventory name |
+| | _🔤 String_ | Item name |
 | `Inventory::Maximum(string, string)` | Get the maximum of an item in the inventory, or 0 if it is unlimited ||
-| | _string_ | Inventory name |
-| | _string_ | Item name |
+| | _🔤 String_ | Inventory name |
+| | _🔤 String_ | Item name |
 
 ---
 
@@ -1014,7 +1014,7 @@ Handle dialogue trees, made using Yarn Spinner. Useful to make complex dialogues
 | | _🔢 Number_ | parameter Index Number _Optional_. |
 | `DialogueTree::CommandParametersCount()` | Get the number of parameters in the currently passed command ||
 | `DialogueTree::HorizontalOptionsList(string)` | Get the text of all available options from an options line type as a horizontal list. You can also pass the selected option's cursor string, which by default is -> ||
-| | _string_ | Options Selection Cursor |
+| | _🔤 String_ | Options Selection Cursor |
 | `DialogueTree::LineText()` | Returns the current dialogue line text ||
 | `DialogueTree::Option(number)` | Get the text of an option from an options line type, using the option's Number. The numbers start from 0. ||
 | | _🔢 Number_ | Option Index Number |
@@ -1023,11 +1023,11 @@ Handle dialogue trees, made using Yarn Spinner. Useful to make complex dialogues
 | `DialogueTree::TagParameter(number)` | Get parameter from a Tag found by the branch contains tag condition ||
 | | _🔢 Number_ | parameter Index Number _Optional_. |
 | `DialogueTree::Variable(string)` | Get the number stored in a dialogue state variable ||
-| | _string_ | Dialogue state variable name |
+| | _🔤 String_ | Dialogue state variable name |
 | `DialogueTree::VariableString(string)` | Get the string stored in a dialogue state variable ||
-| | _string_ | Dialogue state variable name |
+| | _🔤 String_ | Dialogue state variable name |
 | `DialogueTree::VerticalOptionsList(string)` | Get the text of all available options from an options line type as a vertical list. You can also pass the selected option's cursor string, which by default is -> ||
-| | _string_ | Options Selection Cursor |
+| | _🔤 String_ | Options Selection Cursor |
 | `DialogueTree::VisitedBranchTitles()` | Get a list of all visited branches ||
 
 ---
@@ -1053,14 +1053,14 @@ Access the filesystem of the operating system - only works on native, desktop ga
 |-----|-----|-----|
 | `FileSystem::DesktopPath()` | Get the path to the desktop folder. ||
 | `FileSystem::DirectoryName(string)` | Returns the portion of the path that represents the directories, without the ending file name. ||
-| | _string_ | File or folder path |
+| | _🔤 String_ | File or folder path |
 | `FileSystem::DocumentsPath()` | Get the path to the documents folder. ||
 | `FileSystem::ExecutableFolderPath()` | Get the path to this game executable folder. ||
 | `FileSystem::ExecutablePath()` | Get the path to this game executable file. ||
 | `FileSystem::ExtensionName(string)` | Returns the extension of the file designated by the given path, including the extension period. For example: ".txt". ||
-| | _string_ | File path |
+| | _🔤 String_ | File path |
 | `FileSystem::FileName(string)` | Returns the name of the file with its extension, if any. ||
-| | _string_ | File path |
+| | _🔤 String_ | File path |
 | `FileSystem::PathDelimiter()` | Get the operating system path delimiter. ||
 | `FileSystem::PicturesPath()` | Get the path to the pictures folder. ||
 | `FileSystem::TempPath()` | Get the path to temp folder. ||
@@ -1078,15 +1078,15 @@ Use Google Firebase services (database, functions, storage...) in your game. [Re
 |-----|-----|-----|
 | `Firebase::GetAccountCreationTime()` | Return the accounts creation time. ||
 | `Firebase::GetAuthToken(string)` | Get the user authentication token. The token is the proof of authentication. ||
-| | _string_ | Setting Name |
+| | _🔤 String_ | Setting Name |
 | `Firebase::GetLastLoginTime()` | Return the user last login time. ||
 | `Firebase::GetPhoneNumber()` | Return the user phone number. ||
 | `Firebase::GetPhotoURL()` | Gets an URL to the user profile picture. ||
 | `Firebase::GetRefreshToken()` | Return the user refresh token. For advanced usage only. ||
 | `Firebase::GetRemoteConfigNumber(string)` | Get a setting from Firebase Remote Config as Number. ||
-| | _string_ | Setting Name |
+| | _🔤 String_ | Setting Name |
 | `Firebase::GetRemoteConfigString(string)` | Get a setting from Firebase Remote Config as a string. ||
-| | _string_ | Setting Name |
+| | _🔤 String_ | Setting Name |
 | `Firebase::GetTenantID()` | Return the user tenant ID. For advanced usage only. ||
 | `Firebase::GetUserDisplayName()` | Return the user display name. ||
 | `Firebase::GetUserEmail()` | Return the user email address. ||
@@ -1103,7 +1103,7 @@ Allow your game to send scores to your leaderboards (anonymously or from the log
 | Expression | Description |  |
 |-----|-----|-----|
 | `Leaderboards::FormatPlayerName(string)` | Formats a name so that it can be submitted to a leaderboard. ||
-| | _string_ | Raw player name |
+| | _🔤 String_ | Raw player name |
 | `Leaderboards::LastSaveError(leaderboard identifier)` | Get the error of the last save attempt. ||
 | | _🔤 Leaderboard Identifier (String)_ | Leaderboard If no leaderboard is specified, will return the value related to the last leaderboard save action. _Optional_. |
 
@@ -1143,9 +1143,9 @@ Use the "Open game lobbies" action to let players join a game, and use condition
 | `Multiplayer::LastJoinedPlayerNumber()` | Returns the player number of the player that has just joined the lobby. ||
 | `Multiplayer::LastLeftPlayerNumber()` | Returns the player number of the player that has just left the lobby. ||
 | `Multiplayer::MessageData(string)` | Returns the data received when the specified message was received from another player. ||
-| | _string_ | Message name |
+| | _🔤 String_ | Message name |
 | `Multiplayer::MessageSender(string)` | Returns the player number of the sender of the specified message. ||
-| | _string_ | Message name |
+| | _🔤 String_ | Message name |
 | `Multiplayer::ObjectsSynchronizationRate()` | Return objects synchronization rate (between 1 and 60, default is 30 times per second). ||
 | `Multiplayer::PlayerPing(number)` | Get the ping of the player in the lobby. ||
 | | _🔢 Number_ | The position of the player in the lobby (1, 2, ...) |
@@ -1174,9 +1174,9 @@ Allow game instances to communicate remotely using messages sent via WebRTC (P2P
 | Expression | Description |  |
 |-----|-----|-----|
 | `P2P::GetEventData(string)` | Returns the data received when the specified event was last triggered ||
-| | _string_ | Event name |
+| | _🔤 String_ | Event name |
 | `P2P::GetEventSender(string)` | Returns the id of the peer that triggered the event ||
-| | _string_ | Event name |
+| | _🔤 String_ | Event name |
 | `P2P::GetID()` | Gets the client ID of the current game instance ||
 | `P2P::GetLastConnectedPeer()` | Gets the ID of the newly connected peer. ||
 | `P2P::GetLastDisconnectedPeer()` | Gets the ID of the latest peer that has disconnected. ||
@@ -1454,11 +1454,11 @@ Display and smoothly animate a 2D object with skeletal animations made with Spin
 |-----|-----|-----|
 | `Object.Animation()` | Return the duration of the smooth transition between 2 animations (in second). ||
 | `Object.PointAttachmentX(string, string)` | Return x position of spine point attachment. ||
-| | _string_ | Attachment name |
-| | _string_ | Slot name (use "" if names are the same) |
+| | _🔤 String_ | Attachment name |
+| | _🔤 String_ | Slot name (use "" if names are the same) |
 | `Object.PointAttachmentY(string, string)` | Return y position of spine point attachment. ||
-| | _string_ | Attachment name |
-| | _string_ | Slot name (use "" if names are the same) |
+| | _🔤 String_ | Attachment name |
+| | _🔤 String_ | Slot name (use "" if names are the same) |
 
 ---
 
@@ -1491,14 +1491,14 @@ Adds integrations for Steam's Steamworks game development SDK.
 | | _🔤 Name (String)_ | The Steam App ID of the application |
 | `Steamworks::Level()` | Obtains the player's Steam level ||
 | `Steamworks::LobbyAttribute(string, string)` | Obtains the value of one of a lobby's attributes. ||
-| | _string_ | The ID of the lobby |
+| | _🔤 String_ | The ID of the lobby |
 | | _🔤 Name (String)_ | The attribute to read |
 | `Steamworks::LobbyMemberCount(string)` | Obtains a lobby's member count. ||
-| | _string_ | The ID of the lobby |
+| | _🔤 String_ | The ID of the lobby |
 | `Steamworks::LobbyMemberLimit(string)` | Obtains a lobby's maximum member limit. ||
-| | _string_ | The ID of the lobby |
+| | _🔤 String_ | The ID of the lobby |
 | `Steamworks::LobbyOwner(string)` | Obtains the Steam ID of the user that owns a lobby. ||
-| | _string_ | The ID of the lobby |
+| | _🔤 String_ | The ID of the lobby |
 | `Steamworks::Name()` | The player's registered name on Steam. ||
 | `Steamworks::ReadCloudFile(string)` | Reads a file from Steam Cloud and returns its contents. ||
 | | _🔤 Name (String)_ | Name of file to read |

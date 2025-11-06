@@ -8,6 +8,17 @@ Displays a Spine animation. [Read more explanations about it.](/gdevelop5/object
 
 Display and smoothly animate a 2D object with skeletal animations made with Spine. Use files exported from Spine (json, atlas and image). 
 
+### Object properties
+
+- **Scale** (🔢 Number). Default value is `1`.
+- **Spine json** (🗂️ Resource).
+
+??? quote "See internal technical details"
+
+
+    - **Scale** is stored as `scale` (number). Default value is `1`.
+    - **Spine json** is stored as `spineResourceName` (resource). Default value is ``.
+
 ### Object actions
 
 **Animation mixing duration**  
@@ -20,6 +31,7 @@ Change the duration of the smooth transition between 2 animations (in second).
     - Parameter 2 (🔢 Number): Value
 
     > Technical note: this action internal type (in GDevelop JSON) is `SpineObject::SpineObject::SetAnimation`.
+
 
 ### Object conditions
 
@@ -40,8 +52,8 @@ Compare x position of spine point attachment.
 ??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): Spine
-    - Parameter 1 (string): Attachment name
-    - Parameter 2 (string): Slot name (use "" if names are the same)
+    - Parameter 1 (🔤 String): Attachment name
+    - Parameter 2 (🔤 String): Slot name (use "" if names are the same)
     - Parameter 3: 🟰 Relational operator
     - Parameter 4 (🔢 Number): Value to compare
 
@@ -53,12 +65,13 @@ Compare y position of spine point attachment.
 ??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): Spine
-    - Parameter 1 (string): Attachment name
-    - Parameter 2 (string): Slot name (use "" if names are the same)
+    - Parameter 1 (🔤 String): Attachment name
+    - Parameter 2 (🔤 String): Slot name (use "" if names are the same)
     - Parameter 3: 🟰 Relational operator
     - Parameter 4 (🔢 Number): Value to compare
 
     > Technical note: this condition internal type (in GDevelop JSON) is `SpineObject::SpineObject::PointAttachmentY`.
+
 
 ### Object expressions
 
@@ -66,11 +79,11 @@ Compare y position of spine point attachment.
 |-----|-----|-----|
 | `Object.Animation()` | Return the duration of the smooth transition between 2 animations (in second). ||
 | `Object.PointAttachmentX(string, string)` | Return x position of spine point attachment. ||
-| | _string_ | Attachment name |
-| | _string_ | Slot name (use "" if names are the same) |
+| | _🔤 String_ | Attachment name |
+| | _🔤 String_ | Slot name (use "" if names are the same) |
 | `Object.PointAttachmentY(string, string)` | Return y position of spine point attachment. ||
-| | _string_ | Attachment name |
-| | _string_ | Slot name (use "" if names are the same) |
+| | _🔤 String_ | Attachment name |
+| | _🔤 String_ | Slot name (use "" if names are the same) |
 
 
 
@@ -78,4 +91,4 @@ Compare y position of spine point attachment.
 
 The Spine (experimental) extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Spine (experimental)** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Spine (experimental)** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

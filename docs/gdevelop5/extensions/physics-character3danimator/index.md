@@ -22,11 +22,11 @@ Change animations of a 3D physics character automatically.
 
 ### Behavior properties
 
-- **"Fall" animation name** (string). Default value is `Fall`.
-- **"Idle" animation name ** (string). Default value is `Idle`.
-- **"Jump" animation name** (string). Default value is `Jump`.
+- **"Fall" animation name** (🔤 String). Default value is `Fall`.
+- **"Idle" animation name ** (🔤 String). Default value is `Idle`.
+- **"Jump" animation name** (🔤 String). Default value is `Jump`.
 - **Rotation speed** (🔢 Number, Angular speed). Default value is `720`.
-- **"Run" animation name** (string). Default value is `Run`.
+- **"Run" animation name** (🔤 String). Default value is `Run`.
 
 ??? quote "See internal technical details"
 
@@ -67,7 +67,7 @@ Compare the rotation speed of the object.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2: relationaloperator
+    - Parameter 2: 🟰 Relational operator
     - Parameter 3 (🔢 Number): Value to compare
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
@@ -84,4 +84,4 @@ Compare the rotation speed of the object.
 
 ---
 
-*This page is an auto-generated reference page about the **3D physics character animator** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **3D physics character animator** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

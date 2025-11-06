@@ -54,7 +54,7 @@ Move objects in elliptical orbit around a center object. Z-order is changed to m
     - Parameter 7 (🔢 Number): Starting angle offset (in degrees)
     - Parameter 8 (❓ Yes or No): Reset locations of orbiting objects after quantity is reduced
     - Parameter 9 (🔢 Number): Horizontal distance from the center object (pixels)
-    - Parameter 10 (stringwithselector): Foreground Side (one of: "Top", "Bottom", "Left", "Right")
+    - Parameter 10 (🔤 String): Foreground Side (one of: "Top", "Bottom", "Left", "Right")
 
     > Technical note: parameters 0, 11 are internal parameters handled by GDevelop.
 
@@ -102,4 +102,4 @@ Delete orbiting objects that are linked to a center object.
 
 ---
 
-*This page is an auto-generated reference page about the **Make objects orbit around a center object** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Make objects orbit around a center object** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

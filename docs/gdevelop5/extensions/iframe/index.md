@@ -27,15 +27,15 @@ Create a new Iframe to embed a website inside the game.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Name (DOM id)
-    - Parameter 2 (string): URL
+    - Parameter 1 (🔤 String): Name (DOM id)
+    - Parameter 2 (🔤 String): URL
     - Parameter 3 (🔢 Number): Width
     - Parameter 4 (🔢 Number): Height
     - Parameter 5 (🔢 Number): Position X
     - Parameter 6 (🔢 Number): Position Y
     - Parameter 7 (❓ Yes or No): Show scrollbar
     - Parameter 8 (❓ Yes or No): Show border
-    - Parameter 9 (string): Extra CSS styles (optional)
+    - Parameter 9 (🔤 String): Extra CSS styles (optional)
       e.g: `"border: 10px #f00 solid;"`
 
     > Technical note: parameters 0, 10 are internal parameters handled by GDevelop.
@@ -47,7 +47,7 @@ Delete the specified Iframe.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Name (DOM id)
+    - Parameter 1 (🔤 String): Name (DOM id)
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -59,4 +59,4 @@ Delete the specified Iframe.
 
 ---
 
-*This page is an auto-generated reference page about the **Iframe** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Iframe** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

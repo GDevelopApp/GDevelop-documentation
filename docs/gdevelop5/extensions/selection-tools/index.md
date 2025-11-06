@@ -129,7 +129,7 @@ Current selection type.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (stringwithselector): Selection type (one of: "Rectangular", "Polygonal", "Lasso")
+    - Parameter 1 (🔤 String): Selection type (one of: "Rectangular", "Polygonal", "Lasso")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -174,4 +174,4 @@ _No expressions for this behavior._
 
 ---
 
-*This page is an auto-generated reference page about the **Selection tools** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Selection tools** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

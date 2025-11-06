@@ -40,8 +40,8 @@ Copy the global variable to scene. This copy everything from the types to the va
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Global variable to copy
-    - Parameter 2 (string): Scene variable destination
+    - Parameter 1 (🔤 String): Global variable to copy
+    - Parameter 2 (🔤 String): Scene variable destination
     - Parameter 3 (❓ Yes or No): Clear the destination variable before copying
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
@@ -54,10 +54,10 @@ Copy the object variable from one object to another.
 ??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Source object
-    - Parameter 2 (string): Variable to copy
+    - Parameter 2 (🔤 String): Variable to copy
     - Parameter 3 (👾 Object): Destination object
       To copy the variable between 2 instances of the same object, the variable has to be copied to another object first.
-    - Parameter 4 (string): Destination variable
+    - Parameter 4 (🔤 String): Destination variable
     - Parameter 5 (❓ Yes or No): Clear the destination variable before copying
 
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
@@ -69,8 +69,8 @@ Copy the scene variable to global. This copy everything from the types to the va
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Scene variable to copy
-    - Parameter 2 (string): Global variable destination
+    - Parameter 1 (🔤 String): Scene variable to copy
+    - Parameter 2 (🔤 String): Global variable destination
     - Parameter 3 (❓ Yes or No): Clear the destination variable before copying
 
     > Technical note: parameters 0, 4 are internal parameters handled by GDevelop.
@@ -82,7 +82,7 @@ Delete the global variable, removing it from memory.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Name of the global variable to delete
+    - Parameter 1 (🔤 String): Name of the global variable to delete
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -94,7 +94,7 @@ Delete an object variable, removing it from memory.
 ??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
-    - Parameter 2 (string): Name of object variable
+    - Parameter 2 (🔤 String): Name of object variable
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -105,7 +105,7 @@ Delete the scene variable, the variable will be deleted from the memory.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Name of the scene variable to delete
+    - Parameter 1 (🔤 String): Name of the scene variable to delete
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -116,7 +116,7 @@ Modify the value of a global variable.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Name of the global variable
+    - Parameter 1 (🔤 String): Name of the global variable
     - Parameter 2 (🔢 Number): Value
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -128,8 +128,8 @@ Modify the text of a global variable.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Name of the global variable
-    - Parameter 2 (string): Value
+    - Parameter 1 (🔤 String): Name of the global variable
+    - Parameter 2 (🔤 String): Value
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -140,7 +140,7 @@ Modify the value of a scene variable.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Name of the scene variable
+    - Parameter 1 (🔤 String): Name of the scene variable
     - Parameter 2 (🔢 Number): Value
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
@@ -152,8 +152,8 @@ Modify the text of a scene variable.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Name of the scene variable
-    - Parameter 2 (string): Value
+    - Parameter 1 (🔤 String): Name of the scene variable
+    - Parameter 2 (🔤 String): Value
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -167,7 +167,7 @@ Check if the global variable exists.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Name of the global variable
+    - Parameter 1 (🔤 String): Name of the global variable
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -179,7 +179,7 @@ Check if an object variable exists.
 ??? quote "See parameters & details"
 
     - Parameter 1: 👾 Object
-    - Parameter 2 (string): Name of object variable
+    - Parameter 2 (🔤 String): Name of object variable
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -190,7 +190,7 @@ Check if the scene variable exists.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Name of the scene variable
+    - Parameter 1 (🔤 String): Name of the scene variable
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -202,15 +202,15 @@ Check if the scene variable exists.
 | Expression | Description |  |
 |-----|-----|-----|
 | `ExtendedVariables::GlobalVariable(string)` | Return the value of a global variable. ||
-| | _string_ | Name of the global variable |
+| | _🔤 String_ | Name of the global variable |
 | `ExtendedVariables::GlobalVariableString(string)` | Return the text of a global variable. ||
-| | _string_ | Name of the global variable |
+| | _🔤 String_ | Name of the global variable |
 | `ExtendedVariables::Variable(string)` | Return the value of a scene variable. ||
-| | _string_ | Name of the scene variable |
+| | _🔤 String_ | Name of the scene variable |
 | `ExtendedVariables::VariableString(string)` | Return the text of a scene variable. ||
-| | _string_ | Name of the scene variable |
+| | _🔤 String_ | Name of the scene variable |
 
 
 ---
 
-*This page is an auto-generated reference page about the **Extended variables support** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Extended variables support** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

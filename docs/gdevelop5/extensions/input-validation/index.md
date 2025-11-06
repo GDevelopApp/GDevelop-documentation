@@ -19,7 +19,7 @@ Check if the string has only latin alphabet letters.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Letters
+    - Parameter 1 (🔤 String): Letters
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -30,7 +30,7 @@ Check if the string is a valid email.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Email
+    - Parameter 1 (🔤 String): Email
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -41,7 +41,7 @@ Check if the string represents a number (potentially with a minus sign and poten
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Number
+    - Parameter 1 (🔤 String): Number
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -52,7 +52,7 @@ Check if the string is a valid phone number.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): Phone number
+    - Parameter 1 (🔤 String): Phone number
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -63,7 +63,7 @@ Check if the string is a valid URL.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): URL
+    - Parameter 1 (🔤 String): URL
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -75,15 +75,15 @@ Check if the string is a valid URL.
 | Expression | Description |  |
 |-----|-----|-----|
 | `InputValidation::CountNewLines(string)` | Count the number of lines in a string. ||
-| | _string_ | The text to count lines from |
+| | _🔤 String_ | The text to count lines from |
 | `InputValidation::RemoveFirstLine(string)` | Returns the string without the first line. ||
-| | _string_ | String to remove the first line from |
+| | _🔤 String_ | String to remove the first line from |
 | `InputValidation::RemoveNewLines(string)` | Replaces every new line character with a space. ||
-| | _string_ | The text to remove new lines from |
+| | _🔤 String_ | The text to remove new lines from |
 | `InputValidation::ToAlphanumerical(string)` | Remove any non-numerical and non A-Z characters. ||
-| | _string_ | The text to sanitize |
+| | _🔤 String_ | The text to sanitize |
 
 
 ---
 
-*This page is an auto-generated reference page about the **Input Validation** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Input Validation** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

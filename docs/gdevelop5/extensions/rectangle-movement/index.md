@@ -36,7 +36,7 @@ Update rectangular movement to follow the border of an object. Run once, or ever
     - Parameter 1 (👾 Object): Moving object
     - Parameter 2 (🧩 Behavior): Rectangle Movement (required)
     - Parameter 3 (👾 Object): Center object
-    - Parameter 4 (stringwithselector): Position on border (one of: "Inside", "Center", "Outside")
+    - Parameter 4 (🔤 String): Position on border (one of: "Inside", "Center", "Outside")
 
     > Technical note: parameters 0, 5 are internal parameters handled by GDevelop.
 
@@ -65,10 +65,10 @@ Move objects in a rectangular pattern.
 ### Behavior properties
 
 - **Clockwise** (🔘 Boolean). Default value is `true`.
-- **Easing** (choice, one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo"). Default value is `easeInOutSine`.
+- **Easing** (Choice, one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo"). Default value is `easeInOutSine`.
 - **Height** (🔢 Number, Distance). Default value is `100`.
 - **Horizontal edge duration** (🔢 Number, Duration). Default value is `4`.
-- **Initial position** (choice, one of: "Top-left corner", "Top-right corner", "Bottom-right corner", "Bottom-left corner"). Default value is `Top-left corner`.
+- **Initial position** (Choice, one of: "Top-left corner", "Top-right corner", "Bottom-right corner", "Bottom-left corner"). Default value is `Top-left corner`.
 - **Vertical edge duration** (🔢 Number, Duration). Default value is `1`.
 - **Width** (🔢 Number, Distance). Default value is `100`.
 
@@ -118,7 +118,7 @@ Change the easing function of the movement.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (stringwithselector): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
+    - Parameter 2 (🔤 String): Easing (one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo")
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -196,7 +196,7 @@ Teleport the object to a corner of the movement rectangle.
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (stringwithselector): Corner (one of: "Top-left corner", "Top-right corner", "Bottom-left corner", "Bottom-right corner")
+    - Parameter 2 (🔤 String): Corner (one of: "Top-left corner", "Top-right corner", "Bottom-left corner", "Bottom-right corner")
 
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
@@ -344,4 +344,4 @@ Object is on the top side of the rectangle.
 
 ---
 
-*This page is an auto-generated reference page about the **Rectangular movement** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Rectangular movement** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

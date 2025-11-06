@@ -40,6 +40,7 @@ Deactivate the orientation sensor.
 
     > Technical note: this action internal type (in GDevelop JSON) is `DeviceSensors::DeactivateOrientationListener`.
 
+
 ## Conditions
 
 **Compare the value of acceleration on X-axis**  
@@ -150,6 +151,7 @@ Compare the value of rotation gamma. (Note: few devices support this sensor)
 
     > Technical note: this condition internal type (in GDevelop JSON) is `DeviceSensors::RotationGamma`.
 
+
 ## Expressions
 
 | Expression | Description |  |
@@ -171,4 +173,4 @@ Compare the value of rotation gamma. (Note: few devices support this sensor)
 
 The Device sensors extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Device sensors** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Device sensors** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

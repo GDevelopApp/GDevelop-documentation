@@ -22,7 +22,7 @@ Pick object instances that have the highest value of an object variable.
 ??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Object to select instances from
-    - Parameter 2 (string): Object variable name
+    - Parameter 2 (🔤 String): Object variable name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -45,7 +45,7 @@ Pick object instances that have the lowest value of an object variable.
 ??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Object to select instances from
-    - Parameter 2 (string): Object variable name
+    - Parameter 2 (🔤 String): Object variable name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -82,7 +82,7 @@ Pick object instances that have the highest value of an object variable.
 ??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Object to select instances from
-    - Parameter 2 (string): Object variable name
+    - Parameter 2 (🔤 String): Object variable name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -105,7 +105,7 @@ Pick object instances that have the lowest value of an object variable.
 ??? quote "See parameters & details"
 
     - Parameter 1 (👾 Object): Object to select instances from
-    - Parameter 2 (string): Object variable name
+    - Parameter 2 (🔤 String): Object variable name
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -139,4 +139,4 @@ Unpicks all instances of an object.
 
 ---
 
-*This page is an auto-generated reference page about the **Object picking tools** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Object picking tools** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

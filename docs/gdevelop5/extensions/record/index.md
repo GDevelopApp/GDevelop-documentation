@@ -41,8 +41,8 @@ Save recording to the file system on destop, or to the downloads folder for web.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): File location, set using a FileSystem path e.g. FileSystem::DesktopPath() (only used for desktop saves)
-    - Parameter 2 (string): Name to save file as
+    - Parameter 1 (🔤 String): File location, set using a FileSystem path e.g. FileSystem::DesktopPath() (only used for desktop saves)
+    - Parameter 2 (🔤 String): Name to save file as
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
@@ -53,7 +53,7 @@ Set the video codec, if a selected codec is unsupported on the users platform a 
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (string): codec
+    - Parameter 1 (🔤 String): codec
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -75,7 +75,7 @@ Set the file format, if a selected file format is unsupported on the users platf
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (stringwithselector): Recording format (one of: "webm", "mp4", "ogg", "gif")
+    - Parameter 1 (🔤 String): Recording format (one of: "webm", "mp4", "ogg", "gif")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -144,7 +144,7 @@ Check if the specified format is available on the users device. To avoid unsuppo
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (stringwithselector): Select a common format for the best results (one of: "webm", "mp4", "ogg", "gif")
+    - Parameter 1 (🔤 String): Select a common format for the best results (one of: "webm", "mp4", "ogg", "gif")
 
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
@@ -233,4 +233,4 @@ Check if recording has just stopped.
 
 ---
 
-*This page is an auto-generated reference page about the **Record** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Record** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

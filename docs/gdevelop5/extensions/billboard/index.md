@@ -22,7 +22,7 @@ Rotate to always face the camera (only the front face of the cube should be enab
 
 ### Behavior properties
 
-- **Offset position** (choice, one of: "No change", "Standing on Z axis"). Default value is `No change`.
+- **Offset position** (Choice, one of: "No change", "Standing on Z axis"). Default value is `No change`.
 
 ??? quote "See internal technical details"
 
@@ -130,4 +130,4 @@ _No expressions for this behavior._
 
 ---
 
-*This page is an auto-generated reference page about the **3D Billboard** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **3D Billboard** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

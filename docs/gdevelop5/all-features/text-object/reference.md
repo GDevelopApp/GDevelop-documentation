@@ -8,6 +8,49 @@ An object that can be used to display any text on the screen: remaining life cou
 
 Displays a text on the screen. 
 
+### Object properties
+
+- **Bold** (🔘 Boolean). Default value is `false`.
+- **Font size** (🔢 Number, Distance). Default value is `20`.
+- **Color** (🎨 Color). Default value is `0;0;0`.
+- **Font** (🗂️ Resource).
+- **Show outline** (🔘 Boolean). Default value is `false`.
+- **Show shadow** (🔘 Boolean). Default value is `false`.
+- **Italic** (🔘 Boolean). Default value is `false`.
+- **Line height** (🔢 Number, Distance). Default value is `0`.
+- **Color** (🎨 Color). Default value is `255;255;255`.
+- **Thickness** (🔢 Number, Distance). Default value is `2`.
+- **Angle** (🔢 Number, Angle). Default value is `90`.
+- **Blur radius** (🔢 Number, Distance). Default value is `2`.
+- **Color** (🎨 Color). Default value is `0;0;0`.
+- **Distance** (🔢 Number, Distance). Default value is `4`.
+- **Opacity** (🔢 Number, Distance). Default value is `127`.
+- **Text** (🔤 Multiline text (String)). Default value is `Text`.
+- **Alignment** (choice, one of: "left", "center", "right"). Alignment of the text when multiple lines are displayed. Default value is `left`.
+- **Vertical alignment** (choice, one of: "top", "center", "bottom"). Default value is `top`.
+
+??? quote "See internal technical details"
+
+
+    - **Bold** is stored as `bold` (boolean). Default value is `false`.
+    - **Font size** is stored as `characterSize` (number). Unit is Pixel. Default value is `20`.
+    - **Color** is stored as `color` (color). Default value is `0;0;0`.
+    - **Font** is stored as `font` (resource). Default value is ``.
+    - **Show outline** is stored as `isOutlineEnabled` (boolean). Default value is `false`.
+    - **Show shadow** is stored as `isShadowEnabled` (boolean). Default value is `false`.
+    - **Italic** is stored as `italic` (boolean). Default value is `false`.
+    - **Line height** is stored as `lineHeight` (number). Unit is Pixel. Default value is `0`.
+    - **Color** is stored as `outlineColor` (color). Default value is `255;255;255`.
+    - **Thickness** is stored as `outlineThickness` (number). Unit is Pixel. Default value is `2`.
+    - **Angle** is stored as `shadowAngle` (number). Unit is DegreeAngle. Default value is `90`.
+    - **Blur radius** is stored as `shadowBlurRadius` (number). Unit is Pixel. Default value is `2`.
+    - **Color** is stored as `shadowColor` (color). Default value is `0;0;0`.
+    - **Distance** is stored as `shadowDistance` (number). Unit is Pixel. Default value is `4`.
+    - **Opacity** is stored as `shadowOpacity` (number). Unit is Pixel. Default value is `127`.
+    - **Text** is stored as `text` (multilinestring). Default value is `Text`.
+    - **Alignment** is stored as `textAlignment` (choice). Default value is `left`.
+    - **Vertical alignment** is stored as `verticalTextAlignment` (choice). Default value is `top`.
+
 ### Object actions
 
 **Color**  
@@ -16,7 +59,7 @@ Change the color of the text. The color is white by default.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: color
+    - Parameter 1: 🎨 Color
 
     > Technical note: this action internal type (in GDevelop JSON) is `TextObject::ChangeColor`.
 
@@ -47,10 +90,10 @@ Change the gradient of the text.
 
     - Parameter 0: 👾 Object
     - Parameter 1 (🔤 String): Gradient type (one of: "LINEAR_VERTICAL", "LINEAR_HORIZONTAL")
-    - Parameter 2 (color): First Color
-    - Parameter 3 (color): Second Color
-    - Parameter 4 (color): Third Color
-    - Parameter 5 (color): Fourth Color
+    - Parameter 2 (🎨 Color): First Color
+    - Parameter 3 (🎨 Color): Second Color
+    - Parameter 4 (🎨 Color): Third Color
+    - Parameter 5 (🎨 Color): Fourth Color
 
     > Technical note: this action internal type (in GDevelop JSON) is `TextObject::SetGradient`.
 
@@ -134,7 +177,7 @@ Change the outline color of the text.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: color
+    - Parameter 1: 🎨 Color
 
     > Technical note: this action internal type (in GDevelop JSON) is `TextObject::Text::SetOutlineColor`.
 
@@ -187,7 +230,7 @@ Change the shadow color of the text.
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1: color
+    - Parameter 1: 🎨 Color
 
     > Technical note: this action internal type (in GDevelop JSON) is `TextObject::Text::SetShadowColor`.
 
@@ -223,6 +266,7 @@ Change the word wrapping width of a Text object.
     - Parameter 2 (🔢 Number): Value
 
     > Technical note: this action internal type (in GDevelop JSON) is `TextObject::WrappingWidth`.
+
 
 ### Object conditions
 
@@ -381,6 +425,7 @@ Compare the word wrapping width of a Text object.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `TextObject::WrappingWidth`.
 
+
 ### Object expressions
 
 | Expression | Description |  |
@@ -400,4 +445,4 @@ Compare the word wrapping width of a Text object.
 
 The Text object extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Text object** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Text object** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).

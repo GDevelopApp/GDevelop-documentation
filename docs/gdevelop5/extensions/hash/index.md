@@ -17,11 +17,11 @@ Adds expressions to allow hashing strings via MD5 or SHA256.
 | Expression | Description |  |
 |-----|-----|-----|
 | `Hash::GenerateHashMD5(string)` | Returns a Hash a MD5 based on a string. ||
-| | _string_ | String to be hashed |
+| | _🔤 String_ | String to be hashed |
 | `Hash::GenerateHashSHA256(string)` | Returns a Hash a SHA256 based on a string. ||
-| | _string_ | String to be hashed |
+| | _🔤 String_ | String to be hashed |
 
 
 ---
 
-*This page is an auto-generated reference page about the **Hash** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop community-made extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Hash** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).

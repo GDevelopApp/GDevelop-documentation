@@ -8,6 +8,29 @@ Displays a text using a "Bitmap Font" (an image representing characters). This i
 
 Displays a text using a "Bitmap Font" (an image representing characters). This is more performant than a traditional Text object and it allows for complete control on the characters aesthetic. 
 
+### Object properties
+
+- **Alignment** (choice, one of: "left", "center", "right"). Default value is `left`.
+- **Bitmap Font** (🗂️ Resource).
+- **Text scale** (🔢 Number). Default value is `1`.
+- **Text** (🔤 Multiline text (String)). Default value is `This text use the default bitmap font.
+Use a custom Bitmap Font to create your own texts.`.
+- **Bitmap Atlas** (🗂️ Resource).
+- **Font tint** (🎨 Color). Default value is `255;255;255`.
+- **Vertical alignment** (choice, one of: "top", "center", "bottom"). Default value is `top`.
+
+??? quote "See internal technical details"
+
+
+    - **Alignment** is stored as `align` (choice). Default value is `left`.
+    - **Bitmap Font** is stored as `bitmapFontResourceName` (resource). Default value is ``.
+    - **Text scale** is stored as `scale` (number). Default value is `1`.
+    - **Text** is stored as `text` (multilinestring). Default value is `This text use the default bitmap font.
+Use a custom Bitmap Font to create your own texts.`.
+    - **Bitmap Atlas** is stored as `textureAtlasResourceName` (resource). Default value is ``.
+    - **Font tint** is stored as `tint` (color). Default value is `255;255;255`.
+    - **Vertical alignment** is stored as `verticalTextAlignment` (choice). Default value is `top`.
+
 ### Object actions
 
 **Wrapping width**  
@@ -48,7 +71,7 @@ Set the tint of the Bitmap Text object.
 ??? quote "See parameters & details"
 
     - Parameter 0 (👾 Object): Bitmap text
-    - Parameter 1: color
+    - Parameter 1: 🎨 Color
 
     > Technical note: this action internal type (in GDevelop JSON) is `BitmapText::SetTint`.
 
@@ -62,6 +85,7 @@ De/activate word wrapping.
 
     > Technical note: this action internal type (in GDevelop JSON) is `BitmapText::SetWordWrap`.
 
+
 ### Object conditions
 
 **Alignment**  
@@ -71,7 +95,7 @@ Compare the text alignment.
 
     - Parameter 0 (👾 Object): Bitmap text
     - Parameter 1: 🟰 Relational operator
-    - Parameter 2 (string): Alignment ("left", "right" or "center")
+    - Parameter 2 (🔤 String): Alignment ("left", "right" or "center")
 
     > Technical note: this condition internal type (in GDevelop JSON) is `BitmapText::BitmapTextObject::Alignment`.
 
@@ -82,7 +106,7 @@ Compare the font name (defined in the Bitmap font).
 
     - Parameter 0 (👾 Object): Bitmap text
     - Parameter 1: 🟰 Relational operator
-    - Parameter 2 (string): Value to compare
+    - Parameter 2 (🔤 String): Value to compare
 
     > Technical note: this condition internal type (in GDevelop JSON) is `BitmapText::BitmapTextObject::FontName`.
 
@@ -117,6 +141,7 @@ Check if word wrapping is enabled.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `BitmapText::WordWrap`.
 
+
 ### Object expressions
 
 | Expression | Description |  |
@@ -133,4 +158,4 @@ Check if word wrapping is enabled.
 
 The Bitmap Text extension is always installed in all GDevelop projects: there is no need to add it from the Project Manager.
 
-*This page is an auto-generated reference page about the **Bitmap Text** feature of [GDevelop, the open-source, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
+*This page is an auto-generated reference page about the **Bitmap Text** feature of [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop features here](/gdevelop5/all-features).
