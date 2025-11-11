@@ -363,9 +363,9 @@ An animated 3D model, useful for most elements of a 3D game.
 - **Material** (choice, one of: "Basic", "StandardWithoutMetalness", "KeepOriginal"). Default value is `StandardWithoutMetalness`.
 - **3D model** (🗂️ Resource).
 - **Origin point** (choice, one of: "ModelOrigin", "TopLeft", "ObjectCenter", "BottomCenterZ", "BottomCenterY"). Default value is `ModelOrigin`.
-- **X** (🔢 Number, Angle). Rotation around X axis. Default value is `0`.
+- **X** (🔢 Number, Angle). Rotation around X axis. Default value is `90`.
 - **Y** (🔢 Number, Angle). Rotation around Y axis. Default value is `0`.
-- **Z** (🔢 Number, Angle). Rotation around Z axis. Default value is `0`.
+- **Z** (🔢 Number, Angle). Rotation around Z axis. Default value is `90`.
 - **Width** (🔢 Number, Distance). Default value is `100`.
 
 ??? quote "See internal technical details"
@@ -381,9 +381,9 @@ An animated 3D model, useful for most elements of a 3D game.
     - **Material** is stored as `materialType` (choice). Default value is `StandardWithoutMetalness`.
     - **3D model** is stored as `modelResourceName` (resource). Default value is ``.
     - **Origin point** is stored as `originLocation` (choice). Default value is `ModelOrigin`.
-    - **X** is stored as `rotationX` (number). Unit is DegreeAngle. Default value is `0`.
+    - **X** is stored as `rotationX` (number). Unit is DegreeAngle. Default value is `90`.
     - **Y** is stored as `rotationY` (number). Unit is DegreeAngle. Default value is `0`.
-    - **Z** is stored as `rotationZ` (number). Unit is DegreeAngle. Default value is `0`.
+    - **Z** is stored as `rotationZ` (number). Unit is DegreeAngle. Default value is `90`.
     - **Width** is stored as `width` (number). Unit is Pixel. Default value is `100`.
 
 ### Object actions
