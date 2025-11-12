@@ -87,6 +87,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a962f784b2cc5f74b5368261ff38b08df"><td class="memItemLeft" align="right" valign="top"><a id="a962f784b2cc5f74b5368261ff38b08df"></a>
 const std::vector&lt; <a class="el" href="classgd_1_1_source_file_metadata.html">gd::SourceFileMetadata</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetUsedSourceFiles</b> () const</td></tr>
 <tr class="separator:a962f784b2cc5f74b5368261ff38b08df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4188ca7f4a8b571b8f80fa2556a47738"><td class="memItemLeft" align="right" valign="top"><a id="a4188ca7f4a8b571b8f80fa2556a47738"></a>
+const std::vector&lt; <a class="el" href="classgd_1_1_in_game_editor_resource_metadata.html">gd::InGameEditorResourceMetadata</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetUsedInGameEditorResources</b> () const</td></tr>
+<tr class="separator:a4188ca7f4a8b571b8f80fa2556a47738"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea575c4320f7419edbdb604ae603e0ea"><td class="memItemLeft" align="right" valign="top"><a id="aea575c4320f7419edbdb604ae603e0ea"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_used_extensions_result.html#aea575c4320f7419edbdb604ae603e0ea">Has3DObjects</a> () const</td></tr>
 <tr class="memdesc:aea575c4320f7419edbdb604ae603e0ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true when at least 1 object uses the 3D renderer. <br /></td></tr>
@@ -94,15 +97,18 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a9e313eb406173818bb0619fca172b97b"><td class="memItemLeft" align="right" valign="top"><a id="a9e313eb406173818bb0619fca172b97b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>AddUsedExtension</b> (const <a class="el" href="classgd_1_1_platform_extension.html">gd::PlatformExtension</a> &amp;extension)</td></tr>
 <tr class="separator:a9e313eb406173818bb0619fca172b97b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea3cd31b56f59652dabdebe1f548c6aa"><td class="memItemLeft" align="right" valign="top"><a id="aea3cd31b56f59652dabdebe1f548c6aa"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>AddUsedBuiltinExtension</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;extensionName)</td></tr>
-<tr class="separator:aea3cd31b56f59652dabdebe1f548c6aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83cdf4549584f6c3bd461c49e337c8da"><td class="memItemLeft" align="right" valign="top"><a id="a83cdf4549584f6c3bd461c49e337c8da"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>AddUsedBuiltinExtension</b> (const <a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;extensionName)</td></tr>
+<tr class="separator:a83cdf4549584f6c3bd461c49e337c8da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a732f9c114782471d64ff84b4cca7e574"><td class="memItemLeft" align="right" valign="top"><a id="a732f9c114782471d64ff84b4cca7e574"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>AddUsedIncludeFiles</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;includeFile)</td></tr>
 <tr class="separator:a732f9c114782471d64ff84b4cca7e574"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a12ada59711f055d0e4af300f0dd71b"><td class="memItemLeft" align="right" valign="top"><a id="a7a12ada59711f055d0e4af300f0dd71b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>AddUsedRequiredFiles</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;requiredFile)</td></tr>
 <tr class="separator:a7a12ada59711f055d0e4af300f0dd71b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46a3906a1137b765a9d6d6fc4e4ab618"><td class="memItemLeft" align="right" valign="top"><a id="a46a3906a1137b765a9d6d6fc4e4ab618"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>AddUsedInGameEditorResource</b> (const <a class="el" href="classgd_1_1_in_game_editor_resource_metadata.html">gd::InGameEditorResourceMetadata</a> &amp;inGameEditorResource)</td></tr>
+<tr class="separator:a46a3906a1137b765a9d6d6fc4e4ab618"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0944b2e4c04062d35a06117cc7973ac3"><td class="memItemLeft" align="right" valign="top"><a id="a0944b2e4c04062d35a06117cc7973ac3"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>MarkAsHaving3DObjects</b> ()</td></tr>
 <tr class="separator:a0944b2e4c04062d35a06117cc7973ac3"><td class="memSeparator" colspan="2">&#160;</td></tr>

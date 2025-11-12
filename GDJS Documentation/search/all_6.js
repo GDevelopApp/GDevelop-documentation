@@ -26,7 +26,7 @@ var searchData=
   ['getbehaviorsharedpropertytogglefunctionname_62',['GetBehaviorSharedPropertyToggleFunctionName',['../db/d58/classgdjs_1_1_behavior_code_generator.html#acad7a691ff89d67138fe7df49b50e908',1,'gdjs::BehaviorCodeGenerator']]],
   ['getcodenamespace_63',['GetCodeNamespace',['../d7/d4f/classgdjs_1_1_events_code_generator.html#a73fcaa70e90c15de96bb2b09f27c4caa',1,'gdjs::EventsCodeGenerator']]],
   ['getcodenamespaceaccessor_64',['GetCodeNamespaceAccessor',['../d7/d4f/classgdjs_1_1_events_code_generator.html#a23dd6e6701b2058bc394232d428f417a',1,'gdjs::EventsCodeGenerator']]],
-  ['getexportedincludefilename_65',['GetExportedIncludeFilename',['../d0/d75/classgdjs_1_1_exporter_helper.html#a253f38e4e6b6dd09b8afd9071ba8e2ea',1,'gdjs::ExporterHelper']]],
+  ['getexportedincludefilename_65',['GetExportedIncludeFilename',['../d0/d75/classgdjs_1_1_exporter_helper.html#acbc4225a9c41020047144097e1e77ac5',1,'gdjs::ExporterHelper']]],
   ['getextensioncodenamespaceprefix_66',['GetExtensionCodeNamespacePrefix',['../d7/d67/classgdjs_1_1_metadata_declaration_helper.html#a4eb755596b69f5eec7464c3a6aa181d0',1,'gdjs::MetadataDeclarationHelper']]],
   ['getextensioncreatefunctionname_67',['GetExtensionCreateFunctionName',['../d2/d3d/classgdjs_1_1_js_platform.html#a693d18edd1891ae1303aaaa918c99200',1,'gdjs::JsPlatform']]],
   ['getfreefunctioncodename_68',['GetFreeFunctionCodeName',['../d7/d67/classgdjs_1_1_metadata_declaration_helper.html#a2e2afaa50dbbc38f1ddce9061b34b241',1,'gdjs::MetadataDeclarationHelper']]],

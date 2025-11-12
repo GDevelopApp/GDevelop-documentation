@@ -102,6 +102,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resources_merging_helper.html#af037de5c7335e07b4effc5a3f3667397">PreserveAbsoluteFilenames</a> (bool preserveAbsoluteFilenames_=true)</td></tr>
 <tr class="memdesc:af037de5c7335e07b4effc5a3f3667397"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set if the absolute filenames must be preserved. <br /></td></tr>
 <tr class="separator:af037de5c7335e07b4effc5a3f3667397"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dcffb7dabcae787dbef64d919806115"><td class="memItemLeft" align="right" valign="top"><a id="a8dcffb7dabcae787dbef64d919806115"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resources_merging_helper.html#a8dcffb7dabcae787dbef64d919806115">SetShouldUseOriginalAbsoluteFilenames</a> (bool shouldUseOriginalAbsoluteFilenames_=true)</td></tr>
+<tr class="memdesc:a8dcffb7dabcae787dbef64d919806115"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set if the absolute filenames of original files must be used for any resource. <br /></td></tr>
+<tr class="separator:a8dcffb7dabcae787dbef64d919806115"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a841b8b414d0706c5e6107f47e7604323"><td class="memItemLeft" align="right" valign="top"><a id="a841b8b414d0706c5e6107f47e7604323"></a>
 std::map&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>, <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resources_merging_helper.html#a841b8b414d0706c5e6107f47e7604323">GetAllResourcesOldAndNewFilename</a> ()</td></tr>
 <tr class="memdesc:a841b8b414d0706c5e6107f47e7604323"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a map containing the resources old absolute filename as key, and the resources new filenames as value. The new filenames are relative to the Base Directory. <br /></td></tr>
@@ -195,6 +199,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:af8f9fd27e4fd673b67da6c297db6dae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38c5b4e96ae5d872b0873ef63e9794e6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resources_merging_helper.html#a38c5b4e96ae5d872b0873ef63e9794e6">preserveAbsoluteFilenames</a></td></tr>
 <tr class="separator:a38c5b4e96ae5d872b0873ef63e9794e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ff45af51f04c4076ca8d968f622bfeb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resources_merging_helper.html#a5ff45af51f04c4076ca8d968f622bfeb">shouldUseOriginalAbsoluteFilenames</a> = false</td></tr>
+<tr class="separator:a5ff45af51f04c4076ca8d968f622bfeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f982463fd7237d3f1c397274211ce2c"><td class="memItemLeft" align="right" valign="top"><a id="a8f982463fd7237d3f1c397274211ce2c"></a>
 <a class="el" href="classgd_1_1_abstract_file_system.html">gd::AbstractFileSystem</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resources_merging_helper.html#a8f982463fd7237d3f1c397274211ce2c">fs</a></td></tr>
 <tr class="memdesc:a8f982463fd7237d3f1c397274211ce2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classgd_1_1_abstract_file_system.html" title="An interface to manipulate files in a platform agnostic way. This allow exporters to work on files wi...">gd::AbstractFileSystem</a> used to manipulate files. <br /></td></tr>
@@ -327,6 +333,29 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>If set to true, the directory structure, starting from baseDirectory, will be preserved in filenames. </p>
+
+</div>
+</div>
+<a id="a5ff45af51f04c4076ca8d968f622bfeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ff45af51f04c4076ca8d968f622bfeb">&#9670;&nbsp;</a></span>shouldUseOriginalAbsoluteFilenames</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gd::ResourcesMergingHelper::shouldUseOriginalAbsoluteFilenames = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set to true if the absolute filenames of original files must be used for any resource. </p>
 
 </div>
 </div>

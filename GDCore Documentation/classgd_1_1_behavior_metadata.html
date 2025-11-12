@@ -189,6 +189,10 @@ const std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a
 <tr class="separator:ad1946aac491a49ac51d7eff50c1fc3dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7170f06846c8834d087470345442d07a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_behavior_metadata.html">BehaviorMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_behavior_metadata.html#a7170f06846c8834d087470345442d07a">MarkAsIrrelevantForChildObjects</a> ()</td></tr>
 <tr class="separator:a7170f06846c8834d087470345442d07a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fbcc39d63667182fa35ba7936d482ce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_behavior_metadata.html#a1fbcc39d63667182fa35ba7936d482ce">IsActivatedByDefaultInEditor</a> () const</td></tr>
+<tr class="separator:a1fbcc39d63667182fa35ba7936d482ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92514f82c7c64ce59bf70e4026f69cd5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_behavior_metadata.html">BehaviorMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_behavior_metadata.html#a92514f82c7c64ce59bf70e4026f69cd5">MarkAsActivatedByDefaultInEditor</a> ()</td></tr>
+<tr class="separator:a92514f82c7c64ce59bf70e4026f69cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5a22c4c99534302b671f7cf89adaa7a"><td class="memItemLeft" align="right" valign="top"><a id="ac5a22c4c99534302b671f7cf89adaa7a"></a>
 <a class="el" href="classgd_1_1_quick_customization.html#a8ecdd723f37f8b4147d375aaabcda952">QuickCustomization::Visibility</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetQuickCustomizationVisibility</b> () const</td></tr>
 <tr class="separator:ac5a22c4c99534302b671f7cf89adaa7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1234,6 +1238,33 @@ It's recommended to use this function to avoid declaring 3 times a similar expre
 
 </div>
 </div>
+<a id="a1fbcc39d63667182fa35ba7936d482ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fbcc39d63667182fa35ba7936d482ce">&#9670;&nbsp;</a></span>IsActivatedByDefaultInEditor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gd::BehaviorMetadata::IsActivatedByDefaultInEditor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Check if the behavior should be run by the editor when it is attached to a child-object.</p>
+<p>When variants are edited behaviors attached to their direct child-objects are not executed. </p>
+
+</div>
+</div>
 <a id="a7cda070a2e7cbe58457372c8bbc6ad01"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7cda070a2e7cbe58457372c8bbc6ad01">&#9670;&nbsp;</a></span>IsHidden()</h2>
 
@@ -1311,6 +1342,32 @@ It's recommended to use this function to avoid declaring 3 times a similar expre
 </table>
 </div><div class="memdoc">
 <p>Check if the behavior can be used on objects from event-based objects. </p>
+
+</div>
+</div>
+<a id="a92514f82c7c64ce59bf70e4026f69cd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92514f82c7c64ce59bf70e4026f69cd5">&#9670;&nbsp;</a></span>MarkAsActivatedByDefaultInEditor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classgd_1_1_behavior_metadata.html">BehaviorMetadata</a>&amp; gd::BehaviorMetadata::MarkAsActivatedByDefaultInEditor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set that behavior should be run by the editor when it is attached to a child-object. </p>
 
 </div>
 </div>

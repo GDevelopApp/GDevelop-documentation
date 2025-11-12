@@ -99,6 +99,12 @@ const gd::String &amp;&#160;</td><td class="memItemRight" valign="bottom"><a cla
 <tr class="memitem:a9c51541a1481d6bf610f15f1621e1ddd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dda/classgdjs_1_1_exporter.html#a9c51541a1481d6bf610f15f1621e1ddd">SetCodeOutputDirectory</a> (gd::String codeOutputDir_)</td></tr>
 <tr class="memdesc:a9c51541a1481d6bf610f15f1621e1ddd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the directory where code files are generated.  <a href="../../dc/dda/classgdjs_1_1_exporter.html#a9c51541a1481d6bf610f15f1621e1ddd">More...</a><br /></td></tr>
 <tr class="separator:a9c51541a1481d6bf610f15f1621e1ddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0708f9a2fdb8888210e5e0c2472aebed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dda/classgdjs_1_1_exporter.html#a0708f9a2fdb8888210e5e0c2472aebed">SerializeProjectData</a> (const gd::Project &amp;project, const <a class="el" href="../../db/dbe/structgdjs_1_1_preview_export_options.html">PreviewExportOptions</a> &amp;options, gd::SerializerElement &amp;projectDataElement)</td></tr>
+<tr class="memdesc:a0708f9a2fdb8888210e5e0c2472aebed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize a project without its events to JSON.  <a href="../../dc/dda/classgdjs_1_1_exporter.html#a0708f9a2fdb8888210e5e0c2472aebed">More...</a><br /></td></tr>
+<tr class="separator:a0708f9a2fdb8888210e5e0c2472aebed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6a871bfcd47af2cd9ab449088e9b8c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dda/classgdjs_1_1_exporter.html#ad6a871bfcd47af2cd9ab449088e9b8c5">SerializeRuntimeGameOptions</a> (const <a class="el" href="../../db/dbe/structgdjs_1_1_preview_export_options.html">PreviewExportOptions</a> &amp;options, gd::SerializerElement &amp;runtimeGameOptionsElement)</td></tr>
+<tr class="memdesc:ad6a871bfcd47af2cd9ab449088e9b8c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the content of the extra configuration to store in gdjs.runtimeGameOptions to JSON.  <a href="../../dc/dda/classgdjs_1_1_exporter.html#ad6a871bfcd47af2cd9ab449088e9b8c5">More...</a><br /></td></tr>
+<tr class="separator:ad6a871bfcd47af2cd9ab449088e9b8c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Export a project or a layout to a playable HTML5/Javascript based game. </p>
@@ -148,6 +154,88 @@ const gd::String &amp;&#160;</td><td class="memItemRight" valign="bottom"><a cla
 
 <p>Export the specified project, using Pixi.js. </p>
 <p>Called by ShowProjectExportDialog if the user clicked on Ok. </p>
+
+</div>
+</div>
+<a id="a0708f9a2fdb8888210e5e0c2472aebed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0708f9a2fdb8888210e5e0c2472aebed">&#9670;&nbsp;</a></span>SerializeProjectData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gdjs::Exporter::SerializeProjectData </td>
+          <td>(</td>
+          <td class="paramtype">const gd::Project &amp;&#160;</td>
+          <td class="paramname"><em>project</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../db/dbe/structgdjs_1_1_preview_export_options.html">PreviewExportOptions</a> &amp;&#160;</td>
+          <td class="paramname"><em>options</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gd::SerializerElement &amp;&#160;</td>
+          <td class="paramname"><em>projectDataElement</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Serialize a project without its events to JSON. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">project</td><td>The project to be exported </td></tr>
+    <tr><td class="paramname">options</td><td>The content of the extra configuration </td></tr>
+    <tr><td class="paramname">projectDataElement</td><td>The element where the project data is serialized </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad6a871bfcd47af2cd9ab449088e9b8c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6a871bfcd47af2cd9ab449088e9b8c5">&#9670;&nbsp;</a></span>SerializeRuntimeGameOptions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gdjs::Exporter::SerializeRuntimeGameOptions </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/dbe/structgdjs_1_1_preview_export_options.html">PreviewExportOptions</a> &amp;&#160;</td>
+          <td class="paramname"><em>options</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gd::SerializerElement &amp;&#160;</td>
+          <td class="paramname"><em>runtimeGameOptionsElement</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Serialize the content of the extra configuration to store in gdjs.runtimeGameOptions to JSON. </p>
+<dl class="section warning"><dt>Warning</dt><dd><code>ExportProjectForPixiPreview</code> must be called first to serialize the list of scripts files.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">options</td><td>The content of the extra configuration </td></tr>
+    <tr><td class="paramname">runtimeGameOptionsElement</td><td>The element where the game options are serialized </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

@@ -327,6 +327,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:acdadabd218529629b7e9155e40bdaf91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project.html#acdadabd218529629b7e9155e40bdaf91">SetCurrentPlatform</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;platformName)</td></tr>
 <tr class="memdesc:acdadabd218529629b7e9155e40bdaf91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the platform to be used to edit the project.  <a href="classgd_1_1_project.html#acdadabd218529629b7e9155e40bdaf91">More...</a><br /></td></tr>
 <tr class="separator:acdadabd218529629b7e9155e40bdaf91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a1ad23716081f88a2946b3d5aa3b751"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project.html#a8a1ad23716081f88a2946b3d5aa3b751">AreEffectsHiddenInEditor</a> () const</td></tr>
+<tr class="separator:a8a1ad23716081f88a2946b3d5aa3b751"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81de11aa63a5a651c4b9b0361e42fb78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project.html#a81de11aa63a5a651c4b9b0361e42fb78">SetEffectsHiddenInEditor</a> (bool enable=true)</td></tr>
+<tr class="separator:a81de11aa63a5a651c4b9b0361e42fb78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Factory method</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Member functions used to create objects for the project </p>
 </div></td></tr>
@@ -596,6 +600,32 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Add a platform to the project </p>
+
+</div>
+</div>
+<a id="a8a1ad23716081f88a2946b3d5aa3b751"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a1ad23716081f88a2946b3d5aa3b751">&#9670;&nbsp;</a></span>AreEffectsHiddenInEditor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gd::Project::AreEffectsHiddenInEditor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Check if the effects are shown. </p>
 
 </div>
 </div>
@@ -2057,6 +2087,38 @@ Static Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">platformName</td><td>The name of the new current platform. If not found, the current platform won't be changed. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a81de11aa63a5a651c4b9b0361e42fb78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81de11aa63a5a651c4b9b0361e42fb78">&#9670;&nbsp;</a></span>SetEffectsHiddenInEditor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gd::Project::SetEffectsHiddenInEditor </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enable</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Define the project as playable on a mobile. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">enable</td><td>True When false effects are not shown and a default light is used for 3D layers. </td></tr>
   </table>
   </dd>
 </dl>

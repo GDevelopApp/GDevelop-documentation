@@ -68,7 +68,7 @@ $(function() {
 
 <h3><a id="index_a"></a>- a -</h3><ul>
 <li>AddLibsInclude()
-: <a class="el" href="d0/d75/classgdjs_1_1_exporter_helper.html#a524bac952ccb3993f3f6258eb9161270">gdjs::ExporterHelper</a>
+: <a class="el" href="d0/d75/classgdjs_1_1_exporter_helper.html#a6dc1d8b2f9c8ce0e8047d030cc1fd155">gdjs::ExporterHelper</a>
 </li>
 <li>AddScreenshotCapture()
 : <a class="el" href="db/dbe/structgdjs_1_1_preview_export_options.html#adff8101148504d834ecbd60059e9c5ca">gdjs::PreviewExportOptions</a>
@@ -109,9 +109,6 @@ $(function() {
 <li>ExportElectronFiles()
 : <a class="el" href="d0/d75/classgdjs_1_1_exporter_helper.html#afc57c71aceb933586692c57fec1d4af9">gdjs::ExporterHelper</a>
 </li>
-<li>ExportEventsCode()
-: <a class="el" href="d0/d75/classgdjs_1_1_exporter_helper.html#aa1d198c3872cb1c369c241caf7c5ff17">gdjs::ExporterHelper</a>
-</li>
 <li>ExportFacebookInstantGamesFiles()
 : <a class="el" href="d0/d75/classgdjs_1_1_exporter_helper.html#a749478cbbaec91e7ca2bf51447f9ecd5">gdjs::ExporterHelper</a>
 </li>
@@ -128,14 +125,17 @@ $(function() {
 : <a class="el" href="dd/d37/structgdjs_1_1_export_options.html#aad6b93a5ecf060c3c2ac858269c96aec">gdjs::ExportOptions</a>
 </li>
 <li>ExportProjectData()
-: <a class="el" href="d0/d75/classgdjs_1_1_exporter_helper.html#adcc7540303cbfb5aca85d35924b2a072">gdjs::ExporterHelper</a>
+: <a class="el" href="d0/d75/classgdjs_1_1_exporter_helper.html#a0898450060877d7dce69fc006dc86605">gdjs::ExporterHelper</a>
 </li>
 <li>ExportProjectForPixiPreview()
 : <a class="el" href="dc/dda/classgdjs_1_1_exporter.html#ae6c8aea4046fd6fae37a4e163cd2b968">gdjs::Exporter</a>
-, <a class="el" href="d0/d75/classgdjs_1_1_exporter_helper.html#a26a7da4237f55e55b078bdd585a39c4a">gdjs::ExporterHelper</a>
+, <a class="el" href="d0/d75/classgdjs_1_1_exporter_helper.html#a64eb837dd09a07c32c8a7aaf4cc4de9f">gdjs::ExporterHelper</a>
 </li>
 <li>ExportResources()
 : <a class="el" href="d0/d75/classgdjs_1_1_exporter_helper.html#a82bff829110d0bad0d7d5c6ff6d6c89d">gdjs::ExporterHelper</a>
+</li>
+<li>ExportScenesEventsCode()
+: <a class="el" href="d0/d75/classgdjs_1_1_exporter_helper.html#ac032c1a0bdef8a5830c93568dd22f318">gdjs::ExporterHelper</a>
 </li>
 <li>ExportWholePixiProject()
 : <a class="el" href="dc/dda/classgdjs_1_1_exporter.html#a9dae449c994ec955a3779a87481caeb1">gdjs::Exporter</a>
@@ -227,7 +227,7 @@ $(function() {
 : <a class="el" href="d7/d4f/classgdjs_1_1_events_code_generator.html#a23dd6e6701b2058bc394232d428f417a">gdjs::EventsCodeGenerator</a>
 </li>
 <li>GetExportedIncludeFilename()
-: <a class="el" href="d0/d75/classgdjs_1_1_exporter_helper.html#a253f38e4e6b6dd09b8afd9071ba8e2ea">gdjs::ExporterHelper</a>
+: <a class="el" href="d0/d75/classgdjs_1_1_exporter_helper.html#acbc4225a9c41020047144097e1e77ac5">gdjs::ExporterHelper</a>
 </li>
 <li>GetExtensionCodeNamespacePrefix()
 : <a class="el" href="d7/d67/classgdjs_1_1_metadata_declaration_helper.html#a4eb755596b69f5eec7464c3a6aa181d0">gdjs::MetadataDeclarationHelper</a>
@@ -301,6 +301,14 @@ $(function() {
 
 
 <h3><a id="index_s"></a>- s -</h3><ul>
+<li>SerializeProjectData()
+: <a class="el" href="dc/dda/classgdjs_1_1_exporter.html#a0708f9a2fdb8888210e5e0c2472aebed">gdjs::Exporter</a>
+, <a class="el" href="d0/d75/classgdjs_1_1_exporter_helper.html#a71caef458ce9e85f09c2398d21d7c8ac">gdjs::ExporterHelper</a>
+</li>
+<li>SerializeRuntimeGameOptions()
+: <a class="el" href="dc/dda/classgdjs_1_1_exporter.html#ad6a871bfcd47af2cd9ab449088e9b8c5">gdjs::Exporter</a>
+, <a class="el" href="d0/d75/classgdjs_1_1_exporter_helper.html#a68e8ed8beaad70d763684dfe50012ca5">gdjs::ExporterHelper</a>
+</li>
 <li>SetAllowAuthenticationUsingIframeForPreview()
 : <a class="el" href="db/dbe/structgdjs_1_1_preview_export_options.html#afc2e34e1b0ee800266e98b75a3852c81">gdjs::PreviewExportOptions</a>
 </li>
@@ -317,8 +325,20 @@ $(function() {
 <li>SetCrashReportUploadLevel()
 : <a class="el" href="db/dbe/structgdjs_1_1_preview_export_options.html#a1599cc388231bff4f78cddeaf0f26de0">gdjs::PreviewExportOptions</a>
 </li>
+<li>SetEditorCameraState3D()
+: <a class="el" href="db/dbe/structgdjs_1_1_preview_export_options.html#a7c2b19715be82f6b20716e7c434cfc37">gdjs::PreviewExportOptions</a>
+</li>
+<li>SetEditorId()
+: <a class="el" href="db/dbe/structgdjs_1_1_preview_export_options.html#a9f93ce7b6ebcac45df62310377a020b5">gdjs::PreviewExportOptions</a>
+</li>
 <li>SetElectronRemoteRequirePath()
 : <a class="el" href="db/dbe/structgdjs_1_1_preview_export_options.html#a3903ccd881c7ea0a205aa19086461cca">gdjs::PreviewExportOptions</a>
+</li>
+<li>SetEventsBasedObjectType()
+: <a class="el" href="db/dbe/structgdjs_1_1_preview_export_options.html#a06cf04475b323d09cc7cf4b1908969a2">gdjs::PreviewExportOptions</a>
+</li>
+<li>SetEventsBasedObjectVariantName()
+: <a class="el" href="db/dbe/structgdjs_1_1_preview_export_options.html#a320ce2b7a037ddb31cb22942581ad342">gdjs::PreviewExportOptions</a>
 </li>
 <li>SetExternalLayoutName()
 : <a class="el" href="db/dbe/structgdjs_1_1_preview_export_options.html#a26226ff501d285d19288143f77581548">gdjs::PreviewExportOptions</a>
@@ -342,8 +362,14 @@ $(function() {
 <li>SetIncludeFileHash()
 : <a class="el" href="db/dbe/structgdjs_1_1_preview_export_options.html#a4ad48abf2a9a6f3974b91c12ea1eb136">gdjs::PreviewExportOptions</a>
 </li>
+<li>SetInGameEditorSettingsJson()
+: <a class="el" href="db/dbe/structgdjs_1_1_preview_export_options.html#a9e5b9693914b37910629880a559acf96">gdjs::PreviewExportOptions</a>
+</li>
 <li>SetIsDevelopmentEnvironment()
 : <a class="el" href="db/dbe/structgdjs_1_1_preview_export_options.html#a68e58011b6339b251056addf8eed4221">gdjs::PreviewExportOptions</a>
+</li>
+<li>SetIsInGameEdition()
+: <a class="el" href="db/dbe/structgdjs_1_1_preview_export_options.html#aebfb465e8dedfe1e761001536502bcd7">gdjs::PreviewExportOptions</a>
 </li>
 <li>SetLayoutName()
 : <a class="el" href="db/dbe/structgdjs_1_1_preview_export_options.html#a99b87ae4767666af213ef3ec3ba209ed">gdjs::PreviewExportOptions</a>
@@ -357,11 +383,20 @@ $(function() {
 <li>SetPreviewContext()
 : <a class="el" href="db/dbe/structgdjs_1_1_preview_export_options.html#a6920443cfeb06a75462a7c37fb8e519b">gdjs::PreviewExportOptions</a>
 </li>
-<li>SetProjectDataOnlyExport()
-: <a class="el" href="db/dbe/structgdjs_1_1_preview_export_options.html#ae474b7c99a72667ea528588d479b7279">gdjs::PreviewExportOptions</a>
-</li>
 <li>SetProjectTemplateSlug()
 : <a class="el" href="db/dbe/structgdjs_1_1_preview_export_options.html#a227b5083ea5cd6f6792e76b42f44d789">gdjs::PreviewExportOptions</a>
+</li>
+<li>SetShouldClearExportFolder()
+: <a class="el" href="db/dbe/structgdjs_1_1_preview_export_options.html#a9258f388fd544c85571dd7fbe8762bc8">gdjs::PreviewExportOptions</a>
+</li>
+<li>SetShouldGenerateScenesEventsCode()
+: <a class="el" href="db/dbe/structgdjs_1_1_preview_export_options.html#aae0f3632b73b94772eb1d09a19f3d738">gdjs::PreviewExportOptions</a>
+</li>
+<li>SetShouldReloadLibraries()
+: <a class="el" href="db/dbe/structgdjs_1_1_preview_export_options.html#a8b6f6f9865554c3438b9372fbc444ef0">gdjs::PreviewExportOptions</a>
+</li>
+<li>SetShouldReloadProjectData()
+: <a class="el" href="db/dbe/structgdjs_1_1_preview_export_options.html#a84b0a867b3060231bf190c006b0d53be">gdjs::PreviewExportOptions</a>
 </li>
 <li>SetSourceGameId()
 : <a class="el" href="db/dbe/structgdjs_1_1_preview_export_options.html#a238c99e435320558a722e90a4ec9ef06">gdjs::PreviewExportOptions</a>

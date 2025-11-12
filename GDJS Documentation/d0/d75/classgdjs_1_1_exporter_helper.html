@@ -92,10 +92,10 @@ Public Member Functions</h2></td></tr>
 const gd::String &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#ada5884debab85a04032d19fcfcbf2eb1">GetLastError</a> () const</td></tr>
 <tr class="memdesc:ada5884debab85a04032d19fcfcbf2eb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the error that occurred during the last export. <br /></td></tr>
 <tr class="separator:ada5884debab85a04032d19fcfcbf2eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a524bac952ccb3993f3f6258eb9161270"><td class="memItemLeft" align="right" valign="top"><a id="a524bac952ccb3993f3f6258eb9161270"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a524bac952ccb3993f3f6258eb9161270">AddLibsInclude</a> (bool pixiRenderers, bool pixiInThreeRenderers, bool includeWebsocketDebuggerClient, bool includeWindowMessageDebuggerClient, bool includeMinimalDebuggerClient, bool includeCaptureManager, bool includeInAppTutorialMessage, gd::String gdevelopLogoStyle, std::vector&lt; gd::String &gt; &amp;includesFiles)</td></tr>
-<tr class="memdesc:a524bac952ccb3993f3f6258eb9161270"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add libraries files to the list of includes. <br /></td></tr>
-<tr class="separator:a524bac952ccb3993f3f6258eb9161270"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dc1d8b2f9c8ce0e8047d030cc1fd155"><td class="memItemLeft" align="right" valign="top"><a id="a6dc1d8b2f9c8ce0e8047d030cc1fd155"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a6dc1d8b2f9c8ce0e8047d030cc1fd155">AddLibsInclude</a> (bool pixiRenderers, bool pixiInThreeRenderers, bool isInGameEdition, bool includeWebsocketDebuggerClient, bool includeWindowMessageDebuggerClient, bool includeMinimalDebuggerClient, bool includeCaptureManager, bool includeInAppTutorialMessage, gd::String gdevelopLogoStyle, std::vector&lt; gd::String &gt; &amp;includesFiles)</td></tr>
+<tr class="memdesc:a6dc1d8b2f9c8ce0e8047d030cc1fd155"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add libraries files to the list of includes. <br /></td></tr>
+<tr class="separator:a6dc1d8b2f9c8ce0e8047d030cc1fd155"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9c3e532316e5b6166c125b3f4a106ba"><td class="memItemLeft" align="right" valign="top"><a id="ab9c3e532316e5b6166c125b3f4a106ba"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#ab9c3e532316e5b6166c125b3f4a106ba">RemoveIncludes</a> (bool pixiRenderers, std::vector&lt; gd::String &gt; &amp;includesFiles)</td></tr>
 <tr class="memdesc:ab9c3e532316e5b6166c125b3f4a106ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove include files that are Pixi renderers. <br /></td></tr>
@@ -103,9 +103,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <tr class="memitem:a4b7bf354abd3e2548eed82ddfd59f40a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a4b7bf354abd3e2548eed82ddfd59f40a">ExportIncludesAndLibs</a> (const std::vector&lt; gd::String &gt; &amp;includesFiles, gd::String exportDir, bool exportSourceMaps)</td></tr>
 <tr class="memdesc:a4b7bf354abd3e2548eed82ddfd59f40a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy all the specified files to the export directory. Relative files are copied from "&lt;GDJS root&gt;/Runtime" directory.  <a href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a4b7bf354abd3e2548eed82ddfd59f40a">More...</a><br /></td></tr>
 <tr class="separator:a4b7bf354abd3e2548eed82ddfd59f40a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1d198c3872cb1c369c241caf7c5ff17"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#aa1d198c3872cb1c369c241caf7c5ff17">ExportEventsCode</a> (const gd::Project &amp;project, gd::String outputDir, std::vector&lt; gd::String &gt; &amp;includesFiles, gd::WholeProjectDiagnosticReport &amp;wholeProjectDiagnosticReport, bool exportForPreview)</td></tr>
-<tr class="memdesc:aa1d198c3872cb1c369c241caf7c5ff17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate the events JS code, and save them to the export directory.  <a href="../../d0/d75/classgdjs_1_1_exporter_helper.html#aa1d198c3872cb1c369c241caf7c5ff17">More...</a><br /></td></tr>
-<tr class="separator:aa1d198c3872cb1c369c241caf7c5ff17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac032c1a0bdef8a5830c93568dd22f318"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#ac032c1a0bdef8a5830c93568dd22f318">ExportScenesEventsCode</a> (const gd::Project &amp;project, gd::String outputDir, std::vector&lt; gd::String &gt; &amp;includesFiles, gd::WholeProjectDiagnosticReport &amp;wholeProjectDiagnosticReport, bool exportForPreview)</td></tr>
+<tr class="memdesc:ac032c1a0bdef8a5830c93568dd22f318"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate the events JS code, and save them to the export directory.  <a href="../../d0/d75/classgdjs_1_1_exporter_helper.html#ac032c1a0bdef8a5830c93568dd22f318">More...</a><br /></td></tr>
+<tr class="separator:ac032c1a0bdef8a5830c93568dd22f318"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a246aa66b740e5daaa640e5c07ab86cd2"><td class="memItemLeft" align="right" valign="top"><a id="a246aa66b740e5daaa640e5c07ab86cd2"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a246aa66b740e5daaa640e5c07ab86cd2">ExportEffectIncludes</a> (gd::Project &amp;project, std::vector&lt; gd::String &gt; &amp;includesFiles)</td></tr>
 <tr class="memdesc:a246aa66b740e5daaa640e5c07ab86cd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add the project effects include files. <br /></td></tr>
@@ -134,25 +134,30 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <tr class="memitem:a2b1f16b162f2637f13fe7a6247c1647a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a2b1f16b162f2637f13fe7a6247c1647a">ExportHtml5Files</a> (const gd::Project &amp;project, gd::String exportDir)</td></tr>
 <tr class="memdesc:a2b1f16b162f2637f13fe7a6247c1647a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate any HTML5 specific file.  <a href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a2b1f16b162f2637f13fe7a6247c1647a">More...</a><br /></td></tr>
 <tr class="separator:a2b1f16b162f2637f13fe7a6247c1647a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26a7da4237f55e55b078bdd585a39c4a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a26a7da4237f55e55b078bdd585a39c4a">ExportProjectForPixiPreview</a> (const <a class="el" href="../../db/dbe/structgdjs_1_1_preview_export_options.html">PreviewExportOptions</a> &amp;options)</td></tr>
-<tr class="memdesc:a26a7da4237f55e55b078bdd585a39c4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a preview for the specified options.  <a href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a26a7da4237f55e55b078bdd585a39c4a">More...</a><br /></td></tr>
-<tr class="separator:a26a7da4237f55e55b078bdd585a39c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a253f38e4e6b6dd09b8afd9071ba8e2ea"><td class="memItemLeft" align="right" valign="top"><a id="a253f38e4e6b6dd09b8afd9071ba8e2ea"></a>
-gd::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a253f38e4e6b6dd09b8afd9071ba8e2ea">GetExportedIncludeFilename</a> (const gd::String &amp;include, unsigned int nonRuntimeScriptsCacheBurst=0)</td></tr>
-<tr class="memdesc:a253f38e4e6b6dd09b8afd9071ba8e2ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given an include file, returns the name of the file to reference in the exported game. <br /></td></tr>
-<tr class="separator:a253f38e4e6b6dd09b8afd9071ba8e2ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64eb837dd09a07c32c8a7aaf4cc4de9f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a64eb837dd09a07c32c8a7aaf4cc4de9f">ExportProjectForPixiPreview</a> (const <a class="el" href="../../db/dbe/structgdjs_1_1_preview_export_options.html">PreviewExportOptions</a> &amp;options, std::vector&lt; gd::String &gt; &amp;includesFiles)</td></tr>
+<tr class="memdesc:a64eb837dd09a07c32c8a7aaf4cc4de9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a preview for the specified options.  <a href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a64eb837dd09a07c32c8a7aaf4cc4de9f">More...</a><br /></td></tr>
+<tr class="separator:a64eb837dd09a07c32c8a7aaf4cc4de9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afeecd7cc427087d226bf9591954ef243"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#afeecd7cc427087d226bf9591954ef243">SetCodeOutputDirectory</a> (gd::String codeOutputDir_)</td></tr>
 <tr class="memdesc:afeecd7cc427087d226bf9591954ef243"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the directory where code files are generated.  <a href="../../d0/d75/classgdjs_1_1_exporter_helper.html#afeecd7cc427087d226bf9591954ef243">More...</a><br /></td></tr>
 <tr class="separator:afeecd7cc427087d226bf9591954ef243"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:adcc7540303cbfb5aca85d35924b2a072"><td class="memItemLeft" align="right" valign="top">static gd::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#adcc7540303cbfb5aca85d35924b2a072">ExportProjectData</a> (gd::AbstractFileSystem &amp;<a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#ae3ea0beee067920c17974e07bc10cdc9">fs</a>, gd::Project &amp;project, gd::String filename, const gd::SerializerElement &amp;runtimeGameOptions, std::set&lt; gd::String &gt; &amp;projectUsedResources, std::unordered_map&lt; gd::String, std::set&lt; gd::String &gt;&gt; &amp;layersUsedResources)</td></tr>
-<tr class="memdesc:adcc7540303cbfb5aca85d35924b2a072"><td class="mdescLeft">&#160;</td><td class="mdescRight">Export a project to JSON.  <a href="../../d0/d75/classgdjs_1_1_exporter_helper.html#adcc7540303cbfb5aca85d35924b2a072">More...</a><br /></td></tr>
-<tr class="separator:adcc7540303cbfb5aca85d35924b2a072"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0898450060877d7dce69fc006dc86605"><td class="memItemLeft" align="right" valign="top">static gd::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a0898450060877d7dce69fc006dc86605">ExportProjectData</a> (gd::AbstractFileSystem &amp;<a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#ae3ea0beee067920c17974e07bc10cdc9">fs</a>, gd::Project &amp;project, gd::String filename, const gd::SerializerElement &amp;runtimeGameOptions, bool isInGameEdition, const std::vector&lt; gd::InGameEditorResourceMetadata &gt; &amp;inGameEditorResources)</td></tr>
+<tr class="memdesc:a0898450060877d7dce69fc006dc86605"><td class="mdescLeft">&#160;</td><td class="mdescRight">Export a project without its events and options to 2 JS variables.  <a href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a0898450060877d7dce69fc006dc86605">More...</a><br /></td></tr>
+<tr class="separator:a0898450060877d7dce69fc006dc86605"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71caef458ce9e85f09c2398d21d7c8ac"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a71caef458ce9e85f09c2398d21d7c8ac">SerializeProjectData</a> (gd::AbstractFileSystem &amp;<a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#ae3ea0beee067920c17974e07bc10cdc9">fs</a>, const gd::Project &amp;project, const <a class="el" href="../../db/dbe/structgdjs_1_1_preview_export_options.html">PreviewExportOptions</a> &amp;options, gd::SerializerElement &amp;projectDataElement, const std::vector&lt; gd::InGameEditorResourceMetadata &gt; &amp;inGameEditorResources)</td></tr>
+<tr class="memdesc:a71caef458ce9e85f09c2398d21d7c8ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize a project without its events to JSON.  <a href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a71caef458ce9e85f09c2398d21d7c8ac">More...</a><br /></td></tr>
+<tr class="separator:a71caef458ce9e85f09c2398d21d7c8ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68e8ed8beaad70d763684dfe50012ca5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a68e8ed8beaad70d763684dfe50012ca5">SerializeRuntimeGameOptions</a> (gd::AbstractFileSystem &amp;<a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#ae3ea0beee067920c17974e07bc10cdc9">fs</a>, const gd::String &amp;<a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a5268f75d557814e69a2bc2202d9037d2">gdjsRoot</a>, const <a class="el" href="../../db/dbe/structgdjs_1_1_preview_export_options.html">PreviewExportOptions</a> &amp;options, std::vector&lt; gd::String &gt; &amp;includesFiles, gd::SerializerElement &amp;runtimeGameOptionsElement)</td></tr>
+<tr class="memdesc:a68e8ed8beaad70d763684dfe50012ca5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the content of the extra configuration to store in gdjs.runtimeGameOptions to JSON.  <a href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a68e8ed8beaad70d763684dfe50012ca5">More...</a><br /></td></tr>
+<tr class="separator:a68e8ed8beaad70d763684dfe50012ca5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82bff829110d0bad0d7d5c6ff6d6c89d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a82bff829110d0bad0d7d5c6ff6d6c89d">ExportResources</a> (gd::AbstractFileSystem &amp;<a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#ae3ea0beee067920c17974e07bc10cdc9">fs</a>, gd::Project &amp;project, gd::String exportDir)</td></tr>
 <tr class="memdesc:a82bff829110d0bad0d7d5c6ff6d6c89d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy all the resources of the project to to the export directory, updating the resources filenames.  <a href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a82bff829110d0bad0d7d5c6ff6d6c89d">More...</a><br /></td></tr>
 <tr class="separator:a82bff829110d0bad0d7d5c6ff6d6c89d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbc4225a9c41020047144097e1e77ac5"><td class="memItemLeft" align="right" valign="top">static gd::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#acbc4225a9c41020047144097e1e77ac5">GetExportedIncludeFilename</a> (gd::AbstractFileSystem &amp;<a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#ae3ea0beee067920c17974e07bc10cdc9">fs</a>, const gd::String &amp;<a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a5268f75d557814e69a2bc2202d9037d2">gdjsRoot</a>, const gd::String &amp;include, unsigned int nonRuntimeScriptsCacheBurst=0)</td></tr>
+<tr class="memdesc:acbc4225a9c41020047144097e1e77ac5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given an include file, returns the name of the file to reference in the exported game.  <a href="../../d0/d75/classgdjs_1_1_exporter_helper.html#acbc4225a9c41020047144097e1e77ac5">More...</a><br /></td></tr>
+<tr class="separator:acbc4225a9c41020047144097e1e77ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a8d8e3c0aeff67921a057274023327f"><td class="memItemLeft" align="right" valign="top"><a id="a5a8d8e3c0aeff67921a057274023327f"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>AddDeprecatedFontFilesToFontResources</b> (gd::AbstractFileSystem &amp;<a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#ae3ea0beee067920c17974e07bc10cdc9">fs</a>, gd::ResourcesManager &amp;resourcesManager, const gd::String &amp;exportDir, gd::String urlPrefix=&quot;&quot;)</td></tr>
 <tr class="separator:a5a8d8e3c0aeff67921a057274023327f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -358,62 +363,6 @@ gd::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
 
 </div>
 </div>
-<a id="aa1d198c3872cb1c369c241caf7c5ff17"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1d198c3872cb1c369c241caf7c5ff17">&#9670;&nbsp;</a></span>ExportEventsCode()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool gdjs::ExporterHelper::ExportEventsCode </td>
-          <td>(</td>
-          <td class="paramtype">const gd::Project &amp;&#160;</td>
-          <td class="paramname"><em>project</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">gd::String&#160;</td>
-          <td class="paramname"><em>outputDir</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; gd::String &gt; &amp;&#160;</td>
-          <td class="paramname"><em>includesFiles</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">gd::WholeProjectDiagnosticReport &amp;&#160;</td>
-          <td class="paramname"><em>wholeProjectDiagnosticReport</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>exportForPreview</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Generate the events JS code, and save them to the export directory. </p>
-<p>Files are named "codeX.js", X being the number of the layout in the project.</p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">project</td><td>The project with resources to be exported.</td></tr>
-    <tr><td class="paramname">outputDir</td><td>The directory where the events code must be generated.</td></tr>
-    <tr><td class="paramname">includesFiles</td><td>A reference to a vector that will be filled with JS files to be exported along with the project. ( including "codeX.js" files ). </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a id="a749478cbbaec91e7ca2bf51447f9ecd5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a749478cbbaec91e7ca2bf51447f9ecd5">&#9670;&nbsp;</a></span>ExportFacebookInstantGamesFiles()</h2>
 
@@ -604,8 +553,8 @@ gd::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
 
 </div>
 </div>
-<a id="adcc7540303cbfb5aca85d35924b2a072"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adcc7540303cbfb5aca85d35924b2a072">&#9670;&nbsp;</a></span>ExportProjectData()</h2>
+<a id="a0898450060877d7dce69fc006dc86605"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0898450060877d7dce69fc006dc86605">&#9670;&nbsp;</a></span>ExportProjectData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -640,14 +589,14 @@ gd::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::set&lt; gd::String &gt; &amp;&#160;</td>
-          <td class="paramname"><em>projectUsedResources</em>, </td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isInGameEdition</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::unordered_map&lt; gd::String, std::set&lt; gd::String &gt;&gt; &amp;&#160;</td>
-          <td class="paramname"><em>layersUsedResources</em>&#160;</td>
+          <td class="paramtype">const std::vector&lt; gd::InGameEditorResourceMetadata &gt; &amp;&#160;</td>
+          <td class="paramname"><em>inGameEditorResources</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -662,13 +611,13 @@ gd::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
 </table>
 </div><div class="memdoc">
 
-<p>Export a project to JSON. </p>
+<p>Export a project without its events and options to 2 JS variables. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">fs</td><td>The abstract file system to use to write the file </td></tr>
     <tr><td class="paramname">project</td><td>The project to be exported. </td></tr>
     <tr><td class="paramname">filename</td><td>The filename where export the project </td></tr>
-    <tr><td class="paramname">runtimeGameOptions</td><td>The content of the extra configuration to store in gdjs.runtimeGameOptions </td></tr>
+    <tr><td class="paramname">runtimeGameOptions</td><td>The content of the extra configuration to store in gdjs.runtimeGameOptions</td></tr>
   </table>
   </dd>
 </dl>
@@ -676,8 +625,8 @@ gd::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
 
 </div>
 </div>
-<a id="a26a7da4237f55e55b078bdd585a39c4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26a7da4237f55e55b078bdd585a39c4a">&#9670;&nbsp;</a></span>ExportProjectForPixiPreview()</h2>
+<a id="a64eb837dd09a07c32c8a7aaf4cc4de9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64eb837dd09a07c32c8a7aaf4cc4de9f">&#9670;&nbsp;</a></span>ExportProjectForPixiPreview()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -686,8 +635,18 @@ gd::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
           <td class="memname">bool gdjs::ExporterHelper::ExportProjectForPixiPreview </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../db/dbe/structgdjs_1_1_preview_export_options.html">PreviewExportOptions</a> &amp;&#160;</td>
-          <td class="paramname"><em>options</em></td><td>)</td>
+          <td class="paramname"><em>options</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::vector&lt; gd::String &gt; &amp;&#160;</td>
+          <td class="paramname"><em>includesFiles</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -697,6 +656,7 @@ gd::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">options</td><td>The options to generate the preview. </td></tr>
+    <tr><td class="paramname">includesFiles</td><td>The list of scripts files - useful for hot-reloading </td></tr>
   </table>
   </dd>
 </dl>
@@ -756,6 +716,62 @@ gd::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
 
 </div>
 </div>
+<a id="ac032c1a0bdef8a5830c93568dd22f318"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac032c1a0bdef8a5830c93568dd22f318">&#9670;&nbsp;</a></span>ExportScenesEventsCode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gdjs::ExporterHelper::ExportScenesEventsCode </td>
+          <td>(</td>
+          <td class="paramtype">const gd::Project &amp;&#160;</td>
+          <td class="paramname"><em>project</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gd::String&#160;</td>
+          <td class="paramname"><em>outputDir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; gd::String &gt; &amp;&#160;</td>
+          <td class="paramname"><em>includesFiles</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gd::WholeProjectDiagnosticReport &amp;&#160;</td>
+          <td class="paramname"><em>wholeProjectDiagnosticReport</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>exportForPreview</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generate the events JS code, and save them to the export directory. </p>
+<p>Files are named "codeX.js", X being the number of the layout in the project.</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">project</td><td>The project with resources to be exported.</td></tr>
+    <tr><td class="paramname">outputDir</td><td>The directory where the events code must be generated.</td></tr>
+    <tr><td class="paramname">includesFiles</td><td>A reference to a vector that will be filled with JS files to be exported along with the project. ( including "codeX.js" files ). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ae1b3bb488de79cd3b06c240653b5ad89"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae1b3bb488de79cd3b06c240653b5ad89">&#9670;&nbsp;</a></span>GenerateWebManifest()</h2>
 
@@ -776,6 +792,195 @@ gd::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">project</td><td>The project containing the game properties to generate the manifest from. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="acbc4225a9c41020047144097e1e77ac5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbc4225a9c41020047144097e1e77ac5">&#9670;&nbsp;</a></span>GetExportedIncludeFilename()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">gd::String gdjs::ExporterHelper::GetExportedIncludeFilename </td>
+          <td>(</td>
+          <td class="paramtype">gd::AbstractFileSystem &amp;&#160;</td>
+          <td class="paramname"><em>fs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const gd::String &amp;&#160;</td>
+          <td class="paramname"><em>gdjsRoot</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const gd::String &amp;&#160;</td>
+          <td class="paramname"><em>include</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>nonRuntimeScriptsCacheBurst</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Given an include file, returns the name of the file to reference in the exported game. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fs</td><td>The abstract file system to use </td></tr>
+    <tr><td class="paramname">gdjsRoot</td><td>The root directory of GDJS, used to copy runtime files. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a71caef458ce9e85f09c2398d21d7c8ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71caef458ce9e85f09c2398d21d7c8ac">&#9670;&nbsp;</a></span>SerializeProjectData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gdjs::ExporterHelper::SerializeProjectData </td>
+          <td>(</td>
+          <td class="paramtype">gd::AbstractFileSystem &amp;&#160;</td>
+          <td class="paramname"><em>fs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const gd::Project &amp;&#160;</td>
+          <td class="paramname"><em>project</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../db/dbe/structgdjs_1_1_preview_export_options.html">PreviewExportOptions</a> &amp;&#160;</td>
+          <td class="paramname"><em>options</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gd::SerializerElement &amp;&#160;</td>
+          <td class="paramname"><em>projectDataElement</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; gd::InGameEditorResourceMetadata &gt; &amp;&#160;</td>
+          <td class="paramname"><em>inGameEditorResources</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Serialize a project without its events to JSON. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fs</td><td>The abstract file system to use to write the file </td></tr>
+    <tr><td class="paramname">project</td><td>The project to be exported. </td></tr>
+    <tr><td class="paramname">options</td><td>The content of the extra configuration </td></tr>
+    <tr><td class="paramname">projectDataElement</td><td>The element where the project data is serialized </td></tr>
+    <tr><td class="paramname">inGameEditorResources</td><td>The list of in-game editor resources to be used. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a68e8ed8beaad70d763684dfe50012ca5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68e8ed8beaad70d763684dfe50012ca5">&#9670;&nbsp;</a></span>SerializeRuntimeGameOptions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gdjs::ExporterHelper::SerializeRuntimeGameOptions </td>
+          <td>(</td>
+          <td class="paramtype">gd::AbstractFileSystem &amp;&#160;</td>
+          <td class="paramname"><em>fs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const gd::String &amp;&#160;</td>
+          <td class="paramname"><em>gdjsRoot</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../db/dbe/structgdjs_1_1_preview_export_options.html">PreviewExportOptions</a> &amp;&#160;</td>
+          <td class="paramname"><em>options</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; gd::String &gt; &amp;&#160;</td>
+          <td class="paramname"><em>includesFiles</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gd::SerializerElement &amp;&#160;</td>
+          <td class="paramname"><em>runtimeGameOptionsElement</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Serialize the content of the extra configuration to store in gdjs.runtimeGameOptions to JSON. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fs</td><td>The abstract file system to use to write the file </td></tr>
+    <tr><td class="paramname">gdjsRoot</td><td>The root directory of GDJS, used to copy runtime files. </td></tr>
+    <tr><td class="paramname">options</td><td>The content of the extra configuration </td></tr>
+    <tr><td class="paramname">includesFiles</td><td>The list of scripts files - useful for hot-reloading </td></tr>
+    <tr><td class="paramname">runtimeGameOptionsElement</td><td>The element where the game options are serialized </td></tr>
   </table>
   </dd>
 </dl>

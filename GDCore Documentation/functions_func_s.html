@@ -132,6 +132,7 @@ $(function() {
 , <a class="el" href="classgd_1_1_initial_instance.html#a33a2774cbd2b7da9ccad79e262aacef3">gd::InitialInstance</a>
 , <a class="el" href="classgd_1_1_initial_instances_container.html#a96e0738b95edc76a6efc13188dde409b">gd::InitialInstancesContainer</a>
 , <a class="el" href="classgd_1_1_instructions_list.html#aaaca2c91fcb5c0020b5cae18da98d5a7">gd::InstructionsList</a>
+, <a class="el" href="classgd_1_1_internal_in_game_editor_only_svg_resource.html#a3720361245a7ce4f0c96d2f71f04d550">gd::InternalInGameEditorOnlySvgResource</a>
 , <a class="el" href="classgd_1_1_java_script_resource.html#a58c23eb6cdc3d4001bcdf147c1d9bb00">gd::JavaScriptResource</a>
 , <a class="el" href="classgd_1_1_json_resource.html#aa09a691e5450b34700c06e6658f85467">gd::JsonResource</a>
 , <a class="el" href="classgd_1_1_layer.html#a7cf148afb4f73afb470483e749e8c6f7">gd::Layer</a>
@@ -178,7 +179,7 @@ $(function() {
 <li>Set()
 : <a class="el" href="classgd_1_1_platform_specific_assets.html#a2086f96c170cf12b64465fb1eedfb935">gd::PlatformSpecificAssets</a>
 , <a class="el" href="classgd_1_1_serializer_value.html#a440c4e9de5d568bf2199a11d56b8ed7a">gd::SerializerValue</a>
-, <a class="el" href="class_generic_pointer.html#a37ea2d2b205d3642d1e615b8b866666b">GenericPointer&lt; ValueType, Allocator &gt;</a>
+, <a class="el" href="class_generic_pointer.html#aeec3daf051dfa8b8fbf23ea4f9a238e4">GenericPointer&lt; ValueType, Allocator &gt;</a>
 , <a class="el" href="struct_parse_result.html#aa81b4a7b776b77216cb752385203a8c1">ParseResult</a>
 </li>
 <li>SetAdaptCollisionMaskAutomatically()
@@ -359,6 +360,9 @@ $(function() {
 <li>SetDoubleValue()
 : <a class="el" href="classgd_1_1_serializer_element.html#aaa3cfc87b0e5dcea093989886d458d90">gd::SerializerElement</a>
 </li>
+<li>SetEffectsHiddenInEditor()
+: <a class="el" href="classgd_1_1_project.html#a81de11aa63a5a651c4b9b0361e42fb78">gd::Project</a>
+</li>
 <li>SetExpressionType()
 : <a class="el" href="classgd_1_1_events_function.html#aaad38d83cc2d293e3915e172d234bab0">gd::EventsFunction</a>
 </li>
@@ -382,6 +386,7 @@ $(function() {
 , <a class="el" href="classgd_1_1_bitmap_font_resource.html#a1d8656a4dc69139f13b67034f501bb6f">gd::BitmapFontResource</a>
 , <a class="el" href="classgd_1_1_font_resource.html#a811cf52bb2695f2340d76b5cfb177459">gd::FontResource</a>
 , <a class="el" href="classgd_1_1_image_resource.html#a1e48675bd33456d5509e3f549b1e2b7f">gd::ImageResource</a>
+, <a class="el" href="classgd_1_1_internal_in_game_editor_only_svg_resource.html#a690f3ad8625feee58d0c75df90926b95">gd::InternalInGameEditorOnlySvgResource</a>
 , <a class="el" href="classgd_1_1_java_script_resource.html#ac7de983e2025c86a4727df6d8609508f">gd::JavaScriptResource</a>
 , <a class="el" href="classgd_1_1_json_resource.html#a5ed3ca37e4a3878351403985a282e910">gd::JsonResource</a>
 , <a class="el" href="classgd_1_1_model3_d_resource.html#a904b414f60da14260759bad0c72630cf">gd::Model3DResource</a>
@@ -389,6 +394,9 @@ $(function() {
 , <a class="el" href="classgd_1_1_tilemap_resource.html#a681f97b611d3703b7e78b5d39dbaba06">gd::TilemapResource</a>
 , <a class="el" href="classgd_1_1_tileset_resource.html#a3e1d2b84893c959728ae28d0d105cde1">gd::TilesetResource</a>
 , <a class="el" href="classgd_1_1_video_resource.html#a8d81d55ca0d359d6870aad275ca1e97f">gd::VideoResource</a>
+</li>
+<li>SetFilePath()
+: <a class="el" href="classgd_1_1_in_game_editor_resource_metadata.html#aebfb08e1714ecb763e66b5769ce89c97">gd::InGameEditorResourceMetadata</a>
 </li>
 <li>SetFirstLayout()
 : <a class="el" href="classgd_1_1_project.html#aca132134e31018e4088d1150a4e31e3a">gd::Project</a>
@@ -796,6 +804,9 @@ $(function() {
 <li>SetShouldKeepRatio()
 : <a class="el" href="classgd_1_1_initial_instance.html#a8b023122d7c4c05e9234e6d11717ef0f">gd::InitialInstance</a>
 </li>
+<li>SetShouldUseOriginalAbsoluteFilenames()
+: <a class="el" href="classgd_1_1_resources_merging_helper.html#a8dcffb7dabcae787dbef64d919806115">gd::ResourcesMergingHelper</a>
+</li>
 <li>SetSize()
 : <a class="el" href="classgd_1_1_camera.html#a184d4c214a0ea52d8931d8b12640b592">gd::Camera</a>
 </li>
@@ -825,7 +836,7 @@ $(function() {
 : <a class="el" href="classgd_1_1_serializer_element.html#a9f08efa88acba4a15d5bd7f0193887cf">gd::SerializerElement</a>
 </li>
 <li>SetStringRaw()
-: <a class="el" href="class_generic_value.html#ad3d91db36dfdbfc1af40a79aae07723c">GenericValue&lt; Encoding, Allocator &gt;</a>
+: <a class="el" href="class_generic_value.html#a1451603922dcdf34976f125dc60f70ee">GenericValue&lt; Encoding, Allocator &gt;</a>
 </li>
 <li>SetStringValue()
 : <a class="el" href="classgd_1_1_serializer_element.html#adc8dfa7ddd78c63f40feee34271dd5ab">gd::SerializerElement</a>
@@ -867,7 +878,7 @@ $(function() {
 </li>
 <li>SetValue()
 : <a class="el" href="classgd_1_1_property_descriptor.html#a036e80886513c6db7530f028a21c51c9">gd::PropertyDescriptor</a>
-, <a class="el" href="classgd_1_1_serializer_element.html#ae23f301138274b862fa1a5576c870cb5">gd::SerializerElement</a>
+, <a class="el" href="classgd_1_1_serializer_element.html#ab392b65d8543a04de30153ce748d86de">gd::SerializerElement</a>
 , <a class="el" href="classgd_1_1_variable.html#a302f56ff5f31d0d35ee7186e57bfbc7d">gd::Variable</a>
 </li>
 <li>SetValueIteratorVariableName()
