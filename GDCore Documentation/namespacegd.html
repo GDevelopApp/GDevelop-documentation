@@ -301,6 +301,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_abstract_file_system.html">AbstractFileSystem</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An interface to manipulate files in a platform agnostic way. This allow exporters to work on files without knowing what is actually being used to manipulate files (Node.js, browser shims, etc...)  <a href="classgd_1_1_abstract_file_system.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_behavior_parameter_filler.html">BehaviorParameterFiller</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_screenshot.html">Screenshot</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_capture_options.html">CaptureOptions</a></td></tr>
@@ -823,10 +825,11 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_internal_in_game_editor_only_svg_resource.html">InternalInGameEditorOnlySvgResource</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describe a SVG file used by a project. Currently only used in the in-game editor.  <a href="classgd_1_1_internal_in_game_editor_only_svg_resource.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resources_manager.html">ResourcesManager</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inventory all resources used by a project.  <a href="classgd_1_1_resources_manager.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resources_container.html">ResourcesContainer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inventory all resources used by a project.  <a href="classgd_1_1_resources_container.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resource_folder.html">ResourceFolder</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resources_containers_list.html">ResourcesContainersList</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of resources containers, useful for accessing resources in a scoped way, along with methods to access them.  <a href="classgd_1_1_resources_containers_list.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variable.html">Variable</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a variable which can be used by an object, a layout or a project.  <a href="classgd_1_1_variable.html#details">More...</a><br /></td></tr>
@@ -1093,6 +1096,10 @@ template&lt;class T &gt; </td></tr>
 template&lt;class T &gt; </td></tr>
 <tr class="memitem:a3a8cf8b2ab3aa40e11b03cb94173efc1"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; T &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>Clone</b> (const std::vector&lt; std::unique_ptr&lt; T &gt;&gt; &amp;vector)</td></tr>
 <tr class="separator:a3a8cf8b2ab3aa40e11b03cb94173efc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cca7aaabf7cca309553d7674fb8a698"><td class="memTemplParams" colspan="2"><a id="a7cca7aaabf7cca309553d7674fb8a698"></a>
+template&lt;class K , class T &gt; </td></tr>
+<tr class="memitem:a7cca7aaabf7cca309553d7674fb8a698"><td class="memTemplItemLeft" align="right" valign="top">std::map&lt; K, std::unique_ptr&lt; T &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>Clone</b> (const std::map&lt; K, std::unique_ptr&lt; T &gt;&gt; &amp;map)</td></tr>
+<tr class="separator:a7cca7aaabf7cca309553d7674fb8a698"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3141cd647108cf7b5b5b17df6f3aecf7"><td class="memItemLeft" align="right" valign="top"><a id="a3141cd647108cf7b5b5b17df6f3aecf7"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>parseLine</b> (char *line)</td></tr>
 <tr class="separator:a3141cd647108cf7b5b5b17df6f3aecf7"><td class="memSeparator" colspan="2">&#160;</td></tr>

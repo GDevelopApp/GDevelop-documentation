@@ -70,6 +70,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classgd_1_1_resource-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">gd::Resource Class Reference</div>  </div>
@@ -79,7 +80,7 @@ $(function() {
 <p>Base class to describe a resource used by a game.  
  <a href="classgd_1_1_resource.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="_resources_manager_8h_source.html">ResourcesManager.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_resources_container_8h_source.html">ResourcesContainer.h</a>&gt;</code></p>
 
 <p>Inherited by <a class="el" href="classgd_1_1_atlas_resource.html">gd::AtlasResource</a>, <a class="el" href="classgd_1_1_audio_resource.html">gd::AudioResource</a>, <a class="el" href="classgd_1_1_bitmap_font_resource.html">gd::BitmapFontResource</a>, <a class="el" href="classgd_1_1_font_resource.html">gd::FontResource</a>, <a class="el" href="classgd_1_1_image_resource.html">gd::ImageResource</a>, <a class="el" href="classgd_1_1_internal_in_game_editor_only_svg_resource.html">gd::InternalInGameEditorOnlySvgResource</a>, <a class="el" href="classgd_1_1_java_script_resource.html">gd::JavaScriptResource</a>, <a class="el" href="classgd_1_1_json_resource.html">gd::JsonResource</a>, <a class="el" href="classgd_1_1_model3_d_resource.html">gd::Model3DResource</a>, <a class="el" href="classgd_1_1_tilemap_resource.html">gd::TilemapResource</a>, <a class="el" href="classgd_1_1_tileset_resource.html">gd::TilesetResource</a>, and <a class="el" href="classgd_1_1_video_resource.html">gd::VideoResource</a>.</p>
 <table class="memberdecls">
@@ -153,6 +154,45 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <tr class="memitem:a9d640907680f57ff7605976cc1b6b81f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_resource.html#a9d640907680f57ff7605976cc1b6b81f">UpdateProperty</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;value)</td></tr>
 <tr class="memdesc:a9d640907680f57ff7605976cc1b6b81f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the IDE wants to update a custom property of the resource.  <a href="classgd_1_1_resource.html#a9d640907680f57ff7605976cc1b6b81f">More...</a><br /></td></tr>
 <tr class="separator:a9d640907680f57ff7605976cc1b6b81f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a8a0bdbac5ecf26583ff9b014320d226d"><td class="memItemLeft" align="right" valign="top"><a id="a8a0bdbac5ecf26583ff9b014320d226d"></a>
+static const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>imageType</b> = &quot;image&quot;</td></tr>
+<tr class="separator:a8a0bdbac5ecf26583ff9b014320d226d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e5161865dd28da1e1c566ce0f725b0d"><td class="memItemLeft" align="right" valign="top"><a id="a0e5161865dd28da1e1c566ce0f725b0d"></a>
+static const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>audioType</b> = &quot;audio&quot;</td></tr>
+<tr class="separator:a0e5161865dd28da1e1c566ce0f725b0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a5dbe7e27564a62716eb145165fa0e7"><td class="memItemLeft" align="right" valign="top"><a id="a3a5dbe7e27564a62716eb145165fa0e7"></a>
+static const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fontType</b> = &quot;font&quot;</td></tr>
+<tr class="separator:a3a5dbe7e27564a62716eb145165fa0e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b9df3b9f443f694359dc991690a3ac1"><td class="memItemLeft" align="right" valign="top"><a id="a2b9df3b9f443f694359dc991690a3ac1"></a>
+static const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>videoType</b> = &quot;video&quot;</td></tr>
+<tr class="separator:a2b9df3b9f443f694359dc991690a3ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a903562cf20a266902bd9e885dbede02c"><td class="memItemLeft" align="right" valign="top"><a id="a903562cf20a266902bd9e885dbede02c"></a>
+static const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>jsonType</b> = &quot;json&quot;</td></tr>
+<tr class="separator:a903562cf20a266902bd9e885dbede02c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa4c206cd1449b3ca5467dff88adedae"><td class="memItemLeft" align="right" valign="top"><a id="aaa4c206cd1449b3ca5467dff88adedae"></a>
+static const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>tileMapType</b> = &quot;tilemap&quot;</td></tr>
+<tr class="separator:aaa4c206cd1449b3ca5467dff88adedae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f13843ab7ad41542a443640dfc831cc"><td class="memItemLeft" align="right" valign="top"><a id="a9f13843ab7ad41542a443640dfc831cc"></a>
+static const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>tileSetType</b> = &quot;tileset&quot;</td></tr>
+<tr class="separator:a9f13843ab7ad41542a443640dfc831cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8bcd773e2be549f19a9c315a9f6dae3"><td class="memItemLeft" align="right" valign="top"><a id="ae8bcd773e2be549f19a9c315a9f6dae3"></a>
+static const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>bitmapType</b> = &quot;bitmapFont&quot;</td></tr>
+<tr class="separator:ae8bcd773e2be549f19a9c315a9f6dae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fd23be8b22eee491fb4f6aa2e344bcd"><td class="memItemLeft" align="right" valign="top"><a id="a7fd23be8b22eee491fb4f6aa2e344bcd"></a>
+static const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>model3DType</b> = &quot;model3D&quot;</td></tr>
+<tr class="separator:a7fd23be8b22eee491fb4f6aa2e344bcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a089caa77f17bea49cef150f2b170fb0c"><td class="memItemLeft" align="right" valign="top"><a id="a089caa77f17bea49cef150f2b170fb0c"></a>
+static const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>atlasType</b> = &quot;atlas&quot;</td></tr>
+<tr class="separator:a089caa77f17bea49cef150f2b170fb0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a456fd130027e9ef157d6dbe3fdab01b1"><td class="memItemLeft" align="right" valign="top"><a id="a456fd130027e9ef157d6dbe3fdab01b1"></a>
+static const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>spineType</b> = &quot;spine&quot;</td></tr>
+<tr class="separator:a456fd130027e9ef157d6dbe3fdab01b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae70f9fb9c26e30bf1a9e81c5e58ac800"><td class="memItemLeft" align="right" valign="top"><a id="ae70f9fb9c26e30bf1a9e81c5e58ac800"></a>
+static const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>javaScriptType</b> = &quot;javascript&quot;</td></tr>
+<tr class="separator:ae70f9fb9c26e30bf1a9e81c5e58ac800"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class to describe a resource used by a game. </p>
@@ -253,7 +293,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <dd>
 <a class="el" href="classgd_1_1_resource.html#ae789341a981c1e44098b858dc09f519d" title="Return, if applicable, the String containing the file used by the resource. The file is relative to t...">gd::Resource::GetFile</a> </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classgd_1_1_internal_in_game_editor_only_svg_resource.html#a690f3ad8625feee58d0c75df90926b95">gd::InternalInGameEditorOnlySvgResource</a>, <a class="el" href="classgd_1_1_java_script_resource.html#ac7de983e2025c86a4727df6d8609508f">gd::JavaScriptResource</a>, <a class="el" href="classgd_1_1_atlas_resource.html#a81b8d38b1010e623fa2ce93f15ebbc0b">gd::AtlasResource</a>, <a class="el" href="classgd_1_1_model3_d_resource.html#a904b414f60da14260759bad0c72630cf">gd::Model3DResource</a>, <a class="el" href="classgd_1_1_bitmap_font_resource.html#a1d8656a4dc69139f13b67034f501bb6f">gd::BitmapFontResource</a>, <a class="el" href="classgd_1_1_tileset_resource.html#a3e1d2b84893c959728ae28d0d105cde1">gd::TilesetResource</a>, <a class="el" href="classgd_1_1_tilemap_resource.html#a681f97b611d3703b7e78b5d39dbaba06">gd::TilemapResource</a>, <a class="el" href="classgd_1_1_json_resource.html#a5ed3ca37e4a3878351403985a282e910">gd::JsonResource</a>, <a class="el" href="classgd_1_1_video_resource.html#a8d81d55ca0d359d6870aad275ca1e97f">gd::VideoResource</a>, <a class="el" href="classgd_1_1_font_resource.html#a811cf52bb2695f2340d76b5cfb177459">gd::FontResource</a>, <a class="el" href="classgd_1_1_audio_resource.html#a543312e18667497f21355510ef4fb823">gd::AudioResource</a>, and <a class="el" href="classgd_1_1_image_resource.html#a1e48675bd33456d5509e3f549b1e2b7f">gd::ImageResource</a>.</p>
+<p>Reimplemented in <a class="el" href="classgd_1_1_internal_in_game_editor_only_svg_resource.html#aa8e080ef0013bb028be2d7db8d7e1c37">gd::InternalInGameEditorOnlySvgResource</a>, <a class="el" href="classgd_1_1_java_script_resource.html#ac7de983e2025c86a4727df6d8609508f">gd::JavaScriptResource</a>, <a class="el" href="classgd_1_1_atlas_resource.html#a81b8d38b1010e623fa2ce93f15ebbc0b">gd::AtlasResource</a>, <a class="el" href="classgd_1_1_model3_d_resource.html#a904b414f60da14260759bad0c72630cf">gd::Model3DResource</a>, <a class="el" href="classgd_1_1_bitmap_font_resource.html#a1d8656a4dc69139f13b67034f501bb6f">gd::BitmapFontResource</a>, <a class="el" href="classgd_1_1_tileset_resource.html#a3e1d2b84893c959728ae28d0d105cde1">gd::TilesetResource</a>, <a class="el" href="classgd_1_1_tilemap_resource.html#a681f97b611d3703b7e78b5d39dbaba06">gd::TilemapResource</a>, <a class="el" href="classgd_1_1_json_resource.html#a5ed3ca37e4a3878351403985a282e910">gd::JsonResource</a>, <a class="el" href="classgd_1_1_video_resource.html#a8d81d55ca0d359d6870aad275ca1e97f">gd::VideoResource</a>, <a class="el" href="classgd_1_1_font_resource.html#a811cf52bb2695f2340d76b5cfb177459">gd::FontResource</a>, <a class="el" href="classgd_1_1_audio_resource.html#a543312e18667497f21355510ef4fb823">gd::AudioResource</a>, and <a class="el" href="classgd_1_1_image_resource.html#a1e48675bd33456d5509e3f549b1e2b7f">gd::ImageResource</a>.</p>
 
 </div>
 </div>
@@ -397,8 +437,8 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="_resources_manager_8h_source.html">ResourcesManager.h</a></li>
-<li>ResourcesManager.cpp</li>
+<li><a class="el" href="_resources_container_8h_source.html">ResourcesContainer.h</a></li>
+<li>ResourcesContainer.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

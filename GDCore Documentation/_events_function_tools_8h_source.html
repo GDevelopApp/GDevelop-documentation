@@ -88,53 +88,63 @@ $(function() {
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">class </span>ObjectsContainer;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">class </span>ParameterMetadataContainer;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">class </span>PropertiesContainer;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">class </span>VariablesContainer;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">class </span>ParameterMetadata;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">class </span>EventsFunction;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">class </span>EventsBasedBehavior;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">class </span>EventsBasedObject;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">class </span>Expression;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}  <span class="comment">// namespace gd</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegd.html">gd</a> {</div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classgd_1_1_events_function_tools.html">   29</a></span>&#160;<span class="keyword">class </span>GD_CORE_API <a class="code" href="classgd_1_1_events_function_tools.html">EventsFunctionTools</a> {</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> FreeEventsFunctionToObjectsContainer(</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_project.html">gd::Project</a>&amp; project,</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_functions_container.html">gd::EventsFunctionsContainer</a>&amp; functionContainer,</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_function.html">gd::EventsFunction</a>&amp; eventsFunction,</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;      <a class="code" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a>&amp; outputObjectsContainer);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> BehaviorEventsFunctionToObjectsContainer(</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_project.html">gd::Project</a>&amp; project,</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_based_behavior.html">gd::EventsBasedBehavior</a>&amp; eventsBasedBehavior,</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_function.html">gd::EventsFunction</a>&amp; eventsFunction,</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;      <a class="code" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a>&amp; outputObjectsContainer);</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> ObjectEventsFunctionToObjectsContainer(</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_project.html">gd::Project</a>&amp; project,</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_based_object.html">gd::EventsBasedObject</a>&amp; eventsBasedObject,</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_function.html">gd::EventsFunction</a>&amp; eventsFunction,</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;      <a class="code" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a>&amp; outputObjectsContainer);</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> ParametersToVariablesContainer(</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_parameter_metadata_container.html">ParameterMetadataContainer</a> &amp;parameters,</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;      <a class="code" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> &amp;outputVariablesContainer);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> PropertiesToVariablesContainer(</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_properties_container.html">PropertiesContainer</a> &amp;properties,</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;      <a class="code" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> &amp;outputVariablesContainer);</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;};</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;}  <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">class </span>ResourcesContainer;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">class </span>VariablesContainer;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">class </span>ParameterMetadata;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">class </span>EventsFunction;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">class </span>EventsBasedBehavior;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">class </span>EventsBasedObject;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">class </span>Expression;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}  <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegd.html">gd</a> {</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classgd_1_1_events_function_tools.html">   30</a></span>&#160;<span class="keyword">class </span>GD_CORE_API <a class="code" href="classgd_1_1_events_function_tools.html">EventsFunctionTools</a> {</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> FreeEventsFunctionToObjectsContainer(</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_project.html">gd::Project</a>&amp; project,</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_functions_container.html">gd::EventsFunctionsContainer</a>&amp; functionContainer,</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_function.html">gd::EventsFunction</a>&amp; eventsFunction,</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;      <a class="code" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a>&amp; outputObjectsContainer);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> BehaviorEventsFunctionToObjectsContainer(</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_project.html">gd::Project</a>&amp; project,</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_based_behavior.html">gd::EventsBasedBehavior</a>&amp; eventsBasedBehavior,</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_function.html">gd::EventsFunction</a>&amp; eventsFunction,</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;      <a class="code" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a>&amp; outputObjectsContainer);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> ObjectEventsFunctionToObjectsContainer(</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_project.html">gd::Project</a>&amp; project,</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_based_object.html">gd::EventsBasedObject</a>&amp; eventsBasedObject,</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_function.html">gd::EventsFunction</a>&amp; eventsFunction,</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;      <a class="code" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a>&amp; outputObjectsContainer);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> ParametersToVariablesContainer(</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_parameter_metadata_container.html">ParameterMetadataContainer</a> &amp;parameters,</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;      <a class="code" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> &amp;outputVariablesContainer);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> PropertiesToVariablesContainer(</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_properties_container.html">PropertiesContainer</a> &amp;properties,</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;      <a class="code" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> &amp;outputVariablesContainer);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> ParametersToResourcesContainer(</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_parameter_metadata_container.html">ParameterMetadataContainer</a> &amp;parameters,</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;      <a class="code" href="classgd_1_1_resources_container.html">gd::ResourcesContainer</a> &amp;outputResourcesContainer);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> PropertiesToResourcesContainer(</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_properties_container.html">PropertiesContainer</a> &amp;properties,</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;      <a class="code" href="classgd_1_1_resources_container.html">gd::ResourcesContainer</a> &amp;outputResourcesContainer);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;};</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;}  <span class="comment">// namespace gd</span></div>
 <div class="ttc" id="aclassgd_1_1_events_based_behavior_html"><div class="ttname"><a href="classgd_1_1_events_based_behavior.html">gd::EventsBasedBehavior</a></div><div class="ttdoc">Represents a behavior that is implemented with events.</div><div class="ttdef"><b>Definition:</b> EventsBasedBehavior.h:31</div></div>
 <div class="ttc" id="aclassgd_1_1_events_based_object_html"><div class="ttname"><a href="classgd_1_1_events_based_object.html">gd::EventsBasedObject</a></div><div class="ttdoc">Represents an object that is implemented with events.</div><div class="ttdef"><b>Definition:</b> EventsBasedObject.h:32</div></div>
 <div class="ttc" id="aclassgd_1_1_events_function_html"><div class="ttname"><a href="classgd_1_1_events_function.html">gd::EventsFunction</a></div><div class="ttdoc">Events that can be generated as a stand-alone function, and used as a condition, action or expression...</div><div class="ttdef"><b>Definition:</b> EventsFunction.h:38</div></div>
-<div class="ttc" id="aclassgd_1_1_events_function_tools_html"><div class="ttname"><a href="classgd_1_1_events_function_tools.html">gd::EventsFunctionTools</a></div><div class="ttdef"><b>Definition:</b> EventsFunctionTools.h:29</div></div>
+<div class="ttc" id="aclassgd_1_1_events_function_tools_html"><div class="ttname"><a href="classgd_1_1_events_function_tools.html">gd::EventsFunctionTools</a></div><div class="ttdef"><b>Definition:</b> EventsFunctionTools.h:30</div></div>
 <div class="ttc" id="aclassgd_1_1_events_functions_container_html"><div class="ttname"><a href="classgd_1_1_events_functions_container.html">gd::EventsFunctionsContainer</a></div><div class="ttdoc">Used as a base class for classes that will own events-backed functions.</div><div class="ttdef"><b>Definition:</b> EventsFunctionsContainer.h:27</div></div>
 <div class="ttc" id="aclassgd_1_1_objects_container_html"><div class="ttname"><a href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a></div><div class="ttdoc">Used as a base class for classes that will own objects (see gd::Object).</div><div class="ttdef"><b>Definition:</b> ObjectsContainer.h:37</div></div>
 <div class="ttc" id="aclassgd_1_1_parameter_metadata_container_html"><div class="ttname"><a href="classgd_1_1_parameter_metadata_container.html">gd::ParameterMetadataContainer</a></div><div class="ttdoc">Used as a base class for classes that will own events-backed functions.</div><div class="ttdef"><b>Definition:</b> ParameterMetadataContainer.h:26</div></div>
 <div class="ttc" id="aclassgd_1_1_project_html"><div class="ttname"><a href="classgd_1_1_project.html">gd::Project</a></div><div class="ttdoc">Base class representing a project (game), including all resources, scenes, objects,...</div><div class="ttdef"><b>Definition:</b> Project.h:50</div></div>
 <div class="ttc" id="aclassgd_1_1_properties_container_html"><div class="ttname"><a href="classgd_1_1_properties_container.html">gd::PropertiesContainer</a></div><div class="ttdoc">A container of properties, used for custom behaviors, custom objects, extensions.....</div><div class="ttdef"><b>Definition:</b> PropertiesContainer.h:17</div></div>
+<div class="ttc" id="aclassgd_1_1_resources_container_html"><div class="ttname"><a href="classgd_1_1_resources_container.html">gd::ResourcesContainer</a></div><div class="ttdoc">Inventory all resources used by a project.</div><div class="ttdef"><b>Definition:</b> ResourcesContainer.h:627</div></div>
 <div class="ttc" id="aclassgd_1_1_variables_container_html"><div class="ttname"><a href="classgd_1_1_variables_container.html">gd::VariablesContainer</a></div><div class="ttdoc">Class defining a container for gd::Variable.</div><div class="ttdef"><b>Definition:</b> VariablesContainer.h:28</div></div>
 <div class="ttc" id="anamespacegd_html"><div class="ttname"><a href="namespacegd.html">gd</a></div><div class="ttdef"><b>Definition:</b> CommonTools.h:24</div></div>
 </div><!-- fragment --></div><!-- contents -->
