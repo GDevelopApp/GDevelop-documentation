@@ -7,7 +7,8 @@ Converts voice to text.
 
 !!! warning
     This is an extension made by a community member and it only got through a
-    light review by the GDevelop extension team. As such, we can't guarantee it
+    light review by the GDevelop extension team. As such, we can't guarantee it araba oyunu 
+    
     meets all the quality standards of fully reviewed extensions.
 
 ---
