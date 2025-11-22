@@ -5,8 +5,10 @@ title: How to troubleshoot poor game performance
 
 Game optimization is an important concept of game development. Good optimization will allow the game to work faster, making it more fluid.
 
-If your game is running slowly, it's a good idea to look at these common consumers:
+If your game is running slowly, it's a good idea to look at these common culprits:
 
+* Are your images ("textures") too big? While GDevelop loads scenes progressively, a large number of images with a high resolution (1024 pixels or more) can fill up the GPU (graphics card) memory. This is especially true if you use a lot of frames for the animations of objects like the player or enemies. Use images as small as you can while preserving a good rendering on your target platform and resolution.
+  Mobile phones and tablets are especially impacted by the resolution of assets. This will help speed up the rendering and lower the memory usage.
 * Do you have a lot of **particle emitters**? Particles can be costly to render, consider reducing the number used.
 * Do you have a **lot of logic going on** in the events? Launch [the profiler](/gdevelop5/interface/debugger/profile-your-game) and run it on your game. Then, take a look at the results. Are there any groups of events that take a lot of time? If yes, consider checking the events inside this group for costly sections that could be rearranged or changed.
   * Chances are that these events are being applied to **a lot of objects**. Consider refining the number of objects by grouping the events as sub-events of one event, with a condition that excludes objects that don't need to be acted upon.(i.e NPCs that are off-screen or objects not in range of the player.)
