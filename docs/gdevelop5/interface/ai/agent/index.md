@@ -53,13 +53,14 @@ Here are a few best practices for working with the AI agent:
 
 ## Cost of an AI request
 
-Each account starts with a few **free AI requests**. If you have a GDevelop Silver, Gold or Pro subscription, you’ll receive more every day — 4 with Silver, 20 with Gold and 100 with Pro.
+Each account starts with a few **free AI credits**. If you have a GDevelop Silver, Gold or Pro subscription, you’ll receive more every week: 200 with Silver, 1000 with Gold and 3000 with Pro.
 
-Once you've used all free requests, a request to the AI agent you send costs **4 to 20 credits**. The actual price depends on how much work and thinking the AI agent has to do. A simple request for a small change will be 4 credits, while a work involved request that needs for example to generate multiple events can be 16 or 20 credits.
+A request to the AI agent you send uses **3 to 30 AI credits**. The actual price depends on how much work and thinking the AI agent has to do. A simple request for a small change or question can be 3 credits, while a request that would generate multiple events could be 16 or 20 credits.
 
 !!! tip
 
-     This means that with [a package of 500 credits](/gdevelop5/interface/profile/credits), you can make from 30 to 100 requests. Remember you can get **free credits by following GDevelop accounts** on socials — check your profile!
+     Once you've used all your AI credits, you can either wait for them to replenish (every Sunday at 23:50 UTC) or buy additional credits.
+     [A package of 500 credits](/gdevelop5/interface/profile/credits) usually represents 60 to 100 requests to the AI. Remember you can get **free credits by following GDevelop accounts** on socials — check your profile!
 
 If you hover/tap the text indicating the price of the request, below the field where you write your request, you will see the credits paid for the last request you sent.
 
@@ -69,4 +70,4 @@ You can rate the AI’s answers with a 👍 or 👎. These ratings help the GDev
 
 !!! note
 
-    Sometimes, high demand can temporarily slow things down or prevent a proper response. If that happens, don’t worry — you won’t be charged credits or lose your free requests.
+    Sometimes, high demand can temporarily slow things down or prevent a proper response. If that happens, don’t worry — you won’t be charged credits.
