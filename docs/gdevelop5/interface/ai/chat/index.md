@@ -22,28 +22,30 @@ You can continue the conversation by asking follow-up questions. If you want to 
 
 ## What the AI chat can help you with
 
-The AI understands all built-in GDevelop features and official, reviewed extensions (it doesn’t include community extensions unless they’ve been approved by the GDevelop team). It also has access to *an overview* of your project, which includes:
+The AI understands all built-in GDevelop features and official, reviewed extensions (it doesn’t include community extensions unless they’ve been approved by the GDevelop team). It has the knowledge of your game and can explore it:
 
-- Your game scene names
-- Global objects and objects in each scene (but not their exact configuration),
-- Object behaviors (but not their exact configuration),
-- Global, scene and object variables (but not their content).
+- It can inspect your scenes and objects,
+- Read the events of a scene,
+- And generally speaking, inspect any part of your game but it can't do any changes to it.
 
-It **does not** currently have access to your scene events. It also has no access or details given about your username, profile, cloud projects, leaderboards, analytics or any personal detail from your user account.
+It has **no access** or details given about your username, profile, cloud projects, leaderboards, analytics or any personal detail from your user account.
 
 The AI chat is perfect for getting a better understanding of a game develpment notion, discover extensions or features that you can use or learn how to build something.
 
 
 ## Cost of an answer from the AI
 
-Each account starts with a few **free AI requests**. If you have a GDevelop Silver, Gold or Pro subscription, you’ll receive more every day — 4 with Silver, 20 with Gold and 100 with Pro.
+Each account starts with a few **free AI credits**. If you have a GDevelop Silver, Gold or Pro subscription, you’ll receive more every week: 200 with Silver, 1000 with Gold and 3000 with Pro.
+
+A request to the AI chat you send uses **3 to 30 AI credits**. The actual price depends on how much thinking and research the AI agent has to do. A simple request for a small change or question can be 3 credits, while a request that needs to read multiple events or inspect behaviors of several objects could cost 10 credits.
 
 !!! tip
 
-    Once you've used all free answers, a message you send to the AI costs 5 credits. This means that with [a package of 500 credits](/gdevelop5/interface/profile/credits), you can make up to 100 requests. Remember you can get **free credits by following GDevelop accounts** on socials — check your profile!
+    Once you've used all your AI credits, you can either wait for them to replenish (every Sunday at 23:50 UTC) or buy additional credits.
+    [A package of 500 credits](/gdevelop5/interface/profile/credits) usually represents 100 to 120 requests to the AI chat. Remember you can get **free credits by following GDevelop accounts** on socials — check your profile!
 
-    This is done to help pay for the expenses related to AI processing, and their maintenance.
 
+If you hover/tap the text indicating the price of the request, below the field where you write your request, you will see the credits paid for the last request you sent.
 
 ## Help us improve the AI
 
@@ -51,4 +53,4 @@ You can rate the AI’s answers with a 👍 or 👎. These ratings help the GDev
 
 !!! note
 
-    Sometimes, high demand can temporarily slow things down or prevent a proper response. If that happens, don’t worry — you won’t be charged credits or lose your free requests.
+    Sometimes, high demand can temporarily slow things down or prevent a proper response. If that happens, don’t worry — you won’t be charged credits.
