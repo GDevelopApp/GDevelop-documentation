@@ -23,11 +23,21 @@ An animated score counter with an icon and a customisable font.
 ### Object properties
 
 - **Score** (🔢 Number, Dimensionless). Default score. Default value is `0`.
+- **Increasing score sound** (🗂️ Resource).
+- **Min baseline pitch** (🔢 Number). Default value is `0.7`.
+- **Max baseline pitch** (🔢 Number). Default value is `0.8`.
+- **Pitch factor** (🔢 Number). Default value is `1.01`.
+- **Pitch reset timeout** (🔢 Number, Duration). Default value is `1`.
 
 ??? quote "See internal technical details"
 
 
     - **Score** is stored as `Score` (Number). Unit is Dimensionless. Default value is `0`.
+    - **Increasing score sound** is stored as `IncreasingScoreSound` (Resource). Default value is ``.
+    - **Min baseline pitch** is stored as `PitchBaselineMin` (Number). Default value is `0.7`.
+    - **Max baseline pitch** is stored as `PitchBaselineMax` (Number). Default value is `0.8`.
+    - **Pitch factor** is stored as `PitchFactor` (Number). Default value is `1.01`.
+    - **Pitch reset timeout** is stored as `PitchTimeout` (Number). Unit is Second. Default value is `1`.
 
 ### Object actions
 

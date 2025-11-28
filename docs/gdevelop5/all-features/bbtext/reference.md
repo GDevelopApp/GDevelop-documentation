@@ -27,9 +27,7 @@ Displays a rich text label using BBCode markup (allowing to set parts of the tex
     - **Base color** is stored as `color` (color). Default value is `0;0;0`.
     - **Font** is stored as `fontFamily` (resource). Default value is `Arial`.
     - **Base size** is stored as `fontSize` (number). Default value is `20`.
-    - **BBCode text** is stored as `text` (multilinestring). Default value is `[b]bold[/b] [i]italic[/i] [size=15]smaller[/size] [font=times]times[/font] font
-[spacing=12]spaced out[/spacing]
-[outline=yellow]outlined[/outline] [shadow=red]DropShadow[/shadow] `.
+    - **BBCode text** is stored as `text` (multilinestring). Default value is `[b]bold[/b] [i]italic[/i] [size=15]smaller[/size] [font=times]times[/font] font [spacing=12]spaced out[/spacing] [outline=yellow]outlined[/outline] [shadow=red]DropShadow[/shadow] `.
     - **Vertical alignment** is stored as `verticalTextAlignment` (choice). Default value is `top`.
     - **Visible on start** is stored as `visible` (boolean). Default value is `true`.
 

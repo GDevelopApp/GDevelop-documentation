@@ -114,7 +114,6 @@ Read more about this:
 |<img src="https://resources.gdevelop-app.com/assets/Icons/gesture-pinch.svg" class="extension-icon"></img>|**Pinching gesture**|Move the camera or objects with pinching gestures.|[Read more...](/gdevelop5/extensions/pinch-gesture)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Videogames/Videogames_controller_joystick_arrows_direction.svg" class="extension-icon"></img>|**Multitouch joystick and buttons (sprite)**|Joysticks or buttons for touchscreens.|[Read more...](/gdevelop5/objects/multitouch-joystick) ([reference](/gdevelop5/extensions/sprite-multitouch-joystick))|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/gesture-swipe-right.svg" class="extension-icon"></img>|**Swipe Gesture**|Detect swipe gestures based on their distance and duration.|[Read more...](/gdevelop5/extensions/swipe-gesture)|
-|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Interface Elements/0842ffc478006e9b6687fca9a5761494c4efd1df873220637af5b4ac7253f850_Interface Elements_interface_ui_window_application_app_button_cta.svg" class="extension-icon"></img>|**Two choices dialog boxes**|A dialog box with buttons to let users make a choice.|[Read more...](/gdevelop5/extensions/two-choices-dialog-boxes)|
 
 ### Movement
 
@@ -199,6 +198,7 @@ Read more about this:
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/063e9152cf65bc0f3be2a828afd950c3ecf1b1fc72feefdc2467252fe987dc0f_dots-horizontal.svg" class="extension-icon"></img>|**Resource bar (separated units)**|A bar that represents a resource in the game (health, mana, ammo, etc).|[Read more...](/gdevelop5/objects/resource-bar) ([reference](/gdevelop5/extensions/tiled-units-bar))|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/clock-digital.svg" class="extension-icon"></img>|**Time formatting**|Converts seconds into standard time formats, such as HH:MM:SS. |[Read more...](/gdevelop5/extensions/time-formatter)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Interface Elements/Interface Elements_interface_ui_toggle_switch.svg" class="extension-icon"></img>|**Toggle switch (for Shape Painter)**|Toggle switch that users can click or touch.|[Read more...](/gdevelop5/extensions/toggle-switch)|
+|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Interface Elements/0842ffc478006e9b6687fca9a5761494c4efd1df873220637af5b4ac7253f850_Interface Elements_interface_ui_window_application_app_button_cta.svg" class="extension-icon"></img>|**Two choices dialog boxes**|A dialog box with buttons to let users make a choice.|[Read more...](/gdevelop5/extensions/two-choices-dialog-boxes)|
 
 ### Visual effect
 

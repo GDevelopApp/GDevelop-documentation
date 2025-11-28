@@ -71,7 +71,6 @@ nav:
         - Pinching gesture: pinch-gesture
         - Multitouch joystick and buttons (sprite): sprite-multitouch-joystick
         - Swipe Gesture: swipe-gesture
-        - Two choices dialog boxes: two-choices-dialog-boxes
     - Movement:
         - Advanced platformer movements: advanced-jump
         - Advanced movements for 3D physics characters: advanced-jump3d
@@ -140,6 +139,7 @@ nav:
         - Resource bar (separated units): tiled-units-bar
         - Time formatting: time-formatter
         - Toggle switch (for Shape Painter): toggle-switch
+        - Two choices dialog boxes: two-choices-dialog-boxes
     - Visual effect:
         - 3D Billboard: billboard
         - Depth effect: depth-effect

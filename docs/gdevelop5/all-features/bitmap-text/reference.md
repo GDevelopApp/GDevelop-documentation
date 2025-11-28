@@ -25,8 +25,7 @@ Use a custom Bitmap Font to create your own texts.`.
     - **Alignment** is stored as `align` (choice). Default value is `left`.
     - **Bitmap Font** is stored as `bitmapFontResourceName` (resource). Default value is ``.
     - **Text scale** is stored as `scale` (number). Default value is `1`.
-    - **Text** is stored as `text` (multilinestring). Default value is `This text use the default bitmap font.
-Use a custom Bitmap Font to create your own texts.`.
+    - **Text** is stored as `text` (multilinestring). Default value is `This text use the default bitmap font. Use a custom Bitmap Font to create your own texts.`.
     - **Bitmap Atlas** is stored as `textureAtlasResourceName` (resource). Default value is ``.
     - **Font tint** is stored as `tint` (color). Default value is `255;255;255`.
     - **Vertical alignment** is stored as `verticalTextAlignment` (choice). Default value is `top`.

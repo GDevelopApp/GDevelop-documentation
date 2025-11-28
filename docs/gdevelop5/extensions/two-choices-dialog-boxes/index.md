@@ -27,6 +27,7 @@ A dialog box showing two options.
 - **Cancel with Escape key** (🔘 Boolean). Enable or disable the escape key to close the dialog. Default value is `true`.
 - **Label for the "Yes" button** (🔤 String). This is the button with identifier 0. Default value is `Yes`.
 - **Label for the "No" button** (🔤 String). This is the button with identifier 1. Default value is `No`.
+- **Sound at hovering** (🗂️ Resource).
 
 ??? quote "See internal technical details"
 
@@ -35,6 +36,7 @@ A dialog box showing two options.
     - **Cancel with Escape key** is stored as `EnableEscape` (Boolean). Default value is `true`.
     - **Label for the "Yes" button** is stored as `LabelButtonID0` (String). Default value is `Yes`.
     - **Label for the "No" button** is stored as `LabelButtonID1` (String). Default value is `No`.
+    - **Sound at hovering** is stored as `HoveredSound` (Resource). Default value is ``.
 
 ### Object conditions
 
