@@ -73,14 +73,14 @@ Simulate realistic 3D physics for this object including gravity, forces, collisi
 
 ### Behavior properties
 
-- **Angular Damping** (🔢 Number). Default value is `0.1`.
+- **Angular Damping** (🔢 Number). Angular damping reduces an object's rotational speed over time, making its spins slow down smoothly. Default value is `0.1`.
 - **Type** (Choice, one of: "Static", "Dynamic", "Kinematic"). A static object won't move (perfect for obstacles). Dynamic objects can move. Kinematic will move according to forces applied to it only (useful for characters or specific mechanisms). Default value is `Dynamic`.
 - **Considered as a bullet** (🔘 Boolean). Useful for fast moving objects which requires a more accurate collision detection. Default value is `false`.
 - **Density** (🔢 Number). Define the weight of the object, according to its size. The bigger the density, the heavier the object. Default value is `123`.
 - **Fixed Rotation** (🔘 Boolean). If enabled, the object won't rotate and will stay at the same angle. Default value is `false`.
 - **Friction** (🔢 Number). The friction applied when touching other objects. The higher the value, the more friction. Default value is `0.3`.
-- **Gravity Scale** (🔢 Number). Default value is `1`.
-- **Linear Damping** (🔢 Number). Default value is `0.1`.
+- **Gravity Scale** (🔢 Number). Gravity Scale multiplies the world's gravity for a specific body, making it experience stronger or weaker gravitational force than normal. Default value is `1`.
+- **Linear Damping** (🔢 Number). Linear damping reduces an object's movement speed over time, making its motion slow down smoothly. Default value is `0.1`.
 - **Mass override** (🔢 Number). Leave at 0 to use the density. Default value is `0`.
 - **Restitution** (🔢 Number). The "bounciness" of the object. The higher the value, the more other objects will bounce against it. Default value is `0.1`.
 - **Shape** (Choice, one of: "Box", "Capsule", "Cylinder", "Sphere"). Default value is `Box`.
