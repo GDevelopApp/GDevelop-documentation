@@ -3,10 +3,6 @@ title: Ask AI (build/chat with AI)
 ---
 # Ask AI: Build your game with AI
 
-Click on **Ask AI** on the top-right corner of GDevelop to open the GDevelop AI editor.
-
-![Ask AI screen](./ask-ai-tab.png)
-
 Unlike general-purpose AI tools like ChatGPT, Claude, or Google Gemini, GDevelop AI is **tailored for game creation**. It knows how GDevelop works and can help you:
 
 - Understand features and how to use them
@@ -16,6 +12,9 @@ Unlike general-purpose AI tools like ChatGPT, Claude, or Google Gemini, GDevelop
 !!! tip
 
     Think of it as a mentor and creative collaborator that speaks GDevelop fluently.
+Click on **Ask AI** on the top-right corner of GDevelop to open the GDevelop AI editor.
+
+![Ask AI screen](./ask-ai-tab.png).
 
 ## How does it work: AI agent and AI chat
 
