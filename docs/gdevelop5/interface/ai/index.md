@@ -35,6 +35,7 @@ For mor information on credit consumption and good practices:
 ## Cost of AI requests
 An AI request could use 3 to 30 credits depending on the scope.
 The number of credits used depends on the work and processing ("thinking") the AI has to do:
+
 - an "Ask" request can be 2 to 5 credits,
 - a simple "Build" request to do a small change could use 10 credits while implementations with multiple events could be 16 to 20 credits.
 
@@ -44,9 +45,10 @@ The number of credits used depends on the work and processing ("thinking") the A
 
 ## Aquiring credits for AI requests
 All accounts starts with a few free AI credits. Once you've used all your free AI credits, you can:
+
 - wait for them to replenish (every Sunday at 23:50 UTC),
 - follow GDevelop accounts on socials and claim the credits through your profile,
-- give <a href="gdevelop5/interface/games-dashboard/player-feedback/"> quality feedback</a> to GDevelop creators,
+- give <a href="/interface/games-dashboard/player-feedback/"> quality feedback</a> to GDevelop creators,
 - use the AI chat to switch to your available <a href="gdevelop5/interface/profile/credits/"> GDevelop credits</a>,
 - buy additional GDevelop credits through the app to get more AI requests,
 - upgrade to GDevelop premium subscriptions.
@@ -63,13 +65,14 @@ GDevelop AI is built on general purpose Large Language Models (LLMs) that can be
 
 **GDevelop AI is not trained on your accout's files nor individual projects**.
 Local and cloud project are only accessible to the AI when the chat is in use. All cloud projects are stored separately from the GDevelop AI infrastructure which prevents it from access them without your request.
+
 **In all cases there is no usage of private data for improving the AI.**
 
 
 ## How to improve the AI
 
-You can rate the AI’s answers with a 👍 or 👎.
-Positive ratings will signal the AI to follow that rationale. Negative feedback will nudge the GDevelop team that the answer wasn't correct.
+You can rate the AI’s answers with a 👍 or 👎. Positive ratings will signal the AI to follow that rationale. Negative feedback will nudge the GDevelop team that the answer wasn't correct.
+
 In the case of negative feedback, adding context to why the answer wasn't correct will help the engineers stir the AI to the right direction.
 
 ![AI report](./AI_report.png)
