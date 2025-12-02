@@ -3,7 +3,7 @@ title: Build with AI
 ---
 # Build with AI: the AI agent
 
-The **AI agent** is an AI designed specifically to build games and do game creation tasks with GDevelop.
+The **AI agent** is an AI designed specifically to help with game implementation and game creation tasks with GDevelop.
 
 ![A conversation with the AI agent building a feature in a game](./ai-agent-conversation.png)
 
