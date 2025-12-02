@@ -7,9 +7,6 @@ The **AI agent** is an AI designed specifically to help with game implementation
 
 ![A conversation with the AI agent building a feature in a game](./ai-agent-conversation.png)
 
-## How to use it
-
-To open the AI, click the "Ask AI" button in the top-right corner of the GDevelop interface. Select **"Build for me"**, then type your request and send it — that’s it. You can then watch take it actions in your game to build what you asked.
 
 ## What the AI agent can build for you
 
