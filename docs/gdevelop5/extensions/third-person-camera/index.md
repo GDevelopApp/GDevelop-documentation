@@ -65,7 +65,7 @@ Smoothly follow an object at a distance.
 
 - **Camera distance** (🔢 Number, Distance). Default value is `500`.
 - **Elevation angle offset** (🔢 Number, Angle). Default value is `20`.
-- **Halfway  time for elevation rotation** (🔢 Number, Duration). Only used by Z and ZY rotation modes. Default value is `0`.
+- **Halfway time for elevation rotation** (🔢 Number, Duration). Only used by Z and ZY rotation modes. Default value is `0`.
 - **Follow free area top border on Z axis** (🔢 Number, Distance). Default value is `0`.
 - **Follow free area bottom border on Z axis** (🔢 Number, Distance). Default value is `0`.
 - **Automatically rotate the camera with the object (elevation)** (🔘 Boolean). Best left unchecked, use the rotation mode instead. Default value is `false`.
@@ -74,7 +74,7 @@ Smoothly follow an object at a distance.
 - **Ahead distance offset** (🔢 Number, Distance). Default value is `0`.
 - **Z offset** (🔢 Number, Distance). Default value is `0`.
 - **Rotation angle offset** (🔢 Number, Angle). Default value is `0`.
-- **Halfway  time for rotation** (🔢 Number, Duration). Default value is `0.125`.
+- **Halfway time for rotation** (🔢 Number, Duration). Default value is `0.125`.
 - **Rotation mode** (Choice, one of: "Z", "ZY", "ZYX"). Default value is `Z`.
 - **Halfway time on Z axis** (🔢 Number, Duration). Only used by Z and ZY rotation modes. Default value is `0.125`.
 
@@ -83,7 +83,7 @@ Smoothly follow an object at a distance.
 
     - **Camera distance** is stored as `Distance` (Number). Unit is Pixel. Default value is `500`.
     - **Elevation angle offset** is stored as `ElevationAngleOffset` (Number). Unit is DegreeAngle. Default value is `20`.
-    - **Halfway  time for elevation rotation** is stored as `ElevationHalfwayDuration` (Number). Unit is Second. Default value is `0`.
+    - **Halfway time for elevation rotation** is stored as `ElevationHalfwayDuration` (Number). Unit is Second. Default value is `0`.
     - **Follow free area top border on Z axis** is stored as `FollowFreeAreaZMax` (Number). Unit is Pixel. Default value is `0`.
     - **Follow free area bottom border on Z axis** is stored as `FollowFreeAreaZMin` (Number). Unit is Pixel. Default value is `0`.
     - **Automatically rotate the camera with the object (elevation)** is stored as `IsElevatingWithObject` (Boolean). Default value is `false`.
@@ -94,7 +94,7 @@ Smoothly follow an object at a distance.
     - **Ahead distance offset** is stored as `OffsetY` (Number). Unit is Pixel. Default value is `0`.
     - **Z offset** is stored as `OffsetZ` (Number). Unit is Pixel. Default value is `0`.
     - **Rotation angle offset** is stored as `RotationAngleOffset` (Number). Unit is DegreeAngle. Default value is `0`.
-    - **Halfway  time for rotation** is stored as `RotationHalfwayDuration` (Number). Unit is Second. Default value is `0.125`.
+    - **Halfway time for rotation** is stored as `RotationHalfwayDuration` (Number). Unit is Second. Default value is `0.125`.
     - **Rotation mode** is stored as `RotationMode` (Choice). Default value is `Z`.
     - **Halfway time on Z axis** is stored as `TranslationZHalfwayDuration` (Number). Unit is Second. Default value is `0.125`.
 
