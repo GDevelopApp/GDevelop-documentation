@@ -1,7 +1,7 @@
 ---
 title: Chat with AI
 ---
-# Chat with AI: Get Help Building Your Game with AI
+# Ask the AI: the AI helper
 
 The **AI chat** is a chat assistant designed specifically to answer questions about GDevelop and game creation.
 
