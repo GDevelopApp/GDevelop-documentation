@@ -46,12 +46,11 @@ The number of credits used depends on the work and processing ("thinking") the A
 ## Aquiring credits for AI requests
 All accounts starts with a few free AI credits. Once you've used all your free AI credits, you can:
 
-- wait for them to replenish (every Sunday at 23:50 UTC),
-- follow GDevelop accounts on socials and claim the credits through your profile,
-- give [quality feedback](gdevelop5/interface/games-dashboard/player-feedback/) to GDevelop creators,
-- use the AI chat to switch to your available [GDevelop credits](gdevelop5/interface/profile/credits/)
-- buy additional GDevelop credits through the app to get more AI requests,
-- upgrade to GDevelop premium subscriptions.
+- Wait for them to replenish (every Sunday at 23:50 UTC)
+- [upgrade]( https://editor.gdevelop.io/?initial-dialog=subscription) to GDevelop premium subscriptions
+- Buy additional [GDevelop credits](gdevelop5/interface/profile/credits/) to get more requests
+- Give [quality feedback](gdevelop5/interface/games-dashboard/player-feedback/) to GDevelop creators
+- Follow GDevelop accounts on socials and claim the credits through your profile
 
 !!! note
     A package of 500 credits usually represents 60 to 100 requests to the AI. 
