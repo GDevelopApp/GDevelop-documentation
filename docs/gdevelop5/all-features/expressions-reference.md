@@ -1395,9 +1395,9 @@ This behavior is usually used with one or more "mapper" behavior to let the play
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Object.PhysicsCharacter3D::CurrentFallSpeed()` | Return Compare the current falling speed of the object. Its value is always positive.. ||
+| `Object.PhysicsCharacter3D::CurrentFallSpeed()` | Return the current falling speed of the object. Its value is always positive.. ||
 | `Object.PhysicsCharacter3D::CurrentForwardSpeed()` | Return the current forward speed of the object. The object moves backward with negative values and forward with positive ones. ||
-| `Object.PhysicsCharacter3D::CurrentJumpSpeed()` | Return Compare the current jump speed of the object. Its value is always positive.. ||
+| `Object.PhysicsCharacter3D::CurrentJumpSpeed()` | Return the current jump speed of the object. Its value is always positive.. ||
 | `Object.PhysicsCharacter3D::CurrentSidewaysSpeed()` | Return the current sideways speed of the object. The object moves to the left with negative values and to the right with positive ones. ||
 | `Object.PhysicsCharacter3D::FallingSpeedMax()` | Return the maximum falling speed of an object. ||
 | `Object.PhysicsCharacter3D::ForwardAcceleration()` | Return the forward acceleration of an object. ||

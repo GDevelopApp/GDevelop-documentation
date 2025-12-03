@@ -1212,7 +1212,7 @@ This revokes the effect of "Allow jumping again". The object is made unable to j
     > Technical note: this action internal type (in GDevelop JSON) is `Physics3D::PhysicsCharacter3D::SetCanNotAirJump`.
 
 **Current falling speed**  
-Change Compare the current falling speed of the object. Its value is always positive..
+Change the current falling speed of the object. Its value is always positive..
 
 ??? quote "See parameters & details"
 
@@ -1236,7 +1236,7 @@ Change the current forward speed of the object. The object moves backward with n
     > Technical note: this action internal type (in GDevelop JSON) is `Physics3D::PhysicsCharacter3D::SetCurrentForwardSpeed`.
 
 **Current jump speed**  
-Change Compare the current jump speed of the object. Its value is always positive..
+Change the current jump speed of the object. Its value is always positive..
 
 ??? quote "See parameters & details"
 
@@ -1466,7 +1466,7 @@ Check if the object can jump.
     > Technical note: this condition internal type (in GDevelop JSON) is `Physics3D::PhysicsCharacter3D::CanJump`.
 
 **Current falling speed**  
-Compare Compare the current falling speed of the object. Its value is always positive..
+Compare the current falling speed of the object. Its value is always positive..
 
 ??? quote "See parameters & details"
 
@@ -1490,7 +1490,7 @@ Compare the current forward speed of the object. The object moves backward with 
     > Technical note: this condition internal type (in GDevelop JSON) is `Physics3D::PhysicsCharacter3D::CurrentForwardSpeed`.
 
 **Current jump speed**  
-Compare Compare the current jump speed of the object. Its value is always positive..
+Compare the current jump speed of the object. Its value is always positive..
 
 ??? quote "See parameters & details"
 
@@ -1701,9 +1701,9 @@ Compare the sideways max speed of the object.
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Object.PhysicsCharacter3D::CurrentFallSpeed()` | Return Compare the current falling speed of the object. Its value is always positive.. ||
+| `Object.PhysicsCharacter3D::CurrentFallSpeed()` | Return the current falling speed of the object. Its value is always positive.. ||
 | `Object.PhysicsCharacter3D::CurrentForwardSpeed()` | Return the current forward speed of the object. The object moves backward with negative values and forward with positive ones. ||
-| `Object.PhysicsCharacter3D::CurrentJumpSpeed()` | Return Compare the current jump speed of the object. Its value is always positive.. ||
+| `Object.PhysicsCharacter3D::CurrentJumpSpeed()` | Return the current jump speed of the object. Its value is always positive.. ||
 | `Object.PhysicsCharacter3D::CurrentSidewaysSpeed()` | Return the current sideways speed of the object. The object moves to the left with negative values and to the right with positive ones. ||
 | `Object.PhysicsCharacter3D::FallingSpeedMax()` | Return the maximum falling speed of an object. ||
 | `Object.PhysicsCharacter3D::ForwardAcceleration()` | Return the forward acceleration of an object. ||
