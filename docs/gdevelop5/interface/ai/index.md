@@ -48,7 +48,7 @@ All accounts starts with a few free AI credits. Once you've used all your free A
 
 - Wait for them to replenish (every Sunday at 23:50 UTC)
 - [upgrade]( https://editor.gdevelop.io/?initial-dialog=subscription) to GDevelop premium subscriptions
-- Buy additional [GDevelop credits](gdevelop5/interface/profile/credits/) to get more requests
+- [Buy](https://editor.gdevelop.io/?initial-dialog=credits-purchase) additional [GDevelop credits](gdevelop5/interface/profile/credits/) to get more AI requests
 - Give [quality feedback](gdevelop5/interface/games-dashboard/player-feedback/) to GDevelop creators
 - Follow GDevelop accounts on socials and claim the credits through your profile
 
