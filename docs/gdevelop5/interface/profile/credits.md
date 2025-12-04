@@ -40,7 +40,7 @@ You can use your GDevelop credits to increase the number of questions and implem
 
 ### Unlock GDevelop Premium Courses
 
-GDevelop has created a list of official profesionalisation courses in areas like Game Development, Interaction Design and Marketing. These courses are designed to help you quickly learn GDevelop as well as you move you foreward in your game development career.
+GDevelop has created a list of official profesionalisation courses in areas like Game Development, Interaction Design and Marketing. These courses are designed to help you quickly learn GDevelop as well as you move you forward in your game development career.
 
 Find the [course that you need](https://editor.gdevelop.io/?initial-dialog=learn) at the top of the Learn page.
 
