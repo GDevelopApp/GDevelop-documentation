@@ -60,7 +60,7 @@ Its technical limitations are the following:
 !!! note
     If you've run out of free AI requests you can wait for them to reset every Sunday at 23:50 UTC, upgrade your [GDevelop Subscription](https://editor.gdevelop.io/?initial-dialog=subscription) to get more AI requests, or [get more GDevelop credits](https://editor.gdevelop.io/?initial-dialog=credits-purchase).
 
-**Keeping an eye on credit usage**
+**Monitoring credit usage**
 
 The interface displays the number of AI requests left in the bottom right of the chat's input. Hover or tap the "question" button to see credit reset time.
 
