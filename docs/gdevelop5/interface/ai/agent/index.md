@@ -43,6 +43,7 @@ You can continue the conversation by asking follow-up requests. **We strongly re
 
  If you want to switch topics or ask something unrelated, click **"Start a new chat"** — this helps the AI better focus on your new request.
 
+
  !!! note
 
     High AI demand can temporarily slow processing down or prevent the AI to give a proper response. In that case — don’t worry — you won’t be charged any credits.
@@ -52,10 +53,10 @@ You can continue the conversation by asking follow-up requests. **We strongly re
 
 Before using the AI agent, **make sure to save your project** or make a working copy to prevent any undesired changes. In the future, cloud projects will support automatic restore versioning points.
 
-Here are a few best practices for working with the AI agent:
+Here are a few best practices to work with the AI agent:
 
 - **Be highly specific in your instructions:** Describe what you want to create followed by how you'd like it to behave. Write as if you were explaining your idea to a developer who has never seen your game before. Use clear language, describe specific values, specify what you *want* to change and what you *do not* want to change.
-- **Plan your mechanics before asking the agent to build them:** Use the "[Ask](/gdevelop5/interface/ai/chat/)" mode to have the AI suggest a plan to implement. Chat with it to make sure they've understood your scope before switching to Build mode.
+- **Plan your mechanics before asking the agent to build them:** Use the "[Ask](/gdevelop5/interface/ai/chat/)" mode to have the AI suggest a plan to implement. Chat with it to make sure it has understood your scope before switching to Build mode.
 - **Use one chat per task:** When you’ve finished an implementation task, start a new conversation. This keeps things focused and avoids confusing the AI with unrelated details.
 - **Keep an eye on what the AI is doing:** If the implementation plan starts going off-track, you can click the "Pause" button to stop the implementation process.
 - **Expect variations:** Results may differ from one attempt to another. You can try to rephrase your requests for better outcomes. Feel free to document your used promts as well as their results to fine-tune your process.
@@ -80,7 +81,7 @@ Prioritizing the "[Ask](/gdevelop5/interface/ai/chat/)" mode over "Build" mode w
 
 ## How to improve the AI
 
-**GDevelop's AI is not using any projects from the community to train the AI**.
+**GDevelop is not using any projects from the community to train the AI**.
 
 This is why the only way to improve it is by rating the AI’s answers with a 👍 or 👎: positive ratings will signal the AI to follow that rationale. Negative feedback will nudge the GDevelop team that the answer wasn't correct.
 
