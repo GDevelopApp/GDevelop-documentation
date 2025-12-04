@@ -33,7 +33,7 @@ You can continue the conversation with the chat by asking follow-up questions.
 
 ## What the AI chat can do
 
-**The AI understands all built-in GDevelop features and official reviewed extensions**. When active, it has access to your game's logic, game architecture and object configuration. It's knowledge is fed with:
+**The AI understands all built-in GDevelop features and official reviewed extensions**. When active, it has access to your game's logic, game architecture and object configuration. Its knowledge is fed with:
 
 - General wiki documentation,
 - Extension and behavior documentation,
