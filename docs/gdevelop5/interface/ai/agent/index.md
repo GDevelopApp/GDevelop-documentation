@@ -43,11 +43,9 @@ You can continue the conversation by asking follow-up requests. **We strongly re
 
  If you want to switch topics or ask something unrelated, click **"Start a new chat"** — this helps the AI better focus on your new request.
 
-
- !!! note
+!!! note
 
     High AI demand can temporarily slow processing down or prevent the AI to give a proper response. In that case — don’t worry — you won’t be charged any credits.
-
 
 ## How to use it (good practices)
 
