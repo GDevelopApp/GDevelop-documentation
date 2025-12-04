@@ -39,7 +39,7 @@ As it works on your request, it will show a step-by-step implementation summary 
     **Always double check what the AI does.** Move foreward as long as its implementations are useful, or pause and rework the unuseful bits it has created.
 
 
-You can continue the conversation by asking follow-up requests. **We strongly recommend to use the "[Ask](/gdevelop5/interface/ai/agent/)" mode to model the next steps of the proyect**. This will give you more visibility on the agent's reasoning and will save you credits if the plan has flaws.
+You can continue the conversation by asking follow-up requests. **We strongly recommend to use the "[Ask](/gdevelop5/interface/ai/agent/)" mode to model the next steps of the project**. This will give you more visibility on the agent's reasoning and will save you credits if the plan has flaws.
 
  If you want to switch topics or ask something unrelated, click **"Start a new chat"** — this helps the AI better focus on your new request.
 
