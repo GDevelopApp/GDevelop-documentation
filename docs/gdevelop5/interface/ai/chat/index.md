@@ -3,7 +3,7 @@ title: Chat with AI
 ---
 # Ask the AI: the AI helper
 
-The **AI chat** is designed specifically to answer questions about game creation, help with brainstorming ideas and give GDevelop technical advice. It helps to discover extensions or features that you can use, and explain how to implement a new mechanic.
+The **AI chat** is designed specifically to answer questions about game creation, help with brainstorming ideas and give GDevelop technical advice. It helps discover extensions or features, and explain how to implement new mechanics.
 
 Unlike Chat GPT or Gemini, GDevelop's AI can see your project's information which improves its understanding of your requests.
 
@@ -14,14 +14,11 @@ Unlike Chat GPT or Gemini, GDevelop's AI can see your project's information whic
 The "Ask" mode can be used as an idea generator, a "how do I" specialist, a GDevelop teacher or a project planner.
 For better implementation results here are some tips:
 
-- **Create a good prompt, be specific**
-    Start describing what you want to create followed by how you'd like it to behave. Be as specific as possible with values, gravity, or how it needs to feel for the player.
+- **Create a good prompt, be specific:** Start describing what you want to create followed by how you'd like it to behave. Be as specific as possible with values, gravity, or how the mechanic needs to feel for the player.
 
-- **Build incrementally**
-    Add simple requests and questions at a time and take it from there. Keep adding information, knowledge or expectations that the AI could use to give you a better answer.
+- **Ask step by step:** Ask ordered requests and questions and take it from there. Keep adding information, knowledge or expectations that the AI could use to give you a better answer.
 
-- **Plan before execution**
-    Use the "Ask" mode to plan your desired implementation before switching to [Build mode](). This will consume less credits.
+- **Plan before execution:** Use the "Ask" mode to plan your desired implementation before switching to [Build mode](). This will consume less credits.
 
 The AI will reply in a few seconds. Answers often include links to helpful resources, extensions, behaviors, and relevant GDevelop concepts like actions or conditions.
 
@@ -30,19 +27,20 @@ You can continue the conversation with the chat by asking follow-up questions.
 !!! note
 
     As all AIs in the market, answers might not be perfect. From time to time it can confuse some concepts, misunderstand your game or lack clarity on what you're trying to do.
+    
     Always verify its answers, and use them as suggestions rather than truths. If you'd like to improve your game development knowledge and your use of GDevelop follow the **[GDevelop Essentials Course](https://gdevelop.io/academy)**.
 
 
 ## What the AI chat can do
 
-The AI understands all built-in GDevelop features and official reviewed extensions. When active, it has access to your game's logic, game architecture and object configuration. It's knowledge is feed with:
+**The AI understands all built-in GDevelop features and official reviewed extensions**. When active, it has access to your game's logic, game architecture and object configuration. It's knowledge is fed with:
 
 - General wiki documentation,
 - Extension and behavior documentation,
-- Inspect your scenes and objects,
-- Analyze objects' behaviors and other values,
-- Read the events of a scene,
-- Read global and scene elements
+- The scenes and objects in your game,
+- Objects' behaviors and other values,
+- Events of your game scene,
+- Global and scene elements in your game.
 
 **What it cannot do**
 
@@ -75,5 +73,4 @@ You can rate the AI’s answers with a 👍 or 👎. Positive ratings will signa
 In the case of negative feedback, adding context to why the answer wasn't correct will help the engineers stir the AI to the right direction.
 
 !!! note
-
-   High AI demand can temporarily slow processing down or prevent the AI to give a proper response. In that case — don’t worry — you won’t be charged any credits.
+    High AI demand can temporarily slow processing down or prevent the AI to give a proper response. In that case — don’t worry — you won’t be charged any credits.
