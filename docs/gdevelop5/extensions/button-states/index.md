@@ -506,6 +506,7 @@ Smoothly change an effect on buttons according to their state.
 - **Focused effect parameter value** (🔢 Number). The state is Focused when the button is hovered or held outside. Default value is `0`.
 - **Idle effect parameter value** (🔢 Number). Default value is `0`.
 - **Pressed effect parameter value** (🔢 Number). Default value is `0`.
+- **Disable the effect in idle state** (🔘 Boolean). Default value is `false`.
 
 ??? quote "See internal technical details"
 
@@ -523,6 +524,7 @@ Smoothly change an effect on buttons according to their state.
     - **Focused effect parameter value** is stored as `FocusedValue` (Number). Default value is `0`.
     - **Idle effect parameter value** is stored as `IdleValue` (Number). Default value is `0`.
     - **Pressed effect parameter value** is stored as `PressedValue` (Number). Default value is `0`.
+    - **Disable the effect in idle state** is stored as `ShouldDisableEffectInIdle` (Boolean). Default value is `false`.
 
 ### Behavior actions
 
