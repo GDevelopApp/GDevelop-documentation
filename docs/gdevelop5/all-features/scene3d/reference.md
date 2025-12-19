@@ -640,9 +640,9 @@ This effect is for 3D layers only.
 
 Properties of this effect are:
 
-- **Radius (between 0 and 1)**. Default value is `0`. For events, write: `"radius"`.
-- **Strength (between 0 and 3)**. Default value is `1`. For events, write: `"strength"`.
-- **Threshold (between 0 and 1)**. Default value is `0`. For events, write: `"threshold"`.
+- **Radius**: Between 0 and 1. Default value is `0`. For events, write: `"radius"`.
+- **Strength**: Between 0 and 3. Default value is `1`. For events, write: `"strength"`.
+- **Threshold**: Between 0 and 1. Default value is `0`. For events, write: `"threshold"`.
 
 ### Effect "Brightness and contrast."
 
@@ -652,8 +652,8 @@ This effect is for 3D layers only.
 
 Properties of this effect are:
 
-- **Brightness (between -1 and 1)**. Default value is `0`. For events, write: `"brightness"`.
-- **Contrast (between -1 and 1)**. Default value is `0`. For events, write: `"contrast"`.
+- **Brightness**: Between -1 and 1. Default value is `0`. For events, write: `"brightness"`.
+- **Contrast**: Between -1 and 1. Default value is `0`. For events, write: `"contrast"`.
 
 ### Effect "Directional light"
 
@@ -665,12 +665,12 @@ Properties of this effect are:
 
 - **Light color**. Default value is `255;255;255`. For events, write: `"color"`.
 - **Distance from layer's camera**. Default value is `1500`. For events, write: `"distanceFromCamera"`.
-- **Elevation (in degrees)**: Maximal elevation is reached at 90°.. Default value is `45`. For events, write: `"elevation"`.
+- **Elevation**: Maximal elevation is reached at 90°.. Default value is `45`. For events, write: `"elevation"`.
 - **Shadow frustum size**. Default value is `4000`. For events, write: `"frustumSize"`.
 - **Intensity**. Default value is `0.5`. For events, write: `"intensity"`.
 - **Shadow casting**. Default value is `false`. For events, write: `"isCastingShadow"`.
 - **Shadow bias**: Use this to avoid "shadow acne" due to depth buffer precision. Choose a value small enough like 0.001 to avoid creating distance between shadows and objects but not too small to avoid shadow glitches on low/medium quality. This value is used for high quality, and multiplied by 1.25 for medium quality and 2 for low quality.. Default value is `0`. For events, write: `"minimumShadowBias"`.
-- **Rotation (in degrees)**. Default value is `0`. For events, write: `"rotation"`.
+- **Rotation**. Default value is `0`. For events, write: `"rotation"`.
 - **Shadow quality**. Default value is `medium`. For events, write: `"shadowQuality"`.
 - **3D world top**. Default value is `Z+`. For events, write: `"top"`.
 
@@ -693,7 +693,7 @@ This effect is for 3D layers only.
 
 Properties of this effect are:
 
-- **Exposure (positive value)**. Default value is `1`. For events, write: `"exposure"`.
+- **Exposure**: Positive value. Default value is `1`. For events, write: `"exposure"`.
 
 ### Effect "Hemisphere light"
 
@@ -703,10 +703,10 @@ This effect is for 3D layers only.
 
 Properties of this effect are:
 
-- **Elevation (in degrees)**: Maximal elevation is reached at 90°.. Default value is `90`. For events, write: `"elevation"`.
+- **Elevation**: Maximal elevation is reached at 90°.. Default value is `90`. For events, write: `"elevation"`.
 - **Ground color**. Default value is `127;127;127`. For events, write: `"groundColor"`.
 - **Intensity**. Default value is `0.5`. For events, write: `"intensity"`.
-- **Rotation (in degrees)**. Default value is `0`. For events, write: `"rotation"`.
+- **Rotation**. Default value is `0`. For events, write: `"rotation"`.
 - **Sky color**. Default value is `255;255;255`. For events, write: `"skyColor"`.
 - **3D world top**. Default value is `Z+`. For events, write: `"top"`.
 
@@ -718,8 +718,8 @@ This effect is for 3D layers only.
 
 Properties of this effect are:
 
-- **Hue in degrees (between -180 and 180)**. Default value is `0`. For events, write: `"hue"`.
-- **Saturation (between -1 and 1)**. Default value is `0`. For events, write: `"saturation"`.
+- **Hue**: Between -180° and 180°. Default value is `0`. For events, write: `"hue"`.
+- **Saturation**: Between -1 and 1. Default value is `0`. For events, write: `"saturation"`.
 
 ### Effect "Fog (linear)"
 
