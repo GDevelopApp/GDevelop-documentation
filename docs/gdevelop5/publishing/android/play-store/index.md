@@ -1,9 +1,9 @@
----
+Yuvraj 7---
 title: Publish your game on the Play Store
----
+Yuvraj 7---
 # Publish your game on the Play Store
 
-After building your game for Android (either using the [one-click build for Android](/gdevelop5/publishing/android) or [the manual process with Cordova for advanced users](/gdevelop5/publishing/android_and_ios_with_cordova)), you can publish it on the Google Play Store.
+After building your game for Android (either using the [one-click jbuild for Android](/gdevelop5/publishing/android) or [the manual process with Cordova for advanced users](/gdevelop5/publishing/android_and_ios_with_cordova)), you can publish it on the Google Play Store.
 
 To do this, you need to have an account on the Google Play Store. There is a one-time $25 registration fee asked by Google.
 
