@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Flappy Bird - Mobile Edition</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <style>
+        * {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        body {
+            overflow: hidden;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        canvas {
+            display: block;
+            touch-action: none;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+        }
+        
+        .game-container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+        
+        .ui-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 10;
+        }
+        
+        .ui-element {
+            pointer-events: auto;
+        }
+        
+        .mobile-btn {
+            min-height: 48px;
+            min-width: 48px;
+            font-size: 16px;
+            padding: 12px 16px;
+        }
+        
+        .skin-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+            gap: 10px;
+            max-height: 60vh;
+            overflow-y: auto;
+        }
+        
+        .skin-item {
+            aspect-ratio: 1;
+            min-height: 60px;
+        }
+        
+        @media (max-width: 640px) {
+            .skin-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        
+        .touch-feedback {
+            animation: touchPulse 0.2s ease-out;
+        }
+        
+        @keyframes touchPulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .leaderboard-container {
+            max-height: 50vh;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body class="bg-sky-400">
+    <div class="game-container">
+        <canvas id="gameCanvas" class="w-full h-full"></canvas>
+        
+        <div class="ui-overlay">
+            <!-- Game UI -->
+            <div id="gameUI" class="absolute top-4 left-4 right-4 flex justify-between items-start z-20">
+                <div class="bg-black bg-opacity-50 text-white px-3 py-2 rounded-lg">
+                    <div class="text-lg font-bold">Score: <span id="currentScore">0</span></div>
+                    <div class="text-sm">Points: <span id="totalPoints">0</span></div>
+                </div>
+                <button id="pauseBtn" class="ui-element mobile-btn bg-yellow-500 hover:bg-yellow-600 text-white rounded-lg">
+                    ⏸️
+                </button>
+            </div>
+
+            <!-- Start Screen -->
+            <div id="startScreen" class="absolute inset-0 bg-sky-400 flex flex-col items-center justify-center ui-element">
+                <h1 class="text-4xl md:text-6xl font-bold text-white mb-8 text-center">Flappy Bird</h1>
+                <div class="space-y-4 w-full max-w-xs px-4">
+                    <button id="startBtn" class="mobile-btn w-full bg-green-500 hover:bg-green-600 text-white rounded-lg">
+                        🎮 Start Game
+                    </button>
+                    <button id="skinsBtn" class="mobile-btn w-full bg-purple-500 hover:bg-purple-600 text-white rounded-lg">
+                        🎨 Skins
+                    </button>
+                    <button id="leaderboardBtn" class="mobile-btn w-full bg-blue-500 hover:bg-blue-600 text-white rounded-lg">
+                        🏆 Leaderboard
+                    </button>
+                </div>
+                <div class="mt-8 text-center text-white">
+                    <p class="text-lg">Tap anywhere to fly!</p>
+                    <p class="text-sm mt-2">Collect points to unlock skins</p>
+                </div>
+            </div>
+
+            <!-- Game Over Screen -->
+            <div id="gameOverScreen" class="absolute inset-0 bg-black bg-opacity-75 flex flex-col items-center justify-center ui-element hidden">
+                <div class="bg-white rounded-lg p-6 max-w-sm w-full mx-4 text-center">
+                    <h2 class="text-3xl font-bold text-red-500 mb-4">Game Over!</h2>
+                    <div class="space-y-2 mb-6">
+                        <p class="text-xl">Score: <span id="finalScore" class="font-bold">0</span></p>
+                        <p class="text-lg">Points Earned: <span id="pointsEarned" class="font-bold text-green-500">0</span></p>
+                        <p class="text-sm text-gray-600">Total Points: <span id="finalTotalPoints">0</span></p>
+                    </div>
+                    <div class="space-y-3">
+                        <button id="restartBtn" class="mobile-btn w-full bg-green-500 hover:bg-green-600 text-white rounded-lg">
+                            🔄 Play Again
+                        </button>
+                        <button id="menuBtn" class="mobile-btn w-full bg-blue-500 hover:bg-blue-600 text-white rounded-lg">
+                            🏠 Main Menu
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skins Screen -->
+            <div id="skinsScreen" class="absolute inset-0 bg-black bg-opacity-90 flex flex-col ui-element hidden">
+                <div class="flex-1 overflow-hidden flex flex-col">
+                    <div class="bg-white p-4 flex justify-between items-center">
+                        <h2 class="text-2xl font-bold">Bird Skins</h2>
+                        <button id="closeSkins" class="mobile-btn bg-red-500 hover:bg-red-600 text-white rounded-lg">
+                            ✕
+                        </button>
+                    </div>
+                    <div class="flex-1 p-4 overflow-y-auto">
+                        <div class="mb-4 text-center">
+                            <p class="text-white text-lg">Your Points: <span id="skinPoints" class="font-bold text-yellow-400">0</span></p>
+                        </div>
+                        <div id="skinsContainer" class="skin-grid">
+                            <!-- Skins will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Leaderboard Screen -->
+            <div id="leaderboardScreen" class="absolute inset-0 bg-black bg-opacity-90 flex flex-col ui-element hidden">
+                <div class="flex-1 overflow-hidden flex flex-col">
+                    <div class="bg-white p-4 flex justify-between items-center">
+                        <h2 class="text-2xl font-bold">🏆 Leaderboard</h2>
+                        <button id="closeLeaderboard" class="mobile-btn bg-red-500 hover:bg-red-600 text-white rounded-lg">
+                            ✕
+                        </button>
+                    </div>
+                    <div class="flex-1 p-4">
+                        <div class="leaderboard-container">
+                            <div id="leaderboardList" class="space-y-2">
+                                <!-- Leaderboard entries will be populated by JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pause Screen -->
+            <div id="pauseScreen" class="absolute inset-0 bg-black bg-opacity-75 flex flex-col items-center justify-center ui-element hidden">
+                <div class="bg-white rounded-lg p-6 max-w-sm w-full mx-4 text-center">
+                    <h2 class="text-3xl font-bold mb-6">Game Paused</h2>
+                    <div class="space-y-3">
+                        <button id="resumeBtn" class="mobile-btn w-full bg-green-500 hover:bg-green-600 text-white rounded-lg">
+                            ▶️ Resume
+                        </button>
+                        <button id="pauseMenuBtn" class="mobile-btn w-full bg-blue-500 hover:bg-blue-600 text-white rounded-lg">
+                            🏠 Main Menu
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mario Ending Screen -->
+            <div id="marioEndingScreen" class="absolute inset-0 bg-black flex flex-col items-center justify-center ui-element hidden">
+                <div class="text-center text-white">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-4 text-yellow-400">🎉 CONGRATULATIONS! 🎉</h1>
+                    <p class="text-2xl mb-4">You reached 9999 points!</p>
+                    <p class="text-xl mb-8">But Mario has other plans...</p>
+                    <div class="text-6xl mb-4">🍄💥🐦</div>
+                    <p class="text-lg mb-8">"It's-a me, Mario! Game Over!"</p>
+                    <button id="marioMenuBtn" class="mobile-btn bg-red-500 hover:bg-red-600 text-white rounded-lg px-8">
+                        🏠 Back to Menu
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        class FlappyBirdGame {
+            constructor() {
+                this.canvas = document.getElementById('gameCanvas');
+                this.ctx = this.canvas.getContext('2d');
+                this.setupCanvas();
+                
+                this.gameState = 'menu'; // menu, playing, paused, gameOver, mario
+                this.score = 0;
+                this.totalPoints = this.loadTotalPoints();
+                this.bird = {
+                    x: 0,
+                    y: 0,
+                    velocity: 0,
+                    size: 20,
+                    color: '#FFD700'
+                };
+                this.pipes = [];
+                this.particles = [];
+                
+                this.gravity = 0.5;
+                this.jumpStrength = -10;
+                this.pipeSpeed = 3;
+                this.pipeGap = 150;
+                this.pipeWidth = 60;
+                
+                this.currentSkin = this.loadCurrentSkin();
+                this.unlockedSkins = this.loadUnlockedSkins();
+                this.leaderboard = this.loadLeaderboard();
+                
+                this.maps = [
+                    { name: 'Forest', bg: '#87CEEB', pipe: '#228B22', threshold: 0 },
+                    { name: 'Desert', bg: '#F4A460', pipe: '#D2691E', threshold: 20 },
+                    { name: 'Ocean', bg: '#4682B4', pipe: '#008B8B', threshold: 40 },
+                    { name: 'Space', bg: '#191970', pipe: '#800080', threshold: 60 },
+                    { name: 'Hell', bg: '#8B0000', pipe: '#FF4500', threshold: 80 }
+                ];
+                
+                this.currentMap = this.maps[0];
+                
+                this.skins = [
+                    { name: 'Golden Bird', color: '#FFD700', cost: 0, unlocked: true },
+                    { name: 'Red Bird', color: '#FF4500', cost: 50, unlocked: false },
+                    { name: 'Blue Bird', color: '#4169E1', cost: 100, unlocked: false },
+                    { name: 'Green Bird', color: '#32CD32', cost: 150, unlocked: false },
+                    { name: 'Purple Bird', color: '#8A2BE2', cost: 200, unlocked: false },
+                    { name: 'Pink Bird', color: '#FF69B4', cost: 300, unlocked: false },
+                    { name: 'Orange Bird', color: '#FF8C00', cost: 400, unlocked: false },
+                    { name: 'Cyan Bird', color: '#00CED1', cost: 500, unlocked: false },
+                    { name: 'Rainbow Bird', color: 'rainbow', cost: 750, unlocked: false },
+                    { name: 'Diamond Bird', color: '#B9F2FF', cost: 999, unlocked: false }
+                ];
+                
+                this.setupEventListeners();
+                this.initializeUI();
+                this.gameLoop();
+            }
+            
+            setupCanvas() {
+                const resizeCanvas = () => {
+                    this.canvas.width = window.innerWidth;
+                    this.canvas.height = window.innerHeight;
+                    this.resetBirdPosition();
+                };
+                
+                resizeCanvas();
+                window.addEventListener('resize', resizeCanvas);
+            }
+            
+            resetBirdPosition() {
+                this.bird.x = this.canvas.width * 0.2;
+                this.bird.y = this.canvas.height / 2;
+                this.bird.velocity = 0;
+            }
+            
+            setupEventListeners() {
+                // Touch events for mobile
+                this.canvas.addEventListener('touchstart', (e) => {
+                    e.preventDefault();
+                    this.handleJump();
+                    this.addTouchFeedback(e.touches[0]);
+                });
+                
+                // Mouse events for desktop
+                this.canvas.addEventListener('click', (e) => {
+                    this.handleJump();
+                    this.addTouchFeedback(e);
+                });
+                
+                // Keyboard events
+                document.addEventListener('keydown', (e) => {
+                    if (e.code === 'Space') {
+                        e.preventDefault();
+                        this.handleJump();
+                    }
+                });
+                
+                // UI Button Events
+                document.getElementById('startBtn').addEventListener('click', () => this.startGame());
+                document.getElementById('restartBtn').addEventListener('click', () => this.startGame());
+                document.getElementById('menuBtn').addEventListener('click', () => this.showMenu());
+                document.getElementById('pauseMenuBtn').addEventListener('click', () => this.showMenu());
+                document.getElementById('pauseBtn').addEventListener('click', () => this.pauseGame());
+                document.getElementById('resumeBtn').addEventListener('click', () => this.resumeGame());
+                document.getElementById('skinsBtn').addEventListener('click', () => this.showSkins());
+                document.getElementById('closeSkins').addEventListener('click', () => this.showMenu());
+                document.getElementById('leaderboardBtn').addEventListener('click', () => this.showLeaderboard());
+                document.getElementById('closeLeaderboard').addEventListener('click', () => this.showMenu());
+                document.getElementById('marioMenuBtn').addEventListener('click', () => this.showMenu());
+                
+                // Prevent context menu on long press
+                this.canvas.addEventListener('contextmenu', (e) => e.preventDefault());
+            }
+            
+            addTouchFeedback(touch) {
+                const feedback = document.createElement('div');
+                feedback.className = 'absolute w-8 h-8 bg-white bg-opacity-50 rounded-full pointer-events-none touch-feedback';
+                feedback.style.left = (touch.clientX || touch.pageX) - 16 + 'px';
+                feedback.style.top = (touch.clientY || touch.pageY) - 16 + 'px';
+                feedback.style.zIndex = '1000';
+                
+                document.body.appendChild(feedback);
+                setTimeout(() => feedback.remove(), 200);
+            }
+            
+            handleJump() {
+                if (this.gameState === 'playing') {
+                    this.bird.velocity = this.jumpStrength;
+                    this.playJumpSound();
+                }
+            }
+            
+            playJumpSound() {
+                // Create a simple beep sound
+                const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+                const oscillator = audioContext.createOscillator();
+                const gainNode = audioContext.createGain();
+                
+                oscillator.connect(gainNode);
+                gainNode.connect(audioContext.destination);
+                
+                oscillator.frequency.value = 800;
+                oscillator.type = 'square';
+                
+                gainNode.gain.setValueAtTime(0.1, audioContext.currentTime);
+                gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.1);
+                
+                oscillator.start(audioContext.currentTime);
+                oscillator.stop(audioContext.currentTime + 0.1);
+            }
+            
+            startGame() {
+                this.gameState = 'playing';
+                this.score = 0;
+                this.pipes = [];
+                this.particles = [];
+                this.resetBirdPosition();
+                this.updateCurrentMap();
+                this.hideAllScreens();
+                document.getElementById('gameUI').classList.remove('hidden');
+                this.updateUI();
+            }
+            
+            pauseGame() {
+                if (this.gameState === 'playing') {
+                    this.gameState = 'paused';
+                    document.getElementById('pauseScreen').classList.remove('hidden');
+                }
+            }
+            
+            resumeGame() {
+                if (this.gameState === 'paused') {
+                    this.gameState = 'playing';
+                    document.getElementById('pauseScreen').classList.add('hidden');
+                }
+            }
+            
+            gameOver() {
+                this.gameState = 'gameOver';
+                this.totalPoints += this.score;
+                this.saveTotalPoints();
+                this.updateLeaderboard();
+                
+                document.getElementById('finalScore').textContent = this.score;
+                document.getElementById('pointsEarned').textContent = this.score;
+                document.getElementById('finalTotalPoints').textContent = this.totalPoints;
+                document.getElementById('gameOverScreen').classList.remove('hidden');
+                document.getElementById('gameUI').classList.add('hidden');
+            }
+            
+            marioEnding() {
+                this.gameState = 'mario';
+                this.totalPoints += this.score;
+                this.saveTotalPoints();
+                this.updateLeaderboard();
+                
+                document.getElementById('marioEndingScreen').classList.remove('hidden');
+                document.getElementById('gameUI').classList.add('hidden');
+                
+                // Play Mario sound effect
+                this.playMarioSound();
+            }
+            
+            playMarioSound() {
+                const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+                const oscillator = audioContext.createOscillator();
+                const gainNode = audioContext.createGain();
+                
+                oscillator.connect(gainNode);
+                gainNode.connect(audioContext.destination);
+                
+                // Mario "Game Over" melody
+                const notes = [659, 523, 523, 440, 494, 523];
+                const durations = [0.2, 0.2, 0.2, 0.4, 0.2, 0.4];
+                
+                let time = audioContext.currentTime;
+                notes.forEach((freq, i) => {
+                    const osc = audioContext.createOscillator();
+                    const gain = audioContext.createGain();
+                    
+                    osc.connect(gain);
+                    gain.connect(audioContext.destin
