@@ -47,7 +47,7 @@ Save the player's score to the given leaderboard. If the player is connected, th
     - Parameter 1 (🔤 Leaderboard Identifier (String)): Leaderboard
     - Parameter 2 (🔢 Number): Score to register for the player
     - Parameter 3 (🔤 String): Name to register for the player
-      Let this empty to let the leaderboard auto-generate a player name (e.g: "Player23464"). You can configure this in the leaderboard administration.
+      Leave this empty to let the leaderboard automatically generate a player name (e.g: "Player23464"). You can configure this in the leaderboard administration.
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
