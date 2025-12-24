@@ -16,7 +16,7 @@ var searchData=
   ['behaviorfunctionnamelocation_97',['behaviorFunctionNameLocation',['../structgd_1_1_object_function_name_node.html#a91355f9108fad23fc20ea87f57b59774',1,'gd::ObjectFunctionNameNode']]],
   ['behaviormetadata_98',['BehaviorMetadata',['../classgd_1_1_behavior_metadata.html#aee4646a4396e110d8e1a3b53ad32457f',1,'gd::BehaviorMetadata::BehaviorMetadata()'],['../classgd_1_1_behavior_metadata.html',1,'gd::BehaviorMetadata']]],
   ['behaviornamelocation_99',['behaviorNameLocation',['../structgd_1_1_function_call_node.html#ab67cdd7032f7905131f4b3f07890b395',1,'gd::FunctionCallNode']]],
-  ['behaviornamenamespaceseparatorlocation_100',['behaviorNameNamespaceSeparatorLocation',['../structgd_1_1_function_call_node.html#ab198b5f2cbbfffaa7715ef92caab6bb3',1,'gd::FunctionCallNode::behaviorNameNamespaceSeparatorLocation()'],['../structgd_1_1_object_function_name_node.html#a37433aa795c7fc814d87c7d0c06c73f1',1,'gd::ObjectFunctionNameNode::behaviorNameNamespaceSeparatorLocation()']]],
+  ['behaviornamenamespaceseparatorlocation_100',['behaviorNameNamespaceSeparatorLocation',['../structgd_1_1_object_function_name_node.html#a37433aa795c7fc814d87c7d0c06c73f1',1,'gd::ObjectFunctionNameNode::behaviorNameNamespaceSeparatorLocation()'],['../structgd_1_1_function_call_node.html#ab198b5f2cbbfffaa7715ef92caab6bb3',1,'gd::FunctionCallNode::behaviorNameNamespaceSeparatorLocation()']]],
   ['behaviorobjecttyperenamer_101',['BehaviorObjectTypeRenamer',['../classgd_1_1_behavior_object_type_renamer.html',1,'gd']]],
   ['behaviorparameterfiller_102',['BehaviorParameterFiller',['../classgd_1_1_behavior_parameter_filler.html',1,'gd']]],
   ['behaviorparametersfiller_103',['BehaviorParametersFiller',['../classgd_1_1_behavior_parameters_filler.html',1,'gd']]],
@@ -28,8 +28,9 @@ var searchData=
   ['behaviortyperenamer_109',['BehaviorTypeRenamer',['../classgd_1_1_behavior_type_renamer.html',1,'gd']]],
   ['bidi_5fclass_110',['bidi_class',['../structutf8proc__property__struct.html#abd1fde92128233b6dbfdeb70b92c80d9',1,'utf8proc_property_struct']]],
   ['biginteger_111',['BigInteger',['../classinternal_1_1_big_integer.html',1,'internal']]],
-  ['bitmapfontresource_112',['BitmapFontResource',['../classgd_1_1_bitmap_font_resource.html',1,'gd']]],
-  ['boundclass_113',['boundclass',['../structutf8proc__property__struct.html#a0b4f5087bd0ea76a375de47dfaa2110b',1,'utf8proc_property_struct']]],
-  ['build_114',['Build',['../classgd_1_1_version_wrapper.html#a2fc02500f462db821f00cc5d5e9bb920',1,'gd::VersionWrapper']]],
-  ['builtinextensionsimplementer_115',['BuiltinExtensionsImplementer',['../classgd_1_1_builtin_extensions_implementer.html',1,'gd']]]
+  ['binaryserializer_112',['BinarySerializer',['../classgd_1_1_binary_serializer.html',1,'gd']]],
+  ['bitmapfontresource_113',['BitmapFontResource',['../classgd_1_1_bitmap_font_resource.html',1,'gd']]],
+  ['boundclass_114',['boundclass',['../structutf8proc__property__struct.html#a0b4f5087bd0ea76a375de47dfaa2110b',1,'utf8proc_property_struct']]],
+  ['build_115',['Build',['../classgd_1_1_version_wrapper.html#a2fc02500f462db821f00cc5d5e9bb920',1,'gd::VersionWrapper']]],
+  ['builtinextensionsimplementer_116',['BuiltinExtensionsImplementer',['../classgd_1_1_builtin_extensions_implementer.html',1,'gd']]]
 ];
