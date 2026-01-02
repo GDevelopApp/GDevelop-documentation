@@ -1,4 +1,8 @@
----
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/…"
+          frameborder="0"
+          allowfullscreen></iframe>
+</div>---
 title: Global Objects
 ---
 # Global Objects
