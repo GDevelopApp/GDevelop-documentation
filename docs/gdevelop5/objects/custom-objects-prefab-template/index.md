@@ -62,7 +62,7 @@ The grey rectangle on the scene is the custom object default size. Your can chan
 
 ![](./object-scene-properties.png)
 
-## Custom object variants
+## Custom object variants: create various styles or configurations
 
 **Variants** allow you to create different visual styles or configurations of the same custom object. Each variant can have its own child object configurations (like different images, fonts, or colors) and initial instance placements, while sharing the same events and logic.
 
@@ -84,13 +84,9 @@ To create a new variant:
 
 When you use the custom object in a scene, you can select which variant to use from the object properties.
 
-!!! tip
+### Making variants using different objects inside
 
-    For more details on migrating existing custom objects to use variants, see [Migrate custom objects to variants](/gdevelop5/objects/custom-objects-prefab-template/migrate-to-variants).
-
-### Child objects are shared across all variants
-
-An important thing to understand is that **all variants of a custom object share the same set of child objects**. This is because all variants use the same events, and the events reference child objects by name. If a child object exists in one variant, it must exist in all variants.
+An important thing to understand is that **all variants of a custom object share the same set of child objects**. This is because all variants use the same events: if a child object exists in one variant, it must exist in all variants.
 
 In practice, this means:
 
