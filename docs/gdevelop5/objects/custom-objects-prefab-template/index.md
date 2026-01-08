@@ -61,3 +61,47 @@ By doing this for more complex needs, you can break down game menus or even game
 The grey rectangle on the scene is the custom object default size. Your can change this size by clicking on the button on the top right corner.
 
 ![](./object-scene-properties.png)
+
+## Custom object variants
+
+**Variants** allow you to create different visual styles or configurations of the same custom object. Each variant can have its own set of layers, child object configurations (like different images, fonts, or colors), and initial instance placements, while sharing the same events and logic.
+
+For example, you can create a "Button" custom object with multiple variants:
+
+- A "Primary" variant with a blue background
+- A "Secondary" variant with a grey background
+- A "Danger" variant with a red background
+
+All these variants will share the same button logic (hover effects, click handling, etc.), but each can have different visual appearances.
+
+To create a new variant:
+
+1. Open the custom object editor
+2. Click on the **Duplicate** button below the **Variant** title to duplicate the current variant
+3. Give your variant a name
+4. Click on the **Edit** button to open the variant editor in a new tab
+5. Customize the child objects and their instances as needed
+
+When you use the custom object in a scene, you can select which variant to use from the object properties.
+
+!!! tip
+
+    For more details on migrating existing custom objects to use variants, see [Migrate custom objects to variants](/gdevelop5/objects/custom-objects-prefab-template/migrate-to-variants).
+
+### Child objects are shared across all variants
+
+An important thing to understand is that **all variants of a custom object share the same set of child objects**. This is because all variants use the same events, and the events reference child objects by name. If a child object exists in one variant, it must exist in all variants.
+
+In practice, this means:
+
+- You cannot add new child objects to a specific variant only
+- You cannot remove child objects from a specific variant
+- The main (default) variant of your custom object should contain **all the possible child objects** that any variant might need
+
+However, variants can differ in how they use these child objects:
+
+- A variant can choose to **not place any instances** of a child object if it doesn't need it
+- Each variant can configure child objects differently (different images, sizes, colors, etc.)
+- Each variant can position the instances of child objects differently
+
+For example, if you have a dialog custom object with an optional "icon" child object, you should add the icon object in the main variant. Then, variants that need an icon can include an instance of it, while variants that don't need an icon simply don't place any instance of it.
