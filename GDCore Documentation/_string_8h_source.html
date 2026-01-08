@@ -188,230 +188,231 @@ $(function() {
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        static_assert(!std::is_same&lt;T, std::string&gt;::value, <span class="stringliteral">&quot;Can&#39;t use gd::String::From with std::string.&quot;</span>);</div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160; </div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        std::ostringstream oss;</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        oss &lt;&lt; value;</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>(oss.str().c_str());</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    }</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160; </div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a name="l00235"></a><span class="lineno"><a class="line" href="classgd_1_1_string.html#ae7dd2330f73d88e5af2ae2d7b0af81a3">  235</a></span>&#160;    T <a class="code" href="classgd_1_1_string.html#ae7dd2330f73d88e5af2ae2d7b0af81a3">To</a>()<span class="keyword"> const</span></div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;<span class="keyword">    </span>{</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        static_assert(!std::is_same&lt;T, std::string&gt;::value, <span class="stringliteral">&quot;Can&#39;t use gd::String::To with std::string.&quot;</span>);</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160; </div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;        T value;</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        std::istringstream oss(m_string);</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        oss &gt;&gt; value;</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        <span class="keywordflow">return</span> value;</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    }</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160; </div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    <span class="keyword">static</span> <a class="code" href="classgd_1_1_string.html">String</a> FromLocale( <span class="keyword">const</span> std::string &amp;localizedString );</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160; </div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    <span class="keyword">static</span> <a class="code" href="classgd_1_1_string.html">String</a> FromUTF32( <span class="keyword">const</span> std::u32string &amp;<span class="keywordtype">string</span> );</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160; </div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    <span class="keyword">static</span> <a class="code" href="classgd_1_1_string.html">String</a> FromUTF8( <span class="keyword">const</span> std::string &amp;utf8Str );</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160; </div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    <span class="keyword">static</span> <a class="code" href="classgd_1_1_string.html">String</a> FromWide( <span class="keyword">const</span> std::wstring &amp;wstr );</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160; </div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    std::string ToLocale() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160; </div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    std::u32string ToUTF32() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160; </div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;    std::string ToUTF8() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160; </div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    std::wstring ToWide() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160; </div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    <span class="keywordtype">bool</span> IsValid() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160; </div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a>&amp; ReplaceInvalid( value_type replacement = 0xfffd );</div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160; </div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    value_type operator[]( <span class="keyword">const</span> size_type position ) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160; </div>
-<div class="line"><a name="l00349"></a><span class="lineno"><a class="line" href="classgd_1_1_string.html#a463a99d92556082045d8b1648ea4953a">  349</a></span>&#160;    std::string&amp; <a class="code" href="classgd_1_1_string.html#a463a99d92556082045d8b1648ea4953a">Raw</a>() { <span class="keywordflow">return</span> m_string; }</div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160; </div>
-<div class="line"><a name="l00354"></a><span class="lineno"><a class="line" href="classgd_1_1_string.html#a211b2dc7575cd11170182297668b2fa9">  354</a></span>&#160;    <span class="keyword">const</span> std::string&amp; <a class="code" href="classgd_1_1_string.html#a211b2dc7575cd11170182297668b2fa9">Raw</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> m_string; }</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160; </div>
-<div class="line"><a name="l00359"></a><span class="lineno"><a class="line" href="classgd_1_1_string.html#ad3d1da180eeb44393fe1888210a14834">  359</a></span>&#160;    <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code" href="classgd_1_1_string.html#ad3d1da180eeb44393fe1888210a14834">c_str</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> m_string.c_str(); }</div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160; </div>
-<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a>&amp; operator+=( <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">String</a> &amp;other );</div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160; </div>
-<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a>&amp; operator+=( <span class="keyword">const</span> <span class="keywordtype">char</span> *other );</div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160; </div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a>&amp; operator+=( value_type character );</div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160; </div>
-<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;    <span class="keywordtype">void</span> push_back( value_type character );</div>
-<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160; </div>
-<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;    <span class="keywordtype">void</span> pop_back();</div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160; </div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a>&amp; insert( size_type pos, <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">String</a> &amp;str );</div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160; </div>
-<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a>&amp; replace( iterator i1, iterator i2, <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">String</a> &amp;str );</div>
-<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160; </div>
-<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a>&amp; replace( iterator i1, iterator i2, size_type n, <span class="keyword">const</span> <span class="keywordtype">char</span> c );</div>
-<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160; </div>
-<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a>&amp; replace( size_type pos, size_type len, <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">String</a> &amp;str );</div>
-<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160; </div>
-<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a>&amp; replace( size_type pos, size_type len, <span class="keyword">const</span> <span class="keywordtype">char</span> c );</div>
-<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160; </div>
-<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a>&amp; replace_if( iterator i1, iterator i2, std::function&lt;<span class="keywordtype">bool</span>(char32_t)&gt; p, <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">String</a> &amp;str );</div>
-<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160; </div>
-<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a>&amp; RemoveConsecutiveOccurrences(iterator i1, iterator i2, <span class="keyword">const</span> <span class="keywordtype">char</span> c);</div>
-<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160; </div>
-<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;    iterator erase( iterator first, iterator last );</div>
-<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160; </div>
-<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;    iterator erase( iterator p );</div>
-<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160; </div>
-<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;    <span class="keywordtype">void</span> erase( size_type pos = 0, size_type len = npos );</div>
-<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160; </div>
-<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;    std::vector&lt;String&gt; Split( value_type delimiter ) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160; </div>
-<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a> CaseFold() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160; </div>
-<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a> UpperCase() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160; </div>
-<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a> LowerCase() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160; </div>
-<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a> CapitalizeFirstLetter() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160; </div>
-<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a> FindAndReplace(<a class="code" href="classgd_1_1_string.html">String</a> search, <a class="code" href="classgd_1_1_string.html">String</a> replacement, <span class="keywordtype">bool</span> all = <span class="keyword">true</span>) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160; </div>
-<div class="line"><a name="l00544"></a><span class="lineno"><a class="line" href="classgd_1_1_string.html#aa5e8ea793ade5cc7bfb056a52fe3e058">  544</a></span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a> <a class="code" href="classgd_1_1_string.html#aa5e8ea793ade5cc7bfb056a52fe3e058">LeftTrim</a>(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; chars = <span class="stringliteral">&quot; \t\n\v\f\r&quot;</span>)</div>
-<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;    {</div>
-<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;        <a class="code" href="classgd_1_1_string.html">String</a> trimmedString(*<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;        trimmedString.<a class="code" href="classgd_1_1_string.html#ad0b988e0d91a3d5321a5483495b4238e">erase</a>(0, trimmedString.<a class="code" href="classgd_1_1_string.html#a6a8e833c8c1531b8774eb0d87c1a8570">find_first_not_of</a>(chars));</div>
-<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;        <span class="keywordflow">return</span> trimmedString;</div>
-<div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;    }</div>
-<div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160; </div>
-<div class="line"><a name="l00555"></a><span class="lineno"><a class="line" href="classgd_1_1_string.html#aa9e04dd66c4a989e9e9b8219bf7b9f4e">  555</a></span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a> <a class="code" href="classgd_1_1_string.html#aa9e04dd66c4a989e9e9b8219bf7b9f4e">RightTrim</a>(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; chars = <span class="stringliteral">&quot; \t\n\v\f\r&quot;</span>)</div>
-<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;    {</div>
-<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;        <a class="code" href="classgd_1_1_string.html">String</a> trimmedString(*<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;        trimmedString.<a class="code" href="classgd_1_1_string.html#ad0b988e0d91a3d5321a5483495b4238e">erase</a>(trimmedString.<a class="code" href="classgd_1_1_string.html#ac6090fc2fb34ca0d0acf731ff74454f8">find_last_not_of</a>(chars) + 1);</div>
-<div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;        <span class="keywordflow">return</span> trimmedString;</div>
-<div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;    }</div>
-<div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160; </div>
-<div class="line"><a name="l00566"></a><span class="lineno"><a class="line" href="classgd_1_1_string.html#aadb036ecf85f0cf420e603c5d168c950">  566</a></span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a> <a class="code" href="classgd_1_1_string.html#aadb036ecf85f0cf420e603c5d168c950">Trim</a>(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; chars = <span class="stringliteral">&quot; \t\n\v\f\r&quot;</span>)</div>
-<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;    {</div>
-<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;        <span class="keywordflow">return</span> LeftTrim(chars).<a class="code" href="classgd_1_1_string.html#aa9e04dd66c4a989e9e9b8219bf7b9f4e">RightTrim</a>(chars);</div>
-<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;    }</div>
-<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160; </div>
-<div class="line"><a name="l00574"></a><span class="lineno"><a class="line" href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617">  574</a></span>&#160;    <span class="keyword">enum</span> <a class="code" href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617">NormForm</a></div>
-<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;    {</div>
-<div class="line"><a name="l00576"></a><span class="lineno"><a class="line" href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617a34c0f9c8b54e306ae100f3e289f8216b">  576</a></span>&#160;        <a class="code" href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617a34c0f9c8b54e306ae100f3e289f8216b">NFD</a>, </div>
-<div class="line"><a name="l00577"></a><span class="lineno"><a class="line" href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617adcd3a91f13022012f23a7f761c926309">  577</a></span>&#160;        <a class="code" href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617adcd3a91f13022012f23a7f761c926309">NFC</a>, </div>
-<div class="line"><a name="l00578"></a><span class="lineno"><a class="line" href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617a71a8daec0f8e80209e36b967b2a25214">  578</a></span>&#160;        <a class="code" href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617a71a8daec0f8e80209e36b967b2a25214">NFKD</a>, </div>
-<div class="line"><a name="l00579"></a><span class="lineno"><a class="line" href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617a5c1d833ab57bc4a55b6f631b1c684436">  579</a></span>&#160;        <a class="code" href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617a5c1d833ab57bc4a55b6f631b1c684436">NFKC</a>, </div>
-<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;    };</div>
-<div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160; </div>
-<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a>&amp; Normalize(NormForm form = NFC);</div>
-<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160; </div>
-<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a> substr( size_type start = 0, size_type length = npos ) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160; </div>
-<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;    size_type find( <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">String</a> &amp;search, size_type pos = 0 ) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160; </div>
-<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;    size_type find( <span class="keyword">const</span> <span class="keywordtype">char</span> *search, size_type pos = 0 ) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160; </div>
-<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;    size_type find( <span class="keyword">const</span> value_type search, size_type pos = 0 ) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160; </div>
-<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;    size_type rfind( <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">String</a> &amp;search, size_type pos = npos ) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160; </div>
-<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;    size_type rfind( <span class="keyword">const</span> <span class="keywordtype">char</span> *search, size_type pos = npos ) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160; </div>
-<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;    size_type rfind( <span class="keyword">const</span> value_type &amp;search, size_type pos = npos ) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160; </div>
-<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;    size_type find_first_of( <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">String</a> &amp;match, size_type startPos = 0 ) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160; </div>
-<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;    size_type find_first_not_of( <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">String</a> &amp;not_match, size_type startPos = 0 ) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160; </div>
-<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;    size_type find_last_of( <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">String</a> &amp;match, size_type endPos = npos ) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160; </div>
-<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;    size_type find_last_not_of( <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">String</a> &amp;not_match, size_type endPos = npos ) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160; </div>
-<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;    <span class="keywordtype">int</span> compare( <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">String</a> &amp;other ) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160; </div>
-<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;    size_type FindCaseInsensitive( <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">String</a> &amp;search, size_type pos = 0 ) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160; </div>
-<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;    std::string m_string; </div>
-<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160; </div>
-<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;};</div>
-<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160; </div>
-<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;String GD_CORE_API operator+(String lhs, <span class="keyword">const</span> String &amp;rhs);</div>
-<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160; </div>
-<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;String GD_CORE_API operator+(String lhs, <span class="keyword">const</span> <span class="keywordtype">char</span> *rhs);</div>
-<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160; </div>
-<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;String GD_CORE_API operator+(<span class="keyword">const</span> <span class="keywordtype">char</span> *lhs, <span class="keyword">const</span> String &amp;rhs);</div>
-<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160; </div>
-<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;<span class="keyword">const</span> String&amp; GD_CORE_API operator||(<span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> String &amp;rhs);</div>
-<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160; </div>
-<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;String GD_CORE_API operator||(String lhs, <span class="keyword">const</span> <span class="keywordtype">char</span> *rhs);</div>
-<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160; </div>
-<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator==( <span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> String &amp;rhs );</div>
-<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator==( <span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> <span class="keywordtype">char</span> *rhs );</div>
-<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator==( <span class="keyword">const</span> <span class="keywordtype">char</span> *lhs, <span class="keyword">const</span> String &amp;rhs );</div>
-<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160; </div>
-<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator!=( <span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> String &amp;rhs );</div>
-<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator!=( <span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> <span class="keywordtype">char</span> *rhs );</div>
-<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator!=( <span class="keyword">const</span> <span class="keywordtype">char</span> *lhs, <span class="keyword">const</span> String &amp;rhs );</div>
-<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160; </div>
-<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator&lt;( <span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> String &amp;rhs );</div>
-<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator&lt;( <span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> <span class="keywordtype">char</span> *rhs );</div>
-<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator&lt;( <span class="keyword">const</span> <span class="keywordtype">char</span> *lhs, <span class="keyword">const</span> String &amp;rhs );</div>
-<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160; </div>
-<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator&lt;=( <span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> String &amp;rhs );</div>
-<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator&lt;=( <span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> <span class="keywordtype">char</span> *rhs );</div>
-<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator&lt;=( <span class="keyword">const</span> <span class="keywordtype">char</span> *lhs, <span class="keyword">const</span> String &amp;rhs );</div>
-<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160; </div>
-<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator&gt;( <span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> String &amp;rhs );</div>
-<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator&gt;( <span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> <span class="keywordtype">char</span> *rhs );</div>
-<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator&gt;( <span class="keyword">const</span> <span class="keywordtype">char</span> *lhs, <span class="keyword">const</span> String &amp;rhs );</div>
-<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160; </div>
-<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator&gt;=( <span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> String &amp;rhs );</div>
-<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator&gt;=( <span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> <span class="keywordtype">char</span> *rhs );</div>
-<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator&gt;=( <span class="keyword">const</span> <span class="keywordtype">char</span> *lhs, <span class="keyword">const</span> String &amp;rhs );</div>
-<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160; </div>
-<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;std::ostream&amp; GD_CORE_API <a class="code" href="namespacegd.html#af707c3e0da4a209c7a0e717d39eff864">operator&lt;&lt;</a>(std::ostream &amp;os, <span class="keyword">const</span> String &amp;str);</div>
-<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160; </div>
-<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;std::istream&amp; GD_CORE_API operator&gt;&gt;(std::istream &amp;is, String &amp;str);</div>
-<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160; </div>
-<div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API CaseSensitiveEquiv( String lhs, String rhs, <span class="keywordtype">bool</span> compat = <span class="keyword">true</span> );</div>
-<div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160; </div>
-<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API CaseInsensitiveEquiv( <span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> String &amp;rhs, <span class="keywordtype">bool</span> compat = <span class="keyword">true</span> );</div>
-<div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160; </div>
-<div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160;}</div>
-<div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160; </div>
-<div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160;<span class="keyword">namespace </span>std</div>
-<div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;{</div>
-<div class="line"><a name="l00818"></a><span class="lineno"><a class="line" href="structstd_1_1hash_3_01gd_1_1_string_01_4.html">  818</a></span>&#160;    <span class="keyword">template</span> &lt;&gt; <span class="keyword">struct </span>GD_CORE_API hash&lt;<a class="code" href="namespacegd.html">gd</a>::String&gt;</div>
-<div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;    {</div>
-<div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;        <span class="keywordtype">size_t</span> operator()(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp; x)<span class="keyword"> const</span></div>
-<div class="line"><a name="l00821"></a><span class="lineno">  821</span>&#160;<span class="keyword">        </span>{</div>
-<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;            <span class="keywordflow">return</span> hash&lt;std::string&gt;()(x.<a class="code" href="classgd_1_1_string.html#a463a99d92556082045d8b1648ea4953a">Raw</a>());</div>
-<div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;        }</div>
-<div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;    };</div>
-<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;}</div>
-<div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160; </div>
-<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160; </div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        oss.precision(17);</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        oss &lt;&lt; value;</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>(oss.str().c_str());</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    }</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160; </div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00236"></a><span class="lineno"><a class="line" href="classgd_1_1_string.html#ae7dd2330f73d88e5af2ae2d7b0af81a3">  236</a></span>&#160;    T <a class="code" href="classgd_1_1_string.html#ae7dd2330f73d88e5af2ae2d7b0af81a3">To</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        static_assert(!std::is_same&lt;T, std::string&gt;::value, <span class="stringliteral">&quot;Can&#39;t use gd::String::To with std::string.&quot;</span>);</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160; </div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        T value;</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        std::istringstream oss(m_string);</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        oss &gt;&gt; value;</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;        <span class="keywordflow">return</span> value;</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    }</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160; </div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    <span class="keyword">static</span> <a class="code" href="classgd_1_1_string.html">String</a> FromLocale( <span class="keyword">const</span> std::string &amp;localizedString );</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160; </div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    <span class="keyword">static</span> <a class="code" href="classgd_1_1_string.html">String</a> FromUTF32( <span class="keyword">const</span> std::u32string &amp;<span class="keywordtype">string</span> );</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160; </div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;    <span class="keyword">static</span> <a class="code" href="classgd_1_1_string.html">String</a> FromUTF8( <span class="keyword">const</span> std::string &amp;utf8Str );</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160; </div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    <span class="keyword">static</span> <a class="code" href="classgd_1_1_string.html">String</a> FromWide( <span class="keyword">const</span> std::wstring &amp;wstr );</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160; </div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    std::string ToLocale() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160; </div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    std::u32string ToUTF32() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160; </div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    std::string ToUTF8() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160; </div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    std::wstring ToWide() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160; </div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    <span class="keywordtype">bool</span> IsValid() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160; </div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a>&amp; ReplaceInvalid( value_type replacement = 0xfffd );</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160; </div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;    value_type operator[]( <span class="keyword">const</span> size_type position ) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160; </div>
+<div class="line"><a name="l00350"></a><span class="lineno"><a class="line" href="classgd_1_1_string.html#a463a99d92556082045d8b1648ea4953a">  350</a></span>&#160;    std::string&amp; <a class="code" href="classgd_1_1_string.html#a463a99d92556082045d8b1648ea4953a">Raw</a>() { <span class="keywordflow">return</span> m_string; }</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160; </div>
+<div class="line"><a name="l00355"></a><span class="lineno"><a class="line" href="classgd_1_1_string.html#a211b2dc7575cd11170182297668b2fa9">  355</a></span>&#160;    <span class="keyword">const</span> std::string&amp; <a class="code" href="classgd_1_1_string.html#a211b2dc7575cd11170182297668b2fa9">Raw</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> m_string; }</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160; </div>
+<div class="line"><a name="l00360"></a><span class="lineno"><a class="line" href="classgd_1_1_string.html#ad3d1da180eeb44393fe1888210a14834">  360</a></span>&#160;    <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code" href="classgd_1_1_string.html#ad3d1da180eeb44393fe1888210a14834">c_str</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> m_string.c_str(); }</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160; </div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a>&amp; operator+=( <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">String</a> &amp;other );</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160; </div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a>&amp; operator+=( <span class="keyword">const</span> <span class="keywordtype">char</span> *other );</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160; </div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a>&amp; operator+=( value_type character );</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160; </div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;    <span class="keywordtype">void</span> push_back( value_type character );</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160; </div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;    <span class="keywordtype">void</span> pop_back();</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160; </div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a>&amp; insert( size_type pos, <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">String</a> &amp;str );</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160; </div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a>&amp; replace( iterator i1, iterator i2, <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">String</a> &amp;str );</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160; </div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a>&amp; replace( iterator i1, iterator i2, size_type n, <span class="keyword">const</span> <span class="keywordtype">char</span> c );</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160; </div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a>&amp; replace( size_type pos, size_type len, <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">String</a> &amp;str );</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160; </div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a>&amp; replace( size_type pos, size_type len, <span class="keyword">const</span> <span class="keywordtype">char</span> c );</div>
+<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160; </div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a>&amp; replace_if( iterator i1, iterator i2, std::function&lt;<span class="keywordtype">bool</span>(char32_t)&gt; p, <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">String</a> &amp;str );</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160; </div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a>&amp; RemoveConsecutiveOccurrences(iterator i1, iterator i2, <span class="keyword">const</span> <span class="keywordtype">char</span> c);</div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160; </div>
+<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;    iterator erase( iterator first, iterator last );</div>
+<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160; </div>
+<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;    iterator erase( iterator p );</div>
+<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160; </div>
+<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;    <span class="keywordtype">void</span> erase( size_type pos = 0, size_type len = npos );</div>
+<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160; </div>
+<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;    std::vector&lt;String&gt; Split( value_type delimiter ) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160; </div>
+<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a> CaseFold() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160; </div>
+<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a> UpperCase() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160; </div>
+<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a> LowerCase() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160; </div>
+<div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a> CapitalizeFirstLetter() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160; </div>
+<div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a> FindAndReplace(<a class="code" href="classgd_1_1_string.html">String</a> search, <a class="code" href="classgd_1_1_string.html">String</a> replacement, <span class="keywordtype">bool</span> all = <span class="keyword">true</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160; </div>
+<div class="line"><a name="l00545"></a><span class="lineno"><a class="line" href="classgd_1_1_string.html#aa5e8ea793ade5cc7bfb056a52fe3e058">  545</a></span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a> <a class="code" href="classgd_1_1_string.html#aa5e8ea793ade5cc7bfb056a52fe3e058">LeftTrim</a>(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; chars = <span class="stringliteral">&quot; \t\n\v\f\r&quot;</span>)</div>
+<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;    {</div>
+<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;        <a class="code" href="classgd_1_1_string.html">String</a> trimmedString(*<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;        trimmedString.<a class="code" href="classgd_1_1_string.html#ad0b988e0d91a3d5321a5483495b4238e">erase</a>(0, trimmedString.<a class="code" href="classgd_1_1_string.html#a6a8e833c8c1531b8774eb0d87c1a8570">find_first_not_of</a>(chars));</div>
+<div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;        <span class="keywordflow">return</span> trimmedString;</div>
+<div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;    }</div>
+<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160; </div>
+<div class="line"><a name="l00556"></a><span class="lineno"><a class="line" href="classgd_1_1_string.html#aa9e04dd66c4a989e9e9b8219bf7b9f4e">  556</a></span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a> <a class="code" href="classgd_1_1_string.html#aa9e04dd66c4a989e9e9b8219bf7b9f4e">RightTrim</a>(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; chars = <span class="stringliteral">&quot; \t\n\v\f\r&quot;</span>)</div>
+<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;    {</div>
+<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;        <a class="code" href="classgd_1_1_string.html">String</a> trimmedString(*<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;        trimmedString.<a class="code" href="classgd_1_1_string.html#ad0b988e0d91a3d5321a5483495b4238e">erase</a>(trimmedString.<a class="code" href="classgd_1_1_string.html#ac6090fc2fb34ca0d0acf731ff74454f8">find_last_not_of</a>(chars) + 1);</div>
+<div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;        <span class="keywordflow">return</span> trimmedString;</div>
+<div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;    }</div>
+<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160; </div>
+<div class="line"><a name="l00567"></a><span class="lineno"><a class="line" href="classgd_1_1_string.html#aadb036ecf85f0cf420e603c5d168c950">  567</a></span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a> <a class="code" href="classgd_1_1_string.html#aadb036ecf85f0cf420e603c5d168c950">Trim</a>(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; chars = <span class="stringliteral">&quot; \t\n\v\f\r&quot;</span>)</div>
+<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;    {</div>
+<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;        <span class="keywordflow">return</span> LeftTrim(chars).<a class="code" href="classgd_1_1_string.html#aa9e04dd66c4a989e9e9b8219bf7b9f4e">RightTrim</a>(chars);</div>
+<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;    }</div>
+<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160; </div>
+<div class="line"><a name="l00575"></a><span class="lineno"><a class="line" href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617">  575</a></span>&#160;    <span class="keyword">enum</span> <a class="code" href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617">NormForm</a></div>
+<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;    {</div>
+<div class="line"><a name="l00577"></a><span class="lineno"><a class="line" href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617a34c0f9c8b54e306ae100f3e289f8216b">  577</a></span>&#160;        <a class="code" href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617a34c0f9c8b54e306ae100f3e289f8216b">NFD</a>, </div>
+<div class="line"><a name="l00578"></a><span class="lineno"><a class="line" href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617adcd3a91f13022012f23a7f761c926309">  578</a></span>&#160;        <a class="code" href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617adcd3a91f13022012f23a7f761c926309">NFC</a>, </div>
+<div class="line"><a name="l00579"></a><span class="lineno"><a class="line" href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617a71a8daec0f8e80209e36b967b2a25214">  579</a></span>&#160;        <a class="code" href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617a71a8daec0f8e80209e36b967b2a25214">NFKD</a>, </div>
+<div class="line"><a name="l00580"></a><span class="lineno"><a class="line" href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617a5c1d833ab57bc4a55b6f631b1c684436">  580</a></span>&#160;        <a class="code" href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617a5c1d833ab57bc4a55b6f631b1c684436">NFKC</a>, </div>
+<div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;    };</div>
+<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160; </div>
+<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a>&amp; Normalize(NormForm form = NFC);</div>
+<div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160; </div>
+<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;    <a class="code" href="classgd_1_1_string.html">String</a> substr( size_type start = 0, size_type length = npos ) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160; </div>
+<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;    size_type find( <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">String</a> &amp;search, size_type pos = 0 ) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160; </div>
+<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;    size_type find( <span class="keyword">const</span> <span class="keywordtype">char</span> *search, size_type pos = 0 ) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160; </div>
+<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;    size_type find( <span class="keyword">const</span> value_type search, size_type pos = 0 ) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160; </div>
+<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;    size_type rfind( <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">String</a> &amp;search, size_type pos = npos ) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160; </div>
+<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;    size_type rfind( <span class="keyword">const</span> <span class="keywordtype">char</span> *search, size_type pos = npos ) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160; </div>
+<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;    size_type rfind( <span class="keyword">const</span> value_type &amp;search, size_type pos = npos ) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160; </div>
+<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;    size_type find_first_of( <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">String</a> &amp;match, size_type startPos = 0 ) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160; </div>
+<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;    size_type find_first_not_of( <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">String</a> &amp;not_match, size_type startPos = 0 ) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160; </div>
+<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;    size_type find_last_of( <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">String</a> &amp;match, size_type endPos = npos ) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160; </div>
+<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;    size_type find_last_not_of( <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">String</a> &amp;not_match, size_type endPos = npos ) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160; </div>
+<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;    <span class="keywordtype">int</span> compare( <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">String</a> &amp;other ) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160; </div>
+<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;    size_type FindCaseInsensitive( <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">String</a> &amp;search, size_type pos = 0 ) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160; </div>
+<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;    std::string m_string; </div>
+<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160; </div>
+<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;};</div>
+<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160; </div>
+<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;String GD_CORE_API operator+(String lhs, <span class="keyword">const</span> String &amp;rhs);</div>
+<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160; </div>
+<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;String GD_CORE_API operator+(String lhs, <span class="keyword">const</span> <span class="keywordtype">char</span> *rhs);</div>
+<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160; </div>
+<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;String GD_CORE_API operator+(<span class="keyword">const</span> <span class="keywordtype">char</span> *lhs, <span class="keyword">const</span> String &amp;rhs);</div>
+<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160; </div>
+<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;<span class="keyword">const</span> String&amp; GD_CORE_API operator||(<span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> String &amp;rhs);</div>
+<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160; </div>
+<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;String GD_CORE_API operator||(String lhs, <span class="keyword">const</span> <span class="keywordtype">char</span> *rhs);</div>
+<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160; </div>
+<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator==( <span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> String &amp;rhs );</div>
+<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator==( <span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> <span class="keywordtype">char</span> *rhs );</div>
+<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator==( <span class="keyword">const</span> <span class="keywordtype">char</span> *lhs, <span class="keyword">const</span> String &amp;rhs );</div>
+<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160; </div>
+<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator!=( <span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> String &amp;rhs );</div>
+<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator!=( <span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> <span class="keywordtype">char</span> *rhs );</div>
+<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator!=( <span class="keyword">const</span> <span class="keywordtype">char</span> *lhs, <span class="keyword">const</span> String &amp;rhs );</div>
+<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160; </div>
+<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator&lt;( <span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> String &amp;rhs );</div>
+<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator&lt;( <span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> <span class="keywordtype">char</span> *rhs );</div>
+<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator&lt;( <span class="keyword">const</span> <span class="keywordtype">char</span> *lhs, <span class="keyword">const</span> String &amp;rhs );</div>
+<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160; </div>
+<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator&lt;=( <span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> String &amp;rhs );</div>
+<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator&lt;=( <span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> <span class="keywordtype">char</span> *rhs );</div>
+<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator&lt;=( <span class="keyword">const</span> <span class="keywordtype">char</span> *lhs, <span class="keyword">const</span> String &amp;rhs );</div>
+<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160; </div>
+<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator&gt;( <span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> String &amp;rhs );</div>
+<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator&gt;( <span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> <span class="keywordtype">char</span> *rhs );</div>
+<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator&gt;( <span class="keyword">const</span> <span class="keywordtype">char</span> *lhs, <span class="keyword">const</span> String &amp;rhs );</div>
+<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160; </div>
+<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator&gt;=( <span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> String &amp;rhs );</div>
+<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator&gt;=( <span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> <span class="keywordtype">char</span> *rhs );</div>
+<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API operator&gt;=( <span class="keyword">const</span> <span class="keywordtype">char</span> *lhs, <span class="keyword">const</span> String &amp;rhs );</div>
+<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160; </div>
+<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;std::ostream&amp; GD_CORE_API <a class="code" href="namespacegd.html#af707c3e0da4a209c7a0e717d39eff864">operator&lt;&lt;</a>(std::ostream &amp;os, <span class="keyword">const</span> String &amp;str);</div>
+<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160; </div>
+<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;std::istream&amp; GD_CORE_API operator&gt;&gt;(std::istream &amp;is, String &amp;str);</div>
+<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160; </div>
+<div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API CaseSensitiveEquiv( String lhs, String rhs, <span class="keywordtype">bool</span> compat = <span class="keyword">true</span> );</div>
+<div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160; </div>
+<div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;<span class="keywordtype">bool</span> GD_CORE_API CaseInsensitiveEquiv( <span class="keyword">const</span> String &amp;lhs, <span class="keyword">const</span> String &amp;rhs, <span class="keywordtype">bool</span> compat = <span class="keyword">true</span> );</div>
+<div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160; </div>
+<div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160;}</div>
+<div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160; </div>
+<div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;<span class="keyword">namespace </span>std</div>
+<div class="line"><a name="l00815"></a><span class="lineno">  815</span>&#160;{</div>
+<div class="line"><a name="l00819"></a><span class="lineno"><a class="line" href="structstd_1_1hash_3_01gd_1_1_string_01_4.html">  819</a></span>&#160;    <span class="keyword">template</span> &lt;&gt; <span class="keyword">struct </span>GD_CORE_API hash&lt;<a class="code" href="namespacegd.html">gd</a>::String&gt;</div>
+<div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;    {</div>
+<div class="line"><a name="l00821"></a><span class="lineno">  821</span>&#160;        <span class="keywordtype">size_t</span> operator()(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp; x)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;<span class="keyword">        </span>{</div>
+<div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;            <span class="keywordflow">return</span> hash&lt;std::string&gt;()(x.<a class="code" href="classgd_1_1_string.html#a463a99d92556082045d8b1648ea4953a">Raw</a>());</div>
+<div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;        }</div>
+<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;    };</div>
+<div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;}</div>
+<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160; </div>
+<div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160; </div>
-<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;<span class="comment">// NOLINTEND</span></div>
+<div class="line"><a name="l00830"></a><span class="lineno">  830</span>&#160; </div>
+<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;<span class="comment">// NOLINTEND</span></div>
 <div class="ttc" id="aclassgd_1_1_string_1_1_string_iterator_html"><div class="ttname"><a href="classgd_1_1_string_1_1_string_iterator.html">gd::String::StringIterator</a></div><div class="ttdef"><b>Definition:</b> String.h:50</div></div>
 <div class="ttc" id="aclassgd_1_1_string_html"><div class="ttname"><a href="classgd_1_1_string.html">gd::String</a></div><div class="ttdoc">String represents an UTF8 encoded string.</div><div class="ttdef"><b>Definition:</b> String.h:33</div></div>
-<div class="ttc" id="aclassgd_1_1_string_html_a211b2dc7575cd11170182297668b2fa9"><div class="ttname"><a href="classgd_1_1_string.html#a211b2dc7575cd11170182297668b2fa9">gd::String::Raw</a></div><div class="ttdeci">const std::string &amp; Raw() const</div><div class="ttdoc">Get the raw UTF8-encoded std::string.</div><div class="ttdef"><b>Definition:</b> String.h:354</div></div>
+<div class="ttc" id="aclassgd_1_1_string_html_a211b2dc7575cd11170182297668b2fa9"><div class="ttname"><a href="classgd_1_1_string.html#a211b2dc7575cd11170182297668b2fa9">gd::String::Raw</a></div><div class="ttdeci">const std::string &amp; Raw() const</div><div class="ttdoc">Get the raw UTF8-encoded std::string.</div><div class="ttdef"><b>Definition:</b> String.h:355</div></div>
 <div class="ttc" id="aclassgd_1_1_string_html_a231c9dde51cb369cf6350460d5a68401"><div class="ttname"><a href="classgd_1_1_string.html#a231c9dde51cb369cf6350460d5a68401">gd::String::From</a></div><div class="ttdeci">static String From(T value)</div><div class="ttdoc">Method to create a gd::String from a number (float, double, int, ...)</div><div class="ttdef"><b>Definition:</b> String.h:221</div></div>
-<div class="ttc" id="aclassgd_1_1_string_html_a463a99d92556082045d8b1648ea4953a"><div class="ttname"><a href="classgd_1_1_string.html#a463a99d92556082045d8b1648ea4953a">gd::String::Raw</a></div><div class="ttdeci">std::string &amp; Raw()</div><div class="ttdoc">Get the raw UTF8-encoded std::string.</div><div class="ttdef"><b>Definition:</b> String.h:349</div></div>
+<div class="ttc" id="aclassgd_1_1_string_html_a463a99d92556082045d8b1648ea4953a"><div class="ttname"><a href="classgd_1_1_string.html#a463a99d92556082045d8b1648ea4953a">gd::String::Raw</a></div><div class="ttdeci">std::string &amp; Raw()</div><div class="ttdoc">Get the raw UTF8-encoded std::string.</div><div class="ttdef"><b>Definition:</b> String.h:350</div></div>
 <div class="ttc" id="aclassgd_1_1_string_html_a6a8e833c8c1531b8774eb0d87c1a8570"><div class="ttname"><a href="classgd_1_1_string.html#a6a8e833c8c1531b8774eb0d87c1a8570">gd::String::find_first_not_of</a></div><div class="ttdeci">size_type find_first_not_of(const String &amp;not_match, size_type startPos=0) const</div><div class="ttdoc">Searches the string for the first character that doesn't match any of the characters specified in its...</div><div class="ttdef"><b>Definition:</b> String.cpp:585</div></div>
 <div class="ttc" id="aclassgd_1_1_string_html_a9f2af4817337c5cc93ebb5070c84332d"><div class="ttname"><a href="classgd_1_1_string.html#a9f2af4817337c5cc93ebb5070c84332d">gd::String::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdoc">Clear the string.</div><div class="ttdef"><b>Definition:</b> String.h:174</div></div>
-<div class="ttc" id="aclassgd_1_1_string_html_aa5e8ea793ade5cc7bfb056a52fe3e058"><div class="ttname"><a href="classgd_1_1_string.html#aa5e8ea793ade5cc7bfb056a52fe3e058">gd::String::LeftTrim</a></div><div class="ttdeci">String LeftTrim(const gd::String &amp;chars=&quot; \t\n\v\f\r&quot;)</div><div class="ttdoc">Removes the specified characters (by default all the &quot;whitespaces&quot; and line breaks) from the beginnin...</div><div class="ttdef"><b>Definition:</b> String.h:544</div></div>
-<div class="ttc" id="aclassgd_1_1_string_html_aa9e04dd66c4a989e9e9b8219bf7b9f4e"><div class="ttname"><a href="classgd_1_1_string.html#aa9e04dd66c4a989e9e9b8219bf7b9f4e">gd::String::RightTrim</a></div><div class="ttdeci">String RightTrim(const gd::String &amp;chars=&quot; \t\n\v\f\r&quot;)</div><div class="ttdoc">Removes the specified characters (by default all the &quot;whitespaces&quot; and line breaks) from the end of t...</div><div class="ttdef"><b>Definition:</b> String.h:555</div></div>
-<div class="ttc" id="aclassgd_1_1_string_html_aadb036ecf85f0cf420e603c5d168c950"><div class="ttname"><a href="classgd_1_1_string.html#aadb036ecf85f0cf420e603c5d168c950">gd::String::Trim</a></div><div class="ttdeci">String Trim(const gd::String &amp;chars=&quot; \t\n\v\f\r&quot;)</div><div class="ttdoc">Removes the specified characters (by default all the &quot;whitespaces&quot; and line breaks) from the beginnin...</div><div class="ttdef"><b>Definition:</b> String.h:566</div></div>
+<div class="ttc" id="aclassgd_1_1_string_html_aa5e8ea793ade5cc7bfb056a52fe3e058"><div class="ttname"><a href="classgd_1_1_string.html#aa5e8ea793ade5cc7bfb056a52fe3e058">gd::String::LeftTrim</a></div><div class="ttdeci">String LeftTrim(const gd::String &amp;chars=&quot; \t\n\v\f\r&quot;)</div><div class="ttdoc">Removes the specified characters (by default all the &quot;whitespaces&quot; and line breaks) from the beginnin...</div><div class="ttdef"><b>Definition:</b> String.h:545</div></div>
+<div class="ttc" id="aclassgd_1_1_string_html_aa9e04dd66c4a989e9e9b8219bf7b9f4e"><div class="ttname"><a href="classgd_1_1_string.html#aa9e04dd66c4a989e9e9b8219bf7b9f4e">gd::String::RightTrim</a></div><div class="ttdeci">String RightTrim(const gd::String &amp;chars=&quot; \t\n\v\f\r&quot;)</div><div class="ttdoc">Removes the specified characters (by default all the &quot;whitespaces&quot; and line breaks) from the end of t...</div><div class="ttdef"><b>Definition:</b> String.h:556</div></div>
+<div class="ttc" id="aclassgd_1_1_string_html_aadb036ecf85f0cf420e603c5d168c950"><div class="ttname"><a href="classgd_1_1_string.html#aadb036ecf85f0cf420e603c5d168c950">gd::String::Trim</a></div><div class="ttdeci">String Trim(const gd::String &amp;chars=&quot; \t\n\v\f\r&quot;)</div><div class="ttdoc">Removes the specified characters (by default all the &quot;whitespaces&quot; and line breaks) from the beginnin...</div><div class="ttdef"><b>Definition:</b> String.h:567</div></div>
 <div class="ttc" id="aclassgd_1_1_string_html_ac6090fc2fb34ca0d0acf731ff74454f8"><div class="ttname"><a href="classgd_1_1_string.html#ac6090fc2fb34ca0d0acf731ff74454f8">gd::String::find_last_not_of</a></div><div class="ttdeci">size_type find_last_not_of(const String &amp;not_match, size_type endPos=npos) const</div><div class="ttdoc">Searches the string for the last character that doesn't match any of the characters specified in its ...</div><div class="ttdef"><b>Definition:</b> String.cpp:619</div></div>
 <div class="ttc" id="aclassgd_1_1_string_html_ac6f7ef4e6407b38687eb376bffe22143"><div class="ttname"><a href="classgd_1_1_string.html#ac6f7ef4e6407b38687eb376bffe22143">gd::String::empty</a></div><div class="ttdeci">bool empty() const</div><div class="ttdoc">Returns true if the string is empty.</div><div class="ttdef"><b>Definition:</b> String.h:157</div></div>
-<div class="ttc" id="aclassgd_1_1_string_html_ac9fbe9e33c5ebfa40ef54ff848702617"><div class="ttname"><a href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617">gd::String::NormForm</a></div><div class="ttdeci">NormForm</div><div class="ttdef"><b>Definition:</b> String.h:575</div></div>
-<div class="ttc" id="aclassgd_1_1_string_html_ac9fbe9e33c5ebfa40ef54ff848702617a34c0f9c8b54e306ae100f3e289f8216b"><div class="ttname"><a href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617a34c0f9c8b54e306ae100f3e289f8216b">gd::String::NFD</a></div><div class="ttdeci">@ NFD</div><div class="ttdoc">Normalization Form Decomposition: characters are decomposed by canonical equivalence,...</div><div class="ttdef"><b>Definition:</b> String.h:576</div></div>
-<div class="ttc" id="aclassgd_1_1_string_html_ac9fbe9e33c5ebfa40ef54ff848702617a5c1d833ab57bc4a55b6f631b1c684436"><div class="ttname"><a href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617a5c1d833ab57bc4a55b6f631b1c684436">gd::String::NFKC</a></div><div class="ttdeci">@ NFKC</div><div class="ttdoc">Normalization Form Compatibility Composition: characters are decomposed by compatibility,...</div><div class="ttdef"><b>Definition:</b> String.h:579</div></div>
-<div class="ttc" id="aclassgd_1_1_string_html_ac9fbe9e33c5ebfa40ef54ff848702617a71a8daec0f8e80209e36b967b2a25214"><div class="ttname"><a href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617a71a8daec0f8e80209e36b967b2a25214">gd::String::NFKD</a></div><div class="ttdeci">@ NFKD</div><div class="ttdoc">Normalization Form Compatibility Decomposition: characters are decomposed by compatibility,...</div><div class="ttdef"><b>Definition:</b> String.h:578</div></div>
-<div class="ttc" id="aclassgd_1_1_string_html_ac9fbe9e33c5ebfa40ef54ff848702617adcd3a91f13022012f23a7f761c926309"><div class="ttname"><a href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617adcd3a91f13022012f23a7f761c926309">gd::String::NFC</a></div><div class="ttdeci">@ NFC</div><div class="ttdoc">Normalization Form Composition: characters are decomposed and then recomposed by canonical equivalenc...</div><div class="ttdef"><b>Definition:</b> String.h:577</div></div>
+<div class="ttc" id="aclassgd_1_1_string_html_ac9fbe9e33c5ebfa40ef54ff848702617"><div class="ttname"><a href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617">gd::String::NormForm</a></div><div class="ttdeci">NormForm</div><div class="ttdef"><b>Definition:</b> String.h:576</div></div>
+<div class="ttc" id="aclassgd_1_1_string_html_ac9fbe9e33c5ebfa40ef54ff848702617a34c0f9c8b54e306ae100f3e289f8216b"><div class="ttname"><a href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617a34c0f9c8b54e306ae100f3e289f8216b">gd::String::NFD</a></div><div class="ttdeci">@ NFD</div><div class="ttdoc">Normalization Form Decomposition: characters are decomposed by canonical equivalence,...</div><div class="ttdef"><b>Definition:</b> String.h:577</div></div>
+<div class="ttc" id="aclassgd_1_1_string_html_ac9fbe9e33c5ebfa40ef54ff848702617a5c1d833ab57bc4a55b6f631b1c684436"><div class="ttname"><a href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617a5c1d833ab57bc4a55b6f631b1c684436">gd::String::NFKC</a></div><div class="ttdeci">@ NFKC</div><div class="ttdoc">Normalization Form Compatibility Composition: characters are decomposed by compatibility,...</div><div class="ttdef"><b>Definition:</b> String.h:580</div></div>
+<div class="ttc" id="aclassgd_1_1_string_html_ac9fbe9e33c5ebfa40ef54ff848702617a71a8daec0f8e80209e36b967b2a25214"><div class="ttname"><a href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617a71a8daec0f8e80209e36b967b2a25214">gd::String::NFKD</a></div><div class="ttdeci">@ NFKD</div><div class="ttdoc">Normalization Form Compatibility Decomposition: characters are decomposed by compatibility,...</div><div class="ttdef"><b>Definition:</b> String.h:579</div></div>
+<div class="ttc" id="aclassgd_1_1_string_html_ac9fbe9e33c5ebfa40ef54ff848702617adcd3a91f13022012f23a7f761c926309"><div class="ttname"><a href="classgd_1_1_string.html#ac9fbe9e33c5ebfa40ef54ff848702617adcd3a91f13022012f23a7f761c926309">gd::String::NFC</a></div><div class="ttdeci">@ NFC</div><div class="ttdoc">Normalization Form Composition: characters are decomposed and then recomposed by canonical equivalenc...</div><div class="ttdef"><b>Definition:</b> String.h:578</div></div>
 <div class="ttc" id="aclassgd_1_1_string_html_ad0b988e0d91a3d5321a5483495b4238e"><div class="ttname"><a href="classgd_1_1_string.html#ad0b988e0d91a3d5321a5483495b4238e">gd::String::erase</a></div><div class="ttdeci">iterator erase(iterator first, iterator last)</div><div class="ttdoc">Erase the characters between first and last (last not included).</div><div class="ttdef"><b>Definition:</b> String.cpp:330</div></div>
-<div class="ttc" id="aclassgd_1_1_string_html_ad3d1da180eeb44393fe1888210a14834"><div class="ttname"><a href="classgd_1_1_string.html#ad3d1da180eeb44393fe1888210a14834">gd::String::c_str</a></div><div class="ttdeci">const char * c_str() const</div><div class="ttdoc">Get the C-string.</div><div class="ttdef"><b>Definition:</b> String.h:359</div></div>
-<div class="ttc" id="aclassgd_1_1_string_html_ae7dd2330f73d88e5af2ae2d7b0af81a3"><div class="ttname"><a href="classgd_1_1_string.html#ae7dd2330f73d88e5af2ae2d7b0af81a3">gd::String::To</a></div><div class="ttdeci">T To() const</div><div class="ttdoc">Method to convert the string to a number.</div><div class="ttdef"><b>Definition:</b> String.h:235</div></div>
+<div class="ttc" id="aclassgd_1_1_string_html_ad3d1da180eeb44393fe1888210a14834"><div class="ttname"><a href="classgd_1_1_string.html#ad3d1da180eeb44393fe1888210a14834">gd::String::c_str</a></div><div class="ttdeci">const char * c_str() const</div><div class="ttdoc">Get the C-string.</div><div class="ttdef"><b>Definition:</b> String.h:360</div></div>
+<div class="ttc" id="aclassgd_1_1_string_html_ae7dd2330f73d88e5af2ae2d7b0af81a3"><div class="ttname"><a href="classgd_1_1_string.html#ae7dd2330f73d88e5af2ae2d7b0af81a3">gd::String::To</a></div><div class="ttdeci">T To() const</div><div class="ttdoc">Method to convert the string to a number.</div><div class="ttdef"><b>Definition:</b> String.h:236</div></div>
 <div class="ttc" id="aclassgd_1_1_string_html_afe8ae6d7429f1f8500b77504b5f01977"><div class="ttname"><a href="classgd_1_1_string.html#afe8ae6d7429f1f8500b77504b5f01977">gd::String::length</a></div><div class="ttdeci">size_type length() const</div><div class="ttdoc">Returns the string's length.</div><div class="ttdef"><b>Definition:</b> String.h:167</div></div>
 <div class="ttc" id="anamespacegd_html"><div class="ttname"><a href="namespacegd.html">gd</a></div><div class="ttdef"><b>Definition:</b> CommonTools.h:24</div></div>
 <div class="ttc" id="anamespacegd_html_af707c3e0da4a209c7a0e717d39eff864"><div class="ttname"><a href="namespacegd.html#af707c3e0da4a209c7a0e717d39eff864">gd::operator&lt;&lt;</a></div><div class="ttdeci">std::ostream &amp; operator&lt;&lt;(std::ostream &amp;os, ExpressionCompletionDescription const &amp;value)</div><div class="ttdoc">Turn an ExpressionCompletionDescription to a string.</div><div class="ttdef"><b>Definition:</b> ExpressionCompletionFinder.cpp:19</div></div>
