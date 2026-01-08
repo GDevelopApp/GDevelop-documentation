@@ -155,9 +155,9 @@ Smoothly change the color tint of buttons according to their state.
 
 ### Behavior properties
 
-- **Fade-in duration** (🔢 Number, Duration). Default value is `0.1`.
+- **Fade-in duration** (🔢 Number, Duration). Default value is `0.10000000000000001`.
 - **Fade-in easing** (Choice, one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo"). Default value is `easeInOutQuad`.
-- **Fade-out duration** (🔢 Number, Duration). Default value is `0.2`.
+- **Fade-out duration** (🔢 Number, Duration). Default value is `0.20000000000000001`.
 - **Fade-out easing** (Choice, one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo"). Default value is `easeInOutQuad`.
 - **Focused state color tint** (🎨 Color). The state is Focused when the button is hovered or held outside. Default value is `192;192;192`.
 - **Idle state color tint** (🎨 Color). Default value is `255;255;255`.
@@ -168,9 +168,9 @@ Smoothly change the color tint of buttons according to their state.
 
     > This behavior must be used on an object also having a behavior with type "ButtonStates::ButtonFSM". This is stored on property `ButtonFSM`.
 
-    - **Fade-in duration** is stored as `FadeInDuration` (Number). Unit is Second. Default value is `0.1`.
+    - **Fade-in duration** is stored as `FadeInDuration` (Number). Unit is Second. Default value is `0.10000000000000001`.
     - **Fade-in easing** is stored as `FadeInEasing` (Choice). Default value is `easeInOutQuad`.
-    - **Fade-out duration** is stored as `FadeOutDuration` (Number). Unit is Second. Default value is `0.2`.
+    - **Fade-out duration** is stored as `FadeOutDuration` (Number). Unit is Second. Default value is `0.20000000000000001`.
     - **Fade-out easing** is stored as `FadeOutEasing` (Choice). Default value is `easeInOutQuad`.
     - **Focused state color tint** is stored as `FocusedColorTint` (Color). Default value is `192;192;192`.
     - **Idle state color tint** is stored as `IdleColorTint` (Color). Default value is `255;255;255`.
@@ -909,26 +909,26 @@ Smoothly resize buttons according to their state.
 
 ### Behavior properties
 
-- **Fade-in duration** (🔢 Number, Duration). Default value is `0.1`.
+- **Fade-in duration** (🔢 Number, Duration). Default value is `0.10000000000000001`.
 - **Fade-in easing** (Choice, one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo"). Default value is `easeInOutQuad`.
-- **Fade-out duration** (🔢 Number, Duration). Default value is `0.2`.
+- **Fade-out duration** (🔢 Number, Duration). Default value is `0.20000000000000001`.
 - **Fade-out easing** (Choice, one of: "linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic", "easeOutCubic", "easeInOutCubic", "easeInQuart", "easeOutQuart", "easeInOutQuart", "easeInQuint", "easeOutQuint", "easeInOutQuint", "easeInOutSine", "easeInExpo", "easeOutExpo", "easeInOutExpo", "easeInCirc", "easeOutCirc", "easeInOutCirc", "easeOutBounce", "easeInBack", "easeOutBack", "easeInOutBack", "elastic", "swingFromTo", "swingFrom", "swingTo", "bounce", "bouncePast", "easeFromTo", "easeFrom", "easeTo"). Default value is `easeInOutQuad`.
 - **Focused state size scale** (🔢 Number, Dimensionless). The state is Focused when the button is hovered or held outside. Default value is `1`.
 - **Idle state size scale** (🔢 Number, Dimensionless). Default value is `1`.
-- **Pressed state size scale** (🔢 Number, Dimensionless). Default value is `0.95`.
+- **Pressed state size scale** (🔢 Number, Dimensionless). Default value is `0.94999999999999996`.
 
 ??? quote "See internal technical details"
 
 
     > This behavior must be used on an object also having a behavior with type "ButtonStates::ButtonFSM". This is stored on property `ButtonFSM`.
 
-    - **Fade-in duration** is stored as `FadeInDuration` (Number). Unit is Second. Default value is `0.1`.
+    - **Fade-in duration** is stored as `FadeInDuration` (Number). Unit is Second. Default value is `0.10000000000000001`.
     - **Fade-in easing** is stored as `FadeInEasing` (Choice). Default value is `easeInOutQuad`.
-    - **Fade-out duration** is stored as `FadeOutDuration` (Number). Unit is Second. Default value is `0.2`.
+    - **Fade-out duration** is stored as `FadeOutDuration` (Number). Unit is Second. Default value is `0.20000000000000001`.
     - **Fade-out easing** is stored as `FadeOutEasing` (Choice). Default value is `easeInOutQuad`.
     - **Focused state size scale** is stored as `FocusedScale` (Number). Unit is Dimensionless. Default value is `1`.
     - **Idle state size scale** is stored as `IdleScale` (Number). Unit is Dimensionless. Default value is `1`.
-    - **Pressed state size scale** is stored as `PressedScale` (Number). Unit is Dimensionless. Default value is `0.95`.
+    - **Pressed state size scale** is stored as `PressedScale` (Number). Unit is Dimensionless. Default value is `0.94999999999999996`.
     > This behavior must be used on an object also having a behavior with type "ScalableCapability::ScalableBehavior". This is stored on property `Scale`.
 
     > This behavior must be used on an object also having a behavior with type "Tween::TweenBehavior". This is stored on property `Tween`.

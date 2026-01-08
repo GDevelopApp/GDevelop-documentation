@@ -71,7 +71,7 @@ Jump and run on platforms at 360°.
 - **Gravity** (🔢 Number, Acceleration). Default value is `2362.5`.
 - **Ground acceleration** (🔢 Number, Acceleration). Default value is `506.25`.
 - **Default controls** (🔘 Boolean). Default value is `true`.
-- **Jump height reducer (0 to 1)** (🔢 Number). Vertical speed is multiplied by this value when the jump key is released during a jump. Default value is `0.615`.
+- **Jump height reducer (0 to 1)** (🔢 Number). Vertical speed is multiplied by this value when the jump key is released during a jump. Default value is `0.61499999999999999`.
 - **Jump speed** (🔢 Number, Speed). Default value is `1170`.
 - **Max falling speed** (🔢 Number, Speed). Default value is `2880`.
 - **Max speed** (🔢 Number, Speed). The maximum speed obtained with input. Default value is `720`.
@@ -101,7 +101,7 @@ Jump and run on platforms at 360°.
     - **Gravity** is stored as `Gravity` (Number). Unit is PixelAcceleration. Default value is `2362.5`.
     - **Ground acceleration** is stored as `GroundAcceleration` (Number). Unit is PixelAcceleration. Default value is `506.25`.
     - **Default controls** is stored as `IsDefaultControlsEnabled` (Boolean). Default value is `true`.
-    - **Jump height reducer (0 to 1)** is stored as `JumpHeightReducer` (Number). Default value is `0.615`.
+    - **Jump height reducer (0 to 1)** is stored as `JumpHeightReducer` (Number). Default value is `0.61499999999999999`.
     - **Jump speed** is stored as `JumpSpeed` (Number). Unit is PixelSpeed. Default value is `1170`.
     - **Max falling speed** is stored as `MaxFallingSpeed` (Number). Unit is PixelSpeed. Default value is `2880`.
     - **Max speed** is stored as `MaxSpeed` (Number). Unit is PixelSpeed. Default value is `720`.
@@ -1077,13 +1077,13 @@ Push hedgehog characters.
 
 ### Behavior properties
 
-- **Character running lock duration** (🔢 Number, Duration). Default value is `0.267`.
+- **Character running lock duration** (🔢 Number, Duration). Default value is `0.26700000000000002`.
 - **Push speed** (🔢 Number, Speed). Default value is `1800`.
 
 ??? quote "See internal technical details"
 
 
-    - **Character running lock duration** is stored as `CharacterRunningLockDuration` (Number). Unit is Second. Default value is `0.267`.
+    - **Character running lock duration** is stored as `CharacterRunningLockDuration` (Number). Unit is Second. Default value is `0.26700000000000002`.
     > This behavior must be used on an object also having a behavior with type "FlippableCapability::FlippableBehavior". This is stored on property `Flip`.
 
     > This behavior must be used on an object also having a behavior with type "HedgehogPlatformer::HedgehogPlatform". This is stored on property `HedgehogPlatform`.

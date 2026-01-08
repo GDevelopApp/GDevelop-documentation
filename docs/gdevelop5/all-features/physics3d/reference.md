@@ -83,7 +83,7 @@ Simulate realistic 3D physics for this object including gravity, forces, collisi
 - **Linear Damping** (🔢 Number). Linear damping reduces an object's movement speed over time, making its motion slow down smoothly. Default value is `0.1`.
 - **Mass override** (🔢 Number). Leave at 0 to use the density. Default value is `0`.
 - **Restitution** (🔢 Number). The "bounciness" of the object. The higher the value, the more other objects will bounce against it. Default value is `0.1`.
-- **Shape** (Choice, one of: "Box", "Capsule", "Cylinder", "Sphere"). Default value is `Box`.
+- **Shape** (Choice, one of: "Box", "Capsule", "Sphere", "Mesh"). Default value is `Box`.
 - **Shape orientation** (Choice, one of: "Z", "Y", "X"). Default value is `Z`.
 
 ??? quote "See internal technical details"

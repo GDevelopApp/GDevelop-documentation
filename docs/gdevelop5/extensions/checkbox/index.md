@@ -36,8 +36,8 @@ Checkbox that can be toggled by a left-click or touch.
 - **Enable interactions** (🔘 Boolean). Default value is `true`.
 - **Halo opacity (pressed)** (🔢 Number). Default value is `128`.
 - **Halo opacity (hover)** (🔢 Number). Default value is `64`.
-- **Halo size (hover). If blank, this is set to "SideLength".** (🔢 Number). Default value is `2.02468e-320`.
-- **Halo size (pressed). If blank, this is set to "HaloRadiusHover * 1.1"** (🔢 Number). Default value is `2`.
+- **Halo size (hover). If blank, this is set to "SideLength".** (🔢 Number). Default value is `2.0246810166574283e-320`.
+- **Halo size (pressed). If blank, this is set to "HaloRadiusHover * 1.1"** (🔢 Number). Default value is `2.0000000000018199`.
 - **Line width of checkmark (px) (Min: 1, Max: 1/4 * SideLength)** (🔢 Number). Default value is `5`.
 - **Primary color of checkbox. (Example: 24;119;211) Fill color when box is checked.** (🎨 Color). Default value is ` 24;119;211`.
 - **Secondary color of checkbox. (Example: 255;255;255) Color of checkmark when box is checked.** (🎨 Color). Default value is `255;255;255`.
@@ -51,8 +51,8 @@ Checkbox that can be toggled by a left-click or touch.
     - **Enable interactions** is stored as `Enabled` (Boolean). Default value is `true`.
     - **Halo opacity (pressed)** is stored as `HaloOpacityClick` (Number). Default value is `128`.
     - **Halo opacity (hover)** is stored as `HaloOpacityHover` (Number). Default value is `64`.
-    - **Halo size (hover). If blank, this is set to "SideLength".** is stored as `HaloRadiusHover` (Number). Default value is `2.02468e-320`.
-    - **Halo size (pressed). If blank, this is set to "HaloRadiusHover * 1.1"** is stored as `HaloRadiusPressed` (Number). Default value is `2`.
+    - **Halo size (hover). If blank, this is set to "SideLength".** is stored as `HaloRadiusHover` (Number). Default value is `2.0246810166574283e-320`.
+    - **Halo size (pressed). If blank, this is set to "HaloRadiusHover * 1.1"** is stored as `HaloRadiusPressed` (Number). Default value is `2.0000000000018199`.
     - **Line width of checkmark (px) (Min: 1, Max: 1/4 * SideLength)** is stored as `LineWidth` (Number). Default value is `5`.
     - **Primary color of checkbox. (Example: 24;119;211) Fill color when box is checked.** is stored as `PrimaryColor` (Color). Default value is ` 24;119;211`.
     - **Secondary color of checkbox. (Example: 255;255;255) Color of checkmark when box is checked.** is stored as `SecondaryColor` (Color). Default value is `255;255;255`.

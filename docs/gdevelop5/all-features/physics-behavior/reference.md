@@ -10,12 +10,12 @@ Make objects move as if they are subject to the laws of physics. If you're creat
 
 ### Behavior properties
 
-- **Angular Damping** (). Default value is `0.1`.
+- **Angular Damping** (). Default value is `0.10000000000000001`.
 - **Consider as bullet (better collision handling)** (🔘 Boolean). Default value is `false`.
 - **Dynamic object** (🔘 Boolean). Default value is `true`.
 - **Fixed rotation** (🔘 Boolean). Default value is `false`.
-- **Friction** (). Default value is `0.8`.
-- **Linear Damping** (). Default value is `0.1`.
+- **Friction** (). Default value is `0.80000000000000004`.
+- **Linear Damping** (). Default value is `0.10000000000000001`.
 - **Mass density** (). Default value is `1`.
 - **PLEASE_ALSO_SHOW_EDIT_BUTTON_THANKS** ().
 - **Restitution (elasticity)** (). Default value is `0`.
@@ -24,12 +24,12 @@ Make objects move as if they are subject to the laws of physics. If you're creat
 ??? quote "See internal technical details"
 
 
-    - **Angular Damping** is stored as `Angular Damping` (). Default value is `0.1`.
+    - **Angular Damping** is stored as `Angular Damping` (). Default value is `0.10000000000000001`.
     - **Consider as bullet (better collision handling)** is stored as `Consider as bullet (better collision handling)` (Boolean). Default value is `false`.
     - **Dynamic object** is stored as `Dynamic object` (Boolean). Default value is `true`.
     - **Fixed rotation** is stored as `Fixed rotation` (Boolean). Default value is `false`.
-    - **Friction** is stored as `Friction` (). Default value is `0.8`.
-    - **Linear Damping** is stored as `Linear Damping` (). Default value is `0.1`.
+    - **Friction** is stored as `Friction` (). Default value is `0.80000000000000004`.
+    - **Linear Damping** is stored as `Linear Damping` (). Default value is `0.10000000000000001`.
     - **Mass density** is stored as `Mass density` (). Default value is `1`.
     - **PLEASE_ALSO_SHOW_EDIT_BUTTON_THANKS** is stored as `PLEASE_ALSO_SHOW_EDIT_BUTTON_THANKS` (). Default value is ``.
     - **Restitution (elasticity)** is stored as `Restitution (elasticity)` (). Default value is `0`.

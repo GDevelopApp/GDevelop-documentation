@@ -64,14 +64,14 @@ Add this to the sprite object that will be the background of the dialog box.
 ### Behavior properties
 
 - **Tween Duration. (in milliseconds)** (🔢 Number). Default value is `250`.
-- **Typing interval. (in seconds)** (🔢 Number). Default value is `0.05`.
+- **Typing interval. (in seconds)** (🔢 Number). Default value is `0.050000000000000003`.
 - **Typing sound effect. (File name) (The audio file must be registered as a resource!)** (🔤 String).
 
 ??? quote "See internal technical details"
 
 
     - **Tween Duration. (in milliseconds)** is stored as `Duration` (Number). Default value is `250`.
-    - **Typing interval. (in seconds)** is stored as `Interval` (Number). Default value is `0.05`.
+    - **Typing interval. (in seconds)** is stored as `Interval` (Number). Default value is `0.050000000000000003`.
     - **Typing sound effect. (File name) (The audio file must be registered as a resource!)** is stored as `Se` (String). Default value is ``.
 
 ### Behavior actions

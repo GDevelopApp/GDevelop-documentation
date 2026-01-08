@@ -139,13 +139,13 @@ Animates a sprite sheet using JSON (see extension description).
 
 ### Behavior properties
 
-- **Speed of the animation (in seconds)** (🔢 Number). Default value is `0.2`.
+- **Speed of the animation (in seconds)** (🔢 Number). Default value is `0.20000000000000001`.
 - **JSON formatted text describing the sprite sheet** (🔤 String).
 
 ??? quote "See internal technical details"
 
 
-    - **Speed of the animation (in seconds)** is stored as `AnimationSpeed` (Number). Default value is `0.2`.
+    - **Speed of the animation (in seconds)** is stored as `AnimationSpeed` (Number). Default value is `0.20000000000000001`.
     - **JSON formatted text describing the sprite sheet** is stored as `JSON` (String). Default value is ``.
 
 ### Behavior actions

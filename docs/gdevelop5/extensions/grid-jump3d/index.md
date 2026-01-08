@@ -26,21 +26,21 @@ Move objects by jumping on a grid like a frog.
 ### Behavior properties
 
 - **Grid cell size** (🔢 Number, Distance). Default value is `100`.
-- **Downward jump duration** (🔢 Number, Duration). Default value is `0.08`.
+- **Downward jump duration** (🔢 Number, Duration). Default value is `0.080000000000000002`.
 - **Jump height** (🔢 Number, Distance). Default value is `70`.
 - **Upward jump duration** (🔢 Number, Duration). Default value is `0.12`.
-- **Rotate duration** (🔢 Number, Duration). Default value is `0.1`.
+- **Rotate duration** (🔢 Number, Duration). Default value is `0.10000000000000001`.
 
 ??? quote "See internal technical details"
 
 
     - **Grid cell size** is stored as `GridСellSize` (Number). Unit is Pixel. Default value is `100`.
-    - **Downward jump duration** is stored as `JumpDownDuration` (Number). Unit is Second. Default value is `0.08`.
+    - **Downward jump duration** is stored as `JumpDownDuration` (Number). Unit is Second. Default value is `0.080000000000000002`.
     - **Jump height** is stored as `JumpHeight` (Number). Unit is Pixel. Default value is `70`.
     - **Upward jump duration** is stored as `JumpUpDuration` (Number). Unit is Second. Default value is `0.12`.
     > This behavior must be used on an object also having a behavior with type "Scene3D::Base3DBehavior". This is stored on property `Object3D`.
 
-    - **Rotate duration** is stored as `RotateDuration` (Number). Unit is Second. Default value is `0.1`.
+    - **Rotate duration** is stored as `RotateDuration` (Number). Unit is Second. Default value is `0.10000000000000001`.
     > This behavior must be used on an object also having a behavior with type "Tween::TweenBehavior". This is stored on property `TweenBehavior`.
 
 

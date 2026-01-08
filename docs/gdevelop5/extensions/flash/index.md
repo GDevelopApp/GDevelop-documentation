@@ -29,12 +29,12 @@ Make the object flash (blink) for a period of time so it alternates between visi
 
 ### Behavior properties
 
-- **Half period ** (🔢 Number, Duration). Time that the object is invisible. Default value is `0.1`.
+- **Half period ** (🔢 Number, Duration). Time that the object is invisible. Default value is `0.10000000000000001`.
 
 ??? quote "See internal technical details"
 
 
-    - **Half period ** is stored as `HalfPeriodTime` (Number). Unit is Second. Default value is `0.1`.
+    - **Half period ** is stored as `HalfPeriodTime` (Number). Unit is Second. Default value is `0.10000000000000001`.
 
 ### Behavior actions
 
@@ -120,12 +120,12 @@ Make an object flash a color tint for a period of time.
 
 ### Behavior properties
 
-- **Half period** (🔢 Number, Duration). Time between flashes. Default value is `0.1`.
+- **Half period** (🔢 Number, Duration). Time between flashes. Default value is `0.10000000000000001`.
 
 ??? quote "See internal technical details"
 
 
-    - **Half period** is stored as `HalfPeriodTime` (Number). Unit is Second. Default value is `0.1`.
+    - **Half period** is stored as `HalfPeriodTime` (Number). Unit is Second. Default value is `0.10000000000000001`.
 
 ### Behavior actions
 
@@ -212,14 +212,14 @@ Make the object flash an effect for a period of time.
 
 ### Behavior properties
 
-- **Half period** (🔢 Number, Duration). Time between flashes. Default value is `0.1`.
+- **Half period** (🔢 Number, Duration). Time between flashes. Default value is `0.10000000000000001`.
 
 ??? quote "See internal technical details"
 
 
     > This behavior must be used on an object also having a behavior with type "EffectCapability::EffectBehavior". This is stored on property `Effect`.
 
-    - **Half period** is stored as `HalfPeriodTime` (Number). Unit is Second. Default value is `0.1`.
+    - **Half period** is stored as `HalfPeriodTime` (Number). Unit is Second. Default value is `0.10000000000000001`.
 
 ### Behavior actions
 
@@ -306,12 +306,12 @@ Flash opacity smoothly (fade) in a repeating loop.
 
 ### Behavior properties
 
-- **Half period** (🔢 Number, Duration). Time between flashes. Default value is `0.1`.
+- **Half period** (🔢 Number, Duration). Time between flashes. Default value is `0.10000000000000001`.
 
 ??? quote "See internal technical details"
 
 
-    - **Half period** is stored as `HalfPeriodTime` (Number). Unit is Second. Default value is `0.1`.
+    - **Half period** is stored as `HalfPeriodTime` (Number). Unit is Second. Default value is `0.10000000000000001`.
     > This behavior must be used on an object also having a behavior with type "OpacityCapability::OpacityBehavior". This is stored on property `Opacity`.
 
     > This behavior must be used on an object also having a behavior with type "Tween::TweenBehavior". This is stored on property `TweenBehavior`.

@@ -21,8 +21,8 @@ Simulate 2D car motion, from a top-down view.
 ### Behavior properties
 
 - **Acceleration** (🔢 Number, Acceleration). Default value is `500`.
-- **Front wheels position** (🔢 Number). 0 means at the center, 1 means at the front. Default value is `0.8`.
-- **Rear wheels position** (🔢 Number, Dimensionless). 0 means at the center, 1 means at the back. Default value is `0.8`.
+- **Front wheels position** (🔢 Number). 0 means at the center, 1 means at the front. Default value is `0.80000000000000004`.
+- **Rear wheels position** (🔢 Number, Dimensionless). 0 means at the center, 1 means at the back. Default value is `0.80000000000000004`.
 - **Maximum speed** (🔢 Number, Speed). Default value is `800`.
 - **Maximum steering angle** (🔢 Number, Angle). Default value is `30`.
 - **Sterring speed when turning back** (🔢 Number, Angular speed). Default value is `240`.
@@ -33,10 +33,10 @@ Simulate 2D car motion, from a top-down view.
 
 
     - **Acceleration** is stored as `Acceleration` (Number). Unit is PixelAcceleration. Default value is `500`.
-    - **Front wheels position** is stored as `FrontWheelsPosition` (Number). Default value is `0.8`.
+    - **Front wheels position** is stored as `FrontWheelsPosition` (Number). Default value is `0.80000000000000004`.
     > This behavior must be used on an object also having a behavior with type "Physics2::Physics2Behavior". This is stored on property `Physics2`.
 
-    - **Rear wheels position** is stored as `RearWheelsPosition` (Number). Unit is Dimensionless. Default value is `0.8`.
+    - **Rear wheels position** is stored as `RearWheelsPosition` (Number). Unit is Dimensionless. Default value is `0.80000000000000004`.
     - **Maximum speed** is stored as `SpeedMax` (Number). Unit is PixelSpeed. Default value is `800`.
     - **Maximum steering angle** is stored as `SteeringAngleMax` (Number). Unit is DegreeAngle. Default value is `30`.
     - **Sterring speed when turning back** is stored as `SteeringBackSpeed` (Number). Unit is AngularSpeed. Default value is `240`.

@@ -68,7 +68,7 @@ Jump and run on platforms.
 - **Gravity** (🔢 Number, Acceleration). Default value is `1000`.
 - **Disable default keyboard controls** (🔘 Boolean). Default value is `false`.
 - **Jump speed** (🔢 Number, Speed). Default value is `600`.
-- **Jump sustain time** (🔢 Number, Duration). Maximum time (in seconds) during which the jump strength is sustained if the jump key is held - allowing variable height jumps. Default value is `0.2`.
+- **Jump sustain time** (🔢 Number, Duration). Maximum time (in seconds) during which the jump strength is sustained if the jump key is held - allowing variable height jumps. Default value is `0.20000000000000001`.
 - **Ladder climbing speed** (🔢 Number, Speed). Default value is `150`.
 - **Max. falling speed** (🔢 Number, Speed). Default value is `700`.
 - **Max. speed** (🔢 Number, Speed). Default value is `250`.
@@ -89,7 +89,7 @@ Jump and run on platforms.
     - **Gravity** is stored as `Gravity` (Number). Unit is PixelAcceleration. Default value is `1000`.
     - **Disable default keyboard controls** is stored as `IgnoreDefaultControls` (Boolean). Default value is `false`.
     - **Jump speed** is stored as `JumpSpeed` (Number). Unit is PixelSpeed. Default value is `600`.
-    - **Jump sustain time** is stored as `JumpSustainTime` (Number). Unit is Second. Default value is `0.2`.
+    - **Jump sustain time** is stored as `JumpSustainTime` (Number). Unit is Second. Default value is `0.20000000000000001`.
     - **Ladder climbing speed** is stored as `LadderClimbingSpeed` (Number). Unit is PixelSpeed. Default value is `150`.
     - **Max. falling speed** is stored as `MaxFallingSpeed` (Number). Unit is PixelSpeed. Default value is `700`.
     - **Max. speed** is stored as `MaxSpeed` (Number). Unit is PixelSpeed. Default value is `250`.

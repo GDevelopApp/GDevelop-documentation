@@ -378,7 +378,7 @@ Let platformer characters jump and slide against walls.
 
 - **Keep sliding without holding a key** (🔘 Boolean). Default value is `false`.
 - **Jump detection time frame** (🔢 Number, Duration). Default value is `0.125`.
-- **Side speed sustain time** (🔢 Number, Duration). Default value is `0.2`.
+- **Side speed sustain time** (🔢 Number, Duration). Default value is `0.20000000000000001`.
 - **Side acceleration** (🔢 Number, Acceleration). Default value is `1500`.
 - **Side speed** (🔢 Number, Speed). Default value is `250`.
 - **Minimal falling speed** (🔢 Number, Speed). Default value is `50`.
@@ -395,7 +395,7 @@ Let platformer characters jump and slide against walls.
 
     > This behavior must be used on an object also having a behavior with type "AdvancedJump::PlatformerConfigurationStack". This is stored on property `PlatformerConfigurationStack`.
 
-    - **Side speed sustain time** is stored as `SideSpeedSustainTime` (Number). Unit is Second. Default value is `0.2`.
+    - **Side speed sustain time** is stored as `SideSpeedSustainTime` (Number). Unit is Second. Default value is `0.20000000000000001`.
     - **Side acceleration** is stored as `WallJumpAccelerationX` (Number). Unit is PixelAcceleration. Default value is `1500`.
     - **Side speed** is stored as `WallJumpSpeedX` (Number). Unit is PixelSpeed. Default value is `250`.
     - **Minimal falling speed** is stored as `WallSlidingFallingSpeedMin` (Number). Unit is PixelSpeed. Default value is `50`.

@@ -29,7 +29,7 @@ Jump and fall along Z axis.
 
 - **Gravity** (🔢 Number, Acceleration). Its value is always positive. Default value is `1000`.
 - **Jump height** (🔢 Number). Its value is always positive. Default value is `150`.
-- **Jump sustain time** (🔢 Number, Duration). Maximum time (in seconds) during which the jump strength is sustained if the jump key is held - allowing variable height jumps. Default value is `0.2`.
+- **Jump sustain time** (🔢 Number, Duration). Maximum time (in seconds) during which the jump strength is sustained if the jump key is held - allowing variable height jumps. Default value is `0.20000000000000001`.
 - **Maximum falling speed** (🔢 Number, Speed). Its value is always positive. Default value is `700`.
 - **Stop falling when Z equals 0** (🔘 Boolean). Default value is `true`.
 
@@ -38,7 +38,7 @@ Jump and fall along Z axis.
 
     - **Gravity** is stored as `Gravity` (Number). Unit is PixelAcceleration. Default value is `1000`.
     - **Jump height** is stored as `JumpHeight` (Number). Default value is `150`.
-    - **Jump sustain time** is stored as `JumpSustainDurationMax` (Number). Unit is Second. Default value is `0.2`.
+    - **Jump sustain time** is stored as `JumpSustainDurationMax` (Number). Unit is Second. Default value is `0.20000000000000001`.
     - **Maximum falling speed** is stored as `MaxFallingSpeed` (Number). Unit is PixelSpeed. Default value is `700`.
     > This behavior must be used on an object also having a behavior with type "Scene3D::Base3DBehavior". This is stored on property `Object3D`.
 
