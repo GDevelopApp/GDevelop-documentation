@@ -22,6 +22,10 @@ For example, you can build:
 
 The objects contained inside a custom object are called "children" or "child objects".
 
+Custom objects can also have **variants**: multiple named configurations of the same custom object that share the exact same events/logic (and the same actions/conditions you expose), but have different default sizes, layers, and different initial instances of the children (positions, properties, etc.). Variants are useful to create multiple styles of the same UI element or gameplay object (for example, several button looks) without duplicating logic.
+
+Because all variants share the same events, they must also share the same set of child objects (the events refer to these objects by name). This is why you can't add or remove child objects when editing a variant: if a child object exists in one variant, it must exist in all variants. The recommended workflow is to add, in the main/default variant, all child objects that any variant might need, and then let each variant place instances of only the children it uses (unused children can simply have no instances in that variant).
+
 ## Create a new custom object
 
 Custom objects are grouped into "extensions". Extensions are composed of functions, behaviors or custom objects powered by events. You can see the list of all the extensions the game has in the [Project Manager](/gdevelop5/interface/project-manager).
