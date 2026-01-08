@@ -64,7 +64,7 @@ The grey rectangle on the scene is the custom object default size. Your can chan
 
 ## Custom object variants
 
-**Variants** allow you to create different visual styles or configurations of the same custom object. Each variant can have its own set of layers, child object configurations (like different images, fonts, or colors), and initial instance placements, while sharing the same events and logic.
+**Variants** allow you to create different visual styles or configurations of the same custom object. Each variant can have its own child object configurations (like different images, fonts, or colors) and initial instance placements, while sharing the same events and logic.
 
 For example, you can create a "Button" custom object with multiple variants:
 
@@ -76,8 +76,8 @@ All these variants will share the same button logic (hover effects, click handli
 
 To create a new variant:
 
-1. Open the custom object editor
-2. Click on the **Duplicate** button below the **Variant** title to duplicate the current variant
+1. Open the properties editor of an object (which is based on a custom object)
+2. Click on the **Duplicate** button next to the **Variant** title to duplicate the current variant, or create a new variant with the **Plus** button
 3. Give your variant a name
 4. Click on the **Edit** button to open the variant editor in a new tab
 5. Customize the child objects and their instances as needed
