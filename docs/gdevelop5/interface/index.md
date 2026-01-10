@@ -1,4 +1,12 @@
----
+junior lokale billet stock
+Bill stock
+Bill stock 
+etoil
+stars
+m'y bony
+m'y bony
+star
+
 title: GDevelop interface
 icon: material/view-dashboard
 ---
