@@ -80,8 +80,6 @@ $(function() {
  <a href="classgd_1_1_properties_container.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_properties_container_8h_source.html">PropertiesContainer.h</a>&gt;</code></p>
-
-<p>Inherits <a class="el" href="classgd_1_1_serializable_with_name_list.html">gd::SerializableWithNameList&lt; NamedPropertyDescriptor &gt;</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -91,133 +89,156 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af52e94e0ae9630f9148b24f73c654530"><td class="memItemLeft" align="right" valign="top"><a id="af52e94e0ae9630f9148b24f73c654530"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>PropertiesContainer</b> (const <a class="el" href="classgd_1_1_properties_container.html">PropertiesContainer</a> &amp;other)</td></tr>
 <tr class="separator:af52e94e0ae9630f9148b24f73c654530"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a058fe3e138e1718ced885202a8d83830"><td class="memItemLeft" align="right" valign="top"><a id="a058fe3e138e1718ced885202a8d83830"></a>
+<tr class="memitem:aa914a535af5496544071226f438d1b60"><td class="memItemLeft" align="right" valign="top"><a id="aa914a535af5496544071226f438d1b60"></a>
 <a class="el" href="classgd_1_1_properties_container.html">PropertiesContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="classgd_1_1_properties_container.html">PropertiesContainer</a> &amp;other)</td></tr>
-<tr class="separator:a058fe3e138e1718ced885202a8d83830"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:aa914a535af5496544071226f438d1b60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adaa2e23543c05e7f99979c30e42115a7"><td class="memItemLeft" align="right" valign="top"><a id="adaa2e23543c05e7f99979c30e42115a7"></a>
+<a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>Insert</b> (const <a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &amp;element, size_t position=(size_t) -1)</td></tr>
+<tr class="separator:adaa2e23543c05e7f99979c30e42115a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6af10e9c4ecd70bf679772da48fca0fd"><td class="memItemLeft" align="right" valign="top"><a id="a6af10e9c4ecd70bf679772da48fca0fd"></a>
+<a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>InsertNew</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name, size_t position=(size_t) -1)</td></tr>
+<tr class="separator:a6af10e9c4ecd70bf679772da48fca0fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa81c1203d0a2a449205b23db70304c8b"><td class="memItemLeft" align="right" valign="top"><a id="aa81c1203d0a2a449205b23db70304c8b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>Has</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name) const</td></tr>
+<tr class="separator:aa81c1203d0a2a449205b23db70304c8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af88ab9c86ad6ff2150002bf6582e7093"><td class="memItemLeft" align="right" valign="top"><a id="af88ab9c86ad6ff2150002bf6582e7093"></a>
+<a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>Get</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
+<tr class="separator:af88ab9c86ad6ff2150002bf6582e7093"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e8ec38aed47d33d6de1108a34a28169"><td class="memItemLeft" align="right" valign="top"><a id="a7e8ec38aed47d33d6de1108a34a28169"></a>
+const <a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>Get</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name) const</td></tr>
+<tr class="separator:a7e8ec38aed47d33d6de1108a34a28169"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0eb69a63ac3d25b551e534f8ab7fd618"><td class="memItemLeft" align="right" valign="top"><a id="a0eb69a63ac3d25b551e534f8ab7fd618"></a>
+<a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>Get</b> (size_t index)</td></tr>
+<tr class="separator:a0eb69a63ac3d25b551e534f8ab7fd618"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7491736235e2b127a78e0671678545c3"><td class="memItemLeft" align="right" valign="top"><a id="a7491736235e2b127a78e0671678545c3"></a>
+const <a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>Get</b> (size_t index) const</td></tr>
+<tr class="separator:a7491736235e2b127a78e0671678545c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4999dbc3388aa4b9d2f7183d6f147d0f"><td class="memItemLeft" align="right" valign="top"><a id="a4999dbc3388aa4b9d2f7183d6f147d0f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Remove</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
+<tr class="separator:a4999dbc3388aa4b9d2f7183d6f147d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad11fb38e7212a8c0100a925c4aff38a3"><td class="memItemLeft" align="right" valign="top"><a id="ad11fb38e7212a8c0100a925c4aff38a3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Move</b> (std::size_t oldIndex, std::size_t newIndex)</td></tr>
+<tr class="separator:ad11fb38e7212a8c0100a925c4aff38a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6052fc0188902373b3d617730541b255"><td class="memItemLeft" align="right" valign="top"><a id="a6052fc0188902373b3d617730541b255"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetCount</b> () const</td></tr>
+<tr class="separator:a6052fc0188902373b3d617730541b255"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29362d0069cca05f979648935ac7cfc3"><td class="memItemLeft" align="right" valign="top"><a id="a29362d0069cca05f979648935ac7cfc3"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetPosition</b> (const <a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &amp;element) const</td></tr>
+<tr class="separator:a29362d0069cca05f979648935ac7cfc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acee572a62af0a580b13149720ffff1c1"><td class="memItemLeft" align="right" valign="top"><a id="acee572a62af0a580b13149720ffff1c1"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsEmpty</b> () const</td></tr>
+<tr class="separator:acee572a62af0a580b13149720ffff1c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a036de338521f60a580b76d2c15569f06"><td class="memItemLeft" align="right" valign="top"><a id="a036de338521f60a580b76d2c15569f06"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><b>size</b> () const</td></tr>
+<tr class="separator:a036de338521f60a580b76d2c15569f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a344f38ec42b78130f026bf544ece13da"><td class="memItemLeft" align="right" valign="top"><a id="a344f38ec42b78130f026bf544ece13da"></a>
+<a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>at</b> (size_t index)</td></tr>
+<tr class="separator:a344f38ec42b78130f026bf544ece13da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65d1e11a9c4db81d4a16a5b9536c3ec2"><td class="memItemLeft" align="right" valign="top"><a id="a65d1e11a9c4db81d4a16a5b9536c3ec2"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>empty</b> () const</td></tr>
+<tr class="separator:a65d1e11a9c4db81d4a16a5b9536c3ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2384726a98847137d39a65d1095a42f"><td class="memItemLeft" align="right" valign="top"><a id="ae2384726a98847137d39a65d1095a42f"></a>
+const std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetInternalVector</b> () const</td></tr>
+<tr class="separator:ae2384726a98847137d39a65d1095a42f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10a09629a113948323f2fabd83554ea0"><td class="memItemLeft" align="right" valign="top"><a id="a10a09629a113948323f2fabd83554ea0"></a>
+std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetInternalVector</b> ()</td></tr>
+<tr class="separator:a10a09629a113948323f2fabd83554ea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac862e008462a649fddeef25409ca4961"><td class="memItemLeft" align="right" valign="top"><a id="ac862e008462a649fddeef25409ca4961"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SerializeElementsTo</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;elementName, <a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element) const</td></tr>
+<tr class="separator:ac862e008462a649fddeef25409ca4961"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6055fe6e9135657384728cd18578225d"><td class="memItemLeft" align="right" valign="top"><a id="a6055fe6e9135657384728cd18578225d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>UnserializeElementsFrom</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;elementName, const <a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element)</td></tr>
+<tr class="separator:a6055fe6e9135657384728cd18578225d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abeea07488bc21af69caf31ad27abd70d"><td class="memItemLeft" align="right" valign="top"><a id="abeea07488bc21af69caf31ad27abd70d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ForEachPropertyMatchingSearch</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;search, std::function&lt; void(const <a class="el" href="classgd_1_1_named_property_descriptor.html">gd::NamedPropertyDescriptor</a> &amp;property)&gt; fn) const</td></tr>
 <tr class="separator:abeea07488bc21af69caf31ad27abd70d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a025abfa2e9e43e2bc7350e6ec3a80f"><td class="memItemLeft" align="right" valign="top"><a id="a0a025abfa2e9e43e2bc7350e6ec3a80f"></a>
 EventsFunctionsContainer::FunctionOwner&#160;</td><td class="memItemRight" valign="bottom"><b>GetOwner</b> () const</td></tr>
 <tr class="separator:a0a025abfa2e9e43e2bc7350e6ec3a80f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classgd_1_1_serializable_with_name_list"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classgd_1_1_serializable_with_name_list')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classgd_1_1_serializable_with_name_list.html">gd::SerializableWithNameList&lt; NamedPropertyDescriptor &gt;</a></td></tr>
-<tr class="memitem:acd58c7551d46dcb30971f16df2d7d60d inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top"><a id="acd58c7551d46dcb30971f16df2d7d60d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>SerializableWithNameList</b> (const <a class="el" href="classgd_1_1_serializable_with_name_list.html">SerializableWithNameList</a>&lt; <a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &gt; &amp;)</td></tr>
-<tr class="separator:acd58c7551d46dcb30971f16df2d7d60d inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6f110a8a12bb908db2e5706019a0b6a inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top"><a id="ac6f110a8a12bb908db2e5706019a0b6a"></a>
-<a class="el" href="classgd_1_1_serializable_with_name_list.html">SerializableWithNameList</a>&lt; <a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="classgd_1_1_serializable_with_name_list.html">SerializableWithNameList</a>&lt; <a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &gt; &amp;rhs)</td></tr>
-<tr class="separator:ac6f110a8a12bb908db2e5706019a0b6a inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a794e5785ab81ae94a24907e430dd7a31 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializable_with_name_list.html#a794e5785ab81ae94a24907e430dd7a31">Insert</a> (const <a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &amp;element, size_t position=(size_t) -1)</td></tr>
-<tr class="memdesc:a794e5785ab81ae94a24907e430dd7a31 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert the specified element to the list.  <a href="classgd_1_1_serializable_with_name_list.html#a794e5785ab81ae94a24907e430dd7a31">More...</a><br /></td></tr>
-<tr class="separator:a794e5785ab81ae94a24907e430dd7a31 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af00ad4ddc29272569cbad45d24fc228f inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top"><a id="af00ad4ddc29272569cbad45d24fc228f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializable_with_name_list.html#af00ad4ddc29272569cbad45d24fc228f">Insert</a> (const <a class="el" href="classgd_1_1_serializable_with_name_list.html">SerializableWithNameList</a>&lt; <a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &gt; &amp;otherEvents, size_t begin, size_t end, size_t position=(size_t) -1)</td></tr>
-<tr class="memdesc:af00ad4ddc29272569cbad45d24fc228f inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy elements from another list. <br /></td></tr>
-<tr class="separator:af00ad4ddc29272569cbad45d24fc228f inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad41806cc2e2e1fb5a2ce2ff11631cf4a inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializable_with_name_list.html#ad41806cc2e2e1fb5a2ce2ff11631cf4a">InsertNew</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name, size_t position=(size_t) -1)</td></tr>
-<tr class="memdesc:ad41806cc2e2e1fb5a2ce2ff11631cf4a inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert a new element (constructed from its default constructor) with the given name.  <a href="classgd_1_1_serializable_with_name_list.html#ad41806cc2e2e1fb5a2ce2ff11631cf4a">More...</a><br /></td></tr>
-<tr class="separator:ad41806cc2e2e1fb5a2ce2ff11631cf4a inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa86c841e4272cd9f03c1f93cd635a683 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top"><a id="aa86c841e4272cd9f03c1f93cd635a683"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializable_with_name_list.html#aa86c841e4272cd9f03c1f93cd635a683">GetCount</a> () const</td></tr>
-<tr class="memdesc:aa86c841e4272cd9f03c1f93cd635a683 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of elements. <br /></td></tr>
-<tr class="separator:aa86c841e4272cd9f03c1f93cd635a683 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afed87ddb6f8c8eafac88462082d19290 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top"><a id="afed87ddb6f8c8eafac88462082d19290"></a>
-<a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializable_with_name_list.html#afed87ddb6f8c8eafac88462082d19290">Get</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
-<tr class="memdesc:afed87ddb6f8c8eafac88462082d19290 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to the element with the specified name. <br /></td></tr>
-<tr class="separator:afed87ddb6f8c8eafac88462082d19290 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a955e1ce8ff4e1a0fda8dd12b446403b7 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top"><a id="a955e1ce8ff4e1a0fda8dd12b446403b7"></a>
-const <a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializable_with_name_list.html#a955e1ce8ff4e1a0fda8dd12b446403b7">Get</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name) const</td></tr>
-<tr class="memdesc:a955e1ce8ff4e1a0fda8dd12b446403b7 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to the element with the specified name. <br /></td></tr>
-<tr class="separator:a955e1ce8ff4e1a0fda8dd12b446403b7 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c7e771f35cb4277eddd00a77f7c4f86 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top"><a id="a0c7e771f35cb4277eddd00a77f7c4f86"></a>
-<a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializable_with_name_list.html#a0c7e771f35cb4277eddd00a77f7c4f86">Get</a> (size_t index)</td></tr>
-<tr class="memdesc:a0c7e771f35cb4277eddd00a77f7c4f86 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to the element at position <em>index</em> in the elements list. <br /></td></tr>
-<tr class="separator:a0c7e771f35cb4277eddd00a77f7c4f86 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfa610083cd5b43ee9521f5fa5e7b4a0 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top"><a id="acfa610083cd5b43ee9521f5fa5e7b4a0"></a>
-const <a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializable_with_name_list.html#acfa610083cd5b43ee9521f5fa5e7b4a0">Get</a> (size_t index) const</td></tr>
-<tr class="memdesc:acfa610083cd5b43ee9521f5fa5e7b4a0 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to the element at position <em>index</em> in the elements list. <br /></td></tr>
-<tr class="separator:acfa610083cd5b43ee9521f5fa5e7b4a0 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30eb7d389bbb128d0296803e8905a3cd inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top"><a id="a30eb7d389bbb128d0296803e8905a3cd"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializable_with_name_list.html#a30eb7d389bbb128d0296803e8905a3cd">Remove</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
-<tr class="memdesc:a30eb7d389bbb128d0296803e8905a3cd inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the element with the specified name, destroying it. <br /></td></tr>
-<tr class="separator:a30eb7d389bbb128d0296803e8905a3cd inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2181475d6f9120849b15a4162bc0fc5 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top"><a id="af2181475d6f9120849b15a4162bc0fc5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializable_with_name_list.html#af2181475d6f9120849b15a4162bc0fc5">Remove</a> (size_t index)</td></tr>
-<tr class="memdesc:af2181475d6f9120849b15a4162bc0fc5 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the element at the specified index in the list, destroying it. <br /></td></tr>
-<tr class="separator:af2181475d6f9120849b15a4162bc0fc5 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6494b7d514926e1a22c9c4f25c88ebbd inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top"><a id="a6494b7d514926e1a22c9c4f25c88ebbd"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializable_with_name_list.html#a6494b7d514926e1a22c9c4f25c88ebbd">IsEmpty</a> () const</td></tr>
-<tr class="memdesc:a6494b7d514926e1a22c9c4f25c88ebbd inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if there isn't any element in the list. <br /></td></tr>
-<tr class="separator:a6494b7d514926e1a22c9c4f25c88ebbd inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b019ffda6a498714a052f0977ed7cbc inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top"><a id="a4b019ffda6a498714a052f0977ed7cbc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializable_with_name_list.html#a4b019ffda6a498714a052f0977ed7cbc">Clear</a> ()</td></tr>
-<tr class="memdesc:a4b019ffda6a498714a052f0977ed7cbc inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the list of elements, destroying all of them. <br /></td></tr>
-<tr class="separator:a4b019ffda6a498714a052f0977ed7cbc inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad954bf3a5c1a2c1639038fd451244062 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializable_with_name_list.html#ad954bf3a5c1a2c1639038fd451244062">Move</a> (std::size_t oldIndex, std::size_t newIndex)</td></tr>
-<tr class="memdesc:ad954bf3a5c1a2c1639038fd451244062 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move element at position <code>oldIndex</code> to position <code>newIndex</code>.  <a href="classgd_1_1_serializable_with_name_list.html#ad954bf3a5c1a2c1639038fd451244062">More...</a><br /></td></tr>
-<tr class="separator:ad954bf3a5c1a2c1639038fd451244062 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f16d73dffd1d3ea670de776426fea29 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top"><a id="a6f16d73dffd1d3ea670de776426fea29"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializable_with_name_list.html#a6f16d73dffd1d3ea670de776426fea29">Has</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name) const</td></tr>
-<tr class="memdesc:a6f16d73dffd1d3ea670de776426fea29 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if an element with the specified name exists. <br /></td></tr>
-<tr class="separator:a6f16d73dffd1d3ea670de776426fea29 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6382961421b84fcaefb504e7ec2d147 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top"><a id="aa6382961421b84fcaefb504e7ec2d147"></a>
-std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializable_with_name_list.html#aa6382961421b84fcaefb504e7ec2d147">GetPosition</a> (const <a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &amp;element) const</td></tr>
-<tr class="memdesc:aa6382961421b84fcaefb504e7ec2d147 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the position of an element in the list. <br /></td></tr>
-<tr class="separator:aa6382961421b84fcaefb504e7ec2d147 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a403393e8a216930041c57ecc23330170 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializable_with_name_list.html#a403393e8a216930041c57ecc23330170">size</a> () const</td></tr>
-<tr class="memdesc:a403393e8a216930041c57ecc23330170 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for <a class="el" href="classgd_1_1_serializable_with_name_list.html#aa86c841e4272cd9f03c1f93cd635a683" title="Return the number of elements.">GetCount()</a>  <a href="classgd_1_1_serializable_with_name_list.html#a403393e8a216930041c57ecc23330170">More...</a><br /></td></tr>
-<tr class="separator:a403393e8a216930041c57ecc23330170 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a955855a70e62ef456cf8bed6faffec11 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializable_with_name_list.html#a955855a70e62ef456cf8bed6faffec11">empty</a> () const</td></tr>
-<tr class="memdesc:a955855a70e62ef456cf8bed6faffec11 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for <a class="el" href="classgd_1_1_serializable_with_name_list.html#a6494b7d514926e1a22c9c4f25c88ebbd" title="Return true if there isn&#39;t any element in the list.">IsEmpty()</a>  <a href="classgd_1_1_serializable_with_name_list.html#a955855a70e62ef456cf8bed6faffec11">More...</a><br /></td></tr>
-<tr class="separator:a955855a70e62ef456cf8bed6faffec11 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbfbb1de7f79765724bd8354fdafe7f1 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializable_with_name_list.html#afbfbb1de7f79765724bd8354fdafe7f1">operator[]</a> (size_t index)</td></tr>
-<tr class="memdesc:afbfbb1de7f79765724bd8354fdafe7f1 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for <a class="el" href="classgd_1_1_serializable_with_name_list.html#afed87ddb6f8c8eafac88462082d19290" title="Return a reference to the element with the specified name.">Get()</a>  <a href="classgd_1_1_serializable_with_name_list.html#afbfbb1de7f79765724bd8354fdafe7f1">More...</a><br /></td></tr>
-<tr class="separator:afbfbb1de7f79765724bd8354fdafe7f1 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3c1cfb682f40eb6bda941f7d5900c06 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializable_with_name_list.html#ad3c1cfb682f40eb6bda941f7d5900c06">operator[]</a> (size_t index) const</td></tr>
-<tr class="memdesc:ad3c1cfb682f40eb6bda941f7d5900c06 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for <a class="el" href="classgd_1_1_serializable_with_name_list.html#afed87ddb6f8c8eafac88462082d19290" title="Return a reference to the element with the specified name.">Get()</a>  <a href="classgd_1_1_serializable_with_name_list.html#ad3c1cfb682f40eb6bda941f7d5900c06">More...</a><br /></td></tr>
-<tr class="separator:ad3c1cfb682f40eb6bda941f7d5900c06 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13ec34080b43123c4709d8a478354cba inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializable_with_name_list.html#a13ec34080b43123c4709d8a478354cba">at</a> (size_t index)</td></tr>
-<tr class="memdesc:a13ec34080b43123c4709d8a478354cba inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for <a class="el" href="classgd_1_1_serializable_with_name_list.html#afed87ddb6f8c8eafac88462082d19290" title="Return a reference to the element with the specified name.">Get()</a>  <a href="classgd_1_1_serializable_with_name_list.html#a13ec34080b43123c4709d8a478354cba">More...</a><br /></td></tr>
-<tr class="separator:a13ec34080b43123c4709d8a478354cba inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d76701e3ec35bc0f2a07ad11b2fc0f7 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializable_with_name_list.html#a8d76701e3ec35bc0f2a07ad11b2fc0f7">at</a> (size_t index) const</td></tr>
-<tr class="memdesc:a8d76701e3ec35bc0f2a07ad11b2fc0f7 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for <a class="el" href="classgd_1_1_serializable_with_name_list.html#afed87ddb6f8c8eafac88462082d19290" title="Return a reference to the element with the specified name.">Get()</a>  <a href="classgd_1_1_serializable_with_name_list.html#a8d76701e3ec35bc0f2a07ad11b2fc0f7">More...</a><br /></td></tr>
-<tr class="separator:a8d76701e3ec35bc0f2a07ad11b2fc0f7 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43afd4bfa6f7bea90d2f78b0b2cc750b inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top"><a id="a43afd4bfa6f7bea90d2f78b0b2cc750b"></a>
-const std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializable_with_name_list.html#a43afd4bfa6f7bea90d2f78b0b2cc750b">GetInternalVector</a> () const</td></tr>
-<tr class="memdesc:a43afd4bfa6f7bea90d2f78b0b2cc750b inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provide a raw access to the vector containing the elements. <br /></td></tr>
-<tr class="separator:a43afd4bfa6f7bea90d2f78b0b2cc750b inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16b81ecddeed97566cd8ec807887ea80 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top"><a id="a16b81ecddeed97566cd8ec807887ea80"></a>
-std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializable_with_name_list.html#a16b81ecddeed97566cd8ec807887ea80">GetInternalVector</a> ()</td></tr>
-<tr class="memdesc:a16b81ecddeed97566cd8ec807887ea80 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provide a raw access to the vector containing the elements. <br /></td></tr>
-<tr class="separator:a16b81ecddeed97566cd8ec807887ea80 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b5d259af022343eadb7f47b541d1932 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top"><a id="a5b5d259af022343eadb7f47b541d1932"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SerializeElementsTo</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;elementName, <a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element) const</td></tr>
-<tr class="separator:a5b5d259af022343eadb7f47b541d1932 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee688d76734e3100bd7cf1602a6d0caa inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top"><a id="aee688d76734e3100bd7cf1602a6d0caa"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UnserializeElementsFrom</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;elementName, <a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element)</td></tr>
-<tr class="separator:aee688d76734e3100bd7cf1602a6d0caa inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab67cf4e1af694a0446077c6a060c553a inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top"><a id="ab67cf4e1af694a0446077c6a060c553a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UnserializeElementsFrom</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;elementName, const <a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element)</td></tr>
-<tr class="separator:ab67cf4e1af694a0446077c6a060c553a inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac78e58a57403e0ff219236eea73f3b58 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top"><a id="ac78e58a57403e0ff219236eea73f3b58"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>ProgressivelyUnserializeElementsFrom</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;elementName, <a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element)</td></tr>
-<tr class="separator:ac78e58a57403e0ff219236eea73f3b58 inherit pub_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_methods_classgd_1_1_serializable_with_name_list"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classgd_1_1_serializable_with_name_list')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classgd_1_1_serializable_with_name_list.html">gd::SerializableWithNameList&lt; NamedPropertyDescriptor &gt;</a></td></tr>
-<tr class="memitem:acc69465766309c163f1cf2f68f8504d6 inherit pro_methods_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializable_with_name_list.html#acc69465766309c163f1cf2f68f8504d6">Init</a> (const <a class="el" href="classgd_1_1_serializable_with_name_list.html">SerializableWithNameList</a>&lt; <a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &gt; &amp;other)</td></tr>
-<tr class="separator:acc69465766309c163f1cf2f68f8504d6 inherit pro_methods_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_classgd_1_1_serializable_with_name_list"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classgd_1_1_serializable_with_name_list')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classgd_1_1_serializable_with_name_list.html">gd::SerializableWithNameList&lt; NamedPropertyDescriptor &gt;</a></td></tr>
-<tr class="memitem:a1ae1bf78e5dd642c9c84b4f879ef3565 inherit pro_attribs_classgd_1_1_serializable_with_name_list"><td class="memItemLeft" align="right" valign="top"><a id="a1ae1bf78e5dd642c9c84b4f879ef3565"></a>
-std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_named_property_descriptor.html">NamedPropertyDescriptor</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>elements</b></td></tr>
-<tr class="separator:a1ae1bf78e5dd642c9c84b4f879ef3565 inherit pro_attribs_classgd_1_1_serializable_with_name_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9f415737e8c09088241175c81538ea9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_named_property_descriptor.html">gd::NamedPropertyDescriptor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_properties_container.html#aa9f415737e8c09088241175c81538ea9">InsertNewPropertyInFolder</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name, <a class="el" href="classgd_1_1_property_folder_or_property.html">gd::PropertyFolderOrProperty</a> &amp;propertyFolderOrProperty, std::size_t position)</td></tr>
+<tr class="memdesc:aa9f415737e8c09088241175c81538ea9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new empty property called <em>name</em> in the given folder at the specified position.<br  />
+  <a href="classgd_1_1_properties_container.html#aa9f415737e8c09088241175c81538ea9">More...</a><br /></td></tr>
+<tr class="separator:aa9f415737e8c09088241175c81538ea9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ac8d35ae55c36cd03b9ddfe7ec0fabb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="classgd_1_1_property_folder_or_property.html">PropertyFolderOrProperty</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_properties_container.html#a1ac8d35ae55c36cd03b9ddfe7ec0fabb">GetAllPropertyFolderOrProperty</a> () const</td></tr>
+<tr class="separator:a1ac8d35ae55c36cd03b9ddfe7ec0fabb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af09477716f916c5ceb221c76ad0c8010"><td class="memItemLeft" align="right" valign="top"><a id="af09477716f916c5ceb221c76ad0c8010"></a>
+<a class="el" href="classgd_1_1_property_folder_or_property.html">gd::PropertyFolderOrProperty</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetRootFolder</b> ()</td></tr>
+<tr class="separator:af09477716f916c5ceb221c76ad0c8010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60f30d687926b0c49c1dcbc32cfeb005"><td class="memItemLeft" align="right" valign="top"><a id="a60f30d687926b0c49c1dcbc32cfeb005"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>AddMissingPropertiesInRootFolder</b> ()</td></tr>
+<tr class="separator:a60f30d687926b0c49c1dcbc32cfeb005"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32df7a29f8fdee1113663ac372299b59"><td class="memItemLeft" align="right" valign="top"><a id="a32df7a29f8fdee1113663ac372299b59"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_properties_container.html#a32df7a29f8fdee1113663ac372299b59">SerializeFoldersTo</a> (<a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element) const</td></tr>
+<tr class="memdesc:a32df7a29f8fdee1113663ac372299b59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize folder structure. <br /></td></tr>
+<tr class="separator:a32df7a29f8fdee1113663ac372299b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af00b7d5f9a51bddfa59be0cbcd267895"><td class="memItemLeft" align="right" valign="top"><a id="af00b7d5f9a51bddfa59be0cbcd267895"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_properties_container.html#af00b7d5f9a51bddfa59be0cbcd267895">UnserializeFoldersFrom</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element)</td></tr>
+<tr class="memdesc:af00b7d5f9a51bddfa59be0cbcd267895"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unserialize folder structure. <br /></td></tr>
+<tr class="separator:af00b7d5f9a51bddfa59be0cbcd267895"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A container of properties, used for custom behaviors, custom objects, extensions... </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_named_property_descriptor.html" title="Used to describe a property shown in a property grid.">gd::NamedPropertyDescriptor</a> </dd></dl>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1ac8d35ae55c36cd03b9ddfe7ec0fabb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ac8d35ae55c36cd03b9ddfe7ec0fabb">&#9670;&nbsp;</a></span>GetAllPropertyFolderOrProperty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; const <a class="el" href="classgd_1_1_property_folder_or_property.html">PropertyFolderOrProperty</a> * &gt; gd::PropertiesContainer::GetAllPropertyFolderOrProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a vector containing all object and folders in this container. Only use this for checking if you hold a valid <code><a class="el" href="classgd_1_1_property_folder_or_property.html" title="Class representing a folder structure in order to organize properties in folders (to be used with a P...">PropertyFolderOrProperty</a></code> - don't use this for rendering or anything else. </p>
+
+</div>
+</div>
+<a id="aa9f415737e8c09088241175c81538ea9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9f415737e8c09088241175c81538ea9">&#9670;&nbsp;</a></span>InsertNewPropertyInFolder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classgd_1_1_named_property_descriptor.html">gd::NamedPropertyDescriptor</a> &amp; gd::PropertiesContainer::InsertNewPropertyInFolder </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classgd_1_1_property_folder_or_property.html">gd::PropertyFolderOrProperty</a> &amp;&#160;</td>
+          <td class="paramname"><em>propertyFolderOrProperty</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>position</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add a new empty property called <em>name</em> in the given folder at the specified position.<br  />
+ </p>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the property in the list. </dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="_properties_container_8h_source.html">PropertiesContainer.h</a></li>
+<li>PropertiesContainer.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
