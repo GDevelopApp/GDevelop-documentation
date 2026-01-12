@@ -55,6 +55,8 @@ You will then have 2 choices:
 
     Working at the same time on a project with another user will be progressively introduced to GDevelop in the future.
 
+If you're working as a team, you can also use [project-specific editor settings](/gdevelop5/tutorials/how-to-use-gdevelop-as-a-team/#project-specific-editor-settings) to ensure all collaborators use the same editor preferences.
+
 ## Collaborate locally
 
 If you don't want to use GDevelop Cloud, you can still collaborate on a project by saving it locally and using a version control system like Git.
