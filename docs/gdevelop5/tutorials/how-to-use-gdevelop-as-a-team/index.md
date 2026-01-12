@@ -33,3 +33,27 @@ You then have multiple solutions to work with these multiple files:
 !!! warning
 
     Be sure not to erase someone else work when copying files! A version control system allows avoiding such mistakes by keeping a history of all files. Whatever your solution is, be sure to do **regular backups** of your games.
+
+## Project-specific editor settings
+
+When working as a team, you may want to ensure all developers use the same editor settings while working on a project. You can create a `gdevelop-settings.yaml` file in your project folder (next to your `.json` project file) to define editor preferences that will be applied when anyone opens the project.
+
+Example `gdevelop-settings.yaml`:
+
+```yaml
+autosaveOnPreview: true
+eventsSheetZoomLevel: 10
+```
+
+Examples of available settings are:
+
+* `autosaveOnPreview` - Automatically save before previewing
+* `showDeprecatedInstructionWarning` - Show warnings for deprecated actions/conditions
+* `themeName` - Editor theme name
+* `eventsSheetZoomLevel` - Zoom level for the events sheet
+
+These settings override personal preferences only while the project is open and do not permanently change each developer's preferences. This file works with version control, so your team can share consistent editor settings alongside the game files.
+
+!!! note
+
+    Project-specific settings are only supported in the desktop version of GDevelop.
