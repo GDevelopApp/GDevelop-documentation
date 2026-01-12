@@ -59,3 +59,5 @@ You will then have 2 choices:
 
 If you don't want to use GDevelop Cloud, you can still collaborate on a project by saving it locally and using a version control system like Git.
 Check out the [Git tutorial](/gdevelop5/tutorials/using-github-desktop) for more information.
+
+If you're using the desktop app and working as a team, you can also use [project-specific editor settings](/gdevelop5/tutorials/how-to-use-gdevelop-as-a-team/#project-specific-editor-settings) to ensure all collaborators use the same editor preferences.
