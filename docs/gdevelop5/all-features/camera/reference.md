@@ -19,7 +19,7 @@ Center the camera on the specified object.
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
-    > Technical note: this action internal type (in GDevelop JSON) is `CentreCamera`.
+    > Technical note: this action internal type (in GDevelop JSON) is `CenterCameraOnObject`.
 
 **Layer time scale**  
 Change the time scale applied to the objects of the layer.

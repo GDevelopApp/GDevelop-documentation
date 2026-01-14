@@ -87,17 +87,6 @@ Check if scene resources have finished to load in background.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `AreSceneAssetsLoaded`.
 
-**At the beginning of the scene**  
-Is true only when scene just begins.
-
-??? quote "See parameters & details"
-
-    There are no parameters to set for this condition.
-
-    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
-
-    > Technical note: this condition internal type (in GDevelop JSON) is `DepartScene`.
-
 **Does scene exist**  
 Check if a scene exists.
 
@@ -119,6 +108,17 @@ Check if the game has just resumed from being hidden. It happens when the game t
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `HasGameJustResumed`.
+
+**At the beginning of the scene**  
+Is true only when scene just begins.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this condition.
+
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SceneJustBegins`.
 
 **Scene just resumed**  
 The scene has just resumed after being paused.

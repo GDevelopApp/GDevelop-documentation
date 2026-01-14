@@ -15,7 +15,7 @@ Hide the cursor.
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
-    > Technical note: this action internal type (in GDevelop JSON) is `CacheSouris`.
+    > Technical note: this action internal type (in GDevelop JSON) is `HideCursor`.
 
 **Show the cursor**  
 Show the cursor.
@@ -26,7 +26,7 @@ Show the cursor.
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
-    > Technical note: this action internal type (in GDevelop JSON) is `MontreSouris`.
+    > Technical note: this action internal type (in GDevelop JSON) is `ShowCursor`.
 
 **De/activate moving the mouse cursor with touches**  
 When activated, any touch made on a touchscreen will also move the mouse cursor. When deactivated, mouse and touch positions will be completely independent.  

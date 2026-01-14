@@ -4,28 +4,6 @@ Common features that can be used for all objects in GDevelop. [Read more explana
 
 ## Actions
 
-**Pick a random object**  
-Pick one instance from all the specified objects. When an instance is picked, the next conditions and actions of this event work only on that object instance.
-
-??? quote "See parameters & details"
-
-    - Parameter 1: 👾 Object
-
-    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
-
-    > Technical note: this action internal type (in GDevelop JSON) is `AjoutHasard`.
-
-**Pick all object instances**  
-Pick all instances of the specified object(s). When you pick all instances, the next conditions and actions of this event work on all of them.
-
-??? quote "See parameters & details"
-
-    - Parameter 1: 👾 Object
-
-    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
-
-    > Technical note: this action internal type (in GDevelop JSON) is `AjoutObjConcern`.
-
 **Create an object**  
 Create an instance of the object at the specified position.The created object instance will be available for the next actions and sub-events.
 
@@ -68,6 +46,17 @@ Moves all objects according to the forces they have. GDevelop calls this action 
 
     > Technical note: this action internal type (in GDevelop JSON) is `MoveObjects`.
 
+**Pick all object instances**  
+Pick all instances of the specified object(s). When you pick all instances, the next conditions and actions of this event work on all of them.
+
+??? quote "See parameters & details"
+
+    - Parameter 1: 👾 Object
+
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PickAllInstances`.
+
 **Pick nearest object**  
 Pick the instance of this object that is nearest to the specified position.
 
@@ -79,9 +68,6 @@ Pick the instance of this object that is nearest to the specified position.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PickNearest`.
 
-
-## Conditions
-
 **Pick a random object**  
 Pick one instance from all the specified objects. When an instance is picked, the next conditions and actions of this event work only on that object instance.
 
@@ -91,18 +77,10 @@ Pick one instance from all the specified objects. When an instance is picked, th
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
-    > Technical note: this condition internal type (in GDevelop JSON) is `AjoutHasard`.
+    > Technical note: this action internal type (in GDevelop JSON) is `PickRandomInstance`.
 
-**Pick all object instances**  
-Pick all instances of the specified object(s). When you pick all instances, the next conditions and actions of this event work on all of them.
 
-??? quote "See parameters & details"
-
-    - Parameter 1: 👾 Object
-
-    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
-
-    > Technical note: this condition internal type (in GDevelop JSON) is `AjoutObjConcern`.
+## Conditions
 
 **Collision**  
 Test the collision between two objects using their collision masks.
@@ -131,6 +109,32 @@ If condition is inverted, only objects that have a distance greater than specifi
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Distance`.
 
+**The cursor/touch is on an object**  
+Test if the cursor is over an object, or if the object is being touched.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 2 (❓ Yes or No): Accurate test (yes by default)
+
+    > Technical note: parameters 1, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `IsCursorOnObject`.
+
+**An object is moving toward another (using forces)**  
+Check if an object moves toward another.  
+The first object must move.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1 (👾 Object): Object 2
+    - Parameter 2 (🔢 Number): Tolerance, in degrees
+
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `IsTotalForceAngleTowardObject`.
+
 **An object is turned toward another**  
 Check if an object is turned toward another
 
@@ -144,6 +148,17 @@ Check if an object is turned toward another
 
     > Technical note: this condition internal type (in GDevelop JSON) is `IsTurnedTowardObject`.
 
+**Pick all object instances**  
+Pick all instances of the specified object(s). When you pick all instances, the next conditions and actions of this event work on all of them.
+
+??? quote "See parameters & details"
+
+    - Parameter 1: 👾 Object
+
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PickAllInstances`.
+
 **Pick nearest object**  
 Pick the instance of this object that is nearest to the specified position. If the condition is inverted, the instance farthest from the specified position is picked instead.
 
@@ -156,6 +171,17 @@ Pick the instance of this object that is nearest to the specified position. If t
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PickNearest`.
+
+**Pick a random object**  
+Pick one instance from all the specified objects. When an instance is picked, the next conditions and actions of this event work only on that object instance.
+
+??? quote "See parameters & details"
+
+    - Parameter 1: 👾 Object
+
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PickRandomInstance`.
 
 **Number of object instances currently picked**  
 Compare the number of instances picked by the previous conditions (or actions).
@@ -223,32 +249,6 @@ Compare the number of instances of the specified objects living on the scene.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `SceneInstancesCount`.
 
-**An object is moving toward another (using forces)**  
-Check if an object moves toward another.  
-The first object must move.
-
-??? quote "See parameters & details"
-
-    - Parameter 0: 👾 Object
-    - Parameter 1 (👾 Object): Object 2
-    - Parameter 2 (🔢 Number): Tolerance, in degrees
-
-    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
-
-    > Technical note: this condition internal type (in GDevelop JSON) is `SeDirige`.
-
-**The cursor/touch is on an object**  
-Test if the cursor is over an object, or if the object is being touched.
-
-??? quote "See parameters & details"
-
-    - Parameter 0: 👾 Object
-    - Parameter 2 (❓ Yes or No): Accurate test (yes by default)
-
-    > Technical note: parameters 1, 3 are internal parameters handled by GDevelop.
-
-    > Technical note: this condition internal type (in GDevelop JSON) is `SourisSurObjet`.
-
 
 ## Expressions
 
@@ -294,7 +294,7 @@ Add a force to an object to make it move toward another.
     - Parameter 2 (🔢 Number): Speed (in pixels per second)
     - Parameter 3: forceMultiplier
 
-    > Technical note: this action internal type (in GDevelop JSON) is `AddForceVers`.
+    > Technical note: this action internal type (in GDevelop JSON) is `AddForceTowardObject`.
 
 **Add a force to move toward a position**  
 Add a force to an object to make it move toward a position.
@@ -307,7 +307,7 @@ Add a force to an object to make it move toward a position.
     - Parameter 3 (🔢 Number): Speed (in pixels per second)
     - Parameter 4: forceMultiplier
 
-    > Technical note: this action internal type (in GDevelop JSON) is `AddForceVersPos`.
+    > Technical note: this action internal type (in GDevelop JSON) is `AddForceTowardPosition`.
 
 **Add a force**  
 Add a force to an object. The object will move according to all of the forces it has.
@@ -320,24 +320,6 @@ Add a force to an object. The object will move according to all of the forces it
     - Parameter 3: forceMultiplier
 
     > Technical note: this action internal type (in GDevelop JSON) is `AddForceXY`.
-
-**Stop the object**  
-Stop the object by deleting all of its forces.
-
-??? quote "See parameters & details"
-
-    - Parameter 0: 👾 Object
-
-    > Technical note: this action internal type (in GDevelop JSON) is `Arreter`.
-
-**Hide**  
-Hide the specified object.
-
-??? quote "See parameters & details"
-
-    - Parameter 0: 👾 Object
-
-    > Technical note: this action internal type (in GDevelop JSON) is `Cache`.
 
 **Layer**  
 Move the object to a different layer.
@@ -360,6 +342,15 @@ Modify the Z-order of an object
 
     > Technical note: this action internal type (in GDevelop JSON) is `ChangePlan`.
 
+**Stop the object**  
+Stop the object by deleting all of its forces.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ClearForces`.
+
 **Delete the object**  
 Delete the specified object.
 
@@ -371,65 +362,14 @@ Delete the specified object.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Delete`.
 
-**Put the object around another**  
-Position an object around another, with the specified angle and distance. The center of the objects are used for positioning them.
+**Hide**  
+Hide the specified object.
 
 ??? quote "See parameters & details"
 
     - Parameter 0: 👾 Object
-    - Parameter 1 (👾 Object): "Center" Object
-    - Parameter 2 (🔢 Number): Distance
-    - Parameter 3 (🔢 Number): Angle, in degrees
 
-    > Technical note: this action internal type (in GDevelop JSON) is `MettreAutour`.
-
-**Put around a position**  
-Position the center of the given object around a position, using the specified angle and distance.
-
-??? quote "See parameters & details"
-
-    - Parameter 0: 👾 Object
-    - Parameter 1 (🔢 Number): X position
-    - Parameter 2 (🔢 Number): Y position
-    - Parameter 3 (🔢 Number): Distance
-    - Parameter 4 (🔢 Number): Angle, in degrees
-
-    > Technical note: this action internal type (in GDevelop JSON) is `MettreAutourPos`.
-
-**X position**  
-Change the X position of an object.
-
-??? quote "See parameters & details"
-
-    - Parameter 0: 👾 Object
-    - Parameter 1: 🟰 Operator
-    - Parameter 2 (🔢 Number): Value
-
-    > Technical note: this action internal type (in GDevelop JSON) is `MettreX`.
-
-**Position**  
-Change the position of an object.
-
-??? quote "See parameters & details"
-
-    - Parameter 0: 👾 Object
-    - Parameter 1: 🟰 Operator
-    - Parameter 2 (🔢 Number): X position
-    - Parameter 3: 🟰 Operator
-    - Parameter 4 (🔢 Number): Y position
-
-    > Technical note: this action internal type (in GDevelop JSON) is `MettreXY`.
-
-**Y position**  
-Change the Y position of an object.
-
-??? quote "See parameters & details"
-
-    - Parameter 0: 👾 Object
-    - Parameter 1: 🟰 Operator
-    - Parameter 2 (🔢 Number): Value
-
-    > Technical note: this action internal type (in GDevelop JSON) is `MettreY`.
+    > Technical note: this action internal type (in GDevelop JSON) is `Hide`.
 
 **Change number variable**  
 Modify the number value of an object variable.
@@ -454,17 +394,6 @@ Modify the text of an object variable.
     - Parameter 3 (🔤 String): Value
 
     > Technical note: this action internal type (in GDevelop JSON) is `ModVarObjetTxt`.
-
-**Show**  
-Show the specified object.
-
-??? quote "See parameters & details"
-
-    - Parameter 0: 👾 Object
-
-    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
-
-    > Technical note: this action internal type (in GDevelop JSON) is `Montre`.
 
 **Clear children**  
 Remove all the children from the object array or structure variable.
@@ -585,6 +514,31 @@ Adds a text (string) to the end of an object array variable.
     - Parameter 2 (🔤 String): Text to add
 
     > Technical note: this action internal type (in GDevelop JSON) is `PushStringToObjectVariable`.
+
+**Put the object around another**  
+Position an object around another, with the specified angle and distance. The center of the objects are used for positioning them.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1 (👾 Object): "Center" Object
+    - Parameter 2 (🔢 Number): Distance
+    - Parameter 3 (🔢 Number): Angle, in degrees
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PutAroundObject`.
+
+**Put around a position**  
+Position the center of the given object around a position, using the specified angle and distance.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1 (🔢 Number): X position
+    - Parameter 2 (🔢 Number): Y position
+    - Parameter 3 (🔢 Number): Distance
+    - Parameter 4 (🔢 Number): Angle, in degrees
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PutAroundPosition`.
 
 **Delete an object timer**  
 Delete an object timer from memory.
@@ -778,6 +732,52 @@ Modify the text of an object variable.
 
     > Technical note: this action internal type (in GDevelop JSON) is `SetStringObjectVariable`.
 
+**X position**  
+Change the X position of an object.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SetX`.
+
+**Position**  
+Change the position of an object.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): X position
+    - Parameter 3: 🟰 Operator
+    - Parameter 4 (🔢 Number): Y position
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SetXY`.
+
+**Y position**  
+Change the Y position of an object.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SetY`.
+
+**Show**  
+Show the specified object.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Show`.
+
 **Toggle boolean variable**  
 Toggles the boolean value of an object variable.  
 If it was true, it will become false, and if it was false it will become true.
@@ -812,15 +812,6 @@ Compare the angle, in degrees, of the specified object. For 3D objects, this is 
     - Parameter 2 (🔢 Number): Angle to compare to (in degrees)
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Angle`.
-
-**Object is stopped (no forces applied on it)**  
-Check if an object is not moving
-
-??? quote "See parameters & details"
-
-    - Parameter 0: 👾 Object
-
-    > Technical note: this condition internal type (in GDevelop JSON) is `Arret`.
 
 **Behavior activated**  
 Check if the behavior is activated for the object.
@@ -956,6 +947,15 @@ Compare the elapsed time of an object timer. This condition doesn't start the ti
 
     > Technical note: this condition internal type (in GDevelop JSON) is `CompareObjectTimer`.
 
+**Object is stopped (no forces applied on it)**  
+Check if an object is not moving
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `HasNoForces`.
+
 **Angle of movement (using forces)**  
 Compare the angle of movement of an object according to the forces applied on it.
 
@@ -1033,17 +1033,6 @@ Check if the specified child of the object structure variable exists.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `ObjectVariableChildExists`.
 
-**Z-order**  
-Compare the Z-order of the specified object.
-
-??? quote "See parameters & details"
-
-    - Parameter 0: 👾 Object
-    - Parameter 1: 🟰 Relational operator
-    - Parameter 2 (🔢 Number): Value to compare
-
-    > Technical note: this condition internal type (in GDevelop JSON) is `Plan`.
-
 **X position**  
 Compare the X position of the object.
 
@@ -1065,6 +1054,17 @@ Compare the Y position of an object.
     - Parameter 2 (🔢 Number): Value to compare
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PosY`.
+
+**Speed (from forces)**  
+Compare the overall speed of an object
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `Speed`.
 
 **Object variable value**  
 Compare the text of an object variable.
@@ -1111,8 +1111,8 @@ Check if an object is visible.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `Visible`.
 
-**Speed (from forces)**  
-Compare the overall speed of an object
+**Z-order**  
+Compare the Z-order of the specified object.
 
 ??? quote "See parameters & details"
 
@@ -1120,7 +1120,7 @@ Compare the overall speed of an object
     - Parameter 1: 🟰 Relational operator
     - Parameter 2 (🔢 Number): Value to compare
 
-    > Technical note: this condition internal type (in GDevelop JSON) is `Vitesse`.
+    > Technical note: this condition internal type (in GDevelop JSON) is `ZOrder`.
 
 
 ### Object expressions
