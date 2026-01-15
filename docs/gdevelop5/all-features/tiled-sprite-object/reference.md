@@ -33,6 +33,18 @@ Change the tint of a Tiled Sprite. The default color is white.
 
     > Technical note: this action internal type (in GDevelop JSON) is `TiledSpriteObject::SetColor`.
 
+**Image**  
+Change the image of a Tiled Sprite.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: imageResource
+
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `TiledSpriteObject::SetImageFromResource`.
+
 **Image X Offset**  
 Modify the offset used on the X axis when displaying the image.
 
