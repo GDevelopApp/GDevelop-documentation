@@ -6,7 +6,7 @@ A BBText is an object displaying on the screen a rich text formatted using BBCod
 
 ## BBText 
 
-Displays a rich text label using BBCode markup (allowing to set parts of the text as bold, italic, use different colors and shadows). 
+Formatted text allowing to mix styles using BBCode markup. 
 
 ### Object properties
 

@@ -46,6 +46,84 @@ Compare the duration of the smooth transition between 2 animations (in second).
 
     > Technical note: this condition internal type (in GDevelop JSON) is `SpineObject::SpineObject::Animation`.
 
+**Point attachment local rotation**  
+Compare local rotation of spine point attachment.
+
+??? quote "See parameters & details"
+
+    - Parameter 0 (👾 Object): Spine
+    - Parameter 1 (🔤 String): Attachment name
+    - Parameter 2 (🔤 String): Slot name (use "" if names are the same)
+    - Parameter 3: 🟰 Relational operator
+    - Parameter 4 (🔢 Number): Value to compare
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SpineObject::SpineObject::PointAttachmentRotationLocal`.
+
+**Point attachment world rotation**  
+Compare world rotation of spine point attachment.
+
+??? quote "See parameters & details"
+
+    - Parameter 0 (👾 Object): Spine
+    - Parameter 1 (🔤 String): Attachment name
+    - Parameter 2 (🔤 String): Slot name (use "" if names are the same)
+    - Parameter 3: 🟰 Relational operator
+    - Parameter 4 (🔢 Number): Value to compare
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SpineObject::SpineObject::PointAttachmentRotationWorld`.
+
+**Point attachment scale local X position**  
+Compare local x position of spine point attachment scale.
+
+??? quote "See parameters & details"
+
+    - Parameter 0 (👾 Object): Spine
+    - Parameter 1 (🔤 String): Attachment name
+    - Parameter 2 (🔤 String): Slot name (use "" if names are the same)
+    - Parameter 3: 🟰 Relational operator
+    - Parameter 4 (🔢 Number): Value to compare
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SpineObject::SpineObject::PointAttachmentScaleXLocal`.
+
+**Point attachment scale world X position**  
+Compare world x position of spine point attachment scale.
+
+??? quote "See parameters & details"
+
+    - Parameter 0 (👾 Object): Spine
+    - Parameter 1 (🔤 String): Attachment name
+    - Parameter 2 (🔤 String): Slot name (use "" if names are the same)
+    - Parameter 3: 🟰 Relational operator
+    - Parameter 4 (🔢 Number): Value to compare
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SpineObject::SpineObject::PointAttachmentScaleXWorld`.
+
+**Point attachment scale local Y position**  
+Compare local y position of spine point attachment scale.
+
+??? quote "See parameters & details"
+
+    - Parameter 0 (👾 Object): Spine
+    - Parameter 1 (🔤 String): Attachment name
+    - Parameter 2 (🔤 String): Slot name (use "" if names are the same)
+    - Parameter 3: 🟰 Relational operator
+    - Parameter 4 (🔢 Number): Value to compare
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SpineObject::SpineObject::PointAttachmentScaleYLocal`.
+
+**Point attachment scale world Y position**  
+Compare world y position of spine point attachment scale.
+
+??? quote "See parameters & details"
+
+    - Parameter 0 (👾 Object): Spine
+    - Parameter 1 (🔤 String): Attachment name
+    - Parameter 2 (🔤 String): Slot name (use "" if names are the same)
+    - Parameter 3: 🟰 Relational operator
+    - Parameter 4 (🔢 Number): Value to compare
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SpineObject::SpineObject::PointAttachmentScaleYWorld`.
+
 **Point attachment X position**  
 Compare x position of spine point attachment.
 
@@ -78,6 +156,24 @@ Compare y position of spine point attachment.
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.Animation()` | Return the duration of the smooth transition between 2 animations (in second). ||
+| `Object.PointAttachmentRotationLocal(string, string)` | Return local rotation of spine point attachment. ||
+| | _🔤 String_ | Attachment name |
+| | _🔤 String_ | Slot name (use "" if names are the same) |
+| `Object.PointAttachmentRotationWorld(string, string)` | Return world rotation of spine point attachment. ||
+| | _🔤 String_ | Attachment name |
+| | _🔤 String_ | Slot name (use "" if names are the same) |
+| `Object.PointAttachmentScaleXLocal(string, string)` | Return local x position of spine point attachment scale. ||
+| | _🔤 String_ | Attachment name |
+| | _🔤 String_ | Slot name (use "" if names are the same) |
+| `Object.PointAttachmentScaleXWorld(string, string)` | Return world x position of spine point attachment scale. ||
+| | _🔤 String_ | Attachment name |
+| | _🔤 String_ | Slot name (use "" if names are the same) |
+| `Object.PointAttachmentScaleYLocal(string, string)` | Return local y position of spine point attachment scale. ||
+| | _🔤 String_ | Attachment name |
+| | _🔤 String_ | Slot name (use "" if names are the same) |
+| `Object.PointAttachmentScaleYWorld(string, string)` | Return world y position of spine point attachment scale. ||
+| | _🔤 String_ | Attachment name |
+| | _🔤 String_ | Slot name (use "" if names are the same) |
 | `Object.PointAttachmentX(string, string)` | Return x position of spine point attachment. ||
 | | _🔤 String_ | Attachment name |
 | | _🔤 String_ | Slot name (use "" if names are the same) |
