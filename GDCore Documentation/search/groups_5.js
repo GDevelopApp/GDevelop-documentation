@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['standard_20sprite_20object_20extension_4399',['Standard Sprite Object extension',['../group___sprite_object_extension.html',1,'']]]
+  ['standard_20sprite_20object_20extension_4396',['Standard Sprite Object extension',['../group___sprite_object_extension.html',1,'']]]
 ];
