@@ -23,6 +23,7 @@ GDevelop can also be extended with extensions: take a look at [the list of exten
 |<img src="" class="extension-icon"></img>|**Storage**|Actions and conditions to store data (like the player progress or anything else to be persisted acro...|[Read more...](/gdevelop5/all-features/storage)|
 |<img src="" class="extension-icon"></img>|**Event functions**|Advanced control features for functions made with events....|[Read more...](/gdevelop5/all-features/advanced)|
 |<img src="" class="extension-icon"></img>|**External layouts**|Provides actions and conditions related to external layouts....|[Read more...](/gdevelop5/interface/scene-editor/external-layouts) ([reference](/gdevelop5/all-features/external-layouts))|
+|<img src="" class="extension-icon"></img>|**Shape painter**|An object that can be used to draw arbitrary 2D shapes on the screen using events....|[Read more...](/gdevelop5/objects/shape_painter) ([reference](/gdevelop5/all-features/primitive-drawing))|
 |<img src="" class="extension-icon"></img>|**Linked objects**|These actions and conditions allow to virtually link two objects. It's then useful in the events to ...|[Read more...](/gdevelop5/all-features/linked-objects)|
 |<img src="" class="extension-icon"></img>|**System information**|Conditions to check if the device has a touchscreen, is a mobile, or if the game runs as a preview....|[Read more...](/gdevelop5/all-features/system-info)|
 |<img src="" class="extension-icon"></img>|**Debugger Tools**|Allow to interact with the editor debugger from the game (notably: enable 2D debug draw, log a messa...|[Read more...](/gdevelop5/all-features/debugger-tools)|
@@ -74,7 +75,6 @@ GDevelop can also be extended with extensions: take a look at [the list of exten
 |<img src="" class="extension-icon"></img>|**Objects containing a text**|Allows an object to contain a text, usually shown on screen, that can be modified....|[Read more...](/gdevelop5/objects) ([reference](/gdevelop5/all-features/text-container-capability))|
 |<img src="" class="extension-icon"></img>|**Tiled Sprite Object**|Displays a 2D image in a repeating pattern over an area. Useful for making backgrounds, including ba...|[Read more...](/gdevelop5/objects/tiled_sprite) ([reference](/gdevelop5/all-features/tiled-sprite-object))|
 |<img src="" class="extension-icon"></img>|**Panel Sprite (9-patch) Object**|Panel Sprite, also called 9-patch, is an object showing an image that can be resized by stretching o...|[Read more...](/gdevelop5/objects/panel_sprite) ([reference](/gdevelop5/all-features/panel-sprite-object))|
-|<img src="" class="extension-icon"></img>|**Shape painter**|An object that can be used to draw arbitrary 2D shapes on the screen using events....|[Read more...](/gdevelop5/objects/shape_painter) ([reference](/gdevelop5/all-features/primitive-drawing))|
 |<img src="" class="extension-icon"></img>|**3D**|Support for 3D in GDevelop: this provides 3D objects and the common features for all 3D objects....|[Read more...](/gdevelop5/all-features/scene3d)|
 
 ### Input

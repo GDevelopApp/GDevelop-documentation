@@ -127,7 +127,7 @@ nav:
         - Input Validation: input-validation
         - Language: language
         - Leaderboard dialog: leaderboard-dialog
-        - Panel sprite button: panel-sprite-button
+        - Labeled button: panel-sprite-button
         - Resource bar (continuous): panel-sprite-continuous-bar
         - Slider: panel-sprite-slider
         - Player avatar: player-avatar
