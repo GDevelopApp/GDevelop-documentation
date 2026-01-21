@@ -11,6 +11,7 @@ nav:
         - File system: filesystem
         - Linked objects: linked-objects
         - Screenshot: screenshot
+        - Shape painter: primitive-drawing
         - Spine (experimental): spine-object
         - Storage: storage
         - System information: system-info
@@ -39,7 +40,6 @@ nav:
         - Resizable objects: resizable-capability
         - Scalable objects: scalable-capability
         - Scene: scene
-        - Shape painter: primitive-drawing
         - Sprite: sprite
         - Text manipulation: string-instructions
         - Tiled Sprite Object: tiled-sprite-object

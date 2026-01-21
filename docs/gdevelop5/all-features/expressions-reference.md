@@ -696,7 +696,7 @@ Displays a text on the screen. [Read more explanations about it.](/gdevelop5/obj
 
 ## 2D particles emitter (from extension Particle system)
 
-Displays a large number of small 2D particles to create visual effects in a 2D game or user interface. [Read more explanations about it.](/gdevelop5/objects/particles_emitter)
+2D effects like smoke, fire or sparks. [Read more explanations about it.](/gdevelop5/objects/particles_emitter)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -759,7 +759,7 @@ _No expressions for this behavior._
 
 ## Shape painter 
 
-Allows to draw simple 2D shapes on the screen using the events. [Read more explanations about it.](/gdevelop5/objects/shape_painter)
+Draw basic 2D shapes using events. [Read more explanations about it.](/gdevelop5/objects/shape_painter)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -949,7 +949,7 @@ Provides advanced features related to the game window positioning and interactio
 
 ## BBText (from extension BBCode Text Object)
 
-Displays a rich text label using BBCode markup (allowing to set parts of the text as bold, italic, use different colors and shadows). [Read more explanations about it.](/gdevelop5/objects/bbtext)
+Formatted text allowing to mix styles using BBCode markup. [Read more explanations about it.](/gdevelop5/objects/bbtext)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -965,7 +965,7 @@ Displays a rich text label using BBCode markup (allowing to set parts of the tex
 
 ## Bitmap Text 
 
-Displays a text using a "Bitmap Font" (an image representing characters). This is more performant than a traditional Text object and it allows for complete control on the characters aesthetic. [Read more explanations about it.](/gdevelop5/objects/bitmap_text)
+Image-based text. [Read more explanations about it.](/gdevelop5/objects/bitmap_text)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -1453,6 +1453,24 @@ Display and smoothly animate a 2D object with skeletal animations made with Spin
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.Animation()` | Return the duration of the smooth transition between 2 animations (in second). ||
+| `Object.PointAttachmentRotationLocal(string, string)` | Return local rotation of spine point attachment. ||
+| | _🔤 String_ | Attachment name |
+| | _🔤 String_ | Slot name (use "" if names are the same) |
+| `Object.PointAttachmentRotationWorld(string, string)` | Return world rotation of spine point attachment. ||
+| | _🔤 String_ | Attachment name |
+| | _🔤 String_ | Slot name (use "" if names are the same) |
+| `Object.PointAttachmentScaleXLocal(string, string)` | Return local x position of spine point attachment scale. ||
+| | _🔤 String_ | Attachment name |
+| | _🔤 String_ | Slot name (use "" if names are the same) |
+| `Object.PointAttachmentScaleXWorld(string, string)` | Return world x position of spine point attachment scale. ||
+| | _🔤 String_ | Attachment name |
+| | _🔤 String_ | Slot name (use "" if names are the same) |
+| `Object.PointAttachmentScaleYLocal(string, string)` | Return local y position of spine point attachment scale. ||
+| | _🔤 String_ | Attachment name |
+| | _🔤 String_ | Slot name (use "" if names are the same) |
+| `Object.PointAttachmentScaleYWorld(string, string)` | Return world y position of spine point attachment scale. ||
+| | _🔤 String_ | Attachment name |
+| | _🔤 String_ | Slot name (use "" if names are the same) |
 | `Object.PointAttachmentX(string, string)` | Return x position of spine point attachment. ||
 | | _🔤 String_ | Attachment name |
 | | _🔤 String_ | Slot name (use "" if names are the same) |
@@ -1546,7 +1564,7 @@ _No expressions for this object._
 
 ## Tile map 
 
-Displays a tile-based map. Recommended for most games that need to use static tiles. [Read more explanations about it.](/gdevelop5/objects/tilemap)
+Grid-based map built from reusable tiles. [Read more explanations about it.](/gdevelop5/objects/tilemap)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -1575,7 +1593,7 @@ Displays a tile-based map. Recommended for most games that need to use static ti
 
 ## External Tilemap (Tiled/LDtk) (from extension Tile map)
 
-Displays a tiled-based map, made with the Tiled editor (https://www.mapeditor.org/) or the LDtk editor (https://ldtk.io/). [Read more explanations about it.](/gdevelop5/objects/tilemap)
+Tilemap imported from external editors like LDtk or Tiled. [Read more explanations about it.](/gdevelop5/objects/tilemap)
 
 | Expression | Description |  |
 |-----|-----|-----|

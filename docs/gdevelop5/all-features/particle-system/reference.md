@@ -6,7 +6,7 @@ A 2D particle emitter allows to create various effects by showing a lot of tiny 
 
 ## 2D particles emitter 
 
-Displays a large number of small 2D particles to create visual effects in a 2D game or user interface. 
+2D effects like smoke, fire or sparks. 
 
 ### Object properties
 

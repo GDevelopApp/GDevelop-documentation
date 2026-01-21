@@ -6,7 +6,7 @@ An object that can be used to draw arbitrary 2D shapes on the screen using event
 
 ## Shape painter 
 
-Allows to draw simple 2D shapes on the screen using the events. 
+Draw basic 2D shapes using events. 
 
 ### Object properties
 

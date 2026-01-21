@@ -1,7 +1,7 @@
-# Panel sprite button
+# Labeled button
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Interface Elements/Interface Elements_interface_ui_button_ok_cta_clock_tap.svg" class="extension-icon"></img>
-A button that can be customized.
+A button with a label.
 
 **Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
 
@@ -18,9 +18,9 @@ There are ready-to-use buttons in the asset-store [menu buttons pack](https://ed
 
 
 
-## Button (panel sprite) 
+## Labeled button 
 
-A button that can be customized. 
+Button with a label. 
 
 ### Object properties
 
@@ -154,4 +154,4 @@ Compare the label text.
 
 ---
 
-*This page is an auto-generated reference page about the **Panel sprite button** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Labeled button** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).
