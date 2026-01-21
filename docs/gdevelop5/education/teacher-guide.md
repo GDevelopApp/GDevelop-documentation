@@ -1,6 +1,6 @@
 # GDevelop for Education - Teacher Guide
 
-Welcome to GDevelop for Education! This guide will help you navigate the curriculum and make the most of the resources available to support your teaching.
+Welcome to GDevelop for Education! This guide is a companion to our [Education Overview](index.md) and will help you navigate the curriculum and make the most of the resources available to support your teaching.
 
 ## How to Use the Curriculum
 
@@ -68,3 +68,6 @@ The **self-guided GDevelop Master Course** contains 15 chapters of concept-based
    - **Students behind the cohort** can use relevant chapters to catch up on foundational concepts at their own pace
 
 This approach allows you to maintain classroom momentum while addressing individual learning needs.
+
+---
+**Back to:** [GDevelop for Education Overview](index.md)
