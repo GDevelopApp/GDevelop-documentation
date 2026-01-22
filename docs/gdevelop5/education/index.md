@@ -19,6 +19,7 @@ Once you've purchased the GDevelop for Education plan, these curriculum and extr
 
     For a deep dive into how to structure your classes and manage your curriculum, check out our [Teacher's Guide](teacher-guide.md).
 
+
 ## Getting the Education plan
 
 The Education plan is purchased with at least 5 seats. A seat is either occupied by a teacher account, or a student account.
