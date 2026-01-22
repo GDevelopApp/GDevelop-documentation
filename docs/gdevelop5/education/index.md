@@ -13,7 +13,12 @@ You can read more about [all the benefits that GDevelop and game creation can br
 
 The GDevelop for Education plan gives access to **a curriculum designed by the GDevelop team and by teachers**. It includes multiple ready-to-teach lessons that cover game development theory and step-by-step practical lessons to create full games.
 
-Once you've purchased the GDevelop for Education plan, these curriculum and extra educational resources are accessible from the Teach tab, visible for teachers.
+Once you've purchased the GDevelop for Education plan, these curriculum and extra educational resources are accessible from the Teach tab, visible for teachers. 
+
+!!! tip
+
+    For a deep dive into how to structure your classes and manage your curriculum, check out our [Teacher's Guide](teacher-guide.md).
+
 
 ## Getting the Education plan
 
@@ -120,3 +125,10 @@ The main teacher account is the account that holds the subscription.
 To cancel it, log in to GDevelop with this account, go to "My profile", click "Manage subscription" and finally click on "Cancel subscription".
 
 Your subscription will be still available until the end of the current period (the month or the year depending which period you chose when subscribing).
+
+---
+
+### Further Reading
+
+* [Teacher's Guide: Best practices for your classroom](teacher-guide.md)
+* [GDevelop Education Pricing](https://gdevelop.io/pricing)
