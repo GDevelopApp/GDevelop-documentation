@@ -1,4 +1,8 @@
-# GDevelop for Education - Teacher Guide
+---
+title: Teacher Guide
+---
+
+# Teacher's Guide: Best practices for your classroom
 
 Welcome to GDevelop for Education! This guide is a companion to our [Education Overview](index.md) and will help you navigate the curriculum and make the most of the resources available to support your teaching.
 
