@@ -126,5 +126,6 @@ Your subscription will be still available until the end of the current period (t
 ---
 
 ### Further Reading
+
 * [Teacher's Guide: Best practices for your classroom](teacher-guide.md)
 * [GDevelop Education Pricing](https://gdevelop.io/pricing)
