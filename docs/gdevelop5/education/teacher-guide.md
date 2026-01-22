@@ -68,6 +68,3 @@ The **self-guided GDevelop Master Course** contains 15 chapters of concept-based
    - **Students behind the cohort** can use relevant chapters to catch up on foundational concepts at their own pace
 
 This approach allows you to maintain classroom momentum while addressing individual learning needs.
-
----
-**Back to:** [GDevelop for Education Overview](index.md)
