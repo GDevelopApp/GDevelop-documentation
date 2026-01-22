@@ -15,7 +15,9 @@ The GDevelop for Education plan gives access to **a curriculum designed by the G
 
 Once you've purchased the GDevelop for Education plan, these curriculum and extra educational resources are accessible from the Teach tab, visible for teachers. 
 
-IMPORTANT! For a deep dive into how to structure your classes and manage your curriculum, check out our [Teacher's Guide](teacher-guide.md).
+!!! tip
+
+    For a deep dive into how to structure your classes and manage your curriculum, check out our [Teacher's Guide](teacher-guide.md).
 
 ## Getting the Education plan
 
