@@ -35,7 +35,7 @@ For instance with 10 seats you can have:
 - Access to the GDevelop mobile app (Android tablets and smartphones, iPads and iPhones)
 - Version history for all cloud projects
 
-## Web App vs Desktop App
+## Using the GDevelop online platform
 
 GDevelop is available both as a web application ([editor.gdevelop.io](https://editor.gdevelop.io)) and as a downloadable desktop application. **We highly recommend using the web application** for educational settings:
 
@@ -51,10 +51,6 @@ GDevelop is available both as a web application ([editor.gdevelop.io](https://ed
 !!! warning "Important for IT administrators"
 
     If using the web app on a school network, ensure your administrator allows these domains: `gdevelop.io`, `gdevelop-app.com`, `gd.games`, as well as all domains on [this list](https://github.com/4ian/GDevelop/blob/master/newIDE/README-network.md).
-
-!!! note
-
-    Some institutions have used the desktop version to limit distractions, but this is no longer necessary. Student accounts automatically have a **distraction-free view** that cannot be deactivated (see below). Both web and desktop versions have identical features with no restrictions on student accounts.
 
 ## Teacher accounts: managing students and their work
 
@@ -201,41 +197,18 @@ Each student account has the equivalent of a Gold subscription: **100 cloud proj
 
 The recommended approach is to archive accounts you want to clean up and create new ones. This is safe because archived accounts can be restored if needed, and all projects are preserved for reference.
 
-### Account Management
-
-**How are student accounts created?**
-
-Student accounts are automatically generated with anonymous credentials (disposable email + password). Teachers access an interface in the Teach tab where they can:
-
-- Create multiple accounts at once
-- Optionally add a student's name next to each account for tracking
-- Export credentials as a CSV file
-- Change passwords as needed
-
-Teachers do not need to manually enter each student's email—the system generates everything automatically.
-
-### Examples and Ready-Made Games
-
-**Can students access ready-made games and claim them as their own?**
-
-Students can access example games ("starters") directly in the editor. While they could theoretically submit a starter as their own work, teachers can verify originality by comparing student projects with the available starters in the app. The starters are valuable learning resources that demonstrate coding techniques and game mechanics.
-
 ### Features and Restrictions
 
 **Are any features restricted on student accounts?**
 
 No. Student accounts have **full access** to all game-making features—identical to the web and desktop versions. The only difference is the distraction-free view that hides commercial content, social features, and community games. All actual game development functionality is available.
 
-**We usually use the desktop version to avoid distractions. Is this still necessary?**
-
-No. Student accounts automatically have a **distraction-free view** that hides community games, commercial products, social features, and ads. This view cannot be disabled by students. We recommend using the web app ([editor.gdevelop.io](https://editor.gdevelop.io)) for easier management and automatic updates.
-
 ### Support
 
 **How can I get help or contact the team?**
 
 - For general questions: [education@gdevelop.io](mailto:education@gdevelop.io)
-- For purchase orders (POs) or vendor lists: [education@gdevelop.io](mailto:education@gdevelop.io)
+- For purchase orders (POs): [education@gdevelop.io](mailto:education@gdevelop.io)
 - To book a demo: [gdevelop.io/education](https://gdevelop.io/education)
 
 ---
