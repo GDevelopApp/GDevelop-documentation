@@ -28,7 +28,33 @@ For instance with 10 seats you can have:
 - 1 teacher account;
 - 9 student accounts.
 
-**All accounts benefits from the same perks as a Gold subscription** (see details [here](https://gdevelop.io/pricing)). This includes the possibility for students to work on their project using the GDevelop mobile app, available for Android tablets and smartphones, as well as iPads and iPhone.
+**All accounts benefits from the same perks as a Gold subscription** (see details [here](https://gdevelop.io/pricing)). This means each student gets:
+
+- **100 cloud projects**
+- **Unlimited cloud storage**
+- Access to the GDevelop mobile app (Android tablets and smartphones, iPads and iPhones)
+- Version history for all cloud projects
+
+## Web App vs Desktop App
+
+GDevelop is available both as a web application ([editor.gdevelop.io](https://editor.gdevelop.io)) and as a downloadable desktop application. **We highly recommend using the web application** for educational settings:
+
+| Feature | Web App (Recommended) | Desktop App |
+|---------|----------------------|-------------|
+| Installation | None required - open a browser and start | Requires download and installation |
+| Updates | Always up-to-date automatically | Manual updates required |
+| IT involvement | Minimal - just allow required domains | May need IT for installation |
+| Teacher materials | Always have latest curriculum | May miss new resources if not updated |
+| Bug fixes | Immediate | Only after manual update |
+| Features | Identical to desktop | Identical to web |
+
+!!! warning "Important for IT administrators"
+
+    If using the web app on a school network, ensure your administrator allows these domains: `gdevelop.io`, `gdevelop-app.com`, `gd.games`, as well as all domains on [this list](https://github.com/4ian/GDevelop/blob/master/newIDE/README-network.md).
+
+!!! note
+
+    Some institutions have used the desktop version to limit distractions, but this is no longer necessary. Student accounts automatically have a **distraction-free view** that cannot be deactivated (see below). Both web and desktop versions have identical features with no restrictions on student accounts.
 
 ## Teacher accounts: managing students and their work
 
@@ -53,15 +79,31 @@ Student accounts are fully anonymized accounts which can be administrated by tea
 
     If you have specific needs related to how students should access their accounts (reuse existing emails, SSO, etc...), please reach out to us.
 
-Some concepts in GDevelop's editor have been hidden to student accounts so that they can focus on their work in class:
+### Distraction-free view
 
-- Premium products;
-- Credits;
-- Social networks mentions;
-- Announcements and ads;
-- GDevelop gaming page.
+Student accounts have a **distraction-free view** that students cannot deactivate. This view hides elements that could distract from learning:
 
-Student accounts also have access to the version history feature for Cloud projects: they can go back to any previous save they made.
+- Premium products and commercial assets
+- Credits
+- Social networks mentions
+- Announcements and ads
+- GDevelop gaming page (community-shared games)
+
+### Access to examples and starters
+
+Students **can still access** the built-in examples and starter games. These are valuable learning resources that:
+
+- Demonstrate how to create simple or advanced game mechanics
+- Increase curiosity and creativity
+- Provide inspiration for student projects
+
+!!! info "About ready-made games and starters"
+
+    Students can open, modify, and learn from example games (called "starters") directly in the editor. Teachers and students often appreciate these examples because they demonstrate coding patterns and game mechanics effectively. If you need to verify that a student created original work rather than submitting a modified starter, you can compare their project with the available starters in the app.
+
+### Version history
+
+Student accounts have access to the version history feature for cloud projects: they can go back to any previous save they made. This is useful for recovering from mistakes or exploring different approaches.
 
 ## Manage seats
 
@@ -105,18 +147,33 @@ You can also export account credentials in a CSV file (that can be opened using 
 
 ![Zoom on the "Manage students" features](./manage-students.png)
 
-Here is the recommended way of managing student accounts:
+#### Game and project persistence
 
-- When your account is set up, add the needed teacher accounts.
-- Then create student accounts - very often, you can create all accounts at one, with the number of remaining seats in your account. If you create two many accounts, you can always disable them later.
-- You're ready to teach! Send the credentials for each account to your students and make sure to read our curriculum and educational resources.
-- When the class is done, archive the student accounts (projects and games won't be removed but accounts will be deactivated and students won't have access to them).
-  This action frees seats in your plan.
-- Create brand new accounts for the next class.
+**Projects and games are never automatically deleted.** They remain in the student's cloud storage unless the student manually deletes them. This means:
+
+- Student work is preserved throughout the course
+- Projects remain accessible for grading and review
+- No risk of accidental data loss from timeouts or inactivity
+
+#### Cleaning up accounts between classes
+
+To prepare accounts for a new semester or new students, the recommended approach is to **archive the existing account and create a new one**. This is safer than trying to delete projects because:
+
+- Archived accounts can be unarchived later if needed (e.g., a student returns to class)
+- Projects from archived accounts are preserved in case you need to reference them
+- New students get a fresh, clean account
+
+Here is the recommended workflow for managing student accounts:
+
+1. **Initial setup**: Add the needed teacher accounts.
+2. **Create student accounts**: You can create all accounts at once, up to the number of remaining seats. If you create too many, you can archive unused ones later.
+3. **Teach**: Send credentials to your students and use the curriculum and educational resources.
+4. **End of class**: Archive student accounts. Projects and games are preserved but accounts are deactivated and students lose access. This frees seats in your plan.
+5. **New class**: Create brand new accounts for the next group of students.
 
 !!! tip
 
-    It is possible to activate again a student account that was disabled (for example, in the case of a student joining again your class), but you have to wait 15 days before you can restore them after disabling them.
+    It is possible to reactivate an archived student account (for example, if a student rejoins your class). However, you must wait 15 days after archiving before you can restore an account.
 
 ## Cancel your subscription
 
@@ -128,7 +185,62 @@ Your subscription will be still available until the end of the current period (t
 
 ---
 
-### Further Reading
+## Frequently Asked Questions
+
+### Storage and Projects
+
+**How much storage does each student get?**
+
+Each student account has the equivalent of a Gold subscription: **100 cloud projects** and **unlimited storage**. Students can create multiple games and projects within these limits.
+
+**When are student games deleted?**
+
+**Never automatically.** Projects and games remain in cloud storage indefinitely unless a student manually deletes them. To clean up an account for a new student, archive the old account and create a fresh one.
+
+**Can we easily wipe games from all student accounts?**
+
+The recommended approach is to archive accounts you want to clean up and create new ones. This is safe because archived accounts can be restored if needed, and all projects are preserved for reference.
+
+### Account Management
+
+**How are student accounts created?**
+
+Student accounts are automatically generated with anonymous credentials (disposable email + password). Teachers access an interface in the Teach tab where they can:
+
+- Create multiple accounts at once
+- Optionally add a student's name next to each account for tracking
+- Export credentials as a CSV file
+- Change passwords as needed
+
+Teachers do not need to manually enter each student's email—the system generates everything automatically.
+
+### Examples and Ready-Made Games
+
+**Can students access ready-made games and claim them as their own?**
+
+Students can access example games ("starters") directly in the editor. While they could theoretically submit a starter as their own work, teachers can verify originality by comparing student projects with the available starters in the app. The starters are valuable learning resources that demonstrate coding techniques and game mechanics.
+
+### Features and Restrictions
+
+**Are any features restricted on student accounts?**
+
+No. Student accounts have **full access** to all game-making features—identical to the web and desktop versions. The only difference is the distraction-free view that hides commercial content, social features, and community games. All actual game development functionality is available.
+
+**We usually use the desktop version to avoid distractions. Is this still necessary?**
+
+No. Student accounts automatically have a **distraction-free view** that hides community games, commercial products, social features, and ads. This view cannot be disabled by students. We recommend using the web app ([editor.gdevelop.io](https://editor.gdevelop.io)) for easier management and automatic updates.
+
+### Support
+
+**How can I get help or contact the team?**
+
+- For general questions: [education@gdevelop.io](mailto:education@gdevelop.io)
+- For purchase orders (POs) or vendor lists: [education@gdevelop.io](mailto:education@gdevelop.io)
+- To book a demo: [gdevelop.io/education](https://gdevelop.io/education)
+
+---
+
+## Further Reading
 
 * [Teacher's Guide: Best practices for your classroom](teacher-guide.md)
 * [GDevelop Education Pricing](https://gdevelop.io/pricing)
