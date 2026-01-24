@@ -28,14 +28,9 @@ For instance with 10 seats you can have:
 - 1 teacher account;
 - 9 student accounts.
 
-**All accounts benefits from the same perks as a Gold subscription** (see details [here](https://gdevelop.io/pricing)). This means each student gets:
+**All accounts benefits from the same perks as a Gold subscription** (see details [here](https://gdevelop.io/pricing)). This means each student gets up to 100 cloud projects (with unlimited storage for each), access to the GDevelop mobile app (Android tablets and smartphones, iPads and iPhones), version history for all cloud projects.
 
-- **100 cloud projects**
-- **Unlimited cloud storage**
-- Access to the GDevelop mobile app (Android tablets and smartphones, iPads and iPhones)
-- Version history for all cloud projects
-
-## Using the GDevelop online platform
+### Using the GDevelop online platform
 
 GDevelop is available both as a web application ([editor.gdevelop.io](https://editor.gdevelop.io)) and as a downloadable desktop application. **We highly recommend using the web application** for educational settings:
 
@@ -50,7 +45,7 @@ GDevelop is available both as a web application ([editor.gdevelop.io](https://ed
 
 !!! warning "Important for IT administrators"
 
-    If using the web app on a school network, ensure your administrator allows these domains: `gdevelop.io`, `gdevelop-app.com`, `gd.games`, as well as all domains on [this list](https://github.com/4ian/GDevelop/blob/master/newIDE/README-network.md).
+    Ensure your network firewall allows [all the domains listed on this page](/gdevelop5/getting_started/batch-install-gdevelop-company-university).
 
 ## Teacher accounts: managing students and their work
 
