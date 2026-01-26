@@ -17,7 +17,7 @@ The properties of the behavior can be used to customize:
 - Overheat
 
 The speed can be specified when using the actions to fire the bullets.
-The bullets are automatically given a permanent force to make them move (no need to use a linear movement or move them with another behavior).
+The bullets are automatically given a permanent force to make them move in the 2D plane (no need to use a linear movement or move them with another behavior).
 
 It can be used for:
 
@@ -35,7 +35,7 @@ A simple example shows how to make firing patterns ([open the project online](ht
 
 ## Fire bullets 
 
-Fire bullets, manage ammo, reloading, and overheating. Once added to your object that must shoot, use the behavior action in your events to fire another object as a bullet. This action will also make the bullet move (using a permanent force) at the speed specified in the action. 
+Fire bullets with built-in cooldown, ammo, reloading, and overheating. Once added to your object that must shoot, use the behavior actions to fire another object as a bullet. These actions check all constraints internally (can be called without conditions, they will only fire when ready) and will make the bullet move (using a permanent force). 
 
 ### Behavior properties
 
@@ -79,7 +79,7 @@ Fire bullets, manage ammo, reloading, and overheating. Once added to your object
 ### Behavior actions
 
 **Fire bullets toward an angle**  
-Fire bullets in the direction of a given angle at a specified speed.
+Fire bullets in the direction of a given angle at a specified speed. Call this continuously, the action checks readiness internally — no extra timer or check needed.
 
 ??? quote "See parameters & details"
 
@@ -96,7 +96,7 @@ Fire bullets in the direction of a given angle at a specified speed.
     > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::Fire`.
 
 **Fire bullets toward an object**  
-Fire bullets toward an object at a specified speed.
+Fire bullets toward an object at a specified speed. Call this continuously, the action checks readiness internally — no extra timer or check needed.
 
 ??? quote "See parameters & details"
 
@@ -113,7 +113,7 @@ Fire bullets toward an object at a specified speed.
     > Technical note: this action internal type (in GDevelop JSON) is `FireBullet::FireBullet::FireTowardObject`.
 
 **Fire bullets toward a position**  
-Fire bullets toward a position at a specified speed.
+Fire bullets toward a position at a specified speed. Call this continuously, the action checks readiness internally — no extra timer or check needed.
 
 ??? quote "See parameters & details"
 
