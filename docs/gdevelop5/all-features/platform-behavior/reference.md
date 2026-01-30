@@ -27,14 +27,14 @@ Flag objects as being platforms which characters can run on.
 ### Behavior properties
 
 - **Ledges can be grabbed** (🔘 Boolean). Default value is `true`.
-- **Type** (Choice, one of: "Platform", "Jumpthru platform", "Ladder"). Default value is `Platform`.
+- **Type** (Choice, one of: "NormalPlatform", "Jumpthru", "Ladder"). Default value is `NormalPlatform`.
 - **Grab offset on Y axis** (). Default value is `0`.
 
 ??? quote "See internal technical details"
 
 
     - **Ledges can be grabbed** is stored as `CanBeGrabbed` (Boolean). Default value is `true`.
-    - **Type** is stored as `PlatformType` (Choice). Default value is `Platform`.
+    - **Type** is stored as `PlatformType` (Choice). Default value is `NormalPlatform`.
     - **Grab offset on Y axis** is stored as `YGrabOffset` (). Default value is `0`.
 
 ### Behavior actions

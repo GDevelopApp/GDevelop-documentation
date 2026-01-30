@@ -21,7 +21,7 @@ Move objects left, up, right, and down (and, optionally, diagonally).
 - **Movement angle offset** (🔢 Number, Angle). Usually 0, unless you choose an *Isometry* viewpoint in which case -45 is recommended. Default value is `0`.
 - **Rotate object** (🔘 Boolean). Default value is `true`.
 - **Only use acceleration to turn back (deprecated — best left unchecked)** (🔘 Boolean). Default value is `false`.
-- **Viewpoint** (Choice, one of: "Top-Down", "Isometry 2:1 (26.565°)", "True Isometry (30°)", "Custom Isometry"). Default value is `Top-Down`.
+- **Viewpoint** (Choice, one of: "TopDown", "PixelIsometry", "TrueIsometry", "CustomIsometry"). Default value is `TopDown`.
 
 ??? quote "See internal technical details"
 
@@ -37,7 +37,7 @@ Move objects left, up, right, and down (and, optionally, diagonally).
     - **Movement angle offset** is stored as `MovementAngleOffset` (Number). Unit is DegreeAngle. Default value is `0`.
     - **Rotate object** is stored as `RotateObject` (Boolean). Default value is `true`.
     - **Only use acceleration to turn back (deprecated — best left unchecked)** is stored as `UseLegacyTurnBack` (Boolean). Default value is `false`.
-    - **Viewpoint** is stored as `Viewpoint` (Choice). Default value is `Top-Down`.
+    - **Viewpoint** is stored as `Viewpoint` (Choice). Default value is `TopDown`.
 
 ### Behavior actions
 
