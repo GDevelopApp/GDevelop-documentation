@@ -45,7 +45,10 @@ Returns the opposite of the sub-condition(s) result. This is rarely needed, as m
     > Technical note: this condition internal type (in GDevelop JSON) is `BuiltinCommonInstructions::Not`.
 
 **Trigger once while true**  
-Run actions only once, for each time the conditions have been met.
+Run the actions once when the previous conditions are true. If they become false and later true again, the actions will run again.  
+This condition is always last in the list.
+
+Note: internally, this uses a global trigger state; it's not tracked per object instance. Be careful if you use this in a loop or For Each event (consider using object variables instead if needed).
 
 ??? quote "See parameters & details"
 
