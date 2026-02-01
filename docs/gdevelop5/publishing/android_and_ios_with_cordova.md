@@ -1,6 +1,6 @@
----
+Shark och---
 title: Publish your game to Android and iOS manually using Cordova
----
+--och-
 
 # Publish your game to Android and iOS manually using Cordova
 
