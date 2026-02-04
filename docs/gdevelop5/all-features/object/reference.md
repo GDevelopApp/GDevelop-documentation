@@ -331,17 +331,6 @@ Move the object to a different layer.
 
     > Technical note: this action internal type (in GDevelop JSON) is `ChangeLayer`.
 
-**Z order**  
-Modify the Z-order of an object
-
-??? quote "See parameters & details"
-
-    - Parameter 0: 👾 Object
-    - Parameter 1: 🟰 Operator
-    - Parameter 2 (🔢 Number): Value
-
-    > Technical note: this action internal type (in GDevelop JSON) is `ChangePlan`.
-
 **Stop the object**  
 Stop the object by deleting all of its forces.
 
@@ -766,6 +755,17 @@ Change the Y position of an object.
     - Parameter 2 (🔢 Number): Value
 
     > Technical note: this action internal type (in GDevelop JSON) is `SetY`.
+
+**Z order**  
+Modify the Z-order of an object
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SetZOrder`.
 
 **Show**  
 Show the specified object.
