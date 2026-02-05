@@ -181,6 +181,7 @@ nav:
             - Slot system: slot-system
         - General:
             - Advanced 3D Features: a3f
+            - Advanced structure tools: advanced-structure-tools
             - 3D collision: collision3d
             - Countdown timer (deprecated): countdown-timer
             - JSON Resource Loading: jsonresource-loader
