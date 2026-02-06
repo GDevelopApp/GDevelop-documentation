@@ -116,6 +116,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a140e4005874bd67b3ad0b0e814e82e5a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_custom_object_configuration.html#a140e4005874bd67b3ad0b0e814e82e5a">UpdateProperty</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;value) override</td></tr>
 <tr class="memdesc:a140e4005874bd67b3ad0b0e814e82e5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the IDE wants to update a custom property of the object configuration.  <a href="classgd_1_1_custom_object_configuration.html#a140e4005874bd67b3ad0b0e814e82e5a">More...</a><br /></td></tr>
 <tr class="separator:a140e4005874bd67b3ad0b0e814e82e5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0c3733987476e3758a869a2f8ecd374"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_custom_object_configuration.html#af0c3733987476e3758a869a2f8ecd374">RenameProperty</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;oldName, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;newName) override</td></tr>
+<tr class="memdesc:af0c3733987476e3758a869a2f8ecd374"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the IDE wants to rename a custom property of the object configuration.  <a href="classgd_1_1_custom_object_configuration.html#af0c3733987476e3758a869a2f8ecd374">More...</a><br /></td></tr>
+<tr class="separator:af0c3733987476e3758a869a2f8ecd374"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac465b7e8670b878725c1ecb98be670d1"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>, <a class="el" href="classgd_1_1_property_descriptor.html">gd::PropertyDescriptor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_custom_object_configuration.html#ac465b7e8670b878725c1ecb98be670d1">GetInitialInstanceProperties</a> (const <a class="el" href="classgd_1_1_initial_instance.html">gd::InitialInstance</a> &amp;instance) override</td></tr>
 <tr class="memdesc:ac465b7e8670b878725c1ecb98be670d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the IDE wants to know about the custom properties of an initial instance of this object configuration.  <a href="classgd_1_1_custom_object_configuration.html#ac465b7e8670b878725c1ecb98be670d1">More...</a><br /></td></tr>
 <tr class="separator:ac465b7e8670b878725c1ecb98be670d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -444,6 +447,47 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Assignment operator. Calls Init(). </p>
+
+</div>
+</div>
+<a id="af0c3733987476e3758a869a2f8ecd374"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0c3733987476e3758a869a2f8ecd374">&#9670;&nbsp;</a></span>RenameProperty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CustomObjectConfiguration::RenameProperty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>oldName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>newName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when the IDE wants to rename a custom property of the object configuration. </p>
+<dl class="section return"><dt>Returns</dt><dd>false if properties can't be renamed </dd></dl>
+
+<p>Reimplemented from <a class="el" href="classgd_1_1_object_configuration.html#a213721d7bb7f34ae29c30944ffbe13f7">gd::ObjectConfiguration</a>.</p>
 
 </div>
 </div>

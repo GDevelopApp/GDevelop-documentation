@@ -111,6 +111,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a0b927e955c28f52a8f11193f77888c8b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_behavior_configuration_container.html#a0b927e955c28f52a8f11193f77888c8b">UpdateProperty</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;value)</td></tr>
 <tr class="memdesc:a0b927e955c28f52a8f11193f77888c8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the IDE wants to update a custom property of the behavior.  <a href="classgd_1_1_behavior_configuration_container.html#a0b927e955c28f52a8f11193f77888c8b">More...</a><br /></td></tr>
 <tr class="separator:a0b927e955c28f52a8f11193f77888c8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae30aba545da48a91478f565f8bdca730"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_behavior_configuration_container.html#ae30aba545da48a91478f565f8bdca730">RenameProperty</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;oldName, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;newName)</td></tr>
+<tr class="memdesc:ae30aba545da48a91478f565f8bdca730"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the IDE wants to rename a custom property of the object configuration.  <a href="classgd_1_1_behavior_configuration_container.html#ae30aba545da48a91478f565f8bdca730">More...</a><br /></td></tr>
+<tr class="separator:ae30aba545da48a91478f565f8bdca730"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8115e5bb4f045e1bd77868765c97ba47"><td class="memItemLeft" align="right" valign="top"><a id="a8115e5bb4f045e1bd77868765c97ba47"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_behavior_configuration_container.html#a8115e5bb4f045e1bd77868765c97ba47">InitializeContent</a> ()</td></tr>
 <tr class="memdesc:a8115e5bb4f045e1bd77868765c97ba47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to initialize the content with the default properties for the behavior. <br /></td></tr>
@@ -165,6 +168,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a339f0c1f1bafd2f85479b5ce5421eb83"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_behavior_configuration_container.html#a339f0c1f1bafd2f85479b5ce5421eb83">UpdateProperty</a> (<a class="el" href="classgd_1_1_serializer_element.html">gd::SerializerElement</a> &amp;behaviorContent, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;value)</td></tr>
 <tr class="memdesc:a339f0c1f1bafd2f85479b5ce5421eb83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the IDE wants to update a custom property of the behavior.  <a href="classgd_1_1_behavior_configuration_container.html#a339f0c1f1bafd2f85479b5ce5421eb83">More...</a><br /></td></tr>
 <tr class="separator:a339f0c1f1bafd2f85479b5ce5421eb83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a173ce9bd47a01d29986079aea4c4f563"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_behavior_configuration_container.html#a173ce9bd47a01d29986079aea4c4f563">RenameProperty</a> (<a class="el" href="classgd_1_1_serializer_element.html">gd::SerializerElement</a> &amp;behaviorContent, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;oldName, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;newName)</td></tr>
+<tr class="memdesc:a173ce9bd47a01d29986079aea4c4f563"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the IDE wants to rename a custom property of the object configuration.  <a href="classgd_1_1_behavior_configuration_container.html#a173ce9bd47a01d29986079aea4c4f563">More...</a><br /></td></tr>
+<tr class="separator:a173ce9bd47a01d29986079aea4c4f563"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d4536af0a1f75c41733c1502d545e9f"><td class="memItemLeft" align="right" valign="top"><a id="a5d4536af0a1f75c41733c1502d545e9f"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_behavior_configuration_container.html#a5d4536af0a1f75c41733c1502d545e9f">InitializeContent</a> (<a class="el" href="classgd_1_1_serializer_element.html">gd::SerializerElement</a> &amp;behaviorContent)</td></tr>
 <tr class="memdesc:a5d4536af0a1f75c41733c1502d545e9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to initialize the content with the default properties for the behavior. <br /></td></tr>
@@ -254,6 +260,92 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_property_descriptor.html" title="Used to describe a property shown in a property grid.">gd::PropertyDescriptor</a> </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classgd_1_1_custom_behaviors_shared_data.html#a74de965863292a65bbd49bb43d5eb052">gd::CustomBehaviorsSharedData</a>, and <a class="el" href="classgd_1_1_custom_behavior.html#ac908907b5a9ae5f18fadeaca14f98dba">gd::CustomBehavior</a>.</p>
+
+</div>
+</div>
+<a id="ae30aba545da48a91478f565f8bdca730"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae30aba545da48a91478f565f8bdca730">&#9670;&nbsp;</a></span>RenameProperty() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool gd::BehaviorConfigurationContainer::RenameProperty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>oldName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>newName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when the IDE wants to rename a custom property of the object configuration. </p>
+<dl class="section return"><dt>Returns</dt><dd>false if properties can't be renamed </dd></dl>
+
+</div>
+</div>
+<a id="a173ce9bd47a01d29986079aea4c4f563"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a173ce9bd47a01d29986079aea4c4f563">&#9670;&nbsp;</a></span>RenameProperty() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool gd::BehaviorConfigurationContainer::RenameProperty </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classgd_1_1_serializer_element.html">gd::SerializerElement</a> &amp;&#160;</td>
+          <td class="paramname"><em>behaviorContent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>oldName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>newName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when the IDE wants to rename a custom property of the object configuration. </p>
+<dl class="section return"><dt>Returns</dt><dd>false if properties can't be renamed </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classgd_1_1_custom_behavior.html#aeff3b2af33c9c7671c32dd05455e88da">gd::CustomBehavior</a>.</p>
 
 </div>
 </div>

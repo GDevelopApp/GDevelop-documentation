@@ -110,6 +110,9 @@ const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</t
 <tr class="memitem:aa2d2024bf0204ad5e81c7b341418b29f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_object_configuration.html#aa2d2024bf0204ad5e81c7b341418b29f">UpdateProperty</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;value)</td></tr>
 <tr class="memdesc:aa2d2024bf0204ad5e81c7b341418b29f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the IDE wants to update a custom property of the object configuration.  <a href="classgd_1_1_object_configuration.html#aa2d2024bf0204ad5e81c7b341418b29f">More...</a><br /></td></tr>
 <tr class="separator:aa2d2024bf0204ad5e81c7b341418b29f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a213721d7bb7f34ae29c30944ffbe13f7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_object_configuration.html#a213721d7bb7f34ae29c30944ffbe13f7">RenameProperty</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;oldName, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;newName)</td></tr>
+<tr class="memdesc:a213721d7bb7f34ae29c30944ffbe13f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the IDE wants to rename a custom property of the object configuration.  <a href="classgd_1_1_object_configuration.html#a213721d7bb7f34ae29c30944ffbe13f7">More...</a><br /></td></tr>
+<tr class="separator:a213721d7bb7f34ae29c30944ffbe13f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Drawing and editing initial instances</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Members functions related to drawing and editing initial instances of this object configuration </p>
 </div></td></tr>
@@ -339,6 +342,47 @@ Protected Attributes</h2></td></tr>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_property_descriptor.html" title="Used to describe a property shown in a property grid.">gd::PropertyDescriptor</a> </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classgd_1_1_custom_object_configuration.html#a885755819c8ff83044dbeea816c0efbe">gd::CustomObjectConfiguration</a>, and <a class="el" href="classgd_1_1_sprite_object.html#a4ea52fdd065531daf810b9ab069f0489">gd::SpriteObject</a>.</p>
+
+</div>
+</div>
+<a id="a213721d7bb7f34ae29c30944ffbe13f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a213721d7bb7f34ae29c30944ffbe13f7">&#9670;&nbsp;</a></span>RenameProperty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool gd::ObjectConfiguration::RenameProperty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>oldName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>newName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when the IDE wants to rename a custom property of the object configuration. </p>
+<dl class="section return"><dt>Returns</dt><dd>false if properties can't be renamed </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classgd_1_1_custom_object_configuration.html#af0c3733987476e3758a869a2f8ecd374">gd::CustomObjectConfiguration</a>.</p>
 
 </div>
 </div>
