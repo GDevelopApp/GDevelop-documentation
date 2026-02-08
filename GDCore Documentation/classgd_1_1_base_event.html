@@ -82,7 +82,7 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="_event_8h_source.html">Event.h</a>&gt;</code></p>
 
-<p>Inherited by <a class="el" href="classgd_1_1_async_event.html">gd::AsyncEvent</a>, <a class="el" href="classgd_1_1_comment_event.html">gd::CommentEvent</a>, <a class="el" href="classgd_1_1_empty_event.html">gd::EmptyEvent</a>, <a class="el" href="classgd_1_1_for_each_child_variable_event.html">gd::ForEachChildVariableEvent</a>, <a class="el" href="classgd_1_1_for_each_event.html">gd::ForEachEvent</a>, <a class="el" href="classgd_1_1_group_event.html">gd::GroupEvent</a>, <a class="el" href="classgd_1_1_link_event.html">gd::LinkEvent</a>, <a class="el" href="classgd_1_1_repeat_event.html">gd::RepeatEvent</a>, <a class="el" href="classgd_1_1_standard_event.html">gd::StandardEvent</a>, and <a class="el" href="classgd_1_1_while_event.html">gd::WhileEvent</a>.</p>
+<p>Inherited by <a class="el" href="classgd_1_1_async_event.html">gd::AsyncEvent</a>, <a class="el" href="classgd_1_1_comment_event.html">gd::CommentEvent</a>, <a class="el" href="classgd_1_1_else_event.html">gd::ElseEvent</a>, <a class="el" href="classgd_1_1_empty_event.html">gd::EmptyEvent</a>, <a class="el" href="classgd_1_1_for_each_child_variable_event.html">gd::ForEachChildVariableEvent</a>, <a class="el" href="classgd_1_1_for_each_event.html">gd::ForEachEvent</a>, <a class="el" href="classgd_1_1_group_event.html">gd::GroupEvent</a>, <a class="el" href="classgd_1_1_link_event.html">gd::LinkEvent</a>, <a class="el" href="classgd_1_1_repeat_event.html">gd::RepeatEvent</a>, <a class="el" href="classgd_1_1_standard_event.html">gd::StandardEvent</a>, and <a class="el" href="classgd_1_1_while_event.html">gd::WhileEvent</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -236,7 +236,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Derived class have to redefine this function, so as to return true, if they have sub events. </p>
 
-<p>Reimplemented in <a class="el" href="classgd_1_1_while_event.html#ac2a213713fc0249622618d50fe79536e">gd::WhileEvent</a>, <a class="el" href="classgd_1_1_standard_event.html#ace14261e5248d41ca68c85b2bb9d1fb8">gd::StandardEvent</a>, <a class="el" href="classgd_1_1_repeat_event.html#a366e6294acfd6d856a0e2941c1e622c9">gd::RepeatEvent</a>, <a class="el" href="classgd_1_1_group_event.html#a831ff2e906995193e9ead335585a2799">gd::GroupEvent</a>, <a class="el" href="classgd_1_1_for_each_event.html#ae26ee76e1cda6fa8b96abdd0459400fd">gd::ForEachEvent</a>, <a class="el" href="classgd_1_1_for_each_child_variable_event.html#a0ead4f654aa3956b12f160ca0e10a407">gd::ForEachChildVariableEvent</a>, and <a class="el" href="classgd_1_1_async_event.html#a19188fb5f4301d436dc9bfd94db1006c">gd::AsyncEvent</a>.</p>
+<p>Reimplemented in <a class="el" href="classgd_1_1_while_event.html#ac2a213713fc0249622618d50fe79536e">gd::WhileEvent</a>, <a class="el" href="classgd_1_1_standard_event.html#ace14261e5248d41ca68c85b2bb9d1fb8">gd::StandardEvent</a>, <a class="el" href="classgd_1_1_repeat_event.html#a366e6294acfd6d856a0e2941c1e622c9">gd::RepeatEvent</a>, <a class="el" href="classgd_1_1_group_event.html#a831ff2e906995193e9ead335585a2799">gd::GroupEvent</a>, <a class="el" href="classgd_1_1_for_each_event.html#ae26ee76e1cda6fa8b96abdd0459400fd">gd::ForEachEvent</a>, <a class="el" href="classgd_1_1_for_each_child_variable_event.html#a0ead4f654aa3956b12f160ca0e10a407">gd::ForEachChildVariableEvent</a>, <a class="el" href="classgd_1_1_else_event.html#a2f812ef90a7fe9ce5e13a1dd6fd0e9e0">gd::ElseEvent</a>, and <a class="el" href="classgd_1_1_async_event.html#a19188fb5f4301d436dc9bfd94db1006c">gd::AsyncEvent</a>.</p>
 
 </div>
 </div>
@@ -264,7 +264,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Derived class have to redefine this function, so as to return true, if they can have local variables. </p>
 
-<p>Reimplemented in <a class="el" href="classgd_1_1_standard_event.html#aab7ff776c591cbe4170d37e5fd4d4d7f">gd::StandardEvent</a>.</p>
+<p>Reimplemented in <a class="el" href="classgd_1_1_standard_event.html#aab7ff776c591cbe4170d37e5fd4d4d7f">gd::StandardEvent</a>, and <a class="el" href="classgd_1_1_else_event.html#a2e87d05857cc8ca29b473387f784aeec">gd::ElseEvent</a>.</p>
 
 </div>
 </div>
@@ -293,7 +293,7 @@ Public Attributes</h2></td></tr>
 <p>Must return a pointer to a copy of the event. A such method is needed as the IDE may want to store copies of some events and so need a way to do polymorphic copies.</p>
 <p>Typical implementation example: </p><div class="fragment"><div class="line"><span class="keywordflow">return</span> <span class="keyword">new</span> MyEventClass(*<span class="keyword">this</span>);</div>
 </div><!-- fragment --> 
-<p>Reimplemented in <a class="el" href="classgd_1_1_link_event.html#a1d0bc7dc7489a20ddf0d75d9485ea716">gd::LinkEvent</a>, <a class="el" href="classgd_1_1_while_event.html#af64be6530a11d78cd17ee170524cd0ea">gd::WhileEvent</a>, <a class="el" href="classgd_1_1_standard_event.html#a562cd062ec5f42d310b54de7e0ada10f">gd::StandardEvent</a>, <a class="el" href="classgd_1_1_repeat_event.html#a639c33f1751fdacdbacb2e1328b8dbdf">gd::RepeatEvent</a>, <a class="el" href="classgd_1_1_group_event.html#a667c57999a355e3c4bb279a092aecff5">gd::GroupEvent</a>, <a class="el" href="classgd_1_1_for_each_event.html#a88272031d1c6e12b7464a98f5693374c">gd::ForEachEvent</a>, <a class="el" href="classgd_1_1_for_each_child_variable_event.html#a4c791927bde0b12938c92c58012ca7ad">gd::ForEachChildVariableEvent</a>, <a class="el" href="classgd_1_1_comment_event.html#a5e603a34e221ae619c5364fc33e1f1a4">gd::CommentEvent</a>, and <a class="el" href="classgd_1_1_async_event.html#a6c62663486917230993aa35756ca03bc">gd::AsyncEvent</a>.</p>
+<p>Reimplemented in <a class="el" href="classgd_1_1_link_event.html#a1d0bc7dc7489a20ddf0d75d9485ea716">gd::LinkEvent</a>, <a class="el" href="classgd_1_1_while_event.html#af64be6530a11d78cd17ee170524cd0ea">gd::WhileEvent</a>, <a class="el" href="classgd_1_1_standard_event.html#a562cd062ec5f42d310b54de7e0ada10f">gd::StandardEvent</a>, <a class="el" href="classgd_1_1_repeat_event.html#a639c33f1751fdacdbacb2e1328b8dbdf">gd::RepeatEvent</a>, <a class="el" href="classgd_1_1_group_event.html#a667c57999a355e3c4bb279a092aecff5">gd::GroupEvent</a>, <a class="el" href="classgd_1_1_for_each_event.html#a88272031d1c6e12b7464a98f5693374c">gd::ForEachEvent</a>, <a class="el" href="classgd_1_1_for_each_child_variable_event.html#a4c791927bde0b12938c92c58012ca7ad">gd::ForEachChildVariableEvent</a>, <a class="el" href="classgd_1_1_else_event.html#ad8925b9b1efec637c2ff64efd2d12d45">gd::ElseEvent</a>, <a class="el" href="classgd_1_1_comment_event.html#a5e603a34e221ae619c5364fc33e1f1a4">gd::CommentEvent</a>, and <a class="el" href="classgd_1_1_async_event.html#a6c62663486917230993aa35756ca03bc">gd::AsyncEvent</a>.</p>
 
 </div>
 </div>
@@ -363,7 +363,7 @@ Public Attributes</h2></td></tr>
 <p>Return a list of all actions of the event. </p>
 <dl class="section note"><dt>Note</dt><dd>Used to preprocess or search in the actions. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classgd_1_1_while_event.html#a04ab9f03cc22fba3b4a729cd022f9e90">gd::WhileEvent</a>, <a class="el" href="classgd_1_1_standard_event.html#a035713c18f3d3d0cb8d5838e9ba286ec">gd::StandardEvent</a>, <a class="el" href="classgd_1_1_repeat_event.html#a82ccbbfaacc285d6394ae284276b4457">gd::RepeatEvent</a>, <a class="el" href="classgd_1_1_for_each_event.html#a9fac54e448a421aab5022038ad51df1f">gd::ForEachEvent</a>, <a class="el" href="classgd_1_1_for_each_child_variable_event.html#a2a8ba7a1d6b83939137b9589096136cb">gd::ForEachChildVariableEvent</a>, and <a class="el" href="classgd_1_1_async_event.html#a1e915fa400458568319d6b21d58282d1">gd::AsyncEvent</a>.</p>
+<p>Reimplemented in <a class="el" href="classgd_1_1_while_event.html#a04ab9f03cc22fba3b4a729cd022f9e90">gd::WhileEvent</a>, <a class="el" href="classgd_1_1_standard_event.html#a035713c18f3d3d0cb8d5838e9ba286ec">gd::StandardEvent</a>, <a class="el" href="classgd_1_1_repeat_event.html#a82ccbbfaacc285d6394ae284276b4457">gd::RepeatEvent</a>, <a class="el" href="classgd_1_1_for_each_event.html#a9fac54e448a421aab5022038ad51df1f">gd::ForEachEvent</a>, <a class="el" href="classgd_1_1_for_each_child_variable_event.html#a2a8ba7a1d6b83939137b9589096136cb">gd::ForEachChildVariableEvent</a>, <a class="el" href="classgd_1_1_else_event.html#a6684acd2cf9ada96719f61853a3cd76a">gd::ElseEvent</a>, and <a class="el" href="classgd_1_1_async_event.html#a1e915fa400458568319d6b21d58282d1">gd::AsyncEvent</a>.</p>
 
 </div>
 </div>
@@ -393,7 +393,7 @@ Public Attributes</h2></td></tr>
 <p>Return a list of all conditions of the event. </p>
 <dl class="section note"><dt>Note</dt><dd>Used to preprocess or search in the conditions. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classgd_1_1_while_event.html#a679e1011d837a58241207039476d432b">gd::WhileEvent</a>, <a class="el" href="classgd_1_1_standard_event.html#a2ab13444a597a24e1899ac074bbcd8a0">gd::StandardEvent</a>, <a class="el" href="classgd_1_1_repeat_event.html#a5f120abd9d8176cf0bc5e614a3b6ca64">gd::RepeatEvent</a>, <a class="el" href="classgd_1_1_for_each_event.html#ad5d730eeac1de0b3d4a381c983699bb4">gd::ForEachEvent</a>, and <a class="el" href="classgd_1_1_for_each_child_variable_event.html#a1451ad691829d7bd660ecb3c3d118cbd">gd::ForEachChildVariableEvent</a>.</p>
+<p>Reimplemented in <a class="el" href="classgd_1_1_while_event.html#a679e1011d837a58241207039476d432b">gd::WhileEvent</a>, <a class="el" href="classgd_1_1_standard_event.html#a2ab13444a597a24e1899ac074bbcd8a0">gd::StandardEvent</a>, <a class="el" href="classgd_1_1_repeat_event.html#a5f120abd9d8176cf0bc5e614a3b6ca64">gd::RepeatEvent</a>, <a class="el" href="classgd_1_1_for_each_event.html#ad5d730eeac1de0b3d4a381c983699bb4">gd::ForEachEvent</a>, <a class="el" href="classgd_1_1_for_each_child_variable_event.html#a1451ad691829d7bd660ecb3c3d118cbd">gd::ForEachChildVariableEvent</a>, and <a class="el" href="classgd_1_1_else_event.html#a6830afdac802f6e3ce48dc0da36d8016">gd::ElseEvent</a>.</p>
 
 </div>
 </div>
@@ -481,7 +481,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Return the sub events, if applicable. </p>
 
-<p>Reimplemented in <a class="el" href="classgd_1_1_while_event.html#a5b9b2d85b3ce41818896f3a93d51cfd9">gd::WhileEvent</a>, <a class="el" href="classgd_1_1_standard_event.html#aa49109a5dd779d98c971b49a62afcb51">gd::StandardEvent</a>, <a class="el" href="classgd_1_1_repeat_event.html#a025e2a92044ce32313d4e0f25aa5ccc3">gd::RepeatEvent</a>, <a class="el" href="classgd_1_1_group_event.html#a200e38bf3c636a7542f063fd2f3e4d5a">gd::GroupEvent</a>, <a class="el" href="classgd_1_1_for_each_event.html#a0361b570495b269265fa15c46dfefbc6">gd::ForEachEvent</a>, <a class="el" href="classgd_1_1_for_each_child_variable_event.html#aa8f64a50396baf928ac9bfd818ad2c7a">gd::ForEachChildVariableEvent</a>, and <a class="el" href="classgd_1_1_async_event.html#a7d5fec0ba3cf6c44f4fae1857fa5cada">gd::AsyncEvent</a>.</p>
+<p>Reimplemented in <a class="el" href="classgd_1_1_while_event.html#a5b9b2d85b3ce41818896f3a93d51cfd9">gd::WhileEvent</a>, <a class="el" href="classgd_1_1_standard_event.html#aa49109a5dd779d98c971b49a62afcb51">gd::StandardEvent</a>, <a class="el" href="classgd_1_1_repeat_event.html#a025e2a92044ce32313d4e0f25aa5ccc3">gd::RepeatEvent</a>, <a class="el" href="classgd_1_1_group_event.html#a200e38bf3c636a7542f063fd2f3e4d5a">gd::GroupEvent</a>, <a class="el" href="classgd_1_1_for_each_event.html#a0361b570495b269265fa15c46dfefbc6">gd::ForEachEvent</a>, <a class="el" href="classgd_1_1_for_each_child_variable_event.html#aa8f64a50396baf928ac9bfd818ad2c7a">gd::ForEachChildVariableEvent</a>, <a class="el" href="classgd_1_1_else_event.html#a73cb79575f23ec4b8a4fb74e0c84b950">gd::ElseEvent</a>, and <a class="el" href="classgd_1_1_async_event.html#a7d5fec0ba3cf6c44f4fae1857fa5cada">gd::AsyncEvent</a>.</p>
 
 </div>
 </div>
@@ -509,7 +509,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Return the sub events, if applicable. </p>
 
-<p>Reimplemented in <a class="el" href="classgd_1_1_while_event.html#aafd294a3cf05a4d7538cf70d934ec8ee">gd::WhileEvent</a>, <a class="el" href="classgd_1_1_standard_event.html#a83122bf4b6920f9f7df3e583db00513f">gd::StandardEvent</a>, <a class="el" href="classgd_1_1_repeat_event.html#a387ee7f8d8f0db7ac3a8e59c31fabb51">gd::RepeatEvent</a>, <a class="el" href="classgd_1_1_group_event.html#a9fbf2b2ae9ffc2153fc97dd258187ff4">gd::GroupEvent</a>, <a class="el" href="classgd_1_1_for_each_event.html#a81e82b0ed550a846aef713fae8db2c50">gd::ForEachEvent</a>, <a class="el" href="classgd_1_1_for_each_child_variable_event.html#a73c5f4e2c75c61d97d9c6d60e98a480e">gd::ForEachChildVariableEvent</a>, and <a class="el" href="classgd_1_1_async_event.html#afe8dea6998223ab5973c5da10374f62f">gd::AsyncEvent</a>.</p>
+<p>Reimplemented in <a class="el" href="classgd_1_1_while_event.html#aafd294a3cf05a4d7538cf70d934ec8ee">gd::WhileEvent</a>, <a class="el" href="classgd_1_1_standard_event.html#a83122bf4b6920f9f7df3e583db00513f">gd::StandardEvent</a>, <a class="el" href="classgd_1_1_repeat_event.html#a387ee7f8d8f0db7ac3a8e59c31fabb51">gd::RepeatEvent</a>, <a class="el" href="classgd_1_1_group_event.html#a9fbf2b2ae9ffc2153fc97dd258187ff4">gd::GroupEvent</a>, <a class="el" href="classgd_1_1_for_each_event.html#a81e82b0ed550a846aef713fae8db2c50">gd::ForEachEvent</a>, <a class="el" href="classgd_1_1_for_each_child_variable_event.html#a73c5f4e2c75c61d97d9c6d60e98a480e">gd::ForEachChildVariableEvent</a>, <a class="el" href="classgd_1_1_else_event.html#af7616a31d18dadc7c9cd35c6e79cda62">gd::ElseEvent</a>, and <a class="el" href="classgd_1_1_async_event.html#afe8dea6998223ab5973c5da10374f62f">gd::AsyncEvent</a>.</p>
 
 </div>
 </div>
@@ -537,7 +537,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Return the local variables, if applicable. </p>
 
-<p>Reimplemented in <a class="el" href="classgd_1_1_standard_event.html#ae00d2cdf0cfe40ab773d17e8fd5667e4">gd::StandardEvent</a>.</p>
+<p>Reimplemented in <a class="el" href="classgd_1_1_standard_event.html#ae00d2cdf0cfe40ab773d17e8fd5667e4">gd::StandardEvent</a>, and <a class="el" href="classgd_1_1_else_event.html#aea547b0eb257a6080a3137851afc6c4f">gd::ElseEvent</a>.</p>
 
 </div>
 </div>
@@ -565,7 +565,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Return the local variables, if applicable. </p>
 
-<p>Reimplemented in <a class="el" href="classgd_1_1_standard_event.html#ac3744baf26e56261709c9e60561ce8cf">gd::StandardEvent</a>.</p>
+<p>Reimplemented in <a class="el" href="classgd_1_1_standard_event.html#ac3744baf26e56261709c9e60561ce8cf">gd::StandardEvent</a>, and <a class="el" href="classgd_1_1_else_event.html#ae3472cd93f83c37502445d658c39993e">gd::ElseEvent</a>.</p>
 
 </div>
 </div>
@@ -633,7 +633,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Derived class have to redefine this function, so as to return true, if they are executable. </p>
 
-<p>Reimplemented in <a class="el" href="classgd_1_1_link_event.html#ac6449ee90590011e778934221f96778d">gd::LinkEvent</a>, <a class="el" href="classgd_1_1_while_event.html#a30c746bff3ce8237a65405ed7ff9f3cc">gd::WhileEvent</a>, <a class="el" href="classgd_1_1_standard_event.html#a54369b234f5ab0b6bcfe6867740ef795">gd::StandardEvent</a>, <a class="el" href="classgd_1_1_repeat_event.html#ac0d5245735baf5a356d762fe5abb8640">gd::RepeatEvent</a>, <a class="el" href="classgd_1_1_group_event.html#a68edf90cfc8eaf7b901d99026dbafef7">gd::GroupEvent</a>, <a class="el" href="classgd_1_1_for_each_event.html#a438aa4b616df085427203511e1bc71fa">gd::ForEachEvent</a>, <a class="el" href="classgd_1_1_for_each_child_variable_event.html#aa17a75e6651a8339166a6bfc93661361">gd::ForEachChildVariableEvent</a>, and <a class="el" href="classgd_1_1_async_event.html#a2ef23186363bd65ecfa170b897dbc189">gd::AsyncEvent</a>.</p>
+<p>Reimplemented in <a class="el" href="classgd_1_1_link_event.html#ac6449ee90590011e778934221f96778d">gd::LinkEvent</a>, <a class="el" href="classgd_1_1_while_event.html#a30c746bff3ce8237a65405ed7ff9f3cc">gd::WhileEvent</a>, <a class="el" href="classgd_1_1_standard_event.html#a54369b234f5ab0b6bcfe6867740ef795">gd::StandardEvent</a>, <a class="el" href="classgd_1_1_repeat_event.html#ac0d5245735baf5a356d762fe5abb8640">gd::RepeatEvent</a>, <a class="el" href="classgd_1_1_group_event.html#a68edf90cfc8eaf7b901d99026dbafef7">gd::GroupEvent</a>, <a class="el" href="classgd_1_1_for_each_event.html#a438aa4b616df085427203511e1bc71fa">gd::ForEachEvent</a>, <a class="el" href="classgd_1_1_for_each_child_variable_event.html#aa17a75e6651a8339166a6bfc93661361">gd::ForEachChildVariableEvent</a>, <a class="el" href="classgd_1_1_else_event.html#a7884555869616742a428fc7f33d4eab8">gd::ElseEvent</a>, and <a class="el" href="classgd_1_1_async_event.html#a2ef23186363bd65ecfa170b897dbc189">gd::AsyncEvent</a>.</p>
 
 </div>
 </div>
