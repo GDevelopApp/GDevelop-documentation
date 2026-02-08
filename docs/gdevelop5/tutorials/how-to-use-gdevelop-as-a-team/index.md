@@ -41,8 +41,9 @@ When working as a team, you may want to ensure all developers use the same edito
 Example `gdevelop-settings.yaml`:
 
 ```yaml
-autosaveOnPreview: true
-eventsSheetZoomLevel: 10
+preferences:
+  autosaveOnPreview: true
+  eventsSheetZoomLevel: 10
 ```
 
 Examples of available settings are:
