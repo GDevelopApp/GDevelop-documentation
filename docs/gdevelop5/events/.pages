@@ -1,6 +1,7 @@
 nav:
-    - "About Object Picking": object-picking    
+    - "About Object Picking": object-picking
     - "Default Events": standard
+    - "Else Events": else
     - ...
     - "For Each Object": foreach
     - "For Each Child Variable": foreach-child-variable
