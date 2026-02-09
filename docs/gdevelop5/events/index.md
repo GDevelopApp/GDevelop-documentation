@@ -129,6 +129,7 @@ Sub-events appear nested within their parent events.
 This section lists the different types of events, each useful for adding logic to your game. If you're not familiar with events, refer to the previous sections.
 
 - [Standard events](/gdevelop5/events/standard)
+- [Else events](/gdevelop5/events/else)
 - [For each object events](/gdevelop5/events/foreach)
 - [For each child variable events](/gdevelop5/events/foreach-child-variable)
 - [Repeat events](/gdevelop5/events/repeat)
