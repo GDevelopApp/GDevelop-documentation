@@ -3,9 +3,11 @@ title: Else events
 ---
 # Else events
 
-Else events are [events](/gdevelop5/events) that run only when the preceding event's conditions were **not** satisfied. This provides traditional "if/else" branching logic in the events sheet.
+Else events are [events](/gdevelop5/events) that run only when the preceding event's conditions were **not** satisfied. This is akin to traditional "if/else" in programming languages.
 
-If the preceding event's conditions are true and its actions run, the Else event is skipped. If the preceding event's conditions are not met, the Else event executes its actions instead.
+If the preceding event's conditions are true and its actions run, the Else event is skipped. If the preceding event's conditions are not met, the Else event executes its conditions (if any) and its actions instead.
+
+[Object picking](/gdevelop5/events/object-picking) works the same as for a usual event: objects picked by the conditions of the previous event are not remembered. The conditions of the Else event restart from the same state as any other event.
 
 ## Else events with conditions (Else-If)
 
@@ -15,7 +17,7 @@ You can chain multiple Else events one after another to create an if / else-if /
 
 ## How to add this event
 
-Right click (or long press) on an existing [event](/gdevelop5/events) and choose *"Add Other"* in the menu. Then, select *"Else event"*.
+Right click (or long press) on an existing [event](/gdevelop5/events) and choose *"Add Other"* in the menu. Then, select *"Else"*.
 Alternatively, click on the *"Plus" icon* in the toolbar or on *"Add..."* at the bottom of the events sheet.
 
 !!! note
