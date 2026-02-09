@@ -7,7 +7,11 @@ Else events are [events](/gdevelop5/events) that run only when the preceding eve
 
 If the preceding event's conditions are true and its actions run, the Else event is skipped. If the preceding event's conditions are not met, the Else event executes its conditions (if any) and its actions instead.
 
-[Object picking](/gdevelop5/events/object-picking) works the same as for a usual event: objects picked by the conditions of the previous event are not remembered or transferred in any way. The conditions of the Else event restart from the same state as any other event.
+
+!!! note
+    
+    [Object picking](/gdevelop5/events/object-picking) works the same as for a usual event: objects picked by the conditions of the previous event are not remembered or transferred in any way. The conditions of the Else event restart from the same state as any other event.
+
 
 ## Else events with conditions (Else-If)
 
