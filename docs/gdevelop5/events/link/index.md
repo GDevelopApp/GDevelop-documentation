@@ -11,7 +11,7 @@ Link events are event blocks that link logic from external events or other scene
 
     If you want to do reuse events for an object or a specific feature, you will be interested in [creating an extension with actions, conditions or even new behaviors or objects](/gdevelop5/extensions/create).
 
-To create a link event, either click the "Add" at the bottom right side of the event sheet or right click on an existing event and open the drop-down menu for "Add Other", and then select "Link external events".
+To create a link event, either click the "Add" at the bottom right side of the event sheet or right click on an existing event and open the drop-down menu for "Add", and then select "Link external events".
 
 ![](./pasted/20230313-201145.png)
 

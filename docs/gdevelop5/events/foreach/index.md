@@ -11,7 +11,7 @@ A "For Each" event is a special [event](/gdevelop5/events) that takes an object 
 
 ## How to add this event
 
-Right click (or long press) on an existing [event](/gdevelop5/events) and choose *"Add Other"* in the menu. Then, select the event you want to add.
+Right click (or long press) on an existing [event](/gdevelop5/events) and choose *"Add"* in the menu. Then, select the event you want to add.
 Alternatively, click on the *"Plus" icon* in the toolbar or on *"Add..."* at the bottom of the events sheet.
 
 ## When to use it
