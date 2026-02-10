@@ -17,6 +17,7 @@ This extension adds features to the built-in 3D.
 - Lighting
 - Light color and intensity control
 - Shadows
+- 3D sound
 - Local translation and rotation
 - Blend modes
 - Opacity
@@ -452,6 +453,35 @@ Note that if a morph target is affected by a playing animation, it will override
 
     > Technical note: this action internal type (in GDevelop JSON) is `A3F::ResetMorphTargets`.
 
+**👂️Set listener for camera**  
+Set a listener on the 3D camera.  
+Only one listener can exist in the scene at any time.
+Each time the scene starts, the listener is automatically set on the base layer’s camera.
+
+??? quote "See parameters & details"
+
+    - Parameter 1: 🔤 Layer name (String)
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::SetListenerForCamera`.
+
+**👂️Set listener for object**  
+Set a listener at the center point of the first 3D object found.  
+This listener assumes that forward is X+, up is Z+, and right is Y+.
+Therefore, if the object on which the listener is set is unrotated, it must have X+ as forward, Z+ as up, and Y+ as right; otherwise, the sound will not be heard from the correct direction.
+Only one listener can exist in the scene at any time.
+Each time the scene starts, the listener is automatically set on the base layer’s camera.
+
+??? quote "See parameters & details"
+
+    - Parameter 1: 👾 Object
+    - Parameter 2 (🧩 Behavior): 3D capability
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::SetListenerForObject`.
+
 
 ## Conditions
 
@@ -505,9 +535,9 @@ Use this when you want to set the initial properties of a 3D object.
 
 - **Axes helper** (🔘 Boolean). Default value is `false`.
 - **Blend mode** (Choice, one of: "Keep model blend mode", "Normal", "Additive", "Subtractive", "Multiply"). This affects all 3d objects that use the same material. Default value is `Keep model blend mode`.
-- **Cast Shadow** (🔘 Boolean). If both "Cast Shadow" and "Receive Shadow" are enabled, striped patterns are likely to occur in the shadow. Default value is `false`.
+- **⚠ Cast Shadow** (🔘 Boolean). This property is deprecated and no longer works. Please use the Shadow casting property of the object's lighting instead. If both "Cast Shadow" and "Receive Shadow" are enabled, striped patterns are likely to occur in the shadow. Default value is `false`.
 - **Opacity (0 to 255)** (🔢 Number). This affects all 3d objects that use the same material. Default value is `255`.
-- **Receive Shadow** (🔘 Boolean). If both "Cast Shadow" and "Receive Shadow" are enabled, striped patterns are likely to occur in the shadow. Default value is `false`.
+- **⚠ Receive Shadow** (🔘 Boolean). This property is deprecated and no longer works. Please use the Shadow receiving property of the object's lighting instead. If both "Cast Shadow" and "Receive Shadow" are enabled, striped patterns are likely to occur in the shadow. Default value is `false`.
 
 ??? quote "See internal technical details"
 
@@ -516,9 +546,9 @@ Use this when you want to set the initial properties of a 3D object.
     - **Blend mode** is stored as `Blend` (Choice). Default value is `Keep model blend mode`.
     > This behavior must be used on an object also having a behavior with type "Scene3D::Base3DBehavior". This is stored on property `Capability3d`.
 
-    - **Cast Shadow** is stored as `CastShadow` (Boolean). Default value is `false`.
+    - **⚠ Cast Shadow** is stored as `CastShadow` (Boolean). Default value is `false`.
     - **Opacity (0 to 255)** is stored as `Opacity` (Number). Default value is `255`.
-    - **Receive Shadow** is stored as `ReceiveShadow` (Boolean). Default value is `false`.
+    - **⚠ Receive Shadow** is stored as `ReceiveShadow` (Boolean). Default value is `false`.
 
 _No expressions for this behavior._
 
@@ -594,6 +624,45 @@ Gradually changes the intensity of the 3D Light.
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `A3F::A3L::ChangeIntensity`.
+
+
+_No expressions for this behavior._
+
+
+## Advanced 3D Sound 
+
+Use this when you want to play sound from a 3D object. 
+
+### Behavior actions
+
+**🔊Play sound**  
+Play sound from object center point.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (audioResource): Sound
+    - Parameter 3 (🔢 Number): Volume
+      From 0 to 100, 100 by default.
+    - Parameter 4 (❓ Yes or No): Loop
+    - Parameter 5 (🔢 Number): Range
+
+    > Technical note: parameter 6 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::A3S::Play`.
+
+**🔊Stop all sounds of object**  
+Stop all sounds emitted by this object.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::A3S::StopAll`.
 
 
 _No expressions for this behavior._
