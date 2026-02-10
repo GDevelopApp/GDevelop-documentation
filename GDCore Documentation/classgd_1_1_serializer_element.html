@@ -221,6 +221,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:aa9a7816bb725a81c3a473aacac8601fd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializer_element.html#aa9a7816bb725a81c3a473aacac8601fd">HasAttribute</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name) const</td></tr>
 <tr class="memdesc:aa9a7816bb725a81c3a473aacac8601fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the specified attribute exists.  <a href="classgd_1_1_serializer_element.html#aa9a7816bb725a81c3a473aacac8601fd">More...</a><br /></td></tr>
 <tr class="separator:aa9a7816bb725a81c3a473aacac8601fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35193af75d5cb54cb45ce8923985ab7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializer_element.html#a35193af75d5cb54cb45ce8923985ab7e">RemoveAttribute</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
+<tr class="memdesc:a35193af75d5cb54cb45ce8923985ab7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the attribute with the specified name.  <a href="classgd_1_1_serializer_element.html#a35193af75d5cb54cb45ce8923985ab7e">More...</a><br /></td></tr>
+<tr class="separator:a35193af75d5cb54cb45ce8923985ab7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b16264002c4c954457b88389694e4c8"><td class="memItemLeft" align="right" valign="top"><a id="a6b16264002c4c954457b88389694e4c8"></a>
 const std::map&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>, <a class="el" href="classgd_1_1_serializer_value.html">SerializerValue</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializer_element.html#a6b16264002c4c954457b88389694e4c8">GetAllAttributes</a> () const</td></tr>
 <tr class="memdesc:a6b16264002c4c954457b88389694e4c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all the attributes of the element. <br /></td></tr>
@@ -258,6 +261,13 @@ const std::map&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>, 
 <tr class="memitem:a5bda8a4c490d51b815701291276f222a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializer_element.html#a5bda8a4c490d51b815701291276f222a">RemoveChild</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
 <tr class="memdesc:a5bda8a4c490d51b815701291276f222a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the child with the specified name.  <a href="classgd_1_1_serializer_element.html#a5bda8a4c490d51b815701291276f222a">More...</a><br /></td></tr>
 <tr class="separator:a5bda8a4c490d51b815701291276f222a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82c4219b2cf5bbfd6ea964bc86f35a99"><td class="memItemLeft" align="right" valign="top"><a id="a82c4219b2cf5bbfd6ea964bc86f35a99"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializer_element.html#a82c4219b2cf5bbfd6ea964bc86f35a99">Clear</a> ()</td></tr>
+<tr class="memdesc:a82c4219b2cf5bbfd6ea964bc86f35a99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all children and attributes. <br /></td></tr>
+<tr class="separator:a82c4219b2cf5bbfd6ea964bc86f35a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37daab16446cdb05bf8809fed0547117"><td class="memItemLeft" align="right" valign="top"><a id="a37daab16446cdb05bf8809fed0547117"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsEmpty</b> ()</td></tr>
+<tr class="separator:a37daab16446cdb05bf8809fed0547117"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7843064087b3e3e0f61a6b3cacc9bc5"><td class="memItemLeft" align="right" valign="top"><a id="ab7843064087b3e3e0f61a6b3cacc9bc5"></a>
 const std::vector&lt; std::pair&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>, std::shared_ptr&lt; <a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &gt; &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializer_element.html#ab7843064087b3e3e0f61a6b3cacc9bc5">GetAllChildren</a> () const</td></tr>
 <tr class="memdesc:ab7843064087b3e3e0f61a6b3cacc9bc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all the children of the element. <br /></td></tr>
@@ -842,6 +852,32 @@ static <a class="el" href="classgd_1_1_serializer_element.html">SerializerElemen
 </table>
 </div><div class="memdoc">
 <p>Assignment operator. </p>
+
+</div>
+</div>
+<a id="a35193af75d5cb54cb45ce8923985ab7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35193af75d5cb54cb45ce8923985ab7e">&#9670;&nbsp;</a></span>RemoveAttribute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gd::SerializerElement::RemoveAttribute </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Remove the attribute with the specified name. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the attribute to remove. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

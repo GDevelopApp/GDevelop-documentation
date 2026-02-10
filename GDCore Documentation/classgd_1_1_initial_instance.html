@@ -273,6 +273,39 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="separator:affd111f8d9d05db543494483ca3fbede"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c64554b43c99990ed365c61861862b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instance.html#a1c64554b43c99990ed365c61861862b5">GetVariables</a> ()</td></tr>
 <tr class="separator:a1c64554b43c99990ed365c61861862b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Behavior management</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p>Members functions related to behavior overridings management. </p>
+</div></td></tr>
+<tr class="memitem:aa630bb0ef63ce0e2303d6362e77245dc"><td class="memItemLeft" align="right" valign="top"><a id="aa630bb0ef63ce0e2303d6362e77245dc"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instance.html#aa630bb0ef63ce0e2303d6362e77245dc">HasAnyOverriddenProperty</a> (const <a class="el" href="classgd_1_1_object.html">gd::Object</a> &amp;object)</td></tr>
+<tr class="memdesc:aa630bb0ef63ce0e2303d6362e77245dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return <code>true</code> if any property from the overriding has a different value from any behavior. <br /></td></tr>
+<tr class="separator:aa630bb0ef63ce0e2303d6362e77245dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cb6dc74f57641a6bf2805494e21f456"><td class="memItemLeft" align="right" valign="top"><a id="a8cb6dc74f57641a6bf2805494e21f456"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instance.html#a8cb6dc74f57641a6bf2805494e21f456">HasAnyOverriddenPropertyForBehavior</a> (const <a class="el" href="classgd_1_1_behavior.html">gd::Behavior</a> &amp;behavior)</td></tr>
+<tr class="memdesc:a8cb6dc74f57641a6bf2805494e21f456"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return <code>true</code> if any property from the overriding has a different value from the given behavior. <br /></td></tr>
+<tr class="separator:a8cb6dc74f57641a6bf2805494e21f456"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a683a14077e0b13e13c36b3774caa4d1b"><td class="memItemLeft" align="right" valign="top"><a id="a683a14077e0b13e13c36b3774caa4d1b"></a>
+<a class="el" href="classgd_1_1_behavior.html">Behavior</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instance.html#a683a14077e0b13e13c36b3774caa4d1b">GetBehaviorOverriding</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
+<tr class="memdesc:a683a14077e0b13e13c36b3774caa4d1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to the content of the overriding of of the behavior called <em>name</em>. <br /></td></tr>
+<tr class="separator:a683a14077e0b13e13c36b3774caa4d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee05774b1d3f378ffda1b83926679201"><td class="memItemLeft" align="right" valign="top"><a id="aee05774b1d3f378ffda1b83926679201"></a>
+const <a class="el" href="classgd_1_1_behavior.html">Behavior</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instance.html#aee05774b1d3f378ffda1b83926679201">GetBehaviorOverriding</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name) const</td></tr>
+<tr class="memdesc:aee05774b1d3f378ffda1b83926679201"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to the content of the overriding of the behavior called <em>name</em>. <br /></td></tr>
+<tr class="separator:aee05774b1d3f378ffda1b83926679201"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fe423024ed5ff15553612507a9eda75"><td class="memItemLeft" align="right" valign="top"><a id="a9fe423024ed5ff15553612507a9eda75"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instance.html#a9fe423024ed5ff15553612507a9eda75">HasBehaviorOverridingNamed</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name) const</td></tr>
+<tr class="memdesc:a9fe423024ed5ff15553612507a9eda75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the object instance overrides the object behavior called <em>name</em>. <br /></td></tr>
+<tr class="separator:a9fe423024ed5ff15553612507a9eda75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19878c90f2dee3e1c484a8ce233bb676"><td class="memItemLeft" align="right" valign="top"><a id="a19878c90f2dee3e1c484a8ce233bb676"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instance.html#a19878c90f2dee3e1c484a8ce233bb676">RemoveBehaviorOverriding</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
+<tr class="memdesc:a19878c90f2dee3e1c484a8ce233bb676"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the behavior overrides for the behavior called <em>name</em>. <br /></td></tr>
+<tr class="separator:a19878c90f2dee3e1c484a8ce233bb676"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31e3723a6974706d64b9887fe9373a7d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instance.html#a31e3723a6974706d64b9887fe9373a7d">RenameBehaviorOverriding</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;newName)</td></tr>
+<tr class="memdesc:a31e3723a6974706d64b9887fe9373a7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the name of behavior called name to newName.  <a href="classgd_1_1_initial_instance.html#a31e3723a6974706d64b9887fe9373a7d">More...</a><br /></td></tr>
+<tr class="separator:a31e3723a6974706d64b9887fe9373a7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48820037653cba46686bf54eeec667b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_behavior.html">gd::Behavior</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instance.html#a48820037653cba46686bf54eeec667b5">AddNewBehaviorOverriding</a> (const <a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;type, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
+<tr class="memdesc:a48820037653cba46686bf54eeec667b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add the behavior of the specified <em>type</em> with the specified <em>name</em>.  <a href="classgd_1_1_initial_instance.html#a48820037653cba46686bf54eeec667b5">More...</a><br /></td></tr>
+<tr class="separator:a48820037653cba46686bf54eeec667b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Others properties management</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Members functions related to exposing others properties of the instance.</p>
 <dl class="section note"><dt>Note</dt><dd>Extensions writers: even if we can define new types of object by inheriting from <a class="el" href="classgd_1_1_object.html" title="Represent an object of a platform.">gd::Object</a> class, we cannot define new <a class="el" href="classgd_1_1_initial_instance.html" title="Represents an instance of an object to be created on a layout start up.">gd::InitialInstance</a> classes.</dd></dl>
@@ -306,10 +339,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instance.html#a33a2774cbd2b7da9ccad79e262aacef3">SerializeTo</a> (<a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element) const</td></tr>
 <tr class="memdesc:a33a2774cbd2b7da9ccad79e262aacef3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize instances container. <br /></td></tr>
 <tr class="separator:a33a2774cbd2b7da9ccad79e262aacef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ab4712118038dcbf1172690d5ed680d"><td class="memItemLeft" align="right" valign="top"><a id="a8ab4712118038dcbf1172690d5ed680d"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instance.html#a8ab4712118038dcbf1172690d5ed680d">UnserializeFrom</a> (const <a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element)</td></tr>
-<tr class="memdesc:a8ab4712118038dcbf1172690d5ed680d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unserialize the instances container. <br /></td></tr>
-<tr class="separator:a8ab4712118038dcbf1172690d5ed680d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad70a0da7759c9449caafb239b7f4be17"><td class="memItemLeft" align="right" valign="top"><a id="ad70a0da7759c9449caafb239b7f4be17"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instance.html#ad70a0da7759c9449caafb239b7f4be17">UnserializeFrom</a> (<a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;project, const <a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element)</td></tr>
+<tr class="memdesc:ad70a0da7759c9449caafb239b7f4be17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unserialize the instances container. <br /></td></tr>
+<tr class="separator:ad70a0da7759c9449caafb239b7f4be17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbb9e27d05fa0ed1b991d42aaa1666e4"><td class="memItemLeft" align="right" valign="top"><a id="afbb9e27d05fa0ed1b991d42aaa1666e4"></a>
 <a class="el" href="classgd_1_1_initial_instance.html">InitialInstance</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instance.html#afbb9e27d05fa0ed1b991d42aaa1666e4">ResetPersistentUuid</a> ()</td></tr>
 <tr class="memdesc:afbb9e27d05fa0ed1b991d42aaa1666e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the persistent UUID used to recognize the same initial instance between serialization. <br /></td></tr>
@@ -322,6 +355,44 @@ const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</t
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents an instance of an object to be created on a layout start up. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a48820037653cba46686bf54eeec667b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48820037653cba46686bf54eeec667b5">&#9670;&nbsp;</a></span>AddNewBehaviorOverriding()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classgd_1_1_behavior.html">gd::Behavior</a> * gd::InitialInstance::AddNewBehaviorOverriding </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_project.html">gd::Project</a> &amp;&#160;</td>
+          <td class="paramname"><em>project</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add the behavior of the specified <em>type</em> with the specified <em>name</em>. </p>
+<p>The project's current platform is used to initialize the content.</p>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to the newly added behavior content. NULL if the creation failed. </dd></dl>
+
+</div>
+</div>
 <a id="aae93f5890a5a11ea8741b5a0cbfa7fe1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aae93f5890a5a11ea8741b5a0cbfa7fe1">&#9670;&nbsp;</a></span>Clone()</h2>
 
@@ -528,6 +599,37 @@ const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</t
 
 <p>Return true if the instance has a width/height which is different from its object default width/height. This is independent from <code>HasCustomDepth</code>. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_object.html" title="Represent an object of a platform.">gd::Object</a> </dd></dl>
+
+</div>
+</div>
+<a id="a31e3723a6974706d64b9887fe9373a7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31e3723a6974706d64b9887fe9373a7d">&#9670;&nbsp;</a></span>RenameBehaviorOverriding()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gd::InitialInstance::RenameBehaviorOverriding </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>newName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Change the name of behavior called name to newName. </p>
+<dl class="section return"><dt>Returns</dt><dd>true if name was successfully changed </dd></dl>
 
 </div>
 </div>

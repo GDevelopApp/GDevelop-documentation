@@ -114,10 +114,19 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:ae30aba545da48a91478f565f8bdca730"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_behavior_configuration_container.html#ae30aba545da48a91478f565f8bdca730">RenameProperty</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;oldName, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;newName)</td></tr>
 <tr class="memdesc:ae30aba545da48a91478f565f8bdca730"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the IDE wants to rename a custom property of the object configuration.  <a href="classgd_1_1_behavior_configuration_container.html#ae30aba545da48a91478f565f8bdca730">More...</a><br /></td></tr>
 <tr class="separator:ae30aba545da48a91478f565f8bdca730"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a138c281353a4b99567efbd5c8b136926"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_behavior_configuration_container.html#a138c281353a4b99567efbd5c8b136926">RemoveProperty</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
+<tr class="memdesc:a138c281353a4b99567efbd5c8b136926"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the IDE wants to remove a custom property from the behavior.  <a href="classgd_1_1_behavior_configuration_container.html#a138c281353a4b99567efbd5c8b136926">More...</a><br /></td></tr>
+<tr class="separator:a138c281353a4b99567efbd5c8b136926"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18958e026eb8908a72f4276414f945cc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_behavior_configuration_container.html#a18958e026eb8908a72f4276414f945cc">HasPropertyValue</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> name) const</td></tr>
+<tr class="memdesc:a18958e026eb8908a72f4276414f945cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to check if a property is overriden.  <a href="classgd_1_1_behavior_configuration_container.html#a18958e026eb8908a72f4276414f945cc">More...</a><br /></td></tr>
+<tr class="separator:a18958e026eb8908a72f4276414f945cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8115e5bb4f045e1bd77868765c97ba47"><td class="memItemLeft" align="right" valign="top"><a id="a8115e5bb4f045e1bd77868765c97ba47"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_behavior_configuration_container.html#a8115e5bb4f045e1bd77868765c97ba47">InitializeContent</a> ()</td></tr>
 <tr class="memdesc:a8115e5bb4f045e1bd77868765c97ba47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to initialize the content with the default properties for the behavior. <br /></td></tr>
 <tr class="separator:a8115e5bb4f045e1bd77868765c97ba47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad140eef4239cc910a22b25fc10c4bde3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_behavior_configuration_container.html#ad140eef4239cc910a22b25fc10c4bde3">ClearContent</a> ()</td></tr>
+<tr class="memdesc:ad140eef4239cc910a22b25fc10c4bde3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to remove all properties values for the behavior.  <a href="classgd_1_1_behavior_configuration_container.html#ad140eef4239cc910a22b25fc10c4bde3">More...</a><br /></td></tr>
+<tr class="separator:ad140eef4239cc910a22b25fc10c4bde3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d1bdfe6f31a22919a2e6e9e00e26733"><td class="memItemLeft" align="right" valign="top"><a id="a4d1bdfe6f31a22919a2e6e9e00e26733"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_behavior_configuration_container.html#a4d1bdfe6f31a22919a2e6e9e00e26733">SerializeTo</a> (<a class="el" href="classgd_1_1_serializer_element.html">gd::SerializerElement</a> &amp;element) const</td></tr>
 <tr class="memdesc:a4d1bdfe6f31a22919a2e6e9e00e26733"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the behavior content. <br /></td></tr>
@@ -182,6 +191,34 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <dd>
 <a class="el" href="classgd_1_1_behaviors_shared_data.html" title="Base class for defining data shared by behaviors having the same type and name.">gd::BehaviorsSharedData</a> </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad140eef4239cc910a22b25fc10c4bde3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad140eef4239cc910a22b25fc10c4bde3">&#9670;&nbsp;</a></span>ClearContent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gd::BehaviorConfigurationContainer::ClearContent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called to remove all properties values for the behavior. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_initial_instance.html" title="Represents an instance of an object to be created on a layout start up.">gd::InitialInstance</a> </dd></dl>
+
+</div>
+</div>
 <a id="a5963900e5c47f13d75dc22829b178a60"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5963900e5c47f13d75dc22829b178a60">&#9670;&nbsp;</a></span>ExposeResources()</h2>
 
@@ -260,6 +297,64 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_property_descriptor.html" title="Used to describe a property shown in a property grid.">gd::PropertyDescriptor</a> </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classgd_1_1_custom_behaviors_shared_data.html#a74de965863292a65bbd49bb43d5eb052">gd::CustomBehaviorsSharedData</a>, and <a class="el" href="classgd_1_1_custom_behavior.html#ac908907b5a9ae5f18fadeaca14f98dba">gd::CustomBehavior</a>.</p>
+
+</div>
+</div>
+<a id="a18958e026eb8908a72f4276414f945cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18958e026eb8908a72f4276414f945cc">&#9670;&nbsp;</a></span>HasPropertyValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gd::BehaviorConfigurationContainer::HasPropertyValue </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called to check if a property is overriden. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_initial_instance.html" title="Represents an instance of an object to be created on a layout start up.">gd::InitialInstance</a> </dd></dl>
+
+</div>
+</div>
+<a id="a138c281353a4b99567efbd5c8b136926"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a138c281353a4b99567efbd5c8b136926">&#9670;&nbsp;</a></span>RemoveProperty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gd::BehaviorConfigurationContainer::RemoveProperty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when the IDE wants to remove a custom property from the behavior. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_initial_instance.html" title="Represents an instance of an object to be created on a layout start up.">gd::InitialInstance</a> </dd></dl>
 
 </div>
 </div>
@@ -385,7 +480,6 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 
 <p>Called when the IDE wants to update a custom property of the behavior. </p>
 <dl class="section return"><dt>Returns</dt><dd>false if the new value cannot be set </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_initial_instance.html" title="Represents an instance of an object to be created on a layout start up.">gd::InitialInstance</a> </dd></dl>
 
 </div>
 </div>
@@ -431,7 +525,6 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 
 <p>Called when the IDE wants to update a custom property of the behavior. </p>
 <dl class="section return"><dt>Returns</dt><dd>false if the new value cannot be set </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_initial_instance.html" title="Represents an instance of an object to be created on a layout start up.">gd::InitialInstance</a> </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classgd_1_1_custom_behaviors_shared_data.html#afda16191c5749b7dd7dd23c2a3d89464">gd::CustomBehaviorsSharedData</a>, and <a class="el" href="classgd_1_1_custom_behavior.html#aac26fba9a0faf536da3e21cf17d986a4">gd::CustomBehavior</a>.</p>
 
