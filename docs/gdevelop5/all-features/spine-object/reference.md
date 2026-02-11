@@ -21,6 +21,16 @@ Display and smoothly animate a 2D object with skeletal animations made with Spin
 
 ### Object actions
 
+**Set skin**  
+Set the skin of a Spine object.
+
+??? quote "See parameters & details"
+
+    - Parameter 0 (👾 Object): Spine
+    - Parameter 1 (objectSkinName): Skin name
+
+    > Technical note: this action internal type (in GDevelop JSON) is `SpineObject::SetSkin`.
+
 **Animation mixing duration**  
 Change the duration of the smooth transition between 2 animations (in second).
 
@@ -150,6 +160,17 @@ Compare y position of spine point attachment.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `SpineObject::SpineObject::PointAttachmentY`.
 
+**Get skin name**  
+Compare the skin of the object.
+
+??? quote "See parameters & details"
+
+    - Parameter 0 (👾 Object): Spine
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔤 String): Skin name
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `SpineObject::SpineObject::getSkin`.
+
 
 ### Object expressions
 
@@ -180,6 +201,7 @@ Compare y position of spine point attachment.
 | `Object.PointAttachmentY(string, string)` | Return y position of spine point attachment. ||
 | | _🔤 String_ | Attachment name |
 | | _🔤 String_ | Slot name (use "" if names are the same) |
+| `Object.getSkin()` | Return the skin of the object. ||
 
 
 

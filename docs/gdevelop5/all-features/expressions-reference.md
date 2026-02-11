@@ -1477,6 +1477,7 @@ Display and smoothly animate a 2D object with skeletal animations made with Spin
 | `Object.PointAttachmentY(string, string)` | Return y position of spine point attachment. ||
 | | _🔤 String_ | Attachment name |
 | | _🔤 String_ | Slot name (use "" if names are the same) |
+| `Object.getSkin()` | Return the skin of the object. ||
 
 ---
 
