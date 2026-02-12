@@ -120,13 +120,14 @@ nav:
         - Cancellable draggable object: cancellable-draggable
         - Checkbox (for Shape Painter): checkbox
         - Clipboard: clipboard
+        - Volume settings: collapsible-volume-control
         - Cursor type: cursor-type
         - Draggable slider (for Shape Painter): draggable-slider-control
         - Emojis: emojis
         - Iframe: iframe
         - Input Validation: input-validation
         - Language: language
-        - Leaderboard dialog: leaderboard-dialog
+        - Game over dialog: leaderboard-dialog
         - Labeled button: panel-sprite-button
         - Resource bar (continuous): panel-sprite-continuous-bar
         - Slider: panel-sprite-slider
@@ -157,6 +158,7 @@ nav:
         - Object Masking: sprite-masking
         - Sway: sway
         - 3D-like Flip for 2D Sprites: three-dflip
+        - Tween into view: tween-into-view
         - YSort: ysort
     - Experimental extensions:
         - Advanced:

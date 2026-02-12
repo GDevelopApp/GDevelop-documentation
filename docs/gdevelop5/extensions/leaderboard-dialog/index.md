@@ -1,22 +1,26 @@
-# Leaderboard dialog
+# Game over dialog
 
-<img src="https://asset-resources.gdevelop.io/public-resources/Icons/4b89b420c0ed9c540a7f00c5735a31af0db2160679d3fab2170df3681c3ac38c_trophy.svg" class="extension-icon"></img>
-Display the player score and allow to submit it to a leaderboard.
+<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Halloween/4bffa50f979bde55e4a0e49b67bf51aac30f4de5e1e12ab13952aa25773363b2_Halloween_skull.svg" class="extension-icon"></img>
+Display the score and let players choose what to do next.
 
 **Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
 
 ---
 
-Display the player score and allow to submit it to a leaderboard.
+Display the score and let players choose what to do next:
+
+- Submit the score to a leaderboard
+- Retry
+- Go back to the main menu
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
 
 
-## Leaderboard dialog 
+## Game over dialog 
 
-Displays the player score and allows to submit it to a leaderboard. 
+Display the score and let players choose what to do next. 
 
 ### Object properties
 
@@ -108,6 +112,28 @@ Change the title of the object.
 
     > Technical note: this action internal type (in GDevelop JSON) is `LeaderboardDialog::LeaderboardDialog::SetTitle`.
 
+**Fade in decorations**  
+Fade in the decoration objects of the dialog.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `LeaderboardDialog::LeaderboardDialog::TweenIn`.
+
+**Fade out decorations**  
+Fade out the decoration objects of the dialog.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `LeaderboardDialog::LeaderboardDialog::TweenOut`.
+
 
 ### Object conditions
 
@@ -136,6 +162,28 @@ Compare the default player name.
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `LeaderboardDialog::LeaderboardDialog::DefaultPlayerName`.
+
+**Decorations are faded in**  
+Check if the fade in animation of the decorations is finished.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `LeaderboardDialog::LeaderboardDialog::HasTweenedIn`.
+
+**Decorations are faded out**  
+Check if the fade out animation of the decorations is finished.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `LeaderboardDialog::LeaderboardDialog::HasTweenedOut`.
 
 **Back button clicked**  
 Check if the back button of the dialog is clicked.
@@ -234,4 +282,4 @@ Compare the score.
 
 ---
 
-*This page is an auto-generated reference page about the **Leaderboard dialog** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Game over dialog** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).
