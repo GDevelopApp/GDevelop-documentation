@@ -92,34 +92,60 @@ $(function() {
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegd.html">gd</a> {</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classgd_1_1_instruction_validator.html">   21</a></span>&#160;<span class="keyword">class </span>GD_CORE_API <a class="code" href="classgd_1_1_instruction_validator.html">InstructionValidator</a> {</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">bool</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  IsParameterValid(<span class="keyword">const</span> <a class="code" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform,</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                   <span class="keyword">const</span> <a class="code" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a> projectScopedContainers,</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                   <span class="keyword">const</span> <a class="code" href="classgd_1_1_instruction.html">gd::Instruction</a> &amp;instruction,</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                   <span class="keyword">const</span> <a class="code" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;metadata,</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                   std::size_t parameterIndex, <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;value);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  <span class="keyword">static</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> GetRootVariableName(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;name);</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">bool</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  HasRequiredBehaviors(<span class="keyword">const</span> <a class="code" href="classgd_1_1_instruction.html">gd::Instruction</a> &amp;instruction,</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classgd_1_1_instruction_metadata.html">gd::InstructionMetadata</a> &amp;instructionMetadata,</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                       std::size_t objectParameterIndex,</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classgd_1_1_objects_containers_list.html">gd::ObjectsContainersList</a> &amp;objectsContainersList);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;};</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;} <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="structgd_1_1_parameter_validation_result.html">   25</a></span>&#160;<span class="keyword">struct </span>GD_CORE_API <a class="code" href="structgd_1_1_parameter_validation_result.html">ParameterValidationResult</a> {</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <span class="keywordtype">bool</span> isValid = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <span class="keywordtype">bool</span> hasDeprecationWarning = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  <a class="code" href="structgd_1_1_parameter_validation_result.html">ParameterValidationResult</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  <a class="code" href="structgd_1_1_parameter_validation_result.html">ParameterValidationResult</a>(<span class="keywordtype">bool</span> isValid_, <span class="keywordtype">bool</span> hasDeprecationWarning_)</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;      : isValid(isValid_), hasDeprecationWarning(hasDeprecationWarning_) {}</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="keywordtype">bool</span> IsValid()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> isValid; }</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keywordtype">bool</span> HasDeprecationWarning()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> hasDeprecationWarning; }</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;};</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classgd_1_1_instruction_validator.html">   37</a></span>&#160;<span class="keyword">class </span>GD_CORE_API <a class="code" href="classgd_1_1_instruction_validator.html">InstructionValidator</a> {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="keyword">static</span> <a class="code" href="structgd_1_1_parameter_validation_result.html">ParameterValidationResult</a> ValidateParameter(</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform,</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a> projectScopedContainers,</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_instruction.html">gd::Instruction</a> &amp;instruction, <span class="keyword">const</span> <a class="code" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;metadata,</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;      std::size_t parameterIndex, <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;value);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">bool</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  IsParameterValid(<span class="keyword">const</span> <a class="code" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform,</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                   <span class="keyword">const</span> <a class="code" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a> projectScopedContainers,</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                   <span class="keyword">const</span> <a class="code" href="classgd_1_1_instruction.html">gd::Instruction</a> &amp;instruction,</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                   <span class="keyword">const</span> <a class="code" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;metadata,</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                   std::size_t parameterIndex, <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;value);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">bool</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  HasDeprecationWarnings(<span class="keyword">const</span> <a class="code" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform,</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                         <span class="keyword">const</span> <a class="code" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a> projectScopedContainers,</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                         <span class="keyword">const</span> <a class="code" href="classgd_1_1_instruction.html">gd::Instruction</a> &amp;instruction,</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                         <span class="keyword">const</span> <a class="code" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;metadata,</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                         std::size_t parameterIndex, <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;value);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <span class="keyword">static</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> GetRootVariableName(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;name);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">bool</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  HasRequiredBehaviors(<span class="keyword">const</span> <a class="code" href="classgd_1_1_instruction.html">gd::Instruction</a> &amp;instruction,</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classgd_1_1_instruction_metadata.html">gd::InstructionMetadata</a> &amp;instructionMetadata,</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                       std::size_t objectParameterIndex,</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classgd_1_1_objects_containers_list.html">gd::ObjectsContainersList</a> &amp;objectsContainersList);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;};</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;} <span class="comment">// namespace gd</span></div>
 <div class="ttc" id="aclassgd_1_1_instruction_html"><div class="ttname"><a href="classgd_1_1_instruction.html">gd::Instruction</a></div><div class="ttdoc">An instruction is a member of an event: It can be a condition or an action.</div><div class="ttdef"><b>Definition:</b> Instruction.h:30</div></div>
 <div class="ttc" id="aclassgd_1_1_instruction_metadata_html"><div class="ttname"><a href="classgd_1_1_instruction_metadata.html">gd::InstructionMetadata</a></div><div class="ttdoc">Describe user-friendly information about an instruction (action or condition), its parameters and the...</div><div class="ttdef"><b>Definition:</b> InstructionMetadata.h:39</div></div>
-<div class="ttc" id="aclassgd_1_1_instruction_validator_html"><div class="ttname"><a href="classgd_1_1_instruction_validator.html">gd::InstructionValidator</a></div><div class="ttdef"><b>Definition:</b> InstructionValidator.h:21</div></div>
+<div class="ttc" id="aclassgd_1_1_instruction_validator_html"><div class="ttname"><a href="classgd_1_1_instruction_validator.html">gd::InstructionValidator</a></div><div class="ttdef"><b>Definition:</b> InstructionValidator.h:37</div></div>
 <div class="ttc" id="aclassgd_1_1_objects_containers_list_html"><div class="ttname"><a href="classgd_1_1_objects_containers_list.html">gd::ObjectsContainersList</a></div><div class="ttdoc">A list of objects containers, useful for accessing objects in a scoped way, along with methods to acc...</div><div class="ttdef"><b>Definition:</b> ObjectsContainersList.h:29</div></div>
 <div class="ttc" id="aclassgd_1_1_platform_html"><div class="ttname"><a href="classgd_1_1_platform.html">gd::Platform</a></div><div class="ttdoc">Base class for implementing a platform.</div><div class="ttdef"><b>Definition:</b> Platform.h:42</div></div>
 <div class="ttc" id="aclassgd_1_1_project_scoped_containers_html"><div class="ttname"><a href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a></div><div class="ttdoc">Holds references to variables, objects, properties and other containers.</div><div class="ttdef"><b>Definition:</b> ProjectScopedContainers.h:35</div></div>
 <div class="ttc" id="aclassgd_1_1_string_html"><div class="ttname"><a href="classgd_1_1_string.html">gd::String</a></div><div class="ttdoc">String represents an UTF8 encoded string.</div><div class="ttdef"><b>Definition:</b> String.h:33</div></div>
 <div class="ttc" id="anamespacegd_html"><div class="ttname"><a href="namespacegd.html">gd</a></div><div class="ttdef"><b>Definition:</b> CommonTools.h:24</div></div>
+<div class="ttc" id="astructgd_1_1_parameter_validation_result_html"><div class="ttname"><a href="structgd_1_1_parameter_validation_result.html">gd::ParameterValidationResult</a></div><div class="ttdoc">Result of parameter validation containing both validity status and deprecation warning.</div><div class="ttdef"><b>Definition:</b> InstructionValidator.h:25</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

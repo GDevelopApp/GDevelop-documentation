@@ -78,13 +78,209 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a3f8c41b1b02ad4392468994d030917e0"><td class="memItemLeft" align="right" valign="top"><a id="a3f8c41b1b02ad4392468994d030917e0"></a>
-static bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsParameterValid</b> (const <a class="el" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform, const <a class="el" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a> projectScopedContainers, const <a class="el" href="classgd_1_1_instruction.html">gd::Instruction</a> &amp;instruction, const <a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;metadata, std::size_t parameterIndex, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;value)</td></tr>
+<tr class="memitem:ac9e09c6663bffd8319bd2116099df028"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structgd_1_1_parameter_validation_result.html">ParameterValidationResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_validator.html#ac9e09c6663bffd8319bd2116099df028">ValidateParameter</a> (const <a class="el" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform, const <a class="el" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a> projectScopedContainers, const <a class="el" href="classgd_1_1_instruction.html">gd::Instruction</a> &amp;instruction, const <a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;metadata, std::size_t parameterIndex, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;value)</td></tr>
+<tr class="memdesc:ac9e09c6663bffd8319bd2116099df028"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validate a parameter and check for deprecation warnings in a single pass.  <a href="classgd_1_1_instruction_validator.html#ac9e09c6663bffd8319bd2116099df028">More...</a><br /></td></tr>
+<tr class="separator:ac9e09c6663bffd8319bd2116099df028"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f8c41b1b02ad4392468994d030917e0"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_validator.html#a3f8c41b1b02ad4392468994d030917e0">IsParameterValid</a> (const <a class="el" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform, const <a class="el" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a> projectScopedContainers, const <a class="el" href="classgd_1_1_instruction.html">gd::Instruction</a> &amp;instruction, const <a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;metadata, std::size_t parameterIndex, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;value)</td></tr>
+<tr class="memdesc:a3f8c41b1b02ad4392468994d030917e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a parameter is valid.  <a href="classgd_1_1_instruction_validator.html#a3f8c41b1b02ad4392468994d030917e0">More...</a><br /></td></tr>
 <tr class="separator:a3f8c41b1b02ad4392468994d030917e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b89c5f638bbc2982a1e775983e60e81"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_validator.html#a3b89c5f638bbc2982a1e775983e60e81">HasDeprecationWarnings</a> (const <a class="el" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform, const <a class="el" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a> projectScopedContainers, const <a class="el" href="classgd_1_1_instruction.html">gd::Instruction</a> &amp;instruction, const <a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;metadata, std::size_t parameterIndex, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;value)</td></tr>
+<tr class="memdesc:a3b89c5f638bbc2982a1e775983e60e81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a parameter expression has deprecation warnings.  <a href="classgd_1_1_instruction_validator.html#a3b89c5f638bbc2982a1e775983e60e81">More...</a><br /></td></tr>
+<tr class="separator:a3b89c5f638bbc2982a1e775983e60e81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7553056e481e287d499ac5c6e05b71b4"><td class="memItemLeft" align="right" valign="top"><a id="a7553056e481e287d499ac5c6e05b71b4"></a>
 static <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetRootVariableName</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
 <tr class="separator:a7553056e481e287d499ac5c6e05b71b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a3b89c5f638bbc2982a1e775983e60e81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b89c5f638bbc2982a1e775983e60e81">&#9670;&nbsp;</a></span>HasDeprecationWarnings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gd::InstructionValidator::HasDeprecationWarnings </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_platform.html">gd::Platform</a> &amp;&#160;</td>
+          <td class="paramname"><em>platform</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a>&#160;</td>
+          <td class="paramname"><em>projectScopedContainers</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_instruction.html">gd::Instruction</a> &amp;&#160;</td>
+          <td class="paramname"><em>instruction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td>
+          <td class="paramname"><em>metadata</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>parameterIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if a parameter expression has deprecation warnings. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000029">Deprecated:</a></b></dt><dd>Use ValidateParameter instead for better performance when you also need to check for validity. </dd></dl>
+
+</div>
+</div>
+<a id="a3f8c41b1b02ad4392468994d030917e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f8c41b1b02ad4392468994d030917e0">&#9670;&nbsp;</a></span>IsParameterValid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gd::InstructionValidator::IsParameterValid </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_platform.html">gd::Platform</a> &amp;&#160;</td>
+          <td class="paramname"><em>platform</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a>&#160;</td>
+          <td class="paramname"><em>projectScopedContainers</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_instruction.html">gd::Instruction</a> &amp;&#160;</td>
+          <td class="paramname"><em>instruction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td>
+          <td class="paramname"><em>metadata</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>parameterIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if a parameter is valid. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000028">Deprecated:</a></b></dt><dd>Use ValidateParameter instead for better performance when you also need to check for deprecation warnings. </dd></dl>
+
+</div>
+</div>
+<a id="ac9e09c6663bffd8319bd2116099df028"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9e09c6663bffd8319bd2116099df028">&#9670;&nbsp;</a></span>ValidateParameter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgd_1_1_parameter_validation_result.html">ParameterValidationResult</a> gd::InstructionValidator::ValidateParameter </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_platform.html">gd::Platform</a> &amp;&#160;</td>
+          <td class="paramname"><em>platform</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a>&#160;</td>
+          <td class="paramname"><em>projectScopedContainers</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_instruction.html">gd::Instruction</a> &amp;&#160;</td>
+          <td class="paramname"><em>instruction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td>
+          <td class="paramname"><em>metadata</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>parameterIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Validate a parameter and check for deprecation warnings in a single pass. </p>
+<p>This method is more efficient than calling IsParameterValid and HasDeprecationWarnings separately as it only parses the expression once. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="_instruction_validator_8h_source.html">InstructionValidator.h</a></li>
 <li>InstructionValidator.cpp</li>
