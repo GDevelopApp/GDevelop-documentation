@@ -30,13 +30,10 @@ In the editor, choose "Add a variable", then enter a name, choose a data type an
 
 You can use local variables in [expressions](/gdevelop5/all-features/expressions). Just write the name of the variable to use it in a formula. Note that if an object is using the same name, the object will take priority over the local variable.
 
-## Use local variable as a loop index
+## Local variables in loop events
 
-A local variable can be used to keep track of the current repetition number in a [repeat loop](/gdevelop5/events/repeat). For instance, the following events create a row of 8 platforms.
+Local variables are supported in all loop events: [While](/gdevelop5/events/while), [Repeat](/gdevelop5/events/repeat), [For Each](/gdevelop5/events/foreach), and [For Each Child Variable](/gdevelop5/events/foreach-child-variable). Local variables declared in a loop event are scoped to the loop and accessible within its sub-events.
 
+!!! tip
 
-![](local-variable-outside-the-loop.png)
-
-Local variables can also be used within a loop, but in this case its value is reset at every repetition. For instance, the following events create 8 platforms overlapping each other.
-
-![](local-variable-inside-the-loop.png)
+    All loop events also support a **loop counter variable** — a built-in variable that starts at 0 and auto-increments by 1 on each iteration. This removes the need to manually manage a counter variable.

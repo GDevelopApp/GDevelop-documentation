@@ -9,6 +9,14 @@ A "For Each" event is a special [event](/gdevelop5/events) that takes an object 
 
     If an object group is used, then the "For Each" event will repeat for every instance of every object in the group.
 
+## Local variables
+
+For Each events support [local variables](/gdevelop5/all-features/variables/local-variables). Local variables declared in a For Each event are scoped to the loop: they are initialized before the loop starts and are only accessible within the loop and its sub-events.
+
+## Loop counter variable
+
+For Each events can have a **loop counter variable**. When set, this variable starts at 0 and is automatically incremented by 1 for each object instance processed. This is useful to know the index of the current object in the iteration.
+
 ## How to add this event
 
 Right click (or long press) on an existing [event](/gdevelop5/events) and choose *"Add"* in the menu. Then, select the event you want to add.
