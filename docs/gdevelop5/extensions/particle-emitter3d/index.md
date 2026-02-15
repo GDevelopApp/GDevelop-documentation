@@ -43,6 +43,11 @@ Display a large number of particles to create visual effects.
 - **Gravity top** (Choice, one of: "Y-", "Z+"). Default value is `Y-`.
 - **Gravity** (🔢 Number, Acceleration). Default value is `0`.
 - **Delete when emission ends** (🔘 Boolean). Default value is `true`.
+- **Start min length** (🔢 Number, Distance). Default value is `120`.
+- **Start max length** (🔢 Number, Distance). Default value is `120`.
+- **Render mode** (Choice, one of: "Billboard", "Trail"). Default value is `Billboard`.
+- **Follow the object** (🔘 Boolean).
+- **Tail end width ratio** (🔢 Number, Dimensionless). Default value is `0`.
 
 ??? quote "See internal technical details"
 
@@ -66,6 +71,11 @@ Display a large number of particles to create visual effects.
     - **Gravity top** is stored as `GravityTop` (Choice). Default value is `Y-`.
     - **Gravity** is stored as `Gravity` (Number). Unit is PixelAcceleration. Default value is `0`.
     - **Delete when emission ends** is stored as `ShouldAutodestruct` (Boolean). Default value is `true`.
+    - **Start min length** is stored as `TrailStartLengthMin` (Number). Unit is Pixel. Default value is `120`.
+    - **Start max length** is stored as `TrailStartLengthMax` (Number). Unit is Pixel. Default value is `120`.
+    - **Render mode** is stored as `RenderMode` (Choice). Default value is `Billboard`.
+    - **Follow the object** is stored as `IsTrailFollowingLocalOrigin` (Boolean). Default value is ``.
+    - **Tail end width ratio** is stored as `TrailEndWidthRatio` (Number). Unit is Dimensionless. Default value is `0`.
 
 ### Object actions
 
@@ -182,6 +192,18 @@ Change the gravity top of the object.
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SetGravityTop`.
+
+**Make the trail follow**  
+Change if the trail should follow the object or not.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1 (❓ Yes or No): IsTrailFollowingLocalOrigin
+
+    > Technical note: parameter 2 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SetIsTrailFollowingLocalOrigin`.
 
 **Max lifespan**  
 Change the max lifespan of the object.
@@ -312,6 +334,45 @@ Change the min start speed of the object.
 
     > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SetStartSpeedMin`.
 
+**Tail end width ratio**  
+Change the tail end width ratio of the object.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SetTrailEndWidthRatio`.
+
+**Start max trail length**  
+Change the start max trail length of the object.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SetTrailStartLengthMax`.
+
+**Start min trail length**  
+Change the start min trail length of the object.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SetTrailStartLengthMin`.
+
 
 ### Object conditions
 
@@ -441,6 +502,17 @@ Check that emission has ended and no particle is alive anymore.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::HasEnded`.
 
+**Trail following the object**  
+Check if the trail should follow the object.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+
+    > Technical note: parameter 1 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::IsTrailFollowingLocalOrigin`.
+
 **Max lifespan**  
 Compare the max lifespan of the object.
 
@@ -569,6 +641,45 @@ Compare the min start speed of the object.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::StartSpeedMin`.
 
+**Tail end width ratio**  
+Compare the tail end width ratio of the object.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::TrailEndWidthRatio`.
+
+**Start max trail length**  
+Compare the start max trail length of the object.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::TrailStartLengthMax`.
+
+**Start min trail length**  
+Compare the start min trail length of the object.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::TrailStartLengthMin`.
+
 
 ### Object expressions
 
@@ -591,6 +702,9 @@ Compare the min start speed of the object.
 | `Object.StartSizeMin()` | Return the start min size of the object. ||
 | `Object.StartSpeedMax()` | Return the max start speed of the object. ||
 | `Object.StartSpeedMin()` | Return the min start speed of the object. ||
+| `Object.TrailEndWidthRatio()` | Return the tail end width ratio of the object. ||
+| `Object.TrailStartLengthMax()` | Return the start max trail length of the object. ||
+| `Object.TrailStartLengthMin()` | Return the start min trail length of the object. ||
 
 
 ---
