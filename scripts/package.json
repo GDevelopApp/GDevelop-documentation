@@ -1,0 +1,10 @@
+{
+  "name": "gdevelop-docs-automation-scripts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scripts for automated GDevelop documentation updates using AI coding agents",
+  "scripts": {
+    "update-docs": "node update-docs-from-commits.js",
+    "improve-docs": "node improve-docs.js"
+  }
+}
