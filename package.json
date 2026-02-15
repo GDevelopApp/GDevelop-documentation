@@ -1,0 +1,11 @@
+{
+  "name": "gdevelop-documentation-automation",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Automation scripts for AI-powered documentation updates.",
+  "type": "module",
+  "scripts": {
+    "automated-updates:commits": "node ./scripts/automated-updates-from-commits.mjs",
+    "automated-updates:improve": "node ./scripts/automated-updates-improve-docs.mjs"
+  }
+}

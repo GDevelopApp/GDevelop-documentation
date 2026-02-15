@@ -1,0 +1,51 @@
+name: Automated documentation updates from recent GDevelop commits
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 3 * * *"
+
+concurrency:
+  group: automated-documentation-updates-from-commits
+  cancel-in-progress: false
+
+jobs:
+  update-documentation-from-commits:
+    if: github.repository == 'GDevelopApp/GDevelop-documentation'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate documentation updates
+        env:
+          DEFAULT_COMMIT_COUNT: "5"
+          AI_PROVIDER: codex
+          # AI_PROVIDER: claude
+          OPENAI_MODEL: gpt-5-codex
+          # ANTHROPIC_MODEL: claude-sonnet-4-5
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npm run automated-updates:commits
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          title: "docs: automated updates from recent GDevelop commits"
+          body: |
+            Automated documentation updates based on recent commits from https://github.com/4ian/GDevelop.
+
+            - Source: `scripts/automated-updates-from-commits.mjs`
+            - Scope: `docs/gdevelop5/`
+            - Includes: `automated_updates_data.json` state update
+          commit-message: "chore(docs): automated updates from recent GDevelop commits"
+          branch: "automation/docs-updates-from-commits"
+          delete-branch: true
