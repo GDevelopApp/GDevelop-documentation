@@ -37,14 +37,3 @@ Local variables are supported in all loop events: [While](/gdevelop5/events/whil
 !!! tip
 
     All loop events also support a **loop counter variable** — a built-in variable that starts at 0 and auto-increments by 1 on each iteration. This removes the need to manually manage a counter variable.
-
-## Use local variable as a loop index
-
-A local variable can be used to keep track of the current repetition number in a [repeat loop](/gdevelop5/events/repeat). For instance, the following events create a row of 8 platforms.
-
-
-![](local-variable-outside-the-loop.png)
-
-Local variables can also be used within a loop, but in this case its value is reset at every repetition. For instance, the following events create 8 platforms overlapping each other.
-
-![](local-variable-inside-the-loop.png)
