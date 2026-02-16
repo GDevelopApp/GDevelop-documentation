@@ -15,9 +15,28 @@ To add a behavior to an object, first open the object properties by right-clicki
 
 ####  Destroy when outside of screen
 
-Once you have selected this behavior from the list, it is going to eliminate the object whenever it is outside the screen. You do not need to change this behaviors options, and it will automatically apply to all instances of the object. Press apply in the bottom right corner of the object properties window to confirm this change.
+Once you have selected this behavior from the list, it is going to eliminate the object whenever it is outside the screen. Press apply in the bottom right corner of the object properties window to confirm this change.
 
 ![](AddDestroyOutsideBheavior.png)
+
+## Behavior parameters
+
+The Destroy Outside behavior has two optional parameters that provide fine control over when objects are deleted:
+
+### Extra border
+  * Adds an additional border (in pixels) beyond the visible camera area before the object is destroyed.
+  * Useful to destroy objects slightly after they leave the screen, ensuring smooth exits.
+  * Example: Setting this to 100 means the object will be destroyed 100 pixels beyond the visible screen edge.
+
+### Unseen grace distance
+  * Prevents objects from being immediately deleted if they spawn outside the camera view.
+  * If an object has never been visible on screen, it won't be destroyed until it exceeds this grace distance.
+  * Useful for spawning objects just outside the camera that will move into view.
+  * Example: Setting this to 500 allows objects to spawn up to 500 pixels offscreen without being deleted before they become visible.
+
+!!! tip
+
+    The behavior tracks whether an object has been on screen. Objects that have been visible will be destroyed when they leave the camera area (plus extra border). Objects that were never visible are only destroyed when they exceed the unseen grace distance.
 
 # Examples
 
