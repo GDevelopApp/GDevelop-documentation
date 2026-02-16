@@ -17,6 +17,7 @@ on:
   schedule:
     - cron: "0 8 * * *" # Every day at 08:00 UTC
   workflow_dispatch: # Manual trigger
+  pull_request: # Testing
 
 permissions:
   contents: write
