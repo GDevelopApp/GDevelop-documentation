@@ -1113,7 +1113,7 @@ Allow your game to send scores to your leaderboards (anonymously or from the log
 
 ## Light (from extension Lights)
 
-Displays a 2D light on the scene, with a customizable radius and color. Add then the Light Obstacle behavior to the objects that must act as obstacle to the lights. 
+Displays a 2D light on the scene, with a customizable radius and color. Then add the Light Obstacle behavior to the objects that must act as obstacle to the lights. 
 
 _No expressions for this object._
 

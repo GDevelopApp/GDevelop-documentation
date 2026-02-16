@@ -6,7 +6,7 @@ This provides a 2D light object, and a behavior to mark other 2D objects as bein
 
 ## Light 
 
-Displays a 2D light on the scene, with a customizable radius and color. Add then the Light Obstacle behavior to the objects that must act as obstacle to the lights. 
+Displays a 2D light on the scene, with a customizable radius and color. Then add the Light Obstacle behavior to the objects that must act as obstacle to the lights. 
 
 ### Object properties
 
