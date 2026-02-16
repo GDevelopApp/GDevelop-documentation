@@ -52,11 +52,29 @@ jobs:
 
       # ── Run the update script ─────────────────────────────────────────
       - name: Update documentation from recent commits
+        id: update
         env:
           AI_PROVIDER: "claude" # Change to "codex" to use Codex
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           # OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: node scripts/update-docs-from-commits.js
+        run: |
+          node scripts/update-docs-from-commits.js
+
+          # Pass the AI summary and commit log to subsequent steps
+          if [ -f /tmp/ai_summary.txt ]; then
+            {
+              echo "summary<<SUMMARY_EOF"
+              cat /tmp/ai_summary.txt
+              echo "SUMMARY_EOF"
+            } >> "$GITHUB_OUTPUT"
+          fi
+          if [ -f /tmp/commit_log.txt ]; then
+            {
+              echo "commits<<COMMITS_EOF"
+              cat /tmp/commit_log.txt
+              echo "COMMITS_EOF"
+            } >> "$GITHUB_OUTPUT"
+          fi
 
       # ── Create Pull Request ───────────────────────────────────────────
       - name: Create Pull Request
@@ -70,6 +88,14 @@ jobs:
 
             An AI coding agent analysed recent commits in [4ian/GDevelop](https://github.com/4ian/GDevelop)
             and updated the documentation to reflect user-facing changes.
+
+            ### GDevelop commits covered
+            ```
+            ${{ steps.update.outputs.commits }}
+            ```
+
+            ### The AI agent summary is:
+            ${{ steps.update.outputs.summary }}
 
             **Please review the changes carefully before merging.**
           base: main

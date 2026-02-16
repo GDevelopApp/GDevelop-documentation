@@ -9,8 +9,9 @@
  * DIFFERENT aspect of the documentation (its own choice of scope — a folder,
  * feature, topic, etc.).
  *
- * After the AI finishes, the script updates automated_updates_data.json so
- * future runs don't repeat the same improvements.
+ * The AI agent directly adds a new entry to the "last_improved_things" array
+ * inside automated_updates_data.json, so the change is tracked in the same
+ * commit as the documentation edits.
  */
 
 const { execSync } = require("child_process");
@@ -24,7 +25,7 @@ const GDEVELOP_REPO = "https://github.com/4ian/GDevelop.git";
 const GDEVELOP_DIR = process.env.GDEVELOP_DIR || "/tmp/GDevelop";
 const REPO_ROOT = path.resolve(__dirname, "..");
 const DATA_FILE = path.join(REPO_ROOT, "automated_updates_data.json");
-const SUMMARY_FILE = path.join(REPO_ROOT, "improvement_summary.txt");
+const SUMMARY_OUT = "/tmp/ai_summary.txt";
 
 // AI provider — switch by changing this value (or set AI_PROVIDER env var).
 // Supported values: "claude" | "codex"
@@ -35,6 +36,14 @@ const AI_PROVIDER = process.env.AI_PROVIDER || "claude";
 // ---------------------------------------------------------------------------
 function run(cmd, opts = {}) {
   return execSync(cmd, { encoding: "utf8", ...opts }).trim();
+}
+
+function writeDataFile(data) {
+  let json = JSON.stringify(data, null, 2);
+  // Keep empty arrays on separate lines so future additions produce clean diffs
+  json = json.replace(/"last_improved_things": \[\s*\]/g,
+    '"last_improved_things": [\n\n  ]');
+  fs.writeFileSync(DATA_FILE, json + "\n");
 }
 
 // ---------------------------------------------------------------------------
@@ -48,6 +57,7 @@ function main() {
   }
 
   const alreadyImproved = data.last_improved_things || [];
+  const previousCount = alreadyImproved.length;
 
   // 2. Clone / update GDevelop
   if (!fs.existsSync(path.join(GDEVELOP_DIR, ".git"))) {
@@ -71,35 +81,50 @@ function main() {
     { cwd: REPO_ROOT }
   );
 
-  // 4. Clean up any leftover summary file
-  if (fs.existsSync(SUMMARY_FILE)) fs.unlinkSync(SUMMARY_FILE);
-
-  // 5. Build prompt
+  // 4. Build prompt
   const prompt = buildPrompt(alreadyImproved, docTree);
 
   const promptFile = "/tmp/doc_improve_prompt.txt";
   fs.writeFileSync(promptFile, prompt);
   console.log(`Prompt written to ${promptFile} (${prompt.length} chars)`);
 
-  // 6. Invoke AI agent
+  // 5. Invoke AI agent
   console.log(`\nInvoking AI agent (${AI_PROVIDER})…\n`);
-  invokeAI(promptFile, REPO_ROOT);
+  const aiOutput = invokeAI(promptFile, REPO_ROOT);
 
-  // 7. Read back the improvement summary the AI wrote
-  let summary = "(no summary provided)";
-  if (fs.existsSync(SUMMARY_FILE)) {
-    summary = fs.readFileSync(SUMMARY_FILE, "utf8").trim();
-    // Clean up temp file — we don't want it committed
-    fs.unlinkSync(SUMMARY_FILE);
+  // 6. Read back the data file to find what the AI added
+  let updatedData = data;
+  try {
+    updatedData = JSON.parse(fs.readFileSync(DATA_FILE, "utf8"));
+  } catch (err) {
+    console.error("Warning: could not re-read automated_updates_data.json:", err.message);
   }
 
-  // 8. Update tracking data
-  data.last_improved_things.push({
-    date: new Date().toISOString().split("T")[0],
-    summary,
-  });
-  fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2) + "\n");
-  console.log(`\nImprovement recorded: ${summary}`);
+  const updatedList = updatedData.last_improved_things || [];
+  let summary;
+
+  if (updatedList.length > previousCount) {
+    // The AI added one or more entries — take the last one
+    const newEntry = updatedList[updatedList.length - 1];
+    summary = newEntry.summary || "(no summary in new entry)";
+    console.log(`\nAI added improvement entry: [${newEntry.date}] ${summary}`);
+  } else {
+    // AI didn't update the file — add a fallback entry ourselves
+    summary = aiOutput
+      ? aiOutput.split("\n").filter(Boolean).slice(0, 3).join(" ").substring(0, 200)
+      : "(no summary provided)";
+    updatedData.last_improved_things = updatedList;
+    updatedData.last_improved_things.push({
+      date: new Date().toISOString().split("T")[0],
+      summary,
+    });
+    writeDataFile(updatedData);
+    console.log(`\nFallback: script added improvement entry: ${summary}`);
+  }
+
+  // 7. Write summary for the workflow to pick up
+  fs.writeFileSync(SUMMARY_OUT, summary);
+  console.log(`Summary written to ${SUMMARY_OUT}`);
 }
 
 // ---------------------------------------------------------------------------
@@ -110,6 +135,8 @@ function buildPrompt(alreadyImproved, docTree) {
     alreadyImproved.length > 0
       ? alreadyImproved.map((e) => `  • [${e.date}] ${e.summary}`).join("\n")
       : "  (none yet — this is the first run)";
+
+  const today = new Date().toISOString().split("T")[0];
 
   return `You are an expert technical writer improving GDevelop's documentation.
 
@@ -147,14 +174,23 @@ IMPORTANT CONSTRAINTS
   – Every "reference.md" file under docs/gdevelop5/all-features/*/reference.md
   – docs/gdevelop5/all-features/expressions-reference.md
 • NEVER create new files unless absolutely necessary.
-• NEVER edit files outside docs/gdevelop5/.
+• NEVER edit files outside docs/gdevelop5/ (except automated_updates_data.json as described below).
 • Do NOT touch images or binary files.
 
 WHEN YOU ARE DONE
 -----------------
-Create a file called "improvement_summary.txt" in ${REPO_ROOT}/ containing
-a single line that describes what you improved.
-Example: "Improved getting_started/index.md — added clearer first-project walkthrough steps"
+Edit the file "automated_updates_data.json" in ${REPO_ROOT}/ and add a new
+entry at the END of the "last_improved_things" array with this format:
+
+  { "date": "${today}", "summary": "<one-line description of what you improved>" }
+
+For example, the file might look like:
+  {
+    "last_automated_updates_commit": null,
+    "last_improved_things": [
+      { "date": "${today}", "summary": "Improved objects/sprite/index.md — clarified animation looping behaviour" }
+    ]
+  }
 
 Make your changes now.`;
 }
@@ -178,11 +214,11 @@ function invokeAI(promptFile, cwd) {
     throw new Error(`Unknown AI_PROVIDER: "${AI_PROVIDER}". Use "claude" or "codex".`);
   }
 
-  // Run with stdout/stderr piped so we can capture and log the full output.
   const output = execSync(cmd, { ...opts, encoding: "utf8", stdio: ["pipe", "pipe", "pipe"] });
   console.log("── AI agent output ─────────────────────────────────────────");
   console.log(output);
   console.log("── End of AI agent output ──────────────────────────────────");
+  return output;
 }
 
 // ---------------------------------------------------------------------------

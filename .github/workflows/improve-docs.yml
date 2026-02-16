@@ -52,11 +52,22 @@ jobs:
 
       # ── Run the improvement script ────────────────────────────────────
       - name: Improve documentation
+        id: improve
         env:
           AI_PROVIDER: "claude" # Change to "codex" to use Codex
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           # OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: node scripts/improve-docs.js
+        run: |
+          node scripts/improve-docs.js
+
+          # Pass the AI summary to subsequent steps
+          if [ -f /tmp/ai_summary.txt ]; then
+            {
+              echo "summary<<SUMMARY_EOF"
+              cat /tmp/ai_summary.txt
+              echo "SUMMARY_EOF"
+            } >> "$GITHUB_OUTPUT"
+          fi
 
       # ── Create Pull Request ───────────────────────────────────────────
       - name: Create Pull Request
@@ -70,6 +81,9 @@ jobs:
 
             An AI coding agent inspected the [GDevelop](https://github.com/4ian/GDevelop) codebase
             and the existing documentation, then chose an aspect to improve.
+
+            The AI agent summary is:
+            > ${{ steps.improve.outputs.summary }}
 
             The updated `automated_updates_data.json` tracks what was improved so future
             runs will pick a different area.

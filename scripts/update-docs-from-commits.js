@@ -24,6 +24,8 @@ const REPO_ROOT = path.resolve(__dirname, "..");
 const DATA_FILE = path.join(REPO_ROOT, "automated_updates_data.json");
 const DEFAULT_COMMIT_COUNT = 5;
 const MAX_DIFF_BYTES = 80000; // Truncate diffs to keep prompt manageable
+const SUMMARY_OUT = "/tmp/ai_summary.txt";
+const COMMITS_OUT = "/tmp/commit_log.txt";
 
 // AI provider — switch by changing this value (or set AI_PROVIDER env var).
 // Supported values: "claude" | "codex"
@@ -44,6 +46,14 @@ function runSafe(cmd, opts = {}) {
   }
 }
 
+function writeDataFile(data) {
+  let json = JSON.stringify(data, null, 2);
+  // Keep empty arrays on separate lines so future additions produce clean diffs
+  json = json.replace(/"last_improved_things": \[\s*\]/g,
+    '"last_improved_things": [\n\n  ]');
+  fs.writeFileSync(DATA_FILE, json + "\n");
+}
+
 // ---------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------
@@ -61,7 +71,6 @@ function main() {
       `git clone --filter=blob:none --no-checkout ${GDEVELOP_REPO} ${GDEVELOP_DIR}`,
       { stdio: "inherit" }
     );
-    // Only checkout the history (we need commits, not a full working tree initially)
     execSync("git checkout", { cwd: GDEVELOP_DIR, stdio: "inherit" });
   } else {
     console.log("Updating existing GDevelop clone…");
@@ -76,7 +85,6 @@ function main() {
   let commitRange = null;
 
   if (lastCommit) {
-    // Verify the commit exists in our (possibly shallow) clone
     const commitExists = (() => {
       try {
         execSync(`git cat-file -e ${lastCommit}`, {
@@ -106,11 +114,12 @@ function main() {
 
   if (!commitLog) {
     console.log("No new commits found. Nothing to do.");
-    // Still update the pointer so we don't re-scan next time
     data.last_automated_updates_commit = run("git rev-parse HEAD", {
       cwd: GDEVELOP_DIR,
     });
-    fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2) + "\n");
+    writeDataFile(data);
+    fs.writeFileSync(SUMMARY_OUT, "(no new commits to process)");
+    fs.writeFileSync(COMMITS_OUT, "(none)");
     return;
   }
 
@@ -118,7 +127,6 @@ function main() {
     cwd: GDEVELOP_DIR,
   });
 
-  // Get meaningful code diffs (skip binary, tests, and overly large files)
   const diffContent = runSafe(
     `git diff ${commitRange} -- '*.js' '*.jsx' '*.ts' '*.tsx' '*.json' '*.md' `
     + `':!*/__tests__/*' ':!*/node_modules/*' ':!*/fixtures/*' `
@@ -141,12 +149,21 @@ function main() {
 
   // 7. Invoke AI agent
   console.log(`\nInvoking AI agent (${AI_PROVIDER})…\n`);
-  invokeAI(promptFile, REPO_ROOT);
+  const aiOutput = invokeAI(promptFile, REPO_ROOT);
 
   // 8. Update tracking data
   data.last_automated_updates_commit = latestCommit;
-  fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2) + "\n");
+  writeDataFile(data);
   console.log(`\nTracking data updated — latest commit: ${latestCommit}`);
+
+  // 9. Write summary + commit log for the workflow to pick up
+  const summary = aiOutput
+    ? aiOutput.trim()
+    : "(AI agent produced no output)";
+  fs.writeFileSync(SUMMARY_OUT, summary);
+  fs.writeFileSync(COMMITS_OUT, commitLog);
+  console.log(`Summary written to ${SUMMARY_OUT}`);
+  console.log(`Commit log written to ${COMMITS_OUT}`);
 }
 
 // ---------------------------------------------------------------------------
@@ -194,6 +211,12 @@ IMPORTANT CONSTRAINTS
 • Do NOT touch images or binary files.
 • If no documentation updates are needed, do nothing.
 
+WHEN YOU ARE DONE
+-----------------
+Output a brief summary (2-3 lines) of the documentation changes you made,
+or state that no changes were needed. This summary will be included in the
+pull request description.
+
 Make your changes now.`;
 }
 
@@ -216,11 +239,11 @@ function invokeAI(promptFile, cwd) {
     throw new Error(`Unknown AI_PROVIDER: "${AI_PROVIDER}". Use "claude" or "codex".`);
   }
 
-  // Run with stdout/stderr piped so we can capture and log the full output.
   const output = execSync(cmd, { ...opts, encoding: "utf8", stdio: ["pipe", "pipe", "pipe"] });
   console.log("── AI agent output ─────────────────────────────────────────");
   console.log(output);
   console.log("── End of AI agent output ──────────────────────────────────");
+  return output;
 }
 
 // ---------------------------------------------------------------------------
