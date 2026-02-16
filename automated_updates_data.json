@@ -5,5 +5,6 @@
     { "date": "2026-02-16", "summary": "Improved core behavior documentation: added Window Center anchor option, draggable collision mask and Z-order details, destroy outside parameters" },
     { "date": "2026-02-16", "summary": "Enhanced pathfinding documentation with grid offset properties, path smoothing, obstacle cost clarification, and activation behavior" },
     { "date": "2026-02-16", "summary": "Improved UI and visual object documentation: enhanced light, button, slider, text, panel sprite, and particle emitter pages with detailed properties and usage tips" }
+    { "date": "2026-02-16", "summary": "Enhanced tween behavior documentation with scale center options, color modes, exponential interpolation, and effect properties" }
   ]
 }
