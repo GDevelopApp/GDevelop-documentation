@@ -30,6 +30,19 @@ These two files can be created with an external editor to generate bitmap fonts,
 
 * **[Hiero](https://libgdx.com/wiki/tools/hiero)** (Windows/Linux/OS X)
 
+## Text alignment
+
+Bitmap text objects support both horizontal and vertical text alignment:
+
+* **Horizontal alignment** can be set to Left, Center, or Right. This determines how text lines align relative to the object's position.
+* **Vertical alignment** can be set to Top, Center, or Bottom. This controls the vertical positioning of the entire text block within the object.
+
+These alignment options are particularly useful when positioning text elements in UI designs or when the text content changes dynamically during gameplay.
+
+## Wrapping width
+
+You can configure a wrapping width to make text automatically wrap to multiple lines when it reaches a specified width. This is useful for creating text boxes, dialogue windows, or any situation where text needs to fit within a specific area. When wrapping is enabled, the text will break into multiple lines at word boundaries.
+
 ## Font size and scale
 
 Because the characters are pre-rendered, the font size can't be changed in GDevelop. But the object still has a scale property that can be used to make your text bigger or smaller. Note that the rendering quality can be affected, because the font generated is not designed to be rescaled. Bold and pixel art style fonts often work bests when scaled up or down by even number intervals.

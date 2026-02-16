@@ -6,6 +6,7 @@
     { "date": "2026-02-16", "summary": "Enhanced pathfinding documentation with grid offset properties, path smoothing, obstacle cost clarification, and activation behavior" },
     { "date": "2026-02-16", "summary": "Improved UI and visual object documentation: enhanced light, button, slider, text, panel sprite, and particle emitter pages with detailed properties and usage tips" },
     { "date": "2026-02-16", "summary": "Enhanced tween behavior documentation with scale center options, color modes, exponential interpolation, and effect properties" },
-    { "date": "2026-02-16", "summary": "Enhanced Spine object documentation with animation control details, point attachments, skins, mixing duration, and coordinate systems" }
+    { "date": "2026-02-16", "summary": "Enhanced Spine object documentation with animation control details, point attachments, skins, mixing duration, and coordinate systems" },
+    { "date": "2026-02-16", "summary": "Improved bitmap text and shape painter documentation: added alignment properties, wrapping width, and comprehensive list of all shape types" }
   ]
 }
