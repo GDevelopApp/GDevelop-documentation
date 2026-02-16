@@ -24,7 +24,7 @@ After selecting the "Platform" option, you will see the Platform behavior option
 By clicking on the platform behavior, you can choose from 3 different platform types.
 
 * **Platform:** this is the default option. The default behavior sets the object as a traditional platform. The character can collide with the platform and/or walk on it.
-* **Jumpthru platform:** by choosing this option, the character can collide with the platform and walk on it, but the character can also jump thru the platform from below.
+* **Jumpthru platform:** by choosing this option, the character can collide with the platform and walk on it, but the character can also jump thru the platform from below. Additionally, the character can press the down key while standing on a jumpthru platform to fall through it (this behavior is enabled by default but can be configured in the platformer character behavior properties).
 * **Ladder:** as its name suggests, this option turns our object into a ladder. The character object cannot collide with the ladder object. It can not walk on the ladder object, but, when the character object overlaps the ladder object, the character is able to climb up and get down using the ladder object.
 
 ### Grab the ledge
@@ -83,21 +83,31 @@ If you decide to enable this option, the character can grab the ledge of all of 
 
 Again, as with the "Platform Behavior", we can set the grab offset on the Y axis for the character. Unlike the Platform Behavior, we can also set the grab tolerance on the X-axis.
 
-By changing the grab tolerance value, we can set how close the character needs to be to the platform in order to allow the character to grab the platform object.
+By changing the **grab tolerance** value (default: 10 pixels), we can set how close the character needs to be to the platform in order to allow the character to grab the platform object.
+
+!!! note
+
+    When the "Can grab without moving" option is enabled (enabled by default), the character can grab ledges even when not pressing any movement keys. Disable this if you only want the character to grab ledges while actively moving toward them.
 
 ### Slope max angle
 
-By changing this value, we can set the maximum angle of a slope that the player can climb. The default is 0. 0 default means the character can move only on a flat surface.
+By changing this value, we can set the maximum angle of a slope that the player can climb. The default is 60 degrees. A value of 0 means the character can move only on a flat surface. The slope max angle determines how steep a platform can be before the character can no longer walk up it.
+
+!!! note
+
+    The platformer behavior automatically detects and follows slopes within the configured angle, keeping the character grounded on slanted platforms without additional events.
 
 ### Change the character speed
 
 The walking speed of a character is configured with:
 
-- an acceleration
-- a deceleration
-- a maximum speed
+- **Acceleration**: How quickly the character speeds up (default: 1500 pixels/second²)
+- **Deceleration**: How quickly the character slows down (default: 1500 pixels/second²)
+- **Max speed**: The maximum horizontal speed the character can reach (default: 250 pixels/second)
 
 Choosing a low acceleration and deceleration will make the character slide.
+
+There's also a **Ladder climbing speed** property (default: 150 pixels/second) that controls how fast the character moves vertically when climbing a ladder.
 
 ### Change characters jump height
 
@@ -105,10 +115,10 @@ Choosing a low acceleration and deceleration will make the character slide.
 
 How high a character jumps depends on:
 
-- **Jump speed** is the speed at the beginning of the jump.
-- **Jump sustain time** is how long the jump speed can be kept to the initial value while players hold the jump key.
-- **Gravity** is how fast the speed change to go down.
-- **Max. falling speed** to avoid characters going faster and faster because of gravity.
+- **Jump speed** is the speed at the beginning of the jump (default: 600 pixels/second).
+- **Jump sustain time** is how long the jump speed can be kept to the initial value while players hold the jump key (default: 0.2 seconds). This allows for variable-height jumps: tapping the jump button creates a short hop, while holding it results in a higher jump.
+- **Gravity** is how fast the speed changes to pull the character down (default: 1000 pixels/second²).
+- **Max. falling speed** to avoid characters going faster and faster because of gravity (default: 700 pixels/second).
 
 All theses values can also be changed at any time during the game using [events](/gdevelop5/events).
 

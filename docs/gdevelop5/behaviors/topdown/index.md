@@ -37,6 +37,21 @@ By default, the facing angle of our sprite is 0 which is the right side of our s
 !!! note
 
     Note that some expressions like `AngleBetweenPositions` can gives you a result between -180 and 180. This is equivalent to this schema. An angle of -45 degrees is equivalent to an angle of 270 degrees.
+
+####  Viewpoint and isometric projection
+
+The top-down movement behavior supports different viewpoints for your game:
+
+- **Top-Down**: Standard top-down view (default)
+- **Isometry 2:1 (26.565°)**: Pixel art isometric projection (also known as "Pixel Isometry")
+- **True Isometry (30°)**: Mathematical isometric projection at 30 degrees
+- **Custom Isometry**: Define your own isometry angle between 1 and 44 degrees
+
+These viewpoint settings are in the behavior's advanced properties. When using an isometry viewpoint, you'll typically want to set the **Movement angle offset** to -45 degrees (this is recommended in the property description). This offset adjusts the input direction mapping to match the isometric perspective.
+
+!!! tip
+
+    The isometry viewpoint automatically transforms movement coordinates from world space to screen space, making it easier to create isometric games without manually calculating the projection.
 ####  Allows diagonals
 
 ![](allow-diagonals-box.png)
@@ -66,6 +81,19 @@ The "top-down multitouch controller mapper" behavior from the [multi-touch joyst
 ![](top-down-movement-rotateobject-box.png)
 
 By default, our object will rotate toward the direction of movement. The object will rotate at the speed we specify in the Rotation speed option. If we don't want the object to rotate, we need to disable this by unchecking the box.
+
+####  Stick input for analog controls
+
+In addition to keyboard controls, the top-down movement behavior supports analog stick input for gamepad or custom joystick controls. You can simulate stick input with events using the "Simulate stick movement" action, which takes:
+
+- **Stick angle**: The direction of the stick in degrees (0 = right, 90 = down, 180 = left, 270 = up)
+- **Stick force**: The intensity of the input from 0 (no input) to 1 (maximum input)
+
+The stick force affects the character's speed, allowing for variable speed control. When "Allow diagonals" is disabled, stick angles are automatically snapped to the nearest cardinal direction (0°, 90°, 180°, or 270°).
+
+!!! tip
+
+    You can check if the character is currently using stick input with the "Is using control" condition and selecting "Stick" as the control type.
 
 All theses values can also be changed at any time during the game using [events](/gdevelop5/events).
 
