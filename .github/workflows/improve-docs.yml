@@ -17,7 +17,7 @@ on:
   schedule:
     - cron: "0 10 * * *" # Every day at 10:00 UTC (offset from the other workflow)
   workflow_dispatch: # Manual trigger
-  pull_request: # Testing
+  pull_request: # For testing in PRs
 
 permissions:
   contents: write
@@ -75,6 +75,7 @@ jobs:
             runs will pick a different area.
 
             **Please review the changes carefully before merging.**
+          base: main
           branch: auto/improve-docs
           delete-branch: true
           labels: automated,documentation

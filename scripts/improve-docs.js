@@ -163,23 +163,26 @@ Make your changes now.`;
 // AI invocation
 // ---------------------------------------------------------------------------
 function invokeAI(promptFile, cwd) {
+  let cmd;
+  const opts = { cwd, timeout: 10 * 60 * 1000 };
+
   if (AI_PROVIDER === "claude") {
     // ── Claude Code ──────────────────────────────────────────────────────
-    execSync(
-      `cat "${promptFile}" | claude -p --dangerously-skip-permissions`,
-      { cwd, stdio: "inherit", timeout: 10 * 60 * 1000 }
-    );
+    cmd = `cat "${promptFile}" | claude -p --dangerously-skip-permissions`;
     // ── To use Codex instead, comment the block above and uncomment below.
   } else if (AI_PROVIDER === "codex") {
     // ── OpenAI Codex ─────────────────────────────────────────────────────
-    // Codex reads the prompt from a wrapper script to avoid shell arg limits.
-    execSync(
-      `codex --full-auto -q "$(cat '${promptFile}')"`,
-      { cwd, stdio: "inherit", timeout: 10 * 60 * 1000, shell: "/bin/bash" }
-    );
+    cmd = `codex --full-auto -q "$(cat '${promptFile}')"`;
+    opts.shell = "/bin/bash";
   } else {
     throw new Error(`Unknown AI_PROVIDER: "${AI_PROVIDER}". Use "claude" or "codex".`);
   }
+
+  // Run with stdout/stderr piped so we can capture and log the full output.
+  const output = execSync(cmd, { ...opts, encoding: "utf8", stdio: ["pipe", "pipe", "pipe"] });
+  console.log("── AI agent output ─────────────────────────────────────────");
+  console.log(output);
+  console.log("── End of AI agent output ──────────────────────────────────");
 }
 
 // ---------------------------------------------------------------------------
