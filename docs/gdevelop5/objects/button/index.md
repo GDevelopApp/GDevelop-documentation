@@ -37,3 +37,20 @@ Button clicks/taps can be checked with a condition in events:
 ![](button-clicked-condition.png)
 
 Other conditions can be used to check the button state. For instance, it allows to apply [an effect](/gdevelop5/objects/effects) to make a button appear brighter when it's pressed.
+
+### Button states
+
+Buttons have three distinct states that determine which image is displayed:
+
+- **Idle**: The default state when the button is not being interacted with
+- **Hovered**: When the mouse cursor is over the button (on desktop/web) or when a touch is held on the button (on mobile)
+- **Pressed**: When the button is actively being clicked or tapped
+
+You can check these states in events to create visual feedback or trigger different behaviors.
+
+### Tips for button design
+
+- Use consistent button sizes across your UI for a professional look
+- Make sure button images have enough contrast so text on them is readable
+- Consider using [Panel Sprite ("9-patch")](/gdevelop5/objects/panel_sprite) objects for button images, which scale better when button sizes need to change
+- Add sound effects when buttons are clicked to improve user experience

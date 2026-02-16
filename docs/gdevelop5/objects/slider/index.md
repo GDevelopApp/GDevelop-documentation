@@ -41,8 +41,29 @@ When a slider is added into the scene, it takes the default size set for the sli
 
 A slider would be useless if the game can't react when its value is changed.
 
-Slider values can be read with the `Value()` expression. It's can be used to store this as a variable or use it to change a property of an object.
+Slider values can be read with the `Value()` expression. It can be used to store this as a variable or use it to change a property of an object.
 
 ![](slider-value-expression.png)
 
-Sliders and toggle switches can be useful to make a settings panel. As the settings panel and the game may be in different scene, the value can be stored in a global variable to use it in other game scenes.
+### Using slider values in your game
+
+Here are some common ways to use slider values:
+
+- **Volume control**: Use the slider value to set the volume of music or sound effects (typically 0-100)
+- **Difficulty settings**: Allow players to adjust game difficulty with a slider
+- **Graphics settings**: Control visual quality, brightness, or other rendering options
+- **Gameplay parameters**: Adjust speed, power, or other in-game values
+
+### Saving slider settings
+
+Sliders and toggle switches are useful for creating settings panels. Since the settings panel and the game may be in different scenes, store the value in a global variable to use it across all game scenes.
+
+You can also use the [Storage feature](/gdevelop5/all-features/storage) to save slider values between game sessions, so player preferences persist even after closing the game.
+
+### Slider range and step
+
+When creating a slider, you can configure:
+
+- **Minimum value**: The lowest value the slider can represent
+- **Maximum value**: The highest value the slider can represent
+- **Step size**: How much the value changes as the thumb moves (for example, a step of 1 means whole numbers only)

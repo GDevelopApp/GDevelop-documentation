@@ -3,6 +3,7 @@
   "last_improved_things": [
     { "date": "2026-02-16", "summary": "Enhanced 3D model documentation with animation controls, material types, origin/center points, and shadow configuration" },
     { "date": "2026-02-16", "summary": "Improved core behavior documentation: added Window Center anchor option, draggable collision mask and Z-order details, destroy outside parameters" },
-    { "date": "2026-02-16", "summary": "Enhanced pathfinding documentation with grid offset properties, path smoothing, obstacle cost clarification, and activation behavior" }
+    { "date": "2026-02-16", "summary": "Enhanced pathfinding documentation with grid offset properties, path smoothing, obstacle cost clarification, and activation behavior" },
+    { "date": "2026-02-16", "summary": "Improved UI and visual object documentation: enhanced light, button, slider, text, panel sprite, and particle emitter pages with detailed properties and usage tips" }
   ]
 }

@@ -59,4 +59,4 @@ You can also change the maximum number of particles rendered by the object on th
 ## Reference
 
 All actions, conditions and expressions for the 2D particle emitter are listed in [this reference page](/gdevelop5/all-features/particle-system/reference/).
-All actions, conditions and expressions for the 23 particle emitter are listed in [this reference page](/gdevelop5/extensions/particle-emitter3d).
+All actions, conditions and expressions for the 3D particle emitter are listed in [this reference page](/gdevelop5/extensions/particle-emitter3d).
