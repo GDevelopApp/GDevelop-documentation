@@ -14,7 +14,7 @@ When the behavior is added to an object, some properties can be modified:
 ![](pasted/20230304-155732.png)
 
   * **impassable:** if enabled, the obstacle is going to be impassable. The moving object will be avoiding them and never go through them.
-  * **cost:** if the obstacle is not impassable, a cost can be set the obstacle. The moving object, when looking for the best possible path to a destination, will prefer to avoid the obstacle with high-cost values. For example, a river might have some cost. The moving object, if possible, will avoid it. However, if there is no other way around the river, or if the river has a lower cost compared to another area, the moving object will go through it (instead of climbing a mountain with a higher cost for example). And if we put crocodiles into the river and increase its cost, the moving object might decide to climb the mountains instead.
+  * **cost:** if the obstacle is not impassable, a cost can be set for the obstacle. The moving object, when looking for the best possible path to a destination, will prefer to avoid obstacles with high-cost values. For example, a river might have some cost. The moving object, if possible, will avoid it. However, if there is no other way around the river, or if the river has a lower cost compared to another area, the moving object will go through it (instead of climbing a mountain with a higher cost for example). And if we put crocodiles into the river and increase its cost, the moving object might decide to climb the mountains instead. The cost value is a multiplier applied to the path length through that obstacle.
 
 !!! tip
 
@@ -32,9 +32,11 @@ After we add the behavior to the object, we can customize a number of options:
   * **allow diagonals:** set if the object can move in diagonals.
   * **angle offset:** in case the sprite is facing the wrong direction we can set the angle offset
   * **extra border size:** sets the border size around the object. This setting determines how close the object can move to the obstacles.
+  * **grid offset X/Y:** offsets the virtual grid position by the specified number of pixels. This can be useful to align the grid with your level layout. Default is 0 for both X and Y.
   * **max speed:** maximum speed the object can move on the path.
   * **rotate object:** if you don't want the object to rotate while moving on the path, disable the object's rotation.
   * **rotate speed:** sets the speed of the object's rotation.
+  * **smoothing max cell gap:** controls path smoothing when diagonal movement is enabled. When set to 1 (default), the path is smoothed by removing unnecessary waypoints. Set to 0 to disable smoothing and follow the grid exactly. This is an advanced setting.
   * **virtual cell height and width:** the path is generated using a virtual grid. The size of the cells if this virtual grid can be changed. When the grid is smaller, the movement is more precise and can find path between objects - but is also more intensive for the device to compute.
 
 !!! note

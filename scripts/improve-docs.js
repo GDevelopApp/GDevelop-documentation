@@ -176,6 +176,8 @@ IMPORTANT CONSTRAINTS
 • NEVER create new files unless absolutely necessary.
 • NEVER edit files outside docs/gdevelop5/ (except automated_updates_data.json as described below).
 • Do NOT touch images or binary files.
+• Do NOT document non-user-facing implementation details. Focus only on information
+  that is relevant to users creating games with GDevelop, not internal engine behavior.
 
 WHEN YOU ARE DONE
 -----------------
