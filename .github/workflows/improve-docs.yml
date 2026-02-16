@@ -17,7 +17,7 @@ on:
   schedule:
     - cron: "0 10 * * *" # Every day at 10:00 UTC (offset from the other workflow)
   workflow_dispatch: # Manual trigger
-  pull_request: # For testing in PRs
+  # pull_request: # For testing in PRs
 
 permissions:
   contents: write
