@@ -62,10 +62,12 @@ jobs:
 
           # Pass the AI summary to subsequent steps
           if [ -f /tmp/ai_summary.txt ]; then
+            delimiter="EOF_$(openssl rand -hex 8)"
             {
-              echo "summary<<SUMMARY_EOF"
+              echo "summary<<${delimiter}"
               cat /tmp/ai_summary.txt
-              echo "SUMMARY_EOF"
+              echo ""
+              echo "${delimiter}"
             } >> "$GITHUB_OUTPUT"
           fi
 
