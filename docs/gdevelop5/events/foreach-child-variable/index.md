@@ -15,6 +15,8 @@ For Each Child Variable events support [local variables](/gdevelop5/all-features
 
 For Each Child Variable events can have a **loop counter variable**. When set, this variable starts at 0 and is automatically incremented by 1 for each child variable processed. This is useful to know the index of the current child in the iteration.
 
+To add a loop counter variable, right-click on the For Each Child Variable event and choose **Add > Loop Counter Variable**.
+
 ## How to add this event
 
 Right click (or long press) on an existing [event](/gdevelop5/events) and choose *"Add"* in the menu. Then, select the event you want to add.

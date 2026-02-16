@@ -17,6 +17,8 @@ For Each events support [local variables](/gdevelop5/all-features/variables/loca
 
 For Each events can have a **loop counter variable**. When set, this variable starts at 0 and is automatically incremented by 1 for each object instance processed. This is useful to know the index of the current object in the iteration.
 
+To add a loop counter variable, right-click on the For Each event and choose **Add > Loop Counter Variable**.
+
 ## How to add this event
 
 Right click (or long press) on an existing [event](/gdevelop5/events) and choose *"Add"* in the menu. Then, select the event you want to add.

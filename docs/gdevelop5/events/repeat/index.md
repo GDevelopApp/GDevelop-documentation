@@ -15,6 +15,8 @@ Repeat events support [local variables](/gdevelop5/all-features/variables/local-
 
 Repeat events can have a **loop counter variable**. When set, this variable starts at 0 and is automatically incremented by 1 on each repetition. This is useful to know which iteration is currently running — for instance, to position objects at different offsets during each repetition.
 
+To add a loop counter variable, right-click on the Repeat event and choose **Add > Loop Counter Variable**.
+
 ## How to add this event
 
 Right click (or long press) on an existing [event](/gdevelop5/events) and choose *"Add"* in the menu. Then, select the event you want to add.

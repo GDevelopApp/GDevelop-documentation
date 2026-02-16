@@ -53,6 +53,18 @@ Once the tilemap object is configured, add an instance on the scene.
 
 Select the instance, open the instance properties panel, select a tile and start modifying the instance on the scene by clicking on it.
 
+### Painting tools
+
+The tilemap editor provides several tools for painting tiles on the scene:
+
+- **Freehand brush**: Paint tiles by dragging the mouse across the scene. Useful for organic shapes and freeform drawing.
+- **Rectangle paint**: Paint tiles in rectangular areas. Click and drag to paint a rectangle of tiles.
+- **Fill bucket**: Fill connected areas with the same tile. Click on a tile to replace it and all adjacent matching tiles with the selected tile.
+- **Tile picker**: Pick a tile from the scene to use it as the current selection. After picking a tile, the previous tool is automatically restored.
+- **Erase**: Remove tiles from the scene.
+
+You can also flip tiles horizontally or vertically using the flip buttons in the toolbar.
+
 ## Tile manipulation
 
 Tiles can be manipulated in-game through actions and conditions.
