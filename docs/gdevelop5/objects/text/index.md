@@ -28,10 +28,6 @@ The color of the text can be changed by clicking on the palette color square, lo
 You can choose from bold and italic, as well as choosing a custom font for the text. A custom font will require a font file, for which the file format must be TTF or OTF.
  ![](change-style-of-text.png)
 
-!!! note
-
-    When using custom fonts, make sure the font file is included with your game when you publish it. The font file will be automatically packaged with your game.
-
 ### Additional effects
 
 * You can create **gradients** using the action "gradient". You can choose available gradient types from the provided list and select up to four colors to use.
