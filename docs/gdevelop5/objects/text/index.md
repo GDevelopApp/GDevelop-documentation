@@ -25,7 +25,7 @@ The color of the text can be changed by clicking on the palette color square, lo
 
 ### Font and text style
 
-You can choose from bold and italic, as well as choosing a custom font for the text. A custom font will require a font file, for which the file format must be TTF or OFT.
+You can choose from bold and italic, as well as choosing a custom font for the text. A custom font will require a font file, for which the file format must be TTF or OTF.
  ![](change-style-of-text.png)
 
 ### Additional effects
@@ -52,14 +52,22 @@ You can choose from bold and italic, as well as choosing a custom font for the t
 
 Using events, you can modify all properties of the text object, such as:
 
-  * Text Displayed
-  * Bold
-  * Italic
-  * Padding
-  * Alignment
-  * Wrapping
-  * Wrapping Width
-  * Font Size
+  * **Text Displayed**: Change the actual text content
+  * **Bold**: Make text bold or remove bold styling
+  * **Italic**: Make text italic or remove italic styling
+  * **Padding**: Add space around the text (useful when using backgrounds or borders)
+  * **Alignment**: Align text to left, center, or right
+  * **Wrapping**: Enable or disable automatic line wrapping
+  * **Wrapping Width**: Set the maximum width before text wraps to a new line
+  * **Font Size**: Change the size of the text dynamically
+
+### Text object performance
+
+Text objects are efficient for displaying text, but keep these performance tips in mind:
+
+- Avoid changing text content every frame if the text doesn't actually change
+- When displaying many numbers that update frequently (like scores), consider using [Bitmap Text](/gdevelop5/objects/bitmap_text) objects for better performance
+- For styled text with multiple colors or fonts in one block, consider using [BBText](/gdevelop5/objects/bbtext) objects
 
 ## Examples
 

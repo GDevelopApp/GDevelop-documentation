@@ -3,7 +3,7 @@ title: Panel Sprite ("9 patch")
 ---
 # Panel Sprite ("9 patch")
 
-Panel sprite is an [object](/gdevelop5/objects) where its image is split into 9 pieces or slices and each slice is scaled separately. This can be helpful where you would need the object to keep it's proportions even after it is scaled. It can be useful for making the frames of a menu interface, as tiles (land, water, etc..) in top down games, as platforms in platformer games, used in health bars, etc.
+Panel sprite is an [object](/gdevelop5/objects) where its image is split into 9 pieces or slices and each slice is scaled separately. This can be helpful where you would need the object to keep its proportions even after it is scaled. It can be useful for making the frames of a menu interface, as tiles (land, water, etc.) in top down games, as platforms in platformer games, used in health bars, dialog boxes, and more.
 
 !!! note
 
@@ -42,6 +42,21 @@ If the top margin is set to 100, the margin would be 100 pixels from the top and
 If "repeat borders and center texture" is enabled, segments 2, 4, 5, 6, 8 will be repeated instead of stretched. This will scale the object in a way that's similar to the tiled sprite object.
 
 ![](9panel6.png)
+
+### When to use Panel Sprite vs other objects
+
+Panel Sprite is ideal when you need:
+
+- **UI elements** that can resize without distortion (buttons, panels, frames)
+- **Borders and decorative frames** that must maintain corner detail
+- **Dialog boxes** that adjust to fit varying amounts of text
+- **Scalable platforms** in platformer games that keep edge details intact
+
+For other use cases:
+
+- Use regular [Sprite](/gdevelop5/objects/sprite) objects when you don't need to resize, or stretching is acceptable
+- Use [Tiled Sprite](/gdevelop5/objects/tiled_sprite) objects when you need a pattern that repeats uniformly in all directions
+- Panel Sprites work well as components in [custom objects](/gdevelop5/objects/custom-objects-prefab-template) for reusable UI elements
 
 ## Reference
 
