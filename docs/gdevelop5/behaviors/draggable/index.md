@@ -23,12 +23,23 @@ Choose the behavior in the list:
 
 ## Properties and events
 
-This behavior has no options to change. It automatically applies to the object(s) having it.
-Using the events, you can still disable or reactivate this behavior for some objects - if you want to enable the player to move only some objects or restrict this to be done during a particular moment.
+### Behavior configuration
 
-Using events, you can also check if an object is being dragged:
+The draggable behavior has an optional parameter:
+
+  * **Check collision mask**: When enabled, the object can only be dragged when clicking on a non-transparent pixel (for sprites with transparency). This provides more precise click detection but may have a slight performance cost.
+
+### Using events
+
+Using the events, you can disable or reactivate this behavior for some objects - if you want to enable the player to move only some objects or restrict this to be done during a particular moment.
+
+You can also check if an object is being dragged or was just dropped:
 
 ![](eventcondtiondraggableobject.png)
+
+### Z-order behavior
+
+When multiple draggable objects overlap, the object with the highest Z-order will be dragged. This ensures that the topmost visible object is always the one being interacted with.
 
 
 # Examples

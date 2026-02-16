@@ -22,10 +22,11 @@ To add an anchor to an object:
 ## Behavior parameters
 
 ### Edge anchor
-You can choose to what the object will be anchored from 3 main options:
+You can choose to what the object will be anchored from several options:
 
   * **None**: No anchor will be applied to the selected edge.
   * **Window side**: The distance between the object's edge and the selected window side is set so that it is the same for any window size.
+  * **Window center**: The distance between the object's edge and the center of the window is maintained.
   * **Proportional**: The object's edge will always be set so that it is at the same proportion of the screen.
 
 Note that setting anchors to opposite edges will stretch the object.
