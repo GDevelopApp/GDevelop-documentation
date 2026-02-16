@@ -179,18 +179,23 @@ IMPORTANT CONSTRAINTS
 
 WHEN YOU ARE DONE
 -----------------
-Edit the file "automated_updates_data.json" in ${REPO_ROOT}/ and add a new
-entry at the END of the "last_improved_things" array with this format:
+1. Edit the file "automated_updates_data.json" in ${REPO_ROOT}/ and add a new
+   entry at the END of the "last_improved_things" array with this format:
 
-  { "date": "${today}", "summary": "<one-line description of what you improved>" }
+     { "date": "${today}", "summary": "<one-line description of what you improved>" }
 
-For example, the file might look like:
-  {
-    "last_automated_updates_commit": null,
-    "last_improved_things": [
-      { "date": "${today}", "summary": "Improved objects/sprite/index.md — clarified animation looping behaviour" }
-    ]
-  }
+   For example, the file might look like:
+     {
+       "last_automated_updates_commit": null,
+       "last_improved_things": [
+         { "date": "${today}", "summary": "Improved objects/sprite/index.md — clarified animation looping behaviour" }
+       ]
+     }
+
+2. Create a file at /tmp/ai_pr_title.txt containing ONLY a single line of
+   10–15 words that summarises the changes you made. This will be used as the
+   pull-request title. Prefix it with "[Auto] [Improve]".
+   Example: [Auto] [Improve] Clarified sprite animation looping and added missing tween parameters
 
 Make your changes now.`;
 }
@@ -204,17 +209,24 @@ function invokeAI(promptFile, cwd) {
 
   if (AI_PROVIDER === "claude") {
     // ── Claude Code ──────────────────────────────────────────────────────
-    cmd = `cat "${promptFile}" | claude -p --dangerously-skip-permissions`;
+    cmd = `cat "${promptFile}" | claude -p --verbose --dangerously-skip-permissions 2>&1`;
     // ── To use Codex instead, comment the block above and uncomment below.
   } else if (AI_PROVIDER === "codex") {
     // ── OpenAI Codex ─────────────────────────────────────────────────────
-    cmd = `codex --full-auto -q "$(cat '${promptFile}')"`;
+    cmd = `codex --full-auto -q "$(cat '${promptFile}')" 2>&1`;
     opts.shell = "/bin/bash";
   } else {
     throw new Error(`Unknown AI_PROVIDER: "${AI_PROVIDER}". Use "claude" or "codex".`);
   }
 
-  const output = execSync(cmd, { ...opts, encoding: "utf8", stdio: ["pipe", "pipe", "pipe"] });
+  let output;
+  try {
+    output = execSync(cmd, { ...opts, encoding: "utf8", stdio: ["pipe", "pipe", "pipe"] });
+  } catch (err) {
+    console.error(`AI command exited with code ${err.status}`);
+    output = (err.stdout || "") + (err.stderr || "");
+  }
+
   console.log("── AI agent output ─────────────────────────────────────────");
   console.log(output);
   console.log("── End of AI agent output ──────────────────────────────────");

@@ -213,9 +213,14 @@ IMPORTANT CONSTRAINTS
 
 WHEN YOU ARE DONE
 -----------------
-Output a brief summary (2-3 lines) of the documentation changes you made,
-or state that no changes were needed. This summary will be included in the
-pull request description.
+1. Output a brief summary (2-3 lines) of the documentation changes you made,
+   or state that no changes were needed. This summary will be included in the
+   pull request description.
+
+2. Create a file at /tmp/ai_pr_title.txt containing ONLY a single line of
+   10–15 words that summarises the changes you made. This will be used as the
+   pull-request title. Prefix it with "[Auto] [Update]".
+   Example: [Auto] [Update] Updated publishing docs to reflect new export options for Android
 
 Make your changes now.`;
 }
@@ -229,17 +234,24 @@ function invokeAI(promptFile, cwd) {
 
   if (AI_PROVIDER === "claude") {
     // ── Claude Code ──────────────────────────────────────────────────────
-    cmd = `cat "${promptFile}" | claude -p --dangerously-skip-permissions`;
+    cmd = `cat "${promptFile}" | claude -p --verbose --dangerously-skip-permissions 2>&1`;
     // ── To use Codex instead, comment the block above and uncomment below.
   } else if (AI_PROVIDER === "codex") {
     // ── OpenAI Codex ─────────────────────────────────────────────────────
-    cmd = `codex --full-auto -q "$(cat '${promptFile}')"`;
+    cmd = `codex --full-auto -q "$(cat '${promptFile}')" 2>&1`;
     opts.shell = "/bin/bash";
   } else {
     throw new Error(`Unknown AI_PROVIDER: "${AI_PROVIDER}". Use "claude" or "codex".`);
   }
 
-  const output = execSync(cmd, { ...opts, encoding: "utf8", stdio: ["pipe", "pipe", "pipe"] });
+  let output;
+  try {
+    output = execSync(cmd, { ...opts, encoding: "utf8", stdio: ["pipe", "pipe", "pipe"] });
+  } catch (err) {
+    console.error(`AI command exited with code ${err.status}`);
+    output = (err.stdout || "") + (err.stderr || "");
+  }
+
   console.log("── AI agent output ─────────────────────────────────────────");
   console.log(output);
   console.log("── End of AI agent output ──────────────────────────────────");
