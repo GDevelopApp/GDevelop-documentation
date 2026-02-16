@@ -21,6 +21,15 @@ The object picking rules are as follows:
 - The "Create an object" action will add to the list of picked objects the newly created instance. **If you use it on an object that was not subject to object picking so far, only the created instance will be picked.**
 - The "Take into account objects linked to" condition will unpick objects that are not linked to the picked instances of the other object.
 
+## Conditions vs actions in picking
+
+While both conditions and actions can reference objects, they behave differently in object picking:
+
+- **Conditions** actively filter objects based on criteria (e.g., "X position < 100" picks only objects with X less than 100)
+- **Actions** typically operate on already-picked objects without changing the picked list
+
+This means actions generally work with the objects selected by preceding conditions, rather than independently picking new objects. However, some special actions like "Create an object" and "Pick all instances" do modify the picked object list as noted above.
+
 ## Examples
 
 ### Example 1: No conditions

@@ -50,7 +50,25 @@ This is the complete list of operators:
 - `*` (multiply)
 - `/` (divide)
 
-Finally, functions can be used - see the next sections.
+### Operator precedence
+
+When mixing operators in a single expression, GDevelop follows mathematical precedence rules:
+
+1. **Parentheses** `()` have the highest precedence and are evaluated first
+2. **Multiplication and division** `*` `/` are evaluated before addition and subtraction
+3. **Addition and subtraction** `+` `-` are evaluated last
+4. Operators of the same precedence are evaluated left to right
+
+Examples:
+- `2 + 3 * 4` equals `14` (multiply first: `2 + 12`)
+- `(2 + 3) * 4` equals `20` (parentheses first: `5 * 4`)
+- `10 - 3 + 2` equals `9` (left to right: `7 + 2`)
+
+!!! tip
+
+    Use parentheses to make your expressions clearer, even when they're not strictly necessary. For example, `(Player.X() * 2) + 100` is easier to read than `Player.X() * 2 + 100`, even though they produce the same result.
+
+You can also use functions in numeric expressions - see the next sections.
 
 ## Text
 

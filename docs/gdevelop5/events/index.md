@@ -124,6 +124,20 @@ Sub-events appear nested within their parent events.
 
     Link, Comment, and JavaScript events can't have sub-events.
 
+## Event organization and management
+
+### Disabling events
+
+Any event can be temporarily disabled by right-clicking it and selecting "Disable". Disabled events are skipped during game execution and appear grayed out in the editor. This is useful for testing or temporarily removing functionality without deleting events.
+
+### Folding events
+
+Events that contain sub-events can be folded to collapse their sub-events in the editor. Right-click an event and select "Fold" to hide its sub-events. This is purely visual and doesn't affect how the game runs - it just helps keep your event sheet organized when working with complex event structures.
+
+### Event isolation
+
+Each event is executed independently with its own object picking context. This means objects picked in one event don't affect sibling events (events at the same level). However, sub-events do inherit the picked objects from their parent event, as described in the [object picking](/gdevelop5/events/object-picking) rules.
+
 ## List of event types
 
 This section lists the different types of events, each useful for adding logic to your game. If you're not familiar with events, refer to the previous sections.

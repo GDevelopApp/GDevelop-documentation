@@ -21,6 +21,14 @@ In the example below, GDevelop checks if the player has landed on top of a slime
 ![](eventconditiontf.jpg)
 
 Remember that conditions also select *which* objects are affected by the actions of the event.  In the example above, if there are multiple "Slime" objects in the scene, only the Slimes that are in collision with the "Player" will be affected by the actions on the right.  The same is true for "Player" objects if there are multiple instances of them.
+
+### Condition evaluation order
+
+When an event has multiple conditions, they are evaluated in order from top to bottom using AND logic. If any condition is false, GDevelop stops evaluating the remaining conditions and skips the actions. This is called "short-circuit evaluation" and helps improve performance by avoiding unnecessary checks.
+
+### Inverting conditions
+
+Any condition can be inverted by right-clicking it and selecting "Invert condition". An inverted condition is true when the normal condition would be false. For example, inverting "Mouse button pressed" makes it true when the mouse button is NOT pressed. Inverted conditions appear with a red cross icon in the event editor.
 ###  Example
 
 Here is an event that will destroy the "Square" objects whose have a X position which is less than 100 pixels:
