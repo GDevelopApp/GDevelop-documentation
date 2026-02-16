@@ -52,5 +52,4 @@ You can check these states in events to create visual feedback or trigger differ
 
 - Use consistent button sizes across your UI for a professional look
 - Make sure button images have enough contrast so text on them is readable
-- Consider using [Panel Sprite ("9-patch")](/gdevelop5/objects/panel_sprite) objects for button images, which scale better when button sizes need to change
 - Add sound effects when buttons are clicked to improve user experience
