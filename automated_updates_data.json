@@ -1,6 +1,6 @@
 {
   "last_automated_updates_commit": null,
   "last_improved_things": [
-
+    { "date": "2026-02-16", "summary": "Enhanced 3D model documentation with animation controls, material types, origin/center points, and shadow configuration" }
   ]
 }
