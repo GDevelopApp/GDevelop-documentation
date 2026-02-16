@@ -39,7 +39,7 @@ In the object editor, you can configure:
 
 | Property            | Description                                                                                               |
 | ------------------- | --------------------------------------------------------------------------------------------------------- |
-| **Spine JSON file** | The main file describing bones, animations, and attachments. The corresponding `.atlas` and image files must be in the same folder. |
+| **Spine JSON file** | The main file describing bones, animations, and attachments.                                              |
 | **Scale**           | The overall display scale of the skeleton. Default value is **1**. This scale is applied to the base size of the skeleton. |
 | **Skin name**       | The default skin to apply when the object is created. Leave empty to use the "default" skin defined in Spine. |
 | **Animations list** | List of available animations. Click **Scan** to automatically generate the list from the Spine JSON file. Each animation can be set to loop or play once. |
