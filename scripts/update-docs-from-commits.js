@@ -209,6 +209,7 @@ IMPORTANT CONSTRAINTS
 • NEVER create new files unless a major new feature truly requires it.
 • NEVER edit files outside docs/gdevelop5/.
 • Do NOT touch images or binary files.
+• Do not specify the default values. Don't feel forced to list all the properties of a behavior/object/condition/action: prefer to explain use cases, examples and how it's useful for the end user which will create a game with it.
 • If no documentation updates are needed, do nothing.
 
 WHEN YOU ARE DONE
