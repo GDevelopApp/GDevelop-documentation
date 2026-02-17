@@ -33,6 +33,29 @@ When you add an action to an event, select a Shape Painter object to display a l
 
 ![](pasted/20230304-170143.png)
 
+#### Available shape types
+
+The Shape Painter can draw many different types of shapes:
+
+**Basic shapes:**
+- **Rectangle** - Draw a standard rectangle between two points
+- **Rounded rectangle** - Draw a rectangle with rounded corners (specify corner radius)
+- **Fillet rectangle** - Draw a rectangle with filleted corners
+- **Chamfer rectangle** - Draw a rectangle with chamfered (beveled) corners
+- **Circle** - Draw a circle with a specified radius
+- **Ellipse** - Draw an ellipse with separate width and height
+
+**Advanced shapes:**
+- **Regular polygon** - Draw polygons with any number of sides (triangle, pentagon, hexagon, etc.) with optional rotation
+- **Star** - Draw stars with a specified number of points, outer radius, inner radius, and rotation
+- **Arc** - Draw circular arcs with start/end angles, optionally closed or anticlockwise
+- **Torus** - Draw a torus (ring/donut shape) with inner and outer radii and optional arc angles
+- **Line** - Draw straight lines with customizable thickness
+- **Bezier curve** - Draw smooth cubic bezier curves using two control points
+- **Quadratic curve** - Draw quadratic curves using a single control point
+
+#### Example: Drawing a rectangle
+
 As an example, we are going to draw a rectangle on the screen. Select the Rectangle in the actions.
 For the top left position enter 0 for both X and Y. For the bottom right position enter 100 for both X and Y.
 
@@ -47,6 +70,18 @@ If we left the relative position enabled, you may notice that our rectangle is i
 Using events we can also change any properties of a shape on the fly:
 
 ![](shapepaintereventsexample.png)
+
+#### Advanced path drawing
+
+For complex custom shapes, you can use the advanced path drawing actions:
+- **Begin fill path** - Start drawing a custom path
+- **Move path drawing position** - Move the drawing cursor without drawing
+- **Path line** - Add a line segment to the path
+- **Path bezier curve** - Add a bezier curve segment to the path
+- **Path arc** - Add an arc segment to the path
+- **End fill path** - Complete and fill the custom path
+
+These actions allow you to create complex, multi-segment shapes by combining different path elements.
 
 ### Collisions with a shape painter
 

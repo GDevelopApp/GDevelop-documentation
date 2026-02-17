@@ -24,6 +24,10 @@
     {
       "date": "2026-02-16",
       "summary": "Enhanced Spine object documentation with animation control details, point attachments, skins, mixing duration, and coordinate systems"
+    },
+    { 
+      "date": "2026-02-16", 
+      "summary": "Improved bitmap text and shape painter documentation: added alignment properties, wrapping width, and comprehensive list of all shape types"
     }
   ]
 }
