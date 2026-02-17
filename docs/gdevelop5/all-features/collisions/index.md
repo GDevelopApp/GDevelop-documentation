@@ -7,6 +7,16 @@ Most games need to detect and handle collisions between objects. Detecting and h
 
 GDevelop provides several different ways to handle collisions. You can detect collisions using Event Editor conditions and actions, or you can use Object behaviors.
 
+## How collision detection works
+
+GDevelop uses **pixel-perfect collision detection** based on the collision masks (hitboxes) of objects. The collision system uses the **Separating Axis Theorem (SAT)** algorithm to accurately detect when objects overlap.
+
+For performance, collision detection uses a two-phase approach:
+1. **Broad phase**: A quick bounding circle test checks if objects are far apart, skipping detailed collision tests when possible.
+2. **Narrow phase**: If objects are close, the SAT algorithm performs precise polygon-to-polygon collision testing using the objects' collision masks.
+
+Collision masks are cached and only recalculated when objects move, rotate, or change size, ensuring good performance.
+
 ## Make objects solids: use the "Separate objects" action (good for top-down games, RPG...)
 ![](/gdevelop5/all-features/separate-condition.png)
 
@@ -14,18 +24,37 @@ You can use the "**Separate objects**" action to move objects manually. The "Sep
 
 "**Separate objects.**" This action takes two object names as the argument.
 
-  * The first object name is the _object moving_ (the player, enemy, etc.).
-  * The second object name is an _object (or a group of objects) that are solid_. For example, these objects can be the walls.
+  * The first object name is the _object moving_ (the player, enemy, etc.). **Only this object will move.**
+  * The second object name is an _object (or a group of objects) that are solid_. For example, these objects can be the walls. These objects will not move.
 
-The action will then iterate over all of the objects given. It will ensure that if an object of the first kind is colliding with an object of the second kind, the object will be moved away. This is done using an algorithm called the _SAT algorithm_.
+The action will then iterate over all of the objects given. It will ensure that if an object of the first kind is colliding with an object of the second kind, the first object will be moved away using collision mask information.
 
 ![](/gdevelop5/all-features/separate-objects-action.png)
 
-This action will be launched in every frame. In an event without conditions, the action is already doing the collision checks. Avoid launching this action multiple times. Doing so could reduce game performance.
+### Separation algorithm
+
+When objects overlap, the "Separate objects" action:
+1. Detects all collision points between the moving object and solid objects
+2. Calculates the movement vector needed to separate them
+3. Finds the longest (most severe) overlap
+4. Moves the first object along this vector until objects no longer overlap
+
+### Optional parameter: touching edges
+
+The action has an optional parameter: **"Ignore objects that are touching each other on their edges, but are not overlapping"**.
+
+- When **disabled** (default): Objects touching at edges are considered colliding
+- When **enabled**: Only overlapping polygons count as collisions; edge-touching is ignored
+
+This is useful in platform games where edge-touching shouldn't trigger collision responses.
+
+### Performance considerations
+
+This action will be launched in every frame. In an event without conditions, the action is already doing the collision checks. Avoid launching this action multiple times or on too many objects, as this could reduce game performance.
 
 ### Detect collisions
 
-Using "Separate objects" is a good way to ensure that your objects can't move into other solid objects. This action checks collisions between objects. For example, if the game object "player" is touching a wall, this action, when used with the condition called "**Collision,**" will trigger damages to the player.
+Using "Separate objects" is a good way to ensure that your objects can't move into other solid objects. This action checks collisions between objects. For example, if the game object "player" is touching a wall, you can use the condition called "**Collision**" to detect this and trigger actions like taking damage.
 
 **The sequence is important.**
 
@@ -33,7 +62,16 @@ Using "Separate objects" is a good way to ensure that your objects can't move in
   - Add appropriate actions.
   - Add the "Separate Objects" action.
 
-After running the "Separate objects" action, objects are moved. _Collisions between objects will no longer be able to be checked._
+After running the "Separate objects" action, objects are moved apart. _Collisions between objects will no longer be detected_ because they are no longer overlapping.
+
+### The Collision condition
+
+The "**Collision**" condition tests if two objects are overlapping using pixel-perfect detection:
+
+- It uses the collision masks (hitboxes) of both objects
+- The test is accurate to the pixel level (not just bounding boxes)
+- Works with any objects that have collision masks defined
+- Performs the same two-phase detection (broad phase, then narrow phase) for efficiency
 
 You can find usage of these conditions and actions in the examples:
 
