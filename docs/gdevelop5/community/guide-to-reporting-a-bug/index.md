@@ -90,6 +90,14 @@ Some errors logs can hint the problem. So, do check (If possible) if there was a
 
     You might not be able to get any errors or even open the developer toolkit if GDevelop has crashed or is frozen
 
+#### Diagnostic Report
+
+If you're experiencing issues with your events, you can use the **Diagnostic Report** to identify problems:
+
+- Press **F7** (default shortcut) or open the command palette (Ctrl+P) and search for "diagnostic report"
+- The report will scan your project for missing actions, conditions, or expressions and invalid parameters
+- Include a screenshot of the diagnostic report in your bug report if it shows relevant errors
+
 ### Template for writing a report
 
 Here is a template you can use when writing a report.
