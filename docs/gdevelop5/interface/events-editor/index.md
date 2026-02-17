@@ -124,3 +124,13 @@ Any change can be undone or redone with these buttons toolbar buttons. (or by us
 The "search in events" button opens a panel at the bottom of the screen. You can search for a specific term in the parameters of the conditions and actions. You can also enter a replacement parameter and replace all the occurrences of the text in the events.
 
 ![](/gdevelop5/interface/events-editor/pasted/20230313-184033.png)
+
+## Diagnostic Report
+
+The diagnostic report helps you find issues in your events such as missing actions, conditions, or expressions from extensions, as well as invalid parameters. When the Events Editor detects problems, they are shown with a red underline.
+
+You can open the diagnostic report by:
+- Pressing **F7** (default keyboard shortcut)
+- Opening the command palette (Ctrl+P) and searching for "diagnostic report"
+
+The diagnostic report scans your project and lists all detected issues. You can click on any error in the report to navigate directly to the problematic event, making it easier to fix issues quickly.
