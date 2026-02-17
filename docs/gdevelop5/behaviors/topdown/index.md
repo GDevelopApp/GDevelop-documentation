@@ -26,7 +26,17 @@ After selecting the behavior, we should immediately see the available options:
 
 By changing the value of Acceleration, Deceleration and Max speed, we can change how fast our object is going to move.
 
+  * **Acceleration**: How quickly the object speeds up when a movement key is pressed (in pixels per second per second). Default: 400
+  * **Deceleration**: How quickly the object slows down when no keys are pressed (in pixels per second per second). Default: 800
+  * **Max speed**: The maximum movement speed the object can reach (in pixels per second). Default: 200
+
 By changing the value of Rotation speed, we can change how fast our object is going to rotate or if it going to rotate at all. I'll explain more about rotation, below.
+
+  * **Rotation speed**: Also called "Angular maximum speed", this controls how fast the object rotates toward the movement direction (in degrees per second). Default: 180 (half rotation per second)
+
+!!! note
+
+    All speed values are measured in pixels per second, and acceleration/deceleration values are in pixels per second per second. Higher acceleration values make the object feel more responsive, while higher deceleration values make it stop quickly when you release the controls.
 
 ####  Change angle offset
 
@@ -61,13 +71,52 @@ The "top-down gamepad mapper" behavior from the [gamepad extension](/gdevelop5/a
 
 The "top-down multitouch controller mapper" behavior from the [multi-touch joystick extension](/gdevelop5/objects/multitouch-joystick) can be added to characters to make them move according to players touches automatically.
 
+####  Simulate controls with events
+
+You can programmatically control movement using events with the "Simulate" actions:
+
+  * **Simulate key press**: Simulate pressing Left, Right, Up, or Down keys - useful for AI-controlled characters or tutorial sequences
+  * **Simulate stick control**: Simulate an analog stick input with a specific angle (in degrees) and force (0 to 1) - perfect for custom touch controls or gamepad-like movement
+
+These simulation actions work whether default controls are enabled or disabled, making them ideal for creating AI behavior, replays, or custom input systems.
+
+!!! tip
+
+    Use "Simulate stick control" to create smooth, analog-style movement. The force parameter (between 0 and 1) controls the movement speed, with 1 being full speed and 0.5 being half speed.
+
 ####  Rotate object
 
 ![](top-down-movement-rotateobject-box.png)
 
 By default, our object will rotate toward the direction of movement. The object will rotate at the speed we specify in the Rotation speed option. If we don't want the object to rotate, we need to disable this by unchecking the box.
 
-All theses values can also be changed at any time during the game using [events](/gdevelop5/events).
+####  Viewpoint and isometric games
+
+In the advanced settings, you can change the **Viewpoint** option to support different perspectives:
+
+  * **Top-Down** (default): Standard top-down view where up/down/left/right correspond directly to screen directions
+  * **Isometry 2:1 (26.565°)**: Also known as "Pixel Isometry", this creates the classic pixel-art isometric look commonly seen in retro games
+  * **True Isometry (30°)**: Mathematical true isometry with a 30-degree angle, providing a more realistic 3D perspective
+  * **Custom Isometry**: Allows you to specify any isometry angle between 1 and 44 degrees to match your game's art style
+
+When using isometric viewpoints, the behavior automatically adjusts the movement to match the visual perspective, so moving "up" will move the object in the diagonal direction that appears as "up" in the isometric view.
+
+!!! tip
+
+    When using an isometric viewpoint, set the **Movement angle offset** to -45 degrees. This ensures that keyboard directions (up/down/left/right) align properly with the isometric grid. GDevelop will suggest this adjustment when you change the viewpoint.
+
+For more information on creating isometric games, see the [Isometric Game example](#examples).
+
+####  Current speed and movement angle
+
+The behavior tracks the object's current speed and direction of movement. You can use these values in events to:
+
+  * Check if the object is moving with the "Is moving" condition
+  * Get the current speed in pixels per second
+  * Get the movement angle to display directional animations
+  * Compare speed to trigger effects (like dust particles when running fast)
+
+All these values can also be changed at any time during the game using [events](/gdevelop5/events).
 
 
 
