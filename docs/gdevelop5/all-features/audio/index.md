@@ -66,15 +66,35 @@ When a new scene starts, by default, sounds and music are stopped. If you want t
 
 ## Using channels
 
-When using the "Play a sound" or "Play a music file" action, audio files are played immediately. On completion, they are removed from memory. Looping is an exception. When you set the action to loop the audio file, it will be played forever (its' an "endless loop"). You must use the action to stop all sounds or music to stop them.
+When using the "Play a sound" or "Play a music file" action, audio files are played immediately. On completion, they are removed from memory. Looping is an exception. When you set the action to loop the audio file, it will be played forever (it's an "endless loop"). You must use the action to stop all sounds or music to stop them.
 
 If you want more control over sounds, use the action "**Play a sound on a channel**" or "**Play a music file on a channel.**" The action is used in the same way, except that you have to enter a channel number. This channel number can then be reused in other actions or conditions. A "channel number" can be used to check to see if a sound is being played on a channel, or it can be used to modify some properties of the music being played. For example, you could use a "channel number" to update the music volume dynamically according to the presence of enemies around the player.
+
+Channel numbers are arbitrary integers you choose — you can use any number you like. If you play a new sound or music on a channel that is already in use, the previous audio on that channel is stopped and replaced.
 
 ## Volume
 
 Sounds and music are by default played with a volume of 100%, which is the maximum. When starting a new sound/music, you can enter a different value (between 0 and 100).
 
 You can also use the action "Game global volume" to change the entire game's audio volume. A value of 0 means that no sounds and or music can be heard. This action is convenient when allowing the player to mute or change the game's volume. For instance, you might have a settings screen in your game that accesses the game's volume control. Mobile games usually have a button to mute the sounds of the game too.
+
+### Fading volume
+
+You can smoothly fade the volume of a sound or music on a channel from one level to another using the "**Fade the volume**" actions. Provide the starting volume, target volume, and duration in seconds. This is useful for fading in background music at the start of a scene, or fading out a sound before stopping it.
+
+## Playback rate (pitch)
+
+You can change the playback speed of a sound or music on a channel using the "**Set the playback speed**" actions (sometimes called pitch). A value of `1` is normal speed. Values below `1` slow the audio down (and lower the pitch), and values above `1` speed it up (and raise the pitch). The valid range is `0.5` to `4.0`.
+
+This is useful for effects like a slowed-down time feeling, or varying the pitch of repeated sound effects to make them sound less repetitive.
+
+## Seeking (playback position)
+
+You can jump to a specific position within a sound or music on a channel using the "**Set the playback position**" actions, with the position given in seconds. You can also read the current playback position using the corresponding expressions. This is useful for synchronising music to game events or resuming audio from a saved position.
+
+## Unloading audio
+
+You can explicitly unload a sound or music file from memory using the "**Unload a sound**" / "**Unload a music**" actions. This also stops any currently playing instance of that file. Use "**Unload all audio**" to stop and unload everything at once. Unloading audio you no longer need can free up memory, which is particularly useful on mobile devices.
 
 ## Pre-loading: improve the latency and loading times
 
@@ -106,6 +126,10 @@ The sound will be stopped when:
 * It reaches its **end** and is not configured to loop. 
 * There is **an error during the loading** (in which case it will be considered as playing for a few milliseconds, then will be deemed to be stopped as it was unable to load). 
 * Or you used **the action** to stop a sound or music on the channel.
+
+## Spatial sound
+
+For games where audio should feel positioned in a 2D or 3D space, the **Spatial Sound** extension provides actions to set the position of a sound on a channel and the position of the listener. Sounds played as *music* do not support spatialization — use *sounds on channels* instead. Volume naturally attenuates with distance: at double the reference distance, the volume is halved.
 
 ## Finding audio or making your own sounds
 

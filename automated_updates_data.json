@@ -40,6 +40,10 @@
     {
       "date": "2026-02-18",
       "summary": "Improved sprite and video object docs: added blend modes, color/tint, flip operations, animation speed scale, and fixed video typos and playback speed range"
+    },
+    {
+      "date": "2026-02-18",
+      "summary": "Improved audio docs with fade, pitch/rate, seeking, unload, and spatial sound; improved linked objects docs with bidirectional links, auto-cleanup, and use cases"
     }
   ]
 }
