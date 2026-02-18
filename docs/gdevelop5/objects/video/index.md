@@ -12,7 +12,7 @@ Videos can be controlled using events: timing, state (play/paused), audio volume
 
 !!! warning
 
-    Before a video can be played, you have to ensure that the player interacted first with your game (a simple click/touch on the screen is ok to allow to play videos). If you just add the condition "At the beginning of the scene" nothing will work.
+    Before a video can be played, you have to ensure that the player has interacted with your game first (a simple click or touch anywhere on the screen is sufficient). This is a one-time requirement per game session — once any interaction has been captured, all videos in your game are unblocked. If you use the condition "At the beginning of the scene" without a prior interaction, playback will silently fail.
 
 Support for videos can vary according to the device or browser running the game. It's recommended for a broad compatibility that the file is in  **.mp4** format, encoded as:
 
@@ -22,7 +22,7 @@ Support for videos can vary according to the device or browser running the game.
 
 ## Set up a video
 
-The video object has several objects:
+The video object has several properties:
 
 ![](pasted/20230304-170826.png)
 
@@ -72,7 +72,7 @@ We can set the opacity of a video using the `Set opacity` action. For maximum, y
 
 The playback speed of the video is the ratio of the current speed of the video to the original speed of the video. If the `Playback speed` condition returns a value greater than 1, the video is playing at a rate faster than than the original video. If the condition returns a value less than 1, it is playing at a rate slower than the original video. The default value for playback speed is 1.
 
-To set the playback speed of a video, use the `Set playback speed` action. To play the video at a faster rate than the default rate, set a value greater than 1 and to play it at a slower rate, set playback speed to a value less than 1. For default, set it to 1.
+To set the playback speed of a video, use the `Set playback speed` action. To play the video at a faster rate than the default rate, set a value greater than 1 and to play it at a slower rate, set playback speed to a value less than 1. For default, set it to 1. The playback speed is clamped between `0.5` (half speed) and `2` (double speed).
 
 ## Looping a video
 
@@ -102,8 +102,12 @@ To start a video or resume the video after pausing it, you can use the `Play a v
 
 You can also set the volume of a video using GDevelop. To compare the volume of a video, use the `Volume` condition. The maximum volume for a video is 100 and the minimum volume is 0 (muted).
 
-To set the volume of a video, use the `Set volume` condition. You can set it to any number between 0 to 100. The default volume is set to 100.
+To set the volume of a video, use the `Set volume` action. You can set it to any number between 0 to 100. The default volume is set to 100.
 
+
+!!! note
+
+    If two video objects use the same video file, they share the same underlying playback state — pausing one will pause the other, and their current playback position stays in sync. If you need independent playback, use different video files.
 
 ## Example
 
