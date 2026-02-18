@@ -126,6 +126,31 @@ When using an animation's name, write the name between quotation marks. For exam
 
 For more practice with events, follow the [tutorials here](http://wiki.compilgames.net/doku.php/gdevelop5/tutorials).
 
+## Changing the color/tint
+
+You can tint a sprite with a color using the **"Change color"** action. The color is specified in `R;G;B` format, where each component ranges from 0 to 255. For example, `"255;0;0"` applies a red tint. Setting the color back to `"255;255;255"` removes the tint (white = no color change).
+
+This is useful for feedback effects: flash an enemy red when hit, tint a collectible gold, or indicate power-up states.
+
+## Flipping a sprite
+
+You can mirror a sprite horizontally or vertically using the **"Flip the sprite"** actions (flip on X axis or flip on Y axis). This avoids having to create separate animations for left/right movement — just flip the sprite as the character changes direction.
+
+!!! tip
+
+    Checking whether a sprite is currently flipped (using the "Is flipped" conditions) is useful when you need to aim projectiles or spawn effects in the direction the character is facing.
+
+## Blend modes
+
+Sprites support four blend modes that control how a sprite is composited on top of the background:
+
+- **Normal** (0) – Default rendering; the sprite is drawn as-is over the background.
+- **Add** (1) – The sprite's colors are added to the background, creating a bright glow effect. Useful for fire, lasers, and light sources.
+- **Multiply** (2) – The sprite's colors are multiplied with the background, darkening it. Useful for shadows or color overlays.
+- **Screen** (3) – The inverse of Multiply; creates a brightening effect. Useful for light leaks and soft glow.
+
+Use the **"Change the blend mode"** action to switch blend modes at runtime.
+
 ## Advanced options
 
 Currently, the **Advanced options** button opens a window that allows you to toggle whether this object plays its animations while off screen. This option should only ever be toggled off for specific use cases, because having multiple objects play their animations when not on screen is bad for performance.
