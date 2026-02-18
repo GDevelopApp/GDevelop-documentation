@@ -25,9 +25,13 @@
       "date": "2026-02-16",
       "summary": "Enhanced Spine object documentation with animation control details, point attachments, skins, mixing duration, and coordinate systems"
     },
-    { 
-      "date": "2026-02-16", 
+    {
+      "date": "2026-02-16",
       "summary": "Improved bitmap text and shape painter documentation: added alignment properties, wrapping width, and comprehensive list of all shape types"
+    },
+    {
+      "date": "2026-02-18",
+      "summary": "Improved platformer and top-down movement behavior docs: added state conditions, simulate actions, isometry viewpoint options, and canGoDownFromJumpthru property"
     }
   ]
 }

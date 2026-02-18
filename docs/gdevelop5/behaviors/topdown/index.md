@@ -69,7 +69,39 @@ By default, our object will rotate toward the direction of movement. The object 
 
 All theses values can also be changed at any time during the game using [events](/gdevelop5/events).
 
+## Viewpoint and isometric movement
 
+The **Viewpoint** property controls how movement directions are calculated, which is important for games with an isometric perspective.
+
+- **Top-Down** (default) — standard top-down view. Up/down/left/right keys map directly to screen directions.
+- **Isometry 2:1** — pixel-art isometry at 26.565°. Movement directions are skewed to match a classic 2:1 isometric grid.
+- **True Isometry (30°)** — movement directions skewed at 30° for a true isometric projection.
+- **Custom Isometry** — lets you set any isometry angle from 1° to 44°.
+
+When using any of the isometry viewpoints, setting **Angle offset** to **-45** is recommended so that the object faces the correct direction relative to its movement.
+
+## Use conditions to check the character state
+
+The top-down movement behavior provides conditions and expressions to check what the character is currently doing:
+
+- **Is moving** — the object has a non-zero speed.
+- **Speed** — compare or read the current speed of the object (pixels per second).
+- **Is movement angle around** — compare the current movement direction (angle ± tolerance in degrees). Useful for choosing the correct animation frame.
+- **X velocity / Y velocity** — compare or read the individual axis speeds. Helpful for animating or adjusting physics interactions.
+
+## Simulate controls with events
+
+When default controls are disabled, use the **Simulate** actions to drive movement from events or custom input handling:
+
+| Action | Effect |
+|---|---|
+| Simulate left key press | Move the object left |
+| Simulate right key press | Move the object right |
+| Simulate up key press | Move the object up |
+| Simulate down key press | Move the object down |
+| Simulate stick control | Provide an analog direction (angle in degrees) and force (0 to 1) |
+
+These actions only apply for the current frame, so they must be called every frame as long as the input is active. The stick simulation is especially useful for gamepad analog input or virtual joysticks.
 
 # Examples
 

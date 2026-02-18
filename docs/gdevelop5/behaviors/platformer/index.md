@@ -89,6 +89,10 @@ By changing the grab tolerance value, we can set how close the character needs t
 
 By changing this value, we can set the maximum angle of a slope that the player can climb. The default is 0. 0 default means the character can move only on a flat surface.
 
+### Can go down from jumpthru platforms
+
+When enabled (the default), the character can press the down key while standing on a jumpthru platform to pass through it downward. Uncheck this option if you want jumpthru platforms to behave like solid ground for your character.
+
 ### Change the character speed
 
 The walking speed of a character is configured with:
@@ -132,6 +136,35 @@ The [advanced platformer movements](/gdevelop5/extensions/advanced-jump/referenc
 * Double jump
 * Coyote time (also known as ledge tolerance)
 * Dashes
+
+## Use conditions to check the character state
+
+The platformer character behavior provides conditions to check what the character is currently doing. These are essential for triggering animations, sounds, or game logic:
+
+- **Is on floor** — the character is standing on a platform.
+- **Is jumping** — the character is in the upward phase of a jump.
+- **Is falling** — the character is moving downward. Note that a character can be both jumping and falling at the same time (when the upward speed has run out but the jump key is still held).
+- **Is moving** — the character has a non-zero horizontal speed.
+- **Is on a ladder** — the character is currently climbing a ladder.
+- **Is grabbing a platform** — the character is hanging from a ledge.
+- **Can jump** — the character is allowed to jump (useful for implementing double-jump logic without an extension).
+
+## Simulate controls with events
+
+When default controls are disabled (by unchecking the "Default controls" box or using the **Ignore default controls** action), use the **Simulate** actions to move the character from events:
+
+| Action | Effect |
+|---|---|
+| Simulate left key press | Move the character left |
+| Simulate right key press | Move the character right |
+| Simulate jump key press | Make the character jump |
+| Simulate up key press | Move up on a ladder |
+| Simulate down key press | Move down on a ladder or drop through a jumpthru platform |
+| Simulate ladder key press | Grab a nearby ladder |
+| Simulate release ladder key press | Let go of the current ladder |
+| Simulate release platform key press | Release the currently grabbed ledge |
+
+These actions only apply for the current frame, so they must be called every frame as long as the input is active.
 
 ## Examples
 
