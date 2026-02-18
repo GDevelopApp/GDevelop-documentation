@@ -37,6 +37,22 @@ By default, the facing angle of our sprite is 0 which is the right side of our s
 !!! note
 
     Note that some expressions like `AngleBetweenPositions` can gives you a result between -180 and 180. This is equivalent to this schema. An angle of -45 degrees is equivalent to an angle of 270 degrees.
+
+####  Viewpoint (for isometric games)
+
+The **Viewpoint** property controls how movement directions are projected onto the screen. This is essential for isometric games where the visual perspective differs from the movement plane.
+
+* **Top-Down** (default): Movement directions map directly to screen axes. Moving right moves the object right on screen.
+* **Isometry 2:1**: Uses a classic pixel isometry projection (approximately 26.6°), the style common in many retro strategy games. The movement directions are transformed so that "forward" on screen matches the isometric visual perspective.
+* **True Isometry (30°)**: Uses a mathematically perfect 30-degree isometric projection.
+* **Custom Isometry**: Allows specifying any isometry angle, useful for non-standard perspectives.
+
+When using an isometric viewpoint, it is also recommended to set the **Movement angle offset** to **-45 degrees**. This rotates the input directions so that pressing "up" moves the character toward the top of the isometric view rather than straight up on screen.
+
+!!! tip
+
+    See the **Isometric Game** example below for a working demonstration of how to combine the Isometry viewpoint with the movement angle offset.
+
 ####  Allows diagonals
 
 ![](allow-diagonals-box.png)
@@ -66,6 +82,8 @@ The "top-down multitouch controller mapper" behavior from the [multi-touch joyst
 ![](top-down-movement-rotateobject-box.png)
 
 By default, our object will rotate toward the direction of movement. The object will rotate at the speed we specify in the Rotation speed option. If we don't want the object to rotate, we need to disable this by unchecking the box.
+
+For characters that face different directions using separate animations rather than rotation (for example, a top-down RPG character with separate walk-left and walk-right animations), disable rotation and use the movement angle expression to determine which animation to play with events.
 
 All theses values can also be changed at any time during the game using [events](/gdevelop5/events).
 
