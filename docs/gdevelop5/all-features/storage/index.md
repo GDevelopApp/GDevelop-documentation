@@ -31,6 +31,23 @@ A group name can be used to organize the data that is being saved. This makes it
 - `"Player/PositionX"` to store the X position of the player.
 - `"Player/Life"` to store the life of the player.
 
+## What data can be stored
+
+Storage actions can store **numbers** and **strings** (text). Each value is stored at a path made up of the storage name and the group path.
+
+To save a complex game state (e.g. an inventory or multiple player stats), you can either:
+
+- Use multiple storage entries with slash-separated group paths, such as `"Inventory/Sword"`, `"Inventory/Shield"`, etc.
+- Convert a structure variable to JSON using `ToJSON(myVariable)`, store the resulting string, and later read it back and convert it with the "Convert JSON to a variable" action.
+
+!!! note
+
+    Storage does **not** directly support storing array or structure variables in one action. Use the JSON conversion approach above if you need to save a whole variable structure at once.
+
+## Checking if data exists
+
+Use the condition **"Element exists in storage"** before reading a value to make sure a save file exists. This avoids reading an undefined value, for example on the very first launch of the game before any data has been saved.
+
 ## Advanced: Clear the storage during a preview
 
 Data is stored permanently in the internal storage of the preview window, which is persisted across previews and even after GDevelop is closed (like in an exported game).

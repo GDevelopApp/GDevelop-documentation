@@ -20,6 +20,27 @@ GDevelop provides the action called "Send a request to a web page". You can spec
 
 When the server sends the response, it is saved in a variable so that you can read what was sent.
 
+!!! note
+
+    The "Send a request to a web page" action is **asynchronous**. Actions and sub-events placed after it will only run once the response has been received (or an error has occurred). See [asynchronous events](/gdevelop5/events/async/) for details.
+
+## Error handling
+
+The action accepts an optional **error variable**. After the request completes:
+
+- If the server responds with an HTTP status code **400 or higher** (e.g. 404 Not Found, 500 Server Error), the error variable is set to that status code as a string (e.g. `"404"`).
+- If the request could not be sent at all (e.g. no internet connection, or a CORS issue on web builds), the error variable is set to `"REQUEST_NOT_SENT"`.
+- If the request succeeds (status code below 400), the error variable remains empty and the response body is stored in the response variable.
+
+Use a condition to check whether the error variable is empty to detect success or failure:
+
+- Success: error variable equals `""` (empty string)
+- Failure: error variable is not empty
+
+!!! warning
+
+    On **web/HTML5 builds**, requests to a different domain may be blocked by the browser due to [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) restrictions. Your server must include the appropriate `Access-Control-Allow-Origin` headers to allow requests from your game's domain. If the request is blocked, the error variable will be set to `"REQUEST_NOT_SENT"`.
+
 ## How to format the content
 
 * For GET requests, parameters have to be sent in the content in the format of a "query string":

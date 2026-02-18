@@ -11,13 +11,33 @@ Sometimes though, you might want to make an exception. Some actions and conditio
 
 Asynchronous events are special actions that will not execute when called. Instead, they'll do a bit of work between each frame, and once it is done, will allow the actions and subevents following it to run. Just after being called, the actions and subevents following it will be skipped, as they'll only run when the asynchronous action has finished its work, and the event sheet will continue executing the rest normally.
 
+## Which actions are asynchronous?
+
+The following built-in actions are asynchronous:
+
+- **Wait** (from the Time/timers feature) — pauses execution for a given duration without freezing the game.
+- **Send a request to a web page** (from the Network feature) — waits for the server response before continuing.
+- **File system** actions (desktop only) — file read, write, delete operations all have async variants.
+- **Steamworks** actions — lobby creation, workshop operations, etc.
+
+Custom functions written with events can also be made asynchronous. See [asynchronous functions](/gdevelop5/events/functions/asynchronous-functions/).
+
 ## Gotchas
 
 What you do **not** need to watch out for:
 
- - Object picking - object picking works like normal events, previously picked objects will still be picked afterward. Objects deleted in the meantime will be unpicked.
- - Using results of the event in actions or subevents after the asynchronous actions - If an action is just after an asynchronous action, or in a subevent of the event it was used in, it will only get executed once the asynchronous action is done with its work, so you can use
+ - **Object picking** — object picking works like normal events. Previously picked objects will still be picked after the async action finishes. Objects deleted in the meantime will be unpicked automatically.
+ - **Actions and sub-events that follow the async action** — any action placed directly after an asynchronous action in the same event, and any sub-events of the event containing the async action, are queued and will only run once the asynchronous action has finished. You can safely use the results of the async action in these actions and sub-events.
 
 What you **do** need to watch out for:
 
- - Using the results of the asynchronous action or side effects of actions/subevents following it in a sibling event - uniquely actions following the asynchronous one in the same event, and events that are subevents of the event using the asynchronous action will be queued for execution after the asynchronous action has finished its job. The others will be executed synchronously.
+ - **Sibling events** — events that are siblings (at the same indentation level) of the event containing the async action are *not* queued. They run synchronously at their normal turn in the event sheet, without waiting for the async action to complete. Do not rely on the results of an async action in a sibling event.
+
+## Example
+
+The **Wait** action is the simplest async action. The following events create a 2-second delay before deleting an enemy:
+
+1. Event: `[no condition]` → action: **Wait 2 seconds** *(async)*
+2. Sub-event of the above → action: **Delete Enemy**
+
+Because "Delete Enemy" is in a sub-event of the event that contains the Wait action, it will only run after the 2 seconds have elapsed. The rest of the event sheet continues to run normally (the game does not freeze) while waiting.
