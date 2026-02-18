@@ -92,3 +92,27 @@ Scores.Alice.Levels[CurrentLevel]
 Array variables can contain structure variables. It allows to have several values for one index.
 
 ![](array-of-structures.png)
+
+## Modifying arrays with events
+
+Arrays can be modified at runtime using events. A few common operations:
+
+- **Add an element at the end** — Use the action **Add a variable to an array** to append a copy of an existing variable to the end of an array. Alternatively, use **Add a number (or text) to an array** to append a primitive value directly.
+- **Remove an element** — Use the action **Remove a variable from an array** with the index of the element to remove. Elements after the removed one shift down automatically.
+- **Clear all elements** — Use the action **Clear the children of a variable** to remove every element from an array at once.
+
+!!! note
+
+    When you add a variable to an array, a **copy** is made. Modifying the original variable later will not affect the copy that was pushed.
+
+## Modifying structures with events
+
+Structures can also be modified at runtime:
+
+- **Remove a child** — Use the action **Remove a child from a variable** with the child's name to delete it from the structure.
+- **Clear all children** — Use the action **Clear the children of a variable** to remove every child at once.
+
+## Checking and counting children
+
+- **Check if a child exists** — Use the condition **Child variable exists** to test whether a structure has a child with a given name before reading it.
+- **Count children** — Use the expression **Number of children of a variable** (`VariableChildCount(myVariable)`) to get how many children an array or structure currently holds. This is useful when iterating over all elements.

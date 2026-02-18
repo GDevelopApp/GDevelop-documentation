@@ -31,3 +31,17 @@ In the editor, choose "Add a variable", then enter a name, choose a data type an
 ## Using object variables in expressions
 
 You can use object variables in [expressions](/gdevelop5/all-features/expressions). Just write the name of the object, followed by a dot then the name of the variable to use it in a formula. For example: `Player.RemainingPoints`.
+
+## When to use object variables
+
+Object variables are the right choice when the data is **specific to one instance**. For example:
+
+- An enemy's current health — each enemy on the screen needs its own value.
+- A projectile's damage — each projectile may carry a different power level depending on the weapon that fired it.
+- A collectible's point value — each coin or gem can hold a different reward.
+
+If every instance always shares the same value, a [scene variable](/gdevelop5/all-features/variables/scene-variables) or a [global variable](/gdevelop5/all-features/variables/global-variables) is usually simpler.
+
+!!! tip
+
+    Object variables can also hold structures or arrays, which lets you store complex per-instance data (for example, an inventory attached to a character object) without needing any additional variables.
