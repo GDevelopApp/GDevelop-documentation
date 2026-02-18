@@ -32,6 +32,10 @@
     {
       "date": "2026-02-18",
       "summary": "Improved variables documentation: added array/structure manipulation operations, object variable use-case guidance, and fixed physics2 typos"
+    },
+    {
+      "date": "2026-02-18",
+      "summary": "Improved platformer and top-down movement docs: added ladder climbing, jumpthru drop-through, ledge grab clarifications, and isometric viewpoint options"
     }
   ]
 }

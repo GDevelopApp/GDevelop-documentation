@@ -38,6 +38,10 @@ The offset of the grab can also be changed on the Y-axis.
 
 The offset option allows us to change the position of the grab to fit the animation of our character.
 
+!!! note
+
+    A platform must also have **"Grab the ledge"** enabled for a character to grab its edges. Both the platform and the character must have the option enabled.
+
 ### Create platforms with tilemaps
 
 The platform behavior can be added to tilemap collision mask objects. Learn more about it on the [tilemap](/gdevelop5/objects/tilemap#handle_collisions) page.
@@ -85,9 +89,21 @@ Again, as with the "Platform Behavior", we can set the grab offset on the Y axis
 
 By changing the grab tolerance value, we can set how close the character needs to be to the platform in order to allow the character to grab the platform object.
 
+By default, the character can grab a ledge even while standing still. This is useful so that, when moving toward a wall, a character automatically grabs a nearby ledge. You can disable "Automatically grab platform ledges without having to move horizontally" if you only want the character to grab while actively moving.
+
+### Climb a ladder
+
+When the character overlaps a **Ladder** object, pressing the up or down key makes the character climb or descend. Horizontal movement is disabled while on a ladder.
+
+The climbing speed is a separate property from the walking speed and can be adjusted in the behavior properties or changed at runtime with events.
+
+### Go down through a platform
+
+When the character is standing on a **Jumpthru platform**, pressing the down key causes the character to fall through it. This is useful for platforms the player can drop down from, such as floating floors. This behavior is enabled by default and can be turned off in the behavior properties.
+
 ### Slope max angle
 
-By changing this value, we can set the maximum angle of a slope that the player can climb. The default is 0. 0 default means the character can move only on a flat surface.
+By changing this value, we can set the maximum angle of a slope that the player can climb. Slopes steeper than this angle will block the character. A value of 0 means the character can only move on a perfectly flat surface, while higher values allow climbing steeper slopes. A value of 60 degrees (the default in most configurations) allows traversing moderately steep terrain.
 
 ### Change the character speed
 
