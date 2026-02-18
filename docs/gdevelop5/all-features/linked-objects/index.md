@@ -3,39 +3,47 @@ title: Linked Objects
 ---
 # Linked Objects
 
-Actions and conditions of "Linked Objects" category allow us to make virtual connections between objects. We can later reference them by their links to each other. Typically, you can only link two objects when creating them.
+Actions and conditions of the "Linked Objects" category allow you to create virtual connections between object instances. You can later retrieve those connected instances by their link, without needing to store object references in variables. Links are **bidirectional**: linking object A to object B also makes B linked to A.
 
 !!! tip
 
-    You can also use a “For each object” event to take each instance of an object individually, and create links to other objects. Learn more about the "For each object" event by visiting [this page about For each event](/gdevelop5/events/foreach).
+    You can also use a "For each object" event to iterate over each instance of an object individually and create links to other objects. Learn more about the "For each object" event by visiting [this page about For each event](/gdevelop5/events/foreach).
 
 !!! tip
 
+    Some of the linked object operations are available as both a condition and an action. The condition variant is false if no linked object was found (useful to branch logic), while the action variant always succeeds even if nothing is picked.
 
-    Some of the conditions of Linked Objects are available as both, conditions as well as actions. Conditions will be considered as false if no object is picked. If you don't want this behavior, use their action counterparts.
+## Linking objects
 
+Use the **Link two objects** action to create a connection between instances. Links are set up once — typically when an object is created — and then used repeatedly throughout the game. A single object can be linked to many others, and there is no hard limit on the number of links.
 
-#### Link two objects
+## Picking linked objects
 
-This action creates links between the object(s) in the first parameter and the object(s) in the second parameter.
+Use **Take into account linked objects** to narrow the current object selection to only instances that are linked to another specific set of objects. The picked instances then carry forward into the next actions and sub-events. This is the core mechanism for acting on relationships, for example: "for each enemy, deal damage to the health bar linked to that enemy."
 
-#### Take into account linked objects
+When used as a **condition**, it also returns false if nothing was picked — useful for checking whether a link exists at all before acting on it.
 
-There is both an action and a condition called "Take into account linked objects".
+## Removing links
 
-This action scans through the objects in the first parameters and for each one, if there is a link registered from it to any of the objects in the second parameter, they will be picked for the next actions. After executing this action, the actions that are executed next (as well as the subevents) will only execute on the objects that were picked.
+- **Unlink two objects** removes the connection between a specific pair of instances.
+- **Unlink all objects from an object** removes every link associated with the given instance(s).
 
-The condition works the same in all cases, except if no object was picked (i.e: no object in the first parameter had a link to any object in the second parameter). In such a case, the condition will be false.
+When an object is **deleted from the scene**, all its links are automatically cleaned up so that other objects no longer point to the removed instance.
 
-#### Unlink all objects from an object
+## Use cases
 
-This action removes all links to the specified object(s). They won't be virtually linked to any other objects.
+Linked objects are well suited for **permanent one-to-one or one-to-many relationships** that would be cumbersome to track with variables:
 
-#### Unlink two objects
+- Attach a health bar object to a character and always update the correct bar.
+- Link equipment items to the character currently holding them.
+- Connect terrain tiles to the pathfinder or enemy that "owns" them, so the terrain follows when the owner moves.
+- Build graph structures for AI, where each node object is linked to its neighbours.
 
-This action removes the links between the given pair of objects.
+!!! tip
 
-### Examples
+    For grid-based linking (rectangular, hexagonal, or isometric grids) and graph traversal, see the [Linked Objects Tools extension](/gdevelop5/all-features/extensions/linked-objects-tools).
+
+## Examples
 
 In this example, for every existing "Pathfinder" object, a new "Terrain" object is created.  This creation and linking step only needs to be performed one time.  The bottom event is run every frame and will cause the "Terrain" objects to always follow the "Pathfinder" object they are linked to.
 
