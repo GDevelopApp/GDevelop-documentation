@@ -151,15 +151,6 @@ Sprites support four blend modes that control how a sprite is composited on top 
 
 Use the **"Change the blend mode"** action to switch blend modes at runtime.
 
-## Controlling animation timing
-
-The **animation speed** set in the object editor is the time in seconds between two consecutive frames. A value of `0.08` seconds (the default) plays at about 12 frames per second. Decrease this value for faster animations and increase it for slower ones.
-
-You can also control animation timing at runtime:
-
-- **Animation speed scale** – A multiplier applied on top of the frame time. A value of `2` plays the animation twice as fast; `0.5` plays it at half speed. This is useful for slow-motion effects or tying animation speed to a character's movement speed.
-- **Animation elapsed time** – You can read or set the current elapsed time within the animation. This allows you to synchronize animations precisely, or jump to a specific point in an animation.
-
 ## Advanced options
 
 Currently, the **Advanced options** button opens a window that allows you to toggle whether this object plays its animations while off screen. This option should only ever be toggled off for specific use cases, because having multiple objects play their animations when not on screen is bad for performance.
