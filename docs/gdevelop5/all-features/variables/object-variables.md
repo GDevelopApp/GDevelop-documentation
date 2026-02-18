@@ -36,7 +36,7 @@ You can use object variables in [expressions](/gdevelop5/all-features/expression
 
 Object variables are the right choice when the data is **specific to one instance**. For example:
 
-- An enemy's current health — each enemy on the screen needs its own value.
+- An enemy's current health — each enemy on the screen needs its own value. While a variable can work, the [Health behavior](/gdevelop5/extensions/health/) is usually a better choice for managing health.
 - A projectile's damage — each projectile may carry a different power level depending on the weapon that fired it.
 - A collectible's point value — each coin or gem can hold a different reward.
 
