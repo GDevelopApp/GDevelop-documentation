@@ -30,7 +30,7 @@ The world has three properties:
 
   * **Gravity**. It consists of two components (X and Y) and works like our gravity adding a force to every object, pushing them in the given direction. Objects support a gravity scale factor too, more on this in the bodies section.
   * **Timescale**. It defines the scale of time the simulation will use. With a timescale of `0.5`, the simulation will run at half the speed; with a timescale of `2`, the simulation will be twice as fast. If timescale is `0`, the simulation will pause. Super useful for bullet time effects!
-  * **Scale**. GDevelop distances and sizes are defined in pixels, but the physics engine uses meters internally. A scale factor must is set (with two components, scale on X axis and on Y axis) to make the conversion. The scale numbers mean how many pixels a meter is; for example, a scale of 50 means that a distance of 50 pixels in GDevelop is converted to 1 meter in the physics world.
+  * **Scale**. GDevelop distances and sizes are defined in pixels, but the physics engine uses meters internally. A scale factor must be set (with two components, scale on X axis and on Y axis) to make the conversion. The scale numbers mean how many pixels a meter is; for example, a scale of 50 means that a distance of 50 pixels in GDevelop is converted to 1 meter in the physics world.
 
 !!! note
 
@@ -42,7 +42,7 @@ Bodies are the life of the Physics extension; they define how your object will m
 
 When you add the Physics behavior to an object, you can set the body configuration right from the IDE.
 There are many options to play with. They have been categorized below.
-.
+
 ### Body Type
 
 GDevelop supports three basic body types:
