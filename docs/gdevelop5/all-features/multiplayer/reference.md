@@ -6,6 +6,17 @@ Use the "Open game lobbies" action to let players join a game, and use condition
 
 ## Actions
 
+**Close Game Lobbies**  
+Close the game lobbies window. Using this action is usually not required because the window is automatically closed when the game of a lobby starts or if the user cancels.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this action.
+
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Multiplayer::CloseGameLobbies`.
+
 **Disable variable synchronization**  
 Disable synchronization of the variable over the network. It will not be sent to other players anymore.
 
