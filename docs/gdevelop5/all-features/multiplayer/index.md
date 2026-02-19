@@ -96,6 +96,8 @@ Use the action **Open game lobbies**. This action will show the lobbies to the p
 If needed, you can use the condition **Lobbies window is open** to check if the lobbies are open and prevent some actions to happen on your scene.
 Typically, you can use this action when the user presses a button in your menu.
 
+You can also use the action **Close game lobbies** to programmatically close the lobbies window. This is usually not required because the window is automatically closed when a lobby game starts or when the player cancels — but it can be useful if you want to close it in response to a specific event in your game.
+
 Once the game has started, the condition **Lobby game has just started** will turn true, so you can start your game.
 Typically, you can use this condition to either start moving things in your game, or to switch to another scene, where the game will happen.
 
