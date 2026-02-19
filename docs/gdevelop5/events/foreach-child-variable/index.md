@@ -7,9 +7,22 @@ title: For each child variable event
 
 This event stores the value of each child variable (as a string or number) and the name of the child variable (as a string) into variables you specify in the parameters of the event. You can use either scene variables or [local variables](/gdevelop5/all-features/variables/local-variables) for the variable to iterate on, for the variable storing the child value, and for the optional variable storing the child name.
 
-## Local variables
+## How the child variable works (reference, not copy)
+
+During each iteration, the child variable is set to be a **reference** (also called an "alias") to the actual child inside the structure or array — it is **not** a copy. This has two important consequences:
+
+1. **Modifying the child variable modifies the original data.** For example, if you iterate over an array of structures, each containing an `Age` field, and you add 1 to `ChildVariable.Age`, the original value stored in the array is updated. This is useful when you need to update values in bulk.
+2. **After the loop ends, a scene variable used as the child variable still holds a reference to the last element.** Any changes made to that scene variable after the loop will modify the last element of the structure or array. This can lead to surprising and hard-to-debug behavior.
+
+!!! danger "Use local variables for the child variable"
+
+    In almost all cases, you should use a **local variable** (not a scene variable) for the child variable. Because a local variable is destroyed when the loop ends, there is no risk of accidentally modifying your data after the iteration is finished. See the section below.
+
+## Local variables (recommended)
 
 For Each Child Variable events support [local variables](/gdevelop5/all-features/variables/local-variables). Local variables declared in this event are scoped to the loop: they are initialized before the loop starts and are only accessible within the loop and its sub-events.
+
+Using a local variable as the child variable is the recommended approach because the reference to the last iterated element is automatically cleaned up when the loop ends, preventing unintended side effects.
 
 ## Loop counter variable
 
