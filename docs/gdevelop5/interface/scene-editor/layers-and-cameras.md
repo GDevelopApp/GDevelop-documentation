@@ -57,11 +57,29 @@ Objects can be dynamically moved to a different layer while the game is running.
 
 The visibility of a layer can be set to hidden or visible.  Layers are visible by default, but this can be changed in either the Layers panel or by using events. Hiding a layer _does not_ delete the objects on the layer. If a layer is hidden, all the objects on the layer exist and can interact with the objects on other layers, but they are not displayed on the screen.
 
+### Creating a HUD or UI layer
+
+A common pattern is to dedicate a layer (often named "UI" or "HUD") to interface elements — score displays, health bars, menus, and buttons — that should remain fixed on screen regardless of where the game world camera moves.
+
+To set this up:
+
+1. Create a new layer in the Layers panel and name it "UI".
+2. Place all interface objects on this "UI" layer.
+3. Do **not** move the camera of the "UI" layer in events — leave it at its default centered position.
+
+Because each layer has its own independent camera, the "UI" layer stays stationary while the base layer camera pans around the game world.
+
 ### Time scale of objects in a layer
 
 **Time scale** is the speed at which the game runs relative to the default speed, which is 1. This can be modified to slow down or speed up the game. Changing the time scale of a layer allows you to change the speed of everything happening in a single layer. To slow down the time on a layer, set the time scale to less than 1. To speed up the time on a layer, set the time scale to greater than 1.
 
 ![](/gdevelop5/interface/scene-editor/layers-and-cameras/pasted/20230310-201551.png)
+
+### 3D layers
+
+In addition to standard 2D layers, GDevelop supports **3D layers** for rendering 3D objects (such as 3D Box and 3D Model objects). A 3D layer uses its own perspective camera that can be positioned along the Z axis and rotated around the X and Y axes. Additional 3D camera properties — field of view (FOV), near and far clipping distances — can be configured via events.
+
+GDevelop also supports a **2D+3D layer** type that renders both flat sprites and 3D objects together on the same layer.
 
 ### Effects (shaders) on layers
 

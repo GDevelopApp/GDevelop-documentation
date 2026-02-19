@@ -63,21 +63,50 @@ In a platformer game with the "Platformer character" behavior, collisions with p
         **See it in action!** 🎮
     Open this example online: [Platformer Example](https://editor.gdevelop.io?project=example://platformer)
 
-## Game with physics? Use the Physics behavior
+## Detect objects within a range
 
-Use [Physics behavior](/gdevelop5/behaviors/physics) in order to achieve realistic physical behavior in your game. Attach "Physics" behavior to your objects. The objects will then behave as though they are alive in the game world. Some examples of real-world behavior include bouncing balls, falling, jumping, etc.
+The **Distance between two objects** condition checks whether two objects are within a specified pixel distance of each other, without requiring them to overlap. Common uses include:
 
-Configure game walls or solid objects that should not move with "static" behavior.
+- Triggering an enemy detection or alert when a player enters a radius
+- Creating a collection radius so items attract towards the player before touching
+- Activating proximity-based interactions or traps
 
-### Detect collisions with the Physics behavior
+## Check if a point is inside an object
 
-When you're using the **Physics** behavior, _do not use_ the **Collision** condition that is in the **Features for all objects** category. _The physics engine will manage all collisions by itself._  The Collision condition won't correctly detect when objects are touching.
+The **Point inside object** condition tests whether a specific X/Y coordinate falls within an object's collision mask. This is more precise than standard click events when working with non-rectangular objects. Common uses include:
 
-Instead, use the Collision condition _inside the_ **Physics** _behavior category_, which properly uses the physics engine to simulate the collisions.
+- Detecting whether a mouse cursor or touch position landed on an irregularly shaped object
+- Verifying that a position is clear before spawning or placing a new object
+
+## Ray casting
+
+The **Raycast** condition casts a ray from a starting position in a given direction and picks any objects the ray intersects. You can store the X/Y coordinates of the hit point in result variables for further actions. Common applications include:
+
+- Line-of-sight checks (can an enemy see the player through obstacles?)
+- Instant hit detection for shooting mechanics without spawning a moving bullet object
+- Ground or surface sensing directly below or in front of an object
+
+Use **Raycast to position** to target a specific X/Y endpoint instead of specifying an angle and maximum distance.
+
+## Game with physics? Use the Physics 2 behavior
+
+Use the [Physics 2 behavior](/gdevelop5/behaviors/physics2) for realistic physical simulation in your game. Physics 2 is the current, recommended version. Attach it to your objects and they will follow the laws of physics — bouncing balls, falling objects, swinging pendulums, and more. It supports a range of collision shapes (Box, Circle, Edge, and custom Polygon) as well as collision filtering.
+
+Configure walls and solid objects that should not move as **Static** bodies.
+
+!!! note
+
+    The older **Physics** behavior is deprecated. New projects should use **Physics 2**.
+
+### Detect collisions with the Physics 2 behavior
+
+When using the **Physics 2** behavior, _do not use_ the **Collision** condition from the **Features for all objects** category. _The physics engine manages all collisions internally_, and the standard Collision condition will not correctly detect contact between physics bodies.
+
+Instead, use the Collision condition _inside the_ **Physics 2** _behavior category_, which properly queries the physics engine.
 
 ![](/gdevelop5/all-features/usephysicsbehaviornotcollisionconditionnew.png)
 
-Additionally, objects with the **Physics** behavior ignore the object's Collision Masks and instead use the collision information on the **BEHAVIORS** tab of the object itself. This defaults to a box that is the full dimension of the object. In most cases, there will be a need to change these settings from within the **BEHAVIORS** tab.
+Additionally, objects with the **Physics 2** behavior use the collision shape defined on the **BEHAVIORS** tab (Box, Circle, Edge, or Polygon), not the object's regular Collision Mask. By default this is a box matching the object's full size. Adjust the shape in the **BEHAVIORS** tab as needed to fit the visual appearance of the object.
 ![](/gdevelop5/all-features/physics_hitbox.png)
 !!! tip
 
