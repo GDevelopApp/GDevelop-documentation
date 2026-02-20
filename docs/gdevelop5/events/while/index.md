@@ -3,7 +3,7 @@ title: While events
 ---
 # While events
 
-While events are a special kind of [event](/gdevelop5/events): as long as the *"While` conditions* are true, the event is repeated without interruption (the next events are **not executed** and the screen is **not** refreshed).
+While events are a special kind of [event](/gdevelop5/events): as long as the *"While" conditions* are true, the event is repeated without interruption (the next events are **not executed** and the screen is **not** refreshed).
 
 ![](pasted/20220215-152759.png)
 

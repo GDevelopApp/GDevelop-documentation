@@ -44,6 +44,10 @@
     {
       "date": "2026-02-18",
       "summary": "Improved audio docs with fade, pitch/rate, seeking, unload, and spatial sound; improved linked objects docs with bidirectional links, auto-cleanup, and use cases"
+    },
+    {
+      "date": "2026-02-20",
+      "summary": "Improved events docs: fixed truncated sentence and added execution-flow diagram in async.md, fixed backtick typo in while/index.md, removed stray word in gamejolt publishing doc"
     }
   ]
 }
