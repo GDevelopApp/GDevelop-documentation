@@ -26,7 +26,7 @@ Alternatively, click on the *"Plus" icon* in the toolbar or on *"Add..."* at the
 
 !!! note
 
-    The Else event must be placed directly after the event it relates to. If there is no preceding event, the Else event behaves like a standard event. Disabled events and comments that appear between the preceding event and the Else event are ignored — the Else still correctly refers to the last enabled event above it.
+    The Else event must be placed directly after the event it relates to. If there is no preceding event, the Else event behaves like a standard event. Disabled events and comments that appear between the preceding event and the Else event are ignored — the Else always refers to the last enabled event above it.
 
 ## Sub-events and local variables
 
