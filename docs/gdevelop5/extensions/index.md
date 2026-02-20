@@ -221,8 +221,7 @@ Read more about this:
 |<img src="https://resources.gdevelop-app.com/assets/Icons/transition-masked.svg" class="extension-icon"></img>|**Object Masking**|Use a sprite or a shape painter to mask another object.|[Read more...](/gdevelop5/extensions/sprite-masking)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/swap-horizontal-variant.svg" class="extension-icon"></img>|**Sway**|Sway objects like grass in the wind.|[Read more...](/gdevelop5/extensions/sway)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/flip-horizontal.svg" class="extension-icon"></img>|**3D-like Flip for 2D Sprites**|Flip sprites with a 3D-like rotation effect.|[Read more...](/gdevelop5/extensions/three-dflip)|
-|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Glyphster Pack/Master/SVG/Arrows/557b3471ae92fa5c744b9bf14b8803a0c7745c224ed9cfe80037a8ac7295d99e_Arrows_thin_arrow_left_right_directions.svg" class="extension-icon"></img>|**Tween into view**|Tween objects into position from off screen.
-|[Read more...](/gdevelop5/extensions/tween-into-view)|
+|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Glyphster Pack/Master/SVG/Arrows/557b3471ae92fa5c744b9bf14b8803a0c7745c224ed9cfe80037a8ac7295d99e_Arrows_thin_arrow_left_right_directions.svg" class="extension-icon"></img>|**Tween into view**|Tween objects into position from off screen.|[Read more...](/gdevelop5/extensions/tween-into-view)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/sort-ascending.svg" class="extension-icon"></img>|**YSort**|Create an illusion of depth by setting the Z-order based on the Y position of the object. Useful for isometric games, 2D games with a "Top-Down" view, RPG...|[Read more...](/gdevelop5/extensions/ysort)|
 
 ## Experimental extensions

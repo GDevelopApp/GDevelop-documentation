@@ -3,7 +3,6 @@
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/Glyphster Pack/Master/SVG/Arrows/557b3471ae92fa5c744b9bf14b8803a0c7745c224ed9cfe80037a8ac7295d99e_Arrows_thin_arrow_left_right_directions.svg" class="extension-icon"></img>
 Tween objects into position from off screen.
 
-
 **Authors and contributors** to this experimental extension: [HelperWesley](https://gd.games/HelperWesley).
 
 ---
