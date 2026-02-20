@@ -61,6 +61,10 @@ This allows you to preload audio files as music/sound, making them start quickly
 
 ![](/gdevelop5/interface/project-manager/resources/pasted/20230310-181721.png)
 
+### Keyboard navigation
+
+When the resource list is focused, you can use the **arrow keys** (Up/Down) to move between resources. Pressing the **Delete** key removes the selected resource, and pressing the **Rename** shortcut (F2 by default) starts renaming it. After a resource is deleted, the next resource in the list is automatically selected so you can continue working without reaching for the mouse.
+
 ### Some other options/tools
 
 For more options related to each resource file, you can open a drop-down menu by clicking on the three dots to the right of the resource name, or right click on the resource.
