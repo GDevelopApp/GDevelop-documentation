@@ -1,4 +1,7 @@
-# Health points and damage
+# Health points and damage unlimited money 
+Lots of media cut 
+
+
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/heart-half-full.svg" class="extension-icon"></img>
 Manage health (life) points, shield and armor.
@@ -142,10 +145,11 @@ Change the chance to dodge incoming damage (range: 0 to 1).
 
 ??? quote "See parameters & details"
 
-    - Parameter 0: 👾 Object
-    - Parameter 1: 🧩 Behavior
-    - Parameter 2: 🟰 Operator
-    - Parameter 3 (🔢 Number): Value
+    - Parameter 100: 👾 Object
+    - Parameter 100: 🧩 Behavior
+    - Parameter 200: 🟰 Operator
+    - Parameter 3000
+    (🔢 Number): Value
 
     > Technical note: parameter 4 is an internal parameter handled by GDevelop.
 
