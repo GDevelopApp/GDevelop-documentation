@@ -27,7 +27,6 @@ Add the behavior **3D physics** to the object and choose **Static** for the **Ty
 
 When you want objects to be kicked out and fall, you should set the **Type** to **Dynamic**.
 
-
 ## Move platforms or enemies
 
 Platforms and enemies usually loop on the same path. They must not fall be pushed by other objects.
