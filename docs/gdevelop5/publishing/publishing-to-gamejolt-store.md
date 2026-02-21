@@ -11,8 +11,6 @@ title: Publishing your Game to Game Jolt
 
 [See here for a guide on exporting your game as an HTML5 package.](/gdevelop5/publishing/html5_game_in_a_local_folder)
 
-Snake
-
 ## Uploading the Game
 
 [![](/gdevelop5/publishing/gamejolt_logo.png)](https://gamejolt.com/join) Head over to the Game Jolt website and **Register** yourself if you haven't already. It should be a straightforward process. You need to be a registered user for uploading your games on Game Jolt.
