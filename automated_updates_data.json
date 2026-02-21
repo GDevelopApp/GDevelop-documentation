@@ -48,6 +48,10 @@
     {
       "date": "2026-02-20",
       "summary": "Improved events docs: fixed truncated sentence and added execution-flow diagram in async.md, fixed backtick typo in while/index.md, removed stray word in gamejolt publishing doc"
+    },
+    {
+      "date": "2026-02-21",
+      "summary": "Improved network/index.md: added all supported HTTP methods table, error variable and REQUEST_NOT_SENT explanation, async behavior note, content-type guidance, and Open URL action"
     }
   ]
 }
