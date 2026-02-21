@@ -27,6 +27,9 @@ Add the behavior **3D physics** to the object and choose **Static** for the **Ty
 
 When you want objects to be kicked out and fall, you should set the **Type** to **Dynamic**.
 
+!!! note
+    **Density** must be a positive value. Setting density to 0 is not valid — the physics engine requires a positive density to compute mass properties correctly, so any value of 0 (or below 0.0001) is automatically adjusted to 0.0001.
+
 
 ## Move platforms or enemies
 
