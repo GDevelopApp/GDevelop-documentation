@@ -1,7 +1,7 @@
 # 3D object shake
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/vector-difference-ab.svg" class="extension-icon"></img>
-Shake 3D objects.
+Shake 3D objects with configurable intensity for impact or feedback effects.
 
 **Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
 

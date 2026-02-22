@@ -1,7 +1,7 @@
 # Animated Score Counter
 
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/48ec8784eacd92181e4a3bde4755962b5f6edf986e624fc85ea423a31408450d_counter.svg" class="extension-icon"></img>
-An animated score counter with an icon and a customisable font.
+Animated score counter UI object with customizable icon, font, and animation.
 
 **Authors and contributors** to this experimental extension: [Bouh](https://gd.games/Bouh).
 

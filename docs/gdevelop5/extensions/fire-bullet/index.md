@@ -1,7 +1,7 @@
 # Fire bullets
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/bullet.svg" class="extension-icon"></img>
-Fire bullets, manage ammo, reloading and overheating.
+Fire bullets with ammo count, reload timer, and overheat management.
 
 **Authors and contributors** to this experimental extension: [4ian](https://gd.games/4ian), [Muzan7](https://gd.games/Muzan7), [Bouh](https://gd.games/Bouh), [VictrisGames](https://gd.games/VictrisGames).
 

@@ -1,7 +1,7 @@
 # Object spawner 2D area
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/plus-one.svg" class="extension-icon"></img>
-Spawn (create) objects periodically.
+Spawn objects periodically with configurable interval, capacity, and spawn area.
 
 **Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames).
 

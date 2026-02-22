@@ -1,7 +1,7 @@
 # Shake object
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/arrow-all.svg" class="extension-icon"></img>
-Shake an object.
+Shake objects with configurable translation, rotation, and scale intensity.
 
 **Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames).
 

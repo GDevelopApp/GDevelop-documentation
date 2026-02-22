@@ -1,7 +1,7 @@
 # Pop-up
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/message-alert.svg" class="extension-icon"></img>
-Display pop-ups to alert, ask confirmation, and let user type a response in text box.
+System popup dialogs: alert messages, confirmation prompts, and text input boxes.
 
 **Authors and contributors** to this experimental extension: [Leo-Red](https://gd.games/Leo-Red), [Bouh](https://gd.games/Bouh), [arthuro555](https://gd.games/arthuro555).
 

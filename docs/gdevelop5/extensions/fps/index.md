@@ -1,7 +1,7 @@
 # Frames per second (FPS)
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/SEO/SEO_board_performance_profit.svg" class="extension-icon"></img>
-Calculate and display the frames per second (FPS) of the game.
+Calculate and display frames per second (FPS) for performance monitoring.
 
 **Authors and contributors** to this experimental extension: [Ahnaf30e](https://gd.games/Ahnaf30e), [VictrisGames](https://gd.games/VictrisGames).
 

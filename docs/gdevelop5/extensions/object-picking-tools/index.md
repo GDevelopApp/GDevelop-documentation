@@ -1,7 +1,7 @@
 # Object picking tools
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/selection-ellipse-arrow-inside.svg" class="extension-icon"></img>
-Adds various object picking related tools.
+Object picking: select nearest, random, by index, filter, and unpick instances.
 
 **Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555), [VictrisGames](https://gd.games/VictrisGames).
 

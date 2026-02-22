@@ -1,7 +1,7 @@
 # Linked Objects Tools
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/graph-outline.svg" class="extension-icon"></img>
-Conditions to use Linked Objects as a graph and a path finding movement behavior.
+Use linked objects as graph nodes. Pathfinding and neighbor traversal on links.
 
 **Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
 

@@ -1,7 +1,7 @@
 # Drag camera with the mouse (or touchscreen)
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/drag-variant.svg" class="extension-icon"></img>
-Move a camera by dragging the mouse (or touchscreen).
+Pan/drag camera with mouse or touch. Configurable inertia and bounds.
 
 **Authors and contributors** to this experimental extension: [ddabrahim](https://gd.games/ddabrahim), [VictrisGames](https://gd.games/VictrisGames).
 

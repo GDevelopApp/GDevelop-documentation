@@ -1,7 +1,7 @@
 # Input Validation
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Education and Learning/Education and Learning_education_book_library_search.svg" class="extension-icon"></img>
-Conditions and expressions to check, sanitize and manipulate strings.
+Validate and sanitize strings: check format, length, trim, and normalize.
 
 **Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555), [Add00](https://gd.games/Add00).
 

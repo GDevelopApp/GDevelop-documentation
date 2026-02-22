@@ -1,7 +1,7 @@
 # Multiplayer custom lobbies
 
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/Glyphster Pack/Master/SVG/Applications and Programming/a99813f48b4c6bc26cf2a28cb711a75105386ad69408d7e895ff69bb29051e95_Applications and Programming_application_coding_web_page_add.svg" class="extension-icon"></img>
-Custom lobbies for built-in multiplayer.
+Customize multiplayer lobby UI for GDevelop's built-in multiplayer system.
 
 **Authors and contributors** to this experimental extension: [Jurfix](https://gd.games/Jurfix).
 

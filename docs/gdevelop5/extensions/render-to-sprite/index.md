@@ -1,7 +1,7 @@
 # Sprite Snapshot
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/camera-enhance.svg" class="extension-icon"></img>
-Renders an object, layer, scene or an area of a scene and puts the resulting image into a sprite.
+Capture objects, layers, or scene areas as images into sprite textures.
 
 **Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555), [TulenvakiProductions](https://gd.games/TulenvakiProductions).
 

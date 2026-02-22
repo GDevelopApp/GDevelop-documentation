@@ -1,7 +1,7 @@
 # Language
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/earth.svg" class="extension-icon"></img>
-Get the preferred language of the user, set on their browser or device.
+Get the user's preferred language from browser or device settings.
 
 **Authors and contributors** to this experimental extension: [TheGemDev](https://gd.games/TheGemDev).
 

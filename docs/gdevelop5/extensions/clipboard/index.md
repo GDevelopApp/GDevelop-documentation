@@ -1,7 +1,7 @@
 # Clipboard
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/clipboard-text-multiple-outline.svg" class="extension-icon"></img>
-Read and write the clipboard.
+Read and write text to/from the system clipboard.
 
 **Authors and contributors** to this experimental extension: [Bouh](https://gd.games/Bouh), [arthuro555](https://gd.games/arthuro555).
 

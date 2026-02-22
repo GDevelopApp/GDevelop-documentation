@@ -1,7 +1,7 @@
 # Unique Identifiers
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/identifier.svg" class="extension-icon"></img>
-A collection of UID generation expressions.
+Generate unique identifiers: UUIDv4 random strings and incremented integer UIDs.
 
 **Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555).
 

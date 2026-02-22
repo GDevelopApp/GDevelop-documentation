@@ -1,7 +1,7 @@
 # Parallax for Tiled Sprite
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/image-move.svg" class="extension-icon"></img>
-Behaviors to animate Tiled Sprite objects in the background, following the camera with a parallax effect.
+Parallax scrolling for Tiled Sprite backgrounds with configurable speed ratios.
 
 **Authors and contributors** to this experimental extension: [4ian](https://gd.games/4ian), [D8H](https://gd.games/D8H).
 

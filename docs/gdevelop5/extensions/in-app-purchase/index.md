@@ -1,7 +1,7 @@
 # Mobile In-App Purchase (experimental)
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Shopping and Ecommerce/Shopping and Ecommerce_wallet_money_cash.svg" class="extension-icon"></img>
-Add products to buy directly in your game ("In-App Purchase"), for games published on Android or iOS.
+In-app purchases for Android/iOS: list products, buy, and restore purchases.
 
 **Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555), [4ian](https://gd.games/4ian), [Clem](https://gd.games/Clem).
 

@@ -1,7 +1,7 @@
 # Hash
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Security and Protection/Security and Protection_security_protection_delete_document_shredder.svg" class="extension-icon"></img>
-Hash with MD5 or SHA256.
+Hash strings using MD5 or SHA256 algorithms.
 
 **Authors and contributors** to this experimental extension: (not specified).
 

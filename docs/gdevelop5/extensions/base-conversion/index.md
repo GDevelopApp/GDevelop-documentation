@@ -1,7 +1,7 @@
 # Base conversion
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/hexadecimal.svg" class="extension-icon"></img>
-Provides conversion expressions for numbers in different bases.
+Convert numbers between bases (decimal, hexadecimal, binary, etc.).
 
 **Authors and contributors** to this experimental extension: [Ahnaf30e](https://gd.games/Ahnaf30e).
 

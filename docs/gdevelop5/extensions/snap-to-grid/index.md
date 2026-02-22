@@ -1,7 +1,7 @@
 # Rectangular 2D grid
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/view-grid-plus-outline.svg" class="extension-icon"></img>
-Snap objects on a virtual grid.
+Snap objects to virtual grid positions with configurable cell size and offset.
 
 **Authors and contributors** to this experimental extension: (not specified).
 

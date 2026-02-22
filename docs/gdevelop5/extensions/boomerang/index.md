@@ -1,7 +1,7 @@
 # Boomerang
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/boomerang.svg" class="extension-icon"></img>
-Throw an object that returns to the thrower like a boomerang.
+Throw objects that return to thrower after set time or on command.
 
 **Authors and contributors** to this experimental extension: [Entropy](https://gd.games/Entropy), [VictrisGames](https://gd.games/VictrisGames).
 

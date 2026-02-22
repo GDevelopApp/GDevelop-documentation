@@ -1,7 +1,7 @@
 # Flash and transition painter
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/movie-filter.svg" class="extension-icon"></img>
-Paint transition effects with a plain color.
+Screen transitions painted with plain color fill using Shape Painter.
 
 **Authors and contributors** to this experimental extension: (not specified).
 

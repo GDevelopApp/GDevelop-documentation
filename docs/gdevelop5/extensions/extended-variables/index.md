@@ -1,7 +1,7 @@
 # Extended variables support
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/variable-box.svg" class="extension-icon"></img>
-Add conditions, actions and expressions to check for the existence of a variable, copy variables, delete existing ones from memory, and create dynamic variables.
+Check variable existence, copy, delete, and create dynamic variables at runtime.
 
 **Authors and contributors** to this experimental extension: [Bouh](https://gd.games/Bouh), [D8H](https://gd.games/D8H).
 

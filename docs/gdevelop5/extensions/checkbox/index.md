@@ -1,7 +1,7 @@
 # Checkbox (for Shape Painter)
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/checkbox-marked.svg" class="extension-icon"></img>
-Checkbox that can be toggled by a left-click or touch.
+Checkbox on Shape Painter. Toggle by click/touch, customizable appearance and halo.
 
 **Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames), [D8H](https://gd.games/D8H).
 

@@ -1,7 +1,7 @@
 # Gamepads (controllers)
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/gamepad-variant-outline.svg" class="extension-icon"></img>
-Add support for gamepads (or other controllers) to your game, giving access to information such as button presses, axis positions, trigger pressure, etc...
+Gamepad/controller support: buttons, sticks, triggers, vibration. Mapper behaviors for 2D/3D.
 
 **Authors and contributors** to this experimental extension: [Bouh](https://gd.games/Bouh), [lhphr](https://gd.games/lhphr), [ZachjuKamashi](https://gd.games/ZachjuKamashi), [D8H](https://gd.games/D8H).
 

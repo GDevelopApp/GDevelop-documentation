@@ -1,7 +1,7 @@
 # Curved movement
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Graphic Design/Graphic Design_bezier_curve.svg" class="extension-icon"></img>
-Move objects on curved paths.
+Move objects on Bézier curve paths. SVG import, tween or speed-based motion.
 
 **Authors and contributors** to this experimental extension: [pampogokiraly](https://gd.games/pampogokiraly), [D8H](https://gd.games/D8H).
 

@@ -1,7 +1,7 @@
 # MQTT Client (advanced)
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/message-flash.svg" class="extension-icon"></img>
-An MQTT client for GDevelop: allow connections to a MQTT server and send/receive messages.
+MQTT client: connect to broker, publish/subscribe topics, send/receive messages.
 
 **Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555).
 

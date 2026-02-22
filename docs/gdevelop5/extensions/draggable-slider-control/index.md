@@ -1,7 +1,7 @@
 # Draggable slider (for Shape Painter)
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/UI Essentials/UI Essentials_sliders_options.svg" class="extension-icon"></img>
-A draggable slider that users can move to select a numerical value.
+Shape Painter slider for selecting numerical values. Draggable thumb, configurable range/ticks.
 
 **Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H), [VictrisGames](https://gd.games/VictrisGames).
 

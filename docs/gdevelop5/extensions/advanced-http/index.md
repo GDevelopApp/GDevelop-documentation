@@ -1,7 +1,7 @@
 # Advanced HTTP
 
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Email/04e28ac117741933d15ac1cadb34e0d799c7a561352b1525a1b75c5bd1dbeabc_Email_email_envelope_letter_message_fast.svg" class="extension-icon"></img>
-An extension to create HTTP requests with more advanced settings than the built-in "Network request" action, like specifying headers or bypassing CORS.
+HTTP requests with custom headers, methods, caching, CORS bypass, and JSON/FormData body.
 
 **Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555).
 

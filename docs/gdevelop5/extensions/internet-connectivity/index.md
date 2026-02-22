@@ -1,7 +1,7 @@
 # Internet Connectivity 
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/access-point-network.svg" class="extension-icon"></img>
-Checks if the device running the game is connected to the internet.
+Check if the device is currently connected to the internet.
 
 **Authors and contributors** to this experimental extension: [TheGemDev](https://gd.games/TheGemDev).
 

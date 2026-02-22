@@ -1,7 +1,7 @@
 # Make object travel to random positions
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/axis-arrow.svg" class="extension-icon"></img>
-Make object travel to random positions (with the pathfinding behavior).
+Move objects to random nearby positions using Pathfinding. Optional direction bias.
 
 **Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames).
 

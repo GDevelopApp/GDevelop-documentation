@@ -1,7 +1,7 @@
 # Time formatting
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/clock-digital.svg" class="extension-icon"></img>
-Converts seconds into standard time formats, such as HH:MM:SS. 
+Format seconds into HH:MM:SS or HH:MM:SS.000 time display strings.
 
 **Authors and contributors** to this experimental extension: [Bouh](https://gd.games/Bouh).
 

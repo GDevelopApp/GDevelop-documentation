@@ -1,7 +1,7 @@
 # Noise generator
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/sprinkler.svg" class="extension-icon"></img>
-Generate noise values for procedural generation.
+Generate 1D-4D Simplex noise for procedural terrain, textures, and positioning.
 
 **Authors and contributors** to this experimental extension: [Add00](https://gd.games/Add00), [VictrisGames](https://gd.games/VictrisGames), [D8H](https://gd.games/D8H).
 

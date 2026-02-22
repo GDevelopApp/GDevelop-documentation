@@ -1,7 +1,7 @@
 # Game over dialog
 
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Halloween/4bffa50f979bde55e4a0e49b67bf51aac30f4de5e1e12ab13952aa25773363b2_Halloween_skull.svg" class="extension-icon"></img>
-Display the score and let players choose what to do next.
+Score display dialog with submit-to-leaderboard, retry, and main menu buttons.
 
 **Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
 

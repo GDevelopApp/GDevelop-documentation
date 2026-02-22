@@ -1,7 +1,7 @@
 # Screen wrap
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/monitor-screenshot.svg" class="extension-icon"></img>
-Teleport object when it moves off the screen and immediately appear on the opposite side while maintaining speed and trajectory.
+Teleport objects to opposite screen edge when exiting viewport. Keeps speed/trajectory.
 
 **Authors and contributors** to this experimental extension: [Entropy](https://gd.games/Entropy), [VictrisGames](https://gd.games/VictrisGames), [MelonDev](https://gd.games/MelonDev).
 

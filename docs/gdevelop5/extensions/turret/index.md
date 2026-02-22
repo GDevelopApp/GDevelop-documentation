@@ -1,7 +1,7 @@
 # Turret 2D movement
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Cleaning/Cleaning_cleaning_clean_plunger.svg" class="extension-icon"></img>
-A turret movement with customizable speed, acceleration and stop angles.
+Rotate object like turret toward target position. Configurable speed and acceleration.
 
 **Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
 

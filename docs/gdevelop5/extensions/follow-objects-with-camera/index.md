@@ -1,7 +1,7 @@
 # Follow multiple 2D objects with the camera
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/camera-switch-outline.svg" class="extension-icon"></img>
-Change the zoom and position of the camera to keep all instances of an object (or object group) on the screen.
+Auto-zoom and position camera to keep all instances of an object visible.
 
 **Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames), [MrMen](https://gd.games/MrMen).
 

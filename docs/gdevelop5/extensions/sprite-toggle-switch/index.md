@@ -1,7 +1,7 @@
 # Toggle switch
 
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Interface Elements/8d0cd8cd0c9318f4f6efde6ee6b4c192bd19306467f80c9970387a259300f895_Interface Elements_interface_ui_toggle_switch_on_off.svg" class="extension-icon"></img>
-Toggle switch that users can click or touch.
+Sprite-based toggle switch. Click/touch to toggle with customizable on/off sprites.
 
 **Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H), [VictrisGames](https://gd.games/VictrisGames).
 

@@ -1,7 +1,7 @@
 # Platformer trajectory
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/chart-bell-curve.svg" class="extension-icon"></img>
-Platformer character jump easy configuration and platformer AI tools.
+Configure jumps by height/duration. AI tools for gap and ledge detection.
 
 **Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
 
@@ -24,12 +24,12 @@ Configure the height of a jump and evaluate the jump trajectory.
 
 ### Behavior properties
 
-- **Jump height** (🔢 Number). Default value is `1.5740180496720436e-317`.
+- **Jump height** (🔢 Number). Default value is `1.5924328644238386e-317`.
 
 ??? quote "See internal technical details"
 
 
-    - **Jump height** is stored as `JumpHeight` (Number). Default value is `1.5740180496720436e-317`.
+    - **Jump height** is stored as `JumpHeight` (Number). Default value is `1.5924328644238386e-317`.
     > This behavior must be used on an object also having a behavior with type "PlatformBehavior::PlatformerObjectBehavior". This is stored on property `PlatformerCharacter`.
 
 

@@ -1,7 +1,7 @@
 # Marching Squares (experimental)
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/peanut-outline.svg" class="extension-icon"></img>
-Allow to build a "scalar field" and draw contour lines of it: useful for fog of wars, liquid effects, paint the ground, etc...
+Scalar field with contour lines. For fog of war, liquids, ground painting.
 
 **Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
 

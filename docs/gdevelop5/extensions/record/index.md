@@ -1,7 +1,7 @@
 # Record
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/video-vintage.svg" class="extension-icon"></img>
-Actions to record the game and players download the clips. Works on desktop, and in the browser.
+Record gameplay as video clips for download. Pause/resume. Desktop and browser.
 
 **Authors and contributors** to this experimental extension: [Add00](https://gd.games/Add00).
 

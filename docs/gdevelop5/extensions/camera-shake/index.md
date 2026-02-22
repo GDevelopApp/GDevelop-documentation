@@ -1,7 +1,7 @@
 # Camera shake
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/vector-difference-ab.svg" class="extension-icon"></img>
-Shake layer cameras.
+Shake layer cameras with translation, rotation, and zoom for impact effects.
 
 **Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames), [D8H](https://gd.games/D8H), [fuzzy](https://gd.games/fuzzy).
 

@@ -1,7 +1,7 @@
 # 3D Billboard
 
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/b46f9cf1fc6b0ef59a461c7831003d1fb091137cbedbae876774f40f8b7dea97_pine-tree.svg" class="extension-icon"></img>
-Rotate 3D objects to appear like 2D sprites.
+Make 3D objects always face camera, appearing as 2D sprites in 3D scenes.
 
 **Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
 

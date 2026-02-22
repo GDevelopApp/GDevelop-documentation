@@ -1,7 +1,7 @@
 # Auto typing animation for text ("typewriter" effect)
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/typewriter.svg" class="extension-icon"></img>
-Reveal a text one letter after the other.
+Typewriter text reveal effect, one letter at a time. For Text/BitmapText objects.
 
 **Authors and contributors** to this experimental extension: [Bouh](https://gd.games/Bouh), [VictrisGames](https://gd.games/VictrisGames), [D8H](https://gd.games/D8H).
 

@@ -1,7 +1,7 @@
 # RTS-like unit selection
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/pencil-box-outline.svg" class="extension-icon"></img>
-Allow player to select units by clicking on them or dragging a selection box.
+Select units by click or drag-box. Control groups (Ctrl+number). For RTS games.
 
 **Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames), [Slash](https://gd.games/Slash).
 

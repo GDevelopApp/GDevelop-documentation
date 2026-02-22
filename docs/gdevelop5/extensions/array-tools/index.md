@@ -1,7 +1,7 @@
 # Array tools
 
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Text Editing/9bfb52500e68d0fd164b1e30bc696e40566187245b80c345848379f40bb6fad7_Text Editing_bullet_points_list.svg" class="extension-icon"></img>
-A collection of utilities and tools for working with arrays.
+Array utilities: search, sort, shuffle, slice, concat, reverse, pop, random element access.
 
 **Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555).
 

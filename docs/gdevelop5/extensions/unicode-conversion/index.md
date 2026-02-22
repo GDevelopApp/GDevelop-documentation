@@ -1,7 +1,7 @@
 # Unicode
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/dice-d10.svg" class="extension-icon"></img>
-Provides conversion tools for Ascii and Unicode characters.
+Convert between text and Unicode/binary representations. Basic string obfuscation support.
 
 **Authors and contributors** to this experimental extension: [Ahnaf30e](https://gd.games/Ahnaf30e).
 

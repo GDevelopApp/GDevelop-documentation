@@ -1,7 +1,7 @@
 # Cancellable draggable object
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/step-backward.svg" class="extension-icon"></img>
-Allow to cancel the drag of an object (having the Draggable behavior) and return it smoothly to its previous position.
+Cancel drag and smoothly tween object back to original position. Needs Draggable+Tween.
 
 **Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
 

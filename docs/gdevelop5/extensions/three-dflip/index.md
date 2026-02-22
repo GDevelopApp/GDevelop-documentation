@@ -1,7 +1,7 @@
 # 3D-like Flip for 2D Sprites
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/flip-horizontal.svg" class="extension-icon"></img>
-Flip sprites with a 3D-like rotation effect.
+Flip sprites with a 3D rotation visual effect (card flip style).
 
 **Authors and contributors** to this experimental extension: [VegeTato](https://gd.games/VegeTato), [D8H](https://gd.games/D8H).
 

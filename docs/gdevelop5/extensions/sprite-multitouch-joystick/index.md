@@ -1,7 +1,7 @@
 # Multitouch joystick and buttons (sprite)
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Videogames/Videogames_controller_joystick_arrows_direction.svg" class="extension-icon"></img>
-Joysticks or buttons for touchscreens.
+On-screen multitouch joystick/button objects. Mappers for platformer, top-down, 3D, FPS.
 
 **Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames), [MelonDev](https://gd.games/MelonDev), [xellix](https://gd.games/xellix), [D8H](https://gd.games/D8H).
 

@@ -1,7 +1,7 @@
 # Simple inventories
 
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/Glyphster Pack/Master/SVG/Education and Learning/032fea6b6614c8b1c923bc3336520e8c24a418d18c16dae507ef2e885e01f8c9_Education and Learning_education_school_bag_backpack.svg" class="extension-icon"></img>
-Manage inventory items.
+Inventory system: add/remove items, stackable quantities, limited/unlimited capacity.
 
 **Authors and contributors** to this experimental extension: [4ian](https://gd.games/4ian), [infokubarcade](https://gd.games/infokubarcade), [heyitsdwubbs](https://gd.games/heyitsdwubbs), [D8H](https://gd.games/D8H).
 

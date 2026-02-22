@@ -1,13 +1,13 @@
 # Text-to-Speech
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Users/Users_user_chat_talk.svg" class="extension-icon"></img>
-An extension to enable the use of Text-to-Speech features.
+Read text aloud using system Text-to-Speech. Configurable voice and speed.
 
 **Authors and contributors** to this experimental extension: [jugule](https://gd.games/jugule).
 
 ---
 
-Text to Speech extension allows you to use the system's Text-to-Speech features to read any text aloud.
+Use the system's Text-to-Speech features to read any text aloud.
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

@@ -1,7 +1,7 @@
 # Platformer and top-down remapper
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/alpha-w-box-outline.svg" class="extension-icon"></img>
-Quickly remap keyboard controls.
+Remap keyboard controls for platformer and top-down movements. WASD/arrows presets.
 
 **Authors and contributors** to this experimental extension: [Add00](https://gd.games/Add00).
 

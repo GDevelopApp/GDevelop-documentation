@@ -1,7 +1,7 @@
 # Android back button
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/keyboard-backspace.svg" class="extension-icon"></img>
-Allow to customize the behavior of the Android back button.
+Customize Android back button: prevent default quit, detect presses. Android only.
 
 **Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555).
 

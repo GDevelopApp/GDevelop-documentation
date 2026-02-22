@@ -1,7 +1,7 @@
 # Animated Back and Forth Movement
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/repeat.svg" class="extension-icon"></img>
-Make the object go on the left, then when some distance is reached, flip and go back to the right. Make sure that your object has two animations called "GoLeft" and "TurnLeft".
+Horizontal back-and-forth movement with automatic flip. Requires GoLeft/TurnLeft animations.
 
 **Authors and contributors** to this experimental extension: [4ian](https://gd.games/4ian).
 

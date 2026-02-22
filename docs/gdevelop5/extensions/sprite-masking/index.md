@@ -1,7 +1,7 @@
 # Object Masking
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/transition-masked.svg" class="extension-icon"></img>
-Use a sprite or a shape painter to mask another object.
+Mask objects using a sprite or Shape Painter. Only masked area is visible.
 
 **Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555).
 

@@ -1,7 +1,7 @@
 # Advanced movements for 3D physics characters
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Sports and Fitness/Sports and Fitness_training_running_run.svg" class="extension-icon"></img>
-Let 3D physics characters: air jump, wall jump wall sliding, coyote time and dashing.
+3D character air jump and coyote time (ledge tolerance) behavior.
 
 **Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H), [shadow00dev](https://gd.games/shadow00dev), [Entropy](https://gd.games/Entropy), [CorianderGames](https://gd.games/CorianderGames).
 

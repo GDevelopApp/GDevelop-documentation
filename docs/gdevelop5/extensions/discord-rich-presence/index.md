@@ -1,7 +1,7 @@
 # Discord rich presence (Windows, Mac, Linux)
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/discord.svg" class="extension-icon"></img>
-Adds discord rich presence to your games.
+Display game activity status in Discord via Rich Presence integration.
 
 **Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555).
 

@@ -1,7 +1,7 @@
 # Webpage URL tools (Web browser)
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/web.svg" class="extension-icon"></img>
-Allows to read URL where a web-game is hosted and manipulate URL strings.
+Read/manipulate web game URLs: get/set attributes, query params, redirect, reload.
 
 **Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555).
 

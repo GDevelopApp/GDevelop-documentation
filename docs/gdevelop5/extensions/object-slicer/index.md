@@ -1,7 +1,7 @@
 # Slice a 2D object into pieces
 
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/2ea979b9db9294f26b40687e214f26d7926682457113ccc6dca4174bce6033aa_knife.svg" class="extension-icon"></img>
-Slice an object into smaller pieces that match the color of original object.
+Slice sprites into smaller color-matched pieces for destruction/break effects.
 
 **Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames).
 

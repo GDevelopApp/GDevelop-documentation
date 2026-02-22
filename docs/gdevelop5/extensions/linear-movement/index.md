@@ -1,7 +1,7 @@
 # Linear Movement
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/ray-start-arrow.svg" class="extension-icon"></img>
-Move objects on a straight line.
+Move objects in a straight line at configurable angle and speed.
 
 **Authors and contributors** to this experimental extension: [4ian](https://gd.games/4ian), [Jurfix](https://gd.games/Jurfix).
 

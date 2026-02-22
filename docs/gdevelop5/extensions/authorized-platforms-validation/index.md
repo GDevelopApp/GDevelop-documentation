@@ -1,7 +1,7 @@
 # Platforms Validation
 
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/0d42bc9711bc135b0dfb0084a37469540468e243a560339b99e399bd77f48010_check-decagram.svg" class="extension-icon"></img>
-Checks if the game is currently executed on an allowed platform (for web).
+Verify web game runs on authorized domains to prevent unauthorized hosting/piracy.
 
 **Authors and contributors** to this experimental extension: [Oxey405](https://gd.games/Oxey405).
 

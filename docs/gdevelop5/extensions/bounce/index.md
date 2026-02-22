@@ -1,7 +1,7 @@
 # Bounce (using forces)
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/volleyball.svg" class="extension-icon"></img>
-Bounce the object off another object it just touched.
+Bounce objects off collisions using forces. Not for Physics engine or Platformer.
 
 **Authors and contributors** to this experimental extension: [4ian](https://gd.games/4ian).
 

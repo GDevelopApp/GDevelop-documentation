@@ -1,7 +1,7 @@
 # Animate Shadow Clones
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/vector-arrange-above.svg" class="extension-icon"></img>
-Create and animate shadow clones that follow the path of a primary object.
+Create fading shadow clone trail following an object's movement path.
 
 **Authors and contributors** to this experimental extension: [Entropy](https://gd.games/Entropy), [VictrisGames](https://gd.games/VictrisGames), [fuzzy](https://gd.games/fuzzy).
 

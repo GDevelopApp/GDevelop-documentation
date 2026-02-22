@@ -1,7 +1,7 @@
 # Pathfinding painter
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/resistor-nodes.svg" class="extension-icon"></img>
-Draw the pathfinding of an object using a shape painter.
+Visualize pathfinding paths using Shape Painter for debugging or display.
 
 **Authors and contributors** to this experimental extension: [Entropy](https://gd.games/Entropy).
 

@@ -1,7 +1,7 @@
 # Homing projectile
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/rocket-launch.svg" class="extension-icon"></img>
-Make a projectile object move towards a target object.
+Projectile that rotates and moves toward a target. Configurable turn speed.
 
 **Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames).
 

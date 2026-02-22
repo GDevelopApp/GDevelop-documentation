@@ -1,7 +1,7 @@
 # Double-click and tap
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Computers and Hardware/Computers and Hardware_mouse_wireless_pc.svg" class="extension-icon"></img>
-Check for a double-click or a tap.
+Detect double-click (mouse) or double-tap (touch) on objects or anywhere.
 
 **Authors and contributors** to this experimental extension: [Silver-Streak](https://gd.games/Silver-Streak), [D8H](https://gd.games/D8H).
 

@@ -1,7 +1,7 @@
 # Cursor type
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/cursor-default-outline.svg" class="extension-icon"></img>
-Provides an action to change the type of the cursor, and a behavior to change the cursor when an object is hovered.
+Change mouse cursor type (pointer, crosshair, etc). Auto-change on object hover.
 
 **Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555), [Bouh](https://gd.games/Bouh).
 

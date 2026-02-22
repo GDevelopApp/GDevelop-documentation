@@ -1,7 +1,7 @@
 # Iframe
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/iframe-array-outline.svg" class="extension-icon"></img>
-Create or delete an iframe to embed websites.
+Embed external websites in-game using HTML iframes. Create/delete dynamically.
 
 **Authors and contributors** to this experimental extension: [Bouh](https://gd.games/Bouh), [DHsw](https://gd.games/DHsw).
 

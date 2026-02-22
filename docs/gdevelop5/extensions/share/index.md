@@ -1,7 +1,7 @@
 # Share dialog and sharing options
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/share-variant.svg" class="extension-icon"></img>
-Allows to share content via the system share dialog. Works only on mobile (browser or mobile app).
+Share text/URL via system share dialog. Mobile browsers and apps only.
 
 **Authors and contributors** to this experimental extension: [4ian](https://gd.games/4ian), [arthuro555](https://gd.games/arthuro555).
 

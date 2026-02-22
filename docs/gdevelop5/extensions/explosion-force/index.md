@@ -1,7 +1,7 @@
 # Explosion force
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/bomb.svg" class="extension-icon"></img>
-Simulate an explosion with physics forces on target objects.
+Apply radial explosion physics force to nearby Physics 2D objects within radius.
 
 **Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames).
 

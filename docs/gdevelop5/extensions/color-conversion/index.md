@@ -1,7 +1,7 @@
 # Color Conversion
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/invert-colors.svg" class="extension-icon"></img>
-Expressions to convert color values between various formats (RGB, HSV, HSL, named colors), calculate luminance according to WCAG 2.0 standards, and to blend two colors.
+Convert colors between RGB, HSV, HSL, hex, named. Blend and WCAG luminance.
 
 **Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames), [Add00](https://gd.games/Add00), [D8H](https://gd.games/D8H), [Ahnaf30e](https://gd.games/Ahnaf30e).
 

@@ -1,7 +1,7 @@
 # Regular Expressions
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/regex.svg" class="extension-icon"></img>
-Functions for using regular expressions to manipulate strings.
+Regular expression operations: test, match, replace, and extract from strings.
 
 **Authors and contributors** to this experimental extension: [Add00](https://gd.games/Add00).
 

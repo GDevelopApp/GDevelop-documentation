@@ -1,7 +1,7 @@
 # YSort
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/sort-ascending.svg" class="extension-icon"></img>
-Create an illusion of depth by setting the Z-order based on the Y position of the object. Useful for isometric games, 2D games with a "Top-Down" view, RPG...
+Set Z-order from Y position for depth illusion in top-down/isometric views.
 
 **Authors and contributors** to this experimental extension: (not specified).
 

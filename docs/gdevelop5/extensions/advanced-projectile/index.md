@@ -1,7 +1,7 @@
 # Advanced projectile
 
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/4ab6bb9f91ea1110c0c2aabd7fe17e320c1d0ebbb44f56d01885307d7d2e723b_arrow-decision-auto.svg" class="extension-icon"></img>
-Control how a projectile moves including speed, acceleration, distance, and lifetime.
+Projectile behavior with speed, acceleration, max distance, and lifetime controls.
 
 **Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames).
 

@@ -1,7 +1,7 @@
 # Slider
 
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/UI Essentials/1678c39a3b2bd3df4f82a8a293770db4986a6bcfd3f78e738ddfc86e39176423_UI Essentials_sliders_options.svg" class="extension-icon"></img>
-A draggable slider that users can move to select a numerical value.
+9-patch slider for numerical values. Supports mouse, touch, keyboard, and gamepad.
 
 **Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H), [VictrisGames](https://gd.games/VictrisGames).
 

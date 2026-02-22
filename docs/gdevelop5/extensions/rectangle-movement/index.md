@@ -1,7 +1,7 @@
 # Rectangular movement
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/shape-rectangle-plus.svg" class="extension-icon"></img>
-Move objects in a rectangular pattern.
+Move objects in a rectangular path with configurable width, height, and speed.
 
 **Authors and contributors** to this experimental extension: [4ian](https://gd.games/4ian), [VictrisGames](https://gd.games/VictrisGames), [D8H](https://gd.games/D8H).
 
