@@ -49,4 +49,7 @@ When finished, you will see a download button for each platform that was selecte
 
 !!! note
 
-    When launching the game on Windows and macOS, you might get a notice about security. Choose to run the game anyway. On macOS, you may need to open *Security and Privacy* tab in *System Preferences*.
+    When launching the game on Windows or macOS for the first time, the operating system may warn you that the application is from an unidentified developer, because it is not signed with a paid code-signing certificate.
+
+    - **Windows**: If you see a SmartScreen warning ("Windows protected your PC"), click **More info** and then **Run anyway**.
+    - **macOS**: If you see a message saying the app "cannot be opened because it is from an unidentified developer", do not double-click the app. Instead, **right-click** (or Control-click) the app and choose **Open**. A dialog will appear with an **Open** button that lets you bypass the restriction. Alternatively, after attempting to open it normally, go to **System Settings > Privacy & Security** and click **Open Anyway** next to the warning about your game.
