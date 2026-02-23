@@ -56,6 +56,10 @@
     {
       "date": "2026-02-22",
       "summary": "Fixed publishing docs: removed outdated 'iOS coming soon' claim, fixed broken mobile links, updated Android sideloading instructions for Android 8+, and clarified macOS/Windows security bypass steps"
+    },
+    {
+      "date": "2026-02-23",
+      "summary": "(no summary provided)"
     }
   ]
 }
