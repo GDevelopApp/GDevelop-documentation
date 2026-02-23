@@ -50,6 +50,10 @@
       "summary": "Improved events docs: fixed truncated sentence and added execution-flow diagram in async.md, fixed backtick typo in while/index.md, removed stray word in gamejolt publishing doc"
     },
     {
+      "date": "2026-02-23",
+      "summary": "Improved scene editor docs: fixed broken URL in scene-editor/index.md, added enable/disable effect and parameter type info to layer-effects.md, and added lighting layer and follow-base-layer-camera docs to layers-and-cameras.md"
+    },
+    {
       "date": "2026-02-22",
       "summary": "Fixed publishing docs: removed outdated 'iOS coming soon' claim, fixed broken mobile links, updated Android sideloading instructions for Android 8+, and clarified macOS/Windows security bypass steps"
     }
