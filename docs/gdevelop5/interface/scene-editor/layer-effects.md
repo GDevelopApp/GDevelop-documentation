@@ -47,6 +47,12 @@ If you have multiple layers, you can add the same effect to all of your layers.
 
     The background color of the scene cannot have any effect applied. For a background that is more than a single color, you can use a [Tiled Sprite](/gdevelop5/objects/tiled_sprite) and apply an effect to the layer that object is on.
 
+## Enabling or disabling an effect during the game
+
+You can toggle an effect on or off without removing it entirely. Use the **Enable effect on a layer** action, specifying the layer name, the effect name, and whether to enable or disable it. The **Layer effect is enabled** condition lets you check the current state of an effect.
+
+This is useful for gameplay feedback — for example, enabling a color-distortion effect when the player takes damage, then disabling it a moment later.
+
 ## Changing effect parameters during the game
 
 Using events, you can manipulate a layer effect's parameters during the game. It can be useful for different situations: a day-night cycle, a flashback effect, etc...
@@ -70,6 +76,12 @@ You can then add an event with an action called "Effect Parameter":
     All of these names are case-sensitive. Be sure to double-check the name of your effect and parameters.
 
 ![](/gdevelop5/interface/scene-editor/layer-effects/pasted/20230310-213358.png)
+
+There are three different actions depending on the type of parameter you want to change:
+
+- **Effect property (number)** — for numeric values such as blur strength or brightness.
+- **Effect property (string)** — for text values such as the texture file path used by the Displacement effect.
+- **Effect property (boolean)** — for yes/no toggles exposed by some effects.
 
 ## Advanced effects usage
 

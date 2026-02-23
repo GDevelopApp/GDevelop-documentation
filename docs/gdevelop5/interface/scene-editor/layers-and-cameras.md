@@ -47,6 +47,14 @@ Edit a layer properties to access multiple options regarding a layer. You can no
 
    This camera behavior is only useful when you're not using events to move the camera. If you center a camera on an object for example, this option won't have any impact.
 
+### Follow the base layer camera
+
+A layer can be configured to **follow the base layer camera** automatically. When this option is enabled, the layer's camera position, zoom, and rotation always stay in sync with the base layer. This is useful for layers that should scroll together with the main game world without requiring any additional camera events.
+
+### Lighting layer
+
+A layer can be marked as a **lighting layer**. Objects on a lighting layer act as light sources that illuminate the layers below them. You can configure the ambient light color of the lighting layer — any area not covered by a light object will appear in that ambient color. This makes it straightforward to add a night atmosphere or a torch-lit dungeon effect without changing any object colors directly.
+
 ### Moving objects to a different layer
 
 Objects can be dynamically moved to a different layer while the game is running.  There is a condition to check which layer an object is on, and an action that will change the layer of an object.
