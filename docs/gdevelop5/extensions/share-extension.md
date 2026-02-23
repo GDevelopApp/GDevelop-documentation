@@ -23,6 +23,7 @@ Fill all the fields, in particular, the name and the descriptions of your extens
 * The *version* is a version number, in the format `X.Y.Z`. For example: `1.0.0`. Start with 1.0.0 if you're confident that your extension is ready, or `0.0.1` if it's still subject to changes.
 * *Tags* is a list of comma-separated "tags", that help to search the extension. Read the existing tags when [you search for extensions](/gdevelop5/extensions/search) to get some inspiration. Reuse existing tags as possible.
 * *Author* is your username. An account will have to be registered and a proper username will be needed to be able to add the username. Type the username and pick the username from the drop-down menu
+* *Dimension* indicates whether the extension works in **2D**, **3D**, **2D/3D**, or is not applicable to a specific dimension. Set this to help users quickly identify compatibility.
 
 #### Ensure your extension follow the best practices
 
