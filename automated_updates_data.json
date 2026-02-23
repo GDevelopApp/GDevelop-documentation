@@ -1,5 +1,5 @@
 {
-  "last_automated_updates_commit": "a311d9ba7b2c18f46bef79d6310b6eb912cf5362",
+  "last_automated_updates_commit": "707f05553b3bb5b8ce409a65e081292ecf27b8f6",
   "last_improved_things": [
     {
       "date": "2026-02-16",
@@ -52,6 +52,10 @@
     {
       "date": "2026-02-23",
       "summary": "Improved scene editor docs: fixed broken URL in scene-editor/index.md, added enable/disable effect and parameter type info to layer-effects.md, and added lighting layer and follow-base-layer-camera docs to layers-and-cameras.md"
+    },
+    {
+      "date": "2026-02-22",
+      "summary": "Fixed publishing docs: removed outdated 'iOS coming soon' claim, fixed broken mobile links, updated Android sideloading instructions for Android 8+, and clarified macOS/Windows security bypass steps"
     }
   ]
 }

@@ -41,7 +41,7 @@ In the end, you'll have a **Download** button to get the APK file that can be in
 
 Plug your Android phone/tablet into your computer and put the APK file somewhere in a folder of the device. Alternatively, you can also store the APK on cloud storage ([Dropbox](https://www.dropbox.com/), [Google Drive](http://drive.google.com/), [OneDrive](https://onedrive.live.com/about/en-in/)...) and download it on your device.
 
-Before installing the APK, go in Settings > Security and activate *Unknown sources*. This will enable you to [install the APK file](https://developer.android.com/studio/publish#publishing-unknown) even if it is not yet registered on the Google Play Store.
+Before installing the APK, you must allow installation from outside the Play Store. On **Android 8.0 and later**, Android no longer has a global "Unknown sources" toggle. Instead, when you open the APK file, Android will prompt you to allow the specific app (such as your file manager or browser) to install unknown apps. Tap **Settings** in that prompt, enable **Allow from this source**, then go back and install the APK. On older Android versions, go to **Settings > Security** and enable **Unknown sources**.
 
 Finally, open a *File Manager*, go in the folder containing your APK and touch it to start the installation:
 
