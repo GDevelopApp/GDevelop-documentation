@@ -91,6 +91,17 @@ Refer to the linked pages for more information about each variable scope.
 
 Variable names should not contain dots (periods), commas or spaces. Other characters are also reserved by GDevelop. If you use something forbidden, GDevelop will automatically correct the name you've entered.
 
+## Working in the variables editor
+
+The variables editor supports standard keyboard shortcuts to speed up your workflow:
+
+- **Ctrl+C** (or **Cmd+C**): Copy selected variables
+- **Ctrl+X** (or **Cmd+X**): Cut selected variables
+- **Ctrl+V** (or **Cmd+V**): Paste variables
+- **Delete**: Delete selected variables
+- **Ctrl+Z** (or **Cmd+Z**): Undo
+- **Ctrl+Y** (or **Cmd+Shift+Z**): Redo
+
 ## Debugging variables
 
 When developing a game, bugs can occur because the value of a variable isn't what you expect it to be. If something in your game isn't working and you think the problem might relate to a variable, use GDevelop's debugger to figure out what's wrong.
