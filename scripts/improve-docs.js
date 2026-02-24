@@ -169,24 +169,16 @@ YOUR TASK
 
 IMPORTANT CONSTRAINTS
 ---------------------
-• NEVER edit auto-generated files. These include:
+
+* Read the "CLAUDE.md" file (or "AGENTS.md", they are the same) in ${REPO_ROOT}/ to understand the important writing style and architecture constraints.
+* NEVER edit auto-generated files. These include:
   – Every file under docs/gdevelop5/extensions/
   – Every "reference.md" file under docs/gdevelop5/all-features/*/reference.md
   – docs/gdevelop5/all-features/expressions-reference.md
-• NEVER create new files unless absolutely necessary.
-• NEVER edit files outside docs/gdevelop5/ (except automated_updates_data.json as described below).
-• Do NOT touch images or binary files.
+* NEVER create new files unless absolutely necessary.
+* NEVER edit files outside docs/gdevelop5/ (except automated_updates_data.json as described below).
+* Do NOT touch images or binary files.
 
-IMPORTANT WRITING STYLE AND ARCHITECTURE CONSTRAINTS
-----------------------------------------------------
-
-• Do NOT document non-user-facing implementation details. Focus only on information
-  that is relevant to users creating games with GDevelop, not internal engine behavior.
-• Do NOT list all actions/conditions in a list or table: the reference documentations are already
-  automatically generated for this.
-• Do not specify the default values. Don't feel forced to list all the properties of a 
-  behavior/object/condition/action: prefer to explain use cases, examples and how it's useful
-  for the end user which will create a game with it.
 
 WHEN YOU ARE DONE
 -----------------
