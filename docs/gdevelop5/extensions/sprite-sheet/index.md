@@ -1,7 +1,7 @@
 # Sprite Sheet Animations
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/google-spreadsheet.svg" class="extension-icon"></img>
-Animate Tiled Sprite from sprite sheet image (horizontal, vertical, or JSON layout).
+Animate a tiled sprite from a sprite sheet.
 
 **Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555).
 

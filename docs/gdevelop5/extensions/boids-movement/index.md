@@ -1,7 +1,7 @@
 # Boids movement
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Restaurant/Restaurant_restaurant_seafood_animal_fish.svg" class="extension-icon"></img>
-Flock/swarm movement: separation, alignment, cohesion with attraction and obstacle avoidance.
+Simulates flocks movement.
 
 **Authors and contributors** to this experimental extension: [planktonfun](https://gd.games/planktonfun), [D8H](https://gd.games/D8H).
 

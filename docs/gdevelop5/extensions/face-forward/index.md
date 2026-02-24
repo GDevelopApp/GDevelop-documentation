@@ -1,7 +1,7 @@
 # Face Forward
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/cart-arrow-right.svg" class="extension-icon"></img>
-Auto-rotate object to face its movement direction from applied forces.
+Auto-rotate object to face its movement direction.
 
 **Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames), [TheGemDev](https://gd.games/TheGemDev).
 

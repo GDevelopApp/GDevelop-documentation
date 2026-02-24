@@ -1,7 +1,7 @@
 # Hexagonal 2D grid
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/hexagon-multiple-outline.svg" class="extension-icon"></img>
-Snap objects to hexagonal grid positions with configurable cell size.
+Snap objects to an hexagonal grid.
 
 **Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
 

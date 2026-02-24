@@ -1,7 +1,7 @@
 # Pinching gesture
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/gesture-pinch.svg" class="extension-icon"></img>
-Pinch-to-zoom camera or objects with multi-touch gestures on touchscreens.
+Move the camera or objects with pinching gestures.
 
 **Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
 
