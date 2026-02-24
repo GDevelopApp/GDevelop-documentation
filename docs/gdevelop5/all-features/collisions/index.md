@@ -10,9 +10,7 @@ GDevelop provides several different ways to handle collisions. You can detect co
 ## Make objects solids: use the "Separate objects" action (good for top-down games, RPG...)
 ![](/gdevelop5/all-features/separate-condition.png)
 
-You can use the "**Separate objects**" action to move objects manually. The "Separate objects" action can also move objects with "forces" or set the object's position.
-
-"**Separate objects.**" This action takes two object names as the argument.
+"**Separate objects**" is an action that keeps two types of objects from overlapping. It takes two object names as the argument.
 
   * The first object name is the _object moving_ (the player, enemy, etc.).
   * The second object name is an _object (or a group of objects) that are solid_. For example, these objects can be the walls.
@@ -25,7 +23,7 @@ This action will be launched in every frame. In an event without conditions, the
 
 ### Detect collisions
 
-Using "Separate objects" is a good way to ensure that your objects can't move into other solid objects. This action checks collisions between objects. For example, if the game object "player" is touching a wall, this action, when used with the condition called "**Collision,**" will trigger damages to the player.
+Using "Separate objects" is a good way to ensure that your objects can't move into other solid objects. You can pair it with the "**Collision**" condition to both detect a collision and react to it — for example, dealing damage to the player when touching an enemy, then separating them.
 
 **The sequence is important.**
 
@@ -63,21 +61,21 @@ In a platformer game with the "Platformer character" behavior, collisions with p
         **See it in action!** 🎮
     Open this example online: [Platformer Example](https://editor.gdevelop.io?project=example://platformer)
 
-## Game with physics? Use the Physics behavior
+## Game with physics? Use the Physics 2 behavior
 
-Use [Physics behavior](/gdevelop5/behaviors/physics) in order to achieve realistic physical behavior in your game. Attach "Physics" behavior to your objects. The objects will then behave as though they are alive in the game world. Some examples of real-world behavior include bouncing balls, falling, jumping, etc.
+Use the [Physics 2 behavior](/gdevelop5/behaviors/physics2) to make objects move realistically, simulating gravity, bouncing, and other real-world physical interactions. This is well suited for games like pinball, angry-birds-style projectile games, or anything that relies on natural-feeling collisions and movement.
 
-Configure game walls or solid objects that should not move with "static" behavior.
+Objects configured as **Static** will not move and act as immovable walls or ground. Objects configured as **Dynamic** are fully simulated and react to gravity, forces, and collisions.
 
-### Detect collisions with the Physics behavior
+### Detect collisions with the Physics 2 behavior
 
-When you're using the **Physics** behavior, _do not use_ the **Collision** condition that is in the **Features for all objects** category. _The physics engine will manage all collisions by itself._  The Collision condition won't correctly detect when objects are touching.
+When you're using the **Physics 2** behavior, _do not use_ the **Collision** condition that is in the **Features for all objects** category. _The physics engine will manage all collisions by itself._ The standard Collision condition won't correctly detect when objects are touching.
 
-Instead, use the Collision condition _inside the_ **Physics** _behavior category_, which properly uses the physics engine to simulate the collisions.
+Instead, use the Collision condition _inside the_ **Physics 2** _behavior category_, which properly uses the physics engine to simulate the collisions.
 
 ![](/gdevelop5/all-features/usephysicsbehaviornotcollisionconditionnew.png)
 
-Additionally, objects with the **Physics** behavior ignore the object's Collision Masks and instead use the collision information on the **BEHAVIORS** tab of the object itself. This defaults to a box that is the full dimension of the object. In most cases, there will be a need to change these settings from within the **BEHAVIORS** tab.
+Additionally, objects with the **Physics 2** behavior ignore the object's Collision Masks and instead use the collision shape configured on the **BEHAVIORS** tab of the object itself. This defaults to a box matching the full dimensions of the object. The shape can be changed to a circle, edge, or polygon from within the **BEHAVIORS** tab.
 ![](/gdevelop5/all-features/physics_hitbox.png)
 !!! tip
 
