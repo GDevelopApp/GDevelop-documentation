@@ -57,9 +57,9 @@ Events from the **onCreated** function are run when a new instance of an object 
 
 ### Run events every frame
 
-Events from the **onStepPreEvents** function are run every time a frame is rendering on the screen before the "traditional" events of the scene. Typically this is done 60 times per second. It's called for every single object having the behavior unless it's deactivated.
+Events from the **doStepPreEvents** function are run every time a frame is rendering on the screen before the "traditional" events of the scene. Typically this is done 60 times per second. It's called for every single object having the behavior unless it's deactivated.
 
-The following `onStepPreEvents` function events automatically deletes objects that are too damaged:
+The following `doStepPreEvents` function events automatically deletes objects that are too damaged:
 
 ![](pasted/20210906-235321.png)
 
@@ -67,7 +67,7 @@ The following `onStepPreEvents` function events automatically deletes objects th
 
 Behaviors and the scene events communicate through functions:
 
-- Actions allow to change the state of the behavior and maybe initiate an effect over time in the `onStepPreEvents` function. For instance, a jump action changes the character state from standing to jumping and `onStepPreEvents` modify the character position on Y axis every frame.
+- Actions allow to change the state of the behavior and maybe initiate an effect over time in the `doStepPreEvents` function. For instance, a jump action changes the character state from standing to jumping and `doStepPreEvents` modify the character position on Y axis every frame.
 - Conditions let scene events know about behavior state changes. For instance, a condition can allow to check if a character is jumping.
 
 !!! tip
@@ -80,12 +80,12 @@ For example, this function defines an action that can be used to add damage to t
 
 ### Run events at other lifecycle key times
 
-Even though, the lifecycle functions **onCreated** and **onStepPreEvents** are the most common, the following function can also be used:
+Even though, the lifecycle functions **onCreated** and **doStepPreEvents** are the most common, the following function can also be used:
 
 * **onDestroy**: events that will be run when an instance of the object having the behavior is deleted (if multiple objects are removed at the same time, events will be run for each object). This is done even if the behavior is deactivated.
 * **onDeActivate**: events that will be run once, after the behavior is deactivated on an object.
 * **onActivate**: events that will be run once, after the behavior is activated again on an object.
-* **onStepPostEvents**: events that will be run for every single object having the behavior, after the "traditional" events of the scene, if the behavior is not deactivated. Typically, this is done 60 times per second. It's recommend to prefer `onStepPreEvents`, to run your logic before events and give the events in the scene a chance to react to changes that happen on the objects.
+* **doStepPostEvents**: events that will be run for every single object having the behavior, after the "traditional" events of the scene, if the behavior is not deactivated. Typically, this is done 60 times per second. It's recommended to prefer `doStepPreEvents`, to run your logic before events and give the events in the scene a chance to react to changes that happen on the objects.
 
 ## Use the behavior on an object
 
@@ -101,7 +101,7 @@ The custom behavior that you created is then displayed in the list of the behavi
 
 ![](pasted/20210907-000202.png)
 
-You can run the game and see that the events in "doStepPreEvents" function (or "doStepPostEvents") will be executed. In the example of the Destructible behavior that was created, if the "Damage" variable is set to a number greater or equal to 100, the object will be destroyed automatically.
+You can run the game and see that the events in the `doStepPreEvents` function (or `doStepPostEvents`) will be executed. In the example of the Destructible behavior that was created, if the "Damage" variable is set to a number greater or equal to 100, the object will be destroyed automatically.
 
 To test this, we've added the "Destructible" behavior to object "Platform". Then, when using the debugger, we can inspect "Platform" instances and see that they have a "Damage" variable (set to 0). If we use the debugger (or an event) to set it to 100, the object is removed from the scene:
 
