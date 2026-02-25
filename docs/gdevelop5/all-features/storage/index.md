@@ -40,11 +40,9 @@ A group name can be used to organize the data that is being saved. This makes it
 - `"Player/PositionX"` to store the X position of the player.
 - `"Player/Life"` to store the life of the player.
 
-## Checking and deleting stored values
+## Deleting stored values
 
-Before reading a value it can be useful to verify it was previously saved. The "**Value exists in storage**" condition checks whether a given group path exists. This prevents reading an uninitialized value (which would return `0` or an empty string).
-
-Individual values or whole groups can be removed with the "**Delete element from storage**" action. To wipe an entire storage, use the "**Clear storage**" action.
+Individual values or whole groups can be removed with the "**Delete an element**" action. To wipe an entire storage, use the "**Clear a storage**" action.
 
 ## Advanced: Clear the storage during a preview
 
