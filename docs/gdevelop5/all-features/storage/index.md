@@ -11,6 +11,15 @@ To see this in action, review the *[Save-Load example](https://editor.gdevelop.i
 
     Storage actions will store all the data into **internal storage**. If you want to write or read from files, read [the page about File system](/gdevelop5/all-features/filesystem) (only for Windows, macOS, Linux).
 
+## Value types
+
+Storage supports two types of values:
+
+- **Numbers** — integers and decimals (scores, coordinates, counters, etc.)
+- **Strings** — text (player names, selected options, etc.)
+
+Booleans are not a native storage type; store them as a number (`1`/`0`) or a string (`"true"`/`"false"`).
+
 ## Writing and reading values from a storage
 
 When you're using the action to write or read a value from the storage, you will be asked for the **Storage** and the **Group**.
@@ -30,6 +39,10 @@ A group name can be used to organize the data that is being saved. This makes it
 
 - `"Player/PositionX"` to store the X position of the player.
 - `"Player/Life"` to store the life of the player.
+
+## Deleting stored values
+
+Individual values or whole groups can be removed with the "**Delete an element**" action. To wipe an entire storage, use the "**Clear a storage**" action.
 
 ## Advanced: Clear the storage during a preview
 
@@ -53,7 +66,8 @@ You can now close the preview window. When running the preview again, the stored
 On desktop computers, local storage will always be located here:
 
 * Windows: `PATH_TO_USER_FOLDER\AppData\Roaming\GAME_NAME\Local Storage\leveldb`
-* Linux: `home/USER_NAME/.config/GAME_NAME/Local Storage/leveldb`
+* macOS: `~/Library/Application Support/GAME_NAME/Local Storage/leveldb`
+* Linux: `~/.config/GAME_NAME/Local Storage/leveldb`
 
 For example: if on Windows 10, the User Profile folder is on the C: drive, the User's account name is BobBobson and the game is set to the name "My GD5 Game" in the game properties, this would be the path: `C:\Users\BobBobson\AppData\Roaming\My GD5 Game\Local Storage\leveldb`.
 

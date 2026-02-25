@@ -58,6 +58,10 @@
       "summary": "Fixed publishing docs: removed outdated 'iOS coming soon' claim, fixed broken mobile links, updated Android sideloading instructions for Android 8+, and clarified macOS/Windows security bypass steps"
     },
     {
+      "date": "2026-02-23",
+      "summary": "Improved mouse-touch docs with mouse buttons, wheel scrolling, and cursor coordinate notes; improved storage docs with value types, existence check, deletion, and macOS save path"
+    },
+    {
       "date": "2026-02-24",
       "summary": "Fixed custom behavior lifecycle method names (onStepPreEvents/onStepPostEvents → doStepPreEvents/doStepPostEvents) and updated collisions doc to reference Physics 2 instead of deprecated Physics behavior"
     }
