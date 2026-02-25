@@ -33,24 +33,6 @@ The expressions `CursorX` and `CursorY` give the cursor position in the scene. B
 
     [Open this example online](https://editor.gdevelop.io?project=example://balloon-smasher)
 
-## Mouse buttons
-
-GDevelop supports multiple mouse buttons. When using the "**Mouse button pressed**" or "**Mouse button released**" conditions you can choose which button to test:
-
-- **Left** — the primary click button
-- **Right** — commonly used for secondary actions (context menus, aiming, etc.)
-- **Middle** — clicking the scroll wheel
-- **Back / Forward** — side buttons found on some mice
-
-Right-click can be especially useful for games where the player needs two distinct interactions without using the keyboard.
-
-## Mouse wheel
-
-The mouse wheel is useful for zooming cameras, scrolling menus, or cycling through weapons and items:
-
-- The "**Mouse wheel scrolling up**" and "**Mouse wheel scrolling down**" conditions detect the scroll direction each frame.
-- The `MouseWheelDelta()` expression returns the exact scroll amount (positive when scrolling up, negative when scrolling down), which can be multiplied to control zoom speed or scroll distance.
-
 ## Handle manually multi-touch gestures (advanced)
 
 When only one touch is done at the same times, the mouse events can be used to keep things simple. Indeed, by default touch events are mirrored by mouse events. This can be disabled with the action “De/activate moving the mouse cursor with touches” when handling both multi-touch and mouse events to avoid echo.
