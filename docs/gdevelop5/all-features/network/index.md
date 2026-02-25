@@ -20,6 +20,24 @@ GDevelop provides the action called "Send a request to a web page". You can spec
 
 When the server sends the response, it is saved in a variable so that you can read what was sent.
 
+## HTTP methods
+
+In addition to **GET** and **POST**, the action supports other HTTP methods such as **PUT**, **DELETE**, and **PATCH**. These are commonly used when talking to REST APIs:
+
+- **GET** – retrieve data from the server (no body)
+- **POST** – submit data to the server (e.g., create a record)
+- **PUT** / **PATCH** – update an existing record
+- **DELETE** – delete a record
+
+Choose the method expected by the API you are calling.
+
+## Content-Type
+
+The **Content-Type** field tells the server how the body of the request is formatted. The two most common values are:
+
+- `application/x-www-form-urlencoded` (the default) – use this with query-string bodies for GET/POST forms
+- `application/json` – use this when the body is a JSON string (required by many modern APIs)
+
 ## How to format the content
 
 * For GET requests, parameters have to be sent in the content in the format of a "query string":
@@ -32,6 +50,23 @@ You can send data from a variable, for example:
 
 You can either construct it yourself:
 `"{\"score\": " + VariableString(Score) + " }"` (note the use of backslash before the quote `\"`, to allow the quote to be used inside a text) or use the expression to convert a variable structure to JSON: `ToJSON(VariableWithData)` (see more about this below).
+
+## Handling the server response and errors
+
+The action stores the server's reply in the **response variable** you specify. If the request fails, the **error variable** is filled instead:
+
+- If the server returns an HTTP error (status code ≥ 400), the error variable is set to that status code (e.g., `404` or `500`).
+- If the request could not be sent at all (network error, CORS block, etc.), the error variable is set to `"REQUEST_NOT_SENT"`.
+
+You can use a condition checking the error variable to detect failures and react accordingly (show a retry message, fall back to cached data, etc.).
+
+!!! warning
+
+    Requests are **asynchronous**: the response variable is not filled on the same frame the request is sent. Use the [Wait for request to finish action](/gdevelop5/events/async/) or check the error/response variables in a following event triggered on the next frames.
+
+!!! note
+
+    **CORS (Cross-Origin Resource Sharing)**: Browsers block requests to servers that do not explicitly allow them from a web page. If your game runs in a browser and you receive `"REQUEST_NOT_SENT"`, the target server may not have CORS enabled. This is not an issue when the game is exported as a desktop or mobile app.
 
 ## Converting variables to JSON and back to variables
 
