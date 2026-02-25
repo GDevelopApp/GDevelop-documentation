@@ -1,7 +1,7 @@
 # Resource bar (separated units)
 
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/063e9152cf65bc0f3be2a828afd950c3ecf1b1fc72feefdc2467252fe987dc0f_dots-horizontal.svg" class="extension-icon"></img>
-Discrete-unit resource bar (hearts, icons) for health/mana/ammo. Customizable sprites.
+A bar that represents a resource in the game (health, mana, ammo, etc).
 
 **Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H), [VictrisGames](https://gd.games/VictrisGames), [Entropy](https://gd.games/Entropy).
 

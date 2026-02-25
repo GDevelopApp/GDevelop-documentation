@@ -1,7 +1,7 @@
 # Read pixels
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Computers and Hardware/Computers and Hardware_screen_computer_image.svg" class="extension-icon"></img>
-Read RGB color values of pixels at specific screen coordinates.
+Read the values of pixels on the screen.
 
 **Authors and contributors** to this experimental extension: [Bouh](https://gd.games/Bouh).
 

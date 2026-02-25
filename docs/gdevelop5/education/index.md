@@ -13,12 +13,11 @@ You can read more about [all the benefits that GDevelop and game creation can br
 
 The GDevelop for Education plan gives access to **a curriculum designed by the GDevelop team and by teachers**. It includes multiple ready-to-teach lessons that cover game development theory and step-by-step practical lessons to create full games.
 
-Once you've purchased the GDevelop for Education plan, these curriculum and extra educational resources are accessible from the Teach tab, visible for teachers. 
+Once you've purchased the GDevelop for Education plan, these curriculum and extra educational resources are accessible from the Teach tab, visible for teachers.
 
 !!! tip
 
     For a deep dive into how to structure your classes and manage your curriculum, check out our [Teacher's Guide](teacher-guide.md).
-
 
 ## Getting the Education plan
 
@@ -34,14 +33,14 @@ For instance with 10 seats you can have:
 
 GDevelop is available both as a web application ([editor.gdevelop.io](https://editor.gdevelop.io)) and as a downloadable desktop application. **We highly recommend using the web application** for educational settings:
 
-| Feature | Web App (Recommended) | Desktop App |
-|---------|----------------------|-------------|
-| Installation | None required - open a browser and start | Requires download and installation |
-| Updates | Always up-to-date automatically | Manual updates required |
-| IT involvement | Minimal - just allow required domains | May need IT for installation |
-| Teacher materials | Always have latest curriculum | May miss new resources if not updated |
-| Bug fixes | Immediate | Only after manual update |
-| Features | Identical to desktop | Identical to web |
+| Feature           | Web App (Recommended)                    | Desktop App                           |
+| ----------------- | ---------------------------------------- | ------------------------------------- |
+| Installation      | None required - open a browser and start | Requires download and installation    |
+| Updates           | Always up-to-date automatically          | Manual updates required               |
+| IT involvement    | Minimal - just allow required domains    | May need IT for installation          |
+| Teacher materials | Always have latest curriculum            | May miss new resources if not updated |
+| Bug fixes         | Immediate                                | Only after manual update              |
+| Features          | Identical to desktop                     | Identical to web                      |
 
 !!! warning "Important for IT administrators"
 
@@ -68,7 +67,7 @@ Student accounts are fully anonymized accounts which can be administrated by tea
 
 !!! tip
 
-    If you have specific needs related to how students should access their accounts (reuse existing emails, SSO, etc...), please reach out to us.
+    Advanced account access options (reuse existing emails, SSO, etc...) are not available yet, but are being worked on.
 
 ### Distraction-free view
 
@@ -102,7 +101,7 @@ From the "Manage Seats" page, it is possible to administrate your plan and stude
 
 ### Set or change a student full name
 
-By default, a student account is fully anonymous (the email and passwords are auto-generated). 
+By default, a student account is fully anonymous (the email and passwords are auto-generated).
 If you have a lot of students, you can set for each account a full name (for example, the first and/or last name of a student).
 
 Click on the "Edit" icon next to the student account username to change it. It will then be displayed next to the username.
@@ -210,5 +209,5 @@ No. Student accounts have **full access** to all game-making features—identica
 
 ## Further Reading
 
-* [Teacher's Guide: Best practices for your classroom](teacher-guide.md)
-* [GDevelop Education Pricing](https://gdevelop.io/pricing)
+- [Teacher's Guide: Best practices for your classroom](teacher-guide.md)
+- [GDevelop Education Pricing](https://gdevelop.io/pricing)

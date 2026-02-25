@@ -1,7 +1,7 @@
 # Cursor movement conditions
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Computers and Hardware/Computers and Hardware_mouse_pc.svg" class="extension-icon"></img>
-Conditions to detect if the mouse cursor is currently moving or still.
+Conditions to detect if the cursor is currently moving or still.
 
 **Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
 

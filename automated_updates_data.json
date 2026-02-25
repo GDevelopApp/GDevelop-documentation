@@ -1,5 +1,5 @@
 {
-  "last_automated_updates_commit": "707f05553b3bb5b8ce409a65e081292ecf27b8f6",
+  "last_automated_updates_commit": "ec5dc8937205cd8e1b9bdedb434a19da1b822613",
   "last_improved_things": [
     {
       "date": "2026-02-16",
@@ -60,6 +60,10 @@
     {
       "date": "2026-02-23",
       "summary": "Improved mouse-touch docs with mouse buttons, wheel scrolling, and cursor coordinate notes; improved storage docs with value types, existence check, deletion, and macOS save path"
+    },
+    {
+      "date": "2026-02-24",
+      "summary": "Fixed custom behavior lifecycle method names (onStepPreEvents/onStepPostEvents → doStepPreEvents/doStepPostEvents) and updated collisions doc to reference Physics 2 instead of deprecated Physics behavior"
     }
   ]
 }

@@ -1,7 +1,7 @@
 # Edge scroll camera
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/camera-metering-matrix.svg" class="extension-icon"></img>
-Scroll camera when mouse cursor is near screen edges. Configurable margins and speed.
+Scroll camera when cursor is near screen edges.
 
 **Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames), [D8H](https://gd.games/D8H).
 

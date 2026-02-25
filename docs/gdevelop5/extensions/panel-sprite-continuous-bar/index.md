@@ -1,7 +1,7 @@
 # Resource bar (continuous)
 
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/Glyphster Pack/Master/SVG/Interface Elements/ea06363a57846caab544f536b78a952234b68d4941d41c1577852a1d61aefec3_Interface Elements_interface_ui_loading_progress_bar.svg" class="extension-icon"></img>
-Continuous resource bar (9-patch) for health/mana/ammo with smooth fill animation.
+A bar that represents a resource in the game (health, mana, ammo, etc).
 
 **Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H), [VictrisGames](https://gd.games/VictrisGames), [Entropy](https://gd.games/Entropy).
 

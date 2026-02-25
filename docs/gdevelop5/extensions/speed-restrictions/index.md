@@ -1,7 +1,7 @@
 # Speed restrictions
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/speedometer.svg" class="extension-icon"></img>
-Limit max movement and rotation speed for forces-based or Physics 2D objects.
+Limit max movement and rotation speed for forces-based or Physics 2D.
 
 **Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames).
 
@@ -46,12 +46,12 @@ Limit the maximum speed an object will move from physics forces.
 
 ### Behavior properties
 
-- **Maximum speed (pixels/second)** (🔢 Number). Default value is `3.2622245514109161e-317`.
+- **Maximum speed (pixels/second)** (🔢 Number). Default value is `3.12864501087611e-317`.
 
 ??? quote "See internal technical details"
 
 
-    - **Maximum speed (pixels/second)** is stored as `MaximumSpeed` (Number). Default value is `3.2622245514109161e-317`.
+    - **Maximum speed (pixels/second)** is stored as `MaximumSpeed` (Number). Default value is `3.12864501087611e-317`.
     > This behavior must be used on an object also having a behavior with type "Physics2::Physics2Behavior". This is stored on property `PhysicsBehavior`.
 
 
@@ -64,12 +64,12 @@ Limit the maximum rotation speed of an object from physics forces.
 
 ### Behavior properties
 
-- **Maximum rotation speed (degrees/second)** (🔢 Number). Default value is `3.2698213047813711e-317`.
+- **Maximum rotation speed (degrees/second)** (🔢 Number). Default value is `3.1388978611586075e-317`.
 
 ??? quote "See internal technical details"
 
 
-    - **Maximum rotation speed (degrees/second)** is stored as `MaximumRotationSpeed` (Number). Default value is `3.2698213047813711e-317`.
+    - **Maximum rotation speed (degrees/second)** is stored as `MaximumRotationSpeed` (Number). Default value is `3.1388978611586075e-317`.
     > This behavior must be used on an object also having a behavior with type "Physics2::Physics2Behavior". This is stored on property `PhysicsBehavior`.
 
 

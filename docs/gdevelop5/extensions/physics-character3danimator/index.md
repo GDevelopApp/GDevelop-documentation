@@ -1,7 +1,7 @@
 # 3D physics character animator
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Sports and Fitness/Sports and Fitness_training_running_run.svg" class="extension-icon"></img>
-Auto-animate 3D physics characters based on movement, jumping, and falling states.
+Change animations of 3D physics characters automatically.
 
 **Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
 

@@ -1,7 +1,7 @@
 # Parallax for Tiled Sprite
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/image-move.svg" class="extension-icon"></img>
-Parallax scrolling for Tiled Sprite backgrounds with configurable speed ratios.
+Parallax scrolling for Tiled Sprite backgrounds.
 
 **Authors and contributors** to this experimental extension: [4ian](https://gd.games/4ian), [D8H](https://gd.games/D8H).
 

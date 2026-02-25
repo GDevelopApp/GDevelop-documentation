@@ -1,7 +1,7 @@
 # Smooth Camera
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Computers and Hardware/Computers and Hardware_camcoder_gopro_go_pro_camera.svg" class="extension-icon"></img>
-Smooth camera following with configurable catch-up speed and position offset.
+Smoothly scroll to follow an object.
 
 **Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
 

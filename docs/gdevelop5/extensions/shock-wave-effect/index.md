@@ -1,7 +1,7 @@
 #  Shock wave effect
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/octagram-outline.svg" class="extension-icon"></img>
-Draw expanding shock wave visual effect at a specified position.
+Draw expanding shock wave effect.
 
 **Authors and contributors** to this experimental extension: [Alios](https://gd.games/Alios).
 

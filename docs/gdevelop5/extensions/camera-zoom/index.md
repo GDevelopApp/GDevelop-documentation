@@ -1,7 +1,7 @@
 # Camera Zoom
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/UI Essentials/UI Essentials_zoom_in_plus.svg" class="extension-icon"></img>
-Zoom camera smoothly at configurable speed with optional anchor point.
+Zoom camera smoothly with optional anchor point.
 
 **Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H), [Elairyx](https://gd.games/Elairyx).
 

@@ -1,7 +1,7 @@
 # 2D Top-Down Physics Car
 
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/b4a3bb68575adbecb4418e0397ef8c05913e1f0757dfd111de7e6a4ff31eb149_car-back.svg" class="extension-icon"></img>
-Top-down car physics with steering, acceleration, braking, and drifting.
+Simulate top-down car motion with drifting.
 
 **Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
 

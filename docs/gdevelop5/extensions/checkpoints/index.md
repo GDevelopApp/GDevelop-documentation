@@ -1,7 +1,7 @@
 # Checkpoints
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/flag-variant.svg" class="extension-icon"></img>
-Save checkpoints and respawn objects at the last saved checkpoint position.
+Respawn objects at checkpoints.
 
 **Authors and contributors** to this experimental extension: [Elairyx](https://gd.games/Elairyx), [Bouh](https://gd.games/Bouh).
 
