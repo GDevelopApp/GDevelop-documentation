@@ -66,9 +66,36 @@ Detecting pressed buttons can be done with the **Gamepad button pressed** (or **
 
 #### Handle sticks
 
-`Gamepads::StickAngle` and `Gamepads::StickForce` [expressions](/gdevelop5/all-features/expressions) can be used to apply a force on an object.
+Several [expressions](/gdevelop5/all-features/expressions) are available for analog sticks:
+
+- `Gamepads::StickAngle(gamepad, stick)` – the angle (in degrees) the stick is pushed toward, useful for rotating an object or setting a movement direction.
+- `Gamepads::StickForce(gamepad, stick)` – the magnitude of the stick push, from 0 (centre) to 1 (full deflection). Useful as a speed multiplier.
+- `Gamepads::StickForceX(gamepad, stick)` – the horizontal component, from -1 (left) to 1 (right).
+- `Gamepads::StickForceY(gamepad, stick)` – the vertical component, from -1 (up) to 1 (down).
+
+The `stick` parameter is `"left"` or `"right"`.
 
 ![](gamepad-stick-expression.png)
+
+#### Handle triggers (LT / RT)
+
+Triggers are analog and return a pressure value between 0 (not pressed) and 1 (fully pressed):
+
+`Gamepads::TriggerPressure(gamepad, trigger)` – where `trigger` is `"LT"` / `"L2"` for the left trigger and `"RT"` / `"R2"` for the right trigger.
+
+This is useful for games where you want variable speed (e.g. acceleration in a racing game).
+
+#### Configuring the deadzone
+
+Analog sticks rarely return exactly 0 when at rest. A **deadzone** ignores small unintentional inputs near the centre. The default deadzone is `0.2` (20 % of the full range).
+
+Use the action **Set gamepad deadzone for sticks** to change it. You can also read the current value with `Gamepads::Deadzone(gamepad)`.
+
+A lower deadzone gives more precise control but may cause drift; a higher deadzone filters out more noise but reduces the usable range of the stick.
+
+#### Detecting the last pressed button
+
+`Gamepads::LastButtonString(gamepad, layout)` returns the name of the last button pressed (e.g. `"A"` or `"CROSS"`), useful to display button hints that match the connected controller. `Gamepads::LastButtonID(gamepad)` returns its numeric index instead.
 
 ## Handle several players on the same device
 

@@ -64,6 +64,10 @@
     {
       "date": "2026-02-24",
       "summary": "Fixed custom behavior lifecycle method names (onStepPreEvents/onStepPostEvents → doStepPreEvents/doStepPostEvents) and updated collisions doc to reference Physics 2 instead of deprecated Physics behavior"
+    },
+    {
+      "date": "2026-02-25",
+      "summary": "Improved network docs with HTTP methods, content-type, error handling, CORS warning, and async note; improved gamepad docs with trigger pressure, stick axes, deadzone, and LastButton expressions"
     }
   ]
 }
