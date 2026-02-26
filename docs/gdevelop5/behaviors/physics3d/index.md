@@ -29,7 +29,7 @@ When you want objects to be kicked out and fall, you should set the **Type** to 
 
 ## Move platforms or enemies
 
-Platforms and enemies usually loop on the same path. They must not fall be pushed by other objects.
+Platforms and enemies usually loop on the same path. They must not fall or be pushed by other objects.
 Objects with the **Kinematic** type won't be moved according to physics rules. They can only be moved by changing their **linear velocity** and **angular velocity**. They can interact with other objects but only these other objects will move.
 The [3D ellipse movement](/gdevelop5/extensions/physics-ellipse-movement3d/) behavior allow to easily move objects on ellipses or smoothly back and forth in one direction.
 
@@ -158,8 +158,56 @@ The **max engine torque** allows to climb slopes faster.
 
 ## Concepts used in Physics
 
-This section is being written and will be available soon.
-In the meantime, you can refer to the descriptions for the [2D Physics Engine](/gdevelop5/behaviors/physics2/) as most concepts are the same.
+### Body types
+
+Every 3D physics object has a **Type** that determines how it interacts with the physics simulation:
+
+- **Static**: Never moves. Use it for floors, walls, and fixed obstacles. Other objects can collide with it but it cannot be pushed or affected by forces.
+- **Dynamic**: Fully simulated — affected by gravity, forces, impulses, and collisions. Use it for objects that should fall, roll, or be knocked around.
+- **Kinematic**: Moves only when you explicitly set its linear or angular velocity. It can push Dynamic objects on contact, but it is never pushed back. Use it for moving platforms, elevators, and enemies following a path.
+
+### Collision shapes
+
+The **Shape** property defines the collision volume used by the physics engine. Simpler shapes are faster and more stable than complex ones:
+
+- **Box**: A rectangular prism. You can set custom width, height, and depth. Good default choice for most objects.
+- **Sphere**: A perfect sphere defined by a radius. Very performant and stable, great for balls or rounded objects.
+- **Capsule**: A cylinder with hemispherical caps, defined by a radius and height. Recommended for characters — it slides smoothly over steps and slopes without getting stuck.
+- **Cylinder**: A flat-ended cylinder with radius and height.
+- **Mesh**: Uses the actual geometry of the 3D model as the collision shape. Only works with **Static** objects and is useful for complex terrain or buildings.
+
+All shapes can have a custom **size offset** and a **position offset** (shapeOffsetX/Y/Z) to fine-tune the collision volume independently from the visual representation.
+
+### Key physics properties
+
+| Property | Description |
+|---|---|
+| **Density** | Determines the object's mass relative to its volume. Higher density = heavier object. |
+| **Mass override** | Set a fixed mass in kilograms, ignoring density. Use `0` to rely on density instead. |
+| **Friction** | Resistance to sliding between two surfaces in contact. Combined as `sqrt(A × B)`. |
+| **Restitution** | Bounciness on collision. `0` = no bounce, `1` = perfectly elastic. Combined as `max(A, B)`. |
+| **Linear damping** | Slows down linear movement over time (simulates air resistance). |
+| **Angular damping** | Slows down rotation over time. |
+| **Gravity scale** | Multiplier applied to world gravity for this object. `0` = no gravity, `2` = twice as strong. |
+| **Fixed rotation** | Prevents the object from rotating due to physics forces. |
+| **Bullet** | Enables more accurate collision detection for fast-moving objects (at a performance cost). |
+
+### Collision layers and masks
+
+Objects can be assigned to **layers** and given **masks** to filter which objects they collide with:
+
+- An object only collides with another if at least one of its **layers** matches one of the other object's **masks**, and vice versa.
+- This allows creating groups of objects that ignore each other (for example, projectiles from the same team, or ghost objects that pass through walls).
+
+### Forces and impulses
+
+- **Forces** are applied continuously every frame and accelerate an object gradually. Use them for things like a rocket thruster.
+- **Impulses** apply an instant velocity change. Use them for a single event like a jump or an explosion.
+- **Torques** and **angular impulses** work the same way, but for rotation.
+
+### World scale
+
+The **world scale** (pixels per meter) converts between GDevelop's pixel coordinates and the physics engine's real-world meters. The default is **100 pixels = 1 meter**. Setting a realistic scale is especially important for vehicles and character movement, as it ensures gravity, friction, and collision forces feel natural.
 
 
 ## Reference

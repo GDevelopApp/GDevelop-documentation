@@ -64,6 +64,10 @@
     {
       "date": "2026-02-24",
       "summary": "Fixed custom behavior lifecycle method names (onStepPreEvents/onStepPostEvents → doStepPreEvents/doStepPostEvents) and updated collisions doc to reference Physics 2 instead of deprecated Physics behavior"
+    },
+    {
+      "date": "2026-02-26",
+      "summary": "Filled in Physics 3D 'Concepts used in Physics' placeholder with body types, collision shapes, key properties, layers/masks, forces/impulses, and world scale; improved Network docs with async clarification, HTTP methods, content-type guidance, and error handling; fixed tilemap typo"
     }
   ]
 }

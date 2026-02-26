@@ -14,11 +14,15 @@ Games and applications work similarly to send or get data to a server:
   * they send a request to a specific address (also called an endpoint). Optionally, the request can include parameters.
   * the server sends back a response. The set of all requests that are handled by a server is sometimes called an API.
 
-In addition to the address and the parameters, HTTP requests can have a "verb" associated as well.  Requests to get data or fetch a webpage are usually "GET" requests. Requests to post data are usually "POST" requests.
+In addition to the address and the parameters, HTTP requests can have a "verb" (also called a method) associated with them. Requests to get data or fetch a webpage are usually "GET" requests. Requests to create data are usually "POST" requests. Other common methods include PUT (replace data), PATCH (partially update data), and DELETE (remove data).
 
-GDevelop provides the action called "Send a request to a web page". You can specify the host and the path to the API/web page to be called (for example, if your "endpoint" is `https://mygame.com/api/store-score`, the host is `https://mygame.com` and the path is `/api/store-score` (don't forget the slash /)). You can also specify the content of the request (the parameter that will be received by the server).
+GDevelop provides the action called "Send a request to a web page". You can specify the host and the path to the API/web page to be called (for example, if your "endpoint" is `https://mygame.com/api/store-score`, the host is `https://mygame.com` and the path is `/api/store-score` (don't forget the slash /)). You can also specify the HTTP method (GET, POST, PUT, DELETE, PATCH…), the content of the request, an optional content type (for example `application/json`), and two variables: one to receive the response body, and one to capture any error.
 
-When the server sends the response, it is saved in a variable so that you can read what was sent.
+!!! note
+
+    This action is **asynchronous**: the game continues running while the request is in progress. The response variable is populated once the server replies. To react to the response, check the variable in your events on subsequent frames (for example, with a condition "Value of variable ≠ empty string" or by checking the error variable is empty).
+
+If the request fails or the server returns an HTTP status ≥ 400, the error variable is set to the HTTP status code. If the request could not be sent at all (no network, CORS issue, etc.), it is set to `"REQUEST_NOT_SENT"`. Always check the error variable when your game logic depends on the result.
 
 ## How to format the content
 
@@ -28,9 +32,9 @@ When the server sends the response, it is saved in a variable so that you can re
 You can send data from a variable, for example:
 `"score=" + VariableString(Score) + "&playerName=" + VariableString(Name)`
 
-* For POST requests, it depends on what is expected by the server, but most of the time the server expects JSON formatted text.
+* For POST requests, it depends on what is expected by the server, but most of the time the server expects JSON formatted text. In this case, also set the **content type** to `application/json` in the action.
 
-You can either construct it yourself:
+You can either construct the JSON yourself:
 `"{\"score\": " + VariableString(Score) + " }"` (note the use of backslash before the quote `\"`, to allow the quote to be used inside a text) or use the expression to convert a variable structure to JSON: `ToJSON(VariableWithData)` (see more about this below).
 
 ## Converting variables to JSON and back to variables
