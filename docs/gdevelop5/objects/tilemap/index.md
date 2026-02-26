@@ -59,7 +59,7 @@ GDevelop supports a subset of Tiled and LDtk features:
 
   - Click the **Layers** button or press **L** on the keyboard. The **Project Layers** window will display.
   - Click the plus **+** button to add a new layer. A selection menu will display.
-    * While there are many layer types, this tutorial will only cover the standard Tiles layer. Entities are not imported at this time, whiel IntGrid and Auto-Layers are much more advanced and should be learned about at [ldtk.io](https://ldtk.io)
+    * While there are many layer types, this tutorial will only cover the standard Tiles layer. Entities are not imported at this time, while IntGrid and Auto-Layers are much more advanced and should be learned about at [ldtk.io](https://ldtk.io)
   - Click the **Tiles** option.
   - Within the **Layer identifier** field, type a name.
   - Select the desired tileset from the dropdown list.
