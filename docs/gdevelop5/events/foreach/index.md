@@ -13,6 +13,19 @@ A "For Each" event is a special [event](/gdevelop5/events) that takes an object 
 
 For Each events support [local variables](/gdevelop5/all-features/variables/local-variables). Local variables declared in a For Each event are scoped to the loop: they are initialized before the loop starts and are only accessible within the loop and its sub-events.
 
+## Ordering instances
+
+By default, a For Each event processes instances in an unspecified order. You can change this by selecting **ordered by** in the event header and entering an expression. The expression is evaluated for each instance, and instances are then processed in ascending or descending order based on the result.
+
+Common uses include:
+- Processing enemies from closest to farthest: `Enemy.Distance(Player)`
+- Processing objects by a variable: `MyObject.Variable(Priority)`
+- Processing objects by a behavior value, such as health or speed
+
+You can also set a **limit** to process only the first N instances after sorting. For example, sorting enemies by distance and limiting to 3 will run the event only for the 3 closest enemies.
+
+To add or remove ordering, right-click on the For Each event and choose **Add Ordering** or **Remove Ordering**.
+
 ## Loop counter variable
 
 For Each events can have a **loop counter variable**. When set, this variable starts at 0 and is automatically incremented by 1 for each object instance processed. This is useful to know the index of the current object in the iteration.
