@@ -59,6 +59,17 @@ GDevelop offers a wide variety of objects, each designed for a specific use. Bel
 
 ![](pasted/20230221-180825.png)
 
+## Importing objects from an asset pack file
+
+You can import objects directly from a `.gdo` asset pack file into your scene. This is useful for bringing in objects from an asset pack you have downloaded or exported yourself.
+
+To import objects:
+
+1. Right-click on **Scene Objects** in the Objects panel.
+2. Choose **Import assets**.
+3. Select a `.gdo` file.
+4. Pick which objects to import, then confirm.
+
 
 ## Choosing a name for your object
 
