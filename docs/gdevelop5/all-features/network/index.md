@@ -14,9 +14,24 @@ Games and applications work similarly to send or get data to a server:
   * they send a request to a specific address (also called an endpoint). Optionally, the request can include parameters.
   * the server sends back a response. The set of all requests that are handled by a server is sometimes called an API.
 
-In addition to the address and the parameters, HTTP requests can have a "verb" associated as well.  Requests to get data or fetch a webpage are usually "GET" requests. Requests to post data are usually "POST" requests.
+In addition to the address and the parameters, HTTP requests have a "method" (or "verb"): "GET" requests fetch data, "POST" requests send new data, "PUT" and "PATCH" update existing data, and "DELETE" removes data. GDevelop supports the full set of HTTP methods: `GET`, `POST`, `PUT`, `PATCH`, `DELETE`, `HEAD`, and `OPTIONS`.
 
-GDevelop provides the action called "Send a request to a web page". You can specify the host and the path to the API/web page to be called (for example, if your "endpoint" is `https://mygame.com/api/store-score`, the host is `https://mygame.com` and the path is `/api/store-score` (don't forget the slash /)). You can also specify the content of the request (the parameter that will be received by the server).
+## Sending an asynchronous request (recommended)
+
+Use the action **"Send an async request to a web page"** to call an API without pausing the game. The game continues running while it waits for a response. You provide:
+
+- **URL** — the full address of the endpoint, e.g. `"https://mygame.com/api/store-score"`. HTTPS is strongly recommended.
+- **Body** — the content to send with the request (see formatting below).
+- **Method** — the HTTP method: `GET`, `POST`, `PUT`, `PATCH`, `DELETE`, `HEAD`, or `OPTIONS`.
+- **Content type** — defaults to `application/x-www-form-urlencoded` if left empty. Use `application/json` when sending JSON data.
+- **Response variable** — the scene variable that will receive the server's response text when the request succeeds.
+- **Error variable** — the scene variable that will receive an error description if the request fails. It contains the HTTP status code (e.g. `"404"`) for server errors, or the special value `"REQUEST_NOT_SENT"` for connection failures such as no internet access or a CORS block.
+
+!!! warning
+
+    **CORS for web games** — When your game runs in a browser, the browser blocks requests to a different domain unless that server explicitly allows it with CORS headers (`Access-Control-Allow-Origin`). If you see `"REQUEST_NOT_SENT"` in your error variable for a web game, check the server's CORS configuration. This restriction does not apply to desktop or mobile builds.
+
+GDevelop also provides the older action "Send a request to a web page". You can specify the host and the path to the API/web page to be called (for example, if your "endpoint" is `https://mygame.com/api/store-score`, the host is `https://mygame.com` and the path is `/api/store-score` (don't forget the slash /)). You can also specify the content of the request (the parameter that will be received by the server).
 
 When the server sends the response, it is saved in a variable so that you can read what was sent.
 
