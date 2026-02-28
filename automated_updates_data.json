@@ -64,6 +64,10 @@
     {
       "date": "2026-02-24",
       "summary": "Fixed custom behavior lifecycle method names (onStepPreEvents/onStepPostEvents → doStepPreEvents/doStepPostEvents) and updated collisions doc to reference Physics 2 instead of deprecated Physics behavior"
+    },
+    {
+      "date": "2026-02-28",
+      "summary": "Improved network docs: corrected URL format to full URL, added async note, error handling (REQUEST_NOT_SENT, status codes), supported HTTP methods, Content-Type for JSON, CORS note, and fixed JSON example bug"
     }
   ]
 }

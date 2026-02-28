@@ -14,23 +14,40 @@ Games and applications work similarly to send or get data to a server:
   * they send a request to a specific address (also called an endpoint). Optionally, the request can include parameters.
   * the server sends back a response. The set of all requests that are handled by a server is sometimes called an API.
 
-In addition to the address and the parameters, HTTP requests can have a "verb" associated as well.  Requests to get data or fetch a webpage are usually "GET" requests. Requests to post data are usually "POST" requests.
+In addition to the address and the parameters, HTTP requests can have a "verb" associated as well. Requests to get data or fetch a webpage are usually "GET" requests. Requests to post data are usually "POST" requests. Other commonly used methods are "PUT", "DELETE", and "PATCH".
 
-GDevelop provides the action called "Send a request to a web page". You can specify the host and the path to the API/web page to be called (for example, if your "endpoint" is `https://mygame.com/api/store-score`, the host is `https://mygame.com` and the path is `/api/store-score` (don't forget the slash /)). You can also specify the content of the request (the parameter that will be received by the server).
+GDevelop provides the action called **"Send a request to a web page"**. You specify the full URL of the endpoint (for example, `https://mygame.com/api/store-score`). You can also specify the body content of the request, the HTTP method, and optionally a content type.
 
-When the server sends the response, it is saved in a variable so that you can read what was sent.
+!!! note
+
+    This action is **asynchronous**: the game keeps running while the request is being sent and while the response is being received. The response variable is updated once the server replies — it will not be immediately available on the next event.
+
+When the server sends the response, it is stored as a string in a scene variable you choose. If the server returns JSON, use the action **"Convert JSON to a scene variable"** afterwards to work with the response as a structure variable.
+
+## Error handling
+
+You can optionally specify a second variable to store any error that occurs:
+
+- If the server responds with an HTTP status code of 400 or higher (such as 404 or 500), the error variable is set to that status code as a string (e.g., `"404"`).
+- If the request could not be sent at all (for example, due to no internet connection or a CORS policy blocking the request), the error variable is set to `"REQUEST_NOT_SENT"`.
+
+If no error occurs, the error variable is left unchanged.
+
+!!! note
+
+    **CORS and web games**: When your game is hosted on the web, browsers enforce Cross-Origin Resource Sharing (CORS) rules. Requests to a different domain will fail (error variable set to `"REQUEST_NOT_SENT"`) unless the server explicitly allows cross-origin requests. On desktop and mobile builds, CORS restrictions do not apply.
 
 ## How to format the content
 
-* For GET requests, parameters have to be sent in the content in the format of a "query string":
+* For **GET** requests, parameters are typically appended to the URL as a query string, or sent in the body in the format:
 `parameter1=value1&parameter2=value2&parameter3=value3`...
 
-You can send data from a variable, for example:
+You can build this from variables, for example:
 `"score=" + VariableString(Score) + "&playerName=" + VariableString(Name)`
 
-* For POST requests, it depends on what is expected by the server, but most of the time the server expects JSON formatted text.
+* For **POST**, **PUT**, and **PATCH** requests, it depends on what the server expects, but most of the time the server expects JSON formatted text. Set the **content type** parameter to `application/json` when sending JSON.
 
-You can either construct it yourself:
+You can either construct the JSON yourself:
 `"{\"score\": " + VariableString(Score) + " }"` (note the use of backslash before the quote `\"`, to allow the quote to be used inside a text) or use the expression to convert a variable structure to JSON: `ToJSON(VariableWithData)` (see more about this below).
 
 ## Converting variables to JSON and back to variables
@@ -38,7 +55,7 @@ You can either construct it yourself:
 ### Variable to JSON
 
 JSON is a text format that can be used to describe the structure of data, containing number, strings, objects and arrays.
-For example, an object containing the score and the name of a player would be: `{ "name":  John, "score": 45 }`.
+For example, an object containing the score and the name of a player would be: `{ "name": "John", "score": 45 }`.
 
 Variables in GDevelop can contain number, strings or be a "structure" containing children which are also variables, containing number, strings or children.
 
