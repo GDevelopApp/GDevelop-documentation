@@ -133,7 +133,7 @@ nav:
         - Slider: panel-sprite-slider
         - Player avatar: player-avatar
         - Pop-up: pop-up
-        - Animated Score Counter: score-counter
+        - Animated score counter: score-counter
         - Share dialog and sharing options: share
         - Toggle switch: sprite-toggle-switch
         - Star Rating Bar: star-rating-bar

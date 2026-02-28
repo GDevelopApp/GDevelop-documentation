@@ -1,4 +1,4 @@
-# Animated Score Counter
+# Animated score counter
 
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/48ec8784eacd92181e4a3bde4755962b5f6edf986e624fc85ea423a31408450d_counter.svg" class="extension-icon"></img>
 Animated score counter with an icon.
@@ -16,9 +16,9 @@ There are ready-to-use counters in the asset-store [score counters pack](https:/
 
 
 
-## Animated Score Counter 
+## Animated score counter 
 
-An animated score counter with an icon and a customisable font. 
+Animated score counter with an icon. 
 
 ### Object properties
 
@@ -80,4 +80,4 @@ Compare the score of the object.
 
 ---
 
-*This page is an auto-generated reference page about the **Animated Score Counter** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).
+*This page is an auto-generated reference page about the **Animated score counter** extension for [GDevelop, the open-source, AI-powered, cross-platform game engine designed for everyone](https://gdevelop.io/).* Learn more about [all GDevelop extensions here](/gdevelop5/extensions).
