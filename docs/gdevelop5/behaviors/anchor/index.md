@@ -21,15 +21,16 @@ To add an anchor to an object:
 
 ## Behavior parameters
 
-### Edge anchor
-You can choose to what the object will be anchored from several options:
+The anchor behavior editor provides a simplified set of buttons for horizontal and vertical anchoring:
 
-  * **None**: No anchor will be applied to the selected edge.
-  * **Window side**: The distance between the object's edge and the selected window side is set so that it is the same for any window size.
-  * **Window center**: The distance between the object's edge and the center of the window is maintained.
-  * **Proportional**: The object's edge will always be set so that it is at the same proportion of the screen.
+  * **None**: No anchor applied — the object stays at its original position regardless of window size.
+  * **Left / Top**: The object's position relative to the left (or top) edge of the window stays constant.
+  * **Center**: The object stays at the same distance from the center of the window.
+  * **Right / Bottom**: The object's position relative to the right (or bottom) edge stays constant.
+  * **Fill**: The object stretches to fill the window (anchors both edges to opposite sides).
+  * **Fill proportionally**: The object scales proportionally with the window size.
 
-Note that setting anchors to opposite edges will stretch the object.
+For advanced use cases — such as anchoring one edge to the left and the other to the center — an **Advanced** section is available with individual per-edge settings.
 
 ## Reference
 
