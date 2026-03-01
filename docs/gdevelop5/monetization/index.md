@@ -1,3 +1,14 @@
+import time
+
+dry_percent = 0
+print("दीवार पर पेंट कर दिया गया है। अब इसके सूखने का इंतज़ार करें...")
+
+while dry_percent < 100:
+    time.sleep(10) # हर 10 सेकंड में 1% सूखेगा
+    dry_percent += 1
+    print(f"पेंट {dry_percent}% सूख चुका है। बोरियत महसूस हो रही है?")
+
+print("बधाई हो! पेंट सूख गया। आपने अपने जीवन के 1000 सेकंड बर्बाद कर दिए!")
 ---
 title: Monetizing Your Games
 icon: material/cash-multiple
