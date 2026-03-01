@@ -66,9 +66,20 @@ Detecting pressed buttons can be done with the **Gamepad button pressed** (or **
 
 #### Handle sticks
 
-`Gamepads::StickAngle` and `Gamepads::StickForce` [expressions](/gdevelop5/all-features/expressions) can be used to apply a force on an object.
+The following [expressions](/gdevelop5/all-features/expressions) let you read analog stick values:
+
+- `Gamepads::StickAngle(gamepadNumber, stick)` — angle the stick is pushed toward (in degrees).
+- `Gamepads::StickForce(gamepadNumber, stick)` — overall force/magnitude of the stick push (0 to 1).
+- `Gamepads::StickForceX(gamepadNumber, stick)` — horizontal axis of the stick (−1 = fully left, 1 = fully right).
+- `Gamepads::StickForceY(gamepadNumber, stick)` — vertical axis of the stick (−1 = fully up, 1 = fully down).
+
+For triggers (LT / RT / L2 / R2), use `Gamepads::TriggerPressure(gamepadNumber, trigger)` which returns a value from 0 (not pressed) to 1 (fully pressed). This allows smooth acceleration or braking in racing games, for example.
 
 ![](gamepad-stick-expression.png)
+
+#### Deadzone
+
+Small stick movements near the center are often caused by imprecision in the hardware. GDevelop applies a **deadzone** (default 0.2) that ignores stick values below that threshold. You can change the deadzone with the action **"Set the deadzone of a gamepad stick"** or read it with the expression `Gamepads::Deadzone(gamepadNumber)`.
 
 ## Handle several players on the same device
 
@@ -81,9 +92,17 @@ Each gamepad connected to the computer or phone is numbered from 1 to 4:
 
 ![](gamepad-condition-connected.png)
 
+### Detect controller type
+
+Use the condition **"Type of gamepad"** or the expression `Gamepads::GamepadType(gamepadNumber)` to identify the kind of controller connected (Xbox, PS4, Steam Deck, etc.). This lets you display the correct button icons in your UI — for example, showing a cross button for PlayStation players and an A button for Xbox players.
+
 ## Vibrate a gamepad
 
 Use the action **Gamepad vibration** to make a gamepad vibrate.
 
 **Advanced Gamepad vibration** allows to setup vibration magnitudes for low and high frequency rumble motors.
 Each player can have different rumble values.
+
+!!! warning
+
+    Advanced vibration is not supported on Firefox.
