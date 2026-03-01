@@ -3,7 +3,7 @@
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/Glyphster Pack/Master/SVG/Space/9ea467d2404c1736b87d763c884e9b9dfb13a401360f69c6a17afc8f5d583d58_Space_warp_galaxy.svg" class="extension-icon"></img>
 Jump and run on platforms at 360°.
 
-**Authors and contributors** to this experimental extension: [Kennoir](https://gd.games/Kennoir), [UnknownUney](https://gd.games/UnknownUney), [D8H](https://gd.games/D8H).
+**Authors and contributors** to this experimental extension: [Kennoir](https://gd.games/Kennoir), [SilliFloof](https://gd.games/SilliFloof), [D8H](https://gd.games/D8H).
 
 !!! warning
     This is an extension made by a community member and it only got through a
