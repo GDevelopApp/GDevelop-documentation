@@ -64,6 +64,10 @@
     {
       "date": "2026-02-24",
       "summary": "Fixed custom behavior lifecycle method names (onStepPreEvents/onStepPostEvents → doStepPreEvents/doStepPostEvents) and updated collisions doc to reference Physics 2 instead of deprecated Physics behavior"
+    },
+    {
+      "date": "2026-03-02",
+      "summary": "Improved keyboard docs with Key just pressed distinction, Any key released, touch device warning, and key names table; fixed network docs with async note, CORS warning, content-type guidance for JSON POST, error variable info, and invalid JSON example"
     }
   ]
 }
