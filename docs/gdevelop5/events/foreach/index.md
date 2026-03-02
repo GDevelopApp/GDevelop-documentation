@@ -19,6 +19,18 @@ For Each events can have a **loop counter variable**. When set, this variable st
 
 To add a loop counter variable, right-click on the For Each event and choose **Add > Loop Counter Variable**.
 
+## Ordering instances
+
+By default, the For Each event iterates over instances in the **default order** (the internal engine order). You can change this by choosing **ordered by** in the event, which lets you specify a numeric expression to sort instances before iterating. The sort can be **ascending** or **descending**.
+
+Common use cases:
+
+- Process enemies by distance to the player: `Enemy.Distance(Player)` (ascending, nearest first)
+- Handle objects by a variable value: `Enemy.SomeVariable` (descending, highest first)
+- Act on the object with the highest health first using a behavior expression
+
+An optional **limit** can be set to only process the first N instances after sorting. For example, order by distance and limit to 3 to only process the 3 nearest enemies.
+
 ## How to add this event
 
 Right click (or long press) on an existing [event](/gdevelop5/events) and choose *"Add"* in the menu. Then, select the event you want to add.
