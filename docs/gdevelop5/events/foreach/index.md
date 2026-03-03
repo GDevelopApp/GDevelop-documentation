@@ -13,6 +13,18 @@ A "For Each" event is a special [event](/gdevelop5/events) that takes an object 
 
 For Each events support [local variables](/gdevelop5/all-features/variables/local-variables). Local variables declared in a For Each event are scoped to the loop: they are initialized before the loop starts and are only accessible within the loop and its sub-events.
 
+## Ordering instances
+
+By default, instances are processed in the default order (the order GDevelop keeps track of them internally). You can change this by choosing **ordered by** in the event, then entering an expression that is evaluated for each instance. Instances are then sorted by the result of that expression before the loop runs.
+
+For example, you can iterate over enemies from the one with the lowest health to the highest using an expression like `Enemy.HealthBehavior::Health()`, or process the nearest objects first using `Enemy.Distance(Player)`.
+
+You can choose **ascending** (lowest first) or **descending** (highest first) order.
+
+### Limit
+
+When using **ordered by**, you can optionally set a **limit** to process only the first N instances after sorting. This is useful to, for example, target only the 3 nearest enemies rather than all of them.
+
 ## Loop counter variable
 
 For Each events can have a **loop counter variable**. When set, this variable starts at 0 and is automatically incremented by 1 for each object instance processed. This is useful to know the index of the current object in the iteration.
