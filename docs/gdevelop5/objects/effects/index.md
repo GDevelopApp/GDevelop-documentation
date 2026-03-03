@@ -47,13 +47,16 @@ In this example, the Dark Night effect is called "Effect" and has two parameters
 
 ![](https://github.com/user-attachments/assets/9bf6871e-c57b-40f8-a249-d09f04774d88)
 
-You can then add an event with an action called "Effect Parameter":
+You can then search for an action to modify an effect parameter — for example **"Set effect number parameter"** (for numeric values like intensity or radius), **"Set effect string parameter"** (for colors or text values), or **"Enable effect property"** (for boolean on/off properties).
 
-* Enter first the layer name (don't forget the quotes). For the base layer, enter an empty string (`""`).
-* Enter the name of the effect, for example `"Effect"`.
-* Enter the name of the parameter, for example `"intensity"` or `"opacity"`.
-* Finally, enter the new value to be set for this parameter.
+Select the object, then enter:
+
+* The name of the effect, for example `"Effect"`.
+* The name of the parameter, for example `"intensity"` or `"opacity"`.
+* The new value for the parameter.
 
 !!! danger
 
-    All of these names are case sensitive. In particular the parameter names are lowercased. Be sure to double check the name of your effect and parameters.
+    Effect and parameter names are case sensitive. In particular, parameter names are lowercased. Be sure to double-check the exact names shown in the **Effects** tab.
+
+You can also use the **"Enable/Disable effect"** action to toggle an entire effect on or off without deleting it — useful for temporarily activating effects like a hit flash or a shield glow.

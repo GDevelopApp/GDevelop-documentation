@@ -16,17 +16,14 @@ Games and applications work similarly to send or get data to a server:
 
 In addition to the address and the parameters, HTTP requests can have a "verb" associated as well.  Requests to get data or fetch a webpage are usually "GET" requests. Requests to post data are usually "POST" requests.
 
-GDevelop provides the action called "Send a request to a web page". You can specify the host and the path to the API/web page to be called (for example, if your "endpoint" is `https://mygame.com/api/store-score`, the host is `https://mygame.com` and the path is `/api/store-score` (don't forget the slash /)). You can also specify the content of the request (the parameter that will be received by the server).
+GDevelop provides the action called "Send a request to a web page". Specify the full URL of the endpoint (for example, `https://mygame.com/api/store-score`), the HTTP method (GET, POST, PUT, DELETE, etc.), the request body content, and optionally a Content-Type header.
 
-When the server sends the response, it is saved in a variable so that you can read what was sent.
+The action is **asynchronous**: your game continues running while the request is sent in the background. Once the server responds, the response text is stored in a variable you provide. If the server returns an HTTP error (status 400 or higher), the error code is stored in a separate error variable instead.
 
 ## How to format the content
 
-* For GET requests, parameters have to be sent in the content in the format of a "query string":
-`parameter1=value1&parameter2=value2&parameter3=value3`...
-
-You can send data from a variable, for example:
-`"score=" + VariableString(Score) + "&playerName=" + VariableString(Name)`
+* For GET requests, parameters must be appended directly to the URL as a query string — the request body is ignored for GET requests:
+`"https://mygame.com/api/scores?score=" + VariableString(Score) + "&playerName=" + VariableString(Name)`
 
 * For POST requests, it depends on what is expected by the server, but most of the time the server expects JSON formatted text.
 

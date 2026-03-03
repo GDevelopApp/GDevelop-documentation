@@ -64,6 +64,10 @@
     {
       "date": "2026-02-24",
       "summary": "Fixed custom behavior lifecycle method names (onStepPreEvents/onStepPostEvents → doStepPreEvents/doStepPostEvents) and updated collisions doc to reference Physics 2 instead of deprecated Physics behavior"
+    },
+    {
+      "date": "2026-03-03",
+      "summary": "Fixed network docs (outdated host/path split → full URL, async behavior, error variable, GET query string placement) and object effects docs (removed wrong layer name instruction, added enable/disable effect action)"
     }
   ]
 }
