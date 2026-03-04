@@ -38,7 +38,7 @@ You can either construct it yourself:
 ### Variable to JSON
 
 JSON is a text format that can be used to describe the structure of data, containing number, strings, objects and arrays.
-For example, an object containing the score and the name of a player would be: `{ "name":  John, "score": 45 }`.
+For example, an object containing the score and the name of a player would be: `{ "name": "John", "score": 45 }`.
 
 Variables in GDevelop can contain number, strings or be a "structure" containing children which are also variables, containing number, strings or children.
 

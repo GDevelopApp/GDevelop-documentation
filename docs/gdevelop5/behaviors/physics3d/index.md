@@ -158,8 +158,64 @@ The **max engine torque** allows to climb slopes faster.
 
 ## Concepts used in Physics
 
-This section is being written and will be available soon.
-In the meantime, you can refer to the descriptions for the [2D Physics Engine](/gdevelop5/behaviors/physics2/) as most concepts are the same.
+### World settings
+
+The 3D physics world has two global settings shared by all objects in a scene:
+
+- **Gravity**: a 3-axis vector (X, Y, Z) applied to every dynamic object. By default it is `Z = -9.8` which pulls objects downward, as in real life.
+- **World scale**: how many pixels represent one meter. The default is `100` pixels per meter. Choosing a realistic scale helps the physics simulation behave naturally. For example, if your character sprite is 200 pixels tall and you want it to represent a 2-meter-tall person, set the world scale to `100`.
+
+!!! tip
+
+    As a rule of thumb, choose the world scale so that your main moving objects are between 0.1 and 10 meters. Objects outside this range may produce inaccurate simulations.
+
+### Body types
+
+Each object with the **3D physics** behavior has a **type** that determines how it interacts with the world:
+
+- **Dynamic**: the most common type. The object is affected by gravity, forces, impulses, and collisions with other objects. Use it for anything that should move freely: characters, balls, crates...
+- **Static**: the object is immovable. It ignores gravity and cannot be pushed by forces or other bodies. Other objects collide with it normally. Use it for floors, walls, fixed platforms, and any scenery that never moves.
+- **Kinematic**: the object is only moved by setting its **linear velocity** or **angular velocity** directly in events. It is not affected by gravity or external forces, but it can push dynamic objects. Use it for moving platforms, elevators, or enemy characters with custom movement.
+
+### Body shapes
+
+The physics engine uses a simplified shape (called a *collider*) to handle collisions — it does not follow the exact visual mesh of the object:
+
+- **Box**: a rectangular box sized to the object dimensions by default. Works well for most objects.
+- **Capsule**: a cylinder with hemispherical caps. The **shape orientation** (X, Y, or Z) sets the long axis direction. Recommended for characters because it slides smoothly over uneven surfaces without catching on edges.
+- **Sphere**: a simple sphere. Good for balls or round objects.
+- **Cylinder**: a cylinder shape. Use **shape orientation** to set the axis direction.
+- **Mesh**: uses a simplified 3D model as the collider shape. **Only supported for Static bodies.** Useful for irregular terrain or complex static geometry.
+
+Custom **shape dimensions** can be set to override the default sizes. A **shape offset** (X, Y, Z) moves the collider relative to the object's center, useful for objects whose visual center differs from their physical center.
+
+### Physics properties
+
+- **Density**: determines the object's mass based on its volume. Higher density = heavier object. Two objects with the same density but different sizes will have different masses.
+- **Mass override**: sets an explicit mass in kilograms, ignoring the density. Useful when you know the real-world mass of an object (e.g., a car weighing 1,500 kg).
+- **Friction**: the resistance when sliding against another object. A value of `0` is frictionless (like ice); higher values slow objects down on contact. The effective friction between two objects uses the formula: `sqrt(frictionA * frictionB)`.
+- **Restitution**: the "bounciness" of the object. `0` means no bounce (perfectly inelastic); `1` means a perfectly elastic bounce. When two objects collide, the engine uses `max(restitutionA, restitutionB)`.
+- **Linear Damping**: reduces the object's velocity over time, simulating air resistance. Higher values slow movement more quickly.
+- **Angular Damping**: reduces the object's rotational speed over time. Useful to stop objects from spinning indefinitely.
+- **Gravity Scale**: multiplies the world gravity for this specific object. A value of `2` makes the object fall twice as fast; `0` disables gravity for this object; `-1` inverts gravity.
+
+### Collision layers and masks
+
+Layers and masks let you control which objects can collide with each other, similarly to the [2D Physics Engine](/gdevelop5/behaviors/physics2/).
+
+- **Layers**: the group(s) this object belongs to.
+- **Masks**: the group(s) this object will collide with.
+
+Two objects can collide only when *any layer of A matches any mask of B, **and** any layer of B matches any mask of A*.
+
+!!! note
+
+    Physics collision layers are separate from the visual layers used to order objects in a scene.
+
+### Fixed rotation and bullet mode
+
+- **Fixed Rotation**: when enabled, the object cannot rotate due to physics forces. Useful to keep a character upright at all times.
+- **Considered as a bullet**: enables continuous collision detection for fast-moving objects. This prevents thin walls from being missed due to high speed. Enable it for projectiles or other very fast objects at the cost of some performance.
 
 
 ## Reference
