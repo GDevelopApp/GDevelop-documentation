@@ -19,6 +19,14 @@ For Each events can have a **loop counter variable**. When set, this variable st
 
 To add a loop counter variable, right-click on the For Each event and choose **Add > Loop Counter Variable**.
 
+## Ordering and limiting the iteration
+
+By default, the For Each event processes instances in **default order**. You can change this to process instances in a specific order by setting an **order by** expression on the event. For example, you can order by an object variable (such as health or ammo) or by a distance expression to process the closest instances first.
+
+Once an order by expression is set, you can also choose **ascending** (lowest value first) or **descending** (highest value first) ordering.
+
+Optionally, you can set a **limit** on the number of instances to process. When a limit is set, the event only iterates over the first N instances after ordering. This is useful, for example, to apply an effect to the 3 closest enemies, or to process only the top-scoring objects.
+
 ## How to add this event
 
 Right click (or long press) on an existing [event](/gdevelop5/events) and choose *"Add"* in the menu. Then, select the event you want to add.
