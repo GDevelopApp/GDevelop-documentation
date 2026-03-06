@@ -125,6 +125,16 @@ The "search in events" button opens a panel at the bottom of the screen. You can
 
 ![](/gdevelop5/interface/events-editor/pasted/20230313-184033.png)
 
+## Global Search (search across all event sheets)
+
+Global Search lets you search for text across **all event sheets** in your project at once — scenes, external events, and extensions included.
+
+Open it with **Ctrl+Shift+F** (or **Cmd+Shift+F** on macOS), or from the command palette (Ctrl+P) by searching for "Global search".
+
+Results are grouped by scene, external events sheet, or extension function. Clicking a result navigates directly to the matching event and highlights it in the event sheet, making it easy to track down where a particular object, variable, or expression is used throughout your project.
+
+You can toggle **Match Case** to make the search case-sensitive.
+
 ## Diagnostic Report
 
 The diagnostic report helps you find issues in your events such as missing actions, conditions, or expressions from extensions, as well as invalid parameters. When the Events Editor detects problems, they are shown with a red underline.
