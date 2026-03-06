@@ -3,35 +3,31 @@ title: Screenshot extension
 ---
 # Screenshot extension
 
-This extension lets you save a screenshot of the running game in a specified folder.
+This extension lets you save a screenshot of the running game to a file.
 
-Note: As of GDevelop 5.0.0-beta92 the screenshot action is no longer an extension. Just add an action and search for `screenshot` or go to `Other Actions`/`Screenshot`/`Take screenshot`.
+!!! warning
 
-### Actions
+    Screenshots are saved to the **local file system**, so this only works in **desktop (Windows/macOS/Linux) exports** built with Electron. The action has no effect in web/browser or mobile builds.
 
-#### Take screenshot
+## Take screenshot
 
-Use this action to save a screenshot of everything which is currently drawn on the game window into a *png* file.
+Use the **Take screenshot** action to save everything currently drawn on the game window as a PNG file.
 
-##### Parameters:
+**Save path**: The absolute path where the file should be saved, including the `.png` extension. If the extension is omitted it is added automatically.
 
-**Save path**: The file path where the screenshot should be saved.
+!!! tip
 
-The save path needs to be an absolute path on the file system (Like "C:\MyFolder\MyScreenshot.png" on Windows)'
+    Use the special folder expressions from the [File System extension](/gdevelop5/all-features/filesystem) to build a portable path that works across operating systems:
 
-Relative paths are not supported.
+    ```
+    FileSystem::PicturesPath() + FileSystem::PathDelimiter() + "my_screenshot.png"
+    ```
+
+    This saves the screenshot to the *Pictures* folder on Windows, macOS and Linux.
 
 !!! note
 
-    In order to create a game that runs on all supported platforms you should use the special folders from the file system extension in combination with the path separator. These determine the path to common folders like *Pictures*, *Documents* or *Desktop* automatically. You can read more about it in [this article](/gdevelop5/all-features/filesystem).
-
-## Example
-
-This path:
-
-``` <FileSystem::PicturesPath>() + <FileSystem::PathDelimiter>() + "my_screenshot.png" ```
-
-This will save the screenshot to the *Pictures* folder on Windows, Linux and MacOS.
+    Relative paths are not supported. Always use an absolute path or one built from a `FileSystem::` expression.
 
 ## Reference
 
