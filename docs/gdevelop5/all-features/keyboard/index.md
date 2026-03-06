@@ -3,39 +3,54 @@ title: Keyboard
 ---
 # Keyboard
 
-GDevelop gives access to all inputs made on the keyboard. This includes conditions to check if a key was pressed or released.
+GDevelop gives access to all inputs made on the keyboard. This includes conditions to check if a key was pressed, held, or released, and an expression to retrieve the last key pressed.
 
-## Any key pressed
+!!! warning
 
-For this condition, the corresponding action/s will be performed if any key on the keyboard is pressed.
+    Keyboard conditions do **not** work with on-screen touch keyboards on mobile devices. When targeting mobile or touch-screen platforms, use mouse/touch conditions instead (or gamepad conditions with a virtual joystick).
 
 ## Key pressed
 
-Whenever the key selected while setting this condition is pressed, the corresponding actions are performed.
+This condition is true as long as the key is **held down**. It is useful for continuous actions such as moving a character — the action runs every frame while the key is down.
+
+## Key just pressed
+
+This condition is true only for the **single frame when the key is first pressed down**. Use this for one-shot actions like jumping or firing a weapon, where you want the action to trigger once per key press rather than every frame.
+
+!!! tip
+
+    If a player complains that holding down the jump key makes them jump repeatedly, switch from **Key pressed** to **Key just pressed**.
 
 ## Key released
 
-Whenever the key selected while setting this condition is released, the corresponding actions are performed.
+This condition is true only for the **single frame when the key is released**. Useful for actions that should trigger at the moment the player lifts their finger.
 
-## Key pressed (text expression)
+## Any key pressed / Any key released
 
-To test a key press using this condition, you need to enter the key name in the form of text expression. For example, if you want to check condition for left arrow key press, you need to enter "Left" in the field.
+These conditions are true when **any** keyboard key is pressed or released, regardless of which one. Handy for "press any key to continue" prompts.
 
-!!! danger
+Use the **Last key pressed** expression to find out which key it was — for example, to display it in a text object or store it in a variable.
 
-    Make sure that the key name is surrounded by quotes.
+## Key names
 
-![](/gdevelop5/all-features/annotation_2019-06-20_191229.png)
+Keys are identified by name strings. Some common names:
 
-## Key released (text expression)
+| Key | Name string |
+|---|---|
+| Arrow keys | `Left`, `Right`, `Up`, `Down` |
+| Letter keys | `a`–`z` (lowercase) |
+| Number row | `Num0`–`Num9` |
+| Numpad digits | `Numpad0`–`Numpad9` |
+| Function keys | `F1`–`F12` |
+| Modifier keys | `LShift`, `RShift`, `LControl`, `RControl`, `LAlt`, `RAlt` |
+| Space / Enter | `Space`, `Return` |
+| Other | `Escape`, `Tab`, `Back` (Backspace), `Delete`, `Insert`, `Pause` |
 
-To test a key release using this condition, you need to enter the key name in the form of text expression. For example, if you want to check condition for left arrow key release, you need to enter "Left" in the field.
-
-![](/gdevelop5/all-features/annotation_2019-06-20_191302.png)
+The GDevelop event editor provides a key picker, so you rarely need to type names manually. The **Key pressed (text expression)** and **Key released (text expression)** variants accept the name as a text expression, which is useful when the key to check is stored in a variable.
 
 ## Last key pressed
 
-"Last key pressed" expression returns the last key press in the form of a string. For example, if the last key press is the left arrow key, the expression will return "Left".
+The `LastPressedKey()` expression returns the name of the most recently pressed key as a string. For example, if the player presses the left arrow key, the expression returns `"Left"`.
 
 ## Reference
 
