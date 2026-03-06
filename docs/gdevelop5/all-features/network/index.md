@@ -23,7 +23,7 @@ In addition to the address and the parameters, HTTP requests have a "method" (al
 
 Use the action **"Send a request to a web page"** and specify the full URL of the API endpoint (for example `https://mygame.com/api/store-score`), the request body content, and the method.
 
-The action is **asynchronous**: the game keeps running while waiting for the server reply. Use it inside an [async event](/gdevelop5/events/async) (with "await") if you need events below it to wait for the response before continuing.
+The action is optionally **asynchronous**: if you check "Wait for the action to end" in the editor, the following actions (and sub-events) will only be executed once the HTTP request response is received. The rest of the events will run and the game will continue to run as usual in the meantime.
 
 When the server responds, the result is saved in two variables you provide:
 
