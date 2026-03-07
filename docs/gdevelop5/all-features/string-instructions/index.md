@@ -64,3 +64,22 @@ If the string does not exist, -1 will be returned.
 In this expression, the string entered is searched in the text in the backward direction but rather than starting from the end, it starts from the position entered. This will give us the position of the last occurrence of the string in the text considered for search.
 
 If the string does not exist, -1 will be returned.
+
+## Replace text
+
+Two expressions are available to replace parts of a string:
+
+- **Replace all occurrences** (`StrReplaceAll`): replaces every occurrence of the search text with a replacement. For example, `StrReplaceAll("hello world world", "world", "there")` returns `"hello there there"`.
+- **Replace first occurrence** (`StrReplaceOne`): replaces only the first occurrence of the search text. For example, `StrReplaceOne("hello world world", "world", "there")` returns `"hello there world"`.
+
+Both expressions are case-sensitive. If the search text is not found, the original text is returned unchanged.
+
+!!! tip
+
+    `StrReplaceAll` is useful for formatting template strings. For example, you can store a template like `"Score: SCORE points"` in a variable and substitute the placeholder at display time:
+
+    `StrReplaceAll("Score: SCORE points", "SCORE", ToString(Variable(PlayerScore)))`
+
+## Reference
+
+All actions, conditions and expressions are listed in the [text manipulation reference page](/gdevelop5/all-features/string-instructions/reference/).
