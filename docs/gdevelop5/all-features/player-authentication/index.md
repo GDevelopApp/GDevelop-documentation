@@ -30,6 +30,8 @@ You can use the action **"Display authentication banner"**. For example, this ca
 
 We recommend showing the banner again if the user goes back to the main menu, or display a button to log in (see the next section).
 
+Use the action **"Hide authentication banner"** to programmatically remove the banner — for example, once the player has logged in or during a cutscene where the banner would be distracting.
+
 ## Open an authentication window
 
 The authentication window opens up when the player clicks on the banner, but if you want to handle the opening of the window yourself, you can use the action **"Open an authentication window"**. This is perfect if you prefer to have a "Login" or "Connect" button in your game. It's also useful if you want to ensure your players log in before playing.
@@ -57,15 +59,19 @@ This is particularly useful to implement to handle when a player logs in to a di
 
 If you'd like to retrieve the username of the connected player, to name a character in your game, or adapt your messages to be more personalized, you can use the expression `PlayerAuthentication::Username()`.
 
+## Get a player's unique ID
+
+Each player account has a stable **unique user ID** that never changes, even if the player updates their username. Use the expression `PlayerAuthentication::UserID()` to retrieve it.
+
+This ID is useful for:
+
+- Saving player-specific data server-side and being able to retrieve it for the same player across sessions.
+- Associating leaderboard scores with a specific player account.
+- Any scenario where you need a permanent, unchanging identifier rather than a display name.
+
 ## Log out the player
 
 If needed, an action is available to log out the player from the game, you can use the action **"Log out player"**.
-
-## Other features
-
-!!! note
-
-    Player accounts is still experimental and new features will quickly be added to find the player unique identifier, store progress, saves or items, and more!
 
 ## Reference
 
